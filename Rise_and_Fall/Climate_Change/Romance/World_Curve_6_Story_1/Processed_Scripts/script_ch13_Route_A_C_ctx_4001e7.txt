@@ -1,0 +1,163 @@
+### SCRIPT
+# Route: Route A / C
+# Context: 4001e7
+
+[Scene: Reclaimed Pier | Late Morning]
+[Background:"ch13_4001e7_1"]
+[Sound: The hollow clank of a hydraulic press somewhere down the pier; gulls argue over a scrap of foam]
+[Music: Sparse piano motif, minor, slow; a single sustained low note underneath]
+You keep your journal closed against your chest because it makes the grief take a shape you can hold. The leather is damp where your thumb worried the twine. Up close, the branded panels are not just better-made versions of what you and your neighbors bolted together—there are logos, serial numbers, a tidy stamp that reads: “CoastGuard Systems — Municipal Partner.”
+
+Your hands smell of salt and welding flux from the nights you taught neighbors to splice metal. Now the metal is folded into someone else’s ledger. You walk the length of the pier with your boots leaving dark footprints on the reclaimed planks, and every step feels like a small, private accusation.
+
+[Background:"ch13_4001e7_2"]
+You flip the cover of the journal open with an index-finger ritual you have when you need to count things you won’t say aloud—names of the people who built overnight checkpoints, who passed tools from one porch to the next, who taught you how to make a brittle seal flex. The names are a list of tenderness. The list feels insufficient.
+
+You hear a measured step behind you.
+
+Ilan Cortez: "I heard. I—" (He stops, as if the apology is a tool he is trying to fit into the right space.) "I never meant for this to be taken."
+
+Ava Marin: "Taken." (The word tastes like the exposed metal you used to hammer into place.) "They reverse-engineered the joints. They put their stamp on what we braided out of rope and rust."
+
+Ilan Cortez keeps his hands in his pockets. His vest is still damp from early-morning tests; the compass on his chain rubs against the fabric and gives a muted metallic whisper.
+
+Ilan Cortez: "I should have pushed for legal protection the moment we had the first successful cycle. I thought keeping it local—slow—would be safer. I misread the vector of how quickly somebody could scale it."
+
+Ava Marin: "You trusted networks. I trusted people. We thought different shields would keep the same thing safe."
+
+Ilan Cortez exhales and the sound is small and precise, like someone sealing an envelope you cannot open. He steps closer so you can see the small smudge of grease at the corner of his mouth.
+
+Ilan Cortez: "I'm sorry, Ava. Truly."
+
+You hold his apology in your mouth, turning it like a coin. Apologies are currency you have banked before—useful, but sometimes unable to replace what was taken.
+
+[INTERACTION]
+> Choice A: "Touch the compass"
+> Choice B: "Step back and scold"
+[Outcome A: "You close your fingers around the brass compass on his chain. It's warm from his body; the brass reads fingerprints like a map. You don't say anything—your fingers say it for you."]
+[Outcome B: "You step back, voice tight. 'Sorry doesn't weld bolts, Ilan.' Your tone is sharp enough to ring on the neighboring scaffolds. He flinches, and you hate that your voice made him smaller."]
+
+Ilan Cortez doesn't flinch long. He gathers his breath and folds it into words.
+
+Ilan Cortez: "I know. You had reasons. You wanted community control. I wanted to prove the tech could work without red tape. I thought... I thought stealth would protect us from the exact sort of capture that happened."
+
+Ava Marin: "It protected the design from paperwork. It didn't protect it from predators." (You say the word, and the pier seems to suck air in as if listening.)
+
+Ilan Cortez: "We underestimated how hungry the market is for things that look like community resilience. And how easy it is for someone with municipal contacts to dress appropriation in the language of 'upgrade' and 'maintenance.'"
+
+You both fall into a silence full of wind.
+
+[Scene: Tideward Boardwalk | Afternoon]
+[Background:"ch13_4001e7_3"]
+[Sound: A generator hums. A resident's radio plays a scrap of an old song through the drone of machinery]
+[Music: Low strings swell, unresolved; a wet brush of violin]
+You know each house on this stretch by the way each porch leans toward the sea, by the crooked post that Tomas hammered in wrong when he was young and stubborn. Today a crew stands where Tomas used to test an engine. Men in neat jackets hand a paper to an older woman whose hands could still fix the clumsy hinge on an outhouse door with a single glance.
+
+A municipal liaison is talking fast: "The stipend covers relocation costs, temporary housing, and a resettlement package. We will assist with legal counsel—"
+
+You watch the older woman's fingers trace the line where the contract asks for deed transfers; the paper is printed in small, careful type. You can read the clause that would move ownership from a family who has lived here for three generations into a trust that would secure the lot for ongoing 'resilience improvements.'
+
+Tomas Marin: "They're selling safety like it's a single-use ticket." (He stands with a shoulder toward you, eyes red from no sleep and salt spray.) "They come with calculators and smiles, and then they fold the neighborhood into a spreadsheet. You're telling me our people are supposed to believe the number on the page will keep our history?"
+
+Ava Marin: "I thought keeping the pilot quiet would—" (Your sentence hits a cold reef of failure.) "—would keep power where it belonged."
+
+Tomas Marin's jaw loosens with a humorless laugh: "Nice idea. But it lets people like them move in with a briefcase and an appetite. You can't defend memory with secrecy."
+
+Ava Marin: "But how do you marry the need to build with the need to protect? How do you make a thing too public to be stolen without letting it die in a boardroom?"
+
+Tomas shrugs, the motion carrying a lifetime of small concessions. "You come from a place that believes in fixing what breaks with whatever's to hand. They come from a place that counts what's been broken as collateral for a bigger plan. Sometimes I wonder if love for a place and love for a tech are two different kinds of stubbornness."
+
+You both look at the crews taking apart a porch, the soft scraping of wood as it gives way to new bolts. A small child watches, clutching a thermos, and her face is a question you don't yet have the nerve to answer.
+
+[Scene: Narrow Alley behind the Boardwalk | Late Afternoon Rain]
+[Background:"ch13_4001e7_4"]
+[Sound: Rain tapping metal roofs; a neighbour calls a name—Mira's voice, steadier than her hands]
+[Music: Single piano note repeated, each iteration dimmer]
+That night you and Ilan shelter beneath a tarpaulin by the old tool shed. The rain brings the smell of fresh wood and the pumped ozone of an approaching tide.
+
+Ilan Cortez pulls out a damp kit—pliers, a spool of solder, a roll of gaffer tape—each item arranged with the care of a man who builds his apologies into serviceable things.
+
+Ilan Cortez: "I tried to keep it small so it could be ours," he says. "But small isn't a shield. Small is a target if you don't also have law and leverage."
+
+Ava Marin: "So we built on trust and not on contracts. We taught people to rely on neighbors, not lawyers." (You close your eyes and remember a woman with the deed in her hand, asking what 'trust fund' meant. Your chest tightens.) "I wanted to keep things human."
+
+Ilan Cortez: "You made something that worked in dirt and rain. I loved that about you." (He reaches for your wet hair to tuck it behind your ear. The touch is gentle—both careful and familiar.) "I loved how you could make the neighborhood into a map that guided people home."
+
+You feel that warmth—private, fierce—settle around your shoulders like an old coat. For a breath, the pier, the crews, the contracts, the logos all shrink to a single, human seam.
+
+Ilan Cortez: "I don't excuse what happened. But I also want you to know I didn't intend for us to be the cudgel for corporate claims. I thought quiet would mean safety. I was wrong."
+
+Ava Marin: "When did being stubborn become causing harm?"
+
+Ilan Cortez doesn't answer right away. He counts words like screws, careful not to strip the head.
+
+Ilan Cortez: "When we forgot to look out and in at the same time. When 'we can fix this ourselves' became 'we will fix this without anyone else noticing.' It felt like protection. It was partial."
+
+You press your palm to his chest where the steady beat beneath his vest does the thing bodies do when they anchor each other: insist on presence.
+
+[INTERACTION]
+> Choice A: "Lean into him"
+> Choice B: "Step away and list grievances"
+[Outcome A: "You fold into the warmth available. The hug is small and human—wet hair, the smell of solder and rain. For a moment the world withdraws, and you remember why you built anything at all: to make room for people."]
+[Outcome B: "You step away and list the practical failures—no legal cushion, no open records, no public timestamp. His face tightens at each item and you can see the weight of what you both lost settle onto him. The space between you widens."]
+
+Ilan Cortez's voice is the thing that finally fills the distance. "Love shouldn't be an excuse for us to avoid structure. I want to learn that."
+
+Ava Marin: "I want to learn where stubbornness stops being protection and starts becoming damage."
+
+There is no tidy answer. The rain keeps time overhead as if measuring out the days in a damp tally. You close your eyes and let the geography of Tideward fold over you—the roofs, the gardens, the place names in your journal inked with a pressure that makes them real.
+
+[Scene: Boardwalk Edge | Dusk]
+[Background:"ch13_4001e7_5"]
+[Sound: Distant cheer of construction radios; a single pot boiling on a neighbor's stove]
+[Music: Low cello with a thin, plaintive flute—melody bending downward]
+By dusk, the visible fracture has a name. A developer team is proud in the way people are when they have charts that justify erasure: "This aligns with resilience modeling and risk amortization," their spokesperson says. Some residents took the stipend. Their decisions leave a raw edge—why take the money that would secure a new roof but sign away the right to return? Other neighbors refused, and they stand like weathered buoys, waiting for the tide to claim them.
+
+You tape a small archival marker to a stripped post—your handwriting jaunty and defiant in the face of formal erasure: "Rosa's Porch / 3 Generations." It feels ridiculous, and necessary.
+
+Tomas finds you, and when he puts his hand on your shoulder, his touch is an apology from a different life.
+
+Tomas Marin: "You tried. That counts for something. But we can't let counting alone be the policy of safety."
+
+Ava Marin: "I see now that small hands can be used to build things. They can also be used to make blueprints easy to copy."
+
+Tomas Marin: "We need both the hands and the law. The hands make it live. The law keeps it from being sold."
+
+You look at Ilan, then at the pier, then at the shrinking silhouettes of houses. Your stubbornness has been a balm and a blade. You feel the blade now—how stubborn refusal to involve formal mechanisms left a vulnerability.
+
+Ilan Cortez finds you again, fingers numb from the cold. He places something in your hand without fanfare: the compass he wears hung on a loop of twine, warm from being clasped. It’s a small, private thing; the metal prints his thumb into your palm in a way that says you are still part of his north.
+
+Ilan Cortez: "Keep this. So when you're out there mapping, you can find me in the same way I find you."
+
+You close your fingers around the brass. It is heavy enough to be a promise.
+
+[Background:"ch13_4001e7_6"]
+You flip through the pages—not to count losses but to remember the work that made things possible: names, schedules, recipes for mixes, who can cut and who can solder, where the heirloom seeds live in the community garden.
+
+Your stubbornness no longer feels like a virtue you can wear without consequence. It is a wound, tender because it has been used to keep people safe and because, in this instance, it did not.
+
+You could rage. You could retreat. You could rally. You will, in time, do all of these and more. But tonight, the city feels colder and the work sharper at its edges.
+
+You close the journal. The pages make a small sound like a tiny bellow.
+
+Ava Marin: (softly, to no one and to everyone) "We protected a thing the wrong way. We trusted the river of favors instead of putting a dam in front of it."
+
+Ilan Cortez takes your other hand. "We'll build both."
+
+You look at him. There is love there—quiet, necessary, flawed—which does not fix the legal clauses or the erased porches, but keeps you from turning wholly to stone.
+
+You stand on the pier until the lights blur and the branded panels throw back a reflection of yourselves—two small figures prone to complexity—walking home into a neighborhood that will require more than repair. It will require reckoning.
+
+[Music: A single low chord resolves into silence]
+[Background:"ch13_4001e7_7"]
+
+[Background:"ch13_4001e7_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

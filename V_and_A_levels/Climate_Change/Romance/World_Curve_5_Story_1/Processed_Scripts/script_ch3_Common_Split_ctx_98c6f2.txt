@@ -1,0 +1,104 @@
+### SCRIPT
+# Route: Route C
+# Context: 98c6f2
+
+[Scene: Marisol Bay Boardwalk | Late Afternoon]
+[Background:"ch3_98c6f2_1"]
+[Music: Low, hopeful strings; steady tempo]
+[Sound: Rain thinning to a soft, steady hiss; gulls calling distantly]
+
+You step out from under the hall's overhang and the air smells of salt and warm wood—an ordinary sensory thread that steadies you even as everything else tightens. The meeting's words are still in your mouth like a taste of iron and seaweed. People disperse in small knots: fingers point at maps, voices dropping to practical planning. The decision you announced in the hall sits behind your ribs, heavy and clear.
+
+Luka Maren is already here, hands shoved into his patched smock pockets, eyes on the water. The wind teases the faded sea-green streak behind your left ear and you feel it lift, light as a flag. He turns when you approach; his amber eyes soften and then sharpen, the way someone calculates weather, then decides whether to wade in.
+
+Luka Maren: "You said three paths in there. I—" (he looks away, then back) "Someone from Voss called me yesterday. They wanted to talk about scaling my sensors. Paid position, full support."
+
+Amaya Reyes: You keep your voice level; blunt is kinder than the lump in your chest. "A recruiter from Voss? Did they say why they'd pick you?"
+
+Luka Maren: (shifts, rubs the back of his neck) "Said my prototypes looked promising. Said they'd like to bring my tech into a larger pilot. I told them I had commitments here. I didn't say no. I—" His hands flutter, searching for a script that doesn't exist. "It feels like... an opportunity to make things work on a bigger scale. But it also feels like handing the map to someone with other stamps."
+
+Amaya Reyes: "You could do good at scale," you say slowly. "You could also lose the steering wheel." Your words are not accusation; they're a ledger you both read from opposite sides. "What are you afraid of?"
+
+Luka Maren: (after a beat) "Being the kind of person who replaces people's livelihoods with neat technical diagrams because it looked cleaner on a balance sheet." He looks down at the water, then back to you. "And failing. I don't want to fail us, Ama."
+
+Your name sounds small and raw on his tongue. Your chest tightens and you let the tide of that old guilt wash out—recognition, not ownership this time.
+
+[INTERACTION]
+> Choice A: "Take Luka's hand"
+> Choice B: "Tap the notebook at your hip"
+[Outcome A: "Your fingers close around his, warm and callused. He exhales, steadier—someone whose circuits you can calibrate with a touch."]
+[Outcome B: "Your palm rests on the leather, the tide maps inside humming like a promise. You don't have to answer him immediately; plans are also a kind of reply."]
+[MERGE: Luka Maren: (if you take his hand) "Okay," he says, voice small. "Okay. I don't want to be the person who walks away either." (if you tap the notebook) "I get it. Bring the data, bring the plan. We'll not let it be a sell-off."]
+
+Abuela Rosa arrives, following the scent of hot tea and old rope; her shawl flutters like a small sail. Her hand settles on your shoulder—a simple, solid pressure that says shorelines remember their people.
+
+Abuela Rosa: "The sea moves. It does not hurry, niña. It keeps its promises and its debts. We must make our promises to each other louder than the roar of machines."
+
+Amaya Reyes: "We will," you tell her. The conviction is steadier when it has a human hand to lean on. "We have options, Abuela. We have people who will dig in."
+
+Abuela Rosa: (squeezes) "Good. Dig. Plant. Sing. Papers and men in glass can try to move the shoreline; but they cannot replace the stories in our houses."
+
+Mateo appears just then, smelling of diesel and fish, jaw set in the way that has stopped storms before. He stands a stride away, not crowding, but present—your brother and a living ledger of what is at stake.
+
+Mateo: "If Voss gets inside us, they'll want to relocate the docks, reroute the shrimpers. My nets are thin now because of the tide. They call it efficiency—same word they use for a bulldozer." He spits the word out like lemon. "We need something that keeps people fishing."
+
+Amaya Reyes: "We won't let them write us off," you say. You catch the look between Mateo and Abuela Rosa—the old rhythm of worry and trust folding together—and for the first time since the meeting the anxiety shifts into motion: a plan becoming hands and feet.
+
+A courier in a trench-like coat steps down the ramp, the Voss crest discreet and precise on a folded envelope. No flourish, no raised voices—just a small, clinical act, the way people with polished business cards make claims on messy lives. Tamsin's tablet buzzes; a terse message from her: she can open a channel with Voss—on their terms or with the town present.
+
+You notice the courier's posture more than his face: efficient, unfazed. His presence is not a scream; it's a notch in the timeline. Corinne herself does not stand here—her shadow is a shape in the message, compact and deliberate. Her meaning is unreadable until unfolded.
+
+Corinne Voss: (via the courier's envelope / Tamsin's tablet; message tone) "We are prepared to explore a pilot that secures infrastructure while considering community needs. We propose an initial assessment. Respectfully, C.V."
+
+You read the line twice. The words are small and measured, but something in them promises both protection and the risk of erasure.
+
+Luka Maren: (soft) "She's persuasive."
+
+Amaya Reyes: "She's practiced." You fold the envelope—containment makes it less dangerous for a moment. "She'll come with lawyers in nice jackets. She'll come with models and maps. She won't come with the smell of drying nets."
+
+Mateo: (barks a short laugh) "So we make her understand what the nets mean."
+
+Abuela Rosa: "Or we make the nets mean something she cannot measure." She taps the bench where tide maps are spread in your head: faces, birthdays, the way the gulls roost on the pier every second winter. "Numbers are bones; people are stories."
+
+The air feels charged but not frenzied—like the moment before a boat's line is hoisted, precise and alive. Around you, the crowd reconstructs itself into practical cells: someone calls volunteers to move seedlings; someone else sketches a route for a community meeting; a small group talk of legal counsel and chain-of-custody. Each is a different shape of the same resolve.
+
+[INTERACTION]
+> Choice A: "Open the envelope and read Corinne's full proposal aloud"
+> Choice B: "Pocket the envelope for later and ask Tamsin to set a private channel"
+[Outcome A: "You slide the page free. The words are clinical, but spoken aloud they sound like claims you can counter—evidence becomes a weapon as well as a shield."]
+[Outcome B: "You stuff the paper into your jacket. Private channels buy time. Tamsin nods; the planner in her recognizes a tactical pause."]
+[MERGE: Luka Maren steps closer. "Whatever you pick," he says, "I will help. If you go to the marsh, I'll bring the sensors. If you sit at a table, I'll bring prototypes and talk through their limits. If it's legal—I'll help document everything. I don't know if that's cowardice or commitment."]
+
+You look at him—at the honest tilt of his head, at the tremor in his voice where optimism and fear meet. Your old habit is to take the weight alone, to shoulder everyone so no one else needs to. Abuela's hand on your shoulder is still there, quiet as ballast.
+
+Amaya Reyes: "You're not alone in it. Whatever path we choose, we'll choose how to do it together." The words are simple; they land like pebbles in still water, sending ripples outward.
+
+Every path in your head is a different kind of work: chalk-stained hands and the heat of a rally; a sterile room with holograms and careful concessions; courtrooms and chain-of-custody. None of them are clean. All of them are possible. The optimism in you—quiet but stubborn—flutters into a plan: there's no perfect answer, only one you can commit to and carry with care.
+
+The town hums around you, every small movement an argument toward hope. The music swells a degree, a mid-tempo lift—enough to make the shoulders straighten, not to rush the breath. Your arousal, steady and practical, builds toward decision: a pulse that says choose and act.
+
+You inhale the salt, the ozone, the faint citrus of the courier's paper. You think of the childhood friend you lost to a flood, the reason you returned to Marisol, the ledger of people's names you keep not to tally losses but to remember what to save. You think of Luka Maren's amber eyes meeting yours across a map-smeared table. You think of Abuela Rosa's shawl and Mateo's callused hands.
+
+The moment arrives like the lip of a tide: inevitable and clarifying. You look down at the maps inside your bag, at the envelope in your pocket, at the small bracelet of wildflower seeds braided on your wrist—things that remind you there are seeds for restoration, data for defense, and voices that must be heard.
+
+[Music: Strings settle into a steady, hopeful rhythm; the sound of the bay becomes intimate and present]
+
+You stand on the boardwalk, wind at your back, the town watching and working. It is time to commit to one detailed plan—the first real step from talk into action. Your voice is calm and bright.
+
+Amaya Reyes: "We pick a path, and we do it together."
+
+[DECISION POINT]
+1) Option 1: "Begin coordinated marsh restoration and public demonstrations." -> TARGET chapter_id: [4]
+2) Option 2: "Enter formal negotiations with Tamsin and Voss, propose a hybrid pilot." -> TARGET chapter_id: [7]
+3) Option 3: "File for regulatory review and begin a data-release strategy with legal counsel." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Begin coordinated marsh restoration and public demonstrat..." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Enter formal negotiations with Tamsin and Voss, propose a..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "File for regulatory review and begin a data-release strat..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

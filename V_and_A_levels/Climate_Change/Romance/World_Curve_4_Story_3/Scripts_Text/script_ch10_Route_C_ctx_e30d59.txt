@@ -1,0 +1,143 @@
+### SCRIPT
+# Route: Additional / Ending (Sad)
+# Context: e30d59
+
+[Scene: Municipal Office | Night]
+[Visual: A low-slung municipal building of glass and concrete; windows beaded with salt spray. Inside, a long table under soft downlights. Papers, a tablet, and a rolled schematic rest between cups of cooling coffee.]
+[Music: Quiet, tense ambient piano — steady, deliberate]
+[Sound: Distant traffic muffled by fog; an occasional gull like a throat clearing]
+
+You pause at the door and feel the room a half-step ahead of you — anticipatory, cool, a place where language gets sharpened into signatures. The glass has a veil of ocean on it; each breath outside has left a faint salt bloom that ghosts across the panes. You tuck your compass under your palm like a small, private weight and step in.
+
+Mayor Rosa is already there, hands folded, her floral scarf damp at the edges. She smiles with the practiced warmth of someone who balances people and spreadsheets every day; the smile falters when she sees you, as if the ledger between you has become heavier. Lila Park is opposite, immaculately composed, the Beacon’s sterile confidence distilled into human form — fingers steepled over a sleek tablet, expression patient and bright.
+
+Noah Reyes stands just behind you, less a presence than a current: quiet, ready. He catches your eye and gives the fraction of a nod that has kept you steady in public meetings. Tonight, in the hush of the municipal office, that nod feels like an anchor.
+
+You take your seat. The room smells of ozone, printer toner, and the humid tang of sea left on clothes. You set your ledger beside the blueprints and let your fingers rest over the compass until the meeting begins.
+
+Mayor Rosa: "Thank you both for coming. We ran out of room at the hall; some conversations are… easier in private. Lila, you said you had a staged offer to present."
+
+Lila Park [smiles, unhurried]: "Yes. We've outlined a phased funding plan: initial deployment of sensors across the most vulnerable stretches, a seed fund for pilot upkeep, and incremental infrastructure support tied to performance metrics. It keeps capital flowing and gives the town immediate risk reduction."
+
+She taps the tablet. A schematic blooms on the screen — neat nodes, timelines, bullet points in corporate blue. The language is efficient, designed to comfort and to compress uncertainty into deliverables.
+
+You listen. You can feel the familiar argument forming in your chest: speed versus sovereignty. The words you want to say press at the hinge of your jaw.
+
+[INTERACTION]
+> Choice A: "Flip open your ledger and point to the governance appendix"
+> Choice B: "Keep your hands folded and ask a clarifying question about the pilot's metrics"
+[Outcome A: You slide your ledger forward. The page is dog-eared where you practiced wording with Marta; your finger traces a margin note demanding resident veto powers. Your voice is steadier than you feel as you ask how local governance is protected.]
+[Outcome B: You fold your hands, forcing calm. You ask about the metrics — who sets them, and how success will be measured. Lila gives a crisp answer; Rosa listens for the political pulse in the numbers.]
+[MERGE: You choose both by halves: your ledger opens, but your first words are technical, tactical — the soft place where you think you can hold them.]
+
+Asha Moreno: "The pilot's metrics — and the governance around them. Who holds the authority to change thresholds? Who maintains the upkeep fund if the sensors need replacement? We need resident oversight baked in, not tacked on."
+
+Lila Park [tilts her head, patient]: "We can structure oversight. Staged funding means staged responsibilities. The firm manages the rollout and guarantees liability cover for hardware failure. We can include a community liaison board as an advisory body."
+
+Mayor Rosa [quickly]: "Advisory is the practical term here. We can't create vetoes that will make investors pull back. We need assurances that spending will be efficient and accountable. My re-election —" (she stops herself, then sighs) "— my re-election depends on me delivering results and not lawsuits."
+
+Noah Reyes leans forward, voice low and steady. He knows the room's seam better than anyone — how to stitch a civic stitch without tearing cloth.
+
+Noah Reyes: "Advisory board with statutory review sessions—six months in, with a mandatory assessment by an independent auditor. If thresholds are unmet, we reopen the governance conversation. That gives residents a formal entry point and keeps the timeline Lila needs."
+
+Lila Park [a small, calibrated smile]: "Independent auditors are fine. We can provision a pilot upkeep fund that triggers replacement within thirty days of a validated failure. Expedited timelines matter — every season the sensors are delayed is another season of exposure."
+
+She says 'exposure' like it is a measurable unit; the word lands in the room as a cold fact.
+
+Asha Moreno: "What about asset language? 'Managed assets' and 'third-party adjudication' — I don't want community spaces or docks shifted into a framework where an outside party can reassign them."
+
+Lila Park [careful]: "Those clauses are standard. They protect both parties from overlapping liabilities and ensure disputes have a neutral resolution. Third-party adjudication avoids politicized decisions."
+
+Mayor Rosa [rubs the bridge of her nose]: "Neutral sounds good in theory, but neutral in practice is often expensive and distant. Our people want to feel they still own their porches, their stalls. If we can get strong language about access rights, maybe we can live with adjudication as a last resort."
+
+There is a pause. The three of you orbit the same set of trade-offs: clarity against control, immediacy against local authority. You feel the room compress, air thickening with clauses and compromises.
+
+Noah Reyes [more insistent]: "Include explicit language that any asset reclassification requires a town council vote. Make the adjudication a mediation that includes community representatives before any external arbitration is triggered."
+
+Lila Park [nods, but the nod doesn't reach her eyes]: "We can draft that. It slows processes."
+
+Mayor Rosa [sharp, practical]: "Speed also matters. I can't promise my constituents a year of negotiations. We need a pilot deployed this season to demonstrate tangible risk reduction before the next petition cycle."
+
+You sense Rosa's calendar like a clock inside her. Her decisions are measured not only in municipal priorities but in the cadence of votes and weather windows.
+
+You push. You must push; otherwise the neat coverlet of safety will slip away, revealing the hard mattress of terms sewn by contract law.
+
+Asha Moreno: "Six months with mandatory review and resident representation — written clauses on asset access and a clear sunset for third-party adjudication unless all local routes are exhausted. And the upkeep fund needs transparent accounting, audit rights for the town."
+
+Lila Park: "We can agree to a monitored pilot with a six-month revisit. We are willing to include a community liaison and auditing. I'll have legal draft a clause about asset reclassification needing council approval before adjudication is considered."
+
+Her words are generosity and calculation braided together. She frames the concession as a concession, not a surrender.
+
+Mayor Rosa [relief thin as paper]: "If it's legally sound and the Beacon provides immediate sensor coverage, I can stand behind this at the next meeting."
+
+Noah Reyes exhales. The room softens for a breath — not victory, but an accord that moves things forward.
+
+[INTERACTION]
+> Choice A: "Ask to see the draft clause now"
+> Choice B: "Accept the verbal agreement and request the draft by email tomorrow"
+[Outcome A: You reach for the tablet before words complete, wanting the exact letters. Lila swivels it toward you. The clause is legible but dense — 'managed assets,' 'third-party adjudication,' 'fiduciary gatekeeping.' Your stomach climbs a little; the terms look like a map that bends property law toward corporate safeguards.]
+[Outcome B: You force yourself to relax your hands. 'Email it tomorrow,' you say. Lila nods. For a moment you feel like you're preserving momentum, but under that relief is the taste of compromise: fine print waiting to bloom.]
+[MERGE: You ask to see the draft clause. You need to feel the paper, even if it's pixels. Lila turns the tablet, and you read. The legal verbiage is familiar in form but foreign in consequence: 'managed assets,' language that could allow a corporation to reclassify, 'third-party adjudication' buried as a dispute resolution flowchart. There are shields for liability that read like fences around power.]
+
+Lila Park [softly, when you glance up]: "It's standard protection. It prevents frivolous claims and ensures decisions are made by trained arbitrators."
+
+Asha Moreno: "Trained by whom? Paid by whom? Arbitration can be faster, but it can also be a private hallway where community voices are muffled."
+
+Mayor Rosa [quiet]: "If it's the only way to get funding flowing this season, we may have to accept some risk. But we'll keep the six-month clause. We'll keep oversight."
+
+Noah Reyes reaches across and lays a hand near yours on the table — not a touch that simplifies, but one that steadies. You feel the gesture as both a comfort and a reminder that the next steps will be yours to hold.
+
+The negotiation concludes with the shape the room allows: monitored pilot, staged funding, community liaison, six-month mandatory review. The legal drafts will be circulated. Lila will have her deployment window. Rosa will have her demonstrable safety milestone.
+
+You leave the room with paper outlines and the tablet's glow on your retinas, with the agreed timeline humming like a distant siren you cannot quite hear. The corridor outside carries the damp sea air; your jacket picks up the metallic tang of salt.
+
+[Scene: Promenade | Night]
+[Visual: The wooden boards glimmer under sodium lights; neon warnings from the Beacon paint the night in bands of washed electric blue. A vendor's lantern has been extinguished; the market shudders in a breath of wind.]
+[Sound: Boards creak underfoot; the Beacon's distant hum like a sleeping machine]
+
+You walk the boards alone. The Promenade is a ribbon of memory: stalls that used to smell of frying fish, a child's laughter caught and left in a gutter, the faint smear of engine oil on a post. Tonight the air tastes of wet wood and neon warnings, and each step sounds louder than your own thoughts.
+
+Your compass is warm from your palm; you hold it closer now, an heirloom that taught a fisherman to read the sea by sky and smell. Your father's hands taught you to judge tides by a thumb on a rope and a way of listening; tonight contracts and clauses feel like a new tide you have to read without that quiet skill.
+
+You think of what you traded — not in blame so much as in arithmetic. Transparency for speed; a council vote for a funded pilot; the hope that six months will be enough to preserve both home and autonomy. It's a ledger with ink on both sides.
+
+Noah Reyes walks up beside you without comment. He keeps his distance, giving your sorrow its space. When he speaks, it's the huskiest sound of someone who has held many small consolations to keep others steady.
+
+Noah Reyes: "You did what you thought would save time. Sometimes that's all 'saving' looks like."
+
+Asha Moreno [bitter, soft]: "Sometimes saving looks like being the one who lets someone else hold the keys. I don't know if I traded openness for a ladder they can climb over us with."
+
+Noah Reyes [searching for the right tact]: "Maybe. Or maybe we bought time. Six months to show we can govern the tech, six months to prove the town isn't a liability. We use that time, Asha. We make them live up to the clauses."
+
+You want to believe him. You want the ledger to balance on the right side. But the legal phrases keep surfacing in your mind like flotsam: 'managed assets', 'third-party adjudication' — phrases that could, in the wrong hands, strip away the soft edges of your town.
+
+You look back at the Beacon across the water. Its halo is a cool white, precise and implacable. The tower's lights promise rationality and order. They also promise power centralized in a way that doesn't fit well with porch music and salted tomato seedlings.
+
+You press the compass against your throat, feeling the cord fray against your skin. The ache is not immediate; it is the slow accrual of small concessions that become a bedrock.
+
+Noah Reyes: "We'll be there at the review. We'll stand up the liaison. We'll make every audit public. We'll make sure people can read the ledger."
+
+Asha Moreno: "We'll try."
+
+The word feels both like a vow and a last resort. Behind it is the knowledge that 'try' is not a guarantee. There's a lifetime of weather in one syllable.
+
+[Visual: Close-up on your hand tightening around the compass; the metal catches a strip of Beacon light]
+[Music: Single piano note lingers, unresolved]
+
+Page-turning thought: The pilot begins as an emergency patch against the tide — but legal drafts are seeds, too. You carry tonight's agreement like a pebble in your pocket. You have bought time, but you have also placed certain words in legal soil. They will sprout in the months ahead — perhaps tender shoots of protection, perhaps hedges that fence the public out. You imagine reading those sprouttings someday and not recognizing the garden.
+
+[Visual: The Beacon's halo turns; a wave of sensor lights runs down the glass like scales]
+[Sound: The distant whirr of the Beacon; a gull, solitary and raw]
+[Music: Tense ambient fades to a low sustained chord]
+
+You tighten your jacket and step away from the Promenade, the compass a hot coin in your hand. Behind you, the Beacon's legal drafts spin their own small tide on servers you do not control.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 11]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 11
+    > Jump Target File: script_ch11_Route_C_Split_ctx_ac0435.txt

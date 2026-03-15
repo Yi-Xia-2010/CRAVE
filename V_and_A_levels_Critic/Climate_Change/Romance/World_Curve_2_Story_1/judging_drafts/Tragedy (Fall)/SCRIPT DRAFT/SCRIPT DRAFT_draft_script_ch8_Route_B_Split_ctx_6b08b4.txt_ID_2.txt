@@ -1,0 +1,148 @@
+[Scene: Wave Innovation Lab | Night]
+[Visual: Interior, cool fluorescent strips flickering; a bank of monitors shows waveform graphs and warning icons]
+[Music: Staccato electronic pulses over a low, urgent drum]
+[Sound: Rain hammering on corrugated metal, a distant siren cutting off as it nears]
+
+You step into the lab and the air hits you—salty, sharp, threaded with the hot iron of overloaded circuitry. Your boots splash in a shallow puddle by the bench; someone kicked off a muddy pair where the floor slopes. Screens blink where they'd been steady all week; a cascade of red alerts scroll down a monitor with the buoys' IDs like a string of falling teeth.
+
+Mateo stands close to the console, sleeves rolled to his elbows, face lit by a strobelight of diagnostics. He looks like he hasn't slept; you can see the way his jaw clenches when the next feed drops out. His hands move quick and precise, the same gentle nervousness he has when speaking about design—only now it's edged with something raw.
+
+Mateo: "We throttled the damping algorithm, but the surge came faster than predicted. The link stack overheated—three nodes fried, comms looped, then we lost the sequence sync. That pushed a failure cascade to the southern string."
+
+You want to catalog the technical terms—repeat them back to hold them like a net—but your chest is a tight, wet thing. You picture low blocks in the harbor—porches where kids leave shoes; Mrs. Hargrove's ground-level pantry; Jun's small boat tied to the low cleat. Data points have faces in Tidebridge. They are not numbers to you.
+
+You move to the nearest monitor, the same one that showed hopeful charts yesterday, and drag up a map overlay. The color washes dark where water now covers familiar streets. Flood markers pulse over the lowest blocks—little red pips that feel like small alarm bells in your ribcage.
+
+Etta huffs into the lab like a gust, hair streaked with rain. She smells of peat and wet wool, and when she wipes her palms along her apron the motion is more about steadiness than cleaning.
+
+Etta: "Ari—how bad?"
+
+You: "Southern low blocks under the plaza are seeing surge overflow. Pumps are at max. The buoys held at first, but the overload pushed them past redundancy. We lost coverage when the comms cascaded. Mateo's stabilizers got them through—mostly—but not everywhere."
+
+Etta's mouth tightens. She sets her palm over a schematic as if blessing it. Her hands are never still.
+
+Etta: "This is the season. Storms fold faster now. We told them the pilot was a proof, not a cure."
+
+Mara moves beside you, recorder in hand, hair plastered to her forehead. Her voice is clipped because she is still in journalist mode—notes first, then the rest.
+
+Mara: "I have footage from the harbor: flooding on Pelican Row, two street-level shops taking water. People are moving things upstairs. Jun's nets got waterlogged—he's out there with a tarp, shouting for help."
+
+You: "Make sure to tag names. If Council sees the faces, they'll stop pretending this is only an engineering hiccup."
+
+Mara hesitates, searching your face. The recorder is a small bright thing in her palm, an accusing eye.
+
+Mara: "You think Council will act without Elio's backing? Investors are already asking for fast-tracking pilot scale. They're calling this the moment to 'prove value.'"
+
+All at once the lab feels like the inside of a bell. Pressure builds against your sternum. Very quickly. Too quickly.
+
+[Interactive Moment: Choice A ("Pull Mateo aside and check the raw buoy logs yourself") -> Reaction: "You drag him to the server rack; his fingers freeze on the touchpad and then move—slow and steady—while somewhere outside another alarm wails." || Choice B ("Call Jun to confirm which neighborhoods need help first") -> Reaction: "You fumble the number on your phone; his voice is wind-brittle, but he names two houses—dire and immediate—and you write them down, the letters shaky." || Choice C ("Ask Mara to broadcast an emergency appeal for volunteers") -> Reaction: "Mara blinks, then nods; already energized, she starts typing a terse message into the feed that will pull people into the streets." ]
+
+The choices hang for a beat—micro-decisions that taste of control. You pick one and the lab's tempo bends around it. If you pulled Mateo in, his eyes soften in a way that makes you feel the small, private weight of what you're about to ask of him. If you call Jun, you hear his abrasion and resolve and you are reminded how mutable promises are in stormwater. If you push Mara, her typing is a flinty counterpoint to your own steadying breath.
+
+[Scene: Tidebridge Harbor | Night — Immediately after]
+[Visual: Floodlights throw spectral cones across ruined ropes and half-submerged crates; seawater glitters like black glass]
+[Sound: The relentless drum of rain, the slap of water against pilings, neighbors shouting over the wind]
+
+The harbor is chaos molded into familiar shapes. A child's bike floats near a partially submerged bench like a pale threat. Someone has lashed a plank over a doorway to stop the spill of water; someone else stands on the plank like a sentinel, teeth bared against cold.
+
+You walk the docks side by side with Mateo. His jacket is sodden; salt streaks his hair into darker curls. His shoulders are set like a person bracing for impact—useful, steady, but showing strain.
+
+Mateo: "We underestimated the compound effects. The buoys redistributed power during the surge, but when the nodes failed, the redundancy routing couldn't re-engage in time. If we scale without changing the architecture, we'll repeat this."
+
+You: "So we'd need faster reboot paths, localized storage—"
+
+Mateo (interrupting, voice small): "Which costs more. Which means investors will want faster returns. Which is why Elio's firm is offering to front manufacturing if we agree to licensing."
+
+The word "licensing" drops like a cold stone into your gut. Intellectual control. Proprietary maintenance. A sealed system where you cannot pull the hood back because of NDAs and corporate clauses. The idea feels like theft—of local knowledge, of access.
+
+By the water, a woman whose doorstep you helped shore up last spring—her name on your list, faded—stands watching the harbor with a child pressed to her hip. The child wipes saltwater from her cheek with the back of her wrist as if it's another day's weather.
+
+You find your voice like a drawn line.
+
+You: "We built the pilot so Tidebridge could keep its hands on its own shore. We said open-data. We said community governance. We can't sign away our oversight because a corporate timeline wants faster products."
+
+Mateo's reply is not immediate. He looks at you like you're both trying to occupy the same physical space of responsibility.
+
+Mateo: "I know. I don't want that for us either. But we need manufacturing at scale to replace failed units and to get enough redundancy to protect low blocks. Waiting for grassroots funding could mean another winter like this."
+
+Tension tightens; it's starting to taste metallic. Around you, neighbors shout into the dark—someone calls for sandbags, someone else curses at a pump. The mood is a coiled wire about to snap.
+
+[Scene: Municipal Plaza | Later that night — Emergency Meeting]
+[Visual: Tents cluster under sodden banners; a projector shows the buoy map with the flooded sections pulsing in red]
+[Music: Low, urgent strings; a high, single violin note cuts occasionally]
+[Sound: A megaphone hiss; the murmuring of a gathered, rain-sodden crowd]
+
+Councilor Rosa Menendez stands under the overhang, speaking soft enough that only those nearest hear. Lights from media rigs paint faces in harsh whites and blues. Elio stands to one side like a conductor waiting, his coat dry and measured despite the weather. He looks at you as if he has been waiting for precisely this wet, nervous hour.
+
+Elio: "Tidebridge needs decisive scaling. Data shows the hybrid buoy-marsh model reduces localized surge within two seasons if we can deploy at scale. My firm can manufacture and deploy quickly. We offer capital, supply chains, and maintenance protocols."
+
+Even his words, polished and plain, have a tremor of urgency that makes the crowd lean forward. He gestures—small, confident. Elio's charm is a practiced tide that draws even wary faces toward him.
+
+You: "What's the price?"
+
+Elio: (cool, careful) "Intellectual control over manufacturing rights for the wave-harvest algorithms and prioritized access to the main service contracts—for a limited term, with compensation to the community trust. We propose a governance board with community representation, and we will guarantee open-data access under tailored provisions."
+
+You watch the crowd react: some nod, exhausted; some bristle. The phrase "limited term" sits like a mask—promising and opaque at once.
+
+Etta pushes forward, voice like a clipped reed.
+
+Etta: "Limited term. How many years? What prevents them from extending? How do we ensure we keep the right to tinker when our folks modify buoys for local conditions?"
+
+Elio: "We include clauses. Third-party audits. Community engineers on staff. We can lock down the licensing period and attach strict open-access provisions."
+
+Your internal monologue tightens into an argument with itself—iron filings aligning with a storm's magnet.
+
+You think: He phrases it as partnership, but the structure matters. Intellectual control isn't neutral. It shapes who gets to decide what counts as 'safe' or 'efficient.' It decides who profits, and who gets to adapt hardware when new tidal patterns emerge.
+
+Mara: (sharp) "And if they monetize access? If the service costs more during emergencies?"
+
+Elio: "We can stipulate emergency access terms. My firm has a reputation to protect."
+
+Mateo's hand finds yours in the middle of the plaza. No one needs to see the pressure; the squeeze is private and full of static.
+
+Mateo: "If we can get manufacturing and install the extra storage hubs, we could plug the architecture gaps. I can write—(he swallows) —I can write strong community oversight into the implementation plan. But legal costs for those clauses are not nothing."
+
+You: "Legal costs—fine. But how many strings are in the small print? How many board seats handed to outside investors do we have to accept before the community trust is only decorative?"
+
+A woman in the audience—someone you know only by the name of her shop—calls out, voice ragged: "Do whatever it takes, Ari. My grandson sleeps in the upstairs room now 'cause the water came in. We need shelter."
+
+The plea hits you as if someone has thrown a stone through an already cracked window. The stakes feel both immediate and political, and the crowd's need pushes at you like an incoming tide.
+
+Etta steps close, low enough for you only to hear.
+
+Etta: "You shoulder everything, Ari. You think you can hold the whole town up. You don't have to—let us carry some."
+
+You: "I know. But I also know handovers become handcuffs. I should be able to trust you, Elio—but trust isn't enough for infrastructure."
+
+Elio: (softening) "I'm not asking you to blind-faith us. I'm offering a structure. We—"
+
+Mara, ever a blade, interrupts.
+
+Mara: "Elio, there are contracts from your firm in other towns where the 'structure' gradually shifted into buyouts and closed access. Are you prepared to let independent auditors and journalists review archives during negotiations?"
+
+Elio's jaw tightens just a fraction. He meets Mara's gaze, the first crack in his cool.
+
+Elio: "Yes—within reason. Confidentiality agreements structure certain data. But transparency will be part of our pitch; we cannot survive without public trust."
+
+The crowd's energy is a split current now—some leaning toward pragmatic acceptance, others toward fierce protection of self-governance. Your pulse hammers an urgent rhythm. The night compresses into a tight corridor: the storm, the flood, the choice.
+
+[Interactive Moment: Choice A ("Insist that any contract has community veto on upgrades") -> Reaction: "You stand up straighter and say the words into the mic; a hush falls, and Elio's smile thins but the crowd murmurs in approval." || Choice B ("Ask Mateo to outline the minimum technical changes needed before scaling") -> Reaction: "Mateo steps forward, voice slightly shaky but expert; he lays out what redundancy and storage would look like and the audience leans in to the specifics." ]
+
+Your breath comes fast now. The plaza feels like a pressure cooker—steam about to vent. Mateo's explanation is practical, grounding, but the policy strings are not technical—they are legal, binding, and indefinite. Etta's earlier warning pulses in your ears.
+
+You can feel the decision crystallizing, as if the town's future is a shape in shifting sand and you are the first finger to press.
+
+Everything accelerates—the wind, the monitors, the crowd's heartbeat. You see, sharpened: the flooded porches, Jun's tarp, the child on the dock, Mateo's damp hand in yours, Elio's measured calm and the investors waiting in the wings like toads beneath a lily pad.
+
+You know the options in front of you are brutal and real: sign the contract and get rapid scale at the cost of ceding technical control; insist on purely community-funded scaling and risk slower deployment and potential repeated failures; pause everything for an independent audit and renegotiation, which could delay protections while legal fights begin.
+
+Your throat tightens. You taste copper and rain. The world narrows to a single decision point—one that will decide not just machines and money, but who Tidebridge will be when the water next rises.
+
+[Music: Tension peaks — a rapid percussion cadence; strings sprint upward, then hold on a single, long note]
+[Visual: Close-up on your sea-glass eyes reflecting the glowing map of red pulses; your hand tightens on Mateo's]
+
+[DECISION POINT]
+How do we scale after the buoy failure?
+1) Sign private investment with legal safeguards. -> TARGET chapter_id: 9
+2) Insist on community-operated scaling and grassroots funding. -> TARGET chapter_id: 11
+3) Pause and seek an independent audit and renegotiate contracts. -> TARGET chapter_id: 15

@@ -1,0 +1,275 @@
+label chapter15:
+
+    # [Scene: Municipal Hall / Council Chambers | Late Night — Rain]
+
+    scene bg ch15_e67f19_1 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid strings undercut by a heavy percussion pulse; a distant thunder roll]
+    # play sound "sfx_placeholder"  # [Sound: The constant hiss of rain, the intermittent beep of a phone receiving an alert]
+    "You step into the chamber with your collar up, the wet of the night clinging to your jacket. The room smells of wet paper and cheap coffee, and the overhead lights throw hard reflections across the"
+    "glossy municipal map. Your palms still carry the salt grit from the harbor—small proof that you have been walking the shoreline with other people's livelihoods in your hands."
+    "At the head of the table, Councilwoman Tamsin Hale's profile is a silhouette of command: glassy tablet balanced like armor, voice measured but flat as the rain. Rosa is at your left, arms folded, palms red"
+    "from hauling sandbags earlier. Elias Voss arrives breathless, linen damp, sleeves rolled, and when he sits he drops a slim sketchbook on top of yours as if to say he's with your process even if he"
+    "keeps his own path."
+    show councilwoman_tamsin_hale at left:
+        zoom 0.7
+
+    councilwoman_tamsin_hale "The funders need deadlines. Delays cost us leverage with the contractors. Panels are fine on paper, but in practice... time is the variable we can't afford."
+    "You set the folded tide chart in front of you, the pencil there like a hinge you can still move. Your voice is steadier than you feel."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Panels will save us from being overwritten. They slow decisions, yes—but they catch the detail no one in a boardroom can feel: the fishers' access, the vendors' alcoves, the way rooftop gardens break a storm's heat. If we don't insist on oversight, the town risks being protected and erased."
+    "Tamsin's eyes flick to yours, an assessment. There's a quiet hardness—policy training and a lifetime of compromises etched in the angle of her jaw."
+
+    councilwoman_tamsin_hale "You asked for community oversight, Maya. We set it up. Now we need deliverables. We can't keep rewriting specs because sentimentality won a referendum."
+    show rosa_delgado at center:
+        zoom 0.7
+
+    rosa_delgado "It's not sentimentality, Tamsin. It's memory. It's how people make a living. You think concrete fixes everything; we know the sea takes more than rock."
+    "The room tightens like a pulled wire. A contractor's representative clears his throat from the back, a thin man with a well-oiled smile."
+
+    "Contractor Rep" "Every amendment is cost and delay. Our crews are scheduled. If funders see escalating expenses, they're gone. We're all here to keep people safe. Let's not make this political."
+    "Your chest feels like an upwelling tide. This is the trade-off you have been trying to avoid: speed versus texture, safety versus soul."
+
+    menu:
+        "Push for immediate binding design amendments":
+            "You lay out the specific clauses—fishing ramps, alcove modules, maintenance plans—one by one. Voices rise; you feel the room lean. Rosa nods hard. Tamsin's jaw tightens; somewhere a funder alerts their rep."
+        "Accept phased amendments with strict oversight metrics":
+            "You propose a compromise: immediate retention of critical access points, with the rest phased and reviewed. Elias watches you, tension in his shoulders. The contractor sighs; it's not ideal, but it's a path that keeps some funders at the table."
+
+    # --- merge ---
+    "The decision you let hang between people feels like a tide line: it marks where choices will scar the town."
+    hide councilwoman_tamsin_hale
+    show dr_henrik_sato at left:
+        zoom 0.7
+
+    dr_henrik_sato "Models are models. They can be adjusted; real storms do not read our papers. What you've set up—panels composed of actual residents with technical advisers—gives the wall a chance of functioning with the town inside it. It also raises the risk of delays. Both are true."
+    "Elias Voss leans forward, fingers threaded, searching your face for the same stubborn faith that has pulled you home."
+    hide maya_ortega
+    show elias_voss at right:
+        zoom 0.7
+
+    elias_voss "I don't like delays. I don't like money walking away. But I also don't want to open a horizon of granite that cuts my neighbors out of the water. If the oversight keeps the funders soft, we'll lose jobs. If we keep them engaged, we keep a lifeline. We don't have the luxury of perfect."
+    hide rosa_delgado
+    show maya_ortega at center:
+        zoom 0.7
+
+    maya_ortega "No. We don't. But we do have the responsibility to not make the only safe thing into something that strangles living things."
+    "Words ricochet. Tamsin opens her mouth, closes it. For a second the rain outside is louder than anyone's breathing."
+    # [Scene: Rooftop Community Garden & Tidal Observatory | Early Morning — Storm Threatening]
+    hide dr_henrik_sato
+    hide elias_voss
+    hide maya_ortega
+
+    scene bg ch15_e67f19_2 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid percussion, metallic clangs; heartbeat beneath the strings]
+    # play sound "sfx_placeholder"  # [Sound: Wind picking up, the low roar of a distant engine]
+    "You climb to the rooftop before dawn, tide charts folded into your pocket and the compass at your throat. The salt-cold wind tries to pry the bandana from your hair. In the weak light Elias Voss is already there, sketchbook open, drawing lines that look like maps and apologies."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "They upped the modeled height overnight. Twice what we ran numbers for last month."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Because the data keeps changing. The panels asked for modeled contingencies but—"
+    "Elias Voss shuts his sketchbook with a soft thud, then lifts his head to meet you directly. The look between you is worn thin by the last months: late meetings, small victories killed by deadlines, the steady corrosion of hope."
+
+    elias_voss "We did what we could. You did what you could. If this keeps people alive, I'm grateful. But I keep thinking about what we traded."
+
+    maya_ortega "We traded certainty for democracy."
+    "He exhales like someone discarding a weight."
+
+    elias_voss "And you traded fast safety for a lot of people's paychecks. Rosa's crew... those jobs keep food on tables. Tamsin's got funders breathing down our neck. I feel it—pressure to choose."
+
+    maya_ortega "I know. I know what you gave up when you came back to try to bridge this.' Your hands curl on the railing; the wind makes your knuckles ache. 'I know what you must feel. But I'm tired of being the only one who makes the moral calculus aloud."
+
+    "Elias Voss (softly)" "You're not alone in it, Maya. But sometimes it feels like the town expects you to hold everything and not break."
+    "The rooftop shifts as another gust hits. A gull skims too low, buffeted; its cry snaps like a string."
+
+    menu:
+        "Go down to the harbor to inspect the amended sections":
+            "You decide to walk the seawall yourself, the cold climbing through your boots. Elias wants to come; you tell him to stay and watch the panels' communication feed. He protests, but you need to feel the sea."
+        "Stay and coordinate from the observatory with Henrik and logistics":
+            "You stay, fingers moving over the observatory console, rerouting comms and updating the panels. Elias goes, promising to radio back. Henrik calls out tide windows; you map them into real-time commands."
+
+    # --- merge ---
+    "You make your choice and the night folds around it. The urgency is a physical thing now: orders, trucks, and the low-pitched throb of pumps being readied."
+    # [Scene: Harbor & Living Seawall | Storm Arrival — Full Force]
+    hide elias_voss
+    hide maya_ortega
+
+    scene bg ch15_e67f19_3 at full_bg
+    # play music "music_placeholder"  # [Music: Chaotic percussion, dissonant brass, staccato strings; everything speeds]
+    # play sound "sfx_placeholder"  # [Sound: The roar of the storm, the snapping of wood, shouts, a siren somewhere down the pier]
+    "The storm doesn't respect plans; it tests them. You are standing in wind that pushes like a physical hand, water tasting of iron. The panels' amendments—fish ramps, alcoves, reinforced planting pockets—are small islands of resistance. Where"
+    "they exist, the seawall takes blows and flexes; where the original contractor's standard pour stands, the concrete groans and fractures like an old spine."
+    "Rosa is in the waterline waist-deep, hauling ropes and directing neighbors. Her voice cuts through the gale: short commands layered with a steady compassion that makes people follow without question."
+    show rosa_delgado at left:
+        zoom 0.7
+
+    rosa_delgado "Hold that line! Move the elderly into the second floor of the winged boathouse—now!"
+    "You sprint across slick planks, boots slipping, heart an alarm. A vendor alcove you fought for—small, modest, made of salvaged corrugated metal and love—holds, and a family huddles inside, rain stinging their faces. A few blocks"
+    "over a low-income row's sea-facing stoops surrender, and water tears through a window like someone dragging a fist through paper."
+    "A roar like a falling building sends everyone ducking. The seawall flexes and a chunk shears out where the contractor had skimped on tie-backs. Men with hard hats are thrown backward. You hear a sickening sound—concrete breaking, metal screaming."
+    "Elias Voss appears beside you, hands full of a coiled lifeline. His face is streaked with salt; the protective look in his eyes is raw."
+    show elias_voss at right:
+        zoom 0.7
+
+    elias_voss "Here. Help me get this around them."
+    "You loop the line, muscles firing. People are moving with a terrifying clarity: rescue, reinforcement, hauling the injured to whatever high ground is left."
+
+    "Dr. Henrik Sato (yelling over the wind)" "The amended sections—pull people back from the southern inlet! The marsh pockets are doing work—use them!"
+    "You obey, your world narrowed to the rhythm of breath and the weight of bodies. The panels' foresight—the small nudges you fought for—are doing exactly what you argued they would. In the places with oversight, the"
+    "wall's detail absorbs the strike; neighborhoods that were given access points are holding some of their edges. But the storm is a greedy thing. It finds where politics, funding, and influence had left gaps; it takes."
+    hide rosa_delgado
+    hide elias_voss
+
+    scene bg ch15_e67f19_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The scream of metal, a child's distant cry, the relentless drum of the rain]
+    "Councilwoman Tamsin Hale's voice over the emergency channel is thin, threaded with a new humility you have rarely heard."
+    show councilwoman_tamsin_hale at left:
+        zoom 0.7
+
+    councilwoman_tamsin_hale "We... we did not anticipate this height. We will... deploy more resources. Coordinate with Rosa."
+    "Her hands are shaking when she comes to the improvised command center later, rain still in her hair. A group of angry residents has formed a circle—members of the oversight panel, neighbors whose lives were upended."
+    "They point, they cry, they demand names. Tamsin stands there, the personification of the system that both saved and failed them."
+
+    "Panel Member" "You assured us this would be safe. You prioritized your timelines."
+
+    "Councilwoman Tamsin Hale (voice breaking)" "I believed the models. I believed the process. I am sorry. I should have listened earlier."
+    "The accountability is not theatrical; it's gutted, practical. She answers procedural questions, opens files, and sits in the same muddy exhaustion as everyone."
+    "Rosa organizes a chain of volunteers in the flooded streets, her hands moving through the dark water as if it were another net she's mending. She barks and soothes, building triage with an economy of gestures."
+    show rosa_delgado at right:
+        zoom 0.7
+
+    rosa_delgado "Get blankets in the library! Luca, check the boathouse! People—bring warm clothes! We'll redistribute whatever we can."
+    "You watch as the community does the work of survival—those same neighbors who will have to live with scars and policy decisions for years. There are small, fierce triumphs: a family pulled from a roof, a"
+    "vendor alcove that sheltered an entire market, a tidal garden swollen but holding enough to slow a surge that would have drowned a row of houses. And there are losses that hit like a fist to"
+    "your stomach—the homes closest to the shipping containers, the ones with less political voice, gone under water and mud."
+    "Elias Voss finds you beside a collapsed section where old postcard-colored homes have been rent by water. He is quiet, and when he speaks the words are simple and grenade-quiet."
+    show elias_voss at center:
+        zoom 0.7
+
+    elias_voss "You chose to fight for panels. You chose processes that slowed delivery. People are hurt. I'm not asking who is right. I'm asking how we live with the weight of that."
+    "You swallow bile. Your hands are still shaking from hauling someone to safety; your voice is a cracked instrument."
+    hide councilwoman_tamsin_hale
+    show maya_ortega at left:
+        zoom 0.7
+
+    maya_ortega "I chose panels because I couldn't live with being complicit in erasing people's lives for profit. I thought—' The sentence fractures. 'I thought the oversight would prevent this scale."
+
+    elias_voss "It did in places. But not everywhere. We failed in places we could have protected with speed."
+
+    maya_ortega "And if we'd built the standard wall faster? How many other neighborhoods would have been left exposed because the wall made the shoreline impossible to access? How many small businesses would have been crushed under a monolith that made the town foreign to itself?"
+    "He stares at you, eyes blazing in the strobe of lightning."
+
+    elias_voss "So both paths break people. That's the impossible part. We traded different kinds of harm."
+    "The rain drums as if to punctuate the moral calculus. You both stand amid ruin and salvage, feeling the rawness of shared responsibility."
+    # [Scene: Post-Storm — Dawn at the Harbor]
+    hide rosa_delgado
+    hide elias_voss
+    hide maya_ortega
+
+    scene bg ch15_e67f19_5 at full_bg
+    # play music "music_placeholder"  # [Music: Slow, low strings; a single piano note like a breath]
+    "Dawn brings a strange flatness. The adrenaline unspools into bone-deep fatigue. There are quiet scenes that press like small knives: an alder tree uprooted onto a porch, a tide garden torn to ribbons, a vendor's stall"
+    "weeping a crooked flag. At the same time there are stubborn, stubborn lives hauled from water. Rosa is everywhere at once—counting beds, logging needs, directing supply lines. Her pragmatism has become the town's keel."
+    show rosa_delgado at left:
+        zoom 0.7
+
+    rosa_delgado "We need a list. Who needs shelter? Who's missing? Food, heat—we'll triage and redistribute. People, don't sit on this grief. Work helps keep the cold out."
+    "Councilwoman Tamsin Hale sits in the municipal atrium, surrounded by residents who demand meetings and answers. She looks hollowed but present, signing logs and taking names. It's accountability in the most exhausting, municipal way: paperwork, resources, follow-up."
+    "You find Dr. Henrik Sato by the living seawall's intact section, palms pressed into the damp earth. He looks at you and the thin old smile tethers to something like relief."
+    show dr_henrik_sato at right:
+        zoom 0.7
+
+    dr_henrik_sato "You engineered a system of checks. It's messy and slow, but it saved pockets of the town. Now you have to take that and weave it into actual recovery. That will be worse in many ways—longer, heavier, unglamorous."
+    "You feel the truth in his voice like an admission. You have saved some, but not all. People are hurt. People are mourning."
+    "Elias Voss approaches with a bundle of blankets and two thermoses, his movements careful as if approaching a wound."
+    show elias_voss at center:
+        zoom 0.7
+
+    elias_voss "I don't know what to say that will make any of this less real."
+    hide rosa_delgado
+    show maya_ortega at left:
+        zoom 0.7
+
+    maya_ortega "You can stand here. You can help shift debris. You can tell Rosa when you can pull a crew. You can let me make mistakes in public without stepping back into silence."
+    "He blinks, the motion a small surrender."
+
+    elias_voss "I can't promise I won't resent the timing. But I won't step back."
+
+    maya_ortega "That will have to be enough."
+    "The words are not a bandage. They are a promise shaped like a splinter: sharp and likely to hurt, but better than nothing."
+    "There is no triumphant reconciliation. There is a blunt negotiation between two people who have loved in the shadow of policy and storms. You both have been battered; both of you are cracked. The thing between you is not whole—but it's still recognizable."
+    "You learn, in small, practical increments, to ask for help. You let others take tasks—Dr. Henrik Sato coordinates data recovery; Rosa runs distribution; Elias Voss organizes volunteer crews. The oversight panels, bruised and exhausted, become places where residents speak and where procedural stone is slow enough to catch human cracks."
+    "Later, when the council meeting reconvenes, the mood is exhausted but clearer. Councilwoman Tamsin Hale faces public inquiry with the rawness of someone who has been confronted with consequences. She answers for decisions, offers reparations in"
+    "the form of prioritized rebuilding funds, and steps back from the language of inevitability that once justified cold calculus."
+    hide dr_henrik_sato
+    show councilwoman_tamsin_hale at right:
+        zoom 0.7
+
+    councilwoman_tamsin_hale "I misread the models. I relied on timelines. I underestimated the value of local knowledge. I will—' (she falters) '—I will work to make this right."
+    "People don't clap. They don't need to. They need action, and Tamsin's voice now carries the weight of something like contrition."
+    "You stand among them, your tide charts dog-eared and damp, your compass pendant heavy against your chest. A small victory is a practical one: vendor alcoves preserved where possible, fishing access maintained in amended segments, rooftop"
+    "gardens that will be replanted and tended—tiny infrastructures of memory and livelihood stitched into a town that has been reshaped by storm and by choice."
+    "But the losses hang. Houses flooded beyond repair sit like open wounds. Some families will need to move. Funding partners who could not stomach delays have pulled back; their absence is a hollow you can point to when anger or guilt surfaces. The panels' democratic magic did not spare everyone."
+    "You carry a new lesson like a bruise: leadership is not a lonely mountain to stand on; it is a pile of small, shared work. You ask for help; you assign tasks; you learn the awkward"
+    "intimacy of delegation. You realize your protectiveness must be porous so other hands can help hold the town."
+    "The romance between you and Elias Voss is not healed by crisis. It is rearranged. There are blunt conversations—about sacrifices, about timing, about how love survives when both parties are exhausted and morally compromised. You both say hard things you cannot take back; you both say things that matter."
+
+    elias_voss "We made different bets, Maya. Maybe the final reckoning isn't who was right. Maybe it's what we decide to do next."
+
+    maya_ortega "And what if 'next' is just more work? More small, painful things?"
+
+    elias_voss "Then we do the work. Together, or we don't. I can't promise fairy-tale certainty."
+    "You let out a breath you didn't know you'd been holding. The harbor is scattered with debris like a ledger of decisions. The town will not return to what it was. It will become something else—scarred, honest, communal."
+    # [Scene: Rooftop Community Garden | Dusk — Aftermath]
+    hide elias_voss
+    hide maya_ortega
+    hide councilwoman_tamsin_hale
+
+    scene bg ch15_e67f19_6 at full_bg
+    # play music "music_placeholder"  # [Music: Low, hollow strings; a single sustained cello note]
+    "You stand in the mellowing light and feel the exhaustion settle into your bones. Around you, neighbors talk strategy and grief, holding both with hands that tremble. The oversight panels will become a permanent part of"
+    "governance here—unwieldy, slow, and difficult. They will also be a place where attention is paid to the small things that make a town habitable."
+    "Rosa comes up the stairs carrying a box of dry rations and collapses into a chair, laughing through tears."
+    show rosa_delgado at left:
+        zoom 0.7
+
+    rosa_delgado "We lost a lot. But we also keep a lot. Look at that—' (she points at a patch of newly planted marsh that somehow survived) '—we still have that."
+    "You look at the tidal garden. It is a small, fierce green against the slate of the harbor. For a second the weight lifts a fraction, because there is still life."
+    "Elias Voss sits beside you, shoulders brushing. The contact is not grand; it's quiet, a shared warmth against the cold of the night's memory."
+    show elias_voss at right:
+        zoom 0.7
+
+    elias_voss "Do you think we were foolish?"
+    show maya_ortega at center:
+        zoom 0.7
+
+    maya_ortega "I think we made human choices in a world that doesn't forgive human errors. I think we did something that saved some people and left others exposed. I think that will haunt us."
+    "He nods, eyes distant."
+
+    elias_voss "Then we'll keep working. We'll keep listening. We'll keep being accountable."
+    "You lean your head back and watch the gulls wheel, fewer now, their silhouettes stubborn against the sky. There is no neat closure—only the endless, grounded work of rebuilding, policy meetings that never end, overturned budgets and resilient people who will keep showing up."
+    "You clasp your compass and feel its cool metal against your skin. The number engraved on the back is the harbor you grew up with—coordinates that point to home, not a destination. You realize leadership means"
+    "living with choices not as absolutes but as directions to be corrected, again and again."
+    "The town is changed. You are changed. The romance you share with Elias Voss is marked—scarred, raw, but not entirely broken. The panels you fought for are bruised and bureaucratic, but they caught some of the"
+    "blows. Councilwoman Tamsin Hale will face consequences and work to repair. Rosa will never stop organizing. Dr. Henrik Sato will keep his weathered notebooks and keep telling the inconvenient truths. Luca will keep fixing what can"
+    "be fixed with scraped-together tools and stubborn hope."
+    "You inhale the salt and the smoke and the last of the rain. The future is not a finish line; it's a continuous ledger of repairs, of apologies, of policy amendments, of gardens planted back into the edges of concrete. There is no triumphant ribbon to cut. There is work."
+    # play music "music_placeholder"  # [Music: A single piano motif plays—minor, unresolved; the sound of slow, deliberate steps into a long morning]
+    "You stand and fold your tide chart, the pencil tucked in like a hinge. The town will need things from you that you cannot give alone. You will ask for help and you will accept it."
+    "You will hold community decisions with both grief and stubborn care. You will remain in the messy center where love and policy overlap—complicated, necessary."
+    hide rosa_delgado
+    hide elias_voss
+    hide maya_ortega
+
+    scene bg ch15_e67f19_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade out slowly]
+
+    scene bg ch15_e67f19_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

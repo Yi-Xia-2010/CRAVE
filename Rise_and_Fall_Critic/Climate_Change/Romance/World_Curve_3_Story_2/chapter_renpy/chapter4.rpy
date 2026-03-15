@@ -1,0 +1,178 @@
+label chapter4:
+
+    # [Scene: Sea Barrier Construction Site | Midday — Rain-haloed Press Event]
+
+    scene bg ch4_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Baritone horns from barges, the steady thud of pile-drivers, murmured questions from reporters]
+    # play music "music_placeholder"  # [Music: Low, weathered strings — minor key, steady pulse]
+    "You set the pen down on the municipal placard because a signature is what makes things real. The paper is flattening under your hand, slick at the corner from rain, and your compass pendant slaps once"
+    "against your collarbone when you move. Cameras are a ring of hungry eyes; the mayor's aides smile in pre-polished angles. Behind the podium, a section of the future seawall rises in concrete slices — sterile, heavy,"
+    "proposed as certainty."
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "Thank you, Mara. This—this moves us from debate to action."
+    "You answer with a nod that is professional and measured because the cameras want lines, not nuance. Inside, the line between relief and dread is thin as seafoam. The models on the tablet beside you promise"
+    "meters of deflection, procurement timelines, a ninety-day mobilization window. They read like a blueprint that will save people. They also read like an erasure: tidy contracts, rerouted budgets, the phrase 'expedited procurement' repeated until it becomes"
+    "permission."
+    hide elias_kade
+
+    scene bg ch4_453e40_2 at full_bg
+    # [Narration]
+    "You tell yourself the barrier is a necessary evil. You tell yourself engineers can buy time, that time is a kind of mercy. The words feel useful because they are the kind you can hand to"
+    "neighbors who ask what'll happen next. But the taste in your mouth is diesel and old salt, and the confession in your throat is heavier than the applause."
+
+    menu:
+        "Step forward and field questions from the press":
+            "You flatten your voice and give the technical answers you rehearsed; each phrase is a small barricade against the shouting inside. Reporters scribble; a microphone records you saying 'mitigation clause' and 'community access.' You can see Elias relax, just slightly."
+        "Hang back and watch the crew at work":
+            "You let your attention go to the wet machinery — the rhythm of cranes, the way the barge cables glint. It's a grounding sight: something physically being made, which is what you wanted when you studied tides. It keeps your panic at bay for a breath."
+
+    # --- merge ---
+    "The scene continues after either reaction."
+    # play music "music_placeholder"  # [Music: A thin, anxious flute slice underlines the crowd noise]
+    "Elias moves through the crowd with the sort of ease that comes from knowing procedure like prayer. He answers budget questions with deftness, answers about permits with a practiced nod. When a journalist presses about displaced"
+    "access points, he looks to you as if the right answer is yours to give and then accepts it when you offer the clause you'd insisted on—one paragraph in a hundred that guarantees shoreline access during"
+    "construction and a small mitigation line item for local renters."
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "We have a conditional fund for immediate mitigation — neighborhood liaisons will oversee distribution. Mara's team will help define how that's applied."
+    "You force a smile because the clause is a victory, but it is also a bandage. Inside, you list the compromises you made yesterday in the atrium like inventory: timelines truncated, alternative pilot programs postponed, landscape"
+    "designers removed in favor of 'expedited materials.' Each subtraction looks sensible on paper. Each subtraction leaves a shape in your chest."
+    # [Scene: Sea Barrier — Work Perimeter | Moments Later]
+    hide elias_kade
+
+    scene bg ch4_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain on tarps, the clack of wet boots, a low human mutter from a crowd gathered beyond safety tape]
+    # play music "music_placeholder"  # [Music: Dissonant piano, slow and sinking]
+    "You walk the perimeter after the press leaves, boots giving with mud. Up close, the scale is almost tragic — heavy machinery chewing away at the shore to make a thing that will hold night at"
+    "bay. The air tastes of diesel and exposed concrete; the wind carries a faint, acrid perfume of paint. Your notebook, taped and patched, is in your hand like a talisman that insists on plans."
+    show samir_reyes at left:
+        zoom 0.7
+
+    samir_reyes "They wanted to see it. They wanted to know who wrote the plans they’ll have to live beside."
+    "You walk toward them because your feet know the weight of promises. You can hear the low register of their questions before they form — Will we still be able to fish? Will the rent go"
+    "up? What about the old community garden? — and you taste the answers as something thin and unsatisfying."
+
+    samir_reyes "Mara, none of them are angry at you the way they are at the people who sign checks. They're angry at being asked to believe in something they can't touch."
+    "You open your mouth, then close it. Words here have the density of currency — too light and they won't buy anything; too precise and they will sound like excuses. You pick the clause language cleanly:"
+    "the mitigation funds, the emergency access gates, the oversight committee with neighborhood liaisons. Each item is an attempt to anchor the plan to human needs. Each item is vulnerable in a stack of contracts that could"
+    "be amended out."
+
+    menu:
+        "Step up and promise immediate oversight":
+            "You speak plainly, naming times and contacts. Faces shift into something softer — not relieved, but held a little steadier. Samir nods like a man who knows bargaining when he sees it."
+        "Offer to take names and follow up with a meeting":
+            "You collect names, small and messy on a damp sheet, and promise a meeting. It feels like the bureaucratic move you could survive — less risky than big promises, but it keeps community voices in motion."
+
+    # --- merge ---
+    "The scene continues with Nova's arrival regardless of choice."
+    # play music "music_placeholder"  # [Music: A low synth thrum — anxious, electrical]
+    "Then Nova arrives. You hear her before you see her: the staccato of canvas, the clear, sharp intake of breath that belongs to people who have practiced anger into a weapon. Paint streaks her forearms; her"
+    "satchel is a bundle of pamphlets and a sprig of something green, wilting but intact. She moves with the sort of force that interrupts scripts."
+    show nova_duarte at right:
+        zoom 0.7
+
+    nova_duarte "Mara. You signed with them. With...this. How many corners did you let them cut so the cranes could get moving sooner?"
+    "You feel the room contract again. The workers look up; someone at the back of the crowd mutters. Elias turns, creating a polite divide between the two of you that does not entirely succeed. His jaw tightens but his voice is level—trained to navigate conflict without combusting."
+    show elias_kade at center:
+        zoom 0.7
+
+    elias_kade "Nova, we all want the same thing: fewer people hurt. This is a way to stop more loss now."
+    "Nova laughs, and it's brittle and furious."
+
+    nova_duarte "'Stop more loss now' doesn't land the same when the people who lose are the same neighborhoods that were ignored before a storm. You help them, Mara, and I will hold my tongue. But I won't pretend waving a shovel and a clause fixes what we owe."
+    "Her words are knives that ask the blunt question you've avoided: who pays the price of 'now'?"
+    "You step between them because it's what you do—because you can, because you once thought you could be the person to translate between compromise and justice. Your voice is quieter than Nova's but tries to be steadier than Elias's."
+    hide samir_reyes
+    show mara_lin at left:
+        zoom 0.7
+
+    mara_lin "I didn't sign because it felt easy. I signed because it was a path that will get people shelters and allowances faster than waiting for a perfect plan."
+
+    nova_duarte "A path that runs over people is still a road to somewhere. You know what you left out when you wrote that 'expedited' line."
+    "The exchange spirals. Nova presses the wound of the past — the storm that took her sister, the botched evacuation notices — into every sentence. Elias answers with timelines and permits and contingency budgets. Samir argues"
+    "for renters' protections like a man speaking for a ledger of small lives. You watch faith fracture across faces, read the impatience in a volunteer's folded arms. The argument is now personal, and it becomes a"
+    "map of all the things the seawall will solve and all the injustices it will ignore."
+
+    elias_kade "We can add stronger tenant protections to the contract. We can fund relocation counseling. We can make the mitigation money non-negotiable."
+
+    nova_duarte "'We can' doesn't fix the fact that this whole plan assumes communities can absorb trauma on someone else's schedule, while the contractors make deadlines."
+
+    mara_lin "And what — ask people to wait another season? Another two years? Nova, we've seen what waiting does. The models show the risk grows every year. I can't—"
+
+    nova_duarte "I know what waiting does. I also know what walking away does. Managed retreats mean you decide to save what can be saved and honor what cannot. You can't solve grief with concrete."
+    hide nova_duarte
+    show samir_reyes at right:
+        zoom 0.7
+
+    samir_reyes "Managed retreat is fine in a book. It's not fine when a single mom with two kids can't find a place that won't double her rent. Who pays for that in the meantime?"
+
+    elias_kade "That's what the mitigation fund is for. That's why we need this built fast."
+
+    mara_lin "I'm trying to hold both things — speed and justice. I'm trying to wedge a community oversight in, to make sure the money actually reaches people who need it. I'm not pretending this is perfect."
+    "Nova glares at you like someone betrayed by an old friend; Elias looks at you with an expression that folds concern into calculation. The read on your face could be many things; you register the ambiguity like a physical pressure."
+    # play music "music_placeholder"  # [Music: Single, aching violin note; then silence]
+    "You feel a memory — the block lost when you were younger, the smell of flood mud and coffee turned bad in a ruined kitchen — fold into the present. That memory is a compass that"
+    "does not always point to a single direction; it points to the people you promised to protect. Standing here, the promises feel both luminous and brittle."
+    "You work the phones after the confrontation, slipping under the loudness to call legal aides, community liaison volunteers, a friend at a tenants' union. You read clauses aloud into the rain and ask for language that"
+    "is explicit: guaranteed funds that cannot be siphoned, timelines that include community hearings, a clause for accessible fishing points. Each time you finish, someone asks you to be firmer, or kinder, or to stop asking for"
+    "perfection where the machine of the city wants speed."
+    hide elias_kade
+    hide mara_lin
+    hide samir_reyes
+
+    scene bg ch4_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Your own breathing, the distant hammering of rebar]
+    "You bargain with the cadence of someone who knows how to make contracts hold human weight. You win small turns — a promise of a dedicated liaison, extra funds for renters' relocation aid — and you watch them transcribe into bureaucratic language that makes the victory plausible but not guaranteed."
+    "Samir places a hand on your shoulder in a squeeze that is equal parts solidarity and warning."
+    show samir_reyes at left:
+        zoom 0.7
+
+    samir_reyes "You did all you could here. But remember — paper doesn't replace the work on the ground."
+    "You nod because it's true and because sometimes that's the only anchor you can offer. The night stretches out poorly lit; the machinery keeps working like a heart that refuses to stop."
+
+    menu:
+        "Stay until the crew finishes the shift and speak to the foreman":
+            "You wait in the rain until the shift turns over. The foreman listens and promises extra care for access points. It calms you in a way that feels earned. You leave with mud on your knees and a thin ember of relief."
+        "Leave with Samir to meet renters on the promenade":
+            "You step away from the machines with Samir. The promenade's lights hold a softer glow, and people's faces tell you what the schematics never could. It's wrenching but clarifying."
+
+    # --- merge ---
+    "The following scene begins with the walk to the Promenade."
+    # play music "music_placeholder"  # [Music: A low, melancholic synth]
+    "You choose — or the scene chooses for you — to step back from the clamor and walk with Samir toward the Promenade. The mud gives way to wet cobbles; the market lanterns look like small,"
+    "stubborn moons over puddles. The smell shifts from diesel to frying fish and the loam of overturned planters. At the edge of the promenade, renters lean on railings, their conversations a low tide of worry and"
+    "resolve."
+    "They ask about the clause language, about whether access will be restored during construction, about rent freezes, about whether their memories of home will fit into whatever comes next. You answer as best you can, letting"
+    "your voice be ordinary and human rather than polished and municipal. You promise meetings. You promise oversight. You promise to push for non-negotiable protections. You know some promises are placeholders for later action; you make them"
+    "because they are what your friends need to hear tonight."
+    # [Scene: Solace Harbor Promenade | Evening — After Rain]
+    hide samir_reyes
+
+    scene bg ch4_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Marine gulls distant, vendors packing up, a child's laugh muffled by rain]
+    # play music "music_placeholder"  # [Music: Distant piano — unresolved]
+    "That night, alone in your apartment with the rain marking the glass, you dream the storm that took your block. You wake with diesel on your tongue and your hands cold. The seawall feels simultaneously like"
+    "armor and a coffin lid. You replay Nova's accusation and Elias's small thank-you in the back of your throat until they sound like two halves of a prayer you cannot reconcile."
+    # [Narration]
+    "Your stubborn optimism, once a bright working tool, feels heavier now. It is an expensive gamble: buy time and hope the structural fixes reach the people who need them most. You keep telling yourself that partial"
+    "victories are the only kind available before the horizon. But in the hours after, the promise of speed tastes like something you stole from someone else's future."
+
+    scene bg ch4_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained low note — mournful, unresolved]
+    "You fold your raincoat over a chair and look at the clauses you managed to insert, at the list of names Samir gave you, at the small, damp sprig Nova shoved at you before she stormed"
+    "off — a reminder, raw and green, that not all solutions should be heavy and lifeless."
+    "You do not sleep easily. The city is a series of promises and fractures, and tonight you learned the cost of joining the table you once hoped to reshape."
+    # [Page-Turn Moment]
+    "You stand at the window and watch the harbor blur into rain. The seawall under construction juts like a promise half-made, and your reflection in the glass looks gullied by doubt. Somewhere in the city, people"
+    "will wake to the clattering of machinery; somewhere else, someone will lose a garden. You imagine the next meeting, the next clause, the next face turning to you for answers you do not yet have. The"
+    "phone on your bedside table buzzes once — an aide with an update, Nova's name in an incoming text, a new list of renters who need you to be braver. The rain keeps falling. You breathe."
+    "The future is an unfinished blueprint, and you have a stake in how it is drawn."
+
+    scene bg ch4_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter5
+    return

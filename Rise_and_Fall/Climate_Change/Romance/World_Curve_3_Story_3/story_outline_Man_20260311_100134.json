@@ -1,0 +1,467 @@
+{
+    "title": "Tides of Marisora",
+    "summary": "I, Maya Reyes, return to Marisora after studying climate science, determined to help my hometown adapt. The story begins with a period of diminishing buffers — failed nets, slumping piers, and funding delays — that pull me into a moral and emotional descent as the town faces increasingly unavoidable choices. My pragmatic empathy clashes with Elias Jun’s improvisational rebuilds and Dr. Ayla Voss’s centralizing plans. A major community split forces me to choose: rally grassroots solutions with Elias; negotiate with Ayla for a hybrid plan; or advocate for an organized regional relocation. Each decision sharpens sacrifice: relationships strain, infrastructure fails, and a severe storm breaks the town’s fragile armor, marking the lowest point.\n\nFrom that nadir, recovery begins: working with neighbors, repairing trust, and designing adaptive systems that are both technical and tender. Romance informs each path — trust, distance, or rebuilt intimacy — and the ending varies from bitter compromise to moral clarity, tragedy, or communal triumph. Throughout, the emotional arc follows “Man in a Hole”: a fall into crisis where responsibility, guilt, and vulnerability deepen, followed by a rise through collaboration, acceptance, and hard-won solutions. Choices lead to different kinds of recovery rather than simple success/failure dichotomies; every route ends with the town transformed and relationships redefined.",
+    "emotional_curve_type": "Man in a Hole",
+    "player_character": "Maya Reyes",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Chapter 1: Returning Tide",
+            "branch_designation": "Common",
+            "narrative_focus": "I arrive back in Marisora at dusk. Salt and rust smell the same; my battered brass tide-watch weighs heavy in my palm. The harbor looks smaller and older and somehow angrier than I remember. I meet Rita at the greenhouse; news of failing nets and a delayed regional grant sets a low undercurrent. I feel responsible for returning with answers, but the politics are heavier than my checklist. I inventory what I brought: my cracked tablet, a faded green scarf, the habit of rolling sleeves. The community’s practical charms — solar canopies, patched leather boots, string lights in the greenhouse — both buoy and pin me, because every optimistic detail masks a resource gap. Elias appears briefly on the docks, barefoot and paint-splattered, grin quick but tired; his hands smell of sawdust and salt. Dr. Ayla Voss’s municipal presence is already in town: crisp trench, steel-gray eyes scanning maps. I recall why I left and why I came back — the storm years ago and a sense that staying might do more than leaving ever did. The evening ends with a neighborhood meeting notice on a coffee-stained bulletin board; the hum of tension follows me home.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rita Ortega",
+                "Elias Jun",
+                "Dr. Ayla Voss"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Greenhouse",
+                "Docks",
+                "Neighborhood bulletin board"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Chapter 2: Small Repairs, Bigger Rifts",
+            "branch_designation": "Common",
+            "narrative_focus": "I spend the day in the community greenhouse and at the old breakwater, running tests, taking soil samples, and making a list of priorities. My hands are dirty — dried soil under my nails; the scarf still smells like my grandmother’s laundry. At Municipal Hall, I observe Dr. Ayla’s organized board of sensor data and Mayor Tomas pacing between calls. She talks in probabilities and thresholds; he talks in votes and livelihoods. I listen, cataloguing the tensions: Ayla pushes for a pilot consolidation plan tied to funding deadlines; Rita demands open co-design; Elias wants hands-on defenses and festival spirit. That evening Elias drags me to the docks and shows me a prototype tide gate — rough, wooden, stubbornly inventive. He laughs with deep blue-gray eyes crinkling and slaps my mud-smeared sleeve. My scientific instincts find holes in his plan; his optimism offers immediate agency. Inside me, a tug-of-war starts: stay rigid to data or bend for community improvisation. The sky bruises purple; wind picks up; the mangrove line whispers portents. I sleep uneasily, feeling the initial tilt toward crisis.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Reyes",
+                "Dr. Ayla Voss",
+                "Mayor Tomas Nkem",
+                "Rita Ortega",
+                "Elias Jun"
+            ],
+            "locations_used": [
+                "Greenhouse",
+                "Old Breakwater",
+                "Municipal Hall",
+                "Docks"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Chapter 3: Meeting at Municipal Hall — The Choice",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The town meeting at Municipal Hall is fluorescent, cramped, and electric. People crowd around printed maps and sensor readouts; Rita paces with a colorful apron splattered in soil. Ayla presents three options — a centralized hybrid plan, a targeted buyout for the most exposed blocks, or a slow-implementation pilot with strict metrics — each tied to funding deadlines. Tomas hedges. Voices rise into old grievances: whose heritage counts? Who can move? Elias interrupts, calling for a community-built modular barrier and mangrove restoration, his hands gesturing sawdust flakes into the air. I stand in the middle, tide-watch against my palm, my tablet open to cost-benefit models. I feel the weight of inherited loyalty and scientific responsibility. The air tastes like coffee and salt. The meeting fractures into urgent demands: negotiate with Ayla; organize a grassroots build with Elias; or lobby for a regional relocation plan. My chest tightens; my instinct to shoulder everything flares. This is the first major fork — each path will demand real sacrifice. I must choose how I will live and whom I’ll risk losing.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "My public stance at the town meeting — which plan do I endorse and lead?",
+                "options": [
+                    {
+                        "label": "Support Elias’ community-led build and mangrove restoration.",
+                        "consequence": "Emphasizes grassroots action, immediate agency; risks missing bureaucratic funds",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Negotiate with Dr. Ayla for a hybrid, centralized resilience plan.",
+                        "consequence": "Seeks funding and technical scale; risks alienating locals and requiring relocations",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Push for organized regional relocation and accountability.",
+                        "consequence": "Moral clarity but forces hard relocations; fractures town bonds but may save lives",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rita Ortega",
+                "Dr. Ayla Voss",
+                "Elias Jun",
+                "Mayor Tomas Nkem"
+            ],
+            "locations_used": [
+                "Municipal Hall"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Chapter 4: I Choose the Docks",
+            "branch_designation": "Route A",
+            "narrative_focus": "I stand at the dock in a sun-bleached henley, aligning my voice with Elias’ practical cadence. We organize volunteers — Arlo with oversized hoodies, Rita painting signs, neighbors with patched leather boots — and start a community build for modular tidal barriers and mangrove plantings. My tablet is there, but so are hammers and salt-stiffened ropes. The work is immediate and satisfiable: levelling, driving posts, weaving mangrove seedlings into planters. Yet the problems compound — supply delays, a broken hydraulic jack, and a fisherman whose nets failed last week demanding cash aid rather than ecology. Dr. Ayla drops by with a data wristband pin-prick, her steel-gray eyes cataloguing our improvised fixes; she warns that without formal compliance, funding streams will close. I bristle, then recall why I chose this path: the tangibility of repair, the smell of wet wood, Elias’ callused hands guiding a post into place. At dusk, I climb to the rooftop watch, string lights swaying, and watch our patchwork defenses from above. The town feels smaller and wholly ours, but the political clock ticks.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Jun",
+                "Arlo",
+                "Rita Ortega",
+                "Dr. Ayla Voss"
+            ],
+            "locations_used": [
+                "Docks",
+                "Greenhouse",
+                "Rooftop watch",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Chapter 5: The Storm Warning / Moral Bottom",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The weather service flashes an emergency warning: an intense coastal storm is forming offshore. Our makeshift barriers tremble under a wind that tastes metallic. Tempers fray. Arlo makes a reckless choice while adjusting a supporting net; a small accident leaves him shaken and the community questioning the safety of improvisation. Ayla’s earlier warning echoes: we lack formal permits and guaranteed funding; if we keep building without compliance, the regional grant will vanish and long-term engineering oversight will be withheld. In the face of the incoming storm, the town’s divisions crystallize. Elias insists we push forward — “we’ll fix it while it’s broken” — while Rita pleads for coordinated evacuation plans for vulnerable families. I feel the low slide into culpability: my leadership has tied hope to an untested plan. My hands shake, tide-watch heavy, as lanterns whip and the mangrove seedlings rustle like small pleas. This feels like the bottom: raw, cold, and personal. Tonight, I must decide how to act: double down, seek a compromise with Ayla, or prioritize evacuation.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "With the storm approaching and safety at stake, how do I lead?",
+                "options": [
+                    {
+                        "label": "Stay and reinforce the community barriers with Elias.",
+                        "consequence": "Immediate solidarity but high physical risk; potential local morale boost",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Pause construction; call for an emergency permit and coordinate with Ayla for a partial evacuation.",
+                        "consequence": "Prepares safety and seeks formal support; delays grassroots momentum",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Prioritize evacuating the most vulnerable and withdraw to secure communication with regional agencies.",
+                        "consequence": "Protects lives but sows resentment among those who wanted to fight; trust frays",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Arlo",
+                "Elias Jun",
+                "Rita Ortega",
+                "Dr. Ayla Voss"
+            ],
+            "locations_used": [
+                "Makeshift barriers",
+                "Docks",
+                "Mangrove plantings",
+                "Greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Chapter 6: After the Surge — Seeds of Recovery",
+            "branch_designation": "Route A (Ending A1)",
+            "narrative_focus": "We stand in the wreckage and the salvage of our own making. The storm came harder than forecasts; water chewed at the breakwater and took a line of net pens, but our modular posts held enough to save part of the harbor. I am exhausted, salt-crusted and trembling, Eli as resolute as ever, paint-streaked hair plastered to his forehead. Arlo’s scratch is minor, but the emotional toll is raw. The neighborhood rallied: neighbors who had argued now pass buckets; Rita stitches a torn banner as if mending a family. Ayla arrives after the storm, not in reproach but with measured assessment — she offers an interim compliance plan that melds our hands-on designs with engineering oversight. We win a conditional grant after demonstrating immediate community capacity. I feel the tide turning: from bottom to climb. It isn’t an unalloyed victory — some houses were lost and sacrifices made — but the recovery is real and communal. Elias squeezes my hand, salt and sawdust under both thumbs; we share a tired, fierce smile. The town is changed, and so am I.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Jun",
+                "Arlo",
+                "Rita Ortega",
+                "Dr. Ayla Voss"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Breakwater",
+                "Greenhouse",
+                "Rooftop watch"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Chapter 7: I Sit Across from Dr. Voss",
+            "branch_designation": "Route B",
+            "narrative_focus": "I opt to negotiate. Ayla’s municipal office smells of printer toner and polished leather; her platinum bob is sharp as her arguments. We design a hybrid proposal on my tablet: engineered tidal barriers combined with targeted buyouts and a funded community co-management program. The numbers look neat; compliance metrics and sensor thresholds dance across Ayla’s wristband. But getting the town to accept relocation of a few stubborn blocks — preserving the harbor core but moving the most at-risk families — feels unethical and inevitable. Elias accuses me of selling our soul to policy; his bare feet on the table, paint on knuckles, show his irritation. I walk our proposed map at dusk — the rooftop watch, my green scarf wrapped against wind — and think about the childhood home that might be marked for buyout. The political calculus is messy; Tomas warns that partial solutions attract angry donors. I balance technical clarity with human unpredictability, feeling the air shift toward crisis as residents mobilize in both protest and plea.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Reyes",
+                "Dr. Ayla Voss",
+                "Elias Jun",
+                "Mayor Tomas Nkem"
+            ],
+            "locations_used": [
+                "Municipal office",
+                "Rooftop watch"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Chapter 8: The Petition and the Protest — Bottoming Out",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The hybrid plan leaks. A petition appears on the bulletin board accusing me of siding with Ayla; neighbors yell at the meeting while others plead for structure. A late-night leak in a storm-relief levee floods a row of houses slated for buyout; accusations spread — did the relocation marker make them targets? Mayor Tomas freezes under cameras. Elias and volunteers set up a spontaneous blockade to prevent surveying crews from entering; Arlo helps and then regrets a risky move that ends in scuffle. I feel sick. My data-driven model becomes a symbol of coldness. I am pulled in every direction: by the science that demands triage and by the human faces that beg to stay. The community’s cohesion frays. In private, Ayla warns of funding withdrawal if we can’t show consensus. This feels like an emotional nadir for me: guilt, isolation, and the sense that my attempt to broker a compromise has deepened the fracture. I must decide whether to tighten the technocratic leash, publicly double down on outreach, or concede to stronger community control.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After the leak and rising tensions, how do I course-correct?",
+                "options": [
+                    {
+                        "label": "Enforce stricter compliance — side with Ayla publicly to secure the grant.",
+                        "consequence": "May stabilize funding but alienate locals",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Pause the technical rollout; organize listening sessions and do a transparent revision.",
+                        "consequence": "Slows funding but rebuilds trust if handled well",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Step back from the plan and empower Rita and community councils to lead revisions.",
+                        "consequence": "Transfers authority to locals; risks losing regional support",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Jun",
+                "Arlo",
+                "Rita Ortega",
+                "Mayor Tomas Nkem",
+                "Dr. Ayla Voss"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Levee",
+                "Protest site",
+                "Bulletin board"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Chapter 9: Agreement and Repair — Rising",
+            "branch_designation": "Route B (Ending B1)",
+            "narrative_focus": "I publicly endorse Ayla’s plan and secure the conditional grant. The town responds with a mixture of relief and bitter applause; Tomas frames it as a victory. We deploy engineered barriers and a carefully scheduled relocation program. I spend nights drafting equitable buyout terms to protect tenants and cultural heritage: seed-bank transfers, relocation aid, and guarantees for community-managed greenhouses. Elias is quiet; his fingers run over the wooden bracelet he wears like a small ritual. He accuses me of capitulation; I accuse him of romanticizing risk. In the end, we construct a shared oversight committee with community seats and promise rebuilding help for those moving. The recovery phase is pragmatic and steady. There are losses — a few houses are abandoned — but the core of Marisora remains, buffered and better monitored. I feel uplifted by practical success, but the warmth is tempered by distance: some neighbors look at me with gratitude, others with coldness. My relationship with Elias is mended slowly, through work rather than words.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Dr. Ayla Voss",
+                "Elias Jun",
+                "Mayor Tomas Nkem",
+                "Rita Ortega"
+            ],
+            "locations_used": [
+                "Construction sites",
+                "Harbor",
+                "Municipal Hall"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Chapter 10: I Advocate for Relocation",
+            "branch_designation": "Route C",
+            "narrative_focus": "I stand at the microphone and say words I never expected to say publicly: “We must plan for coordinated relocation.” The room freezes. Ayla watches with a look of austere approval; Tomas looks at his shoes. My argument is moral clarity — organized movement now will prevent future loss of life. But it is also an abandonment of place for some families. Rita cries at the back; Elias grips the railing, jaw clenched. I walk the mangrove line and feel the roots under my boots, imagining packing seed banks into boxes. The personal cost is immediate: a lifelong neighbor, our childhood next-door, sits on the relocation list. I draft letters, call regional planners, and try to make the plan humane, but bureaucratic forms and the reality of moving elders make it almost unbearably raw. The town splits into those who see safety and those who see exile. I feel the gravity pull me downward: responsibility heavy, love fracturing, and the moral question unresolved.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maya Reyes",
+                "Dr. Ayla Voss",
+                "Rita Ortega",
+                "Elias Jun",
+                "Mayor Tomas Nkem"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Mangrove line",
+                "Rooftop watch"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Chapter 11: The Evacuation Order — Nadir",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "A sudden tidal surge forecast forces an evacuation order for several blocks. I coordinate, trying to be efficient and tender, making evacuation lists with Rita and allocating cars with Tomas. Elias refuses to leave his father’s boat; Arlo hides, furious. The decision to uproot elders; the palliative logistics — seed crates, medication lists, cultural artifacts — all land on me. One relocation convoy leaves at dawn; an old neighbor refuses to go and dies of exposure that night. The guilt is immediate. I replay my choices like bad weather patterns and wonder if a different path could have kept her safe. Ayla commands regional resources to ensure organized transport, but nothing can reverse the immediate human loss. I am at the bottom — a heap of policies, promises, and grief. The town is fractured and haunted. I must decide how to lead recovery: demand accountability, rebuild community trust, or leave Marisora to its fate.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After the evacuation loss, what leadership path will I take?",
+                "options": [
+                    {
+                        "label": "Expose bureaucratic negligence and demand regional accountability.",
+                        "consequence": "Potential moral clarity and systemic change; risks political enemies",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Focus on local restoration and community healing; step back from policy battles.",
+                        "consequence": "Rebuilds neighborhood trust slowly; may forgo large-scale funding",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Leave Marisora to help resettled community elsewhere, committing to long-distance rebuilding.",
+                        "consequence": "Preserves life, sacrifices place; tests the endurance of love",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rita Ortega",
+                "Elias Jun",
+                "Arlo",
+                "Mayor Tomas Nkem",
+                "Dr. Ayla Voss"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Evacuation routes",
+                "Hospital",
+                "Convoy departure point"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Chapter 12: Public Reckoning / New Structures",
+            "branch_designation": "Route C (Ending C1)",
+            "narrative_focus": "I take the scandal public. Using my data and the names of missed dispatches, I push for a regional inquiry that uncovers delayed alerts and misallocated funds. The process is painful; Ayla and I testify together and it is awkward, but she and I carve out a rare alignment: she uses the political machinery and I use my credibility to call for structural reforms. The inquiry leads to accountability and a better-funded, humane relocation protocol that includes cultural preservation funds and a resettlement trust for families. The town is forced to coordinate with regional authorities, and many are relocated with dignity. Elias and I become partners across distance; we commit to rebuilding — I in planning, he in ground projects where resettled communities plant new mangroves. The emotional closure is sharp and clean: we saved lives through exposure and sacrifice. Regret remains, but the arc rises toward moral clarity, and I accept that some loves endure across miles.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Dr. Ayla Voss",
+                "Elias Jun"
+            ],
+            "locations_used": [
+                "Press conference",
+                "Municipal Hall",
+                "Relocation trucks"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Chapter 13: Community-Led Healing",
+            "branch_designation": "Additional Route (Shared Ending C2 / A2)",
+            "narrative_focus": "I double down on local recovery — listening sessions in the greenhouse, potlucks to rebuild trust, and stitched-together legal clinics to help tenants. This path emphasizes interpersonal repair over larger political fights. We retrofit homes, restore communal seed banks, and create a cooperative fund. Elias teaches boat repair to younger volunteers; Rita leads neighborhood councils. Ayla helps quietly, offering templates and redirecting small grants; her steel-gray eyes soften when she releases some control. The recovery is messy and intimate: a neighbor learns to forgive, a family plants a memorial mangrove, and my relationship with Elias rekindles in late nights rebuilding a rooftop herb garden. This rise feels organic and slow, full of small victories that aggregate into resilience. It’s not as fast as a grant, but it’s anchored in trust and memory. I learn to lean on others and let my old instinct to carry everything go.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option B; From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rita Ortega",
+                "Elias Jun",
+                "Dr. Ayla Voss",
+                "Arlo"
+            ],
+            "locations_used": [
+                "Greenhouse",
+                "Rooftop watch",
+                "Community legal clinic",
+                "Neighborhood council meeting"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Chapter 14: Leaving to Rebuild Elsewhere",
+            "branch_designation": "Additional Route (Shared Ending C3 / A3)",
+            "narrative_focus": "I choose the painful fidelity of leaving. Elias and I pack seed banks into battered crates, promise to write and visit, and move with a small cohort to a coastal town upriver chosen by regional planners. The physical distance is a wound and a salve; we trade the rooftop watch for rented rooms with rooftop gardens. Rebuilding takes new forms: modular aquaculture projects, community greenhouses reassembled on new foundations. The love between Elias and me is tested by distance, long commutes, and budget constraints; we adapt by sharing chores across shifts, sending small parcels of mangrove seedlings. The recovery is a rise built through displacement and reinvention: we avoid the worst future and plant new roots. I ache for Marisora — its smell, its harbor creak — but I also feel the relational resilience of work shared. The ending is not idyllic, but it is honest and sustained.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option C; From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Jun",
+                "Dr. Ayla Voss",
+                "Rita Ortega"
+            ],
+            "locations_used": [
+                "Moving trucks",
+                "New coastal town",
+                "Rooftop gardens"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Chapter 15: Forced Compromise — Institutionalized Resilience",
+            "branch_designation": "Additional Route (Ending B2 / Institutional Happy)",
+            "narrative_focus": "The council cedes authority to a community-led charter led by Rita, with institutional support brokered by Mayor Tomas and technical guidance from Ayla. I help draft the charter, balancing legal language with lived practice. The result is a hybrid governance model: community stewardship of mangroves and modular defenses with binding oversight from regional engineers. Some families relocate; others stay. Funding stabilizes. Elias leads a new crafts cooperative, teaching boat-turned-barrier construction. Our romance is rebuilt as a partnership of labor and love: we survive on shared breakfasts, long evenings fixing sails, and quiet surveillance at the rooftop watch. The town is not the same as before the crisis, but its identity adapts with intent. The rise is collective, institutional, and rooted in hard lessons. I end with a sense of cautious optimism — the kind that shows up in the way neighbors trade seeds and the way my green scarf is now part of a shared banner.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rita Ortega",
+                "Mayor Tomas Nkem",
+                "Dr. Ayla Voss",
+                "Elias Jun"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Construction sites",
+                "Community charter signing"
+            ]
+        }
+    ],
+    "remarks": "Global arc follows Man in a Hole: initial descent (Chapters 1–5, 7–8, 10–11) into crisis and multiple branching decisions, then rise through community-led, negotiated, institutional, or relocation-based recoveries (endings across Chapters 6, 9, 12–15). Four major split hubs occur at Chapters 3, 5, 8, and 11. All chapters are first-person from Maya Reyes as specified.",
+    "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+    "_meta_arc_strategy": "Man in a Hole (Fall-Rise)"
+}

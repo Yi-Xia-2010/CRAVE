@@ -1,0 +1,132 @@
+### SCRIPT
+# Route: Route A — Option A
+# Context: 4001e7
+
+[Scene: Tidewatch Lab | Late Night]
+[Visual: Rain streaking down the north-facing windows, lamp pools over a cluttered bench]
+[Music: Low, mournful strings; a wind-noise underscore]
+[Sound: Soft whir of refrigeration, drip of water from a drying beaker, distant foghorn]
+
+You come in wet, the hem of your jacket splattered with the harbor's gray. The lab smells exactly like home: damp timber, old varnish, the faint copper of archived instruments. Your fingers still have the rhythm of the promenade—pacer's tension, the compass warm against your palm in the apron pocket. You set it on the bench between a stack of sediment cores and the tablet that holds the sensor feeds.
+
+A bank of monitors throws blue light across maps: color gradients of deposition, vectors of flow, an overlay of your prototype reefs marked in pale green. The numbers scroll like a tide—some lines climbing, some dropping. You reach for the dataset you annotated last night, more out of habit than hope.
+
+Isla Morgan (thinking): You told yourself to expect mess. Models are compromises; field work is negotiation. Still — the pattern at the eastern channel isn't a compromise. It is an argument.
+
+[Visual: Close-up on a monitor showing sediment accumulation vs. erosion near moorings]
+[Sound: Keyboard taps, a quiet, anxious percussion]
+
+Luca Moreno is already here, breathing in the way of someone who sleeps with one eye open for projects. He has his sleeves rolled to the elbow; a smear of lubricant on one knuckle. Papers are fanned on the table like a set of possible futures.
+
+Luca Moreno: "You look like someone who saw bad weather in a lab coat." (he half-smiles, then drops the smile when he reads the screen) "What am I looking at?"
+
+You point. The monitor highlights two things at once: a pleasing curve where the reef prototype is trapping sediment farther out, and a sharper, jagged decline of seabed height closer to an old mooring lane.
+
+Isla Morgan: "Overall capture looks promising. The breakwater modules are accreting where we hoped. But look at the vectors along the eastern moorings — localized erosion spikes that coincide with certain tidal phases."
+
+Luca Moreno leans forward, amber eyes sharp in the glow. He toggles layers, brings up a slider, plays the tidal animation. The way the current redirects around the prototype is almost beautiful — a hairline thread of flow that becomes a focused stream.
+
+Luca Moreno: "It's diverting. Not a lot—yet—but it's real. We can tweak placement. Or—" (he looks at you) "—we go to the town now. Put it all out. People deserve to know."
+
+Your chest tightens. Saying "people deserve to know" has weight beyond ethics; it is a lever in a machine that already stalled once on the promenade. The memory of faces—detained neighbors, Jonah steadying an older man—sits behind your teeth.
+
+Isla Morgan (thinking): Publish and the town will be raw. Pause and tinker, and Aria will own progress. Propose collaboration, and you might hand the data to the people who could commercialize it. There is no neutral path.
+
+[INTERACTION]
+> Choice A: "Run a quick filter on the dataset to reduce noise"
+> Choice B: "Inspect the raw sensor logs manually"
+[Outcome A: "You run a smoothing algorithm. The jagged erosion spikes dull but persist; your heart dulls with them."]
+[Outcome B: "You scroll timestamps and measurements by hand. The human rhythm of the data makes the pattern harder to deny — and harder to trust."]
+[MERGE: Continue]
+
+Luca Moreno watches you while you work. He wants action; the rally's energy still lives in him like a living thing, an ember he can't help blowing on.
+
+Luca Moreno: "If we wait, Aria will call it obstructionism. If we release—" (he stops; the rest of the sentence hangs) "—people panic, sure, but they also move. We need movement."
+
+You hear the echo of the promenade in his voice: the same urge that pushed you into the rain. Yet there is also recklessness there, the kind that stitches optimism to outcomes without accounting for the people who will be harmed if those outcomes go bad.
+
+Jonah appears at the doorway like a weathered shadow, the wool cap pulled low. He smells of the sea—wool, diesel, brine. He takes in the monitors, the spread of papers, then looks at you the way he looks at the sea: patient, severe.
+
+Jonah: "Isla." (his voice is small but carries) "Change the sea, change the way the boat comes home."
+
+The sentence is not a warning about currents only; it is about tradition, about nets and lines etched into town memory. You feel the weight of it like a line pulling at the center of a sail.
+
+Isla Morgan: "I know." (you run a thumb along the edge of a core; the fossilized grain scratches your skin) "The anomaly suggests a focused diversion during spring tides. It isn't uniform. There are interactions with the remnant groynes—structures no one uses anymore."
+
+Jonah: "Remnants have mothers and fathers. Boats know them. People remember." (he walks closer, resting a hand on the bench) "You don't rush this because the sea can punish in ways the council doesn't understand. Or maybe they do understand. Maybe they just measure in ledgers."
+
+Luca Moreno bristles.
+
+Luca Moreno: "Jonah, if we wait until it's perfect we're already out of time. The next high will be worse unless we act."
+
+Jonah: "So you act without knowing which boats you break." (He looks at you, not Luca Moreno.) "Which boats will come home, Isla?"
+
+The lab hums; someone outside taps a metal sign in the rain. The storm watch in the upper-right corner of your main dashboard bleeds from orange to red. A new alert chirps like a small animal in the room.
+
+[Visual: The storm-watch icon pulses red; distant sirens swallowed by rain]
+[Sound: Alert chime, low rumble of thunder approaching]
+
+Isla Morgan (thinking): The red is a drumbeat in my chest. Every dataset now carries more than numbers — it carries forecasted harm, a ledger of losses. The protest gave voice to urgency; now urgency asks for accuracy.
+
+You pull up the anomaly window again, isolating timestamps. There is one segment where sensor readings spike in phase with boat traffic through the channel. The idea thickens: our reef forces a small current into an old lane at the moment boats pass — erosion and a wave of shifting moorings could follow.
+
+Your hand hovers over the "share" icon. A dozen little consequences ripple through your mind: a market woman's dock undermined, a season's catch lost, a council headline that frames your work as alarmist. Another dozen ripple the other way: proactive evacuations, funding for a redesign, community solidarity.
+
+Luca Moreno reaches for the tablet as if to snatch the decision from you.
+
+Luca Moreno: "We post the findings. We hold a meeting tonight. People need the facts — raw if need be. They can handle it. They deserve them."
+
+Isla Morgan: "The data is noisy. It could be misread. A panic could follow a misread, and panic sculpts policy just as well as evidence."
+
+Jonah: "Panic is a wind that buries more than it uncovers." (He folds his hands, the knuckles like knotted rope.) "Weigh the boats, Isla. Don't forget which ones you will be asking to move."
+
+[INTERACTION]
+> Choice A: "Answer Aria Chen's message now and ask for a pause to discuss a joint trial"
+> Choice B: "Ignore Aria and focus on a technical redesign with Luca"
+[Outcome A: "You pull up Aria Chen's text — measured, solution-oriented. You craft a reply that invites oversight and funds, and the cursor blinks like a promise you are unsure you want to keep."]
+[Outcome B: "You set the message aside. The silence feels deliberate, like sealing a hatch against a storm. Luca nods, relieved and expectant."]
+[MERGE: Continue]
+
+A memory of the promenade returns — the lamps smeared like beacons, faces rearranging into new stories. The town will tell this night into its kitchens. The rally's aftermath has already shifted loyalties; some will rally to transparency, some to pragmatism, some to the promise of jobs from development. Every move you make is now a chord struck in that uncertain song.
+
+Luca Moreno's fingers drum the bench; he looks like he wants to bridge the lab to the square in one motion.
+
+Luca Moreno: "We can frame it—call it 'preliminary findings'—with caveats. Transparency builds trust. Silence builds suspicion."
+
+Isla Morgan: "Or silence buys time to fix what could break people's livelihoods."
+
+Jonah: "Or cooperation buys you a seat at a table where the ledger is written."
+
+Your thumb finally presses the edge of the tablet, not making a selection but feeling the click through the case. You can name the consequence you fear most and it still sits like a stone in your throat: that your data, meant to protect, will be read as a weapon against the town you love.
+
+[Visual: Outside, streetlamps flicker as wind picks up; rain hammers the roof harder]
+[Music: Strings tighten into a low, descending motif]
+[Sound: Distant shouting — a fragment of someone arguing on the promenade; then the sound cuts off]
+
+Isla Morgan (thinking): The choice is not between right and wrong. It's between different kinds of harm. Each path will cost something that love is supposed to protect.
+
+You look at Luca Moreno. He looks at Jonah. Jonah looks at the monitors, then at the compass in your apron — its brass dull under the lamp light.
+
+Isla Morgan (softly): "We need to decide."
+
+You inhale. The storm light bathes the lab in red for a heartbeat, the weather's warning echoing like a bell. The town outside is already choosing its stories about you. Inside, your own narrative is narrowing to a single, decisive motion.
+
+Publish the preliminary data immediately and hold a community meeting.
+Pause public statements and redesign the prototypes quietly with Luca.
+Propose a funded joint trial with Aria’s council to scale and monitor properly.
+
+[DECISION POINT]
+1) "Publish the preliminary data immediately and hold a community meeting." -> TARGET chapter_id: [6]
+2) "Pause public statements and redesign the prototypes quietly with Luca." -> TARGET chapter_id: [13]
+3) "Propose a funded joint trial with Aria’s council to scale and monitor properly." -> TARGET chapter_id: [14]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Publish the preliminary data immediately and hold a commu..." -> ID 6 (Route A — Option A)
+    > Jump Target File: script_ch6_Route_A_Option_A_ctx_601bcb.txt
+Option 2: "Pause public statements and redesign the prototypes quiet..." -> ID 13 (Additional)
+    > Jump Target File: script_ch13_Additional_ctx_601bcb.txt
+Option 3: "Propose a funded joint trial with Aria’s council to scale..." -> ID 14 (Additional)
+    > Jump Target File: script_ch14_Additional_ctx_601bcb.txt

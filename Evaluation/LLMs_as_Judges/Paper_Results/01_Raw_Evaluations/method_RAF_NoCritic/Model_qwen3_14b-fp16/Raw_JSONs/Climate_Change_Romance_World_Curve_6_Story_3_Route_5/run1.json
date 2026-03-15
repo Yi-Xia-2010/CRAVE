@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance (Theme and Genre). The story seems to be about environmental issues, community efforts, and personal sacrifice. The theme is clear, focusing on protecting the estuary and dealing with the aftermath of a storm. The genre is probably drama or eco-thriller. The story matches its theme well, so I'd say a high score here, maybe 5.
+
+Coherence: The plot makes sense. There's a clear progression from the storm's impact to the community's response, the characters' decisions, and the resolution. The dialogue and interactions are logical. So coherence is strong, maybe 5.
+
+Empathy: The characters' emotions are well depicted. Maya's guilt, Elliot's departure, the community's struggles. The reader can feel their emotions through the descriptions and interactions. So empathy score is high, maybe 5.
+
+Surprise: The ending isn't a twist. It's more of a resolution where the community has a plan but it's complicated. The ending is expected, so surprise might be low, maybe 2.
+
+Engagement: The story is engaging with its focus on community and environmental issues. The reader is drawn into the characters' struggles and the setting. So engagement is high, maybe 5.
+
+Complexity: The story has layers with the governance framework, the balance between loss and hope, and the ongoing efforts. It's not overly complex but has enough depth. Maybe a 4.
+
+Now, I need to structure this into JSON with the exact keys. Make sure explanations are concise and match the scores.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story strongly aligns with its theme of environmental resilience and community-driven governance. The genre (drama/ecological narrative) is well-matched by the focus on personal sacrifice, ecological loss, and collective action.",
+  "CH_Score": 5,
+  "CH_Explanation": "The narrative flows logically from the storm's aftermath to the community's response, with clear cause-and-effect relationships between decisions (e.g., Elliot's departure, Mayor Cortez's plan) and their consequences.",
+  "EM_Score": 5,
+  "EM_Explanation": "The characters' emotions are deeply rendered—Maya's guilt, Elliot's fragile promise, Noah's absence as an ache—are conveyed through visceral imagery (e.g., 'residue of the storm inside you') and intimate dialogue.",
+  "SU_Score": 2,
+  "SU_Explanation": "The ending is predictable and resolution-focused rather than surprising. The story emphasizes incremental progress over dramatic twists, leaving little room for unexpected developments.",
+  "EG_Score": 5,
+  "EG_Explanation": "The reader is immersed through vivid sensory details (tar, salt-stained photos, lighthouse beams) and the moral weight of decisions, creating a compelling connection to the characters' struggles and the estuary's fragile state.",
+  "CX_Score": 4,
+  "CX_Explanation": "The story balances ecological, political, and personal layers without overcomplicating them. It explores trade-offs (e.g., lost marsh pockets vs. governance frameworks) and the ongoing labor of ethical stewardship, offering nuanced rather than simplistic solutions."
+}

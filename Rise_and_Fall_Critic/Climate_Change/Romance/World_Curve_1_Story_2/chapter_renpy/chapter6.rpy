@@ -1,0 +1,220 @@
+label chapter6:
+
+    # [Scene: Floodplain Boardwalk & Reedbeds | Dawn]
+    # play music "music_placeholder"  # [Music: Soft, ascending strings; the sound of a single gull in the distance]
+
+    scene bg ch6_601bcb_1 at full_bg
+    "You step onto the boardwalk while the town is still waking—boots hissing against wet wood, breath clouding in the chill. The air tastes of iron and salt, with a faint sweetness where kelp meets the surface."
+    "Each board beneath your feet remembers storms; each rope knows hands. This morning, the boards feel steadier than they did a year ago."
+    "Jun stands at the rail, his sleeves rolled, a mug steaming between his palms. He throws you a grin that is all teeth and weather—steadfast, a little wry. Nearby, volunteers unspool a line of bright floats;"
+    "someone hums a tuneless work-song. The harvest is small but clean: a proof-of-concept pulled from patient months of effort."
+    "You breathe in. The harbor doesn't feel like an adversary this time. It feels like an ally that finally learned to cooperate."
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "You see that? That rope's held three storms' worth of stubbornness and half your caffeine supply. Not a bad record."
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "You forget—you built half of the stubbornness into the knots. I'm only here to point at broken things."
+
+    jun_park "And to fix them. We know your specialty."
+    "You lean closer to watch the kelp being braided into bundles. The plants are darker than you expected—olive and deep green, luminous when they catch the thin light. The smell is wet, like the inside of"
+    "a shell, and the texture under your fingers is both slick and fibrous, alive in a way that feels less like material and more like a promise."
+
+    menu:
+        "Roll up your sleeves and join the bundling":
+            "You jab your hands into the kelp, cold and surprising. Someone shouts an approving whoop and Jun slaps you on the back—your fingers smell like sea and effort, and the work settles low in your chest."
+        "Take measurements and scribble notes for the log":
+            "You tilt your head, pen ready. The numbers calm you; they translate motion into meaning. Elias leans in to check your figures, and for a moment your markers and his tide maps overlap like a map of trust."
+
+    # --- merge ---
+    "Elias's voice arrives before you turn fully—soft as foam and steady as a tide chart. He has salt in his hair and a smear of mud on his cheek. The wind tugs at his jacket as though testing its seams."
+    show elias_maren at center:
+        zoom 0.7
+
+    elias_maren "We hit a good yield. The anchors held. The breakwater seedlings are settling."
+
+    mika_hoshino "Good is a word with weight. It has to hold tomorrow too."
+
+    elias_maren "I know. That's why we documented the calibration today—so the next teams don't have to relearn the edges. We can iterate without starting over."
+    "You and Elias move in a small orbit—hands overlapping on the same knot, breath misting in the same little cloud. There's a quiet rhythm in that togetherness: parentheses around the town's shouting—patience, logistics, coffee, sleep. His"
+    "eyes catch yours in a way that doesn't need promises. It just acknowledges the scaffolding you built together."
+
+    elias_maren "Have you slept at all?"
+
+    mika_hoshino "Enough to measure whether the coffee's still fun or it's become a civic duty."
+
+    elias_maren "I'll make tea tonight. Rooftop lab—my chem tests are done for the day. Maybe we can look over the ledger together."
+    "The words are small—housekeeping of partnership. But they hang like a lantern: mundane, domestic, and luminous."
+    # [Scene: Workshop Exterior | Morning]
+    # play sound "sfx_placeholder"  # [Sound: Distant hammering, the clack of boots on metal]
+    hide jun_park
+    hide mika_hoshino
+    hide elias_maren
+
+    scene bg ch6_601bcb_2 at full_bg
+    "Inside, the workshop smells like sawdust and citrus cleaner. Tools hang with affectionate order. The community's notice board is a quilt of permits, photos of seedlings, and a cluster of children's drawings of blue towns protected by green forests."
+    "Mayor Amina moves through the room like someone carrying the weight of a town and setting it down for others to touch. She's in conversation with two council members; their faces relax when they see you—because your presence often turns abstract policy into something tangible and immediate."
+    show mayor_amina_bakar at left:
+        zoom 0.7
+
+    mayor_amina_bakar "We arrived at funding today. Not everything we asked for—never everything—but it's more than we expected. The auditors wanted guarantees; your group provided them."
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "Guarantees are only as good as the people holding them."
+
+    mayor_amina_bakar "And you have people who will hold them. That's the point."
+    "Her gaze flicks to Elias Maren and then to you—a quiet acknowledgment of the particular kind of trust that forms between people who have pulled nets together. Outside, someone paints one of the municipal boats with a cooperative logo. The stroke is deliberate, a seal: partnership made visible."
+    "Soren Voss stands not far off—hands folded, expression neutral. There's an unreadable quality to him this morning: his posture less fortress than architecture. He avoids theatrical gestures; instead, he offers a brief nod that carries a"
+    "small, complex weight. You don't know what vows he took in private, or which compromises he hated to make; you see only the change in the way he chooses his words."
+    show soren_voss at center:
+        zoom 0.7
+
+    soren_voss "I won't pretend the path was spotless. But the models show resilience. The living elements—when respected—change the load."
+
+    mika_hoshino "Respect's the operative word. We need governance that ensures it stays respected."
+
+    soren_voss "Agreed. Local oversight. It can't be performative."
+    "The exchange is not a triumphal embrace; it's a tense treaty written in shared language. You can feel the friction of negotiation still hot in the air, and beneath it a cooling promise."
+
+    menu:
+        "Shake Soren's hand to seal a public face of goodwill":
+            "Your hand meets his—cool and firm. The cameras catch the moment. Inside, you keep your plans close and your questions closer."
+        "Walk back to Elias and stay close to familiar ground":
+            "You move toward Elias and the crowd parts like a gentle current. He offers his shoulder and the world shrinks to two steady heartbeats for a second."
+
+    # --- merge ---
+    # [Scene: Harbor | Afternoon]
+    # [Scene: Harbor | Afternoon]
+    # play music "music_placeholder"  # [Music: A gentle chorus; laughter drifting like gull feathers]
+    hide mayor_amina_bakar
+    hide mika_hoshino
+    hide soren_voss
+
+    scene bg ch6_601bcb_3 at full_bg
+    "You watch the offloading—baskets passed in a chain, the rich communal choreography that has always been Atera's backbone. The harbor looks different now: small plaques with co-op names, a municipal boat with a hand-painted emblem, and"
+    "a research skiff with Elias Maren's logo tucked beneath a field notebook strap. The surface of the water glitters as if the sun has learned to applaud."
+    "Riv darts by with flier in hand, breathless and incandescent with organizing energy. He tosses you a grin and a manifesto in micro-print—an event tonight celebrating the harvest. Jun hauls a crate and calls out for help with a grin that expects you to say yes."
+    show mika_hoshino at left:
+        zoom 0.7
+
+    mika_hoshino "You coming to the rooftop tonight? There's a small ceremony—nothing formal, just food and the logs."
+    show elias_maren at right:
+        zoom 0.7
+
+    elias_maren "I'd like that. I—' [searches for the right smallness] '—I'd like to see it with you."
+    "He says it plainly. It's not a vow; it's a plan. That steadiness feels like a new kind of home. Your chest unclenches a fraction—a knot loosening that has lived there since the flood."
+
+    elias_maren "We scaled because people showed up. Because fact met faith. Because junctures were honest, even when they were messy."
+
+    mika_hoshino "And because you kept showing up with tide maps and a ridiculous optimism."
+
+    elias_maren "You made me practical. You translated optimism into anchors."
+    "The exchange lengthens into a soft argument—who made the other useful—until you both laugh and the sound rolls out across the harbor. The laughter is warm and human and ridiculous: a small rebellion against the weather."
+    # [Scene: Greenhouse Rooftop Lab | Evening]
+    # play music "music_placeholder"  # [Music: Warm piano notes, low hum of grow-lamps]
+    hide mika_hoshino
+    hide elias_maren
+
+    scene bg ch6_601bcb_4 at full_bg
+    "The rooftop glows with a modest festival: string lights hung between rusted beams, a long table set with bread, pickles, and jars of something Elias Maren swears is 'experimentally edible.' People cluster in small rings—old fishermen,"
+    "younger activists, Mayor Amina in a shawl, Jun with his hands still smelling of sawdust."
+    "You stand with Elias Maren behind the table, passing plates. The conversation swells around you—stats, jokes, debts paid, arguments deferred—with the comfort of people who have learned to disagree without dissolving. Here, governance and domesticity sit at the same table."
+    show elias_maren at left:
+        zoom 0.7
+
+    elias_maren "Do you ever think about how much of this is still fragile?"
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "Every day. That's not the same as being afraid. Fragile things can be tended. They're not pointless because they break."
+
+    elias_maren "It's easy to forget that care is its own kind of infrastructure."
+
+    mika_hoshino "We forget. And then we remember and rebuild."
+    "The two of you talk late and not quite private—public intimacy that feels safer than a closed room. He asks the questions that matter: what you want when the work settles down; whether you'd ever want"
+    "to leave again; how healing looks in increments. Your answers are not theatrical confessions but practical sequences: more mornings like this, nights of lab notebooks and shared meals, a governance board with your mother's key—the dented"
+    "metal object you keep because it opens the door to the life you're choosing to keep."
+
+    elias_maren "I want to grow something that lasts. Not to stop the sea—impossible—but to make our shore smart enough and generous enough to survive it."
+
+    mika_hoshino "I want that too. And I want you in it. Not as an idea but as someone who still eats my terrible lab experiments."
+    "He laughs, then reaches across the table and slides his hand over yours. The gesture is small, perfectly ordinary, and enormous at the same time."
+
+    menu:
+        "Say 'yes' to a quiet life together":
+            "The word comes out like a knot untied. Elias's smile widens, and the rooftop seems to inhale and exhale with you."
+        "Ask for time to let the town settle first":
+            "You ask for the slow rhythm—test the durability of this new thing. Elias nods; there's trust in the pause, not disappointment."
+
+    # --- merge ---
+    "Your hand in his is warm; the night is warm in a different way than the storms: cultivated, intentional, lit by lamps strung between people."
+    "Your hand in his is warm; the night is warm in a different way than the storms: cultivated, intentional, lit by lamps strung between people. You feel old guilt unspool a little. Responsibility remains—always—but it's shared now. It's a weight that folds into the shape of others' shoulders."
+    "Soren Voss appears at the edge of the rooftop, a silhouette less severe than before. He doesn't step into the circle but he isn't meant to. He holds a small envelope—an amended clause—and offers it to"
+    "Mayor Amina in a way that shows someone who had to consult his better self. Her face tightens with the habit of negotiation, then softens in relief."
+    show mayor_amina_bakar at center:
+        zoom 0.7
+
+    mayor_amina_bakar "This is enforceable. Local governance will have teeth."
+    hide elias_maren
+    show soren_voss at left:
+        zoom 0.7
+
+    soren_voss "It was harder than I expected. I underestimated the value of local wisdom."
+
+    mika_hoshino "Acknowledging that is the start. We'll hold you to it."
+
+    soren_voss "Hold me. We all need that."
+    "There's no cinematic reconciliation—no sudden embrace of all that was compromised. Instead, there is the quieter thing: accountability written into bylaws, community audits scheduled, and an understanding that power changes shape when it's accountable to neighbors."
+    # [Scene: Harbor Overlook | Night]
+    # play music "music_placeholder"  # [Music: A full, warm swell of strings with a single clarinet line]
+    hide mika_hoshino
+    hide mayor_amina_bakar
+    hide soren_voss
+
+    scene bg ch6_601bcb_5 at full_bg
+    "You step to the overlook with Elias Maren at your side. The celebration hums behind you—song, clink of plates, low conversation. Up here, the town becomes a map of small victories and ongoing work. You can"
+    "see the places that still bear scars: a row of houses with raised foundations, a line of pilings with paint scraped off by storms. Those marks are not shameful; they are evidence that things were fought"
+    "for and tended to."
+    show elias_maren at left:
+        zoom 0.7
+
+    elias_maren "Do you regret staying?"
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "Sometimes I regret that I felt guilty for surviving. But not staying. I regret when fear made me small. But the work has made me grown into something part of a whole."
+
+    elias_maren "We did that together."
+    "You think of your mother's key in your pocket, of Jun's hands, of Amina's stubborn tenderness, of Riv's electric energy, of Soren Voss's complex promise. Each person is a plank in the scaffolding. Each concession was bargained and catalogued and made public."
+    "Your mind sketches the future in practical lines: a cooperative charter, municipal oversight with teeth, kelp farms linked to livelihoods, a raft of small boats with logos that tell a story of shared gain. Whether it"
+    "came by grant, by co-op bylaws, or by a grudging partnership with a developer, the shoreline has changed. It will still erode in places; it will still demand attention. But it is measurably safer. People can"
+    "sleep better and continue to find reasons to wake."
+    "You press your palm to the weathered railing and feel the grain of the wood—rough, human, enduring. The harbor breathes around you like a living thing and you are part of its pattern now. The guilt"
+    "you've carried doesn't dissolve like salt in water, but it loosens, and in the gaps new roots push."
+
+    elias_maren "Where do you want to be, Mika?"
+
+    mika_hoshino "Here. With people who argue and hold me accountable. With someone who tells me when I'm stubborn and helps me smooth the edges. With work that doesn't disappear when your back turns."
+
+    elias_maren "Then let's make a life that's as ordinary as we dare to build."
+    "You both laugh quietly, the sound threaded with relief and an earnestness that feels like a vow without theater. Around you, the town carries on—repairing nets, discussing budgets, feeding a small hungry child the last of the sweet pickles. Nothing's finished. Everything's beginning."
+    # play music "music_placeholder"  # [Music: Swells, then settles into a gentle, hopeful cadence]
+    hide elias_maren
+    hide mika_hoshino
+
+    scene bg ch6_601bcb_6 at full_bg
+    "You let the night fold over you and feel, finally, that belonging is not a single act but a practice. Love is not an escape from duty; it is one of the ways you meet it."
+    "The shoreline will always demand tending, but you are no longer alone with the tide."
+    "You breathe in the salt and the lamp fumes and the future — a measured, tangible thing you can work on, shoulder to shoulder, knot by knot."
+    # [Scene: Fade Out | Night]
+    # play music "music_placeholder"  # [Music: Fade to a soft chord]
+
+    scene bg ch6_601bcb_7 at full_bg
+
+    scene bg ch6_601bcb_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

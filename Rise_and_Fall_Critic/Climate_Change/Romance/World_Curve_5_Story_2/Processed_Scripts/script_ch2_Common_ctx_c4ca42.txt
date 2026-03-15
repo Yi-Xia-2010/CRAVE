@@ -1,0 +1,133 @@
+### SCRIPT
+# Route: Route D — Ending
+# Context: c4ca42
+
+[Scene: Old Pier Market | Morning]
+[Background:"ch2_c4ca42_1"]
+[Music: Gentle piano arpeggio with soft strings—rising but steady]
+[Sound: Distant gulls, muffled haggling, the slap of boots on wet wood]
+
+You step off the raised walkway and into the market's humid breath—peat and smoked fish stitched with the sugar of frying dough. The crate of handbills is heavier than you expected, soaked at one corner where last night's spray clung to the cardboard. You tuck it under your hip, fingers finding the familiar ridge of your silver ring as if you could steady the day by touch alone.
+
+Marta waves from her usual stall, paint-splattered overalls a bright punctuation against the muted docks. Her hands are already up to a wrist in a burlap sack of marsh seed mixes; she grins when she sees you.
+
+Marta [waving]: "There you are. Look at all these faces waking up early for you. We've got Rafi by the east gate, Jun is setting up behind the spice stall, and Eli Navarro's waving his arms like a man trying to herd tides."
+
+Aria Solen: "I owe you a thermos. And probably cookies from Eli."
+
+Marta [tucking a folded flier into the crate]: "Cookies are the economy of persuasion here. But listen—when you tell it, don't give numbers first. Give them a patch of land they can smell. Give them a tomorrow they can taste."
+
+Her voice has that mixture of bluntness and warmth that settles something in you; it makes the plan feel less like a presentation and more like a table you're all setting together. You flip open your notebook and sketch a three-line opening: smell of peat; someone's child learning to set a seed; what one hand can do. The words sit like seedlings on the page—small, tangible.
+
+[INTERACTION]
+> Choice A: "Offer Marta a seed packet"
+> Choice B: "Keep the packet for demonstration"
+[Outcome A: You press a single packet into Marta's palm. Her face softens—like the market itself recognizing one of its own—and she promises she'll hand it to Old Mrs. Liao, who needs convincing more than most.]
+[Outcome B: You tuck the packet deeper into your jacket, planning to place it on the demo tray where people can touch it. Marta raises an eyebrow, amused, but nods. 'Show them the feel of what we're saving,' she says.]
+[MERGE: A bell tinkles. Eli Navarro is there, half-turned toward the channel, his sun-bleached hair flattened by a bandana, a battered wooden case of buoyant substrate samples at his feet. He rolls one of the sample cubes between two palms; it's light as foam and flecked with algae. He looks up when you approach, amber eyes lighting the way he always does—impatient, hopeful, a little like sunlight finding a crack.]
+
+A bell tinkles. Eli Navarro is there, half-turned toward the channel, his sun-bleached hair flattened by a bandana, a battered wooden case of buoyant substrate samples at his feet. He rolls one of the sample cubes between two palms; it's light as foam and flecked with algae. He looks up when you approach, amber eyes lighting the way he always does—impatient, hopeful, a little like sunlight finding a crack.
+
+Eli Navarro: "Morning. Think of these as the mattress for new life—light, porous, holds seeds, lets currents pass. If we can show council how a living shore actually sits in the water, they'll stop calling it 'soft' like it's a concession."
+
+You crouch to feel the sample. Salt beads on your knuckles; the cube gives with a satisfying spring and leaves a damp imprint on your fingertips.
+
+Aria Solen: "How did you get these to hold together? Last demo we had chunks floating free."
+
+Eli Navarro [grinning]: "Tinkering and too much coffee. I layered old rope fibers, oyster shell grit, and—would you believe—moss from the Helix? It's a messy recipe, but it holds. People can step on it, plant into it, it doesn't just wash away."
+
+You take in his hands, calloused and quick; there's a carefulness in his grin that never reads as practiced. You ask about load-bearing, about the biofilm he said would encourage root adhesion. He answers in gestures—squeezing the sample here, flipping it there—then looks at you with the sort of half-challenge, half-apology he saves for when he knows he's running close to an ask.
+
+Eli Navarro: "Are we good for the demo table? I've got a tray, a little model of the corridor, and a bucket. If we get Lina in the room, and people touch this, they're not just seeing renderings—they're feeling what we mean."
+
+Aria Solen: "Bring the tray. I'll tell a story while Jun lays out the scenarios. Marta will bring people. Old Man Rafi can give them a thread that ties it all together."
+
+His hand brushes the crate of handbills you carry; the touch is brief, an accidental map back to the shoulder-squeeze from earlier, and it makes you steady—not because of romance alone, but because his partnership is a physical thing as much as ideological: you plan, he builds, and the market stitches the rest.
+
+[Sound: A low laugh from a nearby stall, the clatter of a wooden spoon]
+[Background:"ch2_c4ca42_2"]
+
+Jun arrives with the air of someone who sleeps with datasets wrapped around his head. He has a tablet with graphs, but instead of beginning with a graph he begins with a question—because that is Jun's way of anchoring the science in human terms.
+
+Jun: "What if—bear with me—we show three climate futures in one pamphlet? One where we put in hard walls, one where we do nothing, and one where community stewardship scales up in steps. Side-by-side, people can see where livelihoods and habitat align."
+
+Aria Solen: "People respond to stories. If you let me stitch the scenarios to a neighbor's memory—Mrs. Liao's lost oyster beds, Tomas the net-mender's new work—we can make the scenarios visceral."
+
+Jun [hesitates]: "There are risks. If the worst-case projection is concrete and alarming, it can freeze people. But if we balance it—if we pair thresholds with what a family can do tomorrow—"
+
+You finish his sentence in your head: —and they feel empowered, not paralyzed. You say it aloud.
+
+Aria Solen: "Then we put agency next to the thresholds. 'At this tide, these hands can...' It's not just 'avoid this'; it's 'build this.'"
+
+Jun nods, relief moving across his features like a small tide. He begins swiping through visuals—probability envelopes, seasonal surge maps—his fingers making tentative bridges between numbers and the words you've been rehearsing.
+
+[INTERACTION]
+> Choice A: "Ask Jun to simplify the worst-case"
+> Choice B: "Insist on showing the raw worst-case"
+[Outcome A: You ask him to soften the language on the direst graph so the story focuses on solutions. Jun looks off for a beat, then agrees—scientific accuracy doesn't have to be callous.]
+[Outcome B: You push for the raw numbers; Jun's brow tightens but he nods. 'They should see it,' he says, 'so they know what's at stake.' The air carries the weight of that choice, a small gravity.]
+[MERGE: As you move through the market, vendors lean in. A fishmonger, knives glinting, tells you how his nets snag on new storm debris. A seamstress shows you salt-corroded garments and jokes that she might start harvesting sea-silk if the tides keep changing—her laughter steady as hope. Each short exchange is a file saved into your chest: tactile proof that the corridor is not an abstract model but a matrix of hands and livelihoods.]
+
+As you move through the market, vendors lean in. A fishmonger, knives glinting, tells you how his nets snag on new storm debris. A seamstress shows you salt-corroded garments and jokes that she might start harvesting sea-silk if the tides keep changing—her laughter steady as hope. Each short exchange is a file saved into your chest: tactile proof that the corridor is not an abstract model but a matrix of hands and livelihoods.
+
+Old Man Rafi waits by the spice stall with a cup of dark tea that smells like peat and an old grin. He is smaller than memory but carries an enormous reserve of calm. When you sit, the market noise seems to tilt around him.
+
+Old Man Rafi: "You remind me of your mother when you get like this—hands full, heart too. Tell me, child—what will you say first?"
+
+You look at your notebook, at Jun's charts, at the buoyant samples on Eli Navarro's tray. You could begin with peat or with peril; you could begin with a map or with a story. Rafi's face is a map of tides—wrinkled, patient, memoried.
+
+Aria Solen: "I want them to smell it first. To know why we fight not just for land but for the work it supports."
+
+Old Man Rafi [nodding slowly]: "Then don't start like a planner. Start like a keeper. Tell them how your hands felt when you planted the first reed. Tell them how the water answered."
+
+Aria Solen: "How did you keep your nets when the shoreline moved, Rafi? What did the elders used to say about the threads that hold a place?"
+
+Rafi chuckles, a sound like a bell through fog, and tells you a small parable: once, when the sea ate half the lane, the village braided spare fishing line into a net, not to catch fish but to catch the soil. They anchored it with roots and shells. It seemed an old man’s superstition until a storm rolled and the braided line turned into a place where small fish returned. "We call what we make threads," he says. "They are simple, but many threads together make shore."
+
+The metaphors are not sentimental; they are practical. In Rafi's telling, stewardship is a craft. It is also, you realize, the language the council needs: a way to imagine infrastructure as woven, repairable, and owned by many hands.
+
+Eli Navarro leans in and adds, gently teasing: "And they're cheaper than a seawall—and better at keeping Auntie Rosa's stall from being a museum exhibit."
+
+You laugh, the sound mingling with market clatter, and it feels like a small victory: people are already translating your plan into their lives.
+
+Jun tucks a printout into your hand—three simple thumbnails for the meeting: "Thread," "Wall," "Drift." Each thumbnail is labeled in plain language and paired with an immediate, local action step. Your fingers trace "Thread" where a small drawing of hands planting cordgrass sits next to an icon for local jobs.
+
+Aria Solen: "If I open with that parable and show these thumbnails, then Jun steps in with the scenarios and Eli hands out samples… it's not just a project. It's a practice."
+
+Marta: "Then close with tomorrow. Don't let them leave imagining some distant grant. Let them leave believing one person can plant three reeds."
+
+You rehearse lines while wrapping handbills into neat bundles. The rehearsal feels less like prepping a speech and more like sewing a hem: precise motions, invisible work that holds a shape. Your throat tightens—not with anxiety this time, but with the kind of fierce tenderness you reserve for the corridor itself.
+
+[Sound: A child's voice asks where cookies are. Eli Navarro opens the case and a small dog materializes at his feet, sniffing curiously.]
+[Background:"ch2_c4ca42_3"]
+
+Before you move toward the Council Chambers, Lina calls: a short message through Marta's comm—she's adjusted the sequence of speakers so your story leads. It isn't victory yet, but it is a crack in the usual protocol; it lets your narrative sit at the center when the lights come on.
+
+You lift your notebook for one last look. The opening line underlined twice: "We braided the shore; let's braid it better." It reads small and intimate—the opposite of rhetoric—and that is what you want.
+
+Eli Navarro catches your eye and nods. There's an unspoken exchange: you trust him with the physical demonstration; he trusts you to make the story live. That kind of trust is a slow-built thing, like oyster reefs. It holds more than pressure; it holds people.
+
+[Background:"ch2_c4ca42_4"]
+[Music: The piano motif rises into a hopeful, swelling cadence—promises tightened into motion]
+
+[Scene: Council Chambers / Redevelopment Pavilion | Mid-Morning]
+[Background:"ch2_c4ca42_5"]
+[Sound: Murmur of voices, the soft clunk of a projector initializing]
+
+You pause at the threshold, feeling the market's life clinging to your sleeves. The polished floors smell faintly of ozone; inside is where renderings get their power, but outside — at the docks, in the palms that hold seeds — is where power gets rooted. You breathe the difference in.
+
+You run your fingers over the edge of your notebook one last time and feel the scar where you've worn it thin. A hundred small decisions are threaded through what comes next. You think of Rafi's braided line, of Marta's hands, of Eli Navarro's light touch on the sample. You think of Jun's graphs and of the child's laugh that cut through the market like bell tone.
+
+There is a moment—thin and bright—before you step fully into the room, where every small thing you've set in motion might either hold or fray. You feel momentum under your feet, not as certainty, but as a rising current that wants to carry the whole town with it.
+
+You inhale. You step forward.
+
+[Background:"ch2_c4ca42_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: [3]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

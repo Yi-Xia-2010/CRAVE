@@ -1,0 +1,494 @@
+{
+    "title": "Tidebridge Tides",
+    "summary": "Ari Tanaka, raised in Tidebridge, narrates a near-future coastal town split between community-led ecological restoration and centralized corporate engineering. As storms and sea-level threats escalate, Ari must make leadership choices—support Etta's restoration collective, endorse Mateo's hybrid buoy-and-marsh plan, or negotiate with Elio's firm for structural protections. Each path forces moral compromises, political fights, and personal losses; romance with Mateo threads through routes but cannot prevent social fracture. Endings vary from privatized containment to ongoing stewardship with heavy costs.",
+    "emotional_curve_type": "Tragedy (Fall)",
+    "player_character": "Ari Tanaka",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Stitch [Fall]",
+            "branch_designation": "Common",
+            "narrative_focus": "I begin by documenting the estuary’s present condition and my motives; I photograph the shoreline and prepare for a town meeting. I set the stakes — Etta’s nursery struggles, Mateo returns from the lab with hopeful sensor prototypes, Elio’s firm canvasses the plaza. I introduce personal stakes: the smell of peat, my sun-bleached ash-brown bob, sea-glass streak, my faded navy field jacket patched at the elbows, and the coral-red strap of my analog camera. My internal guilt is established: I feel responsible for neighbors when storms come. The scene balances quiet memory and simmering urgency.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Elio",
+                "Etta",
+                "Jun"
+            ],
+            "locations_used": [
+                "Tidebridge Harbor",
+                "Etta's greenhouse",
+                "Municipal Hall"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Council and Coffees [Fall]",
+            "branch_designation": "Common",
+            "narrative_focus": "The town council meeting foreshadows the fracture. I record voices and weigh the proposals: Etta argues for marsh restoration and in-place resilience; Mateo offers hybrid buoys that could power pumps and protect low blocks; Elio pitches centralized surge barriers and managed relocation. Councilor Rosa sits between the pleas, and Mara, the journalist, presses for transparency. I ferry household concerns — Jun’s livelihood, families’ fear — into public record. Tensions rise; small kindnesses (Mateo fixing a broken sensor) contrast with corporate certainty.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Etta",
+                "Mateo",
+                "Elio",
+                "Councilor Rosa",
+                "Mara",
+                "Jun"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Municipal Plaza"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Plaza Vote [Fall]",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The meeting spills to the plaza. Protesters rally, corporate reps hand out pamphlets, and Councilor Rosa opens a symbolic vote to guide consultations. I am pushed into a momentary leadership role — will I publicly back Etta’s grassroots plan, Mateo’s hybrid approach, or accept negotiations with Elio’s firm? The decision is not only political; it is intimate and affects my relationship with Mateo, whose prototype I admire, and with Elio, who has old ties to families here. Tensions crack into argument; I feel the town’s eyes resting on my sea-glass gaze.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "At the plaza, I must declare support that will sway the Council’s advisory vote.",
+                "options": [
+                    {
+                        "label": "Back the restoration collective with Etta.",
+                        "consequence": "Strengthens community resistance; Elio steps up pressure; leads to Route A",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Endorse Mateo's hybrid buoy-and-marsh plan publicly.",
+                        "consequence": "Merges tech and ecology but angers purists and invites corporate co-option; leads to Route B",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Agree to enter formal negotiations with Elio's firm for centralized protection.",
+                        "consequence": "Promises quick stabilization but begins displacement plans; leads to Route C",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Etta",
+                "Mateo",
+                "Elio",
+                "Councilor Rosa",
+                "Mara",
+                "Jun"
+            ],
+            "locations_used": [
+                "Municipal Plaza"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Saltmarsh Lines [Fall]",
+            "branch_designation": "Route A",
+            "narrative_focus": "I commit to Etta’s restoration path publicly. We mobilize volunteers to build living shorelines and replant eelgrass in the Saltmarsh Flats. Mateo helps begrudgingly with sensor integration but warns about scale. Elio increases legal pressure and corporate liaisons arrive offering buyouts to skeptical homeowners. I organize training shifts; we stack coir logs and transplant saplings. The work is intimate and exhausting; I narrate small moments — Etta’s wrinkled hands, Jun’s callused fingers, the smell of wet peat — and the strain sets in.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Etta",
+                "Mateo",
+                "Elio",
+                "Jun"
+            ],
+            "locations_used": [
+                "Saltmarsh Flats",
+                "Tidebridge Harbor",
+                "Etta's greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Tides of Compromise [Fall]",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "After initial wins, a late-season storm exposes the limits of our work. Flooding breaches a newly-built sill and damages several houses. Opinions polarize: some blame our grassroots approach for not being fast enough, others call the storm an unavoidable test. Mateo proposes accelerating his buoy network to power temporary pumps; Elio’s firm amplifies calls for immediate seawalls. I confront the moral cost of staying vs. accepting outside help. My guilt sharpens when a child’s home is flooded. The community fractures; I choose how to respond publicly and personally.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we respond to the storm damage?",
+                "options": [
+                    {
+                        "label": "Double down on community restoration despite losses.",
+                        "consequence": "Morale falters; we risk another breach but preserve autonomy",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept Mateo's rapid hybrid deployment to buy time.",
+                        "consequence": "Brings temporary relief but invites corporate notice and funding strings",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Open negotiations with Elio to secure emergency structural defenses.",
+                        "consequence": "Stabilizes some areas quickly but begins displacement planning",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Etta",
+                "Mateo",
+                "Elio",
+                "Jun"
+            ],
+            "locations_used": [
+                "Saltmarsh Flats",
+                "Tidebridge Harbor",
+                "Etta's greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "The Wall Grows [Fall]",
+            "branch_designation": "Route A (Ending: Corporate Containment)",
+            "narrative_focus": "We double down on grassroots work but the damage compounds. Political pressure and fear amplify corporate voices; Elio’s firm legally leverages safety concerns and secures municipal approval for a containment contract after a high-profile breach. Seawalls and managed barriers are erected; buyouts force families from waterfront homes. My community efforts are sidelined, and Mateo, conflicted, chooses to take a grant tied to Elio’s project for scale-up — our personal bond strains under different moral choices. The estuary is kept technically safer, but the town’s social fabric unravels. I reckon with the cost of staying and failing.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Etta",
+                "Elio",
+                "Jun"
+            ],
+            "locations_used": [
+                "Tidebridge Harbor",
+                "Municipal Plaza",
+                "Etta's greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Bridging Currents [Fall]",
+            "branch_designation": "Route B",
+            "narrative_focus": "I publicly endorse Mateo’s hybrid approach — integrating small-scale wave-energy buoys with targeted marsh restoration. We partner with Wave Innovation Lab to pilot buoys that can power pumps and sensors. The plan attracts a mix: cautious locals, tech enthusiasts, and wary corporates. Etta supports cautious trials; Jun worries about long-term viability. Elio notices and begins courting the lab’s investors. Romance with Mateo deepens in quiet work nights, but tension mounts as funding negotiations require compromises.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Etta",
+                "Elio",
+                "Jun"
+            ],
+            "locations_used": [
+                "Wave Innovation Lab",
+                "Pier",
+                "Tidebridge Harbor"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Currents and Contracts [Fall]",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The pilot shows promise but a sudden storm overloads a buoy array and floods low blocks. The Wave Lab proposes expedited rollout needing private investment with contractual conditions that may privatize maintenance and access. Elio offers partnership that would scale the project quickly in exchange for intellectual control. Tensions rise: I fear losing community governance; Mateo wrestles with funding trade-offs. I must decide whether to accept a contract that secures power and infrastructure but cedes control, push for purely community-run scaling, or pause the project to reassess — each choice risks either collapse, co-option, or delay with growing danger.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we scale after the buoy failure?",
+                "options": [
+                    {
+                        "label": "Sign private investment with legal safeguards.",
+                        "consequence": "Rapid scale, but legal strings; community mistrust grows",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Insist on community-operated scaling and grassroots funding.",
+                        "consequence": "Slower rollout, higher risk of another failure",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Pause and seek an independent audit and renegotiate contracts.",
+                        "consequence": "Delays protection while legal battles begin",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Etta",
+                "Elio",
+                "Mara"
+            ],
+            "locations_used": [
+                "Wave Innovation Lab",
+                "Tidebridge Harbor",
+                "Municipal Plaza"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Branded Harbor [Fall]",
+            "branch_designation": "Route B (Ending: Bittersweet — Necessary Sacrifice)",
+            "narrative_focus": "We accept private investment under legal safeguards, scaling the buoy system and marsh repair quickly. It buys time and reduces immediate damage, but contracts demand restricted access corridors and maintenance fees that strain fishermen. Some families accept relocation packages to safer blocks; community trust frays. Mateo is torn but proud when the system stabilizes low blocks; our personal relationship endures but carries the weight of compromise and losses. The victory is partial — safety at the cost of open access and a changed town.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Etta",
+                "Jun"
+            ],
+            "locations_used": [
+                "Tidebridge Harbor",
+                "Wave Innovation Lab",
+                "Etta's greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Negotiated Shorelines [Fall]",
+            "branch_designation": "Route C",
+            "narrative_focus": "I agree to enter formal negotiations with Elio’s firm, hoping municipal oversight can protect residents. The firm proposes rapid structural interventions—seawalls and surge barriers—with a managed relocation plan for the highest-risk blocks. Councilor Rosa mediates while Etta fights for protections for preserved parcels. I watch Elio’s meticulous presentations and feel the logic of his losses; he speaks of prevented deaths. The negotiation seems pragmatic, but early buyout lists and access clauses unsettle me. Mateo is disillusioned, and our relationship frays under competing loyalties.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Elio",
+                "Etta",
+                "Mateo",
+                "Councilor Rosa"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Municipal Plaza"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Contracts and Currents [Fall]",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "Negotiations proceed; a town committee must choose terms. Etta fights to carve out protective covenants for community lands; Elio pushes for clauses enabling rapid construction. The firm offers relocation assistance and \"resilience bonds\" for those who accept. I am tasked with shepherding opposition voices into the committee's language. Mateo publicly distances himself from our choices and warns of overreliance on structural fixes. Pressure mounts as the next storm season approaches. I must decide whether to push for binding community protections, accept the company's baseline contract, or mobilize a public campaign to delay and demand more transparency.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to finalize the town’s terms with the firm?",
+                "options": [
+                    {
+                        "label": "Negotiate strict covenants protecting community lands and public access.",
+                        "consequence": "Slows construction; Elio threatens to withdraw or seek legal route",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Accept the company's baseline contract to ensure swift construction.",
+                        "consequence": "Rapid barriers and guided relocation; social displacement begins",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Launch a public campaign demanding audits and transparency, delaying the contract.",
+                        "consequence": "Time for scrutiny but risks another storm before defenses; legal battles ensue",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Etta",
+                "Elio",
+                "Mateo",
+                "Councilor Rosa",
+                "Jun"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Saltmarsh Flats",
+                "Etta's greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Covenant Break [Fall]",
+            "branch_designation": "Route C (Ending: Ongoing Struggle)",
+            "narrative_focus": "We manage to negotiate strict covenants protecting community lands and public access, slowing construction. The firm threatens legal action and delays progress, leaving the town exposed to the next big storm. The delay buys moral victory and long-term protections but results in immediate losses during a later surge — homes flood, and several families relocate anyway. Etta’s nursery survives but is strained. Relationships splinter; Elio sues for breach of timelines, and Mateo leaves to pursue independent projects elsewhere. The ending emphasizes ongoing stewardship, imperfect wins, and the cost of principled delay.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Etta",
+                "Mateo",
+                "Elio",
+                "Jun"
+            ],
+            "locations_used": [
+                "Saltmarsh Flats",
+                "Etta's greenhouse",
+                "Municipal Hall"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Bracing Buoy (Alternate Ending) [Fall]",
+            "branch_designation": "Route A (Alternate Ending)",
+            "narrative_focus": "After the storm breach, I accept Mateo’s rapid hybrid deployment. We accelerate buoy installation citywide with community teams operating under his guidance. The system buys time and limits flooding but requires maintenance contracts and some institutional oversight. Elio offers to underwrite regional expansion in exchange for data rights. The town stabilizes unevenly; some families stay, others leave for safer blocks with assistance. My relationship with Mateo deepens into a committed partnership shaped by hard decisions. The ending is bittersweet: technological success that preserves pieces of community but leaves compromises in governance and access.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Etta",
+                "Elio",
+                "Jun"
+            ],
+            "locations_used": [
+                "Wave Innovation Lab",
+                "Tidebridge Harbor"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Hard Lines (Alternate Ending) [Fall]",
+            "branch_designation": "From Ch5 Option C / Route A or From Ch11 Option B / Route C",
+            "narrative_focus": "I open emergency negotiations with Elio or accept the company baseline from the committee; the firm proceeds with swift construction of hard defenses and managed relocations. The town stabilizes physically, but the social soul frays: public waterfront access becomes restricted, boat ramps privatized, and several families sell out and move. Mateo leaves or joins the firm in a conflicted role. Etta’s greenhouse is preserved as a pocket but no longer a communal hub. Personally, I endure deep regret and fractured intimacy. The ending is a tragic containment: safety at the cost of community.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Elio",
+                "Mateo",
+                "Etta",
+                "Jun"
+            ],
+            "locations_used": [
+                "Tidebridge Harbor",
+                "Municipal Plaza",
+                "Etta's greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Audit and Aftermath [Fall]",
+            "branch_designation": "Additional Route (Ending)",
+            "narrative_focus": "I opt to delay and demand audits and transparency before scaling or signing contracts. The delay prevents immediate co-option, but legal fights and elongated timelines leave Tidebridge exposed to one or more severe storms during the dispute. The public campaign rallies some, but fatigue, lawsuits, and funding shortfalls erode momentum. Mateo grows frustrated and leaves to work on a distant program; Etta keeps fighting in the greenhouse. The ending is a hard, tragic coda: principles preserved on paper, costs paid in lost homes and fractured bonds.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Ari Tanaka",
+                "Mateo",
+                "Etta",
+                "Mara"
+            ],
+            "locations_used": [
+                "Municipal Plaza",
+                "Wave Innovation Lab",
+                "Etta's greenhouse",
+                "Workshop"
+            ]
+        }
+    ],
+    "remarks": "Structure notes: Common route is Chapters 1–3 leading to a three-way split at Chapter 3. Route A covers Chapters 4–6 with alternate endings (Chapters 13 and 14) reachable from Ch5. Route B covers Chapters 7–9 with a split at Chapter 8 (leading to Chapters 9, 11, or 15). Route C begins at Chapter 10 and continues through Chapters 11–12 (with branching to 14/15 possible). Emotional arc follows a Tragedy (Fall): valence declines while arousal increases toward crisis and endings.",
+    "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+    "_meta_arc_strategy": "Tragedy (Fall)"
+}

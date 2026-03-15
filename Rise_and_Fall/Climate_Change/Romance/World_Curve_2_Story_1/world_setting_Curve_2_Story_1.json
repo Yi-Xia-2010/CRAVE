@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through intimate, human-scale stakes and pair it with Romance by making the environmental crisis the force that brings people together and tests love — both tender and ideological. The conflict is between community survival and large-scale 'solutions' proposed by outside interests; emotionally it's a triangle of trust, betrayal, and shared purpose. The narrative will use small-moment romance (shared watches against storms, repairing nets, late-night strategy talks) to explore larger moral choices about sacrifice, compromise, and what it means to love a place as well as a person.",
+    "setting": "A small, historically fishing coastal town and its surrounding marshlands in the near-future (2035). Sea levels have risen noticeably, storms are more frequent, and a glossy redevelopment proposal promises protection and new jobs but at the cost of reshaping both landscape and community rhythms. The atmosphere is simultaneously elegiac and hopeful — salt-smoothed structures, neon rescue buoys, community gardens on rooftops, and resilient people adapting to new tides.",
+    "visual_style": "Painterly coastal realism, warm natural light with occasional neon accents; textured brushstrokes, high-detail character close-ups, muted palettes for griefful scenes shifting to saturated greens/blues for optimism; cinematic framing with small personal vignettes (anime-influenced facial expressiveness combined with realist environmental backgrounds).",
+    "main_characters": [
+        {
+            "name": "Maya Rios",
+            "role": "Protagonist",
+            "personality": "Curious, empathetic and scientifically rigorous; stubborn in the face of political pressure but prone to private doubt. She leads with care and expects practical results. Often conciliatory but capable of sharp moral clarity.",
+            "appearance_features": {
+                "hair": "Dark chestnut, naturally wavy, shoulder-length; usually pulled back into a loose knot with a small sea-glass hair clip.",
+                "eyes": "Green-gray, soft-lidded, observant — gaze that lingers on small creatures and shoreline details.",
+                "clothing": "Layered field-ready outfits: salt-stained olive field jacket over breathable linen shirts, paint-splattered cargo trousers, waterproof ankle boots. Carries a faded university windbreaker for colder nights.",
+                "accessories": "A slim leather notebook full of sketches and tide notes, a bronze tide-worn pendant (small fragment of her grandmother's locket), and a battered field thermometer clipped to her belt."
+            },
+            "goal": "To preserve the marsh ecosystem and the town's traditional fishing livelihoods while finding realistic adaptation strategies that don't erase the community.",
+            "background_story": "Born and raised in the town, Maya left to study marine ecology after watching a storm take part of her neighborhood. She returned when the redevelopment proposals began, determined to use science and local knowledge to defend the shoreline and her neighbors.",
+            "emotional_trait": "Strength: deep empathy and persistence. Flaw: carries guilt from one past failed warning (a miscalculated tide forecast) that makes her second-guess riskier choices."
+        },
+        {
+            "name": "Eli Navarro",
+            "role": "Love Interest",
+            "personality": "Warm, pragmatic, quietly witty; the community's steady anchor. He is skeptical of outsiders and flashy 'solutions' but open to well-proven, community-led adaptation. He is protective and values tangible day-to-day survival.",
+            "appearance_features": {
+                "hair": "Sun-bleached dark brown, kept in a loose topknot or falling free when working; sea-salted texture.",
+                "eyes": "Warm hazel with flecks of gold; laugh lines at the corners, expressive and direct.",
+                "clothing": "Rolled-sleeve denim or flannel shirts, weathered oilskin vest on storm days, practical fisherman's trousers, knee-high rubber boots. Often has a faded baseball cap when outdoors.",
+                "accessories": "A knotted rope bracelet from his father, a pocketknife worn smooth by use, and a hand-marked calendar for tides and harvests."
+            },
+            "goal": "To protect the community's livelihoods (oystering, small-scale fishing) and ensure any changes keep control with local families rather than corporate hands.",
+            "background_story": "Eli runs his family's oyster beds and organizes local fishermen. He lost his father in a storm several years earlier and has since taken on both family and community responsibilities. He admires Maya's knowledge but resents top-down fixes that discount lived experience.",
+            "emotional_trait": "Strength: grounded reliability and fierce loyalty. Flaw: stubbornness and an aversion to trusting institutional expertise until it's proven to him."
+        },
+        {
+            "name": "Cass Adler",
+            "role": "Antagonist / Complicated Love Interest",
+            "personality": "Charismatic, intellectually sharp, and ambitious; presents as progressive and technically optimistic but often prioritizes scalable solutions and career milestones. Beneath the polish, they've carried the burden of proving their worth and can rationalize compromises.",
+            "appearance_features": {
+                "hair": "Platinum blonde, sharply cut short in an angled bob that emphasizes their jawline.",
+                "eyes": "Icy blue, precise and assessing; quick to flick toward data on screens but occasionally softens in private moments.",
+                "clothing": "Tailored, modern eco-corporate attire: a charcoal suit with reflective seam accents and a smart, breathable turtleneck. On-site they swap to a sleek adaptive waterproof shell.",
+                "accessories": "A matte silver smartwatch that doubles as a data terminal, a tasteful signet ring engraved with their firm's emblem, and a slim portfolio case with design schematics."
+            },
+            "goal": "To implement a high-tech, large-scale shoreline engineering and redevelopment plan that will protect the town and launch their career as a leader in climate adaptation.",
+            "background_story": "Cass and Maya knew each other in university — collaborators turned rivals. Cass joined a development firm promising green infrastructure while maintaining the belief that technological scale can solve climate threats. Their relationship with Maya is a tangle of mutual respect, old affection, and competing priorities.",
+            "emotional_trait": "Strength: visionary clarity and composure under pressure. Flaw: ambition that can blind them to the human costs of otherwise 'elegant' solutions; finds it hard to admit moral ambiguity."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Alvarez",
+            "relation_to_main": "Maya's younger cousin and local schoolteacher",
+            "appearance_summary": "Short, wiry, always in bright scarves and rubber sandals; sun-kissed skin, practical satchel of children's drawings.",
+            "function_in_story": "Represents the next generation; organizes the school to teach adaptation and provides emotional grounding for Maya when the stakes feel overwhelming."
+        },
+        {
+            "name": "Mayor Jonah Cruz",
+            "relation_to_main": "Elected leader of the town; occasional ally/adversary",
+            "appearance_summary": "Broad-shouldered, prematurely gray at the temples, wears neat shirts and an old brass lapel pin of the town's seal.",
+            "function_in_story": "Negotiates between developers, community demands, and emergency aid; his political choices force hard compromises that drive plot decisions."
+        },
+        {
+            "name": "Ivy Okoye",
+            "relation_to_main": "Community organizer and Eli's close friend",
+            "appearance_summary": "Tall, braided hair, practical vests with pockets full of flyers; bright voice and relentless energy.",
+            "function_in_story": "Leads grassroots campaigns, coordinates direct action and public demonstrations; an engine for community mobilization and dramatic scenes."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Lowtide Marsh",
+            "visual_description": "A vast expanse of glistening mudflats and tall, waving spartina grass. Early morning light casts long gold ribbons over shallow pools; fog often sits low, softening outlines. Water reflects pale blues and rusty oranges at sunset. Background: broken pilings and scattered oyster racks. Atmosphere is quiet, teeming with hidden life — the kind of place that looks fragile but has a deep, textured resilience."
+        },
+        {
+            "name": "Harborfront Lane",
+            "visual_description": "Tight, salt-streaked storefronts and patched docks under a sky often streaked with gulls. Warm lamplight spills onto cobbled walkways at dusk; strings of bare bulbs cross between buildings for seasonal markets. Rain slicks glint with neon from distant construction rigs. The air is briny and smells of smoked fish and wet rope."
+        },
+        {
+            "name": "Coastal Research Annex",
+            "visual_description": "A compact, glass-faced lab perched on pilings, interior lit with cool LED panels and the amber glow of laptop screens. Exterior decks drip with sea spray; scientific gear and specimen jars line benches. At night, instrument readouts pulse like constellations. Clean, utilitarian, and intimate — a place of late-night data arguments and whispered confessions."
+        },
+        {
+            "name": "Aquila Developments HQ",
+            "visual_description": "A sleek, angular building with mirrored glass and soft programmable lighting that shifts color to match corporate branding. Inside: polished surfaces, minimalist furniture, and large projected maps of the coastline. The lobby is cool and impersonal; the rooftop model room has a dramatic scale model of the 'resilient' redevelopment shimmering under spotlights."
+        },
+        {
+            "name": "Old Lighthouse Ruins",
+            "visual_description": "A crumbling brick tower half-submerged in marsh grasses, its lantern room broken but still a gathering place. Rain and wind have smoothed the stones; the sky here opens wide and the sea horizon seems endless. Scenes here feel cinematic — thunderheads, squalls, and moments of quiet after storms where characters face choices against a dramatic natural backdrop."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Trade-offs"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led hybrid solution: Maya and Eli lead a locally designed adaptation plan combining traditional marsh restoration with smaller-scale engineered protections. Cass shifts the firm's proposal to cede control to a community trust. The town retains character; Maya and Eli deepen their partnership, committed to shared stewardship and a growing personal life together."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Partial victory and necessary loss: some historic docks and buildings must be surrendered to higher seawalls. The ecological restoration saves many species but not the town's century-old wharf. Maya and Eli remain together, but their lives change — they trade some traditions for stability. Cass leaves with mixed feelings, having achieved large-scale protection but at a cost acknowledged by all."
+        },
+        {
+            "type": "True",
+            "summary": "Moral clarity over romance: Maya chooses to prioritize a high-risk direct-action campaign that preserves the marsh but requires her to travel and lead wider activism, straining her relationship with Eli. They part with mutual respect; the marsh largely survives, and Maya's sacrifice becomes a catalyst for broader policy changes. Love endures in memory and influence rather than daily partnership."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate solution imposed: Aquila's full-scale redevelopment goes ahead after political maneuvering and economic pressure. While it reduces immediate flood risk, it erases longstanding ways of life and displaces many families; the marsh is heavily engineered and biodiversity declines. Maya and Eli are estranged — their division over tactics becomes personal — and the town's heartbeat is altered, leaving an elegiac note."
+        }
+    ],
+    "estimated_chapters": 6
+}

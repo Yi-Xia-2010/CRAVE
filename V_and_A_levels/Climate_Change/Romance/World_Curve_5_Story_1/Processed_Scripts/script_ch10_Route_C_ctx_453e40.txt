@@ -1,0 +1,182 @@
+### SCRIPT
+# Route: Route C
+# Context: 453e40
+
+[Scene: TideLab | Late Afternoon — Rain Threatening]
+[Background:"ch10_453e40_1"]
+[Music: A taut, driving string ostinato builds beneath a sparse percussion—urgent, precise.]
+[Sound: A camera's soft shutter; the distant roll of trucks on the quay; rain beginning to rattle harder on the metal roof.]
+
+You slide your notebook onto the central bench and feel the weight of the day collect at the base of your throat. From Chapter 3 you took the legal path—the slow, patient machinery of injunctions and evidentiary chains. That choice is still warm under your skin like a second tide, pulling you away from the immediate roar of protest and toward paperwork and proof.
+
+The air in TideLab tastes of salt, solder, and damp paper. Electrical tape peels with a thin, clinical sound. Jules crouches by a set of white survey markers, camera in hand, eyes narrowed against the glare of the lamps. Luka Maren is hunched over a rack of radios, muttering into a coiled cable as if coaxing the devices into telling the truth. Tamsin stands near the door with a rain-speckled tablet, shoulders tight. Abuela Rosa leans against a crate, shawl wrapped close, watching you with a look that feels like both a benediction and a warning. Mateo's boots thud through the doorway—he carries a legal notice in one hand, the paper already damp at the edges.
+
+Jules: "Got a full set of geo-tags on the markers—shutter and GPS timestamped. I double-shot everything. If they try to claim tampering, we call up the metadata."
+
+Jules's voice is quick, adjudicative; fingers stained with ink. He thumbs through the camera, and each click sounds like a small legal step forward.
+
+Amaya Reyes: "Good. Send the raw files to the server. And burn a copy to the external. Timestamp the transfer. Luka—can you run an integrity hash on the stream?"
+
+Luka Maren [half a smile, which doesn't quite reach his mouth]: "Already on it. I'm layering encryption and an immutable ledger stamp. If anyone tries to intercept or alter the logs, the checksum will scream."
+
+Amaya Reyes: "Make it scream, then. Corinne Voss's lawyers will try everything—noise, fast permits, alternative 'facts' in press releases. We need every byte to be unassailable."
+
+Luka Maren pauses, then leans closer to the console; his fingers fly. The hum of fans and the beep of successful transfers becomes a comforting cadence.
+
+Tamsin [with a small, brittle exhale]: "I spoke with the municipal counsel—quietly. There's a young attorney in planning who flagged a regulatory gap: EHD 12, subsection B—lack of mandated environmental review for modular aquaculture permits. She thinks there's room for an injunction if we can prove the data chain is intact."
+
+The words land like a dropped stone. For a moment your chest tightens into a fist of hope and apprehension.
+
+Amaya Reyes: "Bring her in. I want to know what she needs. If there's a hole in the system, we patch it with evidence."
+
+Tamsin's tablet dings. She gives you a look, half apology, half apology for the world. "She's willing—but she warned the town will feel the slow weight. This route doesn't have the theatrical rallies. It has depositions and motions and—"
+
+Abuela Rosa cuts across, her voice low but sharp as the edge of a shell.
+
+Abuela Rosa: "Slow is not hollow if it lasts longer than their headlines. The ocean will outwait the bright lights."
+
+Amaya Reyes: You hear the centuries of that town in her words—how patience is not always defeat. But the sound of Mateo's boots, the legal notice he holds, the cramped line of homes at risk—they press against the patient argument like a fist on your sternum.
+
+Mateo [his jaw set, voice close to breaking]: "Amaya. I keep getting asked when we can do something now. The nets were ruined in last week's swell. If this drags—if the injunction doesn't stop their bulldozers—people lose boats, stalls, homes. You chose wait."
+
+You feel the accusation like cold water. Guilt blooms—sharp, animal. You are the one who chose this for them; and guilt is a tidal force you know well.
+
+Amaya Reyes [short]: "I know. I'm sorry. I'm doing what I think will stop more being lost."
+
+Mateo [bitter laugh]: "Your 'do what will stop more' is paper. Paper doesn't tie nets."
+
+The room tightens. Jules sets his camera down like an instrument of truth and looks at you, unsettled.
+
+Jules: "Volunteer hours are collapsing. I had two people bail on the photolog schedule this morning after some anonymous envelopes showed up at their doors. You saw the posts—threats, legal-looking letters with corporate letterhead."
+
+[Sound: The printer near the bench churns and spits another page—an automated subpoena. The rhythm is relentless.]
+
+Amaya Reyes [voice small]: "We're documenting everything. Envelopes, handwriting, postmarks. That stuff helps show intimidation. It feeds into our claim. We can't just... run out of steam."
+
+Jules: "They'll push faster. Corinne Voss can buy approvals with consultants and pressure. They file a 'fast-track' environmental compliance and get temporary permits while we wait for a hearing. The town's patience isn't an infinite resource."
+
+Luka Maren [leaning back]: "We can parallelize—double sign the channels so you can educate the town on evidence standards while I set up authenticated transmission layers for live sensor feeds."
+
+Amaya Reyes: "Explain it to them. Not in tech terms. Show them what integrity looks like."
+
+Luka Maren nods, and he switches into the patient teacher you rarely see in public—hands shaping an invisible model.
+
+Luka Maren: "We put up a live integrity dashboard at the hall. When a sensor pings, it's not just a number. It's a chain: sensor ID, sealed timestamp, carrier hash, ledger proof. If anything changes, the change is visible. People can watch that proof with their own eyes. It makes the abstract legal standard into something they understand."
+
+[INTERACTION]
+> Choice A: "Ask Luka to prepare a live demo tonight"
+> Choice B: "Prioritize sealing the chain and filing first"
+[Outcome A: "Luka's face brightens at the immediate action. He begins mapping out the demo on a scrap of cardboard, listing gear and a volunteer schedule. The lab hums with quick, practical energy."]
+[Outcome B: "You set the filing as your anchor—files first, demo later. Luka bites his lip but nods. The pace becomes paper and proof; the room settles into methodical, grinding motion."]
+[MERGE: The room fractures into motion: some of the team hunkering over sample logs; others going out to photograph markers, call witnesses, collect affidavits.]
+
+The room fractures into motion: some of the team hunkering over sample logs; others going out to photograph markers, call witnesses, collect affidavits. Tamsin pulls you aside, voice lower, the tablet glowing in her hands like a small, clinical sun.
+
+Tamsin: "The municipal lawyer is cautious. She asked for a prioritized list—what data is most likely to hold up in court. She said she can fast-track an emergency motion if we can show imminent harm and credible, tamper-proof data."
+
+Amaya Reyes: "What counts as imminent? We can't say 'the sea might take it.' It has to be concrete."
+
+Tamsin: "Erosion rates, immediate permit violations, disturbed protected wetlands—things they can't spin away with PR. She warned: be exact. Overstating hurts you more."
+
+Abuela Rosa hums, then reaches into her shawl and produces an old ledger, its spine mended with twine. She lays it on the bench with deliberate reverence.
+
+Abuela Rosa: "When the law moves slowly, you give it things that don't move—names, places, dates. You tie the story to people we can point to. The judge remembers faces."
+
+You run your thumb along the ledger's edge. The town's names are in it, ghosts and living alike. The thought steadies you a fraction, but the clock pulses louder.
+
+Hours fold. You catalogue sensor logs: salinity gradients, tidal amplitude spikes, structural stress readings on old pilings. Jules photographs each marker, then photographs the photos, then photographs the tape measure beside the marker—redundancy like scaffolding. Luka Maren implements cryptographic seals; each transfer spits back a checksum that you record in three places. You stamp samples with frayed rubber stamps and sign with an inked finger. Tamsin composes terse emails to the municipal attorney while she watches the clock.
+
+[Sound: Footsteps, keys tapping, paper shuffling—a drumming that accelerates.]
+
+Corinne's response arrives like a cold wind. An email, terse and corporate, arrives on the lab's shared account: Voss Marine Solutions has begun expedited approval for Phase I exploratory pilings, citing 'critical infrastructure resilience.' Attached: glossy site renderings and a statement about 'community consultation' with staged photos of smiling workers.
+
+You read it aloud, voice flat. The renderings are immaculate; the language is sterile and persuasive.
+
+Amaya Reyes: "They moved faster."
+
+Tamsin [viciously practical]: "They always do. This is standard—file a permit while competing parties scramble for injunction windows. If they can point to 'community engagement' even in staged shots, it undercuts our claim of imminent harm if a judge sees public support."
+
+Mateo [anger muffled into exhaustion]: "They'll make relocation look like progress. They'll buy the narrative."
+
+Abuela Rosa: "They've got money to print their truth. We have hands to write ours."
+
+[INTERACTION]
+> Choice A: "Call a town meeting to present the dashboard now"
+> Choice B: "Hold the town meeting only after filing the motion"
+[Outcome A: "You imagine the Community Hall packed, people watching the integrity dashboard and understanding the stakes. It's galvanizing but risks exposing the data early."]
+[Outcome B: "You imagine the meeting happening behind the shield of a filed injunction—safer legally, but it might feel like silence to people who need to act now."]
+
+The lab becomes an altar of urgency. Volunteers move in tight choreography. Sweat beads at your hairline. The rain outside intensifies, drumming like a metronome for your quandary. You think of the childhood friend you lost to a flood and of the ledger of names you carry; guilt coils in your gut—did choosing the slow engine doom some of them? You taste bitterness.
+
+You and Tamsin move through the checklist together, voices rushing in counterpoint.
+
+Tamsin: "If we file an emergency injunction, we need three things tomorrow: an affidavit from Mateo on economic harm, geologist testimony on immediate erosion—someone credible—and the unbroken chain of sensor logs."
+
+Amaya Reyes: "I'll get Mateo the affidavit. I'll find the geologist. Luka—can you guarantee the chain? No caveats."
+
+Luka Maren [jaw clenched]: "I can guarantee the chain technically. But the court will test chain-of-custody stories—who had physical access, how were samples transferred, who witnessed seals. We need signatures on every transfer, witness logs, timestamped video of every sample bag being sealed."
+
+Amaya Reyes: "Then we do it right. No shortcuts."
+
+The lab becomes a crucible of small, desperate actions: sealing evidence, notarizing affidavits, printing exhibits, queuing for courier pick-up so nothing sits unaccounted for. Jules organizes witness schedules; Tamsin drafts motions that smell faintly of disinfectant and law. Mateo signs his affidavit with a hand that trembles once and then steadies.
+
+Night draws its net across the windows. Lamps cast long shadows. The strings in the background ratchet upward—higher, tenser. Voices reduce to clipped sentences. The legal engine rolls toward filing, but every roll carries the fear that time is a hungry thing.
+
+Abuela Rosa sits beside you in a pause between tasks. Her fingers find yours for a moment—earth-rough, warm. She doesn't say the words you hunger for. Instead she tells a small story of the old jetty that once stood the stormiest season, how the town sang while they rebuilt, how patience outlived a wealthy promoter's promise once before.
+
+Abuela Rosa: "The big ones spend coins fast and forget faces slower. Keep our faces on the papers."
+
+Her counsel is a balm, then a warning: the fight will be long and painful. It will ask for what you hate to give.
+
+The clock ticks near midnight. Tamsin looks at the draft motion on her tablet and exhales.
+
+Tamsin: "We can file in the morning. If the municipal attorney signs off tonight, we have a chance at emergency hearing. But—"
+
+She stops, eyes on you, searching.
+
+Tamsin: "—if the town fractures in the meantime because they see the waiting as betrayal, we lose morale. We might win a legal victory on paper and lose the heart of Marisol to exhaustion."
+
+You feel the room narrow to the space between two outcomes: the slow, painstaking legal engine that might outlast the company's PR and enjoin the permits; or the release of pent-up public energy into a parallel public campaign that could galvanize but also burn resources and invite confrontation.
+
+Your chest tightens until each breath is a decision you can't yet make. The storm outside hammers the roof like a countdown. Every log validated, every signature obtained, every shutter click feels like you're building a dam against something enormous—and also like you're postponing the moment when people want to act with their hands rather than their signatures.
+
+You look at the team—tired, determined, fraying at the edges. You think of Mateo and his nets; of Abuela Rosa and her ledger; of Luka Maren's quiet faith in tangible things; of Jules's steady eyes. You imagine the courtroom, sterile and procedural, where proof may win at the cost of immediacy. You imagine the boardwalk, furious and alive, where people might act now and risk the law's wrath.
+
+Your pulse is a drum. The strings in the lab swell to a near-fracture. The pressure—legal deadlines, Corinne Voss's expedited permit, volunteer fatigue, anonymous threats—compresses to a singular urgency.
+
+For a breath that feels like an island, you imagine both paths lapping at your feet: the slow legality with its chance at systemic, enforceable relief; and the immediacy of public action that could stop machines now but risk legal and physical consequences.
+
+You raise your eyes.
+
+Amaya Reyes [quiet, raw]: "We file. But we also prepare the people—teach them what proof looks like, make the dashboard something they can stand behind. I won't ask them to wait without giving them a way to understand why we're waiting."
+
+Tamsin [after a beat]: "That might split our energy. It might also be the only way to keep people from burning themselves out."
+
+Luka Maren [soft]: "We can do both—staggered. The demo tonight, the filing first thing. But it will exhaust the crew."
+
+Jules: "People will see action and stay. Or they'll see two halves and think we're not committing. No promises."
+
+Abuela Rosa watches you, the shadows of the lab passing over her face like tide lines. She says nothing for a moment, then squeezes your hand.
+
+Abuela Rosa: "You carry weight, niña. Do not let it break you."
+
+You swallow. The choice is not clean. It is layered with possible harm. You know the legal route was the one you chose back at the boardwalk; now every careful stamp is proof of that choice. But the storm is louder, and the town's patience is thin.
+
+[Music: The string ostinato cuts—then resolves into a single held note that trembles like a held breath.]
+[Background:"ch10_453e40_2"]
+
+You stand between two gears: the slow legal machine and the restless body of the town. Both demand everything.
+
+The pressure reaches a sharp apex—a fevered, urgent moment in which any delay feels like surrender.
+
+You let your hand hover over the stack of files and the tablet with the motion. The lab holds its breath with you.
+
+[Background:"ch10_453e40_3"]
+[Music: Fade Out]
+[NEXT CHAPTER: 11]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 11
+    > Jump Target File: script_ch11_Route_C_Split_ctx_e67f19.txt

@@ -1,0 +1,174 @@
+### SCRIPT
+# Route: Route C (Ending C1)
+# Context: e67f19
+
+[Scene: Municipal Hall / Temporary Response Center | Night — Storm Watch]
+[Visual: Fluorescent lights buzz over maps pinned with neon sticky notes; a line of sandbags stacked beneath a rain-streaked window]
+[Sound: A distant roar of surf, the hiss of rain against metal, radios murmuring]
+[Music: Low, somber cello; a single sustained minor chord under conversation]
+
+You walk into the hall with the tired shape of the roofline behind your eyes — the promise you made to Elias still warm in your chest, a small seal that suddenly feels fragile against the slate of the night. The room smells of coffee gone sour, toner, and the tang of salt from everyone who has been running between the harbor and the breakwater for hours. Rita is already at the long folding table, a red pen in one hand and a ledger flipped open; the page is a messy geography of urgency: names, medications, vehicle assignments.
+
+You set your tide-watch face-down on the table so its brass doesn't glint and draw eyes. The hall pulls you into a thousand small triage acts: who rides in which car, where the seed boxes go, the list of elders and whether their medications have been logged. Tomas stands with his hands on his hips, sleeves rolled, the gold signet catching a harsh strip of light as he argues quietly with a transportation volunteer over bridge clearance.
+
+Rita Ortega: "We have twelve cars on standby, three drivers from the volunteer list, and buses from the county if we can secure the clearing route. Who do we prioritize for immediate pickup if the tide prediction moves up?"
+
+Maya Reyes: "Start with the meds list, mobility-limited, then elders alone. Then the seed banks and cultural items that can fit in trunks. We'll triage what we can't carry."
+
+Rita Ortega [voice fraying for a second]: "Med lists are incomplete. Arlo's been trying to track down Diaz's inhaler but—"
+
+Tomas: "We don't have time to chase paperwork. Tell me who is immobile now and I'll allocate cars."
+
+You feel the old machinery of policy and people grinding against one another. Your job tonight is the seam: stitch the lists so no one falls through.
+
+[INTERACTION]
+> Choice A: "Insist we prioritize medications and IDs above sentimental items"
+> Choice B: "Allocate some space for seeds and cultural artifacts — they are part of what keeps people anchored"
+[Outcome A: "You lay the medical list flat, tapping each name with a pen. Rita nods and starts calling households; Tomas signs his name for the cars with a determined, efficient curl. The room follows the cadence you set."]
+[Outcome B: "You push the seed crate protocol, naming packing teams. Rita exhales and smiles a little; Tomas hesitates but then shrugs, the weight of the decision pressing into something kinder in him. The volunteers begin measuring trunk space around jars of dried beans and wrapped photographs."]
+[MERGE: Continue]
+
+Rita pauses, listening to the radio in the corner. The meteorologist's voice snaps: the surge model has shifted; window shortened by four hours. A new, urgent urgency fills the air.
+
+You gather a fresh sheet and begin a checklist: priority households, medications, mobility status, cultural items, who's responsible for each convoy vehicle, a column for "refuse/undecided." The last column gags you with its thin syllable: refuse.
+
+Mayor Tomas Nkem: "If we don't move now, we'll be trying to rescue people in waist-high water. I swear to you, I will take responsibility for any political fallout, but we cannot wait."
+
+Maya Reyes: "Make sure the list includes those living along Estuary Road and the southeast block by the old breakwater. I'll canvass with Rita and get final confirmations. Tomas, lock the cars for dawn and the buses on standby."
+
+Tomas [rubbing the bridge of his nose]: "Done. We'll have two convoys: immediate neighborhood pickup, and the buses for the rest. Ayla has regional contacts—if she greenlights the transport, we can push more vehicles."
+
+Dr. Ayla Voss stands by a map, her trench coat buttoned against the damp. She speaks without flourish.
+
+Dr. Ayla Voss: "I've routed two county buses and two smaller shuttles through the central corridor. If you can clear the access points in twenty minutes, logistics will be ready. I recommend prioritized manifests by household."
+
+Maya Reyes: "Thank you, Dr. Ayla Voss. We'll have manifests in fifteen."
+
+Dr. Ayla Voss [tilting her head, as if weighing something you cannot see]: "I'll coordinate the county sends. Keep me informed about refusals."
+
+Her eyes are steel and precise. You do not know what she feels, and tonight, that unreadability sits between you as another variable.
+
+[Scene: Evacuation Route / Marisora Harbor Roads | Night — Accelerating Wind]
+[Visual: Headlights slice the rain; flags flail on bleached poles; the harbor lights look small and fragile]
+[Sound: Wind tearing through alleyways, gulls calling in low panic; splashes against concrete]
+[Music: A minor piano motif, slow and grim]
+
+You move through the blocks with Rita, knocking, ushering, promising. People move with the lethargy of those who have become fluent in long disasters; some pack with practiced efficiency, others stand rooted while nights like this undo them. On Dock Lane, you find Elias leaning against his father's skiff, hands occupied with a coil of line. Salt and sawdust cling to his sleeves.
+
+Elias Jun: "They're asking me to leave the boat. My father kept that hull through storms that broke half the harbor. I can fix anything that breaks out here. I can't just—" (he swallows)
+
+Maya Reyes: "This isn't about pride, Elias. It's about keeping people alive."
+
+Elias Jun: "And what about the life inside the boat? It's not only wood. It's a story. It's my father's hands. You want me to walk away from that?"
+
+Arlo slips out from behind a stack of crates, face like thunder. He meets Elias with a look that is almost accusatory.
+
+Arlo: "You'd make us drag him out like he's trash? What are you waiting for, Maya — your lists? Your forms?"
+
+Your chest tightens. The ledger in your head blinks the names of people with inhalers and insulin, rosters of fragile things.
+
+[INTERACTION]
+> Choice A: "Beg Elias softly, telling him about Rita's grandmother and the last convoy"
+> Choice B: "Take a harder line and order him to leave the boat for the convoy"
+[Outcome A: "You lower your voice until it is only for him. You tell him about Rita's mother and how a small kindness in a hallway saved a life last storm. His jaw works; he runs a hand through his hair. For a second the salt on his cheek glitters like regret. He hesitates."]
+[Outcome B: "You set your shoulders and say the words that feel like a blade. Elias's face shuts tight; he spits a laugh that breaks. He doesn't move. Arlo steps forward like he might shove him; you catch Arlo's arm. The tension is electric."]
+[MERGE: Continue]
+
+Elias Jun [after a long beat]: "I promised Dad I'd keep the nets from rotting. Leaving feels like breaking that promise."
+
+Maya Reyes: "Promises can take different shapes. Your father's hands built more than a boat. He taught you to fix things — use that. Help us secure people's roofs, haul seed crates, be the gear-head who keeps the generators running. Stay alive to keep those promises."
+
+Elias looks at you like he is measuring the truth of your words. He has that stubborn set to his mouth you know well. He nods once — slow, as if the movement itself is heavy. He steps back from the skiff and lifts the coil of line with a resigned, practical motion, accepting an assignment for the convoy rather than the boat.
+
+Arlo [relief and fury fighting]: "Good. Don't make me kick your feet out from under you."
+
+Elias offers a small, sardonic smile. The moment is brittle and tender all at once.
+
+You continue with Rita down the street. At the Glass Lane stoop, you find Rosa — old Rosa with her thick wool shawl and a history folded into the lines around her mouth. Her porch light is dim. She refuses the porch light for fear it will leak warmth to the night.
+
+Maya Reyes: "Rosa, we have two convoys leaving at dawn. Please—"
+
+Rosa [steady, almost amused]: "Child, I've seen tides worse than these. My granddaughter lives in the next village. She has room. I cannot take her bed apart for boxes at my age. I won't be a burden."
+
+Rita: "But Rosa, your breathing—"
+
+Rosa: "I have lived. I know how to leave. I will take my shawl and my rosary. Don't fuss."
+
+You feel the refusal like a physical thing. There are protocols for refusal: witness signatures, a medical waiver, an assigned check-in. You pull out a form. Rosa's hand shakes as she refuses to sign; her knuckles are thin.
+
+Maya Reyes: "If you stay, I will put a neighbor on watch. I won't leave you to the tide."
+
+Rosa [soft]: "You do your work, niña. Make sure the kids have seeds. Make sure you don't lose your head over a house."
+
+You want to stay and argue until dawn, to compel her into a car, to pack the shawl yourself, but you have twelve other doors to knock and two convoys to load. The hall will demand efficiency and tenderness in the same breath and usually cannot have both.
+
+[Scene: Convoy Departure Point | Dawn — Leaden Sky]
+[Visual: Headlights and hazard lights form a small, exhausted constellation; volunteers heave crates into trunk spaces; seagulls hover like small judgmental witnesses]
+[Sound: Engines idling, muffled sobbing, the thump of a crate dropped; a distant church bell]
+[Music: Sparse piano, almost silent but for occasional dissonant notes]
+
+The convoys pull away in a line — two trucks, four cars, two buses. You stand with Rita and Tomas and watch them crawl through the thinning fog like a small, fragile migration. Ayla is on a phone, her voice clipped but efficient, confirming transfers and routing. You hand manifests to drivers, check seatbelts, double-check medical bags.
+
+You send a final volunteer back to check on Rosa; the volunteer nods and runs off with a lantern. You can't shake the image of Rosa on her porch, the firm set of her mouth.
+
+[Scene: Hospital / Emergency Clinic — Night (Later)]
+[Visual: Under harsh hospital lights, blankets pass through hands; the fluorescent smell is clinical and bright]
+[Sound: Monitor beeps, the soft rush of a respirator, distant footsteps]
+[Music: Cello drops into a single, aching tone]
+
+Word comes in before midnight: the volunteer found Rosa on her porch in the morning, but she had stepped outside during the cold and didn’t come back inside. Exposure. The EMTs' faces are tired and taut; they shake their heads. You listen to the names recited as if the roll-call were a catechism of failure. Rita is stunned into silence; Tomas blinks as if the news is something physical that might lift.
+
+Maya Reyes: "They rode in the convoys. We had manifests."
+
+Rita Ortega [voice small]: "We did what we could. But—"
+
+You replay the night in a loop. Each choice becomes a weather pattern: if you'd stayed at Dock Lane another five minutes, if you'd pushed harder for mandatory pickups, if you'd let someone else have your tenths of patience. You weigh logistics like tidal curves and find them insufficient to hold the weight of grief.
+
+Dr. Ayla Voss arrives at the hospital corridor, hands folded. She has authorized more county shuttles and stayed to help set up triage. Her face is closed but her movements are deliberate — clipboard, instructions, checklists folded into action.
+
+Dr. Ayla Voss: "We can't reverse what happened tonight. We can, however, document the decision logs, the manifest timing, and the volunteer assignments. That record will be necessary for any after-action assessment. If there were delays in transport allocation, we will find them."
+
+Maya Reyes: "We need to know if the short notice from the meteorological office shortened our window. We need transparency."
+
+Dr. Ayla Voss: "I'll request the timestamped model outputs. We'll have a regional audit. That will buy clarity."
+
+Her words are efficient, a kind of cold scaffolding around the live wound in your chest. Ayla's competency arrives as a tool you can use, but it is not balm.
+
+Night deepens. The town's grief pulls like undertow. Volunteers sit in the clinic with empty hands; Arlo paces and then collapses into a chair and sobs like a body re-learning itself. Elias stands outside under a brittle streetlamp, arms wrapped around himself, as if he could hug the harbor close enough to hold it together.
+
+Maya Reyes: "I promised Rosa I'd fight for dignity in relocation. I promised Elias I'd keep Rosa safe. I promised the town I'd protect them."
+
+The promises ricochet against the cold stone of reality. Someone must be the voice that shapes what comes next. Someone must decide whether to take what happened and turn it into public fire that forces structural change; whether to close ranks and focus on healing the neighborhood now; or whether to take the resettlement and leave the place you are trying to save, carrying the town in files and memory.
+
+You sit heavily on a folding chair, the ledger of names folded in your lap. Each signature feels like an etching. Guilt settles over you in layers — procedural, personal, existential. You run your fingers over the tide-watch; the second hand moves in its small, relentless way.
+
+[Visual: Close-up on your hands, the brass tide-watch smudged with hospital bleach and salt]
+[Sound: A low, distant wail that could be the sea or a town dialing out its grief]
+[Music: A single cello note, held until it frays]
+
+Your thoughts run in taut threads: If I demand accountability, can that dignity for Rosa mean something more than an anecdote? If I rebuild locally and put community first, will that mend the ruptures—or leave us vulnerable? If I leave to help elsewhere, will I betray the place in whose ruin my decisions played a part?
+
+The options grow heavy and cold, each one carrying its own kind of loss.
+
+[Music: Cello subsides into a hollow, final chord]
+[Visual: The lights of the hospital flicker; outside, the sea presses against the edge of the world]
+
+You feel at the bottom — a heap of policies, promises, and grief. Your throat is raw from words you did not get to say, and every signature you've collected seems to be written in water.
+
+It is time to decide the path forward.
+
+[DECISION POINT]
+1) "Expose bureaucratic negligence and demand regional accountability." -> TARGET chapter_id: [12]
+2) "Focus on local restoration and community healing; step back from policy battles." -> TARGET chapter_id: [13]
+3) "Leave Marisora to help resettled community elsewhere, committing to long-distance rebuilding." -> TARGET chapter_id: [14]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Expose bureaucratic negligence and demand regional accoun..." -> ID 12 (Route C (Ending C1))
+    > Jump Target File: script_ch12_Route_C_Ending_C1_ctx_f99e88.txt
+Option 2: "Focus on local restoration and community healing; step ba..." -> ID 13 (Additional Route (Shared Ending C2 / A2))
+    > Jump Target File: script_ch13_Additional_Route_Shared_Ending_C2_A2_ctx_f99e88.txt
+Option 3: "Leave Marisora to help resettled community elsewhere, com..." -> ID 14 (Additional Route (Shared Ending C3 / A3))
+    > Jump Target File: script_ch14_Additional_Route_Shared_Ending_C3_A3_ctx_f99e88.txt

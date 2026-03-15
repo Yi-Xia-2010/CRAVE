@@ -1,0 +1,216 @@
+[Scene: Tideworks Lab | Night]
+[Visual: Interior of the converted shipping container — warm task lamps, jars of specimens glowing faintly, a wall of taped charts. A single monitor casts a greenish wash across salt-streaked workbenches.]
+[Music: Low, steady synth undercurrent; a distant roll of thunder]
+[Sound: Distant gulls, the soft clack of a kettle on a single-burner stove]
+
+You stand shoulder-deep in other people's work: Elias's neat stacks of annotated graphs, Theo's tangle of cords and soldered sensors, your own battered journal tucked half out of your jacket like a lived thing. The lab smells of wet metal, boiled kelp from Theo's last attempt at a meal, and the coppery tang of storm-front air pushed through the open hatch.
+
+Elias moves with a careful economy of motion — fingers tracing logs, lips barely parting while he reasons aloud. Up close his face is exhausted and composed; you can see the ocean in the short shadow under his eyes. Theo is all energy and thin jokes that crack as he finds a file mismatch.
+
+Theo: "Checksum's off here. Like someone opened it in a different timezone and lied to it."
+
+Elias: (suppressing a tired laugh) "Or someone rewrote the timestamps. That's not just sloppy — it's deliberate."
+
+You feel each of their words press at the place behind your sternum where your compass pendant rests. Deliberate. The room seems to tilt: deliberate attacks, small and precise, aimed at trust itself.
+
+Mara Kestrel: "Show me. Walk me through it."
+
+Elias props the monitor so the three of you can see. Lines of data braid across the screen — sensor ranges, anchor tensions, calibration logs. You follow the chain of custody with your finger like a seam that might reveal a tear.
+
+Elias: "These anchors reported nominal load during the wind events last month. But the raw accelerometer traces show impulse spikes at twenty-second intervals — like a mechanical nudge. Someone panned the filters so the system smoothed out alarms."
+
+Theo: "And the manifests. The crate that was meant for the reef nodes was opened. Repacked. The seals are—" (he grimaces) "—not factory. Whoever did it knew what to hide."
+
+Your voice comes out thin. Mara Kestrel: "Who gains from this? Who would want the hybrid to fail?"
+
+Elias doesn't answer immediately. He looks at you, then at Theo, then at the window where rain has begun to smear the harbor lights. His expression is careful, not confession so much as measurement.
+
+Elias: "Someone who needed us to fail quietly. Not a loud sabotage — a slow misdirection. It buys them plausible deniability."
+
+The three of you fall into that particular silence: the kind where the lab holds its breath and even the kettle seems to stop singing. Your heart hammers against your ribs; the thought loops in your head — could you have caught this earlier? Should you have known? Guilt, practiced like a pulley, tightens.
+
+[Interactive Moment: Choice A ("Run a full integrity sweep now; don't trust the copies") -> Reaction: "You order an immediate full sweep. Theo curses and kicks a chair into place, starting the slow, methodical process of checksum validation. Elias pulls up a terminal and begins isolating network endpoints, fingers moving faster than his face changes." || Choice B ("Make a redundant offline copy and compare later — don't disrupt the chain") -> Reaction: "You insist on an offline mirror to preserve evidence. Theo nods, already half-muttering about write blockers. Elias hesitates but agrees; the careful, paper-trail approach buys legal ground but costs time."]
+
+You make the call they follow — the decision tastes like iron. Whatever you chose will live in the ledger of things that happened and things that didn't.
+
+[Scene: Hybrid Site | Pre-dawn]
+[Visual: A line of engineered reefs and modular breakwaters stitched with ropes and drifting plantings; early light a bruised wash between cloud and sea]
+[Sound: Creaking moorings, distant engines, the whistle of wind through loose planks]
+[Music: Sparse piano, a single repeating minor motif]
+
+You arrive to the smell of brine and wet algae. The living structures sway and flex with the tide in a way that reads like breath on a creature. Up close you can see the work: knotted bio-nets, frames of reclaimed composites, seedlings anchored into eco-matting. The whole thing is odd and beautiful — an attempt at softness against stone.
+
+There are fresh scrapes along one mounting plate. A connector cap is missing. A sensor housing has been wedged back on with a different set of bolts — industrial, not the marine-grade fasteners your co-op uses. Whoever did this used tools you don't recognize.
+
+Elias kneels, running a hand over a frayed cable with a tenderness that could be called reverence. He pulls up the immediate logs on a handheld device; his face, bathed in the glow, is taut.
+
+Elias: "These timestamps — look. The anchor tension reads stepped movement but the alarm state stayed 'green.' The site controller accepted the false feed."
+
+You think of the late-night meetings, of the nights you walked these paths trying to convince people that living systems could coexist with hard engineering. You taught people to listen to subtle signals — the creak of a failing splice, the way mangrove roots darken before they fail. Now a digital smoothing has silenced whispers the living world gave you.
+
+Mara Kestrel: "We should call this in. The council needs to see this."
+
+Elias: (a long pause) "If we call it in, it becomes political. It becomes a scene. If it's a scene, they can bury the specifics in soundbites. It won't fix the physical work that needs doing."
+
+Theo: "Or we fix the anchors ourselves, right now. Patch sensors manually. Hard resets. We can at least make the system reflect reality."
+
+You want them to fix it. You want to be able to point at a list of repairs and show that you fought. Your hands curl into fists you don't notice.
+
+[Interactive Moment: Choice A ("Patch now — hands-on, as many repairs as you can") -> Reaction: "You grab a spanner and wade into the water with them. Cold bites your calves and the rope burns your palms. Talks become terse orders, but the work moves; each replaced bolt feels like a small repair to trust." || Choice B ("Document everything and escalate to legal/oversight — make them accountable first") -> Reaction: "You raise your phone to record and make a call. Theo snapshots serial numbers; Elias starts compiling a report. You buy integrity at the price of time, fingers numb with paperwork rather than salt." ]
+
+The storm bruise on the horizon thickens. You can feel urgency sit on the scalp of your neck. Time compresses.
+
+[Scene: Tideworks Lab | Afternoon (storm approaching)]
+[Visual: The lab now crowded with spare parts and printouts. Rain slashes the container's corrugated sides. A whiteboard has a map of the hybrid site with post-its pinned over risk areas.]
+[Music: Tension strings; heartbeat percussive rhythm layered with distant thunder]
+[Sound: Wind, the slap of rain, a pager buzzing in the corner]
+
+You and Elias work in cramped choreography: he calibrates an independent sensor array while you and Theo try to reconcile the corrupted logs. Theo rants, practical and furious, patching a firmware mismatch while cursing the sort of people who "sabotage hope."
+
+Theo: "Whoever did this knew enough about our configs to mimic expected values. This isn't random. It's a message."
+
+Elias keeps his voice low and steady, but there's a tremor at the edges you rarely hear.
+
+Elias: "We can do a manual override — take controllers offline and switch to local modes. But that cuts out remote monitoring. If we go local and something happens outside our immediate view, rescue coordination will be delayed."
+
+Mara Kestrel: "So we're choosing between blind spots: remote false security or local vulnerability."
+
+Elias's hands pause over the terminal like a man hovering over a breaker a circuit might blow. He looks at you in a way that tries to hold both your face and the math at once.
+
+Elias: "You know I want to stay. But I need to think in scenarios — if we cut remote, we create one kind of risk. If we keep it, we accept altered readings. Either way, people could get hurt."
+
+You feel the weight of a hundred small faces you have cradled with plans and promises. Each option tastes like bone. The radio on the bench crackles: a harbour volunteer reports worsening swell near the Basin. The storm band has arrived faster than forecasts promised.
+
+[Scene: Hybrid Site | Night — The Storm]
+[Visual: The sea is a moving wall of slate; rain is a physical thing that slashes and blinds. Lights on the breakwater blink and go out in wet staccato.]
+[Music: Full, dissonant orchestral swell; low brass and strings]
+[Sound: Roaring wind, shouts, the cracking of ropes, metallic groans of stressed anchors]
+
+You are there. Your boots are full of water, your jacket weighs like lead. The night is a single hand trying to unlace everything you've built. Sensors that told you "green" flash, then go silent. A whole section of the hybrid — the part you had argued to reinforce last season — slides and slumps with the sound of wooden bones breaking.
+
+Someone screams — a human syllable that splits the storm and leaves you raw. You run, the wind whipping salt into your mouth like shards. The world reduces to specific tasks: grab lines, secure people, keep heads above the surge. You reach for a volunteer you know only by the patch on their sleeve; a wave takes them and the world tilts into a kind of urgent, mortal unfairness.
+
+Hands pull you back by the jacket. Theo's voice cracks: "Mara — they've gone under!" You feel the ocean take an answer and leave a question.
+
+You try to give orders. Your throat closes like it's been tied off. You can't get to everyone. You can't make the sea be anything but the sea. The semi-automated pumps fail to engage because their calibration commands had been falsified; what should have been an hour of controlled water run-off turns into a sudden, violent flood toward the Basin where families shelter and where your friends had anchored small boats against the surge.
+
+When the sirens come, they are chorused by a different siren: the weight of consequence. In the cold, wet aftermath as the storm howls itself into spent ruin, bodies are counted. Lives are lost. The list contains names that feel like holes in the night.
+
+[Scene: City Hall Glass Atrium | Next Morning]
+[Visual: Fluorescent lights. Faces on screens. A podium. News cameras line up like gulls waiting for scraps.]
+[Music: Sparse, processed piano; a single somber violin line]
+[Sound: Microphones rustling, murmured questions, camera shutters]
+
+The press arrives with a hunger you recognize as a predator's. Councilwoman Lian Mor speaks with measured cadence; Jun Park stands nearby, his amber eyes unreadable in the glare.
+
+Councilwoman Lian Mor: "We mourn the losses in last night's storm. Preliminary reports indicate failures at an experimental hybrid site. The city will conduct a full inquiry."
+
+Journalist: (leaning in) "Who is responsible? Will anyone be held accountable?"
+
+You are at the back of the room. Your name becomes shorthand in a sentence that translates grief into accusation.
+
+Reporter: "Mara Kestrel, leader of the cooperative — why did you push an unproven hybrid system in a storm-prone zone?"
+
+Your mouth tastes of iron. Words in your defense feel inadequate and performative; they cannot stitch flesh back to the living. You hear Jun speak to a different channel, calm and procedural.
+
+Jun Park: "We will get to the facts. But we must be honest about responsibilities. Experimental deployments carry risk."
+
+There is a line in his voice that reads as both duty and the slight tilt of distancing. He does not reach for you. He does not place his hand on your arm. The silence between you folds like an accusation.
+
+Rosa stands close, shawl turned wet at the edges. She speaks low to you as the cameras demand louder, simpler statements.
+
+Rosa: "They will look for a ledger to close. They will find you convenient."
+
+You feel the weight of convenience settle into your bones.
+
+[Scene: The Basin | Days Later — A Memorial]
+[Visual: A makeshift memorial of driftwood, painted tiles, and a small raft of mementos. Ivy has painted one tile with the bright, impossible colors of childhood.]
+[Music: A lone cello; wind through young mangroves]
+[Sound: Quiet conversations, soft weeping, the distant slap of a tide]
+
+The community gathers. People who had argued with you days ago now stand with the same grief etched differently. Some faces are hard with blame. Others are hollow with loss. Ivy presses a paint-streaked hand to your arm and does not speak.
+
+Mara Kestrel: "We tried to make a living thing out of a fight against death. We thought softness could push back stone."
+
+Rosa: "You tried, child. That is not nothing. But it is not enough to make the world soft enough all at once."
+
+The co-op's meetings that follow are fractious. Fingers point. A faction wants to push forward regardless, to rebuild and to learn. Another faction wants to cut losses, to hand projects to the city, to burn the books and walk away.
+
+Theo sits across from you at a table, eyes rimmed from lack of sleep. He is furious and defeated at once.
+
+Theo: "We should have had redundancies. We should have had better legal backups. We should have sued for oversight earlier. Instead — people died."
+
+Mara Kestrel: (voice small) "We did the work we could."
+
+Theo: "And now everyone says it was reckless. They call it idealism with no teeth."
+
+You look toward the harbor; boats bob where they remain, some tilted oddly where they were smashed. The sound of the town moves on, but in a different key.
+
+[Scene: Old Beacon Lighthouse | Evening]
+[Visual: The ruins of the lighthouse stand black against a bruised sky. The lantern room is empty; shards of glass refract the dying light into thin, broken rainbows.]
+[Music: Minimal piano, a single sustained note then silence]
+[Sound: Waves, a gull drawn like a punctuation mark]
+
+Elias appears on the path before you — unexpected and inevitable. His coat is damp. He carries nothing but a weathered pack and a look that is used to bearing lab notes rather than apologies.
+
+He sits beside you on a stone that used to be a bench. For a long time neither of you speaks. The sea furnishes a soundtrack that makes even the air thick with consequence.
+
+Elias: "I keep running scenarios in my head. If we'd found it earlier. If we'd done the offline mirror sooner. If—" (he closes his mouth)
+
+Mara Kestrel: "Ifs shift blame, Elias. They don't bring people back."
+
+Elias looks at you. There is a thing you cannot name in his eyes — regret, fear, something like relief at admitting a limit.
+
+Elias: "I thought I could make the numbers hold enough truth to protect people. Numbers are lies when the feed is doctored. I can't be here and fix the political machine that will twist this into an indictment. I can go where the work is less theatrical, where I can control variables more directly."
+
+You feel that sentence like a small, cold stone dropped into the pocket of your jacket. It sinks.
+
+Mara Kestrel: "You're leaving."
+
+Elias: (quietly) "I'm leaving, yes."
+
+Your chest clenches, the first gasp of grief not entirely about the bodies in the Basin — it's about the severing of a tether you had started to rely on. Elias folds into himself the way a man taught to measure the sea hides among numbers. He reaches out, not to hold you but to give the shape of farewell.
+
+Elias: "You need people who can stand in the open with you. I — right now — am not the one who can stand in the middle of a political storm and not be pulled apart."
+
+Mara Kestrel: "And what about us? What about what we built?"
+
+Elias: "Some things will last. Some things must be left. I'm sorry." (He stands, places a tentative hand at your shoulder, and then he is gone into the dusk.)
+
+You watch him walk away until the dark swallows his silhouette. There is no grand argument; no slammed door. Just the steady, small undoing of a knot.
+
+In the days that follow, the cooperative loses members to fear and to the arms that promise safety: some accept city contracts that require turning data over to remote oversight; others join NGOs that offer legal shelter. Meetings that once hummed with shared labor become tribunals. Accusation is precise and human; "reckless," "naïve," "political," "emotional" — each a blade that edges around the central fact that people died.
+
+You read headlines that call you a cautionary tale. You listen to Jun's measured statements on the radio — he speaks of "lessons," of "necessary constraints." His voice, in the public frame, is a kind of gentle absolution wrapped around a pragmatic center that absolves him in whispers and binds you in accusation.
+
+At night, you go back to the Basin and sit with the memorial lights and Ivy's painted tile. You press your palm to the cool wood and feel the salt in the grain. You are exhausted, hollowed by the city's expectations and by your own failing to hold everything.
+
+Rosa sits opposite you, hands folded in the manner she uses when memory is a liturgy.
+
+Rosa: "We bury the dead. We mourn. We make lists so the living can carry on. Don't let their blame be the only story told about them."
+
+You want to believe her and you also know how easy storytelling is to twist.
+
+The town moves forward in a pattern of small, pragmatic gestures: sandbags, reassigned crews, tighter approvals. The living breakwaters are hauled in sections for forensic review. Grants reroute. Regulations thicken. The hybrid project, once a sign of communal hope, becomes a case file.
+
+You go to the old ledger in your jacket — the journal damp at the edges — and write names. You list things you wish you'd done differently. The pen skitters; the ink smears like the tide.
+
+You are left with a tight, clear sorrow and the knowledge that grief reshapes the architecture of community. It does not rebuild entire towns overnight. It builds, in small increments, a different kind of structure — one that costs more, requires more translation between hearts and budgets, and always demands proof.
+
+At the top of the cliff, the Old Beacon's lamp no longer turns on. The ruin watches like a wound. You place your compass pendant in your palm and feel its cool metal. It gives no answers; it only points.
+
+You stand, the cold wind like an accusation and a benediction both. You think of the people you could not save, the hands you let go, the colleague who left walking toward a job that isn't yours to follow. You think of the things you did right and how they feel small in the echoing requirements of accountability.
+
+When you leave the Beacon, the sky is low and heavy. The town is quieter, not from peace but from the consolidation of loss. You do not know if you will be forgiven by the larger world or remembered kindly by those who stayed. You only know the ledger of what you carry.
+
+[Visual: Slow fade out from the Beacon to a rainy horizon]
+[Music: One low chord, then silence]
+[Sound: Wind, seagulls, distant waves]
+
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": null,
+  "default_next_chapter": null
+}

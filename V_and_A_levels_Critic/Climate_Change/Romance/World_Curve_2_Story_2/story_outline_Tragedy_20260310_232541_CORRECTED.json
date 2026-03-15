@@ -1,0 +1,519 @@
+{
+  "title": "Tidefall: Marisport Letters",
+  "summary": "I am Mara Linh Alvarez, practical, loyal, and haunted by past compromises. When Evelyn Black’s polished proposal for a modular seawall arrives—promising rapid protection but risking displacement and top-down control—Marisport fractures. I return to the town I left, balancing rooftop orchards and kelp lines against the clinical certainty of Blackbrand. Kai Navarro, with sun-bleached braid and amber eyes, offers optimism and grassroots scaling; Reverend Sol and Nita hold community memory; Dr. Leila supplies crucial data. Across a single contested season, I must choose strategy: public resistance, negotiated hybridization, or a high-risk solo demonstration of living defenses. Each decision spawns consequences that spiral: legal fights, occupations, failed prototypes, media exposures, and personal betrayals. The arc is tragic—falls from hope to loss—so every branch descends: fights end in broken neighborhoods, forced relocations, or small policy wins born of greater costs. Romance complicates everything: Kai’s optimism clashes with my guarded responsibility; our love bends, strains, sometimes snaps. The endings vary—bittersweet compromises, personal exile, ambiguous policy shifts—but all bear the taste of loss. The narrative uses first-person intimacy to make systemic climate choices feel like private moral wounds.",
+  "emotional_curve_type": "Tragic Descent",
+  "player_character": "Mara Linh Alvarez",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt in My Sketchbook",
+      "branch_designation": "Common",
+      "narrative_focus": "I return to Saltflower Greenhouse at dusk, reacquainting myself with the smell of brine and compost and watching seedlings in reclaimed crates. Kai tends kelp starters; the town's patchwork repairs feel like a warm net around my battered resolve. I remember my father and the storm that took him, feel the brass compass at my throat, and sketch woven biopolymer breakwater designs that might be communal. Evening light gilds wet glass; hope feels like a small stubborn ember.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Nita",
+        "Reverend Sol",
+        "Juno",
+        "Dad"
+      ],
+      "locations_used": [
+        "Saltflower Greenhouse"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tideward Promenade Meeting",
+      "branch_designation": "Common",
+      "narrative_focus": "At the Tideward Promenade town meeting, Evelyn Black presents Blackbrand's modular seawall proposal promising rapid, scalable protection. The town hears both practical promises and cautions: Dr. Leila offers living-systems data, Reverend Sol calls for deliberation, and Nita raises concerns about displacement. I resolve to push a public demonstration and a data-backed plan to show living systems can scale, even as the meeting’s tone foreshadows difficult choices.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Evelyn Black",
+        "Kai Navarro",
+        "Dr. Leila",
+        "Reverend Sol",
+        "Nita"
+      ],
+      "locations_used": [
+        "Tideward Promenade"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Floodplain Market—The Choice",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At an emergency forum in the Floodplain Market, vendors and residents debate Evelyn's modular seawall versus living-shoreline alternatives. I must publicly choose a strategy: coordinate community resistance and demonstration, negotiate a hybrid with binding governance clauses, or stage a solo demonstration of a living reef offshore. The choice will propel the town down distinct, consequential paths.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "The town demands leadership; you must pick a strategy to confront Evelyn’s plan.",
+        "options": [
+          {
+            "label": "Organize a public resistance and demonstration",
+            "consequence": "Community mobilization, high visibility, legal risk, greater solidarity",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Negotiate a hybrid plan with binding community governance",
+            "consequence": "Potential co-option but possible formal safeguards",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Stage a bold solo demonstration of a living reef offshore",
+            "consequence": "Quick demonstration could sway opinion or catastrophically fail",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Reverend Sol",
+        "Nita",
+        "Juno",
+        "Kai Navarro",
+        "Dr. Leila",
+        "Evelyn Black"
+      ],
+      "locations_used": [
+        "Floodplain Market"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Rising Lines",
+      "branch_designation": "Route A",
+      "narrative_focus": "I commit to a public resistance: organizing sit-ins at Blackbrand's staging yard, rallies at the promenade, and a kelp-planting demonstration at the Rooftop Orchards. Workshops teach neighbors to weave biopolymer mats and plant oyster clusters. The town's momentum grows but Evelyn counters with legal notices and PR; security lights hum in the distance and tensions rise between solidarity and escalation.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Nita",
+        "Reverend Sol",
+        "Dr. Leila",
+        "Kai Navarro",
+        "Evelyn Black"
+      ],
+      "locations_used": [
+        "Rooftop Orchards",
+        "Kelp Farm Platform",
+        "Blackbrand staging yard (visible)"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Midnight on the Staging Yard",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "An overnight occupation at Blackbrand's staging yard escalates into a tense flashpoint. Volunteers form a human web across mudflats as corporate security and police approach. I must decide whether to hold and risk violent eviction, file for an injunction and pull back tactically, or open a back-channel mediated pause with Evelyn—each option carrying immediate danger or strategic tradeoffs.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "The occupation faces an immediate flashpoint; pick a tactic for the night.",
+        "options": [
+          {
+            "label": "Hold the occupation—stand firm",
+            "consequence": "Possible arrests and violent eviction, strong public attention",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "File an injunction and pull back tactically",
+            "consequence": "Legal delay, loss of immediate momentum but potential legal leverage",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Open a back-channel mediated pause with Evelyn",
+            "consequence": "Risk of co-option and betrayal, possible temporary reprieve",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Nita",
+        "Dr. Leila",
+        "Reverend Sol",
+        "Juno"
+      ],
+      "locations_used": [
+        "Blackbrand Development Site",
+        "Staging Yard",
+        "Mudflats"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Breakwater—Aftermath",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "The aftermath is mixed and painful regardless of tactic: forceful evictions scatter the demonstration; injunctions buy time but allow private security and rezoning; mediated pauses produce agreements that hide binding clauses favoring the company. We secure some stewardship funds and patches of shoreline, but historic blocks are lost and some families relocate. Courage is battered by concentrated capital; love is tattered and the town is scarred.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Juno",
+        "Nita",
+        "Reverend Sol",
+        "Dr. Leila",
+        "Blackbrand Development",
+        "Evelyn Black"
+      ],
+      "locations_used": [
+        "Floodplain Market",
+        "Promenade",
+        "Blackbrand Development Site"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Polished Offers",
+      "branch_designation": "Route B",
+      "narrative_focus": "I enter moderated negotiations with Evelyn in Blackbrand's clinical office. She proposes a hybrid of modular barrier segments with integrated green terraces and community spaces if Marisport signs an implementation agreement. Dr. Leila, Kai, Reverend Sol, and Nita weigh the tradeoffs between speed, safety, and local agency as we consider whether legal governance clauses can protect the town from displacement.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Evelyn Black",
+        "Dr. Leila",
+        "Kai Navarro",
+        "Reverend Sol",
+        "Nita"
+      ],
+      "locations_used": [
+        "Blackbrand negotiation room"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Contract Language",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "We draft contract language with municipal lawyers beneath the Solar Spire's lights. Evelyn's team pushes indemnities and flexible vetoes while I push for binding stewardship boards, transparent procurement, and community veto power. Dr. Leila compiles data triggers; Nita organizes testimony. The town must choose to accept a mediated hybrid, insist on binding governance, or expose Blackbrand publicly—each with strategic and legal consequences.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "The final wording must be chosen—pick a strategy for the contract push.",
+        "options": [
+          {
+            "label": "Accept a mediated hybrid with stewardship clauses",
+            "consequence": "Faster implementation with limited control",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Refuse the deal; insist on binding community governance",
+            "consequence": "Potential project delay and public uncertainty",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Expose Blackbrand's past failures publicly",
+            "consequence": "Possible legal backlash and corporate retaliation, public pressure",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Evelyn Black",
+        "Dr. Leila",
+        "Kai Navarro",
+        "Nita",
+        "Municipal lawyers",
+        "Reverend Sol"
+      ],
+      "locations_used": [
+        "Old Lighthouse / Solar Spire",
+        "Municipal offices"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Signed, Sealed, Strained",
+      "branch_designation": "Route B (Ending)",
+      "narrative_focus": "Negotiation yields a mixed result: a hybrid is secured with stewardship clauses or a delayed contract with watered-down governance. Protections arrive unevenly—faster in wealthier blocks—while poorer neighborhoods face displacement. The terraces are built but at the cost of ideals and missing names at dinner tables. Material stability comes with social and personal losses.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Evelyn Black",
+        "Nita",
+        "Juno",
+        "Reverend Sol",
+        "Blackbrand Development"
+      ],
+      "locations_used": [
+        "Blackbrand Development Site",
+        "Floodplain Market",
+        "Promenade"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Open Water",
+      "branch_designation": "Route C",
+      "narrative_focus": "I lead a risky public living-reef demonstration at the kelp-farm platform with Kai and Dr. Leila. Initially promising as kelp unfurls and oysters settle, a sudden late-season surge slams the experimental structure: moorings fail and modules are lost. The demonstration may become proof of concept—or proof of failure—shaping the narrative against or for Blackbrand.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Dr. Leila",
+        "Town observers",
+        "Evelyn Black (watching)"
+      ],
+      "locations_used": [
+        "Rooftop Orchards",
+        "Kelp Farm Platform",
+        "Brackish channels"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Salvage or Spin",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "After the failed demonstration, I must choose how to respond: lead a dangerous salvage repair, broadcast transparency and invite communal repair, or conceal the extent and rebuild quietly. Each choice affects public trust, legal exposure, and personal relationships—especially with Kai and the community.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Pick how to handle the failed demonstration in public.",
+        "options": [
+          {
+            "label": "Lead an immediate salvage operation",
+            "consequence": "Physical danger, but potential reclamation of credibility",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Broadcast transparency—show failure and invite repair",
+            "consequence": "Short-term humiliation, potential long-term trust",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Conceal the full extent and rebuild quietly",
+            "consequence": "Risk of future scandal if exposed, safer short-term optics",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Dr. Leila",
+        "Reverend Sol",
+        "Nita",
+        "Juno"
+      ],
+      "locations_used": [
+        "Tideward waterline",
+        "Kelp platform",
+        "Promenade"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Reef of Broken Promises",
+      "branch_designation": "Route C (Ending)",
+      "narrative_focus": "Choosing salvage or transparency yields a painful mixed result: repairs partially succeed and some living elements survive, but injuries, lost modules, and intensified legal scrutiny follow. Blackbrand's PR frames the effort as amateurish; funders waver and liability suits loom. The demonstration becomes a contested symbol—courage for some, recklessness for others—and personal relationships fray.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Dr. Leila",
+        "Juno",
+        "Nita",
+        "Blackbrand Development"
+      ],
+      "locations_used": [
+        "Kelp Farm platform",
+        "Brackish channel",
+        "Promenade"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Paper Trails and Press",
+      "branch_designation": "Additional Route (Ending)",
+      "narrative_focus": "We publicly expose Blackbrand's past project failures and conflicts of interest; the exposé energizes the town and regional media but provokes swift company retaliation: lawsuits, private security, and economic squeezes on local vendors. The truth reveals corporate motives but triggers a protracted legal and financial battle that leaves the community bruised and stretched thin.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Evelyn Black",
+        "Dr. Leila",
+        "Kai Navarro",
+        "Nita",
+        "Reverend Sol",
+        "Blackbrand Development"
+      ],
+      "locations_used": [
+        "Floodplain Market",
+        "Community hall",
+        "Media venues"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Quiet Rebuild",
+      "branch_designation": "Additional Route (Ending)",
+      "narrative_focus": "I choose to conceal the depth of the kelp-reef failure and quietly rebuild at night to control optics. The repaired kelp later appears successful, but secrecy corrodes trust: Kai and Juno feel betrayed and leave or distance themselves. Short-term respectability comes at the cost of personal relationships and community cohesion, while rumors and Evelyn's framing undermine long-term solidarity.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Juno",
+        "Nita",
+        "Evelyn Black"
+      ],
+      "locations_used": [
+        "Rooftop Orchards",
+        "Kelp Farm Platform",
+        "Night rebuild sites"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Alone with the Tide",
+      "branch_designation": "Additional Route (Ending)",
+      "narrative_focus": "After choices to conceal, litigate, or accept partial safeguards, I find myself increasingly isolated: Kai has left town for work elsewhere, Juno is gone, and community ties are frayed. The shoreline is stabilized in pockets but social fabric is torn. I walk the Tideward Promenade alone at dawn, holding the scuffed compass and counting private losses—this quiet tragedy is the slow arithmetic of what we decided to keep and what we let go.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C and implied from earlier ruptures",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Linh Alvarez",
+        "Kai Navarro",
+        "Juno",
+        "Nita",
+        "Reverend Sol"
+      ],
+      "locations_used": [
+        "Tideward Promenade"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "World View: Marisport is a near-future temperate coastal town shaped by rising seas and stubborn people. Its political life is a patchwork of neighborhood councils, an overburdened municipal office, and occasional corporate delegations. Class divides exist among small-boat fishers, market vendors, retrofit builders, cooperative gardeners, investors and municipal contractors. Culture centers on reciprocity—tool-swaps, seed-lending, memorials for storms—often mediated by Reverend Sol’s gatherings. Geography is tidal: a long bay with kelp lines, battered promenade, raised market platforms, rooftop orchards and an old lighthouse turned Solar Spire. Blackbrand Development offers modular seawalls that create urgent ethical conflicts between engineered protection and living shorelines.",
+  "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+  "_meta_arc_strategy": "Tragedy (Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 23:25:41"
+}

@@ -1,0 +1,181 @@
+label chapter15:
+
+    # [Scene: Tidewatch Lab (Greenhouse + Field Station) | Night — Immediately After Release]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A steady click of keys, distant thunder, the soft spatter of rain on corrugated metal.]
+    # play music "music_placeholder"  # [Music: Rapid, urgent strings underscored with a pounding, hopeful percussion — high arousal.]
+    "You watch the timestamp on the email thread blink from 'Scheduled' to 'Sent.' The headline the outlet promised appears in a new tab: an investigative package that puts names next to diagrams and emails. Your chest"
+    "loosens and tightens at once — the first bitter intake of air and the pain that follows a bruise."
+    "Noor stands at your shoulder, soil under her nails like an accusation and a blessing. Her face is lit by the monitor; there is something fierce in her calm."
+    show prof_noor_azizi at left:
+        zoom 0.7
+
+    prof_noor_azizi "They ran it. They ran it clean—no sensationalism, just the documents and the matches. The regulator lines lit up minutes ago."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "And the council? Elias?"
+    "Noor: (slow, deliberate) 'Phone calls already. The state inquiry is opening an inquiry panel. Contracts are paused pending audit. Investors are pulling statements. It's moving faster than any of my models predicted.'"
+    "Your fingers find the coral pendant against your chest. It is cold where your heartbeat warms your throat. You remember your brother's laugh in a kitchen that no longer exists; the memory is a small lighthouse in the storm you set loose."
+
+    menu:
+        "Scroll through the published thread now":
+            "You sink into the chair and read, line by line — the redactions, the quotes, the way your name appears in headlines. Each paragraph unspools a new kind of exposure."
+        "Step out into the rain for air":
+            "You pull on your jacket and step into the rain-washed night. Water beads on your lashes; the sound of the sea fills the hollow the headlines will soon occupy. It steadies you."
+
+    # --- merge ---
+    "Continue to the next morning montage."
+    # [Scene: Various — Montage: Morning into Day | Press, Harbor, Streets]
+    hide prof_noor_azizi
+    hide maya_soler
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Roaring voices of reporters, the tinny ping of notifications, the crackle of radio dispatches, town gossip like waves breaking.]
+    # play music "music_placeholder"  # [Music: Brass and high strings surge in staccato bursts — very high arousal but triumphant.]
+
+    "The world tilts as the story propagates. A national series traces the engineering contracts, the cherry-picked risk assessments, the correspondence that treats community memory like an inconvenience. State regulators release a terse statement" "Investigation initiated. Contractual halt on seawall project pending further review."
+    "You move through the day boxed in by glass — studio lights, microphones, quiet corners where people want to tell you everything and nothing. Some call you a savior. Some call you reckless. The labels slap against your skin like cold salt."
+    "Rosa: (voice via phone, breathless) 'Maya, we had a thousand at the square by ten. People chanting. Ben is—he's wise and furious. Noor, you and I—'"
+    "Noor: (cutting, steady) 'We have to shepherd this. Facts, timelines, the restoration plan. We can't let the frenzy steer policy. We need a coalition and a clear translation of the data.'"
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "I never wanted a spotlight. I wanted saltmarsh and seedlings."
+    "Noor: (soft, stubborn) 'You did a thing that needed doing. Now we make sure it changes the rules.'"
+    "A lawyer arrives with legal notices; a reporter offers a microphone; an old friend leaves you a voicemail that dissolves into static. Each sound is a small demolition and a construction at once."
+    # [Scene: Public Hearing — Town Council Chambers | Afternoon]
+    hide maya_soler
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs, a gavel thudding, coughing, the presenter's clicker snapping a slide into view.]
+    # play music "music_placeholder"  # [Music: Tense, ascending strings; the percussion thins, replaced by a single, soaring brass line.]
+
+    "Councilmember Diaz" "Because of the pending inquiry, we will proceed with a temporary moratorium on single-solution redevelopment. We will commission independent assessment and a multi-stakeholder oversight committee."
+    "The room reacts like a struck surface — applause, a clatter of discontent. Elias Voss rises from his chair with a composed smile that does not reach his eyes."
+    "Elias Voss: (smooth) 'This is a political theater. Contracts and livelihoods are at stake. We will cooperate, but I remind the council that delay can be costly.'"
+    "Maya Soler: (leaning forward, voice steady) 'Delay might be protection, or it might be profit dressed up as urgency. Independent oversight is how we find out which.'"
+    "Elias Voss: (a faint, practiced tilt) 'Ms. Soler, your documents have raised questions. But raising them into headlines without local process risks undermining trust. Was transparency the goal, or theater?'"
+    "Maya Soler: (quiet, not without edge) 'Transparency is not theater when it stops a plan that would have cost lives. If that's a performance, then let the stage be the right one — public record, independent review, and safeguards.'"
+    "Elias Voss's reply hangs — polite, then tight. His gaze is precise, assessing. You feel the chamber leaning into the hinge you have opened."
+
+    menu:
+        "Answer Elias directly with the names of the experts":
+            "You recite the scientists and the chain of custody, making the technical human. The room leans in; Noor gives you a brief nod."
+        "Call attention to the people who would be harmed by haste":
+            "Your words turn to the fishermen, the families on the bluff, Ben's weathered face. The emotional current pulls the room toward human stakes."
+
+    # --- merge ---
+    "The council moves toward commissioning the independent assessment and oversight framework."
+    # [Scene: Council Chambers — After the Hearing | Early Evening]
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The thud of a folding chair, low urgent whispers, the distant sound of the sea as a constant metronome.]
+    # play music "music_placeholder"  # [Music: Rhythmic, driving — a pulse of resolve.]
+    "Prof. Noor: (firm, translating) 'We can turn the moratorium into a framework. Data-driven pilots, living breakwaters, targeted engineering in high-risk commerce zones — a hybrid, with community governance.'"
+
+    "Councilmember Diaz" "Will the state fund this oversight?"
+    show prof_noor_azizi at left:
+        zoom 0.7
+
+    prof_noor_azizi "They are already talking. The inquiry raises stakes that attract oversight funding and conditional grants. If we put a comprehensive plan together, we can lock in multi-year commitments."
+    "You watch as your patient charts — tide gauges, faunal surveys, sediment cores — are folded into policy language. The science becomes scaffolding."
+    "Ben Harper: (arriving, voice like rope) 'You did what you had to. Not everyone will like how it happened, but the shore remembers who listens.'"
+    "Your throat tightens with a complex blend: vindication, fear, grief for the privacy you lost, for the quiet you gave up so other people might keep their homes."
+    # [Scene: Elias's Confrontation — Outside City Hall | Night]
+    hide prof_noor_azizi
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Footsteps, a car idling, rain whispering on asphalt.]
+    # play music "music_placeholder"  # [Music: Cold strings, a single percussive heartbeat.]
+    "Elias Voss: (approaching, voice precise) 'Ms. Soler. This is not the ending you imagine. There are lawsuits to come. Careers to be ruined. You understand the scale of what you've set in motion?'"
+    "Maya Soler: (meeting him, steady) 'I understand consequences. I also understand the difference between prepared sacrifice and avoidable harm.'"
+    "Elias Voss: (a thin smile) 'You traded your privacy for leverage. I will not deny you the moral high ground; you've carved it in public. But remember — public life eats quiet things.'"
+    "Maya Soler: (palms finding your multi-tool, a nervous anchor) 'Maybe quiet wasn't enough.'"
+    "His look is unreadable, a complex thing with a practiced public face draped over something else. In his eyes you see both calculation and... not sympathy — but the recognition of a worthy opponent."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "We will see who the public decides to champion."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "We already decided. The shore decided."
+    "He turns away with that clinical grace. The aides tidy his umbrella like attendants covering wounds. The rain sounds very loud for a moment."
+    # [Scene: The Marina — Dusk Turning to Night | After the Hearing]
+    hide elias_voss
+    hide maya_soler
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A tide sighs; snippets of interviews filter over a loudspeaker. Somewhere, someone plays a guitar softly — a familiar hymn to the sea.]
+    # play music "music_placeholder"  # [Music: A swelling, cathartic orchestral line — brass and strings rising together to a peak.]
+    "Aiden Kuro finds you as the crowd thins. He has been working the docks all day; the salt in his hair is nearly white from wind. Up close, you see the tired set of his jaw, the way he tries to settle a thousand unsaid things into a single look."
+    "Aiden Kuro: (careful) 'You pulled the cord and the whole town's lights came on. No one can stop looking now.'"
+    "Maya Soler: (searching for softness) 'I didn't want the lights. I wanted the council to ask the right questions.'"
+    "Aiden Kuro: (bitter, then honest) 'Right questions don't always mean right answers for people who fish with weathered hands. Ben lost a crew when a previous 'fix' came through. I—' (he stops, breath rough) 'I don't"
+    "know if I can watch my neighbors lose their boats and say it was worth it.'"
+    "Maya Soler: (voice small and fierce) 'This was never worth it in headlines alone. It was worth it if the outcome kept people on their shores longer, safer.'"
+    "Aiden Kuro: (runs a hand through his cap, a man rearranging himself) 'You made the town your instrument. You made us players in a show you started. I feel—exposed. I feel like something private is now in other mouths.'"
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "You were always going to be part of this. You live on the tides. I couldn't accept a plan that gambled that away."
+    "Aiden Kuro: (long beat) 'So where does that leave us? We say the right thing at hearings and go home to split silence?'"
+    "Maya Soler: (reaching, but catching only the wetness of air) 'I don't have a tidy answer. I have a policy change we can build on, and I have the truth. I have... less quiet.'"
+    "He laughs without humor, a small, fractured sound."
+    show aiden_kuro at right:
+        zoom 0.7
+
+    aiden_kuro "We both traded something."
+
+    maya_soler "We did."
+    "He looks at you then, not with the easy warmth you memorize in daylight but with something guarded, raw — protective, hurt, and unwilling to let go entirely."
+
+    aiden_kuro "If this is about saving the coast, I'm in. But if it's about a spotlight that bakes us all, I need you to promise me you'll remember the people behind the data."
+    "Maya Soler: (quietly, absolutely) 'I promise. I will not let the people become footnotes.'"
+    "He studies you as if cataloguing the new terrain of you. For a second — a thin, trembling second — there is the possibility of reaching across the fracture. You step forward. His hand goes up but stops short, an inch away from yours."
+    "Aiden Kuro: (lowered voice, breaking) 'I don't know if my hand fits in the plans you've made.'"
+
+    maya_soler "It still fits in mine."
+    "He closes his fingers, not around yours, but against his coat — a small, private closure. The exchange is brittle and honest, a hinge made from salt and resolve. You both stand on the dock, the town buzzing behind you, and the sea infinite before you."
+    # [Scene: The Following Weeks — Montage: Audit, Coalition, Transition]
+    hide maya_soler
+    hide aiden_kuro
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The steady rhythm of shovels, the murmur of meetings, the hum of construction that respects the tide.]
+    # play music "music_placeholder"  # [Music: Triumphant sweep — high brass, strings; the intensity never dulls, building toward catharsis.]
+    "The audit empties a nest of conflicts and sloppy engineering choices. The moratorium becomes a framework for multi-year investment: living breakwaters where they make sense, targeted engineered defenses where life is concentrated, transition funds for affected"
+    "livelihoods. Prof. Noor stands before the oversight committee and translates the language of ecology into policy that lawmakers can fund and defend."
+    "Noor: (to the committee) 'Ecosystems are not conveniences. They are infrastructure with memory. This plan respects both the science and the people who read the sea.'"
+    "Donors and public funds coalesce into a coalition: a patchwork of grants, conditional investments, and community trusts that commit to adaptive measures, oversight, and a decades-long horizon. The town trembles through layoffs and lawsuits; some storefronts"
+    "shutter. But the municipal ledger begins to show a direction — not instant profit but survivable continuity."
+    "You are visible now: at hearings, on panels, in the margins of other people's frames. The press follows the arc of the policy — from scandal to reform — and your face appears in print alongside"
+    "quotes that simplify a complicated life. Your work becomes public property; your notebook entries are excerpted and debated."
+    # [Scene: Marina — Night | A Week Later]
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A single gull calls. Under it, the distant rush of a dignified alert: the sea, rearranged but patient.]
+    # play music "music_placeholder"  # [Music: A single, sustained chord swells to a warm resolution — cathartic, very positive.]
+    "You stand at the rail and let the air take the blush from your cheeks. The headlines have faded from frenzy to reportage: scandals unearthed, policy adopted, money committed. The town is a map of small"
+    "recoveries and hard losses. Your name is a signpost for both praise and resentment. You have less privacy, more responsibility. The trade is neither clean nor simple."
+    "You think of the brother you lost to a flood that came too fast; you think of Ben's hands and Aiden's quiet, guarded love. You think of Noor's soil-stained hands, of the seedlings planted at the marsh edge that will take seasons to matter. These are your constellations now."
+    "A wave breaks against the pilings in a rhythm you have learned to read. You press the coral pendant into your palm; it is chilly and rough where the recycled plastic has been smoothed by years of wear. The symbol is small, but it is yours."
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "We forced a reckoning. The town will grieve and rebuild. They will argue and they will plant. I traded a private life for public leverage, and in the ledger of outcomes, that trade may save more than it costs."
+    "Someone calls your name — a neighbor, a reporter's question — and you turn, ready to answer, to speak science into digestible language, to stand for the community you love."
+    "You breathe. The air tastes like salt and rain and the first clean line after a long, necessary storm."
+    "You understand now what it costs to change systems: more than hours, more than privacy — it costs the ease of being loved uninterrupted. But it also buys time, space for families and neighborhoods to adapt, a scaffolding people can trust."
+    "You lift your chin against the wind and walk back along the boardwalk toward a town that will not be the same and toward a life that will be more public and, you hope, more resilient."
+    hide maya_soler
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: Resolve chord, then gentle fade out.]
+
+    scene bg ch12_f99e88_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

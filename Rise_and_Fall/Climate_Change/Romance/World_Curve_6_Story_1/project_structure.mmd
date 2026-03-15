@@ -1,0 +1,34 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Drowned Streetlights<br/>[Common]"):::spine
+    2("Ch 2<br/>Messages on the Mesh<br/>[Common]"):::spine
+    3("Ch 3<br/>A Sealed Notice, Thr<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Blueprints on the Bo<br/>[Route A]"):::limb
+    5("Ch 5<br/>Open Schematic, Open<br/>[Route A / A]"):::limb
+    6("Ch 6<br/>Grant Lines and Red <br/>[Route A / B]"):::limb
+    7("Ch 7<br/>Legal Stand, Loud He<br/>[Route B]"):::limb
+    8("Ch 8<br/>Memory in the Galler<br/>[Route B / A]"):::limb
+    9("Ch 9<br/>Technical Testimony,<br/>[Route B / B]"):::limb
+    10("Ch 10<br/>Confronting the Plan<br/>[Route C]"):::limb
+    11("Ch 11<br/>Formal Plans, Fragil<br/>[Route C / A]"):::limb
+    12("Ch 12<br/>Festival Lights and <br/>[Route B / C and Route C / B]"):::limb
+    13("Ch 13<br/>When Open Hands Are <br/>[Route A / C]"):::limb
+    14("Ch 14<br/>A City’s Ledger, A N<br/>[Route B]"):::limb
+    15("Ch 15<br/>Ledger of Small Thin<br/>[Route C / C]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 6
+    4 -.-> 5
+    4 -.-> 11
+    4 -.-> 13
+    7 -.-> 9
+    7 -.-> 12
+    7 -.-> 8
+    7 -.-> 14
+    10 -.-> 15
+    10 -.-> 11
+    10 -.-> 12

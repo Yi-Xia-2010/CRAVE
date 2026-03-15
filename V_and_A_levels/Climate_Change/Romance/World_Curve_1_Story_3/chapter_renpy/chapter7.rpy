@@ -1,0 +1,208 @@
+label chapter7:
+
+    # [Scene: Courtroom | Early Morning]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid, tense strings — a steady beat building beneath everything]
+    # play sound "sfx_placeholder"  # [Sound: The scratch of a pen, the distant clack of courthouse doors]
+    "You stand beneath the glare and it feels like the sun has been replaced by a practical, indifferent bulb. The folders make a soft, papery cliff at your elbow; Asha's notes are clipped to the top."
+    "Your brass compass sits on the first exhibit — heavy and familiar, a small object that refuses to let your hands forget the horizon."
+    show asha_malik at left:
+        zoom 0.7
+
+    asha_malik "Read this sentence aloud,' she says, voice steady as tidewater. 'Not for the court—out loud, like a person, not a report."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "If I let it sound like a paper, they file and move on. If I make it sound like a neighbor, it becomes harder to ignore."
+
+    asha_malik "Always choose the neighbor."
+    "Her counsel steadies you; she holds the quiet, clinical patience of someone who has measured the slow decline of reefs and knows the difference between hysteria and evidence. Around you, courthouse staff move in no-nonsense lines."
+    "Cameras will come later; for now there are only forms, signatures, and the hum of official motion."
+    hide asha_malik
+    hide maya_reyes
+
+    scene bg ch7_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low whoosh — someone opening a refrigerator of legal precedent two rooms over]
+    "You check the exhibits again. There are photographs — Eli's Polaroids interleaved with lab charts — but you do not dwell on every image. You let the facts hold the weight and keep your mind tight:"
+    "this is not a prototype you can build and test; it is a narrative you must defend under cross-examination."
+
+    menu:
+        "Reread the affidavit one more time":
+            "You flip the page, voice quieter, finding the sentence you know will make someone in the room think of their grandmother's garden. The words settle into your mouth like a stone."
+        "Trust Asha and sign":
+            "You lay the pen down and let Asha take the lead. Signing feels like handing the compass to tide and asking it to point true."
+
+    # --- merge ---
+    "Narrative continues"
+
+    "Asha leans in, lowering her voice" "We can file for the temporary injunction this morning. It will buy time — not forever, but enough to test the models, to get a hearing before they pour more concrete."
+    "You imagine concrete poured into the mouth of the marsh and it feels like a betrayal you have to stop. The hope is crystalline: a court order slows a machine that is otherwise impossible to halt. That hope hums in your chest like an engine."
+    # [Scene: Courthouse Steps | Mid-Morning]
+
+    scene bg ch7_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, urgent — cymbals hinting at escalation]
+    # play sound "sfx_placeholder"  # [Sound: Microphone feedback, the murmur of a growing crowd, gulls muffled by distance]
+    "The journalist you coordinated with approaches, not hostile, but sharp — a blade softened enough to slice paper, not bone. He speaks in quick, decisive lines that force answers into small spaces."
+
+    "Journalist" "Ms. Reyes—what proof do you have that Aurelia's construction threatens the marsh now, not later? Is this delay worth the economic cost?"
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "We have peer-reviewed assessments, before-and-after sediment samples, and clear photographic documentation of erosion coinciding with the construction's tidal shadow."
+
+    "Journalist" "And do you expect the court to stop construction?"
+
+    maya_reyes "We expect the court to recognize immediate risk and grant a temporary hold until an impartial review is completed. This isn't about stopping progress — it's about making progress that doesn't erase us."
+    "June Park watches, smile as polished as the briefcase at her side. When the microphone swings to her, she speaks in the same clear, composed tone that has carried her through investor pitches and town halls."
+    show june_park at right:
+        zoom 0.7
+
+    june_park "We welcome scrutiny. Aurelia follows regulations and has always prioritized safety. Our seawall is an engineering solution to an urgent problem."
+    "You feel a flare of irritation — not at her words, but at the way her assurance is built from polished metal and shareholder charts rather than the soft math of marshes. Still, the crowd hums;"
+    "the debate is public now, and sunlight gleams off the cameras like a promise: scrutiny brings accountability. That thought lifts you."
+    "Eli Navarro steps back, camera at his shoulder, framing the construction site on the far edge of town. He hands you a warm Polaroid — his fingers leave a faint smudge of developer chemicals. The picture"
+    "is raw and immediate: a strip of mud marred by tire tracks, a pool of oily sheen where a storm drain discharges."
+    show eli_navarro at center:
+        zoom 0.7
+
+    eli_navarro "You wanted proof. I'm getting it. We get these into the filings and into the papers."
+
+    maya_reyes "Careful with who we show. Some folks won't want their homes photographed."
+
+    eli_navarro "Then we'll get close-ups of the damage. Not people, just the scars."
+
+    menu:
+        "Stand where the cameras can see you":
+            "You step forward, letting the microphone find your face. The crowd leans in; the camera lenses make your jawline look sharper than it feels. Your voice carries better than you expected."
+        "Stay beside Eli, out of frame":
+            "You stay to the side, letting the images speak. You're relieved when Eli gives you a look that says he understands the risks. The Polaroid in your hand warms like a pact."
+
+    # --- merge ---
+    "Narrative continues"
+    # [Scene: Aurelia Construction Site | Afternoon]
+    hide maya_reyes
+    hide june_park
+    hide eli_navarro
+
+    scene bg ch7_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Low bass thrum with escalating strings — urgency pressing forward]
+    # play sound "sfx_placeholder"  # [Sound: The clang of metal, distant engine hiss, occasionally a protective helmet's muffled shout]
+    "You move through the site with Eli, boots sinking slightly in churned mud where the tide still remembers how to resist. He snaps shot after shot. His camera pauses on the edge of the marsh where"
+    "the construction's shadow falls like a blade. You press your palm to the damp earth and feel a cool, sullen resistance."
+    "Tomas meets you near the temporary fencing, cap low, fingers worrying at the edge of a paper cup. His shop is less than a block away — the rent his whole life balances on."
+    show tomas_reyes at left:
+        zoom 0.7
+
+    tomas_reyes "You sure about making noise, Maya? Folks are getting buyout offers left and right. If Aurelia sniffs a chance, they'll start sweet-talking people out of their houses."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "The point is to keep people from being forced into decisions they don't have to make yet. If the court slows them down, we have time to organize—negotiate on fair terms or stop the worst of it."
+
+    tomas_reyes "Organize? Organize's a luxury when you can't keep the lights on."
+    "Rosa joins you, apron still wrapped around her waist even though she's not at the café. Her voice is small but clear."
+    show rosa_alvarez at center:
+        zoom 0.7
+
+    rosa_alvarez "You are risking gossip, niña. People will pick sides. They will call you trouble if it means someone keeps their rent."
+    "You feel the room in your chest tighten — the cost of public pressure is not just legal; it's friction between neighbors, the strain of private lives becoming argument fodder. But Asha's words come back: translate data into neighbor-stories. Make the court see faces."
+
+    maya_reyes "We're not making enemies of our neighbors. We're trying to make their neighbors safer."
+
+    menu:
+        "Promise Tomas you'll prioritize his shop in the campaign":
+            "You tell him you'll highlight his concerns in the filings and make sure any relocation talk includes fair compensation and time. Tomas nods, half-convinced, the worry lines softening."
+        "Tell Tomas this is bigger than any one shop":
+            "You say it bluntly: some things are bigger. He looks away, a quick flinch of hurt. For a second the two of you are strangers again."
+
+    # --- merge ---
+    "Narrative continues"
+    "Eli Navarro crouches, framing a shot of a displaced marsh crab clinging to a blade of grass. He looks up, and for the first time since this started, his voice tightens."
+    hide tomas_reyes
+    show eli_navarro at left:
+        zoom 0.7
+
+    eli_navarro "People will see this. If we get the right spread, the council can't pretend this is abstract anymore."
+    "You want to believe him. His hope is a combustible fuel — optimistic, maybe naive, but it ignites the room. The more eyes that watch June's site, the harder it is for the company to move without accountability."
+    # [Scene: Temporary Injunction Filing | Late Afternoon]
+    hide maya_reyes
+    hide rosa_alvarez
+    hide eli_navarro
+
+    scene bg ch7_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid strings crescendo — heartbeats layered with typing]
+    # play sound "sfx_placeholder"  # [Sound: The rubber stamp, quick footsteps, murmured legalese]
+    "Your signature goes last. It feels like setting a buoy in a fast current: a marker that promises the law will make someone look. Paper is fragile; court orders are not. The clerk hands you a copy with an official scrawl."
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "When's the hearing?"
+
+    "Clerk" "Two weeks. Emergency docket moved it up."
+    "Two weeks is both a long and a short time — long enough for Aurelia to pivot, short enough that every night will be full of planning, calls, and fragile sleeps. You feel the high-velocity pulse inside you jump: strategy meetings, press briefings, depositions."
+    hide maya_reyes
+
+    scene bg ch7_453e40_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The muffled chatter of a packed hallway beyond the courthouse doors]
+    "Back on the steps, the town is split into camps that feel suddenly permanent: some clap quietly for you; others avert their faces or mutter words you don't catch. Rosa squeezes your hand; her knuckles are warm."
+    show rosa_alvarez at left:
+        zoom 0.7
+
+    rosa_alvarez "We pray, we plan, and we keep our doors open."
+    show asha_malik at right:
+        zoom 0.7
+
+    asha_malik "Law slows machines. Science gives reasons. People give the story. Together, they make an argument no one can ignore."
+    "You breathe that in. The arousal that has been a rising swell — the pacing of meetings, the click of cameras, the staccato of legal action — reaches a sharp pitch. It's frightening and electric. For"
+    "the first time in weeks, you feel something like clarity: pressure, yes, but pressure that could reshape the hull of the ship."
+    "June Park crosses the plaza toward you, past camera glare and murmured questions. There is a flicker of real emotion under her composed surface — a quick hardening around her mouth, like someone bracing for impact."
+    show june_park at center:
+        zoom 0.7
+
+    june_park "Ms. Reyes. I respect your right to challenge. But consider the cost of delay — small businesses, homes that need protection now."
+    hide rosa_alvarez
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "Protection that damages the marsh will cost the town more in the long run. We're asking for due process."
+
+    june_park "We both want to protect San Brisa. We just read the map differently."
+    "There's no villainy in her words — only an honest conviction that engineering equals safety. The public exchange is polite and jagged. Cameras drink it in. Your heart beats its loud, escalating rhythm."
+    "Eli Navarro finds you then, hand on your shoulder, his eyes bright."
+    hide asha_malik
+    show eli_navarro at right:
+        zoom 0.7
+
+    eli_navarro "They printed our pictures. Front page. The reporter called it 'a community plea for accountability.'"
+
+    maya_reyes "Good. We need the town to keep looking. We need pressure in the right places."
+    hide june_park
+    hide maya_reyes
+    hide eli_navarro
+
+    scene bg ch7_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: A strong, hopeful chord cuts through the strings — the first hint of positive resolution within the tension]
+    # play sound "sfx_placeholder"  # [Sound: A distant foghorn, solemn but leveling]
+    "You walk away from the courthouse with the injunction copy in your bag and the Polaroid warm against your ribs. The town will argue. People will get scared. Tomas will scowl into his coffee and worry"
+    "about rent and reputation. Rosa will gather stories at the café and weigh the cost of public friction. But the legal hold exists now. The company moves slower when their schedule is in the headlines."
+    "Your jaw aches with the set of determination. Your eyes are raw from the light and the urgency. It is high-stakes and high-energy and, beneath everything, hopeful: the law, when paired with evidence and community voices, can force a reconsideration."
+    "You think of the compass on your desk back at the lab, of the Polaroid that will go into the conservative, irrefutable stack of exhibits. You think of Asha already composing testimony in her head. You"
+    "think of Eli, camera like a lantern, willing to document the town's raw edges to demand protection for them."
+    "The arousal curve has risen with every step — the sterile court corridors, the press glare, the gritty construction mud — and now reaches its tautest pitch as the hearing is set and the town tightens around the fault lines you've exposed."
+    "You stand at the threshold of something larger than a single hearing: a public reckoning where law, media, science, and memory will collide. You let your hand rest on the warm Polaroid in your pocket, feeling the echo of Eli's steady hope."
+    "A thought pushes up: this will not be clean. It will be noisy, painful, and magnificent if you do it right. The energy thrums. You are ready to ride it."
+
+    scene bg ch7_453e40_8 at full_bg
+    # play music "music_placeholder"  # [Music: Sudden swell, then a held note — anticipation, as if someone has drawn a breath before the plunge]
+    "You take one last look at the harbor — at the gray edge where sea meets town — and hold the image steady in your mind."
+    # [Page-Turn Moment]
+    "You imagine the hearing room: a judge's gavel, June's composed voice, Asha's quiet facts, Eli's photographs laid like evidence between them. You imagine Tomas in the audience, Rosa standing just behind him, and the whole town"
+    "leaning forward as if listening for the exact moment the tide decides which way to go. The courthouse doors swing closed behind you; outside, cameras blink like distant stars. You step forward because someone has to"
+    "make the law see the shore."
+
+    scene bg ch7_453e40_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

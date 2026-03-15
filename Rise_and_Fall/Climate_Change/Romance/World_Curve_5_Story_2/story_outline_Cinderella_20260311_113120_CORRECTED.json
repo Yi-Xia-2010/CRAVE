@@ -1,0 +1,495 @@
+{
+  "title": "Tides of Brinehaven",
+  "summary": "I am Lena Maris: pragmatic, empathetic, and anchored to Brinehaven by loss and duty. The municipal climate office is my battleground between Jonah Reyes (living shorelines, grassroots) and Iris Valence (engineered seawalls, corporate scale). The arc is Cinderella: an initial rise as community pilots win momentum; a crushing fall when storms and politics reveal costs; and a final rise where durable, but imperfect, governance and community resilience emerge. Branches explore aligning with Jonah, aligning with Iris, or brokering a hybrid, each with different trade-offs for love, ethics, and stewardship in a coastal town facing sea-level threats.",
+  "emotional_curve_type": "Cinderella",
+  "player_character": "Lena Maris",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "The Watchhouse Clock",
+      "branch_designation": "Common",
+      "narrative_focus": "Lena opens at the Watchhouse, balancing early success from a living-shoreline pilot with incoming institutional interest. Jonah visits; Iris sends an AR brief. Lena presents pilot data to a small council and decides to push for more support.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Iris Valence",
+        "Marco"
+      ],
+      "locations_used": [
+        "Watchhouse",
+        "Marsh",
+        "Pier"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tides and Town Meetings",
+      "branch_designation": "Common",
+      "narrative_focus": "A town meeting at the Watchhouse where Lena argues for scaling living shorelines. Iris presents a seawall and relocation plan. The mayor calls for a formal vote and proposals.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Lena Maris",
+        "Rosie",
+        "Marco",
+        "Dr. Asha Khatri",
+        "Jonah Reyes",
+        "Iris Valence",
+        "Mayor"
+      ],
+      "locations_used": [
+        "Watchhouse",
+        "Council chamber"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Three Ways to Shore Up",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The council vote looms. Lena must advise: endorse Jonah's living-shoreline pilot, back Iris's seawall and relocation, or broker a hybrid. This choice will shape the town's future and Lena's relationships.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which strategy do I advise the council to endorse?",
+        "options": [
+          {
+            "label": "Support Jonah’s living-shoreline pilot and community retrofit program.",
+            "consequence": "Energizes grassroots support and deepens my bond with Jonah, prioritizing place-based resilience.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Back Iris’s large-scale seawall and relocation plan for immediate security.",
+            "consequence": "Aligns me with institutional power and promises scale but risks alienating neighbors.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Propose a hybrid—targeted engineered protections coupled with community governance and strict anti-displacement clauses.",
+            "consequence": "Attempts negotiation between visions, marking me as broker but raising skepticism from both sides.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Iris Valence",
+        "Marco",
+        "Rosie",
+        "Mayor"
+      ],
+      "locations_used": [
+        "Watchhouse",
+        "Hallway",
+        "Council chamber"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Mud on Our Boots",
+      "branch_designation": "Route A",
+      "narrative_focus": "Lena chooses Jonah's path: community plants willows in the marsh and early metrics show reduced erosion and returning shellfish. Community pride swells and Lena imagines a future tied to place.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Dr. Asha Khatri",
+        "Rosie",
+        "Marco",
+        "Iris Valence"
+      ],
+      "locations_used": [
+        "Marsh",
+        "Pier",
+        "Rosie’s co-op"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Grant Letter",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "A private grant offers scale but includes strings: expedited permits and a board slot. Lena must decide whether to accept with oversight, decline, or accept fully, each risking autonomy or momentum.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the grant’s strings?",
+        "options": [
+          {
+            "label": "Accept with conditions—insist on a codified community oversight board.",
+            "consequence": "Slows rollout but preserves governance.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Decline the grant to keep the pilot pure and community-controlled.",
+            "consequence": "Maintains integrity but risks losing momentum and funding.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept fully to scale quickly and leverage the win politically.",
+            "consequence": "Rapid expansion with possible corporate influence.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Marco",
+        "Iris Valence"
+      ],
+      "locations_used": [
+        "Watchhouse",
+        "Rosie’s co-op",
+        "Valence Urbanworks (communications)"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Roots That Hold",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "Regardless of the grant decision, the town stabilizes: oversight or grassroots fundraising preserves or scales the pilot. Iris offers a grudging partnership; Lena finds personal and community resilience with Jonah.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Iris Valence",
+        "Dr. Asha Khatri",
+        "Marco",
+        "Rosie"
+      ],
+      "locations_used": [
+        "Pier",
+        "Marsh",
+        "Valence Urbanworks (distant tower)"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Glass Proposal",
+      "branch_designation": "Route B",
+      "narrative_focus": "Lena sides with Iris. At Valence Tower she helps fast-track a seawall and relocation plan. Immediate protections and resources arrive, easing some fears but straining Lena's relationship with Jonah and the town's cultural fabric.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Mayor",
+        "Marco"
+      ],
+      "locations_used": [
+        "Valence Urbanworks Tower",
+        "Watchhouse"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Storm After the Ribbon Cutting",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "After the seawall's ribbon-cutting a fierce storm reveals ecological feedbacks (marsh die-off, sediment starvation). Protests and economic harms follow. Lena faces choices about defending Iris, resigning, or pushing a hybrid retrofit.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the ecological and social backlash?",
+        "options": [
+          {
+            "label": "Stand publicly with Iris, accept responsibility, and negotiate stronger environmental safeguards.",
+            "consequence": "Keeps institutional power but risks local trust.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Resign from the partnership and return to grassroots organizing with Jonah.",
+            "consequence": "Regains local trust but loses institutional resources.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Force an emergency hybrid retrofit—partial marsh restoration and targeted seawall modifications.",
+            "consequence": "Technical compromise that may placate both sides temporarily.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Rosie",
+        "Dr. Asha Khatri",
+        "Marco"
+      ],
+      "locations_used": [
+        "Seawall",
+        "Valence Urbanworks Tower",
+        "Town streets",
+        "Pier"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Reclamation Plan",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "Lena stands with Iris but insists on marsh restoration and community economic support. Teams replant grasses and redesign seawall openings; messy political negotiations produce a fragile reconciliation and ecological repair.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Dr. Asha Khatri",
+        "Marco",
+        "Rosie"
+      ],
+      "locations_used": [
+        "Pier",
+        "Marsh",
+        "Town hall"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "The Broker's Table",
+      "branch_designation": "Route C",
+      "narrative_focus": "Lena proposes a hybrid: targeted seawalls only where lives are at risk, community-managed living shorelines elsewhere, anti-displacement covenants, and a regional trust. The council trials the hybrid pilot.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Dr. Asha Khatri",
+        "Rosie",
+        "Mayor"
+      ],
+      "locations_used": [
+        "Watchhouse (Hall)",
+        "Negotiation table",
+        "Marsh"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "The Surge and the Schism",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "A violent surge exposes design flaws in the hybrid pilot, collapsing marsh and flooding a home. The town fractures into factions. Lena must decide between a regional coalition with legal guarantees, returning to grassroots expansion, or recommending organized relocations.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I lead after the surge?",
+        "options": [
+          {
+            "label": "Form a binding regional coalition with community seats and legal guarantees for anti-displacement.",
+            "consequence": "Pushes systemic change with legal teeth but requires political maneuvering.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Refuse large institutional fixes; double down on grassroots living-shoreline expansion with Jonah.",
+            "consequence": "Rebuilds trust locally but risks losing institutional funding.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Recommend organized, voluntary relocations for the highest-risk families and focus protections on the rest.",
+            "consequence": "Practical safety for some, painful losses for others.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Dr. Asha Khatri",
+        "Rosie",
+        "Marco",
+        "Mayor"
+      ],
+      "locations_used": [
+        "Collapsed marsh",
+        "Dunehouse",
+        "Watchhouse",
+        "Pier"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "A Covenant of Salt and Law",
+      "branch_designation": "Route C / Ending",
+      "narrative_focus": "Lena wins a legally binding regional coalition with anti-displacement clauses, revenue shares, and independent oversight. Iris funds infrastructure under strict transparency; Jonah helps design training. The law passes after difficult political work.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Rosie",
+        "Dr. Asha Khatri",
+        "Marco"
+      ],
+      "locations_used": [
+        "Pier (signing ceremony)",
+        "Town hall",
+        "Marsh"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Mud, Music, and the Slow Repair",
+      "branch_designation": "Route C / Ending",
+      "narrative_focus": "Lena returns fully to grassroots work with Jonah. Progress is slow but rooted in local knowledge; community training, fundraisers, and cultural repair produce resilient local adaptation. Iris later funds a small apprenticeship program.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Rosie",
+        "Dr. Asha Khatri",
+        "Marco",
+        "Iris Valence"
+      ],
+      "locations_used": [
+        "Marsh",
+        "Rosie’s co-op",
+        "Boardwalk"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Resignations and New Beginnings",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "Lena resigns from the partnership with Iris and returns to town. Rebuilding is slower and harder but trust is restored; Lena and Jonah deepen their relationship through shared labor.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Jonah Reyes",
+        "Rosie",
+        "Marco",
+        "Dr. Asha Khatri",
+        "Iris Valence"
+      ],
+      "locations_used": [
+        "Marsh",
+        "Rosie’s co-op",
+        "Watchhouse"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "The Compromised Harbor (Final Rise)",
+      "branch_designation": "Route B/C Shared Ending",
+      "narrative_focus": "Lena brokers emergency targeted relocations for highest-risk families and focused protections for others. The decision is brutal but creates relocation assistance with rights to return, combined with community retraining and habitat monitoring.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option C / From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Lena Maris",
+        "Iris Valence",
+        "Jonah Reyes",
+        "Rosie",
+        "Dr. Asha Khatri",
+        "Marco"
+      ],
+      "locations_used": [
+        "Pier (packing trucks)",
+        "Relocation centers",
+        "Marsh",
+        "Reconstruction boardwalk"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Global arc enforces a Cinderella structure (Rise → Fall → Rise). Major branch point at Chapter 3, with additional splits at Chapters 5, 8, and 11. Every path from Chapter 1 to an ending is six chapters deep. All content is first-person Lena Maris and uses the listed characters and locations.",
+  "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+  "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 11:31:20"
+}

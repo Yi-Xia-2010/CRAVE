@@ -1,0 +1,237 @@
+label chapter17:
+
+    # [Scene: Glass Council Chambers | Late Afternoon — Stormlight]
+
+    scene bg ch13_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid, driving strings with a brass undercurrent — urgency peaking]
+    # play sound "sfx_placeholder"  # [Sound: Muffled thunder, cameras clicking, murmurs like surf]
+    "You arrive with the dossier clutched under your arm and the taste of metal in your mouth — salt and tension braided together. The Atrium's clean light feels like an operating room. Everyone's waiting for the incision."
+    "Councilwoman Reyes stands at the dais in her muted suit; her slate of proposals is a small island of calm in the storm of voices. Ari Nakamura is to your left, immaculate as ever, an AR"
+    "cuff soft-glowing beneath his sleeve. To your right, Luca Chen is a tight knot of impatience and pride; he hasn't taken off his rope-belt since dawn. Nora's hand brushes yours once and then goes back to"
+    "steady the tablet that will display the finalized covenant."
+    "You inhale. For weeks the negotiation has been a hard geometry of concessions and promises. The hybrid plan — a contiguous engineered segment where the most vulnerable corridor runs, paired with codified community land covenants and"
+    "a funded marsh stewardship endowment — sits between you and the tide. It is not everything you wanted. It is not nothing."
+
+    "Reporter (off)" "Ms. Ortega, will the community allow relocation where mandated?"
+    show maya_ortega at left:
+        zoom 0.7
+
+    maya_ortega "We negotiated safeguards. Displacement is a last resort, not a footnote. And those relocated will have priority housing and stewardship positions in the reserve."
+    "You keep your voice even; you have practiced firmness."
+
+    "Councilwoman Reyes" "The covenant will be legally binding. Community oversight committees will have veto power on operational decisions within defined parameters. The funding mechanism is city-backed for ten years, with an independent audit clause."
+    show ari_nakamura at right:
+        zoom 0.7
+
+    ari_nakamura "And the seawall segment—engineered, visible, and scalable—will buy the time and safety the city needs to stabilize the coast while the marsh restoration matures. My firm will accept oversight terms and community membership on the steering board."
+    show luca_chen at center:
+        zoom 0.7
+
+    luca_chen "And what about the neighborhoods that aren't covered? The ones mapped as 'relocation zones'?"
+    "You can see the map behind the Councilwoman — pale blocks marked with a harsh clarity. Luca Chen's hand lands on the table as if to stop it from moving."
+
+    maya_ortega "We fought for relocation funding and staged, people-first transitions. Some plots slip beyond the wall's shadow; that's the brutal fact of this plan. We made sure the people who must move will not move empty-handed or alone."
+    hide maya_ortega
+    show nora_daz at left:
+        zoom 0.7
+
+    nora_daz "We kept community land covenants from being loopholes. The reserve's stewardship fund has enforceable allocations — wages, training, maintenance. This doesn't all vanish because a contractor changes hands."
+    "A murmur circles the chamber. Cameras tilt. You feel the room tilt with it."
+
+    ari_nakamura "We can schedule oversight audits quarterly. We can institute an emergency response clause that triggers neighborhood-led deployment of living shoreline tech if a breach estimate spikes."
+    hide ari_nakamura
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "That's the balance. Engineering to protect the present edge, obligations to restore and hold the cultural and ecological fabric together."
+
+    "Councilwoman Reyes" "Do you endorse this as the community's lead steward, Maya?"
+    "Your name rolls through the room like a small wave. You carry the memory of the pilot failure — the sapling torn free, the volunteers blamed. Guilt is a familiar weight; it makes your mouth taste"
+    "like old thunder. Yet the chamber's urgency presses you forward. The city wants a headline; the sea wants a defense; the people want to keep their homes."
+
+    menu:
+        "Adjust the wording aloud — emphasize binding language":
+            "You clear your throat and tighten a single paragraph: 'Any transfer of stewardship requires a two-thirds vote of the community oversight committee.' The microphones capture the firmness and the room shifts — lawyers nod."
+        "Lean into the human story":
+            "You put the technical script aside and tell Samir's story — the man who read tides like scripture. Cameras find your face; the room tenses and then quiets. Some faces wet with recognition."
+
+    # --- merge ---
+    "The chamber returns to Councilwoman Reyes calling the vote."
+
+    "Councilwoman Reyes" "The Council will vote now. All in favor of adopting the negotiated hybrid plan with codified covenants and the marsh stewardship fund?"
+    # play music "music_placeholder"  # [Music: Swells — percussion and strings peak; the chamber's rhythm matches your pulse]
+    # play sound "sfx_placeholder"  # [Sound: Gavel thumps, thunder rolling closer]
+    hide luca_chen
+    show ari_nakamura at center:
+        zoom 0.7
+
+    ari_nakamura "You held them to the covenant."
+
+    maya_ortega "We made them listen."
+    hide nora_daz
+    show luca_chen at left:
+        zoom 0.7
+
+    luca_chen "You made them listen — but you also made the deal."
+    "There is friction in the sentence; the room already tells stories that your agreement will be read as both salvage and surrender. Luca Chen steps back, the distance between you widening like a receding tide."
+    hide maya_ortega
+    show nora_daz at right:
+        zoom 0.7
+
+    nora_daz "You did what you could. I saw you fight for the clauses. You made it count."
+    hide ari_nakamura
+    show samir_qureshi at center:
+        zoom 0.7
+
+    samir_qureshi "The marsh will be tended. People will be paid. We will teach new hands. That is something."
+
+    "Council Members" "Aye.' 'Aye.' 'Aye."
+    "The final tally is a blunt instrument of relief and cost. The plan passes."
+    hide luca_chen
+    hide nora_daz
+    hide samir_qureshi
+
+    scene bg ch13_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Applause — a raw, complex mixture of cheers and soft sobs]
+    "You stand as applause crashes around you. Someone takes a photo. You feel the room spin with adrenaline; the arousal of the moment is a physical heat under your skin. This is victory and a wound at once — the very definition of compromise that saves and costs."
+    # [Scene: Seawall Promenade | Dusk — Construction Begins]
+
+    scene bg ch13_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: High-tempo percussive industrial, heart-racing]
+    # play sound "sfx_placeholder"  # [Sound: Hydraulic hammers, waves undercutting the pilings, radios barking instructions]
+    "You stand on the promenade as the first pile driver takes its rhythm — a mechanical heart setting itself into the shore. The smell of wet concrete mixes with the mineral tang of the sea. Work"
+    "boots slosh through the boardwalk; a placard reads 'Community Oversight Committee — Member Applications Inside' under a spray of graffiti that reads 'Remember the Mud.'"
+    "Ari Nakamura is beside you, gloves on. Up close, he is less cathedral and more real: his hands are steady; his eyes, usually cool, flicker with the strain of keeping promises. He speaks into the radio and there is authority in the way the crew answers."
+    show ari_nakamura at left:
+        zoom 0.7
+
+    ari_nakamura "Hold that bale. Two degrees off center and we reposition. We want this solid for the next fifty years."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "You're building on top of an ecology. Help us keep the marsh breathing under and beside it. The grant ensures marshkeepers on payroll."
+
+    ari_nakamura "You got enforceable measures. We have mechanisms. We both lose if we let this become a corporate banner and not a community asset."
+    "There is an abbreviated tenderness between you that is layered with contracts and clauses. Where once there might have been late-night confessions, now there are meeting minutes and legal addenda."
+    "Luca Chen watches you from a distance, fists half in pockets, the edges of his mouth raw. He crosses the promenade and stops short of touching you."
+    show luca_chen at center:
+        zoom 0.7
+
+    luca_chen "You did the right thing for most people."
+
+    maya_ortega "I did what kept the most people alive, Luca."
+
+    luca_chen "And some people you said goodbye to in the process."
+    "You look at the houses slated for phased relocation — their porches empty, their doors painted with blue Xs and notes. A child’s tricycle lays half-submerged in marsh grass. The ache is sudden and particular."
+
+    menu:
+        "Stand next to Ari for the photo op":
+            "You step until the flash catches both your faces. The camera frames a professional partnership; the caption will read 'Stewardship and Seawall: Unity.' The picture stays clean."
+        "Step forward with the community cluster":
+            "You step into the warming cluster of volunteers; someone presses a well-worn fishing cap into your hand. That photo will tell a different story — awkward, messy, and human."
+
+    # --- merge ---
+    "The pile driver continues; the work and the photograph-taking proceed as the narrative moves forward."
+    "The pile driver hits again. Concrete sings. For a breath, the world narrows to the hammer, your shoulders, the way the sea pushes against newly shaped stone."
+    "You find Samir by the line of mallet-wielders. He presses the tide-marker pendant — an old silver disc — into your palm."
+    hide ari_nakamura
+    show samir_qureshi at left:
+        zoom 0.7
+
+    samir_qureshi "Keep this where you can feel the tide when decisions get dry. The wall is stone, but the people are the tide."
+    "You close your fingers around the metal. It is warm with his palm print."
+    # [Scene: Salt Marsh Reserve | Dawn — First Stewardship Planting]
+    hide maya_ortega
+    hide luca_chen
+    hide samir_qureshi
+
+    scene bg ch13_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: A slow, swelling harmony that carries both relief and the rawness of loss — strings and a solo woodwind]
+    # play sound "sfx_placeholder"  # [Sound: Bird cry, distant machinery finishing its night shift, the low sound of the city toward the far skyline]
+    "Months later, the wall sits like an answered question on the horizon. The marsh restoration grants have funded training centers and wages. Children learn to plant cordgrass. Nora kneels in the mud, laughing as she teaches a cluster how to set roots just so."
+    "You plant with the others, hands in the salt-dark earth. The tactile repetition of the work is small and sacred — a ritual of repair rather than triumph. You are no longer just an engineer of plans; you are now an organizer of people-handed tasks and a keeper of promises."
+    "Ari Nakamura stands at the edge of the restoration plot, watching the row of new marshkeepers. He meets your gaze and there is warmth there, but it is quieter now. There is an intimacy that exists in meeting obligations together, in the shared knowledge of what must be done next."
+    show ari_nakamura at left:
+        zoom 0.7
+
+    ari_nakamura "You made them put the covenants in ink."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "You made them build a seawall with a seat for the people inside its governance."
+
+    ari_nakamura "We both gave things up."
+    "You pause — the admission breaks like surf on a rock. The compromise has reshaped your private life as much as the shoreline. Rituals have shifted: late-night talks now become scheduled check-ins; spontaneous boat repairs become"
+    "coordinated deployments. You have visibility — articles, panels, invitations — a platform that makes change possible. But with the platform comes distance: fewer small dinners with Luca Chen, more televised press conferences. Your nights feel like"
+    "a ledger sometimes, balanced by the tide."
+    "Luca Chen approaches slowly. His face has softened in the months since the vote, but there is a guardedness now, like a vessel that has weathered strain."
+    show luca_chen at center:
+        zoom 0.7
+
+    luca_chen "I saw them pay the first marshkeepers. I saw your name on the plaque."
+
+    maya_ortega "Our names are on a lot of things now. The plaque reads 'In partnership.'"
+    "He searches your face, trying to find the person he once argued tide-stories with on the promenade. For a moment, you both let yourselves be the people who once shared a boat rather than the roles that keep you apart."
+
+    luca_chen "Partnership. That's a good word. Does it feel like us?"
+    "You look at the marsh — a new green seam eating into the mudflats — and think of the houses that shifted, the families that took up new keys to unfamiliar doors. Your chest tightens with a complex pride that tastes of salt and paper."
+
+    maya_ortega "It feels like survival with cost. It feels like keeping most of what mattered."
+
+    "Nora (nearby, laughing with a child)" "It feels like work. And work we can do."
+    "Samir comes up behind you and lays one slow hand on your shoulder."
+    hide ari_nakamura
+    show samir_qureshi at left:
+        zoom 0.7
+
+    samir_qureshi "You have more eyes watching now, Maya. That can be heavy. But it is steadier than being invisible."
+    # play music "music_placeholder"  # [Music: Crescendo and resolve — brass and strings fold into a bright, sustained chord]
+    # play sound "sfx_placeholder"  # [Sound: Wind moves through reeds like applause; a gull cries and then settles]
+    "You spend the day at the reserve overseeing the planting rotations. At dusk, there is a small, improvised ritual: the community — those who stayed, those who arrived taking part in planned relocation — gather. Someone"
+    "plays an old coastal hymn on a battered accordion. People pass around bowls of stew; plates are shared; laughter cracks like light."
+    "Ari Nakamura stands across the circle, watching the children. He steps toward you, and for a moment the world narrows again to what it is between the two of you: a deep professional respect, an emergent tenderness tempered by the hands of policy and public life."
+    hide maya_ortega
+    show ari_nakamura at right:
+        zoom 0.7
+
+    ari_nakamura "We made something that saves people."
+    hide luca_chen
+    show maya_ortega at center:
+        zoom 0.7
+
+    maya_ortega "And lost some things in the saving."
+
+    ari_nakamura "Maybe the next thing we do is make sure those lost things are remembered. Rituals recorded, homes' stories archived, jobs created that honor what was here. We can promise that. I will push for legacy funds in the next appropriation."
+    "You watch his face in the amber light and see conviction. It is not the same as intimacy the way you once imagined it — it is a pledge in policy language and a softening in"
+    "the spaces between your schedules. It is a different kind of closeness: public, accountable, careful."
+    "Luca Chen finds you at the fringe of the circle. He hands you a small, muddy shell he found in the marsh. His smile is brittle but honest."
+    hide samir_qureshi
+    show luca_chen at left:
+        zoom 0.7
+
+    luca_chen "Keep this. For when decisions get dry."
+    "You tuck the shell next to Samir's pendant in your pocket. The items jostle together like neighbors at a market: different sizes, the same salt."
+    "You look up at the stars (or what passes for stars through the city's light) and feel a kind of steadied exhilaration. The arousal that carried you through votes and pile drivers has given way to"
+    "a different pulse: sustained, bright, the steady glow after the flare. The plan has passed; the seawall rises; the marsh begins its slow conquest back from the concrete. People have roofs. Some moved, but not alone."
+    "The city has a new model: compromise codified, community voice institutionalized. It is not perfect. It costs ritual and nearness. But it buys time — and with time, you think, perhaps repair."
+    hide ari_nakamura
+    hide maya_ortega
+    hide luca_chen
+
+    scene bg ch13_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, conclusive piano motif threaded with a hopeful hum]
+    # play sound "sfx_placeholder"  # [Sound: The distant echo of the city, tidal whispering]
+    "You let the moment settle. There is grief threaded through the victory, but also a clear, warm sense that something durable exists now where before there was only risk and pleading. You have visibility; you have"
+    "a platform; you have a plan that folds people into the decision-making not as afterthoughts but as guardians."
+    "You breathe in salt and marshflowers and the scent of wet wood. The choice you made — to negotiate, to hold the line and accept necessary cost — has remade your life. It has remade the"
+    "neighborhood in ways both practical and intimate. Doors will open; some will close. You will keep reopening them."
+
+    scene bg ch13_601bcb_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fades to a sustained, hopeful chord]
+    # play sound "sfx_placeholder"  # [Sound: Wind, distant laughter, the soft lapping of tides]
+    "You stand, steadied by what you have done and what must still be done. The finale is not a clean ending — it is a continuing labor. But tonight, for the first long stretch since the tides grew teeth, you allow yourself the small grace of relief."
+
+    scene bg ch13_601bcb_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

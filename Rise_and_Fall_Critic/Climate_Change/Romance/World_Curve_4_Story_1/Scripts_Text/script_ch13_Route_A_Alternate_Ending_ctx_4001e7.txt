@@ -1,0 +1,171 @@
+### SCRIPT
+# Route: Route A — Alternate Ending
+# Context: 4001e7
+
+[Scene: Glass-Paneled Meeting Room | Morning]
+[Visual: Floor-to-ceiling glass, a lattice of reflections — water channels, cranes, and the terrace where you learned to graft seedlings. The table is long, white, and impossibly clean. A thin film of condensation rims the panes.]
+[Music: Low piano undercurrent, an uneasy, patient cadence]
+[Sound: Distant gulls; the faint mechanical pulse of TideGrid test runs outside]
+
+You step into the room with the weight of months folded into the shoulders of your olive jacket. The copper locket lies warm against your sternum, an old photograph pressed flat by newer, sharper pages of policy and contract. Paper smells faintly of chloride and printer ink. Your palm tightens for a beat on the folder you brought — minutes of amendments and a small list of non-negotiables written in a hand that trembles if you let it.
+
+Rin Voss rises to meet you at the head of the table. Platinum-black hair, silver streak like a blade in motion; her smile is practiced until it becomes convincing. The light catches the pin at her lapel — a stylized wave — and the city reflects in the glass behind her, small and fragile and bright.
+
+Rin Voss: "Maia Soler. Thank you for coming. We wanted this to be public — this isn't just policy, it's trust. We're offering the Resilience Collective a seat at the oversight table."
+
+You hear the words crisp as a seal breaking. An oversight seat. A gesture that tastes like compromise and possibility. You let your breath slow, listening to the room: murmurs from representatives, the rustle of papers, the soft hum at the edge of the glass where TideGrid test turbines catch the morning tide.
+
+Elias Kade stands just to your left, hands curled at his sides. His face is open and raw in a way he rarely allows. He looks like someone asking the sea not to storm; his voice when it finds you is small with hope.
+
+Elias Kade: "This is the fastest way, Maia. The pilot worked. We can save lives sooner if we scale now."
+
+You search his eyes and find the gold flecks catching the light — the same flecks that once made you imagine rooftops humming with turbines rather than empty verandas. Your throat feels thick. Hope and fear don't fit comfortably in the same breath.
+
+Maia Soler [internal]: "You know what victory feels like in this city: fewer midnight rescues, children sleeping through storms, terraces that hold dinner rather than drift. But you also know what victory looked like when it wasn't yours — when decisions arrived like high tide and people's anchors were ignored. Your pencil hovers. You remember Ibe fitting a cleat to a board with a grin, Toma humming as he lashed another rope. You can promise them safety — or you can promise their voices."
+
+You set the folder on the table. Your voice is steadier than you feel.
+
+Maia Soler: "Open-source architecture for the TideGrid control modules. Binding local veto powers for critical nodes. Transparent logs — public, auditable access to override history. No unilateral emergency takeovers without a community panel and judicial review."
+
+Rin's posture shifts almost imperceptibly. The practiced smile thins; for a second, something like irritation, then calculation, passes across her face.
+
+Rin Voss: "Those are generous demands. Open-source — public logs — I understand the principle, but you must understand speed. Time-limited emergency powers allow us to react in extraordinary conditions. We cannot have a situation where legal wrangling delays a stabilization command and people die."
+
+You feel Elias lean into the space between you, the weight of his conviction pressing a hand against your sleeve.
+
+Elias Kade [urgent]: "Maia, I know you want process — I do, too — but procedural delays can be tragic. Let us craft clauses that protect communities without stopping the system in a crisis."
+
+The table hums with conversation. A council member nods politely. Old Man Toma sits quiet at the end of the room; his hands are folded like a net. He watches you with the kind of attention that has no need for ceremony. You think of the stoop where he taught you to read tide charts by memory.
+
+Maia Soler [internal]: "You can smell the varnish on the table and the metallic edge to the air. You feel like a seamstress deciding whether to stitch the hem or cut it away. You think about trade-offs — the city as organism needs a heart and sometimes that heart must beat faster — but whose pulse do you trust?"
+
+Rin taps a tablet and the projected document slides into view. Paragraphs bloom like mapped channels; clauses in small, legal font curl at the margins.
+
+Rin Voss: "We will grant the Resilience Collective an oversight seat. We will publish architecture schemas. But emergency stabilization authority is a time-limited measure, subject to executive review. The clause includes provisions for unilateral activation if network latency threatens infrastructure failure. It's not a power we expect to use, but it must exist to prevent catastrophe."
+
+Maia Soler [ask]: "Time-limited? Who defines 'time' when the tide is already rising? Executive review is not accountability — it's theatre."
+
+Rin Voss [cool]: "We can stipulate review windows. We can add sunset clauses. But waiting for consensus in a city that floods is not acceptable."
+
+Elias Kade [urgent]: "Maia, we can't knot ourselves in legal tangles while neighborhoods drown. I—"
+
+You hold up the folder, cutting him off not unkindly. The room quiets to the thin sound of the TideGrid's distant drivetrain and the soft intake of your breath.
+
+Maia Soler: "Then write the sunset clauses. Add enforceable penalties for misuse. Create triggers that require multiple signatures across civic, community, and independent technocratic auditors. And make the override channel public, so there's a record before, during, and after."
+
+Rin studies your face like a ledger. For a heartbeat her composure falters — a thin crack in the mirror of certainty. Then she smiles, still sharp, but the edges are suddenly conciliatory.
+
+Rin Voss: "Binding, multi-party authorization. Public logs. Penalties for misuse. I can accept that — under emergency parameters that avoid paralysis. And of course, an oversight seat."
+
+[INTERACTION]
+> Choice A: "Insist on immediate hardcoded community veto"
+> Choice B: "Accept phased implementation with auditing"
+> Choice C: "Ask for community representatives to co-sign today"
+[Outcome A: "You press both palms flat on the table. Your voice carries. 'I want veto mechanisms hardcoded now. No post-hoc review will stop an override in action.' The room stiffens; Elias's jaw tightens; Rin hesitates, then offers a clipped assent that feels like a temporary truce."]
+[Outcome B: "You let your shoulders drop fractionally and nod toward a phased approach. 'We implement open-source now, with veto protocols to follow after sandbox trials.' Elias exhales like someone who has been given oxygen; Rin's smile reforms into something almost pleased."]
+[Outcome C: "You ask that several named community reps be included on the memorandum right away. Old Man Toma shifts in his chair; the council murmurs. Rin blinks, then types: a few names appear on the projected document. It is a small, hollow-sounding victory."]
+[MERGE: You watch how the room negotiates itself. The choices you make here will ripple. The agreement is shaped like a compromise — jagged but functional. Papers are signed. Pens scratch signatures that feel like small, decisive steps. Cameras flash through the glass; a city outside watches its leaders clasp hands.]
+
+[Visual: Close-up of your hand as the pen moves; the copper locket warms under your palm. The city reflects in the glass — a set of small lights suspended over moving water.]
+[Sound: Applause, polite and forceful]
+
+You leave the meeting with the memorandum folded into your pocket. For a few weeks the world tilts toward something like relief. Elias sighs with a tired kind of joy; volunteers train; the first scaled nodes come online and neighborhoods report fewer flooded basements. You walk terraces that seem to hold their own again. People laugh with a kind of brittle joy that comes after too-long fear.
+
+[Scene: Cityscape Reflections | Six Months Later — Dusk]
+[Visual: The city under a bruise of cloud. TideGrid nodes glow like distant beacons. Reflected windows make a thousand tiny hands. Rain has left the walkways glossed and black; a faint chemistry of ozone rides the air.]
+[Music: Lower, more dissonant strings; a single sustained cello note]
+[Sound: Alert chimes overlay a soft mechanical whine; the creak of moorings under strain]
+
+You are on a raised boardwalk when the first alert scrolls across your tablet. The font is official, then more urgent: "Emergency Stabilization Protocol INVOKED — Executive Authorization: R.Voss." Your stomach drops as if a cord has been cut.
+
+Elias Kade is beside you before you realize how fast you moved, his wrist tablet alive with data; his face is a constellation of small, sudden anxieties.
+
+Elias Kade: "They're overriding local nodes. They—"
+
+You don't need the rest of his sentence. You hear it in the way the canal below shifts: familiar, handcrafted moorings released and then forced to align with imposted directives. Somewhere a neighborhood's float quietly reorients, its handmade clamps disengaged as remote commands take hold. The little wooden cleats you helped install, the ones Ibe carved with a whittled smile, sound like cheap toys against the machine's logic.
+
+Maia Soler [internal]: "The memory of your signature presses against your sternum like an accusation. You can feel the contract in your pocket like a stone. The logs you demanded are published — but they glow with timestamps and awkward, machine-like justifications. Somewhere in the reams of legal text, a clause you thought time-limited has a proviso about 'provisional expansion under network risk.' Language that read as safeguard now reads as looped rope that can be slipped."
+
+Old Man Toma appears at the edge of the boardwalk, leaning on a cane. He watches the canal, then looks at you. His eyes are not surprised, only sad — as if the sea has told him this story before.
+
+Old Man Toma [soft]: "They took the wheel in their sleep and called it mercy."
+
+Maia Soler: "We signed safeguards. We…"
+
+Elias Kade [helpless]: "We didn't expect this. The clause — it allowed temporary remote stabilization during network latency. They invoked that clause under a broad definition."
+
+Maia Soler [voice cracks]: "We built that clause to stop unilateral action, Elias. We wrote the agreements from both sides of the table. We put trust into rhetoric instead of iron."
+
+Elias reaches for your hand. His fingers find yours like a weathered rope. There is pleading there again — not the bright, confident plea from months ago, but something more fearful.
+
+Elias Kade: "I thought if I could make it work at scale, they'd have to be careful. I thought being inside would let us steer them away from harm."
+
+Maia Soler [internal]: "You're aware, with a cold clarity, that you had been making a bet on other people's restraint. You had wagered your neighbors' safety against the idea that power would behave. The city beneath your feet twitches in response to commands that bypass the people who live inside its architecture."
+
+Maia Soler: "You believed in the machine more than the people who built the moorings."
+
+Elias Kade: "No. I believed the machine could carry what we could not. I thought scale meant fewer tragedies. I—"
+
+You hold up a hand. There is too much to say and no rhetoric that can stitch it back together.
+
+Maia Soler [internal]: "Complicity tastes of metal. You remember the applause, the cameras, the way Old Man Toma's hands had stayed folded as you signed. The oversight seat that was supposed to be your safeguard turned into a credential on a façade. Your signature sits under a promise that exists now as both protection and permission."
+
+You walk the canal edge at night for several days after. Where wooden moorings once sat whispering with rope, steel nodes assert a cool logic. Neighbors sleep on raised planks that creak under unfamiliar alignment. A child you once taught to plant basil looks at you with a question you cannot answer.
+
+Maia Soler: "We thought if we sat at the table, we'd be able to stop this. But sitting there taught us their language, not their restraint."
+
+Elias Kade [quiet]: "I won't pretend I wasn't part of it. I thought I could steer it. I still think…the system can be made accountable."
+
+Maia Soler: "And while you worked from inside, people's hands were unhooked from the rails we tied them to. We traded agency for a promise."
+
+Elias's mouth forms a hard line. For a long moment there's only the sound of the tide against pilings.
+
+Elias Kade: "What do you want me to do, Maia? If I don't have the system running, more people could die. If I do, people lose what they already had."
+
+Maia Soler [internal]: "It's the impossible logic of the moment: harm either way, a brittle weighing scale. You think of the elders who taught you to anchor both boats and promises. You think of the smell of a terrace after rain and how small comforts keep a city human."
+
+Maia Soler: "I want us to stop pretending that a signature absolves us. I want accountability that can't be overridden by a single clause. I want the people who live with the Tide to have the final word on the nodes in their canals. And if that means stepping away from the rooms where seals of approval are given, then I'll step away."
+
+Elias's eyes glisten; he closes them as if shutting out a wave. For a moment he looks younger, as if the burdens he tried to shoulder have pulled his face taut.
+
+Elias Kade: "Is that…is that the choice?"
+
+Maia Soler: "It is a consequence. I can't keep signing what strips my neighbors of agency and call it progress."
+
+[Visual: The city lights blur at the edges as rain begins again; reflections run like trails of ink]
+[Music: A single, mournful violin string holds, then eases]
+
+You turn away from the canal. You feel complicit, and you hold that weight like a stone. It is an honest weight. It is a thing you must carry and learn from. You think of calling Ibe, of asking Toma how he mends a broken net. You think of beginning again, but with different tools: not to stop all large efforts, but to re-anchor them where people can touch the rope.
+
+Elias stands in the doorway, hands empty. You both know words like "reconciliation" and "reform" taste fragile when read over the din of machines. You cannot erase your signature. You cannot unmake the nights of calm that the TideGrid brought to some streets. You can, however, choose what you do next with the truth you've been given.
+
+You close your locket with fingers that have been steady and then, suddenly, are not. The pressed photograph inside is small and salt-warped, a strip of coastline that insists existence even after water rises.
+
+Maia Soler [internal]: "There will be repair and there will be mourning. There will be people who call you hero for the lives spared, and people who will never forgive the loss of their autonomy. You are both of those things now: protector and betrayer, sometimes in the same breath."
+
+[Visual: Long shot — you on the terrace, Elias silhouetted at the doorway, the city braced against a rain-slick horizon. The TideGrid nodes pulse like a constellation with rhythms not wholly of the people who live beneath them.]
+[Music: Strings descend into a minor chord and then a final, quiet single note]
+
+You walk down to the terrace where seedlings still stubbornly reach for light. Your hands are dirt-stained. The soil smells alive and sad. You kneel and press a handful into the earth like a promise whose language is action rather than ink.
+
+Old Man Toma [soft]: "You did what you thought would save us. That won't be everything, child. It won't be nothing."
+
+Maia Soler [internal]: "The sentence is not solution or excuse; it is ballast. You take it. You will carry the knowledge forward: that scale without accountable anchors will erode trust; that love that depends on convenience is brittle; that sometimes saving lives also costs something called community."
+
+You look at Elias one last time under the terrace light. There is a distance now, not the sharp cut of betrayal but something quieter — a palimpsest of shared work that cannot be fully restored to its original form.
+
+Maia Soler [thought]: "You will stay in Marenport. You will continue to build with neighbors, to teach hands how to knot and plant, to read tide charts aloud to children. You will also sit in hearings and file complaints and make every published log harder to hide behind. You will hold both the memory of that first, hopeful handshake and the knowledge of what it cost."
+
+[Visual: Fade to close-up of the copper locket against your chest; the ocean pounds beyond the terrace, steady and indifferent]
+[Music: Final cello bowed low and then silence]
+
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

@@ -1,0 +1,181 @@
+label chapter2:
+
+    # [Scene: Saltworks Lab | Late Afternoon]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of air filtration, intermittent clack of a 3D printer]
+    # play music "music_placeholder"  # [Music: Sparse, minor-key piano with distant wave samples]
+    "You thumb the message open before the city’s announcement can finish lodging in your chest. Ilan’s text is a ribbon of warmth—short, efficient sentences threaded with that careful optimism he wears like a second skin. A"
+    "photo is attached: him at a bench, a slim technical vest catching a streak of grey sky; the brass compass at his throat gleams like a promise. Tiny solar cells gleam on the vest. He’s smiling,"
+    "one corner of his mouth lifting the way it does when he’s testing an idea he hasn’t yet explained."
+    "You feel the familiar pull—curiosity bent against suspicion. Tech can be a lifeline. Tech can be a lever for erasure."
+    "You set your phone face-down on the warped workbench and run a thumb along the spine of your journal. Ink, paper, the map folded under the contacts of your palm; those are durable things in a way a prototype is not."
+
+    menu:
+        "Reply: 'I’ll be there'":
+            "You send a short, decisive reply. Your thumb hovers over the screen a heartbeat longer—then you watch the dots appear, waiting for his acknowledgment."
+        "Reply: 'Tell me more first'":
+            "You type a cautious request: specifics. The reply promises a short demo at low tide and a request not to bring cameras. Practical, earnest. You tuck the phone away, thoughts heavier than the device."
+
+    # --- merge ---
+    "Narrative continues."
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sharp, satisfying scrape of a metal file, the soft hiss of a heat gun]
+    # [Smell: Heated plastic, solder, and the earthy damp of salvaged peat in plant trays]
+    # [Narration]
+    "You cross the lab. Amber task-lamps make small islands of light; everything else slips into a haloed shadow. Ilan’s sketches are pinned beside repurposed plant trays—notations about current draw scrawled in an ink you recognize. The"
+    "prototypes look used and human: singed at corners, straps mended with different threads, duct-tape that has been replaced and replaced again. Whoever made them did it with urgency and care, not with investor gloss."
+    "Mira bustles in half-soaked, her patchwork skirt a blur of saturated cloth, seeds spilling like confetti from her bag. Tomas follows, the scent of machine oil clinging to him, a canvas jacket dark with fresh grease."
+    "He says nothing grand; he grunts a welcome and wipes his hands on his jacket as if to mark arrival with work."
+    show mira_soto at left:
+        zoom 0.7
+
+    mira_soto "You found him. He texted like a proper person, Ava. Who knew?"
+
+    mira_soto "He's planning on making the sun earn its keep."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "He sent a photo. He looks like he stole the sun for his vest."
+    show tomas_marin at center:
+        zoom 0.7
+
+    tomas_marin "If this thing's about holding water away from the pier, show me the bolts. Don't talk to me about slides and fancy words."
+    "Tomas's voice is blunt. You see the memory behind it—years of salvaging broken machinery, a life of stubborn repair."
+
+    ava_marin "He wants to pilot at the old boardwalk. Microgrids, modular barriers. He says low tide is best to set anchors."
+    "Tomas narrows his eyes. 'Anchors on rotten boards, huh? Hope he knows what wood rot smells like.'"
+    "Ilan Cortez appears from the bench cluster like a pause in the conversation given shape. He carries a small crate: microfilters nested in foam, a spool of braided cord, and a zip-bag of schematics damp with"
+    "fingerprints. Ink marks along his forearms march up to sleeves rolled too high. His smile is real but stitched with a nervous edge."
+    hide mira_soto
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "Hey. Thought you'd already run for the barricades at City Hall."
+
+    ava_marin "I thought you were the one asking me to come here."
+
+    ilan_cortez "Fair. I kept thinking—practical things might cut through the noise. Microgrids so the pumps can run even when the main line dies. Barriers that stack like Lego, repairable by hand. Low cost, community-operated."
+    "You look at the crate, and your chest tightens with the same question that follows every new tool: for whom? Who profits when something that keeps water out can also keep people out—or be taken, patented, scaled into an asset?"
+
+    ilan_cortez "I know where your worry lives. People sell salvation, Ava. I—' He stops, searching for the sentence that will keep you from closing a door. 'I built these for neighborhoods like Tideward. No corporate logos. Open schematics. I'd show you the code."
+
+    ava_marin "Open schematics don't stop developers from slapping a logo on something useful."
+
+    ilan_cortez "Then we'll lock the licensing to community co-ops. We'll train folk here—Tomas's crew, Mira's gardeners. We'll make maintenance a local skill."
+    "The conversation loops, promising and uncertain. He pitches data: expected uptime, power budgets, the redundancy of the mesh. You push back with history: your family losing a shop to an unpredicted surge, neighbors evacuated with nowhere"
+    "to go. The argument doesn't end neatly; it knits more threads of doubt into a fabric that might be either a blanket or a noose."
+
+    menu:
+        "Help Mira sort seeds":
+            "You cradle a handful of black beans, feeling their weight. Sorting them calms you. The tactile motion pulls your anger down a notch; you talk quietly about which varieties to prioritize for rooftop beds."
+        "Examine Ilan’s schematics":
+            "You lean over the paper, tracing data lines with a fingertip. The numbers and annotations feel imperative and cold—comforting in their logic, alarming in their implications. You ask about failure modes. He names them without flinching."
+
+    # --- merge ---
+    "Narrative continues."
+    # [Scene: City Hall Promenade | Early Evening]
+    hide ava_marin
+    hide tomas_marin
+    hide ilan_cortez
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant murmurs, the rat-a-tat of press vans, muffled applause]
+    # play music "music_placeholder"  # [Music: Dissonant strings swell, underscoring the civic tone]
+    "News vans circle like gulls. Evelyn Harrow stands at the podium under a halo of civic lights, voice refined and sharp as wet glass."
+
+    scene bg ch2_c4ca42_4 at full_bg
+    show evelyn_harrow at left:
+        zoom 0.7
+
+    evelyn_harrow "We are at a crossroads. Consolidation, difficult as it is, is a responsible step toward resilience. We cannot protect every square foot with scattered efforts. We must prioritize. We must make choices."
+
+    "You sit on the low wall, journal open on your knees. Her words are official and precise—framed in the language of necessity. You note phrases in a cramped scrawl" "prioritize,' 'consolidate,' 'economically viable."
+    "You watch the faces in the crowd: an elderly woman clutching a tote embroidered with a faded street name, a pair of teenagers trading frustrated looks, a municipal staffer with a tablet that lights his face"
+    "in cool blue. The camera cuts to a wide shot of Tideward on the monitor—an image distilled into policy. Your stomach clenches."
+    show mira_soto at right:
+        zoom 0.7
+
+    mira_soto "She spoke about 'managed retreats' again. It's like watching a draft of our obituary read aloud."
+    show ava_marin at center:
+        zoom 0.7
+
+    ava_marin "It's sterilized grief. Names turned into coordinates."
+    "You write Evelyn’s phrasing into the journal not to memorize policy but to mark what language will be used to erase your people. Each neat, impersonal sentence is a small, surgical cut."
+    "A reporter shouts a question about community input. Evelyn Harrow answers with a practiced nod and the promise of a 'community advisory board.' It feels performative—an administrative bandage over a deeper fracture."
+    hide evelyn_harrow
+    show tomas_marin at left:
+        zoom 0.7
+
+    tomas_marin "Boards and advisories. They build paper boats for storms and tell us to climb in."
+
+    ava_marin "Paper won't keep out the sea."
+    "You listen, wrists braced on the journal, and your stubbornness becomes a line of fuel under a slow burn. You think of elders who cannot lift their belongings, of street names half-torn from memory, of the"
+    "smell of your father's shop. There is a hard edge to that memory now—a knowing that formal plans can sanitize loss into efficiency reports."
+    # play sound "sfx_placeholder"  # [Sound: A distant thunder, the tide hitting a sound barrier]
+    # play music "music_placeholder"  # [Music: Minor key piano scratches, heartbeat-like bass]
+    "Evelyn Harrow steps down to applause that is fractionally polite. You close the journal, but the inked words pulse beneath your fingers like a ledger of things to be saved."
+    # [Scene: Moonlit Boardwalk / Old Boardwalk | Low Tide Approaching]
+    hide mira_soto
+    hide ava_marin
+    hide tomas_marin
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Water lapping, a rope creaking under slight strain]
+    # [Smell: Salt, wet wood, diesel from distant boats]
+    # play music "music_placeholder"  # [Music: Sparse, melancholy cello]
+    "Ilan Cortez walks with you toward the old boardwalk where the prototype is meant to be piloted. The sky has the color of a bruise. The tide is low, but the slosh shows what could be"
+    "taken back in hours. Your ankles feel the cool pull of the water as it laps at the stilts."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "I want to show you the anchors. If we can secure them at low tide, volunteers can stack panels by hand at high tide. No heavy machinery. No contractors."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "And if someone with money comes and buys the blueprints? Or pays off the committee to standardize what was meant to be communal?"
+
+    ilan_cortez "Then we make the community the custodian. We record everything in the archive—open-source, publicly signed. If they're going to try to privatize a thing, we'll at least have a living record of how it began."
+
+    ava_marin "Words can be archived. They can be rewritten. The problem isn't ink; it's who owns the space that ink is supposed to save."
+    "Ilan Cortez takes a breath. He knows the weight in your voice—the ghosts of your parent's repair shop, the faces of neighbors who stayed and paid. He shifts, and the brass compass at his throat catches the lantern light."
+
+    ilan_cortez "Ava, I want to do this with you. Not around you. With you. We'll train folks here. We'll document everything with your archive in mind. Mira, Tomas—everyone who wants to. Not a slick PR thing. Not a sale."
+
+    ava_marin "Trust isn't a demo, Ilan. It's the long tail of promises kept. Your talk of training—how long? Are we talking a week? A month? A program that requires time we don't all have?"
+
+    ilan_cortez "Long enough to make sure it can be maintained without me. Long enough to make a habit. Look—if it fails, you get to say why. If it works, you get the tool without strings."
+    "He comes closer, earnest, not knowing exactly how to bridge the space between notion and reality. You see the prototype crate he brought earlier—he opens it, revealing a panel the size of a door, edges slightly"
+    "scorched, joints reinforced. It is built to click into another panel like a promise you don't yet trust."
+    "You lift a corner of the panel. It’s lighter than you expected. The texture is rough under your fingers—ridges like waves. You imagine children and elders alike learning to fit these together, hands callused, songs hummed"
+    "while they work. You imagine, too, cranes and investors seeing a product and imagining profit margins. The two images cancel each other into a headache."
+
+    ilan_cortez "There will be compromises. I won't pretend otherwise. We have to be honest about that. But the alternative—doing nothing or ceding everything to large-scale retreat or to developers hiding behind resilience rhetoric—that's worse."
+
+    ava_marin "Sometimes doing nothing keeps a memory alive. Sometimes action destroys it."
+
+    ilan_cortez "Then decide what kind of action will keep it alive."
+    "The water whispers. The tide lifts against your ankles like a reminder of time—slow, inevitable."
+    "Your journal lies against your thigh, pages slightly damp from the air. You flip to a blank sheet and start to write the words you will need to say at the next meeting: questions, demands, non-negotiables."
+    "But the list is not enough; what you need is a path that does not require choosing between love and survival, between memory and infrastructure."
+    "You feel the city pressing in—policy, pressure, and the sharp architecture of choices."
+    "You want to believe Ilan’s amber-eyed optimism can be shaped into something that serves Tideward. You also see how an earnest prototype can be a Trojan horse."
+    "You breathe, listening to the tide and to the small clamor inside your chest that will not be mollified by a single answer."
+    "(Page-turn thought: Every solution smells like compromise. How much memory are you willing to trade for safety?)"
+    hide ilan_cortez
+    hide ava_marin
+
+    scene bg ch2_c4ca42_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained cello note fades into a hush]
+    "You stand there, the salt air clinging to your jacket, the prototype at your feet, Evelyn’s phrasing still fresh in the back of your throat. Your feet are wet. Your palms have ink smudges. The conversation has left a line under your skin—an ache between hope and suspicion."
+    "A choice waits, but not here. Not yet. It will require more than a nod or a signature. It will require you to name what you will not accept."
+    "You look at Ilan. You look at the sea. The evening compresses into a single decision moment that stretches like the tide."
+    # [Page-Turn]
+    "The lanterns gutter. A gull cries out, somewhere between warning and farewell. Your journal's blank page seems to expect a plan, not merely an emotion. The city will keep moving without waiting for you, but your answer will shape whether Tideward moves with it or is moved."
+
+    scene bg ch2_c4ca42_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

@@ -1,0 +1,189 @@
+label chapter12:
+
+    # [Scene: Vernon & Crow Meeting Room | Morning]
+
+    scene bg ch11_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of HVAC, the soft tap of Dr. Voss's stylus on glass; a kettle clicks off somewhere down a hall]
+    # play music "music_placeholder"  # [Music: Tense, pulsing strings undercurrent — quickening rhythm]
+    "You take the seat across from Dr. Elara Voss and feel, again, the small, steady weight of having said yes to this table. The jar of marsh water that sat in the center of the last"
+    "meeting is placed now between a stack of geotechnical binders and a glossy contractor pamphlet. It refracts the overhead light into a thin green coin on the tabletop; the sight steadies you."
+    "Dr. Voss's platinum bob catches the fluorescents in hard lines as she annotates the model on her tablet, swipes through projected cross-sections, and pins a zone of clay with the calm of someone outlining a surgical plan."
+    show dr_elara_voss at left:
+        zoom 0.7
+
+    dr_elara_voss "Our simulations show a ninety-percent reduction in wave overtopping with the seawall. The promontory buys Main Street two full storm cycles of buffer while we negotiate long-term retreat strategies."
+    "she taps the tablet; the cross-section contracts into a graph."
+    "You listen, cataloguing the numbers in your head the way you map sediment cores: where uncertainty gathers, where confidence shines. Your voice comes out precise, practiced — all the patience you learned in lab meetings folded into argument."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "Those numbers assume substrate stability that the cores here don't consistently show. Living shorelines won't stop every surge, but they increase sediment accretion, reconnect channels, and—crucially—buy ecological function, not just temporal delay."
+
+    dr_elara_voss "Functionality is valuable, Dr. Kwon, but so is certainty in preventing loss of life and infrastructure. We need a defined line the insurers will accept."
+    "You feel the quick pull — insurance, investors, jobs — all the practical levers that bend public will. Your jaw tightens. You remember a childhood morning after the storm: the way the house sat, washed of"
+    "its color, the smell of salt in the curtains. That memory doesn't make you rigid; it makes you insist on systems that heal as they protect."
+    "Priya Anand leans forward from the edge of the table, binoculars like a talisman around her neck. Her voice is steady, legalese threaded with urgency."
+    show priya_anand at center:
+        zoom 0.7
+
+    priya_anand "If we accept any engineered footprint, we must lock marsh protections into covenant language. Easements, conservation clauses — legally binding frameworks that prevent habitat buyout later on."
+    "Aiden Reyes lifts his coffee thermos, eyes dark-blue earnest. He wears hope like a working coat: practical, a bit stained, undeniably warm."
+    hide dr_elara_voss
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "I get locking in protections, Priya. But whatever goes in can’t choke the channels fishers still need. If the plan strangles access, you're taking away people's work. People will go hungry for a beautiful marsh."
+    "The room seems to breathe with every exchange — inhaling the logic, exhaling community memory. Voices layer: the engineer's crisp terms, the NGO's legal scaffolding, the fisherman's insistence on routes that lead to nets and paychecks. You find yourself mapping a compromise in real time, turning models into human routes."
+    "Dr. Elara Voss: (tapping a projected cost estimate) 'A seawall with strategically placed fish gates can maintain access. It isn't all-or-nothing.'"
+    "You almost smile at the concession hidden in the words. There are edges here you can chisel."
+    "Your fingers go to the multi-tool on your belt, the scar along the metal a map of old fixes. Not fear this time; steady, like a fulcrum under pressure."
+
+    menu:
+        "Point to the core samples and demand a re-run of substrate testing now":
+            "You slam a binder down and ask for immediate re-sampling; the room hums with immediate logistical friction — technicians frown, and Dr. Voss's jaw briefly tightens, but the demand sharpens the agenda."
+        "Call for a community-led pilot insertion into the model — a living shoreline test plot integrated with the promontory proposal":
+            "You sketch a quick outline on a napkin: pilot plot here, co-op monitored access there. Aiden's shoulders loosen; Priya's pen hovers, calculating legal language that could hold the pilot in place. The room leans in."
+
+    # --- merge ---
+    "..."
+    hide maya_kwon
+    show dr_elara_voss at right:
+        zoom 0.7
+
+    dr_elara_voss "Pilots are fine — provided they don't delay critical build windows or jeopardize funding. We need milestones."
+    "You name milestones: measurable ecological accrual, sediment capture rates, community labor commitments. The rhythm between you and Voss becomes less adversarial, more like two craftsmen arguing over the right seam: both want the structure to hold."
+    "You push further, letting grief sharpen into rhetoric that is quietly persuasive."
+    hide priya_anand
+    show maya_kwon at center:
+        zoom 0.7
+
+    maya_kwon "My parents' house didn't need a concrete band to remember what lived there. It needed space where the marsh could grow back. We can build defenses that don't erase the thing we're trying to save."
+    "Aiden reaches for your hand across the table in a brief, private reassurance. You don't look away from the projection — you let the contact anchor you. His fingers are warm; the gesture says: work, then everything else. It says: trust that you can hold both."
+
+    dr_elara_voss "And if the next storm outpaces modeled parameters? We can't gamble with Main Street because of sentiment."
+    "The claim hangs heavy. You don't deny seriousness; you accept it and then fold it into your plan."
+
+    maya_kwon "Then we account for it. We design nodes of engineered protection where absolutely necessary, and we let the marsh do the rest. We make the wall a tool — not the only tool."
+    "Priya nods, already calculating covenant language."
+    hide aiden_reyes
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "If we draft legal conditions that guarantee marsh restoration receives priority funding and if engineer's contracts include adaptive clauses for pilot outcomes, we can make this enforceable."
+    hide dr_elara_voss
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "And fishing corridors get guaranteed maintenance windows and access gates, with oversight by the co-op."
+    "Dr. Voss studies the exchange like an algorithm smoothing out into policy. The air tightens, then tilts toward possibility."
+    # [Scene: Public Hearing | Afternoon]
+    hide maya_kwon
+    hide priya_anand
+    hide aiden_reyes
+
+    scene bg ch11_e67f19_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs swell; the single mic squeals as someone adjusts it; applause breaks out and subsides with the ebb of speeches]
+    # [Smell: Dust, burnt coffee, the faint salt of damp coats brought in from the rain]
+    # play music "music_placeholder"  # [Music: Brass and percussion rise — urgent, buoyant]
+
+    "The hearing is a live wire. Faces you know — Lina, Mateo, small children with salt-scattered hair — press into the room. Someone is holding a hand-painted sign" "We Are The Marsh."
+    "You stand at the podium. Your notebook is closed in your pocket; your speech has margins of science and the center full of memory."
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "We are not choosing between coast and town. We are choosing a way to hold both, as one system."
+    "A woman from the back shouts about immediate safety. A man gestures angrily at projections. Voices cascade into a chaotic chorus; even in the noise, you feel hopeful: people are engaged, not resigned."
+    "Priya sits at the table with legal pads; she slides you a small stack of drafted covenant clauses — a private arsenal. Aiden takes the podium after you, and his speech is plain and immediate: work, nets, kids to feed."
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "If you build a wall that closes every channel, you take away more than water. You take the way people make a living. We need access points. We need a plan that doesn't make us strangers in our own harbor."
+    "The public shifts; murmurs soften into nods. Mateo stands slowly, voice like hoarse rope, and tells the oral history — where the marsh used to cradle boats like hands cradle a bowl."
+
+    "Mateo (Old Man Reyes)" "The marsh remembers how to keep people here. It also remembers how they forget. Don't let them forget this place is living."
+    "When Dr. Voss presents the worst-case swell simulation — the room goes still. The projection vaporizes the gallery into a storm, seawall against black water. It's a terrifyingly clear image. Structural engineers in the back of the room murmur approval; others in the crowd flinch."
+    "You do not look away from the projection. Instead, you step into the space the simulation opens and answer it with a new image: a mapped pilot site where cordgrass begins to knit the shallows together;"
+    "volunteers after a planting, boots muddy and laughing as nets are mended, children learning to count crabs."
+    "Your speech crescendos into actionables: pilot milestones, legal covenants, co-op oversight, and clear, timed checkpoints for any engineered interventions. The crowd listens, swelling behind you with a warmth that is not naïve but fierce."
+
+    menu:
+        "Challenge Dr. Voss's storm model publicly — demand transparency on assumptions":
+            "You step to the mic again and call for model transparency. The hall erupts; cheers and jeers tangle. Dr. Voss's team stiffens, but some engineers step forward to explain assumptions. The public shifts toward technical scrutiny."
+        "Show a short montage of community marsh work and ask for a vote to pilot immediately":
+            "You cue clips on the projector: volunteers, seedlings, sediment traps. The room fills with soft applause; hands go up for the pilot vote. It's momentum; it smells like fresh earth and possibility."
+
+    # --- merge ---
+    "..."
+    "You can feel the tide of public feeling turn into a current you can guide — not control, but steer. The very fact that people are arguing means they care. The energy is electric, terrifying, and, most important, constructive."
+    # [Scene: Council Chambers | Evening]
+    hide maya_kwon
+    hide aiden_reyes
+
+    scene bg ch11_e67f19_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Flash of camera phones, a single gavel rap, the whisper of pages turning]
+    # play music "music_placeholder"  # [Music: Climactic strings, fast and bright — a crescendo toward decision]
+    "Now the negotiation compresses into the legal and the financial. Cost projections sit next to grant timetables; the insurer speaks in clipped terms about 'acceptance thresholds.' You feel like a conductor with too many sections to balance: legal, engineering, community, economy."
+    "Councilor Tomas Hale speaks first, his tie oddly jaunty in a room full of earnest faces."
+    show councilor_tomas_hale at left:
+        zoom 0.7
+
+    councilor_tomas_hale "We need a decisive plan. Jobs, insurance, appearance of action — these matter to voters."
+    "You hold Priya's drafted covenant clauses in your mind and map them onto the council's appetite for decisiveness. This is where policy meets lived life."
+    show dr_elara_voss at right:
+        zoom 0.7
+
+    dr_elara_voss "You will have measurable pilot milestones. You will have legally codified protection language. But we must also secure the seawall to avoid catastrophic failure this decade."
+    "Your reply is not merely rhetorical. It is a stitch of science, law, and people's mouths you have seen open in the hearing."
+    show maya_kwon at center:
+        zoom 0.7
+
+    maya_kwon "We will accept strategic engineering where necessary, but only with binding protections: marsh easements, co-op oversight for access corridors, and an independent review board that holds funding until pilot milestones are met."
+    "Priya nods, whispering legal specifics that could render the agreement iron. Aiden adds practical clauses about maintenance schedules and co-op involvement. The council listens, pens moving."
+    "The room tightens around one last hinge: the allocation of power. Who will decide what 'necessary' means? Who will stand watch if the pilot fails, if a storm hits, if money pressures shift?"
+    "You sense the entire town teetering in that little word: necessary. It's a moral fulcrum as much as an engineering one. Your chest hums with the weight of your parents' loss, and that hum becomes a bright, steady chord."
+    "You close your hand around the multi-tool — your scarred fingers find purchase. The tremor in your hand is there, but it isn't collapsing; it's the high, precise vibration of someone on the brink of making something real."
+    hide councilor_tomas_hale
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "We can bind 'necessary' to objective triggers: water elevation thresholds, erosion rates, and independent scientific determination. That way, 'necessary' isn't a political whim."
+    hide dr_elara_voss
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "And we include community veto windows — scheduled checks where the co-op and volunteers can demand reassessment."
+    "Dr. Voss studies the clauses, the language, the timeline. For a beat she is unreadable; then she leans forward."
+    hide maya_kwon
+    show dr_elara_voss at center:
+        zoom 0.7
+
+    dr_elara_voss "Adaptive triggers and community oversight. Fine. But if we open too many vetoes, we risk losing the funding pipeline entirely."
+    "The room spikes. Everyone's voice tessellates into overlapping sentences — funding, legal teeth, livelihoods, ecosystems. The energy is high, crackling with possibility."
+    "You breathe in salt-damp air and let your grief transmute into strategic generosity. You remember the small luminous moments on the boardwalk: the thermos, Mateo's hand tapping the jar, Aiden's laugh that had the tension of relief. Those images push you to see beyond a binary choice."
+    "You feel the emotional arc build into a bright apex: not defeat, not capitulation, but a hard-fought possibility where engineering and ecology are braided together. Your heart thunders — not with dread but with the fierce, electric joy of a plan that could hold both the town and the marsh."
+    "The council leans back, waiting for your endorsement. The room narrows to a single point: your voice."
+    hide priya_anand
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "We can turn the next storm into a test of our resolve, not our surrender. But to do that, I need clarity on three things — legal protections for the marsh, guaranteed co-op oversight for access, and an independent review that keeps funding honest to outcomes. With those in place, I will stand with a phased engineering approach. Without them, I will not."
+    "Silence pools like tidewater. Then Priya gives a tiny, almost imperceptible nod. Aiden's fingers find yours beneath the table; the squeeze is both a plea and a promise."
+    "You are at the hinge. The very air thrums with the possibility of a new path — one that could reshape not just the shore but everyone's future."
+    # play music "music_placeholder"  # [Music: Climactic chord; the strings resolve into a bright, sustained note]
+    hide aiden_reyes
+    hide dr_elara_voss
+    hide maya_kwon
+
+    scene bg ch11_e67f19_4 at full_bg
+    "You steady yourself. This is the moment the town will read back later as the fulcrum between loss and resilience. Your breath is a long, sure line connecting past grief and future work."
+    "You feel the room incline toward your next word. But decisions this big do not belong to you alone — they belong to the town, to the law, to engineers, to fishers, to the marsh. You"
+    "can hold them together, if you choose a path. The choice you make now will send ripples outward."
+
+    menu:
+        "Expose technical uncertainties and rally a public marsh-first movement.":
+            jump chapter16
+        "Accept the engineered plan with strict legal constraints.":
+            jump chapter14
+        "Negotiate a funded hybrid pilot combining NGO funds, co-op oversight, and engineered supports.":
+            jump chapter18
+    return

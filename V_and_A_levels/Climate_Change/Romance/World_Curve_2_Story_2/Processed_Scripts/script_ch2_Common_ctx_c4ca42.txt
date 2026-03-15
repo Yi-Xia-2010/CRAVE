@@ -1,0 +1,170 @@
+### SCRIPT
+# Route: Cross-route Ending
+# Context: c4ca42
+
+[Scene: The Arbor | Late Morning]
+[Background:"ch2_c4ca42_1"]
+[Music: Warm, steady acoustic loop with light percussive taps]
+[Sound: Drip of condensation, distant gulls, a radio tuned low to a community station]
+
+You are at the long, scarred workbench in the Arbor. Seedlings crowd every possible surface—small green fists of life in mismatched pots and upcycled gutters. Your notebook lies open, seaweed pressed between pages like a slow tide. The air is humid and green: soil and wet burlap, a faint sweetness of compost under the sharper tang of salt.
+
+Your wristband vibrates against your skin. You flip up the tablet cradle and Dr. Naomi Park’s face fills the screen—sharp glasses, grey-streaked bun wound tight; even on video she looks like someone who keeps time with tides and spreadsheets.
+
+Dr. Naomi Park: "Mara. Sorry to interrupt your morning. Are you at the lab or the Arbor?"
+
+Mara Kestrel: "Arbor." (You tap the table to pull the laptop your way; the wood is warm where the sun hits.)
+
+Dr. Naomi Park: "Good. I need an urgent run on the estuary salinity models. The latest sensor cluster reported a pulse overnight—sharp spike across the south channel. If we don't map it against the tidal prism now, we lose a window to predict the intrusion."
+
+You feel the familiar slide of equations forming behind your eyes: nodes, boundary conditions, parameter uncertainties. The scientist in you sorts the problem into manageable pieces, impatient to begin. The community-minder in you feels the clock differently—people need pumps, nets, patchwork levees, and someone to show up with tools.
+
+Mara Kestrel: "How sharp are we talking?"
+
+Dr. Naomi Park: "Enough that the eelgrass beds on the south flats could be stressed if the intrusion persists. Naomi's voice softens—"I hate asking this, Mara, but can you prioritize a sensitivity iteration? I can push processing from here if you initialize the run."
+
+She waits—no flourish, just the professional quiet that means the data is already moving through her head.
+
+Mara Kestrel: "I can start it. Give me forty-five minutes for the initial grid, then I’ll hand it to you."
+
+Dr. Naomi Park: "Forty-five. Thank you. And Mara—watch the southern transect when you do your field checks. Your wristband logs might show micro-anomalies I can't see from the fixed stations."
+
+You close the tablet and set to work, but the bench is alive with voices and tools. Tess O'Malley appears in the doorway like a sudden gust—short red hair plastered to her collar from a misty walk, a council lanyard bright against her anorak. She carries a slim packet the size of a pamphlet and wears that look you know all too well: eager worry.
+
+Tess O'Malley [lowering her voice]: "Mara—sorry to drop in. Busy?"
+
+Mara Kestrel: "Always. What's up, Tess?"
+
+Tess O'Malley [lowering her voice]: "A council brief—leaked, if you want to be dramatic. Livia's proposal is on a fast track. There are private stakeholder meetings this week, some before the public notice goes up. I—" (she hesitates, hands folding like she's trying to keep something inside) "—I thought you should know."
+
+You feel the space between air and metal tighten. Fast tracks mean fixed decisions, and this town's history is full of fast tracks that left people out in the wet.
+
+Mara Kestrel: "How fast?"
+
+Tess O'Malley [lowering her voice]: "They've scheduled a sponsor pitch for Thursday, and there's talk of bringing in outside contractors to fast-deploy sections of the barrier. It's…moving quicker than anyone expected. I don't know if the council will rubber-stamp it, but Livia's got momentum."
+
+Tess's eyes search yours for a reaction. On the bench, Elias 'Eli' Rowan is soldering something that smells faintly of ozone; Rafi's coffee steams nearby. Your hands hover over your notebook, between pressed seaweed and a tide-chart page gone soft at the edges.
+
+Elias 'Eli' Rowan: "Speaking of moving fast—want to see something? I finished a compact harvester prototype. Light enough for one person to position, heavy enough to hold under a spring tide."
+
+[Background:"ch2_c4ca42_2"]
+
+Elias 'Eli' Rowan: "It could feed small fish farms and power rooftop pumps. If we spool a few of these along the channel, they might keep the micro-lifts running even during high water."
+
+You run gloved fingers along welded seams, feeling the heat of recent work. The engineer in Eli speaks in gestures and solutions; your immediate brain catalogues potential failure modes: biofouling, drag coefficients, maintenance load.
+
+Mara Kestrel: "It's promising. What's the torque on that rotor at three-knot flow?"
+
+Elias 'Eli' Rowan [grinning, pleased you asked]: "About—" (he says a number, then checks a scribble on his notepad) "—enough to turn a micro-generator. I've got a mounting idea that won't need cranes. We could prototype a line in a weekend."
+
+He looks at you as if the plan is already a shared map. His gray-blue eyes are open and steady.
+
+Elias 'Eli' Rowan: "We can test it today if you want."
+
+A small warmth rises in your palm where his glance lands; his elbow brushes yours. His hand finds yours briefly—not a gesture saturated with history, but steadying. The contact is soft and quick, a human cable across a table of tools.
+
+Mara Kestrel: "Later. I need Naomi's run started and a field reading before we deploy anything upstream. The models will tell us where to place tests so we don't stress the beds."
+
+Elias 'Eli' Rowan [a flicker of disappointment, quickly replaced by his trademark optimism]: "Okay. Models first. Then we build. That's a good order."
+
+[INTERACTION]
+> Choice A: "Start Naomi's model now, alone"
+> Choice B: "Ask Eli to help set up the model, then head to the tide line together"
+[Outcome A: "You close your notebook, set up the initial grid, and let the early iterations unwrap. The familiar rhythm of numbers calms you; you like seeing patterns take shape."]
+[Outcome B: "You gesture for Eli to bring his spare laptop. He props the harvester beside the tablet and, with a hack of humour, inputs boundary conditions. The two of you fit into a quick, efficient rhythm—hands and minds working together."]
+[MERGE: You decide in a breath to split the difference: you pull the laptop into the sun and start the grid while Eli boots a secondary device to carry to the field. Rafi offers a wry whistle.]
+
+Rafi Gómez: "That's the only way this place runs—people doing two things at once."
+
+The bench chatter dissolves into the practical noise of an Arbor: metal clinks, muted laughter, and the intermittent beep of your wristband as it samples the air. Thirty minutes feels like both an instant and a lifetime of small decisions.
+
+[Scene: Tide Line | Early Afternoon]
+[Background:"ch2_c4ca42_3"]
+[Sound: Water lapping, distant hammering as a pier is repaired]
+
+You walk the tide line with Elias 'Eli' Rowan and Rafi. The sky is a pale, low bowl that keeps the sound close. The tide is out enough to reveal mud and the pale, trembling of roots. Your wristband chirps when you dip it into the shallows; a small readout blooms on your wrist—pH, conductivity, micro-sediment turbidity. You scribble numbers with a pen that smells of salt, the page shaking in your hand.
+
+Mara Kestrel [thinking]: "The south channel is the town's pulse. If salt pushes in, the pulse changes. We won't notice immediately, but ecosystems will."
+
+The wristband ticks again. A small anomaly blinks in the conductivity stream—slightly elevated in narrow pockets near a collapsed jetty. You circle it on the map and mark a transect.
+
+Rafi Gómez: "You kids remember the night the old boardwalk came apart? I was here then. Looked like a curtain call—boards popped up and the whole thing folded like theater scenery."
+
+He squints toward a ragged half-plank still clinging to rusted bolts.
+
+Rafi Gómez: "Felt wrong that night. Sounded wrong. People talk about losing things twice—first the wood, then the memory. We don't want that here again."
+
+You listen to him, and the memory he hands you isn't just his: it's a town memory that warms and stings. It makes your hands tighten on the clipboard.
+
+Elias 'Eli' Rowan: "If we place a string of harvesters along that stretch, we could reduce flow energy in those pockets and give the beds time to recover. They could act like living breakwaters—modular, replaceable, community-maintained."
+
+You and Elias 'Eli' Rowan discuss placement—lengths, moorings, how to avoid scouring eelgrass. Your voice is low; you both know the models will refine his instincts if you run them properly. But there's momentum in his plan that could be used now, in a weekend, to show people a tangible option.
+
+Tess's warning replays in your head. Naomi's urgent tone hangs there like a map with a missing key. The town is all at once buoyant—hands ready and ingenuity bubbling—and fragile: a policy decision could rearrange everything.
+
+[INTERACTION]
+> Choice A: "Encourage Eli to set up a quick pilot at the pocket now"
+> Choice B: "Insist on finishing the model run before any deployment"
+[Outcome A: "You nod to Eli. He grins, quick and relieved, and together you haul the module into the shallows. It squeaks and bobbles, then settles, bearing its first pull. The community around you notices; a small crowd forms."]
+[Outcome B: "You shake your head and point to your wristband readouts and the transect map. Eli studies the data, smiling ruefully, and agrees to wait—he trusts you. The weight of delay presses against the excitement, but an order settles: model, then build."]
+
+The walk bends toward the broken promenade. You pause at the jagged line of ruined planks—their edges still sharp, paint flaked and weathered to a tooth. Salt-water algae glints. For a moment you imagine the boardwalk whole again: children running, a vendor hawking grilled fish, old men with nets—simple choreography of a place not yet lost.
+
+[Scene: Tidewatch Lighthouse & Rooftop Garden | Mid-Afternoon]
+[Background:"ch2_c4ca42_4"]
+[Sound: Low hum of a distant generator, Grandma Hira's humming like a thread under everything]
+
+You climb the lighthouse, boots squeaking on the wet stairs. Up top, the rooftop garden smells of brine and basil, rainwater pooled in clever catchment channels. Grandma Hira is there, stooped but steady, hands planting a salt-tolerant herb in a reclaimed trough. She hums a lullaby you know from childhood—old cadence, older than the town's most recent storms.
+
+Grandma Hira [softly, eyes on the plant]: "You keep the roots and you feed the rest, child. That's how we've done it for years."
+
+You sit beside her on the planter edge. Her hands are warm, knobby with age but decisive.
+
+Mara Kestrel: "We have a lot to do."
+
+Grandma Hira [softly, eyes on the plant]: "You always did, Mara. The sea gives, the sea takes. We choose what we keep. We choose who we help."
+
+Her words are simple and cut clean. They are not a solution but a lodestar.
+
+Elias 'Eli' Rowan joins you, his jacket dusted with mud. He watches you both, like someone taking a breath before stepping in.
+
+Elias 'Eli' Rowan: "You okay?"
+
+You glance at him. His face is open—no grand pronouncements, only a readiness to be involved.
+
+Mara Kestrel: "I am. Fractured, maybe. Energized. Worried." (You let the last word hang between you, a tide-mark on the air.)
+
+He reaches for your hand again, this time a little longer. The contact is quiet and anchored. You laugh—a small thing that tastes of tidewater, as if salt lodged in the throat of the laugh itself.
+
+Elias 'Eli' Rowan: "Then we'll fix what we can. Model where we must. Build where it's safe. And sing if Grandma Hira insists."
+
+Grandma Hira presses the plant into the soil, then looks at the three of you with a humor that makes the lines around her eyes deepen.
+
+Grandma Hira: "Sing."
+
+For a breath the rooftop garden feels like a small, fragile country: plants, patched glass, a handful of people making promises by the simple work of hands.
+
+You return to your notebook later, transcribing field numbers into a rough map. The model you started churns in the background; Naomi's voice echoes in your head—"watch the southern transect." Tess's whisper about the council lies over it like a second map. The data show micro-anomalies; the political calendar shows acceleration. Two different kinds of pressure—scientific and civic—are converging on the same fragile coast.
+
+A small knot of urgency tightens in your chest. Not panic; not triumph. Just the clear awareness that the town's next moves will be decided soon—and someone needs to be deliberate when decisions are being rushed.
+
+You close the notebook and feel the sun warm your palm. Around you, the town is alive in ordinary, extraordinary ways: a neighbor hauling a plank, a child learning to tie a knot, Elias 'Eli' Rowan tinkering with bolts. There is hope in hands; there is policy in rooms you cannot enter without notice.
+
+You breathe, taste of salt and compost, and look at the town below. Decisions are coming. The models will help. The harvesters might help. Livia's proposal will move whether you like it or not.
+
+The page turns under your thumb.
+
+[Background:"ch2_c4ca42_5"]
+[Music: Ambient swell that hints at movement—a gentle increase in tempo]
+
+There is work to do.
+
+[Background:"ch2_c4ca42_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: [3]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

@@ -1,0 +1,234 @@
+label chapter15:
+
+    # [Scene: Saltway Boardwalk | Dawn]
+
+    scene bg ch14_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant notification pings layering into a rising tide; gulls cut through]
+    # play music "music_placeholder"  # [Music: Rapid, tense strings—an insistent pulse]
+    "You wake to a river of messages. Jun's release has landed like a dropped stone: threads, clips, threaded transcripts. The headlines are blunt and clinical—'VossCorp Ethics Probe'—but the body of it is softer and sharper: witness"
+    "notes, internal memos, captions you and Jun spent nights collating. Your phone is warm in your palm; the battery holds because of the little solar pin at your lapel. You read the first lines again, like"
+    "tasting something bitter you already know."
+    "You smell coffee and wet wood through the open door of the Ferryworks. The lab smells like solder and soil, and someone—Ori, probably—has left a thermos by the workbench. Your sea-glass bracelet feels cool under your"
+    "palm; the beads click once, a small reef-sound when you flex your hand. There is a brief, ridiculous urge to braid the whole neighborhood into something as steady as those beads."
+
+    scene bg ch14_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A dozen distant shutters; an officious ringtone]
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "They picked it up in three networks. It's bleeding into international feeds. Ethics committee called an emergency session. They're subpoenaing the board. Calder's—"
+    show ava_maren at right:
+        zoom 0.7
+
+    ava_maren "Where are you?"
+
+    jun_park "City Hall. Waiting room's packed. Cameras like blind seagulls. Come on, Ava."
+    "You thumb the binder on your lap, feel the edges of the compiled evidence—hours and months of neighborhood memory and recorded meetings and Old Mara's trembling confirmation of what you already feared."
+    "Everywhere the air tastes like salt and adrenaline."
+    hide jun_park
+    hide ava_maren
+
+    scene bg ch14_3be532_3 at full_bg
+    # play music "music_placeholder"  # [Music: Percussion accelerates, heartbeat doubling]
+    "You move through the crowd with a practiced gait: steady hands. People glance up and find their faces in feeds; someone cries, another laughs, the sound of it a single, fractured note. Maya steers a cluster"
+    "of elders toward the municipal shuttle with that quick, protective bustle she has. You keep your steps measured so you don't carry someone else's panic into the room."
+
+    menu:
+        "Take Jun's recorder and lead with the transcripts":
+            "You tighten your grip on the recorder. Jun nods over the roar—'Do it. Start with the memo.' You stand, voice steady but sharp, and the first clip plays like seawater poured into a glass—clean, undeniable."
+        "Let Jun present; you keep the witness line":
+            "You slide back, allowing Jun to shoulder the public arc. He meets your eyes, grateful. You prepare your testimony instead, rehearsing not words but the weight they will carry."
+
+    # --- merge ---
+    "The crowd parting and the movement toward City Hall continues; the next scene proceeds to the hearing."
+    # [Scene: City Hall — Ethics Committee Hearing Room | Midday]
+
+    scene bg ch14_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Camera shutters, whispered off-camera talk, the clack of a gavel that isn't yet used]
+    # play music "music_placeholder"  # [Music: Low brass and string tremor—a coiled tension]
+    "They herd you into a room that smells of disinfectant and fear. The committee sits like a long, neutral tide: chairs in a line, faces carved into polite concern. Calder Voss is there—pale gray eyes that"
+    "appraise as if measuring metal. He smiles thinly at a counsel and folds investor memos with a practiced wrist. He looks unbothered in a way that makes your chest ache."
+
+    "Jun's evidence is queued—transcripts, timestamped audio, an engineer's note with a casual phrase that reads like a verdict when put in context. The city clerk taps a console and the videos flick to life. For a second, your throat closes at the hum of your own name in the preface to a clip" "Witness: Ava Maren."
+    "You sit, bracelet clutched in the corner of your palm like a talisman. The beads press into the skin when your fingers close around them, and Old Mara's voice—'Remember the tide tells every truth'—floats up from some worn place inside you."
+
+    scene bg ch14_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Recorded audio plays—a meeting intercut with laughter and an offhand line about 'cutting corners'—the room inhales as the truth lands]
+
+    "Clerk" "Will the witness please state her full name for the record?"
+    show ava_maren at left:
+        zoom 0.7
+
+    ava_maren "You—Ava Maren."
+    "The pronouncement is small and flat. Your voice coils and springs out, precise because it's practiced. The first question comes soft, legal, asking you to summarize your involvement. You answer with a map of days and"
+    "designs, of meetings at stained tables and improvised anchors. Each sentence builds the geography of why Saltway exists and why you fought."
+    "Calder leans forward when it's his turn."
+    show calder_voss at right:
+        zoom 0.7
+
+    calder_voss "Ms. Maren,"
+
+    calder_voss "Is it not true your presentation is, at its core, a negotiation—an appeal for tenure, funded and framed by selective community testimony?"
+    "You feel something hot flare—less anger than a raw, exposed seam. 'It is an appeal,' you say. 'For people who are still here. For lives that are not abstractions on a balance sheet.'"
+    "He tilts his head like an investor with an unreadable ledger. 'And yet you withheld certain alternative solutions from voters in the quarter, did you not? Prototypes—proprietary designs—not disclosed.'"
+    "The room tightens. Counsel interjects; Jun's jaw thins. You hear the thread of the accusation—omission as manipulation—and you remember the Schrödinger of our pasts, the things you could not or would not yet reveal. Your answers"
+    "are careful scaffolding. You say what you must: about trials and prototypes and the reason you chose collective proof over secrecy. You do not speak of every late-night fix, of the secret models you'd tested with"
+    "Ori under the Ferryworks' belly. Those things flicker in your chest like small private beacons; they are not part of this record."
+    hide ava_maren
+    hide calder_voss
+
+    scene bg ch14_3be532_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low murmur—somebody in the gallery sniffles; someone laughs too loudly]
+
+    "Counsel (Calder's)" "Ms. Maren, were you aware of investor concerns about scalability? That public opposition could slow an enterprise such as VossArc, placing thousands at risk by delaying systemic protections?"
+    show ava_maren at left:
+        zoom 0.7
+
+    ava_maren "We were aware. We were aware that centralized plans mean centralized power. We were also aware that displacement breaks people in ways a levee cannot knit back together."
+
+    "Calder's stare is a clinical question. Calder Voss" "You'd trade efficiency for sentiment?"
+    "You feel the room tilt. Cameras find your face. For a heartbeat the world is compressed to the click of shutter and the weight of your bracelet. The hearing becomes a pulsing wound of public scrutiny."
+
+    ava_maren "I will not reduce people's homes to variables on a spreadsheet."
+    "The exchange is sharp and long. Calder circles his arguments like a patient predator, each premise polished. You parry with memory—names, quotes from Old Mara, the smell of wet wood after the last storm. You speak"
+    "of tenure and continuity; he speaks of returns and timelines. Jun interrupts once, a factual correction that punctures a rhetorical pivot. Maya's eyes anchor you from the gallery, her jaw set like stone."
+    # play sound "sfx_placeholder"  # [Sound: A gavel bangs as another witness is called; the room escalates—voices overlap]
+    # play music "music_placeholder"  # [Music: Crescendo—strings and brass clash into a high, painful peak]
+    "At the hearing's peak, Jun plays a clip—an internal memo where VossCorp engineers discuss a 'fast timeline' and an 'acceptable attrition rate.' The phrase lands like a stone. You watch the room break open: murmurs, a"
+    "camera leaning in, Calder's color stealing out of his cheeks. He recovers, voice smooth, calling context and semantics, but the seed of doubt has already been planted."
+    "You testify about the first family removed last month—how they had put up shutters and boxes; how a contract with relocation clauses had been signed in a language some didn't read. Your words catch on the"
+    "edge of grief. The committee presses, not with malice but with the mechanistic hunger of procedure. They ask if you want to pursue claims. You are exhausted and incandescent all at once."
+
+    menu:
+        "Speak plainly about the family taken last month":
+            "You give a name and a timeline. The clerk scribbles; there is a sudden hush as the committee records the human toll. Cameras tilt toward the empty house on the screen."
+        "Keep specific names out of official testimony":
+            "You choose privacy—some hurts are not for the record. Jun takes a small, sharp breath but nods; he will pursue the story where a court record cannot."
+
+    # --- merge ---
+    "The committee proceeds; subpoenas and a freeze on the flagship project are announced later in the day."
+    "By evening the committee announces subpoenas and a freeze on the flagship project pending investigation. It's a public victory that tastes like iron. There are cheers on the boardwalk; there are also quiet, stunned faces where families have already been moved. The freeze buys time, not guarantees."
+    # [Scene: Saltway Community Hall | Dusk]
+    hide ava_maren
+
+    scene bg ch14_3be532_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The low chatter of volunteers; the kettle hissing; the distant drone of a news helicopter]
+    # play music "music_placeholder"  # [Music: Slow, insistent cello—grief-laced restraint]
+    "Back at the hall the neighborhood collates wins and losses. Mayor's aides issue a joint statement: temporary protections, a committee to oversee maintenance, clarity on tenure. In the same breath, private contracts for maintenance are hinted at—language about 'efficiency partners' and 'performance clauses.' Investors circle like birds."
+    "Maya pulls you aside. Her face is smooth but there is a tremor in her voice. 'They'll privatize maintenance if we let them,' she says. 'They build the structure, we run it—on their terms.' She rests a hand briefly on your shoulder, a touch that says: we need you."
+    "You are asked, in formal language, to consider a civic leadership role: a council-appointed position to shape adaptation policy and oversee the new framework. It is an honor cast in the vocabulary of obligation. You feel it like a tide moving in—heavy, unavoidable."
+    "You look at the list of moved families that Jun compiled—names, addresses, boxes still on curbs. Your hands are steady until they are not. Old Mara sits quietly in the corner, fingers counting beads. 'The law can be mended,' she says softly, 'but not without hands to sew.'"
+
+    menu:
+        "Accept the civic role publicly":
+            "You imagine the shape of policy translated into neighborhoods rather than profit margins. Maya squeezes your hand. Your voice is tired but resolute as you say yes into the room."
+        "Ask for time—refuse to decide tonight":
+            "You ask for time. The room tightens; offers of interim leadership are thrown like ropes. Ori takes you aside and holds your gaze—his expression too full of things unsaid."
+
+    # --- merge ---
+    "The community meeting disperses with provisional agreements; later that night you meet Ori at the Ferryworks."
+    # [Scene: Ferryworks Dock | Night]
+
+    scene bg ch14_3be532_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The whisper of tide against hull; a distant crowd receding; a single radio murmuring updates]
+    # play music "music_placeholder"  # [Music: Sparse piano notes, then rising—urgent and intimate]
+    "You find Ori on the ferry, weld marks on his hands, a coat flung across a crate. He is smaller than the headlines that name him a creative ally—his shoulders hunched with the weight of all"
+    "the projects that never made it past a prototype. He looks at you like someone measuring the depth of the sea before diving."
+    show ori_navarro at left:
+        zoom 0.7
+
+    ori_navarro "You did it."
+
+    "You" "We did it. Jun did it. The committee froze VossArc."
+
+    "He inhales sharply. Ori Navarro" "It's a freeze. A pause. That's different than justice, Ava."
+    "His hand finds yours across the bench; your fingers curl reflexively. For a moment you let the sound of the hull and his breath fill the gap between words."
+    show ava_maren at right:
+        zoom 0.7
+
+    ava_maren "You want to leave?"
+
+    ori_navarro "I—' He interrupts himself with a laugh that is too thin. 'I have routes already planned. There are quarters that need prototypes, models that need seeding. I thought staying here would be enough—building with you would be enough of an anchor. But the scale of what we need isn't always here. Sometimes you have to ferry the seed to another shore."
+    "His eyes find yours. They are tender and bright and full of an ache you have learned to read. 'I don't want to be the reason you stay or go. I want to be the reason we grow. But my method is messy. I run. I make. I leave traces.'"
+
+    ava_maren "That's a reason."
+    "The sentence is simple. It is also a wound. In the metallic light of the Ferryworks his decision becomes an axis: a personal truth that refracts into public consequence. You argue—not loudly, but pointedly—about commitment, about responsibility, about whether seeding in scattershot is as useful as consolidating protection here."
+
+    ori_navarro "We teach other neighborhoods how to hold. We don't have to be here to matter."
+    "You hold the model; it's familiar and fragile. You think about the families already moved, the clause-laden contracts, the privatized maintenance inked before a single seawall took root. You think of Old Mara's hands, of Jun's"
+    "late nights, of Maya's ledger face. Your heart races in staccato—the kind of panic that comes from too many things asked of a single pair of shoulders."
+    "The conversation cycles: tender, sharp, unresolved. You both return to the same ache—love braided with public duty. There is no neat compromise, only choices that ripple outward."
+
+    ori_navarro "I can't promise you'll never feel abandoned. I can't promise I'll be here every day. But I can promise I'll come back with more that sticks. Let me go seed. Let me return."
+
+    "You stare at the promise like measuring wind. Your own voice shakes when you answer. Ava Maren" "Promise isn't a substitute for presence."
+
+    "He laughs, not humorously. Ori Navarro" "No, it's not. I'm broken at that seam. But I love you enough to know staying could break you in a different way."
+    "Silence presses; the ferry creaks. Somewhere in the distance a spoken update announces another committee sub-committee; policy language unfurls on a screen in a municipal room you both have only glimpsed. The city's reforms are becoming legislation even as lives are rearranged by contracts and temporary protections."
+    "You think of the kind of future you can build from the mess: policy that preserves tenure but invites private maintenance; a city that calls it resilience but charges for upkeep. You think of the families whose boxes are already gone and the ones whose doors still stand."
+    hide ori_navarro
+    hide ava_maren
+
+    scene bg ch14_3be532_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Tide, a distant mutter of a helicopter, a soft intake of city-breath]
+    # play music "music_placeholder"  # [Music: Slow, aching strings that fold into a single long note]
+
+    "Ori Navarro stands slowly. He presses his forehead to yours for a moment—brief, intimate—then backs away with the quiet of a man who has decided. Ori Navarro" "I'll go. I'll seed. But I promise to come back differently. If you let me."
+    "You feel a small, sudden collapse and then a steadier resolve build beneath it. This is not abandonment, you tell yourself; it's a redirection. Love does not always look like shared mornings or a shared address. Sometimes it looks like mutual scaffolding."
+    "You say nothing for a long minute. Finally, you nod. The nod is not a seal; it is a compromise at the level of breath. It is enough and not enough—like most hard things."
+    # [Scene: Saltway Boardwalk | Night — Later]
+
+    scene bg ch14_3be532_10 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A solitary gull; the soft clink of your bracelet as you walk]
+    # play music "music_placeholder"  # [Music: Minimal piano, a quiet, resigned cadence]
+    "The next days unfold with legal hearings, council meetings, and press conferences. VossCorp's board faces subpoenas; Calder's image on the screen is chastened. He issues a statement—formal, contrite—and announces an internal overhaul. Publicly he alters course; privately investors grumble, and privatized maintenance clauses proliferate like hairline cracks."
+    "Temporary protections are negotiated for Saltway: tenure guarantees for residents who register, emergency funds for urgent repairs, a council seat created (with strings attached) to oversee adaptation policy. You are offered that seat in an official"
+    "capacity—an attempt at centering community expertise inside an institutional frame that smells faintly of compromise."
+    "You accept. Not because the terms are perfect—they are not—but because someone has to be there to push the seams open from inside."
+
+    scene bg ch14_3be532_11 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Camera flashes, muted applause; a child's laugh offscreen]
+    # play music "music_placeholder"  # [Music: Subtle trills, a note that holds tension even in ending]
+    "But acceptance comes as cost. The role compresses your life into meetings and minutes. You live now in the hinge between neighborhood clay and municipal steel. You are lauded one moment in the hall, haunted the"
+    "next by a text with a photo of another family's emptied doorway. You sleep less. You mourn more. The city reforms in law but people's lives rearrange in ways law cannot fully mend."
+    "Ori leaves with a bag of prototypes and a promise. You watch the ferry push off—his figure small against the final light. You wave until your hand hurts."
+    "He turns once and holds up a reclaimed circuit charm—his personal signal. You clutch the sea-glass bracelet at your wrist until your knuckles pale, and then you let your hand fall. The world hums with consequence."
+
+    scene bg ch14_3be532_12 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The quiet rhythm of hands at work; a child humming a tune that used to be sung at the pier]
+    "Weeks pass. Jun's reporting continues to unspool corporate compromises and loopholes. Some of the early protections hold; others fray under budget pressures. VossArc's flagship literal arc freezes mid-construction, cranes idle like exhaled syllables. Calder's personal consequences"
+    "are real—reputational, legal; his rhetoric softens publicly into a language of concession. But the social fabric has been stretched thin: neighbors who once spoke daily move to distant blocks; youth apprentices like Silas split between staying"
+    "and following Ori's itinerant workshops."
+    "Ava Maren—You—become both public figure and neighborhood daughter. People thank you, complain at you, beg you, and on some nights, deliver stew and sit in the dark with you while you catch your breath."
+
+    scene bg ch14_3be532_13 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A wind that carries both salt and a new bureaucratic smell—paper, toner]
+    # play music "music_placeholder"  # [Music: A bowed instrument sustains—a melancholic threading of notes]
+    "You stand at the water's edge and roll the beads of your bracelet between your fingers. Each bead is a small history: the first flood, a gallery of salvaged tiles, a child's laugh. The city changed"
+    "underweight and law, and under the pressure of media and courtrooms you found a professional body you didn't know you wanted: you now hold a seat where you can stitch policy to people instead of letting"
+    "profit dictate the seams."
+    "It is a different kind of hope—tempered, weary, practical. You mourn what was moved and you tend to what remains. You call Ori when you can; his messages arrive with photos of other neighborhoods, sketches, and"
+    "a voice that is lighter at times, cracked at others. You send him plans, and sometimes he sends back a small model or a seaglass charm. Your love persists, altered into a public partnership threaded across"
+    "distances."
+
+    scene bg ch14_3be532_14 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The tide's slow, indifferent language]
+    # play music "music_placeholder"  # [Music: A restrained piano chord—an echo of both grief and resolve]
+    "In the quiet that follows the clamor, you realize the victory was not the silencing of a corporation or the full undoing of displacement. It was the carving out of a space—legal, civic, and stubbornly human—where"
+    "Saltway could argue for its own right to be. Where your voice and Jun's reporting and Maya's ledger and Old Mara's memory all braided into something policy had to reckon with."
+    "You think of the future as a map with shaded regions: gains and losses, protected plots and rent-stamped margins. You will keep working inside the confusing machinery because without someone inside to press, the machine will fold its own efficiencies over people again."
+    "You look up as a small group on the boardwalk raises a banner—'TENURE NOT TOKEN'—and you let yourself stand with them. The banner flaps, tired but resolute."
+
+    scene bg ch14_3be532_15 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, sustained note—melancholic but steady]
+    "This is not an ending of the world. It is an ending of a chapter: messy, bureaucratic, humane in parts and compromised in others. You have what you fought for in law and memory, and you"
+    "do not have everything you wished. Love survives, but altered; the neighborhood persists, but patched. The experiment of community-led resilience lives on in practice, and in policy it will be imperfect."
+    "You take a breath and tuck your sea-glass bracelet under your sleeve—the talisman and the ledger, both—with hands that will keep sewing."
+
+    scene bg ch14_3be532_16 at full_bg
+    # play music "music_placeholder"  # [Music: The single sustaining note resolves into silence]
+
+    scene bg ch14_3be532_17 at full_bg
+    "THE END"
+    # [GAME END]
+    return

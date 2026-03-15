@@ -1,0 +1,193 @@
+label chapter10:
+
+    # [Scene: Mariselle Boardwalk | Late Afternoon]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, steady pulse — mid-tempo]
+    # play sound "sfx_placeholder"  # [Sound: Seagulls calling; distant murmur of gathered people; camera shutters]
+    "You stand where the planks slope toward the sea, the Moleskine tucked against your ribs like a small, private anchor. The crowd is a textured thing: paint-splattered jackets, sun-darkened faces, a child's pink wellies half hidden"
+    "under an adult's coat. The air tastes sharply of brine and cold metal from camera rigs. Salt stings the back of your throat when you breathe deep; your lungs make the motion feel heavier than it"
+    "looks."
+    "Sora Watanabe is at your left, shoulder set close enough to catch any stumble. Maya is a few paces behind, arms folded around a thermos, eyes missing nothing. Dr. Noor stands nearer the podium, expression complex"
+    "— not openly encouraging, but not forbidding either. Lina is visible across the plaza, hands folded, face carefully neutral; Ephraim, gaunt and dry as driftwood, is flanked by lawyers and a few rigid men who look"
+    "like they were made to stand still."
+    "Your fitness-watch vibrates against your wrist, a quiet percussion that you ignore the first two times. When it buzzes again, you glance down: an unnamed 'URGENT' comes and goes in a blink before you thumb it away. Alerts can wait. This moment cannot."
+
+    "You put your palm on the podium's edge. The wood is rough and cold; salt has left a faint white bloom in the grain. You hear a reporter's voice clear like a bell" "Ari Navarro will address the documents released today. We'll take questions afterward."
+    show sora_watanabe at left:
+        zoom 0.7
+
+    sora_watanabe "When you call them out, speak to the faces, Ari. Not the money. People remember who's at the losing end."
+    show ari_navarro at right:
+        zoom 0.7
+
+    ari_navarro "I know."
+    "Your voice is quieter than you expect, but it holds."
+
+    ari_navarro "They need the facts more than theater."
+
+    sora_watanabe "Then make the facts impossible to ignore."
+    "You flip the Moleskine open and feel the small tremor in your index finger — not from fear, but from the weight of consequence. The documents are photocopies of contracts, redacted drafts, and ledger lines showing"
+    "preferential clauses. They are not dramatic; they are a cold, bureaucratic betrayal, and that is exactly why they will hurt."
+
+    menu:
+        "Adjust the stack of documents to show a highlighted contract":
+            "You pause, slide the top sheet forward, revealing the clause you want photographed. A camera angle shifts; a reporter murmurs, and a ripple goes through the crowd."
+        "Tuck the documents back and look to the crowd instead":
+            "You close the book with a soft clap. Eyes meet eyes instead of paper. The crowd waits, and for a breath there is only human focus."
+
+    # --- merge ---
+    "The narrative continues."
+    hide sora_watanabe
+    hide ari_navarro
+
+    scene bg ch10_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low murmur lifts as you clear your throat; the pulse in the music tightens a fraction]
+    "You start with the slow, precise layout you trained yourself to trust. You do not grandstand. You name dates, contracts, clause numbers. You read a line about preferential access to municipal bidding processes and then another"
+    "about non-competitive procurement clauses. Your voice does the work of translation — dry legalese into plain consequence — and people lean in as if each sentence is a small, necessary bridge."
+    show ari_navarro at left:
+        zoom 0.7
+
+    ari_navarro "These are not alleged mistakes. They are patterns. When private capital is allowed not only to build but to define the terms of 'resilience' — when profit dictates which streets are fixed and which are left to wash away — the consequences are human."
+
+    "Sora Watanabe shifts beside you, picking up the cadence like a chorus. Sora Watanabe" "We have testimonies from the Old Harbor residents who were guaranteed protection in exchange for relinquishing rights. We have invoices that line up with accelerated approvals. This is not happenstance."
+    "A reporter, camera light angling to catch your jaw, asks, 'What do you want the council to do right now?'"
+    "You close the Moleskine for a second; the paper sounds like a small, bookish exhale. The answer is procedural and sharp."
+
+    ari_navarro "Impartial investigation. Immediate injunctions on the projects linked to these contracts. Transparency measures for all procurement moving forward. And a community oversight panel with real veto power."
+    "Murmurs rise and fall like the sea. Someone chants; the chant is low and then grows. You can feel the boardwalk vibrate under your boots. You are not naive — you know injunctions ripple into supply"
+    "chains, into payrolls, into roof repairs and critical parts for pumps and desalination equipment trained to keep neighborhoods alive — but the alternative is a slow hollowing out of civic trust, an allowed rot that will"
+    "cost more later and in different ways."
+    # play sound "sfx_placeholder"  # [Sound: Your fitness-watch vibrates again; this time a message bleeds through. You glance: the name "Noor" flashes.]
+    show dr_noor_patel at right:
+        zoom 0.7
+
+    dr_noor_patel "Ari—publicly, yes. But quietly, prepare contingencies. Cutting funding too fast without alternate routing could starve essential supply lines. Litigation slows, but storms don't."
+
+    "You hold Dr. Noor's warning like a pebble in your mouth: small, improbable to swallow whole, but impossible to ignore. Dr. Noor steps closer, voice now under the hubbub. Dr. Noor" "Coordinate with Maya and desal teams. Prioritize critical spares. If the injunctions trigger a halt, we need an operational plan that keeps life-support systems running."
+
+    "Maya weaves through the crowd with a board of volunteer lists, her voice precise, unfussy. Maya Cruz" "I'll reroute the co-op's manifests. Wetland plugs, nursery plugs — whatever the permits stop, we'll prioritize emergency kits and critical seed stock."
+
+    "A heavyset man in a tailored jacket — one of Ephraim's legal counsels — moves forward as a wedge. He speaks with measured menace: Counsel" "You'll face serious legal repercussions for publicizing proprietary documents. You could be liable for libel and breach."
+    "Ephraim's mouth is an unreadable line, but the men at his flank do not feign invisibility — they are visible and present like a threat's silhouette."
+    "You answer not with heat but with the steady focus you learned in labs and fieldwork."
+
+    ari_navarro "We stand by our evidence. We stand by our witnesses. If the law is weaponized to silence truth, we will meet the law with clarity. This town is not a ledger to be balanced on someone's bottom line."
+    show sora_watanabe at center:
+        zoom 0.7
+
+    sora_watanabe "And don't pretend this is about 'development' when it's about who gets to decide who stays."
+    "There is a staccato of shouting — supporters, detractors — and a camera's microphone picks up the rise. For a beat, the world narrows to the taste of rain, the weight of the podium, and Sora"
+    "Watanabe's hand briefly finding yours — a quick, fierce squeeze behind the lectern that says more than any public statement could."
+
+    menu:
+        "Squeeze back at Sora and keep speaking":
+            "You press your palm into Sora's when your hands meet; the contact steadies you. You return to the microphone and continue, words measured and certain."
+        "Step aside and hand the mic to Sora":
+            "You slide aside. Sora takes the microphone and the crowd leans into them like a held breath; their voice flares with righteous heat and the plaza answers with a roar."
+
+    # --- merge ---
+    "The narrative continues."
+    hide ari_navarro
+    hide dr_noor_patel
+    hide sora_watanabe
+
+    scene bg ch10_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A public-address voice ordering dispersal — neutral, metallic]
+    "It happens faster than you allow in your head. Legal papers are filed within hours. Private security begins to patrol the edges — not in riot gear yet, but in body-language that implies escalation. News cycles"
+    "latch on: headlines blink about 'Allegations' and 'Community Dispute.' The Old Harbor's storefronts — half-submerged and already a tableau of loss — vibrate with a new kind of exposure. Workers with clipboards walk through the district"
+    "counting and noting. Where they look, haggard shopkeepers glance back with suspicion and hope braided together."
+    "There is an advantage to public exposure: injunctions halt construction that would have privileged Ephraim's contractors. There is a downside: a sudden freeze on development money sends tremors through small suppliers who rely on rolling contracts — the same suppliers that keep pumps and replacement parts moving."
+    "You feel the moral arithmetic tightening like a vice around the town's neck. The midpoint of the conflict is not a single triumph; it is a set of immediate, messy consequences. In this way, the valence"
+    "of the day is neutral — the victory of exposure sits beside the very real risk of disrupted logistics and livelihoods."
+
+    "Lina Moreau addresses reporters from the municipal steps with a crisp cadence and a practiced face. Lina Moreau" "The council will not tolerate corruption. We will cooperate with any lawful inquiry."
+    show lina_moreau at left:
+        zoom 0.7
+
+    lina_moreau "Agree what to say and when. There are council procedures. Call me at the municipal office in an hour."
+    "Her public distance helps her maintain municipal legitimacy; her private call is an invitation you file away with the rest of the day's contradictions."
+    # [Scene: Desal Staging Yard | Early Evening]
+    hide lina_moreau
+
+    scene bg ch10_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The hiss of a generator; distant waves]
+
+    "You move into the yard with Maya and a half-dozen volunteers. The yard smells of oil, wet clay, and green diesel. Maya hands you a clipboard already annotated with priority lists. Maya Cruz" "Noor's worried about intake filters and membrane spares. If the injunctions freeze contracts, we need to red-flag those items."
+
+    "Dr. Noor stands beneath a canopy, holding a laminated inventory. Dr. Noor" "We can scavenge some parts locally and cannibalize redundant units for now. But that is not sustainable if the freeze lasts. Prepare community alerts; we might need to shift to manual operations in critical sites."
+    "You update manifests, call suppliers, and route volunteers. The arousal here is steady — efficient, busy, procedural. It's not the roar of the plaza but the hum of triage. Mid-arousal: your heartbeats are regular, focused. There is work to be done; you do it."
+    # [Scene: Old Harbor District | Dusk]
+
+    scene bg ch10_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Water lapping at a lipped stoop; a child's distant laugh]
+    "You and Sora Watanabe walk through streets that might have been familiar to you as a child — or might recall their ghosts from stories; the Schrödinger quiet of shared memory. Storefronts show closed signs; a"
+    "woman on a stoop watches you with narrowed, guarded eyes. The injunctions have already reached this place: surveyors have left markers, and a few families are arranging temporary sandbagging."
+    show sora_watanabe at left:
+        zoom 0.7
+
+    sora_watanabe "I wanted a fight, not just headlines. But this is something. This is teeth."
+
+    "You look at Sora Watanabe and find their mouth softening. Sora Watanabe" "For a minute, standing there with you—' (they hesitate, searching for the right measure) '—it felt like we could hold them accountable and keep this place alive. Different things can be true at once, right?"
+    "You allow the ambivalence to sit between you. It is real and complicated, like the city itself."
+
+    menu:
+        "Tell Sora you need space to worry through logistics":
+            "You step back, and your words are blunt but honest. Sora's face tightens a fraction but they nod; they expect the practical from you, and you give it."
+        "Pull Sora close and let the moment be intimate":
+            "You let the world narrow. For a breath you are not the planner or the organizer, only two people leaning into each other. The warmth is brief but grounding."
+
+    # --- merge ---
+    "The narrative continues."
+    # play sound "sfx_placeholder"  # [Sound: An indistinct shout from further down the street; the evening lights throw long, worried shadows]
+    # play music "music_placeholder"  # [Music: The pulse remains but loosens; tension held rather than spiked]
+    "As dusk settles, notifications arrive in waves — legal filings, press releases, and a polite but unmistakable alert from a supplier warning of delayed deliveries should contracts be suspended. The sound of administrative friction is not"
+    "cinematic, but it is real: emails, recorded voicemails, and an automated voice informing you of a temporary freeze on a critical shipment."
+    "Dr. Noor's earlier warning resolves into tactical urgency: the community's lifelines depend on patching processes even as you press for accountability. You think of the pumps beneath low-lying streets, of the desal membranes, of the volunteers who sleep poorly and stand ready to move at short notice."
+    "Back at the Municipal Offices, Lina waits in the shadowed lobby. The building smells of cleaning solvent and lemon-scented dispatch forms; security cameras blink like patient insects."
+    show lina_moreau at right:
+        zoom 0.7
+
+    lina_moreau "Thank you for transparency. You forced the issue into sunlight.' (She does not smile.) 'Now let's work on minimizing harm while the legal process proceeds."
+    "You hold her gaze; there is the professional distance and then something more — trust's first, brittle glint. You choose to be precise, not intimate."
+    show ari_navarro at center:
+        zoom 0.7
+
+    ari_navarro "We will need a channel for emergency procurement that bypasses frozen contract lines for critical spares, with oversight. If the council will commit to that, we can manage operations while investigations continue."
+
+    lina_moreau "I'll put a motion before the emergency committee. It will be bureaucratic. It will be slow. But I will move it."
+    "There is a pause, and Lina's voice softens in a way that is not for cameras."
+
+    lina_moreau "I need the documents' chain of custody. Discrete briefings. We cannot let this be dismissed as performative."
+    "You nod. The municipal calculus is clinical — but her private interest is a small opening."
+    hide sora_watanabe
+    hide lina_moreau
+    hide ari_navarro
+
+    scene bg ch10_453e40_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant thunder like a punctuation]
+    "You spend the night coordinating. Volunteers rotate in and out, Maya's voice steady on radio channels, Dr. Noor juggling technical priorities like triage in a field hospital. Sora Watanabe sits beside you for hours between calls,"
+    "their shoulder a steady presence that alternates between fierce whispering plans and long, quiet breathing."
+    "The town is in motion: injunctions have stopped projects that might have favored private interests; suppliers issue cautious statements; news cycles hunt for a scandal's next twist. Lawsuits are filed with feverish speed in the following days — a predictability that feels like varnish over a raw wound."
+    "The immediate victory of exposure is a narrow, practical thing. It forces a pause where scrutiny can happen, but it also throws the town into a ragged, administrative storm. The arousal of the chapter — steady,"
+    "mid — carries you from public speech to logistical triage to private negotiation. It is not triumphant cheer nor despairing sob. It is a pragmatic climb: action, consequence, patchwork mitigation."
+    "You lie awake for a moment that slips between scheduling calls and drafting emergency procurement orders. The rain has turned to a fine, insistent mist. In the dark, your mind catalogues lists: a supply chain reroute, a legal defense fund, volunteer rotations, a plan for membrane spares."
+    "A single, small conviction rises: you did the right thing in bringing light to a misuse of power. The next conviction is less tidy: you will have to keep the lights on while the law does its work."
+    "You think of the Old Harbor's hollowed storefronts and the face of the woman on the stoop — not as an abstraction but as someone who will feel the legal ripples in tangible ways. The decisions are not binary; the town will be remade in patterns you cannot fully predict."
+
+    scene bg ch10_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Low pulse, trailing off to a single held note — anticipatory]
+    "You have set things moving. The movement is neither wholly good nor wholly bad. It is movement."
+    "You close your eyes and, for once, allow yourself to imagine the next step in detail — the hard, necessary logistics, the hearings, the council votes, the nights when Sora stands at your back and the"
+    "nights when she does not. The future is a hundred small, necessary acts rather than a single dramatic triumph."
+
+    scene bg ch10_453e40_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Waves breathing; distant radio traffic]
+    "You tighten your scarf against the mist and make one last note, not for the cameras but for the people who will have to live with the aftermath."
+    "There is a page-turn in your chest — a private insistence that the fight continues in the messy, tedious work of keeping systems running while accountability proceeds."
+
+    scene bg ch10_453e40_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter11
+    return

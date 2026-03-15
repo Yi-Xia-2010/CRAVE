@@ -1,0 +1,451 @@
+{
+    "title": "Tidebound Hearts",
+    "summary": "I am Mara Solano: returned coastal ecologist, practical and fiercely loyal. The story begins with a crisis: Elena Voss’s high-tech coastal barrier and luxury redevelopment plan gains political traction, promising stability but threatening displacement. My relationship with Jonah Reyes—charismatic, community-minded—becomes the engine of moral choice. Early chapters are a descent: meetings collapse, a storm exposes vulnerabilities, and legal and social pressure push me toward untenable compromises. At the bottom, I must choose among three strategies: mobilize the community with Jonah, negotiate with technocratic power for partial protections, or expose Elena’s proprietary risks with Dr. Claire Hsu’s help. Each path leads through a confrontation—public action, council votes, or data leaks—and then a recovery phase of rebuilding and reckoning. Across branches, the overall emotional curve is \"Man in a Hole\": a fall into crisis followed by a climb toward recovery. Endings diverge into four tonal outcomes—Happy (community-led restoration and love deepened), Bittersweet (compromise with losses), Sad (Elena’s redevelopment predominates; town fractured), and True (exposure forces systemic change but personal cost as I leave to lead elsewhere). All outcomes keep the fall-then-rise arc: even loss includes renewal, and victory carries emotional cost.",
+    "emotional_curve_type": "Man in a Hole",
+    "player_character": "Mara Solano",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Tidewatch Notes",
+            "branch_designation": "Common",
+            "narrative_focus": "I open at Tidewatch Coastal Lab late morning, rain-slick light casting pale gold through salt-splattered windows. My field jacket is damp, the bronze compass pendant chafes against my throat; I run a finger over tide-maps in my battered leather notebook. Dr. Claire Hsu brings preliminary telemetry that shows Voss’s modeled levee will reroute floodwater into low-lying blocks. The lab smells like wet electronics and coffee. I replay my father’s last storm—his hands as a dockworker slipping from the rails—and the notebook holds an old promise I made: restore wetlands, protect our people. My smartwatch, its cracked face taped with cord, buzzes with a calendar invite to a Town Hall hearing. Jonah’s face floats across my mind—his jet-black hair damp under an awning, amber eyes steady when he smiles—he believes in community power. I feel a tightness: duty to science, loyalty to neighbors, and an approaching political machine led by Elena Voss in a storm-blue suit. The day’s rhythm is urgency: pumps humming, the lab’s LEDs warm, the tide inching higher. I brace to choose how to fight.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mara Solano",
+                "Dr. Claire Hsu",
+                "Jonah Reyes",
+                "Aunt Pilar"
+            ],
+            "locations_used": [
+                "Tidewatch Coastal Lab"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Boardwalk Memory",
+            "branch_designation": "Common",
+            "narrative_focus": "I find Jonah at the Old Market Boardwalk: salt-scarred murals ripple behind his patched sailcloth jacket and the battered film camera hangs at his chest. He’s organizing a late-market meeting; Rosa and Mateo hand out flyers. He greets me with a half-smile and tugs at his silver-streaked hair when nervous. We walk the damp planks as neon vendor lights blink against rain beads. I tell him what Claire showed me; his amber eyes darken. He proposes a mobilization: candle vigils on the docks, a market strike, testimony at Town Hall. My practical side lists hard technical tasks—sensors, tidal models, legal permits—and I feel the old tug: shoulder everything, fix it. Aunt Pilar’s face flashes in memory, the steady bun and patched shawl; she’ll never leave. The market is alive with voice and color; Jonah’s idealism is magnetic. But Elena’s transparent umbrella—literally a data HUD—shifts the frame: headlines, lobbyists, and flood gates in polished steel. I hear the ocean in the planks below and know the boardwalk is also a line on a map that can be erased.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Rosa",
+                "Mateo",
+                "Aunt Pilar",
+                "Dr. Claire Hsu",
+                "Elena Voss"
+            ],
+            "locations_used": [
+                "Old Market Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council's Edge",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The Town Hall Plaza is a knot of banners, fluorescent lamps, and a crowd that hums like a generator. Councilor Avi Malhotra listens with ink-stained sleeves, and Elena Voss arrives immaculate in a storm-blue suit, platinum bob perfect, the company cuff glinting on her wrist. She speaks in measured rationalities: economic stability, evacuation-ready infrastructure. Her steel-gray eyes do not betray the bulldozing of neighborhoods. In the crowd, I watch Jonah’s face go pale, his camera clutched like a talisman. I feel the old guilt—my father gone in a storm—and the weight of being someone with a plan. Claire texts: “I can verify model anomalies.” The crowd wants action. I stand at a threshold: Jonah urges a direct mobilization; Avi leans toward negotiated safeguards; Claire offers a risky public disclosure. I sense that whichever path I take will alter more than policy: it will alter love, trust, and the town’s shape. The tide is metaphor and fact; my choices will run like water through fences. My pulse thrums; this is the split.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which strategy do I commit to as the immediate path forward?",
+                "options": [
+                    {
+                        "label": "Stand with Jonah. Mobilize the market and streets now.",
+                        "consequence": "Rapid grassroots pressure; high public visibility but risks confrontation with police and legal trouble.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Work with Avi to broker a compromise with Voss.",
+                        "consequence": "Opens negotiation channels and potential limited protections but risks co-optation and slower timelines.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Work with Claire to expose Elena's model vulnerabilities to the public.",
+                        "consequence": "Potential to discredit the Voss plan but legal and personal risk; may trigger corporate retaliation.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Dr. Claire Hsu",
+                "Avi Malhotra",
+                "Elena Voss",
+                "Community"
+            ],
+            "locations_used": [
+                "Town Hall Plaza"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Rallying Tides",
+            "branch_designation": "Route A",
+            "narrative_focus": "I choose Jonah; together we flood the boardwalk with meetings. Jonah’s patched jacket sweeps the crowd; his amber eyes shine with conviction. We stage a candle vigil at the docks and a market strike; Rosa and Mateo coordinate logistics. I am in my element—maps and sensors in my notebook, plotting where marshes restored could absorb surge. My boots splash through puddles as volunteers string up banners. But the visible tactic draws police attention; a clearance order arrives. Elena’s PR team paints the movement as reckless, highlighting Voss’s immediate funding for \"stabilizing infrastructure.\" The night after the vigil, superstorm clouds gather, and a surge breaches a poorly defended cul-de-sac. Houses shown in my notebook—Aunt Pilar’s neighbors—are hit. I am overwhelmed: we are loud, visible, and perhaps unprepared for rapid weather extremes. The community’s spirit holds, but the flood exposes our limits. My stubbornness presses me forward: we must escalate—yet escalation risks everything I promised to protect.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Rosa",
+                "Mateo",
+                "Aunt Pilar",
+                "Elena Voss"
+            ],
+            "locations_used": [
+                "Old Market Boardwalk",
+                "Docks"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "After the Surge",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "Dawn shows damage in harsh, pearly light. The Salt Flats Lagoon is a mirror of ruined pylons and turned grasses. Aunt Pilar’s stoic face and steady hands bind bandages and remember names. I walk with Jonah through wet streets; his silver streak catches light, his camera silent for once. Volunteers shiver under damp awnings. In the lab, Claire confirms our sensors recorded a cascade effect: certain reclaimed pylons redirected the surge into older neighborhoods. My notebook holds tide-maps now not as theory but as evidence of the town’s fragility. Our mobilization raised visibility but failed to prevent the surge’s worst effects. The community rages and grieves; Jonah asks for bolder action—blockades, legal occupation of the Voss site. My chest tightens: I can push civil disobedience that risks jail and eviction, pursue a mediated compromise through Avi that will ask painful trade-offs, or follow a riskier plan to sabotage Voss’s demo to show its instability, which could cross ethical lines. I am exhausted; the hole is wider. I must decide again.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we respond to the surge’s aftermath?",
+                "options": [
+                    {
+                        "label": "Escalate direct action — occupy Voss construction and force national attention.",
+                        "consequence": "High visibility and potential legal consequences; could stop immediate construction.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Push Avi to broker a legal compromise—press for enforceable wetlands protections.",
+                        "consequence": "Slower, legally messy, some neighborhoods sacrificed for broader legal safeguards.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Work with Jonah to expose structural risk through targeted sabotage of a demo—prove Voss’s model unsafe.",
+                        "consequence": "Ethically fraught; potential criminal charges but could discredit the plan.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Dr. Claire Hsu",
+                "Aunt Pilar",
+                "Volunteers"
+            ],
+            "locations_used": [
+                "Salt Flats Lagoon",
+                "Tidewatch Coastal Lab",
+                "Wet streets"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "High Water, New Ground",
+            "branch_designation": "Route A — Endings",
+            "narrative_focus": "Whether we occupied the site or forced Avi’s hand, the outcome bends toward community preservation. If we occupied, national attention and legal injunctions paused construction; volunteers and legal aid coalesced; Elena’s PR wobble gave our restoration plans air. If Avi brokered protections, enforceable wetlands zones were written into the compromise, protecting many but not all blocks. In both variants I stand on a repaired pier at sunset: my dark brown hair streaked caramel from sun and salt, my jacket stained, the bronze pendant warm against my sternum. Jonah’s camera rests against his chest; his amber eyes crinkle as he laughs at a small breeze that smells of loam. There are losses—some houses cannot be saved—but the cooperative gains traction, grants arrive for marsh restoration, legal covenants limit displacement. I feel the climb: from the hole into usable hope. The town is not healed; scars show on wood and skin. But the community-led restoration is now implementable, and Jonah—grime under his thumbnail—slips his seagrass ring onto my finger. We rebuild together.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Volunteers",
+                "Community"
+            ],
+            "locations_used": [
+                "Repaired pier",
+                "Rooftop Gardens"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Glass and Gates",
+            "branch_designation": "Route B",
+            "narrative_focus": "I accept Avi’s invitation to seek a negotiated path. The Voss Coastal Spire lobby is cold and impeccable; Elena’s bob is flawless, the smart cuff gleams with telemetry. Avi’s linen suit is nervous; he counts swing votes and breathes through the technical briefs. Elena makes a show of data: deterministic models, staged community benefit charts, and footage of hydraulic dock systems. She speaks of a legacy built against storms. I bring Claire’s warnings; Senatorial attorneys lean in. The negotiation hums with trade-offs: zones to sacrifice, relocation packages, legal easements. I try to translate ecological realism into bureaucratic language—wetland buffers, permeable revetments—but Elena reframes urgency as a need to centralize. Jonah watches from the gallery, his jaw tight; his patched jacket looks out of place here. The council meeting ends with tentative promises; the vote is scheduled. Negotiation feels adult and pragmatic, but inside I feel a slow sinking; bargaining risks erasing memories and place in exchange for measured safety.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Mara Solano",
+                "Avi Malhotra",
+                "Elena Voss",
+                "Dr. Claire Hsu",
+                "Jonah Reyes",
+                "Senatorial attorneys"
+            ],
+            "locations_used": [
+                "Voss Coastal Spire",
+                "Town Hall Plaza"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "The Vote",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Town Hall thrums. The vote will decide whether the Voss barrier and redevelopment gets approval with certain community protections or whether the council halts the project pending independent review. Elena’s steel-gray eyes are cool as she outlines job numbers; her transparent umbrella clacks open like a clean argument. Avi plays the moderating role, seeking a middle path. Jonah organizes protestors outside; his voice is hoarse but resolute. The council chambers sway between data fidelity and human testimony. I stand to present, my compass pendant visible against my navy tee; I speak of wetland restoration and lived knowledge, of the tide-lines carved into the boards where my father stood. Public comments ripple. The vote approaches: we can push for full approval (fast protections but displacement), lean toward a hybrid compromise, or leak documented model vulnerabilities to the press to force delays. Each choice will remap who is protected and who is left behind.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "What do I do during the vote?",
+                "options": [
+                    {
+                        "label": "Accept Voss's approval in exchange for immediate stabilization funds to protect some blocks.",
+                        "consequence": "Short-term stability; marginalized blocks bulldozed.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Push for a hybrid compromise with enforceable wetlands and limited redevelopment.",
+                        "consequence": "Some loss; legal protections for key zones; messy but survivable.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Leak Claire’s model vulnerabilities and demand independent review, forcing a delay.",
+                        "consequence": "Public scandal risk but could stop the project; likely corporate retaliation.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Elena Voss",
+                "Avi Malhotra",
+                "Jonah Reyes",
+                "Dr. Claire Hsu",
+                "Council"
+            ],
+            "locations_used": [
+                "Town Hall Plaza"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Scales in the Salt",
+            "branch_designation": "Route B — Endings",
+            "narrative_focus": "The vote’s result is a compromise bruised into law or a painful concession. If I accepted full approval for immediate stabilization, floodgates and promenades appear rapidly; Elena’s construction protects a new elevated district at the expense of several marginalized blocks that are slated for buyout—people displaced, memories bulldozed. If I pushed for the hybrid compromise with Avi, the result is messy but survivable: enforceable wetlands, legal covenants, and targeted protections that save sizable swaths but lose others. In both, I stand in the Rooftop Gardens of La Plaza at dusk, smelling wet earth and citrus, my braid loose and the compass pendulum ticking in a different rhythm. Jonah’s optimism is bruised; he keeps his camera but looks at me with complicated warmth. We remain together, but trust bears lines like crow’s-feet at the eyes—he forgives, but the cost is visible on door frames and in the names absent from Sunday markets. We climb slowly; the hole narrows, but the patchwork holds sorrow.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Avi Malhotra",
+                "Elena Voss",
+                "Community"
+            ],
+            "locations_used": [
+                "Rooftop Gardens",
+                "La Plaza"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Code and Compass",
+            "branch_designation": "Route C",
+            "narrative_focus": "I take Claire’s offer to analyze Elena’s proprietary models. The Tidewatch Coastal Lab becomes a clandestine workroom: Claire’s short black hair is streaked silver at the temples, her field vest stained with samples. We crawl through code and model assumptions; the model’s boundary conditions are optimized for a hardened barrier, not distributive flooding. Legal counsel warns of IP theft; Elena’s firm dispatches cease-and-desist letters. Jonah warns of backlash—his amber eyes heavy—but supports me in the way he can: documentation and witness lists. We find anomalies: a simplification in how the model handles substrate compression that would misrepresent redirected surge. The risk is that our revelation could stop the project—and trigger corporate legal and PR assaults that will make personal life dangerous. At home, Aunt Pilar kneads dough and asks me to keep my head clear. The hole yawns: exposing truth could save many yet cost me everything.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Mara Solano",
+                "Dr. Claire Hsu",
+                "Jonah Reyes",
+                "Aunt Pilar",
+                "Elena Voss"
+            ],
+            "locations_used": [
+                "Tidewatch Coastal Lab",
+                "Home"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Public Reckoning",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "We choose to go public. Claire validates our findings; we prepare a controlled release with independent reviewers, but Elena’s legal team moves fast. The public hearing is electric: my voice in the Town Hall, my dark braid slipping free, my compass pendant catching lights. The press focuses on images—Jonah’s camera catching the boardwalk vigils, Elena’s sleek spokespersons. The revelation that the model underestimates redirected surges forces national scrutiny. Elena’s company cries foul, rustles legal guns. The town divides between those who cheer the halt and those who fear the lost contracts. The hole begins to fill: citizen groups rally, funders solicit grants for community-led wetlands, and Claire’s credibility helps secure temporary injunctions. But the climb is steep: corporate backlash threatens funding, and a smear campaign targets Jonah and me with insinuations about sabotage. We face a choice for next steps: press the full exposure nationally and accept exile from local peace, push for a curated compromise that keeps community control local, or retreat to rebuild quietly after a reputational hit.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we follow the exposure?",
+                "options": [
+                    {
+                        "label": "Push the full expose nationally—force systemic reckoning.",
+                        "consequence": "Project halted; policy scrutiny follows; personal cost high (threats, need to leave).",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Use the leverage to negotiate a local compromise that enshrines community control.",
+                        "consequence": "A difficult but durable local victory; bittersweet trade-offs.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Pull back the public release to control fallout—focus on quiet restoration.",
+                        "consequence": "Safer but may allow Elena to regroup; slower change.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Dr. Claire Hsu",
+                "Jonah Reyes",
+                "Elena Voss",
+                "Press",
+                "Community"
+            ],
+            "locations_used": [
+                "Town Hall Plaza",
+                "Tidewatch Coastal Lab"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "The Tides We Choose",
+            "branch_designation": "Route C — Endings",
+            "narrative_focus": "If we push the national expose, Elena’s project stalls amid scandal; regulators open investigations and policy debates begin—my name is in headlines, and offers come from coalitions nationwide to lead broader efforts. It’s a moral victory with personal cost: threats against me and Jonah escalate, and I accept a role away from home to scale community-led models. If we use leverage to negotiate local community control, a hard-won ordinance secures land trusts and restoration funding; I stay, and Jonah and I help implement marsh projects. Both versions are recoveries after the hole—one sacrifices a local life for systemic change; the other keeps us rooted but with scars. In either case I stand at Salt Flats Lagoon at dawn: algae dapples the water, my hair catching the light, Jonah’s seagrass ring warm on my finger, and Aunt Pilar’s face in my mind. The climb is not easy, but we find purchase.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Dr. Claire Hsu",
+                "Aunt Pilar",
+                "Community"
+            ],
+            "locations_used": [
+                "Salt Flats Lagoon"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Lines in the Mud",
+            "branch_designation": "Route A — Alternate Ending",
+            "narrative_focus": "We attempted a risky demonstration to show Voss’s demo failing—a targeted live test that compelled engineers to reveal structural weak points. The act skirted legality and stained our hands, but it forced regulators to impose immediate moratoria. The town’s reaction is mixed: some hail our courage; others fear the consequences. Jonah stands with me—salt drying in his hair—though his camera is quieter now, caught between journal and witness. The standing wave of outrage compels funders to consider community-led alternatives; Claire’s scientific validation helps convert the spectacle into policy action. My chest loosens: the hole that opened with the storm begins to narrow. Yet the cost is part of the climb—legal battles, reputational scars, and the knowledge that some residents would rather have certainty, even if built by Voss. I find myself sleeping less, working more, but the marsh seedlings take root. We have climbed by force; the ground is raw but fertile.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Dr. Claire Hsu",
+                "Community"
+            ],
+            "locations_used": [
+                "Salt Flats Lagoon",
+                "Demonstration site"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Echoes and Ebb",
+            "branch_designation": "Route B — Alternate Ending",
+            "narrative_focus": "I chose to leak Claire’s findings during the vote, forcing an independent review. The immediate result was chaos: Elena’s firm launched legal reprisals and a PR blitz, but the delay opened space for scrutiny. The town experienced a harrowing season—funding uncertain, construction paused, some businesses shuttered while others rearranged—but the stalled project allowed time to craft enforceable protections. Jonah stood by me publicly and privately; his amber eyes were tired but steady, his red bandana damp from late-night rain. The climb from the hole was mutual and costly. Some families refused to wait and left; others stayed and rallied. The town’s skyline changed more slowly than anyone hoped, but the final shape included community land trusts and enforced wetlands. We rebuilt markets, and the Rooftop Gardens fed more neighbors. Love carried bruises but stayed intact. The ebb had brought new lines; we would live within them.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Dr. Claire Hsu",
+                "Community"
+            ],
+            "locations_used": [
+                "Town Hall Plaza",
+                "Rooftop Gardens",
+                "Market"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Quiet Tides",
+            "branch_designation": "Route C — Alternate Ending",
+            "narrative_focus": "We pulled back from a full public expose to manage fallout—opting for a quieter path: targeted litigation, community restoration pilots, and slow, patient coalition-building. It was not cinematic: no headlines, no national gratitude. But it worked in a different way. Grants arrived piecemeal; volunteers planted marsh grasses by hand; Aunt Pilar taught kids to mend nets and keep memories alive. Jonah and I learned to savor small victories: a street saved from buyout, a market stall that reopened. The climb out of the hole was slow, steady, and human. My compass pendant grows softer against my chest where I touch it often; my smartwatch is still cracked but reliable. I did not become a national voice, but I am rooted. The town is quieter than I had hoped it would be, and that is its own kind of healing.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solano",
+                "Jonah Reyes",
+                "Aunt Pilar",
+                "Volunteers",
+                "Community"
+            ],
+            "locations_used": [
+                "Rooftop Gardens",
+                "Neighborhood market",
+                "Salt Flats Lagoon"
+            ]
+        }
+    ],
+    "remarks": "",
+    "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+    "_meta_arc_strategy": "Man in a Hole (Fall-Rise)"
+}

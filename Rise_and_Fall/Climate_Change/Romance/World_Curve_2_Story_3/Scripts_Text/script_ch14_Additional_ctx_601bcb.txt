@@ -1,0 +1,194 @@
+### SCRIPT
+# Route: Additional
+# Context: 601bcb
+
+[Scene: Town Hall | Midday — Council Session]
+[Visual: Wide shot of the council chamber; rain streaks the tall windows. Aria stands near the dais, her coat buttoned, briefcase at her feet. A projection of your monitored data glows behind her — graphs softened by varnish glare.]
+[Music: Low, steady cello with a minor progression]
+[Sound: Muffled rain on the roof; distant murmurs from the gallery]
+
+You stand at the lectern with the tablet balanced on both palms, the cautious report open but not an instrument of triumph. The air tastes like copper and wet paper — policy documents and the smoke of too many last-minute coffees. The room is warm in a way that makes your collar stick; the warmth feels political.
+
+Isla Morgan: "We designed the trial to monitor a range of responses across the flats, with both living structures and engineered reinforcement. The data will guide adaptive management — not preordain one pathway."
+
+Aria Chen: "And the funding? The developers have committed to underwriting the monitoring phase, with an option to build contingent on the trial's 'validation.' That clause is a practical necessity given the economic fragility of the town."
+
+You hear the word validate wrapped in a velvet glove. Validation can be neutral; validation can be a lever. You feel, like a cold tide, the pressure of ledger lines and job counts pressing against the maps you once folded in private.
+
+Luca Moreno [whisper]: "Isla, if they reframe the monitoring as pilot validation for hard defenses, the flats will be boxed out. The reefs will be paved over. You promised we'd keep the community in the loop."
+
+Isla Morgan: "We wrote community engagement into the protocol. The monitoring is transparent."
+
+Luca Moreno [bitter]: "Transparent when it's convenient. When it's not, it becomes a 'technicality.'"
+
+The exchange ripples across the rows. Aria Chen's expression does not change; her hands fold like closed shutters.
+
+Aria Chen: "We move forward because we cannot let the town erode while we debate. My constituents need jobs. They need roofs that don't leak. There will be oversight."
+
+Jonah Merrick (from the gallery): "Oversight don't buy you a boat back when the mooring's gone."
+
+A hush. Jonah's voice carries salt and the gravel of decades. The council is a place of balances; the harbor is a place of losses that measure the price.
+
+You read the faces in the chamber — some hopeful, some resigned, many calculating their immediate bills. You know the science is not a neutral shield here; it is a tool placed into a contested handsaw.
+
+Isla Morgan: "We accept the joint trial terms with conditions. We insist on third-party audits and a binding clause to protect the salt flats' most sensitive corridors."
+
+Aria Chen: "We will honor those clauses. We will write them into the contract."
+
+Her words are precise. You sign the amendment, not in triumph but in exhaustion, the tablet's screen reflecting a pale version of your face. The vote passes with a mixture of applause and quiet walks to the exits. The council's seal clicks; the developers smile.
+
+You walk out of the chamber smelling of varnish and forced civility, and Luca's silence follows you like a stone.
+
+[INTERACTION]
+> Choice A: "Let Aria make the public announcement while you step aside"
+> Choice B: "Step forward when Aria begins speaking and correct the language"
+[Outcome A: "You stay in the lobby, wrists numb from the tablet, as Aria frames the trial as a compromise that saved jobs. Cameras flash, and the words 'guided the science' echo down the hall, thin as salt spray."]
+[Outcome B: "You interrupt, voice higher than you'd like. You insist on 'trial' not 'validation,' on 'pilot' not 'precedent.' Aria's smile tightens; a reporter angles a microphone. The room feels smaller."]
+[MERGE: Narrative continues at the Salt Flats scene.]
+
+[Scene: Salt Flats | Early Morning — Construction Season]
+[Visual: A panorama of the flats under a bruised sky. Heavy machinery moves in slow, clumsy patterns near neat rows of living breakwater modules. In places where reeds once bowed, a concrete lip rises like a wound.]
+[Music: Low wind strings, a single piano motif]
+[Sound: Distant engines, the cough of diesel, gulls lashing out above the noise]
+
+The living structures you designed climb from packing crates like awkward seedlings: woven mats seeded with oysters, strategically placed gabions. For a while, the mix looks hopeful — clusters of new life in measured intervals. The monitors hum softly, recording salinity, current vectors, fish counts.
+
+Then the developer's engineers bring in machines that cut a straight line through your softer work. The clause you fought for — "allowance for complementary hard works if pilot 'fails' thresholds" — is triggered on a metric you did not anticipate. The thresholds are technical, but the math collapses into policy: once erosion at a certain transect persisted for three sequential evaluations, the contract allowed reinforcements.
+
+You stand at the edge of the work site and feel a grief that is tactile: the salt under your nails, the sting on your face when the wind whips the newly poured concrete's chemical smell. The flats reflect the sky in small pools, and in those mirrors the horizon looks wrong.
+
+Fisherman (off-screen): "Those walls will keep the waves out — but they'll keep our nets empty, too."
+
+You watch boats that once threaded the shallow channels now find their runs obstructed. Moorings that had been in families for generations are relocated or removed; some boats are hauled out and sold. The market stalls that used to bristle with the day’s catch thin over weeks into strangers hawking sleeves of imported fillet.
+
+An engineer in a hi-vis vest approaches, clipboard in hand, rehearsed empathy in his face.
+
+Engineer: "The mixed defense reduces risk for most town parcels. The economic modeling suggests resilience for residential zones and new job opportunities in construction."
+
+Isla Morgan [quiet]: "At what ecological cost? At what cost to those who fish the flats by hand?"
+
+Engineer: "We believe the trade-offs are acceptable and temporary."
+
+Acceptable. Temporary. Words that have been used to smooth outrages since the first harbor was paved.
+
+[INTERACTION]
+> Choice A: "Attend the developers' ribbon-cutting to ensure a presence for the community"
+> Choice B: "Refuse to attend and walk the flats alone instead"
+[Outcome A: "You stand at the ribbon-cutting, hand hovering near scissors you eventually let someone else handle. Photographers flash; your name is printed in the program as 'guide to the trial.' A fisherman turns away when you try to meet his eye."]
+[Outcome B: "You skip the ceremony. You walk mud and reeds, touch barnacled pilings, and count small losses—an old mooring ring, a child's toy boat half-buried. Your absence at the ceremony becomes a quiet broadcast of distance."]
+[MERGE: Narrative continues at the Promenade scene.]
+
+[Scene: Promenade | Afternoon — Months Later]
+[Visual: Solar lamp posts glow intermittently; a temporary job fair banner flaps on the promenade rail. There is a small crowd; free sandwiches are dispensed under a canopy. Aria is there, smiling with polished resolve; developers hand out pamphlets promising 'New Horizons.']
+[Music: A deceptive upbeat rhythm undercut by minor key violins]
+[Sound: The slap of pamphlets, low chatter, a child's laughter that sounds distant]
+
+You arrive to a public acknowledgment ceremony: plaques, speeches, a photo op for the paper. On the makeshift stage, Aria thanks you personally for "guiding the science" that made the project politically and technically viable.
+
+Aria Chen: "Isla Morgan's careful work showed us how to move forward without losing Greyhaven. Her stewardship has been invaluable."
+
+Applause. Your name in print. The honor glitters like salt on a fish's scale.
+
+Luca Moreno slips through the crowd, expression folded into a shadow you know well.
+
+Luca Moreno: "You handed them the fork, and they ate the heart."
+
+Isla Morgan: "It wasn't like that. The trial gives us a way to monitor and adapt. We can still protect sensitive channels."
+
+Luca Moreno [heated]: "You can say 'monitor' until water runs clear, but decisions were written into the contract the day they signed. You lent them legitimacy, Isla. They needed a scientist to sell this as responsible."
+
+His voice breaks on the last word. There's anger there, but underneath it is a deeper hurt — a sense of betrayal, not just of policy but of shared ideals.
+
+Isla Morgan: "I thought binding clauses would limit damage."
+
+Luca Moreno: "You thought. You didn't fight, Isla. You offered them terms and they bent them into cover."
+
+Isla Morgan [quiet]: "Luca, I—"
+
+Luca's mouth snaps shut. He turns away, eyes like flint. For a second you hope he'll stay, that he'll argue the nuance, that the two of you can stitch rage into strategy. Instead he walks to the edge of the promenade, pauses as if to look at the flats where the seabed has been rewritten, and then leaves without looking back.
+
+You feel the leave like a hand gone from your wrist. It is not just Luca walking away; it is the easy possibility that companionship once promised.
+
+Luca Moreno [over his shoulder]: "Don't find me when you need someone to blame this on."
+
+The crowd's applause is a thin sound. You are applauded for guidance; someone else paid in ways that smaller hands calculate differently.
+
+[Scene: Greyhaven Hospital | Night — After the Storm]
+[Visual: Fluorescent lights humming. Rain has become a white noise against the windows. Hospital corridors have the smell of antiseptic and wet wool.]
+[Music: Sparse piano, each note slow and hollow]
+[Sound: The distant beeping of monitors; a cart's wheels creak]
+
+The storm comes swift and without malice — just a mass of wind and rain. A commercial roof, weakened and unmaintained during the scramble after the early evacuation, collapses in a small neighborhood where Jonah checked on an old friend. You learn this by a nurse's soft knock and the way her eyes drop when she speaks.
+
+Nurse [softly]: "He's been asking for you. He kept asking if you'd come."
+
+You enter the room to find Jonah reduced to a silhouette under bright clinical light. His hands — those hands that had once mended nets — are folded on the blanket like folded years. Machines watch him like hesitant witnesses.
+
+Jonah Merrick [weakly]: "You came."
+
+Isla Morgan [choked]: "I— I wasn't sure if you wanted me."
+
+Jonah Merrick [a small grin]: "You're the one who brings the numbers, Isla. I wanted to see if the numbers had grown a heart."
+
+You sit, the chair creaking beneath you. The hospital smells of bleach and something else your memory can't name: the scent of impending absence.
+
+Isla Morgan: "They turned some of the flats into walls. The moorings… they took moorings. Jobs changed. Luca left."
+
+Jonah Merrick's eyes crinkle in a smile that is almost a cough.
+
+Jonah Merrick: "Jobs? Everything's a job now, until it's not. You did what you could—don't make your head the harbor for every loss."
+
+Isla Morgan [bitter laugh]: "You don't get it. My science was used as a seal stamp. They say I guided the trial — I guided them into paving over a part of what keeps our fish coming."
+
+Jonah Merrick [soft]: "Science don't always keep boats afloat. People do. You paddled, girl. Sometimes the tide pulls the paddle away."
+
+He reaches and takes your hand with surprising strength. His skin smells of tobacco and hospital lotion, the two mixing into a memory you will carry.
+
+Jonah Merrick [quiet]: "Don't let 'they' write every history. Remember them loud enough that the stories don't die with the moorings."
+
+He squeezes once. The monitors murmur. He is gone in a way that is small and absolute.
+
+You sit with that smallness, and the room narrows to the space where Jonah's breath used to be and no one can push the tide back into place.
+
+[Scene: Greyhaven Harbor | Dawn]
+[Visual: The harbor under a thin, gray dawn. The newly built seawall gleams wetly, its line resolute. There are fewer boats than your memory keeps tally of; empty mooring posts are like sentries without purpose.]
+[Music: Single cello line, low, unresolved]
+[Sound: The distant slap of water against engineered concrete; a lone gull]
+
+You stand at the water's edge with the compass in your palm. The brass is warm from where it has nested against your skin all these years. You think of Jonah's hand in yours, of Luca's departure, of the applause, and of the ribbon-cutting photographs where you smiled like someone who had not bargained with loss.
+
+Isla Morgan: "We saved roofs," you tell the water. "We saved walls."
+
+You feel the sentence like a ledger balanced on a nail. It is true — rooftops no longer leak in the neighborhoods the wall shields. Children play on paved promenades without the damp clinging to their sneakers. There is relief. But it sits next to a quieter, grimmer account.
+
+The flats are different now. The tidal flows are rerouted around concrete lips; the reed beds that used to catch the sun are narrower. You watch small fish circle where their paths used to be open, fewer in number, less reckless.
+
+You think of the fishermen who lined up in the cold to tell you about lost nets, of Maya's eyes when she called to ask about work options in the new economy. You think of Jonah telling you to remember the stories loud enough.
+
+There is an ache that is not sharp so much as persistent, a low tide of regret.
+
+Isla Morgan [thinking]: "The town survives. It is not the same."
+
+You tuck the compass back into your jacket. The metal is heavy in its smallness, a counterweight to the way decisions feel now — heavy, inescapable.
+
+A child runs past, chasing a dog, oblivious to the line where the flats end and the seawall begins. The dog splashes in a shallow pool that used to be deeper. For a breath you watch and almost feel something like forgiveness in the ordinary motion.
+
+Then the wind picks up, and the seawall answers it with a clean, indifferent slap. The town stands. It is intact in the ways that matter to ledgers and to insurance forms. But you know, in the neat smallness of certain losses — the mooring rings, the reed beds, the afternoon nets that no longer sing with fish — that the town has been altered in a way ledger lines will never fully count.
+
+You look toward the promenade where lamp posts blink on as if in apology. You close your fingers around the compass and allow the salt air to taste like both relief and something you will carry for years: the knowledge that sometimes survival requires choosing among harms, and those choices do not come without a bill.
+
+You let the compass rest against your sternum, and for a long moment you let the harbor be loud with what was bought and what was lost.
+
+[Visual: Slow fade out on the seawall's line cutting the horizon]
+[Music: Cello continues, dropping to two notes that do not resolve]
+[Sound: Wind, then silence]
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

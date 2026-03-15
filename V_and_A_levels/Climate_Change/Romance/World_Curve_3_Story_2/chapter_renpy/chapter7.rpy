@@ -1,0 +1,180 @@
+label chapter7:
+
+    # [Scene: Saltmarsh Wetlands | Morning — The day after the storm]
+
+    scene bg ch6_601bcb_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A steady, fast undercurrent of gull calls, volunteers murmuring, a distant council bell still ringing faintly over the water.]
+    # play music "music_placeholder"  # [Music: Uplifting strings pushed forward — urgent, bright, a swell building toward a triumphant chord.]
+    "You step into the marsh and for the first time in months you can feel the sea answering back in a language you helped to teach it. Mud cling-sucks at your boots. The air is sharp"
+    "with salt and peat and rain-stillness, but sunlight slashes through the low clouds like a promise."
+    "Your chest thrums — a drumline of adrenaline and relief so strong it makes your fingertips tingle. Yesterday the storm came for everything; today it left evidence. Some of the installations buckled and pulled away like"
+    "tired swimmers. Others held like hands braced in the surf. Where the living structures were sited right, the waves arrived thinner, roared less, and left the shore with gentler teeth."
+    "You can smell wet wood, salt, and somewhere nearby the comforting, domestic warmth of bread being warmed in a small stall. The smell anchors you like a tether."
+    "Prof. Noor kneels beside a cluster of planted reeds, her hands still dirt-stained. She points to a sensor log clipped to a battered clipboard: a jagged line calms where the breakwater sits, a spike where hard concrete alone met the waves."
+    show prof_noor_azizi at left:
+        zoom 0.7
+
+    prof_noor_azizi "Look at this waveform. See how energy dissipates here? Not perfect—nothing's perfect—but it’s measurable. Localized refugia, seedbed retention, a clear reduction in peak surge velocities where community siting was applied."
+    "You lean over her shoulder, eyes skimming the printout even though you've memorized it already. The numbers are blunt; they do not flatter but they do speak. They say: the pilot worked, in places that honored the living landscape."
+    "You rub mud from your palm on your jacket and feel hands brush past you — volunteers arriving with buckets, with photos, with tired, triumphant smiles. Rosa is there, damp hair plastered to her forehead, laughing"
+    "at a joke she doesn't finish because she's too excited to keep her breath steady."
+    show rosa_tan at right:
+        zoom 0.7
+
+    rosa_tan "You saw Ben's photos? The council couldn't ignore the front page. Elias Voss had his renderings, but they couldn't unsee what the sea did."
+    "Your heart accelerates like waves climbing a jetty. Elias Voss's office gleams like a promise of order; but on the public steps his renderings sat beside your photos of living roots and half-salvaged mussel mats — evidence with a human pulse."
+
+    menu:
+        "Step forward and call the volunteers to form a line for the press":
+            "You raise your voice, rhythm like a conductor, and volunteers fall into a neat, living banner behind you. Cameras edge forward. Your throat tightens with a bright, nervous pride."
+        "Quietly sit with Noor and trace the data points once more":
+            "You crouch, fingers tracing the paper, breathing in the damp warmth of the marsh and Noor's steady presence. Numbers become a hymn rather than a headline. The buzzing in your chest eases just enough."
+
+    # --- merge ---
+    "..."
+    "Prof. Noor straightens and meets your eyes, her expression a mixture of scientist's hunger and mentor's softness."
+
+    prof_noor_azizi "They needed more than theory. They needed to see the sea's reply. That's what you gave them, Maya. You—"
+    "She taps the corner of your notebook with a muddy finger."
+
+    prof_noor_azizi "—you translated patience into proof."
+    "Your jaw tightens around the word 'you.' It's a compliment and a rebuke. You think of your brother and the private ledger of what you still owe him — the small cruel arithmetic that puts people's"
+    "lives and storms in columns. The guilt is a stone at the bottom of your pocket; it doesn't vanish, but it settles into something quieter when proof sits beside compassion."
+    # [Scene: Reclaimed Edge | Midday — The boardwalk leads here; the town gathers]
+    hide prof_noor_azizi
+    hide rosa_tan
+
+    scene bg ch6_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A swell of voices. Cheers interrupted by a few strained shouts. Cameras click. The council sits elevated, their table a strip of polished wood; Elias Voss stands at one end, suit damp at the cuffs, face lit by the sun and public pressure.]
+    # play music "music_placeholder"  # [Music: Brass and strings converge — triumphant, urgent, like the crest of a final wave.]
+    "You move through the crowd with Noor and Rosa flanking you. Ben stands near the edge in his battered cap, a steady presence like a marker stone. Aiden Kuro waits slightly apart, hands tucked in his"
+    "coat pockets, eyes on the water; he looks windblown and raw and impossibly close. The rope bracelet on his wrist catches the light and throws a small, warm reflection against his dark skin."
+    "Elias Voss is speaking when you arrive, his voice practiced but slightly softened by the wind."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "—and so, with a phased approach, we can guarantee immediate safety. Jobs. Waterfront development that will lift Elara's profile. We have investors. We have capital. We will build—"
+    "Voices rise: a mix of hopeful yeses and skeptical murmurs. Elias Voss sweeps a hand like a man trimming a sail."
+    "You feel a current of tension thrumming under the crowd, then a fissure of something else — hope — when Prof. Noor steps forward with a tablet displaying side-by-side imagery: the pilot sites, sensor overlays, before-and-after shore profiles. The images are blunt and luminous."
+    show prof_noor_azizi at right:
+        zoom 0.7
+
+    prof_noor_azizi "The data says we can reduce wave energy by up to thirty percent where living structures are properly sited and paired with targeted hard defenses. That's not ideology; it's measurable. It's also cost-effective in the right model—"
+
+    "Councilmember Diaz" "Ms. Soler. The floor is open to those who led the effort."
+    "All eyes settle on you with a sudden, collective gravity. Your mouth goes dry, but strings of sound surge in your ears — the ocean, the crowd, Aiden Kuro's breath close enough to hear. You draw one deep, bracing inhale and speak."
+    show maya_soler at center:
+        zoom 0.7
+
+    maya_soler "We are not asking to stop protecting the town. We're asking to stop pretending the only response is a single wall. The pilot showed a way to combine living shorelines with strategic defenses — to protect both livelihoods and landscapes. We can be immediate and patient. We can be ambitious and local."
+    "Elias Voss's jaw tightens. For a heartbeat his stance is a slick, practiced calm, then something like calculation — and, you think, recognition. You can see the public calculus shifting beneath his suit."
+
+    elias_voss "Ms. Soler, your team did something no one expected: you turned theory into a visible result. I won't deny the data, and I won't pretend the past week has left anyone untouched. I'm prepared to propose a phased redevelopment that includes targeted seawalls where absolutely necessary, and—"
+    "He glances at the crowd, then, with a deliberate tilt, toward Ben and the fishers."
+
+    elias_voss "—funding for local businesses and wetland restoration in collaboration with community stewards."
+    "A sound runs through the crowd — it is not quite a cheer, not yet. It is the beginning of a chorus. You feel your pulse spike, a hot, electric pressure behind your ribs."
+    "Ben steps forward, voice rough and sun-creased."
+    hide elias_voss
+    show ben_harper at left:
+        zoom 0.7
+
+    ben_harper "We need work that lasts, not promises that break when the first real storm comes. If Elias Voss signs on to keep the money local, to use local contractors, to listen—then he doesn't sell out Elara. He joins us."
+    "A murmur, then a louder murmur: agreement mingling with scepticism but leaning hopeful."
+    hide prof_noor_azizi
+    show elias_voss at right:
+        zoom 0.7
+
+    elias_voss "My firm will commit to phased plans, to hiring local where possible, and to an oversight board that includes residents and scientists. I want Elara to survive, not just as architecture but as a living town."
+    "Prof. Noor's eyes flick to you, quick and sharp. That look is the scientific equivalent of a handshake: validation wrapped in urgency."
+    "You can barely form the next syllables before the surge hits — applause, tentative at first, then rising into something full-throated. Your chest feels too small for the noise. Aiden Kuro steps closer; his voice when he speaks is low and rough with feeling."
+    hide maya_soler
+    show aiden_kuro at center:
+        zoom 0.7
+
+    aiden_kuro "I was scared this week, Maya. I thought—"
+    "He lets the sentence hang, raw."
+
+    aiden_kuro "—I thought the sea would take us faster than we could learn how to hold on."
+    "You reach for his hand without thinking; your fingers find the rope bracelet and the warmth of callused skin."
+    hide ben_harper
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "I was scared too. I still am. But scared doesn't mean helpless."
+
+    aiden_kuro "I'm proud of you. Proud of all of us. I don't agree with everything, but I can learn. I'll help adapt our schedules, show the crews the new access points, teach the kids the tides. We'll do it together."
+    "The sound of his voice sends a wave of vertigo that is more joy than fear. You laugh — a brief, startled sound that blossoms into a laugh shared with him. Noor's grin is quick and triumphant. Rosa wipes her eyes and pretends it is salt on her lashes."
+
+    menu:
+        "Turn to Elias Voss and accept his public concession with a handshake":
+            "You extend your hand, and for a beat the town watches two different worlds touch. Elias Voss's grip is firm but not cold; you feel the weight of a negotiated future settle between palms."
+        "Step back and propose the oversight board's first membership list aloud":
+            "You speak names — Noor, Ben, Rosa, two fishermen, a small business owner — and the crowd nods. Deciding who watches the work feels like the first real step toward trust."
+
+    # --- merge ---
+    "..."
+    "Elias Voss watches the exchange between you and Aiden Kuro, then looks at the crowd. His smile is still polished, but the edges have softened in a way that carries admission."
+
+    elias_voss "Phased redevelopment, local funding commitments, and a public oversight board. I will sign the proposal today, contingent on council ratification. Elara will not be erased in favor of profit."
+    "There it is: the concession laid out in public language, a corporate mouth saying something almost human. The applause now breaks like surf — loud, unavoidable, messy and glorious."
+    "Your throat tightens. The guilt you carry doesn't evaporate; instead it rearranges itself into a working thing, a tool you can use. The ledger of losses is still there, but it's balanced now by a ledger"
+    "of people choosing to stay and fight, by hands joining and promising labor and oversight."
+    "Aiden Kuro squeezes your fingers. The gesture is small but the weight of it feels like an anchor thrown into a deep channel. You look at his face — salt, wind, the slow patience of someone"
+    "who has read the sea's moods his whole life — and you feel, unexpectedly, a fierce, bright certainty."
+
+    aiden_kuro "Whatever happens, we'll do it together. I'll teach them the new maps. You keep pushing to keep it local. We'll eat bread by the harbor and call it home."
+    "You breathe in — wet wood, salt, and, beneath it all, the yeast-sweet hint of bread from a stall where someone has been baking to keep volunteers fed. The smell stitches a domestic future into the public victory, the intimate into the civic."
+    hide elias_voss
+    show prof_noor_azizi at right:
+        zoom 0.7
+
+    prof_noor_azizi "This is the kind of model other towns will need. Not just walls, but watched, mended, living systems."
+    "The council convenor bangs the gavel. The vote is rapid, but every raised hand feels like a hammer blow building something new. When the majority calls aye, the sound is both thunder and release. People cheer,"
+    "some cry, some hug. Elias Voss allows himself a small, private look toward you: acknowledgment, perhaps respect, perhaps the knowledge that reputations are reshaped in public."
+    "You let yourself rest into the moment — high, dizzy, overwhelming in its tenderness. Your plan, the one you held like a fragile leaf against the storm, is not untouched but alive; adapted, hybridized, and now"
+    "backed by the town and even by a man who once seemed opposite to everything you stand for."
+    "Aiden Kuro guides you down to the reclaimed edge as the crowd disperses into clusters of conversation and repair. The sea moves asleepily at your feet; there are new channels to learn, new docks to mend,"
+    "new schedules to set. The future is not promised, only arranged — a messy, breathing thing that will demand work and listening."
+    "You rest your forehead against Aiden Kuro's shoulder, and the simple human weight of him steadies you."
+
+    aiden_kuro "I was afraid, Maya. I'm still scared. But I'm proud. Of you. Of all of us. Let's keep listening."
+    "You close your eyes, let the sun and the sound settle, and for the first time in a long while the knot inside you loosens into something like purpose."
+
+    maya_soler "We'll keep listening. We'll do the work. We won't let money decide what memories we keep."
+    "He laughs, a quiet, relieved sound, and you laugh back, both of you a little breathless from the intensity of the morning. Around you, volunteers begin to sort supplies, Ben speaks with young carpenters about reinforcing"
+    "a boardwalk, Rosa is already on her way to organize the oversight meeting next week. There is a frantic energy — plans made, names written on scraps of paper, hands clasped."
+    # [Scene: Boardwalk Café | Afternoon — The harbor’s small café offers warm bread and louder conversation]
+    hide aiden_kuro
+    hide maya_soler
+    hide prof_noor_azizi
+
+    scene bg ch6_601bcb_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter, murmured planning, the clatter of dishes. The sea is a near-constant white hum beneath it all.]
+    # play music "music_placeholder"  # [Music: A gentle, victorious swell — high strings, a warm woodwind figure; the music is breathless and full.]
+    "You sit with Aiden Kuro at a small table, your hands wrapped around a warm cup. The café smells like toasted crust and salt and something more — the comforting, human smell of home."
+    "Noor joins you, leaves a sensor printout on the table, then sits. Ben appears with two slices of bread, placing one before you with a grandfather’s ceremony. Elias Voss stands at the doorway for a moment,"
+    "nods once, and then leaves, his figure receding like a ship turning for the night — not vanishing, not defeated, simply redirected."
+    "This is your town now: messy, vulnerable, and approaching a future by way of a thousand small reconciliations. The arousal of the day doesn't settle so much as transform into an energized, steady pulse of planning, of people signing on and promising labor and watchful eyes."
+    "You feel the small, fierce bloom of hope take root in your chest — not naïve, but resilient and hot with purpose. The sea will still demand things of you. Storms will come. But today, you"
+    "remember what it is to be a town that repairs together, that argues and concedes and builds."
+    "Aiden Kuro lifts his cup toward you, eyes bright with salt and sun."
+    show aiden_kuro at left:
+        zoom 0.7
+
+    aiden_kuro "To messed-up plans that work. To stubborn towns. To us."
+    "You clink your cup against his, the sound small but bell-clear. It rings through you, out over the harbor, into the long afternoon."
+    "You do not know the work ahead in detail. You do not know every cost. But you know the council voted for a hybrid that funds local business, supports wetland restoration, and establishes oversight. You know"
+    "Elias Voss conceded publicly. You know Aiden Kuro will learn and teach and adapt his crews. You know Noor will watch the data and press where numbers are thin. You know the volunteers will return tomorrow."
+    "The guilt in your pocket remains — a private ledger that will make you honest and careful. It will keep you awake at night and make your mornings quieter and fiercer. But it no longer feels like a sentence you must pay alone."
+    # play music "music_placeholder"  # [Music: The final chord rises — full, triumphant, and tensile.]
+    hide aiden_kuro
+
+    scene bg ch6_601bcb_4 at full_bg
+    "You lift your chin and look out over the reclaimed edge. The light catches Aiden Kuro's rope bracelet, and for a heartbeat everything is simple: wet wood, salt, bread, and a hand that fits into yours. You breathe and the future inhales with you."
+    # play music "music_placeholder"  # [Music: Crescendo, then a warm sustain that allows the moment to glow.]
+
+    scene bg ch6_601bcb_5 at full_bg
+    "THE END"
+    # [GAME END]
+    return

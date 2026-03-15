@@ -1,0 +1,125 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the intimate lens of Romance: personal relationships and community bonds become the narrative engine that drives large-scale environmental decisions. The genre blend positions love and partnership as both motivation and moral test for climate action—will characters choose pragmatic, profitable protection, or collaborative, equitable adaptation? The core conflict centers on competing visions for a threatened coastal district: a privatized, fast solution that displaces neighbors versus a slower, community-driven living infrastructure that preserves place and people. Romance intensifies stakes by tying the protagonist's heart to allies and adversaries who represent those visions.",
+    "setting": "Near-future coastal city (circa 2042) called Esperanza Bay — a once-industrial harbor now reshaped by rising seas, seasonal superstorms, and patchwork adaptation. Neighborhoods range from resilient community-built gardens and kelp farms to gleaming corporate seawalls. The atmosphere is salt-bright and humid with frequent low light and the constant background of water and machinery; civic urgency permeates daily life.",
+    "visual_style": "Soft painterly realism, coastal pastel palette, environmental sci‑fi touches, filmic golden-hour lighting, textured watercolor overlays, character-focused anime-influenced expressions",
+    "main_characters": [
+        {
+            "name": "Mara Evans",
+            "role": "Protagonist",
+            "personality": "Practical idealist: methodical, deeply empathetic, stubborn when protecting community interests. Thoughtful listener, prone to internalizing blame, quick to translate grief into plans.",
+            "appearance_features": {
+                "hair": "Chestnut brown, shoulder-length bob with a deliberate salt-streak at the right temple; often tucked behind one ear.",
+                "eyes": "Green‑grey, large and observant with faint crow's feet starting from nights in the field.",
+                "clothing": "Layered field-ready outfit: olive waterproof trench with faded reflective tape, charcoal cargo trousers, light wool sweater, and a bright yellow hooded raincoat for site visits. Practical rubber-soled boots patched with duct tape.",
+                "accessories": "Worn leather field notebook full of sketches and tide notes, a battered hydrophone in a canvas sling, a tarnished compass pendant hanging on a cord, and a simple braided bracelet from her childhood neighborhood."
+            },
+            "goal": "To design and implement a community-centered 'living seawall' that protects low-income neighborhoods while preserving public access and livelihoods.",
+            "background_story": "Grew up in the low-lying East Strand district; lost the family storefront to a storm surge when she was 16. Trained as a coastal resilience planner and returned to help rebuild the neighborhood rather than accept offers from outside firms. Her hometown's displacement drives her urgency.",
+            "emotional_trait": "Strength: fierce empathy and resilience. Flaw: carries an overwhelming sense of personal responsibility, fearing that any failure will mean community loss."
+        },
+        {
+            "name": "Noah Ríos",
+            "role": "Love Interest",
+            "personality": "Warm, pragmatic problem-solver: quick-witted, easy to joke with, reliable. He balances idealism with a startup-founder mentality and can be frustratingly pragmatic about funding and timelines.",
+            "appearance_features": {
+                "hair": "Curly black hair, kept short at the sides and slightly longer on top with a single silver streak above his left temple.",
+                "eyes": "Deep warm brown, slightly almond-shaped, often crinkling with a sardonic half-smile.",
+                "clothing": "Clean-lined, efficient tech-casual: breathable pale blue button-up (sleeves rolled), slim-fit dark chinos, a lightweight weatherproof vest with embedded pockets for sensors, and scuffed but maintained ankle boots.",
+                "accessories": "Sleek smartglasses for field diagnostics, a brass identification band engraved with his niece's name, and a prototype modular sensor (wrapped in tape) he insists is 'almost ready'."
+            },
+            "goal": "To prove and scale a modular flood-barrier technology that can be rapidly deployed to protect neighborhoods—ideally open-source, but he also needs funding to sustain his team.",
+            "background_story": "Second-generation immigrant whose family worked the docks. Studied environmental engineering and launched a small firm to create adaptable flood technologies. He wants both community impact and the stability to support his extended family.",
+            "emotional_trait": "Strength: resourcefulness and steady loyalty. Flaw: hidden insecurity about being seen as a 'good enough' solution, which can make him compromise too quickly for funding or recognition."
+        },
+        {
+            "name": "Arman Kade",
+            "role": "Antagonist",
+            "personality": "Charismatic, urbane, and persuasive: public-spirited in speeches but ruthlessly pragmatic in private. He believes hard decisions (and consolidation of control) are necessary to prevent chaos.",
+            "appearance_features": {
+                "hair": "Silver-black, slicked back with a deliberate shine and a precise widow's peak.",
+                "eyes": "Steel blue, narrow and assessing—expression often coolly amused.",
+                "clothing": "Tailored deep-navy suits with subtle pinstripes; expensive waterproof overcoat for appearances at waterfront ceremonies; polished leather shoes.",
+                "accessories": "A custom timepiece with a city contractor logo, a slim leather portfolio of blueprints, and an expensive cufflink set shaped like tiny waveforms."
+            },
+            "goal": "To implement a rapid, large-scale privatized seawall system that secures the city's economic core and placates investors—even if it necessitates relocation of vulnerable neighborhoods.",
+            "background_story": "Rose to power through construction and finance; publicly frames projects as necessary modernization. He grew up with scarcity and now equates security with control, convinced that compromises are morally defensible to prevent greater collapse.",
+            "emotional_trait": "Strength: decisive leadership and strategic vision. Flaw: moral myopia—he rationalizes displacement as 'inevitable' and struggles to empathize with those his plans harm."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Cassandra 'Cass' Green",
+            "relation_to_main": "City Mayor (public ally and occasional obstacle to Mara)",
+            "appearance_summary": "Dark-skinned, silver-streaked braided hair, formal but approachable attire: cream suit with sea-glass brooch.",
+            "function_in_story": "Holds policy power; must balance political pressures, re-election, and funding. Can be persuaded or pressured into supporting either Arman's rapid plan or Mara's community approach."
+        },
+        {
+            "name": "Elena Torres",
+            "relation_to_main": "Younger sister of Mara / lifelong neighbor",
+            "appearance_summary": "Short, sun-kissed skin, loose black curls, usually in practical workwear or paint-splattered overalls.",
+            "function_in_story": "Represents the immediate human stakes: small-business owner threatened by displacement and a voice urging Mara to prioritize people over plans."
+        },
+        {
+            "name": "Tomas Belmar",
+            "relation_to_main": "Old fisherman and community elder",
+            "appearance_summary": "Weathered, deeply tanned skin, white stubble, layered knit sweater and a battered cap.",
+            "function_in_story": "Provides historical memory of the bay, traditional adaptation knowledge (kelp farming, tidal cues), and moral authority in community assemblies."
+        },
+        {
+            "name": "Priya Anand",
+            "relation_to_main": "Colleague at a resilience NGO / technical ally of Mara",
+            "appearance_summary": "Short-cropped hair dyed blue at the tips, functional outdoor jacket with NGO patches, always carrying a tablet.",
+            "function_in_story": "Helps model environmental impact, translates technical results into compelling advocacy materials, and pressures for equitable distribution of resources."
+        }
+    ],
+    "locations": [
+        {
+            "name": "East Strand Harborfront",
+            "visual_description": "Low-lying mixed-use shoreline with narrow streets that slope toward the water. Lighting: soft overcast interspersed with dramatic golden-hour sun when storms clear. Colors: salt-washed pastels—peeling seafoam paint, rusted red boathouse doors, and muted teal tarps. Atmosphere: humid air tinged with diesel and seaweed, distant gull calls; puddled cobblestones reflect neon shop signs after rain."
+        },
+        {
+            "name": "The Kelp Gardens (floating aquaculture beds)",
+            "visual_description": "A patchwork of tethered floating platforms covered in green swaths of kelp and modular planters. Lighting: diffused glassy light during calm mornings, phosphorescent reflections at night. Colors: lush greens against dark water, bioluminescent flecks after dusk. Atmosphere: serene, rhythmic with tides and the creak of moorings; community members tending plants give a sense of quiet ritual."
+        },
+        {
+            "name": "Resilience Lab & Greenhouse",
+            "visual_description": "A converted warehouse with glass panels and steel beams, interior flooded with filtered daylight; vertical gardens climb one wall and experimental wave tanks hum in the back. Colors: clinical whites mixed with living greens and copper pipe accents. Atmosphere: focused and hopeful; damp earth scents and soft machine hums, floors splashed with mud from prototypes."
+        },
+        {
+            "name": "Flooded Promenade (after a storm)",
+            "visual_description": "A partially submerged public walkway with stranded market stalls and upended umbrellas. Lighting: late-afternoon stormlight—heavy low clouds fractured by beams of sun—creating high-contrast reflections in standing water. Colors: saturated blues and greys, punctuated by colorful debris and emergency tapes. Atmosphere: tense and urgent, with distant sirens and neighbors wading through ankle-to-knee-deep water."
+        },
+        {
+            "name": "City Council Chamber",
+            "visual_description": "Polished wood interior with tiered seating and a long dais under warm, directional spotlighting. Colors: deep mahogany, brass fixtures, and municipal banners in faded teal and gold. Atmosphere: formal and claustrophobic—air conditioned and artificially dry; the room crackles with political theater and murmured alliances."
+        },
+        {
+            "name": "Abandoned Pier & Kelp Nursery",
+            "visual_description": "Crumbling concrete piers draped in seaweed and new rope-and-buoy scaffolding supporting rows of cultivated kelp lines. Lighting: misty dawn with low, cool bluish tones and shafts of sunlight cutting through fog. Colors: muted greys and greens with splashes of neon from safety markers. Atmosphere: melancholic but regenerative—this is a place of hands-on work, community meetings, and quiet reconciliation."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love and Moral Choice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Mara's living seawall, co-designed with locals and integrating Noah's modular sensors, proves effective during a major storm. The community keeps their homes; Arman is forced to renegotiate his project into a public-private hybrid. Mara and Noah form a lasting partnership—personal and professional—centered on open-source adaptation."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The living seawall mitigates some damage but cannot prevent the loss of a stretch of shoreline. Mara sacrifices her position to ensure equitable relocation for the most vulnerable; Noah takes funding to scale tech in other cities. They part tenderly, proud of what they saved but haunted by the trade-offs."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political pressure and funding shortfalls force the city to accept Arman's privatized seawall. The redevelopment protects the economic core but displaces many East Strand residents; Mara's efforts are sidelined. Her relationship with Noah fractures under ethical disagreements. The story ends with community members scattered but determined to continue grassroots resistance elsewhere."
+        },
+        {
+            "type": "True",
+            "summary": "No single solution wins. After protracted struggle, the city adopts a mixed strategy: Arman's hard defenses for critical infrastructure and a community‑led network of living systems for neighborhoods. Mara accepts a new role coordinating community grants rather than leading design—finding agency in incremental progress—while relationships rearrange into new, sustainable forms that reflect compromise and hard-won realism."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

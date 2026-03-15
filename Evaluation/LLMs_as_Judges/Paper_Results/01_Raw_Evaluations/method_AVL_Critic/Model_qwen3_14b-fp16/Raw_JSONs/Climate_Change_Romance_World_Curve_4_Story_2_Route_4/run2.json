@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance (Theme and Genre). The story seems to be about community resistance against displacement, environmental issues, and personal sacrifice. The genre is probably drama with elements of social commentary. The themes are very relevant to current issues like gentrification and environmental conservation. So, I'd say high relevance, maybe a 5.
+
+Coherence: The story flows well. There's a clear narrative with characters making decisions, conflicts, and a resolution. The plot makes sense, even with the emotional weight. So, coherence is strong, maybe a 5.
+
+Empathy: The characters' emotions are well depicted. Ava's struggle, Ori's departure, the community's efforts—all are relatable. The reader can feel their grief, resolve, and determination. So empathy score is high, maybe 5.
+
+Surprise: The ending isn't a twist but a resolution. The story builds up to the decision to fight on, which is expected given the buildup. The surprise might be low, maybe a 3 because it's more about emotional impact than a plot twist.
+
+Engagement: The story is engaging with its emotional depth and relatable themes. The reader is drawn into the characters' struggles. So engagement is high, maybe a 5.
+
+Complexity: The story isn't overly complicated. It has multiple characters and subplots but remains focused on the main conflict. The complexity is moderate, maybe a 4. It's layered enough but not too intricate.
+
+Now, I need to structure this into JSON with the exact keys. Make sure explanations are concise and match the scores.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story strongly aligns with its themes of community resistance, environmental preservation, and personal sacrifice, resonating with contemporary social issues. The genre of dramatic narrative with social commentary is well-executed.",
+  "CH_Score": 5,
+  "CH_Explanation": "The plot is logically structured, with clear cause-and-effect relationships between characters' actions and the community's struggles. The narrative flows cohesively from conflict to resolution.",
+  "EM_Score": 5,
+  "EM_Explanation": "The emotional depth of characters like Ava Maren, Ori Navarro, and Mara is vividly portrayed, allowing readers to empathize with their grief, resolve, and sacrifices. The raw emotions are palpable and relatable.",
+  "SU_Score": 3,
+  "SU_Explanation": "The ending is not a traditional twist but a poignant resolution that feels earned through the buildup of the story. While not surprising, it delivers emotional weight and closure.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story captivates through its immersive portrayal of community struggles, character dynamics, and the stakes involved. Readers are emotionally invested in the outcomes and the characters' journeys.",
+  "CX_Score": 4,
+  "CX_Explanation": "The narrative balances multiple layers—personal relationships, legal battles, environmental themes—without becoming convoluted. It offers enough depth to engage readers while maintaining focus on its core message."
+}

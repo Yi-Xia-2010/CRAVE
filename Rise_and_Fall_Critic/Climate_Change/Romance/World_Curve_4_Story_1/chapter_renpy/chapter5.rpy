@@ -1,0 +1,187 @@
+label chapter5:
+
+    # [Scene: Flooded Promenade | Midday]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Applause, a gull calling, the distant thunk of a mooring cleat under strain]
+    # play music "music_placeholder"  # [Music: A restrained fanfare that holds a brittle edge]
+    "You stand with the press circling like tidepools — microphones bobbing, lenses catching the quick, bright spray from the demonstration turbines two canals over. Your chestnut hair is damp at the temples; the frayed blue ribbon"
+    "at the nape of your neck clings to your collar. Elias's hand is at the small of your back, steady and warm beneath his slate-blue jacket, which still smells faintly of ozone and thermal grease."
+
+    "A camera pushes forward. A reporter's voice, too bright for the moment" "Maia Soler, can you tell us what this means for Marenport?"
+    "You draw breath. The applause feels like a held thing finally released — the city letting out a breath it had been saving for years. You can taste salt and the faint tang of celebratory spray"
+    "on your tongue. You should say something that gathers all the relief and responsibility into a single line. Instead, you say what you mean."
+    show maia_soler at left:
+        zoom 0.7
+
+    maia_soler "It means fewer nights where we listen for someone who won't come home. It means our terraces can hold dinners, not graves. But—' (your voice tightens; you let the small word sit like a stone) '—it also means we keep watching. We don't let a good thing become a shortcut that forgets people."
+    show elias_kade at right:
+        zoom 0.7
+
+    elias_kade "The pilot shows the current stabilized across Canal Twelve. Sensors recorded a thirty-two percent reduction in forced intrusions during yesterday's surge. This is just the beginning."
+    "A cheer rises. Old Man Toma, standing on a nearby raised boardwalk with a patchwork cloak whipping at his shoulders, grins and starts a slow, proud hum of the harbor tune you know by heart. For"
+    "a few delicious days, the collective breath the city had held loosens. You let yourself be buoyed by it — by the children's laughter as they chase reflected light, by Ibe's clap on your shoulder that"
+    "leaves a smear of grease on your sleeve."
+
+    menu:
+        "Smile broadly to the press, play the triumphant face":
+            "You give the cameras the smile the city wants. The clip will run on loop; your face will be the promise people replay before they sleep."
+        "Step aside and find Elias—let your relief be private for a moment":
+            "You take Elias's arm and steer him away from the crowd, wanting the small, solid warmth of him without the sheen of public expectation. He lets you, thumb brushing your wrist as if promising steadiness."
+
+    # --- merge ---
+    "You let both relief and unease ride in the same chest. The turbines hum in the water like sleeping machines dreaming of order. For several days, the city falls in love with the idea that scale"
+    "can fix what scale broke. Rin's public statement — measured, magnanimous — circulates quickly: 'A proof-of-concept for humane stabilization,' she calls it. Her emissaries smile; her name becomes a kind of weather forecast: calm, then possibility."
+    "But victories, even gilded ones, gather shadows."
+    # [Scene: Canal Twelve / Outside Saltglass Research Lab | Late Afternoon]
+    hide maia_soler
+    hide elias_kade
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Monitors chiming, the soft abrasive of graphite against tablet glass]
+    # play music "music_placeholder"  # [Music: Low, insistent undercurrent — the tone of an engine that won't cease]
+    "You and Elias walk the perimeter when the first anomaly pings through the feed: a sediment sensor downstream registers an unexpected uptick. The readout is a pale, uncompromising line on a graph. Serena Qiu is already"
+    "there, hair tied tight, wrists clicking with diagnostic data as if that rhythm could steady her words."
+    show serena_qiu at left:
+        zoom 0.7
+
+    serena_qiu "Sediment flux downstream is up twenty percent in the last eighteen hours. Traditional fish run markers show abrupt shifts in timing."
+    "You feel the word 'abrupt' like a splinter under a fingernail; the old rhythms of the channel — the way elders taught you to read the water — are not only data points but memory. The market vendors will feel this in their nets and in the bargaining at dawn."
+    show maia_soler at right:
+        zoom 0.7
+
+    maia_soler "Do we know which habitats are most affected?"
+
+    serena_qiu "Some rooftop taxa exposed on the leeward terraces didn't adapt to the microcurrent shift. Microclimates we thought inert are changing. It's not catastrophic yet, but it's directional."
+    show elias_kade at center:
+        zoom 0.7
+
+    elias_kade "We can adjust turbine pitch to redistribute flows, run a compensatory pulse sequence. It will require recalibration, maybe a day's downtime."
+    "You want to say 'do it' and mean it — the impulse to protect people quickly is humming within you. But Serena's next line pulls at the rim of your relief."
+
+    serena_qiu "A day's downtime could mean vulnerability during high tide windows. But faster scaling without iterative checks risks systemic knock-on effects. We're trading local stability for citywide predictability if we rush."
+    "She meets your eyes with a frankness that makes you recall why you trusted her enough to listen when Elias' dazzlement could have swept you. You remember the fishermen in Canal Eight who lost the morning's"
+    "catch last season after a hastily rerouted pump. Memory fills the thin space between a confident engineer and the practical harm you try to hold at bay."
+    "The lab doors hiss; Rin Voss arrives in the doorway like a tide that can be read but never fully known. Her coat hangs like a dark current; her amber eyes skim the screens, unreadable."
+    hide serena_qiu
+    show rin_voss at left:
+        zoom 0.7
+
+    rin_voss "We anticipated adjustments. That's why pilots exist. The initial windows show the model works at scale. We need authorization to move to Phase Two. Delay risks losing momentum — and funding."
+    "You feel momentum like pressure behind the ear, and you know she is right in a way that tastes like steel. Money is not abstract in Marenport; it buys materials and wages and the repair crews"
+    "that show up when a mooring snaps. But 'momentum' is also a pressure that can smooth over the sharp edges of who actually pays the cost."
+
+    maia_soler "Phase Two with community oversight. Not just a green light. Not a blank check."
+
+    rin_voss "Community oversight done poorly is worse than none. We have models and legal frameworks. Let us manage the technical risks; you manage the social integration."
+
+    elias_kade "We can design governance layers. My team already sketched a community API for feedback."
+    "You look at Elias and then at Rin and feel a private fracture — not loud, but thin and precise. Elias believes in creating systems that scale; you believe systems must be made with hands callused"
+    "from the work they aim to protect. Rin believes the clock is a tide that will not wait. All are true. None is whole."
+
+    menu:
+        "Insist on a public moratorium for two weeks to collect site reports":
+            "You push the pause, name the exact time you need. The room absorbs the request like cold water. Some faces are grateful; some like Rin's harden at the prospect of delay."
+        "Propose a rolling Phase Two: staggered, monitored modules with local repair teams embedded":
+            "Your compromise glitters with engineering poetry — it keeps momentum but adds boots on the ground. Elias nods, visibly relieved. Rin considers, lips thin."
+        "Defer to Elias's technical plan and focus on mobilizing community adaptation funds":
+            "You lean on Elias's expertise and shift to what you do best: networks and people. Rin smiles at the delegation; Serena's jaw tightens — it reads like surrender to her."
+
+    # --- merge ---
+    "The choice hangs, but for now, it's a conversation. You listen to the room: Toma's low humming has stopped; outside, a floating vendor shouts, and the sound cuts the air like knotted rope. You feel the city like a living thing in your hands, equal parts buoyant and fragile."
+    # [Scene: Saltglass Research Lab — Conference Room | Evening]
+    hide maia_soler
+    hide elias_kade
+    hide rin_voss
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft rustle of papers, the distant clap of waves against pilings]
+    # play music "music_placeholder"  # [Music: Sparse piano notes — a pattern of concern]
+    "The meeting runs long. You lay out the field reports from vendors, Serena's sediment graphs, and the anecdotal notes from rooftop gardeners whose basil has gone bitter under changed currents. The press release about the pilot's success floats somewhere outside; inside, the work is quieter and less triumphant."
+    "Rin Voss sits, palms folded, listening as if she is learning a language she already speaks. Her amber gaze never gives away whether she is angling into you or against you."
+    show rin_voss at left:
+        zoom 0.7
+
+    rin_voss "Anomalies are expected in any emergent system. We patch. We iterate. The benefit — fewer catastrophic inundations — outweighs severe but localized disruptions."
+    show maia_soler at right:
+        zoom 0.7
+
+    maia_soler "What counts as 'localized' when locals lose their livelihoods? When old seasonal runs that fed families for generations shift? Those things are not collateral; they're social tissues."
+    "Rin Voss's mouth presses. She is measured, but you detect an almost imperceptible tightening — not anger exactly, but the sort of compression that precedes a decision made for reasons other than a single meeting."
+    show elias_kade at center:
+        zoom 0.7
+
+    elias_kade "We can develop compensatory measures. We shouldn't let fear slow us from saving lives."
+    hide rin_voss
+    show serena_qiu at left:
+        zoom 0.7
+
+    serena_qiu "Saving lives also means not making new ones at someone else's expense. We need a slower rollout to gather ecological response curves. Otherwise, we build an engineered peace that erodes the community's base."
+    "The room tilts toward argument. Your throat collects a half-formed apology to all of it: to the elders who taught you to read tides, to the engineers who wake at dawn to make life safer, to"
+    "Rin who carries a kind of urgency that might be the only thing keeping the city from succumbing."
+    "You feel the old anxiety — that note in you that made you distrust centralized solutions in the first place — take root and widen. You're thrilled by what the turbines have done and alarmed by"
+    "what they have unmade in the margins. The victory that cheered the city now looks like a door that opens onto a hallway you haven't explored."
+    hide maia_soler
+    show old_man_toma at right:
+        zoom 0.7
+
+    old_man_toma "Do not let the bright thing swallow the dark edges. We are not a machine to be tuned without asking the fishermen what their nets say."
+    "Rin Voss inclines her head, and for a moment, her patience looks almost tender. Then the same blankness returns."
+    hide elias_kade
+    show rin_voss at center:
+        zoom 0.7
+
+    rin_voss "We have to authorize Phase Two to secure the next tranche of funding. Without it, all these plans — your terraces, your adaptation work, the jobs — risk being undercut by inertia."
+    "You look at Elias. His jaw is set; he is trying to be both conciliatory and decisive. In the echoes of the lab, you hear the city pulse — vendors calling at dusk, the soft slap"
+    "of a dinghy in shallow water. You hear also the small, future noise of a community that might have been, and may yet be, broken and mended in ways you cannot fully control."
+    hide serena_qiu
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "We can thread oversight into the deployment. We can write the mandates. We'll put reparations into the budget."
+    "You want to accept that promise because it is Elias and because hope is a practical thing sometimes. But the evidence on Serena's screen and the vendor complaints tug at the hem of your resolve."
+    "You realize, with a sudden nausea under your ribs, that this is the moment where the decision shifts from being about engineering to being about ethics. You have helped inaugurate a machine that will do good"
+    "but will also, inevitably, displace some goods that are not measured in kilowatts or sensor ticks."
+    # [Scene: Flooded Promenade — Dusk]
+    hide old_man_toma
+    hide rin_voss
+    hide elias_kade
+
+    scene bg ch5_4001e7_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A vendor's distant shout; the soft scrape of a boat against a piling]
+    # play music "music_placeholder"  # [Music: A descending cello line — melancholy, unresolved]
+    "You step away from the boardroom after the long session. Elias follows, shoulders hunched in that way you have come to read as apology and insistence at once. You stand at the edge of the promenade"
+    "where water mirrors the gray sky and watch a small cloud of sediment drift like smoke downstream — slow, inscrutable."
+    "A floating vendor approaches, face lined and sun-browned."
+
+    "Floating Vendor" "Maia—your turbines helped us these last two nights. Saved my cousin when the surge came. But—' (he gestures helplessly to the downstream tack where a cluster of lines have frayed) '—my moorings keep slipping. I had to refuse a customer yesterday because my boat wouldn't hold."
+    "The grief in his voice is not accusation — it's the weary accounting of someone balancing livelihoods against safety. The contradiction coalesces into a single hot, sharp thing in your chest."
+    "You breathe the wet night air deep, as if inhaling might anchor you. The locket at your throat is cold; you thumb it absentmindedly, pressing the tiny coastline photograph inside until the edges bite. You think"
+    "of every compromise you've already made; of the grip Rin's emissary left on your hand; of the relief in Elias's eyes when you said yes; of the hopeful, exhausted faces of your neighbors."
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "We can fix this. We will fix this."
+    show maia_soler at right:
+        zoom 0.7
+
+    maia_soler "We have to decide what 'we' means before we sign everyone to the cost."
+    "His hand finds yours, an old, small ritual. You look down at the interlocked fingers and see, in his skin and your own, the map of the city's future: neat lines of circuitry and rough, salted calluses. Neither map contains the whole truth."
+    "A small, private gust lifts the hem of your jacket. Somewhere downstream, a gull cries like a question."
+    "You do not yet know how the city will fold this success into its bones. You only know that for all the cheering and the headlines, a new anxiety has taken root — a slow, persistent"
+    "sense that you flew, briefly and brilliant, too close to a solution without seeing the shadow it threw."
+    # play music "music_placeholder"  # [Music: The cello falls away, leaving only the lap of water and the far, steady hum of the turbines]
+    hide elias_kade
+    hide maia_soler
+
+    scene bg ch5_4001e7_5 at full_bg
+    "You tuck your chin, feeling the weight of what you've promised and the weight of what you may have inadvertently cost."
+    "You feel it — the future has shifted underfoot, and the next move will not simply be technical. It will be moral, communal, and personal. You stand at the edge of a decision that will define"
+    "not just infrastructure, but who gets to survive and on whose terms. You breathe, tasting salt and iron, and know the next chapter will be about the fall of a promise, and about the reckonings to"
+    "come."
+
+    scene bg ch5_4001e7_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter6
+    return

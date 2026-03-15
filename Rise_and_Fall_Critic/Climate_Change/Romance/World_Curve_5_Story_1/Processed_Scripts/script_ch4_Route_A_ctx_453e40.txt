@@ -1,0 +1,143 @@
+### SCRIPT
+# Route: Route A — Compromise
+# Context: 453e40
+
+[Scene: Glassed Conference Room | Morning]
+[Background:"ch4_453e40_1"]
+[Music: Quiet, hopeful piano; a soft swell of strings underlines careful breathing.]
+[Sound: The scrape of a chair leg, low coffee machine hiss from the corner, distant gulls muffled by the glass.]
+
+Mira Kestrel sits where she told herself she would — across from Jonah Hale, where the glass makes everyone look a little smaller and more honest. Mira Kestrel smooths the cuff of her salt-stained jacket out of habit. The tidewatcher pendant rests warm against her sternum. Breath in. Breath out. The room smells like printer toner and strong coffee, with a faint undertow of salt from the bay.
+
+Jonah Hale taps his slim slate. The screen throws a grid of timelines and a calm cascade of projected costs and milestones. His silver band flashes in a line of light as he gestures; the movement is practiced, precise.
+
+Jonah Hale [calm]: "We've mapped three phases. Phase one is immediate stabilization at the choke points—concrete reinforcement limited to the northern breakwall, paired with living berms along the mid-bay. Funding is front-loaded, measurable. We can show results within six months."
+
+Mira Kestrel watches his mouth form each phrase and feels the careful cadence of the man who has always planned the next two steps. There's an ease to his certainty that can be seductive. It promises numbers, boxes ticked, a ledger that will keep the town safe in a way that looks permanent.
+
+Mira Kestrel [inquiring]: "And who owns the land where those reinforcements sit? Who manages access and the revenue if any commercial redevelopment happens later? The berms run best when corridors for wildlife and water flow remain intact. We can't just patch the bay and call it a day."
+
+Jonah Hale's eyes narrow, but his smile stays. He opens another tab, slides a schematic toward Mira Kestrel like an offering.
+
+Jonah Hale [soft]: "Community trusts. Public-private maintenance agreements. We can carve out habitat corridors—within limits. The crucial thing is time. If we don't act with certainty now, we lose leverage and funding could pull. I'm offering certainty with safeguards."
+
+Mayor Lin Park leans forward from the head of the table, fingers steepled. The Mayor's voice is careful, threaded with municipal arithmetic and the desire to keep everyone — and every vote — afloat.
+
+Mayor Lin Park: "We need both credibility and commitment. If Jonah's consortium brings the money and we pair it with Asha's adaptive monitoring, we have accountability. Mira, your pilot with Tidelab gives us the data to proceed incrementally."
+
+Mira Kestrel's throat tightens. Asha's name is a tether; Asha is the scientist who runs models until the numbers stop arguing. Mira Kestrel thinks of the failed pilot three seasons ago like a quiet bruise that still aches when touched.
+
+[Background:"ch4_453e40_2"]
+[Sound: The soft tapping of Asha's stylus; a mic light blinks; someone murmurs beyond the glass.]
+
+Asha: "The hybrid falls within a safe margin in our ensemble runs. If we maintain community stewardship and monitor sediment accretion rates monthly, we can adapt the engineering footprint down as the berms take root. It buys time and space for the marsh to establish."
+
+Mira Kestrel [measured]: "And community ownership? Can we include clauses that require local oversight, training grants for maintenance, and enforceable profit-sharing if any redevelopment revenue emerges?"
+
+Jonah Hale [nodding]: "Yes. Those are negotiable items. We write them into the memorandum. Benchmarks trigger funding tranches — and oversight can be a standing committee with resident representation."
+
+Mira Kestrel's chest loosens — just a fraction — because words now can be turned into legal scaffolding, and scaffolding can hold weight. The room smells suddenly less of machine and more of possibility.
+
+[INTERACTION]
+> Choice A: "Offer a small, personal confidence vote — a public endorsement"
+> Choice B: "Push back on wording — demand explicit, enforceable resident seats on the oversight committee"
+[Outcome A: "Mira Kestrel clears her throat and offers Jonah Hale a careful nod. It's not a surrender; it's a measured opening. Jonah Hale's eyes register relief and respect. Across the table Asha checks the tablet and lets a small smile out of a place Mira Kestrel didn't expect to see it."]
+[Outcome B: "Mira Kestrel sharpens her voice and points to the clause about oversight. The air tightens; Jonah Hale's jaw sets for a heartbeat. Mayor Lin Park raises a palm, then inclines her head. Asha's stylus hovers, and Mira Kestrel can almost see the words rearranging themselves to make room for what she asked."]
+[MERGE: Mira Kestrel nods, feeling both the weight and the lift of that agreement. It's not victory; it's a hinge.]
+
+Jonah Hale leans back only slightly and folds his hands. He is polished, but not inflexible; the slate shows it all as tweaks. He wants to move forward, but he is also listening — at least enough to knit concessions into the next version of the draft.
+
+Jonah Hale: "If that removes risk of community displacement and keeps maintenance local, I can present that to the board."
+
+Mira Kestrel nods, feeling both the weight and the lift of that agreement. It's not victory; it's a hinge.
+
+[Sound: A soft ping from Mira Kestrel's wristband. She distracts herself for a breath and swipes the notification. Cassian Rhys: a text thread — a low-resolution live feed of the hearing from the boardwalk, and a small painted heart emoji sent without words.]
+
+Mira Kestrel hovers on the image: Cassian Rhys leaning against a faded railing, jacket speckled with paint, mouth tugged into an expression somewhere between squint and grin. The heart feels like a physical thing: warm, absurd, steady. It steadies Mira Kestrel. For a second she is not only a person at a table with schematics — she is someone someone else believes in.
+
+[Scene: Boardwalk | Midday]
+[Background:"ch4_453e40_3"]
+[Sound: Boardwalk ambient noise — murmur of the crowd, a child's cry, a harmonica riff that someone is playing three stalls down.]
+
+Cassian Rhys [to a neighbor, quietly]: "She's good. Mira's not going to let them steamroll the marsh."
+
+Neighbor: "Hope so. My shop's on that map."
+
+Cassian Rhys watches the screen as if reading tide lines. He texts Mira Kestrel another quick thing — two words: "Hold steady" — and the screen goes black when the feed cuts to break for the Mayor's interjection.
+
+Mira Kestrel tucks the device away with the practiced calm of someone who has worn many hats: scientist, neighbor, imperfect guardian.
+
+[INTERACTION]
+> Choice A: "Stay late at the lab to re-run the model with the new clause"
+> Choice B: "Call Nadia and ask her to help coordinate volunteers at the planting sites"
+[Outcome A: "Mira Kestrel volunteers. Asha's eyes light: two minds on the model mean fewer blind spots. Mira Kestrel returns to the greenhouse lights buzzing and the humidity like a warm coat, and the work feels like the safest kind of prayer."]
+[Outcome B: "Mira Kestrel places a quick call. Nadia answers with breathless enthusiasm and the promise of hands. Mira Kestrel's sister's voice gives her a practical, immediate kind of comfort — planting is work that proves itself in mud and sweat."]
+[MERGE: The town leans forward; whichever Mira Kestrel chooses, work and community follow.]
+
+[Scene: Tidelab Greenhouse | Night — Montage: One Week]
+[Background:"ch4_453e40_4"]
+[Music: Piano builds into a warm, ascending motif; light percussion joins, imitating work's rhythm.]
+[Sound: Mud sliding, whispered instructions, a soft chorus of laughter breaking through fatigue.]
+
+For a week the town leans forward. Volunteers plant marsh grass where engineers promise to shore up foundations. Asha cross-checks sensors against the models and sends annotated updates to the consortium. The Tidelab glows late into the night; its lamps like tiny suns handing out second chances to seedlings and plans alike.
+
+Mira Kestrel stands in the damp heat of the greenhouse one night, palms silt-dark, hair sticking damply to her neck. Cassian Rhys brushes a smear of peat off Mira Kestrel's sleeve with his thumb and says something half-joking, half-true about Mira being better at spreadsheets than at flirting.
+
+Cassian Rhys [soft]: "You always get the data to do the heavy lifting, Mira. Let other people carry your hope sometimes."
+
+Mira Kestrel [laughing]: "Hope doesn't take well to being carried. It grows better when people water it."
+
+Asha appears at the doorway, tablet in hand. Her numbers come and land like small, precise gifts.
+
+Asha: "Sediment accretion is tracking positive in the pilot zones. Vegetation cover is up three percent where planting density was increased. If contamination events stay low and maintenance continues, the hybrid is functionally reducing wave energy at the test points."
+
+Mayor Lin Park joins Mira Kestrel at the doorway, the municipal light haloing her with a sort of official warmth. There is something tentative in her step, like a woman testing whether a tide will hold.
+
+Mayor Lin Park: "The board responded well to the benchmarks. They're amenable to the oversight committee language with resident representation. If we keep delivering on the pilot, I can secure additional municipal matching funds."
+
+Mira Kestrel closes her leather notebook with a quiet, reverent motion. The brass tidewatcher cools against the leather. She takes a breath and lets the brittle happiness bloom — sunlight on fractured glass, sharp and bright. It is not whole; it is not absolute. But it is something she can point to and say, with cautious pride, 'this is better than what we had.'
+
+Mira Kestrel makes an entry: "Pilot scaling successful — request oversight clause language be drafted; community training grants recommended." The pen leaves a neat line. The notebook smells faintly of damp leather and ink; it smells like work done and work to come.
+
+[Background:"ch4_453e40_5"]
+[Music: Strings swell into a warm, optimistic chord, then settle into a comfortable promise.]
+
+Ruben stops by the Tidelab one afternoon with his cane tapping a slow, dependable beat. He looks out at the planted berms and the volunteers — a ragged but determined line of human hands shaping the shore.
+
+Ruben [quiet]: "You did good, kid. Not perfect, not pretty — but it holds. People are out here because you asked them to be."
+
+Mira Kestrel looks at him, and whatever fear had been sitting like a stone behind her ribs shifts, made lighter by the knowledge that the stone now has hands on it, pushing.
+
+Cassian Rhys finds Mira Kestrel later on the boardwalk as dusk drags a thin orange line across the water. He takes her hand in a way that says 'we're in this' without needing to spell it. The town looks softer from here, not less vulnerable, just more human.
+
+Cassian Rhys [low]: "We made something that might last. That counts."
+
+Mira Kestrel [honest]: "It counts a lot."
+
+For a week, the pilot takes shape into policy, into communal labor, into training days and small applause. Jonah Hale presents revised contract language with the oversight committee clause spelled out and the benchmarks tied to phased funding releases. Mayor Lin Park nods and signs preliminary agreement pages with a fountain pen that feels ceremonious.
+
+Jonah Hale [restrained relief]: "We will proceed in phases and build proof of concept. If the hybrid achieves the benchmarks you asked for, we can scale back the hard footprint and prioritize the living systems."
+
+Asha [softly]: "We run monthly evaluation protocols and publish them publicly. Transparency will be the guardrail."
+
+Mira Kestrel lets herself record the wins in her notebook — a cautious ledger of hope. She tucks the pen behind her ear for a second and stares out at the bay as the last light folds into night. The reflection of the seawater glints like a promise.
+
+Mira Kestrel feels a brittle joy — sunlight on broken glass. It's not whole, but it works. It will have to be enough for tonight.
+
+[Background:"ch4_453e40_6"]
+[Music: The piano motif resolves into a sustained note that holds room for the future.]
+
+Mira Kestrel closes the day with the sound of volunteers laughing in her ears, with Cassian Rhys's small, steady hand in hers, with Asha's quiet competence ringing in her head. For now, the town leans forward and the pilot holds. She files the success in her leather notebook with cautious pride and a steadying, tiny hope.
+
+[Page-Turn Moment]
+Mira Kestrel lets the image of the planted berms and the lined faces of volunteers stay in her mind like a photograph — edges still raw, but with enough fidelity that she can call it memory if she needs. The tide keeps its patient tally; decisions will come again. Tonight, the ledger is green.
+
+[Background:"ch4_453e40_7"]
+[Music: Fade Out]
+[NEXT CHAPTER: 5]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 5
+    > Jump Target File: script_ch5_Route_A_Split_ctx_4001e7.txt

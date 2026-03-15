@@ -1,0 +1,530 @@
+{
+  "title": "Tide Lines of Maris Bay",
+  "summary": "You are Marin Solé, a returning coastal ecologist who must shepherd a community-led restoration for Maris Bay while navigating a charged romance with Kaito Navarro and top-down offers from Aria Chen of TideLine Ventures. The narrative follows a Cinderella emotional arc: an initial rise of hope as Marin and the town find momentum, a catastrophic setback—an intense storm and political betrayal—that collapses the temporary victory, and a final recovery through moral clarity and collaborative action. Branching choices force alliances and tactics: cooperate with TideLine for quick, partial protection; insist on community ownership at the risk of funding; or pursue legal and public exposure of hidden contracts. Each choice shapes Marin's relationship with Kaito, the fate of fishing access, and whether the shoreline is privatized or kept common.",
+  "emotional_curve_type": "Cinderella",
+  "player_character": "Marin Solé",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt and Notebooks",
+      "branch_designation": "Common",
+      "narrative_focus": "The prologue places me back on the Old Pier, fingers sticky with rope tar and sea-spray in my sea-glass teal hair. I carry my battered waterproof notebook, wire-frame glasses reflecting the bruised sky. I run through tide charts, press a strip of seaweed between pages, and reintroduce the town’s textures: damp planks, co-op laughter, Rosa’s bright overalls and Old Tomas’ knitted cap. Kaito appears in a navy knitted sweater, grin creasing hazel eyes; he jokes about my field jacket already patched at the elbow. Aria Chen’s slick TideLine van glints on the horizon—jet-black bob and reflective piping visible even at a distance. My scientific voice lists measured salt infiltration and erosion rates—methodical, careful—but my chest tightens remembering the friend we lost. I meet with Dr. Lian Obasi in the greenhouse; bioluminescent tanks cast teal light on our plans. The city’s offers and the town’s fears are sketched out: quick tech promises versus marsh restoration. I commit, aloud, to bridge science with local practice. This chapter grounds my guilt-driven perseverance and sets the immediate emotional stakes: keep Maris Bay intact without erasing its people.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Marin Solé",
+        "Kaito Navarro",
+        "Aria Chen",
+        "Dr. Lian Obasi",
+        "Rosa",
+        "Old Tomas",
+        "Mayor Ana Beltran"
+      ],
+      "locations_used": [
+        "Old Pier",
+        "Greenhouse"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Greenhouse Plans and Tides",
+      "branch_designation": "Common",
+      "narrative_focus": "I’m in the Maris Bay Research Greenhouse with Dr. Lian, mud on my mud-specked leggings, reef-pattern shirt damp from humidity. Rows of salt-tolerant plants glow under bioluminescent algae tanks; Dr. Lian’s short-cropped hair bobs as she explains sensor arrays. My notebook fills: living breakwaters, dune restoration timelines, pilot plots near the Boardwalk Floodplain. Kaito drops by the greenhouse in an oilskin coat, bearing rope and a carved whale talisman; his hazel eyes worry as he asks if restoration will block boat launches. Old Tomas comes with stories about where the eelgrass used to be, pushing my empathy and duty. Mayor Ana Beltran’s pragmatic voice filters in—limited budgets, limited time. I sketch a community-led hybrid plan: marsh planting tied to cooperative pier maintenance, volunteer brigades, a small pilot grant application. But TideLine’s presence sharpens the choice—their polished, modular prototypes are on the pier’s edge, Aria’s jet-black bob visible in a staged photo-op. I promise Dr. Lian and Rosa I’ll try to make space for everyone but feel the tug of responsibility: the town needs pragmatic hope fast. I turn a page in my notebook and write, \"Bridge. Listen. Protect.\"",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Marin Solé",
+        "Dr. Lian Obasi",
+        "Kaito Navarro",
+        "Old Tomas",
+        "Mayor Ana Beltran",
+        "Rosa",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Maris Bay Research Greenhouse",
+        "Boardwalk Floodplain",
+        "Pier"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Town Hall Peak",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The town hall meeting is at sunset on the Rooftop Community Garden & Storm Shelter; golden hour lights lace the raised beds and patchwork windbreaks. I stand at the dais in my olive-green field jacket, wire-frames fogging at the edges as my voice tries to translate science into warmth. Mayor Ana’s face—photographed raincoat and fatigue—listens guardedly. Kaito speaks from the floor, fingers stained with rope burn, pleading for fishing access. Aria Chen strides in controlled steps; her high-collared technical overcoat and silver TideLine cuff make a clinical promise: fast, measurable protection. She shows rendered prototypes on a smart slate; Jun Park’s nervous face flickers in the background. The community swells with hope—this moment feels like the peak: our pilot grants, volunteers, the greenhouse results all feeding forward. My heart aches and lifts at once; I fix my braided shell bracelet and read aloud a hybrid proposal that leans on marsh restoration and modular, community-managed barriers. Applause; for a beat, I imagine success. Then the mayor asks for a single vote to accept TideLine’s early fast-funding contract as a fallback. The room tightens—this is the choice that will split our path.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to advise the town before the mayor’s vote.",
+        "options": [
+          {
+            "label": "Push the hybrid plan and ask the town to vote no on TideLine's immediate contract.",
+            "consequence": "Rally grassroots support but risk losing quick funds and appearing obstructive.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Enter a conditional agreement with TideLine to buy time while piloting our restoration.",
+            "consequence": "Gain immediate resources but accept corporate oversight and potential clauses.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Delay the vote and call an independent audit while negotiating.",
+            "consequence": "Introduce delay and scrutiny; creates political friction and public anxiety.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Mayor Ana Beltran",
+        "Kaito Navarro",
+        "Aria Chen",
+        "Jun Park",
+        "Rosa",
+        "Dr. Lian Obasi"
+      ],
+      "locations_used": [
+        "Rooftop Community Garden & Storm Shelter",
+        "Town Hall",
+        "Pier"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Stand at the Rail",
+      "branch_designation": "Route A",
+      "narrative_focus": "I chose to back the hybrid plan and urged the town to say no to the immediate TideLine contract. After the town hall, I walk the Old Pier alone, the planks dark and slick beneath my salt-stained boots. The wind tosses my sun-bleached tips; I touch the silver streak at my temple as if steadying myself. Kaito meets me at the rail, navy sweater damp, hands clasped on the rope—they’ve already heard the accusations of obstruction. He’s fierce but scared; his hazel eyes ask whether I know what refusing quick money means. Rosa, paint-splattered, organizes volunteers; Dr. Lian sends new sensor readings proving the marsh pilot could scale. Aria appears at the pier with a glossy brochure; her steely blue-gray eyes study me with assessing calm, as if measuring my obstinacy. Town gossip hardens into political pressure—Mayor Ana warns of lawsuits from subcontractors and a fraying civic patience. I make nightly lists in my battered notebook: community meetings, reclamation timelines, volunteer rosters. Standing there, bracing against wind and salt, I realize my choice has lit a fire; my role as steward is no longer private. The lull before storms feels full of brittle possibility.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Marin Solé",
+        "Kaito Navarro",
+        "Rosa",
+        "Dr. Lian Obasi",
+        "Aria Chen",
+        "Mayor Ana Beltran"
+      ],
+      "locations_used": [
+        "Old Pier"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Storm Before the Contract",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "A forecast calls for an early super-tide and the town scrambles. I am in the greenhouse at dawn, breath fogging, hair plastered to my neck, glasses fogged with humidity, as Dr. Lian boots up sensors and Kaito organizes rescue lines on the coop pier. The marsh plots we planted are being tested by a rising wind that sings through the algae tanks. Aria’s TideLine team arrives with accelerated construction permits; her AR contact lenses glow as she projects timelines—fast, efficient, sealed contracts. Jun Park appears at my elbow, hesitant, and whispers he’s uneasy about some clauses. Mayor Ana telephones: the fallback clause in TideLine’s contract will prioritize company-maintained levees that could restrict boat access. The storm grows from horizon to roar. Volunteers fight the boardwalk floods; Rosa moves like a bright beacon in paint-splattered overalls. I stand on a sodden dune and watch the surge mount; my notebook slips in the rain. This is the collapse—our momentum collapses into emergency choices and moral urgency. I must decide whether to make a last-ditch bargain, hold fast to community control, or expose TideLine’s fine print publicly. The sea roars; everything shakes.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to act as the storm hits and the fallback clause looms.",
+        "options": [
+          {
+            "label": "Accept a scaled payment from TideLine now to fund rescue and promise renegotiation later.",
+            "consequence": "Immediate safety; ceding leverage.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Publicly refuse and organize the co-op to resist corporate control—no contract.",
+            "consequence": "Risk lives in the short-term but maintain community agency.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Leak the contract to a sympathetic journalist via Jun Park and demand public scrutiny.",
+            "consequence": "Force transparency; possible legal battles.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Dr. Lian Obasi",
+        "Kaito Navarro",
+        "Aria Chen",
+        "Jun Park",
+        "Mayor Ana Beltran",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Greenhouse",
+        "Boardwalk Floodplain",
+        "Old Pier"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "After the Surge (Happy)",
+      "branch_designation": "Route A (Ending — Happy)",
+      "narrative_focus": "I accepted a painful compromise: take scaled funds for immediate rescue while insisting on formal renegotiation and public oversight. The storm scoured the boardwalk, lanterns blown out, but our organized rescue lines—Kaito’s crew, Rosa, volunteers—kept people safe. TideLine cranes helped shore things up; Aria’s steely hands shook when she admitted operational limits. Jun Park, cheeks hollowed, handed me a printed clause we’d already flagged; we demanded transparency and attached town oversight to the contract. I negotiated late into rain-dark nights, sleeves muddy, hair salt-streaked. In the end, Mayor Ana signed an amended agreement that included community co-management of the modular installations and binding guarantees for fishing access. The pier’s core remained public. There was no effortless triumph—money changed hands and grudges were made—but the town’s gardens and marsh plots were preserved and formal oversight gave Dr. Lian and me a seat at the table. Kaito’s hazel eyes met mine on the rebuilt rail; he pulled me close, sweater smelling of rope and diesel. We promised partnership, both civic and personal, under a sky that finally cleared.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 5, Option A or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Kaito Navarro",
+        "Rosa",
+        "Dr. Lian Obasi",
+        "Aria Chen",
+        "Jun Park",
+        "Mayor Ana Beltran"
+      ],
+      "locations_used": [
+        "Rebuilt Pier",
+        "Rooftop Community Garden & Storm Shelter",
+        "Greenhouse"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Conditional Contracts",
+      "branch_designation": "Route B",
+      "narrative_focus": "I recommended a conditional agreement with TideLine—accept funds now, pilot our restoration alongside their engineered measures. Mayor Ana welcomed the immediate infusion; Jun Park looked relieved, shaded by a handheld comm. At the TideLine field office, Aria’s polished storm-gray suit and precise blunt bangs lent the room a clinical confidence. We signed a memorandum of understanding that promised resources but required joint oversight. Kaito stood at the co-op, arms tight around him, wary—his rubber-soled deck shoes scuffing the wet planks. The town’s fishermen were divided; Old Tomas asked if our traditions were being leased. We set up a shared timeline: TideLine’s temporary modular platforms dovetail with our marsh embankments. My notebook lists technical steps; Dr. Lian calibrates sensors to reconcile both systems. For a moment, it feels like a pragmatic bridge. But Jun Park later whispers of an ambiguous indemnity clause and a company clause on shoreline rights that reads like fine print for privatization. I tell myself we can stay vigilant; my guilt-driven perseverance now becomes a promise to watch every clause.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Marin Solé",
+        "Aria Chen",
+        "Kaito Navarro",
+        "Jun Park",
+        "Old Tomas",
+        "Dr. Lian Obasi",
+        "Mayor Ana Beltran"
+      ],
+      "locations_used": [
+        "TideLine field office",
+        "Pier",
+        "Co-op"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Breakwater Breach",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The temporary prototype failed during a surprise storm surge. I was on the Old Pier in the rain, my glasses streaked, sea-glass teal hair clinging to my face, shouting contradictions to technicians. The modular panels Aria’s team installed buckled at a seam; sensors Dr. Lian had placed recorded unexpected scouring near the fishing channels. Kaito’s hazel eyes were furious and terrified all at once—one of his crew nearly lost a skiff. Town anger crystallized into blame; some said TideLine’s tech is a bandage, others that our hybrid was naïve. Aria moved with composed intensity, but Jun Park’s jaw tightened; he brought me a dossier with contract phrasing that would allow company maintenance crews to restrict morning launches under “safety protocols.” Mayor Ana faces an angry crowd. The breach is a public collapse: our supposed safety net showed its seams. I have to choose whether to publicly denounce TideLine immediately, lean into litigation through the mayor’s office, or double down on cooperative rebuilding with Kaito and the co-op. The sea’s roar and public fury are deafening.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Respond to the breach and the contract risk.",
+        "options": [
+          {
+            "label": "Publicly expose TideLine's restrictive clauses and demand immediate repeal.",
+            "consequence": "High conflict, legal drama, civic upheaval.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Pursue legal negotiation through Mayor Ana to modify clauses quietly.",
+            "consequence": "Slow reform, risk of backroom bargaining.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Work with Kaito and the co-op to rebuild access and prove community resilience without confronting TideLine publicly.",
+            "consequence": "Less political heat but possible long-term privatization.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Aria Chen",
+        "Jun Park",
+        "Kaito Navarro",
+        "Mayor Ana Beltran",
+        "Old Tomas",
+        "Dr. Lian Obasi"
+      ],
+      "locations_used": [
+        "Old Pier",
+        "TideLine prototype site",
+        "Boardwalk Floodplain"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Compromises at Dusk",
+      "branch_designation": "Route B (Ending — Bittersweet)",
+      "narrative_focus": "I chose confrontation and pressure—Jun Park’s leaked clauses and a local journalist’s piece forced TideLine into the mayor’s office. There were apologies and amended terms, but the public scarring was deep. The pier had temporary repairs; our marsh plots held in places but eroded in others. Mayor Ana brokered a compromise that adjusted some clauses but left others with ambiguous enforcement windows. Aria agreed to community liaisons, but I watched her steely blue-gray eyes harden; trust had been damaged. Kaito and I stitched rope and planks through restless nights; we argued after one late meeting, words sharp as wind. In the end, we kept major fishing access but accepted TideLine maintenance windows that would occasionally close stretches of shoreline. Our relationship survived but changed—intimacy became careful, loyal friendship rather than easy partnership. I stand at the pier at dusk, mud on my denim, braided bracelet catching the last light; the community rebuilds more slowly than I had hoped, but we preserved key rights. The victory tastes like salt: earned, incomplete, and honest.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 8, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Jun Park",
+        "Aria Chen",
+        "Kaito Navarro",
+        "Mayor Ana Beltran",
+        "Dr. Lian Obasi",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Repaired Pier",
+        "Field Office",
+        "Rooftop Community Garden & Storm Shelter"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Audit and Friction",
+      "branch_designation": "Route C",
+      "narrative_focus": "I stalled the vote and called for an independent audit. Jun Park breathed easier but the town split into factions who wanted immediate action or immediate money. The Boardwalk Floodplain trials continue to show dangerous scouring. I spend days with Old Tomas walking coastline memories, the lines of his face deeper than any map; his knitted cap turns with each story. Dr. Lian and I compile sensor data in my battered notebook, comparing living breakwater models to TideLine’s stress simulations. Aria responds with controlled patience: offers of an audit-friendly third-party and an invitation to tour a prototype. The mayor’s office grows anxious as waiting increases risk. Kaito visits with a carved whale talisman and asks why we delay while people worry about next week’s tides. I am methodical—careful not to rush—but the political friction mounts. The audit may expose hidden clauses, or it may stall action until another storm finds us unready. The weight of indecision is tangible; salt-streaked boards creak under the pressure.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Marin Solé",
+        "Jun Park",
+        "Old Tomas",
+        "Dr. Lian Obasi",
+        "Aria Chen",
+        "Mayor Ana Beltran",
+        "Kaito Navarro",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Boardwalk Floodplain",
+        "Rooftop Community Garden & Storm Shelter",
+        "Pier"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "The Audit Leak",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The independent audit returns preliminary findings: TideLine’s prototype would reduce exposure in the short term but includes clauses that could prioritize company control. I present the data at a special meeting; my sea-glass teal hair is plastered by rain, wire-frames slipping down my nose as community members shout. Jun Park, visibly shaken, admits he’s been asked to sign nondisclosure pages. Rosa organizes a demonstration at the TideLine prototype site; Old Tomas recounts a fishing path that would be fenced if clauses hold. The audit’s tone and a leaked email change public perception overnight: either TideLine negotiates in good faith and accepts binding oversight, or the legal consequences could sever funding streams. The political pressure spikes, and I must choose: pressure the mayor to reject any contract (but risk immediate funding and safety), go to court and expose clauses legally, or negotiate a binding community clause with legal counsel and Mayor Ana. The tide’s roar is nearly drowned out by our decisions.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Choose the legal and political route after the audit leak.",
+        "options": [
+          {
+            "label": "Convince Mayor Ana to flatly reject any TideLine contract and mobilize a legal challenge.",
+            "consequence": "Political fight, possible loss of short-term funding.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Go to court immediately with the leaked clauses and file an injunction.",
+            "consequence": "Legal clarity but expensive and combative.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Negotiate a legally binding community clause with Mayor Ana and trusted counsel, demanding co-ownership.",
+            "consequence": "Hard compromise that could secure long-term protections.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Jun Park",
+        "Rosa",
+        "Old Tomas",
+        "Aria Chen",
+        "Mayor Ana Beltran",
+        "Dr. Lian Obasi"
+      ],
+      "locations_used": [
+        "Rooftop Community Garden & Storm Shelter",
+        "TideLine prototype site",
+        "Town Hall"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Walk Away (Sad)",
+      "branch_designation": "Route C (Ending — Sad)",
+      "narrative_focus": "We chose the combative route: a public rejection and a legal challenge. The town rallied, signs raised, and Old Tomas’ stories were recorded into the court transcript. It felt righteous. But TideLine’s legal resources were vast; protracted litigation drained municipal coffers. The mayor had to make hard budget cuts—community programs were reduced, and the greenhouse’s expansion stalled. Fishing access remained in principle, but heavy-handed enforcement and contracted maintenance created friction and slow attrition of space. I watched families leave as seasonal incomes dried. I left Maris Bay by train months later to work with displaced communities elsewhere; my sea-glass teal hair was tucked into a hood, my braided shell bracelet tightening with grief. Kaito and I parted with a long, quiet hug that felt more like a goodbye than a pause; his hazel eyes were full of a loyalty that kept him in town. The coastline did not privatize overnight, but the town paid a steep price. My conscience was clear, but the cost was deeper than I’d expected.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 11, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Old Tomas",
+        "Kaito Navarro",
+        "Mayor Ana Beltran",
+        "Jun Park"
+      ],
+      "locations_used": [
+        "Courtroom",
+        "Train Station",
+        "Greenhouse"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Legal Leverage and Public Truth (True)",
+      "branch_designation": "Route C (Ending — True)",
+      "narrative_focus": "We negotiated a binding community clause. It felt impossible—sitting across from Aria in a room smelling faintly of wet tech, my wire-frame glasses reflecting legal pages. Jun Park, pallid but determined, acted as conduit while Mayor Ana held the line for the town. We demanded enforceable co-ownership of shoreline maintenance, veto on access restrictions, and community oversight boards. Aria pushed back; her conviction-as-blindspot was visible behind cool eyes, but we found legal language that bound TideLine publicly. The agreement required transparency, local hiring, and explicit guarantees for fishing access. There were no immediate perfect outcomes—TideLine still installed modular barriers in places—but we forced accountability and created legal protections that outlived any single administration. The town endured financial strain as we fought contract enforcement in courts, but the cooperative gained legal teeth. I sacrificed immediate comfort and potential career moves for that principle; Kaito and I stood after the final signing on the Rooftop Community Garden, hands cramped around a hot thermos. Our romance was unresolved but honest: no tidy victory, but truth and legal leverage remained. Maris Bay had new governance, and I felt, finally, less alone.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Aria Chen",
+        "Jun Park",
+        "Mayor Ana Beltran",
+        "Kaito Navarro",
+        "Dr. Lian Obasi"
+      ],
+      "locations_used": [
+        "Negotiation Room",
+        "Rooftop Community Garden & Storm Shelter"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Full Resistance (Alternate Ending — Community Victory)",
+      "branch_designation": "Route A (From Chapter 5 Option B)",
+      "narrative_focus": "I refused the money and organized full community resistance. We cut no legal corners; Kaito and the co-op shut parts of the pier for safety, Rosa mobilized volunteers, Old Tomas led chants that sounded older than our politics. Without TideLine cranes, we relied on human labor—sandbag brigades, living breakwaters planted by hand, solar fairy-lights strung over the rooftop shelter. The initial months were brutal; nights cold, resources scarce. But the community’s improvisation worked. The marshes took hold in places, eelgrass returned in sheltered bays, and Mayor Ana—moved by the town’s resolve—secured small grants from cooperative funds and sympathetic NGOs. TideLine receded to audit their public trust and eventually signed community oversight. I did not get immediate professional recognition from large institutions, but my battered notebook became a manual other towns requested. Kaito and I built a deliberately slow partnership—long coffees, shared tool repairs, mornings at the pier. The coastline remained public; our victory felt rooted and earned. We kept the culture of the town alive, and I learned to let others carry weight with me.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Kaito Navarro",
+        "Rosa",
+        "Old Tomas",
+        "Mayor Ana Beltran"
+      ],
+      "locations_used": [
+        "Pier",
+        "Marshes",
+        "Rooftop Community Garden & Storm Shelter"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Quiet Repair (Alternate Ending — Private Compromise)",
+      "branch_designation": "Route B (From Chapter 8 Option C)",
+      "narrative_focus": "I chose quiet, local repair with Kaito and the co-op instead of public confrontation. We spent feverish weeks rebuilding access points and testing low-tech fixes: rope-guided channels, temporary floating docks, and marsh reinforcement. TideLine’s presence remained on the horizon; their breaches were repaired by a mixture of corporate crews and our volunteers. The town’s fishing access stayed mostly intact, but corporate maintenance schedules slowly crept in—sometimes closing stretches of the coastline for \"testing\" during peak hours. Trust eroded in small increments; I pushed back but accepted that the practical compromise saved families in the short term. Kaito’s loyalty held firm, but our nights were quieter—our intimacy seasoned with caution. I kept my battered notebook and watched the pier under white LED glare in the TideLine field office; their neon cuts the fog. It felt like survival more than justice, a quiet repair that left scars and small, persistent hope. The community rebuilt corners of itself, but the broader fight for coastal commons continued elsewhere.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Solé",
+        "Kaito Navarro",
+        "Aria Chen",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Pier",
+        "TideLine field office",
+        "Rooftop Community Garden & Storm Shelter"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Branching occurs at Chapters 3, 5, 8, and 11. The emotional arc follows a Cinderella pattern (Rise → Fall → Rise). All chapters are first-person POV (Marin Solé) and reference core characters: Kaito Navarro, Aria Chen, Dr. Lian Obasi, Rosa, Old Tomas, Mayor Ana Beltran, Jun Park.",
+  "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+  "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 11:41:13"
+}

@@ -1,0 +1,124 @@
+label chapter7:
+
+    # [Scene: The Old Breakwater | Late Afternoon — Sea-slung Sky]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind, the slap of water against concrete, the distant clack of camera shutters; a microphone crackles now and then.]
+    # play music "music_placeholder"  # [Music: Tense BGM — a low, insistent rhythm underscoring urgency]
+    "You step onto the concrete, boots scuffing salt and grit. Each step sprays a fine mist that smells of iron and seaweed. The breakwater underfoot judders with every swell; it is literally the town’s old protection,"
+    "and also a display of its failure. The place feels like a throat where everything said will be swallowed and remembered."
+    "Serena Voss's holo-tablet throws up a flare of neon graphs that look almost obscene against the weathered gray. Lines arc and plunge with tidy efficiency."
+    show serena_voss at left:
+        zoom 0.7
+
+    serena_voss "Thank you for coming, Maya Calder. Thank you, Elias Rowe. Mayor Sol appreciates the quick convening."
+    "Her voice is smooth, engineered: every syllable measured to calm and to persuade. You feel the camera lenses like small, patient interrogators."
+    "You set your notebook against your thigh, fingers tracing the brass compass at its edge out of habit. Professor Haruto's notes are folded in there, annotated in a script you know by heart. You brought the"
+    "data because you'd promised him — and because the town deserves every lever you can find. But Serena Voss's models are already projected in neon; investor clocks are not idle."
+    "Elias Rowe leans in, eyes narrowed. He smells faintly of wet canvas and coffee, the practical smell of someone who fixes things with hands and plans."
+    show elias_rowe at right:
+        zoom 0.7
+
+    elias_rowe "We don't have to decide everything here, Serena Voss. We need a plan that protects people — not only infrastructure."
+    "Serena Voss looks at him, then at you, a careful tilt of steel-gray eyes."
+
+    serena_voss "Elias Rowe, we do have to decide. Investors can't be asked to wait through a decade of incremental pilots. We stabilize the artery — the port, the hospital, the energy node — we protect the town’s backbone. That secures funding. That buys time."
+    "Tomas’ voice is a low rumble, like a line being hauled tight."
+
+    "Tomas Reyes" "Backbone's fine if every bone fits the body, ma'am. You shore up the harbor and you push folks out to make room for shipping cranes, you tell me where the fishermen go. You tell me where my niece goes to keep her home."
+    "The wind cuts across his words; a gull shrieks and circles. Cameras zoom toward Tomas’ face, and you can see the pause in the crew as the narrative tightens."
+    "Professor Haruto clears his throat — thin, paper-rough."
+    show professor_haruto_miyazaki at center:
+        zoom 0.7
+
+    professor_haruto_miyazaki "The stress projections Serena Voss shows are credible given their parameters. But the parameters are choices. They assume minimal community adaptation. If you include living shorelines and phased elevation, the long-term risk profile changes."
+    "Serena Voss flicks the tablet; a new overlay snaps into place, crisp and relentless."
+
+    serena_voss "We ran parallel models. Professor Miyazaki — your expertise is valued — but our sensitivity analyses converge. The breakwater's structural fatigue accelerates nonlinearly. If we wait for community pilots to scale, there is risk of systemic failure that would cost far more — and permanently."
+    "You feel heat creep into your chest. The word 'permanently' tastes like a verdict. Your palms are damp against your notebook."
+    "You open your mouth; the first thing you want to ask is technical — point to one of Haruto's anomalous readings, highlight a mis-assumption. The second thing you want to say is a different kind of"
+    "truth: that 'we' includes the kitchens and the gardens, and those cannot be turned into collateral."
+
+    menu:
+        "Push the data: 'Your model misses tidal shear on the north arm.'":
+            "You shove a page of Haruto’s annotated chart toward Serena Voss and speak with the clipped, controlled cadence of someone who has owned a proof. Serena Voss's jaw tightens; a holo-annotation appears, and she counters with a careful correction about boundary conditions."
+        "Call her to the human: 'If we do this, where do the stories go?'":
+            "You let your voice wobble on the last word. For a breath Serena Voss's eyes falter; the steel softens for an instant before her professional mask resets. Elias Rowe's hand finds the back of your wrist, steadying but wordless."
+
+    # --- merge ---
+    "The rebuttal that follows tightens the exchange and the negotiation resumes its clinical course."
+    "Serena Voss's rebuttal is clinical at first, then personal in ways she does not intend."
+
+    serena_voss "Models are not poetry, Maya Calder. They don't preserve stories. They prevent ruin. I understand the sentimental value you place on place, but sentiment doesn't stabilize rebar."
+    "You feel the word 'sentimental' like salt rubbed into an old cut. You could retort; instead you breathe. The cameras tilt closer, hungry for contrast. You notice a young reporter's lips compressed, ready for the soundbite that will travel kitchens and town halls."
+    "Elias Rowe speaks up for you, not to shield you but to translate."
+
+    elias_rowe "They're not opposites, Serena Voss. Adaptation can be engineered and rooted. Living shorelines buy time and reduce wave energy—paired with targeted reinforcement, it's a hybrid. Investors like measurable returns. We can show them. We can make the living shoreline last."
+    "Serena Voss watches him with a complex look — appraisal, annoyance, a tiny ember of respect."
+
+    serena_voss "Show me the math. Show me a timeline that moves money within a quarter and reduces failure probability under your combined approach. If it's credible, we'll incorporate it."
+    "You hear the word 'incorporate' and your chest tightens. It's generous phrasing that contains bars."
+    "The wind gusts; salt-spray flicks across Serena Voss's sleeve. For the first time since you arrived, her expression breaks. A micro-gesture — the fingers that adjust her cufflink hesitate. For a moment the hard steel of"
+    "her gaze thins and an old hurt passes through it, like a fish shadow under turbulent water. It's a tiny human crack, seen only because your attention is trained to such things."
+    "You think of the locket you read about in her profile. You think, absurdly, of grief hardening into expedience. You imagine the measures that built her into this corporate shape — losses rationalized into plans. The pity is immediate and unsatisfying."
+
+    menu:
+        "Name the crack: 'You look tired, Serena Voss.'":
+            "Your voice is small and reckless. Serena Voss barks a laugh that doesn't reach her eyes and deflects with a graph. Elias Rowe clears his throat; Tomas mutters and shifts his cap down. The cameras blink; the moment is capture-ready."
+        "Use it: 'We can work within your investor timeline—if you let us pilot the north arm as a proof of concept.'":
+            "You speak strategy, steady. Serena Voss's eyes sharpen at the word 'pilot'; she leans in, calculator-mind already ticking through permutations. The negotiation resumes its functional glide."
+
+    # --- merge ---
+    "The negotiation snaps back into practical terms."
+    "The negotiation snaps back into practical terms. Serena Voss outlines an offer: an emergency allocation to build a reinforced seawall segment focused on the port and critical infrastructure; conditional funding for relocation assistance 'where necessary' to"
+    "be decided by a joint oversight board she proposes; and a firm demand — approval from the town council within seventy-two hours, or the investor window closes and the allocation is re-directed."
+    "You taste metal. Seventy-two hours to sway votes, to align public testimony, to thread caution into a hurried seam."
+
+    serena_voss "We need municipal assent. We provide an initial tranche of capital contingent on authorization. This protects the core systems and gives you time to phase other measures. The clock on investors is set by actuarial exposure. I'm not hiding anything. I'm asking you to act."
+    "Elias Rowe's jaw is tight. He looks at you, then at the maps spread on your notebook. His thumb traces a proposed braided berm he's sketched in blue ink. He opens his mouth, closes it, then speaks — economy with an edge."
+
+    elias_rowe "You call it triage. We call it a wedge. If you take everything for the port, the rest of the town becomes the wedge. That's not acceptable."
+    "Serena Voss's reply is patient but implacable."
+
+    serena_voss "No solution is perfect, Mr. Rowe. Risk is allocation. We're prioritizing systems that prevent cascading failures. It's cruel only in how honest we must be."
+    "Tomas laughs, short and bitter."
+
+    "Tomas Reyes" "Cruel? Or convenient for the people with the paper to sign off? Are you telling me the folks who live on the first streets won't be judged 'necessary' by your models?"
+    "The cameras catch Tomas' hand, weathered fingers splayed on a map jammed to a plywood board. There's a collective inhale among the gathered press."
+    "Professor Haruto steps forward, thin silhouette against the tablet's glow."
+
+    professor_haruto_miyazaki "If we accept a sealed triage now, it will set parameters for relocation later that are politically irreversible. Engineering choices are embedded with legal and social consequences — once you cordon neighborhoods, they become 'non-essential' in future allocations."
+    "You feel that word — irreversible — like cold stone on your tongue. The breakwater creaks somewhere down its length."
+    "Serena Voss folds her hands."
+
+    serena_voss "We will convene oversight. I will sit on it if it assures you. We will guarantee a percentage of funds for community resilience. But I cannot wait forever. My board wants assurances, not promises. They want a timetable."
+    "She produces a tablet-generated contract extract and holds it up so the microphones hum closer. The terms are precise and boxed; clauses that read like living things. The deadline is underlined in a clean, corporate font."
+    "Your throat tightens. For a heartbeat you imagine signing the paper and then imagine the ink burning through neighborhoods. You imagine the faces in the crowd — Lina's, Tomas', those of the kids who plant seedlings"
+    "on the harbor edge. You imagine telling Elias Rowe you accepted compromise — and the way his face might fold, not in anger but in tired resignation."
+    "The wind picks up. A wave slaps the breakwater and throws salt across Serena Voss's cufflinks once more; she doesn't flinch this time. Her expression is settled as a dam."
+
+    serena_voss "Approve the emergency allocation within seventy-two hours. We break ground immediately after signatures. This is my offer."
+    "You stand, notebook pressed to your ribs, knowing that every camera in Aster's Reach will carry this moment home. The offer is on the table. The timetable is set."
+    hide serena_voss
+    hide elias_rowe
+    hide professor_haruto_miyazaki
+
+    scene bg ch7_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The wind rises, mixing with the low thrumming of distant engines and the hush of expectation.]
+    # play music "music_placeholder"  # [Music: Tense BGM swells — a high, urgent note]
+    "You can feel your pulse in your throat. The decision is not yours alone but you are a visible fulcrum. You imagine the hours ahead as a narrowing funnel: conversations with Lina, a call to Mayor"
+    "Sol, Elias Rowe drafting counter-offers, Professor Haruto sketching alternative yield curves late into the night."
+    "You are aware — with a cold, precise dread — that any response will be photographed, quoted, spun. You replay possible words and the way they will land in the town's kitchens and on the harbor’s pilings."
+    "There is no hero's flourish here. There is only a scale: immediate structural saving for many, possible loss of place and belonging for others. The arithmetic feels savage."
+    "You close your eyes for a moment, tasting grit and the faint green tang of seaweed, feeling the compass against your sternum as if it could point you toward a moral true north."
+    "A decision must be made. The cameras sharpen. Serena Voss folds her hands, an unblinking table of corporate resolve."
+
+    scene bg ch7_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: A single sustained chord tightens — the orchestra holding breath]
+    "You open your notebook again and lift the pen."
+
+    scene bg ch7_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

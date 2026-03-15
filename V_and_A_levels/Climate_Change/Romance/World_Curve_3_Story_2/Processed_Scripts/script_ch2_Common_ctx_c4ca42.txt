@@ -1,0 +1,155 @@
+### SCRIPT
+# Route: Route C — Alt
+# Context: c4ca42
+
+[Scene: Tidewatch Lab | Morning]
+[Background:"ch2_c4ca42_1"]
+[Sound: Soft drip from a broken gutter, the distant gull-call muffled by fog.]
+[Music: Low, contemplative piano — slow tempo.]
+
+You step into the greenhouse and the warm, damp air wraps around you like a remembered breath. Soil and salt and that faint sweet rot of decaying marsh grass — it steadies you, oddly. Behind the condensation, rows of cordgrass and trays of young oysters glow under lamps. Light bends through the glass in softened edges; the world outside is muted, the lab a small, breathing refuge.
+
+Professor Noor moves through that refuge with the quiet ease of someone who has cataloged storms the way other people collect photographs. Her hands are warm from the propagation lamps; the salt-and-pepper bun at the nape of her neck is a familiar anchor. She meets your eyes and gives the smallest of nods — a steadying signal you don’t know how to refuse.
+
+Noor: "Good. You're on time. I wanted to run a few survey notes before we begin."
+
+You set your notebook down on the long worktable, the patched cover leaving a salt-stained ring. Your multi-tool taps a soft rhythm against the wood as you smooth the page flat, an absent habit when the room tightens. In the margin you can still see the note from the walk over: Elias Voss due this week. The name tastes like cold metal in your mouth.
+
+[Background:"ch2_c4ca42_2"]
+[Sound: A soft slap of wet fabric, flyers shuffled like a nervous heartbeat.]
+
+Rosa: "They're already talking about dates. People are rattled, Maya. We can't wait for another council cycle. We need a rally — now."
+
+You let yourself breathe in Rosa's urgency and, for the moment, match it with the steadiness you keep in reserve.
+
+Maya Soler: "Rally means time and energy, Rosa. I know what people need. We also need to make sure we don't—" (you hesitate; the word is too small for the risk) "—promise something we can't deliver."
+
+Rosa's jaw hardens. For a second she looks like the same girl who dug trenches in your childhood yard when a storm cut a new channel through a fence. She translates disappointment into determination with no in-between.
+
+Noor folds her hands on the table, a slow, practiced gesture that pulls the room's tempo down.
+
+Noor: "Both are true. We must move with care and with speed. That's the balance. Maya, show them."
+
+You stand. The table's surface is cool under your palms. The models, the annotated maps, the little clusters of oyster shells Noor keeps as place-holders — they feel like syllables of an argument you have spent a year composing.
+
+You start with the simple logic: living breakwaters built from oyster reefs and cordgrass, staggered lines offshore to reduce wave energy and trap sediment, wetland cells behind them to absorb storm surge. Your voice is softer than you expected; the humid air eats the edges of it.
+
+Maya Soler: "Oysters and cordgrass aren't a poem. They're a process. They attenuate wave energy incrementally, they rebuild substrate, they create habitat. We get less impact at peak, more stability over seasons. If we start now, the system grows with the sea."
+
+Ben Harper watches you from the end of the table. His hands are maps of other weather — calloused knuckles, a tremor in the way he lifts a cup to his lips. When he speaks, the room leans in.
+
+Ben: "Sounds good on paper. But my memory's long. We've had 'fixes' before that started small and swallowed the harbor. What happens when folks can't get to their boats? What happens when a storm hits before those oysters are mature?"
+
+You meet Ben's eyes. He is not only asking about instruments; he is asking about his neighbors, his son's mortgage, all the small economies stitched to the rhythm of the tides. Your chest tightens with a familiar ache: your brother's absence is a seam you can feel tug whenever Ben talks of loss.
+
+Maya Soler: "We design access channels. We stage construction to avoid key seasons. And —" you almost say 'trust me' and stop, because trust is earned in inches here — "— we build transitional income streams. Shellfish aquaculture, reef workdays that pay, targeted subsidized access."
+
+Aiden Kuro arrives then, late — sleeves rolled, a flannel dusted with salt and fish scales. He smells of the ocean the way a window smells of rain: immediate and real. He takes in the group with a half-smile that doesn't reach his eyes. He sets down a thermos, wipes his hands, and leans against the bench, watching you explain as if assessing the sea.
+
+Aiden Kuro: "Okay. I like that you're thinking of access. But talk to me honestly — how long before my crew can put nets where they need to? How deep are the channels? If we lose a season, that isn't theoretical. That's grocery lists and school fees."
+
+Maya Soler: "I don't have a one-season answer. Oysters need time, but certain instant measures — temporary floating docks, marked lanes — can preserve access while habitats develop."
+
+Aiden Kuro presses a knuckle into his brow. His skepticism is not the barbs of someone who hates change; it's the steady weight of someone who has fed a town because he read the weather before it read him.
+
+Aiden Kuro: "Temporary fixes are still costs. Who's paying?"
+
+Noor: "Grants, phased municipal funds, community labor credits. There are mechanisms. We can describe a phased budget that reduces up-front burden and ties private development to coastal stewardship."
+
+Ben snorts softly. He doesn't mock Noor; he pities the naive math of bureaucrats. In the greenhouse's warm light, his voice cracks with memory.
+
+Ben: "Once, a contractor promised a seawall, said it would be ours forever. It lasted three years. Then they left and the wall took our sand with it. We were poorer for 'protection' and the men who promised couldn't be found. I'm not saying no to new ideas, but I've seen promises harden into forgetfulness."
+
+The air between statement and counterstatement hums like a net pulling taut. You can feel the room folding around the single, unavoidable fact: people need income now, and ecological timescales are not always quick enough.
+
+Maya Soler: "I know your memory, Ben. I remember—" (the name of your brother doesn't need saying; the silence says it for you) "—I remember what haste can cost. I won't push something that leaves us vulnerable."
+
+Rosa shifts, shoves a flyer at Aiden.
+
+Rosa: "Then help us get people to the docks and into a workshop. Use your crews. Show them the plan on the water. Don't let Elias's renderings be the only picture they see."
+
+Elias's name hangs like a shadow in the room. You can feel the glossy edges of his proposals imprinting on people's imaginations even without seeing the renderings: polished surfaces, a promenade that promises uplift and investor shine. The thought of it near the marsh — of concrete carved where life could grow — tightens your throat.
+
+Noor's hand, when it finds yours on the table, is a light anchor.
+
+Noor: "We should walk the site after this. Show exactly where cordgrass beds would go, where access lanes could be preserved. People need to see the trade-offs spatially."
+
+You nod, but your mind ticks through logistics like a tide chart. Grant deadlines. Seed oysters. Labor schedules. The way winter storms can set back a season's work in a single night. Anxiety flickers at the edges of your composure — not the wild, surging kind, but a persistent undertow that insists on attention.
+
+[INTERACTION]
+> Choice A: "Speak with technical detail"
+> Choice B: "Appeal to memory and place"
+> Choice C: "Defer to Noor's authority"
+[Outcome A: "You pull up the sedimentation cross-sections and point at the timelines. The room leans into numbers and maps; faces soften into calculation."]
+[Outcome B: "You tell a short story about your brother on the old breakwater. The lab grows quieter; Ben's jaw unclenches and Aiden looks away, the sea in his expression for a second."]
+[Outcome C: "You gesture to Noor and step back, letting her explain the phased funding. Her steady voice calms the room; the political scaffolding becomes real."]
+[MERGE: "No matter which choice you make, the result is the same: the conversation deepens."]
+
+Multiple turns of back-and-forth follow — technical clarifications, a push-and-pull between ideal timeline and immediate needs. People interrupt one another kindly but firmly. Noor translates jargon into human terms; Ben grounds projections in lived precedent; Rosa urges action that feels like rescue; Aiden keeps asking about nets and access and money with that slow, patient insistence that refuses to be soothed by abstract beauty.
+
+You notice, in one of those small silences, that your hands are shaking. Not from adrenaline; from a fatigue that has become a constant companion. You close your fingers around your multi-tool until the tremor subsides. There is guilt there — the weight you carried home from the last flood — and it tastes like salt.
+
+A low hum of uncertainty settles. It's not a screaming panic; it's the steady sinking knowledge that time is a commodity you don't have in abundance. Noor lays out a timetable with care — trial plots this season, a community liaison, parallel funding pitches — and yet in your chest a small bell rings for every variable that could break the plan.
+
+Aiden Kuro steps closer, lowering his voice so only you hear.
+
+Aiden Kuro: "Look, I don't want to be the one who says 'no' to green things. I want the shore to last. But I also don't want us to sell hope as a fix when people's mouths are dry. Can we make this pay before it costs us too much?"
+
+You don't offer a simple answer. You feel the question as if it were a physical weight placed on your shoulder — the community's expectation of protection balanced against the very real ledger of daily survival.
+
+You take a breath and, with the greenhouse's damp warmth pressing on your back, you point to the tide chart pinned to the metal.
+
+Maya Soler: "We write a staged implementation. We prioritize areas where both protection and livelihood overlap. We pair restoration with employment — reef construction teams paid by municipal seed grants. We time work to avoid the crucial seasons for fishing."
+
+Aiden Kuro's eyes search yours for a sincerity that is not performative. For a moment the room is an island: two people who have always borne the sea's work and the town's memory, trying to find a bridge between them.
+
+Ben clears his throat, voice small but deliberate.
+
+Ben: "Don't let the 'promises' be only in renderings. Put timelines, responsible parties, and checks on the money into whatever you show the council."
+
+Noor: "We'll do that. A clear, phased budget. Transparent milestones."
+
+Rosa moves to gather the flyers again, her urgency now braided with a softer, more strategic patience.
+
+Rosa: "We'll get volunteers for the pilot. We'll show people the stakes."
+
+You feel the group's energy fold into a plan that is simultaneously cautious and hopeful. It is not the radiant victory some might want; it is a series of compromises that still could fail. The negative valence — the pervasive worry and sense of potential loss — sits in the room like fog. The arousal remains low: slow words, careful decisions, quiet urgency rather than blaze.
+
+As the meeting winds down, Noor suggests a site walk at mid-tide, a time when the channels read truest.
+
+Noor: "High tide on Wednesday. Council meets the day after. Come prepared."
+
+A small, cold rock of dread settles in your stomach. The council — a room of suits, renderings, and votes. Elias will be there, with polished images and promises easy for headlines. The thought of standing opposite him with mud under your nails and spreadsheets in your hands makes you feel, briefly, both vulnerable and ready.
+
+You gather your notes slowly. Ben lingers, looking at the trays of young oysters as if measuring the weight of years. Aiden folds his flannel over his chest like armor. Rosa's tote is heavier now, bulging with flyers and purpose.
+
+The greenhouse hums with condensation and low agreement. You feel your brother's absence as a gap you can sense in the plan's margins — a reminder that decisions here are not abstract. They are made of the same damp wood and soft grasses that held him and the town.
+
+You step out of the lab into the gray air. The fog swallows the edges of the boardwalk; the sea is a vast, unreadable sheet. In your pocket, your multi-tool is cool against your palm. Your notebook is full of sketches and timetables and a single, stubborn sentence: the town's survival must be sewn to its identity, not sacrificed for a tidy bulwark.
+
+You look back once at the greenhouse's fogged glass, at the warm shape of people standing together in that humidity. It feels, for the first time today, like both a refuge and a battleground.
+
+A thought nudges at the back of your mind — small, precise, worrying: will the council see the complexity, or only Elias's shine?
+
+You step forward toward the boardwalk, toward the argument you must make and the people who will listen and those who will not. The tide chart in your head ticks louder, not like a drumbeat but like a metronome: decisions approach, measured and inevitable.
+
+[Background:"ch2_c4ca42_3"]
+[Music: Piano continues, a single chord lingering.]
+
+You let the last word of the meeting settle into you. You feel the slow, building pressure of a coming day — not a panic, but a persistent weight that demands action and clarity. The next steps are obvious in shape, not in certainty. You must go to the council. You must bring evidence, livelihoods, and stories. You must be ready for Elias's renderings and for the political currents that will follow them.
+
+For a long moment you stand at the edge of the boardwalk, the sea whispering underneath like a second language. The emotional knot — anxiety wrapped in responsibility and grief — tightens, then holds.
+
+You turn your face to the water and let yourself keep it there for a breath. Then you tuck the notebook under your arm, clip the multi-tool to your belt, and begin the slow walk back to the town where a council chamber waits and decisions will be made.
+
+[Page-Turn: The council will ask for numbers, for certainty. You have tide charts and oysters, and the memory of what haste cost us. You are not sure where that will be enough.]
+
+[Background:"ch2_c4ca42_4"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

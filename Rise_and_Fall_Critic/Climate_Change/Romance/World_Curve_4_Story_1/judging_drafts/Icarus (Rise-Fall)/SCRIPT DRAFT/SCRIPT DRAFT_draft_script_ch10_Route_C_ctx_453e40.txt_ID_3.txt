@@ -1,0 +1,146 @@
+[Scene: Skyfarm Terraces | Morning]
+[Visual: Sun rises between storm-cloud banks, gilding terraced plots; dew beads on drip lines and the canvas awnings flutter.]
+[Music: Soft, optimistic strings with a low, steady rhythm]
+[Sound: Distant gull calls, the quiet hum of pump arrays]
+
+You breathe in the terraces the way you used to breathe when the city still felt like a single thing: salt and loam braided together, the scent of kelp and compost and something metallic where the TideGrid modules meet old concrete. For weeks now the terrace has been a workshop and a meeting place, a soft, stubborn proof that scale and neighborhood need not be enemies.
+
+Ibe is at the lowest level, loading a crate of carved sigils into a wheelbarrow. Serena crouches beside a panel of diagnostic printouts, her wristband blinking as it argues with a simulation. Elias is at a folding table under an awning, fingers stained in grease and salt, feeding his tablet the final lines of a transparency patch destined for the public repo. Across from him, Rin leans against the railing—coat buttoned, expression practiced but not unreadable.
+
+You let your hand find the locket at your throat as if to steady your pulse. The hybrid plan, once a fragile compromise sketched on napkins and terrace planks, now has a rhythm: pilot nodes humming in canals, community oversight panels ratified in clear language, artisans carving local control markers that smell of wet wood and pitch. People come with questions and tools; they leave with minutes to steward and sigils to hang by their pumps. It is messy and alive.
+
+Elias looks up and smiles—an easy, embarrassed thing that feels like sunlight finding a split in cloud. He lifts the tablet like an offering.
+
+Elias: "We pushed the latest commit. Open-source mirror is live. Serena says the fail-safes pass the burn-in."
+
+You: "You seeded it everywhere?" (your voice tight with the kind of cautious hope that sits heavy in the chest)
+
+Elias: "Every public mirror, every community node. If the code needs to be forked, it can be. No black boxes." (He tilts the tablet toward you; his finger traces a line of text, salt granules catching light.) "I wanted you to see it before the council posts the package."
+
+You look at the string of sigils Ibe set near the irrigation pumps—each carved mark a promise, a physical anchor to the digital checks you are building into governance. In your mind you hear Old Man Toma's voice, reminding children to remember both ledger and stories. This is ledger and story again, braided.
+
+Rin pushes off the railing and approaches, heels tapping softly on the boards. Her smile is patient, the kind of smile that has seen legal clauses and funding rounds.
+
+Rin: "Codified oversight panels—public minutes, two-thirds community veto on any emergency override—are in the agreement. We made them binding." (Her amber eyes soften for a beat.) "It took a lot of negotiation, Maia. Thank you for holding us to it."
+
+You find your reply on the tip of your tongue—not a concession but a ledger entry of confidence.
+
+You: "Thank you for putting it into text. Paper matters here as much as bolts." (You glance at the terraces, at the people hauling soil and hauling hope.) "Binding means binding."
+
+Rin: "Binding means responsibility. We're all tethered now." (She meets your gaze squarely.) "Which is how it should be."
+
+Elias laughs quietly and then grows earnest again.
+
+Elias: "There are still bugs. Edge cases Serena flagged—sensor drift in heavy algae events, and some latency when modules hand off control in storm surge conditions. But the network handles soft-fail, not hard-lock. We want communities to nudge it, not be overridden."
+
+Serena, sliding a printed diagnostic across the table, taps a circled note with a nail.
+
+Serena: "Soft-fail algorithms, redundancy in sensor arrays, and a public bug-bounty program. If someone finds a loophole, they get a voice and a reward. Civic scrutiny becomes a safety layer."
+
+You feel the relief bloom—not the giddy kind but the durable, ironed-out kind that comes from long nights of arguing with people who also care. Your throat unknots against the muscle of a worry that had been coiled there since the council first demanded clarity.
+
+Ibe grins, snapping a crate lid shut.
+
+Ibe: "And my lot carved the sigils for physical oversight. Wooden markers for every node—they're beautiful and practical. People will know which pump to shut if something goes wrong."
+
+You: "Show me one."
+
+Ibe offers a damp wooden sigil, its grooves still fresh. The grain smells of sap and harbor rain. You trace the carved lines with a fingertip and, without thinking, place your palm over the sign as if to pass a vow through skin.
+
+[Interactive Moment: Choice A ("Taste Elias's soup") -> Reaction: "You accept the chipped enamel bowl Elias offers, the broth warm and simple—seaweed, miso, a curl of smoke. It settles in your ribs like a small promise." || Choice B ("Check the commit log first") -> Reaction: "You take the tablet, eyes scanning code and comments. For a moment the world narrows to characters and integrity checks; each green CI badge read like a benediction."]
+
+
+[Scene: Pilot Hybrid Deployment Site — Canal Crossing Node | Afternoon]
+[Visual: A compact TideGrid node beats softly like a mechanical heart over calm water; carved sigils hang on nearby posts; artisans bolt bronze plates under the sun.]
+[Music: Percussive, gently rising—hopeful syncopation]
+[Sound: Clinks of metal, slap of rope, distant market chatter]
+
+The site smells of warm metal and wet rope. Artisans—young and old, hands inked with varnish and salt—work alongside engineers in joint rhythms. You walk the line between them: a translator of ambitions, a mediator of anxieties.
+
+One artisan, a woman with callused thumbs and a braided headscarf, runs a burnisher along a sigil, polishing grooves until they gleam. She glances up when you approach, eyes curious.
+
+Artisan: "You the one who insisted this be open? It makes our job feel less like theater and more like truth."
+
+You: "It was never just a machine. It has to be a ceremony, too." (You mean the way rituals bind people to systems.) "We needed something people could touch and understand."
+
+Rin edges closer, hands clasped. An engineer from her consortium hands her a stack of printed governance clauses, the pages slightly glossy.
+
+Rin: "We're adding community liaisons to each oversight panel. They sit with auditors, attend deployment checks, and hold a veto token. The tokens are physical—carved by local hands. If a community pulls a token, the module enters a maintenance pause." (Her tone is factual; the gesture is conciliatory.) "It keeps central authority honest."
+
+Ibe laughs, slapping a palm on a crate of tools.
+
+Ibe: "Tokens! Finally something that looks like our courts. And when someone loses a token to the tide, we carve another. That's called resilience."
+
+You kneel by a node and feel the vibration of soft fail—faint, measured, comforting. The artisans hang the carved sigils near control access points. Each marker is more than signpost—it is a story, a claim. People run their fingers over the grooves, murmuring names of neighborhoods and grandparents.
+
+Serena taps a screen and shows you an animation of an algae bloom test. She points to a graph where an orange spike flattens into green.
+
+Serena: "We layered environmental diagnostics so the system won't lock out local tactics. If a community wants to raise water for a garden, they can. The node negotiates, it doesn't command."
+
+Rin: "And there are public logs. Every hand-off is recorded and broadcast. Transparency becomes social infrastructure."
+
+For a beat, the air is so full of work and small triumphs you forget to measure outcome against fear. It is intoxicating.
+
+A young artisan catches your eye and holds up a small carved token—still damp, its scent woody and bright.
+
+Artisan: "We made one for you. For the terraces." (Her smile is open, unabashed pride.)
+
+You accept it, the wood warm in your palm like a living thing. You tuck it into your pocket next to the locket. The weight is quiet and steady.
+
+[Interactive Moment: Choice A ("Help hammer the token into its post") -> Reaction: "You take a mallet, feel the rhythm of the hammer through your forearm, and drive the token home. The sound is a small bell in your memory." || Choice B ("Ask Serena about the fail-safe parameters") -> Reaction: "You lean over Serena's shoulder, fingers tracing a schematic. Her voice explains sensor thresholds in a low hum; her confidence steadies you."]
+
+
+[Scene: Flooded Promenade | Dusk]
+[Visual: The promenade's shallow waters reflect string lights and the silhouettes of people walking; market stalls are busier, plants in improvised planters glitter; rain has passed and the sky is honeyed.]
+[Music: Warm cello and piano, expansive]
+[Sound: Murmured conversations, distant machinery hum, the patter of feet on wet boards]
+
+The city feels different tonight—not cured, not triumphant, but breathing easier. The promenade that once read like a wound carries lanterns and laughter. A stall sells roasted sea beans, another offers seedlings with tiny care notes. Children chase a dog over patched planks; someone plays a reed instrument that sounds like wind through ribs.
+
+You and Elias find a quiet raised platform, a small circle of light where you spread a blanket and a pot of soup rests between you. The debugging today ran late; his fingers still thrum with code, but his face is softer now than at the lab. You both sit with an easy awkwardness—two people who have been welding a public system while also trying not to collapse the private one.
+
+Elias: "There was an anonymous patch submitted this morning. Someone forked my module and added a simpler UI for local operators. I didn't know whether to be flattered or terrified." (He smiles, throat working.) "But then I read their notes—they were from Canal Twelve. Their kids wanted an easier toggle for garden mode."
+
+You: "That's exactly the kind of thing I wanted. Usable tools in people's hands." (You feel the sentence like a vow.) "Not polished for investors—polished for neighbors."
+
+He reaches across the blanket and squeezes your knee—an intimate, grounding gesture in public.
+
+Elias: "I keep thinking about where this goes. If we do this right, we don't just protect what remains; we teach people how to ask for their place. We give them the language to live with change, not just survive it."
+
+You close your eyes for a second, picturing Old Man Toma teaching ledger and story, Serena's diagnostics humming, Ibe's hands callused with new sigils. The hybrid feels like a craft you are building together: tools, rules, and rituals braided so the city can keep itself.
+
+You: "I want that, Elias. I want us to make it so that children can plant where elders planted. I want the city to keep its memory."
+
+Elias: (soft, earnest) "Then we build it that way. And we build the people who can tend it."
+
+There is an awkwardness in how affection and policy keep overlapping—how your late-night debugging turns into sharing soup, how council clauses are discussed in between spoonfuls. It is intimate precisely because it is necessary, a private tenderness made of public labor.
+
+Serena slides into the circle, a thermos in hand and a notepad she can't seem to stop fidgeting with.
+
+Serena: "We scheduled the public rollout demo for next week. The fail-safes are green, but public stress tests will be the true measure. People will watch closely; mistakes will be amplified." (She eyes both of you.) "We need your voices."
+
+Rin passes by, her silhouette like a cut of silver in the honeyed light. She leans down and speaks low.
+
+Rin: "Coalition press release tomorrow. I want the message to be clear: community oversight is not a concession—it's a feature. We frame it as stewardship."
+
+You nod. You think of the terraces, the pilot sites, the carved sigils now embedded in the city's skin. For weeks, the hybrid has held. The Skyfarms produce more food; the promenade feels less like a scar and more like recovery taking root.
+
+You let yourself savor the rising arc. It is not naive; it is earned. The small, fierce relief you felt days ago has grown into something steadier—a communal momentum that smells of mud and metal and the tang of optimism.
+
+Elias: "Do you ever wonder—" (he searches for a word) "—if this will hold at scale? If the redundancies are enough?"
+
+You: "Everything has a breaking point. That's why we built in the tokens, the panels, the public mirrors. We don't pretend to be invulnerable—we're building to be reparable." (Your voice is steady.) "We keep the craft local enough that hands can fix it."
+
+He smiles, eyes catching the last of the sun.
+
+Elias: "I like that answer."
+
+A gull cries, and the sound threads between you like a punctuation. Night slides in, but it no longer feels like a threat. It feels like a room where people are awake and ready to work.
+
+Page-Turn Moment: As you sit, the platform's sensors quietly ping a low-frequency alert—barely audible against the market's hum. Not an alarm, not yet, but a soft blip that a human ear would miss. Elias glances at your face and then at his tablet. The light from the screen paints both of you in a wash of cyan; the city around you continues to breathe and barter and eat. You tuck the wooden token a little further into your palm, feeling its carved grooves. There is hope here—sharpened, earnest, and fragile—and you understand, in a new, weighty way, that the work is ongoing. For now, the hybrid holds. For now, the terraces glow.
+
+[Visual: The camera lingers on your joined hands over the blanket; the city lights blur into bokeh]
+[Music: Strings swell into a gentle upward chord, holding a note of cautious celebration]
+
+[LINEAR JUMP]
+{ "has_choice": false, "description": "", "options": [], "root_default_next_chapter": 11 }

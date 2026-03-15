@@ -1,0 +1,29 @@
+﻿Judge_Model,Theme,Genre,Metric,RAF_NoCritic,RAF_Critic,AVL_NoCritic,AVL_Critic
+gemma3:12b-it-fp16,Climate_Change,Romance,RE,5.0,4.9815,4.9815,5.0
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,RE,4.7222,4.6574,4.8241,4.8796
+qwen3:14b-fp16,Climate_Change,Romance,RE,5.0,5.0,5.0,5.0
+gemma3:12b-it-fp16,Climate_Change,Romance,CH,4.9815,4.9259,4.8889,4.8889
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,CH,4.9815,4.6296,4.5556,4.787
+qwen3:14b-fp16,Climate_Change,Romance,CH,5.0,5.0,5.0,5.0
+gemma3:12b-it-fp16,Climate_Change,Romance,EM,4.2037,4.3333,4.5556,4.3889
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,EM,4.0926,4.0463,4.2315,4.1204
+qwen3:14b-fp16,Climate_Change,Romance,EM,5.0,5.0,5.0,5.0
+gemma3:12b-it-fp16,Climate_Change,Romance,SU,3.0185,3.0741,3.1481,3.1296
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,SU,3.6667,3.5648,3.7932,3.7407
+qwen3:14b-fp16,Climate_Change,Romance,SU,3.1296,3.0926,3.1605,3.1111
+gemma3:12b-it-fp16,Climate_Change,Romance,EG,4.6852,4.7037,4.8704,4.8333
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,EG,4.3889,4.3889,4.537,4.5278
+qwen3:14b-fp16,Climate_Change,Romance,EG,5.0,5.0,5.0,5.0
+gemma3:12b-it-fp16,Climate_Change,Romance,CX,4.0185,4.0185,4.037,4.037
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,CX,4.0648,4.0185,4.0833,4.0648
+qwen3:14b-fp16,Climate_Change,Romance,CX,4.1481,4.1852,4.0864,4.1111
+gemma3:12b-it-fp16,Climate_Change,Romance,OV,4.3179,4.3395,4.4136,4.3796
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,OV,4.3194,4.2694,4.3918,4.3812
+qwen3:14b-fp16,Climate_Change,Romance,OV,4.5463,4.5463,4.5412,4.537
+gemma3:12b-it-fp16,Climate_Change,Romance,Count,54.0,54.0,54.0,54.0
+mistral:7b-instruct-v0.3-fp16,Climate_Change,Romance,Count,54.0,54.0,54.0,54.0
+qwen3:14b-fp16,Climate_Change,Romance,Count,54.0,54.0,54.0,54.0
+""
+"--- METRIC DEFINITIONS ---"
+"RE(Relevance), CH(Coherence), EM(Empathy), SU(Surprise), EG(Engagement), CX(Complexity), OV(Overall)"
+"Count(the total number of successfully evaluated story routes)"

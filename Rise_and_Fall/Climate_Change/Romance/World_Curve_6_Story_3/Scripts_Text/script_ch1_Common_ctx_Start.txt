@@ -1,0 +1,173 @@
+### SCRIPT
+# Route: Route C — Ending: Sad/True
+# Context: Start
+
+[Scene: Maya's Apartment | Pre-dawn]
+[Visual: Close on a hand knocking a worn wooden bedside table; the sea-glass pendant catches dark light]
+[Sound: Distant siren, low and keening; rain tapping the window]
+[Music: Distant, hollow strings — tense, low]
+
+You wake to the siren like a fingernail down the town's spine. For a breath you lie still, listening: the lamp in the corner throws a square of weak light, your smartwatch vibrates against salt-weathered skin. The apartment smells of damp wool and espresso gone cold. Your throat is tight—sleep pulled taut into alarm.
+
+You shrug into the olive waxed jacket Habit. The silver streak at your temple burns, as if even the hair remembers old salt and loss. You lace your boots with hands that still want to be steady. There is a half-formed dream of your father's voice—an order barked over wind—and then the siren swallows it.
+
+You step into the hallway; the stairwell smells of sea and old varnish. Outside, Port Veridian is a silhouette: gulls stitch the air, and the boardwalk's lamps blink on and off with a slow, tired rhythm. Somewhere, the municipal alert repeats itself: "Tidal anomaly. Damage reported. All residents advised to avoid shoreline."
+
+You tighten the scarf and head for Main Street.
+
+[Scene: Port Veridian Main Street | Dawn]
+[Visual: Wet cobbles reflecting streaks of gray light; banners for the Harvest Tide event hang limp]
+[Sound: Gulls, the staccato scrape of loose boards, distant shouts]
+[Music: Low, unsettled piano; undercurrent of percussion mimicking a heartbeat]
+
+The street is half-ghost at this hour. Puddles hold rectangles of sky; paint flakes like spent confetti. You smell diesel from a small cluster of trucks, and a metallic tang that puts you on edge. People move in small knots—neighbors wrapped in blankets, a kid staring at a snapped lamppost. You keep moving, eyes scanning: where the boardwalk meets the sea, where the docks begin.
+
+Your phone lights up in your palm. Rosa.
+
+Rosa [Text]: "Maya. Boardwalk's chunked by the pier. Video—sending. Come now?"
+
+You tap the new frames. The first is a close-up of splintered planks, an overturned vendor cart. The second is a shaky panorama: the boardwalk's east stretch yawns like a missing tooth, pilings snapped below. The third frame is of the tide where it shouldn't be—brackish water threading up between shop thresholds. Your stomach drops, the old ghost of your father—gone, pulled by a storm—sudden and heavy. If he'd been here—if you'd known—
+
+Maya Ibarra: "On my way. Send me anything else you see. Stay high."
+
+Rosa [Voice note, 9s]: "(breathless) I'm at the library facing the pier. Tomas is—he says get down here. People are moving gear to upper racks. The sheriff's posting cones. Mayor's on the line."
+
+You call her. Her voice is all clipped edges; she doesn't wait for you to ask before she speaks.
+
+Rosa: "Pilings near the east dock—gone. Some of the market stalls—ruined. They say the lab sensors spiked—Kira's maps went red. We need the notice board cleared; people are panicking."
+
+Maya Ibarra [low]: "Okay. I'm heading for the docks. Take photos of the pilings and the markers. Get any IDs for gear. Keep folks away from the broken wood—"
+
+Rosa: "And you?"
+
+You pause because the question cuts to the place that never quite closed: your father's absence. Saying you'll do everything feels like a promise to someone you can no longer pay back.
+
+Maya Ibarra: "I'll meet you there. Be careful."
+
+[INTERACTION]
+> Choice A: "Double back for your father's old compass in the hall stand"
+> Choice B: "Push forward to the docks, leave the house as it is"
+[Outcome A: "Your fingers hover over the coat rack. The brass compass is cold in memory—if you take it, it will feel like pulling him toward the present. You don't have time, but the thought of leaving without it curls in your chest."]
+[Outcome B: "You step away from the apartment and lock the door. Guilt nips, but there's an impulse sharper than sentiment—there are people who need you now. The lock clicks like a small surrender."]
+[MERGE: Continue]
+
+You move through town with the practiced attention of someone who maps damage by smell and sound. The library sits like a wound: its posters damp, the steps littered with seed pods and drift. A handful of neighbors cluster near the notice board—someone has already pinned a municipal alert and a hastily printed rendering: a shiny, angular seawall, folds of render-light promising 'immediate protection'. The logo at the corner is Veridian Holdings.
+
+Your chest tightens. The rendering is sterile—no birds, no reeds, no warping light. It promises certainty and it smells of diesel and contracts.
+
+From the pier you hear Noah's voice, hard and clear: "Get the ropes on the east pile first! Secure the boats—mornin's tide is coming back up fast!"
+
+You push past a mother lifting her child to see the gap where the boardwalk used to be and find Noah leaning over a coil of rope, barking orders. He's taller than you remember, hands like split rope; there is salt crusted in the lines of his face. He looks at you, and something like a ledger flips in his eyes—old grudges, old alliances—then he tucks them under a flat, serviceable expression.
+
+Noah Rhee: "Maya. The pilings are splintered to hell. If we don't get the skiffs out and those nets up the wharf, we'll lose a week's haul. Where are the chain gangs for the dock armor?"
+
+Maya Ibarra [steady]: "We're not deploying armor today, Noah. The lab says the sensors spiked—something's changing in the estuary. We need to map the surge lines before we sink money into fixes that kill the marsh."
+
+Noah Rhee [snaps]: "The marsh doesn't feed anyone. The nets do. You want to talk ecology while my crew goes hungry?"
+
+Your jaw tenses. You want to say that the marsh is the nets, that the fish won’t return without the reeds, that the town's line between survival and collapse is braided with habitat. But every word like that risks sounding like academic hair-splitting while people stand ankle-deep in water.
+
+Maya Ibarra: "I know what's at stake. I grew up on those nets. I'm not saying wait—I'm saying be smart. Let me get the exact surge readings and we coordinate. Quick triage that doesn't destroy what feeds us."
+
+Noah Rhee [barks a laugh with no humor]: "Smart now gets you no paychecks. The council runs six months—where's Lianne? Where's funding?"
+
+You both tighten, two pulleys on a rope that wants to fray.
+
+Noah Rhee: "I'll get crews out. I can't wait for a lab call or a lecture. We protect what we can."
+
+Maya Ibarra: "Then protect without bulldozing the marsh. We do both because we have to. Don't—" Your voice catches, not because you doubt him but because you remember a morning when a different storm took your father. "Don't make decisions you can't undo."
+
+Noah Rhee knots rope with big fingers. For a second he looks like a man pitched against tide and time, then his face hardens into orders again.
+
+Noah Rhee: "We'll see which of us is right after the tide. I'm not leaving my crew high and dry."
+
+[Scene: Tidewatch Laboratory | Morning]
+[Visual: Warehouse-turned-lab; rows of plastic tanks, wall maps with colored pins blinking; humidity fogging thick glass]
+[Sound: Hum of coolers, muttered tones of radios, a high alert tone every few seconds]
+[Music: Tighter strings; a low drum roll under everything]
+
+You follow the path of people toward the Tidewatch Lab: the repurposed fish-processing roof glints with wet panels, and through the high windows you can see the pinboard's red lights angling like insect eyes. The air inside smells strongly of algae and antiseptic. A row of tide sensors sits like a neck of teeth; a wall screen scrolls through graphs—spikes, red bands, annotations that make your gut lurch.
+
+Dr. Kira Ansel isn't here yet. Her desk is a riot of sticky notes and sensor modules; Kira's handwriting loops frantic in neon. A small printout flashes: "SALINITY SPIKE — ESTUARY INFLUX — SENSOR CLUSTER 3." The lab techs move fast, but the red is insistent.
+
+Your phone buzzes—the mayor's office. You pick.
+
+Mayor Cortez [Phone]: "Maya. Lianne here. Council hall at twelve. Emergency forum. We need a full assessment and community presence. Veridian Holdings has already released renderings; Aria's team is on-site. You're one of the few who can explain the living-dike approach so people don't panic."
+
+You can hear the paper rustle and, underneath, a tired politeness tuned by decades of balancing. Her voice is not unkind. She is choosing words with care because every word is a lever.
+
+Maya Ibarra: "I'll be there. I want the data ready—Kira's maps, sensor logs. If we can show how a living dike reduces surge energy, maybe we can slow the rush to the wall."
+
+Mayor Cortez: "Do it fast. The press is sniffing. People are scared. And Maya—be careful. This is going to get ugly."
+
+You close your eyes a second and feel a familiar weight settle in your chest: the weight that has kept you awake in the worst of nights, imagining choices as scales. Your father's compass—if you had it—wouldn't solve anything. You realize how often you've been trying to steady a town that does not want to be steadied by theory alone.
+
+Footsteps behind you—light at first, then purposeful. Elliot appears in the doorway, breath visible in the cool lab air, a roll-up sketch cloth under his arm. He looks like someone who has traveled backwards through time to bring plans home. Up close, the damp has made the longer top of his hair cling; his storm-blue eyes are the color of a sky that might break or clear.
+
+Elliot Chen: "Maya. I heard. I brought models — scaled, modular — living dike cross-sections that can be staged with temporary anchors. It's not an overnight fix, but it buys time without sealing off the marsh."
+
+Maya Ibarra [relief and friction mixing]: "Elliot. Good. We need designs and the sensor overlays. If Kira's data show where the surge is concentrating, we can stage plantings and coir baskets—"
+
+Elliot Chen: "—and anchor them with pilings, yes. I've sketched access points so fishers can still work. I know you worry about the marsh—so do I. These are compromises, not compromises of principle."
+
+He looks at you searchingly, as if trying to find a place where technical diagrams stop and trust begins. There's an old ache in that look—familiarity wrapped in something like apology.
+
+Maya Ibarra: "We need to get the town to see it that way. The renderings on the board are already pushing a sealed wall. Aria is good at selling certainty."
+
+Elliot Chen [hesitates]: "Her renderings are smoother than reality. She offers speed, contracts, jobs. But if we can get staged plans in front of the council—no, in front of the people—maybe we can keep decision-making local."
+
+A lab tech interrupts, sliding over a printed sheet. The sensor map has a new layer: a red band pulsing along the eastern estuary.
+
+Lab Tech: "Maya, this is from cluster three. Salinity spike came through at 03:16, tidal height's anomalous for three cycles. If the current carries that pulse inland on the next high tide—"
+
+Maya Ibarra [cutting in]: "We get people moved above flood lines and we make a plan for equipment. Kira will want to run a simulation. Elliot, can your cross-sections be staged in 48 hours?"
+
+Elliot Chen [firm]: "Staging, yes. We can build template modules, test one bay with coir and plantings, and anchor with temporary piles. It won't be instant, but it will show something living mitigating surge energy. It gives the town a visible alternative."
+
+Your chest tightens with the strain of too many things needing to happen at once. Mayor Cortez's voice echoes in your memory: be careful. You think of the shiny wall and Aria's polished smile. You think of Noah's hands on ropes and the smell of diesel. You think of your father's absence at the exact moment the sea took him from you.
+
+The siren grows louder outside, more urgent, like someone turning up the volume on your worst instincts. You can feel the town gathering on a knife-edge.
+
+[INTERACTION]
+> Choice A: "Push for an immediate field demonstration with Elliot at the east gap"
+> Choice B: "Insist on waiting for Kira's full simulation before any public demonstration"
+[Outcome A: "You picture a living patch on the broken boardwalk—coir sacks, reeds, volunteers knee-deep but steady. It's risky and imperfect, but it gives the town something breathing to point at. Your voice quickens as you outline logistics."]
+[Outcome B: "You feel the scientist in you—proof before promise. Waiting for data reduces the chance of a visible failure that the developers will weaponize. It also risks the town deciding while you're paused. Your tone hardens into careful patience."]
+[MERGE: Continue]
+
+The radio in the corner crackles—Mayor Cortez arranging the forum. The lab's screens keep flashing. Outside someone starts a chant—"Safety first!" or "Jobs now!" —you can't tell under the roar.
+
+Then a new alert pings across the lab monitors: Veridian Holdings has posted their formal proposal and renderings to the municipal site. A drone feed displays Aria Sol's face on a projected screen, polished and composed.
+
+Aria Sol [Projected]: "Veridian Holdings' seawall option provides immediate, guaranteed protection for Port Veridian's Main Street and fishing infrastructure. Our proposals guarantee employment, swift approvals, and long-term durability."
+
+Her smile is a carefully cut thing. The renderings behind her are bright and impermeable—no birds, no mud, only perfect lines and promised order.
+
+Elliot Chen's jaw tightens. Noah Rhee's voice can be heard outside, gathering volume. You can feel the current of the town's opinion shifting like tidewater around a submerged rock.
+
+You slide a hand to the sea-glass pendant at your throat. The cool glass is steady. It feels like a small thing against the scale of what is happening, but it is the tether you have.
+
+You take a breath. The lab prints stack in your arms—graphs, models, sensor logs. An emergency forum at noon means three hours to collect data, stage a demonstration, or lose the narrative.
+
+You think of the docks, of the market vendors stacking goods higher, of Rosa taking frames with a camera that notices everything. You think of the empty chair at your father's old table and the way his memory has been both a compass and an accusation.
+
+Somewhere, a child cries. Someone curses. The siren wails, higher now, pleading.
+
+You feel the decision settling into you—not a choice between love and policy, but a decision about how you will show up. You straighten your shoulders. This town needs action that holds both people and place. Whether they will let you have both is another question.
+
+The siren keeps wailing, a sound that demands response.
+
+[Visual: Long shot of the lab window where the lab lights meet the gray sky; the red of system alerts reflected in wet glass]
+[Music: Crescendoing strings, unresolved]
+
+You gather the prints, the models, and one stubborn certainty: if Port Veridian is to survive, something has to happen now that keeps the marsh alive and keeps people fed. You step toward the door to meet that problem.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

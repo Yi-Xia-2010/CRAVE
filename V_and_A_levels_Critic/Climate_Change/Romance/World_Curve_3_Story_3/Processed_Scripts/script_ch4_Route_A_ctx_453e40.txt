@@ -1,0 +1,183 @@
+### SCRIPT
+# Route: Route A (Happy Ending)
+# Context: 453e40
+
+[Scene: Marisol Wetland Reserve | Dawn]
+[Music: Tense BGM — low strings, a steady drum undercurrent]
+[Background:"ch4_453e40_1"]
+
+You tie your hair tighter, the dark chestnut pulled into a bun that will not prefer you for much longer. The braided blue cord around your wrist presses into the skin of your palm when you curl your fingers around the Moleskine. The notebook is heavy with plans and maps—sketched tide-break berms, cross-sections of living breakwaters, a list of names who said they would come.
+
+The air tastes of salt and iron. Mud clings to the soles of your boots and smells of old roots and something like memory—wet wood, the charcoal of a boathouse fire that still smells like night in the corners of your mind. Your voice is hoarse from two nights of council meetings, from telling people the facts and not the comfort they wanted to hear.
+
+You breathe. You step off the boardwalk into the marsh like stepping into a promise you haven't fully earned.
+
+[Sound: Squish of boots in mud; faint gull caw; low, steady thud of a generator from the harbor]
+[Background:"ch4_453e40_2"]
+
+Jonah Kade: "You're up early. Look at you—military precision." (He half-grins, but it doesn't reach his eyes.)
+
+Maia Rivera: "Dawn's the tide's favor. If we lay this wrong, the mats will wash before the grasses take." You try for lightness; it fractures. "How's the seam on that mat?"
+
+Jonah Kade: "Seam's good. Lupe's got the staples." (He taps the oil-stained canvas of his jacket, a small ritual.) "You okay?"
+
+Maia Rivera: (You want to say: I'm terrified. You instead fold the Moleskine flat and point.) "We have to stagger the mats so the marsh can trap sediment on the seaward side. Two rows here, then a third—anchor with reclaimed beams. Tomas' old nails will do for now. Can you fetch him a blanket when you head back to the pier?"
+
+Jonah Kade hesitates, teeth catching the question. "Yeah." He moves without another word, the sea-glass in his eyes darkening like wet stone.
+
+Lupe: "Maia Rivera, slow your roll—if you keep breathing like that the grasses will think it's a gale." (She laughs; it's a quick bright stitch that pulls at the edges of your chest.) "We got reeds and plugs. I roped half the high school last night. Don't tell them I said that."
+
+Maia Rivera: "Don't tell them you forgot to wear your boots to the dock yesterday, either." You reach for a bundle of cordgrass plugs; their roots tangle like the roots of every decision you've made.
+
+[Background:"ch4_453e40_3"]
+Tomas: (softly) "Your ma used to say the marsh listens if you talk to it. Not like folks—quiet. It remembers who planted its edges."
+
+Maia Rivera: (You crouch and feel the cool muck. You can smell Tomas' cedar pipe in the breeze, a faint ghost. His voice is a counterweight to the political noise; you let it settle.) "I'm planting with her memory. For all of them."
+
+Tomas: "Aye. And for your bones, child. Stop holding the tide like it's a promise you can keep alone."
+
+[INTERACTION]
+> Choice A: "Help anchor the mat with Tomas' old nails"
+> Choice B: "Kneel and talk with Tomas about the boathouse for morale"
+[Outcome A: "You take the hammer; Tomas shows you the angle to drive the nail. Your hands remember a rhythm and for a moment guilt is only the ache of muscle."]
+[Outcome B: "You sit beside him. He tells the story of the boathouse like a hymn—who came in and who went out. The others work around your silence, and your heart eases briefly."]
+[MERGE: Continue]
+
+[Sound: Clink of nails; soft laughter; the distant hum of a boat engine]
+[Music: Strings swell slightly — urgency accumulating]
+
+Dana arrives from the boardwalk with a paint-streaked banner folded over her arm, the colors a tight, rebellious braid of burnt orange and sea-green. She drops the banner onto a stump, breathless, anger braided with care.
+
+Dana: "Look at this—'Marisol Builds Its Own Shields.' Big enough to roll down the harbor if we need it." (She sets down a paintbrush.) "We can march after we finish planting."
+
+Maia Rivera: "We need hands on the mud more than banners right now." Your voice is taut, sharper than intended. "If these mats go in wrong—if we miss a tide window—the work doubles."
+
+Dana: (She bristles, but it's not full flame.) "And if we sit on our hands waiting for funds that tie us up in permits, we'll be watching the flood from the attic while some firm decides what the coastline means."
+
+Maia Rivera: "We can do both—people here can both build and protest—but this morning is for the plants." You swallow the way the words scrape the back of your throat.
+
+[Sound: Waves lapping, then a sudden undertow breeze; gulls louder]
+[Background:"ch4_453e40_4"]
+
+Jonah Kade returns with a folded blanket and a face that is the careful assembly of a man weighing things by feel.
+
+Jonah Kade: "Rosa's here—she says there's something to talk about." (He pauses.) "She wasn't on the pier when I went by. She wants to speak to you before the mayoral press call."
+
+Maia Rivera: "Now?" The word slices. Your chest tightens. "Tell her I'm finishing the berm south of the creek. I'll be at the Harbor in twenty."
+
+Jonah Kade: "She said it couldn't wait." He meets you, eyes holding. "Maia Rivera—she's official, not performative. She's got a grant offer. But—" He doesn't finish.
+
+Maia Rivera: (Your mind fills the blank with strings: oversight, reports, contractors, a handshake that moves control off the town map. You remember the taste of corporate brochures in the council room, glossy and cool. Your throat closes on the word 'strings'.) "I'll go. Stay with the mats. Keep Lupe coordinating the kids."
+
+Lupe: "I'm with you wherever—unless you need me to run the crew." She flashes you a grin like a dare. "I can boss minors with a clipboard."
+
+Maia Rivera: "Boss them." You give her the only order that lands easily. "Keep the line we drew. If the tide picks up, pull the east anchors."
+
+[Sound: Distant siren of a work truck; muted chatter from the harbor]
+[Music: Percussion picks up — a heartbeat rhythm]
+
+You climb back to the boardwalk, Moleskine under one arm, jacket splattered with mud. Each step up feels heavier; each plank a small moral calculus. You are not a simple person with a simple plan; you are a ledger of compromises and a mouth that has said both truths and apologies.
+
+[Scene: The Harbor and Boardwalk | Morning]
+[Background:"ch4_453e40_5"]
+[Sound: Conversation hum; gulls; an anchor chain rattles in the distance]
+
+Mayor Rosa stands near the fishmonger, hands folded on a stack of envelopes and an official folder. There is a small state insignia on the folder that glints like a coin. When you approach, she inclines her head in a civic benediction.
+
+Mayor Rosa: "Maia Rivera." (Her voice is soft but carries the weight of meetings and late votes.) "Thank you for coming."
+
+Maia Rivera: "You're early." You fold open the Moleskine without offering it. "What's the news?"
+
+Mayor Rosa: (She places the folder on the rail as if offering ballast.) "There's a discretionary state grant—small, but it buys materials: erosion mats, native shoots, some engineering oversight. It's enough to accelerate the initial phase by weeks."
+
+Maia Rivera: (Weeks can be walls or lifelines. The idea of materials arriving—sacks of plugs, better anchors—flashes as salvation. But the state is not without its signature. Your stomach tightens.) "What's the catch?"
+
+Mayor Rosa: "Standard reporting and oversight. The state requires a liaison for audits and quarterly impact assessments. They also want to ensure the restoration meets certain 'best practice' criteria. It means filings, monitoring protocols, and some schedule checkpoints."
+
+Maia Rivera: (You feel the words as cold wind: oversight and schedules are not neutral—reporting creates touchpoints for external control. You picture Elias Wren's sleek containers at the offshore site and the ways a 'liaison' could become a leash.) "Who appoints the liaison?"
+
+Mayor Rosa: (She sighs. She is tired of triangulating between funding and local will.) "They proposed a state representative but said the town could nominate a co-chair for the oversight committee. It's a concession. It's also—" She searches your face. "—politically difficult. The state is watching Marisol as a pilot."
+
+Dana: (Sharp) "Pilot for what—our consent?"
+
+Mayor Rosa: "Dana. Always direct." (She gives a small wry smile. Then to you.) "They're offering funds because they want a success story. They don't want scandal. They do want evidence."
+
+Maia Rivera: "Evidence of what?" You can almost hear the echo of boardroom language from Elias Wren's pitches: metrics, KPIs, phased rollouts.
+
+Mayor Rosa: "That the restoration works at scale, that we can meet measurable shoreline stabilization. From their side, it's about replicable models. From yours, it's about keeping this community's agency. I won't lie—their terms clip at the edges of autonomy."
+
+Maia Rivera: (Your chest tightens. Your hands curl into the notebook as if it were a shield.) "If we accept, there's a paperwork trail that could override our choices—planting schedules, species lists, maintenance contracts. They might insist on materials that are easy to audit rather than ecologically fit."
+
+Mayor Rosa: "I thought you should hear this from me first, not from a press release. The grant is time-limited; it's conditional. If you reject it, there are people ready to volunteer. If you accept it, you get materials now but a bureaucracy in your pocket."
+
+Maia Rivera: (Your mind is a meter reading that refuses to hold a number. Guilt tugs—if you refuse, and a storm comes, if you accept, and the state installs a preference that fragments the marsh. You think of Tomas' stories, of Jonah Kade's hands.) "How small is 'small'?"
+
+Mayor Rosa: "Enough to get phase one in before the next full moon if we move fast. Not enough to finish the whole reserve. It buys you the immediate tide windows, not the long haul. But—" She folds her hands again. "It comes with strings."
+
+[INTERACTION]
+> Choice A: "Ask Rosa if the town can appoint the liaison together"
+> Choice B: "Tell Rosa you'll take the grant and outline usage now"
+[Outcome A: "She nods, appreciation flickering. 'They said a co-chair is possible. It's political capital, Maia Rivera.' You feel the weight of asking for more than money."]
+[Outcome B: "Rosa gives you a small, relieved smile. 'I'll have the paperwork ready.' But the relief tastes thin, like sea-spray on a tongue that knows rain is coming."]
+[MERGE: Continue]
+
+[Sound: A gull's shriek cuts; the sky is a bruise now, stacking overhead]
+[Music: Tension peaks — faster strings, a low cymbal like thunder]
+
+Jonah Kade steps forward; his voice has the calm of people who have tied lines in storms. It is steadier than yours feels.
+
+Jonah Kade: "Maia Rivera—what do you want?" (He keeps it simple. But the question carries the weight of livelihoods: nets mended, quota meetings, Lupe's accounts.)
+
+Maia Rivera: (You look at him. He is real and immediate, not a policy brief. His palms are raw from ropes; his boots still smell of tar. He places a tentative hand on your shoulder—an anchor.) "I want the marsh to be resilient and the town to keep steering its future."
+
+Jonah Kade: "And if taking funds means our fishermen answer to a different calendar—one decided in a distant office—what then?"
+
+Maia Rivera: "Then I have to be sure that the calendar doesn't strip us of our voice." You hear the wear in your own words and know it matches the ache in his jaw.
+
+Jonah Kade: "Compromise is one thing. Selling our harbor is another." (He looks at Rosa, then at you.) "You know me. I don't trust a folder with a crest unless I'm the one signing the margin."
+
+Maia Rivera: (Your throat tightens at his mistrust, not because it's unjustified but because it lands on the sharpest of you. You imagine the cooperative dissolving into invoices and permits.)
+
+Dana: "And I don't trust politeness. I want muscle." She beats her palm to the boardwalk. "If we can recruit more hands, we can keep the work from being a tick-box for a report."
+
+Lupe: "We can do that—but how many more hands? The high school crew can't fix the pier. We need anchors, rebar, mats. And the kids will go back on their phones when finals start." (Her optimism frays into ledgering. She counts in her head the hours people can donate between shifts and school and sleep.)
+
+Maia Rivera: (You feel the clock like a tide clock inside your chest: the next storm window is a black circle on the calendar. Your guilt is a low, constant pressure—a muscle that tightens with every 'what if'. What if refusing means the east berm fails? What if accepting means someone else decides who plants where? You are acute with the knowledge that there is no pure choice.)
+
+[Music: Drums tighten — the highest arousal yet; wind whistles through the rigging]
+[Background:"ch4_453e40_6"]
+
+Mayor Rosa: "I can advocate for a co-managed clause—town oversight on the committee with veto power on specific materials and timing. It will take political capital and a narrower state approval window, but it's possible." (She looks at you like someone offering a map with a treacherous pass circled.) "It buys time without committing you to an external sole decision-maker."
+
+Maia Rivera: (You taste metal. Negotiation is another kind of mud—sticky, full of hidden stones. To push for co-management is to ask the town to stay at the table and fight for the margins, and it will cost you votes and favors. The idea of bargaining for the right to decide your own margins presses into your ribs.) "If we do that, how long will the process take?"
+
+Mayor Rosa: "Longer than taking the grant outright, but not as long as rejecting it and starting from zero. My sense—if we move fast, we can have an agreement that both unlocks funds for phase one and guarantees a co-chair. But I need you to lead the negotiation in public meetings."
+
+Maia Rivera: (You feel the room narrow to the size of your heartbeat. Leadership again, always leadership—someone must be the face of both practical constraints and stubborn principle.) "And if I refuse?"
+
+Mayor Rosa: "You'll keep control. You might not have the material advantage when a storm presses. Volunteers are powerful and faithful, but they are not an engineering budget."
+
+[Sound: Rain begins to fall in earnest; a steady hiss on the wooden boards]
+[Music: Crescendo — strings and percussion building to a sharp, unresolved chord]
+
+Your guilt speaks loudest now: a whispered litany of possible harms and missed chances. The mud under your boots seems to mirror the choices now—each step sticky, pulling at the heel. You look at Jonah Kade, at Lupe, at Tomas, at Dana. Each face is an accounting of what you mean to them and what they mean to the town.
+
+You can feel the storm clock like a second heartbeat. The arousal that began steady now peaks: everyone is watching the vector of your moral compass, the angle of your words. This decision will not only route funding—it will reshape loyalties, the cooperative's autonomy, and maybe, quietly, your relationship to Jonah Kade.
+
+You take a breath that wants to be prayer and instead becomes a question you have to answer aloud.
+
+[DECISION POINT]
+1) Option 1: "Accept the conditional state grant and secure immediate materials." -> TARGET chapter_id: [5]
+2) Option 2: "Refuse the conditional funds and widen volunteer recruitment, delaying work." -> TARGET chapter_id: [6]
+3) Option 3: "Negotiate a co-managed clause with Mayor Rosa that binds community oversight." -> TARGET chapter_id: [6]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Accept the conditional state grant and secure immediate m..." -> ID 5 (Route A)
+    > Jump Target File: script_ch5_Route_A_ctx_4001e7.txt
+Option 2: "Refuse the conditional funds and widen volunteer recruitm..." -> ID 6 (Route A (Happy Ending))
+    > Jump Target File: script_ch6_Route_A_Happy_Ending_ctx_4001e7.txt
+Option 3: "Negotiate a co-managed clause with Mayor Rosa that binds ..." -> ID 6 (Route A (Happy Ending))
+    > Jump Target File: script_ch6_Route_A_Happy_Ending_ctx_4001e7.txt

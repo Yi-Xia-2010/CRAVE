@@ -1,0 +1,35 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Returning Tides<br/>[Common]"):::spine
+    2("Ch 2<br/>Boardwalk Hearings<br/>[Common]"):::spine
+    3("Ch 3<br/>Stormlight Decision<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Tidecraft<br/>[Route A — Community]"):::limb
+    5("Ch 5<br/>Frayed Anchors<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>Living Shoreline<br/>[Route A (Happy Ending)]"):::limb
+    7("Ch 7<br/>Civic Offerings<br/>[Route B — Partnership]"):::limb
+    8("Ch 8<br/>Schematics & Secrets<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>Glass Walls<br/>[Route B (Bittersweet Ending)]"):::limb
+    10("Ch 10<br/>Exposed Lines<br/>[Route C — Confrontation]"):::limb
+    11("Ch 11<br/>Leak or Ledger<br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>Standalone Truth<br/>[Route C (True Ending)]"):::limb
+    13("Ch 13<br/>Negotiated Shore<br/>[Additional (Bittersweet Ending)]"):::limb
+    14("Ch 14<br/>Tidal Reckoning<br/>[Additional (Sad Ending)]"):::limb
+    15("Ch 15<br/>Final High Water<br/>[Additional (Sad Ending / Epilogue)]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    5 -.-> 14
+    5 -.-> 13
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 9
+    8 -.-> 15
+    8 -.-> 11
+    10 -.-> 11
+    11 -.-> 13
+    11 -.-> 12
+    11 -.-> 6

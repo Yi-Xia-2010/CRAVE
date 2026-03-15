@@ -1,0 +1,206 @@
+label chapter7:
+
+    # [Scene: Valence Urbanworks Tower | Morning]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft whir of drone rotors outside; distant traffic muffled by glass and polished stone]
+    # play music "music_placeholder"  # [Music: A steady, hopeful piano motif with bright strings]
+    "You step out of the morning air into the Tower’s climate-stable lobby and feel the temperature change as a physical thing—cool, controlled, the kind of interior that promises order. Your wet jacket breathes salt; your boots"
+    "click on polished stone. You keep your sketchbook in your hand like a talisman, the corners softened by being carried too often. The compass pendant at your throat is warm where it rubs against your collarbone."
+    "You chose this when the Mayor asked you to speak plainly. You backed Iris’s proposal in the council chamber because the immediacy of risk left no room for slow experiments. Saying it aloud in that room"
+    "had been its own kind of action; now you are here to turn action into mobilization."
+
+    scene bg ch7_453e40_2 at full_bg
+    # [Iris Valence [smiles, professional, just warm enough]: "Lena. Thank you for coming."]
+    "Iris’s smile is calibrated, practiced—but there’s a history there, a narrow seam you recognize. It doesn’t open you the way it once might have; it opens a map. You feel a small, private unspooling inside you—memory"
+    "of another corridor, another plan drawn with two people who trusted the same lines and then didn’t."
+    show iris_valence at left:
+        zoom 0.7
+
+    iris_valence "We can start the permitting this week. Valence will front emergency stabilization funds for prioritized blocks, and we have temporary modular housing ready for occupancy within thirty days. We can fast-track the seawall contract and begin relocation consultations on parallel tracks."
+    "You hear the vigor in her voice, the confidence that comes from knowing how to bend schedules and stakeholders. It’s efficient. It’s immediate. It will buy time for people with leaking roofs and frayed nerves."
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "And displacement protections? Anti-spec clauses? The families on Low Tide Row—"
+
+    iris_valence "Included. We’ve built accountability into escrow and deed covenants. Valence has legal teams. We’ll set up independent oversight with Dr. Khatri included. Transparency will be our default."
+    "Your chest loosens a fraction. That word—transparency—lands like a small raft under a flailing arm. You are suspicious of tidy promises; you are desperate for results. The trade-off is taut in your stomach: the rapid protection"
+    "being offered here versus the messy, slow mutual-aid you believe in. Iris leans forward, hands open as if offering you a draught of water."
+
+    iris_valence "Lena, you backed the plan. Help me make it honorable, not just fast."
+    "You pause at that. Help—yes. Honor—yes. You have always wanted to steer big tools toward better ends. For a breath you let yourself imagine scaffolds instead of erasures, a wall that buys time and a relocation that keeps roots rather than severs them."
+
+    menu:
+        "Take the offered tablet and review the renderings with Iris":
+            "You accept the tablet, fingers brushing Iris’s. The renderings are precise—seductive in their certainty. As you scroll, you find clauses you can strengthen. You point to a funding line and suggest a community oversight cadence."
+        "Step back and look out the window at the harbor":
+            "You decline politely and turn to the window. Brinehaven stretches out—pier patched like a scar, people moving like thread. Your throat tightens, but you can see faces. You tell Iris you need to make sure the plan keeps those faces intact."
+
+    # --- merge ---
+    "Continue main scene."
+
+    iris_valence "Whatever you choose, Lena, your voice matters in how this is done. I’m not asking you to sacrifice the town’s soul—only to accept that a hazard is immediate."
+
+    elena_lena_maris "A hazard that will take more than a wall to fix."
+
+    iris_valence "Maybe. But it will also keep people safe while we figure out the rest. Safety first."
+    "There is a firmness in Iris that once appealed to you—the kind of conviction that can convert gridlock into construction. You remember late nights in studio rooms arguing angles and ethics, and how quickly ideas became"
+    "cities in her hands. You also remember when those ideas stopped fitting around people as neatly as they fit into plans."
+    hide iris_valence
+    hide elena_lena_maris
+
+    scene bg ch7_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur as Valence staff make calls; a printer clicks; a coffee machine hisses]
+    # play music "music_placeholder"  # [Music: Strings swell slightly—bright, forward-moving]
+    "Iris Valence summons the Mayor via a secure line. You stand while she speaks; in the reflection of the glass you can see your own expression—tight, determined. The Mayor arrives an hour later, the same face that asked you to be plain."
+
+    "Mayor" "Elena, good. We need this moving. The council will want evidence of movement, not just promises."
+    show elena_lena_maris at left:
+        zoom 0.7
+
+    elena_lena_maris "This accelerates resources people need now. It’s not the only thing I want for Brinehaven, but it is what keeps roofs over heads before the next storm."
+
+    "Mayor" "Then let’s make sure those roofs are counted. Valence—how soon?"
+
+    "Valence Executive (on tablet)" "Week one—stabilization. Week two—contracts awarded for seawall construction. Thirty days—modular units occupying. We have teams ready and a payroll schedule for local hires."
+    "You fold your hands over your sketchbook and imagine lists of names: Rosie, who runs the co-op and needs time to adapt her freezer storage; Marco, whose hours on the pier mean rent presses heavier in"
+    "his palms than policy. It’s the immediacy that made you step into Iris’s orbit. People need a breathing room that only quick resources can buy."
+    hide elena_lena_maris
+
+    scene bg ch7_453e40_4 at full_bg
+    show iris_valence at left:
+        zoom 0.7
+
+    iris_valence "Put your name on this. Push it into the legal schedule. If we’re going to do this fast, do it with teeth. You’ll have influence."
+    "You trace the ink on the clause about community oversight. It feels like a hinge—if you can get the teeth in, maybe the bite will be ethical."
+    # play sound "sfx_placeholder"  # [Sound: A soft chime—your phone vibrates. A message from Jonah: 'We need to talk. Now.']
+    # play music "music_placeholder"  # [Music: A single piano note, held; the hopeful motif brightens but with a tremor]
+    "Your throat tightens when you see Jonah’s name. You can already anticipate his expression: that combination of warmth and brittle resolve when he’s trying to keep both his hope and his anger in balance. You told"
+    "him you needed to act. You didn’t say you’d be here, in a glass tower signing the lines that move the town’s map."
+
+    iris_valence "He’ll understand you’re steering a stern ship, Lena. People respect certainty, especially when it delivers."
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "Jonah respects community, Iris. He’s not against safety—he’s against losing the way we decide for ourselves."
+
+    iris_valence "Then bring him in. We can make space for his retrofit programs under the same payroll line. We can hire his teams. This doesn’t have to be exclusionary."
+    "You want to believe her. There is a pragmatic seam to Iris’s language—merge, include, fund—words you can translate into compromises that still taste like care."
+    # [Scene: The Watchhouse | Afternoon]
+    hide iris_valence
+    hide elena_lena_maris
+
+    scene bg ch7_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: People talking at once; someone laughs; a kettle whistles in the back]
+    # play music "music_placeholder"  # [Music: A bright acoustic guitar picks up, underscoring community energy]
+    "You carry back the addendum in a manila folder. The Watchhouse feels like your lungs exhaling—the place that taught you how to translate policy into pots of coffee and folding chairs. The room tilts when you"
+    "walk in: Jonah is there, sleeves rolled, hands ink-smeared from plans. Marco stands nearby, face lined with relief and something else—caution."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You did it. You went to Iris."
+    "You set the folder on the table between stacks of tide charts and volunteer rosters."
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "I went to make sure if something big happened, it happened with teeth for the people here."
+
+    jonah_reyes "And do you think teeth are enough to replace the hands that know how to plant, to bind, to rebuild? They’ve promised hiring for local crews before—the math is different when the wall is built and the fish beds are gone."
+    "Your conversation stretches, back-and-forth—longer than an exchange of lines. Jonah voices fears you had stored away: monoculture of protection, lost livelihoods, an economic center that moves farther from the boardwalk. You counter with pragmatic measures, clauses"
+    "you can enforce, legal oversight, temporary housing for displaced families, guaranteed hiring quotas. Each argument is a step in a dance you both know well—both of you trained to quell fear with plans."
+
+    jonah_reyes "I’m not saying safety isn’t real. I’m saying let’s not choose safety that eats the thing we’re trying to protect."
+
+    elena_lena_maris "And I’m saying we can’t wait while people spend another winter patching roofs. I don’t want anyone sleeping with oceanwater in their bed."
+
+    jonah_reyes "You say 'we' and I don’t always know if you mean town or Tower."
+    "You feel the sting of that. He’s right—your choices now sit between steel and salt. But you also feel Sergeant-urgent resolve: some people can’t wait for slow, community-led experiments."
+    show marco_maris at center:
+        zoom 0.7
+
+    marco_maris "Listen—my rent’s due. If this gets money into my neighbor’s hands and keeps the kids in school, I won’t pretend the loss of some mudflats doesn’t hurt. It does. But I’m not dying for principle."
+    "The room hums with the different weights of survival. That is the ugly, honest core: trade-offs as a ledger. People who can move will; those who cannot will take anything that buys time."
+
+    menu:
+        "Reassure Jonah with specific oversight measures you’ll push for":
+            "You take Jonah’s calloused hand briefly and lay out the enforcement cadence—quarterly audits, a community advisory board, claw-back clauses tied to environmental impact. Jonah listens, tension easing at each procedural promise, though his eyes remain guarded."
+        "Offer to bring Jonah into the hiring plan without promising full control":
+            "You suggest Jonah lead a retrofitting arm funded through Valence payroll lines. Jonah bristles at the compromise but nods—pride and practicality wrestling on his face. Marco claps once, loud and relieved."
+
+    # --- merge ---
+    "Continue main scene."
+    "Your explanations don’t erase everything. Jonah’s jaw clenches; he’s not a man who gives up easily. You can see the fissures forming—even as cranes and concrete promise to pull people from immediate danger, cultural continuity is"
+    "being smoothed into ledger lines. The town’s story is being folded into a corporate timeline. You will try to keep the folds honest."
+    hide jonah_reyes
+    hide elena_lena_maris
+    hide marco_maris
+
+    scene bg ch7_453e40_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The room quiets as phones light up; someone whistles; a volunteer starts to clap]
+    # play music "music_placeholder"  # [Music: The strings resolve into a hopeful major chord]
+    "Relief spreads in the room like low sun over water. Marco exhales audible and long. Rosie, who just stepped in from the kitchen, grins with wet paint on her hand."
+
+    "Mayor (arriving breathless)" "They signed. They’ve already earmarked the funds. We can start stabilization this week. Lena—this—this was the move we needed."
+    "You feel something in your chest widen. It is not unalloyed joy—there is grief braided through it—but it is real: houses will stand, people will have tangible shelter and wages, and for the most vulnerable the immediate horizon brightens."
+    "Jonah Reyes still looks wary, but the tightness in his shoulders has eased a fraction. He turns to you, study and apology mingled."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "If this is the route we’re on, then we make sure it includes the work that keeps people’s lives livable. We make sure it doesn’t become a replacement."
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "Agreed. You’ll get the retrofit teams funded. You’ll have authority to hire locally."
+
+    jonah_reyes "I’ll hold you to it."
+    hide jonah_reyes
+    hide elena_lena_maris
+
+    scene bg ch7_453e40_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter finds the room again, practical and small; someone bangs a spoon against a bowl for a makeshift cheer]
+    "You stand at the center of two scales—one weighted with immediate stability, the other with long-term cultural survival. For now, the scale tips in a way that keeps people from soaking in the next high tide. That tilt feels like a mercy."
+    # play music "music_placeholder"  # [Music: A hopeful swell—woodwinds and piano—emphasizing active, forward motion]
+    "You spend the afternoon drafting community oversight language, negotiating hiring quotas, and translating Valence legalese into plain English on a whiteboard. Iris calls twice to confirm clauses; you line up meetings with Dr. Khatri to ensure"
+    "independent environmental monitoring. Each action is small—ink and signatures and phone calls—but together they begin to look like a bridge."
+    "Later, Marco claps you on the shoulder in a way that is not sentimental but necessary."
+    show marco_maris at left:
+        zoom 0.7
+
+    marco_maris "You did what you had to. Don’t let them make you the bad guy for fixing the roof."
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "I won’t. I’ll make sure the roof keeps the family under it."
+    hide marco_maris
+    hide elena_lena_maris
+
+    scene bg ch7_453e40_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls; the hum of generators; a faint mechanical sigh of construction equipment warming up]
+    # play music "music_placeholder"  # [Music: The hopeful motif lingers, a bright, steady note]
+    "You walk back toward the pier at dusk and find yourself thinking about ribbon-cuttings—images of officials smiling against a new wall, plaques hardened into memory. You can almost hear the scissors snip."
+    "The scaffolding and the modular units will not fix everything. They aren’t meant to. They will buy time. You feel a pragmatic tenderness in that fact. People will have nights without salt behind their ears. Children will go to school without wading through water. That is enough, for now."
+    "As you look across the bay, your phone buzzes with one last message from Iris: 'Ceremony in two weeks. We’ll want you there at the ribbon.' You feel the tug of being both inside the machine and trying to steer it toward gentleness."
+    "The work you have carved out today feels alive—messy, imperfect, and moving. You have convinced a tower to bend toward the town instead of sweep it aside. That is a small revolution."
+
+    scene bg ch7_453e40_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind threading the pier; the soft creak of boards]
+    # play music "music_placeholder"  # [Music: A single, lingering chord—optimistic, unresolved]
+    "You breathe in the salt and the lamp-warm air and hold the moment. There will be hard choices left, and there will be people who feel betrayed. There will also be mornings when roofs do not"
+    "leak and children do not sleep in damp blankets. For tonight, the tide has been held back just enough to let people stand."
+    "You fold your sketchbook into your jacket. There is a ribbon to prepare for—ceremony and signs and local bands and Rosie’s mashed-potato sandwiches. You think of Jonah’s promise to hold you to the truth of the"
+    "oversight; you think of Marco’s blunt gratitude; you think of the teeth you managed to put into a corporate promise."
+    "Outside, the Tower’s windows reflect the town like a promise of its own—a bright, ordered mirror."
+    "You want to believe you’ve traded an impossible wait for a workable now. For once, the math adds up to more people breathing easier."
+
+    scene bg ch7_453e40_10 at full_bg
+    # play music "music_placeholder"  # [Music: The theme resolves in a hopeful cadence—rising, forward-looking]
+    "There is a moment—the kind that asks you to step forward—where action becomes narrative. You will be at that ribbon. You will be the one counting the seconds between scissors and applause. Your hands are not"
+    "as steady as you wish, but they do not tremble with fear now; they hum with purposeful energy."
+    "Turn the page."
+
+    scene bg ch7_453e40_11 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

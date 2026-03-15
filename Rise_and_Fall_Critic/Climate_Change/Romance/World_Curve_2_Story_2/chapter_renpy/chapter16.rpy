@@ -1,0 +1,204 @@
+label chapter16:
+
+    # [Scene: Flooded Streets | Late Afternoon — Afterstorm]
+
+    scene bg ch15_f05820_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, hollow thud of distant waves; rain easing to a steady hiss; intermittent creaks of settling timbers.]
+    # play music "music_placeholder"  # [Music: Sparse piano minor chords, low strings undercurrent]
+    "You come up against the town like a body you know the contours of and yet cannot recognize. Houses lean forward as if listening for a verdict. Sheets of seaweed cling to porch railings; children's toys"
+    "bob gently in a puddle that used to be a yard. The smell is of damp wool and river mud and diesel — a hospital smell, and also the smell of things that once kept people"
+    "alive, now sickly and exhausted."
+    "People move in small, stunned orbits. Some shout directions. Some stand very still, eyes trained on the waterline as if it might rise again. Hana's diner — the warm square oasis where you learned the slow"
+    "choreography of Harborfall's mornings — is a battered shelter tonight. The neon sign shakes, half-lit, spelling H A N A in humming letters that flicker like a tired heartbeat."
+    "You walk with the weight of your brother's watch in your pocket. The metal presses cold through the fabric. When you check it, the hands are stopped. It is, in a way, exactly what you deserve and exactly what you cannot make sense of."
+    # [Scene: Hana's Diner | Interior — Night]
+
+    scene bg ch15_f05820_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Clink of spoons; soft sobbing at a corner table; the hiss and sizzle of a pot on the stove.]
+    # play music "music_placeholder"  # [Music: A single violin — long, slow bow]
+    show hana_kim at left:
+        zoom 0.7
+
+    hana_kim "You made it. Thought maybe the tide took you with it."
+    show maya_inoue at right:
+        zoom 0.7
+
+    maya_inoue "Not today."
+    "Your voice is small against the room."
+
+    hana_kim "Good. We need hands. And you need—"
+
+    hana_kim "—something warm."
+    "You move to the counter because that is one of the things you do when the world tips: you put your hands into practical motion. The coffee is too strong; it serves as a kind of truth serum."
+    "Across from you, Mrs. Delgado holds a clear plastic bag packed with soggy photographs; she traces a corner with one finger as though the touch could dry the image. Tomas sits in a booth by the"
+    "window, hands folded in his lap, coat still smelling of the sea. He watches the shoreline like a man reading a grief he cannot translate."
+    show tomas_bianchi at center:
+        zoom 0.7
+
+    tomas_bianchi "They took the channel's old stones last year. Said it would 'improve flow.'"
+
+    maya_inoue "We argued, Tomas."
+
+    tomas_bianchi "A lot of arguing. Not a lot of listening."
+    "The conversation loops and lurches. You offer blankets; you pass dry bowls; you keep your hands busy because movement is the only place your guilt can rest for a minute."
+
+    menu:
+        "Help Hana ladle soup":
+            "You cup a ladle and begin steadying bowls, handing one to Mrs. Delgado. The motion is small, repetitive, and it grounds you; faces in the room relax into receiving."
+        "Check the east channel for further breaches":
+            "You step back into the rain, grabbing your hood. Tomas nods but does not follow; the channel's broken line draws you like a cut that wants to be inspected. You find a new gap and trace its jagged mouth with numb fingers."
+
+    # --- merge ---
+    "Continue with the following scene."
+    hide hana_kim
+    hide maya_inoue
+    hide tomas_bianchi
+
+    scene bg ch15_f05820_3 at full_bg
+    # play music "music_placeholder"  # [Music: Tensioned strings; a soft, rhythmic tapping]
+    "You see Kaito Sato arrive like a figure from some other weather: soaked boot-tops, sensor strap across his chest, a small canvas bag at his side. His hair is plastered and his eyes—sea-green, rimmed with fatigue—are"
+    "hollowed in a way that makes you want to close your hands into fists and shout for him to take what comfort he can."
+    show kaito_sato at left:
+        zoom 0.7
+
+    kaito_sato "Maya."
+    show maya_inoue at right:
+        zoom 0.7
+
+    maya_inoue "Kaito."
+    "You name on his lips is an ache."
+
+    kaito_sato "I—"
+
+    kaito_sato "We tried to make a model. We tried to warn—"
+
+    maya_inoue "Warnings without funding get comfortable in reports and cold servers."
+    "You say it too quickly; it comes out like accusation and apology all in one."
+    "Kaito Sato moves closer; the damp cloth of his sleeve leaves a ghost on the counter."
+
+    kaito_sato "I should have pushed harder. I should have—"
+
+    maya_inoue "You shouldn't carry that alone. None of this is on you to fix by yourself."
+
+    kaito_sato "Maybe not. But if I don't leave with the data, then all of this becomes 'everything we didn't know.' I promised—I promised I'd take the sensors and make sure someone hears them."
+    "There's a pause that is a small, fierce thing between you. His face is the map of someone trying to reconcile theory and consequence."
+
+    kaito_sato "I'm leaving tonight. I have to get the cores to Noor. If there's any good to be salvaged, it'll be in what we learn."
+
+    maya_inoue "Leaving?"
+
+    kaito_sato "To carry lessons forward. Not to run. To make sure this doesn't happen to someone else. I can't—"
+
+    kaito_sato "I can't undo what happened here."
+    "You want to say stay. You want to say stay and mend and plant and fight, but you also remember the last time you tied your hopes to one set of hands and watched the ocean"
+    "take them away. So you let him go with his small bag and the sensors and a promise that is both necessary and not enough."
+
+    kaito_sato "I am sorry, Maya."
+
+    maya_inoue "Then go and be sorry for both of us."
+
+    menu:
+        "Hug him goodbye":
+            "You step forward and wrap your arms around his damp shoulders. It's brief and messy and real; he closes his eyes, like a man letting something fall out of him."
+        "Set a hand on his arm and let him leave":
+            "You rest a palm on his forearm—a placemaking touch—and watch him walk away, feeling the small hollow he leaves like a missing tooth."
+
+    # --- merge ---
+    "Continue to the next scene."
+    # [Scene: Flooded Neighborhood — Dusk]
+    hide kaito_sato
+    hide maya_inoue
+
+    scene bg ch15_f05820_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The slosh of boots through ankle-deep water; someone quietly weeps under their breath; distant clanging of a buoy or sign.]
+    # play music "music_placeholder"  # [Music: A small chorus, harmonics, low and mournful]
+    "You make rounds because you are the person who makes rounds. You take inventory of what can be saved and what cannot. You hand small things back to their owners — a soggy sweater, a rusted"
+    "tin that once held nails, a journal with salt-stiffened pages. Each return is a tiny, terrible mercy."
+    "Mrs. Delgado takes the photographs with trembling fingers and presses them to her chest like a talisman. Tomas watches the water off the pier and then looks at you like someone measuring how much more a man can be asked to lose."
+    show tomas_bianchi at left:
+        zoom 0.7
+
+    tomas_bianchi "They'll call this an example of civic courage,"
+    "he says, voice flat. 'A victory in a newspaper. They won't call it what it is.'"
+    show maya_inoue at right:
+        zoom 0.7
+
+    maya_inoue "What is it, Tomas?"
+
+    tomas_bianchi "A truth that left no cushions. A billboard lit up and the town left with nothing but rain."
+    "You feel the referendum like an ache under your ribs — a moral victory threaded through with a cost that keeps on tallying itself. In some neighborhoods tonight, votes are banners stacked against doorways. In others, the same votes are a scaffold that failed when it mattered most."
+    # [Scene: Promenade | Night — The Dark Wash]
+    hide tomas_bianchi
+    hide maya_inoue
+
+    scene bg ch15_f05820_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The ocean breathing; a gull's distant, ragged cry; the scrape of a net being dragged over a wet board.]
+    # play music "music_placeholder"  # [Music: A single cello line, grave and resonant]
+    "You return to the promenade alone because there are things you need to face in the quiet that crowds cannot hold. The salt scours your face as if the tide is trying to read your skin"
+    "and name the story on it. The watch in your hand feels heavy and obscene, stopped at a moment that can never be set right."
+    show maya_inoue at left:
+        zoom 0.7
+
+    maya_inoue "We told the truth."
+    "The statement is an anchor and also a splinter."
+
+    maya_inoue "We told the truth and the money left. They called it accountability and the sea called it timing."
+    "You sit on a bench and let the dark wash over you. It is not cleansing so much as leveling: all the town's color muted to the same wet gray. You think of LuxCorp's retreat, the"
+    "investors' polite letters, the legal wins that read like paper shields against a storm that demanded concrete. You think of Kaito Sato's hands as he packed sensors, of Hana's diner stove warming bowls for people with"
+    "nothing left, of Tomas's mouth closed like a locked door."
+    "There is a sorrow in this that is not elegant. It is the thick, quotidian grief of having given something you believed in and watched it be broken by consequences you could not have entirely foreseen."
+    "Mayor Elena finds you there eventually; she comes up behind you, rain-dotted and tired. Her municipal pin catches a sliver of light."
+    show mayor_elena_rossi at right:
+        zoom 0.7
+
+    mayor_elena_rossi "You did what you thought was right."
+
+    maya_inoue "Did I? Right looks like an empty house tonight."
+
+    mayor_elena_rossi "Right is a compass and a condition. Sometimes both point the same way and sometimes they don't. The town needed truth. The town needed funds. It needed to be both fed and defended. The ledger isn't kind."
+    "Her words are a ledger laid open. You listen without the energy to protest or to argue. The cost has already been counted in the faces you've seen tonight."
+    "Hana joins you, carrying a damp thermos."
+    show hana_kim at center:
+        zoom 0.7
+
+    hana_kim "You can't keep wearing that watch like it's an indictment, Maya."
+
+    maya_inoue "It's the only time I can claim to have kept."
+
+    hana_kim "Then keep it as a reminder, not a sentence. We decide from here, not because of what we've already paid."
+    "You want to let her hope leap and become contagion; you want to let her knit threads you do not have. But the truth sits like a stone: there are holes in the plan that will take longer to mend than the lives they hollowed."
+
+    menu:
+        "Stay in Harborfall and help rebuild":
+            "The thought rises warm and stubborn—stay, organize, plant, build, fight in the trenches. The plan feels heavy but honest. You picture Hana's hands and Tomas on the pier and the work that would put flesh back on the bones of the town."
+        "Leave and carry the story outward":
+            "Another thought sparkles: leave, write reports, be the cautionary tale that changes other towns. You imagine Kaito Sato's route maps and Noor's databanks; you imagine lectures and petitions. The idea tastes of cold metal and duty."
+
+    # --- merge ---
+    "Continue with the closing narration."
+    "You fold both thoughts into your palm like two pieces of sea-glass and rub them until they are smooth. They are not mutually exclusive in the way you wish them to be. There is so much"
+    "to do that it no longer makes sense to frame every path as a betrayal."
+    hide maya_inoue
+    hide mayor_elena_rossi
+    hide hana_kim
+
+    scene bg ch15_f05820_6 at full_bg
+    # play music "music_placeholder"  # [Music: Long, sustained chord resolving into a soft, descending line]
+    "You stand. The water presses at the promenade's edge, indifferent and ancient. You let the dark wash you — not cleansing entirely, but naming what remains. You will carry the facts of tonight as you carry"
+    "your watch: heavy, cold, and impossible to reset. You will carry them either into the town's slow rebuilding or to cities that still believe money is the solution. That choice — whether to stay and stitch"
+    "or to leave and teach — sits where many decisions in your life have sat: raw, required, and not yet resolved."
+    "For a moment, the only thing you have is the knowledge that you acted in accordance with a moral logic that did not spare you from consequence. There is a strange honesty to that. The referendum"
+    "is a clean cut; the flood is the wound. Both are true. Both will be in the stories told about this night."
+    "You turn the watch over in your fingers one last time and press the crown. The hands do not move. You do not need them to. You slip it back into your pocket and walk away"
+    "from the railing, the town behind you a constellation of small, stubborn lights in the rain."
+
+    scene bg ch15_f05820_7 at full_bg
+    # play music "music_placeholder"  # [Music: Cello hum trailing into near silence]
+    # play sound "sfx_placeholder"  # [Sound: The ocean, patient and indifferent]
+    "You have a grief that will take a life to unlearn, and a resolve that will take a life to make useful. That is all the ending you get tonight: the last of the tide receding,"
+    "the town left in wet silhouettes, and you carrying a stopped watch and a truth that cost more than any clean ledger could show."
+
+    scene bg ch15_f05820_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

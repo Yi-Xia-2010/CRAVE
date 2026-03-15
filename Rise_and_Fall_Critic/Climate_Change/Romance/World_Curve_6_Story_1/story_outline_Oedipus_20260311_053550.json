@@ -1,0 +1,467 @@
+{
+    "title": "Tidehaven Tides: The Long Low Arc",
+    "summary": "Mira Kestrel returns to Tidehaven to lead community-centered climate adaptation. The town is split between technocratic infrastructural solutions and culturally-rooted, community-built living shorelines. Mira must choose to stand with Jonah and grassroots restoration, back Asha's engineered defenses, or broker a hybrid. Each path brings temporary success and eventual loss as storms and political pressures create trade-offs between safety, memory, and local sovereignty. The narrative follows an Oedipus emotional arc: Fall → Rise → Fall, as Mira reconciles past absence with present responsibility.",
+    "emotional_curve_type": "Oedipus",
+    "player_character": "Mira Kestrel",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Returning Fog",
+            "branch_designation": "Common",
+            "narrative_focus": "I step off the bus onto the Tidehaven Boardwalk at dawn. Fog hangs low; salt and diesel stitch the air. I—Mira Kestrel, in my olive water-resistant field jacket with sea-green-tipped hair tucked in a loose knot—hold my weatherproof notebook like a rosary. The harbor is quieter than my memory: a few boats, a lot of patched planks, and a neon sign flickering over a shuttered bait shop. I spot Jonah across the boardwalk: thick black hair with sun-bleached tips, his amber-brown eyes curled in a skeptical smile, a waxed oilskin coat patched at the elbows. He nods, and the old ache of guilt tightens—my father’s boat and the storm that drove me away. The mayor’s placards, Bento’s stooped figure by the railing, and a city planner’s logo on a pamphlet (Asha’s arrival) frame what’s become the new landscape: community under pressure. I remember the tide charts in my pendant, the brass compass my mother left me, and wonder whether practical engineering and memory can coexist. The chapter closes with me heading toward the Saltmarsh Research Lab and a mayoral meeting scheduled for this afternoon.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Evelyn Sato",
+                "Bento Morais",
+                "Asha Verma"
+            ],
+            "locations_used": [
+                "Tidehaven Boardwalk",
+                "Harbor",
+                "Saltmarsh Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Council Papers and Old Promises",
+            "branch_designation": "Common",
+            "narrative_focus": "I sit in Tidehaven Town Hall under amber lamps; the council chamber smells of old wood and coffee. I keep my compass pendant tucked under my field jacket, fingers worrying its chain. Evelyn Sato—petite, silver-streaked hair—moves between petitions and developer memos with an exhausted smile. Asha Verma arrives: slate-gray coat, a tablet with GIS overlays and steel-blue eyes that scan the room like a surgeon. She lays out a regional plan—flood gates, reinforced berms, managed retreat maps—with crisp, clinical certainty. Jonah arrives late, smelling of fish and diesel; his rolled-up jeans and patched waders give him a soft defiance. He argues for community-built living shorelines, marsh plantings, and hands-on repairs that preserve fishing access. My notebook collects tide-lines and whispered memories: Bento’s stories of older tides, Dr. Lian Zhou’s hilltop simulations with teal-and-ochre overlays. The meeting fractures into quiet arguments and louder appeals. Each side stares at me, the engineer who left and came back: Evelyn wants me to shepherd pilot projects, Jonah wants me to stand with neighbors, Asha wants technical leadership. The chapter ends with the bell tolling and me alone on the boardwalk, the sea reflecting a thin silver threat.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Evelyn Sato",
+                "Asha Verma",
+                "Jonah Reyes",
+                "Bento Morais",
+                "Dr. Lian Zhou"
+            ],
+            "locations_used": [
+                "Tidehaven Town Hall",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Fault Lines and a Choice",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "Back in my field jacket, I feel the town’s lines like seams in my palm—who will lose what and who decides. Bento’s low voice in the hallway—“You left, Mira”—is a memory that settles like silt. I read Dr. Lian Zhou’s latest model on my battered laptop: a five-year projection with teal wetlands shrinking along a jagged timeline. Asha’s eyes, steel-blue and resolute, press me: “We need enforceable zones and a sea-gate pilot. I need someone to lead the technical deployment.” Jonah’s amber gaze holds a different appeal: “We rebuild the marshes the old way — people, boats, poles, and seed. Keep the harbor alive.” Evelyn asks for a recommendation. The town waits for a decision that is less engineering and more moral—what does salvage mean? My hands feel like maps of past storms. I weigh my promise to my father, my debt to the town, and the pragmatism that made me leave. The moment splits like a tide exposing a shoal: which side will I anchor with? This major decision will steer whether I lean into community resilience, city-scale infrastructure, or attempt to broker a hybrid. The boardwalk wind tastes of salt and consequence.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide how to direct the pilot project and public recommendation.",
+                "options": [
+                    {
+                        "label": "Stand with Jonah and the community-led living shorelines.",
+                        "consequence": "I commit to grassroots marsh restoration and volunteer builds, trusting local knowledge and slow processes.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Back Asha's decisive infrastructural plan for a sea-gate and reinforced berms.",
+                        "consequence": "I take a municipal role leading fast, engineered defenses; I accept hard trade-offs and managed retreat zones.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Propose a hybrid: gather stronger community data, pilot both approaches, and broker a phased plan.",
+                        "consequence": "I try to bridge both sides, promising evidence-based pilots and community oversight.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Bento Morais",
+                "Asha Verma",
+                "Jonah Reyes",
+                "Dr. Lian Zhou",
+                "Evelyn Sato"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Tidehaven Town Hall",
+                "Saltmarsh Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Salt and Seedlings",
+            "branch_designation": "Route A",
+            "narrative_focus": "I pull on my knee-high rubber boots and join Jonah at the Greenhouse Collective. The air smells of wet soil and salt. His hands—rough from nets—guide me through trays of spartina and eelgrass. Jonah’s smile is steady; when he hands me a seed packet, I feel the trust of small things. We organize volunteer crews in the Old Shipyard: noodles of salvaged timber, woven bags of sediment, and Bento’s stories braided into how-to chants. Dr. Lian Zhou drops by with a handheld sediment probe—salt on her boots—and offers gentle, crucial corrections to our planting grid. I feel alive inside the collective rhythm: the town shows up, Kai Tan’s blue-cropped youth push petitions and plantings, and Evelyn signs off on a small pilot permit. My weatherproof notebook fills with tide notes, volunteer shifts, and an ever-present list of householders we must consult. Jonah’s Polaroids document each phase: my sea-green hair tips smeared with mud, his amber eyes luminous as dusk. For the first time since I returned, I sense that reconciliation is practical—a process built from hands and stitches rather than blueprints. Hope rises like a planted shoot.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Dr. Lian Zhou",
+                "Bento Morais",
+                "Kai Tan",
+                "Evelyn Sato"
+            ],
+            "locations_used": [
+                "Greenhouse Collective",
+                "Old Shipyard"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "The Shipyard Build",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "We schedule a big weekend build at the Old Shipyard. Volunteers arrive in patched coats and reflective vests; Bento’s presence steadies older hands. Dr. Lian Zhou runs a quick transect and adjusts our planting elevation. Jonah and I stand shoulder-to-shoulder arranging willow stakes and coir logs. My laptop hums with community-sourced elevation points; my compass pendant feels like a margin note of who I am. The build attracts attention: a regional NGO offers funding, but their grant language asks for branding and a scaled timeline that would reshape our aesthetic and ownership norms. Asha attends to observe, her brass-framed glasses slipping as she points out structural vulnerabilities. Kai organizes a youth group to plant seedlings at night so the seedlings face lower initial stress. I’m at the center of a moral knot: prioritize local control and the town’s way of doing things, accept external funding that produces a larger ecological footprint but more security, or pivot to a more cautious pilot expansion with Dr. Lian’s stricter monitoring. This choice will shape who holds the shoreline and who speaks for Tidehaven’s future.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide how to scale and fund the shipyard pilot.",
+                "options": [
+                    {
+                        "label": "Refuse external branding; keep it community-run and small.",
+                        "consequence": "We maintain local ownership, slower scale, and stronger communal bonds.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept the NGO grant but require local governance clauses.",
+                        "consequence": "More resources and faster expansion, but compromises on aesthetics and oversight tension.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Push for a rigorous, smaller pilot with Dr. Lian’s monitoring—even if funding is tight.",
+                        "consequence": "Scientific validation is prioritized; progress is slower and bureaucratic.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Dr. Lian Zhou",
+                "Bento Morais",
+                "Kai Tan",
+                "Asha Verma"
+            ],
+            "locations_used": [
+                "Old Shipyard",
+                "Greenhouse Collective"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "High Tide Reckoning",
+            "branch_designation": "Route A (Ending Convergence)",
+            "narrative_focus": "The winter storm I’d been watching in model runs arrives with a black mouth. We’d celebrated our seedlings; Jonah and I stood on the boardwalk holding hands over wet planks, surveying rows of new marsh. That warmth breaks as a storm surge slams the harbor. The coir logs hold in some places and tear in others. If we chose to reject external branding and remain small (Option A), the shorelines we built—fewer and less engineered—suffered heavy losses; neighbors I’d promised safety to watch water devour small yards. If we accepted the NGO grant under local governance terms (Option B), the larger installations protect the main channel but shifted water and caused back-bay erosion that took low-lying homes. Either way, I’m left with a bruise of responsibility: we saved some things and lost others. Jonah’s amber eyes are wet and furious; Bento’s quiet grief fills the shipyard’s hollows. I taste salt and ash. The town rallies, but narratives split into blame and mourning. My compass pendant grows heavy again. The temporary success of community action is pierced; the final fall leaves Tidehaven changed and smaller.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Bento Morais"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Old Shipyard",
+                "Shipyard"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Concrete and Command",
+            "branch_designation": "Route B",
+            "narrative_focus": "I accept Asha’s offer to lead the engineered pilot. She gives me a slate-gray coat rack—figuratively—and a tablet loaded with GIS overlays. In the Saltmarsh Research Lab, I become the liaison between municipal engineers and our town. Asha’s efficiency is cold but effective: permits move quickly, contractors mobilize, and regional officials re-route funds. The sea-gate schematics are austere and precise; the berm sections look like promises drawn in concrete. Jonah watches me from the boardwalk—his face a map of pride and worry. We run model tests with Dr. Lian Zhou; her data aligns with Asha’s assumptions enough to justify a fast timeline. The town gets paid crews to shore up the highpoint and install reinforced barriers near critical infrastructure. I feel an unfamiliar authority: Evelyn offers procedural support; Kai reluctantly helps coordinate youth crews. For a moment, the panic eases. The town’s exposed arteries are bandaged. But at night, whispered complaints stir—who will be told to move when the tide shifts? My hands are steady on the tablet, but my compass pendant taps against my sternum like a warning.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Asha Verma",
+                "Dr. Lian Zhou",
+                "Jonah Reyes",
+                "Evelyn Sato",
+                "Kai Tan"
+            ],
+            "locations_used": [
+                "Saltmarsh Research Lab",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "The Council Vote",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "With contractors queued and the sea-gate budget looming, the council vote becomes the town’s hinge point. Asha presents enforceable retreat zones and a phased construction schedule. Jonah organizes a town square protest, planting stakes and ghostly photo banners of disappearing docks. Evelyn nervously manages the public comment period. I testify with GIS overlays and cautious language, but the room crackles with differing fears. On my laptop, Dr. Lian’s projections show the gate buys us decades in some scenarios but creates back-bay salinity shifts in others. The decision splits into a knife: vote to install the sea-gate now and enforce retreat zones, champion volunteer-built marshes and smaller pilots, or delay and demand a combined phased approach with independent oversight. My voice falters—each choice promises scaled protection or scaled loss. Jonah’s amber eyes search mine for permission to resist. Asha’s steel-blue stare asks for urgency. This council vote will decide whether the town follows a centralized, quick defense, a grassroots path, or a negotiated middle ground.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Determine what to recommend at the council and how to manage fallout.",
+                "options": [
+                    {
+                        "label": "Push full-on for the sea-gate and enforce retreat in critical zones.",
+                        "consequence": "Fast regional protection, but small neighborhoods must relocate; we secure funding fast.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Insist on parallel community pilots and tie implementation to monitoring.",
+                        "consequence": "Asha concedes limited community oversight; implementation is slower but more inclusive.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Pause to broker a phased approach and ask for more independent studies (delay implementation).",
+                        "consequence": "Time to test hybrid models, but delays risk exposure in the next storm.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Asha Verma",
+                "Jonah Reyes",
+                "Evelyn Sato",
+                "Dr. Lian Zhou",
+                "Kai Tan"
+            ],
+            "locations_used": [
+                "Tidehaven Town Hall",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Lockgate Failure / Local Compromise",
+            "branch_designation": "Route B (Ending Convergence)",
+            "narrative_focus": "The sea-gate goes in with fanfare. We cut a ribbon and stand on reinforced berms as contractors seal last bolts. If we’d pushed for the gate outright (Option A), municipal funding flows and high-lines hold the main channel—regional transit and some properties are safe. But the enforced retreat displaces families in low coves; Jonah grieves small docks and lost moorings while I watch eviction notices taped to doors. If we insisted on parallel community pilots with monitoring (Option B), some neighborhoods kept channels open and marshes, but the gate’s hydrology still shifted back-bays—salt intrusion killed small freshwater beds. In both variants, a late-season surge exploits a corner of engineering we’d not foreseen: scouring at a low boundary undermines a cluster of homes. We avert total catastrophe, but loss is real. Jonah and I find ourselves arguing in the warehouse—his practical sorrow colliding with my technical justifications. Asha’s competence saved many lives, but at what cost? The fall returns with a quieter cruelty than the initial collapse—pragmatic salvation that demands personal sacrifice. The town is safer at scale and lonelier at the edge.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Asha Verma",
+                "Evelyn Sato"
+            ],
+            "locations_used": [
+                "Sea-gate",
+                "Reinforced Berms",
+                "Harbor",
+                "Warehouse"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Data and Diplomacy",
+            "branch_designation": "Route C",
+            "narrative_focus": "I propose a hybrid: phased pilots, community governance clauses, and a data-sharing agreement to test both engineered and nature-based solutions. Asha is skeptical but allows a time-limited trial; Jonah warns that brokering might mean we please no one. I walk the Highland Cliffs Overlook at dawn, my hair loose and damp, staring at solar arrays and tidal lines. Dr. Lian Zhou helps me design paired plots—one engineered berm, one living shoreline—monitored across seasons. Evelyn supports a public dashboard. The Greenhouse Collective seeds both plots. We draft governance terms with Bento present, ensuring community veto powers and local hiring provisions. Volunteers and contractors work in staggered teams; the town feels both busy and fragile. My first-person notes swell with meetings, field markers, and apologies written and unread. For a while, the approach works: gulls return to restored marshes, the sea-gate contractor finds design compromises, and Jonah and I rebuild late-night meals after surveys. The rise is pragmatic and relationship-healing, grounded in evidence and mutual concessions.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Asha Verma",
+                "Jonah Reyes",
+                "Dr. Lian Zhou",
+                "Evelyn Sato",
+                "Bento Morais",
+                "Kai Tan"
+            ],
+            "locations_used": [
+                "Highland Cliffs Overlook",
+                "Greenhouse Collective",
+                "Paired pilot plots"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Political Crosswinds",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The pilot’s data begins to speak, and with data comes politics. Dr. Lian presents promising results: the living shoreline plot reduces wave energy measurably; Asha’s engineered section preserves navigation lines. Yet regional bureaucrats ask to scale whichever metric is “most cost-effective,” and a developer files a petition to alter the harbor promenade for a waterfront complex. Kai leads a demonstration in favor of community ownership of the research data. Mayor Evelyn agonizes over promised funding from the region contingent on choosing one scalable model. I hold my compass as if it were an answering device. Jonah fears commodification; Bento worries about losing ceremonial mooring points. The split is political and ethical: push for one model to secure scaling and funding, maintain dual pilots and risk funding being withdrawn, or call for full transparency with public votes on each next step. Each route will influence whether the town’s memory is preserved or monetized. My role as mediator becomes central and emotionally costly.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide how to manage regional funding pressure and developer interest.",
+                "options": [
+                    {
+                        "label": "Recommend scaling the living shoreline for regional funding.",
+                        "consequence": "Strong case for nature-based approaches; funding likely but may reduce navigational areas.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Recommend scaling engineered protections with strict oversight.",
+                        "consequence": "Faster regional adoption; some community areas sacrificed but navigation preserved.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Demand public votes and stronger community ownership before scaling—and risk funding withdrawal.",
+                        "consequence": "Maximum local agency but funding may be lost, increasing exposure to political reversals.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Dr. Lian Zhou",
+                "Asha Verma",
+                "Jonah Reyes",
+                "Evelyn Sato",
+                "Kai Tan",
+                "Bento Morais"
+            ],
+            "locations_used": [
+                "Town Hall",
+                "Harbor Promenade",
+                "Research plots"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Model Town, Broken Edges",
+            "branch_designation": "Route C (Ending Convergence)",
+            "narrative_focus": "The region picks a model. If we recommended the living shoreline (Option A), Tidehaven becomes a pilot beacon: grants flow, engineers and neighbors scale marsh restoration, and other towns ring for advice. But the navigable channels shrink; small fishers lose quick access and some family boats are retired. Jonah chooses to stay and adapt boats, but the harbor’s rhythm changes. If we recommended engineered protections (Option B), the region replicates hardened berms and sea-gates; Tidehaven receives visitors and funding, but the town’s waterfront becomes a corridor of infrastructure—less home, more defense. Either way, the pilot’s success becomes a template—and with template success comes external interest in efficiency, not memory. One overnight storm—an acute surge that the scaled models had not fully captured—exposes a neglected low-side neighborhood. Houses we thought protected flood; old moorings are lost. The town’s model status saves many, but the human cost is real and personal. I stand at the Highland Cliffs feeling both vindicated and hollow. The Rise yields an institutional gain; the Fall returns with private loss.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Dr. Lian Zhou",
+                "Asha Verma",
+                "Evelyn Sato"
+            ],
+            "locations_used": [
+                "Highland Cliffs",
+                "Marsh expanses",
+                "Reinforced Berms",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Quiet Loss (Alternate Ending)",
+            "branch_designation": "Route A (Alternate Ending)",
+            "narrative_focus": "We followed Dr. Lian’s recommendation for a rigorous pilot with tight monitoring—no glossy grant, no branding, slow science. For a while I felt righteous; our data were clean, our methodology defensible. But the delay cost us momentum when a mid-season surge arrived. Without broader scaffolding to reinforce neighboring sections, our carefully controlled experiment became isolated. The influx of water found the seams between project parcels, and the low-lying community near the Old Shipyard bore the brunt. I visit ruined porches and taste guilt like rust. Jonah’s eyes are shuttered with grief; he refuses to say whether science was worth the price. Elena from the greenhouse counts missing seedlings. Bento mutters that time and tide ask different questions than lab notebooks. In my notebook I write lists of what we did right and what we did not; the lists become the same. The town mourns what incrementalism could not protect. The fall is quiet and patient—less spectacular than a sea-gate failure, but no less absolute.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Dr. Lian Zhou",
+                "Elena",
+                "Bento Morais"
+            ],
+            "locations_used": [
+                "Old Shipyard",
+                "Shipyard",
+                "Greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "The Delayed Vote",
+            "branch_designation": "Route B (Alternate Ending)",
+            "narrative_focus": "I pushed to pause implementation and gather more studies—more listening, more proof, more time. The delay bought us conversations, but it also bought time for a storm to arrive before defenses were in place. The council’s postponement became a political vacuum: developers pressed, funding windows closed, and anger curdled into blame. When the surge came, a line of older homes along a tidal creek flooded; rescue teams reached many, but not before sentimental artifacts and family histories were washed to driftwood. Jonah and I sit on the Highland Cliffs watching the town’s bell swing in a wind that feels like indictment. Asha blames indecision; Kai blames bureaucracy and youthful inaction. I blame myself in the quiet hours. The attempt to be inclusive and cautious meant we were neither quick nor fully protective when the sea chose a timeline of its own. The fall here is a moral erosion: the instincts for fairness and consensus were overwhelmed by the ocean’s impatience, and the town's trust frays in ways that echo past storms.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Asha Verma",
+                "Kai Tan"
+            ],
+            "locations_used": [
+                "Highland Cliffs",
+                "Tidal creek",
+                "Tidehaven Town Hall"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Local Sovereignty, Fragile Futures",
+            "branch_designation": "Route C (Alternate True Ending)",
+            "narrative_focus": "We demanded public votes and community ownership, even if it meant risking the funding window. For months, we fought to keep data public, to guarantee local hiring clauses, and to require community vetoes on aesthetic changes. The result was messy but profound: we lost immediate regional grants, but Tidehaven built governance structures that prioritized memory and local livelihoods. Asha’s anger turned to reluctant respect over time. The pilots continued under a cooperative charter; other towns watched and sent delegations. But the fall arrives in a granular way: without the larger funding, our capacity to arm large infrastructure was limited. When a larger storm hit two years later, we saved many lives, but key corridors flooded and a cluster of historic docks was abandoned. The ending is \"True\" in the sense that we forged a model of governance and moral clarity that would inform regional policy in the long run, but the present bearable losses are real. Jonah and I stand apart on the mud-flat, hands touching briefly—our love matured into a companion grief. The arc closes with both hope for systemic change and the sting of immediate loss—an Oedipal lesson that solutions born of ethics still pay terrible dues.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Kestrel",
+                "Jonah Reyes",
+                "Asha Verma",
+                "Bento Morais"
+            ],
+            "locations_used": [
+                "Mud-flat",
+                "Cooperative meeting hall",
+                "Shoreline pilot sites"
+            ]
+        }
+    ],
+    "remarks": "Branch points occur at Chapter 3, Chapter 5 (Route A split), Chapter 8 (Route B split), and Chapter 11 (Route C split). Ending chapters: 6, 9, 12, 13, 14, 15. Emotional arc follows Fall → Rise → Fall (Oedipus). All chapters are first-person Mira Kestrel narration.",
+    "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+    "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)"
+}

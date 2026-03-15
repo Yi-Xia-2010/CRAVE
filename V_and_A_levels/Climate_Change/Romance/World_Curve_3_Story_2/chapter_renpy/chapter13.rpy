@@ -1,0 +1,146 @@
+label chapter13:
+
+    # [Scene: Café Back Room | Just After Midnight — Rain Against the Roof]
+
+    scene bg ch11_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain hammers the roof in a steady, urgent rhythm. Voices whisper, then rise. A phone vibrates against wood. The kettle on a small stove hisses and dies.]
+    # play music "music_placeholder"  # [Music: Urgent strings; a driving loop that pushes the tempo higher with each cut of dialogue.]
+    "Maya Soler steps over a spill of coffee and stops at the table. The files are heavier than she remembers; weight measured not in paper but in consequence. Prof. Noor's hands are in the center of"
+    "the map — soil under her nails, ink on her fingertips like battle scars. Rosa's jacket, a flash of yellow, leans against a chair; her protest buttons catch the lamp and throw back tiny sparks."
+    show prof_noor_azizi at left:
+        zoom 0.7
+
+    prof_noor_azizi "We cross-referenced receipts, transfers, and the consulting agreements. Look here.' (she slides a printout toward Maya; the paper trembles in the lamplight) 'Short-term bonds, shell companies, commitments tied to construction milestones — the pattern is consistent."
+    "Maya Soler leans in. The smell of damp wool and strong coffee mixes with the faint marine tang that has followed her since the boardwalk. The documents make a map of promises: dates, lines, wires that"
+    "stitch Elias Voss's firm to the towns that ended up with seawalls and empty harbors."
+    show rosa_tan at right:
+        zoom 0.7
+
+    rosa_tan "They told Ben's cousin — and half the co-op — that this is a done deal. 'This time will be different,' they said. Then bids closed overnight and jobs vanished.' She slaps a napkin with a scrawl of names and times onto the table. 'People gave up boats; they took loans."
+    show ben_harper at center:
+        zoom 0.7
+
+    ben_harper "They had a man from the firm put fancy charts on my table once. Told us the sea could be tamed with stone and steel. My brother laughed at the idea. 'You can't fix an ocean with a ledger,' he said. He was right."
+    hide prof_noor_azizi
+    show aiden_kuro at left:
+        zoom 0.7
+
+    aiden_kuro "We're not just dealing with numbers. We're dealing with families. If we expose this and the town fractures—"
+    "Maya Soler feels her chest tighten. The guilt that has sat like ballast under her ribs — the house her brother couldn't save — shifts into something sharper. Not vengeance. Not joy. A fierce clarity, a kind of clean light that shows the edges of a choice."
+    hide rosa_tan
+    show prof_noor_azizi at right:
+        zoom 0.7
+
+    prof_noor_azizi "They've already filed for injunctions. Lawyers are asking judges to freeze our meetings. That's how they buy time — and public fatigue. We can go to an independent council with everything: chain of custody, corroborated testimony, forensic accounting. It will be slower. It will be cleaner."
+    hide ben_harper
+    show rosa_tan at center:
+        zoom 0.7
+
+    rosa_tan "Slower means Elias gets to charm another press conference. People forget. People go back to work and the momentum dies. If we dump to a national outlet, the cameras come, the story spreads — and we force a reckoning now."
+    hide aiden_kuro
+    show ben_harper at left:
+        zoom 0.7
+
+    ben_harper "Or you burn it. You make sure no one gets hurt by the fallout. Sometimes the town has to be kept whole even if it's at your expense. God knows we've kept secrets before for a reason."
+    "Aiden Kuro steps forward; his hand finds the back of an empty chair, knuckles white beneath the knit. His amber eyes are rumpled with something close to fear and something warmer that Maya used to see in sunlight."
+    hide prof_noor_azizi
+    show aiden_kuro at right:
+        zoom 0.7
+
+    aiden_kuro "Maya, I'm with you. But if this splits people who trusted him — folks I grew up with — we risk losing more than policy. We risk being the reason someone's livelihood collapses."
+    "Maya Soler looks at him. For a moment everything else recedes: the rain, the lamplight, the weight of paper. His protectiveness is familiar, like a harbor that holds against wind. But there is steel there too;"
+    "he isn't asking her to step back. He's asking her to carry consequences with him."
+    "Maya Soler opens her mouth, then closes it. Words feel inadequate. So Maya taps a finger against the file in front of her, feeling the edge of the paper like a coastline."
+
+    menu:
+        "Slide the most explosive file toward Rosa":
+            "Maya pushes the folder across the table. Rosa's eyes sharpen; she breathes out a laugh that is half relief, half readiness."
+        "Fold the file closed and press your palm flat over it":
+            "Maya covers the top sheet with her hand. Noor studies her fingers, then nods slightly, understanding the gesture as both caution and commitment."
+
+    # --- merge ---
+    "Scene continues"
+
+    rosa_tan "That's the one that ties them to those quick-build contracts in Larkspur and Harrow's Quay. If that sees daylight—"
+    hide rosa_tan
+    show prof_noor_azizi at center:
+        zoom 0.7
+
+    prof_noor_azizi "We need to document everything. Chain of custody. Witness statements signed. Forensic timestamps.' (she taps her stained fingers on the table) 'If lawyers move fast and claim defamation, we will need airtight records. The council route buys us legal posture. The outlet route buys us reach."
+    "A man in the doorway — one of the fishers Maya brought in, salt-streaked and raw from the docks — swallows. He lays out a handwritten ledger and points to a date."
+
+    "Fisherman" "They told us they'd cover loss. We sold traps, paid fees. The check from 'Voss Coastal' cleared Quincy Bank three days after the meeting. Then the promises changed."
+    "Ben Harper leans in, his voice a gravelly metronome of warning and memory."
+
+    ben_harper "We did this before. A fancy plan, a 'rescue' that left us with docks no one could use. You remember that; you remember how long it took to fix even a bit of that damage. But you also remember how we got through it — or how we didn't. This town is stubborn, Maya. Use that stubbornness."
+    "Maya Soler's pulse is a drum now. The kettle's last hiss seems like an echo of her breath. Outside, rain shifts into a harder percussion, knocking at the window as if urging her to hurry. The legal letters — crisp, stamped, threatening — sit like coals in a shallow pan."
+    "Aiden Kuro moves to the table and rests both palms on the wood. His voice drops low, and it's as if he is talking to the five-year-old who still believes every storm can be read and weathered."
+
+    aiden_kuro "If you go public, some of my family will call you a liar before breakfast. They'll say we betrayed the town. If you bring it to the council, Elias Voss will smooth everything over in the media and accuse us of obstruction. If you destroy them...' (he looks away) 'If you destroy them, will you forgive yourself?"
+    "The room holds its breath. Noor closes her eyes for a fraction of a second, then opens them like someone who has decided something."
+
+    prof_noor_azizi "Whatever you choose, do it with the knowledge that the aim is to stop harm. The law is a tool; the press is a tool. If you can keep people from being hurt while exposing the pattern, do it. If you can't, sometimes exposure is the medicine."
+    "Maya Soler thinks of her brother's hands, the way he held a wet rope when the sea took the house. She thinks of the compass on Aiden's neck — a small carved thing that never left"
+    "his side. She thinks of Ben's steady presence and Rosa's flash of righteous fury. Courage is not absence of fear; it is the willingness to break something in order to build something else."
+
+    menu:
+        "Step closer and take Aiden's hand":
+            "Maya's fingers find his. He flinches, then squeezes, the motion speaking more than agreement — a shared anchor."
+        "Stand back and point to the legal sheet Noor wants":
+            "Maya points to the legal sheet, voice tight but clear. Noor slides it toward her and nods; the room leans into the plan they're shaping together."
+
+    # --- merge ---
+    "Scene continues"
+
+    prof_noor_azizi "We can make a plan for both speed and legality. Simultaneous tracks. But someone will have to take the first leap."
+    hide ben_harper
+    show rosa_tan at left:
+        zoom 0.7
+
+    rosa_tan "Then let it be you, Maya. You've been holding this like a live coal for months. Throw it where it will start a fire that cleans the rot."
+    hide aiden_kuro
+    show ben_harper at right:
+        zoom 0.7
+
+    ben_harper "Or bury it, if you think the town will not survive the quake. You choose the kind of wound you're willing to carry."
+    hide prof_noor_azizi
+    show aiden_kuro at center:
+        zoom 0.7
+
+    aiden_kuro "Don't make a choice to spare yourself. Make one to spare those who can't bear to be broken."
+    "Maya Soler's hands tremble. The rain is a machine now, attacking the glass. Somewhere below, someone slams a car door and curses. The music swells; the strings are a blade."
+    "Maya Soler catalogs the options like tides on a chart: the urgent tide of national press that will batter lies into splinters; the slow, precise swell of an independent council that will dissect and build a"
+    "legal scaffold; and the last, low tide — destruction — that would protect the town at her cost."
+    "Maya Soler tastes salt and iron on her tongue. Her voice comes out thin but steady."
+    hide rosa_tan
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "We decide how the story starts. We decide what we risk and what we save. I won't let this be about me."
+    "Rosa reaches for the folder Maya pushed earlier and flips it open with a fierce, careful hand. Noor pulls a pen from behind her ear and begins to draft witness affidavits. Ben leans forward, voice a low rumble, adding dates Maya almost forgot."
+    "Aiden Kuro watches Maya, every line of him taut. He doesn't tell her what to do; he only offers himself as ballast."
+    "A sudden buzz from Maya's pocket: an anonymous text thread, a legal clerk's number, the first of many threats. The intensity ratchets tighter — injunctions, lawsuits, townspeople who will choose sides in hours, not days."
+
+    menu:
+        "Read the new message out loud":
+            "Maya reads it. The words are mechanical and small, but they catapult the room into motion; Noor stamps a copy and Rosa curses, energized."
+        "Ignore the phone and focus on signing affidavits":
+            "Maya tucks the phone away. Everybody moves like clockwork, hands guided by the small calm she tries to hold. The storm outside feels like a punctuation mark rather than a director of fate."
+
+    # --- merge ---
+    "Scene continues"
+    "The decision sits like a lighthouse beam, revolving and impossible to ignore. Maya can feel the arousal of the night — not merely loud panic but the heightened, razor-sharp energy of people pushed to the brink,"
+    "ready to act. It is dangerous. It is electric. It is, in its own way, hopeful."
+    "Noor lifts her head, the light catching the soil-dark line under her nails."
+    hide ben_harper
+    show prof_noor_azizi at right:
+        zoom 0.7
+
+    prof_noor_azizi "We have to choose. Tonight. The injunctions make public gatherings illegal in effect. If we don't move, the moment will pass. If we move badly, we risk scattering truth like broken glass. Decide how we release it."
+    "Maya Soler's throat is dry. Papers rustle, pen caps click. She senses the swell of everything she's worked toward — the saltmarsh plans, the living breakwaters, the thousand patient months of data — compressed into a handful of paper that will either save the town's future or tear it open."
+    "Maya Soler breathes. She remembers her brother's laugh in a kitchen that no longer exists. She remembers the smell of wet rope. She remembers why she came back to Elara: not to win small fights, but to change the rules that let people lose their homes to neat charts."
+    "The room leans on Maya Soler like the sea leans on the shore."
+    # play music "music_placeholder"  # [Music: The strings cut high, then a single sustained chord that demands action.]
+
+    jump chapter15
+    return

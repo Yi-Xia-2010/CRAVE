@@ -1,0 +1,557 @@
+{
+  "title": "Tidebound Hearts",
+  "summary": "You are Ari Navarro, a coastal planner returned home to Mariselle after loss and exile. The narrative arcs upward: beginning in grief and institutional failure, you rebuild agency, alliances, and love. The external stakes are rising tides, wavering municipal votes, and a looming developer-backed mega-project; the internal crucible is your guilt over a sibling lost to a flood and an aversion to intimacy that risks keeping you alone. Choices force a tension between grassroots activism (Sora), technocratic cooperation (Lina), and the corrosive lure of private capital (Ephraim). Across divergent routes you negotiate trust, policy compromises, and acts of public repair—each path reframes what “saving the town” means and what kind of relationship you can sustain. Endings range from a warm grassroots partnership (Happy), to a bittersweet technocratic compromise (Bittersweet), to a painful loss (Sad), to a realistic hybrid governance model that redefines love and duty (True). The story is first-person, intimate, and tactile—salt on your boots, the chipped enamel pin at your collar, Sora’s wind-tugged bandana, Lina’s precise platinum bob under rainlight.",
+  "emotional_curve_type": "Rags to Riches",
+  "player_character": "Ari Navarro",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Returning to Salt",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive back in Mariselle, stepping off the battered bus with a bag of tools and a Moleskine full of tide notes. The boardwalk is a skein of salt and patched planks, protest flyers flapping under fog. I meet Maya at the co-op — her sun-freckled face is half-hidden beneath a fisher’s raincoat. We walk past the Tidewatch Institute, its rooftop greenhouse glowing amber, and I feel the old pressure fold over my shoulders: the ghost of my sibling, the failed evacuation that shaped me. The municipal council is about to vote on a funded levee-and-housing scheme championed by Lina and backed by Ephraim; Sora and their crew are organizing a demonstration. I check my retrofit watch—an old fitness device with a barometric sensor—and feel the pressure drop; my hands narrow, my hazel eyes tight with concentration as the first storm on the forecast slides closer. I promise myself: this time I will make a plan that saves more than statistics. The world smells of brine, wet wood, and protest smoke; my scarf is damp. I reconnect with Dr. Noor briefly, who presses a folded raft of new sediment models into my palms and says, quietly, “The math changed. People will judge you by what you do next.”",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Ari Navarro",
+        "Maya",
+        "Dr. Noor",
+        "Lina",
+        "Ephraim",
+        "Sora"
+      ],
+      "locations_used": [
+        "Co-op",
+        "Boardwalk",
+        "Tidewatch Institute",
+        "Dunes"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "The Vote Looms",
+      "branch_designation": "Common",
+      "narrative_focus": "At the municipal plaza, wooden panels gleam under camera lights while Lina’s trench coat cuts a precise silhouette beside a polished tablet case. The council chambers smell like coffee and wet coats. Inside, community leaders file in: Sora with paint-splattered cargo pants and a pendant of shell and glass; Ephraim in a slick dark suit that sits wrong in the salt air. I stand at the back, fingers absentmindedly tracing my chipped seagull pin. Dr. Noor’s models are pinned to a corkboard—graphs that complicate Lina’s tidy projections with probabilistic failures. Sora asks me to speak at the rally, their dark almond eyes wide with earnestness; Maya whispers local rumors about developers buying influence. I prepare remarks that balance technical nuance and human risk; I want to avoid spectacle but the room demands a voice that can thread policy into people’s lives. My heart pounds but the motion feels mechanical: measuring tide heights, mapping evacuation corridors. Outside, gulls wheel in slow spirals; the boardwalk reflects neon work lights and murk. I feel the familiar weight: the knowledge that policy choices have bodies attached. I close my Moleskine for a second and try to breathe.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Sora",
+        "Ephraim",
+        "Dr. Noor",
+        "Maya"
+      ],
+      "locations_used": [
+        "Municipal Plaza",
+        "Council Chambers",
+        "Boardwalk"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Crossroads at the Boardwalk",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The boardwalk becomes a theatre of competing urgencies: Lina’s polished press conference, Sora’s megaphone and handmade banners, Ephraim’s corporate fence. I stand between them, literal salt under my soles, feeling that old split in me—engineer versus neighbor. Dr. Noor pulls me aside and reveals a correction to earlier flood projections: certain levee designs may accelerate erosion of cultural neighborhoods unless paired with living shorelines. It’s the technical caveat that transforms politics. Sora finds me and, with a sudden tenderness behind their theatrical energy, presses a flyer into my hand: “People’s Emergency Plan — Build With Us.” Lina approaches with a softer voice than in public, offering funding if I lead a municipal pilot but with strict oversight. Ephraim’s developer smile is a slit of bright teeth. The choice is ugly and urgent: join grassroots refusal to the mega-project, sign onto Lina’s conditional pilot that trades autonomy for resources, rally to block Ephraim altogether, or try to broker something else. My hazel eyes narrow; the scar of grief pulls tight. This is the hub: which route will I take—people-first direct action, technocratic compromise, defiance against capital, or a hybrid path I’ll have to invent?",
+      "emotional_trajectory": "Rise/Fall",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Choose how to position yourself at the boardwalk crossroads—your public stance will shape alliances, funding, and intimate possibilities.",
+        "options": [
+          {
+            "label": "Join Sora's People's Emergency Plan openly.",
+            "consequence": "You commit to grassroots organizing, accept operational risk but strengthen community bonds and Sora's trust.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Accept Lina's conditional pilot; lead the municipal study.",
+            "consequence": "You gain resources and official backing but must navigate oversight and compromise.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Expose Ephraim's funding ties; campaign to block private development.",
+            "consequence": "You become an adversary to capital; immediate tension and legal pressure follow.",
+            "target_chapter_index": 10
+          },
+          {
+            "label": "Refuse binary choices — propose a hybrid council process on the spot.",
+            "consequence": "You risk pleasing no one but plant seed for a third way; you'll need institutional savvy and community buy-in.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Dr. Noor",
+        "Sora",
+        "Lina",
+        "Ephraim",
+        "Maya"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Tidewatch Institute",
+        "Municipal Plaza"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Building With Hands",
+      "branch_designation": "Route A",
+      "narrative_focus": "I sign up with Sora’s crew at the reclaimed wetland garden, sleeves damp with mud, my hands smelling of peat. Sora’s movements are magnetic—hair falling in glossy waves over their shoulder as they instruct volunteers. The garden is a riot of bright greens against coastal gray; children’s muddy footprints make me think of the sibling I lost. We design living channels and cordgrass plantings that feed into a pilot living shoreline; Sora insists we crowdsource monitoring data. My retrofit watch records a rising tide and we laugh nervously. There’s an intimacy that blooms through labor: Sora’s paint-streaked jacket brushes mine, their dark almond eyes searching mine for honesty. I teach volunteers how to map wave overtops, and they watch my weathered field jacket with an almost-feral respect. Dr. Noor stops by with revised contagion-maps, and Maya brings tea in a chipped enamel mug. The municipal funding is volatile, but community volunteers carry more than momentum: they carry stories. By nightfall, we string up lanterns that glow like small assurances. Sora lingers, their pendant catching the amber greenhouse light, and asks me to stay for a late tide watch; I say yes.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Ari Navarro",
+        "Sora",
+        "Dr. Noor",
+        "Maya",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Reclaimed Wetland Garden",
+        "Boardwalk"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Tides of Trust",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "The living shoreline pilot attracts attention—local reporters, volunteers from the co-op, and a handful of curious council members. Sora’s charisma keeps the crowd energized; Lena (a volunteer, sunburned and fierce) ties a rope of native reeds in a knot that seems to stitch the shoreline to our purpose. I find myself teaching municipal metrics in the same breath as showing a kid how to hold a sedge without ripping roots. Sora pulls me aside: they want to escalate—direct action to occupy the staging yard if the council stalls. Lina’s office calls, asking for performance metrics and a promise of non-interference if we cooperate. I’m aware of the watchful city cameras, and of my own inclination to measure before leaping. That old guilt throbs when I imagine another failed evacuation. Sora’s hand finds my forearm—warm, insistently hopeful—while the barometer on my fitness-watch ticks up. We have to choose how bold to be in the coming council deadline: lean into civil pressure and risk arrests, or keep the pilot unviolated to preserve scientific credibility. Either choice will test the fragile trust forming between us.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide the tactic for the council deadline—direct action that accelerates attention, or careful evidence-building that preserves scientific legitimacy.",
+        "options": [
+          {
+            "label": "Join Sora’s occupation of the staging yard tonight.",
+            "consequence": "You risk arrest but galvanize town support and deepen your bond with Sora.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Refuse escalation; submit rigorous pilot data and request a council hearing.",
+            "consequence": "You keep professional credibility, slow momentum, and disappoint some activists.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Propose a public demo that blends both—planned, peaceful direct action using pilot data.",
+            "consequence": "A risky middle path that demands diplomacy; could unify or fracture allies.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Sora",
+        "Lena",
+        "Lina",
+        "Dr. Noor",
+        "Maya",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Living Shoreline Pilot Site",
+        "Staging Yard",
+        "Boardwalk"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "First Harvest",
+      "branch_designation": "Route A — Ending: Happy",
+      "narrative_focus": "Regardless of tactical differences, the council convenes and the town turns out in numbers I haven’t seen since the old festivals. Our living shoreline pilot holds a demonstration: children splash in shallow channels, volunteers point to root mats that slow overtopping, and Dr. Noor deconstructs previous model errors with quiet authority. Sora climbs a crate and speaks without megaphone—intimate, fierce—and the crowd listens. Lina watches from the council balcony, her ice-gray eyes assessing but an almost-imperceptible nod softening her jaw. Ephraim’s developers grumble. The pilot receives conditional municipal support with a clause: transparent community oversight and matched funding for phased engineering that respects living systems. It's imperfect but real. Sora and I stand beneath the washed oyster-gray horizon; their hand fits mine like a found thing. We repair nets, stitch reed mats, and in the small hours we map evacuation lines by flashlight. The romance is not a sudden conflagration but a steady heat—shared labor, mutual trust, and the soft green fleck of my left iris reflecting in Sora’s dark gaze. Mariselle is bruised but gaining new tools; we are, too.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Sora",
+        "Dr. Noor",
+        "Lina",
+        "Ephraim",
+        "Maya",
+        "Volunteers",
+        "Children"
+      ],
+      "locations_used": [
+        "Living Shoreline",
+        "Boardwalk",
+        "Reclaimed Wetland Garden",
+        "Council Balcony"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Municipal Pilot",
+      "branch_designation": "Route B",
+      "narrative_focus": "I accept Lina’s conditional pilot leadership: a municipal-funded program that pairs automated levees with community retrofits. Lina’s presence is severe and exact—platinum bob immaculate even under drizzle, amber silk collar tucked into a storm-gray trench coat. She offers resources I know could save lives; she speaks of inland vertical housing, desal hubs, and managed evacuation corridors. In the Tidewatch Institute’s fluorescent lab, I parse funding strings and calibrate models with Dr. Noor. Ephraim looms as a private partner—his tan-worn suit promises speed but smells of profit. Sora accuses me of selling out, their dark almond eyes wide with betrayal; Maya looks at me like she might cry. I feel the old fault-line: compromise as betrayal or necessary triage. The rooftop greenhouse glows amber while I sign municipal paperwork that binds my name to oversight and to political theater. Lina’s ice-gray gaze softens once, off-camera, offering a rare compliment about my tide maps. I taste the tradeoffs—safety for autonomy—and my seagull pin feels heavy against my chest.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Dr. Noor",
+        "Ephraim",
+        "Sora",
+        "Maya"
+      ],
+      "locations_used": [
+        "Tidewatch Institute Lab",
+        "Rooftop Greenhouse",
+        "Municipal Offices"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Quiet Levers",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The pilot hits bureaucratic turbulence. Lina pushes for an engineered levee design that would protect major corridors and unlock federal funding—but internal memos show certain neighborhoods being slated for relocation. I pore over documents late into the amber-lit greenhouse night, my hazel eyes narrow under tired lids. Sora stages a small protest; their voice cracks when they accuse me of complicity. Ephraim offers an accelerated timeline if oversight is loosened. Lina asks me to recommend communities for phased relocation, her voice clinically gentle. Dr. Noor confides an uncomfortable modeling caveat that forces a moral decision: recommend the relocations to secure levees and many lives, or refuse and risk funding collapse, potentially losing everyone. The choice is administrative but intimate: which neighbors will we ask to leave? My methodical calm frays; guilt claws at the inside of my throat. Lina’s hand brushes a tablet in the chamber, her gold hoops catching the halogen light. How I advise the council will shape towns and relationships alike.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to recommend targeted relocations as part of the levee package, or to advocate for alternative protections.",
+        "options": [
+          {
+            "label": "Recommend phased relocations to secure levee funding.",
+            "consequence": "Many lives likely saved, but neighborhoods—and your local credibility—are damaged; Lina rewards cooperation.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Advocate for alternative protections and push for more time.",
+            "consequence": "You risk losing funds and political capital but preserve neighborhoods’ continuity.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Reveal internal memos publicly to force transparent negotiations.",
+            "consequence": "Political scandal, faster action but fractured alliances.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Sora",
+        "Ephraim",
+        "Dr. Noor",
+        "Maya"
+      ],
+      "locations_used": [
+        "Rooftop Greenhouse",
+        "Tidewatch Institute",
+        "Council Chambers",
+        "Old Harbor District"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Compromise",
+      "branch_designation": "Route B — Ending: Bittersweet",
+      "narrative_focus": "The council convenes and the vote fractures and then coalesces into a hard compromise: a phased levee with conditional community oversight and designated relocation zones. The package saves major infrastructure and secures desalination hubs; it also requires my signature to recommend certain blocks for relocation. I sign with shaking hands, a motion borne of arithmetic and dread. Sora leaves town soon after to lead a national network—they feel betrayed, but we part with a handshake that carries affection and a promise of accountability. Lina’s cool satisfaction is tempered by an odd tenderness when she offers to partner on community oversight boards; beneath her amber blouse, her vulnerability flickers like a match. Maya helps organize moving crews; I stand on the Old Harbor District where storefronts have become half-swallowed by the sea and mourn what we cannot keep. The town survives in a new, altered geometry: safer in many ways, stripped in others. My relationship with Lina deepens into a politically charged intimacy—companionable strategy and quiet policy nights. Love exists here, but so do the costs.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Sora",
+        "Maya",
+        "Dr. Noor"
+      ],
+      "locations_used": [
+        "Council Chamber",
+        "Old Harbor District",
+        "Tidewatch Institute",
+        "Evacuated Alleys"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Unmasking",
+      "branch_designation": "Route C",
+      "narrative_focus": "I take the hard-line route: expose Ephraim’s funding strings and litigate his influence over proposed developments. Sora helps collect testimonies while Maya runs co-op logistics. At the boardwalk press conference, I present documents showing preferential contracts, and the crowd—salt-streaked faces and paint-splattered jackets—erupts. Ephraim’s gaunt face is stone; his developers deploy legal counsels and private security. Lina distances herself publicly to maintain municipal dignity, though she later asks me for a private briefing. The Old Harbor District is already hollowed; our exposure triggers injunctions and intense economic pressure that ripple fast. My fitness-watch vibrates with urgent notices; Dr. Noor warns of supply chain shocks if funding is pulled too fast. Sora stands by me, furious and loyal in equal measure, their mismatched ear studs flashing in the worklight. For a brief, shining moment we are aligned—raw, righteous, and intimate. But the backlash is swift: lawsuits, threats, and a sense that our fight might invite mismanaged emergency responses.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Ari Navarro",
+        "Sora",
+        "Maya",
+        "Dr. Noor",
+        "Ephraim",
+        "Lina"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Desal Staging Yard",
+        "Old Harbor District",
+        "Municipal Offices"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Escalation",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The legal fight intensifies into street-level conflict. Private security fences off sites; volunteers climb scaffolds to plant signs; the Town Council schedules emergency hearings. Dr. Noor returns with a technical correction: sudden funding shifts could delay critical maintenance for pumping stations—pulling projects could make near-term risks worse. I receive anonymous threats; Sora organizes an occupation of the desal staging yard. I stand in the spray of a late storm, rain catching in my scarf, contemplating the real-world consequences of political justice. The choice now is doctrinal and urgent: continue to escalate in civil defiance and risk undermining emergency infrastructure, or negotiate with Lina and the municipal mechanisms to secure short-term protections while pursuing justice in courts. Sora says bluntly that negotiation would be capitulation; my gut clenches at the memory of my sibling. The moral calculus is not abstract—it has faces, names, frozen shoes in storefront windows.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to keep escalating civil actions immediately, or to broker a temporary ceasefire to secure emergency maintenance while pursuing legal action.",
+        "options": [
+          {
+            "label": "Keep escalating—occupy and refuse compromise.",
+            "consequence": "You risk critical infrastructure but maintain moral clarity; Sora’s trust deepens.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Negotiate a temporary maintenance assurance with the council, then pursue legal avenues.",
+            "consequence": "You preserve immediate safety but face accusations of weakening the movement.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Expose secret contracts publicly and demand judicial oversight, while urging coordinated maintenance action.",
+            "consequence": "Political chaos, possible faster intervention, but also greater instability.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Sora",
+        "Dr. Noor",
+        "Ephraim",
+        "Maya",
+        "Town Council"
+      ],
+      "locations_used": [
+        "Desal Staging Yard",
+        "Boardwalk",
+        "Municipal Council Hall",
+        "Storm-sheened Boardwalk"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Storm That Came",
+      "branch_designation": "Route C — Ending: Sad",
+      "narrative_focus": "A late-season supertide arrives with a ferocity our models only partly anticipated. Despite our efforts, a chain reaction of delayed maintenance and overwhelmed emergency pumps leads to catastrophic overtopping in a sector that had resisted relocation. Ephraim’s project stalls under legal scrutiny; layers of institutional friction slow the municipal response. I watch from a rooftop with Sora as water swallows lanes; my hands shake, my hazel eyes reflecting streetlights drifting in oily reflections. We pull people into hastily built rafts; the boardwalk becomes a chaos of shouting and lost things. The grief of my sibling’s death comes back in an acute, unbidden way—blame, helplessness and the awful calculus of impossible choices. After the waters recede, Mariselle counts a heavy toll. Sora leaves to lead relief efforts elsewhere, our relationship raw and fractured. I remain, carrying survivor guilt that reshapes me into a hard, determined organizer—my compassion intact but my romantic hope diminished under the salt crust of grief.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Sora",
+        "Dr. Noor",
+        "Ephraim",
+        "Maya",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Old Harbor District",
+        "Boardwalk",
+        "Rooftop",
+        "Emergency Pumps"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "A Third Way",
+      "branch_designation": "Route D",
+      "narrative_focus": "I refuse the binary. On the boardwalk I call for a rotating council of residents, scientists, and municipal officials—a hybrid governance structure legally binding shared oversight. Lina bites at first but listens when I press the science; Sora doubts the efficacy of process. Dr. Noor backs the proposal with corrected models that show layered approaches reduce risk better than single silver bullets. The idea feels precarious, like building a boat out of reclaimed crates, but community leaders—including Maya—step forward. We craft bylaws in the Tidewatch Institute’s amber-lit greenhouse that mandate community veto power on relocations and tie funding to phased living shoreline pilots and engineered barriers. The rooftop glows; Lina’s sharp features slacken with a hint of admiration, and Sora’s eyes, usually storm-bright, now gleam with wary hope. My hands ache from late drafting sessions; my fitness-watch tells the barometer is steady for once. This path demands patience and relentless negotiation, but it leaves room for place, culture, and dignity.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option D",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Sora",
+        "Dr. Noor",
+        "Maya",
+        "Community Leaders"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Tidewatch Institute Greenhouse",
+        "Reclaimed Wetland Garden",
+        "Municipal Offices"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Negotiations at Dawn",
+      "branch_designation": "Route D / Split",
+      "narrative_focus": "The hybrid council’s first sessions are slow and grueling; Lina’s political instincts clash with grassroots impatience. We hold late dawn hearings in the Municipal Council Hall, which smells of coffee and salt. Ephraim tries to buy influence at the margins, and Sora stages a staged-but-peaceful occupation of the plaza to remind us of stakes. I moderate, trying to shepherd policy into practice while remembering to listen. The Moleskine is full of amendments and community testimony; Dr. Noor cross-references tidal sensor logs. I find myself teaching others how to map risk while also learning how to let people speak pain into plans. Romance in this route is incremental—repair through labor and argument. Lina and I begin a tentative partnership: hers is strategic thought; mine is community translation. But a final choice looms—whether to formalize the council with enforceable legal teeth that limit certain developments, or to keep it advisory and risk capture. The decision will test trust and the new structures we’ve built.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 13",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether the hybrid council should have legally enforceable authority (stronger protection, more resistance) or remain advisory (more palatable, less power).",
+        "options": [
+          {
+            "label": "Push for legally binding council authority.",
+            "consequence": "Stronger protections and risk of legal fights; unity among many but fierce opposition from capital.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Keep council advisory, focusing on coalition-building and voluntary compliance.",
+            "consequence": "Less immediate power but broader buy-in; slower structural change.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Create a phased authority that grows with demonstrated pilot success.",
+            "consequence": "Pragmatic hybrid that demands sustained effort and trust-building.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Sora",
+        "Ephraim",
+        "Dr. Noor",
+        "Maya"
+      ],
+      "locations_used": [
+        "Municipal Council Hall",
+        "Tidewatch Institute",
+        "Plaza"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Binding Lines",
+      "branch_designation": "Route D — Ending: True",
+      "narrative_focus": "The council’s structure—whether immediately binding, advisory, or phased—takes hold through sweat, litigation, town meetings, and nights of mending nets. We formalize a model that ties funding to transparent community oversight, phased living shoreline pilots, and enforceable rollback protections for the most vulnerable neighborhoods. People sign pledges in the reclaimed wetland garden; Lina stands beside me at the podium with a tucked smile that is almost private. Sora returns from organizing elsewhere to co-chair a community advisory board; their bandana flutters. Maya leads volunteer brigades. The town is scarred but learning to govern itself adaptively. Romance is slow: trust rebuilt by joint work, honest argument, and small acts of repair—Lina’s steady calm balancing my methodical planning; Sora’s activist fire finding places to be channeled constructively. I look at my chipped seagull pin, then out at the horizon that is no longer a line of terror but of work and horizon. The ending is not triumphal in the melodramatic sense; it’s steady, realistic improvement—an earned richness born of collective labor and mutual accountability.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 14, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ari Navarro",
+        "Lina",
+        "Sora",
+        "Maya",
+        "Dr. Noor",
+        "Community Members"
+      ],
+      "locations_used": [
+        "Reclaimed Wetland Garden",
+        "Tidewatch Institute",
+        "Municipal Offices",
+        "Boardwalk"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Notes on Structure and Emotional Curve: Common Route (Chapters 1–3) establishes stakes, guilt, and decision hub. Four primary routes A–D originate from Chapter 3 and each follows a 3-chapter arc so any path from Chapter 1 to an ending is six chapters long or fewer. Each route contains a mid-route split (Chapters 5, 8, 11, 14) funneling to a single route ending to keep depth within limits. Global valence follows a steady Rise across chapter IDs, and arousal increases steadily to climactic endings. Visual and character details adhere to supplied designs; POV is first-person (Ari).",
+  "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+  "_meta_arc_strategy": "Rags to Riches (Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 21:50:15"
+}

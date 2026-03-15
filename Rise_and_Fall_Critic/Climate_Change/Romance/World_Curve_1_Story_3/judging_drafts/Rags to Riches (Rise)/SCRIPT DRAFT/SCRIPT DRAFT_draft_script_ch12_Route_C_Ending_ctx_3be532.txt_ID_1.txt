@@ -1,0 +1,127 @@
+[Scene: Skyward Market Rooftop Greenhouse | Dawn]
+[Visual: A tiered ring of glass domes and open stalls; mist lifts like a curtain to the city beyond. The pilot seawall module — a low, living ridge of woven root-mats and modular sensors — sits central, its grow-lights a soft emerald heartbeat.]
+[Music: Warm, ascending strings overlay a steady electronic pulse]
+[Sound: The market waking — a kettle hissing, distant gulls, the soft clank of a signing stamp]
+
+You come up the last metal step with your notebook against your ribs and the small potted cutting in its sling. The air is damp, tasting of sea and citrus; the greenhouse glass smells of wet soil and steamed greens. Your hands are steady, but your chest hums with the newness of everything: signatures filed, contracts bound, the mayor’s ordinance in place. This morning is the one you worked toward with a thousand small repairs and a dozen bruised arguments. It feels fragile and monumental in the same breath.
+
+Hana is already there, sleeves rolled, an AR monocle flickering with lines of live telemetry. She looks up when you arrive — same precise posture you remember from the lab, but softer around the eyes. Dr. Jun stands near the control tablet, quiet and bright like the steady lighthouse he is. Teo is elbow-deep in the pump array, grease streaks on his forearms. Elias drops into the circle with that easy grin that still makes your mouth tilt, like sunlight finding a crack in the clouds.
+
+Hana: "The community servers are receiving the first sensor pings. I pushed the firmware to the open repo like we agreed. Data will be public in thirty seconds."
+You: "Thirty seconds on an open stream, full audit access, local ops control, and community veto clauses embedded in the ordinance. Twice-signed and filed." (you tap the edge of your notebook)
+
+Hana leans in, reading the handwriting only you understand — the shorthand where policy meets practice. Her voice is careful and quick, the way someone who measures risk speaks when they mean hope.
+
+Hana: "We built the rollback protocols. If any automated action would divert water outside the agreed boundaries, the system waits for local authorization. Leon's legal team begrudgingly accepted a clause for citizen auditors."
+You: (you let out a small laugh, more relief than triumph) "They called it 'operational transparency' and tried to trademark the phrase. Good thing Dr. Jun knows how to stitch an open license together."
+
+Dr. Jun: (smiling) "We called it a commons license. It covers hardware, firmware, and the training curriculum. It means anyone can copy the design and adapt it — provided they keep the stewardship model intact."
+You: "That's the point. The model has to be reproducible but not extractable."
+
+Elias comes closer, voice low, the kind that leans on urgency.
+
+Elias: "You're sure they'll show up? If people see this living and tending itself, they'll want it in every drowned block. I'll run a take-over of the east lane after the launch — a visibility push, workshops, teach-ins."
+You: (you study his face — earnest, hungry — and feel that old tug between momentum and care) "Yes. But we coordinate. Teo runs the training roster; we don't let the moment become spectacle at the expense of safety. We parade policy as practice, not as promise."
+
+Teo laughs, wiping his hands on a rag, then hands you a wrench like an offering.
+
+Teo: "And you can plant the first cutting in the living ridge. It's symbolic, but symbols are anchors here."
+You: (you cradle the plant for a beat. The soil between your fingers is cool; the root tips tickle your palm. You think of your parents' house under the old fig tree, of Sofia's seed packets, of every person who rebuilt a roof or a life) "Alright. Let's make it count."
+
+[Interactive Moment: Choice A ("Plant the cutting ceremonially, speak a few words") -> Reaction: "You kneel with the ragged knee you earned, press the cutting into the living mat, and speak aloud—short, honest—about community, trials, and the small courage of tending. People lean in, the city inhales, and a wave of applause begins. || Choice B ("Hand the cutting to Teo to plant, focus on the technical check") -> Reaction: "You hand the cutting to Teo with a squeeze. While he plants, you move to the console, run a clean start on the pumps, and watch telemetry climb. The crowd's cheer is filtered through the steady green of the screen and you feel the work—practical, necessary—fold into the ceremony."]
+
+The crowd erupts politely either way: some applause, a few whistles, a vendor's bell. The day smells of grilled plantain and printer ink — leaf and policy in equal measure.
+
+[Scene: Skyward Market | Mid-Morning]
+[Visual: Stalls brimming: hydroponic lettuce, clay jars of preserved citrus, printed blueprints stacked like postcards. A community-run projection screen streams sensor maps and the open-source repository, lines of code rolling like a tide beneath photographs of neighborhoods.]
+[Sound: Speakers carrying speeches, children calling for samples, the soft chatter of people combining skepticism and curiosity]
+
+Sofia materializes from between stalls, cheeks flushed, apron full of seed packets. She squeezes your shoulder, then turns toward Elias.
+
+Sofia: "We want teaching shifts. We want to learn the pumps ourselves. We'll put up volunteers. If this is ours, we want to know how to hold it."
+Elias: (touching his heart) "We'll train together. I'll take the teach-ins. But we also need to make some noise — visibility so the mayor can't un-sign or the firm can't quietly buy the pilot back."
+
+You: "Noise on the schedule. Training in the roster. And public data so noise has facts to hold onto." (you feel each clause like a stitch binding two halves of a torn flag)
+
+Hana: (softening) "We can fund a stipend for resident technicians for the first year. Aegis buys materials under the cooperative, but the co-op hires locally. It'll be on the municipal payroll until the co-op stands on its own."
+You: (your chest loosens; you didn't expect the word 'payroll' to feel like a promise) "That gives time to build capacity."
+
+The conversation catches and folds — Elias pressing for urgency, Hana pressing for structure, Sofia pressing for training and dignity. You play the mediator now not because you always wanted the role, but because you know what waits if the model fails: lost gardens, closed doors, trust eroded. You think of Jun's quiet insistence on rigorous data, of Teo's hands that fix things, and you speak with the gravity that comes from knowing both the losses and the small, stubborn gains.
+
+You: "We make a cooperative, legally named, with an elected stewardship board that includes residents, engineers, and a municipal appointee. Contracts give the co-op veto power over any vendor changes. All software is forkable by the community server. Training is paid. Audit windows are weekly and public. If the community votes to halt an automated process, it halts."
+
+Elias: (a beat; then a laugh, more like an exhale) "That's a revolution in slow time. It's what we've been saying in pamphlets for years. You're making pamphlets into plumbing."
+Hana: (half-smile) "And plumbing that reports back to everyone. It's imperfect, but it's accountable."
+
+[Interactive Moment: Choice A ("Take the mic and outline the stewardship board publicly") -> Reaction: "You step to the speaker, your voice steady. You name the positions, invite nominations, and call for volunteers. People respond by name and by hand, the board taking shape under the sun. || Choice B ("Pull Hana aside to iron final clauses before the public Q&A") -> Reaction: "You pull Hana close to the projection screen. You run through legal phrasing in a quick whisper — audit cadence, emergency rollback language — and she nods, grateful for the double-check. You return; the Q&A starts with tighter policy." ]
+
+The market crowd asks questions — some sharp, some hopeful. How will pumps prioritize? Who pays in a decade if maintenance fails? What if corporations want to standardize it? Jun answers with data; Teo answers with practice. You answer with both: logic braided to care.
+
+[Scene: La Marisma Raised Walkway | Afternoon]
+[Visual: The modular living seawall quietly beating like a calm lung against the reclaimed mangrove edge. Panels of root-mats, sensors encased in clear resin, and a narrow walkway where neighbors gather to watch the tide tests.]
+[Sound: Water lapping in a measured rhythm, quiet conversation, the occasional distant drum of municipal boats]
+
+By afternoon, the pilot is live. The open-source sensors stream salinity, water level, root respiration, and automated actuator logs across the community server. People gather around projection kiosks; some watch code lines, some watch living roots. On-screen, a live map shows 'local control active' with a green tag that reads: COMMUNITY-COOP-01.
+
+Dr. Jun: (pointing at the live graphs) "See the respiration spike? That's the new substrate taking root. Within a week we'll have stable uptake rates. Within a month, sediment accretion should start to rise."
+You: (you press your thumb to the glass of the sensor housing, feeling the vibration of meters and meaning) "And the redundancy arrays? If a module fails, the system isolates it and triggers an alert to the local ops list."
+Hana: "Exactly. And the rollback clause means no vendor can flip a control without a two-thirds board vote or an emergency override petition. The legal language is binding."
+
+Elias sidles up, quieter now, eyes off the crowd and on you like he's searching for the old map between you.
+
+Elias: "You know, I used to think the only way forward was to take the streets and not stop until they gave us space. This — this steady work — I get it. It's tactical. It's stubborn in its own way."
+You: (a smile that hasn't left your face all day) "Stubbornness is utility here. We don't have to choose between shouting and building; we can do both, at different times."
+Elias: (nods) "Good. Promise me one thing: when we scale, we keep the parts that make people care about their patch. Not just the tech. The tending."
+You: "Promise. The tending is the contract's heart."
+
+Teo clamps a maintenance panel, his grin wide and easy.
+
+Teo: "And when this goes, other barrios will copy us. We'll ship the blueprints, we’ll train their crews. We’ll send spare parts and tell them how to make do with duct tape and willpower, because that's how we built anything in the first place."
+Dr. Jun: "And they can fork the repo, adapt it, contribute back. This is not a finished product — it's a template for stewardship."
+
+You stand at the seam where the market ends and the city opens. Under the rising sky the seawall breathes. Small hands wave from a kid on the boardwalk; an old woman kisses her apron; a young tech posts a tutorial to the public repo with shaky fingers and steady pride. The mayor circulates in the background, giving a thumbs-up to volunteers, eyes lingering on the cooperative's charter pinned to a board.
+
+Your internal voice — the one that catalogued every past compromise for fear of betrayal — speaks, quieter now.
+
+You: "We did not buy salvation. We brokered an arrangement that taught power to be accountable. We did not cede control to a suit; we bound its hands to the neighborhood's wrists. We did not ignore technology; we taught it to report, to reveal, to be testable."
+
+You think of all the small decisions that led here: the drafts, the late-night edits, the shouted arguments that turned into careful clauses. You think of the people who will inherit the model: other neighborhoods battered by tides, other hands ready to learn. You feel, clearly and without apology, that this is what stewardship can look like — messy, documented, and democratic.
+
+Hana approaches, the AR monocle reflecting the green glow of the pilot. Her voice is soft, not technical for once.
+
+Hana: "Thank you for pushing the 'community' into the center. It could have been a specs meeting. You kept it human."
+You: (you swallow; the gratitude lands warm and real) "You brought the precision; we brought the pulse. We needed both."
+
+Elias catches your eye across the ridge. His smile is an uncomplicated upsurge.
+
+Elias: "So—what do we call the model on the repo? 'Marisma Model'? 'Commons Seawall?'"
+You: (the answer comes with a laugh) "Call it 'Blueprint: A New Stewardship.' Call it anything you like. The name matters less than the way it's used."
+
+[Visual: The camera pulls back as hands lift seed packets, swivel tools, and phones streaming the public repo. The skyline is a ribbon of industry and home — both kept, for now, in uneasy but hopeful balance.]
+[Music: The strings resolve into a warm, sustained chord with a light, rhythmic percussion — the sound of work becoming tradition]
+
+You let the moment settle into you — an anchor. The cooperative forms its first elected board at dusk; the first class of resident technicians is scheduled for next week; the pilot's documentation is already being downloaded by groups in other districts. Small victories pile like stones until they feel like causeways.
+
+You walk the ridge once more, fingers trailing the living mat. The cutting you planted earlier has perked, a tiny, stubborn green. You remember the mornings when the sea felt like a threat and not a neighbor; you remember the nights when you feared compromise meant betrayal. Today, compromise looks like contracts with teeth and hands to hold the teeth. It is not perfect. It is durable.
+
+Elias falls into step beside you, close enough that a conversation can live in the space between your shoulders.
+
+Elias: "So — after all that, will you eat with us? There's a stall with grilled seaweed and tamarind. We can argue about scaling models over lunch like civilized people."
+You: (a warmth that has nothing to do with the greenhouse lamps spreads through you) "Yes. And after lunch, we write the training curriculum for week one."
+
+You feel the route of your life — not a single triumphant summit, but an ascending ridge of small, shared commitments. The pilot is a promise, not a guarantee; a strategy sketch, not a finished manifesto. But it's also a map other hands can use to find their way.
+
+[Visual: Golden hour spills across the market as the first official 'Marisma Model' document is pinned to the community board and a volunteer posts the repository link on a public channel.]
+[Music: The melody rises one final time into hopeful consonance]
+
+You stand a moment longer, letting the noise of the market and the breath of the sea settle like dust. The cooperative hums quietly, alive. The blueprint is live. The model is replicable. The city — imperfect and tender — has a new way to keep itself.
+
+[ENDING]
+
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": null,
+  "default_next_chapter": null
+}

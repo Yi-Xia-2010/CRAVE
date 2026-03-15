@@ -1,0 +1,147 @@
+### SCRIPT
+# Route: Additional / Ending (Sad)
+# Context: 98c6f2
+
+[Scene: Marabel Promenade | Late afternoon — sky low with threat of rain]
+[Background:"ch3_98c6f2_1"]
+[Sound: Distant gulls, a lowboard creak as people shuffle into place]
+[Music: Soft, steady strings — hopeful, attentive]
+
+You stand where the Promenade broadens into the municipal meeting area, the compass a small, familiar weight against your palm. Last chapter's momentum — the ledger, the lab, Noah's patient steadiness — folds into this moment like a map into your pocket. The air tastes of iron and salt; rain hangs in the clouds like a promise and a threat at once.
+
+You breathe in, counting the small things: the scent of frying fish from a nearby stall, Marta's bright gardening gloves catching the light, Eli's palm leaving an oily print on a shipping crate he drums with restless rhythm. Mayor Rosa is already seated on the raised bench, braid coiled against her neck, hands threaded together as if they could stitch the town's frayed edges. Around you, neighbors cluster in wet jackets, umbrellas half-closed, faces open and expectant.
+
+[Background:"ch3_98c6f2_2"]
+[Sound: A soft, professional hum from the Beacon's demo case as PR staff set up a minimalist display]
+[Music: A clean piano motif, precise]
+
+Lila moves with the practiced grace of someone used to cameras and stage lights. Her PR team arrays a sleek tablet and a compact sensor rig — silent, proprietary; the display blinks with tidy graphs: predicted flood-lines, sensor feeds, a rendered wall that hugs Marabel like a white tooth against the water. Her voice when she speaks is clear as glass.
+
+Lila Park: "Marabel doesn't need another pilot project. It needs infrastructure you can count on. Scalable sea walls, floating platforms for critical services, and a sensor network monitored in real time. Investment, job creation, and — most importantly — guarantees."
+
+Her smile is calibrated to the crowd; the promise is simple, immediate, attractive. People lean forward. The Beacon's demo flickers: real-time tide models, a simulated storm surge held at bay by engineered plates.
+
+Mayor Rosa: (softly) "Guaranteed how, Lila? Grants, loans, maintenance costs? Ownership—?"
+
+Lila Park: "Public-private partnership. We'll fund the initial capital. We'll train local teams to operate the systems. We propose a multi-year maintenance contract. The consortium takes the lead; the town benefits."
+
+Your chest tightens at 'consortium' and 'take the lead'—phrases that feel like fingers closing on property lines. But you keep the ledger under your arm and stand up, because you promised yourself you'd speak in both technical terms and human ones.
+
+Asha Moreno: "Mayor Rosa, neighbors — thank you. I appreciate the scale of the offer. I think scalable infrastructure can be part of the solution, but it shouldn't replace local stewardship. My proposal is a hybrid: marsh restoration to absorb storm energy, community-operated sensors that feed into any wall system, and a matching fund structure so ownership stays local."
+
+You feel the words landing differently than you rehearsed them. They're not as tight as Lila's pitch, not as glossy, but they carry weight you trust—soil, seedbeds, and the stubbornness of people who have lived with the tide for generations.
+
+Marta Chen: (sharp, immediate) "Community-operated sensors. That's not negotiable. If the data's locked behind a corporate firewall, we lose our voice."
+
+Eli Duarte: (hitting the crate once) "We need to keep the boatyards, the kids' houses, the old docks. Ain't no wall that remembers how to call off a storm like the marsh does when it's healthy."
+
+Noah Reyes rises slowly, palms open as if smoothing the air between people.
+
+Noah Reyes: "We aren't here to torpedo investment. What Asha's proposing is a bridge. It lets us test restoration at scale while leveraging funds. We can draft governance terms that require open access to sensor data and local oversight of maintenance, Asha—if Lila's consortium agrees. That way, we secure short-term protection without relinquishing control."
+
+Noah's voice is a tether. It looks to the room for consensus, then finds you; his eyes—deep, earnest—find you twice too many times, and your chest gives a small, involuntary answer. Hope flickers in the way he frames the bridge. It's cautious, reasonable, ready for negotiation.
+
+Lila inclines her head, expression measured.
+
+Lila Park: "Open-data is an admirable ideal. It creates liabilities, security concerns, and inconsistent maintenance. Our model protects residents by ensuring uptime and effectiveness. Compromises introduce failure points."
+
+She looks at you then, her steel-gray gaze appraising. It is not unkind; it is analytical, the look of someone running variables through a model and deciding which to keep. You are in her calculus.
+
+Asha Moreno: "If uptime is the concern, then guarantee language goes both ways. Performance bonds. Local maintenance capacity-building. An independent oversight board that includes Mayor Rosa, Marta, and community representatives. We agree on metrics before we install."
+
+Mayor Rosa rubs the bridge of her nose, the braid in her hair catching the light as she shifts. Her face reads tired, but not defeat; someone who knows every choice costs something. She speaks slowly.
+
+Mayor Rosa: "We need safety, yes. Fast. But we also need stability for families who can't afford another displacement. I want options that are immediate and that leave us a say."
+
+A murmur rolls through the crowd—voices layering atop each other: older fishermen worrying about timelines; a youth organizer asking about job guarantees; a retired teacher asking who decides where the wall goes. The meeting is becoming a chorus of practical fear.
+
+Marta leans in, insistence like a sharp scent.
+
+Marta Chen: "Pilots are endless unless there's teeth. If we pilot, we pilot with legal guardrails that protect property rights. We run sensors ourselves."
+
+Eli's voice grows, warm and blunt.
+
+Eli Duarte: "And if a wall means taking away the boatyard? You know what that does. You know what that erases."
+
+Lila's PR lead flips a slide showing job numbers and reduced insurance rates. The graph is pretty. The promise is immediate safety for the highest number of people. It hums like a low beacon.
+
+[INTERACTION]
+> Choice A: "Straighten the compass and speak from the ledger"
+> Choice B: "Catch Noah's eye and speak from memory"
+[Outcome A: "You set the compass against your palm like an anchor, clear your throat, and quote the cost-benefit numbers you prepared; the room quiets as the facts pull attention toward pragmatic terms."]
+[Outcome B: "You let your gaze find Noah; together you recall a late tide when the whole neighborhood came out to push a leaking boat ashore. Your words turn toward shared memory, and faces in the crowd soften."]
+
+You choose—subtly—half numbers, half story. The meeting flexes, listening.
+
+Lila's expression shifts. She appreciates a good narrative; she also respects a well-laid plan. She smiles, not condescending, but as one competitor recognizes a viable opponent.
+
+Lila Park: "I'm willing to discuss terms. But the window to secure this funding is narrow. Funders want quick deployment. Delays risk the entire package, Asha."
+
+Noah Reyes: (careful) "Which is precisely why we need to lock governance and data access now. We can move quickly if the terms are negotiated and written into the contracts before deployment."
+
+Noah's hands move as if sketching invisible clauses in the air. He wants a deal where everyone keeps their dignity. He glances at you, the question plain in the set of his jaw.
+
+Your internal compass ticks. There's the old guilt braided into the possibility of losing people to a storm because you insisted on principle. There's also the guilt that comes with surrendering the shoreline to a model that might protect houses but erase histories. The town folds these dilemmas into murmurs and raised hands.
+
+Marta stands, ringing with conviction.
+
+Marta Chen: "We push the hybrid. We make the terms public. If Lila walks, we take our plan to other funders. But we don't sign away the waterfront."
+
+A faction of people clap, a few hard, immediate slaps that sound like agreement. Others shift away, worried by the prospect of losing a secured check in the mail.
+
+Eli: "Or we pilot Lila's tech on municipal buildings—strict oversight—see how it fares. If it holds, fine. If not, we have data. At least it buys time."
+
+His voice is practical; his fingers drum the crate again. He likes hands-on tests, the honest work of measuring.
+
+Noah Reyes: (low) "Or we buy a little time. Private negotiation—take the funders' deadlines and push the terms behind closed doors to hammer out clauses. It avoids spectacle, but people will want transparency after."
+
+Mayor Rosa exhales, the sound of someone holding a hundred small fires at once.
+
+Mayor Rosa: "If we postpone publicly, we risk losing trust. If we move too fast, we risk losing control. We must choose a path that protects the town now and preserves its future."
+
+Lila inclines her face as if weighing sugar in a cup. Her tone turns warmer, political.
+
+Lila Park: "I can commit to a fast timeline if there are binding performance metrics and a co-managed oversight body. The consortium will not tolerate compromised uptime. But it's possible."
+
+You can see bargain and possibility in her words. The room feels suspended on a hinge.
+
+Noah's hand finds yours for a moment when the crowd hushes—small contact, quick as a splash, but it steadies you. He doesn't speak; he looks to Mayor Rosa, then to you, asking you to choose not only a plan but how you will carry the town forward.
+
+[INTERACTION]
+> Choice A: "Name a visible public safeguard — open data portal with community klaxon"
+> Choice B: "Propose a staged pilot with strict community oversight"
+[Outcome A: "You propose a public portal that streams sensor data and triggers community alerts; neighbors nod, the proposal feels concrete and immediate."]
+[Outcome B: "You suggest a staged rollout: municipal buildings first, then residential trials with community monitors; the plan appeals to cautious minds in the crowd."]
+
+The air thickens. Rain finally spits over the harbor, a soft percussion on umbrellas. The emotional current in the meeting has been rising steadily but not wildly — the rhythm is mid-tempo: urgent enough to demand action, measured enough to aim at consensus.
+
+You look at the faces assembled: Marta's bright defiance; Eli's wooden pragmatism; Mayor Rosa's weary determination; Noah's hopeful steadiness; Lila's professional certainty. Each is a possible compass point for the town.
+
+You feel the old guilt again — the sickening sense that a single wrong word could tip Barge Street into flood and history into ledger. But underneath it, the positive thread hums: these people are willing to speak, to bargain, to demand protections. The momentum from earlier chapters matters; your hybrid language has given neighbors something to hold.
+
+Noah's gaze finds you with a clarity that slices through the noise. He isn't telling you what to do. He's asking you to decide with him — not only as a political ally but as someone who will carry whatever consequence comes. Your chest tightens in a way that is half fear and half a strange, hopeful ache.
+
+The crowd begins to divide — not in anger, but along three clear impulses that map onto the technical options: accept Lila’s turnkey offer for immediate safety; push for the community-governed hybrid that fights for local ownership; or pause to run pilots and collect more data.
+
+You can feel the meeting leaning into that choice; the town is waiting. Your voice will shape the narrative. Your next move will ask people to risk speed for rights, or to accept speed that may cost them something else.
+
+[Music: Strings swell gently — hopeful tension peaking to a steady resolve]
+[Background:"ch3_98c6f2_3"]
+
+You inhale, tasting salt and the faint sweetness of fried dough from the vendor. You know your voice will have to carry both the town's pragmatic hunger for safety and its stubborn insistence on belonging.
+
+[DECISION POINT]
+1) Option 1: "Push the hybrid plan publicly, demanding local governance and sensor access." -> TARGET chapter_id: [4]
+2) Option 2: "Openly propose pausing to pilot Lila's tech in a strictly monitored trial." -> TARGET chapter_id: [7]
+3) Option 3: "Call for a private negotiation with Mayor Rosa and Lila to buy time." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Push the hybrid plan publicly, demanding local governance..." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Openly propose pausing to pilot Lila's tech in a strictly..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Call for a private negotiation with Mayor Rosa and Lila t..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

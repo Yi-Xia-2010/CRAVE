@@ -1,0 +1,211 @@
+[Scene: Tideworks Lab | Morning — overcast, low light]
+[Visual: The shipping container's task lamps throw long, yellowed pools across salt-streaked charts. Glass jars click when the air shifts; a tank of bioluminescent algae pulses like a tired heart.]
+[Music: Low, somber piano; distant rumble of surf]
+[Sound: Soft beeps from sensor consoles; the creak of mooring lines outside]
+
+You set your journal on the metal workbench and watch Elias crouch over the tablet, thumb tracing time-series graphs as if coaxing a secret from them. Theo leans against the doorway, fingers black with grease, a half-dismantled sensor array at his feet.
+
+The room smells of ozone and algae—cleaner than the Strand after rain, but still a smell that belongs to things that survive water. Your fingers leave saltprints on the leather cover of the journal. You can feel the thin tightness at the base of your throat that becomes a drum when trouble is near.
+
+Elias: "The physical alarms line up with the manifest — crates opened, seals gone. Whoever did this knew what to hit. They wanted the sensors offline before the living modules were cast."
+
+You: "And fingerprints? Footage? Anything that ties it to a vendor or—"
+
+Elias: (shakes his head) "Cameras were disrupted for twenty-two minutes the night of the shipment. Not a power surge pattern. Deliberate. And someone rewrote the calibration headers so a failing module would read within normal ranges."
+
+Theo: (sharp) "So they didn't just break stuff. They masked the break so our system would think it was fine. That is—whoever did this knew the stack."
+
+You close your eyes for a beat and let the memory of your father's boat heave in the dark swell. Then you open them and lay your palm on the cool metal of the bench. Action bends your grief into a practical edge.
+
+You: "We keep this quiet. No headlines. No council flare-up. We document, forensically, and then we fix what we must. Quietly."
+
+Elias: (measured) "Quiet buys us clarity, but it also gives whoever did it time. We need to seal the chain of custody on every sample and trace the checksum anomalies. Theo—can you pull a raw image of the firmware before any live updates?"
+
+Theo: (already at the terminal) "I'm on it. But if it’s been overwritten—"
+
+Elias: "Then we have to assume more than one layer's been poisoned."
+
+You look at Elias; his jaw tightens. He is a scientist whose default is a methodical cadence, but the steadiness in his hands now shows strain. You want to rush forward—expose, shout, pull Jun into the light—but you remember Rosa's words about fear finding shape. Quiet may be a net, not a fence.
+
+[Interactive Moment: Choice A ("Examine the physical crates first") -> Reaction: "You and Theo walk the docks at low tide, fingers on splintered wood and torn tape. You photograph, tag, and bring back the crate fragments to the lab for chemical analysis. The smell of diesel and wet canvas is sharp; Theo mutters about how someone used salt to speed corrosion."] || Choice B ("Run a deep checksum and firmware snapshot") -> Reaction: "You sit with Elias at the terminal, watching progress bars and hexadecimal scroll. The raw checksum pulls fragments that don't align — headers that read like someone grafted old signatures into new files. Elias rubs his temple and says, quietly, 'They've tried to forge our trust.'"]
+
+[Scene: Hybrid Site (low-tide scaffolding and semi-submerged breakwater) | Afternoon — the sky a pressed sheet of pewter]
+[Visual: Living modules sit like stitched ribs along the shoreline; ropes and netting tie them to concrete anchors. Seaweed and salt crust the biofoam. A small crew of volunteers moves among them with headlamps and tarps.]
+[Sound: The hollow clack of scaffolding, gulls cutting close to the water]
+[Music: A single sustained cello note; wind under it]
+
+You step out onto the breakwater walkway. The living stones — cages of seeded oyster beds and planted mangrove saplings — look fragile against the gunmetal sea. Up close, the damage reads like violence: anchor points loosened, bolts sheared, a clamp bent the way a hand bends in anger.
+
+Theo crouches by a sensor housing, prying the casing. His fingers come away with sand and a fine dark powder.
+
+Theo: (grim) "Salt and sand in the connectors — deliberate. And look—" (he points) "Not just the physical. See these micro-writes? Someone introduced a timing jitter into the sensor heartbeat."
+
+Elias moves methodically, collecting samples, speaking in low syllables that try to make sense of what he's seeing. He does not look away from the data.
+
+Elias: "The living modules are adaptive, yes, but they depend on steady feedback. If sensors feed false calm, then actuators don't compensate. We can repair structural points, but without absolute integrity in the data stream, we risk mismanagement in a storm."
+
+You: "So we trace the forgery, patch the signals, and keep the tide-watch on guard until—"
+
+Elias: (interrupting) "It will take time to rebuild trust in the sensors we depend on. Whoever did this has political literacy. They understand where the town's nerves are."
+
+You feel the weight of that sentence like a stone dropped into the basin of your chest.
+
+[Interactive Moment: Choice A ("Seal the site and wait for audit confirmation") -> Reaction: "You order the volunteers off the site and call for a formal chain-of-custody, locking gates and posting watch. The Basin murmurs with rumor; families grumble about access to the water. Theo complains about lost days, but you insist on a proper forensics approach."] || Choice B ("Patch the damaged modules and run a controlled reactivation") -> Reaction: "You decide to patch and keep the system nominal. Theo wants more time. Elias nods, reluctantly, and the three of you work under task-lamp light to rig redundant checks. You leave a small manual override accessible at the Old Beacon, just in case."]
+
+[Scene: The Basin (Community Floodplain Garden) | Evening — damp, community tents and strings of lanterns]
+[Visual: Mud paths churned by boot and cart; a mural made of salvaged metal pieces depicts a boat half-submerged but filled with hands. People cluster in small knots, faces lit by lantern amber.]
+[Sound: Low conversations, a child's laugh, the soft slap of wet canvas]
+[Music: Quiet strings; undertone of unease]
+
+Rosa is waiting where the paths meet the mangrove saplings, her braid threaded with a piece of reed. Ivy is beside her, paint-stained hands folded around a thermos. You bring Elias and Theo to them.
+
+Rosa: (soft, holding both your hands) "You listen to the town as you listen to the tide. Not to the loudest voices, but to the small ones—those who cannot leave. Quiet investigation is a wise thing—but you must also tell the people you are watching. Not the method. The fact."
+
+Ivy: (blunt, young) "People are scared, Mara. They need to know they haven't been left to drown by our choices."
+
+You: "We will tell them. Not everything. But enough for them to take shelter if they need it. We will keep the Basin open and the sky-farm ready."
+
+Elias: (to you) "And we'll keep the Tideworks lab open tonight. I'll stay with the data stream while Theo and volunteers work the site. We will do redundancy checks every hour."
+
+You swallow. The decision to keep operation limited, to patch and test quietly, to not inflame City Hall—each choice feels like putting a finger in a leak. Your mind moves to the Old Beacon; you think of the manual override left there like a secret in a familiar pocket.
+
+[Scene: Tideworks Lab | Night — heavy low clouds, storm warnings scrolling on screen]
+[Visual: Monitors throw green ghosts against eager faces; Elias' sensor wristband pulses a dishonest calm. Rain starts as a fine mist beyond the steel door.]
+[Sound: Distant thunder; the lab's fans hum; the short, frantic cadence of radio checks]
+[Music: Tension builds—a low, insistent drum; violin tremolo]
+
+Midnight arrives with the taste of iron in the air. You and Elias sit shoulder-to-shoulder at the terminal, watching telemetry. Theo reports from the field in clipped bursts: tarped modules holding, volunteers exhausted, the tide steady for now.
+
+Theo: (through the static) "We're seeing some jitter on Channel 7. Manual readouts from the buoy show increased flux, but the primary sensor says 'nominal.'"
+
+Elias: (fingers moving fast) "Channel 7? Cross-compare with the Old Beacon beacon feed. If that shows flux too—"
+
+You: "I checked the Old Beacon earlier. The manual checks matched. We left the override dialed to conservative. We should be safe."
+
+Elias: (quiet, not meeting your eyes) "The checksum from Beacon firmware... it's not matching a few expected entropy markers. It's subtle. It could be benign. It could be the same pattern we saw in the crate firmware."
+
+You feel a coldness spread under your skin. Time where there is nothing you can do becomes an enemy.
+
+Theo: (blunt) "We can roll a rollback, but it wipes the latest learning data. If the false calm is deliberate, though, rollback could re-enable a correct alarm."
+
+Elias looks at you, a question in his eyes that feels like hunger in the ribs.
+
+Elias: "We do a rollback and we risk losing adaptive correction. We hold and we risk the false positive hiding a real failure. Either way, people could get hurt."
+
+You: (answering for yourself as much as anyone) "We can't force a public fight tonight. Not until we know the scope. We patch the misreads and run the redundancy. Theo—rollback the non-critical learning layer, keep base alarms live. Elias, keep watch. I'll go to the Beacon to keep the manual override at hand."
+
+Elias: "I'll be here. We'll run triple-checks."
+
+You stand, the decision cracking like ice beneath your boots. You thread your scarf around your neck and step out into the rain.
+
+[Scene: Hybrid Site | Night — storm building fast, wind beginning to tear at tarps]
+[Visual: Waves throw themselves at the line of living modules; water lashes, the breakwater moans. Volunteers with headlamps move like ghosts through spray.]
+[Sound: The wind roars, rope whips, a metallic snap somewhere close; distant siren wails]
+[Music: A rising, dissonant chord; heartbeat percussion]
+
+You reach the Beacon, fingers numb. The override dial gleams wet. You twist it one notch toward conservative—the kind of motion that feels like holding a child steady while a tide lifts a house.
+
+Back at the lab, radio bursts cut across the rain.
+
+Theo: (panicked, from the radio) "We have structural failure—module three is tearing loose. Actuators didn't compensate. The primary sensors are reporting normal. The manual readings are—"
+
+His voice collapses into static, then a cry that flips you inside-out.
+
+Elias: (it takes a second for the word to find him) "They're drowning our warnings."
+
+You: (striding, breath ragged) "What do you mean, 'drowning our warnings'?"
+
+Elias: (too many steps behind what he wants to say) "False positives on three actuators. The adaptive layer... it suppressed alarms. The rollback didn't catch it in time because the corrupted signatures were grafted into base logs. Someone made it look like the system 'learned' that higher stress is normal."
+
+The world narrows to wind and the sound of splintering wood. You run. The beacon's light slices a thin white cone through the rain. Voices call your name—Rosa's, Ivy's—each a thread you want to grasp.
+
+At the hybrid site, it happens with a sound that is less cinematic than honest: a prolonged tearing, like paper unspooling, then a feral trumpet of water. A volunteer who had been securing a mooring rope is swept sideways; another grabs for the handrail and finds only air. Hands flail, lamps blink off, and the living modules list and disengage like failing lungs.
+
+You reach out, fingers closing on wet fabric, and there are faces you will never un-see—someone's small smile, a child's jacket ballooning like a fish. You taste salt and blood, and the harbor takes from you the measure of what you've asked it to hold.
+
+[Sound: Uncontrolled thudding, cries, the wet slap of bodies and canvas]
+[Music: Abrupt silence after the crash; then a low, aching chord]
+
+When the volunteers are pulled out and the first responders arrive, cameras are already faster than you. A news drone's pale eye hangs over the scene. A reporter's voice asks questions like lines thrown to a current.
+
+Reporter: "Who authorized the hybrid deployment, and why did your sensors fail to warn residents?"
+
+You can see Jun in the crowd—his coat a clean line against the storm, face wet but controlled. He stands the way a person stands before a vote: ready to be decisive. His eyes on you are unreadable; there is an intensity that could be pity or calculation. The same eyes that as a child had wrestled with you in the Basin now hold you as if you were an equation that failed to compute.
+
+Jun Park: (calm, voice carrying) "We will get to the bottom of this. But there must be accountability for those who promised safety and failed."
+
+The sentence frames itself like an accusation. The murmurs swell. The council's quick statements unfurl in the air around you—technical failure, tragic misjudgment, negligence.
+
+Elias stands to your right. His face is raw in a way you have never seen from him. The band on his wrist is dark; his hands are shaking.
+
+Elias: (voice barely above the wind) "We ran the checks. I missed it. I should have seen the graft. I thought the rollback was clean. I—"
+
+You: (reaching, but it feels useless) "Elias, you did what you could. We all did—"
+
+Elias: (cuts you off, the syllables hard) "You—all of us—made a call to keep this quiet. We wanted to protect the town from panic. We thought that secrecy was safety. We were wrong."
+
+He doesn't look at you then. He looks at the horizon where the storm eats the light. When he speaks again, there's a new flatness in his voice.
+
+Elias: "There are labs elsewhere. There are teams that can use what we built without the political load. I can't—" (he swallows) "I can't carry this with this community right now."
+
+You: "Elias—"
+
+Elias: (a single, tight laugh with no humor) "You need to keep the co-op together. I'm going to pack what I can. Theo—" (to the radio) "Get our notes archived, get redundancy copies to the university servers. Make sure the legal chain is intact."
+
+Theo: (hurt, angry) "You're leaving?"
+
+Elias: (without looking at Theo) "I'm leaving Corvena for a while. I need to rebuild where systems can be clean-run and where the politics aren't—" (he falters) "Where they won't turn a technical failure into a scapegoat."
+
+He steps away without making a scene. No one stops him. The co-op flurries into defensive meetings; calls are made and then hung up; partners argue about liability and press statements. Families demand answers. Some neighborhoods that had trusted your quiet stewardship now hold placards: 'Save Us or Leave Us'.
+
+Rosa finds you later at the Basin, hands damp, shawl clinging with rain. Ivy is silent, small and furious in her grief.
+
+Rosa: (softly, with a weight to every word) "The city will make a ledger of this. It will list mistakes and name them. But ledger or not, people are down and gone. There's no tally that can bring them back."
+
+You walk to the edge of the Basin and look at the water that has learned new cruelty. The co-op, once stitched together with rope and goodwill, frays into a dozen argument threads: a legal consultant wants to sue; a funder pulls backing; volunteers cancel shifts. The living breakwaters, on which so much rested, are wreckage now. The hybrid's promise is a rubble of apology notes and lawsuits.
+
+Days later, a statement from City Hall runs across every channel. Words like "negligence" and "reckless" are used in formal cadence. The photographs—wide shots of the wreckage, close-ups of mud-streaked faces—are paired with a quote from Councilwoman Lian Mor. Jun stands by her side in the footage, composed. His expression when the news cuts to him is, as always, complex—neither admission nor triumph explicitly readable, but a public posture that steadies the narrative into the lines they prefer.
+
+Elias leaves before the sun returns fully. You see him at the Strand before he goes—his bag small, his eyes distant. You want to call him back, to promise retribution or reform, but he's already turned the corner, and the rain eats the words.
+
+Theo stays. He buries himself in hardware, refusing interviews, refusing the photographers. He is angry at you for the secrecy you allowed, angry at Elias for leaving the way he did, angry at the world that makes even honest scientists into symbols.
+
+The co-op falls apart in a way that is not dramatic but pernicious: meetings dissolve into heated emails; some members sign away projects they cannot fund; others choose to join municipal teams that promise a steadier paycheck. Friends you have relied on either blame you, sue the co-op, or retreat into silence.
+
+Weeks later, you find yourself making the climb to the Old Beacon by yourself. The path is scarred with storm runoff. The lighthouse itself still stands like an old sentinel, stones salt-wet, glass panes spider-webbed from the impact. You push open the hatch and climb until the world feels small and the wind is a voice that has known everything for longer than you have.
+
+[Scene: Old Beacon Lighthouse (Ruins) | Dawn — thin pale light, post-storm hush]
+[Visual: Broken glass refracts the new sun; your compass pendant catches a sliver of light and throws it like a coin across the floor]
+[Sound: The distant harbor is quieter; gulls pick at debris, an occasional creak of settling timber]
+[Music: Sparse piano, a single held note]
+
+You sit on the stone floor and take out your journal. The pages are damp around the edges; your pen leaves blots. You press your palm to the compass pendant at your throat until the metal feels hot.
+
+Memory is a crooked thing. You remember your father calling out into a storm, his voice a small human thing against the tide. You remember his hands on rope, the smell of fish and diesel, and the way the whole town formed a handline because that is what people do. You remember promising then that you would be ledger and salt.
+
+Now ledger and salt meet and the balance skews. The ledger will have pages; the salt is slow, and it will mark everything.
+
+You write because that's what you've always done—document, name, try to make sense.
+
+Your entry is short:
+"Storm. Failure. Lives. We were trying to protect more than the shoreline. We failed some. We failed people. I do not know what to say next."
+
+You close your book and let the lighthouse's light—broken but there—wash the page in a stain of gray. The town below shifts into new arrangements: insurance adjusters take people's statements, a council inquiry summons you to an official deposition, families that once came to the Basin for Sunday meals now keep distance. Jun's public posture becomes the city's spine: decisive, remorseless, legally prepared.
+
+You are exhausted to the marrow. People shout from the Strand that you should have spoken up sooner; others whisper that you were protecting them. Both are true. Neither brings back the hands that slipped from yours in the water.
+
+At the very edge of the cliff where the breakwater meets the sea, Ivy leaves a small painted boat made of scrap—an offering, or more precisely, a question. Rosa comes once, sits with you for a long time without speaking, and then stands to go, her shoulders carrying a weight like tide.
+
+In the end, of the two things that shaped you—the stubborn, communal hope and the fact of the sea—only one feels like a true companion now. You fold your scarf around your neck tighter and descend, not toward a loud resolution, but toward making whatever remains as careful as you know how.
+
+[Music: A single low chord fades to silence]
+[Visual: The Beacon's broken light blinks once; the screen lingers on the compass pendant, dulled by salt]
+[Scene: Fade to Black]
+
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": null,
+  "default_next_chapter": null
+}

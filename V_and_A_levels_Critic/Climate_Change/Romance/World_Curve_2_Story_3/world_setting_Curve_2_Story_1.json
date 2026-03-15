@@ -1,0 +1,114 @@
+{
+    "design_logic": "I interpret the Climate Change theme through intimate, human-scale stakes: rising seas and contested adaptation decisions become the backdrop for a romance where values, duty, and love collide. The romance genre focuses emotional investment on choices between personal connection and broader responsibility. The core conflict is therefore interpersonal (the protagonist's relationship with a love interest whose plans may harm the community) layered over a civic moral dilemma (protect the neighborhood quickly with a top-down solution that displaces people, or fight for slower, equitable adaptation). This creates narrative tension across routes: compromise and collaboration, sacrifice for the many, or capitulation to profit-driven 'solutions'.",
+    "setting": "A mid-sized coastal city—Verdante—in the near future (late 2030s) where seasonal King Tides have begun to reshape daily life. Neighborhoods along the harbor are a patchwork of old wood-frame houses, retrofitted apartments, pop-up flood defenses, and new glass towers. The mood is simultaneously hopeful and precarious: communities rallying and clashing over who gets to decide the shoreline's future.",
+    "visual_style": "Soft realism with painterly lighting; muted coastal palette (seafoam, slate, rust), cinematic lensing, character-focused anime-influenced expressions, mixed-media overlays for maps and data (digital HUD elements blended into watercolor backgrounds).",
+    "main_characters": [
+        {
+            "name": "Mira Santos",
+            "role": "Protagonist",
+            "personality": "Resolute, empathetic, analytically minded but driven by memory and place. Quick to act when neighbors are threatened, slow to trust big promises. Has a dry sense of humor and an ability to listen that makes others open up.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves; usually pulled into a loose knot with strands framing her face",
+                "eyes": "Warm hazel with a green rim, slightly downturned giving an approachable, steady gaze",
+                "clothing": "Practical layered outfits: worn olive expedition jacket patched at the elbows, slate-blue cargo trousers, breathable knit shirts; field-ready rain poncho slung over her shoulder when on site",
+                "accessories": "A faded coral scarf passed down from her grandmother, a water-stained waterproof notebook full of community maps, a scratched brass carabiner with several keys"
+            },
+            "goal": "To protect her coastal neighborhood and preserve its social fabric while finding a sustainable adaptation path—without erasing the people who live there.",
+            "background_story": "Born and raised on Mariner's Row, Mira became a community organizer and environmental planner after a childhood flood displaced several families. She studied urban ecology and returned home to lead grassroots adaptation efforts. Her anchor is the memory of her family's house and the people who saved one another during the floods.",
+            "emotional_trait": "Strength: fierce loyalty and resilience. Flaw: tendency to shoulder responsibility alone and to fear asking for help."
+        },
+        {
+            "name": "Elias Moreno",
+            "role": "Love Interest",
+            "personality": "Warm, idealistic, professionally ambitious. He believes in large-scale solutions and the ability of good design and policy to reshape injustices. Charming and intellectually curious, he genuinely wants to do right but is sometimes blind to the social costs of expedience.",
+            "appearance_features": {
+                "hair": "Sandy-blond, slightly tousled with a practical undercut that he pushes back when thinking",
+                "eyes": "Sea-gray, sharp and attentive, often narrowed when poring over plans or blueprints",
+                "clothing": "Casual-professional: lightweight linen blazer over a breathable knit, slim dark chinos; on site he swaps the blazer for a high-visibility vest with a municipal logo",
+                "accessories": "A thin silver compass pendant (a family keepsake), a foldable tablet with urban planning overlays, and a navy canvas messenger bag full of proposals and models"
+            },
+            "goal": "To implement an ambitious, technically efficient adaptation project for Verdante that can scale to other cities—a legacy project that will protect thousands.",
+            "background_story": "Raised in an inland town by engineers, Elias rose through municipal planning ranks quickly. He sees solutions as blueprints: implement the plan and lives improve. His upbringing taught him to trust systems and metrics, and he views community objections as process delays rather than moral endpoints.",
+            "emotional_trait": "Strength: visionary optimism and persuasive empathy. Flaw: cognitive bias toward top-down solutions and discomfort with messy, prolonged negotiation."
+        },
+        {
+            "name": "Cassian Vale",
+            "role": "Antagonist",
+            "personality": "Charismatic, polished, pragmatic to the point of ruthlessness. He frames aggressive intervention as compassion—protect the many by making hard choices. He is persuasive and media-savvy, often presenting an aura of inevitability.",
+            "appearance_features": {
+                "hair": "Silver-black hair, slicked back and immaculate, giving a controlled, high-polish silhouette",
+                "eyes": "Ice blue and hawk-like, often cool and calculating in expression",
+                "clothing": "Expensive, sharply tailored stormcoat and tailored coastal wear in muted monochrome; always seems unfazed by weather",
+                "accessories": "A gold cuff engraved with the Vale Consortium sigil, a minimalist smartwatch connected to city feeds, and a sleek umbrella that doubles as a cane"
+            },
+            "goal": "To construct Vale Consortium's flagship coastal defense—an engineered seawall and urban redevelopment plan that secures the city's wealthier districts and establishes his model for other cities.",
+            "background_story": "A former investment strategist turned infrastructure magnate, Cassian climbed social and political ladders by selling decisive fixes. He treats the coastline as a portfolio to be optimized; human displacement is an acceptable externality if the project succeeds.",
+            "emotional_trait": "Strength: unshakeable confidence and strategic clarity. Flaw: moral myopia—prioritizes outcomes over relationships, leaving loneliness in his wake."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Lina Cortez",
+            "relation_to_main": "Childhood friend and neighbor of Mira",
+            "appearance_summary": "Short, energetic, braided dark hair, bright teal rain boots and paint-splattered overalls",
+            "function_in_story": "Embodies the neighborhood's lived stakes; organizes community actions, personalizes the costs of displacement, and offers grounding warmth to Mira."
+        },
+        {
+            "name": "Dr. Arun Patel",
+            "relation_to_main": "Mentor to Mira (former professor and local ecologist)",
+            "appearance_summary": "Salt-and-pepper hair, round glasses, always in field shirts with flora samples tucked into pockets",
+            "function_in_story": "Provides scientific guidance, helps translate data into accessible visuals for public meetings, and warns about technological quick fixes without social consent."
+        },
+        {
+            "name": "Tamiko Sato",
+            "relation_to_main": "Activist ally and organizer",
+            "appearance_summary": "Shaved undercut with dyed copper top, layered jackets with patches from various campaigns, a camera slung around her neck",
+            "function_in_story": "Amplifies grassroots pressure, coordinates protests and media, challenges Mira when strategy feels too conciliatory."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Mariner's Row",
+            "visual_description": "A narrow, historic coastal district of wooden row houses, low brick walls, and makeshift sandbag lines. Evening light slants orange over weathered porches; puddles mirror string lights. Sea-spray mists the air on high tides. The palette mixes warm wood tones with salt-bleached blues and rusty metal. Backgrounds show hand-lettered signs, drying nets, and children's chalk drawings half-obliterated by tidewater."
+        },
+        {
+            "name": "Verdante City Hall Plaza",
+            "visual_description": "A stone-paved civic plaza framed by glass-and-concrete municipal buildings; during daytime it is sun-drenched with sharp shadows, at night it glows coldly under LED floodlights. Modern screens display development renderings in neon cyan. Flags snap in a steady breeze; puddles from recent rains give reflective surfaces that double city lights into watercolor streaks."
+        },
+        {
+            "name": "Skyfield Conservatory (Rooftop Greenhouse)",
+            "visual_description": "A suspended greenhouse perched on a mid-rise: warm, humid air, dense greenery, and mottled light through steamed glass. Golden-hour sun filters through leaves, casting mottled patterns on terracotta pots and reclaimed wood benches. Vines drape over rusted piping, and small rain-harvesting barrels glint like copper jewels."
+        },
+        {
+            "name": "The Tidal Market",
+            "visual_description": "A semi-flooded promenade where vendors paddle small boats between stalls. Bright tarps and hand-painted signs provide pops of color against a sloshing slate-blue sea. Overcast skies and mid-afternoon silver light create high contrast; reflections and ripples animate every frame. Sheltered alcoves glow with warm lamplight at dusk."
+        },
+        {
+            "name": "Beacon Station (Research Buoy and Pier)",
+            "visual_description": "A research pier jutting into open water: industrial metal, tactile rust, and instruments blinking faintly. Dawn light turns the horizon to pale gold while fog clings to the sensor arrays. The atmosphere is austere and precise; wet steel and calm water surfaces create a reflective, clinical backdrop for scientific revelations."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love, responsibility, and compromise"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Collaborative victory: Mira and Elias reconcile their differences, co-designing a hybrid adaptation plan that combines community-led living shorelines and phased infrastructure, preserving Mariner's Row and strengthening social ties. Cassian withdraws from the most destructive proposals after public pressure; Mira and Elias deepen their relationship as partners in civic life."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Mira secures the neighborhood's rights and long-term protections but at great personal cost: Elias accepts a leadership role on a larger project elsewhere because he believes it will save more lives in the long run. They part with mutual respect but divergent paths—Mira remains rooted, Elias becomes a distant ally; the community survives, the romance alters into enduring friendship."
+        },
+        {
+            "type": "Sad",
+            "summary": "Cassian's consortium wins the political fight. The seawall and redevelopment are built quickly, displacing many longtime residents despite protests. The neighborhood is sanitized into a guarded promenade; Mira loses her home and relationship with Elias (who sides with the project), leaving her to rebuild her life elsewhere. The ending serves as a cautionary tale about how expedient 'solutions' erase vulnerable communities."
+        },
+        {
+            "type": "True",
+            "summary": "A long-game systemic shift: an investigative campaign led by Tamiko and Lina exposes corrupt contracting and reframes the debate. The city adopts new laws protecting affordable coastal tenure and funds participatory adaptation. Personal outcomes are mixed—Mira becomes a public figure; Elias faces political fallout but joins reform efforts. The romance survives in a new, realistic form grounded in shared values; the city begins a harder, slower path toward equitable resilience."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

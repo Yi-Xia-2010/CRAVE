@@ -1,0 +1,178 @@
+label chapter18:
+
+    # [Scene: Abandoned Lighthouse | Predawn]
+
+    scene bg ch15_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the slow, measured slap of tide against rock]
+    # play music "music_placeholder"  # [Music: Sparse, low cello note under a quiet wind]
+    "You are awake before the town. The interior of the lighthouse smells of old oil and wet stone; your boots leave dark prints on the wooden threshold. Your hair is still damp from the last storm"
+    "and from late-night meetings that bled into the morning. The compass at your throat is warm from where your fingers never quite stop touching it."
+    "Everything you have tried here feels porous now — good intentions that soaked through and left faint, dark rings. The compromises frayed at the edges; the legal language you fought for was precise but thin. The"
+    "community's labor patched many gaps, but the fractures are constant, patient things. They slope toward other people's losses in the nights when you cannot hold a vote open."
+    "You fold your scarf tighter, feeling the familiar tug of responsibility — not as a sharp command but as a slow, heavy thing that sits against your ribs. Leaving has been a possibility in the corner"
+    "of your plans for weeks, then months; tonight it is no longer a corner. It is the door you have to cross."
+    "You run your thumb along the chipped shell pendant. It tastes faintly of metal and sea salt when you lift it to your mouth, a private ritual to steady the small, tremulous edges of decision. There"
+    "is no drama in it: no abrupt shout, no breaking glass. The decision is an accumulation of tiredness, of a thousand small failures and the clear sense that the place you love needs a different fight"
+    "than the one you can give from inside its politics."
+
+    "You take the map remnant Abuela Rosa pressed into your hand last night out of your pocket and smooth it flat. Her handwriting is a tiny, steady scrawl" "For luck. For where memory matters."
+    "You think of Elias Park. You think of the harbor and the way his fingers fumbled around the prototype sensor the last time you visited the lab, as if the world were something mechanical that could"
+    "be eased back into order by calibration and patience. You remember Iris Varela's quiet, ironed certainty. You remember the town meeting rooms, voices tipping into accusation like weathered signs in a gale."
+    "You breathe in. The lighthouse holds the taste of dawn and regret."
+
+    scene bg ch15_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: Cello note lengthens, then softens]
+    # [Scene: Puerto Alba Marketboard | Morning]
+
+    scene bg ch15_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A single cartwheel creaks; a kettle hisses from a stall; a child laughs in the distance like an off-key bell]
+    # play music "music_placeholder"  # [Music: Gentle, sparse piano; the mood is small and intimate]
+    "Abuela Rosa is already at the fish stall, wiping plates with deliberate, circular motions. She looks up without surprise when you approach — her eyes have always been two steady hearths. She notices the way your"
+    "shoulders carry the map and the rope. Her hands are warm even through the apron."
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "You look like you haven't slept, niña."
+    show mara_serrano at right:
+        zoom 0.7
+
+    mara_serrano "I haven't. Thought I might steal your mornings before the town wakes."
+    "Abuela Rosa: (half a smile) 'Stealing mornings is how you keep hope from getting eaten by other people's plans. Sit. We have time.'"
+    "You sit on a low crate. The marketboard smells like brine, frying oil, the citrus of a lemon waiting to be squeezed. Your fingers find the braid in your pocket and tighten around it without meaning to."
+
+    abuela_rosa "You made a choice already, haven't you? The weight is walking ahead of you."
+    "Mara Serrano: (small inhale) 'I think so. It isn't a clean choice. Leaving doesn't mean I'm giving up on the town.'"
+
+    abuela_rosa "Sometimes leaving is a different kind of holding. Don't let words confuse you. Come here.' (She reaches into a battered tin and draws out a coil of hand-braided rope and a thin strip of weathered paper with a corner torn.) 'Map remnant. For where paths get forgotten."
+    "You take the rope. It is rough under your palm and smells faintly of the sea and olive oil. Its pattern is a small, deliberate thing — three strands braided in the old way Abuela taught"
+    "you when you were small enough to knot your fingers wrong. The paper flakes a little at the edge where salt has kissed it; there are marks on it that look like the scalloped edges of"
+    "the marsh and a single, tiny inked note: 'Remember the low places.'"
+
+    abuela_rosa "You can tie a knot with that and know there's someone who believes knots can hold things. Even if the rope doesn't hold the whole town, it will remind you of who you are holding for."
+
+    mara_serrano "Will you be able to— here? To keep going?"
+    "Abuela Rosa: (a soft, almost closed mouth laugh) 'I will pick my stubbornness, and the town will pick its own. But if you're gone and you need to know what to do, tie the rope to your compass and follow the low places.'"
+    "There is a moment of quiet that is not empty but full of small, shared histories — weathered hands, the precise smell of frying dough, the scrape of a broom somewhere behind the stalls."
+
+    menu:
+        "Say little, accept the rope with a hug":
+            "You fold yourself forward and let Abuela Rosa's arms close around you. The rope is a weight that steadies. You taste lemon and salt; you do not have to make a speech."
+        "Ask for specifics—how to use it for others":
+            "You press further, fingers white at the rope, and Abuela answers with a series of small instructions about the low marshes and tide markers. Her voice is practical and steady; each detail lightens the urgency inside you with work to be done."
+
+    # --- merge ---
+    "Continue the scene"
+    "Abuela Rosa: (after a breath) 'When the maps change, remember the stories under them. When the lawyers talk, remember the creeks. Don't let the bright promises of other people's machines erase the names of the people who live here.'"
+
+    mara_serrano "I won't. I'll write. I'll send letters. I won't forget."
+
+    abuela_rosa "Then go. Don't make staying into penance. That's for the people who have to watch storms from windows, not for people who can change how the law sees a coastline."
+    "You fold the map remnant and slide it into your inner pocket near the compass. The rope coils into your bag like a small, living thing."
+    # [Scene: Harbor | Dawn]
+    hide abuela_rosa
+    hide mara_serrano
+
+    scene bg ch15_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft slap of wood on wood, a gull's wing brush; breath and low conversation from workers]
+    # play music "music_placeholder"  # [Music: A single, bowed note on violin; intimate, tremulous]
+    "Elias Park is at the end of the pier, leaning on a rail, the prototype sensor dangling from his wrist like an ornament he hasn't quite untied. He looks up when you appear, and for a moment his expression scrapes into a raw, open question."
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "You look small in this light."
+    show mara_serrano at right:
+        zoom 0.7
+
+    mara_serrano "Maybe because I'm trying to be."
+    "Elias Park: (steps closer) 'You said you'd consider the oversight. I thought—'"
+
+    mara_serrano "I did. I tried. I thought about the guarantees that Iris Varela's seat could bring for a town that needs money immediately. I thought about the conditional finance we stitched together. None of it sat without costs."
+    "Elias Park watches your hands, the way they fold around the rope in your bag. The wind tangles your damp hair into the damp halo you've carried for weeks."
+
+    elias_park "I didn't want to lose you to the idea of leaving. I thought once the sensors were running and the pilot data—"
+    "Mara Serrano: (interrupting, softly) 'You thought the work would keep us together. You thought technology could be a tether.'"
+    "Elias Park: (slowly) 'Maybe I did. Maybe I wanted to believe the tether would be enough.'"
+    "There is a stillness between you that is not peaceful. It is the hush that comes before someone admits that two hands on a single rope are not always holding the same end. Elias Park looks"
+    "at the lighthouse behind you, then at your face. Promise and pragmatism war in the lines at his eyes."
+
+    elias_park "So you're leaving?"
+    "Mara Serrano: (a nod that feels heavier than a sentence) 'I have been offered a role to work on coastal policy at a different scale. I can push for systemic change that might help towns like"
+    "ours beyond the moment Iris Varela's deal covered. It isn't immediate relief. It is a different tool.'"
+
+    elias_park "You think that will matter more than the people here who are hungry for a decision now?"
+
+    mara_serrano "I think both are needed. I can't make the municipal contracts change from within alone; it's a broader fight. Staying won't get me into the rooms where policy is written."
+
+    elias_park "And us? Will 'letters' and 'occasional visits' be the shape of it?"
+    "Mara Serrano: (a laugh that is almost a sob) 'Those are the practical words people give to painful things. I don't know. I know I can't be all the things everyone needs. Not here, not right now.'"
+    "Elias Park swallows. He reaches out, and for a heartbeat you think he will pull you into an argument, a handhold that keeps you ashore. Instead he curls his fingers around your compass where it rests against your throat."
+
+    elias_park "Keep this close. Keep me in the habit of checking on it. If you go, let me be the person who reads your notes before anyone else."
+
+    mara_serrano "You could have been the one to come with me."
+    "Elias Park: (a humorless smile) 'And leave the sensors to fend for themselves? It would be me running around with a suitcase full of prototypes and your stubbornness getting us into trouble. No—I'll stay and try"
+    "to make sure the systems you trust are actually protecting people. You go, and we'll both do the work we are built to do.'"
+    "The words mean refusal and blessing all at once. You look at him because you need to see the full shape of his face before you leave — the small lines at the corners of his eyes, the way his mouth presses when he is trying to be brave."
+
+    mara_serrano "Do you hate me?"
+    "Elias Park: (his voice barely above the water) 'I don't know if I can hold something like hate and you in the same chest. I am disappointed and proud and very tired. Mostly I'm afraid I'll miss you in a way that hurts.'"
+
+    mara_serrano "I'm afraid of the same things."
+    "There is a pause long enough that the town could drown in it. Then Elias Park closes the distance and presses his forehead to yours, a brief, wordless contact that both says everything and nothing. He"
+    "doesn't offer a plan to keep you. He doesn't ask you to stay. He gives you the simplest thing: two hands that understand goodbye."
+
+    elias_park "Write to me. Even the bad nights."
+
+    mara_serrano "I will. You write first."
+    "He smiles, a small, sharp thing, then pulls back. Neither of you can think of a better shape for this parting than a promise that is porous and immediate."
+
+    menu:
+        "Stay for a long, awkward embrace":
+            "You let silence fill the space and lean into him. The harbor smells of wet rope and diesel. For a small while, gravity shifts so you both feel held. When you part there is a residue of warmth, and leaving slices through it."
+        "Keep it formal—say your last practicals and leave":
+            "You list what you'll do and what you'll send: timeline, contacts, the sensor calibration notes. The words keep the world organized, but there is a thin, aching absence where softness should be."
+
+    # --- merge ---
+    "Continue the scene"
+
+    elias_park "Promise me you won't carry the whole world's guilt."
+
+    mara_serrano "Promise me you'll keep arguing when someone proposes a quick, pretty solution that will drown people later."
+
+    elias_park "I promise."
+    "You let him hold the compass for a second longer and then take it back. His fingers linger on your palm. For an instant you allow yourself to imagine a different life — small, stubborn, built"
+    "of daily tinkerings and shared cups — and then the tide of what you must do swallows the image and leaves only the pragmatic outline."
+    # [Scene: Abandoned Lighthouse | Dawn — Return]
+    hide elias_park
+    hide mara_serrano
+
+    scene bg ch15_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull, the distant rattle of a market stall being readied]
+    # play music "music_placeholder"  # [Music: A hush of strings; a single sustained note that feels like an exhale]
+    "You climb the lighthouse steps again, each one familiar in the pattern of your life. The map remnant is folded into the inner pocket against your chest; the coil of rope sits light in your bag."
+    "The compass swings in a small, steady arc — the motion of a metronome marking the minute, ordinary movements you will take."
+    "From the top of the lighthouse you look over Puerto Alba. It is there: the promontory houses, the green prototype site with its tentative planted edges, the marketboard with its scarred floorboards, the Council Hall's concrete"
+    "bulk. It looks like a town that has survived a storm and then been patched with different hands. It is standing. It is fractured. It holds laughter and stubbornness and pain, imperfectly arranged."
+    "You can feel the sadness as a low, even tide under everything: a presence rather than a swell. That sadness is not dramatic. It does not lash. It is steady, very negative in its polarity —"
+    "a grief that does not spike but persists. You let it settle on you for a moment like a wet shawl fitting your shoulders."
+    "You run your thumb along the braid Abuela Rosa gave you without opening the coil. The fibers bite softly into your skin. You think of the low places on the map and of the people whose"
+    "names only exist when someone remembers them aloud. You think of Iris Varela's folded hands at council, of the legal clauses you hatched that ended up thin. You think of a town stitched by labor and"
+    "of your small, private belief that some fights are better fought at scale."
+    "There is no tidy resolution here, no final vindication. There is a leaving — slow, deliberate, and weighted. You step down from the lighthouse and begin the walk out of Puerto Alba."
+    "Your boots find the path you always took as if it knows you; the compass hangs steady at your throat. You don't look back more than once, and that look is not for closure. It is"
+    "a slow inventory: the shoreline curving like an unfinished sentence, the marketboard a pale smudge of activity, the figures of people who will rearrange themselves in your absence."
+    "You do not feel triumphant. You do not feel relieved. Mostly, you feel the flat, wide ache of something accepted: a knowledge that love can survive separation and that leaving can be an act of responsibility rather than surrender."
+    "The harbor calls with the small mechanical sounds of a town untangling its morning. A gull croons and disappears in a thin streak across the water. Your scarf is bundled; your compass feels warm against your sternum; the rope sits in the bag like a small promise."
+    "You begin to walk. The town continues without you in the way the tide continues without asking permission: insistent, indifferent, necessary. You fold the map deeper into yourself and keep moving."
+
+    scene bg ch15_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Slow piano chord, held and then allowed to fade]
+    # play sound "sfx_placeholder"  # [Sound: Footsteps on wet board; distant voices]
+
+    scene bg ch15_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch15_f99e88_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

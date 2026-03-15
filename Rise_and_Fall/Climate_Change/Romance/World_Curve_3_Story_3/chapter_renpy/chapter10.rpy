@@ -1,0 +1,197 @@
+label chapter10:
+
+    # [Scene: Municipal Hall | Evening]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A hush like foam pulled off a shore; a distant gull cry through the open windows]
+    # play music "music_placeholder"  # [Music: Sparse piano, low and slow]
+    "You stand behind the lectern as if it's a small, fragile island. The room smells of coffee gone cold and wet jackets — salt on collars, the iron tang of rain under the eaves. Your tide-watch"
+    "rests heavy against your wrist, its brass dull in the lamplight; you don't look at it. You don't need it to know the hour is late and the decision is now."
+    "You step forward. The microphone amplifies the slight hitch in your breath."
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "We must plan for coordinated relocation."
+    "The words leave you flat and sudden, like a slab dropped into still water. The hall goes silent in a way that makes your ears ring; the rustle of paper and the faint hum of the building's ventilation seem obscene against it."
+    hide maya_reyes
+
+    scene bg ch10_453e40_2 at full_bg
+
+    scene bg ch10_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The tap of Dr. Ayla Voss's pen, once — a metronome]
+    "Dr. Ayla Voss does not smile. Her jaw is a line of precise approval and the kind of relief that comes when logic finally meets rhetoric. Her nod is almost imperceptible, but you see it and feel a small, icy confirmation."
+    show mayor_tomas_nkem at left:
+        zoom 0.7
+
+    mayor_tomas_nkem "That's—"
+    "He stops short, the rest of the sentence swallowed. His shoes squeak softly on the gym-floor boards. You can see the weight of budgets and political calendars compressing the space between his eyebrows."
+    show rita_ortega at right:
+        zoom 0.7
+
+    rita_ortega "Maya—"
+    "She doesn't finish. Her fingers press a paper towel to her cheek; salt or tears, you can't tell. Her face is a map of a thousand small, relentless meetings."
+    "Elias Jun leans forward on the railing of the balcony above you, knuckles white. You feel the heat of his gaze like a current. He says nothing at first; his jaw tightens and his breath fogs in the chill of the hall."
+    show elias_jun at center:
+        zoom 0.7
+
+    elias_jun "You can't mean—plan to move people out? We're not… this is our home."
+    "Maya Reyes, you had meant your words to be careful. You had drafted them in the thin blue light of your tablet, rehearsed them among graphs and contingency tables. But because the choice had to reach beyond numbers, you used the blunt phrase that would not leave room for euphemism."
+    "Internal: You say it because the models stopped being hypothetical last spring. You say it because a plan saves lives if the storm that was once a warning becomes the storm that decides who stays and"
+    "who doesn't. You feel the gravity of that verb — plan — sink through the board of the lectern into your bones."
+    "Elias Jun's voice breaks the silence like a wave breaking on concrete."
+
+    elias_jun "You think I want to see my father's nets boxed up? You think Rita wants to hand over her garden to a storage yard? We work. We fix. We plant. We don't…exile ourselves."
+    hide mayor_tomas_nkem
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "I know. I know what it means to lose the smell of your street in the morning. I grew up with those sounds. I am not saying 'abandon' as if it's easy. I'm saying 'organize' so that when it's time, it's not chaos. So no one dies because we postponed the plan until there are no options."
+    "The back-and-forth pulls at everything you are: the scientist who trusts scenarios and the daughter who remembers handprints on the salt-streaked fence. Elias steps down from the balcony and approaches, the scrape of his boots loud in the quiet."
+
+    elias_jun "Your 'organize' feels like a verdict. People will read it as you choosing to move them because it's convenient for someone with a plan on paper."
+
+    maya_reyes "If we organize it—if we design moving as an act with dignity, with time, with seed banks and elders prioritized—we can keep a people's stories intact even if their houses are not by the water. Or we can wait until the water takes them, and then there are only scraps and grief."
+    "Rita Ortega chokes a sound and a few people shift, the boards creaking in sympathy. You meet Rita Ortega's eyes, and you see a small, terrible understanding. For her, it is immediate: who will take Grandma Rosa's boxes? Who will carry the ceramic rooster from the mantel?"
+
+    rita_ortega "Maya, what about Rosa? She can't box her memories. She can't sign forms on a tablet. What do you give her? Who decides?"
+    "You open your mouth. Papers rustle as if the whole town is turning a page. You feel the scaffolding of policy against the raggedness of life: forms that require signatures and legal guardianship, timelines measured in fiscal quarters, shelters sized by capacity."
+
+    maya_reyes "We make the forms into conversations. We send mobile teams. We guarantee housing options and cultural continuity. We give people agents—neighbors who will sit with them while they sort their things. We do it with—' you pause, faltering on the enormity of the promise, '—with humanity."
+    "Dr. Ayla Voss steps forward at that, voice cool and pragmatic but not unkind."
+    hide rita_ortega
+    show dr_ayla_voss at right:
+        zoom 0.7
+
+    dr_ayla_voss "Maya is proposing what we've been arguing the region needs: a controlled, phased relocation pla—' (she corrects herself) '—a coordinated migration strategy that minimizes exposure to imminent hazards. It is costly but ethically preferable to triage."
+    "Her words land like a measured stone. The math in her head is the kind of comfort that kills with kindness: fewer casualties, more efficient resource allocation. But it is also a bureaucratic instrument that will"
+    "judge who is moved first and who waits — and those judgments will be read as moral statements."
+    "Mayor Tomas Nkem shifts, voice small."
+    hide elias_jun
+    show mayor_tomas_nkem at center:
+        zoom 0.7
+
+    mayor_tomas_nkem "We need funding. We need permits. We need buy-in. We can't just—"
+
+    maya_reyes "We start with the lists,' you say. 'We prioritize the most vulnerable. We protect seed banks, archives, and cultural items. We train teams from the community — Rita's neighborhood groups, local builders — to handle the logistics. We make a timeline so families can plan."
+    "A man in the audience stands, furious."
+
+    "Audience Member" "So what — some get to stay and some leave? How do you decide who is allowed to keep their home?"
+
+    maya_reyes "We don't decide who is 'allowed' to keep anything—' You feel your voice rise, unwanted. 'We create options. We create shelters, retrofit funding, and, where necessary, relocation packages that include the tools to reestablish livelihoods. This is not an instant fix. It is a plan that makes moving a choice made with provisions, not a desperate flight."
+
+    menu:
+        "Name the criteria — focus on vulnerability":
+            "You read aloud a shortlist: age, medical need, flood exposure — terms that make people's faces go slack with recognition."
+        "Emphasize cultural continuity — focus on seed banks and heritage":
+            "You hold up your hand and describe the seed bank packs and community trusts, and you see Rita straighten, clutching the outline like a lifeline."
+
+    # --- merge ---
+    "The reactions are immediate and raw. Naming criteria opens a row of worried faces — elderly people glance down at their shoes, fishermen count weathered knees. Emphasizing cultural continuity gives audible relief to a cluster of older women who know how a seed saved last year's harvest."
+    "The reactions are immediate and raw. Naming criteria opens a row of worried faces — elderly people glance down at their shoes, fishermen count weathered knees. Emphasizing cultural continuity gives audible relief to a cluster of older women who know how a seed saved last year's harvest."
+    "Afterwards, the meeting breaks into smaller clusters like tidal eddies. Some folk come to you with practical questions; others with accusations that make your ribs hollow. You spend hours at the folding table signing your name"
+    "in places that make your stomach drop: consent to assessments, petitions for regional assistance, and the first draft of an agreement with a planning office you've only ever emailed. Each signature feels like a small, irreversible"
+    "tide."
+    # [Scene: Mangrove Line | Night]
+    hide maya_reyes
+    hide dr_ayla_voss
+    hide mayor_tomas_nkem
+
+    scene bg ch10_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind soughing through leaves, water lapping softly]
+    # play music "music_placeholder"  # [Music: Single cello note, low and vibrating]
+    "You walk the mangrove line after the meeting because you can't bear the closed spaces of the hall. Your boots sink into the soft mud at the roots; the air tastes of algae and the metallic"
+    "echo of low tide. You move slowly, palms brushing the slick bark. The mangroves are stubborn, resilient things — ancient engineers that still hold mud and life together. Tonight they feel like the bodies of the"
+    "town: tangled, necessary, and impossible to carry in full."
+    "Internal: You imagine packing the seed bank — rows of glassine envelopes labeled with tomato strains and native herbs — into boxes that will travel inland. You imagine the slow careful hands of volunteers cradling pottery,"
+    "the way old quilts will be folded. You imagine how a relocation needs not only trucks but time, stories, and the rituals that make a house a home."
+    "From the dark behind a tangle of roots, Arlo Benitez's flashlight bobbing, a young volunteer approaches. He has mud to his elbows and fear on his face."
+    show arlo_benitez at left:
+        zoom 0.7
+
+    arlo_benitez "Miss Maya—will this mean my grandma can't come back?"
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "We make a plan that keeps the option open for return if conditions improve,' you say, and your words sound thinner than you want. 'But we can't promise the coastline will be the same. We promise to preserve what we can."
+    "Arlo Benitez lowers his head. 'I don't know how to promise that to her.'"
+    "You kneel in the mud to level with him; the cold bites at your knees."
+
+    maya_reyes "Then we promise to be there while we figure out what 'we' means. We'll train people. We'll document crops. We'll pack boxes with labels and stories. We'll call regional planners and insist they treat each relocation as a community relocation, not a spreadsheet."
+    "His eyes go wide with a mixture of hope and skepticism. For a moment, you let yourself imagine that collective procedures can be gentle."
+
+    menu:
+        "Pack a sample of seeds now":
+            "You pull a small envelope from your jacket — a generic packet of basil and a staple tomato — and tuck it into a makeshift box, the act both practical and sacramental."
+        "Measure the roots and take notes":
+            "You trace the mangrove roots with gloved fingers, jotting coordinates into your tablet; the data is cold and necessary, but less comforting."
+        "Sit and listen to Arlo's plan for Grandma":
+            "You sit on the wet root with Arlo and hear the boy's plan for patience and community volunteers; the plan is messy, human, and it steadies you more than the data."
+
+    # --- merge ---
+    "The choices are small rituals — tangible things you can do in a place that feels otherwise determined. Packing seeds feels like preserving a small, portable future. Measuring roots feels like buying time with numbers. Listening feels like honoring the human cost."
+    "The choices are small rituals — tangible things you can do in a place that feels otherwise determined. Packing seeds feels like preserving a small, portable future. Measuring roots feels like buying time with numbers. Listening feels like honoring the human cost."
+    "You leave a small box hidden between the roots with that packet of seeds. It's a private, almost superstitious consolation."
+    # [Scene: Rooftop Watch at Dusk | Late Night]
+    hide arlo_benitez
+    hide maya_reyes
+
+    scene bg ch10_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant thrum of the municipal generator; a siren far off, then gone]
+    # play music "music_placeholder"  # [Music: Low ambient hum, a chord unresolved]
+    "On the rooftop above your family home, the night presses wide. Pots line the parapet; a battered telescope points nowhere and you pull your grandmother's faded scarf tighter. The sea spreads out like a bruise, the"
+    "line where water meets sky blurred by rain that will come. You sit on the bench and let the wind pick at the ends of your hair."
+    "Elias Jun joins you without knocking. He carries a thermos; steam curls from the lid into the sharp air. He hands you a paper cup — no ceremony, but an offering."
+    show elias_jun at left:
+        zoom 0.7
+
+    elias_jun "You made them quiet in there,' he says. 'You stirred the hornet's nest, Maya."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "I couldn't sit and watch the numbers keep going like they were nothing. People die in storms. Plans can save them."
+
+    elias_jun "And people live in houses full of ghosts. Are you sure saving them is worth the way we move them?"
+
+    maya_reyes "I'm not sure of anything, Elias. I'm sure only of what happens if we do nothing."
+    "Elias looks out at the horizon, jaw working."
+
+    elias_jun "You know Rosa is on the list. Next-door since we were kids. She'll need someone to help her pick which plate to take."
+    "Your throat tightens. You pictured this before — the neighbor with her garden of potted marigolds, the asphalt and metal of a new place without the smell of fish on the morning breeze. You had told"
+    "yourself you could protect the stories. The knowledge of Rosa's name on an official list makes the plan tactile and terrible."
+
+    maya_reyes "I'll sit with her. I'll pack for her if she'll let me. I'll make sure volunteers come in twos and threes, not in trucks."
+    "Elias's hands curl around the cup like a brace."
+
+    elias_jun "Do you know what this will do to people, Maya? To our town? This will split families. People will read being moved as punishment for poverty or age."
+
+    maya_reyes "I know. I know it will be read in many ways. I know I'll lose friends. I know I'll be called a traitor and a savior in the space of an afternoon. All I know is that waiting until it's too late will make it worse."
+    "Silence folds between you. The rooftop lights sway as a breath passes. You both listen to the rhythm of the town below: a dog barking, the faint chorus of someone sweeping a stoop, a distant argument"
+    "ending. The human noise of a place you're trying to preserve by changing where it's located."
+    "Elias exhales."
+
+    elias_jun "Promise me one thing."
+
+    maya_reyes "What?"
+
+    elias_jun "Promise that when it comes time, you won't hand Rosa over to some faceless system. Promise you'll fight for the way she carries her home into whatever comes next."
+    "You think of Rita Ortega's tears, of Dr. Ayla Voss's nod, of the thin archival envelopes you tucked between mangrove roots. You think of the legal forms that will ask for signatures and a photograph, of"
+    "the last time you held your mother's hand in a clinic waiting room and felt both in control and utterly powerless."
+
+    maya_reyes "I promise."
+    "He squeezes your hand, just once — a small seal that feels both hopeful and fragile."
+    "You stay out on the roof until the lights below go dim. You imagine packing seed banks into boxes, signing forms that cannot fully account for memory, drafting letters to planners whose offices smell of lemon"
+    "cleaner and new carpeting. You find yourself rehearsing phrases: dignity, phased relocation, cultural continuity. The language is careful and brittle."
+    "Internal: Responsibility sits in your chest like an anchor. Love feels frayed at the edges. You are making lists to hold the town's life together and finding that lists can only do so much."
+    "A distant siren wails, petty and far; it drops away into the night. The horizon is a line of possibility and threat. You have set in motion something you cannot unmake, and the knowledge sits like seaweed around your ankles."
+    "Page-turn thought: If you are right — if this plan spares lives but costs you friendships and the feeling of home — will the moral clarity of saving people be enough to cover the grief of what is left behind?"
+    # play music "music_placeholder"  # [Music: Cello descends into a single unresolved tone]
+    hide elias_jun
+    hide maya_reyes
+
+    scene bg ch10_453e40_6 at full_bg
+
+    scene bg ch10_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter11
+    return

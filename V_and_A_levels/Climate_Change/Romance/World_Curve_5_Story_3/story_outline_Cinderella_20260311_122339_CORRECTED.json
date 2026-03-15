@@ -1,0 +1,526 @@
+{
+  "title": "Tidebound Promises",
+  "summary": "You are Maya Calder, a coastal scientist returned to Aster's Reach after loss. The town faces a choice between a fast corporate seawall proposed by Serena Voss and slower, community-led living shorelines championed by Elias Rowe and Lina Park. The narrative follows a Cinderella emotional arc: hope through cooperation and clarity, a sharp fall from storms and political/ethical compromise, and a final rise toward resilience through contested truths and collective action. Romance and climate stakes are intertwined as choices determine stabilization, preservation, collapse, or national reckoning.",
+  "emotional_curve_type": "Cinderella",
+  "player_character": "Maya Calder",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Tidelines",
+      "branch_designation": "Common",
+      "narrative_focus": "I work late in the Tide Lab, reconciling Professor Haruto's dataset with field samples and the brass compass my father left me. I’m meticulous—counting barnacle bands, annotating tide lines in my waterproof Moleskine. Morning fog presses against the glass; behind me, condensation forms ghostly maps. I recall Tomas’s voice on the pier and the day the storm took him. Elias arrives—sandy blond hair damp, amber eyes bright, sketchbook under his arm—bringing a thermos and practical jokes that break my concentration. We speak quietly about a proposed corporate seawall; Serena Voss’s marine-blue suit and holo-tablet hang over every conversation like an approaching weather front. My heart is tuned to currents, not headlines, but I notice Elias watching me when I shield the silver strand at my temple with a frayed floral scarf. He sketches a cross-section of a living shoreline in watercolor—gentle, plausible—and suggests a community demo on the Greenline pier. I feel both the career-trained urge to engineer certainty and the quieter pull of staying—of repairing memory. The lab light hums; outside, gulls circle. I close my notebook and make a choice to show up at the meeting.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Calder",
+        "Professor Haruto",
+        "Elias Rowe",
+        "Tomas Reyes"
+      ],
+      "locations_used": [
+        "Tide Lab"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Harbor Meeting",
+      "branch_designation": "Common",
+      "narrative_focus": "I attend a sunrise meeting at Greenline Reclamation Hub. The terrace smells of wet mulch and sea-salt; sunlight filters through rows of salt-tolerant plantings. Lina Park arrives with her braided hair and a jacket full of patches, and Mayor Amara Sol stands at the podium with a roll of town plans. Elias and I walk the terraces—his hands stained with mud from the demonstration beds—while he offers gentle pragmatism and points out places to bolster living shorelines. The community hums with hope: neighbors tending rain barrels, children painting signs. Then Serena arrives, precise and cool, platinum-blonde bob tucked clean behind her ear, sapphire cufflinks reflecting the morning light. Her holo-tablet unfurls a fast-engineered seawall proposal that glows neon against the muted greens. Investors are already murmuring; she presents numbers that promise immediate stabilization for key infrastructure. My fingers brush the Moleskine tucked beneath my jacket; Professor Haruto’s notes about long-term sediment transport flutter through my mind. Elias squeezes my shoulder and jokes about my habit of solving problems in my head; it’s the kind of squeeze that is both question and invitation. The town leans in; I feel the weight of expectation.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Mayor Amara Sol",
+        "Serena Voss",
+        "Professor Haruto"
+      ],
+      "locations_used": [
+        "Greenline Reclamation Hub",
+        "Community Meadow (terrace)"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Public Hearing",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The Community Meadow rooftop is full: sun-faded hands, hand-painted signs, and a hush that feels like an incoming swell. I stand before the crowd with my tide notebook open—maps, sample vials clipped like talismans. Serena’s presence is a punctuation: razor-sharp, steel-gray eyes narrowing as she scrolls through her holo-tablet. She lays out investor-backed timelines and a sealed contract that would prioritize high-value infrastructure. Lina organizes the room into talking-points while Tomas sits near the back, cap low, face like weathered driftwood. Elias sketches quietly, amber eyes narrowing when he plans. Mayor Amara watches the calculus of votes and safety tighten in her expression. When the mic comes to me I lean into analysis—sediment graphs, long-term erosion models, Professor Haruto’s archival records. The room exhales when I show a projection of cultural loss alongside economic gains. Then Serena offers a table: immediate funds for town reinforcements if the town agrees to her plan. Onstage I feel every option like a tide: fast protection that might sever neighborhoods, slow community work that might cost lives tonight. This is the hinge.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "You must choose A, B, or C—each route begins a different path for the town and for your relationship with Elias and Serena.",
+        "options": [
+          {
+            "label": "Rally a community pilot with Elias and Lina—prove living shorelines can scale.",
+            "consequence": "Mobilize local volunteers, test a living-shoreline demonstration but invite high scrutiny.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Enter a controlled negotiation with Serena—seek funding while protecting safeguards.",
+            "consequence": "Open talks with corporate timelines and political compromise.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Release Professor Haruto’s suppressed dataset publicly—force transparency.",
+            "consequence": "Immediate public uproar; legal and ethical consequences, uncertain alliances.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Serena Voss",
+        "Lina Park",
+        "Elias Rowe",
+        "Mayor Amara Sol",
+        "Tomas Reyes",
+        "Professor Haruto"
+      ],
+      "locations_used": [
+        "Community Meadow (rooftop)"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Pilot Launch",
+      "branch_designation": "Route A",
+      "narrative_focus": "Elias and I stand on the Greenline boardwalk as volunteers step into newly planted marsh terraces. His hands are muddy; his wooden bracelet knocks against the compact waterproof camera at his hip. I explain root matrices, sediment traps, and tidal gradients to an expectant crowd, my voice steady despite the quiver in my chest. For a moment the pilot looks miraculous: water filtered, plankton showing, children pressing faces to a low boardwalk while Lina claps with soil on her knuckles. Mayor Amara beams into her civic pin. But that evening, a squall that arrived faster than forecasts predicted slams the old piers. Waves surge with an intensity that strips some of our plantings and drags a floating demonstration platform sideways. Gus from the harbor reports damage; Tomas checks tide-marks with hands that have measured loss. Under the wet sheen of the breakwater we find erosion at a scale our models didn’t predict—an old culvert sending a pulse of scouring water. My Moleskine reads like a litany of failed assumptions. Elias stands beside me, amber eyes narrowed not with design but with worry. The pilot that felt like hope now feels fragile; doubt washes through the crowd like cold surf.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Mayor Amara Sol",
+        "Tomas Reyes",
+        "Gus"
+      ],
+      "locations_used": [
+        "Greenline boardwalk",
+        "Greenline Reclamation Hub",
+        "Old Breakwater"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Fractures",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Damage reports come all morning. Volunteers are exhausted; some families want guarantees. Serena’s PR machine pounces, offering immediate reinforcement funds and technicians who can shore things up fast—her sapphire cufflinks gleam on a televised interview. Elias wants to double down on community mobilization; Lina organizes an emergency planting schedule and recruits local carpenters to rebuild improvised defenses. I sit on the wet pier with my brass compass heavy in my palm, remembering my father pointing out an old tide marker—how stubborn we were in trusting the shore. Seneca, a neighbor, says we must accept help to keep roofs intact. I feel the old pattern: bury grief in an endless to-do list. My choices now carry moral weight: expand the pilot and demand time, accept Serena’s targeted funding with strings attached, or go louder—leak all the data and force public accountability. Each option slices at something: trust, independence, safety. Elias watches me, a gentle expectant question in his amber eyes. His denim jacket is damp; the sketchbook’s edges are bent by salt. The town looks to me. My chest tightens like tide lines drawn too close together.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to respond to the fragility of the pilot and the corporate offer.",
+        "options": [
+          {
+            "label": "Mobilize the town to expand the pilot now—trust community labor.",
+            "consequence": "Immediate communal effort, slower funding, strengthened local bonds.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Negotiate a targeted funding partnership with Serena to repair damage—insist on oversight.",
+            "consequence": "Quick repairs, political compromise, long-term oversight battles.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Expose the full dataset publicly to force corporate accountability.",
+            "consequence": "Shockwaves in town politics and investor circles; legal risks.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Serena Voss",
+        "Tomas Reyes",
+        "Seneca"
+      ],
+      "locations_used": [
+        "Greenline boardwalk",
+        "Harbor",
+        "Old Breakwater"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Tide Turned",
+      "branch_designation": "Route A",
+      "narrative_focus": "The weeks that follow are a blur of work. Whether we expanded the pilot or negotiated quick repairs, Elias is there—wet sleeves rolled, voice soft when he needs to be serious. I watch him smooth the soil around a newly planted cordgrass, the sun catching his tousled sandy hair. The town responds: carpenters, school kids, and Tomas guiding volunteers to historical tide-marks. Serena’s teams arrive where we allowed them, and under Mayor Amara’s oversight we structure a small, jointly managed trust that funds targeted reinforcement and living-shoreline expansion. The compromise is messy—there are clauses I will argue about for months—but the immediate scouring is repaired and homes are spared. Lina pins a hand-painted sign to the boardwalk, rainwater glittering on the paint. Elias and I sit on the old pier at dusk; his amber eyes are softer than his sketches. We share thermos coffee and a silence that feels like a promise. I hand him my brass compass; he protests, and then laughs and puts it back. It is not perfection. It is work, hot and honest and possible. The town breathes.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Mayor Amara Sol",
+        "Serena Voss",
+        "Tomas Reyes"
+      ],
+      "locations_used": [
+        "Greenline Reclamation Hub",
+        "Old Pier",
+        "Community Meadow"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Negotiation at the Breakwater",
+      "branch_designation": "Route B",
+      "narrative_focus": "I meet Serena at the Old Breakwater, the concrete maw half-submerged, a place that looks like a jaw opening out to the sea. Her marine-blue blazer is an island of precision against the breakwater’s rust; the holo-tablet in her hand throws graphs into sharp neon relief. She speaks in engineered calm—seawall first, select relocations later. She frames the decision as triage: save the critical infrastructure, anchor investor faith, and then we can return for the rest. Elias attends on my side, but his optimism is restrained; his amber eyes show the same careful calculation he uses when sketching rebar placements. Tomas stands with his cap, palms stained dark with tide-marks. I bring Professor Haruto’s notes and data, but Serena has already run independent stress models, and her timeline is now baked into municipal leverage. The breakwater throws up salt spray across her cufflinks; in that moment, her steel-gray eyes soften—an old hurt reflected. Negotiation begins with polite terms but feels like a scalpel. I am aware of the camera crews; every handshake will be scrutinized in the town’s quiet kitchens. The meeting closes with an offer on the table and a deadline.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Calder",
+        "Serena Voss",
+        "Elias Rowe",
+        "Tomas Reyes",
+        "Professor Haruto"
+      ],
+      "locations_used": [
+        "Old Breakwater"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Calculated Compromise",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The town is split. The mayor weighs votes; Lina organizes a protest at dawn. Serena offers a quick-build seawall that promises immediate stabilization for main roads and the harbor—critical, she insists, to prevent the kind of catastrophe that wiped neighborhoods elsewhere. I find myself drafting conditional oversight language to protect historic districts and small homes. Elias urges caution; he wants living shorelines embedded as pilot attachments to any corporate project. I hold my Moleskine like a lifebuoy and humiliate myself by trying to be both scientist and diplomat at once. The pressure is political and personal: take the funds now and risk community erosion, or hold out and risk immediate loss. Into the storm of options I feel something break—old grief and the neat rationality I used as armor. I could make the settlement that saves roofs but compromises on values, or I could expose the suppressed data that would undermine Serena’s plan and force a national debate. Whichever path I choose will carve the town differently.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide the negotiation strategy under political pressure.",
+        "options": [
+          {
+            "label": "Accept a narrowly constrained seawall contract with strict oversight language.",
+            "consequence": "Immediate funds, controlled compromise",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Insist on a bundled agreement—seawall plus living-shoreline pilots.",
+            "consequence": "Slower rollout, more negotiation, increased friction",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Release the suppressed dataset publicly to force independent review.",
+            "consequence": "Public uproar, investor pullback, legal fallout",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Serena Voss",
+        "Lina Park",
+        "Elias Rowe",
+        "Mayor Amara Sol",
+        "Tomas Reyes"
+      ],
+      "locations_used": [
+        "Town Hall Rooftop",
+        "Community Meadow",
+        "Harbor"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Aftermath",
+      "branch_designation": "Route B",
+      "narrative_focus": "The deal goes through. The seawall rises quickly along the harbor—sleek matte panels bolted into existing foundations with logistic crews and corporate banners. Some neighborhoods are spared; others must accept relocation. Mayor Amara signs the contract under pressure; Lina organizes displacement assistance for families who choose to move. Elias and I stand beneath the crane glow at dusk: he gives me a small watercolor of a living-shoreline proposal as a private counterpoint to the seawall’s harsh geometry. We decide to apply for a fellowship that would let me scale community-first models nationally and siphon some funding to preserve what we can. It is a pragmatic choice—homes saved, town shape altered. I accept the fellowship offer in part to create leverage for the neighborhoods the seawall cannot hold. In the quiet after, Elias and I have a conversation that is equal parts honesty and distance: he’s rooted here; I am being asked to leave to fight for others. We agree—reluctantly—on a long-distance promise that feels both brave and brittle. The town keeps most of its shape; some edges become memories. My lab is intact, but something in me carries the loss.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Mayor Amara Sol"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Pier"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Midnight Release",
+      "branch_designation": "Route C",
+      "narrative_focus": "I cannot sleep. Professor Haruto’s suppressed dataset haunts my Moleskine—models showing systemic scouring triggered by the proposed seawall’s placement. At midnight I upload the files to public repositories and send copies to journalists. Elias finds me at the Tide Lab, hair mussed, amber eyes flicking with concern and a hint of betrayal; he didn’t expect secrecy. Serena’s PR machine is jolted awake; emails fly; investors ask questions aloud. In the glow of the lab, my reflection shows the silver strand at my temple and a face that is more tired than brave. The release exposes audiences to months of withheld analysis, but it also invites legal threats and accusations of breaching protocols. The town splits instantly: some laud me as a whistleblower; others accuse me of recklessly scaring away funding. Tomas is furious that he learns from a headline; Lina feels shaken by the sudden spotlight. The immediate rush of righteous clarity is replaced by an ache—have I unsettled the fragile trust the town needs to act? I watch the harbor light up with news vans and worry planes like migrating wings.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Calder",
+        "Professor Haruto",
+        "Elias Rowe",
+        "Serena Voss",
+        "Lina Park",
+        "Tomas Reyes"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Harbor"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Backlash",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The fallout is immediate. Serena sues for breach of contract; investor confidence wobbles; Mayor Amara convenes emergency councils. My inbox is a litany of accusations and gratitude. Elias stands with me at the lab window—his denim jacket wet with sea-spray—and says my choice changed everything, but his voice is threaded with fear about whether change will be constructive. Lina organizes solidarity meetings, while some neighbors hold signs outside the lab accusing me of disrupting livelihoods. Professor Haruto, stooped and steady, urges measured framing: “You forced a conversation, Maya. Now steer it.” I am exhausted by being both moral compass and target. A journalist asks pointed questions about motives. My compass feels heavier around my neck. I face a decision: hold the line on the leak and weather legal storms, retract and offer to enter controlled negotiation to protect the town, or accept Serena’s internal review offer in exchange for immunity and influence. Each path asks me to trade something irreducible for something pragmatic. I stare at my hands—sea-green eyes reflecting screens—and wonder which sacrifice is mine to make.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to weather the legal and political storm.",
+        "options": [
+          {
+            "label": "Stand by the release—defend it publicly, prepare for legal fight.",
+            "consequence": "National scrutiny, possible lawsuits, but moral clarity.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Retract and propose mediated negotiations to preserve local action.",
+            "consequence": "Damage control, potential for compromise, loss of some public pressure.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Accept Serena’s internal review offer to gain immediate influence.",
+            "consequence": "Short-term influence, risk of co-optation",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Professor Haruto",
+        "Serena Voss",
+        "Mayor Amara Sol"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Community Meadow"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Rough Reprieve",
+      "branch_designation": "Route C",
+      "narrative_focus": "The weeks after my decision are raw. If I stood by the leak, lawyers came and so did national attention—the town became a case study; I accepted a fellowship invitation to translate community-first models into broader policy, and I left with a promise to return, but not before some neighborhoods had to relocate. If I retracted, the town preserved immediate calm but I lost leverage; we cobbled a compromised plan and I stayed. If I accepted Serena’s internal review, I gained a seat at the table but watched her team reframe language. Whatever the path, the town is altered: some buildings are elevated, some houses are moved inland, and in my lab a shelf of artifacts—my father’s compass among them—was lost to a late storm. Elias and I are adrift by degrees: he repairs a boardwalk while I draft policy abstracts on a ferry to a conference. Our affection persists—honest gestures, whispered calls—but geography and obligation pull. The community survives in part; the soul of places shifts. I feel a kinship to the coastline: worn, rearranged, still breathing.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Lina Park",
+        "Professor Haruto",
+        "Mayor Amara Sol"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Harbor",
+        "Community Meadow"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Broadcast",
+      "branch_designation": "Additional Route D",
+      "narrative_focus": "Serena’s plan teeters after I—or a coalition I helped nudge—publicize the suppressed dataset through a coordinated broadcast. The city lights flare with newscrawls; investors waver. Serena is on stage with her holo-tablet, but outside her posture cracks: for a second I see something like regret in her steel-gray eyes when the camera catches a locket she fiddles with. The town is in tumult. Elias organizes community testimonies; Lina mobilizes a sea of hands to show the human face of displacement. I become a reluctant symbol for transparency and for the moral weight of long-term thinking. Serena is furious and cornered; she offers a raw, private conversation by the Old Breakwater and asks me to see her side— the pressure she carries to act before markets pull out. Tomas watches over everything with a quiet, weathered sadness. The broadcast catalyzes national investigations; the town’s fate becomes public policy fodder. I feel exhilaration and dread folded together—exposure can topple power but it can also leave the town exposed to short-term chaos. We must decide how to turn the turbulence into a lasting, ethical plan.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Maya Calder",
+        "Serena Voss",
+        "Elias Rowe",
+        "Lina Park",
+        "Tomas Reyes"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Old Breakwater"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "The Reckoning",
+      "branch_designation": "Additional Route D / Split",
+      "narrative_focus": "The weeks of scrutiny produce hearings, but also a unique opening: an independent coalition of scientists, residents, and municipal leaders can design a cooperative adaptive plan if we can agree. Serena is summoned—her career on the line—while Mayor Amara must balance the investigation with vote pressure. Elias stands with Lina and Tomas in public testimony; his voice is steady as he sketches adaptive geometries on a portable board. Serena’s steel gaze meets mine; for the first time she unbuttons her professional façade and admits the pragmatic fear that pushed her to choose scale over soul. I feel the strain of this moment: if we can draft an enforceable cooperative trust—tying investor funds to community oversight—we might create a hybrid solution that avoids the worst trade-offs. But the room is electric with distrust; old wounds open when someone suggests criminal culpability. The coalition demands a choice: pursue legal retribution that could bankrupt the firm and jeopardize short-term funding, or broker a binding cooperative model that forces corporate resources into a community-led structure. I taste the weight of a possible moral victory that still risks lives.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 13",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Choose the path to force accountability and lasting solutions.",
+        "options": [
+          {
+            "label": "Push for legal reckoning—hold Serena’s firm accountable.",
+            "consequence": "Potential investor retreat, legal battle, but chastened corporate behavior.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Broker a binding cooperative trust—require corporate funding under community governance.",
+            "consequence": "Immediate resources put under enforceable oversight, risk of political blowback.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Accept a hybrid path—limited legal action plus a cooperative pilot.",
+            "consequence": "Messy compromise, but public confidence can stabilize and a model can be seeded.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Serena Voss",
+        "Elias Rowe",
+        "Lina Park",
+        "Tomas Reyes",
+        "Mayor Amara Sol"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Old Breakwater",
+        "Community Meadow"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "New Shorelines",
+      "branch_designation": "Additional Route D",
+      "narrative_focus": "The resolution is hard-won and complicated. If we pushed for legal reckoning, Serena’s firm faces sanctions and a restructured governance order; investor panic is tempered by federal intervention to fund community resettlement and living shorelines. If we brokered a cooperative trust, corporate funds flow but are held in community-embedded oversight boards, and Serena—publicly chastened—redirects resources to a long-term living-shoreline program. If we chose hybrid action, a national model is written that combines accountability with resources. Regardless of path, the town becomes a blueprint: Greenline expands in earnest; the Old Breakwater’s shadow becomes an engineered wetland; the harbor keeps its character through local co-management. Elias and I stand at a new boardwalk lined with plantings and hand-painted signs; his amber eyes glint when he reaches for my hand. The brass compass—my father’s—sits on the picnic table between us, and I feel a strange, cautious peace. I will still work, still measure, still grieve, but now there is partnership: with the town, with Elias, and with the work itself. For once, I can ask for help and accept it. The sea still remembers, but so do we—and we build for that memory.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 14, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Elias Rowe",
+        "Serena Voss",
+        "Lina Park",
+        "Mayor Amara Sol",
+        "Tomas Reyes"
+      ],
+      "locations_used": [
+        "Greenline Reclamation Hub",
+        "New boardwalk",
+        "Old Breakwater"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Endings mapped to branches: Route A (Chapters 4–6) → Happy Ending (stabilized hybrid plan; Maya & Elias together). Route B (Chapters 7–9) → Bittersweet Ending (quick seawall, relocation, long-distance promise/fellowship). Route C (Chapters 10–12) → Bittersweet/Sad Variant (release leads to partial recovery, relocations, Maya’s work scaled nationally but personal loss). Additional Route D (Chapters 13–15) → True Ending (exposure catalyzes enforceable cooperative model; town becomes national model; Maya & Elias find partnership). Notes: Common route is Chapters 1–3 with a major fork at Chapter 3. Major decision hubs occur at Chapters 3, 5, 8, 11, and 14. All chapters are first-person POV of Maya Calder and reference visual traits and locations as described.",
+  "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+  "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 12:23:39"
+}

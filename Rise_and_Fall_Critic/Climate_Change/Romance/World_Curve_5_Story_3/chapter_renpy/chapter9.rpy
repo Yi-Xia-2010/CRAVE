@@ -1,0 +1,194 @@
+label chapter9:
+
+    # [Scene: Mangrove Reclamation Site | Morning]
+
+    scene bg ch8_6b08b4_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gull calls, the soft squelch of boots in mud, Jun's laughter as a sensor wobbles and rights itself.]
+    # play music "music_placeholder"  # [Music: Gentle, hopeful harp motif underscored by a low steady drum — a heartbeat tempo.]
+    "You arrived before most of the volunteers, the mud cool under your boots, the air sharp with salt and the sweet rot of seaweed. The saplings stand in neat rows like a promise repeated: small, stubborn,"
+    "alive. You can still taste the decision you made last night — the weight of it and the lift of possibility — and it sits in your chest like a small, persistent flame."
+    "Jun is already kneeling by the nearest sapling, sleeve rolled and hands dark with peat. They glance up and toss you a grin that is mostly mischief and mostly relief."
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "We rigged the new sensor array last night. If the tide's going to test us, we'll know when it's coming and how the roots respond."
+    "You crouch beside them, palms touching the wet earth. The mud smells ancient and immediate — oyster shells, algae, the metallic tang that comes when salt and soil collide. Your diver's watch ticks against your wrist; the barometer needle nudges toward steady."
+    show aria_navarro at right:
+        zoom 0.7
+
+    aria_navarro "Good. The more we measure, the more we can show that this is working. And the more we can ask for time."
+
+    jun_park "Promise me you won't let them rush us into concrete just because the first month has wind and waves."
+
+    aria_navarro "I won't. But I won't let us be reckless either. Technique matters as much as patience."
+    "Sora Lin approaches from the boardwalk, an armful of hand-painted stakes and a coil of rope slung over their shoulder. They move with a quick, light certainty — the kind of motion that had drawn people"
+    "to their rallies and their art, and it tugs at something in your chest you haven't let open in a long time."
+    show sora_lin at center:
+        zoom 0.7
+
+    sora_lin "I painted names on the stakes. For the families who'll live with these roots when they grow. It's ridiculous and sentimental and important."
+    "They hand you a stake; the paint is still tacky under your fingers. The name is familiar — a neighbor, an old teacher — and the moment is unexpectedly heavy and tender."
+    "You wanted to build a future that included these names. You wanted restoration to be more than a technical restoration, wanted it to be memory and livelihood and music. Sora Lin's small, fierce rituals stitch those needs to the work."
+
+    sora_lin "We tightened the planting pattern last night — denser in the wind corridors, looser where sediment settles. Mateo Hale would call it overdesign."
+
+    aria_navarro "Mateo Hale would also say our design lacks measurable failure modes."
+
+    "Sora Lin, eyes warming" "Good. Then we'll make both of them wrong — in the best way."
+    "The morning becomes a choreography: you plant, instruct, and record. You show a new volunteer how to angle a sapling so the root ball faces the incoming current; Jun teaches a small group how to clip"
+    "a sensor to the stake without crushing the root hairs. Sora Lin moves through clusters like a pulse, placing painted stakes, tying ribbons, telling a story to keep hands and hearts synced with the work."
+
+    menu:
+        "Correct the volunteer's technique gently":
+            "You place your hand over theirs, guiding the angle of the root ball. Your voice is soft and exact. The volunteer relaxes, relief and focus settling into their shoulders. Sora Lin watches you and gives a small, approving nod."
+        "Let the volunteer try, then step in if needed":
+            "You step back and let the volunteer make the first attempt. They fumble, laugh, and then surprise themselves with improvement. Sora Lin claps — loud, delighted — and the group breaks into supportive chatter."
+
+    # --- merge ---
+    "The scene continues."
+    "By noon the tide has drawn back to a wide, glittering channel; the community gathers for a short break on the raised boardwalk. Someone is frying empanadas in a battered pan, and Elena's voice threads through"
+    "the air, exhorting people to eat, hydrate, and not forget sunscreen. The smell of fried citrus and fish folds into the salt and sunlight; for a few minutes the town breathes as one contented organism."
+    "Sora Lin sits beside you on the boardwalk, knees almost touching. They hand you a cup of sweet tea, heat leeching gently into your hands."
+
+    sora_lin "You look like you keep a thousand lists in your head. Does any of them ever let you sleep?"
+
+    aria_navarro "Some nights. Other nights I rehearse numbers and speeches until they bleed into one another."
+
+    "Sora Lin, quiet" "Then rehearse this instead: you, me, and a shoreline that remembers how to hold people. We can be ridiculous together."
+    "You meet their gaze and the space between a joke and an invitation narrows. Their fingers find yours, not in a dramatic way but because they reach for practical warmth and steady presence. The contact is ordinary and electric."
+    "You: There is work to be done — grants to write, volunteers to coordinate, stubborn officials to persuade — and yet there is a different kind of work here, quieter and just as necessary: learning to be held while you hold."
+
+    sora_lin "When the council doubts us, we'll bring them here. When the funders ask for proof, we'll show them seedlings and sensors and the numbers that say 'this grows'."
+
+    aria_navarro "And when they ask for a timeline?"
+
+    sora_lin "We'll give them months and years, not promises. We'll show them the first little wins and ask them to bet on the next ones."
+    "You spend the next week building not just beds of mangroves, but a system. Jun's sensors talk to a makeshift mesh network; they ping data to your tablet and to Dr. Kavir Singh's server. The sensors"
+    "don't just log tide; they measure root anchorage and sediment accretion, giving you a language to explain how living systems stabilize shorelines over time."
+    hide jun_park
+    hide aria_navarro
+    hide sora_lin
+
+    scene bg ch8_6b08b4_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft electronic beeps as data packets arrive; a background chorus of hands working and distant gulls.]
+    "Dr. Kavir Singh arrives midweek, sleeves rolled and that temperate calm in his face that makes the sound of good science feel like a pledge."
+    show dr_kavir_singh at left:
+        zoom 0.7
+
+    dr_kavir_singh "The early numbers are subtle, but they're there. A half centimeter of accretion where our plant density is highest. The sensors show reduced erosion velocity at low tide. It's not dramatic, but it's the shape of a beginning."
+    show aria_navarro at right:
+        zoom 0.7
+
+    aria_navarro "We need to translate that shape into a narrative the council can understand. We need momentum."
+
+    dr_kavir_singh "Then combine the numbers with the names on Sora Lin's stakes. People respond to other people as much as data. You have both."
+
+    aria_navarro "We have Sora Lin doing the stubborn, human work. I can write the memo and the grant addendum. Jun will keep the network honest."
+    show jun_park at center:
+        zoom 0.7
+
+    jun_park "And I will keep the batteries charged. Don't forget the batteries."
+    "Mayor Isla Cortez appears the next day — not by accident but because you invited her, and because Sora Lin's public art had made it impossible to ignore the faces attached to the project. She walks"
+    "the muddy path in municipal boots, tablet tucked under her arm, official and open in a way that suggests both calculation and curiosity."
+    hide dr_kavir_singh
+    show mayor_isla_cortez at left:
+        zoom 0.7
+
+    mayor_isla_cortez "The visuals help. The names, the kids out here — it's powerful. But power doesn't buy roots. What does a month of these numbers look like in terms of public safety?"
+
+    "Aria Navarro (measured)" "This buys gradual reduction in erosion where deployed, it lowers the probability of breach in the near term by a measurable amount in those corridors, and — crucially — it builds social capital. People who plant these saplings will resist one-off concrete fixes if they believe restoration is working."
+
+    mayor_isla_cortez "And if the next storm is bigger than the last?"
+
+    aria_navarro "We continue to monitor and adapt. We deploy temporary smart barriers in the most exposed paths while the roots take hold. We make the case for a hybrid approach only where it saves lives in the short term and doesn't erase local stewardship in the long term."
+    "Mayor Isla Cortez studies you, the moment stretching."
+
+    mayor_isla_cortez "If you can show me numbers and community buy-in at the next council meeting, I'll advocate reallocating emergency funds to support the pilot. But I need timelines and contingencies — and I need this town to believe it's not just a symbolic gesture."
+
+    "Sora Lin (stepping forward, voice steady)" "We don't need symbols. We need support. We'll show you results. We will plant, monitor, and report. We will call the town here when there's something to celebrate."
+    "Mayor Isla Cortez allows herself a small, rare smile. 'Then make the celebration plausible, not theatrical. Convince me with a plan and I'll carry it.'"
+    "The mayor's conditional promise spreads through the volunteer network like light. It doesn't solve everything, but it alters the vector of possibility. People who had been skeptical ask Jun technical questions; Elena starts a ledger to"
+    "track contributions; the old fishermen offer to donate storm-washed netting for erosion control. The town is investing, not just in seedlings, but in confidence."
+
+    menu:
+        "Accept the mayor's handshake and outline the next steps aloud":
+            "You take her hand and speak quickly but clearly: timelines, sensor checkpoints, volunteer rosters. The mayor's nods are small, but present. Sora Lin squeezes your shoulder, proud and relieved."
+        "Ask the mayor to walk the site with you first before any commitments":
+            "You suggest a site walk to see the young shoots up close. The mayor agrees, intrigued; the walk becomes an intimate tour where the policy talk softens into tangible sights. Sora Lin guides the way, telling stories tied to each stake."
+
+    # --- merge ---
+    "The scene continues."
+    "Weeks fold into months. The work is repetitive and miraculous in equal measure: saplings that once slumped under windings of stormweed now hold, bent but persistent; sensor lines that once glitched become steady narrators of growth."
+    "Small cliffs of silt level out where new roots trap sediment. The graphs on your tablet climb in modest steps — half-centimeters become centimeters — and each tiny gain is a party."
+    "Sora Lin finds reasons to be at your side in those parties: to hand you a plate, to argue about the best coffee on the quay, to sketch new protest posters that look suspiciously like celebration"
+    "flyers. There is a tenderness in the way they map the town's future across your shoulder, no grand declarations necessary, just everyday closeness and a shared stubbornness to keep going when the work looks small."
+    hide aria_navarro
+    show sora_lin at right:
+        zoom 0.7
+
+    sora_lin "There's a kid here who claims he planted his stake with a pirate's maw. He thinks mangroves are for treasure. We should encourage that mythology."
+
+    "Aria Navarro (laughing)" "As long as he waters it like a real treasure, I'm fine with pirates."
+
+    sora_lin "You're a scientist who argues for folklore. That's not a sentence I expected to admire you for."
+    hide jun_park
+    show aria_navarro at center:
+        zoom 0.7
+
+    aria_navarro "Admit it — you're starting to like measurable myths."
+
+    sora_lin "Only when they work."
+    "Dr. Kavir Singh brings the first consolidated report to the rooftop greenhouse one evening — a shawl of warm lights and potted basil swaying in the humidity. The greenhouse is small and human-scaled: strings of lights, soil-scented panes, a few chairs circled like a living room borrowed from the street."
+    # [Scene: Rooftop Greenhouse & Community Rooftop | Sunset]
+    hide mayor_isla_cortez
+    hide sora_lin
+    hide aria_navarro
+
+    scene bg ch8_6b08b4_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low conversation, the rustle of leaves, the far mechanical thrum of the stormwall construction site beyond town.]
+    # play music "music_placeholder"  # [Music: A soft swell of strings, hopeful and patient.]
+    show dr_kavir_singh at left:
+        zoom 0.7
+
+    dr_kavir_singh "The data shows a consistent trend: stabilization where density and sediment availability meet. Not everywhere, not yet, but enough to propose a staged expansion. If we pair this with educational stipends and local stewardship payments, we can maintain momentum without external, top-down erase-and-build projects."
+    show mayor_isla_cortez at right:
+        zoom 0.7
+
+    mayor_isla_cortez "Stewardship payments... politically, that's easier to justify than a long-term expenditure with no visible payoff. If you can show me a budget and a maintenance plan, I think council will approve a pilot expansion."
+
+    "Aria Navarro (quietly, to Dr. Kavir Singh)" "How confident are you?"
+
+    dr_kavir_singh "Confident enough to stand behind the numbers. It's slow work, Aria, but it's principled. It buys more than shore — it buys governance that belongs to the people."
+    "You run your thumb along one of Sora Lin's painted stakes, thinking of the months behind you: the nights of planning, Sora Lin's quick, impromptu dances to lift the crew's spirits, Jun sleeping under tarp with"
+    "a pile of charged batteries, Elena bringing food like a ritual of care. The town has not surrendered to fear; it has learned a different rhythm of response."
+    "This is what hope looks like in pieces: tedious, stubborn, unglamorous. It is the slow accumulation of proof and the willingness to keep faith in the small returns. Your chest warms with a satisfaction that is"
+    "both professional and personal. Sora Lin's fingers find yours again across the table, grounding and familiar."
+    show sora_lin at center:
+        zoom 0.7
+
+    sora_lin "When this becomes policy, will you still want to keep doing the hands-on stuff?"
+    hide dr_kavir_singh
+    show aria_navarro at left:
+        zoom 0.7
+
+    aria_navarro "Yes. If I'm going to ask people to trust me with their names on stakes, I should be out here getting mud under my nails."
+
+    sora_lin "Good answer. Also, let's make sure we have a victory party. Tiny cakes, lots of salt, and a bad DJ."
+    "You both laugh — the kind of laugh that means, for a few heartbeats, nothing else is urgent."
+    "The rooftop lights dim as a new plan is drafted on a scrap of paper: a staged expansion map, a maintenance rota, a simple budget. The lines are rough but determined. The town's contour shifts a fraction toward safety."
+    # play music "music_placeholder"  # [Music: Swell rises into brighter chords, then settles into a steady note of possibility.]
+    "There is still so much to prove. There will be storms you cannot predict, politics that will bend like wind, and nights when the numbers do not climb as you hope. But for the first time"
+    "since you returned, your burdens feel distributed: carried by hand and by ledger, by public will and by tiny roots that refuse to be washed away."
+    "You look at the rooftop skyline, the painted stakes blinking in your memory like a constellation, and feel that familiar current — not of sea level, but of people gathering toward a future. The decision ahead"
+    "is not whether to keep trying; it is how to ask the town to trust that patient technique can edge back an eroding shore. You have momentum. You have data. You have a person who holds"
+    "your hand."
+    "You breathe out and let the possibility of 'we' sit plain and warm in your chest — enough to make you sleep that night."
+    hide mayor_isla_cortez
+    hide sora_lin
+    hide aria_navarro
+
+    scene bg ch8_6b08b4_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter10
+    return

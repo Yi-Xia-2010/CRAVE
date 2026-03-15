@@ -1,0 +1,122 @@
+### SCRIPT
+# Route: Route D
+# Context: c4ca42
+
+[Scene: Promenade & Dunes | Late Morning]
+[Visual: Low, wide shot along the promenade. Wind-bent dune grass, tide gauge arms clacking. The sun is pale through a thin veil of cloud; sand glints like bleached bone.]
+[Sound: Tide gauge clack; distant gulls; the soft slap of boardwalk planks underfoot.]
+[Music: Warm, buoyant strings — a small swell that suggests possibility.]
+
+You come off the boardwalk carrying the scent of the marsh: wet peat, a green, almost citrus breath of cordgrass, and the stubborn salt of the bay. Your field journal is still in your hand, a little smudge of mud on the cover from the morning's trenches. From Chapter One's labors the gum of it still sticks to your palm — a promise you've knotted to your wrist.
+
+Rosa is already waiting where the promenade widens near the tide gauges. She looks small against the sky, clipboard tucked to her chest, braid streaked with silver catching light like a familiar marker. Her jacket is wind-worn. She looks toward you with a smile that does not erase the worry in her eyes.
+
+Rosa: "You're on time, which is a mercy. Mayor Durant's truck is two cove over. He says AquaWorks asked to see the promenade first—get a feel for the data points. He wants the public to see everything, but—" (she taps the clipboard) "—you know how quickly curtains come down when money talks."
+
+Maya Reyes: "They'll see the marsh eventually. I want them to see the people first."
+
+You fold your hands around the journal, feeling the pressed blade of grass like a quiet talisman.
+
+Maya Reyes: "What are you most worried about, Rosa?"
+
+Rosa [low, practical]: "Pressure. The council's been getting calls. Jobs look good on a ballot sheet. The real worry is how fast they expect a plan. Dahlia's team moves fast; they have renderings that will look nearly inevitable on a screen."
+
+You look out over the promenade. The tide gauges tick like a metronome for the town's decisions, each clack reminding you of the hours you measure in seed plugs and trench shadows. The air tastes faintly metallic — a rain that might come later — but for now it is sun-bleached sand and salt. Hope hums under that taste, not yet loud.
+
+[INTERACTION]
+> Choice A: "Run your fingers along the tide gauge, steadying yourself"
+> Choice B: "Re-read your opening note in the journal"
+> Choice C: "Tuck the journal away and smile at Rosa"
+
+[Outcome A: "Your fingertips pick up the cool metal, the tiny vibration of mechanics. Grounding. You breathe, and the list of questions in your head settles into three you can actually ask."]
+[Outcome B: "You flip the page: 'Marsh connectivity — ask about channels and eelgrass corridors.' Seeing the words steadies the argument into a shape that can move bodies and votes."]
+[Outcome C: "You slide the journal into your bag. The gesture feels like shifting weight into your shoulder; confidence becomes posture and your questions sharpen as you approach the hall."]
+
+[MERGE: Rosa follows your small motion with a relieved nod. You both watch the far end of the promenade, where Mayor Lyle Durant's truck pauses and a man in a pale teal suit steps out under a compact umbrella. He is precise in the way he stands — posture like a blade — and immaculate even as a light drizzle brings the salty air down into a shimmer.]
+
+[Scene: Municipal Hall | Noon]
+[Visual: Municipal Hall — a low municipal building with a community flag, its lobby smelling faintly of lemon cleaner and wet wool. Inside, the rain is a fine silver wash on the windows; a projector screen waits folded like a promise.]
+[Sound: A low, persistent hum from the building's HVAC; the chair legs scrape as people shift positions.]
+[Music: A steady cello line undergirding conversation — intimate, attentive.]
+
+Mayor Lyle Durant approaches you first, his umbrella dripping onto the mat. He looks older than you sometimes remember, his face weathered in a new way — when hope and responsibility crowd. He gives you a measured smile.
+
+Mayor Lyle Durant: "Maya. Good of you to come. We owe you for the marsh work — the council knows it matters. AquaWorks asked to present in person. They promise jobs. They promise safety."
+
+You keep your voice even.
+
+Maya Reyes: "Safety is what people need, Lyle. But resilience isn't a single bolt or wall. It’s habitat networks, livelihoods, the slow work. We need the town's voice in these plans, and— we need to know how your model looks when you account for tidal connectivity."
+
+Rosa [soft, intense]: "And livelihoods. If The Arc reshapes channels, our fishers who have fed families for decades will need a plan that doesn't erase their floors."
+
+The lobby door opens and she steps through — Dahlia Kestrel. Even the drizzle seems to slide off her jacket in a practiced way. The pale teal suit is immaculate; the platinum bob frames an impassive, sharply attentive face. She carries a slim tablet like a ceremonial object.
+
+[Visual: Close-up on Dahlia Kestrel as she offers the tablet; the screen reflects her calm, corporate illumination.]
+[Sound: A quiet digital chime as the tablet wakes.]
+
+Dahlia Kestrel [measured, graceful]: "Mayor Durant, council members, Ms. Reyes. Thank you for meeting us. AquaWorks calls our proposal The Arc — a system of modular barriers, pumps, and adaptive control. It is engineered for measurable outcomes: reduced inundation risk, economic continuity, and immediate job creation for local contractors." (She gestures; the tablet shows rendered arcs of steel and segmented flood gates sitting beyond the high-tide line.)
+
+You take the tablet. The renderings are seductive: clean lines, glossy modules that seem to promise certainty. But your journal — small, ink-dark, heavy with real measurements — sits in your memory like a counterweight.
+
+You breathe in; the marsh's smell comes back as a memory.
+
+Maya Reyes: "Modular barriers can be useful. My question is connectivity. Where are the channels left open for marsh migration? How do pumps change sediment flows? You have a model for lives saved, but can you show how eelgrass and cordgrass corridors persist?"
+
+Dahlia Kestrel [tilts her head; cool, practiced]: "Our models include hydrodynamic simulations. We anticipate reduced flood frequency to residential zones by forty-two percent in high-probability storm events." (She taps a figure; a graph blooms.) "That translates to lives saved and infrastructure preserved. We can overlay ecological layers, but our priority is measurable reduction in acute risk."
+
+Rosa [pressing]: "Measured reduction in risk doesn't automatically translate to food on a family's table. If the fishers lose channels they rely on, that's not just 'infrastructure.' That's livelihoods."
+
+Dahlia Kestrel [even]: "Those are valid concerns. We partner with local contractors during construction and operate training programs. The Arc is modular by design. It can be adapted as ecological data comes in." (Her eyes glance briefly at you, ice-gray, appraising.) "We aim for scalable safety. The data we present is meant to be shared openly."
+
+Mayor Lyle Durant's expression softens for a second — the arithmetic of jobs in his ledger, the faces of council members in public comment. He looks to you, then to Dahlia Kestrel, as if balancing the town on a scale that wants both weights.
+
+Mayor Lyle Durant: "Ms. Reyes, Ms. Kestrel — both of you make important points. If there's a way to protect the town and keep our people working, we should explore it. We should set a forum. Let the town weigh in with facts and feeling."
+
+A silent victory — the word 'forum' lands like a rung you can climb.
+
+Maya Reyes: "We'll need clear environmental contingencies. If channels are compromised, there must be restoration commitments. If pumps are installed, sediment budgets must be monitored. The community needs a seat in design, not just in construction."
+
+Dahlia Kestrel [considering, then conceding a thin smile]: "A town-design working group is possible. Our engineers can run collaborative workshops. Time is a factor. The modeling suggests we need to act within the next season to prevent higher losses."
+
+Rosa [relieved]: "Then the forum should be framed so people understand the trade-offs and the safeguards. No one gets boxed out of asking hard questions."
+
+Elias Kwan arrives then — late, rope still looped and tied around his boot like an afterthought. His eyes are ocean-blue, narrowed at the edges; a salt-streaked sweater clings to him. He stands at the room's entrance, the doorway framing him like a statement.
+
+Elias Kwan [steady, dry humor]: "You brought corporate, Maya." (He nods to Dahlia Kestrel.) "They all look like they came in on a brochure. Who's in it for the fishers when the brochure's done?"
+
+Dahlia Kestrel [firm, unblinking]: "We're in it to reduce harm and create local employment." (She inclines her head, amiable.) "Mr. Kwan, we've been in talks with the mayor about local contracting. There's training for operations and oversight."
+
+Elias Kwan [low, insistent]: "Training doesn't replace years on the water. It doesn't replace knowledge of currents at dusk or the smell of where fish run. You can't model that out as a statistic."
+
+You feel, in the small charged space between them, something that has always pulled you: two kinds of care for this place. Dahlia Kestrel's care is system-wide, clinical-flawless; Elias Kwan's care is inherited and tactile. You live between those logics. Rosewater hope and brine-stained hands.
+
+Maya Reyes: "We don't want a fight about who cares more. We need a design that keeps the marsh's threads intact. If AquaWorks can show us models that include eelgrass corridors and a budget for marsh restoration, and if the town has oversight, we can move forward together."
+
+Dahlia Kestrel [considering, then conceding a thin smile]: "It's a reasonable step. We'll prepare layered models for the forum, including ecological overlays. We'll show outcomes and conditional plans."
+
+Rosa [relieved]: "Then the forum should be framed so people understand the trade-offs and the safeguards. No one gets boxed out of asking hard questions."
+
+There is a pause long enough for the tide gauge outside to click. The rain has stopped. The warmth from the cello-like music threads through the room; something like practical hope gathers weight.
+
+Mayor Lyle Durant: "We'll hold the public forum in four days. Everyone will be invited. I'd like Ms. Reyes to present the marsh conditions and concerns. Ms. Kestrel, you'll present The Arc with your overlays. We'll have a question-and-answer session. Let it be open and transparent."
+
+You close your field journal with both hands. The press of it, the tiny fossil of marsh grass between pages, feels like a hinge. You have rehearsed questions in mud-smeared nights; they'll finally have to be said in public.
+
+Maya Reyes [quiet]: "Protect the marsh. Protect the people."
+
+[Visual: A slow pull back as people begin to file out; the late sun slices through parting clouds and gilds the promenade in a pale gold.]
+[Music: The strings lift into a hopeful, ascending phrase — not triumphant, but assured.]
+
+You step back into the light and taste that sharp, clean mix of salt and decision. The town will gather. Voices will be louder now; facts will be sharper. For now, there is movement toward something communal — a room where trade-offs will be weighed and where, for the first time since the storm years, the marsh might have a seat at the table with the machines.
+
+You tuck the journal into your bag and feel the familiar pull: work that is stubborn and slow and necessary. It is a work worth doing, and for the moment the possibility of a shared design — one that stitches people and place together — feels real.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

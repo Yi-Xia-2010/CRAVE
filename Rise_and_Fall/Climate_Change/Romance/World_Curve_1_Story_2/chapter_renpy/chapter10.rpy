@@ -1,0 +1,151 @@
+label chapter10:
+
+    # [Scene: Causeway | Late Afternoon]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, rhythmic percussion with a hopeful synth pad]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, low hum of generators, murmured voices]
+    "You arrive on the Causeway with Arin Voss at your side, the two of you a deliberate, mismatched pair: his camera slate, your notebook pressed against your chest. The air tastes of salt and frying oil,"
+    "the pavement sticky with the day's steam. People cluster around stalls and makeshift stages — some nervous, some electric with possibility."
+    "Arin Voss's camera clicks as he walks, documenting everything with the casual hunger of someone who believes images can be a rallying cry. He moves like he already knows where the light will fall; you watch his hands for a second, feeling a warmth that isn't just from the sun."
+    show arin_voss at left:
+        zoom 0.7
+
+    arin_voss "We stage the projections where the Aegis lights cast those long shadows. People look there. We'll throw their plans back at them — not just say no, but show who loses when decisions are made behind glass."
+    "You nod, fingers finding the worn strap of your notebook. The plan feels right: for once, your data and his storytelling can share a stage. You imagine Etta's voice overlaying your graphs, the neighborhood's faces mapped"
+    "next to tide lines. The possibility presses against your ribs like a tide pulling at a jetty — steady, unstoppable if enough hands lean in."
+    show mira_solace at right:
+        zoom 0.7
+
+    mira_solace "We need the narrative to be about people first. The maps are necessary, but we can't make the visuals only about infrastructure. If we make it human — small places, names, routines — it's harder to gloss over."
+    "Arin Voss pauses, lowering the camera. He looks at you with an expression that's half-impish and wholly reverent."
+
+    arin_voss "You always do this — ground the idealism. I do the flash; you build the anchor. We'll make it sticky."
+    "You both laugh, and the sound draws a few curious looks in your direction. It feels like the first small proof that your partnership can translate into action."
+    hide arin_voss
+    hide mira_solace
+
+    scene bg ch10_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft beep — a new alert from Samir: "Legal team ready for crowd-sourced testimony (ETA: 90m)"]
+    "Samir's message gives you the concrete rope you asked for — a lawyer that can take statements, notarize stories, file objections. Practical support that folds into the hopeful noise. You tuck the device away; the pulse of the Causeway rises around you."
+    # [Scene: Night Market on the Causeway | Early Evening]
+
+    scene bg ch10_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Acoustic guitar with light hand percussion]
+    # play sound "sfx_placeholder"  # [Sound: Sizzle of street food, lively chatter, a distant speaker tuning]
+    "You and Arin Voss split into the crowd like two shapes the market is making space for. He moves among the vendors, capturing hands kneading dough, a child's salt-streaked hair, the way an elder's laugh crinkles"
+    "the corners of her eyes. You set up a small table with prints: tide ranges rendered beside portraits, a timeline of past relocations next to notes on eviction clauses."
+    "A vendor — a tall woman with a patchwork apron who knows your face from earlier assemblies — arranges a stack of cups with deliberate calm. Her stall smells of cumin and citrus; the lantern light paints the steam in gold."
+
+    "Vendor" "Mira Solace, these are the charts? They're pretty. People will look."
+    show mira_solace at left:
+        zoom 0.7
+
+    mira_solace "If they look, they might ask. If they ask, they might stay."
+    "She studies the prints, the earnestness in your folded shoulders. Around you, people linger. A teenage kid, hands ink-smudged from pasting posters, leans in to read a caption. A cluster of fishmongers debate aloud over the wording of a flyer."
+    "Arin Voss returns, breathless, offering a slate of images. He drops a photo on the table — an old rowhouse half-submerged in a reflective puddle, a child's window box still brimming with plastic flotsam."
+    show arin_voss at right:
+        zoom 0.7
+
+    arin_voss "This one. We pair it with the oral testimony—someone who remembers what was there before, who can say what they'll lose. The juxtaposition will hit harder than any press release."
+    "You study the photo. It is honest and aching, but also somehow full of a stubborn insistence on presence. Your internal checklist slides through: consent, context, chain of custody. You want the images to speak truthfully without stripping the people in them of agency."
+
+    menu:
+        "Put out a call for testimonies at the vendor stalls":
+            "You write a quick chalkboard sign with time and location, your handwriting hurried but legible. People circle the table, some whispering names; a woman with a silver braid promises to speak at dusk."
+        "Focus on creating visual installations and keep filming quietly":
+            "You and Arin Voss set up a low projection behind the stalls; the images cascade across tarps and faces. The crowd watches differently—some find their reflection in the photos, others simply point and move on."
+
+    # --- merge ---
+    "The vendor nods at whichever energy you choose. Whether you draw voices into a formal record or let the images wash over the market, something shifts — more people linger than had been scheduled to."
+    "A young man steps forward from the milling crowd, voice blunt and bright."
+
+    "Young Man" "If we're doing this, can we do it at the pier? My aunt's shop got eaten last year. People forget the names of places when maps change. We need names."
+    "You feel the knot behind your sternum loosen. Names make the technical readable; they make loss legible. Arin Voss's camera tilts toward the man with an approving grunt."
+
+    arin_voss "Bring a list. We make a montage of names and places. We'll call it — 'Remembering the Harbor.'"
+
+    mira_solace "And we timestamp. If we're collecting testimonies, we log them with Samir's team. Protect the people who lend us their stories."
+    "The young man smiles like relief is a new currency. Around you, more hands go to work — someone borrows a spare lantern to mark the testimony table, another hands you a sheaf of photocopies. The market hums; the Causeway bends toward being community-made rather than corporation-announced."
+    # [Scene: Rooftop Common Garden | Dusk]
+    hide mira_solace
+    hide arin_voss
+
+    scene bg ch10_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Layered cello and soft choral pads, uplifting]
+    # play sound "sfx_placeholder"  # [Sound: Insects, distant splash of water; the murmur of a gathered crowd]
+    "You climb to the rooftop with Arin Voss and a fold of people: gardeners, dockworkers, teenagers from the night market, a teacher who brought a stack of brass instruments for noise-making. The rooftop smells of wet"
+    "soil, citrus, and the faint metallic tang of city infrastructure. From here you can see the Aegis floodwall site, a sharp, clinical cut into the softer harbor skyline."
+    "Arin Voss sets up a makeshift stage — crates and a plywood sheet — and runs a cable. You check your notes, and then the list of speakers unfolds: Etta's name, a fisherwoman's name, the young man's aunt, your own — you are both scholar and neighbor now."
+    "Etta arrives in a slow, deliberate procession, her braided silver crown catching the rooftop light. She nods at you, a small, fierce acknowledgment. Because Etta trusts you, others grow braver."
+    show etta_maren at left:
+        zoom 0.7
+
+    etta_maren "Tell them not to make this a spectacle of grief. Let it be a map of things to keep. Show them— not only what was lost, but what can be rebuilt differently."
+    show mira_solace at right:
+        zoom 0.7
+
+    mira_solace "We will. We'll hold the stories as tools — to argue, legally and morally, for the people who live here."
+    "A few blocks over, near the Aegis site, a projector lights the temporary fence with a corporate schematic. It shimmers sterile and impersonal. Your chest tightens; Liora Kade's emblem — the wave brooch you remember from"
+    "briefings — appears in a glossy pamphlet carried by someone hovering near the gates. Her reach is everywhere."
+    "A staffer from Aegis is on a raised platform, speaking to a small cluster of suited journalists. The words are polished — safety, efficiency, economic rescue. Nearby, a municipal minivan idles with its hazard lights like watchful eyes. You can feel policy and capital aligning like an oncoming tide."
+    "Arin Voss takes your hand briefly, a pressure that says he sees the swell and is ready to jump. You respond in kind, an old reflex that steadies you."
+    show arin_voss at center:
+        zoom 0.7
+
+    arin_voss "We alternate — testimonials, then data bursts. Faces, then maps. Keep it tight, keep it human. And at the end... we invite the Aegis press to stay for the neighborhood walk."
+
+    mira_solace "Invite, yes. But we also need contingencies. Samir's legal counsel will be on-call. If anything turns coercive, we de-escalate, record, and use it."
+    "Arin Voss frowns, the glint of reckless possibility in his eyes paling into serious calculation."
+
+    arin_voss "I don't want to just document. I want to interrupt their narrative — make them look at the people they're planning to move. If they can't meet us here, we bring the stories where they're signing the papers."
+    "You hold his gaze. His hunger for confrontation and your methodical assurance form a dangerous, thrilling knot. The rooftop's community hum builds into a shared heartbeat — drum kits, brass warming up, voices rehearsing names."
+
+    menu:
+        "Keep the rooftop peaceful and media-focused":
+            "You raise both hands to quiet the crowd for a moment and outline the evening plan: testimonies, projection, a peaceful neighborhood walk. People nod; the mood steadies into something ceremonious and strong."
+        "Plan a visible, symbolic interruption at the Aegis press event":
+            "Arin Voss's eyes light. A few volunteers exchange glances and begin sorting banners and noise-makers. The energy spikes; excitement threads through the rooftop like electricity."
+
+    # --- merge ---
+    "The rooftop weighs the two currents. Both feel right in different ways: one secures the moral high ground and gathers testimony; the other makes an unignorable statement. Either path will make the city listen, but in different languages."
+    "Footsteps thud as someone makes their way up the service ladder — a municipal liaison in a reflective vest, face open but cautious. She carries a tablet with the city's seal. Her presence is a reminder"
+    "that the mayor's office has been watching, trying to balance Liora Kade's public projects and the swell of neighborhood action."
+
+    "Liaison" "We see you up here. The city asks only that protests remain peaceful. There's been talk of petitions and a scheduled hearing. If you coordinate, we can ensure your testimony is heard in a formal setting."
+    "You study her face for a long beat. She speaks like someone who believes in municipal machinery, who thinks due process can be a conduit for justice. You want to trust the process and you know it can be slow."
+
+    mira_solace "We will be heard. But hearings don't move in time with storms. People can't wait on the timeline of permits when water is eroding their lives."
+
+    "Liaison" "I understand. We can expedite some testimony into the record. I can't promise everything, but I can promise we will bridge."
+    "Arin Voss's jaw tightens, not from anger but from the pressure of possibility. The municipal offer is the rope of compromise, and Liora Kade's pavilion down the Causeway is the cliff where decisions get made."
+    "Liora Kade herself does not storm the rooftop. Instead, an assistant walks up with a small, glossy pamphlet signed with her name and the brooch crest stamped into the corner. It reads like a corporate olive"
+    "branch — concessions couched in conditions. You hold it, feeling the smooth, designed weight of a carefully phrased power."
+
+    arin_voss "She's watching. That means she's calculating."
+    "You fold the pamphlet without opening it. Your notebook is heavier now, full of names and a plan that has already multiplied beyond you. In the crowd, a child begins to chant a name from the list. Others join. It is imperfect, messy, and utterly alive."
+    "You think of Noah's paint-stained hands, of the rows of old houses you learned to measure as a child. You think of the map of your life stitched into this harbor and how much of it still asserts itself."
+    "Your pulse quickens in a way that feels like permission: you can do this. The rooftop is breathing with you; Arin Voss's hand is steady. Around you, the city tilts a little farther toward collective action."
+    hide etta_maren
+    hide mira_solace
+    hide arin_voss
+
+    scene bg ch10_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendo into an airy, resolved chord]
+    "You are at the edge of a decision that will shape the next phase of the campaign: to elevate the protest with a direct, symbolic interruption at the Aegis press event — a disruptive, visible statement"
+    "— or to focus the energy on building undeniable evidence and human testimony that will enter official records and public consciousness. Both paths require risk; both promise gain."
+    "You feel the city holding its breath with you."
+    # [Page-Turn Moment]
+    "You close your notebook for a moment and press your palm to the warm rooftop railing. The plant leaves brush your fingers like a small, living expectation. Somewhere below, the Aegis press setup gleams; above, the"
+    "rooftop hums with voices moving into their parts. The choice is not only strategy — it is a declaration of how you want your harbor to be remembered, and what kind of future you want to"
+    "build with the people beside you."
+
+    scene bg ch10_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Sustained hopeful chord that hints at motion]
+    "You look at Arin Voss. He looks at you. The crowd grows louder in anticipation, a tide of names swelling into the evening. Your throat tightens with a kind of joyful dread — the rising feeling of being part of something larger than fear."
+
+    scene bg ch10_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter11
+    return

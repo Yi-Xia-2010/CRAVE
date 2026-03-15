@@ -1,0 +1,162 @@
+### SCRIPT
+# Route: Additional Route / Ending: True
+# Context: 453e40
+
+[Scene: Pilot Site (Instrumentation on Beach) | Morning — overcast, wind sharpening]
+[Background:"ch10_453e40_1"]
+[Sound: Waves talking soft and close; the bleat of a gull; the beep of a logger syncing]
+[Music: Quickening strings with a bright undertow — urgency braided with possibility]
+
+Alea Maren breath the morning in like a promise. The salt bites at the back of your throat; wind threads through the hem of your jacket. The pilot is real under your hands — a small army of instruments, a few borrowed grad students, and the steady signature of Dr. Lian Cho arranging clipboards with surgical care. You can feel the acceptance of the time-limited engineering pilot like a hinge closing: it gives you access, accountability, and a clock.
+
+Dr. Lian Cho: "Sensors check. Power is stable. GPS lock acquired. Alea, the loggers are set to sample at five-second intervals for the first tidal cycle, then we'll bin to minute-averages for analysis." (she taps a tablet with the practiced calm of someone who has spent a lifetime coaxing order from data)
+
+Alea Maren: "Good. Make sure we flag the battery cycles in the metadata — last thing we need is a false drift." (your voice is measured; stating parameters steadies your chest)
+
+Dr. Lian Cho: "And I'm co-signing the monitoring protocol. Public notes approved. We can push the first packet to the funder's dashboard after QA this afternoon." (a small, factual lift at the sides of her mouth — not triumph, but a companionable certainty)
+
+Tomas: "When do the volunteers start the shoreline watches? Rin said they'd be here late, but they were itching to set schedules." (he rubs mud from his gloves with energy; he's younger, impatient in the way that makes the world feel faster)
+
+Alea Maren: "Two-hour blocks, twice a day — dawn and dusk. We pair each volunteer with a sensor id so observations can be compared directly. And we'll train them to note the same covariates: wind, fetch, any litter, and human activity." (you hand Tomas a printed checklist; it feels like handing out a map)
+
+Dr. Lian Cho: "Also — Alea. When you describe the instrumentation, don't hide the uncertainties. The board will want clean answers, but the community deserves the full picture." (her eyes hold yours; she knows your tendency to hunger for certainty)
+
+Alea Maren feel a quick, private laugh in your throat — both at the tiny arrogance of wanting perfect models and at yourself for buying into the armor of numbers. The pilot is discipline, but it is also permission: permission to be rigorous, permission to make the argument in provable sentences.
+
+[INTERACTION]
+> Choice A: "Explain the sensors with a metaphor — 'think of them as seafloor stethoscopes'"
+> Choice B: "Stick to the numbers — stress sampling rates and QA steps"
+[Outcome A: "You lean forward, hands shaping the air into a chest; the volunteers chuckle and tilt their heads like dogs hearing an old song, and their faces relax into curiosity."]
+[Outcome B: "You outline the sampling schema, and several volunteers nod with professional gravity; a few eyes glaze for a beat, then sharpen when you mention how their notes will be compared to instrument data."]
+[MERGE: The scene continues.]
+
+[Scene: Lab (Wave-Tank Room) | Midday — fluorescent light humming]
+[Background:"ch10_453e40_2"]
+[Sound: The pump's low thrum; the click of a recorder; the muffled scrape of shoes on concrete]
+[Music: Percussive rhythm; the strings move into a hopeful, brisk motif]
+
+Alea Maren direct the wave-tank run like a conductor. Scaled geometry on a palette of sand and glue — a concrete segment in the center, marsh-sediment mats arranged along an adjacent shore profile — and the machine coughs and begins. You watch the model's water bow against the engineered block, and something honest and electric opens in you: here, in miniature, are the arguments you have been rehearsing in abstracts and meetings.
+
+Dr. Lian Cho: "Run the higher-energy scenario. We need to see edge amplification." (she adjusts a dial with the precision of a surgeon)
+
+Alea Maren: "Increase the fetch. Add a short-runup of wind shear. Record the pressure transients at the seam." (you feel words line up, not as armor this time but as tools)
+
+The model answers. Water crests, slams, and the seam — where engineered meets soft — bows in quick, ugly arcs. Sensors pick up spikes. The engineered segment reduces overt surge behind it, but reads like a choke point: pressure concentrated at the ends, pulses that would, in real life, gouge into unarmored shorelines. The living mats absorb subtle energy, their blades bending and siphoning small increments of momentum, but their reduction is patient and incremental — meaningful over many cycles, not in a single event.
+
+Rin Sato leans against the doorway, arms folded around a thermos like a casual banner. Their smile is half amusement, half genuine hunger for the show.
+
+Rin Sato: "Professor Harbor, you know how to make tiny oceans dramatic." (they flick a thumb toward the tank)
+
+Alea Maren: "Only on borrowed physics." (you answer with a smile that carries the half-joke; the room exhales a small delighted sound)
+
+Rin Sato: "So, what is your verdict? Concrete is a bully that keeps the town's toes dry but kicks the pavement down the road? Marsh is the slow-cooking stew?" (they exaggerate the metaphor, stirring the air as if a ladle were in hand)
+
+Alea Maren and Dr. Lian trade a look — she precise, you careful — and then you both start talking, layered and overlapping: the numbers, the implications, the timescales. Rin interrupts occasionally with a practical question — can volunteers help grow enough marsh to test scale? — and your replies are rapid, tidal: yes, if we seed nursery beds; yes, if we couple with managed retreat in vulnerable strips; yes, if we get committed labor and funding that values time.
+
+Dr. Lian Cho: "We need to be upfront with the funders about trade-offs. The pilot isn't a verdict; it's an arbiter." (she says the word as if it could be a salve)
+
+Alea Maren: "And an arbiter we can demonstrate with real data." (you feel something like relief; data as bridge, not barrier)
+
+Tomas: "It feels good to see it not just on paper. Makes me want to get my hands in the mud, honestly." (he grins, already thinking of boots)
+
+[INTERACTION]
+> Choice A: "Stay for an extra run to check edge effects again"
+> Choice B: "Log the run and go brief the volunteers at the pier"
+[Outcome A: "You nod, fingers already on the controls. The pump hums to life and the extra run confirms the spikes — smaller or larger; the pattern stands. Your pulse quickens in a clean, productive way."]
+[Outcome B: "You cap the tank, notes flying into your notebook. You carry the results like a lit fuse to the gates of public work, exhilarated by the translation task."]
+[MERGE: The scene continues.]
+
+[Scene: Tide & Thread Community Kitchen | Evening — warm amber light, soup steam]
+[Background:"ch10_453e40_3"]
+[Sound: Clatter of ladles; low laughter; a radio murmuring local news]
+[Music: A warm cello line under bright piano — community warmth with a pulse]
+
+The meeting with volunteers is kinetic. Rin Sato moves through the room like a comet, setting people in pairs, making jokes, and somehow stitching the scientific discipline you're bringing into something human-scale. Alea Maren read out the observation timetable and the volunteers — older fishermen, schoolteachers, teenagers with art-splattered sleeves — take the tasks with a seriousness that melts something inside you.
+
+Rin Sato: "Professor Harbor will be assigning you scientific robes if you're not careful." (they dollop soup into a bowl for you with theatrical care)
+
+Alea Maren: "Only if you promise to teach the robes to make stew." (you try for lightness and hit something warm)
+
+Volunteer (Mrs. Calder): "We can do dawn watches. I can get my niece to help with the app if she needs a project." (she smiles — the kind that comes from a place of layered trust)
+
+Alea Maren: "Perfect. Pair her with Tomas for the first week — he'll walk her through the app logging and the checklist." (you jot names and brackets; the roster begins to feel like architecture)
+
+The pilot has given you an apparatus, but it is the people who make meaning of its output. You translate model outputs into tasks and rituals: diaries for shoreline watchers, a Sunday morning bake-and-brief at Tide & Thread, a ledger where volunteers note anomalies. Your sentences slow when explaining to someone whose hands are more used to nets than notebooks — you lower the jargon, find images that anchor the data: "When the sensor spikes like this, it's like a breath you can see on the water."
+
+Rin Sato watches you the whole time — amused, affectionate, but also careful. They see how you armor with certainty. They see you unpeeling it, slowly, in front of the town.
+
+Rin Sato: "You know, you don't always have to wear the confidence like chainmail. People lean on you because you make them feel seen. Let that sit between the figures." (they brush a stray hair behind their ear; the look is simple and open)
+
+Alea Maren: "Chainmail is comfortable." (you try to meet the joke with repartee; the half-smile feels honest this time)
+
+Rin Sato: "Then at least add a scarf." (they hand you a seed packet tied with twine; their fingers are warm)
+
+There is a buoyant, forward motion tonight: volunteers signing up, Tomas promising to lead a weekend nursery build, Dr. Lian making notes about QA schedules. The pilot has become a machine that does more than measure — it organizes, trains, channels civic energy into reproducible action.
+
+[Scene: Lab — Late Night | Lights low, a single desk lamp; notebook open]
+[Background:"ch10_453e40_4"]
+[Sound: The distant thump of late traffic; the lab's HVAC sighing; the soft tictac of a clock]
+[Music: A high-string motif building; heartbeat-like percussive marks]
+
+Alea Maren double-check assumptions. The data packet from the day sits on your laptop like a small, incandescent thing. You re-run code, tweak the binning, test how different tide windows alter the interpretation. The model outputs are generous and cruel at once: engineered segments reduce overt surge where they stand, undeniably; but the edges show pressure pulses that scale nonlinearly with fetch. The living elements lower energy but only when deployed across broad swaths and with time for soil accretion. It is messy — but it is legible.
+
+Dr. Lian Cho: "Funders are already asking for an interim positive headline. They want 'Stormwall Prevents Flooding' if the numbers look tidy." (she folds her hands; somewhere in her voice is weariness but also strategy)
+
+Alea Maren: "We won't give them tidy if the data isn't tidy." (your hands hover over the keyboard; the resolve in your voice surprises you even as it feels right)
+
+Dr. Lian Cho: "We can show them early wins without glossing over trade-offs. Edge amplification is crucial. If we can couple engineered segments with living shorelines and a managed retreat of a narrow strip, we give them a story and the town a path." (she lays out the scaffolding of compromise like a bridge between scales)
+
+Alea Maren think of the town — of Maya's steady hands at the cafe, of Tomas's eager grin, of Rin's half-joke but steady presence. You think of your sibling, the one you lost; the memory is sharp but not paralyzing tonight. The pilot is both a means and a promise: to turn grief into evidence, to make decisions that can be argued in meetings and tested in reality.
+
+Your phone buzzes — a terse message from a funder contact asking for a quote by morning. The ticker of time seems louder now. Your chest is a drumbeat that matches the strings, quickening toward something.
+
+Rin Sato appears in the doorway without announcement, hair wind-tossed, carrying the handpainted umbrella like a banner.
+
+Rin Sato: "You're working yourself into a storm, Alea." (they step in and set a bowl of soup beside your keyboard as if anchoring you to the human world)
+
+Alea Maren: "Data calms storms." (the old reflex flickers; you know the half-truth in that sentence)
+
+Rin Sato: "Data helps you name them. It doesn't hold your hand afterward." (they sit; their tone is teasing and earnest; they fold into a quiet you suddenly want like land)
+
+Alea Maren: "Then let's make it a hand worth taking." (you close the laptop with a brisk decisive motion and look at them; the intensity in the room tightens — not panic, but a clean, high-velocity focus)
+
+[Scene: Small Conference Room — Next Morning | Bright, whiteboard-scattered]
+[Background:"ch10_453e40_5"]
+[Sound: Low murmur of conversation; paper shuffling; clicks as slides change]
+[Music: Building strings reaching a peak — momentum, a thrill of contest]
+
+Alea Maren stand before a small, attentive room. The latest packet is on the screen: mapped surge attenuations, pressure transients at seam nodes, simulated scenarios with combined living elements and partial engineered segments. Eyes follow the graphs in a neat choreography — funders hungry for optimism, council staff checking for liabilities, volunteers watching like family.
+
+Funder Liaison: "If you can provide a clear headline, investors will cascade further support. We need a compelling narrative of success." (he smiles like business; his language is currency)
+
+Alea Maren: "The interim data is instructive and imperfect. Engineered segments reduce immediate surges, but we observe concentrated pressure at adjacent unarmored shores — a transfer, not a hiding. Living elements absorb energy incrementally; they need scale and time, and they reduce erosive feedbacks when paired with managed retreat in critical zones." (you speak quickly now, translating measured certainty into accessible terms)
+
+Councilor Bea Ortega: "You're asking for patience and money in equal measure." (her posture is tight; she weighs political hazard like an accountant)
+
+Alea Maren: "Yes. I am asking for a phased investment strategy: targeted engineering where necessary, rapid deployment of living shores in contiguous swaths, and agreed triggers for retreat where modeling indicates irrecoverable risk. The pilot gives us the metrics to write those triggers objectively." (you point to a projection of the risk matrix; your hand doesn't shake)
+
+Funder Liaison: "We can headline a 'measured approach' if you give us a timeline with wins in six months."
+
+Dr. Lian Cho: "Buildable wins: increased nursery output; two kilometers of marsh plugs installed by season's end; a modeled reduction in peak stress at monitored seams." (she recites like a ledger of plausible victories)
+
+Rin Sato catches your eye from the back of the room and mouths, You can do this. You feel adrenaline bloom — not panic, but clarity sharpened to a blade. The room waits. The choice is not "should we do this" — you've already accepted the pilot — but how you will frame the results: optimistic and provisional, or cheer the engineered wins while softening the trade-offs. Funders want a clean story; the town wants truth. Your role has become translation and translation always shades the meaning.
+
+Your notebook is open on the podium, damp where you pressed your thumb into the page. The cursor blinks on the slide you will present. The clock ticks. You can hear the gulls outside in the same rhythm as your pulse.
+
+Alea Maren inhale. The moment tightens into a single, luminous point: speak the nuanced truth and risk losing short-term cash, or hand the funders a bold headline that may smooth the path but could obscure the cracks you're already seeing at the edges.
+
+[Music: String motif peaks; high, hopeful; heartbeat percussive]
+
+Alea Maren set your pen down ready to speak.
+
+[Page-Turn thought: You imagine the headline that will appear in the dashboard and in the papers. You imagine the town's faces reading it. You imagine Rin beside you and Dr. Lian's steady hand. The pilot has given you data — now it asks you to choose how to tell it.]
+
+[Background:"ch10_453e40_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: [11]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 11
+    > Jump Target File: script_ch11_Route_C_Split_ctx_e67f19.txt

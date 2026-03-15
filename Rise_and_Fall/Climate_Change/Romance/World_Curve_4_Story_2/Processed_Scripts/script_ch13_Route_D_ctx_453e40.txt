@@ -1,0 +1,221 @@
+### SCRIPT
+# Route: Route D
+# Context: 453e40
+
+[Scene: Lumen Bay Promenade | Late Afternoon]
+[Background:"ch13_453e40_1"]
+[Music: Warm strings, ascending motif; light percussive rhythm like paddles in water]
+
+You feel the aftertaste of your own words—measured, deliberate—still on your tongue. The decision to call for time sits between you and Dahlia Kestrel like a newly tied knot: obvious, strong, not easily undone.
+
+Rosa stands beside you, clipboard hugged to her chest. Her braid flicks as she scans the crowd, then returns to you with a small, frank smile.
+
+Rosa: "That took backbone, Maya. You didn't cede the floor."
+
+Maya Reyes: "We didn't. We made the town the thing to be decided about." (You fold your jacket tighter against the salt breeze; the sewn-in seed-bank patch warms beneath your palm like a promise.)
+
+[Sound: Distant gulls; a cart creaks; a child's laughter fades]
+[Background:"ch13_453e40_2"]
+
+Dahlia Kestrel moves toward you with the same calm precision she uses in presentations. Her steps are quiet on wet wood, each one a diplomatic nudge.
+
+Dahlia Kestrel [smiling, cool]: "Ms. Reyes. That was an unexpected—refreshing—interruption. A neighborhood vote. Independent studies. You know that slows timelines."
+
+Maya Reyes: "It does. But it gives people a voice, and it forces scrutiny where there’s hype. We can move fast only if everyone trusts the plan."
+
+Dahlia Kestrel [tilting her head]: "Trust, yes. The funders don't like uncertainty. They like deliverables."
+
+Maya Reyes: "We like people who still live here when the deliverables are measured. I asked for a trial. A controlled, side-by-side pilot. If your tech can prove itself without erasing the marsh, we'll scale it. If not, we keep what works."
+
+Dahlia Kestrel studies you—ice-gray eyes narrowing just enough that the sodium lamps catch like a blade. For a heartbeat you imagine the old fight: your grassroots grit against her streamlined certainty.
+
+Dahlia Kestrel [after a slow breath]: "A trial, under strict parameters. Limited scope. Transparent metrics. Community oversight. If the town supports it, I will fund that pilot."
+
+Rosa exhales somewhere behind you; the sound is almost a laugh. The crowd murmurs into a thousand hopeful threads. You let the moment be small and ferocious.
+
+[Background:"ch13_453e40_3"]
+[Music: The strings resolve to a quiet, ascending chord—steady, not flashy]
+
+You nod. The agreement is not victory, but it is a path forward that keeps the town at the center.
+
+[Scene: Skyline Rooftop Garden | Early Evening]
+[Background:"ch13_453e40_4"]
+[Sound: Muffled traffic below, the soft rustle of compost; insects chirp; the smell of earth and citrus from the preserves]
+[Music: Intimate, hopeful piano with a touch of wind chimes]
+
+Inside the rooftop greenhouse, the air is warm and dense with plant life—tomatoes, young cordgrass in pots, and solar panels like quiet guardians. Asha threads a kettle toward the circle of folding chairs. Elders set out glass jars of plum preserves, and someone props an old tide gauge as a conversation piece.
+
+Maya Reyes: "Thank you all for coming. This space feels… appropriate." (You tap your journal. The leather is damp with the day; the pages whisper when you open it.)
+
+Asha [beaming, hands stained with soil]: "Appropriate and right. We do this like we mean it. Science at the table, fishers at the table, elders at the table."
+
+Rosa [practical]: "Mayor Durant will call the vote next week. We have to present a legal framework for oversight—clear checkpoints, community seats, provisions for apprenticeship hiring."
+
+Elder Mateo [voice husky, smelling faintly of tobacco and molasses]: "Our people want to see work they can do. Not fences that keep them out."
+
+[INTERACTION]
+> Choice A: "Offer Mateo a seat on the oversight board"
+> Choice B: "Promise funded apprenticeships first, then board seats"
+> Choice C: "Ask the scientists to draft measurable ecological benchmarks"
+[Outcome A: You slide the note across with his name written in your tidy script; his knuckles close around the paper and the corners of his mouth soften.]
+[Outcome B: You lay out a short plan for hiring and training—Rosa nods, Asha looks relieved, Mateo looks at the jars of preserves as if tasting a future.]
+[Outcome C: You make the request aloud; the lead scientist's eyes light up, and she shuffles her papers—numbers and timelines already forming in her head.]
+[MERGE: Continue with Asha's line: "All of those. We have to do them together."]
+
+Asha [after a beat]: "All of those. We have to do them together."
+
+Dr. Chen [methodical, excited]: "We can run paired plots: one with marsh transplants, one adjacent set with modified modular protection. We'll monitor sedimentation rates, invertebrate diversity, and vegetative colonization. Data logged openly."
+
+Elias Kwan arrives as the conversation hums—salt on his coat, rope loops at his hip. He moves through the circle with the pragmatic ease of someone who knows how to read both sea and crowd.
+
+Elias Kwan [pragmatic]: "I can train kids on net maintenance and set markers at the inlet. Keep boats away from the transplant zones. If you're doing apprenticeships, I'll teach them how to fix what breaks."
+
+You catch his hand as he passes—no grand gesture, just a brief brush of palm against wrist, salt and callus. His ocean-blue eyes meet yours and something steady passes between you: the small, mutual recognition of shared labor.
+
+Elias Kwan [soft]: "A juvenile tern came back today. Landed on the wire by the docks like she was checking in."
+
+Maya Reyes [smiling despite the tiredness]: "That's a good sign. Little things add up."
+
+[Background:"ch13_453e40_5"]
+[Music: Wooden percussion picks up, like steady rowing]
+
+Rosa: "We draft the oversight charter, Dr. Chen prepares the experimental design, Dahlia Kestrel funds the controlled inlet pilot for the modular segment, and the town votes. If the vote passes, the pilot goes in under monitoring and community co-management."
+
+Dahlia Kestrel [sipping tea, unruffled]: "I will sign the contract contingent on the vote and the legal terms. I want a rapid reporting cadence—weekly updates to my team and a shared dashboard."
+
+Maya Reyes: "Weekly—fine. But the data feed goes public. Everyone gets the same view."
+
+Dahlia Kestrel [a small, almost amused incline]: "Transparency is good PR."
+
+You think of press flashes and headlines and the temptation that had, for a moment, tugged at your sleeve. You push it back. There is a durability to slow work that headlines can never buy.
+
+[Scene: Controlled Inlet | Early Morning, Weeks Later]
+[Background:"ch13_453e40_6"]
+[Sound: The hiss of pumps, the distant rumble of construction, gulls squabbling; boots squelching in wet soil]
+[Music: Steady low strings, an undercurrent of optimism]
+
+The pilot is smaller than anyone expected; a measured scale designed to be reversible. Scientists move with clipboards; youths in patched oilskins carry markers. You stand on the inlet bank, camera at your hip, journal open to a page where you sketch sediment flow.
+
+Dr. Chen [pointing]: "See this—sediment accretion is within expected bounds at tidal range two. We need three weeks of consistent data to be confident."
+
+Maya Reyes: "And the transplants?"
+
+Jonah [proudly]: "Cordgrass plugs are taking. Look—tiny roots already binding the mud."
+
+Elias Kwan kneels near a shallow channel, teaching a teenager how to secure a marker line without tangling nets. His hands are careful, patient—less the stubbornness of argument and more the steadiness of technique.
+
+Elias Kwan: "Keep the line taut. If it droops, the tide pulls on it and you'll lose the marker overnight."
+
+Teenager [laughing]: "Got it. Like tying my shoelaces tighter."
+
+You walk the inlet slowly, fingertips brushing pooled water, listening to the smallness of success—the slap of a fish against netting, the quick, bright call of a tern. Each sound is a stitch in a larger repair.
+
+[INTERACTION]
+> Choice A: "Make an entry into the public dashboard about today's accretion data"
+> Choice B: "Take a photograph and tuck it into your journal instead"
+[Outcome A: You key in the numbers, add a short note about methodology, and watch the feed populate—comments and thumbs-up trickle in from neighbors.]
+[Outcome B: You lift the camera and capture a wide shot; later, when the light softens, you press the print into the journal between pages as a private record.]
+[MERGE: Continue with Dr. Chen: "The transparency seems to be calming concerns on both sides. People see the data and ask better questions."]
+
+Dr. Chen [encouraged]: "The transparency seems to be calming concerns on both sides. People see the data and ask better questions."
+
+Maya Reyes: "They also volunteer. Repair crews, monitoring shifts. It's become an apprenticeship economy in two weeks."
+
+[Background:"ch13_453e40_7"]
+[Music: Layered harmonies rise subtly; hopeful, communal]
+
+[Scene: Marsh of Tides | Midday]
+[Background:"ch13_453e40_8"]
+[Sound: Mud-suck of boots, soft chatter, insects; the smell of iodine and wet earth]
+[Music: Quiet, warm strings]
+
+You stand knee-deep at the marsh edge, sleeves rolled, the weight of the day settling into your shoulders as a familiar ache. The apprentices you helped recruit move with focused limbs; their hands are learning a new economy where the bay is both job and teacher.
+
+Elder Mateo [calling]: "Not like a factory! Careful with the roots—gently does it, like holding a dream."
+
+Jonah [breathless, proud]: "We saved one area from erosion last week. It didn't all come from the panels—people stacking driftwood cages helped slow the flow overnight."
+
+Maya Reyes [watching the small victories]: "Every small hold matters. We stitch the edges and let the center fill in."
+
+Elias Kwan wades closer, his sleeves slick with mud. He hands you a damp marker with a grin that is half boyish, half fatherly.
+
+Elias Kwan: "Tomorrow I'll set up a rotation for canoe patrols. Keep people out of sensitive zones and teach nets to young hands."
+
+Maya Reyes: "Thank you. For everything."
+
+He rubs his thumb along the carved wooden hook at his neck as if steadying himself on inheritance and choice.
+
+Elias Kwan: "Your work gave us a say. That was the important part."
+
+Maya Reyes [softly]: "We did it together."
+
+[Background:"ch13_453e40_9"]
+[Music: A light, single-note motif like a bell]
+
+You trace a fresh set of entries into your field journal each night—raw data, volunteer lists, letters from neighbors, sketches of cross-sections. You make the feeds public: graphs, photographs, notes in plain language so your neighbors can read the science without jargon. The dashboards are simple and honest, like your field notes: rises and dips, annotated by who worked which shift.
+
+Rosa [handing you a printed schedule]: "We have council-approved apprenticeship funding. Two certified restoration trainers were hired from the town. Mayor Durant pushed hard."
+
+Maya Reyes: "That's the leverage we needed. Jobs and stewardship on the same page."
+
+[Scene: Skyline Rooftop Garden | Sunset, Weeks After Pilot Begins]
+[Background:"ch13_453e40_10"]
+[Sound: Soft chatter, the clink of spoons, the distant slap of waves; compost smells sweet and warm]
+[Music: Triumphant yet intimate strings; a gentle swell that implies progress without finality]
+
+Maya Reyes sits with your journal open, the public dashboard on your tablet glowing beside a bowl of shared stew. The pilot's first report sits on the table: modest wins, scientifically significant trends, and a community roster that reads like a new kind of citizenship.
+
+Dr. Chen [leaning over the tablet]: "The paired plots show higher biodiversity in restored marsh sections by a small but meaningful margin. The modular prototype didn't cause detrimental flow displacement in the controlled inlet."
+
+Dahlia Kestrel stands a little apart, hands folded. Her posture has relaxed since the first meeting; bristling has been replaced by an occasional, careful smile.
+
+Dahlia Kestrel: "The data is respectable. Your community oversight actually improved deployment decisions. I admit—that was a surprise."
+
+Maya Reyes [feeling the warmth of vindication, tempered]: "We wanted accountability, not a pedestal. Looks like we can both learn."
+
+Elias Kwan arrives with a teen apprentice who carries a jar of pickled clams—an offering. He sits beside you, shoulders brushing in the way of people who have been through long days together.
+
+Elias Kwan: "The kid's proud. He repaired a net for the first time today without anyone fixing it after him."
+
+Maya Reyes [quiet, grateful]: "They're learning to fish and to mend the shore."
+
+You let the rooftop's murmur fill the spaces between sentences. The town's pulse seems steadier—less like an anxious drum and more like a human heartbeat.
+
+[Background:"ch13_453e40_11"]
+[Music: The strings resolve into a warm, rising chord; light swells]
+
+You feel the slow ascent—the cadence of steady work, of weeks stacking into a ladder. Your temptation to chase headlines is a distant wave you no longer ride. Instead you savor small certainties: a teen learning a net stitch, an elder’s name on an oversight board, a tern returning to check in.
+
+Rosa [softly]: "The vote next week will be a test. But if it goes our way, the pilot's framework becomes policy."
+
+Maya Reyes: "We built something that can be replicated without erasing home. That's the metric we set."
+
+[Music: A single, sustained note holds—inviting, expectant]
+
+You pack your journal slowly, fingers lingering on the curves of inked numbers. Outside, the lights of Lumen Bay begin to blink on—small beacons strung along the boardwalk, each one a promise of nights lived in place. You let yourself feel the ascent as a physical thing: the soreness after a long day, the quiet satisfaction before sleep. It is not dramatic. It is durable.
+
+A gull cries. A neighbor closes up a stall. The rooftop's warmth wraps around you—a communal blanket stitched from many hands.
+
+You look up at the line of stars just visible above the sodium glow and think: small, steady steps. This is how we grow.
+
+[Background:"ch13_453e40_12"]
+[Music: Music fades to a single hopeful motif]
+
+Maya Reyes closes your journal with a soft, decisive motion and stand there for a long moment, listening to the town breathe.
+
+[Page-Turn Moment]
+You could measure success in headlines, designs, or sealed contracts—but tonight, success tastes like plum preserves and warm earth. The pilot has begun to prove that speed need not mean erasure, and that work done in public changes how people argue about safety. Yet the vote remains. The tests will continue. The choice the town must make is still ahead—bigger and messier than any single report.
+
+You feel the line between fear and hope thin into possibility. If the town says yes, next will be scale decisions: which prototypes expand, which training programs become permanent, how the law will bind corporate power to communal oversight.
+
+You tuck the journal under your arm and walk toward the stairwell, the future weighing pleasantly in your hands—real, incremental, and yours to steward.
+
+[Background:"ch13_453e40_13"]
+[Music: Fade Out]
+[NEXT CHAPTER: 14]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 14
+    > Jump Target File: script_ch14_Route_D_ctx_9d8ae5.txt

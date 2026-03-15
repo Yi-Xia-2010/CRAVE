@@ -1,0 +1,515 @@
+{
+    "title": "Tides of Marisma",
+    "summary": "You are Aiko Navarro, an ecological engineer returned to Marisma Bay to build a community-led marsh restoration plan after losing your childhood home to a storm. The story frames climate as a living, moral force; choices about partnerships (community, municipal, or corporate) shape ecological and social outcomes. Romance with Mateo Ríos, offers from Dr. Selene Park, and local allies (Ivy, Old Man Rohan, Tala) complicate decisions. The arc is a Cinderella (Rise-Fall-Rise) emotional trajectory with endings that vary from hopeful community success to bittersweet adaptation.",
+    "emotional_curve_type": "Cinderella (Rise-Fall-Rise)",
+    "player_character": "Aiko Navarro",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salted Notebook",
+            "branch_designation": "Common",
+            "narrative_focus": "I open with a fieldnote: a pressed blade of marsh grass tucked between the pages of my waterproof notebook. I describe my hands—callused from wading—and the weight of the silver locket at my throat that still holds a sliver of childhood shoreline. The town smells of kelp and diesel; Low Street's patched roofs glint where fog lifts. I walk the docks in a faded navy raincoat with its patched elbows, scanning tide markers and talking to the harbor's crates and ropes as if they were people. I perform a quick survey: erosion lines, a bent pilings map, an old sea-wall scar. My hazel eyes catch a sliver of Mateo's sea-green laughter across the way—he's there in a linen blazer and field vest, blueprints underarm. I write down what people need: jobs, safety, dignity. My inner voice notes the tension between data and story; I am practical and tenacious, but I admit my habit of shouldering others' burdens. The chapter ends with me closing my notebook, resolve setting: I will pitch a community restoration plan.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryLow",
+            "entry_condition": "**Entry Condition:** None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Ivy",
+                "Old Man Rohan",
+                "Tala"
+            ],
+            "locations_used": [
+                "Low Street",
+                "Docks",
+                "Tidepark greenhouse",
+                "The Aquarium"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Tide Measurements",
+            "branch_designation": "Common",
+            "narrative_focus": "I lead a small survey expedition at dawn with Tala and a handful of neighbors; I record salinity gradients and plant health in the reclaimed lots. Mateo joins, unrolling leather-bound blueprints and murmuring gentle data interpretations. We measure root mat density in the marsh and test a prototype biodegradable burlap scaffold I designed. Old Man Rohan shows up with a crooked pole and a story about dune positions. The scene balances practical optimism: community energy is building and my technical plan—community beds plus low-engineered breakwaters—starts to look possible. The chapter closes as I prepare slides for a Council presentation and feel momentum.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "Low",
+            "entry_condition": "**Entry Condition:** From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Tala",
+                "Mateo Ríos",
+                "Old Man Rohan",
+                "Ivy"
+            ],
+            "locations_used": [
+                "Reclaimed lots",
+                "Marsh",
+                "Docks",
+                "The Aquarium"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council Day",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At City Hall I present the community-led marsh restoration plan. Mateo sits in the front row; Dr. Selene Park attends via holographic feed and a corporate rep promises faster, measurable protection. Council listens. After my talk the room erupts with competing offers and opinions. Council asks who to invite into a pilot program—my recommendation will shape alliances and resources. The town's future feels like a hinge as I prepare to answer.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "**Entry Condition:** From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "You must advise Council on who to invite into a pilot program for the marsh. Your recommendation will shape alliances and available resources.",
+                "options": [
+                    {
+                        "label": "Invite a community-led consortium—us, local fishers, and Tala's groups.",
+                        "consequence": "Centers local leadership but risks slower, smaller funding.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Recommend Mateo’s municipal hybrid plan—public funding plus municipal oversight.",
+                        "consequence": "Institutional support and scale; requires compromise with bureaucratic processes.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Open the pilot to Dr. Selene Park's firm—the fastest funder and tech.",
+                        "consequence": "Quick resources but corporate control and possible displacement.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Dr. Selene Park",
+                "Councilor Nguyen",
+                "Tala",
+                "Old Man Rohan",
+                "Ivy"
+            ],
+            "locations_used": [
+                "City Hall",
+                "The Aquarium",
+                "Tidepark greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Fieldwork Compromise",
+            "branch_designation": "Route A",
+            "narrative_focus": "After recommending the community consortium, morning logistics and resource constraints hit. I coordinate volunteers, model nutrient cycling, and face Council demands for a detailed budget and safety protocols. Neighbors rely on me; immediate needs press. Mateo offers municipal compromise with strings attached. I weigh grassroots mobilization against accepting municipal help or seeking corporate aid—knowing any choice will break something tender.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you secure resources to meet immediate needs while keeping the consortium’s values?",
+                "options": [
+                    {
+                        "label": "Accept Mateo's municipal matching funds, agree to his oversight conditions.",
+                        "consequence": "Faster resources with bureaucratic compromise.",
+                        "target_chapter_index": 5
+                    },
+                    {
+                        "label": "Refuse municipal strings; intensify grassroots fundraising and labor.",
+                        "consequence": "Maintain autonomy, risk delays and community fatigue.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Coordinate a private meeting with Dr. Selene to request conditional corporate funding.",
+                        "consequence": "Immediate resources but a moral risk—corporate terms may erode local control.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Old Man Rohan",
+                "Tala",
+                "Ivy",
+                "Council"
+            ],
+            "locations_used": [
+                "Reclaimed lots",
+                "The Aquarium",
+                "City Hall",
+                "Marsh"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Garden of Small Things",
+            "branch_designation": "Route A",
+            "narrative_focus": "I accepted Mateo's municipal matching funds and navigate bureaucratic compromises: labor stipends and procurement requirements that forbid some local techniques. I lead planting and manage tensions as procurement policies clash with Old Man Rohan's methods. Mateo and I share tender moments, but I wonder if I sold something essential. Plants root, and doubt does too.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 6,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Old Man Rohan",
+                "Ivy",
+                "Tala",
+                "Councilor Nguyen"
+            ],
+            "locations_used": [
+                "City Hall",
+                "Reclaimed beds",
+                "The Aquarium",
+                "Tidepark greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Marsh at Dawn",
+            "branch_designation": "Route A — Ending: Happy",
+            "narrative_focus": "The pilot's first winter test arrives and the community scaffold holds pockets of habitat. Despite losses and relocations, the marsh survives with richer biodiversity and a governance council including fishers and youth. Labor stipends and training became livelihoods. Mateo and I share a quiet promise about future co-designs. The ending is durable recovery with shared responsibility.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "**Entry Condition:** From Chapter 4, Option B or From Chapter 5, Next",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Old Man Rohan",
+                "Ivy",
+                "Tala"
+            ],
+            "locations_used": [
+                "Marsh",
+                "Cliffside promenade",
+                "Docks",
+                "The Aquarium"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Blueprints and Promises",
+            "branch_designation": "Route B",
+            "narrative_focus": "I advised Council to follow Mateo's municipal hybrid and City Hall proceeds with a phased pilot. Municipal processes prioritize measurable outcomes and risk metrics, sidelining some oral knowledge. Pressure mounts to show results before an election. Tensions grow between scaling fast and preserving local practices as Tala protests and Dr. Selene frames municipal partnerships publicly.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you respond to growing institutional pressure to show immediate, measurable results?",
+                "options": [
+                    {
+                        "label": "Fully cooperate with municipal rollout, prioritizing scale and metrics.",
+                        "consequence": "Faster tangible outcomes; risk sidelining local methods.",
+                        "target_chapter_index": 8
+                    },
+                    {
+                        "label": "Coordinate a public demonstration with Tala to pressure City Hall for guaranteed community governance.",
+                        "consequence": "Raises public scrutiny; risks antagonizing officials and slowing funding.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Secretly negotiate with Dr. Selene to include community elders in official documents in exchange for her firm's resources.",
+                        "consequence": "Risky middle path; could co-opt or cohere.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Tala",
+                "Dr. Selene Park",
+                "Councilor Nguyen",
+                "Old Man Rohan",
+                "Ivy"
+            ],
+            "locations_used": [
+                "City Hall",
+                "Tidepark municipal lab",
+                "The Aquarium"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Night at The Aquarium",
+            "branch_designation": "Route B",
+            "narrative_focus": "We doubled down on municipal rollout: Tidepark greenhouse scales prototypes and municipal technicians replicate scaffolds. I split time between greenhouse instrumentation and mediating community protests at The Aquarium. The pilot yields early measurable indicators but community authorship frays, and the oversight seat gained is not binding.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 9,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Tala",
+                "Old Man Rohan",
+                "Ivy",
+                "Technicians"
+            ],
+            "locations_used": [
+                "Tidepark greenhouse",
+                "The Aquarium",
+                "City Hall"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Tidal Contract",
+            "branch_designation": "Route B — Ending: Bittersweet",
+            "narrative_focus": "A contract that combines municipal scale and community participation is signed under election pressure. Scaled interventions reduce erosion in priority zones but displace some traditional craft practices and require relocations. The result is partial: measurable gains, new livelihoods, and compromises that leave grief. Dr. Selene's firm is compelled to adopt local input after public pressure. The ending balances pride and loss.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "**Entry Condition:** From Chapter 7, Option B or C or From Chapter 8, Next",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Old Man Rohan",
+                "Ivy",
+                "Tala",
+                "Dr. Selene Park"
+            ],
+            "locations_used": [
+                "Cliffside promenade",
+                "The Aquarium",
+                "Marsh",
+                "City Hall"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Seeds in Transit",
+            "branch_designation": "Route C / Hub",
+            "narrative_focus": "I recommended opening the pilot to Dr. Selene Park's firm; corporate resources arrive quickly with engineered seed packets and biotech scaffolds. The town divides between those who welcome immediate repairs and those fearing outsourced control. Mateo offers to negotiate protective clauses. Council leans toward quick wins. The chapter is a hub decision about negotiating safeguards, accepting deployment, or refusing the firm.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you engage with Dr. Selene’s corporate offer?",
+                "options": [
+                    {
+                        "label": "Negotiate a formal partnership that legally embeds community governance clauses.",
+                        "consequence": "Potential structural safeguards but requires tight legal leverage.",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Accept corporate deployment immediately to secure rapid relief and jobs.",
+                        "consequence": "Fast relief, risk of displacement and loss of local practices.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Refuse the firm and double down on grassroots resistance, working with Tala.",
+                        "consequence": "Maintains autonomy but risks immediate suffering during the transition.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Dr. Selene Park",
+                "Mateo Ríos",
+                "Tala",
+                "Old Man Rohan",
+                "Ivy"
+            ],
+            "locations_used": [
+                "Tide-sprayed conference room",
+                "Docks",
+                "City Hall"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Old Maps, New Lines",
+            "branch_designation": "Route C — Subroute A",
+            "narrative_focus": "I negotiate a formal partnership with Dr. Selene embedding legally binding community governance clauses: oversight seats, co-design requirements, local hiring, and enforceable audit language. Crates of engineered scaffolds arrive and wages roll out, but enforcement and procurement pressures remain concerns. The hybrid board includes corporate tech and community seats, starting a tense optimism as deployment begins.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Dr. Selene Park",
+                "Mateo Ríos",
+                "Old Man Rohan"
+            ],
+            "locations_used": [
+                "City Hall",
+                "Docks",
+                "Tidepark"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Collaborative Scaffold",
+            "branch_designation": "Route C — Subroute A — Ending: True",
+            "narrative_focus": "The hybrid program works: engineered scaffolds seed new root systems while elders' traditional planting practices are layered into deployment. The governance board meets with legal teeth and community audits complement predictive models. Biodiversity and social resilience increase; the program becomes a replicable model. I accept invitations to co-design elsewhere, trading local daily normalcy for systemic impact while maintaining ties with Mateo and Marisma.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "**Entry Condition:** From Chapter 11",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Dr. Selene Park",
+                "Old Man Rohan"
+            ],
+            "locations_used": [
+                "Reborn marsh",
+                "Tidepark",
+                "Cliffside promenade",
+                "The Aquarium"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Corporate Showcase",
+            "branch_designation": "Route C — Subroute B",
+            "narrative_focus": "I accept immediate corporate deployment. Dr. Selene's teams arrive with engineered algae barriers and biotech mats; wages and repairs flow fast and markets reopen. The rollout is top-down: procurement favors corporate subcontractors and local practices are marginalized. Early relief is real, but a breaking report from a distant trial site hints at ecological side-effects and trade-offs to come.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 10, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 15,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Dr. Selene Park",
+                "Mateo Ríos",
+                "Tala",
+                "Old Man Rohan",
+                "Ivy"
+            ],
+            "locations_used": [
+                "Docks",
+                "Markets",
+                "The Aquarium",
+                "Tidepark"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Quiet Departure",
+            "branch_designation": "Route C — Subroute C",
+            "narrative_focus": "I refuse Dr. Selene and double down on grassroots resistance. Tala organizes blockades and mutual aid; we preserve autonomy and local knowledge but endure heavy strain: unpaid rents and shelters fill. We improvise berms during storms without heavy equipment and patch communities afterward. The moral clarity of resistance collides with immediate safety needs.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "**Entry Condition:** From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 15,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Tala",
+                "Mateo Ríos",
+                "Old Man Rohan",
+                "Ivy"
+            ],
+            "locations_used": [
+                "The Aquarium",
+                "Docks",
+                "Neighborhoods"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "After the Wall",
+            "branch_designation": "Route C — CONCLUSION (Composite Ending: Sad/Bitter-to-True synthesis)",
+            "narrative_focus": "This final apex consolidates outcomes across routes: rebuilt sea wall and altered landscape with mixed persistence and relocation. Where corporate routes caused harm, scrutiny and community audits forced corrections; where grassroots routes strained livelihoods, later municipal relief arrived. Mateo and I reconcile or sustain a long-distance partnership. Old Man Rohan teaches youth new planting lines. The ending is an emotional synthesis of loss and repair, ongoing adaptation and stubborn love.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "**Entry Condition:** From Chapter 13, Next or From Chapter 14, Next or From Chapter 10, Option A via Chapter 13/14 possibilities",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Navarro",
+                "Mateo Ríos",
+                "Dr. Selene Park",
+                "Old Man Rohan",
+                "Ivy",
+                "Tala",
+                "Councilor Nguyen"
+            ],
+            "locations_used": [
+                "Rebuilt sea wall",
+                "Marsh",
+                "Cliffside promenade",
+                "Community gardens",
+                "The Aquarium"
+            ]
+        }
+    ],
+    "remarks": "All chapter summaries, visuals, valence and arousal tags were extracted from the provided outline. Branching logic was parsed from explicit decision hubs and 'Next' markers; branching chapters have default_next_chapter set to -1 and option targets reference the chapter numbers given by 'Jumps to: Chapter X'.",
+    "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+    "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)"
+}

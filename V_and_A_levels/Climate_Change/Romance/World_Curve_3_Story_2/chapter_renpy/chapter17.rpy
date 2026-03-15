@@ -1,0 +1,174 @@
+label chapter17:
+
+    # [Scene: Elara Harbor | Morning — One week after the leak]
+
+    scene bg ch14_6b08b4_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Shouts, a megaphone rasping, camera shutters, distant foghorn. Underneath, a driving drumbeat—urgent, restless.]
+    # play music "music_placeholder"  # [Music: Pulsing strings; high, insistent tempo.]
+    "You stand at the edge of the boardwalk like a fulcrum. The papers you leaked lie now in a hundred phones and printouts, headlines translating nuance into accusation. The air tastes of salt and coffee and"
+    "something metallic—fear sharpened by adrenaline. Your pulse drums under your collar; your hands are steady because they must be."
+    "Rosa is a livewire at the front of the crowd, her yellow jacket a flag. She sees you, points, and then is swallowed by the press of bodies. People you grew up beside—the teenager who used"
+    "to earn pocket money on your porch, the woman who still runs the café—look at you with questions that cut finer than any gavel. Contractors shout counter-accusations; a man in a suit snaps fingers at a"
+    "microphone and calls you a saboteur. Elias's voice, slick and clinical, rides the city feed before you can breathe."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "Ms. Soler made a choice that hurts the town's ability to rebuild quickly. That choice will have consequences."
+    "You can feel the room—this strip of the harbor—transform into a courtroom that moves with the tides. Every face is an evidence board pinned with memory and expectation. You did what you thought was right: transparency."
+    "But the leak has become a torch that spread faster than any plan you might have had to carry its heat."
+    hide elias_voss
+
+    scene bg ch14_6b08b4_2 at full_bg
+    "You remember the interior of the negotiation room: glossy renderings, hands folded, promises that smelled like waxed paper. You remember the clause that tucked fishing access behind 'operational easements,' the contingency language that would have let"
+    "dredging push our shoals back a foot at a time. You remember thinking of Ben's lined face, of the boats, of the way your brother's boots made no sound in the mud that last night."
+    "You did not plan for the fire you lit. You planned for light."
+    show rosa_tan at left:
+        zoom 0.7
+
+    rosa_tan "They'll pin this on you if we don't give the town something to do. You've got to be ready—meetings, interviews, the legal snag already wants witnesses."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "I know. I—' (Your voice rough as the boardwalk wood) '—I couldn't watch them sell the coastline behind closed doors."
+    "Rosa exhales, a tiny sound that holds the weight of a week's worth of organizing. 'You did what you could. We'll turn the fire into work. But be ready for fallout. People will be hungry for paychecks.'"
+
+    menu:
+        "Step up to the podium and explain your reasons":
+            "You push through the crowd, palms clamped to the podium edge. Your words come fast, raw: you talk about clauses, about livelihoods, and about a brother whose absence taught you why secrecy is dangerous. Some faces soften; others harden."
+        "Stay behind Rosa and coordinate quietly":
+            "You step back into the surge of protesters, passing stacks of informational leaflets and legal contacts. Your voice becomes a relay—firm in smaller circles, building plans in whispers while the podium fights the headlines."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: Boardwalk & Main Street | Days later — the week frays into economic tremors]
+    hide rosa_tan
+    hide maya_soler
+
+    scene bg ch14_6b08b4_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Few engines, the hollow clatter of a shutter, a child's distant laugh like a foreign weather pattern.]
+    # play music "music_placeholder"  # [Music: Percussive, staccato—offset heartbeat rhythms; a sense of jitter.]
+    "Investors pull out in stages. First the small developer with a nervous lawyer; then a larger firm, the kind that promised a marina-level tax base. Contracts unspool. Men and women who signed up for eight weeks"
+    "of work now stand at the harbor with empty clipboards. The town feels peeled back—strips of stability come loose in the rain."
+    show aiden_kuro at left:
+        zoom 0.7
+
+    aiden_kuro "You think the town wanted this? We needed jobs. We needed certainty. You handing this to the press—"
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "I thought transparency would force accountability—that delay would prevent a worse harm. I wasn't thinking about the paychecks that week. I thought—' (You flinch; the truth is a stone you have carried too long.) 'I thought honesty would be a plan in itself."
+    "Aiden Kuro moves closer; the smell of tar and citrus soap from his coat wraps memory around you. He looks like he could break, or he could anchor. He chooses the harder thing."
+
+    aiden_kuro "Honesty without a plan? You left people walking toward winter without a map. You left me with no way to look my crew in the eye."
+
+    maya_soler "I wanted to stop the hidden parts. I wanted to stop them from stealing the sea from under us. I'm sorry—"
+
+    aiden_kuro "Sorry doesn't pay for nets, Maya."
+    "The argument spirals—sharp, repeated, each statement a net thrown and tangling. Voices swell, overlap; neither of you lets the other finish. You both reach for the one thing you need: to be heard, not judged."
+
+    menu:
+        "Lay out the facts—show him the notes":
+            "You pull the printouts from your jacket, the clause circled, the language underlined. You point to the phrase about 'operational easements.' Aiden reads, face folding, then flattens. He doesn't smile, but his shoulders shift."
+        "Step back and let him speak—ask questions":
+            "You close your hands around your arms and listen. He names the men in his crew, the kids who help on weekend mornings, the rent that is due. Listening changes the shape of anger into something workable."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: Harbor Breakwater | Night — The storm]
+    hide aiden_kuro
+    hide maya_soler
+
+    scene bg ch14_6b08b4_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Roaring wind, waves like falling freight, a straining chain; people shouting orders over a howl.]
+    # play music "music_placeholder"  # [Music: Chaotic percussion, brass swells; highest intensity.]
+    "The storm comes like a truth with teeth. The temporary defenses—raised in haste when investors fled—were never meant for this. At three in the morning, the sheet piles twist. The sea finds the seam between the"
+    "old concrete and the makeshift barrier, fingers through a torn hem. A neighbor's porch disappears in a single, obscene gulp of water."
+    "You run with Aiden, with Ben, with a dozen others who don't wait for instruction. Waterproof jackets slap like drumheads. You hand off sandbags, tie knots until your fingers numb, shout to people you barely recognize"
+    "by name. Rescue is blunt and immediate: move boats to higher docks, push children out of the wet step into dry arms, shelter the displaced in the community center."
+    show ben_harper at left:
+        zoom 0.7
+
+    ben_harper "Hold the line! Get to the school—bring blankets—no one goes alone!"
+    "You feel every failure as heat: the leak that became a scandal, the investors who left, the temporary walls that cracked. Each one stacks like kindling. But you also feel, sharply and fierce, the weight of"
+    "hands in yours. People you argued with hand you a rope; a contractor who called you saboteur hands you a pry bar. The town becomes a single animal of effort."
+    "There is loss. A boat is pinned under twisted rebar; a storefront swallowed by marchwater. The census that follows the dawn is a catalogue of what we have to mourn. But in the middle of the"
+    "wreck, there is work that means something deeper than contracts: a mother cradled in wet blankets, a boy whose chest rises again under the measured count of breaths."
+    hide ben_harper
+
+    scene bg ch14_6b08b4_5 at full_bg
+    # play music "music_placeholder"  # [Music: A rising string theme—collective, warming; notes like breath returning.]
+    "At the eye of that morning, you and Aiden sit on opposite pieces of splintered board, hands both working on the same torn net. Neither of you offers grand words—there's nothing to gild—but your hands find"
+    "rhythm. He hums something his grandfather used to hum when mending a gaff. You tie the knot he shows you. The world around you is rubble; your small sewing is stubborn and human."
+    show aiden_kuro at left:
+        zoom 0.7
+
+    aiden_kuro "We can't keep swinging from one emergency to the next. We need a way that holds—money, plans, people who know the sea.' (He picks at a fray.) 'You were right to stop them hiding things. You were wrong to think stopping the meeting would fix everything."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "I was trying to stop harm. I didn't see how much harm that would cause in the short run. I—' (You swallow.) 'I need help making the 'how' better."
+    "Aiden Kuro's eyes soften, not because the world is better, but because he can measure the list of needs now with you in it."
+
+    aiden_kuro "Then we plan. Together. No more secrets, and no more leaving the work to someone else."
+    "You both look up as Ben starts talking in a low voice, name-dropping grants and contact lists Rosa had already begun assembling. The plan is messy: small grant applications, community labor rotations, a cooperative model for"
+    "the fisheries where profits spool back to the crews instead of a distant pocket. It is not the immediate influx Elias promised; it is quieter, more bitter, but it belongs to you."
+    # [Scene: Months Later — Harbor & Community Center | Afternoon]
+    hide aiden_kuro
+    hide maya_soler
+
+    scene bg ch14_6b08b4_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter, clinking tools, a radio playing a slow, hopeful tune.]
+    # play music "music_placeholder"  # [Music: Warm strings; steady rhythm; resolution.]
+    "The investor money never returns in the way Elias promised. Some contractors take other bids, some leave, and some of us learn tool names we never used. The economic pain lingers like a bruise, but the"
+    "town begins to stitch itself with its own thread. Small grants cover roof patches, community labor rebuilds docks, and cooperative shares begin to stabilize a handful of crews. A census of losses—boats, shops, time—becomes a ledger"
+    "not just of what we lost but of what the town will prioritize when rebuilding."
+    "Elias Voss's name fades from the feed as his firm's tentacles retreat to safer harbors. His lawyers file claims; his spokespeople claim obstruction. Transparency, in the end, forced a pause and a look. The pause broke"
+    "things, yes—jobs and immediate cashflow—but it also prevented a design whose language would have hollowed out our rights beneath gilded promises."
+
+    scene bg ch14_6b08b4_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gentle lapping, a gull in the distance.]
+    # play music "music_placeholder"  # [Music: Soft piano notes overlay the warm strings—intimate.]
+    show rosa_tan at left:
+        zoom 0.7
+
+    rosa_tan "We did the paperwork last night—community fund is official. It won't be enough at first, but it's ours to direct. We can set hiring priorities, buy back nets collectively, and train new apprentices."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "It won't be neat. It won't fix everything.' (You set the mug down and feel the warmth through your palms.) 'But it's ours."
+    "Aiden Kuro reaches for your hand across the ledger. He does not erase what happened. He does not pretend the argument didn't hurt. He places his hand there with the same practicality he uses to patch a hull—deliberate, solid."
+    show aiden_kuro at center:
+        zoom 0.7
+
+    aiden_kuro "We're both changed, Maya. I won't pretend to be the same fisherman who ignored politics. And you—' (He smiles in a way that holds a vow more than a promise.) '—you don't have to carry the whole town alone."
+
+    maya_soler "I don't want to carry it alone anymore."
+    hide rosa_tan
+    hide maya_soler
+    hide aiden_kuro
+
+    scene bg ch14_6b08b4_8 at full_bg
+    "You learned something ugly and necessary: truth without a plan can wound. The leak burned a path to daylight, but daylight alone does not mend roofs. Repair needs both honesty and scaffolding. You learned to build both."
+    "Months later, the work is slower but steadier. Cooperative fisheries begin to rewrite profit lines; small grants glue a dozen repairs; apprentices learn to read tide charts and grant forms in the same lesson. The town"
+    "builds redundancy—living breakwaters in small, guarded stretches, community-owned fish processing that keeps value local. The landscape of Elara is different; there are scars and new seams. But when you walk the boardwalk now, you see people"
+    "who are both angrier and kinder in ways that make them more human, more engaged."
+
+    scene bg ch14_6b08b4_9 at full_bg
+    # play music "music_placeholder"  # [Music: Cathartic swell; chorus-like strings; closure.]
+    "You and Aiden stand side by side watching the light meet the sea. He squeezes your hand—a small, unshowy thing—and you feel the promise in the ordinary act. This is not a tidy victory. There are"
+    "bills to pay, names that won't be called back, and a coastline still negotiating with the sky. But a moral victory sits beside the economic scars: transparency forced the town to decide for itself, even at"
+    "the cost of immediate comfort. The price was high; the ownership is higher."
+    "Rosa comes to stand with you, leaning into the shared silence. Ben passes, tipping his battered cap. People wave from the pier. A child runs by, laughing, a net over their shoulder like a toy. The"
+    "future will still demand difficult choices. You will still fail sometimes. But now there are more hands to pick you up, and more plans to catch you when you fall."
+    "You exhale, and for the first time in a long time the breath tastes like salt and something steadier—resilience. The town is bruised, loud, and blinking awake. Love, too, has been bruised and mended—not by grand"
+    "declarations but by shared labor, by listening when it mattered, by making room for the other's grief and stubbornness. You love each other across a landscape of repair, weathered and more honest for it."
+    "You place your coral pendant between your palms and let the harbor's slow pulse steady you. You will make mistakes again. You will wake to harsher storms. But you will face them together—with a plan, with"
+    "truth, and with the fierce, patient work of a town that decides to belong to itself."
+
+    scene bg ch14_6b08b4_10 at full_bg
+    # play music "music_placeholder"  # [Music: Final chord—resolute, warm; fade.]
+
+    scene bg ch14_6b08b4_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

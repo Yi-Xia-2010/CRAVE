@@ -1,0 +1,167 @@
+label chapter5:
+
+    # [Scene: Tidewatch Lab | Morning]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play music "music_placeholder"  # [Music: Up-tempo strings with a steady rhythmic pulse]
+    # play sound "sfx_placeholder"  # [Sound: Hammers, distant gulls, a muffled generator hum]
+    "You step back into the lab with your ledger still warm from the night before, the brass compass tucked into your palm like a promise. Sunlight is thin through the overcast, but the room feels loud"
+    "— not with argument, but with motion. Volunteers move in and out like breath: hauling sandbags, carrying coffer frames, unloading trays of salt-tolerant seedlings that Marta flagged with neon tape."
+    "The air tastes of wet paper, coffee, and a metallic tang from the field instruments. You can feel the day already arranging itself into tasks that want you to be sharper, kinder, faster. This is the"
+    "work you trained for; this is the conversation you promised the town you'd keep having."
+    "Marta rounds the workstation in her bright gloves, eyes alight. 'Beds need spacing, Asha—give them twelve centimeters, not ten. The spartina roots choke if they're too close,' she says, voice clipped with purpose and an undercurrent of mischief that makes the lab feel like a kitchen."
+    show asha_moreno at left:
+        zoom 0.7
+
+    asha_moreno "Twelve it is. I’ll update the planting grid."
+    "You tap a stylus to the tablet, the model flickering to accommodate the change. 'How many trays left?'"
+    show marta_chen at right:
+        zoom 0.7
+
+    marta_chen "Thirty-two mobilized, twelve at the boatyard waiting for stakes, and Eli's already shaping pilings. He's been here since dawn.' (She laughs low.) 'Also—coffee. Strong. For moral support."
+    "You smile, the lab's nervous hum aligning with something like possibility. You step outside to the boardwalk of laptops and soil samples and watch volunteers carry a framed coffer down toward the marsh access. Rain-slick boards"
+    "glint; someone drops a coil of rope and it splashes into a puddle. Laughter erupts, quick and relieved."
+
+    menu:
+        "Offer to help carry the next coffer":
+            "Your back tightens, and you take the next frame. The wood smells like old boats and promise; Marta claps you on the shoulder as you pass."
+        "Stay and finish logging vegetation survivals into the ledger":
+            "You bend over printouts, fingers stained, recording a seedling survival rate. Noah Reyes looks up and gives you a small, grateful nod."
+
+    # --- merge ---
+    "Both outcomes lead back into the day's work and continue at the boatyard scene."
+    # [Scene: The Old Boatyard | Midday]
+    hide asha_moreno
+    hide marta_chen
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Saw teeth, rhythm of an adze, the ocean a steady low clock beyond the hulls]
+    # play music "music_placeholder"  # [Music: Percussive woodwinds, bright and insistent]
+    "Eli works like someone coaxing a story out of lumber. You hand him a marking pencil; he traces lines with a carpenter's patience. 'You know, my ma used to say you could hear the tide in"
+    "the grain if you listened,' he says, pushing a curl of wood aside. 'These stakes will hold if we set them like ribs.'"
+    show eli_duarte at left:
+        zoom 0.7
+
+    eli_duarte "Tell me the survival numbers when you get a sec, so I can tweak the depth."
+
+    "You do — you read aloud as he planes" "Highest survival in the outer swales; inner trays need more tidal flushing. Spartina looking good at twelve centimeters—"
+    "Noah Reyes appears with his sketchbook tucked under his arm, eyes bright. He moves through the yard handing out modified volunteer contracts and liability waivers with a deft, calming authority. When he reaches you, a drill"
+    "slips from his other hand and clatters against a hull; a flurry of spilled screws skitters like startled fish."
+    show noah_reyes at right:
+        zoom 0.7
+
+    noah_reyes "Dammit.' (He grins, embarrassed.) 'I am the graceful one today.' (He meets your gaze and, for a second, simply breathes with you.) 'Sketchbook's full of... contingency lines. Contracts mostly boilerplate, but—' He searches for the right word. '—roots in the right place."
+    "You laugh and reach to help him gather screws. Your fingers brush, and the ring on his necklace—small, silver, lopsided—catches the light and slips against your thumb. The contact is a small, private anchor: a quiet promise in the middle of timber and tide."
+
+    noah_reyes "How are you holding up, really?"
+    show asha_moreno at center:
+        zoom 0.7
+
+    asha_moreno "Tired and ferociously optimistic,' you say. Your voice is a mix of tiredness and something warm that tightens in your chest. 'We can do this."
+
+    noah_reyes "Good. Because I want to be blunt in the council room for you. I will say your name. I will... stand.' (A pause—he half-smiles.) 'I know we're not done."
+    "You both pause as Eli lifts his head, a grin wide enough to carve into the wood. 'And when you two start making vows in my boatyard, I'll take bets on which of you we'll have to drag back for sleep.'"
+    "Laughter gathers around like light."
+
+    menu:
+        "Tease Noah about sleeping earlier":
+            "You nudge him, a smile that steadies both of you. He surrenders the tease with a warm—and ridiculous—threat to schedule a nap."
+        "Tell Noah quietly that his support matters":
+            "You step close, voice low. He exhales as if a weight has shifted. 'Then stay,' he says simply, and it lands like a plank finding its place."
+
+    # --- merge ---
+    "Both outcomes continue into the evening on the Promenade with the same emotional connection established."
+    # [Scene: Promenade | Late Afternoon]
+    hide eli_duarte
+    hide noah_reyes
+    hide asha_moreno
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play music "music_placeholder"  # [Music: Warm strings with a rising melody]
+    # play sound "sfx_placeholder"  # [Sound: Low tide murmurs, vendors packing up, distant laughter]
+    "You walk the Promenade as volunteers unload oyster baskets. The market is winding down; the raised gardens cast lattice shadows on the planks. You carry a cart with a modest bounty: oysters wrapped in wet seaweed,"
+    "a thermos of coffee steaming a little in the cool air. Noah Reyes walks beside you, sketchbook closed, hands now empty except for a palm occasionally touching yours."
+    "Lila Park’s team arrives from the Beacon with a carefully balanced crate. Lila Park steps forward—tailored, composed, wave pin catching the light. Her expression is trained to be neutral; the smile that touches her mouth doesn't"
+    "reach her eyes, and it makes her unreadable in the same way a tide chart is until you read the legend."
+    show lila_park at left:
+        zoom 0.7
+
+    lila_park "We spoke at the lab. I want to support the deployment.' (She gestures to the crate.) 'An array—redundant sensors, real-time calibration. We can donate it. Our engineers will need access to align models."
+    "You feel several temperatures at once: the coffee's heat in your hands, the coolness of the Beacon's offer, the draft of salt from the bay. Your internal script ticks through scenarios — speed, security, sovereignty. The lab needs real-time feeds. The town needs trust."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "We appreciate the offer.' (You keep your voice steady.) 'The sensors are valuable, but community access to raw feeds is non-negotiable. We need transparency. No black boxes."
+    "Lila Park: (She inclines her head, one brow lifting.) 'Transparency is desirable and expensive. We can provide a public terminal at the Beacon for curated access.' (The words are carefully measured.) 'Open raw streams are messy; they invite misinterpretation without context.'"
+    "Noah Reyes folds a corner of his sketchbook between his fingers, looking from you to Lila. 'We want shared governance of data,' he says. 'If the Beacon provides hardware, there must be trust in access and open protocols.'"
+
+    lila_park "I can authorize a public terminal and a data-sharing agreement vetted by our legal team. I can't promise—' (Her smile is a flat coin.) '—that our proprietary calibration code will be published. That would hinder future innovations and partnerships."
+    "The offer hangs like a taut line between you. The volunteers laugh near the oyster cart; Marta passes a tray of seedlings and nods at you, eyes bright. There is momentum on both sides — a"
+    "donated array could accelerate deployment, protect houses, plant confidence. Your chest tightens in the most right kind of way: responsibility wants to be acted on."
+
+    asha_moreno "Then the condition is this,' you say, faster than you expect, adrenaline sharpening your clarity. 'Community access to raw feeds. A public terminal isn't enough unless the town can export, analyze, and archive the data we help collect. Our consent must be an ongoing governance mechanism."
+    "Lila Park studies you. 'You drive a hard bargain, Ms. Moreno.'"
+    "Noah Reyes: (Quietly) 'Good. Let her.'"
+    "Lila Park: (She inclines her head, the motion like a lock turning.) 'We can concede a public terminal with export capabilities and a co-governance committee that includes town representatives. The legal details will follow.'"
+    "Your heart ratchets a little faster. The Beacon's polished face, for a moment, shows a crack through which your town can step."
+    "Marta: (Softly) 'Coffee? Celebration? Oysters aren't going to shuck themselves.'"
+    "You breathe in the brine and feel the town's warmth fold around the moment. The donated array, when you imagine it blinking across the marsh, translates to saved homes, to time bought for seedlings to grow into buffers. It hums like a chord that promises both protection and new questions."
+    "Noah Reyes slides a cold oyster into your palm. You taste salt, the ocean's own memory. The necklace at his throat rubs again against your thumb. You find, without planning it, the small, true line of words you haven't said to most people."
+
+    asha_moreno "My father's boat went out on a day like this,' you tell him, voice almost a whisper though no one else needs to hear. 'We thought we'd come back easy. We didn't. I came back to make it harder for the next person to lose what I did."
+    show noah_reyes at center:
+        zoom 0.7
+
+    noah_reyes "You carry him forward.' (He looks at you full-on.) 'Let us carry this with you."
+    "You let yourself lean into that—into the small circle of warmth: Marta's grin, Eli's sawdust grin, Noah Reyes holding your hand like a steadying rope. Solar lanterns are strung as volunteers set up a small celebration"
+    "on the raised garden platform; the light is soft, the sound of low conversation and a guitar someone found in a truck blends into the tide's low chorus."
+    # [Scene: Raised Gardens / Promenade Edge | Evening]
+    hide lila_park
+    hide asha_moreno
+    hide noah_reyes
+
+    scene bg ch5_4001e7_4 at full_bg
+    # play music "music_placeholder"  # [Music: Guitar, soft and buoyant, strings overlapping with the tide]
+    # play sound "sfx_placeholder"  # [Sound: Soft chatter, clinking of tin cups, distant Beacon lights blinking like a careful constellation]
+    "You and Noah Reyes sit on a low crate, the town gathered around. Someone starts to pass around a thermos of the same strong coffee Marta promised. You laugh — small, unguarded — as Eli tells"
+    "an improbable story about a boat he once built that refused to float until a child named it properly."
+    "Lila Park stands a little apart, chatting smoothly with one of her junior engineers — Caleb Osei — who watches the scene with an almost-pinched expression. Lila Park's smile returns at random intervals, polished and efficient."
+    "You watch her from the corner of your eye and feel a familiar flicker: respect tangled with unease. She gave something; she also keeps something."
+    show noah_reyes at left:
+        zoom 0.7
+
+    noah_reyes "You told me earlier, about your father.' (He squeezes your hand.) 'Thank you for trusting me with that."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "I don't tell that story much.' (You press your thumb against the cool silver of his necklace, as if sealing a thing.) 'It matters that you know."
+
+    noah_reyes "I want to know.' (He goes on, slower.) 'I want to be in the rooms with you, even the boring ones. Even the ones where we have to fight over words."
+    "You breathe in the salt and coffee and the smell of someone nearby frying something citrusy. The evening feels full as a net — full of catch, full of possibility. Volunteers hum like a choir of"
+    "small commitments. The Beacon conceded a terminal; your name will be on meeting minutes; the marsh coffers are in the mud. Momentum is not a vague hope anymore but a series of hands and contracts and"
+    "seedlings."
+    "Then you hear the quiet that means something is shifting: a low, professional tone — Lila Park's engineer mentioning 'lawyers,' 'liability,' 'data licensing.' The phrase slides into the celebration like a cool current under warm water."
+    "Caleb Osei: (Muttering, more to himself than anyone) 'They'll need clauses. Standard—'"
+    "Lila Park: (Softly) 'We will draft the agreement so the sponsors are protected. We don't want to set a precedent that compromises all future partnerships.'"
+    "Her phrase is clinical; you feel the cheer dim just a fraction. Not because Lila is betraying you, but because even a concession needs watching. You have won something tangible and already can smell the paperwork"
+    "that will try to turn it into a shape that favors one ledger over another."
+
+    noah_reyes "We need legal language that cements community control, not just polite assurances,' he says, voice growing firmer. 'We should loop municipal counsel and a community advocate."
+    "Lila Park: (Inclining her head) 'Agreed—within reason. We can include town representatives on the committee.'"
+    "Asha Moreno (Internal monologue): This is the exact moment where momentum curves into policy. Momentum without guardrails becomes a slope. You feel the high-energy of the evening like a wave building — good, full of force"
+    "— and you know the crest will break across whatever you choose next. You could accept the array on the negotiated clause and push deployment now. You could insist on open-source installs and slower legal ironclads."
+    "Or you could refuse corporate hardware outright and rally the town to build sensors with our hands."
+    "All three roads taste like victory in different parts of your mouth: quick safety, moral purity, and stubborn self-reliance. Each would change the tempo of the next months. Your heartbeat matches the rising chord of the"
+    "guitar. Volunteers clap; Marta leads an off-key chorus. You find you are smiling again, because each choice comes from a place of love for this town."
+    "The Beacon's halo gleams across the water like a lighthouse of bureaucracy—helpful, necessary, and dangerous if left alone."
+    "You breathe. You can feel the town waiting in the hush between guitar strums."
+    # play music "music_placeholder"  # [Music: Strings swell into an anticipatory trill — heartbeat tempo rising]
+    hide noah_reyes
+    hide asha_moreno
+
+    scene bg ch5_4001e7_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Waves, contained applause, the rustle of a legal pad page being turned somewhere at the Beacon]
+    "You rise to speak, the crowd leaning in as if to hear the vote of a wave. This is where you choose how to guard the town's agency."
+
+    jump chapter6
+    return

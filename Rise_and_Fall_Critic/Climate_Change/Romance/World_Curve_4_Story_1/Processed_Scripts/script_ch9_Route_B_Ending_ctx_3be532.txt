@@ -1,0 +1,200 @@
+### SCRIPT
+# Route: Route B / Ending
+# Context: 3be532
+
+[Scene: Marenport Flooded Promenade | Dusk]
+[Background:"ch9_3be532_1"]
+[Sound: The distant, mechanical thrum of deployment rigs; gulls complaining above; the soft slap of water against pilings.]
+[Music: Low cello, a single mournful line under a sparse piano]
+[Smell: Salt and wet wood, oil and rain; the sweet, green hint of crushed herb from a nearby terrace garden]
+[Background:"ch9_3be532_2"]
+
+You thought the choice you made would keep the city stitched together: gardens, benches, neighbors teaching neighbors how not to drown. That decision is still true in your bones. You can feel the memory of hand-to-hand labor in your fingers—the way Ibe's callused thumb steadies a plank, the sound of children laughing as seeds go into soil. And yet the world changes around those seeds.
+
+From the far end of the channel, the barge's lights blink in a measured rhythm. The TideGrid machines—they buzz now on a scale you had promised you'd resist—descend like a new tide. The consortium moved faster than the hours you had banked for conversations and petitions and petitions that could not hold against an emergency decree. Rin Voss's voice in the council was calm and razor-quick: efficiency as mercy. Mercy felt like a blade tonight.
+
+You watch a crew lower a segment of the grid. It is impressive: sleek, engineering-smooth, water-run veins and sensors that bloom like barnacles under sterile glass. The immediate effect is visible. A measured hiss, intake pistons, and the line of water around the central hospital pulls back, revealing dry stone where there had been deep-slick channels an hour ago. Lights blink on inside, and someone inside a window breathes without panic for the first time this week.
+
+But relief has an edge. The pumps are networked. The algorithms favor nodes with dense infrastructure and registered influence. The aid routing prioritizes hospitals, supply centers, and districts with recognized access protocols. A map—digital, glowing—pulls the city into bands: stabilized zones, prioritized corridors, and gray margins where the tide still holds teeth.
+
+You walk along the promenade, the boards clicking wet beneath your boots. Neighbors cluster under makeshift awnings. Their faces, thin with resentment and cold, turn as you pass. Someone you have shared coffee with in the morning—Alya from the floating bakery—steps forward, eyes glassed with rain.
+
+Neighbor Alya: "They turned us away at the hub," she says without prelude. "The scanner kept blinking red. My boy's wound got worse waiting, Maia."
+
+You hold her gaze. Your throat tightens—a physical memory of every time you couldn't do enough.
+
+Maia Soler: "Did they say why? Was it—"
+
+Neighbor Alya [bitter]: "A 'triage priority.' We don't have the registry. The ledger says our island lacks 'sufficient ties' to the main nodes. Sufficient ties. As if a roof and a name were the same thing."
+
+You let the words land. The system's efficiency has a vocabulary that excludes.
+
+[INTERACTION]
+> Choice A: "Step into the aid hub to argue the protocol"
+> Choice B: "Stay with Alya and help tend to her boy"
+[Outcome A: You push through the tarpaulin curtains toward the hub, finding a technologist at a terminal. Your voice is steady but small against her firewall of code; the conversation devolves into procedural recitation. You leave with a printed denial and a deepening knot in your chest.]
+[Outcome B: You sit on a soaked crate and tear a strip of cloth to bind the wound. Hands on hands, practical and warm, you find a rhythm that is not data-driven but honest. The boy settles against you; for a moment the city is held by human care, not algorithms.]
+[MERGE: You choose—and either way, the outcome is a lesson in how these large machines translate into human economy: an efficient grid that makes decisions in a code you did not help write.]
+
+[Scene: Centralized TideGrid Deployment Site | Night]
+[Background:"ch9_3be532_3"]
+[Sound: The low mechanical thrum now closer; data-chimes ping as nodes report; a hushed human chatter underscored by the wind.]
+[Smell: Scentless antiseptic and the cold tang of metal.]
+[Music: Tense electronic undercurrent]
+
+You follow a routed supply line toward one of the stabilization nodes. Ibe is there, larger than the machines, arms crossed like he can hold a line against calculus.
+
+Ibrahim 'Ibe' N'Diaye [quiet fury]: "They came in with mandates and a smile. They call it lifesaving. They call it 'objective triage.' They didn't come to ask us where our pumps are. They came to reassign them."
+
+You stand beside him, watching as a loader swings a reclaimed community pump into the back of a TideGrid support truck. Those pumps—your pumps—were fashioned in the shed by hands that knew every splinter. They are being lifted into bays where, overnight, they will become components of a system that decides who gets water and when.
+
+Maia Soler: "We built those for everyone."
+
+Ibrahim 'Ibe' N'Diaye [bitter chuckle]: "We built them so neighbors didn't have to beg. Now they'll be grateful to a ledger that tells them when they can breathe."
+
+You both watch Old Man Toma as he approaches, his cloak a patchwork geography of the city's memory. He shuffles, muttering under his breath so that only the salt and boards can hear.
+
+Old Man Toma: "When my quay had a name, we argued over nets and stories. Now a ghost with coin decides if my niece keeps her house. Goddamn the ledger."
+
+He slaps the side of a support casing—a hopeless, human gesture against steel.
+
+Ibe moves to organize people—brigades that can reroute small pumps, swap valves, re-pressurize lines where the algorithm has deemed them low priority. They move like craftsmen who still know the city by touch and sound. It is guerrilla infrastructure: quick hands, knotwork, quiet resolve. You help, because you cannot stop hands from moving toward the work you know.
+
+[INTERACTION]
+> Choice A: "Join Ibe's brigade to reclaim and redistribute pumps"
+> Choice B: "Slip into the deployment site and attempt to throw a spanner into the control systems"
+[Outcome A: You lower into the muck with the rest of them, hands slick with oil and salt. You work with the muscle-memory of someone who has mended more than machines—who mends people. It is exhausting and somehow holy.]
+[Outcome B: You try the technical sabotage you have always resisted. For a breath it seems possible, a flicker of chaos in the model. But a young technician grabs your wrist; you exchange a look and step back. The machine keeps breathing.]
+[MERGE: You choose—and either choice carries the same sharpened truth: small repairs can keep pockets alive, but the architecture of control has set its rules.]
+
+[Scene: Narrow Alley Between Two Warehouse Ruins | Night — Rain]
+[Background:"ch9_3be532_4"]
+[Sound: Rain hard on canvas, a distant siren, the soft mechanical echo of TideGrid adjustments far off.]
+[Smell: Wet fabric, ozone from the nearest condenser unit.]
+[Music: A tight, aching violin]
+
+You find Elias here, leaning on a parcel of wood you once used to prop a seedtray. He looks like someone trying to be steady for both himself and the world. The tablet in his hand shows a live readout of pressure differentials and node efficiencies—numbers that mean lives he could save in aggregate.
+
+Elias Kade [softly, pleading]: "Maia, look at the hospitalization rates. Look at the models. With proper routing—if the TideGrid is allowed to optimize—hundreds of lives that would be lost in a single night are saved."
+
+You feel the familiar tug of his conviction. It has been a shelter and a wound in equal measure.
+
+Maia Soler: "And at what cost, Elias? We taught people to fix their roofs because that knowledge meant something. Now those roofs are under a ledger that decides whose roof counts. You helped design this. Was this what we were building?"
+
+Elias Kade [voice hardening]: "We designed a safeguard. I didn't design the politics. If evacuations and hospital backups mean saved children, what good is a neighborhood's autonomy? What good is memory if we're all dead?"
+
+You both circle the same wound from opposite sides. There is heat in your hands—rainwater mixing with the salt on your skin—so close you could take his face into your palms and find the man you loved. Instead, the ache folds into language.
+
+Maia Soler: "We are not arguing about models. We're arguing about whom those models leave behind. Ibe's pumps, your community garden—people built those because they trusted each other. They didn't sign into a ledger to prove their worth."
+
+Elias Kade [a long inhale]: "You think I don't know that? You think I don't see Old Man Toma's eyes when the nodes reroute away from his quay? Maia, I lie awake with those same pictures. But when the city gives me a choice—save a hundred now or hold out for an ideal—what am I supposed to do? Let them drown for principle?"
+
+You stop, because the question is sharp and personal and real. You are angry. You are grieving. You are hollow with mourning for the trust you thought could hold a relationship under the strain of public ruin.
+
+Elias Kade [softer, fracturing]: "I didn't come to replace you. I came to stop them from losing everything."
+
+Maia Soler: "And you didn't ask us—our hands, our ways—what 'everything' means."
+
+He steps closer, the wet of his sleeve marring your own. For a second the rain muffles the city and two people stand under a thin awning with thunder above.
+
+Elias Kade: "I'm sorry. God, I'm sorry. I thought—"
+
+You reach for him. The instinct is old and warm and yes, human. Then you feel the shape of the decision between you, heavier than both your hands: his expertise folded into a machine that erases small sovereignties; your insistence on autonomy at the possible expense of immediate lives.
+
+[INTERACTION]
+> Choice A: "Take his hand and try to convince him to help the brigades"
+> Choice B: "Let your hand fall and walk away, refusing to be patched"
+[Outcome A: You grip his fingers and say, fiercely, 'Help us make the TideGrid open-source. Help us make a gate the community can control.' His eyes widen; the tablet between you flares with a live map. For a beat, he is hopeful.]
+[Outcome B: You let go. Your chest is a heavy stone. He reaches, then stops. Rain mists the space between you like a screen. You walk back toward the boards, toward people who need you in the concrete way you know how; he stays, open and unmended.]
+[MERGE: You move, and your movement tells a story neither of you can fully own. Elias watches you with a look like a question that will ache for a long time.]
+
+Elias Kade [after you have started away]: "Maia—please—"
+
+You do not look back. The alley swallows his plea in the rain.
+
+[Scene: Aid Hub — Late Night]
+[Background:"ch9_3be532_5"]
+[Sound: Human murmurs, a child crying low, the distant regulated hiss of TideGrid pumps moving in a rhythm that makes the floor feel less stable.]
+[Smell: Wet wool, the metallic tang of fear; coffee cold in a thermos.]
+[Music: Sparse piano, a single chord repeated, slowing]
+
+You spend the night at the hub. You distribute bread with hands that still remember planting rows. You show people how to stitch temporary seals into their doors. You organize Ibe's brigades into relay teams to re-pressurize lines when the algorithm drops them. Old Man Toma tells stories to a circle of young faces so they will remember the names of the docks that once were. These are small, stubborn liturgies.
+
+But the ledger keeps tallying. The algorithm, good at triage, is indifferent to memory. It prioritizes networks and channels and tagged infrastructure. It cannot account for the human grief that follows exclusion. A woman with a baby is told to wait; an older neighbor's cane cannot cross the designated corridor. You step in where you can. Where you cannot, you hold a hand and say the only things you have left to say.
+
+The city stabilizes in measured parts. The hospital remains dry. The main market's terraces do not drown. The material calculus saved many lives. But the social ledger reads differently: friendships splinter into accusations, alliances into bitterness. People who once traded seeds now trade suspicion.
+
+[Background:"ch9_3be532_6"]
+
+[Scene: Flooded Promenade | Dawn — Aftermath]
+[Background:"ch9_3be532_7"]
+[Sound: The mechanical hum now steady; gulls quieter; voices at a low pitch.]
+[Smell: Wet earth, crushed salt, the faint sweet of a single sprouted seed in a pot.]
+[Music: Solo cello, descending]
+
+You walk the promenade at dawn. There are places where water has receded, where new dry stone is exposed, and people stand looking at the patterns of their lives with a different sort of grief. A neighbor you taught to graft seedlings onto driftwood holds a sapling and stares at the TideGrid buoy blinking in the distance.
+
+Ibrahim 'Ibe' N'Diaye [soft]: "It saved some. It took some. It made things tidy, but not fair."
+
+You nod. You feel the weight in your throat: grief for what you could not stop and also for something more intimate—the way love can fray into accusation.
+
+Old Man Toma approaches, leaning on his cane, a small smile like a vase cracked and glued.
+
+Old Man Toma: "You still plant, don't you?" he asks, voice rough as rope.
+
+Maia Soler: "Every time I can."
+
+He studies you like one who has counted tides and hearts.
+
+Old Man Toma: "Good. Keep it up. People need to know the smell of soil. They need to know what can't be put in a ledger."
+
+You run your thumb over the copper locket at your throat. The salt has crusted the edges. Inside the tiny photograph the shore is narrower now, but the curve of it is still there.
+
+You think of Elias—the man who loved big answers, who loves them still in some quiet, rigid way. You think of the moment in the alley where hope trembled between your fingers. You think of the brigades and the songs the children hummed while they worked, and you know two things like rope around your ribs:
+
+One: Some of the city was saved in a way you couldn't imagine saving it without the machine.
+
+Two: The machine took agency that people needed as air.
+
+The city, then, is both more and less than it was. You have won and lost in equal measure. The TideGrid hums and the hospital lights shine; a dock is dry but a memory is drowned.
+
+You have been bruised. You are also not broken. You are left with a choice—not the grand global decision that councils make, but the slow, stubborn decisions of every morning: where to walk, whom to forgive, which seeds to plant where.
+
+You set down a small pot you have been carrying. It is a stubborn thing: a sprout lifted from a rooftop terrace, wrapped still in the compost you and Ibe mix. You plant it into a crack between two stones. Your hands are steady. Children nearby watch as if watching someone perform a small miracle.
+
+Ibrahim 'Ibe' N'Diaye [soft]: "You will keep them, then?"
+
+Maia Soler: "I will keep them. As many as I can."
+
+You press the soil down. The sprout shudders in the cold wind and stands. It is not much. It is not a grid. It is a promise.
+
+Elias Kade appears at the edge of the promenade. He does not cross to you. He watches, hands in his pockets, a shape of regret and something like love that now looks like distance. He shields his face against the low sun and then turns away slowly, back toward the city that minted his moral arithmetic into hardware.
+
+You do not call him. You do not run after him. That chapter closes with a quiet like the settling of new mortar—no dramatic slams, just rooms emptied over time.
+
+You feel the weave of your community around you: Ibe's broad shoulders, Toma's brittle laugh, the child who plants like a priest. Some relationships will mend; some will not. The city will never be the same.
+
+You look at the sprout, at the salt on your locket, at the line where sea becomes sky. You breathe in the new day, and the breath is small and bitter and clean.
+
+You will continue. You will organize, teach, press against the ledger where it can be pressed. You will keep making room for people to find one another again.
+
+It is not triumphant. It is not clean. It is the exact, aching place where survival meets memory.
+
+[Background:"ch9_3be532_8"]
+[Music: Cello resolves into a low sustained note; wind chimes in the distance]
+
+You tuck your hands into your jacket, feel the locket warm against your sternum, and take a step toward the terrace where there will be people to teach tomorrow, seeds to sort, and a long list of grievances to keep in memory.
+
+[Background:"ch9_3be532_9"]
+[Music: Fade out]
+
+[Background:"ch9_3be532_10"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

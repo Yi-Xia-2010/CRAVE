@@ -1,0 +1,446 @@
+{
+  "title": "Tidefall: An Icarus of Salt and Steel",
+  "summary": "Mara Ellis, a marine ecologist in near-future New Maris, fights to prove nature-based adaptation can scale. Reconnecting with Jonah Reyes, an engineer rooted in fishing culture, they build momentum through pilots, testimony, and hybrid designs that win public support. Their success draws corporate power in Elias Crowe and NovaSeis, forcing urgent choices: collaborate and scale with Jonah, confront corporate practices, or pursue slow regulatory change. Each path follows an Icarus arc—rapid ascent to public validation followed by a catastrophic fall shaped by environmental feedbacks, political backlash, and displacement. Branches differ by which compromises are accepted and how collapse affects relationships, neighborhoods, and the city's future.",
+  "emotional_curve_type": "Icarus",
+  "player_character": "Mara Ellis",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Harbor Lessons",
+      "branch_designation": "Common",
+      "narrative_focus": "I introduce myself and my life in New Maris: my chestnut curls, the single salt-silver streak at my temple, sea-glass green eyes, and the brass dive watch I wind as if it measures tides and decisions. I work aboard the Tide Lab ferry, studying marsh restoration and mapping living shorelines. I receive a message from Jonah; the engineer's amber-brown eyes and sun-bleached hair flash in my memory. The city hums outside—wet wood, algae, neon—while I compile data and sketch scalloped marsh edges in my leather-bound notebook. The chapter establishes my goal — proving nature-based adaptation at scale — and my distrust of profit-driven quick fixes personified by Elias Crowe. Small kindnesses with my sister Maya and Professor Asha ground me. A minor success: a community pilot in the Drowned District shows early stabilization. This small victory raises my confidence and draws Jonah closer: he drops by in slate-gray workwear to show me a modular berm detail. The mood is hopeful, focused, tactile. The next step is a council presentation that could widen our influence.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Maya",
+        "Professor Asha"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Drowned District"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Promenade Momentum",
+      "branch_designation": "Common",
+      "narrative_focus": "Our pilot's data attracts local media and a neighborhood workshop on the Promenade. I navigate community tensions: Old Mate's stories, Maya's impatience, and Councilor Anika Patel's polite skepticism. Jonah helps with models and photos; his woven fishing-line ring glints when he hands me a print. We present tactile plans—living breakwaters and marsh terraces—that win cautious applause. Asha offers archival data to bolster our claims. Momentum grows: a council hearing is scheduled. Elias Crowe's firm has eyes on the same district; rumors of NovaSeis proposals hang like storm clouds. The chapter builds rising public support and sets the stage for the split: do we ally more openly with Jonah's engineering pragmatism, take on Elias directly, or push for a cautious policy-first approach? My internal monologue reveals my stubbornness and fear of compromise even as my heart warms to Jonah. Visual details emphasize wet boardwalks, reflected neon, and Jonah's calloused hands.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Maya",
+        "Councilor Anika Patel",
+        "Professor Asha",
+        "Old Mate"
+      ],
+      "locations_used": [
+        "Promenade"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Council Call",
+      "branch_designation": "Common",
+      "narrative_focus": "At the glass Council Chambers I present data and testimony with Jonah at my side. Our work is compelling; the holographic coastline behind us swells as my graphs climb. Elias Crowe stages a counterpresentation flanked by polished models and a company rep. Councilor Anika is visibly pressured—funding, timelines, and political optics collide. I confront the ethical stakes: do we join Jonah's pragmatic pilot and craft a public partnership; do we mount an aggressive expose of Elias; or do we lobby for a policy-driven, cautious strategy that forces regulatory change? My internal voice trades between scientific rigor and stubborn idealism. Jonah's calloused hand on a model's edge and his faded bandana caught in his pocket become intimate anchors. The chamber's sterile lights contrast with the wet, lived-in world outside—my coral-stained cuffs feel suddenly conspicuous. This is the first major split. Each choice will guide whether our ascent leans collaborative, confrontational, or institutional.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I steer our moment of influence?",
+        "options": [
+          {
+            "label": "Partner publicly with Jonah: propose a high-profile pilot together.",
+            "consequence": "Solidifies Jonah's engineering role and community trust; increases visibility and funding",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Expose NovaSeis' proprietary trade-offs and lobby for accountability.",
+            "consequence": "Puts us in direct conflict with Elias and his investors; may alienate moderate councilors",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Push for regulatory change: make the city adopt strict ecological adaptation standards first.",
+            "consequence": "Slower, system-level approach requiring legal and scientific maneuvering",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Councilor Anika Patel",
+        "Professor Asha"
+      ],
+      "locations_used": [
+        "Council Chambers"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Berms and Trust",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose to publicly partner with Jonah. The city greenlights a high-profile pilot blending his modular engineering with my living shorelines. Jonah arrives in his slate-gray jacket, sun-bleached tips brushing his forehead as he unfurls a scaled model; his camera leans against packed charts. We secure funding, community buy-in, and a short media cycle that celebrates our hybrid approach. I savor the swift validation—my sea-glass eyes lit with a fragile glee—while also negotiating compromises on materials and maintenance schedules to appease council pragmatism. News vans line the Promenade; Maya distributes flyers. Professor Asha helps frame our science in accessible terms. The pilot begins with broad, visible successes: seedlings take; fish return; neighbors meet at the rooftop garden to celebrate. The chapter is about momentum, trust, and intimacy strengthening with Jonah as we share late-night planning on the PolySilo rooftop. Yet tiny compromises are made—faster-curing concrete in certain foundations, a concession I note with a tightening chest. The decision propels us upward.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Maya",
+        "Professor Asha"
+      ],
+      "locations_used": [
+        "Promenade",
+        "PolySilo rooftop",
+        "Tide Lab"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Apex of the Model",
+      "branch_designation": "Route A",
+      "narrative_focus": "The pilot's success becomes a headline: \"New Maris Model,\" with photos of Jonah's camera prints across the feed. Council votes to expand the hybrid model citywide; Elias is forced to recalibrate his PR. Jonah and I are invited to co-design a larger program; our partnership deepens into tentative romance. We celebrate at the Tide Lab and on the Promenade; I allow pride and affection to rise. Yet pressures intensify: investors push for faster scaling, maintenance contractors ask for exclusive bids, and Jonah admits he's been asked to sign an NDA with NovaSeis subsidiaries to work on integrated components. Professor Asha warns about scale effects we've not modeled. I weigh my stubborn insistence on ecological integrity against the intoxicating promise of systemic change. This chapter reaches the emotional apex: public recognition, political leverage, and my slow, blooming closeness with Jonah. The final scene features a council press release and Jonah pressing his palm to mine as the cameras flash.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we respond to investor pressure and NovaSeis overtures?",
+        "options": [
+          {
+            "label": "Accept integrated contracts with careful clauses; we scale now.",
+            "consequence": "Rapid expansion but with contractual compromises",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Refuse NovaSeis involvement and insist on transparent, local-only contracts.",
+            "consequence": "Slows expansion; protects integrity but risks political backlash",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Secretly gather and publish independent post-installation data to build legal leverage.",
+            "consequence": "Asha helps; risky but could force regulation",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Professor Asha",
+        "Maya",
+        "Elias Crowe",
+        "NovaSeis"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Promenade"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Storm Breach",
+      "branch_designation": "Route A — Ending",
+      "narrative_focus": "Rapid scaling leads to unforeseen interactions: engineered berms and living terraces meet a late-season superstorm. Proprietary sensors deployed under NovaSeis-licensed contracts fail in a coordinated way; engineered structures amplify wave reflection in certain channels, accelerating erosion in low-income neighborhoods. The press calls it an \"unforeseen failure\"; councilors look for scapegoats. Elias' company claims sabotage; an emergency seawall buyout is proposed. The Drowned District takes the worst hit. Personally, Jonah and I survive but are blamed for the compromises we accepted. The municipal program is scarred but aspects of the hybrid approach endure—neighbors band together to rebuild living terraces, and Jonah and I cling to our partnership. The ending is a bittersweet “happy” close at personal level: our relationship persists and local efforts keep pockets of life; the Icarus crash is real—systemic loss, displacement, and political fallout—but there is still a tender human victory at the heart.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Old Mate",
+        "Maya",
+        "Professor Asha"
+      ],
+      "locations_used": [
+        "Promenade",
+        "Drowned District",
+        "Tide Lab"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Unquiet Accusations",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose to confront NovaSeis. Working with Professor Asha, Maya, and a small investigative collective, I begin compiling a dossier on NovaSeis trade-offs: accelerated erosion at model sites in other cities, withheld long-term sediment data, proprietary components that limit community access. Jonah is wary—his municipal ties risk conflict—but he shares images and field notes that strengthen our case. Elias publicly denies allegations and deploys glossy counter-narratives. We mobilize residents for a council oversight hearing. The city listens; momentum builds as more data is unsealed. The chapter is an ascending fight—my stubbornness fuels public anger and our profile rises. Visuals include printed reports, Jonah's camera, my wet notebook, and Elias' cool public poise. The split ahead will determine whether legal pressure constrains corporate overreach or whether the political cost isolates us.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mara Ellis",
+        "Professor Asha",
+        "Maya",
+        "Jonah Reyes",
+        "Elias Crowe"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Council Chambers",
+        "Promenade"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Oversight Hearing",
+      "branch_designation": "Route B",
+      "narrative_focus": "The council oversight hearing is a charged spectacle in the glass Chambers. I testify with Asha and present the dossier. Jonah offers technical clarifications but keeps an institutional distance to avoid jeopardizing his municipal role. Elias frames NovaSeis as the pragmatic savior; in response, I release satellite imagery and community testimony that make the public uncomfortable. Councilor Anika faces a political rupture: will she support strict oversight and penalties, or broker a compromise that saves face and keeps contractors engaged? Our ascendancy is palpable—bills are drafted, hearings scheduled, and the city seems primed for a policy pivot. Yet Elias leaks a rumor that our tactics risk destabilizing investor confidence and could delay protections. The chapter increases emotional intensity and includes a split: press the legal and political assault (leading to a quicker legislative curb) or negotiate a mediated settlement that placates investors but risks dilution.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we leverage the hearing's momentum?",
+        "options": [
+          {
+            "label": "Push for immediate regulatory penalties and public audit.",
+            "consequence": "Risks investor pullout but could constrain NovaSeis quickly",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Agree to mediated standards with enforceable oversight to keep funding flowing.",
+            "consequence": "Slower change but institutional buy-in; potential dilution of protections",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Escalate with leaked evidence to national press to force federal oversight.",
+            "consequence": "High-stakes exposure that could either topple NovaSeis or catalyze backlash",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Professor Asha",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Councilor Anika Patel"
+      ],
+      "locations_used": [
+        "Council Chambers"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Backlash",
+      "branch_designation": "Route B — Ending",
+      "narrative_focus": "Our hardline approach wins a temporary regulatory clampdown on NovaSeis contracts and a public audit. Elias retaliates with lawsuits, PR campaigns, and rapid municipal lobbying that stalls funding. The city's investors panic; large-scale projects freeze. The Drowned District is temporarily shielded by emergency measures, but long-term maintenance halts as insurers flee and private contractors withdraw. Jonah, caught between municipal duty and community loyalty, is pressured into signing conciliatory memoranda that save some infrastructure but undercut autonomy. The scandal fractures alliances: some neighborhoods gain protections; others are left in limbo. My relationship with Jonah endures, but strain and compromises cast shadows. The narrative ends with a real win—a constrained NovaSeis—but also with the hollow taste of victory: we slowed a giant, but the political economy of adaptation is damaged, and displacement continues in quieter ways.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Councilor Anika Patel",
+        "Investors"
+      ],
+      "locations_used": [
+        "Council annex",
+        "Drowned District",
+        "Promenade"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Paper Shields",
+      "branch_designation": "Route C",
+      "narrative_focus": "I decide to push for regulatory change: ecological adaptation standards and procurement reform. Working with Professor Asha, Councilor Anika, and community groups led by Maya, I craft legal language and evidence packages supporting decentralized, nature-based mandates. The pace is slow; hearings multiply, and political compromise is constant. Jonah supports the conceptually aligned parts but warns that timelines might cost lives in imminent high-risk zones. Our method wins modest wins: a city ordinance favoring nature-based procurement, pilot funding earmarked for community maintenance, and a national think piece recognizing New Maris as a model. The emotional tone is steady optimism; my stubbornness is channeled into policy texts rather than immediate action. Visuals emphasize paperwork, the Tide Lab's green glow, and my worn watch. The route gears toward institutional ascent.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mara Ellis",
+        "Professor Asha",
+        "Councilor Anika Patel",
+        "Maya",
+        "Jonah Reyes"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Council Chambers",
+        "PolySilo rooftop"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Regulatory Peak",
+      "branch_designation": "Route C",
+      "narrative_focus": "The ordinance passes in committee; enforcement mechanisms are included. For a moment the city seems to pivot irreversibly toward ecological adaptation. I am celebrated as a scientist-advocate; Jonah is credited for technical feasibility. The program secures steady funding and the attention of national regulators considering similar frameworks. Our shared work grows intimate: evenings in the rooftop garden, Jonah's camera by our plans, and a slow, dependable romance develops. But Elias's firm lobbies for loopholes; contractors petition for exceptions; a last-minute amendment threatens to permit engineered exemptions in emergency conditions. I must choose whether to accept the amendment for faster political passage or hold out for uncompromised language. The chapter feels like the apex: institutional power seemed within reach.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Do I accept an amendment that expedites passage but allows emergency engineered exemptions?",
+        "options": [
+          {
+            "label": "Accept the amendment to lock the ordinance in now.",
+            "consequence": "Ensures regulation but leaves room for centralized emergency measures",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Hold out for hardline language, risking delay.",
+            "consequence": "Could produce stronger protections but may stall implementation",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Publicize the loophole and force a civic referendum.",
+            "consequence": "High public engagement but unpredictable political fallout",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Councilor Anika Patel",
+        "Elias Crowe"
+      ],
+      "locations_used": [
+        "Committee Room",
+        "PolySilo rooftop"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Emergency Protocols Fail",
+      "branch_designation": "Route C — Ending",
+      "narrative_focus": "The ordinance passes with the amendment; the city celebrates an institutional victory. But within months, an intense storm—earlier and stronger than models predicted—triggers an \"emergency exemption.\" Centralized engineered measures are deployed under the amendment: quick-fill concrete revetments, heavy geostructures, and sealed barriers that, while stemming a surge in downtown high-rises, create destructive reflection effects that scour adjacent low-lying neighborhoods and accelerate longshore erosion. The Drowned District collapses under waves; many residents are displaced permanently. Elias' corporations move quickly, signing contracts that lock in maintenance and limit community control. Jonah and I are torn—he helped draft technical specs that were repurposed; I feel my stubborn idealism betrayed. The ending is grim: political victory transforms into moral catastrophe; the city is safer for some, ruinous for others. My relationship fractures under blame and grief.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Maya",
+        "Contractors"
+      ],
+      "locations_used": [
+        "Foreshore",
+        "Drowned District",
+        "Downtown"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Data and Reckoning",
+      "branch_designation": "Alternate",
+      "narrative_focus": "I choose to pursue a risky, systemic gambit: publish unassailable, open-source longitudinal data with Professor Asha while mobilizing a national coalition. The release catalyzes federal intervention, new regulations penalize harmful geoengineering contracts, and NovaSeis loses market dominance. Initially our influence spikes—New Maris becomes a model. Jonah and I are commended; displaced neighborhoods receive prioritized funding for relocation and reparative programs. But the victory comes with costs: some communities cannot be saved and must be moved; political turbulence topples local officials; Elias' fall is messy and litigious. The arc follows a bright, fast rise into national policy influence, then a fall as the political and human toll of systemic change becomes visible: families uprooted, fragile ecosystems struggling. The ending is \"True\" in the sense of systemic reorientation, but it bears the bitter price of lives and homes lost.",
+      "emotional_trajectory": "Rise/Fall",
+      "entry_condition": "From Chapter 4, Option C OR From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Professor Asha",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Federal regulators"
+      ],
+      "locations_used": [
+        "Tide Lab",
+        "Promenade",
+        "Federal agencies"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Compromise Settlement",
+      "branch_designation": "Alternate",
+      "narrative_focus": "I accept or participate in a mediated settlement that preserves funding but dilutes protections. NovaSeis remains in a constrained but active role; municipal projects resume under corporate oversight. The immediate crisis is staved off, and many neighborhoods receive emergency support. But engineered structures proliferate; in time, they alter nearshore dynamics and accelerate subtle losses—sealed shorelines, less tidal exchange, and creeping displacement. The narrative arc rises as we avert collapse but falls as long-term ecological and social costs accumulate. Jonah and I survive but must reconcile the moral compromises we made to keep systems running. The ending is bittersweet-to-sad: safety for some, creeping loss for others, and a personal toll of regret.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option B OR From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Ellis",
+        "Jonah Reyes",
+        "Elias Crowe",
+        "Old Mate",
+        "Contractors"
+      ],
+      "locations_used": [
+        "Council Chambers",
+        "Promenade",
+        "Nearshore"
+      ],
+      "id": 14
+    }
+  ],
+  "remarks": "",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 11:00:14"
+}

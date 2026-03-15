@@ -1,0 +1,153 @@
+label chapter1:
+
+    # [Scene: Low Street and Docks | Morning]
+
+    scene bg ch1_Start_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gull calls, the soft slap of water against wooden pilings]
+    # play music "music_placeholder"  # [Music: Sparse, acoustic motif — slow piano with restrained strings]
+    "You open your waterproof notebook and feel the thin, brittle edge of the marsh grass between the pages. It is still faintly green where the salt hasn't completely leeched the life out of it — a"
+    "blade you pressed after wading knee-deep two mornings ago. Your thumb follows the pressed stem without thinking; the habit is small and private as a prayer."
+    "Your hands are callused in the way that says you have been in mud and salt for years. The skin along your knuckles holds the faint white scars of rope burns and grafted effort. When you"
+    "lift your chin the silver locket at your throat nudges against the collar of your faded navy raincoat. You feel its slight weight, the map-slit of a childhood shoreline tucked inside, and for a heartbeat the"
+    "shore is small enough to fit under glass."
+    "The town smells of kelp and diesel. Low Street holds that smell in its bones — gutters streaked green, tar and algae on the steps. Fog peels upward in sheets; puddles mirror the low sky. You"
+    "keep your shoulders loose against the salt wind and walk as if you own no hurry."
+
+    "You talk to the harbor's crates and ropes as if they were neighbors. The rope when you run your fingers along it is rough, salted with use; crates smell of fish and damp cardboard. You murmur observations under your breath — erosion beginning here, a barnacled rope frayed there — and write small shorthand in the margin" "pilings bent — Sx3 / sea-wall scar @ 14m."
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant engine starting, low and steady]
+    "You perform a quick survey because that is what you do: glance at erosion lines like reading someone's face, note the angling of a bent piling that leans seaward as if pushed by a remembered storm,"
+    "map an old sea-wall scar where concrete has delaminated and algae has crept into the cracks. Each mark is a small truth. You catch yourself thinking in equations and in memories at once — how much"
+    "sediment was lost, and who lost their pantry when that last surge came through."
+    "Across the slip, beneath the shelter of an awning, Mateo stands with blueprints rolled under his arm and a field vest half-buttoned against the chill. The sight of him is a small, warm thing: sea-green eyes"
+    "narrowed in concentration, hair damp at the temples, a laugh caught at the corner of his mouth like sunlight through water."
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "You're up early. Or late, depending on how you look at tides."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "Always early for tides.' You shrug, voice low to match the morning. The notebook fits under your elbow like an anchor. 'You look like you've been fitting the bay into that tube."
+
+    mateo_ros "Trying. Council wants something that shows money and metrics. I brought the latest cross-sections — but you already know the numbers better than anyone here."
+
+    aiko_navarro "Numbers don't capture who eats at a table down Low Street.' Your words are soft, careful, because you are part scientist, part neighbor. 'They capture risk. They don't capture dignity."
+
+    mateo_ros "Dignity can be baked into a plan. Jobs, local stewardship programs, shared governance — those can be metrics, if we want to make them. I keep thinking about how to show it so the council sees it as a deliverable."
+    "You study his fingers where they press the blueprint edge, imagining them measuring stakes and negotiations the way he measures soil density."
+
+    aiko_navarro "We can't let them forget people in favor of deliverables.' Your voice is quieter now, not accusing him, but naming a fear that tastes like metal. 'That was the last push's promise and where it fell flat."
+
+    mateo_ros "I know. And I hate that the system asks us to make those false choices. I like the way you stitch story and survey together. It'll matter when we present."
+    "The exchange feels like a tether between you: gentle, practical, and unhurried. There is warmth in the way he listens, an almost professional patience that doesn't slide into distance."
+
+    menu:
+        "Trace the pressed grass with your thumbnail":
+            "You slide your thumbnail along the blade until you find the faint vein where the salt concentrated. It steadies you; a private calibration of why you work."
+        "Tuck the grass back deeper into the pages":
+            "You slot the grass back into the notebook with extra care, as if putting something fragile into a pocket that will keep it safe for the day. The motion settles your lungs."
+
+    # --- merge ---
+    "The scene continues with the greenhouse visit."
+    # [Scene: Tidepark Research Greenhouse | Late Morning]
+    hide mateo_ros
+    hide aiko_navarro
+
+    scene bg ch1_Start_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of filtration systems; occasional drip of water]
+    # play music "music_placeholder"  # [Music: Ambient, a single long cello note sustaining]
+    "You move through the greenhouse with the same slow attention you bring to everything. The air is humid and earth-rich; it feels like the inside of a lung. Your boots make soft impressions in the damp"
+    "path between beds. Hands that sort numbers now examine leaves — their edges, the salt uptake, the new root threads."
+    "Tala is there, kneeling over a raised bed, her purple hair a bright punctuation against the green. She looks up and offers you a grin that is all momentum."
+    show tala_kumari at left:
+        zoom 0.7
+
+    tala_kumari "I love seeing you with mud on your knees and a notebook like a talisman.' She stands, hands smeared with soil. 'We planted the halophytes you suggested. They're taking."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "They're better than me at holding the edge."
+
+    tala_kumari "Good. We'll need stories of success when we gather signatures. People respond to the small wins."
+
+    aiko_navarro "They do. But they also need work that pays the bills.' The pragmatism rises, not sharp but steady. 'That's why any restoration has to create jobs — maintenance crews, monitoring teams. People can't volunteer away rent."
+    "Tala nods, eyes bright with agreement and a flash of impatience."
+
+    tala_kumari "We'll make that part of the pitch. Aiko, you do the mapping. I'll run outreach. Old songs and new spreadsheets."
+    "You let yourself smile. The plan is a ladder with worn rungs: you build it one piece at a time."
+
+    menu:
+        "Ask Tala to start a skills training list":
+            "You pull out a page and jot down 'monitoring / maintenance / pilings repair' in tidy columns. Tala leans in, adding names and local contacts without missing a beat."
+        "Tell Tala to hold off until you have more data":
+            "You hesitate and close the notebook a fraction, thinking about how the council likes a tidy packet. Tala watches the pause and looks mildly worried, but she respects the caution."
+
+    # --- merge ---
+    "You leave the greenhouse and head to the community hub to consult more neighbors."
+    # [Scene: The Aquarium — Community Hub | Early Afternoon]
+    hide tala_kumari
+    hide aiko_navarro
+
+    scene bg ch1_Start_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Quiet chatter in the background; a kettle boiling; the distant roar of the ocean like a held breath]
+    # play music "music_placeholder"  # [Music: Warm, low guitar picking]
+    "You step into the repurposed aquarium and the room seems built to hold stories. Old tile murals of fish stare down like witnesses. String lights make small islands of brightness; people cluster in them, exchanging news in that slow way neighborhoods do."
+    "Ivy greets you first — paint on her overalls and a cheeky grin as usual."
+    show ivy_navarro at left:
+        zoom 0.7
+
+    ivy_navarro "You look like you brought weather with you.' She bumps your shoulder. 'Also, where's that useless expensive coffee Mateo's been hoarding?"
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "You mean the one he brags about and never shares?"
+    "Old Man Rohan sits to one side, fingers folded over a thermos, listening like he always does. When you glance his way he nods — the slow, wind-worn approval of someone who watches tides the way other men watch clocks."
+    show old_man_rohan at center:
+        zoom 0.7
+
+    old_man_rohan "Storms used to say themselves. You could read the sky and know which fish would come in.' His voice is soft, curled with memory. 'Now the sea speaks with new tongues."
+
+    aiko_navarro "You've been keeping notes?"
+
+    old_man_rohan "Always. The old markers shift their votes. Pay attention."
+    "You fold his words into the notebook, not as data yet, but as scaffolding for the way plans will need to feel like home. The presence of people — Ivy's bluntness, Tala's urgency, Rohan's long memory — makes the technical work you do feel less solitary."
+
+    ivy_navarro "When you pitch, promise me two things.' She leans forward, earnest in her own blunt way. 'One: no one gets priced out. Two: don't let the fancy company take our docks and call it 'community access.'"
+
+    aiko_navarro "I can't promise outcomes.' The sentence leaves a small metallic taste in your mouth. 'I can promise I will try to tie jobs and ownership to anything we plan."
+    "Ivy exhales, satisfied by the attempt if not the certainty. Mateo Ríos joins you at the table, blueprint tube under an arm, and his calm settles into the space as another steady rhythm."
+    hide ivy_navarro
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "I want to see local labor on the contracts. I can shape the language so it's enforceable."
+
+    aiko_navarro "We make a plan that is measured and messy — numbers that fold in people's names. I will pitch a community restoration plan."
+    "The words feel solid when you say them. They are less an anthem than a contract with yourself: to move from observing to proposing, from tending notebooks to convening a table."
+    hide aiko_navarro
+    hide old_man_rohan
+    hide mateo_ros
+
+    scene bg ch1_Start_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The kettle's whistle softens in the background]
+    # play music "music_placeholder"  # [Music: A single, resolving piano chord, gentle and quiet]
+    "Your inner voice notes the tension between data and story the way you notice a seam in a jacket. Both are necessary; one without the other will fail the town. You are practical — you name"
+    "risks, you measure tides — but you also feel every loss personally. You have a tendency to shoulder things: people's fears, obligations left by those who couldn't leave, the town's exhausted hope. You admit it now,"
+    "quietly, because saying it aloud makes the burden lighter by measure."
+    "You close the notebook and feel the tiny click of the cover. It will not be the last time you tuck things inside to carry them forward, but for now the motion is decisive. Resolve sets in like the swell before a tide: slow, inevitable, shaped by gravity and purpose."
+    "You will pitch a community restoration plan."
+
+    scene bg ch1_Start_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant surf; a soft wind through the string lights]
+    # play music "music_placeholder"  # [Music: The theme softens to an anticipatory, minimal refrain]
+    "You stand for a beat longer, tracing the weight of the locket against your chest as if mapping the place it keeps. The preserved grass whispers between the pages. Outside, Marisma Bay continues its quiet work"
+    "of breathing with the tides. You fold your notebook into your bag and, with slow certainty, step toward the next set of measurements and conversations that will turn a private resolve into a plan people can"
+    "use."
+
+    scene bg ch1_Start_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

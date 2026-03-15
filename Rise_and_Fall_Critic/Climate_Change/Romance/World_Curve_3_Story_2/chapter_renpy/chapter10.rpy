@@ -1,0 +1,195 @@
+label chapter10:
+
+    # [Scene: City Hall — Planning Atrium | Midday]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of conversations, a camera shutter; the distant thump of escalators]
+    # play music "music_placeholder"  # [Music: A slow, uneasy piano motif underscored by a low drone]
+    "You still carry the aftertaste of the hearing in your mouth — metal and thermostat air and the faint tang of the catering trays that tried to make bureaucracy palatable. You can feel the meeting's shape"
+    "in your shoulders: a plan verbalized and placed on the long table of power. You proposed the hybrid coalition; you agreed to shepherd it. Saying the words made them real and harder to un-say."
+    "Your compass pendant bumps against your sternum with every breath, a small, stubborn metronome. Across the atrium Elias is speaking in compact sentences to a city engineer; his hazel eyes keep flicking in your direction with"
+    "that cautious interest you have learned to read like weather. Nova stands a little apart, satchel strap taut across her shoulder, watching everyone with a taut, unreadable expression that reads as both accusation and attention."
+    "Mayor Chen's smile has not softened, but there is movement behind the mask: aides exchanging messages, fingers moving across tablets. Professor Anika is at your elbow, wire frames catching the light, a silent tally of risks in her eyes."
+
+    "Mayor Chen" "Ms. Lin, your hybrid proposal gives me the pilot I can take to council. Phased defenses, measurable milestones — politically, that's palatable. I'm willing to authorize a pilot under clear reporting and oversight."
+    "You want to exhale like a body answering gravity. Instead you nod, and the noise of the atrium presses in: the echo of shoes, the whisper of a translator's tablet, the distant gull of someone unloading data at a kiosk."
+    show mara_lin at left:
+        zoom 0.7
+
+    mara_lin "We'll write the milestones into the memorandum. Community oversight will be built into the reporting structure. Restitution funds will be part of the pilot budget line."
+
+    "Mayor Chen" "Restitution funds are a heavy ask, Ms. Lin. But if you can make the criteria tangible, I will put it on the table. The pilot needs to show immediate mitigation, or the council will not approve further phases."
+    "You hear the conditional in her voice and taste it — bargaining salt, a bargain that already narrows the horizon."
+    "Elias Kade steps forward, stylus clipped to his pocket like a second penknife."
+    show elias_kade at right:
+        zoom 0.7
+
+    elias_kade "Tangible milestones are engineering-speak, Mara. We need containment timelines, cost ceilings. We can't let open-ended community funds balloon without a hard cap. I'll help draft the cost models."
+    "You sense the offer carries two things: genuine willingness to pitch in, and a cautious tug toward traditional guardrails. You know Elias wants to root the pilot in numbers; you both know he fears failure as a moral catastrophe."
+    "Nova Duarte's voice cuts across the polite architecture of municipal speech, blunt as a tool left too long to rust."
+    show nova_duarte at center:
+        zoom 0.7
+
+    nova_duarte "Tangible? You call handing out promises 'tangible'? People here want to know whether they'll have roofs in five winters, not what a spreadsheet might say in a year. 'Phased' is code for 'wait and see' while people keep losing homes."
+    "Her glare finds you like a weather front. It does not ask for explanation; it demands accountability."
+    "You feel the old tug — the grief that has lived in your ribs since the storm that stole part of your neighborhood. You also feel the new weight: a pilot that could scale, that could"
+    "protect more people than any protest could in the short term. Two truths pressed tight together until one might fracture."
+    "Professor Anika places a hand on your forearm — not solving anything, only offering presence."
+    hide mara_lin
+    show professor_anika_bhat at left:
+        zoom 0.7
+
+    professor_anika_bhat "Mara, the science supports a mixed approach. Living infrastructure buys shoreline resilience and reduces hydraulic loads on walls. But implementation is where politics and community intersect — that's always messy."
+    hide elias_kade
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "Messy is exactly the word I'm willing to live in if it means fewer people evacuating for good. I don't want compromise for its own sake. I want one that actually holds when the water comes."
+
+    nova_duarte "And if it doesn't? Who bears the blame, Mara? The community? You? The mayor's office? Names will be assigned."
+    hide nova_duarte
+    show elias_kade at center:
+        zoom 0.7
+
+    elias_kade "We assign responsibility by design. Clear deliverables, redundancy. If we architect it right, we share both credit and accountability."
+    "The conversation goes on: back-and-forth like the tide you have measured a hundred times. You counter, Nova counters, Elias tempers, the Mayor placates. The words become wiring — deadlines, indemnities, land-rights clauses — the technical diagrams tidy but the people lines messy enough to snag a blade."
+    "Samir arrives with three neighbors in tow: familiar faces delivered like ballast. He sets his hands on the edge of the table. You can smell the harbor on him — fish and sun-dried rope."
+    hide professor_anika_bhat
+    show samir_reyes at left:
+        zoom 0.7
+
+    samir_reyes "We want oversight, real oversight. We want jobs for folks who know these blocks. We want a say before machines go in."
+    "You promise it — community oversight, job guarantees for local crews — and you feel the immediate un-pooling of fear in their eyes like a small, physiological relief. They tentatively sign the initial memorandum. Their signatures are small beacons."
+
+    menu:
+        "Step aside to inspect the contractor specs with Elias":
+            "You leave Nova watching and follow Elias to a bank of tablets. The two of you hunch over L-shaped cost curves and resource forecasts; he explains the contingencies in clipped sentences, each one a small attempt to anchor your hope to ledger lines."
+        "Find Nova and ask her to lay out her deal-breakers, unfiltered":
+            "You cross the atrium to Nova. Her jaw tightens; she names, in sharp order, the things that would make her stay or leave — immediate relocation guarantees, non-negotiable community vetoes, and an independent oversight board. The list is hard, but the clarity is steadier than you'd expected."
+
+    # --- merge ---
+    "The moment is small and flavor-only, a breath before the next tide. Whether you stand with Elias over spreadsheets or with Nova over deal-breakers, the air tastes the same: metal and potential rain."
+    # [Scene: Sea Barrier Construction Site | Overcast Morning — Week One]
+    hide mara_lin
+    hide elias_kade
+    hide samir_reyes
+
+    scene bg ch10_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Diesel engines, a distant foghorn, boots sloshing through mud]
+    # play music "music_placeholder"  # [Music: Low percussion with discordant strings]
+    "The first week of the pilot feels like touching a bruise. Machines make new noises in old neighborhoods. Contractors arrive with promises wrapped in laminated spec sheets; they speak a dialect that translates to deadlines, margins, and insurances."
+    "A foreman with a voice like gravel — Dominic — meets you at the gate, hands grease-stained, high-vis vest haloed by the overcast light."
+
+    "Dominic" "Specs are ambitious, Ms. Lin. Living wall integrated with modular seawalls? We can do it, but some of these tolerances will cost time and cash. Substrate sourcing alone—"
+    show mara_lin at left:
+        zoom 0.7
+
+    mara_lin "We accounted for substrate in the budget. We can phase sourcing to minimize supply shock."
+    "Dominic: (shrug) 'Word. But when the city pulls on indemnities, you might find some clauses you didn't like. And the crew's not sure about the botanical mix near the sheet-pile. Saltwater's not polite to fancy plants.'"
+    "You sense the crew's skepticism as a physical pressure: murmurs folded into the rain. Some of them are locals who remember the last time a pilot project left a jobless line behind. Others are contractors brought in for expertise who see living infrastructure as a complication to be engineered away."
+    "Elias Kade arrives with a damp tablet and a narrower smile."
+    show elias_kade at right:
+        zoom 0.7
+
+    elias_kade "Budget's already tracking up fifteen percent in preliminary models. If we don't lock change orders, the mayor will get cold feet — and the council will circle with knives. We should cut non-critical scopes."
+
+    mara_lin "Cutting scope is exactly what lets the sea back in. We keep the living components, even if it squeezes timelines."
+
+    elias_kade "And if the council cancels the next tranche because of overruns? Then all phases die. I'm trying to make sure we can deliver Phase One without giving opponents a public figure to point at."
+    "You understand his fear like a map with one route drawn in heavy ink. It is a strategy — defensible, trained, pragmatic. It is also a risk of cowardice dressed as prudence."
+    "Nova Duarte arrives then, trailing mud and intent. She stands, arms folding, scanning the crews with the same intensity she used to scan protest crowds."
+    show nova_duarte at center:
+        zoom 0.7
+
+    nova_duarte "You squeezed us into a box, Mara. You promised oversight, but this looks like a contractor's blueprint with a living garnish. Where are guaranteed relocation timelines? Where's the independent oversight? Or was that just for signatures?"
+    "Her words cut through the monotone of logistics. A few crewmen shift uneasily; Dominic looks like he's been pricked by a nail."
+
+    mara_lin "You were in the room for the concessions, Nova. We can't make every demand overnight. But oversight is written into the memorandum. Restitution funds are a line item. We can insist on independent auditors."
+
+    nova_duarte "Insist. We'll see how that plays when pushback comes from the mayor's legal counsel."
+    "The back-and-forth pulls at you. You try to be both engineer and advocate; each role tugs your spine in a slightly different arc. You pace the muddy walkways wearing the same boots you always wore, feeling the compass against your sternum like a small, private metronome counting out patience."
+
+    menu:
+        "Sit with Elias and redraw the change-order boundaries":
+            "You crouch beside him under a leaking tarp and go line-by-line through the budget. He points out where small reallocations buy time. His voice is calm; when he explains risk buffers, you feel some of your panic braid into something like strategy."
+        "Take Nova aside and ask how to make oversight legally non-negotiable":
+            "You pull Nova behind a stack of pallets. Her plan is blunt and constitutional — third-party auditors, community veto clauses with clear triggers. She speaks fast, each clause a promise to her sister's memory. The force of her language makes the legal text feel more human, but also less likely to slide past the mayor's lawyers."
+
+    # --- merge ---
+    "The crew grumbles; supply lines rattle. Small successes appear — a stretch of living-surfacing planted and holding against a lull tide, a local crew member given a shift priority — but they are counterpointed by small"
+    "betrayals: a clause in a subcontractor's fine print that shifts liability, an email from procurement that quietly reassigns a local labor obligation to a regional vendor."
+    "That night, you stand on the site office's temporary deck and watch the water move like a slow clock. Your sea-glass eyes sting from the screen's blue and the drizzle. You think of the families who"
+    "will watch this project either shelter them or fail them, and you wake to the way your hands tremble when you sign off on the day's reports."
+    # [Scene: Tideward Rooftop Garden | Late Evening]
+    hide mara_lin
+    hide elias_kade
+    hide nova_duarte
+
+    scene bg ch10_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Bees humming, the distant city bass, the faint drip of irrigation]
+    # play music "music_placeholder"  # [Music: Sparse strings with a low, unresolved chord]
+    "You come up here because the garden is a place where decisions can breathe. Soil smells like rain and possibility; the rooftop feels like an island above the machinery. Samir sits at a fold-out table with"
+    "three community reps, charts and coffee cooled beside them. Professor Anika pins a handwritten note to a whiteboard, her handwriting precise even when the topic is grief."
+    show mara_lin at left:
+        zoom 0.7
+
+    mara_lin "We need to lock the oversight board composition now. If we leave it vague, legal will fill it with appointees who owe the mayor favors."
+    show professor_anika_bhat at right:
+        zoom 0.7
+
+    professor_anika_bhat "Independent auditors must have teeth — access to data, the right to halt works on safety grounds, and a sunset clause so it doesn't become a political football."
+    "Samir Reyes: (nods) 'And make sure hiring pipelines go to locals first. They need to repair their homes and their dignity.'"
+    "You flip through spreadsheets until your eyes blur. Your compass pendant taps your sternum until it hurts. The night is long; the atrium's sterile light replaced with the garden's softer green. You draw up an initial"
+    "charter for the oversight board using language Professor Anika suggests — technical, unromantic — but which may hold up in court."
+    "Then, late in the night, Nova appears at the garden's edge, rain on her shoulders. She leans on the railing and stares at the city like it owes her a reckoning."
+    show nova_duarte at center:
+        zoom 0.7
+
+    nova_duarte "You're good at bridging rooms, Mara. You can walk the corridors between power and people. But bridging is different from binding. You have to make sure everything we put on paper can't be pulled apart by committees."
+
+    mara_lin "I know. I'm exhausted, Nova. I keep thinking if I just work harder the gaps will close."
+
+    nova_duarte "Working harder won't fix the fact that some people are not going to give us time. If the pilot fails because of compromise, those people will be the ones who lose the most."
+    "Your chest tightens until breath is conscious work. The compromise you offered at the hearing sits on your shoulders like wet cloth: heavy, necessary, suffocating at the edges."
+
+    menu:
+        "Tell Nova you hear her and will add her clauses to the charter":
+            "You promise and then draft her clauses into the morning's charter. She reads them and nods once, a small release of tension between you. For a moment you feel aligned — a fragile honesty in the dark."
+        "Tell Nova you're doing the best you can and ask her to keep pressure on the street":
+            "You ask for action rather than absolutes. Nova's jaw tightens, but she agrees to organize a neighborhood oversight council. Her acceptance is practical, not warm; you trade a pledge for motion and feel both relief and the taste of compromise."
+
+    # --- merge ---
+    "You make the choice that fits the night. The garden absorbs it; the plants do not judge."
+    "Days condense into checklists. City lawyers review oversight text and substitute wording that sounds protective but shifts liability. The contractor submits a revised work plan with a clause that ties botanical maintenance guarantees to a municipal"
+    "maintenance fund not yet allocated. You find an indemnity tucked into a sub-subcontract that could make community groups personally liable if plantings fail. Each document is a small erosion."
+    "Elias emails you a tightened cost projection. Nova posts a scathing op-ed draft and then pulls it back at your request, not out of deference but strategic calculation. The mayor praises the pilot in public; behind closed doors her office asks for more guarantees."
+    "You lie awake with your compass warm against your throat and imagine committees like tide pools — they filter everything, letting some things through and holding others back. You fear this hybrid will be filtered into"
+    "meaninglessness: engineered defenses without living systems, community oversight as ceremonial language, restitution funds lost to budgetary arithmetic."
+    "At the end of the week there are tangible wins: a stretch of living seawall planted and surviving a tidal surge, three local workers employed full-time, a measured reduction in overt flooding in one test block."
+    "But there are bruises too: a procurement memo that quietly shifts local-hire requirements, a contractor asking for an increased contingency that the Mayor's office seems willing to tolerate. The small positives taste of iron."
+    "You pace the Tideward Garden again, compass tapping a fast rhythm. Professor Anika sits with you on a bench, rubbing her palms together to warm them."
+
+    professor_anika_bhat "Bureaucracy favours the status quo, Mara. Hybrids are harder for them to categorize. That makes them vulnerable, but it also makes them essential. We have to hold this space without romanticizing it."
+
+    mara_lin "I can feel it slipping — not catastrophically, not yet. But there's a slow, bureaucratic attrition. The pilot could die in committee if we don't keep pressing."
+
+    professor_anika_bhat "You won't be able to muscle it alone. That's why the oversight board and the community coalitions matter. Lay your scaffolding visibly. Make the public see that this isn't just a pilot for funding, but a pilot for people's lives."
+
+    "A message pings on your tablet. You ignore it at first, then the thrumming in your pocket becomes a small, insistent drum. You read: a cropped photograph of the construction site, a headline scrawled in a city's gossip column font — "Pilot Project: Boondoggle or Lifeline?" — and a short, loaded caption" "Documents suggest city may be outsourcing local jobs."
+    "The garden's damp air narrows. Your stomach pitches. The headline is careful but suggestive; the photograph hints at mismanagement. It will be easier now for critics to frame the pilot as loot, not labor. It will"
+    "be easier for committees to question pertinence. It will be easier, too, for Nova's distrust to be amplified into a headline-grabbing indictment."
+    "You feel the room tilt. The pilot you've nurtured through months of argument, compromise, and private promises is suddenly a public story. The week that brought both small victories and quiet betrayals ends on a note of exposure."
+    "You close your tablet and let the city noise sink into the rooftop's soil. The compass at your throat feels heavier than it did this morning."
+    "Page-turn thought: As you stand in the green hush, a new fear blooms — not that the pilot will fail technically, but that the story of its politics will be the thing that brings it down."
+    hide mara_lin
+    hide professor_anika_bhat
+    hide nova_duarte
+
+    scene bg ch10_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: The low drone swells; a single unresolved piano note lingers]
+
+    scene bg ch10_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter11
+    return

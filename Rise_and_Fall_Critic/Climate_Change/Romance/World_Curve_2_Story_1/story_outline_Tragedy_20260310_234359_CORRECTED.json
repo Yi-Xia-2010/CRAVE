@@ -1,0 +1,503 @@
+{
+  "title": "Tides of Ash and Salt",
+  "summary": "Mara Kestrel leads a neighborhood co-op in Corvena Bay as rising seas force political and moral choices between municipal managed retreat, engineered barriers, and grassroots living breakwaters. Romantic and professional stakes with Elias Navin complicate decisions. Each route is tragic: choices meant to protect the community compound into loss, whether through rushed experiments, enforced displacement, or the political fallout of transparency. The narrative maintains a continuous fall: small failures accumulate into ruin, fractured relationships, and moral cost.",
+  "emotional_curve_type": "Continuous Fall",
+  "player_character": "Mara Kestrel",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt and Ledger",
+      "branch_designation": "Common",
+      "narrative_focus": "Mara wakes before dawn on the Strand, inventories damage, meets community members (Ivy, Rosa), and senses the looming council vote between Jun Park's municipal plan and the co-op's living breakwaters. She prepares to speak at the hearing, carrying guilt and resolve.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Ivy",
+        "Rosa Alvarez",
+        "Elias Navin",
+        "Jun Park"
+      ],
+      "locations_used": [
+        "Strand",
+        "Boardwalk",
+        "Basin",
+        "Harbor"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tideworks and Evidence",
+      "branch_designation": "Common",
+      "narrative_focus": "Mara visits Tideworks Lab where Elias and Theo work on reef modules and sensors while Jun's municipal presentation appears on feeds. She balances community needs against shifting funding and the pressure of the upcoming vote.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1, Option (Implicit continuation)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Theo",
+        "Jun Park",
+        "Lian Mor"
+      ],
+      "locations_used": [
+        "Tideworks Lab",
+        "City Hall (projected feed)",
+        "Harbor / old harbor wall"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Atrium Vote",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At City Hall's glass atrium, Mara must publicly choose to endorse Elias's living breakwaters, back Jun's municipal emergency plan, or propose a hybrid compromise—each choice risking different harms to the community and personal relationships.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "I must choose how to cast my public weight at the hearing—allegiance, compliance, or compromise.",
+        "options": [
+          {
+            "label": "We go with the living breakwaters—community science and adaptation.",
+            "consequence": "Align publicly with Elias’s grassroots solution; opponents accuse us of experimental naiveté; funding remains uncertain.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "I support Jun’s municipal emergency plan and will cooperate.",
+            "consequence": "Endorse large-scale engineering and managed retreat; our neighborhood risks designated sacrifice but receives immediate resources.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "We propose a negotiated hybrid: targeted barriers plus community-led living reefs with shared oversight.",
+            "consequence": "Attempt to bridge both sides; requires time, third-party audits, and delicate politics—risking sabotage or delays.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Jun Park",
+        "Elias Navin",
+        "Rosa Alvarez",
+        "Ivy",
+        "Lian Mor"
+      ],
+      "locations_used": [
+        "City Hall atrium",
+        "Council Chambers"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Reef Trials",
+      "branch_designation": "Route A",
+      "narrative_focus": "Mara and the co-op scale Elias's living breakwaters in targeted bays; initial successes encourage the team but funding is precarious and Elias proposes a fast, risky widescale deployment funded by a private grant.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Theo",
+        "Ivy",
+        "Rosa Alvarez",
+        "private funders"
+      ],
+      "locations_used": [
+        "Tideworks Lab",
+        "Strand",
+        "Rusted trawler / deployment hold",
+        "Basin"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Accelerant",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "A fast trial begins with larger modules and more sensors. Anomalies and faulty fixtures appear; funders demand continued deployment on a tight timeline. Mara must decide whether to push on, pause and publicize the problems, or quietly retrofit anchors while keeping funders unaware.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 4, Option (Implicit continuation)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to handle faulty fixtures and funder pressure.",
+        "options": [
+          {
+            "label": "Keep deploying on the funders' schedule.",
+            "consequence": "Rapid scaling continues; short-term metrics improve but safety margins shrink.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Pause and make the anomalies public.",
+            "consequence": "Trust-building but likely loss of funding and political capital; Elias respects transparency but we may lose momentum.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Quietly retrofit anchors and delay the public report.",
+            "consequence": "Ethical compromise; risk of later discovery; preserves funding short-term.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Theo",
+        "Ivy",
+        "private funders"
+      ],
+      "locations_used": [
+        "Tideworks Lab",
+        "Harbor",
+        "Deployment sites / test bays"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Night the Harbor Broke",
+      "branch_designation": "Route A (Ending: Sad)",
+      "narrative_focus": "A pre-dawn storm and stressed anchors cause reef modules to fail and wash over the low quay; volunteers are swept, lives lost, private funders vanish, and the co-op is blamed. Mara faces overwhelming guilt and community rupture.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Theo",
+        "Ivy",
+        "volunteers",
+        "private funders",
+        "Rosa Alvarez",
+        "Jun Park",
+        "Lian Mor"
+      ],
+      "locations_used": [
+        "Harbor / bay",
+        "Strand",
+        "Tideworks Lab",
+        "Old Beacon"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Blueprints and Sacrifices",
+      "branch_designation": "Route B",
+      "narrative_focus": "Mara publicly supports Jun Park's emergency municipal plan: barriers and selective retreat. Funds and crews arrive quickly, but peripheral neighborhoods like the Strand are marked for relocation; Mara is praised publicly but vilified by some neighbors and strained in personal relationships.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Jun Park",
+        "Elias Navin",
+        "Ivy",
+        "Rosa Alvarez",
+        "Theo"
+      ],
+      "locations_used": [
+        "City Hall atrium",
+        "Tideworks Lab",
+        "Basin"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Quiet Complicity",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "As Jun's liaison, Mara helps implement relocations and sees the human costs reduced to metrics. A confidential clause allowing accelerated land acquisition appears; Mara must choose to subvert, enforce, or leak the clause to the press.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 7, Option (Implicit continuation)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to use the liaison role given coercive municipal clauses.",
+        "options": [
+          {
+            "label": "Delay relocations and help families stay.",
+            "consequence": "Short-term protection for some, long-term risk of legal repercussions and cuts to services.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Enforce relocations strictly.",
+            "consequence": "Efficient implementation but personal complicity in displacement; relationships fracture.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Leak clauses to the press.",
+            "consequence": "Public scandal forces municipal review but destabilizes infrastructure timelines and may incite unrest.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Jun Park",
+        "Lian Mor",
+        "Elias Navin",
+        "Theo",
+        "Ivy"
+      ],
+      "locations_used": [
+        "City Hall (closed-door briefings)",
+        "Tideworks Lab",
+        "Basin"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Broken Promises",
+      "branch_designation": "Route B (Ending: Bittersweet)",
+      "narrative_focus": "Either leaking or delaying bought breathing room and exposed abuses, saving some neighbors but fracturing the municipal plan. Funding and infrastructure are reduced; Elias leaves to take designs elsewhere and the romance frays. The Strand loses parts despite some rescues.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Jun Park",
+        "Theo",
+        "Ivy",
+        "Rosa Alvarez"
+      ],
+      "locations_used": [
+        "Strand",
+        "Temporary shelters",
+        "City core",
+        "Basin"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Hybrid Proposal",
+      "branch_designation": "Route C",
+      "narrative_focus": "Mara proposes a complicated hybrid: targeted engineered barriers plus co-managed living breakwaters with third-party audits and community oversight. The plan initially offers hope but becomes a target for sabotage and supply disruptions.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Jun Park",
+        "Lian Mor",
+        "Elias Navin",
+        "Ivy",
+        "Rosa Alvarez"
+      ],
+      "locations_used": [
+        "City Hall (hybrid plan meetings)",
+        "Salted rooftop gardens",
+        "Basin",
+        "Tideworks Lab"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Sabotage and Trust",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The hybrid rollout experiences sabotage: missing bolts, erased sensor data, and defaced minutes. Mara must choose between public confrontation, quiet investigation, or opening meetings to the press—each with serious risks.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10, Option (Implicit continuation)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to sabotage and fractures of trust.",
+        "options": [
+          {
+            "label": "Confront Jun publicly and demand accountability.",
+            "consequence": "Forces municipal transparency but risks Jun’s defensive clampdown and politicization.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Investigate quietly with Elias and Theo.",
+            "consequence": "Potentially fixes technical problems but allows sabotage to continue unchecked and risks later betrayal.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Open meetings to press to expose sabotage.",
+            "consequence": "Promotes transparency but amplifies panic and gives saboteurs oxygen; risks rapid funding withdrawal.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Theo",
+        "Jun Park",
+        "Ivy",
+        "Rosa Alvarez"
+      ],
+      "locations_used": [
+        "Salted rooftop gardens",
+        "Hybrid project sites",
+        "City Hall",
+        "Basin"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Beacon Falls",
+      "branch_designation": "Route C (Ending: True/Tragic)",
+      "narrative_focus": "Public confrontation or opening the project invites audits and frozen funding; weeks later a cyclone hits partially built infrastructure, funneling currents into neighborhoods and causing loss of life. The moral victory of exposure delivers a tragic human cost.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Jun Park",
+        "Elias Navin",
+        "Rosa Alvarez",
+        "community members"
+      ],
+      "locations_used": [
+        "Old Beacon",
+        "Partially built barriers",
+        "Coastline",
+        "Evacuation routes"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "A Distant Shore",
+      "branch_designation": "Route A (Alternate Ending: Bittersweet)",
+      "narrative_focus": "Mara paused and publicized anomalies; funders withdrew but the co-op retained moral ground. Smaller pilot projects and transparent data lead to slower, careful successes. Elias accepts a fellowship overseas; the Strand holds longer but the pain of compromise persists.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Ivy",
+        "Rosa Alvarez",
+        "Jun Park"
+      ],
+      "locations_used": [
+        "Tideworks Lab",
+        "Strand",
+        "Co-op pilot sites",
+        "Basin"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Concrete and You",
+      "branch_designation": "Route B (Alternate Ending: Sad)",
+      "narrative_focus": "Mara enforced relocations; the city core stabilized but peripheral neighborhoods were bulldozed or left to the tide. Families lost networks and dignity; Mara is morally broken despite public praise.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Jun Park",
+        "Elias Navin",
+        "Ivy",
+        "Rosa Alvarez",
+        "contractors"
+      ],
+      "locations_used": [
+        "Strand",
+        "Relocation trucks / temporary shelters",
+        "City core"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Exposure",
+      "branch_designation": "Route C (Alternate Ending: Sad)",
+      "narrative_focus": "A quiet investigation by Elias and Theo uncovers deliberate tampering, but corrupted calibration files and false positives remain unnoticed long enough that a late storm causes catastrophic failure at the compromised hybrid site. Lives are lost and Mara is publicly blamed; Elias leaves and the co-op fractures.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Kestrel",
+        "Elias Navin",
+        "Theo",
+        "Jun Park",
+        "Ivy",
+        "Rosa Alvarez"
+      ],
+      "locations_used": [
+        "Hybrid site",
+        "Old Beacon",
+        "Basin",
+        "Tideworks Lab"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "All chapters are first-person through Mara and tagged [Fall]. Major branching decision hubs exist in Chapters 3, 5, 8, 11. Endings: Chapter 6 (Sad), Chapter 13 (Bittersweet), Chapter 9 (Bittersweet), Chapter 14 (Sad), Chapter 12 (True/Tragic), Chapter 15 (Sad). Visual motifs (Mara's compass pendant, moth-eaten scarf, Elias's brass watch, Jun's engraved ruler) and recurring secondary characters (Ivy, Rosa Alvarez, Theo, Councilwoman Lian Mor) appear throughout.",
+  "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+  "_meta_arc_strategy": "Tragedy (Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 23:43:59"
+}

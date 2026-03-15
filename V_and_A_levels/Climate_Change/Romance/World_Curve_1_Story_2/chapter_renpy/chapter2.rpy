@@ -1,0 +1,164 @@
+label chapter2:
+
+    # [Scene: Aureum Research Cottage | Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A lamp wick sighs; a gull calls distant and thin]
+    # play music "music_placeholder"  # [Music: Low, hopeful piano undercurrent]
+    "You come in with mud under your nails and the smell of the marsh still clinging to your jacket — brackish and sweet in the way only places that live with tides can be. The annex"
+    "folds you in: maps pinned in layered chaos, laminated tide charts curling at the corners, a scatter of sediment vials like a constellation across the table. Your leather notebook lies where you left it; the cover"
+    "is scuffed, the strap looped over a metal clip. You unlatch it and the old paper breathes."
+    "Your fingers are stained dark where the cores are still drying. You swipe one thumb across a faded contour on a printout: the line that marks the marsh you remember as a child. The paper smells"
+    "of lamp oil and salt, and for a second the line on the map is not ink but memory — the way the channel ran when you could still wade across without worrying about a storm."
+    "Lina appears in a flash of paint-splattered hoodie and urgent energy, carrying a crate of seedlings and an argument. Her freckles flash as she sets the crate down hard enough that a clump of peat sighs loose."
+    show lina_kwon at left:
+        zoom 0.7
+
+    lina_kwon "You been sulking over lines again, or are we going to plant something that grows?"
+    "You pause, thumb still resting on the map. The muscle in your jaw tightens; grief has a way of flattening the future into neat plans."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "I'm not sulking. I'm— (you search for the right word) —trying to make sure it lasts."
+    "Lina's mouth pinches. She crosses to the window and looks out toward the rooftop garden you two argued about last week."
+
+    lina_kwon "Lasts for who, Maya? We need the town to see dirt moving. People aren't voting on spreadsheets. They need to know they're not waiting for something that might never come."
+
+    maya_kwon "I know. That's why I'm drafting the living shoreline profiles, and the salinity tests —"
+
+    lina_kwon "And while you draft, the weeds get taller and the volunteers get bored. You can't keep hiding behind your diagrams."
+    "The rebuke lands exactly where it should. You feel the old reflex — defend the methodology — but Lina's eyes are steady and tired in a way that asks for more than justification."
+
+    menu:
+        "Explain the science — calmly":
+            "You draw a breath and outline, quietly but precisely, how sediment accretion and Spartina will slow erosion, how measurable transect data will convince funders. Your voice is steady; Lina's shoulders drop a fraction."
+        "Admit you're scared":
+            "You let the map go and say, softly, that sometimes you think time is faster than you are. Lina's freckled face softens; she crosses the room and squeezes your wrist like an anchor."
+
+    # --- merge ---
+    "The conversation continues with a plan to translate passion into action."
+    "Lina exhales and, predictably, turns energetic as a breeze."
+
+    lina_kwon "Good. Then put that passion into the roof garden this afternoon. I got volunteers, and I've told half the town you're coming with plans. Visible action, remember?"
+    "You close the notebook for a moment and tuck a stray strand of hair behind your ear. She wants visible work; you want durable systems. Neither is wrong. Both are necessary."
+    hide lina_kwon
+    hide maya_kwon
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Paper rustle; the brisk shuffle of an organizer on a timeline]
+    # play music "music_placeholder"  # [Music: Piano picks up a light, focused motif]
+    "Priya Anand sets a sheaf of printouts on the table with efficient hands. Her braid catches the lamplight as she leans over the maps."
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "Funders will want milestones, Maya. They want measurable habitat units restored, demonstrable increase in sediment accretion, clear species lists. They also want timelines. Municipal bonding cycles don't wait for seasons to comply with ideal schedules."
+    "You look at the grant paperwork: neat bulleted lists, the language of obligations dressed up as opportunity."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "We can make it measurable. Sediment cores, plant survival rates, stabilized shore length — all proxy metrics for resilience. If we phase it, we can show early wins."
+
+    priya_anand "Phasing helps. But the council wants cost forecasts this quarter. Vernon & Crow's seawall models will be on the agenda, and they're already talking return-on-investment numbers that look neat on balance sheets. We need a narrative and evidence. We need volunteers, data, and a schedule."
+
+    maya_kwon "Okay. We'll make it measurable and fundable."
+    "Priya Anand studies you, assessing lines on your face that maps don't capture."
+
+    priya_anand "Promise me you won't let perfection be the enemy of getting dirt moved. Sometimes, the community needs to see boots in mud before they sign the checks."
+    "You nod. There is a hollow brightness in the nod — a faint promise to balance the long view with immediate labor."
+
+    menu:
+        "Agree to prioritize quick demonstration plots":
+            "You concede to pilot plots near the pier: swift, visible, and statistically defensible. Priya smiles; she already knows the funding brackets this unlocks."
+        "Insist on comprehensive baseline studies first":
+            "You outline a more thorough baseline plan, and Priya's smile tightens. 'We'll need at least one interim demo to keep the town's faith,' she says, but she writes your needs into the grant memo."
+
+    # --- merge ---
+    "The team settles on a hybrid approach balancing demos and baseline data."
+    # [Scene: Community Rooftop Garden & Meeting Hall | Afternoon]
+    hide priya_anand
+    hide maya_kwon
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Shovels rhythmically striking earth; laughter and the rustle of burlap]
+    # play music "music_placeholder"  # [Music: Brighter strings as the day steps forward]
+    "Lina has organized the volunteers into teams. Old hands from the fishery, teenagers in paint-splattered hoodies, and the mayor's assistant carrying a thermos all move in a steady choreography. You move among them with a trowel"
+    "and a clipboard, the two halves of your job rubbing against each other: organizer and scientist."
+    "You teach a teenager how to sediment-core properly — hold the corer vertical, push slowly, cap it tight. Her hands are careful, honest with curiosity. You feel the small, sharp pleasure of passing on a method that is both art and habit."
+
+    "Volunteer" "So, if we put these grasses here, they'll hold the mud?"
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "Yes. They're salt-tolerant, and their roots trap sediment. But placement matters — too close to open water and they'll drown in a storm surge; too high and the salinity will be wrong. It's why we walk transects and test."
+    "A few people glance at your clipboard. A local asks for the plain explanation; you give it in plain language, because science that doesn't speak plainly isn't useful in the long run."
+    # [Scene: Seabreak Marshes — Transect Work | Afternoon]
+    hide maya_kwon
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The slow slosh of water; the distant grind of a winch somewhere on a pier]
+    # play music "music_placeholder"  # [Music: Steady, rhythmic cello underpinning focused work]
+    "Priya's team and local volunteers fan out. You take cores, feeling the give of the peat under a gloved hand. You label vials, sketch the slope on tracing paper, and draw living-shoreline concepts on translucent sheets"
+    "— little arcs of brushwood, staggered plantings, reed matrices that nudge the water's energy rather than deflect it."
+
+    "You test plant salinity tolerance with a handheld probe; readings blink in your palm. You hum quietly when numbers fall where you hoped, write down a note when they don't. Your notebook fills with small scripts" "Plot A — Spartina, predicted survival 72 Percentage first year; collect additional substrate from upstream."
+
+    "Volunteer (from a distance)" "Aiden's here, Maya. He left a thing for you by the shed."
+    "You look up to see Aiden pushing a mop of wind-ruffled hair out of his eyes. He comes forward with a small, sand-worn piece of driftwood cupped in both hands like something fragile and necessary."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "Found this snagged on the north channel. Thought you might like it."
+    "The charm is small, carved in a familiar, awkward hand. You recognize the way he cares in the grain of the wood — it fits into your palm like a promise you've already tested."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "You didn't have to—"
+
+    aiden_reyes "I know. But Old Man Reyes said if you ever need a good-luck talisman, you should take what the sea leaves. And, uh, my mom asked me to tell you they're worried."
+    "He shifts; his expression turns earnest. The mid-afternoon light hardens his jaw."
+
+    aiden_reyes "They worry about losing access. The seawall talk, the idea of restricted zones — they're scared you'll turn half the fishing grounds into 'habitat only' and leave boats with nowhere to go."
+    "There's a careful, human edge to his confession that makes your heart catch. It's not just abstract politics; it's someone you love worrying about the livelihoods that feed their family."
+
+    maya_kwon "I don't want to cut them out. The living shoreline is about keeping fishing grounds productive — different zones, transitional areas. I want to build something that helps people keep working."
+
+    aiden_reyes "Just... make sure we keep talking to them. If people feel consulted, they'll work with you. If they feel decisions are made for them, they'll push back. Fast."
+    "You consider the trade-off: scientific idealism versus social acceptance. Your knuckles whiten on the driftwood charm."
+
+    maya_kwon "We'll talk. I'll come to the co-op meeting tonight. Bring your family, if they'll come."
+
+    aiden_reyes "I'll see what I can do. And hey — if you need help hauling brush bundles, I'm on call."
+    "You watch him walk back toward the pier, the charm tucked into your palm. The volunteer work hums around you — the marsh feels like a body with you as one of its careful surgeons."
+    # [Scene: Aureum Research Cottage — Glass Annex | Night]
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain on glass; the low drone of a distant HVAC]
+    # play music "music_placeholder"  # [Music: Quiet, insistent strings building—steady, not frantic]
+    "You stand with the notebook open again, this time filled with day's measurements, sketches, and the small carved charm clipped to your belt. The glass wall frames Vernon & Crow across the water: a slab of"
+    "cool light where their diagrams scroll and divide, neat lines promising permanence. The glow reads like a different faith — engineering as certainty."
+    "Your resolve tightens the way a muscle does before exertion. Everything you've done today — recruiting volunteers, measuring cores, sketching living-shoreline arcs that mimic the marsh's own geometry — feels like setting a foundation not just"
+    "in the mud but in people's minds. Priya's funding memo gives you a roadmap; Lina's volunteers give you momentum; Aiden's confession presses the human cost into the center of your plans."
+    "You trace a line on a translucent sheet, the living-shoreline curve you want to try near the north channel. It is elegant and modest; it listens to water. You imagine it grown in a season or"
+    "three and imagine also the stubborn people who will have to be convinced to plant with you."
+    "You glance at the fluorescent rectangles across the bay again. The diagrams there are persuasive in their own language: return on investment, structural integrity, clear-cut boundaries. You can almost hear the municipal meeting cadence that prefers numbers that cleanly split the map."
+    "But tonight, after a day of mud under fingernails and the warm, slightly awkward presence of Aiden standing in the tide, you feel something else: a conviction that community-led restoration can be both measurable and immediate,"
+    "that it can meet the grantors' criteria and the fisherfolk's needs. Your plan shifts — it becomes a hybrid of demonstration plots for now and a long-term living shoreline path. It will demand work, patience, and"
+    "stubbornness in equal measures."
+    # play music "music_placeholder"  # [Music: The strings swell to a confident chord — steady, hopeful]
+
+    scene bg ch2_c4ca42_6 at full_bg
+    "You close the notebook and feel the old leather settle into your palm like a good tool. Outside, the rain eases; Vernon & Crow's lights continue to pulse. The political storm you sensed during the day"
+    "hasn't broken yet, but the clouds are pregnant with it. You can see the flank of it in the way council calendars are already filling and how municipal language favors short-term assurances."
+    "You stand there, the glow of the lab on your face, and make a quiet vow that this plan will be both compassionate and credible. You will make it measurable enough for funders and human enough for the people who will live with it."
+    "You press your forehead to the cool glass for a second, tasting the rain on the pane and the salt on your lips. The town is waking into the shape of the next debate: pilot plots,"
+    "grant deadlines, council promises, and an engineer's firm lines across the bay. You close your eyes, feel the driftwood charm against your ribs, and let the day's small victories — seedlings planted, cores archived, Aiden's raw"
+    "honesty — settle into a steady, forward push. There's work to do, and tomorrow is council night. You open your notebook to a fresh page and, with the day behind you and the meeting ahead, write"
+    "the first line of what will have to be both strategy and invitation."
+
+    scene bg ch2_c4ca42_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

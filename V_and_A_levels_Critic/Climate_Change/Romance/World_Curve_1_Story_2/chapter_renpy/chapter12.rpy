@@ -1,0 +1,257 @@
+label chapter12:
+
+    # [Scene: Rooftop above the Old Harbor District | Night — Storm]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid strings, pounding percussion; a metallic, urgent undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Sirens keening far off; boards creak; rain hammers; a single gull's cry lost in the storm]
+    "You stand in the spray, the storm throwing salt and cold against your face. Your scarf is plastered to your throat. Salt tastes like memory on the back of your tongue—sharp, impossible to swallow down. A"
+    "poster flutters at the edge of the plaza below, letters frayed: REMEMBER WHO WE ARE. The motto seems both accusation and prayer."
+    "Sora Watanabe is at your shoulder. Their hair is wet against their temple; their jacket clings with seawater and paint-splattered mud. They don't shout. They don't need to. Everything about them—hand on your shoulder, feet braced against the sheet of rain—says that we're already moving."
+    show sora_watanabe at left:
+        zoom 0.7
+
+    sora_watanabe "They're calling the pumps. No answer yet. Streets are folding into the harbor faster than we modeled."
+    "You taste the word folded—how it used to describe paper and now describes neighborhoods—and your stomach does that small, sick dip. The rooftop's edge is a lip above a dark, moving plain. You watch streetlights drift like drowned stars in oily reflections."
+    show ari_navarro at right:
+        zoom 0.7
+
+    ari_navarro "If the pumps stay down, the Old Harbor's low-lying blocks—"
+
+    "Sora Watanabe interrupts, not unkindly" "We already know that. We also know where people cluster, who needs help first. Maya's coordinating volunteers at the boardwalk. Noor is trying to patch telemetry. You—' Sora's eyes find yours, intense, urgent. 'You organize the routes."
+    "Your fingers close around your Moleskine under your jacket. The leather is slick with rain. Inside are tide notes, sketches, names. Each line feels suddenly both trivial and sacred."
+    hide sora_watanabe
+    hide ari_navarro
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant groan—metal on metal; an alarm bell somewhere below]
+    "You feel the surge: not only of the water but of decision. The town is moving; there is no time for second-guessing. There is only the immediate geometry of human bodies and weather and the small machine-crafted things that stand between life and a list of names."
+    show sora_watanabe at left:
+        zoom 0.7
+
+    sora_watanabe "We pull people up to the boardwalk. We make rafts if we have to. We don't leave anyone on the low side."
+    show ari_navarro at right:
+        zoom 0.7
+
+    ari_navarro "And if the pumps fail completely? If the levee at Mason's Row overtops—"
+    "Sora Watanabe's mouth tightens. 'Then we evacuate fastest. Then we hold channels, then we call for anything that floats. We do not wait.'"
+
+    ari_navarro "We can do this. We have to."
+    "Sora Watanabe doesn't let you finish. They step closer and press their forehead to yours for a heartbeat against the wind—a small, human counterpoint to the machinery of the night."
+
+    sora_watanabe "Be my voice when you're needed. Be steady."
+    "You swallow. Your hands shake. It's not only adrenaline; it's the old, familiar ache—the one that shaped you when your sibling died—blame braided with responsibility. It sharpens now into a focused, hot thing you can use."
+    # [Scene: Boardwalk | Night — Full Storm]
+    hide sora_watanabe
+    hide ari_navarro
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive breakbeat overlaying frantic strings]
+    # play sound "sfx_placeholder"  # [Sound: Shouts, calls, the slap of waves against pilings; the rubbery slap of a raft being shoved into the water]
+    "You descend the stairs into chaos that has the ordered quality of an organism in crisis: people slot into roles without looking, hands finding rope, hands finding hands. Maya is hoarse from shouting, her fisher's raincoat"
+    "luminous under the lamps. Noor moves with deliberate energy, shouting coordinates and clutching a soaked tablet like a rosary."
+    show maya_cruz at left:
+        zoom 0.7
+
+    maya_cruz "Ari! Over here—three families at the corner. The child's got no shoes. We need lines on the low pier."
+    show ari_navarro at right:
+        zoom 0.7
+
+    ari_navarro "I'll take the low pier. Noor, can you get telemetry up or at least the short-range pump controls?"
+    show dr_noor_patel at center:
+        zoom 0.7
+
+    dr_noor_patel "I'm rerouting power through the field batteries. It's patchwork, Ari. Patchwork and prayer, but it might buy time."
+
+    ari_navarro "Do it. Tell Maya to prioritize the elders and the clinic's oxygen supply."
+    "Noor gives you a look that contains the distance between what a plan promises and what weather demands. She doesn't say it aloud. You already hear it in the wind."
+
+    menu:
+        "Tighten the rope line toward the low pier":
+            "You call two volunteers and form a human chain, shoulder to shoulder. The rope bites into your palms; salt and blisters bloom but people pass safely along. A small child is handed up, eyes wide, clutching a sodden stuffed fish. The chain holds."
+        "Run to the makeshift raft depot and launch one":
+            "You shove two volunteers into the water with a plank and an old storage bin lashed together. The raft is precarious, splintering under strain, but you guide it to a submerged stoop and haul three people aboard. The raft shudders but stays afloat."
+
+    # --- merge ---
+    "..."
+    "You feel each choice in your joints—any motion has consequence. The storm sharpens decision into clarity."
+    "A woman on a stoop screams for her husband. A dog paddles at a slick ankle chain. A stack of photo albums slides from a floating window and dissolves into the sheen. The boardwalk groans underfoot; the sea keeps coming."
+    "You make a turn toward Mason's Row where the water's lip is already kissing the stoops. The pumps below sputter—then choke. Sparks arc from a control box and sputter out. For a moment, time is a"
+    "pulley: you see the pumps, the corroded gears, the missed invoices and late maintenance in a single, terrible panorama. The truth settles in like cold: infrastructure failed where it wasn't tended. Ephraim's stalled project, the hearings,"
+    "the legal pauses—they all stack into this night."
+    "A flash—light off a wall—reveals a child clinging to a lamppost. Their mother wails. You move."
+
+    ari_navarro "Maya! Rope the lamppost!"
+
+    maya_cruz "On it! Hold—Ari, hold them steady!"
+    "You press your shoulder against the slick steel and feel the child's small weight as you pull them from the water. Their hair smells like salt and kelp. A volunteer wraps the child in a blanketing coat; their teeth chatter with shock and something like relief."
+
+    dr_noor_patel "We need a corridor cleared—now. The clinic can't be flooded. Move people inland two blocks—shuttle them to the high school!"
+    hide maya_cruz
+    show sora_watanabe at left:
+        zoom 0.7
+
+    sora_watanabe "Route three! Route three! Volunteers to route three!"
+    "Your lungs burn. In a split, terrible instant a memory rips through you—your sibling's small face, the scream in a house that had not held. The grief is a physical blow; you stumble, vision pulsing white at the edges."
+    "Sora catches you without thinking, one arm around your waist, the other still handing out orders. Their voice is iron and velvet."
+
+    sora_watanabe "Ari, breathe. You're here. Now. Right now. We save who we can. Don't let the past pull us under."
+    "You anchor to the present like a diver clinging to a reef. You stop folding inward and fold your energy outward, from muscle into the work. The panic thins into a tool."
+
+    menu:
+        "Hold the child and speak softly to them":
+            "You tuck your chin to the child's wet head. Your voice is low and steady, telling them about the high school gym and hot soup. Their small hand finds yours and squeezes; for a breath, the storm recedes into your chest as small and manageable."
+        "Shout directions to the volunteers and keep moving":
+            "You bark orders sharp as flint, sending volunteers to cordon off flooded alleys. Your voice slices through the noise; bodies move like a tide in response. The child is passed to a volunteer and you keep running."
+
+    # --- merge ---
+    "..."
+    "The night is a blade. You cut through it with decisions and with people: anchors, ropes, radios. A raft lists as a wave slaps its side; you throw a tether and pull until your arms threaten"
+    "to give out. Someone sings—half a chant, half a prayer—and the sound builds into something steadier than fear. The volunteers answer in overlapping calls; the boardwalk become a chorus line of purposeful noise."
+    # [Scene: Rooftop overlooking Mason's Row | Night — Climax]
+    hide ari_navarro
+    hide dr_noor_patel
+    hide sora_watanabe
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendo—brass and strings crash; then a single clear bell rings out]
+    # play sound "sfx_placeholder"  # [Sound: Engines coughing; human voices straining; a child's whimper distant and sharp]
+    "You and Sora climb to the rooftop to direct the last corridor of evacuation. Under the storm-lashed light, your hands shake less; the work steadies you. Noor radios from below—an update in clipped, exhausted bursts."
+    show dr_noor_patel at left:
+        zoom 0.7
+
+    dr_noor_patel "Temporary siphons engaged. It will buy—maybe—thirty, forty minutes, if the lines hold."
+    show ari_navarro at right:
+        zoom 0.7
+
+    ari_navarro "Forty minutes. Okay. Enough to get the clinic and the senior home out."
+    show sora_watanabe at center:
+        zoom 0.7
+
+    sora_watanabe "Then we start the shuttle. We don't stop until the last person is counted."
+    "You watch a boat scrape a telephone pole. Somewhere a storefront door slams and doesn't open. The sea takes a porch swing whole, then gives it back half a block away like a ragged toy. You"
+    "feel a familiar, terrible calculus in your chest—the one you swore you'd never make again—but tonight you turn it into strategy instead of paralysis."
+
+    sora_watanabe "Listen. Whatever happens—if we lose ground, we name it. We file it. We fight the reason it was left at risk. We do it with every voice we have when the sky clears."
+    "You nod. The sentence lands in you like a vow."
+    "Your mind lurches to the tally: the people pulled from porches, the family reunited under tarps, the volunteers with bleeding palms. Even now, there are losses—houses that slid, possessions gone, a neighbor whose name you had"
+    "been meaning to call. The grief is present and awful and undeniable. Yet beneath the grief is a different, stubborn current: there are lives saved tonight because of the hundred small acts that stitched this town"
+    "together. That knowledge breathes through you like heat."
+    # [Scene: Boardwalk | Dawn — Aftermath]
+    hide dr_noor_patel
+    hide ari_navarro
+    hide sora_watanabe
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Slow, hopeful strings; a single piano line threading through]
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of conversation; distant generators; soft sobs; a bell tolling for the lost]
+    "By morning, the water has given up ground. It leaves behind a town altered but not erased: half-submerged stoops, boats beached on Main, a mural torn but still readable. People count, and the count is both"
+    "terrible and merciful: more saved than you dared hope, but still a ledger with names you now know by heart."
+    "Maya Cruz crouches beside a stack of sodden quilts, distributing tea from a battered thermos. Noor sits with a council member, translating the night's telemetry into the first pieces of a report. Ephraim is a rumor"
+    "in the crowd—his bulldog lawyers and stalled schemes dissolved into the hard, immediate needs of rescue. He is not absent from consequence; his choices linger like rust."
+    show maya_cruz at left:
+        zoom 0.7
+
+    maya_cruz "You did good, Ari. You led. You kept your head."
+    show ari_navarro at right:
+        zoom 0.7
+
+    ari_navarro "We all did. And we failed where systems failed. We have to own that—so it doesn't happen again."
+    "Maya's hand finds yours—a quick squeeze that says more than praise. It says: stay."
+    "Sora stands a few feet away, a rolled satchel over their shoulder. Volunteers cluster around them, leaning in as if some new plan is being read aloud. Their eyes are tired in a way that edges"
+    "toward absolute clarity. When they see you, they cross the distance in three long steps."
+    show sora_watanabe at center:
+        zoom 0.7
+
+    sora_watanabe "I'm going north. They're setting up a relief corridor. They asked me to lead it. I can't say no."
+    "You feel the world tilt. Sora's words are both an opportunity and a fissure. You had imagined Sora beside you in town fights and small, stubborn victories. Now they are asking to be elsewhere—still saving people, still heroic, but not next to you in the daily reweaving."
+
+    ari_navarro "You—go. They'll be lucky to have you."
+    "Sora Watanabe's mouth quirks. 'You sound like Noor. Like Maya. Like someone who knows duty and truth. You're not saying no because you don't want me to go.'"
+    "You swallow against a new, cold wave: relief braided with the ache of absence."
+
+    sora_watanabe "This doesn't mean I care less. It means I have to follow where the need is loudest. And I'll be loud for this town, too. Don't let the paperwork kill us, Ari. Don't let committees turn grief into a slow forgetting."
+    "You laugh, a short, barking sound that is almost a sob. 'I won't. I swear I won't.'"
+    "Sora steps forward and takes both your hands. Their fingers are calloused, the salt under the nails like proof. For a moment, time is a small room—two people, rain in the walls."
+
+    sora_watanabe "When this is over—if and when—you'll find me. Or I will find you. We will make the next plan together, even if it's from different rooftops."
+    "Their eyes are complex—tender and guarded and full of plans. They are unreadable in a way that contains both invitation and resignation. It is not a clean ending; it is something truer: a borrowing of courage and an honest promise."
+
+    ari_navarro "Go. Make it loud. I'll keep the lights on here."
+    "Sora pulls you close—no grand gesture, only the press of forehead to forehead, breath shared like a small, hot map. They release, then step back and turn to the volunteers. They are already giving orders, already becoming the person you said they would be."
+
+    menu:
+        "Watch them go, then dive into immediate rebuilding":
+            "You let Sora walk away. You feel the hollow of absence but fill it with a new plan: a list of repairs, a roster of volunteers. You start calling council members, drafting emergency oversight measures—action that keeps grief from calcifying into guilt."
+        "Reach for them one last time and ask them to stay":
+            "You reach, halting them with a single, pleading word. Sora looks back, torn. They take your hand, squeeze it, then shake their head with quiet firmness. 'Not this time,' they say. 'We both have to keep people alive.' They slip from your grasp, leaving your fingers empty but your resolve steadier."
+
+    # --- merge ---
+    "..."
+    "You watch Sora walk toward the van, a figure in muddy boots framed by the first weak sun. They lift a hand in a small wave. You lift yours back. The gesture is simple and exacting—two people marking a boundary and an enduring connection."
+    "You stand on the boardwalk as the town begins to reorganize itself into a long labor of repair. People hand out blankets, chain themselves into human lines to salvage what can be salvaged. You catch Noor's eye; she nods toward the municipal tent where volunteers are tracking damage."
+    hide maya_cruz
+    show dr_noor_patel at left:
+        zoom 0.7
+
+    dr_noor_patel "You will carry this, Ari. That is how the world asks us to change. Not by forgetting, but by learning and making better structures so the next storm doesn't have to ask someone twice."
+    "You feel the sibling's grief as a stone at the bottom of your chest. It will not dissolve tonight. But it settles into a place that makes sense: ballast that keeps you from being blown away."
+    "The pain is still salt; it hardens into a crust, sure—but under that crust is a living root."
+
+    ari_navarro "We will make it so the pumps are never neglected again. We will demand oversight, community control, and transparent funding. We'll make the town accountable to itself."
+
+    dr_noor_patel "Good. I want to see that report in the morning. And Ari—make sure you eat something before you collapse."
+    "You allow yourself a small, incredulous chuckle. It feels like laughter and like permission both."
+    # [Scene: Boardwalk — Late Morning]
+    hide ari_navarro
+    hide sora_watanabe
+    hide dr_noor_patel
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet, warm cello; a low choir-like pad hinting at large, slow hope]
+    # play sound "sfx_placeholder"  # [Sound: The gentle murmur of planning; the distant hum of generators; a single bell rung twice for the missing]
+    "You walk the line of the memorial with deliberate steps. Each object is a punctuation: a life remembered, a hole in the town's daily music. You place your hand on a damp wooden post, feeling grain and salt and the echo of a thousand footsteps."
+    "Sora's van is a speck in the distance now—driving north. Maya stands by a table, organizing volunteer shifts. Noor and the municipal workers have already drafted the first emergency oversight notice. Ephraim's lawyers will come with"
+    "their own versions, of course, but tonight they are background noise to the orchestra of people with wet hands doing the urgent, human math."
+    "You think of the possible endings that once felt like edges—happy reunions, bitter compromises, or ruin. Tonight, the shape of the future is unromantic and real: a hundred small structures, a rotating roster of caregivers, transparent"
+    "ledgers, a community council, and legal teeth to enforce maintenance. Love will be different now—less naive, less theatrical, but more durable because it's born of shared labor and hard truth."
+    "You breathe in the mixed air—brine, diesel, coffee steeped in a volunteer thermos—and feel something like clarity settle over your shoulders. Your romantic hope is not the bright, easy flame it once was. It is tempered, caked with salt, a coals-under-ash warmth you can bank and tend."
+    "You kneel by the child's drawing at the memorial and touch the wet crayons. Your fingers pick up color, smear a little, and you smile despite the bruise in your ribs."
+    show ari_navarro at left:
+        zoom 0.7
+
+    ari_navarro "We will learn. We will rebuild. We will be more than the sum of our tragedies."
+    "There is no tidy triumph here—no restoration to what was. There is, instead, a hard-sawn victory: people alive because of choices made in wet, harried moments; a new kind of governance forming in the wake of"
+    "failure; the quiet, unwavering decision to make the town accountable to itself. This is the victory you can live with."
+    "You stand, shoulders straight, and look toward the van's taillights blinking north. You feel the old ache and the new resolve braided together. Your compassion remains; your hope is different but steady."
+    hide ari_navarro
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: Swells into a soft, affirmative chord—cathartic, warm]
+    # play sound "sfx_placeholder"  # [Sound: The town's hum: engines, voices, the sea settling back into its place]
+    "You begin to write the first line of the report you will present to the council: names saved, names lost, the failures that led to this, and the immediate reforms you will demand. Your handwriting is uneven but purposeful."
+    "You do not promise false endings. You promise labor. You promise the kind of love that stays and rebuilds and tests itself on the hardness of the world."
+    # [Scene: Boardwalk | Midday]
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained violin line, rising into silence]
+    # play sound "sfx_placeholder"  # [Sound: The sea, now a quieter company; distant laughter as a rescued dog is reunited with a family]
+    "You fold your hands over the report and look up at the horizon. The town is wounded, but it breathes. You can feel the salt crust of grief on your skin—and under it, something alive and hot and practical: resolve."
+    "This is not the ending you would have chosen in calmer times. It is, however, the one that asks the most honest thing of you: to stay, to organize, to carry the memory and convert it"
+    "into structures that protect others. It asks you to let Sora go where their conscience calls, to let your love change shape."
+    "You stand on the boardwalk, soaked salt to the bone, and you make the next plan. You will demand oversight, build councils that answer to neighborhoods, and fight until maintenance is guaranteed, transparent, and community-run. You"
+    "will hold memorials and rebuild homes and teach children about tides and preparedness. You will keep your heart open enough to recognize Sora's letters and calls from far away—and closed enough to channel your grief into"
+    "a living thing."
+    "You turn the page of your Moleskine and begin to write."
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: The piano drops into a single, sustained, hopeful harmony]
+    # play sound "sfx_placeholder"  # [Sound: A gull calls once; the sound is almost like an exhale]
+    "You do not know the full price of what will come. You know only this: tonight, people lived because of human hands and human courage. Tonight, you learned again how to translate grief into stubborn, lasting"
+    "care. Tonight, you vow that the next storm will find a town better prepared, better organized, and more fiercely rooted in the people it serves."
+    "You close your notebook and look again at the high, bright sky where the sun is trying to cut through. It is not a clean salvation. It is something more durable: a beginning made of work and memory and sworn accountability."
+
+    scene bg ch12_f99e88_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

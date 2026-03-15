@@ -1,0 +1,142 @@
+### SCRIPT
+# Route: Route D
+# Context: c4ca42
+
+[Scene: Old Beacon | Night]
+[Background:"ch2_c4ca42_1"]
+[Music: Gentle, hopeful piano—slow tempo]
+[Sound: Distant gulls, the murmur of a gathered crowd, the soft clink of spoons on bowls]
+
+You arrive where you left off—feet finding the same boards that have been spliced and knotted together a hundred times for meetings, for meals, for sleeping through storms. The air tastes of brine and wood smoke; steam rises from Mina's ladle in small, reassuring clouds. Your notebook is warm in your hand from where you tucked it under your arm.
+
+Mina: "Eat first. Talk after. You're no good to us hungry and fretting." (she nudges a bowl toward you)
+
+You sit. The map in the center is rumpled leather and patched tracing paper—tide lines, weak sea walls sketched in with a pen that sometimes trembles. Fingers, some callused, some soft from new volunteering, smooth the edges as they hover over neighborhoods and breakwaters.
+
+Sora clears her throat, and the room leans forward without meaning to. The old woman's voice is small but precise, like a stone settled in a fertile eddy.
+
+Sora: "This place has been taught to us by seasons and scars. They did not hand us a single, clean line to follow. We learned by losing and by rebuilding." (she looks at you) "Remember that."
+
+You let Sora's words settle into the map, into your chest. The history she gives doesn't need dramatic punctuation—it's a slow, staking of territory: memory as mortar.
+
+[INTERACTION]
+> Choice A: "Accept the bowl and smile at Mina"
+> Choice B: "Set the bowl aside and examine the map first"
+[Outcome A: "You lift the bowl to your lips, offer a small, grateful smile to Mina; she returns it with a soft, satisfied hum, and the immediate warmth seems to knit the circle tighter."]
+[Outcome B: "You set the bowl gently on the board and draw a finger along the tide marks; Mina watches you, a questioning crease at the corner of her eye, then resumes serving without comment."]
+[MERGE: The group conversation continues after either action.]
+
+Elias Chen threads through the crowd like a bright thread—his laugh catches on the rafters and brings out more laughter. He slides in beside you with a handful of folded flyers and a sticky smear of paint on his knuckles.
+
+Elias Chen: "Thought you'd like to see these—flyers for tomorrow's shoreline walk. We can show the kids the new planting beds, and the council rep. It's simple, but it's hands-on." (he tilts his head toward the map) "What do you think?"
+
+Aiko Mori: "Simple is how we begin, Elias." (your voice is quiet but steady) "And hands-on is what we can guarantee. People can see the stakes with their feet in the mud."
+
+Elias Chen: (softly) "I like the way you say that. Your practical brain with my—" (he gestures, searching) "—certainly chaotic enthusiasm. It's a thing."
+
+You both laugh, a small, private accord. He reaches for the edge of the map; your fingers find it too. The brush of his hand is warm, familiar. It's a pressure that says, We are in this together—no bluster, only presence.
+
+Elias Chen: "Listen—people respond to being asked. We'll bring them out. We'll plant. We'll hold the line." (he meets your eyes) "Will you come with us?"
+
+Aiko Mori: "Every time I can. But—" (you press your palm lightly to the map) "—we're also being offered something bigger. A HelioCorp pilot, a modular barrier, data in exchange for access."
+
+A ripple passes through the group. Heads turn. The mention of HelioCorp pulls the air a fraction colder, even beneath the Beacon's lamplight.
+
+Rafi slips in like a shadow with a recorder dark against his chest. He keeps his voice low—habit or caution, you can't tell.
+
+Rafi: "Leaked memos surfaced this afternoon. Nothing concrete, but there are clauses that could tie community data access to the company's infrastructure. It's... ambiguous." (he taps the recorder) "Could be harmless. Could be binding. I thought you should know."
+
+Aiko Mori: (leaning in) "Ambiguous how?"
+
+Rafi: "Terms that let them 'maintain and modify' deployed sensors and stipulations about 'data stewardship' that default to corporate oversight if local systems fail. It's legalese that gives them the out. I'm still digging." (he gives a half-smile) "Wanted to give you a heads-up before the reps come in a week."
+
+Sora's jaw sets; Mina's spoon stills against the bowl. The room exhales as a group. No one jumps, no one shouts—this is not the night for it. The mood is cautious optimism, not panic.
+
+[INTERACTION]
+> Choice A: "Ask Rafi to speak about the memos now"
+> Choice B: "Thank Rafi and keep the memos between you for now"
+[Outcome A: "You ask Rafi to share what he's found. He clarifies a few lines from the memos, reading quietly. The words feel like small weights; the room listens, thoughtful and deliberate as the tide."]
+[Outcome B: "You take Rafi's whisper and tuck it into your pocket of concerns. He nods, relief flickering across his face; the knowledge becomes a quiet tool, not a headline yet."]
+[MERGE: The group's planning resumes after either choice.]
+
+You permit yourself a quick mental drift—models you know well gather like diagrams behind your eyes. The Subbasement Data Lab hums in imagination: servers like patient, glowing beasts; neon tidal models scrolling; condensation on concrete. It's where numbers translate into futures.
+
+[Scene: Subbasement Data Lab | In your head]
+[Background:"ch2_c4ca42_2"]
+[Sound: Low mechanical hum, a faint, persistent beep of queued alerts]
+
+You can see the data streams and the blind spots in them—sensors spaced too far apart, models that assume perfect maintenance, the risk that a single corporate backdoor could nudge a model into a decision that affects real people sleeping above it.
+
+Then your mind flashes to HelioCorp's Atrium: polished surfaces, strategic green walls behind glass, a spokesperson practicing a smile in a mirror. The promise there is quick and precise. The cost is often quieter—a consent that arrives in contractual form and slides decisions into boardrooms.
+
+[Scene: HelioCorp Glass Atrium | In your head]
+[Background:"ch2_c4ca42_3"]
+[Sound: The soft click of heels, distant, perfected laughter—an engineered reassurance]
+
+Returning to the Beacon, you fold those images into the room's warmth and hold both—your distrust and the people's needs—like two sides of the same planning sheet.
+
+Aiko Mori: "We can't ignore what HelioCorp brings. A modular barrier could be built fast, and their models are—" (you search for the right term) "—rigorous. But a quick fix that hands control away is not resilience. It's dependency."
+
+Mina: (stirring her spoon) "People are tired, Aiko. If it keeps the next storm from taking their stores, they will listen to the word 'fast'."
+
+Aiko Mori: "I know. I also know that local systems—distributed sensors, reinforced berms, community-operated pumps—don't need to hand over authority. They need small funding and coordination. Let them fund infrastructure but not governance."
+
+Sora: (gentle, but firm) "We have to be clear about what we will and won't trade. A bargain that erases us won't be a bargain at all."
+
+You take a breath. The room watches—not accusatory, only expectant. You are used to modeling scenarios quietly in the lab; public speaking is different. It requires translating models to human language so hands can act.
+
+Aiko Mori: (softly) "I can run a localized pilot—deploying a ring of community sensors linked to our Subbasement network, coupled with small-scale reinforcements like coir logs and raised beds I know how to design. We test first. We keep the data under community stewardship. If HelioCorp wants to partner, we negotiate access, not ownership."
+
+The suggestion lands like a measured stone. Murmurs start—some hopeful ("That's practical") and some skeptical ("Can we fund it?"). It's the kind of compromise that makes you proud and wary at once.
+
+Elias Chen reaches for your shoulder, steady and warm.
+
+Elias Chen: "That's the kind of thing that people can get behind. It's hands-on, immediate, and it keeps power where it should be."
+
+Aiko Mori: (meeting his gaze) "It also buys us a week to ask questions—about clauses, about their 'maintenance' language Rafi mentioned. A week to show people what local control looks like."
+
+Rafi: "I'll get my notes together. If there's anything that looks like an overreach, I'll make sure it's highlighted before the reps speak."
+
+Mina: "We'll rally volunteers. We'll show them the planting beds and the pumps. If they see a living system, they might be less seduced by shiny promises."
+
+Sora: "And we'll remember the shoreline's old names as we plant new roots. That way, what we build cannot be erased by a contract."
+
+The conversation folds into itself—plans sharpening like tools. The energy is warm, practical, and steady: people making a plan, not because it's romantic, but because it's needed. Hands clasp around the rim of the map, maps pass from palm to palm, and faces brighten in the lamplight.
+
+[INTERACTION]
+> Choice A: "Reach, and gently squeeze Elias's hand"
+> Choice B: "Turn to the group and start writing volunteer names on scrap paper"
+[Outcome A: "You close your fingers over Elias's in a brief, grounding squeeze. He smiles—a small, private lift that steadies both of you—and then returns to helping fold the flyers."]
+[Outcome B: "You pick up a scrap and a pencil, voice crisp as you call out roles; names are offered immediately, fingers marking the paper with the practical, hopeful certainty of people who make plans to survive."]
+[MERGE: The planning continues after either action.]
+
+You can feel the arousal of the room—gentle and rising. It's not a fever; it's the steady climb of communal resolve. The highest point tonight is not a shout but a quiet commitment: a pilot, a plan, a week to prepare.
+
+Sora leans forward, voice small but carrying.
+
+Sora: "They will bring their representatives in seven days. We must decide then whether to let them in, with eyes open."
+
+Mina: (nods) "We'll need that pilot ready to show what we can do without losing ourselves."
+
+You glance around at the faces gathered—the farmer who just fixed a rain catchment, the teenager with paint on his forearms, the woman who keeps the little free library running. They look tired, yes, but also steady. Hope here is not a flash; it's sediment, layered and slow-growing.
+
+Aiko Mori: (letting the ledger image return to you) "Then we prepare. We make the pilot visible, and we ask for clear language about data and governance when they arrive. No handoffs that aren't spelled out."
+
+A hush falls—not urgent, only full of attention. In the lamplight, hands rest on shoulders and the map. Your notebook sits closed now, pages warm, a ledger waiting for new entries.
+
+You feel the moment stretch, the decision point looming like the outline of the next tide. Everyone is looking toward the same week—one that will demand a choice none of you take lightly.
+
+[Background:"ch2_c4ca42_4"]
+[Music: Piano motif hangs—soft, unresolved]
+
+Page-turn thought: Seven days. A pilot to build, memos to parse, a crowd to organize. The Beacon has lit a path forward—practical, communal, guarded—and for the first time tonight you allow yourself the quiet, steady hope that it might be enough.
+
+[Background:"ch2_c4ca42_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: [3]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

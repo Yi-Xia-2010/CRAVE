@@ -1,0 +1,35 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Return to Salt<br/>[Common]"):::spine
+    2("Ch 2<br/>Tidewatch Calculatio<br/>[Common]"):::spine
+    3("Ch 3<br/>Promenade Vote Night<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Rally on the Pier<br/>[Route A]"):::limb
+    5("Ch 5<br/>Fractures in the Dat<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>Floodline (Ending A1<br/>[Route A — Option A]"):::limb
+    7("Ch 7<br/>Behind the Council T<br/>[Route B]"):::limb
+    8("Ch 8<br/>Quiet Corrosion<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>Promises Withdrawn (<br/>[Route B — Option A]"):::limb
+    10("Ch 10<br/>Silent Sampling<br/>[Route C]"):::limb
+    11("Ch 11<br/>The Quiet Leak<br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>The Broadcast (Endin<br/>[Route C — Option A]"):::limb
+    13("Ch 13<br/>Quiet Compromise (Al<br/>[Additional]"):::limb
+    14("Ch 14<br/>Co-opted Truth (Alte<br/>[Additional]"):::limb
+    15("Ch 15<br/>Withheld Evidence (A<br/>[Additional]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    5 -.-> 14
+    5 -.-> 13
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 13
+    8 -.-> 9
+    8 -.-> 15
+    10 -.-> 11
+    11 -.-> 14
+    11 -.-> 12
+    11 -.-> 15

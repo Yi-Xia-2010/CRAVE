@@ -1,0 +1,493 @@
+{
+    "title": "Tides of Promise",
+    "summary": "I, Amaya Saito, a field ecologist rooted in Takase Cove, am pushed into the center of a conflict: Maren Voss's corporate plan for a large seawall threatens the tidal marshes I protect; Lucas Herrera, my partner, leads the engineering effort. The story follows a Cinderella arc: a steady rise as community momentum and professional credibility build (I gather evidence, organize volunteers, and Lucas negotiates technical concessions), culminating in a perceived victory when the town council leans my way. A sudden fall follows when a manipulated impact report and a high-stakes incident reverse public opinion, fracturing trust and my relationship with Lucas. The final rise is a hard-won recovery: through strategic choices — leaking data, forging a hybrid design, litigating, or community organizing — I achieve systemic change in different ways depending on player choices. Across routes the romance with Lucas evolves: reconciled partnership, bittersweet distance, rupture, or slow, restored trust aligned with larger policy shifts.",
+    "emotional_curve_type": "Rise-Fall-Rise (Cinderella arc)",
+    "player_character": "Amaya Saito",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Morning at the Boathouse",
+            "branch_designation": "Common",
+            "narrative_focus": "I begin the day in the boathouse greenhouse, cataloguing seedling survival rates after a spring tide. The marsh's fragility is intimate: salt beads on sea-grass, gull calls, and the smell of wet timber. Lucas drops by with folded AR goggles and an awkward smile; he brings news of a corporate proposal to the town council. I balance technical charts with folk memories from Dr. Kaito Mori's stories and my father's storm journals. I meet Mika briefly outside in mismatched rubber boots; Elena invites me to a council briefing. The stakes crystallize: a seawall could save infrastructure but erase marsh habitat. My chest tightens — I can feel gold flecks in my amber-green eyes catch the greenhouse light as I make a decision to show up for the meeting. I pin a map patch to my jacket sleeve, touch the seashell pendant, and gather the volunteers' lists in my weathered notebook. The scene presses into a hopeful push: community organizing begins, and I sense momentum building toward something larger than our boathouse.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Dr. Kaito Mori",
+                "Mika",
+                "Elena"
+            ],
+            "locations_used": [
+                "Boathouse greenhouse",
+                "Boathouse"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Council Lobbying and Compromises",
+            "branch_designation": "Common",
+            "narrative_focus": "The town hall is humid and full of faces — market vendors, elderly fishers, and Elena, whose warm brown eyes give me a small, weary nod. I stand in front of the council with Dr. Kaito's historical maps taped to my faded jacket, my notebook open, and the scent of salt in the room. Maren Voss arrives immaculate in her pale technical suit; her platinum bob catches the cool fluorescent light. Lucas appears with a compact toolkit and the brass lighthouse key on his belt. I argue for the marsh: biodiversity, carbon storage, and social memory. He counters with calculations and timelines about infrastructure loss. The conversation sharpens but yields a temporary victory — Elena promises to form a committee to weigh options and to delay any vote. The community rallies: Mika mobilizes volunteers for a restoration demonstration. My amber-green eyes burn with proud fatigue as I map revegetation lines at the boathouse under worklamps. For a moment it feels like we can set the terms of the fight on our own soil.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Amaya Saito",
+                "Dr. Kaito Mori",
+                "Elena",
+                "Maren Voss",
+                "Lucas Herrera",
+                "Mika"
+            ],
+            "locations_used": [
+                "Town hall",
+                "Boathouse"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Public Hearing — Choice Point",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The public hearing converges at Takase Cove's waterfront amphitheater as fog rolls over the marsh. I step up, amber-green eyes wide, my hair in its low knot, and lay out a community plan: phased marsh restoration, citizen monitoring with drones and sensor networks, and a proposal for local co-management. Maren presents a sleek visual of the seawall at Atlantech's scale — cranes, concrete forms, and promises of immediate protection. Lucas's voice is cool through the comms as he explains mitigation strategies and technical tradeoffs. Elena listens with the weight of jobs and insurance claims on her shoulders. The crowd murmurs. This is the pivot: do I push for public confrontation, pursue negotiation with Lucas and Atlantech, organize a data-gathering campaign to challenge impact assessments, or appeal to national regulators through a whistleblowing strategy? Each path changes how the conflict will unfold: solidarity and protest, technical collaboration, investigative exposure, or political/legal escalation. My notebook feels heavier in my hands; I inhale the salted air and choose.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I start the next phase of the fight?",
+                "options": [
+                    {
+                        "label": "Negotiate publicly with Lucas and demand a hybrid plan.",
+                        "consequence": "Opens cooperative technical route with Lucas, but risks corporate smoothing.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Lead a protest and community blockade at the seawall site.",
+                        "consequence": "Raises public visibility and immediate pressure, but escalates conflict.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Fund a grassroots data campaign to expose flaws in the impact assessment.",
+                        "consequence": "Builds scientific evidence; slower but principled.",
+                        "target_chapter_index": 10
+                    },
+                    {
+                        "label": "Contact a regulator and prepare a whistleblow/legal complaint.",
+                        "consequence": "Direct institutional challenge with high risk and potential retaliation.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Maren Voss",
+                "Lucas Herrera",
+                "Elena",
+                "Mika"
+            ],
+            "locations_used": [
+                "Waterfront amphitheater",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "The Negotiation Table",
+            "branch_designation": "Route A",
+            "narrative_focus": "I agree to sit across a long table at Atlantech Towers, the glass atrium cool and clinical. Maren's steel-gray eyes are impassive; Lucas arrives with his toolkit clipped to his belt, the brass lighthouse key in his pocket. I propose a hybrid: reduce seawall footprint, integrate living shorelines, and fund marsh corridors. Lucas explains engineering constraints with precise, quiet clarity — he believes scale matters. In private, we revisit our history: his dark brown hair tousled when he smiles; my sea-grass braid falling loose as I lean forward. The early talks are promising — Elena tentatively supports negotiated amendments. For a few electric days the town sees me as a bridge; volunteers cheer at the boathouse. But under the surface, corporate timelines and shareholder pressure gnaw. An initial concession is reached publicly and I savor the peak: newspaper headlines praise compromise. I feel the warmth of victory, but a small dread claws at the back of my throat — a whisper that something crucial may be being negotiated out of view.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Amaya Saito",
+                "Maren Voss",
+                "Lucas Herrera",
+                "Elena",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Atlantech Towers",
+                "Boathouse"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Leaks and Revelations — Split (Choice Hub)",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The negotiated compromise feels like a high point; local radio plays a feel-good segment about partnership. Then an anonymous file arrives in my inbox: drafts of Atlantech's internal memos that show impact assessments were downplayed and mitigation timelines doubled down. Lucas denies knowledge at first; his blue-gray eyes cloud and he presses the brass key in his palm. The community is brittle with hope and betrayal. I must decide: trust Lucas and confront him personally, publicly present the leaked documents to the council and risk breaking negotiations, work with Dr. Kaito to validate the leak scientifically before going public, or quietly feed the documents to a national reporter to force scrutiny. Each choice risks the fragile victory. My amber-green eyes sting in the boathouse light as Mika waits with volunteers. The choice feels like the hinge between keeping a repaired bridge with Lucas or shattering it in pursuit of truth.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to handle the leaked memos?",
+                "options": [
+                    {
+                        "label": "Confront Lucas privately and demand transparency.",
+                        "consequence": "Preserves negotiation channels but risks internal betrayal.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Present the documents at the next council hearing.",
+                        "consequence": "Public exposure likely halts the deal but angers Atlantech.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Work with Dr. Kaito to validate and publish a scientific rebuttal first.",
+                        "consequence": "Slower, more credible path to force reform.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Dr. Kaito Mori",
+                "Mika",
+                "volunteers",
+                "Elena",
+                "Maren Voss"
+            ],
+            "locations_used": [
+                "Boathouse",
+                "Town hall",
+                "Council hearing"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Whistle and Reform — True Ending",
+            "branch_designation": "Route A (True Ending)",
+            "narrative_focus": "I choose to act with evidence and urgency. Whether through private confrontation that extracts a confession, a public council presentation that galvanizes citizens, or Dr. Kaito's peer-reviewed rebuttal, the leak becomes undeniable. A reluctant Atlantech engineer quietly corroborates the memos; Elena orders a temporary halt. Maren is removed from the lead role pending inquiry; the headlines call it a scandal. The fall — the revelation of corporate manipulation — leads to a decisive institutional correction. Lucas and I, raw and exhausted, stand on the harbor at dawn. He touches the brass lighthouse key and admits he should have fought harder inside the project. We negotiate a new interdisciplinary initiative: community co-management, scaled living shorelines, and legally enforceable monitoring. The town recovers agency. My amber-green eyes glisten; my sea-grass braid flutters in the salt breeze. Love regenerates slowly but honestly. The ending is systemic change — true victory that keeps the marsh alive and rebuilds trust.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Elena",
+                "Maren Voss",
+                "Atlantech engineer",
+                "Dr. Kaito Mori",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Atlantech Towers",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "The Blockade",
+            "branch_designation": "Route B",
+            "narrative_focus": "I lead a physical protest at the seawall construction site: volunteers chain themselves to concrete forms, while drones hum above and news cameras pick up the chant. The seawall site under harsh orange floodlights feels alien and brutal — stark concrete against the marsh's muted ochres. Maren's corporate security moves in; she is unflinching in her pale technical coat. Lucas arrives torn, dark brown hair damp from rain, his steely blue-gray gaze narrowed. The blockade forces a public standoff; Elena is pressured by both contractors and angry citizens. For a brief, euphoric moment our morale surges — the town rallies in solidarity, and we win a temporary injunction. Emotionally we're on a high. But the victory is brittle: corporate attorneys mobilize, and the engineers accelerate behind-the-scenes plans. The confrontation has escalated stakes and painted us as obstructionists in some narratives. I stand in salt-stiff clothes, heart pounding, realizing the path has closed certain doors even as it opens others.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Amaya Saito",
+                "Maren Voss",
+                "Lucas Herrera",
+                "Elena",
+                "Mika",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Seawall construction site",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Escalation — Split (Choice Hub)",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "After the injunction, Atlantech retaliates with a PR campaign accusing us of endangering residents. Elena faces pressure to protect jobs. The town divides. I receive a particular threat aimed at the boathouse lab: permits revoked unless the volunteers disperse. Lucas offers to publicly vouch for me if I accept an engineering compromise; Maren's legal team files an injunction to force the work to continue. I must choose: double down on civil resistance and risk legal penalties and loss of the boathouse, accept Lucas's mediated compromise to secure the lab and jobs, or pivot to a media strategy to changing public opinion by humanizing the marsh and exposing social costs. The decision will shape whether our high-profile resistance culminates in a durable shift or collapses under legal and political pressure.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "What is our next tactic?",
+                "options": [
+                    {
+                        "label": "Refuse compromise; escalate legal protest.",
+                        "consequence": "May force national attention but risks losing official support and assets.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Accept Lucas's mediated compromise to save local jobs and the lab.",
+                        "consequence": "Sacrifice in marsh protection but preserves the boathouse and relationships.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Launch a human-interest media campaign with Mika and volunteers.",
+                        "consequence": "Slow rebuild of public opinion with uncertain legal outcomes.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Maren Voss",
+                "Elena",
+                "Mika",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Seawall construction site",
+                "Boathouse",
+                "Town"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Hybrid Compromise — Happy Ending",
+            "branch_designation": "Route B (Happy Ending)",
+            "narrative_focus": "The path I choose leads to a negotiated compromise after intense public debate. Whether through a legal victory that forces Atlantech to the table, Lucas's mediation, or a successful media campaign, a hybrid solution emerges: segments of the seawall are redesigned to leave corridors for restored marshland; Atlantech funds large-scale restoration and community-led monitoring in exchange for safeguarded infrastructure where necessary. The town, bruised but pragmatic, accepts the hybrid plan. Lucas and I reconcile amid the concrete and reeds: his short dark hair wet from work, his blue-gray eyes softer as he hands me the brass lighthouse key and an AR overlay showing shared designs. Love rekindles with a new maturity: we work together professionally and personally. The marsh bears visible scars but is breathing again through engineered gaps. The ending feels warm and hopeful — not unscarred, but repairable.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Maren Voss",
+                "Elena",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Redesigned seawall",
+                "Marshland corridors",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Data Campaign Launch",
+            "branch_designation": "Route C",
+            "narrative_focus": "I opt for a grassroots scientific campaign: volunteers, youth coders, and sensor nodes. The boathouse becomes a hive of mapping: my weathered notebook splayed beside Dr. Kaito's algae-stained sweater and the glow of an array of environmental sensors. I train Mika to operate drones; Lucas offers data feeds but keeps professional distance. We compile evidence of marsh services: carbon sequestration, flood absorption, and species corridors. The first wave of findings surprises the council and the region; a scientific rebuttal begins to undermine Atlantech's narrative. The community feels purposeful and empowered. Yet corporates respond with legal counters and funding leverage, and Maren recalibrates her tactics toward faster construction windows. The campaign builds legitimacy — a rising arc — but the danger grows as corporate pushback tightens the timeline.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Amaya Saito",
+                "Dr. Kaito Mori",
+                "Mika",
+                "Lucas Herrera",
+                "Maren Voss",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Boathouse",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Validation and Setback — Split (Choice Hub)",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "Our data is validated by an external institute; for a time it feels like proof that can change policy. Officials cite our work in hearings. Then, a storm surge undermines a newly laid foundation at the seawall site: a contractor's partial collapse creates panic headlines, and Maren frames the incident as proof that only massive engineering can protect people. Public opinion tilts toward urgency and fear. I must decide: keep pushing the slow-building science narrative and risk losing immediate levers, negotiate an emergency mitigation deal with Lucas to protect lives while preserving data integrity, or take the evidence to a national regulator to force a temporary stop. The choice determines whether our measured approach translates into policy or is drowned by political panic.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How respond to the storm incident and public panic?",
+                "options": [
+                    {
+                        "label": "Hold fast to the data and escalate to national regulators.",
+                        "consequence": "May halt construction but risks portraying us as bureaucratic.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Work with Lucas on emergency mitigation while preserving the study.",
+                        "consequence": "Practical rescue, but may compromise full marsh protection.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Publicly dramatize victims' stories to humanize the marsh's value.",
+                        "consequence": "Emotional appeal may sway hearts but lacks technical teeth.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Dr. Kaito Mori",
+                "Maren Voss",
+                "volunteers",
+                "Mika",
+                "officials"
+            ],
+            "locations_used": [
+                "Seawall construction site",
+                "Boathouse",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Compromised Survival — Bittersweet Ending",
+            "branch_designation": "Route C (Bittersweet Ending)",
+            "narrative_focus": "The strategy chosen produces a bittersweet outcome. Regulators impose conditional halts, Atlantech concedes to fund large marsh corridors but insists on fortified segments to protect key infrastructure. Lucas accepts a role implementing mitigation measures elsewhere to avoid immediate conflict with company leadership; his dark hair and steady gaze leave my mornings quieter. The marsh is partly saved but scarred; many families adapt to changed shorelines. I remain in Takase Cove to lead long-term restoration, my hands rough with plantings and my amber-green eyes softer but watchful. Lucas and I attempt to keep our romance alive across distance and differing responsibilities; love persists, but it is quieter, mediated through data feeds and occasional AR overlays. The town endures with visible compromise — a living memory of both victory and loss.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Dr. Kaito Mori",
+                "Maren Voss",
+                "volunteers",
+                "families"
+            ],
+            "locations_used": [
+                "Marshland corridors",
+                "Boathouse",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Legal Strike",
+            "branch_designation": "Route D",
+            "narrative_focus": "I choose the risky legal route and contact a regulator, preparing official complaints and a whistleblowing dossier. Dr. Kaito and I gather testimony; Mika organizes witness statements. The regulator's bureaucracy moves slowly, but our filing forces Atlantech to respond with legal pressure: permit revocations threatened against our boathouse and an injunction naming volunteer leaders. Maren's cool steel-gray eyes in press footage seem unconcerned. Lucas is torn: his career hinges on project timelines and corporate trust; his face is a landscape of guilt. At first, we sense righteous momentum — the law could check corporate overreach. Then corporate trailers show bulldozers waiting and townspeople frightened about lost wages. The legal fight fractures community solidarity and escalates social tension. The initial hope turns precarious.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option D",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 14,
+            "characters_involved": [
+                "Amaya Saito",
+                "Dr. Kaito Mori",
+                "Mika",
+                "Lucas Herrera",
+                "Maren Voss",
+                "Elena",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Boathouse",
+                "Regulatory offices",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Courtroom Tensions — Split (Choice Hub)",
+            "branch_designation": "Route D / Split",
+            "narrative_focus": "The courtroom is sterile and distant from marsh smells; Elena sits stoic, the town divided in spectator seats. Evidence is debated. Atlantech's counsel uses economic threat narratives. A sudden leak of a manipulated impact statement would upend everything — but releasing it without a safe channel risks legal rebuke and wrecks any chance of negotiated mitigation. Lucas pleads with me to wait for a safer path; Maren stages a press event painting protesters as irresponsible. I must decide: force an immediate, public release of damning documents to sway the court and public, hold back to assemble airtight proof that will survive cross-examination, or withdraw the suit to protect vulnerable townspeople from eviction and corporate retaliation. Each choice edges closer to a fragile end.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 13, Option D",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to proceed in court?",
+                "options": [
+                    {
+                        "label": "Release the damning documents publicly now.",
+                        "consequence": "Immediate shock could halt construction but invites legal peril.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Hold for airtight evidence and allow legal counsel to proceed.",
+                        "consequence": "Slower path may be legally safer but lets construction continue in the short term.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Withdraw to protect citizens from economic fallout.",
+                        "consequence": "Protects people today but concedes strategic leverage.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "Elena",
+                "Maren Voss",
+                "Atlantech counsel",
+                "volunteers"
+            ],
+            "locations_used": [
+                "Courtroom",
+                "Takase Cove"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Corporate Advance — Sad Ending",
+            "branch_designation": "Route D (Sad Ending)",
+            "narrative_focus": "The choices culminate in a painful outcome. Either the hurried public release triggers corporate counter-lawsuits and professional smear campaigns that quiet momentum, or waiting allows construction to accelerate behind legal delays, or withdrawing saps momentum and leaves the council to accept Atlantech's plan. In all variants on this route, the seawall proceeds with only minor concessions. The marsh is largely lost; several families relocate as sea lines redraw property boundaries. Lucas rationalizes the damage as necessary and takes a job implementing mitigation in a different region — our conversations become rarer and more measured. I stand on the compromised shoreline beneath the seawall's shadow, my seashell pendant catching the dull light. The ending is a hard landscape lesson: I am disillusioned, grieving, but not broken. I return to small-scale restorations, to listening, to the stubborn work of planting where I can. The final rise is personal resilience rather than systemic victory.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 14, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Saito",
+                "Lucas Herrera",
+                "volunteers",
+                "families",
+                "Maren Voss"
+            ],
+            "locations_used": [
+                "Compromised shoreline",
+                "Seawall",
+                "Boathouse"
+            ]
+        }
+    ],
+    "remarks": "Setting: Takase Cove, a mid-21st-century coastal town confronting a choice between a corporate seawall (Atlantech) and community-led marsh restoration. Emotional arc: rise, sudden collapse, and recovery across branching routes.",
+    "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+    "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)"
+}

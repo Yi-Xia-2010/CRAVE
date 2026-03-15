@@ -1,0 +1,475 @@
+{
+  "title": "Tidebound Hearts",
+  "summary": "You are Maya Kestrel, a Hearthbend-born planner navigating accelerating storm impacts and a regional adaptation proposal that will reconfigure livelihoods and culture. The story follows an Oedipus-style emotional arc (Fall → Rise → Fall) across branching paths: public grassroots resistance, negotiated compromise with a corporate-backed engineer (Seren), or quiet scientific proof-building with Ilias. Each route yields a temporary recovery and intimacy but collapses into an unavoidable, tragic outcome that reframes what 'saving' Hearthbend means.",
+  "emotional_curve_type": "Oedipus (Fall → Rise → Fall)",
+  "player_character": "Maya Kestrel",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt in the Ledger",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake in the damp hush of early morning after a storm-scrubbed night. The harborfront has more damage than the bulletin promised. My battered waterproof notebook feels heavier. I count the cost — nets shredded, a boathouse door twisted — and remember who I couldn’t save years ago. The civic meeting looms and a glossy Skyhub delegation is arriving; whispers about Seren’s regional program have hardened into an actual proposal. My loyalty to Hearthbend’s people tightens like a rope. Ilias appears at the dock with a cracked jar of eelgrass samples and that tide-watch bracelet glinting; his presence steadies me, but his talk of scaled restoration is cautious. Etta demands a public stand; Mayor Ansel offers a grant with strings. The narrative sets stakes: decisions will not merely redistribute resources but reshape lineage and livelihoods. I touch my carved coral pendant, feeling its roughness; the smell of salt and wet tar is sharp in the lungs. I write into the margin: “Protect the harbor, protect the people.” The night’s storms have revealed vulnerabilities and old guilt; I know action is overdue.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Etta Muir",
+        "Mayor Ansel"
+      ],
+      "locations_used": [
+        "Harborfront"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Meeting at High Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "The town hall — a fish-scented room under sodium lamps — becomes a pressure chamber. Mayor Ansel, tweed damp with rain, moderates. Seren arrives late, hair wind-swept and sharp in a weatherproof blazer; her solar pin flashes as if underwriting her calm. She lays out a rapid-adapt plan: a raised sea wall, managed relocation incentives, and corporate-backed engineered wetlands. Her voice is polished but the images on her tablet cut like concrete. The room divides: Etta’s voice curves with folklore and fury; old nets and photographs are waved like talismans. Rafi angles for a headline that will inflame; Dr. Hana Sato quietly explains biological timelines for kelp recovery — years, not months. I stand, palms callused around my notebook, and try to stitch a community-led alternative: distributed eelgrass restoration, mosaic barriers, rooftop gardens scaled with labor credits. Ilias nods at my diagrams, eyes crinkling, but whispers of scaled funding made him inwardly hopeful. The meeting ends in an unresolved chorus. I walk back down the boardwalk as fog swallows the lamps, feeling the town’s fragile seam fray and my guilt pulse. Choices lurk like undertows; I must act.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Seren",
+        "Etta Muir",
+        "Mayor Ansel",
+        "Rafi",
+        "Dr. Hana Sato",
+        "Ilias"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Boardwalk"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Fork at Saltgarden",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The Saltgarden Lab is a glass island of green amidst wet concrete. I meet Ilias among trays of kelp; his hair is pulled back in a loose knot, tips bright from sun-drying samples. We trade quiet confidences — he wants community-scale restoration, but he’s been offered regional lab access if he helps validate Seren’s engineered wetlands. Later, in the mangrove patch, Etta presses a wrinkled hand into mine and insists I choose the town’s heart over efficiency. Rafi texts a leak: Seren’s firm already sponsors relocation pilots in a neighboring town. I am stuck between people who share my soil and a pragmatic plan that offers swift protection but at cultural cost. The decision crystallizes: speak publicly for community-driven restoration (I), broker a compromise with Seren to get funding and technical muscle (II), or keep working quietly with Ilias and the lab to prove a low-tech approach first (III). My fingers drum in my waterproof notebook — the carved coral pendant warms against my throat. I taste salt and iron; the choice is not merely technical. It will name whose losses we accept.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to position Hearthbend’s adaptation:",
+        "options": [
+          {
+            "label": "Campaign publicly for community-led restoration and refuse Seren’s offer.",
+            "consequence": "Deep grassroots mobilization; political isolation from regional funding",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Negotiate with Seren to combine engineering funds with local stewardship.",
+            "consequence": "Access to large-scale resources; risk of cultural concessions",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Work quietly with Ilias to build a replicable low-tech proof-of-concept before declaring policy.",
+            "consequence": "Slower, scientifically grounded path; risk losing momentary political power",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Etta Muir",
+        "Rafi",
+        "Seren"
+      ],
+      "locations_used": [
+        "Saltgarden Lab",
+        "Mangrove Patch"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Banners on the Boardwalk",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose the town — loud, messy, public. We string banners across the High Tide Boardwalk: “Hands Not Walls.” My field jacket is patched at the elbows, the mismatched brass compass charms clinking as I march. Rafi’s camera hunts the urgency; he frames Etta holding an old net like a relic. Ilias sets up a kelp propagation station at the Harborfront, mud on his sleeves, the tide-watch bracelet catching light. There is electricity in collective refusal; neighbors whose boats I once inspected show up with seedlings and tools. Seren’s sleek Skyhub buses circle like distant gulls; Mayor Ansel looks increasingly hemmed in. My planner’s notes morph from margins into a petition and an action plan for decentralized restoration and stepped protective berms. The sea still booms, but the town’s voice is louder now. For the first time in years, I sleep with a steadier heartbeat. The climb feels real — small-scale science and community labour knitting a possible future. I still carry guilty memory, but today the group’s warmth is a temporary balm.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Rafi",
+        "Etta Muir",
+        "Mayor Ansel",
+        "Seren"
+      ],
+      "locations_used": [
+        "High Tide Boardwalk",
+        "Harborfront"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Propagation and Promises",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "The Saltgarden’s trays hum with potential. I work beside Ilias; his ocean-blue eyes crinkle with an earnestness that unmans me. We develop a community-mapping protocol: eelgrass transplant sites, local training, shared rain-catch barrels. Dr. Hana visits and validates our methods, her lab coat damp, offering a cautious endorsement that could sway Mayor Ansel. Momentum grows: volunteers learn to weave living berms from eelgrass and reclaimed timbers. Yet pressure mounts from Seren’s emissaries who offer matching funds if we agree to route “priority zones” for engineered channels. That conversation fractures the harmony — some elders see safety in concrete; others hear betrayal. My guilt flares: I promised to protect everyone, but voices in the crowd are not mine to curate. Ilias touches my shoulder, mud under his fingernails, and suggests we make the protocol sharable online, an open-source model that could scale without corporate strings. The plan feels elegant and principled, and for a moment I imagine a future where Hearthbend leads a regional movement. The tide is turning, and my hope swells.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to scale the protocol:",
+        "options": [
+          {
+            "label": "Refuse to accept any conditional corporate funds — publish the open-source protocol and rally volunteer labor.",
+            "consequence": "Clear community autonomy; risk of insufficient funding in incoming storms",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept partial funding tied to ‘priority zones’ but demand community governance clauses.",
+            "consequence": "Technical resources arrive; governance pressures and perceptions of compromise",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Propose a regional cooperative with Seren and other towns — share governance in exchange for infrastructure support.",
+            "consequence": "A hybrid institution emerges; long-term scaling but cultural dilution risks",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Dr. Hana Sato",
+        "Seren",
+        "Etta Muir",
+        "Mayor Ansel"
+      ],
+      "locations_used": [
+        "Saltgarden Lab",
+        "Harborfront",
+        "Rooftop Garden"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "When the Berm Breaks",
+      "branch_designation": "Route A — Ending",
+      "narrative_focus": "We stood on our principles and published the protocol with everything we had: maps, watering regimens, community labor rosters. The first months were radiant — rooftop gardens bristled, elder fishers came back to tend eelgrass plots, and people could see the waterline inch less aggressively. I sat on the rooftop garden at dusk with Ilias; his deep ocean-blue eyes were soft with pride. We promised each other small things: a future picnic, a repaired boat floor. Then, on a night of a storm with an odd low pressure twist, a surge found the new berms’ weak seam. The unconditioned funding meant we couldn’t buy key anchoring materials. A breach opened where a child’s playhouse once stood; two small fisheries were lost in the inlet. I hold the photos in my notebook and count the places we miscalculated. The town recovers in parts, but families leave with boxes of heirlooms and rented vans. Ilias is offered a fellowship abroad to quantify our failures; he accepts, quietly. I stand on the harborfront, fingers on the coral pendant, the taste of salt now bitter. Our rise was real; the fall is absolute.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Etta Muir"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Harborfront",
+        "Inlet"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Glass and Tides",
+      "branch_designation": "Route B",
+      "narrative_focus": "I step into the Skyhub Pavilion wearing my patched field jacket under a borrowed raincoat. Seren’s office glows with efficient light; her platinum bob cuts reflections off glass. We negotiate in a pragmatic, exhausted tango: Seren offers expedited funding for a raised wall and engineered wetlands if Hearthbend accepts a phased relocation plan for the lowest streets. I point to my notebook — maps of cultural nodes, the mangrove patch I grew up in. She listens with that steel-gray gaze and, because of my credibility and Etta’s grudging consent, bends to include “cultural sanctuaries” and co-governance clauses. The deal is tense — I promise community oversight, and Seren promises technical muscle. Ilias stands across from us, mud-stained and awkwardly hopeful, and later he takes me to the Saltgarden to show how engineered wetlands could speed eelgrass recruitment. The plan feels decisive, efficient, and clean. For the first time, a route looks like it will hold; there is a tangible infrastructure to point at. My stomach knots with both relief and anticipatory grief.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Seren",
+        "Ilias",
+        "Etta Muir",
+        "Mayor Ansel"
+      ],
+      "locations_used": [
+        "Skyhub Pavilion",
+        "Saltgarden Lab"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "The Compromise Map",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "We draft the Compromise Map: zones of protection, relocation corridors, and preserved sanctuaries for ceremonial fishing. I liaise with Mayor Ansel and Dr. Hana to calibrate the wetland science to community labor. Seren’s team brings prefab pilings; Ilias brings living fragments and scientific patience. The public reaction is mixed but manageable — Rafi runs a piece on the plan’s expedience, and volunteers sign up for planting days. Sometimes when I share a quiet coffee with Ilias, his ocean-blue eyes betray an anxiety about what we’ve traded: smaller fishers who will now be nudged to sell, boathouse leases renegotiated for corporate contractors. I press my palm to the old shipyard’s steel and try to imagine a future where the boardwalk hums under a safer sky. The hybrid model shows real effects: flood frequency drops in pilot sectors. Yet late night calls come from families scheduled to relocate. I lie awake, the carved coral pendant warm, sensing the contour of loss already being mapped into policy.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to enforce community safeguards:",
+        "options": [
+          {
+            "label": "Hold Seren to the co-governance clauses — push for legal guarantees for cultural sanctuaries.",
+            "consequence": "Stronger protection in texts; political stalling from Seren’s board",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Fast-track construction for immediate protection, accepting that some leases and boats will be bought out.",
+            "consequence": "Immediate safety; community resentment",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Insist on a binding relocation fund and job retraining for displaced fishers.",
+            "consequence": "Social safety net arrives; project cost balloons and regional support wavers",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Seren",
+        "Mayor Ansel",
+        "Dr. Hana Sato",
+        "Ilias",
+        "Rafi"
+      ],
+      "locations_used": [
+        "Shipyard",
+        "Harborfront",
+        "Boardwalk"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Concrete Promises, Hollow Shores",
+      "branch_designation": "Route B — Ending",
+      "narrative_focus": "I force Seren’s boardroom to sign governance guarantees for the sanctuaries. Lawyers tangle clauses into dense protections — legal armor on paper. For weeks, my chest lightens as the first segments of seawall rise and wetlands are planted with engineered frames. The pilot sectors survive a late seasonal swell that would have previously flooded the lower shops; people clap. Ilias stands at my side and the proximity is electric; we share a slow, honest kiss next to a kelp tray. But the legal language cannot hold culture in place: corporations quietly buy out boathouse leases outside the sanctuaries, offering owners lump sums that look like salvation. Old fishers with mortgages accept. Neighborhoods fracture as economic incentives redraw who stays. Etta’s favorite docking post is sold and gutted; she walks more slowly now. I thought co-governance would be a refuge, but layered agreements create loopholes; the town’s social map redraws itself with sterile lines. I end at the harbor at dusk, my notebook open to the sanctuary clauses I had fought for, and taste salt that now carries a metallic tang.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Seren",
+        "Etta Muir"
+      ],
+      "locations_used": [
+        "Seawall",
+        "Harborfront"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Quiet Trials",
+      "branch_designation": "Route C",
+      "narrative_focus": "I sidestep the public podium and sink into lab time with Ilias at Saltgarden. Our days are small and fierce: harvesting eelgrass fragments, experimenting with substrate mixes, training apprentices on retrofitting rain capture for rooftop gardens. My field notebook grows dense with trial notes, marginalia in my own handwriting, and sketches of the mangrove patch’s root scaffolding. Ilias, with kelp stains across his sun-worn shirt and a compact camera always slung over his shoulder, is patient and quietly triumphant when a mesh of eelgrass takes root. Dr. Hana visits less as a supervisor and more as an ally; she helps us frame a publishable study. We build a replicable low-tech kit — cheap materials, labor-based distribution — and seed a few neighbors’ plots. Our success is modest but scientifically robust. Rafi posts an understated piece about the method and it sparks curiosity in a few other towns. My heart softens toward Ilias; his ocean-blue eyes look at me like tiny harbors. There is a different kind of momentum: slow and principled. For a while, it feels like everything might be enough.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Dr. Hana Sato",
+        "Rafi"
+      ],
+      "locations_used": [
+        "Saltgarden Lab",
+        "Rooftop Garden",
+        "Mangrove Patch"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Publication and Pilots",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "Our paper goes public: an open-source guide to community-scaled eelgrass propagation and rooftop hydrology. Rafi writes a human story about neighbors who regained harvests; Dr. Hana amplifies our data at a regional symposium. Interest surges quietly: three neighboring towns volunteer for pilot kits. For once I can imagine scaling without selling our soul. Ilias and I share small, domestic intimacies — mending a net, drying samples together — and there is a tenderness I’d learned only by protecting others. But news arrives that Seren’s firm will begin an aggressive, urgent build nearby, using heavy machinery that will disturb the pilot’s hydrology if not properly coordinated. Mayor Ansel receives pressure from regional authorities to accept Seren’s top-down timeline. I must choose: try to coordinate with Seren in a limited way, hold fast to a purely grassroots scale, or leverage public attention to demand time and buffer zones. The lab lights hum; my coral pendant pulses against my throat like a question I cannot avoid.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to Seren’s impending build:",
+        "options": [
+          {
+            "label": "Seek a formal coordination agreement with Seren to protect pilot hydrology zones.",
+            "consequence": "Gains buffer for pilots at expense of negotiating with corporate schedule",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Double down on grassroots deployment and publicize potential conflicts, forcing political scrutiny.",
+            "consequence": "Raises awareness but risks being sidelined by emergency mandates",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Accept a private research grant to scale quickly and prove effectiveness before Seren’s machines start.",
+            "consequence": "Fast scaling but funded partially by outside interests",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Dr. Hana Sato",
+        "Rafi",
+        "Mayor Ansel",
+        "Seren"
+      ],
+      "locations_used": [
+        "Saltgarden Lab",
+        "Regional Symposium",
+        "Harborfront"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Buffer that Failed",
+      "branch_designation": "Route C — Ending",
+      "narrative_focus": "We sign a coordination agreement with Seren — legal buffers around our pilot hydrology zones and scheduling constraints for heavy machinery. The first coordinated month is a relief: machines are paused; volunteers plant and eelgrass beds thicken. I sit on reclaimed wood with Ilias as waves pound a measured, now-managed rhythm. He smiles and I return it, in a moment that feels like future-making. But politics are tidal: Seren’s investors demand faster returns and press the regional authorities. A sudden legal reinterpretation truncates the buffer by a privately negotiated addendum. Heavy equipment returns sooner than promised, churns sediments, and our eelgrass beds suffocate in stirred silt. The carefully measured protocols are drowned by a decision made in a room I was never a part of. Families who had begun to plant lose faith; some sell at cut rates. I hold Ilias’s wet hand as he stares at the ruined trays; he is offered a foreign lab position to analyze why our pilot collapsed. I see the pattern now: a temporary rise, and then a collapse that was always possible. My notebook fills with blacked-out clauses and a grief that is slow and enormous.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Seren",
+        "Dr. Hana Sato"
+      ],
+      "locations_used": [
+        "Pilot Hydrology Zones",
+        "Saltgarden Lab",
+        "Harborfront"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Patching a Broken Map",
+      "branch_designation": "Cross-Route Ending — Bittersweet",
+      "narrative_focus": "This path is a hybrid of compromise and grassroots: we accepted partial funding with governance clauses, and later publicized conflicts to force political scrutiny. For a moment, it seemed like the town’s patchwork could be a model. I negotiated for cultural sanctuaries and executed emergency eelgrass transplants in tandem with engineered frames. The hybrid pilot saved some fisheries and preserved a few heritage sites. Ilias and I grew intimate between fieldwork and data runs; his ocean-blue eyes were often wet with hope. But the hybrid model’s seams wore thin under market pressure. Investors insisted on scalable returns; sanctioned buyouts began outside sanctuary boundaries. Families relocated under duress. The cooperative model gave us a voice but not veto power. Some neighborhoods held; others emptied. Etta keeps knitting nets in a dwindling shop; Rafi’s headlines shift from triumph to elegy. I stand at the Mangrove Patch at dusk and count what was saved against what was sacrificed. The town is alive but changed. Love remains, but the town’s map will never be the same. This rise was costly; the fall, inevitable.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option B OR From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Etta Muir",
+        "Rafi",
+        "Dr. Hana Sato",
+        "Seren"
+      ],
+      "locations_used": [
+        "Mangrove Patch",
+        "Harborfront",
+        "Saltgarden Lab"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Engineered Sanctuaries",
+      "branch_designation": "Cross-Route Ending — Sad/Bittersweet",
+      "narrative_focus": "We created a formal regional cooperative: Seren’s engineering, community governance, and my maps merged into engineered sanctuaries — places where cultural sites were physically preserved behind hardened walls while surrounding neighborhoods were restructured. The sanctuaries were beautiful and sterile, with plant walls and reflective water pools that felt almost museum-like. Seren and I stood in those glassed sanctuaries once, and in the hush she confided a loneliness beneath her decisiveness. The town’s economy stabilized; harbor traffic resumed under new regulations. Yet the cost was a diminished everyday — small fisheries contracted, old boatbuilders found their trades unnecessary, and the public square’s laughter thinned. I drift away from Ilias, whose research needed more flexible tides than our new structures allowed; he accepted a fellowship to study displaced fisheries elsewhere. I sleep with the carved coral pendant wrapped in my palm and remember the smell of the old shipyard. Our rise was technocratic and fast. In the quiet after, I feel an ache for the unquantifiable things we could not safeguard.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option C OR From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Seren",
+        "Ilias",
+        "Etta Muir"
+      ],
+      "locations_used": [
+        "Engineered Sanctuaries",
+        "Shipyard",
+        "Harborfront"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "The Open Model That Burned",
+      "branch_designation": "Cross-Route Ending — Sad",
+      "narrative_focus": "We accepted private grants to scale quickly: production of low-tech kits, paid apprenticeships, and a rapid deployment that proved our model’s efficacy in months. The media loved the “Hearthbend Method.” Ilias and I stayed; for a while, everything felt like vindication. But the grant’s fine print allowed corporate partners to repurpose our open-source designs for profit elsewhere, and investors rebranded our labor model into a packaged, franchised system that extracted labor quotas and imposed contractual rents back on communities. The very openness that should have empowered neighbors became a vector for commodification. My notebook fills with memos of appropriation; Rafi’s initial celebratory piece becomes a critique. Etta refuses to accept donated rents; she sells her dock and leaves. Ilias is offered a position overseeing scaled deployments internationally; he chooses to go, promising to bring back lessons. I watch the town I loved become a model marketed in glossy brochures. The temporary rise turned to a fall not born of a storm but of our own invention. The pendant feels heavier than ever.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option C OR From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Kestrel",
+        "Ilias",
+        "Rafi",
+        "Etta Muir",
+        "Seren"
+      ],
+      "locations_used": [
+        "Saltgarden Lab",
+        "Harborfront",
+        "Regional Markets"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Notes on Structure & Arc Compliance:\n- Narrative curve adhered to: every route begins with the protagonist’s Fall (Chapters 1–3), proceeds to a Rise (route-specific Chapters 4–5, 7–8, 10–11), and culminates in a Fall (endings: Chapters 6, 9, 12, 13, 14, 15). Each path from Chapter 1 to an ending is at most six chapters long.\n- Branch points: Chapter 3 (major fork), Chapter 5 (Route A fork), Chapter 8 (Route B fork), Chapter 11 (Route C fork) — satisfying at least three distinct split points.\n- All chapters use first-person POV as Maya Kestrel; visuals repeatedly reference Maya’s hair, clothing, accessories (notebook, coral pendant, compass charms) and consistent visual descriptions of Ilias, Seren, and secondary characters.\n- No new main characters are introduced; secondary characters appear in supporting roles only.\n- The endings reflect the Oedipus-style Fall-Rise-Fall: temporary successes followed by unavoidable social/ecological losses that reframe personal and communal relationships and the romance arcs (Ilias/Seren) depending on choices.",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 05:52:23"
+}

@@ -1,0 +1,167 @@
+### SCRIPT
+# Route: Route C
+# Context: f99e88
+
+[Scene: Restored Quay | Morning]
+[Visual: The quay, newly stitched: modular blocks glinting faintly where they meet mangrove roots. Lanterns hang along ropes, small flags stitched with the council seal fluttering in a soft, salt-sweet breeze.]
+[Music: Warm strings with gentle percussion; a steady, hopeful rhythm]
+[Sound: Soft clink of metal and peat being set, distant gulls, water lapping a steadier, calmer cadence than before]
+
+Narration:
+You arrive with the tide—only a little later than planned, because you stayed too long talking to Jun about sensor calibration, and because Elena insisted you take the wrapped fish and tamarind she'd packed. The quay breathes around you: people moving with a shared purpose, hands that already know the particular choreography of these repairs. Where there was tension before, there is now a practiced economy—calls that are short and kind, tools passed without preamble, the effortless translation of intent into motion.
+
+Mayor Isla Cortez stands near the new seam in the wall, sleeves rolled, a municipal bandana at her neck like an odd medal. Dr. Kavir Singh leans into the hum of a tablet, his weathered face softer than the screen's blue. Mateo Hale inspects a bolt with the same calm precision he uses to measure a line of levelling; his jaw is set, but his stance loosens when he notices you. Sora Lin is in the planting line a few paces over, laughing as they hand an elder a sapling, paint-stained hands moving like ritual.
+
+Aria Navarro: "Morning. Did I miss anything dramatic?"
+
+Mayor Isla Cortez: "Only the usual miracle—people deciding to do the hard thing together."
+Mayor Isla Cortez [taps the tablet]: "Kavir's just confirming the regional match on the funders' side. Your protocols held as the bones of tonight's vote. We have signatures coming."
+
+Dr. Kavir Singh: "The oversight language is clean. There's room to scale, and the safeguards are explicit enough to satisfy the grant committee."
+Dr. Kavir Singh [peers at you]: "You wrote something in here that matters—ways for neighbors to inspect, ways for volunteers to halt a deploy if cultural harm risks rising. That is rare. That is good."
+
+Narration:
+The praise is warm and factual; you feel it as a pressure easing from your chest. The protocols you insisted on—rapid volunteer mobilization, transparent logs, and community vetoes tied into emergency authority—are not an obstacle tonight. They are the architecture that balances urgency with care. You had feared they'd be seen as delays. Instead, they are a scaffold.
+
+Mateo Hale [glancing up, quietly]: "We tightened the anchor points last night. The modules flex more than they used to—measured stiffness in the right window. It'll buy the low-lying rows at least one more season of usable ground while the saplings get a hold."
+
+Sora Lin [breathless, wiping hands on a shirt]: "And the planting schedule's ahead by two weeks. The volunteers turned up in force, Aria. People are learning the song you wanted sung at each swath we plant. It matters—more than we realized."
+
+Aria Navarro: "That's the point. We don't just stop a flood. We teach the coast to welcome it and work with it. We make sure the people who live here are doing that teaching."
+
+Mateo Hale [small, almost helpless laugh]: "You make it sound like a party and a laboratory at once."
+
+Sora Lin: "Because it is both. We pour concrete and we pour story."
+
+Narration:
+Their banter is easy on the surface and threaded with old negotiations. You keep your face neutral because you've learned that the safest way to carry several truths is to let them exist side-by-side. You are proud of the hybrid—of the sentry-like steel and the green roots both doing their jobs—and you are proud of the way the town accepted the balance.
+
+[INTERACTION]
+> Choice A: "Tie Elena's ribbon to the community rope"
+> Choice B: "Check the sensor logs with Jun before the signing"
+[Outcome A: You loop the citrus-bright bundle Elena insisted on into the braided line. It smells like the market and home; it settles like an amulet. Someone near you hums an old fishing tune and your shoulders drop, a small softening.]
+[Outcome B: You crouch with Jun beside the deployment array. The sensors blink a confident green. Jun's grin is loud and private; you trade a conspiratorial thumbs-up and feel the quiet satisfaction of machines answering to care.]
+[MERGE: Both small acts, both necessary. You do them both because small rituals feed the larger commitments. People notice. They nod. They take strength from the rhythm.]
+
+[Scene: Rooftop Greenhouse & Community Rooftop | Noon]
+[Visual: Potted herbs in neat rows, string lights dwarfing the low, broad horizon. The city spreads below like a watercolor smudge; the rebuilt seawall is visible, a low promise in the distance.]
+[Music: A gentle piano motif, sunlight-drenched]
+[Sound: Soft conversation, a kettle hissing, the rustle of leaves in the rooftop wind]
+
+Narration:
+The rooftop meeting feels like a private city: elders under a translucent awning, teenagers trading tools, community scribes lining up to sign the new charter. Mayor Isla Cortez reads the final clause aloud—an agreement to hold decision-making councils with rotating seats, paired with an emergency protocol that grants the mayor rapid authority for 48 hours but requires public review within the week and the possibility of recall. The language is measured; it glows with the authority of compromise.
+
+Mayor Isla Cortez: "This is not a delegation of power. It is an agreed emergency mechanism. You, Aria, insisted on the transparency clauses. We have them."
+
+Aria Navarro: "We insisted that power be temporary and audited. That people are never left without a voice."
+
+Dr. Kavir Singh: "And the monitoring network will publish its raw reads in real time. Any resident can see tide levels, stress on modules, and volunteer rosters."
+Dr. Kavir Singh [lets the thought hang]: "That visibility will be a guard against the slow creep of decisions made without consent."
+
+Narration:
+As signatures circulate, the rooftop noise becomes a kind of choir—pens scratching, laughter, the soft thud of shoes against wooden decking. Mateo Hale joins you at the railing, bringing two paper cups of tea. Sora Lin sidles up with a small jar of herbal infusion, an offering of their own.
+
+Mateo Hale [handing you a cup]: "They grow something different for engineers. It's not very herbal. But it isn't terrible."
+
+Sora Lin [grinning]: "And we grow something they call a 'civilization tonic'—sea-basil and lime. Take whichever is braver."
+
+Aria Navarro: "I can't refuse both."
+
+Mateo Hale: "That sounds like you, too many things at once. Are you okay with this? With how quickly we codified—did we give up anything too important?"
+
+Sora Lin [eyes bright, tone softer]: "We didn't give up the story. We kept ceremony. We kept people in the loop. The council will decide plant placement with elders present. That's a win."
+
+Mateo Hale [more restrained]: "We have procedures to lock out rogue maneuvers—protections I argued for. I worry about the shocks we can't measure yet. But you thought of that. Your protocols aren't just paperwork; they're practical."
+
+Narration:
+They speak in different languages—Mateo Hale measures in bolts and thresholds; Sora Lin measures in lineage and rhythm. You translate, in your head and out loud, because that's your job and your inclination: to make the technical and the tender commensurate.
+
+Aria Navarro: "We kept the line of sight, the audits, the recall. We also kept the planting days and the songs. We'll put elders on the planning subcommittee. We'll rotate oversight seats so the same voice doesn't hold the gavel forever. And we'll keep a public log at the lab that's readable at the quay."
+
+Mateo Hale: "Readable without a PhD."
+Mateo Hale [smiles]: (He smiles, and it reaches his eyes in a way it sometimes doesn't.)
+
+Sora Lin [wrapping an arm—briefly and carefully—around a neighbor handing over a pen]: "Readable with heart."
+
+[INTERACTION]
+> Choice A: "Accept Mateo's quiet smile and linger for a second"
+> Choice B: "Answer Sora with a quick, mischievous plan for the next planting festival"
+[Outcome A: You let the moment hang; the smile is a small gravity. You feel the possibility of steady, measured things—dinners that are simple, hands that hold screws and stories with equal care—pressing at the edges of your chest.]
+[Outcome B: You bounce back into the communal current, pitching a plan to paint signs and teach children a new planting chant. Sora's mock salute is all the intimacy you need—connection through shared mischief.]
+[MERGE: You take both: the small intimacy, the larger project. You learn that balance doesn't mean choosing one practice and forbidding the other; it means making space for both in your life. The rooftop's warmth settles around you and threads through your ribs like a slow stitch.]
+
+Narration:
+You take both: the small intimacy, the larger project. You learn that balance doesn't mean choosing one practice and forbidding the other; it means making space for both in your life. The rooftop's warmth settles around you and threads through your ribs like a slow stitch.
+
+[Scene: The Tidal Lab | Evening]
+[Visual: The lab's broad windows glow amber. Inside, tide charts are pinned beside children's drawings from the planting workshops. A whiteboard displays a new governance flowchart annotated in multiple hands and colors.]
+[Music: Low, sustained cello; open and calm]
+[Sound: Keyboard clicks, the soft beep of a successful data upload, the muted murmur of a video call in a corner]
+
+Narration:
+You come back to the lab to make the official log entry—part technical record, part love letter—to the town. Jun is camped at a bank of monitors, caffeinated and triumphant. Dr. Kavir Singh sits with a steaming mug, looking like he might read the entire log aloud if you asked him. The regional funders' coordinator beams on a screen, congratulating everyone and announcing the first tranche of funds that will ensure continuity for six months—staff stipends, a seed order for mangroves, contingency for replacement modules.
+
+Dr. Kavir Singh [softly]: "They called during the vote. They wanted to be sure the community clauses were more than photo ops. They said your oversight model made them confident—your insistence on shared control is what clinched it."
+
+Jun [waggling a wireless sensor]: "Also, I made the UI less terrifying. It has icons now. Aria, a kid could read this and know when to bring a shovel."
+
+Narration:
+You log the metrics, attach the scanned signatures, and write the passage you want to last in the town's record. It's not just about sea levels or materials; it's about how decisions were made, who was given voice, and how the work will be taught.
+
+Aria Navarro: "We asked for the ability to move quickly when necessary, and for mechanisms that keep us honest. We wanted the town's hand in every lever. We wanted the next generation to inherit both tools and songs."
+
+Mayor Isla Cortez: "That line is going to make people cry—and then get to work. Thank you."
+
+Narration:
+There are celebrations—modest, rhythmic. People bring dishes, lights stay on late. You realize you haven't slept like this in a long time: full-throated and unashamed, the kind of tired that means you've trusted others and been trusted back.
+
+Mateo Hale [quiet, near the lab door]: "You did the hard thing, Aria. Not the easy compromise—the rigorous one."
+
+Sora Lin [from the planting charts on a table, paint still on their fingers]: "And you let us keep our songs."
+
+Narration:
+They stand on either side of the doorway, different in their closeness, different in what they offer. You notice how their presence maps onto two futures: one steady and engineered, one vivid and messy with ritual. You notice that your chest tightness is no longer panic but a kind of ache—the ache of a life that will hold many truths if you let it.
+
+Aria Navarro: "I—"
+Narration:
+(You stop, because there's no single sentence that will contain gratitude, fatigue, fear, and hope all at once.)
+
+Mateo Hale [soft]: "You don't have to say it now. We have time."
+
+Sora Lin [grinning]: "And the planting festival is next month. Come with us. Bring your notebook—and your terrible taste in tea."
+
+Narration:
+You let their offers hang as something nourished rather than resolved. You have learned, these months, that choosing tomorrow does not always erase possibility. It rearranges it. You fold the day's logs into the drawer of the lab's filing cabinet, the leather strap of your notebook worn in where your fingers have pressed it for years. Elena's ribbon is pinned above the drawer like a promise.
+
+[Visual: The quay outside glows with lantern light. People drift in small constellations—talking, repairing, planting. The seawall, for now, hums with new life. In the distance, mangrove leaves glint like a newly sewn hem.]
+
+[Music: Swell of strings; a gentle, ascending motif]
+[Sound: Waves steady, a chorus of human voices mingling with wind]
+
+Narration:
+You stand looking out at the town you have refused to let be reduced to statistics. You are tired, but your limbs are not empty. They are full of signatures, soil under your nails, the smell of fish and citrus, and the small, stubborn joy of people who choose each other every morning.
+
+You close your notebook and let the lantern light wash over the handwriting you left for the future. It reads like a map and a promise: oversight that is communal, emergency authority that is temporary, funding that supports living labor, ritual sewn into response.
+
+You inhale the salt and the herb-sweet air. You let yourself believe, finally, that balance is not an impossibility but a practice you will learn again and again—with mistakes and corrections and laughter. You think of Elena's steady hands, of Jun's grin, of Kavir's patient mentorship, of the mayor's difficult courage, of Mateo Hale's quiet measurements, and of Sora Lin's brave color.
+
+Narration:
+Tonight, the town rests on something firmer than fear. You let the current rise under you with gratitude rather than dread. For the first time in a long while, you allow yourself to imagine a future that includes both work and small domestic joys—dinners, plantings, council meetings where elder voices are lifted and heard. You are not choosing a single path that erases the others; you are setting a table where multiple ways can be present.
+
+[Visual: Slow fade to the quay at night; a long shot of a community mid-breath, mid-repair, lit by lanterns and the faint guiltless glow of technology that answers to people.]
+[Music: A final, tender chord; suspended and warm]
+[Sound: The tide ticking quietly, like a clock that keeps good time]
+
+Narration:
+You have written the protocols, kept the rituals, and taught the town to hold both. You close the lab door behind you, feeling the little click of completion. You don't know what hard choices tomorrow will bring, but tonight—tonight the town is whole enough to face them.
+
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

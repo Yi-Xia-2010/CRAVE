@@ -1,0 +1,244 @@
+{
+  "generated_at": "2026-03-11 13:00:32",
+  "total_chapters": 15,
+  "total_valid_routes": 9,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 13,
+      "branch_name": "Route C (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        13
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route C (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        14
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route C (Ending / True)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        15
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 8,
+      "branch_name": "Route B (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Additional (Route B consequence)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        12
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 11,
+      "branch_name": "Additional (Route A consequence)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        11
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 5,
+      "branch_name": "Route A (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "length": 5
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt and Old Maps",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Meeting at the Boathouse",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Council Notices and a Choice",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Rallying the Harbor",
+      "branch": "Route A",
+      "children_ids": [
+        6,
+        5,
+        11
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "The Harbor Demonstration",
+      "branch": "Route A (Ending)",
+      "children_ids": []
+    },
+    "6": {
+      "id": 6,
+      "title": "The Technical Report",
+      "branch": "Route A (Ending)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Brokered Lines",
+      "branch": "Route B",
+      "children_ids": [
+        9,
+        12,
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Public Signing",
+      "branch": "Route B (Ending)",
+      "children_ids": []
+    },
+    "9": {
+      "id": 9,
+      "title": "Quiet Pilot",
+      "branch": "Route B (Ending)",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Accepting the Seawall",
+      "branch": "Route C",
+      "children_ids": [
+        15,
+        14,
+        13
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Compromise Accused",
+      "branch": "Additional (Route A consequence)",
+      "children_ids": []
+    },
+    "12": {
+      "id": 12,
+      "title": "Economic Guarantees",
+      "branch": "Additional (Route B consequence)",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Design Amendments",
+      "branch": "Route C (Ending)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Standard Build",
+      "branch": "Route C (Ending)",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Oversight Panels",
+      "branch": "Route C (Ending / True)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 14,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

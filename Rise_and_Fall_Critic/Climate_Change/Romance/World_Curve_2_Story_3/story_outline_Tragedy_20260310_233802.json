@@ -1,0 +1,497 @@
+{
+    "title": "Tides of Havenport",
+    "summary": "Marin Sato, a long-time resident of the coastal town Havenport in 2040, fights to guide the town toward community-led coastal adaptation while balancing love, loyalty, and political pressures. Choices pit grassroots stewardship and experimental ecological solutions against corporate-engineered protection from Tideguard. Each branch explores different strategies (public resistance, private negotiation, experimental pilots) and accumulates losses — compromised relationships, displaced neighbors, or failed projects. The emotional arc is a steady tragedy: partial victories come at human cost and endings are sorrowful or bittersweet, emphasizing ongoing labor and compromise rather than tidy salvation.",
+    "emotional_curve_type": "Tragedy (Fall)",
+    "player_character": "Marin Sato",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt & Compass",
+            "branch_designation": "Common",
+            "narrative_focus": "I stand on the Havenport Boardwalk at dawn with my brass compass pendant warm against my sternum, watching the tide repaint the town's footprints. The wooden planks groan; gulls wheel in a bruised blue sky. My hands smell of salt and old rope — the sun has burned their knuckles into familiar maps. I inventory what we have: a volunteer crew at Greenwave, a field notebook full of pressed leaves and plans, Elder Tomas's old warnings ringing in my ears, and a strained relationship with the very harbor I aim to protect. I run my fingers through my dark seaweed-brown hair tied into its messy ponytail and think of Ariana—platinum-ash bob, blue streak, bright yellow boots — arriving to pilot a kelp nursery. The corporate envelope from Tideguard is unopened on my table; Cassian Rhee’s polished voice already fills town whispers. I'm tired of small fixes stitched like bandages. This morning I decide to call a meeting: community, research hub, and the town council. The choice to convene feels right, but there is a lowness beneath hope, a tide that hints at erosion of what we love. I remind myself: some storms bruise and pass, others reshape coastlines forever.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Elder Tomas",
+                "Lina Park",
+                "Ivy Morales",
+                "Cassian Rhee",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Havenport Boardwalk",
+                "Old Boathouse (recalled)",
+                "View of Tideguard Pavilion (distant)",
+                "Greenwave (mentioned)"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Greenwave Morning",
+            "branch_designation": "Common",
+            "narrative_focus": "The Greenwave Community Garden smells of damp soil and copper; morning light filters through glass rain shelters and warms the leaves under my fingertips. I wear my worn navy jacket; dirt lines the cuff where I tie seedlings into floating planters. Ivy Morales laughs nearby, braids bobbing, neon vest bright against verdant rows. Ariana arrives in her light technical raincoat, short platinum-ash bob catching the sun; her ice-blue eyes light up when she talks about a new modular kelp scaffold. We riff on maps in my stained field notebook. The plan is ambitious: a pilot living seawall that doubles as nursery, community-run and scalable. It feels like the right mixture of science and soil. But under our hope, I feel the old anxiety; my hands tremble when I turn a page with pressed leaves, remembering the boathouse roof we couldn't save. There’s urgency in Ariana's optimism: brisk, persuasive, impatient sometimes. I find myself wanting to share more than plans — wanting to tell her I’m tired — but I tuck it into practicalities. Lina texts about a Tideguard press release. The day tastes like hope and salt, but a storm-bass undertow of risk hums beneath it.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Lina Park",
+                "Cassian Rhee",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Greenwave Community Garden",
+                "Terraced nursery / floating planters",
+                "Boathouse (recalled)"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Town Hall Storm",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The town hall has been rearranged into a panel room; Tideguard's reflective floors contrast with the salt-bleached wooden chairs. Cassian Rhee stands behind a podium, slate-gray blazer immaculate, dark eyes narrowed just so beneath thin-rimmed glasses. He talks of engineered barriers and rapid stabilization — his voice is polished and decisive. Lina Park's recorder hums on the table, Elder Tomas sits stooped and wary, Ivy squeezes my hand under the bench. Ariana pitches our living-wall pilot with brimming optimism, blue-streaked hair tucked behind an ear; her waterproof camera bobs at her hip like a heartbeat. The council expects a choice. I feel my brass compass warm under my shirt and know this is a hinge: resist the corporate plan publicly, negotiate behind closed doors, or throw my weight behind Ariana’s experimental pilot and risk being sidelined by bigger players. Each choice reshapes what 'protection' will mean. Fear and responsibility thrum through me. When the mayor asks \"What should Havenport do?\" the room narrows into a single breath — my mouth, my voice. I have to decide how to bind love, science, and the town’s future into one impossible policy.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide Havenport's stance publicly now.",
+                "options": [
+                    {
+                        "label": "We refuse the corporate barriers; we lead community adaptation.",
+                        "consequence": "Public resistance galvanizes locals but provokes Tideguard; media attention and tensions rise",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "I will negotiate with Tideguard privately to secure protections.",
+                        "consequence": "Opens a door to compromise and resources but risks quiet concessions",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "We prioritize Ariana’s living-seawall pilot and delay final approval.",
+                        "consequence": "Supports innovation but delays large-scale defenses and angers investors",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Cassian Rhee",
+                "Ariana Voss",
+                "Elder Tomas",
+                "Lina Park",
+                "Ivy Morales",
+                "Mayor",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Town Hall",
+                "Tideguard Pavilion (contrast)",
+                "Panel room"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Public Stand",
+            "branch_designation": "Route A",
+            "narrative_focus": "We take to the boardwalk with hand-lettered signs and sandbags: Ivy in neon green, Elder Tomas steady at my side, and Lina filming with a steady, searching eye. I stand before a crowd, dark hair loose strands whipping from my low ponytail, and voice the town's refusal. The protest swells into a noisy human dam. Tideguard security answers with thin smiles and polite press releases. Cassian’s polished team brings lawyers; his fountain pen glints like a talisman in their briefcase. I try to hold the moral high ground, framing living seawalls and cooperative trusts as the only ethically sound path forward. The immediate sensation is exhilaration and a gnawing dread beneath it: delight at the communal roar, but the knowledge that louder resistance invites heavier pressure. That night, we board up the Old Boathouse; I tuck my compass into the jar of nails, fingers sticky with tar. Ivy warns that funding could dry up and arrests might follow. Still, I tell myself that standing firm is the purest way to honor our elders and keep the coastline public. The choice sets a public course — and sets in motion responses I cannot control.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Marin Sato",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Lina Park",
+                "Cassian Rhee",
+                "Ariana Voss",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Havenport Boardwalk",
+                "Old Boathouse",
+                "Boardwalk protest site"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Sacrifices on the Boardwalk",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The town is awake to us now. Press vans hum. Police reports arrive. Elder Tomas reads a letter — a formal notice that sections of the boardwalk will be closed for \"safety retrofits\" financed by Tideguard unless accessions are made. Ivy seizes a roll of tape and rearranges signs; her energy is raw and angry. We convene in the Old Boathouse under that single honeyed lamp; nets and hand-lettered maps hang like confessionals. I feel the weight of everyone's gaze; my dark hair is damp with sweat, sleeves rolled, brass compass heavy against my ribs. We must decide whether to escalate: blockade construction crews and risk legal action, or accept a negotiated safeguard that will protect core areas but cede others — possibly including the boathouse. Or there is a third choice: reach out privately to Ariana and ask her to fast-track the pilot, risking premature scale-up without community consensus. Each option asks me to place people at risk or betray principles. I taste iron fear at the back of my throat and realize: love and duty will collide here, and someone will be uncompensated for what they lose.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide the immediate tactic to protect cultural sites and homes.",
+                "options": [
+                    {
+                        "label": "We blockade the crews at dawn, whatever the legal cost.",
+                        "consequence": "Direct confrontation risks arrests and violent removal",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "I accept a negotiated plan that secures the harbor but cedes the boathouse area.",
+                        "consequence": "The boathouse and some neighborhoods lose access; protections arrive for other zones",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "I ask Ariana to accelerate the pilot and deploy on our timeline.",
+                        "consequence": "Premature scaling may fail and provide Tideguard leverage if it collapses",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Ariana Voss",
+                "Lina Park",
+                "Tideguard",
+                "Cassian Rhee"
+            ],
+            "locations_used": [
+                "Old Boathouse",
+                "Boardwalk construction line",
+                "Havenport Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Burned Nets",
+            "branch_designation": "Route A — Ending: Sad",
+            "narrative_focus": "Dawn becomes chaos. We form a human chain at the construction line. Police units arrive with quiet efficiency; Tideguard contractors document every shove. I feel the cold of the boardwalk under my boots, the grating of rope in my hands. The blockade holds for hours; community adrenaline surges. Then Cassian moves faster than the cameras: a court order appears pinning us as an unlawful obstruction, and Tideguard's heavy machinery moves in the night while protestors are rounded up. The Old Boathouse, our lantern-lit archive of memory, is deemed too close to the new reinforcement, and in the early hours, workers begin dismantling it. I stand with my compass crushed in my palm as the cedar boards are carted away. Ariana runs her hands over exposed beams and says nothing; her bright yellow boots are stained with mud. We win headlines, but the cost is immediate and personal. People who counted on that shelter are relocated. Our moral stance becomes a headline, not protection. I taste the bitter ash of defeat: we resisted, but the town that survives looks less like the one we tried to save.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option A or Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Elder Tomas",
+                "Ivy Morales",
+                "Lina Park",
+                "Cassian Rhee",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Havenport Boardwalk",
+                "Old Boathouse",
+                "Tideguard machinery site"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Closed Door",
+            "branch_designation": "Route B",
+            "narrative_focus": "I accept Cassian's invitation to the Tideguard Pavilion's private room, telling myself negotiation is stewardship in another language. He wears the same crisp blazer, but his expression is softer behind the glass. The room smells of polished wood and engineered greenery. Cassian outlines a plan: rapid harbor barriers, prioritized funding, and a corporate trust to administer fortifications — immediate protection packaged as inevitable. In return, he asks for legal easements, expedited permits, and a few symbolic cultural concessions. I think of the boathouse, of Elder Tomas’s hands, and of Ivy's neon vest. Cassian's pragmatism seduces with data dashboards on his slim tablet and the steady tone of someone who believes decisiveness saves lives. Inside me there is a rift: how much autonomy do I trade for safety? I imagine residents in the storm that never comes because the walls are in place. I imagine those displaced people after the permits are signed. Lina's questions bug my conscience; Ariana texts about pilot timelines. The deal smells of antiseptic compromise, and I feel the first tug of something I will later call culpability.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Marin Sato",
+                "Cassian Rhee",
+                "Ariana Voss",
+                "Lina Park",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Tideguard Pavilion (meeting room)",
+                "Harborview (discussion context)"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Quiet Accounting",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Back in the Old Boathouse, I spread a legal compact across the lamp's honeyed circle. The concessions are technical: easements for barriers here, a clause for emergency relocations there. Cassian's handwriting is meticulous in the margins. Ivy reads aloud clauses with a hurt mouth; Elder Tomas taps his carved stick against the map and says that \"paper does not remember salt.\" Lina wants to publish what we've been offered; Ariana urges caution, fearing investor flight. I realize my decisions are becoming institutional: either I sign and secure immediate funding (protecting many but surrendering some neighborhoods), push Cassian for binding community oversight (demand transparency that might be rejected), or leak the terms to Lina to force a public debate that could torpedo the deal. Each path is a different moral economy: protection via concession, protection with guardrails, or transparent chaos that risks funding loss. My hands hold the scuffed compass and tremble. Any choice feels like setting a stone that will build a wall or a tomb. The Old Boathouse light feels smaller; the town outside holds its breath.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Choose how to finalize the deal with Tideguard.",
+                "options": [
+                    {
+                        "label": "Sign the compact to secure immediate protections.",
+                        "consequence": "Funding stabilizes the harbor but cedes land and autonomy",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Demand legally binding community oversight and transparency clauses.",
+                        "consequence": "Cassian may balk; deal could be renegotiated or withdrawn",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Leak the complete terms to Lina and the press.",
+                        "consequence": "Public outcry may block the deal, causing funding to vanish and leaving us exposed",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Cassian Rhee",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Lina Park",
+                "Ariana Voss",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Old Boathouse",
+                "Lamp-lit negotiation table",
+                "Legal compact documents"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Fortified Lines",
+            "branch_designation": "Route B — Ending: Bittersweet/Sad",
+            "narrative_focus": "We sign. The memorial moment is quiet — pens scrape, hands tremble, and Cassian’s smile is small and private. Tideguard rolls out concrete barriers, and the harbor is fortified within weeks. The protection is real; when a storm surges later that season, neighborhoods behind the walls are spared flooding. We claim a tentative victory in public statements, and I stand on the new parapet, wind ripping my dark hair free, feeling the relief in my body. But the cost is immediate for others: relocation notices, deed transfers, and restricted access to formerly public inlets. The boathouse area is rezoned; families who worked those docks find themselves pushed ashore. Ariana, who once lit up at plans, grows distant — the film of disappointment in her ice-blue eyes is small and permanent. Lina's articles praise the stabilization but record the displacement in the lines in the middle. Elder Tomas grieves under his breath. In saving a part of our town, we've hollowed out other parts; the town's map is redrawn, and the intimacy of our collective life frays. I am left holding the brass compass, feeling both relief and a new, heavy culpability.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option A or Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Elder Tomas",
+                "Lina Park",
+                "Ivy Morales",
+                "Cassian Rhee",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "New concrete parapet at the harbor",
+                "Fortified harbor sections",
+                "Relocation sites"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Kelp & Conscience",
+            "branch_designation": "Route C",
+            "narrative_focus": "I throw my weight behind Ariana's pilot, convinced living seawalls and kelp nurseries are the humane path. We launch in Greenwave's terraces with bright buoys, magenta flowers, and the smell of wet soil; Ariana's slim tablet flashes field data. The pilot draws volunteers, and for a glorious week the town feels like itself: laughter in the terraces, kids stomping in mud. I crouch by floating planters, my scuffed boots soaked, my navy jacket smeared with algae, and watch Ariana explain growth curves to a cluster of skeptical fishers. Our intimacy heightens in the lab-lighted nights: I trace the line of the platinum-ash bob and the blue streak, and she presses her camera into my palm like an offering. But this path has hazards: the pilot needs rapid scaling to prove efficacy before Tideguard's funding window closes. We push technology sooner than recommended. There is an ethical tension — moving fast to prove ourselves or slower to do right by the community. I believe in us; the sea, though, is indifferent to belief.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Lina Park",
+                "Tideguard",
+                "Cassian Rhee"
+            ],
+            "locations_used": [
+                "Greenwave terraces",
+                "Floating planters",
+                "Coastal Research Hub (context)"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Scales & Seams",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The pilot shows promise: kelp fronds tangle like green lace and larvae find refuge. Data looks good, and Tideguard eyes the site with a hungry curiosity. But then a late storm tests the fragile scaffolding; several floating planters tear free. No one is hurt, but the footage goes viral with questions: were we ready? At a meeting in the Coastal Research Hub's cool-lit lab, I must decide: push to scale immediately to seize Tideguard's conditional funding (risking structural bypasses), demand a slower, community-informed scaling process (risking investor withdrawal), or prioritize a public reckoning with the incident by releasing all data and pause the pilot (possibly losing momentum entirely). Ariana stands directly across from me, hair damp and eyes wide; her optimism fractures into fear. I press my scuffed compass into my palm like a talisman and try to weigh love and duty. Each option promises different kinds of consequence: accelerated success with ethical blind spots, principled slowness that may starve the project, or radical transparency that could kill outside support. The stakes now are not only the shore but the fragile trust between us.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Choose the pilot's immediate strategy after the storm damage.",
+                "options": [
+                    {
+                        "label": "Scale now; we accept conditional funding and fast-track build.",
+                        "consequence": "Rapid scale may attract Tideguard but risks systemic failures",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Insist on slower community consent and scientific trials.",
+                        "consequence": "Investors may pull funding, leaving the pilot stranded",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Release all data publicly and pause the pilot.",
+                        "consequence": "Transparency may force accountability but could doom momentum",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Ivy Morales",
+                "Lina Park",
+                "Tideguard",
+                "Cassian Rhee",
+                "Coastal Research Hub staff"
+            ],
+            "locations_used": [
+                "Coastal Research Hub",
+                "Greenwave pilot site",
+                "Damaged floating planters / test scaffolding"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Drowned Promises",
+            "branch_designation": "Route C — Ending: Sad",
+            "narrative_focus": "We scale. Tideguard’s conditional funding tips into contracts and scaffolds snap up along the shoreline. For a brief, gleaming moment, the project looks like a model of innovation: news crews, smiling volunteers, and seedlings planted in regimented rows. Then another storm, steeper and faster, arrives. The enlarged structures interact with currents in an unforeseen way; an engineered swell traps small boats and tears at moorings. Lives — not just infrastructure — are endangered. The headlines pivot from innovation to calamity. Investigations follow, and Tideguard withdraws when liability risk grows. The pilot collapses. Ariana's shoulders fold inward; her optimism feels cracked, and my attempts to comfort her are thin. The community that invested in the pilot feels used, and families who lent boats or space are left with damaged property. The boathouse is spared this time, but the moral cost is deep: we hoped to prove a humane alternative and instead produced harm. My compass hangs cold and useless against my chest. I feel the familiar bottomlessness of failure and the thinness of apologies.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option A or Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Volunteer teams",
+                "Affected families",
+                "Tideguard",
+                "Cassian Rhee",
+                "Lina Park",
+                "Ivy Morales"
+            ],
+            "locations_used": [
+                "Expanded kelp scaffolds / shoreline",
+                "Greenwave terraces",
+                "Harbor (impacted moorings)"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Negotiated Shorelines",
+            "branch_designation": "Route A — Alternate Ending: Bittersweet",
+            "narrative_focus": "I sign a negotiation that preserves the harbor’s core and secures funding for distributed living seawall components, but it requires rezoning that removes access to the boathouse. In return, Tideguard and the cooperative trust finance community jobs and a memorial program for displaced fishers. The town stitches up a façade of compromise: terraces are planted, and a new public promenade opens with plaques remembering places we lost. Ivy organizes relocation aid; Elder Tomas leads a ceremony to bless the new seawall stones before they are set. In private, my chest aches. I watch families pack nets and leave the water they're known by; their faces are soft with resignation. Ariana stands with me at the new promenade, fingers barely touching mine; our closeness is real but braided with the knowledge that we achieved partial safety by consenting to others' authority over our land. It is not a victory I would have chosen, but it keeps lives intact. The town is alive and protected, but the map of intimacy and loss is permanently altered.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ivy Morales",
+                "Elder Tomas",
+                "Lina Park",
+                "Ariana Voss",
+                "Cassian Rhee",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "New promenade with planted terraces",
+                "Harbor core (protected)",
+                "Relocation aid sites"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Exposed Ledger",
+            "branch_designation": "Route B — Alternate Ending: Sad",
+            "narrative_focus": "I demand binding oversight and transparency. Cassian bristles; negotiations falter. Lina publishes a scalding exposé on confidential clauses in Tideguard's pitch that reveal planned privatized access to certain inlets. The opportunity for Tideguard to present a stabilizing, reputational-win collapses. Investors pull back at the scent of reputational risk. The harbour remains unfortified as the funding window shutters. I watch waves hit smoothed concrete with a new ferocity. People argue in the market about whether we did the right thing by exposing the contracts. Elder Tomas curses the timing: \"We traded walls for truth,\" he says, voice thin. Ariana distances herself, afraid that our transparency inadvertently cost people's physical safety. The town splits into blame camps; the coastline stays vulnerable. My compass feels colder than ever. In seeking to protect autonomy and truth, I may have traded lives’ immediate safety for the abstract good of accountability. The outcome tastes like a moral pyrrhic victory: the ledger is clearer, but the town pays in water and fear.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Lina Park",
+                "Cassian Rhee",
+                "Elder Tomas",
+                "Ariana Voss",
+                "Ivy Morales",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Unfortified harbor sections",
+                "Market / public square",
+                "Tideguard Pavilion (negotiation context)"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "The Compromise Charter",
+            "branch_designation": "Route C — Alternate Ending: True/Bittersweet",
+            "narrative_focus": "I insist we slow the pilot and ground expansion in a binding community consent process. Investors balk; Tideguard threatens to move projects elsewhere. But Lina runs a nuanced piece that frames community governance as model civic innovation; public support swells just enough to buy time. We craft a Compromise Charter: community oversight panels, phased engineering benchmarks, and a cooperative trust that secures partial funding contingent on transparent audits. Cassian agrees to a public accountability clause under pressure, and I sign as a guarantor for community representation. It's not a neat victory: the process is exhausting and fraught with bureaucratic snares, some families still face loss, and the boathouse requires a legal covenant to remain accessible. Ariana and I reconcile under a steady, chastened intimacy — we commit to shared stewardship even as we know scars remain. The charter is imperfect, a living document that will be tested by storms and politics. It is perhaps the truest thing I can imagine: an ongoing, imperfect resilience that asks for continual repair rather than final triumph.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Marin Sato",
+                "Ariana Voss",
+                "Lina Park",
+                "Elder Tomas",
+                "Ivy Morales",
+                "Cassian Rhee",
+                "Tideguard"
+            ],
+            "locations_used": [
+                "Coastal Research Hub (charter signing)",
+                "Community oversight panels",
+                "Greenwave terraces"
+            ]
+        }
+    ],
+    "remarks": "Structure notes: Every chapter follows a downward 'Fall' trajectory (Tragedy arc). There are major branch points at Chapter 3, Chapter 5 (Route A split), Chapter 8 (Route B split), and Chapter 11 (Route C split). Endings resolve into Sad or Bittersweet/True variants depending on decisions; default_next_chapter is -1 for branching or ending chapters and numeric for linear progressions.",
+    "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+    "_meta_arc_strategy": "Tragedy (Fall)"
+}

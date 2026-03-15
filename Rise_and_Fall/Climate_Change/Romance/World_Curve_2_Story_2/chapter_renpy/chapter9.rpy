@@ -1,0 +1,202 @@
+label chapter9:
+
+    # [Scene: County Courthouse | Morning — Months Later]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, steady cello; a sober tempo that never quite resolves]
+    # play sound "sfx_placeholder"  # [Sound: The hollow tap of a magistrate's gavel; distant muffled conversation in the hall]
+    "You have learned how to make models sing at hearings. You have learned how to fold months of tide charts into a three-minute argument that someone who never reads scientific literature could carry home in their"
+    "head. You stand at the lectern again with the same damp notebook, the same pencil stub tucked behind your ear, and a different kind of exhaustion layered beneath your ribs."
+
+    "You think of the page that started this—sketches of channels, annotated marsh cross-sections, sediment accretion curves annotated in a cramped hand. You think of the injunctions filed, the affidavits signed, the nights spent drafting concessions and rebuttals. You remember Tomas’ voice on every step of the way" "Protect the throat of the flats. Keep the channels clean. That’s where the life breathes."
+    "You inhale courthouse air—paper and stale coffee and the faint metallic edge left by wet coats—and begin."
+
+    "Judge" "Ms. Voss, you may proceed."
+    show mara_voss at left:
+        zoom 0.7
+
+    mara_voss "Your Honor, the record shows that the channels identified in Exhibit D are critical conduits for larval migration and sediment exchange. If those are compromised, the system-wide support for eelgrass and the nursery grounds will fail..."
+    "You let the measured cadence hold the room for a beat."
+
+    mara_voss "…what we are asking is a surgical protection, not a veto. We accept that the headland will see change; we ask only that the engineers respect the channels that make the marsh whole."
+    show mayor_rosa_alvarez at right:
+        zoom 0.7
+
+    mayor_rosa_alvarez "Mara—"
+    "You feel the mayor's gaze like both a shield and a check."
+
+    mayor_rosa_alvarez "The town needs jobs. The developer's proposal will bring immediate payroll and infrastructure. We are trying to balance."
+
+    mara_voss "And I don't ask the town to freeze in amber, Rosa. I ask that it survive. A dead marsh won't hold roads or piers for long. We can sequence work, we can build where impact is minimal—"
+    "(you tap a map)"
+
+    mara_voss "—and leave the channels intact so the system can heal. That keeps the fisheries and gives space for livelihoods to recover."
+
+    "Developer's Counsel" "Your Honor, the development offers economic relief this county hasn't seen in years. Our engineers have modeled soil stabilization. We will reimburse displaced businesses. We will... mitigate."
+    "You watch the defense slide practiced words like a flare across the room. Every compensation promise is a ledger entry to be cashed later—if later ever comes. Your argument is about breath and root and slow"
+    "return. His is about payroll and schedules and deliverables. Both are true in different currencies."
+    # play sound "sfx_placeholder"  # [Sound: A soft murmur; a dropped paper in the back row; someone clears their throat.]
+
+    "Judge" "This court recognizes the urgency of economic distress and the public interest in immediate employment. The court also recognizes—with guidance from appointed ecological assessors—the evidence supporting protection of the channels described."
+    "You hold your breath as the judge reads the order into the record. The sentence is a tightrope: partial protection, conditional clearances, staggered permits. The judge sets a narrow line—preserve the most sensitive channels, allow the headland infill to proceed under tight oversight. It is legalese shaped like compromise."
+
+    mara_voss "We saved some veins."
+    show old_tomas_calder at center:
+        zoom 0.7
+
+    old_tomas_calder "You did what you could, girl. You did right by the mud."
+    "The ruling leaves you with a win that feels like an amputation. The channels—the throat—are protected; the rest of the headland will be carved open. Your maps begin to look like battlegrounds with sanctuaries marked in green. It is not everything you wanted. It is something."
+    # [Scene: Protected Marsh Pocket | Late Afternoon]
+    hide mara_voss
+    hide mayor_rosa_alvarez
+    hide old_tomas_calder
+
+    scene bg ch9_3be532_2 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano, minor key; a lone motif of cautious hope]
+    # play sound "sfx_placeholder"  # [Sound: Soft, wet squelch of mud under boots; reed whispers; distant mechanical hum, faint and intrusive]
+    "You walk a mapped boundary where placards—officially planted markers—declare the channel preserved. The mud smells like iron and life. Tiny shoots of eelgrass thread the shallows, closer together than they were before. It is slow and delicate and it is real."
+    "You kneel and put your fingers into cool, yielding silt, feeling the tiny give as though the earth itself were breathing beneath your palm. The sensor band on your wrist hums a record into your phone—oxygen"
+    "readings, conductivity. The numbers pulse back: stability in the protected pockets. Recovery, not immediate nor dramatic, but steady."
+    show nia_voss at left:
+        zoom 0.7
+
+    nia_voss "You're doing a scientist's version of knitting, Mara. You stitch and wait and hope it looks like a sweater in the end."
+    "You smile despite the ache. The sight of new growth is a small, viscous joy pooling under your ribs—proof that something you argued for matters."
+
+    menu:
+        "Bend to test the eelgrass":
+            "You lean forward and cup a sprig between your fingers; it bends and snaps back like a promise kept."
+        "Stand and take a photo for the report":
+            "You raise your phone, framing the ribbon of green; a photo for the record, a small artifact against the machines elsewhere."
+
+    # --- merge ---
+    "Both outcomes return to the main narrative that follows."
+    # [Scene: Harbor's Reach — Main Street | Early Evening]
+    hide nia_voss
+
+    scene bg ch9_3be532_3 at full_bg
+    # play music "music_placeholder"  # [Music: A low, plucked string; an undertone of exhaustion]
+    # play sound "sfx_placeholder"  # [Sound: The creak of a rope; distant laughter cut off as a conversation notices you]
+    "Long months of litigation have a rhythm: motions, counter-motions, temporary stays. Judges' calendars are measured in weeks, not tides. While the court deliberated, the pipeline of commerce stalled. Contracts delayed; contractors unpaid; cafes that once bustled"
+    "with fishers and planners now see fewer customers as families rearrange budgets, as seasonal work declines because the docks are half-occupied by survey teams and legal notices."
+    "Old Tomas catches you on the square, hands tucked into his sweater like it's his only warmth. He watches the shipping board with a patience you are beginning to suspect masks fear."
+    show old_tomas_calder at left:
+        zoom 0.7
+
+    old_tomas_calder "How is the throat, Mara? The judge's markers—are they holding?"
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Some pockets are breathing, Tomas. The channels we flagged have been spared. The data shows improved exchange during the last neap tide. The judge—"
+    "(you pause)"
+
+    mara_voss "—ruled for protection where it mattered."
+
+    "Tomas Calder (nods slowly)" "Good. God knows I'm glad to hear that. But the pier—"
+    "(he gestures toward the headland)"
+
+    old_tomas_calder "—they'll fill in most of it. There'll be more boats with new names tied there and fewer nets. People are pushing through, but it's getting thin."
+
+    mara_voss "I'm sorry. The litigation bought time for parts of the marsh. It bought those eelgrass shoots. But it also... stalled the town. The developer's payroll didn't arrive the way people thought. The contractors have bills. I know—"
+    "(your voice cracks, then steadies)"
+
+    mara_voss "—I know what that looks like for families who can't float a month."
+
+    "Tomas Calder (surprised at your admission)" "You didn't have to shoulder all of this by yourself, Mara. You did what you thought would hold the place together."
+
+    mara_voss "Sometimes holding one thing tight means I let another slip. I keep thinking about that, Tomas."
+    "Tomas reaches out and presses a thumb to your wrist where the sensor band sits—an old man's touch that indexes years of survival strategies: mending nets, not giving up, stubbornness as policy."
+
+    old_tomas_calder "The marsh remembers your hands. So do I. But remember your heart too."
+    # [Scene: Dock / Eli's Workbench | Night — Rain Mist]
+    hide old_tomas_calder
+    hide mara_voss
+
+    scene bg ch9_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single violin line; undertone of rain against tarpaulin]
+    # play sound "sfx_placeholder"  # [Sound: Rain on corrugated metal; the drip of water from an upturned hull]
+    "Elias 'Eli' Calder stands under the porch light, hands stubborn and plastered with varnish. He looks older in this light: a little thinner, the laugh lines steadier. He has been repairing a skiff for someone else"
+    "the whole season and taking whatever steady gigs appear—survey work, night ferrying, a contract down the coast that promises regular pay."
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "You did good out there today. You got what you wanted."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "I got what I asked for. The judge saved the channels. The marsh will... it will breathe in those places."
+
+    "Elias "Eli" Calder (avoids the sting)" "Good is a small word for what you did. It's a big thing."
+
+    mara_voss "You sound bitter."
+    "Elias 'Eli' Calder: (looks at you, then away) 'I sound honest. The town's tired, Mara. People are hungry for certainty. NGOs and courts aren't a paycheck. My cousin's girl needs camp money. Old Tomas can't patch everything. I—'"
+    "(he swallows)"
+
+    elias_eli_calder "—I can take a steady job down south. It's enough to keep the boat in the water and the family fed."
+    "Mara Voss: (the sentence forms like a drift of cold air) 'Are you leaving?'"
+
+    elias_eli_calder "I took the call. They want me to come by tomorrow and sign. I didn't want to make you decide how you feel about it. I just... I couldn't watch the town fray and do nothing for my uncle. Work's work, Mara."
+
+    mara_voss "Can I come with you? We could—"
+    "(the words fail in the wet light)"
+
+    mara_voss "We could find ways to... after all this—"
+
+    "Elias "Eli" Calder (cuts across gently but with steel)" "You won a battle in a courtroom, not a sweeping victory. The marsh has places to breathe because you put everything into it. Some people need to know there's a steady check in the bank on Monday. It's not about leaving you. It's about not watching everyone slip through your hands while you're fighting for the ground."
+
+    mara_voss "So this is goodbye."
+
+    "Elias "Eli" Calder (a bitter half-laugh)" "It's a work goodbye, Mara. Some people move for work, some for stubbornness, some for better weather. I'm going down the coast till things settle. Maybe I come back. Maybe not."
+    "You hold his gaze. There are hundreds of things you want to say—accusations, bargains, promises that would crease both of you—and none of them feels true enough. The lit porch light throws their faces into soft"
+    "chiaroscuro; in the seam of rain and toollight, the two of you are a map of what you fought for and the price it exacted."
+
+    mara_voss "Take my compass. For whatever it's worth."
+    "Elias 'Eli' Calder: (takes it; his fingers brush yours, brief and electric) 'Keep making the charts, Mara. Don't stop. If the tide asks, I hope you answer.'"
+
+    mara_voss "You too."
+
+    menu:
+        "Ask him to stay until spring":
+            "Your voice is small but steady. Eli shifts his weight, the rain and the word weighing on him. He opens his mouth, then closes it; he says nothing more than 'I can't.'"
+        "Let him go without begging":
+            "You nod, swallowing the plead that wants to push past your teeth. He takes a step away, the porch light swallowing his silhouette. It is a graceful exit you did not feel you deserved, and perhaps that spares both of you something worse."
+
+    # --- merge ---
+    "Both outcomes converge as Eli packs and departs; the narrative continues."
+    "Elias 'Eli' Calder packs his few tools into a canvas bag, secures the brass compass on a cord inside his jacket, and walks toward the skiff that will take him to the ferry. He turns once, tilts his head—an echo of a grin—and then he is gone into the drizzle."
+    # [Scene: Headland Overlook | Dusk]
+    hide elias_eli_calder
+    hide mara_voss
+
+    scene bg ch9_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: Deep, resonant hum; slow chords that broaden into silence]
+    # play sound "sfx_placeholder"  # [Sound: Machinery distant and deliberate; gulls crying like old complaints]
+    "Months compress into a blur of compliance reports and monitoring logs. You spend hours compiling mitigation plans, negotiating observational protocols, and watching ecology teams dredge and plant in the protected pockets you've argued for. The pockets"
+    "slowly knit themselves into living things again: in the right tide and with the right weather, eelgrass waves like the memory of underwater grass, juvenile fish slip into shelter where before there was only exposed mud."
+    "The headland changes. Walkways rise on pilings. Restaurants reopen with different menus. New names appear on boat houses. Money moves along routes that bypass the old rhythms. Your victory is written in the language of ecology—measurable, repeatable—but the town’s patterns shift in ways your models did not forecast."
+    "You walk the line between the preserved and the transformed. The machines' growl is a constant undertone to the gulls’ cries. You press your palm to a survey stake and feel the cold of metal and"
+    "the heat of effort. The legal order stands: the channels are off-limits, surveyed and monitored. The rest of the headland is under development. The marsh will recover in the channels, but large tracts have been lost."
+    "At home, the house feels too quiet without Eli's tools by the door, without the smell of boiled tea late at night and splinters on the porch floor. You find his compass in a small brass"
+    "dish on the windowsill—left behind in a moment he couldn't hold—and your thumb runs the tiny dent in the rim."
+    "You keep working. You plant seedlings in the protected channels. You visit the docks where the kids gather, teaching them to take water samples like an old ritual. You lecture, testify, map, and advocate until your"
+    "voice frays. People nod, then go back to their lives. Some call you a savior; some call you the reason their rent is late. Both are true."
+    "There is a hollowness under the triumph that does not mend with evidence. You won for the marsh. The marsh will breathe in places that matter. But the cost is not an academic footnote; it is"
+    "a steadier paycheck away from your side, a family meeting with an empty chair, a café that closed its shutters."
+    # [Scene: Protected Channel — Dawn]
+
+    scene bg ch9_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single clarinet note, then silence; the music gives room for wind and water]
+    # play sound "sfx_placeholder"  # [Sound: Tiny plip of fish breaking the surface; a distant bell of a waking boat]
+    "You stand ankle-deep in shallow water, the boots sinking slightly, recording salinity and temperature. Life is present in small measures still—crustaceans skittering, juvenile fish weaving through blades. You breathe in and out and feel a quiet take root in you, steadier than triumph, colder than consolation."
+    "You think of future children, of Nia's laugh when she walks along these banks years from now, of Tomas' hands steadying a net once more. You hold both the living proof and the ledger of loss in your chest."
+    "You made a hard decision in a courtroom because the marsh had no lobby and the channels needed a voice. You did what you promised your place. You kept places for life to return. You paid"
+    "a price you could not fully account for then—a price that shows in the uneven streets, in the months some families counted by unpaid bills, in Eli's absence from your doorway."
+    "You fold the notebook closed. You have other reports to file, other monitoring protocols to set. You have community meetings to lead and grant proposals to write. You have the slow, unglamorous work of tending a system that heals on its own schedule."
+    "You walk away from the water and toward the town, the sound of the headland machines already beginning their day. The preserved channels breathe under your feet. The rest of the shore is changing into something else—a promise kept and a promise taken."
+    "The victory is true and costly. You saved part of what needed saving. You lost part of what held you. You keep going because the marsh will need tending tomorrow, and the day after that. That is what you know to do."
+    # play music "music_placeholder"  # [Music: A single sustained cello note that fades into wind]
+
+    scene bg ch9_3be532_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

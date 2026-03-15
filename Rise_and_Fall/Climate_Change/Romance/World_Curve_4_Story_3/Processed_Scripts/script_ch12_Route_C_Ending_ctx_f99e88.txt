@@ -1,0 +1,242 @@
+### SCRIPT
+# Route: Route C — Ending
+# Context: f99e88
+
+[Scene: Rooftop Garden at the PolySilo | Late Afternoon — Three Months Later]
+[Background:"ch12_f99e88_1"]
+[Music: Distant, low strings; a sparse piano motif in a minor key]
+[Sound: Constant, near—traffic muffled by rain; a steady mechanical hum from pumps below]
+
+You remember how the ordinance read like a promise: language that named care, audits, community co-signatures. You remember Jonah's hand on the model table, the way he said "auditability" as if it could be sewn into steel. For weeks after the vote the city congratulated itself. Photographs of the council smiling circulated across feeds — you in the back with your notebook, a small, stubborn shadow among suits.
+
+Now the photograph is stained.
+
+You stand with Jonah by the low parapet, rain soaking into your sleeves. He looks smaller than you remember, shoulders hunched under his slate gray jacket. In his hands there is a packet of printed specs — dense pages of tolerances and trigger thresholds — the very technical scaffolding you helped thread through meetings. You can feel them like a thing between you, papery and fetid with consequence.
+
+Jonah Reyes: "They called it an emergency," he says quietly.
+(He avoids your eyes.)
+
+Mara Ellis: "They opened it because the amendment named an emergency clause. We left that language soft." The words come out quieter than you mean. You taste salt and old vows.
+
+Jonah Reyes: "We thought—" (he tries to find the right tense) "We thought the audits would hold. We put monitoring points on the revetments. We wrote community oversight into contracts."
+
+Mara Ellis: "You wrote technical specs for a revetment, Jonah. You told them how to build—what density, what backing. You handed them a ladder and they climbed it."
+
+Jonah Reyes's hands close on the packet, knuckles pale. He interrupts you with a thin, honest laugh that does not reach his eyes.
+
+Jonah Reyes: "I wrote safety margins, Mara. I wrote failure envelopes. I didn't write the political hunger. I didn't write how they'd repurpose 'temporary' into 'permanent' overnight. I didn't tell them who they'd displace when the reflection scoured the shoals."
+
+You don't know what to say first: the scientific betrayal, the people who trusted you, the scraped faces of kids on the Promenade. You feel words turn heavy in your mouth like wet sand.
+
+[INTERACTION]
+> Choice A: "Join the press conference"
+> Choice B: "Walk to the Foreshore"
+[Outcome A: "You imagine standing under the glass of the Council Forum, feeding cameras the same line about audits and accountability. It feels performative; you taste the salt of staged hope."]
+[Outcome B: "You picture the foreshore—mud, concrete smell, the new revetment's flat gray cheek to the water—and you feel the pull to be where damage and people actually are."]
+[MERGE: You choose the foreshore. There is no press there, only the smell of diesel and wet concrete. Contractor floodlights carve harsh rectangles into the fog.]
+
+[Scene: Foreshore | Night — During the Storm]
+[Background:"ch12_f99e88_2"]
+[Music: Percussive drums; brass swells cut by high, thin strings]
+[Sound: Empty wave-thumps; the groan of sheet piles; jackhammers; distant sirens]
+
+You choose the foreshore. There is no press there, only the smell of diesel and wet concrete. Contractor floodlights carve harsh rectangles into the fog. Men in reflective vests move like urgent shadow-actors, shouting terse instructions. The new revetment is a brutal thing: layered concrete poured in segmented blocks, smooth and sterile, its face an intentional, unreadable stare at the sea.
+
+Contractor: "You should be off this line. We're on an emergency timeline."
+
+Mara Ellis: "This is my shoreline."
+
+Contractor: (shrugs) "City said secure downtown first. No one's arguing."
+
+You look for Jonah and find him by a mobile monitoring rig—his camera slung at his hip, the battered film camera you've seen document neighborhoods. He gestures you over, the gesture small but full of apology.
+
+Jonah Reyes: "They're doing it shallow and fast—fill, armor, seal. The models said—" (he breaks off) "Mara, we told them this could reflect energy. We warned that scouring happens when you add a hard edge in a migrating littoral system."
+
+Mara Ellis: "We told them. But the amendment let them act. The exemption gave them doctrine."
+
+Jonah Reyes: "The clause was to allow emergency deployment when downtown critical infrastructure—" (his voice tightens) "—was under threat. They misread 'critical' as 'profitable.'"
+
+You move along the new wall, place your palm on the wet concrete. It is cool and indifferent. Behind the revetment, the water interacts with the hardened surface and then lashes sideways, running its wrath along the longshore. You see—like a line made visible—the way the water is now gouging less protected edges, tugging at marsh and old quay.
+
+[INTERACTION]
+> Choice A: "Document the erosion with Jonah"
+> Choice B: "Run to the Drowned District"
+[Outcome A: "You lift a tide chart into place and start filming the reflection patterns against the low shoreline. Jonah answers with clipped measurements; the camera records what your voice cannot fix."]
+[Outcome B: "Your feet find the path through waterlogged alleys. You think of Maya and Old Mate and the kids who colored the wooden shutters. The air tastes of algae and burned cardboard."]
+[MERGE: You find the Drowned District in ruin. The revetment did what it was engineered to do downtown: it held. But where the hard edge met migrating sands, the longshore currents turned the tide's energy inward.]
+
+[Scene: The Drowned District | Midnight — The Morning After]
+[Background:"ch12_f99e88_3"]
+[Music: Sparse, mournful cello; a low wind motif]
+[Sound: Water slapping inside half-destroyed houses; the distant, hollow crash of a collapsed wall]
+
+You find the Drowned District in ruin. The revetment did what it was engineered to do downtown: it held. But where the hard edge met migrating sands, the longshore currents turned the tide's energy inward. Houses that had stood on pilings for generations sagged and listed; one corner of a block had simply surrendered, chimney and all, into a slow, surging maw. The air smells of old tobacco, wet plaster, and a toothpaste tang of chlorine from burst service lines.
+
+Maya stands on a ruin of a stoop, raincoat shredded, fingers gripping a municipal relief flyer like a talisman. Her face is open and raw—less judgmental now than hollow with disbelief.
+
+Maya: "They promised resettlement help," she says, voice brittle. "They promised audits. That was a sentence."
+
+Mara Ellis: "I know." You want to say more—how much you knew, how you tried—but the words sound like excuses. They are small boats that cannot hold what they must.
+
+Old Mate arrives slowly, barefoot and shuffling, palms folded like a sailor praying. He looks at the ruin and then at you, his expression complicated and unreadable.
+
+Old Mate: "We told them the shore moves. We told them to listen to the reeds and the birds. Not the contracts."
+
+Mara Ellis: "We tried to make the ordinance listen to the reeds."
+
+Old Mate looks at you then, and for a sliver of a moment his weathered face divides into two maps—pride for your fight and a map of the exact places the water took.
+
+Old Mate: "Maps are nothing if you don't read the sea."
+
+A contractor team arrives with a municipal van; two men in hard hats climb out carrying sealed envelopes with NovaSeis letterheads. Their faces are efficient and blank as tiles.
+
+Contractor: "NovaSeis has a rapid deployment maintenance contract. The city authorized them for immediate works. We'll be implementing their stabilization protocol and then—" (he glances at Jonah) "—maintenance lock-ins."
+
+You feel a physical twist in your chest. The words "maintenance lock-ins" sound like shackles.
+
+[Scene: Downtown — Mayor's Emergency Press Room | Noon]
+[Background:"ch12_f99e88_4"]
+[Music: News-synth, sterile and brisk]
+[Sound: Reporters' murmurs like the surf of a distant beach]
+
+Elias Crowe stands by the podium with the same composed smile you have seen in municipal hearings. He is immaculate—his coat somehow untouched by the weather—and the crowd drinks it like a performance.
+
+Elias Crowe: "This city acted decisively," he says. (A camera angle catches the exact gleam of his cufflink.) "We intervened when lives and infrastructure were immediately at risk. My company will partner with the city to preserve what we can."
+
+You feel the word "partner" recoil in your mind.
+
+You push through the press to Jonah. He is near the back, hands shaking slightly as he folds his camera into its case. Reporters cluster, but his eyes find yours and linger with something like pleading.
+
+Jonah Reyes: "They signed contracts today. Maintenance lock-in—clauses that limit community modification without corporate approval. They offered the city funding for retrofit offsets."
+
+Mara Ellis: "So they buy the right to govern our repairs." Your voice tightens around the hypocrisy.
+
+Jonah Reyes: "It was... we thought the clause could force oversight. We thought the city would use the audits. But the money moved faster than the oversight committees."
+
+Mara Ellis: "That's not oversight—that's purchase."
+
+You step away, because the room feels like a theatre and you are suddenly too exposed. Journalists' flashes strike the back of your neck. Jonah follows.
+
+Jonah Reyes: "Mara—" (he reaches, measuring) "I helped write spec constraints so they'd be reversible."
+
+You stop, and the word "reversible" hangs like wet rope between you.
+
+Mara Ellis: "You helped write constraints—and they were overwritten. Jonah, we are watching people lose their homes. Maya's neighborhood is... gone. Old Mate's dock—" (you falter) "—you put numbers in that contract that they used as blueprints."
+
+Jonah Reyes: "I never wanted this to be permanent. I never wanted them to sign people's futures away." He lowers his voice to a raw, private pitch. "I thought if I was inside the language, I could make it safer."
+
+Mara Ellis: "Inside the language doesn't stop a bulldozer." Your voice is thin.
+
+Jonah Reyes: "Then what were you supposed to do? Stand outside and shout? Watch them roll concrete while someone else—" (he grips the edge of a table) "—while someone else makes the decision without measurements and tears towns down in the name of speed."
+
+You both say what you mean: you both feel each other's culpability and the complicating fact that both of you acted with intentions that no longer map to outcomes.
+
+Jonah Reyes: "I can't change that the amendment was exploited."
+
+Mara Ellis: "We designed safety into something then watched it get turned into a shield for profit."
+
+Jonah Reyes: (voice cracking) "I thought—"
+
+Mara Ellis: "What you thought doesn't unmake the tide."
+
+[Scene: The Promenade | Sunset — Week Later]
+[Background:"ch12_f99e88_5"]
+[Music: A single mournful piano line; distant seagull cries]
+[Sound: The measured drip of drainpipes; conversations that are half whispers]
+
+You walk alone along the promenade, notebook empty in your hands. The city feels rearranged; people have learned to look sideways at the new revetments as if they suspect a bad story is hiding in their engineering.
+
+Maya catches up to you, breathless from having distributed flyers, her neon jacket now a duller shade from smoke and ash.
+
+Maya: "They're offering housing vouchers in parts of town with rising rents," she says. "They call it 'resilience relocation.'"
+
+Mara Ellis: "Displacement with a thumbs-up."
+
+Maya sits on a low bench, fingers twisting a civic pamphlet into a paper knot.
+
+Maya: "People are furious, but so tired. They need heat, they need dry beds. Your ordinance saved downtown, Mara. It saved hospitals. I know that."
+
+Mara Ellis: "It saved some. It undid others."
+
+Maya stares at your cuff, at the coral stains that have always marked your sleeves.
+
+Maya: "Do you hate him?" (She doesn't name Jonah; it's unnecessary.)
+
+Mara Ellis: "I am not sure 'hate' is the word. I'm truer to a kind of grief that looks like blame. And it hurts that I can't name it cleanly."
+
+Maya: "He stood by you at the vote."
+
+Mara Ellis: "And he stood with the models when they needed the words to move. He stayed inside the line. It mattered—until it didn't."
+
+Maya: "What will you do?"
+
+You look over the water. The new concrete reflects sodium lights back with a hard, unyielding flash. In its reflection you see a city that decided to choose winners and losers, and the ledger doesn't balance.
+
+Mara Ellis: "I will write this," you say finally, voice small but steady.
+
+Maya: "And then?"
+
+You have no tidy answer. The word "then" stretches into years: litigation, repairs, community funds, a slow and expensive undoing, maybe a policy correction that arrives when too few remember details. You feel the distance between policy and people as if it were a physical place you cannot cross.
+
+[Scene: Rooftop Garden at the PolySilo | Night — Final Moments]
+[Background:"ch12_f99e88_6"]
+[Music: Low, sustained minor chord; an oboe holds a single elegiac note]
+[Sound: The soft, relentless tapping of rain]
+
+Jonah Reyes finds you at the edge of the rooftop, hands thrust into his jacket. He looks tired in a way that is older than the months since the vote. There is an attempt at steadiness in him, a desire to fix what he can; but you read the lines on his face as if they were maps with no exits.
+
+Jonah Reyes: "I—" (he pauses; the rain makes a halo at the edge of his hair) "I am sorry. I am so sorry for what happened. The audits—my designs—if I'd pushed harder on irreversible clauses, if I'd..." (the sentences scatter)
+
+Mara Ellis: "You did what you could in the language you had."
+
+Jonah Reyes: (a half-shout) "It wasn't enough!"
+
+Mara Ellis: "It wasn't." The word is flat, a factual report.
+
+Jonah Reyes searches your face, as if looking for the person he loved in the same city he loves.
+
+Jonah Reyes: "We can still make it right. We can fight the maintenance clauses. We can litigate—"
+
+Mara Ellis: "Litigation will take years. People who lost homes won't get them back. The Drowned District won't be rebuilt to what it was. We can fight, but the thing we once argued for—community agency, living shorelines—has been sidelined by concrete. That's a material change. It's not something words alone fix."
+
+Jonah Reyes: "Then do you—do you hate me?"
+
+You look at him, and in that question you see the simpler truth: there is blame and there is love and they are not mutually exclusive. The city has rearranged the geometry of your relationship; the angles don't align the way they used to.
+
+Mara Ellis: "I don't know how to make room in my chest for both anger and the image of you standing with me on the ferry. I don't know how to hold that in one hand and the rubble in the other."
+
+Jonah Reyes: (a small, painful smile) "I don't either."
+
+He reaches for your hand as if to anchor, and for an instant the touch is familiar and warm. Then you let your fingers slip free. The motion is not dramatic. There is no raised voice, no sharp door slam—only the sensible, irrevocable disengagement of two people whose priorities and outcomes have diverged.
+
+You both stand beneath the rain and feel the city exhale around you. The rooftop is a small vessel of light in a changed geography.
+
+You close your notebook. Your watch—brass and etched—ticks in a steady, indifferent rhythm. There is a ledger in you that has been rewritten; the numbers no longer add.
+
+You think of the people who will sleep in rented rooms tonight and won't find their way back. You think of Jonah's hands, the camera he uses to hold neighborhoods in focus. You think of Elias's cufflinks and the ease with which power converts emergency into contract.
+
+You feel emptiness where triumph used to sit. The ordinance, the vote, the applause—it is all thin paper now, waterlogged at the edges. You had hoped law could be scaffolding for care. Instead, in the face of acute danger, it became a tool for consolidation.
+
+You sit on the rooftop's damp bench until the rain thins to a whisper. The city keeps moving—repair crews, legal teams, the slow artery of municipal emails—and life rearranges itself around the new scar.
+
+Your grief is a work you cannot finish tonight. It will occupy you in meetings, in courtrooms, in small, stubborn acts of restoration that might at best slow the next collapse. You are angry. You are achingly aware of how close you came to something better and how quickly that hope was repurposed. You are tired.
+
+You stand, tuck your notebook into your jacket, and descend toward the ferry where Professor Asha will wait with old data and newer plans, where Maya will gather a list of names for a community suit, where Old Mate will tell stories that anchor memory to place. There will be work, litigation, and the slow business of trying to build alternatives under the shadow of what was done.
+
+But for now the night is an honest witness. The city's distant lights blink like assessments. The high-rises are safer. The Drowned District is not.
+
+You feel the relationship with Jonah fracture into two honest shards: what it once was and what remains. You do not know if those shards can be welded. You only know that you have been changed.
+
+[Background:"ch12_f99e88_7"]
+[Music: Single piano note, unresolved; then silence]
+
+[Background:"ch12_f99e88_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

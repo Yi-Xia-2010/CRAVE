@@ -1,0 +1,145 @@
+### SCRIPT
+# Route: Route A (Happy Ending)
+# Context: 453e40
+
+[Scene: Municipal Green Atrium | Late Afternoon]
+[Background:"ch7_453e40_1"]
+[Music: Tense BGM — pulsing low strings beneath a staccato percussive heartbeat]
+[Sound: Rain intensifies to a hard percussion on the atrium roof; distant doors whoosh]
+
+You walk in with the weight of a promise pressed into the palm of your hand. From Chapter Three you chose the partnership route — the municipal meeting minutes bear that now; public expectation sits in the room like humidity. This is the moment the compromise becomes concrete or collapses.
+
+The atrium smells like wet concrete, citrus cleaning solution, and freshly turned soil from the mangrove beds. Your notebook is closed under your arm; the solar band on your wrist has ticked through a dozen tide readings today. Nora stands to your left, hands clasped in a way that looks like steadying a ladder. Luca is on your right, jaw set, the rope-belt at his hip rubbing against the seam of his jacket as if he needs something to anchor him.
+
+Councilwoman Reyes sits at the head of the oval table, slate of proposals in front of her. Ari is already there—no sloppiness, just that precise, earning-glossed posture he always wears. The AR cuff along his wrist blinks schematics in a quiet rhythm that feels like a metronome counting down.
+
+You feel the room sharpen around you. People are not merely listening; they are calculating the sound of what you will say next. Your decision to open a copilot with Ari’s firm was supposed to buy you time and leverage. Now the fine print is the battlefield.
+
+[Background:"ch7_453e40_2"]
+[Sound: A low hum from the atrium's climate units — like an organism holding its breath]
+
+You breathe. Your mind lists clauses: oversight, transparency, local advisory seats, enforceable reporting intervals, veto power on relocation. Each clause is a small dam against a larger tide. Each clause is also a negotiation point Ari can win or strip away.
+
+[INTERACTION]
+> Choice A: "Read the prepared clause-first statement"
+> Choice B: "Begin with a human story from the Docks"
+> Choice C: "Cut straight to demands — transparency, advisory seats, immediate oversight measures"
+[Outcome A: "You unfold the printed passage you prepared—legal language, ironclad tone. Your voice is steady, formal; it reads like a contract. The room nods, but the air grows colder. Ari's eyes flick to a legal point."]
+[Outcome B: "You tell the story of a boat named Esperanza and Samir's hands, how the marsh taught him to read the weather. Your voice softens; some faces unguard. Luca closes his eyes like a man struck. Ari listens with polite attention, measuring emotional value against risk metrics."]
+[Outcome C: "You speak bluntly. The language is urgent and blunt enough to wake Council aides. Councilwoman Reyes shifts, then leans forward. Ari's jaw tightens; he forms a counterargument before you finish the sentence."]
+
+Councilwoman Reyes taps her pen once and motions for order. Councilwoman Reyes: "We have a limited window," she says, voice even but strained. "This pilot must secure funding and community buy-in. Maya—" she inclines her head toward you, "—present the conditions you require."
+
+You stand and feel the room go acoustic around your words. You are both negotiator and witness; every syllable is an assurance to people who sleep with buckets nearby.
+
+You speak for oversight: binding review panels with rotating local seats, monthly public reporting unredacted, community-led maintenance budgets ring-fenced. You lay out transparency clauses: open data, no gag orders on ecological impacts, full access to sensor feeds. You demand designated advisory seats — not token placements, but seats with procedural veto on relocation and cultural-heritage considerations.
+
+Ari Nakamura: "Those elements are sensible at face value. Our telemetry and simulation models can deliver actionable risk-reduction within the first season. We can guarantee X% reduction in overtopping events by year two. If we attach enforceable milestones to funding release, we protect both the city's exposure and your neighborhood."
+
+You want to believe him. You want the certainty of numbers to be mercy. But your chest tightens. Past pilots you ran ended with underfunded maintenance and gardens that became government greenwash. Numbers are not always mercy when the ledger erases memory.
+
+Nora leans in, voice clipped with the practicality that keeps your plans sewn tight. Nora: "If we accept a timeline that front-loads construction then hands off maintenance, the community gets the worst work. Our volunteers will be expected to pick up institutional slack. A guarantee on percent reduction isn't worth squat without teeth on long-term stewardship."
+
+Ari Nakamura [sighs, respectful]: "Long-term contracts are expensive. We can structure a trust fund. We can include capacity-building for local maintenance. We are not—"
+
+Luca Chen interrupts before Ari can finish. The sound is a small, sharp thing that cuts attention into pieces.
+
+Luca Chen: "You keep saying 'we are not'—and then you attach every leverage point to an external fund. Who runs the trust? Who sets the hiring criteria? Who decides when 'capacity' is enough to hand back responsibility? We've seen hiring lists that exclude the people who actually kept these docks running."
+
+Ari Nakamura [cool]: "Hiring follows due process. We can guarantee preferences for local hires in the contracting clauses."
+
+Luca Chen [bitter laugh]: "Guarantee preferences that vanish when a 'more qualified' firm shows up with fuller pockets. 'Preference' is a polite word for 'we'll try.'"
+
+You watch Luca's hands find the table, knuckles whitening. The room has shifted; informal dynamics are reacquainting themselves with raw friction. Each line of defense you've tried to construct is being prodded for seams.
+
+Councilwoman Reyes raises a hand. Councilwoman Reyes: "Luca, please—this is why we have terms and oversight. Maya, Ari, if you can draft a binding clause for the trust's governance and present it to my office by tomorrow, we can proceed to the Chambers for finalization."
+
+You feel your throat tighten. Tomorrow. That single word is a deadline that shaves time from possibility. You can push for more: stronger enforcement language, independent audits, community seats with statutory power. You can concede some leverage to get funding fast. Either way, there will be fallout.
+
+[INTERACTION]
+> Choice A: "Offer a compromise: immediate funding with legally bound community seats and an independent audit panel"
+> Choice B: "Refuse to sign anything without written, enforceable veto over relocation"
+> Choice C: "Call for a pause and move the talks to the Chambers for formal mediation"
+[Outcome A: "You propose a compromise that binds the trust to a community-majority audit board, monthly open data drops, and contractual maintenance funding. Ari nods slowly; it's a bridge. Luca looks like he might vomit. Councilwoman Reyes smiles thinly—political viability tested, but possible."]
+[Outcome B: "You state your red line clearly: no contract unless the community has a written, enforceable veto on relocation decisions. The room freezes. Ari's jaw hardens. Councilwoman Reyes inhales sharply; the word 'veto' ripples through municipal reality like a stone in a pond."]
+[Outcome C: "You ask to move to formal mediation in the Glass Chambers where legal counsel and staff can be present. The request buys process but also time for political theater. Ari smiles—he likes procedures. Luca scowls—he sees delay as dilution."]
+
+You choose words as if laying planks over a rising tide, mindful that any misstep will snap the boards. You can almost hear the marsh at home—Samir's slow voice telling you the tide waits for no diplomacy.
+
+Ari Nakamura leans forward, and for the first time in the conversation, something like heat shows in his eyes.
+
+Ari Nakamura: "Veto is a legal blunt instrument. It will scare off investors and city partners. If the city can't guarantee a pathway to scalable implementation, we lose the funding needed to protect people downstream. You and I both know the alternatives."
+
+Ari's gaze—calm, rational—locks with yours. It's not unkind; it's insistent. He is arguing from the position that scale saves more lives. You remember the meeting notes, the casualty projections he once showed you at university. Numbers that are cold can also be decisive.
+
+Ari Nakamura: "We can codify strong oversight, Maya. We can set a rotating local-majority on the board, binding reporting, and fixed benchmarks. But a hard veto on relocation will make the project unworkable when the model shows imminent failure in certain zones."
+
+You feel the room tilt. On one hand, the model's projections rattle your education and your engineering instincts; on the other, a veto is the last legal refuge for people who would otherwise be told to move without consent. The scale versus soul question sits on your tongue like a foreign coin.
+
+Luca Chen pushes up from his chair. His movement is not graceful; it's an animal shift forward, anger and fear making him quick.
+
+Luca Chen [voice raised]: "So that's it. We sell the soul of this place to a model that maps out where we're allowed to live. We give them permission to 'save the city' and call the rest acceptable losses."
+
+Councilwoman Reyes [firm]: "Luca—"
+
+Luca Chen: "No. Hear me. I grew up here. I fixed nets for people who can't read a budget sheet. I watched families jury-rig their roofs and keep the music going. You talk about 'acceptable losses' like it's a spreadsheet checkbox."
+
+His face is wet with the sheen of the atrium lights, words too hot and too fast. People in the room shift; some look away. Ari's hands curl into small, controlled fists.
+
+Ari Nakamura: "This is not about erasing people. It's about protecting the most lives possible."
+
+Luca Chen: "And who decides which lives? You? The city? Your investors?" Luca turns to you. "Maya—what will you do when they come with dredgers and contracts and the council's seal? Will you read them a contract clause while our neighbors pack their lives?"
+
+The accusation lands like an icicle striking warm skin. You feel the old guilt unspool — that old, private fear that each decision could be another failure people remember as your fault. You opened this route because you thought you could shape it. Now Luca's words place you between a measurement and a memory.
+
+You reach for the notebook and fail to find the right language. Everything you planned to say becomes slow mayonnaise against the urgency of Luca's grief.
+
+Nora steps forward, practical, blunt.
+
+Nora: "Ari, if we write the trust governance the way Maya says, with community-majority audit and real staffing dollars earmarked for maintenance—non-negotiable—will your firm agree to a clause that defers construction funds until after a shared governance board is seated and functional?"
+
+Ari Nakamura [measured]: "We can structure staged release based on governance milestones. But the timeline will stretch. Political pressure is volatile. The longer we wait, the more the city risks exposure in the next storm."
+
+Councilwoman Reyes rubs her fingers against her forehead, the motion like someone trying to smooth a map that keeps changing. Councilwoman Reyes: "This is a political calculus as much as an engineering one," she says. "I need consensus. I need something that looks like safety to present in Glass Chambers tomorrow night."
+
+You can taste the impending choice in the air: quick, measurable protection that could edge out community control — or slow, fragile stewardship that keeps culture but risks more immediate exposure. That taste is bitter and metallic.
+
+Luca Chen's voice drops, dangerously low and intimate, as if speaking to you alone though the room is full.
+
+Luca Chen: "If this becomes a tower you build around us and call it shelter, I will not stand by. I will—" He stops. His breath is a cutting, ragged rhythm. "I will not let them rewrite our story and call it saving us."
+
+Ari Nakamura [soft]: "And I don't want to write over culture. I want to safeguard it."
+
+The claim hangs and quivers. Both feel true. Both feel dangerous.
+
+Your heart pounds. The atrium's lights seem to sharpen into blades. Somewhere against the glass the storm hammers like a judge rapping a gavel.
+
+You realize there is no clean move that doesn't hurt someone. That is the truth that sits in your bones: compromise will bruise and steady will fail someone.
+
+Everything accelerates. Voices overlap. Papers rustle. The AR cuff on Ari's wrist projects a schematic—wave heights, mitigation zones, live model flashes that feel too clinical for the people in the room. The municipal staffers begin to whisper about optics and vote tallies. Nora mutters a run of possible timeline permutations; you feel them like tremors at the base of your neck.
+
+Luca stands as if to leave; then stops, facing you. Luca Chen: "Decide, Maya," he says, an ultimatum wrapped in grief. "Do you stand with us first, or with them?"
+
+The words land on you like a blow. For a fraction of a second you see the marsh: Samir's slow stroll, the reedbeds bending without consent. You imagine boats listing and people who will be told to pick up and go. You imagine Ari's models saving thousands. You imagine numbers that can be printed and invested. Your fingers tremble on the spine of the notebook.
+
+[Background:"ch7_453e40_3"]
+[Music: Crescendo of urgent strings; percussion quickens to a staccato heartbeat]
+[Sound: A sharp crack as hail hits the atrium; a microphone squeals briefly]
+
+You have to answer, to nail a clause down, to choose which pain you can live with. The pressure is like a tightening rope around the city's throat. You feel the long arc of responsibility — every face here is part of it.
+
+Your internal voice is a drum: protect the neighborhood now and risk faster protection lost; accept a scaled solution and risk cultural dispossession. The emotional arousal surges — anxiety, anger, despair — climbing toward a single, unavoidable point.
+
+You lift your head and speak, but your words hang in the charged air. Before your sentence can finish, there is a motion at the edge of the room — Council aides whispering into earpieces, a legal advisor stepping forward with a clause on a tablet. Time, like tide, refuses to stall.
+
+[Page-Turn: The atrium is a pressure-cooker of policy, memory, and love. Your next sentence will shape who keeps a home and who is told to leave. You have to find a line that holds both metric and mercy — if such a thing exists — and you have one chance to make it enforceable.]
+
+[Background:"ch7_453e40_4"]
+[Music: Fade Out]
+[NEXT CHAPTER: 8]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 8
+    > Jump Target File: script_ch8_Route_B_Split_ctx_6b08b4.txt

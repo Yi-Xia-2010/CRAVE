@@ -1,0 +1,491 @@
+{
+  "title": "Tidal Names",
+  "summary": "I am Mira Kestrel: coastal ecologist, community builder, and reluctant leader. The story follows one arc of rising hope, a brutal fall, and a final, bittersweet resurgence — the Cinderella curve: we build momentum, taste success, lose ground in a sudden crisis, and claw back toward a more resilient future. In a public moment, I must choose how the town will respond to a consortium-led barrier proposed by Jonah Hale and defended as decisive engineering. My choices branch into pragmatic negotiation, grassroots resistance, or political brokerages. Each path deepens my relationship with Cassian Rhys — whose sandy hair and paint-splattered jacket are as familiar as the boardwalk planks — and tests loyalties with my sister Nadia, Ruben the fisherman, Asha, and Mayor Lin Park. Across all branches, scenes are shaped by weathered visuals: my dark sea-green hair tucked behind my ear, the brass tidewatcher pendant that keeps time of high water, Cassian’s sun-bleached curls, and Jonah’s polished raincoat. Outcomes vary — a hybrid victory that preserves most homes; a compromise that costs neighborhoods and comforts; a hard infra-led future that secures property at cultural cost; or a lonely moral victory where I choose community safety over personal security. Every route obeys the Rise–Fall–Rise curve: we surge, we crash, we rise again — changed, not whole.",
+  "emotional_curve_type": "Cinderella curve",
+  "player_character": "Mira Kestrel",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Saltlight Morning",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake on the boardwalk before dawn — wind smelling of tidal sea-glass and wet wood. I trace the brass tidewatcher pendant at my throat and check the sensor wristband with patched straps; its tiny LEDs blink like an anxious heartbeat. My field jacket smells of salt and last night’s repairs; my hair — dark sea‑green, sun-bleached at the tips — is tucked behind my right ear. I think of the failed pilot three seasons ago and the guilt that makes my hands hesitantly precise. The town’s skyline is low and pastel, gulls cutting silver arcs. Nadia waves from a school fundraiser near the crooked lamp-posts; Ruben’s silhouette tilts against his oilskins on the docks. In the beginning I lay out my daily plan: inspect the tidal garden rebar, visit the Tidelab greenhouse for sensor recalibration, and meet Cassian about a mobilization mural. My voice is steady but intimate; I narrate small habits — a coffee mug with floral tape repairs, the dent in my leather notebook — and remind myself of the goal: design adaptation that keeps homes and history. The morning hums with cautious hope and the urgency of rising tides.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Nadia",
+        "Ruben",
+        "Cassian Rhys"
+      ],
+      "locations_used": [
+        "boardwalk",
+        "tidal garden",
+        "Tidelab greenhouse",
+        "docks"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tidelab Routine",
+      "branch_designation": "Common",
+      "narrative_focus": "The Tidelab greenhouse smells of wet soil and amber lamp light; condensation beads on polymer panels as I wheel a crate of marsh grass plugs. My fingers are stained with peat, the flannel cuff rolled back revealing my sensor wristband, its strap patched and stubborn. Asha meets me with lab-smudged glasses and a grin; she tucks a stray purple-cropped hair behind her ear and hands me a tablet bristling with a new flow-model. Cassian arrives late, hair in a messy bun, paint on his thumb; his hazel eyes light up when he sees the new seed trays. We laugh while Cassian argues for a mural that doubles as a public sensor map — idealism wrapped in art. I catch myself leaning into him when he talks about mobilizing volunteers; the warmth of his linen shirt and the paint-splattered denim jacket feels like sun on the back of my neck. We calibrate sensors, tape identifiers to hydroponic beds, and plan community planting Sunday. Ruben pops his head through the greenhouse door, salt-streaked cap in hand, offering a story about last winter’s tide. I record it in my leather notebook; every anecdote becomes data and memory. Hope accrues: small experiments are working.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Asha",
+        "Cassian Rhys",
+        "Ruben"
+      ],
+      "locations_used": [
+        "Tidelab greenhouse"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "City Hall Hearing",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "City Hall smells of rain-sheened glass and too-cold coffee; the hearing room is a strip-lit arena where banners press against polished benches. Jonah Hale appears in a water-repellent raincoat, his coal-black hair swept back, slate-blue eyes cool and assessing. Mayor Lin Park sits between us, practical scarf folded; the wooden bench creaks with anticipation. I read my notes aloud: data from tidal gardens, modeled wave attenuation, livelihoods preserved. Cassian slides into the front row, braided bracelet catching light; his smile is stubborn, a private vow. Ruben testifies about the orchard’s shifting roots, Nadia reads a letter from kids at her school about what they’d lose. Jonah outlines the barrier: measurable, fast, funded. His silver ring flashes with certainty. The room thins into choices — we can negotiate with Jonah’s consortium for a hybrid plan, escalate grassroots resistance and risk legal fights, or attempt a brokered pilot that blends science and redevelopment under the Mayor’s oversight. My chest tightens; every option could protect people or displace them. I feel the weight of my past failure tugging at my decision-making. The microphone hums; this is the split.",
+      "emotional_trajectory": "Rise / Split",
+      "entry_condition": "From Chapter 2, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "The town’s vote is looming; how do I move forward?",
+        "options": [
+          {
+            "label": "Negotiate publicly with Jonah for a scaled hybrid plan.",
+            "consequence": "Opens talks, positions me at the negotiation table but risks being co-opted.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Form an organized grassroots blockade and public campaign with Cassian.",
+            "consequence": "Energizes the community, strains legal standing, heightens tension with officials.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Propose a city-sanctioned pilot that forces a transparent evaluation under Mayor Lin.",
+            "consequence": "Appeals to the Mayor, risks bureaucratic delay and backroom deals.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah Hale",
+        "Mayor Lin Park",
+        "Cassian Rhys",
+        "Ruben",
+        "Nadia"
+      ],
+      "locations_used": [
+        "City Hall",
+        "hearing room",
+        "boardwalk"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "The Negotiation Table",
+      "branch_designation": "Route A",
+      "narrative_focus": "I sit across from Jonah in a glassed conference room whose reflective surfaces make us both look smaller. He opens his slim slate and gestures to timelines; his silver band catches the steady light. I wear my salt-stained khaki jacket; my hair is tucked ceremoniously behind my right ear to appear calm. We talk through phased defenses — living berms complemented by a modest engineered reinforcement at key choke points. Jonah is persuasive about funding and measurable results; I press for habitat corridors and community ownership clauses. Cassian watches the hearing feed from the boardwalk and texts me a small painted heart emoji; the warmth of that moment steadies me. Asha’s models show the hybrid falling within a safe margin; the Mayor seems amenable. For a week the town leans forward: volunteers plant marsh grass where engineers promise to shore up foundations; the Tidelab glows late into the night. The pilot scales up. I feel a brittle joy, like sunlight on broken glass — it’s not whole, but it works. I file the success in my leather notebook with cautious pride. We’re at a high tide of possibility.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah Hale",
+        "Cassian Rhys",
+        "Asha",
+        "Mayor Lin Park"
+      ],
+      "locations_used": [
+        "glassed conference room",
+        "boardwalk",
+        "Tidelab"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Breach",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "The storm comes out of season, sudden and feral: a black ceiling, wind like a fist. I am at the Drowned Orchard when a surge finds a weakness in the new reinforcement design. My sensor wristband chimes franticly; algae glows faintly on overturned stilts. Asha bursts into the orchard, her lab glasses askew, and holds up a readout — a resonance effect in the planned barrier under certain wave conditions. My throat closes because I remember the pilot that failed three seasons ago; the guilt is a tidal undertow. Jonah’s team says the model can be tweaked; the consortium’s contracts have clauses that could privatize maintenance. Cassian storms the shoreline in paint-smeared sneakers, his hazel eyes heated with betrayal. Ruben’s cane scrapes as he calls for evacuation; Nadia presses her hands against my sleeve like a plea. Everything I'd built seems to fracture. I have to decide in the chaos whether to accept a compromised plan that will protect many but displace others, to expose the design flaw and risk the project collapsing — and the economic promises with it — or to attempt a last-ditch data mediation that might buy us time. The world narrows to one impossible choice.",
+      "emotional_trajectory": "Fall / Split",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "The scaled project shows a dangerous resonance. Do I sacrifice the project, accept the compromise, or attempt to mediate?",
+        "options": [
+          {
+            "label": "Accept Jonah’s moderated hybrid compromise — prioritize immediate safety and scale back demands.",
+            "consequence": "Many homes spared; some neighborhoods must relocate, including vulnerable margins.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Expose the flaw publicly and halt construction — even if it destroys funding.",
+            "consequence": "The consortium withdraws; the barrier collapses politically.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Push for a transparent recalibration: demand an independent review and emergency redesign.",
+            "consequence": "Creates delay and political chaos that could open other outcomes.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Asha",
+        "Jonah Hale",
+        "Cassian Rhys",
+        "Ruben",
+        "Nadia"
+      ],
+      "locations_used": [
+        "Drowned Orchard",
+        "shoreline",
+        "Old Northpoint Lighthouse"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Tides Reformed — A Hard Won Harbor (Happy Ending)",
+      "branch_designation": "Route A — Compromise",
+      "narrative_focus": "We sign a moderated hybrid agreement: living berms as primary defense, targeted reinforcements where critical infrastructure sits, and legally binding community trusts that safeguard property rights for long-term residents. Jonah’s polished façade softens in public when he agrees to community oversight; his slate closes with a visible exhale. I stand on the boardwalk at dawn with Cassian, his hazel eyes crinkling into a grin as he tucks a paint-stained glove into my pocket. Nadia leads a small ceremony for relocated families; Ruben helps move crates of orchard saplings onto raised mounds. In the Tidelab, Asha integrates a new monitoring protocol we fought for. I trace the brass tidewatcher pendant and realize the pilot’s failure taught me a cautiousness that kept us alive; this time, compromise meant saving most of what mattered. We create jobs in marsh restoration and a small fund for displaced households; the town is not the same, but it keeps its voice. At night Cassian and I walk beneath knitted lanterns, and the quiet between us feels like a pledge. I accept the imperfection and feel a genuine, steady joy.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian Rhys",
+        "Nadia",
+        "Ruben",
+        "Asha",
+        "Jonah Hale",
+        "Mayor Lin Park"
+      ],
+      "locations_used": [
+        "boardwalk",
+        "Tidelab",
+        "Drowned Orchard"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Street-Level Uprising",
+      "branch_designation": "Route B",
+      "narrative_focus": "We choose the streets. Cassian organizes block parties that double as teach-ins; flyers flutter with hand-painted slogans and a harmonica call to gather. I lead scientific workshops under a tarped canopy, my leather notebook open, fingers tracing tidal graphs while kids crowd to touch sensor displays. Cassian’s patched chinos and hand-painted denim jacket make him a magnet for volunteers; his hazel eyes are warm and fierce. The community brigades swell: volunteers with floral-taped boots stabilize berms, and youth from Nadia’s school help string knitted lanterns in the Drowned Orchard. We win hearts — local press runs stories of communal ingenuity. Jonah’s team accuses us of jeopardizing regional investment; the Mayor frets over insurance and jobs. Joy converges with worry: every mural painted is also a pressure point. I fall asleep with Asha’s latest model looped through my tablet — our incremental gains look promising. There is a heady sense that grassroots agency is enough. Cassian stays close, painting a mural of marsh grass along the boardwalk; when his hand brushes mine, his laugh softens me. For now, we ride a crest of moral clarity and communal pride.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian Rhys",
+        "Asha",
+        "Nadia",
+        "Jonah Hale",
+        "Mayor Lin Park",
+        "Ruben"
+      ],
+      "locations_used": [
+        "streets",
+        "boardwalk",
+        "Drowned Orchard",
+        "Tidelab"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "The Orchard Breaks",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "A late storm rips the sky open. The Drowned Orchard — our symbol — takes the worst. Water finds weak seams in recent berms; one raised walkway snaps. Ruben, who taught me to read a tide like a song, is swept in a sudden surge; we pull him from foam and he’s smaller than he used to be, cane splintered, breath ragged. The community scrambles. Cassian stands at the edge, paint on his knuckles, eyes hollow with the shock of failure. My hands work the sensors until the readouts scream: sediment pulses, current redirections we didn’t anticipate. The town fractures into blame, fear, and fury. Jonah seizes the moment to reframe the barrier as the only measurable fix; the Mayor hears the death knell of certain local funding sources. We must decide in grief: negotiate a relocation plan that protects core neighborhoods, escalate a blockade that risks legal ruin but rallies national attention, or take an evidence-driven appeal to the Mayor asking for immediate emergency design changes. Each choice carries cost. The orchard’s knitted lanterns bob in the water like small surrendered stars.",
+      "emotional_trajectory": "Fall / Split",
+      "entry_condition": "From Chapter 7, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "In the immediate aftermath, what path preserves dignity and safety?",
+        "options": [
+          {
+            "label": "Organize a voluntary, supported relocation for the most vulnerable neighborhoods and negotiate protections for those who stay.",
+            "consequence": "Protects many lives but requires loss and movement.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Amplify direct action: blockade construction sites, escalate national attention to force a different political calculus.",
+            "consequence": "Raises awareness but risks arrests and legal setbacks.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Bring emergency data to Mayor Lin and demand an immediate pause and redesign.",
+            "consequence": "Appeals to bureaucracy; may be slow, but could buy time.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian Rhys",
+        "Ruben",
+        "Jonah Hale",
+        "Mayor Lin Park",
+        "Nadia",
+        "Asha"
+      ],
+      "locations_used": [
+        "Drowned Orchard",
+        "shoreline"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Quiet Move (Bittersweet Ending)",
+      "branch_designation": "Route B — Compromise",
+      "narrative_focus": "We choose to ask some families to move — not forced, but urged with resources: housing stipends, jobs in marsh restoration, guaranteed community land trusts. My childhood house is on the list. I stand on the porch the last night and trace the sun-bleached eaves with my palm, imagining the orchard’s seasonal light through the window. Cassian squeezes my hand; his hazel eyes are steady, threaded with sorrow and resolve. We organize farewell festivals: boatloads of neighbors ferry pots of orchard saplings to higher ground. The Mayor signs a protection clause for the town core; Jonah retires part of his design in favor of living margins. It is not whole — houses go, memories shrink — but most people keep community ties and livelihoods; schools remain open. My guilt is a hollow echo; I helped save them, but I also helped choose who would leave. At dusk, under knitted lanterns, I and Cassian promise to rebuild with what remains: new job training, marsh‑based economies, and a mural that will remember the lost blocks. There is love and loss braided together.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian Rhys",
+        "Nadia",
+        "Ruben",
+        "Mayor Lin Park",
+        "Jonah Hale",
+        "Asha"
+      ],
+      "locations_used": [
+        "porch",
+        "Drowned Orchard",
+        "higher ground",
+        "boardwalk",
+        "Tidelab"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Mayor’s Pilot",
+      "branch_designation": "Route C",
+      "narrative_focus": "I propose a mayoral pilot: transparent, peer-reviewed, and city-sanctioned. Mayor Lin Park, practical and silver-streaked, agrees to convene Jonah, Asha, community reps, and me in a citizens’ oversight committee. I wear my khaki jacket and brass pendant to the meeting, the pendant warm against my collarbone as if telling tidal time. Jonah is polished; Cassian watches from the boardwalk with that stubborn smile. For a few days the town looks like we might actually build a governance model that binds technical competence to civic consent. Asha lays out independent monitoring protocols; Ruben offers oral histories we archive. The pilot wins a temporary pause on unilateral construction. Volunteers plant test corridors; the Tidelab’s hydroponics hum. I feel a rare competence: I can translate ecology into policy. The Mayor’s support feels like a hinge. Yet the delay lets anxieties fester; some residents call us dithering while others cheer. Hope swells, but there is a hum of fragility under it — a quiet warning I file into my notebook. For now, the town leans into deliberation.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Mayor Lin Park",
+        "Jonah Hale",
+        "Cassian Rhys",
+        "Asha",
+        "Ruben"
+      ],
+      "locations_used": [
+        "City Hall",
+        "boardwalk",
+        "Tidelab"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "The Leak",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "A data leak happens: a truncated model from Jonah’s team circulates, misinterpreted by a local paper to mean the pilot is delaying urgent action. Rumors metastasize into protests and sabotage. An engineer’s offhand memo about “acceptable displacement” becomes a headline. Cassian calls it a cynical fracture of trust; his paint-stained satchel slams on the council table when he speaks. The Mayor’s office is inundated with calls; volunteers split between building berms and attending angry rallies. I hold Asha’s trembling hand as she explains how the misread parameters feed a narrative that only a large-scale barrier can fix everything. The town’s consensus cracks. In the chaos there are choices: push for an aggressive, city-backed relocation plan; lead a renewed grassroots blockade that forces national attention; or publish a full forensic review that risks collapsing all funding but could expose culpability. Each outcomes’ weight presses on me. The leak has shifted us from careful deliberation into reactive politics. Night comes with sirens and the smell of wet paint.",
+      "emotional_trajectory": "Fall / Split",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "In the wake of the leak, how do we regain direction?",
+        "options": [
+          {
+            "label": "Push an organized, supported relocation paired with strict community protections.",
+            "consequence": "Some neighborhoods will leave voluntarily; systemic protections are codified.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Allow a hard infrastructure push to move forward under protest, hoping political pressure limits displacement.",
+            "consequence": "The barrier goes ahead with partial oversight but displaces many.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Expose the consortium’s flawed modeling publicly, risking the pilot and funding but potentially stopping harmful construction.",
+            "consequence": "Funding collapses; long-term policy change might be possible.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Asha",
+        "Jonah Hale",
+        "Cassian Rhys",
+        "Mayor Lin Park"
+      ],
+      "locations_used": [
+        "Mayor's office",
+        "Tidelab",
+        "town"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Barricade Breaks (Sad Ending)",
+      "branch_designation": "Route B — Escalation",
+      "narrative_focus": "We escalate and blockade construction zones. Early victories — viral videos, sympathetic editorials — turn into arrests when lines harden and legal injunctions arrive. Jonah’s consortium labels us as lawbreakers while offering fast-track permits to the Mayor in exchange for cooperative zoning. The barrier gets a green light amid legal compromise; construction displaces elders and renters without sufficient safeguards. Cassian and I argue in the spray of a construction site: his idealism blunted by the sting of arrests, my pragmatism hollowed by the sight of bulldozed porches. Ruben’s carved cane sits quiet on a stoop as he is moved to a temporary shelter. We lose ground politically; our moral clarity becomes an echo. But months later, under the new seawall’s shadow, I unearth a small victory: leaked maintenance logs showing the barrier will accelerate erosion in neighboring coves — evidence that will, later, help change regional policy. For now, the town’s soul is battered. Cassian leaves for a brief stint organizing elsewhere; we drift. I stand at Old Northpoint Lighthouse and commit the view to memory, knowing a quieter fight may still begin. The end tastes of ash and tempered resolve.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian Rhys",
+        "Jonah Hale",
+        "Ruben"
+      ],
+      "locations_used": [
+        "construction site",
+        "Old Northpoint Lighthouse"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Relocation Accord",
+      "branch_designation": "Route C — Relocation",
+      "narrative_focus": "The Mayor approves a relocation accord: voluntary moves, guaranteed jobs, and a civic fund for community land trusts. We cobble together resources with Jonah’s backing theoretically contingent on oversight. My childhood house is listed as eligible; Nadia organizes a farewell play for the school. I stand during the move and watch neighbors carry crates of orchard soil and knotted lanterns onto higher ground. Cassian paints a mural along the boardwalk honoring the neighborhoods that chose to leave; his hazel eyes shine with grief and defiance. Ruben helps catalog heirloom saplings for new plots. There’s comfort in the care we offer: housing vouchers, retraining in ecosystem jobs, a community narrative about resilience. But comfort cannot erase absence; houses disappear from the map like tide marks. Asha’s monitoring network will still protect the core, but some memory has been surrendered. I feel proud and hollow simultaneously. Cassian holds me under the lantern glow; we vow to keep the displaced in the town’s story. We rise from the wreckage, rebuilding a community that remembers what it lost.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Mayor Lin Park",
+        "Jonah Hale",
+        "Cassian Rhys",
+        "Nadia",
+        "Ruben",
+        "Asha"
+      ],
+      "locations_used": [
+        "boardwalk",
+        "higher ground"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "The Wall Goes Up",
+      "branch_designation": "Route C — Barrier",
+      "narrative_focus": "The consortium pushes construction under the cover of political expediency. Bulldozers gnaw at the marsh; a white wall rises in segments that look clean and terrible in fog. Families move into temporary housing as contracts finalize land sales; the boardwalk feels narrower, the murals cropped by construction fences. Jonah’s slate is closed, his steel-blue eyes fixed on schedules and metrics; he meets with me once under a drizzle and offers condolences like a formal apology. Cassian leaves town for a month to rally elsewhere; his absence is a cold, static ache. I sift through sensor data at night and find a sliver of vindication: certain currents will increase erosion several cove over — a truth that may one day force policy change. The town keeps its property but loses edges of community and the spontaneous dinners on the boardwalk. I tend a small remnant of the orchard with volunteers, preserving memory in a raised bed. There is survival here, and a brittle hope that the documentation we gathered will save others from repeating our compromises. My rise is quiet, a moral ember among charred timbers.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah Hale",
+        "Cassian Rhys",
+        "Ruben"
+      ],
+      "locations_used": [
+        "marsh",
+        "construction site",
+        "boardwalk",
+        "Old Northpoint Lighthouse"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "The Choice That Saved Many (True Ending)",
+      "branch_designation": "Route A — Expose",
+      "narrative_focus": "I choose to publish the forensic review: a clear exposition of the resonance flaw the consortium ignored. It sinks Jonah’s barrier proposal; investors withdraw. The political and economic fallout is immediate — funding evaporates and a promised construction job boom collapses. I lose prospects of a comfortable project salary and Jonah’s offer to integrate me as a technical lead. There is anger and gratitude in the town; some call me reckless, others call me courage. Cassian is furious at first for the economic cost, then tender when he sees the lives saved in small ways: neighborhoods left in place, the orchard kept. Ruben tells me he dreamed of his father standing at his side and says simply, “You did right.” The regional council opens hearings on accountable infrastructure; long-term policy changes ripple out of our small, painful fight. I am left without the easy security the barrier promised, but I helped avert a design catastrophe and catalyzed a governance reform that will protect many towns downstream. I stand at Old Northpoint Lighthouse alone one dusk — a quiet satisfaction in my chest, and a sense that the sea will always ask hard things of us, and that I answered as best I could.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian Rhys",
+        "Jonah Hale",
+        "Asha",
+        "Ruben"
+      ],
+      "locations_used": [
+        "Old Northpoint Lighthouse",
+        "hearing",
+        "town"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "",
+  "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+  "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 03:54:57"
+}

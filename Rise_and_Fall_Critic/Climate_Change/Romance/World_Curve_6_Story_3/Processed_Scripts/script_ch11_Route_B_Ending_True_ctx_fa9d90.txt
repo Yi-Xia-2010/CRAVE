@@ -1,0 +1,152 @@
+### SCRIPT
+# Route: Route B — Ending: True
+# Context: fa9d90
+
+[Scene: Test Platform on the Promenade | Late Afternoon — After Storm]
+[Background:"ch11_fa9d90_1"]
+[Music: Low, trembling strings; a single downbeat of timpani underlines the crowd murmur]
+[Sound: Water slapping concrete, distant gull cries, the creak of wet rope; someone counts down softly into a handheld microphone]
+
+You stand in your trench coat at the edge of the platform, breath fogging in the humid air. The smell of sea—brine, diesel from a distant workboat, wet fabric—wraps itself around your lungs. Your notebook is zipped inside your sling; your fingers find the pendant at your throat the way old habits find shorelines. Around you, the crowd presses—shop owners with tape on their palms, reporters with water-speckled notebooks, aldermen in damp suits behaving as if fabric could still keep politics dry.
+
+Noah Ríos's voice is near you, an organized calm that steadies your pulse by simple measure. He is crouched at the diagnostics board, thumbs brushing a tablet. His sensors spit a steady stream of numbers into a public feed: amplitudes, phase shifts, attenuation indices. A projector throws an overlay on the screen—a clean curve that will either hold like a rope or shred like kelp against a storm.
+
+Your chest tightens in that familiar way: urgency braided with fatigue. This is not only a test of technology. It is a demonstration of trust—trust in the community that will be asked to live with whatever the city signs, trust that data will be listened to, trust that promises made in the glare of cameras will matter once the gavel is silent.
+
+[Background:"ch11_fa9d90_2"]
+[Sound: A soft, electronic ping; someone in the crowd whispers, "Is it working?"]
+
+[INTERACTION]
+> Choice A: "Press your hand into the pendant"
+> Choice B: "Fold your arms and watch the screens"
+[Outcome A: "You let your palm press the cold metal of the pendant; it steadies you. Noah glances over and smiles once, private and small."]
+[Outcome B: "You cross your arms, the fabric of your coat creaking. Your face sets into the measured calm you've practiced with Priya; Noah catches your eye with a question that says, 'Did we do enough?'."]
+[MERGE: Continue main narrative]
+
+Noah Ríos [quietly, into his mic]: "Baseline is steady. Wave input at 0.8 meters—attenuation nodes coming live."
+Mara Evans: "Keep me up. If the first array holds, we push the feed. Be ready for noise."
+
+Noah Ríos's hand is an accidental presence across equipment and then, at the moment the first joined feed flickers alive, his fingers brush yours on the rail. The touch is brief, a punctuation in damp air, but the data makes a sound like a held breath released: an uptick on the feed, the attenuation curve dipping in a way that translates into numbers and, more importantly, into places kept dry.
+
+[Sound: A collective intake of breath; the projector hums as the curve smooths]
+[Background:"ch11_fa9d90_3"]
+
+A woman in the front row—Elena—laughs with a sound that is half sob. Behind her, Tomas grips a wooden pole, knuckles white as driftwood. Cameras pivot toward the screen like hawks toward fish. For a moment the Promenade is a held note: anticipation, the kind that is sticky with salt.
+
+Reporter: "Can you translate that for us—what does 22% mean for a bakery on the Strand? For a child's school?"
+
+Priya [off-screen, voice tense with the math]: "It means energy from waves is being dissipated earlier. Over a storm surge of this scale, it could be the difference between ankle-deep and knee-deep. Models still need scaling but—"
+
+[INTERACTION]
+> Choice A: "Step forward and speak plainly to the crowd"
+> Choice B: "Let the data speak; hand the mic to Priya"
+[Outcome A: "You step up to the mic and speak without the softly honed policy language—stories about Tomas's dock, Elena's paint shop—your voice cracks, and the crowd leans in. People nod. Numbers become windows into daily life."]
+[Outcome B: "You step back and let Priya explain the models. Her graphs are precise and the aldermen scribble. Your name is not on every headline this afternoon; the argument grows technical and harder to dismiss."]
+[MERGE: Continue main narrative]
+
+Priya: "(measured) This prototype doesn't solve systemic exposure. It mitigates wave energy in targeted bands. It buys us time and lowers economic risk in neighborhood zones—when maintained and governed locally."
+
+Cass (in a voice amplified by civic authority, stepping forward in a cream suit streaked with salt) clears her throat. The murmuring thins. You recognize the tightness around her mouth—the mayor balancing a dozen fraying ropes at once.
+
+Cass: "What you have shown is promising. The council must act on public safety, economic stability, and equity. We will propose a mediated framework: targeted hard defenses where critical infrastructure and lifelines demand impermeable protection, combined with funded living systems—community-led projects like this one—in residential neighborhoods."
+
+Arman Kade watches from the dais, a figure cut in navy and steel, his smile reserved and practiced. When he speaks, his voice is the sort the harbor knows: smooth, with a contractor's certainty.
+
+Arman Kade: "The city needs decisive, scalable solutions. I will collaborate where necessary, but the timeline matters. Investors need a clear path. We cannot tinker indefinitely while storms learn our terrain."
+
+Cass: "We will allocate funds to both pathways. Contracts will include community stewardship clauses; Arman will lead critical infrastructure zones, and the city will fund community stewards to implement living systems."
+
+Tomas: "Stewardship clauses? Who holds them? Who sits on the boards? Who keeps these things from becoming another paperwork shelter for profit?"
+
+Cass [meeting Tomas's glare]: "We will form an oversight council. Community representatives will have seats. Contracts will require transparent audit trails."
+
+Arman Kade [coolly]: "Those are perfunctory niceties, Mayor. You know the difference between governance and gridlock. We can build—rapidly—if you let us."
+
+Mara Evans: "Rapid deployment that displaces people isn't protection. It's relocation. You can't promise a community a seawall and then sell them a life somewhere else with better zip codes. Where I grew up, a promise meant more than a map. It meant you could still walk to the bakery your mother liked. Who is accountable if maintenance lapses? If funding dries up?"
+
+Arman Kade [leaning forward]: "Accountability is built into procurement. We deliver. We manage. The city doesn't have the capacity to babysit every kelp bed."
+
+Noah Ríos [quietly, under the interchange]: "Capacity can be built. It can be taught. We designed sensors to hand data back to communities, not to centralize it."
+
+Arman Kade [with a tight smile]: "And who pays to build that capacity? Who absorbs the initial risk?"
+
+Elena [voice trembling]: "We already absorb risk when our roofs fly off. We already pay with our lives."
+
+There is a brittle, public silence. The projector hums like a distant tide.
+
+Cass [the mayor's patience thinning into steel]: "This will be a hybrid strategy. Arman will be awarded contracts for critical zones—ports, power, transit hubs. Community-led living systems will be funded in neighborhoods, with oversight councils and legal protections written into contracts."
+
+Mara Evans: "And the legal protections—will they be retroactive if a private contractor's plan forces relocation? Will there be recourse?"
+
+Cass [slowly]: "The contracts will include anti-displacement clauses. They will require mitigation funds and relocation assistance where unavoidable."
+
+Tomas: "Words are cheap. We need enforceable timelines, independent audits, and penalties that bite."
+
+Cass looks at Tomas, then at you. The light through the clouds is thin, pieces of sun like scissors cutting into the wet world. For the first time today, you see the mayor's face lose the carefully practiced public gloss and become a map of compromises made and still to be made.
+
+Cass [softening]: "I know you. I know what you fought for. This is not everything you wanted. But it's not nothing. It is a structure that, if we remain vigilant—if we build the oversight, if we keep each other honest—we can make it protect lives."
+
+Arman Kade [narrowing]: "Then let's sign and move. The window for funding is finite."
+
+The crowd breaks into a low, complicated noise: some relieved, some wary, some angry. Cameras pivot. A reporter asks about timelines. Questions slug the air like gulls trying to hold a fish in a wind.
+
+[Background:"ch11_fa9d90_4"]
+[Sound: The soft lapping of water at the platform, like hands tapping a slow rhythm]
+
+Noah Ríos steps to your side after the press swirl, fingers finding yours without asking. You let your palm open; on the pier the sun fracturing through clouds paints his cheekbone gold. Relief settles across your shoulders like damp cloth: the demonstration worked. The city has adopted a mixed strategy—neither clean victory nor total defeat. It is an honest, brittle compromise.
+
+Noah Ríos [low, steady]: "You did it. They saw the curves."
+
+Mara Evans: "They saw the curves. They still signed for hard walls in key zones. He keeps roles. We get funding, oversight clauses, and a promise."
+
+Noah Ríos [a humorless laugh]: "Promises, oversight. All the words that mean 'watch them when the money dries'."
+
+You both look out where the kelp line tugs against its moorings. In the near distance, cranes silhouette against a pale patch of sky—machines ready to raise concrete where the living shoreline might have been given more room. The air tastes of rain and possibility and the residue of compromise.
+
+Tomas shuffles up the pier, cap in hand. His face is older than the map you carry in your head; he has seen many 'solutions' come ashore and leave the people holding the bills.
+
+Tomas: "You all did good work today. The numbers mattered. But don't let them write us out. Stay on the councils. Watch the contracts. Teach the kids what to tend. The sea is patient but not kind."
+
+Elena presses your shoulder—paint-splattered and stubborn—and you return the pressure. It is small solidarity. It anchors something.
+
+Mara Evans: "We will push for audits. We will train stewards. We'll keep the community seats. We'll make sure living systems are not a sideshow."
+
+Cass [with a tired exhale]: "I will hold them to it. I can't promise perfection. I can promise attention."
+
+Arman Kade [inclining his head]: "Then we can move forward."
+
+There is a quiet between those words where you measure all the things that will have to be done: governance structures to be written before contractors bulldoze a budget line; community training that will take years and sweat; an oversight council that will need teeth and public records and the willingness to sue when necessary. There are always spaces in compromises where people fall through.
+
+[Background:"ch11_fa9d90_5"]
+[Music: A low minor chord with distant woodwind, not resolved]
+
+You let the relief sit with you like salt—rough on the tongue. You feel Noah Ríos's hand find yours again, a quiet rhythm of proximity and promise. The data curves are real. The contracts promise protection, and in places, they will keep roofs whole and businesses open. But you are not naïve: hybrid solutions require governance, oversight, and trust that must be earned and renewed every season.
+
+Mara Evans [to Noah, barely above the wind]: "We won a ring of safety, not the shore."
+
+Noah Ríos [squeezing]: "We'll keep working. We'll watch the audits. We'll teach people to read the feeds."
+
+You watch a child fling a pebble into the puddle and betray a laugh that is matched by a neighbor nearby. The scene is ordinary and fragile. You find some strange consolation in the ordinary—it's a stubborn proof of why you fight.
+
+In the back of your head, the tightness remains: clauses that read like paper can be breeched by an opportunistic market; oversight can be starved by budget lines; community seats can be filled with friendly faces who forget whose names are written on the bakery's awning. You think of the family storefront you lost when you were sixteen, the way a promise had sounded then, and how different it felt to hold a city to account now.
+
+[Background:"ch11_fa9d90_6"]
+[Sound: A gull's long cry, then nothing but the low hum of the bay]
+
+You and Noah stand until the light fades into a softer strip across the water. You will go back to drafting oversight language, to hosting community workshops, to fighting in council rooms and in the press. This is not an ending you would have written—too many compromises, too many corners cut—but it is an outcome that protects people and preserves place in ways that would have been lost to unmitigated hard defense.
+
+You tuck the pendant under your collar, and let yourself, for a moment, feel the relief that is honest and partial. Then you set your jaw. There are meetings tomorrow, and after that, persistent work: audits to file, contracts to parse, and a community that will look to you not for perfection, but for relentless, organized care.
+
+[Music: Strings diminish into a single sustained, unresolved minor note]
+[Background:"ch11_fa9d90_7"]
+
+[Background:"ch11_fa9d90_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

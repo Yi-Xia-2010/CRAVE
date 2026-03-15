@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance (Theme and Genre). The theme mentioned is "Theme" but the story seems to be about moral dilemmas, community, and personal choices. The genre might be drama or political thriller. The story does explore these themes well, so maybe a high score here.
+
+Coherence: The story makes sense. The plot is tight, with clear cause and effect. The characters' actions and the consequences are logically connected. The ending is a culmination of the tension built up, so coherence is probably good.
+
+Empathy: The characters' emotions are well depicted. Maya's internal conflict, the tension with Elias and Rosa, the crowd's anger and loss. The reader can feel the pressure and moral weight on Maya. So empathy score should be high.
+
+Surprise: The ending isn't a twist but a climax where Maya has to make a choice. It's expected given the buildup, so maybe not very surprising. The surprise score might be lower.
+
+Engagement: The story is intense, with high stakes and emotional depth. The reader is drawn into Maya's dilemma, so engagement is likely high.
+
+Complexity: The story has multiple layers—personal relationships, political implications, moral choices. The interactions between characters and the consequences of each decision add depth. So complexity is probably high.
+
+Now, translating these thoughts into the JSON structure with explanations for each score.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story tightly aligns with its theme of moral ambiguity and personal sacrifice, exploring the tension between practical survival and ethical integrity. The genre (dramatic political drama) is well-matched to the narrative’s focus on high-stakes decision-making and community conflict.",
+  "CH_Score": 5,
+  "CH_Explanation": "The narrative is logically structured, with clear cause-and-effect relationships between characters’ actions and the escalating crisis. The ending feels inevitable yet emotionally resonant, tying together the moral, personal, and communal threads of the story.",
+  "EM_Score": 5,
+  "EM_Explanation": "The characters’ emotions are vividly conveyed through sensory details (e.g., Maya’s trembling voice, the crowd’s visceral reactions) and internal monologues. The reader deeply understands Maya’s anguish, the weight of leadership, and the fractured trust between characters.",
+  "SU_Score": 2,
+  "SU_Explanation": "The ending is not surprising, as the story builds toward Maya’s climactic choice throughout. The resolution feels inevitable given the established stakes and character dynamics, lacking a narrative twist or unexpected revelation.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story is highly engaging due to its urgent pacing, moral complexity, and emotional stakes. Readers are drawn into Maya’s dilemma, the community’s desperation, and the high-consequence decisions that drive the plot forward.",
+  "CX_Score": 5,
+  "CX_Explanation": "The narrative weaves together multiple layers—personal relationships, political tension, environmental crisis, and ethical philosophy—creating a richly layered story. The interplay between individual choices and collective consequences adds depth and nuance to the plot."
+}

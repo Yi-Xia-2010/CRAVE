@@ -1,0 +1,192 @@
+label chapter11:
+
+    # [Scene: Tide Lab | Night]
+
+    scene bg ch11_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Your phone thrums with incoming alerts — each buzz a small detonating echo in the room]
+    # play music "music_placeholder"  # [Music: Sparse, high-tension strings; a low, metallic drone undercuts the noise]
+    "The phone never stopped. It was a chorus: legal notices, panicked investor messages, furious town texts, two invitations marked URGENT from City Hall, one voicemail timed at 01:12 from an anonymous number. Each tone made your"
+    "chest ricochet. You let the device vibrate on the bench and watched the light pool against your fingertips like oil on water."
+    "You were a scientist used to tidy variables. This was not tidy. This was a tide that had turned and now chewed at foundations you had thought solid."
+
+    scene bg ch11_e67f19_2 at full_bg
+    "Your thumb hovers over the compass but doesn’t move it; the metal is colder than you remember. Professor Haruto's voicemail is still there in the back of your head — not an instruction this time, but a witness: You forced a conversation. Now steer it."
+    "A soft cough at your shoulder. Elias — denim jacket dripping with sea spray, hair flattened by wind — stands framed by the doorway like someone dragged through the storm and set down on purpose."
+    show elias_rowe at left:
+        zoom 0.7
+
+    elias_rowe "You look like someone who swallowed a thunderhead."
+    "You laugh, because that’s the smallest thing you can do that isn’t crying. It comes out brittle."
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "I released the data. Now..."
+    "Elias moves closer, eyes scanning the screens, the news feeds, the legalese in your inbox. He speaks slowly, but you can hear the tremor underneath — not of anger, but of something like fear dressed up as practicality."
+
+    elias_rowe "It changed everything, Maya. Good and bad. I—' (he searches for words) '—I don't know if it changed it the right way."
+    "You want to tell him that 'right' isn't a single line you can draw on the map. You want to tell him that Haruto trusted you, that Tomas would want the truth, that your father's compass"
+    "used to find waypoints in storms. Instead you fold your hands until your knuckles whiten."
+
+    menu:
+        "Take his sleeve":
+            "You grab Elias's sleeve, your fingers cold. He stills, surprised, then gives you a small, taut smile that says he’ll stand there, come what may."
+        "Step back and keep your distance":
+            "You let your hands fall away, space widening between you. Elias's expression tightens; he nods, but the silence says more than words."
+
+    # --- merge ---
+    "Elias doesn't pull away no matter which you choose; his face stays watchful, complicated. He leans his forehead against the cool glass, looking out at the harbor as if the answer might be washed up on the tide."
+
+    elias_rowe "Mayor's convening an emergency council at first light. Serena's legal team—' (he swallows) '—filed suit tonight. Investors are calling their reps. Lina's got people amassing outside the lab. Half the town is thanking you. Half is holding signs."
+    "You close your eyes. The inventory of consequences is a ledger of white noise. Guilt tastes like metal. Triumph — if it existed — is muffled by the swell of retribution."
+    # play sound "sfx_placeholder"  # [Sound: A distant chant rises and falls; muffled through glass, it sounds both like an accusation and a hymn]
+    "The lab phone rings; the ringtone is a jangle you had chosen weeks ago and now hate. You let it ring. It stops."
+    "Professor Haruto enters quietly, rain-damp collar, hands folded, steady as a weathered kelp stem. When he sees you, his face writes one long line of grief and respect."
+    show professor_haruto_miyazaki at center:
+        zoom 0.7
+
+    professor_haruto_miyazaki "You put the current on the table. That was always going to make the town look —' (he pauses, searching) '— fractured. But fractures let light through, if we know where to hold."
+
+    maya_calder "Hold what, professor? The town can't survive on good intentions. The investors can pull financing in a day."
+    "Professor Haruto: (soft) 'Then we frame it. We give the town tools to hold. You forced the conversation, Maya. Now steer it.'"
+    "His voice is both anchor and weight. You hear the word 'steer' as command and plea."
+    hide elias_rowe
+    hide maya_calder
+    hide professor_haruto_miyazaki
+
+    scene bg ch11_e67f19_3 at full_bg
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "Amara called for a council. She's trying to temper panic, but she has to placate investors and votes."
+    show professor_haruto_miyazaki at right:
+        zoom 0.7
+
+    professor_haruto_miyazaki "Prepare a concise briefing. Anticipate legal questions. Have Lina hold the community's pulse. Elias—' (he looks at Elias) '—help with the models, but not alone. This isn't just your work now."
+    show elias_rowe at center:
+        zoom 0.7
+
+    elias_rowe "I will. I already—' (he stops, jaw tightening) '—we'll do what we can. But Maya, you have to brace for—"
+    "He doesn't finish. He doesn't need to. The room's pressure swells until it hurts."
+    # play sound "sfx_placeholder"  # [Sound: A recording clip blares from one of the monitors — a local news anchor reading a statement about breach of contract; Serena's name flashes in crisp corporate font]
+    hide maya_calder
+    hide professor_haruto_miyazaki
+    hide elias_rowe
+
+    scene bg ch11_e67f19_4 at full_bg
+
+    "Serena Voss (on-screen)" "We are pursuing all legal remedies. We regret any distress to Aster's Reach; our priority remains safety and long-term resilience."
+    "You watch her speak and feel a primitive recoil, as if scales were being removed where trust had been lodged. There is something personal in the smoothness of her delivery, an execution of inevitability."
+
+    "Your inbox erupts anew. A journalist's name appears: Mara Chen — her avatar a hawk. The message is short" "On camera? Five minutes? This could change the narrative."
+    "You consider refusal. You consider stepping outside and addressing the crowd you have helped inflame. The lab smells of wet paper and coffee souring at the edges; outside, the air is iron and rain and voices."
+
+    menu:
+        "Take the camera and speak":
+            "You step into the hallway; the rain greys the world. You speak into the camera — halting, then gaining strength — explaining why you released the data. The words are rough, but earnest; some people in the crowd soften, others hurl accusations."
+        "Tell Mara to wait, prepare a statement":
+            "You tell Mara to hold and turn back to Haruto and Elias. You need to frame this with facts first; you can’t let soundbites define the town. Mara's gavel-like silence on the line is a reproach."
+
+    # --- merge ---
+    "Mara's presence waits, patient and sharp. You choose the way you always choose: either launch forward with rawness or buffer truth with numbers. Either way, consequence."
+    "Lina bursts in then, hair braided but flattened by wind, gloves smeared with mud. Her face is a map of tired joy and rage — organizer's eyes. Behind her, through the rain-streaked door, you can see people clustered under tarps, handmade signs bobbing: THANK YOU, MAYA. SELL-OUT. LISTEN. SAVE US."
+    show lina_park at left:
+        zoom 0.7
+
+    lina_park "They're split. But they've rallied. We've set up a solidarity meeting at the Community Meadow in thirty. People want context, not headlines."
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "Is it safe? Will people get violent?"
+    "Lina Park: (fast, practical) 'Not unless someone makes it. We need you to speak, or we need you to let us speak on your behalf. Either way, you don't get to hide.'"
+    "You feel the old reflex — bury and fix — prick at the back of your throat. You want to answer every accusation with an equation and a timeline. You want to stand in front of"
+    "a map and point at fortifications and say 'This is science.' You're tired of being the one who explains the ocean."
+    "Elias watches Lina with that look he gives when he's deciding whether to make a joke to diffuse or say something true that might crack something open."
+    show elias_rowe at center:
+        zoom 0.7
+
+    elias_rowe "I'll go with you. We should be there for the town, not for the cameras."
+    "You want to be grateful and suspicious at once. Gratitude curdles into protectiveness. You remember a conversation you didn't have months ago, the one where you let a project overrun a promise. You sense, with a"
+    "free-falling certainty, that the present will test you in a way that may not leave you whole."
+    # [Scene: Community Meadow | Night]
+    hide lina_park
+    hide maya_calder
+    hide elias_rowe
+
+    scene bg ch11_e67f19_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs, crackling portable heaters, a child's muffled sob somewhere in the crowd]
+    # play music "music_placeholder"  # [Music: Percussive, urgent rhythm — heartbeats layered over the wind]
+    "Lina is in her element: loud, organizing, corralling anxieties into questions and actions. She hands you a megaphone with the casual brutality of someone who knows what needs doing."
+    show lina_park at left:
+        zoom 0.7
+
+    lina_park "You can speak facts. Or you can speak to people. People remember being heard."
+    "You take the megaphone and feel its plastic like a barrier between yourself and the public. Your voice rolls out — small, then steadier when you choose to let the anger and grief in. You tell"
+    "them why you released the data. You tell them what you hoped it would do. You explain, as simply as you can, what the numbers mean for their foundations and their children's schools and the old"
+    "pier where Tomas keeps his boats."
+    "Voices rise. A man in a soaked cap shouts about livelihoods; a woman holds up a photo of a house with a tide line painted on the wall; someone applauds a line you didn't expect would land."
+
+    "Journalist Mara Chen (from the edge of the crowd)" "Why now? Were you trying to sabotage negotiations? Did you consider the economic fallout?"
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "I considered the fallout. I considered silence. Silence would have left teeth in the future for the present to rip out. I did this because—' (you falter, the words sticking in your throat like kelp) '—because the town deserves to know what will happen if we keep pretending time is neutral."
+    "A ripple of reaction, half-approval, half-derision. You feel exhausted, small, heroic and terrified in a single breath."
+    # play sound "sfx_placeholder"  # [Sound: A commotion at the periphery—shouting in a different key; someone slams a placard down; the lab’s name is echoed with both thanks and accusation]
+    hide lina_park
+    hide maya_calder
+
+    scene bg ch11_e67f19_6 at full_bg
+    "The notice is clinical, sharp. Reading it feels like a physical cut."
+    "Professor Haruto stands behind you, hand resting on the bridge of your shoulders for a single, steadying second before he steps back into the rain. He murmurs, almost to himself:"
+    show professor_haruto_miyazaki at left:
+        zoom 0.7
+
+    professor_haruto_miyazaki "You made a rock skip across a pond. Now count the ripples."
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "Which ripple do I hold? The town, the science, the legal—"
+
+    professor_haruto_miyazaki "All of them. But you must pick the way you steer."
+    "The sky seems to lean in closer. Every siren is a metronome counting down the hours until the council convenes. The labs outside shutter their windows. Someone posts a livestream with your face and the caption: 'Hero or Villain?'"
+    "Elias finds you by the boards where the town's makeshift maps are pinned. He takes your hand — not a theatrical clasp, but a pressure that says, I am here. He speaks in a voice that is careful and raw at once."
+    show elias_rowe at center:
+        zoom 0.7
+
+    elias_rowe "Maya, whatever you pick, remember why you did it. But also remember not to set yourself on fire for a principle that can't be maintained. We can slog through court if we have to. We can bargain if we need to. We can play chess with Serena if you let me help move the pieces."
+    "You look at him. The tide on his jacket trembles; the salt has crusted in the weave. There is so much left unsaid between you: a deferred promise, a season of absence, the ways both of"
+    "you have chosen work over tenderness. His eyes flick to yours with a sort of pleading — not for romance, but for partnership, for a shared scaffold you can both lean on."
+    "You inhale, the sea-laced air stinging your throat. The compass at your sternum feels like a literal burden."
+    # play music "music_placeholder"  # [Music: Strings tighten into a violent, unresolved chord; the room seems to vibrate with held breath]
+    "Your inbox pings again. Mayor Amara's assistant requests a pre-council briefing in forty minutes. Serena's legal counsel sends proposed terms — immunity for participation in an internal review, in exchange for retracting the release and coordinating public messaging. The options lay themselves out with the bluntness of a surgical diagram."
+    "You feel panic climb and then fold into a cold, heavy grief. This is the moment you had feared: the moral geometry of choices that asked you to trade pieces of yourself for stability, influence, or vindication."
+    "You stare at your hands. Sea-green eyes reflected in the glass of a paused livestream; the harbor's lights stabbing at the surface like stars you cannot reach. The vote of your chest is unambiguous: your breath quickens, your pulse thumps in your ears like surf against a break."
+    "Professor Haruto's voice — small, brittle with age and resolve — reaches you over the hum."
+
+    professor_haruto_miyazaki "Decide with what you can live with tomorrow. Not just with what makes a headline tonight."
+    "You nod, though nothing feels settled. The choices ring like buoys on an angry sea."
+    # play sound "sfx_placeholder"  # [Sound: A cacophony of phones chiming, a distant megaphone, tires on wet asphalt — the world's noise condenses into an urgent point of decision]
+    hide professor_haruto_miyazaki
+    hide maya_calder
+    hide elias_rowe
+
+    scene bg ch11_e67f19_7 at full_bg
+    "You must decide how to weather the legal and political storm."
+
+    menu:
+        "Tell Elias you need time alone":
+            "You step back, pulling your hand from his. He watches you go with an unreadable expression—part hurt, part understanding—and folds his arms, ready to fight from the sidelines."
+        "Ask Elias to stand with you publicly, now":
+            "You turn back and grip his sleeve, pulling him toward the crowd. His eyes soften; he answers with a breathless nod and follows, visible and steady at your flank."
+        "Ask Elias to handle the mediation talks":
+            "You offer him a planner look, the work-mask on. Elias hesitates, then nods, taking responsibility with a small, weary smile that says he won't let you carry everything alone."
+
+    # --- merge ---
+
+    "The crowd waits. Lina's eyes find yours and narrow into a fierce point of trust. Mara Chen's recorder is poised like a scalpel. Mayor Amara's assistant texts" "Council prep in 35. Consider public posture."
+    # play sound "sfx_placeholder"  # [Sound: Heartbeat thud—thud—thud — the rhythm quickens as if the world is a drum counting down to fracture]
+    # play music "music_placeholder"  # [Music: Crescendo; then a jag of silence before the decision]
+    "You inhale, the compass weighing at your collarbone."
+
+    jump chapter12
+    return

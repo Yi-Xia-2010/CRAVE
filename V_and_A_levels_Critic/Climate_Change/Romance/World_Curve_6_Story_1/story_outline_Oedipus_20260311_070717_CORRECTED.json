@@ -1,0 +1,500 @@
+{
+  "title": "Tidelines of Nueva Mar",
+  "summary": "I narrate as Maya Corvin, a coastal systems engineer turned community organizer striving to protect my childhood neighborhood from an imposing corporate seawall. The story follows an Oedipus arc (Fall → Rise → Fall): we first fall into crisis as corporate timelines accelerate and a storm damages crucial defenses; we then achieve a fragile rise when a community-led hybrid plan gains traction and temporarily averts disaster; finally we fall again as the larger political and economic forces — and unavoidable climatic limits — force choices that cause cultural loss and personal rupture. Romance threads are central: Elias, a municipal planner, offers cautious policy routes and a possible shared future; Kai, a corporate lead, offers decisive engineering and a complicated intimacy that tests ideological lines. Secondary characters — Lio, Rafi, Dr. Sima, Mayor Velez — anchor stakes. The player’s choices determine whether the outcome is Happy (a negotiated hybrid succeeds), Bittersweet (partial preservation, personal distance), Sad (corporate solution overrides locals), or True (an uneasy compromise and ongoing vigilance). The narrative emphasizes sensory coastal details, the ethics of engineering, and the cost of compromise on love and community.",
+  "emotional_curve_type": "Oedipus arc (Fall → Rise → Fall)",
+  "player_character": "Maya Corvin",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt on My Tongue",
+      "branch_designation": "Common",
+      "narrative_focus": "I open with the smell of salt and diesel as I step across the Low Row’s terraced walkways, checking patched sandbags. A recent high-tide scraped at door thresholds; neighbors whispered about municipal timelines and a glossy corporate plan plastered on the news feeds. I describe my auburn hair with a loose braid threaded with shell and seed beads, my worn olive field jacket patched at the elbows, and the salvaged brass compass on its cord against my chest. I run through my life as a coastal systems engineer who came home, the neighborhood’s rooftop nurseries run by Rafi, and Lio’s spray-painted stencils. I confront the first hard fact: a corporate seawall proposal would wipe away a swath of wetlands and several old homes. Emotional tone is downcast but practical: I catalog damage, gather neighbors for an urgent meeting, and translate model readouts from Dr. Sima into plain language. I feel impatient; my sea-glass green eyes stung with salt and resolve. The chapter ends with a municipal bulletin promising expedited hearings and a corporate delegation arriving — a pressure I have to answer.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Corvin",
+        "Rafi",
+        "Lio",
+        "Dr. Sima",
+        "Neighbors"
+      ],
+      "locations_used": [
+        "Low Row",
+        "Rooftop Nursery",
+        "Community Center"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Meeting the Machine",
+      "branch_designation": "Common",
+      "narrative_focus": "I attend the municipal preliminary briefing at Nueva Mar Municipal Hall. The place feels cool and distant; its glass reflects the tide’s rumor. Mayor Ana Velez moves through the atrium with a composed, colorful scarf, flanked by municipal staff. Elias Kahn arrives in a slate-blue trench coat, amber eyes wary; his weathered field notebook clamps against his side. He quietly explains the political constraints: funding timelines, investor pressure, and legal indemnities that favor large-scale engineered solutions. I press about community-led proposals; Elias expresses sympathy but stresses consensus and risk aversion. The corporate delegation includes Kai Navarro, immaculate in a slate neoprene jacket, platinum bob sharp as a blade, and steel-gray eyes that measure me with clinical interest. We trade formalities; I taste the gulf between my worn linen and their modular suits. Rafi’s urgent calls pull me back to the Low Row’s realities: a weakened seawall, a leaking pump. I leave with a mixture of anger and a sliver of hope — Elias’s gaze lingers, and Kai’s confidence is unnerving. The chapter ends with me deciding to mobilize neighbors to demand time to present a community plan before construction begins.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Corvin",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Mayor Ana Velez",
+        "Rafi"
+      ],
+      "locations_used": [
+        "Nueva Mar Municipal Hall",
+        "Low Row"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Hearing (Logic Hub)",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The municipal hearing convenes at the Old Promenade’s temporary tent: half civic show, half media circuses. I stand at the podium with data summaries in my hands, my sea-glass green eyes hooded from long nights preparing charts, braid tucked under my jacket collar. The corporate projection shows a pristine seawall; Dr. Sima’s slides show modeled flood reductions from a scaled wall but also indicate severe wetland loss. I present an alternative: a hybrid plan combining targeted structural reinforcement with restored wetlands and managed retreat corridors. Elias testifies with cautious support, urging procedural compromise; Mayor Velez listens with composed restraint. Kai counters — speed is the moral choice against escalating storms. Tension spikes as a sudden storm rushes in, sirens in the distance; it feels like the city is holding its breath. My speech ends in a plea: “Let us pilot a neighborhood-first solution.” The board delays a decision but schedules an expedited vote. The chapter ends with a logistical scramble: do I push for a grassroots referendum, negotiate quietly through Elias, or accept Kai’s offer to develop a joint proposal?",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I pursue influence before the expedited vote?",
+        "options": [
+          {
+            "label": "Push the neighborhood referendum — mobilize public voices.",
+            "consequence": "Fast public pressure could stall the vote but risks polarizing opinion and alarming investors.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Work through Elias to negotiate a municipality-corporate compromise.",
+            "consequence": "Slow, procedural leverage with potential to integrate elements of our plan but risks dilution.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Meet Kai privately to explore a technical joint proposal.",
+            "consequence": "Dangerous proximity to corporate power and moral hazard, but may secure immediate protections.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Corvin",
+        "Dr. Sima",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Mayor Ana Velez",
+        "Neighbors"
+      ],
+      "locations_used": [
+        "Old Promenade",
+        "Temporary Hearing Tent"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "The Referendum Drive",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose to run the neighborhood referendum. The Low Row becomes frenetic: Rafi organizes canvasses, I stand on raised crates translating technical models into pamphlets, and Lio shoots mural videos that go viral. My auburn braid catches sun; my scuffed rubber boots pound the same patched streets I grew up on. The campaign is grassroots and raw: roof-top meetings in the Rooftop Nursery & Green Lab, citizens’ testimonies about oysters and family shrines, and frantic negotiations with local radio. Elias offers logistical help behind the scenes — a list of procedural filing steps and municipal contacts — but he’s careful not to be visible. Kai’s firm launches a glossy ad campaign promoting inevitability and safety. The referendum forces a public debate: angry, messy, inclusive. I feel fierce, hopeful, and exposed. For a moment we shift the narrative; Mayor Velez calls for a mediated workshop. Polls show rising support for our hybrid pilot. The chapter ends as I sit on the old promenade steps, wet and exhausted, as storm clouds scud; the referendum signatures fill a battered binder and the city’s decision clock ticks down.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Corvin",
+        "Rafi",
+        "Lio",
+        "Elias Kahn",
+        "Mayor Ana Velez",
+        "Kai Navarro"
+      ],
+      "locations_used": [
+        "Low Row",
+        "Rooftop Nursery & Green Lab",
+        "Old Promenade"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Workshop",
+      "branch_designation": "Route A",
+      "narrative_focus": "The mediated workshop convenes in a heated warehouse turned temporary tribunal. I stand side-by-side with Rafi and Dr. Sima; Elias moderates with careful language, wearing that same slate trench coat and an expression that wants to soothe collision. Kai arrives with a modular presentation and an offer: a scaled pilot that integrates marsh corridors into the seawall footprint — but only as an optional addendum that must be tested and could be removed later if “ineffective.” The discussion is technical, public, and painfully human: elders who fear losing houses, youth demanding climate justice, developers pushing fiscal timelines. I make an emotional appeal backed by data; Dr. Sima demonstrates ecological services from restored wetlands and models showing long-term resilience benefits. For a fleeting bright moment the room leans toward our hybrid compromise. Mayor Velez nods and recommends a conditional approval: a limited pilot and an independent monitoring board. The crowd cheers. My chest lifts with relief and attraction — Elias smiles unguardedly. The chapter ends with a celebratory, exhausted rooftop night where I and others believe we’ve won a temporary victory.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 6,
+      "characters_involved": [
+        "Maya Corvin",
+        "Rafi",
+        "Dr. Sima",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Mayor Ana Velez"
+      ],
+      "locations_used": [
+        "Heated Warehouse",
+        "Rooftop Nursery",
+        "Old Promenade"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The First Tide",
+      "branch_designation": "Route A (Ending: Happy / Bittersweet variant hints)",
+      "narrative_focus": "The pilot begins. We break ground at dawn: reclaimed wetland cells, living breakwaters grown from salvaged rock, and reinforced berms where necessary. The Rooftop Nursery supplies plants; Rafi’s crew moves like practiced ritualists. Dr. Sima monitors salinity and tide flows while I supervise field implementation, braid plastered with mud. The pilot holds through two high tides; it looks like proof that community-led designs can work. But a powerful extra-tropical cyclone forms offshore and beats at us with a ferocity beyond modeled parameters. The engineered pockets slow water but cannot hold for the storm’s peak; several older houses at the very margin are damaged and a cultural shrine is lost beneath surge. The municipal contingent rushes in to document losses; Kai’s corporate teams note “outliers” and accelerate a proposal to harden the entire sector. Elias is present, exhausted, and torn: he accepts a municipal post to shepherd long-term oversight that may take him away from grassroots work. I stand in a rain-slicked street, buoyed by small victories and gutted by the shrine’s loss. The pilot gave us leverage, but the storm revealed limits. The chapter concludes with a fragile hope: the hybrid is adopted with modifications; love and community carry new fissures.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 5",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 7,
+      "characters_involved": [
+        "Maya Corvin",
+        "Rafi",
+        "Dr. Sima",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Municipal Contingent"
+      ],
+      "locations_used": [
+        "Pilot Site (reclaimed wetland cells)",
+        "Rooftop Nursery",
+        "Old Promenade"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Quiet Negotiation",
+      "branch_designation": "Route B",
+      "narrative_focus": "I follow Elias’s slower, procedural path — working within municipal channels to shape the compromise. Elias acts as my conduit inside Municipal Hall: he shares memos, drafts amendments, and arranges monitoring language that could preserve wetland corridors. I attend closed-door meetings in the Hall’s polished rooms where coffee breathes between notes, and I watch Elias’s amber eyes navigate the corporate presentations with the care of someone balancing scales. He worries aloud about binding legal language; I pace the atrium, fingers worrying my trefoil tattoo, while he secures one clause, then another. Kai pressures with legal teams, offering funding conditional on strict performance metrics and limited oversight timelines. We craft language that requires an independent monitoring board and a two-year pilot phase. Publicly it feels like governance at its best; privately the process is glutenous with compromise. Neighborhood activists accuse me of co-option; Rafi criticizes the slow crawl. But when Mayor Velez publicly calls for the conditional pilot, it feels like a measured victory. The chapter ends as I sign the draft amendment with tremulous relief and the municipal clock moves us closer to implementation.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Corvin",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Mayor Ana Velez",
+        "Rafi"
+      ],
+      "locations_used": [
+        "Nueva Mar Municipal Hall",
+        "Conference Rooms"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Pressure Points (Logic Hub)",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "After the municipal amendment draft is released, external pressures mount: corporate investors threaten to withdraw funding if approval is delayed; a forecaster warns of an unusually strong seasonal surge; neighborhood activists demand a public referendum instead of bureaucratic toggles. Elias asks me to withhold public statements while he secures binding signatures; I feel my stubborn empathy rip against his caution. Kai privately offers an enhanced monitoring framework if we accept a timeline that cedes construction precedence to her firm — a tempting immediate protection with long-term caveats. I must choose strategy: push for a referendum to force a public vote, accept Elias’s careful bureaucratic sealing, or take Kai’s conditional expanded offer to fast-track structural works with limited guarantees. The stakes are visible on everyone's faces: Rafi’s hands tremble, Lio posts an angry mural, and Dr. Sima warns about overfitting to short-term data. The chapter ends on a decision point that will shape how quickly the city moves and who controls the terms.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which leeway do I accept under investor and storm pressure?",
+        "options": [
+          {
+            "label": "Force a public referendum.",
+            "consequence": "Direct democratic pressure might stall corporate timelines and force public accountability but risks immediate investor withdrawal.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Trust Elias and finalize the municipal amendment quietly.",
+            "consequence": "A procedural victory may embed safeguards but dilutes urgency and alienates radicals.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Accept Kai's conditional expanded monitoring to fast-track protective construction.",
+            "consequence": "Immediate physical protections arrive but at the cost of ceding long-term control to corporate timelines.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Corvin",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Rafi",
+        "Lio",
+        "Dr. Sima"
+      ],
+      "locations_used": [
+        "Municipal Corridors",
+        "Nueva Mar Municipal Hall"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Public Vote",
+      "branch_designation": "Route B (Ending: Sad / Bittersweet variant)",
+      "narrative_focus": "I push for the referendum under pressure. The campaign is vicious; corporate ads flood the feeds warning of immediate catastrophe without the seawall. Investor panic rattles Municipal Hall; Mayor Velez’s calendar tightens and the city’s coffers are publicly pored over. On voting day, turnout is high but the results are split: the public narrowly approves the corporate seawall, swayed by fear-laden messaging and economic anxieties. The construction begins rapidly; wetlands are cordoned off and heritage plots are sacrificed. My referendum exposed the stakes and forced public debate, but the outcome becomes a study in how fear drives policy. Elias is devastated and distances himself, taking a committee role that keeps him centralized but remote. Kai leads the construction with cold efficiency but occasionally shows a fleeting private softness when we cross paths: a porcelain pendant glimpsed, a momentary pause at an old mural. I watch crews lay concrete along a shoreline that once hosted nurseries and shrines. The chapter closes with the Low Row already changing shape — some residents relocate, others hold vigil — and my sense of loss crystallizes.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 10,
+      "characters_involved": [
+        "Maya Corvin",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Mayor Ana Velez",
+        "Lio",
+        "Rafi"
+      ],
+      "locations_used": [
+        "Low Row",
+        "Polling Stations",
+        "Municipal Hall",
+        "Construction Sites"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Kai’s Door",
+      "branch_designation": "Route C",
+      "narrative_focus": "I accept Kai’s invitation to discuss a technical joint proposal in a neutral field office at the Corporate Seawall Construction Site. The site is stark: cold steel, modular scaffolding, and overcast spray. Kai greets me: platinum bob sharp, slate neoprene jacket pristine despite the field, steel-gray eyes fixed. The meeting is technical and intimate; she offers an engineered hybrid that includes living corridors but requires a performance-mandated clause that allows removal if maintenance budgets fail. There’s personal friction: her tidy efficiency bumps against my stubborn empathy. She confesses a private seam — a porcelain pendant from childhood she keeps hidden — and for a breath we imagine mutual understanding. Elias is skeptical and warns of corporate capture. I must decide whether to trust Kai’s technical guarantees, to push for municipal co-ownership of monitoring, or to walk away and keep only grassroots pressure. The scene is taut with a charged intimacy — professional and personal lines blur. The chapter ends with Kai offering temporary, rapid protective measures in exchange for technical integration rights.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Corvin",
+        "Kai Navarro",
+        "Elias Kahn"
+      ],
+      "locations_used": [
+        "Corporate Seawall Construction Site",
+        "Field Office"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Convergence (Logic Hub)",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "After meeting Kai, I arrange a tri-party convergence: community representatives, municipal planners (Elias included), and Kai’s corporate engineers meet at a neutral warehouse neighboring the Rooftop Nursery. The air is dense and voices fray into technical jargon and moral appeals. Dr. Sima’s charts sit beside Kai’s drones’ mapping prints; Rafi speaks for livelihoods and Lio projects murals behind us. Elias tries to hold processes together, wearing fatigue like a second skin. Kai offers a bold engineering-first timeline with integrated corridors but insists on a contractual performance clause; I counter with shared governance and binding community seats on oversight. Emotions surge when an elder recounts a childhood festival lost to earlier reclamation — the room’s warmth cracks into heated ethical argument. The choice now is sharp: accept Kai’s fast-track with strict oversight mechanisms, accept a municipally mediated compromise that delays construction and preserves greater autonomy, or withdraw and push for a fully community-led pilot that may fail without broader resources. The chapter culminates in a decision that will determine who controls the coastline’s future.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I resolve the tri-party talks to secure the best outcome for the Low Row?",
+        "options": [
+          {
+            "label": "Accept Kai’s fast-track with enforced oversight clauses.",
+            "consequence": "Rapid protections with technical monitoring but risk of corporate control if clauses are renegotiated.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Push for an expanded municipal-coordinated compromise.",
+            "consequence": "Slower, legally bounded protections with shared governance and possible dilution.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Withdraw and devote all resources to a community-only pilot.",
+            "consequence": "Purely local control but far less funding and higher exposure to extreme events.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Corvin",
+        "Kai Navarro",
+        "Elias Kahn",
+        "Dr. Sima",
+        "Rafi",
+        "Lio",
+        "Community Representatives"
+      ],
+      "locations_used": [
+        "Neutral Warehouse",
+        "Rooftop Nursery (adjacent)"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Fast Tracks and Fissures",
+      "branch_designation": "Route C (Ending: Bittersweet / Sad variant)",
+      "narrative_focus": "I accept Kai’s fast-track with oversight clauses. Construction accelerates; sensors and drones pepper the shoreline, and prefabricated modules rise in days where we could not imagine progress before. The immediate threat recedes as structural defenses go up. For a while the Low Row breathes. But corporate contractual language contains escape clauses and performance triggers that favor investor timelines. As months pass, Kai’s team adjusts modules and excises some wetland corridors deemed “nonperforming” under stress tests. The municipal oversight board includes community seats, but budgetary leverage and corporate legal maneuvers hollow out some protections. Elias works within the board to maintain standards while being pulled into administrative constraints. A cultural plaza I had pushed to preserve is partially demolished to make way for a marine access point. Romance with Kai remains a complicated undertow — private dinners and shared intellectual respect, but an ethical gulf that never closes. The chapter closes with the seawall partially complete: the city gains measurable safety, but the Low Row loses intangible anchorage. My stubborn empathy is both vindicated and betrayed.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 13,
+      "characters_involved": [
+        "Maya Corvin",
+        "Kai Navarro",
+        "Elias Kahn",
+        "Rafi",
+        "Lio"
+      ],
+      "locations_used": [
+        "Construction Site",
+        "New Seawall Area",
+        "Cultural Plaza"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "The Aftermath (Route B / C cross-reference)",
+      "branch_designation": "Additional Endings (Bittersweet/Sad hybrid)",
+      "narrative_focus": "The construction’s immediate protections hold during a significant surge, saving critical infrastructure and many lives; the city lauds the engineering success. But the Low Row continues to endure loss: homes, small businesses, and cultural spaces are reduced. Lio organizes memorial murals while Rafi runs displaced-person relief. Elias remains in a municipal oversight role, devoted but increasingly estranged; his amber eyes show fatigue and compromise. Kai’s efficiency is praised publicly and quietly criticized; in private she reveals evidence of internal dissent — a strike among on-site engineers who feel rushed. I stand on the new promenade, trefoil tattoo press against the chill, and face the paradox: safety at measurable cost. My relationship with Elias frays: he accepts a role that takes him away from grassroots organizing, and we drift. With Kai, the closeness is transactional and uneven. The narrative ends in quiet grief and hard-won survival: the neighborhood survives physically but is remade, and I accept that vigilance must continue as a daily labor.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 8, Option C OR Chapter 12, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Maya Corvin",
+        "Lio",
+        "Rafi",
+        "Elias Kahn",
+        "Kai Navarro"
+      ],
+      "locations_used": [
+        "New Promenade",
+        "Low Row",
+        "Temporary Fences and Relief Centers"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "The Municipal Middle Way",
+      "branch_designation": "Route C (Ending: True)",
+      "narrative_focus": "I push for a municipal-coordinated compromise with binding governance and expanded rights for community oversight. Construction proceeds more slowly under strict legal frameworks and a funded independent board that includes community, municipal, and technical seats. The process is messy and protracted: budget negotiations, scientific validation, and repeated audits. The city preserves significant wetland corridors and mitigates worst-case surges, but sacrifices still occur — several small heritage sites are repurposed into adaptive public spaces rather than demolished. Elias remains central, taking a municipal post to shepherd the long-term program; our relationship transforms into a partnership of shared activism and bureaucratic compromise rather than pure frontline love. Kai remains as a contractor but is legally constrained; we have occasional moments of mutual respect and private friction. The ending feels neither triumph nor collapse: the neighborhood survives in altered form, and I learn that stewardship is ongoing. I keep organizing, keep measuring, keep loving in a new rhythm.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Maya Corvin",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Dr. Sima",
+        "Rafi",
+        "Lio"
+      ],
+      "locations_used": [
+        "Construction Sites",
+        "Municipal Offices",
+        "Rooftop Nursery",
+        "Adaptive Public Spaces"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Vigil and Tide",
+      "branch_designation": "Additional Epilogue (True/Bittersweet synthesis)",
+      "narrative_focus": "The epilogue shows the long horizon: the Low Row endures as a remade community, with a hybrid coastline that sometimes falters and must be adjusted. I narrate years later: rooftop gardens supply market stalls; sensors tweet real-time tidal data to neighborhood feeds; the independent board holds quarterly hearings; Lio’s murals cycle like seasons; Rafi teaches young volunteers to graft sedges for living breakwaters. Elias’s municipal responsibilities keep him traveling, but our partnership is steady in an altered cadence. Kai occasionally consults, and there is an uneasy respect between us. I reflect on what the city paid and what we preserved: the experience forged new governance norms, and my stubborn empathy learned to share agency. The final mood is tempered grief and sustained vigilance: we did not win a perfect preservation nor were we utterly defeated. I close with the image of my hand on the salvaged brass compass, looking at a shoreline that will always keep us busy, and at a love that survived as an imperfect, durable practice.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 14",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Corvin",
+        "Elias Kahn",
+        "Kai Navarro",
+        "Rafi",
+        "Lio"
+      ],
+      "locations_used": [
+        "Rooftop Nursery",
+        "Reworked Promenade",
+        "Market Stalls",
+        "Independent Board Hearings"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "World view: Nueva Mar is a near-future coastal city-state built on reclaimed wetlands and cliffside terraces. Politics tension between corporate engineering firms and neighborhood cooperatives; sensory coastal details and ethics of engineering drive the narrative. Branching logic present at Chapters 3, 8, and 11 leading into Routes A (referendum/pilot), B (municipal negotiation/public vote), and C (corporate collaboration/fast-track), producing multiple endings (Happy/Bittersweet, Sad/Bittersweet, True).",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 07:07:18"
+}

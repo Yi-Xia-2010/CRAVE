@@ -1,0 +1,192 @@
+### SCRIPT
+# Route: Route A / Ending
+# Context: 601bcb
+
+[Scene: Harborfront Lane | Mid-morning, six months later]
+[Background:"ch6_601bcb_1"]
+[Sound: Distant pile-driver thudding in rhythm, a diesel engine idling, gulls arguing over a dead fish]
+[Music: Low, mournful strings; a slow, insistent percussion underlines each mechanical strike]
+
+You step onto the elevated boardwalk and the smell hits you first: fresh-cut timber under a skin of diesel and wet tar, the bright tang of paint still curing. The old boardwalk's familiar spring has been replaced by a deliberate, engineered stiffness. Where children once dashed between lampposts, temporary safety rails click into place and foremen in bright vests speak into radios that make their words sound like commands before they are human.
+
+You hold your notebook against your chest like a talisman. Your thumb presses the bronze pendant beneath your shirt — a small, warm weight that reminds you of the night you chose this path. You remember Cass's hand sliding the stylus across the amendment tablet, the soft glow of the funding total. You remember your signature, the fulcrum from which everything that follows tipped.
+
+Cass Adler: "This pilot is proof that thoughtful design and local knowledge can coexist. We've hired—" (they gestures toward the crews) "—over fifty members of this town. We've elevated the boardwalk, installed living-shoreline strips, and started to future-proof Harborfront."
+
+You watch the crowd. There are faces bright at paychecks arriving on time, at rent covered for the month, at work boots returned to the fields and docks. There are also faces you know too well: old fishermen with hands like gnarled oars, women who run catering out of their garages and children with hair plastered to foreheads from humidity. Some applaud because survival is urgent. Some applaud because they can't imagine the other options.
+
+Mayor Jonah Cruz [from the side]: "It's not perfect, but it's something we can point to. We needed funding. We needed workers back on the payroll."
+
+Eli Navarro [quiet, not to Cass]: "You did what you thought would save us. But did we sell more than we knew, Maya?"
+
+Maya Rios [You]: "I thought I could steer it. I thought… that access could change the design from the inside."
+
+Eli Navarro: "Access is a kind of permission. I know that. But permission can become a lease."
+
+Cass finishes and steps down to answer questions, smooth and practiced when the press pushes. Jonah claps too loudly, almost apologetic, while a few community members press forward to ask where old docks will be, how long the easements last, who will decide on shoreline plantings next season.
+
+Cass Adler [to a reporter]: "All decisions will be made in partnership with the community trust we’re establishing. The pilings will protect against episodic surges—"
+
+Rosa Alvarez (from the crowd): "Who sits on this trust? And what about the little docks? Those planks have been in my family's hands for a hundred years."
+
+Cass's blue eyes flick briefly to you—measured, then back to the crowd.
+
+Cass Adler: "We prefer to characterize these as necessary infrastructure improvements. Some structures need to be reconfigured for long-term resilience."
+
+Your stomach drops at the word "reconfigured." It tastes like a small, saltless stone under your tongue.
+
+[Background:"ch6_601bcb_2"]
+[Sound: The rasp of measuring tape, a jackhammer grinding somewhere beyond a curve of sand]
+[Music: The strings undercut with a single, high, unresolved note]
+
+You walk down the temporary access ramp and find yourself at the edge of a worksite. A foreman — late thirties, stubby beard, a hard, quick laugh — looks up and meets your eyes. His face softens the moment he recognizes you; there is gratitude there, plain as an honest coin.
+
+Foreman: "We're hiring, Maya. Folks need paychecks. This crew? Maria’s boy used to fish with Eli. He’s on an hourly now. It's keeping people fed."
+
+You want to hold that gratitude like an ember. It is tangible; a child's stomach is full. But when your eyes slide to the spray-painted X on the next dock, you feel an ache like a pit in your chest.
+
+[INTERACTION]
+> Choice A: "Walk the old docks and inspect the mark-ups"
+> Choice B: "Talk to the new hires about what this job means"
+[Outcome A: "You move closer to the spray-painted X, fingers tracing the grain of weathered wood. The dock smells of varnish and old smoke; you memorize the way the boards yield. A foreman calls after you, warning about safety, but you stay until the surveyor's tape glints in the sun, imagining the local hands that have nursed these planks through worse storms."]
+[Outcome B: "You cross to the crew huddled beside a pallet of pilings. A young man named Luis tells you how his rent was behind; his voice breaks when he says the money means his daughter can eat. You press your palm to his shoulder and say nothing for a long, complicated second. The gratitude is immediate and human; your compromise looks different close-up."]
+[MERGE: You can't step into both places at once. Each choice reshuffles the ledger in your mind: livelihoods on one side, traditions on the other.]
+
+[Scene: Harborfront Lane — Later, office meeting trailer behind the construction site | Afternoon]
+[Background:"ch6_601bcb_3"]
+[Sound: The hum of a portable heater, rain beginning to bead on the trailer roof]
+[Music: A low cello line; melancholy and steady]
+
+Cass slides a printed packet across the table. The amendment you signed months ago lives in these clauses — living-shoreline strips, elevated boardwalks, and then the legal paragraph you read again and again, the one about "long-term easements and trust-held decision-making."
+
+Cass Adler: "The easements are meant to ensure longevity. If the town can't maintain the infrastructure, Aquila's trust will. It's protective."
+
+Maya Rios [You]: "Protective for whom? If the trust gets final say, what happens when we disagree about non-engineering things? Harvest schedules, dock placements, the little rituals that aren't on a resilience checklist?"
+
+Cass's jaw tightens, a micro-expression that betrays the cool façade.
+
+Cass Adler: "Those are governance questions. We can include community representation. We can draw boundaries."
+
+Eli Navarro enters now with the bluntness of someone who cannot afford equivocation.
+
+Eli Navarro: "You put 'trust-held decision-making' in ink that lasts longer than any of us will. It's not governance if Aquila's firm has the legal leverage to override local practices when they touch on liability."
+
+Cass's reply is careful, the voice of someone who has made a career out of choosing words that keep options open.
+
+Cass Adler: "I'm not trying to erase anyone's life. I mean—Jonah and I agreed a council seat for community leaders would be embedded."
+
+Mayor Jonah Cruz: "Listen: the funding's here, and there's a legal reality. If you want clauses undone, there's a negotiation path, but it may mean risking the pilot entirely. We weighed that. You weighed that."
+
+Eli Navarro: "You weighed it with a calculator and a model that doesn't count the smell of smoked fish in the morning. You made a bet with the town's future, Maya."
+
+The sentence lands like a thrown stone. You open your mouth, searching for the words that will not make the stone heavier.
+
+Maya Rios [You]: "I made a bet because I thought I could steer the keel as it turned. I thought having a seat would buy us time to keep the small things intact."
+
+Eli Navarro: "And now? Now the machinery's tamping mudflats and the biologists we trust are reporting drops in invertebrate counts. The living-shoreline strips are fine in diagrams, but the heavy gear's compacting the flats. Some species are gone from places they used to be."
+
+You close your eyes and remember the tally of reports, the early-season dives where juvenile crabs were fewer than last year, the sound of mud sloughing differently under your boot. Science is patient and cumulative; the graphs do not flatter. The pilot's initial months show steady employment and fewer episodic surge breaches, but an ecological ledger begins to redline.
+
+Cass Adler [quiet, an attempt at intimacy]: "We can adapt the engineering. We can bring in the biologists to rework the compaction schedules."
+
+Eli Navarro: "Adapt after we've already flattened the nursery grounds? That's not stewardship. That's damage control after the deed."
+
+Cass swallows. Their eyes, cool blue, flash something unguarded—regret, perhaps, or the dawning measurement of a cost their models didn't quantify: the living texture of a town's daily life.
+
+[INTERACTION]
+> Choice A: "Confront Cass about the easements in front of the crew"
+> Choice B: "Pull Eli aside and speak quietly about a plan to monitor ecological damage"
+[Outcome A: "You rise and stand with a steadiness that feels unfamiliar. You ask Cass directly about the easements, about who will hold the pen when the boardwalk needs a small fix that matters more to a family than to flood models. Cass answers, measured, promising compromise. The crew listens, divided; some look at you with tentative hope, others with wary suspicion, as if your words might bend the world back."]
+[Outcome B: "You pinch the bridge of your nose and step aside with Eli. You sketch a monitoring plan on the back of your packet—shift schedules so heavy machinery avoids key invertebrate seasons, bring in citizen scientists from the school. Eli listens. His features soften when you talk about the monitoring; he nods to a strategy that sounds like the old ways with a new backbone. It won't stop the easements, but it might slow the erosion."]
+[MERGE: Both choices are small pivots—workarounds in a world already set in motion. Neither undoes the lines of the contract.]
+
+[Scene: Night — The boardwalk near the oldest cluster of small docks | Late evening]
+[Background:"ch6_601bcb_4"]
+[Sound: A winch groaning, water lapping with a new cadence against freshly driven pilings]
+[Music: Sparse piano, single notes hanging like questions]
+
+You come alone, though you know Eli is close behind. The air tastes of salt, cold and sharp. The dock where your grandmother once told you that the sea keeps its own counsel is marked with a caution tape and a pale rectangle where a plaque used to be. The plaque had names. Some names are gone now, beneath piles of new pilings and engineered geometry that has its own logic and no sense of memory.
+
+Eli stands with his hands in his pockets, watching a crane lift a plank. There's a fury in him that is both personal and municipal. When he turns to you, his eyes are rainfall—steady, wet, and unrelenting.
+
+Eli Navarro: "You said you'd keep us in. You said you'd be the brake."
+
+Maya Rios [You]: "I tried. I sat at tables I hated, I argued clauses into softer language, I got them to fund local hires. I did the thing I thought would help the most people survive."
+
+Eli Navarro: "And we are surviving. But not in the same town. You traded a shape for a promise."
+
+You don't look away. The pendant is cold now, the bronze heavy and honest.
+
+Maya Rios [You]: "I traded something for other things, yes. I traded the purity of resistance for the mess of compromise. I thought—maybe naively—that compromise could be surgical, that I could carve out the parts worth saving."
+
+Eli's mouth twists. He's not angry only at you; he's angry at the ledger life has forced him to trust. His voice softens when he says your name.
+
+Eli Navarro: "I know you. You always carry more of the town in your pockets than any of us probably should. But this—this felt like a sale without a receipt."
+
+Maya Rios [You]: "Then ask for your receipt. Hold me to account. But don't pretend I didn't try to steer. I made a choice. It's on me as much as anyone."
+
+He looks away first, out over the dark marsh where lights from machinery make the horizon a false dawn.
+
+Eli Navarro: "I don't know if keeping you is the same as keeping what the town was."
+
+You feel the fracture like a draft under a door. It is real, widening at the edges with every new pilaster driven into the mud.
+
+Maya Rios [You]: "I don't know either. But I won't leave the marsh to be reimagined without the people who know it. I'll keep pushing, even from here."
+
+His laugh is a small, broken thing.
+
+Eli Navarro: "Pushing from here might not stop the things already signed. It might just be…a gentler erosion."
+
+Maya Rios [You]: "Gentle doesn't feel like enough. I know. But it's the work I choose now."
+
+[Background:"ch6_601bcb_5"]
+[Sound: A gull cries once, long and plaintive]
+[Music: The strings compress into one, descending phrase]
+
+You fold the notebook shut and press your palm to the worn leather. It is a daily ledger and now a promise of small, stubborn fights ahead. The pilot brought roads to people's wages and a model for insurance. It also brought legal instruments that will take years to unwind and a physical remapping of shoreline that altered habitats you cannot fully restore.
+
+You walk the line between what you saved and what you lost. The victory you negotiated is real—houses no longer sit under immediate threat, and some families sleep without the fear of that sudden, hungry tide. But the loss sits beside that small victory like a salt-bleached bone.
+
+Eli's hand finds yours for a moment at the railing. It is not the tentative touch from months ago; it is an arm's length of a different intimacy, the kind that recognizes shared history and separate grief.
+
+Eli Navarro: "We'll keep watching the marsh. We'll fight the parts we can. But I can't promise I'll pretend everything tastes good."
+
+Maya Rios [You]: "I wouldn't want you to. Taste is important. Tell me when something is ash."
+
+He squeezes your hand once and releases it, not a reconciliation so much as an agreement to continue bearing the same wound together, or apart.
+
+[Background:"ch6_601bcb_6"]
+[Sound: The slower, farther beat of machinery winding down; a chorus of voices receding]
+[Music: The strings resolve into a quiet, elegiac chord that does not resolve fully—an acceptance folded into sorrow]
+
+You stand at the edge of the reformed shore and watch the lights blink on in houses you helped save. You also watch as a small dock, marked for removal, is dismantled plank by plank. The wood gives with a sound like a tired sigh. An old man from the crowd walks up and lays a hand on the last plank, whispering a name you don't catch. The moment is private and enormous.
+
+You think of your grandmother's hands, of the morning she taught you to check for moon crabs under overturned shells, of the smell of stew thickening on winter afternoons. You think of signatures and clauses and the small arithmetic of compromise. You think of the kids who now have jobs and the oysters that will have to be resited and the species whose counts have dipped in a graph that won't tell anyone about grief.
+
+Maya Rios [You, inward]: "I did what I thought would save us. I did what felt like the maximum of possible good within impossible bounds."
+
+You do not know if that will be enough. You do not know if the town will remember you as one who saved or one who sold. Both are already true, braided into a single, contradictory rope.
+
+[Background:"ch6_601bcb_7"]
+[Sound: The tide murmurs; a distant siren folds into the night]
+[Music: The chord winds down to a single sustained note and then fades]
+
+You turn away from the demolition and walk back toward the stretch of the boardwalk you helped elevate. The lights guide you. You carry a ledger of compromises now: paychecks, clauses, a legal trust, a smaller but safer skyline. You also carry the shape of what was lost — planks, rituals, the unmeasured days that made this place home.
+
+There is no triumphant chord, no clean closure. There is, instead, a slow acceptance: the awareness that some victories bear the scent of ash, and that survival sometimes requires trade-offs that will sit on your chest for years. You will keep measuring the marsh, bring citizens to count the crabs, argue at council meetings, and sleep in fits. You will keep trying, imperfectly.
+
+You breathe, and the breath fogs in the cooling air. The town will continue to rebuild its rhythms around new pilings and old songs. People will adapt. Some things will return in different forms; some will remain memories you carry like collected shells.
+
+[Background:"ch6_601bcb_8"]
+[Music: Fade out]
+
+[Background:"ch6_601bcb_9"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

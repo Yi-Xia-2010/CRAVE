@@ -1,0 +1,219 @@
+### SCRIPT
+# Route: Additional
+# Context: Start
+
+[Scene: Greyhaven Harbor | Morning — Low Tide]
+[Background:"ch1_Start_1"]
+[Music: Sparse piano, low and slow; distant gull calls woven under the melody]
+[Sound: Wind through rigging; slow drip of seawater from a rope; a gull cries]
+
+You step off the bus and the town takes you in like an old wound — familiar, weathered, reluctant to heal. The air tastes of iron and old paint. Wet cobbles darken beneath your boots, each step a small, stubborn proof that somewhere you belong and that everything here has been softened and sharpened by salt.
+
+Your hand finds the brass compass at your throat before your brain does. It is cool from the morning air, the leather thong rough against your palm. The tiny arrow inside quivers minutely as if remembering currents rather than true north. You press it, a private ritual; your father’s handwriting on the back edge of the brass is mostly worn away, but the weight of it is unambiguous.
+
+You have your lab apron slung loosely over one shoulder — faded turquoise, pockets full of habit more than tools. It smells faintly of the antiseptic from the last lab and the faint salt of the ferry. Your hair is tied back in the low knot you make when you mean business, when you don’t want it to betray you in wind or grief.
+
+Jonah is easier to find than you expected. He stands at the edge of the pier with his back to the bay, hands tucked in the pockets of a coat that has seen too many winters. He is a patina of lines and stories, his jaw a map of storms. When he turns, his grin splits the weather — warm and ridiculous and certain.
+
+Jonah Merrick: "Well I'll be damned. If it isn't Isla Morgan come back to haunt us."
+
+You let a smile come, accidental and small. You have practised this greeting for months and it lands with a brittle ease.
+
+Isla Morgan: "I thought Greyhaven might miss me eventually."
+
+Jonah Merrick: "Missed you like a hole in a net. Come here, girl. Tell me you're not bringing some fancy city habit you picked up. We have no use for that."
+
+He reaches out with both hands, palm callused, and raps the compass lightly on your knuckles as if to confirm the story inside it. The touch is steady; it grounds you.
+
+Isla Morgan: "Only habits that work. And maybe a few I haven't learned to let go of yet."
+
+Jonah's eyes soften. He nods toward the mouth of the harbor. Tide marks on the pilings look like layered teeth; a small cluster of low clouds hangs on the horizon like unpaid bills.
+
+Jonah Merrick: "Last big tide came in two years back like a hand with no warning. Took old Ned's boat and a shed. Remember that—how the water just decided it knew better?"
+
+Isla Morgan: "I remember. That night I—"
+you taste the memory before the words
+Isla Morgan: "I couldn't do anything from the mainland. I watched the siren feed. I felt like an idiot with instruments and no hands."
+
+Jonah Merrick [low]: "You did what you could. You came back. That's something."
+
+He looks at you like he’s weighing meaning the way one weighs fish: with a practiced, patient method. The harbor breathes around you, a slow, resigned inhalation.
+
+[Sound: A gust of wind lifts a scrap of council paper and slaps it against a lamppost]
+
+Jonah nods to the flapping paper. You read the headline from the angle Jonah's offered: Council Considers Mixed-Use Development; Major Investment for Greyhaven. Aria Chen’s name is featured in the subhead, precise and small like a pin-prick.
+
+Isla Morgan: "Aria's name is already on the paper."
+
+Jonah Merrick: "Her name's a magnet these days. Folks think money solves things. Money's a blunt instrument."
+
+You close your hand around the compass. The brass warms against your palm and you let your thumb worry the engraved wave pattern until the edges are smooth.
+
+[INTERACTION]
+> Choice A: "Ask Jonah what people are saying"
+> Choice B: "Keep walking toward the lab"
+[Outcome A: Isla Morgan tilts her head toward the paper. Jonah rubs his thumb against the headline, then shrugs—he's a librarian of the town's gossip but careful with editions.]
+[Outcome B: Isla Morgan tucks the paper into her apron and walks on. Jonah calls after her, but the harbor has a different kind of silence when she's thinking about tides.]
+[MERGE: Continue]
+
+Jonah Merrick: "People talk like a storm is just a thing that happens to others. Some want the jobs Aria's plans promise, others say the price will be the estuary. That's the rub. You know that better than most."
+
+Isla Morgan: "If the breakwaters are wrong, the flats will change and the fish routes could—"
+
+Jonah Merrick: "You see it in your head. That's why they want you at Tidewatch."
+
+His confidence is a small, dangerous anchor. You hold it and feel the pull of responsibility right away — heavier than the compass, almost equal to the memory of the man who taught you to read currents by the way gulls changed their flight.
+
+[Scene: Harbor Pier | Mid-Morning]
+[Background:"ch1_Start_2"]
+[Music: A hesitant guitar line under the piano; more human, less mournful]
+[Sound: Distant hammering, the clink of tools; a soft chuckle from Luca]
+
+You round the corner and almost walk into someone. Luca heads up from the lower deck, wiping his hands on a rag. Sun-bleached curls have escaped the attempt to look orderly; his smile is too quick to be casual. There's an dirt-smudge on his cheek and a set of metal multitools at his belt.
+
+Luca Moreno: "Hey—watch it, scientist. Your boots are louder than you look."
+
+Isla Morgan: "I could say the same about your sense of timing."
+
+He laughs, and it loosens something in your ribs for a second. There's an easy warmth to him that sits wrong with the way the papers bill Aria's plan as salvation.
+
+Luca Moreno: "You're back. Thought maybe we'd lost you to city lights. How's the fellowship life treating you?"
+
+Isla Morgan: "It taught me polite ways to say 'the coastline is changing' at conferences. I missed the smell of this place."
+
+Luca shifts, more serious. He gestures toward the council paper Jonah folded into his back pocket when he thought you weren't looking.
+
+Luca Moreno: "Aria's pushing that development through. Council's meeting soon. People are split. I'm organizing a workshop next week — living breakwaters, community builds. Might be the town needs show-and-tell more than glossy plans."
+
+Isla Morgan: "Living breakwaters can work, if they're designed with the right sediment dynamics. If done wrong, they trap the wrong currents."
+
+Luca leans in, face earnest.
+
+Luca Moreno: "I don't doubt you. That's why I came down with a truck of reclaimed timber and a couple interns this morning. We've got designs and hands. We could use someone with your maps."
+
+Isla Morgan: (a pause, measuring) "We could use more than a truck. We need data — long-term flow models and community buy-in. And we need to prove to people that it's not some charity project."
+
+Luca Moreno [grinning]: "So you'll lecture, then? Because people love lectures."
+
+Isla Morgan: "No. I'll design. I'll present numbers. But I'll need you to make it feel real."
+
+Luca's smile falters; a shadow passes over his brow as though the sun itself hesitates.
+
+Luca Moreno: "Look, I don't promise miracles. I promise we'll try. And if you need me—I mean—I'm around."
+
+His voice is softer, more complicated than his smile. It threads between optimism and an almost visible risk. There's an urgency in him that you recognize: the compulsion to fix things with your hands before you've had time to measure what exactly needs fixing.
+
+Luca Moreno: "Listen—there's a meeting at town hall tonight. Aria’ll be there, and she'll have charts that shine. I was thinking—maybe you should come."
+
+Isla Morgan: "I will. But I want to have something to say that isn't just fear."
+
+Luca nods. "Bring the fear anyway. People respect honesty, especially in small doses."
+
+Your conversation stretches. You talk about tide gauges and the old nets Jonah keeps in his shed; you trade a story about a student who mistook a sea star for a new species (Luca still laughs at that). Every laugh is threaded with the knowledge that beneath the banter sits politics and money and a shoreline that will not stop moving because people vote for something different.
+
+[Scene: Tidewatch Lab | Late Morning]
+[Background:"ch1_Start_3"]
+[Sound: Hum of refrigeration; the soft clack of a pen on vellum]
+[Music: Low strings; tension tightening]
+
+Tidewatch is both sanctuary and instrument. Maps pinned against damp beams span the wall like bruised constellations. Brass instruments — some polished, some tarnished — sit in deliberate rows. Glass beakers catch the light and throw it back as faint, salted rainbows.
+
+You set your compass on the bench and lay the lab apron across a stool. The apron smells of solvents and something deeply domestic: the idea of coming home to work. Your fingers find the pencil tucked into the apron seam and you begin to sketch, not because the world will wait for tidy diagrams but because drawing steadies you.
+
+Isla Morgan [thinking]: "Maps are for making claims. Claims are how we keep each other safe. If I can make this clear, maybe fewer people will have to choose between bread and bank accounts and their front steps."
+
+Your hand moves over a blank page and the shorelines bloom in rough graphite. You measure imagined waves with the same care your father taught you to measure the gap between boat and dock. He is absence like a tide: not gone so much as present in the way the sea remembers moonlight.
+
+You pick up a vial: a fine sample of marsh sediment that slotted into your last fellowship report. The sediment smells like old summer and crushed shells. You roll it between your fingers to test texture, hoping texture will tell you something simple enough for council members to understand and loud enough to drown out optimism sold in glossy brochures.
+
+Footsteps pause at the lab doorway. You look up to see Jonah, leaning in, then Luca behind him holding a stack of weathered timber samples and an earnest, impractical grin.
+
+Jonah Merrick [quietly, as if at a graveside]: "You ever get the feeling the town's heartbeat has changed? It's not stronger. It's faster. Like it's working harder to stay the same."
+
+Isla Morgan: "It’s adapting. Or it's trying to and getting tired."
+
+Jonah Merrick: "Have to decide what to carry with us. Can't take the whole sea inside."
+
+Isla Morgan: "No. But we can shape where it goes."
+
+Luca sets the timber down and rubs his hands together like he's warming them from cold and something else — perhaps the idea that work can be enough.
+
+Luca Moreno: "We can do a pilot. Small. Show how reefs can redirect sediment, slow the waves. A demonstration beats a thousand charts."
+
+Isla Morgan: "A pilot takes time. It takes monitoring, permits, community consent. It takes trust and funding. It takes—"
+your voice tightens
+Isla Morgan: "—people who will stand by me when things go wrong."
+
+Luca's gaze flicks to Jonah, who shrugs with a half-smile that is both apology and challenge.
+
+Jonah Merrick: "If you're the one asking people to get their hands wet, they'll look to you. We'll follow you if you lead where the net doesn't tear."
+
+You feel the pressure of his faith like a hand at the small of your back. It steadies and it bends; it is both a privilege and a responsibility you did not entirely choose. The town is not a dataset. It is a chorus of debts and small mercies, debts you owe to the dead and to the living.
+
+[INTERACTION]
+> Choice A: "Map out a conservative pilot you can defend in council"
+> Choice B: "Push for an ambitious demonstration to draw attention"
+[Outcome A: Isla Morgan leans over the table, marking a small arc on the map where the pilot could be low-cost and visible. Your lines are cautious, designed to survive scrutiny.]
+[Outcome B: Isla Morgan sketches a bolder silhouette: a larger breakwater, a statement. Your hand is steadier on the daring lines, but your chest tightens at the thought of consequences.]
+[MERGE: Continue]
+
+Isla Morgan [thinking]: "This town is stitched of people who cannot afford mistakes. But it's also stitched of people who need to know something is being fought for."
+
+Somewhere along the conversation, a council messenger moves through the harbor with folded papers — official, urgent. The lab's old radio crackles to life for a moment; a voice — too polished — announces Aria Chen's name as someone who has 'a plan for sustainable investment.' The word 'sustainable' feels like a polished shell to which no one has yet checked the mollusk.
+
+Isla Morgan: "Aria's plan will sound attractive. Money is sound and certain to ears that have been listening for so long. But certainty can be the most dangerous thing for a shoreline."
+
+Luca Moreno [brows furrowing]: "She's persuasive. People like to have someone to point at who seems to know how to fix it all. We have to be clearer, Isla. We need numbers and pictures and a story they can trust."
+
+Isla Morgan: "And we need to remember that a story without evidence is just hope wearing a suit."
+
+There is no easy laughter in that sentence. It lands and hangs.
+
+Jonah Merrick: "You'll make it plain. You always do."
+
+The lab smells of coffee gone cold and the sea. There is a kind of grief in the room that is not only yours; it is communal, a slow accretion of small losses and the necessity of new measures. You fold your hands over the compass until the metal warms and the arrow stills.
+
+Isla Morgan [thinking]: "Design living defenses. Honor fisheries. Protect people. Three clauses of a promise that might not fit together neatly, but which you will try to stitch."
+
+[Background:"ch1_Start_4"]
+[Music: A single, low cello note sustains and fades]
+
+You rise, apron rustling, maps under your arm. Outside the windows, the town moves on — vendors setting out nets, a child running past with a kite that dips like a gull. The council's poster by the town hall shows a rendered skyline that gleams like a coin; Aria's name is there, confident and crisp. You feel the town's breath on your neck — a mixture of expectation and resignation.
+
+Luca falls into step beside you as you walk back to the pier. His presence is easy, familiar, but there is an implied timeline now: meetings, votes, demonstrations, models to run before the next tide comes with different intentions.
+
+Luca Moreno [soft]: "Come by the workshop. Even if it's just to be a scarecrow for our ideas."
+
+Isla Morgan [small, tired smile]: "I'll be there. Scarecrow duty has been known to influence policy in rural towns."
+
+Luca's laugh is brief; then he grows serious. "If you need help tonight—knocking doors, talking to people—I'll be there."
+
+Isla Morgan: "I'll do the numbers. You do the hands. And Jonah keeps everyone honest."
+
+Jonah Merrick: "And I'll keep telling tales that make sense of the water. People need to remember why the town matters."
+
+There is a line of salt on your lip that you lick away without thinking. It tastes like what you've lost and what you might still hold. The pilot, the models, the workshop — they are small things stacked against storms and investment pitches. They are, however, tangible.
+
+[Sound: A gull, closer this time; a distant bell marking the harbor hour]
+[Music: Low strings, unresolved]
+
+You stand on the pier and look back at the town as the late light throws long shadows. Your father’s compass rests against your palm like a small heart. You think of the meetings to come — the council chambers with their oiled wood and flashing lights, Aria’s polished arguments, Luca’s rough blueprints, Jonah’s stories. You think of the people who will have to choose between uniforms, boats, and roofs.
+
+Isla Morgan [thinking]: "This is where the work begins. Not in grand plans, but in the small demonstrations, the patient numbers, the conversations at kitchen tables."
+
+Your chest tightens — not pain exactly, but the gravity of a lever being set into place. The first gust of something colder slides across the harbor, skims your shoulder, and leaves you aware of the possibility that not all tides can be turned.
+
+You breathe in salt air and steady yourself against that possibility. You tuck the compass into your apron and make your way toward the town hall, each step measured, each one a small defiance.
+
+[Page-Turn Moment]
+You straighten the maps in your hands, the pencil stub between your fingers. The council meeting tomorrow will not be quiet. You have a list of data to fetch, a pilot to outline, people to convince. Outside, the sea seems patient and indifferent — but you are not indifferent. You feel the town's future as a pressure against your ribs, and for the first time since you left for your fellowship, you understand that coming home means taking an argument into rooms where money and memory will fight to define what Greyhaven becomes.
+
+[Background:"ch1_Start_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

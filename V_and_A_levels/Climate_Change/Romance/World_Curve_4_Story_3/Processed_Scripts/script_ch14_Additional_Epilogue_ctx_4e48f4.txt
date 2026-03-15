@@ -1,0 +1,208 @@
+### SCRIPT
+# Route: Additional / Ending (Sad)
+# Context: 4e48f4
+
+[Scene: Marabel Promenade | Dusk]
+[Background:"ch14_4e48f4_1"]
+[Sound: Distant gulls; the soft slap of tide against pilings; a child's laughter folded into the wind]
+[Music: Low cello, steady—sustained, reflective]
+
+You find Noah where you always seem to find him after meetings and morning shifts: leaning on the railing, scanning the water like he's reading the town's pulse. His profile is worn softer by months of small duties—more maps folded under his arm, a crease at the corner of his eyes that wasn't there before. When he turns, his smile is familiar and a little fragile; it fits into the hollows of your own cautions.
+
+Noah Reyes: "Hey. Thought I'd find you here."
+
+You press your compass against your palm until the brass cools. The metal is scuffed—so are you. You feel the scrape of memory under your ribs: grant money signed, a family that left, the night the sensors failed and you and others ran like sailors in a storm.
+
+Asha Moreno: "I come here to remember that salt is heavier than a spreadsheet."
+
+Noah lets out a slow laugh that doesn't quite reach his eyes. He leans his forehead against your shoulder for a heartbeat—no promises, just steadiness.
+
+Noah Reyes: "Steadier than my paper maps, at least. How's the ledger treating you?"
+
+You think of the ledger on your shelf, pages half-ruled with budgets and whole columns of names. It is an imperfect friend—counts and stories braided together, the arithmetic of grief and the small economy of favors. You breathe the salt air and say nothing for a beat.
+
+Asha Moreno: "It lists what we kept and what we couldn't. Insurance climbed in the old harbor blocks. A few houses accepted buyouts. Some of the letters were polite and full of grief; others were just an address and a date."
+
+Noah's fingers find yours. The touch is warm and tentative, like a negotiation.
+
+Noah Reyes: "I'm sorry we had to watch people go."
+
+You both watch the Beacon's light wash over the water—no longer only a halo, now a visible compromise in steel and glass. For some, it is salvation. For others, it is the day the town got a new skyline and a new landlord.
+
+Noah Reyes: "How are you holding up—really?"
+
+You want to give him a clean answer. You want to say 'steady' and mean it. Instead you let the ledger and letters and the compass and the smell of wet wood speak through you.
+
+Asha Moreno: "Tired. Accountable. Still stubbornly convinced the town deserves dignity, even rent-mapped dignity."
+
+Noah pauses, searching for the word that won't flatten into politics.
+
+Noah Reyes: "Then let's keep pressing it. In meetings, in filings, in the gardens—wherever it matters."
+
+The conversation deepens: the two of you trade small plans—teaching slots at Tidewatch, a rota for volunteer architecture repairs, a promise to attend a community hearing tomorrow—until the wind picks up and the lamps along the Promenade begin their slow flicker.
+
+[INTERACTION]
+> Choice A: "Squeeze his hand, hold the quiet"
+> Choice B: "Ask him about Lila—direct"
+[Outcome A: "You let the silence sit between you two like a shared map, wordless but full of commitments."]
+[Outcome B: "You ask the question aloud, and his face tightens; he answers in careful sentences that hold both gratitude and guardrails."]
+[MERGE: ...]
+
+[Scene: The Old Boatyard | Night]
+[Background:"ch14_4e48f4_2"]
+[Sound: A distant radio playing a song you used to sing as a kid; the occasional creak of drying ropes]
+[Music: Minor piano motif—close, intimate]
+
+You sit on an upturned crate, the ledger open on your knees. A letter with a neat return address—handed in months ago—sits face-up. The handwriting belongs to a family who took a buyout: polite, small apologies that read like someone trying to close a door without slamming it. Beside it is a folded note from a neighbor who stayed: a child's drawing taped inside, a sentence about learning to plant cordgrass together.
+
+Eli Duarte appears in the doorway, hands still smelling of resin. He folds his arms and watches you read, the lines on his face mapping the caring he never loses even when his temper flares.
+
+Eli Duarte: "You look like you swallowed a low tide."
+
+You close the ledger to hide the papers but not the way the pages swell with dampness.
+
+Asha Moreno: "Some days the ledger feels like a ledger. Other days it's a list of funerals we turned into a neighborhood watch."
+
+Eli's mouth tightens, then relaxes into something close to humor.
+
+Eli Duarte: "You and I both know we can't save every house. But we can teach the kids to hold a hammer and a tide line. They can plant, and they'll know what was here before corporate maps tried to redraw the coastline."
+
+You look at the boats—each vessel a story of someone who stayed, someone who returned, someone who left. The salt in the air tastes like small mercies and an unfinished accounting.
+
+Eli Duarte: "You read the letter?"
+
+You nod.
+
+Eli Duarte: "Sometimes leaving is brave, too. Doesn't mean the rest of us did it wrong."
+
+A grown silence follows—one that holds more meaning than the words.
+
+Asha Moreno: "I expect you'll tell me to stop carrying all of it alone."
+
+Eli chuckles, shaking his head.
+
+Eli Duarte: "I already told you once. You listened. Then you kept all of it anyway. That's you."
+
+A small, rough laugh escapes you. There is tenderness in Eli's bluntness—he is the town's memory and its carpenter, and his cadence is honest in ways meetings are not.
+
+[INTERACTION]
+> Choice A: "Write back to the family who left"
+> Choice B: "Fold the letter into the ledger and walk to the gardens"
+[Outcome A: "You take a scrap of paper from your pocket and jot a few clumsy lines: gratitude, an invitation to visit if they can. It feels both necessary and futile."]
+[Outcome B: "You slide the letter into the ledger between budget pages and let the weight of it press flat, walking toward the scent of soil and the bright chatter of kids."]
+[MERGE: ...]
+
+[Scene: Raised Gardens | Morning]
+[Background:"ch14_4e48f4_3"]
+[Sound: The chatter of volunteers; the slap of boots; a distant engine of a supply boat]
+[Smell: Wet earth steeped with sea-warm compost; citrus from a vendor stall nearby]
+[Music: Light strings—hopeful but threaded with thin, wary notes]
+
+Marta meets you at the garden gate, her gloves muddy and her grin unsurprised by the state of things. The raised beds are working; sediment is catching, roots are holding. Children clamber around, learning the slow patience of planting.
+
+Marta Chen: "You showed up right on time. The third graders folded down the biodegradable mesh this morning like they'd been doing it forever."
+
+You breathe in the smell of damp soil and feel your shoulders loosen a fraction. This is the daily rhythm that holds the town together—work that cannot be reduced to investment returns.
+
+Asha Moreno: "They're good at it. They care in a way adults sometimes forget how to."
+
+Marta nods, then tilts her head like someone about to ask for something practical.
+
+Marta Chen: "We have a volunteer crew tomorrow—can you speak to them about the legal side? People keep asking what the Beacon's sensors mean for our access rights."
+
+You feel the immediate pull of litigation and lectern, the late nights rewriting clauses with Mayor Rosa, the long meetings with Lila's team. The ledger is never far from your elbow; duty has its own skin.
+
+Asha Moreno: "I'll pull the clauses together. We'll translate the legalese. We won't let access become a premium."
+
+Marta watches you, the soil flecking her gloves.
+
+Marta Chen: "Promise me something else—don't forget to eat."
+
+You laugh, brief and honest.
+
+Marta Chen: "No jokes. You're starting to look like the lighthouse keeper who forgets there are people who want to borrow a cup of sugar."
+
+You roll up your sleeves. The kids line up to show you their planted cordgrass rows—each small hand a tiny, stubborn declaration against loss.
+
+[Scene: Tidewatch Lab | Afternoon]
+[Background:"ch14_4e48f4_4"]
+[Sound: The hum of servers; the occasional digital ping of a new message]
+[Music: A steady low drone; tension settling into focus]
+
+You stand in front of a classroom of interns and volunteers, the ledger open at a table nearby. You're teaching them how to read the tide models, how a meander in the marsh can be an advantage if read and stewarded correctly. You switch between technical explanation and the moral framing you never stop repeating.
+
+Asha Moreno: "Numbers don't tell the whole story. You have to read who is behind the numbers. Who benefits when a sensor goes offline? Who profits when a buyout changes a neighborhood's voice?"
+
+Someone asks about Lila's latest revision to the maintenance clauses—language about "priority access for consortium vessels" and "tiered sensor data release."
+
+Your chest tightens. You remember nights rewriting passages with Mayor Rosa, the negotiation carving away at the edges of local control. Lila's team said the clauses were standard; your neighbors said the clauses were a lock on their future.
+
+Mayor Rosa Alvarez steps in, papers folded like defenses.
+
+Mayor Rosa Alvarez: "We're still pushing for transparency. You're doing the right thing, Asha. The town needs someone who keeps the ledger honest."
+
+You feel gratitude like a bruise—soft, tender, immediately vulnerable.
+
+Lila Park arrives with an even stride, as if the lab's cool light bends to her. She carries a slim tablet and a folder that smells faintly of new print. She looks at you with an expression you have learned to read as complicated—business warmth underlaid with the same urgency that got her into the field in the first place.
+
+Lila Park: "You're teaching the future, Asha. That's important. We want the sensors to be a resource, not a gate."
+
+You study her. There is sincerity threaded through corporate cadence; there are also decisions made in meeting rooms far from Marabel's salt and wood.
+
+Asha Moreno: "Then make the data open. Make the maintenance teams accountable. Make sure buyouts don't become erasures."
+
+Lila Park: "We're building infrastructure built to last. That requires trade-offs. We're open to community oversight—if the town can pull together a governance board."
+
+Your throat tightens at the phrasing: "pull together" as if the town were a machine that could be assembled on a weekend.
+
+Mayor Rosa Alvarez: "We'll draft an oversight proposal. We need to ensure civic seats have real authority, not just goodwill."
+
+The conversation stretches—practicalities, deadlines, the push and pull of what comes after momentum. You press your palm to the scuffed compass in your pocket and feel its cool shape like a small, unwavering truth.
+
+Asha Moreno: "I'll keep teaching. I'll keep pulling clauses apart when they overreach. But if oversight is just for show, we'll be the ones to call it out."
+
+Lila Park: (softly) "And if oversight prevents us from deploying life-saving measures in time?"
+
+Your breath slows. The question is a needle threading urgency and ethics. The room sits with it, the hum of servers a background heartbeat.
+
+Noah Reyes, who has been here since early, speaks up—steady, mediator, the voice you've relied on.
+
+Noah Reyes: "We can't let urgency become an excuse for erasure. There are ways to balance speed and rights."
+
+The talk turns to specifics—committees, public release schedules, clauses to anchor community vetoes. Each step feels heavy with the weight of months, each phrase a potential hinge for futures.
+
+You fold your hands over the ledger. The pages rustle. You have taught, bargained, patched boats and tested sensors. You have measured loss and counted small mercies. The arousal, slow and considered all day, tightens toward a pressure point: another clause is on the table, another oversight meeting is scheduled, and the town will look to you to be both conscience and engineer.
+
+You feel the ledger's spine press into your thigh like a reminder: there is no clean ledger entry that settles what dignity actually costs.
+
+You breathe. The lab's light is clinical but not cold; it picks out the scuff on your brass compass and the faint line of a new resolve.
+
+Asha Moreno: "We keep the ledger honest. We teach people to read the tide and the contract. We make sure oversight has teeth."
+
+Noah steps closer and squeezes your hand in a plain, necessary pressure.
+
+Noah Reyes: "Whatever we do next, we'll do it together. We won't let the town become a case study without its people's names."
+
+You close the ledger, the pages whispering like low surf. You think of the letters—some left with polite grief, some folded into the ledger as promises. Your throat is tight with the memory of names carved into wood at the memorial, and in the thinness of options that remains.
+
+A small, stubborn part of you wants to rest, to let the work slow. Another part knows the next meeting will demand motion, signatures, and the ability to say 'no' when the town's dignity is at stake.
+
+You stand at the lab window and look out at the Beacon and the thin ribbon of the Promenade beyond. The town is awake in small, fierce ways; the gardens sending green uprisings; children learning cordgrass; volunteers arriving and leaving like breaths.
+
+You tighten your fingers around the compass until the brass warms.
+
+Asha Moreno: "We do this the way we've always done it—together, with teeth, with tenderness. We don't let 'safety' become a price that buys our people out."
+
+Music rises a half-step, still measured—your arousal built through the scenes today, from dusk's quiet to the lab's focused urgency. The tension is not a cliff but a steady incline. The ledger closes with a final sound like the thud of a small, necessary gavel.
+
+Page-turning thought: There will be signatures to watch, clauses to contest, and a hearing that will test whether oversight can be enforceable. You already know the work continues; the question is how you'll steer it next.
+
+[Background:"ch14_4e48f4_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 15]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 15
+    > Jump Target File: script_ch15_Additional_Ending_Sad_Ending_from_Ch14_ctx_60d3dd.txt

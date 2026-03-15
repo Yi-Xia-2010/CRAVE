@@ -1,0 +1,192 @@
+### SCRIPT
+# Route: Route C
+# Context: 453e40
+
+[Scene: Tide Lab | Midnight]
+[Background:"ch10_453e40_1"]
+[Sound: Low hum of servers, a distant gull, the slap of tide against pilings like a metronome]
+[Music: Sparse, urgent strings building under a steady electronic pulse]
+
+You cannot sleep. The town meeting is still warm in your bones, the tide of faces and opinions folding and unfolding like paper boats. Professor Haruto's dataset sits like a stone in your Moleskine: pages of model runs, annotated margins, a note in his looping hand that you read a dozen times and still can't make softer.
+
+You flip to the section you keep returning to — the scouring simulations. Each frame is a small demolition: the proposed seawall's placement redirects currents, digs a hungry trench under the breakwater, accelerates erosion in neighborhoods the proposal claims to protect. Numbers become images: the Old Breakwater unspooling, wooden piers splintering like ribs.
+
+You think of your father on a morning with the same light — the compass heavy on his line, the way he read the sea without charts. You think of Haruto's apology tucked in the dataset header: "We withheld pending peer review." You think of Lina's hands, Tomas's laugh, Elias's steady shoulder. You think of the town, which cannot afford to wait.
+
+You set the brass compass beside the laptop as if it were an anchor and open the upload client. Fingers hesitate over keys. The lab smells of boiled coffee and ozone; the window frames the harbor in a wet black that looks, absurdly, like an entirely other world.
+
+[Background:"ch10_453e40_2"]
+[Sound: The cursor's blink syncs with your breath]
+
+You draft the message — raw, precise, without the hedging that protocol would require. You attach Haruto's files. You add a short cover note for journalists: clear, factual, and cold where it needs to be. You think of the slow bureaucracy that lets towns drown while committees deliberate. You think of Haruto's hesitation. You think of your father's weathered hands that trusted doing over waiting.
+
+You breathe and click.
+
+[INTERACTION]
+> Choice A: "Add a personal note explaining why you released it"
+> Choice B: "Leave it clinical — let the data speak for itself"
+[Outcome A: "You type, fingers quick. The note is honest — grief and urgency folded into a single paragraph. It feels like offering your chest to a blade. You save and attach it, and the upload bar jumps forward with a small, treacherous finality."]
+[Outcome B: "You pull the personal lines back. The release is surgical, stripped of apology. The files go out with headers and timestamps; your name is a fact in the metadata, nothing more. You stare until the progress bar finishes and your hands go cold."]
+[MERGE: The upload completes and the narrative continues below.]
+
+[Background:"ch10_453e40_3"]
+[Sound: A cascade of pings as outbound emails and repository confirmations populate your inbox]
+[Music: Tension in the strings spikes; tempo accelerates]
+
+There is no cinematic rallying cry. There is only the instantaneous spreading of a small, hot thing: links forwarded, servers pulling data, journalists awakening. You watch your inbox populate with auto-responses. Your phone lights with names you did not expect to appear at this hour.
+
+Elias Rowe: "You sent it." (flat; trying for calm)
+
+Maya Calder: "Yes."
+
+Elias closes the door with more care than you expect and drops into the stool across from the lab bench. He palms his sketchbook, the leather creasing. For a moment you watch him map you as if you were a shoreline he knows but can't quite chart anymore.
+
+Elias Rowe: "Why like this? Why not... we —" (he stops, the words eaten by the hum)
+
+You can hear everything in that pause: the disappointment, the sense of being moved around without consent, the fear that a coalition you were building will fracture because you moved first.
+
+Maya Calder: "Because Haruto's models spell out a timeline. Waiting meant more erosion, more homes lost. His suppression wasn't about caution anymore — it was delaying action."
+
+Elias leans forward, voice a quieter blade.
+
+Elias Rowe: "You think people will read the nuance at midnight? They see 'whistleblower' or 'treason' depending on where they stand. You didn't call Lina. You didn't call me. You let the town learn from headlines."
+
+You feel the accusation like salt. It stings.
+
+Maya Calder: "I couldn't get enough time. The PR team would bury this. Serena would spin it. By morning the narrative would be controlled and Haruto's caveats erased. If the town is to act with eyes open, they must see the full model."
+
+Elias's jaw shifts. He rubs the bridge of his nose.
+
+Elias Rowe: "There are other ways. Procedures. Oversight panels. You know that. You taught me—"
+
+You cut him off because admission is its own harm: you taught him to measure, not to stall.
+
+Maya Calder: "I taught you to trust evidence. I also taught you to protect people from preventable harm."
+
+Elias sits back, amber darkening at the edges. A million tiny considerations move behind his eyes — the Mayor, the funders, his mother, the projects he shepherds. He breathes like a man trying to align two things that want to split apart.
+
+Elias Rowe: "So you chose to break the trust of the town to force their hand. You chose secrecy to make everything public."
+
+Maya Calder: "I chose the town." (Your voice cracks. You don't try to hide it.)
+
+Elias's expression becomes something complex — an admixture of pride, fear, and betrayal.
+
+Elias Rowe: "Then you'll have to live with what that choice makes of us."
+
+There is no neat reconciliation in his words. He stands. He moves toward the window and stares at the harbor, which has already begun to rearrange itself with light.
+
+[Sound: Distant siren wail, a new drone of engines]
+[Background:"ch10_453e40_4"]
+
+You watch his reflection merge with the harbor light. For a beat you allow yourself to imagine him leaving. Then you remember the way he held a sapling against a gale last spring, how he steadied himself for the town long before he ever thought of steadiness for you.
+
+[INTERACTION]
+> Choice A: "Apologize first, then explain in full"
+> Choice B: "Stand by the action and explain the necessity"
+[Outcome A: "You fold forward. The apology releases air from your chest, and words come in a raw, urgent rush. You tell him about the scouring frames, about Haruto's last note, about the nights you couldn't sleep. He listens, face shifting like tide lines, and the tension between you loosens by a millimeter."]
+[Outcome B: "You set your chin. You walk through the chains of logic: suppressed data, pattern of delays, the ethical calculus. You speak sharply; every sentence is a strike to justify a strike. Elias's eyes narrow, then widen, and he takes the weight of what you've done in silence, the air between you taut."]
+[MERGE: Elias responds and leaves; the narrative continues below.]
+
+Elias does not slap your choice away; he leaves it on the counter like a wet map. He folds his coat around him.
+
+Elias Rowe: (quiet) "You're not alone here, Maya. But you made this harder for everyone. That matters."
+
+You watch him go. The lab feels suddenly too small. The laptop screen keeps glowing, a patient, accusatory eye.
+
+[Scene: Tide Lab — Rolling Fallout | Continuous]
+[Background:"ch10_453e40_5"]
+[Sound: Rapid pinging, the crisp ring of an incoming corporate line; the distant rumble of vehicles and the close clack of Lina's boots as she barges in]
+[Music: Percussive rhythm; strings fraying at the edges]
+
+Lina Park: "Maya. Is it true? Is it—"
+
+Maya Calder: "It's Haruto's dataset."
+
+You hold up your hand and push the screen toward her. The headlines are already forming: WHISTLEBLOWER SCIENTIST REVEALS STUDY; SEAWALL PLAN UNDER FIRE; TOWN DIVIDED AFTER DATA DUMP.
+
+She reads fast, face folding and refolding like origami.
+
+Lina Park: "You couldn't call me? I had to find out because my feed lit up. Tomas called me from the dock — he found the headline while checking nets. He's furious; he thinks you betrayed whoever was going to pay for the work."
+
+You feel the world tilt. Tomas's voice comes to you on the heels of Lina's words, low and tight.
+
+[Sound: A choked transmission arrives — a voice message from Tomas, thick with anger]
+Tomas Reyes (voicemail): "Maya — why'd you do this? You knew what those papers did. You always said patience was a tool. Now look at what's coming. You know how fast people turn when they smell uncertainty. They toss the baby out with the bathwater."
+
+The accusation lands like a thrown rope. You imagine his face: the weathered map of a thousand storms. You think of his hands more than his words — hands that hauled your father in once. You think of what your choice will cost him, and your chest clenches.
+
+[Background:"ch10_453e40_6"]
+[Sound: Rapid-fire communications; a phone vibrating on the bench until you snatch it up]
+[Music: Crescendo; percussion racing]
+
+Your phone buzzes with a contact you dread — Serena Voss. You let it ring through to voicemail because the corporate calm will be sharp, measured, and you are too raw to meet it.
+
+Serena Voss (voicemail): "Maya. We need to talk. This—this complicates funding and regulatory paths. Expect legal outreach. If you think this was a kindness, you misread the system. Call me."
+
+The line clicks away. The PR machine is already writing its first paragraph.
+
+You pull up a live investor thread. Questions bloom: Will our capital be secure? Can we proceed with the planned rollout if the town is split? A headline in your feeds splashes a quote, anonymous and cruel: "Unvetted data could jeopardize everything."
+
+You feel the room compress: the walls of the lab, the browser windows, the soft brass of the compass. The choice that felt like rescue now looks like an ignition.
+
+[Scene: Harbor — Outside Tide Lab | Continuous]
+[Background:"ch10_453e40_7"]
+[Sound: Engine idling, muffled reporter chatter, camera shutters]
+[Music: A high sustained note; a staccato ticking overlay]
+
+You step to the window and watch the town reorganize around the rumor. Cameras point like accusatory fingers. Reporters cluster, pulling at faces, looking for the human beat: who betrayed whom? Who saved whom?
+
+You imagine a child on the terrace hearing a neighbor whisper "whistleblower" like a prayer or a curse. You think of Lina consoling that child. You think of Tomas's hands, and you want, more than anything, to go to him and put an arm around him, to explain that you did this for him, too.
+
+Your phone vibrates again. A text from Professor Haruto: two words, agonized and small.
+
+Professor Haruto (text): "I'm sorry."
+
+You fold over the bench. The apology fractures into a thousand reflections — the silver strand at your temple catching the lab light, your reflection tired and more fragile than brave. You taste iron: the lab's metal, or fear, or both.
+
+[INTERACTION]
+> Choice A: "Go out to the harbor and face the reporters"
+> Choice B: "Stay in the lab to coordinate community responses and legal counsel"
+[Outcome A: "You grab your coat and the compass and step toward the door. The night air slaps you awake; lights flare and microphones queue like hungry beaks. Reporters shout; someone tries to pin you with a question. You stand there, voice steadying itself into statements about data integrity and public right-to-know. For a moment you feel like an ember in the dark, trying to give the town a direction to warm toward."]
+[Outcome B: "You shut the door softly and barricade yourself with screens. You send out a stream of measured messages: offers to meet, calls to the Mayor, a video statement that you can control. You become the eye of a storm, organizing, clarifying, trying to turn panic into a plan while the harbor lights thrum beyond the glass."]
+[MERGE: You do both in a way — you step outside to measure the tone, then return to the lab and flood your networks with messages. The narrative continues below.]
+
+You do both, in a way — you step outside to measure the tone, then return to the lab and flood your networks with messages. Each action tastes of triage: you try to steer perception while shielding the weak in the town from the shock. Your fingers move mechanically, forwarding Haruto's metadata to a community lawyer, alerting citizen organizers to expect a wave of questions, arranging an emergency forum. But for every supportive message, a thousand small missiles land: accusations that you sabotaged funding; claims that you jeopardized lives for ideology.
+
+The town begins to split in plain view. Social feeds sharpen into factions. A banner appears in a livestream: "PROTECT JOBS" flashes beside "TRUTH FOR ASTER'S REACH." The debate is no longer about models; it is about identity, livelihood, fear.
+
+[Background:"ch10_453e40_8"]
+[Sound: Tomas's voice, raw and loud]
+Tomas Reyes: "You think I'll thank you when folks lose work because someone panicked? You think Haruto's hesitation was evil? We live by nets, Maya! We can't afford theories to cost us food!"
+
+You feel each syllable as if it were a weight thrown at your sternum. You want to explain, to kneel and show him the model frames, to point to the spots where erosion will hollow his favorite marker buoy. But the harbor is a thicket of cameras now; explanation becomes theatre.
+
+[Music: Climactic chord; the string section cuts in sharp, dissonant intervals]
+[Background:"ch10_453e40_9"]
+[Sound: A high, sustained hum; a plane's distant engine; reporters shouting overlapping questions]
+
+You stand motionless and feel the full force of the night settle on the town like weather. The righteous clarity that pushed your fingers to click has dissolved into a cold ache. The town needs trust to act; you've rearranged its furniture at midnight. You cannot know if that will make rescue easier or impossible.
+
+You think of Haruto's last line, of his apology. You think of Elias, of Lina, of Tomas. You think of your father and the way he threaded a rope through a fisherman's knot. You realize now that truth is not only what you release — it is what others can use to keep one another afloat.
+
+The harbor answers with light and sound. A helicopter's search lamp sweeps once, twice, and finds nothing but reflections. Your phone buzzes into another voicemail, another email, another demand. The high tide of reaction is not ebbing.
+
+You breathe out, and the breath is a small, tremulous thing.
+
+[Music: Sudden silence punctuates the lab — a single, held note]
+
+You do not know how it will end. You only know that when daylight breaks the town will be different. You will be different. The choice you made at midnight has set loose a current that will test every bond you have.
+
+You press your thumb to the Moleskine, to Haruto's name, to the compass, and let yourself feel the ache of consequence.
+
+[Page-Turn: You sit, palms flat on the bench, and wait for the next wave — for calls from City Hall, for Lina's voice, for Tomas at your door, for Serena's legal team. The harbor's lights keep circling; the town, awake and divided, waits with it. You have released the data. Now the tide returns its answer.]
+
+[Background:"ch10_453e40_10"]
+[Music: Fade Out]
+[NEXT CHAPTER: 11]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 11
+    > Jump Target File: script_ch11_Route_C_Split_ctx_e67f19.txt

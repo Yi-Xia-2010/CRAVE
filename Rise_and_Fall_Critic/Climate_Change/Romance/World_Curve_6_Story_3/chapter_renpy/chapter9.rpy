@@ -1,0 +1,210 @@
+label chapter9:
+
+    # [Scene: Resilience Lab & Greenhouse | Morning]
+
+    scene bg ch9_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, steady synth pad; a slow, hopeful arpeggio enters]
+    # play sound "sfx_placeholder"  # [Sound: Soft drip of condensation, distant gull calls and the muted thrum of pumps]
+    "You come in on the heels of a decision you made hours ago and weeks ago all at once: work with Noah, make numbers, make the city listen. The elbow of your trench coat still smells"
+    "faintly of the harbor; the laboratory air folds around you—damp earth, copper from old plumbing, kelp tang that smells alive and a little like the sea after rain."
+    "Noah is already there. He’s a wire of motion at a bench, sleeves rolled, fingers stained a faint green. His hair is damp with sweat; the silver streak above his temple flashes when he leans to"
+    "read an output. He looks up, and the tiredness in his eyes is the kind that belongs to someone who has decided something irreversibly good and then immediately wondered whether the math will let them keep"
+    "it."
+    show noah_ros at left:
+        zoom 0.7
+
+    noah_ros "You made it. Bad news: I fried the third prototype trying to get the sampling rate up. Good news: I think I fixed it."
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "You said 'try.' Which one is the good one?"
+
+    noah_ros "Third. So optimistic odds.' (He nudges a slim sensor array toward you. The casing is wrapped in tape, and a kelp frond is tucked almost ceremonially around one corner.) 'I want the sensors on the modular floats to sync with the kelp geometry, so we can show correlation between vegetation density and micro‑attenuation. Priya's turning scripts into visuals today—if we can give Cass a clean trend line, she can argue with numbers."
+    hide noah_ros
+    hide mara_evans
+
+    scene bg ch9_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of servers; the wave tank sloshes in a steady rhythm]
+    "Priya appears at the greenhouse doorway, tablet in hand, eyebrows a practical arc."
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "I'm not thrilled about calling them 'sensors' when half of the rig is duct tape and hope.' (She taps a graph. The screen shows raw, messy amplitudes.) 'But I can make messy look decisive. Show me your sampling cadence and the calibration logs."
+    "You sit at the long communal table and spread your notebook. You begin mapping community touchpoints out loud: market stalls that flood, the bakery on the corner with its patched threshold, Elena's awning that always comes"
+    "off in the second storm, Tomas's boatyard where the kelp nursery began as a joke and became a lifeline. Your pen skirts the page, naming people as much as places. Each dot is an argument; each"
+    "line is a person you can't let be abstracted away."
+
+    "Tomas (entering with a coil of old rope slung over his shoulder)" "If you're going to bind this to the water, you don't need new rope. This stuff remembers tides.' (He grins, handing you a frayed length that smells of salt and sun.) 'It'll take a beating."
+
+    "Elena (hands you a paper cup steaming with coffee, her palms still marked with repair glue)" "And if you want the neighborhood to trust these numbers, bring them along to set up. Let them see you test it. Let them touch it. That matters to them more than a slide deck."
+    show noah_ros at right:
+        zoom 0.7
+
+    noah_ros "Agreed. We can line up pilot floats along the east finger docks—low risk, high visibility. If we gather thirty days of consistent attenuation data, it's hard to argue with reductions."
+
+    priya_anand "Thirty days—tight, but possible. Cass gave you a provisional window, right? Not a public endorsement—yet—but a window.' (She flicks the tablet, opening a meeting memo.) 'She needs something she can read in fifteen seconds and trust for thirty more."
+    "You pause, thinking of the council chamber's timer, the calendar stamped with public hearings and fund deadlines. The pressure is real, but tactile in a different way today—more like weights pressed to the shoulders that you can push against rather than rocks tied to your feet."
+
+    menu:
+        "Map by people's stories — go knock doors with the team":
+            "You fold the notebook closed and write names along the margin. Each story you collect will be a vector for the data; numbers with faces are harder to disregard. You call Elena to set up the first walkthrough for that afternoon."
+        "Map by hard touchpoints — grid the sensors on objective nodes":
+            "You draw a tidy grid across the harbor map, numbering nodes and scheduling deployments. It will be cleaner in the analysis; you'll trade immediacy for statistical clarity. Noah Ríos nods, already sketching a deployment cadence."
+
+    # --- merge ---
+    "Both choices rejoin the main scene; the team prepares deployments and the day continues."
+    hide priya_anand
+    hide noah_ros
+
+    scene bg ch9_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Tempo picks up slightly, strings weaving a hopeful motif]
+    "The day slides into night in a long, productive blur. Arman Kade's barbed lines have already slipped into radio minutes; a talking head calls your setup 'gadgetry' and 'unproven' with the practiced rhythm of someone used"
+    "to shaping a narrative before the facts arrive. The voice is designed to be small, to herd doubt. It lands like a pebble—splash—but your team has already learned better."
+    show noah_ros at left:
+        zoom 0.7
+
+    noah_ros "He can call them toys. We'll build them into tools.' (He wipes his hands, then squeezes the tube of adhesive like a man squeezing his own nerves.) 'Let him talk. We'll give Cass what she asked for."
+    "You both laugh, but it's the tight sort of laugh that makes the chest hurt and reminds you you're alive to feel the hurt."
+
+    "Priya (sliding a printout to you)" "I've cleaned the first batch of outputs. Baseline noise is high, but look—when we cluster kelp density around the floats, we see a trend. Not conclusive, but directional.' (She taps a point on the graph.) 'If this holds through the next calibration run, I can make a compressed figure for Cass's briefing."
+    "You press your thumb to that point on the paper like it is warm. Hope is beginning to look like an axis."
+    # [Scene: Resilience Lab | Later — Early Evening]
+    hide noah_ros
+
+    scene bg ch9_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The electric rasp of soldering irons; a kettle hisses somewhere]
+    "Tomas shows you how he ties the rope so the floats ride differently in cross currents. He moves with a kind of muscle memory you don't have—hands that remember storms in ways your models cannot."
+    show tomas_belmar at left:
+        zoom 0.7
+
+    tomas_belmar "Nature teaches you how to give with the tide, not fight it. Let the kelp bend. Let the floats dance.' (He looks at you with steady pride.) 'That's how you'll keep the people, girl."
+    "You ask him about a stitch he used years ago; he answers in a story of a night when the moon was like a coin and the water came higher than anyone expected. You are taking"
+    "those stitches into your plan, not because they look elegant on paper but because they held a house upright once."
+    "Elena stays late, checking bolts and stitching tarps. She jokes to break the concentration—complaining about you, mock scolding about your stubbornness—and in that sound you hear faith. She lays a patched awning across your lap like a blanket for a tired child."
+    show elena_torres at right:
+        zoom 0.7
+
+    elena_torres "If this works, I'm painting the storefront a ridiculous color.' (She winks.) 'Something that makes tourists grin but keeps the rain off."
+    "Noah Ríos watches you both, vulnerable in the way he lets you see the private calculations behind his practical face."
+    show noah_ros at center:
+        zoom 0.7
+
+    noah_ros "Want to check a live read?' (He gestures to a screen where a wave attenuates by fractions of a percent as it passes the kelp mat.) 'See? It's small, but it's there."
+    "You lean close. The output blinks, shy but unmistakable — a tiny dip repeated, like a heartbeat."
+    hide tomas_belmar
+    show mara_evans at left:
+        zoom 0.7
+
+    mara_evans "It's more than toy blips.' (You don't need to justify it.) 'It’s a trace of what we promised."
+
+    noah_ros "And thirty days is what we need to make it persuasive.' (He meets your gaze; there's a steadiness there that feels like an invitation.) 'We can test cadence, tweak geometry, and—"
+
+    menu:
+        "Use Tomas's rope for the east finger deployment — show the community it's their work":
+            "You nod, imagining the floats bobbing with rope that smells of oil and sun. The symbolic weight matters. The team will see their own hands in the pilot and they'll tell that story when numbers come. Noah Ríos grins at the choice; it's the right mixture of math and memory."
+        "Stick to lab cables and rated hardware — minimize risk for clean data":
+            "You choose the clean path. The hardware is traceable, less likely to be criticized as 'makeshift.' Priya approves, though Tomas's brow knits for a beat. You feel a practical victory, and also a small, private ache."
+
+    # --- merge ---
+    "Both deployment choices lead back into the same calibration and teamwork; the narrative continues."
+    hide elena_torres
+    hide noah_ros
+    hide mara_evans
+
+    scene bg ch9_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single piano line, warm and intimate]
+    "Night bleeds into calibration. The two of you, hands green with plant matter and salt, calibrate sensors until numbers line up like careful stitches. Noah adjusts the sampling frequency; you reposition a kelp mat to test geometry effects. Your movements are conversational in themselves—no need for many words."
+    show noah_ros at left:
+        zoom 0.7
+
+    noah_ros "If we can get consistent diurnal cycles without drift, Cass can present this as a pilot with predictive value.' (He pauses, then softer.) 'And…if the data holds, we get funding not just for a wall, but for a living network."
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "I don't want to trade the living for a report that looks pretty on memoranda.' (Your voice is low; the confession hangs between solder steam and brine.) 'We have to keep the 'living' in living seawall."
+
+    noah_ros "We will. The trick is: numbers can protect the living.' (He smiles, the kind that bends his mouth and crinkles the corners of his eyes.) 'No one denies a chart that saves money and lives."
+    "The lab-time intimacy is mathematical and warm. You breathe each other's exasperation and small victories. At one point Noah reaches to steady a floating arm you’re adjusting; his fingers brush yours. There is a tenderness there that is neither wholly new nor wholly contained by the work."
+
+    noah_ros "Hey.' (He keeps his hand where it landed, an anchor not a claim.) 'Come home later? For at least a few hours that are not labeled 'prototype'?"
+
+    mara_evans "I will, when the next run finishes.' (You mean it; your throat tightens.) 'Promise me you'll sleep a little."
+
+    noah_ros "I make a poor promise-breaker."
+    "You laugh—a small, exhausted sound—and it is almost a release."
+
+    menu:
+        "Stay and run one last calibration with Noah":
+            "You agree, and the two of you hunch together over the console. The night feels patient, and the numbers you coax out are sweeter for having shared them. Noah Ríos hums softly as he inputs code; you taste salt and coffee and something like the future."
+        "Go home, rest, and return at dawn":
+            "You peel away, leaving Noah Ríos to close the loop alone. You lie awake thinking of sampling rates and of him, but your sleep is clearer. When you return at dawn, both of you are steadier for it."
+
+    # --- merge ---
+    "Both choices reconverge to the passage of two weeks later; the results accumulate."
+    # [Scene: Resilience Lab & Greenhouse | Dawn — Two Weeks Later]
+    hide noah_ros
+    hide mara_evans
+
+    scene bg ch9_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Expansive, hopeful strings rise; a light timpani underscores momentum]
+    # play sound "sfx_placeholder"  # [Sound: Low chorus of community voices as a few neighbors pass the lab window]
+    "Data accumulates in the way rain accumulates: small, persistent, eventually undeniable. You and Noah run the runs, Priya translates the messy reality into a slide that reads clean and urgent, Tomas brings practical fixes, and Elena"
+    "keeps the team fed and warm. Each day the graphs gain resolution; noise drops. The pilot floats show a measurable reduction in near-field wave energy where kelp density is higher and the geometry supports refraction. It's"
+    "not magic. It's physics and perseverance—exactly the kind of thing politicians like Cass can hold up and point to when asked for proof."
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "Put this on a single slide for Cass—raw attenuation over time, the confidence interval shaded. Call it 'pilot attenuation: east finger float array'.' (She eyes you.) 'And add a qualitative slide—photos, quotes. Humans need the faces; the council needs the chart."
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "And if Arman Kade pushes back publicly?' (You know his voice; you have read his mouth in televised debates.) 'We have to be ready."
+
+    priya_anand "Then we have the slide.' (She taps the graph like a talisman.) 'Numbers are harder to spin away."
+    "Noah Ríos sidles up beside you, shoulder bumping yours in that intimate, comfortable way you two have started to have. The lab smells of kelp and coffee and the worn leather of the notebook you keep"
+    "close. He shares a screen with you—an aggregated plot, thirty days in the making. The line bends down across the axis in a way that makes your chest unclench."
+    show noah_ros at center:
+        zoom 0.7
+
+    noah_ros "We did this, you know. You did this."
+
+    mara_evans "We did it because people kept handing us their rope and their coffee and their time.' (You think of Tomas's stories, Elena's patched awning, every hand that tied a knot or watched a float bob.) 'Numbers are a language. We just made ours harder to ignore."
+    hide priya_anand
+    hide mara_evans
+    hide noah_ros
+
+    scene bg ch9_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: The hopeful motif resolves into a warm chord]
+    "A news alert chirps on Priya's tablet. Somewhere, Arman Kade's soundbite is already being amplified—his voice calm, dismissive. But Cass calls, and her tone is steadier than a public call should be."
+
+    "Cass (on speakerphone)" "Bring me the slide deck and the raw logs by noon. We have a committee hearing Friday. If your pilot keeps trending the way it is, I can argue for an emergency allocation to scale the pilot."
+    "You feel the room tilt: the politics are still rough, but the axis has shifted. Hope is not triumph yet, but it is not a fragile thing anymore. It is contextualized—measured, repeatable, defensible."
+    show noah_ros at left:
+        zoom 0.7
+
+    noah_ros "We should run one more validation overnight, then package it. Priya, can you pull a confidence interval and a projected cost‑benefit? I'll lock the sensor array cadence."
+    show priya_anand at right:
+        zoom 0.7
+
+    priya_anand "Already on it.' (She smiles, a rare softness.) 'This feels…good."
+    "You let yourself believe a little. You allow that the numbers may actually bend policy this time. The lab breathes with you, a city-sized inhale reduced to the scale of aquarium pumps and solder fumes."
+    "You stand for a second and look at the team—at Tomas knotting rope, Elena taping a cable, Priya muttering over a script, Noah's profile lit by monitors. A soft warmth spreads through you, a sense of the community and the technical braided into something that feels like traction."
+    "You reach for your notebook, and for once the pages seem less like a ledger of what might be lost and more like a ledger of battle lines drawn and small victories logged."
+    hide noah_ros
+    hide priya_anand
+
+    scene bg ch9_453e40_8 at full_bg
+    # play music "music_placeholder"  # [Music: Swelling strings, bright and patient]
+    "You know the deadline is near. The council calendar ticks, but so does progress. There is still work to do—analysis to refine, a presentation to sharpen—but for the first time in a long while you allow"
+    "yourself to imagine a meeting where a slide changes a policy, where numbers keep doors open for people instead of closing them."
+    "You breathe. The lab answers—soft pumps, quiet laughter, someone humming as they solder. The sprint has become a rhythm. The team’s morale has lifted; the math has begun to speak in your language of care."
+    # [Page-Turn Moment]
+    "You hold the projected slide on the tablet, the attenuation curve a small, stubborn arc of good news. Outside, the harbor waits—unchanged and changing both. You close your fingers around the pendant at your throat and"
+    "listen to the lab breathe, to Noah Ríos's quiet presence beside you, to the web of people who braided themselves into this experiment. The next hearing will demand more than data; it will demand urgency and"
+    "courage and the willingness to choose people over polished promises. But tonight—tonight you have numbers that might be persuasive. Tonight you let hope accumulate like sediment, patient and sure."
+
+    scene bg ch9_453e40_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter10
+    return

@@ -1,0 +1,140 @@
+label chapter3:
+
+    # [Scene: Council Hall | Dusk]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low murmur of voices; the bell’s echo still clinging to the rafters.]
+    # play music "music_placeholder"  # [Music: Low, tense cello undercurrent]
+    "You step across the threshold with your waterproof folder pressed to your ribs. The room smells of rain on stone and the sharp, clinical tang of fluorescent lights—an institutional undertone that makes every human breath feel"
+    "measured. People crowd the chamber in clusters: hands knotted around placards, work gloves tucked into pockets, a faded briefcase or two. Cameras —boardroom and municipal, investor and local—sit like patient birds on tripods, lenses bright and"
+    "waiting."
+    "Your throat tastes of metal; the brass compass beneath your shirt nudges against your sternum like a small accusing heart. You can feel the damp of the evening on your collar and the grit of the"
+    "walkway still clinging to your boots. Abuela Rosa sits two rows up, her shawl wrapped tight, fingers folded into a map you cannot fully see. Mateo stands against the back wall, jaw set as if holding"
+    "the town in place. Sofía is closer to the front, chin high and anger barely contained in the set of her shoulders."
+    "You do not know if tonight will save anything. You know only that it will name priorities aloud—names that will find homes in future weather reports and in the graves of small livelihoods."
+
+    scene bg ch3_98c6f2_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A breath; the room quiets]
+    show iris_varela at left:
+        zoom 0.7
+
+    iris_varela "We do not have the luxury of long debate. Every month we wait, the tide presses farther into the places where children learn to swim and where fishers mend nets. My proposal is straightforward — a fast, centralized coastal barrier. Contract signed this month. Construction begins before the next high season. We secure the town."
+    "Her voice is a blade dulled only by purpose. The room clamps down. The investors' delegations sit like a weather system — cool, confident exhalations of numbers and timelines. Iris Varela lays out projected completion dates,"
+    "the contingency clauses, the emergency powers she'll ask council to grant. Her pitch is practiced; every inflection designed to cut through indecision."
+    "You watch faces: a man in a heavy coat losing color, a young mother tightening a child's mitten, a fisherman whose hands twitch toward his pockets as if to gather nets from an imagined shoreline. The"
+    "clinical light picks out the fine lines around Iris Varela's eyes; for a moment she looks not unkind, only implacably tired."
+    "Elias Park rises after her, carrying a modest tablet. He navigates the room with the shy, steady energy of someone hoping to engineer consent out of empathy."
+    show elias_park at right:
+        zoom 0.7
+
+    elias_park "Iris is right about urgency — I feel it every time I walk the marsh at dawn. But a single, heavy barrier risks locking us into a solution that doesn't breathe with the coast. We can pilot modular, low-footprint defenses — barriers that can be adjusted, that let water through certain channels, that integrate sensors and community stewardship. Let us try a small site, iterate with residents, and scale only if it proves resilient."
+
+    "He scrolls through models: pale renderings of segmented walls bedded with planted berms, sensor readouts that ping with tidal data, a timeline that asks for months, not weeks. He speaks in careful rhythms, translating technical terms into images of people" "your nets,' 'Abuela's garden,' 'Sofía's schoolyard."
+
+    iris_varela "Months may be luxury. What if we run out of months?"
+
+    elias_park "Then we pair the pilot with immediate, targeted shore fortifications where homes are most at-risk. Start small, learn fast — don't force the whole town into one template."
+    "The room’s murmur swells into a tide of questions and accusations. Someone shouts for a guarantee. Another asks for a vote by next week. A woman in the second row whispers about wells and loss. The air feels thicker, charged with fear that could become reason or rage."
+    "You move through it with a practiced steadiness you do not feel. Your notebook is a weight inside your jacket; you can picture the tide sketches, the notes of where sand moves fastest, the names of"
+    "houses that took the last storm on their doorstep. You have carried those fragments longer than you should."
+
+    menu:
+        "Pause at the doorway to watch the room":
+            "You slow your step and let the voices wash over you, memorizing who looks afraid and who looks furious; it feels like taking inventory of wounds."
+        "Find a seat close to Elias":
+            "You slip into an empty chair beside Elias, offering a small, steady presence; he gives you a grateful, almost-hidden look, like someone being offered a breath."
+
+    # --- merge ---
+    "The scene continues as attendees react to the presentations."
+    show mateo_reyes at center:
+        zoom 0.7
+
+    mateo_reyes "Mara Serrano—' He uses your name like an anchor. 'If Iris gets the contract, they'll protect main streets. But you know what they won't protect — the little coves, the fishers' sheds, the gardens. Whole livelihoods won’t fit under a single wall."
+    "You smell Mateo's oilskin and the faint, repetitive tang of sea smoke in his beard. His face is a map of days spent under sun and storm. There is nothing theatrical in his fear; it is the plain geometry of loss."
+    hide iris_varela
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "We have weathered many tides. We have patched and re-planted and coaxed the land back. But if the sea is given one more handhold, it will take more than boards and stone to get it back. You hear me, niña?"
+    "You meet her gaze and find it complex — not simply pleading. There is calculation there, memory and a kind of terrible patience. She is older than contracts and algorithms; she is the ledger of lived adaptation."
+    hide elias_park
+    show sofa_serrano at right:
+        zoom 0.7
+
+    sofa_serrano "We don't have time for committees and pilots. My friends are scared to go to the beach class because the line at the boardwalk is already higher. The people who say 'we need to wait' are the same ones who can afford to wait."
+    "Her words are punctuated by a small, defiant slam of a palm on her knee. She is fire and youth and stubbornness; the crowd responds with shouts that fold into each other—support for Iris Varela, calls for Elias Park, retorts that echo with the town's old fractures."
+
+    menu:
+        "Stand and ask for order before speaking":
+            "You rise, palms open, and the room finds you like a magnet; a hush falls, thin as tide foam. The silence is heavier than any applause."
+        "Call Elias forward and let him finish the technicals":
+            "You gesture to Elias Park; he hesitates, then steps up, his hands steadying the tablet as if it were a small boat. The technicals sound kinder in his voice, but the room is not won yet."
+        "Point to Abuela Rosa and demand local knowledge be given weight":
+            "You lift your chin toward Abuela Rosa. The murmurs shift; faces that hadn't been paying attention look suddenly guilty, ashamed, or thoughtful. Aboriginal memory unsettles the investors."
+
+    # --- merge ---
+    "The scene continues toward the central decision."
+    hide mateo_reyes
+    show elias_park at center:
+        zoom 0.7
+
+    elias_park "Whatever you say—make it real. Don't let it be words."
+    "You could feel the warmth across the small space of his shoulder; for a second the hall narrows to that furnace of two people trying to do good in a room full of hungry numbers. His"
+    "optimism cracks at the edges tonight — the pressure of investor expectations and deadlines etched into the set of his mouth."
+    hide abuela_rosa
+    show iris_varela at left:
+        zoom 0.7
+
+    iris_varela "We can negotiate local councils into the contract. We will keep community boards. But there will be times when a decision must be executed without perfect consent. I learned that in a storm. Hesitation cost lives."
+    "Her delivery is softer now, but it's the kind of softness that contains steel. When she looks at you, her face softens with a measure of something like pity and something like calculation. The town knows"
+    "her story in fragments — loss, ascension, the necessity she claims. You do not know how much of her steel is defense and how much is bone set by grief."
+    "You imagine the scales: a concrete wall that will keep water but may drown small-scale fisheries and tidal gardens; a pilot that might be eaten by a storm before it proves itself; a hybrid that asks of people patience and toil during a season when they need wages."
+    "A woman near the door starts weeping; it is a small, private sound that nevertheless redraws the room's attention. The camera near the ceiling tilts toward her, and for an awful second you wonder which frames of tonight will be broadcast and which will be filed away in municipal memory."
+    "You sense the moment arriving — the pause where a name is made, where policy becomes a vow. Your mouth is dry. Your hands know the motion of unrolling tide sketches, of pointing out where dunes"
+    "still hold and where houses have already been licked by salt. You feel the planet’s indifference under the human ethics here: a steady, geological shrug that does not care for small comforts."
+    hide sofa_serrano
+    hide elias_park
+    hide iris_varela
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play music "music_placeholder"  # [Music: The cello motif tightens; a single held note]
+    "You can say something that steadies a few people and breaks the hearts of others. You can sign for speed, for caution, or for a messy middle that refuses simplicity. Each choice will tilt the town’s future into new weather."
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "Mara Serrano — we can do this together. I can push investors for time if we give them a plan with measurable checkpoints. Let me have your voice. Tell them we need pilots with full community oversight."
+    show mateo_reyes at right:
+        zoom 0.7
+
+    mateo_reyes "Or you can sign what Iris Varela will sell and we’ll be safe where it matters most — the main roads, the school. Some of us will lose bays and sheds; some of us will keep houses. It's ugly but maybe it saves our children."
+    show abuela_rosa at center:
+        zoom 0.7
+
+    abuela_rosa "There is no clean way forward. You all know this. Only less ruin or more ruin."
+    hide elias_park
+    show sofa_serrano at left:
+        zoom 0.7
+
+    sofa_serrano "We vote for people who will fight for us, not for people who sell us a sidewalk while the sea eats our fishing spots."
+    "The room leans on you like a ledge. The cameras hum. Investors shift in their seats and adjust cuffs; a muted hand taps a phone and a quiet message is sent. You taste the salt of the tide and the metallic tang of failure if you choose wrong."
+    "You picture the options and the faces that will hold them. You picture Elias Park's hopeful, tired eyes; Iris Varela's steel; Mateo's brow; Abuela Rosa's unreadable patience; Sofía's future. The compass at your throat feels heavy enough to be an anchor."
+    "Your voice, when it comes, will shape what the town calls survival. It will not erase loss. It will only decide which losses are permitted."
+    "You stand."
+    hide mateo_reyes
+    hide abuela_rosa
+    hide sofa_serrano
+
+    scene bg ch3_98c6f2_4 at full_bg
+    # play music "music_placeholder"  # [Music: The cello falls away to a single, sustained high note]
+    "You do not yet speak. You measure the weight of the words you will lay upon your neighbors. You taste despair at the edges of your resolve: VeryNegative, inexorable, the sense that no matter what you pick, someone will be lost."
+    # [Decision Build — the emotional arousal peaks to the choice: steady, mid-intensity; everything has been drawn taut to this moment.]
+    "You straighten, the brass against your skin, and you prepare to say the thing that will determine the next weeks."
+
+    menu:
+        "Support Elias's pilot and insist on community partnership.":
+            jump chapter4
+        "Back Iris's rapid structural contract to secure immediate funding.":
+            jump chapter7
+        "Propose a community-first hybrid: small defenses, marsh restoration, and conditional investment.":
+            jump chapter10
+    return

@@ -1,0 +1,213 @@
+label chapter16:
+
+    # [Scene: Council Chambers | Morning]
+
+    scene bg ch13_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle strings with a rising motif, hopeful and steady]
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of gathered people, the scratch of pens, the hush of an awaiting crowd]
+    "You pause at the threshold with your notebook pressed under your palm, a familiar weight that steadies you more than it should. The chamber smells like ordinary mornings and extraordinary decisions: municipal coffee, the iron tang"
+    "of old policy binders, the salt you've carried in on your coat. Across the aisle, Dr. Jun adjusts a projector and gives you a small, private nod — an old, practiced gesture that says more than"
+    "any press release ever could."
+    "Mayor Lila sits poised, laminated schedule folded, eyes kind but practiced. To your left, a corridor of faces you know: Sofía with her apron folded over an arm, Teo's elbow propped against a pillar, Elias Hart's"
+    "jaw set in that stubborn line you remember from the rescue crews. Hana Kim stands near the back, hands folded, the soft glow of her AR monocle catching the light. Her expression is precise, almost unreadable"
+    "— you file it as 'complex' and let the word sit there like a buoy."
+    "You breathe in, tasting salt and the faint burn of the cleaning solvent on the council's wooden rail. You remind yourself why you chose this route: not because it's easy, but because maps and models, when"
+    "assembled honestly, can do the same thing sweat can. They make action legible to the people who hold the purse strings."
+    show dr_jun_park at left:
+        zoom 0.7
+
+    dr_jun_park "The modeling team and volunteers took the estuary readings for three months running. We stress-tested scenarios with and without living seawalls integrated into neighborhood co-ownership frameworks. The results are clear: co-managed, biointegrated shores reduce breach probability by an average of thirty-seven percent in high-tide surges while preserving local access and livelihoods."
+    "He gestures; a model blooms above the dais: tendrils of green along the shoreline, communal walkways, small pumphouses marked with icons."
+    show mayor_lila_ortega at right:
+        zoom 0.7
+
+    mayor_lila_ortega "Those numbers — thirty-seven percent — they're compelling. But people will ask: will this protect homes? Will it be a permanent fix? And what about neighborhoods that, by geography, are harder to protect?"
+    show asha_rivera at center:
+        zoom 0.7
+
+    asha_rivera "We don't promise immortality to the shoreline. We promise a system that learns with us. The ordinance creates three things: dedicated funding for living seawalls, legal structures for community co-ownership so neighborhoods retain agency, and a rolling fund to adapt as the sea changes. It ties municipal resources to the hands that will upkeep them."
+
+    "Councilor" "And the cost? The procurement? Will this extend to rooftop gardens, pumps, desal nodes?"
+
+    dr_jun_park "Cost projections are conservative. The ordinance mandates a pilot year with prioritized stretches, community labor credits, and a matching fund model so municipal money leverages corporate and philanthropic contributions without ceding design control."
+    hide dr_jun_park
+    show hana_kim at left:
+        zoom 0.7
+
+    hana_kim "Technically, we can deploy adaptive mesh and low-energy pumps that integrate with living root structures. But they require monitoring and maintenance protocols. The ordinance needs a governance appendix — clear roles, data transparency, open API for community monitoring. Without that, technology becomes another top-down regime."
+
+    asha_rivera "Exactly. We write the appendix together. The city holds the purse; the neighborhood holds the keys."
+    hide mayor_lila_ortega
+    show elias_hart at right:
+        zoom 0.7
+
+    elias_hart "I want to be clear — community labor is non-negotiable. Not because it's romantic, because it makes systems durable. If the city signs off and then sells us some shiny pump and walks away, we lose everything we rebuild."
+    hide asha_rivera
+    show mayor_lila_ortega at center:
+        zoom 0.7
+
+    mayor_lila_ortega "We won't sell you anything. The ordinance is crafted to ensure co-ownership clauses. The legal team —"
+
+    "Councilor" "And enforcement? How do we prevent privatization after a year?"
+    hide hana_kim
+    show dr_jun_park at left:
+        zoom 0.7
+
+    dr_jun_park "Enforcement is part policy, part civic architecture. The ordinance codifies community councils with veto rights over asset transfer, ties funding disbursement to participatory audits, and creates a buffer fund dedicated to maintenance."
+    "You feel a pressure behind your ribs — not fear, not exactly; the steady drum of something that has been building for years. You remember nights on the boardwalk fixing knotwork for a seawall with Teo,"
+    "listening to Sofía tell stories about the houses that used to be there. Each memory is a ledger entry in the case you're making."
+
+    menu:
+        "Run your thumb over the map on your notebook":
+            "Your finger traces the inked coastline, smoothing the ridge of a penciled seawall. It steadies you. You glance at Jun, who meets your eye with a small, encouraging smile."
+        "Look directly at Elias and let your expression answer for you":
+            "He meets your gaze and for a fraction of a beat his face thaws — then sets like worked clay. The message between you isn't one sentence; it's a ledger of past fights and future work."
+
+    # --- merge ---
+    "Mayor Lila: [After a pause] 'The council will now open the floor for community testimony.'"
+
+    mayor_lila_ortega "The council will now open the floor for community testimony."
+    "The flood of voices that follows is human and beautiful and messy: Sofía's story of a garden reburied after a storm; an elderly fisherman's single, gravelly line about losing a dock; a young volunteer describing the"
+    "first juvenile mangroves they planted and how the children named them. Each testimony turns numbers into living matter."
+    "Elias Hart comes back to your side after his own testimony, shoulders loosened the tiniest degree."
+
+    elias_hart "So? Think we have the votes?"
+    hide elias_hart
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We have a majority leaning in. We still need one swing for the enforcement clauses."
+    "He gives you that reckless grin he uses when he's asking you to climb a ladder in a storm. You return it with a steadier smile — not pardoning past ruptures, but promising vigilance."
+
+    menu:
+        "Appeal to the council with a technical addendum":
+            "You tap the tablet Jun has passed you and walk them through the monitoring appendix. Data flows across the screen — clear, defensible, hard to dismiss."
+        "Tell a human story about the child who ran with rope on the boardwalk":
+            "You shift tones and speak a short, plain memory. The room quiets. Data is necessary; stories make policy humane. Both land."
+
+    # --- merge ---
+    "Dr. Jun and you alternate between numbers and narrative, giving the ordinance both backbone and heart."
+    "Dr. Jun and you alternate between numbers and narrative, giving the ordinance both backbone and heart. Hana Kim's technical clarifications undercut possible objections before they calcify. Elias Hart's insistence on labor credits reframes public works as public inheritance. Mayor Lila negotiates a final amendment, fingers moving as if folding paper."
+
+    mayor_lila_ortega "Then we vote — on the ordinance establishing the Living Shore Trust, municipal matching funds, and the community co-ownership framework, with the governance appendix and enforcement clauses as presented."
+    # [Scene: Council Chambers | Moments Later]
+    # play sound "sfx_placeholder"  # [Sound: Ballots dropping, murmured counting, a breath that moves through the room like wind through leaves]
+    "The vote is not theatrical. It is procedural and therefore perfect: enough hands raised, enough boxes checked, enough signatures signed. When the mayor's stamp hits the ordinance it sounds louder than it has any right to — a small percussion that settles into the room and then into you."
+
+    mayor_lila_ortega "The ordinance passes."
+    "Sofía cries first, a bright sound that makes half the room laugh and the other half switch to hands that find shoulders and wrists. Teo wraps his arm around your waist with a force that says"
+    "both thank you and get ready. Dr. Jun looks like someone who has been holding their breath and finally remembers how to breathe."
+    "Elias Hart reaches across and squeezes your hand so hard it hurts. You do not pull away."
+    "Hana Kim stands a hair apart, lips pressed as if she has just finished a calculus. Then, as the crowd begins to spill into the hallway, she comes close enough that you can smell the ozone of her smart-fabric jacket and the faint citrus of her lunch."
+    hide mayor_lila_ortega
+    show hana_kim at center:
+        zoom 0.7
+
+    hana_kim "You did the hard thing, Asha. You made engineers write their work into law."
+
+    asha_rivera "You made sure they couldn't just sell it back to us."
+    "She lets out a small exhale that might be a laugh or a sigh. Her expression remains complex. You take that as trust."
+    # [Scene: La Marisma — Skyward Market | Afternoon]
+    hide dr_jun_park
+    hide asha_rivera
+    hide hana_kim
+
+    scene bg ch13_601bcb_2 at full_bg
+    # play music "music_placeholder"  # [Music: Acoustic guitar with light percussion; a rising, hopeful melody]
+    # play sound "sfx_placeholder"  # [Sound: Laughter, the clink of cups, the slap of palms in improvised work songs]
+    # [Smell: Earth, frying plantains, sea spray]
+    "Back home, things are not wrapped in bow. A cluster of volunteers is already marking coastal stretches with biodegradable flags for the pilot. A municipal van parks down the lane with two civil servants who will"
+    "administer the matching funds and help register co-ownership trusts. Their faces are tentative, but their hands are open."
+    "Sofía finds you first, wrapping you in an embrace that smells of citrus and rosemary."
+
+    "Sofía" "They signed it with a real stamp. Can you believe it? Our kids — they'll learn a craft now, not just how to bail water."
+    show asha_rivera at left:
+        zoom 0.7
+
+    asha_rivera "They'll learn both. And they'll teach the city how to listen."
+    "Teo taps a board into place, fingers deft, grease still under his nails. He grins at a small team loading living-mat modules onto a barge."
+    show mateo_teo_rivera at right:
+        zoom 0.7
+
+    mateo_teo_rivera "We start at dawn. The south stretch first. If the pumps go live, we patch the gullies fast. Real work now."
+    "A woman from a neighboring block holds a thin envelope — a relocation notice for a low-lying row that cannot be part of the pilot this year. Her eyes flick to you, wary and raw. The"
+    "ordinance doesn't change geography; it changes governance. Some places will need more intensive intervention, and that means hard, bureaucratic choices."
+    "You walk to her, kneel, and take the envelope in both hands without words. You slide a small sheet of paper into her palm: details on the relocation assistance, the preservation-of-ownership clause that ensures cultural claims"
+    "are assigned to trust shares, the community labor credits they can apply to their new cooperative plots."
+
+    asha_rivera "It isn't perfect. It never will be. But you'll have a seat at the table for the second round. That seat is yours to name."
+    "She studies the page, and for a beat you see relief and grief braided together. It's not closure; it's a promise you nonetheless intend to keep."
+    "Across the market, Elias Hart is on a crate, teaching children how to tie a figure-eight knot. One of the kids looks at you with wide, serious eyes and then runs to show their parent the"
+    "knot — the same knot you used on seawalls last summer. Elias Hart catches your eye and lifts a hand in a small salute. You raise your notebook in reply."
+    "Hana Kim approaches carrying a small metallic case. She places it on your table and opens it: a slim prototype ringed device, the kind that logs environmental data, calibrated to upload into the living-shore network."
+    show hana_kim at center:
+        zoom 0.7
+
+    hana_kim "It's a community node. It pings to an open ledger. No vendor lock-in. You and Jun asked for it; I built it to spec. It's not finished, but it's ours to finish."
+    "You lift the device, feeling its light plastic shell and cool edges. It's an engineered thing that will live in a living seam — a hybrid object meant to be loved and tuned."
+
+    asha_rivera "We will teach people how to read it. We'll hire neighbors to maintain it. It'll be a job — not just a box."
+
+    hana_kim "That was the plan."
+    "The market fills with music and a quiet cheer. You move through it as if through a well-loved manuscript: lines you have written, lines other people re-write, margins annotated in real time."
+
+    menu:
+        "Head to the relocation table to speak with the woman again":
+            "You step back into the tent where paper forms rustle. You listen with the patience of someone who knows promises must be handled like seedlings. She asks one pointed question about ownership; you hand her Jun's contact information and promise to bring the legal template this week."
+        "Join Elias on the crate and teach a child how to tie a knot":
+            "You climb up and feel the sun on the back of your neck. The child's fingers are small but determined. He finally makes the loop and beams. The knot is simple, but it binds you into the day's work in a way numbers can't."
+
+    # --- merge ---
+    "Night slides into the rooftops, and the market becomes a constellation of lamplight and laughter."
+    "Night slides into the rooftops, and the market becomes a constellation of lamplight and laughter. The living seawall pilot will not save every house, nor will it stop every storm; it buys time, dignity, and a"
+    "legal structure that bakes care into statute. That, you decide, is worth the long hours and the heavy shoulders."
+    "Elias Hart finds you after the crowd thins. He is quieter now, the performance of outrage softened into something steadier."
+    hide asha_rivera
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "You took the council route. You told stories and brought numbers. You made the city listen."
+    hide mateo_teo_rivera
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We did it together. And we left them nowhere to walk away from it."
+    "He searches your face for some private verdict and finds only the tiredness you always keep carved into your jaw. He steps closer, then further — an old rhythm of closeness and cautious space."
+
+    elias_hart "Do you think we did it without losing ourselves?"
+
+    asha_rivera "We changed, Elias. That's what the work does. We put different things next to each other and learned which could survive the tide. Maybe that's betrayal to some. Maybe it's salvation to others."
+    "He presses his forehead to yours — not a kiss, not a fight, just contact that says: I've been with you through a lot and I will be with you through more."
+    "Hana Kim lingers at the edge of the small circle you make, hand tucked into her jacket as if holding a tool. For a moment she looks like she's calculating the exact angle for a support beam; then she smiles, not full, but present."
+
+    hana_kim "You'll have more meetings. I'll be in them, where I can be useful."
+
+    asha_rivera "Bring your calculations. Bring your stubbornness. We need both."
+    "She nods, and the small nod turns a quiet truce into a plan."
+    # [Scene: La Marisma — Boardwalk Overlook | Night]
+    hide hana_kim
+    hide elias_hart
+    hide asha_rivera
+
+    scene bg ch13_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: Solo cello followed by a soft chorus of voices, lifting]
+    # play sound "sfx_placeholder"  # [Sound: Water lapping, a distant laugh, the murmur of tightened nets being folded for the day]
+    # [Smell: Wet timber, a coconut-sugar pastry someone forgot on a bench]
+    "You stand at the edge with the potted cutting in your hands. The plastic pot is dented; the cutting's new leaves are the palest green. The night feels like an afterword: all the lines of the day smoothed and tied."
+    "You think through the ordinance in a spare, tallying way: the funding brackets, the co-ownership clauses, the maintenance credits, the governance appendix — a scaffold for care. You also think of the envelope in the woman's"
+    "hand, the fraction of the neighborhood that might have to move, the homes whose histories will be lived differently now. The win is structural; the losses are particular. Both fit in your chest."
+    "You set the pot down on the boardwalk rail and look out. There will be storms. There will be other decisions. But there is also this: a city that has, for the first time in many"
+    "cycles, put laws on paper that ensure people—not simply profit—get to define what protection means."
+    "You breathe out, and the sound is small and final and brimming. Teo's laughter carries up from the market; far off, someone starts a song. The living seawall won't finish in a season, but it will begin."
+    "Elias Hart steps to your side, then Hana Kim, then Dr. Jun, then Sofía. The group is a patchwork: activist color, engineered silver, scientist calm, market warmth. You have stitched them together at least for now."
+    "You slip your fingers into Elias Hart's for a moment. The contact is not an answer to all the questions between you, but it is a promise to continue."
+    "You turn your face to the estuary and let the moonlight edge your cheek in silver. In the distance, the flags along the shore look like a small army of caretakers, waiting."
+    "You think of the child who ran with rope and of the stories that will be told about this day: not only of an ordinance passed, but of people who learned to write laws with hands as well as pens."
+
+    scene bg ch13_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: Strings resolve into a warm, rising chord; then a final, gentle strum]
+
+    scene bg ch13_601bcb_5 at full_bg
+    "THE END"
+    # [GAME END]
+    return

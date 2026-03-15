@@ -1,0 +1,180 @@
+### SCRIPT
+# Route: Route A — Ending
+# Context: 601bcb
+
+[Scene: Tide Garden | Noon]
+[Background:"ch6_601bcb_1"]
+[Sound: The distant cough of a crane; cameras shuttering; a gull's keening threaded with a child's laugh.]
+[Music: Bright fanfare with an uneasy undercurrent; strings tense beneath brass.]
+
+You stand where the boardwalk meets the garden's lip, notebook clutched to your ribs like ballast. The packet Jun handed you is folded within, the paper's edge still warm from where your fingers have smoothed it into certainty. Around you the pilot sings — living modules flex, salt-tolerant grasses hold on in their fiberglass rootbeds, and the terraces breathe with the small miracles you and your people coaxed into being.
+
+Light splashes across Ori Navarro's face as he bends to help a boy lift a planter. His hands are ink- and soil-stained, the way they always are when he's translated an idea into something tactile. He looks up and catches your eye; for a breath you trade the kind of quiet smile that anchors you both. It lasts less than a heartbeat before the day takes you again.
+
+Maya stands with a phone pressed to her ear, ledger tucked under her arm, voice low and urgent. Old Mara sits by the water's edge, beads threaded through her fingers, and Silas runs between the crowd carrying a coil of new rope like a small, proud flag. Jun drifts nearby, recorder clipped to his collar, eyes flicking to your packet then away — always collecting, always waiting for the moment a story will snap into a headline.
+
+A sensor array next to the terrace glows a pale green. You glance at the display out of habit: the predicted tidal curve, the calm rhythm your models promised for today. Then the graph hiccups — a sharp spike, not in the margin but in the main line, a vertical arrow that doesn't fit the forecast.
+
+[Sound: A high, metallic ping as the sensor alarm cuts through chatter.]
+
+You freeze before your breath can become a step. The spike is wrong. It is sudden and raw and outside your notes. Your notebook is suddenly alive with thought — margin notes scratching into frantic shorthand: upstream gates? emergency release? PR timing?
+
+You catch Jun's eye. He has already moved, his jaw tight, fingers skimming through his recorder's files. He mutters something and then, as if discovering a small, ugly truth, his shoulders slump.
+
+Jun: "They—someone upstream released water. Not scheduled. Not in our comms. There's a memo... (he swallows) there's a short directive in the permit appendix. It authorizes rapid 'managed interventions' under ambiguous thresholds."
+
+Maya: "Ambiguous how?"
+
+Jun [holding up his phone, jaw set]: "Language like 'public safety optimization' and 'preemptive relocation authority'—it gives them the right to recommend removal if sensors pass a non-specific safety index. It gives them a lever."
+
+You feel the air in your lungs thin; the fanfare becomes a smear of sound. Camera bulbs flash on and off like beacons for a story that is changing mid-frame.
+
+[INTERACTION]
+> Choice A: "Move to the sensor array and yell for an immediate manual override"
+> Choice B: "Grab Ori and pull him away from the cameras to talk"
+> Choice C: "Signal Jun to record statements and start crowd control"
+[Outcome A: "You push through the crowd, hands shaking, and slam a palm on the console, trying to force a manual cut; the technician smooths your panic with a practiced glare, but the override won't accept your credentials in time."]
+[Outcome B: "You take Ori by the elbow into the shadow of a sail. His jaw tightens; the air between you draws hard. He listens, and you realize words are thin as paper here. He reaches up, fingers worrying at his seaglass charm until it slips free and clinks on the deck."]
+[Outcome C: "You turn to Jun with a quick nod. He snaps on the red light and begins questioning engineers and snatching official statements. The crowd becomes an uneasy audience, the narrative still salvageable if you can contain it."]
+[MERGE: The spike recedes as quickly as it came, but not before a whisper starts to unspool — someone upstream triggered a release to test the city system; the PR machine calls it 'stress-testing resilience' and in the same breath shows glossy renderings of the living wall shrugging off an engineered tide. Glass Pier's LED ribbons flash triumphant across feeds. Investors clap; cameras pan across children planting microgreens as if that image can hold a thousand meanings.]
+
+Calder Voss stands near the base of a crane, his overcoat buttoned against the wind, face composed in the way of men who measure everything twice. He steps forward into an arranged frame and speaks with a calm that has teeth in it.
+
+Calder Voss [measured]: "Today we've seen the living wall respond as designed. This is proof of concept and proof that scalable, managed solutions work. We remain committed to safety above all. We will be coordinating with civic authorities to ensure residents are protected."
+
+Maya's mouth opens, words like a strike, but she clips them into a forced question.
+
+Maya: "And the clause in Appendix G? The relocation language—how do you define 'safety threshold' in a way that doesn't mean expulsion?"
+
+Calder Voss [tilting his head, winter-smile measured]: "Safety is, by necessity, defined by expert analysis. We have to consider worst-case scenarios."
+
+Maya: "Worst cases that move people out of their homes."
+
+Calder Voss: "If it's necessary to preserve life, relocation is sometimes the only humane option."
+
+The cameras blink. A flash of a photograph later will make Calder Voss look like an avuncular savior. The thread of his response frays at the edges where the legal clause sits: carefully worded, legally mutable, like a net with holes you don't notice until you're already caught. You feel your optimism crack like thin ice under a boot.
+
+Silas, who has been holding a coil of rope, goes pale. He looks like someone discovering a secret in an old photograph: disbelief, then the hot sting of betrayal.
+
+Silas: "They're going to tell my aunt to leave. They already flagged 12 houses in the notice list."
+
+A hush lands, not a silence but a pressure, a held breath that cannot find a mouth. Neighbors who had been laughing minutes before stand frozen, eyes ricochet to their phones. Someone opens a door and finds an envelope taped beneath the eave — crisp, official, paper smelling faintly of bleach and corporate printers.
+
+Old Mara [voice small but steady]: "Contracts can be knives wrapped in ribbons. You wove a bright thing, child. But the blade still cuts if someone chooses to use it."
+
+Your chest aches with the old, familiar drum of responsibility. A lifetime of shouldering things hums in your bones. Did you trade a longer, quieter survival for the immediacy of protection? The thought arrives like a wave rushing back, and your survivor's guilt—carefully shaved down to a manageable groove—widens into an animal roar.
+
+You move toward Ori Navarro because he is the person who still anchors panic into design. You need him to be the kind of brave that builds rather than flees. You find him under a sail, sunglasses pushed up, his fingers closing around the seaglass charm as if it's an important calculation.
+
+Ava Maren: "Did you know they slipped that clause in, Ori?"
+
+Ori Navarro [looking at the charm, voice low]: "Jun just found it. I—" He stops, searches for the right shape for the anger you both feel. "I did what I could, Ava. I fought language in meetings, but legal teams spin tighter than welds. I thought the work would speak for itself."
+
+Ava Maren: "Words don't hold people on maps. Ink does. Ink and signatures. You—" Your voice catches. "We—" The pronoun fractures between you.
+
+Ori Navarro [turning to you fully, amber eyes far away]: "You made a call to take the pilot public. We wanted leverage. You thought this would keep people here for good."
+
+Ava Maren: "We had to show them something—"
+
+Ori Navarro: "Show them, yes. But I didn't want it to be what gives them a ticket to move people off the coast."
+
+The crowd's murmur sharpens into a blade of noise. Someone starts moving, someone else shouts, and the press mic catches the edge of a new narrative: 'safety advisories issued', 'managed relocation recommended'. Envelopes become sirens. A child bursts into tears as their mother unseals a letter that reads, in careful bureaucratic language, that their home has been prioritized for 'relocation consultation.'
+
+Maya [shouting into the phone]: "You can't just issue notices as advisories and call it consent! People are being told they 'ought to consider' relocation—this is coercion!"
+
+Jun [to a camera team, voice cold]: "There was a clause. It's been in the permit appendices. It reads like safety. It functions like leverage."
+
+As rain begins—first a fine salt spray, then a sudden, gray downpour—the tide that warmed your hands earlier becomes a mirror for the day: ripples where promises once were. Lanterns that were meant to celebrate bob like small, sinking suns above boardwalks where boxes begin to emerge: mattresses wrapped in plastic, trinkets wrapped in oilcloth, a life reduced into a rope of possessions.
+
+[Sound: Rain thudding on sails, the slap of tarps, a baby wailing through the storm.]
+
+You feel fury like a physical thing, hot and not yet honed. It shoots through you, incandescent and terrible. Your hands are fists; your jaw is a lock. In the center of that white-hot emotion is a sharper edge: did you trade safety for surrender? Did your pact with a corporate certainty become the very instrument of dispossession?
+
+Ori Navarro watches you, his expression complicated — shame, anger, helplessness. He lifts the seaglass charm between forefinger and thumb and lets it slip through his fingers. It clinks once on the wet wood and sits there, small and luminous, a private relic exposed to public storm.
+
+Ori Navarro [voice breaking]: "If people start leaving because of a letter that reads like safety, nothing we built will mean what we thought it did. I'm—" He swallows, and for the first time you see the seam of something you have avoided. "I'm scared, Ava. Not of storms. Of being the person who couldn't stop the next generation from losing their place."
+
+You take a step closer and then stop, because to touch him now is to admit that the personal and the civic are braided and you cannot unweave them. For a moment you both stand like two points of pressure on a map, waiting to see whether the line between you will fray or hold.
+
+Maya intercepts you then, eyes wild, hair damp against her temple.
+
+Maya: "We have to organize—legal teams, tents, public counsel. Jun, can you blow this into context? Make them see the clause for what it is?"
+
+Jun [already typing]: "I'm pulling permits; I'm calling every person who signed off. There's one name—an external risk assessor who filed a recommendation. If we can show that the threshold is manufactured, we can force a hearing."
+
+Maya: "Force a hearing—right now. We can't let envelopes be the olive branch people hand to a bulldozer."
+
+Old Mara rises slowly, shawl soaked, beads cold as river stones. She moves to stand at the head of the living wall, eyes scanning faces like a captain scanning a damaged hull.
+
+Old Mara: "The law has teeth. Words are tools and weapons both. You did a good thing, child. But good hands don't always see what the other hands are doing. You'll have to choose now who you are in the breaking."
+
+Your survivor's guilt detonates into a ragged decision. You look at the people around you — those who will stay because they must, those who will go because they cannot bear the risk — and something that is not cleverness rises: a thin, stubborn will to hold what you can.
+
+You make a move then — not toward the cameras, not to the legal briefs, but to the boardwalk where boxes are starting to lean and long-term neighbors are folding like paper dolls under instruction. You begin to speak, a command shaped by love and grief.
+
+Ava Maren: "Everyone—listen. We will not let them turn this into an eviction in a suit. We will file injunctions; we will demand public hearings; we will not accept 'advice' as a lever to shift people out."
+
+A murmur builds, the sound of a sea finding its own cadence. People look to you because they still do, because you are the person who put the plan on paper and pinned it to the wall. Your words are a rope thrown into a current.
+
+Then the decision that will define the rest of this day — and many days after — lands in front of you like a small, angry animal: you can use the very visibility the pilot gave you to escalate pressure against VossCorp, risking open legal battle and more blowback; or you can take a narrower path to protect a portion of Saltway immediately, negotiating, trading tenure for a binding covenant that will keep most in place but leave some vulnerable to relocation.
+
+You open your notebook. Your pen trembles. The ink puckers where your hand presses too hard. Inside your mind, the statistics taught at midnight, the margin notes of modeling, the faces of the people who trusted you crowd together until the choice is not a concept but a weight.
+
+Ori Navarro stands just behind you, silent, and you hear the wet click of the seaglass charm under his boot as he shifts his weight. His presence is both anchor and question: will he stay with the fight you insist upon, or will he take his hands — brilliant, itinerant, full of salvage and hope — and leave to seed other shores?
+
+You fold the notebook closed with a sound that echoes like a small, final thunder. The rain has thickened into a curtain. Lanterns flicker, some being hauled down by hands that now face a longer night than they expected. People file addresses into their phones. Boxes nod like small caskets of ordinary lives being loaded onto carts.
+
+You do not speak again for a long time. Instead you walk the length of the living wall, fingers trailing along the algae-streaked concrete, feeling the life you helped create thrumming under your palm — a living thing that keeps breathing even when hands shake.
+
+[Background:"ch6_601bcb_2"]
+[Sound: Rain washing the garden; a distant siren.]
+
+When you look up, the cameras are still on Calder Voss, still finding angles that make him look like a steward. But the muttered accusations are finding their place online; Jun's recorder has a new, raw file flagged 'Appendix G leak'. Maya is on her feet, organizing legal aid as if stitching a torn sail.
+
+You realize, with a cold and certain clarity, that the victory the pilot offered is now a currency — one that can be traded, argued over, and used to leverage power. Some will stay by force of law; others will go because the notice read as 'advice' will be all the future they can afford to avoid.
+
+You make your choice in a way that is not a tidy moral victory. You choose to stay and hold the line for as many as you can. You sign your name to the first emergency advisement, a public notice you help draft that calls for immediate injunctions and a community oversight board. It's imperfect, and it doesn't stop the envelopes already taped beneath doorframes. It does not bring everyone home. But it is a thing of action made by the people it affects, and in this rain-slicked hour you understand that the best answer you have is to do the next right, messy thing.
+
+Ori Navarro finds you afterward. His hair is wet, his coat clings to him. He takes your hand before you can speak; the touch is both apology and proof.
+
+Ori Navarro: "I'm leaving salt-bound days to build elsewhere. There are places that need the prototypes, and I can't watch this corner be chewed up and do nothing. But I won't leave without telling you that what you did mattered to me. It matters to all of us."
+
+Ava Maren [voice low, steady with a sorrow that is also gratitude]: "I don't know if this is enough. I don't know what 'matter' will mean by morning. But I'll keep fighting. For as long as it takes."
+
+He presses his forehead to yours in a kiss that is small and feral and full of every half-said promise you've traded in work and late nights. When he steps back, he leaves the seaglass charm folded into your palm — an island you can hold.
+
+[Background:"ch6_601bcb_3"]
+[Sound: The slap of a small boat cutting through rain-dark water; a single gull's call swallowed by wind.]
+
+You watch him go until the silhouette of his back is a smudge on the horizon. The lanterns bob. Boxes pass hands. Legal briefs begin to stack on a table in the community hall. Jun's dawn-ready article pings as a new notification. Mara mutters an old blessing and a warning. Maya breathes, always practical, already making lists.
+
+There is grief. There is righteous anger. There is also a stubborn ember of something like resolve. The living wall persists, a green spine against the water. It does not feel like triumph now; it feels like a responsibility — heavy, fragile, and undeniable.
+
+You close your notebook once more and tie the strap. Your hands are not the same as when you first opened it months ago. They are steadier in a way that has cost them softness.
+
+You walk the boardwalk home through the salt rain, past neighbors loading what they can carry, past the press tents that now look too bright against a community's unraveling, past the place where Ori Navarro stood and where he left you the seaglass charm. You slide the charm onto your bracelet and feel its cool edge press against your wrist — a small, private charge.
+
+As you pass the Tide Garden, a child looks up from a planted bed and waves. You wave back. Her hand is sticky with soil; her smile is mud-smeared and true. It is enough to make the grief sharper and the resolve deeper.
+
+You have no tidy victory to treasure. What you have is work to do, legal fights to file, people to keep at bay from being priced out under the guise of 'safety,' and a neighborhood that will need you to be both spine and balm. The pilot that was meant to be proof has become proof of something else: that power will use any opening for its own design. It will be your task to make openings that serve people rather than displace them.
+
+The rain eases into a persistent mist. Salt and soap and the smell of wet timber rise to meet you. You tuck your chin into your collar and step forward, notebook underarm, lantern-light haloing the pages.
+
+[Background:"ch6_601bcb_4"]
+[Music: A low, resolute cello line that fades into the sound of the tide.]
+
+You do not know how many nights it will take, how many hearings you'll face, how many good people will be worn thin by worry. But you know this: you will stay. You will fight. You will hold where you can. The marriage of hope and law is messy, and you are learning its weight with every soaked step.
+
+[Background:"ch6_601bcb_5"]
+[Sound: The sea, patient as ever; a gull's final call before the night swallows it.]
+
+[Background:"ch6_601bcb_6"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

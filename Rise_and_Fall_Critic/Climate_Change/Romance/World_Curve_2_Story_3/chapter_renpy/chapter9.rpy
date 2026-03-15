@@ -1,0 +1,196 @@
+label chapter9:
+
+    # [Scene: The Old Boathouse | Late Afternoon]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Pens scrape, rain soft against tarpaulin, a distant harbor bell tolling faintly.]
+    # play music "music_placeholder"  # [Music: Low, mournful cello underscored by a single suspended piano note.]
+    "You can feel every eye on the room as if the boathouse itself is leaning in. Ivy's hands curl and uncurl at her knees. Lina's pen taps a deliberate rhythm against her notebook. Tomas leans on"
+    "his carved stick; his jaw works like a man chewing on the past. Ariana stands at the edge of the light, the blue streak near her temple catching what little brightness there is and throwing it"
+    "back in a sharp, cold line. Cassian watches from the other side of the table — his suit damp at the cuffs, the Tideguard seal exact and unreadable on his lapel."
+    show cassian_rhee at left:
+        zoom 0.7
+
+    cassian_rhee "We've modeled the surge paths. The parapets will protect the low-lying neighborhoods. The engineering margins are conservative. We can mobilize crews next week."
+    "(He sets the compact down with a practiced calm.)"
+    "You study the compact like it's a map to some new country. The document's language is clear. So are the omissions. Rezoning clauses curl like a secret inside the legalese. Access restrictions are small sentences with large teeth. You know the math: concrete displaces, concrete secures, and people move."
+    show ariana_voss at right:
+        zoom 0.7
+
+    ariana_voss "There are alternatives — living edges, staged barriers. We can combine approaches. Give the pilot a chance to scale."
+
+    cassian_rhee "Marin, you asked for safety for this season. This buys time we can use to pilot other systems without losing lives."
+    show ivy_morales at center:
+        zoom 0.7
+
+    ivy_morales "Lives isn't the only thing at stake.' Her voice goes brittle. 'Our ways. Our nets. The inlet by the Hale place—"
+    "Tomas: (quietly, from the corner) 'They'll move the tide—and not all of us can move with it.'"
+    "You touch the brass compass at your throat without thinking, fingers finding scuffs that read like a shorthand of every wrong turn and every lesson. It feels cold, then warm against your palm."
+
+    menu:
+        "Press the compass to your chest":
+            "You close your hand around the pendant for a heartbeat, a ritual of steadiness you learned as a child. The steady thud of your pulse is almost loud enough to drown the legalese."
+        "Set the compass on the table and sign":
+            "You lay the compass down beside the compact as if placing two weights against each other — memory and mandate — and pick up the pen. The metal clinks once on wood."
+
+    # --- merge ---
+    "The scene continues with your decision resolved and the signature made."
+    "You don't think you can explain what you do next in words that won't be eaten by consequence. Your hand trembles, but it is not indecisive. You have already let the town's breath hitch for you"
+    "so many times that you can feel the shape of a compromise in your ribs."
+    "You set the pen to paper. The nib scratches. It's more intimate than you expected — more like a confession."
+    "Cassian Rhee's smile is small. It is a private thing, like someone who has just locked the door. Arianna's face, when you look back at her, splits into two: the immediate relief at lives spared and a shuttered disappointment that shelters behind her eyes like a thin, permanent film."
+    "Ariana Voss: (phone in hand, voice steadying) 'We'll document everything. We'll demand follow-up funding, transparency, community oversight.' (She meets your eyes with a look that is equal parts hope and reproach.) 'Promise me you'll stay at the table.'"
+    "You want to promise everything and nothing at once. You want to tell her that you will fight the clauses, unmake the parts that hurt, that there will be time for the kelp nurseries and the"
+    "living walls. You open your mouth and close it. The signature seals the moment. Ink dries. Hands leave the table."
+    "Lina: (softly, already drafting) 'This will be front page. They’ll call it decisive leadership.' Her eyes meet yours; in them is the tension of the journalist who knows a headline is a knife and a balm."
+    "You leave the boathouse carrying the weight in your chest. Rain smells like iron and salt, and the town smells like a bruise."
+    # [Scene: Fortified Harbor Construction Sites | Morning | Several Weeks Later]
+    hide cassian_rhee
+    hide ariana_voss
+    hide ivy_morales
+
+    scene bg ch9_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Hydraulic pumps, shouted directions, seagulls crying above the din. The thump of concrete mixers is a new heartbeat for the shoreline.]
+    # play music "music_placeholder"  # [Music: Marching low strings, undercut with an industrial percussion — purposeful and relentless.]
+    "The parapets rise like a new geography. Blocks fit into place with the calm brutality of an inevitability. Men and women who used to fish the inlet now line up at a municipal tent where forms are filled and relocation notices are handed over like small, final liturgies."
+
+    "Worker (to you)" "Mayor Sato? The east segment's set for pour this afternoon. We've scheduled the access gates for Tuesday."
+    "You walk the site with a hard hat pinched against your head. The concrete smells like wet stone and money. Fathers and mothers carry cardboard boxes; an old man drags a battered toolbox with slow hands"
+    "that have always known tide tables. Kids sit on the edge of a pile of sand, watching their world become a wall."
+    "Ivy meets you by a stack of palettes. Her neon vest is streaked with concrete. She doesn't smile."
+    show ivy_morales at left:
+        zoom 0.7
+
+    ivy_morales "We kept the school and the market on the protected side, Marin. But Hale's inlet—his family's landing—it's inside the zone they rezoned for 'service access only.' Elder Tomas...' (she stops, voice snagging on the syllables) 'He'd been sailing since he could walk. He says he doesn't know where to put his tools."
+    "You reach for an explanation that doesn't make the ache worse. Cassian Rhee approaches in boots stained like the rest of ours, but his movements have an efficiency that never quite softens."
+    show cassian_rhee at right:
+        zoom 0.7
+
+    cassian_rhee "We protected the majority of residents, Marin. Statistically, we saved hundreds from displacement in the long term."
+    show marin_sato at center:
+        zoom 0.7
+
+    marin_sato "At what cost, Cassian? The people who lose access—they'll lose livelihoods. The boat slips, the nets. Those are measured differently on a balance sheet than housing units are."
+
+    cassian_rhee "No mitigation is perfect. We've allocated relocation assistance and retraining programs. We're opening procurement to local contractors for maintenance."
+    "You listen to the words. They are good words. They are also not the same as the smell of diesel and seaweed, not the same as the ache when you pass the Hale inlet and see the new access signs."
+    "Lina: (from behind them, notebook closed) 'I'll run the human element next week. They'll want to know the names — the people with the boxes. The paper will ask if this was the only way.'"
+    "The press records two truths at once: the town is safer; some people lost the shore. Both are true. Neither sits easily in your chest."
+    # [Scene: New Concrete Parapet at the Harbor | Storm Day | Dusk]
+    hide ivy_morales
+    hide cassian_rhee
+    hide marin_sato
+
+    scene bg ch9_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind screaming like a thing scouring itself, rain hitting the parapet in sheets, the distant roar of the sea like a beast uncontained. The protected side muffles the worst into a steady percussion of droplets.]
+    # play music "music_placeholder"  # [Music: A sharp string motif interspersed with low brass — victory notes that taste like ash.]
+    "You climb the steps carved into the new barrier and stand above the town you helped choose. The wind rips your hair from the low ponytail; one loose strand batters your cheek like a small whip."
+    "The parapet feels solid under your palms. It hums with the energy of saved things."
+    "From up here, you can see the houses on the protected side untouched by the surge — windows dark, roofs intact. You can see people huddled on porches, blankets over knees, eyes wide and wet with"
+    "relief. A child on the wharf points out toward the foam, asking a parent what happened, and the parent says, 'We built a wall,' and the simplicity of that answer is both miracle and wound."
+
+    "Ivy (yelling up from below)" "You're up there like a sentry, Marin. How's the view?"
+
+    "Marin Sato (shouting back)" "Better than the pier used to be. Less wind up here."
+    "Your throat tightens. Relief is a physical thing — as immediate as the breath that finally leaves you when the worst passes. You feel it in the loosening of a muscle you didn't know was clenched. For a raw, dazzling moment you are allowed to believe the math was right."
+    "Ariana Voss appears at your shoulder, cloak lashing, eyes bright with rain."
+    show ariana_voss at left:
+        zoom 0.7
+
+    ariana_voss "You did it."
+    show marin_sato at right:
+        zoom 0.7
+
+    marin_sato "We did it."
+    "A pause falls between the two of you like a rope tossed and not yet held."
+
+    "Ariana Voss (after a long breath)" "You saved a lot of people tonight. You saved the school. You saved the market.' (She glances across the harbor where a sign restricts access now.) 'But I watched families box up lobsters and reels. The inlet's closed to public mooring."
+
+    marin_sato "I know."
+
+    "Ariana Voss (hurt and measured)" "I came here to prove we could do both. To show that communities could adapt without losing what makes them whole."
+    "You try to explain — about the timelines, the funding, the clauses — but explanations feel brittle. She steps back as the wind pushes between you, creating a physical space that echoes the new distance forming in her face."
+
+    menu:
+        "Call after her, insist on staying together":
+            "You shout, voice raw: 'Stay. We'll fix this—together.' She pauses, looks at your open mouth, and then looks out at the access signs as if they are small, stubborn stars. She doesn't come back."
+        "Let her walk away and watch":
+            "You keep watching her silhouette recede into the rain. The choice to let her move feels like an affirmation and a surrender at once. The distance is measured in steps and in the quiet that follows."
+
+    # --- merge ---
+    "The scene continues with the emotional distance established between you."
+    "She stands there a long time, the film of disappointment steady and small in her eyes — not an outburst but a permanent tarnish. It is the kind of hurt that doesn't break the heart but changes the shape of love lodged there."
+    # [Scene: Relocation Site / The Old Boathouse | Morning After the Storm | Pale Sunshine]
+    hide ariana_voss
+    hide marin_sato
+
+    scene bg ch9_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low conversation, the scrape of dollies, a seagull's wasteful cry. A coffee urn hisses behind a tent where volunteers hand out blankets.]
+    # play music "music_placeholder"  # [Music: Sparse piano, a single clarinet line, a soft undertow of strings — elegiac and small.]
+    "The storm proved the argument that convinced the vote. The parapet worked. You cannot deny the savings: houses that would have flooded stayed dry; lives did not have to be rebuilt. You see the faces of"
+    "people who sheltered and you know the relief in their eyes is not a lie."
+    "But you also read the relocation notices — names you know, numbers you recognize — and your hands shake with the knowledge that the saved and the displaced are not the same set."
+    "Tomas: (without lifting his head) 'I always said the sea's memory is long. We forget things at our peril, Marin. We forget who came before, and the tide remembers.'"
+    "You sit beside him. The carved stick is warm from his grip."
+    show marin_sato at left:
+        zoom 0.7
+
+    marin_sato "We tried to make the choice that saved the most."
+    "Tomas: (a dry laugh that tastes like a lifetime) 'Most doesn't keep the boat in the family.'"
+    "Lina arrives with the morning paper folded under her arm. Her article headline is clinical: 'Havenport Fortified; Lives Save(d), Access Restricted.' The subheading tells a longer story. She catches your eye and hands you a copy."
+    show lina_park at right:
+        zoom 0.7
+
+    lina_park "I tried to hold both threads. The editor wanted a clean victory. I wrote the middle lines raw.' (She gives you a look that is soft, weary.) 'People will remember that both happened."
+    "You read the piece and see the portrait of the town split across the columnar lines: quotes from families who sleep dry, quotes from fishers who have no pier to return to. The paper is a mirror that returns a fractured image."
+    "Ivy: (offering you a thermos) 'We can make spaces for them, find work, re-skill where we can. It's what we do.' Her optimism is fierce but frayed. 'We could set up a dock-share, push for exemptions.'"
+    "You want to believe it. You want to put your shoulder to the wheel and move the laws, bend the bureaucracy. But even as you plan, you can feel the small, ugly truth: some things are"
+    "lost in the exchange. New maps settle like dust; they are not always easy to sweep away."
+    "Ariana Voss comes by later, her coat heavy with damp. She avoids your eyes at first, and when she finally meets your gaze there is no accusation, just a landscape of quiet grief."
+    show ariana_voss at center:
+        zoom 0.7
+
+    ariana_voss "I know why you signed.' (She folds her hands like she is keeping them from reaching out.) 'This winter could have been worse. You saved people."
+
+    marin_sato "I thought I could protect the town and the story of the town. I—"
+
+    ariana_voss "I know you thought that. But I watched families get notices. I watched Tomas's inlet become a 'service entrance.'"
+    "There is a long, tense exchange that unspools between you — not loud, but layered: you speak of budgets and deadlines; she speaks of culture and roots. Each of your sentences meets the other and doesn't"
+    "quite bridge the distance. You try to offer fixes; she names the things that cannot be fixed by a retrofit or committee."
+    "Ariana Voss: (after a pause) 'Maybe we'll build the living walls where we can. But I won't smile for the ads, Marin. Not like that.'"
+    "Her finality lands with a small, decisive sound. It is not a door slammed; it is a door left closed, an ocean between two shores."
+    "You stand in the rain of aftermath and feel the compass heavy against your sternum. Relief sits beside guilt and both are real. The town is safer in measurable ways. The town is also smaller in"
+    "private ways that no statistic can catch: the way Tomas no longer hums when he walks the docks; the way children ask a hesitant question about where their grandparents moored the boat."
+    "You think of all the hands that built those parapets — your hands among them — and of all the hands that now pull at tools with nowhere to leave them overnight. You think of the"
+    "brass compass, its scuffs like old promises, and you can't decide if it points you forward or back."
+    hide marin_sato
+    hide lina_park
+    hide ariana_voss
+
+    scene bg ch9_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull cries; the town murmurs; a distant hammer taps a rhythm that speaks of rebuilding and removal both.]
+    # play music "music_placeholder"  # [Music: The cello returns to a single sustained note, then eases into a minor key that hangs like fog.]
+    "You lift the compass and let it swing once, then tuck it back beneath your collar. You have delivered a kind of safety. You have exacted a kind of loss. Both will occupy the town's memory — different rooms in the same house."
+    "You breathe in a long, bitter breath and accept that responsibility is not a point but a line you will walk for as long as you can. You will mend where you can, listen where you must, and fight the parts of this decision that can still be softened."
+    "You look toward the parapet, toward the house that stayed dry and the inlet that will not hold nets tonight. You are both proud and ashamed. You do not know if either is the right response, only that both are true."
+    # [Scene: The Old Boathouse | Late Afternoon | The Next Month]
+
+    scene bg ch9_3be532_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A soft, steady rain. The town's sounds are far off, muffled now, as if some of them belong to a different map.]
+    # play music "music_placeholder"  # [Music: Piano and low strings, winding down to a hush.]
+    "You sit alone for a while, fingers tracing inked lines. The brass compass lies on the map — a small sun that throws a hard shadow. You fold the corner of a page and place the"
+    "pen beside it. You have letters to write, programs to launch, meetings to attend. You have apologies to give that may never be accepted."
+
+    "Tomas's voice lingers in your ears" "The tide remembers."
+    "You stand, finally, and go out into the dusk. The town moves with its new bones. People murmur about the parapet and the saved houses, about the families who now wait for housing assistance. Somewhere, a"
+    "child laughs — a raw, earnest sound that reminds you that life continues in spite of choices that wound."
+    "You fasten the compass at your throat and feel its weight as an honest thing — not a verdict, not an absolution. Just a tool, a reminder of direction."
+    "You inhale the salt and the damp and set your jaw for the work ahead. You will find ways to soften the edges. You will be accountable. You will keep maps and lists and meetings and"
+    "you will try, daily, to make the town's new lines less deadly and more humane."
+    "This is not the ending you wanted, but it is an ending nonetheless: the parapet is in place, storms can be weathered, some lives are saved, some lives have been rerouted. The town will carry these choices forward."
+    "You look at the horizon where water meets an uncertain sky and vow, quietly, to stay — to be present at the places the walls could not hide."
+
+    scene bg ch9_3be532_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

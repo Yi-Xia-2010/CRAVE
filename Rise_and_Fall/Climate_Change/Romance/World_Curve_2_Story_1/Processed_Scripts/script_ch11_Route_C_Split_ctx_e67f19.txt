@@ -1,0 +1,163 @@
+### SCRIPT
+# Route: Route A / Ending
+# Context: e67f19
+
+[Scene: Coastal Research Annex | Night — after the notice]
+[Background:"ch11_e67f19_1"]
+[Sound: Low mechanical thrum from distant vans; the Annex's refrigerator clicks; rain patters against the pilings]
+[Music: Sparse cello, a slow descending motif; low synth undercurrent]
+
+Narration
+You come back through the Annex door with the salt of the night still on your boots and the taste of iron in your mouth. The notice flaps under the sodium streetlight like a thin accusation you cannot fold away. Eli's words—short, careful—replay under everything: They found out. The sentence sits between your shoulders and the sea.
+
+Narration
+You set your notebook down with more force than you intend. The bronze pendant rests warm against your collarbone; when you close your fingers around it, it feels less like an heirloom and more like a ledger balancing credits and debts. Your hands smell of mud and cold rope. The damp room smells of coffee gone stale and the chemical tang of preservative jars. Behind the glass, the harbor water throws back a fractured neon, as if the town's promises have already started to crack.
+
+Narration
+You run a finger through the salt in your hair, the motion automatic. This is a place of instruments and late reconciliations; the screens around you glow with numbers that say nothing about guilt, only about sea levels and salinity. Yet those numbers hover in the air like witnesses.
+
+Eli Navarro: "You look like someone who just lost a bet with the tide."
+(He tries for a joke; it lands thin.)
+
+Maya Rios: "I didn't mean for this to threaten people."
+(You hear the plea in your own voice before you're done.)
+
+Eli Navarro: "I know that. You were trying to prove something, to show—"
+(He pauses; the unfinished clause hangs like a net with a hole.)
+"—a way that wasn't paperwork-deep."
+
+Maya Rios: "That's the thing. I keep thinking about the forecast I messed up, the houses that took water because I misread a model."
+(You press your thumb against the spine of your notebook.)
+"What if—what if any misstep now doesn't just embarrass me, Eli? What if it makes it worse for everyone?"
+
+Narration
+Eli exhales, slow and steady, like someone trying to un-wind tension without letting it snap.
+
+Eli Navarro: "Then we be smart with the risk. We don't just swing until someone gets hurt. We think it through."
+(He meets your eyes, and for the first beat you catch something unspoken—loyalty braided with an edge of fear.)
+"But I'm not going to tell you not to fight."
+
+Narration
+You: (You should be grateful for that. You are.) "Thank you. But gratitude doesn't make the notice go away."
+
+Eli Navarro: "No. But we can make a plan."
+(He leans over the counter, palm flat on the laminated tide schedule.)
+"Listen—there are paths here, Maya. Some are physical, some public, some reckless as hell. We weigh the risk. You tell me which way your head goes and I'll measure it with you."
+
+Narration
+Inside your chest the old knot of guilt—your misread forecast—tightens and loosens in a new rhythm. It has taught you a peculiar humility: that good intentions cannot substitute for precision. That knowledge makes every hammer, every shovel, and every leak into a moral problem that could blow up in your face.
+
+[INTERACTION]
+> Choice A: "Check the Annex servers for anything a friend might have left"
+> Choice B: "Call Ivy to ask about legal aid and crowd strategy"
+[Outcome A: "You pull up the terminal, fingers hesitant over the keys. The login screen blinks like a small alarm — someone at the Annex has been careful, but there are footprints in the directory. You feel the cold thrill of discovery and the prick of accountability."]
+[Outcome B: "You press Ivy's number with hands that don't feel steady. Her immediate, bright voice cuts a ragged edge through your fear. 'We can mobilize people,' she says, already in motion. You feel steadier, but the world narrows to what the crowd will do next."]
+[MERGE: Whatever you choose, the room feels like an operating theatre: too many hands, too many possible incisions. Eli watches you with the look of someone waiting for you to decide whether to stitch or to pull the stitches and try again.]
+
+[Scene Transition: You step back out into Harborfront Lane to look at the notice again]
+[Scene: Harborfront Lane | Midnight — boardwalk under the rain]
+[Background:"ch11_e67f19_2"]
+[Sound: Distant vehicle hum, gulls muffled by storm clouds, the flapping of paper]
+[Music: A low, insistent piano motif; winds rise in the arrangement]
+
+Narration
+The boardwalk under your feet is half mirror, half trap. Rain collects in the grooves of the planks and splashes up against your boots. The notice is smaller in person than you remember but louder—an official geometry that rearranges people's plans. Around it: the smell of smoked fish, diesel, and wet wood; the town's ordinary life that might be altered by a single pushed policy.
+
+Narration
+Cass Adler's name comes to mind like a footprint in mud you can't avoid stepping into. In another life—under different choices—you might have called them for negotiation. In this life, the idea of Aquila's designers, their glossy scale models and polished promises, sits distorted against the marsh's living seams.
+
+Narration
+You run your thumb along the notice's ragged edge. The letters are procedural, but the meaning is immediate: enforcement can begin, permits can be revoked, fines can be levied.
+
+Narration
+A phone buzzes in your pocket. Caller ID: Cass Adler. You feel the flush of a dozen histories under your skin—unresolved collaborations, rivalries, maybe something like affection, all folded into a single vibration.
+
+Maya Rios: (You let it ring once, twice.) "Hello?"
+
+Cass Adler: "Maya."
+(Their voice is thin through the rain but precise.)
+"I saw the notice on my way back from the site. I—"
+(They pause, as if weighing tone against content.)
+"—I wanted to know if you were all right."
+
+Maya Rios: "You saw the notice."
+(You keep your voice level.)
+"Are you offering help, Cass, or is this a courtesy call before a legal filing?"
+
+Cass Adler: (A small, almost inaudible laugh.) "Can't I do both? There's been movement at Aquila—some of it you don't need, some of it you do."
+(Their tone becomes careful, almost clinical.)
+"I can ask for a temporary freeze on enforcement while we discuss alternatives. But I need leverage to make that stick, and I'm not interested in a PR circus."
+
+Maya Rios: "Leverage like what?"
+(Your heart rate picks up, the rain now a steady drum on your shoulders.)
+
+Cass Adler: "Information. Time. A narrative that doesn't sound like you defied the law for a selfie."
+(They let the irony hang.)
+"You know me—I like elegant solutions. But elegant also means fast. If we move fast, we can keep this from spiraling into arrests or broken trust."
+
+Narration
+Their offer feels like a scalpel: sharp, efficient, and with a handle that might cut you. You think of the memo—something a friend at the Annex whispered about in a corridor two nights ago. You think of press cycles and Courthouse doors. You think of the people who would march with you if the town believed their story.
+
+Narration
+Eli's face arrives in your mind—complex, unreadable—his loyalty a steady thing but threaded with worry. You remember his hands in the dark, his calendar, the slow certainty with which he counts tides and people. The town trusts him in ways that they may not trust Aquila, or you.
+
+Cass Adler: "If you want me to lean in, you have to let me know how far you're willing to push."
+(Their voice narrows, not unkindly.)
+"Are you asking me to act as a bridge? Or are you asking me to cover your rear?"
+
+Narration
+Maya Rios: (You could tell them the truth: everything. Or you could shield what happened at night, what you moved, the illegal work in the mud. Honesty could mean legal exposure; silence could mean moral erosion.) "I don't know what I'm asking for yet. I—"
+(You swallow.)
+"I need time to weigh the damage versus the gain."
+
+Cass Adler: "Time is a luxury neither of us has."
+(They sound suddenly sharp.)
+"Storm's forecasted. Aquila's equipment moves when weather distracts a town. If we wait until the storm, the opportunity to change plans clips out from under us."
+
+Maya Rios: "So it's timing, not just leverage."
+(You try the sentence out, tasting the truth.)
+
+Cass Adler: "Timing and narrative. If the town sees a plan that protects them without stripping them of their livelihoods, that's a public relations victory I wouldn't mind owning—if I can avoid cost to Aquila's bottom line. If I push too hard for community control, I risk my career."
+
+Narration
+Their frankness is a blade held against your ribs: helpful intention intersecting with ambition. You think of Ivy organizing, of Mayor Jonah's thin smile, of families who sleep with radios by their beds. The marsh's quiet life is both an ecological problem and a cultural inheritance. Every path forward will be a compromise.
+
+[INTERACTION]
+> Choice A: "Confront Cass about motives—demand they put community control in writing"
+> Choice B: "Ask Cass to quietly delay enforcement while you gather evidence"
+[Outcome A: "You press, words sharp with exhaustion. Cass's voice goes very quiet; for a breath you hear the hum of the harbor as if the world itself is listening. 'I can't sign what I can't force,' they say, which is both true and infuriating."]
+[Outcome B: "You take the gentler route and ask for breathing space. Cass's reply is measured: 'Three days.' It's neither a promise nor a refusal, but it's something—a thin thread of time you might use to stitch a better story."]
+[MERGE: Rain begins to curl harder around the light. Up on the rigs, a crane tilts like a question mark. The options fold into one another — you can escalate in the mud with shovels and oyster lines; you can try to blow the whistle so the town watches Aquila with fresh eyes; you can attempt something dangerous and immediate to blunt a bulldozer's teeth.]
+
+Narration
+Your chest tightens. The memory of the forecast you misread comes back sharp as a bell: an error that left a rowhouse half-underwater and a neighbor blaming you with the blunt cruelty of survival. That guilt is a teacher that won't be ignored: it demands precision, and yet the marsh demands speed.
+
+Narration
+Eli's hand finds the back of your neck through layers of hoodie and jacket—steady, grounding. He has not made the choice for you; he cannot. He has only offered to stand in the rain with you.
+
+Eli Navarro: "Whatever you pick, I pick with you. But remember—this isn't just about winning. It's about what we can live with if we lose."
+(He squeezes, and the grip says more than his words: caution, and a willingness to bear the consequence together.)
+
+Narration
+Your fingers go cold. The wind carries the harbor's smell and the faint tinge of metal from Aquila's machinery. Each choice is a lever and a law — a technical action with social consequence. You sense the tide of events shifting under your feet, the decision a hinge that will open to a path of tangible gains and legal perils or to public exposure or to violence in a storm.
+
+Narration
+You breathe in. The air fills your lungs with salt and rain and a childish, aching need to do right by the marsh you love and the people who live by it. The drop of cold in your bones tells you: this is one of those nights that will mark you.
+
+[Music: Cello descends; a single piano note rings and refracts into silence]
+
+[DECISION POINT]
+1) Option 1: "Escalate restorative earthworks and oyster relocations without permits." -> TARGET chapter_id: [12]
+2) Option 2: "Leak Aquila internal memos to the press to force scrutiny and renegotiation." -> TARGET chapter_id: [14]
+3) Option 3: "Attempt to disable Aquila machinery during a storm to stop their work physically." -> TARGET chapter_id: [6]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Escalate restorative earthworks and oyster relocations wi..." -> ID 12 (Route C / Ending)
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_f99e88.txt
+Option 2: "Leak Aquila internal memos to the press to force scrutiny..." -> ID 14 (Route A & C (Inter-route))
+    > Jump Target File: script_ch14_Route_A_C_Interroute_ctx_f99e88.txt
+Option 3: "Attempt to disable Aquila machinery during a storm to sto..." -> ID 6 (Route A / Ending)
+    > Jump Target File: script_ch6_Route_A_Ending_ctx_f99e88.txt

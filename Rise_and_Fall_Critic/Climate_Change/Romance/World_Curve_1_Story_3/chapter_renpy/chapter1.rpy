@@ -1,0 +1,142 @@
+label chapter1:
+
+    # [Scene: La Marisma | Morning]
+
+    scene bg ch1_Start_1 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, hopeful strings with low percussion; the sound of distant waves underscoring the beat]
+    # play sound "sfx_placeholder"  # [Sound: Soft gull calls, a folding ladder creak, a kettle beginning to sing on a neighbor's rooftop]
+    "You wake to the familiar half-dark: the way the air clings to your skin, a soft salt that feels like memory more than weather. The smell of wet earth and orange peel from the market down"
+    "below threads through the open window. Your shoulder grazes the braided sea-glass strand in your hair; you close your fingers around it without thinking, as if anchoring yourself to something that still belongs to you."
+    "Your little room above the workshop is a tidy chaos of notes, seed envelopes, and the scuffed multi-tool that never leaves your belt. The potted cutting — a small, stubborn sprig you rescued last month —"
+    "sits on the sill wrapped in a patched cloth. Tiny new leaves push against the air like promises."
+    "You reach out, fingers careful. The soil is cool and damp, and the cutting responds with a faint, green-sharp scent that feels like proof you did the right thing yesterday. There are a dozen problems in"
+    "the city, a hundred meetings today, and the cutting doesn't care about politics — it only asks for water and light. You like that about it."
+    show asha_rivera at left:
+        zoom 0.7
+
+    asha_rivera "Morning, little stubborn thing."
+    hide asha_rivera
+
+    scene bg ch1_Start_2 at full_bg
+    "You jot a note in the leather-bound book — 'check Tideworks pump schedule; Hana meeting prep; bring Teo extra splice kit' — the handwriting quick and practical. The list blurs into your priorities because everything is"
+    "priority when the tide can redefine a neighborhood overnight. Still, as you fold the page closed, a warmth settles in your chest: community needs you, and you are ready to meet it."
+    # play sound "sfx_placeholder"  # [Sound: Footsteps on a ladder; someone humming off-key below]
+
+    scene bg ch1_Start_3 at full_bg
+    show mateo_teo_rivera at left:
+        zoom 0.7
+
+    mateo_teo_rivera "You guarding our future gardens with baby talk now?"
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "Someone has to keep them from being eaten by gulls and bad ideas."
+    "Teo laughs, that bright, infuriating sound that used to get you in trouble when you were teenagers and now mostly gets you through the morning. He moves with the easy competence of someone who knows how"
+    "to make broken things work again — you learned to do the same, but he's the faster hands."
+
+    mateo_teo_rivera "Hana's rep called. She wants the initial readings before the noon meeting. Says Leon's team wants the data clean before they talk funding."
+    "You feel the familiar knot: Hana Kim, the cool precision of her, the gleam of Aegis Tower windows in your memory. The knot loosens a little because it's a negotiation, not a crisis — an opening."
+    "You imagine her monocle flickering as she asks about pump efficiency and sensor placement. You imagine refusing to be cowed by polished cufflinks."
+
+    asha_rivera "I'll pull Jun's latest runoff models. Tideworks will have pumps scheduled for checks by nine. We can show Hana what community sensors picked up last week."
+
+    mateo_teo_rivera "Good. Also — Elias says he's coming by the Skyward Market after he finishes a supply run. He dropped a bag of flyers and a half-eaten sandwich at the collective if you want to... you know, see him."
+    "You inhale. Elias Hart — the laugh that pulled neighbors from flooded houses, the eyes that could make crowds move. Memories flit like gulls: late-night planning over thermos coffee, the two of you hauling rubble and"
+    "seedlings. Then a splintered disagreement about tactics, and distance. The thought of Elias arriving makes your pulse quicken with something that is not just work."
+
+    asha_rivera "Tell him I might be at the market. I need fresh basil for the feedstock trays."
+    hide mateo_teo_rivera
+    hide asha_rivera
+
+    scene bg ch1_Start_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A neighbor's kettle whistles, folding into the hum of morning]
+    "You step outside onto the raised walkway. The sun is higher now, a molten soft orb through the haze, painting rusted metal and moss with a sympathetic light. People are already setting out stalls on the"
+    "Skyward Market domes — a woman arranges jars of preserved lemons, a child winds a new lantern. The air tastes of citrus and wet wood and the faint tang of algae; it smells like home you"
+    "have to work to keep."
+    # [Scene: Skyward Market | Morning]
+
+    scene bg ch1_Start_5 at full_bg
+    # play music "music_placeholder"  # [Music: Low, lively plucked strings; a hopeful rhythm]
+    # play sound "sfx_placeholder"  # [Sound: Market chatter, laughter, a distant municipal drone doing a routine check]
+    "Elias Hart is near the greenhouse fringe, handing out a flyer with hands that never sit still. He looks up when you approach. For a second his expression is unreadable — not hostile, not wholly nostalgic either, just present and complex, the kind of look that holds many histories."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "Asha.' (He says your name like an anchor.) 'You're up early."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "You too."
+
+    elias_hart "We reworked the map last night. There's a small pocket of collapsed boardwalk near Pier Five; if we move supplies through the market we can cut half an hour each trip."
+
+    asha_rivera "Good. Tideworks schedule is tight today. Pumps need checks before the incoming swell next week. Hana wants the data before noon."
+    "Elias Hart studies your face for a beat and then grins that slightly reckless grin that used to get people to join him on makeshift rescue runs."
+
+    elias_hart "Hana, huh? Be careful. Leon's people can be slippery with promises.' (He lifts an eyebrow.) 'But if anyone can make them actually work for us, it's you."
+    "You feel the praise like sunlight. It's not flattery — it's confidence from someone who has seen you do impossible things. The space between you feels charged but not heavy; it feels like a bridge waiting to be crossed."
+
+    elias_hart "Also — the crew's thinking of putting up a little mural on the new seawall piece. Artists from three blocks over want to paint a migration map. You in?"
+
+    asha_rivera "Yes.' (The word comes out quick and easy; it's a small joy.) 'And bring the whistle from your bandolier. If the boardwalk goes soft during high tide work, we need ten-second alerts."
+
+    menu:
+        "Help Elias plan the mural route now":
+            "You kneel beside him by a crate of seed packets, sketching the edges of the mural with a spare pen. The market buzz recedes into focused planning — you can almost see the paint forming, a community history painted on concrete."
+        "Finish your checklist and head to Tideworks early":
+            "You fold your list tighter and tuck the pen into your notebook. Practical things pull you — pumps, sensors, Hana's data. Elias nods, but there's a flicker of disappointment in his eyes that the day chose logistics over painting."
+
+    # --- merge ---
+    "Whatever you choose, the morning presses on and responsibilities remain; the market hum continues around you."
+
+    elias_hart "Whatever you choose, we're with you. But the mural could keep our story visible to people who only look at spreadsheets.' (He laughs, then sobers.) 'And the pumps keep the people living."
+
+    asha_rivera "We need both."
+    hide elias_hart
+    hide asha_rivera
+
+    scene bg ch1_Start_6 at full_bg
+    "You move through the market collecting the small, essential things: basil, a spool of solar-grade wire from a tinkerer, a jar of chia for the communal porridge. Each exchange is quick but threaded with conversation —"
+    "who needs spare sandbags, who can spare a ladder. There is an economy of care here: favors banked and paid back in meals, in labor, in shared seedlings."
+    "Teo catches up to you near the edge of the dome with a thermos and a roll of duct tape. He hands you the thermos with a mock ceremony."
+    show mateo_teo_rivera at left:
+        zoom 0.7
+
+    mateo_teo_rivera "Fuel for the idealist.' (He follows with a grin.) 'Also — I tightened the splice on the Tideworks generator, but Jun says double-check the load. Wouldn't want this city's heart to be an unreliable ticker."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "On it.' (You take the thermos and the responsibility like something that sits well on your shoulders.) 'Tell Jun I'll meet him at Tideworks in ten."
+
+    menu:
+        "Share an extra coffee with Elias":
+            "You pluck a cup from the vendor's tray and hand it to Elias. He accepts, and you both stand at the edge of the market looking out at the reclaimed wetlands. The conversation softens — the kind that stitches previous distance with small, human moments."
+        "Decline and keep moving":
+            "You smile and shake your head, already moving toward the raised walkway. Elias watches you go, an unreadable expression crossing his face — part encouragement, part something else that will sit between you until later."
+
+    # --- merge ---
+    "The choice shifts a small, private tone between you and Elias, but the day's duties remain unchanged."
+    "Elias Hart: (if offered coffee) 'This is why I keep getting dragged back — the coffee, the company.' (He sips, eyes crinkling.) 'Listen, when Hana shows up, don't let the numbers crowd out the stories. They can be convinced by both.'"
+
+    asha_rivera "I know."
+    hide mateo_teo_rivera
+    hide asha_rivera
+
+    scene bg ch1_Start_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Footsteps on wood, the soft slap of tide against piling]
+    "You climb onto the raised walkway with your tools and the potted cutting slung at your side. The breeze picks up, salt and basil tang moving together. Around you, the barrio exhales morning: laughter, hammering, the"
+    "distant murmur of a municipal drone mapping shoreline shifts. There is urgency, yes, but there is also a tangible sense of resolve. People here are making policies with their hands as much as with petitions."
+    "You think of Hana Kim's precise lists and Leon's polished offers. You think of Elias Hart's banners and murals and Teo's grease-stained optimism. The choices ahead are complex, but your heart steadies on a simple axis — protect this place and the people who make it home."
+    "Your pocket vibrates with incoming messages: Tideworks morning checklist from Jun, a calendar ping from the municipal liaison, a half-worded text from an organizer about the mural. Everything flutters like a flock, but you are not afraid. You are busy."
+
+    scene bg ch1_Start_8 at full_bg
+    # play music "music_placeholder"  # [Music: The strings swell subtly, a bright cadence]
+    "You take a breath, fingers curled around the notebook at your belt. The walkway hums beneath your boots. Ahead, Tideworks awaits: algae samples, pump schematics, and the carefully calibrated data that will shape the conversation with"
+    "Hana Kim. Behind you the market breathes — a living promise that the neighborhood will show up. You step forward because that's how change is built: one measured step, one conversation, one stubborn plant at a"
+    "time."
+
+    scene bg ch1_Start_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

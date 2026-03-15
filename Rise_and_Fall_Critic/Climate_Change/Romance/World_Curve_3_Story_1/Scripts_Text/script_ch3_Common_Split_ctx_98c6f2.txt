@@ -1,0 +1,173 @@
+### SCRIPT
+# Route: Route A — Ending
+# Context: 98c6f2
+
+[Scene: Broken Pier | Morning]
+[Visual: The pier, fractured and slick, a jag of wet wood against a churned horizon]
+[Music: Low, mournful strings; distant gull calls]
+[Sound: Waves battering wood, loose boards creaking]
+
+You walk the length of what remains of the pier because you have to see it with your own eyes. The morning light is thin, the kind that doesn't warm so much as reveal. Salt skins your lips; a spray rises off the sea and settles like dust on your jacket. The broken planks make a jagged rhythm under your boots; when you lean on the railing, the metal is cold enough to tug the warmth from your palm.
+
+Your thumb finds the braided bracelet at your wrist and holds on out of habit and as a talisman. You flip open your tablet once, then close it again—the message count is a tide you don't want to measure here, not yet. The pier feels like proof of a ledger you cannot balance: one storm, one season, one council vote away from rewriting everything you thought was steady.
+
+You listen for the town in the sounds around you: a dog barking far inland, the soft thud of a dockworker stacking crates, and underneath it the mechanical heartbeat of the harbor—generators, winches, someone starting an engine. The sea keeps writing its margin.
+
+[Scene: Tom's Shop | Mid-Morning]
+[Visual: Warm lamp light and grease-stained benches; the smell of oil and metal]
+[Music: Off-key harmonica underbed; a clock with a stubborn tick]
+[Sound: Bench lathe whirring, the clink of a wrench]
+
+The bell above the door clangs and Tom looks up with the kind of face weathered into expectations. Heat and oil hang in the air like an old jacket. You breathe in the metallic tang and it feels like home and like accusation at once.
+
+Tom: "You look like you haven't slept, sis."
+(You let out a sound that answers without numbers.)
+Iris Alvarez: "We lost more of the promenade."
+(He sets down a rag, then gestures vaguely toward the window where the pier's remains slice the horizon.)
+Tom: "I was at the marina before daylight. Lina's already tallying half a dozen boats that won't be out for a week. How bad?"
+(He doesn't rush to fill in the blanks. He figures you'll see the map when you need to.)
+Tom: "It's bad enough that Ravi wants the council in a day. Marin Voss's talking regional money."
+
+You watch him. His hands are thick with practice and with the small habitual gentleness he saved for dogs and roped knots. There is an unspoken ledger between you two: everything the town asks of you, he absorbs in muscle and shop-time.
+
+Tom: "You gonna stand there and do the paperwork, or are you gonna get out there and tell folks how to stack sandbags?"
+(The question pins you because the two options are not exclusive in your chest.)
+Iris Alvarez: "I have ideas. I have numbers. But I can't—"
+(You swallow a protest that tastes like guilt.)
+Iris Alvarez: "—I can't do it alone."
+Tom: "Good. Don't then. Most things around here don't get done by lone wolves."
+
+His voice is steady, but there's a tremor in his eyes — the practical fear of someone who measures loss in equipment and bills. You remember last year's repair jobs, the nights he didn't go home. That memory makes your chest ache in a specific, private way.
+
+Tom: "You gonna stand there and do the paperwork, or are you gonna get out there and tell folks how to stack sandbags?"
+
+[INTERACTION]
+> Choice A: "Ask Tom to make a quick prototype brace"
+> Choice B: "Refuse hands-on work and push to the meeting"
+[Outcome A: Tom squints, then grins despite himself. "Give me an hour and some scrap. We'll see if the old hands can keep your data honest." He moves to the bench already planning cuts.]
+[Outcome B: Tom's smile thins. "Okay, then make them listen. If you let someone else run this, watch the fine print." He taps the map on the table with a grease-dark finger.]
+[MERGE: Continue in town planning and mobilization scenes.]
+
+[Scene: Lina Harrow's Marina | Late Morning]
+[Visual: Bright waterproof vests and tied-down tarps; bobbing, damaged hulls]
+[Sound: The slap of a loose tarp, a distant radio static]
+[Music: Sparse piano notes, melancholy]
+
+Lina's marina smells of diesel and salt and something else — the copper of money and the grit of salvage. She counts losses like you count stitches: precise and a little weary.
+
+Lina: "I keep thinking of the festival lot. That government's money could mean relocation for a dozen stalls and a tax hit for me. If they take the shoreline, who pays for my slips?"
+(You want to tell her your hybrid could protect the lot, or that community-built modules could be installed at a fraction of the projected municipal cost. But you also know that words don't plug leaks.)
+Iris Alvarez: "We're at a crossroads. Marin Voss has a plan with regional funding, but it will require redevelopment of some low-lying blocks."
+Lina: (Her laugh is brief and brittle.) "Redevelop. They love that word. It translates to 'we take what we want and call it progress.'"
+
+She looks at you like she expects you to pick a side—like everyone else. You feel the gravity of it: a market stall returned to full bustle, or a row of empty foundations dotted with plaques. The smell of tar and scraped paint sits in your nose.
+
+Lina: "If you side with them, Iris, don't expect me to help stack a single modular barrier for free."
+Iris Alvarez: "I don't want to close anyone's shop."
+Lina: "Then don't be surprised when the town chooses what's easiest for the budget."
+
+Her stance is a kind of grief. You cannot console it with data; only with consequence.
+
+[Scene: Greenhouse Commons — Before the Forum | Early Afternoon]
+[Visual: Warm humid air under polycarbonate; strings of LED grow lights hum; an assembly of folding chairs]
+[Sound: Murmured conversations, the rustle of seed packets]
+[Music: Understated, thin strings with a slow pulse]
+
+The Commons smells of damp soil and tea and, underneath, the staleness of too many meetings. People gather in knots, speaking under their breath, hands unsure of where to land. Etta moves between them with the quiet of someone who has learned how to carry other people's weight.
+
+You look at the map pinned to the central board—your own annotated lines riding over Ravi's scrawl and Marin Voss's clean overlays. The torn edge from yesterday's map still clings to the corner like a stubborn memory.
+
+Kai Nakamura is here early, leaning on a pallet bench, camera hanging and fingers stained with ink. He grins when he sees you, but there's an undercurrent: urgent, impatient.
+
+Kai Nakamura: "They started without us, of course. Someone thought a town meeting was a good idea and didn't wait for the DIY brigade."
+(You laugh, and it cracks)
+Iris Alvarez: "It feels like half the town is either furious or terrified."
+Kai Nakamura: "Makes for attendance. Look—I've brought prototypes."
+(He unfolds a small, elegant sketch of a modular barrier that can be assembled from reclaimed timber and plastic drums. It looks hopeful; it looks possible.)
+Kai Nakamura: "We can train people. We can move faster than Marin Voss's procurement schedule."
+
+You study his drawings. They are optimistic: simple joints, quick assembly, an emphasis on materials the town already has. You want to believe it because part of you loves the idea of neighbors building together, hands learning the same moves, shared sweat as social glue.
+
+Kai Nakamura: "If we start now, municipal approval can follow or catch up later. But you know the risk—no guaranteed funding, and if a storm hits before we finish..."
+(He doesn't finish. The sentence hangs, an image of half-constructed defenses washing away.)
+
+Kai Nakamura's eyes search yours for a different kind of permission, one that isn't just professional endorsement but personal trust. He tilts his head, all easy charm and the raw edge beneath it.
+
+Marin Voss arrives polished, the kind of presence the council expects: slate trench coat, tablet case like a brief fortress. They step into the Commons with a practiced smile that doesn't reach the eyes the way it used to. You try to read them; "complex" is the label that keeps its neutrality, and it's the only honest one. Their fingers linger on the municipal map before they meet your gaze.
+
+Marin Voss: "We can secure regional funds. There are strings, yes. The funding requires redevelopment of certain low-lying blocks to justify long-term investment. It's not ideal, but it scales and it protects the harbor's backbone."
+Iris Alvarez: "Redevelopment of the festival lot?"
+Marin Voss: "Some areas, yes. We can negotiate retention clauses for cultural sites, but there will be trade-offs."
+
+Their voice is even, rehearsed for meetings and headlines. You watch them because what they don't say is as loud as anything they do. The silence between you contains policy, possibility, and a history you cannot fully trace.
+
+Etta sidles up, dirt under her nails and a look that says she has memory and no time for rhetoric.
+
+Etta: "Money's a tool. It cuts both ways. You can't hand it over whole and expect the town to remain the same. But you also can't rebuild without it."
+
+Her rasp is honest. She looks at you as if she is weighing whether you are a safe place to land the town's next generation of hope.
+
+[INTERACTION]
+> Choice A: "Take Kai aside to ask about training timelines"
+> Choice B: "Approach Marin to ask about what 'redevelopment' really entails"
+[Outcome A: Kai Nakamura's face lights up. "Two weekends for the first cohort, if we pull in Tom and the marina crew. We'll need a lot of hands, but that's the point." He starts sketching out a rough calendar on a napkin.]
+[Outcome B: Marin Voss's composure tightens. "It's a phased plan. We prioritize the structural nodes and work out cultural preservation clauses. It won't be painless, but it will be fundable." They fold their tablet shut neatly, the motion a clear boundary.]
+[MERGE: Participants reconvene for the community forum.]
+
+[Scene: Greenhouse Commons — Community Forum | Mid-Afternoon]
+[Visual: Rows of folding chairs, a projector showing overlapping maps; faces lit in half by screens]
+[Music: Low cello, intermittent gust sounds]
+[Sound: Murmurs rise and fall, a chair scraped hard against concrete]
+
+You stand at the front because people look at you like an anchor—because you are one of the few who tries to speak both data and affection in the same breath. The room tightens when Marin Voss speaks, polite and municipal, then loosens again when Kai Nakamura answers, warm and insurgent. Lina's jaw is tight in the back. Tom sits center-right, arms folded, watching the town like it's a boat he might have to shove off a lee shore.
+
+Marin Voss: "Regional funding requires a comprehensive risk mitigation plan. It includes structural reinforcement of critical points and redevelopment of vulnerable parcels to ensure long-term viability."
+Kai Nakamura: "And if the town builds parallel capacity—modular barriers, community-run gardens, rooftop absorbers—then we can distribute the risk and keep ownership local. Funding is important, but autonomy matters too."
+Marin Voss: (They incline their head toward you, an invitation and a test.) "Ms. Alvarez, your assessment?"
+(You feel the weight of every glance. Your data runs through your mind: erosion rates, cost-per-meter for different defenses, the social toll of displacement. You imagine Etta's hands in soil, Lina's ledger, Tom bent over a hull. The numbers say hybrid gives the best chance of preserving both shoreline and culture, but hybrid is hard—politically and practically.)
+Iris Alvarez: "My models suggest a hybrid approach—targeted municipal reinforcement where the structural backbone is critical, combined with community-built buffer systems and rooftop resiliency to reduce load on those nodes."
+Kai Nakamura: "That could work. It means we get funding where we need it fast, and we protect the neighborhood's agency where we can. But it needs coordination—timelines, shared procurement."
+Marin Voss: (Their reply is quick, measured.) "Coordination means oversight. Oversight means the municipality will require compliance protocols. That may feel like top-down control."
+Iris Alvarez: "I don't want control. I want durable protection and community stewardship."
+
+A man in the audience stands up, voice cracking with fear: "If we wait for some hybrid to be sweet-talked into existence, will the next storm take someone's home? We need action now."
+
+Another voice—older, gravelled—cuts in: "And if we hand our land to developers 'for the long term,' will there be any place left for the festival? For us?"
+
+The room becomes a sea of small storms: fear, fury, bargaining. You feel each one as if it's your own skin being pinched.
+
+Marin Voss: "We can negotiate cultural retention clauses. We can prioritize spaces like the festival lot in early phases."
+Kai Nakamura: "Or we can start building now, show a working model, and make procurement chase us because it's already proven."
+
+Your internal monologue tightens: every concession will have teeth. Every grassroots victory will require blood and nights you won't get back. Leading a hybrid means you'll be the hinge—where two different pressures meet—and hinges sometimes snap under repeated stress.
+
+Marin Voss studies you with a look that is complicated and unreadable; it contains calculation and a memory of a conversation you never had. Kai Nakamura's posture is expectant and a little wounded—he's asking you for a vote of faith that you haven't given yet. Lina's face in the crowd is hard as flint; Tom's hands are planted between his knees like he's bracing a hull for impact.
+
+You can feel the town's options narrowing like a lens. The air tastes like the metallic promise of rain.
+
+Your throat is dry. The map on the projector blurs at the edges as you imagine the lists of people who will applaud and the ones who will curse you. The grade of this decision isn't measured in personal success; it's measured in whether the festival tent survives, whether a single shopfront remains, whether a child's memory of the pier is of splintered wood or of a repaired boardwalk and neighbor-led murals.
+
+You take a breath. The room holds it with you.
+
+[Visual: Close-up on your hands gripping the edge of the podium; the braided bracelet bright against pale skin]
+[Music: Strings swell then recede into a hush]
+
+You realize what you must do next is choose how to speak your plan into being. You could cast your lot with Kai Nakamura and the town's labor, endorse Marin Voss's quick-but-compromising funding, or attempt to marshal both into a single, fragile course.
+
+You feel the drop—the town's options slimming and your shoulders getting heavier.
+
+[DECISION POINT]
+1) Option 1: "We organize the town to build grassroots modular defenses; municipal approval can come later." -> TARGET chapter_id: [4]
+2) Option 2: "We accept Marin's conditional municipal plan and negotiate to preserve key cultural sites." -> TARGET chapter_id: [7]
+3) Option 3: "I push my hybrid plan: targeted municipal reinforcement funded now, combined with community-built rooftop gardens and open-source modules." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "We organize the town to build grassroots modular defenses..." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "We accept Marin's conditional municipal plan and negotiat..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "I push my hybrid plan: targeted municipal reinforcement f..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

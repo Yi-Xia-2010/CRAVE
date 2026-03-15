@@ -1,0 +1,250 @@
+label chapter12:
+
+    # [Scene: Planning Office | Late Afternoon — Several Months Later]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet, optimistic piano with soft strings]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the constant low pulse of consultation calls]
+    "Narration:"
+    "You come back to this room like you come back to a harbor after a long day at sea—tired, glad to be here, and aware of how much bracing it takes to keep things afloat. The"
+    "grant's ink is dry; committees meet; a schedule of milestones hangs on the wall like a calendar of promises."
+    "You run your thumb along the edge of a new memo before you slide it into the folder. The paper smells faintly of copier toner and salt where it's been clipped near the window. For the"
+    "first weeks, the work feels like tending: living-shoreline panes are installed in narrow stretches, rooftop beds are measured and planted, paid internships begin to put young hands into the soil. The sea-wall's footprint on the model"
+    "is smaller than the original renderings—someone listened, and that smallness tastes like victory."
+    show amina_reyes at left:
+        zoom 0.7
+
+    amina_reyes "We put the marsh plan into the second milestone for the next quarter. It keeps our living cells connected to the regrading work."
+    show dr_kenji_sato at right:
+        zoom 0.7
+
+    dr_kenji_sato "It's a compromise, but it's an informed one. Hydrology models say we can maintain a lot of ecological function if we stagger flows."
+
+    amina_reyes "Then we stagger. We set adaptive checkpoints and bind them into procurement."
+
+    "Dr. Kenji leans back, fingers steepled. His camera hangs from his shoulder like another witness. He says more than he needs to" "You fought for that."
+
+    menu:
+        "Read the procurement guidelines line-by-line now":
+            "You settle the paper on your knee and trace the clauses. Efficiency language gleams like a warning. It's precise, and it asks more of the marsh than you can accept without watching every invoice."
+        "Go down to the rooftop garden to see the interns":
+            "You tuck the memo into your notebook and stand. The lift smells of compost and rain; the rooftop hum greets you, and for a few minutes you trade bureaucracy for the small miracle of seedlings opening to light."
+
+    # --- merge ---
+    "Continue with the rooftop scene and the narration that follows."
+    "Narration:"
+    "The rooftop is its own kind of miracle. Solar panels tilt like patient questions; raised beds hold rows of salt-tolerant greens; string lights sag between makeshift windbreaks. Marina hosts the interns there—sleeves rolled, hair pinned with"
+    "shell clips. They look like a future that is being taught to keep the past."
+    show marina_lopez at center:
+        zoom 0.7
+
+    marina_lopez "They asked to map the marsh this morning—hands-on. You should see them; they took to the transects like kids to tide pools."
+
+    amina_reyes "Show me the maps."
+    "The maps are bright with hopeful, clumsy lines. You kneel, fingers cold against a clipboard, and show one of the students how to mark a subtle salinity gradient. She watches the way you tilt the pen"
+    "and holds it with the reverence of someone who thinks she can steer something that matters."
+    "Narration:"
+    "Across town, early installations begin to show up in ways that make people breathe easier. The narrow channels we restore collect minnows; reed plugs hold silt in new places; internships put wages in hands that used"
+    "to choose between study and work. There's forward motion. You feel it in the boarded rhythms of your days—the kind of progress that warms the backs of people who have been freezing for too long."
+    # [Scene: Old Boardwalk & Market | Late Afternoon]
+    hide amina_reyes
+    hide dr_kenji_sato
+    hide marina_lopez
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: A gentle acoustic guitar, warm and measured]
+    # play sound "sfx_placeholder"  # [Sound: The sizzle of a fryer, low conversation, gulls circling]
+    "Narration:"
+    "The market has space for changed rhythms. Some vendors moved to raised platforms paid for by the grant; others struggled with the new licensing forms. The smell of fried fish is still here, but the crowd"
+    "thins at dawn—boats launch in fewer numbers, and the rows of nets are not as full. It's not a collapse; it's a town learning a new tide."
+    "Niko Kaur appears at the edge of the stalls with a thermos and an expression like weather. Your chest tightens at their presence: their hands smell of tar and wood; there are new salt stains on their vest where the oil has sat in the fabric."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You did what you could—stopped the worst of what they'd drawn up. Still, some of the corners are sharp, Amin."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "I know. I wrote the memos. We argued at procurement. I pushed for local fabricators."
+
+    niko_kaur "Then why are the bulk orders all the same—plastic benches instead of the boatwrights' carved ones? Why are harvest zones looking empty?"
+
+    amina_reyes "Because they needed something that fits a schedule and a warranty. Because money talks in a language that audits can read."
+
+    niko_kaur "And people don't always speak that language."
+    "Their jaw is a line. You want to say you're sorry in a way that re-knots the fraying between you, but there are systems between your hands and the way things are happening. You reach for"
+    "them across a distance that isn't just about bodies—it's about who builds and who funds and who decides."
+
+    amina_reyes "If the boatyard closes for a season, we'll find a way to keep you afloat. There are apprenticeship stipends in the second milestone. I'll push for them at the next hearing."
+
+    niko_kaur "Stipends don't fix a keel.' [They look away.] 'Still—if you can do that, do it."
+    "Their words land like a plank laid across a gap. It's not an absolution; it's not a promise either. It's something like a pact: keep trying."
+
+    menu:
+        "Offer to help move materials from the yard to storage":
+            "You roll up your sleeves and help lift a beam. Your hands find muscle memory in the grain of wood; for a moment you're a coworker again and Niko's laugh cracks like light on metal."
+        "Keep your promise on paperwork; plan the hearing":
+            "You pull out your notebook and draft a short agenda for the hearing. It's less physical but, if it passes, it buys time the yard might need. You taste the bureaucracy—dry but useful."
+
+    # --- merge ---
+    "Continue with the narration that follows, acknowledging you do both in pieces."
+    "Narration:"
+    "You do both, in pieces. The leaning of bodies alongside the leaning of policy is part of what the grant was meant to allow. It's messy. It's human."
+    # [Scene: Planning Office — Late Night]
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Low cello with a hopeful motif]
+    # play sound "sfx_placeholder"  # [Sound: The rain's hush, the distant echo of a late-night radio, the scratch of a pen]
+    "Narration:"
+    "Not all victories stay untouched. Administrative layers accrete like barnacles: procurement rules require bulk materials; a clause—buried in a development attachment—shifts small property lines to make utility corridors more 'efficient.' A harvest restriction, necessary on paper"
+    "to preserve a nursery, is enforced in ways that don't match how families fish. Standardization replaces craft in places where timetables win over patience."
+    "You write memos that smell of toner and resolve. You stage hearings that have the shape of community and the restraint of policy, and you sleep with your cheek on a folded sweater beneath a single"
+    "desk lamp more nights than you can count. Your notebook grows heavier with annotations and tide sketches and the occasional pressed reed."
+    "Mayor Lucia Varela: (entering the office quietly) 'You look tired, Amina.'"
+    show amina_reyes at left:
+        zoom 0.7
+
+    amina_reyes "We are threading the needle. If we keep the milestones, the regional oversight will release the next tranche. If the next tranche hits delays, the projects stall and the developers start to whisper about alternative uses."
+    show mayor_lucia_varela at right:
+        zoom 0.7
+
+    mayor_lucia_varela "You negotiated the terms that kept the living shoreline in the plan. Your fingerprints are there."
+
+    amina_reyes "Fingerprints aren't always enough to hold. We need enforcement as much as plans."
+    "Mayor Lucia sits, brass pin catching the lamp glow. Her eyes hold the political geography of being responsible for a town and responsible to a county that is watching numbers more than reeds."
+
+    mayor_lucia_varela "You might be offered a position advising regionally—somebody from the regional council noticed how you pushed these milestones. You should consider it."
+
+    amina_reyes "You mean... travel? Advise?"
+
+    mayor_lucia_varela "They want someone who understands how to make money meet marsh. It's a bigger stage. It'll pull you out of here, but it could help other places keep what you managed to save here."
+    "Narration:"
+    "There is a prickle in your throat that could be salt or grief or the beginnings of decision. To leave is to risk the half-done stitches. To stay is to risk becoming small in the face of a system that learns its own blind spots."
+    # [Scene: Planning Office — The Following Day]
+    hide amina_reyes
+    hide mayor_lucia_varela
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: A hopeful swell; piano and strings]
+    # play sound "sfx_placeholder"  # [Sound: Coffee machine, faint laughter from the rooftop below]
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "I heard the news about the regional offer. Congratulations—if it's what you want."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "It's what I thought I'd be asked eventually. Will you... will you be alright here?"
+
+    elias_hart "I'll be fine. The project is safer with you in a seat at a larger table. We still need inside voices. You made sure we had teeth in the program."
+
+    amina_reyes "We cut corners to keep schedules. I fought to keep the living aspects in procurement. You—"
+
+    elias_hart "You did the grinding work, Amina. I'm sending the engineers back to redesign the bulk order to include local artisans in the pilot. It'll be a fight. I can do that from here."
+
+    amina_reyes "You can. You will. Will you—"
+
+    elias_hart "Will I still see the results? Yes. Will I still work with you? Absolutely. Will what we are now—translate into anything softer?' (He gestures, searching your face.) 'I don't know how to promise what the future isn't built for."
+
+    amina_reyes "Neither do I."
+    "There is a pause full of unsaid things. Neither of you bend the conversation into sentimentality; you lean into the professional warmth that anchored the grant negotiation and the months of compromise. The intimacy that could"
+    "have been is there as an echo—familiar and not extinguished, but rearranged by work and by the town's needs."
+
+    elias_hart "You taught me to read the marsh's scales, Amina. I can teach you to speak the county's."
+
+    amina_reyes "Then teach me. And I'll take what I learn back to the next place."
+
+    elias_hart "Promise we stay honest with each other about what gets lost and why."
+
+    amina_reyes "Promise."
+    "Narration:"
+    "You're not exchanging vows. You're exchanging promises of stewardship and truth, two things that do more for the marsh than romantic words here and now. It feels like a truer intimacy—one that makes room for the work you both have chosen."
+
+    menu:
+        "Accept Elias's offer to vet procurement with you before you leave":
+            "You nod. He opens his tablet and begins drafting a check-list. You work side-by-side over spreadsheets; the warmth of collaboration feels like a small lighthouse."
+        "Decline and say you'll finish the handover yourself":
+            "You smile tiredly and tuck the tablet away. You will carry this handover as your own last piece of tether to Marisol. It's heavier, but it will be yours."
+
+    # --- merge ---
+    "Continue with the montage narration of final weeks and the departure sequence."
+    "Narration:"
+    "The final weeks are a montage of good and hard things. The interns run monitoring transects with more confidence every dawn. The rooftop garden becomes a teaching site with a permanent bench engraved with a donor"
+    "name that still smells like cedar. A new procurement clause stipulates that a portion of fabrication be locally sourced. Niko's yard closes for repairs and financial pause; they handle what they can and fight for the"
+    "rest. You attend hearings, you press for clause language that protects family harvests, and you watch as the marsh's hydrology settles into a new pattern—less wild in some channels, more stable in others."
+    "You sleep less. You love more quietly—by answering late emails, by making sure a grant report has a line that prioritizes cultural practices, by spending one last morning mapping with Marina and a group of children who point at fiddler crabs the way they've only ever pointed at heroes."
+    # [Scene: Marisol — Dawn of Departure Day]
+    hide elias_hart
+    hide amina_reyes
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: A rising, hopeful string motif with a clarinet warmth]
+    # play sound "sfx_placeholder"  # [Sound: The low slap of water at pilings, a gull's single call]
+    "Narration:"
+    "You walk the boardwalk one last time, not because you're closing yourself off to return but because you want to feel the place under your soles and remember its particular give. The market smells are less"
+    "crowded; a vendor waves. Niko stands at the end of their slip, hands working on something small—an oar with a new varnish."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You leaving?"
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Today."
+
+    niko_kaur "Of course you picked the day the tide's halfway. Typical."
+
+    amina_reyes "I'll come back. When I can. I'll bring ideas we can try. I might even find funding for the boatyard repairs."
+
+    niko_kaur "Bring some of that money in one of your suitcases. And bring a story or two."
+
+    amina_reyes "I will."
+    "Narration:"
+    "Elias meets you at the edge of the town, tablet tucked away, rain jacket cinched. His sea-glass eyes are steady. You stand close enough for the salt on his collar to be a small measure of shared storms."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "Safe travels. And—' (he hesitates) '—use what you learn to make the next place listen to the marsh."
+
+    amina_reyes "I will. And you—keep pushing on the local designs. Make sure we don't lose the things we said we wanted to keep."
+
+    elias_hart "I will. Take this."
+
+    amina_reyes "Thank you."
+    "Narration:"
+    "You fold your notebook into your bag; the friendship bracelet tucked in the spine bumps against your ribs. You trace the braided threads and feel the memory of your brother, the meetings you've held, the seedlings you planted, the memos you fought over."
+    "You breathe in the salt and the damp and the sound of a town that will continue to change because of people like you and people like them. Loss lives alongside learning; the marsh is not"
+    "as it was, but neither is it lost. There are fewer boats at dawn, and the market is quieter—but a rooftop garden thrives, and interns will carry knowledge into fishers' hands and into policy rooms you've"
+    "yet to enter."
+    "You step onto the road that leaves Marisol. You don't look back out of habit or avoidance; you do it because you want that last image to stay: the marsh a living map of what can"
+    "be kept when people are willing to argue and to compromise, to cut and to stitch."
+    hide niko_kaur
+    hide amina_reyes
+    hide elias_hart
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Piano and strings swell into a warm, steady chord]
+    # play sound "sfx_placeholder"  # [Sound: The wind lifts; a gull calls once, long]
+    "Narration:"
+    "You are leaving—physically moving out of the harbor into a role that will ask you to take Marisol's lessons into other towns, other councils, other mudflats. It's lonely in the way departures are: an ache that"
+    "settles into a steady ache of purpose. You feel the sting of what changed here and the certainty that some fights are won and some continue elsewhere."
+    "You are hopeful. You carry the notebook, the memos, the names of people who taught you how to hear the marsh. You are going to a stage where the stakes are larger and the victories, when"
+    "they come, will ripple across other shores. That is rising—bittersweet, but rising all the same."
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustaining note that resolves into a peaceful cadence]
+    # play sound "sfx_placeholder"  # [Sound: The road underfoot, distant town life]
+    "Narration:"
+    "You turn the key in your hand, leave it in the dry grass, and walk toward the car with your bag. You don't know what will happen to the boatyard next season, or which clauses will"
+    "endure or erode under new administrations. You know you left that handprint—imperfect, smudged, persistent—on the plan that saved lives and cost some things people loved."
+    "You are not perfect. You are not finished. You are improved by what you leave and what you take. You carry the knowledge that loss and learning live together, and that the only way to protect what you love is to go teach other people how to do the same."
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle resolution, then quiet]
+
+    scene bg ch12_f99e88_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

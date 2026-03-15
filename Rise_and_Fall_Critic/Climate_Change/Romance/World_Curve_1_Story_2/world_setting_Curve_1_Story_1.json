@@ -1,0 +1,115 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the emotional lens of Romance: love stories that are forged and tested by an environmental crisis. The core conflict is interpersonal (romantic choices, trust, betrayal) entangled with a community-level crisis (rising seas, corporate redevelopment, ecological restoration). Players will choose who to trust and which values to prioritize — love, pragmatic compromise, or uncompromising restoration — and those choices change both relationships and the town's fate. This creates narrative tension where moral philosophy and personal attachment collide, making each romantic route also a route about how to respond to climate threats.",
+    "setting": "A near-future coastal town named Atera, where seasonal floods and warming seas have reshaped daily life. The town balances weathered fishing docks and new, glassy development proposals. The time period is near-future (2035–2045) with partially modernized technology and visible climate impacts. Atmosphere: melancholic but resilient — salt breeze, storm-slick streets, patches of reclaimed green, and community gatherings that feel intimate and urgent.",
+    "visual_style": "Painterly anime-cel hybrid, muted coastal palette, soft rim lighting, wet-surface reflections, eco-tech details, melancholic romantic lighting",
+    "main_characters": [
+        {
+            "name": "Mika Hoshino",
+            "role": "Protagonist",
+            "personality": "Practical, empathetic, quietly stubborn. Mika is community-oriented and tired of platitudes but still hopeful. She can be blunt when frustrated, deeply loyal to friends, and tends to analyze choices like a repair manual — pragmatic optimism mixed with personal vulnerability.",
+            "appearance_features": {
+                "hair": "Short, choppy ash-brown bob with a single long strand dyed sea-glass teal tucked behind the ear",
+                "eyes": "Warm hazel with flecks of green, rounded and often narrowed in concentration",
+                "clothing": "Worn utility jacket with patched elbows over a layered linen shirt and tapered canvas trousers; well-worn rubber boots with hand-painted tiny wave motifs on the toes",
+                "accessories": "A thin braided string bracelet made from recycled fishing line; a dented metal key that opens her late mother's workshop; a lightweight digital wrist patch that monitors local air and tide sensors"
+            },
+            "goal": "Protect her hometown and keep its social fabric intact while finding a life that balances personal love and communal duty.",
+            "background_story": "Raised in Atera, Mika inherited a small workshop where she repairs nets, pumps, and small eco-devices. Her mother was an early community organizer who taught her both technical skill and the importance of mutual aid. After a major flood damaged much of the town and cost her mother her livelihood, Mika stayed instead of leaving for the city — determined to make Atera resilient again.",
+            "emotional_trait": "Strength: fierce loyalty and resourcefulness. Flaw: reluctance to ask for help and a tendency to carry guilt alone."
+        },
+        {
+            "name": "Elias Maren",
+            "role": "Love Interest (Ally) / Marine Biologist",
+            "personality": "Gentle, idealistic, deeply curious about ecosystems. Elias is warm, patient, and believes in science as a way to heal. He can be absent-minded about social politeness because his mind often maps currents and kelp beds, but he is fiercely committed to incremental restoration.",
+            "appearance_features": {
+                "hair": "Sun-bleached sandy blond hair, slightly curly, pulled back in a loose low knot when working",
+                "eyes": "Soft sea-blue, slightly hooded, with a perpetually contemplative look",
+                "clothing": "Light waterproof field jacket with algae-stain patches over a breathable scuba-silk tee and high-waisted, quick-dry pants; barefoot sandals or barefoot on docks",
+                "accessories": "A glass pendant filled with a sliver of bioluminescent algae, a field notebook with hand-drawn tide maps, and a compact submersible drone controller strapped to his hip"
+            },
+            "goal": "Implement community-centered restoration projects (kelp farms, living breakwaters) that both protect Atera and provide local livelihoods.",
+            "background_story": "Elias grew up in a coastal research community and returned to Atera after studying ocean restoration abroad. He believes small-scale, locally-led restoration can become a model for other towns. He clashes with political pragmatism but wins people over with clear demonstrations and gentle persuasion.",
+            "emotional_trait": "Strength: unwavering optimism and patience. Flaw: sometimes naive about political realities and slow to confront hard compromises."
+        },
+        {
+            "name": "Soren Voss",
+            "role": "Antagonist / Complicated Love Interest (Developer & Urban Planner)",
+            "personality": "Charismatic, strategic, and polished — a visionary who can sound like a savior. Soren believes grand projects and market incentives are the fastest way to protect communities, but his pragmatic ruthlessness hides a deeper, conflicted empathy. He is persuasive and good at absorbing blame with a smile.",
+            "appearance_features": {
+                "hair": "Coal-black, slicked back with a single silver streak at the temple",
+                "eyes": "Pale gray, angular, very direct — they study people like plans on a blueprint",
+                "clothing": "Tailored, weather-treated trench coat with a subtle reflective weave over a minimalist charcoal suit; polished ankle boots that leave faint salt marks",
+                "accessories": "A sleek transparent data-bracelet that projects zoning models, a slim engraved business card case, and a faded photograph of his sister pinned inside his wallet"
+            },
+            "goal": "Push through a high-profile coastal redevelopment that he claims will save Atera by raising infrastructure and attracting investment — and to secure his reputation as the planner who could stop sea-level disaster.",
+            "background_story": "Soren grew up in a neighboring city that was repeatedly rebuilt after storms. He rose in urban planning by advocating large-scale engineering fixes. He sees Atera as his chance to implement a scalable model, but his past compromises and a personal fear of small-town failure make him prone to bulldozing opposition.",
+            "emotional_trait": "Strength: decisive leadership and strategic acumen. Flaw: fear of vulnerability and a tendency to prioritize legacy over local nuance."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Jun Park",
+            "relation_to_main": "Childhood friend of Mika / Local carpenter",
+            "appearance_summary": "Tall, sturdy build, cropped black hair with an undercut, often wearing sawdust-dusted flannel and a cap.",
+            "function_in_story": "Practical ally who helps rebuild infrastructure and offers blunt emotional counsel — can nudge Mika toward compromise or insist on resistance depending on player choices."
+        },
+        {
+            "name": "Mayor Amina Bakar",
+            "relation_to_main": "Municipal leader and community negotiator",
+            "appearance_summary": "Silver-gray braid wrapped in colorful scarves, tailored practical coats, warm brown eyes, and a posture that balances exhaustion and resolve.",
+            "function_in_story": "The political pivot: she mediates between developers, scientists, and residents. She can be swayed by evidence, votes, or promises of funding, and her decisions shape which story branches unlock."
+        },
+        {
+            "name": "Ravi 'Riv' Delgado",
+            "relation_to_main": "Young activist and neighbor",
+            "appearance_summary": "Short, animated, bright bandana, and graffiti-splattered raincoat; exuberant energy with quick, expressive hands.",
+            "function_in_story": "Represents emergent youth movements — organizes protests, direct actions, and community science. He accelerates conflict or reconciliation depending on alliances."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Atera Harbor & Docks",
+            "visual_description": "A mosaic of weathered wooden pilings, patched nets, and low-slung warehouses. Lighting: late-afternoon gold with salt-sheen reflections and drifting mist when tides rise. Colors: muted umber and driftwood gray with algae-green highlights. Atmosphere: tactile, lived-in, the sound of creaking boards and gull calls; storm lines painted on the pilings show past high-tide marks."
+        },
+        {
+            "name": "Greenhouse Rooftop Lab",
+            "visual_description": "A reclaimed rooftop garden above Mika's workshop, full of hydroponic trays and experimental salt-tolerant flora. Lighting: soft diffuse greenhouse light with condensation halos on glass; interior glows at night with warm amber grow-lamps. Colors: lush greens, copper pipes, and reclaimed metal trellises. Atmosphere: hopeful, intimate — a place for quiet conversations and secret experiments."
+        },
+        {
+            "name": "Floodplain Boardwalk & Reedbeds",
+            "visual_description": "A long wooden boardwalk through marshy reedbeds that sway under gray skies. Lighting: overcast, low-contrast light punctuated by reflective pools after rain. Colors: muted slate blues, tan reeds, and iridescent puddles. Atmosphere: contemplative and slightly eerie; the boardwalk creaks and sometimes disappears underwater during king tides, emphasizing fragility."
+        },
+        {
+            "name": "Voss Development Office (Glass Tower)",
+            "visual_description": "A modern glass-and-steel planning office that overlooks the town, with panoramic views and glossy renderings pinned on screens. Lighting: cool, bright artificial light that contrasts with the town's softer palette; city reflections ripple off the glass. Colors: chrome, cool blues, and sterile white. Atmosphere: efficient, clinical, a place where futures are modeled in numbers rather than felt."
+        },
+        {
+            "name": "Subtidal Restoration Site (Kelp Farm)",
+            "visual_description": "Underwater vistas visible through research windows and dive footage: swaying kelp forests, turquoise shafts of light, and small restoration platforms bobbing on the surface. Lighting: dappled underwater light with green-gold flecks. Colors: deep sea-greens, black basalt, and the occasional flash of fish scales. Atmosphere: restorative and quietly magical; a space of scientific wonder that becomes a shared anchor for characters."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love vs Duty"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Mika negotiates a cooperative solution: Soren agrees to a hybrid plan that integrates living shorelines and smaller-scale engineered defenses after community pressure and Elias's demonstrative pilot projects. The town is stabilized, local livelihoods are preserved, and Mika forms a durable romantic partnership (player choice-dependent) built on shared work and respect."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise is reached that prevents catastrophic loss but requires concessions (some historic sites are relocated; some residents must move). Mika and her chosen partner maintain a relationship but both carry scars from sacrifices. The town survives but with visible losses, leaving a tempered hope and ongoing work ahead."
+        },
+        {
+            "type": "Sad",
+            "summary": "Soren's large-scale development is pushed through without meaningful ecological safeguards after political deals and funding promises. Short-term stability and economic influx come with long-term ecosystem decline; Elias's restoration projects are sidelined. Mika loses either the town's original character or the romantic partner who chooses the 'greater good' or personal ambition, leading to grief and exile-like departure."
+        },
+        {
+            "type": "True",
+            "summary": "Through bold grassroots action and a risky scientific breakthrough at the kelp restoration site, the community builds a replicable resilience model. Soren, Elias, and Mika find a new equilibrium: Soren admits past mistakes and redirects his influence, Elias scales the ecological model, and Mika leads community governance. Romance is fulfilled for the player if they made choices emphasizing trust, transparency, and collective leadership; the ending suggests broader systemic change beyond the town."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

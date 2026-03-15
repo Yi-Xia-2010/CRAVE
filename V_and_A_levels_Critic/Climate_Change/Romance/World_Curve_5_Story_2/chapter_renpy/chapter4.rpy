@@ -1,0 +1,215 @@
+label chapter4:
+
+    # [Scene: Reclaimed Lots | Dawn]
+
+    scene bg ch4_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Hammering from a nearby crate, low murmurs of volunteers, gulls sharpening the morning]
+    # play music "music_placeholder"  # [Music: Sparse strings with a rising tempo, undercurrent of rapid percussive ticks]
+    "You wake to the sound of people already at work — not the polite, planned clatter of a meeting, but the kind of busy noise a place makes when it is trying to keep from falling"
+    "apart. Your boots sink slightly in the mud as you walk between beds, fingers cold around the spine of your field notebook. The locket against your sternum feels heavier than this morning deserves."
+    "Tala is arguing quietly with a volunteer over placement of a sediment-trap; her purple hair is a bright slash against the gray. Ivy is halfway up a ladder, swapping a banner with paint-splattered hands. Old Man"
+    "Rohan stands at the edge of the marsh, his cap pulled low, watching the water as he always does — the way a man watches something he knows could change without asking permission."
+    "You tighten your grip on the clipboard. Logistics are a litany of small cruelties today: materials inventory short by half, volunteers who were supposed to arrive now delayed by a broken ferry, and last night's email from City Hall demanding a line-item budget and a safety protocol by noon."
+    "You breathe in the marsh air — sharp with algae and diesel — and feel the urgency rise under your ribs like a tide."
+    show tala_kumari at left:
+        zoom 0.7
+
+    tala_kumari "We can jury-rig more sandbags, but without more feedstock those berms won't hold the next high. Rohan says the old oyster beds used to slow the surge — can we get oyster spat reactions in time?"
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "We can source oysters, but not without cold storage and trained hands. We need a funding line for refrigeration and two trained technicians — at least for the first month."
+    "Tala's jaw tightens. 'And where's that money coming from, Aiko? We've already burnt through the pantry.'"
+    "Ivy climbs down, dusting her hands. 'Rent's due. People need to know this project won't just be a pretty science exercise. They need work and the pantry stocked. We can't keep asking for volunteers forever.'"
+    "Your chest clenches. You hear each of their sentences like stones dropped into a bucket you must carry. You map the risks in your head in the way your training taught you — nutrient loading curves,"
+    "erosion coefficients — but here, those numbers translate to people going hungry, roofs left unreinforced, a child pulled from a flooded doorway."
+    "You look past the reclaimed beds to the marsh that melts into the horizon. The waterline gleams, and a wind comes over it that tastes of iron. The city wants proof you can act; your neighbors want proof you won't abandon them."
+    hide tala_kumari
+    hide aiko_navarro
+
+    scene bg ch4_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A phone chirps — a message from City Hall marked: "URGENT: Budget & Safety Protocol — 12:00"]
+    "You close the notebook with deliberate force. The moment of recommendation in the council hall still hums in your veins: community consortium, slow, stubborn, local. It felt right then. Now the room of reclaimed lots looks like a set of urgent demands that answer to no one."
+
+    menu:
+        "Take charge of volunteer allocations yourself":
+            "You stride over to the cluster of volunteers and start assigning tasks by priority, feeling the familiar steadiness of action settling in your shoulders."
+        "Pull Mateo aside to ask for a concrete timeline":
+            "You catch Mateo's eye across the beds, and when he approaches you speak quickly, your questions clipped; his calm answers are a small balm, but you can hear the bureaucracy in his voice."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: The Aquarium - Meeting Corner | Mid-Morning]
+
+    scene bg ch4_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low chatter, kettle whistling in the background, the sea like a constant metronome beyond the broken tile]
+    # play music "music_placeholder"  # [Music: Staccato piano interlaced with a steady drum beat — tension rising]
+    "You gather the volunteers into a circle. People lean forward: council members, fishers, gardeners, teenagers from the co-op — ordinary hands that are suddenly holding extraordinary expectation. You speak in short bursts, because the clock feels like it has teeth."
+    show aiko_navarro at left:
+        zoom 0.7
+
+    aiko_navarro "Priority one: immediate shore stabilization where families are still living in place. Priority two: nutrient traps upstream. Priority three: training and cold chain for shellfish. We have to be practical about scope — we can't do everything at once."
+    show old_man_rohan at right:
+        zoom 0.7
+
+    old_man_rohan "We can place the traps where the currents slow. Your models are fair, lass, but you need to listen to the eddies before you build the basket."
+    "Aiko Navarro: (nod slowly) 'Yes. We'll incorporate your lines on the map. Rohan — your routes will be our monitoring transects.'"
+    "Tala: (leaning in) 'And outreach. If we don't keep people fed and safe, they walk away. That will kill this plan faster than any storm.'"
+    show ivy_navarro at center:
+        zoom 0.7
+
+    ivy_navarro "I've got the market contacts. If we secure seed money for two weeks of stipends, I can keep a roster going."
+    "Mateo Ríos moves near, holding his rolled blueprints like a shield. His presence is steady; he speaks with that measured cadence that eases councilrooms, even if the words sometimes cost you. He waits until there is a lull."
+    hide aiko_navarro
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "I've spoken to Nguyen. The municipality can offer a matching fund — not the full amount you need, but enough to get the cold storage and hire two technicians immediately. There are oversight conditions: monthly reporting, designated points of accountability, and procurement standards. It slows some of your autonomy, but it buys time."
+    hide old_man_rohan
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "Matching funds come with strings. What are the procurement standards? Are they going to insist on contractors who won't hire local hands?"
+    "Mateo Ríos: (exhales) 'They want transparency. There will be paperwork. There will be oversight panels. But the technicians will be municipal hires embedded in our team — trained, paid, and available.'"
+    "Tala's eyes harden. 'That sounds like oversight that erases community power.'"
+
+    mateo_ros "Or it looks like accountability that unlocks resources. It's a trade-off."
+    "There is a pause. Around you, faces shift like tide-flats. The urgency pulses — the funding could plug the gaps now, but the cost is something you have promised to resist."
+
+    menu:
+        "Ask Mateo if oversight can include community-appointed liaisons":
+            "You propose a hybrid oversight board — he hesitates, then nods slowly; there's relief in his face, but you can tell Council will still want legal assurances."
+        "Push Tala to organize a rapid fundraiser instead":
+            "You hand Tala the clipboard; her jaw tightens and she steps into the role with fierce energy, but you notice how tired she looks — this will ask everything from the volunteers."
+
+    # --- merge ---
+    "Continue"
+    "Your phone buzzes again: City Hall demands the budget and the safety protocol by noon. The kettles whistle. Every practical solution comes with a price."
+    # [Scene: City Hall - Planning Office | Late Morning]
+    hide ivy_navarro
+    hide mateo_ros
+    hide aiko_navarro
+
+    scene bg ch4_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The low hum of air conditioning, the sterile click of a stylus, distant rain beginning against the glass]
+    # play music "music_placeholder"  # [Music: Tense synth with irregular beats, heartbeat subtly woven beneath]
+    show councilor_nguyen at left:
+        zoom 0.7
+
+    councilor_nguyen "Ms. Navarro, we appreciate the consortium recommendation. The council is willing to consider pilot funding, but we need a detailed line-item budget, safety protocols evaluated by municipal standards, and a timeline. If you can't provide these by noon today, the council will have to look at external proposals."
+    "You feel the floor tilt. Noon. Your throat tightens. The thought of 'external proposals' settles like a cold stone in your stomach — the euphemism for Dr. Selene's firm."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "We will provide the budget — a preliminary line item and a safety summary. But our timeline depends on immediate access to refrigeration and trained staff. Without that, our projections for shellfish viability change."
+
+    councilor_nguyen "Then secure the funding sources. The city will not fund an unaccountable project. You're asking us to gamble municipal money on volunteer labor."
+    "Mateo Ríos: (softly) 'We're not asking for a blank check. We can set up contractual checkpoints.'"
+    "Tala: (cutting in) 'If this turns into a city showpiece, it'll strip the community of its ownership.'"
+    "Mateo Ríos: (meeting Tala's glare) 'No — it should be a platform. With the right guarantees.'"
+
+    aiko_navarro "Guarantees are not guaranteed. Paper can say anything."
+    "Councilor Nguyen's gaze flicks to you — the room quiets and you feel the collective weight of expectation."
+
+    councilor_nguyen "Ms. Navarro, can you deliver the protocol and budget to us by noon? If not, the council will solicit corporate bids."
+    "The word 'corporate' lands like thunder."
+    hide councilor_nguyen
+    hide aiko_navarro
+
+    scene bg ch4_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant rumble of thunder, as if the weather itself is impatient]
+    # [Scene: Marsh Edge - Immediate Afternoon]
+
+    scene bg ch4_453e40_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Waves slap with increasing rhythm; a far horn blares from the harbor]
+    # play music "music_placeholder"  # [Music: Crescendo of strings and percussion — the tempo is now urgent]
+    "You return to the marsh to run nutrient cycling models on your tablet — numbers that do not care about rhetoric, only inputs and outcomes. Fingers chilled, you trace scenarios: with municipal refrigeration, shellfish survival odds climb; without it, mortality spikes and the community's plan collapses within a month."
+    show old_man_rohan at left:
+        zoom 0.7
+
+    old_man_rohan "You carry too much, lass. You think you must hold everything together. But you can't be every tide and every breaker."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "What if I fail them? What if the work of months collapses because I wouldn't accept enough help?"
+
+    old_man_rohan "We live in a place that moves. We mend what we can. Sometimes mending means stitching with different hands."
+    "Ivy approaches, worry etched into the lined map of her face."
+    show ivy_navarro at center:
+        zoom 0.7
+
+    ivy_navarro "If we take the municipal money, will they let us hire people from the neighborhood? Or will contractors come in and take the jobs?"
+    "Mateo Ríos: (quietly) 'I can push for local hire clauses. I can guarantee trainee positions. But I need you to accept oversight. The council will not sign otherwise.'"
+    "Aiko Navarro: (internal) The word 'guarantee' tastes thin. It's the language of policy, not of the hands that know the smell of the marsh. Mateo's offer is a bridge built from bureaucracy — sturdy in theory, but with railings that might exclude the very people it's meant to protect."
+    hide old_man_rohan
+    show tala_kumari at left:
+        zoom 0.7
+
+    tala_kumari "Or we go door-to-door for two weeks and keep control. We keep people in the loop and in the pay. It'll be brutal, Aiko. People are tired. Fundraising takes time. We may lose momentum."
+    "Your chest tightens with the rising pressure: volunteers' fatigue, people's bills, the council's noon deadline, and somewhere out beyond the cliff the weather is quickening. Your training sketches probabilities; your heart measures human costs. Both are true, and the pull between them is a violent thing."
+    "You remember the morning your mother's house was lost — the sudden black of water through a doorway, the strange, intimate grief. You promised then to make things different. That promise sits like a knotted rope in your belly now, tugging in a direction that might force a trade."
+    "Mateo Ríos steps closer, lowering his voice. There is more in his eyes than policy papers."
+    hide aiko_navarro
+    show mateo_ros at right:
+        zoom 0.7
+
+    mateo_ros "Take it from me — I'm trying to make a pathway that doesn't erase what you fought for. If you accept municipal matching, we write the oversight so it's participatory. We keep hiring local technicians. We keep the consortium's decisions central."
+    hide ivy_navarro
+    show aiko_navarro at center:
+        zoom 0.7
+
+    aiko_navarro "And if Council demands procurement that favors outside contractors?"
+
+    mateo_ros "Then we fight it. But with municipal funds we have standing. We have leverage. Without it, we are... more vulnerable."
+    "Aiko Navarro: (internal) His words are a rope thrown across a current. Accept it, and you cross with some certainty — and with watchful eyes over your shoulder. Refuse, and you keep the consortium pure but"
+    "risk watching the marsh and the people who depend on it fray while you gather scraps."
+    "The wind picks up. The first heavy drops begin to fall, making wet freckles on the tablet screen as if the weather itself has arrived to witness your choices."
+    hide tala_kumari
+    hide mateo_ros
+    hide aiko_navarro
+
+    scene bg ch4_453e40_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain intensifies; volunteers shout over the wind; a horn blares insistently]
+    "Your chest is a drum. You can hear your pulse. The urgency is now — not an abstract deadline but a tangible, rising roar."
+
+    menu:
+        "Tell the volunteers to prioritize shore stabilization even if it means delaying shellfish work":
+            "You give the order; volunteers pivot. The berms get reinforced. There is immediate relief in faces, but someone mutters that the cold chain will fall behind."
+        "Hold a quick town vote to decide priorities, delaying any formal decision for an hour":
+            "You call for a quick vote; hands go up, voices rise. Democracy buys you time, but the clock keeps its teeth — noon still looms."
+
+    # --- merge ---
+    "Continue"
+    "You stand between the people you love and institutions that speak in a different grammar. The rain hardens to a steady sheet. Somewhere in City Hall a clock ticks toward noon with methodical cruelty."
+    "Your throat is dry. The consortium's banner whips in the wind like a heartbeat. You can imagine the alternatives: Mateo's municipal bridge with careful scaffolding; the messy, exhausted glory of grassroots labor; or, dimly, a meeting"
+    "with Dr. Selene that would bring money so fast the town might not see the cost until later."
+    "The choice hovers, electric and terrible."
+    # [Scene: Reclaimed Lots - Under the Banner | Noon]
+
+    scene bg ch4_453e40_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain thundering, an electronic chime from your phone, murmurs of a dozen worried voices]
+    # play music "music_placeholder"  # [Music: Full orchestra with sharp brass; tension peaks]
+
+    "Councilor Nguyen's message pings through your phone" "Final call. Council expects your resource plan and preferred funding route."
+    "You feel time thin into a razor."
+    "Mateo Ríos reaches for your hand — a brief, steadying contact that says more than words. His fingers are warm, practical, and full of the things he cannot promise aloud."
+    "Mateo Ríos: (soft) 'Whatever you decide, I will stand with you in the parts I can.'"
+    show aiko_navarro at left:
+        zoom 0.7
+
+    aiko_navarro "I know. But standing with me may ask me to give away some things I promised to protect."
+    show mateo_ros at right:
+        zoom 0.7
+
+    mateo_ros "I know."
+    "The wind makes the banner strain; it might tear if it keeps being asked to do this much work. Your choices are not clean. Each will break something someone loves."
+    "You taste salt on your lips — rain or tears, you cannot tell. You are exhausted of holding decisions that feel like small betrayals. Yet refusing to decide is its own betrayal."
+
+    menu:
+        "Accept Mateo's municipal matching funds, agree to his oversight conditions.":
+            jump chapter5
+        "Refuse municipal strings; intensify grassroots fundraising and labor.":
+            jump chapter6
+        "Coordinate a private meeting with Dr. Selene to request conditional corporate funding.":
+            jump chapter6
+    return

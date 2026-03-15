@@ -1,0 +1,507 @@
+{
+    "title": "Tidebound Promises",
+    "summary": "Asha Moreno returns to her coastal hometown Marabel as rising seas and corporate resilience projects force the community to choose between autonomy and immediate safety. Partnered with old friend Noah and facing Lila Park's Beacon, Asha pushes for marsh restoration and community-governed sensors. Initial momentum gives way to a compound catastrophe—data leaks and storm breaches—that fractures alliances. Multiple branches explore compromise, resistance, sacrifice, and moral integrity, with romance between Asha and Noah tested by each path. Endings range from a negotiated hybrid success, bittersweet preservation with social cost, a risky moral victory through natural restoration, to a hollow corporate stability. Throughout, the emotional arc rises through planning and intimacy, then falls through crisis and consequence.",
+    "emotional_curve_type": "Icarus",
+    "player_character": "Asha Moreno",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Returning Tides",
+            "branch_designation": "Common",
+            "narrative_focus": "I arrive back in Marabel at dawn; the ocean's scent and the creak of the Promenade greet me. I carry my battered brass compass and a tablet of models. I document changes: pilings, raised gardens, and the Beacon’s glass silhouette. I meet Noah briefly; he looks like he always has—dark curls pushed back, deep brown eyes steady—and the air between us is a mix of relief and old impatience. The community's heat is tactile: Marta’s raised plots, Eli’s boat hulls. I replay my father’s lost boat in my mind as I walk the boatyard, thinking about systems rather than blame. The storm-warning lampposts blink; Mayor Rosa's office has calls stacked. I reconnect to the pain and the work—presenting a plan for marsh restoration and community-governed sensors. I feel the old guilt: I left, I studied, and now everyone expects me to deliver. My jacket smells of salt, my hazel eyes catch the low sun. It's quiet but charged; the town holds its breath. This is where political momentum will have to meet memory—and where Noah and I will have to decide how close we can be.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryLow",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Marta",
+                "Eli",
+                "Mayor Rosa"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Boatyard",
+                "Beacon",
+                "Mayor Rosa's office"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Mapping Memory",
+            "branch_designation": "Common",
+            "narrative_focus": "I spend the day in Tidewatch Lab, fingers raw from maps and models. My ledger sits next to a bank of tidal curves; fluorescent screens throw cool light on my face. I run simulations showing how marsh restoration combined with strategically raised homes lowers flood risk without wholesale buyout. Noah stops by with a rolled-up community plan; his silver-ring-on-a-necklace bobs as he gestures. We talk bargaining languages—numbers, stories, and the town’s stubborn values. Lila's firm is already here, formal and polished; I hear her name on calls and feel a sting. I trace my compass pendant against the plan, finding the coordinates Marta tattooed on her silicone band; the garden plots smell of soil and citrus. I watch a clip of Eli shaping ribs into a hull, sawdust like confetti. The day tightens around possibility: municipal grants, sensor feeds, volunteer teams. My chest warms at Noah’s easy touch when he passes me a cup of coffee, and I find myself rehearsing how to ask for help. The community’s momentum feels tangible—like a swell before a wave—and I feel both confidence and the weight of responsibility.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "Low",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Marta",
+                "Eli"
+            ],
+            "locations_used": [
+                "Tidewatch Lab",
+                "Raised gardens",
+                "Boatyard"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Beacon and the Bargain",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The town meeting is on the Promenade under a sky that keeps threatening rain. Lila arrives in a slate coat, jet-black bob immaculate, and the Beacon’s PR team sets up a sleek demo of sensor feeds. She speaks clearly: scalable walls, floating platforms, and guaranteed investment. Mayor Rosa listens, face braided and tired. I stand and lay out my hybrid—marsh restoration, community-operated sensors, and matching funds—framed to keep property rights local. Noah reads the room and advocates for negotiation rather than confrontation; his gaze finds mine twice too many times and my chest tightens. Marta insists on community control; Eli drums his palm on a crate. The meeting fractures into three clear impulses: accept Lila’s turnkey funding, push the community-governed hybrid, or postpone the vote to run more pilots. I feel the old guilt—if I push too hard, people could lose immediate safety; if I concede, we sell our shoreline. Lila’s steel-gray eyes assess me as if I’m a variable; Noah’s deep brown gaze asks me to choose with him. The town needs a direction.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I steer the vote and public narrative?",
+                "options": [
+                    {
+                        "label": "Push the hybrid plan publicly, demanding local governance and sensor access.",
+                        "consequence": "Aligns me closely with grassroots leaders; Lila feels challenged; Noah pledges to help broker terms.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Openly propose pausing to pilot Lila's tech in a strictly monitored trial.",
+                        "consequence": "Delays confrontation; invites Lila to install tech with oversight; divides community trust.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Call for a private negotiation with Mayor Rosa and Lila to buy time.",
+                        "consequence": "Keeps options open but risks secret deals; Noah is wary but agrees to accompany me.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Asha Moreno",
+                "Lila Park",
+                "Mayor Rosa",
+                "Noah",
+                "Marta",
+                "Eli"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Beacon",
+                "Municipal meeting area"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Marsh Lines",
+            "branch_designation": "Route A",
+            "narrative_focus": "I choose public pressure: I take the stage and describe a plan that stitches marsh restoration to a community-controlled sensor network. My chestnut hair is pulled into a messy bun; I push a stray tendril back as I show cross-sections of tidal reed beds. Noah stands beside me—his fingers warm on the rolled-up maps—declaring he will shepherd municipal approval. People cheer; Marta's silver hair bobs with fist pumps; Eli nods like he's splicing timber with each point I make. Lila's jaw tightens but she applauds with measured hands, the corporate device of enthusiasm. For the first time in months, the town's future feels like a shared labor. We secure provisional funding, volunteer teams, and a clause guaranteeing local governance over sensor data. The night ends with wet hugs on the Promenade; the Beacon throws a halo above the water. Back at Tidewatch, Noah and I exchange something beyond policy—an unspoken recognition of what we're risking together. I tuck my brass compass into my palm and feel steadiness. This is the surge I'm meant to ride.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Marta",
+                "Eli",
+                "Lila Park"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Tidewatch Lab",
+                "Beacon"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "A Moment Built of Salt",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "Momentum becomes implementation. Volunteers build marsh coffers; Marta leads planting with sprayed gloves; Eli shapes stakes at the boatyard as I log vegetation survivals into the lab. Noah organizes community contracts, sketchbook open, his soft gaze catching mine when a drill slips from his hand. Lila offers to donate a sensor array if her engineers can calibrate with our models; I demand community access to raw feeds. The Beacon shutters its polished face but concedes a public terminal. Trust is brokered in coffee and later, in a quiet cart-load of oysters we share by the promenade. That evening Noah finally unclenches and takes my hand; his necklace-ring brushes my thumb. I find myself telling him things I haven't said aloud—about my father's boat, about why I came back. Everything feels lifted; we celebrate with a small group under solar lanterns. Yet under the laughter is the tiniest tremor: leaks in data policy, corporate lawyers drafting clauses, and Lila's inscrutable smile. I choose how to guard the town's agency.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we finalize the sensor agreement with Lila?",
+                "options": [
+                    {
+                        "label": "Accept the Beacon's donated array under the clause we've negotiated (community access guaranteed).",
+                        "consequence": "Rapid deployment and celebration; trust gains initial victory.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Insist on a fully open-source installation and delay deployment until legal guarantees are ironclad.",
+                        "consequence": "Slower installation; tension with Lila rises; volunteers get anxious.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Publicly refuse any corporate hardware; we'll build our own sensors with community labor.",
+                        "consequence": "High pride; slow rollout and resource strain; Noah admires the courage but fears the cost.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Marta",
+                "Eli",
+                "Lila Park"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Tidewatch Lab",
+                "Boatyard"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "High Water",
+            "branch_designation": "Route A (Happy-leaning Hybrid Success)",
+            "narrative_focus": "The sensors hum beneath the boardwalk. Whatever path I chose—accepting Beacon hardware with guarantees, delaying for legal clarity, or building our own—the installation is completed in tandem with marsh plantings. We hold a ceremony; Mayor Rosa pins a small commemorative ribbon onto my jacket, salt stains and all. Noah and I stand close as the first data feed renders tide lines that match our models. For a moment I believe we have turned back the imminent losses. The Promenade feels repaired by human hands and policy. Lila watches from the Beacon, expression unreadable but respectful; she offers a curt nod that could almost be affection. At night Noah takes me to the boatyard; sawdust clings to his shirt and his hand finds mine. We speak of staying. The town retains its character; houses saved and community governance established. Yet even as we celebrate, I see the ledger open on my tablet—future liabilities, insurance clauses, and a small clause I missed that lets investors request coastal easements in extreme circumstances. My joy tastes of brine and caution. I hold Noah and imagine storms yet to come.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 7,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Mayor Rosa",
+                "Lila Park"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Boardwalk",
+                "Boatyard",
+                "Tidewatch Lab"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Trial by Tides",
+            "branch_designation": "Route B",
+            "narrative_focus": "We agreed to a monitored trial. Lila's engineers install their array with legal observers present. The Beacon's tech brings immediate improvements; tide forecasting sharpens and emergency alerts ping phones. Noah negotiates the oversight terms, his brows knit but his voice steady. For a while, the town breathes—fewer midnight evacuations, a cleaner supply chain for emergency meals. My maps show better short-term safety, but my ledger shows fees layered into maintenance contracts. I start to sense the subtle shift: donor language that describes \"access points\" and \"platform-managed assets.\" Marta organizes more volunteers; Eli refurbishes hulls into storm barges. Noah and I grow closer in the lab between meetings—his hand sometimes lingers on my back, his curls damp from the rain. He tells me he wants to keep the town whole without selling its soul. The trial becomes a crucible; Lila's cadence of efficiency is seductive in the face of fear. We watch data and wonder if the Beacon is a balm or a leash.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Neutral",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Marta",
+                "Eli"
+            ],
+            "locations_used": [
+                "Beacon",
+                "Tidewatch Lab",
+                "Raised gardens",
+                "Boatyard"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Quiet Compromises",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The trial's success becomes Lila's leverage. She pitches a comprehensive package: engineered seawalls, floating platforms, and scalable “resilience districts.” The price is consolidation of waterfront lands under a managed trust—promised to be retained for residents, but managed by corporate stewardship. In closed rooms, lawyers phrase things carefully; Mayor Rosa looks weary and tempted by immediate safety. Noah tries to thread the needle; he calls me and says, quietly, \"We can negotiate terms—get more community seats on the trust.\" I feel pulled: accept a compromise that buys safety now or stand firm and risk losing funding and political goodwill. The town splits into conversations at the market: some see salvation in infrastructure, others smell the erasure of legacy. Lila wears her steel-gray eyes like armor and speaks of scale and urgency. My chest tightens; I imagine my father's boat wrecked on rocks that might be fixed—or his dock bulldozed for a new pier. I must choose how to argue for people when tide and money both press.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I advise the town and Noah about Lila's consolidation plan?",
+                "options": [
+                    {
+                        "label": "Negotiate stronger ownership clauses and resident veto powers—accept project with strict guarantees.",
+                        "consequence": "Secures funding but legitimizes corporate management.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Organize a neighborhood referendum to demand legal safeguards or reject the trust.",
+                        "consequence": "Democratic but risky; delays could spook investors.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Mobilize a public campaign to reject the trust outright and push for community-led alternatives.",
+                        "consequence": "Polarizes the town and risks immediate funding withdrawal.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Mayor Rosa",
+                "Marta",
+                "Eli"
+            ],
+            "locations_used": [
+                "Beacon",
+                "Market",
+                "Municipal offices",
+                "Promenade"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "The Seal and the Rift",
+            "branch_designation": "Route B (Bittersweet Ending)",
+            "narrative_focus": "Whatever path I champion—negotiation, referendum, or grassroots rejection—the outcome taxes the town. If we negotiated, the revised trust includes resident seats but also a clause that allows capped buyouts under \"extreme need.\" If we held a referendum, the result narrowly passes but fractures alliances. If we rejected the trust, Lila withdraws funding and the town scrambles. In all versions, the immediate danger is abated in the short term, but the social fabric strains. Some longtime families accept buyouts for security and leave; the floating market loses stallholders. Noah and I argue late into a rainless evening in the Tidewatch lab; his fear of confrontation shows as he avoids the hardest lines, and I fracture between indignation and practical care. We hold a smaller victory—most homes kept, some restoration underway—but the Promenade has new plaques announcing corporate partnerships. I walk the boardwalk at night and feel a hollow I can't stitch. Noah squeezes my hand and apologizes for compromises he made; we part with affection and grief, knowing safety cost us pieces of Marabel's soul.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 10,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Mayor Rosa",
+                "Marta",
+                "Eli"
+            ],
+            "locations_used": [
+                "Tidewatch Lab",
+                "Promenade",
+                "Boardwalk",
+                "Beacon"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Closed Doors",
+            "branch_designation": "Route C",
+            "narrative_focus": "I choose a private negotiation with Mayor Rosa and Lila, hoping to buy time and craft safeguards away from the glare. In a glassed municipal office that misted with ocean spray, Lila's face is patient; she offers staged funding, sensor rollout, and a pilot upkeep fund. Rosa reminds me of budgets and re-election. I listen and raise terms about community governance; Lila counters with expedited timelines and corporate liability coverage. We settle on a monitored pilot with an agreement to revisit governance after six months. Noah accompanies me, quieter than at public meetings, and I watch him work the room with a tact that softens Lila's edges. For a moment it seems prudent—quiet, technical, controlled. But behind closed doors the Beacon's legal drafts include language about \"managed assets\" and \"third-party adjudication.\" I leave the room with a sense of having traded transparency for speed. The Promenade night smells of wet wood and neon warnings. I tuck my compass closer, thinking of my father learning to read tides by hand.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Asha Moreno",
+                "Mayor Rosa",
+                "Lila Park",
+                "Noah"
+            ],
+            "locations_used": [
+                "Municipal office",
+                "Promenade",
+                "Beacon"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Data Leaks and Storm Lines",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The pilot goes live, but a leak exposes contract clauses to a wider audience: a clause enabling investor claims under \"unforeseen exigency\" is highlighted in a viral thread. Panic ripples: insurance premiums spike and a property group starts probing waterfront titles. In parallel, an early-season storm hits harder than our models predicted; a test wall fails and the Beacon's sensors record the breach in excruciating real time. The town scrambles sandbags and volunteers; Eli ferries elders while Marta coordinates raised gardens as temporary refuges. Noah and I triage public perception—he calms people with practical plans, I organize emergency marsh reinforcement. Lila sends an apologetic message; her engineers are flooded with incident reports. We must decide: double-down with Lila to patch infrastructure and accept present terms, try to litigate and expose contractual overreach, or commit to a risky, large-scale natural restoration that might fail but returns control to residents. My heart is heavy; each option risks something dear. Noah's hand on my shoulder is the only steady point I can find.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "During crisis, what do we prioritize?",
+                "options": [
+                    {
+                        "label": "Work with Lila to mobilize corporate resources to shore the town immediately.",
+                        "consequence": "Rapid repairs; corporate leverage solidifies.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Expose the leaked clauses and pursue legal action with Mayor Rosa to renegotiate terms publicly.",
+                        "consequence": "Political conflict; possible funding withdrawal; civic transparency.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Mobilize the community for an accelerated natural restoration—risky, resource-heavy, but autonomous.",
+                        "consequence": "Potential moral victory but real-world loss if it fails.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Marta",
+                "Eli",
+                "Mayor Rosa"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Boardwalk",
+                "Beacon",
+                "Tidewatch Lab"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Stormfront",
+            "branch_designation": "Route C (True Ending — moral integrity, uncertain outcome)",
+            "narrative_focus": "We choose collective action—either reluctantly cooperating with Lila's crews under strict community oversight to shore the breach while simultaneously accelerating marsh restoration, or taking the risk of full community-driven restoration. In either case, the storm returns with ferocity. The Beacon's lights blink alarms; the ocean ribs open like an honest wound. Volunteers stand waist-deep in cold water, Marta barking orders, Eli hauling planks, Noah tethering people to hand lines. I run like an animal between tasks—stitching sandbags, hauling woven reed mats, supervising sensor redeployments. For a time we hold; for a time we don't. The breach widens, the corporate walls buckle in one place, and a storage of investor-committed housing floats away in the night. We lose property; we save people. In the silence after the wind, the town is raw—some things remain, others are gone. My relationship with Noah changes: no easy promises, but a deepened trust forged in shared failure and bravery. I feel both loss and a fierce integrity: we chose what we believed in, even when the sea punished us. The ending is uncertain but honest.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option A/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 13,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Marta",
+                "Eli",
+                "Lila Park"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Boardwalk",
+                "Boatyard",
+                "Beacon"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "After-Maps",
+            "branch_designation": "Additional / Epilogue",
+            "narrative_focus": "In the calm that follows, we catalog the losses and the unanticipated gains. Some areas sank; others grew new marsh wrack that traps sediment and promises future accretion. Eli reclaims a hull and carves it into a community memorial; Marta leads seed-sifting workshops. I sit with the ledger and rewrite plans to focus on adaptive housing and shared resources. Noah and I speak less in plans and more in small steady things—coffee at dawn, joint visits to the garden, a hand that meets mine to reroute fear. Mayor Rosa pushes for a phased governance model that enshrines resident seats and refugee support; Lila's firm offers scaled help but with tighter strings. I teach a class at the Tidewatch Lab about living shorelines, my compass heavy at my throat. The town is neither pristine nor defeated; it is bruised and organizing, a patchwork of grief and stubborn hope. My guilt softens into a resolve to keep trying—because the sea will keep coming and we must keep answering together.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 12",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 14,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Eli",
+                "Marta",
+                "Mayor Rosa",
+                "Lila Park"
+            ],
+            "locations_used": [
+                "Boatyard",
+                "Raised gardens",
+                "Tidewatch Lab",
+                "Promenade"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Quiet Ledger",
+            "branch_designation": "Additional / Epilogue",
+            "narrative_focus": "Months later, I tally what we safeguarded and what we ceded. Insurance rates stay high in certain blocks; a few families accepted buyouts and left. But the marsh meanders continue to capture sediment; children learn to plant cordgrass on raised beds. Noah and I meet at dusk on the Promenade; his hand in mine is familiar and a little fragile. We are not children of certainty. Lila's Beacon becomes part of the skyline—less a halo now and more an instrument with a human face for some; for others it's a reminder of bargains struck. I teach at Tidewatch, coordinate volunteer architecture, and help litigate clauses when they overreach. My brass compass is scuffed but still points, as if reminding me the town's bearings are moral as well as geographical. I sit at the boatyard reading a letter from a family who left, and then a note from someone who stayed. The ledger remains an imperfect friend: numbers and stories tangled. I breathe the salt air and count small mercies. The work continues.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 13",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 15,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Mayor Rosa",
+                "Eli",
+                "Marta"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Boatyard",
+                "Raised gardens",
+                "Tidewatch Lab"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "The Price of Safety",
+            "branch_designation": "Additional / Ending (Sad)",
+            "narrative_focus": "In the version where we publicly exposed the clauses and pushed back hard, legal battles replaced tidework. Lila's firm withdraws major funding; in the consequent scramble, private investors move in with offers the town cannot refuse. The Beacon's technology remains, but control transfers to managed-access boards and covenanted spaces that raise living costs. Houses are preserved physically but become inaccessible to some longtime residents. I sit on the Promenade and watch delivery drones overfly the market; the familiar faces of vendors are fewer. Noah and I drift apart—he accepts a technical director role that keeps him in town but binds him to institutional compromise; I step away, bitter and resolute, to work with displaced families and to start an itinerant program of living-shore training. The town survives as a model of technological resilience, but the heart has been resized. My brass compass hangs in my pocket like a remnant of an old map. I walk away from the Beacon’s glow and toward a different shore—still wanting to help, but no longer able to stay with the compromises he chose. Love remains, altered into ache and memory.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option B (or From Chapter 13, Next)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Asha Moreno",
+                "Noah",
+                "Lila Park",
+                "Mayor Rosa"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Beacon",
+                "Market"
+            ]
+        }
+    ],
+    "remarks": "Branches occur at Chapters 3, 5, 8, and 11. All chapters are first-person and adhere to the described 180–200 word length. Global emotional arc: Rise (Chapters 1–5) then Fall (Chapters 6–15), forming an Icarus-like curve; each route reaches a VeryHigh arousal climax at its catastrophic moment.",
+    "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+    "_meta_arc_strategy": "Icarus (Rise-Fall)"
+}

@@ -1,0 +1,181 @@
+label chapter2:
+
+    # [Scene: Municipal Hall / Planning Office | Late afternoon, steady rain]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain tapping on the window, the distant rumble of traffic, a muffled speaker at the front of the room]
+    # play music "music_placeholder"  # [Music: Low piano, bowed cello beneath]
+    "You come in wet and small, the hem of your jacket dark with seawater. The planning office smells of cold paper and coffee gone thin; the maps on the corkboard look like islands under glass—edges and"
+    "numbers and a geometry that feels cruelly indifferent to memory. You sit in the back, your bag a solid, familiar weight at your feet. The tablet in your pocket vibrates once and you ignore it; there"
+    "will be time to read updates later. For now the room is a different weather: fluorescent and bright, conversation folded into clipped procedural cadences."
+    "Your palms are damp on the arm of the chair. You recenter yourself—breath measured, thumb finding the braided bracelet slipped up under your sleeve. The metal ring against your fingertip is a cold, private thing that"
+    "grounds you in the childhood of the pier, in the wooden festival lights that used to blaze there. You will need that memory when you speak. You will need data, too; the townspeople want both warmth"
+    "and numbers, and you can see how council members count one against the other."
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmur hushes; a chair scrapes as someone stands to greet them]
+    # play music "music_placeholder"  # [Music: A low, questioning note]
+    "Marin Voss crosses to the front with an economy that has always been their armor—no theatrics, only presence. They fold their coat over the back of a chair and slide a slim tablet from their case."
+    "When they look up, those pale gray eyes sweep the room and stop for the barest instant in your direction. You do not try to read it; you hold your own face steady and let the"
+    "pulse in your throat slow."
+    "Ravi is seated near the center, sleeves rolled, eyes rimmed with sleepless gray. Kai Nakamura is there too—ink on his cuffs, hair pushed back with a nervous hand, that old half-grin folding into concentration. He gives"
+    "you a small, hopeful nod when your eyes catch; you return it with one that is quieter than either of you expect."
+
+    "Councilmember Lyle" "Let's call the meeting to order. We'll take public presentations, then open comments. Ms. Alvarez?"
+    "You rise because your palms know the motion. Notes are organized, compact, a proposal you have spent nights chiseling down to essentials: rooftop gardens as living storm buffers, community-owned modular seawalls built from recycled composites, and"
+    "an open-source blueprint for replication. You place the tablet on the lectern and feel the room compress around the idea—hope threaded through caution."
+    show iris_alvarez at left:
+        zoom 0.7
+
+    iris_alvarez "Good afternoon. Thank you for the time. I want to talk about measures that protect our streets and keep the promenade accessible—solutions that belong to the community, not just to whoever can outbid their neighbors."
+    "You hear the steadiness in your own voice and you let it carry data when it must, memory when it needs to burn. You show images of green roofs glistening after rain, diagrams of modular segments"
+    "that can be reconfigured after storms, cost comparisons that sting but are honest. You speak of festival nights and fishermen mending nets at dawn to remind them this is not abstract."
+    "Kai Nakamura steps forward at the end of your presentation, sleeves rolled higher as if to prove work on his hands means something in a room of forms."
+    show kai_nakamura at right:
+        zoom 0.7
+
+    kai_nakamura "We can have a demo module ready by next week. Low cost, quick deployment. If people can touch it, see how it links, it'll stop being 'theory' and start being 'our thing.'"
+
+    "Councilmember Lyle" "Community-built sounds good in a pamphlet, Mr. Nakamura. Funding, liability, maintenance—those are the details that live in my inbox."
+    "You feel the room pivot. Ravi leans forward, thumbs steepled."
+    show ravi_singh at center:
+        zoom 0.7
+
+    ravi_singh "Iris, these plans are thoughtful. But regionally, we have bonds to consider. Marin, we've talked about timelines—your office has the leverage to secure the matching funds, right?"
+    hide iris_alvarez
+    show marin_voss at left:
+        zoom 0.7
+
+    marin_voss "Leverage is conditional. The bond will only stretch if the project meets municipal and legal standards. There's also the question of regional allocations—other towns are pushing hard, and we have to frame our proposal so it survives an audit."
+    "They say the bureaucratic things with a clarity that chills. You know this language; you've learned to parse it in the margins of meetings. It is not hostile. It is a set of gates."
+    "A hand goes up two seats down—an outsider voice, crisp and unsettling."
+
+    "Developer Rep" "There is another option. If we secure private investment to protect the promenade and rebuild the pier, we can ensure immediate economic continuity. Private stewardship could elevate the promenade—new lighting, kiosks, exclusive vendor leases. It's efficient."
+    "A small sound leaves you—half gasp, half laugh caught in your chest. Monetize the promenade. Privatize the views you were raised with. You feel something old tighten in your shoulders: the reflex to shoulder the town's"
+    "identity as if it were a child's coat and you were the only one who could keep it from slipping off."
+    hide kai_nakamura
+    show iris_alvarez at right:
+        zoom 0.7
+
+    iris_alvarez "Protecting our shore doesn't have to mean selling it. Once you privatize access, you change who belongs here. You change who walks the pier at dawn with a fishing line and an old thermos. We need solutions that keep our public commons public."
+    "Marin Voss watches you as you speak. Their face is a study—flat, the slightest crease at the mouth, an unreadable ledger. You cannot tell if they consider you idealistic or principled. You sense both judgment and"
+    "something like a furnished invitation to collaborate. The ambiguity sits between you like a low tide."
+
+    marin_voss "You're right to worry about access. I don't advocate privatization. What I'm asking is how to make the funding legally defensible. If we can find a compliance path, we can scale—the question is whether your proposals can be translated into the bond language."
+    "You sip the back of your tongue, tasting iron. It is not a refutation; it is a pivot toward the work of translation—your expertise versus Marin's access. You want to leap into a yes-you-can moment, to"
+    "promise to draft the compliance clauses and keep the promenade public, but you also know the complexity of legalese and lobby calendars. The urge to accept that burden swells in you—the old pattern of taking responsibility"
+    "for bridging hearts and statutes."
+
+    menu:
+        "Frame the plan as 'compliant by design'—lean technical":
+            "You speak with controlled detail, offering to draft a compliance addendum, to map each line-item to bond language. People nod at the clarity; the room leans into feasibility."
+        "Emphasize community ownership—lean into values":
+            "You return to images: kids learning to plant on a rooftop, elders tending seedlings. The room softens; some eyes meet yours with the weight of shared memory, but others narrow, worried at the lack of immediate cost metrics."
+
+    # --- merge ---
+    "..."
+
+    "Councilmember Lyle" "We can't fund ambiguity. We need assurances. 'Community' is commendable rhetoric, Ms. Alvarez, but we need numbers tied to contracts."
+
+    ravi_singh "We can write the assurances if we have project timelines, maintenance plans, and a clear budget. Marin, can you commit to guiding that process?"
+
+    marin_voss "I can facilitate a legal framework, yes. But I'd like a working group—municipal, grassroots, and technical experts. If we proceed, we proceed with accountability."
+    "The meeting fragments into procedural discussion—amendments, motion to table, requests for documentation. You leave with a motion to form a working group and an assignment to provide detailed timelines and compliance notes. It's progress with teeth: conditional, bureaucratic, limiting. You feel lightheaded with the ascent and the pinch of restraint."
+    "Outside, the hall's foyer is damp with people smudged with rain. You find your coat on a bench and button it against the wind. The day feels colder now, as if the fluorescent light bleached the warmth from you."
+    # [Scene: Damp Alley behind Municipal Hall | Early evening, light rain]
+    hide ravi_singh
+    hide marin_voss
+    hide iris_alvarez
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain in the alley, muffled conversation from the street]
+    # play music "music_placeholder"  # [Music: A minor string motif, restless]
+    "Kai Nakamura steers you into the narrower dark with the instincts of someone who wants to unburden you and also needs to speak anyway."
+    show kai_nakamura at left:
+        zoom 0.7
+
+    kai_nakamura "You did good in there. You said what mattered."
+    show iris_alvarez at right:
+        zoom 0.7
+
+    iris_alvarez "I said what mattered to me. That doesn't mean anyone will act."
+    "Kai Nakamura's hands move, demonstrative and slightly clumsy in the wet. 'I can have a linkable prototype by Friday. If people can see a module—how it bolts, how it snaps together—it's different. They can touch agency.'"
+    "You study him. The boy you both were on the pier flickers in his gestures—brash faith in making things that work. But you can feel his anxiety too, the way his jaw tightens."
+
+    iris_alvarez "Friday's soon. We still need legal language, maintenance calendars, town buy-in. If the demo looks lightweight, some will call it a bandage."
+
+    kai_nakamura "Then we'll make it feel like a bandage that heals. We'll add a mounting bracket that shows load tolerance—throw a bucket of water at it, they'll love the math."
+    "You both laugh, brittle, and then something in the alley shifts—he is earnest, and you are tired. You should let him hold hope alone; it's his commodity. But you find yourself reminding him of boundaries: budgets, council calendars, the developer's proposal still sitting like a stone in your pocket."
+    "Kai Nakamura reaches out and taps the braid of your bracelet—an old habit, as if touching the object of memory could translate courage into action."
+
+    kai_nakamura "Whatever happens, we do it together. Not you alone."
+
+    iris_alvarez "I don't want to carry it alone."
+
+    kai_nakamura "Good. Don't."
+    "He steps closer, then stops, the small space between you charged with more than plans. The rain gathers in the hollows of the alley like waiting applause."
+
+    menu:
+        "Promise to lean on him—accept partnership":
+            "You let your shoulders drop for the first time today and say, 'Okay.' Relief softens the words. Kai's face brightens like someone unlocking a window."
+        "Tell him you need time—keep the burden":
+            "You fold the possibility away. 'I need to think,' you say. Kai's smile falters; concern sharpens into a question you don't answer."
+
+    # --- merge ---
+    "..."
+    "He exhales, whatever the small exchange's result, and you both turn toward home. The town is quieter under the rain but not silent. Sirens ring out across the harbor—far at first, then louder, urgent. Somewhere in the distance a window shatters like thin ice."
+    # play sound "sfx_placeholder"  # [Sound: Distant siren, then a closer, high-pitched alarm; water slapping against timbers]
+    # play music "music_placeholder"  # [Music: Crescendo into dissonant strings]
+
+    "By nightfall the storm sharpens into something cruel. Streetlights blink. The harbor answers with a low, metallic roar. Your phone buzzes again—this time you open it. A message thread populates: emergency channel, town emergency line. A terse alert appears" "Damage report incoming. Please standby for rolling updates."
+    "You hurry to the pier, because the pier always calls first—the spine of memory and town life. Rain drives across your face in sheets and the pier looks more fractured than you last saw it: boards"
+    "missing, railings smashed, ropes whipping in the wind. Lanterns that once marked the promenade's curve are tossed like toothpicks. The sea, swollen and feral, takes and takes in slow, merciless motion."
+    hide kai_nakamura
+    hide iris_alvarez
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wood grinding, a hollow groan as water claims structures]
+    # play music "music_placeholder"  # [Music: A single cello note, long and low]
+    "Ravi meets you at the entry, eyes wide, voice clipped with the rawness of someone who has had authority stripped to response."
+    show ravi_singh at left:
+        zoom 0.7
+
+    ravi_singh "Critical sections—pier supports near the old festival dock failed. Lower promenade has several collapsed segments. We'll need emergency assessments. If we don't act, further erosion will take the vendors' stalls and—"
+    "You close your fingers around the railing and feel the water shake beneath. The options you had earlier—working groups, demos, bond negotiations—already shrink in the face of immediate damage. The choices the town can make are"
+    "narrower now, and faster. There is no time for slow persuasion when the sea is writing invoices in splintered timber."
+    "Marin Voss arrives, rolled trench coat clinging, face set as an engineer might set a jaw against a storm. They do not move quickly to comfort; there is no time for gestures that cost. Instead, they"
+    "unfurl their tablet and skim a rapidly populating damage log. You notice the briefest flicker of something—recognition? worry?—cross their features, then it is gone, covered over by procedural focus."
+    show marin_voss at right:
+        zoom 0.7
+
+    marin_voss "We need an emergency response plan. Temporary closures, structural bracing for the pier, immediate reassessment of flood zones for the lower promenade. If we can secure temporary funding, we might stanch the worst until we can propose a permanent alternative."
+    show iris_alvarez at center:
+        zoom 0.7
+
+    iris_alvarez "We can't let them privatize the repairs in the panic. That would hand the promenade to whoever pays first."
+
+    marin_voss "Agreed. Temporary measures should prioritize public access. But we must also be realistic about liability. If someone is hurt on a structure we didn't declare unsafe, we risk litigation that will consume funds."
+    "The sting of that practical truth is almost a betrayal to the feelings you've just traded with Kai—the warmth of partnership versus the cold arithmetic of liability. You swallow it down. The room for moral clarity seems to be narrowing into legal brackets."
+
+    ravi_singh "I'll open an emergency session of the council. We need assessments, a prioritized list, and an initial funding motion. Ms. Alvarez, Mr. Nakamura—if you can provide rapid technical briefs for temporary bracing and a public-facing statement about safety, we can forestall private bids."
+    "You feel the old impulse thrumming: to step forward and accept responsibility because you think someone must. But your breath catches; it is not only yours to give. The town is fracturing into urgency and fear"
+    "and quick money. You watch Marin and you cannot read if they see you as an ally, a rival, or a potential bridge. The uncertainty is a low ache."
+    hide ravi_singh
+    hide marin_voss
+    hide iris_alvarez
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play music "music_placeholder"  # [Music: Piano single notes, unresolved]
+    "You stand there, the salt and cold in your bones, the sound of the storm masking a dozen smaller decisions that you will soon be forced to make. The pier's splintered wood files itself into your"
+    "hands like a new kind of ledger. The options narrow into a channel that will measure your promises in deadlines and scaffolds."
+    "You look at the map, at the jagged coastline and the blurred, temporary lines Ravi drags on his tablet. The next move will have weight; the next report will set a course. You can feel it—the inevitability of momentum, the way weather accelerates decision and diminishes room for ceremony."
+    "Page-Turn Moment"
+    "You lace and relace your fingers around the map's torn edge, the paper damp and rough against your skin. Outside, the storm keeps carving at the shore; inside, officers mutter into radios and Marin's tablet fills"
+    "with tags and line items. All of it presses toward one fact you cannot escape: some part of the promenade has already been lost, and with it the luxury of slow compromise. You breathe in the"
+    "cold, saline air and the smell of wet tannin. Your next choice will not simply be about gardens or blueprints—it will determine who holds the shore when the waters calm."
+
+    scene bg ch2_c4ca42_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

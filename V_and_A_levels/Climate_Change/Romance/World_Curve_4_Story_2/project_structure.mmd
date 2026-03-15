@@ -1,0 +1,32 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Boardwalk Morning<br/>[Common]"):::spine
+    2("Ch 2<br/>Resilience Hub Conve<br/>[Common]"):::spine
+    3("Ch 3<br/>Council Submission (<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Fast Track Deploymen<br/>[Route A]"):::limb
+    5("Ch 5<br/>First Signs of Strai<br/>[Route A]"):::limb
+    6("Ch 6<br/>Collapse — The Tippi<br/>[Route A (Ending: Sad)]"):::limb
+    7("Ch 7<br/>Hold for Review<br/>[Route B]"):::limb
+    8("Ch 8<br/>Temporary Measures<br/>[Route B]"):::limb
+    9("Ch 9<br/>Storm Test — Partial<br/>[Route B (Ending: Bittersweet/True)]"):::limb
+    10("Ch 10<br/>Scaled Pilot Proposa<br/>[Route C]"):::limb
+    11("Ch 11<br/>Hold Action (Ending:<br/>[Route B (Ending: Sad)]"):::limb
+    12("Ch 12<br/>Micro-Projects (Endi<br/>[Route B (Ending: Happy/True)]"):::limb
+    13("Ch 13<br/>Community-Led Legal <br/>[Route A, Option C]"):::limb
+    14("Ch 14<br/>Enforce Community Cl<br/>[Route A (Ending: True)]"):::limb
+    15("Ch 15<br/>Contract Compromise <br/>[Route A (Ending: Bittersweet)]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    4 -.-> 13
+    5 -.-> 6
+    7 -.-> 12
+    7 -.-> 11
+    7 -.-> 8
+    8 -.-> 9
+    13 -.-> 14
+    13 -.-> 15

@@ -1,0 +1,199 @@
+label chapter23:
+
+    # [Scene: Cliffside Lighthouse & Storm Watch | Late Afternoon — After the Festival]
+
+    scene bg ch15_762cd5_1 at full_bg
+    # play music "music_placeholder"  # [Music: High, insistent strings; percussion like distant machinery pounding]
+    # play sound "sfx_placeholder"  # [Sound: Wind that tastes of iron, distant groan of heavy equipment, a thin crying gull]
+    "You clutch the buoy pendant until the brass warms to your palm. Rain still smells in the air like a promise reneged; the festival lanterns you imagined earlier hang in memory, their filament warmth replaced by"
+    "mud and the cold clack of clipboard pens. Below, the flats widen like a shuttered mouth — quiet where there should be hands working, loud with the roar of engines repositioning for what the council decided"
+    "yesterday."
+    "Every step along the cliff path is a geography of aches: the mud at the flats, the snapped rope from the pontoon, the look on Kaori 'Kai' Matsuda's face when she walked away. You can feel"
+    "each of those moments as if the tide pulled them in a line through you. Your feet find the worn stones and you keep moving. The buoy is a small, private litany against the roar of"
+    "the world."
+
+    scene bg ch15_762cd5_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A single boom of thunder; the cliff echo swallows it]
+    show marina_reyes at left:
+        zoom 0.7
+
+    marina_reyes "I thought... I thought we'd be louder than the bulldozers."
+    hide marina_reyes
+
+    scene bg ch15_762cd5_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: His voice is steady but raw.]
+    show elias_kato at left:
+        zoom 0.7
+
+    elias_kato "We were loud. It's just — some things got louder back."
+    "He stands a careful distance away, his face outlined by the lighthouse's battered glass. The amber of his eyes catches the storm-light like a measuring instrument. You want to accuse him; you want to beg him."
+    "Instead, the two of you trade the worn fragments of what you both tried to save."
+
+    elias_kato "I tried to push the council. I pushed for buffers and for funding. I didn't want maps to become eviction notices."
+    show marina_reyes at right:
+        zoom 0.7
+
+    marina_reyes "Maps did become something else."
+    hide elias_kato
+    hide marina_reyes
+
+    scene bg ch15_762cd5_4 at full_bg
+    show elias_kato at left:
+        zoom 0.7
+
+    elias_kato "They did. And I'm sorry it looked like it was at your cost."
+    "Your mouth tastes of salt and something like metal. Apology is a small word when the waves have already taken slices of houses and the cooperative's pontoon sits stranded, its ropes shredded. You want him to"
+    "feel the calendar of every lost harvest, the ledger of every neighbor who no longer opens their door. He looks at you with the calm of someone who maps tides — not the tidal feeling, but"
+    "the tide as a problem to be solved."
+
+    elias_kato "I can help now. Not to fix everything — none of us can — but to hold a line while we rebuild. There are municipal crews that can shore up the worst of the erosion. I can get teams to—"
+    show marina_reyes at right:
+        zoom 0.7
+
+    marina_reyes "Hold on,' you say, the word like a stone thrown into a storm. 'Hold on until when, Elias? Until who has nowhere left to go?"
+    # play sound "sfx_placeholder"  # [Sound: His voice frays.]
+
+    elias_kato "Until not everyone is forced to choose between a home and a paycheck."
+    "He reaches out — a tentative, technical motion, palm hovering near your hand. You feel the tug of old intimacy and new allegiance; it's a thin wire of possibility that could either stitch or tighten an already raw seam."
+
+    elias_kato "You don't have to do this alone. Bring me your plan. Let me bring it into the rooms I can open. Let me take the push to the council with you."
+    "You want to say yes, to fold the petition inside your pocket and let bureaucracy share the burden. But the festival footage sits in your mind — the volunteer hauling that snapped rope, Rina's pen carving"
+    "a new line across relocation forms, the way the town's applause turned into the echo of machines where people used to sing. Compromise has teeth that can bite."
+
+    marina_reyes "I don't trust compromises that come with eviction forms. I don't trust them when they get translated into 'managed retreat' and called mercy."
+    # play sound "sfx_placeholder"  # [Sound: quiet]
+
+    elias_kato "Then don't. But let me stand by the kelp line with you. Let me be there when you plant the next one."
+    "The wind answers by ripping a loose shutter down the cliff face. The lighthouse lamp skitters light across both of you, turning the salt in the air to a fine, stinging glitter. The conversation loops, small"
+    "and sharp — apologies nested inside plans, plans nested inside grief. You can hear the town below moving: voices calling, a child's cry, the metallic command of a foreman. Everything presses."
+
+    menu:
+        "Fold into his arms":
+            "You reach for him, wanting the old warmth to do what maps cannot. Elias doesn't step back; his hands hover as if testing the contour of a decision, then lowers them into yours with a careful, almost professional tenderness."
+        "Step away and keep the distance":
+            "You step back, letting the cliff wind claim you. Elias watches, his expression unreadable. You smell diesel and the ozone of rain; your shoulder bends under grief you will not let him carry alone."
+
+    # --- merge ---
+    "The choice you make — if you make it at all — matters only to the niche of your chest where intimacy used to live. Whatever you selected, the sky folds the moment into the larger storm."
+    hide elias_kato
+    hide marina_reyes
+
+    scene bg ch15_762cd5_5 at full_bg
+    # play music "music_placeholder"  # [Music: A high arpeggio of strings ratchets upward]
+    # [Scene: Tidal Flats | Dusk]
+
+    scene bg ch15_762cd5_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wet thuds of boots, the slap of water, occasional low rumble of distant machinery]
+    "The flats look different at dusk: the low light makes the scars sharper. The community gathers like a bandage pulled taut, faces lit from below by lanterns and anger. Some people you look for are not"
+    "here; their absence is a hollow that the gulls fill with calls. You keep glancing at the pontoon. The rope in your hand is a kind of vocabulary — knots that say, We will try."
+    "Amalia: (voice shaking but organized) 'We patched what we could. The seedbank lost two shelves, but Mika salvaged the spores. Old Tom says the tide-lines moved past the old markers — he says we should mark new boundaries.'"
+    "Old Tom: (voice like the tide) 'Boundaries shift, child. We mark where people can stand. They don't have to like it. They just have to know.'"
+    "Old Tom's words land like a flake of salt on your tongue: abrasive and clarifying. His gaze slips to the town line, to the row of houses that remain but look smaller now, propped on sand"
+    "like props in a stage production. You think of the father you lost and the hands that taught you how to tie the first long-line. You think of kelp, of how it pulls sediment and slows"
+    "a tide if given a chance."
+    "Mika: (rushing forward, breathless) 'We got the housings for the sensors. The drone's a mess but it can map the nearshore. Kaori \'Kai\' Matsuda left a toolkit — not sure she's gone for good, though.'"
+    "Kaori 'Kai' Matsuda's absence is a raw seam. Part of you expects her neon-braided shadow to swing out of the reeds and start rearranging the world into something more livable with duct tape and seed packets."
+    "Part of you remembers the final scene at the festival — her face closing like a door. You don't know which version is true and you can't pretend otherwise."
+
+    menu:
+        "Call Kai — ask her to return":
+            "You raise your phone and hit call; it rings into the gray. Voicemail. The line clicks; you leave a voice that sounds smaller than you hoped. The message is out into the air like a tossed buoy."
+        "Let her go — use what she taught you":
+            "You tuck the thought away like a spare tool. You take the toolkit Mika offers and test the wires with your thumb. The sky tastes of iron and the plan has hands to it, even if one pair is missing."
+
+    # --- merge ---
+    "Whatever you chose — the call or the quiet acceptance — the work stays the same. The rope is heavy in your hands; the buoy hangs like small hope. The town waits in a ragged semicircle."
+    "You can smell smoke from a distance where someone is burning scraps, the scent a stinging reminder of what was lost."
+    "Amalia: (soft) 'People are scared. Some want to push back harder. Some are already packing.'"
+    "You want to scream that they cannot pack away the tides, that moving is not safety but an erasure; you want to tell them that even if the town shrinks, the living work will keep a"
+    "seed. Instead, you bend to your task. The long-line needs to be anchored and fed out across the flats. Seeds must be tied and spaced. Fingers remember — rope burns, seaweed slick between palms, the rhythm"
+    "of a knot."
+    "You plant the first stake with a hammer stolen from someone's toolkit. The blow rings loud in the hush. The rope snakes away, heavy and protesting, into the salt. Neighbors take the line; each knot you tie is an argument against the idea that everything can be calculated away."
+    # play sound "sfx_placeholder"  # [Sound: The slap of rope on wet sand; shouted instructions; someone sobbing and laughing at once]
+    # play music "music_placeholder"  # [Music: Drums and brass crash under string tremolos — the arousal spikes to a frantic, painful pitch]
+    # [Scene: Glasshouse Lab & Seedbank | Night]
+
+    scene bg ch15_762cd5_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of salvage pumps; a drip that punctuates an otherwise suffocating silence]
+    "After the planting, you walk back to the glasshouse because the seedbank is where the future is kept like a breath. The lab is scarred but not dead. In the humid glow, you run your hand"
+    "along a tray of spores that survived the flood. They are small, bright things — almost obscene in their tiny persistence."
+    "Mika: (bruised grin) 'We can scale the lines. We can rope up more pontoon sections. People will volunteer—if they trust us.'"
+    show marina_reyes at left:
+        zoom 0.7
+
+    marina_reyes "Trust is broken."
+    "Mika: (leans in, stubborn) 'Then build it.'"
+    "You lift a jar. The spores look like night-sky dust. You imagine them in long-lines, pulling sediment like a patient, invisible crowd. The idea feels both absurdly fragile and impossibly fierce."
+    hide marina_reyes
+
+    scene bg ch15_762cd5_8 at full_bg
+    show elias_kato at left:
+        zoom 0.7
+
+    elias_kato "I coordinated with temporary crews. They'll patrol the vulnerable points at night so you can work in daylight. It's not perfect, but it keeps the worst from happening this winter."
+    show marina_reyes at right:
+        zoom 0.7
+
+    marina_reyes "You said that earlier."
+    "Elias Kato: (measured) 'I know. This time I mean it. I can be here where it counts. Not with plans only. With shovels and lines.'"
+    "He steps closer and the tension between you tightens into something that is both plea and account. The lab's glow paints his face in a clinical green; you see the engineer in him, the planner who"
+    "can list risks and patch them. You also see the part of him that cannot fully name the weight of what has already been lost."
+
+    elias_kato "You don't have to lead alone."
+    "You think of the charts he would bring here — isobars and risk maps, numbers that could buy short breathing room. You think of the neighbors who will not be here in spring, of the houses"
+    "that no longer cast their long shadows. Rage, grief, and tiredness spool through you into a single, hot motion. You lay a spore jar into your pocket and consider all the names it will carry."
+
+    marina_reyes "I will not let them think this was optional."
+    "Elias Kato: (hoarse, then softer) 'Then I won't let them think it was inevitable either.'"
+    "His vow is a tool and a thing of tenderness. It does not flatten loss. It does not erase the holes. But it is a small fact in a world of weather and maps: someone is standing in the same room with you."
+    # play music "music_placeholder"  # [Music: Sudden low gong; the tempo slows a fraction then snaps back into the high-string urgency]
+    # play sound "sfx_placeholder"  # [Sound: The lab's pump hiccups; a distant shout — someone's boat horn — cracks the air]
+    # [Scene: Tidal Flats | Night — Final Act]
+    hide elias_kato
+    hide marina_reyes
+
+    scene bg ch15_762cd5_9 at full_bg
+    # play music "music_placeholder"  # [Music: Full orchestra in dissonant clusters; percussion racing; a keen, high violin cut through the wind — emotional arousal at its peak]
+    # play sound "sfx_placeholder"  # [Sound: Rope snarling, boots slapping mud, a distant collapse of something wooden]
+    "You tie the last knot with hands slick from salt and blood — a small split where rope burned too close. You taste iron. The long-line stretches like a thin scar across the bay. Each buoy"
+    "breathes and nods with the tide, a small, stubborn heartbeat in the dark. People who have lost roofs and faces and faith clasp the rope and believe, if only for a moment, that their arms can"
+    "hold the ocean back."
+    "Old Tom: (low) 'You did good, child. This'll slow 'em.'"
+    "You do not feel triumph. The long-line doesn't erase the families who left or the houses gone. It will not stop all tides. It is, at best, the beginning of something that might hold a fraction"
+    "of what was taken. Your chest is a drum of exhaustion and fury. You whisper your father's name into the wind; it answers with a gust that carries the gull's cry away."
+    "Elias Kato: (nearby, voice small) 'We'll monitor it. We'll adapt it. We'll make it part of the defense — and part of the livelihood.'"
+    show marina_reyes at left:
+        zoom 0.7
+
+    marina_reyes "Make it part of the defense,"
+    "Someone shouts from the shore: words that sound like a prayer or an accusation. A light flashes across the flats as a drone maps the line you just made, its camera indifferent to grief. You imagine"
+    "the footage playing in council rooms, in grant applications, in activist feeds — a thousand ways to flatten human heat into frames. That thought tastes like acid."
+    "Mika: (voice near a shout) 'We can scale. We can replant the damaged trays. We can teach other towns.'"
+    "The anger in their voice is a torch. It almost makes the night less lonely. You look at each person — at Amalia's clipboard bent with lists, at Old Tom's hands that have reknotted nets a"
+    "thousand times, at Elias, whose amber eyes finally look lost instead of clinical. Kaori 'Kai' Matsuda's absence hangs like a missing note."
+    "You kneel in the mud and press the first spore-packed rope into the wet sand, fingers finding the cold, living weight of the promise. The wind steals your words and hands them to the ocean."
+
+    marina_reyes "If this fails... if the storms take it again..."
+    "Elias Kato: (interrupting) 'Then we build again.'"
+    "His certainty is brittle. The knowledge of loss is heavy and sharp enough that 'again' feels like an impossibility and a vow at once. The line you planted will fray. People will leave. There will be"
+    "weeks when the cooperative's accounts read like a ledger of grief. There will be nights when you want to walk away and never feel prescriptive hope again."
+    "You stand, mud clinging to your boots. The long-line rides the surf like a small, deliberate wound. You think of the town's possible endings — the maps redrawn, the relocations cataloged, the houses that will not"
+    "make it through another season. The weight of all of it makes your knees tremble. You shove the buoy pendant back beneath your shirt until the brass presses cold against your sternum."
+    # play music "music_placeholder"  # [Music: The orchestra collapses into a single, sustained, dissonant chord that hangs like rain — very high arousal but no cathartic release]
+    # play sound "sfx_placeholder"  # [Sound: Wind, the slow hush of water, a single distant siren that winds down rather than up]
+    "You have planted a line. You have made a small, defiant stitch. The town bears its scars; some threads will not be repaired. You and Elias stand next to each other, neither close enough to be"
+    "lovers in the old, uncomplicated way nor distant enough to be strangers. Kaori 'Kai' Matsuda's absence is a hollow edge in the circle. Old Tom's hand rests briefly on your shoulder and then is gone."
+    "You feel the town's grief like a bruise. You feel your own like one, too — deep, contiguous, and real. You will keep going. You will inventory losses and seed them with care. You will take"
+    "the fragile seedbank and the shoulder of municipal support and the stubborn community hands and try to make a livelihood out of salt-swept ruin."
+    "Final Moment"
+    "You press your palm to the buoy pendant and for a long second let the cold and the memory sit there. It is not a victory. It is not clean. It is, if anything, defiant refusal:"
+    "refuse to accept erasure, refuse to give up the small living things that anchor people to place. The waves keep hitting the shore; the machines keep rearranging the map. But you plant the next line anyway."
+    hide marina_reyes
+
+    scene bg ch15_762cd5_10 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, somber motif under the wind; strings thin to a single, unresolved note]
+
+    scene bg ch15_762cd5_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

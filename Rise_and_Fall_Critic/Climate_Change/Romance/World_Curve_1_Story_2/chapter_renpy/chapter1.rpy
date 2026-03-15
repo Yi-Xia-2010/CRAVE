@@ -1,0 +1,195 @@
+label chapter1:
+
+    # [Scene: Workshop Above Greenhouse | Morning]
+
+    scene bg ch1_Start_1 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, steady acoustic with quiet swell — hopeful undertow]
+    # play sound "sfx_placeholder"  # [Sound: Low hum of a water pump; distant gull calls; a soft electronic ping]
+    "You cradle the dented pump like an old apology and trace the contour of a seam with a fingertip. The metal is warm from the sun that finds its way through the greenhouse glass, and your"
+    "braid — a single strand dyed sea-glass teal — brushes your cheek when you lean forward. The wrist patch at the base of your palm ticks: a quiet, familiar ping that reads tide sensors and the"
+    "town's tiny heartbeat."
+    "The patch flashes a small icon: rising line, nominal variance. Nothing dramatic. Your breath eases. You set the pump into a shallow tray of saltwater and begin to work."
+    "You work by habit and memory. Your mother's instructions are in your hands: file the burrs, anneal the bent lip, re-seat the valve with a layer of reclaimed polymer. You hum as you work — not"
+    "a song, more the low pattern of things you’ve fixed before. The greenhouse behind you smells like wet soil and late tomato leaves, warm and faintly sweet. Outside, the harbor’s sounds thread through: the creak of"
+    "wood, a rope slap, the distant groan of a tide."
+    "You find the dented key in the pocket of your utility jacket — the thin, battered thing that opens the workshop downstairs and, in some quiet, symbolic way, the days your mother left behind. You rub"
+    "the nicked surface and feel the tiny braid of guilt tug at you: staying was a decision made out of duty and stubbornness. You don’t regret it. You’re just… tired enough that you can feel the"
+    "cost in the small tremor of your fingers."
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The wrist patch pings again, a sharper tone]
+    "You glance at the patch. Tide sensor: gradual rise expected tonight. Battery on local sensor nodes: good. You tap the display and pull up the map overlay — small, green nodes scattered like freckles along the"
+    "shoreline. You make a mental note to recalibrate the lower-dock node before high tide. You always make mental notes; they’re your quiet ledger of control."
+    "Footsteps on the hatch above the greenhouse make you look up. Jun’s voice cuts through the humid air before he appears, all dust and good-natured impatience."
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "Morning, Hoshino. Brought those beams like I promised. Figured you'd want something solid before the next king tide sneaks up."
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "You always show up with the exact thing I don’t have until I need it. Did you scavenge these from the old boathouse?"
+
+    jun_park "The boathouse, the fisherman's union storage, and a place called 'maybe there'll be enough'.' (He grins.) 'They're rough, but they’ll hold. And hey — Mayor said there was a meeting, did you hear? Big-suit guy with renderings."
+    "You set the file down and run a thumb along the pump’s valve, thinking in small mechanical motions while Jun talks. The greenhouse glass outside blurs light into an impressionist smear; condensation beads trail like tiny, falling tides."
+
+    mika_hoshino "I heard. Soren Voss. Glossy render. Raised walkways, seawalls with promenades, pretty lighting. Like he wants to dress the sea in a tie."
+    "Jun’s grin fades to something softer. He drops the timber into a neat stack and wipes his hands on his flannel, sawdust dusting the air like an apology."
+
+    jun_park "He's got the grants lined up, apparently. Mayor's listening. People are… curious. Afraid, too. Some like the idea of not having to bail boats after every storm."
+
+    mika_hoshino "Curiosity can be dangerous when it’s packaged in shiny promises. But so can fear. We need nuance. We need solutions that keep people here — and intact."
+
+    jun_park "Is that your tech-savior speech or your 'don't break the town' speech?"
+    "Mika Hoshino: (You snort.) 'Depends on whether there are pastries at the meeting.'"
+    "Jun laughs and slaps the stack. The sound is warm and human, and for a sliver of time you feel buoyed by the ordinary weight of work and laughter."
+
+    menu:
+        "Offer Jun a mend-your-plate sandwich":
+            "You pull a tin with a slightly squashed sandwich from the shelf and push it toward him. He accepts it like it’s a medal, munching with both hands and telling you about a neighbor who wants to sell the upstairs flat."
+        "Save the sandwich for yourself":
+            "You tuck the sandwich back and keep working, faking a frown. Jun pretends to be offended, and you both know he's not; food here is a currency of care."
+
+    # --- merge ---
+    "The scene continues as Jun finishes his story and you prepare to move to the greenhouse rooftop lab."
+    # [Scene: Greenhouse Rooftop Lab | Noon]
+    hide jun_park
+    hide mika_hoshino
+
+    scene bg ch1_Start_3 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet piano with a hopeful, ascending motif]
+    # play sound "sfx_placeholder"  # [Sound: Drip of irrigation; soft wind through ventilation slats]
+    "You climb the small ladder into the greenhouse and set the repaired pump on a shelf near the hydroponic trays. The repaired valve ticks into place like a completed sentence. You check the wrist patch again"
+    "— a small wave icon pulsing. The rooftop hums with life: algae experiments glinting in jars, a tiny solar array, and a smell between ocean and green compost that you have come to love the way"
+    "some people love church."
+    "You sit on the low bench and open the pump to test flow. The water runs clear; no air pockets. You let yourself lean back against a stack of reclaimed pallets and close your eyes for"
+    "a breath. You let the warmth of the greenhouse sink into your shoulders, and for once, the ledger of needs — the town, the repairs, the memory of your mother's tired hands — eases its grip."
+    "The door swings open and a figure steps in, breathless and rain-speckled, carrying something soaked and precious."
+    show elias_maren at left:
+        zoom 0.7
+
+    elias_maren "Mika — sorry I'm late. The tide pushed through a low barge earlier. I—' (He shakes salt out of his hair like a net.) 'I didn't think it would shift that far."
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "You look like the sea tried to make you its employee. What happened?"
+    "Elias Maren sets down a field notebook, edges water-dark and pages curling. The glass pendant at his throat catches the greenhouse light and throws a small point of bioluminescent green onto the workbench. His sea-blue eyes"
+    "are soft but urgent, like someone pointing out a map and then asking you to trust the pencil lines."
+
+    elias_maren "I was at the subtidal pilot this morning — kelp frames. We saw less surge behind the line where we’d set the mats. It's not perfect, but the pilot cut peak flow in half during the last storm there."
+
+    mika_hoshino "Cut peak flow in half?"
+
+    elias_maren "Yes. Small—incremental. It buys time. It rebuilds structure below the surface instead of just raising everything above it. People can still fish. The sea's still part of the town."
+    "You study him. There's a tide map penciled in the margin of his notebook, arrows and shading that make you think of muscle memory in water. Elias Maren talks like someone who has learned to listen to currents the way others listen to gossip."
+
+    mika_hoshino "Soren's plan promises certainty. Elevation. New funding. Faster fixes. How do you sell 'slow, living systems' to someone who wants a guarantee?"
+    "Elias Maren: (He leans forward, earnest.) 'You don't sell it as fast as a grant. You show it. We scale the pilot. We make pictures that mean something — not renderings, but actual footage of kelp"
+    "dampening a wave. We invite people down to the site. We collect the numbers and put them next to the cost of raised infrastructure.'"
+
+    mika_hoshino "And if the mayor wants the shiny render? If the town is tired of pilots?"
+
+    elias_maren "Then we make the pilot impossible to ignore. We plant kelp where people can see it working. We stitch it into livelihoods. Jun can help with stakes. You can help with pumps and calibrations. We are small, but we are numerous."
+    "The words sit between you like warm sunlight. There's a patient energy to Elias Maren that has always bothered you in the gentlest of ways: he trusts processes that take time. You, by contrast, think in repairs and immediate triage."
+
+    elias_maren "I know you're tired. I also know you don't give up on things easily. That steadiness — it's contagious."
+    "Mika Hoshino: (You scoff softly, but it's affectionate.) 'Flattery now? Is this part of the kelp pitch?'"
+    "Elias Maren: (He smiles, awkward but sincere.) 'Maybe a little. But also true. I want this to work, Mika. For the town, and... for us.' (He hesitates on the last word, not because he needs permission but because the moment is delicate and richer than any pilot data.)"
+    "You feel the tug of something personal — a warmth that isn't just the greenhouse glass. It's tempting to follow that thread, to consider softness as a thing that can be scheduled and repaired like a"
+    "pump. But the town is bigger than you, and your mother’s key in your pocket is a weight that reminds you of promises you made to your community."
+
+    menu:
+        "Ask Elias for more data, direct and practical":
+            "You flip through his damp notebook, pointing out inconsistencies and asking the hard questions. Elias answers, patient and thorough, and you both sketch a rough checklist on a scrap of paper."
+        "Give Elias a quiet, honest thanks":
+            "You tell him his work matters, quietly. He looks relieved — as if the words themselves are a small buoy for his nerves."
+
+    # --- merge ---
+    "The scene continues with preparations for the evening assembly at the harbor."
+    # [Scene: Atera Harbor & Docks | Evening — Approaching High Tide]
+    hide elias_maren
+    hide mika_hoshino
+
+    scene bg ch1_Start_4 at full_bg
+    # play music "music_placeholder"  # [Music: Slow strings that rise into a hopeful swell]
+    # play sound "sfx_placeholder"  # [Sound: Distant thunder, water lapping higher against pilings, boards creaking]
+    "Night comes in soft and inevitable. The tide pushes up like a gentle remonstrance. You lock the greenhouse and strap the pump to a shelf where it won't float away. Your boots leave prints on the"
+    "damp ladder as you climb down toward the lower docks to check the nodes you flagged."
+    "The harbor smells of brine, oil, and the faint spice of someone grilling fish in a tin-roof shack. The air is cool and full of a promise you almost can feel — the town is readying"
+    "itself. People move with purposeful calm: tarps flapping, lines coiled, nets stacked. The creak of wood and the slap of tide are a familiar liturgy."
+    "You step onto the lower planks. The boards are slick; your boots grip as you walk and test each step. A line of dark water halos the piling tops where recent marks show high tides; your"
+    "fingers brush one such notch and you remember the year it crept past the bakery window and mangled the counter. You keep moving. You still have repairs to make."
+    "A quick, busy voice calls your name from behind. Mayor Amina is already halfway down the gangway, scarves undone by wind, a notepad tucked under her arm. Her eyes are warm and worn; she carries the kind of authority that smells like coffee and resolving community disputes over the stove."
+    show mayor_amina_bakar at left:
+        zoom 0.7
+
+    mayor_amina_bakar "Mika. Thank you for coming down. I wanted to speak before the assembly tonight. Soren's got people in town, and I need to feel what folks think on the ground."
+    show mika_hoshino at right:
+        zoom 0.7
+
+    mika_hoshino "You're not calling the assembly yet? The notice said tomorrow."
+
+    mayor_amina_bakar "I called an emergency meeting. Tonight. People are anxious; tides are higher than forecasted and Soren is pushing for a quick vote to at least approve preliminary zoning. I don't want decisions made in panic, but I also won't let the town be paralyzed."
+
+    mika_hoshino "A quick vote sounds like the kind of move you can't undo easily."
+    "Mayor Amina: (She nods, a crease between her brows.) 'Exactly. I want to hear all sides. Elias will speak about kelp pilots. The developers will present their renderings. I need leaders to stand up who can"
+    "explain the ground realities to folks — what it's like on the boardwalk, at the docks, in the nets. People trust you, Mika.'"
+    "You feel the hot coil of responsibility tighten in your chest. Not because you crave being trusted, but because trust here is a lever people use to move decisions. You think of your mother's hands again,"
+    "of Jun's stack of timber, of Elias Maren with his salt-streaked notebook. You think of the town, a living map of loyalty and compromise."
+
+    mayor_amina_bakar "Can you be there? And can you bring whatever evidence you have — tide sensor logs, pump fixes. Tell them about the kelp results if Elias lets you. Tell them what you'd be willing to stand for."
+
+    mika_hoshino "I'll be there. But I'm not sure what standing for looks like yet."
+    "Mayor Amina: (She offers you a small, wry smile.) 'Then help us make it visible. That's enough, Mika. We need grounded voices.'"
+    "You nod. The harbor's lights blur in the wet air and the tide's sound grows louder, as if the sea is clearing its throat to speak in front of the whole town."
+    "Footsteps approach from the shadows; Elias Maren comes up from the lower jetty, notebook wrapped in plastic. He's wet to the knees, face flushed from exertion and cold, but his eyes are clearer than they were this morning. He falls into step beside you."
+    show elias_maren at center:
+        zoom 0.7
+
+    elias_maren "Mayor Bakar asked me to present data. I'm nervous about persuading everyone. But I'm not alone."
+
+    mika_hoshino "You shouldn't be. This is a conversation, not a courtroom. We'll show them what works."
+    "Elias Maren: (He looks at you, grateful.) 'Will you stand with me? Even if you don't pick sides, stand with the truth.'"
+
+    mika_hoshino "I don't plan to pick a side in the dark. I plan to make the light visible."
+    "His hand brushes yours — a light, accidental contact that leaves the salt on both of you and a warmth that makes the wind seem less cold. You hold the patch of silence for a breath. It is the kind of moment that feels like the hinge of something."
+
+    menu:
+        "Squeeze Elias's hand, a quick solidarity":
+            "You squeeze his fingers, a small, human semaphore that says 'we're doing this together.' He exhales, visibly steadied, like a small boat tethered to a dock."
+        "Keep the distance, focus on the assembly":
+            "You pull your hand back slowly and nod instead. Elias reads your focus and straightens; there's a respect in his eyes that feels like a promise of work rather than warmth."
+
+    # --- merge ---
+    "The group notes the assembly time from the municipal broadcast and moves toward organizing for the meeting."
+    # play sound "sfx_placeholder"  # [Sound: Your wrist patch emits a two-tone alert — a municipal broadcast ping]
+    hide mayor_amina_bakar
+    hide mika_hoshino
+    hide elias_maren
+
+    scene bg ch1_Start_5 at full_bg
+    "Mayor Amina straightens and lifts her chin, the harbor lights framing her profile."
+    show mayor_amina_bakar at left:
+        zoom 0.7
+
+    mayor_amina_bakar "Everyone's gathering will decide more than zoning tonight. It will decide how we define Atera's future. I want honest debate, proposals that are clear, and — most of all — a plan that keeps people whole."
+    "You look at the harbor, the way lights shiver on the water, the way the town moves with practiced hope. You imagine the kelp waving below like a green promise. You imagine raised walkways glinting like"
+    "a new language of safety. Both images hold power: one of slow, ecological patience, the other of decisive infrastructure. They are not mutually exclusive, perhaps — but blending them will take stubborn work."
+    "You close your eyes for a second and let the harbor's damp air seep in. You feel tired, yes. But something else is stronger: the steady, rising conviction that you do not have to carry this alone. People are already gathering; hands are offering planks, ideas, time."
+    # play music "music_placeholder"  # [Music: The strings swell, then settle into a hopeful cadence]
+    # play sound "sfx_placeholder"  # [Sound: Distant conversations rise and fall like tide rhythms]
+    hide mayor_amina_bakar
+
+    scene bg ch1_Start_6 at full_bg
+    "You turn your face to the night. The assembly will force a choice — not only for the town, but for how you want to live your life inside it. You think of your mother's key,"
+    "the greenhouse’s warm glow, Jun's steady grin, and Elias Maren's earnest maps. They are all threads in the same net."
+    "You breathe in salt and resolve."
+    "The town will call its people together. You will show up."
+    "There is no simple answer yet. But there is work to be done, and in the work there is hope."
+    # [Page-Turn Thought: The lights of the lower docks look like stars pulled low into the water. When the town gathers, promises will be measured, voices will be counted, and your role — however small it may feel now — will shape how Atera defines itself. You step toward the gangway, towards the bright knot of people, knowing that tonight is the beginning of something you can help steer.]
+
+    scene bg ch1_Start_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

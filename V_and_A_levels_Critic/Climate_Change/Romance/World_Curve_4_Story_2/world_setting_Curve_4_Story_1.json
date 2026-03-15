@@ -1,0 +1,122 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) and Genre (Romance) as two forces that must be woven together: the environmental crisis creates urgent external stakes while the romance provides the emotional core that motivates difficult personal choices. The core conflict pits rapid, high-capital engineered 'solutions' against grassroots, ecologically integrated adaptation led by everyday people. Romantic tension arises from differing approaches to that conflict (risk vs caution, repair vs rebuild) and from the personal cost of prioritizing the collective good. The narrative architecture favors intimate scenes framed by environmental hazards and community action, so choices about love, compromise, and moral responsibility carry tangible consequences for the world.",
+    "setting": "Harborlight, a near-future coastal metropolis (approx. 2040s) where rising seas and intensifying storms have reshaped neighborhoods into intertidal districts. The tone is melancholic yet resilient: reclaimed gardens and floating markets sit beside skeletal cranes and glass towers. Technology and nature co-exist uneasily—salvaged tech and biomimetic design meet old wooden piers and salt-stained murals. Weather is an active character (fog, sudden squalls, golden calm after storms).",
+    "visual_style": "Post-urban coastal realism, Soft romantic lighting, Watercolor textures over gritty detail, Eco-tech motifs, Muted sea-glass and rust palette, Film grain and sunflare accents",
+    "main_characters": [
+        {
+            "name": "Ava Maren",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: quietly fierce, deeply empathetic, meticulous organizer. Ava balances scientific clarity with grassroots empathy—she's decisive under pressure but carries survivor's guilt that makes her over-responsible.",
+            "appearance_features": {
+                "hair": "Dusky auburn, chin-length bob with sun- and salt-streaked tips; often tucked behind one ear",
+                "eyes": "Sea-glass green, rounded and observing; eyelashes faintly flecked with gold from long hours outdoors",
+                "clothing": "Layered functional wear: worn field jacket with patched elbows, breathable linen shirts, fitted cargo trousers with sealed pockets, rubber-soled boots reinforced with recycled tire tread",
+                "accessories": "A battered field notebook stamped with tide charts; a thin bracelet of sea-glass beads braided with fishing twine; a small solar lapel pin used to power a handheld sensor"
+            },
+            "goal": "Secure and implement a community-led living seawall and adaptive infrastructure to protect Saltway Quarter while keeping residents in place.",
+            "background_story": "Raised in the Saltway Quarter, Ava left to study coastal ecology after the second major flood destroyed her family's storefront. She returned to find the neighborhood patched together by ingenuity and fear. She organizes residents and translates ecological science into defendable, low-cost designs to keep the community intact.",
+            "emotional_trait": "Relentless hope tempered by survivor's guilt — she risks burnout and self-sacrifice to protect others."
+        },
+        {
+            "name": "Ori Navarro",
+            "role": "Love Interest",
+            "personality": "Warm, inventive, charmingly irreverent. Ori is a maker and improviser who believes in beauty as resistance. He is generous and tactile, quick to laugh, but avoids deep confrontations and numbs pain with projects.",
+            "appearance_features": {
+                "hair": "Curly black hair shaved at the sides, top tied back in a short topknot with sun-bleached tips",
+                "eyes": "Warm amber eyes with crescentic laugh lines; expressive and easy to read",
+                "clothing": "Paint-splattered denim overalls layered over a light hemp shirt, knee-high rubber boots repurposed as everyday shoes, and a patchwork coat for storm work",
+                "accessories": "A canvas satchel of multi-tools and reclaimed metal bits, welding goggles that double as a hairband, a necklace made from reclaimed circuit fragments and a polished seaglass charm"
+            },
+            "goal": "Demonstrate that adaptive, community-built architecture can be beautiful, functional, and scalable; convince Ava and the neighborhood to adopt bolder, experimental builds while reconciling his past mistakes.",
+            "background_story": "A former junior engineer at VossCorp, Ori left after witnessing a prototype decision that prioritized profit over people. He learned fabrication and biomimicry on the margins, becoming a beloved maker who constructs floating planters, public pavilions, and prototype living walls from salvage.",
+            "emotional_trait": "Avoidant optimism — he leans on humor and craft to avoid confronting deeper fears about long-term commitment and personal responsibility."
+        },
+        {
+            "name": "Calder Voss",
+            "role": "Antagonist",
+            "personality": "Polished, persuasive, and strategically humane—Calder is not cartoonishly villainous. He is mission-driven but convinced large-scale engineered solutions and centralized control are the only way to avoid catastrophe. He rationalizes displacement as 'necessary trade-offs.'",
+            "appearance_features": {
+                "hair": "Silver-black, precisely gelled back; an occasional salt-fleck at the temples",
+                "eyes": "Pale gray, narrow and assessing—his gaze measures risk and return",
+                "clothing": "Tailored, lightweight suits with hydrophobic coating, minimalist shirts, and a neutral-toned overcoat for storm launches",
+                "accessories": "A sleek smartwatch with investor dashboards, an engraved signet ring, and a slender titanium locket with a faded storm-photo inside"
+            },
+            "goal": "Deliver a flagship coastal redevelopment—VossArc—claimed as a resilient, scalable blueprint for cities worldwide. He aims to secure political and investor backing even if the project requires controversial relocations.",
+            "background_story": "A technical wunderkind who grew up in a flood-impacted suburb, Calder built a corporate empire promising stability through engineered certainty. Personal trauma (loss of family in a past storm) fuels his intolerance of small-scale solutions that, to him, feel like denial.",
+            "emotional_trait": "Deep fear of chaos; his need for control can harden into ruthless pragmatism."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Maya Lin",
+            "relation_to_main": "Childhood friend of Ava; co-organizer for Saltway Quarter",
+            "appearance_summary": "Short, energetic woman with streaked-gray braids, weathered hands, and a bright patched coat covered in campaign pins.",
+            "function_in_story": "Keeps the community mobilized, negotiates with residents, acts as Ava's conscience and tactical partner; provides local intelligence and emotional grounding."
+        },
+        {
+            "name": "Jun Park",
+            "relation_to_main": "Investigative journalist; ally to Ori and Ava",
+            "appearance_summary": "Lean, always carrying a waterproof recorder and camera, wears a faded blazer and rain-stained sneakers.",
+            "function_in_story": "Exposes corporate overreach, uncovers VossCorp's compromise clauses, and provides media pressure that shifts political stakes."
+        },
+        {
+            "name": "Mara 'Old Mara' Tetu",
+            "relation_to_main": "Elder of Saltway Quarter and Ava's informal mentor",
+            "appearance_summary": "Stooped but sharp-eyed elder in layered shawls with salt-and-sand encrusted hem; a necklace of old fishing hooks.",
+            "function_in_story": "Keeper of neighborhood history; provides moral clarity, oral memory of past adaptations, and a living-wisdom counterpoint to technocratic solutions."
+        },
+        {
+            "name": "Silas Roe",
+            "relation_to_main": "Teen apprentice of Ori; local youth",
+            "appearance_summary": "Skin-dark, quick hands, hoodie with custom patches, always stained with paint and algae.",
+            "function_in_story": "Represents the next generation; his arc highlights whether young people inherit resilient communities or corporate redevelopment."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Saltway Quarter",
+            "visual_description": "A low-lying neighborhood of mixed wooden tenements and corrugated bungalows on stilts. Streets are braided with boardwalks and patched pontoons; laundry and banners flutter between buildings. Lighting is warm filament bulbs and salvaged lanterns that glow through salt-streaked windows during foggy mornings. Colors are muted jade, rust-orange, and sun-peeled turquoise. Rain slicks reflect neon signage from the distant skyline; smell of brine and wood smoke is constant."
+        },
+        {
+            "name": "The Tide Garden",
+            "visual_description": "An experimental living seawall and public garden built from mangrove-rooted platforms and sculpted bio-concrete. Morning mists soften the edges; sunlight filters through rows of wing-like solar sails. Green textures dominate—moss, salt-tolerant grasses, and bright microgreens—contrasting with damp grays of wet stone. Water laps against warm, algae-streaked terraces where children fish and volunteers plant."
+        },
+        {
+            "name": "Voss Arc / Glass Pier",
+            "visual_description": "A sleek construction site: a crystalline glass tower into which a gleaming pier folds. Polished surfaces reflect a cold blue light; cranes cut silhouettes against stormy skies. At night, sharp LED lines render the structure clinical and distant. The scale feels monumental—metal, tempered glass, and precision-engineered floodgates—bathed in stark work-lamp light and corporate banners."
+        },
+        {
+            "name": "Greenhouse Lab (The Ferryworks)",
+            "visual_description": "A converted ferry moored as a mobile lab and workshop: warm lamplight spilling from portholes, interior walls lined with potted halophytes and salvaged sensors. The smell of wet soil mixes with solder fumes. Rusted beams are painted with murals; workbenches cluttered with models, blueprints, and small living prototypes. Outside, the hull glitters with mosaic tiles made from broken bottles."
+        },
+        {
+            "name": "Saltway Community Hall",
+            "visual_description": "An old brick assembly hall repurposed: wooden benches, maps pinned under glass, strings of practical LED lights, and banners of past campaigns. The room is intimate and warm during meetings, with soft amber lighting and rain drumming on a patched tin roof. Posters and hand-drawn diagrams give it a lived-in civic energy."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Moral Compromise / Sacrifice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community victory: Ava and Ori succeed in proving the living seawall design at scale. VossCorp is forced into a public-private compromise that prioritizes resident tenure and community-managed infrastructure. Ava and Ori commit to each other, and Harborlight begins a cautious but hopeful era of distributed adaptation."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Partial success with personal cost: The grassroots designs are adopted only after concessions that still displace some families. Ava secures protections for most residents, but Ori leaves to seed similar projects elsewhere, feeling that his impulse to roam and build is necessary. They part with love and mutual respect; Saltway endures, and their relationship becomes a long-distance partnership with unresolved ache."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate victory and loss: Calder's VossArc is greenlit and the Saltway Quarter is forcibly relocated behind standardized levees. Initial promises of safety mask long-term social fracturing; the seawall proves fragile in an unprecedented storm. Ava's fight fails to prevent displacement; the romance strains and dissolves under grief and blame. The story closes on flooded streets and a mournful sense of lessons learned too late."
+        },
+        {
+            "type": "True",
+            "summary": "Exposé and systemic shift: Jun Park's investigative reporting reveals corrupt clauses and safety shortcuts in VossCorp's plan. Public outrage forces legal and policy changes, catalyzing decentralized funding for community-led adaptation. Calder faces accountability; he publicly changes course, and while not all wounds are healed, the city adopts a hybrid framework. Ava chooses civic leadership over a private future; the romance survives but transforms into a partnership built around public work rather than private idyll."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

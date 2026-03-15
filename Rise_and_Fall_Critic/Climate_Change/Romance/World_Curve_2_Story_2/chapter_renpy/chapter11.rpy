@@ -1,0 +1,237 @@
+label chapter11:
+
+    # [Scene: Greenhouse | Morning]
+
+    scene bg ch11_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of fans, soft scraping of trowels, distant gulls]
+    # play music "music_placeholder"  # [Music: Sparse piano, low cello underpinning—somber]
+    "You open the greenhouse door and the warm, compost-sweet air wraps around you like a promise you already know you might have to break. The referendum has been won—two nights of porch talks, Tomas's stories on"
+    "the pier, Hana's flyers tucked into bread bags—and people have chosen the patient work of roots over the quick certainty of concrete. Your chest loosens for a breath, then tightens with the memory of all the"
+    "things that still might drown."
+    "Tomas is crouched at the largest bench, a battered map spread between seed trays. His fingers are stained the color of tidal mud; when he looks up at you, his face reads like a ledger of storms: careful, steady, full of accounts that don't add easily."
+    show tomas_bianchi at left:
+        zoom 0.7
+
+    tomas_bianchi "You remember where the old ebb cut runs, mi hija? The one behind the eastern quay? They used to drop their nets there when the water turned like a sheet of pewter."
+    show maya_inoue at right:
+        zoom 0.7
+
+    maya_inoue "I remember. The sound of it—like a chest opening. We'll start there, try to rebuild the lung."
+    "Tomas huffs a small laugh that is almost a sob. He taps the map where curves of silting are annotated in your handwriting and his own ink."
+
+    tomas_bianchi "The soil's changed. We map with our hands now, not just by memory. But the roots know where to go if we give them a way."
+    "You kneel beside him. The tray under your palm is damp and alive; tiny pencil-leaves tremble when you breathe too close. You feel the rough thread of your brother's watch beneath the cuff of your jacket, a constant weight and a small, private pulse of time."
+
+    menu:
+        "Give Tomas the map and start potting seedlings":
+            "You hand the map over with fingers that smell of peat. Tomas nods and you fall into the comfortable rhythm of scooping, planting, pressing—a choreography you learned from anyone who taught you how to keep things alive."
+        "Run a quick sensor sweep with Kaito before planting":
+            "You unzip the satchel where Kaito left the prototype sensor pendant. The device hums warm against your palm; you tap it half out of habit, half for certainty. Kaito glances over, eyes questioning, and you both end up kneeling at the table, calibrating in silence."
+
+    # --- merge ---
+    "..."
+    # [Scene: Mangrove Estuary | Late Morning]
+    hide tomas_bianchi
+    hide maya_inoue
+
+    scene bg ch11_e67f19_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Community voices, tinny singing, boots squelching mud]
+    # [Smell: Brine and wet wood; a faint, sweet rot of the estuary]
+    # play music "music_placeholder"  # [Music: Low, rhythmic hand drum; a minor-key hymn undercutting hopes]
+    "You lead the first wave down the boardwalk, trays balanced on forearms like offerings. People have come with gloves and sunburnt faces—students from the school, young parents with babies wrapped in wet cloth, elderly neighbors who"
+    "remember coves that were once alive with mackerel. Someone starts a planting song—four notes that feel like a prayer—and others pick it up, not because they're sure it will make a difference but because it steadies"
+    "their hands."
+    "Kaito Sato is at your elbow, sleeves rolled, sensor array open on a plastic bucket. His face is softer than the first time you met him at a grant briefing; worry sits behind his eyes like a shadow he refuses to name outright."
+    show kaito_sato at left:
+        zoom 0.7
+
+    kaito_sato "If we place these at varying depths and log salinity spikes, we can see where seedlings survive best. It won't fix a surge, but it will tell us how to plant smarter."
+    show maya_inoue at right:
+        zoom 0.7
+
+    maya_inoue "We need data now. But even with data—roots take time. People take time."
+
+    kaito_sato "I know. But time isn't always just a delay. Sometimes it's the instrument that lets us learn to do less harm."
+    "You glance at him. The sensors click and blink in the mud light; Kaito Sato catches your look and gives you a small, uncertain smile—an offering of method, of him."
+
+    kaito_sato "Want me to set the buoys along the inner channel? If the surge comes, we'll at least know why seedlings failed."
+
+    maya_inoue "Do it. And when it comes, we'll know what broke and why."
+    "You set a seedling with a practiced push into the mud, feeling the give and the resistance. Each planting is intimate and finite. You can tell a story about every tray: who donated it, who sang"
+    "while they pressed the soil, the kid who wrote a name on a slat of wood and planted it like a little monument."
+    "Hana arrives with her usual chaos—apron streaked with stew and paint—carrying a thermos and a stack of napkins that double as planting notes. Her presence makes the day warmer in a way that has nothing to do with the greenhouse."
+    show hana_kim at center:
+        zoom 0.7
+
+    hana_kim "You see Tomas over there teaching Mrs. Bellamy how to press her root down? Mrs. Bellamy's hands shake but she insists on doing it herself."
+
+    maya_inoue "That's the point—this isn't charity."
+
+    hana_kim "People remember the smell. They remember the fish. But they also remember that storm when your brother—"
+
+    maya_inoue "I know. I remember for both of us."
+    "Tomas lingers, watching as hands work and the tide reflects the sky like a bruise. You map the old coves in your head again, listening for the pulse of places that once held life. The town's"
+    "heart is in the small, stubborn gestures, and for one raw, lucid second you believe that stubbornness might be enough."
+
+    menu:
+        "Walk the inner channel with Kaito to set the deeper sensors":
+            "You step carefully on the planks with Kaito, feeling the structure flex. He talks you through the readouts, and beneath the technical talk you pulse with gratitude—you are not alone in the slow work."
+        "Stay with the planters and coach the volunteers":
+            "You stay, hands full of soil, voice low as you teach how to angle a root. Volunteers absorb your rhythm. At the end of the row a young girl looks up at you with wet palms and hugs your knee in thanks; for a moment, the world is small and whole."
+
+    # --- merge ---
+    "..."
+    # [Scene: Promenade / Market Square | Afternoon]
+    hide kaito_sato
+    hide maya_inoue
+    hide hana_kim
+
+    scene bg ch11_e67f19_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmured applause, the creak of folding chairs, the distant mechanical hum from LuxCorp's direction]
+    # play music "music_placeholder"  # [Music: Quiet strings—long, sustained notes that ache]
+    "You stand at the podium for the town speech. People's faces are in rows like an old net: frayed, connected, catching whatever comes. You could make a rhetoric of triumph—big words, lists of ecological metrics, promises"
+    "of restoration. Instead you speak of small things: how seedlings were planted with songs, how Tomas found an old tide marker, how Hana bundled sandwiches for those who worked through the night. You tell them that"
+    "the vote was an act of faith in slow things."
+    show maya_inoue at left:
+        zoom 0.7
+
+    maya_inoue "We chose to plant roots because we believe in this place. Not because it's easy, but because it is ours."
+    "The applause is modest and real. Afterwards, porches fill with grudging smiles and wet eyes. An older neighbor, hat in hand, presses a small jar into your palm—marmalade, perhaps—and says, 'We will tend. We will remember.' The words land like a blessing and a chain."
+    "Kaito Sato sidles up, fingers smelling of mud and circuits; he hands you a printout of the first day's readings—already messy with salt and variables."
+    show kaito_sato at right:
+        zoom 0.7
+
+    kaito_sato "Look—some dips in salinity where the plants are clustered. That's good. It means they're starting to change micro-conditions, even if it's slow."
+
+    maya_inoue "Slow is all we've asked for. But slow doesn't mean safe."
+
+    kaito_sato "No. It doesn't."
+    "Your resolve feels prouder in the square—public and communal—but there's an unease that will not be quelled by applause. Far down the promenade, a line of chrome and composite reflects the light where LuxCorp's machines idle,"
+    "their engines a distant promise of certainty. The machines hum like a possibility you refused."
+    # [Scene: Mangrove Estuary | Early Night — Storm Warning]
+    hide maya_inoue
+    hide kaito_sato
+
+    scene bg ch11_e67f19_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A rising, unnatural wind; the distant thrum of heavy machinery]
+    # play music "music_placeholder"  # [Music: Low percussion; heartbeat-like, pulling tight]
+    "The weather alert blares on your phone while you're still sorting seed trays. The town's win has a thin paper-thin cover under the forecast: an atmospheric surge, faster and stranger than models predicted. Kaito Sato's sensors start to spike—numbers hopping like startled fish."
+    show kaito_sato at left:
+        zoom 0.7
+
+    kaito_sato "That's not a usual tide signature. Pressure drops, wind shear—this could push a surge further inland than the charts say."
+    show maya_inoue at right:
+        zoom 0.7
+
+    maya_inoue "How fast?"
+
+    kaito_sato "Faster than we'd like."
+    "You move as if by muscle memory: extra sandbags, slings for trays, emergency calls to volunteers. People run with the competence of those who have practiced for bad weather. Your hands are already raw from the day; planting becomes securing; hope becomes barricade."
+    "Tomas stands at the edge of the estuary, watching the water line like a man reading a ledger he can't alter. He turns to you and you see, briefly, the younger face of the man who once lost nets and gained patience in that trade-off."
+    show tomas_bianchi at center:
+        zoom 0.7
+
+    tomas_bianchi "We can wedge more of the young ones between the stumps—give them a fighting chance."
+
+    maya_inoue "Do it."
+    "You go out into the mud while the first fat drops start to fall. The seedlings squirm in your hands; the water is cold and immediate. Every planted root is a prayer written in peat and salt."
+    # [Scene: Eastern Quay | Night — After the Surge]
+    hide kaito_sato
+    hide maya_inoue
+    hide tomas_bianchi
+
+    scene bg ch11_e67f19_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Shouts, a terrified child's cry; the furious, grinding rasp of moving water receding]
+    # [Smell: Wet cedar, diesel, the sharp tang of swept salt]
+    # play music "music_placeholder"  # [Music: Sparse mournful violin—descending phrases]
+    "When the surge finally breaks and the immediate wind eases, the estuary has changed. Much has held—patches of planted roots, some sensors still blinking—but the damage is concentrated and real. A family on the eastern quay—Mrs."
+    "Bellamy's nephew and his two children—stand ankle-deep beside a collapsed storeroom. Their eyes are wide with that particular, small grief: not abstract, but immediate. The room where they kept tools and winter provisions is a slick"
+    "ruin."
+
+    "Neighbor" "We tried to save it—saved what we could—but the water took it before we finished."
+    "You move toward them, your boots making soft sucking sounds in the mud. The child clings to a damp toy, eyes huge. The neighbor's hands tremble with a useless clench against emptiness."
+    show maya_inoue at left:
+        zoom 0.7
+
+    maya_inoue "We'll help. We'll rebuild—"
+
+    "Neighbor" "Rebuild after what? After your principles float our roofs away?"
+    "The question hits like a stone. Around you, voices rise—some angry, some resigned."
+    show hana_kim at right:
+        zoom 0.7
+
+    hana_kim "People will ask if a principle was worth the price. They'll ask if seeds were enough when you could have had shelter."
+    "You reach into your pocket and feel the watch: metal warm from your skin, the tiny dial ticking a time you can't slow. Your fingers close over it like a ritual, an anchor to what you"
+    "promised and what you lost. You remember your brother's face in a storm—the way he trusted a route—and the ache curves into doubt."
+
+    maya_inoue "Did I misread the calculus between time and tide?"
+    "No one answers. Tomas stands with his jaw set, as if summoning an old seam of patience, but even his hands tremble. Kaito Sato reads out new sensor numbers with machine-stoic cadence, but his voice breaks on the last decimal."
+    show kaito_sato at center:
+        zoom 0.7
+
+    kaito_sato "We have to catalog what's gone—so we can learn. So we can change the method."
+
+    maya_inoue "Learned fast isn't always fast enough."
+
+    menu:
+        "Stay to help salvage the storeroom tonight":
+            "You get down into the muck with the rest, hauling sodden timbers and shouting over the water's retreat. You are hands-on and exhausted; you come away with a splintered plank and the sense that you did what you could tonight."
+        "Go back to the greenhouse to check the trays and the volunteers":
+            "You run back up the path, heart a thudding weight, to find volunteers steadying seedlings by lantern. You bark a few orders, then stand too long at the edge, letting the heat of the greenhouse wash over you like a small mercy."
+
+    # --- merge ---
+    "..."
+    # [Scene: Mangrove Estuary / Promenade Overlook | Late Night]
+    hide maya_inoue
+    hide hana_kim
+    hide kaito_sato
+
+    scene bg ch11_e67f19_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant machine hum, the drip of water from tarpaulins]
+    # play music "music_placeholder"  # [Music: Single cello line, long and unresolved]
+    "You walk alone to the promenade overlook after the salvage. Harborfall is quieter than it should be—too many roofs with patched tarps, a cluster of borrowed cots outside the diner. Far beyond the streetlamps you can"
+    "still see the cold, controlled lights of LuxCorp's site—machines moving like indifferent insects. Their presence is a constant, now less theoretical and more accusatory."
+    show maya_inoue at left:
+        zoom 0.7
+
+    maya_inoue "We chose roots. We chose the town. But choice alone doesn't stop water."
+    "Wind lifts the salt-stiff fringe of your scarf. You taste metal on it—salt and coffee and the residue of exhausted resolve. In the quiet you can't name what haunts you more: the sight of that collapsed"
+    "storeroom, or the image of LuxCorp's machines moving, patient and unfeeling, toward the same line you refused to draw."
+    "Tomas comes up behind you, feet heavy with mud. He doesn't speak immediately. When he does, it's with the kind of bluntness that has the weight of fishermen and elders and years."
+    show tomas_bianchi at right:
+        zoom 0.7
+
+    tomas_bianchi "We planted a lot of things today, Maya. We planted hope, too. But hope don't hold a roof."
+
+    maya_inoue "No. It doesn't."
+
+    tomas_bianchi "We will not stop. And we will not forget. But if people start to count roofs before roots, we must be ready to answer what we stand for."
+    "You close your hand around the watch until your knuckles whiten. The ritual of mud and seedlings has become both a balm and a failing: you can feel its small victories under your nails and its larger absences in the waterline."
+    "Kaito Sato appears at the railing, shoes still wet, eyes like the sensors—brilliant with numbers, dull with worry."
+    show kaito_sato at center:
+        zoom 0.7
+
+    kaito_sato "There will be a day to analyze and change how we plant. There will be a day to argue with LuxCorp and the mayor. Tonight, some families need help."
+
+    maya_inoue "There will be. But how do we hold both needs without breaking something essential?"
+
+    kaito_sato "We don't know yet. We only know we keep trying."
+    "The three of you stand in the voiceless tally: trying, salvaging, cataloging. The town sleeps in fits and starts, patched and raw."
+    "You let the tide's distant pulse remind you that choices have material consequences. Your hands are still stained with mud. Your chest still tight with the knowledge that some of those consequences already landed on people who did nothing wrong."
+    # play music "music_placeholder"  # [Music: Cello wanes into a single unresolved note]
+    "You think of the referendum—the porch speeches, the songs in the estuary, the small hands pressing seedlings into earth—and you understand with a new, blunt clarity that moral clarity does not exempt anyone from weather. It"
+    "may guide you. It may bind a community. It does not, by itself, hold up roofs against a storm one city said it could fix with machines."
+    "You stand on the promenade's edge, the watch a cool certainty in your palm, and feel the weight of both your promise and your doubt. The work you began is real and beautiful; the water that came tonight is real and punishing."
+    "You lift your chin against the brim of the night and let the unresolved grief settle into the shape of the next day."
+    hide maya_inoue
+    hide tomas_bianchi
+    hide kaito_sato
+
+    scene bg ch11_e67f19_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade out]
+
+    scene bg ch11_e67f19_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter15
+    return

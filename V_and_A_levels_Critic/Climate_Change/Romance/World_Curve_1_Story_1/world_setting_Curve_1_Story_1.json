@@ -1,0 +1,117 @@
+{
+    "design_logic": "I pair Climate Change with Romance by making the environmental crisis the engine of both plot and intimacy: the city’s contested response to rising seas forces characters into close collaboration, moral choices, and emotional reckoning. The core conflict is systemic (short-term development vs long-term resilience) mirrored by personal conflict (fear of commitment and the risk of vulnerability). Romance grows through shared stakes, technical collaboration, and ethical tensions rather than mere coincidence.",
+    "setting": "A mid-sized coastal metropolis in the near-future (10–20 years ahead) where repeated storm surges and chronic flooding have reshaped neighborhoods, politics, and daily life. The atmosphere is ocean-salted, slightly dystopian but inhabited by hopeful, DIY communities experimenting with green infrastructure. Technology is present but worn: offsets and retrofits, living architecture, community energy co-ops.",
+    "visual_style": "Muted coastal palette with splashes of warm plant greens; semi-realistic character art, painterly backgrounds, wet-surface reflections, soft cinematic lighting; textures: weathered metal, reclaimed wood, living moss; style keywords: 'Neo-urban realism', 'Wet watercolor lighting', 'Low-saturation cinematic', 'Eco-architectural details'.",
+    "main_characters": [
+        {
+            "name": "Maya Rios",
+            "role": "Protagonist",
+            "personality": "Practical, relentless, fiercely protective of community. Analytical with a dry sense of humor. Struggles to trust others with big emotional stakes and quick to shoulder responsibility alone. Deep loyalty mixed with an undercurrent of grief that sometimes makes her closed-off.",
+            "appearance_features": {
+                "hair": "Chestnut brown, shoulder-length coil waves usually tied back in a low, utilitarian bun with stray curls at the temples",
+                "eyes": "Warm hazel, slightly hooded, flecked with gold; often narrowed in concentration",
+                "clothing": "Layered functional clothing: waxed canvas field jacket with patched elbows, cropped work trousers with reinforced knees, breathable technical tee; muted sea-glass greens and slate grays",
+                "accessories": "A faded orange waterproof field notebook strapped to her hip, a solder-scarred multi-tool on a cord, and a small solar-charged pendant that doubles as a flashlight (worn always)."
+            },
+            "goal": "To secure durable, community-led flood defenses and an adaptive urban plan for her neighborhood before the next storm season, without sacrificing local homes to profit-driven redevelopment.",
+            "background_story": "Grew up in the flooded outskirts of the city; lost her younger brother in a fast-onset storm years ago. Trained as a hydrology technician and community organizer. Left a stable municipal job after frustrating bureaucracy to work directly with neighbors on grassroots resilience projects.",
+            "emotional_trait": "Strength: relentless commitment and competence. Flaw: tendency to isolate emotionally and reject help, fearing that reliance will lead to more loss."
+        },
+        {
+            "name": "Elliot Chen",
+            "role": "Love Interest",
+            "personality": "Inventive, warm, and slightly whimsical; a hopeful pragmatist. He balances idealism with hands-on skills and a belief that design can heal social fractures. Charismatic but avoids confrontations about long-term commitments.",
+            "appearance_features": {
+                "hair": "Black, undercut with a long, swept fringe that often falls over his forehead; usually a little paint or sandstain at the tips",
+                "eyes": "Soft green, round and expressive; they brighten when he talks about plants or prototypes",
+                "clothing": "Reworked architect's smock layered over a lightweight thermal hoodie; cargo trousers with seed packets and measuring tools in the pockets; colors: warm rust, moss green, and sun-faded denim",
+                "accessories": "A pair of smudged-lens drafting glasses perched on his head, a small vial of native dune grass seeds on a leather cord, and a patched smartwatch that monitors tidal data."
+            },
+            "goal": "To prototype and install a living seawall and communal green infrastructure that both mitigates flooding and reconnects neighborhoods to the shoreline — and to persuade Maya to collaborate and trust him.",
+            "background_story": "Once worked for a big architecture firm proposing flashy coastal projects; left after a morally compromising contract. Now runs a small studio that reuses salvaged materials and trains community teams in living-construction techniques.",
+            "emotional_trait": "Strength: resilient optimism and creative problem-solving. Flaw: avoids hard compromises and can overpromise, fearing that confrontation will break fragile social bonds."
+        },
+        {
+            "name": "Irene Voss",
+            "role": "Antagonist",
+            "personality": "Calculated, rhetorically skilled, outwardly pragmatic. Believes in order and measurable outcomes; charismatic in council chambers but private and burdened. She rationalizes harsh choices as necessary for the city's survival.",
+            "appearance_features": {
+                "hair": "Steel silver, impeccably cut bob that frames a stern jawline",
+                "eyes": "Steely gray, narrow and observant; a faint crow's-feet when she smiles professionally",
+                "clothing": "Tailored waterproof trench coat over business separates; dark slate suits with subtle coastal motif lining; polished ankle boots",
+                "accessories": "A slim legal tablet always in hand, a mother-of-pearl brooch shaped like a ledger (family heirloom), and a discreet lapel camera for public appearances."
+            },
+            "goal": "To push through a mixed-use redevelopment project that promises jobs and large-scale flood barriers funded by private contractors, consolidating the city’s finances and her political legacy.",
+            "background_story": "Rose through bureaucratic ranks after her coastal neighborhood was redeveloped in her youth. She lost faith in grassroots organizing when early, small-scale interventions failed during a major storm. Now prioritizes top-down, fast-acting solutions and sees activists as romantically idealistic but impractical.",
+            "emotional_trait": "Strength: unwavering decisiveness and political skill. Flaw: suppressed guilt and an inability to admit past mistakes, which hardens her toward negotiated compromise."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Sami Alvarez",
+            "relation_to_main": "Childhood friend of Maya; local kayak courier and grassroots mobilizer",
+            "appearance_summary": "Lean, sun-bronzed, shaved on one side with a long braid; wears a patched neon lifevest over bright layered clothes and cargo shorts, always with waterproof messenger bag.",
+            "function_in_story": "Community connector who organizes protests, supplies, and rapid-response sandbag teams; provides emotional history with Maya and pushes for bolder public actions."
+        },
+        {
+            "name": "Dr. Noor Patel",
+            "relation_to_main": "Former mentor to Maya and respected climatologist",
+            "appearance_summary": "Silver-streaked hair in a loose bun, warm brown eyes behind rimless glasses, prefers soft wool coats with salt stains; carries weather logs in a leather folio.",
+            "function_in_story": "Offers scientific legitimacy and tactical advice, helps interpret long-term data for council hearings, and represents the moral complexity of scientific risk communication."
+        },
+        {
+            "name": "Luca Marin",
+            "relation_to_main": "Representative of the private developer backing Irene’s project (antagonistic ally)",
+            "appearance_summary": "Well-groomed, tan suit with waterproof sheen, slicked-back hair, a charismatic smile that doesn’t reach his eyes; often seen with digital renderings and glossy models.",
+            "function_in_story": "Provides the tempting resources and legal muscle for Irene’s plans; personifies the seductive language of 'progress' and complicates moral choices with offers of quick fixes and compensation."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harborfront District (Maya's Neighborhood)",
+            "visual_description": "Low, salt-streaked terraces with wooden walkways raised on patched pilings; warm late-afternoon light filtered through low clouds, puddled reflections on uneven planks. Colors: muted teal, rust, and bleached wood. Atmosphere: humid with a constant hiss of tidal wind, the smell of kelp and diesel. Background details: hand-painted signs, solar panels on corrugated roofs, improvised sandbag fortifications."
+        },
+        {
+            "name": "The Green Spire (Elliot's Studio & Community Hub)",
+            "visual_description": "A repurposed shipping tower draped in vertical gardens and reclaimed glass; interior flooded with soft golden light through moss-filtered skylights. Warm, plant-dappled tones with tool benches, hanging pots, and glowing jars of water cultures. Atmosphere: creative bustle, optimistic and intimate; gentle dripping sounds and rich organic textures."
+        },
+        {
+            "name": "City Hall / Council Chambers",
+            "visual_description": "Polished stone and glass with cold, directional LED lighting; storm-lashed windows and a drifting line of rain visible outside. Color palette: steel blues, slate, and polished mahogany. Atmosphere: formal, tense — echoes of speeches linger in large rooms; banners of civic renewal hang beside digital tide charts."
+        },
+        {
+            "name": "Old Dune Reserve",
+            "visual_description": "Stretch of parched, windswept dunes dotted with bleached grasses and exposed root systems; sunset casts long amber shadows and the sky is streaked with high cloud. Colors: bone, ochre, and dusky orange. Atmosphere: elegiac and fragile — a visual reminder of what erosion has reclaimed and what might be restored."
+        },
+        {
+            "name": "Boardwalk Market (Flooded Section)",
+            "visual_description": "A narrow sprawl of stalls half-submerged in brackish water, strings of salt-proof fairy lights reflected in rippling surfaces; twilight and the smell of fried food. Colors: neon reds and electric aquamarine against wet black wood. Atmosphere: chaotic resilience — vendors selling waterproof goods amid passing kayaks and children playing on makeshift rafts."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romantic Reconnection",
+        "Community vs Development",
+        "Moral Compromise",
+        "Resilience and Repair"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A negotiated, community-led hybrid solution is implemented: the living seawall and adaptive housing pilot succeed, Irene’s development is scaled back and restructured, Maya and Elliot formalize their partnership (personal and professional), and the neighborhood begins a resilient recovery backed by local governance reforms."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A partial victory: the living infrastructure is installed in key areas but budget constraints force difficult trade-offs and some homes are relocated. Irene keeps political power by presenting compromises. Maya and Elliot achieve technical success but choose different paths—one staying to lead community implementation, the other taking a teaching post elsewhere—leaving their relationship open but strained."
+        },
+        {
+            "type": "Sad",
+            "summary": "The developer-backed project is fast-tracked; large-scale concrete barriers displace vulnerable residents, community initiatives are marginalized, and a major storm reveals the project’s ecological shortcomings. Maya and Elliot’s efforts fail to avert tragedy, relationships fracture under blame, and the city faces harsher consequences next season."
+        },
+        {
+            "type": "True",
+            "summary": "A morally complex outcome: an initial political defeat forces grassroots networks to decentralize and scale locally. Maya sacrifices a career opportunity to build a federated community resilience network; Irene survives politically but is personally confronted by evidence of long-term harm. The romance endures in a quieter, more mature form grounded in shared purpose rather than easy resolution—change has begun, but at human cost."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

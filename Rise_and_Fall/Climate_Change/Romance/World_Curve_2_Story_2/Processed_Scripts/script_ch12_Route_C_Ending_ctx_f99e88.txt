@@ -1,0 +1,173 @@
+### SCRIPT
+# Route: Route C (Ending)
+# Context: f99e88
+
+[Scene: Town Hall | Late Afternoon]
+[Background:"ch12_f99e88_1"]
+[Sound: Low, tired murmur of people dispersing; gulls in the distance.]
+
+You step out into the corridor and the cool press of salt air meets you like a hand you half-remember. Mayor Rosa is still at the end of the hallway, shoulders squared against the draft, her lapel pin catching a thin strip of sun. She nods once—small, measured—and for a moment the motion is almost private between you.
+
+Mayor Rosa: "You asked for time. I—" (she exhales, as if it costs her) "—I've signed the temporary covenants for the pilot zones. They run until the adjudication is settled."
+
+You taste the word adjudication like rust and sugar: protection, yes, and a looming legal storm. The paper in her hands feels heavier than its weight. You understand her calculus—re-election calendars, payrolls, and the fact that 'temporary' in politics is never absolute.
+
+Mara Voss: "Thank you. It buys us—" (you search for a measure—moment, season, chance) "—space to prove a different outcome."
+
+Mayor Rosa: "Space and time." (her gaze slides, honest and tired) "Don't misread me, Mara. This is a bet I can't afford to lose. If the pilot fails, I lose more than the seat."
+
+Mara Voss: "Understood." You can hear the marsh under your ribs when you say it: the squelch of mud, the small, stubborn gasps of life. "We'll make it count."
+
+[Background:"ch12_f99e88_2"]
+
+[Scene: Glasshouse | Dusk]
+[Background:"ch12_f99e88_3"]
+[Sound: The soft slap of boots, occasional laughter, a spool of rope uncoiling.]
+
+You walk into the Glasshouse and the room exhales around you—heat, peat, the metallic under-tinge of salt on tools. Volunteers work in a steady orbit: Nia sorting labels, a pair of high-schoolers knotting living mats, an older woman pinning signage that reads "Pilot Zone — Do Not Disturb."
+
+Elias "Eli" Calder is there, sleeves rolled to his elbows, a smear of mud along his forearm like a badge. He looks up when you arrive; the lines at the corners of his eyes deepen when he smiles. There is weather in him and there is wood: steady, slow to change, holding.
+
+Elias "Eli" Calder: "They really signed it?" (hope wars with worry in his voice) "That mayor—she's a smart woman, Mara. She knows public pressure."
+
+Mara Voss: "She knows pressure. She knows calendars." (you set down your bag, fingers lingering on the sensor band at your wrist) "But she gave us this. Rina managed the emergency annex—federal matching for six months. It isn't forever, but it pays for labor, materials, and monitoring."
+
+Elias "Eli" Calder's mouth tightens, then softens. He folds his hands over some sea grass reeds, as if feeling their pulse.
+
+Elias "Eli" Calder: "Six months of work, then. We make the channels hold. We make it count." (he hesitates) "And if the developers go to court?"
+
+Mara Voss: "Then we hold the story we built here: jobs created, channels recovering, fish moving in. We document, we publish, we make the science and the people's lives one argument." (you meet his eyes) "We do the thing we know how to do."
+
+Elias "Eli" Calder: "You always make things sound so...certain." (a faint, wry smile) "I'll take you at your certainty for now. Someone's got to laugh when the tide comes in."
+
+You both laugh—small and brittle—and it breaks into a softer silence, the kind that stitches between two people who have weathered different storms and kept walking toward each other.
+
+[INTERACTION]
+> Choice A: "Ask Elias \"Eli\" Calder to sketch a raised dock design tonight"
+> Choice B: "Tell Nia to double-check the planting coordinates"
+[Outcome A: He pulls out his sketchbook without missing a beat, the lines quick and sure; the two of you lean together, hands almost touching over a smudged pencil draft.]
+[Outcome B: Nia nods, already moving to a laptop, fingers flying across the keyboard; you feel the room settle into efficient motion.]
+[MERGE: The scene continues with the team's preparations and the morning after.]
+
+[Scene: Willowmarsh — Pilot Zone Alpha | Early Morning]
+[Background:"ch12_f99e88_4"]
+[Sound: A chorus of small birds, the faint clink of measuring poles, the soft splash of boots stepping into ooze.]
+
+Dawn smells like turned earth and the air is cooler than your skin. Volunteers follow directions like choreography; someone hums an old sea shanty, and there is a rhythm to the labor that eases your chest. You move through the rows checking plant densities, pressing sensor probes into silt and watching numbers climb on the handheld.
+
+You watch the water threading through the new channels. In places, sediment settles where you designed it to, and eelgrass fronds lift in a tentative arc. The marsh answers in increments: a return of a shoal here, an increase in invertebrate counts there. It is not grand; it is patient, stubborn, incremental.
+
+Old Tomas Calder ambles in, his cap low, peat clinging to the hem of his sweater. He places a hand on a nearby stake, fingers tracing the weathered wood, and looks at you with the careful, slow appraisal of someone who remembers what used to be.
+
+Old Tomas: "You pulled this off a lot faster than I figured, girl." (he grunts, more a blessing than a complaint) "It'll take more than six months to know if it's 'for keeps' though."
+
+Mara Voss: "I know." Your voice is small against the marsh's breathing. "But six months is the difference between a whole crew going hungry and a chance for them to learn a trade that keeps the water and work together."
+
+Old Tomas: "Then let's teach 'em right." (he nods toward the kids) "Teach 'em good. Teach 'em how the tide remembers."
+
+[Scene: Harbor's Reach — Community Meeting | Evening]
+[Background:"ch12_f99e88_5"]
+[Sound: Low, anxious conversation punctuated by applause and the occasional jeer from town skeptics.]
+
+You stand before a small crowd—boatbuilders, shop owners, teenagers in hoodies, and faces you know from a thousand summers. Rina reads out the grant numbers. Nia holds up a ledger of hires. You talk through monitoring results: water clarity, juvenile fish counts, the nascent return of saltmarsh periwinkles. A family who'd come for work in the development now have offers as marsh technicians.
+
+A man near the back—someone with a framed photograph of the headland in sunnier times—speaks up, voice rough.
+
+Man: "So we trade a headland for a paycheck? How do we know this won't leave us with nothing but more promises?"
+
+Mara Voss: "We don't." You let the word rest between you and him. "What we have is evidence and people's labor. The pilot zones have created jobs now. The channels have shown measurable recovery. The covenants protect key patches. I wish I could promise the whole shore, but I can't lie to you."
+
+Someone mutters—bitter, tired. It's the sound of lives that have gone through too many promises. Mayor Rosa stands to your side; her profile is strong in the fairy lights.
+
+Mayor Rosa: "This isn't the full answer." (her voice holds) "But it prevents wholesale loss while we fight an adjudication and try to negotiate a better development footprint."
+
+You look at Elias "Eli" Calder in the crowd. He catches your eye and lifts a hand—a small signal, an I-am-here. The warmth from that gesture threads through the tension like a seam.
+
+[INTERACTION]
+> Choice A: "Offer to take volunteers out to inspect channel drains tomorrow"
+> Choice B: "Ask the mayor to convene a public forum on the sea-wall redesign"
+[Outcome A: Faces in the crowd lean toward the practical—a plan to be on the water, to keep momentum. People like doing, and doing steadies them.]
+[Outcome B: Rosa nods slowly; it's a political move, more fraught, but it brings different stakeholders into the light.]
+[MERGE: The meeting ends with plans made and people leaving with tasks.]
+
+[Scene: Headland | Late Afternoon — The Azure Crescent Site]
+[Background:"ch12_f99e88_6"]
+[Sound: Thump of a distant pile driver; a muted hum of generators; gulls wheel around industrial silhouettes.]
+
+You walk the edge of the headland where the developers' bulldozers have cut into familiar contours. The concrete pylons mark a future already half-built. Up close, the scar is sharp—tar-stained soil and a geometry that the marsh never intended. It makes your chest ache in a way that is not only scientific; it is personal history being reshaped.
+
+A paper notice has been posted at the fence—an initial motion for adjudication. Legal language that smells of polished offices and money. Your throat tightens, but you steady yourself with a breath that tastes of algae and grit.
+
+Elias "Eli" Calder stands with you on the bluff, his hands jammed into his pockets against the wind. He looks out over the machines.
+
+Elias "Eli" Calder: "They'll fight it." (his voice is a low thing) "They'll drag it through courts and press. They'll promise more jobs. Some folks will listen."
+
+Mara Voss: "We knew they'd do this." The sentence is a small, hard thing. "We also have other things now—people trained, evidence of jobs, monitors. We have a story that isn't only mine."
+
+Elias "Eli" Calder: "And us." He looks at you. "You and me. Do you think—" (the question stumbles, not about love alone but about future, compromise) "—do you think we can hold onto this and still keep what matters?"
+
+You reach out, and your fingers find his. The contact is warm, ordinary, and it steadies the world for a breath.
+
+Mara Voss: "I don't know." (you say it without theatrics; it's the honest shape of the moment) "I know we've kept parts of the marsh. I know we've kept people working. I know I've made promises I can't guarantee forever." (you meet his eyes) "But I know I want to keep trying—with you."
+
+Elias "Eli" Calder: "That's enough for me." (he gives a tight, small laugh) "For now, at least."
+
+[Background:"ch12_f99e88_7"]
+
+[Scene: Montage — The Next Season]
+[Background:"ch12_f99e88_8"]
+[Music: Sparse piano underscores, steady but melancholic.]
+
+The months after the covenants are a braid of wins and thin, cold edges. The pilots show success: eelgrass beds expand in fingers; crabs and small fish move through restored channels; payroll runs on schedules and young people learn a new trade. Rina's annex funds keep people fed, and some of the town finds dignity in work that stitches together ecology and economy.
+
+But the adjudication grinds on. The developers—refined, relentless—file motions that threaten to unpick the covenants' seams. Court dates loom like low clouds. Press coverage slants toward spectacle. In the headland, the wall has been partially erected; the concrete pylons cut a new horizon line. You mourn the loss the same way you track a species: a recalibration. Some shore is gone to new geometry and engineering; other shorelines breathe a little more in your hands.
+
+You feel both the light of success and the weight of what was conceded. The town is patched like a well-worn coat: new fabric in some places, threadbare in others.
+
+[Scene: Glasshouse — Twilight]
+[Background:"ch12_f99e88_9"]
+[Sound: Laughter undercut with nervous undertow; someone plays a low mandolin.]
+
+You share a potluck with the volunteers, and the conversation arcs between the practical and the private. Stories leak—memories of storms, of small victories, of losses. Nia pushes a bowl toward you with a grin that doesn't hide exhaustion.
+
+Nia: "You did good, Mara." (simple, fierce) "You pulled the town a step back from the cliff."
+
+Mara Voss: "We pulled together." Your voice is softer than you expected. You taste stew and salt on the same breath. "I wished for more. I still do."
+
+Elias "Eli" Calder: (from across the group) "We're not done." (he shakes his head, gentle) "But tonight, can we stop trying to fix everything at once?"
+
+Mara Voss: "Tonight?" (you let yourself surrender to the idea) "Tonight is enough."
+
+He crosses the space and sits beside you. His hand finds yours again—familiar, patient.
+
+Elias "Eli" Calder: "Marry me next winter?" (he says it as a plan, not a flourish, as if adding a board to a dock) "Not for ceremony. For partnership. For someone to keep the watch with."
+
+You blink. The idea is small and large all at once. You feel the marsh in the background of that question—the future, the children, the ledger lines and legal filings, the grit and the salt.
+
+Mara Voss: "Yes." The word comes steady. It isn't an escape; it's a commitment. "Yes—to keep watch together."
+
+[Background:"ch12_f99e88_10"]
+
+[Scene: Harbor Bluff | Sunset]
+[Background:"ch12_f99e88_11"]
+[Sound: The tide's slow in-and-out; somewhere a radio calls coordinates; a gull cries once.]
+
+You look at the horizon where both loss and life are legible. The patches you saved breathe; the headland is not what it was. The town keeps its people working, but the economy has shifted shape. You carry gratitude threaded through a residue of grief.
+
+In the ledger of your life, this chapter reads as a compromise: a partial victory with permanent scars. The marsh will remember the places you stitched and the places you couldn't. The town will remember the jobs saved and the buildings lost. Elias "Eli" Calder will stand beside you through it, and that steadiness alters how you tally the cost.
+
+You inhale the brine and the smoke and the persistent hope. You exhale the shape of vows and plans, of monitoring schedules and court dates still to come. There is no triumphant trumpet; there is only the long, honest work—planting, counting, testifying, loving—together.
+
+[Music: A single piano note held and released into the hush of a cooling tide.]
+[Background:"ch12_f99e88_12"]
+
+[Background:"ch12_f99e88_13"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

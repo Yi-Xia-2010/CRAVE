@@ -1,0 +1,196 @@
+### SCRIPT
+# Route: Route B / Option C OR Route C Option C
+# Context: a7c8ab
+
+[Scene: Voss Marine Solutions Lobby | Late Afternoon]
+[Background:"ch15_a7c8ab_1"]
+[Music: Low, steady cello with a hopeful undertone]
+[Sound: Muffled rain and distant gulls against the quay]
+
+You walk out of the meeting the way you always do when a decision is settled and you must wear it afterward—upright, breath measured, the notebook closed against your ribs like an oar. The projector’s last glare still blooms behind Corinne’s immaculately folded hands. Tamsin’s tablet rests under one arm like a thin, exhausted ledger of compromises.
+
+Corinne Voss: "You made your point clearly, Amaya. A review adds months, possibly years. Infrastructure has windows—we have contractors, financing, schedule. Delays cost lives in the long run."
+
+You feel the word lives land where it always has: heavy, untranslatable. You have been weighing lives against ledgers for years; you know their contours by heart. You also know the particular sentences in Corinne’s voice that mean calculation more than care.
+
+Amaya Reyes: "You call them lives. We call them neighborhoods. You call a schedule a window; we call it a moment when our homes either get accounted for or not. A review isn't posturing—it's public, procedural, accountable."
+
+Corinne narrows her eyes. For a heartbeat something softer flickers—respect, maybe, or the recognition of a stubborn opponent worth courting.
+
+Corinne Voss: "Accountability is easier when the parameters are clear. Come with us and help shape the pilot. Or keep fighting from the outside and hope the law keeps you whole."
+
+Amaya Reyes: "I walked away because the last time you meant pilot, the pilot ate the marsh. I'm not here to be folded into some PR process. If the council can't hold you to true oversight, I'll take the review—not because I like it, but because it's a check. Because the town deserves that breath."
+
+Tamsin Cho lifts her chin, eyes wet with an argument she didn't want to have. She means to broker; you both know the pressure of that role.
+
+Tamsin Cho: "The council asked for you—officially. They wanted to avoid a pause. They wanted you to say yes. You made them listen. That counts."
+
+You let the count sit between you and Corinne like a small, bright stone. Outside, the rain has thinned; the harbor smells like turned tide and a promise of clean air. You do not feel triumphant. But you do feel, unexpectedly, steadied—your refusal became something formal. That is its own kind of victory.
+
+[Background:"ch15_a7c8ab_2"]
+
+[Scene: Construction Site | Morning — Three Weeks Later]
+[Background:"ch15_a7c8ab_3"]
+[Music: Quiet, rhythmic percussion—heartbeat steadying]
+[Sound: Hydraulic hiss, the thump of heavy treads, voices over radios]
+
+The review asked for time. Time dissolved into petitions, emergency clauses, and an economic argument that arrived like a tide—slow, inexorable, reshaping everything in its path. The council voted under pressure you could taste: permits signed with hands that wanted jobs and stabilizing taxes and a future that looked safe on a balance sheet.
+
+You arrive at the site because you cannot not go. It feels obscene: your boots sink into churned earth where the marsh's edge used to feather. A squadron of machines is already at work. Up close, the seawall looks terribly small and terribly final—steel ribbons in concrete, the first ribs of the structure that will reroute the bay.
+
+A woman you recognize from the boardwalk—Maria, who used to teach the kids to fish—stands on the opposite side of the fence. Her house is the third one flagged for relocation. She holds a box of photograph albums like a tiny, combustible altar.
+
+Maria: "They're saying they'll pay for moving. They're saying they'll build us something new. But where does 'new' let my garden breathe the same way? Where do they move the smell of my boat?"
+
+You kneel to meet her eyes. You cannot fix a contract with a look. You can hold the human fact of her loss in your hands for a moment, naming it.
+
+Amaya Reyes: "I don't have a solution that fits into the boxes they're passing around. But I know how to make sure those boxes are closed properly. The review will slow them enough for notices and compensation to be organized properly. It's not the same as what should have been done—but it keeps the town from being steamrolled blind."
+
+Maria closes her hands over her photos and breathes like someone learning to count to ten. The sound of the machines is a sore throb under everything you say.
+
+[INTERACTION]
+> Choice A: "Walk the fenced perimeter and photograph the initial pours"
+> Choice B: "Step into the crowd and speak at the pop-up meeting"
+[Outcome A: "You lift your camera, steadied by salt and purpose, and the shutter catches the first rib of the wall as if to prove it existed."]
+[Outcome B: "You stand on a milk crate and talk straight—about rights, about delay, about how to help those who must move. A cluster of neighbors listens, hands dug into pockets against the wind."]
+[MERGE: You choose both, of course—the data and the voice—because that is what you have always been: a ledger and a lighthouse.]
+
+[Scene: TideLab | Afternoon — One Week Later]
+[Background:"ch15_a7c8ab_4"]
+[Music: Sparse piano with a sustained high note—tender, not broken]
+[Sound: The drip of a leaky gutter; a distant jackhammer]
+
+Luka tilts the controller in his hands like a man turning something fragile. He has the consultancy offer in his pocket, a professional letterhead and a number attached to it—promises of resources and a mandate that could scale his devices far beyond TideLab's modest reach.
+
+Luka Maren: "They want me to consult on system integration. They want sensors, modular units, wetland monitors. They said I could make it open-source—(he swallows) —if I sign on to their development arm."
+
+Amaya Reyes: "Open-source is a phrase they've used to make people sleep easier. You know that. You know how Voss has absorbed ideas before."
+
+Luka's jaw tightens. He looks at a row of harvested kelp turned into sensor housing prototypes—the very things he built because homeowners asked for them, because Abuela Rosa wanted a tide reader that did not need a subscription.
+
+Luka Maren: "I also know what we can do with real funding. We could put a sensor on every property. We could mass-produce the oyster cages and fund local deployment. I could make the tech work for everyone, faster. I can picture it—satellite dashboards, live feeds for the council. I don't want to watch the wall go up with nothing but good intentions on my side."
+
+Your voice rides the edge between understanding and a hurt you haven't let yourself speak aloud.
+
+Amaya Reyes: "And if you go in, they might swallow the tech along with you. They might change the terms mid-contract. Or worse—they might use it to greenwash displacement."
+
+Luka's hands curl around the controller until his knuckles whiten.
+
+Luka Maren: "I don't have any illusions about them. But I also have the prototypes, Amaya. I know how to make them resilient without a corporate spine. I can get the funding to make them free for Marisol. Maybe this is the way to scale help—maybe it's the only way I can get enough pieces out there before the next season."
+
+The conversation unspools into the long, patient negotiation that it is—the friction of two people who love a place and want to save it, and who answer different parts of that need. You ask for guarantees, for ethical guardrails, for an independent oversight clause. He promises to try. He does not promise victory.
+
+Luka Maren: "I can do this and still—"
+
+He leaves the sentence hanging like a boat in the tide. You both know what the rest would be: "still come back", "still keep this", "still us." He does not say it.
+
+[Background:"ch15_a7c8ab_5"]
+
+[Scene: Boardwalk | Dusk — The Peak Moment]
+[Background:"ch15_a7c8ab_6"]
+[Music: A steady build—strings entering, warm and resolute]
+[Sound: Distant cheers, a child's voice asking if the gulls will come back]
+
+You stand on the boardwalk with a group that has split down the middle: some clutch relocation checks with hands that tremble and accept the certainty of shelter; others have barricaded their doors with plywood and vows. Abuela Rosa is there, small as a lighthouse, shawl wrapped tight.
+
+Abuela Rosa: "When I was a girl, the sea moved like a story you could read to sleep. It doesn't read the same now." (She tips her chin toward the wall.) "But stories change. People change how they tell them."
+
+You find Luka at the end of the line, not in his lab smock but in a plain jacket, a folder tucked under his arm. He looks older than the day you first met—worn by a thousand tiny compromises.
+
+Luka Maren: "They signed me this morning. Short-term consultancy. I'll be on a team that will retrofit sensors into the wall and the docks. They said I could allocate units to community projects."
+
+Amaya Reyes: "You signed."
+
+He meets your eyes, and for the first time there is a thin, brave smile that is more apology than triumph.
+
+Luka Maren: "I couldn't let the tech rot in one desk. I thought—maybe from inside I can make sure they don't lock it up."
+
+You keep looking at him, the warm amber of his eyes unreadable with all the things a technician learns to hide: practicality, fear, calculation. Your chest feels like a tide pulling at a sandbank.
+
+Amaya Reyes: "Do you think they'll listen—to the community terms you want?"
+
+Luka Maren: "I don't know. I can only promise I will keep trying."
+
+The boardwalk hums around you: the packing of crates, the murmurs of negotiation, the click of a camera as someone documents the first pours in the concrete like a date carved into the town's memory.
+
+At that instant the machine's piston slams into place in a wash of sprayed concrete. It is not a cinematic explosion—there is no sudden collapse—but there is finality in the concrete's hiss, an officialness that sounds like the closing of a heavy book.
+
+You feel the arousal of the moment—neither a panic nor a surrender, but the concentrated ache of a fight that changed shape. The sea has been checked by steel. People will be safe in a narrow sense. The fabric of the town is different; some seams come loose. Some of those seams are people you love.
+
+Abuela Rosa takes your hand and squeezes it like a prayer you can habitually say aloud. Her eyes are not accusatory, only clear.
+
+Abuela Rosa: "You did not sell us. You did what you could in the only way left that would ask for eyes and not just hard hats."
+
+You let out a breath you didn't know you were holding. In the immediate dark after the concrete's settling hiss there is a small constellation of private defiance: volunteers measuring marsh edges, Jules filming the wall to archive it, Mateo setting up a small food table for workers and neighbors alike. The town rearranges itself to live around the thing installed in its belly.
+
+[Scene: TideLab | Night — The Resolution]
+[Background:"ch15_a7c8ab_7"]
+[Music: A single cello line that resolves into a warm major chord]
+[Sound: A kettle whistling somewhere beyond the wall of the lab]
+
+Weeks fold into months. Injunctions come and go; legal briefs appear and are answered. A court orders a temporary freeze on certain operations—an imperfect, partial victory that keeps some work from advancing but comes too late for a few blocks. You rally, you testify, you file. The review you demanded does create a registry of impacts; that registry saves paperwork from being a ghost and turns it into leverage for future campaigns.
+
+But the town has already changed.
+
+You write your application for a fellowship with a regional resilience network. It is a small, stubbornly practical thing: a post that will let you take TideLab's data and translate it into policy and community grants across the coastline. It is not staying. It is an outward push—a way to fight from a different vantage. You have learned that sometimes preserving a thing means moving away to change the scaffolding that surrounds others.
+
+Tamsin meets you at the lab door, hands wrapped around a thermos. Her face is open in a way politics rarely allows.
+
+Tamsin Cho: "You took the review and they still pushed. I'm sorry. And—" (she searches) "—thank you. The council is different because of how you made everyone account for what they were doing."
+
+Amaya Reyes: "It feels small against the houses we lost. It feels like a bandage on a bigger wound."
+
+Tamsin Cho: "Maybe. But wounds can be tended. They can be taught not to fester. You taught them. You were a voice."
+
+You look around at the pieces of TideLab—kelp sensors drying on a rack, a tangle of wires, Jules' camera leaning against a stool. You think of names: Mateo, Abuela Rosa, Maria with her photos, neighbors who accepted checks and those who refused. You think of Luka standing at the wall with a folder under his arm.
+
+There is grief here that will steep. There is also a stubborn, bright energy: seedlings that will be planted at the reserve, data streams that will be open for researchers, a registry of impacts that will shape future regulations. Small safeguards, small dignities, stitched into the new landscape.
+
+You pack a single bag: your leather-bound notebook, the solar watch with its cracked casing, the braided wildflower bracelet. You press the bracelet into the palm of your hand like dispatching a blessing.
+
+Abuela Rosa comes by the lab before you go, slow but sure, shawl flung across her shoulders in the same way she taught you to tie it when you were a child.
+
+Abuela Rosa: "Go. Make the shore safer for more people. Don't come back to be the same—come back to be the one who taught others to be different."
+
+Amaya Reyes: "Will you be all right?"
+
+Abuela Rosa's laugh is thin and full of wind.
+
+Abuela Rosa: "We have always been all right and not all right at the same time. That is our song. You are not abandoning; you are adding a verse."
+
+You step out of TideLab with the dusk squeezing the town into long, thin frames. You feel the ache of loss and the weight of duty settle into something like resolve. The fellowship is not a cure. It is a tool. It is a chance to take the lesson of this failure—where formal processes moved too late and corporate urgency outpaced community care—and shape policy so other towns won't wake to the sound of concrete being poured through their neighborhoods.
+
+Luka comes by before you leave. He does not offer promises. He offers a parcel of sensor prototypes and a hacked bill of materials—small things he says he wants to see stay open.
+
+Luka Maren: "Take them with you. Use them. If you can, get them into policy, into procurement lists that require open hardware. I will try to keep at least one corner of the work free."
+
+You fold your hand around the parcel like a bridge.
+
+Amaya Reyes: "We both did what we thought would do the most good."
+
+Luka nods, and there is no theatrical conclusion—only two people who love one another, each bearing a different kind of wound. The drift is real. The connection does not evaporate; it changes form, becomes correspondence, becomes shared grief and shared hope at a distance.
+
+[Background:"ch15_a7c8ab_8"]
+
+You take the ferry out at dawn. The bay shrinks from you and becomes a map you know by heart. You carry in your bag a list of names, a registry of harms, copies of TideLab's open datasets, and a fellowship letter with a modest stipend and a mandate to push for policy change.
+
+You do not sing victory. You feel the small, unmistakable pulse of purpose—cleaner than righteous fury, warmer than resignation. You know what was lost. You also know what you could not have won from where you stood. That clarity, painful as it is, sharpens you. It sets a course.
+
+[Music: The cello resolves into a gentle, hopeful chord]
+[Sound: Ferry engines; gulls; the distant, constant lapping of water]
+
+You leave Marisol Bay with your hands full of things to prove. You carry the faces of people who trusted you; you carry the knowledge that some decisions will be judged by history and not sentiment. You promise yourself—quietly, fiercely—that the things you did wrong will be lessons, and the things you did right will be foundations.
+
+[Background:"ch15_a7c8ab_9"]
+[Music: Fade out]
+
+[Background:"ch15_a7c8ab_10"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

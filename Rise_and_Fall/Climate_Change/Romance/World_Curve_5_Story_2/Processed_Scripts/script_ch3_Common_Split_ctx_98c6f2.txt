@@ -1,0 +1,153 @@
+### SCRIPT
+# Route: Route B/C Shared Ending
+# Context: 98c6f2
+
+[Scene: The Watchhouse | Morning]
+[Background:"ch3_98c6f2_1"]
+[Sound: The soft drip of a kettle, distant gull calls, paper rustling]
+[Music: Warm, tentative strings—an ascending motif that suggests possibility]
+
+You stand at the long worktable, palms on the cool, salt-scored wood. Your sketchbook is open to a page of cross-sections—mangled dunes, a proposed swale, the arc of Jonah’s living-shoreline terraces annotated in your cramped handwriting. Morning light picks out the silver streak at your temple; the compass pendant rests against the hollow of your throat like a memory.
+
+There is a quiet you let happen before the day breaks fully: the Watchhouse waiting with you, the maps like held breaths. In the meeting last night the council agreed to take proposals to docket. That agreement is a hinge. It feels fragile and heavy at once—four weeks to turn hope into something that will survive legal language and budget sheets.
+
+Marco appears at the doorway, hoodie smelling faintly of the smoke from his morning fritters. He drops a folder on the table with a thunk that feels like an anchor.
+
+Marco: "You sure you want to read Iris's specs side-by-side with Jonah's diagrams before the town hall? Might give you a headache."
+
+Elena "Lena" Maris: "I'd rather untangle it here than in the middle of the chamber. Headaches are a better problem now than arguments later."
+
+Marco pauses, then grins. "That's my sister. Face the headaches."
+
+Your throat tightens around something like gratitude and fear. You're not alone—there are shoulders in a thousand small ways backing this climb. That's the updraft you ride now.
+
+[Background:"ch3_98c6f2_2"]
+[Sound: Pages turning, the kettle's whistle dying into a sigh]
+
+Jonah Reyes steps in next, boots leaving wet crescent prints. He drops a battered field notebook beside yours, the corners frayed with tide mud. He doesn't need to say much; his presence is outline and promise.
+
+Jonah Reyes: "I ran the planting density numbers again. If we phase volunteers in with a durable core barrier at the headland, we can get meaningful attenuation within a season."
+
+Elena "Lena" Maris: "And the funding for the core barrier?"
+
+Jonah Reyes [shrugging]: "Small grants, co-op funds, maybe a crowd-sourced match. It'll be messy money-wise, but it keeps people in place and puts labor back in town."
+
+You consider his face—the earnest lines near his eyes when he's imagined a problem solved. You want that solution to scale. You want it to be rooted.
+
+[INTERACTION]
+> Choice A: "Run Jonah's numbers on the projector"
+> Choice B: "Call Dr. Asha for a quick consult"
+> Choice C: "Step outside to the pier and sketch the headland"
+[Outcome A: "You wheel the old projector into place. Numbers bloom on the wall; Jonah's sketches feel immediate and doable. Volunteers gather, murmuring about planting days and tool rosters."]
+[Outcome B: "You tap Dr. Asha's number; her voice, steady and bright, folds in with your plan—she offers monitoring metrics that make the pilot feel watertight."]
+[Outcome C: "You step into the onion-skin light on the pier. The salt bites at your face and your pencil finds the land; the sketch calms the knot in your chest, translating anxiety into shape."]
+[MERGE: The choice is small and flavor-only, but each one nudges the morning's momentum in a slightly different rhythm. You decide—briefly—and the Watchhouse hums forward.]
+
+[Scene: Hallway | Midday]
+[Background:"ch3_98c6f2_3"]
+[Sound: Distant voices filtering from the council chamber; the creak of boards underfoot]
+[Music: A single piano note rising in hopeful cadence]
+
+As you close the door behind you, you encounter Iris near the stairwell—tailored trench draped over an arm, stylus glinting. She looks every inch the engineer who can picture infrastructure as tidy geometry. Her expression is composed; there's a flicker of something in her eyes when she sees you—recognition that runs deeper than professional courtesy.
+
+Iris Valence: "Lena."
+
+Elena "Lena" Maris: "Iris."
+
+Silence leans in. Your histories are a map with old routes—untraveled but present. You keep your voice steady intentionally; there's a council to consider and stakes that are more than the two of you.
+
+Iris Valence: "I read Jonah's living-shoreline brief. It's compelling in theory. Community buy-in—great. But the models predict significant losses if the storms trend stronger than projected. A seawall can buy time and prevent immediate displacement."
+
+Elena "Lena" Maris [leaning against the rail]: "Time can also become a reason to delay better decisions. Seawalls change the sediment budget and the fisheries. We need to think about livelihoods, not just impermeable lines on a map."
+
+Iris Valence [tilting her head]: "You think I'm arguing for walls because I'm cold? I propose them because I want people safe. My plan includes phased relocation for the most vulnerable—so fewer people lose everything in one storm."
+
+Elena "Lena" Maris: "Phased relocation can be humane—if it's voluntary, if it's resourced, if culture and networks aren't bargained away. My fear is displacement masked as protection."
+
+She narrows her eyes for a fraction of a second, then smooths the expression into professional calm.
+
+Iris Valence: "Then help me make those clauses binding. Let us put community governance in the fine print. If your negotiation skills are as keen as your sketches, Lena, help me write the clauses that protect people."
+
+Her proposal feels like both a hand and a gauntlet. Your inner ledger ticks—compromise might be the most honest route, or it might dilute a promise and cost trust. You sense Jonah's shadow behind you as he approaches slowly, listening.
+
+Jonah Reyes: "If there are legally enforceable anti-displacement measures, that changes the calculus. But we need oversight and on-the-ground monitoring—people in the loop, not lines in a report."
+
+Iris Valence: "Agreed. Draft something we can both stand behind. I don't want to bulldoze a town. I want to keep it."
+
+[INTERACTION]
+> Choice A: "Ask Iris directly about funding strings"
+> Choice B: "Reach out to Jonah and outline a hybrid your way"
+> Choice C: "Stay quiet and let the council shake out the arguments"
+[Outcome A: "You press on the funding—she answers with corporate-sounding candor. Yes, her firm expects returns. She counters with a pledge to match community oversight funds. It isn't perfect, but it's a start."]
+[Outcome B: "You and Jonah sketch a skeletal hybrid on a napkin—engineered toes at the headland anchoring living terraces. The plan feels possible, a compromise you can pitch without losing your spine."]
+[Outcome C: "You bite your lip, folding ideas inward. Letting others lead may avoid confrontation now, but your stomach tightens with the weight of being absent when the town needs a clearly voiced steward."]
+[MERGE: You choose, briefly, and move toward the chamber with an outline of questions you want answered—funding cadence, monitoring metrics, legal guarantees.]
+
+[Scene: Council Chamber | Afternoon]
+[Background:"ch3_98c6f2_4"]
+[Sound: Murmured conversations, a child's laugh stifled at the back, the creak of a microphone stand]
+[Music: Layered strings—warm, building in major intervals]
+
+You take the podium with your notes folded like a talisman. The room is full: Rosie with paint under her nails and a volunteer roster in hand; Marco perched on the front row like an anxious lighthouse; Jonah beside him, steady. Iris sits to your left, tablet ready. In the audience, familiar faces—fishers, cafe owners, retirees who remember a different coastline—watch you as if you hold the tide in your hands.
+
+Mayor: "Lena, we're counting on you to advise this council. Lay out the options and the risks. Your voice will shape the vote."
+
+You inhale the salt and the dry coffee, the smell of a thousand shared mornings. You let the work you did—the maps, the community notes, the science—stand behind your words.
+
+Elena "Lena" Maris: "Thank you. I'm going to be blunt about what each path asks of us. Jonah's living-shoreline pilot emphasizes place-based work: volunteers, native plantings, retrofits to elevate essential infrastructure. It's labor-intensive and slower, but it strengthens natural defenses and keeps people connected to their livelihoods."
+
+You glance at Jonah; pride and relief flare in his features. He leans forward and squeezes your hand beneath the table—a private shore in public waters.
+
+Elena "Lena" Maris: "Iris's engineered proposal—seawalls with staged relocation—gives immediate structural protection where it's most needed. It can lower acute risk faster, but it carries ecological cost and risks social displacement if not tightly governed."
+
+Iris Valence [interjecting calmly]: "The design sets phased implementation—high-risk zones would be reinforced first while relocation funds are set aside. We can draft enforceable covenants."
+
+Elena "Lena" Maris: "And then there's a hybrid: targeted engineered protections at critical nodes plus community-run living shoreline pilots and strict anti-displacement legal instruments."
+
+Rosie [calling from the third row]: "And who watches the watchmen? We need community seats on oversight boards."
+
+Elena "Lena" Maris: "Exactly. Oversight is not optional."
+
+Mayor: "All options cost something—politically, economically, emotionally. Which do you advise we put forward?"
+
+Silence lands like a gentle tide. You feel the room's weight, but it's not pressure that crushes; it's weight that steadies—hands on the oars.
+
+Marco leans in, voice low and fierce: "Don't pick something that leaves the crew out in the cold, Lena."
+
+Jonah Reyes: "We can do this in phases. Prove the living shorelines work—deploy where they can—and save seawalls for places where nothing else will hold. No pitting people against each other."
+
+Iris Valence: "If we delay too long in search of perfect inclusivity, storms will make the decision for us. I want to prevent that."
+
+You feel the old guilt—that reflex to carry every possible harm—rise and fall like tide. But the current of the room guides you: people have offered solutions, and they've shown willingness to sit across from one another. That willingness is rare and worth steering toward.
+
+You fold your notes, not because your decision is made but because you've heard the crux of the argument aloud. Saying the options aloud made them tangible, and tangible things are actionable.
+
+You think of the marsh volunteers with their callused hands; of Rosie painting flyers by lamplight; of Dr. Asha's margin notes about monitoring fidelity; of Jonah's earnest sketches and Iris's clinical renderings. The town's future is not a single tide but a choreography—of engineering, of gardens, of law, of lunch shifts and late-night meetings.
+
+Mayor: "Elena, whatever you recommend will color the council's vote. Speak plainly."
+
+You feel the updraft in your chest—the warm, rising belief that this town can thread these options into something that isn't simply a compromise but a new design ethic: protection that doesn't erase people.
+
+Elena "Lena" Maris [quietly, with conviction]: "We have three credible paths in front of us."
+
+The room leans in as if gravity has softened. You can feel the moment narrowing to a choice, not just of policy, but of how you will stand with the people you love and the town that raised you.
+
+[Music: The warm motif swells—an arpeggio that lifts and holds]
+
+You stand on the seam of decision. The arguments are aired; the people have offered their labor, their expertise, their fears. Hope has a plan now—imperfect, testable, and shared.
+
+[DECISION POINT]
+1) Option 1: "Support Jonah’s living-shoreline pilot and community retrofit program." -> TARGET chapter_id: [4]
+2) Option 2: "Back Iris’s large-scale seawall and relocation plan for immediate security." -> TARGET chapter_id: [7]
+3) Option 3: "Propose a hybrid—targeted engineered protections coupled with community governance and strict anti-displacement clauses." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Support Jonah’s living-shoreline pilot and community retr..." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Back Iris’s large-scale seawall and relocation plan for i..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Propose a hybrid—targeted engineered protections coupled ..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

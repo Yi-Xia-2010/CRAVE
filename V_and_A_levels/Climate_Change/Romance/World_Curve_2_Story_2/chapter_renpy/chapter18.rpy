@@ -1,0 +1,196 @@
+label chapter18:
+
+    # [Scene: Ruined Boardwalk | Glassy Dawn → Sudden Squall]
+
+    scene bg ch15_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: An uneasy calm—then wind sharpening to a blade. Distant gulls cry; the surf sounds like a gathering of stones.]
+    # play music "music_placeholder"  # [Music: Taut strings building; low percussion underlining each exhale of wind]
+    "Narration:"
+    "You wake into a dawn that feels wrong—too smooth, like the breath held before a collapse. The air tastes of copper and old salt; it smells of seaweed and the sweet, chemical tang of resins used"
+    "to patch old wood. Light is pale and relentless. You should have expected weather; you've spent years watching tide lines creep, watching infrastructure protest with groans. But expecting is not the same as standing with your"
+    "hands on a plank as the world decides to move."
+    "Narration:"
+    "Eli is a silhouette against the wet light—his jumpsuit dark with weather and oil, a salvaged drone remote newly belted to his hip, safety goggles crooked on his forehead. His hands tremble when he plugs a"
+    "cable into a portable pump. There's a tremor in the way he draws breath, a mechanical short that makes his optimism jar into urgency."
+
+    "Elias 'Eli' Rowan" "They said the contractors'd be here. They said they'd finish the modules before—"
+    show mara_kestrel at left:
+        zoom 0.7
+
+    mara_kestrel "They left when the call came. The line shrank too fast."
+    "Narration:"
+    "The pilot systems are half-set—their pipes kinked, rain gutters clogged with detritus, floats tethered to nothing. Someone's hastily bolted modular breakwater lies askew as if a giant hand tested its grip and found nothing. The contractor vans are gone; their footprints vanish like a promise."
+    "Narration:"
+    "Rafi appears from between broken bunks of boardwalk, face a map of salt and grit. He carries a coil of rope across his shoulder like an old habit."
+    show rafi_gmez at right:
+        zoom 0.7
+
+    rafi_gmez "We shore the first row, or we try to plug the marsh pumps?"
+
+    mara_kestrel "We shore the row. The pumps—"
+    "Narration:"
+    "Your voice is a knife now—quick, precise, and leaving ragged edges. People hear it. Neighbors emerge from houses strapped into patched lifejackets, faces hollow from nights spent watching the line. Children cling to arms. A woman"
+    "you taught to read tide charts stares at you as if you're a weather vane she trusted."
+
+    menu:
+        "Take the pump lines":
+            "You clamp the hose with cold fingers, feel the give of rubber and grit, and hand one end to Eli—his grip is nearly weightless with adrenaline."
+        "Grab the storm nails and boards":
+            "You snatch a coil of nails and a hammer; each heartbeat thuds in your palm. You sprint toward a half-collapsed porch, your breaths popping like old sealant."
+
+    # --- merge ---
+    "No choice saves everything. The storm's timing is a precision none of you could schedule. The sky hardens. At first it is a thin needle of rain, then a slap—then a roar. The wind learns to speak in terms of breaking."
+    # [Scene: Flooded Promenade & Neighborhood Pilots | Morning]
+    hide mara_kestrel
+    hide rafi_gmez
+
+    scene bg ch15_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain like an army; the sea grinding; shouts threaded through the water-noise]
+    # play music "music_placeholder"  # [Music: Dissonant brass and percussion—tempo quickens into a panicked march]
+    "Narration:"
+    "You run with Eli beside you. He adjusts the remote, fingers numb, eyes wild with a thousand tiny calculations—where to send buoyant blocks, when to rig a siphon, which windows to seal. You are both improvisers;"
+    "you are both students of failure. The town's half-measures hang between you like wet flags."
+
+    "Neighbor" "Which house—"
+    show mara_kestrel at left:
+        zoom 0.7
+
+    mara_kestrel "The Garretts first. Lean on their northern bulkhead. Then the Harrows."
+    "Narration:"
+    "Decision is a thing you perform with muscle memory now—board on board, nail into timber, rope cinched until a joint groans and holds. You shout until your throat is raw; people take your instructions and turn"
+    "them into work. For a sliver of a time, labor is a language that can hold a town together."
+
+    "Elias 'Eli' Rowan" "We can maybe get the west flank. If I deploy the floats as a staggered line—"
+
+    mara_kestrel "Do it. Now. We'll use the reef anchors—"
+    "Narration:"
+    "His hands are a study in tremor. Sometimes in his face you see the bright, roguish light from a year gone—other times, the hollow of the project that failed before. He moves like someone trying to atone with speed."
+
+    menu:
+        "Scream for volunteers to haul the floats":
+            "You throw your voice; bodies surge. Neighbors who'd never organized before form a chain, cupping the floats like fragile eggs."
+        "Run to the Garret's porch and brace the bulkhead yourself":
+            "You grab a splintered plank and jam it where water wants to find a seam. The wood bites into your palms; you work through it like a ritual."
+
+    # --- merge ---
+    "You are two people against a geometry that was never meant for defense: pilot patches, a partial seawall, and a set of legal covenants that haven't yet locked the rights to act. These things are designed with different logics and timelines—none syncs with the violence of water."
+    "Narration:"
+    show rafi_gmez at right:
+        zoom 0.7
+
+    rafi_gmez "The wall—there's a seam—"
+
+    mara_kestrel "Get the Harrows—now!"
+    "Narration:"
+    "The seam tears with a sound like a held breath being expelled: a thin whistle, then a crack, then the sea pouring through as though a gate had been lifted. The rush is immediate, a physical"
+    "comprehension that moves across planks and gardens. Where water touches it becomes a new landscape—carpets puff, boxes float like thoughts, a porch swing tips into orbit."
+    # play sound "sfx_placeholder"  # [Sound: A catastrophic roar—the sea finding a fault. A high, glassy scream of timber tearing. The metallic clatter of a snapped anchor.]
+    "Narration (Climax):"
+    "Everything goes faster. People are no longer following plans; they're running errands of love and loss. You find yourself shouting names—Garrett, Harrow, Mina—calling like litany. The surge takes the air out of your chest. Your boots"
+    "slosh; the water is already warm with displaced things: flower pots, a child's plastic truck, the smell of scorched cardboard where a grill caught and sputtered."
+    "Narration:"
+    "Eli is ahead, eyes lit with grim focus. His drone remote beeps and dies as a wave takes out a nearby junction. He doesn't stop. He pushes a float into the line; a rope snaps like"
+    "a scream. For a moment you think you can see him clear—then the current finds a handhold and wrenchingly rearranges the world."
+
+    mara_kestrel "Move back—move—"
+
+    "Elias 'Eli' Rowan" "Not without—Mara—"
+    "Narration:"
+    "Your command feels like suturing a wound you cannot see the edges of. You shove a neighbor onto dry planks and take the full shock of a wave in your ribs. Saltwater stings your eyes. You"
+    "taste metal. Around you, the pilot systems fail in a concert of betrayal: pumps whoop and then clog; one modular barrier flips like a coin; a tether snaps and sends debris spinning."
+    # play sound "sfx_placeholder"  # [Sound: Bone-deep thumps as structures give way; people crying; a siren a long way off, then swallowed.]
+    "Narration:"
+    "A child wails somewhere—uncertain, thin. You wrap a jacket around them and think of what you could have done differently. The recollections are a rain of their own: meetings cut short, covenants unsigned, a council's hesitation."
+    "You have lived with the arithmetic of trade-offs; the numbers are useless when a house lists and lets go."
+
+    rafi_gmez "We lost the Harrows. The current—"
+
+    mara_kestrel "Count heads. Now. Move inland—if there's a chance, take it."
+    "Narration:"
+    "You latch onto an impromptu command like a life raft. You are exhausted into speed. Adrenaline burns like a match. The sea rearranges property into poetry: a chair stands on a mound of debris like a carved witness. The boardwalk becomes a torn seam behind you."
+    # [Scene: Aftermath Montage | Dawn Bleaches into Days]
+    hide mara_kestrel
+    hide rafi_gmez
+
+    scene bg ch15_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low, mournful horns; distant radios squawking; dogs whining]
+    # play music "music_placeholder"  # [Music: Slow, aching strings; percussion reduced but irregular—like a heartbeat skipping]
+    "Narration:"
+    "The next days are a litany. You keep time with a list of names—found, missing, evacuated. The town turns into a ledger of losses: a neighbor's photograph pinned to a wall, a small shrine of wet"
+    "flowers. There are charred cabinets where a stove backfired, sofas laid out on lawns waiting for drying. People stand on soggy lawns in robes and boots and look, the way people look at a body: astonished,"
+    "disbelieving, grieving."
+    "Narration:"
+    "Tess moves through the crowds whispering about council minutes you never saw. She tells you Livia has vanished into legal maneuvering—her voice a precise thing on televised feeds, tethered to lawyers and press releases. For all"
+    "Livia's rhetoric of saving the town by force of investment, she offers numbers now: insurance claims, lawsuits, emergency funding. Her presence is a procedural absence—a person in rooms you cannot enter."
+    "Narration:"
+    "The council splinters. Accusation is currency: blame for missing bolts, for delayed covenants, for trusting contracts over people. Partnerships that looked possible are shredded by anger. Families make suitcases, exchange hard, quick goodbyes, and walk toward buses that smell like bleach and resignation."
+    show rafi_gmez at left:
+        zoom 0.7
+
+    rafi_gmez "We keep the greenhouse running. We rehome seedlings. We do what we can."
+    show mara_kestrel at right:
+        zoom 0.7
+
+    mara_kestrel "We do what we can."
+    "Narration:"
+    "You tally what survived: certain apprentices who held lines; a few pilot modules that, by luck and stubbornness, kept a block from inundation; Eli, still here, hands blistered and shaking but present. What was meant to"
+    "secure the town becomes a palimpsest of partial fixes and compromises, each with a cost measured in loss."
+    # [Scene: Tidewatch Lighthouse Roof | Nightfall after the Storm]
+    hide rafi_gmez
+    hide mara_kestrel
+
+    scene bg ch15_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The wind reduced to a tired murmur. Water slaps at distant pilings.]
+    # play music "music_placeholder"  # [Music: Sparse piano notes under a long, low cello]
+    "Narration:"
+    "You and Eli climb to the Tidewatch rooftop because heights concentrate thought. Up here the air is cleaner but colder; salt and smoke bleed into the lungs. The rooftop is littered with debris—an old bench, a"
+    "broken solar panel, clumps of seaweed caught in planter trellis. You sit with your knees against your chest, boots wet, and let out a sound that is half sob, half laugh. A kind of survival noise."
+    "Narration:"
+    "Eli sits beside you, close enough that when he moves you feel it. His safety goggles hang from his collar like a talisman he refuses to wear. He rubs his hands together as if to warm them, an old nervous habit."
+
+    "Elias 'Eli' Rowan" "We tried—God, we tried."
+    show mara_kestrel at left:
+        zoom 0.7
+
+    mara_kestrel "We did everything we could think to do."
+    "Narration:"
+    "He looks at you. His face is open, raw in a way you rarely allow yourself to be around anyone but Rafi. There are no grand speeches—only a small, terrible conversation of two people who built things and watched the sea take them."
+
+    "Elias 'Eli' Rowan" "I keep thinking—if we'd pushed harder on anchoring, if I'd—"
+
+    mara_kestrel "Stop. We can't pile every should into one chest and expect it to float."
+
+    "Elias 'Eli' Rowan" "But I could've—Mara, I could've done more. I promised—"
+
+    mara_kestrel "You promised a lot of people a lot of things. So did I."
+    "Narration:"
+    "Silence sits between you, not accusatory but full of shared ruin. You press your thumb against the sea-glass pendant at your throat—warm from your skin. It feels like a small relic from another map, a childhood coastline that believed gentle tides would return."
+    "Narration:"
+    "Eli reaches for your hand. His fingers find yours with the fragile boldness of someone who has learned that small contact can be an anchor. He does not say he was right or wrong; he does"
+    "not offer salvation. He simply holds. The gesture is simple and scandalous: it is affection given without the promise of repair."
+
+    "Elias 'Eli' Rowan" "I am sorry. For the things I didn't fix in time."
+
+    mara_kestrel "I'm sorry too. For what I signed and for what I let slide because I thought… I thought we could bridge everything."
+    "Narration:"
+    "Love survives here, not as balm but as witness. It sits beside the ruin and testifies in small things: a shiver shared, a jacket draped over trembling shoulders, a hand that stays when storms have taught"
+    "people to leave. It is not cure; it is a record. It says: I was here. I saw you. I will continue to see you even when seeing hurts."
+    # play sound "sfx_placeholder"  # [Sound: The sea mutters. In the distance a hammer, a low murmur of people deciding to stay. A radio coughs out contact info for shelters.]
+    "Narration (Final):"
+    "You do not promise miracles. You promise presence. The town is battered, its economic scaffolding shaken, its institutions raw and exposed. Some will leave. Some will stay and learn to measure their days differently. In the"
+    "broken light, you imagine Rafi replanting rosemary, Tess sifting through legal papers for a sliver of leverage, neighbors rebuilding porches with hands that remember how wood accepts love."
+    "Narration:"
+    "You close your eyes and let the rooftop sky press to your lids. Tears mix with salt. The pain is a ledger you will carry; the love is a line item that refuses to be erased."
+    "Narration:"
+    "You and Eli sit there until the stars are thin and the town exhales a tired, stubborn breath. This—this witnessing—is the work you have left."
+    hide mara_kestrel
+
+    scene bg ch15_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single, low chord that resolves into silence]
+
+    scene bg ch15_f99e88_6 at full_bg
+
+    scene bg ch15_f99e88_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

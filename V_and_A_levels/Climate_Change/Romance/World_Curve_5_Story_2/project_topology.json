@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-03-11 11:41:13",
+  "total_chapters": 15,
+  "total_valid_routes": 6,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C (Ending — Sad)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route C (Ending — True)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route B (From Chapter 8 Option C)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B (Ending — Bittersweet)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A (Ending — Happy)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route A (From Chapter 5 Option B)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt and Notebooks",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Greenhouse Plans and Tides",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "The Town Hall Peak",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Stand at the Rail",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Storm Before the Contract",
+      "branch": "Route A / Split",
+      "children_ids": [
+        14,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "After the Surge (Happy)",
+      "branch": "Route A (Ending — Happy)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Conditional Contracts",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Breakwater Breach",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9,
+        15
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Compromises at Dusk",
+      "branch": "Route B (Ending — Bittersweet)",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Audit and Friction",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "The Audit Leak",
+      "branch": "Route C / Split",
+      "children_ids": [
+        13,
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "The Walk Away (Sad)",
+      "branch": "Route C (Ending — Sad)",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Legal Leverage and Public Truth (True)",
+      "branch": "Route C (Ending — True)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Full Resistance (Alternate Ending — Community Victory)",
+      "branch": "Route A (From Chapter 5 Option B)",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Quiet Repair (Alternate Ending — Private Compromise)",
+      "branch": "Route B (From Chapter 8 Option C)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

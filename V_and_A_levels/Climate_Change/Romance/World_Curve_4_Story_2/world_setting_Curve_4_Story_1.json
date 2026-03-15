@@ -1,0 +1,117 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the Romance genre by placing intimate human relationships at the center of a community under environmental stress. The core conflict is between immediate personal attachments (romantic bonds, family) and collective responsibility (scientific sacrifice, policy choices, adaptive hardship). The story uses romance to ground high-stakes environmental decisions — characters' desires compel them to choose who and what to save, creating emotional tension and moral dilemmas that drive the six-chapter arc.",
+    "setting": "A mid-21st-century coastal city called Harrow Bay, where rising seas and extreme weather have reshaped daily life. The city combines salvaged historic architecture with modular flood defenses and rooftop farms. Society is organized around community resilience hubs and private enclaves; both scientific institutions and grassroots groups push different solutions. The atmosphere is humid, briny, and electric — hope and grief braided together.",
+    "visual_style": "Semi-realistic anime with painterly lighting, muted coastal palette (seafoam, storm-grayed blues, rusted copper), cinematic lens flares for wet surfaces, detailed environmental wear (peeling paint, salt crust, algae), soft-focus close-ups for romantic beats",
+    "main_characters": [
+        {
+            "name": "Maya Soren",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: fiercely practical when solving problems but guided by a moral core. Calm under pressure, quick to empathize, yet prone to private guilt for past compromises. She leads with logic but learns through vulnerability.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves often pulled into a messy low bun with loose strands",
+                "eyes": "Warm hazel with a faint green ring, slightly hooded and observant",
+                "clothing": "Functional urban fieldwear — a salt-stained olive-gray softshell jacket over a faded navy utility vest, tapered cargo trousers, ankle boots with recycled-rubber soles. A slim waterproof satchel is slung across her chest.",
+                "accessories": "A thin silver band engraved with her late mother's initials, a set of weather-beaten data cards clipped to her vest, and a compact field tablet always at hand"
+            },
+            "goal": "To design and implement an equitable flood-adaptation plan for Harrow Bay that protects vulnerable neighborhoods without sacrificing community cohesion.",
+            "background_story": "Raised in a flood-prone district, Maya became an urban ecologist after losing her childhood home in a storm. She worked in international relief before returning home to lead local adaptation efforts. Her pragmatic approach once required a compromise that displaced a community garden, and she still wrestles with that decision.",
+            "emotional_trait": "Tendency to shoulder responsibility alone — strength in leadership but isolation in emotional life"
+        },
+        {
+            "name": "Elias Voss",
+            "role": "Love Interest",
+            "personality": "Curious, warm, gently reckless: a marine engineer and research diver who believes in bold technological fixes. Charismatic and candid, he disarms others with humor but harbors anxiety about long-term consequences of his impulses.",
+            "appearance_features": {
+                "hair": "Sandy blond, short on the sides with a longer tousled top, salt-sprinkled tips from time at sea",
+                "eyes": "Bright blue, slightly wide-set, with a steady, searching gaze",
+                "clothing": "Breathable neoprene jacket over a hand-knit fisherman sweater, practical sailor trousers with reinforced knees, scuffed deck boots. When off-duty he wears loose linen shirts.",
+                "accessories": "A waterproof watch with tide indicators, a braided leather cord bracelet made from reclaimed netting, and a small carved whale tooth pendant"
+            },
+            "goal": "To deploy a bold, experimental sea-wall and kelp-restoration system that could buy decades of safety for Harrow Bay — even if it risks unsettling political or ecological balances.",
+            "background_story": "The son of a boat-builder, Elias grew up on the water and trained as a marine engineer. He once led a successful kelp reforestation that revived a shoreline; that triumph fuels his optimism. But a failed prototype left a research partner injured, and he still feels responsible.",
+            "emotional_trait": "Optimistic courage that occasionally tips into reckless single-mindedness"
+        },
+        {
+            "name": "Asha Reed",
+            "role": "Antagonist / Catalyst",
+            "personality": "Fierce, uncompromising, fiercely loyal to community autonomy. Asha is an activist strategist who prioritizes social justice over technological fixes. She is candid, at times burning bridges to force action, but deeply protective of the marginalized.",
+            "appearance_features": {
+                "hair": "Jet black, tightly coiled and cropped close to the head with a shaved ear undercut on one side",
+                "eyes": "Deep brown, intense and unflinching, with a perceptive, calculating look",
+                "clothing": "Upcycled activist gear — a patchwork hooded jacket stitched with protest slogans, tapered utility pants, and heavy boots with mud proofing. Often layered in bright colors to stand out in crowds.",
+                "accessories": "A bandolier of protest fliers and seeds for quick community planting, several hand-painted enamel pins representing local causes, and a worn leather notebook filled with plans"
+            },
+            "goal": "To halt solutions she sees as neo-colonial or profit-driven and to force a community-led path that keeps decision-making in residents' hands.",
+            "background_story": "Asha grew up organizing in Harrow Bay's most affected neighborhoods. After watching external 'solutions' displace elders and small businesses, she founded a grassroots coalition. Her distrust of institutions is rooted in a family history of displacement by corporate development.",
+            "emotional_trait": "Moral clarity and righteous anger that can alienate potential allies"
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Jonah Mek",
+            "relation_to_main": "Childhood friend of Maya and local carpenter",
+            "appearance_summary": "Broad-shouldered, sun-darkened skin, silver flecks in short black hair; always has a utility belt and a warm, wry smile.",
+            "function_in_story": "Provides practical support and a moral sounding board for Maya; represents the community's lived needs and anchors her decisions."
+        },
+        {
+            "name": "Dr. Lena Huang",
+            "relation_to_main": "Scientific mentor to Elias and municipal advisor",
+            "appearance_summary": "Thin, bespectacled, with straight gray-streaked hair in a tidy bun; favors crisp field coats and laminated schematic tablets.",
+            "function_in_story": "Offers scientific authority and warnings about ecological trade-offs; pushes Elias to confront ethical limits of technological intervention."
+        },
+        {
+            "name": "Rosa Calder",
+            "relation_to_main": "Elder neighbor to Maya and local seed-keeper",
+            "appearance_summary": "Small, stooped but energetic, white hair braided with sea-grass, always in earth-toned skirts dusted with soil.",
+            "function_in_story": "Moral memory of the neighborhood; her stories and knowledge of local flora motivate community-based adaptation options."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harrow Bay Boardwalk & Promenade",
+            "visual_description": "A once-grand seaside promenade now patched with raised wooden walkways, tide-stained iron railings, and pockets of salt-beaten market stalls. Lighting is diffuse — late-afternoon sun filtered by humid haze. Colors: oxidized teal, weathered wood, and muted banners. Sounds of gulls, distant repair crews, and community laughter. When storms roll in, the atmosphere grows heavy, wet, and electric, with neon shop signs reflecting in puddles."
+        },
+        {
+            "name": "Resilience Hub / Rooftop Garden",
+            "visual_description": "A layered rooftop greenbelt: terraced beds of grasses and vegetables under translucent greenhouse domes, string lights buzzing softly at dusk. Warm, amber interior glow contrasts with cool slate sky. Walkways are slick with condensation; glass panes drip. The air smells of soil and salt. This is a refuge — intimate, fragrant, and hopeful."
+        },
+        {
+            "name": "Coastal Research Vessel 'Aster'",
+            "visual_description": "A working ship of brushed aluminum and patched canvas; wet decks gleam under harsh daylight and drench in storm-spray. Instrument arrays and canopies create geometric silhouettes against wide seascapes. The hull bears rust streaks and hand-painted names of crew. Interior lab is brightly lit, clinical white and pale blue, humming with equipment and scattered notes."
+        },
+        {
+            "name": "Floodplain Neighborhood (Lower Quay)",
+            "visual_description": "Tight alleys and stoops with raised entryways, houses on stilts painted in sun-faded colors, and communal gardens strung between buildings. Dull gold afternoon light pools in doorways; reflections from shallow water catch and scatter soft light. Signs of informal repair — tarps, corrugated metal, patched boards — give an improvised, intimate aesthetic."
+        },
+        {
+            "name": "City Archive & Council Hall",
+            "visual_description": "A domed civic building with glass atrium and marble steps, retrofitted with flood barriers and sandbag banks. Interior lighting is cool and institutional, punctuated by shafts of sunlight through high windows. The council chamber feels austere, with rows of chairs, microphones, and policy maps pinned to corkboards; politically charged posters peek from the outer corridors."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love and Sacrifice",
+        "Community vs. Technological Solutions",
+        "Ethics of Adaptation",
+        "Resilience and Memory"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-driven hybrid solution succeeds: Maya brokers a compromise where Elias's kelp restoration and targeted sea defenses are scaled to community needs, Asha's coalition retains governance rights, and Maya and Elias deepen their relationship. Harrow Bay is safer and more united; the romance culminates in mutual trust and shared purpose."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A partial victory: technical defenses protect key districts but require relocation of a small historic quarter. Maya chooses to prioritize the greater good and negotiates generous reparations, but personal costs include strained bonds — she and Elias survive together, but Asha breaks with them, feeling betrayed. The town endures; love and loss coexist."
+        },
+        {
+            "type": "Sad",
+            "summary": "Hardline choices fail: a rushed technological deployment destabilizes local ecosystems, causing damage to fisheries and the livelihoods of many. Public trust collapses, Asha's movement radicalizes, and Maya bears the emotional fallout of decisions she made under pressure. Romance with Elias fractures under blame; Harrow Bay faces an uncertain, harsher future."
+        },
+        {
+            "type": "True",
+            "summary": "A morally complex resolution: no definitive victory but profound change. Maya steps down from a leadership role to facilitate a rotating council; Elias accepts limits on technological fixes and focuses on small-scale restorative projects; Asha learns to collaborate though remaining skeptical. The romance matures into a partnership built on compromise, and the community adopts an adaptive, evolving governance model — an honest, ongoing work rather than a tidy ending."
+        }
+    ],
+    "estimated_chapters": 6
+}

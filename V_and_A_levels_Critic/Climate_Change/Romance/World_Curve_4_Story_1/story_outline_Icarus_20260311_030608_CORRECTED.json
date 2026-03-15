@@ -1,0 +1,611 @@
+{
+  "title": "Tides Between Us",
+  "summary": "Mara Lin, an urban ecologist leading a community reclamation project in the coastal town of Solhaven, must navigate a brewing conflict between grassroots living-shoreline solutions and a well-funded development cooperative led by Celeste Park. Over a period of civic pressure, pilots, negotiations, protests, and a growing relationship with engineer Elias Navarro, choices determine whether compromise, resistance, or development prevail. The story follows an Icarus curve: early momentum and emotional closeness give way to a catastrophic storm that reveals the limits and costs of decisions. Endings vary from durable partnership and adaptive plans to loss, betrayal, and painful rebuilding.",
+  "emotional_curve_type": "Icarus",
+  "player_character": "Mara Lin",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt & Seed",
+      "branch_designation": "Common",
+      "narrative_focus": "Introduce daily life at the Saltwren Commons, establish stakes between grassroots reclamation and incoming development, present first contact from Elias and set the first personal/community choice.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to meet Elias now or wait for a public forum",
+        "options": [
+          {
+            "label": "Meet Elias now",
+            "consequence": "Step into a conversation that might change everything and begin direct engagement with the cooperative's representative.",
+            "target_chapter_index": 2,
+            "target_chapter_id": 2
+          },
+          {
+            "label": "Wait for a public forum",
+            "consequence": "Prioritize communal duty and prepare for a public hearing rather than an immediate private meeting.",
+            "target_chapter_index": 2,
+            "target_chapter_id": 2
+          }
+        ]
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Lin",
+        "Tommy",
+        "Rae Carter",
+        "Elias Navarro"
+      ],
+      "locations_used": [
+        "Saltwren Commons",
+        "boardwalk",
+        "tide line"
+      ],
+      "id": 1,
+      "default_next_chapter_id": 2
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tidewatch and Proposals",
+      "branch_designation": "Common",
+      "narrative_focus": "Review elevation maps and sediment cores at Tidewatch Lab with Dr. Amina Bhatt; discuss trade-offs between living shorelines and floodwalls; the council schedules a vote after Celeste Park's cooperative lodges a formal Promenade plan.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1, Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Choose whether to invite Elias to the Commons for a hands-on tour or to confront Celeste publicly first",
+        "options": [
+          {
+            "label": "Invite Elias to the Commons for a hands-on tour",
+            "consequence": "Attempt to incorporate community memory and practice into cooperative models and build rapport through direct exposure to living practices.",
+            "target_chapter_index": 3,
+            "target_chapter_id": 3
+          },
+          {
+            "label": "Confront Celeste publicly first",
+            "consequence": "Take a firmer public stance to challenge the cooperative's plans and prioritize immediate public accountability.",
+            "target_chapter_index": 3,
+            "target_chapter_id": 3
+          }
+        ]
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Lin",
+        "Dr. Amina Bhatt",
+        "Elias Navarro",
+        "Celeste Park"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Town Hall (bulletin board)",
+        "Old Mill rooftop"
+      ],
+      "id": 2,
+      "default_next_chapter_id": 3
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Council Night",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "A heated town hall: Celeste presents the Promenade; Tommy, Rae, and others voice concerns; Elias proposes a hybrid pilot. The council narrows options and the protagonist must choose a public path: support Elias' pilot, meet Celeste privately, or organize direct action.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2, Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to respond at the council night — collaboration, confrontation, or compromise.",
+        "options": [
+          {
+            "label": "Support Elias' hybrid pilot publicly",
+            "consequence": "Positions Mara and Elias as cooperative leaders; invites pilot funding and a public test on the Promenade.",
+            "target_chapter_index": 4,
+            "target_chapter_id": 4
+          },
+          {
+            "label": "Meet privately with Celeste to negotiate funding terms",
+            "consequence": "Opens a cautious alliance with Celeste and early funding but risks local backlash.",
+            "target_chapter_index": 7,
+            "target_chapter_id": 7
+          },
+          {
+            "label": "Organize an immediate direct-action protest to block fast-tracking",
+            "consequence": "Energizes grassroots resistance, escalates tensions, and attracts legal scrutiny.",
+            "target_chapter_index": 10,
+            "target_chapter_id": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Celeste Park",
+        "Tommy",
+        "Rae Carter",
+        "Dr. Amina Bhatt"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Saltwren Commons",
+        "Promenade site"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Pilot Groundwork",
+      "branch_designation": "Route A",
+      "narrative_focus": "Mara and Elias commit to a hybrid pilot: mapping a promenade segment with living marsh inserts, community planting, media attention, and the warming of a personal partnership. Tensions rise as Celeste watches and some locals grumble.",
+      "emotional_trajectory": "Rise/Fall",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to expand after a celebrated pilot success.",
+        "options": [
+          {
+            "label": "Negotiate a scaled agreement with Celeste to secure funding",
+            "consequence": "Large funding, increased oversight.",
+            "target_chapter_index": 5,
+            "target_chapter_id": 5
+          },
+          {
+            "label": "Keep expansion community-led and refuse corporate strings",
+            "consequence": "Slower growth, stronger local ownership.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          },
+          {
+            "label": "Push for immediate construction to outpace political moves",
+            "consequence": "Rapid visibility but risk of cutting corners and community rifts.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Celeste Park",
+        "Dr. Amina Bhatt",
+        "Tommy",
+        "Rae Carter"
+      ],
+      "locations_used": [
+        "Saltwren Commons",
+        "Promenade pilot site",
+        "Tidewatch Lab",
+        "Old Mill rooftop"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Negotiation",
+      "branch_designation": "Route A — Compromise Path",
+      "narrative_focus": "Private negotiations with Celeste produce a scaled deal: expanded promenade underwritten by the cooperative with co-managed living wetland cells. Short-term wins are tempered by contract limits, oversight, and emerging technical concerns at promenade edges.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to push for immediate fixing that could stall the project and funding, to document and delay public disclosure while engineering corrections, or to accept the compromise and focus on community care.",
+        "options": [
+          {
+            "label": "Push for immediate fixing that could stall the project and funding",
+            "consequence": "Risk stopping progress and jeopardizing funding but potentially prevent structural failures.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          },
+          {
+            "label": "Document and delay public disclosure while engineering corrections quietly",
+            "consequence": "Attempt to fix problems without halting the venture publicly, risking future trust if discovered.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          },
+          {
+            "label": "Resign to the compromise and focus on community care",
+            "consequence": "Avoid public disruption and protect the broader deal, but accept lingering vulnerabilities and community resentment.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          }
+        ]
+      },
+      "default_next_chapter": 6,
+      "characters_involved": [
+        "Mara Lin",
+        "Celeste Park",
+        "Elias Navarro",
+        "Dr. Amina Bhatt"
+      ],
+      "locations_used": [
+        "Conference room",
+        "Town Hall",
+        "Promenade",
+        "Old Mill rooftop"
+      ],
+      "id": 5,
+      "default_next_chapter_id": 6
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Crash",
+      "branch_designation": "Route A",
+      "narrative_focus": "A severe storm reveals weaknesses where environmental buffers were compromised; sections of the promenade and community gardens are breached, displacement follows, emergency engineering saves lives in parts of town, and Mara and Elias' relationship strains under grief and blame.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option B/C OR From Chapter 5, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Celeste Park",
+        "Dr. Amina Bhatt",
+        "Tommy"
+      ],
+      "locations_used": [
+        "Saltwren Commons",
+        "Promenade",
+        "Tidewatch Lab",
+        "Old Mill rooftop",
+        "low-lying neighborhoods"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Private Terms",
+      "branch_designation": "Route B",
+      "narrative_focus": "Mara meets Celeste privately. The cooperative offers a full-scale promenade and relocation funds in exchange for limits on protests and certain engineering freedoms; Celeste suggests offering Elias a role. Tension escalates and Mara must decide whether to accept terms, demand a binding pilot, or leak the contract.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to Celeste's private offer.",
+        "options": [
+          {
+            "label": "Accept terms to secure full funding and relocation aid",
+            "consequence": "Major investment and quicker infrastructure at the cost of political backlash and reduced local control.",
+            "target_chapter_index": 8,
+            "target_chapter_id": 8
+          },
+          {
+            "label": "Refuse and demand a binding pilot with legal protections",
+            "consequence": "Slower path with legal maneuvering but attempts to preserve design integrity and community safeguards.",
+            "target_chapter_index": 9,
+            "target_chapter_id": 9
+          },
+          {
+            "label": "Leak the contract to force public scrutiny",
+            "consequence": "Public uproar, potential legal action from the cooperative, and increased tensions.",
+            "target_chapter_index": 13,
+            "target_chapter_id": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Celeste Park",
+        "Elias Navarro",
+        "Dr. Amina Bhatt"
+      ],
+      "locations_used": [
+        "Conference room",
+        "Town Hall",
+        "Saltwren Commons"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Grand Agreement",
+      "branch_designation": "Route B — Development Path",
+      "narrative_focus": "Mara accepts Celeste's terms. Construction accelerates, Elias takes a formal cooperative role, jobs come, but prioritization gaps leave some neighborhoods exposed. A flooding incident refocuses attention and raises moral conflict.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 9,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Celeste Park",
+        "Tommy"
+      ],
+      "locations_used": [
+        "Promenade",
+        "Old Mill rooftop",
+        "construction sites",
+        "Town Hall"
+      ],
+      "id": 8,
+      "default_next_chapter_id": 9
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Aftermath & Distance",
+      "branch_designation": "Route B — Ending: Sad / Bittersweet",
+      "narrative_focus": "Investment-driven early gains sour as displaced neighbors file grievances and lawsuits. Elias becomes entangled in institutional defense; Mara organizes grassroots aid. Relationships fray and the town's resilience is uneven, leading to endings that vary in emotional tone depending on earlier choices.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Celeste Park",
+        "Tommy",
+        "Dr. Amina Bhatt",
+        "Rae Carter"
+      ],
+      "locations_used": [
+        "Saltwren Commons",
+        "Town Hall",
+        "various neighborhoods",
+        "press venues"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Direct Action",
+      "branch_designation": "Route C",
+      "narrative_focus": "Mara organizes a direct-action protest at the Promenade site with Rae and Tommy. The action draws national attention, legal threats, and polarized reactions. Elias is conflicted. The chapter ends with a choice to escalate, litigate for delay, or accept mediation.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to increased legal and public pressure after direct action.",
+        "options": [
+          {
+            "label": "Escalate with larger civil disobedience actions",
+            "consequence": "Greater visibility but increased legal risk.",
+            "target_chapter_index": 11,
+            "target_chapter_id": 11
+          },
+          {
+            "label": "File for injunctive relief and pursue legal delay",
+            "consequence": "Court battles and a slower shift in public narrative, potentially buying time.",
+            "target_chapter_index": 12,
+            "target_chapter_id": 12
+          },
+          {
+            "label": "Accept mediated talks (Amina as mediator) to pause construction",
+            "consequence": "Time for scientific assessment but risk of co-optation by authorities.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Rae Carter",
+        "Tommy",
+        "Elias Navarro",
+        "Celeste Park",
+        "Dr. Amina Bhatt"
+      ],
+      "locations_used": [
+        "Promenade construction site",
+        "Saltwren Commons",
+        "boardwalk",
+        "Town Hall"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Escalation",
+      "branch_designation": "Route C — Civil Resistance Path",
+      "narrative_focus": "Civil disobedience escalates: arrests, courtroom battles, polarized town, and eventual traumatic consequences during a storm where an incomplete anchoring point fails, causing injuries and moral reckoning.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to double down on direct action despite danger or to pivot to legal and technical strategies to preserve lives.",
+        "options": [
+          {
+            "label": "Double down on direct action despite danger",
+            "consequence": "Continue visible resistance at rising legal and physical risk, potentially inspiring solidarity but inviting harm and prosecution.",
+            "target_chapter_index": 13,
+            "target_chapter_id": 13
+          },
+          {
+            "label": "Pivot to legal and technical strategies to preserve lives",
+            "consequence": "Shift focus toward minimizing harm through courts and expert testimony, potentially ceding momentum but preserving safety.",
+            "target_chapter_index": 13,
+            "target_chapter_id": 13
+          }
+        ]
+      },
+      "default_next_chapter": 13,
+      "characters_involved": [
+        "Mara Lin",
+        "Rae Carter",
+        "Elias Navarro",
+        "Dr. Amina Bhatt",
+        "Celeste Park"
+      ],
+      "locations_used": [
+        "Promenade site",
+        "courtroom",
+        "Saltwren Commons",
+        "construction zones"
+      ],
+      "id": 11,
+      "default_next_chapter_id": 13
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Injunction & Evidence",
+      "branch_designation": "Route C — Legal Path",
+      "narrative_focus": "Mara and allies file for injunctive relief; Amina's data and legal arguments win a temporary halt and assessment. The injunction buys time but brings economic strain; Elias's testimony helps the case and deepens institutional rifts. The chapter ends with a decision to pursue further legal resources or seek mediated scientific pause.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to funnel more resources into the legal fight or to seek a negotiated scientific pause with Amina mediating.",
+        "options": [
+          {
+            "label": "Funnel more resources into the legal fight",
+            "consequence": "Continue court battles to enforce protections, risking prolonged legal strain and appeals.",
+            "target_chapter_index": 13,
+            "target_chapter_id": 13
+          },
+          {
+            "label": "Seek a negotiated scientific pause with Amina mediating",
+            "consequence": "Attempt to buy time through mediation and stronger science-based restrictions, with risk of co-optation.",
+            "target_chapter_index": 6,
+            "target_chapter_id": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Dr. Amina Bhatt",
+        "Elias Navarro",
+        "legal teams"
+      ],
+      "locations_used": [
+        "Courtroom",
+        "Tidewatch Lab",
+        "Old Mill rooftop"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Public Exposure & Legal Ripples",
+      "branch_designation": "Additional Route",
+      "narrative_focus": "Leaks or legal escalation become public scandal. National attention, lawsuits, and polarized narratives converge. A hearing becomes a hinge for whether construction continues under oversight or is halted, shaping subsequent crisis dynamics.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option C OR From Chapter 11, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Mara Lin",
+        "Celeste Park",
+        "Elias Navarro",
+        "Dr. Amina Bhatt",
+        "Rae Carter"
+      ],
+      "locations_used": [
+        "Town Hall (hearing)",
+        "media coverage sites",
+        "Saltwren Commons"
+      ],
+      "id": 13,
+      "default_next_chapter_id": 14
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Stormfront Decision",
+      "branch_designation": "Additional Route",
+      "narrative_focus": "A superstorm with extreme surge potential forces triage. Mara coordinates rescue choices between official channels and grassroots rescue while Elias wrestles between institutional directives and neighbors' needs. Triage decisions determine who is saved and strain personal bonds.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 13, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Dr. Amina Bhatt",
+        "Tommy",
+        "Celeste Park"
+      ],
+      "locations_used": [
+        "Town streets",
+        "Promenade (half-finished)",
+        "Saltwren Commons",
+        "emergency coordination centers"
+      ],
+      "id": 14,
+      "default_next_chapter_id": 15
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "After the Break — Endings",
+      "branch_designation": "Additional Route / Ending",
+      "narrative_focus": "The storm's aftermath constitutes the catastrophic crash. Depending on accumulated choices, endings vary: Mara and Elias rebuild together in a hard-won compromise (True/Happy), development overrides local will (Sad), or principled resistance yields moral clarity at heavy cost (Bittersweet). The narration centers on grief, tending, and whether love endures.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 14, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Elias Navarro",
+        "Celeste Park",
+        "Dr. Amina Bhatt",
+        "Rae Carter",
+        "Tommy"
+      ],
+      "locations_used": [
+        "Saltwren Commons",
+        "Promenade",
+        "various neighborhoods",
+        "reconstruction sites"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Chapters 1–3 are the common route; the tree splits at Chapter 3 into Route A (support pilot -> 4+), Route B (private negotiation -> 7+), and Route C (direct action -> 10+). Decision options that were explicitly labeled with 'Jumps to: Chapter X' were parsed to numeric targets. Where choices were described but no explicit jump target was provided, the target_chapter_index is -1. Endings are represented as terminal chapters with default_next_chapter set to -1.",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 03:06:08"
+}

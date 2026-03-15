@@ -1,0 +1,128 @@
+label chapter1:
+
+    # [Scene: Harborfront Terrace | Low Tide]
+
+    scene bg ch1_Start_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant children laughing and splashing; gulls, a steady, low creak of pilings]
+    # play music "music_placeholder"  # [Music: Sparse, low ambient — a slow, melancholy piano under light wind]
+    "You stand with your weight evenly split on the raised walkway, the planks slick beneath your boots. Your chestnut hair is in its usual utilitarian bun; a single curl has slipped free and trembles in the"
+    "salt wind. The neighborhood smells of kelp and diesel, a scent that folds comfort and warning into one breath."
+    "You reach for the faded orange field notebook at your hip. Sand has ground into the spine; the pages inside are haloed with fingerprints and hurried graphite. When you open it, the familiar clutter of scrawled"
+    "equations and a list of names looks less like chaos and more like a map of obligations. Your fingers find the solder-scarred multi-tool on its cord out of habit, an anchor against the small tremor in"
+    "your hands."
+    "There is a box inside your ribs where your brother's last hour still fits, too precise to be accidental. You have learned to move around it the way people walk around a pothole — slow, eyes"
+    "down, calculating the most practical step. Practical things are honest: measure a piling, mark a rot, calculate the angle of a brace. Practical steps don't ask for anything in return. They don't require you to open"
+    "your mouth and say, Please."
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A kayak skims past; children's shouts echo]
+    "You thumb through tide notes and sketches, lips forming words you won't send. The Green Spire's distant silhouette is a darker smudge against the low sky, its vertical gardens a quiet promise of light and hands."
+    "Elliot's patched smartwatch buzzes against your palm; his tidal readouts blink up like a small lighthouse."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "Low tide window holds until about five. Surge models haven't crept up since this morning, but overnight looks uncertain."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "Good. That gives me time to—' Your voice thins. 'I need to map pilings and get Sami's courier loop sorted for delivery routes."
+
+    elliot_chen "I'll run an extra array tonight. And I'll bring the salvage sensors from the Spire. We can track real-time strain on the pilings."
+    "You feel the offer as a soft tide against a cliff: it nudges, it tests, but you close your mouth instead of letting it swell into a request. Saying yes feels like letting water into a room you've been sealing off."
+
+    elliot_chen "You don't have to carry the whole thing alone, Maya. We've got hands. Let us do the heavy lifts."
+
+    "Maya Rios (a little too brusque)" "I know. I just—I'll handle the speech for tonight. Technical points. No theatrics."
+
+    elliot_chen "Okay. We'll still be there. And... if you want to run it by me, I can listen?"
+    "You want to say yes. You want the simple warmth of someone listening. You don't say it; you say, instead, 'I'll be at the Boardwalk Market to take notes.' The smartwatch vibrates with a small, patient beep and then goes quiet."
+    # play sound "sfx_placeholder"  # [Sound: Footsteps approaching, lighter and faster — Sami's rhythm]
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch1_Start_3 at full_bg
+    show sami_alvarez at left:
+        zoom 0.7
+
+    sami_alvarez "There you are. I ran the eastern loop twice — deliveries, med pack drop, extra life vests at the old bakery. People are nervous, but they're showing up to pack."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "Good. How's the courier network holding up with the storm sirens last week?"
+
+    sami_alvarez "Stretching, but improvising. We can reroute to the uptilt boardwalk if the pilings look too soft. Also—' Sami hesitates, fingers worrying at a strap — 'Neighbors want to know if the council hearing's going to change anything."
+    "You study the notebook until the letters blur into a grid of obligations. The neighbors' question is both concrete and like a hand hovering by yours, waiting for permission to clasp. You have practice with maps"
+    "and retrofits; you have less practice with the hard chord that is asking for help."
+
+    maya_rios "If we show them a plan—simple, modular—something they can replicate, it changes the conversation from 'save or sell' to 'repair together.'"
+
+    sami_alvarez "That's the language people follow. But they'll only come out if you make it something they can do themselves. Show them the first bolt, Maya. Show them it holds."
+
+    maya_rios "And if it doesn't?"
+    "Sami's smile softens. 'Then we fix it together.'"
+    "There is warmth in Sami's certainty that you can almost use to stitch up the hollow patch where your brother's memory sits. Almost. You turn a page and rehearse a sentence aloud, the sound of your voice strange in the open air."
+
+    "Maya Rios (aloud, testing rhythm)" "If we don't act now, we cede the shoreline to plans that put profit before people."
+
+    "A gull shrieks and your words hang, damp and light. You try again, more technical" "Our pilings are compromised at 0.3 meters below the decking at eight of ten test sites; reinforcing with modular bracing reduces stress by—"
+    "Sami chuckles softly. 'You always go to numbers to hide the heart.'"
+    "You close the notebook and press your thumb to a smudge of graphite. Numbers are scaffolding; they do not say the things your chest wants to skip. Grief has taught you to catalog so that your hands have something to do while your mouth stays shut."
+
+    menu:
+        "Read the neighbor list aloud":
+            "You clear your throat and read the names — Mrs. Lento, the Rosario twins, Mr. Garza — their addresses are marks on a map and a permission to expect them. Saying the names feels like an invitation."
+        "Sketch reinforcement diagram again":
+            "You pull a ruler from your jacket and redraw the bracing, angling supports and annotating weights. The diagram is clean, exact—it's the sort of thing contractors respect."
+
+    # --- merge ---
+    "Narrative continues"
+    "You try to find a balance. You say a technical sentence, then a human one, then both at once until your voice settles into something that sounds like you: tired, steady, necessary."
+    "Neighbors begin to trickle in — figures bending against the wind, a child clapping a small paddle, someone lugging a patched tarp. None of them cross the line between watching and stepping in; they stand just"
+    "far enough to be witnesses without being participants. That distance pricks at something you had planned to keep private: that asking might also bind you to them in a way that feels irrevocable."
+    "A group of children paddle between half-submerged stalls, shouting about a makeshift raft. A kayak glides past so close its shadow passes over the walkway. You watch the shadow and feel, with an odd concreteness, how much of your plan depends on people deciding to show up and stay."
+    "Elliot Chen walks up the elevated walkway from the direction of the Spire, hands stained with soil and a smudge of paint across his cheek. He hums a tune you don't recognize; the sound is small and ordinary and catches like a lighter in wet tinder."
+    show elliot_chen at center:
+        zoom 0.7
+
+    elliot_chen "You look like you could use a cup of something hot."
+
+    "Maya Rios (dryly)" "I'm holding heat in the notebook."
+
+    elliot_chen "Then let the paper warm you. Seriously — talk to me."
+    "You are used to offering directives. You are not used to requesting aid."
+
+    menu:
+        "Practice the closing line with Elliot":
+            "You whisper the last line, and Elliot repeats it back, softer, ironing the edges until it feels deliverable. Hearing it out loud makes it less of a raw thing."
+        "Refuse the rehearsal and stick to the schematic":
+            "You shake your head and close the notebook, hiding the jagged end of the speech back in graphite. Elliot's eyes search you for a crack and finds none."
+
+    # --- merge ---
+    "Narrative continues"
+
+    "You try the closing line once, louder this time" "We are not asking for charity; we're asking for the right to stay, to repair, to inherit this shoreline."
+    "The words land, small and heavy. A gust pushes brackish water against the market stalls; a string of salt-proof lights twitches. You feel, in your throat, the thin thread that will let you share this: the request for help."
+    "Your chest tightens in a way that is almost, but not quite, familiar. The old memory — the fast-onset storm, the wrong turn, the sound of water in places it should not be — sits directly"
+    "behind your ribs, an uninvited ballast. You have been practicing resilience; it has too often meant carrying the weight alone because asking felt like losing the last piece of control."
+    "Neighbors shift their weight, closer now, as if listening for permission. You could step forward and say the line, give them the plan and the practical steps and the ask: come to the hearing, bring tools,"
+    "sign the petition. You could ask Sami to shout for volunteers. You could ask Elliot to put the sensor array out tonight and invite people to watch it hum."
+    "Or you could fold the notebook shut and walk back to the Spire and make the repairs yourself, the work a language you already know."
+    "You let the thought rise and don't stop it. Something in you recognizes that the shoreline you are too afraid to cross is not only a physical boundary; it's a line between survival alone and survival"
+    "together. The decision is not in technical graphs or tide tables. It's here, in breath and willingness."
+    "You breathe in, taste of salt and diesel, and practice the opening of your speech once more. Your voice is steadier now, but your mouth still wants to keep certain words safe. You feel the slightest tremor of pressure — the tide of a community moment about to edge in."
+    hide sami_alvarez
+    hide maya_rios
+    hide elliot_chen
+
+    scene bg ch1_Start_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The children's laughter drifts away; in the distance, a low siren has begun to sound briefly and then cut off]
+    "You press your hand flat on the notebook cover and think—briefly, unbearably—that everything depends on other people deciding to show up. The realization sits between your shoulder blades, an ache of both dread and something like hope."
+    "You straighten. The crowd breathes out with you, an invisible swell of attention. The line between mapping and asking narrows into a single step you have not yet taken."
+    "You open your mouth."
+    # [Page-Turn: The air tastes of salt and a raw, small possibility. You could ask for help. You could not. Either way, the next hour will define more than pilings.]
+
+    scene bg ch1_Start_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

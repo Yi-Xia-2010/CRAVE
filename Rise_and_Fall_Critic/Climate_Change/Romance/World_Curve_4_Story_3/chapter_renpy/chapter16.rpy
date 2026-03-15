@@ -1,0 +1,173 @@
+label chapter16:
+
+    # [Scene: Jonah’s Docks | Dawn]
+
+    scene bg ch14_601bcb_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low gull calls, the distant thunk of a mooring line, the soft grinding of hull against a newly aligned dock cleat.]
+    # play music "music_placeholder"  # [Music: Sparse cello underscoring a slow, downward turn; a single high piano note lingers like a question.]
+    "You stand on the repaired gangway, feet rooted to the wood that smells of tar and wet rope. The retrofit is right in front of you: ply and polymer, straps and fresh concrete collars where the"
+    "pilings were rotted through. It looks like a suture—functional, urgent, not pretty—and you feel both pride and a small, stubborn ache in the same place."
+    "Jonah Reyes laughs when he sees you, quick and bright as an ember. The sound moves through the morning like permission."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You did this. You really did it."
+    "(He steps close, the repaired bow of his boat breathing gently against the tide.)"
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "We did what we could fast. You broke your back patching the lines, but we got rigs out fast."
+    "(Your tongue tastes of coffee and metal; the roll of the harbor underfoot makes the world feel simultaneously steady and transient.)"
+
+    "Jonah Reyes (He gives you a sideways grin, eyes bright amber.)" "You sat with Asha at midnight and said yes. You put your name on things. You make the town stubborn enough to stay afloat."
+
+    marin_solace "The retrofit was the right thing for their livelihoods. The rightness of it hums under your ribs. But you also remember the conversations you skipped—postponed monitoring, the plank of the budget reallocated from ecology checks to bolt clamps. The ledger of choices tilts when you move a town with one hand."
+
+    jonah_reyes "Come on. I'll show you the nets we mended. Raff's already made a damn montage out of it."
+    "You both move along the spit of dock where neighbors have tied down crates and prayer flags, where a stack of thank-you letters sits in a plastic milk crate—handwritten, smudged with salt. The mailbox is heavier than it looks."
+
+    menu:
+        "Read the thank-you notes now":
+            "You flip through the stack, each line a small ceremony: someone's winter rent saved, a child's school fee covered, a market stall reopened to the smell of smoked mackerel. Gratitude blooms like a stubborn weed."
+        "Check the eviction notices first":
+            "You lift the thin envelopes stamped with the council emblem. Inside: formal, polite words that sound like a guillotine—zoning updates, notices of property reclassification. Your stomach drops. There are names you know on the list. You fold the paper back into itself, the creases loud in the salt air."
+
+    # --- merge ---
+    "Continue"
+    "Jonah Reyes watches your face the way sailors watch a weathered horizon—patient, searching for a change. He reaches for your hand and doesn't immediately let go when you pick a note or fold a notice. The contact is simple; it is an anchor."
+
+    jonah_reyes "They're using the headlines."
+    "(He nods toward a sliver of paper in the milk crate with a contractor's logo.) 'Lydia's people. Fast wins, quick fixes. They show a dock standing and they say: 'See? Build bigger.''"
+
+    marin_solace "They'll want to scale what we did—without the parts that kept people at the center."
+    "(Your voice is even, practiced; inside it feels like something raw rubs under a bruise.) 'We bought time. We didn't buy guarantees.'"
+    "Jonah Reyes: (He looks off toward the sound of a truck—Lydia's modular vans—descending the bluff like proof on wheels.) 'Time's better than nothing. My aunt's stall stayed open this week. Raff's kids had bread.'"
+
+    marin_solace "The moral arithmetic never sums to comfort. The retrofit kept bodies fed, hands working, a market from shuttering. But the trade-offs—skipping long-term monitoring, choosing adaptive management over rigorous study—are there in black and white among the thank-yous and the polite legalese. You feel the tug of both and both pull something from you."
+    # [Scene: Floodwall & Community Garden | Midday]
+    hide jonah_reyes
+    hide marin_solace
+
+    scene bg ch14_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A chorus of small conversations, trowels thumping dirt, a baby crying somewhere beyond a leaning bicycle. The wind pushes a banner against the wall: "Havenpoint Holds."]
+    "You walk the Floodwall path, the garden breathing behind it: mustard greens, sprigs of rosemary, tomatoes in stubborn, stubborn clusters. Neighbors tend plots that are both protest and pantry. Their faces carry the day's work—smeared soil, thin smiles, eyes that watch policy meetings on small, cracked tablets."
+    "Elder Mae is there, wrapped in shawls stitched with the old nautical patterns. She moves slow but with purpose, her hands pressing a seed packet into an empty patch like a benediction."
+    show elder_mae_hargrove at left:
+        zoom 0.7
+
+    elder_mae_hargrove "We plant so they remember how to feed themselves."
+    "(Her voice is worn but not weak.) 'They think of land as numbers now, but salt teaches different math.'"
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "We made choices to keep people’s mouths fed today. We have to keep listening—checking the currents, the marshes. The retrofit didn't end the work."
+    "(You kneel to check the soil, fingers damp and smelling faintly of kelp and compost.)"
+    "Elder Mae: (She studies your hands.) 'You stitched the town's wound with an honest thumb. Still, stitches need tending, or they pull wrong.'"
+    # play sound "sfx_placeholder"  # [Sound: A group arrives at the garden—some cheerful, some sullen. A cluster of families hold printed notices; a couple of younger faces—Raff among them—film and argue at once about narrative and nuance.]
+    show rafferty_raff_cole at center:
+        zoom 0.7
+
+    rafferty_raff_cole "Look, viral's viral, but they used our clips to sell concrete as salvation. People are already talking about whole-block buyouts near the inlet."
+
+    "Neighbor" "They called it 'upgrading'—but the application covers private vouchers and makes room for 'commercial redevelopment.' My brother's rent went up when they started the surveys."
+
+    marin_solace "The garden feels like a place that holds both thanks and funerary notes. The community had cheered the quick suture, had kissed the wound with relief—still, policies expand around a precedent. Lydia’s contractors show diagrams where the retrofit is a thumbnail in a larger, glossier plan. The language of 'upgrade' becomes the soft chisel that hollows a neighborhood out."
+
+    marin_solace "We have to marshal the data we postponed—monitoring, community testimony, haul lines, fish counts. We can't let a single win be used as an erasure."
+    "(You are aware of the strain in your voice, the way insistence lines your words like a fence.)"
+    "Lydia Voss passes through the edges of the garden with her team—sharp coats, digital slates humming—remarks curt and efficient. When her eyes meet yours they are cool, measured."
+    hide elder_mae_hargrove
+    show lydia_voss at left:
+        zoom 0.7
+
+    lydia_voss "Immediate interventions saved livelihoods. That's what community wanted. Scaling will require capital, standardization, and firm timelines."
+    "(Her tone is polished; her smile is practiced.) 'We can fast-track resilience.'"
+
+    marin_solace "Capital without the people who live here will remake what it means to be here. It's not resilience if it's a showroom."
+    "(You find your words testing her resolve.)"
+    "Lydia Voss: (A millimeter of something behind her eyes narrows; she inclines her head.) 'Resilience often looks different from within institutions. We have obligations—to investors and to the region. We can include co-management clauses, if you insist.'"
+    "(Her offer is a chess move carefully softened.)"
+
+    marin_solace "Lydia's concession is a calculation. You know how to write clauses; you know how to insist and haggle and build guardrails. But you also know the leverage of momentum: a repaired dock shown on the six o'clock news becomes an argument for bigger, faster things. Your quick wins bled into Lydia's narrative of scale."
+
+    menu:
+        "Press Lydia on enforceable community oversight now":
+            "You ask for explicit, legally binding oversight—independent monitors, tenure protections for small moorings. Lydia listens and nods, hands folded; she notes the request with the practiced politeness of someone cataloguing concessions."
+        "Promise to work together on clauses later":
+            "You soften and promise to collaborate on clauses, buying time for neighbors to breathe. Lydia takes the time, and the moment becomes a handshake that can be counted on headlines—but not yet on paper."
+
+    # --- merge ---
+    "Continue"
+    "Marin Solace holds the mixed mail from earlier in your satchel—the thank-yous, the eviction notices, the formalized offers with their small-print ladders. Your fingers curl around the paper like they might burn."
+
+    marin_solace "I authorized the fast repairs because people needed shelter and wages immediately. I also deferred some of the slow, bureaucratic checks because the town couldn't wait. Those decisions pulsed with necessity, but necessity is not innocence. It is compromise. It is a measured fall."
+    # [Scene: Marin's Apartment — Overlooking the Harbor | Night]
+    hide marin_solace
+    hide rafferty_raff_cole
+    hide lydia_voss
+
+    scene bg ch14_601bcb_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The hush of night tide, indecipherable conversations carried on the wind, the creak of old window frames. A kettle whistles and dies like a forgotten thought.]
+    # play music "music_placeholder"  # [Music: Low piano chords, descending and held; a violin thread that trembles but does not break.]
+    "You stand by the window, the satchel on the chair beside a stack of maps and receipts and a small wooden box full of seed packets and recorded interviews on a battered USB drive. The weight"
+    "of the day's mail is real: a small stack of hand-scrawled thank-yous, a few anonymous insults on social media printouts, two eviction notices folded with professional neatness, and a glossy brochure from Lydia's consultancy showing the"
+    "'next phase.'"
+    "Jonah Reyes comes up behind you, rubbing salt from his hair. He smells of rope and cedar smoke—home. He doesn't speak at first; instead he reaches for your hand and threads his fingers through yours, like he has kept a place open and wet for you all day."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You look like you carry the tide in you."
+    "(He tries for a joke; it lands soft.) 'You should sleep.'"
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "If I sleep, I let them write tomorrow's story without the margins we promised."
+    "(Your voice is small in the room, honest.) 'I thought quick fixes would feel cleaner. They're messy. People are fed, yes—but other people are being priced out. The retrofit is a bandage with a label that might let someone else sell the whole town a plaster.'"
+    "Jonah Reyes: (He squeezes your hand.) 'You saved enough for them to fish through the winter. My mother's cough eased when she had money for medicine this month.' (He catches the edge of your stare.) 'I do not mean to make it less complicated.'"
+
+    marin_solace "The intimacy of Jonah's hand is a counterweight. It steadies the part of you that wants to keep walking out to the docks at dawn and the part that wants to sleep until the tide forgets to come back. Love is not a remedy for policy. It is a reason to keep doing the work, and also a place to lay the day's mistakes when they become too heavy to carry alone."
+
+    jonah_reyes "Do you regret it?"
+    "(He asks it like a prayer, not a judgment.)"
+    "Marin Solace: (You let the silence answer at first. The harbor hums beneath the dark. Your breath maps the shapes of the choices you've made.) 'I regret not getting the monitoring in sooner. I regret that"
+    "our small, urgent mercy is being used as evidence for wholesale restructuring. But I don't regret the hands we kept fed. Regret here is multiple things—sharp and complicated. We saved people tonight. We owe them more"
+    "than a quick fix.'"
+    "Jonah Reyes: (He rests his forehead against yours, the contact simple and real.) 'We keep the docks. We keep each other. We keep telling the stories that don't fit in glossy brochures.'"
+
+    marin_solace "You think of Elder Mae's seed packets, of Raff's furious editing, of Asha staying up late to rig sensors you couldn't afford yet. You think of the neighbors whose windows now show empty beds, salted with absence. Your life is braided into the town's small, stubborn survival."
+    "You reach into the wooden box and take out a small, coarse notebook—your archive: interviews, recipes, sea shanties, a list of wharves with people's names by them. You set it on the windowsill like an offering."
+
+    marin_solace "We'll start the oral archive. We'll seed the raised beds with what we can save. We will document the marsh changes and push for oversight. It might not stop everything. It might not save every house. But it's what we choose to do next."
+
+    jonah_reyes "And us?"
+    "(His voice is a little raw, a little hopeful.)"
+
+    marin_solace "We'll be here. We'll be tired. We'll be furious sometimes. We'll hold hands when the nights are heavy and argue when the world feels like a ledger. That's not nothing."
+    "(You smile, brittle and true.)"
+    # play music "music_placeholder"  # [Music: The piano resolves into a low melody; the violin sighs once and folds into the room's hush.]
+
+    marin_solace "The town is a map of choices with shorelines that never settle. Tonight's choice—fast repairs to save livelihoods—pulled life back from immediate disaster and also opened a door to larger forces. The rise is real: boats tied, bellies fed, voices less panicked at market. The fall is here, measured: displacement notices, land-use languages retooled into profit, ecological cautions tucked into the margin. Gratitude and grief live beside each other like crops in the same bed."
+    "You close the notebook and place it in the box, next to seed packets and a small recorder. A ritual of tending: not grand policy, but something that roots memory into practice."
+
+    marin_solace "We survive changed."
+    "(The words are an exhale more than a plan.) 'We rebuild rituals into raised beds and oral archives. We love in the cracks because that's where people have always lived.'"
+    "Jonah Reyes kisses your palm, then the back of your hand, a seal without promises of perfect futures."
+    hide jonah_reyes
+    hide marin_solace
+
+    scene bg ch14_601bcb_4 at full_bg
+    show marin_solace at left:
+        zoom 0.7
+
+    marin_solace "There is no tidy ending here. There is repair and there is cost. There is holding hands and holding evidence. There is a decision that had to be made in a second to keep someone fed and a dozen consequences that will unfold over seasons."
+    "You breathe the salt air and let the weight of both gratitude and grief sit beside each other in your chest. You have done harm and good; you will do both again because the town demands"
+    "action and your conscience will demand amendment. You do not know if this will be enough to save everything you love—but you know you will keep trying."
+    # play music "music_placeholder"  # [Music: Final chord—soft, unresolved, but with a warm undertone—fades to near silence.]
+    hide marin_solace
+
+    scene bg ch14_601bcb_5 at full_bg
+
+    scene bg ch14_601bcb_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

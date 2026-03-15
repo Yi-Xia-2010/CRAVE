@@ -1,0 +1,145 @@
+### SCRIPT
+# Route: Route A / Ending
+# Context: 4001e7
+
+[Scene: Living Seawall Site | Morning]
+[Visual: Dawn light glancing off modular reef sections half‑submerged; ropes and tarps slick with salt]
+[Sound: The steady slap of water against pilings, distant laughter, hammers tapping a counter‑rhythm]
+[Music: Warm strings with a hopeful, ascending motif]
+
+You stand at the lip of the work platform, boots planted on damp wood, and take in what the barrio has made of the estuary overnight. Floating modules bob in a disciplined cluster like a small, stubborn fleet. The living seawall's initial lattices are threaded with saplings and woven mats; where yesterday had been a single tentative row, there are now spans of green threading the mudflats. Each new knot is a promise.
+
+The air is thick with brine and compost: citrus peels drying in the sun, the sharp whiff of seaweed, and the sweet, earthy perfume of fresh soil in plastic trays. A kid runs past carrying a coil of rope thrice his height; Teo's laugh follows, bright as a bell. For a moment the work sounds like music, all syncopated motion and shared purpose.
+
+But under the steady rhythm something misses a beat. You notice the pumps — the old, jury‑rigged suction units — sputtering near the outer modules where the tides are meaner. Supply manifests as a second, quieter problem: the composite mesh you trusted would arrive by now is still not listed on the depot manifest. Your thumb drags along the inked edge of your map in your pocket until the paper softens; the motion calms you.
+
+You breathe in and let the rising certainty from yesterday do its quiet work: this is worth protecting. The question is how, and how quickly.
+
+Teo: "You see that outer anchor? It keeps sliding every high tide. We can lash it tighter, but—" (he lifts a wrench; grease dark at his knuckles) "—we need more creeper‑stakes and that mesh for reinforcement. The mesh shortfall's slowing crews on the south stretch."
+
+Asha Rivera: "We can improvise temporary anchors. But the pumps failing is a bigger fire now. If the outer section floods and the plants drown, we lose months of work."
+
+Elias Hart appears, hair damp at the nape, hands already stained with mud. He smells like the work itself: salt, sweat, the faint smoke of a cooking pit.
+
+Elias Hart: "We can requisition from the depot. People are done waiting for permits while the tide keeps moving the line. Tell them to bring the forklifts, and we'll move twice as fast. We can shore that stretch before the next swell."
+
+His voice holds the warm centrifugal force it always has. Elias wants motion; he wants action now. You admire that in him — it's how things get built — but your gut pulls to the ledger, to the consequences that roll quietly behind a good idea.
+
+Asha Rivera: "Requisitioning will net supplies fast, but it risks legal repercussions. The mayor's office will have a fit if we skip protocol. And Leon's people are watching for anything that looks like chaos."
+
+Elias Hart: "Leon watches whether we move or don’t. If we stall because we're polite, people lose homes. We can't keep arguing with systems that move slower than the sea."
+
+Asha Rivera: "We won't be polite, but I don't want us to be reckless. There's a middle way if we can pull more hands, reallocate labor, and patch pumps enough to hold the line while we look for longer‑term help."
+
+Elias Hart: (sharp, then softer) "Middle ways are great for poems, Asha. But floods aren't patient."
+
+Your doubt sits in your chest like a stone and, as always, work dissolves it — or at least shapes it into something usable.
+
+[INTERACTION]
+> Choice A: "Grab the outer anchor and lead the lash team"
+> Choice B: "Head to the pumps to trouble‑shoot the diagnostics"
+> Choice C: "Call Jun and inventory supplies with Teo"
+[Outcome A: "You roll up your sleeves, knot the rope beside Elias and Teo, and the labor crowd's energy swells. For a while your hands do the talking: measuring, pulling, cursing in unison. The seawall breathes steadier under the new strain."]
+[Outcome B: "You crouch beside a sputtering unit, fingers cold and methodical. The pump's intake is clogged with a slurry of algae and tiny plastics; you clear it, rig a crude filter, and whisper encouragement the way you whisper to failing things. It hums back to life and you feel the room loosen with the small relief of machines that behave."]
+[Outcome C: "You slide into the supply tent and, with Teo, run the manifest in the dim light. The list tightens around your chest as you realize deliveries are delayed. Jun promises to look into municipal channels and the two of you make a plan to push the data request through if needed. The plan smooths something inside you: purpose is a kind of shelter, too."]
+
+[Visual: Close on your hands, on fresh rope fibers, on your palm smudged with salt and soil]
+[Music: A bright, patient motif]
+
+Scene transition implied by the bustle: you and Teo peel away toward the Supply Depot with a cart of tarps and a list that feels suddenly heavier.
+
+[Scene: Supply Depot | Midday]
+[Visual: Stacked crates under a tarpaulin canopy; fluorescent tubes make halos over handwritten inventory tags]
+[Sound: The hum of a fridge unit, a clipboard tapping, muffled conversation carried on a breeze]
+[Music: Low, anticipatory strings with a hint of uplift]
+
+The depot smells of packing oil and coffee. The manifest board is a mosaic of scrawled promises: supplier names, arrival dates, and the thin red line someone has drawn where needs outstrip deliveries. Teo's fingers drum a quick rhythm on the counter. He looks at you with that look that means he wants to be useful and doesn't know how to ask.
+
+Dr. Jun arrives with a messenger bag that smells faintly of lab solvent and dried bay leaves — a comforting, old scent. His presence is steady. He sets down a stack of printouts with a measured hand.
+
+Dr. Jun: "Inventory's consistent with the scheduling data — delays from the northern supplier, transit held for quota redistribution after the storm corridor. The municipal escrow window opens if we can present a prioritized, evidence‑backed request by end of week."
+
+Asha Rivera: "How airtight does the data need to be?"
+
+Dr. Jun: (smiling, then serious) "They need to see projected loss scenarios, cost‑benefit analyses, and measurable community labor contributions. If we can show that a relatively small infusion unlocks much higher leverage — both in human hours and ecological resilience — they move. It's slower than Elias wants, but it locks funding in place rather than a scramble."
+
+Here is the trade‑off you live in: speed that can be messy and fast, or slow structures that last. Both save people — but in different places, in different ways. Your stubborn hope always wants both.
+
+Teo: "Slow locks in support, but we lose momentum. People will keep building for a while, but fatigue creeps in quick as tide."
+
+Dr. Jun: "Then we make the interim tangible. Temporary work orders, community rosters, and a public showcase to prove the living seawall is a real, scalable solution. If we thread data and narrative together, we can make a funder understand that this is investment, not charity."
+
+Asha Rivera: "I'll compile the field logs, satellite snapshots, and our labor ledger. If we can get Jun's modeling and a few testimony clips, it might be enough."
+
+Dr. Jun: "And I'll run the projections. We'll show them what loss looks like, and then what we offer instead. It'll be thorough. It'll be persuasive."
+
+The plan lays itself out like a map — slow, methodical, but steady. You feel the tension ease a fraction. The barrio is not the only engine here: patterns of evidence feed policy if you know how to write them. That knowledge, finally, feels like leverage.
+
+[INTERACTION]
+> Choice A: "Record a short testimony from Sofia at the market"
+> Choice B: "Organize a midweek showcase at the boardwalk"
+[Outcome A: "You walk to Skyward Market and coax Sofia into telling a concise story about a winter when her stall flooded. Her voice trembles at the edges but she finishes with a laugh about seedlings that refused to die. The clip, raw and human, fits Jun's charts like sunlight through glass."]
+[Outcome B: "You pin a flier, text the neighborhood channels, and choose a spot where the seawall is most presentable. The idea sparks — people offer salsa, a hand with a speaker; momentum hums anew. The plan gives everyone a visible goal for the next three days."]
+
+[Music: A hopeful pluck; the scene brightens]
+
+You file the notes, the images, the testimonies into the notebook at your belt. Planning feels like packing the ballast that makes a ship steady in storm. Still, part of you keeps turning the other conversation: the one that starts with Hana.
+
+[Scene: Old Estuary Boardwalk | Dusk]
+[Visual: The boardwalk bathed in silvering light; mangroves whispering, lanterns beginning to glow]
+[Sound: Low tide at work on the pilings, a single distant boat motor, a card of insects beginning their evening hymn]
+[Music: A warm, ascending piano motif that suggests cautious possibility]
+
+You come to the boardwalk to watch the light, to listen. Choices press at your chest like a tide ready to crest. The day has given you options — requisition, paperwork, outreach — and each feels like a path the barrio might walk. The mangroves breathe. You breathe with them.
+
+Hana Kim is there, not quite in shadow, not quite in light. She stands at the rail with an AR tablet cupped in one hand. Her expression is careful, the way someone who builds things with exact tolerances looks at unmeasured emotion — thoughtful, guarded, unreadable in a way that suits the world between lab and neighborhood.
+
+Being praised by Hana lands like rain on dry earth: cooling, necessary, and complicated. The past folds itself into the present in a way you cannot unweave.
+
+Asha Rivera: "Thanks. We have anchor issues and pump reliability. Supplies are delayed. There are options — work harder now, make the case to the city, or find targeted tech. There's no easy fit."
+
+Hana Kim: (tilting her head) "We can help with pumps and a composite weave — automated pump regulation to balance influx, composite mesh treated to resist biofouling. Conditional support: oversight on placement and data sharing. I can't promise unfettered tech, but I can promise tools that reduce failure windows."
+
+Conditional support carries strings. It might calm the pumps, but it risks making us dependent, or opening a door for Leon's team to push their own model.
+
+Hana Kim: "I know the concerns. And I know Leon would prefer turnkey solutions. I'm not Leon. I can set parameters: open source monitoring, community control over valves, a sunset clause on interventions, and joint audits with Jun. It would be a pilot, strictly monitored."
+
+Elias Hart's approach is audible before you see him; his voice carries the tangible warmth that gathers people into shape.
+
+Elias Hart: "You talking with Hana? Look, Asha — if she offers tech, great. If it gives us breathing room to get more modules in, that's a win."
+
+Hana Kim: (brief, precise) "It is not a panacea. It buys you time and reduces failure points. It also gives me a way to test field robustness for models that could help more neighborhoods."
+
+Your offer sits between the poles you've been circling. It smells of pragmatism: efficient, calibrated, with a clear exit strategy. Elias's stance is simpler, more immediate. Teo is nearby, watching the exchange with folded arms, the machinery of someone constantly prepared to pivot.
+
+Teo: "If we take tech, we take responsibility for maintaining it. If it breaks, we don't get to say 'out of warranty' to our people."
+
+Hana Kim: (softening) "Then we'll train whoever you choose. I can certify up to six technicians from the barrio. We don't walk away."
+
+Your chest tightens with an ache that is both risk and possibility. The barrio has shown it can build from spare parts and stubbornness. Jun can make the city see the logic. Hana can add engineered resilience with caveats. Elias wants the momentum of hands and hearts before the law can slow them down.
+
+You imagine the modules: a stronger heart if pumps stop failing; a legal backbone if Jun's charts convince the municipality; an energized crew if Elias's requisition fills gaps now. You think of Sofia's voice, of Teo's hands, of the child who ran with rope earlier and how she might tell her grandchildren a story about the day people decided to act. The choices are different kinds of courage.
+
+Elias Hart: "So what's it going to be, Asha? We can requisition and build the south stretch before next tide. Or we can shore up arguments and get long money and long security. Or we can bring Hana in quietly and get tech to patch the holes."
+
+The rising note in your chest isn't panic; it's a steadier feeling — resolve braided with optimism. You know every path carries sacrifice, and every path holds a way forward. For the first time since the hearing, the options don't feel like trenches but like bridges, each anchored to different truths you care about.
+
+[Music: The chord lifts, hopeful and expectant]
+
+You stand on the boardwalk with the estuary at your feet and the barrio's future in three hands reaching toward you. You have the maps, the people's work, Jun's modeling, and Hana's conditional offer threaded into a single knot. The tide will come, as it always does; your answer will determine how this knot holds.
+
+[DECISION POINT]
+1) Option 1: "Support Elias’s direct requisition and labor mobilization." -> TARGET chapter_id: [6]
+2) Option 2: "Focus resources on building airtight data and petitions with Dr. Jun to secure public funding." -> TARGET chapter_id: [13]
+3) Option 3: "Open a discreet dialogue with Hana to seek conditional technical aid for pumps and composite mesh." -> TARGET chapter_id: [14]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Support Elias’s direct requisition and labor mobilization." -> ID 6 (Route A / Ending)
+    > Jump Target File: script_ch6_Route_A_Ending_ctx_601bcb.txt
+Option 2: "Focus resources on building airtight data and petitions w..." -> ID 13 (Route A / Ending)
+    > Jump Target File: script_ch13_Route_A_Ending_ctx_601bcb.txt
+Option 3: "Open a discreet dialogue with Hana to seek conditional te..." -> ID 14 (Route A / Ending)
+    > Jump Target File: script_ch14_Route_A_Ending_ctx_601bcb.txt

@@ -1,0 +1,31 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Harbor Lessons<br/>[Common]"):::spine
+    2("Ch 2<br/>Promenade Momentum<br/>[Common]"):::spine
+    3("Ch 3<br/>The Council Call<br/>[Common]"):::spine
+    4("Ch 4<br/>Berms and Trust<br/>[Route A]"):::limb
+    5("Ch 5<br/>Apex of the Model<br/>[Route A]"):::limb
+    6("Ch 6<br/>The Storm Breach<br/>[Route A — Ending]"):::limb
+    7("Ch 7<br/>Unquiet Accusations<br/>[Route B]"):::limb
+    8("Ch 8<br/>Oversight Hearing<br/>[Route B]"):::limb
+    9("Ch 9<br/>The Backlash<br/>[Route B — Ending]"):::limb
+    10("Ch 10<br/>Paper Shields<br/>[Route C]"):::limb
+    11("Ch 11<br/>Regulatory Peak<br/>[Route C]"):::limb
+    12("Ch 12<br/>Emergency Protocols <br/>[Route C — Ending]"):::limb
+    13("Ch 13<br/>Data and Reckoning<br/>[Alternate]"):::limb
+    14("Ch 14<br/>Compromise Settlemen<br/>[Alternate]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    5 -.-> 13
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 14
+    8 -.-> 9
+    10 -.-> 11
+    11 -.-> 13
+    11 -.-> 12

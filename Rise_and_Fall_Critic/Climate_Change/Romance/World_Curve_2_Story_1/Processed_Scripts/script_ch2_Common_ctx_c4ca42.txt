@@ -1,0 +1,140 @@
+### SCRIPT
+# Route: Route C (Alternate Ending: Sad)
+# Context: c4ca42
+
+[Scene: Tideworks Lab | Morning — hours before the council hearing]
+[Background:"ch2_c4ca42_1"]
+[Sound: Low hum of pumps, the sharp click of instruments, gulls distant and metallic wind against corrugated metal.]
+[Music: Sparse, descending piano motif]
+
+You push the lab door open and the smell hits you first — brine and machine oil, the faint, sweet rot of algae. The air is humid enough to carry the salt into the back of your throat. Theo looks up from a tangle of sensors; his grin is quick but doesn't quite reach his eyes.
+
+Theo: "You're early. Or I'm late. Depends how you want to count it."
+
+You take off your scarf and shake out the damp. Your fingers leave a ring of salt on the workbench where you set your journal down. The pendant under your shirt feels like a small, steady stone against your sternum.
+
+Elias Navin [soft, precise]: "We got a longer window on the last tide. The modules held at thirty percent more dissipation than before, but the anchoring failed in the backwash. It's... complicated."
+
+You step closer. The modules are smaller than you imagined, more fragile in the hand, like the thing you want them to be — not weapons, but tissue for the sea to knit into armor.
+
+Mara Kestrel: "Complicated won't stand in the council chamber. People want numbers and a straight story. They don't want nuance when their roofs leak."
+
+Elias Navin [bristles]: "And I don't want to hand them a false certainty. That—" (he taps the side of the basin) "—will be used as a data point. We have to be honest about margins and failure modes."
+
+You feel the old argument warm in your chest: the pragmatic need to do the right thing versus the strategic temptation to simplify for power. Rosa's words from the last evening weave at the edge of your mind—make them count as people.
+
+Theo interjects, pruning a sensor cable with a pocket knife. His fingers are quick; his voice a nervous cadence that tries to distract from the fact that the lab has been cobbling miracles for months.
+
+Theo: "We can patch anchors for the demo. New composite runners, a cruciform brace. It'll add weight but—"
+
+Elias Navin [cutting him off]: "And then you claim a different test. We either present the controlled results, or we build a claim on retrofits that weren't in the dataset."
+
+Your jaw tightens. You can feel the ache behind your ribs, the old guilt that says if you don't push, people will be left holding wet roofs and bitter mouths. But you also know the cost of overreach — someone dies because you promised the sea a lie.
+
+[INTERACTION]
+> Choice A: "Inspect the anchoring on the reef modules"
+> Choice B: "Ask Elias for a simple summary we can say in the hearing"
+[Outcome A: You kneel beside the tray, hands near the filigree of bio-composite. The texture is rough and resigned; you can picture the anchors snagging on rubble instead of clean sand. It makes your stomach drop, but you also notice a hairline seam where a better bond could be tried. Theo leans over, eyes bright with a plan that is not entirely baked.]
+[Outcome B: You look at Elias with the weight of the room already on your shoulders. He inhales slowly, then pins you with a look of tired calculation: "We can say three things: observed dissipation percentage, failure mode in heavy backwash, and an immediate pilot we can fund with local labor." It's concise — true, but it says nothing about the human stories you wanted to foreground.]
+
+Theo drops a tiny bolt and it pops into a test tray like a dropped tooth.
+
+Theo: "If Council wants spectacle, Jun will give them a render and a wall. They love walls because they look like someone is being protected. Living reefs don't photograph well from above."
+
+Elias Navin turns to you, finally looking you square in the face. There is a residue of tiredness in him you haven't seen in a long time — the kind that comes from trading sleep for graphs.
+
+Elias Navin [low]: "We can get better numbers, but we need a controlled run that replicates the storm surge pattern Jun's team is proposing. We haven't stressed the modules the way their engineering models predict. If we can run that scenario, we can either prove the math works in the field or show its limits."
+
+Mara Kestrel: "How long?"
+
+Elias Navin [quiet]: "Not long enough to convince a council member who wants a project to be visible before the vote. And probably not long enough to stop a PR campaign."
+
+He avoids your eyes for a beat, then adds: "But I can do a field stress test today if we get the boat out and Theo reworks the anchors. It won't be perfect."
+
+You feel the old reflex — to say yes when your throat is dry and there are too many names with empty hands. Your journal lies closed on the bench. You think of the Basin, of Ivy scraping paint on salvaged metal, of Rosa braiding reeds. You want evidence that saves people, not papers that placate.
+
+Jun Park's voice spills into the lab before you recognize it — the municipal projection feed on a cracked screen at the corner of the room flips into a live address. The lab's tablet links to the civic feed; the camera is staged from City Hall's atrium, all glass and hard lines.
+
+[Background:"ch2_c4ca42_2"]
+[Sound: Jun's voice — steady, composed — comes in slightly tinny through the lab speakers.]
+
+Jun Park [on feed]: "Our engineered barriers will buy us time and protect downtown commerce. We've modeled the outcomes. With decisive action, we can prevent systemic failure and secure the city's core."
+
+You don't watch the slides so much as feel them: renderings of smooth concrete walls cutting the sea, annotated with dollar figures and timelines. The angle of the camera flatters every precise line.
+
+A municipal spokesperson — Councilwoman Lian Mor — pores over a tablet beside Jun. She smiles for the camera, the smile of someone practiced at tethering conscience to spreadsheets.
+
+Lian Mor [on feed]: "This plan is fiscally responsible. It represents a scalable, citywide commitment."
+
+Your lungs tighten. The feed's tone is that of inevitability; the renderings are tidy, their edges bleeding into the banners you saw on the Strand. The problem is not only that Jun frames solutions in a way people understand — it's that he reduces messy lives to coordinates on a map that can be defended or surrendered.
+
+Elias Navin watches the screen, jaw set.
+
+Elias Navin [low]: "He's selling a single narrative. If the council buys it, funding shifts. Grants will follow the wall projects, and community pilots like ours will be sidelined. We can't be left unfunded mid-roll."
+
+Mara Kestrel: "Then we make our evidence undeniable. We don't need them to love it; we need them to see it as viable and necessary for the neighborhoods they don't want to lose on principle."
+
+Elias Navin exhales and it sounds like a surrender and a plan all at once.
+
+Elias Navin: "We can show them a stress test. We can show tide-synced dissipation, sensor logs, before-and-after sediment maps. We can show community labor reports — that the pilot multiplies labor value per dollar in ways the big models ignore."
+
+Mara Kestrel: "So we run this test today."
+
+Elias Navin [soft]: "We can — if you sign off on deviating from the formal proposal and accept the political risk. If the test fails publicly, Jun will use it as proof that 'community solutions' are unreliable. If we present partial success, the council might call it anecdote."
+
+The room narrows. On the tablet Jun's smile cuts to a close-up as he answers a projection question; his expression, on screen, is smooth and unreadable — exactly the "complex" look the Schrödinger rule asks you to describe. It could be warmth; it could be calculation; for now it is simply a projection designed to move votes.
+
+[INTERACTION]
+> Choice A: "Call Jun's office and demand to add our data to the public feed"
+> Choice B: "Keep the test small and controlled within Tideworks, then release findings on our own timeline"
+[Outcome A: Your finger hovers on the contact icon. If you call, you risk confronting him and forcing a bureaucratic scrape that could either embarrass him into inclusion or close a door you need open. Theo watches you like someone waiting to see if the tide will break left or right.]
+[Outcome B: You imagine the press release: a messy but honest story, community faces, sensor graphs. It will ruffle feathers and might be drowned out by City Hall optics. Elias leans in, weighing the scientific integrity against the political reality; he's quietly favoring truth over show.]
+
+You find words you hadn't expected to say: "If we do a risk today, we do it for people's roofs, not for proving a point to Jun."
+
+Elias Navin nods, but there's a shadow behind it.
+
+Elias Navin: "Then we proceed as scientists, not as soundbites. We record everything. We prepare a narrative that stitches data to stories. And we keep Rosa and the co-op in the loop."
+
+Theo punches a nearby keypad and a small acoustic alarm blinks — inventory motion. He grins, trying to relieve the pressure with mischief, but his hands shake.
+
+Theo: "Okay. Boats. Anchors. Sensor sweep at five intervals. We adjust the anchor collars and—"
+
+Elias Navin stops him with a lifted hand. "And we tell no one outside the team until the run is complete. No leaks to the press. No premature demos. If it looks promising, we go to the council with controlled, peer-reviewed-style presentation."
+
+You stare at him. "Peer-reviewed-style" feels like a euphemism for "we don't have time for peer review." You both know that in the hallway of City Hall, 'peer-reviewed' will translate to 'we were careful' to some, and 'we delayed' to others.
+
+[Background:"ch2_c4ca42_3"]
+[Sound: Distant clack of a camera shutter from a passing reporter; a gull peels a note of warning.]
+
+You decide to walk the harbor wall to clear your head before you commit to anything irreversible.
+
+[Scene: Old Harbor Wall | Late Morning — a thin, overcast light]
+[Background:"ch2_c4ca42_4"]
+[Sound: Waves slapping rocks, the lab's hum receding; an intermittent municipal drone hum from farther inland.]
+[Music: Low cello, slow]
+
+You stand at the edge and breathe the city in — mineral, brackish, and always slightly on the verge of rain. The horizon is a soft line; the concrete underfoot remembers every storm. You press your palm against the cool, rough stone and think of all the decisions that will be summarized in half a page and a spreadsheet.
+
+The projection feed from City Hall curls into your pocket on your tablet — a live transcript scrolling as Jun speaks about "prioritization" and "sacrifice zones" with clinical calm. The words sit in your chest like pebbles.
+
+You run the possibilities like tide lines in your head: sign off on the test and risk public failure; withhold and risk being outspent and outframed; confront Jun and perhaps force shared data or just make an enemy in the council chamber.
+
+Your internal monologue sharpens, rehearses, and frays. You remember your father's boat, the way it listed that last storm, the way the town gathered — hands on ropes, faces turned blue with cold and determination. You promised then, to yourself, to be the ledger and the salt. Now the ledger demands receipts and the salt wants honesty.
+
+The wind picks up, and with it comes the sense that choices are about to become impossible to untie. The hearing is hours away. You can already feel the city's breath — held, waiting for a name to be called.
+
+Page-Turn: You tuck your journal back into your jacket, feeling the damp spine like the weight of all the people who trust you. You have a decision to make about how to run the test and how openly to present it — a choice between exposure and control, between immediate public struggle and quiet, methodical proof. The sea doesn't wait for certainty. You don't get the luxury of being both everywhere and exactly right. Someone will decide for those who cannot.
+
+[Music: Crescendo to a tense unresolved chord]
+[Background:"ch2_c4ca42_5"]
+
+[Background:"ch2_c4ca42_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

@@ -1,0 +1,167 @@
+label chapter13:
+
+    # [Scene: Tidewatch Lab | Early Morning, Months Later]
+
+    scene bg ch13_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The low hum of refrigeration compressors; a kettle's distant whistle]
+    # play music "music_placeholder"  # [Music: Sparse piano notes, slow, minor-key]
+    "You open your eyes to the same pale light, but the rhythm of the days has changed. You chose the slow compromise — to redesign quietly with Luca, to keep collecting the evidence while the town's"
+    "louder voices arranged themselves elsewhere. That choice trained the weeks into a sequence of small, persistent labors: recalculations at three in the morning, permits parsed line-by-line, a dozen awkward meetings with men who wanted quick answers"
+    "and gave you half the time."
+    "Your fingers find the brass compass in your apron the way they always do. It is warm from your palm, small and steady, a measure more of intent than of direction. Outside, the tide marks on"
+    "the windowframe have climbed another notch since you last measured them; inside, a pilot plan labeled 'Phase One — Limited Deployment' sits heavy on the table, half hope and half ledger."
+    "You thumb through the annotations: engineered reef placements shifted inland to appease dredging interests, gaps left where developers insisted a promenade view could not be blocked. The science is present but diluted, made legible to funders by compromises that taste, at a remove, like acquiescence."
+    "You trace a line where a living breakwater will sit and imagine the reeds bending into stormed shapes. The data suggests it'll reduce wave energy here, increase sediment deposition there — and, elsewhere, worsen current concentration."
+    "A fisher's cove you grew up hearing Jonah curse in a half-jest now appears in a note labeled 'High-displacement risk.' The label is clinical; the thought in your chest is not."
+
+    menu:
+        "Re-check the deposition model":
+            "You pull the laptop closer, eyes narrowing at the simulation's margins. The numbers sway; a new correction nudges the placement south by a few meters, and the ache in your jaw returns."
+        "Make the kettle tea and sit with Jonah's voicemail":
+            "You mute the laptop, let the whistle go, and listen to the thin voice of his message — a joke about seaweed and bad soup, and the small, familiar rasp that makes you ache the way a bruise does."
+
+    # --- merge ---
+    "Continue to next scene"
+    # [Scene: Salt Flats and Living Breakwater Site | Low Tide, Weeks Later]
+
+    scene bg ch13_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind combing through reed beds; the clang of a mallet as a pile driver sets into wet ground]
+    # play music "music_placeholder"  # [Music: Low, reedy drones; occasional metallic percussion]
+    "You watch the pilot go in like a slow, expensive apology. The first modules settle and the flats accept some of them, moss and shell finding purchase amongst the engineered crevices. In places, the water calms"
+    "and reflects the sky like a promise; in others, channels narrow and the tide pulses faster, eyes turning their old courses into new grudges."
+    "A group of fishers stands a little apart, faces salted and folded. You know, without needing to be told, that some of them will have to move their traps and, for a season, their livelihoods. The"
+    "council's lawyer called it 'temporary displacement' and put it into a paragraph. You have stood at too many kitchen tables to know the real translation: a season of hunger, of debts that compound into choices about"
+    "leaving or staying."
+    "You find Jonah in the shadow of a reef module, one hand clasped around a thermos, his frame smaller by degrees you hadn't wanted to count. He looks at the installed reef and then at you — his face a carved thing, loyal to a history of storms and stubbornness."
+    show jonah_merrick at left:
+        zoom 0.7
+
+    jonah_merrick "They didn't build it where I'd have put it, Isla. But the sea listens in ways we don't always write down. It might do some good."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "We did what we could with what they were willing to fund. It reduces wave impact at the northern channels but concentrates flow near the old slip. We tried to move the modules—"
+
+    jonah_merrick "—You tried, and you tired, and you fixed the best you could. Don't let the people who would rather watch the town from a glass tower tell you what you meant by 'best.' They don't have your hands."
+    "His voice is rougher than you remember. The thermos clatters when he sets it down, and for a moment the noise is the only honest thing in the marshy air."
+
+    isla_morgan "They'll need support. The fishers in Cove East—"
+
+    jonah_merrick "They'll make do. They always do. But the tough part isn't making do — it's making sure the people who get moved know you're not moving them because you like the map better."
+    "You both look at the modules. They might hold the town in one place and displace it in another. The solution has teeth; it also leaves scars."
+
+    menu:
+        "Put your hand briefly on Jonah's shoulder":
+            "You joke about the cold and rest your palm on his weathered coat. He doesn't flinch; he squeezes back in a gesture that says he knows you are tired but trusts you anyway."
+        "Stand back and let him speak":
+            "You fold your arms and let him have the floor. He says things he'd soften for you otherwise, and the truth of them lands heavier for being unsheltered."
+
+    # --- merge ---
+    "Continue to next scene"
+    # [Scene: Promenade | Dusk, Some Months Later]
+    hide jonah_merrick
+    hide isla_morgan
+
+    scene bg ch13_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant construction chatter; the acute cry of a gull; footsteps on wet wood]
+    # play music "music_placeholder"  # [Music: A single cello line undergirds a cold breeze]
+    "The pilot earns the town its small victories in increments. A winter storm that would have flooded the northern quay now slides off the engineered reef and leaves only a shredded tarp and two broken crates."
+    "At the school rooftop garden, some beds survive where they had been washed before. A child's small wooden boat sits on dry land, whole. You count these things like small absolutions, and they do not entirely"
+    "add up to the relief you thought they would."
+    "Luca stands by the railing, his silhouette bright against the gray water. He has scars of salt on his forearms, and a red bandana tied around his wrist where he always keeps it. He holds a"
+    "rolled set of plans: a refined model of the breakwaters, optimized and simplified for replication. There is an ache behind his smile you have come to recognize — the same one that presses against your chest"
+    "when you think about what has been compromised."
+    show luca_moreno at left:
+        zoom 0.7
+
+    luca_moreno "It held. Not perfect, but it held where it mattered. We can scale this—Ravi's already lining up coastal co-ops in two other towns. They want someone who knows how to move fast."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "You'd go?"
+
+    luca_moreno "Not 'go' like 'run' — scale. Build teams. Train locals. I thought — I thought we'd be in this together, Isla. But if this design can save more places and more people, is that not what we wanted?"
+
+    isla_morgan "We wanted to protect Greyhaven. We wanted to keep people from losing the only life they know. That doesn't mean hurting others to save more."
+
+    luca_moreno "I know. You were the one who made them listen to the nuance. You kept the ledger honest. I can't stay and fight every council; some of these towns don't even have a Tidewatch."
+    "He taps the rolled plans, and his hand lingers on the paper like a farewell."
+
+    isla_morgan "We chose the quiet path. We chose to make the pilot acceptable. That meant giving up some things we didn't want to lose."
+
+    luca_moreno "I know. And I'm not saying it wasn't worth it. I'm saying—' (he swallows) '—I don't want to be the one who keeps asking you to carry it all."
+
+    isla_morgan "You don't have to carry it all."
+
+    luca_moreno "Funny thing about twenty-foot tides and political patience — they make promises you can't keep. I can try to keep my promise to come back. But promises stretch. Sometimes they snap."
+    "Silence stretches thin between you, filled with the smell of wet wood and distant diesel. His amber eyes search yours for the answer he can't quite ask for outright."
+
+    isla_morgan "If you go, you scale the model. If you stay, you help me finish this town's version of it. Both are acts of preservation. Both are also losses."
+
+    luca_moreno "Then choose me a thing. Don't choose the map for me."
+    "You open your mouth. The wind takes the answer before you can fold it into sentences. You think of Jonah's face at the reef, smaller in body but broader in spirit. You think of the fishers"
+    "who shifted to Cove East and now speak of their losses in shorter, angrier sentences. You think of Maya's hands building a new raised bed and the way she doesn't ask you to move."
+    "Luca's plans rest between you like a thin, fragile bridge."
+
+    menu:
+        "Ask him to stay, quietly":
+            "Your voice fails at first. You press your palm flat against the railing to steady yourself and murmur a request he can accept or decline. He holds you for a long second, then lets go, the space between you suddenly vast."
+        "Tell him to go and make good on the work":
+            "You tell him, with measured calm, that the work you started together must be replicated. He nods, the set to his jaw betraying grief and purpose; he folds the plans and promises to call."
+
+    # --- merge ---
+    "Continue to next scene"
+    # [Scene: Promenade Overlook | Night — After Luca Leaves]
+    hide luca_moreno
+    hide isla_morgan
+
+    scene bg ch13_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sea breathing; a distant ambulance siren that fades]
+    # play music "music_placeholder"  # [Music: Somber strings, a restrained refrain]
+    "Luca's truck left at dawn. Letters, calls, and a dozen small, fortifying logs arrive from the teams he's joined; photos of communities learning to set reef modules, templates translated into languages you do not read, faces"
+    "lit by phone screens and the reflection of work lamps. The world is less likely to drown in places he reaches. It is also a world in which he is not here when the council votes"
+    "on the next tranche of funds, when the Cove East families argue for better relocation packages, when Jonah misses a month of sea-weathered check-ins and forgets to bring his thermos."
+    "Jonah's cough becomes a thing you count as carefully as tide markers. He jokes less; remembers less. You stay with him at the clinic long enough to watch the color drain from his hands and then"
+    "grow gaunt around the edges. He squeezes your finger with a stubborn hand that used to coil nets with a strength you cannot manufacture."
+    show jonah_merrick at left:
+        zoom 0.7
+
+    jonah_merrick "Remember why you chose this, Isla. Not for the ledger. For the people who fold their lives into a tide's rhythm. For those who stay and those who go."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "I remember. I remember every face."
+
+    jonah_merrick "Good. Then don't let the maps be kinder than you are."
+    "You sit on a bench watching the modules break water in the low light. They do their job, and in the doing, they carve out new courses for the sea. Some streets are safer. Some houses"
+    "stand where they would have fallen. Some do not. The town's net gain is positive and ragged — a ledger with smudged ink and margins full of names."
+    "You let your hands rest in your lap and feel the ring on your finger against the engraved wave. Its cool circle feels like a vow you made to the place and to a man who loved it before you were old enough to measure its losses."
+    "For a night, the victory is contained and small: a quay that does not flood, a school rooftop that still holds seedlings, a letter from a displaced fisher who found work mending nets and a place to sleep. You catalog these like talismans against the things you could not save."
+    "But the taste of the victory is ash. The compromises that let the breakwaters be built required concessions that nick the town's wholeness. Neighbors speak of bargains struck in the quiet rooms of council aides. The"
+    "people you hoped to protect feel, in pockets, abandoned to a future you could not fully guard."
+    "You think of Luca on some distant shoreline, hammering the same fast, hopeful rhythms into unfamiliar mudflats. You think of Jonah, who taught you to read the sea's small mercies and its cruelties with an equal"
+    "eye. You think of the compass warm in your apron and know that it cannot point to a place that takes away both your heart and the town's."
+    "There is a weight that remains, heavier than the relief of the pilot's partial success. You are custodial now — of data, of grudges, of people whose daily choices will determine whether Greyhaven keeps or loses"
+    "its name. The work has won you small things and stolen others. Love stretched and thinned in the process; Luca promises he will return, and you allow that promise into the quiet archive of things you"
+    "cannot guarantee."
+    "You breathe in the wet night air. Salt, diesel, and the faint smoke of a distant heater fill your nostrils. The modules off the lee of the promenade flex in the dark, doing a job you helped design and partly compromise."
+    "The town is safer in places and rawer in others. Jonah's health declines in ways that will bend the coming months toward funeral rituals and long-sitting meetings. Fishers in Cove East learn to trade old nets"
+    "for new licenses, some grudgingly, some with a stubborn dignity. The living breakwaters create habitat and also new currents that demand further adaptation. The ledger closes this month with a marginal surplus and a list of"
+    "families whose names you can recite like a sorrow."
+    "You stand and let the wind move your hair loose from its knot. The compass is in your pocket, and you can feel its small heart against your ribs. The town sleeps — fitfully, imperfectly. You"
+    "have made choices; some were right, some were the least-worst options presented. You kept people from drowning in places and watched others step onto boats."
+    "You hold your chest and pronounce the quiet verdict: this is a contained victory. It has the color of survival but the aftertaste of concession. The burden does not lift. It shifts, like a tide taking the shape of the shore it touches."
+    "You think of the day you first stood on the pier with maps in your hands and knew coming home would be an argument you had to bring into rooms where money and memory would fight."
+    "You kept fighting. The town is still here; you are still here. That is not small. It is also not everything you wanted."
+    "You tuck your hands into your pockets and feel the ring on your finger. The compass presses a familiar bruise to your palm."
+    hide jonah_merrick
+    hide isla_morgan
+
+    scene bg ch13_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: A restrained, descending motif — acceptance folded into sorrow]
+    # play sound "sfx_placeholder"  # [Sound: The tide, steady and indifferent]
+
+    scene bg ch13_3be532_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

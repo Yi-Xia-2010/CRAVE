@@ -1,0 +1,489 @@
+{
+  "title": "Marisol Rising Tides",
+  "summary": "I (Amina Reyes) return to Marisol after years away, carrying scientific training and a notebook thick with tides and regrets. A sudden political push and a vicious storm season force the town to choose an adaptation path. I fall into crisis: a public humiliation and a council decision that favors quick engineered defenses feels like betrayal, and I confront survivor’s guilt about my brother. From that low point the story climbs: I must pick alliances—work with Elias and his institutional power, rally the town via Niko and Marina for grassroots adaptation, or attempt a hybrid third way. Each choice forces me to negotiate love and policy: Elias’s slate-gray raincoat and calm competence versus Niko’s salt-stained vest and ancestral craft. Across branching routes I build coalitions, suffer setbacks, and ultimately recover agency—securing some form of protection for Marisol while finding a path for intimate trust. The Man-in-the-Hole arc (Fall → Rise) runs through every route: the precipice of loss leads to struggle, then to a recovering climb that reshapes the town and my heart.",
+  "emotional_curve_type": "Man-in-the-Hole (Fall → Rise)",
+  "player_character": "Amina Reyes",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Low Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "I return to Marisol for the first planning season since I left: my chestnut hair damp from the morning fog, field jacket a little tighter against an ache I can’t name. Market stalls sag from last night’s rains. The marshes smell of brine and old grief. Mayor Lucia’s brass lapel glints at a civic breakfast; Marina’s seashell pins warm her hair as she greets me. Dr. Kenji Sato thumbs through tide-model schematics while I flip open my battered waterproof notebook, the pages still smelling of varnish and salt. The regional authority’s field office—Elias’s domain—looms as a metallic promise on the horizon: clean blueprints, a 3D-printed sea-wall model, and the quiet hum of optimism. Niko’s boatyard is a memory I hold like a carved locket. The town looks smaller and more fragile than my maps suggested. I feel the old guilt again—why I left, why I wasn’t there when the storm took my brother. It’s a stone in my chest as I watch waves nudge at the boardwalk’s warped planks. I know this season will demand choices that will cost us all.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Amina Reyes",
+        "Mayor Lucia Varela",
+        "Marina",
+        "Dr. Kenji Sato",
+        "Elias Hart",
+        "Niko"
+      ],
+      "locations_used": [
+        "Marisol Marshes",
+        "Old Boardwalk",
+        "Town Hall",
+        "Elias's field office",
+        "Niko's boatyard",
+        "Rooftop garden"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Rising Rumors",
+      "branch_designation": "Common",
+      "narrative_focus": "The council meeting thread pulls tighter. I stand in Town Hall under striped light, fingers tracing tide charts pinned to the wall while bureaucrats trade numbers like weather. I sense Elias before I see him—sea-glass blue eyes, a slate-gray raincoat folded over a proposal, his short dark hair showing a silver streak near the temple. He smiles with practiced warmth, slides a tablet across the table containing renderings of a hybrid sea-wall and an urban retrofit. Across the room Niko’s storm-gray eyes burn a different fire; salt-streaked cargo trousers and a bandana make them a figure of stubborn shoreline stubbornness. Marina pushes for school safety; Dr. Sato warns of long-term scenarios. The room divides into those who want quick measurable protection and those who fear what will be sacrificed—the marsh, fishing lanes, the hand-hewn life I grew up in. I speak up with data from my notebook; my hazel-green-flecked eyes narrow on the council’s faces. The debate becomes personal—arranged not by logic but by memory. Someone mentions emergency funding that requires fast compliance. I taste metal and anger.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Niko",
+        "Marina",
+        "Dr. Kenji Sato",
+        "Mayor Lucia Varela"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Old Boardwalk",
+        "Elias's field office",
+        "Niko's boatyard"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The High Water",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "A twilight storm comes early—surge licking at the Old Boardwalk while the council votes. I watch in the municipal windows as water finds new routes: vendors mopping up what they can, a child’s toy boat spinning in a gutter. Mayor Lucia’s voice is steady but strained; the vote to fast-track a large engineered defense—conditional regional funding and the promise of economic investment—passes on a narrow margin. The room fractures. Elias clasps my hand like an ally, offering professional reassurance; Niko storms out, salt-streaked and furious, demanding the town’s right to self-determine. Marina can barely look at me. My battered field notebook slaps open and the words I have avoided—my brother’s name, the marsh maps—are raw under my thumbs. Dr. Sato’s models glow ominous; the 3D sea-wall sits in Elias’s trailer like a white shark. I’m leveled by a sense of failure and betrayal so deep I can’t breathe. The town’s future and my heart both seem to be swept away by the same tide.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the council’s vote and the town’s fracture?",
+        "options": [
+          {
+            "label": "Work with Elias to shape the engineering plan from within, insisting on ecological safeguards.",
+            "consequence": "I enter Elias’s field office, leveraging institutional resources while risking local trust.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Refuse institutional compromise; rally the boatwrights and the boardwalk to organize a grassroots living-shoreline plan with Niko.",
+            "consequence": "I return to Niko’s boatyard, mobilizing hands-on labor and community resistance.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Launch a coalition campaign that tries to bind both sides—work with Marina to build public pressure for a hybrid, community-led grant.",
+            "consequence": "I coordinate rooftop meetings and legal petitions, attempting a political middle path amid distrust.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Mayor Lucia Varela",
+        "Elias Hart",
+        "Niko",
+        "Marina",
+        "Dr. Kenji Sato"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Old Boardwalk",
+        "Elias's trailer/field office",
+        "Municipal windows"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Field Office Sunrise",
+      "branch_designation": "Route A",
+      "narrative_focus": "I walk into Elias’s field office with my field jacket still smelling of salt; his slate-gray raincoat hangs neatly on a hook. Inside, laptop screens cast cool light on a model of the proposed hybrid sea-wall. Elias greets me with a calm smile; the silver streak at his temple seems to hold the stormlight. He offers me space at his drafting table and a drafting pencil behind my ear—one of his small, knowing gestures. Working inside feels like stepping into a different tide: efficient, measured, bureaucratic. I apologize and explain my marsh data, and for the first time Elias listens with the patience of an engineer who believes data will settle hearts. He lets me rework a section of the plan to include scalloped sluices and marsh buffers informed by my notebook. The community mistrusts our cooperation; I can feel it as a low pulse when I pass the boatyard. But each small concession feels like a plank added back to a sagging boardwalk. I realize influence can be built from within—but I’ll have to be strategic and keep my hands dirty both with soil and policy.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Dr. Kenji Sato",
+        "Niko"
+      ],
+      "locations_used": [
+        "Elias's field office",
+        "Niko's boatyard",
+        "Marisol"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Compromise Lines",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "I pitch a revised plan to the team: targeted reinforced promenades paired with marsh restoration and community-built levees, a hybrid meant to preserve fishing lanes and habitat. Elias trusts my models; Dr. Sato supplements with long-term projections. We schedule a demonstration installation at a test marsh platform. But on the boardwalk Niko calls me a collaborator with outsiders—his braided hair tucked under a cap, the silver thread in his plait seeming to flash like accusation. I feel their storm-gray eyes, their salt-stained vest, and the weight of our shared past. The decision point gnaws: do I push the hybrid publicly as the official path, risking a rupture with Niko and many locals who will see any compromise as sellout, or do I delay for more community consent and risk the regional funding being pulled? Or do I try a bold public campaign that fuses institutional leverage and grassroots labor into a co-managed pilot? Every choice reshapes who I might be—scientist, lover, community member. I run my fingers over my friendship bracelet, the knot of obligation twisting in my chest.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which path will I take to build the hybrid?",
+        "options": [
+          {
+            "label": "Publicly endorse the hybrid immediately—use Elias’s funding to build the pilot now.",
+            "consequence": "Fast implementation, political goodwill with authorities, risk of community alienation.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Delay and convene a community assembly—rebuild trust with Niko and the boatwrights before construction.",
+            "consequence": "Greater buy-in but risk losing funding timelines.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Launch a co-managed pilot: invite Niko’s crew to lead construction while Elias secures funding—forcefully merge worlds.",
+            "consequence": "Potentially transformative but volatile; success could be powerful or disastrous.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Dr. Kenji Sato",
+        "Niko",
+        "Marina"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Test marsh platform",
+        "Town Hall",
+        "Elias's field office"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Trial Breakwater — Ending (Happy)",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "We move fast. I stand beneath a sky the color of wet pewter as the pilot hybrid goes up: scalloped concrete with marsh plantings anchored behind, sluices that breathe with the tide. My chestnut hair is wind-pressed; my beanie long gone. Elias directs the installation like a composer, his sea-glass eyes soft when he catches mine. Niko watches from the boatyard—reserve thawing—as his crew lays planks to protect a nursery channel he still calls sacred. The first test storm arrives: water hammers the promenade but the pilot holds; the marsh behind it bulks; fish return to a shallow inlet where I had sketched x’s in my notebook. Mayor Lucia announces matched funding for scaled builds, and Dr. Sato files the data with a quiet, delighted grin. Fishermen smoke a modest feast on the boardwalk. I feel something like home mend, and in the evenings Niko and I share wood-smoke and stories, our hands stained the same color. Elias stays as a collaborator, not a conqueror. Love here is less romantic ideal and more shared labor—patient, salvaged, and warm.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Niko",
+        "Mayor Lucia Varela",
+        "Dr. Kenji Sato"
+      ],
+      "locations_used": [
+        "Pilot sea-wall",
+        "Old Boardwalk",
+        "Niko's boatyard",
+        "Marisol"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Back to the Keel",
+      "branch_designation": "Route B",
+      "narrative_focus": "I follow Niko to the boatyard. The smell of tar and varnish is a kind of prayer. Niko’s hands—callused and steady—offer me a place on the bench, and the carved wooden locket at their throat catches a sliver of late sun. They distrust officials, and I’ve become what they call “the scientist who talks too much to lawyers.” Still, when I open my waterproof notebook and point to tide gradients, something in Niko softens; they slide a multi-tool across the wood and say, \"Show me.\" We begin drafting a living-shoreline plan fueled by community labor: oyster reefs, sediment traps, and repaired fishing lanes. Marina rallies students for seed-planting days on the rooftop garden. The movement feels old and new—boatwright lore braided into modern ecology. But without institutional funding, each plank and each planted cordgrass is an act of fragile courage; rain clouds on the horizon tighten budgets and patience. For the first time since the vote, I feel the smallest spark of purpose—tangible work that reconnects me to my brother’s memory in a way speeches never could.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Amina Reyes",
+        "Niko",
+        "Marina"
+      ],
+      "locations_used": [
+        "Niko's boatyard",
+        "Rooftop garden",
+        "Marisol"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Tides of Opposition",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "Our grassroots efforts gain traction: oyster cages bob in the shallows, kids plant spartina on the rooftop, and word spreads. But the regional authority warns funding will be withdrawn without a signed pact embracing the engineered approach. Elias appears at the boatyard in a slate-gray raincoat, earnest and patient; he offers a compromise: recognize the living-shoreline as a pilot but anchor it with a legal safety envelope—allowing the engineered wall to proceed if the pilot fails. The community's anger flares—old fears of displacement and new anxiety about co-optation. Niko stares into the harbor, jaw tight, their storm-gray eyes a weather map of hurt. I'm pressured to choose: accept Elias’s legal safety net and risk moral compromise; stay defiant and risk losing all support; or take a bold public gambit—leak the pilot’s early success data to the media and force public opinion to secure independent funding. I feel the tug between allegiance and strategy. My friendship bracelet rubs raw under my sleeve.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I secure the living-shoreline’s future under political pressure?",
+        "options": [
+          {
+            "label": "Formally accept Elias’s legal safety envelope—embed our pilot into a conditional plan.",
+            "consequence": "Legal protection but community trust frays.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Refuse and appeal directly to public opinion—release our pilot data and ask for donations/grants.",
+            "consequence": "Potential funding and public momentum, high risk of regional backlash.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Double down on self-sufficiency—seek independent foundations and scale locally without Elias.",
+            "consequence": "Fail or succeed on community labor alone; slow and precarious.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Niko",
+        "Elias Hart",
+        "Marina"
+      ],
+      "locations_used": [
+        "Niko's boatyard",
+        "Harbor",
+        "Rooftop garden"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Sea-Wall Contract — Ending (Bittersweet)",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "We sign the conditional pact. The engineered defense is built—solid, imposing concrete with technical finesse—and parts of the town center are spared the worst of the season’s storms. But the marsh beyond it does not recover; fishing lanes shift and some ancestral grounds are buried under new currents. I watch the workers at the base of the wall, Elias coordinating logistics with a steady hand, his sea-glass eyes full of regret and resolve. Niko drifts away after a bitter argument—our hands, once the same color with varnish, no longer touch. I take a leadership role to mitigate ecological damage, mapping restoration pockets and setting aside funds for transition jobs, but the cost is visible: quieter markets, fewer boats, and an ache that won’t fully mend. Love with Elias is cautious, professional, threaded with respect but strained by loss. I carry survivor’s guilt into action, and though the town’s center breathes easier, the marsh’s sutures will take years to show change—if they do.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Niko",
+        "Mayor Lucia Varela"
+      ],
+      "locations_used": [
+        "Engineered sea-wall",
+        "Town center",
+        "Marsh"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Rooftop Picket",
+      "branch_designation": "Route C",
+      "narrative_focus": "I choose coalition. Marina and I convert the rooftop garden into a meeting point: string lights, solar panels, a notice board sticky with signatures. Children move between raised beds and storm-surge pamphlets. We launch a public campaign that threads scientific data, local stories, and legal petitions, trying to make the hybrid politically unignorable. Elias supplies technical endorsements; Dr. Sato crafts a long-term modeling series. Niko volunteers a team of boatwrights to demonstrate living-shoreline techniques. The rooftop becomes a beehive: my chestnut hair windswept, my pendant glowing occasionally as we work late into wet nights. The campaign attracts outside activists and a regional legislator’s attention. Momentum builds—but with it, new actors and new compromises. Larger political games begin: funders who want quick returns, developers with promises of jobs. The coalition must choose its edges carefully, or it will be absorbed into the very machine we intend to change.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Amina Reyes",
+        "Marina",
+        "Elias Hart",
+        "Dr. Kenji Sato",
+        "Niko"
+      ],
+      "locations_used": [
+        "Rooftop garden",
+        "Marisol",
+        "Town Hall"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Building a Mosaic",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The coalition’s plan is a mosaic: living shore pilots at key points, educational programs in schools, matched funding for a scaled hybrid solicited by grassroots pressure. We hold a public demonstration: children release juvenile oysters into planted cages; elders tell stories of fishing lanes. Elias brings a briefing that could secure regional grant money if we demonstrate measurable outcomes in six months. The political calculus tightens: accept an incremental phased grant that requires early technical milestones, risk being swallowed by institutional timetables, or refuse and continue independent grassroots fundraising that hazards collapse under storm pressures. Niko argues for craft-led timelines; Marina fears losing the momentum to bureaucratic delays. I balance the scales in my notebook—percentages, deadlines, human faces. The decision will shape whether Marisol’s adaptation looks like a living map of shared labor or a bureaucratic retrofit that erases small actors. My palms are damp as I sign printouts and listen to the wind sketch scenarios across the rooftop beds.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which funding path will the coalition accept?",
+        "options": [
+          {
+            "label": "Accept the phased regional grant with milestones.",
+            "consequence": "Secured funding, but potential institutional constraints.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Refuse and pursue independent funding and viral campaigning.",
+            "consequence": "High-risk, high-autonomy path.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Split the difference—take a small secure grant and keep independent campaigns parallel.",
+            "consequence": "Dual-track complexity; administrative strain but possible resilience.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Niko",
+        "Marina",
+        "Dr. Kenji Sato"
+      ],
+      "locations_used": [
+        "Rooftop garden",
+        "Schools",
+        "Public demonstration sites",
+        "Town Hall"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Hard Lessons — Ending (Sad but Transformative)",
+      "branch_designation": "Route C / Ending",
+      "narrative_focus": "We accept the phased grant. The initial months look promising: living-shoreline panes sprout, the rooftop program funds internships, and the sea-wall’s footprint shrinks in plans. But as administration layers mount, corners cut for efficiency begin to appear—standardized materials replace local crafts, some harvest restrictions displace families, and a development clause quietly shifts property lines. The marsh loses subtle hydrology under uniform engineering. I fight from within, writing memos, staging hearings, and sleeping under a single desk lamp in the Planning Office. The town doesn’t collapse—but it changes in ways that sting: fewer boats slip out at dawn, and the Old Boardwalk’s market feels smaller. I’m offered a regional post to advise on living shorelines elsewhere; I accept and leave Marisol to become a traveling advocate. My departure is lonely; Elias and I exchange professional warmth but not the intimacy we might have built. Niko’s boatyard closes for a season. I carry my notebook and the knowledge that some fights are for places, some for principles; loss and learning live together.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Elias Hart",
+        "Niko",
+        "Mayor Lucia Varela",
+        "Dr. Kenji Sato"
+      ],
+      "locations_used": [
+        "Planning Office",
+        "Old Boardwalk",
+        "Rooftop garden",
+        "Marisol"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Coalition Triumph — Ending (True)",
+      "branch_designation": "Ending",
+      "narrative_focus": "We choose patience and coalition building. I convene assemblies at the rooftop garden and boatyard; Marina mobilizes schools; Niko lends boatwright credibility; Elias presses regional leaders to match grassroots conditions with trust-based stipulations. A viral campaign—images of children planting oysters, side-by-side with technical cross-sections from my notebook—catches a wider policy ear. Regional funding is restructured into a long-term living-shoreline grant that explicitly requires co-management with local labor and cultural protections. Dr. Sato’s long-term models back the decision. The change is slow and imperfect: some properties need retrofitting, jobs are retrained, and the town learns bureaucracy as a skill. I take a public leadership role in Marisol’s new adaptation council—my chestnut hair threaded with gray at the temples, my pendant humming against my chest when storms come. Niko and I form a tentative, steady relationship built on work and memory; Elias remains a partner in policy, turned ally rather than rival. Marisol becomes a model—a flawed, living, patient success.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option B / From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Niko",
+        "Marina",
+        "Elias Hart",
+        "Dr. Kenji Sato",
+        "Mayor Lucia Varela"
+      ],
+      "locations_used": [
+        "Rooftop garden",
+        "Boatyard",
+        "Marisol"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Volatile Fusion — Ending (Bittersweet / Variant)",
+      "branch_designation": "Ending",
+      "narrative_focus": "We gamble on a co-managed pilot with institutional funding and community labor. Early stages are beautiful—Niko’s craft stitches into engineered elements, oyster reefs cradle concrete fingers, kids learn both drafting and ropework. But the fusion is volatile: contractual glitches, an unexpected high tide that damages a funded segment, and political pressure for quick metrics force compromises that scar the marsh. The pilot proves both its promise and its fragility. Elias and I argue over contingency plans, our hands graze once in a tense hallway; there is warmth but also the cold calculus of deadlines. Niko and I patch a damaged nursery channel together at dawn, then stand apart as the public praise focuses on technical success. The town saves its center but loses some fishing groves; relationships shift in quiet increments. The ending is neither neat nor wholly mournful: we saved what we could and learned lessons that will shape policy elsewhere. My love life is tangled—trust rebuilt in some places, frayed in others—but the town survives.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option C / From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Niko",
+        "Elias Hart",
+        "Dr. Kenji Sato"
+      ],
+      "locations_used": [
+        "Pilot site",
+        "Nursery channel",
+        "Marsh",
+        "Boatyard"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "DIY Resilience — Ending (Sad-Resilient Variant)",
+      "branch_designation": "Ending",
+      "narrative_focus": "We refuse institutional strings and lean into independent resilience. Fundraising brings sporadic grants and fierce volunteer days: whole families haul stones for reef cages, Marina’s students catalog species shifts, and Niko leads boat crews through every low tide. We patch, adapt, and learn—but storms keep testing us. A particularly cruel season wipes out months of work; without a legal safety net, recovery is brutal. We rebuild anyway—slower, but with local craft and memory stitched into every plank. I find love in this weariness: quiet nights in the boatyard with Niko’s braid brushing my shoulder, shared coffee after long days. I take no regional appointment; instead I stay in Marisol, leading grassroots research and teaching others to read the tide. The town is smaller but stubbornly itself. We carry loss, and yet something resilient grows from it: commitment without guarantees. I end with my notebook full and my hands callused, certain that some things—love, craft, and stubborn community—are themselves defenses against rising seas.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option C / From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Amina Reyes",
+        "Niko",
+        "Marina"
+      ],
+      "locations_used": [
+        "Boatyard",
+        "Reef cages",
+        "Rooftop garden",
+        "Marisol"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "The narrative follows a Man-in-the-Hole arc (Fall → Rise). Branching choices at Chapters 3, 5, 8, and 11 route to multiple endings and intermediate chapters; endings are denoted by '(Ending)'.",
+  "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+  "_meta_arc_strategy": "Man in a Hole (Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 10:05:28"
+}

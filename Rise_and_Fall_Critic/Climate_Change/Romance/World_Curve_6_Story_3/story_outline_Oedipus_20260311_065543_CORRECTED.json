@@ -1,0 +1,490 @@
+{
+  "title": "Tides of Esperanza",
+  "summary": "I (Mara Evans) return to East Strand to build a living seawall — a soft, community-driven hybrid of kelp farms, marsh restoration, and accessible platforms. The city faces a decisive plan: Arman Kade’s fast, privatized seawall that would secure downtown but displace low-income neighborhoods, or a slower, community-centered solution that preserves place and people. Noah Ríos, my pragmatic partner in heart and design, brings near-ready modular sensors and a startup pragmatism that both helps and complicates choices. Cassandra \"Cass\" Green (the mayor), Elena (my sister), Tomas (the elder), and Priya (my NGO colleague) orbit the struggle. The arc is Oedipus (Fall–Rise–Fall): I fall into crisis as a storm exposes structural and political weaknesses; I push a triumphant, provisional recovery where living systems and Noah’s sensors stave off immediate catastrophe; but then political pressure, funding compromises, and a decisive decision by Arman and City Council precipitate a final fall with community displacement or a tangled compromise. Branching choices steer the kind of temporary victories we achieve and the compromises we accept; romance deepens stakes — Noah’s compromises strain trust.",
+  "emotional_curve_type": "Oedipus (Fall–Rise–Fall)",
+  "player_character": "Mara Evans",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Returning Salt",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive in East Strand Harborfront at dawn after a long absence. I am Mara Evans — chestnut bob with a salt-streak at my right temple, an olive trench damp from the morning spray, boots taped at the heels. My childhood storefront is gone; memories are layered in puddle reflections and peeling seafoam paint. I walk the narrow slope toward the Kelp Gardens, notebook under my arm, hydrophone slung like a talisman. The storm warnings on my phone are blunt: surge advisory in twenty-four hours. I feel the old knot of responsibility — guilt sharpened into purpose. Elena’s paint-splattered overalls wave from a stall; Tomas squints at the horizon, white stubble damp with dew. The city hums: distant cranes, a new contractor’s logo on a billboard with Arman Kade’s smiling blue eyes. I run my fingers across my tarnished compass pendant and outline a plan in the margins: living seawall modules, kelp nursery expansion, public terraces. But funding letters from the Resilience Lab have bureaucratic footnotes; Noah’s message reads: “We can make sensors sing. Talk tonight?” I let the harbor sound into me — gulls, distant engines — and wonder whether my return will save places or just buy time.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Evans",
+        "Elena",
+        "Tomas Belmar",
+        "Noah Ríos",
+        "Arman Kade"
+      ],
+      "locations_used": [
+        "East Strand Harborfront",
+        "Kelp Gardens"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Meetings at the Resilience Lab",
+      "branch_designation": "Common",
+      "narrative_focus": "I move into the Resilience Lab & Greenhouse where vertical gardens inhale light and wave tanks hum in the back. Priya waits with her tablet; she has the impact models open — a matrix of neighborhoods, exposure, and equity metrics. Cass’s aide left a note that the mayor will consider pilot funding only if we show measurable short-term protection. Noah is here too, sleeves rolled on a pale-blue shirt, smartglasses flicking overlays as he demonstrates a modular sensor wrapped in tape. Up close, his curly black hair frames that single silver streak; his smile is softer than his presentation. We test a small wave tank with kelp trunks tethered to the mock seawall. I sketch a cross-section in my leather notebook: living mats, community terraces, sensor nodes wired to Noah’s band. Priya warns that procurement timelines are merciless; Arman’s private bid accelerates the municipal calendar. Elena texts a photo of a market stall ruined by a night surge; Tomas sends a terse voice clip asking: “Can we hold?” I pace the greenhouse pathways, mud on my boots, and feel the old weight settle — if I fail, people I love might have to move. I promise myself: I will work harder, quieter, smarter.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1, Option [Next]",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Evans",
+        "Priya",
+        "Cassandra 'Cass' Green",
+        "Noah Ríos",
+        "Elena",
+        "Tomas Belmar"
+      ],
+      "locations_used": [
+        "Resilience Lab & Greenhouse",
+        "Resilience Lab"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Council Deadline / The Fork",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "City Council announces a mid-month vote: Arman Kade’s expedited seawall proposal or a pilot grant for community projects. The chamber’s mahogany feels colder than I imagined when I step into the City Council Chamber to present. Cassandra Cass Green’s sea‑glass brooch catches light; her smile is practiced. Arman is there in his navy suit, the waveform cufflinks glinting. I present: drawings, tide notes, living mats, kelp nursery data, Noah’s sensor prototype blinking on my slideshow. My voice shakes only once; I speak about East Strand — Elena’s storefront, Tomas’s knowledge of tides, children who learned to wade in the shallow edges. After, Arman gives a polished rebuttal about investor confidence and swift protection. Council murmurs. The mayor asks pointed questions about timelines and measurable protection — the language of immediate success weighs in the room like a low tide. I feel the arc: if we delay for community design we risk political defeat; if we accept rapid hard infrastructure, East Strand could be bought out and closed. I stand at a fork where hearts and spreadsheets collide.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2, Option [Next]",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Will I pursue the grassroots living seawall coalition, align with Noah to produce rapid demonstrable metrics for a hybrid plan, or accept a negotiated deal with Arman to secure partial protections?",
+        "options": [
+          {
+            "label": "Rally the neighborhood and refuse Arman",
+            "consequence": "Intensifies community organizing and delays formal funding timelines; positions Mara as uncompromising advocate",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Work with Noah to make immediate demonstrable prototypes",
+            "consequence": "Prioritizes measurable pilot that could win policy support but requires fast compromises; tight partnership with Noah",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Negotiate with Cass to broker a public-private compromise",
+            "consequence": "Opens door to Arman's plan reframed as hybrid; risks displacement negotiations but could secure partial protections",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Cassandra 'Cass' Green",
+        "Arman Kade",
+        "Noah Ríos",
+        "Elena",
+        "Tomas Belmar"
+      ],
+      "locations_used": [
+        "City Council Chamber"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "East Strand Mobilizes",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose to refuse Arman and rally the neighborhood. My braided bracelet feels tight as Elena and I set up an assembly at the Abandoned Pier & Kelp Nursery. The pier smells of seaweed and new rope scaffolding; Tomas stands, wind-creased cap in hand, telling the younger folks how kelp used to mark safe tides. I wear my yellow hooded raincoat like armor; my green-grey eyes scan faces. We map local assets: volunteer divers, repurposed floats, a roster of small businesses. Noah is present but awkward — he’s tempted to scale tech, but I ask him to stay as a community ally. Priya advises on grant-writing; Cass’s office has not sent funding but offers moral support. We begin building modular planting bays and anchor tests. People bring pots, nails, and stories; a child presses a damp kelp frond into my palm. There is a fierce hopeful rhythm — chanting meetings, low-key carpentry, sensor prototypes loaned by Noah in exchange for open schematics. For a moment, the work feels pure: place kept by hands, by history, by stubborn love. We are still under the shadow of the council clock, but the neighborhood is alive again.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mara Evans",
+        "Elena",
+        "Tomas Belmar",
+        "Noah Ríos",
+        "Priya",
+        "Cassandra 'Cass' Green"
+      ],
+      "locations_used": [
+        "Abandoned Pier & Kelp Nursery"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Prototype and Pressure",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "We test a living seawall prototype anchored to a decaying pier platform. My boots squelch in brackish water as I untangle kelp lines; the hydrophone hums in my sling. Noah’s modular sensor blinks — he’s patched a readout to my notebook. We get promising tidal damping numbers: wave heights reduce at certain frequencies, marsh mats slow erosion. The assembly cheers; for the first time I sense a path. Then Cass calls: the mayor must demonstrate short-term protection to stave off a council vote on Arman’s plan, and investors are now pressuring Cass publicly. Arman releases an op-ed that paints our delay as reckless idealism risking the city’s economy. A local shop owner collapses in tears — rent notices arrive; Elena clutches a torn awning. My sense of responsibility swells and narrows. Do we escalate civil action to halt Arman, accept a phased pilot that asks us to compromise materials and timelines, or prioritize evacuation planning for the most vulnerable? The tide-tongue of the city’s calendar pulls at us; every inch we hold costs time and money.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 4, Option [Next]",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we respond to investor and council pressure?",
+        "options": [
+          {
+            "label": "Organize a public blockade and demand a moratorium on Arman",
+            "consequence": "Brings public attention and delay; risk of legal action and fines",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept phased materials and speed constraints to win pilot funding",
+            "consequence": "Sacrifices some community control to secure immediate resources",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Coordinate targeted evacuations while continuing the pilot quietly",
+            "consequence": "Prioritizes immediate human safety but admits some displacement; tensions over priorities rise",
+            "target_chapter_index": 8
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Noah Ríos",
+        "Cassandra 'Cass' Green",
+        "Arman Kade",
+        "Elena",
+        "Tomas Belmar",
+        "Priya"
+      ],
+      "locations_used": [
+        "Decaying pier platform",
+        "Kelp test beds"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Blockade — A Short Triumph",
+      "branch_designation": "Route A — Ending: Happy",
+      "narrative_focus": "We stage a blockade at the Flooded Promenade ahead of a scheduled contractor inspection. I stand waist-deep in cold, reflective water, the reflection catching the yellow of my hood folded against my back. People link arms; Tomas and Elena chant history into the microphone. Cameras arrive. Cass delays the contract review and calls for mediation — a public pause. The living seawall prototypes are permitted as an emergency, time-limited pilot. Noah glows with relief; his hand finds mine — curly black hair damp, smartglasses smeared with salt. We integrate his sensors into the mats; data streams paint a picture that wins neutral aldermen. Arman’s PR machine grinds back; he offers to sit at the table. The community keeps their first stretch of shoreline. I hold Elena when she laughs through tears in a puddle-strewn street. It feels like vindication: the stubbornness paid off and romance threads warm through the victory. Still, the mayor’s conditional approval has strings — pilot scope, reporting deadlines, future negotiations. We’ve bought time and a model that might scale, but the fight is not over.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Tomas Belmar",
+        "Elena",
+        "Noah Ríos",
+        "Cassandra 'Cass' Green",
+        "Arman Kade"
+      ],
+      "locations_used": [
+        "Flooded Promenade"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Compromise Materials, Compromised Heart",
+      "branch_designation": "Route A — Ending: Bittersweet",
+      "narrative_focus": "We accept a phased pilot with materials constraints to secure immediate funding. Arman’s donors agree to partial grants if we use reinforced composites in foundation elements — cheaper, less restorative. The community space remains, but compromises shift design: fewer public terraces, modular mats replaced by denser anchors. Noah negotiates terms with me late into the night; his brass identification band catches lamplight as he explains trade-offs. I feel both relief and loss. Elena keeps the shop but on reduced frontage; Tomas mends nets by himself now, his eyes distant with something like resignation. In meetings I present as if confident, but at night the hydrophone records the voice of the bay and I wonder if we traded away the living quality of the wall for an illusion of security. The pilot reduces short-term erosion and wins Cass the political breathing room she needed, but families on the very edge express worry about long-term access. Noah suggests scaling sensors into adjacent cities; the offer is pragmatic, clean, and pulls at a seam between us: my insistence on home-preservation and his need to prove the tech at scale. We both stand in compromise — protected, but not whole.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Arman Kade",
+        "Noah Ríos",
+        "Elena",
+        "Tomas Belmar",
+        "Cassandra 'Cass' Green"
+      ],
+      "locations_used": [
+        "Resilience Lab",
+        "Community space"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Evacuations and Quiet Loss",
+      "branch_designation": "Route A — Ending: Sad",
+      "narrative_focus": "I choose targeted evacuations while continuing the pilot. We prioritize the most vulnerable — elderly renters, low-income families along the lowest block — and coordinate with Priya and city services. In the early hours, I help Elena box shop goods into plastic crates; her sun-kissed hands tremble. Tomas stands with a knotted rope around his waist and tells the children stories about how the bay used to be saltier. Noah monitors rising barometric pressure from a borrowed tablet; his expression is taut with the knowledge that our pilot cannot stop a storm surge of the magnitude forecasted. A surge arrives during a late-night storm, higher than our test tolerances. The living mats fray; a stretch of East Strand is swallowed. The evacuation saved many lives but it feels like failure: storefronts gone, families dispersed, the braided bracelet I gave a neighbor floats away. Arman’s public wall is fast-tracked as a \"response,\" and the city begins relocation planning. I stand on ruined cobbles, rain slicking my hair back, and feel the deep collapse — commitment becomes an ache that lingers in the bones.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Elena",
+        "Tomas Belmar",
+        "Noah Ríos",
+        "Priya",
+        "Arman Kade"
+      ],
+      "locations_used": [
+        "Flooded Promenade",
+        "East Strand",
+        "Abandoned Pier"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Prototype Sprint with Noah",
+      "branch_designation": "Route B",
+      "narrative_focus": "I decide to work with Noah to produce immediate demonstrables. We set a furious sprint in the Resilience Lab: I map community touchpoints, he codes sensor arrays. His curly black hair is damp with sweat; the silver streak above his temple glints when he leans close. He’s precise and mercifully pragmatic. We aim for a quantifiable pilot that shows measurable wave attenuation in 30 days. The greenhouse smells like wet earth as we merge kelp geometry with instrument arrays. Priya is skeptical but helps turn outputs into graphs for Cass. Arman publicly derides our \"toy sensors,\" but the mayor gives us a provisional window to prove results. Elena visits with coffee and patched awnings; Tomas brings old fishing rope as material. Working with Noah feels intimate and mathematical: late-night calibrations yield readable reductions. The team’s morale lifts as data points accumulate; I begin to think we can translate influence into policy by speaking the language the council understands: numbers. This partnership draws Noah and me closer — in the wire-lit lab, hands stained with kelp, we share a tired, fierce tenderness that is both solace and complication.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 10,
+      "characters_involved": [
+        "Mara Evans",
+        "Noah Ríos",
+        "Priya",
+        "Elena",
+        "Tomas Belmar"
+      ],
+      "locations_used": [
+        "Resilience Lab & Greenhouse",
+        "Resilience Lab"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Data vs. Deadlines",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The 30-day window closes beneath political deadlines. Our sensor arrays show real attenuation in controlled wave tests, but the council demands short-term guarantees. Arman’s lobby produces a competitor report alleging our sample size is too small. Cass tells us she needs incontrovertible field results within days — otherwise she’ll recommend Arman’s faster solution to the council. Noah proposes a public demonstration on a calibrated stretch of the Promenade; I push for community consent and transparent parameters. Tensions flare: a funder texts that paperwork is late; Elena worries aloud about rent notices; Tomas recites tidal folklore as if offering moral logic where politics offers none. I must decide whether to stage a risky public demo that could vindicate us, accept a lesser-controlled staged trial with a private partner, or retreat and push for more modeled evidence that will take longer. The clock tightens. Every choice trades time for credibility, and for me, every hour delayed feels like another doorway to displacement.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 9, Option [Next]",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we deliver the results Cass needs in time?",
+        "options": [
+          {
+            "label": "Stage the public demonstration now",
+            "consequence": "High visibility and risk of failure",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Accept a controlled private trial with faster deployment",
+            "consequence": "Gains quicker proof but raises transparency concerns",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Delay to refine models and risk council choosing Arman",
+            "consequence": "Safer data, political risk",
+            "target_chapter_index": 11
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Noah Ríos",
+        "Cassandra 'Cass' Green",
+        "Arman Kade",
+        "Elena",
+        "Tomas Belmar",
+        "Priya"
+      ],
+      "locations_used": [
+        "Resilience Lab",
+        "Promenade",
+        "City Council"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Demonstration and the Compromise",
+      "branch_designation": "Route B — Ending: True",
+      "narrative_focus": "We stage the public demonstration amid tense publicity. I stand near the test platform in my trench and watch as Noah’s sensors stream data; his hand brushes mine when the first live attenuation curve ticks into the fed feed. The assembled crowd — shop owners, press, and skeptical aldermen — watch water lap against engineered kelp matrices. The numbers are real: measurable damping where we anchored mats and synchronized sensors. Cass announces a mediated framework: a hybrid approach that installs Arman’s hard defenses where critical infrastructure demands it while funding community-driven living systems in neighborhoods. It’s not a full victory — Arman keeps roles in key zones and won concessions in contract language. Still, the outcome is honest: a mixed strategy acknowledging both the market’s speed and community knowledge. Noah and I stand on the pier as sun fractures through clouds; we are closer and wear relief like salt on skin. But in the back of my head is a tightness — hybrid solutions require governance, oversight, and trust. The city has adopted something that will protect many, but compromise will leave gaps where people like my neighbors could fall through.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10, Option A or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Noah Ríos",
+        "Cassandra 'Cass' Green",
+        "Arman Kade",
+        "Tomas Belmar",
+        "Elena"
+      ],
+      "locations_used": [
+        "Test platform on the Promenade",
+        "Flooded Promenade",
+        "Pier"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Private Trial, Public Backlash",
+      "branch_designation": "Route B — Ending: Sad",
+      "narrative_focus": "We accept a controlled private trial with a sympathetic corporate partner to deliver fast, controlled field results. The trial produces clean numbers: attenuation curves and sensor reliability. But Arman frames our private partner as a backdoor that validates his approach; community meetings sour as distrust grows — neighbors worry data will be used to justify exclusionary redevelopment. Elena confronts me about access: “Will my customers still be here after this proves the shore can be monetized?” Noah argues that scaling requires funding and that quick validation can save lives; his brass band flashes under stress. The press frames the story as \"tech vs. tradition,\" and Cass faces a political backlash for perceived cozying with private firms. While our trial strengthens the argument for adaptive systems, public faith fractures. A council vote passes a version of Arman’s installation that includes private management clauses. We have technical wins but political losses: the pilot’s results are co-opted into a narrative that accelerates privatization. I am left with technical validation and a community that feels betrayed — the intimacy of our collaboration is shadowed by the costs of quick choices.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Noah Ríos",
+        "Elena",
+        "Arman Kade",
+        "Cassandra 'Cass' Green",
+        "Priya"
+      ],
+      "locations_used": [
+        "Trial platform behind guarded buoys",
+        "Promenade"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Brokered by Cass",
+      "branch_designation": "Route C",
+      "narrative_focus": "I take Cass’s invitation to broker a public-private compromise. The mayor arranges a closed mediation with Arman, Noah, Priya, and community elders including Tomas. In a conditioned conference room, Cass’s sea‑glass brooch is steady; Arman, suited and unyielding, lays out budget lines, while I map out living systems with my leather notebook open. Noah’s prototype is on the table as a bargaining chip; he watches me with the soft, sardonic half-smile that has grown familiar. We build a staged plan: hard defenses for critical infrastructure, funded by Arman’s bond, combined with an independent community trust to develop living seawalls on neighborhood shorelines, overseen by an NGO panel including Priya and community representatives. It feels possible: a hybrid that enshrines local input. Cass promises transparency clauses and oversight; Arman, reluctantly, signs. There’s relief in compromise, and in the quiet aftermath I watch sunlight fracture across the warehouse glass of the Resilience Lab — for the first time in months, I imagine a future in which my hometown remains habitable. But the agreement depends on good faith, audits, and politics that often bend to power. We have a paper scaffold — whether it will hold remains to be seen.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Mara Evans",
+        "Cassandra 'Cass' Green",
+        "Arman Kade",
+        "Noah Ríos",
+        "Priya",
+        "Tomas Belmar"
+      ],
+      "locations_used": [
+        "City Council backroom",
+        "Resilience Lab",
+        "Conference room"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Implementation Decisions (and Betrayals)",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "Implementation begins. Arman’s contractors mobilize heavy machinery to install hard defenses along the harbor’s core while the community trust schedules living seawall rollouts. I oversee site‑specific designs, mapping access points and kelp terraces. Noah helps configure sensors to report into the trust’s dashboard. For a while, the plan proceeds in parallel; engineers hammer, volunteers plant, and Cass holds press briefings promising equity. Then two things happen in quick succession: an investor clause is quietly amended to allow privatized management of certain access strips, and a supply chain glitch delays the community trust’s grant disbursements. Elena receives a notice that a stretch of her street has been rezoned for \"managed retreat.\" Tomas organizes a protest at the Abandoned Pier that evening. I feel the hopeful updraft collapse into bureaucratic erosion. I confront Noah about the amended clause — his face is thin, apologetic; he says he didn’t foresee the legalese. I have to choose whether to publicly call out the amendment, risk the entire hybrid collapsing, or work quietly to patch the clause through legal channels. My sense of responsibility tightens into a painful weight.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 13, Option [Next]",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the amendment and delayed funds?",
+        "options": [
+          {
+            "label": "Expose the clause publicly and demand reversal",
+            "consequence": "Public scandal and possible legal fight",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Pursue legal fixes quietly with Priya and Cass",
+            "consequence": "Slow, bureaucratic redress with uncertain results",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Accept the amendment and focus on maximizing protection for remaining zones",
+            "consequence": "Secures pockets of protection but concedes displacement risk",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Arman Kade",
+        "Cassandra 'Cass' Green",
+        "Noah Ríos",
+        "Priya",
+        "Elena",
+        "Tomas Belmar"
+      ],
+      "locations_used": [
+        "Harbor core",
+        "Construction sites",
+        "Abandoned Pier",
+        "Resilience Lab",
+        "City Council backroom"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "After the Storm — Consequences (Finals)",
+      "branch_designation": "Route C — Multiple Endings",
+      "narrative_focus": "The final decision ripples into outcomes. If I expose the clause publicly, it sparks scrutiny, Arman’s investors hesitate, and the city pauses ownership transfers — but legal fights delay construction and some displaced families face interim hardship. If I pursue quiet legal fixes with Priya and Cass, we wrestle clauses back into better form but months pass; meanwhile, some sites proceed under interim management and a stretch of East Strand loses businesses. If I accept the amendment and optimize remaining zones, pockets of durable living systems flourish while other blocks are redeveloped into privatized promenades. No single path fully restores what was lost. I stand on a battered pier after a storm; water has eaten a lane of cobbles, and the kelp mats I helped plant have anchored a narrow strip of shore. Noah holds my hand, and our partnership bears both warmth and fatigue — he has offers to scale the sensors elsewhere; I am tethered to the place I promised to protect. Tomas organizes a kelp-replant ritual; Elena reopens on a new corner with fewer tables. The city adopts a mixed strategy: gains and losses braided together. My hope is tempered: we saved some, lost some, and learned that resilience is iterative and morally costly. Love survives with scars; the work continues.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 14, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Evans",
+        "Noah Ríos",
+        "Tomas Belmar",
+        "Elena",
+        "Priya",
+        "Cassandra 'Cass' Green",
+        "Arman Kade"
+      ],
+      "locations_used": [
+        "Abandoned Pier",
+        "Kelp Nursery",
+        "Battered pier",
+        "East Strand"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 06:55:44"
+}

@@ -1,0 +1,138 @@
+label chapter2:
+
+    # [Scene: Resilience Lab & Greenhouse | Late Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft mechanical hum of pumps; distant gulls muffled by glass; occasional drip of water from a watering rig.]
+    # play music "music_placeholder"  # [Music: Low, insistent piano undercurrent — steady, slightly uneasy]
+    "You step through the heavy door and the room thinks you are one of its own: humidity clings to your jacket, the greenhouse air smelling of wet soil and metal. Light filters through misted glass in"
+    "thin, forgiving bands; the vertical gardens throw a green wash over everything. Your boots leave soft prints on a strip of mud someone swiped toward the floor drain."
+    "Priya is already there, tablet in hand, knees tucked against a leaning crate as if she’s been waiting for this exact minute. Her brow is narrowed, the blue tips of her hair a small neon punctuation"
+    "in the dim. The screen beside her maps neighborhoods in a clean grid: exposure, equity metrics, a lattice of colored risk that seems to glow and then recede."
+    "Noah Ríos stands at the wave tank, palms braced on the bench. His sleeves are rolled, the pale-blue of his shirt a cool island in the greenery. Smartglasses throw ghostly overlays into the air — a"
+    "lattice of numbers and tiny blinking nodes. He’s tap-tap-tapping at a prototype sensor wrapped in tape, coaxing a reading to sing. When he notices you, his smile is immediate and softer than the presentation in your"
+    "mind; there’s that single silver streak like a slash of moonlight in his hair."
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "You're late."
+    "You can see the matrix full-screen as the tablet clicks down. 'The mayor's aide left that note. Cass needs short-term measurable protection. Not a promise — a number she can pin in a briefing.'"
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "Show me the assumptions."
+    "Your voice is steadier than you feel. 'What timeframe are they counting as 'short-term'?'"
+
+    "Priya slides the tablet toward you. Priya" "Thirty to ninety days for deployable mitigation."
+    "'And the model treats temporary barriers as 'protection' — it weights immediate reduction in flood depth heavier than long-term habitat resilience. It's optimized for political cycles.'"
+    "You can taste the salt of anger at the back of your throat."
+
+    mara_evans "That's... calibrated for optics, not for community survival."
+    "Noah Ríos laughs, a quick exhale that is half defense. 'Optics win votes, Mara. And votes fund pilots. If we don't give them a number that looks like 'we did something now,' they'll go with Arman Kade's bid because it says 'done' in the contract.'"
+
+    priya_anand "And Arman Kade's timeline collapses procurement around hard infrastructure. The city will accelerate the calendar to match his private schedule."
+    "She taps a node and a timeline unfurls: approvals, contractor windows, a looming procurement checkbox. 'We need to show measurable reduction in exposure now, or the pilot gets boxed out.'"
+
+    mara_evans "So we have to compress living systems into an immediacy they weren't designed for."
+    "The thought is bitter. Living mats, terraces, kelp trunks — biological time refuses to be forced into civic deadlines."
+    hide priya_anand
+    hide mara_evans
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The wave tank's pump shifts pitch as Noah Ríos adjusts a valve; the kelp rustles in miniature tide.]
+    show noah_ros at left:
+        zoom 0.7
+
+    noah_ros "We can couple it. Short-term reduction from modular barriers, coupled with living systems that—"
+    "He pauses as his smartglasses flicker. '—can bath the immediate surge and then let the kelp continue accreting biomass. The sensor band ties readings to community alert thresholds. We could prototype a node and prove functional reduction within weeks.'"
+    "You watch his hands work, the tape and wire and stubborn optimism. He believes in a middle place between speed and care; he believes you can thread the needle. You want to believe, too. But belief is a fragile scaffold under the weight of history."
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "How repeatable is that? If the model's bassline is 'short-term reduction,' then our living elements must show measurable dampening not just in calm tests but in surge simulations. Can we replicate scale behavior in this tank?"
+
+    noah_ros "Not perfectly. Tanks are tame. But if we include the sensor's frequency response and map it to kelp flex and mat porosity, we can model decay curves. Priya's models can run parametric scenarios."
+    show priya_anand at center:
+        zoom 0.7
+
+    priya_anand "They will run faster if you give me real-time sensor data. And if you, Mara, let us take the cross-section you drew last month and sign off on one prototype, procurement can be engaged as a pilot."
+    "You look at your leather notebook under your arm. You can feel the impressions of previous sketches — tide lines, terrace layers, a child's handwriting faded into a map of belonging. You set it on the"
+    "bench and flip to a clean page, fingers smudging ink as you sketch a cross-section fast: living mats, community terraces, sensor nodes wired to Noah Ríos’s band, footpaths for market access. Lines thicken as urgency hardens"
+    "them."
+
+    menu:
+        "Push for the measurable pilot now":
+            "You lay the notebook down and point to the cross-section; your voice tightens into a command. 'We sign up for one prototype — here. We prove dampening in the tank, and we demand a pilot clause that locks public access. No footnotes.' Priya's eyes flash; Noah Ríos's mouth softens at your certainty. 'Okay,' Priya says. 'I'll draft the procurement language. But you'll need to stand in the room when Cass hears it.'"
+        "Insist on more robust biological testing first":
+            "You rub at the smear of ink and shake your head. 'We can't rush the biology into a political timetable. If the mats fail under true surge, we'll hand the city a cautionary tale.' Noah Ríos's smile thins; Priya leans forward, voice low. 'That cautionary tale is exactly what Arman Kade wants.' There is a long beat where the tank hums and the possibility of failure smells like old rain."
+
+    # --- merge ---
+    "The scene continues"
+    "The moment hangs — small, like breath before a plunge. Whatever you choose would change the shape of the argument in Cass's office; it would change who trusted you and who counted you as a convenient ally."
+
+    "A ping from your phone is a knife-sharp interruption. Elena: a photo that arrives before the message — a stall collapsed into a shallow pool, crates soaked, a banner half-submerged. The caption is blunt" "Night surge."
+    "You press play on a voice clip from Tomas. His voice is weathered, close-mic; older and shorter than you expect. 'Mara. Can we hold?' Two words, freighted with tidal memory and bone."
+
+    mara_evans "We have to,"
+    "you say aloud, but the words are softer than necessity, more like an attempt at incantation. Your hands go to your pendant without meaning to. It is heavy with the weight of promises: family storefronts, a sister's life, the slow architecture of neighborhood ties."
+
+    "Noah Ríos steps toward you, cutting across the tablet glow. Noah Ríos" "Listen,' he says. 'I know the stakes are—"
+    "He stops. He always stops when there's too much to say and not enough of the right words. 'We can do staged prototyping. You and I both know that community needs something demonstrable. Give me a"
+    "site, give me sensors, and I will get you data fast. But I need procurement to accept a hybrid clause.'"
+
+    mara_evans "Hybrid clause meaning public access retention,"
+    "you finish for him. 'No privatized control in the pilot.'"
+
+    noah_ros "No privatized control."
+    "he agrees, then hesitates. 'But that clause will make some funders nervous. We might have to take incremental funding that peels off for manufacturing scale. We have to make a case that open-source modules can be manufactured by local co-ops — that’s our leverage.'"
+
+    priya_anand "And our models can show co-op manufacturing reduces long-term cost while improving equity metrics,"
+    "she adds briskly. 'But—'"
+    "She looks up, and for the first time in the conversation there is not just pragmatism but weariness in her face. 'Procurement windows are not patient. Arman Kade has people in motion. He's already put an accelerated schedule into an internal memo that our aide flagged.'"
+    "You pace the greenhouse pathways, the mud of your boots squelching in that small, private sound. Each step maps a memory: the storefront sign you found yesterday, Elena's laugh, Tomas bringing kelp seedlings to your childhood"
+    "backyard. The weight you carry isn't only technical obligations; it's the ledger of every person who voted for hope instead of leaving. If you fail, they move. If you succeed, you buy time — a fragile"
+    "currency, but sometimes the only kind."
+
+    menu:
+        "Call Elena now and promise action":
+            "You press her name; your thumb lingers. When she answers, her voice is sharp with exhaustion. 'Mara, we lost half the display.' You say the only thing you can: 'I'll be there tonight. We have a plan for a prototype site.' You hear short, incredulous laughter over the line and then a cough. 'Fine,' she says. 'But you come through.' The call ends with the sound of wind and distant water."
+        "Send Tomas a quick assurance message instead":
+            "You send a short voice note back to Tomas instead, keeping it calm: 'We are mobilizing a prototype. I'll update you tonight.' The message feels both small and crucial; it's not a promise you can fully keep, but it's a binding thing you give yourself aloud. You tuck the phone back into your pocket, feeling the size of the work in your ribs."
+
+    # --- merge ---
+    "The scene continues"
+    "Priya watches you while you answer, fingers already opening a new tab. 'If we can secure a street-front pilot where a market sits, we can present Cass with projected reduction numbers and a community oversight clause.'"
+    "Her voice is efficient, almost kind. 'But Cass will want assurances—measures, timelines, exit clauses. She'll ask: what happens if the living mat doesn't reduce flood depth in a Category 3? She won't accept 'we'll learn' as"
+    "an answer.'"
+
+    mara_evans "We need contingency measures that are concrete,"
+    "you say. 'Evacuation, temporary shelters, protection of livelihoods during deployment. Numbers alone won't save them if the social supports are absent.'"
+
+    "Noah Ríos nods. Noah Ríos" "We can map thresholds: sensor triggers, community alerts, surge-response deployables."
+    "He taps his band; a tiny blue light winks. 'We already have a prototype for automated alerts tied to sensor bandwidth. If a node crosses a threshold, it pushes notifications to neighborhood phones, triggers volunteer response teams, and records event data.'"
+    "You feel the tilt of something heavier now: timelines, procurement pressure, political theater. The greenhouse hums on. The kelp in the tanks flutters like a small crowd waiting to see what the speakers will decide."
+
+    priya_anand "We can produce a demo for Cass in three weeks if we get a commitment today. Not the full scale you want, Mara, but enough to show measurable dampening in modeled surge scenarios."
+    "Her voice narrows, careful and soft. 'Otherwise, Arman Kade will sell the city the certainty of concrete and schedules. People will be moved 'for their own safety.''"
+    "The words echo, as if thrown against the glass. For a second you see the city in two possible frames: one armored in steel, crisp and ordered but with edges that cut at neighborhoods; the other"
+    "stitched together by hands and time, beautiful but slow and exposed. You know which one your heart has always leaned toward. You also know which one, in municipal boardrooms, looks like progress."
+    "You breathe. The greenhouse smells like damp paper and the iron tang of pumps. The tank's waves keep time. Your notebook is open, the cross-section drying where your finger rested on the ink."
+    "You promise yourself, quietly and fiercely: you'll work harder, quieter, smarter. You'll be whatever the city needs you to be to keep people here. The promise is a thing you can hold against the cold press of the calendar."
+    hide noah_ros
+    hide mara_evans
+    hide priya_anand
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: Piano note held and then allowed to decay into a minor chord — unresolved]
+    "You look at Noah Ríos; he looks back, burden and warmth braided together. Priya taps her tablet, loading the timeline and the model overlay with a practiced swipe. Outside, the harbor's hush presses against the glass,"
+    "carrying the distant sound of a city that will soon ask for a number and an answer."
+    # [Page-Turn Moment]
+    "You fold the notebook closed with a slow, deliberate motion. The lab thrums around you — machines, people, the faint living breath of kelp — and for the first time since you started, you can feel"
+    "the shape of the thing you must do. Not an easy thing. Not a clean thing. Necessary."
+    "You tuck the notebook into your sling, and step toward the door, feeling the mud give under your boots as if the city itself were reminding you that nothing here stands on dry ground for long."
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

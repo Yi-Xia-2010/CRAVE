@@ -1,0 +1,271 @@
+{
+  "generated_at": "2026-03-10 20:58:44",
+  "total_chapters": 15,
+  "total_valid_routes": 8,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        9,
+        13,
+        14,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14,
+        15
+      ],
+      "length": 7
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        14,
+        15
+      ],
+      "length": 7
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        13,
+        14,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        14,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Final Epilogue (Convergent True Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13,
+        14,
+        15
+      ],
+      "length": 8
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt and Graphs",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "The Beacon’s Whiteboards",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Town Hall, Three Voices",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Wooden Stakes and Copper Wires",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Budget Lines and Heartlines",
+      "branch": "Route A / Split",
+      "children_ids": [
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The First Raised Plank",
+      "branch": "Route A — Happy Ending",
+      "children_ids": [
+        13
+      ]
+    },
+    "7": {
+      "id": 7,
+      "title": "Boardrooms and Raincoats",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Contract Redlines",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9,
+        15,
+        14
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Oversight Committee",
+      "branch": "Route B — Hybrid Happy",
+      "children_ids": [
+        13
+      ]
+    },
+    "10": {
+      "id": 10,
+      "title": "Banners and Barking Orders",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Bonds, Bylaws, and Boats",
+      "branch": "Route C / Split",
+      "children_ids": [
+        14,
+        9,
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Cooperative Harbor",
+      "branch": "Route C — Bittersweet-to-True",
+      "children_ids": [
+        13
+      ]
+    },
+    "13": {
+      "id": 13,
+      "title": "Threads for Tomorrow",
+      "branch": "Epilogue (Accessible from multiple routes)",
+      "children_ids": [
+        14
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "Weathered Promises",
+      "branch": "Conditional Outcome (Accessible from multiple nodes)",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "Harbor Light",
+      "branch": "Final Epilogue (Convergent True Ending)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 22,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

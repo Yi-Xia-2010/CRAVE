@@ -1,0 +1,520 @@
+{
+  "title": "Tidebound Threads",
+  "summary": "I narrate as Mika Hoshino, a pragmatic repairswoman inheriting her late mother's workshop and the moral responsibility to keep Atera whole. The story is a romance woven into a town-scale response to climate threats. Beginning in a shared crisis moment, I choose whom to trust: Elias, the gentle marine biologist advocating living systems like kelp farms; Soren, the charismatic urban planner promising engineered elevation and investment; or the community-first path of collective action. Choices determine what kind of success we achieve — grassroots governance, scientific-model replication, hybrid public-private partnerships, or scaled redevelopment with ecological safeguards. Along the way my reluctance to ask for help loosens; I learn to delegate, negotiate, and anchor love alongside duty. Romances deepen through collaborative work and endings vary in texture (True, Happy, Bittersweet) while following an upward curve as Atera becomes more resilient and relationships mature into partnerships based on shared labor and trust.",
+  "emotional_curve_type": "Rise",
+  "player_character": "Mika Hoshino",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Chapter 1: Low-Tide Repairs [Rise]",
+      "branch_designation": "Common",
+      "narrative_focus": "I begin in my workshop above the greenhouse, checking tide-sensors and repairing a dented pump. The scene introduces my utility jacket with patched elbows, ash-brown bob and sea-glass strand, the dented metal key to my mother's door, and the wrist patch that pings tide data. I meet Jun delivering salvaged timber. We talk about a recent mayoral meeting and a glossy render of Soren Voss's plan. That night, an emergency high tide floods the lower docks; I wade through salt-slick planks and feel both exhaustion and the old stubbornness that keeps me in Atera. Elias shows up with a soaked field notebook and sea-blue eyes full of worried maps; he speaks about a kelp pilot that reduced surge at another site. I feel torn between the practical promise of Soren's elevation scheme and Elias's patient restoration. The chapter sets my goal: protect our social fabric while not abandoning personal life; it ends with Mayor Amina calling a town assembly that will force me to choose a path to promote.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Jun",
+        "Elias",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "workshop",
+        "rooftop greenhouse",
+        "harbor",
+        "lower docks",
+        "boardwalk"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Chapter 2: Town Assembly at the Docks [Rise]",
+      "branch_designation": "Common",
+      "narrative_focus": "The town assembly unfolds on a raised warehouse floor overlooking the harbor. Mayor Amina stands steady with her silver-gray braid and scarves; people crowd in — fishers, activists, young Riv with his bandana. Soren Voss arrives in a weather-treated trench coat that throws off light, carrying glossy models. I describe his pale gray eyes like blueprints, the reflective weave of his coat, the engraved business card case he lets fall open like a ritual. Elias presents kelp restoration data with a field projector; his hands tremble with hopeful urgency. Tension rises; the crowd splits between immediate infrastructure and long-term ecological restoration. Jun nudges me, inviting blunt truth. I articulate my practical concerns: livelihoods, nets, and the dignity of our town. The mayor asks for volunteers to negotiate and test proposals. The chapter ends with an intimate exchange: Soren asks to speak privately, Elias offers to show me the subtidal site at dawn, and Riv urges us to mobilize. I sense the town at a threshold and my own reluctance to ask for help tugging loose.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Amina Bakar",
+        "Soren Voss",
+        "Elias",
+        "Jun",
+        "Riv"
+      ],
+      "locations_used": [
+        "raised warehouse floor",
+        "harbor",
+        "warehouse",
+        "docks"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Chapter 3: The Cross-Tide Choice [Rise]",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "In private after the assembly, I stand on the wet boardwalk with the harbor behind me and weigh proposals. Soren offers a fast-track redevelopment with raised infrastructure and investment — his coal-black hair slicked back, a single silver streak visible when he turns to me; his data-bracelet projects a shimmering model. Elias asks for community support for a kelp pilot expansion and living breakwaters, eyes earnest, algae pendant catching the dusk. Riv wants a militant, community-first blockade to force concessions. Jun advises practicality. Mayor Amina asks for a recommendation. My decision splits the story: support Elias (Option A) — commit to restoration and close collaboration; support Soren (Option B) — negotiate a hybrid redevelopment path; or lead a grassroots cooperative to resist top-down plans (Option C). I sense that each path will change my love and the town’s future. The chapter’s logic hub ends with me choosing a side and stepping into its first action.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which approach will I champion to Amina and the town?",
+        "options": [
+          {
+            "label": "Back Elias’ kelp and living-breakwater pilot, commit my workshop as a restoration hub.",
+            "consequence": "Aligns me with scientific restoration and Elias’s trust; emphasizes ecological labor and small-scale demonstrations.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Negotiate terms with Soren to secure raised infrastructure with integrated ecological measures.",
+            "consequence": "Places me in pragmatic partnership with Soren, leveraging capital for faster physical resilience but requiring compromise.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Organize a community cooperative—block top-down plans and build local resilience on our terms.",
+            "consequence": "Centers grassroots governance and collective labor, risking slower funding but preserving local control.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Soren Voss",
+        "Elias",
+        "Riv",
+        "Jun",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "wet boardwalk",
+        "harbor",
+        "reedbeds"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Chapter 4: Kelp Pilot — Hands in the Water [Rise]",
+      "branch_designation": "Route A",
+      "narrative_focus": "I commit the workshop and greenhouse to Elias's kelp restoration pilot. The rooftop lab buzzes with amber grow-lamps and condensation halos as we strap sensors and patch buoy lines. Elias's sun-bleached hair is in a loose knot; I notice how his sea-blue eyes soften when he explains a tide map. We haul boxes to the subtidal site and watch through dive footage as kelp seedlings clamp to ropes in dappled green light. The chapter builds intimacy through labor: repairing anchors, testing drones, and late-night pints of shared noodles under the greenhouse glass. My practicality complements Elias's patient science; together we prototype a living breakwater that can be maintained by local crews — Jun trains volunteers to harvest sustainably. Mayor Amina gives conditional approval contingent on demonstration metrics. The chapter closes with a small but decisive success: the pilot reduces wave surge in a controlled test, earning our first municipal grant and deepening my growing trust in Elias.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Elias",
+        "Jun",
+        "Riv",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "rooftop greenhouse",
+        "subtidal site",
+        "workshop",
+        "harbor"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Chapter 5: Scaling the Tides (Logic Hub) [Rise]",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Our kelp pilot draws local interest and the mayor's conditional money. I must decide how to scale: push the project through municipal channels to secure larger funding (Option A), formalize a community cooperative that shares ownership and income (Option B), or accept a partnership with Soren to fast-scale the project with engineering support while insisting on ecological safeguards (Option C). Elias wants community ownership; Jun supports cooperatives; Soren offers rapid scaling with glossy projections. The moral and romantic stakes interweave: leaning into municipal funding brings visibility and likely more support for Elias's science but risks bureaucratic strings; a cooperative keeps the town’s agency but slows progress; partnering with Soren could magnify our impact but require political compromise. The chapter emphasizes teamwork, negotiations, and my internal challenge to stop carrying guilt alone. It ends with my choice committing us to a clear growth path.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we scale the kelp restoration?",
+        "options": [
+          {
+            "label": "Lobby Mayor Amina for municipal funding to scale the pilot rapidly.",
+            "consequence": "Fast expansion under municipal oversight; Elias gains institutional legitimacy; we accept oversight and metrics-driven timelines.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Form a community cooperative that owns the kelp farms and shares revenue locally.",
+            "consequence": "Slower but locally governed growth; strengthens social fabric and creates shared livelihoods.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Negotiate a conditional partnership with Soren to leverage capital and engineering, insisting on living shoreline safeguards.",
+            "consequence": "Rapid scale with political compromise; potential for broader impact and Soren's influence redirected; requires careful contract work.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Elias",
+        "Jun",
+        "Soren Voss",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "greenhouse",
+        "municipal offices",
+        "workshop",
+        "rooftop greenhouse"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Chapter 6: Harvest & Harbor (Route A Ending) [Rise]",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "The chapter resolves the kelp-route arc with an upward progression. If municipal funding was chosen, I narrate the thrill of seeing municipal boats painted with cooperative logos and Elias elevated to lead a regional restoration unit; love strengthens through shared institutional victory. If cooperative ownership was chosen, the workshop becomes a community hub, revenue sharing sustains families, and I fall into a partnership with Elias built on nightly lab work and shared governance. If Soren partnership was chosen, the collaboration yields rapid scale but only after tenacious contract negotiation ensures living shoreline requirements; Soren's hard edges soften as he accepts local governance clauses. Across outcomes, the town's shoreline is measurably safer, my relationship matures into a durable partnership with one of the love interests depending on choices, and I feel my old guilt loosen as community networks deepen. The ending is celebratory but honest: not all scars vanish, but the town moves forward with agency.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Elias",
+        "Jun",
+        "Amina Bakar",
+        "Soren Voss"
+      ],
+      "locations_used": [
+        "boardwalk",
+        "harbor",
+        "workshop",
+        "boats"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Chapter 7: Glass & Negotiations [Rise]",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose to negotiate with Soren to pursue a hybrid redevelopment. The Voss office is clinical and bright; I watch my reflection in chrome and see my patched jacket out of place among minimalist chairs. Soren’s coal-black hair and pale-gray eyes are direct; he projects zoning models from his transparent data-bracelet. He frames a plan to raise streets and build a resilience corridor that could stop the worst floods. I push for integrative clauses: living shoreline buffers and community employment quotas. Soren negotiates with strategic patience; his charisma eases mayors and funders. Elias is wary but offers to design ecological offsets. Jun warns about losing local control, Riv organizes protests outside \"the tower.\" I learn to speak Soren's language of timelines and deliverables while insisting on local governance. The chapter builds momentum through successful bargaining where both engineering and ecology gain traction, and a fragile trust begins between Soren and me over shared concern for the town’s future.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Soren Voss",
+        "Elias",
+        "Jun",
+        "Riv",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "Voss office",
+        "bluff",
+        "workshop",
+        "raised bluff",
+        "tower"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Chapter 8: Terms & Tides (Logic Hub) [Rise]",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The memorandum is the start. I must decide how far to lean into Soren’s model: push for strict ecological clauses and community oversight (Option A); fully back Soren’s large-scale plan to secure quick funds and infrastructure with the hope of later repairs (Option B); or use Soren’s resources conditionally while pushing to create a joint governance board including Elias and community representatives — a path that could shift power but requires trust (Option C). The chapter explores negotiating leverage, emotional vulnerability when Soren reveals fear of failure, and how my bluntness can be persuasive. It ends with my decision. Option C will branch out to a longer collaborative governance route that becomes a distinct path (leading to an expanded Route D at Chapter 13). All options continue the Rise by achieving tangible forward movement for Atera.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "What terms do I secure in the redevelopment memorandum?",
+        "options": [
+          {
+            "label": "Insist on strict ecological clauses and community oversight.",
+            "consequence": "Slower approvals but stronger safeguards and rising local authority.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Back Soren fully for rapid implementation, trusting we can correct course after.",
+            "consequence": "Fast infrastructure gains and economic influx; requires faith in future fixes.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Negotiate a conditional joint governance model using Soren's funding but with binding local seats and ecological veto; this complex model requires further structuring.",
+            "consequence": "Creates a new hybrid governance path and scales the project; leads to deeper collaboration to structure the model.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Soren Voss",
+        "Elias",
+        "Amina Bakar",
+        "Jun",
+        "Riv"
+      ],
+      "locations_used": [
+        "Voss office",
+        "meeting room",
+        "bluff"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Chapter 9: Raised Streets, New Foundations (Route B Ending) [Rise]",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "The redevelopment proceeds under the terms I negotiated. If Option A was chosen, final contracts include binding ecological safeguards and community oversight positions; construction raises streets and installs engineered seawalls augmented by living shoreline pockets Elias helps design, creating jobs and preserving key cultural sites. If Option B was chosen, implementation is rapid; influx of jobs, new clinics, and raised infrastructure bolster immediate safety and local businesses, but it demands a long-term watch to ensure ecological promises are fulfilled — a watch we commit to. In both outcomes the town gains material security and I forge a complex connection with Soren — sometimes tender, sometimes transactional — that grows into a partnership of purpose and affection. The chapter ends with a town festival celebrating the first raised streets and the recognition that resilience is an ongoing project that we are better equipped to face together.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Soren Voss",
+        "Elias",
+        "Amina Bakar",
+        "Jun",
+        "Riv"
+      ],
+      "locations_used": [
+        "raised streets",
+        "living shoreline pockets",
+        "boardwalk",
+        "construction sites"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Chapter 10: Cooperative Rising [Rise]",
+      "branch_designation": "Route C",
+      "narrative_focus": "I choose the community cooperative path and begin organizing. The workshop becomes a meeting hall; my dented key unlocks community ledgers and shared plans. Riv and Jun lead outreach — Riv with his bandana and contagious energy, Jun with sawdust and a steady plan. Elias volunteers his science to train worker-cooperators; Soren’s presence is minimal and distant. We draft bylaws for shared ownership of kelp farms, repair crews, and floating markets. Mayor Amina watches cautiously but provides access to municipal land for demonstration beds. The chapter details grassroots meetings on the greenhouse rooftop, potlucks, and direct-action training to secure funding. My resistance to asking for help loosens as the town steps up; I learn to convene rather than carry alone. The chapter ends with the cooperative securing a small grant and the first community-owned harvest being scheduled.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Riv",
+        "Jun",
+        "Elias",
+        "Amina Bakar",
+        "Soren Voss"
+      ],
+      "locations_used": [
+        "workshop",
+        "greenhouse",
+        "municipal land",
+        "boardwalk"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Chapter 11: Direct Action or Policy? (Logic Hub) [Rise]",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The cooperative gains momentum and attention. Now I must choose tactics to secure broader support: mount organized direct actions (Option A) to pressure for binding municipal commitments; pursue policy through Mayor Amina’s office and apply for matching grants (Option B); or combine both by staging a high-visibility cooperative harvest that demonstrates economic viability while lobbying for policy change (Option C). Each path raises stakes: direct action accelerates public awareness but risks legal fights; policy work can institutionalize gains but may be slow; a combined approach requires precise orchestration. The chapter examines my growth as a convenor, my bluntness becoming strategic, and romantic trust forged by long days of logistics. I choose a plan that keeps the cooperative rising and reinforces community agency.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which strategy secures long-term support for the cooperative?",
+        "options": [
+          {
+            "label": "Organize a series of direct actions to force municipal commitments.",
+            "consequence": "Rapid attention and pressure; community cohesion strengthens; legal risks managed through alliances.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Work through Mayor Amina to draft policy and apply for matched funding.",
+            "consequence": "Slower but sustainable institutional support and formal recognition.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Stage a high-profile cooperative harvest and simultaneously lobby for policy change.",
+            "consequence": "Demonstrates viability and secures public goodwill; accelerates matched funding opportunities.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Riv",
+        "Jun",
+        "Elias",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "greenhouse",
+        "boardwalk",
+        "municipal offices"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Chapter 12: Shared Shores (Route C Ending) [Rise]",
+      "branch_designation": "Route C / Ending",
+      "narrative_focus": "The cooperative strategy succeeds in elevating community governance. Direct actions force the mayor to fast-track matched funding; policy work institutionalizes cooperative land leases; or the staged harvest convinces funders and citizens alike. Regardless of the tactical route, the ending shows Atera with strengthened local economy: cooperative-owned kelp farms, new training programs, and shared harvesting incomes. My relationship grows with Elias or with communal life depending on choices; I become a recognized leader who still wears my patched jacket and tends the greenhouse. The town's resilience is measured not just in raised streets or seawalls but in the muscle of its cooperative networks. The chapter closes with a communal meal on the boardwalk under lanterns, the harbor reflecting a softer future, and my sense that love and duty are braided together in our daily work.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Elias",
+        "Jun",
+        "Riv",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "boardwalk",
+        "harbor",
+        "greenhouse",
+        "community spaces"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Chapter 13: Hybrid Governance (Route D Start) [Rise]",
+      "branch_designation": "Route D (Hybrid Governance)",
+      "narrative_focus": "Choosing a conditional joint governance model with Soren moves us into a complex hybrid route. I step into an intensive structuring phase where municipal lawyers, Elias’s ecological team, Soren’s planners, and community representatives (including Riv and Jun) draft a binding governance charter. Meetings are long and the Voss Development Office’s glass frames our tired faces. I describe Soren’s coal-black hair slack in a rare moment of exhaustion, his pale-gray eyes surprisingly open when he admits fear of repeating past mistakes; Elias, sea-blue eyes steady, refuses tokenism. The chapter charts procedural work: defining veto powers for ecological harm, revenue-sharing from development offsets to fund living shorelines, and an independent community monitoring board. The hard political labor becomes emotional labor; through it, I learn leadership beyond repairwork. The chapter ends with a provisional charter accepted for pilot implementation and the fragile spark of collective achievement.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Soren Voss",
+        "Elias",
+        "Riv",
+        "Jun",
+        "Amina Bakar",
+        "municipal lawyers"
+      ],
+      "locations_used": [
+        "Voss Development Office",
+        "harbor",
+        "meeting room"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Chapter 14: Institutional Love (Logic Hub) [Rise]",
+      "branch_designation": "Route D / Split",
+      "narrative_focus": "With a charter in hand, we must choose the pilot's emphasis: prioritize engineered safe zones with embedded living shoreline credits (Option A); center community-led kelp cooperatives as the flagship proof-of-concept (Option B); or create a balanced pilot that alternates development parcels with conservation corridors and co-managed revenue streams (Option C). This choice will shape governance culture: either institutionalizing engineering-first solutions with ecological credits, spotlighting grassroots enterprise, or modeling a hybrid alternation. Each option pushes the town up the Rise curve in different ways: economic stability, local empowerment, or replicable governance models. The chapter explores how my relationship with Soren shifts — closer in the trenches of bureaucratic work — and how Elias and Riv push institutional accountability. The chapter closes with my decision to steer the pilot model we will implement.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 13, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which pilot model will our hybrid governance implement?",
+        "options": [
+          {
+            "label": "Engineered safe zones embedded with living-shoreline credits.",
+            "consequence": "Rapid physical resilience with ecological offsets; test for scalability.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Community-led kelp cooperatives as flagship proof-of-concept.",
+            "consequence": "Demonstrates strong social model and local livelihoods; slower scaling.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Balanced alternating parcels of development and conservation with co-managed revenue.",
+            "consequence": "Provides a replicable and politically palatable model that balances growth and ecology.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Soren Voss",
+        "Elias",
+        "Riv",
+        "Jun",
+        "Amina Bakar"
+      ],
+      "locations_used": [
+        "meeting rooms",
+        "pilot sites",
+        "boardwalk",
+        "development parcels"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Chapter 15: Model Town (Route D Ending) [Rise]",
+      "branch_designation": "Route D / Ending",
+      "narrative_focus": "The pilot is implemented under the hybrid governance charter. If Option A was chosen, engineered safe zones deliver rapid infrastructural gains paired with living shoreline credits funding habitat restoration; if Option B, cooperative kelp farms provide livelihoods and demonstrate social resilience; if Option C, alternating parcels yield a replicable governance model that balances growth and conservation. Across all variants, the town benefits from measurable increases in safety, employment, and ecological indicators. Soren publicly acknowledges the necessity of local oversight; Elias scales ecological methods into policy; Mayor Amina and our community board co-sign a plan for regional replication. Personally, I stand on the boardwalk at dawn with my patched jacket and braided bracelet, holding hands with whichever partner the player chose through prior choices — our love is practical, messy, and rooted in daily labor. The ending radiates progress: Atera becomes a model for other towns, showing that care, negotiation, and shared work can bend rising seas into a livable future.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 14, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mika Hoshino",
+        "Elias",
+        "Soren Voss",
+        "Amina Bakar",
+        "Jun",
+        "Riv"
+      ],
+      "locations_used": [
+        "boardwalk",
+        "mixed-use parcels",
+        "kelp beds",
+        "regional conference venues"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "All chapters are tagged [Rise]; routes A (kelp), B (redevelopment), C (cooperative), and D (hybrid governance) produce positive/upward conclusions with varied textures of romance and governance.",
+  "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+  "_meta_arc_strategy": "Rags to Riches (Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 21:51:44"
+}

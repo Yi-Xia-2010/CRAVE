@@ -1,0 +1,245 @@
+label chapter9:
+
+    # [Scene: TideLine Field Office (Mayor's Meeting Room) | Late Afternoon — Storm-pressured Light]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Urgent strings, building rhythm]
+    "You enter on the tail of a rumor turned headline. Jun's leak is the coal that warmed the match — the journalist's byline has already cut into town conversations like wind into a loose sail. The"
+    "room smells of wet cardboard and heated breath; Aria Chen's suit still sheds faint beads of rain. Mayor Ana sits at the head, a paperweight of steadiness in a world that keeps tipping."
+    show mayor_ana_beltran at left:
+        zoom 0.7
+
+    mayor_ana_beltran "Thank you for coming quickly. We needed everyone in one room."
+    show aria_chen at right:
+        zoom 0.7
+
+    aria_chen "Mayor. Marin."
+    "Her voice is precise, almost rehearsed. It doesn't hide the apology threaded through it."
+    show jun_park at center:
+        zoom 0.7
+
+    jun_park "It— I didn't mean— the clauses were flagged internally and I thought— I thought transparency would help. I know how it looks. I'm sorry."
+    "You feel the tremor in Jun's apology like a loose line underfoot. He is young, and his apology is both an offering and an exposure."
+    hide mayor_ana_beltran
+    show marin_sol at left:
+        zoom 0.7
+
+    marin_sol "Those clauses read like a key someone else holds to our shore. 'Maintenance windows' that allow closure without meaningful recourse—people's livelihoods hinge on tide schedules."
+    "Aria Chen leans forward slightly; her eyes are blue-gray, sharper than before. For a minute they are not the cold of a corporation but a hinge, testing whether words will open."
+
+    aria_chen "We're willing to define 'maintenance windows' with strict temporal bounds, mandatory community notice, and joint operations with community liaisons. We will put enforcement language in the contract subject to municipal oversight."
+    hide aria_chen
+    show dr_lian_obasi at right:
+        zoom 0.7
+
+    dr_lian_obasi "And an independent audit clause, with measurable environmental triggers for any closure. Not just 'at our discretion.'"
+    "The room moves faster; proposals orbit one another like gulls. You name what matters—not theoretical compatibility but food schedules, nets left in the water, the single morning haul that feeds a week."
+    "Rosa Solé: (hands clenched at her sides) 'Words are good. We need practice. We need a plan for when TideLine's machines close the pier at three in the morning because sensors misread a swell. People don't have backup days for storms.'"
+    hide jun_park
+    show mayor_ana_beltran at center:
+        zoom 0.7
+
+    mayor_ana_beltran "We can insist on a town-composed oversight committee. We can insist on penalties for unjustified closures. But TideLine wants predictability to justify the grant."
+    "Aria's jaw tightens. For the first time she allows fatigue—thin, dangerous—to exist at the edges of her composure."
+    hide marin_sol
+    show aria_chen at left:
+        zoom 0.7
+
+    aria_chen "Predictability is how we keep people safe. We will accept community liaisons. We'll pilot joint operations. We will restrict emergency closures to defined thresholds and publish logs."
+    "You sense the compromise like a tightening rope: necessary, binding, and frayed in places."
+    "Jun's hands go still on the dossier; he looks to you as if asking permission to breathe."
+
+    dr_lian_obasi "We also need data-sharing in real-time. No black boxes."
+
+    aria_chen "Agreed. Full sensor transparency. I'll have TideLine engineers sign that."
+    "The air in the room shifts. It's not triumphant; it's not whole. It's practical. It's better than silence."
+
+    menu:
+        "Press Mayor Ana to demand legal wording now":
+            "Marin Solé pushes the maps toward the mayor, voice quick with the urgency of late afternoon. Mayor Ana nods, flipping to the clause page as if to sink a nail in place."
+        "Let Aria speak first and hold your line":
+            "Marin Solé uncrosses her hands and watches Aria closely. When Aria promises transparency Marin marks the cadence of each word like a score to be later replayed."
+
+    # --- merge ---
+    "The meeting proceeds with proposals shifting toward concrete wording and oversight plans."
+    hide dr_lian_obasi
+    show jun_park at right:
+        zoom 0.7
+
+    jun_park "I can help draft the community liaison framework. I— I want to be useful beyond the leak."
+    "You catch a flicker of something human in Jun that wasn't visible before papers and PR. He looks smaller than the dossier he carried in, but willing."
+
+    mayor_ana_beltran "I'll broker the committee. TideLine's legal team will work with ours and with an independent counsel. There will be staged approvals and public reports."
+    "You let the sentence land. It's heavy with compromise, and in that weight there is a kind of hopeful arousal—people moving, gears engaging, the possibility of something structural to hold the shore."
+    "Aria Chen: (quietly) 'We will station liaisons at the pier during critical periods. We will fund a rapid-response team that includes town members.'"
+    "You can see the calculus behind her words. She is buying credibility in a currency she doesn't usually spend: shared control."
+    hide mayor_ana_beltran
+    show marin_sol at center:
+        zoom 0.7
+
+    marin_sol "Make the liaison appointments in consultation with the co-op. Names, not titles."
+    "Aria's eyes flick to yours, unreadable for a heartbeat, then not. She nods—an almost-invisible concession—and you note the hardening at the edges of her mouth. Trust is altered at the point of contact; it leaves a scar."
+    hide aria_chen
+    hide jun_park
+    hide marin_sol
+
+    scene bg ch9_3be532_2 at full_bg
+    # [Scene: Repaired Pier | Midnight — After the Meeting]
+
+    scene bg ch9_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The creak of wood, murmurs of neighbors, the steady slap of tide]
+    # play music "music_placeholder"  # [Music: Percussive build, heartbeat tempo]
+    "Marin Solé and Kaito Navarro move in practiced choreography—one lifts, the other steadies; they pass tools along as if passing pieces of themselves back and forth. Hands are speaks; they stitch what words can't hold."
+    show kaito_navarro at left:
+        zoom 0.7
+
+    kaito_navarro "You're cutting too close to the bolt."
+    "He grins with reprimand, salt crusting his lip. 'If we strip it, the whole edge will peel.'"
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "And if we don't, it won't hold when the next storm hits. Tighten. Left more."
+    "Rosa Solé: (laughing breathlessly) 'If you two keep flirting with each other like that we'll never finish.'"
+    "The repair is a conversation in wood and hands. The argument from the meeting has trailed behind you like fog, but it blooms again when Kaito pauses, the light catching calluses like small medals."
+
+    kaito_navarro "You could've held back at the meeting. You had the leverage."
+    "Marin Solé stops, wrench mid-turn. The lantern light bounces off your braided bracelet, a small sun against storm-dark denim."
+
+    marin_sol "Holding back would have cost us access. We'd have signed away times when people could fish."
+
+    kaito_navarro "So we shout? Burn bridges so the rest of the world knows the contract is toxic? We needed—"
+    "He exhales sharply. 'We needed to keep people calm, Marin. Not everyone can lose a day's catch for our headlines.'"
+    "Your hands go still in your lap. There is a salt-and-metal taste in your mouth—a memory of the meeting room, of the journalist's byline. You remember Jun's nervous eyes, Aria's concession, Mayor Ana's tight jaw."
+
+    marin_sol "It wasn't just 'our headlines.' It was a clause that would let someone else lock our mornings away. We had to make it visible."
+
+    kaito_navarro "And now we have maintenance windows that will sometimes close the shore. We keep access, sure, but at the cost of unpredictability."
+    "Rosa Solé: (quiet) 'You both did what you thought would keep the town whole. But words and promises don't patch everything.'"
+    "The argument doesn't pop like an overripe bubble; it stretches, frays, and then softens into something more honest. The two of you are not idiots: you both know the stakes, both love the same unsteady horizon."
+    "Kaito Navarro: (after a long breath) 'I'm not trying to punish you. I'm scared our people will pay for our mistakes.'"
+    "You meet his gaze. There's anger there, yes, but also care. You have not been punished; you have been tied to someone who fights the same storms differently."
+
+    marin_sol "Neither am I trying to punish you. I'm scared too. But if we don't push, they'll do the thing we feared."
+    "Kaito's jaw loosens. He reaches out, traces a groove in the wood with a thumb—an old, nervous ritual."
+
+    kaito_navarro "So where does that leave us?"
+
+    marin_sol "Mending things as they come. Watching the logs. Holding the liaison seats accountable. Being loud enough when they're silent, but quiet enough to keep the crew together."
+    "Kaito Navarro: (half-grin) 'Careful, loyal friendship. Sounds dull.'"
+    "Marin Solé: (a small laugh) 'Maybe. But it will be alive.'"
+    "The two of you return to work. The argument is tucked into the folds of the night, not solved but transformed into something serviceable."
+
+    menu:
+        "Hand Kaito the extra plank and work silently":
+            "Marin Solé passes the plank over, shoulder brushing his. The night does the speaking, fixing wood where words are too sharp."
+        "Ask him about his grandfather's compass pendant":
+            "Marin Solé nods to the pendant. Kaito tells a short story about tides and stubborn hands, and for a moment the world narrows to that small tale and softened edges."
+
+    # --- merge ---
+    "The night continues with repairs and quieter companionship."
+    # [Scene: Rooftop Community Garden & Storm Shelter | Dawn — After a Long Night]
+    hide kaito_navarro
+    hide marin_sol
+
+    scene bg ch9_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: Warm strings beneath a steady, hopeful chord]
+    show dr_lian_obasi at left:
+        zoom 0.7
+
+    dr_lian_obasi "Our marsh plots performed unevenly—some thresholds held, others failed. The data's messy, but it shows direction. Nature-based measures bought us time in key zones."
+    show mayor_ana_beltran at right:
+        zoom 0.7
+
+    mayor_ana_beltran "We've brokered an agreement. TideLine will fund joint maintenance and station liaisons. They'll accept an oversight committee, transparency, and penalties for wrongful closures. But the contract keeps maintenance windows—defined—but still a constraint."
+    "Aria Chen: (from across the shelter, in the presence of others) 'We will commit engineers to work with local crews for two seasons. We will fund maintenance training and share sensor data openly.'"
+    "You watch faces tilt—Old Tomas nods with the slow acceptance of someone who measures years, Rosa maps the compromise onto a quick mental checklist. Jun stands alone, fragile and relieved."
+    "Aria's statement is a gift handed across a gulf; she has given space and skin-deep promises. Yet when she says 'we will' the 'we' still contains the corporate weight you can't ignore."
+    show marin_sol at center:
+        zoom 0.7
+
+    marin_sol "We kept our fishing rights in the major zones. We kept shore access. That's not nothing."
+    hide dr_lian_obasi
+    show rosa_sol at left:
+        zoom 0.7
+
+    rosa_sol "It's everything and more—it's our breakfasts and our weddings and our children's first nets. But it's also… not complete."
+    "The room hums with the twin noises of relief and unresolved tension. People clap in the polite, practical way of communities that have buckled and straightened."
+    "Old Tomas: (gravel voice) 'You fought like sea-wolves. You didn't let them take our mornings. That counts.'"
+    "You let the old praise settle like warm driftwood at your feet. It is a small, buoyant thing."
+    "Aria walks past, shoulders squared. You meet her eyes for one held second. They are still hard, but they are not stones; they are tempered glass."
+    "Aria Chen: (quiet, to you) 'We will learn. I will send the liaison roster tomorrow. I will be here during calibration. And Jun—'"
+    "She inclines her head toward him with a minimal gesture. '—will be part of the team.'"
+    "Jun Park: (voice small) 'Thank you.'"
+    "You sense apology and opportunity braided in that acceptance. The public scarring of the leak will not heal overnight; the amended terms will need watching; the liaison program will be a daily negotiation. Still, the horizon is not barred."
+    hide mayor_ana_beltran
+    hide marin_sol
+    hide rosa_sol
+
+    scene bg ch9_3be532_5 at full_bg
+    show marin_sol at left:
+        zoom 0.7
+
+    marin_sol "This is not tidy victory. It is a slow, practical truce. The town kept access where it mattered. We created structures that could be used to hold people accountable. We lost things too—ease, some certainty, a simpler trust—but we kept the shore."
+    # [Scene: Repaired Pier | Dusk — Weeks Later]
+    hide marin_sol
+
+    scene bg ch9_3be532_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A steady, calming crash of surf; distant laughter]
+    # play music "music_placeholder"  # [Music: Resolute piano with rising strings, then a broadening, warm chord]
+    "You stand where you began—mud on your denim, a braid of shell at your wrist catching the last light like a tiny lighthouse. The community moves around you—stitchers of planks, whisperers of policy, farmers of soil and tide. The victory tastes like salt: earned, incomplete, honest."
+    "Kaito Navarro comes up behind you, quieter now. His presence is easy, familiar; it is not the blunt axis of intimacy you once expected, but a steady weight."
+    show kaito_navarro at left:
+        zoom 0.7
+
+    kaito_navarro "We kept the main channels open. Old boats will go out come morning."
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "We did. But there will be nights TideLine's schedule closes a stretch. People will have to plan around that."
+
+    kaito_navarro "We have to be ready then. Go on the mornings they're closed. Build redundancy."
+    "You both look out over the water. It is not placid; it is always turning, always testing. But there are hands and plans and laws now to meet it."
+    "Kaito Navarro: (softly) 'We're different now. But I'm still here.'"
+    "You feel the careful loyalty in his tone—the same force that runs line through boards and hands through nets. It's not a cinematic reunion; it's a promise tempered by experience."
+
+    marin_sol "Me too."
+    "Rosa waves from where she organizes a group of teenagers, handing out pry-bars and doughnuts. Dr. Lian records a new sensor readout with a smile for one of the kids. Mayor Ana speaks earnestly with Old"
+    "Tomas; the oversight committee meets at a picnic table with TideLine engineers sitting, awkward and human."
+    "Aria Chen walks toward the pier at a measured pace. She pauses a respectful distance away, then nods—a small, civilian truce. You nod back. It is not warm; it is real."
+    "Aria Chen: (to you, final) 'I'll be running the pilot reviews myself. If we find failures, we adjust. That is the point.'"
+
+    marin_sol "Then keep the committee informed. Make the logs public. Keep Jun in the loop."
+    show aria_chen at center:
+        zoom 0.7
+
+    aria_chen "I will."
+    "She turns, leaving a faint echo of white-suited footsteps. You watch until she disappears into the evening mist."
+    "You inhale salt and diesel and wood-smoke. The town hums like something alive and stubborn. The marsh plots held in parts; others surrendered. The pier bears the memory of patched wounds and the outline of new seams."
+
+    marin_sol "We won a kind of permanency: rights, oversight, liaisons. We surrendered certainty for a seat at the table. It is not clean, but it is ours."
+    "You run your thumb along your bracelet—sea-glass catching the last of day's light. The ache of what was risked and the small, steady joy of what was preserved wash together."
+    "Kaito stands close enough to feel like a harbor. He doesn't reach for your hand, not because he doesn't want to but because this is where the two of you live now: present, loyal, careful."
+
+    kaito_navarro "Come on. Help me check the nets in the morning. There's a swell scheduled, and I'd rather be with you than without."
+    "You allow yourself a small smile—something that tastes of relief and of a future scaffolded by cautious vows."
+
+    marin_sol "I'll be there."
+    hide kaito_navarro
+    hide marin_sol
+    hide aria_chen
+
+    scene bg ch9_3be532_7 at full_bg
+    # play music "music_placeholder"  # [Music: Swell—hopeful and honest; high strings, then a restful major chord]
+
+    scene bg ch9_3be532_8 at full_bg
+    show marin_sol at left:
+        zoom 0.7
+
+    marin_sol "This is not the end of the fight. It is the end of a chapter. We have laws to watch, liaisons to mentor, nights to mend. We will be tired. We will be triumphant in small, exacting ways."
+    "You lift your chin. The tide is not finished with Maris Bay. Neither is the town. But tonight the shore is held a little longer. That knowledge rests under your ribs like a steadying weight."
+    hide marin_sol
+
+    scene bg ch9_3be532_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,147 @@
+### SCRIPT
+# Route: Additional
+# Context: 6b08b4
+
+[Scene: Tidewatch Lab | Early Morning]
+[Background:"ch8_6b08b4_1"]
+[Music: Low, brittle strings]
+[Sound: Distant gulls; the soft mechanical hum of the pilot instruments]
+
+You step into the lab and the air closes around you—cool, briny, the smell of wet timber and old oil. Instruments click and the pilot on the flats sends a tidy pulse to the screen: data, stillness, and the promise of a thing that can be argued into meaning. Luca stands by the map table, his hands stained with tar from the previous site visit. He hasn't tied his red bandana to his wrist; instead it hangs loose, drying.
+
+You feel the gravity of the joint review like a weather system; it presses at your ribs with a cold steadiness. Here, in the hush of the boathouse, the trial begins to feel less like controlled science and more like a conversation with a city that will not be swayed by graphs alone.
+
+Luca Moreno: "They shifted two of the monitoring buoys further inshore. Contractors said it was a depth issue—easier to anchor. Seems small until you model the fetch."
+
+Isla Morgan: "Small moves ripple. Buoys measure edge conditions. Move them in, and the data will understate erosion on the flats."
+
+Luca Moreno leans over your shoulder, eyes scanning your tablet where your model lines are thin and honest. He taps a jagged section of the curve.
+
+Luca Moreno: "Aria wants a steady story. Investors want a steady story. We gave them a joint trial to be honest. Now 'steady' is taking the shape of small edits."
+
+You pause, tasting metallic salt and the bitter tang of compromise. Your thumb finds the rim of your father's compass in your pocket; it is warm with early-morning warmth and stubborn as memory.
+
+[INTERACTION]
+> Choice A: "Confront the site foreman about the relocated buoys"
+> Choice B: "Record the change, mark it for later, and return to the lab to re-run your model"
+[Outcome A: "You walk the pier to the contractor's truck, and the foreman tightens his jaw—answers come clipped, practical. He repeats 'anchoring concerns' like a prayer and your notes grow new margins."]
+[Outcome B: "You step back from the dock and the wind scours your face. Back at Tidewatch, numbers re-spin, the differences cold and precise; the longer you look the more rooms for doubt open up."]
+
+[Scene: Salt Flats — Living Breakwater Site | Midday]
+[Background:"ch8_6b08b4_2"]
+[Music: Dissonant piano, distant thunder]
+[Sound: The thunk of pile drivers, shouted instructions muffled by wind; the smell of diesel and disturbed mud]
+
+You drive out with Luca and Ravi, boots digging into mud that remembers older tides. Contractor crews move in patterns both purposeful and rushed; men and women in neon vests nod to the supervisor and then to the excavator. You watch as prefabricated reef modules are nudged into place—some where you indicated, some not. Where the modules sit now, thin lines of runoff catch in new eddies. The flats respond with a soft, guttural sound, like a place waking.
+
+Luca Moreno crouches beside a new reef, fingers tracing the barnacle-stippled concrete. He flips open his smartwatch and scrolls through the privately supplied developer modeling: glossy renderings of a placid promenade and an embankment that dwarfs the salt flats.
+
+Isla Morgan: "Their model slices the wave differently. It's smoother. They hide the worst-case we modeled."
+
+Luca Moreno's face narrows. He gestures toward a crew member adjusting reef placement.
+
+Luca Moreno: "They've been rewriting the deployment as they go. If the data comes back biased because of where those buoys are, the story changes in their favor."
+
+You want to step forward and tell the crew to stop—argue the science in the mud by pointing at lines of tide—but the foreman is already watching you. His expression is not hostile so much as practiced. He gives you a curt nod that holds no apology.
+
+You breathe in diesel and brine. The sky tightens; a bruise of cloud rolls in from the south and the first small stitches of rain appear.
+
+[INTERACTION]
+> Choice A: "Tell Ravi to film and timestamp every placement change"
+> Choice B: "Approach the foreman with the models and ask for a pause"
+[Outcome A: "Ravi lifts his camera like an oath. You feel a small axis of control return as footage records the slow drift of the trial away from your design."]
+[Outcome B: "You walk toward the foreman with tablet in hand; he reads the glossy render, shrugs, and says you need council authorization for changes. The rain picks up as an accusation."]
+
+[Scene: Town Hall — Council Anteroom | Afternoon]
+[Background:"ch8_6b08b4_3"]
+[Music: Taut strings; a low cello undercurrent]
+[Sound: The patter of rain on windows, muffled conversation beyond the door]
+
+You carry your annotated models and a stack of printed notes into the anteroom. Council aides move like small tides, arranging and rearranging documents. Aria arrives in a coat buttoned to the throat, hair a precise line. Her briefcase is a dark thing on the table between you; when she closes it, the sound is final.
+
+Aria Chen [measured]: "Isla. The trial shows promising direction. The interim report can unlock the next tranche of funds. That money keeps protection going."
+
+Isla Morgan: "Promising—if the monitoring locations are what we agreed. If their buoys were shifted, the data is compromised."
+
+Aria Chen [even]: "The adjustments were engineering compromises. We consulted. Investors need confidence. We—"
+
+Isla Morgan: "You didn't disclose the contingency plans for a hard promenade in the packet we were given."
+
+Her expression folds in a way you can't read—tight as the lock on a box. For a beat, the room holds its breath. The rain is a small drum against the glass.
+
+Aria Chen [cool]: "We are managing multiple interests, Isla. The promenade is just that: one contingency. Hard infrastructure has a different role."
+
+Isla Morgan: "A contingency that would erase the salt flats—that's not a small footnote. That's a rewrite of the ecosystem."
+
+Aria Chen's mouth thins; she leans forward, voice quiet but not softened.
+
+Aria Chen [softly]: "You are an excellent scientist, Isla. You speak in certainties where I must speak in probabilities. If we delay funding for the next phase for a fight—"
+
+You feel the sentence like a ledger closing on the town's chest. Outside, the wind has picked up; the promenade lights flicker through the rain.
+
+Luca Moreno steps in, words blunt and quick.
+
+Luca Moreno: "Isla found a ledger. It's not in the deliverables. It lists promenade contingencies and alternate development schedules."
+
+Aria Chen's hand goes, almost unconsciously, to her briefcase. Her face is unreadable—steeled and small.
+
+Aria Chen [quiet]: "Disclosure is a political tool. We chose a staged release to avoid panic."
+
+Isla Morgan: "Avoid panic for whom? Investors? Developers? Not for the people who fish here."
+
+Aria Chen [flat]: "You know as well as I do that pushing everyone at once risks losing everything. Sometimes we have to shepherd outcomes."
+
+You can feel the room narrowing, the air charged with policies and stakes. Every syllable bends toward consequence.
+
+You decide to look inside the briefcase while Aria is distracted arranging the council packets—the briefcase left open, papers shifted. Your fingers find a worn leather-bound ledger, the edge dark with handling. When you flip it open the world tilts: precise dates, marginal notes, a penciled map overlay where the salt flats are shaded out and a promenade is inked in. There are budget line items, allocations that appear to redirect money from living breakwater maintenance to paving and lighting.
+
+Your stomach drops; the ledger is a quiet thing, the weight of a plan moving in the dark. It is not a theoretical danger now. It is a paper trail.
+
+Aria Chen [quiet]: "You shouldn't be looking in other people's files."
+
+Isla Morgan: "You didn't disclose it to the technical review. You didn't tell the pilots."
+
+Aria Chen [humane, clipped]: "Isla, none of us like the choices here. I am trying to keep the town solvent."
+
+Isla Morgan: "Keeping the town solvent by erasing what makes it a town."
+
+Aria Chen's face is unreadable, and you remind yourself to call that what it is: complex. Not malice, not innocence—strategy. The Schrödinger rule crawls at the edge of your mind; you do not know every conversation she had, every pressure put on her by investors you have never met. You only hold the ledger, and it is heavy.
+
+Luca Moreno: "If you go public with this, you risk the funds. If you don't, you become complicit."
+
+Isla Morgan: "There are more options than binary guilt."
+
+Luca Moreno's jaw tightens. He looks at you, pleading with an urgency that is almost boyish and dangerous.
+
+Luca Moreno: "What will you do, Isla? If we place this on the table now, it becomes a council fight. If you sit on it, they'll call you obstructive when they find out."
+
+You close your eyes. The compass in your pocket feels like a pulse. Rain drums harder on the window; lighting in the promenade sputters like old breath. Somewhere outside, a barge's horn sounds—a low, impossible sound that seems to predict a storm.
+
+You think of Jonah's hands folded over rope, of your father's face wet with rain and unafraid. You think of Maya painting a rooftop bed with careful strokes. The ledger is a vector. Each reaction pushes the town toward a different shore.
+
+Your mind catalogs consequences the way you once cataloged sediment cores: layers, pressures, potential collapse.
+
+Confront publicly and force accountability, risk funding withdrawal—and political backlash.
+Refuse to sign and delay funding—buy time but invite the 'obstruction' frame.
+Collect more evidence quietly—build a more airtight case while the tide might change the town irreversibly.
+
+Your chest tightens. The salt air feels colder in the throat. Outside the anteroom, muffled voices grow louder—someone is arranging a council session for the coming week. The trial will report; the town will watch.
+
+[Music: Strings tighten, then drop to a single slow cello note]
+[Sound: Heavy rain; a low rolling thunder]
+
+[DECISION POINT]
+1) Option 1: "Confront Aria publicly at a council session with the ledger." -> TARGET chapter_id: 9
+2) Option 2: "Refuse to sign off on interim results and delay funding until corrections are made." -> TARGET chapter_id: 15
+3) Option 3: "Continue collecting evidence quietly to build an unassailable case." -> TARGET chapter_id: 13
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Confront Aria publicly at a council session with the ledger." -> ID 9 (Route B — Option A)
+    > Jump Target File: script_ch9_Route_B_Option_A_ctx_3be532.txt
+Option 2: "Refuse to sign off on interim results and delay funding u..." -> ID 15 (Additional)
+    > Jump Target File: script_ch15_Additional_ctx_3be532.txt
+Option 3: "Continue collecting evidence quietly to build an unassail..." -> ID 13 (Additional)
+    > Jump Target File: script_ch13_Additional_ctx_3be532.txt

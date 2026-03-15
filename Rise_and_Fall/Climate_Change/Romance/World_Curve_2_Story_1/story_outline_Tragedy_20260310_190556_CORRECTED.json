@@ -1,0 +1,449 @@
+{
+  "title": "Tide Lines",
+  "summary": "I am Maya Rios: scientist, daughter of this coast, guardian of notes and guilt from a past misforecast. As sea levels rise and storms bite deeper, Aquila's glossy redevelopment proposal beams promises of stability and jobs, while proposing to reshape shorelines, elevate structures, and centralize control. Cass Adler, once a collaborator and sometimes lover, now fronts Aquila’s plan—sharp platinum bob, icy blue eyes scanning data, a polished pitch on every screen. Eli Navarro, sun-bleached and tethered to family oyster beds, wants the town to remain in local hands. Ivy and Rosa strain to bind the community together. Mayor Jonah tries to balance livelihoods and funding. The story is a tragic arc: each decision pushes us deeper into moral compromises and practical losses. I choose a path at a town meeting—negotiate with Cass, resist with grassroots action, or take direct—but risky—restoration. Each branch leads to new stakes: betrayals, legal fights, sabotage in storms, or a public takeover. Splits repeat: whether I trust Cass enough to bend proposals, whether I escalate civil disobedience, whether I leak Aquila's plans. Across all routes, things worsen: trust fractures, a crucial structure is lost, a campaign fails, or I sacrifice personal life for a cause. Endings vary by nuance—community partially preserved at a cost, personal exile to wider activism, or corporate redevelopment that erases ways of life—but all land in loss. The curve is a steady fall: new mistakes, mounting failures, and a final nadir that asks what it means to love a place when the place itself is changed.",
+  "emotional_curve_type": "Tragedy (Fall)",
+  "player_character": "Maya Rios",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt Notes",
+      "branch_designation": "Common",
+      "narrative_focus": "I walk the Lowtide Marsh at dawn, measuring, sketching, carrying the bronze pendant and my battered field thermometer. The marsh is full of small, stubborn life; I notice a fresh strip of erosion and think of the storm that took my neighbor's shed. I meet Eli near the oyster racks; he checks tide marks against a hand-marked calendar as gulls quarrel overhead. We talk in halting practicality—oyster yields, the Mayor’s upcoming meeting, and Aquila’s glossy model shipped into town. I feel both scientific rigor and a private, heavy doubt—my miscalculated tide forecast years ago hums under every practical step. The morning is painterly: gold ribbons on shallow pools, my dark chestnut hair pulled into a loose knot, sea-glass clip catching light. This chapter grounds my motives and stakes. I resolve to keep close records, to listen to the marsh and to the town, and to try to avoid repeating old mistakes.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Rios",
+        "Eli Navarro"
+      ],
+      "locations_used": [
+        "Lowtide Marsh"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Harborfront Meeting",
+      "branch_designation": "Common",
+      "narrative_focus": "The town meeting is at Harborfront Lane under strings of bulbs and neon glints from distant rigs. The Coastal Research Annex’s laptop glow competes with Aquila’s projected model. Cass stands at the microphone in a charcoal suit—icy blue eyes steady—presenting floodwalls, elevated promenades, and job figures. The Mayor toggles between reassuring and tentative. Ivy and Rosa fill the room with petitions. I speak: data-backed marsh restoration plus feasible living shoreline measures. Voices rise; Eli’s rough-lined concern about losing oyster beds surfaces. I see people's faces in painterly close-up—salt on eyebrows, calloused hands—and know this is where personal livelihood collides with the promise of safety. My private doubt pulses; the guilt of the past forecast whispers. The meeting ends with a vote to listen to Aquila’s plan in a formal hearing—our community is split, and I leave feeling the first scrape of a fall.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Eli Navarro",
+        "Mayor Jonah",
+        "Ivy",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Harborfront Lane",
+        "Coastal Research Annex"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Turning Tide",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "After the meeting I walk to the Old Lighthouse Ruins. Wind and rain drums promise more storms. Cass finds me there; memory of university collaboration rusts through polite distance. Cass proposes a private partnership: help them refine the Aquila proposal from inside, embedding living-shoreline elements and community oversight they can market. Eli appears—furious at the idea of any deal. Ivy demands direct action if we won’t get power. The dilemma is raw: compromise inside to shape large-scale policy, grassroots resistance that risks criminal charges and violent eviction, or direct physical restoration without permits that could be dangerous and legally ruinous. My misforecast guilt hums—any choice might lead to new failure. I must decide a path that will govern the town’s future, my relationship with Eli and Cass, and the marsh itself.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I engage with Aquila and the town’s response?",
+        "options": [
+          {
+            "label": "Work with Cass inside Aquila to try to steer the plan toward a hybrid, community-led model.",
+            "consequence": "Access to Aquila's resources and influence but moral compromise and potential betrayal of local trust.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Organize public resistance with Ivy and Eli—blockades, petitions, and direct negotiation pressure.",
+            "consequence": "Mobilizes community power but risks arrests, economic retaliation, and escalation.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Lead an unauthorized marsh restoration at night—earthworks and oyster re-siting—hoping to show a viable alternative.",
+            "consequence": "Immediate ecological action but legal peril and physical risk in storms.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Eli Navarro",
+        "Ivy"
+      ],
+      "locations_used": [
+        "Old Lighthouse Ruins",
+        "Harborfront Lane"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Inside the Model",
+      "branch_designation": "Route A",
+      "narrative_focus": "I accept Cass’s offer and step into Aquila Developments HQ for the first time: mirrored glass, a cool lobby, the rooftop model shimmering. Cass—platinum bob tight, suit tailored—shows me corridors lined with diagrams and legal memos. I am both elated and nauseous; access to their data could help embed marsh-friendly options. Cass's composure and old familiarity ease me, but their ambition is visible in the signet ring glint and the sharpness of their arguments. Inside, I try to translate science into a sellable feature—living shorelines, community maintenance trusts. The firm is receptive in principle, but their deadlines and ROI metrics contour every conversation. I meet with Jonah, who sees funding pivot as salvation. I feel the slippery slope: concessions are subtle—trade control for scale—and I question whether embedding ourselves here will be co-optation in disguise.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Mayor Jonah"
+      ],
+      "locations_used": [
+        "Aquila Developments HQ",
+        "Rooftop Model"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Soft Compromises",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Negotiations accelerate. I draft amendments to Aquila’s plans: living shoreline strips, community-run maintenance trust, job training centered on local families. Cass applauds my technical phrasing. The firm offers immediate funding for a pilot—yet with strings: land easements, elevated boardwalks that require relocating long-standing docks, and a clause ceding long-term regulatory control. I face a moral bifurcation. Option A: accept the pilot and sign the amendment to secure influence and resources. Option B: secretly leak modified schematics to a sympathetic journalist with Cass’s tacit help, hoping public scrutiny forces better terms. Option C: go public with a forceful exposé of Aquila’s remaining invasive measures and refuse to sign, rallying the town but burning bridges. Each choice carries consequences for my trust with Eli, for Cass’s loyalty, and for the town’s future.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I finalize my engagement with Aquila?",
+        "options": [
+          {
+            "label": "Sign the pilot amendment to secure funding and some design control.",
+            "consequence": "Resources unlocked, but community trust erodes and Aquila’s legal team archives long-term control clauses.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Secretly share the firm’s internal schematics with a journalist to force transparency.",
+            "consequence": "Public scrutiny puts Aquila on defense; Cass may be compromised and our leverage is uncertain.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Refuse to sign and publicly expose the invasive parts of the plan, urging the town to reject Aquila.",
+            "consequence": "Bridges burn with Aquila, risking loss of funding and immediate legal intimidation, but morale in some corners strengthens.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Mayor Jonah",
+        "Eli Navarro"
+      ],
+      "locations_used": [
+        "Aquila Developments HQ",
+        "Conference Room"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Auction of Shoreline",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "I sign the pilot amendment. Aquila rolls out funding, and within months the skyline of Harborfront Lane is ringed by construction rigs. Cass frames the program as a victory: living-shoreline strips woven into a larger seawall; local hiring promises on billboards. Initially, the pilot brings jobs and visible progress—new pilings, elevated boardwalks. But the legal clauses bite: long-term easements transfer decision-making to Aquila’s trust, and several small docks—century-old woodwork—are slated for removal. Eli’s jaw tightens; trust fractures. The marsh’s edge feels reshaped by corporate geometry, and biodiversity dips as heavy machinery tampers with mudflats. The town is safer from episodic flood surges, but its rhythms are changed and some traditions are lost. The victory tastes like ash. My compromise stabilizes some lives but costs the place’s shape; the fall is a slow, bureaucratic erosion of what we loved.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Eli Navarro",
+        "Mayor Jonah"
+      ],
+      "locations_used": [
+        "Harborfront Lane",
+        "Construction Sites"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Salt and Strategy",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose to resist. Back in the Harborfront light, Ivy rallies volunteers; Eli organizes a rota of fishermen for a human chain on the docks. We begin with petitions and public demonstrations, voices rising under strings of bulbs. I speak at a packed school auditorium with Rosa handing out children’s drawings. Legal counsel is patchy; the Mayor is sympathetic but cautious. Aquila introduces injunctions and starts filing for “emergency access” to construction zones. Tensions escalate when a planned blockade at the old pilings turns tense—police presence, heated shouts, and a small scuffle. I lean into community power, but the cost is high: arrests, fractured sympathies, and my old guilt about forecasting still humming under my skin. The fall accelerates as the town is dragged into confrontations it was not prepared for.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Rios",
+        "Ivy",
+        "Eli Navarro",
+        "Rosa",
+        "Mayor Jonah"
+      ],
+      "locations_used": [
+        "Harborfront Lane",
+        "School Auditorium",
+        "Old Pilings"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Escalation",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The blockade forces Aquila to accelerate legal action. The Mayor tries to broker temporary halts and a committee; the firm pushes for negotiation, insisting on timelines. Ivy demands a major spectacle: a coordinated night occupation of the waterfront. I consider three paths: Option A—organize the night occupation to force national attention; Option B—seek a legal injunction through the Mayor and local lawyers to delay work while we collect further evidence; Option C—agree to a limited, temporary joint committee with Aquila, buying time but risking co-optation. Each option feels like a gamble between galvanizing national sympathy, authorizing a bureaucratic slow-down, or conceding negotiation space. The community is raw; Eli warns against anything that could endanger people. A storm is forecast, and the stakes are both legal and meteorological.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which tactic will we use to resist Aquila now?",
+        "options": [
+          {
+            "label": "Organize a coordinated night occupation to draw national media.",
+            "consequence": "Visibility but high risk of arrests and physical danger if rain and machinery mix.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Pursue a legal injunction via Mayor Jonah and local counsel, delaying work while building evidence.",
+            "consequence": "Slower, possibly safer path dependent on political goodwill and legal capacity.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Enter a limited joint committee with Aquila to buy time and try to stall construction.",
+            "consequence": "Risks co-optation; gives perceived legitimacy to the firm’s process.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Ivy",
+        "Eli Navarro",
+        "Mayor Jonah"
+      ],
+      "locations_used": [
+        "Harborfront Lane",
+        "Waterfront",
+        "Old Pilings"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Beacon of Broken Oaths",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "We mount the night occupation. Lanterns and dew, a sea of bodies holding line under a storm that arrives with cinematic cruelty. Media arrives, live feeds running faces and chants into living rooms across the country. For a moment, recognition and support flood in—crowdfunding, a sympathetic environmental blogger, and pressure on Aquila’s PR lines. But the storm intensifies; a construction rig—miscommunicated—moves into a slip lane, and a collision with a makeshift barrier damages a generator and a small section of the old wharf collapses. A young crew member is hurt; arrests happen amid sirens and rain. The national attention fizzles into a legal onslaught: lawsuits, emergency injunctions, and a federal agency mediating. We win temporary headlines, but the physical and legal costs are steep. Eli and I stand soaked amid splintered wood; our closeness deepens in trauma, but the town has lost a piece of itself. The fall is loud and immediate.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Eli Navarro",
+        "Ivy",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Harborfront Lane",
+        "Old Wharf",
+        "Media Vans"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Moonlight Mudworks",
+      "branch_designation": "Route C",
+      "narrative_focus": "I choose the hands-on path. At night with a few trusted neighbors and Eli shadowing the operation, we move oyster cages, shore up a fragile sill with sandbags, and plant spartina plugs in a clandestine push to prove the marsh can be proactive. My palm smudges with mud; the bronze pendant swings steady as my heart. The work is soulful and effective in small measures—the water clumps with renewed life in a few pools—but it is illegal without permits. A storm is forecast and my miscalculated pride trembles. Aquila’s security patrols intensify and a notice for “unauthorized modifications” is posted the next day. I feel the exhilaration of action and the chill of impending legal peril. The fall begins as the state’s machinery notices our improvised shapings.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Rios",
+        "Eli Navarro"
+      ],
+      "locations_used": [
+        "Lowtide Marsh"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Levers and Laws",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "After the moonlight works, choices multiply. Option A: double down on physical restoration—escalate earthworks and oyster transplants before permits can be processed, risking heavy fines and arrests. Option B: leverage a leaked internal Aquila memo (which a friend in the Annex uncovered) to the press, provoking public scrutiny and possible renegotiation. Option C: attempt a direct sabotage of Aquila machinery during a forecasted squall to stop work temporarily—dangerous, possibly criminal, and likely escalating conflict. Each path could save part of the marsh, but each amplifies risk: physical harm, legal ruination, or moral culpability. My guilt about the past forecast nags—this time my action could save more but also cause more harm if miscalculated.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "What direct course will I take next?",
+        "options": [
+          {
+            "label": "Escalate restorative earthworks and oyster relocations without permits.",
+            "consequence": "Potential tangible marsh gains but risk of arrest, fines, and public legal backlash.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Leak Aquila internal memos to the press to force scrutiny and renegotiation.",
+            "consequence": "Public sympathy may increase; Cass and Aquila may retaliate legally.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Attempt to disable Aquila machinery during a storm to stop their work physically.",
+            "consequence": "Dangerous; potential for injury and criminal charges; could provoke heavy retaliation.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Eli Navarro",
+        "Cass Adler"
+      ],
+      "locations_used": [
+        "Coastal Research Annex",
+        "Harborfront Lane"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Mud and Consequence",
+      "branch_designation": "Route C / Ending",
+      "narrative_focus": "I escalate the restoration. We move more oyster racks, lay living breakwater bundles, and shore up a stretch of marsh before the next permit window. The results are promising—sediment holds in places and juvenile life returns. But Aquila sues for “unauthorized earthworks” and the town receives fines. The legal and economic pressure forces some families to accept Aquila’s compensation packages. Our gains in habitat are real but localized; the firm leverages legal power to remove several of our projects and imposes heavy penalties. The old wharf is partially dismantled as part of a negotiated settlement to drop charges against a few arrested organizers. Eli and I lie awake on opposite sides of the bed, both exhausted and resolute, wondering whether the marsh survived or whether we only delayed an inevitable tide. The victory is battered; the fall is a ledger of cost and reduced futures.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Eli Navarro",
+        "Aquila Developments"
+      ],
+      "locations_used": [
+        "Lowtide Marsh",
+        "Harborfront Lane"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Leaks and Laments",
+      "branch_designation": "Route A & B (Inter-route)",
+      "narrative_focus": "I leak Aquila’s internal schematics and memos to a sympathetic journalist. The exposé shreds some of Aquila’s PR and forces a public conversation about easements and the plan’s invasive components. Cass is blindsided; their icy blue eyes flicker with betrayal and confusion. For a moment, there is pressure on Aquila to renegotiate. But the firm counters with a legal campaign: cease-and-desist letters, threats of litigation, and aggressive PR claiming that the town is jeopardizing its own future. The public spotlight brings grants and support to our cause, but also legal bills and targeted intimidation. A federal review is opened, but it moves slowly. People are exhausted; some accept Aquila’s offers while others dig in. The leak helps, but it doesn’t save everything. The marsh still pays the price.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option B; Also From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Eli Navarro",
+        "Journalist"
+      ],
+      "locations_used": [
+        "Newsroom",
+        "Harborfront Lane"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Exposed Crossings",
+      "branch_designation": "Route A & C (Inter-route)",
+      "narrative_focus": "I choose public exposure and hard confrontation. I lead town arguments, publish a full dossier of Aquila’s invasive designs, and rally a coalition to reject the firm outright. Cass is publicly humiliated and the courtroom of public opinion bites; their composure cracks and old affection fractures into recriminations. Aquila retaliates with heavy-handed legal threats and accelerates construction in some sectors, citing emergency measures. The town fractures further: some families move to accept Aquila’s mitigations; others rally under Ivy’s banners. My relationship with Eli strains—he admires my bravery but fears the cost. I receive an offer: lead a broader activist campaign at the state level—an opportunity that would take me away from the town to spotlight systemic abuses. The marsh survives in fragmented patches, but our closeness and the town’s cohesion fade under legal and economic strain.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option C; Also From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Cass Adler",
+        "Eli Navarro",
+        "Ivy"
+      ],
+      "locations_used": [
+        "Harborfront Lane",
+        "Old Lighthouse Ruins"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Court and Concession",
+      "branch_designation": "Route B (Ending)",
+      "narrative_focus": "We pursue a legal injunction with Mayor Jonah and a small team of local counsel. The case grinds forward slowly: depositions, hearings, and expert testimony from the Coastal Research Annex. The process is sober and bureaucratic; for months we live amid filings. Aquila uses the delay to entrench, negotiating local buyouts and offering \"resilience packages\" to the most vulnerable. The injunction temporarily halts immediate work, but the cost—legal fees, uncertainty, and economic stagnation—wears people thin. Some families accept compensations; others resent the paralysis. I testify in court, my hands trembling but voice clear. The judge’s ruling eventually grants partial protections but approves major engineered interventions along a negotiated corridor. The town is spared some floods but loses historic docks and a handful of neighborhoods to raised seawalls. My choice to trust law and process brought partial safeguards but also slow, grinding losses. The fall is procedural and inexorable.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Rios",
+        "Mayor Jonah",
+        "Aquila Developments",
+        "Coastal Research Annex"
+      ],
+      "locations_used": [
+        "Courtroom",
+        "Harborfront Lane"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Endings summary: - Chapter 6 (Route A Option A): Sad — corporate solution reduces flood risk but erases ways of life; Maya’s compromise leads to hollow victory and estrangement (Tragic Fall). - Chapter 9 (Route B Option A): Bittersweet — public action draws attention but causes physical damage and legal repercussions; Eli and Maya deepen personal bonds amid loss (Tragic Fall). - Chapter 12 (Route C Option A): Bittersweet — direct restoration saves habitat patches but forces legal and economic sacrifices; partial ecological success at social cost (Tragic Fall). - Chapters 13 & 14 (Inter-route outcomes): Mixed endings of public exposure and personal sacrifice—legal battles and personal departures; Maya may be offered broader platforms (True/Bittersweet) but loses everyday life. - Chapter 15 (Route B Option B): Procedural loss — legal mitigation yields partial protections but permanent physical and cultural losses (Tragic Fall). Note: Every chapter adheres to the Tragedy (Fall) emotional curve: choices deepen material and moral losses, and every narrative path culminates in a form of decline—personal, communal, ecological, or juridical—consistent with the target arc.",
+  "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+  "_meta_arc_strategy": "Tragedy (Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 19:05:57"
+}

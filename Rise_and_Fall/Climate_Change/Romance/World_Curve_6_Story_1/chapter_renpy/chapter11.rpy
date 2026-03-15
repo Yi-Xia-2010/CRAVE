@@ -1,0 +1,179 @@
+label chapter11:
+
+    # [Scene: Glass Conference Room | Morning]
+
+    scene bg ch11_4001e7_1 at full_bg
+    # play music "music_placeholder"  # [Music: Slow, minor piano; steady, tired]
+    # play sound "sfx_placeholder"  # [Sound: The soft whirr of a projector; distant gulls; the low hum of a building HVAC]
+    "You stand at the head of the long table, the glass cool against your palms when you lean forward. The memorandum sits between you and the polished brass nameplate that reads 'Office of Urban Resilience.' The"
+    "lines on the document are tiny, surgical; the language is careful in the way someone tries to dress a blade so it doesn't look like one."
+    show evelyn_harrow at left:
+        zoom 0.7
+
+    evelyn_harrow "We've worked the language to be explicit about phases—'inclusive,' 'phased,' 'voluntary.' We can't ethically—and we won't—force migration. These clauses protect residents while allowing capital to partner on infrastructure."
+    "You hear the practiced cadence in her voice: measured, public-facing. Her pupils are narrow slits that catch the tide-map light and hold it like a ledger. When she smiles it is the same smile she uses"
+    "on donors and on slide decks; you feel it move across the room like a draft."
+    "You look down at Ilan. His fingers are in motion, worrying the little pendant at his throat—the prototype microfilter he made, the tiny thing that feels, at the moment, more talisman than technology. He keeps his"
+    "eyes low, but the way his shoulders tighten suggests he's listening for what those clauses might mean for the people you both promised to protect."
+    show ilan_cortez at right:
+        zoom 0.7
+
+    ilan_cortez "Phased makes sense on paper. But 'phased' can be used to stretch promises into timelines people outlast. We need explicit guarantees—tenancy protections, caps on redevelopment rights—"
+
+    evelyn_harrow "We have legal counsel. We're not looking to carve people out of their homes. There are protections. We're tied to measurable resilience outcomes."
+    show rahim_okoye at center:
+        zoom 0.7
+
+    rahim_okoye "Measurable outcomes are good. But which metrics do we use? Efficiency scores can erase cultural labor. If someone gardens every rooftop and keeps ten people fed in a storm, how does that factor into a 'resilience score'?"
+    "You sense the room lean with him. Rahim's voice is patient but urgent, like someone lifting a sodden tarpaulin to expose a buried problem. The developers at the far end keep their hands folded; their faces"
+    "are smudged with polite anticipation. They have charts. They have renderings of promenades lined with revenue-generating kiosks and the word 'resilient' on every page."
+
+    evelyn_harrow "We can create a governance board. Community co-ops will have representation in funding allocations. There will be legal covenants preventing immediate speculative purchase."
+    "You can feel the sentence unfold like a rope tossed to the shoreline—useful and binding in parts, frayed in others. You read the memorandum again, scanning for the soft legal traps you know too well: easements"
+    "that grant the city or partners future rights, occupancy thresholds that shift from descriptive to prescriptive, clauses that turn support into a checklist for survival."
+    hide evelyn_harrow
+    hide ilan_cortez
+    hide rahim_okoye
+
+    scene bg ch11_4001e7_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, almost imperceptible intake of breath from you]
+    show ava_marin at left:
+        zoom 0.7
+
+    ava_marin "We need teeth in the occupancy protections. If you label 'resilience' with a number and use that number to make who stays a market decision, you will have displaced us through policy."
+    show evelyn_harrow at right:
+        zoom 0.7
+
+    evelyn_harrow "That's why the covenants exist. Why Rahim is at the table. We can shape metrics that account for cultural continuity."
+    show ilan_cortez at center:
+        zoom 0.7
+
+    ilan_cortez "And the community controls the design implementations. No unilateral vendor capture. No—"
+
+    evelyn_harrow "You're both asking for guarantees that the legal structure—"
+    hide ava_marin
+    show rahim_okoye at left:
+        zoom 0.7
+
+    rahim_okoye "—Can and should provide. The concern is not the wording alone. It's how quickly 'incentives' and 'efficiencies' become levers for consolidation."
+    "The room falls into a taut quiet. Outside, a delivery boat grinds past the pier, scattering salt into the air. You taste metal and the memory of a storm. Your pen rests on the memorandum; signing"
+    "seems to make a shape of consent that will sit in people's records long after the promises are said aloud."
+
+    menu:
+        "Write a personal addendum to the memorandum—an explicit rider about cultural metrics":
+            "You tuck the pen between two fingers and scrawl a short clause in the margin—less legalese than plea—about neighborhood guardianship and archives. It feels raw on the paper, a small shard of you grafted to the bureaucratic body. The room doesn't notice the awkward handwriting, but when Rahim glances at the margin his lips press thin. Ilan's hand finds yours, fingers warm and quick."
+        "Keep to the formal language but insist on a community oversight clause during the signing":
+            "You fold your hands and ask Evelyn to add a clause for an oversight board with rotating community seats, and to specify the metrics they'll use. She nods, and Rahim begins to enumerate the committee's composition. Ilan exhales; there is relief at the shape of a guarantee, even if it is made of the same brittle materials as the rest of the agreement."
+
+    # --- merge ---
+    "The meeting proceeds to signing and the narrative continues."
+
+    evelyn_harrow "Then we have terms to sign. We can begin piloting infrastructure on the piers next month. A microgrid will be funded to cover the block during extreme events."
+    "You put your signature down because you weigh what you would lose by standing aside. The ink is steady. Ilan slides his signature in beneath yours—fast, a small, private knot under the official script. For a"
+    "moment, your hands brush; the contact is a small compass that points toward what you both wanted: protection anchored to people. It pulses a hopeful, brittle light."
+    hide evelyn_harrow
+    hide ilan_cortez
+    hide rahim_okoye
+
+    scene bg ch11_4001e7_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Faint applause as the meeting disperses; the sound feels small in your chest]
+    "You leave the conference room with a folder of copies, a small victory folded into civic language. That night, you sleep in fits, hearing the city as a machine that calculates futures by formulas that forget names."
+    # [Scene Transition: Montage — Months Pass]
+
+    scene bg ch11_4001e7_4 at full_bg
+    # play music "music_placeholder"  # [Music: A low string swells and lingers; a sense of effort in motion]
+    # play sound "sfx_placeholder"  # [Sound: Hammertime clacks; electric motors; children's voices in the distance]
+    "For a while the plan works. The microgrid hums through a storm and the block keeps its lights. People sleep in homes that used to flood, and the creaks in your chest loosen for nights at"
+    "a time. The pilings hold. The solar piers glimmer like small promises. A woman from down the lane brings you hot soup during a blackout and tells you, simply, that she could sleep. That small, practical"
+    "gratitude is a balm you didn't know you needed."
+    "But months are patient with their consequences."
+    # [Scene: City Hall Promenade | Overcast Afternoon]
+
+    scene bg ch11_4001e7_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The low murmuring of people queuing; a gust that sends loose papers skittering]
+    "Developers begin to petition for consolidated parcels, pointing to the pilot as proof that the area can be 'efficiently redeveloped.' They promise resiliency villages—mixed-use, higher-densities, commercial frontages—that will, they say, pay for long-term maintenance. Efficiency metrics"
+    "are proposed: occupancy thresholds tied to certain standards, 'sustainability scores' that look neat on investment slides."
+    "At community meetings the language is clinical; the effect is not. You watch neighbors translate phrases into consequences. An elderly couple's small house is suddenly marginal under a metric that discounts unregistered economic contributions—the grandmother's feeding"
+    "program, the informal childcare swap in their living room. An artist's studio is labeled 'non-compliant' because her roof garden doesn't fit a prescribed census of per-square-meter production."
+    "You add names to your journal faster than you expect. Date, street, who last slept there. You cross some off when a family is offered a phased retrofit that keeps them in place. You underline others"
+    "and circle them when vouchers arrive with terms you know how to read: adequate on paper, impossible in practice."
+
+    menu:
+        "Visit the family offered vouchers and listen":
+            "You carry your thermos and your journal; you sit with them on their sagging porch and listen as they weigh leaving a yard where their child learned to run. Their eyes find you in the telling, grateful and empty. You hold your silence like a small thing to be given back."
+        "Write a public note for the oversight board to challenge the metrics":
+            "You draft a tight, evidence-based rebuttal to the proposed metrics, layering in narratives from the archive—photos, testimony, a map of informal networks. You send it. It is accepted into the board packet, and Rahim thumbs through it with a look that says this might shift a single debate, but not the tide."
+
+    # --- merge ---
+    "The consequences of these actions unfold into the same larger pattern described below."
+    "The accommodations you fought for become, painfully, thresholds. To qualify for certain protections, a household must meet criteria that exclude unconventional livelihoods. You thought the co-op structure would shield against this; in practice the legal scaffolding has cracks wide enough for profit-seeking to find purchase."
+    "Ilan watches the changes with a growing distance in his expression—his ideals bruised by the paperwork he once believed could be hacked for good. When you suggest adjustments to make the plan more equitable, he argues"
+    "for technological fixes: localization of data, better sensors, machine learning to weight cultural factors. You want to believe him, but sometimes his optimism reads like faith in a tool to solve a human question."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "We can design a metric that values caretaking labor. We can make the system smart."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "You feel the words and the urge to trust them, and a memory surfaces—your uncle Tomas' hands, stained with oil, fixing a motor not for a line item but because without it someone's fridge would fail. How do you encode that in a dashboard?"
+    "You catch Ilan's eye across a neighborhood meeting once; he looks at you with something like apology and calculation mixed—complex. You cannot tell if it is regret, or strategy, or a private grief that is now his to carry."
+    # [Scene: Boardwalk | Dusk]
+    hide ilan_cortez
+    hide ava_marin
+
+    scene bg ch11_4001e7_6 at full_bg
+    # play music "music_placeholder"  # [Music: Low cello; a single, melancholy violin note]
+    # play sound "sfx_placeholder"  # [Sound: The board creaks under your feet; distant laughter like a bell]
+    "You walk the boardwalk alone and then not. Names fill the journal tonight—who kept what porch light on last winter, who taught two kids to thread fish lines, who moved away because vouchers gave them a fresh start inland. The list looks like a map of absence more than memory."
+    "Ilan steps beside you without a word. He hands you the pendant—cool metal against your palm—then tucks a loose strand of your wet hair behind your ear. The gesture is small and intimate, one you both"
+    "have used when words felt too heavy. There is affinity between you, a true thing you have built out of raw materials and late nights. But the policy and the paperwork have left grain in your"
+    "mouths."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "We saved some homes. We made it through storms we wouldn't have otherwise."
+    "You want to say: The pilings, the microgrid, the co-op seats—all of these mattered. People slept. People ate. People didn't have to wade through the dark."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "We did. And we've also collated absence into ledgers. Some of what we saved has been given a ticket—if your score isn't right, you're moved."
+
+    ilan_cortez "I thought tech could be a lever. I didn't understand how often the lever lifts something else too."
+
+    ava_marin "You think of the developers' renderings, of the neat lots, of faces smoothed out to make room for 'efficient maintenance.' You think of the grandmother whose soup fed a dozen during the blackout and whose house is now at risk because it doesn't fit an occupancy metric. You think of the journal's margin scribbles and the clause you might have written—if you did at all."
+    "Mira appears at a distance, carrying a bag of seeds and wearing the tired grin that has always made you soft. She has planted another rooftop. Tomas waves from his boat, oil-dark hands raised. The neighborhood"
+    "breathes, stubborn and living, even while the city plans its next moves from a distance that hurts."
+    "You feel the relationship with Ilan settle into something honest and worn: an affection that is real but frayed at the edges. It is not a rupture—yet—but it bears the marks of the compromises you both"
+    "made in that polished room with the projected tide maps. You gave ink to survival and in exchange the city learned to package absence."
+    hide ilan_cortez
+    hide ava_marin
+
+    scene bg ch11_4001e7_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The graphite scratch; the distant ocean sigh]
+    "You make a decision about what to do with the archive. It will not stop the next investor pitch. It will not change every clause. But it will keep names where they can be found. You"
+    "choose to record, to index, to teach others how to hold memory in a way that resists being footnoted away."
+    "Ilan watches you write. He reaches for your hand across the table of the boardwalk and squeezes it. The squeeze says what both of you find hard to say: that you stayed and you tried, and the result is a complicated ledger of survival and loss."
+    "You close the journal, tie it with twine, and thumb the map you keep folded within. The tide presses against the pilings; a gull cries shyly; the lights on the new piers blink in a rhythm the city calls progress."
+    "You do not know what will become of Tideward in ten years. The memorandum sits in a municipal archive somewhere with signatures in ink that did not feel like finality at the time. You have won"
+    "shelter and energy and a small measure of autonomy. You have also watched policy morph into a sieve that will let some names fall away while others remain."
+    # play music "music_placeholder"  # [Music: A single, sustained cello note fades; then, slowly, silence]
+
+    scene bg ch11_4001e7_8 at full_bg
+    "You look at Ilan one last time before you walk back toward the neighborhood cluster of lights. He watches you go, unreadable; his expression holds both hope and a kind of weary calculation. You are not"
+    "certain how to fix what has been broken by good intentions and legal language. You are certain you will keep trying."
+    # [Scene: Tideward Lane | Night]
+
+    scene bg ch11_4001e7_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft murmur of neighbors; someone hammering in the distance; a lullaby from an open window]
+    "You step back into the lanes you know by memory—the smells, the boarded windows, the places where children used to chase coins across tide puddles. You press your palm to the wood of a familiar door and feel the grain as if it were a pulse."
+    "Your last entry tonight is not an epigraph of victory. It is a record: who stayed, who left, what we saved, and what we offered in trade. You fold the journal into your bag. You are tired, and you are not finished."
+
+    scene bg ch11_4001e7_10 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet, unresolved chord]
+    # play sound "sfx_placeholder"  # [Sound: The hush of waves and the distant city]
+
+    scene bg ch11_4001e7_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

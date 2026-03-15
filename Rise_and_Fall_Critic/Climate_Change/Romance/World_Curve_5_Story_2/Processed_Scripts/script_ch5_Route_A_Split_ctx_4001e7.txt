@@ -1,0 +1,152 @@
+### SCRIPT
+# Route: Route A — Ending
+# Context: 4001e7
+
+[Scene: Brineheart Wetland Corridor | Early Morning]
+[Background:"ch5_4001e7_1"]
+[Sound: Distant gull calls, the soft clack of shifting boards, and the low, constant hum of generator-backed lights from the Helix]
+[Music: Low strings with a cold, descending motif — the mood is heavy, the day wound taut]
+
+You are already awake before your phone buzzes; the Helix's emergency channel spat the alert into the dark. You move with the muscle memory of someone who has run tidal assessments in storms: boots before jacket, keys clipped at your belt, breath held steady until you reach the boardwalk. The air tastes like cut metal and peat; the marsh's breath is thin and cold.
+
+The first thing you see is the line where the restoration cell used to sit—an unfinished braid of biodegradable packs and woven root bundles meant to slow the current and gather sediment. Now the braid is unthreaded: packs torn, stakes uprooted, a bed of blackened peat exposed like a scab. Mud glistens in the morning light where the tide ripped a path.
+
+Volunteers stand in a semicircle, soaking yet motionless. Jun grips his tablet as if it were a talisman; Marta's hands are stained with wet soil and a new, hard kind of quiet. Eli Navarro comes up behind you, rain bandana undone, his amber eyes raw as he takes everything in.
+
+Jun: "Model displacement—twice the predicted shear force. The packs failed where the current focused. I—" (he swipes at the data, voice taut) "—I didn't expect that localized eddy to reach this intensity."
+
+You let the sentence hang. Saying you didn't expect it feels like confessing culpability; you have drafted worst-case scenarios in many pages and still the sea finds a way to surprise you. Your notebook is heavier in your pocket than it should be.
+
+Eli Navarro: "How long before the cameras get here?" (He looks at you, smile gone thin.) "We need to say something. We can't let people fill it with their own worst stories."
+
+Marta (short, matter-of-fact): "They'll be here in an hour. Vendors already saw the drift when they brought their stalls down. Word travels faster than permits."
+
+You step closer to the edge and crouch, fingers dampening the peat as you probe the torn edge. The texture under your nails is coarse, flecked with oyster shell. You feel the loss as a physical thing—like a stitch pulled from fabric.
+
+Your chest tightens and the knot is more than professional worry. It is the old, private ache that sits behind your jaw: grief turned into hourly lab notes, guilt folded into grant proposals. You had promised—without quite saying the words—that you would keep the town from waking to the kind of loss that once took a life. The remembered surge is a red flag at your periphery.
+
+Jun: "We can map the failure nodes and run a corrective design. It'll take equipment—cables, heavier anchors—and time." (He looks up.) "But the footage will be out. Someone's drone already passed over."
+
+Eli Navarro digs his fingers into his rope belt and laughs, a short sound without humor. "Time's the one thing the council says we don't have," he says. "They'll hang us for that one."
+
+You look at the torn packs and then at the faces around you—some stunned, some already working through next steps. A thousand small hands stitched the corridor; this is the first tear. It will sting louder because it is small and visible.
+
+[INTERACTION]
+> Choice A: "Inspect the main failure point yourself, documenting every detail"
+> Choice B: "Call everyone together on the boardwalk and assign roles — triage, press, salvage"
+[Outcome A: "You crouch into the mud, careful and methodical. You photograph the erosion bands, label samples, and talk Jun through what you need for the audit. It steadies you to do the work, to make sense of damage in numbers."]
+[Outcome B: "You raise your voice and pull people into a rapid, orderly plan. Volunteers get tasks, Marta marshals hands, and Eli Navarro starts corralling folks away from camera lines. The bustle almost drowns the ache; doing calms you."]
+[MERGE: The narrative continues with Eli Navarro watching your hands as you choose; his expression leaves you exposed. You return to the practical: whether you catalog every cut or you steer the people who will clean them.]
+
+Eli Navarro watches your hands while you choose. He doesn't tell you which to pick. His expression—a steeled mixture of protectiveness and something like accusation—leaves you exposed. You return to the practical: whether you catalog every cut or you steer the people who will clean them.
+
+[Scene: Boardwalk / Approaching Helix | Mid-Morning]
+[Background:"ch5_4001e7_2"]
+[Sound: Reporters' low chatter, a microphone tentatively extended; the soft whine of drone servos]
+[Music: A single piano note repeats, slow, insistently — the hope that was rising is now a tight wire]
+
+Lina arrives with a delegation from the council and two officers. She steps under the awning, hair damp, expression set. You know Lina to be careful; she is not unkind, but today her eyes scan the ruins with a bureaucrat's inventory. Caden Holt follows behind her, polished jacket beaded with rain, and the field between them feels like a courtroom.
+
+Lina: "Aria." (She keeps her voice even.) "I've seen the footage. I—" (she falters, closes her mouth) "—the council has decided to pause permits for the corridor until we have a full assessment."
+
+The words land like a sluice. Pause permits. Stop work. The administrative equivalent of a splint. It is, in one sense, relief; in another, it is a stoppage mid-suture.
+
+Aria Solen: "Lina, the pause will stop salvage operations. We can lose more if we don't—"
+
+Lina (soft but absolute): "We need clear, audited data before we sign off on more disturbance. There's liability here that extends beyond the town, Aria. I wish—" (she looks at you, something complex moving under her professional mask) "—I wish there was another way."
+
+Caden Holt steps forward, eyes bright with a soft, strategic smile. "This is precisely why we need broader investment," he says, voice smooth. "Professional infrastructure, engineered barriers—things that don't depend on volunteer labor. It's time for a scaled, city-backed solution."
+
+Jun's jaw tightens. "Engineered barriers will disrupt sediment transport—"
+
+Caden Holt (interrupting, confident): "They keep the water out. They protect property. They bring investment."
+
+You sense the press shifting, a hunt for a villain, and the room breathes in the possibility of blame. There is a camera crew already assembling a narrative: grassroots endeavor fails; the city must step in. It will be a convenient frame for the redevelopment pitch. Your stomach goes cold.
+
+Eli Navarro (quiet, too close): "You told them we could build this from the ground up. People trusted that—" (his voice breaks) "—they lent their roofs, their time."
+
+You stare at him. There is anger there, but under it a more dangerous thing: fear. Not for the project alone, but for the lives and livelihoods that depend on it. For the vendors at Old Pier Market who rely on shoreline health, for families whose homes are a single bad season away from displacement.
+
+Marta moves between you and Lina, hands open and raw with the smell of wet hay. "Freezing permits might douse the flames, Lina, but it also leaves families without a plan. We can do an audit — but can the council provide minimal emergency flex? People need rope and replacement packs, not just reports."
+
+Lina's response is measured; her face, for a heartbeat, becomes unreadable: a practiced diplomatic stillness that could be sympathy, calculation, or both.
+
+Lina: "I'll propose emergency assistance at the next meeting. But legally, if we continue construction without cleared permits, the council will be exposed."
+
+The press lens narrows. Caden Holt adds, amiable as ever, "Transparency matters. The public deserves to know why this failed. Perhaps a joint commission would reassure everyone."
+
+Your internal voice pushes back: joint commissions are slow; slow costs living systems their chance. But exposing the full technical trail invites lawyers and headlines. You feel the room tilt—toward legal cover, toward construction money, toward narratives that erase community labor.
+
+[INTERACTION]
+> Choice A: "Step up to the cameras and frame the story yourself—take the blame publicly"
+> Choice B: "Protect your volunteers — ask Marta to hold a private repair crew while you deal with Lina"
+[Outcome A: "You meet the lead reporter's lens, voice steady. 'We underestimated a localized current,' you say. 'We're auditing, and we'll make the data public.' The words taste like iron. You trade immediate control for legal exposure."]
+[Outcome B: "You pull Marta aside, whispering plans of salvage and night-work. Volunteers are reassured and begin organizing quietly. The press sees only a calm front; the legal picture becomes murkier."]
+[MERGE: The narrative continues with your practical and moral choice stressing the tender place where trust and responsibility meet; Eli Navarro's hand finds yours for a second—urgent, searching.]
+
+Your choice is practical and moral at once; either direction presses on the tender place where trust and responsibility meet. Eli Navarro's hand finds yours for a second—urgent, searching—but he doesn't say what he needs you to do. His eyes hold both accusation and refusal to abandon you.
+
+[Scene: The Helix | Afternoon]
+[Background:"ch5_4001e7_3"]
+[Sound: Murmured conversations, the tap of a marker as someone updates a tally, the low clink of coffee mugs]
+[Music: A low cello line underpins tense conversation; the hopeful motif from earlier is muted to a memory]
+
+You convene an emergency community circle; vendors, volunteers, Jun, Marta, and several distraught families file in. The mood is taut, conversations overlapping. Fear and blame ripple out like concentric circles from the torn cell.
+
+Vendor (voice shaking): "My stall sells smoked fish. If the marsh can't filter, the taste changes. Who will buy it then?"
+
+Volunteer #1: "You said we'd be ready by the season. You told us this would keep the water calm." (The accusation lands like a thrown stone.)
+
+Aria Solen: "We didn't predict that eddy concentration. We designed with the data we had." (You say it carefully; honesty is a ladder and you're choosing its rungs.) "But I won't let this be brushed aside. We will map, we will reinforce, we will learn. That is what this project is for."
+
+The crowd gives you a mixture of suspicion and relief. Words are not enough; they need action and they need to see the leadership that owns mistakes.
+
+Jun: "There are adjustments—distribution of angular anchors, supplementary core bundles—but it will require materials we don't have on hand. And it will take people."
+
+Marta: "People will come if they trust you. They won't if the council sidelines us and Caden Holt paints us as amateurs."
+
+Eli Navarro (leaning in, voice low): "We need to be honest about who made the call to go live with those packs. If we were rushed—if I pushed to get more hands out there faster—then say so. Don't let them cower us into patching with hush-money."
+
+Your mind flips through timelines, emails, and approvals. You recall nights of negotiation, the way deadlines glared like lighthouses. The word 'rushed' tastes accurate and awful. You did everything you thought necessary, but choices pile and hold consequences.
+
+Caden Holt's press release begins to circulate on a council tablet someone set on the table. His words are calm, precise: "The failure underscores the need for professional infrastructure." He quotes a rice-papered set of 'best-practice' pamphlets and offers the city as savior.
+
+You feel two currents pulling: the political current toward large-scale 'solutions' framed as certainty, and the communal current that trusts local knowledge and slow, living systems. In the middle is you—flattened, choosing between your project, your people, and the public record that will decide which of you is credible.
+
+Eli Navarro steps forward, voice raw and urgent. "If we hide this or gloss it, we'll lose the town's trust. If we bellow it into every camera, we'll hand Caden Holt ammunition. We need—" (he stops, searching your face) "—we need you, Aria. How do you want to lead?"
+
+His question is not just procedural. It is an ask about your whole pattern: Do you shield others to carry the burden, or do you take the weight and lay it where it will hurt but heal?
+
+You feel the old reflex to bury, to schedule, to fix in plan. But the room's eyes are open, expectant and weary. Jun slides a printout toward you—modeled timelines, potential liabilities, a map of alternative anchor placements.
+
+You understand the decisions branching out like tidal channels: immediate public accountability; quiet political bargaining; or urgent physical recovery that risks more harm but might restore the cells before news cycles ossify the failure.
+
+Your chest constricts. Outside, a drone chords the news cycle into the sky; below, your people huddle around their coffee cups. The Helix hums like a heart that hasn't stopped beating yet, but each beat is taxed.
+
+You think of the late-night work that led to these packs, of hands-stitched rope and laughter in between shifts. You think of the sibling you lost to a surge and the promise you made to the island. You imagine the narrative that will be written if you do nothing: failure, amateurism, another town lost to expediency.
+
+Your throat tightens. This is the moment the town will remember either as a collapse or as the ache before a mended shore.
+
+[Music: The cello drops to a single, unresolved note; the scene narrows to the circle of faces around you]
+
+You raise your head, aware that one decision now will ripple across permits, press, and people's lives.
+
+[DECISION POINT]
+After the storm failure, do I double down on technical fixes, public accountability, or seek strategic compromise?
+1) Option 1: "Admit public mistakes, lead an immediate transparent audit, and halt all works to rephase." -> TARGET chapter_id: [6]
+2) Option 2: "Privately negotiate with Lina for emergency funds and controlled media messaging to buy time." -> TARGET chapter_id: [6]
+3) Option 3: "Push the community to an urgent, risky re-stacking of living-shoreline packs overnight to salvage the cells." -> TARGET chapter_id: [6]
+
+[Background:"ch5_4001e7_4"]
+[Music: Hold on the unresolved note, then fade]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Admit public mistakes, lead an immediate transparent audi..." -> ID 6 (Route A — Ending)
+    > Jump Target File: script_ch6_Route_A_Ending_ctx_601bcb.txt
+Option 2: "Privately negotiate with Lina for emergency funds and con..." -> ID 6 (Route A — Ending)
+    > Jump Target File: script_ch6_Route_A_Ending_ctx_601bcb.txt
+Option 3: "Push the community to an urgent, risky re-stacking of liv..." -> ID 6 (Route A — Ending)
+    > Jump Target File: script_ch6_Route_A_Ending_ctx_601bcb.txt

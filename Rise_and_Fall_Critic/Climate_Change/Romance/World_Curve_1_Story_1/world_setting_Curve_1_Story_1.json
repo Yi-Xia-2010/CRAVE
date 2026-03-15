@@ -1,0 +1,121 @@
+{
+    "design_logic": "I blend Climate Change (an urgent, systemic crisis) with Romance (intimate, character-driven stakes) to create a personal story that reflects broader social choices. The conflict centers on whether love can bridge differences in values and approaches to environmental collapse: scientific urgency vs. economic survival vs. political expediency. Each character personifies an approach to the crisis, and their relationships force choices that affect the whole coastal community. The narrative tension comes from balancing emotional intimacy with responsibility to land and people — a romance that must reckon with policy, adaptation, and moral compromise.",
+    "setting": "A mid-sized coastal town called Seabright in the near future (2035) where rising seas, stronger storms, and patchwork adaptation measures have reshaped daily life. The atmosphere mixes salt air and storms with small-town intimacy: creaking boardwalks, retrofitted houses on stilts, community gardens on rooftops, and half-completed sea walls. Technology is present but modest — sensors, drones, and community-run desalination — emphasizing grassroots resilience rather than high-tech salvation.",
+    "visual_style": "Painterly coastal realism, warm-organic color palette with storm-muted blues and rusted oranges; anime-influenced character designs with textured brushwork backgrounds; cinematic lighting (hard sunlight after storms, neon reflections on wet streets), environmental detail (sea spray, algae stains, weathered wood).",
+    "main_characters": [
+        {
+            "name": "Amara Vale",
+            "role": "Protagonist",
+            "personality": "Quietly determined, pragmatic idealist, empathetic listener with a scientist's curiosity. She can be stubborn when convinced of the right course, and has a knack for translating complex climate data into plain language for neighbors. She balances hope and realism, but carries survivor's guilt and a tendency to overwork.",
+            "appearance_features": {
+                "hair": "Dark chestnut with natural waves, shoulder-length, often pulled into a loose low bun with stray windblown strands",
+                "eyes": "Warm hazel with flecks of green, rounded and observant; faint crow's feet when she smiles",
+                "clothing": "Layered fieldwork-to-café outfits: olive-green utility jacket with patchwork repairs, slate-blue knit sweater, cropped jeans, waterproof ankle boots scuffed with salt; often wears a lightweight scarf that doubles as a sun/shade guard",
+                "accessories": "A water-resistant field notebook with a faded lighthouse sticker, a slim digital sensor reader on a lanyard, mismatched silver hoop earrings — one with a tiny sea-glass charm"
+            },
+            "goal": "To implement community-led adaptation plans (mangrove restoration, raised promenades, microgrids) that protect Seabright while keeping the town's character intact.",
+            "background_story": "Raised in Seabright, Amara left to study marine science after a devastating storm damaged her family's home. She returned to help rebuild, frustrated by slow government action and predatory developers. Her work at the community climate center makes her both a hope figure and a target for political pushback.",
+            "emotional_trait": "Strength: deep empathy and resilience. Flaw: a tendency to carry responsibility alone and avoid asking for help."
+        },
+        {
+            "name": "Elias 'Eli' Navarro",
+            "role": "Love Interest",
+            "personality": "Practical, gentle, and quietly witty. A systems thinker who loves engineering puzzles but also values the human element of his projects. He can be risk-averse when finances or people's livelihoods are at stake, and struggles to reconcile long-term safety with immediate economic pressures.",
+            "appearance_features": {
+                "hair": "Short, dark brown curls kept neat but with a perpetually wind-tousled fringe",
+                "eyes": "Deep blue-gray, almond-shaped, often narrowed in concentration; soft smile lines",
+                "clothing": "Utility-casual: faded navy work shirt with rolled sleeves, tan cargo trousers, steel-toe boots with paint flecks; a lightweight reflective vest for site visits",
+                "accessories": "A battered leather satchel filled with blueprints, a brass compass his grandfather gave him, and a digital wristband that tracks tides and structural stress data"
+            },
+            "goal": "To design and build pragmatic engineering solutions (elevated foundations, modular seawalls) that keep businesses and families safe while staying within tight budgets.",
+            "background_story": "Eli grew up in a construction family that weathered repeated insurance disputes after storms. He trained as a civil engineer to help his community but now works for a small engineering firm that must balance ethics with client demands. His past includes a failed partnership with a developer that cost him trust.",
+            "emotional_trait": "Strength: dependable calm and technical competence. Flaw: fear of making decisions that could harm people's current livelihoods, leading to compromise."
+        },
+        {
+            "name": "Marco Voss",
+            "role": "Antagonist",
+            "personality": "Charismatic, persuasive, and unapologetically ambitious. He believes in large-scale solutions and sees profit as a means to mobilize resources quickly. He can be genuinely generous but is willing to make hard trade-offs and conceal uncomfortable truths if it secures progress.",
+            "appearance_features": {
+                "hair": "Salt-and-pepper, slicked back neatly; a short trimmed beard",
+                "eyes": "Steel-gray, narrow and calculating, with a habit of lingering gaze that sizes people up",
+                "clothing": "Tailored dark navy blazer over a crisp white shirt, slim dark trousers; often wears a lightweight raincoat with a subtle corporate logo when on-site",
+                "accessories": "A branded lapel pin of his development firm, a high-end smartwatch, and a slim business card holder with handwritten notes"
+            },
+            "goal": "To develop a profitable, large-scale coastal redevelopment that he argues will modernize Seabright and fund major adaptation infrastructure.",
+            "background_story": "A former urban planner turned developer, Marco rose through private investment circles pitching rapid coastal modernization. He grew up in a flood-prone town and believes decisive private action is the only realistic path to protect communities — even if it means displacing some residents.",
+            "emotional_trait": "Strength: charismatic conviction and decisive leadership. Flaw: moral rationalization — he downplays the human cost of redevelopment when it impedes his goals."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Kwan",
+            "relation_to_main": "Childhood friend of Amara / local café owner",
+            "appearance_summary": "Petite, always wearing a bright hand-knitted cap, flour-dusted apron, warm smile.",
+            "function_in_story": "Community connector who provides a safe space for meetings, gossip, and emotional grounding; she represents small-business stakes in adaptation debates."
+        },
+        {
+            "name": "Harold 'Hal' Finnegan",
+            "relation_to_main": "Eli's mentor and retired engineer",
+            "appearance_summary": "Tall, stooped a little with age, weathered face, white hair in a loose ponytail, always in a patched sweater.",
+            "function_in_story": "Offers technical wisdom and moral counsel; serves as a voice of historical memory about past storms and failed projects."
+        },
+        {
+            "name": "Miriam Santos",
+            "relation_to_main": "Community organizer allied with Amara",
+            "appearance_summary": "Bold, short-cropped hair dyed teal, fitness-friendly clothes, a handheld megaphone always nearby.",
+            "function_in_story": "Mobilizes grassroots action, organizes protests and volunteer restoration, pushes for equitable solutions and holds leaders accountable."
+        },
+        {
+            "name": "Old Man Tor",
+            "relation_to_main": "Elderly fisherwoman's companion, local lore-keeper",
+            "appearance_summary": "Sun-leathery skin, knitted fisher's sweater, sea-stained cap, slow deliberate movements.",
+            "function_in_story": "Provides historical context, carries symbolic artifacts (a carved buoy) and keeps local traditions alive; his stories influence Amara's and the town's moral perspective."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Seabright Boardwalk",
+            "visual_description": "A weathered wooden promenade stretching along the town's main bay. Lighting alternates between harsh midday sun and golden post-storm light that catches floating spray. Colors: muted bleached wood, salt-streaked white, and rust-orange railings. Atmosphere: creaking planks, gulls calling, puddles reflecting neon shop signs at night. Background art: flapping banners, patched plank repairs, newly raised segments of boardwalk beside older collapsed sections."
+        },
+        {
+            "name": "Community Climate Center (The Beacon)",
+            "visual_description": "A converted boathouse with solar panels and a glassy, low-slung facade. Interior lighting is warm and utilitarian: hanging Edison bulbs, whiteboards scrawled with tide graphs, and a corner filled with potted succulents. Exterior: wet concrete steps, sensor arrays on poles, wind-churned banners. Colors: institutional teal, reclaimed wood browns, and bright safety orange for equipment."
+        },
+        {
+            "name": "Old Harbor District",
+            "visual_description": "Narrow alleys and stacked buildings painted in peeling pastel hues; the water laps dangerously close to basement thresholds. Overcast mornings with persistent mist, lamp-lit evenings that scatter against slick cobblestones. Visual details: boats half-docked, nets drying on balconies, newly erected sandbag berms and graffiti calling for action."
+        },
+        {
+            "name": "Mangrove Restoration Site",
+            "visual_description": "A muddy intertidal zone at low tide, crisscrossed with shallow channels and sapling stakes. Lighting is diffuse — the thin sun filtered through low clouds — creating reflective pools that mirror the sky. Colors: glossy dark greens, deep browns of wet mud, metallic glints of tidal water. Atmosphere: hum of insects, distant gull cries, hardworking volunteers knee-deep in water."
+        },
+        {
+            "name": "Town Hall & Waterfront Plaza",
+            "visual_description": "A neoclassical brick building facing a battered plaza where memorials to past storms stand. The plaza is a patchwork of temporary flood barriers and protest flyers. Lighting is dramatic during council meetings — stark fluorescent indoors, low-angle amber streetlights outside. Colors: institutional brick red, protest-banner primaries, and the cold blue of official signage."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Amara and Eli find a collaborative solution: a scaled, community-led adaptation plan that incorporates Marco's funding under strict equitable conditions. The town preserves its character, the mangroves thrive, displaced residents are rehoused with dignity, and Amara and Eli commit to building a future together."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A major storm forces a partial evacuation and some historic streets are lost to redevelopment. Marco's project goes forward and funds a strong seawall, but several small businesses close and some families move away. Amara and Eli's relationship survives but is strained by compromises; they accept imperfect progress and continue their work with cautious hope."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political gridlock and short-term profit priorities stall adaptation. A catastrophic storm devastates large parts of Seabright, causing loss of lives and irreversible environmental damage. Amara loses her center and Eli's firm is blamed for weak safeguards. The romance collapses under grief and guilt; the town fragments and faces a long recovery."
+        },
+        {
+            "type": "True",
+            "summary": "A nuanced ending where no party gets everything: Marco learns to accept community constraints, Amara confronts the limits of grassroots action, and Eli must choose between loyalty to his firm and his conscience. The town reorganizes into hybrid public-private stewardship; relationships transform rather than resolve neatly. This ending emphasizes realism: both loss and small wins, and a commitment to ongoing adaptation."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

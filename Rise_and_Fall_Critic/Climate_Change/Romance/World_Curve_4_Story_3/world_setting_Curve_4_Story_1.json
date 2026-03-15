@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the human-scale lens of a coastal community forced to adapt, and I pair it with Romance to create a story about love as both personal solace and political leverage. The core conflict is between short-term economic pressures and long-term ecological stewardship, mirrored in interpersonal choices: can characters choose love without abandoning principle, or must one be sacrificed for the other? The result is an intimate, emotion-driven visual novel where climate stakes shape daily life, relationships, and moral decisions.",
+    "setting": "Near-future coastal town of Havenpoint, a once-sleepy fishing and shipbuilding hub now partially adapted to rising seas. Time period: 2035–2040. Atmosphere: salty, windswept, hopeful-but-tense — a place of patchwork engineering, community gardens, solar terraces, and ongoing debates over seawalls and managed retreat.",
+    "visual_style": "Painterly semi-realism, muted coastal palette with punctuated neon accents, filmic lighting, gentle rain overlays, textured brushwork, character design leans toward modern anime-informed realism",
+    "main_characters": [
+        {
+            "name": "Marin Solace",
+            "role": "Protagonist",
+            "personality": "Pragmatic, quietly passionate, intellectually curious; tends to lead through example rather than rhetoric. Loyal but prone to internalization. Values community consultation and small-scale innovation.",
+            "appearance_features": {
+                "hair": "Dark sea-glass brown, short layered bob with damp-styled texture and a faint silver strand at the temple",
+                "eyes": "Saturated steel-blue, rounded with a reflective, slightly tired look",
+                "clothing": "Heavy-weather field jacket patched at the elbow over a technical-knit sweater, cargo chinos cuffed above salt-streaked boots; usually carries a rolled-up site map under an arm",
+                "accessories": "A worn leather satchel with handwritten notes, a bracelet made from recycled polymer beads gifted by neighbors, a chipped enamel pin of Havenpoint's lighthouse"
+            },
+            "goal": "To implement a community-led coastal adaptation plan that preserves homes and the town’s culture while minimizing ecological harm.",
+            "background_story": "Raised in Havenpoint, Marin left to study civil and environmental engineering but returned when storm damage began to threaten family property. Frustrated by top-down solutions, they founded a grassroots design cooperative to prototype living shorelines, permeable terraces, and communal food systems.",
+            "emotional_trait": "Tendency to shoulder responsibility alone; strength is steady resolve and deep empathy."
+        },
+        {
+            "name": "Jonah Reyes",
+            "role": "Love Interest",
+            "personality": "Warm, candid, and fearless on the water; stubbornly optimistic with a poet’s streak. Protective of tradition but open to smart innovation when it respects fishing livelihoods.",
+            "appearance_features": {
+                "hair": "Sun-bleached black, wavy and tied back in a low knot when working; loose strands curl around the ears",
+                "eyes": "Warm amber-brown, slightly almond-shaped with crow's feet that deepen when he laughs",
+                "clothing": "Layered fisherman’s knit sweater under a waxed canvas vest, heavy wool trousers rolled at the hem, rubber-soled deck shoes with salt patches",
+                "accessories": "A braided rope bracelet from his father, a rusted captain's whistle hung on a cord, a pocket-sized sketchbook full of boat plans and seaside poems"
+            },
+            "goal": "To protect the livelihoods of local fishers and maintain access to the sea, while finding a way to secure his family's docks from recurring surges.",
+            "background_story": "Third-generation fisher whose family contracts shrank after the storms. Jonah runs a small repair shop and charters educational tide tours. His intimate knowledge of the bay's currents makes him skeptical of large concrete solutions.",
+            "emotional_trait": "Deep loyalty that can turn into stubbornness; strength is emotional openness and capacity for humor under pressure."
+        },
+        {
+            "name": "Lydia Voss",
+            "role": "Antagonist (ambiguous)",
+            "personality": "Sharp, decisive, and media-savvy; publicly charismatic with a strategic mind. Believes decisive action is necessary even when unpopular. Can appear cold but rationalizes decisions with utilitarian logic.",
+            "appearance_features": {
+                "hair": "Platinum ash blonde, sleek shoulder-length bob with a precise side part",
+                "eyes": "Pale gray, narrow and calculating; often slightly narrowed behind low-rim reading glasses",
+                "clothing": "Tailored storm-gray coat over minimalist professional separates; practical yet authoritative—polished ankle boots, a water-resistant trench for site visits",
+                "accessories": "A slim digital slate (tablet) clipped to her belt, an engraved metal cuff with her consultancy's logo, a single pearl earring she never removes"
+            },
+            "goal": "To secure large-scale investment and execute a rapid, engineering-first coastal defense plan that restores investor confidence.",
+            "background_story": "A high-profile climate infrastructure consultant who once worked on metropolitan seawalls. Recruited by regional authorities and developers to propose fast, visible solutions. Her background includes triumphs in crisis management, but also controversies about displacement.",
+            "emotional_trait": "Emotional detachment that prioritizes outcomes; strength is clear strategic focus and crisis leadership."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Asha Patel",
+            "relation_to_main": "Colleague and close friend of Marin; co-founder of the design cooperative",
+            "appearance_summary": "Curly auburn hair in a messy bun, square glasses, wears paint-splattered overalls and solar-powered LED pins.",
+            "function_in_story": "Technical and emotional support for Marin; voices community-driven alternatives and helps prototype living infrastructure."
+        },
+        {
+            "name": "Rafferty 'Raff' Cole",
+            "relation_to_main": "Jonah’s younger cousin; local apprentice and social-media-savvy youth",
+            "appearance_summary": "Lean, quick hands, cropped hair dyed teal at the tips, patchwork hoodie covered in sponsor patches.",
+            "function_in_story": "Offers grassroots mobilization, viral outreach, and comic relief; can sway public opinion through online storytelling."
+        },
+        {
+            "name": "Elder Mae Hargrove",
+            "relation_to_main": "Town elder and spiritual figure for many residents",
+            "appearance_summary": "Stooped but steady, long silver braid, weathered skin, layered shawls stitched with nautical motifs.",
+            "function_in_story": "Holds moral memory of the town; provides historical context and challenges characters to reconcile heritage with necessary change."
+        },
+        {
+            "name": "Councilor Ben Rhee",
+            "relation_to_main": "Local government official often mediating between Lydia’s proposals and community demands",
+            "appearance_summary": "Impeccable suits turned salt-dark at the cuffs, slightly rumpled tie, careful smile",
+            "function_in_story": "Represents bureaucratic compromises and political pressure; a pivot for plot choices involving permits, funding, and public hearings."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Havenpoint Boardwalk & Market",
+            "visual_description": "Long wooden planks darkened by salt and rain, strings of warm yellow bulbs swinging in sea breeze. Early-morning fog softens the horizon; stalls draped in tarps sell smoked fish and sea kelp preserves. Light is diffuse, glancing off puddles with reflections of banners and handwritten signs."
+        },
+        {
+            "name": "The Saltworks — Marin's Cooperative Lab",
+            "visual_description": "Converted warehouse with corrugated metal walls painted seafoam green, large north-facing windows that cast cool, diffuse light over benches strewn with soil trays and prototype marsh-forms. Indoor mist from testing rigs creates halos around hanging planters; chalkboards filled with hydrograph charts lean against beams."
+        },
+        {
+            "name": "Greenridge Solar Terraces",
+            "visual_description": "Stepped terraces of photovoltaic panels interspersed with native grasses and pollinator hedges. Midday sun creates sharp contrasts—gleaming panel faces and deep shadow planes. A distant hum of inverters mixes with the wind; bees and small birds flit among flowers, suggesting techno-ecological harmony."
+        },
+        {
+            "name": "The Floodwall & Community Garden",
+            "visual_description": "A new concrete-and-timber floodwall, scarred with graffiti and community-painted murals, curves along the shoreline. On its lee, raised wooden beds overflow with herbs and hardy vegetables. Golden-hour light slants across wet cobbles, casting long, hopeful shadows of people tending plots."
+        },
+        {
+            "name": "Old Shipyard Ruins",
+            "visual_description": "Rusting cranes silhouette against stormy skies; half-submerged hulks and skeletal drydocks offer jagged, cinematic shapes. Light breaks through clouds in streaks, illuminating puddles of oily water and salt-crusted ropes. The atmosphere is a mix of nostalgia and latent danger—the town's past literally drowning under future seas."
+        },
+        {
+            "name": "Lydia's Command Center (Temporary Pavilion)",
+            "visual_description": "A sleek, modular pavilion of glass and matte steel set on a bluff. Bright, clinical interior lighting contrasts with the turbulent sky outside; digital displays map surge scenarios in cool cyan and coral. At night, the pavilion glows like a beacon of assurance—unsettling against the town’s softer, hand-built textures."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community vs. Development",
+        "Moral Compromise and Responsibility"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Marin’s community-led adaptation plan is adopted in a hybrid form; Jonah’s docks are retrofitted with nature-based defenses that preserve fishing access, Lydia implements scaled-back infrastructure with community oversight, and Marin and Jonah deepen their relationship, committed to rebuilding together."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise plan protects the town but requires the managed retreat of several older neighborhoods. The community survives, but some residents relocate; Marin helps document and preserve traditions while her relationship with Jonah strains under the weight of differing priorities, leaving them together but changed."
+        },
+        {
+            "type": "Sad",
+            "summary": "Lydia’s rapid, investor-driven seawall is built with little local input, displacing many and damaging tidal ecology. The town’s culture erodes; Jonah loses his mooring and leaves for seasons, and Marin faces public backlash for failing to stop top-down development, ending with loss and unresolved grief."
+        },
+        {
+            "type": "True",
+            "summary": "Marin chooses personal integrity over political expedience: they resign from the cooperative leadership to start a decentralized movement that travels to other threatened towns. The romance with Jonah becomes a long-distance partnership built on shared activism. The town remains contested, but Marin's choice sparks a broader, grassroots network—an ambiguous victory focused on long-term cultural resilience."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

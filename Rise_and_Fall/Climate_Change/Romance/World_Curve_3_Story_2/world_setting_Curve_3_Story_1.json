@@ -1,0 +1,118 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) and Genre (Romance) as two intertwined pressures: an external ecological crisis that forces communities to change, and an internal emotional crisis that forces characters to choose between safety, ideals, and intimacy. The core conflict is whether the coastal town sacrifices its ecosystem and traditions for engineered safety and economic promise, or whether it chooses slower, community-led adaptation that preserves identity but requires painful trade-offs. Romance intensifies choices: who the protagonist trusts and partners with affects both love and the town's fate, creating moral dilemmas and emotional stakes across six chapters.",
+    "setting": "A near-future coastal town named Marisol on a temperate shoreline, where rising seas and worsening storms have already reshaped streets and livelihoods. The town mixes weathered wooden architecture, modern concrete projects, and reclaimed wetlands. The atmosphere is bittersweet — salt air, frequent overcast light, and sudden, dramatic storms, tempered by resilient community rituals and tentative scientific optimism.",
+    "visual_style": "Soft-realist anime with painterly textures, muted coastal pastels, storm-lit cinematics, weathered wood detail, atmospheric particle effects (mist, pollen, rain streaks)",
+    "main_characters": [
+        {
+            "name": "Amina Reyes",
+            "role": "Protagonist",
+            "personality": "Empathetic, stubbornly principled, quietly passionate, scientifically minded but deeply sentimental about place and people. She balances a methodical approach to problems with an impulsive protectiveness when loved ones or the land are threatened.",
+            "appearance_features": {
+                "hair": "Chestnut, shoulder-length waves with sun-kissed lighter tips and a single strand usually tucked behind her ear",
+                "eyes": "Warm hazel with green flecks, round and observant; often narrowed in concentration",
+                "clothing": "Layered practical outfits: faded olive field jacket with patched elbows, light linen dress or utility trousers depending on the day, worn rubber boots with hand-painted initials on the toes, knit beanie in winter",
+                "accessories": "A battered waterproof field notebook thick with sketches and tide notes, a solar-charged pendant that doubles as an emergency light, a faded friendship bracelet from childhood"
+            },
+            "goal": "To design and implement a community-led adaptation for the marshlands that preserves biodiversity and the town's way of life while keeping people safe.",
+            "background_story": "Born and raised in Marisol, Amina left to study coastal ecology after a storm several years ago devastated her neighborhood and claimed her younger brother. She returned with technical knowledge and a fierce loyalty to her hometown, frustrated by outside developers who promise quick fixes. Her scientific training clashes with local skepticism and political maneuvering.",
+            "emotional_trait": "Amina's strength is unwavering empathy and commitment; her flaw is survivor's guilt and an inability to fully let go of personal blame, which leads her to push others away when decisions become personal."
+        },
+        {
+            "name": "Elias Hart",
+            "role": "Love Interest / Pragmatic Counterpoint",
+            "personality": "Charismatic, politically savvy, calm under pressure, a natural salesman who believes in large-scale engineered solutions. He genuinely wants to protect communities but trusts institutions and technical solutions more than grassroots action.",
+            "appearance_features": {
+                "hair": "Dark brown, cropped short with a streak of premature silver at the temple from stress and sun",
+                "eyes": "Sea-glass blue, slightly hooded and warm when he smiles; sharp when negotiating",
+                "clothing": "Tailored, water-resistant raincoat in slate gray over crisp shirts with rolled sleeves, slim seaworthy boots, neat trousers — a blend of urban technical-professional style",
+                "accessories": "A compact digital tide-modeling tablet he keeps at his hip, a simple silver signet ring he absentmindedly spins, drafting pencil tucked behind his ear"
+            },
+            "goal": "To implement a comprehensive engineered coastal defense (a hybrid sea-wall and urban retrofit) that he believes will save lives and allow economic investment.",
+            "background_story": "A regional planner sent by the coastal authority; Elias grew up inland in a family of civil engineers. His career has been built on delivering large projects that mitigate risk. He sees Marisol as a test case for scalable solutions and hopes success here will lead to broader policy wins.",
+            "emotional_trait": "His strength is steady competence and reassurance; his flaw is a tendency to prioritize measurable outcomes over cultural nuance, sometimes missing what people lose when systems change."
+        },
+        {
+            "name": "Niko Kaur",
+            "role": "Love Interest / Community Advocate",
+            "personality": "Blunt, loyal, hands-on, with a dry humor and fierce protectiveness for tradition and livelihoods. Niko is a natural builder who prefers tangible work to policy debates but understands the community's history intimately.",
+            "appearance_features": {
+                "hair": "Jet black, worn long and braided with a thin silver thread woven through one plait, often tucked into a cap when working",
+                "eyes": "Storm-gray, narrow and assessing, with crow's feet earned by sun and salt",
+                "clothing": "Thick oilskin vest over layered shirts, sturdy cargo trousers with salt stains, fingerless gloves, well-broken-in ankle boots; a practical bandana always at their neck",
+                "accessories": "A carved wooden locket containing a small scrap of sailcloth, a multi-tool with personalized engraving, and a hand-forged pocket hook used on boats"
+            },
+            "goal": "To protect the fishing lanes, family boats, and cultural practices of Marisol, and to find adaptive solutions that keep people employed and connected to the sea.",
+            "background_story": "A childhood friend of Amina, Niko never left Marisol, inheriting a small boatyard from their parents. They lost their largest vessel in a storm and rebuilt it by hand, which hardened their belief in self-reliance and community labor over outside intervention.",
+            "emotional_trait": "Niko's strength is unwavering loyalty to community; their flaw is stubborn distrust of institutional outsiders, which can blind them to beneficial compromises."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mayor Lucia Varela",
+            "relation_to_main": "Elected leader of Marisol; political mentor to Amina in youth",
+            "appearance_summary": "Silver-streaked bob, pragmatic tailored jackets in muted sea tones, a constant brass lapel pin depicting the town seal.",
+            "function_in_story": "Holds the deciding vote on major adaptation plans; must balance budgets, public opinion, and political pressure from regional authorities."
+        },
+        {
+            "name": "Dr. Kenji Sato",
+            "relation_to_main": "Amina's former professor and current scientific consultant",
+            "appearance_summary": "Thin, bespectacled, often in casual fieldwear with a sunhat and a camera slung around his neck.",
+            "function_in_story": "Provides the climatic models and data that inform key choices; acts as a voice of long-term scientific perspective and occasionally moral counsel."
+        },
+        {
+            "name": "Marina Lopez",
+            "relation_to_main": "Childhood friend of Amina and local schoolteacher",
+            "appearance_summary": "Warm smile, braided hair with seashell pins, practical dresses with salt-washed colors.",
+            "function_in_story": "Represents the town's younger generation; organizes community meetings, her students' futures become a moral argument in debates."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marisol Marshes",
+            "visual_description": "An expansive salt marsh at the town's edge: low grasses gleam silver-green under diffuse overcast light, glassy tidal pools reflect a pale sky. Mist hangs in hollows at dawn, and the horizon is a blurred line where sea meets soggy reeds. Boardwalks sag, pilings are barnacled, and the color palette favors soft greens, slate blues, and weathered wood browns. Background art should emphasize wet reflections, reeds swaying, and birds scattering when a storm approaches."
+        },
+        {
+            "name": "The Old Boardwalk & Market",
+            "visual_description": "A creaking wooden promenade lined with small stalls and faded awnings. Warm late-afternoon light filters through salt-streaked glass, casting long shadows. The air carries market smells—fried fish, citrus, damp rope—and festive hand-painted signs. Puddles after a rain capture neon from a distant restaurant sign, and the architecture mixes salt-warped clapboard shops with a few modern reinforced facades."
+        },
+        {
+            "name": "Town Hall / Planning Office",
+            "visual_description": "A compact municipal building with wide windows facing the sea, interior lit by a mix of harsh fluorescent lamps and a few strategic warm desk lamps. Walls are pinned with maps, tide charts, and community pleas. The exterior concrete is pocked by years of salt; light through blinds creates striped patterns on floors, and a constant faint hum of equipment underscores tense meetings."
+        },
+        {
+            "name": "Elias's Field Office (Temporary)",
+            "visual_description": "A modular command trailer parked near the proposed sea-wall site: blueprints taped to aluminum walls, laptop screens casting cool light on faces, a 3D-printed model of the sea-wall sitting under a dome. The environment feels utilitarian and efficient, with the metallic sheen of machinery and the cold, optimistic glow of digital displays against the storm-dark sea outside."
+        },
+        {
+            "name": "Niko's Boatyard",
+            "visual_description": "A tangled, tactile workspace of wood shavings, salt-streaked sails, and hand-painted hulls propped on stands. Golden late-afternoon light pours between rafters, illuminating floating dust and the curve of a new keel. Tools hang in deliberate disorder; the smell is of tar, varnish, and old rope. Background art should show human-scale details and a sense of ancestral craft."
+        },
+        {
+            "name": "Rooftop Community Garden / Evacuation Shelter",
+            "visual_description": "A converted flat roof with raised beds, solar arrays, and windbreak panels: green against the gray sky. Plants are hardy, their green saturated against a backdrop of overcast light and the distant sea. The space doubles as a gathering point—string lights, a weatherproof notice board, and a makeshift infirmary corner, all under an ever-present scent of wet earth."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Amina brokers a hybrid solution: smaller, ecologically sensitive marsh restorations plus targeted, community-led defenses. The town keeps its identity, livelihoods are preserved, and Amina forms a committed relationship with Niko, built on shared work and history. Elias stays as a partner in implementation, having learned to incorporate local knowledge; love and policy align."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The engineered sea-wall is built after a partial but traumatic storm season; it saves the town center but devastates much of the marsh and several fishing grounds. Amina accepts a leadership role to mitigate ecological loss while grieving what was lost. Her romantic relationship with Elias is tender but complicated—professional alignment strains intimacy—while Niko drifts away, unresolved."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political and financial pressure forces a rapid development plan that prioritizes short-term safety for wealthier areas while displacing many residents. The marsh is irreversibly altered. Amina's plans are sidelined; she becomes disillusioned and leaves Marisol to protest elsewhere. Romance with both Elias and Niko collapses under mistrust and blame as the town fractures."
+        },
+        {
+            "type": "True",
+            "summary": "Through coalition-building and a viral campaign led by Amina and Marina, regional policy changes: funding for living shorelines and community adaptation is secured. Change is slow and imperfect; the story ends with a long-term research-and-restoration program anchored in Marisol, Amina taking a public leadership role, and a mature, patient romance that may yet deepen into partnership with elements of both Niko's integrity and Elias's institutional leverage."
+        }
+    ],
+    "estimated_chapters": 6
+}

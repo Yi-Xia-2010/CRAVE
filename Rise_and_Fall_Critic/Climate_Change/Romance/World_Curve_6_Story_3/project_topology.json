@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-03-11 06:55:44",
+  "total_chapters": 15,
+  "total_valid_routes": 6,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route B — Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 11,
+      "branch_name": "Route B — Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route C — Multiple Endings",
+      "path": [
+        1,
+        2,
+        3,
+        13,
+        14,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending: Happy",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 7,
+      "branch_name": "Route A — Ending: Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 8,
+      "branch_name": "Route A — Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Returning Salt",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Meetings at the Resilience Lab",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Council Deadline / The Fork",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        13,
+        9
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "East Strand Mobilizes",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Prototype and Pressure",
+      "branch": "Route A / Split",
+      "children_ids": [
+        8,
+        7,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The Blockade — A Short Triumph",
+      "branch": "Route A — Ending: Happy",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Compromise Materials, Compromised Heart",
+      "branch": "Route A — Ending: Bittersweet",
+      "children_ids": []
+    },
+    "8": {
+      "id": 8,
+      "title": "Evacuations and Quiet Loss",
+      "branch": "Route A — Ending: Sad",
+      "children_ids": []
+    },
+    "9": {
+      "id": 9,
+      "title": "Prototype Sprint with Noah",
+      "branch": "Route B",
+      "children_ids": [
+        10
+      ]
+    },
+    "10": {
+      "id": 10,
+      "title": "Data vs. Deadlines",
+      "branch": "Route B / Split",
+      "children_ids": [
+        11,
+        12
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Demonstration and the Compromise",
+      "branch": "Route B — Ending: True",
+      "children_ids": []
+    },
+    "12": {
+      "id": 12,
+      "title": "Private Trial, Public Backlash",
+      "branch": "Route B — Ending: Sad",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Brokered by Cass",
+      "branch": "Route C",
+      "children_ids": [
+        14
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "Implementation Decisions (and Betrayals)",
+      "branch": "Route C / Split",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "After the Storm — Consequences (Finals)",
+      "branch": "Route C — Multiple Endings",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

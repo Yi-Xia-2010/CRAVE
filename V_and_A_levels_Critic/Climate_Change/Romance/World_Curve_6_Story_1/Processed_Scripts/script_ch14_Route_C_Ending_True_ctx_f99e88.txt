@@ -1,0 +1,238 @@
+### SCRIPT
+# Route: Additional Epilogue (True/Bittersweet synthesis)
+# Context: f99e88
+
+[Scene: Nueva Mar Municipal Hall | Midday — compressed schedule]
+[Background:"ch14_f99e88_1"]
+[Sound: The building's HVAC sighs; a distant wave hits a concrete pier; a projector clicks in cadence with the room’s murmurs]
+[Music: Tense, pulsing strings under a quickening percussive beat]
+
+You arrive with the scent of salt clinging to the collar of your jacket and the taste of too-strong coffee in your mouth. You pushed for this route — municipal coordination — and now the slow machine of city governance moves too quickly and too sluggishly at once: budget windows closing, legal counsel redlining clauses that will become law, the board calendars tied into international arbitration schedules. It is everything you wanted and precisely the kind of thing that will wear you down.
+
+Elias Kahn meets you in the atrium, his trench coat buttoned against a humidity that never quite leaves the building. His face is the same steady amber you know, but the lines at his eyes have deepened with decisions he hasn't voiced yet.
+
+Elias Kahn: "You did what you promised. This—this is the hard part. Keeping it from becoming somebody else's plan."
+
+You watch him shift a folder between his hands. The municipal seal catches the light and throws a pale disc across the floor.
+
+Maya Corvin: "We asked for oversight. We argued for wetlands corridors. We made them put community seats in the charter. It shouldn't be this…personal."
+
+Elias Kahn [breath slow]: "Nothing about this is personal, Maya. It's political. But sometimes the people who can take these fights with us are inside the rooms that smell like boiled linoleum and stale policy."
+
+You close your eyes, feeling that familiar tightness at your sternum — the grind between what must be done and what you'll lose in doing it. The atrium's gossip currents fold around you like wind-blown laundry.
+
+Elias Kahn [he searches your face]: "There's a municipal post opening to manage the resilience program. Mayor Velez asked me to consider it. She thinks someone pragmatic, someone who knows the neighborhoods and the models, could steer audits and make sure funds actually get to the wetland corridors."
+
+Maya Corvin [a laugh that doesn't reach your eyes]: "She asked you? Because your name sounds like a good idea on paper."
+
+Elias Kahn: "She asked me because I won't be the sort to let it sit on a shelf. But—" (he searches your face) "—I won't take it if it means leaving you at the front lines alone. I don't want to be the bureaucrat that replaces your work."
+
+Your mouth goes dry. You think of Lio's paint-splattered hoodie, Rafi's knuckles, Dr. Sima's trembling excitement at model outputs. You think of all the small, immediate interventions that keep wet soil under homegrown beds instead of in a concrete tally.
+
+Maya Corvin: "If you take it, you'll be inside the thing that writes the rules. That's valuable. But it also means your calendar will be full of compromise."
+
+Elias Kahn: "Compromise. I know how that word tastes to you." (he lets the word hang) "I think we can make it taste less like surrender and more like stewardship."
+
+Your chest tightens. You want to say yes and mean it, to rest on a shared axis of policy and protest. Instead you feel the old stubbornness: you move best at the edges, where the city's rules fray and neighbors stitch them back together. Inside, things calcify.
+
+[INTERACTION]
+> Choice A: "Reach and squeeze his hand"
+> Choice B: "Step back and fold your arms"
+[Outcome A: "Your hand finds his sleeve; for a second the world narrows to the warmth of his palm. He squeezes back, and something steadier passes between you."]
+[Outcome B: "You keep your distance. Elias Kahn notices, brows knitting. He nods slowly, as if cataloging the space he needs to cross."]
+[MERGE: Continue]
+
+[Scene: Municipal Offices — Conference Room | Afternoon]
+[Background:"ch14_f99e88_2"]
+[Sound: Keyboard clacks, murmured legalese, a nearby wave hitting a seawall; a fluorescent light hums]
+[Music: Percussion accelerates; brass stabs cut through the strings]
+
+Dr. Sima stands with a tablet in hand. Her models are meticulous — flood frequency projections, salt intrusion curves, adaptive capacity calculations — and they are both a weapon and a leash.
+
+Dr. Sima: "If we bolt an uninterrupted physical barrier, we reduce peak surge impacts in years five through thirty, but we increase long-term ecological collapse risk if the corridors are narrowed below threshold X. That is not rhetoric. That's simulation."
+
+Camila 'Kai' Navarro (leaning forward): "Simulations are useful, Doctor, but people need protection now. The corporate timeline is aggressive because the risk window is closing. We can design corridors, but they can't be candy-striped around every sentimental fixture."
+
+Maya Corvin (cutting in): "Those fixtures are people's lives. 'Sentiment' is the only language some of us have left to talk about memory tied to space."
+
+Camila 'Kai' Navarro's gaze flicks to you — steel-gray, assessing, for a moment almost unreadable. You have tangled with her before: a force so pragmatic it can flatten nuance, but she has also shown you an odd, private care in the way she checks the project's drain calculations.
+
+Camila 'Kai' Navarro [calm]: "Then let's bind it legally. We can place protected corridors and an independent audit board in the charter. If the corridors meet biological viability thresholds and the board adjudicates maintenance compliance, the barrier goes up with checks. That's compromise."
+
+Rafi, hands still smelling of soil, strips his gloves and slaps them on the table.
+
+Rafi: "Words on paper don't mean squat unless the money gets to the roofs and the families. I need a line item: rooftop nursery funding, emergency repair stipends, community liaisons on payroll."
+
+A municipal lawyer jots a note, pen scratching like a timeline of small betrayals.
+
+Dr. Sima: "Funding is essential. I'm for audit requirements quarterly, independent technical review with community technical seats. But understand—independence requires resources. We cannot monitor with good intentions alone."
+
+The room tightens, each breath a currency. You feel your pulse speed; somewhere in the city the tide ticks closer to thresholds you can recite in your sleep.
+
+Elias Kahn: "I'm willing to step in to shepherd that. I won't be the person who sells out the corridor. If I can be inside the municipal machinery, I can make sure audit funding and technical seats are real, that maintenance clauses don't get traded in budget off-sets."
+
+Camila 'Kai' Navarro (flat): "If Elias Kahn's role speeds oversight and accountability, I'm for it. But we need clauses that ensure maintenance is not optional. If arbitration is triggered, it must favor conservation thresholds and community repair access."
+
+Maya Corvin (thinking of how the arbitration clause handed to you in Chapter 11 felt like a trap): "Arbitration favors who has the resources to litigate. We need accessible dispute mechanisms."
+
+Camila 'Kai' Navarro's jaw tightens. Dr. Sima taps her tablet; data cascades like falling rain. For a flicker of a second, you catch in Camila 'Kai' Navarro's profile that porcelain pendant she keeps hidden — a sliver of childlike vulnerability behind corporate armor.
+
+Camila 'Kai' Navarro: "Fine. Accessible dispute mechanisms. Binding governance. Independent audits, funded. Community seats with veto on maintenance schedules that directly affect corridors. But the barrier's core integrity can't be compromised beyond engineering safety margins."
+
+Maya Corvin: "Engineering safety margins that don't look the same as 'we'll save the city by erasing a neighborhood.'"
+
+Camila 'Kai' Navarro (breath thin): "Nobody said that. Not here. Not in good faith."
+
+The arguments spool tighter. The legal counsel's pen slows as an internal memo appears on the screen: budget shortfalls require reallocation. The room's warmth becomes an oven.
+
+[INTERACTION]
+> Choice A: "Call out the budget shortfall publicly"
+> Choice B: "Send Elias a quiet note"
+[Outcome A: "You stand, voice carrying. The attorneys' faces go still; the projector's glow feels accusatory. This forces an immediate line-item discussion, and the room leans into the scavenged math of civic survival."]
+[Outcome B: "You slip a message to Elias Kahn across the table. He reads it, jaw working. He nods minutely, then raises a procedural point that steers the conversation toward grant reallocation. Small moves, quiet shifts."]
+[MERGE: Continue]
+
+[Scene: Construction Site — Edge of the Engineered Shoreline | Early evening]
+[Background:"ch14_f99e88_3"]
+[Sound: The metallic groan of cranes; salt-laden wind; the distant hiss of rain meeting warm concrete]
+[Music: Drums and high strings; an urgent, staccato cadence]
+
+You stand at the fringe where the city's new line meets the old marsh, watching crews pour concrete in measured, ruthless sections. Between slabs they leave stamped openings for wetland corridors — a concession, but narrow. The new seawall looks inevitable and final, the kind of thing children will grow up leaning against and never question.
+
+Lio is here, paint on his knuckles, documenting the work with a shaky-cam phone. He moves like someone draping a memory across a hard edge.
+
+Lio: "They're taking the old fisherman's platform. They say they'll 'repurpose' the stones into a terrace. Mom, that's our meeting place."
+
+Maya Corvin: "Repurposed doesn't mean 'removed.' It means adapted. We get the terrace and keep the stones. We mark the platform's history."
+
+Lio (bitter): "When was adaptation ever enough? It's like calling a bandage a new skin."
+
+You want to argue until your voice frays, but the tide keeps making its points in louder, wetter claps.
+
+Camila 'Kai' Navarro approaches, rain beginning to pepper her immaculate jacket; she looks oddly out of place in this weather, a clean line in the muck.
+
+Camila 'Kai' Navarro: "You asked for mitigations, for corridors. The contract has been rewritten half a dozen times to include them. We had to narrow the corridor in places to maintain structural integrity, which meant repurposing small heritage plots into adaptive spaces. It's not desire to erase—it's hard engineering realities."
+
+Maya Corvin (the word 'repurpose' tastes like cheap varnish): "We didn't ask for erasure. We asked for viability."
+
+Camila 'Kai' Navarro (for the first time, voice low): "Viability means making sure the whole coast holds together. If a few sites become public terraces—sites restored as community areas, with markers—then people still have access. It's not nothing."
+
+Your hands curl at your sides. You want to tell her that stones and wooden signs are not only physical objects; they're the bones of stories, and once re-shaped they can lose the gravity that kept people tethered to place.
+
+Camila 'Kai' Navarro: "I know you want more. So do I. But my timeline is not sentimental. It's months, not years. If we wait for everything to be perfect, we get none of it."
+
+Rafi pushes at a sack of repaired nets, eyes burning with fatigue.
+
+Rafi: "Months are lives for some. We need guarantees. Not promises."
+
+Camila 'Kai' Navarro: "Then put them in the charter—money, maintenance schedules, public control panels. Make them binding and enforceable. If you can make that work, I'll sign to deliver within a timeline that actually reduces risk."
+
+You look at the line of poured concrete, at the narrow green veins left for corridors, and feel something like mourning for the seawall as it will stand: necessary, efficient, and incomplete.
+
+[INTERACTION]
+> Choice A: "Shout at Kai about the platform"
+> Choice B: "Record her response quietly"
+[Outcome A: "Your words rise like surf and crash. Workers pause; Camila 'Kai' Navarro's jaw tightens. A foreman steps between you and her. It's messy, loud, and it forces immediate, public accountability."]
+[Outcome B: "You press record on your device, letting Camila 'Kai' Navarro's admission hang. Later, you'll transcribe it, use it. For now, the microphone captures a rare softness and the city's rain."]
+[MERGE: Continue]
+
+[Scene: Rooftop Nursery & Green Lab | Night — post-rain]
+[Background:"ch14_f99e88_4"]
+[Sound: Insects, water running from gutters, neighborly laughter muffled into the soil]
+[Music: Low, mournful cello beneath layered rhythmic beats; heartbeat-like percussion]
+
+You climb the ladder into the nursery to find hands everywhere: neighbors tending saplings, Lio taping a mural plan to a support beam, Rafi delegating shifts like a captain. This is your home court, the place where policy talk meets mud.
+
+Dr. Sima kneels by a rain barrel, checking conductivity screens. Her hair is damp, glasses fogged. She looks up when you arrive.
+
+Dr. Sima: "The monitoring arrays we insisted on are finally online. We'll have data streams tied into the independent board. That was non-negotiable for me."
+
+Maya Corvin: "And the funding?"
+
+Dr. Sima (a small, weary smile): "Allocated startup, with recurrent funds tied to municipal budget reviews. It's not all of what you asked for — there's a proviso about scaling down in three-year intervals if maintenance costs outpace adjustments — but it's a start."
+
+Lio flops beside you, paint-splattered hands smudging soil.
+
+Lio: "I painted over one of the plaques. Not erased—painted with the new terrace plan. People asked, and it calmed some of them. But some of the old-timers cried. They want their songs to stay."
+
+Maya Corvin: "Songs can be taught. We can make sure the terrace has a plaque, a schedule of community ceremonies. We can design places that sing."
+
+Rafi (approaching with a tray of tea): "Listen," he says, "this is messy as hell. We'll be on late nights for audits and morning shifts for seedlings. But it's us. That matters."
+
+You sip the tea, bitter but warm. Your shoulders ache from too many single-handed nights. The shelter of the nursery is small consolation under a sky that keeps bringing bigger storms.
+
+Elias Kahn appears, paint-smudge at his collar where Lio bumped into him. He looks tired in a new way: the fatigue of someone carrying institutional weight.
+
+Elias Kahn: "Mayor Velez floated the post to me again. She wants someone the community trusts. I told her I'd consider it if we could guarantee governance—community, municipal, technical seats, binding funds, and a clear dispute resolution process. We have a procedural draft ready. The board will have enforcement rights."
+
+Maya Corvin: "And your calendar?"
+
+Elias Kahn: "Will be full. My nights will be audits and my mornings policy memos. But I think I can be there for you, not instead of you. If you let me."
+
+You swallow. The thought of him inside a room full of concrete policy both comforts and terrifies you. But the alternative is to watch the city be built around you without having a foot in the room that says what 'around' will mean.
+
+Maya Corvin: "If you take it, don't forget the people who churn the soil. Don't forget Rafi and Lio and Mrs. Ortega. Don't let the board become an echo chamber."
+
+Elias Kahn (firm): "I won't. But I will ask you to let some battles go. We can't win every fight and still get this off the ground."
+
+You close your eyes, feeling the truth of that as a loss. The negative edge of this chapter is not only in what you obtain, but in what you must release to keep the rest functioning.
+
+[Scene: Adaptive Public Space — Inaugural Walkthrough | Late Night — storm on horizon]
+[Background:"ch14_f99e88_5"]
+[Sound: Waves pounding with new force; the wind carries a metallic tang; a distant siren; the city breathing in tumult]
+[Music: Full orchestra, bruised and urgent; driving rhythm clipped by staccato strings; the percussion is a marching heartbeat]
+
+You stand on the newly repurposed terrace — heritage stones repositioned into benches, inscriptions polished, new plantings already taking root in the corridors. The terrace is clean, functional, and beautiful in a severed way. It bears the fingerprints of decisions made in committee rooms and the grief of things reshaped to fit survival.
+
+Mayor Ana Velez steps up to the temporary podium, her scarf a bright bloom against the monochrome night.
+
+Mayor Ana Velez: "This is not the seaside any of us remember. It is better and worse: better because it will survive another decade; worse because we had to make hard choices to buy those years. We commit tonight to long-term stewardship and the new governance charter."
+
+Her words hang like flags in a wind that wants to tear them. The crowd is a mix: Rafi's steady presence near the front, Lio filming with a quiet intensity, Dr. Sima flanked by technical staff, Camila 'Kai' Navarro standing a little apart in the rain, wet and pristine, like an argument that hasn't finished.
+
+The council votes: procedural formalities, a tally on a screen that flickers with each click. The number shrinks, expands; the room hums with the electrical tension of decisions that rearrange lives.
+
+Elias Kahn slips your hand once, fingers warm and quick. He had stood through hours of amendments, budget wrangling, and the bitter calculus of trade-offs. Now the tally flashes the final count.
+
+The board is created. Funding lines are allocated with caveats. Wetland corridors are preserved in critical stretches. Several small heritage sites are reclassified as adaptive public spaces — preserved in form but altered in function. The seawall's build begins under the watch of the new independent board, with binding oversight and auditing powers.
+
+You feel a high, ragged noise inside your chest — relief braided with a throb of loss. The program exists. It is neither total victory nor total defeat. It is limping, practical governance: the municipal middle way.
+
+Elias Kahn (quiet): "This is where we begin the harder part. Keeping the promises when headlines move on."
+
+Maya Corvin: "It's going to be a mess. There will be audits, lawsuits, neighborhoods that feel betrayed. There will be rain worse than any model predicted. We'll sleep less. We'll fight more."
+
+Camila 'Kai' Navarro approaches, rain streaking her cheeks like black ink. For a moment, you and she stand together, two kinds of pragmatism.
+
+Camila 'Kai' Navarro: "You held us to the board. You made sure the corridors stayed. I'm constrained — legally now — but for the first time I feel like I have guardrails that a single contract couldn't guarantee."
+
+Maya Corvin: "Do we trust guardrails enough?"
+
+Camila 'Kai' Navarro (a tight half-smile): "Trust is earned in time. For now, we do the work. We argue the nuts and bolts when audits show a drift. We don't let lawyers wrestle maintenance into oblivion."
+
+You look at Elias Kahn, at Camila 'Kai' Navarro, at Rafi and Lio, and at the terrace which holds echoes of the old promenade. The ache is constant and sharp. The arousal in you — the rush of meetings, construction, deals sealed with red lines and quiet signatures — reaches its peak. The city will survive in a changed mode. The neighborhood will too, but altered, repurposed, refitted for a future you have to keep fighting to shape.
+
+You breathe the storm in; its salt is a bitter promise that this stewardship will be ongoing.
+
+[Background:"ch14_f99e88_6"]
+[Sound: The sea roars; the rain grows louder; a generator somewhere below the terrace clenches and holds]
+[Music: Strings crescendo into a held, unresolved chord; percussion is urgent and relentless; the cello drones a low lament]
+
+You know what comes next: audits, petitions, nights pacing the nursery, meetings that run into dawn. Elias Kahn will take the post. Camila 'Kai' Navarro will operate within constraints but press on timelines. You will keep organizing, keep measuring, keep loving in a new rhythm that is less immediate and more procedural — less romantic in the old sense, but no less necessary.
+
+A distant thunderclap folds the city's decision into sound. The program exists; the work begins.
+
+[Background:"ch14_f99e88_7"]
+[Music: Fade to a single cello note that trembles and does not resolve]
+
+You stand alone on the terrace a moment longer, rain on your face, hands cupped against the wind. In the pool of light the plaque reads: "For resilience, for those who tended this place." It is a small, living thing. You trace the letters with a thumb that still smells of soil. You know there will be audits that cut into neighborly time, arbitration that will test community seats, and storms that will come faster than policy can move. You know the city will keep making compromises. Still, you feel a wire of resolve: stewardship is not a victory lap. It's a long, necessary watch. You step back from the edge, the tide a noise at your back like an unfinished sentence, and head down toward the nursery to sleep for two hours before the next meeting.
+
+[Background:"ch14_f99e88_8"]
+[Music: Fade Out]
+[NEXT CHAPTER: 15]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 15
+    > Jump Target File: script_ch15_Additional_Epilogue_True_Bittersweet_synthesis_Ending_from_Ch14_ctx_37146d.txt

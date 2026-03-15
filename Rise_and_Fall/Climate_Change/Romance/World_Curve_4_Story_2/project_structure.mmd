@@ -1,0 +1,32 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Morning at the Marsh<br/>[Common]"):::spine
+    2("Ch 2<br/>The Meeting at the P<br/>[Common]"):::spine
+    3("Ch 3<br/>Town Forum — The Cho<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Co-management Pilot<br/>[Route A]"):::limb
+    5("Ch 5<br/>Design Choices (Logi<br/>[Route A]"):::limb
+    6("Ch 6<br/>The Storm Breaks<br/>[Route A]"):::limb
+    7("Ch 7<br/>Community First<br/>[Route B]"):::limb
+    8("Ch 8<br/>Tactical Decisions (<br/>[Route B]"):::limb
+    9("Ch 9<br/>After the Crash<br/>[Route B]"):::limb
+    10("Ch 10<br/>Conditional Acceptan<br/>[Route C]"):::limb
+    11("Ch 11<br/>Advisory Pressure (L<br/>[Route C]"):::limb
+    12("Ch 12<br/>Catastrophe and Depa<br/>[Route C]"):::limb
+    13("Ch 13<br/>Call for Time<br/>[Route D]"):::limb
+    14("Ch 14<br/>Prototype Decisions <br/>[Route D]"):::limb
+    15("Ch 15<br/>The Reckoning and th<br/>[Route D]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    3 -.-> 13
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 9
+    10 -.-> 11
+    11 -.-> 12
+    13 -.-> 14
+    14 -.-> 15

@@ -1,0 +1,130 @@
+### SCRIPT
+# Route: Route A — Ending: Sad
+# Context: 4001e7
+
+[Scene: Old Boathouse | Night]
+[Background:"ch5_4001e7_1"]
+[Sound: Rain tapping a slow, impatient rhythm on the corrugated roof; distant engine hums from press vans]
+[Music: Low, mournful cello with a sparse piano motif]
+
+You wake to the lamp's honeyed circle and the old wood's smell — salt and tar braided with wet cloth. The pallet beneath you sighs as you shift; your muscles remember the day as if your bones still hold the hammer's echo. Outside, the boardwalk is awake in a way you meant it to be: alive, loud, and dangerous.
+
+Ivy Morales is a shape at the doorway, neon safety vest catching the light, breath visible in the cold. Her movements are quick and raw as a pulled net. In the corner, Lina Park's camera bag is open; her fingers are stained with ink from scribbling notes into a reporter's pad. Elder Tomas sits on a crate, shoulders folded, a thin envelope spread on his knees like a map you do not want to read.
+
+You rub the grit from your eyes and the compass at your throat knocks once against the collar of your jacket — a small, private metronome. You listen before you speak: footsteps outside, a muffled conversation, a roll of police blotter printed this morning folded in Lina Park's hands.
+
+Elder Tomas: "Read it, Tomas."
+Ivy Morales's voice is tight; you can hear the tape on her breath.
+
+Elder Tomas unfolds the letter with hands that tremble only where memory runs shallow. His thumbs find the fold like old knots in rope.
+
+Elder Tomas: "From Tideguard. Formal notice. Sections of the boardwalk — closed for 'safety retrofits.' Effective immediately unless accessions are made."
+
+The paper is warmer than you expect, as if the town's heat could steady the law. You can feel each word in the room like a tide: 'closed,' 'retrofits,' 'effective immediately.' The lamp throws the letter's shadow across Tomas's weathered knuckles; the ink is official, tame as a declaration and sharp as a blade.
+
+Ivy Morales slams a roll of tape down on the table so hard the maps flutter. Her eyes are wet, not with simple anger but with a kind of grief that smells like burned kelp.
+
+Ivy Morales: "Who signed this? Who decided our access is negotiable? They can't just—"
+
+You stand because standing is what you do when space needs an anchor. Your sleeves are rolled; the salt on your forearms crystallizes where your skin meets cold cotton. The boathouse smells like last week's nails, wet rope, and the faint sweetness of pressed leaves in your field notebook.
+
+Lina Park [soft, urgent]: "There are press vans out on the pier already. I have a preliminary upload queued, but I need quotes. Tomas, can you say we won't—"
+
+Elder Tomas [interrupting, tired]: "I can say we've cared for this place longer than their company has been a thought. But words don't stop machines. They stop only when people do."
+
+You imagine the crews at the construction line — machines numbed under covers, trucks like waiting predators. You imagine Cassian Rhee's calm face in a polished meeting room, the kind of calm that counts losses in spreadsheets. The town’s edges are where love and logistics will collide.
+
+[Background:"ch5_4001e7_2"]
+[Sound: Dull thud of equipment, a radio channel buzzing in the background]
+
+Ivy Morales paces, and the tape dispenser becomes a metronome. Her hands rearrange hand-lettered signs — 'KEEP OUR SHORE' becomes 'HOLD THE LINE' as if the words can change their meaning by brute force. People in the room shift with every new slogan she tapes; you feel their gazes land on you like the cold.
+
+You know what the choices are, as if they'd been waiting in the rafters: escalate and blockade the crews, accept a negotiated ceding of certain areas, or pull Ariana Voss into something private and fast. Each route has its own smell — the sharp metal of arrest, the tannic bark of compromise, the copper taste of risk when you ask a loved one to put her work on the line.
+
+[INTERACTION]
+> Choice A: "Step outside and help Ivy tape new signs"
+> Choice B: "Stay inside and organize the maps and legal notes"
+[Outcome A: "You grab a sign, the damp cardboard creaks. Together you march to the window and shape words for anyone who will read them; your voice comes out hoarse but steady."]
+[Outcome B: "You sit at the table, fingers spreading over torn planning documents. Your hands are steady; you trace the possible lines of legal resistance and the timelines that could buy you space."]
+[MERGE: Continue]
+
+Elder Tomas: "We must decide soon. The town is awake to this; they will act on what they see."
+
+Ivy Morales [bitter laugh]: "Act? We're already acting. They—" (she stops, jaw working) "—they sent a notice. They think closing off parts will make people trade their memories for a quiet harbor."
+
+A heavy silence falls. Outside, a camera flash slices through the rain like a clean knife; Lina Park flinches and then presses record again. Her eyes search yours, not to prod but to hold up a mirror.
+
+Lina Park: "If we frame this as safety for families, they'll listen. If we frame this as theft of access, they'll line up with you. I can shape the narrative, but I need to know what you're willing to do."
+
+You think of the boathouse: the lamp, the jar of nails, the map with your mother's handwriting smudged at the corner. You think of Ivy Morales's braces snapping like a taut line and of Elder Tomas's voice, small as tide rips. Your chest tightens until breathing feels like a difficult plan to negotiate.
+
+A phone vibrates against the plank floor. Your thumb hovers over Ariana Voss's name on the screen because the third option loops in your mind like a stuck wave: ask her to accelerate the pilot. The idea tastes of desperation. You can picture Ariana Voss in the nursery, hands in soil, optimism like sun in her hair — or not; perhaps she is at the Hub with her tablet, or perhaps she is already at the pier juggling cameras and community leaders. You can't be sure.
+
+[INTERACTION]
+> Choice A: "Call Ariana now, tell her we need an emergency deploy"
+> Choice B: "Keep Ariana off the line; this is our town to decide"
+[Outcome A: "You hit the call and listen to the ring. If she picks up, there's a taut pause: the weight of the ask is in your voice before the words land. If she doesn't, voicemail is a small, hollow thing. Either way, the act changes nothing and everything at once."]
+[Outcome B: "You let the phone sit face-down. Your chest eases for a breath; you feel like you are protecting her from being dragged into a choice she didn't sign up for. The silence hums with consequences you haven't asked anyone to carry."]
+[MERGE: Continue]
+
+You make no move — yet. Elder Tomas folds the letter back into his palm like a map that refuses to be smoothed. Ivy Morales crosses her arms and looks at each of you with an intensity that scrapes clean the varnish off the room.
+
+Ivy Morales: "If we let them fix what they want and only ask for scraps, they'll take the rest later. If we block those crews, we slow them down. We buy time, at least. And time is everything."
+
+Lina Park: "Time is also a leaking bucket. The longer you delay, the more legal levers they can throw in—"
+
+You cut in because their words are true and insufficient at once. You can taste iron along your tongue — fear or adrenaline, you cannot tell. It is personal and political and impossible to separate tonight.
+
+Marin Sato [you speak slowly]: "We need to be honest with what we're willing to risk. Arrests mean fines, maybe jail for some — most of us can't afford that. Negotiations mean we lose parts of what we love. Bringing Ariana Voss in early could fail spectacularly and give Tideguard a foothold. None of this keeps everyone safe."
+
+Ivy Morales's face folds inward for a moment, a quick, private grief.
+
+Ivy Morales: "You always say the right words like they're spools of rope. What do you want to do, Marin? Not what is possible — what are you willing to carry?"
+
+The lamp makes your compass pendant gleam faintly. Your fingers brush it as if to pull direction from brass. For once, the thing doesn't give an answer; it only reminds you that direction is choice, not destiny.
+
+Elder Tomas [voice small but steady]: "Don't let love be the excuse to take a gamble only the young can survive. I remember when we moved a whole dock line because the sea took it overnight. Some of us have nowhere else to go."
+
+You look at Elder Tomas and feel the room tilt: his life is a ledger of losses and recoveries; he measures trade-offs in people, not lines on a plan. His words make the 'sacrifice' feel heavy, personal, unavoidable.
+
+Lina Park: "If you blockade, we'll need media, legal observers, people to shout not just slogans but the human stories. I can work the cameras, get voices on record. If you negotiate, I can frame it as a tough but necessary concession so you don't look like you've given up. If you pull Ariana Voss in, I will cover the science angle, but I won't lie if things go south."
+
+There is more said in the pauses than in the sentences: the scrape of a chair leg, the distant siren that winds its way around a bend, the wet smack of a truck tire on the pier. Your mouth feels dry; the weight of the town is an actual thing sitting in your lap.
+
+Marin Sato: "We can't pretend any of the options won't hurt people. But we also can't be paralyzed. We need to choose what pain we accept and what pain we fight."
+
+Ivy Morales leans forward, eyes bright, voice like a cut rope.
+
+Ivy Morales: "Then decide, Marin. Tonight. Before dawn. If you don't, something will be taken while we sleep."
+
+Your hands find the map on the table, tracing lines that mean more than geography: who can be moved, which streets are higher, which homes are anchored by memory. The plan is not a blueprint alone; it is a promise you will make to people whose faces are stacked in your head when you close your eyes.
+
+You could see, clearly, the first light of dawn hitting the tide-bleached planks with protest signs and bodies, the police lights and the legal notices handed over in glove boxes. You can also see the quiet acceptance of a negotiated map where a strip of coastline disappears into a company's ledger. And there is the sharp, bright, fragile thing of Ariana Voss's pilot — a living seawall rolled out too early, heroic or catastrophic depending on luck, timing, and the sea.
+
+The room waits for you. Outside, the tide ticks like a clock that doesn't forgive hesitation. You breathe in the brine and the adhesive smell from the tape and taste the salt of a decision you must make.
+
+[Background:"ch5_4001e7_3"]
+[Music: Cello drops to a single, sustained note; wind sound rises]
+
+You speak, and the word falls like a pebble into still water.
+
+Marin Sato: "I choose—"
+
+[DECISION POINT]
+Decide the immediate tactic to protect cultural sites and homes.
+1) Option 1: "We blockade the crews at dawn, whatever the legal cost." -> TARGET chapter_id: 6
+2) Option 2: "I accept a negotiated plan that secures the harbor but cedes the boathouse area." -> TARGET chapter_id: 13
+3) Option 3: "I ask Ariana to accelerate the pilot and deploy on our timeline." -> TARGET chapter_id: 6
+
+[Background:"ch5_4001e7_4"]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "We blockade the crews at dawn, whatever the legal cost." -> ID 6 (Route A — Ending: Sad)
+    > Jump Target File: script_ch6_Route_A_Ending_Sad_ctx_601bcb.txt
+Option 2: "I accept a negotiated plan that secures the harbor but ce..." -> ID 13 (Route A — Alternate Ending: Bittersweet)
+    > Jump Target File: script_ch13_Route_A_Alternate_Ending_Bittersweet_ctx_601bcb.txt
+Option 3: "I ask Ariana to accelerate the pilot and deploy on our ti..." -> ID 6 (Route A — Ending: Sad)
+    > Jump Target File: script_ch6_Route_A_Ending_Sad_ctx_601bcb.txt

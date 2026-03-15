@@ -1,0 +1,120 @@
+{
+    "design_logic": "I combine an intimate romance with a climate-crisis story by making the environmental threat the catalyst for personal choices and relationships. The Theme (Climate Change) supplies immediate, high-stakes external pressure (coastal erosion, storms, heatwaves) that forces characters to confront values, compromise, and sacrifice. The Genre (Romance) grounds those stakes in emotional arcs: love as motivation, friction, or consolation. The core conflict pits urgent communal adaptation and scientific pragmatism against private attachments and economic pressures — creating routes where trust, ideology, and empathy determine both romantic and civic outcomes.",
+    "setting": "A mid-sized coastal town called Mariner's Reach in the near future (2035). Once a fishing and shipbuilding hub, it's now coping with higher tides, unpredictable storms, and a shrinking budget. The town blends weathered maritime architecture with pockets of new green-tech projects — solar canopies, modular seawalls, and community rooftop farms. The atmosphere is melancholic but hopeful: salt-worn facades, spray-lashed streets, and evenings where repaired lights and small gardens push back the dark.",
+    "visual_style": "Soft, moody neo-realism; muted coastal palettes with bright environmental accents (seafoam greens, rusted ochres); painterly backgrounds; character-focused anime-influenced proportions; gentle lens flares on wet surfaces",
+    "main_characters": [
+        {
+            "name": "Iris Alvarez",
+            "role": "Protagonist",
+            "personality": "Determined, empathetic, pragmatic; tends to prioritize community needs over personal comfort but struggles with letting others carry burdens. Thoughtful, occasionally stubborn when she believes data and compassion point the same way.",
+            "appearance_features": {
+                "hair": "Dark chestnut with natural sun-bleached streaks, shoulder-length wavy bob often pulled back into a low knot when working",
+                "eyes": "Warm hazel with a ring of green near the iris, rounded and observant",
+                "clothing": "Practical layered outfits: salt-stained field jacket over breathable work shirts, cuffed jeans with patched knees, waterproof ankle boots. Often wears a lightweight utility apron with pockets for seed packets and sample vials.",
+                "accessories": "A braided leather bracelet made from rope salvaged from an old boat, a battered digital field tablet, and a bent metal ring (keepsake from her grandmother)"
+            },
+            "goal": "To design and implement community-led adaptation projects (rooftop gardens, modular barriers) that both protect Mariner's Reach and preserve its character.",
+            "background_story": "Grew up in Mariner's Reach; studied coastal ecology and returned when the first major floods hit. Her family runs a small boat repair shop; she's driven by memories of losing the town festival pier in a storm and by a desire to keep neighbors' homes intact.",
+            "emotional_trait": "Strength: resolute empathy; Flaw: guilt-driven self-sacrifice — she often takes responsibility for problems that aren't hers to fix."
+        },
+        {
+            "name": "Kai Nakamura",
+            "role": "Love Interest / Activist-Engineer",
+            "personality": "Charismatic, inventive, slightly impulsive; believes in grassroots empowerment and open-source solutions. Warm and playful but prone to idealism that sometimes overlooks logistical constraints.",
+            "appearance_features": {
+                "hair": "Jet black, undercut with a tousled top he pushes back with one hand",
+                "eyes": "Deep ocean-blue, almond-shaped and quick to crinkle when he smiles",
+                "clothing": "Wears retrofitted techwear: a patched windbreaker with solar-fabric panels, rolled-up chinos, and a knitted beanie on cool days. Often has ink stains on his sleeves from blueprints.",
+                "accessories": "A compact multi-tool on a cord, a collection of enamel pins (local causes), and a worn camera hung around his neck"
+            },
+            "goal": "To mobilize residents to build community-managed resilience projects and to create an open-source blueprint for coastal towns to adapt affordably.",
+            "background_story": "Left Mariner's Reach for engineering school, worked on low-cost resilience tech in cities, then came back after organizing a successful community retrofit in a nearby town. He and Iris share history — childhood summers on the same pier — and their reunion reawakens both old affection and ideological friction.",
+            "emotional_trait": "Strength: infectious optimism; Flaw: impatience with bureaucracy and an aversion to compromise when it seems to betray ideals."
+        },
+        {
+            "name": "Marin Voss",
+            "role": "Love Interest / Municipal Planner (Potential Antagonist depending on route)",
+            "personality": "Measured, diplomatic, pragmatic. A complex blend of civic responsibility and political savvy; can seem distant but deeply cares about legacy. Tends to think in terms of large systems and long-term feasibility.",
+            "appearance_features": {
+                "hair": "Steel-blonde, slicked back in a tidy mid-length cut that sometimes falls loose in windstorms",
+                "eyes": "Pale gray, narrow and contemplative, with a habit of studying people like plans",
+                "clothing": "Tailored, weatherproofed civilian attire: a slate-gray trench coat with a high collar, crisp shirts, and polished ankle boots. On duty, carries a slim tablet case engraved with the municipal seal.",
+                "accessories": "A minimalist lapel pin shaped like a wave, a slim silver watch, and an old municipal map folded in their pocket"
+            },
+            "goal": "To secure sustainable funding and durable infrastructure projects for Mariner's Reach, even if that requires hard negotiations and politically risky trade-offs.",
+            "background_story": "Raised outside the town but assigned to Mariner's Reach as a regional planner. Their family background is in infrastructure and public administration. Marin's approach, shaped by tough budget constraints, often puts them at odds with grassroots activists.",
+            "emotional_trait": "Strength: steady, strategic thinking; Flaw: guardedness — difficulty trusting personal relationships when political stakes are high."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Tomas 'Tom' Alvarez",
+            "relation_to_main": "Iris's older brother",
+            "appearance_summary": "Broad-shouldered, weather-beaten face, always in a grease-stained work shirt.",
+            "function_in_story": "Represents the town's blue-collar perspective; pragmatic support for Iris but skeptical of expensive or risky projects. His shop and social network are crucial for community mobilization."
+        },
+        {
+            "name": "Etta Bloom",
+            "relation_to_main": "Community elder / Garden cooperative founder",
+            "appearance_summary": "Small, stooped with silver hair in a bun, bright floral scarves and dirt under her nails.",
+            "function_in_story": "Mentor figure who anchors community memory and land-rights knowledge; provides emotional wisdom and seeds (literal and metaphorical) for Iris's projects."
+        },
+        {
+            "name": "Ravi Singh",
+            "relation_to_main": "Town councillor and funding gatekeeper",
+            "appearance_summary": "Neat dark hair, suits with rolled sleeves, sympathetic but politically cautious.",
+            "function_in_story": "Complicates municipal approvals and budgets; he can be an ally or obstacle depending on persuasion and evidence Iris and partners build."
+        },
+        {
+            "name": "Lina Harrow",
+            "relation_to_main": "Local marina owner, former rival of Tom",
+            "appearance_summary": "Sun-kissed, short-cropped hair, heavy boots and a bright waterproof vest.",
+            "function_in_story": "Represents economic pressures; may push for development projects that threaten community spaces but whose cooperation is needed for some adaptation plans."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Mariner's Pier & Promenade",
+            "visual_description": "A fractured wooden pier jutting into a restless sea; sundrenched gull-scarred boards in calm, battered and slick when storms approach. Evening light throws long golden tones across rusted railings, while storm-fronts render the scene in cold blues and gray, spray catching neon reflections from shop signs. Fog often rolls in low, softening horizons."
+        },
+        {
+            "name": "The Greenhouse Commons",
+            "visual_description": "An adaptive reuse of an old shipyard warehouse — glass panes replaced with recycled polycarbonate and solar film. Interior is warm and humid, saturated greens under soft ambers and strings of LED grow lights. Soil-scented, with hanging planters and makeshift benches; windows show long views of the sea and breakwater silhouettes at dusk."
+        },
+        {
+            "name": "Municipal Hall / Planning Office",
+            "visual_description": "A modernist brick building with slate panels and a glass facade engraved with the town seal. The interior is cool and efficient: fluorescent overhead lighting, maps pinned to corkboards, and a high window that frames the harbor. Rain streaks on glass during meetings give lighting a distilled, dramatic quality."
+        },
+        {
+            "name": "Rooftop Garden Lab",
+            "visual_description": "Small plots on flat roofs, bordered by salvaged timber and solar canopies. Morning light is bright and crisp; midday produces sharp contrasts with metallic glints from irrigation systems. The city skyline and sea form a panoramic backdrop; in storms, the rooftop becomes a windswept theater of flying seed packets and flapping tarps."
+        },
+        {
+            "name": "Old Shipwright's Lane",
+            "visual_description": "Narrow cobbled alleyways between repaired hulls and workshops; patchwork tarps overhead cast dappled shadows. Warm lamp light spills out from workshop doors at night, offering intimate pockets of orange against the cool blues of wet stones and salt-stained walls."
+        }
+    ],
+    "theme": [
+        "Community resilience and adaptation",
+        "Love as catalyst for difficult choices"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Iris and Kai (or Marin, depending on route) successfully lead the town in implementing a hybrid adaptation plan that preserves key cultural sites. Their relationship deepens into partnership; Mariner's Reach secures funding and becomes a model for other towns, and Iris finds a sustainable balance between personal life and responsibility."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The town saves its core through compromises that close some local businesses and alter familiar landscapes. Iris and her partner remain close but must accept that some losses are permanent. The romance endures with maturity, tempered by grief and renewed purpose."
+        },
+        {
+            "type": "Sad",
+            "summary": "Budget shortfalls and political stalemate result in a failed major project during a severe storm. Significant parts of the town are damaged; a relationship fractures as characters assign blame — one leaves to continue activism elsewhere while the other stays to rebuild alone. The ending is a meditation on loss and the cost of inaction."
+        },
+        {
+            "type": "True",
+            "summary": "Iris achieves systemic change: open-source resilience blueprints are adopted regionally, and she negotiates an unlikely coalition between grassroots groups and municipal planners. She forms a nuanced, committed partnership that accepts individual growth paths — personal romance and civic victory are both earned through compromise and honest communication."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

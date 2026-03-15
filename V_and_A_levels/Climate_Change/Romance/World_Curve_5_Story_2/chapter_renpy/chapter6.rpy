@@ -1,0 +1,217 @@
+label chapter6:
+
+    # [Scene: Rebuilt Pier | Night — After the Surge]
+
+    scene bg ch6_601bcb_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The steady grind of pumps, the distant clang of TideLine cranes, murmured orders, a gull's lonely cry]
+    # play music "music_placeholder"  # [Music: Driving strings with a hopeful brass undercurrent]
+    "Narration"
+    "The decision late, the compromise painful, and the sky still angry — but here you are, sleeves soaked, notebook tucked under an elbow, watching the work that saved people tonight."
+    "Narration"
+    "You accepted a scaled payment from TideLine to fund immediate rescue. You insisted it not be the end of the story. That insistence pressed like a stone in your palm all day and into the night:"
+    "public oversight attached, renegotiation clauses anchored, guarantees for fishing access etched into legal language that you had to parse between breaths. You remember asking the mayor for one thing — a seat at the table —"
+    "and feeling your voice steadier for the asking."
+    "Narration"
+    "Around you, the town moves like a single organism: Kaito Navarro's crew forming human chains to pull debris, Rosa barking quick encouragement and dragging a soaked lantern toward a corner where an elder looks for dry"
+    "blankets. Volunteers tighten lines around the new modular blocks; TideLine's technicians wheel a luminous panel into place while Jun checks a folded page before slipping it into your hand — the clause you flagged earlier, printed"
+    "in black and white and impossible to ignore."
+    "Narration"
+    "You feel the high salt of the night on your lips, the staccato tap of mud on your boots, and the tremor of adrenaline that keeps your muscles braced. The pumps thrum like a heartbeat. Every"
+    "decision you made in the last hours has been a small surgery: incision, hold, stitch. Each stitch is visible now in the bolts and the canvases tacked around the pier."
+    "Narration"
+    "Kaito Navarro finds you at the rail. His hands smell of rope and diesel, callouses rubbed raw by the night's work. He doesn't ask first; he just looks, and the look says the question — did we do the right thing? — and the reply lives in your jaw."
+    show kaito_navarro at left:
+        zoom 0.7
+
+    kaito_navarro "You look like hell. In the best way."
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "We did what we could. The pumps are buying time. The crews have the shelter list. Jun gave me the clause — it's there. We pushed for oversight."
+
+    kaito_navarro "And Mayor Ana? Are they actually going to sign what we negotiated? Or did we hand them a tidy PR photo and a hole hidden in fine print?"
+
+    marin_sol "She read every change. Dr. Lian and I made sure the co-management clause is binding. Fishing access is protected. The annex forces public review before anything gets privatized. It's not perfect, but it keeps the pier public."
+    "Narration"
+    "Kaito's hazel eyes narrow, searching the shapes of your face as if he can find doubt carved there. He reaches for your hand — not theatrical, just the gravity of someone steadying a friend. You let him."
+    "Narration"
+    "There is a movement in the crowd: a technician steps forward, Aria Chen beside him, rain-slick hair plastered to her cheekbones. Her suit is muddied at the hems. In the harsh light, her composure cracks in"
+    "the smallest way — a hand that stops mid-gesture, a breath that goes too long. When she meets your eyes, there is a wordless admission: operational limits, the cold mechanics of engineering running up against the"
+    "warmth of a living shoreline."
+    show aria_chen at center:
+        zoom 0.7
+
+    aria_chen "We underestimated the force on the north span,' (her voice is smaller than her usual measured cadence) 'and I—' (she draws in air) '—I did not want to promise more than I could deliver."
+    "Narration"
+    "You shift, aware of the town listening, of old grudges and new dependencies crossbred in the night's work."
+
+    marin_sol "Then be honest. We need transparency — no more statements that say 'trust us.' We need schedules, maintenance windows, and joint audits. If TideLine wants our help, that means hands at the table and eyes on the ledger."
+    "Aria Chen: (pauses) 'I'm putting my team on record. I will sign inspections into the contract. We'll agree to community co-management for the modular units.'"
+    "Narration"
+    "Her hands are unsteady as she presents a tablet with a document. For a moment, the bay's cold air tastes metallic in your mouth. The concession is steep; the relief is sharper."
+    "Narration"
+    "Jun Park approaches, the ache visible around his eyes. He hands you a printed amendment with a tremor in his fingers. Rain beads off the sheet; it looks suddenly fragile in your grasp."
+    hide kaito_navarro
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "I— I read it. They wanted an exclusivity window. I couldn't... I couldn't let it stand when I knew you all would lose access. I—' (he swallows) '—I put the clause we flagged into the file and told Aria she had to accept the oversight wording."
+
+    marin_sol "You did the right thing, Jun. This town needs people who talk back."
+
+    jun_park "I know. I'm just—' (he shakes his head, embarrassed at the relief dampening his features) '—I'm glad it landed with you."
+    "Narration"
+    "You find your throat tight. The night's noise ratchets up: a crane arm jerking, a shout as equipment slips free of a wet rope, the hiss of seawater being redirected. Your chest is an orchestra of high strings."
+
+    menu:
+        "Call out a re-route for the south pumps":
+            "You lift your voice, shouting directions over the roar. Volunteers pivot, boots slamming into new rhythm; the pumps change course and spouts of water move where they won't drown the marsh plots."
+        "Stay with Kaito and make sure the shelter is secure":
+            "You lean into the shelter's doorway, passing on quick instructions and staying to hold the clipboard. Kaito nods and moves as if he expected you; the shelter fills with people whose shoulders begin to unclench."
+
+    # --- merge ---
+    "Continue"
+    "Narration"
+    "The choice is small — a procedural decision in the machinery of rescue — and yet it carries the weight of everything you are building: a town that makes its own choices. Your muscles remember decisions from years back: the slow stitch of restoration, the sharp suture of emergency."
+    "Narration"
+    "The storm coughs and moves on, spent. TideLine's cranes have done work that helped keep the pier's heart intact; co-op volunteers have done the rest. There are arguments still — old resentments rubbing up against new"
+    "covenants — but the pier's core remains public. You can feel it beneath your boots, a memory of countless feet and net-lines and someone always first to mend a hole."
+    # [Scene: Rooftop Community Garden & Storm Shelter | Night — Later]
+    hide marin_sol
+    hide aria_chen
+    hide jun_park
+
+    scene bg ch6_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter as relief, low-key repairs being planned, the steady pat of rain finally fading]
+    # play music "music_placeholder"  # [Music: Soft piano with swelling horns indicating growing hope]
+    "Narration"
+    "Negotiation spills into the rooftop's golden light. Dr. Lian Obasi crouches beside you, sleeves rolled, a small sensor kit in hand and a stubborn grin. You both argue in pragmatic sentences — technical fixes, marsh buffer"
+    "widths, maintenance cycles — the language of repair that somehow feels like a love-language in its own way."
+    show dr_lian_obasi at left:
+        zoom 0.7
+
+    dr_lian_obasi "If we plant Spartina in staggered bands and connect the marsh cells with eelgrass corridors, the modular units won't just hold — they'll breathe. They will buy us time and let the habitat do heavy lifting."
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "We'll need binding maintenance intervals. Public inspectors, a shared ledger, and community training programs so the co-op can do minor repairs without calling a hotline."
+    "Dr. Lian Obasi: (nods) 'Yes. And Marin — you should push for an emergency contingency fund that goes directly to the co-op when the models say a storm above X. No corporate delays.'"
+
+    marin_sol "Agreed. That goes into the oversight appendix."
+    "Narration"
+    "A small knot of townsfolk listens, food steaming from paper cups, faces bluish in lamp-light. Rosa is in the center, coaching a teenager on how to braid rope into a new lifeline. When you say Mayor"
+    "Ana is ready to sign the amended agreement, a ripple goes through the shelter — not triumphal, but relieved, like a held breath finally allowed to leave."
+    "Narration"
+
+    "At the rooftop edge, Kaito Navarro props against the railing. He catches your eye and lifts his chin" "There'll be those who call it a sell-out,' (he says quietly) 'There'll be those who say the west gardens are collateral."
+    show kaito_navarro at center:
+        zoom 0.7
+
+    kaito_navarro "There'll be those who call it a sell-out,' (he says quietly) 'There'll be those who say the west gardens are collateral."
+
+    marin_sol "And us? We get to decide whether we keep making the town with each other, or in spite of each other."
+
+    kaito_navarro "Then let's keep deciding together."
+    "Narration"
+    "The line between civic and personal blurs here — in the small practical promises you make to protect both the shoreline and the people who love it."
+
+    menu:
+        "Share a scarf with Kaito":
+            "You drape your coat around his shoulders. He accepts it with a half-smile, and the simple warmth between you feels like a pact that will outlast these rainy nights."
+        "Hand Rosa the last dry blanket and keep working":
+            "You pass the blanket into Rosa's hands and watch her fold it around an elder. The small mercy settles in your chest like a saved breath; Kaito watches and nods slowly."
+
+    # --- merge ---
+    "Continue"
+    "Narration"
+    "This night is a ledger of small mercies. Choices you make — to warm someone, to bind an agreement — feel, in this charged hour, like the same thing: an act of stewardship. The arousal in"
+    "your body climbs; the stakes, once abstract in meeting rooms, are tactile now—soggy planks, tired hands, the squeal of a hinge under a new bolt."
+    # [Scene: Maris Bay Research Greenhouse | Dawn — The Morning After]
+    hide dr_lian_obasi
+    hide marin_sol
+    hide kaito_navarro
+
+    scene bg ch6_601bcb_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft coastal wind, a distant gull, the quiet flip of pages]
+    # play music "music_placeholder"  # [Music: Warm strings rising to a clear, triumphant chord]
+    "Narration"
+    "You and Dr. Lian have been up all night. Negotiations ran into the thin hours when logic can be both clearest and cruelest. Aria, exhausted, admitted the limits of a purely engineered approach and agreed to"
+    "transparency clauses; Jun's unease turned into a small, bright courage. Mayor Ana — her raincoat still drying on a peg — read the final language and signed."
+    "Mayor Ana Beltran: (folding the pen) 'This binds TideLine to community inspections and guarantees access. I won't sign anything that threatens the public pier. Maris Bay doesn't sell itself.'"
+    "Narration"
+    "You feel something loosen inside your ribs; the feeling is like the sea giving back a toy you whispered to it: not a return to innocence, but a reassertion that the town keeps its right to be itself."
+    show dr_lian_obasi at left:
+        zoom 0.7
+
+    dr_lian_obasi "You did it, Marin. You held them to their words."
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "We did it. Lian, Rosa, Kaito...all of us."
+    "Narration"
+    "Aria stands a little apart, the sheen of her coat drying. When she meets your eyes, there is no victory smile — only exhaustion and a small, human gratitude."
+    show aria_chen at center:
+        zoom 0.7
+
+    aria_chen "Marin, I know you didn't trust me at first. And I wasn't right about everything. But I erred on the side of speed when I should have erred on the side of listening. Thank you for making us answerable."
+
+    marin_sol "You were honest. That's what I needed."
+    "Narration"
+    "Her jaw tightens, and then her shoulders lower in a breath you almost envy. It's a release you can feel in the room, like a ledger finally balanced."
+    "Narration"
+    "Jun lingers by the doorway, the printout of the clause in his hand now signed. He looks at you, and there is a wordless apology and thanks braided together."
+    hide dr_lian_obasi
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "I hope this isn't the end. I— I'd like to keep working with you on oversight protocols, if you'll have me."
+
+    marin_sol "Yes. The town needs translators — people who can move between worlds. We'll do it together."
+    "Narration"
+    "The contract is signed. The town's gardens, marsh plots, and the pier's public heart are preserved under a complicated, living agreement. TideLine will install modular defenses, but the modules will be co-managed. Dr. Lian and you"
+    "will sit on the oversight board. The agreement requires maintenance schedules, public audits, and an emergency fund for the co-op. It's not everything you dreamed, and it's not nothing."
+    "Narration"
+    "Outside, the sky is clearing. The rain hushes to a mist; gulls return to the thin gold of morning. The repaired rail smells of salt and fresh paint, and under Kaito's navy sweater you catch the"
+    "warm, oily scent of rope. He stands close, hands damp from work, eyes crinkled in a smile that grounds you more than any plan ever has."
+    hide marin_sol
+    show kaito_navarro at right:
+        zoom 0.7
+
+    kaito_navarro "Promise me we'll keep arguing about this. Not because it's fun, but because it means we care enough to keep fighting for it."
+    hide aria_chen
+    show marin_sol at center:
+        zoom 0.7
+
+    marin_sol "I promise. We'll make the town with our hands and our stubbornness."
+
+    "Kaito Navarro (he draws you in, his hands steady at your waist)" "Then make the first thing we build together something simple: coffee and a plan."
+    "Narration"
+    "You breathe him in — rope and diesel and the faint smell of rosemary from the rooftop garden — and you let the anchor of that closeness settle under your sternum."
+
+    kaito_navarro "Whatever comes, we'll do it together. Civic and personal — both."
+
+    marin_sol "Together."
+    "Narration"
+    "You tighten the braided shell bracelet at your wrist, the small ritual that has kept you anchored through storms and contracts. You press your forehead to Kaito's and in that contact there is a vow that"
+    "is both private and public: to protect, to answer, to keep making the town with hands and stubborn hearts."
+    hide jun_park
+    hide kaito_navarro
+    hide marin_sol
+
+    scene bg ch6_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: Swelling strings resolving into a warm, lingering chord]
+    # play sound "sfx_placeholder"  # [Sound: The sea, patient and eternal; a gull's clarion note]
+    "Narration"
+    "The road ahead is long and full of work. But the contract that binds TideLine to oversight, the preserved pier, and the green shoots of marsh grass pushing up through the mud are proof of something:"
+    "that compromise, when held to public scrutiny and human care, can become a scaffold for resilience. Your guilt-driven perseverance has a partner now: shared responsibility. Your heart, which once carried whole towns on its own, now"
+    "shares the load with a community — and with Kaito."
+    "Narration"
+    "You watch the sun break the cloud line with a stubborn, pale gold. It feels like a promise kept and a future still to write. For the first time in a long while, you allow yourself to breathe in relief, fierce and bright."
+
+    scene bg ch6_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: Strings taper to a soft benediction]
+
+    scene bg ch6_601bcb_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

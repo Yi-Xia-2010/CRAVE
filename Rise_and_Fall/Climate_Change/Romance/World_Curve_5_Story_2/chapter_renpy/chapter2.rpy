@@ -1,0 +1,173 @@
+label chapter2:
+
+    # [Scene: The Watchhouse | Early Evening]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the soft slap of tide against pilings]
+    # play music "music_placeholder"  # [Music: A cautious, ascending piano motif — hopeful, unresolved]
+    "You step back from the wide window where, earlier, the council gave you that small, crucial opening. The room still smells faintly of coffee and salt; someone left a dented thermos by the sink. Your sketchbook"
+    "is still warm in your jacket pocket where you've tucked it for years like a talisman."
+    show elena_lena_maris at left:
+        zoom 0.7
+
+    elena_lena_maris "All right. Tonight's on us."
+    "Your voice is taut with a steadiness you practice when everything feels thin: this is the work, not the performance. You cross the Watchhouse floor—soft lights in the rafters, tide charts pinned like prayer flags—and take"
+    "the place at the long table where sticky notes and laptop halos make a constellation of the town's anxieties."
+    hide elena_lena_maris
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Chairs scraping wood; a murmured hello from Rosie]
+
+    "Rosie" "Lena.' (She squeezes your shoulder. Paint flecks dust her knuckles.) 'You look like someone who has good news."
+    "Marco lingers near the doorway, cap in hand, eyes bright with the sort of stubborn hope you haven't let yourself wear all the time. Jonah Reyes slides into the seat beside you, his field notebook clutched like a familiar anchor."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "Ready to muddy the conversation?' (He grins, then grows a degree more focused.) 'Keep it simple: people, place, what we can afford to do right now."
+    "You inhale the room: damp wool, lemon-scented hand soap, the tang of old wood. Dr. Asha sets a small stack of printouts—graphs softened by annotations in her careful hand—at the Mayor's elbow. Iris Valence arrives on"
+    "time, immaculate as always, her tablet already flashing renderings. There is a hum of electricity when the two of you cross eyes: history, friction, and the possibility of a different future all reflected back like two"
+    "lenses."
+    # [Scene: Watchhouse / Council Chamber | Evening]
+    hide jonah_reyes
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, expectant hush; a faint wind pressing against windowpanes]
+    # play music "music_placeholder"  # [Music: Warm strings thread under conversation, raising the tone toward optimism]
+
+    "Mayor" "Thank you all for coming. Tonight we hear two proposals: Dr. Valence's plan from Valence Urbanworks, and a community-scaled approach presented by our municipal project leads.' (He looks at you.) 'We'll have presentations, then public comment, then a vote to move these into formal proposal status."
+    "Your throat tightens—not with fear this time, but with a focused kind of pressure. This is what you've been arguing for: not a dismissal of scale, but a place at the table for living shorelines, for plants and people to work together."
+    show elena_lena_maris at left:
+        zoom 0.7
+
+    elena_lena_maris "I'll start with the pilot's results, and then show how we scale that model without displacing anyone."
+    # play sound "sfx_placeholder"  # [Sound: A scattering of polite applause; Jonah Reyes nods at you and taps his pen once against his notebook—a small percussion of solidarity]
+    "You set your slides to the first image: a marsh cross-section you've drawn a dozen times, inked until the salt from your fingers has left faint halos. The projector throws soft light onto the wall: willows, reed matrices, stepped oyster reefs—things that breathe and bend instead of blocking."
+    "You explain in plain terms: how living shorelines attenuate wave energy, how they grow with the tide and with care, how they sequester carbon and provide livelihoods for oyster farmers and for the kids who still"
+    "learn to fish off the pier. You show the pilot's monitoring data—modest, imperfect, but alive with human testimony: Rosie’s co-op, Marco’s cousin's clam beds, volunteers who checked plantings twice a week. Each data point is attached"
+    "to a face."
+    show dr_asha_khatri at right:
+        zoom 0.7
+
+    dr_asha_khatri "Ecologically, they're resilient. They buy time, and they allow the system to adapt on its own terms.' (She taps a graph.) 'We measured sediment accretion rates and biodiversity upticks. It's not a one-size-solve, but it builds options."
+    "Iris Valence stands once the lights dim on your slide. Her suit catches a sliver of lamp light and throws back something clinical and bright. She moves like someone who designs with certainty."
+    show iris_valence at center:
+        zoom 0.7
+
+    iris_valence "We all want safety, Lena. My plan is to protect Brinehaven fast: a targeted seawall in the most vulnerable zones, a phased relocation package for the highest-risk neighborhoods, and a reclamation plan to redirect funds toward economic transition.' (She clicks through high-fidelity renderings—slick, convincing.) 'It minimizes loss of life, it secures infrastructure, and it leverages existing capital quickly."
+    "Her images are beautiful in the way big things are beautiful—smooth curves, tidy promises. They make your pulse quicken, not just from attraction to the aesthetics but because you know the temptation to believe in answer-keys."
+
+    elena_lena_maris "Iris, your renderings are precise. But who decides which neighborhoods are 'highest-risk'? Who gets relocated from the places that hold people's histories? A seawall buys time, but it also changes the table on which future decisions are made."
+
+    "Iris Valence (calm)" "We use AI-driven risk assessment layered with hydrodynamic modeling. It's objective. It's fast. Faster decisions save lives."
+    "Jonah Reyes leans in, palms flat on the table."
+    hide elena_lena_maris
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "Objectivity on models is only as fair as the data you feed them. If you ignore local knowledge—fishermen's boat channels, seasonal marsh drivers—you make decisions that look right from a map but rip the fabric of the place."
+
+    iris_valence "We already account for local stakeholders in the phased approach. We have community liaisons—"
+    hide dr_asha_khatri
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "Liaison is not the same as governance. We need funding tied to community oversight. We need jobs that keep people here."
+
+    menu:
+        "Reach for Jonah's sleeve":
+            "Your fingers find the worn chambray within your sleeve. Jonah looks down, surprised, and gives you a small, encouraging smile; it steadies your voice."
+        "Straighten the pilot brief on the table":
+            "You slide the paper into view of the council—neat, annotated, a quiet claim staked on evidence and care. Rosie leans forward, jaw set."
+
+    # --- merge ---
+    "Iris's jaw tightens—there's a perceptible micro-shift in the room's temperature. But the mood remains buoyant; the possibility that two ideas can be bridged hangs in the air like salt on a summer porch."
+
+    "Mayor" "Let's move to public comment. Marco—you're first."
+    "Marco steps forward, cap in both hands. He speaks not always smoothly but always from the gut."
+    hide iris_valence
+    show marco_maris at center:
+        zoom 0.7
+
+    marco_maris "My crew fixed nets on the east side for years. If the wall goes in like that, big trucks come, and where's the small repair work? Where do folks who rent live while things get 'upgraded'? You can't just make a model for safety and forget the rest of us."
+
+    "Rosie" "This town keeps people alive by keeping them together. A seawall with no jobs is a shell. Living shorelines—planting, maintaining—those are jobs who are ours."
+    hide jonah_reyes
+    show dr_asha_khatri at left:
+        zoom 0.7
+
+    dr_asha_khatri "And there's another thing—ecosystem services. If we invest in living systems now, we pay back via fishery support, storm buffering, and carbon credits that could be reinvested locally."
+
+    "Iris Valence (softening, almost imperceptibly)" "My plan includes a transition fund. We could partner—"
+
+    elena_lena_maris "What if that fund were administered by the town, with accountability, and the seawall were limited to critical infrastructure only? What if we model hybrid options—targeted hard infrastructure plus expanded living shoreline corridors that we manage together?"
+    hide elena_lena_maris
+    show jonah_reyes at right:
+        zoom 0.7
+
+    jonah_reyes "Hybrid is practical. We pilot where living shorelines can do the most, and we protect hospitals, the pier's main artery, and the water treatment with engineered reinforcements—combined design."
+    "Iris Valence looks at you. For a beat, her expression is unreadable—no accusation, no old intimacy made new, just the thin line between ideal and practical."
+    hide marco_maris
+    show iris_valence at center:
+        zoom 0.7
+
+    iris_valence "Hybrid requires careful scheduling and, frankly, more oversight. It will complicate procurement, extend timelines."
+    hide dr_asha_khatri
+    show elena_lena_maris at left:
+        zoom 0.7
+
+    elena_lena_maris "Complicated is better than coerced exile."
+
+    menu:
+        "Ask the Mayor for a town-administered transition fund":
+            "You suggest an amendment—an explicitly town-governed fund. The Mayor nods slowly; a few council members exchange surprised glances, then thoughtful ones."
+        "Propose a phased hybrid pilot map":
+            "You unfurl a mapped overlay showing blended zones—hard points for critical infrastructure, living corridors where communities and ecosystems can breathe. Jonah adds a marker to where volunteer capacity already exists. People's faces relax; it becomes concrete in a new way."
+
+    # --- merge ---
+    "The council murmurs. Asha points to a chart; Rosie begins sketching a timeline on butcher paper with a marker, hands sure. Even Iris's tablet pauses as if considering the new overlay."
+
+    "Mayor" "This is the first time I've seen both plans on the same table.' (He looks exhausted in a way that makes you sympathetic.) 'We need a clear next step. Formal proposals, with budgets and timelines."
+    "You think of the pilot's volunteers braving wind and mud, of Marco's hands stained with tar and the smell of diesel, of Rosie pasting another flyer for a community workshop. You think of Iris—brilliant, infuriating, necessary"
+    "in her ability to move capital. Hope now looks less like a fragile thing and more like a strategy that can be funded and defended."
+    hide jonah_reyes
+    hide iris_valence
+    hide elena_lena_maris
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: The piano motif rises, adding a gentle swell; strings bloom lightly, carrying the sense of forward movement]
+
+    "Mayor" "All right. I'm calling this: submit formal proposals. We'll vote to accept the proposals into an action docket next meeting—so we'll need numbers, names, oversight structures, and a clear timeline from each camp. Can we have that in four weeks?"
+    "The room exhales. It is exactly the kind of pressure that turns ideas into work."
+    show elena_lena_maris at left:
+        zoom 0.7
+
+    elena_lena_maris "We'll deliver. My team will put together a scaled pilot proposal and a hybrid map with community oversight baked in. We'll coordinate with Dr. Asha for monitoring and with Jonah for the implementation plan."
+
+    "Iris Valence (nodding, slightly warmer than before)" "Valence will prepare engineering specifications for the seawall sections, with a staged relocation plan and a proposed funding match. We'll also evaluate integration points with your hybrid proposal."
+
+    "Mayor" "Good. Then it's settled. Formal proposals into the docket in four weeks. We'll vote on whether to accept them for detailed planning at the next meeting."
+    "You think of the task ahead: turn goodwill and data and community muscle into documents that survive budget committees and legal reviews. It's a climb you'd chosen, and suddenly, the climb has steps."
+    hide elena_lena_maris
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low chatter, laughter that is quick and relieved; somewhere, Rosie calls out a plan for a volunteer training day]
+    "You look at Jonah Reyes. He meets your eyes with that steady grin that has become, in equal parts, a dare and a promise."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "We have four weeks. Let's make it count."
+    show elena_lena_maris at right:
+        zoom 0.7
+
+    elena_lena_maris "We will."
+    # play music "music_placeholder"  # [Music: The hopeful motif resolves into a warm, sustaining chord; the lighting softens to the comfortable amber of a community that has just found a path forward]
+    "You take a final deep breath of the salt-warm air in the Watchhouse and tuck your sketchbook tighter. Outside, the pier glows in the evening, patched and imperfect—and somehow more whole for that."
+    "This is not resolution. It's a call to work, to collect numbers and names and courage. It is, however, the best kind of beginning: one with momentum and hands ready to build."
+    hide jonah_reyes
+    hide elena_lena_maris
+
+    scene bg ch2_c4ca42_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

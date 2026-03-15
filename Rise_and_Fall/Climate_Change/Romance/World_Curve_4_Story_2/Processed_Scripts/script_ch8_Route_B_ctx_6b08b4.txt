@@ -1,0 +1,123 @@
+### SCRIPT
+# Route: Route B
+# Context: 6b08b4
+
+[Scene: Lumen Bay Boardwalk | Morning]
+[Background:"ch8_6b08b4_1"]
+[Music: Soft strings with an ascending motif; warmth underpins the chord progressions]
+[Sound: Distant gulls, the low thump of a generator at the Arc site, voices converging like tidewater]
+
+You stand where you've been standing a lot lately — at the edge between reclaimed mud and the boardwalk that holds the town's stories. Your journal is open on your knee; the pressed blade of cordgrass peeks from the pages like a promise. For weeks the work has been honest and visible: plantings that hold, volunteers who keep showing up, a bylaws line inked into something that feels less like a protest and more like a plan.
+
+The early-win glow is still on people's faces. It makes the light seem kinder, the air easier to breathe. It also puts heat on the choices that follow.
+
+Rosa arrives with her clipboard angled like an old weapon and a smile softened by a dozen small compromises. Asha strides up behind her, jacket slapped with pin-buttons and a grin that refuses to be cautionary. Elias Kwan is late, hands smelling faintly of salt and mended netting; he keeps his cap low but his eyes watch the Arc site, the way you do.
+
+Rosa: "Morning. Mayor's willing to hear the council's motion sooner if we can show momentum. The grant committee meets next month, and—" (she thumbs a line on her clipboard) "—they want measurable outcomes."
+
+Maya Reyes: "We have outcomes. Cordgrass survival rates, volunteer hours logged, sediment capture rates. We can make those speak." (You close the journal, pressing the cordgrass within like a quiet amulet.)
+
+Asha: "Momentum's good. Visibility is better. Dahlia Kestrel's PR vans are already touring the promenade. They put up a display near the promenade market yesterday—slick renders, smiling models. If we don't tell our side now, they'll own the story." (Her voice tightens with eager, practical heat.)
+
+Elias Kwan: "Yeah, I've seen the rigs they've leased down by the dunes. Jonah's worried — they're promising jobs for people who lose days out on the water." (He looks at you then, the look of someone balancing a boat on a ledger.) "Blocking them could mean no paychecks for two weeks. People remember that when the lights go out."
+
+Maya Reyes: (You can taste salt and coffee and the faint acrid tang of diesel from the Arc site. The boardwalk's varnish is warm under your palm.) Internal thought: The crest is real; you can feel the crowd behind you. But you also feel the small faces of families who depend on a paycheck. How do you widen safety without snapping the bridge that leads to it?
+
+[Background:"ch8_6b08b4_2"]
+[Sound: A vendor's laugh, a clamp dropping at the Arc site like a heartbeat in the distance]
+
+[INTERACTION]
+> Choice A: "Read the new bylaws aloud to the group now"
+> Choice B: "Save the bylaws for the meeting; instead, ask for their immediate concerns"
+[Outcome A: "You clear your throat and read the line about 'community co-management' slow and steady. Heads tilt. Some nod. Asha's eyes go bright; Elias Kwan's jaw relaxes for a second. The words land like pebbles in a shallow pool."]
+[Outcome B: "You fold the journal closed and ask the group for what keeps them awake at night. Rosa speaks up about rent pressures; Elias Kwan mentions nets and payday. The conversation unspools into real needs — priorities that the bylaws must answer."]
+[MERGE: The group bubbles with responses. People are ready for plans that feel like home — not glossy solutions thrust down from someone else's desk. But 'home' can also be parochial and slow. You know how quickly public attention can be swallowed by a single image: a crane, a ribbon-cutting, a headset headset-ed CEO on a stage.]
+
+Mayor Lyle Durant arrives in his umbrella, a tired smile under the rim. He pauses, taking in the Arc site and then the small line of volunteers sorting seedlings.
+
+Mayor Lyle Durant: "Good morning, everyone. I'm glad to see turnout. The state delegation called last night — they like 'projects with community backing'. Keep in mind, if we drum up support for a grant, it becomes a numbers game. Metrics, audits, deliverables. Are we prepared for that?"
+
+Maya Reyes: "Prepared enough to make deliverables mean what they mean to us." (You let the sentence be both a promise and a shield.) "If the grant ties us into timelines that starve the labor, we renegotiate. We insist on community governance clauses — seat at the oversight table."
+
+Mayor Lyle Durant: (He runs a hand over his face.) "Those seats are negotiable. But the state's looking to see a structure. What Dahlia Kestrel's offering is fast and shiny; it brings contractors and payroll. People like that. How do we prove ours won't be dismissed as 'sentiment'?"
+
+Asha: "We tie the metrics to ecological indicators, not just labor hours — marsh survivorship, storm surge attenuation models, and community employment targets tied to the restoration work. We make the grant definitions serve the restoration, not the other way around."
+
+Rosa: "We can write clauses that protect local hires. We can also demand transparency from any contractor they fund." (She meets your eyes.) "But there's a legal cost. We need a lawyer; we need time."
+
+Elias Kwan: (He steps closer, voice low.) "We can't wait forever. Jonah's crew depends on their nets. If the Arc brings work now, people eat now. If we ask too many 'ifs', we give them time to convert sympathy into steel."
+
+Maya Reyes: (You touch the small wooden camera at your hip, feeling the weather-worn grain. Asha's words feel electric and right; Rosa's pragmatism steadies you; Elias Kwan's worry is a physical thing like a rope pulling taut.) Internal thought: The crest hums with possibility. The town is not a single organism — it's a web of needs, urgencies, and longings. Any path forward must hold that web without shredding it.
+
+[Interactive Moment: Choice A ("Promise to prioritize local hiring clauses in grant proposals") -> Reaction: "You say the words and feel the room inhale. Rosa gives a quick, approving nod. Elias Kwan's shoulders ease — for now. Asha starts listing legal questions into her phone. It feels like progress." || Choice B ("Push Asha's proposal to control the narrative first: plan a rally") -> Reaction: "You nod to Asha and she brightens, sketching a stage and a list of speakers. Elias Kwan frowns, but you see the way the crowd's attention could flip a city's story away from Dahlia Kestrel's PR." || Choice C ("Suggest a hold — call for a neighborhood vote to bind the council") -> Reaction: "You suggest slow and binding. There is a quiet that follows, not all of it good. Rosa murmurs about the legal calendar; Mayor Durant rubs his temple. The momentum risks dissipating, but the legitimacy would be iron-clad."]
+
+[INTERACTION]
+> Choice A: "Promise to prioritize local hiring clauses in grant proposals"
+> Choice B: "Push Asha's proposal to control the narrative first: plan a rally"
+> Choice C: "Suggest a hold — call for a neighborhood vote to bind the council"
+[Outcome A: "You say the words and feel the room inhale. Rosa gives a quick, approving nod. Elias Kwan's shoulders ease — for now. Asha starts listing legal questions into her phone. It feels like progress."]
+[Outcome B: "You nod to Asha and she brightens, sketching a stage and a list of speakers. Elias Kwan frowns, but you see the way the crowd's attention could flip a city's story away from Dahlia Kestrel's PR."]
+[Outcome C: "You suggest slow and binding. There is a quiet that follows, not all of it good. Rosa murmurs about the legal calendar; Mayor Durant rubs his temple. The momentum risks dissipating, but the legitimacy would be iron-clad."]
+[MERGE: A rumble of a different kind — a corporate PA van rolling past — undercuts the moment. A banner flutters: "The Arc: Protecting Our Coast." Behind the banner, a model of barrier segments glints like a promise turned to metal. A camera lens has noticed you. For a second the boardwalk feels like the lip of a stage. Dahlia Kestrel's reach is not just cranes; it's narrative ownership.]
+
+From across the promenade, a man in branded teal hands out brochures. His smile is trained. The brochures smell faintly of heated ink and the ocean.
+
+Maya Reyes: (You imagine a headline and the small way it could rewrite months of work: 'Company Builds Big Barrier — Town Saved.' Your chest tightens with an ache that is both defiant and tender — you remember your father's hands, the smell of thawed bait, the way storms claimed what they would. You don't want those memories commodified.)
+
+Elias Kwan: "We can get loud. We can get the state to fund us. Or we can stand in front of their cranes and not let them in. But any of those choices will split people we love. I'm asking you to think about Jonah's rent and Mrs. Alvarez's bakery and where they fit in this plan."
+
+Asha: "And I'm asking you to think about the kind of future we want, not the quickest photo op."
+
+Rosa: "And I'm asking you to think about the votes at the council table. People need to sleep at night, too."
+
+Maya Reyes: (You breathe — the salt air is a slow, honest exhale. The town hums around you: a child laughing with boots slapping water, a vendor calling a price, the soft slap of tide on pilings. Hope is not a fevered thing here. It's a rhythm. Still, there is risk in staying small and risk in getting big.)
+
+[Background:"ch8_6b08b4_3"]
+
+You open your journal and begin to make lists that are both tactical and moral. Grants require time, writing, and legal scaffolding. A rally will carve the narrative now but could harden lines. Direct action will force a negotiation on their timetable, but it could fracture the community you want to keep whole.
+
+[Music: The strings rise gently — not urgent, but ascending, a promise of movement rather than a doom-laden chord]
+[Sound: The distant generator clicks down for a moment; gulls make a noisy squabble]
+
+Asha: "Whatever we choose, we should be clear about who speaks for the marsh. We need training for spokespeople, messenger kits, a timeline. If Dahlia Kestrel's team puts their shiny render in front of the state, they'll look like the competency. We need to match that with competence of our own."
+
+Rosa: "And with documents. If we apply for grants, we must show a governance plan that can't be bought off with a cover letter."
+
+Elias Kwan: "And if we protest them, we do it where it hurts Dahlia Kestrel's schedule but not endangering the guys who show up to work every morning. I don't want people choosing hunger over principle."
+
+Maya Reyes: (The words come easier than you expect. You feel the high, luscious hunger of people believing in something bigger than the immediate. You also feel the tether to the neighbors who would be hurt by missteps. Both are true at once — that is the merciful complexity of this place.)
+
+[INTERACTION]
+> Choice A: "Tell Elias you'll prioritize community jobs in any escalation plan"
+> Choice B: "Agree with Asha to plan a public rally first, then pivot to legal strategy"
+[Outcome A: "You promise aloud to build clauses and contingency funds into your plans. Elias Kwan's relief is visible — he tightens his shoulders and nods. There's an honest, human exhale among the group."]
+[Outcome B: "You outline a timeline: rally to reclaim the story, then use the momentum to push grant applications. Asha claps her hands. Rosa looks calculative, then gives a thin smile. The plan feels energetic and forward-moving."]
+[MERGE: Mayor Durant: "We have two weeks to prove that community backing isn't just a tear-soaked headline. The state wants numbers. Dahlia Kestrel's people want to sign contracts. Either way, momentum will carry whoever controls the narrative."
+
+Maya Reyes: (You look at the Arc site again. The light catches on a scaffold and turns it benign for one glittering second. Hope presses against you — not naive, but tender — because for the first time in a long while, people are awake and working.)
+
+Internal thought: This is the crest. If you steer carefully, it becomes a bridge. If you steer recklessly, it might become a spectacle that leaves the town worse off. Your hands hover over the journal. You know the choices before you and their blunt consequences, but you also know something quieter: whichever path you pick now will reveal the parts of you that are most necessary — the negotiator, the storyteller, the person who stands in a line to stop a drill.
+
+[Background:"ch8_6b08b4_4"]
+[Music: A gentle, ascending phrase that promises motion and growth]
+
+[Scene: Boardwalk | Noon — Decision Point]
+[Sound: The Arc site's distant hum becomes a steady backdrop — a reminder of stakes]
+
+You gather everyone's attention. The town's rhythm slows enough to hear every small breath. The choices are not theoretical; they're a path into the next chapter of living here.
+
+[DECISION POINT]
+1) Option 1: "Apply for state resilience grants and formalize community governance." -> TARGET chapter_id: 9
+2) Option 2: "Publicly confront AquaWorks with a town-wide rally to control the narrative." -> TARGET chapter_id: 9
+3) Option 3: "Organize peaceful direct action to delay Arc construction and force real negotiation." -> TARGET chapter_id: 9
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Apply for state resilience grants and formalize community..." -> ID 9 (Route B)
+    > Jump Target File: script_ch9_Route_B_ctx_3be532.txt
+Option 2: "Publicly confront AquaWorks with a town-wide rally to con..." -> ID 9 (Route B)
+    > Jump Target File: script_ch9_Route_B_ctx_3be532.txt
+Option 3: "Organize peaceful direct action to delay Arc construction..." -> ID 9 (Route B)
+    > Jump Target File: script_ch9_Route_B_ctx_3be532.txt

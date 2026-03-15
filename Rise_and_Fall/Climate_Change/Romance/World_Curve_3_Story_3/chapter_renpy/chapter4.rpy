@@ -1,0 +1,160 @@
+label chapter4:
+
+    # [Scene: Marisora Docks | Morning]
+
+    scene bg ch4_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Gull cries, distant engine thrum, the sharp metallic ping of a hammer on metal]
+    # play music "music_placeholder"  # [Music: Low, restless percussion]
+    "You stand shoulder to shoulder with Elias, the salt on his cuffs and the grit at the base of his nails matching the rhythm of your breath. He talks low and fast, hands shaping plans as"
+    "much as words — “post here, level that, rope there” — and you find yourself matching his cadence, translating his practical shorthand into lists on your tablet and into instructions loud enough for a dozen neighbors"
+    "to hear."
+    "Everything tastes of salt and splinters. The smell of wet wood lifts into the air with each driven post; cedar and concrete dust mingle with the old diesel tang that clings to the harbor. Sweat beads"
+    "at your temple despite the breeze, the hem of your henley stiff at the shoulder where it's been damp with salt all morning."
+    show elias_jun at left:
+        zoom 0.7
+
+    elias_jun "Arlo, hold the brace—keep your feet wide. Don’t lean into it."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Steady. Watch where you plant your weight. Use the toe of your boot to anchor—good."
+    "Arlo fumbles, oversized hoodie sleeves swallowed by his small hands, jaw set like he's forcing himself older. You coach him two more times in the soft, exacting voice you use with confused data: repeat, simplify, make"
+    "tactile. He nods, cheeks flushed, and the brace catches. A small win — the kind that tastes like sunrise."
+    show rita_ortega at center:
+        zoom 0.7
+
+    rita_ortega "We need to mark the seedling planters so people know what's going in there. Labels. And a schedule for watering—someone will forget when the tide runs high."
+
+    maya_reyes "I'll put it on the tablet. I'll make a rota now — volunteers can sign at the greenhouse after their shifts."
+
+    rita_ortega "You always have to bring a spreadsheet to a dock party."
+
+    maya_reyes "Only to keep us from tripping over each other."
+
+    menu:
+        "Let Arlo try the jack":
+            "You step back and let him operate the manual jack under your watchful eye. He grits his teeth and the hydraulic sings; for a moment he looks proud, and you tuck that small light away like a talisman."
+        "Operate the jack yourself":
+            "You take the jack from his hands. Your arms remember the motion from the greenhouse repairs and the first build. He watches you, disappointed but relieved, and you hold both feelings with an odd tenderness."
+
+    # --- merge ---
+    "Narrative continues below."
+    "The work is immediate and strangely satisfying: posts sink, planks level, rope is knotted in patterns that would make a sailor proud. Mangrove seedlings — dark, stubbled roots wrapped in peat — are woven into planters"
+    "like living stitches. People talk in bursts between tasks: casualty lists of nets unrepairable, who needs a handbail for rent, whose basement is damp again. The docks hum with a brittle hope."
+    "Your tablet sits on a crate, screen smeared with salt spray and fingerprints; you use it as both ledger and lifeline, but the tools are wood and steel. You run your thumb over a list of"
+    "supplies and feel that familiar tightening in your chest: concrete mix running low, polymer sheets delayed, the hydraulic jack's spare seals sold out in the next town."
+    "Elias Jun leans in, palm on your shoulder, voice lowered so only you can hear."
+
+    elias_jun "They're asking for immediate cash aid. Old Ramon — his nets went to nothing last week. He says a buffer wall won't feed him tonight."
+
+    maya_reyes "I know. We'll set up a relief fund. Rita's been talking to the mayor about emergency vouchers. But the barriers... if we don't start now, there won't be a place to keep anyone safe for long."
+
+    elias_jun "Promises. Promises don't secure anything. Hands do."
+
+    maya_reyes "Then hands will be what we give. But I can't ignore people who will starve while we build."
+    "Elias Jun looks at you — a small island of impatience and tenderness. His eyes crinkle in the sun, and you remember the first time he braided a rope for you to keep your hair back. There is a softness there that complicates urgency."
+    "The problems compound in a small, grinding chain. A delivery truck that promised polymer sheeting is stuck in a storm inland; the hydraulic jack gives a judder and refuses to lift a post, a hairline fracture"
+    "snaking metal into uselessness; a neighbor arrives with a pleading that is more a demand: money today or they'll lose their boatyard lease."
+
+    "Fisher" "You all talk about mangroves and seedlings — and I get that — but my family needs cash now. My nets are gone. I can't wait for a wall to grow."
+
+    maya_reyes "I hear you. I don't want you to wait. We'll put your name first on emergency vouchers. Help me list the immediate needs and I'll push it through to the council."
+
+    "Fisher" "A promise. Again."
+    "You feel it — the accusation like brine in an open cut — and you know his distrust is a map of all the nights when promises failed. Your mouth opens to answer and then closes; the ledger on your tablet suddenly feels inadequate."
+
+    menu:
+        "Straighten your shoulders and promise concrete action":
+            "You square your shoulders and give a clear list: vouchers, a tent allocation, a place in the rotation for repairs. People scribble names and look relieved; for a few minutes the harbor exhales."
+        "Admit uncertainty and ask for patience":
+            "You tell the truth: timelines are tight, supplies uncertain. Faces fall; some leave in anger, others stay with quiet resignation. The honesty eats at you later."
+
+    # --- merge ---
+    "Narrative continues below."
+    "Midday blurs into the tinny glare of afternoon. You and Elias argue over a splice technique; you insist on a reinforced weave suggested by a field study, he counters with a faster knot that will hold"
+    "under immediate strain. The debate is not an academic one — it decides whether the planter holds against the next surge or whether it tears."
+
+    elias_jun "We can do the faster knot and patch later. We can get more in place now."
+
+    maya_reyes "If it fails in the first swell, we're right where we started — but with less credibility."
+
+    elias_jun "We don't have 'credibility' if people lose their homes tomorrow. We need speed."
+
+    maya_reyes "We need both. That's why we planned for redundancy."
+    "He breathes out, hands on his hips; the salt in the air tastes like accusation. For a second you wonder if the gap between your training and his instincts is a gulf or a seam you can stitch."
+    "A tidy shadow falls across the worksite, an absence that organizes sound into a sharper rhythm. Dr. Ayla Voss arrives with the clinical economy she brings everywhere: shoes clean despite the mud, satchel clasped, a data"
+    "wristband flickering as she steps. Her eyes — steel-gray, almost hostile in their precision — sweep the scene and catalog what you already know: patched fixes, volunteer energy, and holes."
+    hide elias_jun
+    show dr_ayla_voss at left:
+        zoom 0.7
+
+    dr_ayla_voss "Maya. Elias. This is... earnest."
+
+    maya_reyes "It's what we can do now. People are willing."
+
+    dr_ayla_voss "Willing isn't enough for regional compliance. The funding authorities require certified materials, documented hazard assessments, chain-of-custody for supplies. If we proceed informally, we risk losing those streams and the larger projects that would protect more people."
+
+    maya_reyes "So we stop doing anything until a signature comes through? Watch the town flood while we wait for paperwork?"
+
+    dr_ayla_voss "No. I recommend parallel tracks: an approved pilot that meets compliance, and community builds that are documented and eventually certified. But you must accept oversight and certain concessions."
+    hide maya_reyes
+    show elias_jun at right:
+        zoom 0.7
+
+    elias_jun "Concessions like what? Telling us which houses to move? Letting contractors from the city take the work?"
+
+    dr_ayla_voss "Concessions like following installation standards and reporting. The contractors you distrust probably have access to faster procurement."
+    "You feel your jaw clench. Her words are a trap of logic and consequence. Compliance at the cost of autonomy, or improvisation at the cost of long-term funding. There is no pure option here — only trade-offs that cut into someone’s livelihood."
+    hide rita_ortega
+    show maya_reyes at center:
+        zoom 0.7
+
+    maya_reyes "And who decides which concessions are acceptable?"
+
+    dr_ayla_voss "We do — all of us. Together. But the clock is regional, not local."
+    hide dr_ayla_voss
+    show rita_ortega at left:
+        zoom 0.7
+
+    rita_ortega "We don't need paperwork to plant a tree."
+    hide elias_jun
+    show dr_ayla_voss at right:
+        zoom 0.7
+
+    dr_ayla_voss "You don't. But trees alone won't secure the property rights and insurances households need. I want to help you scale this. I need your documentation."
+    "A heavy silence follows. The clatter of tools resumes, but it sounds different — more like a bandaged heart at work than a crew in confidence."
+    "You swallow and remember why you chose this path: the tangibility of repair, the smell of wet wood under your nails, Elias's hands guiding a post into place with a certainty that turns fear into action."
+    "The town is smaller today, they are all closer, and you measure the worth of ownership against the risk of losing everything to distant bureaucratic timetables."
+    "As the sky shifts toward dusk, Rita hands you a thermos; the coffee is bitter and warm, and it grounds you. You walk the short way to the greenhouse to check the seedlings, the glass fogged"
+    "with humidity, the inside a pocket of green and light. Volunteers collect labels and watering cans; someone hums an old festival tune that wants to be brave."
+    "You linger over a tray of mangrove cuttings, turning their roots in gloved palms. They are stubborn little things, blunt and awkward, already threaded with grit. You think of the fisherman and his nets, of the"
+    "jack that broke mid-lift, of Dr. Ayla's wristband blinking compliance like a lighthouse for a ship you aren't sure you trust."
+    # [Scene: Rooftop Watch at Dusk | Evening]
+    hide maya_reyes
+    hide rita_ortega
+    hide dr_ayla_voss
+
+    scene bg ch4_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind through string lights, distant hammering slowing to an exhausted rhythm]
+    # play music "music_placeholder"  # [Music: Sparse, melancholy strings]
+    "You climb to the rooftop watch alone at dusk. The lights you and Elias strung sway and throw small islands of glow across potted herbs and an old telescope. The town below looks like a stitched"
+    "quilt — ragged but contiguous; the new defenses are visible as a band of uneven lines along the near shore, a patchwork of community labor and design compromises."
+    "You place your palm on the tide-watch at your wrist — its brass warm from the sun — and feel the slow, relentless tick that has driven every plan and every late-night spreadsheet. Below, neighbors laugh"
+    "into the wind as they secure the last planter; someone swears, and a chorus of laughter answers, and for a moment everything seems as salvageable as a wooden pallet repaired with the right nails."
+    "But the political clock is elsewhere: deadlines, regional audits, funding boards with their own calendars. The same sky that holds the lanterns holds a storm front you can see as a darker seam on the horizon."
+    "It is a bruise that moves toward you with a knowledge that is not malice but inevitability."
+    "You think of Dr. Ayla's words about chains of custody and certified materials. You think of the fisherman's anger and of Elias's hands. You think of Arlo, who learned to thread a jack today and who"
+    "might one day not need to be taught at all. You think of the seedlings and how long they take to root, and how short of time you have."
+    "A gust makes the string lights shiver. You close your eyes and feel the harbor breathe — sometimes hopeful, sometimes exhausted. The build below looks smaller and less certain up here, a collection of good intentions and urgent fixes against an indifferent tide."
+    "You know the next steps will require choices you have already started to make: what compromises you can stomach, which fights you will pick, how you will reconcile immediate needs with long-term criteria for survival. The town feels wholly yours and heartbreakingly fragile at the same time."
+    "You open your eyes to the sky folding in on itself. The wind brings a smell of rain and something metallic — the prelude to a warning that isn't yet sounded over the radio. Your phone"
+    "buzzes with an alert from the municipal channel, a terse message you've seen before and never wanted to see again: WATCH SYSTEMS REPORT — ELEVATED TIDE PROJECTIONS."
+    "The line in your throat tightens. There is work to do and a clock that began before any of you chose this life and will keep going after. You cannot stop both the tide and the politics, but you can decide which battles to fight first."
+    "You stand on the rooftop, hands in the pockets of your henley, the string lights at your back, and you feel the small, heavy weight of the town's future pressing into your lungs."
+    "Page-turn thought: When the warning becomes a storm, will the work you and your neighbors started be enough — or will the compromises you accepted today show their true cost?"
+
+    scene bg ch4_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter5
+    return

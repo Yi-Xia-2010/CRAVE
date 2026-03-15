@@ -1,0 +1,214 @@
+label chapter21:
+
+    # [Scene: Seawall Promenade | Morning — Three days after the occupation]
+
+    scene bg ch15_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, driving percussion undercut with a high, anxious violin]
+    # play sound "sfx_placeholder"  # [Sound: Hydraulic hisses, shouted orders, the distant groan of heavy machines; gulls shriek above like loose alarms]
+    "The barricades look like a new shoreline — metal where kelp used to hang, tarpaulin where hand-painted signs once fluttered. The city moved faster than you could count on hope. Permits, penalties, emergency clauses: a legal tide that swept in to make the unthinkable official."
+    "You stand with your notebook closed in your hand, its pages damp with salt. Nora's boots are planted on rotten planks; Samir's hat is pulled low against the cold salt wind. Luca is a few steps"
+    "away, voice low and taut, watching men in orange vests mark the boards for demolition with spray paint."
+    "Everything in you is a knot: you think of the week you refused the pilot, the chants down at the Hub, the sound of your own voice at the Atrium — a voice that promised to"
+    "take responsibility for risk rather than sign a blanker bill. You promised the neighborhood agency. You promised Samir his wharf. You promised yourself you wouldn't let renderings erase a life."
+    "Now the city has answered with bulldozers and notice-of-possession forms."
+    show samir_qureshi at left:
+        zoom 0.7
+
+    samir_qureshi "They've got legal paper this time,"
+    "voice like sea-gravel."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Legal or not—' Your words come out thin, then find weight. 'I know. Which is why we fought. Which is why we mobilized. They can't just—"
+    "Luca Chen cuts in, not gentle. 'They can when the city decides saving the rest of the shoreline is a higher calculus than your neighborhood's memories.' He twists his rope-belt until the knot bites. 'You heard them, Maya. They have the Mayor's signature.'"
+    show nora_daz at center:
+        zoom 0.7
+
+    nora_daz "And the developer's brand in the margin. Surprise."
+
+    samir_qureshi "So we sit and watch?"
+    "You look at the worker who meets your gaze over the fence. His eyes are not cruel — just trained. He has been told his job is to remove obstacle, not to ask about why the obstacle mattered. The policy world has a way of sterilizing grief."
+    "You move toward the fence. The crowd that the Hub gathered this morning has thinned; some neighbors have gone to collect what they can, others stand on the farther side trying to chant away a bureaucratic"
+    "order. A woman with a child's jacket clutches a small carved boat like a relic."
+    "You could speak to the foreman, negotiate time. You could pull people together for one last blockade. You could tell everyone to disperse and save the children."
+
+    menu:
+        "Try to negotiate a delay with the foreman":
+            "You walk up with your chest raw. The foreman reads your credentials and the time left, offers a perfunctory hour of 'compassion' that will anyway be used to reposition equipment. You accept it because you buy minutes; your throat tightens and you count them like beads."
+        "Lead a human chain to slow the machinery":
+            "You grab a rope; hands answer. For a heartbeat you are the exact thing you wanted — a tide of people. A whistle blows; the city answers with more officers. Your arms burn, and you know the cost."
+        "Tell people to evacuate to the Reserve — prioritize safety":
+            "You shout toward the Hub for evac routes. Some laugh, some look at you like you've given up, but children start moving. Saving the small things feels like betrayal and mercy at once."
+
+    # --- merge ---
+    "Continue to next scene: Salt Marsh Reserve | Noon — The Reserve as a refuge and staging ground"
+    # [Scene: Salt Marsh Reserve | Noon — The Reserve as a refuge and staging ground]
+    hide samir_qureshi
+    hide maya_ortega
+    hide nora_daz
+
+    scene bg ch15_3be532_2 at full_bg
+    # play music "music_placeholder"  # [Music: Taut strings, rising tempo; percussive thumps like hurried footsteps]
+    # play sound "sfx_placeholder"  # [Sound: Voices, the shudder of doors slamming, a city PA announcing temporary displacement zones]
+    "You drive the van with Samir's patched radio on the dash, Nora beside you with a stack of tarp and nails. In the rear, a jumble of boxes holds a few preserved mementos: a metal pot"
+    "hammered smooth, a wooden paddle with a name burned into the grain. Luca rides shotgun like a coiled thing; he doesn't speak much, but his jaw clenches as if to keep the sorrow from escaping as"
+    "sound."
+    show nora_daz at left:
+        zoom 0.7
+
+    nora_daz "Council said they'd offer temporary relocation. Hotels, a stipend, transit passes,' she says, rubbing the back of her hand. 'It's a paper promise that looks like a life raft on a map, but the raft's made of bureaucracy."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Temporary can become permanent if trust is thin,' you say. 'We all know that."
+    show luca_chen at center:
+        zoom 0.7
+
+    luca_chen "We also know that 'holding out' can mean losing everything. I sat with Mrs. Velasquez last night — she cried over a stack of letters. She can't start over."
+    "Your chest constricts. You want to be everyone at once — the engineer who designs living shorelines, the friend who carries keys, the organizer who folds a neighborhood into a plan for resilience. You realize, again and again, that you cannot be everything."
+
+    "Samir, silent a while, then" "I have fished those mudflats before you were born. I would have chained myself to a piling for the shape of the shoreline, but I also have twelve grandkids. I can't see them hungry because the city decides memory is optional.' He looks at you, not accusing, only weary. 'What did we stop? And what did we cause?"
+    "The question lands like a stone in the van. Your throat answers with a dry sound that might be a sob."
+    "Outside, at the Reserve's edge, contractors set up a temporary staging ground. The tower cranes are skeletal mouths against the sky. A man in clean gray speaks into a headset and smiles with no warmth when cameras swing by."
+
+    nora_daz "They're making it look inevitable. Machines and PR.' She looks at you, eyes raw. 'You thought risk was worse than erasure. We traded time for certainty and the city rolled faster than we could hold the seams."
+
+    luca_chen "You didn't trade anything. You made a call. We followed you."
+
+    maya_ortega "I asked for solidarity. We stopped a pilot because the pilot would displace people without consent. We chose agency."
+
+    luca_chen "Agency that now got us evicted."
+
+    maya_ortega "Do you think I wanted this?"
+
+    luca_chen "No one wants this, Maya. But standing on principle while the city moves in—there's a cruelty in that pride."
+    hide nora_daz
+    show samir_qureshi at left:
+        zoom 0.7
+
+    samir_qureshi "We're trying not to make the choice an indictment of anyone. We're trying to survive it."
+    "The van stops. A line of municipal trucks rumbles past, sirens not yet wailing but carrying an intent heavier than the sound. A kid runs with a hand-drawn sign that says 'Remember Tideside.' He disappears into the crowd. The machines are a new horizon."
+
+    menu:
+        "Stay to form another line of resistance at the staging area":
+            "You step out of the van. People follow; voices swell. For an hour it feels like history's small hinge. Then the city deploys a legal notice and the crowd bleeds away under threats of fines and arrests. You depart with pockets full of dirt and a bruise on your elbow."
+        "Help Samir move his things inland — practical triage":
+            "You lift boxes and tack down tarps. Each object you fold into plastic feels like folding a life into transport. It is less heroic but steadier work; it leaves your hands tired and your heart raw."
+
+    # --- merge ---
+    "Continue to next scene: Seawall Promenade | Dusk — The Transformation"
+    # [Scene: Seawall Promenade | Dusk — The Transformation]
+    hide maya_ortega
+    hide luca_chen
+    hide samir_qureshi
+
+    scene bg ch15_3be532_3 at full_bg
+    # play music "music_placeholder"  # [Music: A slow, pounding brass under a thin, keening choir; tempo increases to a fast, brutal rhythm]
+    # play sound "sfx_placeholder"  # [Sound: The scrape of rebar, the chorus of hammers, a child's distant cry; a siren that won't relent]
+    "The Tideside of your childhood and your adulthood is being rifled into a different city's idea of safety. Workers bolt a plate where Samir used to tie his boats. Where there were reef mats and hand-sewn nets, there are engineered modules being lowered with the deliberateness of demolition."
+    "Neighbors stand along the far side of the fence, hands pressed to the chain link. Someone yells a name and it disappears like smoke. The memorials — an old oar, a painted plank — are slid into crates and inventoried like museum pieces, then carted away."
+    "You find Luca standing alone on a concrete pier that still remains, salt on his sleeves. He looks at you and something in him is shut up tight."
+    show luca_chen at left:
+        zoom 0.7
+
+    luca_chen "You said we'd protect people without displacement.' He does not ask whether you believed it; he expects you to know. 'You said we'd keep this place alive."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "I still believe the neighborhood matters.' Your voice fractures. 'I thought stopping the pilot would open a space for conversation, for funding that didn't require wholesale eviction. We had a plan for gradual marsh work —"
+
+    "Luca Chen (interrupting)" "Plans don't stop pistons. You thought the city's patience would outlast their deadlines. Maya, people have been told to remove their things or be removed. We held the line and they came with bulldozers."
+
+    maya_ortega "If we'd signed the pilot, the city would have delivered bulk protection faster. But at what cost? At what cost to Samir's dock, to the bakery, to our elders? You know it would have been worse in some ways."
+
+    luca_chen "Worse how? We'll have a seawall, and they'll have their homes. You'll still be an engineer. The neighborhood... will be in a different place but not necessarily dead.' He swallows. 'I can't watch them pick up and leave forever and call that victory if it strips everything that mattered."
+    "You reach for him, and he flinches like you've wounded him. For a moment you both simply stand in the new light, two figures divided by policies and by love."
+    "Nora appears at your side, her mouth pulled tight. 'Some are leaving tonight,' she says. 'Some are taking buses. Some are refusing. The shelters are full by morning.' Her voice is a mapping of logistics; grief navigates in lists."
+    "Samir approaches, slow and small. He sets a hand on your shoulder — the gesture is not a reproach, only the gravity of what time can do. 'The marsh remembers,' he says softly. 'It remembers how"
+    "we loved it. The city will make sure it is safe. It will not make sure we are.'"
+
+    maya_ortega "What do we do?"
+
+    luca_chen "We do what we can. Right now —' He gestures at the men bolting the steel plates, at the empty spaces where children used to skip stones — '— we get people their things. We keep Samir's stories alive. We don't let them say the place had no people worth saving."
+    "You nod, but the nod feels thin. The tide of machines keeps rising."
+    # play music "music_placeholder"  # [Music: Strings fracture into dissonance; a sudden percussion blast simulates the concrete crusher lowering]
+    # play sound "sfx_placeholder"  # [Sound: Shouts, a child's cry, the sax-like whine of a final eviction notice being read into a megaphone]
+
+    "A contractor's voice booms" "By order of the municipal authority, this property will be vacated immediately."
+    "You move through the crowd. A woman hands you a small book of recipes, pages stained; she says nothing. A teenager slides you a raft of illegible drawings and runs off with a duffel. Samir straightens and sets his jaw; he loads a battered wooden box onto a cart."
+    "The city is efficient in its erasure. Efficiency is a kind of violence that asks for no eyewitness. It asks only paper-signatures and steel."
+    "Luca Chen takes your hand suddenly—hard, as if to prevent you from walking away. 'Maya,' he says, voice breaking in a way you have rarely heard. 'I can't keep doing this with you. I can't keep standing in the middle of a slow burn and call it a life.'"
+    "You feel the words like waves hitting rocks. Your fingers tighten. 'So what — you leave?'"
+    "He looks at you like the world has split and he can only pick one shore. 'I have to think of people now who will actually still have houses tomorrow. My work at the docks —"
+    "if it disappears, where do I go? If I stay with you—' He swallows. 'I don't know if I can forgive myself.'"
+
+    maya_ortega "And if you go, am I supposed to be glad people are safe under a wall while the things we loved are gone?"
+
+    luca_chen "No. I'm asking for a kind of survival I can live inside.' His voice is small and absolute. 'I love you. But I can't love you into a funeral."
+    "Your throat closes. You reach for something to say that will hold him and the sea and the sand and the city together, but language feels like a brittle tool."
+    show nora_daz at center:
+        zoom 0.7
+
+    nora_daz "Maya— we need to load Samir's box. We need to get Mrs. Velasquez on the next shuttle. This isn't the moment for us."
+    "Luca Chen lets go of your hand as if releasing you is a mercy he can't stomach. He walks away, shoulders turned to a new future you did not make room for."
+    "You watch him go until he passes beyond the crowd and into the cold gleam of chained cars. He does not look back."
+    # [Scene: Seawall Promenade | Night — After the last bus leaves]
+    hide luca_chen
+    hide maya_ortega
+    hide nora_daz
+
+    scene bg ch15_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano notes over a low mechanical drone; tempo slows but dissonance remains]
+    # play sound "sfx_placeholder"  # [Sound: The last of the machines winding down; a gull's lonely cry; the rustle of plastic in the wind]
+    "People disperse with the hollow, resigned gestures of the newly dispossessed. Trucks roll away with furniture. The city seals a chapter with the snap of steel. You stand alone where the memorial plank used to be, the spot now marked by a clean bolt sunk into concrete."
+    "Samir has gone to stay with a cousin inland. Nora is organizing a rotating watch and a legal aid roster. She squeezes your hand — no speeches, only a grip that says we keep doing the small things. The hub is quieter, its golden lamps dimmed like a heartbeat slowing."
+    "You sit on the lip of the new seawall and run your fingers along the cool concrete. The texture is foreign; it holds no salt, no algae, no memory of rope burns. It is durable, by design. It will keep water at bay for many years."
+    "But you remember the smell of fish and diesel and the laugh of children racing paper boats along a lower tide. You remember Samir's stories about nights when the moon sat too low and you could"
+    "hear the hulls sing. You remember the night you refused a pilot and the way your voice felt. You remember the faces that left tonight."
+    "The city endures. It is, by the numbers, safer. The seawall will pass the next modeled storm. Newsfeeds will show clean lines and testimonials about 'safety at last.' The engineers will be praised. The grant money will pile up. The citadels of infrastructure will glow in the right places."
+    "You have victory only in the abstract — and defeat in almost everything that touches the body's edges."
+    "You close your eyes and the sounds of the machines become the sound of waves in a different geometry — structured, predictable, and not all that comforting."
+    "Samir's question returns, terrible and precise: What did we stop? And what did we cause?"
+    "You are left to hold both answers at once, like two hot coals."
+    "Nora comes to sit at your side. She doesn't try to fix anything. She simply turns the small carved boat over in her hands."
+    show nora_daz at left:
+        zoom 0.7
+
+    nora_daz "People will tell it differently soon,' she says. 'Maybe they will say we were stubborn. Maybe they'll say we chose wrong. Maybe they'll forget specifics, but not the fact that someone fought."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Was it right to fight?"
+
+    nora_daz "I don't know,' she answers. 'I know we tried to keep people in the room where the decisions were made. That's something. And some of them are still here because of us. Some aren't."
+    "You stare at the seawall, the light washing over your hand. The wetbook in your pocket is filled with notes and sketches that no longer fit this place. You think of Luca's back as he walked"
+    "away. You think of the children carrying duffels. You think of Samir's slow smile as he pushed a cart inland."
+    "You have failed and you have been necessary in equal measure. The balance is a cruel arithmetic."
+    # play music "music_placeholder"  # [Music: Dissonant chord resolves into a single sustained minor note]
+    hide nora_daz
+    hide maya_ortega
+
+    scene bg ch15_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind over concrete; the distant hum of generators]
+    "You rise, pockets heavier with no answers, and walk the length of what remains. Each step is recorded in your notebook later that night — a list of names, a recipe from Mrs. Velasquez, a sketch"
+    "of the old piling — small resistances so memory does not dissolve into municipal efficiency."
+    "You know the legal battles will continue. You know the Hub will become a different kind of place: quieter, more legal, less certain. You know you'll keep doing what you can — filings, small restorations, teaching kids to plant reeds under the radar. It will not undo tonight."
+    "In the Gulf-burnished light, you make a slow, private vow to keep these stories alive even when the law rewrites them away. The vow is not a triumphant promise; it is a small, stubborn ritual, the sort of thing that might sustain a single life."
+    "You are alone in a way you have not been before: not because no one stands with you, but because the map of your choices has left you at a coastline that other people chose to"
+    "cross. The city will endure in a different shape. You will endure as memory-keeper, as awkward engineer, as someone who holds the weight of both regret and purpose."
+
+    scene bg ch15_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single bowed note—low, unresolved]
+    # play sound "sfx_placeholder"  # [Sound: The hush of a city breathing out]
+    "You look down at your hands, salt on the skin, a bruise from the day's pushing. You press your thumb into the soft binding of your notebook until it hurts. The pain is real. The loss"
+    "is real. So is the stubborn fact that you acted as you thought was right."
+    "The night closes thick and heavy. There are no grand consolations. There is only the slow work of reckoning and the smaller work of keeping a light where there used to be many."
+    "You walk away from the seawall and toward the Hub. The building's silhouette is a dim promise you don't trust but cannot ignore. You will organize what remains; you will tell the stories; you will try, again and again, to stitch the ragged edges."
+
+    scene bg ch15_3be532_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade out slowly]
+
+    scene bg ch15_3be532_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,121 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the central external pressure that forces characters to choose between personal desire and communal responsibility. The genre's emotional stakes are heightened by tangible, time-sensitive threats (rising tides, failing crops, contested engineering projects) that require cooperation or sacrifice. The core conflict revolves around whether to pursue an ambitious engineered defense that secures property but displaces communities, or a distributed, nature-based approach that asks for difficult trade-offs. Romance develops through shared labor, moral disagreement, and intimate moments amid repair and planning — love as both refuge and a site of ideological tension.",
+    "setting": "A near-future coastal town, Lowry Bay: a once-sleepy fishing town now strained by rising seas and unpredictably violent storms. Half the town is protected by rudimentary berms and community-planted tidal gardens; the other half faces proposals for hard engineering. The atmosphere shifts between salt-scented dawns, stormy twilight, and humid, pollen-thick summers. Technology is present but modest — portable sensors, community-run desal plants, and patched drones — mixed with weathered wooden structures and reclaimed urban greenhouses.",
+    "visual_style": "Soft neo-realist, painterly anime cel-shaded with muted coastal palettes (sea-glass greens, fog-gray, rust-orange), textured brushes for water and weather, warm close-ups for emotional beats, cinematic lighting for storm scenes",
+    "main_characters": [
+        {
+            "name": "Mira Kestrel",
+            "role": "Protagonist",
+            "personality": "Practical, quietly passionate, scientifically curious and deeply empathetic; tends to weigh options carefully and carries guilt about past decisions. Loyal to community and methodical, but when cornered can act impulsively for others.",
+            "appearance_features": {
+                "hair": "Dark sea-green, shoulder-length waves with sun-bleached tips, usually tucked behind her right ear",
+                "eyes": "Storm-gray with a small amber fleck near the pupil, rounded and observant",
+                "clothing": "Salt-stained khaki field jacket with a patch of a local conservation group, faded denim overalls rolled at the ankle, layered flannel shirts in muted teal and rust; practical rubber-soled boots with floral tape repairs",
+                "accessories": "Brass tidewatcher pendant (keeps tidal schedule), a weathered leather field notebook covered in stickers, a digital sensor wristband with patched straps"
+            },
+            "goal": "Design and implement an adaptive, nature-based coastal resilience plan that protects Lowry Bay while preserving the community's homes and heritage.",
+            "background_story": "Raised in Lowry Bay by a fishermother and a horticulturalist father, Mira left briefly to study coastal ecology. She returned when storms intensified and now leads community trials for tidal marsh restoration. She carries responsibility for a failed pilot restoration three seasons ago that made her cautious.",
+            "emotional_trait": "Strength: deep empathy and steady competence; Flaw: fear of making decisions that might harm others, which can make her indecisive under pressure."
+        },
+        {
+            "name": "Cassian Rhys",
+            "role": "Love Interest",
+            "personality": "Charismatic, idealistic, and quick-witted; a community organizer and street-level artist who believes in grassroots action. He is stubborn in his convictions and uses humor to defuse tension, but privately struggles with disappointments.",
+            "appearance_features": {
+                "hair": "Sandy blond, undercut with the longer top usually pulled into a low, messy bun; soft sun-bleached curls",
+                "eyes": "Warm, crescent-shaped hazel eyes that light up when he smiles",
+                "clothing": "Hand-painted denim jacket plastered with protest patches and stitched slogans, loose linen shirts in mustard and seafoam, patched chinos, paint-splattered canvas sneakers",
+                "accessories": "Paint-splattered satchel filled with flyers and a harmonica, a braided friendship bracelet from a childhood friend, a battered brass whistle for organizing rallies"
+            },
+            "goal": "Mobilize residents to resist displacement and push for community-led, ecological solutions — keep the town's soul intact.",
+            "background_story": "Left Lowry Bay for art school and urban activism, returned when his childhood neighborhood began to flood. Cassian rallied neighbors into volunteer brigades planting marsh grasses and building living berms. He and Mira share history — childhood friends whose bond grew into something more complicated on his return.",
+            "emotional_trait": "Strength: infectious optimism and moral clarity; Flaw: uncompromising idealism that can dismiss practical constraints and alienate allies."
+        },
+        {
+            "name": "Jonah Hale",
+            "role": "Antagonist",
+            "personality": "Polished, pragmatic, and outwardly charming. Jonah believes in top-down solutions and the power of infrastructure. He is protective of his reputation and driven by a desire for measurable results, sometimes at the cost of interpersonal warmth.",
+            "appearance_features": {
+                "hair": "Coal-black, short and swept back, always neat even in rain",
+                "eyes": "Cool steel-blue, narrow and assessing",
+                "clothing": "Tailored, water-repellent raincoat with reflective trim over crisp collared shirts and tapered trousers; waterproof leather boots polished despite their use",
+                "accessories": "Slim digital slate with project schematics, a silver band ring engraved with the city seal on his right hand, a modular pen used for signing contracts"
+            },
+            "goal": "Implement a large-scale engineered sea barrier and commercial redevelopment project that promises long-term security and economic investment.",
+            "background_story": "Raised inland in a family of municipal engineers, Jonah rose through regional planning. He was assigned to Lowry Bay to deploy an ambitious coastal defense funded by a consortium. He genuinely believes hard infrastructure can buy time and stability for future generations.",
+            "emotional_trait": "Strength: decisive leadership and strategic thinking; Flaw: emotional guardedness and a tendency to privilege efficiency over people's attachment to place."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Nadia Kestrel",
+            "relation_to_main": "Mira's younger sister",
+            "appearance_summary": "Short, freckled, often wearing a bright waterproof hoodie and mismatched boots, hair in a practical bun.",
+            "function_in_story": "Emotional anchor for Mira, represents younger residents' desire for safety vs staying; her school program becomes a symbol of what is at stake."
+        },
+        {
+            "name": "Ruben Ortega",
+            "relation_to_main": "Old fisherman and mentor to Mira",
+            "appearance_summary": "Tanned, lined face; salt-streaked white hair; always in a thick knit cap and heavy oilskins with a carved wooden cane.",
+            "function_in_story": "Provides historical memory of the bay, practical knowledge of tides and currents, and moral counsel; his fate becomes a turning point for community action."
+        },
+        {
+            "name": "Mayor Lin Park",
+            "relation_to_main": "Town's mayor, bureaucratic link to Jonah's project",
+            "appearance_summary": "Middle-aged, silver-streaked hair in a bun, conservative blazers with a practical waterproof travel scarf.",
+            "function_in_story": "Political arbiter weighing jobs and funding against local displacement; a pivotal decision-maker whose support can swing outcomes."
+        },
+        {
+            "name": "Asha Mehta",
+            "relation_to_main": "Colleague — coastal systems engineer and Mira's ally",
+            "appearance_summary": "Short-cropped hair dyed deep purple, lab-smudged glasses, lightweight technical vest with instrument pockets.",
+            "function_in_story": "Supplies technical validation for nature-based designs, helps run pilot projects and provides data used in public hearings."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Lowry Bay Boardwalk and Waterfront",
+            "visual_description": "A crooked wooden boardwalk lined with salt-streaked storefronts and mural-covered shutters. Dawn light filters through low mist, turning puddles into mirrors of muted gold. Weathered lamp-posts bend under wind; gulls wheel against a backdrop of glassy, rising tides. Colors are faded pastels with pops of hand-painted signage; storm clouds gather dramatically at horizon in tense scenes."
+        },
+        {
+            "name": "Tidelab Greenhouse",
+            "visual_description": "A converted boathouse with rows of hydroponic beds and polymer panels that glow translucent in overcast weather. Interior light is warm amber from horticultural lamps, water-slick floors reflecting dangling ferns. The air is humid and fragrant with brine and wet soil; scientific charts and hand-painted plant markers crowd the windowsills."
+        },
+        {
+            "name": "City Hall / Planning Office",
+            "visual_description": "A modernist block of glass and concrete with rain-sheened facades; interior lighting is cool and efficient, chrome surfaces reflecting blue-tinted daylight. Public hearing rooms have stark wooden benches and a single long table under a resolute strip light, emphasizing bureaucratic formality. Outside, temporary flood barriers and construction banners contrast with tidy landscaping."
+        },
+        {
+            "name": "The Drowned Orchard",
+            "visual_description": "A half-submerged community garden of fruit trees on raised mounds, their trunks leaning like old sailors. Golden light at dusk filters through pink-laced clouds; water laps at the orchard's stilts, and bioluminescent algae glows faintly on still nights. Hand-built walkways and knitted lanterns create intimate, vulnerable beauty."
+        },
+        {
+            "name": "Old Northpoint Lighthouse",
+            "visual_description": "A scarred stone tower perched on a jagged spit; during storms its lantern cuts a narrow orange beam through sheets of rain. Interior steps are wet and echoing; the top room is cramped, paper maps plastered on walls and a single oil lamp casting warm, trembling light. The view shows the town's layout and the slowly swallowing sea."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community vs Progress",
+        "Love and Sacrifice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Mira and Cassian lead a successful hybrid solution: nature-based defenses scaled with modest engineered reinforcements, preserving most homes and creating jobs. Jonah shifts his role to a mediator after public success. Mira and Cassian commit to each other, with the town strengthened and more resilient."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise plan protects the town's core but requires voluntary relocation of several neighborhoods, including Mira's childhood home. Love survives but is marked by loss: Mira and Cassian stay together but must help their community grieve and rebuild elsewhere, trading old comfort for long-term safety."
+        },
+        {
+            "type": "Sad",
+            "summary": "Jonah's large-scale barrier is approved without adequate community consent. Construction displaces marginalized families; ecological feedbacks worsen conditions elsewhere. Mira's resistance fails, her relationship with Cassian fractures over strategy, and the town's character is permanently altered — security at the cost of soul."
+        },
+        {
+            "type": "True",
+            "summary": "Mira chooses the greater good over personal happiness: she exposes a critical design flaw in the barrier late in the process that prevents catastrophe but ruins the project's funding. The immediate crisis is averted through grassroots adaptation, but Mira loses a chance at a comfortable life; she ends alone yet at peace, having saved many and catalyzed systemic policy change."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

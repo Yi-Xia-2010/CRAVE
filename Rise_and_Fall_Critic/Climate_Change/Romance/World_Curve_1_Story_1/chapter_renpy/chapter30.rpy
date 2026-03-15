@@ -1,0 +1,160 @@
+label chapter30:
+
+    # [Scene: Raised Boardwalk | Dusk — After the Storm]
+
+    scene bg ch15_751585_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The steady, distant thump of a maintenance generator; gulls calling; soft, pleased beeps from a sensor pole near the rail.]
+    # play music "music_placeholder"  # [Music: Warm strings, ascending gently — quiet hope after strain]
+    "You stand at the rail with Elias 'Eli' Navarro at your side, and the air tastes like rinsed salt and cut grass — a clean, anxious kind of relief. The storm has moved off-shore, leaving the"
+    "town washed and honest; every surface holds a new shine. Your jacket is still flecked with mud; your notebook, heavy with names and dates, is soft at the spine from being opened and closed so many"
+    "times."
+
+    "Elias 'Eli' Navarro" "They finished the last splice an hour ago. Hal's crew did it right.' (He taps the wristband, smiling with a small, satisfied air.) 'You ought to let Hal take the credit for the bolts. He likes that."
+    "You let out a short laugh that has the taste of leftover salt. It eases a place around your ribs that used to tighten when the word 'responsibility' came up."
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "He earned it.' (You shrug, voice rough from talking all day.) 'And the maintenance rota looks...good. Miriam made sure the volunteers signed up in two-hour blocks so nobody burns out."
+    "Elias 'Eli' Navarro leans his head back and watches the thin line where sea meets sky — the kind of small, domestic ritual that now counts as hope."
+
+    "Elias 'Eli' Navarro" "You did it, you know. Not alone, but you started the thing people could hold on to. The sensors are reading stable salinity values where the mangroves planted last spring — that silt's doing the work."
+    "Your chest tightens again, but differently: not guilt now, but a grown kind of pride. You remember nights where the only thing you could hold was a printout and a stubborn refusal to quit. You think"
+    "of Hal's hands, of Miriam shouting plans into a megaphone in the rain, of Rosa ferrying pies to keep people warm and fed."
+    hide amara_vale
+
+    scene bg ch15_751585_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A soft murmur from the distant crew; the scrape of an empty crate being loaded; the beep from the sensor like a careful metronome.]
+
+    "Elias 'Eli' Navarro" "Sometimes I still wake wondering if the wall's enough.' (He looks at you, vulnerability in the flatness of twilight.) 'And then I remember the meetings — the people who came. Shares were written, hands were offered. Marco signed the oversight agreement, yes, but—"
+    "Your mind brackets the past with careful hands; the memory of negotiations is a braided thing you can't untie without making knots elsewhere. Marco's presence is part of the new scaffolding: a private purse with public"
+    "strings. You don't need to catalog exactly how each string was attached to know that, for now, it's holding."
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "—we wrote those strings into the contract. Transparency, community seats, audits. It won't be perfect, but it's not invisible anymore.' (You trace a line in your notebook where ink has still not dried.) 'That's the point. The town gets to watch the work. We watch them."
+    "Elias 'Eli' Navarro: (softly) 'You made them watch in a way that doesn't burn people out of their homes. That matters.'"
+    "There is a pause where the two of you listen to the boardwalk settling, to the evening compressing light into color. From below the promenade, a maintenance truck rumbles off with two silhouettes waving. In the"
+    "plaza, a board lists the oversight board members — the brass plaque catches twilight like a promise. Miriam's name is half-covered with a smear of mud; you smile at the domesticity of it."
+
+    menu:
+        "Slide your hand into Eli's":
+            "You let your fingers find his. It's small, ordinary, like tying a knot you both can carry. He squeezes once — not a grand gesture, but enough — and the sensor at the rail chirps as if in approval."
+        "Flip to the last page in your notebook and read the line you wrote":
+            "You pull the notebook open. 'Stay. Watch. Repair. Replant.' The letters feel true under your thumb. Eli reads over your shoulder and murmurs, 'That's an oath, not a to-do list.'"
+
+    # --- merge ---
+    "Continue"
+    # [/INTERACTION]
+    "Elias 'Eli' Navarro: (after either choice) 'I like the hand thing. But also the notebook. Both are maintenance.' (He raises an eyebrow, half amused.) 'Romantic, in a municipal sort of way.'"
+    "You let a laugh out that borders on a sob behind it. There's so little high drama here; mostly there are bolts and volunteers and fragile agreements. And somehow, that accumulation of small cares is more stirring than any speech Marco used to give."
+    "From the far end of the raised boardwalk, a familiar figure approaches: Marco Voss, coat collar up against the evening air. He moves with that easy, measured confidence that used to make people tilt toward him"
+    "and then haggle with their consciences. Tonight his expression is complex — something that could be read as contrition, as calculation, as relief. The Schrödinger of it sits between you like a small tide pool you"
+    "don't want to disturb."
+    show marco_voss at right:
+        zoom 0.7
+
+    marco_voss "Good evening, Amara. Eli. The seawall looks...steady.' (He allows a modest smile.) 'You all did a fine thing."
+
+    amara_vale "We all did it."
+
+    marco_voss "The endowment board sent a report. They approved additional funding for the microgrid nodes. With oversight clauses in place, of course.' (He glances at the brass plaque, then at Miriam's mud-marked name.) 'You insisted on community seats. That was—well, it was the right call."
+    "Miriam, arriving with a thermos and muddy gloves, folds her arms and scans Marco like someone still checking a boat for leaks."
+    show miriam_santos at center:
+        zoom 0.7
+
+    miriam_santos "Right call is different from enough. We'll be watching those 'oversight clauses.' Public records, town audits, no shell companies."
+    "Marco Voss: (a quick laugh, then serious) 'And you'll have them. I know being watched slows things down, but it keeps them honest. We both want the town to stand.'"
+    "There is a flicker — perhaps pride, perhaps calculation — across Marco's face. You respond to his words with what you actually feel: wary gratitude."
+
+    amara_vale "You gave clauses, Marco. Now you have to live under them."
+
+    marco_voss "Fair.' (He nods, the word not a surrender but a starting point.) 'I don't expect complete trust overnight. I'll keep the fund's accounts open, and we'll have quarterly meetings published publicly. Consider that my first proof."
+    "Elias 'Eli' Navarro studies Marco for a long breath, then exhales."
+
+    "Elias 'Eli' Navarro" "That will help. Transparency is a structure we can build on. It won't make the storms smaller, but it will make the consequences clearer."
+    "Hal, stooped and steady, joins you with a thermos of black coffee and a grin that looks like carved driftwood."
+    hide amara_vale
+    show harold_hal_finnegan at left:
+        zoom 0.7
+
+    harold_hal_finnegan "You young ones think this is new. It's not. Storms are older than our egos. We simply learned how to listen this time.' (He hands you the thermos.) 'Drink. Keep your voice."
+    "You take it, the coffee sharp and necessary. Hal's presence is an anchor — the person who knows the screw patterns and the patience required to get them right."
+    "Old Man Tor ambles up at a slower pace, cap in hand, the carved buoy at his belt catching the last light. He smells of seaweed and warm wool; when he speaks, his voice creaks like doors left open overnight."
+    hide marco_voss
+    show old_man_tor at right:
+        zoom 0.7
+
+    old_man_tor "Roots take time, child. Mangroves, people's trust, bolts in the wet — same tide.' (He taps his carved buoy, which is worn but well-loved.) 'You planted good things."
+    "You feel an old rhythm in his words: repetition, patience, small acts that compound. It calms you. Around you the town hums with a muted, contented energy: crews packing up with nicked hands and jokes, Miriam"
+    "coordinating a schedule on her phone, Rosa's laughter carrying from a nearby café where a volunteer is fixing the oven."
+
+    menu:
+        "Call out to Rosa and invite her to stay for a bit of the sunset":
+            "You call. Rosa's answer floats back — 'Only if Eli promises to taste the pie I made for the crew.' He accepts with a mock bow, and the laughter that follows feels like salt on the air."
+        "Turn your face to the horizon and let the wind take the rest":
+            "You let the wind lick at your scarf, eyes fixed on the smear of light where sea and sky blur. For a long beat nothing needs saying; the town's work stretches like a ribbon into the distance and you breathe into the space it makes."
+
+    # --- merge ---
+    "Continue"
+    # [/INTERACTION]
+    "Elias 'Eli' Navarro: (after either choice) 'We should write one more line in the official record. Not a promise we can never keep, but a practice: meet every month, open minutes, active maintenance logs. Small things, often done.'"
+    hide miriam_santos
+    show amara_vale at center:
+        zoom 0.7
+
+    amara_vale "Then we write it.' (You flip your notebook open and find the page you've kept blank for the town's own small rituals.) 'I want named maintenance roles, community liaisons, a rotating seat for residents who aren't professionals — someone who cooks, someone who fishes, someone who fixes windows. People who know the town beyond charts."
+    hide harold_hal_finnegan
+    show miriam_santos at left:
+        zoom 0.7
+
+    miriam_santos "And a fund specifically for rehousing immediate losses. Not loans."
+    "Marco Voss: (nodding) 'I'll allocate seed money, and we'll build the audits into the schedule. Publicly. No opaque structures.'"
+    hide old_man_tor
+    show harold_hal_finnegan at right:
+        zoom 0.7
+
+    harold_hal_finnegan "And I'll keep the bolts tight.' (He grins.) 'But it takes more than bolts. It takes neighbors showing up."
+    hide amara_vale
+    show old_man_tor at center:
+        zoom 0.7
+
+    old_man_tor "And stories that remember storms but remember what people did as well."
+    "The sound the group makes together is not triumph so much as a chorus of commitment — voices layered like the planks beneath your feet. You write your line slowly, letting each word be a measured stake."
+    hide miriam_santos
+    hide harold_hal_finnegan
+    hide old_man_tor
+
+    scene bg ch15_751585_3 at full_bg
+    "You close the notebook and tuck it back into your jacket. The day is done but the work hums like a comfortable machine. You look at the seawall in profile — concrete warm from sunset —"
+    "and feel something you haven't let yourself feel fully in a long time: forward motion that is honest, demanded, and communal."
+    "Elias 'Eli' Navarro reaches for your hand again, and this time you let it rest there as the light cools into the first slow violet of evening."
+
+    "Elias 'Eli' Navarro" "This isn't the end of hard days.' (He squeezes.) 'But it's the end of today where we did the things that mattered. We'll wake up tomorrow and make more lists."
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "And we'll keep showing up."
+    hide amara_vale
+
+    scene bg ch15_751585_4 at full_bg
+    # play music "music_placeholder"  # [Music: Strings swell into a warm, ascending motif, then settle into a calm, steady hum; a single piano note rings like a buoy.]
+    "You stand at the rail, the notebook warm against your chest, Elias 'Eli' Navarro at your side, the town arrayed behind both of you. There is no tidy, sweeping victory here — loss still lives in"
+    "corners of Seabright, and some doors are closed forever. But juxtaposed with that loss is concrete progress: a seawall that bought time, mangroves that hold silt and life, an oversight board that has teeth and names,"
+    "volunteers who keep schedules, and a community that can now credibly say it has a voice at the table."
+    "The final image that folds into your chest is not perfect; it is durable and upward. You think of planks being repaired a year from now, of Hal's hands tightening bolts, of Miriam turning up with"
+    "a clipboard, of Marco opening a ledger someone in the crowd will read aloud. You think of Old Man Tor's buoy, small and strong, and of Rosa's pies being eaten beside freshly polished tools."
+
+    "You close your eyes for a breath and feel the whole of the town as a pulse — messy, stubborn, and alive. In your notebook you had written that line earlier" "Stay. Watch. Repair. Replant."
+    "Amara Vale: (softly, to no one in particular) 'We will keep it.'"
+
+    scene bg ch15_751585_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull cries in the distance; the soft clink of tools in a truck; distant laughter from the café.]
+    # play music "music_placeholder"  # [Music: A single, sustained hopeful chord that fades slowly into a warm hush]
+
+    scene bg ch15_751585_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch15_751585_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

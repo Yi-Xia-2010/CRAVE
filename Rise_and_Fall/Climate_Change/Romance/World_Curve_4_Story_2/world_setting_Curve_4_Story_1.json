@@ -1,0 +1,126 @@
+{
+    "design_logic": "I blend Climate Change (a systemic, material threat) with Romance (intimate, character-driven stakes) by making the environmental crisis the engine of interpersonal conflict and the backdrop for emotional growth. The core conflict pits urgent, pragmatic interventions against community-led ecological repair and personal loyalties: characters must choose between quick technological fixes that promise safety and slower, communal restoration that preserves home and memory. Romance emerges from the tension between two pragmatic worldviews (science/restoration vs. coastal tradition), forcing characters to negotiate trust, sacrifice, and shared responsibility.",
+    "setting": "Near-future coastal town (Lumen Bay) where rising seas and increasingly violent storms have reshaped daily life. Time period: 2030s. Atmosphere: salt-streaked, layered with the smell of wet wood and wet earth, a mixture of hopeful grassroots energy and the brittle sheen of corporate intervention. Streets alternate between repaired wooden boardwalks and concrete flood barriers; reclaimed marshes sit in fragile balance with new seawalls and a gleaming corporate research facility.",
+    "visual_style": "Painterly semi-realism, muted coastal palette, environmental textures, cinematic lighting, soft focus on faces during intimate scenes, high-contrast neon hints around corporate tech. Keywords: 'Coastal painterly semi-realism', 'Moody golden-hour lighting', 'Textured environmental detail', 'Intimate close-ups', 'Subtle cyber-natural accents'.",
+    "main_characters": [
+        {
+            "name": "Maya Reyes",
+            "role": "Protagonist",
+            "personality": "Driven, empathetic, scientifically curious, impatient with half-measures, quietly romantic. She is a natural organizer who thinks in systems but responds to people with warmth. Carries anxiety about failure but converts it into relentless work.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves with a single silver streak braided at the temple",
+                "eyes": "Warm hazel flecked with green, wide and attentive",
+                "clothing": "Worn olive utility field jacket patched with a local seed-bank logo, faded denim overalls or jeans, moisture-wicking tees, rubber boots with hand-painted floral stickers; rolled-up sleeves show sun-creased forearms",
+                "accessories": "Compact leather field journal with pressed marsh grass between the pages, a braided hemp bracelet from her grandmother, a small waterproof camera slung at her hip"
+            },
+            "goal": "To restore the marshland buffer around Lumen Bay through community-first ecological work and prove that local, regenerative solutions can protect the town without sacrificing its social fabric.",
+            "background_story": "Grew up in Lumen Bay; her father was a fisher lost in a major storm when she was a teenager. Trained as a marine ecologist, she returned to lead grassroots restoration projects and runs a small non-profit seed-and-marsh program. The loss of her father and the town's slow decline drive her refusal to accept outside saviors who ignore local knowledge.",
+            "emotional_trait": "Strength: fierce compassion and resilience. Flaw: fear of letting go — she pushes herself to the brink to avoid perceived failure."
+        },
+        {
+            "name": "Elias Kwan",
+            "role": "Love Interest",
+            "personality": "Practical, laconic, quietly warm. He values lineage and the rhythms of the sea; skeptical of outsiders and sudden change but willing to learn. Has dry humor and a stubborn optimism rooted in day-to-day perseverance.",
+            "appearance_features": {
+                "hair": "Jet black, undercut with a loose topknot when working; usually windswept",
+                "eyes": "Deep ocean-blue, narrow and observant, often half-smiling",
+                "clothing": "Salt-streaked knitted fisherman sweater layered under a repurposed oilskin coat, tapered cargo trousers, heavy work boots with rope tied around the ankle for grip; sleeves often rolled and patched with seawater stains",
+                "accessories": "A carved wooden fishing hook pendant inherited from his grandfather, a battered leather wallet with old license plates inside, a small multi-tool clipped to his belt"
+            },
+            "goal": "To protect his family’s fishing livelihood and the town’s traditions while accepting necessary adaptations so that his community can survive coming storms.",
+            "background_story": "Third-generation fisher whose family has worked the bay for decades. He watched the shoreline retreat each year. Initially distrustful of large-scale plans and activists, Elias is pragmatic — he will fight for what keeps his brother and neighbors fed. His gradual pathway to working with Maya is central to his arc.",
+            "emotional_trait": "Strength: steady reliability and protective loyalty. Flaw: stubbornness toward change, which can make him slow to trust new methods."
+        },
+        {
+            "name": "Dahlia Kestrel",
+            "role": "Antagonist",
+            "personality": "Charismatic, highly competent, rhetorically idealistic but strategically ruthless. Believes in top-down engineered solutions and measurable impact. She sees human cost as acceptable if the larger objective is secured.",
+            "appearance_features": {
+                "hair": "Platinum blonde, sleek asymmetrical bob that always looks immaculate even in rain",
+                "eyes": "Ice-gray, sharp and assessing, with a habit of narrowing when negotiating",
+                "clothing": "Tailored pale teal suits with reflective paneling, minimalist waterproof trench coat with a high collar, polished ankle boots — her style is corporate-clean with marine-tech accents",
+                "accessories": "A silver cuff that doubles as a communication device, a discrete branded pin with her company logo, and a slim tablet always in hand"
+            },
+            "goal": "To build a large-scale, fast-acting geoengineering sea barrier and associated developments that will protect the region at scale and position her company as the savior of coastal cities.",
+            "background_story": "Raised in a metropolitan research-and-development environment, Dahlia rose through a renewable engineering firm. She’s sincere about preventing catastrophe but prioritizes scalable, measurable solutions over local narratives; she lost a sibling in an urban flood and channels that grief into certainty.",
+            "emotional_trait": "Strength: visionary clarity and ruthlessness in execution. Flaw: inability to fully empathize with small-scale, human textures of loss — sees them as collateral in a larger moral calculus."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Mendes",
+            "relation_to_main": "Childhood friend of Maya; local councilwoman",
+            "appearance_summary": "Short, sturdy, silver-streaked braid; practical work dresses and windbreakers; always with a clipboard.",
+            "function_in_story": "Political anchor who can sway votes and broker community meetings; sympathetic to Maya but under political pressure to accept Dahlia’s funding."
+        },
+        {
+            "name": "Jonah Reyes",
+            "relation_to_main": "Younger brother of Maya",
+            "appearance_summary": "Lean, sunburned face, cropped sandy hair, often in a fisherman’s cap and ragged hoodie.",
+            "function_in_story": "Represents the younger generation of fishers. Tends toward impulsive action; his livelihood is a personal stake and occasionally escalates conflict."
+        },
+        {
+            "name": "Asha Patel",
+            "relation_to_main": "Local climate organizer and friend",
+            "appearance_summary": "Practical, bright rain jacket, hair in a practical bun, vivid enamel pins with slogans.",
+            "function_in_story": "Organizes protests, community science training, and helps translate Maya's research into public campaigns."
+        },
+        {
+            "name": "Mayor Lyle Durant",
+            "relation_to_main": "Local official pressured by development promises",
+            "appearance_summary": "Silver hair, sun-weathered suit, often seen under an umbrella or tasselled hat, cautious posture.",
+            "function_in_story": "Represents the town's need for funding and jobs; he is a swing vote whose decisions affect whether Dahlia’s project proceeds."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Lumen Bay Boardwalk",
+            "visual_description": "Long wooden boardwalk weathered silver with salt; golden-hour light catches glints of algae and puddles. Overcast days render the planks darker and slick. Low, squat storefronts with hand-painted signage; string lights sag between posts. Fog rolls in off the water most mornings, muting colors to sea-gray and driftwood browns. Background art should show gulls, damp banners, and children with rubber boots splashing."
+        },
+        {
+            "name": "Marsh of Tides (restoration site)",
+            "visual_description": "A patchwork of shallow channels, sedge grass and newly planted cordgrass; soil is dark and glistening. Morning light breaks through low clouds into drifting shafts, highlighting droplets on stems. Palette: deep emeralds, muted umbers, and reflective pools of pewter-blue sky. Atmosphere is quiet, humid, and alive with insects and migratory birds — scenes feel intimate and fragile."
+        },
+        {
+            "name": "AquaWorks Research Station",
+            "visual_description": "Sleek glass-and-steel facility perched on pilings beyond the high tide line. Exterior lighting uses cool teal LEDs against damp concrete; interior glows clinical white and soft blue. Wet catwalks reflect blinking instrument panels. Rain-slick surfaces and the mechanical hum of pumps contrast with human warmth only in a small coffee nook by a salt-streaked window."
+        },
+        {
+            "name": "Promenade & Dunes",
+            "visual_description": "Wind-bent dune grasses and protective stone walls, open sky with fast-moving cloudscapes. Late-afternoon sun casts long shadows across pale sands; heat haze distorts distant structures. The promenade has memorial plaques, tide gauges, and community rain gardens. Colors: sun-bleached tans, smoky blues, and orange-apricot sunsets that feel both nostalgic and precarious."
+        },
+        {
+            "name": "Dahlia Kestrel Development Site (The Arc)",
+            "visual_description": "Construction site dominated by modular, shiny barrier segments and heavy machinery. Lighting at night is harsh — sodium lamps and floodlights cast cold reflections on wet metal. Temporary fencing and corporate banners with hopeful slogans flutter. The site feels industrial, imposing, with sterile teal branding clashing against the natural palette of the bay."
+        },
+        {
+            "name": "Skyline Rooftop Garden (community refuge)",
+            "visual_description": "A small oasis atop a municipal building: raised beds, tarps, solar panels, and a patchwork greenhouse. Warm, dappled light filters through translucent canopies; strings of bulbs give a cozy glow at night. The air smells of compost and young tomatoes. Visuals convey intimacy and community resilience — hand-painted signs, children's drawings pinned to a board, and jars of preserved fruit."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Trade-offs"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "The community unites behind a hybrid plan: Dahlia’s barrier is redesigned as a modular, low-impact system paired with large-scale marsh restoration led by Maya. Jobs are created through restoration work and the town retains its character. Maya and Elias commit to a partnership — both romantic and practical — continuing marsh stewardship together."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Dahlia’s original project is halted but not entirely dismantled; compromises reduce its scale while funding is redirected toward adaptive livelihoods. The marsh recovers slowly. Maya and Elias stay together but must accept permanent changes in the town’s economy and the loss of some ancestral fishing grounds. The ending celebrates survival with honest costs."
+        },
+        {
+            "type": "Sad",
+            "summary": "Dahlia’s quick-build solution is rushed and a severe storm exposes structural flaws: the barrier fails in places, causing greater localized damage. The town suffers loss and some residents relocate. Maya and Elias grow apart under the strain — their relationship cannot withstand unmet promises and grief. Maya continues her work elsewhere, carrying both guilt and renewed resolve."
+        },
+        {
+            "type": "True",
+            "summary": "Neither simple victory nor total defeat: the story closes on a realistic, mixed outcome where small-scale, community-led restoration gains momentum but systemic forces remain. Maya and Elias accept that their work will take decades; their relationship is matured rather than definitively resolved. The ending emphasizes ongoing effort, the moral complexity of difficult choices, and the seed of long-term change."
+        }
+    ],
+    "estimated_chapters": 6
+}

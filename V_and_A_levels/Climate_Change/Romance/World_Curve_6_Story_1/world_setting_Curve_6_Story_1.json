@@ -1,0 +1,121 @@
+{
+    "design_logic": "I blend Climate Change (urgent, systemic stakes) with Romance (intimate personal stakes) by setting the story in a small coastal town where environmental collapse forces interpersonal choices: protect the community via science and nature-based solutions or accept rapid engineered fixes that displace people. The core conflict is between urgent, technical mitigation (and the political/economic forces behind it) and grassroots, relational resilience; romance grows as characters make ethical compromises, learn vulnerability, and choose what — and who — they will save.",
+    "setting": "A contemporary mid-latitude coastal town named Harborstone: weather-worn wooden piers, low-lying neighborhoods, tidal wetlands, and a newly proposed concrete stormwall site. The atmosphere shifts between salt-sprayed chiaroscuro mornings, humid golden-hour evenings, and brutal storm scenes — intimate, tactile, and quietly tense.",
+    "visual_style": "Naturalistic anime-influenced realism, muted coastal palette (seafoam, slate, rust), textured brushwork for weather effects, cinematic lighting, subtle character rim-lighting during emotional beats",
+    "main_characters": [
+        {
+            "name": "Alea Maren",
+            "role": "Protagonist",
+            "personality": "Measured, scientifically minded, empathetic but guarded; a planner who prefers data and proposals to small talk. Loyal to her hometown and quietly fierce when protecting it. Prone to overthinking and self-blame.",
+            "appearance_features": {
+                "hair": "Dusky chestnut, shoulder-length with soft waves, usually pulled half-back into a practical twist",
+                "eyes": "Sea-glass green with a steady, observant gaze",
+                "clothing": "Weatherproof field jacket in deep slate over a thrifted fisherman's sweater and durable jeans; practical ankle boots, rolled sleeves when working in the mud",
+                "accessories": "A water-stained field notebook with taped pages, a silver band ring engraved with coordinates of Harborstone, and a compact rain poncho folded into a pouch"
+            },
+            "goal": "Design and implement sustainable, nature-based flood mitigation that protects Harborstone while preserving its community and ecology.",
+            "background_story": "Grew up in Harborstone, left to study coastal engineering and climate science after a devastating flood that claimed her younger sibling. Returned when the town is threatened again, determined to prevent another loss and to atone for past absence.",
+            "emotional_trait": "Carries survivor's guilt; strength is her commitment to evidence and community, flaw is an inability to ask for help early on."
+        },
+        {
+            "name": "Rin Sato",
+            "role": "Love Interest / Community Organizer",
+            "personality": "Warm, creative, fearless in public spaces; an organizer who builds joy into resistance. Empathetic, quick to listen, and able to translate technical jargon into stories that move neighbors to act.",
+            "appearance_features": {
+                "hair": "Short, ink-black hair with an undercut and a single dyed teal streak that curls over the temple",
+                "eyes": "Warm amber-brown, wide and expressive",
+                "clothing": "Layered bohemian practicals — a faded yellow anorak over a mended linen shirt, patterned scarves used as banners, patched wide-leg trousers, rubber boots splattered with salt and paint",
+                "accessories": "A braided sea-glass necklace (family heirloom), a battered canvas messenger bag full of flyers and seed packets, and a handpainted umbrella with a wave motif"
+            },
+            "goal": "Mobilize the town to choose resilient, community-led solutions and preserve Harborstone's cultural life; help Alea trust and open up emotionally.",
+            "background_story": "Third-generation Harborstone resident from a fisher-artist family; after a childhood watching the coastline shrink, Rin turned to activism and community arts to keep the town connected as losses mounted. Knows the town's people intimately and runs the 'Tide & Thread' community kitchen.",
+            "emotional_trait": "Strength is remarkable optimism that binds people; flaw is a tendency to shoulder others' pain until they burn out."
+        },
+        {
+            "name": "Elias Hart",
+            "role": "Antagonist / Policy Maker (morally gray)",
+            "personality": "Charismatic, urbane, long on pragmatic rhetoric; believes in large-scale, fast solutions and legacy projects. He is persuasive and attentive to optics, sometimes masking insecurity with decisiveness.",
+            "appearance_features": {
+                "hair": "Salt-and-pepper, neatly combed back with a permanent sheen from city air",
+                "eyes": "Cool steely blue, narrow and assessing",
+                "clothing": "Tailored navy pea coat over fine knit turtlenecks or crisp shirts; always looks slightly out of place in Harborstone's salt-rough textures",
+                "accessories": "An engraved brass pocket watch (family heirloom), a leather folio full of development plans, and a sleek umbrella with a brass tip"
+            },
+            "goal": "Push a rapid, engineered stormwall and infrastructure contract that promises immediate protection and economic investment — cementing his political legacy.",
+            "background_story": "Raised in a nearby city after leaving Harborstone during economic decline; returned as a public-private liaison with access to capital. He believes decisive top-down action is the only way to save towns like Harborstone and fears being judged for delays.",
+            "emotional_trait": "Strength is decisive leadership; flaw is pride and an inability to admit vulnerability or past mistakes that drove him away from Harborstone."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Maya Calder",
+            "relation_to_main": "Childhood friend of Alea / Owner of 'Tide & Thread' cafe",
+            "appearance_summary": "Short, sun-creased face, gray-streaked braid, always wearing a flour-dusted apron and a mismatched pair of earrings.",
+            "function_in_story": "Community hub operator who spreads news and gossip; anchors emotional scenes and forces reconciliation between characters with straightforward counsel and home-cooked meals."
+        },
+        {
+            "name": "Tomas Reyes",
+            "relation_to_main": "Young local volunteer who works with Rin",
+            "appearance_summary": "Lean, sun-darkened skin, cropped curly hair, often in work gloves and an old hooded sweatshirt.",
+            "function_in_story": "Represents the younger generation of Harborstone; helps execute restoration projects and provides a viewpoint on how choices affect future livelihoods."
+        },
+        {
+            "name": "Dr. Lian Cho",
+            "relation_to_main": "Alea's former mentor and scientific advisor",
+            "appearance_summary": "Slight, precise, with silver hair in a low bun and round reading glasses; favors soft cardigans stained with ink and fieldwork mud.",
+            "function_in_story": "Supplies technical credibility and moral counterpoint; frames trade-offs between different mitigation approaches and challenges Alea to balance rigor with empathy."
+        },
+        {
+            "name": "Councilor Bea Ortega",
+            "relation_to_main": "Town council member skeptical of grassroots plans",
+            "appearance_summary": "Rigid posture, coiffed bob, conservative business coats with discreet pearls.",
+            "function_in_story": "Represents political pressure and budgetary constraints; acts as swing vote and embodies the small-town politics that complicate ideal solutions."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harborstone Main Pier & Promenade",
+            "visual_description": "Long wooden pier soaked with spray, glassy tide-pools reflecting smoky morning light. Weathered fishing shacks with peeling teal paint, strings of drying nets, gulls circling overhead. Evenings glow with lamplight and sodium orange from nearby sodium lamps; rain leaves the boards slick and reflective."
+        },
+        {
+            "name": "The Dune Gardens (restoration site)",
+            "visual_description": "Marsh grasses and golden reeds bending in wind, layered shallow channels catching late-afternoon sun; mist rises in cool, pale blue ribbons. Paths are muddy and lined with reclaimed cedar posts; the palette is ivory, olive, and salt-bleached gold. Bird calls and insect hum punctuate the stillness."
+        },
+        {
+            "name": "Stormwall Construction Site",
+            "visual_description": "A stark stretch of raw concrete and steel under a pale, overcast sky. Heavy machinery silhouettes in low light; weld sparks at dusk; oil-slick puddles reflecting sodium lamps. The air smells of wet cement and diesel; rope barriers and plywood signage read 'SAFE SOLUTIONS' in bold type."
+        },
+        {
+            "name": "Old Lighthouse & Sunset Promenade",
+            "visual_description": "Rugged granite outcrop with a rust-streaked beacon; salt haze softens the horizon. Sunset paints the sky in bruised purples and molten gold; the lamp throws a warm cone of light over the rusted railing. Wind carries distant thunder and the taste of salt; it's a private, cinematic place for confessions."
+        },
+        {
+            "name": "Tide & Thread Community Kitchen (Maya's Cafe)",
+            "visual_description": "Cozy interior lit by pendant bulbs and a battered neon sign; sunlit windows fogged with steam, mismatched wooden tables, shelves of jars and seed packets. Warm amber light, spice aromas, hand-drawn posters advocating for town meetings and shoreline plantings. It feels lived-in, hospitable, and defiant against cold weather outside."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love and Reconciliation"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led nature-based restorations (dune gardens, managed retreat of a small nonessential strip, living shorelines) succeed after intense organizing and compromise. The concrete stormwall plan is scaled back. Alea and Rin build a life together rooted in Harborstone's recovery; the town keeps its character and gains new ecological stability."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A hybrid solution is implemented: a partial engineered barrier is erected where absolutely necessary, and nature-based solutions are installed elsewhere. Some families relocate; Harborstone endures but changes. Alea's relationship with Rin survives but requires long-term negotiation and moments of painful loss; both characters learn to accept imperfect wins."
+        },
+        {
+            "type": "Sad",
+            "summary": "The rapid engineered plan is pushed through by outside investors; short-term protection worsens local erosion and displaces the poorest residents. A violent storm breaches a weak section, causing severe damage. Alea, burdened by regret, leaves Harborstone to continue advocacy elsewhere, and a tentative romance with Rin goes unresolved."
+        },
+        {
+            "type": "True",
+            "summary": "Alea chooses the larger moral responsibility over romantic attachment: she accepts a prestigious position to lead a regional resilience initiative, sacrificing a settled life with Rin to scale solutions for many towns. The relationship ends gently but permanently; Harborstone becomes a case study that informs better policy, and characters carry forward lessons rather than full closure."
+        }
+    ],
+    "estimated_chapters": 6
+}

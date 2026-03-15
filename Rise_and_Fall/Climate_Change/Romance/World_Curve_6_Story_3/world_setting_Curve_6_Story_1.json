@@ -1,0 +1,133 @@
+{
+    "design_logic": "I blend the Climate Change theme with Romance by centering the narrative on interpersonal bonds forged and strained by environmental crisis. The core conflict is between short-term survival measures and long-term ecological resilience — mirrored in a love triangle where choices about the town's future are also choices about personal trust and belonging. Emotional stakes (loss, hope, compromise) drive both the romantic arc and the community's fate, making climate policy feel intimate and morally urgent.",
+    "setting": "Near-future coastal town (Port Veridian) on a temperate shore undergoing rising tides and more frequent storms. The atmosphere is simultaneously battered and hopeful: salt-scoured streets and patched roofs sit alongside community restoration projects and experimental tidal infrastructure. Time period: 2035-2040, low-tech augmentation (sensors, community microgrids) blended with hands-on, artisanal repair culture.",
+    "visual_style": "Realistic anime-inspired, soft cel-shaded, muted coastal palette, weathered textures, cinematic lighting, environmental detail, subtle particle effects (spray, fog), painterly skies",
+    "main_characters": [
+        {
+            "name": "Maya Ibarra",
+            "role": "Protagonist",
+            "personality": "Resolute, empathetic, practically idealistic. Natural organizer who listens carefully and holds people accountable. Tends to absorb others' burdens and can prioritize community needs over personal ones.",
+            "appearance_features": {
+                "hair": "Dark chestnut with a natural silver streak at the temple, shoulder-length, wavy and often tucked behind one ear",
+                "eyes": "Green-hazel, warm and wide-set, with a tired but steady gaze",
+                "clothing": "Layered, practical fieldwear: olive waxed-cotton jacket with patchwork repairs, faded navy cargo pants, threadbare cotton shirts, rubber-lined field boots. Often wears a knitted scarf in summer-washed teal.",
+                "accessories": "Faded canvas satchel with mud and salt stains, a battered smartwatch showing tide and sensor readouts, a simple sea-glass pendant on cord (keepsake from her father)"
+            },
+            "goal": "To implement community-led, nature-based adaptation for Port Veridian that preserves livelihoods and ecosystem services.",
+            "background_story": "Grew up in Port Veridian; her father, a local dockworker, disappeared during a severe storm when she was a teen. Studied coastal ecology, then returned home to translate science into community action. She is deeply invested in the town's future and haunted by the idea she could have done more.",
+            "emotional_trait": "Strength: unwavering commitment and empathy. Flaw: guilt-driven perfectionism that makes her avoid delegating or accepting help."
+        },
+        {
+            "name": "Elliot Chen",
+            "role": "Love Interest",
+            "personality": "Curious, conciliatory, quietly passionate. An urban ecologist/designer who believes in elegant technical solutions but has a sincere desire to reconcile innovation with local needs. Tends to intellectualize emotions but is learning to show vulnerability.",
+            "appearance_features": {
+                "hair": "Jet black, undercut with a longer, swept-back top that gets damp in fog",
+                "eyes": "Storm-blue, slightly almond-shaped, often reflective with thought",
+                "clothing": "Clean-lined, functional-civillian style: lightweight slate-gray trench coat with waterproof seams, breathable fitted shirt, tapered utility trousers, low-profile field sneakers. Carries a roll-up sketch cloth.",
+                "accessories": "Leather portfolio with modular tools and hand-drawn resilience plans, a prototype wristband sensor that monitors salinity and microclimate, a small silver ring he rarely removes (family heirloom)"
+            },
+            "goal": "To design and implement sustainable, humane infrastructure that helps Port Veridian adapt while proving his methods can be ethical and effective.",
+            "background_story": "Born in Port Veridian, moved to the city for education and a high-profile design career. Returned after seeing the worsening climate impacts and because of unresolved ties to Maya. He is torn between career pressures (from a sponsor firm) and a desire to help his hometown in ways that respect local values.",
+            "emotional_trait": "Strength: creative pragmatism and optimism. Flaw: tendency to compromise too quickly to appease stakeholders, which risks betraying principles."
+        },
+        {
+            "name": "Noah Rhee",
+            "role": "Antagonist / Complicated Rival",
+            "personality": "Gruff, fiercely protective, decisive. A community-first pragmatist who values immediate security over uncertain long-term experiments. Loyal to family and trade; blunt and not afraid to make hard choices.",
+            "appearance_features": {
+                "hair": "Salt-and-pepper, cropped short in a functional crew cut",
+                "eyes": "Gray-blue, narrow and wind-creased from years at sea",
+                "clothing": "Heavy oilskin coat, wool fisherman's sweater, thick canvas work pants, scuffed leather boots. Clothing looks sea-battered but maintained.",
+                "accessories": "Rope coil slung over one shoulder, brass compass that belonged to his grandfather, a battered pocketknife on a leather thong"
+            },
+            "goal": "To secure immediate protections for fishing livelihoods — through armored sea-walls, dredging, and contracts that guarantee work — even if those measures harm marshlands.",
+            "background_story": "Third-generation fisher of Port Veridian; business and family have declined with changing waters. He once collaborated with Maya but grew frustrated with measures he felt were too slow or abstract. He now backs pragmatic, aggressive protection projects that conflict with Maya's ecological approach.",
+            "emotional_trait": "Strength: fierce loyalty and clarity under pressure. Flaw: short-term focus and emotional inflexibility that can alienate allies."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Ibarra",
+            "relation_to_main": "Maya's younger sister",
+            "appearance_summary": "Lean, sun-freckled, short-cropped hair, often in a bright yellow rain jacket; carries a camera.",
+            "function_in_story": "Emotional anchor for Maya; documents community impacts and rallies public support through images and local storytelling."
+        },
+        {
+            "name": "Mayor Lianne Cortez",
+            "relation_to_main": "Mayor of Port Veridian, uneasy ally",
+            "appearance_summary": "Late 50s, silver-streaked bun, tailored functional suits with nautical motifs.",
+            "function_in_story": "Gatekeeper for funding and permits; forced to balance political pressure from developers, citizens, and emergency needs."
+        },
+        {
+            "name": "Dr. Kira Ansel",
+            "relation_to_main": "Elliot's former mentor, visiting urban ecologist",
+            "appearance_summary": "Pragmatic scientist style: short bob, glasses, neat field vest with pockets full of sensors.",
+            "function_in_story": "Offers technical advice and an outside perspective; pushes for scalable solutions and occasionally criticizes both Maya and Noah for rigidity."
+        },
+        {
+            "name": "Tomas Keene",
+            "relation_to_main": "Community elder and lighthouse keeper",
+            "appearance_summary": "Weathered face, long gray beard, oilskin cap, slow deliberate movements.",
+            "function_in_story": "Cultural memory: provides historical context, local lore, and moral counsel during heated debates."
+        },
+        {
+            "name": "Aria Sol (representative of Veridian Holdings)",
+            "relation_to_main": "Corporate developer liaison",
+            "appearance_summary": "Polished, short platinum hair, smart tailored tech-fabric blazer with subtle holographic cuff.",
+            "function_in_story": "Represents outside development interests proposing hard infrastructure and lucrative contracts; her proposals catalyze the central conflict."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Port Veridian Main Street",
+            "visual_description": "A narrow, sloping street of salt-stained storefronts and patched wooden docks. Late-afternoon light is diffuse through coastal haze; gulls circle above. Paint peels from wooden signs, but colorful banners for community events flutter in the breeze. Puddles reflect gray sky; damp cobbles glitter with beads of seawater."
+        },
+        {
+            "name": "Tidewatch Laboratory",
+            "visual_description": "A repurposed fish-processing warehouse with rows of tide sensors, glass tanks of marsh flora, and wall-mounted maps with colored pins. Interior lighting is a mix of cool LED panels and warm task lamps; rain streaks the large industrial windows. The smell of salt and algae is constant; floorboards creak underfoot."
+        },
+        {
+            "name": "Living Dike and Reclaimed Wetlands",
+            "visual_description": "A ribbon of mangrove-like plantings and woven coir barriers curving along a shallow estuary. Dawn light bathes reeds in gold; mist hovers above brackish water. Wooden boardwalks rise on stilts, with handrails wrapped in rope; birds move through reeds. The palette is greens, muted browns, and the pale silver of tidal pools."
+        },
+        {
+            "name": "Council Hall / Community Forum",
+            "visual_description": "A brick-and-glass municipal hall with a high atrium where town meetings are held. Midday light streams through stained panels, creating warmed tones on faces. Folding chairs and posters crowd the space during debates; coffee steam and anxious murmurs fill the air."
+        },
+        {
+            "name": "Beacon Lighthouse and Shoreline",
+            "visual_description": "A solitary, weathered lighthouse atop a rocky outcrop battered by spray. Storm clouds gather low; intermittent shafts of sunlight pierce the gloom. Tide scours the shoreline into smooth stones and blackened kelp, while the beacon's lamp pulses amber. The scene is both ominous and quietly beautiful."
+        },
+        {
+            "name": "Veridian Holdings Development Site",
+            "visual_description": "A fenced stretch of exposed earth with heavy machinery, concrete pilings, and bright safety signage. Floodlights cast stark white light at night; puddles reflect equipment. The air smells of diesel and fresh-cut timber. Workers in neon vests are a study in motion against the raw, geometric forms of early infrastructure."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Resilience vs. Survival",
+        "Community and Collective Action",
+        "Ethics of Intervention",
+        "Love and Personal Sacrifice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led hybrid solution succeeds: Maya and Elliot lead a blended plan (living dikes plus targeted engineered protections). Noah accepts modified protections that preserve key habitats. The town secures phased funding, livelihoods stabilize, and Maya and Elliot commit to a hopeful partnership — both romantic and professional."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A partial victory: the living dike project protects most residential areas, but parts of the historic waterfront are lost to rising water. Noah's short-term measures save some fishing grounds but damage marshes; he and Maya reconcile with complicated forgiveness. Maya chooses to lead long-term restoration, while Elliot accepts a regional post to scale the model — their relationship becomes long-distance but committed."
+        },
+        {
+            "type": "Sad",
+            "summary": "Veridian Holdings wins key permits; a hard-engineered seawall is built that offers immediate protection but destroys critical wetlands and reduces fish stocks. Community fractures; Noah gains temporary security but becomes estranged from neighbors. Maya's attempts to stop the project fail; she leaves town to continue advocacy elsewhere. Romance dissolves under political strain, leaving unresolved grief."
+        },
+        {
+            "type": "True",
+            "summary": "An ethically honest ending: the town cannot avoid trade-offs. Through painful dialogue, citizens accept a hybrid but imperfect strategy requiring ongoing stewardship and sacrifice. Maya refuses a simple triumph and instead builds a durable governance model that passes authority to a rotating community stewardship council. Romantic outcomes vary by player choice (commitment, distance, or separation) but all parties grow into roles that reflect what each truly values."
+        }
+    ],
+    "estimated_chapters": 6
+}

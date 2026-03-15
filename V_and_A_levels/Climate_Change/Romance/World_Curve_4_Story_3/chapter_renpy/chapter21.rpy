@@ -1,0 +1,207 @@
+label chapter21:
+
+    # [Scene: Marabel Promenade | Night — Storm Approaching]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, rising drums under urgent strings]
+    # play sound "sfx_placeholder"  # [Sound: Siren-like chimes from the Beacon; wind flaying at loose banners]
+    "You still have the compass in your palm as if it will show you which way to hold the town. Rain has begun in earnest — thin needles at first, then thicker, the kind that finds"
+    "the seam of your jacket and slides its cold into bone. Mayor Rosa's face is set like a ledger: numbers and people balanced by breath and will."
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "We don't have time for an argument. We have hands. We have ladders. We have people who will listen to orders. Asha—no more questions. Coordinate."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "I'll coordinate."
+    show noah_reyes at center:
+        zoom 0.7
+
+    noah_reyes "Tethers here! Lines at the northern pier! Marta—how many hands on the reed mats?"
+    hide mayor_rosa_alvarez
+    show marta_chen at left:
+        zoom 0.7
+
+    marta_chen "Enough to choke a flood and not enough to choke a town. Get to it!"
+    hide asha_moreno
+    hide noah_reyes
+    hide marta_chen
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Timber creak of the boardwalk; the muted thud of sandbags being thrown]
+    "There is a pressure in your chest that isn't only the cold. Lila steps forward, her cuffs still blinking faintly with sensor feeds, a practical calm that is almost a provocation under these skies."
+    show lila_park at left:
+        zoom 0.7
+
+    lila_park "We can deploy the rapid berm here, reinforce the north gash, and reroute the temporary float units to block the surge. We brought pumps."
+    "You watch her hands—efficient, trained—move through the air as if drawing a plan into existence. The town remembers her as the shape of a proposal; you measure her in the present: teams, lights, machines."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "We accept your help on one condition—our oversight on deployment, sensors open to community logs, and no unilateral claims on property. Work with Marta and Eli when it comes to placement."
+
+    lila_park "Terms noted. We'll coordinate. Lives first."
+    "There is a pause where the wind tries to speak for everyone and fails. Agreement is a thin fabric stretched over deeper tensions; it ripples, but it holds."
+    hide lila_park
+    hide asha_moreno
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Fast-paced pulses; metallic percussion]
+    # play sound "sfx_placeholder"  # [Sound: Water slapping against hulls; shouted orders; the snap of rope]
+    "You run like an animal between tasks. The town has become a system of knots you can see and untie only by muscle and will. Eli is a pulley of action—grunting as he hauls planks across slick beams."
+    show eli_duarte at left:
+        zoom 0.7
+
+    eli_duarte "Asha—reef the starboard! If that seam gives, the whole platform shifts."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "I'm on it. Noah—take the line with Marta. Anchor at the west piling."
+    show noah_reyes at center:
+        zoom 0.7
+
+    noah_reyes "Got it. Stay with me. Watch the other side. We'll move as one."
+    hide eli_duarte
+    show marta_chen at left:
+        zoom 0.7
+
+    marta_chen "Waist-deep, hold the reed mats—plant them tight! If the rush takes the mats, chain yourselves—link shoulders!"
+    "You sink into the cold up to your waist; the water bites through fabric and heat. Sandbags are summoned and stitched with frantic hands: a crude seam of hope sewn under the rain. Your fingers are"
+    "numb and clumsy; the compass hangs like a talisman against your sternum, a small bright thing in the shaking dark."
+
+    menu:
+        "Tie off the northern piling first":
+            "You sprint to the piling, your boots slapping wet wood, and breathe a line into place; the tether sings under strain but holds for a minute longer."
+        "Stay and finish the last sandbag seam":
+            "You crouch, knot after knot, feeling the stitching take shape; a man's shout pulls you up a second later to drag a slipping mat into place."
+
+    # --- merge ---
+    "The storm arrives in full. The Beacon's lights blur into an angry halo; alarms jab at the night like warning teeth. A low, animal roar builds as the ocean ribs open — a living wound gaping along the edge of town."
+    hide asha_moreno
+    hide noah_reyes
+    hide marta_chen
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Violent strings; brass slams; a rising dissonant chorus]
+    # play sound "sfx_placeholder"  # [Sound: The wail of the wind, the crack of failing timber, a terrible low groan as something gives]
+    "For a time you think we hold. The reeds, the sandbags, the pumps — each small miracle buys minutes. Volunteers chant instructions through clenched teeth; the Beacon's crews coordinate with your trackers, Lila's voice amplified through radios. You feel, absurdly, the rhythm of all these bodies as a heartbeat."
+    "Then a sound like a final bone breaking: a corporate temporary wall buckles. One engineered seam, supposed to be proof against this fury, collapses with an alarm that sounds like betrayal. Water finds the seam and"
+    "the seam becomes a throat that swallows storage units, crates labeled in tidy investor fonts and hand-written names alike. A flotilla of things — mattresses, welding torches, the polished box of housing units promised to outsiders"
+    "— detaches and begins to drift."
+    show eli_duarte at left:
+        zoom 0.7
+
+    eli_duarte "No—hold that line! Don't let it drag the pier!"
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "Shift the mats—now! Noah, pull—pull on my count!"
+    show noah_reyes at center:
+        zoom 0.7
+
+    noah_reyes "One—two—three—pull!"
+    "Hands slip. The storage carriage capsizes slowly, then fast; one end catches a lantern and sparks, small fireworks swallowed by the rain. No one can stop everything. People are saved; things are not."
+    # play sound "sfx_placeholder"  # [Sound: Sobs swallowed by the storm; the dull crash of objects lost]
+    hide eli_duarte
+    hide asha_moreno
+    hide noah_reyes
+
+    scene bg ch12_f99e88_5 at full_bg
+    "The acute violence of it is immediate and then it is silence within the storm: a charged pause where everyone measures what remains and what has been claimed by the sea. The Beacon's crew is pale"
+    "beneath its lights. Lila looks at the drift and her jaw tightens, a human flicker across her practiced mask."
+    show lila_park at left:
+        zoom 0.7
+
+    lila_park "We lost material assets. People are safe—"
+    show marta_chen at right:
+        zoom 0.7
+
+    marta_chen "People are safe because we stood here. Not because of your wall. Don't erase that."
+
+    lila_park "We did what we could. We will log everything. We'll replace—"
+
+    marta_chen "You can log and replace and pour concrete on our promises. But tonight, we did this because we were here. Remember that."
+
+    menu:
+        "Confront Lila about inadequate materials":
+            "You step forward, rain slicing your voice, and say the words that have been burning your throat; Lila listens, jaw working, and for a sliver of time she looks like someone who might be changing."
+        "Breathe and tend the wounded instead":
+            "You turn away from the argument and patch a child's scraped knee, sensing the thread of trust rebuild in the small, practical acts."
+
+    # --- merge ---
+    "The tide takes what it will. Where a row of investor-labeled storage once stood is open water and floating ruin; where a garden once clung to a boardwalk edge is bare pilings slick with algae. You"
+    "feel loss like a physical pressure — not just the property but the kind of slow theft that rearranges who belongs here."
+    "Everyone is moved to work beyond exhaustion: Noah pulling a shivering elderly man out from under an awning, Eli improvising new anchors from broken hulls, Marta organizing people into shifts so they won't collapse. Your hands"
+    "keep moving because if you stop, the room in your chest will fill with everything that might drown you."
+    "Noah finds you between two burning lanterns, his coat plastered to his back, rain mapped across his skin."
+    show noah_reyes at center:
+        zoom 0.7
+
+    noah_reyes "You did what you thought was right."
+    hide lila_park
+    show asha_moreno at left:
+        zoom 0.7
+
+    asha_moreno "We did what we chose. We paid for it."
+
+    noah_reyes "Does it hurt less, knowing that?"
+
+    asha_moreno "No. It hurts different. It feels... cleaner. There's guilt that comes from being wrong, and there's this—this is the guilt of choosing hard things. I would rather have that."
+
+    noah_reyes "I—I'm here. I don't have a promise to offer you that it gets better. I have this—' (he props a hand against your shoulder, grounding, simple) '—and every hour after tonight. If you'll let me."
+
+    asha_moreno "I don't know about promises anymore. Not big ones. But I need you to be here. If that's what being together is now—can you do that?"
+
+    noah_reyes "I can do that. I'll be here when the maps change."
+    "His words are not a vow. They are a plank you can stand on for the next tide. They are enough."
+    hide marta_chen
+    hide noah_reyes
+    hide asha_moreno
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Small, brittle strings with a long, descending cello note]
+    # play sound "sfx_placeholder"  # [Sound: Far-off birdcall; the slow drip of water; the creak of settling timbers]
+    "The aftermath is raw and honest. There is a ledger of losses and a register of miracles: the number of people sheltered, the houses that clung to stilts, the bread and tea being passed along the"
+    "promenade. There is also a tally of what the town has lost. Names. Tools. A smell of burnt fabric."
+    "You touch the compass again, the fraying cord grinding against your thumb. You feel both the weight of what was lost and the clarity that comes when you choose the hard line: to accept risk in"
+    "pursuit of dignity rather than preserve property at the cost of people. That clarity sits like an ember — it will ache. It will also, perhaps, burn open new spaces."
+    show eli_duarte at left:
+        zoom 0.7
+
+    eli_duarte "We kept the families. We kept the stories. That counts."
+    show marta_chen at right:
+        zoom 0.7
+
+    marta_chen "It counts enough to start again."
+    "Lila stands a little apart, face weathered in a way it never was in slides or press releases. She meets your eyes, and for a moment the distance between you is complicated, unreadable — an apology that has no words."
+    show lila_park at center:
+        zoom 0.7
+
+    lila_park "Your oversight saved a lot tonight. The sensors—your people noticed a blind spot. Thank you."
+    hide eli_duarte
+    show asha_moreno at left:
+        zoom 0.7
+
+    asha_moreno "Don't frame gratitude as ownership. If you want to build here, you build with us—not around us."
+
+    lila_park "Noted."
+    # play music "music_placeholder"  # [Music: A single violin string holds and then releases]
+    hide marta_chen
+    hide lila_park
+    hide asha_moreno
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Quiet murmurs; a line of voices saying names of what was lost to remember]
+    "You feel hollow and fierce at the same time. The town is fractured and still standing. Your relationship with Noah has not been sanctified by vows but tempered by the furnace of shared failure and courage."
+    "The ending of the night is uncertain; maps will be redrawn, agreements rewritten, and some houses may never be the same. But what you chose is visible: people alive because other people refused to let go."
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Low, unresolved chord; a wind-bent soprano note of grief]
+    "Page-turning thought: The morning will demand new maps, new priorities, and a scrutiny of what 'resilience' really means for Marabel. The sea has spoken; now the town must interpret it."
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter24
+    return

@@ -1,0 +1,242 @@
+label chapter13:
+
+    # [Scene: Embankment | Dusk]
+
+    scene bg ch13_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, slow strings — a descending motif undercut with a single, distant horn]
+    # play sound "sfx_placeholder"  # [Sound: The slap of water against concrete, distant generator hum, a soft murmur of voices carried on saltwind]
+    "You stand with your hands in your pockets because your notebook feels both too small and too loud in your chest. The seawall is finished — finished fast, finished clean, finished in a way that looks"
+    "decisive. Up close it smells of lime and diesel, a chemical brightness that sits at the back of your throat. The tide rolls against it and retreats; for the first time in months there is something"
+    "tangible between the sea and the houses."
+    "Relief arrives with a small, sour aftertaste. You had wanted protection. You had wanted this. But you also taught yourself to read the margins: where a promising sentence can contain a trap, where a structural line"
+    "in a plan masks a cultural fracture. The machines are mute witnesses; the real work has shifted into spreadsheets and clauses and the quiet places where people decide whether to stay."
+    "You keep your compass warm in your palm. It is a small, steady weight."
+    show celine_harrow at left:
+        zoom 0.7
+
+    celine_harrow "Alys."
+
+    celine_harrow "Look at it. We did what we had to do."
+    show alys_maren at right:
+        zoom 0.7
+
+    alys_maren "We did it quickly.' (Your voice comes out curt; you taste salt.) 'The wall holds for now."
+
+    celine_harrow "And the investors will be reassured. The harbor will be safe. Jobs will come—short-term, steady work while we transition."
+    "You can hear the economy in her words, the practical cadence that sold ballots and leases. It lands in your chest with the force of a tide line. Things are safer. People will not lose their"
+    "roofs next week. But safety bought on terms you didn't negotiate feels like someone else steering the rudder of a boat you helped build."
+
+    alys_maren "What about the boatyard easement? The community mooring—"
+
+    celine_harrow "There were concessions, yes. We needed private management to maintain those facilities to a standard that guarantees insurance. It's temporary oversight."
+
+    alys_maren "Temporary for whom?"
+
+    celine_harrow "For now, for the town. For your people. You and I want the same thing, Alys. We just disagree about how quickly to stop the water."
+    "There is a beat where the wind fills the fissure between you. Machines keep dripping in the background; a worker extinguishes a cigarette and walks away. Your internal list expands and threatens to fold in on"
+    "itself: oversight clauses, indemnities, maintenance schedules, private access lanes. You know there is lawyering in language that can nudge a public asset into private hands slowly enough that outrage is legal and too late."
+    "You keep your compass warm in your palm. It is a small, steady weight."
+    "Ronan Pike appears at the edge of the lights, wiping concrete from his gloves. He looks younger than such decisions should have to make him feel like a man with a pistol at his throat."
+    show ronan_pike at center:
+        zoom 0.7
+
+    ronan_pike "They put up signs this morning. 'Private Boatyard Access'.' (His voice breaks on the last word.) 'They've started re-mapping the slips."
+
+    alys_maren "Not all the paperwork is final. There are oversight clauses—"
+
+    celine_harrow "Signed by the council under municipal terms. I made sure of that.' (She meets your eyes directly.) 'We are working within what is possible. The funds came with conditions. I took them because—"
+
+    alys_maren "Because you were afraid the town would fold without it."
+
+    celine_harrow "Because I had to be. Because I am judged by numbers, Alys, not by idealism. I'm not blind to what we lose. I am accountable in a way you are not."
+    "There is a hardness in that last sentence that you cannot parse into comfort. Accountability — to ledgers, to votes — and loss measured against those same ledgers. You want to tell her that accountability without"
+    "accountability is tyranny. You want to tell her the names of the families who dock in that yard; the recipes that come off those boats; the wooden hulls that carry the town's memory. Instead, you fold"
+    "that list into the pocket of your chest and carry it as ballast."
+
+    menu:
+        "Call Celine out in front of the crew":
+            "You take a breath and step closer, hurling the word 'privatization' into the bright pool of light. Voices lean in; Celine's jaw tightens. She answers with calm repetition of 'municipal terms' and 'insurance guarantees' as the workers shuffle, uncomfortable, between the two of you."
+        "Keep it contained — gather proof, prepare the papers quietly":
+            "You nod and force a smaller reply. The protest will be cleaner with evidence. Ronan flicks his head as if to say he understands. For now you collect names, photos, and the cold lines of the contract on your phone."
+
+    # --- merge ---
+    "Both paths leave you with a list of names, clauses, and a growing, necessary dossier."
+    # [Scene: Harbor | Night — A few days later]
+    hide celine_harrow
+    hide alys_maren
+    hide ronan_pike
+
+    scene bg ch13_601bcb_2 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano notes, descending; a distant swell of chorus to suggest a crowd's breath]
+    # play sound "sfx_placeholder"  # [Sound: Shouts at the periphery, a distant police radio chirp, the slap of feet on wet wood]
+    "The town is louder now. You could say you expected this — the shock of a sealed-off dock, the overnight signs — but you hadn't expected the particular hurt it carved into people's faces. Maya Maren"
+    "is at the front of the crowd, paint flecks on her palms, jaw set. Oba's absence is a wedge you both feel; he sends a note that reads like a benediction and a warning."
+    "You move through the crowd like you used to move through tide maps: watching for undertows. People press their palms into your arms, into your shoulders; they speak in fragments about leases and lost income and"
+    "the smell of fuel where sea grass should be. Their words form a chorus that is not only angry but grief-colored."
+    "Ivo Calder arrives with a group of volunteers carrying posters and a crate of tea. He looks at you and for a split second you see something like regret and resolve braided together. His hands are callused; he sets down his tools."
+    show ivo_calder at left:
+        zoom 0.7
+
+    ivo_calder "We held them off long enough to get the wall in. That was the pledge. We kept roofs over heads for a season.' (He says this with a blunt tenderness.) 'Alys, this is the cost."
+    show alys_maren at right:
+        zoom 0.7
+
+    alys_maren "The cost wasn't meant to be erasure.' (You hear it in your own voice — a pleaded insistence.) 'We agreed to protection that included community stewardship."
+
+    ivo_calder "Celine promised oversight. Not the same as siding with devs. I told you the town needed the visible fix. You know that."
+
+    alys_maren "I know the town needed a fix. I also know what happens when public access becomes a line item. The boatyard is more than docks. It's recipes and songs and the old boatwright's laugh. We lost something else when that clause was signed."
+
+    ivo_calder "We traded a slow poisoning for immediate shelter. Maybe we saved some lives. Maybe we let other lives slip away in paperwork. You can't make everyone whole, Alys."
+    "Your exchange is crowded with meaning: tenderness, accusation, mutual calculation. The crowd interprets every inflection. You try to thread between what matters to people now and what will matter to those who come after."
+    "Ronan Pike climbs onto the stage with a handful of documents and plants himself in the light. He is younger than the future he is trying to protect; his voice cuts through."
+    show ronan_pike at center:
+        zoom 0.7
+
+    ronan_pike "We have footage of machines driving into the marsh fringe. Leyna's samples show seagrass beds were undercut. They promised mitigation, but—"
+    hide ivo_calder
+    show celine_harrow at left:
+        zoom 0.7
+
+    celine_harrow "We have a mitigation plan. Adaptive measures. Funding for relocation when necessary."
+    "You watch her — the town's spokesperson and its architect of compromise — speak like someone constructing a soothing layer over a wound. The words are competent, linear; they fit the crisis into a municipal narrative. But people do not want narrative; they want their lives."
+
+    alys_maren "Relocation for whom? Families who have lived here for generations? Are we measuring the cost against marketable property values?"
+
+    celine_harrow "Some relocation will be necessary. If we want the town to survive long-term, hard choices must be made. Those of us in positions of stewardship will make them."
+    "That phrase — 'we in positions of stewardship' — tastes like exclusion. For a moment you feel very small and very ancient: small because you are just one person here with a notebook and a compass;"
+    "ancient because you've seen this pattern before, in other coasts, other towns. The sea is the same indifferent tutor, the law is the same slow animal that consumes commons when someone offers coin."
+
+    menu:
+        "Lead the chant — keep the crowd together":
+            "You lift your voice and the crowd answers. Feet stamp, banners sway; the surge feels almost enough to move policy. Celine narrows her eyes and calls for a pause, ostensibly to negotiate. The police lines shift, tension knifing the air."
+        "Slip through to the foreman — demand to see the mitigation schedule":
+            "You move toward the contractor's foreman like a current, pressing paper and a phone into the man's hands. He deflects with corporate phrasing. You extract a few names and a shift schedule — small, useful, and insufficient."
+
+    # --- merge ---
+    "The night's momentum gives you contact names and a crowd of people who expect action."
+    # [Scene: Privatized Boatyard | Dawn — A week later]
+    hide alys_maren
+    hide ronan_pike
+    hide celine_harrow
+
+    scene bg ch13_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: A single mournful cello; breathable silence punctuated by a low ambient hum]
+    # play sound "sfx_placeholder"  # [Sound: The creak of rigging repurposed into temporary barricades; gulls circling above as if unsure where to land]
+    "You stand outside the fence with Maya Maren and Ronan Pike. The sun finds everyone with diffused pity; it does not flatter. Maya's hands shake as she pulls her braid out and ties it into a knot. You have both been awake too long."
+    show maya_maren at left:
+        zoom 0.7
+
+    maya_maren "They catalogued the old nameplates. They said they'd preserve them. They 'preserve' history in a museum at the plaza."
+    show alys_maren at right:
+        zoom 0.7
+
+    alys_maren "A museum that won't let the fishermen in."
+
+    maya_maren "They smiled when they said 'adaptive reuse.'"
+
+    alys_maren "We counted on the council to hold them to community terms. We didn't expect a transfer of management to look like a transfer of identity."
+    "Ronan Pike digs his heel into the sand and finds a piece of rail, the sort of old metal you used to pretend was treasure. He looks at it and then at the fence."
+    show ronan_pike at center:
+        zoom 0.7
+
+    ronan_pike "I tried to get on the site to film the dredging for transparency. They wouldn't let me. Security's under a private firm now. They say it's contract enforcement."
+
+    alys_maren "Contract enforcement that makes enforcement first, community access second."
+    "The boatyard beyond the fence is quiet in the way of a place that has been sealed off — a presence without life. You remember afternoons of hammer rhythm and the smell of pine resin; now"
+    "the audio is click-tight: video cameras, corporate radios exchanging clipped codes, an app pinging statuses."
+    "You move along the fence and find a gap in the chain-link where some disgruntled man had tried to leave a note for Oba. You see Oba's cane propped against an old piling in a photograph"
+    "tacked to a fence post. The image is a small, private grief pinned to public metal."
+    "You had organized protests. You had submitted grievances to council. You had tried the municipal route and the public route. You drafted petitions and found signatures and compiled evidence of ecological harm. Leyna's data had been"
+    "clean, clinical, devastating. You had the science and the sentiment. But the contract's line items — liability shields, redevelopment clauses, easements that became effective upon private maintenance — are teeth of a machine that chewed up"
+    "community recourse."
+    "Celine Harrow had called it pragmatism. The investors called it efficiency. The wall still stands in the gray water; it edges the town like a scar that will not heal the same."
+    "Ivo Calder finds you at the fence. He runs a hand across his face, and for once he does not joke. His cap is pulled low as if to hide under the fact of it. He is tired in a way that looks like surrender wearing the wrong uniform."
+    hide maya_maren
+    show ivo_calder at left:
+        zoom 0.7
+
+    ivo_calder "I thought—' (He stops.) 'I thought we were saving people from losing their roofs. I didn't think saving roofs would mean giving our yard away."
+
+    alys_maren "None of us are blameless. We made decisions under pressure."
+
+    ivo_calder "We made quick choices and now the slow thing is settling in. The wall works. People sleep. But kids won't learn to work on those boats anymore. The songs won't be sung at the docks because the docks aren't for them."
+
+    "You close your eyes for a moment and say, very quietly" "What do we do next?"
+
+    ivo_calder "We pick up what we can. We teach what we can. We keep tending the living things that remain. We make room when we can. But some things… some things will be gone."
+    "There is no dramatic collapse here. No single violent scene seals the town's fate. Instead, loss arrives in still, legal increments: a slip signed, a slip denied, a lease transferred, a deck catalogued. The seawall will"
+    "keep the water out; the seawall will also keep some of the town's access in new hands."
+    "You think of Oba's carved cane. You think of the compass in your pocket. You think of your list — oversight clauses, community liaisons, inspection schedules — and how documents can be read in a way"
+    "that protects either people or property. The litany is a litany of mitigations with footnotes that bite."
+    "Maya presses her forehead to the fence for a long moment, then steps back and wipes her face hard with the heel of her hand."
+    hide alys_maren
+    show maya_maren at right:
+        zoom 0.7
+
+    maya_maren "We can keep gardening the marsh edges. We can keep teaching the kids where the seedbeds are. It's small. It's not the yard. But it's ours."
+    hide ronan_pike
+    show alys_maren at center:
+        zoom 0.7
+
+    alys_maren "Small acts add up. They always have. We will lose the yard, perhaps, but we will not let memory be catalogued into someone else's profit without a fight."
+    "You spend the next hours mapping community projects that will not require permission from the new management: seed nurseries, kids' boatbuilding workshops on reclaimed docks, a rotating stewardship rota for marsh monitoring. You write it down in the disciplined hand that has always gotten you through urgency."
+    "Night draws near as you close your notebook. The seawall is a pale line against the horizon; the privatized signs flicker in lamplight. People drift home. Some have boxes. Some have songs in their pockets. Many have both."
+    "There is grieving tonight that is quiet and administrative and stubborn all at once."
+
+    menu:
+        "Stay to watch the security as they lock up":
+            "You crouch in the lee of the fence until the lights go out. A private guard eyes you and then ignores you. You take one more photograph — a record. It is small, stubborn work."
+        "Go with Maya to the Glass Marsh to salvage seeds":
+            "You walk with Maya into the marsh where your hands can still do something that refuses the paperwork: collecting seeds, pressing small green hope into jars. The work is filthy and true."
+        "Return home and write an op-ed for the Gazette":
+            "You sit at your kitchen table and write until your hands cramp, sending your words into a town paper that will be read between tea and sleep. It will be public, formal, careful. It will be a different kind of resistance."
+
+    # --- merge ---
+    "Each choice gives you a different kind of material — photos, seeds, words — that will feed the next phase of community action."
+    # [Scene: Embankment Overlook | Dawn — Some weeks later]
+    hide ivo_calder
+    hide maya_maren
+    hide alys_maren
+
+    scene bg ch13_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: Single, drawn violin; a descending cadence that gives the sense of a long inhalation leaving a small hole]
+    # play sound "sfx_placeholder"  # [Sound: The faint clatter of a boat engine on a distant inlet, gulls, the whisper of paper as a petition is folded in your hands]
+    "You stand alone at the overlook, the town below waking with the everyday acts that persist: a child unlocking a door, an old woman sweeping her stoop, a fisherman checking lines for the day. Life continues"
+    "in small, stubborn ways. The seawall is there, and it will guard roofs, and it will also stand as a blunt instrument that reshaped the edges of what being Saltwick used to mean."
+
+    "You open your notebook and write on the top line" "We kept the water out.' You pause, and then under it you write, 'We lost more than we saved."
+    "You think of Celine's face at the embankment and the way she said 'hard choices.' You think of Ivo's complex eyes and the way he is both collaborator and opponent. You think of Maya's bruise-thick resolve"
+    "and Ronan's fierce, young attempts to hold the line. You think of the fishing songs that will be quieter. You think of the children who may never learn the yard's names."
+    "There is an ache that is not only personal. It sits in your bones as a responsibility that did not resolve the way you'd hoped. The science was right about the seas. Your desire to protect"
+    "was honored. But the method fractured something else — the town's commons, stitched into contracts and transfer clauses. Perhaps there was no perfect path. That idea does not make the grief less sharp."
+    "You close the notebook and tuck the compass into its place. The metal is cool and unjudging. You do not have the satisfaction of a clean victory. Instead you have a landscape of trade-offs that will"
+    "shape people you care about for years. You have work that must continue: remediation plans under new constraints, education programs run out of borrowed sheds, funding applications to replace what was privatized with community funds. You"
+    "have to teach again — to make small durable things that resist being monetized."
+    "You inhale the salt air. It is still bracing. It is still the same sea that taught you to measure time by tide — relentless, indifferent, necessary."
+    "You meet Celine's eyes across the overlook one last time. There is no reconciliation — only the mutual, weary acknowledgment of two people who sought the same shore and found different maps."
+
+    "Celine Harrow (softly)" "You will keep at it, won't you?"
+    show alys_maren at left:
+        zoom 0.7
+
+    alys_maren "I will. I must."
+    "Ivo Calder passes you on the path, and for a moment you walk side by side without words. The space between your shoulders is full of history and consequence. He gives you a small, crooked nod that carries both apology and solidarity."
+
+    "Ivo Calder (low)" "We do what we can."
+
+    alys_maren "We do what we can."
+    "You stand a little longer as the sun climbs, the seawall a pale promise in the distance. The town will breathe in its new pattern. People will plant, haul, teach, grieve, and adapt. The seawall will"
+    "keep some out of harm's way but will have renamed parts of the town in ways that are not easily revised."
+    "You leave the overlook with your notebook closed but not empty. Your work will not end. There will be small victories and stubborn defeats. The romance between two ways of saving a place — immediate protection"
+    "and long-term restoration — has left both intimacy and rupture in its wake. You hold the ache of that in the quiet of your chest."
+    hide alys_maren
+
+    scene bg ch13_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single, unresolved chord that softens into silence]
+    # play sound "sfx_placeholder"  # [Sound: The distant harbor bell, once, like a memory]
+
+    scene bg ch13_601bcb_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

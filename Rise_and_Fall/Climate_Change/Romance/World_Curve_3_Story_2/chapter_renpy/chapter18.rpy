@@ -1,0 +1,231 @@
+label chapter18:
+
+    # [Scene: Niko's Boatyard | Early Morning]
+
+    scene bg ch15_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low conversation, the rasp of a rasping plane on wood, gulls arguing offshore]
+    # play music "music_placeholder"  # [Music: Warm acoustic guitar, steady and hopeful]
+    "You set your notebook on the workbench and let your palm rest on the cover. The leather is scored with fingerprints and tide charts; the friendship bracelet tucked into the spine rubs against your thumb. The"
+    "smell of tar and drying varnish rises and clamps itself to everything you touch. It feels like home."
+    "Niko looks up and grins—an expression that softens their storm-gray eyes into something almost giddy. Their voice catches the way wood catches light."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You look like you haven't slept."
+    "You laugh, but it's tight. 'Not enough. The grant correspondence took… longer than I'd hoped.' You run a finger along the notebook's spine, tracking all the margins you've filled. 'But people showed. Again.'"
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Not enough. The grant correspondence took… longer than I'd hoped. But people showed. Again."
+    "Niko straightens and wipes their palms on a rag. 'They always do. They show when it matters. Same as the barnacles—stubborn little shits.' Their humor is a shield, but their shoulders are relaxed around you, a shape of ordinary intimacy that steadies you."
+
+    niko_kaur "They always do. They show when it matters. Same as the barnacles—stubborn little shits."
+    "You move closer and help shoulder a sack. The weight is honest; your forearms remember the work. You like the ache. It keeps theory honest—turns models into knots you can undo with a chisel and an afternoon."
+
+    niko_kaur "We have reef cages stacked by the low dock. Marina's lot is tallying recruits and species notes. We launch at three for the first line."
+
+    amina_reyes "Good. The placement near the eelgrass will… give the cages time to catch recruits before the worst swells."
+    "You say the sentence aloud partly to test it against the air. Your training wants certainty. The marsh will give none. You press your nails into the stone and find your confidence there."
+
+    niko_kaur "You don't have to keep doing field reports at midnight."
+
+    amina_reyes "I know."
+
+    amina_reyes "But when I don't, I feel like I'm letting the maps decide without remembering the harbor. I don't trust models that don't smell like tar."
+    "Niko chuckles, then goes serious. 'Promise me you'll eat lunch today. Promise me you'll let the kids carry a rock that's too heavy and then brag about it later.'"
+
+    niko_kaur "Promise me you'll eat lunch today. Promise me you'll let the kids carry a rock that's too heavy and then brag about it later."
+    "You blink. 'That's oddly specific.'"
+
+    niko_kaur "Specific keeps people alive.' They bump your shoulder, a private punctuation. 'Also—' Their hand pauses where the braid falls over their shoulder. 'Stay tonight. We'll take the late coffee shift. There's a new plank I want your opinion on."
+    "You feel something small and precise unfurl in your chest—an easiness made of salt and elbow grease. You nod."
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch15_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: A soft swell; strings enter]
+
+    menu:
+        "Help anchor the reef cages on the dock":
+            "You kneel by the dock, tying the ropes with Niko's steady hands guiding yours. The tide smells like iron and seaweed, and the first cage tips into place like a promise."
+        "Walk with Marina's students to the marsh pools":
+            "You take a slow path through the reeds, the students trailing questions. One child points to a slug of silver—your explanation turns into a lesson and then into their small, triumphant laughter."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Reef Cage Site / Marisol Marshes | Low Tide Afternoon]
+
+    scene bg ch15_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Water lapping against hulls, the metallic clink of cages, students whispering with the precise hush of people cataloging life]
+    # play music "music_placeholder"  # [Music: Sparse piano with quiet rhythmic taps—methodical, hopeful]
+    "Marina is crouched at the waterline with a waterproof pad. She looks up when you approach—seashell pins in her braid catching a sliver of sun. 'Got ten species sightings this morning,' she says, as if reading"
+    "off a list of triumphs. 'We recorded juvenile sculpin in cage three. The kids found fiddler crabs in the north channel.'"
+    show marina_lopez at left:
+        zoom 0.7
+
+    marina_lopez "Got ten species sightings this morning. We recorded juvenile sculpin in cage three. The kids found fiddler crabs in the north channel."
+    "You crouch beside her and breathe in the cool, brackish air. The marsh is not untouched; boardwalk supports are scarred, the grass thinner in places. But it hums with small recoveries. That hum is everything tonight."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "That's promising. It means the recruits are finding refuge. If we keep the current bathymetry and hold the cages through the winter, we might actually see scaffolded growth."
+
+    marina_lopez "And if we get consistent data, we can show the funders—"
+    "You cut her gently with a look."
+
+    amina_reyes "We show the funders the life, not the numbers. The numbers back it up, but stories—' You gesture to the student scribbling furiously, to a child's muddy fingers. 'Stories keep the town from signing away the marsh."
+    "Marina smiles, the look of someone seeing a plan finally take the shape of a memory. 'Then we'll make a film. The kids can narrate.'"
+
+    marina_lopez "Then we'll make a film. The kids can narrate."
+    "The day is a mosaic of small, loving labor. Families haul stones; Niko navigates thin channels in their small skiff, lowering cages with hands like pulleys. Volunteers come with thermoses and sunburns, and you patch holes"
+    "in nets with the steady patience of practice. Each repaired knot is a quiet victory."
+
+    menu:
+        "Show a student how to measure salinity":
+            "You guide their hand, the tool cool and precise. They frown in concentration, then grin when the numbers line up. You feel proud in the hard, exact way that matters."
+        "Lend your jacket to an elderly volunteer shivering by the dock":
+            "You slide your jacket over their shoulders. They clasp your wrist with surprising strength, and their gratitude is a warm, lifetime-long thing."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Rooftop Community Garden | Dusk]
+    hide marina_lopez
+    hide amina_reyes
+
+    scene bg ch15_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft murmur of a gathering; a kettle boiling over a portable stove]
+    # play music "music_placeholder"  # [Music: Gentle strings weaving into a hopeful chorus]
+    "You and Marina organize the day's notes under a string of lights. The rooftop is crowded in the kind of way that makes rules optional; people stand close for warmth and for council. You pin a"
+    "slim report to the board—a snapshot of recruitment success and early biodiversity notes. It looks pedestrian and miraculous at the same time."
+    show marina_lopez at left:
+        zoom 0.7
+
+    marina_lopez "We got a small private grant today. It won't cover everything, but it's steady—unattached. It's from people who grew up here, who remember the boardwalk without a price-tag on it."
+    "You feel your throat tighten."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Steady is enough. It's what we wanted."
+    "An older woman in the crowd nods and says, 'You kids are stubborn.' There is both challenge and blessing in her tone. You think of your brother and how stubbornness saved nothing from the sea and"
+    "yet saved the way the town remembers him. You press your thumb on the bracelet in your notebook as if to summon steadiness."
+    # play music "music_placeholder"  # [Music: Piano lifts; the chord resolves with warmth]
+    "A few months pass in a montage of small triumphs—reef cages collecting shells and small fish, Marina's students learning to record data with the intensity of missionaries, Niko repairing a fractured keel like re-suturing a living"
+    "thing. You teach evening classes about tidal reading; people bring you coffee and questions; you give them both."
+    "There are nights you sleep standing up, it seems—wakefulness braided into daily life. There are nights of bone-deep laughter, too, in the boatyard light, when someone tells a joke about gulls stealing fried fish and everyone collapses into that shared looseness."
+    # [Scene: Marisol / Storm Season | Midnight into Morning]
+    hide marina_lopez
+    hide amina_reyes
+
+    scene bg ch15_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The roar of wind, the sharp report of something large hitting wood, a distant alarm bell]
+    # play music "music_placeholder"  # [Music: Low cello, then a rising minor key that refuses to resolve]
+    "Then the storms come—cruel and precise, as if the weather itself has read through your plans and decided to test the stubbornness of small things. The season folds days into one another: warnings, sandbagging, wings of water that sharpen into edges of loss."
+    "You watch the tide line climb into places it has no business being. You watch a line of reef cages strain and then snap from the mob of current. You move with the volunteers the way"
+    "a conductor moves with an orchestra—shouting, steadying, grieving. Hours of work undo in minutes. The fragile scaffolding of your months is taken—the cages tumbled and dispersed like scattered teeth."
+    "The morning after is the kind that changes how towns remember themselves. The marsh looks wounded in an intimate way—ripped patches, collapsed boardwalks, nets tangled with seaweed like the hair of the sea itself. People move"
+    "with a new, deliberate tenderness, as if careful hands might stitch the world back together."
+    "Niko comes to you at the boatyard, hands raw from pulling ropes in the dark. Their braid has loosened; a strand falls against your cheek when they lean in."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "It took a lot, Amina. I'm tired."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "We all are.' You touch the rope in their hand like a vow. 'But we rebuild. We do it with what we have."
+
+    niko_kaur "What if what we have isn't—"
+
+    amina_reyes "Then what we have is each other.' It's not a platitude. It's a plan. 'We won't pretend we have legal shields or a regional office's safety net. We have craft, memory, and stubbornness. We'll keep patching until the tide gives us ground to stand on."
+    "Niko's hand finds yours. It's a simple thing and then more—a warmth that steadies a still-learning heart."
+    # play music "music_placeholder"  # [Music: The minor key eases; strings find a growing consonance]
+    "The legal and financial fallout is harsh. Sporadic grants come and go; sometimes there's a donation large enough to buy nails for the next week, other times you trade for paint and coffee. Families haul stones"
+    "for makeshift reef cages; hands grow callused in a communal bookkeeping of labor and love. Marina's students keep meticulous records; their data becomes both a ledger of loss and a ledger of return. You teach them"
+    "how to see the minutiae—the slug under a rock, the pattern of a bird's return—and they teach you how to make hope legible."
+    # [Scene: Niko's Boatyard | Late Night after a Long Day]
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch15_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The scrape of sanded wood, a low laugh, the quiet drip of a rain-sifted evening]
+    # play music "music_placeholder"  # [Music: Quiet guitar, intimate and steady]
+    "You sit together on an upturned crate, two mugs boiling between your palms. Niko's braid brushes your shoulder. The smallness of the moment is enormous."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You didn't take the regional appointment."
+    "Amina Reyes: (smiling) 'I thought about it. I really did.' You remember the polished office, the hum of distant policy, the promise of a larger platform. Your fingers drum the rim of your mug. 'But when"
+    "I imagined the people on those rooftops and in the boatyards, I felt… hollow. Not in a dramatic way—just—absent. My work here matters in a way I can touch.'"
+
+    niko_kaur "You could've had office coffee."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Office coffee would have been sweeter, probably. Less gritty."
+
+    niko_kaur "Good. Then I know you'll be here when the next storm comes, and I can make sure you don't make me worry unnecessarily."
+
+    amina_reyes "That's an unreasonable demand."
+
+    niko_kaur "Good. Keep it."
+    "The two of you fall into the kind of conversation that stitches thought to tomorrow. Plans, jokes, small confessions—your laugh lines discussed like architectural features. The night is not clean of fear, but it is full"
+    "of ordinary promises: to hold a plank steady, to fetch a kettle, to stand on the roof and shoo gulls away from the seedlings."
+
+    menu:
+        "Trace the tide line on your notebook, sketching the new high-water mark":
+            "You draw with a steady hand. The mark is higher than last year, but you annotate it with notes about eelgrass regrowth and a child's sighting of sculpin—details that make the line less ominous and more a map of work to do."
+        "Teach Niko to read the new current patterns":
+            "You explain the subtle shifts—the way wind and sand reroute channels. Niko takes it in with stubborn focus, trying and then smiling when they get it right. It feels good to pass knowledge hand-to-hand."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Rooftop Community Garden / Morning Market | Months Later]
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch15_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Marketplace hum, a student reading a species list aloud, low chatter of people trading goods and stories]
+    # play music "music_placeholder"  # [Music: Bright strings and piano building into a stable, uplifting swell]
+    "Time moves in the gentle, relentless way tides do. The town is smaller in some census ways—the houses lost along the far skiff of shoreline—but it is denser with commitment. People know each other's stories in"
+    "a way that wealth never bought. The boatyard smells of varnish and laughter. The reef cages, repaired and redesigned, gather life again."
+    "You teach an evening class on 'Reading the Tide' to a room full of hands that want to be useful. Someone in the back asks how you stay hopeful when the losses are so clear."
+    show amina_reyes at left:
+        zoom 0.7
+
+    amina_reyes "Hope isn't ignoring loss. It's choosing what to carry and what to leave in the water. We remember what we lost, we mark it, and then we make something that honors it. That—' you tap your notebook, '—is how you build resilience."
+    show marina_lopez at right:
+        zoom 0.7
+
+    marina_lopez "And we build proof. The children catalog every change. They will be the ones who argue with the grant officers in fifty years with facts and memories."
+    "You smile because the image of those children argues with a deep joy inside you. It is not triumph without cost—it's a kind of stubborn investment."
+    hide amina_reyes
+    hide marina_lopez
+
+    scene bg ch15_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: A full, bright chord resolves]
+    "You do not take the regional appointment. You do not regret it. Instead, you keep your hands in the work: leading grassroots research, teaching, mending, arguing with funders as equals who must be convinced by evidence"
+    "and story. You take no polished title, but you take long-term responsibility for this place. Nights are hard; losses are real and they ache. But there is an axis of things that do not erode: the"
+    "boatwright's laugh, Marina's persistent optimism, Niko's hand on your shoulder at low tide."
+    "You sleep with your notebook open sometimes, pages fluttering like small flags. When you close it finally, the leather gives under your palm and the friendship bracelet presses into your skin like a seam."
+    # [Scene: Marisol Marshes / Sunset]
+
+    scene bg ch15_f99e88_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind, waves, distant laughter; the steady slapping of a small skiff]
+    # play music "music_placeholder"  # [Music: A final, warm swell of strings and piano—lynchpin chord of resolution]
+    "You stand on the repaired boardwalk, the town behind you lit by windows and human warmth. Your notebook is full: data entries, sketches of reef cage redesigns, a pressed strip of eelgrass, a child's doodle of"
+    "a sculpin with a crown. Your hands are callused in a way that makes shoes uncomfortable but makes tasks possible."
+    "You think of love—the small, practical kind that arrives after the storms: coffee in the dark, an extra pair of gloves, the steady presence of someone who will stand with you when the water rises. The"
+    "ache of what you could not save remains; it is honest and heavy. But something else has grown in that ache: a community that refuses to let the marsh be defined only by loss, and a"
+    "partnership with Niko that is deepened by shared labor and tender, unflashy devotion."
+    "You do not have guarantees. You do not have a seal of safety from a regional office or the promise of full restoration. What you have is a town that remembers and acts, hands that know"
+    "how to stitch a keel, a record that will speak for itself, and a love that is itself a kind of ark."
+    "You put your notebook back in your jacket. The bracelet catches the light like a tiny tide. You breathe in the salt and exhale something like a vow."
+    "You do not know how many storms will come. You do know, with a certainty that holds steady against loss, that this is where you will be when they do."
+
+    scene bg ch15_f99e88_10 at full_bg
+    # play music "music_placeholder"  # [Music: Music resolves into a calm, uplifting major key; a final sustained note settles]
+
+    scene bg ch15_f99e88_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

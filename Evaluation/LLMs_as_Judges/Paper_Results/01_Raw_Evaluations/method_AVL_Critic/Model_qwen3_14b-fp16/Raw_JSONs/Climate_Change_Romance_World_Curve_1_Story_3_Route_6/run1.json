@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance (Theme and Genre). The story seems to be about community collaboration, environmental issues, and overcoming conflict. The theme is clear: balancing development with nature, and the genre is probably drama or social issue. The story matches well, so maybe a 5.
+
+Coherence: The plot makes sense. There's a conflict between characters with different approaches, leading to a resolution through compromise. The events flow logically, so coherence is high. Probably a 5.
+
+Empathy: The characters' emotions are well depicted. Maya's determination, Evan's partnership, Irene's shift from antagonist to collaborator. Readers can feel their struggles and growth. So empathy score is 5.
+
+Surprise: The ending isn't too surprising. The resolution through collaboration is a common trope, but the specific steps taken (apprenticeships, community oversight) are satisfying. Maybe a 3 because it's predictable but not entirely.
+
+Engagement: The story is engaging with its focus on real issues and character development. The reader is invested in the outcome. High engagement, so 5.
+
+Complexity: The story has multiple characters, subplots (like the apprentices, data sets, funding), and layers of conflict. It's not too simple, so complexity is around 4. Maybe 4 because it's detailed but not overly convoluted.
+
+Now, I need to structure this into JSON with the exact keys. Make sure explanations are concise and match the scores.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story strongly aligns with its theme of environmental stewardship, community collaboration, and reconciliation between opposing ideologies. The genre (drama/social issue) is well-matched, with the narrative focusing on real-world conflicts and resolutions.",
+  "CH_Score": 5,
+  "CH_Explanation": "The plot is logically structured, with clear cause-and-effect relationships between character actions and outcomes. The resolution through compromise and institutional change feels natural and well-explained.",
+  "EM_Score": 5,
+  "EM_Explanation": "Characters' emotions are deeply conveyed through their motivations (e.g., Maya's guilt, Irene's reluctant accountability) and interactions. The reader can empathize with their struggles and growth.",
+  "SU_Score": 3,
+  "SU_Explanation": "The ending is satisfying but not overly surprising. The resolution through collaboration and institutional reform is a logical culmination of the story's conflicts, though the specific mechanisms (apprenticeships, community oversight) are well-earned.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story is highly engaging due to its focus on relatable social issues, dynamic character relationships, and the tension between individual ambition and collective good. The reader is invested in the characters' journeys.",
+  "CX_Score": 4,
+  "CX_Explanation": "The narrative is layered with multiple character arcs, institutional challenges, and technical details (e.g., desalination, data sets). While not overly complex, it balances depth with clarity, avoiding unnecessary convolutions."
+}

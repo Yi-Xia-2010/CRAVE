@@ -1,0 +1,503 @@
+{
+    "title": "Tides of Seabreak Hollow",
+    "summary": "I return to Seabreak Hollow as Maya Kwon—marine ecologist, field gear scuffed, a leather notebook with tide charts at my hip—determined to restore the marshes that once protected my childhood home. The town faces a decisive political vote. The story rises: each choice we make—mobilize volunteers, negotiate compromises, or accept engineered certainty—builds community momentum, personal connection, and technical complexity. As I navigate councilrooms under fluorescent glare and rain-slashed nights at the lighthouse lab, my growing bond with Aiden Reyes—his salt-dark thermos, braided rope bracelet—mirrors the town’s capacity to balance tradition and adaptation. Dr. Elara Voss, in her sleek trench and bright municipal badge, pushes large-scale engineering, forcing moral tradeoffs. Branch points force me to reconcile grief over the storm that took my parents’ home with the urgent need to act. The arc is rise: incremental victories, expanding coalitions, and learned humility culminate in one of several endings where Seabreak Hollow either embraces hybrid solutions, settles for partial engineering, grimly accepts a seawall, or begins a long, generational restoration—while my relationship with Aiden grows, strains, or reorients into committed partnership shaped by choices, loss, and hope.",
+    "emotional_curve_type": "Rags-to-Riches",
+    "player_character": "Maya Kwon",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Returning Tide",
+            "branch_designation": "Common",
+            "narrative_focus": "I step off the bus into salt and fog and look for the scalloped silhouette of Seabreak Hollow. The town greets me with leaking gutters and familiar, worn textures—the Victorian cornices with peeling paint, a thrifted fisherman sweater hanging on a line, a neon co-op sign sputtering. My hair is tied back in a loose knot; the leather field notebook weighs my hand. I walk the North Pier at dusk, boots salt-streaked, and the smell of drying nets folds memory and grief together. I find Aiden leaning against a rusted winch: sun-faded black hair, sea-blue eyes that crinkle when he smiles, waxed green jacket patched by hand. He jokes about my “city-chemist” look and hands me a soot-darkened thermos. Old Man Reyes watches from a stool, his pea coat patched and timeless. The marshes are visible beyond the pier—glass pools and ragged boardwalks—not what I remember, but alive in a fragile way. I promise myself that I’ve come not for nostalgia but for work: to reconnect marsh channels and design a living shoreline that protects us without erasing the town. The first step is to listen—collect stories, sketch maps, and find allies.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Mateo Reyes"
+            ],
+            "locations_used": [
+                "North Pier",
+                "Marshes",
+                "Victorian storefronts"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Old Maps, New Lines",
+            "branch_designation": "Common",
+            "narrative_focus": "I open my battered leather notebook in the Aureum Research Cottage, fingers stained with field samples. The glass annex smells of lamp oil and sea brine; maps and tide charts pin the walls in a tidy chaos. I run my finger along faded marsh contours I remember as a child. Lina—my younger sister—arrives in a paint-splattered hoodie, freckled and earnest, and scolds me for letting grief stiffen me into a blueprint. She’s organized volunteers at the rooftop garden and insists the town needs visible action, not just models. Priya Anand sweeps in with binoculars and grant paperwork, her braid catching the lamplight; she offers funding and cautions about strict municipal timelines. I spend the afternoon walking transects with Priya’s teams: I collect sediment cores, sketch living shorelines on translucent paper, and test plant salinity tolerance. Aiden drops off a driftwood charm—the one I keep clipped to my belt—and confesses his parents worry about losing access to fishing grounds. At night, I stand at the glass-walled lab and watch fluorescent lights in the distance where Vernon & Crow’s diagrams glow like clinical promises. My resolve hardens: to build community-led restoration that can be measurable, fundable, and respectful of livelihoods. But I also sense the political storm gathering.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Kwon",
+                "Lina",
+                "Priya Anand",
+                "Aiden Reyes",
+                "Vernon & Crow"
+            ],
+            "locations_used": [
+                "Aureum Research Cottage",
+                "Lighthouse lab",
+                "Rooftop garden",
+                "Vernon & Crow (across the bay)"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council Night",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The Community Rooftop meeting smells of damp coffee and hand-painted posters. Councilor Tomas Hale drags out contractor pamphlets; Dr. Elara Voss arrives in a charcoal trench coat, her platinum bob immaculate under fluorescent glare, tablet in hand—her diagrams show a tall seawall and reclaimed promontory that “buys time.” Mateo Reyes—the white-stubbled Old Man Reyes—remembers when the marsh fed us, and his voice carries the weight of memory. Aiden speaks for the co-op, his sea-blue eyes furious and tender. I present my living-shoreline proposal: marsh reconnection, pilot plots, community labor, and networked monitoring. I cite salinity gradients, tidal prism models, and social co-benefits. The room fractures between urgent engineering for quick jobs and patient restoration. Lina pleads for immediate work—rooftop volunteers ready tonight. Priya presses legal timelines; Tomas hints at investor pressure. My grief threads through me as I think of the storm that stole our home, and for the first time I let it sharpen my words rather than hide. The vote isn’t tonight, but tonight we must choose strategy: rally volunteers, negotiate a compromise, or open dialogue with Voss’s engineered plan. The choice we make will steer not only policy, but the shape of our lives and my budding bond with Aiden.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I respond in the wake of the meeting’s fracture?",
+                "options": [
+                    {
+                        "label": "Mobilize the volunteers tonight—start the pilot planting now.",
+                        "consequence": "Immediate community momentum; hands-on work but limited funding and technical backing.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Work with Aiden to propose a co-op compromise that preserves fishing access while piloting living shorelines.",
+                        "consequence": "A negotiated middle path that might satisfy fishers but risks political sellout.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Accept Elara's offer to meet engineers; enter formal negotiations to shape a technically funded plan.",
+                        "consequence": "Access to resources and rapid infrastructure, but reduced control and ecological cost.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Mateo Reyes",
+                "Lina",
+                "Priya Anand",
+                "Dr. Elara Voss",
+                "Councilor Tomas Hale"
+            ],
+            "locations_used": [
+                "Community Rooftop",
+                "North Pier",
+                "Councilroom"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Marsh Reconnections",
+            "branch_designation": "Route A",
+            "narrative_focus": "We move that night—Lina hauling seedlings in a paint-streaked hoodie, volunteers juggling headlamps, and Aiden in his waxed jacket handing out ropes. I can feel the tide’s timing in my chest; my multi-tool clicks as I drive stakes and stitch coir logs into place. The marsh smell, a close salt-and-earth perfume, fills me; I sing an old dock song under my breath to steady hands. The pilot is primitive but hopeful: channels re-opened, native cordgrass planted, and makeshift eelgrass frames sunk in shallow pools. Dr. Voss sends a terse message about “uncoordinated intervention,” but Priya beams over our muddy boots with a clipboard of emergency grants. Old Man Reyes brings a thermos and a story about an old tide path; his weathered hands show decades of practice. Aiden works beside me until his gloves are salt-dark, and at one point our shoulders brush; I feel a private warmth, a grounding inside the broader project. By dawn the boardwalks glisten, the planted beds hold, and the town watches. Momentum matters. Tonight we proved we could act.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Kwon",
+                "Lina",
+                "Aiden Reyes",
+                "Priya Anand",
+                "Dr. Elara Voss",
+                "Mateo Reyes"
+            ],
+            "locations_used": [
+                "Marsh planting sites",
+                "North Pier",
+                "Boardwalks"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Volunteer Surge",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The pilot’s success catalyzes a surge: Lina organizes shifts on the rooftop, town kids show up in mismatched rubber boots, and Priya brings legal templates. News vans circle, and Vernon & Crow’s lobby begins to feel public pressure. I’m in that battered sweater, sleeves pushed, hands aching and full of small triumphs. But choices stack: grants require matching funds and environmental permits; quick mechanized restoration can scale the effort but risks crushing fragile microhabitats; a stricter permitting route slows action and frustrates volunteers. Aiden worries about fishers losing access to nearshore grounds if we plant too close; Old Man Reyes warns that shrines and shellfish beds will be trampled if we rush. Dr. Voss proposes a contractor partnership that promises durability and jobs but designs a footprint that would remove a key marsh tongue. I sleep poorly and wake to the sound of gulls. The moral calculus is impossible: urgency against fidelity to the place. I can push full community labor and slow science, accept technical partnership for scale, or design a hybrid safeguard that protects fishing lanes while restoring marsh edges. Each path shapes both the town’s shore and my relationship to Aiden.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we scale restoration now that momentum and pressure are high?",
+                "options": [
+                    {
+                        "label": "Double down on community labor—no contractors; scale slowly, keep control local.",
+                        "consequence": "Strong community ownership and cultural continuity, but limited scale and slower outcomes.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept a contractor-assisted pilot to scale quickly under NGO oversight.",
+                        "consequence": "Rapid progress and jobs but compromises on marsh footprint and long-term control.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Negotiate a targeted berm to preserve dock access while planting further out.",
+                        "consequence": "Tactical compromise protecting livelihoods but sacrificing some marsh area.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Lina",
+                "Priya Anand",
+                "Aiden Reyes",
+                "Dr. Elara Voss",
+                "Mateo Reyes",
+                "Vernon & Crow"
+            ],
+            "locations_used": [
+                "Rooftop garden",
+                "Marsh planting sites",
+                "Vernon & Crow lobby"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Harvest of Salt and Hope",
+            "branch_designation": "Route A — Ending: Happy",
+            "narrative_focus": "We chose slow and local. Months pass in a cadence of low-tide mornings and community potlucks on the rooftop. The marsh reconnections survive storms; salt-meadow grasses carpet the flats where open water used to be, and juvenile fish return to nursery channels. Lina paints a mural on the community hall—interwoven reeds and nets—while I file tide charts into my battered notebook, the laminated strikes softened from use. Aiden’s co-op diversifies with marsh-harvest licenses and sea vegetable trials; his sea-blue eyes grow quieter and softer as he watches neighbors find new jobs. Dr. Voss visits in damp weather; her trench coat soggy, she watches a wave-dampening belt of marsh and admits aloud that living systems can outperform concrete in unexpected ways—she offers to consult on engineered nodes to stabilize access points rather than claim dominion. In the final council vote, our hybrid plan—community-led marsh restoration with small strategic defenses—wins. We stand on the North Pier the night after the vote; Aiden slips his braided rope bracelet into my hand and the driftwood charm rests against my palm. We promise each other a future here—tethered to a place we chose to heal.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Lina",
+                "Dr. Elara Voss",
+                "Priya Anand",
+                "Mateo Reyes"
+            ],
+            "locations_used": [
+                "North Pier",
+                "Rooftop garden",
+                "Community hall",
+                "Marsh flats"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Co-op at Dusk",
+            "branch_designation": "Route B",
+            "narrative_focus": "Negotiation feels like knot-tying—pull too hard and it frays. Aiden and I spend evenings at the North Pier drafting a compromise: living shorelines where they won’t block main fishing lanes, a cooperative maintenance fund, and staged access for gear. The co-op’s patchwork banners—hand-sewn by fishers—flap in the brackish wind. Old Man Reyes leans on his cane, remembering when we salvaged nets after storms; his stories turn into terms in our proposal. Priya wires in conditional funding but warns taht grants require measurable outcomes. Dr. Voss circulates technical concerns on a tablet—erosion rates, load-bearing projections—her steel-gray eyes unreadable until she briefly smiles at Aiden’s brazen charm. We pilot along a concerto of small wins: a restored eelgrass strip that doesn’t impede nets, a floating work platform for easier boat access. Tension simmers: some fishers celebrate; others fear future encroachment. Councilor Hale wants a headline-friendly seawall anyway. My patience tightens into determination; I want a solution that keeps fishermen working and the marsh breathing. The co-op’s compromise might hold, but it will require constant vigilance.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Priya Anand",
+                "Mateo Reyes",
+                "Dr. Elara Voss",
+                "Councilor Tomas Hale"
+            ],
+            "locations_used": [
+                "North Pier",
+                "Eelgrass pilot sites",
+                "Co-op meeting areas"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Negotiating the Lines",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The negotiation session is a high-tide dance. Councilor Tomas Hale promises jobs with the seawall contractors; Dr. Voss outlines phased construction that would include access corridors—her diagrams clear, clinical. Some elders want the certainty of concrete; younger volunteers chant that the marsh is our buffer. I stand at the podium, my hazel eyes ringed by fatigue, and make the case for a negotiated hybrid: living shorelines where possible, targeted low walls where necessary, and legally protected fishing corridors. Aiden proposes co-op oversight of access corridors to ensure tradition endures. The room fractures into three camps: push for living shorelines close to fishing grounds, accept a partial seawall with guaranteed access, or capitulate to a full engineered plan for immediate funding. My decision will dictate not only policy but whether compromise means resilience or slow cultural erosion. I recall my parents' house—gone—yet I’m driven by the idea that careful design can hold both livelihoods and life.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which policy stance do I push publicly at the vote?",
+                "options": [
+                    {
+                        "label": "Advocate fully for co-op-managed living shorelines close to fishing lanes.",
+                        "consequence": "Potential maximum ecological benefit but risks political backlash and reduced funding.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept a partial seawall with guaranteed access corridors.",
+                        "consequence": "Politically viable compromise preserving some fishing access, but sacrifices marsh area.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Support the engineered plan for immediate jobs and greater municipal funding.",
+                        "consequence": "Rapid job creation and funding but increased ecological cost and cultural loss.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Councilor Tomas Hale",
+                "Dr. Elara Voss",
+                "Priya Anand"
+            ],
+            "locations_used": [
+                "Council chamber",
+                "Community Rooftop",
+                "North Pier"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "A Narrow Shore",
+            "branch_designation": "Route B — Ending: Bittersweet",
+            "narrative_focus": "The town votes narrowly for a partial seawall with carved access corridors. Construction crews rumble in; Vernon & Crow’s office glows with contract signings; Councilor Hale congratulates himself. The co-op secures workboat grants, and Aiden’s crew gets jobs insulating their families against the next storm. But where the wall clamps the shoreline, marsh tongues are sacrificed to prevent overtopping; juvenile fish nurseries retreat. I stand on a bluff and watch barges scrape the horizon; my hair is wind-roughened, my notebook full of data and regrets. Dr. Voss listens to my technical objections and, privately, admits that a perfect solution didn’t exist in the political realities. Aiden and I hold each other at the pier that first winter; we are together, but the intimacy is threaded with compromise. I channel my grief into targeted restoration projects that work alongside the wall, planting what I can and lobbying for corridor protections. The town has time—maybe—but we lost a seam of memory and habitat. We learn to be grateful for what we have while mourning what we ceded.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Dr. Elara Voss",
+                "Councilor Tomas Hale",
+                "Vernon & Crow"
+            ],
+            "locations_used": [
+                "Seawall construction sites",
+                "Bluffs",
+                "North Pier"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Glass and Concrete",
+            "branch_designation": "Route C",
+            "narrative_focus": "I walk into Vernon & Crow, my olive jacket sanded against polished concrete. The interior is clinical—translucent screens float technical overlays—and Dr. Elara Voss stands under bright fluorescents with that narrow, analytical gaze. She lays out a comprehensive seawall and reclaimed promontory: durable, engineered, and fundable. The offer is tempting—immediate jobs, municipal backing, and a guarantee that the next megastorm won’t wipe out main streets. I show her my tidal models and my living-shoreline data; she listens but insists risk aversion must guide us. Priya warns that without local buy-in, projects fracture politically; Aiden is torn, because boats and crew need security. Old Man Reyes brings a jar of marsh water to show what we’re losing. Voss’s moral calculus—from the loss of colleagues in past failures—makes her blunt but not cruel. I can enter formal negotiations, attempt to shape the engineered plan from within, or reject it outright and risk marginalization. The choice feels volcanic: a single structural decision will redirect how our shore—and my relationship to the town—evolves.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maya Kwon",
+                "Dr. Elara Voss",
+                "Priya Anand",
+                "Aiden Reyes",
+                "Mateo Reyes",
+                "Vernon & Crow"
+            ],
+            "locations_used": [
+                "Vernon & Crow offices",
+                "Meeting table",
+                "North Pier"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Breach Dreams",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "Negotiations deepen into geotech reports and public hearings. I sit across from Dr. Voss and watch the way her platinum bob catches fluorescent light as she annotates models on her tablet. She argues that a comprehensive seawall prevents catastrophic loss; I argue that living systems can complement engineered nodes. Priya urges legal protections for marshes while Aiden urges for design concessions that preserve fishing corridors. The town’s mood swings with each projection of cost and benefit. My past grief—my parents’ house torn away—anchors me to a stubborn hope that restoration can heal, but the specter of a future storm is a real terror that makes compromise tempting. The options break into three paths: publicly expose geotechnical weaknesses to rally people toward marsh-based solutions, accept Voss's plan under strict conditions, or craft a true hybrid pilot with co-op oversight. Each choice will reverberate—deciding who holds power, who keeps jobs, and whether the marsh survives. My hands—scarred around the multi-tool—tremble not from fear but from the gravity of what must be chosen.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which strategy do I endorse during the final negotiations?",
+                "options": [
+                    {
+                        "label": "Expose technical uncertainties and rally a public marsh-first movement.",
+                        "consequence": "Risk political instability but potential for community-driven restoration.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Accept the engineered plan with strict legal constraints.",
+                        "consequence": "Rapid infrastructure but ecological cost and moral compromise.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Negotiate a funded hybrid pilot combining NGO funds, co-op oversight, and engineered supports.",
+                        "consequence": "Complex multi-stakeholder path requiring trust and time.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Dr. Elara Voss",
+                "Priya Anand",
+                "Aiden Reyes"
+            ],
+            "locations_used": [
+                "Public hearings",
+                "Vernon & Crow meeting rooms",
+                "Council chambers"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "The Tall Wall",
+            "branch_designation": "Route C — Ending: Sad",
+            "narrative_focus": "The municipal contract signs and heavy machinery arrive in quick succession. The seawall rises—concrete teeth against an uncertain ocean—gleaming under floodlights. Jobs bloom immediately: men and women in neon vests, council praise, and a sense of triumph in hard caps. I stand watching the pour with a hollow pride; Dr. Voss remains composed, steel-gray eyes reflecting the wall’s curves. But where the wall bites into the estuary, marsh tongues are scraped away, and the nursery pools that fed fish and shellfish diminish. A fierce storm months later reveals the wall’s blunt limits: overtopped in exposed reaches and redirecting erosive energy, taking with it neighborhoods unprotected by its design. My research offers post hoc explanations, but damage is done. Aiden works on the construction docks and grows distant—his laughter fraying as he struggles between gratitude for work and sorrow for what’s lost. I accept an overseas research post, and the town’s culture shifts in ways I can’t reverse. Love and home diverge: we exchange letters with tenderness and blame. The shore is different; my grief becomes a quiet exile.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Dr. Elara Voss",
+                "Aiden Reyes",
+                "Councilor Tomas Hale"
+            ],
+            "locations_used": [
+                "Seawall construction sites",
+                "Construction docks",
+                "Neighborhood bluffs"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "A True Coastline",
+            "branch_designation": "Additional Route — Ending: True",
+            "narrative_focus": "In this path, we choose hybrid courage. A grant—brokered by Priya—funds a contractor-assisted pilot with co-op oversight and strict ecological covenants. I accept pragmatic engineering for targeted access with a firm requirement: engineers and fishers must share oversight with local stewards. Dr. Voss becomes an uneasy ally, standing in muddy boots beside me to watch sediment settle into newly shaped channels. It is messy—permitting delays, unexpected erosion—but we adapt, iterate, and learn together. Aiden leads cooperative patrols, teaching younger fishers to seed eelgrass alongside net mending. Old Man Reyes reads oral histories to volunteers, rooting science in practice. Our relationship grows into a partnership of shared work; his hand finds mine when surveys are over. The town does not achieve instant perfection—but the hybrid model creates measurable reductions in overtopping events and a renewed sense of communal ownership. The ending is not a tidy triumph but the recognition that resilience is a living, intergenerational project. Dr. Voss, once implacable, acknowledges the limits of engineering without living partners; I keep my silver locket and my hope.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option B OR From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Priya Anand",
+                "Dr. Elara Voss",
+                "Aiden Reyes",
+                "Mateo Reyes",
+                "Lina"
+            ],
+            "locations_used": [
+                "Pilot mixed-construction sites",
+                "Marsh channels",
+                "Rooftop meeting areas"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "The Bargained Shore",
+            "branch_designation": "Additional Route — Ending: Bittersweet Variant",
+            "narrative_focus": "We accepted a measured berm to preserve the main dock and keep fishers’ immediate access. Construction is precise; the berm gives a sense of protection and the co-op sees less immediate risk. I keep planting festivals and small restoration sites beyond the berm, and the community rallies in familiar rhythms. Yet the landscape is scarred in places—salt marsh replaced with engineered gravel corridors—and some elders mourn the loss of shellfish beds. Aiden’s eyes are kinder, but there is a new caution in his laugh; we share quiet evenings repairing nets and discussing future grants. Dr. Voss remains present as a consultant, and while she eases some of the design’s worst consequences, she cannot restore every lost seam. The town survives and gains breathing room to plan further restorations, but we also trade away pockets of the marsh for certain livelihoods. I channel my disappointment into teaching local youth monitoring methods, believing that future generations might stitch back what we’ve cut. Love persists as a steady tether, though it is shaped by compromise and the ache of what we refused to fight harder for.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Aiden Reyes",
+                "Dr. Elara Voss",
+                "Lina",
+                "Mateo Reyes"
+            ],
+            "locations_used": [
+                "Berm construction sites",
+                "Dock areas",
+                "Restoration planting sites"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Resilient Promise",
+            "branch_designation": "Additional Route — Ending: Happy/True Variant",
+            "narrative_focus": "We carve a middle path: Priya secures conditional funding and the co-op agrees to legally enforceable conservation corridors. Engineers design low-profile supports instead of a high wall; the pilot’s design is adaptive and community-governed. I spend months knee-deep in marsh mud, elbows scuffed, hair loose from my knot, and Aiden beside me with a grin and a thermos that never seems empty. We build monitoring teams that include retirees reading tidal signs and young volunteers with smart sensors. Dr. Voss mentors civil technicians and learns to value iterative ecological feedback; her steel-gray eyes soften as she stands on the newly planted flats and admits she underestimated marsh agency. Old Man Reyes leads a blessing of seedlings on a misty morning; Lina organizes a festival to plant eelgrass. The town finds a rhythm where economic security and ecological restoration are no longer mutually exclusive. At the community rooftop—as fairy lights flicker and the tide reflects the moon—we pledge to stay and keep working, knowing the real victory is the ongoing labor of care. Aiden slips the driftwood charm into my pocket; we promise to keep planting hope together.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Kwon",
+                "Priya Anand",
+                "Aiden Reyes",
+                "Dr. Elara Voss",
+                "Mateo Reyes",
+                "Lina"
+            ],
+            "locations_used": [
+                "Marsh pilot sites",
+                "Rooftop garden",
+                "Community meeting spaces"
+            ]
+        }
+    ],
+    "remarks": "World view: Seabreak Hollow (coastal town, 2035) — core conflict is engineered seawall vs. nature-led restoration; multiple branching endings reflect political and personal tradeoffs.",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

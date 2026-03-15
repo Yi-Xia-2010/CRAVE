@@ -1,0 +1,223 @@
+label chapter18:
+
+    # [Scene: Lydia's Pavilion | Morning]
+
+    scene bg ch15_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low piano, a minor chord repeating like a tide returning]
+    # play sound "sfx_placeholder"  # [Sound: Camera shutters, the distant cadence of gulls]
+    "You rehearse your smile in the reflection of the pavilion glass before you step through the doors. The acceptance of the liaison still sits in your ribs like a tuned wire — it hummed then, and"
+    "it hums now. You were given a seat at the table; you were given constraints. You took them, because there are things you can only save from inside the machine."
+    show marin_solace at left:
+        zoom 0.7
+
+    marin_solace "We can keep access lanes, we can insist on maintenance clauses. We can make it mean more than concrete."
+    "Lydia Voss steps forward as if she were carved out of the light itself: precise gestures, words dressed like policy briefs. Her team moves with the efficiency of people who have practiced the choreography of reassurance."
+    show lydia_voss at right:
+        zoom 0.7
+
+    lydia_voss "This has been a success for public morale—community planting, visible habitat patches. We show progress, investors stay engaged, and the town feels protected."
+
+    marin_solace "Visible isn't the same as sustainable,' you say. Your voice is calm, which makes it sharper. 'Those habitats need guaranteed stewardship. If they're tokenized for a photo-op, they'll fail when the first maintenance cycle is skipped."
+
+    lydia_voss "We incorporated co-management clauses into the contracts. Your cooperative's name is on the dashboard. The public sees action and ownership. That reduces panic."
+
+    marin_solace "Names on dashboards aren't the same as seats at the maintenance table.' You lean on the edge of the projection table; the laminated site plan makes a faint breeze against your palm. 'If this folds, it's not just infrastructure that collapses. It's livelihoods. It's memory."
+
+    lydia_voss "And if we stall for perfect safety, people lose their homes. This was about protecting that."
+    "The room holds the exchange like a magnifying glass. Ben Rhee, councilor and professional conciliator, steps in with a smile that has been bought and honed for mediating fractures."
+    show councilor_ben_rhee at center:
+        zoom 0.7
+
+    councilor_ben_rhee "You both make good points. Marin, your oversight helped us include fisher access lanes. That's a concrete win. Lydia—this partnership is a model elsewhere. We need that confidence now."
+    "You watch the cameras find your face. The lenses like tiny, accusing moons. You give a short speech about co-management and shared responsibility—about the living features you fought for and the binding words you wrung out"
+    "of contract lawyers. The crowd claps; the footage will go viral in the evening feed. For the first time in a long while, the town looks like it's moving in one direction."
+    hide marin_solace
+    hide lydia_voss
+    hide councilor_ben_rhee
+
+    scene bg ch15_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: A fragile, rising motif—strings pulling upward]
+    # play sound "sfx_placeholder"  # [Sound: Phone notification chime, a low tide hum]
+    "You file a copy of your redlined notes into your satchel before the Q&A ends. You do the thing you promised yourself you would: the careful documentation. The choice you keep to yourself is small and"
+    "surgical—what to release publicly, and how much context to include. You think of the diagrams with overlayed uncertainty bands, the contractor memos that tip toward overconfidence. You want the town to trust, but you also want"
+    "truth not to be sugarcoated into complacency."
+    # [Scene: The Saltworks | Late Afternoon]
+
+    scene bg ch15_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: A single cello line, low and somber]
+    # play sound "sfx_placeholder"  # [Sound: Rain slapping the warehouse roof; the kettle hisses on the stove]
+    "Asha moves with that familiar bristling energy—hands always in motion, ideas like sparks off her knuckles. Raff (Rafferty Cole) pulls up the social feeds on a tablet, grinning at the reach of the pavilion footage."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "Look at this—'Havenpoint Rises Together'—Raffery's caption game is strong. People love a narrative. They love mud on hands."
+
+    "Raff (Rafferty Cole)" "Brought it to #CoastCare and within the hour—boom. Donations, volunteers, even an influencer wanting to film a morning haul."
+    "You sit across from them, the redacted packet open in front of you. The inner part you didn't hand to Lydia—notes about incomplete baseline surveys, the times the contractor's model truncated tidal variability—feels heavy in your lap."
+
+    asha_patel "You're not going to drop everything in the feed, are you? There's a difference between transparency and feeding panic."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "There's also a difference between allowing a narrative to hold when it omits risk.' You fold your hands over the packet. 'The town deserves context. But I don't want to do harm."
+
+    "Raff (Rafferty Cole)" "You could do a thread. Context, sources—people can parse that."
+
+    asha_patel "And you could talk to me before you push 'post.' We'll frame it so it's educational, not alarmist."
+    "The three of you fall into the predictable orbit of planning and counterplanning. It feels ritual and necessary—like tightening bolts on a dock. But the more you think about the leak, the more you know it"
+    "will be a wedge. You think about Jonah's face in the montage—candid, open, trust made visible—and you taste the aftertaste of betrayal that could follow."
+
+    menu:
+        "Release the redacted package with explanatory notes":
+            "You draft a thread: carefully redacted memos, annotated margins, a plain-language overview of model limitations. Your hands shake while you proof the tone—didactic but not incendiary. You imagine people parsing graphs they don't have time to read."
+        "Hold it for a coordinated briefing with Asha's context":
+            "You tuck the packet back into the satchel and say you'll wait. Asha nods, relieved; Raff rolls his eyes but appreciates the slower burn. The document feels safer and heavier at the same time."
+
+    # --- merge ---
+    "Asha and Raff's reactions are the predictable mix of relief and irritation you know well. You tell yourself that slow, contextual release is responsible. You also feel the impatience like a bruise—news cycles move fast; what waits rarely captures yesterday's attention."
+    # [Scene: Marsh Islands | Morning — Two Weeks Later]
+    hide asha_patel
+    hide marin_solace
+
+    scene bg ch15_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: A gentle, nostalgic harmonica, then an undertow of dissonant strings]
+    # play sound "sfx_placeholder"  # [Sound: The slap of oars, gull calls, the far rumble of distant machinery]
+    "Jonah Reyes steers the small charter with the same easy cadence you’ve seen a hundred times—callused hands, a smile that folds into the weather-beaten lines of his face. Kids press against rails, eyes wide for birds. The islands look fragile and triumphant at once."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "See that? Tidal grasses catching silt—we built that shelf, it keeps the channel calmer. Look at 'em! We did that, Marin."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "We did,"
+    "After the tour, you find a sheltered nook along the dock. Jonah's smile fades into something quieter—his eyes hold a complex patience that both grounds and unnerves you."
+
+    jonah_reyes "You looked strange at the press thing. Proud, sure—but like you were holding a secret."
+
+    marin_solace "No secrets. Just... the ache of knowing what parts of this we had to fold in."
+
+    jonah_reyes "You always fold, Marin. For people. For projects. Sometimes I think you fold until there's no room left to hold yourself."
+
+    marin_solace "I folded so we could get a seat at the table. So fisher lanes were written in. So your dock stayed usable. I didn't go into this to hide things."
+
+    jonah_reyes "Then why does it feel like the town's joy has an undercurrent? Like we've put something fragile behind a glass and called it safe."
+    "You look past him at the marsh islands shimmering—small triumphs anchored in complicated foundations. The wind takes your words before you can finish them."
+
+    marin_solace "Because part of the design relies on assumptions. I want to be honest about that."
+
+    jonah_reyes "Then be honest with them without burning what we've built. Please."
+    "His plea is soft, not commanding; a tether, not a leash. You reach for his hand without thinking—callused and warm—and for a moment it steadies you. But the weight of the packet in your satchel is a counterweight you can't ignore."
+
+    menu:
+        "Tell Jonah everything before posting":
+            "You flip open the satchel and let the documents spill between your hands and his. His face shifts through confusion, pride, and a raw kind of fear. He asks questions you can't fully answer; you promise to walk every step with him."
+        "Keep the documents private for now; promise to involve him if things escalate":
+            "You slip the packet closed and slide it back into the satchel. Jonah reads the decision like a bruise. He nods slowly, the edge in his jaw like a sail catching a hard wind. 'Okay,' he says. 'Just—don't make this a surprise.'"
+
+    # --- merge ---
+    "You choose as you always do—between disclosure and strategy—and the choice lands. The harbor smells of brine and diesel, marsh grass and diesel, and under it all, the iron tang of worry."
+    # [Scene: Lydia's Pavilion | Evening — The Leak]
+    hide jonah_reyes
+    hide marin_solace
+
+    scene bg ch15_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Strings tearing into a frenetic minor; percussion like fingers drumming in panic]
+    # play sound "sfx_placeholder"  # [Sound: A cascade of notification pings; a distant chant from an online livestream]
+
+    "Raff (Rafferty Cole) calls it first" "It's everywhere. Threads. Comparisons. People are calling for hearings. Investors asking for damage control."
+    "You watch as your careful redactions start being held up and examined like evidence in a courtroom. Someone, somewhere, has dissected the gaps and amplified them. The narrative flips: where there were triumph images earlier, now there are questions about withheld data and contractor overconfidence."
+    show lydia_voss at left:
+        zoom 0.7
+
+    lydia_voss "You understand the consequences of releasing partial data, Marin? You destabilized a protection project during a window of vulnerability. Investors—"
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "I released what I believed the town had a right to see. I annotated context. I didn't want to panic; I wanted conversation."
+
+    lydia_voss "You initiated a crisis of confidence. The contracts are tied to investor timelines. Withdrawals threaten the entire project's cash flow. Do you know what happens if the funding pulls now? We'll lose the seawall extensions and the maintenance contracts your cooperative needs most."
+    "Ben Rhee arrives at the pavilion like someone trying to stitch two bleeding ends together. His face is exhausted in a way that has the taste of inevitability."
+    show councilor_ben_rhee at center:
+        zoom 0.7
+
+    councilor_ben_rhee "We need to calm this. Marin, I know the intent—but the optics are terrible. Lydia—investors are calling. We need to convene a public briefing, now."
+
+    marin_solace "Public briefing with full context. Not just damage control. Full transparency."
+
+    councilor_ben_rhee "Full transparency has its place. Right now we also need to keep the contractor from pulling crews off the sites. If that happens, the islands could be left half-finished for a season. We can't risk that."
+    "The pavilion fills with the low murmur of strained officials. You feel panic as a practical force—an urgent logic that demands triage, triage that will likely erode the very community trust you were trying to build."
+    # [Scene: The Boardwalk & Jonah's Dock | Night]
+    hide lydia_voss
+    hide marin_solace
+    hide councilor_ben_rhee
+
+    scene bg ch15_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Dissonant cello; a slow, descending motif]
+    # play sound "sfx_placeholder"  # [Sound: Snippets of overheard voices, a chant, an angry speaker in the distance]
+    "Jonah Reyes stands at the edge of his dock, arms folded, jaw tight. People shout about safety, about truth, about the risk of losing what protections we have. Others call you dangerous—reckless, idealistic in a way that endangers the very people you claim to protect."
+
+    "Resident 1" "You exposed us! You put property at risk!"
+
+    "Resident 2" "We should be thanking them! Those marshes saved my garden in the last surge!"
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "We built these islands together. We fought to keep access lanes open. Don't let this—' He gestures at the pavilion's light and the phone screens—'—turn that into a reason to tear us apart."
+    "A woman you recognize from the planting days looks at you with grief and accusation braided together. Her son played on the marsh islands. She had cheered when your cooperative dug in plant roots and measured"
+    "silt. Now she looks at you as if you've taken the pulse of the town and put it on a diagnostic table for strangers to dissect."
+    "Marin Solace: (You think of how to answer; the words in the pavilion ring hollow in your ears.) 'I thought context would make us stronger. I thought it would force better maintenance and better scrutiny.'"
+
+    jonah_reyes "You thought with your head the way you always do. But people read actions as choices, not as nuance."
+    "He doesn't ask you to retract; he doesn't counsel you to apologize. He looks at you with something that is not anger but a profound disappointment that is quieter and harder to bear."
+
+    jonah_reyes "We can fix structures. We can shore up mud and rock. Fixing people—trust—that takes longer."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "I know."
+    "You stand there while a tide of social judgment rolls by—supporters offering shelter and angry strangers calling for your removal from committees. Lydia issues a statement calling your actions irresponsible. Investors threaten to withdraw funding; Ben"
+    "argues for a mediated public inquiry; some residents applaud your frankness, seeing in it an act of civic courage."
+    # [Scene: The Saltworks | Dawn]
+    hide jonah_reyes
+    hide marin_solace
+
+    scene bg ch15_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano, an elegiac motif]
+    # play sound "sfx_placeholder"  # [Sound: The slow tick of a wall clock; a distant gull]
+    "You are the first one at the Saltworks. Asha arrives with two steaming mugs; she doesn't hug you. Her face is taut with loyalty and a tiny fissure of worry."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "We have volunteers ready to do maintenance, to keep the marsh islands planted. Raff started a fund for emergency patching if crews get pulled. People still believe in the work."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "Belief is not the same as trust."
+
+    asha_patel "It can be, sometimes. People rally behind people they believe are trying to help. But you'll have to weather this. Lydia will push for stricter controls, investors will demand audits, and council will be flooded."
+    "You touch the chipped enamel pin of the lighthouse on your jacket—an emblem you have worn through calmer storms. The phone in your satchel is quiet now, like the pause between waves. You think of the repair lists, the meetings, the community gardens, Jonah's face on the dock."
+    "You could resign and give the town a clean scapegoat; you could double down and publish everything raw; you could step back and let institutional processes take their course. Each choice will rearrange people like boats in a harbor—some will find new moorings, others will drift."
+    "You think of Elder Mae's stories about moving houses off their old foundations: how whole families reorganized their lives around new ground. 'Repair beyond the structural,' she would say—meaning the long, intimate labor of memory, apology, and rebuilding."
+    "Asha reaches out and taps the redacted packet."
+
+    asha_patel "Whatever you decide, do it knowing it won't undo the good. It will change who we are, though. Maybe for the better. Maybe not."
+    "You close your eyes. The ache of responsibility presses into you like a tide. You had hoped transparency would be a raft. Instead it split the water and revealed the undercurrent."
+
+    marin_solace "We climbed fast, and we did real things. But the work of repair is longer than the work of building."
+    # play music "music_placeholder"  # [Music: The piano resolves into a single low note that fades like a receding tide]
+    "You stand in the Saltworks, the seedlings blinking in the pale light, the town outside rearranging its trust into new shapes. Jonah's dock still holds. The wall still kept last month's surge at bay. Those physical"
+    "things are not unimportant. But so much else—friendships, confidence, the simple assumption that a neighbor will not be the herald of your undoing—must be mended with patient, human hands."
+    "You slide the packet back into the satchel. Your fingers linger on the strap, knowing the next steps will demand long conversations, vulnerable admissions, and patient rebuilding. You imagine schedules of community meetings, crosswalks of apology"
+    "and accountability, and a thousand small acts that will not fit in the neat frames of a press release."
+    hide asha_patel
+    hide marin_solace
+
+    scene bg ch15_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: A low, lingering chord—sombre, not entirely without warmth]
+    "You take a breath and steady your shoulders. You have not lost your aim: to protect what you can without erasing the people who live here. The path forward is long. The tide will keep coming."
+
+    scene bg ch15_f99e88_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

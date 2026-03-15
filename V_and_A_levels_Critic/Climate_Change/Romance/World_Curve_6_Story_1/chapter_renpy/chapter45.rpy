@@ -1,0 +1,233 @@
+label chapter45:
+
+    # [Scene: Rooftop Nursery & Green Lab | Early Morning — Several Years Later]
+
+    scene bg ch15_185025_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft ping of networked sensors, distant gulls, a low, steady hum of rooftop fans]
+    # play music "music_placeholder"  # [Music: Sparse piano, measured tempo]
+    "You are bent over a tray of young sedges, fingers working the damp soil with the practiced rhythm of someone who has spent years learning to coax fragile systems into stability. The smell of peat and"
+    "brine folds together, familiar and small — the scent of things that keep stubbornly alive. Your hands are stained, the ridges at your knuckles a map of seasons."
+    "Rafi crosses the nursery with a crate of cuttings, his gloves damp with water. He moves with the same unhurried urgency he always had, the kind that makes people trust him with both seedlings and secrets."
+    show rafi_odeh at left:
+        zoom 0.7
+
+    rafi_odeh "They're taking to the grafts better than last season. The new substrate mix you recommended is doing work."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Good. We need them dense where the riprap thins out. Roots are our only real insurance in that stretch."
+    "Rafi: (shrugging) 'Insurance that smells like marsh tea and costs less than concrete. Still, people sleep better when their roofs don't leak and their kids can taste a tomato in June.'"
+
+    maya_corvin "People sleep better when they can live where they've always lived."
+    "Rafi's face softens. He sets the crate down, palms on the rim, watching the trays as if they might answer a question about the city's mood."
+
+    rafi_odeh "You ever think about putting that compass back up? On the study wall. For the kids."
+
+    maya_corvin "It's a relic. It points to rust now, Rafi."
+    "Rafi: (grinning) 'So it fits. We do good with relics.'"
+    hide rafi_odeh
+    hide maya_corvin
+
+    scene bg ch15_185025_2 at full_bg
+    "You check the neighborhood feed on your tablet: a river of sensor pings, mapping tidal anomalies in soft blue dots. The independent board's quarterly report is pinned to the top — minutes, contingencies, an obligatory list"
+    "of things still unresolved. There is a careful architecture of oversight now: community liaisons, a municipal observer, an independent auditor. It is not perfect. Perfection was never the point."
+
+    menu:
+        "Ask Rafi about the new volunteers":
+            "You nod toward the young people clustered by the rain-catchers. 'How are they taking to the grafting?' Rafi's grin widens, and he launches into a story about a teen who refused to believe a marsh could be 'cool' until she saw a juvenile crab claim a newly planted sedge."
+        "Scroll the board minutes instead":
+            "You tap the board report, skimming the clause about trigger levels. The language is dull and exact and implies that every sentence could be the straw that redistributes someone's life. You feel the old tightening in your chest — careful words, consequence-hours."
+
+    # --- merge ---
+    "You choose both, as you always do: you talk to Rafi and you read the minutes. Both keep you tethered."
+    # [Scene: Reworked Promenade | Late Morning]
+
+    scene bg ch15_185025_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Footfalls on damp wood, a camera clicking—Lio filming a time-lapse of tidelines]
+    # play music "music_placeholder"  # [Music: Low strings, tempered]
+    "Lio is there, sleeves rolled, paint smudged across his cheek. He speaks in bursts — quick, angry, tender. He moves like a person who has learned to translate loss into color."
+    show lio_corvin at left:
+        zoom 0.7
+
+    lio_corvin "They keep asking me why I paint over the old hotel ruin. 'Why not leave the scar?' they say. Because scars can be a map, I tell them. Other people need a map."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Your maps make people look twice. That's the point."
+    "Lio: (stops, looks at you) 'Do you still think we did the right thing? It looks... different.'"
+    "You feel the question settle behind your ribs. It is the same question you have been asking in a dozen small ways since the vote — the compromise that saved seedbeds and closed some doors, the"
+    "seawall that was pulled back to allow corridors while still cutting off other edges. The cost is in faces and in foundations."
+
+    maya_corvin "We preserved corridors where we could. We kept people in place more often than not. That is not nothing."
+
+    lio_corvin "Not nothing but not everything."
+    "There is grief braided through his voice. You meet it with what you have: presence and a careful, necessary stubbornness."
+    # [Scene: Market Stalls | Noon]
+    hide lio_corvin
+    hide maya_corvin
+
+    scene bg ch15_185025_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Merchant calls, the click of coins, a sensor chirp reporting 'Tide Minor — Watch Engaged']
+    # play music "music_placeholder"  # [Music: Minimal percussion — life pushing forward in measured beats]
+    "A woman at a stall — Mrs. Ortega’s niece — hands you a plastic-wrapped bundle of salt-preserved lemons. She leans in, lowers her voice."
+
+    "Mrs. Ortega's Niece" "You did right, you know. The clinic didn't flood during last summer's surge. We still lost some tiles, some basements... but the children slept."
+    "Maya Corvin: (soft) 'We do what we can.'"
+    "She squeezes your wrist, her fingers warm and quick."
+
+    "Mrs. Ortega's Niece" "And Lio's murals help. They make kids less afraid of the water."
+    "You are grateful. Grief loosens like a tide, receding enough that you can stand and breathe."
+
+    menu:
+        "Accept the lemon and smile":
+            "You accept the lemon and feel the rind's dry texture between your fingers. It's a small ordinance of thanks, and it tastes like a season you almost forgot you had."
+        "Ask after the basements":
+            "You ask about the basements. Her smile complicates. 'We filled some with sand and plants. Others we raised. Some sold out. We are learning the map of loss.'"
+
+    # --- merge ---
+    "You take the lemon and the map of loss with equal steadiness."
+    # [Scene: Independent Board Hearing — Quarterly | Afternoon]
+
+    scene bg ch15_185025_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The shuffling of papers, the clack of a stylus on glass, intermittent coughs]
+    # play music "music_placeholder"  # [Music: A single, low cello note underlines conversation]
+    "You are there as an organizer and as someone who has to keep feeling for what is negotiable. The board proceedings are efficient now — a lesson in small architectures of power. They hold votes on"
+    "maintenance budgets and decide on trigger levels for temporary barriers. They argue over language like it will rearrange the coastline by itself."
+    "Elias Kahn is present in person today — he has returned from a regional planning conference. He moves as he always does in these rooms: careful, authoritative, and exhausted in equal measure."
+    show elias_kahn at left:
+        zoom 0.7
+
+    elias_kahn "The monitoring network's data shows a gradual regression at Node Twelve. We should increase sedge planting by thirty percent and reinforce the edge with bio-wrapping."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Bio-wrapping buys time. We need residents trained to maintain it. If we don't localize care, it becomes someone else's problem to abandon."
+    "Elias Kahn: (leaning forward) 'We have training modules. We can allocate funds for a supervisor post.'"
+
+    maya_corvin "Will the supervisor be from here, or will they be another contract line item that leaves when the project is profitable?"
+    "Elias Kahn hesitates. He is used to juggling politics and optics; your question is the kind that reminds him why he took this job in the first place."
+    "Elias Kahn: (quiet) 'We could hire locally. We should hire locally. I don't want to displace what we're protecting.'"
+    "You see the way his wrists flex — a small reveal of worry, a testament to the compromises that ping him awake at night."
+    "Camila 'Kai' Navarro is on the panel as an external consultant today. She is efficient, her observations precise. Her presence is a small, constant reminder of the scale that helped catalyze the hybrid solution in the first place."
+
+    "Camila 'Kai' Navarro" "We need to accept that some sections will require engineered reinforcement. Let us prioritize them based on population density and cultural significance."
+
+    maya_corvin "Cultural significance should not be a checkbox."
+    "Camila 'Kai' Navarro: (sharper) 'Cultural significance is costly. We can't choose sentiment over survival; we can weigh both.'"
+    "The conversation spirals, productive and weary. The tone is not heat so much as a steady rubbing that eventually smooths rough edges. Your own voice carries weight because those who sit here know you can translate both scientific reports and neighborly outrage into language the system tolerates."
+    # play music "music_placeholder"  # [Music: The cello note resolves into a low, quiet chord — soft but not uplifting]
+    # [Scene: Late Afternoon — On the Promenade, a Few Hours Later]
+    hide elias_kahn
+    hide maya_corvin
+
+    scene bg ch15_185025_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The muted chirp of escalating alerts, a distant rumble as the harbor reacts]
+    # play music "music_placeholder"  # [Music: A gentle uptick in tempo — from contemplative to purposeful]
+    "The alert is not new, but it is precise: an unexpected swell from a distant storm has coupled with a local current. The hybrid coastline was designed for flex — to move, to absorb — but"
+    "models always have margins. You feel the familiar tightening — not the sharp panic of a new disaster, but the steady, practiced concern of someone who has to manage the consequences."
+    "You tap the sensor feed. The alarms route automatically to the community watch roster. Within minutes volunteers appear: kids from the rooftop nursery, older neighbors who have learned the choreography of sandbagging and sedge reinforcement, Rafi with an armful of tools."
+    "Rafi: (calling) 'We need to get the living berms higher at Sector Two. Volunteers — two lines on the east side. Lio, you film for the archive. Elias—can you coordinate municipal lift assistance?'"
+    "Elias Kahn: (already pulling on a jacket) 'I'm on it. I'll flag municipal crews for pump support and check the structural integrity of the reinforced pylons.'"
+    show maya_corvin at left:
+        zoom 0.7
+
+    maya_corvin "Camila 'Kai' Navarro, the sonar readouts — they said you'd consult if the wave period shortened. What are we looking at?"
+    "Camila 'Kai' Navarro: (hands full of cable) 'The period's shortened by four seconds. Surge coupling is consistent with a barometric dip. The pylons at the central pier will take strain. We can shore them now or accept localized wash-over. The choice is damage distribution.'"
+    "Maya Corvin: (voice tight, careful) 'Shore it. Prioritize community access points and the nursery.'"
+    "Camila 'Kai' Navarro: (a breath) 'Acknowledged. I'll reroute drone teams to manual placement.'"
+    "Her words are brisk, curt — but there is a steadiness behind them. The same person who once argued for scale is now on the scaffold, hands dirty, giving brisk orders with an efficiency that borders on tenderness."
+    hide maya_corvin
+
+    scene bg ch15_185025_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The slap of water, ropes creaking, a child's shout cut off by concentration]
+    # play music "music_placeholder"  # [Music: Mid-tempo strings — urgent but controlled]
+    "The tide tests the seam. It lifts and trails and finds weak spots. For a heartbeat you think the sea will win the small piece it seeks. A section of edge gives — a low slab"
+    "cracks and eases into the surf. Water pours where plants had been newly planted. A low, collective groan travels up the promenade."
+    "Maya Corvin: (soft, steadier than you feel) 'Hold the line. Re-sequence the pumps. Lio, get everyone back from the edge.'"
+    "Lio moves with a focused ferocity, directing younger volunteers. Elias Kahn directs municipal crews. Rafi organizes local hands. Camila 'Kai' Navarro barks an engineering checklist and then, for a moment, looks at you like something approximating regret."
+    "Camila 'Kai' Navarro: (low) 'We misjudged saturation at that node. I should have insisted on deeper anchors.'"
+    "You meet her gaze without anger, only an exhaustion that has sharpened into something like clarity."
+    show maya_corvin at left:
+        zoom 0.7
+
+    maya_corvin "You did what you thought would save the most. We all did."
+    "There is a long beat. The competence on both sides has been the thing that kept worse from happening. Yet competence still costs blood: a mother across the way will have her storage room ruined, a"
+    "small storefront will need tarp and repair, and another family will count out a year of lost produce."
+    # play music "music_placeholder"  # [Music: A single chord hangs — unresolved but not catastrophic]
+    # play sound "sfx_placeholder"  # [Sound: The tide's surge recedes; volunteers breathe, wet and trembling]
+    "The immediate crisis abates. Damage is real but localized. Someone counts seats, someone else counts seedlings. The community will catalog what was lost and what can be rebuilt. The hybrid solution held, mostly; the living systems will need replants. The engineered sections will require more anchors."
+    "You find a moment alone at the water's edge. The sea is silver, indifferent, rolling off as if nothing had happened. You set your hand on a piece of cold metal — a discarded, salt-rusted pipe"
+    "— and feel how something that should have been a tool has become a memory."
+    "Elias Kahn approaches, his coat soaked at the cuffs, his face the same map of fatigue you have memorized. He doesn't say 'I told you so' or 'we did it.' He simply hands you his field notebook, the one that has recorded meetings and murmurs, names and small kindnesses."
+    show elias_kahn at right:
+        zoom 0.7
+
+    elias_kahn "You held it together. Not because the machine did, but because you made the machine listen."
+    "Maya Corvin: (honest) 'You were in there too. You pushed them on hiring local supervisors, on funding maintenance. That mattered.'"
+    "Elias Kahn: (smiles, a tired thing) 'It did. And it will again. The work is cyclical.'"
+    "There is a small, vivid tenderness in the way he says it — not grand or romantic in the way a novel might demand, but practical, a commitment measured in maintenance schedules and shared worry. Your"
+    "hand brushes his as you take the notebook back. It is an ordinary contact and it steadies you."
+    # [Scene: Evening — The Promenade After the Surge]
+    hide maya_corvin
+    hide elias_kahn
+
+    scene bg ch15_185025_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Quiet laughter, chairs scraping, a low radio in the background]
+    # play music "music_placeholder"  # [Music: Soft piano, melancholy but persistent]
+    "Rafi sits across from you, a thermos between them. His palms are cracked; his voice drops to the kind you use when you need to say something true."
+    show rafi_odeh at left:
+        zoom 0.7
+
+    rafi_odeh "We lost a corner. We'll lose more before we stop losing. But they came. The new supervisors know the names of the elders. They know where the pipes run. We made the system share us."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "We didn't save everything. I still dream of the old promenade sometimes. I wake up thinking of the tiles."
+
+    rafi_odeh "Dreams are cheap. Action is expensive. We paid. So did others."
+    "You tilt your head. The ledger of costs is long and measured in things you can see and things you cannot: a house raised, a garden replanted, a funeral that never happened. You learned the arithmetic of compromise, and it sits like sand in your throat."
+
+    menu:
+        "Ask Elias about staying":
+            "You ask Elias, quietly, if he's thinking of taking a local post permanently. He pauses, then says, 'I don't know. My work keeps taking me away, but the part of me that matters is here.' The answer isn't a promise, only a private honesty."
+        "Offer Rafi a plan for expanded training":
+            "You sketch, in the air, a training plan: apprenticeship, honorariums, a rotation that keeps knowledge local. Rafi nods, eyes bright. 'We can do that,' he says, and it sounds like the future, small and stubborn."
+
+    # --- merge ---
+    "You fold both possibilities into the evening. They feel like coals in your palm — warm, feasible, not inevitable."
+    # [Scene: Night — The Old Promenade, Revived Section]
+    hide rafi_odeh
+    hide maya_corvin
+
+    scene bg ch15_185025_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft crash of tide, a child's distant laughter]
+    # play music "music_placeholder"  # [Music: A single cello line, drawn out]
+    "You walk to the bench and sit. Your fingers find the salvaged brass compass you keep in your jacket. It is heavy from years of being carried and light in the pocket of memory. The needle is long since fused. It does not point north. It points to habit."
+    "You lift it, feeling the tarnish under your thumb. You close your eyes and let the sea move through you — the memory of loss, the weight of what you preserved, the cost that never entirely stops arriving."
+    "You think of the people who were displaced, the houses that were raised and sold, the storefronts that closed. You think of the seedlings that took root and the children who learned to plant them. The"
+    "ledger is messy. The arithmetic of climate isn't clean. You have learned to keep accounts in a new currency: attention."
+    "Elias Kahn's hand finds yours across the bench. He does not kneel in declarations. He holds, as if to say he will return, that his presence can be a rotation. Camila 'Kai' Navarro's consulting number pings"
+    "in your pocket — an occasional message, a technical note, a small, professional regret. Lio hums a new mural idea — a wave that wears a map."
+    "You press your thumb against the compass."
+    show maya_corvin at left:
+        zoom 0.7
+
+    maya_corvin "We didn't win absolute preservation. We didn't lose everything. We made a place that needs tending."
+    "The tide is still. The night's work will be counted tomorrow. The board will call another meeting. The sensors will chirp their small warnings and keep your neighborhood awake with vigilance."
+    "You close the compass and let it sit in your palm like a promise you did not make but accept: that the work of loving something in a changing world is ongoing labor, not a final conquest. It will require patience, repair, and a willingness to share the steering wheel."
+    # play music "music_placeholder"  # [Music: The cello resolves into a quiet, steady line — not triumph, but endurance]
+    "You breathe in the salt and the paint and the exhaust of a city that never stops deciding what it will keep. The grief is still sharp in places — a memory you carry like a"
+    "bright, painful stone. But alongside it is a durable practice: you show up, you train, you grow things back, you push for local hire, you keep a watch roster. Love, here, is measured in the small"
+    "protocols and the stubborn habit of returning."
+    "You set the compass back into your pocket. Your hand lingers on the tarnish, then moves away. The shoreline will always keep you busy. So will the people you love. The knowledge that nothing is finished is both a burden and a kind of mercy."
+    hide maya_corvin
+
+    scene bg ch15_185025_10 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The city hums on, a layered chorus of life and machine]
+    # play music "music_placeholder"  # [Music: Fades to a single, sustained note]
+    # [Direction Cue: Long, lingering pause — a final breath]
+
+    scene bg ch15_185025_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

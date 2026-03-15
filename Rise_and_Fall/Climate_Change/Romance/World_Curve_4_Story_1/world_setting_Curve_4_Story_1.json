@@ -1,0 +1,127 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through intimate, human-scale stakes and the Genre (Romance) by placing a developing relationship at the center of a community grappling with environmental collapse. The romance becomes a lens that explores choices: between personal attachment and civic duty, between short-term relief and long-term resilience. The core conflict pits grassroots ecological restoration and community care against commercial redevelopment and political expediency. Emotional tension is driven by decisions that have literal consequences for the town's future — and by how love survives or changes when the world demands sacrifice.",
+    "setting": "Near-future coastal city (the harbor neighborhood of Solán Bay) experiencing rising sea levels, increasingly violent storms, and hot, humid summers. The atmosphere is simultaneously hopeful and precarious — community gardens and makeshift flood defenses knit neighbors together, while construction cranes and campaign posters promise quick fixes. Time period: 2035, an age of intermediate climate adaptation technology and strained municipal budgets.",
+    "visual_style": "Painterly realism with warm, weathered textures; subdued coastal palette (sea-glass greens, storm-grays, rusted copper); character-focused anime-influenced proportions; environmental detail: salt patina, sun-bleached wood, reflective puddles; cinematic lighting (golden-hour warmth contrasted with cold fluorescent municipal interiors).",
+    "main_characters": [
+        {
+            "name": "Mara Voss",
+            "role": "Protagonist",
+            "personality": "Resolute, empathetic, pragmatic idealist. She balances fierce protectiveness for her community with a quiet, stubborn optimism. Tends to lead by example, is impatient with performative solutions, and has a wry sense of humor that surfaces under stress.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves with a single sea-glass green streak tucked behind her ear",
+                "eyes": "Deep sea-glass green, rounded and alert with faint crow's-feet from squinting at bright reflections",
+                "clothing": "Worn navy field jacket with sewn-on community patches, faded denim overalls rolled above mud-splattered rubber boots; layered teeshirts in sun-bleached colors",
+                "accessories": "A salt-rusted locket containing a faded tide chart, waterproof Moleskine with tide maps, braided rope bracelet, patchwork messenger bag with labels from past rescue efforts"
+            },
+            "goal": "To secure a resilient coastal restoration project that protects neighborhoods and native habitats, anchored in community-led design rather than top-down redevelopment.",
+            "background_story": "Raised in Solán Bay, Mara trained as a marine ecologist but returned when storms worsened to organize neighbors. She lost a small family home to a storm surge in her twenties and has since channeled grief into practical action — restoring wetlands, teaching local youth, and fighting speculative development.",
+            "emotional_trait": "Strength: fierce loyalty and competence. Flaw: difficulty trusting institutions and letting others make decisions for her; can push people away when she feels urgent responsibility."
+        },
+        {
+            "name": "Tomas Herrera",
+            "role": "Love Interest",
+            "personality": "Warm, analytical, conciliatory. A planner who believes policy can be humane when done well. Patient and curious, good at translating technical language into accessible ideas. Often plays peacemaker between factions.",
+            "appearance_features": {
+                "hair": "Soft black, slightly tousled, usually swept back casually",
+                "eyes": "Warm hazel with flecks of amber; narrow when smiling",
+                "clothing": "Tailored but practical raincoat in slate-blue, rolled-sleeve linen shirts, slim cargo chinos, waterproof sneakers; often carries a lightweight windbreaker",
+                "accessories": "Digitized tablet with layered plans, a leather satchel with stationery, a thin silver band on his wrist engraved with coordinates of his childhood beach"
+            },
+            "goal": "To design and implement a pragmatic, politically viable adaptation plan that balances safety, aesthetics, and community needs.",
+            "background_story": "A municipal planner raised in a suburban inland town, Tomas moved to Solán Bay drawn by its cultural life and to work on equitable adaptation. He admires grassroots energy but is constrained by budgets and electoral cycles. He and Mara met organizing a volunteer shoreline planting the previous year.",
+            "emotional_trait": "Strength: diplomatic empathy and inventive problem-solving. Flaw: sometimes avoids confrontation and compromises in ways that dilute bold solutions, causing internal conflict when pressured."
+        },
+        {
+            "name": "Elys Reed",
+            "role": "Antagonist",
+            "personality": "Charismatic, strategic, pragmatic to a fault. She believes rapid economic redevelopment is the fastest way to secure the town's future. Confident and polished, with a rhetorical talent for reframing criticism as progress.",
+            "appearance_features": {
+                "hair": "Platinum-blonde bob, sharply cut and glossy",
+                "eyes": "Icy steel-blue, almond-shaped and calculating",
+                "clothing": "Crisp cream blazer and tailored trousers with minimalist lines; appearance is immaculately curated, even on storm-damp days",
+                "accessories": "Gold AR-frame glasses that display data, a slim tablet with property portfolios, an heirloom watch on a black leather strap"
+            },
+            "goal": "To push a large-scale waterfront redevelopment that promises new housing and commercial investment, framed as resilience but favoring private partnerships.",
+            "background_story": "Former corporate redevelopment executive turned mayoral hopeful with plans backed by regional investors. Elys grew up in a mobile family and views large projects as the quickest route to stability; she often clashes with community organizers she sees as idealistic or inefficient.",
+            "emotional_trait": "Strength: decisive leadership and political savvy. Flaw: emotional distance and a tendency to prioritize measurable outcomes over intangible community bonds, leaving her blind to grassroots nuance."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Niko Alvarez",
+            "relation_to_main": "Childhood friend of Mara and volunteer coordinator",
+            "appearance_summary": "Lean, sun-kissed, shaved sides with a long top in a loose bun; always in a bright coastal hoodie and fingerless gloves.",
+            "function_in_story": "Practical backbone of volunteer efforts; offers levity and local knowledge; tests Mara's capacity to lean on others."
+        },
+        {
+            "name": "Rosa Marin",
+            "relation_to_main": "Elder neighbor and community elder who runs the greenhouse",
+            "appearance_summary": "Silver hair in a braided crown, freckled face with warm brown eyes; floral apron and thick gardening gloves stained with soil.",
+            "function_in_story": "Moral compass and matriarchal figure; keeper of local oral history and Indigenous-informed restoration knowledge that frames ecological solutions."
+        },
+        {
+            "name": "Mayor Anton Chi",
+            "relation_to_main": "Municipal leader and political gatekeeper who negotiates with Elys",
+            "appearance_summary": "Rounded spectacles, balding crown, conservative suits with small lapel pins representing coastal resilience programs.",
+            "function_in_story": "Holds budgetary power; susceptible to political pressure; serves as the immediate institutional obstacle the protagonists must persuade."
+        },
+        {
+            "name": "Lena Park",
+            "relation_to_main": "Tomas' younger sister and a civic journalist",
+            "appearance_summary": "Short bob dyed midnight blue, practical field vest with pockets for recorder and camera; quick, observant expression.",
+            "function_in_story": "Amplifies public narratives via reporting; can sway public opinion and expose hidden agendas."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harbor Promenade (the Flood Line)",
+            "visual_description": "Long, low-angled late-afternoon light glints off pooled water along a cracked concrete promenade. Rusted pilings and seaweed-streaked benches sit under a sky streaked with lingering storm clouds. Patches of resilient dune grass and temporary sandbags create a chorus of green and beige against steel-gray water; distant cranes silhouette against a muted orange horizon."
+        },
+        {
+            "name": "Rosa's Greenhouse Conservatory",
+            "visual_description": "Warm, humid interior flooded with honeyed sunlight through patchwork glass. Lush pockets of native marsh plants and suspended seedlings cast soft, mottled shadows on earthen paths. Drip irrigation tins glitter, and stained wooden tables hold handwritten labels; the air smells of damp soil, citrus, and salt."
+        },
+        {
+            "name": "Municipal Planning Office",
+            "visual_description": "Cold fluorescent-lit chambers with polished concrete floors and a wall of glossy renderings. Large maps pinned under glass reflect gridlines and tide-model overlays. The mood alternates between sterile professionalism and the tension of low, urgent conversation; rain streaks the tall windows during storms."
+        },
+        {
+            "name": "Rooftop Garden at the Old Textile Mill",
+            "visual_description": "A rooftop escape: raised beds in reclaimed shipping containers, wind-worn trellises, and a small communal table under a weatherproof canopy. Evening sky frames a horizon of stacked buildings and the sea beyond; strings of low-voltage bulbs hum, creating pockets of warm light against cooling blue air."
+        },
+        {
+            "name": "The Lantern Lighthouse",
+            "visual_description": "Perched on a jagged outcrop battered by spray. The beacon is a chipped white tower; the path up is narrow and slippery, lined with salt-crusted rocks and wind-swept grasses. Dawn light picks out warm ochres on the wet stones while the sea churns dark teal below."
+        },
+        {
+            "name": "Stormfront Beach (Post-Surge)",
+            "visual_description": "A desolate stretch of sand littered with driftwood and fragments of washed-up infrastructure. The sky is low and bruised; sunlight struggles through heavy clouds to produce a luminous, desaturated palette. Scattered emergency tarps and community-made markers hint at recent upheaval and ongoing recovery."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love",
+        "Community Resilience",
+        "Sacrifice",
+        "Hope vs. Pragmatism"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A community-led hybrid solution is adopted: a scaled-back redevelopment combined with living shorelines and protected green belts. Mara and Tomas deepen their partnership personally and professionally, marrying public service and grassroots stewardship; Elys, politically checked, pivots to a less centralized role."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The town secures partial protections but must concede some waterfront parcels to private investment. Ecological restoration slows but endures in pockets. Mara and Tomas remain close but accept different roles — she stays in-street as an organizer while he takes a regional post that requires travel; their relationship continues, tempered by distance."
+        },
+        {
+            "type": "Sad",
+            "summary": "A catastrophic storm breaks before durable plans are implemented; several neighborhoods suffer heavy loss. Mara loses a beloved site and, disillusioned by political inertia, withdraws from public life. Tomas stays within the system but is unable to prevent the outcome; the romance dissolves under grief and blame, leaving a fractured community."
+        },
+        {
+            "type": "True",
+            "summary": "Mara chooses long-term systemic change over a single romantic resolution: she leads a networked movement that influences regional policy. The ending focuses on collective legacy rather than personal closure — relationships shift, some deepen, some end, but the story honors honest choices and the complexity of balancing love with duty."
+        }
+    ],
+    "estimated_chapters": 6
+}

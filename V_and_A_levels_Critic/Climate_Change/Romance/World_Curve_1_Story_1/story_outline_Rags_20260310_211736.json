@@ -1,0 +1,493 @@
+{
+    "title": "Tidebound Promise",
+    "summary": "I am Maya Rios: a hydrology technician turned grassroots organizer. The season’s first council hearing forces a choice that will define my neighborhood’s future. I must decide whom to trust: Elliot Chen, whose living seawall prototypes could save homes but require community buy-in; Sami and Dr. Noor, who push for public pressure and urgent radical action; or Irene Voss, the council leader whose private redevelopment offers fast funding but heavy social cost. Each path tests my fear of reliance and my grief over a brother I lost to a storm. Romance with Elliot grows through shared technical labor, intimate late-night problem-solving, and the ethical friction of compromise. Across branching routes, I balance love, responsibility, and systemic leverage: some choices yield a negotiated community-led pilot and a personal partnership; others demand painful trade-offs or moral improvisation leading to complex, quieter victories. The arc is Rise—progress forged by collaboration, hard lessons, and incremental triumphs—culminating in durable infrastructure and a steadier, though imperfect, future for the Harborfront.",
+    "emotional_curve_type": "Rags to Riches (Rise)",
+    "player_character": "Maya Rios",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Low Tide",
+            "branch_designation": "Common",
+            "narrative_focus": "I stand on Harborfront’s raised walkway at low tide, watching children paddle between half-submerged stalls. My chestnut hair is pulled into its usual utilitarian bun; a stray curl catches the salt wind. I check the faded orange field notebook at my hip—sand, scrawled equations, and a list of names—and touch the solder-scarred multi-tool that hangs from its cord. The neighborhood smells of kelp and diesel; patched pilings creak. I’m here because the council hearing looms and because the memory of my brother’s sudden flood still sits behind my ribs. Practical steps feel like the only honest answer: mapping pilings, checking tide predictions from Elliot’s patched smartwatch, and coordinating with Sami’s courier routes. But grief makes me close my mouth when offers of help appear; I default to doing everything myself. The Green Spire lights in the distance promise collaboration, but trust is a shoreline I’ve been too afraid to cross. Today I list vulnerabilities, inventory salvaged materials, and rehearse a speech to the neighbors. When a wave of kids shout and a kayak drifts by, I realize every plan depends on people showing up—something I’m not entirely sure I can ask for yet.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Sami",
+                "Neighbors",
+                "Children"
+            ],
+            "locations_used": [
+                "Harborfront terrace"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Knot of Promises",
+            "branch_designation": "Common",
+            "narrative_focus": "I cross to the Green Spire because Elliot sent a message: “Prototype tonight.” The tower smells like damp soil and sawdust; light filters through mossed skylights. Elliot is there with his long swept fringe dusted with sand, drafting glasses perched askew and a vial of dune-grass seeds at his throat. He talks in bright green metaphors about roots and tensile loads; his soft green eyes shine when he shows me a living seawall mockup. I listen, skeptical but curious—his warmth makes me flinch and hesitate, not because of charisma but because partnership demands a vulnerability I’ve been avoiding. Dr. Noor’s logs are on the bench, filled with cold, precise graphs; Irene’s glossy renderings leak from someone’s tablet in the corner, and Luca’s polished models glint like promises I’ve resisted. Sami bursts in, neon lifevest flapping, and slams a list of protest locations on the bench. The evening becomes a tangle: scientific rigor, community rage, and Elliot’s playful optimism. I jot down who can build what, what materials we need, and what we can offer the neighbors. The task is enormous, but standing among the plants and jars of water cultures, I feel a familiar, small hope kick at my ribs—like moss finding a crack.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Irene Voss",
+                "Luca",
+                "Sami",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Green Spire"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Council Pitch",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "City Hall tastes of cold coffee and polished mahogany; rain threads the windows like a warning. Irene stands at the dais—steel bob, steely gray eyes locked on the audience; large renderings of Luca’s barriers cast slick shadows. I have ten minutes to represent the Harborfront. My hands—callused from work trousers and solder scars—shake only slightly as I remember my brother’s laugh and the way he ran when water rose. I frame our plan: a living seawall prototype, community labor credits, and a pilot retrofit for the most vulnerable terraces. Elliot’s prototype data hums on my tablet; Dr. Noor’s tide scenarios anchor our numbers. Sami’s presence in the gallery hums like a livewire. Irene smiles, measured, and offers a counter: fast, scaled barriers and private redevelopment funded by Luca, promising jobs but requiring eminent-sale clauses. The room splits along predictable lines. My speech becomes an ethical map: do I press for community-led piloting with Elliot? Do I join Sami in escalating public pressure and exposing Irene’s assumptions? Or do I bargain with the chill pragmatism of Irene, trading some autonomy for guaranteed funds? The choice is a tide: it decides who we have to trust—and whom I let close enough to matter.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which strategy do I commit to at the hearing?",
+                "options": [
+                    {
+                        "label": "Stand with Elliot and push for a community-led pilot.",
+                        "consequence": "Duels Irene rhetorically; commits neighbors to a prototype plan with community labor.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Join Sami and Dr. Noor; escalate public pressure and demand hearings.",
+                        "consequence": "Mobilizes direct action and scientific pressure; risks alienating moderates.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Negotiate with Irene and Luca for funded infrastructure in exchange for concessions.",
+                        "consequence": "Secures resources quickly but smells of compromise; could save homes or displace them.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Irene Voss",
+                "Luca",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Sami",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "City Hall"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Prototype Night",
+            "branch_designation": "Route A",
+            "narrative_focus": "Elliot and I hoist panels of living scaffold on the Green Spire’s workdeck as rain drums faintly in the harbor. He moves with a kind of messy, hopeful competence—smudges of soil at the tips of his black undercut, a vial of seeds tapping against his chest. We measure, braid root-mesh, and argue softly over anchor depths. Working together drains the usual edge I bring to everything; my hazel eyes narrow into concentration, but I find myself laughing when a stubborn vine refuses to cooperate. We test tension on a salvaged piling while the prototype glows, moss-filtered light pooling on our boots. Sami drops by with hot, damp thermoses and a list of neighbors willing to volunteer. The prototype is rough: reed panels, reclaimed glass, and Elliot’s tinkered irrigation. But the design sings when it holds water. At the end of the night, Elliot asks—quietly, almost offhand—if I’ll co-lead the pilot. The invitation is technical, political, and personal. I taste fear—of responsibility, of letting someone else share the burden that’s become my identity. Yet watching Elliot’s paint-stained hands and bright, round eyes, I think: maybe asking for help is the first act of rebuilding.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Sami",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Green Spire rooftop"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Trial at Low Dock",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "We haul the pilot down to the low dock where boardwalk stalls sink into brackish water. Neighbors gather beneath salt-proof fairy lights; kids paddle by in makeshift rafts. I coordinate logistics—where to anchor, how to route irrigation, who keeps watch—and Elliot tunes the prototype’s micro-irrigation. Dr. Noor texts a last-minute tide correction; Sami organizes a volunteer ring. As we launch the panel into the surge, Luca’s liaison appears with an offer: additional funding and engineered anchors if we will allow his company access points—a compromise that could smooth permit timelines. I stand between tools and choices, chestnut bun damp, the solar pendant at my throat flickering. My old instinct is to refuse any private hand; my pragmatism whispers about needed galvanization. I replay my brother’s image—running, lost to sudden water—and I measure risk by what I cannot afford to lose. The neighbors wait for my call. I have to decide: fully guard community autonomy with slower, messy consent; accept Luca’s strings to secure scale; or try an experimental adaptation that could speed success but carries unknown ecological risk. The tide is rising around our ankles—decision time.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we proceed with the prototype under pressure?",
+                "options": [
+                    {
+                        "label": "Refuse private anchors; prioritize community labor and consent.",
+                        "consequence": "Slow, democratic rollout with neighborhood ownership; risk of delays but strong buy-in.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept Luca’s funded anchors in exchange for limited access.",
+                        "consequence": "Faster deployment and broader scale, but compromises autonomy and invites political strings.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Deploy a risky open-source modification Elliot proposes to speed resilience.",
+                        "consequence": "High technical reward if it works; unknown ecological side-effects and legal exposure.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Sami",
+                "Luca",
+                "Neighbors",
+                "Children"
+            ],
+            "locations_used": [
+                "Low dock",
+                "Flooded Boardwalk Market"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Harbor Reclaimed",
+            "branch_designation": "Route A",
+            "narrative_focus": "Weeks later, the pilot holds through a spring surge. If I chose Option A, it’s because we cultivated consent: neighbors built panels, children helped anchor reeds, and Sami led watch shifts. We eat under the patched pilings, voices low but joyous. Elliot’s grin is quieter now, but his round green eyes catch light when we watch water curl harmlessly against our living wall. Irene, bruised by a public relations hit, offers scaled funding to extend the pilot rather than bulldozing terraces—an imperfect victory but one that keeps families intact. If I chose Option B, the anchors Luca supplied turned the tide quickly; permits cleared and a larger area received reinforcement, but a few long-time residents accepted relocation stipends, and I live with the compromise like a stone in my shoe. In both versions, my fear of being amounted to lone resistance softens; I learned to ask for help and to share responsibility. Elliot and I formalize a working partnership—late nights planning, hands gritty, and nearer to something tender. The Harborfront breathes. The city still leans on its lawyers and spreadsheets, but we have a living spine that hums with neighborhood memory—and my brother’s ghost finally feels less like a chain.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A/B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Sami",
+                "Irene Voss",
+                "Neighbors",
+                "Children"
+            ],
+            "locations_used": [
+                "Harborfront terraces",
+                "Patched pilings"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Boardwalk Rally",
+            "branch_designation": "Route B",
+            "narrative_focus": "Choosing to escalate, I stand with Sami at the head of a crowd on the flooded boardwalk. Neon lifevests bob and hand-painted signs flap: “Homes Not Barriers.” Dr. Noor files a motion with tide data while I narrate neighborhood stories into a borrowed camera. Iris-streaked wet light catches on my solder-scarred multi-tool as I move through people, organizing water teams for an approaching storm. Elliot supports from the fringes, offering technical testimony but deferring to the community’s voice—his smudged drafting glasses askew, eyes steady but worried. We stage a daylight action to demand an emergency hearing that forces Irene onto the defensive. Luca’s envoys show up with glossy pamphlets, offering compensation and relocation as a smoother path; many neighbors tremble between immediate safety and long-term connection to place. I feel the old instinct to do everything myself flare: arrange legal observers, coordinate kayaks, and hold one more person’s hand through a panic. The public pressure works: the council must respond. The mood is electric, raw, and dangerous; we’ve made a lever, but pulling it could fracture the neighborhood or save it.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Rios",
+                "Sami",
+                "Dr. Noor",
+                "Elliot Chen",
+                "Luca",
+                "Irene Voss",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Flooded Boardwalk Market",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Leak or Law",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The council delays. Dr. Noor uncovers a set of internal assessments suggesting Irene’s concrete barrier plan would fail ecologically in the long run. Sami wants to leak the files; legal counsel warns of ruinous lawsuits. The neighborhood teeters: some demand immediate exposure to force public outrage; others fear the backlash. I stand in a puddled alley, my hazel eyes reflecting streetlight, the rain dampening my cropped trousers’ knees. Elliot hands me a printout of a new hybrid design that could win public support—if we present it as a civic alternative rather than a leak. Luca’s lobbyists circle, offering settlements to neighbors who will speak in favor of Irene’s plan. The choice presses at every wound: expose wrongdoing and hope the public rises, risking legal and political erosion; pursue lawful hearings and slower persuasion, hoping the council has room for change; or push a risky public demo of our hybrid design to sway opinion with performance. Each path could save lives or crush trust. My fear of reliance clashes with the need for bold action. The moment asks me to choose not only a tactic but the kind of leader I will be.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we force the council’s hand?",
+                "options": [
+                    {
+                        "label": "Leak Dr. Noor’s analysis to the press with Sami.",
+                        "consequence": "Public outrage; immediate political crisis; legal peril.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "File a formal legal challenge and push hearings through Dr. Noor’s testimony.",
+                        "consequence": "Slower, legally grounded strategy that could win if the council listens.",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Stage a dramatic demo of Elliot’s hybrid proposal to win public sympathy.",
+                        "consequence": "A spectacle that may change hearts quickly but risks being dismissed as a stunt.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Dr. Noor",
+                "Sami",
+                "Elliot Chen",
+                "Luca",
+                "Irene Voss",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "City Hall outskirts",
+                "Puddled alley"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Tide of Consequence",
+            "branch_designation": "Route B",
+            "narrative_focus": "After the leak or the public demo, the city convulses. If we leaked Dr. Noor’s analysis, the press splashed Irene’s miscalculations and Luca’s projections across front pages; the council is shamed into a constrained compromise. A hybrid program emerges, partly funded and partly community-run, but lawsuits and political infighting leave key neighborhoods in limbo—some families relocate under pressure. If we staged the demo, Elliot’s prototype captured hearts; viral footage of kids safely paddling near the living wall forced politicians to negotiate. The compromise we extract feels both enormous and partial: infrastructure funded, pilot programs launched, but some concessions to private contractors remain. My relationship with Elliot deepens—there are late nights soldering irrigation valves, hands muddied together—but the victory is pocked with cost. I feel relief and fatigue, a tenderness that terrifies me because it requires trust. Dr. Noor continues to monitor and speak, Sami organizes recovery crews, and I accept that progress is layered and imperfect. The Harborfront lives, changed by our pressure; real security still needs time and vigilance, but something durable has begun.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Sami",
+                "Irene Voss",
+                "Luca",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Outside City Hall",
+                "Harborfront"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Deal at Dusk",
+            "branch_designation": "Route C",
+            "narrative_focus": "I take Irene’s meeting because the city is tired and resources are real. City Hall’s polished light silvers Irene’s steel bob; Luca’s glossy models sit like promises on the table. Irene argues from the language of legacy: fast barriers mean fewer displaced in the immediate term and a fiscal stabilization that ostensibly buys time. She is practiced and persuasive—her mother-of-pearl brooch catching the lamp’s gleam. Luca smiles with perfectly groomed charm, the sheen of new materials reflecting the room. I press for concessions: community oversight, housing protections, and a clause for living infrastructure pilots in select neighborhoods. She counters with tightened deadlines and strict contractor oversight. Elliot watches from a distance, eyes bright but dimmed; Dr. Noor’s cautious voice hangs in my memory, warning that top-down projects often fail ecologically. I feel the pull of an immediate fix that could save some people now—and the ache of potential displacement later. My hands near the field notebook; each clause I accept might mean a neighbor’s security or a subtle erosion of agency. This meeting will define whether I can hold community intent while taking pragmatic funding. The ledger feels like a moral tide we must navigate.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maya Rios",
+                "Irene Voss",
+                "Luca",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "City Hall meeting room"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Contract or Conscience",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The negotiation tightens into clauses. Luca offers anchors and rapid permits—but only if a portion of the harborfront is ceded to redevelopment and select households accept buyouts. Irene promises oversight and a small living-infrastructure pilot as bargaining. Sami organizes rallies; some neighbors plead for immediate safety for their children, while others fear losing ancestral homes. Elliot offers a third way: a hybrid plan that phases private barriers while expanding community pilots, but it requires legal guarantees. I sit on a bench beneath a sodium lamp, the harbor wind matted into my bun, and read the draft agreement. My tendency to shoulder responsibility alone warps this choice into a test of my moral spine: can I accept a partial, imperfect victory that keeps more people alive now, even if it risks longer-term ecological harm? Or do I refuse, force more radical change, and risk disaster for those who can’t wait? Alternatively, Elliot’s third way asks me to broker a legal guarantee, requiring trust in municipal oversight—a fragile hope that may yet hold. The city holds its breath; I must pick a route and live with what follows.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which contractual path do I accept?",
+                "options": [
+                    {
+                        "label": "Accept the funded barrier deal with guaranteed pilot and housing protections.",
+                        "consequence": "Immediate funds and scaled protection with negotiated protections; compromises community autonomy.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Refuse the deal; demand enforceable legal guarantees and community veto.",
+                        "consequence": "Forces a legal fight and prolonged uncertainty but preserves greater community control.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Broker Elliot’s phased hybrid plan as a third way, asking for rapid pilot approvals.",
+                        "consequence": "Creates a fragile coalition between private and community actors, reliant on trust and oversight.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Irene Voss",
+                "Luca",
+                "Sami",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Harborfront bench",
+                "City Hall vicinity"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "City of Salt and Seeds",
+            "branch_designation": "Route C",
+            "narrative_focus": "The negotiated hybrid launches. If I accepted the funded barrier with pilot guarantees, we gain immediate, scaled protection with a mandated living-infrastructure pilot funded by the city. Some households are relocated under protected buyouts; others stay because protections are guaranteed in the contract. The victory is complex: I carry pride and a hollow ache at displacement. If I brokered Elliot’s phased hybrid plan, the coalition holds—for now. We deploy pilots and retrofit corridors while Irene’s team builds engineered barriers elsewhere. Oversight committees form, and Dr. Noor sits on them; Sami keeps communities mobilized to ensure compliance. In both outcomes, I have learned to translate stubborn competence into negotiated collaboration. Elliot and I move into synchronous work rhythms—late nights at the Green Spire, soggy gloves, and a closeness that is neither rushed nor safe but is steady. We do not rid the city of its contradictions, but we change its vectors: funding begins to be conditioned on resilience measures; community voice is embedded in contracts. I stand on a stabilized terrace at dawn, the living seawall breathing in front of me, and understand that repair is iterative—there’s triumph, grief, and the steady work of keeping promises.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option A/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Dr. Noor",
+                "Sami",
+                "Irene Voss",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Hybrid pilot along the harbor",
+                "Stabilized terrace"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "The Open-Source Gamble",
+            "branch_designation": "Alternate Route from 5 Option C",
+            "narrative_focus": "We deploy Elliot’s open-source tweak under moonlight: a risky irrigation pulse that could let the living panels establish root cohesion faster. The legal panic is immediate; permits are ignored, and Luca’s team threatens injunctions. But the pilot holds through a surprise spring surge—roots deepen, panels flex, and floodwaters curl harmlessly. The neighbors cheer in wet claps while I stand, chestnut bun plastered to my skull, the solar pendant catching streetlamp light. The victory tastes electric and precarious: our technical gamble paid off, but it also painted a target on our backs. City Hall opens an emergency review that could criminalize unauthorized engineering even as it tries to learn from our success. Elliot’s eyes are luminous; his grin is sheepish and full of relief. We’ve provoked a policy shift through action, not permission—a messy but effective variant of progress. I feel pride, the sting of risk, and a new trust in partnership. The Harborfront’s living spine becomes both a triumph and a test case; we’ve hacked policy through practice. The world is louder now; we have momentum—and enemies.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Neighbors",
+                "Luca",
+                "City Hall"
+            ],
+            "locations_used": [
+                "Flooded dock at night",
+                "Low dock"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Legal Scaffold",
+            "branch_designation": "From Chapter 8, Option B",
+            "narrative_focus": "We choose law over spectacle: Dr. Noor’s testimony, paired with neighborhood affidavits, forces a judicial review. The court orders a phased pause on Irene’s immediate contracts and mandates a scientific assessment. It’s agonizingly slow—weeks stretch to months—while neighbors live in uncertainty and media cycles move on. Yet the legal scaffold holds: protective clauses are written into the new procurement process, and community oversight becomes a legal requirement for future contracts. The victory is procedural and heavy with patience. Elliot spends long days drafting resilient specifications; when he laughs, it’s brittle but hopeful. I learn to translate agitation into policy language—phrases on paper that can bend institutions. The Harborfront doesn’t immediately mend; some families accept buyouts before guarantees are fully ironed out. But the legal victory reframes the city’s bargaining terms. It’s not a Broadway triumph, but it’s durable: the system now recognizes, however begrudgingly, that community knowledge is evidence. I stand at a hearing exit under soft drizzle, exhausted and oddly elated—progress that tastes like ink and slow justice.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Dr. Noor",
+                "Elliot Chen",
+                "Neighbors",
+                "Irene Voss",
+                "Luca"
+            ],
+            "locations_used": [
+                "Courthouse steps",
+                "Hearing exit"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Vetoed but Not Broken",
+            "branch_designation": "From Chapter 11, Option B",
+            "narrative_focus": "We reject Irene’s initial contract and demand enforceable veto power for community councils. The ensuing legal fight is a bruise: the council delays protections while lawyers argue. Yet our refusal catalyzes a decentralized resilience strategy—pockets of neighborhoods federate into mutual-aid networks, building micro-pilots and sharing seed funds. I personally relinquish a municipal role I’d hoped for, choosing instead to lead a federated community resilience network. The choice is sacrificial and complicated; some neighbors accept relocation, others stay to rebuild. Irene survives politically but is forced to reckon with evidence of costs; Luca’s firm shifts marketing. Elliot commits to training locals and traveling to teach living-construction techniques—our partnership becomes professional, domestic, and patient. We do not win a single sweeping triumph, but we seed durable repair across many small sites. The Harborfront is patched, connected, and more resilient for a different set of reasons. Standing at the Old Dune Reserve with Elliot at sunset, I feel the slow warmth of having chosen integrity over comfort: a quieter, truer kind of rising.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Rios",
+                "Elliot Chen",
+                "Sami",
+                "Neighbors",
+                "Irene Voss",
+                "Luca"
+            ],
+            "locations_used": [
+                "Old Dune Reserve",
+                "Federated community sites"
+            ]
+        }
+    ],
+    "remarks": "All chapters are written in first-person POV. The story uses a branching tree with primary split at Chapter 3 and additional splits at Chapters 5, 8, and 11, producing multiple endings reachable within the maximum depth (no path from Chapter 1 to an ending exceeds 6 chapters). Emotional arc is Rags to Riches (Rise): valence progresses from Negative toward VeryPositive through each route; arousal builds steadily toward VeryHigh at climactic decisions and endings.",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

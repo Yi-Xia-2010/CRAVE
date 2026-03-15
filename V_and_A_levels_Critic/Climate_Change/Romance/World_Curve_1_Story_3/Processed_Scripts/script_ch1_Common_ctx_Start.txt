@@ -1,0 +1,148 @@
+### SCRIPT
+# Route: Route C — Ending: True
+# Context: Start
+
+[Scene: Maris Bay Boardwalk | Dawn]
+[Background:"ch1_Start_1"]
+[Music: Sparse, low piano; distant, hollow harmonics]
+[Sound: Planks creaking, gulls calling, distant engine hum]
+
+You wake to brine. It arrives first — a cool, saline tide that threads under your lashes and fills the hollow behind your sternum. The boardwalk smells of wet wood and frying fish from a vendor already coaxing warmth into the day. You pull your jacket tighter against the dawn wind, feeling the copper barometer at your throat, warm from your skin.
+
+You move with the practiced economy of someone who has learned to read the coast before her coffee: step, listen for a loose nail, glance at the tide line. Your satchel bumps against your hip — seed packets, damp paper blueprints, a small notepad scrawled with planting schedules. The reed beds, temporary as they are, rustle like low voices beside the dock. Their roots are still settling. You kneel, fingers flattening into soft wet soil, and check each bundle — are the bundles rooted deep enough? Are the sandbags holding?
+
+[Background:"ch1_Start_2"]
+[Sound: Water lapping against pilings]
+
+The memory of the storefront — the wooden sign with chipped paint, your mother's handwritten ledger, the first night of the surge — folds over everything like a persistently damp cloth. The ledger's names rise up in your mouth like salt: vendors who carried on, families who lost stairs to seawater, the morning you stood on the boardwalk and watched waves shove a place you loved away. That is why you plant reed beds. That is why you carry seeds in a battered satchel as if they might be talismans.
+
+A notification vibrates low against your thigh. You thumb it, half afraid and half hungry for distraction. Irene Vale's renderings flicker on-screen: a glossy ribbon of engineered seawalls; neat layers of concrete and steel, dotted with captioned economic gains. The colors are persuasive — warm amber jobs metrics, bold sans-serif assurances — but the image omits the marsh that breathes behind the shoreline. Your stomach goes tight.
+
+You tuck the phone away. Tala's name pops up in a long thread of blue: "Shoreline patrol at 09:00? Volunteers meeting by Reyes' boat. Wear boots. Bring thermos. —Tala" You can hear Tala in your head before she arrives — quick laughter, the rattle of beadwork against her braid.
+
+You don't have to wait long. Tala's footsteps are a staccato against the boardwalk, a small, human percussion that shifts the morning for you. She comes up the planks with a volunteer vest slung over one shoulder, cheeks flushed from the walk and exertion.
+
+Tala: "You look like you've been wrestling with the tide all night. How're the beds?"
+
+Maya Alvarez: "Settling. Roots look good, but the sand shifts more than I like. We might need another line of stakes by high tide." (You keep your voice level; practical things keep panic at bay.)
+
+Tala [tilting her head]: "You fought with the city about stakes last month — they sent that contractor with the shrimp hat and five opinions. Did you remember to file the placement memo?"
+
+Maya Alvarez: "I did. I left it on Lionel's desk." (You want to say 'I berated him about it' and then laugh, but the laugh gets caught in the salt air.) "But the memo isn't what holds these things in place. People do."
+
+Tala [softening]: "People will be there. We have Reyes and half the dockhands. I texted half the high school crew too. Evan said he'd stop by with the desalinator prototype."
+
+Maya Alvarez: "Good. If that kit scales, it buys people breathing room when wells salt. It's not a seawall, but it's work that doesn't erase the marsh."
+
+Tala's smile is quick, sharp relief. She reaches out and bumps your shoulder with an elbow: a familiar, grounding gesture. For a moment the tide in your chest lets up.
+
+[INTERACTION]
+> Choice A: "Give Tala a quick plan, keep moving"
+> Choice B: "Let Tala see the worry"
+[Outcome A: "You rattle off a list — stakes, volunteers, spare burlap sacks — and Tala nods, already running through logistics. The rhythm of work steadies you."]
+[Outcome B: "You slow down, let the worry settle into words. Tala's eyes narrow, not in judgement but in that fierce way she has of taking a burden and making it shared. She squeezes your hand and says, 'We'll carry it together.'"]
+[MERGE: The morning continues; logistics and small comforts hold the moment.]
+
+You stand to walk the next stretch. The boardwalk creaks under new weight; the sun lifts a little higher and the fish vendor lights his first grill. The town is waking like an old beast: awkward, habitual, and stubbornly alive.
+
+A soft ping announces an incoming mail. Dr. Sora Kim. Subject: "Maris Bay Marsh — Nonlinear Tipping Thresholds (draft)." You pull the message open on the bench, the screen warm in your palm. Sora's notes are clinical and kind: graphs with gentle colors, field notes, a paragraph flagged with asterisks about threshold behavior in local marsh systems. A particular sentence keeps snagging at you: "Incremental marsh loss now correlates with sharply increased erosion at 0.3 meters sea-level displacement; engineered fill can cross-accelerate this by compacting peat and preventing hydroperiod resilience."
+
+You let the sentence settle. Scientific phrasing cannot remove the human crisis it indexes. It cannot soften the funeral air you still carry for the storefront.
+
+You tap a reply and then stop. You could fire off a dozen pointed questions, demand a public summary, insist on immediate testimony — you want to move like that — but you fold the impulse back. Low arousal means you take small, powerful breaths. You write instead: "I'll read this thoroughly. Can we meet before the briefing? I want a one-page for Lionel — something he can read on the tram."
+
+[Sound: Distant gulls, a soft exhale of wind]
+
+Sora replies almost immediately, voice-call offered. You accept. Her presence on the line is the domestic kind of authority; there's a soft rustle as she moves around her lab. Her voice is steady, like a tide you can set your watch to.
+
+Dr. Sora Kim: "I know your history with the site. We have models, Maya — but models only move people when the story behind them is tight. If Lionel hears 'tipping point' without a human face, it becomes an abstraction."
+
+Maya Alvarez: "He hears numbers better than faces lately." (A small, bitter laugh.) "I can make faces. I can carry stories. I just need your bullet points to stick."
+
+Dr. Sora Kim: "I'll distill it. But beware— don't let anyone tell you data alone will win hearts. Irene's renderings are persuasive because they hand someone something immediate: jobs, lights, a promise of normal. Your work is the slow craft; you know this. We'll sharpen the edges."
+
+Maya Alvarez: "Promise me you'll be blunt with the council. No sugar for Irene-coded projects."
+
+Dr. Sora Kim [sighing]: "You know me. Blunt is a cardio workout."
+
+The call ends with small, mutual laughter threaded through the gravity. You fold your phone back into your satchel and feel the copper barometer chill again against your skin as the breeze passes.
+
+Evan Kaito is a punctual sort of late-person: always arriving when the tide is about to change, never when a meeting begins. His shadow cuts across the dock before his voice reaches you. He carries a crate of parts, the desalinator prototype humming softly beneath a tarp. Warm grease smell and metal; his hands always smell like that — solder and sea.
+
+Evan Kaito [offering a small, uncertain grin]: "Morning. I didn't know you'd be out here so early."
+
+Maya Alvarez: "I like mornings before the meetings." (You want to tell him that meetings make you feel like a puppet, but you don't. It's simpler to say,) "How's the prototype?"
+
+Evan Kaito [brushing a loose strand of hair back with a thumb smudged in flux]: "Small wins. It evaporates slower than I want, but the battery pack held overnight. If we rework the condenser plates and trick a pair of community solar panels into the system, it could be run on a schedule. Not a miracle, but useful."
+
+Maya Alvarez: "Useful keeps people in their homes longer. That's what we need — time, options, dignity."
+
+Evan Kaito [hesitates]: "I read those renderings. Irene's team is very good at selling certainty. If she funds a big harbor fix, it could undercut small projects like this — not intentionally, but by swallowing grant attention."
+
+Maya Alvarez: (you look at the phone in your pocket but you don't pull it out) "We can't let a glossy plan erase the marsh."
+
+Evan Kaito [quietly]: "I want this to scale. I want it to mean we don't have to fight for scraps while the narrative becomes a concrete ribbon." He pauses, then, softer: "I wish I could promise more."
+
+Maya Alvarez: (You want to tell him you're tired of promises. You want to tell him you want him to stay. But you only say,) "We do what we can. We make the places people can use."
+
+Evan Kaito: "Okay." He moves closer to the reed beds, palms hovering over the shoots. "If you want, I can leave the prototype running at the old bakery tonight. Test it under load. If Lionel or someone comes sniffing for quick wins, we can show a real pilot."
+
+Maya Alvarez: (the idea is small, urgent, practical — the kind that fits you like a weatherproof jacket) "Do it. And bring the camera. Show the faces."
+
+Evan Kaito [a faint smile]: "I'll shoot the sunrise. People like sunrise."
+
+The exchange with Evan stretches, folds into the morning. The conversations you have are short, but each one reaches. Tala arranging labor, Sora distilling evidence, Evan tinkering toward a practical proof — they form a brittle scaffolding that holds you upright.
+
+[Scene: Verdant Rooftop Nursery | Mid-morning]
+[Background:"ch1_Start_3"]
+[Sound: Soft drip of irrigation; faint city hum below]
+
+You climb the narrow fire escape and the rooftop opens like a secret. Potted reeds and micro-marsh trays have been arranged in a careful tessellation; each pot bears a handwritten tag: "Reed — transplant 03/14," "Saltwort — trial plot." Your hands trail across leaves, the texture cool and waxy, soil rubbing between your fingers. The rooftop smells sharper than the dock — rain-soaked earth and compost, a green smell that almost tastes like possibility.
+
+You breathe in. Memory arrives again — not as a single blade but as a film: your storefront's door swollen with saltwater, the night air full of alarm, the ledger gone limp and unreadable. The guilt is steady and domestic. It is a weight that announces itself as a stain on your sleeve; you rub at the linen and only smear the soil.
+
+You open your satchel for a packet of seeds to check labels. The copper barometer swings against the paper, a tiny pendulum of family warmth. You think of the friendship bracelet on your wrist and how, as a child, you braided colors to promise things that felt larger than the world.
+
+[INTERACTION]
+> Choice A: "Tuck the grief behind a task — start cataloging trays"
+> Choice B: "Sit on the bench and let the grief be present for a breath"
+[Outcome A: "You catalog the trays with methodical fingers, giving each plant a number, a tag, and a small hope. The work quiets the knot in your chest and turns it into something useful."]
+[Outcome B: "You sit. You watch the light pool around a pot of saltwort. For a moment your breath matches the rhythm of the marsh grass: a slow, steady inhale and release. The guilt doesn't vanish, but it eases enough to stand again."]
+[MERGE: You choose, collect, organize, or sit — any way, the morning hums on.]
+
+You choose, collect, organize, or sit — any way, the morning hums on. Tala's voice over the radio: "Heads up, Maya — Lionel tweeted he'll be at the atrium by eleven to review proposals. Irene's team is projecting renderings at ten for a press crawl." The words are precise and small and heavier than you'd expect from a text.
+
+You feel an ache that is more than professional. There is a private ache as well — the soft wanting that flares in quiet moments: a hand to hold in the dark between storms, a person to share the weight without your having to catalog it first. You tuck that ache away like a damp scrap; you know how to keep soft things from slowing the tide.
+
+You check the clock and then your phone again. Irene Vale's project renderings behave like a bright, intrusive thing: neat diagrams that omit the marsh and a bullet list of jobs created. You scroll, feeling the low, steady pressure of obligation. If the Harbor project gets the initial nod, municipal attention, private capital, it will become the frame everyone else is measured against. Your work — reeds and desalinators and slow proof — could be sidelined as quaint until a storm proves otherwise.
+
+You stand on the rooftop, hands in earth, seeds in a pocket, and imagine a room where Lionel sits with a tablet and a steaming coffee, weighing payroll numbers against the marsh tests Dr. Sora has sent. You imagine Irene Vale's voice filling that room with confident sentences and a pen that makes commitments look inevitable.
+
+Your heart is not loud today. It is a low, steady tug. The arousal is small but rising: an alertness that gathers momentum as logistics snap into place, as renderings glow, as Sora's charts arrive. You know the briefing will be a test; you'll be asked to be eloquent under fluorescent lights, to make slow work sound urgent. You can do that. But you also know the tide is not patient.
+
+You check your satchel one last time. Seed packets — yes. Blueprints — folded, edges softened by being carried. The copper barometer rests warm again as you tuck the strap beneath a flap. The rooftop's green light pools around your fingers, and for a breath you pretend that the town's future will be decided by patient hands that measure peat and plant roots.
+
+You climb down toward the atrium with steps that feel measured. Every footfall is a small argument for steadiness. You rehearse phrases in your head: "The marsh is a living buffer"; "Engineered fill compresses peat"; "We need time to test the desalinator under load." You do not rehearse speeches about love, though the private ache presses like a damp cloth against your ribs.
+
+Ahead of you, the municipal building's glass reflects a sky the color of pewter. Inside, the atrium will smell of polished stone and recycled coffee. The room will make things look tidy. You already know how tidy things lie in renderings. You know the stubborn, messy truth of marsh grass.
+
+You pause on the boardwalk threshold. The town has asked you to be strategy; your hands smell of soil, your shirt bears salt and earth. You can feel the weight of people's mornings — the fishermen folding nets, the kids tripping to school, the older residents who remember when the marsh came up to their knees instead of their porches.
+
+You take one last breath of brine and compost and motor oil and resolve. The day will demand things from you: proof, stories, restraint, and a certain ferocious politeness. You tuck the private ache away as you step forward.
+
+[Background:"ch1_Start_4"]
+[Sound: The music holds a single, unresolved chord]
+
+You move toward the atrium, your mind cataloging priorities into the tidy list that keeps panic manageable: protect the marsh, keep people in homes, scale Evan's kit, distill Sora's data.
+
+The tide of the morning is small but gathering its current. You feel it at your sleeves — salt on your cuffs, the taste of decisions in your teeth.
+
+[Background:"ch1_Start_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

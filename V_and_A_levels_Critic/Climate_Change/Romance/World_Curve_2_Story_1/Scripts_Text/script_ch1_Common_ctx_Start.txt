@@ -1,0 +1,221 @@
+### SCRIPT
+# Route: Additional Route (Ending)
+# Context: Start
+
+[Scene: Tidebridge Harbor | Morning]
+[Visual: Wide shot of fractured piers; diffuse gray light on puddled planks]
+[Music: Soft, hopeful piano with distant gulls]
+[Sound: The slow slap of tide against pilings; a camera shutter clicks occasionally]
+
+You should have been inside, making tea, checking the meeting notes. Instead you stand on a splintered pier, the coral-red strap of your analog camera digging into your palm as you lift it to your eye again. The world condenses into rectangles of salt-gloss: a sandbag line, a half-sunken blue lobster crate, the glassy lip of a tidal pool reflecting a smear of cloud.
+
+The smell of peat and cold brine stings the back of your throat — peat, wet rope, and the faint smoke of a neighbor's stove. Your hair, sun-bleached and stubborn, falls a hair's width from your sea-glass streak when you lean, framing the shot. Your faded navy jacket is warm at the elbows where the patches have gotten softer with use. You inhale; the water's edge tastes like memory.
+
+You don't take pictures because documentation is art. You take them because proof keeps people from forgetting. Proof is what you will hold up in the council chamber later, proof that the marsh is not just numbers on a screen but a living thing you could still stitch back together.
+
+[Visual: Close-up of camera strap and your hands adjusting the lens]
+[Sound: Quiet click—shutter]
+
+You step along the boardwalk, heel thudding into wet wood. Jun is rigging a line to a leaning shack, sleeves rolled, rope hands moving with the easy economy of someone who has spent too many dawns at sea. He looks up when you call his name.
+
+Jun: "Ari. You're early. Figured you'd be running through the agenda again."
+
+Ari Tanaka: "I take pictures for an agenda. Different priorities." 
+(You let your mouth tilt; it's a practiced defense.)
+
+Jun: "Hm. You should get Etta's seedlings—she says the salicornia took last night. Small miracles."
+
+Ari Tanaka: "Small miracles matter." You lower the camera, the lens fogging a little from the cold. "How's your boat holding?"
+
+Jun's laugh is a tight, dry thing. He shrugs, the rope slack in his hands.
+
+Jun: "For now. Got a bigger job hauling sandbags today. Council's bringing supplies. Or... somebody's bringing supplies." (He gestures toward the plaza with the heel of his hand; there is a softness there—skepticism, habit.)
+
+Ari Tanaka: "That's the thing—'somebody' matters. We shouldn't let it be only big cheques and glossy pamphlets."
+
+Jun's expression sharpens, then softens. He knows how much you keep inside.
+
+Jun: "You're always the one who says that. You ever think of letting anyone else carry something for once?"
+
+Ari Tanaka: "Only on days I dream of sleeping past dawn." (You shouldn't joke; you do anyway.)
+
+[INTERACTION]
+> Choice A: "Frame the marsh's eelgrass—low angle"
+> Choice B: "Capture the pier from above—include the sandbags and tents"
+[Outcome A: "You crouch until your knees ache, lens skimming the waterline, catching the first thin blades of new growth."]
+[Outcome B: "You step back to a higher plank and take in the pier's patchwork—sandbags like teeth, tents like small islands."]
+[MERGE: Continue to next scene]
+
+[Scene: Etta's Greenhouse (The Nursery) | Mid-Morning]
+[Visual: Warm amber light through steamed panes; verdant plants pressed to glass]
+[Music: Soft strings under a low hum of insects in the grow-lamps]
+[Sound: Drip of condensation, the rustle of leaves]
+
+You hang your jacket on a peg and the greenhouse breathes around you—humid, peppery, a sanctuary of green against the gray outside. Etta is bent over a tray of seedlings, fingers stained dark with soil. Her hair is a white halo; she looks like a lighthouse that wants to be useful.
+
+Etta: "There you are. If you kept up that pacing, you'll exhaust yourself before the council meeting."
+
+Ari Tanaka: "I prefer to exhaust myself productively." (You set the camera on a nearby shelf, fingers brushing the coral strap. The camera is a small, stubborn relic—analog, chosen so the images feel irrefutable.)
+
+Etta chuckles, then grows serious, eyes flicking to a tray where half the plugs are paler than they'd been yesterday.
+
+Etta: "We lost some last week. Salicornia is hardy, but the water's shifting too fast. We need those coir logs set right before the next tide. People are tired, Ari. There are only so many hands."
+
+Ari Tanaka: "We'll get people. We'll get the materials. Mateo said he had a sensor batch from the lab—low-cost, tide-aware. He wants to test them with our transects."
+
+Etta's hands still.
+
+Etta: "That boy… he carries the city with him sometimes. But he means well. I like that he comes back."
+
+Ari Tanaka: "He comes back with batteries and big ideas."
+
+Etta: "That's as important as batteries, sometimes."
+
+Ari Tanaka: "He also has a tendency to promise things out loud before knowing which parts are his to promise."
+
+Etta: "He promises with his hands. Sometimes that works."
+
+The greenhouse smells sharply of citrus and wet earth; your palms pick up the faint grit of peat. You can't remember the last time you let someone take the lead without a spreadsheet and a dozen follow-up emails in your head. Letting Mateo test his sensors here feels like leaning on a neighbor's ladder—trusting, slightly terrifying.
+
+[Sound: Footsteps at the greenhouse door; a familiar rhythm]
+[Visual: Mateo stepping in, satchel slung over his shoulder; a damp patch on his shirt]
+
+Mateo Alvarez: "Morning, everyone. Sorry I'm late—traffic, and then an extra hour swapping out a fin on the prototype." (He grins; the kind that softens his words.)
+
+Ari Tanaka: "You nearly missed the miracle of the morning tide."
+
+Mateo Alvarez: "I live for miracles. And for data that looks like miracles." (He sets down his satchel and carefully withdraws a row of small cylindrical sensors, each wrapped in rubber with a cheerful, home-printed label.) "Low-power, open-source, and—Etta, I used your old tide charts to calibrate them."
+
+Etta's mouth quirks. She reaches out, fingers lingering over the cool casings.
+
+Etta: "You used my charts? Heavens. Little Mateo, you're a thief."
+
+Mateo Alvarez (soft): "Only of knowledge, Etta. I asked your permission."
+
+Ari Tanaka: "What do they do when they work?"
+
+Mateo Alvarez: "They listen. Pressure, salinity, a small accelerometer. We'll know exactly where the marsh is being scoured and when the currents change. If we can map that, we can decide where to put the next coir riffle without guessing."
+
+You feel the word "map" like a promise. Your chest loosens a notch—data that can point to action, not only warnings screamed into empty air.
+
+Etta: "And how long until a town can read them?"
+
+Mateo Alvarez: "A week of tests, maybe. If the prototype stays dry and we don't fry the circuitry in a surprise storm." (He glances at you, an apologetic smile.) "If you'd let me drop a couple by the pier, I can get synched readings to—"
+
+Ari Tanaka: "Yes. We can do that. We'll need to coordinate with Jun and the dockspeople."
+
+Mateo Alvarez: "I'll bring spare casing. Also—" (He hesitates, hands tucked into his pockets) "—I brought extra coffee. I thought... town meetings need fuel from people who like bad coffee and a lot of opinions."
+
+You find yourself laughing more easily than you'd planned.
+
+Ari Tanaka: "You read my soul."
+
+Mateo Alvarez: "That makes two of us." (He offers you the travel mug; it's scuffed and smells faintly of almond syrup. You accept.)
+
+[INTERACTION]
+> Choice A: "Tell Mateo about the seedlings' losses"
+> Choice B: "Keep the conversation light—ask about his lab day"
+[Outcome A: "You lean in and tell him where the salicornia thinned—exact coordinates and a worried sentence about tidal scours. Mateo's brow tightens; he taps a note into his phone."]
+[Outcome B: "You let the anxiety sit in your chest and ask instead about his commute and the stubborn fin. Mateo relaxes and launches into a story about a colleague who glued a prototype to a conference table."]
+[MERGE: Continue to next scene]
+
+[Scene: Municipal Hall & Plaza | Late Morning]
+[Visual: The plaza, damp flags fluttering; a cluster of small booths, milling townspeople]
+[Music: Low, steady rhythm; a thread of anticipatory warmth]
+[Sound: Murmured conversations, a distant PA system tuning up]
+
+The plaza smells of wet paper banners and someone's frying doughnuts; the municipal building faces the sea like a slow, patient observer. Booths line the square—some printed with corporate logos, others hand-painted with slogans. You see the familiar faces of neighbors, banners stitched by Etta's group, and a small, polished tent straddling the edge of the plaza where people in branded coats hand out glossy pamphlets.
+
+Elio Sato's team moves with a tidy efficiency. A young representative with a tablet smiles, too bright against the washed light.
+
+Representative: "Council consultations are important—have you signed up for a community briefing?"
+
+You could roll your eyes. You don't. Not in front of the neighbors. Instead you hold your camera at your hip like a talisman.
+
+Elio Sato (approaching): "Ari. Good to finally meet you in person. Your collective's efforts are...visible."
+
+Ari Tanaka: "They're more than visible. They're alive. The marsh is not a line item."
+
+Elio Sato inclines his head, expression open but precise.
+
+Elio Sato: "Of course. My firm is here to offer options. We want to prevent loss of life and provide stabilization—rapidly deployable measures. Think of it as buying time."
+
+Your shoulders tighten in that old way—a familiar groove carved by night after storm. You are not opposed to buying time. You are opposed to buying time that costs people their homes.
+
+Ari Tanaka: "Time is useful when it's shared. We need solutions that keep people here, not push them to the edges."
+
+Elio Sato: "And if the edge keeps coming? We design systems that are equitable. We listen and we build."
+
+Ari Tanaka: "Listening should come before the blueprints."
+
+Elio Sato (small, almost rueful smile): "Agreed. Tell me where it appears otherwise. I grew up watching managed relocation unfold; it imprints you."
+
+His voice does something complicated—an echo of loss underneath the corporate cadence. You can't tell if it's contrition or a memory turned into conviction.
+
+[Sound: A faint murmur of approval from a nearby cluster; Councilor Rosa watching, thoughtful]
+
+Councilor Rosa: "Elio, your team's presence is one piece. We will hear the community today. This meeting must include lived experience and technical assessment."
+
+Elio Sato: "Naturally."
+
+You think of Etta's trays, of Mateo's sensors, of Jun's callused hands. You think of the photos on your camera: pale seedlings, hopeful flags, the sheen of wet wood. You press your fingers to the coral strap as if to anchor yourself.
+
+Mateo Alvarez appears at your elbow, breathless, cheeks pink from the cold but eyes bright.
+
+Mateo Alvarez: "I set two sensors at the northern sills. They beeped in a way that sounds promising. If these line up with the community's transects, we can show the council exactly how the marsh is changing."
+
+Ari Tanaka: "Then let's make the council listen—with data and with faces." (You let your voice carry, low and steady.)
+
+Etta arrives behind you, a tray clutched to her hip, and hands you a folded leaflet she'd stitched together. Her hand brushes yours; for a heartbeat you feel the simple steadiness of being held up.
+
+Etta: "We have a little display in the morning room. You can show them your pictures, Ari. People respond to things they can touch."
+
+Jun: "And I can tell my crew to bring the patched-up pier sections as a demo. Show them the labor."
+
+The plaza hums around you—some voices hopeful, some skeptical. The arousal in your chest rises not into panic but into a contained warmth: a purposeful energy. It gathers like a small flame before a breeze.
+
+Elio Sato returns to his group, giving a last, measured nod. His face is unreadable in the way of people who have practiced gentleness into efficiency.
+
+You lift your camera one more time and take a final picture of the plaza: a tableau of mismatched tents, bright pamphlets, a stall with Etta's seedlings, Mateo's sensors already glittering in a sunbreak like tiny promises.
+
+[Visual: A single shaft of weak sunlight breaks through cloud and touches the plaza; camera click is soft but decisive]
+[Sound: The shutter's echo seems to slow time a little]
+
+You tuck the camera back under your jacket and feel the familiar guilt press against your ribs—responsibility for neighbors who sleep with sandbags at their doors. It is heavy, but it no longer leaves you immobilized. It has become a thing you carry with plans and people.
+
+Mateo Alvarez's hand finds yours, fingers warm.
+
+Mateo Alvarez: "We can make this tangible. Data, seedlings, mouths in the room."
+
+Ari Tanaka: "And voices."
+
+He nods. The meeting will need both.
+
+You breathe, steady. Outside, the day is grey but not without light. The town is frayed but not defeated. There is work and argument ahead, and you will stand in them.
+
+You glance at the municipal steps where people are setting up chairs. The highest point of the morning is a small, steady flare of hope built from mud and circuits and stubborn neighbors. You can feel the calm—focused and forward-moving—like the tide pulling in with intention.
+
+[Music: Piano motif softens into a held, warm chord]
+[Visual: Close-up of your hand on the coral strap; the camera's leather scent is faint]
+[Sound: Distant church bell marking the hour]
+
+You step toward the municipal steps, the meeting list snug in your pocket, notes folded and annotated in your handwriting. You are ready—ready to show the town what the marsh looks like through the lens and through the numbers, ready to ask them to choose stewardship over surrender.
+
+A thought anchors itself: this is where threads begin to stitch together—the sensors and the seedlings, the data and the hands that move the coir. It's small, not yet a solution, but it is tangible. It's the sort of thing that becomes a story if you tell it right.
+
+You inhale the cold air sharply, feeling the low rise of something hopeful in you. The day has baked a small, patient optimism into its center. You tighten your grip on the camera and start up the steps.
+
+[Visual: Close-up of your hand on the coral strap; the camera's leather scent is faint]
+[Sound: Distant church bell marking the hour]
+
+You step onto the municipal steps, camera against your chest, and for a breath everything narrows—your duty, the faces in the crowd, the faint beep of an incoming sensor signal on your phone. The next hour will be dense with words, with negotiation, with small clarities that feel like victories. You already know: this meeting will not settle everything. But it can set the direction.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

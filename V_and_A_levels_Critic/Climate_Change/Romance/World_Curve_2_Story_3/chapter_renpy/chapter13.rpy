@@ -1,0 +1,190 @@
+label chapter13:
+
+    # [Scene: Occupation Site — Mariner's Row Pier | Night]
+
+    scene bg ch11_e67f19_1 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, high-tempo drums; a thin violin line sharpens tension]
+    # play sound "sfx_placeholder"  # [Sound: Distant sirens, boots slapping wooden planks, the metallic click of handcuffs]
+    "You chose to hold the line. You remember telling the group—quiet, stubborn, certain—and for a while the certainty felt like armor. Now that armor feels malleable under the first blows. The city vans arrive like a"
+    "tidal swell: black, municipal emblem matte in the wet light, officers stepping out with practiced calm that smells of institutional resolve and processed leather. The air is cold enough to ache in your throat. Salt, smoke"
+    "from a neighbor's grill, the acrid tang of someone’s thermos sloshing—these ordinary scents become notes in a chord of panic."
+
+    "Lina is a reef of motion in the crowd—small, furious, holding a clip board like a talisman. Her voice cuts" "They can't—this is our home!"
+    show tamiko_sato at left:
+        zoom 0.7
+
+    tamiko_sato "(into the camera, breathless) —they're taking people. Keep this up. Get the names. Get them—"
+
+    tamiko_sato "We are streaming. We are calling lawyers. Hold position—hold position!"
+    "Your hands are wet, cold through the layers of your jacket. You taste copper. You can feel the crowd's rhythm—shouts, sobs, the single, steady chant of people trying to make a lawless moment into a recorded truth."
+
+    "Officer (Lead)" "You are ordered to disperse. This area is under civil injunction. Leave now or be detained."
+    "Officer (Lead): (firm, clipped) 'Leave now or be detained.'"
+    "The words strike like a bell, then a repeated hammer: legal language given muscle. Someone at the edge of the crowd answers with a bottle thrown into a puddle; glass blossoms uselessly. An officer lunges. Hands"
+    "reach, grab. The first cuff clicks and the sound yanks the air out of you."
+    hide tamiko_sato
+
+    scene bg ch11_e67f19_2 at full_bg
+    show lina_cortez at left:
+        zoom 0.7
+
+    lina_cortez "Names! Say your names!' (she shouts, voice raw) 'This is who they are—my neighbors—Marta Reyes! Jamal Ortiz! Say it—say it out loud!"
+    "The names are a ledger of memory: Marta’s bread, Jamal’s dog, the boy with the kite from two summers ago. Each name pulled into the cold is a little theft."
+    "You move before you can think. Not calculated—only reflex: you step between an officer and an older woman whose scarf is already soaked through. Your fingers, clumsy in wetness, find the woman's wrist."
+    "Elias Moreno is on the periphery with his rolled-up plans under his arm and a municipal vest thrown onto his shoulders like a compromise. He looks younger than you expect; the vest hangs loose. When you"
+    "meet his eyes they are raw and pleading—sea-gray rimmed by exhaustion. He takes two steps forward and is planted, unsure whether he stands with you or against the armor he represents. He raises his hands as"
+    "if framing an argument he cannot finish."
+    show elias_moreno at right:
+        zoom 0.7
+
+    elias_moreno "Mira—(urgent) we can talk through this. Let me— I tried to push a pause, I asked—"
+    show mira_santos at center:
+        zoom 0.7
+
+    mira_santos "You asked. And? They said yes? They stopped?"
+    "Elias Moreno: (runs a hand through his hair) 'They hesitated. I— I got them to consider a trust. I asked for time—'"
+
+    mira_santos "Time isn't a guarantee, Elias. Time is a permission slip you don't get to write for us."
+    "He opens his mouth again, then closes it. The officers are methodical; sympathy doesn't fit into the checklist. An officer grabs a duffel where Dr. Arun had been stashing sensors and notebooks. Arun steps up like a thin, fierce tree."
+    hide lina_cortez
+    show dr_arun_patel at left:
+        zoom 0.7
+
+    dr_arun_patel "You will not take the instrumentation. These are community data—"
+    "Officer 2: (to Arun) 'Sir, step back. You will be detained if you resist.'"
+
+    dr_arun_patel "I will not step back. The measurements belong to the people. If you must take me, take me—do it with an explanation."
+    "His voice is academic calm turned to a kind of moral molarity. He refuses to let the instruments go without testimony. An officer’s forearm presses his shoulder; Arun’s hands fold, collected, as they cuff him. Tamiko"
+    "pushes closer until her camera is nearly a face-frame. 'Dr. Arun—Dr. Arun!' she cries, fingers shaking on the zoom."
+
+    menu:
+        "Step forward and try to block the arrest of Dr. Arun":
+            "You wedge yourself between Arun and the officer, breath burning, and the officer shoves you aside hard enough that the cold water from the plank splashes into your boots. Arun meets your eyes and nods with an almost imperceptible sorry. The arrest proceeds; your protest becomes a bruise across your ribs."
+        "Hold back and record everything":
+            "You stay put, lensing the scene with painful clarity. Your hands hold the camera like a scalpel; Tamiko leans on you suddenly, quiet. The footage is raw and will live longer than the heat of your body pressed against the van door. You feel both useful and useless at once."
+
+    # --- merge ---
+    "The arrest proceeds; the scene is recorded and the crowd reacts in grief and fury."
+    "The first van's doors swing like a jaw. Neighbors are guided, murmur names, clutch scarves and identification. Someone wails. Someone else hurls a devotional phrase into the wind. The livestream spikes—counting viewers, hearts, a scrolling stream"
+    "of rage and instruction. The network hum is almost musical; it makes the scene into a chorus of accusation that reaches beyond the pier."
+    "A young man—one of the kids who used to learn fishing knots at your knee—resists when an officer takes his phone. He calls out, a single bright note of fidelity."
+
+    "Kid" "You can't—he's my neighbor! He feeds my mom when she works nights!"
+
+    "Officer 3" "Sir—stop resisting."
+    "A shove. A fall. A smack of hands on wood. You almost collapse watching him lifted, the crowd parting like water. Your stomach is a heavy stone; anger and helplessness mingle in a metallic fizz."
+    "You find Elias Moreno again, after Arun has been brought to his knees and the van doors seal like a mouth shutting. He reaches for you—fingers trembling—and you let him take your wrist."
+
+    elias_moreno "I—(voice breaking) Mira. I did everything I could. I called the council. I asked for a mediated pause.' (he swallows) 'I—didn't want this."
+
+    mira_santos "We didn't ask you to keep the city from acting, Elias. We asked for a seat at the table, not for you to carry our fate alone."
+    "Elias Moreno: (quietly) 'I know. I thought—maybe if I could be the one who convinced them…'"
+    "Your conversation is not private; the camera picks up the tremors in each syllable. His admission is small and enormous at once. You want to berate him, to weep, to demand that he be accountable for"
+    "the tiny violences his compromises enabled. Instead a howl from the crowd steals everything—an old neighbor being led past, her cheeks stained, calling the names of children and pets and recipes."
+    "Your coral scarf—your grandmother's—snags on a police belt as you step back. A dull wrench and then a decisive tug; it is pulled from your neck and handed up as evidence. You don't have time for the small theft; you watch it go with a raw, animal ache."
+    hide elias_moreno
+    show tamiko_sato at right:
+        zoom 0.7
+
+    tamiko_sato "(shouting into the camera) Record the badge numbers! He took Mira’s scarf! Get it—someone get the scarf in frame!"
+
+    menu:
+        "Lunge to reclaim the scarf":
+            "You lunge, hands scraping wood, but an officer's arm intercepts you. The scarf slips into the van like a small surrendered flag. You taste salt and bile—anger without purchase."
+        "Let it go and memorize its promise":
+            "You let the scarf go. Its absence slides cold around your neck like a missing heartbeat. You press the memory of its weight into your chest—promise as record—while Tamiko’s lens follows the van."
+
+    # --- merge ---
+    "The van departs with evidence; the loss becomes both personal and public."
+    "There is dignity in the arrests. Elders are careful as they are guided; they clutch their shawls and keep their eyes on faces they know. There is also cruelty—the slow, bureaucratic inefficiency of process as officers"
+    "read names and signatures while contractors in reflective vests move slowly back into the cleared spaces, sketching tape where a community once slept."
+    "A photographer, unseen until now, frames the moment: Lina, standing on a crate and reading aloud the names of those taken, voice a wire pulled taut. Her lips tremble between a prayer and an accusation."
+    hide mira_santos
+    show lina_cortez at center:
+        zoom 0.7
+
+    lina_cortez "Marta Reyes. Jamal Ortiz. Dr. Arun Patel. These are people. I will not let you turn them into a footnote."
+
+    "Neighbor" "They will say we were disorderly.' (bitter) 'They'll call us a stunt."
+    "Lina: (defiant) 'They will call us whatever they need to. We will call them by their names.'"
+    "The livestream becomes an echo chamber and a courtroom at once. The feeds flood with outrage and grotesque calm—opinion anchors, municipal statements, grainy close-ups of handcuffs. As the vans pull away, your knees go weak. Someone"
+    "murmurs that lawyers are on the line; someone else says the injunction will be processed at dawn."
+    hide dr_arun_patel
+    hide tamiko_sato
+    hide lina_cortez
+
+    scene bg ch11_e67f19_3 at full_bg
+    # [Scene: Temporary Evidence Room / Police Processing Van | Late Night]
+
+    scene bg ch11_e67f19_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The steady beep of a scanner, the low hum of the van’s heater, a muffled radio voice issuing logistics]
+    "You follow because of bureaucratic necessity and because the human instinct to touch what belonged to you is stronger than caution. The evidence tech is apologetic by habit."
+
+    "Evidence Tech" "Standard procedure. We catalog items taken from the scene. It will be logged and stored."
+    show mira_santos at left:
+        zoom 0.7
+
+    mira_santos "My scarf—it's family."
+    "Evidence Tech: (soft) 'I can't comment on disposition. It’s evidence now.'"
+    "You feel stripped. The scarf in the plastic is both object and accusation—captured and reduced, color dulled by distance and formality. You reach toward the bag, but are stopped by the hard courtesy of procedure. An officer checks your ID and thumbs the paper like a verdict."
+    "You watch a less visible violence unfold: notices slid under doors, email threats about leases, a lawyer’s curt message to community emails. The arrests were showy; the quiet reprisal takes the shape of numbers and deadlines."
+    "You overhear contractors making notes—'phase one resumed—minimal footprint'—as if acknowledging that civic life is a construction schedule."
+    # play sound "sfx_placeholder"  # [Sound: A phone vibrates; an incoming voicemail—one neighbor sobbing that they received an eviction notice in the morning mail.]
+    "You think of small things: the boy with the kite, the woman with the thermos, the curtains that used to flutter at lunch. Pride for what you did warps against a growing list of costs. The"
+    "city's legal machinery whirs; property rights, injunctions, and fines are not shouted into the night—they arrive as paper and as whispered, relentless consequence."
+    "Elias Moreno finds you after the evidence processing. His eyes are hollow. He reaches for your hands—his palms are warm and suddenly insufficient."
+    show elias_moreno at right:
+        zoom 0.7
+
+    elias_moreno "They used the injunction. They filed fines. Some of your neighbors—some have leases that were contingent. They're being served notices.' (he swallows) 'I tried to stop it from being that simple. I thought… if we held, they'd see the human cost."
+
+    mira_santos "And did they see it, Elias? Or did they write it down and stamp it into another column?"
+    "He looks away. The city has a way of making compromise feel like betrayal in hindsight."
+    "Elias Moreno: (quietly) 'I don't know. I—I'm sorry, Mira. I never wanted you to—'"
+
+    mira_santos "I know."
+    "Your coral scarf—confiscated as evidence at the hearing—will be returned later, frayed at the edge. The thought is a small, brutal comfort: reclaimed object, battered, like something that has been through a storm and kept its"
+    "shape. But even that return is both relief and indictment—proof of what was taken and what was pressed against it."
+    hide mira_santos
+    hide elias_moreno
+
+    scene bg ch11_e67f19_5 at full_bg
+    "The public outrage peaks then is folded into legal motions. Emergency hearings are convened; the cameras love the spectacle of the arrests, but the law loves routine. The city argues property rights, Cassian Vale’s consortium frames"
+    "the limited resumption as restoration. The court's vocabulary is indifferent to names. The injunctions are wielded not only to clear the pier but to criminalize the occupation—fines, misdemeanors, the slow attrition of people who cannot weather"
+    "legal uncertainty."
+    "A rumor threads through the neighborhood: some will leave voluntarily, anger or fear making their choices. Others will blame you—call your strategy reckless. The community, once braided together by nightly tasks and shared meals, splits into"
+    "knots. Your pride in what you did is raw and honest. So is the regret that it brought retribution to people you swore to protect."
+    "Lina finds you later, standing where the van door slotted shut hours ago, the wet wood imprinted by last night’s bodies. She looks at you, face hollowed by loss and fired by a stubborn ember."
+    show lina_cortez at left:
+        zoom 0.7
+
+    lina_cortez "We were brave. They will say we were reckless.' (she clenches her fists) 'They will say it's our fault for staying. But if we hadn't—what would they have done then?"
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "Maybe they would have bulldozed us in daylight instead of under the cover of paper. Maybe they would have done worse. There's no ledger that makes either choice cleaner."
+    "Lina: (bitter laugh) 'We traded one kind of violence for another.'"
+    "You want to argue that resistance was necessary, that the arrests are the seed of something bigger, that cameras and public outcry will turn the tide. But your chest is full of the names of neighbors"
+    "who now face fines, evictions, and criminal records. The tide receded and carried half the place with it."
+    # play music "music_placeholder"  # [Music: A sustained dissonant chord; the percussion slows but the underlying pulse remains uncomfortably steady]
+    "The night forces you into an accounting of losses. Dr. Arun's equipment will be held; some data cached in a laptop will live on. Tamiko’s footage will circulate, raw and accusatory, but footage alone does not"
+    "un-penalize a lease. Elias Moreno’s proposals, once promising, feel like paper boats on the surface of a roiling sea."
+    "You stand on the wet plank, the memory of hands—your grandmother's—folded into the coral fibers now somewhere in municipal custody. Pride and guilt conspire in your chest. You were brave; bravery did not save everyone. You"
+    "see faces from earlier days: neighbors who left at dawn with boxes, eyes hard as flint, refusing to be a burden; others who point a trembling finger at you in the grocery line."
+    "There is collapse here, a geometry of loss. The occupation became an image; the image became a hashtag; the law became an instrument. You hold your hands in front of you and they are not the hands that can unmake a court order."
+    hide lina_cortez
+    hide mira_santos
+
+    scene bg ch11_e67f19_6 at full_bg
+    "You think—brief and sharp—of what you will tell the next meeting, the next lawyer, the next camera. You think of small practicalities you must attend to at dawn: lists of those arrested, emergency funds, names to"
+    "call. The arousal doesn't cool; it reconfigures into a taut machine of work and paperwork, grief and mobilization."
+    "You look at Elias Moreno one more time. His mouth opens with words you do not need. The space between you is full of arrests, legal filings, and an ache that will not be mollified by"
+    "promises. The romance that seemed possible is now braided through courthouse halls and frayed scarves. You do not know whether you will forgive him. You do not know whether you will forgive yourself."
+
+    scene bg ch11_e67f19_7 at full_bg
+
+    scene bg ch11_e67f19_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter15
+    return

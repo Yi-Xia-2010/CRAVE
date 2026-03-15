@@ -1,0 +1,163 @@
+### SCRIPT
+# Route: Route D (Sad-but-Seeded Recovery Ending)
+# Context: 3be532
+
+[Scene: Offshore Project Site | Late Afternoon — Signing Day]
+[Visual: A temporary row of sleek containers and scaffolding, rain-slick metal reflecting swollen gray sky]
+[Sound: Rain on corrugated metal, the distant drone of generators]
+[Music: Tense BGM — a tight drum under a high, anxious synth]
+
+You stand at the long folding table by the container office, the leather folio warm and slightly damp beneath your palm. The addendum rests like a hinge: an accelerated roll-out with the promise of post-deployment audits scribbled into a clause whose language still leaves thin slivers of compromise. Your breath fogs the air. The pen feels heavy, an honest weight and a weapon at once.
+
+Elias Wren [He watches you, calm and deliberate.]: "We can be in the water next week if you sign today. The window won't reopen—funding timelines, logistics. We want the same thing, Maia. Faster infrastructure saves lives."
+
+Maia Rivera [The words pass through you like tides. You think of the boathouse in a photograph, of Tomas' hands; you think of Lupe sorting pay stubs by candlelight; of Jonah's mouth pressing into a line when he doesn't know what else to say.]: "Faster—yes. But audits—binding, public, with consequences. No vague promises."
+
+Elias Wren [His eyes narrow, not unkind, but practical.]: "Public audits will be part of the process. The first phase has to move now. We mitigate now, we iterate later."
+
+You watch the signatures already inked at the bottom of the folio—contractors' names, the firm's mark—glossy and final. You imagine the levee as a scaffold of scaffolding and metal braces. You imagine the crews moving like ants. You imagine Jonah at the harbor, a silhouette you've learned to read.
+
+Jonah Kade [He stands a short distance away, under the canvas of a weather-darkened awning, cap in hand. He doesn't speak immediately.]: "You're sure this is the only way?"
+
+Maia Rivera [Your chest tightens until the next breath is a decision. You think of the meeting that had run too long, of Dana pounding the door earlier, of Mayor Rosa's neutral face.]: "I— We don't have time for perfect. We have to start."
+
+Jonah Kade [He lets out a small, controlled sound that might be a laugh or might be a surrender.]: "Start where? On someone else's timetable? Maia, we need protection, not promises."
+
+Maia Rivera [You see the hollow around his eyes. You see the weight of a family line that cannot afford to drift. Your hand finally moves, the nib pressing into fibers; ink blooms like a small, obedient tide.]: "I'll make sure the audits are enforced."
+
+Elias Wren [He slides a card across the table—an AR pin glints; his finger taps the timestamp. For a moment his steel gray eyes are unexpectedly soft, an almost-kindness that feels like a hand on a shoulder and a calculation at once.]: "Then we begin."
+
+[Visual: Close-up on your hand sealing the folio; the camera lingers on the wet ink]
+[Sound: A generator coughs to life; metallic clanking starts in the lots beyond]
+[Music: Drumbeat rises — urgent, thudding]
+
+You hear the first trucks pull into the lot. Clean modular pumps, LED-lit housings, polished panels—immediate symbols of action. The town, hungry for something tangible, begins to gather.
+
+[INTERACTION]
+> Choice A: "Go out to the lot and speak to the arriving crews"
+> Choice B: "Stand with Jonah and watch from the boardwalk"
+[Outcome A: You step into the rain and call out instructions. Workers nod; their faces are professional and neutral. You give a short speech about teamwork, and the machines begin to unload under your voice, efficient and too bright.]
+[Outcome B: You stay under the awning. Jonah's jaw works. He doesn't speak. Watching the machines offload feels like watching a ship's hull be stitched while the crew still argues where to set the rudder.]
+[MERGE: Continue to the Harbor and Boardwalk scene]
+
+[Scene: Harbor and Boardwalk | Early Evening — Equipment Deployment]
+[Visual: Weathered planks half-wet, LED lights on new equipment throwing cold pools of light onto the water]
+[Sound: Workers shouting over engines, gulls muffled by rain, murmurs of the crowd]
+[Music: Tense strings — rising, restless]
+
+The crowd is a crowded wave of thank-yous and questions, relief braided with doubt. Small businesses set up temporary lights; a child claps to the rhythm of machinery. The first impression is celebration—metal and progress—but you can taste something metallic and wrong at the back of your teeth.
+
+Lupe Kade [She approaches you, voice low, urgent.]: "Maia — the fish maps are shifting. We've been tracking daily schools, and the catch corridors are rerouting already. The pumps are changing the currents near the shoals."
+
+Maia Rivera [A cold spike of recognition. You thought audits later would soak up problems; you thought the models could be adjusted in time. But currents don't wait for clauses.]: "Show me the data."
+
+Lupe Kade: "I'll pull it up—now." (She taps at her tablet; a heat map blooms in the glow: patches of valuable grounds thinning, new ripples opening off the channel.) "If the pump runs at full tilt without the levee finished, the shoals reposition. Jonah's nets—"
+
+Jonah Kade [He interrupts, voice taut.]: "Lupe, don't—" (He stops himself, looks at you.) "We can adapt, but we can't afford sudden holes in the map. Folks buy with last month's checkbook."
+
+Maia Rivera [Your internal list of obligations shudders. Jobs, safety, livelihoods, the town's autonomy—all laid across an axis you can't fully steady.]: "We built contingencies. We'll mandate phased shutoffs if monitoring shows undue shifts."
+
+Lupe Kade [Her eyes flash—part anger, part plea.]: "Contingencies are words until someone loses a season."
+
+Jonah Kade [Softly, to you.]: "You promised the cooperative oversight. The audits are supposed to be binding."
+
+Maia Rivera [Your promise is a thin seal against a storm. You remember the pen's pressure, Elias' calm voice.]: "They will be binding. I won't sign anything that isn't."
+
+Jonah looks at you, searching. There's a tremor in his hands—an old fear of abandonment, or of being led by someone who doesn't know the sea the way you do.
+
+Jonah Kade: "You already signed, Maia. The machines are here."
+
+The words hang like a buoy. The crowd continues to cheer, louder, relieving themselves into the machines rather than into conversation. For a second you are applauded—praised for action you still have to correct.
+
+[INTERACTION]
+> Choice A: "Pull aside a site foreman and insist on immediate conservative operation limits"
+> Choice B: "Allow the initial schedule to proceed while you prepare audit riders"
+[Outcome A: You grab a foreman, point at the monitoring screens, and argue for conservative flow ceilings. The foreman blinks, nods, and radios down orders that slow one pump's cycle. The machines hum with a slightly gentler haste.]
+[Outcome B: You let the crew follow the plan. Your hands go cold as the pumps spool up. You arrange for the audit riders to be drafted, promising to be fierce later. The water moves in a way you can't yet measure.]
+[MERGE: Continue]
+
+[Scene: Flooded Historic Quarter | Months Later — After the Predicted Surge]
+[Visual: Cobblestone streets half-submerged, plywood over shopfronts, slick reflections of neon and protest banners]
+[Sound: The thick, wet slap of floodwater against boarded thresholds; low angry murmurs; distant crying]
+[Music: Crescendo — strings and low brass, insistent and pained]
+
+Months slide like an oil stain. The season's predicted storm swelled into something crueler than the models had allowed: an intense surge riding a wrong wind. The unfinished levee takes the brunt; modular pumps overwork, break, and some are still in transit. Water finds old pathways—the ones memory thought lost—and reopens them.
+
+You arrive at the Flooded Historic Quarter with your boots sucking wet mud and your stomach a stone. Windows show waterlines, family photographs floating face-down in waterlogged frames. A bakery you used to map for a grant sits with flour sacks sodden and crusty. A mural of the town's founding is peeled at the corners.
+
+Townsperson 1 [Hands on hips, voice raw.]: "We voted for protection and got half-built promises."
+
+Townsperson 2 [A quieter voice, grateful and bitter.]: "My storefront didn't collapse. The pumps slowed worse. What would have happened without them? Thank you, but—"
+
+Voices fragment into accusation and gratitude. Your name snakes through both like a tide—blessing and blame braided into one syllable.
+
+Jonah Kade [He meets you at the boardwalk, rain still in his coat though the storm has subsided. His cap hangs limp.]: "You thought you'd buy us time. You thought audits would save us later. But timing mattered. The levee wasn't finished. The pumps weren't enough."
+
+Maia Rivera [You want to say you did what you could; you want to say the audits would have stopped this; you want to brandish the folio and the signatures as proof of effort. None of it feels like armor.]: "We moved as fast as we could."
+
+Jonah Kade [He flinches at the word 'we' like it stings.]: "We? Who's 'we', Maia? You signed their timelines."
+
+Maia Rivera [Heat rises, guilty and fierce.]: "I signed to prevent worse. Paralysis wouldn't have saved anyone."
+
+Jonah Kade [His voice softens, then sharpens.]: "Maybe. Maybe not. But you were the one at that table, and people look to you."
+
+Elias Wren [He arrives afterward, dusting rain from his coat, the corporate calm intact.]: "We followed the contract. The surge exceeded the window in the models. We moved resources where we could."
+
+Maia Rivera [Confrontation coils. Elias' words are factual and brittle. In them you hear the gap between intention and result—between control and chaos.]: "We need a full inventory of damage. We need to prioritize cultural sites and livelihoods. We need the remaining phases accelerated and the audits enforced."
+
+Townsperson 3 [Shouting from a doorstep.]: "Enforce? You are the one who signed the deals! We trusted you!"
+
+The accusation lands. It is meant to wound and it does. The crowd's faces blur into a tide of expectation and hurt. You can taste salt and old coffee and the iron tang of guilt.
+
+[Sound: Distant generator fails with a metallic whine; someone begins to cry quietly]
+[Music: Drumbeat tightens to a near-clack — high arousal]
+
+Lupe Kade [She cups your elbow, fierce and sorrowful.]: "Jonah's nets are missing their old trails. My records show permanent shift. People are losing seasons. This isn't just water; it's memory."
+
+Maia Rivera [Tomas' old stories flash across your mind—of a storm that came without warning, of a town that rebuilt with hands and songs. His voice now, when you find him leaning on his cane by the harbor, is thin with fatigue.]: "..."
+
+Tomas Rivera [He speaks slow, each word worn smooth.]: "I told you once about a tide that took the boats clean out of the moorings. We learned to read the currents after. But sometimes, child, we fix one thing and the sea remembers a different history. You did something. The trick is—what will you do next?"
+
+Maia Rivera [His question is a small stone tossed into your chest. The answer is heavy and sharp: action, apology, control, retreat. None warms the cold.]: "..."
+
+[Scene: Rooftop Garden of Maia's Childhood House | Dusk]
+[Visual: Copper and mauve sunset, rosemary crushed and fragrant underfoot, distant gulls cutting the horizon]
+[Sound: A softer wind, the city below settling into a brittle, uneasy quiet]
+[Music: Low, melancholy strings — a single violin line wrenched with regret]
+
+You sit on the battered crate that serves as a table, your Moleskine open and swollen with rain-smeared pages. The pencil lead smudges your notes about audit schedules and repair timelines. Fingers press into rosemary; the needles release an herbal sting that is oddly consoling and sharp.
+
+Your chest is a tightly wound drum. Every name—Jonah, Lupe, Tomas, the town—echoes. You run a finger across a list of promised clauses and amendments, and the ink smears slightly as if even your plans can weep.
+
+Maia Rivera [You tally the ledger of what you traded—time for speed, local control for infrastructure promises. Each trade felt defensible then; each feels raw now. The town has paid with altered shoals and damaged storefronts; they offer thanks with one hand and accusation with the other.]: "..."
+
+You think of Elias' brief kindness at the signing, his eyes like tempered steel. You think of Jonah's quiet hollow shape at the harbor. You think of Lupe's maps, of Tomas' sighs. The rooftop is small and high and the sound of the sea is a distant slow pulse, as if the world itself were breathing and weighing.
+
+This is the low before any rise.
+
+[Music: Single note held, then cut to silence]
+
+[INTERACTION]
+> Choice A: "Call Jonah and ask him to meet you now"
+> Choice B: "Draft a public statement now and send it to Mayor Rosa"
+[Outcome A: Your thumb hovers, then presses. Jonah answers after a beat. He says he'll come, voice low. Both of you will speak in the raw, which may or may not be what you need.]
+[Outcome B: You begin to write, words clumsy with apology and policy. It feels like sending a bandage through the mail. You can already hear both gratitude and scorn forming.]
+[MERGE: Continue]
+
+[Music: A single tight pulse — the chapter's emotional arousal peaking]
+
+[DECISION POINT]
+1) "Double down on corporate partnerships to finish infrastructure quickly." -> TARGET chapter_id: [14]
+2) "Publicly accept responsibility and lead a grassroots rebuilding with strict oversight of the remaining projects." -> TARGET chapter_id: [15]
+3) "Resign from the implementation board and allow the mayor to take charge." -> TARGET chapter_id: [15]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Double down on corporate partnerships to finish infrastru..." -> ID 14 (Route D)
+    > Jump Target File: script_ch14_Route_D_ctx_bd95da.txt
+Option 2: "Publicly accept responsibility and lead a grassroots rebu..." -> ID 15 (Route D (Sad-but-Seeded Recovery Ending))
+    > Jump Target File: script_ch15_Route_D_SadbutSeeded_Recovery_Ending_ctx_bd95da.txt
+Option 3: "Resign from the implementation board and allow the mayor ..." -> ID 15 (Route D (Sad-but-Seeded Recovery Ending))
+    > Jump Target File: script_ch15_Route_D_SadbutSeeded_Recovery_Ending_ctx_bd95da.txt

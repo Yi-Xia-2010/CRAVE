@@ -1,0 +1,211 @@
+label chapter7:
+
+    # [Scene: Saltmarsh Research Lab | Morning]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of servers; distant gulls; a coffee mug clinks against a desk]
+    # play music "music_placeholder"  # [Music: Warm, ascending strings—hope threaded through steady rhythm]
+    "You walk in already wearing the decision you made: Asha's offer to lead the engineered pilot sits on you like a slate-gray coat—formal, heavy, and oddly right. The tablet she slid into your hands the night"
+    "before is warm from being held; its GIS overlays blink awake at a touch, teal and ochour lines re-claiming the coastline in precise strokes."
+    "Your compass pendant tinks against the tablet case. It is a small sound, private and stubborn, as if reminding you of the woman who left and the woman who now says yes to concrete and command."
+    "Asha Verma is at the far bench, sleeves rolled, glasses low on her nose. Her braid hangs against the back of a modular chair like a measuring line. She doesn't smile, but the room is moving"
+    "with the efficiency she's always favored: a permit email pings open, a contractor on a conference call confirms crew arrival by Friday, and a regional fund transfer flashes as 'processed' on your shared dashboard."
+    show asha_verma at left:
+        zoom 0.7
+
+    asha_verma "Good. You're here early. We don't have the luxury of waiting on foggy mornings anymore."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "I wasn't going to let this sit on my desk. What are we building first?"
+    "Asha Verma: (tapping the tablet) 'Sea-gate schematics and reinforced berm sections near the harbor's critical arteries. We shore up the highpoint and protect the pump station. It's austere, but it buys time—real, measurable time.'"
+    "You let your thumb trace a contour line. The models feel less hypothetical than they did under the dim council lamps; their edges are practical and unforgiving."
+
+    mira_kestrel "And the people whose houses sit in the berm's shadow?"
+    "Asha Verma: (no pause) 'We mitigate where we can. We compensate. We relocate when the science and the law say relocation is the safest option. You understand that, Mira.'"
+
+    mira_kestrel "I understand outcomes. I'm asking how we hold the town while we make those outcomes happen."
+    "Asha Verma's gaze shutters slightly—something almost like recognition. She folds her hands on the table and for the first time lets a measured softness hide in the corners of her sentences."
+
+    asha_verma "That's why you're leading the liaison work. Engineers move infrastructure. You move the conversation, gently but firmly. You translate permits into promises the town can feel and live with."
+
+    mira_kestrel "Translation isn't the same as translation into action. People need to see hands in the marsh and notices on their doors. They need... to breathe, not to be told they're already gone."
+
+    asha_verma "Then make them breathe. Show them how this buys another generation of boats and gardens. I'm giving you the platform, Mira. Use it."
+    "The words hang like scaffolding—supportive and structured. You nod. That nod crystallizes into a plan you can carry into meetings and interviews and kitchen-table negotiations."
+
+    menu:
+        "Wear Asha's slate-gray coat to the boardwalk meeting—embrace the symbolic authority":
+            "You shrug into the coat. It feels too formal against the salt-scratch of your jacket, but when Jonah looks up and meets your eyes across the harbor, there's a steadying weight to the way people lean in. You speak with a clearer cadence and the contractors take the floor with less edge."
+        "Keep your own field jacket—stay visibly part of the community's fabric":
+            "You button your olive jacket, its patched sleeves smelling of peat and sea. Jonah relaxes when he sees you in it; a few fishermen nod as if to say, 'She's one of us.' Your words come softer, threaded with shared memory, and a youth crew later tells you they trust you because you 'look like someone who gets mud on their boots.'"
+
+    # --- merge ---
+    "Continue"
+    hide asha_verma
+    hide mira_kestrel
+
+    scene bg ch7_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Keyboard clicks; Dr. Lian's soft voice calibrating numbers]
+    # play music "music_placeholder"  # [Music: Light piano notes, lifting with each model iteration]
+    "Dr. Lian Zhou moves between monitors with a scientist's surety and a friend’s ease. She hands you a printout: comparative model runs that lay Asha Verma's plans against slower, nature-based scenarios. The numbers align in a way that is—reliefably—supportive of the quicker timeline."
+    show dr_lian_zhou at left:
+        zoom 0.7
+
+    dr_lian_zhou "The sea-gate reduces immediate breach probability by sixty percent in the next decade under high-emission projections. The berms buy us stable protection for critical assets and buy time for marsh restoration to catch up."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "So our window stretches?"
+    "Dr. Lian Zhou: (softly) 'It does. But it's not indefinite. The gate and berms are stopgaps and anchors. The marshes still matter. We need both—hard and soft approaches in sequence.'"
+    "You go through the models with her—line after line of teal, each representing a life made safer, each a calculation of what to sacrifice now to preserve choice later. You ask about margins of error; she"
+    "answers with candid estimations and careful caveats. Her calm turns your unsettledness into practical questions you can take to the town and to the council."
+
+    dr_lian_zhou "If we prioritize the pump station and the harbor mouth, we secure the town's circulatory system. That prevents cascading failures if a storm hits earlier than expected."
+    "You let that image settle: the town as a body, arteries bandaged, breath slowing but steady. For the first time in weeks, you feel fingers finding purchase on panic's loose end."
+    "Asha Verma crosses to where Dr. Lian Zhou stands and leans in, unusual warmth in the brief shared smile between two professionals who trust numbers more than politeness."
+    show asha_verma at center:
+        zoom 0.7
+
+    asha_verma "I'll handle procurement channels. You handle the town. Get me weekly updates and unvarnished feedback. If there's resistance that endangers deployment, bring it to me immediately."
+
+    mira_kestrel "I'll bring you what's necessary—and what I can't solve here, I'll bring to Evelyn. She'll need a solid procedural timeline."
+    # play sound "sfx_placeholder"  # [Sound: A phone rings; Evelyn's voice on the line, clipped but reassuring]
+    hide dr_lian_zhou
+    show evelyn_sato at left:
+        zoom 0.7
+
+    evelyn_sato "Mira. I've read the reports. I can expedite the local permit desk. We can push the council item earlier if Lian signs off on the emergency clause."
+
+    mira_kestrel "If you do that, we can start crews next week for the highpoint work. Can you secure temporary housing vouchers for any immediate relocations?"
+    "Evelyn Sato: (a pause, then steady) 'I'll find a way. We owe the town that much. We can't protect the pumps and ignore the people who depend on the harbor.'"
+    "Evelyn Sato's support rings like a bell chime—old duty answering new urgency. You feel something like oxygen return to the day's lungs."
+    # [Scene: Saltmarsh Research Lab | Late Morning]
+    hide mira_kestrel
+    hide asha_verma
+    hide evelyn_sato
+
+    scene bg ch7_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter and the rustle of plant matter; a pickup truck idling outside]
+    # play music "music_placeholder"  # [Music: Rhythmic, hopeful percussion]
+    "Kai Tan approaches you with that characteristic breath of impatience smoothed into action."
+    show kai_tan at left:
+        zoom 0.7
+
+    kai_tan "I didn't think I'd be coordinating construction crews this week, but here we are. Some of the kids are psyched to learn heavy machinery signals. Others are... worried about managed retreat language."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "We won't dismiss that. Part of what makes this work is giving people time and clear steps. Can you run a community planting day after the berms are pieced? Show that this is a bridge, not a wall."
+    "Kai Tan: (half-grin) 'A bridge with live plants. I can sell that. Also, if anyone asks, tell Asha the kids write better protest signs than she drafts policy memos.'"
+    "A shared laugh softens the edge of logistics into something that feels communal—a patchworked plan stitched by hands that know how to hold a shovel and a placard."
+    # [Scene: Boardwalk | Afternoon]
+    hide kai_tan
+    hide mira_kestrel
+
+    scene bg ch7_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant hammering; voices from the lab carried on a salt breeze]
+    # play music "music_placeholder"  # [Music: A low, warm cello line—steady, companionable]
+    "You wander to the boardwalk at midday. Jonah Reyes watches the lab with a gaze that is two things at once: proud that Tidehaven finally has the machinery and authority to act, and worried about the town's softer edges—the small things that make life here whole."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "So it's really happening, huh? Sea gates, berms... you in the center."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "I'm in the center because Evelyn thought she could trust me to be the voice in this room. Asha gave me the platform and the tools. Dr. Lian gave me the numbers. You—you gave the town the muscle to show up."
+    "Jonah Reyes: (a small, wry smile) 'Don't hand all the credit to me. But I will say this: when your plans start moving, old Bento came by and nodded. He said, 'If you build walls, make sure some doors stay for people to walk through.''"
+    "Mira Kestrel: (smiling) 'That's Bento in a sentence. Practical and philosophical in one breath.'"
+    "Jonah Reyes hesitates, looking out at the horizon where the engineered lines will soon redraw the town's edge."
+
+    jonah_reyes "Are you—do you ever think it'll feel like giving up? Like we're patching a wound with cement and calling it a scar?"
+
+    mira_kestrel "I think of it like stitching. Sometimes you stitch to prevent worse ripping. The material matters—whether it's thread or rebar. But stitches can heal, if you make them with care."
+
+    jonah_reyes "And when they tell someone to move—what then? How do we tell Mrs. Alam her garden won't last another season?"
+    "You palpate the tablet in your pocket as if it could hold comfort. You don't have the perfect line yet. You have processes, funds, and a permit timeline—tools, not truths."
+
+    mira_kestrel "We tell her the truth. We offer the help to move her garden and her stories. We create a place where her seeds can survive. We don't make it sound like defeat."
+    "Jonah Reyes looks at you, measuring the words like bait, then finds a half-hopeful grin."
+
+    jonah_reyes "You'll make it sound like starting over with better soil. I believe that."
+    "He reaches out and rubs the back of his neck, that small human gesture you've watched when he's conflicted. You notice the calluses on his hands and the way his thumb rubs a faded Polaroid held in his jacket pocket."
+
+    jonah_reyes "Just... don't forget how to get mud on your boots, Mira. Authority's fine, but don't let it put a suit between you and the tide."
+
+    mira_kestrel "I won't. I'll wear the suit when I have to. But I'll have mud under my nails to remind me why we do it."
+    "The wind plays with your hair. For a moment the harbor feels less like a courtroom and more like a town that can be argued with and comforted in equal measure."
+
+    menu:
+        "Call a pop-up town meeting on the boardwalk tonight—transparency, even if raw":
+            "You decide to call for an impromptu meeting. Flyers go up, Kai mobilizes the youth, and by dusk a ring forms of faces—some wary, most attentive. You lay out the timeline plainly, and though some eyes fill with worry, many nod because they finally know what's coming and who will stand with them."
+        "Draft a carefully worded public notice to be distributed tomorrow—calm, controlled messaging":
+            "You draft the notice with Dr. Lian and Evelyn's input. The language is calm, precise, and meant to reassure. The contractors thank you for the clarity; a few elders later say they'd prefer to hear face-to-face, but several families text gratitude for the proactive contact. The town settles for the night a fraction easier."
+
+    # --- merge ---
+    "Continue"
+    hide jonah_reyes
+    hide mira_kestrel
+
+    scene bg ch7_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Machines in the distance kick into gear; a truck door slams somewhere down the wharf]
+    # play music "music_placeholder"  # [Music: Strings swell subtly—an upward motion of accomplishment]
+    "By evening, crew trucks line the access roads. Steel is delivered; berm segments are measured and staged. The harbor hums with the work of people who used to argue at kitchen tables and now share tasks"
+    "on scaffolded platforms. Funding that seemed months away is in the bank; contractors who used to denounce bureaucracy now call it 'useful' because the bureaucracy moved fast enough this time."
+    "You stand in the lab doorway, the tablet balancing in your palms like a new kind of talisman. Asha Verma hands you a physical slate-gray coat—her literal offering this time, a small joke wrapped in a gesture of trust."
+    show asha_verma at left:
+        zoom 0.7
+
+    asha_verma "For meetings and council chambers. Wear it when you need people to see that the city's not improvising."
+    "Mira Kestrel: (accepting it) 'And when I need mud on my boots?'"
+    "Asha Verma: (a rare, quick smile) 'Keep your boots. Save the coat for the bell.'"
+    "Evelyn Sato's message buzzes in—final confirmation that the council agenda will include the emergency approval and that she will vouch for the local mitigation funds."
+    show evelyn_sato at right:
+        zoom 0.7
+
+    evelyn_sato "You've got procedural support. We move it to the floor early. Be ready to answer direct questions about relocation plans. People will ask and they'll come to you for honesty."
+    "Kai Tan shouts from the greenhouse, triumphantly waving a tray of newly sprouted cordgrass—small green fingers reaching like promises."
+    show kai_tan at center:
+        zoom 0.7
+
+    kai_tan "Plants are ready! We can start anchoring within days!"
+    "You feel something like a tide turning under your feet: concretely measurable movement on timelines, people showing up not just in argument but with hands and seedlings and expertise. The panic that braided itself into your ribs loosens."
+    "At night, though, the town's quieter voices drift through—whispers of complaint at kitchen tables, an old neighbor's worry about what 'managed retreat' might mean, the creak of a porch swing that seems lonelier when you consider"
+    "who may be asked to leave. The discomfort sits beside the accomplishment like driftwood on a beach: not removed, but less likely to be swept into catastrophe because something was done."
+    "You lay the slate-gray coat against a chair and feel the compass at your throat tap once—insistent, not accusatory. It is a small pulse that asks you to keep asking questions even as you accept authority."
+    "You meet Asha Verma in the lab one last time before the council. She hands you the tablet again, the GIS overlays glowing with routes and barriers and sheltered lines of living marshes planned for later phases."
+
+    asha_verma "You have the authority. Use it to bind the engineers and the town together. If anything looks like it will fracture that bridge, bring it to me."
+    hide asha_verma
+    show mira_kestrel at left:
+        zoom 0.7
+
+    mira_kestrel "I will. And I will make sure the marsh plans remain in the next phase. This can't be just hard edges."
+    hide evelyn_sato
+    show asha_verma at right:
+        zoom 0.7
+
+    asha_verma "Good. Keep Lian close and Bento's counsel closer."
+
+    mira_kestrel "I'll ask Bento to come to the council."
+
+    asha_verma "Bring him. People listen to him."
+    "You feel an unfamiliar authority settle across your shoulders—earned more than given. It hums with responsibility and, beneath that, with hope: the hope that fast action can spare lives and give the town room to grow its softer defenses later."
+    "You close your eyes for a heartbeat and imagine the harbor months from now—berms in place, pumps protected, cordgrass rooting along a newly sheltered bank. You imagine Jonah standing at the rail again, this time with fewer lines of worry etched into his face."
+    "Outside, the harbor's night lights paint the boardwalk in gentle strokes. Inside, the lab is a warm cove of plans, people, and steady progress."
+    "A bell will ring in council tomorrow. You run your thumb across the tablet screen one last time, memorizing the teal arcs that now mean something more than theory."
+    "The work is underway. The town is bandaged. For the first time in a long while, panic eases like a receding tide."
+    # [Page-Turn Moment]
+    "You lift the slate-gray coat around your shoulders and feel it settle like a promise. The tablet pulses with the council packet—Asha Verma's signatures, Evelyn Sato's endorsements, Dr. Lian Zhou's models. Outside, Jonah Reyes's silhouette pauses"
+    "on the boardwalk as if listening for news in the harbor's dark. You stand between the lab's glow and the town's soft night, and the next bell—tomorrow's vote—feels like a hinge. You can hear the town"
+    "breathing: some with relief, some with fear, but all awake."
+    hide kai_tan
+    hide mira_kestrel
+    hide asha_verma
+
+    scene bg ch7_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

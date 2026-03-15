@@ -1,0 +1,180 @@
+### SCRIPT
+# Route: Route A — Ending: Happy
+# Context: 601bcb
+
+[Scene: Highwater Cove Harbor | Pre-dawn — Months after the Vote]
+[Visual: Wet reflections along the piers; tarpaulins flapping against pilings; a ragged line of sandbags and a half-built prototype breakwater made of woven reeds, recycled plastic, and hundred-pound anchors. Dawn is a bruised, cold gold behind low clouds.]
+[Sound: The harbor breathing—water slapping, gulls complaining, distant motor hums. A low, nervous wind threads through ropes.]
+[Music: Sparse minor strings; a slow, heavy heartbeat of percussion under the melody]
+
+You wake before the sun because your body remembers the tide. Your bracelet buzzes with a night of shifting salinity and the sensors Rafi left pinned to the pylons chirp like tired crickets. You run a hand over the compass in your pocket. The brass is cool, the needle jangling a private, stubborn refusal to be still.
+
+You thought refusing the partnership would keep the town whole. You thought that elbowing aside big promises—glossy plans and expensive machines—would let the community stitch itself back together with its own hands. You still believe that. But belief is not armor. Belief is a map, and maps do not stop storms.
+
+Jonah Reyes: "You look like you carried the tide with you," he says, half-laugh, half-question.
+Maya Armitage: "I almost did." (You answer aloud because the question needs grounding.) "We need to check the southern seam. Rafi flagged some oscillation last night."
+Jonah Reyes: "Rafi and his oscillations." (He mutters affectionately.) "Alright. Bring coffee. Or at least the thermos."
+
+The banter is a thin membrane over a deeper current. There is no pretending you are not exhausted—your eyes are rimmed like old tide marks. You let the banter hold a moment of normality because normality buys the town time.
+
+[Sound: A low, distant groan—sea against structure. A gull screams and then there is a different sound: the sky making itself loud.]
+[Music: The strings shift; a dissonant chord grows under the wind]
+
+You are still clipping tools to your belt when the first sharp wind arrives. It moves like a hurried animal, scattering rope and plans. Rafi's hacked sensors start spitting out warnings—frequency spikes, a phase shift in the incoming swell. You can taste metal on the air: not storm alone but the tang of something failing.
+
+Rafi Chen [offstage]: "Maya—south patch. Readings tripled. You seeing this?"
+Maya Armitage: "I see it." (You don't say: I thought the reed anchors would hold; I thought our hands would be enough.)
+
+The prototype holds for one long, brittle breath and then the ocean finds the seam. Water climbs over the woven crest in a black, furious sheet. The breakwater groans in a human-sounding way; ropes snap like trapped voices. Salt and spray abrade your face, and for a beat you are certain all the stitched months will wash away.
+
+[Sound: Ropes snapping, boards splintering, a collective shout]
+[Visual: Close-up on the breakwater as water pours through a torn seam; splintered reed and rope float like severed arteries]
+[Music: Percussion crashes; a minor violin wails]
+
+You move because you always move. People are already running—neighbors whose faces are still the faces of your childhood, hands you know will not leave you. Jonah is at your side without fanfare, his hands on the same anchor you are reaching for. His grip is a steady thing in the surge.
+
+Jonah Reyes: "Hold the line," he yells. (You aware of how his voice becomes a tool, a lever.)
+Maya Armitage: "On three." (You count, and the town counts with you.)
+
+You heave. The water is a living weight and it finds every weak thing. For a moment the world narrows to salt in your mouth and the sound of wood screaming and your own breath like a metronome. When the swell subsides a heartbeat later, the breakwater is half-gone and the harbor is ragged with new wounds. Boats list lazily, ropes trailing like exposed nerves.
+
+The ache in your chest is not dramatic. It is a domestic, precise thing: the feeling that months of sanding, welding, and trust were catalogued as items by a sea that will not be catalogued. You taste all the small failures at once: the times you could not convince a council member, the nights you slept less, the arguments with Jonah that you folded into plans instead of conversations.
+
+[INTERACTION]
+> Choice A: "Keep working immediately — push through the night"
+> Choice B: "Step back and take inventory — sleep first"
+[Outcome A: "You grit your teeth and bend back to the snapped ropes, feeling the small, clean usefulness of labor ease the sharpness. Jonah slides a coil of flaked rope toward you without asking, and his wrist brushes yours; it is work, and it is comfort."]
+[Outcome B: "You step away and breathe, counting the inventory by the light of a headlamp. Nan's voice returns in your head: 'Know when the harbor must teach you to dance.' You let Jonah take the lead while you mark what can wait, and he watches you with something like relief and reproach."]
+[MERGE: Jonah's eyes meet yours after the micro-choice—steady, shaded with exhaustion. He does not ask for permission to be close; he simply is. When you choose work, he meets you with ropes and a grin that is both tired and stubborn. When you choose rest, he argues softly until you win the pause. Either way, the rhythm of repair begins.]
+
+[Scene: Pier — Mid-morning]
+[Visual: A dozen neighbors and volunteers clustered around the damaged seam; patched boats bob like patient beasts; hands lift, measure, bind.]
+[Sound: Hammers, murmured calculations, shouts of direction. Rafi's voice occasionally punctuates the noise like a delighted caw.]
+[Music: Low cello undertow; metronomic hand drums]
+
+Rafi Chen: "I threw a predictive overlay on the sensors — it's not perfect, but it should flag the next weak zone before it snaps."
+Maya Armitage: "How confident are you in your model?"
+Rafi Chen: "Confident enough to be dangerous." (He grins, then sobers.) "But here's the thing: it loves pattern. It hates surprise. The breakwater taught it a vocabulary last night."
+
+You hover over the glow of his tablet. The model shows heat maps—wave energies pooled like bruises against the shore. You feel the weight of responsibility again, but it has a different texture now: communal, stitched by many hands rather than solitary.
+
+Rafi Chen: "We can retrofit the broken span with flexible pontoons and sacrificial reefs. It buys time and—"
+Maya Armitage: "—and it uses materials we can source locally." (You complete his sentence because you both think the same stubborn thoughts.)
+
+You and Rafi argue a while—data versus craft, algorithmic anticipation versus tactile resilience. The argument is not a rupture; it's a negotiation. Jonah wanders in and out, palms black with tar, and when he speaks everybody listens because he carries the harbor in his hands.
+
+Jonah Reyes: "If we make the pontoons modular," he says, "kids can swap them out between classes. Schools become part of repair. Keep the knowledge local."
+Maya Armitage: "Exactly. Nobody can hold the town at ransom if the skills to fix it live in its schoolyards."
+
+The plan feels less like a manifesto and more like a ledger of daily acts: who will weld where, which elder will teach the knot workshop, who will harvest kelp for the reef matrix. The work begins to look like a life again.
+
+[INTERACTION]
+> Choice A: "Push Rafi's firmware into the network early — risk bugs for predictive power"
+> Choice B: "Run the firmware through a controlled field trial — slower but safer"
+[Outcome A: "You tap the screen and feel the small surge of fear and exhilaration. Rafi's face goes pale, then mischievous. 'If it crashes we will learn faster,' he says, and you both grin through the nerves."]
+[Outcome B: "You insist on a trial window. Rafi pretends to be insulted, but he nods. The slower path buys time for checks but leaves you two nights longer with the ache of uncertainty."]
+[MERGE: The narrative continues into community rebuilding and the rooftop market / community garden scenes.]
+
+[Scene: Rooftop Market / Community Garden | Late afternoon — Weeks Pass]
+[Visual: A rooftop stitched with raised beds, patched shades, and new anchoring points for floating gardens. Children hauling soil in small pails. Nets drying across benches like benign flags.]
+[Sound: The city breathes lower here: laughter, tinny radio, the soft scrape of a shovel. Rain hammering the courtyard a week earlier still hangs in spoken memory.]
+[Music: Warm, thin harmonics; a faint swell of hope undercut with a persistent minor chord]
+
+Time becomes a coarse sequence of repairs. The harbor stabilizes not with a single triumph but with repeated small victories—soldered seams, re-tied anchors, an economy of favors. Nan opens her parlor as a triage space: a kettle always on, quilts available for shivering volunteers, a room with donated mattresses where someone sleeps a few hours and wakes ready again.
+
+Gracie 'Nan' Armitage: "You keep thinking you have to be the one who holds everything," she says one evening, pouring tea into a chipped mug. "You don't. You hold what you can, and you teach others to hold the rest."
+
+You argue back—softly, because neither of you has more energy for sharpness. But Nan's words settle like mortar. You are less alone than you feared.
+
+Evelyn Hart's emissaries come through the margins—smooth suits, brighter shoes, a glossy pamphlet that promises certainty. You see them on the quay talking to city staff, and you know what their presence costs: attention, leverage, the slow erosion of political capital from your side.
+
+You do not meet Evelyn in council that week. When she does appear at a public forum, her face is composed and, when she speaks to you afterward, her expression becomes something you can only name as complex.
+
+Evelyn Hart: "You folks did well at the protest." (She inclines her head, too polite to be casual.) "Your approach—it's…remarkable, in its social resilience."
+Maya Armitage: (You keep your voice even.) "We prefer work that survives storms."
+Evelyn Hart: "Of course." (Her eyes measure you—a ledger both cold and curious.) "You will find that large systems can be allies. They just require management."
+
+Her tone is not open hostility; it is appraising, a statement that could be praise or a prelude to swallowing the little things you protect. You say nothing more. Her smile is unreadable—complex, like weather.
+
+[Scene: Pier — Storm Season, A Harsh Night]
+[Visual: Black water under blacker sky. Waves taller than your childhood imaginings. The harbor fights and loses small pieces. Lights from the pier blink like a tired constellation.]
+[Sound: Storm like a wall; water battering everything. Someone chanting through the gale: "Hold! Hold!" The sound is human and fragile.]
+[Music: Dissonant strings, a slow wail beneath thunder]
+
+There is a night when the sea forgets gentleness. It moves with a mind you cannot predict. A temporary pontoon rips free, taking with it a small, beloved skiff that used to belong to Jonah's brother. You watch it slide away like a memory made manifest.
+
+The loss is raw. Jonah holds something back—grief he does not want to contaminate the town with—and you feel the space it leaves. He wraps his hands around a coil and is so steady you can forget to breathe.
+
+Jonah Reyes [low]: "We'll get it back. Or we'll build another. Or we'll make a place so boats can be safe enough to stand a chance."
+Maya Armitage: "I don't want you to have to build without you." (You say what you can't hold in any other place: your fear that the town's needs will take him from you.)
+
+He looks at you then in a way that does not solve anything, but contains everything.
+
+Jonah Reyes: "I am here." (It is simple. It is everything.) "If you pull the harbor back from the brink, I'll pull our side with it. We start small and keep going."
+
+[Scene: Tidal Institute | Months Later — The Harbor Stabilized]
+[Visual: The Institute looks loved rather than clinical: repaired glass, community boards filled with photos of repair crews, a corner where a child once learned to knot. The floating infrastructure gleams in the low sun—modular pontoons, kelp-based reef mats, patched breakwaters—scars visible, stories embedded.]
+[Sound: Quiet—toolbox lids closing, the soft clink of the thermos, laughter like a tide that has learned a new rhythm.]
+[Music: A cautious major lift; a warm cello phrase that carries the weight of what was lost and what remains]
+
+The reconstruction took months. It required every hand—the elder who remembered old sea-smithing, the teenager who learned welding, the teacher who made knot-tying into a term project. Rafi's sensors gave you enough warning to preempt the worst. Jonah's crews taught the kids to read the sky. Nan fed you when you forgot to eat.
+
+You stand at the waterline where a tethered buoy bobs—bright orange, a small human flag against the vast sea. You are tired, the kind that sinks into bones, and you let yourself sit on a coil of rope while Jonah tightens a final bolt.
+
+Your hands are roughened into the map of this work—calluses like contour lines. Jonah finishes the bolt and wipes his palms on his jeans. His eyes are raw-rimmed from nights on watch, but when he looks at you there is something like peace braided through the strain.
+
+Jonah Reyes: "You look like you finally let the harbor teach you a dance," he says, echoing Nan, and there is a smile under the noise.
+Maya Armitage: "And you—are you finally letting anyone teach you surrender?" (You aim to tease, to soften the edges.)
+Jonah Reyes: (He groans, then laughs.) "Don't make me start being sentimental around people I might have to drag out of an undertow."
+
+The laughter breaks the thin ice and then folds into something quiet. You have no neat victory to offer—only a ledger of repairs, faces that belong to the place, and a town that has chosen living memory over curated perfection. The city plan Evelyn once offered has lost momentum; political capital is fickle, and without a willing majority it crumbled at the edges. She is still a presence—capable of influence—but for now her proposals are amended, watered down, and held at bay by by-laws you helped draft with Mayor Lena and the council.
+
+When the work quiets, Jonah reaches for your hand. His fingers are warm and strong. He does not kneel, he does not make a spectacle—there is no pageant here, only two people who have spent months shouldering shared burdens.
+
+Jonah Reyes: "We don't get a victory parade," he says softly. "We get…this. A night where the buoy stays. A kid who knows a proper splice. A reef mat that did its job. A town that mends itself."
+Maya Armitage: "I wanted a different shape to 'victory'." (You are honest; the confession is small and brave.) "I wanted no more losses."
+Jonah Reyes: "Loss is part of staying," he says, which is not the same as resignation. "But so is choosing who you keep close through it."
+
+You let the shore close over you like a promise—or perhaps a pact. You pull the compass out, the brass warm from its long hiding in your pocket, and hold it between your palms like a small, honest thing.
+
+[Sound: The harbor at dusk: a low chorus of water, distant calls, the soft zip of a repaired net. The world feels bruised but present.]
+[Music: A gentle, resolute progression—major mode with a lingering minor inflection]
+
+Jonah leans in, thumb tracing the dented edge of the compass as if memorizing its faults. His hazel eyes are tired in the good way—tired of work and tender from watching you do it. He does not make grand promises; he makes the only kind that matters now: ones you can test with a storm and a soldering iron.
+
+Jonah Reyes: "Stay with me. Not for the harbor alone. For the mornings after we patch something. For the dinners where your hands smell like kelp and you still make me laugh."
+Maya Armitage: (You answer in the only truthful way you know.) "I will. I will stay because building with you is one of the few things that makes me believe the town can keep its memory and still survive."
+
+He smiles, and it breaks like sunlight on water—fragmented, warm, whole. You fold the compass back into your pocket. You slide your hand into his, and it fits like work-worn leather into a glove.
+
+Gracie 'Nan' Armitage (from the porch across the way): "A quiet thing for a town that learned how to hold." (Her voice carries; it has the authority of someone who has been a tide marker for a century.)
+
+You stand with Jonah, with Nan, with Rafi, with everyone who answered a call that made no promises. The harbor is not perfect; the scars are visible and you have names for them. But the town is as intact as it can be—more than that, it is a community with new muscles for repair.
+
+[Visual: Wide shot—the harbor at dusk, patched and humming, lights reflected in the water. The low silhouettes of people moving like stitches along the shoreline.]
+[Music: A soft, bittersweet chord; major undercurrents threaded with minor thirds]
+
+You do not frame this as a clean victory. You know better. The sea will come again, as it always has. But tonight you let the buoy bob and the compass warm and the knot hold. You let Jonah's hand close over yours. You let your chest unclench a fraction.
+
+There is still work to do—legal details to finalize, maintenance schedules to write, and a thousand small, insistent tasks that will come with living beside a changeable sea. You are, improbably, ready to keep doing them.
+
+[Scene: Harbor | Twilight — Final Moment]
+[Sound: A single gull, a distant hammer, the soft slap of the buoy. The town's murmur like a tide settling.]
+[Music: Final cello note, held and fading into a calm silence]
+
+You look at Jonah. He looks back. The harbor—wounded, brilliant, alive—holds both of you. You do not promise that everything will be easy. You promise presence. You promise labor and tenderness and a willingness to make and remake the town together.
+
+You slide the compass back into your pocket a little firmer, and it stops jangling.
+
+[Visual: Fade to Black]
+
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

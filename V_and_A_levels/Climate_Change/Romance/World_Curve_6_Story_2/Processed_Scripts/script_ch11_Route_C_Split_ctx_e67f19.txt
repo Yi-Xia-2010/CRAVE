@@ -1,0 +1,178 @@
+### SCRIPT
+# Route: Route C (Ending)
+# Context: e67f19
+
+[Scene: Quay | Night]
+[Background:"ch11_e67f19_1"]
+[Sound: Low mechanical drone, the distant slap of waves, the quick staccato of phone notifications]
+[Music: Driving, urgent strings — a relentless pulse that quickens with every exchange]
+
+You stand with the tide-watch heavy and honest in the palm of your hand. The brass is cool; its little hands do nothing to slow the pounding in your chest. Around you everything is in motion — people, machines, messages — but under the lights the town looks smaller, more fragile, like something you could cup and hold if you only had enough arms.
+
+Nyla is there first, breathless from the climb down the quay, tablet in hand, the glow painting her pink hair an electric rose. She shows you a feed: a fisher’s post, a blurred photo of ropes and nets hauled up with more mud than fish, a comment thread that veers fast from grief to accusation. Someone overlayed the image with the word "SELL-OUT" in jagged red type.
+
+You feel the heat of it as if the letters themselves could burn: your choice to back the compromise is already a public shape that people can aim at.
+
+Nyla: "Maya—look. Sensors are showing a drop in biomass near the reconfigured quay. The model didn't forecast this rate. We can trace it back to the way the currents shifted after they put in those revetments."
+
+Maya Serrin: "Show me."
+
+Nyla's finger scrolls, so quick the numbers blur. A map blooms on her tablet: colored gradients, time-stamped readings, a ghost-line where the current diverted. Her eyes are blazing with a mixture of anger and the precise hunger of someone who finds a flaw and wants to fix it.
+
+Nyla: "We can publish it. Put up the raw stream. Let people see what's happening in real time. Transparency will force them to respond."
+
+Maya Serrin: "If we publish everything now, the Mayor will say it's sabotage. Elena's investors will point to instability and tighten their grips. The construction stops, the funding freezes."
+
+Nyla [Sharper]: "And the fishers go hungry while you wait for someone to remember that 'stability' includes us?"
+
+Before you can answer, Aiden Koa's laugh — too short, half-iron, half-hurt — cuts across the cold air. He has the fishing co-op's carrier bag slung over one shoulder; the leather of his jacket looks older than when you last saw him. He stands a few paces away, hands shoved into patchwork oilskin pockets, the fissure in his expression open and raw.
+
+Aiden Koa: "You always said promises matter, Maya. You told Old Man Cala you wouldn't let his stories die to concrete. Now the promises became paper and the paper keeps letting things slide."
+
+Maya Serrin: "Aiden—"
+
+Aiden Koa [Interrupting]: "Maybe I shouldn't be out on the water anymore if the water won't give back. Maybe there's work in the city. Maybe I should leave this before the shore takes everything else." His voice is brittle; for a heartbeat you imagine letting him go, practical resignation folding into the wind.
+
+Maya Serrin [Quiet, Urgent]: "Don't say that. This isn't—this wasn't supposed to be the end. Help me understand what they told you. Help me show them what they missed."
+
+Aiden Koa's jaw tightens. He looks at Nyla, then at the rail where fishers usually tie their lines. Behind him, a pair of dockhands argue with an activist filming the scene, their words thrown like planks into the sea.
+
+[INTERACTION]
+> Choice A: "Walk over and take Aiden's hand"
+> Choice B: "Step back and pull up Nyla's data feed"
+[Outcome A: "You close the space, fingers finding the calluses you know. He flinches, then lets his hand rest against yours for a breath — a small, fierce harbor in the storm."]
+[Outcome B: "You slide into Nyla's glow. The numbers feel like ballast, cold and irrefutable. Aiden watches you as if your loyalty can be measured in graphs."]
+[MERGE: Continue]
+
+[Scene: Corporate Seawall Construction Site | Night — adjacent, under floodlights]
+[Background:"ch11_e67f19_2"]
+[Sound: Clangs of metal, distant engine recoil, murmured orders]
+[Music: Percussion intensifies, a percussion undercurrent like marching feet]
+
+Mayor Jerome Hale stands near the edge of the work zone, folders clutched to his chest. He is practical even in panic — you can see the habit of negotiation in the tilt of his head, the practiced calm of his voice. But tonight the lines around his eyes have been carved deeper by timelines compressed into threats.
+
+Mayor Jerome: "Maya, we don't have the luxury of a perfect plan. Investors have deadlines; Elena's board won't let go. If we lose this tranche, we lose everything else. The restoration — the ecology work — is on hold 'til funding stabilizes. It's the language they gave me."
+
+Maya Serrin: "That's not just budget language, Jerome. 'On hold' is a euphemism for 'maybe forever' in this town. It means habitats won't recover. It means people lose more than money."
+
+Mayor Jerome [Sighing]: "I know. I'm not happy about it. But the immediate barrier protects houses. People need roofs tonight."
+
+From the cluster under the lights, Dr. Elena Park approaches — poised, precise, trench coat catching the light like a blade. There is tension in her jaw you haven't seen before; her AR specs rest on the bridge of her nose, half up, half down, like the edge of two worlds. Investor emails creased the corners of her mouth earlier; you can read the pressure in the set of her shoulders.
+
+Dr. Elena Park: "Maya. Jerome. I didn't want this to look like cutting corners. We're running on a tighter schedule because the capital round accelerated. Investors demanded faster returns. I pushed back, I pushed—" she cuts off, realigns, then says softer, "I pushed as far as I could."
+
+Maya Serrin: "As far as you could — or as far as your board would allow?"
+
+Dr. Elena Park [Measured]: "Boards have their thresholds. I have mine. We can get a stabilization fund in—"
+
+Nyla [Cold]: "Unless those 'thresholds' are defined by screenshots and inflated projections. Your stabilizer is their spreadsheet."
+
+Dr. Elena Park's eyes flick to Nyla. For a moment they narrow — but there's no villainous sneer. There's the weariness of someone who lives inside proposals and deadlines, the weary arithmetic of trade-offs.
+
+Dr. Elena Park: "We can carve out a fund for fishers' access. It's not ideal, but it's something. We can also phase restoration — immediate protection now, marsh remediation in the next phase."
+
+You sense the room tightening, emotion and stakes compressing together. Activists at the periphery shout into phones, a thread of live video streaming across the shore, tags already trending. A message pings your own phone — the mayor's office reminding you of the public statement for tomorrow.
+
+Aiden Koa: "Phase. Phase this, phase that. While you 'phase' my livelihood into a footnote, people will lose dinners, and kids will forget the taste of fresh salt cod." His voice is rising, raw with a grief that has no podium.
+
+Maya Serrin (firm, but your chest is a drum): "Elena, if you set aside a fund, it has to be binding — a trust, escrowed and public — so it's not 'phase' when we need it. It needs oversight by people who live here."
+
+Dr. Elena Park [Quick, Practical]: "Binding clauses slow down deployment. If the board sees strings, they pull back."
+
+Maya Serrin: "Then we put oversight into the municipal charter. Citizen oversight. Legal clauses that can’t be rewritten by spreadsheets. If you want our cooperation, you want our consent. Make it enforceable."
+
+Mayor Jerome looks at you — an unreadable mix of relief and dread. He is the weathervane between political survival and civic duty.
+
+Mayor Jerome: "Maya, that will anger investors. It will make contracting longer. I can try—"
+
+Maya Serrin [Leaning In, Low but Bright]: "Try. Make it a condition of our continued support. Tie the funding tranches to verifiable milestones and an oversight board that includes fishers, scientists, and community reps. Put it in municipal code."
+
+Nyla [Urgent]: "We can create the dashboard. We can stream sensors. We can timestamp every alteration to the shore and make it immutable."
+
+A murmur ripples through the gathered workers and residents. The idea of a live, public ledger of coastal interventions lights something fierce and hopeful in people's faces. In that single instant, the air changes from accusation to potential action.
+
+Dr. Elena Park studies you, then slowly nods. It's not a full concession — the glance toward her team is quick, strategic — but the nod is a promise to negotiate.
+
+Dr. Elena Park: "I can propose an escrow with independent auditors. We'll build in milestones. But I need the timeline loosened by two weeks."
+
+Maya Serrin: "Two weeks is two weeks of exposure for the shoreline."
+
+Dr. Elena Park [Soft]: "And two weeks to make the fund enforceable."
+
+You feel the calculus in your bones: delay may bring better accountability, but it also invites investors to yank their support. The arousal in the air spikes — phones ping, a dozen small geomorphic alarm bells ringing.
+
+[INTERACTION]
+> Choice A: "Push the Mayor publicly now to demand the escrow clause"
+> Choice B: "Ask Elena to draft the clause tonight, quietly"
+[Outcome A: "Your voice cuts through the crowd. 'We will not let promises be paper.' People lean forward. Jerome's face hardens; the construction foreman looks nervous. Echoes of 'finally' and 'wait' ripple in equal measure."]
+[Outcome B: "You step closer to Elena, lowering your voice. She listens, professional and close. You feel the charged proximity of ally and adversary, and for a breath your knee-jerk mistrust is complicated into something like tactical intimacy."]
+[MERGE: Continue]
+
+[Scene: Tide Research Station | Late Night — later, still urgent]
+[Background:"ch11_e67f19_3"]
+[Sound: Soft hum of servers, the tinny ping of incoming messages]
+[Music: A single high violin line — tense but hopeful]
+
+Back at the station, Nyla boots up the visualization platform. The data from the quay is already queued: sensor arrays, current models, tidal amplitude variance. You cross-reference the headlines, watch the activist streams, listen to Aiden Koa's low, raw comments about leaving the nets behind.
+
+Nyla: "If we publish this feed, we can't take it down. It becomes evidence, and evidence forces action. The town will either rally — or they'll turn on you for not stopping it. But at least it won't be erased."
+
+You stare at the cascade of numbers until they resolve into a shape you recognize: a possible accountability mechanism. Your chest is a furnace of resolve. Your throat feels raw, but there is clarity there that sings: this is what representation looks like in practice — messy, ugly, necessary.
+
+Your phone buzzes.
+Aiden Koa: "I don't want to be the person who leaves. But I don't know how to be the person who waits and watches things rot while 'recovery' sits in a ledger."
+
+Maya Serrin: "You don't have to decide tonight."
+
+Aiden Koa: "Maybe I already started deciding."
+
+Maya Serrin [Hot, Bright]: "Then help me decide with me. Not away from this place. With me. With Nyla. With people. We make the oversight now. We force the binding. If we act fast and loudly, Elena can't hide behind investor fear. If we act silently, we buy a small fix and we all pretend we're okay."
+
+Aiden Koa [After a long, brittle inhale]: "You make it sound easy."
+
+Maya Serrin: "It will be hard. It will fracture things — politics, friendships, reputations. But it's what we asked for when we said 'community-led.'"
+
+Nyla [Peering]: "If you want to keep them here, keep them fed, the fund has to be immediate and visible. I can push the dashboard live. We can timestamp every milestone. We can make it impossible to privatize this story."
+
+Maya Serrin: "Do it."
+
+Nyla's fingers fly over the keyboard. On the screen a checkbox blinks: "PUBLISH—LIVE." She hesitates, then hits return. For an instant you feel the sea itself hold its breath. Then the feed goes live — raw, messy, honest. Comments pour in. A local radio host calls, asking for on-air commentary. An old woman you grew up knowing texts a simple, trembling heart emoji.
+
+There is a splinter of triumph — the taste of salt and hope — bright and electric against the fear.
+
+Maya Serrin [Soft]: "Either we force the rules to match our hope, or we take the small, quiet money to keep people afloat. I can do both — there are paths — but I need you. I need community muscles. I need your voice in oversight meetings."
+
+Aiden Koa looks at you; his expression is not simple. For a second it is unreadable — a complex map of pride, fear, and something like longing.
+
+Aiden Koa: "If I stay, I'm staying because I'm convinced you won't let them replace our story with concrete. Convince me."
+
+Maya Serrin: "I'll convince you with clauses and court filings if I have to. But first, I will convince you with actions that you can see."
+
+You stand on a knife-edge between public confrontation and private compromise, between binding law and the slow burn of community organizing. The adrenaline is a bright instrument in your veins, the night humming like a live wire.
+
+People are already assembling — Nyla has the dashboard; activists are coordinating a press burst for the morning; a few fishers are circling, waiting and wary. Dr. Elena Park has retreated to confer with her team, but she left the offer in the air: an escrow, auditors, milestones — if the timeline can stretch.
+
+Your notebook is open on the counter. Your tide-watch has been set beside it; the brass gleams in the station light like a small promise. Your storm-gray eyes scan the page — phrases half-formed, legalistic words you can shape into leverage. You can push the municipal machinery to bind the deal. You can lead the town to take to the streets and demand enforcement. Or you can broker a quieter fix with Elena, channeling funds directly to fishers while everyone else argues.
+
+You feel the town's heartbeat under your palm: messy, furious, hopeful. The arousal peaks — shouts and pings and the fanfare of mobilization crash together into a single, pointed urgency.
+
+This is the moment that will define not only the shoreline but the shape of your ties: political, public, and personal.
+
+[Background:"ch11_e67f19_4"]
+[Music: Strings snap high — an urgent, almost triumphant chord]
+
+[DECISION POINT]
+1) Option 1: "Push for binding legal clauses and citizen oversight, using municipal authority." -> TARGET chapter_id: 12
+2) Option 2: "Publicly denounce broken promises and lead a town campaign to demand enforcement." -> TARGET chapter_id: 13
+3) Option 3: "Secretly broker a targeted fund with Elena to restore fishers' access and compensate losses." -> TARGET chapter_id: 14
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Push for binding legal clauses and citizen oversight, usi..." -> ID 12 (Route C (Ending))
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_f99e88.txt
+Option 2: "Publicly denounce broken promises and lead a town campaig..." -> ID 13 (Additional / Convergent hybrid/activist route / True Ending)
+    > Jump Target File: script_ch13_Additional_Convergent_hybrid_activist_route_True_Ending_ctx_f99e88.txt
+Option 3: "Secretly broker a targeted fund with Elena to restore fis..." -> ID 14 (Additional (Bittersweet))
+    > Jump Target File: script_ch14_Additional_Bittersweet_ctx_f99e88.txt

@@ -1,0 +1,114 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) and Genre (Romance) as an intimate human story set against a city physically remade by environmental crisis. The romance provides emotional stakes — choices lovers make about safety, compromise, and sacrifice — while climate change supplies escalating external pressure: sea-level rise, corporate development, and the struggle between short-term order and long-term ecosystem health. The core conflict is therefore twofold: (1) a community vs. redevelopment/corporate expediency over how to adapt the coast, and (2) two lovers whose professional loyalties and personal traumas push them toward different adaptations. The narrative will force characters to choose between ideological purity, pragmatic compromise, and personal connection, letting players explore moral trade-offs in six tight chapters.",
+    "setting": "Near-future coastal metropolis (Port Lyra) in the early 2040s, where rising seas and more violent storms have already reshaped neighborhoods. Parts of the city float on patched pontoons, reclaimed wetlands sit beside high-tech seawalls, and rooftop farms sprout from once-abandoned warehouses. Atmosphere mixes salt-wet air, intermittent acid rain forecasts, and an ongoing public debate between techno-engineering and nature-led adaptation. Daily life feels urgent but creative — communities retrofit and repurpose, and intimate human moments occur in the shadow of large-scale engineering projects.",
+    "visual_style": "Neo-ecological realism, Soft anime-influenced character art, Rainwashed textures, Muted coastal palette (sea-glass greens, storm-grays, rust orange), Biophilic architecture details, Warm ambient lighting contrasted with cold fluorescent lab light",
+    "main_characters": [
+        {
+            "name": "Mara Solenne",
+            "role": "Protagonist",
+            "personality": "Driven, compassionate, pragmatic idealist. Quick to act, fiercely loyal to her neighborhood, talented at organizing and improvising. She balances anger at systemic failures with an instinctive ability to listen and make small, meaningful compromises.",
+            "appearance_features": {
+                "hair": "Deep sea-green bob, chin-length with sun-bleached tips and a single braided strand of copper wire woven in",
+                "eyes": "Sea-glass green, slightly upturned with long, tired lashes and a faint freckling of salt near the left temple",
+                "clothing": "Layered utility-wear: a faded navy waxed cotton raincoat patched with scavenged reflective strips, a hemp-knit sweater dyed teal, reinforced knee trousers with stitched-on pockets, and worn rubberized boots with floral stencils",
+                "accessories": "A small hydroponic locket containing a sprig of marsh grass, a cracked solar wristwatch, and a seed-bead bracelet made from community-salvaged glass"
+            },
+            "goal": "To preserve and restore the intertidal wetlands that protect her neighborhood while building resilient livelihoods for residents.",
+            "background_story": "Grew up in the low-lying Drowned Garden quarter; lost a sibling in an inattentive storm evacuation years ago. Became a community organizer and wetland restoration technician, learning to splice pumps and bargain with city officials. Her activism is personal: she wants living wetlands to act as both defense and a source of dignity for those displaced by coastal projects.",
+            "emotional_trait": "Strength — fierce empathy and stubborn hope; Flaw — guilt-driven impatience that sometimes blinds her to compromise."
+        },
+        {
+            "name": "Elias Harrow",
+            "role": "Love Interest",
+            "personality": "Calm, analytical, quietly romantic. He is thoughtful and precise in research but emotionally reserved, often processing feelings through design and data. He believes in technical solutions but is open to nuance when confronted with human stories.",
+            "appearance_features": {
+                "hair": "Sandy blond, slightly wavy, kept a little long so it falls into his eyes when he leans over a table",
+                "eyes": "Warm amber, round and introspective, with faint crow's feet from smiling rarely but genuinely",
+                "clothing": "A layered 'field scientist' look: breathable ivory shirt rolled at the sleeves, a soot-creased tan field jacket with instrument loops, patched denim trousers with an embroidered shoreline map on the hem, and scuffed leather boots with mud and salt stains",
+                "accessories": "A brass compass on a fraying leather cord (a family keepsake), a slim tablet with annotated coastal simulations, and a small rusted key from an old boathouse"
+            },
+            "goal": "To design an adaptive coastal barrier that can keep neighborhoods safe while minimizing ecological harm — and to reconcile his engineering work with his relationship to Mara.",
+            "background_story": "Raised in a middle-class inland neighborhood; studied civil and environmental engineering. Hired by a coastal consultancy that is contracted for the city's major defenses. He grew attached to Mara while volunteering for community surveys, and now faces a conflict: his employer's preferred seawall would be technically efficient but destructive to local wetlands.",
+            "emotional_trait": "Strength — methodical calm that steadies others; Flaw — conflict-avoidant, fearful of choosing sides when both love and career are at stake."
+        },
+        {
+            "name": "Lucia Montrose",
+            "role": "Antagonist",
+            "personality": "Charismatic, decisive, and intellectually rigorous. She presents as a pragmatic visionary: blunt, efficient, and convinced that large-scale engineered solutions are necessary to save the city. She can admire those who are effective even while sidelining emotional appeals.",
+            "appearance_features": {
+                "hair": "Silver bob, sharply cut to the jaw with a precise center part, always appears freshly styled despite the weather",
+                "eyes": "Steel gray, narrow and assessing, they seem to catalog structural weaknesses like a blueprint",
+                "clothing": "Tailored storm-gray suits with subtle aquatic-patterned silk lining, polished high-collar boots, and a long trench trimmed in reflective piping; often wears a structured waterproof cape on the inspection platform",
+                "accessories": "A pearl brooch that houses an encrypted data drive, gold cufflinks engraved with the corporate logo, and a slim tablet in a matte black case"
+            },
+            "goal": "To implement a large-scale, rapid seawall and redevelopment plan to protect the city's economic core and prevent mass displacement at scale, even if it means altering or removing some natural buffers like wetlands.",
+            "background_story": "Raised inland where droughts devastated family farms, Lucia rose through corporate ranks driven by a belief in order over chaos. Her approach to crisis is managerial: choose the solution with the highest immediate survivability. She clashed with grassroots groups early but now views them as obstacles she must manage.",
+            "emotional_trait": "Strength — decisive leadership and clarity under pressure; Flaw — utilitarian detachment that can blind her to cultural and ecological losses."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rani Cho",
+            "relation_to_main": "Childhood friend of Mara; local carpenter and raft-builder",
+            "appearance_summary": "Short-cropped black hair with silver streak, sun-darkened skin, always with a dusting of sawdust and a toolbelt.",
+            "function_in_story": "Provides practical help (repairs, floating platforms), comic relief, and a moral sounding board. Rani helps execute Mara's grassroots adaptations and forces Mara to confront the human cost of radical choices."
+        },
+        {
+            "name": "Councilor Mateo Qu",
+            "relation_to_main": "City official who liaises with Lucia and the community",
+            "appearance_summary": "Mid-50s, thin, bespectacled, favors breathable tailored shirts, always carrying a slim packet of briefing papers damp from field visits.",
+            "function_in_story": "Represents municipal compromise and political pressure; his shifting votes and speeches frame the city's policy timeline and create procedural obstacles or opportunities."
+        },
+        {
+            "name": "Eda Nal",
+            "relation_to_main": "Elder wetland keeper and mentor to Mara",
+            "appearance_summary": "Elderly, with long braided silver hair, weathered skin mapped by sunlines, and hand-stitched shawls decorated with shell motifs.",
+            "function_in_story": "Conveys traditional ecological knowledge, offers historical context about the land, and anchors the moral argument for nature-led resilience."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Drowned Garden",
+            "visual_description": "A low-lying neighborhood of raised walkways, floating gardens, and weathered houses on stilts. Lighting is diffused — early morning fog lifts into brassy sunlight that makes water shimmer like burnished metal. Colors are mossy greens and rusty corals; air smells of saline and wet soil. Background art should emphasize handmade repairs, buoyant plant beds, and children skipping across patched pontoons while clouds gather on the horizon."
+        },
+        {
+            "name": "Beaconworks Lab",
+            "visual_description": "A retrofitted warehouse turned coastal engineering hub: high ceilings, suspended LED arrays, and workbenches strewn with sensors and tidal models. Cool fluorescent and blue task lighting contrasts with warm filament bulbs over communal tables. Walls are covered with maps, annotated sketches, and samples of wetland flora preserved in resin. The mood is industrious but intimate, with rain-soaked windows streaked by condensation."
+        },
+        {
+            "name": "The Promenade & Construction Rift",
+            "visual_description": "A long, newly-charted waterfront where heavy machinery slices into shoreline marshes. Harsh, mid-day sunlight throws sharp shadows; metal seawall sections glint. Dust motes and spray hang in the air. Palette shifts to hard grays, chrome, and industrial yellow, punctuated by safety tape and the occasional patch of stubborn eelgrass. This is a scene of conflict—workers arguing, activists chaining themselves to pylons."
+        },
+        {
+            "name": "Rooftop Market & Greenhouse",
+            "visual_description": "A layered rooftop ecosystem above a market: warm golden late-afternoon light, hanging planters, solar panels with trailing vines, and stalls under canvas awnings. Colors are warm ambers, olive greens, and terracotta. The atmosphere is bustling, intimate, and fragrant — fresh herbs, fried street food, and rain caught in rooftop barrels."
+        },
+        {
+            "name": "City Hall Council Chamber",
+            "visual_description": "A formal, echoing chamber with tiered seating, soft overhead skylights that diffuse cloud-light, and a long dais of polished reclaimed wood. Neutral stone and cold metal detailing convey authority; banners showing the city's crest hang half-faded. Lighting is sober and public; the mood is tense during hearings, with murmurs rising when community members stand to speak."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-driven hybrid adaptation is adopted: a softer living barrier is integrated with engineered protections. Mara and Elias reconcile by co-designing a pilot project, wetlands are preserved and expanded, and the city finds a political compromise that protects many residents. The romance matures into a partnership balancing heart and science."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A pragmatic compromise is reached where a partial seawall is built and some wetlands are sacrificed for critical infrastructure. Mara secures legal protections for displaced residents and a funded restoration elsewhere, but the landscape is altered. Elias takes a position implementing the compromise; the couple remain together but both carry scars from what was lost."
+        },
+        {
+            "type": "Sad",
+            "summary": "Lucia's full seawall plan passes under emergency powers; many wetlands are bulldozed and several communities are displaced. Mara's direct action fails to stop the momentum, and the relationship fractures under ideological differences. The city is safer from immediate storms but poorer in biodiversity and communal cohesion; protagonists are separated and left to rebuild individually."
+        },
+        {
+            "type": "True",
+            "summary": "A realistic, ambiguous outcome: the seawall and living restoration both proceed at different scales. Legal battles continue; the city makes slow iterative changes but with ongoing tensions. Mara's movement achieves long-term policy wins but must keep fighting. Mara and Elias part ways amicably, acknowledging different callings: one stays to organize, the other to engineer — both committed to the same larger goal but accepting different paths."
+        }
+    ],
+    "estimated_chapters": 6
+}

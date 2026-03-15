@@ -1,0 +1,150 @@
+### SCRIPT
+# Route: Additional Epilogue (True/Bittersweet synthesis)
+# Context: 66a4ee
+
+[Scene: New Promenade | Dawn after the Surge]
+[Background:"ch13_66a4ee_1"]
+[Sound: A distant murmur of reporters, the soft scrape of workers packing gear, gulls arguing over a stray tarp]
+[Music: Low, sustained cello with an undercurrent of steady percussion — measured, somber]
+
+You step onto the new promenade with your hands shoved into the pockets of your field jacket. The trefoil at your wrist prickles against the chill; the tattoo feels like a small, stubborn coal under your skin. The air is a mixture of salt and the sharp, mineral odor of wet concrete. Where the waves hit, the new barrier holds: the surge folded against engineered wall and spat its foam away. You can see that in the way the water's line stops short of the Low Row's terraces, in the contained arc of debris pushed into collection booms.
+
+Across the plaza, a municipal press cluster is already forming. Cameras pivot like watchful birds; a podium with the city seal waits. You watch Mayor Ana step up, her scarf the only bright thing in the morning gray, and you feel the simultaneous lift and hollow inside your chest — the city's applause is a bandage over an incision.
+
+Mayor Ana Velez (to the press): "Thanks to decisive engineering and the cooperation of our partners, critical infrastructure was protected last night. Lives were saved."
+Reporter 1: "Mayor, what about the Low Row? Several properties reported severe damage."
+Mayor Ana Velez: "Emergency services were deployed immediately. Restoration funds will be expedited where necessary."
+
+You listen. The words sit neat in the air, sterile and folding outward like a well-pressed map. They make the victory legible: saved power substations, uninterrupted water treatment. Those things matter. You know they matter with the kind of clarity that hurts.
+
+[Background:"ch13_66a4ee_2"]
+[Music: The cello lowers; a single violin thread threads like a memory]
+
+A municipal engineer—uniform neat, badge bright—gives a curt nod as he passes. He is polite, professional. His nod does not account for the courtyard where the nursery once was, for the bakery with the flaking blue awning that now has seawater lapping at its threshold.
+
+You inhale and the taste of metal comes with the salt. You move off the promenade toward the Low Row, because applause from a podium won't tell you which doors stayed closed and which never will open again.
+
+[Scene: Low Row | Mid-morning — Temporary Fences and Relief Centers]
+[Background:"ch13_66a4ee_3"]
+[Sound: Quiet bursts of conversation, the slap of cardboard boxes, a child laughing then shushing]
+[Music: Sparse piano notes — slow, patient]
+
+Rafi's relief center throbs with activity. He is everywhere at once — handing out blankets, barking instructions, smoothing a volunteer's frayed temper with a joke that lands like a stone skipping. The rooftop nursery's seedlings are boxed in coolers; the social ledger is a whiteboard scrawled with names and requests.
+
+Rafi: "We’ve got beds for displaced families here and here. Food runs on the hour. If we can get a list of appliances still usable, the municipal grants cover at least part—"
+Maya Corvin [soft]: "I'll take the canvases. Lio's organized something for each place we can't save."
+Rafi [watching you]: "You look like you didn't sleep."
+Maya Corvin: "I didn't."
+
+Lio appears, paint-streaked and too earnest. He holds up a peeled-back section of plywood where, in bold, bleeding colors, he's begun to paint a line of faces. Each face is different, and each one looks like someone you could call by name.
+
+Lio: "They're not just houses, you know? They're names. If we just hand over the narrative to gleaming concrete, people forget what was there."
+Maya Corvin [kneeling to examine the strokes]: "They're good. You saved some of the seedlings?"
+Lio [half-smile]: "Saved what I could. The ones that were still above ground. Mrs. Ortega donated the old paint she had. Said it was time these roofs had new colors."
+
+[INTERACTION]
+> Choice A: "Help Lio pin the mural to the wall"
+> Choice B: "Go through relief forms with Rafi"
+[Outcome A: "You climb up, the ladder wobbling, and your palm presses paint into plywood. The mural takes a new contour as your hand steadies the brush; the action is small and unbearably necessary."]
+[Outcome B: "You sit at the folding table, the forms a dense, human geography. You read names aloud, and the sound of each name binds you to the work you'll have to do next."]
+[MERGE: Both reactions exist as truths: there will be painting and there will be paperwork. You let your fingers find pigment for a moment and then trade the brush for the clipboard.]
+
+The relief center hums with controlled urgency. Conversations ricochet: who can be sheltered, what can be claimed as lost, which businesses might reopen with generators. People approach you with hands that shake when they ask about sentimental things — a stack of child drawings, a sun-faded recipe card. You hand out water. You hold a shoulder when someone cries. The work is mid-intensity in rhythm: not frantic but relentless.
+
+[Scene: Temporary Fences | Noon — A Corner near the Construction Site]
+[Background:"ch13_66a4ee_4"]
+[Sound: The distant thud of machinery, muffled by canvas; the low, anxious buzz of a group conversation]
+[Music: A slightly taut guitar string, an undercurrent of tension]
+
+You find Camila 'Kai' Navarro at the edge of the site, her field suit unmarked by the mud on your boots. She is talking to a small ring of engineers; her tone is clipped but earnest. When she sees you, something shifts — the efficiency in her posture softening into an awkward, almost human pause.
+
+Camila 'Kai' Navarro: "The modules did their job. The surge exceeded our initial thresholds, but the built redundancies held."
+Maya Corvin [leaning on the fence]: "And the crews? There were rumors—"
+Camila 'Kai' Navarro [brisk]: "A few complaints about timelines. Some of the crew think we pushed the schedule. I'm investigating."
+
+She watches you closely, eyes that catalog and judge and, today, avoid answering fully.
+
+Maya Corvin: "Investigating how?"
+Camila 'Kai' Navarro [sighing, then lowering her voice]: "There are lines in reports that say 'acceptable risk.' The strike rumors — they're not just about hours. Some of our engineers say compromises were made in subcontracting, that oversight got thinner in places we couldn't see. I've been reading the messages. I didn't want to show you because—" (she pauses) "Because I know how it looks when I say 'we did what needed to be done.'"
+
+You press the trefoil and feel the cold metal of your compass, inconsequential and comforting all at once.
+
+Maya Corvin: "So you knew the crews were unhappy and you kept building anyway."
+Camila 'Kai' Navarro [hands lifted, pleading a small, private truth]: "We fast-tracked to protect lives. There were people on the other side of that glass expecting the machine to do what populations couldn't. I know the edges we trimmed. I'm not proud of all of it. But the alternative last night was—"
+
+She doesn't finish the sentence. You finish it for her in your head: worse loss.
+
+[INTERACTION]
+> Choice A: "Press Kai about subcontracting and demand the names of those who raised alarms"
+> Choice B: "Tell Kai you'll watch the oversight committee and keep public pressure"
+[Outcome A: "Kai flinches but slides a worn-faced tablet across the fence. It's not the full list you want, but it's a start. Her jaw tightens. 'You'll have to be the one to take it public,' she says."]
+[Outcome B: "Kai studies you, then nods. 'Good,' she says quietly. 'Because we both know oversight is only as strong as the people who demand it.'"]
+[MERGE: "Kai's apology is pragmatic, a rare fracture in her armor. It tastes like admission and like a plea for partnership of convenience rather than comfort. You accept the tablet because information is leverage; you accept her nod because sometimes you need someone in the halls to keep the doors open."]
+
+Camila 'Kai' Navarro's apology is pragmatic, a rare fracture in her armor. It tastes like admission and like a plea for partnership of convenience rather than comfort. You accept the tablet because information is leverage; you accept her nod because sometimes you need someone in the halls to keep the doors open.
+
+[Scene: A Quiet Alley behind the Relief Center | Late Afternoon]
+[Background:"ch13_66a4ee_5"]
+[Sound: Brushes whispering against wood, the distant radio with an old ballad playing low]
+[Music: A soft, mournful clarinet — intimate and ache-filled]
+
+Elias Kahn finds you here, his trench coat still damp from the morning. He doesn't announce himself. There's a thinness to him that wasn't there before: sleep scored under his amber eyes, a softness gone from the set of his mouth.
+
+Elias Kahn: "You did what you could. The amendment—"
+Maya Corvin [cutting in]: "The amendment saved infrastructure. But we lost things, Elias."
+Elias Kahn [looking at the mural]: "I know. I read the reports from the relief teams. I saw Mrs. Ortega's bakery. I... I called a meeting with the oversight board this afternoon. They've agreed to an expanded audit."
+
+He says it like a recitation of tasks, as if listing them will stitch what is fraying.
+
+Maya Corvin: "Will you be there when we need you on the ground?"
+Elias Kahn [a beat, then softer]: "I'll be doing oversight. The mayor offered me a lead role on the committee. It means more of my time in municipal scheduling and less in the field."
+Maya Corvin [voice thinning]: "So you'll be in meetings about the neighborhood, not in the neighborhood."
+Elias Kahn [reaching for your hand, then hesitating]: "I can be both. I want to be both."
+
+The air between you tightens. There is a long tradition of promises in Nueva Mar — promises written in grant applications and minutes of meetings. They are necessary but slippery.
+
+Maya Corvin: "You've already been both with me and without me, Elias. The audit helps, but it won't be the same as showing up to knock on doors with Rafi. It won't be the same as midnight patrols when the tide rises."
+Elias Kahn [anguished]: "I know. I'm terrified of being absent in the wrong moments. But I also have a seat at a table that moves city policy. I can push protections further from there."
+
+The argument is not new, but it is sharper now, angled by late nights and the cold reality of what was lost. He looks at you like someone who wants to bridge a widening gap but is unsure which plank to lay first.
+
+Elias Kahn: "We can find ways to make this work—"
+Maya Corvin [pulling your hand back gently]: "Maybe. Or maybe we'll drift apart by accident, convinced that the other's path is enough. I can't promise I won't keep needing you here."
+
+He exhales, a small, ragged sound.
+
+Elias Kahn: "Then stay with me when you can. Trust that I'm trying."
+Maya Corvin [voice lower]: "Trust is a muscle that needs use."
+
+The conversation ends in a small, humane silence. It is not breaking yet, but you both feel the hairline fault underfoot.
+
+[Background:"ch13_66a4ee_6"]
+[Music: The clarinet dwindles; the cello returns with a low, unresolved phrase]
+
+You watch him go, the municipal clock of schedules and committees pulling him away. You feel grief collect like dew on the skin of your thoughts — not catastrophic in its suddenness, but persistent, a corrosive dripping.
+
+[Scene: New Promenade | Evening — You Alone at the Rail]
+[Background:"ch13_66a4ee_7"]
+[Sound: The low, patient rush of water; distant laughter; the metallic creak of a maintenance cart]
+[Music: Ambient strings, slow and low; the overall pulse steadies]
+
+You press your palm against the cold railing. The trefoil at your wrist meets the chill and anchors you. The city praises the seawall in print and on screens; tomorrow there will be op-eds and municipal reports. Tonight, the neighborhood survives physically but is remade. The bakery's sign may be replaced; a rooftop nursery has been boxed into temporary space; some storefronts will reopen with generators and grit. Other spaces — altars, small libraries, murals — will require memory to keep alive.
+
+A small, private ache settles into the center of you. It is the knowledge that you traded something for safety, and that trade will echo in the ways people remember who they were before the wall. You are proud and furious and tired in equal measure.
+
+You think of Kai's tablet and the names it contains — engineers who spoke up and were ignored; a strike that flickered but was pressed down by necessity. You think of Elias in committee rooms and the distance that policy introduces, however well-intended. You think of Lio's mural, each face a tether to the people who will have to keep calling out the neighborhood's existence.
+
+There is no big dramatic last stand here. There is a continuum of labor stretching ahead like a difficult tide: audits, oversight meetings, petitions, murals, memorials, community kitchens, small legal fights. It is daily work — stern, unglamorous, resolute.
+
+[Page-Turn Moment]
+You lift your face to the sky and let the salt wind push at your braid. The promenade lights make a line that could be a path or a boundary. You realize the rest of your life will be spent in that ambiguity — protecting pockets of the living within systems that prefer neat outcomes. Vigilance will be routine: a phone call at dawn, a meeting at noon, a courtroom at dusk. There will be small triumphs and compiled lists of loss. The emotion you feel now is not a single note but a chord: grief braided with a stubbornness that will not let you bow out. The choice ahead is not a wild leap but a long, necessary devotion. You tuck the tablet Kai gave you into your jacket and walk back toward the Low Row, knowing there is no rest for what must be kept alive.
+
+[Background:"ch13_66a4ee_8"]
+[Music: Fade Out]
+[NEXT CHAPTER: [14]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 14
+    > Jump Target File: script_ch14_Route_C_Ending_True_ctx_4cd0d9.txt

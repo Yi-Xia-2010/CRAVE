@@ -1,0 +1,169 @@
+label chapter6:
+
+    # [Scene: Harborfront Terraces | Late Afternoon — Weeks Later]
+
+    scene bg ch6_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Upbeat, triumphant strings with a driving, rhythmic percussion]
+    # play sound "sfx_placeholder"  # [Sound: The hush and chatter of neighbors, distant gulls, steady slapping of water against the living wall]
+    "You stand at the edge of the terrace with your palms pressed to a salvaged plank, and the plank is steady beneath the wet of your fingers. The spring surge that should have hollowed the boardwalk"
+    "instead skirts and curls, working around reed and rock like a careful hand. It finds purchase on roots and recycled panels that hum with damp life. Your chest is tight with something that could be named"
+    "relief — or disbelief — or the fierce joy of a near-miss redeemed into material fact."
+    "Salt rides the air, sharp and clean. The smell mixes with frying oil from the market stall and the earthy sweetness of newly planted dunes. You can taste metal and rosemary in the air; you can"
+    "hear Sami's laugh cutting through the low talk of neighbors, the sound bright and slightly stunned. Children chase one another down a raised boardwalk, boots slapping, making ropes of water glisten behind them."
+    "You think of the nights you double-checked fastenings alone, the ledger of names you've kept in the margins of your field notebook. You think of your brother's face, a splinter of memory that once pulled your"
+    "shoulders inward. It sits lighter now — a reminder that shapes the work, rather than a weight that breaks your back."
+    "Sami loops an arm through his own lifevest and props his kayak on a piling, grinning. 'Told you we'd make it through a real surge,' he says, but his voice is soft with something like awe."
+    "'Watched the city get their headlines. We kept the kids, the dogs, the groceries. Not bad, huh?'"
+    "You let yourself smile. You let the warmth of it spread until it tastes like the sunlight on the moss-filtered glass of the Spire. Whatever concessions were made to get here — extra anchors, signed papers, late-night compromises — cluster like tide-line debris: visible, imperfect, useful."
+
+    scene bg ch6_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A swell—brief, impressive, then letting go like an exhale]
+    "Elliot is beside you, hands stained in mud and salt, eyes bright with the same kind of exhausted triumph you feel. He says nothing at first; he just watches the water bow and then break with"
+    "a quiet, satisfied grin. When he finally speaks, his voice is rough at the edges from too many long hours and too little sleep."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "We did it. Not perfect, not finished — but we did it. You… you pushed it through. You pushed us through."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "We did it,' you correct him, because the word sits differently when shared. 'You were loud and annoying at 3 a.m., and Sami refused to let me solder the sensor housings without a coffee. We did it together."
+    "Elliot Chen: (He laughs, low and a little embarrassed.) 'Annoying, huh? I'll file that under 'endearing.' But seriously—co-lead. Same hours, same sleeplessness, same terrible takeout. If you're up for it.'"
+    "You both know there's a professional weight to that sentence and a softer one: partnership, the world pressed into a smaller, steadier hull. Your glove rests on a post; the grain is familiar under your calluses."
+    "Saying yes is a technical decision and an emotional one. Saying yes would mean handing some work over. Saying no would mean carrying more than you intended for anyone to bear."
+
+    menu:
+        "Take off your glove and shake his mud-streaked hand":
+            "You grip his hand, feel the grain of his palm and the warmth of his resolve. The world rearranges itself into a blueprint with a margin for two."
+        "Smile and look out at the water instead, letting your nod do the work":
+            "You let your face answer for you. The nod holds everything—commitment, fear, and the small permission to hope—without a single word."
+
+    # --- merge ---
+    "..."
+    "Sami elbows past you, playful and insistent. 'No romantic montage before we eat. Save it for the after-party.' He eyes the spread on the low table—a jumble of tinfoil-wrapped flatbreads, stewed beans, jars of pickled kelp. Neighbors pass plates. Children sling reeds into small boats and pretend they're captains."
+
+    "Neighbor 1" "You should see Mr. Ortega's place—no water in the first floor. He cried like a baby."
+
+    "Neighbor 2" "Your sensor cluster did that, Maya Rios. The council asked for the data—apparently the tide charts will have a new line soon."
+    "You feel the sound of the community fold around you, a fabric threaded with many hands. It's noisy and human and imperfect in exactly the ways you dreamed of when you left the quiet certainty of"
+    "a municipal desk to do work that left dirt under your nails. Later, when the council prints your name with asterisk and footnote, they'll talk about numbers and thresholds. Right now, all you can do is"
+    "hold the heat of a plate and watch a child tie a reed into a knot with solemn concentration."
+    # [Scene: Under the Patched Pilings | Twilight — Community Dinner]
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch6_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, swelling piano with lower-register countermelody; tempo quickens subtly]
+    # play sound "sfx_placeholder"  # [Sound: Murmured conversations, clinking cutlery, soft laughter]
+    "Elliot moves closer as the conversation softens. He leans in and lowers his voice so only you can hear."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "There were calls today. Not from you—city types. From people who used to say 'not our problem' until it became theirs. They listened to the readings. They saw the footage. They saw this."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "And Irene?"
+
+    elliot_chen "She showed up at the edge of the hearing. Hands exact, voice practiced. She said she could scale funding — not like before — scaled. She was careful with the words. I didn't get the sense she'd lost an appetite for control. But she looked… worn on the edges."
+    "You file that under 'complex' and 'not trust' but also 'necessary to notice.' Irene's posture in public is a ledger; privacy compresses the line between possible and regret. You want to ask if she meant compromise as surrender, or as survival."
+    "Sami sits at the other side of the plank and jabs a fork into a square of kelp cake, offering a piece to you with theatrical solemnity."
+    show sami_alvarez at center:
+        zoom 0.7
+
+    sami_alvarez "To the living wall, which proved the math you scribbled in the margins."
+
+    maya_rios "To everyone who showed up."
+    "Elliot touches your shoulder briefly—a small, solid anchor in a world of movement—and you feel the steadiness of someone who will be there for the next shifts, the next permits, the next long months of tending."
+
+    menu:
+        "Sneak away to the waterline to check the root anchors":
+            "You slip down, boots silent on the damp ladder. Fingers check knots, pulse at the same steady rhythm you've trained into this work. It's good. It's holding."
+        "Stay and listen to Sami tell the story about the kid who named the reeds":
+            "You stay. The story spills out—silly, radiant—and by the time it's done, the seawall has a nickname and so does your heart: something softer than a ledger."
+
+    # --- merge ---
+    "..."
+    # [Scene: The Edge of the Terrace | Night — Irene's Offer]
+    hide elliot_chen
+    hide maya_rios
+    hide sami_alvarez
+
+    scene bg ch6_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: Tension notes briefly re-enter, but resolve upward into a warm, hopeful chord]
+    # play sound "sfx_placeholder"  # [Sound: A distant siren now only a memory, the low murmur of council chatter delivered on waves of radio]
+    "Irene Voss approaches the cluster of your neighbors with a measured step. She is the kind of person who translates grief into policy and policy into deliverable milestones. Tonight she is not the polished antagonist of"
+    "a public debate; she is, in the hush of a neighborhood meal, a figure who looks slightly off-balance next to children with mud on their knees."
+    show irene_voss at left:
+        zoom 0.7
+
+    irene_voss "Maya.' (She inclines her head, and there's an unreadable quality in her face, a complexity written in the half-moons at the edges of her eyes.) 'The pilot proved more than expected. I… I have a scaled proposal. It won't be everything you want. It won't be everything I want. But it might keep more people here, more homes intact."
+    "Maya Rios: (You measure her words, tasting the carefulness like metal.) 'Scaled how? Community contracts? Long-term maintenance? Or a fast build that leaves us with a concrete spine?' The last phrase is sharp; it slices the air between you."
+    "Irene Voss: (Her mouth tightens, then smooths into practiced openness.) 'A middle path. We can provide funding for extensions if there is a community oversight board. No unilateral demolition. We will require performance metrics and a maintenance plan co-managed with your team.'"
+    "Her eyes flick to the living wall as if measuring it not only for efficacy but for memory. For a second something soft passes over her face — a small, human lapse that doesn't resolve into apology but into recognition."
+
+    irene_voss "You lost someone here. I—' (She stops, composes herself, and something unreadable settles back into the angles of her jaw.) 'I don't offer absolution. I offer resources. Decide for your neighbors what this means."
+    "The sound of the table slumps a fraction—collective inhale. There's triumph here: a political actor bending. There's also the knowledge of bills and strings and the inevitable meetings that will follow. The victory isn't clean. It's amber, like trapped sunlight, beautiful and imperfect."
+    "Maya Rios: (You choose your answer slowly, the same way you choose mounting bolt torque.) 'We want community agency. We'll accept scaled assistance with oversight and binding maintenance clauses. If this is to be part of the Harborfront, it will be a part made by us.'"
+    "Irene Voss's expression flickers — maybe relief, maybe calculation, maybe something like small guilt. You can't parse it fully, and you don't need to. The offer is real enough to change the ledger."
+    # play music "music_placeholder"  # [Music: Swells into an emphatic, celebratory crescendo — brass joining strings; very high arousal]
+    hide irene_voss
+
+    scene bg ch6_601bcb_5 at full_bg
+    "Elliot reaches for your hand in that moment, squeezing once—quick, communicative. The squeeze says co-lead, solidarity, and more; it says late-night planning sessions and hands that know each other's work. You respond not with a speech"
+    "but with a look that folds the night into two: the life you kept to yourself and the life you might share."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "We sell the pilot to the city as proof-of-concept and keep governance local. Your words at the hearing—I'll back the data with the prototypes. Sami will keep watch shifts scheduled. We'll publish maintenance logs. We can protect this."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "And the houses that will not be part of the pilot?"
+
+    elliot_chen "We negotiate—relocation buffers, buy-back funds, community-resourced rehousing, prioritizing those who refuse to leave.' (He runs his thumb along the rim of a cup, thinking aloud.) 'It's messy. It's human. But not abandonment."
+    "Sami: (He drums his fingers on the plank, suddenly serious.) 'People will try to spin this into their headlines. Keep eyes on the monitoring. Keep people in the loop. Pride beats policy when you show them both.'"
+    "A neighbor offers a toast; glasses clink. The noise is a physical thing, a swell you could ride. You feel your chest expand until it hurts with the pressure of gratitude and exhaustion arranged into a kind of triumph."
+    # [Scene: Quiet at the Edge | Night — After the Celebration]
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch6_601bcb_6 at full_bg
+    # play music "music_placeholder"  # [Music: Slow, cathartic violin line that resolves into gentle hums]
+    # play sound "sfx_placeholder"  # [Sound: Soft waves, distant conversation, the occasional call of a night bird]
+    "Later, when neighbors drift home and the fairy lights dim, Elliot stays with you a little longer. He sits beside you on the topmost patched piling, boots dangling over the water, salt drying into white lines on his cuffs."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "You know, when I left the big firm, I thought the work would be less political, more pure. I was wrong. It's all political. But tonight—' (His voice breaks into a laugh, incredulous.) 'Tonight felt like building because people loved a place, not because some spreadsheet told them to."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "That's why we do it,' you say simply. The statement is both a mission and a promise. 'To make places worth staying for."
+    "Elliot turns to you, earnest and a little shy in the way only the truly vulnerable can be. 'Will you… stay with me as co-lead? Not just for the pilot, but for what's next? There will"
+    "be hearings. There will be sleepless nights. There will be deliciously mediocre takeout. I want to build that with you.'"
+    "You look at the water and then back at him. There is fear in the edges — the fear of loss, of taking responsibility for shared lives — but the fear is smaller than it was."
+    "The experience of the last weeks has taught you something crucial: sharing the load doesn't halve you; it stabilizes the whole."
+
+    maya_rios "Yes."
+    # play music "music_placeholder"  # [Music: Climactic chord resolves into a warm, lingering cadence]
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch6_601bcb_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low, contented chatter, the gentle pulse of water as if the city is breathing easier]
+    "You let your hand rest in Elliot's. The night presses around you, full of work still to do, inevitable fights, and bureaucratic thickets. But it also holds this: the laughter of kids who will inherit the"
+    "shoreline, the rootedness of a living wall that remembers neighborhood names, the small, human decisions that have begun to alter the city's charts."
+    "A soft memory of your brother comes — not a chain, not a fault-line — but a compass. You are not carrying everything alone anymore. You are carrying it with people who fight and care and make compromises that are human in the best sense: imperfect, generous, real."
+
+    scene bg ch6_601bcb_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade to a single piano motif—resolved, hopeful]
+    # play sound "sfx_placeholder"  # [Sound: The tide: steady, rhythmic, affirmative]
+
+    scene bg ch6_601bcb_9 at full_bg
+    # play music "music_placeholder"  # [Music: Triumphant Fade Out]
+
+    scene bg ch6_601bcb_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

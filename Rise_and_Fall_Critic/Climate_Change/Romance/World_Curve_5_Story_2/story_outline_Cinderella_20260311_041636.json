@@ -1,0 +1,510 @@
+{
+    "title": "Tides of Care",
+    "summary": "Aria Solen returns to her island to lead restoration of the Brineheart Wetland Corridor, navigating tensions between community-led living-shoreline approaches and redevelopment interests. Balancing scientific rigor, grassroots tactics, and fraught relationships—especially with Eli—the player faces branching political and moral choices that shape ecological outcomes, public trust, and personal intimacy. The story's emotional arc follows a Cinderella-type Rise → Fall → Rise pattern across multiple endings (Happy/Bittersweet/True/Bittersweet-True).",
+    "emotional_curve_type": "Cinderella",
+    "player_character": "Aria Solen",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Ledger",
+            "branch_designation": "Common",
+            "narrative_focus": "I open at Tidehaven Research Lab, cataloguing seed trays and recalibrating tidal models while steeling myself to speak at a community meeting about restoring the Brineheart corridor; small momentum builds among Marta, Jun, Lina, and Eli.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Aria Solen",
+                "Jun Park",
+                "Marta",
+                "Eli",
+                "Lina"
+            ],
+            "locations_used": [
+                "Tidehaven Research Lab",
+                "Boardwalk",
+                "Brineheart Wetland Corridor"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Market Threads",
+            "branch_designation": "Common",
+            "narrative_focus": "I walk the Old Pier Market before the council meeting, gathering neighbor stories, coordinating with Eli on buoyant substrate samples, and preparing persuasive living-shoreline language to bridge science and stewardship.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Aria Solen",
+                "Marta",
+                "Eli",
+                "Jun Park",
+                "Old Man Rafi",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Old Pier Market",
+                "Council Chambers"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council Tides — The Choice",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At a tense council meeting I present living-shoreline phasing and Jun's figures; Caden offers seawalls and towers. A major public decision looms over whether to align with co-ops, negotiate compromise, or expose redevelopment data.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "At the council's moment of decision, I must decide how to proceed publicly and politically.",
+                "options": [
+                    {
+                        "label": "Stand with the co-ops—refuse to compromise and mobilize community action.",
+                        "consequence": "Align publicly with Eli and grassroots tactics; alienate Lina and investors but solidify local bonds.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Negotiate a conditional compromise with Lina/Caden—seek hybrid governance.",
+                        "consequence": "Enter formal negotiations, risk co-ops' distrust, potentially gain institutional support.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Leak the redevelopment's draft data anonymously to the press to force transparency.",
+                        "consequence": "Create scandal and immediate fallout; risk reputation and political backfire.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Caden",
+                "Lina",
+                "Jun Park",
+                "Marta",
+                "Old Man Rafi",
+                "Eli",
+                "Investors",
+                "Co-ops"
+            ],
+            "locations_used": [
+                "Council Chambers"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Helix Momentum",
+            "branch_designation": "Route A",
+            "narrative_focus": "Choosing grassroots solidarity, we launch pilot living-shoreline cells seeded by community funds; the Helix becomes a hub, early media praise arrives, and the community's trust in me grows.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Aria Solen",
+                "Eli",
+                "Marta",
+                "Jun Park",
+                "Lina",
+                "Media",
+                "Community volunteers"
+            ],
+            "locations_used": [
+                "Helix",
+                "Boardwalk",
+                "Old Pier Market"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Stormfall",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "An unexpected storm scours an unfinished restoration cell, media highlight the failure, Lina freezes permits, and blame and fear ripple through the community—raising questions of rushed implementation and my culpability.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After the storm failure, do I double down on technical fixes, public accountability, or seek strategic compromise?",
+                "options": [
+                    {
+                        "label": "Admit public mistakes, lead an immediate transparent audit, and halt all works to rephase.",
+                        "consequence": "Short-term trust rebuilding, legal exposure, slower recovery.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Privately negotiate with Lina for emergency funds and controlled media messaging to buy time.",
+                        "consequence": "Potentially faster repair but risk of appearing complicit with political repair narratives.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Push the community to an urgent, risky re-stacking of living-shoreline packs overnight to salvage the cells.",
+                        "consequence": "High-risk physical action that could succeed or exacerbate failure; strains relationships and resources.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Eli",
+                "Jun Park",
+                "Marta",
+                "Lina",
+                "Caden",
+                "Vendors",
+                "Community volunteers"
+            ],
+            "locations_used": [
+                "Brineheart Wetland Corridor",
+                "Boardwalk",
+                "Helix"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Tide Reclaimed",
+            "branch_designation": "Route A — Ending",
+            "narrative_focus": "Recovery unfolds via transparency, negotiation, or community salvage: permits, conditional funding, or unified labor stabilize the corridor. The Helix and market recover; my relationship with Eli deepens into honest conversation and renewed trust.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Eli",
+                "Jun Park",
+                "Marta",
+                "Lina",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Restored check dams",
+                "Helix",
+                "Boardwalk",
+                "Market"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Architecture of Compromise",
+            "branch_designation": "Route B",
+            "narrative_focus": "I negotiate a conditional compromise with Lina and Caden, securing institutional resources and a seat on a design advisory committee while pushing for living-shoreline integration and co-op representation.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Aria Solen",
+                "Jun Park",
+                "Lina",
+                "Caden",
+                "Eli",
+                "Investors"
+            ],
+            "locations_used": [
+                "Redevelopment Pavilion",
+                "Helix",
+                "Council pavilion"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "The Cost of Scale",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Accelerated investor timelines and an engineered clamp failure cause scour and vendor loss; critics point to my advisory role. The political coalition fractures and I face culpability for compromises I accepted.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After the engineered failure, do I accept blame publicly, secretly negotiate to cover damages, or mobilize community testimony to force accountability?",
+                "options": [
+                    {
+                        "label": "Public confession and call for a joint independent review that could remove me politically but may restore trust.",
+                        "consequence": "Immediate fallout, potential career damage; long-term recalibration.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Work behind the scenes to secure emergency repairs and hush optics to prevent capital flight.",
+                        "consequence": "Faster stabilization but erodes moral authority if discovered.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Organize a coalition of vendors and elders to flood the council with testimony, forcing systemic change.",
+                        "consequence": "Grassroots pressure may force policy shifts but risks legal reprisals and more short-term destabilization.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Caden",
+                "Lina",
+                "Jun Park",
+                "Eli",
+                "Vendors",
+                "Council members"
+            ],
+            "locations_used": [
+                "Reed beds",
+                "Vendor stalls",
+                "Council pavilion"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Public Reckoning",
+            "branch_designation": "Route B — Ending",
+            "narrative_focus": "Whether by confession, quiet fixes, or grassroots testimony, the arc converges on personal integrity amid civic loss: the corridor is partially salvaged, I accept political consequences, and I rise internally with clearer moral purpose even as romantic ties may fray.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Eli",
+                "Lina",
+                "Caden",
+                "Jun Park",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Council chambers",
+                "Market",
+                "Partial seawall",
+                "Reed beds"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Leak",
+            "branch_designation": "Route C",
+            "narrative_focus": "I leak the redevelopment draft to the press, exposing modeling and procurement issues; public debate erupts, Lina is forced to a hearing, and the Helix becomes a late-night hub of strategy and rumor—momentum and risk rise.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Aria Solen",
+                "Jun Park",
+                "Marta",
+                "Eli",
+                "Caden",
+                "Lina",
+                "Old Man Rafi",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Helix",
+                "Old Pier Market",
+                "Council Chambers"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Backlash and Breakage",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "After the leak, investors threaten to pull funds, legal pressure mounts, Jun's grant is frozen, and the community fractures between those praising transparency and those fearing economic collapse; a difficult strategic choice is required.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After the leak's backlash, do we confess authorship, negotiate quietly, or mobilize emergency community labor?",
+                "options": [
+                    {
+                        "label": "Publicly own the leak and prepare for political and legal fallout.",
+                        "consequence": "Career and funding risk; potential systemic exposure and eventual reform.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Seek quiet negotiation with Lina to reinstate funding in exchange for oversight.",
+                        "consequence": "Possible suppression of public momentum but pragmatic resources.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Organize a non-liability emergency repair effort led by the co-ops to demonstrate capacity.",
+                        "consequence": "Demonstrates competence but risks legal reprisal and physical danger.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Jun Park",
+                "Eli",
+                "Caden",
+                "Lina",
+                "Vendors",
+                "Journalists"
+            ],
+            "locations_used": [
+                "Jun's lab",
+                "Old Pier Market",
+                "Council Chambers",
+                "Helix"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Systemic Faultlines",
+            "branch_designation": "Route C — Ending",
+            "narrative_focus": "Regardless of the immediate tactical choice, the outcome is systemic correction: procurement and timelines are reformed, co-ops gain governance authority, and I accept personal cost while gaining a platform for broader policy advocacy.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Jun Park",
+                "Lina",
+                "Caden",
+                "Eli",
+                "Co-ops",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Council hearings",
+                "Old Pier Market",
+                "Tidehaven Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Quiet Resistance",
+            "branch_designation": "Route D — Additional Route",
+            "narrative_focus": "I pursue a culturally-rooted, low-gloss resilience approach with Old Man Rafi, Marta, and market custodians: reed-harvesting cooperatives, braided boardwalks, and oral-history-informed check dam placement, blending folklore with Jun's models.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A (alternate) or B (alternate) or C (alternate) — (This route represents choosing a slower, culturally-rooted approach from an earlier split; readers may reach it via negotiated detours in other branches.)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 14,
+            "characters_involved": [
+                "Aria Solen",
+                "Old Man Rafi",
+                "Marta",
+                "Jun Park",
+                "Eli",
+                "Market custodians",
+                "Co-ops"
+            ],
+            "locations_used": [
+                "Reed workshops",
+                "Old Pier Market",
+                "Helix",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "External Shock",
+            "branch_designation": "Route D / Split",
+            "narrative_focus": "A surprise investor push and emergency seawall approval in a neighboring district force the council into a binary decision: accept fast-track relocation and scale, or resist to preserve cultural continuity; tension rises over livelihoods and identity.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 13",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Faced with an external emergency and investor pressure, do we resist, litigate, or negotiate relocation help?",
+                "options": [
+                    {
+                        "label": "Lead an intensified cultural and legal resistance campaign to block fast-track approvals.",
+                        "consequence": "Possible legal victory but musters national attention and hardship.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Pursue a negotiated relocation scheme prioritizing the most vulnerable while retaining a core living-shoreline plan.",
+                        "consequence": "Some families move; cultural continuity constrained but lives saved.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Accept the emergency plan hoping to shape it from within for later salvage.",
+                        "consequence": "Short-term stability; long-term cultural loss.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Caden",
+                "Lina",
+                "Eli",
+                "Old Man Rafi",
+                "Investors",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Redevelopment Pavilion",
+                "Council Chambers",
+                "Old Pier Market"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Ariadne's Line",
+            "branch_designation": "Route D — Ending",
+            "narrative_focus": "Choices converge into complex but stabilizing outcomes: legal victories, prioritized relocations, or shaping large-scale plans from within. The ending is bittersweet/true—cultural fabric persists in altered form, and I accept vulnerability, deepen partnership with Eli, and pursue durable governance and care.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 14, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Solen",
+                "Eli",
+                "Old Man Rafi",
+                "Marta",
+                "Vendors",
+                "Lina",
+                "Caden"
+            ],
+            "locations_used": [
+                "Reconfigured waterfront",
+                "Boardwalk",
+                "Market"
+            ]
+        }
+    ],
+    "remarks": "",
+    "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+    "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)"
+}

@@ -1,0 +1,473 @@
+{
+    "title": "Saltwick Rising",
+    "summary": "I return to Saltwick resolved to restore seagrass beds and shorelines to protect the town. Early momentum — volunteer crews, pilot seagrass mats, and visible local engineering — produces a rapid ascent in community trust, funding, and romantic warmth with Ivo. The town experiences a brief triumphant peak: seedlings take, harbor repair projects finish, and a ribbon-cutting sense of safety settles over Saltwick. Then, as if on cue, hubris, compromised deals, and a fierce storm expose structural and moral faults. Across branching routes I must choose alliances and compromises — with Ivo’s immediate pragmatic defenses, with Celine’s rapid funding, or with Dr. Leyna’s patient restoration science — each choice leads to a distinct version of the same arc: a bright rise to achievement followed by a catastrophic fall. Some endings emphasize moral victory at a cost; others emphasize displacement, heartbreak, or the revelation of corruption. The emotional core is always first-person: I must weigh love against duty, community trust against expediency, and my own fear of betrayal against the town’s need to survive.",
+    "emotional_curve_type": "Icarus",
+    "player_character": "Alys Maren",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Homecoming",
+            "branch_designation": "Common",
+            "narrative_focus": "I arrive back in Saltwick after years away, reconnect with volunteers and elders, and set plans for seagrass restoration while noticing political figures like Celine Harrow and personal ties with Ivo and Maya.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Alys Maren",
+                "Ivo",
+                "Maya",
+                "Oba Kofi",
+                "Celine Harrow"
+            ],
+            "locations_used": [
+                "Crescent Docks",
+                "Harbor",
+                "Glass Marsh (in distance)",
+                "Old Lighthouse Rooftop Greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Small Triumphs",
+            "branch_designation": "Common",
+            "narrative_focus": "Pilot restoration actions produce early successes: seeded mats, hydroponics, and data monitoring increase community support while political overtures from Celine create tension.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Alys Maren",
+                "Dr. Leyna Ortiz",
+                "Ivo",
+                "Ronan",
+                "Oba Kofi",
+                "Celine Harrow"
+            ],
+            "locations_used": [
+                "Shallow Harbor",
+                "Old Lighthouse Greenhouse",
+                "Muri Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council Night — The Choice",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "A council meeting forces Alys to choose a strategic path for Saltwick: immediate community defenses, municipal-funded infrastructure, or patient ecological restoration, with the town looking to her scientific authority.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I lead Saltwick now?",
+                "options": [
+                    {
+                        "label": "Rally with Ivo — build immediate defenses and shelters.",
+                        "consequence": "Community-first, visible action and fast trust-building; may delay ecological plans.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Take Celine's offer — secure municipal funding for rapid infrastructure.",
+                        "consequence": "Money and speed, but strings attached and political trade-offs.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Double down on the scientific restoration plan with Dr. Leyna.",
+                        "consequence": "Slower but ecologically driven; risk losing skeptics.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Ivo",
+                "Dr. Leyna Ortiz",
+                "Maya"
+            ],
+            "locations_used": [
+                "Harrow Hall",
+                "Town Council Chamber"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Seawalls and Sweat",
+            "branch_designation": "Route A",
+            "narrative_focus": "After choosing Ivo, the community mobilizes physical defenses and gains rapid trust and visible safety while Celine watches and Dr. Leyna provides pragmatic monitoring.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Alys Maren",
+                "Ivo",
+                "Ronan",
+                "Maya",
+                "Dr. Leyna Ortiz",
+                "Celine Harrow"
+            ],
+            "locations_used": [
+                "North Beach Ridge",
+                "Old Lighthouse Rooftop Greenhouse",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Momentum and Tension",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "Success with seawalls increases momentum but introduces pressure from Celine to accept contractors; Alys must decide between community independence, contractor help, or a hybrid oversight deal.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Finish through independence, accept outside contractors, or negotiate a hybrid oversight deal?",
+                "options": [
+                    {
+                        "label": "Refuse Celine's contractors — we keep it community-led.",
+                        "consequence": "Pride, moral clarity, but slower completion and political exposure.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept Celine's funding and contractors under municipal terms.",
+                        "consequence": "Rapid completion and public acclaim, but contractual compromises and hidden trade-offs.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Demand hybrid oversight — accept funds only with community enforcement.",
+                        "consequence": "Potentially the best of both but risks bureaucratic delay and Celine's irritation.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Ivo",
+                "Ronan",
+                "Maya"
+            ],
+            "locations_used": [
+                "Seawall construction site",
+                "North Beach Ridge",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "The Storm That Tells",
+            "branch_designation": "Route A — Ending: Bittersweet / Fall",
+            "narrative_focus": "A superstorm overwhelms community-built berms and sandbags; despite saving many homes the town suffers losses, supplies are drained, some families relocate, and Alys's relationship with Ivo strains.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option A or Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Ivo",
+                "Oba Kofi",
+                "Ronan",
+                "Maya"
+            ],
+            "locations_used": [
+                "North Beach Ridge",
+                "Harbor",
+                "Muri Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "The Mayor's Bargain",
+            "branch_designation": "Route B",
+            "narrative_focus": "Alys negotiates with Celine for municipal funds that rapidly build embankments and retrofits; initial public relief is tempered by Alys's awareness of contractual strings.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Dr. Leyna Ortiz",
+                "Ivo",
+                "Maya",
+                "Oba Kofi"
+            ],
+            "locations_used": [
+                "Harrow Hall",
+                "Harbor",
+                "Construction sites"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Ribbon-Cut, Hidden Lines",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "After the embankment is finished, Alys discovers contractors' deviations from environmental safeguards and must decide whether to demand audits, authorize completion, or leak discrepancies to force oversight.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Do I expose the contract deviations, sign off quietly, or leak selective information to force oversight?",
+                "options": [
+                    {
+                        "label": "Demand transparency and put construction on hold until auditors verify.",
+                        "consequence": "Delay, risk losing public trust, but preserves ethics.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Authorize completion to secure immediate protection.",
+                        "consequence": "Rapid finish and public acclaim; potential unseen compromises.",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Leak the discrepancies to a trusted reporter and push for conditional oversight.",
+                        "consequence": "Scandal and a chaotic public reckoning; risky but may force accountability.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Ivo",
+                "Dr. Leyna Ortiz",
+                "Maya",
+                "Oba Kofi"
+            ],
+            "locations_used": [
+                "New Embankment",
+                "Harrow Hall",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Cracked Foundation",
+            "branch_designation": "Route B — Ending: Sad / Fall",
+            "narrative_focus": "Auditors confirm contractor deviations; embankment partially fails and public trust fractures. Alys faces hearings and the town suffers displacement and blame despite some lives being saved.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option A or Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Ivo",
+                "Ronan",
+                "Oba Kofi",
+                "Maya"
+            ],
+            "locations_used": [
+                "Embankment",
+                "Harrow Hall",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Seagrass Promise",
+            "branch_designation": "Route C",
+            "narrative_focus": "Choosing patient science, Alys focuses on seagrass mat deployment and marsh restoration with Dr. Leyna; initial slow successes bring ecological benefits and growing community support.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Alys Maren",
+                "Dr. Leyna Ortiz",
+                "Ronan",
+                "Ivo",
+                "Oba Kofi",
+                "Maya"
+            ],
+            "locations_used": [
+                "Glass Marsh",
+                "Old Lighthouse Rooftop Greenhouse",
+                "Muri Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Bloom and Bargain",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "Seagrass success attracts attention and Celine proposes a hybrid municipal plan; Alys must choose between strict community scaling, accepting hybrid funds with covenants, or forcing a combined plan with Ivo.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Scale slowly and community-first, accept Celine's hybrid funds, or coerce a combined Ivo-Alys plan?",
+                "options": [
+                    {
+                        "label": "Continue community-first scaling, refuse Celine's hybrid.",
+                        "consequence": "Slow expansion, intact ethics, but weaker immediate protection.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Accept Celine's hybrid funds with strict ecological covenants.",
+                        "consequence": "Faster scale, complicated oversight, political strings and risk of compromise.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Force a combined plan with Ivo — immediate protective measures layered with restoration.",
+                        "consequence": "High coordination, high trust needed; could be the strongest plan if it holds.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Dr. Leyna Ortiz",
+                "Celine Harrow",
+                "Ivo",
+                "Maya",
+                "Oba Kofi"
+            ],
+            "locations_used": [
+                "Glass Marsh",
+                "Old Lighthouse Rooftop Greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "The Night the Beds Broke",
+            "branch_designation": "Route C — Ending: Bittersweet / Fall",
+            "narrative_focus": "Offshore dredging smothers seagrass beds, causing ecological collapse and social fracture; Alys and the town attempt recovery but face loss and strained relationships.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option A or Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Dr. Leyna Ortiz",
+                "Ivo",
+                "Ronan",
+                "Maya"
+            ],
+            "locations_used": [
+                "Glass Marsh",
+                "Boardwalk",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Fast Finish, Bitter Aftertaste",
+            "branch_designation": "Route A — Ending: Sad / Fall",
+            "narrative_focus": "Accepting contractors delivers a rapid seawall but hides clauses that enable displacement, privatization, and ecological sacrifice; Alys organizes protests but the town's heritage is altered.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Ivo",
+                "Maya",
+                "Ronan"
+            ],
+            "locations_used": [
+                "Embankment",
+                "Harbor",
+                "Privatized Boatyard"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Exposed Ledger",
+            "branch_designation": "Route B — Ending: True / Fall",
+            "narrative_focus": "Authorizing completion secures immediate protection but later revelations of diverted funds and private access lead to scandal, resignations, prosecutions, and a costly moral victory for the town.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Ivo",
+                "Oba Kofi",
+                "Maya"
+            ],
+            "locations_used": [
+                "Harrow Hall",
+                "Harbor",
+                "Town Meeting"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Sunrise After the Break",
+            "branch_designation": "Route C — Ending: Ambiguous/Bittersweet / Fall",
+            "narrative_focus": "Accepting a hybrid with covenants yields mixed results: simultaneous restoration and engineering produce gains but also enforcement lapses and unequal losses during a superstorm; recovery is slow and costly but legally and scientifically more grounded.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Alys Maren",
+                "Celine Harrow",
+                "Dr. Leyna Ortiz",
+                "Ivo",
+                "Maya",
+                "Oba Kofi"
+            ],
+            "locations_used": [
+                "Cliff-top",
+                "Old Lighthouse Rooftop Greenhouse",
+                "Engineered Terraces",
+                "Harbor"
+            ]
+        }
+    ],
+    "remarks": "Global emotional arc follows the Icarus pattern: early rise through Chapters 1–5/7/10–11 and subsequent falls in Chapters 6/9/12/13/14/15. Major split points are Chapter 3 (town strategy), Chapter 5 (Route A contractor decision), Chapter 8 (Route B exposure vs completion), and Chapter 11 (Route C hybrid vs strict restoration). Entry conditions explicitly link branches: Chapter 4, 7, and 10 begin from Chapter 3 Options A/B/C respectively. Endings are represented as terminal chapters with default_next_chapter set to -1.",
+    "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+    "_meta_arc_strategy": "Icarus (Rise-Fall)"
+}

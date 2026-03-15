@@ -1,0 +1,130 @@
+[Scene: Saltglass Research Lab — Pilot Bay | Late Morning]
+[Visual: The lab's pilot bay stretches before you — low ceilings hung with revived kelp-printed banners, stainless scaffolds, and a dais where a compact TideGrid mock-up rests. Tiny articulated turbines glitter like a model city; micro-terraces spill miniature succulents and soil. Condensation beads on the salt-streaked glass panels.]
+[Music: A bright, mechanized swell — hopeful synths braided with light strings]
+[Sound: Distant tide pumps, soft clicks of servos, low murmurs of people calibrating instruments]
+
+Narration
+You step in with Elias at your elbow. His tablet glows a soft cyan, columns of code and flow models reflected in his eyes. Wind has tousled his ash-blond hair; there's a faint salt crust at the cuffs of his jacket where the harbor spray never quite dries. The crowd's cheers from the announcement still hang in your ears like a residue of electricity.
+
+The mock-up sits between you both, a miniature tidal landscape: articulated turbines that flex like sleeping palms; sediment channels that could be coaxed or coerced; scaled terraces that look for all the world like the terraces you water on Sunday mornings. For a moment it is small enough to hold in one hand — and that thought steadies you.
+
+Elias: "We did it," (he breathes, as if the words are a fragile thing). "We pushed the model through the consent matrix with your amendments. The pilot's green-lit."
+
+Narration
+His fingers find the back of your hand and squeeze — an old habit of his that is comfort and promise folded into one movement. You feel it travel up your arm, warm and certain.
+
+You: "You mean… with the oversight clauses I asked for? The access lines? The bug-bounty layer Serena suggested?"
+
+Elias: "All of it. The clauses are in. Ibe and Serena signed off. Rin's emissaries wired the initial tranche this morning. The mayor cleared expedited permits pending community review windows." (He taps his tablet; a small projection of timelines and signatures blinks.) "This—" (he nods at the mock-up) "—is our first visible step."
+
+Narration
+The lab hums around you: fans, soft alarms, the whisper of a hydraulic arm threading a micro-anchor. The smell is a complex salt-metal — like opened shellfish and new circuitry — warmed by sunlight that slices through the glass in amber ribbons. Your copper locket lies hot against your sternum when you inhale; Old Man Toma's thumb brushed it earlier, a ritual blessing that still rings in your bones.
+
+Ibrahim 'Ibe': "We're retrofitting the floats to handle variable loads. Maia —" (he uses your given name in the old way, the one that slips into work and into friendship without ceremony) "—we can anchor four prototypes at Canal Twelve and still keep the market lanes open."
+
+You: "Good. Keep redundancy in the anchors. And make sure the attachment points let people remove decking if they need to patch terraces."
+
+Ibe: "Aye. It's simple carpentry, complicated by people using it for a dozen things. That's the fun bit."
+
+Narration
+Serena moves between racks of diagnostic rigs, gloved fingers precise. Her face is professional, but once — only once — she gives you a look that softens: not quite a smile, more a conceding nod that reads: I trust you to keep the ethics breathing.
+
+Serena: "Sim runs are clean on module one through three. Module four's feedback loop needs a governance lock to avoid feedback runaway in higher tides — but with the public audit hooks you suggested, we can force a hard stop if anomalies cross thresholds."
+
+You: "Make the audit hooks readable. Make the stop understandable to a layperson. And log every override, with timestamps and reasons."
+
+Serena: (a brief pause) "I'll write the override log schema in plain language. I'll add a community notification protocol. But you know this will be messy in practice. People panic when alarms blare."
+
+Narration
+Rin's emissaries hover near a bank of consoles — well-dressed, careful smiles, sleeves that never carry salt stains. They speak in concise, polished bursts that smell faintly of press releases and late funding rounds. Their presence is a reminder that momentum comes with strings; the promise of money is woven through negotiations that will always tug.
+
+Rin's Emissary 1: "We appreciate the oversight clauses, Maia. Rin believes distributed governance will strengthen public buy-in. The firm is prepared to fund community liaisons and the civic bug-bounty program."
+
+You: (you keep your tone steady) "The funding is necessary. The oversight must stay independent. No backdoors. No unilateral remote locks. Community veto windows are non-negotiable."
+
+Rin's Emissary 2: (a thin smile) "All reasonable. We'll draft the liaison appointments with your collective's input. Time is the only variable we're asking you to respect."
+
+Narration
+Elias watches the exchange with a slight narrowing of his eyes — that squint he gets when he's mapping possibilities against risk tables. He places his hand over yours again, smaller than your palm but steady.
+
+Elias: "We can make this scalable and safe. And once the pilot proves out, the city gets a chance at real stability. I want that for us — for everyone."
+
+You: (you let the hope in his voice coat the edges of your cynicism) "So do I. But scalability isn't an excuse for erasing choice. If we set the rules now, we set them for generations."
+
+Elias: "I know. That's why I wanted you at the table. I want the design to be accountable."
+
+Narration
+The conversation loops — you talk details, you argue about phrasing, Serena pushes for clearer fail-safes, Ibe pushes for practicality, the emissaries promise resources. Old Man Toma stands a little apart, cloak wrapped around him like a shoreline holding back the sea. He rests a knotted hand on your locket and murmurs in the old language — a blessing, a warning, the same word that names both harbor and home.
+
+Old Man Toma: "Remember the children who learned to fish where the dock used to be. Teach them both the ledger and the song."
+
+Narration
+You feel the room tighten and then unfurl. Momentum — the kind that arrives after years of small labor — tastes like salt and sunlight. You draft language into the consent framework on a tablet, fingers quick, corrections and clauses folding into each other like patchwork. Your municipal badge is unclipped; you set it on the bench beside the mock-up, not as a show but as a promise that you will carry responsibility into this machine.
+
+[Interactive Moment: Choice A ("Trace the turbine's linkage with your finger") -> Reaction: "You run a fingertip along the tiny gearbox, feeling the model's tiny resistance. It's absurdly intimate — a gearwork heartbeat that echoes the city." || Choice B ("Step back and watch from Elias's shoulder") -> Reaction: "You lean against Elias, both of you watching the miniature city spin. Observing like this, the pilot feels like a living thing you are learning to care for."]
+
+Narration
+The team begins an on-the-spot demonstration. A micro-anchor lowers, sensors hum, and the mocked-up current alters course around the terraces. People clap, not because everything is perfect but because things are finally moving toward repair. You sign the community oversight preface, your handwriting deliberate. Each stroke is a small litany against the years of loss.
+
+Serena: "I want a public readout dashboard that updates in near real time. Civilians should be able to see module statuses, overrides, and the bug-bounty reports."
+
+You: "Open-source frontend. No proprietary wrappers. And a translation layer — make it multi-lingual. Old Man Toma's neighbors shouldn't need a technical degree to know when to evacuate."
+
+Serena: (a half-smile) "You make good arguments."
+
+Narration
+Elias presses his thumb to the tablet, pulling up the deployment timeline. The pilot date is highlighted in a confident, irreproachably neat font. For the first time in months you permit yourself the small, disarming pleasure of hope — not naive, but practiced.
+
+Elias: "We launch pilot deployment in six weeks. Canal Twelve anchors go in first. Ibe's team will handle the floats. Serena will oversee diagnostics. Rin's teams coordinate with municipal channels. We'll invite community observers for each run."
+
+You: (you whisper) "Six weeks."
+
+Ibe: "We'll have decking ready by then. And I can teach a neighborhood crew to swap out anchor plates if something gives."
+
+Narration
+You help rewrite the consent frameworks, not as a perfunctory checkbox but as covenant. You scribble clauses that demand independent audits, that require public hearings after each test, that enshrine the community's ability to pull a module offline. The language is exacting because people will depend on it.
+
+Rin's Emissary 1: "These protections will slow things in some places."
+
+You: "They'll slow unilateral actions. They'll make the system slower to abuse and faster to correct. That's a saving grace, not a hindrance."
+
+Rin's Emissary 2: (measured) "Very well. We'll integrate the clauses into the contract appendices, subject to counsel review."
+
+Narration
+There is a soft chorus of relieved laughter when Serena reports the final simulation loop passed under the new governance hooks. Elias exhales like someone who has been holding breath for too long. Ibe slaps his shoulder in a way that speaks of both pride and the practicalities still to come.
+
+Old Man Toma: (quiet, to you) "You have a stubbornness like the old pilings. Use it well."
+
+Narration
+Momentum consolidates around the plan like layers of sediment: the pilot date is set, sign-offs are logged, and the lab's lights seem a little warmer. You sit for a moment on a low bench, the mock-up's turbines whirring softly, and you close your eyes. The picture that opens — that you let bloom without shame — is of children running on raised pathways while the tide tilts politely around the market, of terraces full of food and of elders who keep telling the city how things used to be.
+
+You taste rescue on the back of your tongue — not as a finality but as a possible beginning.
+
+[Interactive Moment: Choice A ("Call out to the emissaries and ask for an explicit clause prohibiting remote overrides") -> Reaction: "You stand and speak your demand clearly. The emissaries take notes, their smiles taut — but the clause is heard and will be drafted." || Choice B ("Let Elias lead the negotiations on the clause — you will review the draft later") -> Reaction: "You nod, trusting Elias to hold your line. He exchanges a look with you that is equal parts apology and determination; the emissaries relax, thinking compromise imminent."]
+
+Narration
+Elias squeezes your hand once more, then releases it to catch a falling thread of a cable. He looks at you — not with a demand, but with a shared map. You realize how small, in the scale of the city, one pilot is; how enormous, in the scale of people's mornings, the pilot could become.
+
+Elias: "Whatever happens, we'll keep this open. We'll keep it honest."
+
+You: "We will be loud. We will be exact. We will be present."
+
+Narration
+Around you, the lab's bustle softens into efficient chatter. The prototype's servos settle into a steady rhythm. The pilot bay is alive with people who have given up private comforts for public work — technicians with salt in their hair, volunteers with blistered palms, emissaries with polished shoes that have never known a dock's splinter. It's imperfect, messy, and brimming with the possibility you and Elias both want: to make an engineered thing that serves with hands not fists.
+
+You stand up, the framework documents warm under your fingertips, and you imagine, for the first time in a long while, a future where the city wakes in the mornings without the shriek of emergency sirens.
+
+[Page-Turn Moment: You hear the faint, now-familiar whir of larger gear down the corridor — an echo of the city thinking on a new scale. For a second the lab quiets around you; sunlight through the glass paints moving bands across the mock-up. The pilot date is written on a timeline you helped stitch, but the real work will be in the weeks ahead: teaching, watching, insisting that the oversight breathe. You tuck your municipal badge back into your jacket, feel the copper locket thrum against your collarbone, and step toward the work with hands ready. The future tastes like salt and sunlight — fragile, urgent, and possible.]
+
+[Visual: Camera lingers on the mock-up as a micro-turbine catches light and turns]
+[Music: Swell of strings and a bright synthetic underscore]
+[Sound: The lab's hum resolving into a steady, reassuring beat]
+
+[LINEAR JUMP]
+
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": 5
+}

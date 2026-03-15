@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-03-10 22:40:15",
+  "total_chapters": 15,
+  "total_valid_routes": 11,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route B / C and Route C / B",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 11,
+      "branch_name": "Route C / A",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route C / C",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        15
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route B",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        14
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 8,
+      "branch_name": "Route B / A",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route B / C and Route C / B",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        12
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B / B",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route A / C",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        13
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 11,
+      "branch_name": "Route C / A",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        11
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 5,
+      "branch_name": "Route A / A",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / B",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "length": 5
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Drowned Streetlights",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Messages on the Mesh",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "A Sealed Notice, Three Paths",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Blueprints on the Boardwalk",
+      "branch": "Route A",
+      "children_ids": [
+        6,
+        5,
+        11,
+        13
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Open Schematic, Open Wounds",
+      "branch": "Route A / A",
+      "children_ids": []
+    },
+    "6": {
+      "id": 6,
+      "title": "Grant Lines and Red Tape",
+      "branch": "Route A / B",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Legal Stand, Loud Hearts",
+      "branch": "Route B",
+      "children_ids": [
+        9,
+        12,
+        8,
+        14
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Memory in the Gallery",
+      "branch": "Route B / A",
+      "children_ids": []
+    },
+    "9": {
+      "id": 9,
+      "title": "Technical Testimony, Quiet Fractures",
+      "branch": "Route B / B",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Confronting the Plan",
+      "branch": "Route C",
+      "children_ids": [
+        15,
+        11,
+        12
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Formal Plans, Fragile Promises",
+      "branch": "Route C / A",
+      "children_ids": []
+    },
+    "12": {
+      "id": 12,
+      "title": "Festival Lights and Investor Eyes",
+      "branch": "Route B / C and Route C / B",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "When Open Hands Are Taken",
+      "branch": "Route A / C",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "A City’s Ledger, A Neighborhood’s Loss",
+      "branch": "Route B",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Ledger of Small Things",
+      "branch": "Route C / C",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 14,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 2,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 2,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

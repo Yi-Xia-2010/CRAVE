@@ -1,0 +1,261 @@
+### SCRIPT
+# Route: Additional Route / Ending
+# Context: 60e470
+
+[Scene: Saltwren Commons | Dawn — Hours after the Break]
+[Background:"ch15_60e470_1"]
+[Sound: Distant sirens, an undercurrent of shouted fragments, the hiss of tide against broken wood]
+[Music: Dissonant strings, high and insistent — no resolution]
+
+You open your eyes to noise that is not the wind: human voices laced with something raw and new. Your throat tastes of salt and radio static. You remember pressing the transmit — remember the crack of structure somewhere down the line — and the world rearranged itself around that sound.
+
+You stand on a slope of mud where the Commons used to be neat rows and cheerful signs. Seedlings that you and Rae coaxed through frost are clumped and smeared, roots exposed like old teeth. The copper bracelet at your wrist is slick with mud; you rub it as if you can rub away the whole morning.
+
+Tomas "Tommy" Reyes is crouched three planks away, sleeves rolled past the elbow, water-logged rope in his hands. He looks up when you move; his face is the map of a man who has seen a hundred tides and learned which ones take and which ones leave. This morning the sea has taken more than usual.
+
+Tommy: "Mara." (He hesitates, then laughs without humor.) "You cursed the tide or the town today? Feels like both."
+
+Mara Lin: "We did what we could." (Your voice comes out thin. You crouch beside him, hands already finding the gritty pull of a splintered board.) "Where are people moving them to? Rae?"
+
+Tommy: "Rae's on the south path, barricading that old mill ladder. She got folks to the rooftop — some stayed under the eaves. We lost the west boardwalk — it gave after the second surge. A couple of gardens are gone."
+
+Mara Lin: "Any—injured?"
+
+Tommy's jaw tightens. He looks at the Commons as if cataloguing blame and loss in one quick sweep.
+
+Tommy: "A few. Nothing for the medics to brag about that they can fix here. They'll need the tent. There's a kid — little Diaz — cut his forehead near what used to be the herb bed. He's crying but—" (He swallows.) "He's okay, I think. The worst? The old willow collapsed on the bench where Mrs. Hargrove sits. She was evacuated but her porch... it's gone."
+
+The words land like another wave. Your mouth goes dry. Mrs. Hargrove's porch was where you used to speak to her about salt pans and old maps. The memory is clean in your mind and impossible in your hands.
+
+Mara Lin: "Bring him to the tent. I'll—" (Your sentence splinters; there is so much.) "I'll check the supply crate and see if the medics can spare a bandage."
+
+Tommy: "Good." (He doesn't ask what you'll do about the rest. He knows too well that you will do it anyway.)
+
+[INTERACTION]
+> Choice A: "Move the splintered board to free the path"
+> Choice B: "Go for the supply crate to fetch bandages"
+[Outcome A: "You muscle a soaked plank free with Tommy. The effort is hot; your arms tremble and you catch the taste of iron on your tongue."]
+[Outcome B: "You sprint over unstable ground toward the gear crate. Your boots sink; a broken planter thuds behind you as if in answer."]
+[MERGE: You head toward the tent with the rescued plank or the bandages; the Commons is a chorus of small actions, each one a patch against the larger tear.]
+
+[Scene: Saltwren Commons — Makeshift Triage Tent | Mid-Morning]
+[Background:"ch15_60e470_2"]
+[Sound: The canvas flaps, muffled sobbing, somebody counting names]
+[Music: Percussive heartbeat, low and relentless]
+
+You hand over bandages, your hands working on routine because routine is an island in the flood. The medic — a young nurse with rain-soaked hair — nods at you with a gratitude that is both fierce and exhausted.
+
+Nurse: "Mara, you have to—" (She stops herself as if there are words you cannot carry.) "We need people to record names at the municipal tent. Can you—?"
+
+Mara Lin: "I can take names." (You find that you can always take names; it steadies the scatter around you.)
+
+Rae Carter materializes at the tent's entrance in paint-streaked gloves, hair a wild halo, eyes blown wide at the scene. Her breath comes like someone who has run from a fight to a funeral.
+
+Rae Carter: "They cut the promenade road. The crane tipped. I thought—" (She bites down and the sentence dies.) "We made noise. We painted. They still had the permits. They had the machines."
+
+Mara Lin: "Did they—people?" (You can't ask about property. The Schroedinger rules press: you do not know every prior protest detail; you ask about people.)
+
+Rae Carter: "Some trapped, some moved. I pulled a woman out from under tarps. She kept saying, 'Where's my boat?' Like the rest of us don't already know. Tommy says they hauled the heavy stuff inland. The contractors packed up after the second surge. Maybe they couldn't do more. Maybe they left because of insurance."
+
+Mara Lin: "We need to keep the list." (You force yourself into the small triage of tasks; the larger claws at your ribs.)
+
+Rae Carter: "Also—" (She flinches.) "Elias called. He—he couldn't get through to the council. He said they needed to focus on shore stabilization 'first.' He sounded...broken? Busy. Like a machine trying not to think of the things a machine shouldn't have to think of."
+
+You can't tell if "broken" in her voice is betrayal or exhaustion. Both feel the same in the chest.
+
+[INTERACTION]
+> Choice A: "Ask Rae to go find Elias and bring him here"
+> Choice B: "Hold off and wait for him to reach out"
+[Outcome A: "Rae hesitates, then nods and tears out into the gray like a streak of paint. You watch her go, the way she chases action to outrun grief."]
+[Outcome B: "You fold the list and press it to your palm. Waiting feels like a decision with teeth; your pulse hammers in that hollow place where trust used to fit."]
+[MERGE: Whether Rae leaves or you wait, the list is held; names keep being gathered and the tent remains a small, steady hub.]
+
+[Scene: Promenade — Afternoon | The Planned Development Site]
+[Background:"ch15_60e470_3"]
+[Sound: The metallic creak of a shoring beam, an announcer's garbled radio transmissions, a distant child's sob]
+[Music: A cold brass chord — sharp, unforgiving]
+
+You climb toward the promenade because you have to know what was taken by machines and what was taken by the storm. Up here, Celeste is already speaking — not to you, exactly, but in a way that lands in the open air like a verdict.
+
+Celeste Park: "We are mobilizing the county engineers. Emergency protocols are in place. The promenade will be covered; it is the only way to secure the main thoroughfare and prevent cascading infrastructure failure."
+
+Her voice is smooth and controlled. You cannot, at a glance, read whether this is compassion or calculation. The Schroedinger rule clicks into place: her face is complex; unreadable.
+
+Mara Lin: "The promenade as priority leaves whole neighborhoods exposed. The Commons—" (You catch at the word 'Commons' as if it will hold.) "—we risk losing the last community buffers."
+
+Celeste Park: (A tiny, almost imperceptible shift in expression.) "I understand your attachment. But we cannot let sentimentality accelerate the total loss. The promenade, the road, the hospital access — these are triage for the town."
+
+Mara Lin: "Triage? Or a plan that looks like security on paper while erasing the places people actually live?"
+
+Celeste Park: (Her hands flatten on a rolled map that flutters in the rain.) "You make it sound binary. It's not. There are engineers, resources, and a sequence that will minimize fatalities."
+
+The way she says "minimize fatalities" feels like a scalpel of optics. You notice Dr. Amina Bhatt arriving with a mud-specked field vest and a clipboard — her presence steadies and sharpens the room like a lens.
+
+Dr. Amina Bhatt: "We need assessments. We can map the zones by wash severity and prioritize rescue and structural shoring accordingly. But the data is messy this morning. We will need volunteers to do door-to-door surveys."
+
+Mara Lin: "Then we'll do them." (You hear the fierce economy of your words; there is no time for high-level logic now. People are wet and hungry and some have lost everything.)
+
+Dr. Amina Bhatt: "Fine. But we do this from the ground up, and we take structural readings before more heavy equipment moves in. That will buy us better outcomes than a single massive push that reconfigures the shoreline."
+
+Celeste Park: (Her smile tightens; she inclines her head.) "If there is a way to coordinate that without halting the stabilization contractors for days, we should. But the county wants visible action. The state will ask for results."
+
+Mara Lin: "Results that look good in photos won't mean anything if they break the very lives they are supposed to protect."
+
+Celeste's eyes sharpen. For a breath, you watch a long history of planning and political economy shrink to a stare between two people who have had different teachers about what "duty" looks like.
+
+Celeste Park: (Quiet, almost conversational.) "Mara, you must accept that some outcomes will not align with your ideal. You will be criticized."
+
+Mara Lin: "Some people live in those outcomes." (The statement is a raw thing; it pops out and stands.)
+
+[INTERACTION]
+> Choice A: "Demand that Celeste pause heavy machinery until Amina's team surveys"
+> Choice B: "Turn and go back to the Commons to marshal volunteers"
+[Outcome A: "You point at the crane like you can arrest it with your finger. The machine groans as if in reply. Celeste's jaw moves; the air smells like ozone."]
+[Outcome B: "You walk away before Celeste can answer. Each step slaps cold water into your boots; the sound of a decision unmade echoes in your ribs."]
+[MERGE: Regardless of the immediate confrontation, the argument over priorities hangs in the air; the town's work proceeds in jagged, contested rhythms.]
+
+[Scene: Various Neighborhoods — Late Afternoon | Door-to-Door]
+[Background:"ch15_60e470_4"]
+[Sound: Muffled voices through walls, someone hammering wood back into a window, an untuned radio playing a list of missing persons]
+[Music: A high, single violin note sustaining, strained thin]
+
+You move from door to door, clipboard in hand because Amina asked you to record names — your fingers trace the same checklist you have used for years, but now the boxes feel inadequate. You record names, allergies, structural damage, whether they have a boat or a pet. The details are practical and private and useless against the tide — and you keep writing because organizing memory is how you resist the erasure.
+
+At an intersection you find Elias Navarro standing under the lean of a destroyed streetlight, his field notebook damp at the edges. His hair is plastered to his forehead. He looks at you like someone who has been given a calculus problem with living variables.
+
+Elias Navarro: "Mara." (He steps close; the space between you tastes like static.) "We—" (He stops, as if searching not for an answer but for permission to be small.) "We have to shore the hospital route. Dr. Bhatt showed the models. If that falls, the casualty rate—"
+
+Mara Lin: "You said something else to Rae." (You don't specify what — you can't. The Schroedinger rule folds in: you don't know which version of Elias the player encountered in the past. You watch for truth in his eyes.)
+
+Elias Navarro: (He flinches, and a long, exhausted exhale slips out.) "I said a lot of things. I—" (He puts his hand to his face.) "I tried to run both lines: the living shore, but also emergency engineering. There isn't time to do everything. I thought—" (He reaches for you as if to bridge a gulf.) "I thought if I could split the work, we'd keep most people safe."
+
+Mara Lin: "Split the work and lose some places entirely."
+
+Elias Navarro: "I didn't want that." (His voice drops so low you have to lean in.) "You know me — I don't like binary choices. I kept thinking compromise could be a shelter. I didn't—" (He stops, eyes bright.) "I didn't see how quickly the ground would shift."
+
+Mara Lin: "Shift? Elias, the tide took Hargrove's porch." (You can't keep the accusation from crawling into your sentences.)
+
+Elias Navarro: (Complex; unreadable.) "I know." (He swallows.) "There are things I am still trying to undo. There are contracts I couldn't stop in time. There are—" (He fumbles for a better way to say 'I failed', and finds nothing.) "There are consequences I didn't foresee."
+
+Your hands go cold. The space between you vibrates with all the sentences left unsaid across meetings, rooftop talks, and the long, small hours you shared charts and coffee.
+
+Mara Lin: "Did anyone die because of—" (The question is a slow blade. You cannot finish it; it will never be just data.)
+
+Elias Navarro: (He closes his eyes as if the light itself pricks him.) "Some people did. We lost—" (He can't say names. His fingers curl into a fist.) "We lost structures and we lost—" (His voice collapses.) "I'm sorry."
+
+You can read apology in his posture, but you cannot read whether it is private regret, political damage control, or the slow unspooling of someone overwhelmed. The ambiguity is a weight you must still carry.
+
+Elias Navarro: "Mara, I—" (He reaches out. You expect the small, habit-formed lean toward comfort, the thing that used to make two people into a near-shelter.) "Stay with me. We can plan—"
+
+Mara Lin: (You do not take his hand.) "I can't make plans with you if the plans leave people with nothing." (The sentence is both simple and terminal.)
+
+Elias Navarro: (He exhales, the sound like a breaking cable.) "Then I—" (He checks his tablet, then his watch as if time itself will provide a missing page.) "I have to present to the county tonight. They need a roadmap; they want answers. I—" (He looks at you with an expression that flirts with pleading and professional duty.) "If I go and try to make the big systems hold, will you—" (He stops; words wilt.)
+
+Mara Lin: "Will I what, Elias?"
+
+Elias Navarro: "Support it? Back a phased stabilization while we fight for Commons protections? If you don't, I can't move the county to fund living edges. If you do, you risk losing the Commons to compromise."
+
+He looks like someone who has been handed a terrible equation and is trying to balance the terms ethically. You feel each variable press into your ribs.
+
+Elias Navarro: "I need you to say which side of that balance you are on."
+
+You stare at him. The town hums, injured and busy, all around. The choice he asks you to make is also the one the whole place needs. Your chest contracts; the memory of your sibling whispers, "Do what you can."
+
+Mara Lin: (Quiet, but all tide and concrete.) "I can't sign away what people live in for photo-ready protection." (You do not say 'no' to him; you offer a truth that feels like a promise and a wall.)
+
+Elias Navarro: (He looks at you, and in that look is the thing you feared most: a decision being made outside tenderness.) "I understand." (He pauses. Then—) "I have to go. The county meeting is tonight. We can—" (He tries, and the attempt crumbles into professionalism.) "We can speak after."
+
+Mara Lin: "After what, Elias? After the road is poured? After the fence goes up?"
+
+Elias Navarro: (His voice breaks once.) "After I try to keep people alive."
+
+The statement wants to be absolute. You see then that his compass points to a different north than yours; not better or worse, only different in the way that makes two people's paths cross and then splay.
+
+He turns away. You watch the shoulders of a man you know recede under the weight of plates and files. For a breath, there is a finality there that feels like a slammed door.
+
+[Scene: Reconstruction Sites & Makeshift Community Meeting | Twilight]
+[Background:"ch15_60e470_5"]
+[Sound: Low murmurs, somebody strumming a brittle guitar, a child asking for supper]
+[Music: A low, mournful cello thrum building to a sharp, unresolved chord]
+
+Night arrives and drags the town beneath it like a net. You convene what people you can: volunteers, medics, a weary cadre of residents who have always found mouths louder than their fear. Celeste has not appeared in this tented circle. Amina moves through the crowd, making lists and lending a steady hand. Tommy sits across from you, a blanket over his knees as he maps why boats now sit in odd places.
+
+Rae Carter stands and speaks, voice ragged but clear.
+
+Rae Carter: "We lost things. We lost places people depended on. We also lost people who weren't meant to be in harm's way. But we're still here. That is a thing to hold."
+
+Someone in the tent whispers the names of the lost. The list is short and endless at once. Your chest cracks around each syllable.
+
+You move through the crowd offering the small currencies you have: a bandage, a list, your presence. Presence is what you have been managing since the beginning. It is thin but steady.
+
+Tommy: (He catches your eye and offers a crooked, tired smile.) "You'll patch us up. You always do."
+
+Mara Lin: "Not this time." (The words come without theater. You mean them; you also mean the opposite. You cannot be all things.)
+
+The tent quiets around you like a shell. Elias's absence sits like a cold patch near your heart; Celeste's strategic silence is a different kind of ache. The town has been reconfigured by a storm, by permits, by machines, by the exhausted choices made in phone booths and rooftops. The map of Solhaven is different, and there will be a funeral for more than people — for old certainties, for the idea that there was an easy answer.
+
+Dr. Amina Bhatt: (To the group.) "We will draw up a recovery plan. We'll file for relief funds. We'll document damage for legal action. It will be slow. It will be brutal. But it will also be work you can sink your hands into, and that does something besides alchemize grief into rage."
+
+Mara Lin: (You think of your sibling and the small vow you made years ago: to never let a loss be only a memory.) "Then we start now. We map. We organize. We watch the contractors. We hold meetings. We keep names."
+
+Rae Carter: "And if they come with equipment to push through the promenade?"
+
+Mara Lin: (You feel the old anger rise, hot and clean.) "We will block them. We will document. We will—" (You stop. The words feel like weapons and promises at once.)
+
+There is a long silence, crowded with fatigue. The candle flames shiver.
+
+Tommy: (Softly.) "What about Elias?"
+
+Mara Lin: (You close your eyes. The image of him walking away is sharp and terrible and somehow inevitable. You say the only honest thing you can.) "He is trying to hold different things. Maybe he will hold them. Maybe he won't. I don't know if that means he is against us or he is broken trying to be for everyone."
+
+Rae Carter: "That's not an answer."
+
+Mara Lin: "It is the answer I have."
+
+A distant shout rips the quiet as a team at the promenade argues with a machine operator. The sound is a flare — anger, fear, a call to action. The music of the evening tightens to a wire.
+
+You stand and look out over the water, where light from emergency lanterns fractures on the black surface. The Commons beds glimmer like wounded things. Somewhere a child cries into a blanket. Somewhere a name is being repeated into a list that will become a plaque.
+
+You press your palms to your thighs. Your hands are not steady. You think of all the choices that got you here — of negotiations and protests and meetings and the impossible decision you once made at a microphone. They accumulate on your skin like salt.
+
+You could make a vow to leave. You could chase Elias into rooms of policy and compromise. You could spend the rest of your days fighting a project with more money than the town can imagine. Or you could tilt toward the small salvage of people, the immediate tending, the hands-on work that will eat your nights and perhaps save a child's garden.
+
+There is no dramaturgical moment that will make the rightness of any path obvious. Only consequences. Only the slow arithmetic of what remains.
+
+You breathe in the wet night, the smell of tea and diesel, of salt and wood smoke. The wind lifts a torn section of a protest banner — the word "HOME" flutters like a ragged heart.
+
+You make a choice, plain and personal, one that you know will shape a life but not the maps others will draw.
+
+You turn back to the tent. You do what you can that night: tally names, stitch wounds, console the living. You build something that will be small and earth-bound and stubborn against the flood — a schedule of watch shifts, a list of structural checks, a plea sent to a county official. You sleep in a chair with your head on a backpack full of plans and seed packets you salvaged.
+
+Dawn comes and the town keeps moving, brittle and purposeful.
+
+[Background:"ch15_60e470_6"]
+[Sound: A single gull, the distant roll of engines, a child's laugh—uncertain but sharp]
+[Music: A slow, descending minor chord; unresolved but definitive]
+
+You will rebuild, in the only way you know how: by bending cold things to human ends and feeding the fragile edges with hands. You will keep names and make lists and drag seedlings back into reclaimed beds. You will watch machines and watch people. You will argue in council chambers with the same stubbornness you used to lift sleepers from ruined porches. You will refuse to let memory be the only monument of what was lost.
+
+Elias Navarro will continue on a track that makes sense to him; Celeste Park will continue on one that makes sense to her. Dr. Amina will keep tracking data until the town can point to trends and call them evidence. Rae will make art out of grief until the town will not forget. Tommy will go fishing where he can, saying the sea is less cruel than men are sometimes, though his voice will crack when he says it.
+
+Some things will be mended. Some things will not. The town will add a line to its map where the shoreline used to be, and one day children will misread it as permanence.
+
+You walk through the Commons and plant a salvaged cutting in a small, muddy patch. It will not guarantee anything. It will not stop the next storm. But your fingers in the soil are stubborn and human and small.
+
+You think of the sibling again. You speak the vow that got you out of bed this morning and back into the muddy work: "Do what you can."
+
+You have done what you can for tonight. It is not victory. It is not even a reprieve. It is tending — the slow, necessary work that follows collapse.
+
+[Background:"ch15_60e470_7"]
+[Music: Single bowed note, then a long, cold silence]
+
+[Background:"ch15_60e470_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

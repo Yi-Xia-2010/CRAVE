@@ -1,0 +1,32 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Salt and Ledger<br/>[Common]"):::spine
+    2("Ch 2<br/>Market Threads<br/>[Common]"):::spine
+    3("Ch 3<br/>Council Tides — The <br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Helix Momentum<br/>[Route A]"):::limb
+    5("Ch 5<br/>Stormfall<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>Tide Reclaimed<br/>[Route A — Ending]"):::limb
+    7("Ch 7<br/>Architecture of Comp<br/>[Route B]"):::limb
+    8("Ch 8<br/>The Cost of Scale<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>Public Reckoning<br/>[Route B — Ending]"):::limb
+    10("Ch 10<br/>Leak<br/>[Route C]"):::limb
+    11("Ch 11<br/>Backlash and Breakag<br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>Systemic Faultlines<br/>[Route C — Ending]"):::limb
+    13("Ch 13<br/>Quiet Resistance<br/>[Route D — Additional Route]"):::limb
+    14("Ch 14<br/>External Shock<br/>[Route D / Split]"):::limb
+    15("Ch 15<br/>Ariadne's Line<br/>[Route D — Ending]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    3 -.-> 13
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 9
+    10 -.-> 11
+    11 -.-> 12
+    13 -.-> 14
+    14 -.-> 15

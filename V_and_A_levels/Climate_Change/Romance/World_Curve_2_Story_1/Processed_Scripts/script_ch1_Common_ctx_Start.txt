@@ -1,0 +1,154 @@
+### SCRIPT
+# Route: Route C — Ending
+# Context: Start
+
+[Scene: Kitchen | Early Morning]
+[Background:"ch1_Start_1"]
+[Sound: Wind at the eaves, gulls punctuating distance]
+[Music: Soft, steady piano—room tone, slow tempo]
+
+You wake to the low, consistent hush of wind and the faint metallic tang of salt that lives in every breath here. The apartment is still: the kettle hasn't been boiled yet, your coral scarf is folded on the back of a chair, and the Moleskine with tide charts sits where you left it last night—softly warped at the corners from humidity. Your fingers find the notebook before your eyes do, tracing the tide-line sketches, the smudged notes about reed stabilization. The paper smells faintly of ink and salt.
+
+On the counter, half-wrapped in a tea towel, is the prototype part Elias Park left: a small curved turbine vane, filigreed with deliberate dents where he'd welded reinforcements. It's cool and weighty under your palm. Someone has left a note in his looping handwriting: Mira—For the Saltworks demo. Small change, big noise. Call if you want to fit it later. —E.
+
+You turn it over. The surface is salt-flecked but oiled—lived-in, like him. There's no decision baked into its presence yet, only an invitation: improvise, test, trust a promise that came in metal and a scribble.
+
+You stand in the small domestic warm of your kitchen and count the things that keep you anchored: the coral scarf your mother knitted that still smells faintly of lemon soap; the tide-stained bracelet on the bowl by the sink; the keys with a chipped buoy charm. Each item is a story, a line in the town's ledger. Each is small, domestic, stubbornly ordinary.
+
+[INTERACTION]
+> Choice A: "Examine the vane closely"
+> Choice B: "Wrap it back and make tea"
+[Outcome A: "You set the tea towel aside and trace the seam where Elias welded the lip. The metal hums under your fingertip; you imagine it spinning low and steady in the salt-wet wind."]
+[Outcome B: "You wrap the vane back in the towel, the weight still a quiet presence. You light the kettle and let routine steady the morning."]
+[MERGE: The narrative continues with the choice's consequence integrated into the morning routine.]
+
+You pick the kettle option, because routine is a clean muscle: boil water, press the French press down, breathe until the steam fogs your glasses. The town moves slowly enough this morning that you can watch the light change on the counter and feel it ripple through the room—a calm, steady building warmth.
+
+[Scene: Boardwalk | Mid-Morning]
+[Background:"ch1_Start_2"]
+[Sound: Wood groaning, distant motor of a maintenance boat, a child's laugh somewhere down the spit]
+[Smell: Brine, the sweet decay of seaweed, hot sugar from a vendor's cart]
+[Music: A low, hopeful hum of strings—quiet, not insistent]
+
+The boardwalk smells like a memory. Paint peels in long, pale ribbons; someone has hand-painted a sign advertising “Tide-Flower Preserves—Open” in coral letters. Your boots thud the way they've always thudded on these boards—each beat a small, private metronome: home, home, home.
+
+At the tide-garden plot—your plot—Noah is up on a raised bed, sleeves rolled to forearms, arranging salt-tolerant seedlings under a patched mesh. Aunt Lila sits on a paint-chipped bench, thermos in hand, knitting quietly. A patchwork of solar sails flutters above the experimental plots; hoses glisten like small rivers.
+
+Aunt Lila: "There you are. Comes and goes like the tide, but today you were always meant to be here."
+(She smiles, but it's not sharp—more like a fold in fabric that keeps warmth.)
+
+You crouch to check a seed tray. The soil is cool and damp against your palms. The Saltworks team—Jun and two others—exchange notes about flow rates; their voices are hushed, careful with numbers and with hope.
+
+Jun: "We're calibrating the sluice this morning. If we push a little more volume at low tide, the filtrate beds should take it better."
+(He glances at you.) "You want to look? We could use a second pair of hands."
+
+Mira Santos: "I'll check the distribution valves. Elias Park left a vane—I've got a prototype to bolt in if the flange holds."
+(You pause, trying to make the sentence casual. It feels like offering a piece of him to the plot, which is both silly and graceful.)
+
+Jun: (half-smiles) "Elias' handiwork? Well, if it hums like he says, we'll be the loudest reclaimers on this spit."
+
+Noah: (calling down) "Mira, Aunt Lila says you owe the tide a story. Or it owes you one. Either way, better pay up."
+
+Aunt Lila folds a hand into your hair, then withdraws it—an old ritual of blessing and check. There is history in that motion; she doesn't need to say it aloud. You talk about seedlings, about where to place the vane on the micro-turbine rig. The conversation rolls, technical and domestic: torque measurements, whether the bolts are grade-8, the best time to water to avoid salt spray. There is comfort in the way the group moves from idea to scaffold—soothing, communal.
+
+[INTERACTION]
+> Choice A: "Offer to mount the vane now"
+> Choice B: "Watch and record notes"
+[Outcome A: "You grab a wrench, taste metal and morning on your tongue, and climb the scaffolding to fit the vane. Your hands remember the snug of bolts and the patient torque of fitting new things into old frames."]
+[Outcome B: "You sit on the bench, pen to paper, tracking the team's adjustments. You love the margin of observation—seeing how small changes add up feels like stitching memory into structure."]
+[MERGE: The narrative resumes with the selected role in the team's work.]
+
+You choose to watch and record—today observation feels right. You write down the angles Jun calls out, note the way the seedlings turn themselves toward a sliver of sun, jot a line about the vane's welds. Elias Park messages a picture—a shot of the vane in a vice, his thumb smudged with oil. A short line: "If you sense a wobble, don't keep it."
+
+You send a thumbs-up and a heart you consider too intimate for the team chat, but the phone is small and the gesture private.
+
+Conversation meanders back to stories. Aunt Lila mentions the house by the old estuary—how your mother used to mend nets there, how she tied a small shell to the doorframe to call in luck. When you ask if the shell is still there, Aunt Lila's face tightens with that familiar, complex expression—more memory than grief, a living ledger that doesn't demand categorization.
+
+Aunt Lila: "It's complicated. The shell is there in my head if not on the frame. Places keep their stories even when boards turn to sea."
+
+Mira Santos: "It's why we try to make things last, isn't it? Not always the wood or the stone, but the reasons behind them."
+
+Aunt Lila: (softly) "You stitch, Mira. You always have."
+
+The Saltworks team tests the sluice. Water moves with a patient thrum through the mesh—a small, winning sound that nods to labor and craft. You tuck a strand of hair behind your ear and feel, for a small moment, the gentle satisfaction of work that fits like a well-made seam.
+
+[Scene: Boardwalk End / Municipal Notice | Late Morning]
+[Background:"ch1_Start_3"]
+[Sound: A sudden uptick of human voices; the soft rattle of a news alert; gulls shift, startled]
+[Music: A single sustained piano note—steady, a little higher pitched than before]
+
+No one mentions it at first—people here tend to let the sea tell its own alarms. But a woman at a nearby stall holds up her phone with a stunned, polite face. Her screen shows a rendering: clean, sweeping lines of engineering, a glossy promenade raised and armored, towers in stainless curves that catch light like a promise. A familiar logo sits in the corner—Whitlock Coastal—Cassandra "Cass" Whitlock's firm.
+
+You move closer. The kiosk refreshes and the municipal page loads a press release headline: Emergency Hearing: Coastal Redevelopment Plan Presented by Whitlock Coastal. The renderings blink across the screen, each one a vignette of a future where the old boardwalk is replaced by a levee promenade, neighborhoods homogenized into resilient blocks.
+
+Aunt Lila's knitting rests in her lap like a folded map. For a heartbeat the air seems to slow; the tide-garden's leaves hold their breath.
+
+Noah: (quiet) "They're moving faster than I thought."
+
+You: You feel a small, even pressure in your chest—less like panic than the tension of a pulled thread. Your immediate reaction is practical: notes, calls, meetings. But beneath that is a softer current, the thing your hands already knew. These renderings are not neutral—they rearrange the town's memory into sanitized vistas. Where does the shell fit? Where do the nets go?
+
+You step forward and look at the renderings more closely. The artist's hand has edited out laundry lines, hand-painted signs, the crooked lamppost by the lighthouse. In the place of your mother's shell sits a plaza plaque, neat and descriptive.
+
+A Saltworks Member: "Emergency hearing is scheduled for tomorrow night at Municipal Hall. They're pitching it as stabilization."
+(He shrugs.) "They're calling for public input, but—"
+
+Mira Santos: "Public input tends to be a checkbox in their versions."
+(The sentence is firmer than you meant. You look at Aunt Lila for a beat. She watches you without saying anything, her expression unreadable in that way that carries so many things.)
+
+Aunt Lila: "We will go," she says at last. "We will say what we know. We'll bring the shells, the nets, the songs."
+
+You fold that into the small, rising compass of your day. It's not a storm yet. It's a line on a calendar, a rendering on a screen. Still, something shifts beneath your practiced calm—an internal tightening from muscle to spine. The tide is a slow force; so too must be your response, but it is a force nonetheless.
+
+You think of Elias Park's vane on your counter, of the Saltworks' hands in the sluice, of the way the seedlings bend toward light because someone planted them there. What you want to protect is not just structures but the accumulation of small habits and names—the way the town tells itself who it is.
+
+Noah: "Tomorrow night, then. We'll patch, we'll prepare, we'll show up."
+
+You nod. The resolve comes quietly, the kind that is not fireworks but work-worn steel: attend the hearing, bring evidence, rally voices, insist on alternatives that keep memory sewn into plans. It feels exacting, a plan made of stitches and measurements rather than slogans.
+
+[INTERACTION]
+> Choice A: "Draft talking points at the bench"
+> Choice B: "Call Elias to tell him about the hearing"
+[Outcome A: "You pull out the Moleskine, uncapped pen poised. Your handwriting holds its breath for a moment before the lines come: community stories, legal protections, alternatives to wholesale displacement."]
+[Outcome B: "You press a call and let it ring. When he answers, you talk without dramatics—just facts, the vane's note, a hearing, and whether he can bring prototypes. His voice is steady on the line; you both fit plans around the other's breath."]
+[MERGE: The narrative continues with the outcome of the chosen action integrated into preparation for the hearing.]
+
+You choose to call Elias Park. The call is a small, precise set of exchanges—enough to measure readiness but not to burden one another with certainty.
+
+Elias Park: "You sound like the tide—slow and sure. What's up?"
+
+Mira Santos: "Whitlock's renderings are out. Emergency hearing tonight."
+
+Elias Park: (a short pause) "Tonight? That's sooner than—" (He exhales.) "I can bring extra vanes. If they try to frame it as 'only engineers can decide,' we'll show ponds, permeability, lived knowledge. I can rig a couple of demos for the public plaza."
+
+Mira Santos: "We need something tangible. People need to touch it and see that there are options."
+
+Elias Park: (softly) "I'll be there. With prototypes and pictures. And Mira—I'll keep the demo small. Public, accessible."
+
+The conversation is calm and practical; there is comfort in the exchange that isn't declared. The promise is both public service and a small private tether: he'll come, he will bring his hands and his tools. The connection is steady and unflashy—exactly like the tide.
+
+You finish the call and fold the phone into your pocket. Around you, the boardwalk resumes its low hum. The sluice trickles on. The seedlings shimmer. The rendering on the kiosk scrolls to a new angle—a wide plaza with children playing—but you now see the erased spots between the pixels where memory sits.
+
+You make a list in the Moleskine: talk to Jun about demo placement; draft public questions; call the council clerk to confirm hearing format; assemble oral histories; bring Aunt Lila's shell. Each bullet is a stitch.
+
+The morning's warmth becomes an insistence: not rallying cries, not breakdowns, but a compact set of actions that, woven together, might hold a town like a net holds fish—flexible, communal, and repairing.
+
+You stand and fold the notebook closed. The wind picks up, carrying salt and the faint scent of frying dough from a vendor. You touch the coral scarf at your neck and feel its familiar weight, a small, human resistance to the tides of plan and power.
+
+Outside, the sea breaths on the boards in long, indifferent exhalations. Inside you, something practical and patient lines up to meet it.
+
+You resolve to fight for a protection that keeps memory alive—not for spectacle, but for the small, stubborn stories that are the town's true resilience. The day narrows to preparation and presence; tomorrow's meeting will be work and witness.
+
+[Background:"ch1_Start_4"]
+[Music: Piano fades into a single, lingering chord]
+
+You feel the moment of decision as a quiet hinge. You are not calling for revolution—only for the town to be allowed to remember itself as it changes.
+
+[Background:"ch1_Start_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

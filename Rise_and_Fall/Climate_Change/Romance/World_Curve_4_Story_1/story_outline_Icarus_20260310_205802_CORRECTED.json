@@ -1,0 +1,493 @@
+{
+  "title": "Tideline Promise",
+  "summary": "Mara Voss leads a community-driven campaign for coastal restoration in Solán Bay while her relationship with Tomas Herrera deepens. Early tactical choices—whether to collaborate with municipal power, mobilize a public referendum, or expose a developer’s motives—drive rapid wins that culminate in visible pilot projects and public momentum. An unexpected catastrophic storm combined with political maneuvers exposes compromises and vulnerabilities. Branching routes vary the nature of the ascent and the crash: some paths end in guarded hope and heavy cost, others in loss and estrangement, and one reframes the fall as the seed of a broader movement. The romance with Tomas remains central and is tested by urgency, trust, and divergent duties.",
+  "emotional_curve_type": "Icarus (Rise→Fall)",
+  "player_character": "Mara Voss",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Tide-Scarred Promenade",
+      "branch_designation": "Common",
+      "narrative_focus": "Mara introduces Solán Bay and the immediate stakes at the Harbor Promenade, meets volunteers (Niko) and notices Tomas, states her mission for community-led living shorelines, and receives an invitation to a municipal briefing.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Voss",
+        "Niko",
+        "Tomas Herrera",
+        "Elys Reed"
+      ],
+      "locations_used": [
+        "Harbor Promenade",
+        "Rosa's Greenhouse"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Rooftop Seeds and Quiet Plans",
+      "branch_designation": "Common",
+      "narrative_focus": "Mara and Tomas meet on the rooftop garden at the Old Textile Mill to sketch a community-centered living-shoreline proposal, debate tactics (confrontation vs collaboration), recruit allies and solidify a personal and political partnership.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Rosa Marin",
+        "Niko",
+        "Lena Park"
+      ],
+      "locations_used": [
+        "Rooftop Garden at the Old Textile Mill"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Planning Briefing — Crosswinds",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At the Municipal Planning Office Mara presents the living-shoreline pitch; Elys Reed proposes a large-scale redevelopment, Mayor Anton weighs risks, and the meeting becomes the central decision point about municipal strategy (collaborate, mobilize a referendum, or expose Elys).",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we approach the municipal process?",
+        "options": [
+          {
+            "label": "Partner directly with Tomas and Mayor Anton to fast-track a phased pilot.",
+            "consequence": "Gain access to municipal logistics and modest funding, but commit to negotiated compromises.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Launch a public referendum and community-led campaign to force a grassroots victory.",
+            "consequence": "Energizes neighbors and media, risks alienating officials and investors.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Expose Elys' redevelopment narrative publicly through Lena and push for stricter oversight.",
+            "consequence": "Forces political transparency, escalates conflict, invites reputational pushback.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Elys Reed",
+        "Mayor Anton",
+        "Lena Park",
+        "Rosa Marin"
+      ],
+      "locations_used": [
+        "Municipal Planning Office"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Inside Game",
+      "branch_designation": "Route A",
+      "narrative_focus": "Mara and Tomas work within Mayor Anton's office to fast-track a phased pilot: permits, stakeholder meetings, community documentation, and early media praise. A tactical choice appears about prioritizing ecological integrity, staging a fast demonstration, or accepting private-public funding that reduces community control.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which tactical emphasis do we commit to for the pilot?",
+        "options": [
+          {
+            "label": "Prioritize ecological integrity and community-led timelines, even if slower.",
+            "consequence": "Stronger long-term restoration and community ownership, less impressive immediate optics.",
+            "target_chapter_index": 5
+          },
+          {
+            "label": "Stage a fast, visible demonstration to win public opinion and more funding.",
+            "consequence": "Quick political wins and media buzz, but risk superficiality.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept a private-public funding clause that reduces community control but guarantees full pilot funding.",
+            "consequence": "Immediate resources but potential loss of autonomy and long-term concessions.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Mayor Anton",
+        "Rosa Marin",
+        "Niko",
+        "Lena Park"
+      ],
+      "locations_used": [
+        "Municipal Planning Office",
+        "Harbor Promenade"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Pilot at High Tide",
+      "branch_designation": "Route A",
+      "narrative_focus": "Committed to ecological integrity, the pilot proceeds with careful restoration: seedlings planted, volunteer training, media coverage by Lena, and a municipal match—culminating in a celebratory peak as beds take root and birdlife returns; Mara and Tomas deepen their relationship.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 6,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Rosa Marin",
+        "Niko",
+        "Lena Park",
+        "Mayor Anton"
+      ],
+      "locations_used": [
+        "Rosa's Greenhouse",
+        "Harbor Promenade pilot sites",
+        "Rooftop Garden at the Old Textile Mill"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Storm Window",
+      "branch_designation": "Route A — Ending",
+      "narrative_focus": "A violent storm breaches the young pilot, exposing weaknesses in the phased approach. Elys uses the failures to argue for comprehensive redevelopment, political allies wobble, habitat is lost, a volunteer is injured, and Mara and Tomas experience a painful strain in their relationship as blame and exhaustion set in.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 4, Option B or Option C OR From Chapter 5, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Elys Reed",
+        "Mayor Anton",
+        "Rosa Marin",
+        "Niko"
+      ],
+      "locations_used": [
+        "Stormfront Beach",
+        "Harbor Promenade",
+        "Lantern Lighthouse"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Ballots and Bonfires",
+      "branch_designation": "Route B",
+      "narrative_focus": "Mara leads a grassroots referendum campaign with bonfires, vigils, canvassing, and media amplification; Tomas helps make policy accessible. The tactic draws Elys into a countercampaign and sets up a weeks-long civic sprint toward voting.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Niko",
+        "Rosa Marin",
+        "Lena Park",
+        "Elys Reed"
+      ],
+      "locations_used": [
+        "Lantern Lighthouse",
+        "Rooftop Garden at the Old Textile Mill",
+        "Harbor Promenade"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "The Debate — Fire and Glass",
+      "branch_designation": "Route B",
+      "narrative_focus": "A heated public debate at the Municipal Planning Office pits Mara against Elys; Tomas reframes trade-offs, public anecdotes and media surge narrow a poll lead, and the team must choose a final tactic to lock in the referendum advantage (legal defense, mass demonstration, or negotiated ordinance).",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7, Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to lock in the referendum lead?",
+        "options": [
+          {
+            "label": "File defensive legal measures to protect ballot language.",
+            "consequence": "Secures the vote legally but invites drawn-out court fights.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Stage a large public demonstration before voting day to solidify turnout.",
+            "consequence": "Maximizes turnout but risks escalating confrontations.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Attempt a negotiated ordinance with Mayor Anton to bring protections without a ballot battle.",
+            "consequence": "Potentially avoids conflict but may water down protections.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Elys Reed",
+        "Mayor Anton",
+        "Rosa Marin",
+        "Lena Park"
+      ],
+      "locations_used": [
+        "Municipal Planning Office",
+        "Lantern Lighthouse"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "A Tide Too Fast",
+      "branch_designation": "Route B — Ending",
+      "narrative_focus": "The referendum wins legally, but Elys mobilizes emergency measures, litigation, and investor funds that accelerate partial redevelopment while a rapid storm surge strips newly stabilized shorelines. Jubilation turns to exhaustion and grief as neighborhoods lose ground and relationships, including Mara's with Tomas, are strained.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A or B or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Elys Reed",
+        "Mayor Anton",
+        "Rosa Marin",
+        "Lena Park",
+        "Niko"
+      ],
+      "locations_used": [
+        "Stormfront Beach",
+        "Harbor Promenade"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Expose and Escalate",
+      "branch_designation": "Route C",
+      "narrative_focus": "Mara and Lena expose Elys' redevelopment narrative with evidence at Rosa's Greenhouse, producing public outrage and political pressure. The team must decide between full legal exposure, a negotiated oversight pact, or escalating to direct action.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "What escalation path do we use after the exposé?",
+        "options": [
+          {
+            "label": "Push full legal exposure—file public records requests and pursue judicial injunctions.",
+            "consequence": "May halt projects but triggers legal counterattacks and long court processes.",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Seek a negotiated oversight pact with Mayor Anton and third-party auditors.",
+            "consequence": "Could embed protections quickly but requires bargaining and oversight capacity.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Organize direct action—sit-ins at construction sites, blockade heavy equipment.",
+            "consequence": "Draws attention fast but risks arrests and violent confrontation.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Lena Park",
+        "Tomas Herrera",
+        "Elys Reed",
+        "Mayor Anton",
+        "Rosa Marin"
+      ],
+      "locations_used": [
+        "Rosa's Greenhouse Conservatory"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Courtroom Light",
+      "branch_designation": "Route C — Legal Subbranch",
+      "narrative_focus": "Mara pursues litigation: public records requests, injunctions, and court hearings that temporarily halt redevelopment. The injunction is an apex of civic process but invites delay tactics; the team must decide whether to rely on courts, shift to political pressure, or run limited direct actions while litigation runs.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we proceed as litigation drags on?",
+        "options": [
+          {
+            "label": "Double down on litigation and trust the courts to enforce protections.",
+            "consequence": "Potential long-term legal safeguards, but slow and vulnerable to delay.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Mount a political blitz to convert legal wins into binding ordinances.",
+            "consequence": "Uses public pressure to harden protections rapidly.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Coordinate limited direct actions to maintain public pressure while courts move.",
+            "consequence": "Keeps momentum but risks arrests and escalation.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Lena Park",
+        "Mayor Anton",
+        "Elys Reed",
+        "Rosa Marin"
+      ],
+      "locations_used": [
+        "Municipal Courthouse"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Oversight Pact",
+      "branch_designation": "Route C — Option B Ending",
+      "narrative_focus": "Mara negotiates a binding oversight pact with Mayor Anton and third-party auditors, initially halting suspect permits and creating a public steering committee. However, the pact's compromises allow scaled development in critical parcels and when an unusually violent storm arrives oversight mechanisms are too slow, producing devastating loss and a sense of betrayal.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Mayor Anton",
+        "Rosa Marin"
+      ],
+      "locations_used": [
+        "Municipal Planning Office",
+        "Stormfront Beach"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Blockade",
+      "branch_designation": "Route C — Option C Ending",
+      "narrative_focus": "Mara organizes direct actions—sit-ins and blockades at construction sites. The actions draw powerful attention and arrests but provoke violent pushback and accelerated developer moves; amid chaos and a sudden storm a critical wetland is irreparably damaged, leaving the movement bloodied despite its visibility.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Rosa Marin",
+        "Elys Reed"
+      ],
+      "locations_used": [
+        "Construction site",
+        "Harbor Promenade"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Aftermath — Judges, Journals, and Ash",
+      "branch_designation": "Route C — Ending",
+      "narrative_focus": "Whether through litigation, political blitz, or limited action, the combined pressures of investor delay, emergency politics, and a ferocious storm produce catastrophic results. Mara narrates the physical aftermath and communal grief; she resolves to try to transform the catastrophe into a broader regional movement, even as relationships and neighborhoods carry deep loss.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A or Option B or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Rosa Marin",
+        "Lena Park",
+        "Mayor Anton",
+        "Elys Reed"
+      ],
+      "locations_used": [
+        "Lantern Lighthouse",
+        "Stormfront Beach",
+        "Municipal Courthouse"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "A New Chorus",
+      "branch_designation": "Route C — Ending (final synthesis)",
+      "narrative_focus": "In the decisive fallout Mara helps organize a resilient, regional response: survivors tending surviving marsh pockets, training rapid-response crews, building legal and funding scaffolds, and choosing a harder, steadier path to system change. Romance with Tomas is complicated but honest; the movement becomes a catalyst out of grief.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A or Option B or Option C (final synthesis)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Voss",
+        "Tomas Herrera",
+        "Rosa Marin",
+        "Niko",
+        "Lena Park",
+        "Mayor Anton"
+      ],
+      "locations_used": [
+        "Rosa's Greenhouse",
+        "Lantern Lighthouse",
+        "Harbor Promenade"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Branch points: Chapter 3 (Common split to Routes A/B/C), Chapter 4 (Route A tactical split), Chapter 8 (Route B tactical split), Chapter 10 and Chapter 11 (Route C escalation and legal subsplit). All chapters are Mara POV and follow a Rise→Fall (Icarus) arc; endings are implied outside numbered chapters and recorded as -1 for final/default_next_chapter where appropriate.",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 20:58:02"
+}

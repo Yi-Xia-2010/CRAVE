@@ -1,0 +1,160 @@
+label chapter8:
+
+    # [Scene: Old Docks Community Hub | Morning]
+
+    scene bg ch6_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Driving percussion with rising strings — urgent, hopeful]
+    # play sound "sfx_placeholder"  # [Sound: Hammering, shouted instructions, a distant gull; the generator hums steady]
+    "You wake with the weight of yesterday’s decisions still warm under your ribs, but the Hub is already a machine of bodies and purpose. Coffee steams in chipped mugs. Blueprints, sticky with salt and hurried notes,"
+    "are taped to the workbench. Nora is at the entrance, elbows smeared with tar and paint, barking out assignments with a grin that says she has no time for dramatics — only results."
+    show nora_daz at left:
+        zoom 0.7
+
+    nora_daz "Okay, Maya — team A goes to the southeast spits for planting. Team B builds the oyster frames. Luca's on the cofferdam bolts. Samir's got the blessing circle at ten—bring gloves."
+    "You slide the battered field notebook into your jacket and feel its edges, a tactile anchor. The municipal match has cleared last night — a terse email from Elena with a line you read three times"
+    "until your chest unclenched: emergency funds approved, conditional on community oversight and a phased deployment. It's enough to buy materials, not enough to buy certainty. You prefer it that way."
+    "You breathe in: salt, wet wood, the tick of a thousand small decisions made public. The adrenaline is a bright wire in your throat. This is what you trained for. This is also what used to"
+    "terrify you — the possibility that goodwill could be not enough. Today, the crowd is a counterargument."
+    show luca_chen at right:
+        zoom 0.7
+
+    luca_chen "If the maps get any more optimistic, we'll name them fiction and charge admission."
+    "Maya Ortega: (You let a laugh out, quick and sharp.) 'As long as the fiction plants cordgrass.'"
+
+    luca_chen "Deal. We'll write the best kind of story — one with roots."
+    "You exchange a look that is both a promise and a plan. Around you, volunteers lift, carry, and knot. The day is a machine of motion; the arousal in the air is so high it feels like a living thing. Every hand unites into a single, steadying beat."
+    # [Scene: Salt Marsh Reserve | Midday]
+    hide nora_daz
+    hide luca_chen
+
+    scene bg ch6_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: Taiko drums overlayed with bright brass — frantic and exultant]
+    # play sound "sfx_placeholder"  # [Sound: Water slapping against contours, shout of a coordinator, the metallic ring of implements]
+    "The marsh meets you like a confession — cool mud underfoot, the smell of brine and new growth. You and a line of volunteers lug woven oyster frames into shallow water and anchor them to the"
+    "old pilings. Each frame is heavy with expectation and actual oysters; each step forward is a small claim against erosion."
+    show nora_daz at left:
+        zoom 0.7
+
+    nora_daz "If we angle these at thirty-seven degrees, the current calms and the silt will drop. Trust the awkward math of it."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Thirty-seven? You always pick the weird numbers."
+
+    nora_daz "Numbers are my way of swearing I did the thinking for you. You're welcome."
+    "You laugh, then fall into the rhythm of work. The world narrows to rope and grain and the slap of water. It's high-octane labor: yelling coordinates two meters ahead, sliding heavy beams into place, a volunteer"
+    "almost losing footing — someone pulls them steady; the breathless gratitude ricochets through the team. This intensity is a different kind of fear: the rush of all of you choosing to fight the tide together."
+
+    menu:
+        "Tie the outer line to the northern piling now":
+            "You step up, wrist snapping a sailor’s knot learned in a dozen late nights at Samir’s dock. The line sings into place, and someone cheers."
+        "Hold the line steady and wait for the wedge frames":
+            "You hold the rope like a living thing, counting the breaths until the wedge frames slide into their slots. The crew moves as one, trading grunts for laughter."
+
+    # --- merge ---
+    "Whether you tie or hold, the water accepts the work, and silt begins, almost immediately, to linger."
+    "The choice is small, but it matters only in rhythm. Whether you tie or hold, the water accepts the work, and silt begins, almost immediately, to linger. It's a tiny victory: a darker patch in the mud where you know seeds will catch."
+    # [Scene: Old Docks | Late Afternoon]
+    hide nora_daz
+    hide maya_ortega
+
+    scene bg ch6_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Quickening strings, handclaps joining like a communal pulse]
+    # play sound "sfx_placeholder"  # [Sound: Power saw whine, the slap of hammer on nails, a chorus of voices]
+    "Back at the Docks, the bulkheads rise — built not by cranes but by hands that know each other’s strengths. Samir fits a final plank with deliberate, slow movements, the beard trembling with effort and sweat."
+    show samir_qureshi at left:
+        zoom 0.7
+
+    samir_qureshi "These boards remember hands. Treat them well or they won't hold for lives."
+    "Maya Ortega: (You feel the sentence land like a benediction.) 'They're treated. And we'll teach their children how to read the grain.'"
+    "A volunteer asks for direction about tightening a bolt. You instruct, but it's not a command; it's a shared technique taught in a tone that invites correction. Luca Chen interjects, humor undercutting tension: he misreads a"
+    "diagram and then, mock-sober, suggests a ridiculous alternative — and immediately helps unmake his mistake. The reparations of laughter and repair move together."
+
+    menu:
+        "Accept Samir's request to lead the blessing":
+            "You step forward, hands raw, and your voice, rough with salt and emotion, wraps the crew in words that feel older than any permit. The group bows their heads and then cheers."
+        "Let Luca lead the blessing":
+            "Luca takes the small paper Samir hands him and speaks. His voice cracks at first, then steadies — the crowd answers in a rising tide of chants and clapping."
+
+    # --- merge ---
+    "Both choices knot you closer to the people around you; ritual is not about hierarchy; it's about remembering why you hardened your hands in the first place."
+    "Both choices knot you closer to the people around you. Ritual is not about hierarchy; it's about remembering why you hardened your hands in the first place."
+    show nora_daz at right:
+        zoom 0.7
+
+    nora_daz "You saw the sediment patch this morning. It's doing more than we thought. Elena's office called — they're coming to see the progress at sundown."
+    "Your heart vaults, but it doesn't flip into fear. Instead it beats in quick, sure steps — a drum that says you are on the edge of something important and you are not alone."
+    # [Scene: Tideside (Seawall Promenade) | Golden Hour]
+    hide samir_qureshi
+    hide nora_daz
+
+    scene bg ch6_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Full orchestra — swelling, triumphant, with a sustained human chorus underneath]
+    # play sound "sfx_placeholder"  # [Sound: The tide whispering, cheers, the distant low rumble of municipal vehicles]
+    "The city arrives — Elena Reyes steps out of a municipal van, slate in hand, but her eyes catch the shoreline before the paperwork. She walks the line with you and Samir, the LED timelines and"
+    "council maps now translating into a living demonstration. You can see the calculations in her face shift: the politician making room for something more than a ledger."
+    show councilwoman_elena_reyes at left:
+        zoom 0.7
+
+    councilwoman_elena_reyes "You all built this fast. The match holds, and we'll negotiate long-term stewardship. We need more formal oversight, but this is proof of concept."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "We want oversight that keeps stewardship local. We can't protect homes by making decisions from glass rooms alone."
+    "Councilwoman Elena Reyes: (She considers, then nods slowly.) 'Then we build the oversight together. I won't promise perfection. I will promise collaboration.'"
+    "A cheer breaks out, and in that sound is the exhale of people who have been holding their breath for too long. Luca Chen squeezes your hand — a brief, electric pressure that says both: you did this, and we did this together."
+    "Later, as the crowd disperses into small groups of conversation and repair, Luca draws you aside. The wind lifts the ends of his hair and you smell rope oil and lemon from the citrus he forgot"
+    "in his pocket. His face is close and honest in a way that scares the old parts of you that still read failure into every success."
+    show luca_chen at center:
+        zoom 0.7
+
+    luca_chen "I kept this in my pocket for years. It was my father's tide marker. I wore it when I went out alone at night and when I learned to patch a net that had a history of holes."
+    "Maya Ortega: (You swallow; your hands are still rough from building a bulkhead, but you realize you want them to be placed right now.) 'Luca—'"
+    "Luca Chen: (He flips open his hand. A small silver pendant, worn at the edges, hangs on a frayed cord.) 'I want you to have it. Not because it's mine, but because tides need anchors. I want to anchor with you.'"
+    "For a breath that feels like a held sea, the world is all eyes and sound. The arousal—the very high, fast beating drum of the day—resolves into a single, sharp, joyful peak."
+    "Maya Ortega: (You let your smile break free and it's not small; it's whole and fierce.) 'I don't know if I deserve it.'"
+
+    luca_chen "You deserve it because you keep trying. Because you make space for people to try with you. Because you didn't let them write us off."
+    "Luca Chen: (He cups your face, thumb brushing the salt freckles near your temple.) 'Stay.'"
+    "You laugh — a broken, happy sound. Your mouth finds his; it is not a sudden loss of breath but a seal made in tidewater. When you part, both of you are laughing and crying at"
+    "once, an absurd mixture the day has earned. Around you, people clap, some whistle; a child asks if the pendant is magic. Samir Qureshi, watching from his bench, gives you both a slow, approving nod and"
+    "a small, watery smile."
+    hide councilwoman_elena_reyes
+    show samir_qureshi at left:
+        zoom 0.7
+
+    samir_qureshi "Anchors are for boats. But good anchors — good people — keep a village from drifting."
+    "As the sun drops lower, the living shoreline's new grasses catch the light; the mud shows the first ribbon of darker sediment where you planted life. Elena promises public hearings to institutionalize the partnership; Nora pulls"
+    "you into a quick, wet hug that smells of tar and the salt of laughter; volunteers dismantle tools and haggle over whether to celebrate with soup or cake, because every community needs domestic victories after the"
+    "hard work."
+    "You stand at the promenade's edge, the city skyline softened by storm-glow, and feel a truth settle in your chest: this will not be perfect. There will be repairs and arguments and times when the water"
+    "will test the seams you've just stitched. But the people are here. The municipal match is a bridge, not a takeover. The living shoreline is a beginning, not an end."
+    "You unclasp Luca's hand and slide the tide-marker into your palm. It is small, heavy with history, and somehow exactly the shape of the promise you want to make."
+    "Maya Ortega: (You speak into the evening, to the tide and to the people around you.) 'We'll keep watch. We'll teach. We'll make space for anyone who wants to stay.'"
+
+    luca_chen "And if the tide comes mean, we'll stand in it together."
+    "You look out toward the marsh — the grasses already catching silt like breath — and for a moment your old guilt feels like the last small stone in your pocket, something you can take out"
+    "and place on the shore as an offering. It does not vanish, but it lightens."
+    hide maya_ortega
+    hide luca_chen
+    hide samir_qureshi
+
+    scene bg ch6_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Swells into a warm, sustained chord; voices of the community harmonize in the background]
+    # play sound "sfx_placeholder"  # [Sound: Tide lap, distant evening laughter, the rustle of reeds]
+    "You wrap the pendant's cord around your wrist, a loop that feels both literal and symbolic. Luca slides a small woven bracelet onto his own wrist, matching the one you've had since childhood. Fingers touch, and"
+    "you feel the city, the marsh, and the people braided into a single rope that will take more than your hands to hold — but whose strain you can now meet with someone beside you."
+    "You close your eyes. The ache of responsibility is still there, but it hums with something else now: trust. Not the naive kind you once sought, but a trust built from sawdust, signatures, and slow sediment—proof that small collective actions can push back the water and keep homes intact."
+    "You open your eyes, seeing the shoreline and the faces gathered, and you know something steady: you have found a way to be both lover and steward, both planner and neighbor. It is not the end"
+    "of struggle; it is a beginning of steadier work, shared burdens, and nights of repair followed by mornings of planting."
+
+    scene bg ch6_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle decrescendo into a peaceful, hopeful hum]
+    # play sound "sfx_placeholder"  # [Sound: Night insects begin; distant waves breathe]
+    "You let the pendant warm against your skin and allow, for the first time in a long time, the feeling that you might forgive yourself for what you couldn't prevent. Around you, the neighborhood's laughter threads"
+    "through the air, and the promise of watchful mornings and communal dinners stretches ahead like a mapped shoreline."
+
+    scene bg ch6_f99e88_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

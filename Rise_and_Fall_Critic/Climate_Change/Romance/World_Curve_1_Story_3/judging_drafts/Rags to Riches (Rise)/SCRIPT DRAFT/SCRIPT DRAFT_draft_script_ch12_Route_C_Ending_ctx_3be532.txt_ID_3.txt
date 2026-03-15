@@ -1,0 +1,135 @@
+[Scene: Rooftop Greenhouse | Dawn]
+[Visual: Misted glass domes rimed with salt; rows of hydroponic beds glisten with morning dew. A prototype living seawall cross-section sits on a raised testing plinth, its sensors blinking a slow, steady green.]
+[Music: Warm, ascending strings; a low, pulsing synth underpins the rhythm of the morning]
+[Sound: The hiss of a drip system, distant gulls, the murmur of people arriving on adjacent rooftops]
+
+You arrive with the notebook at your hip and the small potted cutting cradled in your hands like a promise. The cutting's soil is still damp from last night's soak; it smells of wet stone and citrus. You set it on the service table as if placing a small votive—an emblem of what you're trying to protect.
+
+Your chest is full, not with fear this time, but with a careful kind of brightness. The ordinance passed in the council late last month; the cooperative's fiduciary charter sits in the mayor's safe, stamped and waiting. What remains is to turn paperwork into practice: to teach, to debug, to make the tech sing to the rhythm of the neighborhood.
+
+Hana is already there, adjusting a sensor array with clinical grace. Her AR monocle catches the light; she doesn't look up when you approach, but the set of her shoulders loosens when she registers you.
+
+Hana: "Sensors are calibrated to community thresholds. We've published the firmware repo to the cooperative server. Leon pushed for a delayed-release clause; we negotiated it out."
+
+You: "Good. Make sure the watchdog daemon's permission model defaults to community overrides. No lockouts."
+
+Hana: (without looking up) "Agreed. The override API is in plain sight—admin keys require multi-party consent, and Jun's auditing scripts are baked in. The pumps will not start without a cooperative go-ahead."
+
+You watch her fingers move over the panel like a pianist. You want to say more—about trust, about how easy it is for 'emergency' to become 'control'—but for once the words are steady in your chest. They've been translated into lines in a contract. Now they must translate into practice.
+
+[Interactive Moment: Choice A ("Help Hana tighten the sensor pucks") -> Reaction: "You kneel beside her, passing a small torque wrench over. Your hands are steady; the simple, shared motion feels like a small peace treaty." || Choice B ("Walk the perimeter with Teo to inspect the training kits") -> Reaction: "Teo falls into step beside you, hand on a crate of manuals. He jokes—light and gruff—about you finally letting 'aegis' and 'garden' be roommates; the laugh warms the chill around the morning."]
+
+Teo arrives lugging a weathered crate of toolkits and printed manuals, his bandana damp with sweat. He sets the crate down with a practiced thud that makes you smile. The training schedules printed on laminated sheets fan out like a new calendar for care.
+
+Teo: "We got enough bilingual trainers to cover three shifts. Sofia volunteered the market stalls for the outreach days. And Jun's bringing in student interns to run community audits."
+
+You: "Good. People need time with the kit. They need to know the sensors by name."
+
+Teo: (grinning) "You always talk like the sensors are pets. I'm waiting for the day you give one a name."
+
+You pretend to bristle, but your fingers trail the sensor's cool casing affectionately. It is ridiculous and tender, and for a moment you remember why this work mattered beyond policy—because hands and hearts learned the same language when danger came.
+
+[Scene: Skyward Market | Mid-morning]
+[Visual: The market domes are fuller now; stalls arrayed with seedlings, sea-salt caramels, and hand-screened posters about the pilot. Strings of warm bulbs sway over laughing faces.]
+[Sound: Market chatter, the clink of cups, an impromptu guitar somewhere beneath the domes]
+
+Dr. Jun stands beneath a canopy as he demonstrates a simple audit: how the open-source data stream translates into actionable community dashboards. People crowd around his tablet—older residents, students in sun-streaked hair, new cooperative members.
+
+Dr. Jun: "Transparency isn't just about letting people see numbers. It's about teaching them what those numbers mean. If a salinity spike shows on your block, you should know the next three steps without calling the tower."
+
+You stand across from him, watching as a grandmother named Marta nods slowly, absorbing how to read the graphs. The sight makes the sunlight feel warmer, as if illumination itself was a kind of permission.
+
+Elias arrives almost breathless from the street, a smear of paint on his cheek from the mural he’s been organizing. He moves through the crowd with a wave and a grin, but when his eyes find you, something in the grin lengthens—a recognition that doesn't quite identify itself.
+
+Elias: "They're showing the demo on the bandstand. Half the vendor stalls are there. That mural's nearly finished—it's got the old mangrove silhouette with a bright line across it where the seawall will be. It's beautiful."
+
+You: "Good. Make sure the mural includes the audit QR, Elias. People should be able to pull the live feed."
+
+Elias: (a little softer) "Of course. People deserve to look at the numbers right after they look at the art."
+
+You feel the old rhythms—organize, demonstrate, insist on visibility—slotting into place with the new legal scaffolding. The pilot isn't a handover; it's a shared table. The cooperative has a governing board that includes community elders, teens from the rescue crews, and technical liaisons. The legal language now includes enforceable veto rights and public data stewardship plans. Those clauses were hard-won—late nights, stubborn negotiations, lies of omission spotted and stamped away.
+
+[Scene: La Marisma — Raised Walkway | Afternoon]
+[Visual: Sunlight gilds wet boards; children chase each other beneath hanging gardens. The neighborhood hums with a new undertow of possibility—people working, teaching, testing.]
+[Sound: The creak of boards underfoot, distant laughter, the gentle chime of a community bell signaling a demonstration start]
+
+You walk the routes the cooperative set for maintenance drills. Each checkpoint has a small laminated plaque with the cooperative insignia: a braided mangrove root circling an open eye. The plaque lists a local steward and the next audit date. It's a small design choice with a large, steadying effect.
+
+Dr. Jun joins you and Teo at one of the maintenance stands, his hands smelling faintly of plant media. He looks at the plaque and then at you with that soft, collected gravity he always wears when something real is resolving.
+
+Dr. Jun: "The models show a reduced risk profile for the next three projected storm events, given proper maintenance and community response. The sensors will buy you time and give you data to argue for more support. That's the point where law and practice meet."
+
+You: "We can't be complacent. We have to keep training, iterate on the design, and make the data literate for everyone."
+
+Dr. Jun: (nodding) "Exactly. This is not a one-off fix. It's a blueprint that needs tending. If you keep it, people will replicate it."
+
+At the mouth of the estuary, a small crowd has gathered for the official launch. Mayor Lila, pressed into a linen suit that somehow looks less political and more like participation, stands with a folded ordinance in hand. Leon Voss is here too—impeccable, but less central than before; he steps aside as cooperative members step forward. The pilot's control panel sits on a wooden podium that Teo built out of reclaimed decking.
+
+Hana steps up beside the array. Her posture is composed but not cold. There's relief in her eyes—an engineer who has seen her calculations walk out into the daylight and be cared for by hands that know the soil.
+
+Hana: "This array will mean nothing if it isn't stewarded. The cooperative will run day-to-day operations. Aegis will provide support staff for the first six months and technical transfer on all systems. The firmware, the schematics, the maintenance logs—all open-source. The legal agreement enshrines community veto."
+
+Mayor Lila: "And the city will provide a mitigation fund to support neighborhoods that most need training and adaptive materials. This pilot is the first in a series of city-backed cooperative projects."
+
+You feel a swell in your chest—like breath pulled in to sing. The crowd's applause isn't polished; it's popped and irregular and alive, like wind through rebar. You want, in that swell, to look for a face—someone to anchor the moment to intimate history. Instead you meet Elias's eye across the crowd. His expression is complicated, the way a tide is complicated: fierce in the surf, reflective in its pull.
+
+Elias: "You did it. Together."
+
+You: "We did it." The word sits right; it is shared and humbling.
+
+[Interactive Moment: Choice A ("Accept Jun's offer to lead the community training program") -> Reaction: "You take Jun's proffered folder, the curriculum inside smell of photocopy toner and hope. The decision feels like stepping into years of small, necessary rituals." || Choice B ("Stand with the stewards and give the first public demonstration") -> Reaction: "You climb the modest podium, fingers grazing the wood. When you speak, your voice catches on the damp air and then steadies into the plain certainty of someone who's been chosen by their neighborhood."]
+
+You step up when the mayor signals; your notebook is lighter than it has been in months. You speak, and the words that come are not the polished sentences of press releases but the blunt, honest sentences of someone who has seen loss and insisted on repair.
+
+You: "This is not the end of the conversation. It's the fork where we begin practicing the answer. We will teach. We will audit. We will refuse to let tech be an excuse for erasing what we love. We will hold the line—not against change, but against abandonment."
+
+Applause rises like the sound of a small sea. Children run through the legs of adult volunteers; Sofia passes out seed packets and presses her palm to yours for a moment that says everything.
+
+Hana meets your gaze. Her expression is complex—something like relief braided with guarded affection. She doesn't reach for your hand; instead she offers a compact smile and an assurance formed in shared labor.
+
+Hana: "We set up the next maintenance run for Thursday. I want you there."
+
+You: "I'll be there."
+
+Elias lingers by the mural, paint flecks on his sleeve, his green eyes bright and direct in the sunlight. He moves closer as the crowd thins and the speeches dissolve into small conversations. There is an unspoken inventory between you: the history of tactics, the present of partnership, the future of shared risk.
+
+Elias: "Whatever comes next—demonstrations, press, the inevitable screwups—we do it together. You want people to see that stewardship can be led from within."
+
+You: (softly) "I want them to keep this place. I want us to show others that you don't have to trade culture for protection."
+
+Elias: "Then let's keep showing them."
+
+You stand there a moment longer, listening to the city breathe around the pilot: the soft whirr of pumps starting, the gentle ping of sensor updates rolling into the public feed, the murmur of people making plans. The cooperative's first maintenance rota glows on Jun's tablet: names you know, times that mean real labor and care.
+
+[Visual: Golden hour settles; the market's light leans into warm ambers. The seawall's small model reflects the light like a promise made visible.]
+[Music: Strings resolve into a gentle, rising cadence—hope carried forward rather than triumphant celebration]
+
+You let the moment wash across you. It's not a coronation. It's a beginning—deliberate, humble, and fragile in a way that makes it strong. You think of the blueprint documents already flagged for replication, of calls from neighboring districts asking for the codebase and training modules, of Jun's students preparing to publish a peer-reviewed paper on the community audit model. The pilot will be studied, copied, amended. If it holds, it will seed something larger than any single person. That possibility tastes like salt and sweetness.
+
+Teo claps you on the shoulder, quick and warm, and the day folds into evening with a sense of work to be done—a long, shared undertaking that you no longer carry alone.
+
+You breathe in the rooftop's humid air, tasting soil and solder, paint and promise. The neighborhood around you hums with small arrangements—people agreeing to take shifts, children claiming sensor nicknames, elder stewards teaching younger hands how to read a tide line.
+
+Across the plaza, Hana and Elias stand in a small, respectful distance from one another. Their faces are unreadable in ways that are not hostile; they are simply full—the residue of past arguments, the freshness of new trust, the private calculus of what to risk and what to hold. Your relationship with both of them is part of this architecture: not a conclusion tied off neat, but a living support beam to be inspected and worked on.
+
+You close your notebook and slip the small cutting back into its sling. There's a ritual in tending, in returning a living thing to its place after the day's labor. The cutting's leaves are dusted with market flour and sunlight.
+
+You feel something like a knot—the kind that isn't anxiety but a tightened confidence. This pilot will require humility and stubbornness in equal measure. You have both.
+
+[Visual: Twilight deepens; strings of lanterns flicker on across La Marisma, bathing the raised walkways in a warm, communal glow.]
+[Sound: A soft chorus of voices, the distant roll of waves; the city settles into a protected, watchful night]
+
+You allow a rare, private smile. The blueprint is not a triumph over fate but a wager on stewardship—the decision to care in public, to make the mechanisms of survival shared and visible. That wager has people behind it now, legal teeth, and open data. It has training schedules and seed packets, pump manuals and poetry.
+
+You realize, with a clarity that steadies you, that this—this work, this neighborhood, these people—is worth every late-night negotiation and every small concession. The pilot launches not as an end but as a practice in being human together.
+
+[Visual: Fade to Black]
+[Music: A single sustained violin note resolves softly, like a promise kept]
+
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": null,
+  "default_next_chapter": null
+}

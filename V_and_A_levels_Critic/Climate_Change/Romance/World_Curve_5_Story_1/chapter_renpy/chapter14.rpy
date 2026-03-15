@@ -1,0 +1,192 @@
+label chapter14:
+
+    # [Scene: Mediation Room | Late Night]
+
+    scene bg ch14_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Driving strings under a clipped electronic pulse — urgent, forward]
+    # play sound "sfx_placeholder"  # [Sound: Paper shuffling, low murmurs, the distant chant of activists on the sidewalk]
+    "You come in wet—salt and rain in the fibers of your patched jacket, the seed vial at your throat cool against your collarbone. The fluorescent light flattens the room, erases soft edges, and forces everything into daylight clarity. It makes the written words on the table impossible to ignore."
+    "Mayor Serena sits at the head, palms folded as if holding the whole city's weight in both hands. She looks as if she's been here long enough to know how every tired sentence will hit. Jonah"
+    "Hale's legal team is a low, practiced hum across from you; Jonah Hale himself watches you like a man trying on a future for fit. Elias Rook is to your left, sleeves rolled, wristpad open, maps"
+    "and models tabulated in neat columns. Kira is not in the room — she is on the sidewalk, a bright flare of motion through the window, holding the outside pressure steady."
+    "Your voice wants to be something gentler than the fluorescent glare. You round the corners of clauses with your eyes, tracing commas like coastline, wondering where to start."
+    show mayor_serena_okoye at left:
+        zoom 0.7
+
+    mayor_serena_okoye "We will record the amendments as they are agreed here. I remind all parties: enforceability is non-negotiable. This moratorium must carry legal teeth."
+    "You can feel the room inhale that phrase. Enforceability. The word lands like an anchor."
+    show jonah_hale at right:
+        zoom 0.7
+
+    jonah_hale "We understand the need for community protections. Our objective is a secure harbor and a viable economy. We propose a phased footprint reduction tied to milestones."
+    "You want to say the word 'promise' the way Mateo once said it—soft and suspicious—but instead you keep your hands where they can be seen, flat on the table, soil-dust still dark in your nails."
+    "Elias Rook leans forward, thumb scrolling models in place, translating numbers into possible language. He looks at you when he speaks, eyes steady."
+    show elias_rook at center:
+        zoom 0.7
+
+    elias_rook "Phased milestones are measurable. If we tie the footprint reduction to verifiable metrics — sea-level thresholds, storm frequency indexes, and third-party audits — we can bind those actions into the agreement."
+    "You feel gratitude like a warm current. He is method—always method—but tonight his method is on your side, and you let that anchor you."
+
+    "Kira's voice floats in from the sidewalk outside, carried by a held-up phone toward the window" "Keep the covenants, Ayla Moreno. No soft promises. We watched our gardens drown once."
+    "You answer with your eyes. She nods, fierce and unbowed."
+
+    menu:
+        "Let Elias read the technical clause aloud":
+            "You hand Elias Rook the page. He clears his throat and reads the metrics slowly, turning numbers into plain terms; the room quiets around the inevitability of measurement."
+        "Speak first and frame the protections in community terms":
+            "You reach for the clause and fold it into a story—of Mateo's lopsided fence, of seedlings lost to a single night—making the legal language smell like soil. Jonah Hale's jaw tightens for a fraction of a second."
+
+    # --- merge ---
+    "You choose, and in the instant of choosing the room tilts. Whether you handed the clause to Elias Rook or told the story yourself, the result is the same: the technical becomes lived, and the legal becomes human."
+
+    mayor_serena_okoye "The moratorium will be amended. Language will specify a phased schedule and a mandatory community review at each phase. If benchmarks are not met, work pauses."
+
+    jonah_hale "We can agree to the schedule, provided compensatory adjustments to our commercial parcels are allowed to offset the revised footprint."
+    "The trade is obvious—land for limits. You taste the metallic flash of the deal because it smells like something you've smelled before: the city recalibrating value, moving green spaces into line items."
+    "Mateo, whose name you had written on the list of oversight nominees, is a voice of memory rather than a paper. He comes in later, stepping into the room with the gait of someone whose life is measured by tides, not schedules."
+    hide mayor_serena_okoye
+    show mateo_alvarez at left:
+        zoom 0.7
+
+    mateo_alvarez "If you want our eyes on it, make the oversight board real. Fund it. Put people who remember how the harbor used to be on payroll so they are not just volunteers with teeth."
+    "You look at Kira's empty chair by the window and back at the list. The idea of Mateo and Kira side-by-side on paper—formalized, funded—takes the abstract of 'community co-management' and gives it teeth."
+
+    jonah_hale "A funded oversight board is unusual, but we will accept covenants that create an independent audit function and allocated funds for community review."
+    "Your chest tightens. Agreement unfolds like a slow tide—the thing you feared lost is being returned, bit by legal bit."
+    # play music "music_placeholder"  # [Music: Tempo accelerates; percussion enters — a heartbeat beneath the room’s conversation]
+    "Hours translate into clauses. You mark commas with your pen like stitches. Elias Rook keeps returning to a single point: enforceability. He suggests language that ties milestones to escrow releases and third-party environmental auditors. He argues"
+    "with legalese and with the patient hunger of someone who wants models to mean anything in the messy real world. You argue with narrative—how to frame displacement protections so that they cannot be trivially circumvented."
+    "Dialogues snag and then untangle. Jonah Hale asserts economic necessity; Kira bangs on moral necessity in bursts via texts that she chucks at you through the window. Mayor Serena shepherds the arguments with the weary authority"
+    "of someone who has learned how fragile cities are if their compromise collapses into rancor."
+
+    jonah_hale "We will narrow the footprint by twenty percent from the original schematic and agree to enforceable covenants on the adjacent commercial parcels. We want clarity on what 'adjacent' includes."
+    "You want to laugh, to cry, to stand and pull Jonah Hale's lapel and ask whether he remembers the fence post you once lost. Instead you breathe and ask a different set of questions—legally precise, pointed—because precision is how you protect the rest."
+
+    menu:
+        "Insist that 'adjacent' be defined by community maps":
+            "You slide your map—hand-sketched, notarized, full of rooftop gardens—across the table. The lawyers pick it up like an artifact. Jonah Hale studies the handwriting and nods, small and surprised."
+        "Let Elias draft coordinates for 'adjacent' and tie them to survey benchmarks":
+            "Elias Rook taps his wristpad, pulls up geo-coordinates, and anchors the term in measurable space. The room accepts the clarity; the lawyers make notes."
+
+    # --- merge ---
+    "The phrasing you land on will neither be poetic nor perfect, but it will be enforceable. That is the point."
+
+    "Time compresses around deadlines and the hiss of the HVAC. You catch the notes Kira drops into the group chat" "Hold firm on displacement language. No waivers without judicial review.' You send back a thumbs-up and a line of text that says, simply, 'We will build that text."
+    "The moment of highest tension arrives when the last clause is read aloud: the creation of the Community Oversight Board, its funding mechanism, the binding covenants, and the moratorium's pause-and-review triggers. The lawyers trade glances. Jonah"
+    "Hale nods slowly, counting what he now gives up and what he gains. Mayor Serena's pen hovers above the signature line like a metronome."
+    hide jonah_hale
+    show mayor_serena_okoye at right:
+        zoom 0.7
+
+    mayor_serena_okoye "If this is the language, we vote to adopt the moratorium now, with the amendments. The city, the consortium, and the community will sign. The oversight board will be constituted with the names submitted within thirty days, including Kira and Mateo as community representatives."
+    "You hear your own breath. Your fingers find the seed vial at your throat, a cold and steady counterweight to the room's fever."
+    "Elias Rook reaches for your hand under the table when Serena looks up. It's not dramatic—no movie-bright kiss in the corridor—but it is deliberate and communicative in the way of late-night labor: a squeeze that says, We did the math and we showed up for people."
+
+    elias_rook "We can write the audit triggers so that they pause construction automatically if benchmarks fail. It won't be perfect, but it will be hard to litigate around."
+    hide elias_rook
+    show jonah_hale at center:
+        zoom 0.7
+
+    jonah_hale "With escrowed funds and independent audits, the risk is managed."
+    "You think of the rooftop network, of the greenhouse glow, of the children who learned to plant basil in squashed yogurt cups. You think of Mateo's hands, the way they held seedlings as if translating tide"
+    "memory into action. You think of Kira's megaphone voice, and how it had the power of a bell."
+    # play music "music_placeholder"  # [Music: Strings swell into a clear, triumphant chord]
+
+    mayor_serena_okoye "Then we have terms. We will sign."
+    "Pens scratch. The signing is a ritual of small, authoritative sounds. Paper slides; rubber stamps thud. Outside, you can hear, through a glass window and a layer of rain, the murmur swell into applause—first cautious, then louder as people understand the shape of what has been fought for."
+    "You place your signature on the line. Your hand is steady. The pen feels like a tool, like a trowel, like a thing that moves dirt and law. When you set the pen down, the room exhales."
+    "Jonah Hale folds his documents with a crispness that says, I have done business. He looks at you for the first time without the veneer of salesman charm—something like recognition passes between you, an admission that the city you claim and the city he builds will now have to coexist."
+
+    jonah_hale "We will build. But we will also be watched."
+    "You nod. That was always the point."
+    # play sound "sfx_placeholder"  # [Sound: A distant cheer swells; footsteps on the sidewalk; Kira's laugh bubbles up sharp and bright]
+    "Kira bursts into the room, cheeks flushed from rain and adrenaline. She takes in the signatures, the pen marks, the boxed language, and then collapses into a laugh that is half-cry."
+    hide mateo_alvarez
+    show kira_tseng at left:
+        zoom 0.7
+
+    kira_tseng "You did it. You actually did it."
+    "Mateo ambles in, hat crooked, eyes bright. He sets his calloused hand on the paper as if blessing it."
+    hide mayor_serena_okoye
+    show mateo_alvarez at right:
+        zoom 0.7
+
+    mateo_alvarez "They're not going to be able to ignore us now."
+    "You let yourself feel the full tide of relief and righteous fury transformed into something actionable—legislation that looks like your gardens, like the places that have kept people fed and sane through worsening skies."
+
+    menu:
+        "Pull Elias aside and make a plan for community-facing explanations":
+            "You sketch a quick list on the back of a printout: town-hall schedule, translation volunteers, distribution of flyers. Elias Rook nods, already aligning model visuals for public talks."
+        "Walk straight to Kira and Mateo, hold their hands in public, and celebrate plainly":
+            "You cross to them; your hands find theirs and for a few seconds all the talking stops. The cameras catch the moment—their rawness is its own kind of policy."
+
+    # --- merge ---
+    "You take a path—either the work of translation to the neighborhood or the work of celebration—and both feel necessary."
+    "Night thins toward morning. You sit at a table strewn with red-lined copies, the fluorescent light finally softening as the first gray of dawn pushes through. Elias Rook and you edit the final language by lamp"
+    "glow until your eyes blur. The romance that grows between you in these hours is not fireworks; it is the intimacy of cooperation—shoulder to shoulder, sleeves rolled, the steady exchange of critique and care. You trade"
+    "a joke about how terrible the font choices are; he replies with a mock-serious footnote on typographic clarity. You laugh, and the laugh is the most human sound in a room filled with legalese."
+    hide jonah_hale
+    show elias_rook at center:
+        zoom 0.7
+
+    elias_rook "We make a pretty boring couple."
+    hide kira_tseng
+    show ayla_moreno at left:
+        zoom 0.7
+
+    ayla_moreno "We make a very effective couple."
+    "He squeezes your hand, and the pressure is the kind of warmth that begins in the palms and spreads to the rest of you. It is pragmatic and real—an intimacy built on shared toil and mutual defense."
+    # play music "music_placeholder"  # [Music: Gentle piano motif under a rising orchestral wash — hopeful and insistent]
+    "Weeks later, the oversight board is constituted. Kira sits in the first seat with a notebook full of lists; Mateo brings a wooden box of harbour seeds to the first meeting and sets it on the"
+    "table like an offering. Jonah Hale's company funds the escrow account as agreed; legal covenants are recorded in public registers. The seawall proceeds, but on a narrowed footprint that preserves corridors of green that thread through"
+    "the waterfront, anchored by the community plots and the greenhouse network that you shepherded."
+    "You attend every session in your patched jacket. You are a visible sign that community voice will not be relegated to footnotes. Elias Rook stands beside you as technical counsel—his maps now annotated with community notes"
+    "in your handwriting. Together you translate models into commitments and arrows on paper into human-scale consequences."
+    "There are nights of exhaustion, of bureaucratic hair-splitting, of opponents chipping at edges. The work is messy and constant, an unglamorous heroism. But the moratorium language, the funding of oversight, and the legally binding covenants create"
+    "a new baseline. The community has legal teeth; the city has been re-shaped by presence as much as by plans."
+    hide mateo_alvarez
+    hide elias_rook
+    hide ayla_moreno
+
+    scene bg ch14_3be532_2 at full_bg
+    # play music "music_placeholder"  # [Music: Swells into a sustained, warm chord — triumphant but tempered]
+    "On the night the oversight board holds its first public review, you stand on the boardwalk and watch washed lights ripple across the water. People from across the neighborhood come—families, fishermen, the gardeners who now keep"
+    "a register of what they plant each season. The plaza is full of warmth against the violet offshore storm. You think of how tight the line once was—how easily everything could have been displaced—and you feel"
+    "a fierce and steady gratitude."
+    "Elias Rook stays close; no grand declarations, only the quiet habit of being there. You sign documents and later fold them into your notebook, tuck pressed leaves between pages, and trace the legal language with a finger the way you trace a sapling's stem."
+
+    "Mayor Serena stops by the greenhouse a month later; she smells of rain and paper. She tells you, privately, the kind of thing politicians only say when they are tired and profoundly relieved" "You kept us honest."
+    "You look at her, and know the truth of that sentence more than you can say. The city is not fixed. It is a continuum of argument and care and enforcement. But now, at least, more of your neighbors are written into the city's spine."
+    "The romance between you and Elias Rook is not a storybook finale. It is a set of agreements—on sleep schedules, on who answers the late-night calls, on who will take the hotline when the site managers"
+    "try to sweep a garden. It deepens in the brittle light of documents and shared vigil. It grows steady, like the roots you tend: not flashy, but resilient."
+    # play sound "sfx_placeholder"  # [Sound: A distant gull; then nothing but the steady hush of the harbor at night]
+    "You stand on a rooftop months later, the seed vial at your throat warmed by a sun that is always a little too bright now. The green roofs ripple under your boot, the network humming with"
+    "seedlings and small, stubborn vegetables. Below, the seawall's reduced silhouette keeps the nearest blocks drier. You can see Jonah Hale's project in the distance—its edges softened now with corridors of green and covenants that, for the"
+    "first time, make the word 'security' include people, not just property lines."
+    "Elias Rook hands you a thermos; you take it, and your fingers brush. He smiles—an expression that has learned the small grammar of joint work. You tilt the thermos, and the warm drink tastes like a small victory: complex, slightly bitter, necessary."
+    "Kira clambers up beside you, raincoat spotted, eyes bright as ever."
+    show kira_tseng at left:
+        zoom 0.7
+
+    kira_tseng "We made them put teeth in it. And your handwriting on clause 12 is now a legal precedent."
+    "You laugh. It is the kind of laugh that comes from too much coffee and too many stakes and a relief so sharp it stings."
+    "Mateo appears with a bag of the harbor's little catches; he offers you a fish he swears tastes better when shared. You accept, because celebrations in your city are often practical things: food, shelter, signed papers."
+    "You close your notebook and feel the imprint of decisions, the small fingerprints of everyone who argued and kept vigil. The city remains contested; there will be more fights, more edits, and more nights under fluorescent"
+    "light. But the finality of this chapter is not an end to struggle. It is a closure of one kind: proof that presence, law, and relentless insistence can convert displacement risk into accountability."
+    # play music "music_placeholder"  # [Music: Full orchestral warmth — victory tempered with realism]
+    hide kira_tseng
+
+    scene bg ch14_3be532_3 at full_bg
+    "You lift the seed vial, fingers warm around glass. You think of the children learning to plant, of Mateo's hands, of Kira's megaphone, of Elias Rook's steady calculations, of Mayor Serena's tired resolve. You tuck the vial back beneath your collar and let the city wake around you."
+    # play music "music_placeholder"  # [Music: Soft diminuendo to a single sustained note]
+    # play sound "sfx_placeholder"  # [Sound: The city breathes—distant traffic, waves kissing concrete, a dog barking once]
+    "You have built something messy and legal and guarded. You have loved through edits and audits and late-night clause fights. The moratorium is on the books. The oversight board is funded. The seawall will go up with limits. The community is included by ink and presence."
+    "You take a breath—salt, soil, rain—and it tastes like possibility."
+
+    scene bg ch14_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch14_3be532_5 at full_bg
+    "THE END"
+    # [GAME END]
+    return

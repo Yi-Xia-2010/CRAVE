@@ -1,0 +1,141 @@
+### SCRIPT
+# Route: Route B
+# Context: 6b08b4
+
+[Scene: Verdant Terrace | Night — Storm Surge]
+[Background:"ch8_6b08b4_1"]
+[Music: Tense percussion with rising strings — frantic tempo]
+[Sound: A sudden, deep roar of water; the slap of waves against makeshift levees; radio static under voices]
+
+You taste metal and salt on your tongue before you can place why—an old, animal reflex. The terrace feels smaller, then impossibly exposed, as if the city itself has folded inward and squeezed the air out of the night. Lights from the Beacon are dim behind a veil of rain; the neon of the distant urban district is smeared into liquid streaks.
+
+The first breach is not cinematic. It's a wet, ugly sound: the give of sandbags, the slurp of pooled water finding a seam in our defenses. Someone throws a shovel and it sticks in the tide like a plea.
+
+You run before you've decided to. Your boots slap across reclaimed wood; mud sprays your calves. The decentral pumps you helped map and calibrate hiccup — a sputter, then a cough — and a volunteer in a yellow hood screams, and the radio channels you rely on bloom into chaos: overlapping reports, clipped callsigns, an automated alert that bleats and then dies.
+
+Mina [hands out a coil of rope, voice ragged]: "Aiko! Here! The western berm—it's going!"
+
+You grab the rope. It is wet and alive, the fibers full of salt and storm. Your fingers know the knots. You feel every volunteer around you as a pair of hands and a name: Mina, Sora, Elias Chen, someone with paint on their sleeves from earlier that afternoon. You feel the ledger of the Beacon open into a page of immediate, brutal inventory: people, pumps, food caches, evacuation lanes.
+
+[Sound: Radio chatter — overlapping voices, one voice cutting through]
+Rafi [over radio, murmured, urgent]: "—hold up. I have something. Static, hang—"
+[Sound: A beat of heavy rain]
+
+You pivot, heart hammering. Rafi's voice is a thread; you pull on it because you know how he follows threads. He ducks under a tarpaulin, breath fogging in the lamplight, screen held up. A smear of leaked text scrolls across it in green letters. You don't need the words to feel them: contingency. Curtail. Infrastructure access. Public safety.
+
+Rafi: "This came through an unsecured channel—Dr. Rowan Hale's name is on the header. 'Contingency: restrict access to local pumps and routing nodes if public safety dictates.' They planned for closure. They planned to lock us out." (his jaw tight, voice small)
+
+The revelation hits the air like a cold weight. For a second the storm goes away and you can just hear the thud of your own pulse. Betrayal is a clean, corrosive noise.
+
+Sora [soft, hoarse]: "They always keep a map with an X where people live." (she steps forward, eyes unreadable in the rain)
+
+Elias Chen's laugh breaks like a snapped rope—no humor in it. He moves forward, command changing his tone: immediate, incandescent.
+
+Elias Chen: "Then we don't let them. We push back. Everyone to Parcel Seven—hold the breach. If we do not stop it here, the Terrace goes, and with it the kitchens, the seed bank, the pumps. We hold." (he slams his palm against a soggy crate as if to punctuate the plan)
+
+You can see why Elias Chen's plan is magnetic: it is simple, moral in its rawness, and it feeds on momentum. People begin to gather, voices sharpening into that single thing he is good at: confidence that spreads.
+
+But your brain is already counting. You taste calculus in the rain. The staged fallback you sketched in your notebook—routes, staggered teams, reserve power cores—rises in your head like a formula that won't stop. If you commit everyone to the western berm, the eastern evacuation lanes will be orphaned; the seed caches in the lower terraces will drown. If you stagger manpower—fortify the most vulnerable egress, keep medical and food lines open—we save more lives but concede territory. There is no neutral middle.
+
+Aiko Mori [yelling]: "Elias Chen, wait! If we concentrate at Parcel Seven, the eastern corridor—Evac Line Gamma—loses three pumps. We can keep seventy people moving out with a staggered redeploy. We can—"
+
+Elias Chen cuts you off with the old, impatient smile that's usually comforting and tonight feels like a gauntlet.
+
+Elias Chen: "Seventy means nothing if the Terrace dies. If the Terrace falls, we lose distribution and morale. Everyone dies slower. We hold the line now. We need bodies here." (he steps closer, rain soaking his bandana into his hair)
+
+Dialogue turns sharp. You're both familiar with each other's voices in crisis; they are tools you've used together and against one another.
+
+Aiko Mori [breathing fast]: "This is not an argument about courage. It's math and flows. If the pumps at Alpha and Beta fail while everyone's stuck at Seven, there will be bottlenecks. People will drown in alleyways because no one was rerouted."
+
+Elias Chen: "And if we don't stop the water at Seven—if we lose the Terrace entirely—there will be no pumps left to speak of. No community. No kitchens. No Beacon." (his hands curl; he is not being rhetorical)
+
+Mina steps between you, gloved hands lifting like a mediator's placard.
+
+Mina: "Both of you—stop. We need a plan we can move on now, not a calculus duel in the rain." (her voice is loud but not frantic; she breathes, a steadier center)
+
+Sora finds you both with her eyes, as if scanning a map only she can read. She does not pick a side. She considers the history in the stones under your feet.
+
+Sora: "When the sea took the old pier, we mended it with whatever we could. We learned where to let water pass and where to stop it. The sea always chooses. We've only ever chosen how to be ready." (she nods at you both) "Do not let fury choose for you."
+
+The pumps cough again—a mechanical wheeze—and a volunteer by the northwest planter box is screaming something about current changes in the channel. The rain bites along your jawline; your wet hair clings to your scalp. You register, with that detached clarity that crisis brings, the immediate constraints: limited generator time, a thinning supply of sandbags, volunteers already exhausted from previous shifts.
+
+[INTERACTION]
+> Choice A: "Run to the western berm and grab the last dry sandbags"
+> Choice B: "Pull the radio and coordinate evac lanes for Gamma and Delta"
+[Outcome A: "You tear away from the thought of analysis and move with the crowd—your hands close on cold, gritty sand and you pass it along, muscles burning but present in the ancient human gesture of passing lifelines."]
+[Outcome B: "You stay put, knees pressed into wet wood, fingers fumbling with knobs. You route volunteers on channels and mark the lines with a trembling but steady voice, drawing a digital path through static."]
+
+The radio crackles angrily. Rafi is back on a live feed, voice faster now because he has more: a location stamp, a time, a list of nodes Dr. Rowan Hale's contingency names. He reads aloud with brusque efficiency.
+
+Rafi: "HelioNet nodes ninety-four through ninety-seven are designated as 'safety closures'—if triggered, local pump overrides occur. Helena—" (he swallows) "—they have an automated cut-in tied to storm metrics. They can flip control remotely. We can be locked out in two minutes if Head Office triggers it."
+
+Your mouth goes dry. The word "remote" is small and volcanic at once. It changes the terrain—this is no longer only water pushing at sandbags; it is an outside hand on the valves.
+
+Aiko Mori [soft, to Rafi]: "Can we bypass it? Can we route through mesh nodes you set up last month?"
+
+Rafi: "Maybe. Maybe not. The way they designed it, the fallback is hard-coded. If the override flips, only authorized credentials from HelioCorp can unlock it. There might be backdoors—" (he looks at you, dangerous with the hope of the detective) "—but they'd expose us. And we are short on time."
+
+Elias Chen cuts in, voice rising.
+
+Elias Chen: "So what—wait for legal backdoors while the water eats the Terrace?" (he spits the words)
+
+You turn toward the breach. Water is now a living sheet, pouring through a gap like a wound. Volunteers are rushing to form a human chain; someone is sobbing, and you feel it in the bones. The arousal in the air spikes until everything feels like a held breath about to break.
+
+Your mind runs one last calculation, fast and horrible: if you split the volunteers to defense and evacuation you need synchronized timing, two-way relays, a clear chain of command—things you know are fragile in panic. The simultaneous maneuver would demand that Mina keep kitchens running, that Sora supervise the elders, that Rafi maintain the net. It could hold. It could also be the perfect way to make all failures coincide.
+
+Elias Chen grabs your shoulder. His fingers are shaking. There is no room for tenderness; this is a demand.
+
+Elias Chen: "Aiko. Now. We fight at Seven. With me. All of us."
+
+You meet his eyes. They are amber with something you have seen before—rage braided with an unshakable, almost holy belief that action is virtue.
+
+You feel the air tighten, as if the city itself is holding its breath. The Beacon's lamp throws a pool of gold through the rain; beyond it, dark buildings loom, indifferent and glassy. The smell of wet soil and smoldering diesel hangs like a promise.
+
+For a beat, your analytical mind and your heart are in different rooms. You can hear both rooms at once: the room of numbers muttering about distribution curves; the room of people chanting and holding ropes and the instinct to stand shoulder-to-shoulder. Each has its own logic. Each insists on being moral.
+
+The surge pushes again, harder. A volunteer loses footing and goes down with a sound you will not forget. Someone screams. Radio channels splinter into fragments of commands and pleas. Floodwater finds a tarp and tears it like paper.
+
+You have to choose.
+
+Your chest is taut; your vision narrows to the geometry of the Terrace, the curve of the breach, the map burned into the inside of your skull. Options orient themselves like stars you cannot reach.
+
+[INTERACTION]
+> Choice A: "Shout for everyone to move to Parcel Seven—full defense"
+> Choice B: "Order a staggered retreat—open Evac Gamma, reroute food lines, secure elders first"
+> Choice C: "Try to split teams—send anchors to Seven while others shepherd evac lanes"
+[Outcome A: "You raise your voice until it hurts and let your belief in standing and fighting carry over the storm. People respond because they trust you; bodies move like one, a brief and terrible beautiful thing."]
+[Outcome B: "You speak soft and precise, your voice a machine of care in the chaos. People split reluctantly but with the clarity of mission, and you watch the first cluster move toward the lit path, your hands shaking as you mark the route."]
+[Outcome C: "You make a plan that threads both impulses together, barking roles and deadlines. For a breath it feels like balance, until the wind takes the plan and scatters the paper it was written on."]
+
+Your muscles remember how to move without your mind's consent: tie a rope, pass a bucket, hold a flap of tarp against a tearing wind. Elias Chen is already at the front, voice hoarse, calling orders that make bodies obey. Mina organizes food packs with mechanical calm. Sora guides an elderly neighbor down a slick ramp, offering her shawl against the rain.
+
+Your internal ledger runs one last time: people saved per minute, pumps left operational, probability curves tightening into a razor-edge. Then Rafi's face appears out of the static on a small patched tablet, eyes wide.
+
+Rafi: "They're starting the override sequence. HelioCorp's remote is live. If they engage full closure, we lose three mains in under ninety seconds."
+
+Time condenses. The world is nothing but immediate choices, each with a weight that tilts toward loss.
+
+You turn to Elias Chen. The two of you have always been a strange vector: numbers and fists, maps and songs. Tonight the vector splits.
+
+Elias Chen [not a question]: "Decide."
+
+You open your mouth. The rain presses. The Terrace trembles like something alive. The choice is sharp enough to cut.
+
+[Music: String section explodes into dissonance — the highest arousal point]
+[Sound: A long, raw chord of wind and wave]
+
+[DECISION POINT]
+1) Join Elias in a direct all-hands defense. -> TARGET chapter_id: 9
+2) Execute a staged retreat and prioritize evacuations. -> TARGET chapter_id: 9
+3) Split teams for simultaneous defense/evacuation. -> TARGET chapter_id: 9
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Join Elias in a direct all-hands defense." -> ID 9 (Route B)
+    > Jump Target File: script_ch9_Route_B_ctx_3be532.txt
+Option 2: "Execute a staged retreat and prioritize evacuations." -> ID 9 (Route B)
+    > Jump Target File: script_ch9_Route_B_ctx_3be532.txt
+Option 3: "Split teams for simultaneous defense/evacuation." -> ID 9 (Route B)
+    > Jump Target File: script_ch9_Route_B_ctx_3be532.txt

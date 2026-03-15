@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-03-11 00:15:24",
+  "total_chapters": 15,
+  "total_valid_routes": 7,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Additional Route / Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14,
+        15
+      ],
+      "length": 7
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Route / Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C / Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B / Ending: Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Route / Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        13,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B / Ending: Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        13,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending: Community Win (Fragile)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Landing at Low Tide",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Tide & Thread",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Town Hall: Brine and Arguments",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Hands in the Mud",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Compromises in Salt",
+      "branch": "Route A / Split",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Lanterns and an Anchor",
+      "branch": "Route A / Ending: Community Win (Fragile)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "A Quiet Meeting",
+      "branch": "Route B",
+      "children_ids": [
+        13,
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Negotiated Lines",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "When the Wall Bites Back",
+      "branch": "Route B / Ending: Bittersweet",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "A Pilot and a Promise",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Data and Divides",
+      "branch": "Route C / Split",
+      "children_ids": [
+        12,
+        15,
+        14
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "The Breach",
+      "branch": "Route C / Ending: Sad",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Private Bargains",
+      "branch": "Additional Route: From Chapter 7 Option C",
+      "children_ids": [
+        9,
+        15
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "Crosscurrents",
+      "branch": "Additional Route",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "Maps Beyond Harborstone",
+      "branch": "Additional Route / Ending: True",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 21,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 1,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 1,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

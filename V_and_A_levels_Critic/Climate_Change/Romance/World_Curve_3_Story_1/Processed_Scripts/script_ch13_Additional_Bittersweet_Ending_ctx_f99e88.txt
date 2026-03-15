@@ -1,0 +1,215 @@
+### SCRIPT
+# Route: Additional (Bittersweet Ending)
+# Context: f99e88
+
+[Scene: Glass Council Chambers | Late Evening]
+[Background:"ch13_f99e88_1"]
+[Music: VeryHigh—urgent strings and low percussion, heartbeat tempo]
+[Sound: Rain slamming against the glass; a distant siren that dies away]
+
+You stand at the center of the room as if the chamber itself is a kind of tide you must hold back. From the Atrium you came—through negotiations that smelled of coffee, solder, and worn paper—and now the language of compromise is laid out across the table in thin, legal type. The partnership route you chose has led here: a hybrid plan drafted between municipal engineers, private capital, and your collective, with a clause list that reads like a map of what will be gained and what will be lost.
+
+Your palms are warm. The projector throws the proposal on the far wall: a segmented seawall where engineered bays meet living shorelines; legal covenants that bind donors and developers to community land trusts; a grant line dedicated to marsh stewardship and maintenance for twenty years. Bullet points glitter like buoys.
+
+Councilwoman Reyes: "This draft locks funding for maintenance, and it codifies the covenant language you insisted on. Enforcement mechanisms? We've worked them in—independent oversight, community seats on the oversight board."
+
+You want to believe every carefully chosen phrase. You also feel the pressure behind each one—funding deadlines, political calendars, the city's need for visible protection before another wet season.
+
+Ari Nakamura [polite, precise]: "We've modeled failure modes. The engineered segments reduce peak inundation beyond the pilot neighborhoods. With the adaptive gates synchronized to forecasted surge, we buy time—time the city can use to fund broader retrofits."
+
+Luca Chen: "Buying time is good. But what are the relocation triggers? Which blocks get eminent-domain treatment if water still finds a way? Who decides? Not all communities signed up to be 'pilot neighborhoods.'"
+
+Nora Díaz, hands still smelling faintly of epoxy, slides a printout of Clause 7A across the table. Samir Qureshi's fingers drum once on the wood beside it, deliberate, slow—the rhythm of someone used to waiting for tides.
+
+Nora Díaz: "Clause 7A includes eviction protections tied to the covenants. The trust holds land for at least twenty years. Displacement can't be 'managed away' by developers."
+
+Samir Qureshi [soft, low]: "Words are anchors only if someone remembers to hold them. Will there be money this side of the next election to keep them tied?"
+
+You look between them, feeling the room narrow to a single, bright point: you are the one who convinced the developers' council to accept the covenant language; you are the one who agreed to let a visible engineered segment be built as part of a pilot condition. You can see the trade-off in every line: protection for some, relocation for others; enforceable oversight in place of immediate autonomy.
+
+You inhale, tasting ozone and paper. The chamber hums with expectation.
+
+Councilwoman Reyes: "Maya, publicly endorsing this brings the political capital the project needs. The vote tomorrow will unlock the contracts. The oversight board composition—two seats for the neighborhood, three independent experts—was agreed. We need your word tonight."
+
+Your throat is tight with the weight of obligation. This is the moment you rehearsed in the Hub and on the promenade. This is the moment you feared and wanted in equal measure.
+
+Ari's eyes find yours—amber, direct, and for a fraction of a breath something almost softer appears under their technical clarity.
+
+Ari Nakamura [quietly]: "Your conditions ensured community authority. Publicly, we'll present a partnership—my firm and your collective, jointly stewarding the pilot zone."
+
+Luca looks away first, then back, voice low and rough with something you know: care mixed with a sting.
+
+Luca Chen: "Joint stewardship is better than being cut out. But don't let 'joint' be a paper ghost. We need seats with equal voting power. We need guarantees on who pays for buyouts if households need to move."
+
+Your reply fractures into many little actions: you think about Samir's porch where he tied new rope to keep his net line from snapping; you think of Nora's nights patching sensors; you think of the ritual breakfasts you and the others hold after a long day of repair. You can protect the roofs. You can lose some of the rituals.
+
+You speak, and your voice steadies on the brink of the decision you have already made in practical terms—this hybrid is the compromise you chose when you accepted negotiation as strategy.
+
+Maya Ortega: "We will sign the covenant language. We get two board seats, budgeted stewardship for twenty years, and binding eviction protections with an external audit clause. We'll accept an engineered segment under strict adaptive parameters, not a permanent lock. We keep community management of the living shoreline portions."
+
+A murmur moves through the chamber—relief like seawater settling into a bay. Ari's jaw gives the tiniest, almost hidden smile. Councilwoman Reyes nods once, decisively.
+
+Councilwoman Reyes: "Then we proceed to finalize wording and put it on the agenda. Maya—this will raise your profile. The public will see you as the bridge."
+
+You know what that line will cost you: visibility that brings power also exposes you to scrutiny and to compromises in the private parts of your life—the slow ritual of late-night repairs, the small freedoms of choosing who helps when, the unstructured care that defined the neighborhood.
+
+[INTERACTION]
+> Choice A: "Meet with the oversight board immediately, make demands public"
+> Choice B: "Keep negotiations behind closed doors one more night"
+[Outcome A: "You push for an early meeting, forcing transparency but inviting public pressure. People will praise your courage; some will attack your motives."]
+[Outcome B: "You buy time to iron out language quietly. The public will accuse you of secrecy; the board will be calmer."]
+[MERGE: The chapter continues to the next scene regardless of choice.]
+
+[Scene: Seawall Promenade | Dawn — Construction Day One]
+[Background:"ch13_f99e88_2"]
+[Music: Staccato percussion mingles with rising strings; VeryHigh intensity]
+[Sound: Metal groaning, the thud of pilings, gulls calling over diesel breath]
+
+You walk the promenade as the first panels are craned into place. The air is metallic and sharp—concrete dust tangles with salt fog. Workers shout in clipped tones; someone has painted a small mural on a shipping crate: hands braided with cordgrass. The engineered segment is already becoming a new shoreline anatomy, its clean lines sitting next to the messy, laced reed beds of the living shore.
+
+Nora Díaz catches up with you, wiping grease on the back of her hand. Her grin is mischievous and exhausted.
+
+Nora Díaz: "You look like someone who slept three hours and made a deal. That's, like, your brand now."
+
+You try to laugh; it sounds thin against the clang of steel. Luca is with Samir at the edge, tossing a coil of rope between them more as a ritual than a necessity. Samir's face is weathered but resolute—he watches the work with the slow patience of someone observing tides.
+
+Samir Qureshi: "Walls will hold for a while. The marsh is a patient beast. It will take its place by the wall if we give it water and room."
+
+Luca meets your eye. He steps closer, voice low enough that the machinery becomes a distant storm.
+
+Luca Chen: "You did the right thing—this buys safety for many. But I keep thinking of that aunt who refused to move. Some people will still lose roots."
+
+You reach to tuck an errant braid behind your ear; your fingers find the groove on your worn field notebook. There is a price stamped into each contractual paragraph: who is eligible for relocation assistance, which blocks become syndrome zones, where the money flows. You have watched the budget lines like a surgeon watches an artery.
+
+Ari appears at the crest of the promenade, clean jacket and a hard helmet in hand. They approach with a steady walk, not breaking stride. For a moment the roar of construction quiets within you—two kinds of safety in the same line-of-sight.
+
+Ari Nakamura: "Maya. The first panel's in. The gate calibration team will be here this afternoon. We designed the interface so community inputs can adjust operational thresholds."
+
+Maya Ortega: "You kept the interface open. That's crucial. You had a lot of pressure to make it closed—automated decisions, faster approvals."
+
+Ari Nakamura [soft exhale]: "We closed what we had to for permits, but the override is community-signed. I accepted that."
+
+Luca Chen [dry]: "You accepted it because she pushed. Don't act like you don't know the heat this will bring."
+
+Ari Nakamura [patient]: "I'm aware. I didn't volunteer for political fire. But the pilot's success matters. We both have reasons to make it work."
+
+The three of you stand on the promenade like markers on a map—different coordinates of the same care. There's tension between you—not the hot anger of a shouting match but a pressure that bends the air. You have new visibility; they both feel close to you in other ways: Luca with his hands-on loyalty, Ari with their practical closeness and the professional life you've rekindled.
+
+Maya Ortega [quiet]: "We won't make it easy for ourselves. We'll be accountable. We will go to the neighbors. We'll take the stories with us when we ask for signatures."
+
+Nora Díaz: "And you'll let me set up the maintenance detail? I'm not letting the marsh die because someone lists 'maintenance' as 'optional.'"
+
+You laugh, properly this time. It is small and brittle and true.
+
+[INTERACTION]
+> Choice A: "Walk the line with Luca to hear stories from the elders"
+> Choice B: "Walk with Ari to examine the gate calibration and technical fail-safes"
+[Outcome A: "Walking the line with Luca, you gather stories that frame the wall not as victory nor defeat but as a negotiated memory."]
+[Outcome B: "Walking with Ari, you see the system bent toward a compromise—coded safeguards that bear your signature. It comforts you and leaves an odd ache."]
+[MERGE: The chapter continues to the stewardship ceremony afterward.]
+
+[Scene: Salt Marsh Reserve | Late Afternoon — Stewardship Ceremony]
+[Background:"ch13_f99e88_3"]
+[Music: Swelling strings with a steady drum undercurrent—VeryHigh shifting toward cathartic resolve]
+[Sound: Soft wind through reeds, the distant hum of a finishing crane, quiet voices]
+
+The ceremony is both official and intimate. Council signage flutters beside homemade flags. Children trail their boots in the mud; Samir leads a quiet invocation. The grant check—substantial, bureaucratic, and oddly ceremonial—is passed into the neighborhood's trust with signatures that bloom beneath the sun like a frost thawing.
+
+Samir Qureshi: "We plant because memory is a tool for the future. We plant because the marsh remembers who belongs here."
+
+Your name is spoken: an introduction that folds you into the public record. Cameras flash—small pinpricks behind the respectful distance of the crowd. You feel the glare of attention like a tide warming your shoulders.
+
+Councilwoman Reyes [to the gathered]: "This stewardship is a promise. The covenants protect homes. The oversight board will meet quarterly. The city is committed to maintenance funding for two decades."
+
+A murmur; someone yells a cheerful, shaky thing about art fairs returning to the docks. You smile because someone believes it. You also feel the tug of loss—families who must move, porches that will be boarded, rituals that will not fit into grant timetables.
+
+Ari finds you at the water's edge. Their expression is complex—neither wholly soft nor wholly shut down—and the way they carry a folded business card seems to say a thousand things about what this partnership cost them.
+
+Ari Nakamura: "We did the clause for relocation assistance clearer than anyone asked. I argued for extra funding lines beyond municipal strain. We negotiated the buyout ceilings higher so families won't be left with nowhere to go."
+
+Maya Ortega: "You argued hard for that."
+
+Ari Nakamura [small, uncharacteristic smile]: "I have reasons. This will be my firm's flagship pilot; I wanted it to be better than a billboard."
+
+Luca approaches, hands muddy, and the three of you stand a little triangle around a newly planted mangrove. There is a stillness that feels, impossibly, like a shared breath.
+
+Luca Chen [soft]: "Maya—are you okay? This is a win. But you look like you carried someone else's tide."
+
+You feel it—visibility bringing a strange loneliness, a pressure to be everything to everyone. You have the city's mic on you now; you have become the person who must translate grief into policy. That role brings safety but reduces some of the messy, late-night intimacy you used to have with the neighborhood's rituals.
+
+You think, briefly, of nights on the docks when plans were sketchier and laughter was the main currency. You think of the small ritual you no longer have time for, the morning breakfast where someone always burned the eggs and everyone ate them anyway.
+
+Maya Ortega: "I did what I thought would protect more people. Some will keep their homes; some won't. I couldn't—can't—save everything."
+
+Ari's hand finds yours for a moment—professional, not theatrical—then retreats. The touch is an acknowledgment more than a promise. It says: I was part of this; this is ours now in public terms. It leaves a hollow where private things used to sit.
+
+Ari Nakamura [quiet]: "This partnership will give us leverage to scale responsibly. But it will ask compromises—on how we work, and maybe on what we will be to each other."
+
+Luca looks away, the hurt in his posture small and honest.
+
+Luca Chen: "We boxed our future into meetings and ballots. You can still carve time for people, Maya. Just—don't let the city own the evenings."
+
+You answer with the one thing you can promise without illusions.
+
+Maya Ortega: "I'll hold the oversight board to its word. I'll be present where it matters. I won't let the covenant be a paper ghost."
+
+Samir places a callused hand on your shoulder. His grip is both blessing and admonition.
+
+Samir Qureshi: "You built a bridge that keeps many from drowning. Bridges are not always gentle. They are rarely where people sit to sing. But they hold. Sometimes that is enough."
+
+You look out over the marsh, reeds bending, the tide whispering across new pilings and old roots. The seawall segment gleams in the distance—engineered and exact—while the living shore breathes alongside it. There is a cost. There is a protection. There is also, impossibly, a new work to steward.
+
+The cameras fade for the most part. Volunteers hand out warm soup from a pot that smells of cumin and salt. Children run laughing between planted saplings like small flagbearers for hope.
+
+You find a private moment with Ari and Luca together: a short, awkward peace where the public weight is still too heavy for anything more intimate than a shared look. There is no neat resolution—only the slow turning of obligations into a life you must now balance.
+
+You close your field notebook and tuck it away. You accept that visibility has given you tools—funds, seats at tables, enforceable language—and taken others: private rituals, the unstructured softness of earlier nights. You feel both triumphant and ache-bound.
+
+[Background:"ch13_f99e88_4"]
+[Music: Resolving—strings soften into a warm, steady chord]
+
+You stand, the salt breeze on your face. You have a role the neighborhood entrusted you with, and you will use it badly sometimes and well other times. The hybrid agreement moves the city toward safety and keeps the neighborhood voice at the table. Some families will relocate; some will keep their porches. The cultural continuity you wanted to protect will fray in places—and you will have to stitch it back with rituals that grant memory to new spaces.
+
+You think of Samir's slow counsel and Nora's stubborn hands and Luca's fierce loyalty. You think of Ari's quiet competence and the signatories who made this possible. You name your losses and tally your gains. The ledger sits uncomfortably in your chest, balanced by a tired, stubborn hope.
+
+[Background:"ch13_f99e88_5"]
+[Music: One sustained hopeful note]
+
+You sign the stewardship amendment in the park committee ledger, and later, in a quieter room, the municipal contract. The ink dries like a new seawall seam. People cheer in small clusters; a woman you don't know squeezes your hand and thanks you for saving her child's school.
+
+You step away from the formalities and walk the marsh's edge alone a moment, letting the full measure of your choice settle in. The tide moves in and out with the ocean's indifferent rhythm. You accept that you chose the bridge over the island—less romantic, more survivable. It will not erase the pain of anyone required to relocate, nor will it stop you from grieving those simpler rituals that slip through your fingers.
+
+Ari appears once more in silhouette against the reeds. They do not speak right away. The air between you is full of the contracts you both signed and the compromises you both made.
+
+Ari Nakamura [softly]: "This is the beginning of scaling, not the end. There will be audits, protests, victories. There will be nights when the tide still scares us. But I—" (a pause) "—I want to keep working with you."
+
+Luca watches from a few paces away, arms folded, voice muffled but steady.
+
+Luca Chen: "You're not alone. But this place will need you in ways politics can't always help. Promise me you'll keep showing up for that."
+
+You answer both with the only honest pledge you can make right now: one of action, not sentiment.
+
+Maya Ortega: "I will keep the board honest. I will be at dawn when the sensors fail. I will help repair porches. I will speak in public—loudly—when the covenant is threatened. I will hold people I love with what time I have."
+
+There is no full reconciliation in that promise—only a practical, hopeful plan. The arousal of the day eases into a high, steady hum of responsibility rather than panic. The hybrid is in place. The seawall segment will rise. The marsh will be funded and tended. Some families will go; some will stay. You have saved many and compromised on many smaller things you loved.
+
+[Background:"ch13_f99e88_6"]
+[Music: Warm, hopeful chord with a lingering, bittersweet undertone]
+
+You close your eyes for a moment and breathe the salt and the smoke and the new concrete. The future is messy. It is protected enough to be possible. It has tenderness and price. That is the kind of ending you can accept: pragmatic safety plus the slow, ongoing work of repair.
+
+You turn to walk back toward the docks where volunteers are cleaning tools and where Nora is probably starting the first of many maintenance rosters. Behind you, the seawall gleams in the last light. The marsh breathes on.
+
+[Background:"ch13_f99e88_7"]
+[Music: Fade to a single sustained hopeful note]
+
+[Background:"ch13_f99e88_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

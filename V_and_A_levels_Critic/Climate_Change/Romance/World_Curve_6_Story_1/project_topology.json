@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-03-11 07:07:18",
+  "total_chapters": 15,
+  "total_valid_routes": 13,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14,
+        15
+      ],
+      "length": 7
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        13,
+        14,
+        15
+      ],
+      "length": 8
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15
+      ],
+      "length": 9
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "length": 12
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "length": 10
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15
+      ],
+      "length": 11
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15
+      ],
+      "length": 12
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15
+      ],
+      "length": 12
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "length": 15
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Epilogue (True/Bittersweet synthesis)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "length": 13
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt on My Tongue",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Meeting the Machine",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "The Hearing (Logic Hub)",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "The Referendum Drive",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "The Workshop",
+      "branch": "Route A",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The First Tide",
+      "branch": "Route A (Ending: Happy / Bittersweet variant hints)",
+      "children_ids": [
+        7
+      ]
+    },
+    "7": {
+      "id": 7,
+      "title": "The Quiet Negotiation",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Pressure Points (Logic Hub)",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9,
+        12,
+        13
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "The Public Vote",
+      "branch": "Route B (Ending: Sad / Bittersweet variant)",
+      "children_ids": [
+        10
+      ]
+    },
+    "10": {
+      "id": 10,
+      "title": "Kai’s Door",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Convergence (Logic Hub)",
+      "branch": "Route C / Split",
+      "children_ids": [
+        14,
+        12,
+        15
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Fast Tracks and Fissures",
+      "branch": "Route C (Ending: Bittersweet / Sad variant)",
+      "children_ids": [
+        13
+      ]
+    },
+    "13": {
+      "id": 13,
+      "title": "The Aftermath (Route B / C cross-reference)",
+      "branch": "Additional Endings (Bittersweet/Sad hybrid)",
+      "children_ids": [
+        14
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "The Municipal Middle Way",
+      "branch": "Route C (Ending: True)",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "Vigil and Tide",
+      "branch": "Additional Epilogue (True/Bittersweet synthesis)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 20,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

@@ -1,0 +1,177 @@
+label chapter8:
+
+    # [Scene: Kestrel Marine Development Office | Morning]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, insistent cello with metallic high notes]
+    # play sound "sfx_placeholder"  # [Sound: Distant traffic, muffled gulls, an automatic door whoosh]
+    "Narration:"
+    "You walk in like someone stepping into a different weather system. The air is cool and dry against your skin—an engineered climate to match the building's lines. Your boots make a muted thud on stone. There"
+    "is no salt in the hall, no driftwood smell, only a faint ozone tang and the low hum of servers behind a glass wall. It feels almost obscene, how clean everything is."
+
+    scene bg ch7_453e40_2 at full_bg
+    "Narration:"
+    "Your compass is a warm weight against your collarbone; the red thread on your wrist is damp with last night's rain. The Moleskine in your bag feels heavier than it has any right to. You tell yourself you're here to negotiate—nothing more—yet even that sentence tastes like risk."
+
+    scene bg ch7_453e40_3 at full_bg
+    show noah_kestrel at left:
+        zoom 0.7
+
+    noah_kestrel "Maya. Thank you for coming. I know this is—complicated."
+    "Narration:"
+    "Noah's voice is the same careful thing it's always been: measured, designed to set probabilities at ease. He is impeccably composed—hair slicked back, navy tailored, an air of things that fit together. When he smiles the expression is economy with a human edge."
+
+    noah_kestrel "We've modeled several scenarios. Fast-tracked sea-walls, adaptive levees, zoning changes paired to buyout incentives. If the council signs, we can begin shore reinforcement within six months. The models suggest a 70–85 Percentage reduction in expected structural loss over two decades."
+    "Narration:"
+    "He slides a holographic sheet across the table. Blueprints bloom like reef diagrams—lines and shaded probabilities that hum in your vision. The numbers are handsome; they settle arguments you haven't yet spoken. They make the problem look like a machine to be tuned."
+    show maya_serrano at right:
+        zoom 0.7
+
+    maya_serrano "The buyouts—how many properties are we talking? And who determines which blocks are preserved and which are ceded to the wall?"
+
+    noah_kestrel "Targeted buyouts. We prioritize based on elevation, exposure, and socioeconomic vulnerability metrics. It's not an arbitrary line—it's data. And we'd propose a maintenance trust to keep operations community-led as part of the contract."
+    "Narration:"
+    "The phrase 'community-led' lands against your teeth with the same familiar grain of salt. Noah's version of community-led is a structured thing. It has committees, charters, reporting schedules. It has paperwork that could help people or bind them inside a system that forgets."
+
+    maya_serrano "And if the town rejects buyouts? If people refuse to move from historic blocks?"
+
+    noah_kestrel "Then the timeline slows. The permits we can expedite hinge on land access. Without cooperation, we can't guarantee the model outcomes. The math is unkind when the variables are unstable."
+    "Narration:"
+    "He says 'math' like a comfort and a weapon. You feel the gravitational pull of it—an axis you could use to spin safety into being. It would mean fewer roofs lost, fewer emergency evacuations, fewer nights"
+    "like the one that quit your neighbor's porch light. It would also mean handing chunks of the town over to mechanisms that may privilege efficiency over memory."
+
+    maya_serrano "So it's compromise by degrees. Right now the tide isn't waiting for the paperwork."
+
+    noah_kestrel "Exactly. We can build a defensible shore sooner with a smaller, more surgical buyout program. Or—' [taps a corner of the hologram] '—we can co-design a slower, oversight-heavy plan that might preserve more of the town's footprint but could leave it exposed longer."
+    "Narration:"
+    "You listen to him and you remember the crooked porch light, a face washed out by rain. You imagine Finn's hands, the knots of rope, the way he can make an impossible fix seem reasonable with"
+    "a few tools and patience. You imagine Rosa wiping down a café table in a room that could, under either plan, be leveled or elevated beyond recognition."
+
+    noah_kestrel "Maya, you'll have a seat at the table. I want that. We need someone who can translate the community's needs into the contracts we write."
+    "Narration:"
+    "His words are an invitation and a lever. You feel your chest tighten—both at the closeness of the solution and at the cost embedded in it. You picture handing in the ledger of your town, lines"
+    "annotated in your neat handwriting, then watching corporate crews put up concrete like a new shore."
+
+    maya_serrano "If I take a seat, I need enforceable safeguards: oversight with community veto, affordable relocation packages, job guarantees for people displaced. Commitments that survive political turnover."
+
+    noah_kestrel "Reasonable. I can build clauses. The firm will balk at some of the costs, but it's not impossible. We can draft contingencies."
+    "Narration:"
+    "When you leave the office, the building's glass throws back a cleansed version of the sky. Outside, rain has started again—thin, steady. The city is the color of wet slate and the salt smell returns like"
+    "a tide. Your notebook is open in your hand; your handwriting looks smaller now, as though the letters are holding themselves together."
+    # play sound "sfx_placeholder"  # [Sound: Rain intensifies; distant muffled chanting]
+    # play music "music_placeholder"  # [Music: A darker cello note, unresolved]
+    # [Scene: Saltbridge Boardwalk | Afternoon]
+    hide noah_kestrel
+    hide maya_serrano
+
+    scene bg ch7_453e40_4 at full_bg
+    "Narration:"
+    "The boardwalk greets you with the smell of seaweed and coffee. Wet wood squeaks underfoot. Elias Novak's banner is out—bright fabric against the gray—flapping like an accusation. A cluster of people huddle under umbrellas; the rally's chants are a low pulse."
+    show elias_novak at left:
+        zoom 0.7
+
+    elias_novak "You met with him."
+    "Narration:"
+    "There is no decorum in Elias Novak's way of saying it. The sentence is a knock, a thrown stone."
+    show maya_serrano at right:
+        zoom 0.7
+
+    maya_serrano "Yes. He proposed a fast track. He wants you—wants us—at the table."
+
+    elias_novak "At the table where our history is an input in an optimization algorithm. Maya, they give you numbers and call it care. You know how that sounds to people who've been pushed to the margins."
+
+    maya_serrano "Noah's offering protection that could keep people in their homes. Isn't that worth something? Immediate action saves lives."
+
+    elias_novak "Immediate action that erases who we are isn't protection—it's a cure worse than the disease. You know the difference between being rescued and being renamed."
+    "Narration:"
+    "His words hit like driftwood. Elias Novak always does this: he turns policy into a personal pulse. The protest around him swells; someone starts a chant again—voices folding in rain. You're aware that some of the crowd look to you, searching for a signal."
+
+    menu:
+        "Step forward and explain the technical benefits calmly":
+            "You push through the umbrellas, speak measuredly about timelines and safety numbers; people listen, then fold into thoughtful murmurs. Elias Novak watches you with a small, complicated expression."
+        "Keep your distance and listen to the anger":
+            "You step back, let the chant fill the space. The sound is raw and real; Elias Novak's jaw loosens as if releasing a held breath, but he also looks farther away afterward."
+
+    # --- merge ---
+    "Continue scene"
+
+    elias_novak "Every time we let 'fast' be the only metric, it's the poorest who pay the cost. Are you prepared to tell an elderly neighbor they have to leave the house her family built because the model says so?"
+
+    maya_serrano "I'm not prepared to lose more people either. I have to weigh both. The models aren't cruelty—they're a tool. But tools are used by hands, and they can be guided."
+
+    elias_novak "Guided by whom? Contracts and lawyers are not the same as neighbors carrying each other through the night."
+    "Narration:"
+    "You want to say that you understand—that you are trying to find the line between urgency and justice. But the words feel fragile under the rain."
+    show rosa_alvarez at center:
+        zoom 0.7
+
+    rosa_alvarez "Maya, you're soaked. Sit. Talk to me."
+    "Narration:"
+    "Rosa's café is a lighthouse here. Her hands are always busy, offering, assessing. She gives you a cup then looks at you like someone taking stock."
+
+    rosa_alvarez "People are scared. They want you to be their backbone, but they also want you to be their face. How are you going to keep both?"
+    "Narration:"
+    "Before you can answer, Finn Serrano falls into step beside you—water beading on his patched jacket. He is quiet in a way that makes you uneasy."
+    hide elias_novak
+    show finn_serrano at left:
+        zoom 0.7
+
+    finn_serrano "Can you live with losing some streets, May? Can you live with a map that tells you where the memories go?"
+    "Narration:"
+    "His question is simple and wedge-like. You feel the compass at your throat burn against your pulse. Finn Serrano's eyes are steady; there's a tiredness there like someone who has stayed up too long knotting a rope that won't hold."
+
+    maya_serrano "I don't know. I thought I did when I walked into that room. The math—Noah's models—make things look do-able. But it's not just numbers. It's people and histories and the way a town is knitted together."
+
+    finn_serrano "So do you gamble on speed? Or on making sure the people who get moved don't vanish into some redevelopment ledger?"
+    "Narration:"
+    "There is a silence that opens like a tide pool. Around you, the crowd hums with practical fury. You think of Dr. Hana's voice—steady, sometimes brutal."
+    hide maya_serrano
+    hide rosa_alvarez
+    hide finn_serrano
+
+    scene bg ch7_453e40_5 at full_bg
+    show dr_hana_park at left:
+        zoom 0.7
+
+    dr_hana_park "Engineered blights are real—places that become too costly to service after a wall goes up, neighborhoods that decline because the private maintenance model excludes locals from access costs. You remember the case study from the estuary—they called it reclamation; residents called it abandonment."
+    "Narration:"
+    "Her words are a cold wind. She looks at you with the same sharpness she gives data: examinations and care. But when she looks at Noah later, you'd realize that her expression toward institutional solutions is complex and unreadable."
+
+    menu:
+        "Push for legally binding anti-displacement clauses now":
+            "You speak quickly, listing safeguard items—guaranteed relocation compensation, local hiring quotas—voice edged with demand. Dr. Hana nods, approval sparking in her eyes. Noah, down the line, will notice the clause and the firm's lawyers will sigh; for now, you feel like you've planted something hard in the soil."
+        "Ask Dr. Hana to model long-term socioeconomic impact before committing":
+            "You hand the tablet back to her and ask for projections that map social outcomes, not just infrastructure. She taps a few keys, her face tightening—good. It's a delay, but the ache of it is something you can live with."
+
+    # --- merge ---
+    "Continue scene"
+
+    dr_hana_park "There are ways to mitigate—community land trusts, phased buyouts that prioritize elders and low-income families, guarantees on affordable housing replacement. But they add time and cost. You know the political appetite here."
+    "Narration:"
+    "You do. The mayor's calendar with its press events, braces of corporate promises—politics that eats time like tide eats sand. You taste the cost of delay: money shifts to other towns, the public loses patience, the sea keeps taking."
+    show maya_serrano at right:
+        zoom 0.7
+
+    maya_serrano "If I insist on stronger safeguards, we risk funding falling through. If I accept the pragmatic deal, we speed protection but risk displacement and erasure."
+    "Narration:"
+    "The choice sits in your throat like a stone. You remember the neighbor's porch light—how small things can mean everything. You remember the thread on your wrist, frayed by anxiety and rain. You remember promising not"
+    "to do this alone, then finding that the world keeps asking you to be a single hinge for many doors."
+    # play music "music_placeholder"  # [Music: Cello pulls lower, a single unresolved chord]
+    "Narration:"
+    "You sense the town watching you—Rosa's hopeful exhaustion, Finn's tired steadiness, Elias Novak's righteous ache, Dr. Hana's clinical compassion. All of them fold into the same question: which kinds of safety are worth the cost of which kinds of loss?"
+    "You walk back down the boardwalk with the rain on your face and the blueprint's hum in your head. The city feels like a glass bowl turned toward the sky—beautiful and breakable."
+    hide dr_hana_park
+    hide maya_serrano
+
+    scene bg ch7_453e40_6 at full_bg
+    "Narration:"
+    "You sit on a wet bench. The map in your head divides into three sharp paths. None of them is clean."
+
+    menu:
+        "Accept the pragmatic deal to secure fast infrastructure, agreeing to some buyouts.":
+            jump chapter9
+        "Insist on stricter equitable safeguards and public oversight, even if it delays work.":
+            jump chapter11
+        "Keep personal distance — refuse romantic alignment to keep independence in negotiation.":
+            jump chapter11
+    return

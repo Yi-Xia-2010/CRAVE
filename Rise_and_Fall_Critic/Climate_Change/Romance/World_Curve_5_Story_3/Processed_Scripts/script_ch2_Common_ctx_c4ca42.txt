@@ -1,0 +1,174 @@
+### SCRIPT
+# Route: Route C
+# Context: c4ca42
+
+[Scene: Rooftop Greenhouse & Community Rooftop | Morning]
+[Background:"ch2_c4ca42_1"]
+[Sound: Soft clink of glass jars, distant gulls, the low thrum of a boat engine cutting across the harbor.]
+[Music: Warm, hopeful strings with a light piano motif]
+
+You breathe the rooftop into yourself first—the humid warmth of soil and stressed plastic, the faint lemony tang from Elena's breakfast bundle still clinging to the canvas of your bag. The rooftop is small and stubborn, the way the town is: a patch of intentional green on an old hotel's roof, string lights still tangled from last night's planning session, a scattering of seed packets beside a battered laptop.
+
+Jun is perched on a stool, soldering iron in hand, goggles propped on their forehead. Sora is sketching a mural concept along the edge of a long poster, fingers stained with paint and salt. Mateo stands a little apart, compass in one hand, a tablet in the other—his posture the kind that organizes air around it. You feel them all like different instruments tuning to the same key.
+
+You set the notebook down and read aloud the opening lines you've been shaping, not because they need hearing, but because saying them aloud makes them real.
+
+Aria Navarro: "A pilot for hybrid coastal resilience—rooted in community; measurable by science."
+
+Sora Lin glances up, eyes bright. They tap a color swatch against the margin of the poster, imagining the phrase as a headline in hand-painted letters.
+
+Sora Lin: "Make them see the mangroves in the font. Make them feel the roots under the words. People don't vote for proposals; they vote for stories they can stand in."
+
+Their enthusiasm warms you. You want to argue technique, but instead you let that warmth fold into the phrasing—less document, more doorway.
+
+Mateo Hale's jaw tightens in a way you've learned is him counting risks and load tolerances in his head. He steps forward, boots quiet on the gritty rooftop.
+
+Mateo Hale: "Stories move people, sure. But the mayor's staff will be looking at numbers—projected overtopping frequency, cost per meter. We need a slide that shows how a combined approach reduces flood risk by X percent and costs Y over five years."
+
+You nod, because both are true. Numbers and narratives are different languages for the same want: that the town remain here.
+
+Aria Navarro [Thinking]: "You are always translating—between tide gauges and neighbors, between policy memos and song. Today you must be fluent in both."
+
+Dr. Kavir Singh arrives via a wheeze of the rooftop ladder, hands dusted with paper and tide maps. He carries the steady calm of someone who has run models at three in the morning and still believes in their usefulness.
+
+Dr. Kavir Singh: "If we overlay the sensor data with storm surge models, we can demonstrate statistically how vegetated shorelines reduce wave energy for certain event classes. But we must be careful with confidence intervals. Overpromise and the mayor balks; underpromise and the community is unconvinced."
+
+Sora Lin folds their arms, a small frown cresting their face.
+
+Sora Lin: "But numbers alone don't keep people from losing homes. Ritual helps—community planting days, naming ceremonies for the mangrove plots. They anchor civic buy-in. You don't just give them a plan; you give them a reason to show up."
+
+Kavir smiles—gentle, approving—the way a scientist admires an elegant hypothesis framed in human terms.
+
+Dr. Kavir Singh: "Both. A statistically significant intervention framed with tangible, cultural engagement will get us farther than either approach alone."
+
+The rooftop feels like a small vessel bobbing in a wider sea: the plan fills it and overflows into the town below.
+
+[INTERACTION]
+> Choice A: "Ask Mateo to draft the technical slide now"
+> Choice B: "Ask Sora to sketch the community engagement visuals"
+[Outcome A: Mateo nods, fingers already opening his tablet. You hand him the latest sensor summaries and watch his mouth tighten into focus; numbers align on the screen like soldiers forming ranks. He asks a few clarifying questions—are the baselines adjusted for seasonal variability?—and you answer, the two of you carving precision out of urgency.]
+[Outcome B: Sora grins and pulls a fresh sheet toward them. They start painting with broad, emphatic strokes—roots and hands, people wading shoulder-deep to plant. Their laughter breaks the rooftop tension and you find yourself adding a line of copy that feels less like policy and more like promise.]
+[MERGE: You let the choice hang for a beat, because each answer will shape how the evening reads for different people. You don't have to choose now; you fold both impulses into your notes.]
+
+[Scene: The Tidal Research Lab | Late Morning]
+[Background:"ch2_c4ca42_2"]
+[Sound: Hum of chillers, distant chatter from the quay, the soft ping of incoming sensor telemetry.]
+[Music: Subtle rhythmic synth underscoring steady progress]
+
+Back at the lab, the world narrows to cables, connectors, and the irreplaceable whine of a properly calibrated sensor. Jun hands you a spool of marine-grade sealant; their face is smeared with grease and an earnestness that makes you smile.
+
+Jun: "If we can get these nodes online before the meeting, we can show live-time tidal shifts. People respond to seeing their own streets on a map."
+
+You peel back a casing and find a corrosion nick you'd missed—a small thing that, left alone, becomes a big thing during a storm. Your fingers move with practiced care. Each twist, each bead of sealant, is a promise not only to data but to the people behind the numbers.
+
+Mateo Hale hovers beside you, offering a calibrated wrench. He listens to your updates as if it's a patient status report, voice low and precise.
+
+Mateo Hale: "If we place the west-array slightly seaward, it'll pick up early surge build in good time for alert dissemination. But we need to reconcile that against the council's objections to 'offshore' deployments."
+
+You glance at him. There's concern in his posture—partly technical, partly political.
+
+Aria Navarro: "We can phrase it as a non-invasive early-warning buffer—proof of concept with a sunset clause for review. Frame it as a tool for municipal response."
+
+Mateo Hale: (after a pause) "Write that line. Make it crisp."
+
+He returns to the tablet, fingers moving fast. You feel a little thrill, simple and warm, watching expertise become language that will be used to open doors.
+
+Dr. Kavir Singh leans in to review your methodology note, tracing a finger over a curve you've plotted. He raises an eyebrow at a confidence interval that could be tightened with a day's more deployments.
+
+Dr. Kavir Singh: "We can tighten it, but not without Jun's modules. If we ask the council for additional seed funding, it must be tied to immediate deployables. Tie the ask to procurement of three more nodes and a trained volunteer roster. Policy likes action."
+
+Sora Lin, standing by the lab door with paint still on their hands, murmurs a counterpoint.
+
+Sora Lin: "And policy likes optics. Let's make the volunteer roster a public thing—a planting-and-deployment festival. People solder and plant in the same afternoon. They leave with both skills and saplings."
+
+A small debate blooms—technical precision versus communal spectacle—but it is not a fight. It is people with different languages trying to say the same thing: stay. You steer, translate, and stitch.
+
+[INTERACTION]
+> Choice A: "Prioritize extra sensor deployments in the slide's budget"
+> Choice B: "Highlight community training and plantings as primary funding use"
+[Outcome A: You write a tight budget line for three additional nodes and an itemized volunteer training line. Mateo nods, satisfied; Jun gives you a thumbs-up and sets to recalibrating the remaining modules with renewed energy.]
+[Outcome B: You rephrase the budget to foreground training and sapling procurement. Sora claps once, delighted, and immediately begins drafting a sign-up sheet with bold, urgent lettering—'Help Build Our Shield.' Jun raises both eyebrows but starts drafting a volunteer-assembly manual anyway.]
+[MERGE: You choose the words that will bridge spreadsheets and street-cry.]
+
+[Scene: Old Quay & Flooded Bazaar | Late Afternoon]
+[Background:"ch2_c4ca42_3"]
+[Sound: Feet on wet wood, muffled conversation, the clink of cutlery as Elena hands out more food to passersby.]
+[Music: A swelling piano line suggesting a coming crescendo—hope tethered to urgency]
+
+The Old Quay feels alive in a way the lab never will: it holds the smell of fish and diesel and the present-tense life of the town. Elena meets you as you step onto the main pier, her face creased into a map of hard years and harder wisdom. She hands you another wrapped bundle—warm empanadas this time—and her fingers squeeze your shoulder.
+
+Elena Navarro: "We will all be there, niña. Tell them that. Make them feel the salt in their teeth. Make them hear the children in the harbor—those small ones are our future."
+
+You close your eyes and let her words anchor you. She does not need the technical details; she needs the reassurance that someone is making a plan that keeps them home.
+
+You run through the presentation with Elena and a handful of neighbors who drift by—short turns, the way the sea makes people speak on instinct. You test the cadence: opening story, data section, cost-benefit, engagement plan, ask.
+
+A voice calls out from the quay; Mayor Isla Cortez—svelte, tablet-cased, a municipal presence as deliberate as Mateo's posture—steps onto the wet wood. There is the faint smell of bureaucratic perfume, the same brine but edged with ambition.
+
+Mayor Isla Cortez: "Aria. I hear you’ve got something the council will want to see. We have twenty minutes before a scheduling call. Can I hear the highlights?"
+
+You feel a small current of adrenaline. This is why you drafted the narrative last night and rewrote it this morning. This is the moment where words either open or close a door.
+
+Aria Navarro: "I have a five-minute summary and an eight-slide deck that shows the hybrid approach. We want seed funding for sensors and saplings, volunteer training, and a paired municipal review clause after six months."
+
+Mayor Cortez: (tapping her tablet) "Make it actionable. Make it accountable. If you can deliver monitoring and volunteer training timelines, I’ll advocate for a provisional allocation."
+
+You outline the timeline, the milestones, the community events—planting schedules, sensor deployment days, training rosters—measured in days and heartbeats. She asks about risk management, and you answer with the same honesty you offer yourself: you cannot promise everything, only that you will measure, respond, and iterate.
+
+Sora Lin, standing near the lamp posts, adds a line about ceremony—how public planting days will stitch civic memory into the shoreline—and Mayor Cortez's eyes soften in a rare, almost-pleased way.
+
+Mayor Isla Cortez: "Stories and metrics. I suppose policy has always been a little of both."
+
+Mateo Hale watches you during the exchange, eyes unreadable for a beat—then, a small, almost-guarded smile. It catches at the corner of your chest.
+
+Aria Navarro [Thinking]: "The town is listening. The mayor is listening. The tide of approval feels like an eddy you could swim in if you move carefully."
+
+Dr. Kavir Singh leans in and lowers his voice.
+
+Dr. Kavir Singh: "If we can get provisional allocation conditioned on demonstrable early wins—a community training day and initial node deployment—that's politically palatable. It reduces risk for the council while giving the project the resources it needs."
+
+You translate, you promise, you file the timeline into your mental pocket. People around you—fishermen, shop owners, neighbors—offer small nods. Elena presses another empanada into your hand and tells you to keep your strength.
+
+The light seeps out of the day with a softness that feels like a blessing. Lanterns are strung, the quay hums softer now, and you let yourself catalogue the small progress: three more sensor nodes calibrated, a draft volunteer roster with Jun's name on the training column, Sora's mural draft that will be used as a sign-up poster, a provisional nod from the mayor contingent on your first public events.
+
+It is a lot and it is possible.
+
+Your chest is tight in a way that feels more like anticipation than fear.
+
+[INTERACTION]
+> Choice A: "Call Jun to confirm volunteer training for Saturday"
+> Choice B: "Ask Elena to spread the word across the market for the planting day"
+[Outcome A: You pull out your phone and tap Jun's name. They answer with a bright hello and immediately begin listing supplies and timeframes. You hang up feeling that precise, efficient relief that comes from concrete commitments.]
+[Outcome B: Elena laughs and hoists another bundle onto her shoulder. She promises to tell everyone she sees and to coax a few reluctant shopkeepers. You watch her walk the quay, and the sight of her moving through the crowd feels like proof that this will not be yours alone.]
+[MERGE: You decide both: Jun will coordinate logistics; Elena will carry the message into muscles and memory. The plan folds into the town like new fabric sewn to old.]
+
+You stand near the water's edge, watching reflections shiver and settle. For a moment you allow yourself the simplest, sharpest clarity: the work is hard, the choices many, but people are gathering—hands, tools, and stories all moving toward the same horizon.
+
+[Background:"ch2_c4ca42_4"]
+
+[Music: Swell of strings and piano resolving into a warm, anticipatory chord]
+
+You feel the page-turn in your chest—the moment before a pitch, the breath held before a song's chorus. The town meeting tomorrow will be the place where momentum either becomes policy or is sent back to the drawing board. You can't predict every reaction, but you can present with care, with numbers, with ritual, and with the town's voices stitched into every slide.
+
+You take one more breath, let the salt air move through your lungs, and look at the faces around you—Jun's eager grin, Sora's raw optimism, Mateo's steady, complex attention, Elena's weathered assurance, Kavir's quiet faith, the mayor's pragmatic curiosity. Each one is a stake driven into this fragile plan.
+
+You close your notebook and tuck it into your bag. The town hums, low and expectant.
+
+Aria Navarro [Thinking]: "Tomorrow, we speak. Tomorrow, we ask not just for funding, but for a permission to keep this place alive on our terms. You are ready."
+
+[Background:"ch2_c4ca42_5"]
+
+[Page-Turn Moment]
+There are things you can measure—nodes deployed, costs tallied, saplings counted—and things you cannot: the way a single speech moves a councilman's heart, the ripple of a child's curiosity when they plant their first mangrove, the slow growing trust between people who used to be cautious of one another. Tomorrow you will stand with evidence and with story, with numbers and with hands. The room will be full, and everything you have put together will be listened to, weighed, and judged.
+
+You close your eyes for a fraction of a second, feeling the town's tide under you, a rising current you have helped to shape. You open them, and the horizon feels a little nearer.
+
+[Background:"ch2_c4ca42_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

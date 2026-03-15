@@ -1,0 +1,503 @@
+{
+  "title": "Tides of San Brisa",
+  "summary": "I (Maya Reyes) return home as San Brisa lives its slow, rising crisis. The story charts my effort to implement a community-centered resilience plan while navigating a complicated professional and romantic collaboration with Eli Navarro, a sandy-haired sustainable architect. June Park and Aurelia Holdings press a competing, engineered seawall. Across a branching set of choices, I balance science and intimacy, community trust and political negotiation, and the ethics of compromise under pressure. The emotional arc is Rise: we begin weighed down by guilt, risk, and fracturing community ties; through sustained effort, coalition-building, and acts of vulnerability the town and my relationship with Eli gain momentum. Multiple routes emphasize different strategies — grassroots pilot projects, public exposure and legal pressure, and negotiated hybrid solutions — each culminating in outcomes that reflect progress and the town’s adaptability.",
+  "emotional_curve_type": "Rise (Rags-to-Riches)",
+  "player_character": "Maya Reyes",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Tidewatch Morning",
+      "branch_designation": "Common",
+      "narrative_focus": "I start the day at Tidewatch Lab pulling condensation from the greenhouse panes. My dark chestnut hair, salt-bleached at the tips, is pulled into the familiar messy braid; a few loose strands curl in the humid air. My field vest pockets rattle with sensors and a waterproof field notebook where I doodle shoreline diagrams. Tomas called this morning — his repair shop still smells of diesel and coffee; he’s worried about the next seasonal rise. The living beds drip; hydroponic basil smells bright against the brine. I sketch contour lines and community garden placements and re-read Asha’s notes, trying to quiet the guilt that sits behind my stern focus. Across the bay, a barge’s silhouette hints at Aurelia’s coming work. A Polaroid Eli left of a rooftop prototype flutters in my notebook; his sandy blond hair is wind-whipped in the photo, sea-glass green eyes smiling. I remind myself why I came back: the pier I loved as a child was taken by a storm, and this urge to protect people pushes me to action. Still, the town’s calendar is full of meetings, and my chest is tight with the weight of choice.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Asha"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Greenhouse",
+        "Bay",
+        "Pier"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Main Street Meeting",
+      "branch_designation": "Common",
+      "narrative_focus": "I walk Main Street with my brass compass on its leather cord swing against a patched cargo knee. Rosa’s café smells of cinnamon and coffee; she presses my hand and asks about Tomas. The town hall meeting is in the back room, warm with bodies and string-light haze. Councilor Marco arrives under his umbrella like a storm-cloud in a blazer; June Park steps in after him, the sleek black bob and silver streak precise against a tailored trench. June’s presentation on Aurelia’s seawall is clinical: slides of engineered pylons, insurance models, and immediate protection. I feel my notebook grow heavier in my hands. I think of Asha’s quiet insistence on living shorelines and of Eli’s patience; I see his paint-speckled fingers tucking a folding timber ruler into a back pocket as he leans forward, arguing for prototypes. The room divides into practical fear and nostalgic resistance. Tomas watches from the doorway, jaw tight. The choice is no longer academic—homes, businesses, memories are on the table. My pulse quickens; I wonder if there’s a way that keeps people like Rosa and Tomas connected to San Brisa without handing everything to Aurelia. This meeting will define the first major path.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Reyes",
+        "Rosa",
+        "Councilor Marco",
+        "June Park",
+        "Eli Navarro",
+        "Tomas",
+        "Asha"
+      ],
+      "locations_used": [
+        "Main Street",
+        "Rosa's Café",
+        "Town Hall"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Proposal",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The vote is scheduled; Aurelia’s PR team has already put up lights at the construction site, and San Brisa is fracturing around a single proposal: a full engineered seawall. I stand under the hum of the overhead projector, my honey-brown eyes narrowed from fatigue. June’s gray eyes are precise when she says the seawall will “secure immediate loss.” Eli reaches for my arm, his sea-glass green gaze hopeful and warm, but I feel the weight of Asha’s botanical pins and Rosa’s oral histories pressing behind my ribs. Tomas wants a clear answer because buyouts are on the table; his sunburnt hands tremble with the decision. I can feel the tide of opinions shifting like water in a harbor. I put my retro brass compass on the table and tell people that engineered protection without habitat consideration will cost us more than money. The room listens. Then the council chair asks me to choose a path forward: do we focus on a living-shoreline pilot, pursue legal/public exposure of Aurelia, or attempt a compromise negotiation with June and Aurelia? The air tastes like metal; a decision now will shape everything.",
+      "emotional_trajectory": "Rise/Fall",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I commit San Brisa’s next move?",
+        "options": [
+          {
+            "label": "Champion a living-shoreline pilot with Eli and the community.",
+            "consequence": "Grassroots design, hands-on prototypes, building trust with neighbors and Eli; immediate confrontation with Aurelia in the field",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Push a legal and media campaign to expose Aurelia’s ecological risks.",
+            "consequence": "High-stakes public pressure with Asha and allies; legal hurdles and potential polarization",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Enter a negotiated compromise with June to design a hybrid solution.",
+            "consequence": "Risk of losing leverage but potential for co-designed safeguards; tests trust with neighbors",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "June Park",
+        "Eli Navarro",
+        "Tomas",
+        "Rosa",
+        "Aurelia Holdings"
+      ],
+      "locations_used": [
+        "Conference Room",
+        "Aurelia Construction Site",
+        "Harbor"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Prototype at the Rooftop",
+      "branch_designation": "Route A",
+      "narrative_focus": "Eli and I push a wheelbarrow of marsh plugs up to the rooftop garden under string lights. He grins, hair pushed back, paint specks on his rolled linen sleeves, then hands me a trowel. The rooftop is warm with twilight; stalls from the night market still hum below. We test tidal planters and gabion baskets on a small scale, laughing when the first wave of spray fogs Eli’s weathered Polaroid. I stick my hand through my windbreaker pocket for my chipped enamel mug, thinking of Tomas’ shop and Rosa’s café. Working side by side feels right and tenuous: our touch, a brief brush when we swap a tool, is electric but quick; I keep my priorities sharp, remembering Asha’s data on native cordgrass. The neighborhood shows up — kids with sticky fingers, elders with reams of oral memory. We sketch placement maps in my field notebook; Eli’s folding timber ruler and my compass measure distances in hand-drawn precision. It’s messy, tactile, and slow, which makes it feel honest. We’ll need to scale this fast, and I can see June’s crew looming across the harbor. Still, for the first time in weeks, I sense momentum.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Neighbors"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Night Market"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Field Demonstration",
+      "branch_designation": "Route A",
+      "narrative_focus": "We decide to show, not only tell. At the reclaimed lot near the old pier, Eli sketches a cross-section while I calibrate salinity sensors. My braid is messy from the sea breeze; the field vest pockets carry fragments of plans and Asha’s annotated papers. Neighbors gather on wet boards — Tomas stands by with his paint-splattered hoodie, uncertain but present. I hear the metallic clang of Aurelia’s sheet piles in the distance. The demonstration will be risky: if the town sees the living-shoreline withstand a storm surge or a king tide, we gain leverage. If it fails, we look naive. I move through the crowd with practical calm, feeling the usual impulse to shoulder too much. Eli’s voice is a steadying presence; he keeps joking to calm kids, and I watch his sea-glass eyes brighten when a plug takes root in the silt. I have three ways forward: scale the pilot immediately and ask for crowd labor; pivot to formal council coalition-building to secure funding and rights; or stage a higher-risk direct action near Aurelia’s active construction. Each demands trust, resources, and consequences for us and the town.",
+      "emotional_trajectory": "Rise / Split",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we scale the pilot and press San Brisa’s case?",
+        "options": [
+          {
+            "label": "Scale the living-shoreline now with community labor and open prototypes.",
+            "consequence": "Rapid visible progress and community buy-in, but limited legal protection against Aurelia",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Form a formal council coalition to secure funding and legal rights first.",
+            "consequence": "Slower but sustainable governance; risks Aurelia fast-tracking construction",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Stage a risky demonstration close to Aurelia’s site to draw attention.",
+            "consequence": "High-risk publicity that could polarize or galvanize the town; may provoke legal pushback",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Asha",
+        "Neighbors"
+      ],
+      "locations_used": [
+        "Reclaimed Lot",
+        "Old Pier",
+        "Aurelia Construction Site"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Community Shore",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "The community works like tidewater — everyone arrives at different times, but together we form a new shoreline. I stand knee-deep in brackish mud, dark cargo pants soaked and patched knees streaked, and take direction from an elder who remembers how the pier used to sit. Eli hands me a soaked Polaroid; his fingers leave smudges on the border and his smile is soft. We’ve built a living barrier of marsh plugs, oysters on ropes, and intertidal planters that slow wave energy while providing habitat. Councilor Marco hesitates but sees the community buy-in; Rosa serves snacks on a folding table and the town photographs the success. Aurelia’s bulldozers idle for a day as public pressure mounts. My chest loosens — guilt is still there, but it feels smaller, channeled into action. Tomas signs a document noting his intent to stay and adapt rather than relocate. Eli squeezes my shoulder; the warmth is steady, and we promise to keep designing together. The pilot won’t solve everything, but San Brisa now has a living proof of possibility that carries its own political weight.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Rosa",
+        "Councilor Marco",
+        "Neighbors"
+      ],
+      "locations_used": [
+        "Pilot Site",
+        "Pier",
+        "Community Spaces"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Legal Frontlines",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose pressure. With Asha’s quiet counsel and a file of ecological assessments, I stand under fluorescent courtroom light preparing affidavits. My brass compass sits atop the stack of exhibits. We coordinate with a journalist who speaks with June’s veneer of calm and asks tough questions on camera. I climb into the hatchback with Eli’s camera and watch him frame shots — his Polaroid is warm in his palm, documenting fouled marshes and construction shadows. The strategy is public scrutiny and legal holds to slow Aurelia’s timetable, but it’s brittle: it strains neighbor relations and forces private stories into the spotlight. Tomas worries the attention will make him a target for buyouts; Rosa fears the social rifts that follow exposure. I feel the stress in the lines around my eyes and the impatient set of my jaw. We file temporary injunctions and schedule hearings while juggling community support. The town watches, partisan lines hardening. I’ve traded tactile prototypes for public record and the uncertain temper of courts and media. The stakes are higher, and so is everything else.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Reyes",
+        "Asha",
+        "Eli Navarro",
+        "June Park",
+        "Tomas",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Courtroom",
+        "Harbor",
+        "Aurelia Construction Site"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Public Reckoning",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The injunction gives us breathing room, but Aurelia has mobilized PR and a legal team that moves like tide-slick machinery. I stand by the harbor, rain-slick hair clinging to my neck, watching June meet with investors near the sheet piles, her silver-streaked bob sharp against her trench. The town comes alive with picket signs and local broadcasters. Eli organizes a photo chronology of the harbor’s ecological baseline; his camera clicks capture salt-streaked boards and seedlings. We can push harder: a public exposé with Asha’s science, a slow council coalition effort to convert legal breathing room into policy muscle, or a town demonstration that risks confrontation. My compass feels heavy in my palm. Each choice cracks something — exposure risks burning allies who prefer quiet negotiations; the demonstration could lead to arrests or viral momentum. Tomas stands at my shoulder, eyes wide; I realize I am not only fighting for habitats but for my brother’s business and Rosa’s memory-laden café. I can see the town fracturing under pressure, but I also see people showing up. The next step will define who we are.",
+      "emotional_trajectory": "Rise / Split",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we escalate public pressure?",
+        "options": [
+          {
+            "label": "Publish a high-profile exposé with scientific testimony.",
+            "consequence": "Immediate public outrage, potential to halt construction temporarily",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Negotiate delay through council coalition to pass conditional approvals.",
+            "consequence": "Slower institutional approach that could lock in protections if successful",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Stage a large public demonstration at the construction site.",
+            "consequence": "Dramatic, risky, may polarize the town but draw attention",
+            "target_chapter_index": 11
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "June Park",
+        "Asha",
+        "Tomas",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Aurelia Construction Site",
+        "Town"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Exposé",
+      "branch_designation": "Route B (Ending)",
+      "narrative_focus": "The exposé drops like a high tide at noon. Asha’s data is paired with Eli’s arresting Polaroids of disrupted mudflats; the journalist frames human stories — Tomas’ shop, Rosa’s memories — so the public sees what could be lost. June appears on camera, measured and steady, but the narrative has shifted: people watch how engineered walls can choke habitats and redistribute erosion. Aurelia’s stock slips; the council delays key permits pending independent study. I stand under midday glare on Main Street, honey-brown eyes stinging, and Eli’s hand finds mine — his fingers warm, paint flecks on his knuckles. We walk the pier together at sunset, watching volunteers plant cordgrass at our pilot sites while Rosa hands out stew. It’s not a perfect victory: Aurelia still has influence, and long-term funding will be a fight. But the town rallies, and Tomas signs a declaration to stay and adapt. My guilt loosens into something like pride. Eli kisses me beneath the lighthouse’s shadow and the world feels like it might tilt toward what we made together.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Asha",
+        "Eli Navarro",
+        "Tomas",
+        "Rosa",
+        "June Park"
+      ],
+      "locations_used": [
+        "Main Street",
+        "Pier",
+        "Press"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Negotiated Harbor",
+      "branch_designation": "Route C",
+      "narrative_focus": "I agree to a table with June and Aurelia — a gamble for shared design. Her silver-streaked bob is immaculate, and the high-tech vest over her tailored coat glints in fluorescent light. She speaks in terms of models and timelines; I speak in species lists and community memory. Eli sits to my right, quietly offering sketches of hybrid modules that blend concrete with living components. I feel exposed and tired: compromise invites both protection and loss. Asha cautions me to secure governance guarantees that bind Aurelia to ecological monitoring. Tomas appears, fingers stained by oil at his shop, asking if negotiation will leave him displaced; Rosa hangs back with a wary smile. The meeting is a dance: June wants a seawall with living veneer; I push for legal mechanisms to protect habitat function and community rights. There’s an awkward warmth — not romantic, exactly, but it binds us in mutual responsibility. The conversation concludes with a narrow window to draft a hybrid pilot if the community accepts oversight and design principles. I leave with a draft to read and a strange mix of relief and distrust.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 12,
+      "characters_involved": [
+        "Maya Reyes",
+        "June Park",
+        "Eli Navarro",
+        "Asha",
+        "Tomas",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Council Chamber",
+        "Negotiation Table"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Site Stand",
+      "branch_designation": "Route B (Alternative Ending)",
+      "narrative_focus": "The demonstration at Aurelia’s site is louder than I imagined. I stand on wet asphalt with a megaphone in my hand, voice raw, while cranes lope behind June’s composed silhouette. Eli’s canvas shoes are muddied; his Polaroid camera hangs steady at his neck. The crowd chants, neighbors hold handmade signs, and for a beat it feels like possible revolution. Police presence is minimal but governmental pressure sharpens. The demonstration forces Aurelia into a PR retreat and brings the council back to the table under public scrutiny. But the confrontation leaves fissures: some locals resent the spectacle, fearing retaliation or loss of negotiations. Tomas later apologizes that his customers feel exposed; Rosa tells me over coffee that she admires courage but worries for quiet neighbors who avoid protest. We won a pause; the town is bruised but activated. Eli and I walk in the fog to the lighthouse, exchanging words that stitch us together — we have to navigate more than tide-lines now, we have to repair the social map we have cracked open.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Rosa",
+        "June Park"
+      ],
+      "locations_used": [
+        "Aurelia Construction Site",
+        "Lighthouse",
+        "Main Street"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Hybrid Accord",
+      "branch_designation": "Route C (Ending)",
+      "narrative_focus": "Negotiation yields a conditional victory. June agrees to pilot a hybrid scheme: engineered structures where unavoidable, combined with mandated living modules, independent ecological monitoring, and community governance oversight co-drafted with us. The agreement is not perfect; it’s a legal patchwork that buys habitats space and funds living-shoreline expansion. Tomas signs a protective clause for small businesses; Rosa gets a community fund for cultural preservation. Eli stands beside me in the council chamber, his sea-glass eyes steady as he presses a signature with clay under his fingernails. I am exhausted and relieved in equal measure. The hybrid plan forces everyone to keep talking, which means long nights with coffee and revised memos and community board meetings. It also preserves cores of neighborhood life and gives us legal leverage to stop wholesale displacement. My guilt softens into a strategic resolve. Eli and I walk to the tidal steps and press our palms to basalt, the salt air strong. We are not finished, but something has shifted: San Brisa survived decision and compromise, and our partnership is part of the scaffolding that will hold it.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "June Park",
+        "Eli Navarro",
+        "Tomas",
+        "Rosa",
+        "Asha"
+      ],
+      "locations_used": [
+        "Council Chamber",
+        "Tidal Steps",
+        "Rooftop Garden"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Institutional Coalition",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "We choose the long game. I convene a coalition that includes Councilor Marco, Asha, community elders, and sympathetic small-business owners. My field notebook is heavy with committee lists; Eli drafts technical annexes with patient hands and a ruler tucked into his back pocket. The coalition crafts a municipal ordinance that recognizes living shorelines as preferred adaptation within certain zones and establishes a resilience fund for small businesses and relocation assistance. It’s bureaucratic and slow: weeks of testimony, legal clauses, and nights reviewing language until my eyes blur. Tomas signs a community pledge to participate in adaptation workshops, easing his fear of being left behind. June watches the coalition work with guarded respect; Aurelia is placed under conditional approval that requires phased environmental monitoring. The ordinance doesn’t halt all development, but it creates governance structures that protect social fabric and habitats in the long run. Eli and I celebrate modestly on the rooftop market, string lights pooling amber on our faces. The future feels steady and rooted — progress by persistence.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Councilor Marco",
+        "Asha",
+        "June Park",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Council Chambers",
+        "Rooftop Market"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Reckoning at the Pile",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "The risky demonstration at Aurelia’s active pile field escalates faster than expected. We are there to make a point — to show living elements integrated near the construction zone — but the company’s security and the machinery’s sheer scale transform earnest demonstration into a confrontation. I smell diesel and salt and feel the concrete’s cold edge under my knuckles. Eli stands beside me, hands steady but eyes sharp; his Polaroid trembles when he hands it to a reporter. The action forces regulatory attention and an emergency meeting with the council. Some neighbors accuse us of endangering their livelihoods; others call us brave. Tomas hides in the back, furious and reconciled all at once. The demonstration produces both rupture and leverage: Aurelia pauses a phase and agrees to fund independent monitoring, but the town is bruised and divisions have deepened. It becomes a turning point that demands repair — long conversations, apologies, and renewed commitments to shared governance. Eli and I find each other on the tidal steps later, tired and raw, and we promise to rebuild what the fight strained. The cost is real, but so is the clarity of purpose.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Eli Navarro",
+        "Tomas",
+        "Aurelia Holdings",
+        "Reporter"
+      ],
+      "locations_used": [
+        "Aurelia Construction Site",
+        "Pile Field",
+        "Tidal Steps"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Council Compromise",
+      "branch_designation": "Route B (Ending)",
+      "narrative_focus": "We choose delay through council leverage. The coalition swells: Marco’s vote, Asha’s testimony, and Rosa’s community memories force a conditional approval that requires phased construction with mandatory living modules in adjacent zones. Aurelia gets a scaled-down protective structure in immediate commercial zones, but funds are earmarked for habitat restoration and small-business resilience. It’s a compromise that keeps parts of San Brisa intact while conceding some engineered protection. Tomas accepts a relocation-aid program for the riskiest storefronts and decides to consolidate his repair shop with a satellite stall at the night market; it’s painful and sensible. Eli and I stand in the rooftop garden under amber bulbs, his hands smelling of clay, and we map out next steps — community gardens, monitoring teams, and long-term advocacy. Our relationship deepens as partners in work and life, but the outcome is not total victory. It is, however, durable: governance now contains a mandate for ecology and community agency. We pledge to guard that mandate with the patience of tide-watchers. The town’s future glows imperfect but real, like a repaired board on a beloved pier.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Councilor Marco",
+        "Asha",
+        "Rosa",
+        "Tomas",
+        "Eli Navarro"
+      ],
+      "locations_used": [
+        "Council Chambers",
+        "Rooftop Garden"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Common route runs Chapters 1–3 and splits at Chapter 3 into three main routes (A → Chapters 4–6/13/14; B → Chapters 7–9/11/15; C → Chapters 10–12). Split points occur at Chapter 3, Chapter 5 (Route A), and Chapter 8 (Route B). Every chapter begins with an explicit entry condition when applicable; endings use -1 as default_next_chapter. Visuals and character designs follow the provided descriptions.",
+  "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+  "_meta_arc_strategy": "Rags to Riches (Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 08:38:02"
+}

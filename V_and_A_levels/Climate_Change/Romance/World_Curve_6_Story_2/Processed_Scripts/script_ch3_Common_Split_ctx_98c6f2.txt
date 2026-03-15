@@ -1,0 +1,158 @@
+### SCRIPT
+# Route: Route C (Ending)
+# Context: 98c6f2
+
+[Scene: Saltwood Community Hall | Dusk]
+[Background:"ch3_98c6f2_1"]
+[Music: Tense, pulsing BGM — a low, insistent rhythm]
+[Sound: Distant gulls, the barely audible throat of the ocean beyond the building]
+
+You stand where the hall narrows into the foyer, the tide-watch cold and heavy against your palm. The room inside smells like boiled coffee and wet wool; the boardroom tables are covered in maps with salt-specked annotations, and the air tastes faintly of iron — worry pressed into the grain of wood.
+
+Behind you the boardwalk creaks; the town feels like a thing held together by small noises, by habits you have spent yourself trying to reckon with. Ahead, the council is small, narrowed down to faces that mean everything tonight: Mayor Jerome Hale at the head, Dr. Elena Park on his right, Aiden Koa leaning against a pillar with his arms folded, Nyla tapping at a glowing tablet, and two elder fishers with hands like carved oars. Old Man Cala lingers in the doorway, his silhouette a weathered punctuation. Nobody smiles.
+
+You breathe in, and the breath comes tight — a rope pulled through a small loop. The earlier public meeting folded into itself overnight; now the choices are surgical, and every word will be counted like a score on a tide chart. You can feel the room waiting like a lung.
+
+Mayor Jerome Hale: "We don't have the luxury of delay. Investors want decisions. People want assurances. Let's hear the two options clearly. Maya—"
+
+Maya Serrin [steady]: "I'll lay out what community-led defenses require — living dunes, marsh restoration, phased volunteer mobilization. Nyla will overlay the seasonal risk model. Dr. Elena Park will present the engineered option. Then we discuss."
+
+Nyla swivels her tablet toward the table. The screen throws a wash of aqua across the Mayor's hands. You hate that the data looks beautiful when it's telling you how quickly things can break.
+
+[Background:"ch3_98c6f2_2"]
+[Sound: The soft, clinical whirr of Nyla's projector]
+
+Nyla [breathy]: "Okay — this is the overlay against the next storm season. Left is living defenses: initial reductions in erosion are modest but cumulative; community labor scales with time. Right is Dr. Elena Park's seawall: immediate drop in flood incidence for the first season, but look at the access vectors — the fishing corridors contract."
+
+You watch Aiden Koa's jaw set. He looks like a man holding his breath until the tide gives him an answer.
+
+Aiden Koa: "Contracting fishing corridors" — he says the phrase slowly, letting each syllable land — "isn't just math. It's a coastline taken out of our hands. It's where we leave nets, where kids learn tides. You put a wall there, you close a door to our way of living."
+
+Dr. Elena Park [cool, precise]: "With respect, Aiden, those are trade-offs we can mitigate. The engineered approach stabilizes homes immediately. We can design access points, fish passages, adaptive bays. The timeline buys lives. Investors won't fund vague increments; they fund proven returns."
+
+You: The word 'investors' slides through the room like a current. You feel the old guilt rise — the night your family lost the Miller house. You remember the sound of water in the rafters, the way your sister's face went distant when the floor slanted. You tell yourself that what you offer now isn't vague; it's tested ecology, it is people's labor and memory made into protection. But 'tested' takes time. Time is a currency the Mayor doesn't have.
+
+Mayor Jerome Hale [rubbing the bridge of his nose]: "We have a municipal obligation to reduce near-term risk. If Dr. Elena Park's model guarantees immediate flood prevention, we need that on the table. But I also have a town to hold together politically."
+
+Elder Fisher 1 [gravelly, slow]: "Guarding our doors with concrete so the sea remembers us as strangers — that's a long memory. My father fished from the same channel; you can't put a price on that."
+
+Elder Fisher 2: "And you can't ask us to build dunes where there's no labor to keep them. People are stretched thin."
+
+Your chest tightens. Voices layer: Dr. Elena Park's clipped logic, Aiden Koa's low insistence, the elder fishers' stubborn sorrow. Nyla's screen tracks the same month where models diverge: a single storm season where one path holds and the other fractures.
+
+Dr. Elena Park leans forward, hands folded like a clasped instrument. She looks at you with a curiosity that is almost fond, but her eyes are a calculation.
+
+Dr. Elena Park: "Maya, your models assume a level of consistent volunteer engagement that may not hold. After a major storm, labor drains elsewhere. If houses flood, you lose the social capital you counted on. My approach erects a barrier to that collapse."
+
+Maya Serrin: "Your barrier pushes the coastline seaward in an instant. It solves flooding by displacing the shore's activities. That displacement has cost. We lose fishing access, marsh nurseries die — habitat services collapse and the town's livelihood is cut. How quickly is 'quick' when the rest of us lose our way of life?"
+
+Dr. Elena Park [quiet]: "Quick isn't cruel, Maya. Quick is survival. I grew up where delayed action meant streets turned to rivers. I have to weigh being right against people dying."
+
+A silence drops like a stone. Everyone hears the line — 'people dying' — and you feel its blunt pressure.
+
+Old Man Cala doesn't move from the doorway. He watches everyone with a patient, unreadable face. There's something in his stillness that makes you think of tides seen from a cliff: inevitable, ancient, indifferent to argument.
+
+Nyla [steady]: "There is another layer," she says, voice steadying. "If we simulate the investor timeline and overlay volunteer projections, there's a window where a hybrid could reduce immediate risks while still preserving parts of access — but it's contingent. Contingent on funding that may come with strings: oversight, timelines, clauses that hand decision rights to a board outside town."
+
+Mayor Jerome Hale [exhale]: "That is the third path I keep hearing when I walk the docks. Hybrid pilots funded by private money: they give us something to show people quickly and buy time for community measures to scale. Politically, it's clean."
+
+Aiden Koa slaps the table — a sharp sound that makes everyone flinch.
+
+Aiden Koa: "Politically clean doesn't mend a weathered net. You sell that 'time' and what do we have when it's gone? Half measures mean we get both the wall and the loss. You don't 'buy time' with half a coastline; you mortgage it."
+
+Elder Fisher 1 [leaning forward]: "You said 'pilot' once and it turned into a highway. We know the language of promises."
+
+Your mouth tastes of metal. You feel every option as a kind of violence: to choose one is to choose what and who survives.
+
+[INTERACTION]
+> Choice A: "Step up to the table and point at Nyla's overlay"
+> Choice B: "Stay back and watch Aiden take the lead"
+[Outcome A: "You step forward, finger tracing the projected contours. Your voice sharpens as you speak directly to the overlay: 'See this seam? If we build living dunes now, we sacrifice immediate breadth of protection but buy adaptive capacity that preserves access.' The room follows your hand; for a heartbeat you hold their attention."]
+[Outcome B: "You let Aiden move, watching the way his expression hardens into resolve. He addresses the Mayor and Dr. Elena Park with the practical cadence of someone who has to live with the water every day: 'You all decide on maps. We live the after.' Your pulse rates with the heat of a thing withheld."]
+[MERGE: Both outcomes reconverge to the ongoing council discussion.]
+
+Your fingers itch to argue the ethics of trade-offs like tide lines. The negative press of consequences tightens around your ribs. This is not just policy; it is the price of how the community will remember itself.
+
+Dr. Elena Park leans forward, hands folded like a clasped instrument. She looks at you with a curiosity that is almost fond, but her eyes are a calculation.
+
+Dr. Elena Park: "Maya, your models assume a level of consistent volunteer engagement that may not hold. After a major storm, labor drains elsewhere. If houses flood, you lose the social capital you counted on. My approach erects a barrier to that collapse."
+
+Maya Serrin: "Your barrier pushes the coastline seaward in an instant. It solves flooding by displacing the shore's activities. That displacement has cost. We lose fishing access, marsh nurseries die — habitat services collapse and the town's livelihood is cut. How quickly is 'quick' when the rest of us lose our way of life?"
+
+Dr. Elena Park [quiet]: "Quick isn't cruel, Maya. Quick is survival. I grew up where delayed action meant streets turned to rivers. I have to weigh being right against people dying."
+
+A silence drops like a stone. Everyone hears the line — 'people dying' — and you feel its blunt pressure.
+
+Old Man Cala doesn't move from the doorway. He watches everyone with a patient, unreadable face. There's something in his stillness that makes you think of tides seen from a cliff: inevitable, ancient, indifferent to argument.
+
+Nyla [steady]: "There is another layer," she says, voice steadying. "If we simulate the investor timeline and overlay volunteer projections, there's a window where a hybrid could reduce immediate risks while still preserving parts of access — but it's contingent. Contingent on funding that may come with strings: oversight, timelines, clauses that hand decision rights to a board outside town."
+
+Mayor Jerome Hale [breathe exhale]: "That is the third path I keep hearing when I walk the docks. Hybrid pilots funded by private money: they give us something to show people quickly and buy time for community measures to scale. Politically, it's clean."
+
+Aiden Koa slaps the table — a sharp sound that makes everyone flinch.
+
+Aiden Koa: "Politically clean doesn't mend a weathered net. You sell that 'time' and what do we have when it's gone? Half measures mean we get both the wall and the loss. You don't 'buy time' with half a coastline; you mortgage it."
+
+Elder Fisher 1 [leaning forward]: "You said 'pilot' once and it turned into a highway. We know the language of promises."
+
+Your mouth tastes of metal. You feel every option as a kind of violence: to choose one is to choose what and who survives.
+
+[INTERACTION]
+> Choice A: "Look directly at Aiden and speak from the personal throat"
+> Choice B: "Address the Mayor with policy clarity"
+[Outcome A: "You meet his gaze. 'I don't want to take your home from you,' you say. Your voice cracks and then steadies. He blinks; there's a flicker — something soft and complex — but he says nothing for a beat, the old man watching like a ledger."]
+[Outcome B: "You turn to Mayor Hale, steady the scientific cadence. 'If we model a phased living-dune implementation with contingencies for accelerated funding, here's how we keep access while scaling protection.' The mayor nods slowly, weighing the politics."]
+[MERGE: Both outcomes reconverge to the ongoing council discussion.]
+
+The room tightens; it's a drum being tightened by a slow hand. Your sense of culpability is a live wire. If you push for community measures and the town floods next season, you'll carry those images forever. If you accept engineered help and Saltwood roots are fractioned, you'll carry the faces of people who can no longer fish where their ancestors did.
+
+Dr. Elena Park: "Maya, you understand the optics. Your community plan is noble — but can you guarantee volunteers when the first real storm hits? Can you guarantee it won't be used as a political dodge?"
+
+Maya Serrin: "I can't guarantee anything except that we don't trade our access for an illusion of safety. We can build capacity if we commit. I'm asking for trust and governance, not platitudes."
+
+Mayor Jerome Hale: "Governance is the middle word here. We need a structure that the town can accept. That’s why I'm proposing a conditional hybrid path: pilot engineered pieces where necessary, coupled with legally binding community oversight and stages for living defenses."
+
+Nyla's overlay flickers again, now annotated with legal brackets and grant-time redlines. The glowing lines of possibility look less beautiful and more like surgical diagrams.
+
+Elder Fisher 2: "And who signs those bindings? The town clerk? A lawyer in Portland?"
+
+Your shoulders feel like they will split under the weight. The negative axis of the evening — doubt, guilt, fear — has been stretched taut. Arousal spikes; you can feel the room's pulse in your throat. The decision pressure is a rising tide.
+
+You could imagine the three futures like three maps in your palm: one green and patient, one armored and immediate, one stitched in the middle that might not hold. Each one will reconfigure who counts as neighbor, who keeps their morning routines, whose children's lessons are still on the water.
+
+You taste the salt on the air like a premonition.
+
+Mayor Jerome Hale [soft, finalizing tone]: "We have to decide tonight which route we take to the council and the town. This smaller group will make a recommendation. Maya—"
+
+He looks at you with the weary expectation of a man asking someone to take up a burden.
+
+Maya Serrin [strained]: "There are trade-offs in every option. None are clean. None are free. And I'll be honest: my chest aches with the idea of choosing wrong."
+
+Everyone watches you. Dr. Elena Park's face is composed, but you can see the set of her jaw quicken. Aiden Koa's fingers curl as if around an oar. Nyla's eyes are bright, the glow of her tablet reflected like a lighthouse in her pupils. Old Man Cala's silhouette is a steady cliff in the doorway, unreadable.
+
+The air in the hall seems to thin and then compress into a single point of decision. Your options are laid before you like nets: each catches certain things and lets others slip away.
+
+[Sound: The music tightens to a high, insistent tempo; the lights seem to sharpen]
+[Background:"ch3_98c6f2_3"]
+
+You name the stakes out loud because the silence will not hold them: who gets to call Saltwood 'home' after you make this call.
+
+Mayor Jerome Hale clears his throat, and his voice is practical but edged: "Maya, we need a recommendation from you and this smaller council. Decide how we steer Saltwood."
+
+You feel the room now as the hinge it has become. Every breath you take is the tide pulling back before a swell.
+
+[DECISION POINT]
+1) Option 1: "Commit entirely to community-led, nature-based defenses." -> TARGET chapter_id: [4]
+2) Option 2: "Accept a conditional partnership with Elena for a hybrid plan." -> TARGET chapter_id: [7]
+3) Option 3: "Back Mayor Hale’s political compromise to buy immediate infrastructure." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Commit entirely to community-led, nature-based defenses." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Accept a conditional partnership with Elena for a hybrid ..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Back Mayor Hale’s political compromise to buy immediate i..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

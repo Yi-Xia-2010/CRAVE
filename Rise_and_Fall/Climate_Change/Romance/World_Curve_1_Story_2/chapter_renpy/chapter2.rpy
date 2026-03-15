@@ -1,0 +1,146 @@
+label chapter2:
+
+    # [Scene: Old Pier Neighborhood | Late Afternoon]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft murmur of gathered voices, distant gulls, water lapping against pilings]
+    # play music "music_placeholder"  # [Music: Warm, hopeful strings undercurrent]
+    "You walk down the causeway with the weight of the Tidehouse humming at your back and a notebook pressed to your ribs. From Chapter 1's rooftop plan, a thin bright thread runs through your chest—organize, present,"
+    "listen. The Old Pier answers with the smell of wet timber and fried fish, and the place-memory of hundreds of small repairs stitched into its planks."
+    "The crowd is already gathering: people with tar-stained gloves, a woman balancing a toddler on her hip, an old man who smells of tobacco and sea-salt, teenagers swapping tools like badges. Noah stands near a patch"
+    "of folding chairs, sleeves rolled, paint on his knuckles. Etta holds the front like an anchor, scarves braided around her wrists, and Arin Voss's camera hangs from his neck, ready but unintrusive. Samir moves through the"
+    "crowd, clipboard and quiet energy, the map-projections on his tablet whispering in the open air."
+    "You feel the air—humid, with a slow, recovering warmth after a morning fog—and the faint metallic tang of seawater. The bulbs overhead throw soft halos; the puddles eat and return light in slow, liquid breaths."
+    "You step forward. Your voice lands like a stone thrown into a small, expectant pond."
+    show mira_solace at left:
+        zoom 0.7
+
+    mira_solace "Thank you for coming. I know it's busy—boats to fix, kids to get home. I won't take long. I brought maps, and I brought questions more than answers."
+    "A pause. People shift on folding chairs, lean on railings. The assembled faces are an atlas of the neighborhood—wrinkled, determined, guarded and curious all at once."
+    show etta_maren at right:
+        zoom 0.7
+
+    etta_maren "Don't spin the city-speak at us, Mira. Tell it in the way the pier taught you."
+    "Her hand rests on yours for a moment; her skin is warm and spotted with age. The contact steadies you. You hear, more than the words, the trust that puts questions before plans."
+
+    mira_solace "Okay. Plainly—water's not leaving us. Storms are stronger; tides higher. But we've got options that don't mean giving up the neighborhood. Small repairs, elevated walkways, planted reed beds that soften surge—things the community can shape and maintain."
+    show samir_hale at center:
+        zoom 0.7
+
+    samir_hale "I can show the modeled stress points and where minimal interventions bend risk the most. They don't need million-dollar contracts to reduce the worst of what people fear."
+    "Samir's tablet glows when he inclines it toward a cluster of neighbors; diagrams bloom like small, precise flowers. His tone is steady, relieved to hand you the technical language as a tool you already know how to wield."
+    "Arin Voss steps up with his camera low—framing more than filming; he's searching for honest faces, for stories that make data human."
+    hide mira_solace
+    show arin_voss at left:
+        zoom 0.7
+
+    arin_voss "Start with a place-knowledge piece. People listen when you say, 'this is what I remember here.' Then add the how—Samir's work, Mira Solace's numbers."
+    "You recall the wooden stair where you learned to read tides, the way the pier bowed under a certain winter wind. The memory isn't just nostalgia; it's evidence disguised as story."
+    hide etta_maren
+    show mira_solace at right:
+        zoom 0.7
+
+    mira_solace "Alright. I'll tell one memory, then Samir will show the map, then we'll open it up. I want to hear your fixes, your ideas—what you've done when the last scrape hit."
+    "Noah, close enough now to smell of engine oil and lemon cleaner, looks at you with the kind of skeptical pride only a sibling can carry."
+    hide samir_hale
+    show noah_solace at center:
+        zoom 0.7
+
+    noah_solace "Don't soft-sell it, Mira. Folks need to know what they'll be asked to do. If it means staying—then tell them what staying will demand."
+    "You nod. You understand the ledger in his expression: family safety tracked against livelihood. Your throat tightens, and you make the choice to be honest."
+
+    mira_solace "Staying will ask labor, and some money, and trust. But it also keeps the businesses, the boatyards, the stories. We'll work to reduce the costs and spread the load—we're not asking one household to hold the whole harbor."
+    "A woman near the front, hands callused like kelp, raises a crooked finger."
+
+    "Marta" "You're talking fancy plants. We need boards up over the windows before next month. You bring plants and I bring the planks, that's not nothing."
+    "Etta smiles, the movement small but wide."
+    hide arin_voss
+    show etta_maren at left:
+        zoom 0.7
+
+    etta_maren "Both things can be true. Ecologies and carpentry—both hold water's anger differently. Tell them how we tie those hands together, Mira Solace."
+    "You inhale, the air salt-sweet and alive. You let the memory lead—describe a winter where the pier survived because neighbors held the line. Your words sketch motion: people hauling sandbags, reed mats muffling a surge, a shared midnight repair that turned strangers into a crew."
+
+    menu:
+        "Lead with the technical slide—maps and numbers first":
+            "You steady the crowd with hard facts. Someone murmurs appreciation at the clarity; Samir nods, relieved to have structure. The room leans into the problem with practical faces."
+        "Start with the memory—the human story first":
+            "Your voice softens and the gathering leans forward. Eyes shine; people whisper their own slices of memory back at you. Arin Voss's camera captures the texture of faces listening. Trust blooms like moss in cracks."
+        "Open the floor with a question—ask neighbors to speak before you present":
+            "You place the microphone aside and give space. A quiet ripple of ownership moves through the crowd as hands rise—people begin naming their fixes, their losses, their small wins. Conversation becomes the plan."
+
+    # --- merge ---
+    "Whichever path you take, the result is the same in its intention: the meeting becomes two-way, not a lecture."
+    "The choice you make threads the rest of the assembly. Whichever path you take, the result is the same in its intention: the meeting becomes two-way, not a lecture."
+    "A small cluster forms around a battered map pinned to a plywood easel. Samir points to a narrowing that floods worst; an elderly fisher named Luis recounts when the alley would become a river overnight, and"
+    "how a thumb-sized current once took his aunt's cart. People add details—where the boards have weakened, which pilings lean, where the community kitchen lost its foundation last season."
+    "Dialogue spreads into a dozen small conversations. You move between them, listening with the quiet hunger of someone cataloging materials and memories. A teenager in a patched jacket shows you a clever bracket he'd welded to"
+    "connect stilts; an older woman, hands blue from dye, sketches a reed-mat prototype on a napkin; Noah negotiates who will bring a generator if the pumps hiccup."
+    "Arin Voss catches your eye across a circle. He mouths, 'Good,' and then, softer, 'Your story did it.' There's warmth there—a directness that takes the edge off whatever has been taut between you lately. You feel something uncoiling in your chest: relief laced with the tiny thrill of being seen."
+    "Etta convenes the assembly again, voice low and sure."
+
+    etta_maren "This is the kind of knowledge the city never tallied—tacit fixes, trades, barter of labor. We weave that into plans and they become stronger. Mira Solace, what's the first step?"
+    "You call out a sequence—small, practical, immediate: a repair rota, a shared tool pool, a weekend of reed-mat workshops and elevated-ramp trials. Samir volunteers to convert the community fixes into a concise brief that can speak"
+    "at hearings. Arin Voss offers to document the process and gather testimonials. Noah promises to run the logistics—transporting materials, stirring concrete when needed."
+    "Neighbors nod; commitments are made in clipped, efficient terms. The room smells like coffee and solder; the horizon bleeds iron-light through cloud."
+    "No one's pretending this will fix everything. You know the systemic forces beyond the pier—developers, corporate proposals, the city's tight budget—but in this patch of weathered wood, action feels immediate and possible."
+    "You fold the meeting toward conclusion, but Etta presses a small, gentle insistence."
+
+    etta_maren "Make sure the youth get to lead one part. Teach them the knots, the reeds, the measuring. If they know, they'll keep it. Power that way is quiet but long."
+    "A teenager raises a hand, shy and fierce."
+
+    "Teen" "I'll teach the ramps. I want to make sure my little sister can get to school if the boardwalk's gone."
+    "You feel the room swell at that—pride, the planting of a future that already contains its caretakers."
+    "As the assembly breaks into smaller groups and people start to leave with lists and plans, a moment of stillness opens between you, Arin Voss, Samir, Noah, and Etta. The harbor light dims shirted-gold; the bulbs overhead flick on as if signaling permission."
+    "Arin Voss steps close, voice half playful, half earnest."
+    hide mira_solace
+    show arin_voss at right:
+        zoom 0.7
+
+    arin_voss "We should film the first fixes. Not just for the city, but for the kids—so they can see their names in the work. And for anyone who says this neighborhood can't do it."
+    hide noah_solace
+    show mira_solace at center:
+        zoom 0.7
+
+    mira_solace "Yes. Show the work, show the will. Let it be evidence."
+    hide etta_maren
+    show samir_hale at left:
+        zoom 0.7
+
+    samir_hale "I'll make a two-page brief tonight. Concise. I can hand it to the council rep—"
+    "Noah interrupts, practical as ever."
+    hide arin_voss
+    show noah_solace at right:
+        zoom 0.7
+
+    noah_solace "And I'll run a list of who needs what. Tools, sleepers, plywood. People can't sign up for responsibilities they can't afford."
+    "You lay out the next steps: schedule, resource pool, documentation plan. Each task is named, a small chain of trust linked by action."
+    "You think, privately, about what this could become—a model for other blocks, a living curriculum of resilience. That thought warms something in you that had been cool and precise for too long. Hope isn't naive here; it's work-shaped and steady."
+    "Etta squeezes your hand before she goes, eyes bright."
+    hide mira_solace
+    show etta_maren at center:
+        zoom 0.7
+
+    etta_maren "Do not forget to rest, Mira Solace. We carry on better when we are human, not ghosts of our own plans."
+    "You smile and promise, though you already calculate the nights you'll spend drafting and coordinating. The promise is real because the people around you will hold you to it."
+    hide samir_hale
+    hide noah_solace
+    hide etta_maren
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle uplift; a single piano line hints at momentum]
+    "You step back from the pier edge, watching the neighborhood continue—small teams hauling boards, children practicing knots, an impromptu table where people swap hot soup and tool tips. The Tidehouse's influence hums like a distant engine: research translated into gathering, into labor, into claim."
+    "A soft wind carries the smell of kelp and ozone. In the scattering light, trust feels tangible—like a rope thrown between two roofs that will hold if enough hands grip it."
+    "You breathe in the plant-sweet, sea-salt air and taste the possibility that has threaded through the meeting. The harbor tilts with you, not fixed but shifting toward something that might, in time, hold."
+    # [Page-Turn Moment]
+    "You fold your notebook. Outside, the Old Pier lights blink awake. There's a meeting to present to a wider audience, a proposal on the horizon that will test the neighborhood's new resolve. You feel a mixture"
+    "of readiness and quiet fear—ready because people chose to act; afraid because challenge is coming. Still, the tone is clear: you are not alone, and small, steady actions are beginning to connect."
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: Swell into hopeful chord, then soft fade]
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

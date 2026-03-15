@@ -1,0 +1,173 @@
+label chapter17:
+
+    # [Scene: Rooftop | Morning — after a thin rain]
+
+    scene bg ch15_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, steady hum from inverters; gulls distant and awkward; the clack of boots on wet crates]
+    # play music "music_placeholder"  # [Music: A slow cello line underscored by scattered piano notes — minor, patient]
+    "You stand with your hands on a crate as if it were an altar. The crate is marked with a list of names you wrote in the margins last night: neighbors, elders, the little ones who"
+    "drew chalk boats on the boardwalk, the woman who baked bread down on 4th. The ink has feathered at the edges where rain met paper; the letters have the soft, stubborn smudge of memory."
+    "Around you the co-op breathes: Mira fussing with seed packets, Rahim coordinating schedules on a battered tablet, a couple of volunteers tightening a solar rail with laughter that sounds too bright for the weather. The panels"
+    "you fought for take sun anyway — or whatever thin light the morning offers — and feed a steady, modest current into the neighborhood’s grid. It is a small miracle, practical and stubborn."
+    "You think back to Evelyn Harrow’s clipped, exacting voice when you signed the framework: “Legally binding guarantees,” she said, and then a softer pause that still tasted of city hall. You remember Ilan Cortez across the"
+    "table, amber eyes steady as a compass, and the way you both softened at the thought of archives sealed in polymer tubs and a memorial rising from a patch of marsh that would otherwise be leveled"
+    "into another neat development plan."
+    "You also remember the clauses that read like a different language — “resilient commerce,” “temporary easements,” “contingent zoning” — phrases that promise safety while letting other things slip through the net. You feel them now the"
+    "way you can feel cold under warm clothing: an ache that doesn’t announce itself but will not be ignored."
+    "Mira approaches with a soaked envelope of seed-lists and the smell of mint clinging to her sleeves."
+    show mira_soto at left:
+        zoom 0.7
+
+    mira_soto "They're loading the archives into the van from the pier. Tomas is arguing with the contractor about a ramp—again."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "Is the waterproofing team double-checked? I want the journal copies in duplicate."
+    "Mira: (shrugging) 'We did. Twice. Still, I keep thinking of the Higgins house ledger—if a box flips, a world could drown in an hour.'"
+    "Rahim walks by, tablet tucked under one arm, eyes softening when he sees you."
+    show rahim_okoye at center:
+        zoom 0.7
+
+    rahim_okoye "The legal language is holding for now. Your clauses—your amendments—are in the contract verbatim. That was the hard part."
+
+    ava_marin "And the loopholes?"
+    "Rahim: (a beat) 'They exist. They always do. But they don't write the whole story. Not yet.'"
+    "You look at the rooftop edge where a low fence of driftwood keeps the younger kids from leaning over. Beyond it Tideward glints: rooftops patched with tarps and murals, the pier with its leaning poles like"
+    "knuckles. You taste salt and something metallic — the small economy of pumps and generators humming down below."
+
+    menu:
+        "Slip a personal note into the archive crate before it goes":
+            "You press a folded page into the lid: a small map, a list of nicknames, a recipe for clam stew. The courier barely looks, but later someone will find your handwriting and recognize a line you didn't think would matter."
+        "Trust the formal inventory; keep your notes with you":
+            "You slide the page back into your jacket pocket, the ink damp against your palm. It feels selfish and necessary at once — a private ledger in public work."
+        "Photograph the pages and distribute copies to three neighbors":
+            "You pull the cracked phone from your pocket, snap pictures, and send them to Tomas, Mira, and a woman named Ana who once taught sewing classes in a basement now earmarked for 'resilient commerce.' They respond with little waves and heart emojis; it feels like a lifeline and like waiting for a rope to fray."
+
+    # --- merge ---
+    "Narrative continues below"
+    # [Scene: Community Co-op Workshop | Afternoon — glass walls steamed at the edges]
+    hide mira_soto
+    hide ava_marin
+    hide rahim_okoye
+
+    scene bg ch15_e67f19_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soldering hiss, the soft laugh of someone recounting a long, private joke; rain hitting the panes in a thin, even rhythm]
+    # play music "music_placeholder"  # [Music: Quiet acoustic guitar, minor chords]
+    "Inside, the air smells of coffee and heated resin. Ilan Cortez is bent over a filter unit, fingers moving with the practiced economy of someone who fixes by habit. When he looks up, his face has"
+    "that quiet optimism it always does, the kind that can be stubborn and blinding in equal measure."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "The mobile units are ready. We can run the first route to the temporary housing sites tomorrow. If the filters perform at three liters per minute, we can keep a hundred households on basic supply for a week with rotation."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "And after a week?"
+    "Ilan Cortez: (hesitation) 'Then we iterate. We train local teams, move more vans. We make it scalable, communal, not just a one-off charity thing.'"
+
+    ava_marin "You sound like Rahim — plans in spreadsheets. Will that fix the fact that some people are being moved into places without full tenancy rights?"
+    "Ilan Cortez: (frowning) 'It won't fix policy. But it buys time. It buys comfort, safety.'"
+    "Ava Marin: (quiet) 'It also makes people more moveable.'"
+    "His hands go still. He meets your eyes, and there is a brief, fragile pause where private fears press up against public hope."
+
+    ilan_cortez "I didn't come here to displace anyone. I came to make things that let people stay."
+
+    ava_marin "You didn't come here to sign clauses that let developers rezone family plots into 'resilient commerce' with council approvals baked in the margins."
+    "Ilan Cortez: (softly) 'No. I don't want that. I—'"
+    "You both fall into the half-truths that keep partnerships alive: promises meant to be kept, silences meant to be filled later."
+    "Tomas shuffles in, oil-smudged and blunt as ever, and drops a hand on the workbench in a scent of machine grease and sea-wind."
+    show tomas_marin at center:
+        zoom 0.7
+
+    tomas_marin "Your vans are pretty, kid. But pretty vans don't sew nets. They don't fix a hull at two in the morning when the tide's eaten half the dock."
+
+    ava_marin "They don't replace human muscle. They just give people something steady to drink when the taps betray us."
+    "Tomas: (grudging) 'Then keep both. Just don't let the pretty things make us forget how to row.'"
+    "The workshop fills with low argument — not hostile but fibrous, full of texture. You watch as Ilan Cortez explains pump maintenance to a teenage volunteer while your fingers tap the journal in your bag. Each"
+    "page feels like a contract with ghosts, with absent elders who taught you to splice rope, with a neighborhood that resists being catalogued into tidy safety boxes."
+
+    menu:
+        "Lean into Ilan's plan and suggest you run the repair shop together":
+            "You say it small and fierce: 'We could make a place together—repair, teach, keep things mended.' Ilan's face opens. He says yes, immediately, and for a moment the world tilts toward possibility."
+        "Hesitate and ask for time to think about a shared future":
+            "You tell him you'd like some time — you have a ledger to finish, people to guard. He nods slowly, understanding and hurt braided in his silence."
+        "Propose a compromise: start a shared shop but bind it to the co-op's bylaws":
+            "You speak of bylaws and shared ownership; Ilan's eyes flick to the legal binder across the table. He smiles, tired but steadier. 'Okay,' he says. 'Let's write it in.'"
+
+    # --- merge ---
+    "Narrative continues below"
+    # [Scene: Pier — Memorial Unveiling | Evening — lanterns and fog]
+    hide ilan_cortez
+    hide ava_marin
+    hide tomas_marin
+
+    scene bg ch15_e67f19_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Quiet murmur of assembled neighbors; a single trumpet plays a piece that keeps tripping over itself]
+    # play music "music_placeholder"  # [Music: A low, elegiac string quartet, each note stretched thin]
+
+    "The memorial ring catches the wet light and the faces of those who came: a dozen, then several dozen, neighbors standing with whispered names on their lips. The plates are brief, honest" "For the Higgins Street Market,' 'For Mrs. Calder's Porch,' 'For the children who kept the tide from being only menace."
+    "In private, behind the crowd, Ilan Cortez finds you. Rain has started again — not a storm but a detailed weather that knows how to get into seams. He presses his forehead to yours under the wet sky, an unspoken liturgy of small, necessary contact."
+    "Ilan Cortez: (soft) 'We did something. It matters.'"
+    show ava_marin at left:
+        zoom 0.7
+
+    ava_marin "It saves some things. It leaves others at risk."
+    show ilan_cortez at right:
+        zoom 0.7
+
+    ilan_cortez "Is that enough?"
+    "Ava Marin: (after a beat) 'It's a ledger. A ledger of small things. We salvaged pages. We didn't save the whole library.'"
+    "He laughs, a short sound that doesn't reach his eyes."
+
+    ilan_cortez "You write like someone already running out of ink."
+
+    ava_marin "I have a bad habit of writing what I don't want to forget."
+
+    "You feel the crowd's low hum, the wet air on your face, the distant metallic scent of cranes working at a site where a new foundation is poured. Somewhere in the city a council meeting signs a clause that will, in time, reconfigure ownership. Parcels are rezoned—language used like a blade to shape neighborhoods into investment-ready blocks. Some families are moved into temporary housing with promises that sound like sugar on the tongue" "transitional support,' 'short-term vouchers."
+    "A woman near the memorial weeps quietly. You do not know her name, but you recognize the small animal of grief in the way she wipes rain from her face as if embarrassed. You recognize it"
+    "because you carry it too. You think of the old repair shop you grew up in, the smell of oil and lemon, Tomas' hands, the small stubbornness of familiar routines. The victory you engineered with signatures"
+    "and ink feels like a repaired hull with new plates bolted on—stronger in places, and yet you know another tide will test those bolts."
+
+    ilan_cortez "We can guard it. We can make it so the co-op's bylaws are ironclad."
+
+    ava_marin "Iron clangs. People need care more than iron. People need predictable rent, rights, someone to answer when the city thinks a clause can fix a life."
+    "He listens. He brings his hands up and cups your face, thumb wiping rain along your cheek. There is a warmth there that steady hands can give when policy cannot. You let him hold that moment"
+    "because to refuse it would be to refuse a kind of shelter that matters. Still, your jaw tightens with the knowledge that comfort is not the same as justice."
+    "You think of the days to come: vans that hum, solar panels that feed the co-op lights, workshops teaching hull mending and filter maintenance. You think of the clauses that will be reinterpreted behind closed doors,"
+    "investor memos that start with the phrase 'scalable opportunity,' and the families who will sign papers that feel like survival even when they cost dignity."
+    "You watch the memorial's names in the lanternlight. You remember every small argument, every sealed box, every late-night negotiation, and the way so much of what you saved required consent from systems that can be just as cruel as storms."
+
+    ilan_cortez "Promise me one thing. When it gets messy — when the city does what cities do — you won't stop calling me. Or asking me to fix something, even if all I can do is make a van move."
+
+    ava_marin "I promise. But you promise me this: don't let your tech become a reason for them to move people. Keep it with the co-op. Keep it with the people."
+
+    ilan_cortez "I'll try. That's all I can offer sometimes. The rest is us doing it wrong or right together."
+    "You agree by leaning into him, forehead against his, letting the small wet world compress into that tiny, human contract."
+    hide ava_marin
+    hide ilan_cortez
+
+    scene bg ch15_e67f19_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain softens; the distant scrape of a crane like teeth against metal]
+    # play music "music_placeholder"  # [Music: The strings fall to a single sustained note that trembles and then settles]
+
+    "You close the journal. The pages inside hold lists, names, maps drawn in hurried strokes and careful notations about where to place sandbags, about Aunt Rosa's recipe for salt-baked fish, about which houses have spare jars for storm water. The margins are notes to yourself" "Remember Mrs. Calder's dog; he knows the tide times."
+    "You feel a curious settling akin to giving a wound stitches: it isn't healed, not truly, but it is held together for the next stretch. You have patched a place to live with the fabric you"
+    "had — law, community, work — but you know those patches will need constant mending. You have traded a clean solution for a living, breathing compromise. It will fray."
+    "You rise and tuck the journal beneath your jacket, the leather warm against your ribs. Around you, the co-op's lights glow stubbornly. The memorial's words are steady in the low wind. Ilan Cortez takes your hand; it fits like a tool you know by feel."
+    "You walk the pier with the weight of what you saved and what you could not save stitched together. The city hums behind you — a machine with parts that include kindness and calculation. Investors will"
+    "keep finding margins to fold reality into profit; the city will keep presenting tidy maps while life keeps insisting on messy, necessary roots."
+    "You do not end in triumph. You end in work: in the act of tending the small things that make up a human life. You will go back to the workshop tomorrow, to the rooftop, to"
+    "the legal meetings, to the late-night lists and the damp ink. You will maintain the memorial plates and the solar arrays and the vans and the relationships. You will keep passing along recipes and map fragments"
+    "and the names of streets that are slowly being reworded on official platting documents."
+    "You let grief and gratitude live in the same pocket. They do not cancel each other. They are tools. You will use them both."
+
+    scene bg ch15_e67f19_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A single gull, persistent and raw]
+    # play music "music_placeholder"  # [Music: A low, resigned chord resolves — not cleanly, but with a soft, honest finality]
+    "You breathed hope into a plan and watched it hold — for now. You held love in a way that felt like repair. That is where you stand: mending, watching, refusing to let memory be leveled even as the city redraws maps."
+    "You close your eyes and hear the ledger of small things turn, one careful page at a time."
+
+    scene bg ch15_e67f19_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

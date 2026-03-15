@@ -1,0 +1,163 @@
+### SCRIPT
+# Route: Additional Route (Ending C3 / B2 — Sad)
+# Context: 6b08b4
+
+[Scene: County Courthouse | Morning]
+[Background:"ch8_6b08b4_1"]
+[Music: Low, taut strings; a heartbeat under the room]
+[Sound: Papers shuffle, a judge’s gavel taps faintly through the noise]
+
+You walk in carrying the weight of the last week like wet clothes clinging to your shoulders. The courthouse smells of coffee and lemon-scented sanitizer; beneath that, the dry, paper memory of town fights. Your boots squeak in the aisle. Your field notebook is folded into your palm, the pencil left blunt from pacing and note-taking; you can feel the ridges of its spine through fabric, an anchor.
+
+Elias "Eli" Calder sits in the third row, hands knotted between his knees, jaw set. Nia is beside him with her legs swinging; she looks smaller somehow in a room that is not the marsh. Tomas stands at the back, shoulders straight as ever, his breath visible in the cold. Rina's chin is tucked into a scarf; Mayor Rosa holds a folder tight to her chest, eyes tired but attentive. Cassandra "Cass" Rey watches from the table opposite, immaculate and unreadable, her tablet casting a pale light over the legal pads in front of her.
+
+Judge: "Ms. Voss, you may proceed with your testimony."
+
+You nod, because words are what you have trained for and practiced—though the thing you love is not only words but a living system that refuses to be parsed into neat clauses. You breathe and let your voice come out measured. It carries, surprisingly, the low salt of the marsh you know by touch.
+
+Mara Voss: "I will state for the record my observations of Willowmarsh’s eelgrass beds, sediment accretion rates, and the likely downstream effects of immediate grading in the headland area. I have taken samples and maintained continuous tide logging for the last nine months." (You feel the familiar click of a data point landing in the room.)
+
+You show the judge a chart; the projector hums, and small spikes of color turn into a tide curve that tightens the room's air. You are precise because precision is the form your care takes.
+
+Developer Counsel: "Ms. Voss, are you suggesting that temporary grading will—quote—‘permanently alter’ the marsh? Isn't that speculative?"
+
+Mara Voss: "No." (The single word is steady; you let it be.) "The data show that sediment displacement from headland grading, coupled with the projected storm-surge increase, creates persistent channels that change hydrology. With repeated tides, those channels will widen and the eelgrass will fail to recolonize in certain zones."
+
+Developer Counsel: "But your models assume a worst-case scenario. The developer has proposed staged work windows to minimize harm. Are you aware of any evidence that they will not comply?"
+
+Mara Voss: "Compliance is not the same as impact mitigation. The windows narrow margins when the stakes—seedbeds and juvenile fish nurseries—are time-sensitive. Even careful staging can produce cumulative effects we cannot reverse."
+
+You can feel Cassandra "Cass" Rey's eyes on you—cool, assessing. Her posture does not read as antagonistic to the people in front of her; she thinks in blueprints and deliverables. You wonder, privately and sharply, whether she imagines the marsh as a checkbox.
+
+Judge: (leans forward) "Ms. Voss, your testimony is acknowledged. Counsel for the developer, do you have cross-examination?"
+
+Developer Counsel: (rises, smooth) "Yes, Your Honor."
+
+The cross is clinical and long—questions that sound like calm waves but are aimed where the marsh is most vulnerable: your confidence, the limits of your data, the scope of your authority. You feel the room tighten with each attempt to recast nuance as uncertainty.
+
+Elias "Eli" Calder watches you. Sometimes his face is a map of restraint; sometimes, in the corner of an eye, there is accusation. Today there is only worry and a worry that is fond because he knows the cost of being right.
+
+After hours of testimony and legal parry, the judge calls a short recess and retreats to chambers with stacks of files. The courthouse hums with the low electricity of pending verdicts. You step outside into the cold and let the salt air cut through your throat. For a moment, you taste the marsh as if it were a memory you can hold.
+
+[INTERACTION]
+> Choice A: "Go speak quietly to Elias outside the courthouse"
+> Choice B: "Follow the judge as he exits to listen for murmurs"
+[Outcome A: "You leave the courthouse threshold and find him by the stone steps. You don't promise victory; you promise you will not let this be the only night you try."]
+[Outcome B: "You shadow the halls, trying to catch tone and cadence—anything to decode whether the ruling will be narrow or sweeping; all you gather is a practiced impartiality."]
+[MERGE: Continue to Hallway outside the judge’s chambers]
+
+[Scene: Hallway outside the judge’s chambers | Midday]
+[Background:"ch8_6b08b4_2"]
+[Sound: Distant murmurs of reporters, the muffled ring of a phone]
+[Music: Single piano note reverberating]
+
+You don't know what will come from the judge's brief deliberation. The law is a scaffold, sometimes strong, sometimes with missing planks. The ruling returns: a compromise of procedure, not of values.
+
+Court Clerk: "The court orders an expedited supplemental environmental impact study to assess the headland's sensitive zones. Additionally, because the work pauses have economic ramifications, the court directs the parties to present a worker-mitigation plan within seven days."
+
+The words land like cold rain. An expedited study is not a stop; it's a delay draped in the language of process. And worker mitigation—it's a human, necessary clause. It ties the marsh to families' paychecks with legal rope.
+
+Mara Voss: (under her breath) "More study—another pause. A half-measure."
+
+Rina Park: "It's something." (she says, though it reads like a fragile truth; she clasps a thermos between both gloved hands) "It gives us time to gather more data and to rally support."
+
+You know 'time' can be both ally and enemy. For every day the graders do not take a cleaver to the headland, the marsh gets a chance. For every day of delay, the developer can shore up political capital, slide in consultants, and temper public outrage with promises.
+
+Tomas: (voice rough) "Court’s words won't stop the graders tonight, if they have a permit. Watch the headland, girl."
+
+The warning sits in your chest like a stone. You feel the ache of responsibility—this is why you came back. You also feel the pull of exhaustion. The judge's order is legal scaffolding; outside, tides and machines answer to other logics.
+
+[Scene: Headland / Azure Crescent | Dusk into Night]
+[Background:"ch8_6b08b4_3"]
+[Sound: Distant rumble of heavy machinery, the metallic cough of diesel engines, and the constant low ripple of water meeting altered sand]
+[Music: Low brass and a distant, anxious cello; the tone drops]
+
+You arrive at the headland with a taste of diesel and wet earth in your mouth. The floodlights make the sand shine like bones; survey stakes cast long, sharp shadows. Despite the court's order for expedited study, the graders have begun work on sections the developers call 'non-sensitive'—an argument being made in real time by steel and men.
+
+Cassandra "Cass" Rey steps down from a vehicle, boots tidy despite the mud. Her coat collars up against the wind. She looks at you as if at a blueprint—purposeful, unsmiling.
+
+Cassandra "Cass" Rey: "Mara. Good to see you out here. The team is only working on staging areas. We cleared the schedule with counsel. The judge asked for studies, and we are compliant while keeping deadlines."
+
+Mara Voss: "Your staging cuts through known eelgrass recruitment zones. 'Staging' is not neutral ground; it changes how water flows."
+
+Cassandra "Cass" Rey: (tilts head) "I understand your concerns. I also understand the town's need for steady work and for promises to be kept. We can work on monitoring. We can adjust techniques."
+
+The exchange is precise—two people trying to find a way to say different things without breaking the sentence. Her tone has the coolness of someone who believes the plan will deliver. You respect that clarity, and it makes you angrier, because clarity can be dangerous when it chooses ends over roots.
+
+Elias "Eli" Calder steps up beside you, sleeves dusted with grit, hands still carrying the smell of rope and tar. He does not stand between you and Cass; instead he stands adjacent, a living witness to both arguments. His presence is the thing your arguments aim to protect and the thing most at risk.
+
+Elias "Eli" Calder: "Cassandra, how long until you set the next stake? Tomas says his grandson's crew is on that stretch to help out—are they counted as 'staging' too?"
+
+Cassandra "Cass" Rey: (softly) "We're coordinating with site foremen. If you have specific data about those stretches, Ms. Voss, share it. We’ll consider adjusted buffers."
+
+The offer feels both generous and limited. You want to accept a small victory because you are exhausted and because 'considering buffers' is better than bulldozers with no eyes. But you also know that 'considering' can become the language of delay and forgetfulness.
+
+Rina Park: (to you, low) "If we push too hard right now, the judge might narrow the study's scope. If we don't push, they reshape the ground. There's no clean win."
+
+Tomas: (gruff) "We feed mouths with hands. If work stops, people starve. But if the shore dies, they'll starve differently."
+
+The night falls like a curtain. Floodlights bleach faces and make promises look stark. Somewhere, a gull cries, sharp and small. You stand on the edge of a decision that is not merely legal or scientific—it is about what you can and cannot demand of people who need immediate bread.
+
+[INTERACTION]
+> Choice A: "Approach the worker crew and ask about wages and months ahead"
+> Choice B: "Walk the exposed flats to see the survey lines up close"
+[Outcome A: "You talk to the men leaning against a truck. They are blunt: pay is immediate, yes, but what they want is hours and certainty. Their eyes shift to the machines with hope and fear braided together."]
+[Outcome B: "You move along the water's edge, boots sinking into cold mud. The survey flags rustle in the wind. You trace the lines with your eyes and feel the future of the marsh as a pattern of potential losses."]
+[MERGE: Continue to Marsh fringe / Survey lines]
+
+[Scene: Marsh fringe / Survey lines | Night]
+[Background:"ch8_6b08b4_4"]
+[Sound: The hum of distant machinery, a nearer patter of small waves, the whisper of flags]
+[Music: A low, forlorn violin]
+
+You stand alone on the marsh edge for a moment, the judge's words and the machines' lights threading through your thoughts like two different tides. A supplemental study is a kind of mercy; worker mitigation is humane. But the feeling in your chest is the knowledge that small mercies rarely protect entire ecosystems.
+
+Your internal calculus is a ledger of harms and obligations. You weigh the cost: legal fees and community fractures versus immediate wages and livelihoods that keep the town functioning. You imagine Nia's small, impatient face—how she wants action now, not delay. You picture Elias "Eli" Calder's hands knowing every knot and not wanting to barter survival for principle. You think of Tomas, who measures time in seasons, not statutes.
+
+Mara Voss: (internal) "If I escalate legally, we may delay the graders longer—but at what cost? Resentment builds. People will turn on us. If I push for emergency employment to fill the gap, the town can breathe but the debt will shadow us. If I accept a mediated concession, we protect parts of the marsh but concede ground—literally."
+
+Your mind loops the arguments, landing and lifting like waders in mud. Each path is a tide pulling someone in a direction you cannot fully predict.
+
+Rina Park joins you, hands tucked into pockets. She speaks softly so her words won't carry to the machines.
+
+Rina Park: "We have NGO contacts who could float an emergency loan for local work—shoreline planting, marsh nursery builds. It would buy time. But it would bind the town's ledger to repayment and donors."
+
+Mara Voss: "And the judge's worker-mitigation plan—if we frame it as immediate local hiring for restoration, does that satisfy the court and keep graders off the worst zones?"
+
+Rina Park: "Maybe. But it risks making ecological work into a stopgap, not a structural solution."
+
+Elias "Eli" Calder, when he looks at you now, does not wear anger. He wears the simple, dangerous thing of someone who believes you can find a way. His voice is low.
+
+Elias "Eli" Calder: "Whatever you pick, Mara, choose with people in mind. Not just maps."
+
+You close your eyes, letting the night press its cool around your temples. The marsh breathes slow and indifferent. The lights on the headland keep moving, like a clock that forgets human pleas.
+
+[Music: Strings fall away into a single unresolved chord]
+
+You are the person who has learned to make models sing and to translate tide data into stories that move people. Now the question is which language you will use next—law, labor, or compromise. Each feels like a version of betrayal to someone you love or owe.
+
+This is the hard edge of responsibility: the knowledge that every action saves and costs in different currencies.
+
+You breathe salt into your lungs and let the decision settle for a second, heavy as a stone.
+
+[Scene: Marsh fringe | Night]
+[Background:"ch8_6b08b4_5"]
+[Music: A solitary, low note lingering]
+
+You must choose your escalation.
+
+[DECISION POINT]
+1) Appeal and intensify legal pressure, push for larger injunctions. -> TARGET chapter_id: [9]
+2) Organize emergency local employment schemes to offset lost work (temporarily funded by NGO loans). -> TARGET chapter_id: [15]
+3) Agree to mediated concessions that freeze site work in sensitive zones while allowing other sections to proceed. -> TARGET chapter_id: [13]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Appeal and intensify legal pressure, push for larger inju..." -> ID 9 (Route B / Ending)
+    > Jump Target File: script_ch9_Route_B_Ending_ctx_3be532.txt
+Option 2: "Organize emergency local employment schemes to offset los..." -> ID 15 (Additional Route (Ending C3 / B2 — Sad))
+    > Jump Target File: script_ch15_Additional_Route_Ending_C3_B2_Sad_ctx_3be532.txt
+Option 3: "Agree to mediated concessions that freeze site work in se..." -> ID 13 ()
+    > Jump Target File: script_ch13_unknown_ctx_3be532.txt

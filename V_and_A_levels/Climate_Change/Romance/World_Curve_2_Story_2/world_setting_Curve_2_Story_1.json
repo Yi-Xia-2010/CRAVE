@@ -1,0 +1,126 @@
+{
+    "design_logic": "I treat 'Climate Change' as the engine that shapes the world's stakes and constraints, and 'Romance' as the human thread that forces characters to choose between hardened pragmatism and compassionate risk. The core conflict is between short-term economic/political solutions that sacrifice ecosystems and long-term community-led resilience that demands sacrifice and cooperation. Romance is used to humanize these policy-level choices: relationship decisions mirror the larger ethical choices (protect the town and one another, or pursue personal safety/power). This gives narrative hooks across six chapters: discovery, friction, attempts at compromise, betrayal/complication, a decisive climate event, and resolution. Visual and character design emphasize coastal, weathered aesthetics and wearable tech/salvaged fashion to reinforce the climate-impacted setting.",
+    "setting": "A small coastal town called New Aster in the near future (2035–2045) where rising seas and increasingly violent storms pressurize livelihoods. The town sits on a mix of reclaimed wetlands, aging masonry harbor, and new experimental resilient infrastructure. Atmosphere: salt-scented air, constant low clouds punctuated by brutal sunbreaks, and a community oscillating between nostalgia and mobilized hope.",
+    "visual_style": "Painterly coastal realism, textured cel-shaded characters, muted storm palette with neon accents, eco-craft details, weathered materials, cinematic lighting",
+    "main_characters": [
+        {
+            "name": "Mara Kestrel",
+            "role": "Protagonist",
+            "personality": "Practical, empathetic, stubbornly hopeful. Trained scientist with grassroots instincts—prefers small, inclusive solutions and is driven by loyalty to neighbors. Tends to shoulder responsibility and is slow to trust institutional fixes.",
+            "appearance_features": {
+                "hair": "Dark auburn, chin-length bob with sun-bleached tips and an always-tucked side braid",
+                "eyes": "Sea-glass green, rounded and observant, with fine crow's feet from squinting into glare",
+                "clothing": "Layered, functional wardrobe: waxed cotton field coat with patched elbows, high-waisted cargo trousers made from recycled fiber, simple hemp sweaters, and scuffed waterproof boots with improvised laces",
+                "accessories": "A battered leather field notebook stuffed with tide charts and pressed seaweed, a solar-charged wristband (monitoring air/water quality), and a small sea-glass pendant from her childhood home"
+            },
+            "goal": "To design and implement community-centered resilience measures that protect New Aster without sacrificing its culture or environment—and to keep a new, fragile relationship honest and intact during crisis.",
+            "background_story": "Born and raised in New Aster, Mara left to study coastal ecology after a storm destroyed part of her neighborhood in her teens. She returned when the town council sought scientific expertise. She juggles trust in science with a fierce loyalty to neighbors who fear being displaced by large-scale projects.",
+            "emotional_trait": "Strength: fierce empathy and persistence. Flaw: self-sacrificing to the point of burnout and reluctance to ask for help."
+        },
+        {
+            "name": "Elias 'Eli' Rowan",
+            "role": "Love Interest",
+            "personality": "Warm, inventive, lightly roguish. Optimistic about technology but pragmatic; believes in small-scale engineering solutions that are maintainable by locals. Socially open, but haunted by past failure (a project that caused harm).",
+            "appearance_features": {
+                "hair": "Sandy blond, intentionally messy, long enough to push behind his ears; sun-kissed tips",
+                "eyes": "Gray-blue, narrow and constantly scanning—friendly but intense",
+                "clothing": "A paint-splattered work jumpsuit rolled at the sleeves over a breathable technical tee, a woven fisherman’s scarf, and utility boots with welded-on patches from previous projects",
+                "accessories": "A salvaged drone remote with braided cord, a pocket-sized toolkit always slung on his belt, and a mismatched pair of safety goggles worn atop his head when excited"
+            },
+            "goal": "To create resilient, low-cost engineering solutions (modular breakwaters, tidal harvesters, rooftop rain systems) that keep people in place and provide livelihoods—while proving he can do right by his community.",
+            "background_story": "Eli grew up in a nearby city working on urban tech; he returned to New Aster after a friend was injured during a poorly executed coastal project. He wants redemption through tangible, demonstrable work and finds in Mara both a collaborator and a mirror for his idealism.",
+            "emotional_trait": "Strength: ingenuity and cheerfulness. Flaw: tendency to fix problems without fully accounting for social or political complexities—can be impulsive."
+        },
+        {
+            "name": "Livia Chen",
+            "role": "Antagonist",
+            "personality": "Charismatic, politically savvy, and ruthlessly pragmatic in public. She genuinely believes that large-scale, centralized development is the only way to save New Aster economically, but privately struggles with guilt and conflicting loyalties.",
+            "appearance_features": {
+                "hair": "Sleek black bob with precise undercut detail, always immaculate",
+                "eyes": "Deep brown, almond-shaped—calm, assessing, and practiced at persuasion",
+                "clothing": "Tailored waterproof trench coat with architectural lines, minimalist dark trousers, and polished ankle boots; she favors structured garments that read as authority in stormy settings",
+                "accessories": "A gold brooch shaped like a stylized wave (family crest), a tablet encased in matte black used for council briefs, and a slim band that controls a local development dashboard"
+            },
+            "goal": "To secure investment and build a high-tech barrier and mixed-use development that she argues will stabilize New Aster's economy and population.",
+            "background_story": "Daughter of a developer and former climate policy analyst, Livia rose to political prominence advocating for modernizing the town. Her family's businesses were buoyed by past booms; she sees a large project as both pragmatic rescue and a way to secure her legacy.",
+            "emotional_trait": "Strength: decisive leadership and charisma. Flaw: moral blind spots caused by prioritizing metrics (jobs, GDP) over intangible community heritage—leading to defensiveness and secrecy."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rafi Gómez",
+            "relation_to_main": "Childhood friend of Mara and Eli's earliest collaborator",
+            "appearance_summary": "Tanned, wiry fisherman in his 40s with crow's-feet, salt-flecked beard, wearing layered knit hats and a patched oilskin apron.",
+            "function_in_story": "Embodies the town's lived memory—provides historical perspective on storms, serves as a moral compass and practical labor for community projects, and catalyzes neighborhood mobilization."
+        },
+        {
+            "name": "Dr. Naomi Park",
+            "relation_to_main": "Mara's former professor and scientific mentor",
+            "appearance_summary": "Grey-streaked bun, sharp glasses with a scattering of pens in a sustainable blazer, always with data printouts.",
+            "function_in_story": "Offers scientific legitimacy and data; presents hard choices (sacrifice locations to save ecosystems), and pressures Mara to quantify trade-offs—occasionally cold but ultimately supportive."
+        },
+        {
+            "name": "Tess O’Malley",
+            "relation_to_main": "Local council aide who admires Livia and questions the council line",
+            "appearance_summary": "Eager, mid-20s, short-cropped red hair, fluorescent lanyard, often in rain-ready anorak.",
+            "function_in_story": "Insider who leaks bureaucratic nuance to protagonists, helps them navigate political obstacles and highlights Livia's vulnerabilities; potential ally for reform from within."
+        },
+        {
+            "name": "Grandma Hira",
+            "relation_to_main": "Elder of the community and Rafi’s neighbor",
+            "appearance_summary": "Stooped figure with silver hair braided long, colorful patched shawl, weathered face and bright, attentive eyes.",
+            "function_in_story": "Symbolic keeper of town memory; provides moral guidance, historical stories, and helps rally older residents who are resistant to change."
+        }
+    ],
+    "locations": [
+        {
+            "name": "New Aster Harbor",
+            "visual_description": "A ragged stone breakwater curves into a grey-green sea. Lighting is diffuse—low clouds let shafts of late afternoon light spill through. Colors: salt-streaked grays, barn-red buoys, and algae-green stains. Atmosphere: a mingled smell of diesel and wet kelp, gull calls, and the constant hiss of surf. Background art should show tense contrast between repaired wooden piers and newer concrete patches, with ropes, nets, and small community boats."
+        },
+        {
+            "name": "Tidewatch Lighthouse & Rooftop Garden",
+            "visual_description": "An old lighthouse repurposed into a communal lookout, its top encircled by lush rooftop planters. Lighting: golden-hour warmth after storms, wet surfaces reflecting light. Colors: warm ochres against slate sky, resilient greens of salt-tolerant plants. Atmosphere: quiet refuge, wind-battered but alive—ideal for intimate scenes and whispered conversations."
+        },
+        {
+            "name": "The Arbor (Community Greenhouse and Workshop)",
+            "visual_description": "A glass-and-salvage-wood greenhouse pulsing with life: hanging succulents, drip-irrigation pipes, and solar panels patched into the glass. Interior lighting is humid and seedling-bright, casting soft shadows on workbenches cluttered with tools and tide-monitoring gear. Colors: vivid greens and warm wood tones contrasted with recycled-metal accents. Atmosphere: hopeful, industrious, a tactile place where community craft meets science."
+        },
+        {
+            "name": "Estuary Research Lab",
+            "visual_description": "A modest research outpost built into pilings above the estuary. Lighting is clinical fluorescent inside and pale dawn light outside. Colors: cool blues, sterile white counters stained with salt, and steel-gray machinery. Atmosphere: focused, data-driven; glass walls look out at reedbeds and muddy flats, creating tension between quantified models and human stories outside."
+        },
+        {
+            "name": "Council Hall (Seawall Proposal Chamber)",
+            "visual_description": "A civic building with wide bay windows showing the sea; artificial amber lighting and polished stone convey formality. Colors: authoritative navy, brass, and neutral stone. Atmosphere: taut, bureaucratic, where televised debates and private negotiations unfold—contrasts public ceremony with private pressure."
+        },
+        {
+            "name": "Flooded Promenade & Ruined Boardwalk",
+            "visual_description": "Jagged remnants of a once-popular boardwalk now half-submerged after a storm: broken planks, spray-painted warnings, and tide pools reflecting ashen sky. Lighting is overcast and cold with occasional reflective glints of sun on water. Colors: driftwood gray, sickly green algae, and flashes of discarded signage. Atmosphere: melancholic, visceral reminder of what is at stake—great for emotional turning points."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Compromise"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led, hybrid solutions succeed: Mara and Eli co-design scalable, low-impact infrastructure that reduces flood risk while preserving neighborhood fabric. Livia concedes to a revised plan and helps secure funding. The romance blossoms into a committed partnership, and New Aster becomes a model for cooperative adaptation."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A severe storm forces difficult concessions: part of the town is sacrificed to protect a larger population. Mara and Eli's relationship survives but is strained by compromises they had to accept. Livia's project is partially implemented—some economic stability returns but at cultural cost. The town endures, richer in lessons but diminished in places and memories."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political and private betrayals accelerate destructive development. A rushed seawall project fails during a storm, causing greater damage and displacement. Livia consolidates power but becomes isolated; Mara and Eli are forced to leave New Aster separately. The romance collapses under loss, and the town fractures—serving as a cautionary tale."
+        },
+        {
+            "type": "True",
+            "summary": "No tidy victory—solutions are hybrid and ongoing. Mara and Livia reach a tense, honest truce: small-scale community measures are adopted alongside controlled development with strict environmental covenants. The romance becomes a partnership of equals working toward continuous adaptation. The ending emphasizes hard-won, imperfect stewardship rather than heroics."
+        }
+    ],
+    "estimated_chapters": 6
+}

@@ -1,0 +1,124 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the story's emotional crucible: characters' choices about land, livelihood, and adaptation become metaphors for intimacy, trust, and sacrifice. The core conflict is between rapid, technocratic solutions and slow, culturally-rooted resilience—played out as a love triangle where personal relationships mirror differing approaches to saving a hometown threatened by sea-level rise.",
+    "setting": "Tidehaven, a near-future coastal town (circa 2042) built around a ransacked harbor, tidal marshes, and low limestone cliffs. Once a small fishing community, it's now a patchwork of experimental living shorelines, solar canopies, and neglected dockside warehouses. The mood is melancholic but alive with quiet resistance: foggy mornings, salt-scratch air, and communal projects carving out hope against encroaching tides.",
+    "visual_style": "Painterly coastal realism, Soft anime character shading, Muted warm palette with salt-gray and algae green accents, Weathered textures, Subtle environmental sci-fi details",
+    "main_characters": [
+        {
+            "name": "Mira Kestrel",
+            "role": "Protagonist",
+            "personality": "Pragmatic, empathetic, quietly stubborn. Mira balances scientific rigor with deep emotional intuition; she listens before deciding and is driven by guilt-tinged responsibility. She can be intensely private about her past and prone to overworking to prove she deserves forgiveness.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves with sea-green dipped tips, usually tied in a loose low knot when working",
+                "eyes": "Gray-green, almond-shaped with a tired but attentive gaze",
+                "clothing": "Olive, water-resistant field jacket with sewn-on project patches; faded high-waist denim; knee-high rubber boots scuffed with salt; a knitted charcoal beanie for foggy mornings",
+                "accessories": "Weatherproof notebook with tide charts, a battered laptop stickered with open-source logos, a small brass compass pendant that belonged to her mother"
+            },
+            "goal": "Design and implement community-led adaptation measures (living shorelines, marsh restoration) that preserve both the town's safety and its way of life; reconcile with her past decisions about leaving Tidehaven.",
+            "background_story": "Born and raised in Tidehaven, Mira left to study coastal engineering after a devastating storm that took her father's boat. She returned years later as a resilience planner, determined to apply new science but haunted by guilt that she wasn't there when her family needed her.",
+            "emotional_trait": "Strength: resolute empathy — she rallies people. Flaw: carries survivor's guilt and fears making irreparable decisions."
+        },
+        {
+            "name": "Jonah Reyes",
+            "role": "Love Interest",
+            "personality": "Warm, steady, wryly humorous. Jonah is a hands-on problem-solver who prefers practical solutions rooted in tradition. He distrusts outsiders but is deeply loyal to his community and slow to change unless convinced by lived experience.",
+            "appearance_features": {
+                "hair": "Thick black hair with sun-bleached brown tips, cropped close at sides and longer on top",
+                "eyes": "Warm amber-brown, rounded and often smiling at the corners",
+                "clothing": "Heavy knit sweater under a waxed oilskin coat patched at the elbows; rolled-up jeans that reveal old rubber waders; always a wool scarf in stormy weather",
+                "accessories": "A small carved wooden talisman made by his late mother, a vintage Polaroid camera he uses to document changes in the harbor"
+            },
+            "goal": "Protect the fishing traditions and livelihoods of Tidehaven while finding a viable middle ground with new restoration techniques.",
+            "background_story": "Jonah comes from a multi-generation fishing family now struggling with reduced catches and private development pressures. He moved between working the boats and organizing community watch patrols, evolving into someone who builds small restoration projects with neighbors.",
+            "emotional_trait": "Strength: steadfast loyalty and practical courage. Flaw: reluctance to accept change that feels like loss, sometimes stubborn to a fault."
+        },
+        {
+            "name": "Asha Verma",
+            "role": "Antagonist / Secondary Love Interest (depending on choices)",
+            "personality": "Analytical, results-driven, and morally focused on maximizing lives saved. Asha is blunt, principled, and can come off as cold because she weighs decisions by scales that leave no room for sentimentality—until you learn why she grew that armor.",
+            "appearance_features": {
+                "hair": "Long black hair woven into a single, severe braid with a single silver streak at the temple",
+                "eyes": "Steel-blue, narrow and quick to scan details",
+                "clothing": "Tailored slate-gray coat with modular pockets; smart-fabric trousers that shed water; minimalist ankle boots designed for both fieldwork and council chambers",
+                "accessories": "A city department enamel pin, a tablet with GIS overlays always in hand, thin brass-framed glasses she slides down her nose when thinking"
+            },
+            "goal": "Implement decisive, scalable infrastructure—sea walls, flood gates, and enforced managed retreat zones—to protect the larger region, even if it requires tough compromises for small communities.",
+            "background_story": "Asha rose through municipal planning ranks after overseeing emergency responses in a city that nearly flooded. She lost a sibling in a fast-onset coastal disaster and believes systemic, fast action is the only humane path forward.",
+            "emotional_trait": "Strength: clinical clarity and competence under pressure. Flaw: emotional distance that makes her underestimate local memories and cultural costs."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Evelyn Sato",
+            "relation_to_main": "Mayor of Tidehaven; old family friend of Mira's",
+            "appearance_summary": "Petite, silver-streaked hair in a short bob, warm brown eyes, practical slacksuit with a faded campaign scarf.",
+            "function_in_story": "Political gatekeeper who must balance votes, funding, and the competing plans; she is the one who signs off on pilot projects and whose support is crucial."
+        },
+        {
+            "name": "Bento 'Old Bento' Morais",
+            "relation_to_main": "Mentor figure to Jonah and town elder",
+            "appearance_summary": "Sun-leathered skin, thinning white hair, always in a soot-marked knit cap and patched fisher's coat.",
+            "function_in_story": "Keeper of local oral history and traditional knowledge; he provides moral gravity and anchors community rituals that become important plot decisions."
+        },
+        {
+            "name": "Kai Tan",
+            "relation_to_main": "Local youth activist; friend to Mira",
+            "appearance_summary": "Short-cropped dyed blue hair, reflective safety vest, a backpack full of protest flyers and seed packets.",
+            "function_in_story": "Organizes demonstrations and community planting drives; pushes the narrative toward grassroots empowerment and forces characters to confront ethical choices."
+        },
+        {
+            "name": "Dr. Lian Zhou",
+            "relation_to_main": "Scientific collaborator at the Saltmarsh Research Lab",
+            "appearance_summary": "Calm, scholarly, wears lightweight lab coat with rolled sleeves and always has salt on her boots from field surveys.",
+            "function_in_story": "Provides data, models, and a scientific counterpoint to political rhetoric—her research frames the stakes and possible timelines for adaptation."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tidehaven Boardwalk",
+            "visual_description": "Long, weathered planks threaded along the harbor; low, iron railings flecked with rust and sea spray. Mornings are fog-laced with diffuse silver light; late afternoons glow warm amber as gulls wheel. Neon signs from shuttered shops cast melancholic color pools at night. Background art emphasizes wind-blown banners, algae-slick ropes, and reflections in tidal puddles."
+        },
+        {
+            "name": "Saltmarsh Research Lab",
+            "visual_description": "A converted boathouse with glass greenhouse extensions, whitewashed timber, and solar shades. Interior lighting is soft LED cool-white, mixing with warm daylight through salt-streaked panes. Laboratory benches are cluttered with sediment cores, jars of invertebrates, and GIS monitors displaying topographic layers in teal and ochre."
+        },
+        {
+            "name": "Greenhouse Collective",
+            "visual_description": "A community-run space of corrugated glass and salvaged wood where seedlings are grown; light filters through mottled panes casting green-tinted shadows. Hanging planters, stray irrigation hoses, and seed packets create a dense, tactile clutter. The mood is intimate and hopeful—sunlit warmth contrasted with misted windows on rainy days."
+        },
+        {
+            "name": "Old Shipyard / Abandoned Warehouse",
+            "visual_description": "Massive, hollowed beams, peeling paint, and long shadows; shafts of late-afternoon light cut through broken skylights. Puddles mirror the open sky, and graffiti art—some depicting waves, some protest slogans—adds splashes of color. This is a place for clandestine meetings, community builds, and the visual juxtaposition of decay and potential."
+        },
+        {
+            "name": "Highland Cliffs Overlook",
+            "visual_description": "Wind-swept limestone cliffs above the sea where grasses sway in gray-green waves. The outlook provides panoramic views of encroaching water and distant solar arrays; the light here is stark, with long horizons and a cold, saline brightness. Scenes are cinematic: wide vistas, dramatic weather changes, and quiet reflective moments."
+        },
+        {
+            "name": "Tidehaven Town Hall",
+            "visual_description": "A modest brick building with sash windows, an old bell tower, and a council chamber lit by warm, amber lamps. The interior has wooden benches, maps tacked to cork boards, and a sense of slow-moving civic theater; fluorescent policy documents contrast with hand-written community petitions pinned up by local residents."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience & Love"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Mira and Jonah collaborate on a people-centered living shoreline program that preserves key fishing areas and creates new marshlands. The town secures sustainable funding, tradition and adaptation merge, and Mira and Jonah commit to rebuilding both the harbor and their relationship."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Asha's rapid infrastructure plan prevents catastrophic flooding for the larger region but requires managed retreat from parts of Tidehaven. Mira and Jonah grow apart—Jonah remains to salvage what he can while Mira helps relocate families. Their love endures as memory and mutual respect, but the town community is transformed and smaller."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political gridlock and insufficient funding lead to delayed action; a fierce storm breaches defenses and significant parts of Tidehaven are lost. Relationships fracture under blame and grief. Characters survive but carry deep scars; the ending underscores the real-world costs of inaction."
+        },
+        {
+            "type": "True",
+            "summary": "After facing failures and compromises across routes, Mira engineers a hybrid solution: phased infrastructure plus community-led restoration, paired with a regional policy shift inspired by Tidehaven's grassroots data. This ending rewards players who navigated moral complexity—Mira finds a deeper independence (with or without a romance), the town becomes a model of adaptive governance, and systemic change begins."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

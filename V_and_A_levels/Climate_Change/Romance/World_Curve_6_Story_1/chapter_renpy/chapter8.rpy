@@ -1,0 +1,170 @@
+label chapter8:
+
+    # [Scene: Town's Small Law Office | Late Afternoon]
+
+    scene bg ch8_6b08b4_1 at full_bg
+    # play music "music_placeholder"  # [Music: String ostinato with urgent, staccato percussion]
+    # play sound "sfx_placeholder"  # [Sound: Low rumble of distant thunder; a phone buzzing against wood; the dry scratch of pen on paper]
+    "You stand in the center of it, shoulders damp from the rain, the taped corner of your field notebook warm under your thumb. Elias is there in a coat that still smells faintly of city rain"
+    "and polished leather; Councilor Bea is a controlled silhouette; a municipal attorney watches, guarded and tired."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "You've read the clauses, but I want you to say the language aloud. I need to know you own it—publicly and technically."
+    "You can feel the room contracting down to the space between breaths. All of your training lines up like compass points: phased reviews; ecological offsets; community jobs; an independent monitoring board. It's the language you use to keep things from breaking apart. You deliver it."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "Phased construction paired with funding for living shorelines where possible. An ecological monitoring board staffed by local appointees with veto power over contract deviations. Mandatory sediment-budget reassessments at six- and twelve-month intervals with transparent reporting."
+    "Elias leans back, eyes cold for a second, then something unreadable slides over his face—relief? calculation? both."
+
+    elias_hart "That will satisfy the funders' demand for measurable deliverables, and it buys the optics they need. We can include job guarantees targetting displaced fishers for the construction phase—retraining provisions—"
+    show councilor_bea_ortega at center:
+        zoom 0.7
+
+    councilor_bea_ortega "This is the wording we needed. Politically, it's clean. We can sell this to the board and the insurance underwriters. The town gets protection and jobs. That's a win."
+
+    "You taste metal at the back of your throat. Words come easier than the weight behind them" "Buy time' in exchange for 'trust."
+    hide elias_hart
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "You know they'll read the first quarterly report and make their decisions from it. We need teeth, not just teeth on paper."
+    "The municipal attorney clears their throat, a thin sound like a match struck and held."
+
+    "Municipal Attorney" "We can tighten language to include civil penalties and escrowed funds tied to ecological thresholds."
+    "Elias smiles with a hint of barbed showmanship."
+    hide alea_maren
+    show elias_hart at right:
+        zoom 0.7
+
+    elias_hart "Exactly. And public reporting. Full transparency—except anything legally privileged, which is standard."
+    "Your hands clench into the notebook until the taped page creases. Privilege. Transparency. Two halves of a net that might not catch the people down-coast."
+
+    menu:
+        "Ask to add community veto language now":
+            "You press for a specific veto clause, voice steady but urgent; faces at the table shift—Bea perks like a hawk, Elias Hart's jaw tightens—but the attorney frowns at the political risk. The wording is added, tentatively, like a stitch across a new seam."
+        "Defer the veto clause to the monitoring board's bylaws":
+            "You fold the idea into process language instead, softening your tone. The attorney nods—this keeps funders calm—but your gut protests, a cold pinch of worry that something necessary is becoming negotiable."
+
+    # --- merge ---
+    "Negotiations continue with the clause decisions tentatively incorporated."
+    "Elias studies both your hands as you choose, not the hands that wrote the clauses but the hands that must sign the town's future. The rain tastes closer now—like steel and salt. There is urgency in"
+    "every micro-movement in the room: the flip of a page, a swallowed word, the possibility of a phone call that ends everything."
+    hide councilor_bea_ortega
+    show alea_maren at center:
+        zoom 0.7
+
+    alea_maren "If we accept staged reviews, the monitoring board has to be actually independent. No funder seats. No backdoor approvals."
+
+    elias_hart "Agreed. No funder seats. Independent selection panels. The funders want results; they don't want politics. We frame it as safeguards."
+    "Bea folds her fingers, a smile that is almost relief."
+    hide maya_calder
+    show councilor_bea_ortega at left:
+        zoom 0.7
+
+    councilor_bea_ortega "We need this vote before the end of the quarter. The headlines will say we've acted decisively. The grants and lower premiums will arrive—people will sleep easier."
+    "You sense that 'sleep' as a fragile commodity—one you can buy at a price."
+    # [Scene: Meeting Hall | Early Evening]
+    hide elias_hart
+    hide alea_maren
+    hide councilor_bea_ortega
+
+    scene bg ch8_6b08b4_2 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive strings intensify; ambient city hum]
+    # play sound "sfx_placeholder"  # [Sound: Muffled chanting through the glass; murmurs rising to shouts; the sticky slap of damp coats]
+    "The meeting hall fills with voices. People you grew up beside—some with tired eyes, some with rage on the edge of tears. Rin stands with a small group near the back, hand-painted banners coiled over their"
+    "arm like living things. Outside, through the windows, you can see a knot of bodies and a banner: a protest forming in real time because good intentions can still be met with mistrust."
+    show rin_sato at left:
+        zoom 0.7
+
+    rin_sato "You're doing the right thing, right? This—this is the compromise we needed."
+    "You can hear the plea under the words. They are both hopeful and suspicious: the public face of the kitchen organizer and the private person who has known you since mud and salt were a daily metric."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "You want to tell them everything—the caveats in the sediment models, the way wave energy redirects—but words can fracture with the same speed as promises."
+    "When you stand to address the council, the room tightens."
+
+    alea_maren "We've negotiated language that includes phased builds, living shorelines in adjacent segments, a local monitoring board with community appointees, and mandatory sediment reassessments at established intervals. These measures are designed to protect us ecologically and economically."
+    "A hand shoots up—Tomas, young and steady, eyes wide with the kind of faith that cracks your armor."
+    show tomas_reyes at center:
+        zoom 0.7
+
+    tomas_reyes "What does that mean for our fishing grounds? For families who rely on the cove?"
+    "You feel the question as a physical thing in your chest. You answer, not from the diagrams on the table but from the measurements that haunt the margins of your notebook."
+
+    alea_maren "Short term: construction will create local jobs and some immediate buffer to storm surge. Medium term: the living shorelines will restore marsh and stabilize sediments if implemented correctly. But we will need continuous monitoring and community oversight to ensure adverse down-coast effects are identified and mitigated."
+    "A murmur—gratitude, suspicion, relief—breaks the hall into small pieces."
+
+    rin_sato "We can't trust glossy promises alone. We need guarantees people can see—boots on the ground, funds controlled by the town, not by corporate trustees."
+    hide rin_sato
+    show councilor_bea_ortega at left:
+        zoom 0.7
+
+    councilor_bea_ortega "And that's exactly why this package is right for Harborstone. It provides immediate protection, jobs, and oversight."
+
+    menu:
+        "Make a technical interjection about the sediment model now":
+            "You interrupt the motion with a quick, technical clarification—words like 'reflection coefficients' and 'down-coast sediment flux'—and some in the hall nod at your rigor, while others frown and mutter that it sounds like maneuvers to delay action. The motion proceeds, but the whisper of distrust grows."
+        "Make a personal appeal to shared losses and not the model":
+            "You choose the language of loss: names, faces, the night the waters rose. The hall softens; fewer hands wave in opposition. People vote with memory in their hearts, not with equations on their tongues."
+
+    # --- merge ---
+    "The vote proceeds regardless of rhetorical approach."
+    "The vote is close. You hear the count like a series of small detonations. Near-majority. The package carries—by breath and calculation both. Faces shift—some smile, relieved; others turn away, fists tight."
+
+    "Outside in the rain Rin's group chants, the sound pressing at the windows" "Community first!"
+    # [Scene: Harbor | Immediate Aftermath]
+    hide alea_maren
+    hide tomas_reyes
+    hide councilor_bea_ortega
+
+    scene bg ch8_6b08b4_3 at full_bg
+    # play music "music_placeholder"  # [Music: Low brass, a sustained note of unresolved tension]
+    # play sound "sfx_placeholder"  # [Sound: Engines, distant hurled shouts, the metallic clank of a crate being moved]
+    "There is a brittle relief in the air. Insurance companies call with promises of lower premiums; contractors call to pitch schedules. The town breathes out as if for the first time in weeks. Maya finds you by the pier, apron sleeves damp from the rain, eyes like embers."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "We bought time, Alea. People will sleep easier tonight. Tomas's mother called me crying—she can stop worrying about loans. Did you see the look on Bea's face? She looks—lighter."
+    "You want to take that light and press it to your chest. Instead, the phones chirp like tiny urgent beacons in your head—the data you haven't told anyone about returning to you in the dark."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "It... it is something. But it's not everything."
+    "Maya's hand finds yours, callused and warm."
+
+    maya_calder "What will you give for it?"
+    "Her question is a small, heavy stone. You feel it land in your stomach and sink."
+    # [Scene: Your Kitchen Table / Home Office | Late Night]
+    hide maya_calder
+    hide alea_maren
+
+    scene bg ch8_6b08b4_4 at full_bg
+    # play music "music_placeholder"  # [Music: High strings, insistent tempo; heartbeat percussion]
+    # play sound "sfx_placeholder"  # [Sound: Tapping keys, the low Doppler caller of a weather alert, the rain driving harder]
+    "You pull the model up again and run it through one more sensitivity analysis because you cannot sleep until every variable has been pushed and prodded."
+    "Your eyes trace the contours—then stop. The outputs sharpen into a shape you do not like: concentrated wave reflection zones in down-coast coves, amplified bed shear in pocketed estuaries, a sediment budget that, under plausible scenarios,"
+    "trends negative far faster than your first estimate. The numbers arrive with a crystalline clarity that feels like accusation."
+    show alea_maren at left:
+        zoom 0.7
+
+    alea_maren "The wall will protect where it's placed. It will reflect energy that must go somewhere. That energy is focused in predictable ways. Those coves—where the most vulnerable families live—will take the redirected force. The living shorelines can mitigate some of it, but only if funded and scaled properly—and those are the things the funders can deprioritize when the optics shift."
+    "Your chest tightens. There is a map in your head of homes on stilts, kids learning to fish in calmer waters, a string of small businesses that couldn't relocate if the sediment starves the coves. The"
+    "thought of signing away an unknown number of future losses so that the town sleeps tonight fills you with a cold, burning guilt."
+
+    "Your phone buzzes—it's a text from Rin Sato. No punctuation, just" "They're planning a march at dawn. We still don't trust them. You okay?"
+    "You stare at the message like it's a lifeline. You could forward the model now—tell the council, tear open the bandage, risk undoing the protections you just won. Or you could bury the finding a little deeper, keep watching, build community projects and hope mitigation will suffice."
+    "Your fingers hover over the keyboard. The air in the room has gone very thin."
+    "Maya's voice threads in your memory—her hand, her question: What will you give for it?"
+    "Your chest tightens until you think it will split. The arousal in you is at a pitch: fear, responsibility, the electric edge of potential violence if people feel betrayed, the calculus of lives now versus lives later."
+    "You want to speak to someone, to call Elias Hart and demand contract revision—demand that the money be escrowed until additional safeguards are funded. You imagine his face: the city, the calm, the brief, unreadable flicker"
+    "when he agreed. You imagine the funders pulling out in fury, Bea's relief curdled to anger, people outside the hall losing the tiny sleep they found."
+    "You want to stay silent and keep the fragile peace you brokered—buy the town time to plant roots and make shorelines while building trust—yet in your chest a counterfactual image grows: a cove scoured, a family displaced, your own failure writ in the salt."
+    "Your pulse is a drum. The rain drums with it. The model glows on the screen, an accusation. Choices that will shape the town's shoreline and the town's trust sit on your tongue like sharp seed."
+    # play music "music_placeholder"  # [Music: Reaches a crescendo—strings stabbing, percussion pounding; then a single sustained high note]
+    "You close your eyes and hear—Maya's voice—Rin Sato's question—the mechanical hum of a vote counting out. The emotional arousal that has been building since the negotiation unspools into a single, terrible clarity: you must pick how to act."
+
+    jump chapter10
+    return

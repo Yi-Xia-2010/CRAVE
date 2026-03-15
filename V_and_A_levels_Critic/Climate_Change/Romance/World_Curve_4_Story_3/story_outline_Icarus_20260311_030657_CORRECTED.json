@@ -1,0 +1,565 @@
+{
+  "title": "Harborwell Rising",
+  "summary": "Maya Reyes, a coastal resilience planner, returns to her hometown of Harborwell to help it survive rising tides. Through an Icarus (Rise-Fall) arc she gains quick successes—galvanizing citizens, securing funding, and drawing political momentum—but those gains precipitate catastrophic reversals as political pressure, economic desperation, and a storm expose the fragility of short-term fixes. Romance with Elias Hart, tensions with Maren Voss, and Maya's past guilt drive branching choices between grassroots adaptation, institutional compromise, or opportunistic funding with moral costs, producing varied endings from honest survival to painful exile.",
+  "emotional_curve_type": "Icarus (Rise-Fall)",
+  "player_character": "Maya Reyes",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Tidewatch Return",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive back in Harborwell after years away, journal in my olive field jacket and the brass compass locket tucked under my scarf. The harbor is as battered and beautiful as memory; the smell of brine is immediate. I meet Samir with his camera at the boardwalk, catch sight of Elias on the docks, barefoot as always, and feel the familiar tug of responsibility. My past compromise — the policy I made that eased immediate suffering but left neighborhoods exposed — sits like salt in my throat. I tour the Glasshouse Research Lab, where Professor Julian Kim gestures at models of sea-level rise, and I stand on the Abandoned Sea Wall, watching tide pools mirror a gray sky. I am pragmatic, analytical, and protective. My goal is to mobilize science and people to adapt, not just to survive a storm. The town's color palette—weathered wood, slate blues, and the neon magenta bleeding across wet planks of the Old Pier—frames a memory of what I promised my mother: to keep Harborwell whole. There is tension; there is also the first flicker of possibility.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Reyes",
+        "Samir",
+        "Elias Hart",
+        "Professor Julian Kim"
+      ],
+      "locations_used": [
+        "Tidewatch Harbor",
+        "Boardwalk",
+        "Glasshouse Research Lab",
+        "Abandoned Sea Wall",
+        "Old Pier"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Mapping Risk",
+      "branch_designation": "Common",
+      "narrative_focus": "I spend the day collating data at Glasshouse Research Lab with Professor Kim. He unrolls tidal projections and salt marsh absorption models that make my utility watch's tide readouts feel like urgent prophecies. At Tidewatch Harbor, Iris Tanaka invites me onto a fishing skiff and points out subtle changes: a new underwater shelf of debris, brown kelp where there used to be open water. Elias shows up with co-op flyers—his hand-carved whistle tucked into his satchel—offering me a choice to help build grassroots defenses. I notice every face: Mayor Ana in a civic sash the next day, Maren Voss in her charcoal trench at a council corridor, each silhouette promising different futures. I feel capable and needed; my hazel eyes catch light in the lab's blue screens, and for a moment the future feels manageable. But Professor Kim's data also whispers scenarios where a single storm tears the boardwalk loose. My pragmatic idealism holds: people must be protected without erasing their lives. The day's work sharpens my purpose and surfaces the crucial conflict: community-led adaptation or top-down redevelopment? My field jacket smells faintly of diesel and rain; every jot in my Moleskine feels like a lifeline.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Reyes",
+        "Professor Julian Kim",
+        "Iris Tanaka",
+        "Elias Hart",
+        "Mayor Ana Delgado",
+        "Maren Voss"
+      ],
+      "locations_used": [
+        "Glasshouse Research Lab",
+        "Tidewatch Harbor",
+        "Boardwalk",
+        "City Hall",
+        "Harbor docks"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Council Night — The Fork",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "Council chamber lights burn warm; faces in the audience are shadowed and expectant. Maren presents a redevelopment proposal: a reinforced sea wall and commercial strip promising jobs. Elias, standing near the rail with his wooden whistle, urges a people-powered marsh restoration and modular living platforms. I stand in the aisle—chestnut braid tucked under my collar—my voice ready with Professor Kim's data. Mayor Ana asks for a decision. The room hums; old grievances surface, and Samir films with a steady hand. I feel the memory of my past mistake like a physical weight. This is the moment where I can align publicly with Elias' grassroots movement, endorse Maren's quick economic fix, or pursue a shadowy philanthropic funding source I was offered—one that could secure money fast but would require compromises that risk marginalized neighborhoods. Each choice binds my professional credibility and my heart in different ways. The stakes are municipal but intimate: who gets protected, whose homes are sacrificed, and how I will answer the guilt I carry.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Publicly choose a strategic alliance.",
+        "options": [
+          {
+            "label": "Stand with Elias and the co-op — push a community-led adaptation plan.",
+            "consequence": "Aligns Maya with grassroots organizing; energizes residents and Elias; draws Maren's opposition.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Endorse Maren's redevelopment project for immediate protection and jobs.",
+            "consequence": "Gains institutional support and short-term security; strains relations with Elias and local co-ops.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Pursue the private philanthropic funding—quiet emergency money that buys time but requires concessions.",
+            "consequence": "Offers rapid resources but risks marginalizing neighborhoods; tests Maya's ethics and her relationship prospects.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Maren Voss",
+        "Elias Hart",
+        "Mayor Ana Delgado",
+        "Samir",
+        "Professor Julian Kim",
+        "Iris Tanaka"
+      ],
+      "locations_used": [
+        "City Hall (Council Chamber)",
+        "Boardwalk",
+        "Old Pier"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Waterfront Momentum",
+      "branch_designation": "Route A",
+      "narrative_focus": "I stand with Elias at the head of a swelling waterfront movement. We set up informational tables with his canvas satchel of flyers and my tide-mapped charts. The town responds: fishers, families, and small-business owners sign on. Professor Kim's data is translated into community workshops. We taste a real victory as the council green-lights a pilot modular platform project and seed funding for marsh restoration. Elias laughs like sunlight; he mends a ripped flyer with colorful fabric scraps while his sandy-blond hair flutters in the wind. The co-op's momentum feels like the thing I wanted when I came home. My chest heaves with hope; I imagine salt marshes humming and the boardwalk safe. But political pressure crescendos: Maren publicly vows to block funding and promises a referendum. My persistent guilt warps into fierce protectiveness. I must choose how to act next: lead a bold occupation at the pier to force allocation, pursue a legal injunction with Professor Kim, or approach Mayor Ana for a quieter, strategic negotiation that would temper activism but secure narrower gains. Each choice could accelerate success—or set the stage for a sharper fall.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Tactical next step to secure pilot funds.",
+        "options": [
+          {
+            "label": "Organize a waterfront occupation to pressure funding now.",
+            "consequence": "Energizes grassroots support; risks a crackdown and media framing.",
+            "target_chapter_index": 5
+          },
+          {
+            "label": "File a scientific injunction with Professor Kim—play by the rulebook.",
+            "consequence": "Uses evidence to force funding legally; invites delay and legal pushback.",
+            "target_chapter_index": 5
+          },
+          {
+            "label": "Negotiate quietly with Mayor Ana to lock in limited gains.",
+            "consequence": "Secures smaller wins quickly but requires compromises; strains Elias' trust.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Professor Julian Kim",
+        "Mayor Ana Delgado",
+        "Maren Voss",
+        "Samir",
+        "Iris Tanaka"
+      ],
+      "locations_used": [
+        "Tidewatch Harbor",
+        "Old Pier",
+        "Boardwalk",
+        "City Hall",
+        "Glasshouse Research Lab"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Pierline Pressure",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "The tactic we chose—an occupation or a legal injunction—has immediate consequences. If we occupied the pier, police lines form and Maren frames us as reckless; if we filed an injunction, the legal calendar slows momentum but the laboratory data is subpoenaed and politicized. My hazel eyes watch Elias get roughed by a council security aide; his denim jacket is smeared with mud, wooden whistle missing for a moment; he looks at me with a sudden worry I cannot fix with plans. The town's energy frays; some neighbors cheer our bravery, others fear lost wages if the docks remain tied up. My persistent guilt presses harder; I replay the choices that saved lives once and cost stability later. Seemingly small miscalculations multiply; the pilot funding is delayed as lawsuits and PR storms heat up. I have to choose a final gambit that will determine the town's near future: double down and escalate direct action, accept a compromised partial project to save what we can, or expose compromising details about Maren's backers—risking my career and Elias’ trust for public truth. Each decision drives us nearer to either a fragile salvation or a spectacular, destructive collapse.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4, Option A/B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Endgame tactic to secure implementation.",
+        "options": [
+          {
+            "label": "Escalate—force the docks to remain occupied until funds clear.",
+            "consequence": "Risk of violent confrontation and criminal charges; energizes base.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept a compromised partial project (some marsh, limited platforms) to preserve lives.",
+            "consequence": "Saves some neighborhoods but concedes ground; strains ideals.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Expose Maren's private backers—leak documents and risk legal reprisal.",
+            "consequence": "Might derail redevelopment but could invite corporate retaliation and personal fallout.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Professor Julian Kim",
+        "Maren Voss",
+        "Samir",
+        "Iris Tanaka"
+      ],
+      "locations_used": [
+        "Old Pier",
+        "Tidewatch Harbor",
+        "Boardwalk",
+        "Council offices",
+        "Glasshouse Research Lab"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Storm Afterglow — Collapse",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "The choice's consequences culminate in a catastrophic storm that arrives faster than models expected. The partial protections fail in key places; the pier occupation clashes with an emergency response, and a sudden surge breaches neighborhoods we aimed to defend. Buildings I helped map are ruined; the community's triumph turns seamful and tragic. Elias stands on the High-Tide Field—his denim jacket soaked, sandy-blond hair plastered—eyes hollow with shock. I hold Samir as he records a roof gone missing. Maren's redevelopment gains political momentum amid the chaos, citing the need for decisive action; the very structural fixes she promised become saleable policy. I am left with the bitter knowledge that our rise incited a fall whose consequences will be counted in lost homes and trust. My guilt settles in like salt. The town will rebuild, but the ledger reads differently now: lives displaced, community fabric strained, and the romantic possibility with Elias frayed under the weight of blame and differing priorities.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Samir",
+        "Maren Voss",
+        "Mayor Ana Delgado",
+        "Professor Julian Kim"
+      ],
+      "locations_used": [
+        "High-Tide Field",
+        "Abandoned Sea Wall",
+        "Boardwalk",
+        "Tidewatch Harbor",
+        "Old Pier"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Sea Wall Vote",
+      "branch_designation": "Route B",
+      "narrative_focus": "I take the side of institutional action, stepping into a strategic, high-level pivot with Maren's plan at the center. In council and in press, I advocate for a reinforced sea wall and a commercial redevelopment to stabilize Harborwell's finances. Maren's steel-gray eyes are steady beside me as we outline job packages and relocation benefits; her trench coat and fountain pen are constant, clinical objects in a messy world. The town is split, but the promise of immediate protection and payroll is seductive. Elias calls me out publicly; his hand-carved whistle is visible among protesters. My hazel eyes catch him from the stage, and an ache clutches me. Aligning with Maren puts me within the corridors of power; it also straps me to political calculus that risks erasing neighborhoods. I begin to feel the momentum of success: emergency contractors mobilize, funding pledges materialize, and Mayor Ana nods toward a quicker timeline. But the rise promises both security and a moral price. My pragmatic idealism wrestles with the cost: is immediate protection worth sacrificing the social fabric I once vowed to protect?",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Reyes",
+        "Maren Voss",
+        "Elias Hart",
+        "Mayor Ana Delgado",
+        "Samir"
+      ],
+      "locations_used": [
+        "City Hall",
+        "Boardwalk",
+        "Tidewatch Harbor",
+        "Press conference stage"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Policy Tradeoffs",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "Implementation begins briskly: cranes at the boardwalk, contractor vans, and paid work shifts. The tide seems smaller in photos. But trade-offs reveal themselves. Homes in low-lying neighborhoods are designated as \"relocation zones,\" and the mapping disproportionately affects long-standing residents like Iris. Elias organizes nightly vigils; he confronts me under the Old Pier's broken neon and questions whether the jobs we preserved truly serve everyone. Maren counters with crisp presentations about fiscal solvency and the council's duty. My chest feels split between tangible payroll numbers and the faces of those who will lose their street. Samir's camera finds me in the middle of this moral calculus, my braid wet with rain. The political rise is real—we have mobilized capital and prevented immediate loss—but the social ledger grows heavier. We must choose how far to push our compromises: formally acquiesce to a plan that relocates neighborhoods, fight for relocation assistance and legal protections, or resign publicly and return to community organizing—risking my political capital and personal relationships. The decision will accelerate toward a definitive outcome.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to manage inevitable displacement.",
+        "options": [
+          {
+            "label": "Approve the relocation zones—prioritize immediate jobs and structural defenses.",
+            "consequence": "Stabilizes economy and wins political capital; sacrifices vulnerable neighborhoods.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Secure binding relocation assistance and legal protections before proceeding.",
+            "consequence": "Slows implementation but protects residents; invites developer pushback.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Resign from the advisory council and return to grassroots organizing with Elias.",
+            "consequence": "Loses institutional leverage but regains grassroots trust; personal uncertainty increases.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Maren Voss",
+        "Iris Tanaka",
+        "Samir",
+        "Mayor Ana Delgado"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Old Pier",
+        "Construction sites",
+        "City Hall",
+        "Tidewatch Harbor"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Concrete & Consequences — Collapse",
+      "branch_designation": "Route B (Ending)",
+      "narrative_focus": "The chosen policy—whether relocation with protections or prioritized infrastructure—meets a storm sooner than the developers predicted. The new sea wall partially buffers Downtown and preserves commercial corridors, but marginalized neighborhoods face concentrated flooding. The political victory that once felt like salvation sours as people lose homes that were slated for relocation assistance but were delayed or underfunded. Elias stands on a ruined stoop, his hand-carved whistle quiet in his fist; our personal bond creaks under the pressure of what we agreed to. Maren publicly calls for further consolidation, citing the storm as proof of her policy; she gains clout while the social fabric frays. My role in enabling this policy sits heavy and raw. The town is safer in places and broken in others; the Icarus arc is visible: ascent through decisive action, then a brutal fall where the most vulnerable pay the heaviest price. I feel the fracture in Harborwell's communal trust and in my relationship with Elias. The cost of our rise is now owed in homes and fractured hearts.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Maren Voss",
+        "Mayor Ana Delgado",
+        "Samir",
+        "Iris Tanaka"
+      ],
+      "locations_used": [
+        "Sea wall",
+        "Downtown",
+        "Low-lying neighborhoods",
+        "Boardwalk",
+        "Old Pier"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Quiet Money, Heavy Price",
+      "branch_designation": "Route C",
+      "narrative_focus": "I accept an opaque philanthropic offer that promises emergency funds to jumpstart adaptation pilots. The money arrives quickly—seed funding for platforms, immediate payroll for local contractors, and press that calls our initiative a model. The philanthropic rep skirts questions about long-term control but emphasizes speed. I begin to feel the rush of doing something effective; community members receive checks and seedlings are planted on the Rooftop Garden. Elias is skeptical; he peels a flyer at the pier while his sea-green eyes watch me in a way that says this could change us. I know what the strings might be: concessions on zoning, contracts favoring corporate partners, and a slow shifting of decision-making away from locals. But the immediate relief—jobs, protection, a ton of bricks of hope—is intoxicating. My chest thrums with the sense of capability. For once, the compass locket under my scarf feels like it points true. Yet the ethical cost hums in the background: did I trade a moral principle for speed? This rapid ascent promises a bright, immediate future—but at what price?",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Professor Julian Kim",
+        "Samir",
+        "Iris Tanaka",
+        "Philanthropic representative"
+      ],
+      "locations_used": [
+        "Glasshouse Research Lab",
+        "Rooftop Garden",
+        "Pier",
+        "Tidewatch Harbor"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Quiet Compromises",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The philanthropic funding flows, but so do demands. Contracts are negotiated that privilege certain development rights and give external partners a say in zoning. Local co-ops are offered subcontracting roles, but larger parcels are earmarked for commercial interests. Elias calls me in a voice that is both pleading and furious; his denim jacket looks smaller on him as if the sea has taken weight from everything. Iris warns me of permits signed in the night; Samir shows me footage of developers' meetings with municipal aides. I must decide whether to accept a lucrative but ethically fraught contract that secures immediate projects, to push back and risk losing the money and the jobs it funds, or to leak documentation to the public—safeguarding transparency but inviting legal retaliation. The rise we engineered now reveals the shape of its fall: the speed that bought us agency also bought new vectors of control. My moral tally spins; I am tempted to justify the compromise as necessary, but the faces of those who will be marginalized stare back.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to strings attached to funding.",
+        "options": [
+          {
+            "label": "Sign the contract—secure immediate projects and jobs.",
+            "consequence": "Projects proceed; long-term control ceded to external partners.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Refuse the contract—fight to re-negotiate terms even if we lose funding.",
+            "consequence": "Preserves agency but risks project collapse and layoffs.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Leak the documents to the press to force transparency.",
+            "consequence": "Could halt under-the-table deals but invites legal/career peril.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Iris Tanaka",
+        "Samir",
+        "Philanthropic representative",
+        "Local co-ops",
+        "Developers"
+      ],
+      "locations_used": [
+        "Glasshouse Research Lab",
+        "Boardwalk",
+        "Pier",
+        "Developer meeting rooms",
+        "Rooftop Garden"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Corporate Rainfall — Collapse",
+      "branch_designation": "Route C (Ending)",
+      "narrative_focus": "The decision—whether to sign or to renegotiate—coalesces into a collapse when corporate partners leverage the funding to secure development rights. A storm arrives and the parcels favored by corporate-backed infrastructure hold, but marginalized blocks, promised assistance, and the community co-op's projects are left under-resourced. The philanthropic initiative becomes entangled with private interests; legal protections erode under pressure. Elias stays and fights, eyes like flint, but the emotional distance between us grows into a canyon. My earlier choice to accept money quickly now reads as a moral lapse with concrete victims: families who lose homes, co-op members who lose wages, and my own capacity for consolation diminished. Maren uses the chaos to strengthen institutional narratives; the balance of power tips toward consolidated redevelopment. I am left with a town partially saved and partially scarred, and with a love that may not survive the ledger of choices.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Maren Voss",
+        "Samir",
+        "Iris Tanaka",
+        "Corporate partners"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Boardwalk",
+        "Tidewatch Harbor",
+        "Developer parcels",
+        "Downtown"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Quiet Conscience — True Ending",
+      "branch_designation": "Route A (Alternate Ending — True)",
+      "narrative_focus": "I chose a quiet negotiation with Mayor Ana over full-throated activism—securing smaller, binding protections and refusing to escalate theatrics. The pilot project is narrower but directed toward the most vulnerable households; restoration begins with careful community consultation. Elias views this as a betrayal and pulls away, his denim jacket a patchwork of disappointment and concern. The choice costs us a larger immediate coalition and some momentum, but it sustains local agency and prevents the worst of the disasters that other routes suffer. It is not a bright victory; it's a hard, honest work of sustaining a town. In the aftermath of regional storms that rock nearby coastal towns, Harborwell is battered but habitable: some houses are lost, but many remain thanks to targeted relocations and marsh buffers that we insisted be community-led. My guilt eases into a steady ache as trust rebuilds slowly. The romance with Elias is wounded but not destroyed; we step back toward each other with time, conversation, and shared labor on the Rooftop Garden. This ending is morally honest: we refused the easy path and accepted a long road of repair.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Mayor Ana Delgado",
+        "Elias Hart",
+        "Professor Julian Kim",
+        "Iris Tanaka",
+        "Samir"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Salt marsh pilot sites",
+        "Pier",
+        "Tidewatch Harbor"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Resignation & Return — Epilogue",
+      "branch_designation": "Route B (Epilogue — Alternate Reflection)",
+      "narrative_focus": "I resign from the advisory council and walk away from the corridors of power to return to grassroots life with Elias. We rebuild literally and emotionally—patching roofs, teaching resilience workshops, and tending the Rooftop Garden. The town experiences both losses and small recoveries: some families leave, others stay and repair. Maren's sea wall moves forward in the absence of my moderating presence; its benefits are uneven. My relationship with Elias rebuilds slowly amid shared labor; the romance is real but marked by decisions I can no longer unmake. I find moral clarity in daily work: mud-saturated boots, brackish hands, evenings of small laughter under torn festival banners. The arc that began with public ascent collapses elsewhere, and my personal rise gives way to a steadier endurance. This is a bittersweet, quiet life—less power, but more alignment with values. I live with the consequences of stepping away, but I also find fragile hope in community rebuilding by hand.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Maren Voss",
+        "Samir",
+        "Iris Tanaka"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Rooftop Garden",
+        "Pier",
+        "Tidewatch Harbor"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Public Truth — Reckoning",
+      "branch_designation": "Route C (Alternate Ending — Reckoning)",
+      "narrative_focus": "I leak the contract documents to the press. The revelations ignite public scrutiny and legal investigations into the philanthropic and corporate arrangements. The outrage slows some projects and forces renegotiations with binding protections for disadvantaged neighborhoods, but it also prompts corporate backlash and legal threats that target me personally. Elias admires the courage but worries about the reprisals; our romance is tested by the public attention and by the violence of legal battles. The town reels under scandal and scrutiny; some gains are preserved, others sputter as funding dries up. Ultimately, the public truth forces a recalibration: developers are constrained, Mayor Ana must broker new terms, and community-led protections are enshrined in law. But the cost is personal: my career is bruised, my relationships frayed, and many in Harborwell face prolonged uncertainty. The Icarus arc resolves in an ambiguous place—truth and accountability, but also the heavy consequences of a fall precipitated by earlier ascent. The ending is morally honest and difficult, with a sliver of hopeful continuity in the grassroots protections that survive the storm.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Hart",
+        "Maren Voss",
+        "Mayor Ana Delgado",
+        "Samir",
+        "Professor Julian Kim"
+      ],
+      "locations_used": [
+        "Council chamber",
+        "Press venues",
+        "Pier",
+        "Tidewatch Harbor"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 03:06:57"
+}

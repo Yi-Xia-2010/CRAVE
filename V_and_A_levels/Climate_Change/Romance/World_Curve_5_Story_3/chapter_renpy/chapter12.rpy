@@ -1,0 +1,147 @@
+label chapter12:
+
+    # [Scene: Tide Lab | Dawn]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind rattling loose tarpaulin; the distant, steady thrum of a repair barge's engine]
+    # play music "music_placeholder"  # [Music: A taut, insistent string ostinato — quick pulses underscoring urgency]
+    "You open the door and the lab smells like wet paper and salt. It smells of things that have been kept too long in damp boxes: maps, a charted life folded into corners. Fingers numb, you"
+    "run the pad of your thumb along the Moleskine's spine. The notebook is still there. The compass you tucked inside—your memory keeps circling it like a tide. Whether it survived the late storm is a question"
+    "that keeps itself politely at your throat; you don't ask yet."
+    show lina_park at left:
+        zoom 0.7
+
+    lina_park "They want a timeline, Maya. The state, the press—Mayor's office too. You told them the truth. Now they want a plan that fits the truth and their budgets."
+    "You laugh, a small, sharp sound that tastes like sea-foam. 'They want certainty from tide charts and legal briefs,' you say. 'We have neither. We only have plans that adapt.'"
+    "Lina taps the marker against the board as if punctuating luck. 'Adaptive is what they asked for. You're the one who said it could work.'"
+    "You say nothing for a moment, because what follows isn't data you can graph. It's the slow tally of what the town gave up and what it kept: a row of cottages elevated on stilts, the"
+    "bell tower moved inland, the children on Willow Lane sleeping in a housing pod for now. You think of the people who carried their lives on moving trucks through rain and radio spots. The lab hums"
+    "around you — machines, coffee, the sort of noise that keeps emergency-mode brains functioning."
+
+    menu:
+        "Check the sample freezer":
+            "You pry the freezer door open. Frost blooms along the seal; a jar of estuary silt trembles in the light. For a beat you measure what remains of your work against what the town needs."
+        "Call Mayor Amara now":
+            "You close the notebook and scroll through the message thread: legal counsel, a staffer asking for a town posture. You thumb a short, clear text. It sends and sits in the small blue bubble like a buoy."
+        "Breathe and stare out the window":
+            "You look at the harbor. The breakwater cuts a serrated silhouette; new pilings glint where the living shoreline pilot held last summer. You let the view wash over you like cold water — clean, a little shocking."
+
+    # --- merge ---
+    "Resume main narrative"
+    "Lina watches you watch, an unasked question in her eyes. You let the question be its own tide: where do you belong next? In the lab, sifting through evidence and models, or out in the policy"
+    "rooms they keep offering you? A calendar sits open on the bench with a fellowship invite bookmarked in fluorescent tape: three months of travel and policy clinics, a chance to turn the community model into a"
+    "template for other coasts. The offer is a loud thing in your pocket — an opportunity wrapped in a press-release and a flight itinerary."
+    show professor_haruto_miyazaki at right:
+        zoom 0.7
+
+    professor_haruto_miyazaki "don't forget why you started."
+    # [Scene: Harbor | Midday]
+    hide lina_park
+    hide professor_haruto_miyazaki
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Sawing, laughter laced with exhaustion, a child's shriek echoing across wet planks]
+    # play music "music_placeholder"  # [Music: Low brass undercut with metallic percussion — determined, forward-moving]
+
+    "You walk the harbor lines and tally what was saved, what was tilted. Boxes of donations, medical kits, a paint-splattered sign that reads "WE STAY TOGETHER." Tomas "Tommy" Reyes" "You did what you could, Maya. Town's bruised, not broken. Might be scattered in place, but it's still here."
+    "You press a hand against a damp post and feel the tide's memory in the wood. Close-up, the work is quiet: two neighbors hauling a rusted railing into a truck, Lina negotiating billeting with a church"
+    "rector over coffee, a woman you know from the market handing out blankets. Public attention arrived like a storm surge — one day you had a late-night email thread, the next you had a senator's aide"
+    "on the phone and a camera crew on the pier. The national articles called Aster's Reach 'a case study' with a clinical punctuation that left out who had to live there."
+    show elias_rowe at left:
+        zoom 0.7
+
+    elias_rowe "We can make the Greenline ramps more modular,' he says, rubbing at a busted post. 'If we make them relocatable, we keep homeowners flexible. That'll buy us time."
+    "You cannot place the look — it is a ledger of worry, an unreadable balance of support and something heavier. He meets your eyes and gives something that could be a smile or an apology. You"
+    "describe his expression to yourself as 'complex' because the past few weeks have infected gestures with double meanings: the warmth of his practical help and the distance of nights in different beds, the hours when you"
+    "were drafting policy abstracts on a ferry and he was nailing boards back into life."
+
+    elias_rowe "I want it to be right for the town. For us—' He stops. 'Right now I want to fix this boardwalk."
+    "The conversation folds around new priorities and old intimacies. It does not untie what remains knotted."
+
+    menu:
+        "Offer Elias a thermos":
+            "You hand him the thermos. He laughs, the sound half relief, half rue, and takes a long sip. For a beat, it feels like you are tending a small, domestic thing that could someday be more."
+        "Ask Elias if he'll come to the policy meetings":
+            "He blinks, the designer's mind flickering between logistics and intimacy. 'If you want me there,' he says, 'I'll be there.' The commitment is careful, practical."
+
+    # --- merge ---
+    "Resume main narrative"
+    # [Scene: Community Meadow (Rooftop Garden) | Afternoon]
+    hide elias_rowe
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Buzz of insects, a recorder clicking; voices folding into a discussion about stormwater capture]
+    # play music "music_placeholder"  # [Music: A steady rhythmic pattern — heartbeat-adjacent, building tension]
+    show mayor_amara_sol at left:
+        zoom 0.7
+
+    mayor_amara_sol "We have to be pragmatic. We cannot ask people to gamble with their lives for the sake of ideals."
+    "You look at the raised beds, at hands in soil, at histories being replanted. You also look at the stack of legal notices on the Meadow table and the email from a counsel with an ominous"
+    "CC line. The weeks have been a fast series of small sacrifices: a street here lifted, a porch there moved inland, a memory relocated into a storage unit."
+    show professor_haruto_miyazaki at right:
+        zoom 0.7
+
+    professor_haruto_miyazaki "Maya. Remember the model's purpose. Not fame, not vindication. People first."
+    "His voice is a thread you keep, and now it pulls in two directions — toward national lectures and toward the muddy shoes of a neighbor who needs a hand hauling a support beam."
+    # [Scene: Tide Lab | Night — Weeks Later]
+    hide mayor_amara_sol
+    hide professor_haruto_miyazaki
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Ferry horns in the distance; the metallic ping of an incoming email; your own breath]
+    # play music "music_placeholder"  # [Music: Rapid string tremolo building to a fierce, insistent peak]
+    "The offer sits between you and the lamp: a fellowship that would put your work in rooms where policy is made. The letter brims with possibility — funding, travel, a platform. Serena Voss's people have also"
+    "reached out with an invitation to a corporate review board: come inside, rewrite the language, hold influence but share a stage with the very machinery you distrust. The press wants commentary. The mayor wants a statement."
+    "Lina wants you to be practical; Tomas wants you back. Elias keeps fixing things in the harbor and sending brief, luminous photos of salvaged plankwork: small proofs that repair is always possible."
+
+    "Your phone lights up with voicemail after voicemail. Some are logistical. Some are angry. Some are grateful. You press play on one and Haruto's voice is there again, quieter this time" "You must choose what you can bear to do."
+    "You feel the climb of your pulse in your throat as decisions stack into a single, heavy weight. The nerves unspool into a surge — decisions that matter will ripple for years. The urgency is physical"
+    "now. Lawyers file briefs within hours; the town council schedules emergency votes; reporters pivot from curiosity to pressure to spectacle."
+    show elias_rowe at left:
+        zoom 0.7
+
+    elias_rowe "You look like you haven't slept."
+    "You try to answer. 'I have a flight on—' The sentence breaks. The flight is listed in the attachment; it glows with the quiet certainty of deadlines. He steps closer, close enough that you can see"
+    "the little line of salt in the corner of his eye, like a map of where the sea has been."
+
+    elias_rowe "Whatever you do,' he says, and his voice is a pull between anger and care, 'do it because you chose it, not because anyone made it inevitable."
+    "You want to tell him you are leaving the town whole. You want to tell him you'll stay and hold the line. You want to tell him that the compass—your father's—survived the storm. The three sentences"
+    "fight and dissolve into the lab's air. His thumb brushes the Moleskine beside your elbow, a familiar gesture that used to mean closeness and now feels like a ledger."
+    "Your hands tremble and you fold them into a decision that hasn't yet been spoken. The weeks have rearranged the coast and the people, and also rearranged you: part scientist, part negotiator, part exile. The intensity"
+    "around you surges—phone calls, the clang of a distant hammer, Lina's voice raised on the radio, the hiss of rain. Everything is rushing toward a hinge."
+
+    menu:
+        "Tell Elias you'll go with him to the harbor later":
+            "He nods, quiet and grateful. The plan is small, a commune of two acts: help tonight, decide tomorrow. It eases the immediate weight."
+        "Ask Elias to give you until morning":
+            "He exhales, relief folding into fatigue. 'Till morning,' he agrees. It is thin consolation against the long term, but it buys you a sliver of clarity."
+        "Fold the fellowship letter back into the file":
+            "You slide the envelope closed, the decision unread for one more hour. The weight doesn't leave; it waits with you."
+
+    # --- merge ---
+    "Resume main narrative"
+    hide elias_rowe
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A sudden gust flings the lab door open, a cascade of cold air and the rattle of tarpaulin]
+    # play music "music_placeholder"  # [Music: All instruments cut out but for a single, high sustained note — it grows, a siren of pressure]
+    "You stand on the threshold of a choice that will, like tides, reshape the shore around you. In the weeks since the release, the town has been both saved and altered—streets elevated, a few households moved,"
+    "some buildings lost beneath a new line of pilings. The community endures: neighborly hands that pass food, council meetings full of argument, a small choir of volunteers rebuilding a fence. Love persists too, softened and strained,"
+    "carried in quiet texts and brief dinners between shifts. You feel, with a strange clarity, that the coast and its people have been remade not by one decision but by many small, stubborn ones. You have"
+    "been part of that stubbornness."
+    "Your phone buzzes again: one last message, final and patient, from an organizer at the fellowship. 'We need a yes to confirm logistics,' it reads. Serena Voss's assistant has sent a calendar invite labeled 'internal review"
+    "— influence meeting' with three available times. The mayor's office requests your public posture for tomorrow's council."
+    "You close your eyes. The lab hums and the town hums and something like a cliff-edge sits under your soles. You can hear the tide, always, as if the sea itself is a metronome counting down."
+    "You open your eyes and, in the clarity of that cold light, the decision lays itself out: leave to scale the model into broader policy; stay and defend what's left at home through local, laborious politics;"
+    "or accept a role inside Serena Voss's process in order to rewrite harmful language from within. Each option will cost something. Each will buy a different kind of safety."
+    "You lift your hand and touch the dossier. Your pulse beats time against the paper."
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: The high note resolves into silence, then a soft, sustained chord that leaves the air taut]
+    "You inhale once, weight settling like a tide-line at ankle height. The town breathes around you—repairing, mourning, planting, arguing. Your life has braided into those rhythms in a way you didn't foresee. The choice glows in front of you like a navigational buoy: bright, necessary, and utterly finite."
+    "You stand there, hands poised, while the harbor answers back with a long, steady horn. The weeks have been raw; they have been necessary. The moment for the next step has arrived."
+
+    scene bg ch12_f99e88_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

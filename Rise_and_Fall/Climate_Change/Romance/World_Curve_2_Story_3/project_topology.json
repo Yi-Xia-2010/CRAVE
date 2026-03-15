@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-03-11 09:17:36",
+  "total_chapters": 15,
+  "total_valid_routes": 9,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Additional",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Option A",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Additional",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Option A",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Additional",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Option A",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Additional",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Additional",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Return to Salt",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Tidewatch Calculations",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Promenade Vote Night",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Rally on the Pier",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Fractures in the Data",
+      "branch": "Route A / Split",
+      "children_ids": [
+        14,
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Floodline (Ending A1)",
+      "branch": "Route A — Option A",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Behind the Council Table",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Quiet Corrosion",
+      "branch": "Route B / Split",
+      "children_ids": [
+        13,
+        9,
+        15
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Promises Withdrawn (Ending B1)",
+      "branch": "Route B — Option A",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Silent Sampling",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "The Quiet Leak",
+      "branch": "Route C / Split",
+      "children_ids": [
+        14,
+        12,
+        15
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "The Broadcast (Ending C1)",
+      "branch": "Route C — Option A",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Quiet Compromise (Alternate Ending A2 / B option C / C option B)",
+      "branch": "Additional",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Co-opted Truth (Alternate Ending A3 / C option B)",
+      "branch": "Additional",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Withheld Evidence (Alternate Ending B2 / C option C)",
+      "branch": "Additional",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

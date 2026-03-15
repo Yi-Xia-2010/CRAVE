@@ -1,0 +1,39 @@
+graph TD
+    classDef fileNode fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    script_rpy[script.rpy]:::fileNode
+    chapter1_rpy[chapter1.rpy]:::fileNode
+    chapter17_rpy[chapter17.rpy]:::fileNode
+    chapter7_rpy[chapter7.rpy]:::fileNode
+    chapter2_rpy[chapter2.rpy]:::fileNode
+    chapter14_rpy[chapter14.rpy]:::fileNode
+    chapter5_rpy[chapter5.rpy]:::fileNode
+    chapter12_rpy[chapter12.rpy]:::fileNode
+    chapter16_rpy[chapter16.rpy]:::fileNode
+    chapter9_rpy[chapter9.rpy]:::fileNode
+    chapter15_rpy[chapter15.rpy]:::fileNode
+    chapter18_rpy[chapter18.rpy]:::fileNode
+    chapter11_rpy[chapter11.rpy]:::fileNode
+    chapter10_rpy[chapter10.rpy]:::fileNode
+    chapter13_rpy[chapter13.rpy]:::fileNode
+    chapter4_rpy[chapter4.rpy]:::fileNode
+    chapter6_rpy[chapter6.rpy]:::fileNode
+    chapter8_rpy[chapter8.rpy]:::fileNode
+    chapter3_rpy[chapter3.rpy]:::fileNode
+    chapter1_rpy --> chapter2_rpy
+    chapter11_rpy --> chapter12_rpy
+    chapter12_rpy -->|Publish them pu..| chapter14_rpy
+    chapter12_rpy -->|Use them as pri..| chapter17_rpy
+    chapter12_rpy -->|Keep them confi..| chapter18_rpy
+    chapter2_rpy --> chapter3_rpy
+    chapter3_rpy -->|Lead an immedia..| chapter4_rpy
+    chapter3_rpy -->|Work with Ibe t..| chapter7_rpy
+    chapter3_rpy -->|Ask Samira for ..| chapter11_rpy
+    chapter4_rpy --> chapter5_rpy
+    chapter5_rpy -->|Lead an occupat..| chapter6_rpy
+    chapter5_rpy -->|Work with Ibe t..| chapter10_rpy
+    chapter5_rpy -->|Negotiate an em..| chapter13_rpy
+    chapter7_rpy --> chapter8_rpy
+    chapter8_rpy -->|Evacuate the si..| chapter9_rpy
+    chapter8_rpy -->|Organize a volu..| chapter15_rpy
+    chapter8_rpy -->|Live-broadcast ..| chapter16_rpy
+    script_rpy --> chapter1_rpy

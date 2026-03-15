@@ -1,0 +1,171 @@
+### SCRIPT
+# Route: Route B
+# Context: 3be532
+
+[Scene: Twilight Festival Plaza / Makeshift Blockade Camp | Night — Driving Rain]
+[Background:"ch9_3be532_1"]
+[Music: Rapid strings under a driving percussive beat, building urgency]
+[Sound: The tire-snap of rain on canvas, distant sirens, a low murmur of voices]
+
+You wake to the smell of broth and the metallic tang of adrenaline still in your mouth. Your wrists ache where the handcuffs bit; the skin is a raw map of a small, painful victory. The seed vial at your throat ticks against the metal zipper of your jacket when you move — a private metronome against a public night.
+
+Around you, people move like a living tide: folding blankets, passing hot cups with careful hands, fastening safety pins through makeshift signs. The Twilight Festival lights that usually made the plaza look like a well-kept pocket of joy now halo the camp with a fierce, defiant glow. Cameras — some professional, some pocket-sized — hang like fireflies at the edges of the crowd. Every lens is a pulse.
+
+You lift a paper cup and breathe steam. It tastes of scallion and comfort and something larger: solidarity. Voices float in clipped fragments — names called out, legal advice whispered, someone laughing too loudly to keep from crying.
+
+Kira appears at the edge of your tarp, soaked but grinning, her raincoat littered with protest badges. She moves like a person who has been sprinting for a long time and refuses to stop.
+
+Kira: "You held them. You kept your hands where everyone could see them. They couldn't make us invisible, Ayla."
+
+Ayla Moreno: "They tried."
+
+You let the sentence hang; it has more meanings than the words can hold.
+
+Kira drops a thermos beside you and bumps your shoulder with a practiced, sibling ease. Her grin is sharp as a reclaimed nail; the exhaustion in her eyes is edged with triumph.
+
+Kira: "Mateo's out there telling anyone with a mic about the old fish stalls. It's getting on the feeds. People are bringing blankets from every block."
+
+You swallow. The plaza hums with a new temperature — relief braided with adrenaline. The footage you couldn't control earlier is viral now, clips of chained hands and mud-streaked faces cutting through polished feeds and algorithmic indifference. Your arrest, filmed and framed, did what your speeches at the council couldn't: it made the city look, really look.
+
+[Background:"ch9_3be532_2"]
+[Sound: The drum of the rain intensifies, matching the music's tempo]
+
+You feel a body approach before you see who it is: Elias Rook, hair plastered to his temple, rain carving clean paths across his cheeks. His jacket is company-issue; its reflective piping glitters like a small admission. When he sees you, his expression breaks open — not all the way into something simple, but enough to make you understand the weight he carries.
+
+Elias Rook: "Ayla."
+
+(He stops, searches, then finds a step closer.)
+
+Elias Rook: "I'm—"
+
+(He hiccups on the word like it's foreign.)
+
+Elias Rook: "I was wrong about how invisible losses can be. My models said risk; they didn't load memory into their equations. I'm sorry."
+
+You taste the apology before it lands. It's accurate; it is late. Your hands flex instinctively toward the vial at your neck.
+
+Ayla Moreno: "You couldn't see our nets, Elias. Charts don't smell like salt or algae. Charts don't have Mateo's face."
+
+Elias Rook [Quiet, earnest]: "I know. And that's on me. I thought if I made the numbers undeniable, the policy would follow. I didn't know they'd drown out the stories. I didn't mean to—"
+
+(He stops again, as if the city itself is breathing with him.)
+
+Elias Rook: "I didn't mean to make your choice harder."
+
+You study him — the damp collar, the way his fingers drum a nervous code against his tablet, the way his eyes refuse easy absolution. There's no grand confession, only an earnestness that wants to bridge you with scaffolding and equations.
+
+Elias Rook: "Look. What happened tonight — it mattered. That footage mattered more than any model I ran. I don't expect you to fix it with a word, but I need you to know: I'm not on Jonah's side. I'm on the city's side — and that includes you."
+
+Ayla Moreno: "The city isn't a single thing, Elias. It's Mateo and Kira and the roof gardens and the kids who learned to plant basil from me. Saying 'the city's side' doesn't make those things safe."
+
+Elias Rook: "Then help me make the city's side mean all of that. Help me translate what we both know into something the city will accept without losing you. I can build the scaffolding; you teach me how to hang the banners."
+
+Ayla Moreno [Your voice is small and steady.]: "You sound like a grant application."
+
+Elias Rook allows a brief, self-deprecating smile. There's a tremor of humor — a fragile thread in the rain.
+
+Elias Rook: "I'm learning to be persuasive without being clinical. Will you let me keep learning?"
+
+The air tightens — not a trap, but the careful inhale before a chorus. This is a hinge not only for the city but between you. The crowd rustles; the rain's rhythm speeds as if urging the moment onward.
+
+[INTERACTION]
+> Choice A: "Step forward and accept his hand"
+> Choice B: "Keep your distance and hand back the thermos"
+> Choice C: "Laugh, then change the subject"
+[Outcome A: "You take his hand. It's cool from the rain and warm from life. Your grip is a small treaty; it holds out longer than you expect."]
+[Outcome B: "You shake your head and hand the thermos back. Your muscles remember the line you held on the boardwalk. It's a careful, measured refusal — not anger, not mercy, but protection."]
+[Outcome C: "You let out a shaky laugh, the sound startlingly loud in the tarp'd hush, and say, 'We need more soup.' The moment blinks; the diplomacy becomes practical and immediate."]
+[MERGE: Whatever you choose — hand held, thermos returned, or laughter favored — the rain keeps falling. The plaza leans into the choice like a chorus committing to a phrase.]
+
+Kira [Grinning, loud enough to cut through the rain]: "Okay, enough near-sentiment. Mateo says the harbor remembers who feeds it. He brought maps and a stack of old permits. We've got lawyers on call. Mayor Serena's on the line — or rather, her staff is. They're talking emergency measures."
+
+Ayla Moreno: "They're talking?"
+
+Kira: "They're talking louder than usual. Governor-level chatter. People are handing cameras to anyone with a face. The feeds are covering us like light."
+
+[Sound: The crowd's chatter swells; a nearby amplifier crackles as someone streams a live update. The music shifts — triumphant brass cuts through the strings, adrenaline spiking.]
+
+From the corner of the camp, a municipal van pulls up, engine idling. Mayor Serena Okoye steps out, rain-sheeted but composed, the civic sash pinned neat despite the weather. Her face is worked by the night's labor, but her voice when she raises it carries authority and something softer — obligation made visible.
+
+Mayor Serena: "Good people. I won't take long. After consulting with legal counsel and hearing the volume of public concern, I'm declaring an immediate emergency moratorium on any displacement tied to Jonah Hale's project. It includes a binding clause for community review before any demolition or relocation."
+
+(She pauses, letting the words find their weight in the rain.)
+
+Mayor Serena: "This moratorium is narrow and temporary by statute, but it gives us a legal window to negotiate protections and to form a review committee that includes community representatives."
+
+The plaza erupts in sound — a staccato of shouts, cups clinking, and tears breaking loose. Kira whoops; Mateo laughs as if the sound will puncture the sea. Your lungs feel too full and not full enough at once. Relief is an electric current; it runs through you and makes your hands tremble.
+
+Ayla Moreno (You call out without intending to, hoarse and high): "Make sure it's binding. Make sure it's not just a paper promise."
+
+Mayor Serena (Inclines her head, face softening): "I'm putting the text into the record. We will have legal oversight from independent counsel. You'll have a seat at the table."
+
+You study the mayor's face for the slightest slip — a window into whether she'll hold. Her lines are not a guarantee; they are a ledger entry. But tonight, they are also a lifeline.
+
+On the perimeter of the plaza, a feed picks up Jonah Hale on a digital uplink, his image composed and steady against a backdrop of polished renderings. He addresses the cameras with the practiced cadence of someone used to shaping narratives.
+
+Jonah Hale: "We respect the democratic process and will pursue our appeals through the appropriate channels. Infrastructure cannot wait indefinitely. I will, however, engage in the review process as required by the moratorium and look forward to constructive dialogue."
+
+There is no visible contrition; his smile is measured. The promise of appeal is a shark's fin on the horizon — a reminder that tonight's reprieve will be contested.
+
+[Background:"ch9_3be532_3"]
+[Music: The brass swells into a sustained chord, hopeful but unresolved]
+
+Mateo (Coming to your side, his hands still smelling faintly of fish oil and seaweed): "We held the line because it was the right hurt to take, niña. You gave them something they couldn't quantify. They saw our hands. They saw our faces. That's why that moratorium exists tonight."
+
+Ayla Moreno: "We gave them a story. Not just data. They saw that we would not be moved without a fight."
+
+Mateo (He taps his temple with a finger, slow): "Stories are heavy. You have to know how to carry them without breaking."
+
+You look around the plaza — faces lit by makeshift lamps, the tired, fierce joy of people who have been given a pause instead of a solution. Your heart thumps in your throat, a drum tempered by rain and the heat of so many bodies near you.
+
+You feel both lighter and heavier. The legal language of the moratorium is a net; it keeps some things from falling through, but it has gaps. The viral footage, the mayor's words, the community's warmth — these are wins, real and electric. But Jonah's promise to appeal and the thinness of the moratorium's language are reminders that victory tonight is not final.
+
+[Background:"ch9_3be532_4"]
+[Music: The chord resolves, gentle but taut; the rain eases into a steady, cleansing patter]
+
+Elias Rook (Quiet, almost to himself): "We bought time."
+
+Ayla Moreno: "Time's not the same as safety."
+
+Elias Rook: "I know. But now there's a table where there wasn't one. There will be lawyers and cameras and maybe some of the engineers I can call in to make sure the words mean something. I want to stand in that room with you. If you let me."
+
+You weigh his words — the practical offer, the emotional reach. Around you, a million small acts are unspooling into something larger: people cataloging what must be protected, volunteers drawing maps by tarp-light, older neighbors telling stories so the next generation understands what is at stake.
+
+Kira nudges you. "We're not done," she says, flat and fierce. "But tonight, we sleep without the sound of bulldozers."
+
+You close your eyes and let the truth in: the sound of the sea is still there, restless as ever. The city's pulse will swell and ebb around this moratorium. The campaign ahead will demand cunning forms of patience and fury, legalese and brazen chant. Your throat is raw, your wrists a map of protest, and your heart is a loose, tentative thing that has been handed back to you — bruised, yes, but beating.
+
+You rise to your feet, feeling the wet weight of the night in your boots. Around you, the plaza gathers its stories and folds them into plans. People hand out blankets, exchange phone numbers, rehearse testimonies. The victory tonight is sharp and immediate; it tastes of soup and hot metal and the bright flavor of being seen.
+
+You look at Elias, at Kira, at Mateo, at the mayor speaking quietly into a microphone, at the looped clip of your own hands on the wall. You hold the memory of arrest in one palm and the moratorium's wording in the other. Both are heavy. Both are usefully so.
+
+[Background:"ch9_3be532_5"]
+[Music: A hopeful yet driving motif carries forward, cadence slowing from fever to purpose]
+
+You know, with the quiet, stubborn clarity that comes after a storm, that this night will be told and retold. People will mark it on calendars, on feeds, on the inside of their own bones. It will be the story you carry into committees and courtrooms and neighborhood meetings.
+
+Relief folds over you like a thin, warm blanket. Dread sits beside it, not a threat but a companion — sharp and useful, reminding you to keep your hands steady.
+
+You press your palm to the seed vial at your throat and feel that small glass against skin: a makeshift totem for a long campaign. You cradle it like a promise to yourself and to everyone who brought soup to the plaza.
+
+[Scene: Twilight Festival Plaza / Makeshift Blockade Camp | Late Night — Rain Easing]
+[Background:"ch9_3be532_6"]
+[Music: A single piano motif, steadying, threads underneath the murmuring crowd]
+[Sound: Rain softens to an audible inhale as the city holds its breath]
+
+You sit at the communal table with a paper and the smear of a marker, writing down parcels and priority plants, legal contacts and names. Kira shepherds a volunteer crew; Mateo tells a reporter a story about a storm fifty years ago; Elias Rook folds himself into the work — quiet, steady, learning the local inflections of advocacy.
+
+There is a sense of ending to the night's frenzy — not an end to the struggle, but the closing of a chapter. The moratorium, legally narrow and temporary, is a doorway. You have pried it open with your own hands.
+
+You let out a breath that tastes like rain-dimmed hope.
+
+[Background:"ch9_3be532_7"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

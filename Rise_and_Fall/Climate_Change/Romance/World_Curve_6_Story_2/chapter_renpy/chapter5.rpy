@@ -1,0 +1,183 @@
+label chapter5:
+
+    # [Scene: Highwater Cove Harbor | Morning]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet, hopeful strings; a steady rhythm like hands at work]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls; soft thumps of boots on wet wood; a low murmur of voices]
+    "You arrive at the harbor while the fog is still folding off the water. The floating platforms you helped seed—oyster cages, a lattice of anchored pontoons stitched with solar panels and planters—ride a gentle swell. Salt"
+    "fog lingers on your scarf; the compass at your throat is warm against your skin."
+    "The crowd is bigger than last week. Investors in rainproof coats step carefully around coils of rope. A small press contingent takes angled shots, lenses glinting like fish scales. You feel the town's heartbeat under your boots: curiosity, pride, the taut wire of worry that runs through every conversation."
+    "Rafi is at the edge of the pier with a tablet, fingers moving too quickly to follow. Jonah is down a step from you, sleeves rolled, palms dark from varnish and sea residue as he loosens"
+    "a splintered plank on a demonstrator hull. He looks up when you arrive—his face a mailbox of practical news and something softer—and gives you a small, conspiratorial grin."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "They brought their nice coats early. You still have room in your patience quota?' (He taps the plank idly, then gestures at the platform.) 'Prototype's holding. Rafi says the floats are singing like the harbor's alive."
+    "The platform does sing—the sensors ping, the water breathes through the cages, and for a moment you can believe this will be enough."
+    show maya_armitage at right:
+        zoom 0.7
+
+    maya_armitage "It's holding because people keep showing up to tend it.' (You look at Jonah. You mean him, and everyone else.) 'How's the hull?"
+
+    jonah_reyes "Won't fall apart today. We can sleep on that.' (He squints toward the investors.) 'But hands not enough. They'll want numbers, permits—Evelyn will want seats."
+    # play sound "sfx_placeholder"  # [Sound: A camera shutter; murmured negotiation]
+    hide jonah_reyes
+    hide maya_armitage
+
+    scene bg ch5_4001e7_2 at full_bg
+    "An envoy from City Hall approaches with a practiced smile and a stack of glossy proposals. You recognize the language before the envoy speaks—scale, oversight board, streamlined approvals. Behind their smile sits the ozone tang of bureaucracy: efficient, expensive, and not always kind to the small stitches communities make."
+
+    "Clara Dorsey" "Ms. Armitage? I'm Clara Dorsey. Evelyn sent word—she's impressed. With the city's oversight, we could accelerate scale-up. Imagine the grant size—"
+    "You interrupt gently, because you have practiced this interruption in your head a dozen times. You do not want to be angry; you want to be clear."
+    show maya_armitage at left:
+        zoom 0.7
+
+    maya_armitage "We appreciate the interest. This pilot was built by our hands and our neighbors' time. Any involvement has to protect that."
+    "Clara Dorsey: (smiling, not unkind) 'Of course—we're proposing an oversight board to ensure accountability. It's just governance.'"
+
+    maya_armitage "Governance can feel like safety. It can also be a takeover when the metrics start to matter more than the work. We need guarantees: binding community control, transparency, and real penalties for breach."
+    "Clara hesitates—there's almost a flicker of annoyance, then smoothing. 'Those are negotiable. We can draft an agreement.'"
+    "Your stomach tightens; you can imagine a thousand clauses that would look good on paper and slit the town in practice. You make a note: community charters, veto mechanisms, publicly auditable ledgers."
+
+    menu:
+        "Ask the envoy to wait while you consult with the group":
+            "Clara nods obligingly; you step aside and feel the pressure ease, if only briefly."
+        "Press for a verbal commitment now":
+            "Clara gives a careful, diplomatic non-answer; you feel the conversation sliding into polished ambiguity."
+
+    # --- merge ---
+    "You step away with Rafi and Jonah to the market—where the real anchors of the town orbit: a stall with sea-glass trinkets, a fishmonger arranging the day's catch, and the community bulletin board tacked with hand-lettered notices."
+    "You step away with Rafi and Jonah to the market—where the real anchors of the town orbit: a stall with sea-glass trinkets, a fishmonger arranging the day's catch, and the community bulletin board tacked with hand-lettered"
+    "notices. Voices here are higher, familiar; the conversations hold the scent of frying fish and mud-sweet soil."
+    "Rafi Chen: (eyes bright, tapping his tablet) 'We pushed the dashboard live. Every donation, every contract, every signature—public stream. If they try to hide a clause, it'll light up in red.' (He grins, paint flecks at the collar.) 'Transparency theater—call it civic karaoke.'"
+    "Rafi's nervous joke steadies your chest. The dashboard is a scalpel and a stage: it will make details visible, but it won't stop a bulldozer or silence a well-funded lawyer."
+
+    maya_armitage "It's a start. Can it handle the city's database feeds?"
+    show rafi_chen at right:
+        zoom 0.7
+
+    rafi_chen "Barely. I'm patching in open APIs. We can put audit triggers on unusual transactions. Still—it's a band-aid that shows a wound. It doesn't close it."
+    "Jonah Reyes leans in, running a hand along the tablet like it's a boat he's about to trust. 'If people can see where the money goes, they can contest it. That's something.'"
+
+    rafi_chen "Or they can get used to the data and forget the people behind it."
+    "You laugh, and the sound is small and startled and true. Around you, neighbors stop to peer at the streaming ledger as names and amounts pulse across the screen. A child tugs at her mother's sleeve"
+    "and points at a donation—someone from two streets over has given a crate of seedlings."
+    "Gracie 'Nan' Armitage approaches in her patched cardigan, knitting bag clacking against her hip. The kerchief at her throat is the town's colors, somehow both defiant and tender."
+
+    "Gracie 'Nan' Armitage" "A public ledger won't stitch a roof faster,' she says plainly, then cups your cheek with two fingers. 'But it can keep a liar from lying loud."
+    "Nan's fingers are small and sure, like the people who have kept this place steady. Her voice is a stone I can measure against the tide."
+
+    "Gracie 'Nan' Armitage" "We need a town vote. Not a board's decision behind closed doors. You hear me?"
+
+    maya_armitage "I hear you."
+    # play music "music_placeholder"  # [Music: A quiet uplift—woodwinds mingling with the strings]
+    hide maya_armitage
+    hide rafi_chen
+
+    scene bg ch5_4001e7_3 at full_bg
+
+    "The day moves like a tide: small, persistent acts. Volunteers bring planks and sandwiches. Someone strings a banner" "Our Harbor, Our Hands."
+    "As evening presses down, Evelyn Hart herself appears at the edge of the crowd on a video feed projected from the envoy's tablet. Her face is polished on the screen; the frame behind her is a model of efficacy: maps, timelines, and a neat stack of slick presentations."
+    show evelyn_hart at left:
+        zoom 0.7
+
+    evelyn_hart "Highwater Cove has momentum. We can amplify that. My proposal is revised: full funding for scale-up, conditional on an oversight board administered by the city to ensure fiscal responsibility and rapid implementation."
+    "Murmurs run through the crowd—hope sharpened, worry pricked. In the press of bodies you can smell diesel from the boats, coffee from a thermos Jonah offers you, and the metallic tang of possibility."
+    "You do not trust that kind of ease. Not because she is evil—she is not—but because institutional ease often shoves aside people who don't fit its blueprints."
+    "Jonah Reyes: (quiet, hands working on a length of rope) 'If she runs the board, it becomes her story in our harbor.' (He looks up at you; there's worry in his eyes, and an old, weathered"
+    "grief you never learned how to mend for him.) 'My family didn't walk away because we had nothing—sometimes we let go because they told us it was the only way.'"
+    show maya_armitage at right:
+        zoom 0.7
+
+    maya_armitage "We won't hand over the steering wheel. If we let fear of scarcity push us to give that away, we lose more than materials. We lose sovereignty over who the town is."
+    show rafi_chen at center:
+        zoom 0.7
+
+    rafi_chen "We can draft hard clauses. Majority community seats. Binding recall mechanisms. An auditable ledger. Legal counsel—pro bono from the university.' (He lists it off, like gears clicking into place.) 'It'd be messy, but possible."
+
+    "Gracie 'Nan' Armitage" "Messy's our weather. We know it."
+
+    menu:
+        "Tell Jonah you want to push for a town vote immediately":
+            "He nods slowly, relief and fear braided together. 'Let's call it,' he says. You can feel the whole pier exhale."
+        "Ask Rafi to prepare the legal framework overnight":
+            "Rafi's eyes light up—'I'll be up all night, don't worry.'—and the immediacy at least shifts into motion."
+
+    # --- merge ---
+    "Night tilts the harbor into a close-up of small movements: the flashlight sweep across a weathered face, the rusted hinge of an old lock, the way steam from a thermos fogs the air and then is swallowed by the sky."
+    "Night tilts the harbor into a close-up of small movements: the flashlight sweep across a weathered face, the rusted hinge of an old lock, the way steam from a thermos fogs the air and then is"
+    "swallowed by the sky. The community forms into quadrants of conversation: some want to push back harder against Evelyn; others imagine the material relief the city's money could buy."
+    "You find Jonah at the pier's edge, a lantern between you. He hands you a cup; the heat is welcome in your palms. He smells like salt and resin and rope—familiar and anchoring."
+    hide evelyn_hart
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You know what I want?' (He pauses, searching for the words.) 'I want us to go on building, without someone else's calendar telling us when to finish. I want kids here to learn nets and charts, not corporate jargon."
+
+    maya_armitage "And I want to build enough that nobody has to leave because the seawall failed them before the grant arrived.' (Your practical need for structural resilience collides with your ethical need for autonomy.) 'We can swing both ways—but not if we let fear decide."
+    "Jonah Reyes: (softly) 'I know you want 'both.' But you're human, Maya. You can't be the whole both. Let me be part of that.'"
+    "It's a small concession, offered like a hand to hold up a wall. Jonah's steadiness has saved you before—not by argument, but by being there. You realize you have been carrying the weight alone because you"
+    "thought carrying it proved your worth. Tonight, the harbor proves otherwise: weight shared is still weight lifted."
+    "Gracie 'Nan' Armitage approaches, knitting bag set aside, eyes sharp in the lantern light."
+
+    "Gracie 'Nan' Armitage" "You can set terms at the table, child, or you can set them in the town square. Which is truer to us?"
+    "The question is not rhetorical. It is a lever you can pull."
+
+    maya_armitage "We call a vote. We demand any agreement be ratified publicly, with transparency. And we draft binding clauses for community-majority oversight if we negotiate."
+    "Gracie 'Nan' Armitage: (smiles, small and fierce) 'There we go. Let the town speak.'"
+    "The mood shifts from fragile worry to a rough, rising confidence. People begin writing out notices, folding ballots, and arranging the market hall for deliberation. Jonah sets to work with others to reinforce the demo hull—tactile"
+    "reassurance—while you and Rafi map the legal scaffolding that could keep a compromised partnership from erasing the town."
+    # play music "music_placeholder"  # [Music: The strings lift into a brighter pattern; a light, steady crescendo]
+    hide maya_armitage
+    hide rafi_chen
+    hide jonah_reyes
+
+    scene bg ch5_4001e7_4 at full_bg
+    "There is no glamour to this shift—only the slow accumulation of small acts. Each one is a stitch. Each stitch is an argument for continuation. The future is not a single grant or a single board;"
+    "it is the collection of nights like this, where people decide to keep tending, even when the sea keeps taking."
+    "Your perfectionist instinct hums like a background machine, whispering that you should secure a flawless plan before speaking. But the harbor teaches you that perfection is the enemy of forward motion. Better a patch that holds than a promise on paper that never becomes scaffolding."
+    "Rafi nudges you toward the tablet, eyes bright. 'We can bring the legal draft live to the dashboard,' he says. 'Crowdsource amendments. Let Evelyn see the clauses before she flips her headlines.'"
+    "The idea tastes like risk and possibility in equal measure."
+    show maya_armitage at left:
+        zoom 0.7
+
+    maya_armitage "Let's do it. Put everything up—contracts, donor ledgers, meeting minutes. Let the town decide how much they trust a handed check."
+
+    menu:
+        "Release the draft now and invite public commentary":
+            "The screen fills with voices—support, nitpicks, urgent edits. The town starts shaping the language in real time."
+        "Hold the draft for the vote to avoid swaying the meeting":
+            "Silence for a beat—safer, but it keeps momentum at arm's length. The choice feels like choosing which kind of courage we need."
+
+    # --- merge ---
+    "You stand at the intersection of hope and sieve: optimism about what the community can do, and a practical fear of overreach. Both are true at once."
+    "You stand at the intersection of hope and sieve: optimism about what the community can do, and a practical fear of overreach. Both are true at once. The harbor hums beneath your feet, alive with a thousand small decisions."
+    hide maya_armitage
+
+    scene bg ch5_4001e7_5 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, ascending motif; hold]
+    "You breathe in the salt and the diesel and the faint sweetness of someone grilling fish nearby. The town has, remarkably, turned attention into action. Investors will keep circling; Evelyn's public offer will not disappear. You"
+    "can see the outlines of paths forward, each with its own set of losses and gains."
+    "You know this is a tactical moment: bind them with law, preserve autonomy at the cost of speed, or put the city on the defensive and risk legal reprisal. Your perfectionist instinct wants a flawless stance; reality asks for compromise."
+    # play sound "sfx_placeholder"  # [Sound: A bell from the market clocking the hour]
+    # play music "music_placeholder"  # [Music: Pause—then a gentle uplift]
+    "You gather the people closest to you—Jonah, Rafi, Nan, and a handful of neighbors—and lay out the options with the care of someone drawing a map in fog. Each option feels like a different kind of"
+    "love for the town: trust in communal muscle, a marriage with oversight, or exposure that might draw the town tight but wound it raw."
+    "Your voice is steady. You are tired but not broken; you are hopeful because the town chose itself tonight."
+    show maya_armitage at left:
+        zoom 0.7
+
+    maya_armitage "Here's what we can do. I want everyone to understand that each path is a commitment—not just to a plan, but to how we'll care for whoever might be harmed along the way."
+
+    "Gracie 'Nan' Armitage" "Say it plain, child."
+    "You take a breath. The decision waits like a low tide line painted freshly on the old promenade: visible, impossible to ignore."
+
+    menu:
+        "Double down on community expansion—refuse any partnership and push for self-sufficiency.":
+            jump chapter6
+        "Accept a conditional partnership—negotiate binding community oversight clauses and transparency.":
+            jump chapter13
+        "Expose Evelyn’s past compromises publicly to force accountability and slow her plan.":
+            jump chapter6
+    return

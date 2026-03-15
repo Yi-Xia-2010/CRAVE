@@ -1,0 +1,33 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>The Watchhouse Clock<br/>[Common]"):::spine
+    2("Ch 2<br/>Tides and Town Meeti<br/>[Common]"):::spine
+    3("Ch 3<br/>Three Ways to Shore <br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Mud on Our Boots<br/>[Route A]"):::limb
+    5("Ch 5<br/>The Grant Letter<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>Roots That Hold<br/>[Route A / Ending]"):::limb
+    7("Ch 7<br/>The Glass Proposal<br/>[Route B]"):::limb
+    8("Ch 8<br/>Storm After the Ribb<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>Reclamation Plan<br/>[Route B / Ending]"):::limb
+    10("Ch 10<br/>The Broker's Table<br/>[Route C]"):::limb
+    11("Ch 11<br/>The Surge and the Sc<br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>A Covenant of Salt a<br/>[Route C / Ending]"):::limb
+    13("Ch 13<br/>Mud, Music, and the <br/>[Route C / Ending]"):::limb
+    14("Ch 14<br/>Resignations and New<br/>[Route B / Ending]"):::limb
+    15("Ch 15<br/>The Compromised Harb<br/>[Route B/C Shared Ending]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 14
+    8 -.-> 9
+    8 -.-> 15
+    10 -.-> 11
+    11 -.-> 13
+    11 -.-> 12
+    11 -.-> 15

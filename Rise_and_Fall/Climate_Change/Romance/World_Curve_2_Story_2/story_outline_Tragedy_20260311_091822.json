@@ -1,0 +1,498 @@
+{
+    "title": "Tides We Could Not Hold",
+    "summary": "Mara Voss returns to her coastal hometown, Willowmarsh, to build living shorelines and confront Cassandra Rey’s Azure Crescent Development. Faced with economic desperation and ecological collapse, Mara must choose between political negotiation, legal resistance, or community-scale restoration. Each path narrows into loss—ecological damage, fractured community ties, and personal sacrifice—producing bittersweet or tragic outcomes as the town and Mara reckon with what can be saved and what is lost.",
+    "emotional_curve_type": "Tragic Descent",
+    "player_character": "Mara Voss",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Chapter 1: Homecoming",
+            "branch_designation": "Common",
+            "narrative_focus": "Mara returns to Harbor's Reach, takes stock of higher waterlines and the corporate Azure Crescent banner, reunites with Eli and Nia, and senses immediate tension between economic need and ecological urgency as she heads toward Town Hall.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mara Voss",
+                "Eli Calder",
+                "Nia",
+                "Mayor Rosa",
+                "Cassandra Rey"
+            ],
+            "locations_used": [
+                "Harbor's Reach",
+                "dock",
+                "main pier",
+                "boatyard",
+                "marketplace",
+                "headland",
+                "Town Hall",
+                "skiff Aster"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Chapter 2: The Marsh Counts",
+            "branch_designation": "Common",
+            "narrative_focus": "Mara surveys Willowmarsh, collects cores and salinity data, hears Tomas Calder’s memories of a narrower tide, and returns to town to find Azure Crescent renderings posted; she feels the moral weight of making data matter against immediate economic needs.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mara Voss",
+                "Tomas Calder",
+                "Eli Calder",
+                "Mayor Rosa",
+                "Rina Park",
+                "Nia",
+                "Cassandra Rey"
+            ],
+            "locations_used": [
+                "Willowmarsh",
+                "Aster (skiff)",
+                "dock",
+                "marsh",
+                "town square",
+                "headland",
+                "Town Hall"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Chapter 3: The Town Hall Fever",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At a heated Town Hall meeting Cassandra Rey presents Azure Crescent. Mara must decide whether to negotiate with the developer, lead legal resistance, or focus on local pilot restoration—each option shaping political and personal consequences.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 2, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I position myself and my science in the town’s crisis?",
+                "options": [
+                    {
+                        "label": "Negotiate; seek to modify Azure Crescent to include living-shore elements.",
+                        "consequence": "Opens political compromise and direct involvement with Cass; risks legitimizing large development while buying protections.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Lead a legal and grassroots blockade to stop the development outright.",
+                        "consequence": "Mobilizes resistance, invites legal fights and media but risks economic backlash.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Prioritize fast, local pilot restoration and small green job programs, sidestepping the developer.",
+                        "consequence": "Focuses on community-scale resilience and immediate employment experiments but avoids confronting political power directly.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Cassandra Rey",
+                "Eli Calder",
+                "Nia",
+                "Tomas Calder",
+                "Mayor Rosa",
+                "Rina Park"
+            ],
+            "locations_used": [
+                "Town Hall",
+                "dais",
+                "town square",
+                "headland"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Chapter 4: Handshakes and Renderings",
+            "branch_designation": "Route A",
+            "narrative_focus": "Mara negotiates with Cassandra Rey, agrees to a tentative Memorandum of Understanding that embeds living-shore prototypes into the development while allowing early site work; she feels uneasy about the concessions but hopes to protect marsh elements.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Mara Voss",
+                "Cassandra Rey",
+                "Eli Calder",
+                "Nia",
+                "Rina Park",
+                "Mayor Rosa",
+                "developer engineers"
+            ],
+            "locations_used": [
+                "architect's office",
+                "negotiation space",
+                "dock",
+                "headland",
+                "pilot site"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Chapter 5: Pilot & Promises",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "Mara oversees a living-shore pilot—marsh mats and seeded reeds—with early ecological promise, while Cass pushes legal wording tying the pilot to broader development; Mara must choose whether to accept the legal package, push for referendum protections, or scale up community builds independently.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I protect the pilot and the marsh’s core?",
+                "options": [
+                    {
+                        "label": "Accept Cass’s legal package to secure funding and fast deployment.",
+                        "consequence": "Guarantees money and wider living-shore adoption but ties protections to the developer’s broader plan and allows nearby grading.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Demand a public referendum and stricter covenants before more site work.",
+                        "consequence": "Could legally fortify protections but slow funds and invite political sabotage.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Refuse to legalize the pilot into the development; scale up community builds independently.",
+                        "consequence": "Preserves ecological integrity more purely but risks losing funding and invites developer impatience.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Eli Calder",
+                "Rina Park",
+                "Cassandra Rey",
+                "Nia",
+                "Mayor Rosa",
+                "developer engineers"
+            ],
+            "locations_used": [
+                "pilot site",
+                "Willowmarsh",
+                "headland",
+                "marsh",
+                "dock"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Chapter 6: Contracted Shore (Ending A1—Bittersweet)",
+            "branch_designation": "Route A / Ending",
+            "narrative_focus": "Mara signs the legal package; living-shore projects expand and create jobs, but grading and a hard sea wall alter currents and kill some oyster beds. The town fractures between those who gain paychecks and those who lose habitat; Mara and Eli remain together but with an ache over compromised outcomes.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Eli Calder",
+                "Cassandra Rey",
+                "Marco (neighbor)",
+                "Mayor Rosa",
+                "town council members"
+            ],
+            "locations_used": [
+                "Azure Crescent site",
+                "headland",
+                "marsh",
+                "Glasshouse",
+                "pilot strips",
+                "dock"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Chapter 7: Rallying the Flats",
+            "branch_designation": "Route B",
+            "narrative_focus": "Mara organizes legal resistance and grassroots blockades with Tomas, Nia, and Rina, gathering signatures and filing injunctions; community tension rises as the developer frames resistance as obstruction and early grading leads to confrontations.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Mara Voss",
+                "Tomas Calder",
+                "Nia",
+                "Rina Park",
+                "Eli Calder",
+                "Cassandra Rey",
+                "Mayor Rosa"
+            ],
+            "locations_used": [
+                "Town Hall",
+                "town square",
+                "headland",
+                "dock"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Chapter 8: Court and Cold Water",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Mara testifies in court; a preliminary ruling orders more environmental study but demands worker mitigation plans. Night grading and floodlit work continue. Mara must choose between escalating legal appeals, organizing emergency employment schemes, or agreeing to mediated concessions.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "What is my next escalation to protect the marsh and the town?",
+                "options": [
+                    {
+                        "label": "Appeal and intensify legal pressure, push for larger injunctions.",
+                        "consequence": "Legal battle grows; delays continue but costs mount and resentment deepens.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Organize emergency local employment schemes to offset lost work (temporarily funded by NGO loans).",
+                        "consequence": "Buys short-term relief but burdens future budgets and may be seen as insufficient.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Agree to mediated concessions that freeze site work in sensitive zones while allowing other sections to proceed.",
+                        "consequence": "Partial protection but political compromise that some view as betrayal.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Cassandra Rey",
+                "judge",
+                "developer legal team",
+                "Tomas Calder",
+                "Nia",
+                "Eli Calder",
+                "Rina Park",
+                "Mayor Rosa"
+            ],
+            "locations_used": [
+                "courtroom",
+                "headland",
+                "marsh",
+                "site survey lines",
+                "night grading area"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Chapter 9: Attrition (Ending B1—True)",
+            "branch_designation": "Route B / Ending",
+            "narrative_focus": "Mara doubles down legally; courts protect some sensitive channels but allow much headland development. Ecological pockets recover, but prolonged litigation devastates local commerce and Eli leaves for steady work elsewhere; Mara wins for the marsh but loses intimate anchors.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Eli Calder",
+                "Mayor Rosa",
+                "developer",
+                "Tomas Calder"
+            ],
+            "locations_used": [
+                "court records",
+                "protected marsh pockets",
+                "dock",
+                "headland"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Chapter 10: Seedlines and Small Jobs",
+            "branch_designation": "Route C",
+            "narrative_focus": "Mara focuses on community-scale restoration: marsh mat workshops, oyster nurseries in the Glasshouse, and small paid jobs. The work is tangible and cohesive, but corporate survey stakes continue to threaten larger-scale machinery.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Mara Voss",
+                "Rina Park",
+                "Eli Calder",
+                "Nia",
+                "Tomas Calder"
+            ],
+            "locations_used": [
+                "Glasshouse",
+                "dock",
+                "marsh",
+                "headland"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Chapter 11: Quiet Resistance",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "Survey stakes multiply and Mara must choose whether to enter local negotiations with Mayor Rosa, seek emergency NGO funding to scale jobs, or remain fiercely local and refuse engagement with the developer—each choice risks compromise, dependency, or isolation.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which tactical posture will protect the marsh while serving livelihoods?",
+                "options": [
+                    {
+                        "label": "Appeal to Mayor Rosa and enter local negotiations to secure limited legal protections for pilot zones.",
+                        "consequence": "Brings political exposure and risk of compromise; could slow grading in key channels.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Apply for emergency NGO annex funding to scale jobs and prove economic arguments quickly.",
+                        "consequence": "May secure temporary funds but ties us to outside priorities and timelines.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Refuse to negotiate with the developer; double down on community projects regardless of wider outcomes.",
+                        "consequence": "Moral clarity preserved; practical vulnerability increases as external pressures mount.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Eli Calder",
+                "Nia",
+                "Tomas Calder",
+                "Rina Park",
+                "Mayor Rosa"
+            ],
+            "locations_used": [
+                "Glasshouse",
+                "headland",
+                "Mayor Rosa's office",
+                "dock"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Chapter 12: Patchwork Shore (Ending C1—Bittersweet)",
+            "branch_designation": "Route C (Ending)",
+            "narrative_focus": "Mara convinces Mayor Rosa to enact temporary covenants protecting pilot zones; emergency funding preserves work for a season and some channels recover, but protections are fragile, developers pursue adjudication, and the larger headland is still reshaped.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Mayor Rosa",
+                "Eli Calder",
+                "community volunteers"
+            ],
+            "locations_used": [
+                "Glasshouse",
+                "marsh",
+                "protected pilot zones",
+                "headland"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "",
+            "branch_designation": "",
+            "narrative_focus": "",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [],
+            "locations_used": []
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Chapter 14: Stand & Scar (Ending C2 / A3 — Sad)",
+            "branch_designation": "Additional Route (Ending C2 / A3 — Sad/True hybrid)",
+            "narrative_focus": "Mara refuses to entangle the pilot with corporate plans and doubles down on community projects; small habitats and bonds survive but the developer reshapes much of the coast, economic stress deepens, and Eli eventually leaves for stable work—Mara preserves moral clarity but loses wholeness of place and love.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5, Option C OR From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Eli Calder",
+                "Nia",
+                "Tomas Calder",
+                "developer"
+            ],
+            "locations_used": [
+                "Glasshouse",
+                "headland",
+                "dock",
+                "marsh"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Chapter 15: External Funding (Ending C3 / B2 — Sad)",
+            "branch_designation": "Additional Route (Ending C3 / B2 — Sad)",
+            "narrative_focus": "Mara accepts emergency NGO funding to scale jobs and installations; short-term relief arrives with strings and visible gains, but funder timelines distort priorities, maintenance fails when funds end, and developers use visible mitigations to justify other grading—dependency and long-term vulnerability remain.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11, Option B OR From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Voss",
+                "Rina Park",
+                "Nia",
+                "Eli Calder",
+                "Mayor Rosa",
+                "NGO funders",
+                "developer"
+            ],
+            "locations_used": [
+                "Glasshouse",
+                "marsh",
+                "dock",
+                "headland"
+            ]
+        }
+    ],
+    "remarks": "Endings: Chapter 6 (A1) Bittersweet compromise; Chapter 9 (B1) legal victory with personal loss; Chapter 12 (C1) local political protection with partial success; Chapter 13 (A2) referenced but content reserved; Chapter 14 (A3/C2) principled refusal with costs; Chapter 15 (B2/C3) short-term funding with dependency. Chapter 13 is referenced by branches but not detailed in the provided outline.",
+    "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+    "_meta_arc_strategy": "Tragedy (Fall)"
+}

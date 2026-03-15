@@ -1,0 +1,35 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Salt and Alarm<br/>[Common]"):::spine
+    2("Ch 2<br/>The Forum and the Fr<br/>[Common]"):::spine
+    3("Ch 3<br/>The Choice of Anchor<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Building the Living <br/>[Route A]"):::limb
+    5("Ch 5<br/>Compromises in Salt <br/>[Route A]"):::limb
+    6("Ch 6<br/>The Bad High Tide<br/>[Route A — Ending: Bittersweet/True]"):::limb
+    7("Ch 7<br/>The Armor of Immedia<br/>[Route B]"):::limb
+    8("Ch 8<br/>Contracts and Compro<br/>[Route B]"):::limb
+    9("Ch 9<br/>The Hardened Shore<br/>[Route B — Ending: Sad/True]"):::limb
+    10("Ch 10<br/>A Conditional Deal<br/>[Route C]"):::limb
+    11("Ch 11<br/>Oversight and Stalem<br/>[Route C]"):::limb
+    12("Ch 12<br/>The Contracted Shore<br/>[Route C — Ending: Sad/True]"):::limb
+    13("Ch 13<br/>Conditional Partners<br/>[Route A / Alternate]"):::limb
+    14("Ch 14<br/>Hybrid Stitched with<br/>[Route B / Alternate]"):::limb
+    15("Ch 15<br/>Independent Auditors<br/>[Route C / Alternate]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 13
+    4 -.-> 6
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 9
+    7 -.-> 8
+    7 -.-> 14
+    8 -.-> 9
+    10 -.-> 15
+    10 -.-> 11
+    10 -.-> 12
+    11 -.-> 12

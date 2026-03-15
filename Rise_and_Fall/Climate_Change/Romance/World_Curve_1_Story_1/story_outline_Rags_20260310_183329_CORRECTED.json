@@ -1,0 +1,476 @@
+{
+  "title": "Tidebound Hearts",
+  "summary": "In first-person, Maya Calder returns to the harbor she vowed to protect. She balances engineering know-how with community memory and a private hunger for companionship. Romance with Eli — a sun-bleached urban farmer/musician — grows amid seedbeds and late-night rain. Institutional rival Dr. Sienna Kade pushes a fast, centralized seawall plan that could secure large tracts but uproot the harborside. The narrative is a steady \"Rise\": each obstacle catalyzes gain. The player navigates strategic choices—partnering with Sienna to shape policy, mobilizing the neighborhood to force inclusive plans, or focusing on decentralized adaptation and voluntary relocations. Each path leads to different kinds of success: a hybrid technical-community seawall, a grassroots retrofit that becomes a model, a sacrificial but strategic protection that saves most lives at cultural cost, or a morally honest transformation where new cooperative governance emerges. Throughout, Maya\u0019s romance with Eli deepens into a partnership of shared commitment or becomes transformed into advocacy companionship. The story culminates in a set of distinct successes—each earned, each costly, each rising from the initial vulnerabilities toward stronger community agency and ecological resilience.",
+  "emotional_curve_type": "Rise",
+  "player_character": "Maya Calder",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Homecoming Light",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive at the Harborside Promenade with my waistband still damp from the ferry mist. My chestnut hair is pulled behind one ear, the silver streak at my temple tugging at memory. I check the braided leather cuff and my recycled-glass kelp pendant, counting braids like prayer beads. The boardwalk is a patchwork of old timber and new plastic planks; puddles capture neon from resilience project signs. I walk past a rooftop map of micro-farms; Eli is there, sun-bleached hair tied back, tucking seedlings into a raised bed. He grins, his sea-glass blue eyes crinkling; he hands me a battered harmonica like an offering. I tell him about a modeling run Theo sent—sea-level scenarios tightening our timeline—and he hums a melody that sounds like rain postponing panic. My fisherman's jacket smells of salt and coffee; I jot notes in my waterproof notebook, thinking of Rosa at home mending net with fingers that remember tides. The city settles into me like a familiar bruise: work to do, small joys to protect. I promise myself I will not let outside promises erase the people who made this place mine.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Calder",
+        "Eli",
+        "Rosa",
+        "Theo"
+      ],
+      "locations_used": [
+        "Harborside Promenade",
+        "Rooftop micro-farms"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "The Proposal Dawn",
+      "branch_designation": "Common",
+      "narrative_focus": "In the Kade Resilience Lab I feel like I\u0019m standing inside someone else\u0019s future—the glass and titanium reflect a horizon drawn by algorithms. Dr. Sienna Kade presents the rapid seawall plan with laser-etched certainty; her jet-black bob is immaculate, the pale-gray blazer humming quiet competence. I read the room: donors impressed, some residents bewildered. Sienna\u0019s steel-gray eyes meet mine for a fraction of a second; she speaks of years saved, economic return, and stormproofed guarantees. I note the missing line items that account for neighborhood livelihoods and cultural memory. Theo pulls me aside—ginger hair rumpled, hoodie coffee-stained—and points to an odd calibration. At the Harborside that evening, the promenade is restless: Asha pins flyers for a rally, Rosa folds a stubborn patch of netting. Eli makes me laugh beneath string lights, and we lay out plans for demo plots on rooftops. My field notebook fills with counter-figures: community-run green infrastructure reduces local drainage while preserving livelihoods. I know Sienna\u0019s timing could force relocation; I also know we have to be sharper, faster. I feel the swell of responsibility, a tide I must learn to ride without drowning the people I love.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Calder",
+        "Sienna Kade",
+        "Theo",
+        "Asha",
+        "Rosa",
+        "Eli"
+      ],
+      "locations_used": [
+        "Kade Resilience Lab",
+        "Harborside Promenade"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Rising Storm, Rising Stakes",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The forecast darkens into action: an intense coastal storm window appears earlier than the models suggested. I stand on the Old Dockside streets watching rain bead off corrugated metal roofs, thinking of the patchwork sandbags Rosa taught me to fold. Theo\u0019s data now reads like warning sirens; a sensor cluster miscalibrated overnight points to faster baseline tide creep. Sienna announces an accelerated vote to approve the seawall next week. The community meeting has become a pressure cooker; voices rise—panic, hope, accusation, pleading. Eli squeezes my hand; his palm is soil-warm. Asha organizes a flash demonstration on the rooftop gardens to show alternatives in practice. I feel, plainly, a rupture: if I ally with Sienna, I might secure institutional power to steer the seawall toward compromise; if I push the grassroots route, we could expose and rework policy—but risk losing political foothold; if I focus on decentralized adaptation, we might keep people safe but cede larger influence. The choice sticks to my ribs: strategy, safety, or solidarity. I breathe salt air and realize I must decide which lever to pull—each promises progress, but all demand sacrifice.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I steer the fight for the harborside?",
+        "options": [
+          {
+            "label": "Take Sienna's offer to work inside the lab and shape the seawall.",
+            "consequence": "Access to institutional levers and resources; risk compromising with relocations",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Lead a community-first mobilization with Eli and Asha to force an inclusive plan.",
+            "consequence": "Strengthens grassroots power; risks political sidelining if we can't scale quickly",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Scale decentralized adaptation—build demonstrable rooftop and micro-farm resilience, prioritize local safety.",
+            "consequence": "Protects immediate residents and builds models, but may forfeit influence on big infrastructure",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Theo",
+        "Sienna Kade",
+        "Eli",
+        "Asha",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Old Dockside Neighborhood",
+        "Rooftop Gardens"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "The Lab’s Threshold",
+      "branch_designation": "Route A",
+      "narrative_focus": "I accept Sienna\u0019s invitation and enter the Kade Lab with a mixture of caution and purpose. The lab smells of ozone and sterilized coffee; Sienna\u0019s blazer is as immaculate up close as in the podium lights. She walks me through models on luminous panels, explaining parametric seawall segments, sensors to automate closures, and funding timelines. Being in her orbit teaches me a new language—risk matrices, procurement cycles, and phased deployment. Theo\u0019s calibration note is validated by Sienna\u0019s team but flagged for trade-offs: rapid deployment reduces community input time. I press for community liaisons and adaptive design elements: modular seawall sections that can be retrofitted with green terraces and permeable foundations. Sienna studies my patched jacket and listens to my kelp pendant story; there is a flicker of recognition in her steel-gray eyes. Outside, Eli tends rooftop beds and keeps his distance—the tension between us is a low tide pulling at our footing. I draft amendments to the proposal, knowing that institutional access buys influence if I can hold my ground and build allies within the lab.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Calder",
+        "Sienna Kade",
+        "Theo",
+        "Eli"
+      ],
+      "locations_used": [
+        "Kade Resilience Lab",
+        "Rooftop gardens"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Bargains and Blueprints",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Negotiations become my daily bread. I stand over a table of models and push for a hybrid design: smaller berms, adjustable gates, and community-integrated wetlands. Sienna offers fast-tracked approval if I can guarantee a technical mitigation that meets funding metrics. I listen for leverage—funds contingent on measurable reductions in projected inundation. Theo pores through the data, glasses askew, finding verifiable co-benefits green-roofing provides for drainage. Rosa\u0019s voice over the phone—a story about an old fishing lane—keeps me human amid spreadsheets. Eli sings while nailing planters into boarded windows; his optimism is a tether. I must choose how to allocate my influence: prioritize immediate community protections (localized terraces and job guarantees), maximize technical efficiency to secure funding, or hold out for delaying tactics to win more input time. All three promise progress but diverge in who pays what cost. I feel the rise of agency: the choice is no longer whether to act, but how to direct institutional power toward genuinely inclusive resilience.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which leverage do I push inside the lab?",
+        "options": [
+          {
+            "label": "Push for community protections and job guarantees embedded in funding.",
+            "consequence": "Strong social safeguards; risks slowing technical approval",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Prioritize technical efficiency to secure the fastest funding, then retrofit later.",
+            "consequence": "Easier buy-in from funders; risk of insufficient cultural safeguards",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Refuse the compressed timeline; pivot to a public hold that forces more input (risky stalling).",
+            "consequence": "Forces broader participation but risks losing the funding window",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Sienna Kade",
+        "Theo",
+        "Rosa",
+        "Eli"
+      ],
+      "locations_used": [
+        "Kade Resilience Lab",
+        "Boardroom / model table"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Hybrid Shoreline",
+      "branch_designation": "Route A — Ending: Bittersweet Success",
+      "narrative_focus": "The seawall vote finalizes into a hybrid package—smaller modular seawalls supplemented by community-run green terraces and job guarantees for retrofit work. My amendments survive line-item vetting; Theo\u0019s data become part of the procurement dossier. The Kade Lab heralds the model as scalable; Sienna and I give a joint statement, her steel-gray eyes softer in the evening press light. The Harborside keeps pockets of its old docks, and some families accept relocation stipends tied to guaranteed employment in restoration and rooftop agriculture. Rosa holds a faded net and cries in my kitchen—loss and maybe survival tangled together. Eli laughs with me in the rooftop garden, hands still soil-stained; our bond is steadier because we built something that honors both engineering and memory. We gain infrastructure, jobs, and a blueprint other cities call to study. The victory is real, but it is threaded with absence—the old boardwalk is narrower, the air different. I feel uplifted and tethered: progress has come, with cost, and I carry both like a weathered map.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Sienna Kade",
+        "Theo",
+        "Rosa",
+        "Eli"
+      ],
+      "locations_used": [
+        "Storm-scarred Boardwalk",
+        "Modular seawalls and terraces",
+        "Rooftop garden"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Rallying Roots",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose the promenade—coffee, posters, and human voices over glass briefing rooms. With Asha at the megaphone and Eli tuning a battered harmonica, we build a demonstration that shows alternatives in miniature: cisterns, bioswale channels, and living shorelines atop temporary scaffolds. The rooftop gardens become public classrooms; residents in mismatched sneakers and work aprons teach officials how a rain garden actually behaves. Theo posts live data showing comparable mitigation impacts from distributed green measures. Sienna\u0019s team watches from a distance, their polished shoes not yet muddy. Rosa brings old ropes and salted fish tales; she sits next to elders explaining why place matters. The crowd grows—students, fishers, retirees—each adding a stitch to a narrative of local resilience. My chest swells with a simple truth: organizing can rewrite technical arguments into human stories. The energy is electric and quiet at once, a rising tide of agency braided through music, soil, and speech. We are building not just infrastructure but solidarity.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Calder",
+        "Asha",
+        "Eli",
+        "Theo",
+        "Rosa",
+        "Sienna Kade"
+      ],
+      "locations_used": [
+        "Rooftop Gardens",
+        "Harborside Promenade"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Strategic Noise",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "Momentum is a fragile thing; we have eyes on us now. I coordinate with Asha, Theo, and Eli to turn demonstrations into leverage—public forums, open-data workshops, and direct pressure on council members. We face choices: stage a high-visibility council interruption to force immediate concessions, leak data that questions the lab\u0019s timeline to sway funders, or build a live demonstration site to show scalable alternatives. I weigh outcomes: theatrical disruption could cement urgency but alienate fence-sitters; exposing data might force transparency but fracture relationships; demonstrations are slower but persuasive. Eli improvises a rooftop festival to soften rhetoric into culture; his sea-glass eyes alight when people dance between planters. Theo worries about ethical leaks; Rosa warns of burned bridges. I realize our organizing must be strategic, not only loud. My agency grows: I can orchestrate not only protest but also persuasion. Our choices will determine whether the city learns to trust community solutions as serious technical alternatives.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which tactic will convert momentum into systemic change?",
+        "options": [
+          {
+            "label": "Interrupt the council vote with a mass demonstration.",
+            "consequence": "Forces urgent negotiation; risk of backlash",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Publicly release comparative data to pressure funders.",
+            "consequence": "Shapes donors\u0019 decisions; risks legal or ethical fallout",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Build a scalable, live green-infrastructure demonstration to win hearts and evidence.",
+            "consequence": "Slower but deeply persuasive; opens community prototypes",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Asha",
+        "Theo",
+        "Eli",
+        "Rosa",
+        "Sienna Kade"
+      ],
+      "locations_used": [
+        "Harborside public forums",
+        "Rooftop festival and gardens",
+        "Council chambers (referenced)"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The People's Retrofit",
+      "branch_designation": "Route B — Ending: Happy Success",
+      "narrative_focus": "Whatever tactic we choose—direct council pressure or data-driven pressure—the result converges: funders and officials can no longer ignore a third path. The council opens a renegotiation, and Sienna, pressed by evidence and public will, concedes to a co-governance model that embeds community-managed green infrastructure into the city plan. Our rooftop demonstration becomes a pilot program funded for scale; training programs convert fishermen into retrofit technicians. Eli and I watch as apprentices learn irrigation systems under string lights; he grins, hand ink-stained from sign-ups. Theo helps draft transparency protocols; Rosa leads a cultural restitution initiative to preserve fishers\u0019 histories in the plan. The city announces a model program labeled \"Harborside Retrofit\"—it is lauded as a replicable case study. I feel love and a fierce pride: we fought for a future that honors both data and human memory. The victory is clear, inclusive, and joyous—romance and community rising together.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Eli",
+        "Theo",
+        "Rosa",
+        "Asha",
+        "Sienna Kade"
+      ],
+      "locations_used": [
+        "Rooftop training sites",
+        "Harborside Retrofit pilot block"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Pockets of Safety",
+      "branch_designation": "Route C",
+      "narrative_focus": "I pivot toward decentralized resilience: micro-farms, voluntary relocation options for the most vulnerable, and hyper-local emergency logistics. My jacket is muddy from hauling rain barrels; Eli\u0019s mismatched sneakers slosh beside me as we set gravity-fed cisterns. We buy time and lives by teaching neighbors to harvest stormwater and by formalizing temporary tenancy protections. Theo maps safe corridors; Asha organizes a rotating kitchen to feed those who must move temporarily. I draft a plan for community-run emergency hubs that double as livelihood centers. Sienna\u0019s seawall timeline accelerates without our input, but we create tangible models people can touch—plots that produce food during shortages, mobile workshops that teach building reinforcement. In evening light, Eli plays a rhythm on a scrap drum; the rooftop glows with lanterns. Though we cede some policy ground, we seed resilience pockets. The work feels immediate and intimate: each rooftop bed, each secured attic is a small triumph toward a livable future.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Calder",
+        "Eli",
+        "Theo",
+        "Asha",
+        "Rosa",
+        "Sienna Kade"
+      ],
+      "locations_used": [
+        "Rooftop Gardens",
+        "Micro-farms",
+        "Neighborhood emergency hubs"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Trade-offs of Care",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "Decentralized measures win quiet successes—families keep food on tables during blackouts, elders sleep safer—but I must decide how to scale these successes ethically. Options emerge: prioritize long-term coalition building to influence regional policy; accelerate immediate evacuation plans for the most at-risk houses, ensuring survival but admitting loss of place; or focus my energy on the relationship with Eli, balancing love and duty. The emotional ledger is odd: triumphs counted in saved breakfasts and reinforced thresholds; costs tallied in stories of docks we cannot save. Rosa asks if preservation of memory is more than physical place. Eli\u0019s smile breaks when he admits fear of losing me to relentless work. Theo worries about the social fracturing that can follow uneven relocation. My wrist cuff feels heavier; my notebook pages are full of practical diagrams and the salt of too many nights. The rise is still here: each choice is a lever toward resilience. I choose not to halt—only to calibrate compassion and strategy together.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How should I prioritize action for safety and influence?",
+        "options": [
+          {
+            "label": "Build long-term coalitions to influence policy from the ground up.",
+            "consequence": "Greater eventual sway; slower immediate relief",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Prioritize immediate evacuations and relocation support for the most vulnerable.",
+            "consequence": "Saves lives now; concedes place and cultural continuity",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Step back slightly to nurture my relationship with Eli and model balanced leadership.",
+            "consequence": "Strengthens personal capacity and partnership; may slow some operations",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Eli",
+        "Rosa",
+        "Theo",
+        "Asha"
+      ],
+      "locations_used": [
+        "Old Dockside Neighborhood",
+        "Rooftop Gardens"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Shelter on New Shores",
+      "branch_designation": "Route C — Ending: Sacrificial Success",
+      "narrative_focus": "The decentralized models coalesce into a regional adaptation network. We secure funding for portable housing clusters and guaranteed employment in restoration projects for relocated residents. The city\u0019s emergency corridors succeed in preventing mass casualties during a late-season surge; the system we built keeps neighbors safe. Yet the old docks change; some houses are lifted and moved, others dismantled with ceremonies we hold under lanterns. Rosa organizes a remembrance rite for those parcels of coastline we surrender; Eli and I stand side by side, hands clasped, watching the tide take a dock that had been our family\u0019s for generations. The outcome is a hard-earned preservation of life and a redistribution of risk—a sacrificial victory: safety at the expense of place. We have progressed—institutions adopt our network model, other cities apply the playbook. I feel the rise in systems and capacity, even as my heart accounts for what we let go. My love with Eli endures, altered by absence and commitment; our partnership becomes advocacy as much as romance.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Eli",
+        "Rosa",
+        "Theo",
+        "Asha"
+      ],
+      "locations_used": [
+        "Relocated housing clusters",
+        "Storm-scarred Boardwalk",
+        "Remembrance ceremony sites"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "The Holdout Accord",
+      "branch_designation": "Route A alternative — Single-chapter Ending",
+      "narrative_focus": "I trigger a holdout: refusing the compressed timeline forces a public process. The delay is tense—funders bridle, headlines scold us for obstructing \"security\"—but the stand catalyzes unprecedented civic engagement. Town halls flood with stories and technical suggestions; elders explain tidal lore while students map living shoreline prototypes. Sienna, confronted with the human narratives, agrees to a mediated co-design. The eventual accord is messy and honest: a smaller seawall integrated with community-managed wetlands and a binding governance board with civilian veto. The city loses some immediate speed but gains legitimacy and social capital; donors pledge conditional funds for adaptive trials. Rosa and I host a small ceremony on the promenade, and Eli writes a song about the city that refuses to be only engineered. The victory is difficult and slow but deep: governance itself transforms into a cooperative project. I taste the rise not as triumphant crescendo but as durable, shared scaffolding for the future.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Sienna Kade",
+        "Rosa",
+        "Eli",
+        "Students"
+      ],
+      "locations_used": [
+        "Harborside Promenade",
+        "Town halls"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "The Demonstration That Woke the City",
+      "branch_designation": "Route B alternative — Single-chapter Ending",
+      "narrative_focus": "Our live green-infrastructure demonstration becomes the turning point. A scaled, replicable block—bioswales, permeable courtyards, and rooftop farms—handles a surprise storm and outperforms expectations. Media footage goes viral; consultants and politicians pivot to study our scalable kit. Sienna invites our team into a design coalition, offering funding that requires community governance seats. Asha leads training programs across neighborhoods, Theo sets open-source standards, and Rosa curates cultural programming to honor the fishing legacy. Eli and I cut a ribbon on an apprenticeship center; his sea-glass eyes are wet with pride. The city adopts our model as part of its official resilience strategy. The outcome is a joyful illustration of collective capacity: small-scale, demonstrable success becomes the lever for systemic change. Our romance deepens into partnership—equal parts tenderness and co-leadership—as we watch a city learn to favor people-shaped solutions.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Asha",
+        "Theo",
+        "Rosa",
+        "Eli",
+        "Sienna Kade"
+      ],
+      "locations_used": [
+        "Live demonstration block",
+        "Apprenticeship center",
+        "Rooftop farms"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Slow Repair, Long Love",
+      "branch_designation": "Route C alternative — Single-chapter Ending",
+      "narrative_focus": "I choose to invest in my personal relationship with Eli as a site of resilience; we scale leadership by example. By modeling balance—shared responsibilities, mutual care, and communal decision-making—we inspire other leaders to avoid burnout and recognize emotional sustainability as infrastructure. We design a pilot program for \"care credits\" for community organizers, allowing time for family, ritual, and repair. The program improves retention in grassroots projects and keeps the human knowledge that anchors policy. Sienna, seeing leadership that lasts beyond crises, engages in a new conversation about institutional culture. My relationship with Eli strengthens: we build a home with a rooftop garden, and our partnership becomes an organizing node—music nights become working meetings; seedlings become lessons. The city\u0019s resilience improves not only from walls and models but from people who can keep going. This quiet ending celebrates an often-overlooked resource: love that endures alongside policy and engineering, fueling a rising arc of lasting capacity.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Calder",
+        "Eli",
+        "Sienna Kade",
+        "Asha"
+      ],
+      "locations_used": [
+        "Rooftop home",
+        "Community care center"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Notes on Structure and Emotional Curve: All chapters are first-person POV as Maya Calder and consistently reference character visual traits (hair, eyes, clothing, accessories). The narrative arc across every branch is [Rise]: each decision and branch advances agency, resilience, or social capacity; endings are varied forms of success (institutional hybrid, grassroots retrofit, sacrificial-but-life-saving adaptation, transformative governance, demonstrative model, and relational sustainability). Branching points: Chapter 3 (major hub), Chapter 5 (Route A split), Chapter 8 (Route B split), Chapter 11 (Route C split) — providing multiple strategic forks. Forward links and entry conditions follow the logic hub rules; every chapter (except Chapter 1) lists its Entry Condition; branching chapters include explicit MAJOR DECISION blocks with Options A/B/C mapped to specific chapters. Route depth: Any path from Chapter 1 to an ending traverses no more than six chapters (1→2→3→X→Y→Z pattern).",
+  "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+  "_meta_arc_strategy": "Rags to Riches (Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 18:33:29"
+}

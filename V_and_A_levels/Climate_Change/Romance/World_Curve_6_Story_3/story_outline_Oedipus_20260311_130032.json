@@ -1,0 +1,484 @@
+{
+    "title": "Tidelines Between Us",
+    "summary": "I am Maya Ortega: hometown environmental engineer returned to save my town by blending low-tech, humane adaptation with social stewardship. The story unfolds across a compressed political season and a looming storm that form a moral crucible. Funding is threatened, Councilwoman Tamsin pushes a rapid, top-down seawall, and old losses—my family home lost in a flood—resurface. A brief Rise shows improvisation and hope as Maya, Elias, and neighbors prototype living defenses, rooftop gardens, and economic plans while a fragile romance grows amid shared labor. The final Fall descends when political compromise, rushed builds, or withheld concessions angle the town toward catastrophe; storms test every choice. Across branches Maya must choose community-led defenses, accept quick outside funding that reshapes the town, or attempt improvised hybrids. Each route attains temporary success then a hard downturn, forcing losses, accountability, and reshaped relationships. Endings range from bitter survival to fractured love and realistic persistence—growth comes at hard cost.",
+    "emotional_curve_type": "Oedipus arc (Fall → Rise → Fall)",
+    "player_character": "Maya Ortega",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Old Maps",
+            "branch_designation": "Common",
+            "narrative_focus": "I arrive at the harbor before dawn, carrying my canvas messenger bag, compass pendant, and a notebook heavy with tide charts. Rain has slicked the old boardwalk; the living seawall glints with marsh shoots. My return to town is full of small reclamations: I recognize the gap where my childhood stoop used to be, and my chest tightens with old grief. I check the satellite phone messages, find a council reminder and an invitation from Elias to meet at the repurposed boathouse. Rosa’s flyer about a volunteer tide-watch is tucked into my notebook. Dr. Henrik Sato has left me a voicemail about a troubling sediment survey. I set up the field lab, coil damp rope, and flip on tide screens in the greenhouse. Clothes: my olive field jacket, faded denim overalls, navy bandana. Visually, the scene is watercolor dusk: salt-bleached wood, a pearl sheen on the water, gulls wheeling against a grey sky. Internally, I measure risk with technical precision but my heart tightens around the town’s people. The mood is tense: I am summoned into responsibility I thought I’d managed—old grief and civic duty collide.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryLow",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Rosa",
+                "Dr. Henrik Sato"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Boardwalk",
+                "Greenhouse",
+                "Boathouse (field lab)"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Meeting at the Boathouse",
+            "branch_designation": "Common",
+            "narrative_focus": "Elias is already sketching on the long bench when I push open the boathouse door; his sandy-blond hair hangs slightly damp, the brass of his pocket watch catching a slant of light. He shows me plans for a small fleet of community-run oyster beds and a plan to use renovated storefronts as flood-resilient workshops. We talk through logistics over steaming mugs; I trace tide lines in my notebook while he traces renovation ideas in his leather-bound sketchbook. Rosa arrives with news of a council vote and a rumor: Councilwoman Tamsin has a developer-backed rapid-build seawall proposal with fast money attached. My stomach drops—Tamsin’s slate blazer and clipped efficiency come to mind. Elias suggests a staged pilot: living barriers and a tidal garden at the harbor to demonstrate local capability. I want to believe it will be enough. My emotional guard rises: I keep suggestions practical, make lists of materials, and mentally mark the harbor’s weak points. Though we work in quiet collaboration, there’s a charged undertow—our hands brush reaching for the same tide chart—and I feel the possibility of something more in the spaces between plans.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "From Chapter 1, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Boathouse",
+                "Greenhouse",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council Notices and a Choice",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "Institutional momentum arrives in the form of an agenda email: a special council session to vote on a regional grant to fast-track a high, engineered seawall. Councilwoman Tamsin will present the grant’s conditions and an ultimatum: accept comprehensive funding now or risk losing large-scale support later. The municipal hall image looms—brick, lamplight, projection maps. I stand at the back of the chambers, rain streaking the windows, counting faces—neighbors, fishermen, Mira Chen from the developer team smoothing her tablet. Dr. Henrik Sato’s quiet voice in my head reminds me of historical precedents and the consequences of delayed coordination. Rosa presses my hand; Luca waits for me outside with boxes of sandbags. Elias meets my eye across the room, worry creasing his steel-blue gaze. I must choose: push for a community-first adaptation plan (slow, uncertain, preserves character), negotiate a hybrid compromise (risky political middle), or step aside and let the funded seawall proceed (fast, efficient, erases some local control). The stakes are personal; my childhood home’s loss feels immediate again. There is no easy answer.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 2, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide how to approach the council crisis.",
+                "options": [
+                    {
+                        "label": "Fight for community-led solutions at the council",
+                        "consequence": "I prepare grassroots proposals, mobilize volunteers, and refuse rapid external funding.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Propose a negotiated hybrid with Tamsin",
+                        "consequence": "I try to broker a compromise—retain community agencies inside a funded program.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Support the funded seawall to secure immediate safety and jobs",
+                        "consequence": "I accept the rapid-build; Elias and some neighbors may see this as necessary.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Tamsin",
+                "Mira Chen",
+                "Dr. Henrik Sato",
+                "Rosa",
+                "Luca",
+                "Elias"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Council Chambers",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Rallying the Harbor",
+            "branch_designation": "Route A",
+            "narrative_focus": "I refuse the quick cash and commit to a community-first campaign. We fill the boathouse with neighbors—Rosa, Luca, volunteers who've always fixed nets and patched roofs. I strap on my rubber boots, a navy bandana keeping my salt-streaked curls back, and sketch a phased living seawall: woven marshbeds, anchored logs, and modular breakwaters we can build with donated materials. Elias is cautious but shows up to help recruit small-business owners, promising to tie sustainable commerce plans to the adaptation work. Tamsin’s lapel-pin shows up in the back as her spokesperson hands out pamphlets about efficiency and quick wins; I feel the political current trying to undercut us, but the room hums with the practical, tactile energy of repair. We run tide trials in my field lab, Dr. Henrik Sato supplies historical tide data, and I teach volunteers to read the sensors. For a few luminous days, the town is energized: I sleep poorly but feel alive, buoyed by hands on the seawall and Elias’s quiet cups of coffee left beside my tools. Hope is stubborn here.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to demonstrate the pilot’s effectiveness to the council and public.",
+                "options": [
+                    {
+                        "label": "Stage a public demonstration at the harbor during high tide",
+                        "consequence": "High visibility and community pride if it works, high risk if it fails.",
+                        "target_chapter_index": 5
+                    },
+                    {
+                        "label": "Document a slow, technical report and data presentation",
+                        "consequence": "More credible scientifically but slower and less emotionally persuasive.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Partner with local businesses to fund and staff a prototype",
+                        "consequence": "Blends community labor with entrepreneurial resources, risking accusations of compromise.",
+                        "target_chapter_index": 11
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Rosa",
+                "Luca",
+                "Dr. Henrik Sato",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "Boathouse",
+                "Harbor",
+                "Field Lab"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "The Harbor Demonstration",
+            "branch_designation": "Route A (Ending)",
+            "narrative_focus": "We choose the public demonstration. The harbor is alive with people, wet wood and marsh scents, and the living seawall’s planted reeds glint in a stubbornly bright morning. Elias stands near the dock, hand curled around a thermos, smiling at volunteers as they haul rock and reed lines. I walk the seawall during a rising tide, reading gauges and shouting instructions. For a while, the prototype works: waves break, marshes buffer, the crowd murmurs approval. Tamsin watches from the council delegation, expression unreadable. Then the sea surprises us—a sudden surge, higher than expected, and our makeshift anchors slip. We scramble; Rosa and Luca pull ropes; mud and salt splash into my boots. The demonstration averts some damage, but not all: a stretch of the old boardwalk collapses, and a vendor’s shop floods. The short-term victory is real but partial; the council’s narrative shifts to \"proof of need\" for larger structures. Elias meets my eye, grief shadowing his smile. I have rallied my people—and the loss has sharpened the arguments for the very interventions I opposed.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Rosa",
+                "Luca",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Boardwalk",
+                "Docks"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "The Technical Report",
+            "branch_designation": "Route A (Ending)",
+            "narrative_focus": "We take the slow, earnest path: data collated, models refined, and a technical report bound in my lab. Dr. Henrik Sato reads over our calculations; Elias helps format economic impact estimates, softening ideological rhetoric into persuasive charts. We present a sober, methodical case to the council projection screens in Municipal Hall: the phased living seawall, tidal gardens, job retraining programs. Tamsin listens, then pivots to rates and timelines. The report wins the support of several neighboring councils but not the immediate grant Tamsin was offered. She argues the delay risks funding reallocation. A storm warning punctures the meeting before a final vote. Overnight we lose a low-lying warehouse; Mira Chen’s corporate funders pressure the council for immediate action. The process proves our competence, but time and political appetite are not ours to command. Elias squeezes my hand on the way out. We have demonstrated a path, but the town’s needs are already eclipsed by weather and money. The outcome is careful, true—and painfully insufficient.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Dr. Henrik Sato",
+                "Tamsin",
+                "Mira Chen"
+            ],
+            "locations_used": [
+                "Field Lab",
+                "Municipal Hall",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Brokered Lines",
+            "branch_designation": "Route B",
+            "narrative_focus": "I attempt a negotiated middle: meet with Tamsin in the council annex and propose a hybrid—funded rapid build for critical infrastructure, with ring-fenced budgets for community-managed living defenses and small-business support led by Elias’s renovation plans. Tamsin’s amber eyes assess the terms; Mira Chen hovers like chrome thread. I present a timeline: emergency works in high-risk zones, pilots at the harbor and rooftop gardens, and a municipal covenant preserving neighborhood faces. Elias sketches a phased commerce plan and offers to run job apprenticeships. The negotiation is exhausting—my chest tightens holding my position between ideal and pragmatic, but the town breathes as if in relief at compromise. We sign a memorandum to take to the council. For a brief while there is a sense of structural rescue, an alliance between my empathy-driven proposals and Tamsin’s engineering muscle. I hope we have sewn together competing logics in time.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to finalize and publicize the memorandum.",
+                "options": [
+                    {
+                        "label": "Push for immediate council endorsement with a public signing",
+                        "consequence": "Quick legitimacy but may provoke developer backlash.",
+                        "target_chapter_index": 8
+                    },
+                    {
+                        "label": "Pilot the hybrid quietly at the harbor to build proof",
+                        "consequence": "Lower visibility but potentially stronger evidence.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Ask Elias to lead a business coalition to guarantee job promises",
+                        "consequence": "Puts economic pressure behind the deal but risks perception of privatization.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Tamsin",
+                "Elias",
+                "Mira Chen"
+            ],
+            "locations_used": [
+                "Council Annex",
+                "Municipal Hall",
+                "Rooftop Observatory",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Public Signing",
+            "branch_designation": "Route B (Ending)",
+            "narrative_focus": "We stage a public signing in the Municipal Hall. The room smells of coffee and damp coats; lamplight warms old wood and the projection screens flash our hybrid plan. Elias stands to my left, his hand brushing mine as we step to the dais. Tamsin’s signature is crisp, Mira Chen smiles tight. The crowd applauds—some faces tearful, some skeptical. For a moment, the town seems to have bought itself time and dignity. That night the stormfront punctures headlines: overnight high tides erode the newly signed zones. The rapid-build teams mobilize under the grant’s accelerated schedule, but corners are cut in haste. A contractor’s error undermines a newly planted marshbed; a community-run workshop loses power and stock. The public signing becomes evidence for both sides: a victory on paper, a vulnerability in substance. Elias and I stand in the aftermath, hands blistered, as the sea takes a little more than we expected. Our compromise has opened a door—one whose jamb is already splintering.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Tamsin",
+                "Mira Chen"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Harbor"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Quiet Pilot",
+            "branch_designation": "Route B (Ending)",
+            "narrative_focus": "We pilot the hybrid quietly—small crews, early mornings at the living seawall, data logged in my field lab. Elias organizes local tradespeople to retrofit storefronts into raised workshops, promising payroll during construction. The pilot looks graceful on paper and in the bay’s early light: marshes seeded, solar arrays on rooftop gardens, apprentices underfoot. Tamsin watches from afar, a wary ally. For a while the strategy works, momentum builds, and the community's dignity feels preserved. Then unexpected politics intrude: regional funders, impatient for scale, reframe the pilot as insufficient. A sudden reallocation of matching funds to an \"emergency seawall\" undermines our staged progress. The quick-spend contract goes to a team that bypasses community oversight. The pilot becomes a footnote while heavy machinery alters a shoreline we’d been nursing back to life. Elias and I argue quietly about whether negotiation ever meant concession. We gain knowledge and craft, but the town’s shape shifts under decisions made beyond our reach.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Field Lab",
+                "Storefronts (retrofit workshops)"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Accepting the Seawall",
+            "branch_designation": "Route C",
+            "narrative_focus": "I back the funded seawall, convinced by urgent safety concerns and job promises. The proposal arrives with polished presentations; Mira Chen’s sleek bob and chrome tablet make the numbers look safe. I sign—reluctantly—hoping to protect livelihoods. Work crews appear within days; heavy steel piles and concrete forms replace the husk of the old resort. Elias helps negotiate vendor spaces in the redevelopment plans, trying to keep small businesses afloat. For a while, the town breathes easier: emergency flood maps come down, insurance stipends resume, and workers get paid. My hands are grimy from coordination and I feel the strain in my ribs—old grief and new pragmatism tangled. At night I walk the harbor and notice the seawall’s hard line against the living marshes: it works, and it reshapes the view. The choice brings relief and a quiet ache.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to integrate community values into the rapid-build process.",
+                "options": [
+                    {
+                        "label": "Insist on design amendments that include tidal gardens",
+                        "consequence": "Slow construction but preserves ecological features.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Accept the standard build for immediate safety and funding",
+                        "consequence": "Faster completion; changes the town’s character.",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Negotiate community oversight panels to monitor implementation",
+                        "consequence": "Shared decision-making but diluted authority; risks bureaucratic delays.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Mira Chen",
+                "Elias",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Old Resort (construction site)",
+                "Commerce Strip"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Compromise Accused",
+            "branch_designation": "Additional (Route A consequence)",
+            "narrative_focus": "I chose to partner with local businesses to fund a prototype—Elias moves his renovation plans forward alongside our living defenses. Initially, the partnership fuels labor and materials; storefronts are raised and marshbeds planted. But critics cry foul: Tamsin’s supporters call the coalition a backdoor privatization. Accusations spread in municipal meetings and on the boardwalk. A contractor linked to the coalition cuts corners to save costs, and a tidal garden fails to anchor during an unexpected surge. I stand in the soaked soil, my olive jacket splattered with mud, as neighbors point fingers. Elias looks hollow—our relationship frays under public scrutiny. I am caught between preserving livelihoods and the moral purity of community control. We have real work and real jobs, but the cost is social: trust splinters, and I must reckon with whether pragmatic compromise became a quiet betrayal.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Tamsin",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Storefronts",
+                "Tidal Garden"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Economic Guarantees",
+            "branch_designation": "Additional (Route B consequence)",
+            "narrative_focus": "Elias forms a business coalition to guarantee jobs in return for council support. Initially, locals have steady pay and workshops open for apprentices; my nights are spent calculating ecosystem service metrics and Elias’s days in heated negotiations. Then a late-summoned storm arrives while some work is still incomplete. The coalition lacks the infrastructure to withstand an extreme surge; the rapid-build zones hold, but a nearby fishing cooperative—Rosa’s longtime customers—lose equipment. The coalition’s insurance does not cover cultural losses: boats, signs, a beloved fish stall. Elias carries the guilt of his compromises like salt in cuts. We fight, we patch, we grieve—jobs remain, but the town’s texture changes: corporate-funded storefronts replace collapsing independent stands. Love is tested; I find shelter in the greenhouse with a report in my lap and the taste of seawater on my tongue. The promised stability arrives at a price.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Greenhouse",
+                "Harbor",
+                "Storefronts"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Design Amendments",
+            "branch_designation": "Route C (Ending)",
+            "narrative_focus": "I insist on design amendments to include tidal gardens and community access. Construction slows; Tamsin fumes, Mira Chen negotiates layoffs, and the grant’s timeline squeezes our patience. The amended seawall includes living terraces that keep sightlines and some fishing access, and Elias helps retrofit vendor platforms into the new promenades. For a while, the town breathes a curated relief: the seawall buffers storms while marsh life returns in sections. Then an unpredicted double-surge hits: the engineered segments protect downtown but channel energy into older neighborhoods we couldn’t retrofit in time. A beloved part of the old boardwalk—my childhood route—breaks away. The amended design saved many but not all. I hold a soaked piece of my mother’s photo from among the wreckage and feel the paradox—our labor bought time and altered the town; the sea still takes its due. Relationships strain under what we saved and what we could not.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Tamsin",
+                "Mira Chen"
+            ],
+            "locations_used": [
+                "Construction Site (Seawall)",
+                "Promenade",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Standard Build",
+            "branch_designation": "Route C (Ending)",
+            "narrative_focus": "I accept the standard build for immediate safety. The seawall goes up fast—concrete, steel, an efficient line against the horizon. Jobs come; insurance rates drop; a sense of security returns to the faces around the harbor. Elias opens a renovated café in the new commerce strip; he is weary but hopeful. But the seawall’s hardness reshapes tides and life: tidal gardens are mostly absent, fishermen find access points cut, and the town’s tone changes—neon investor logos flash where hand-lettered signs once swayed. When the storm comes, the seawall holds in many places but scars appear where ecological buffers would have softened surges; the distant sound of an old resort collapsing abroad reminds me of cost. My emotional protection frays: I kept people safe, and in doing so made a decision that carved a new shoreline. Elias and I stand on the promenade, the ocean’s salt in our hair, and taste an achievement that feels like loss.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Harbor",
+                "Commerce Strip"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Oversight Panels",
+            "branch_designation": "Route C (Ending / True)",
+            "narrative_focus": "We create community oversight panels to monitor implementation—slow, bureaucratic, but democratic. Meetings stretch late into rain; I bring my tide charts and my stubborn optimism. The panels block some contractor excesses, and small design elements—fishing access, vendor alcoves, rooftop gardens—are preserved. The process exhausts everyone, and delivery is delayed; some funding partners pull back. Then the storm arrives at twice the modeled height. The seawall, patient and amended, holds in many sections, and the panels’ foresight saves some neighborhoods. Yet other areas, ones with less political influence, are devastated. Relationships fracture and recombine: Elias and I weather a blunt conversation about sacrifice and principle; Tamsin faces public accountability; Rosa organizes mutual aid. In the rubble and the small victories, I learn to share leadership, to ask for help, and to accept that no single decision spared us from scars. We survive—relentant, altered, accountable. The romance is marked but not broken; the town’s future is work, not closure.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Elias",
+                "Tamsin",
+                "Rosa",
+                "Dr. Henrik Sato"
+            ],
+            "locations_used": [
+                "Rooftop Gardens",
+                "Municipal Hall",
+                "Harbor"
+            ]
+        }
+    ],
+    "remarks": "Global emotional arc: Fall (Chapters 1–3) → Rise (Chapters 4–10) → Fall (Chapters 11–15). Arousal increases through the routes: VeryLow → Low → Mid → High → VeryHigh. Characters and locations adhere to provided designs: Maya Ortega (player), Elias, Tamsin, Mira Chen, Rosa, Luca, Dr. Henrik Sato. Branching hubs occur at Chapters 3, 4, 7, and 10; endings are in Chapters 5–6, 8–9, 11–15. No path from Chapter 1 to any ending exceeds six chapters.",
+    "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+    "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)"
+}

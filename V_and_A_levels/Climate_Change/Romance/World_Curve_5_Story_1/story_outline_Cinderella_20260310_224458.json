@@ -1,0 +1,508 @@
+{
+    "title": "Tidebound Promises",
+    "summary": "You are Amaya Reyes — a coastal ecologist and first-person narrator — leading TideLab in Marisol Bay as the town confronts Voss Marine Solutions' seawall and aquaculture proposal. The story follows a Cinderella arc: an initial rise as the community organizes, a fall when corporate pressure and a crisis fracture trust and threaten homes, and a final rise toward a costly, strategic victory for community-centered resilience. Choices center on confrontation, negotiation, or legal/data strategies; romantic tension with Luka and ties to Abuela Rosa, Mateo, Tamsin, and Jules shape alliances and consequences. Visual, tactile coastal detail grounds decisions in real stakes about displacement, infrastructure, and cultural memory.",
+    "emotional_curve_type": "Cinderella arc",
+    "player_character": "Amaya Reyes",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Ledger",
+            "branch_designation": "Common",
+            "narrative_focus": "I wake at dawn in my patched overalls; salt crusts on my rubber boots and my merino scarf is damp at the collar. TideLab’s repurposed shed smells of wet soil and old diesel. I count losses in my leather-bound field notebook — sketches of tide lines, watercolor maps annotated in small, desperate handwriting. Luka shows up with a scuffed drone controller and a shy grin; his dark hair tied back, amber eyes attentive. Mateo returns a crate of brittle kelp samples, sun-weathered hands shaking. We map the boardwalk’s undercuts and Abuela Rosa’s oral markers. News is a new proposal from Voss Marine: a glossy render of a seawall and raised quays, promising protection for port infrastructure but implying relocations. Tamsin, neutral and practical, asks for TideLab’s data; Corinne Voss appears in a floating holo at the end of a call — platinum bob, steely gray eyes — smiling efficiency. I feel the old guilt taut in my ribs: the friend I lost to a storm. I prepare for the meeting at Community Hall, rehearsing evidence, calculating who I can’t afford to lose. My tone: blunt, protective, loyal.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryLow",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Mateo",
+                "Abuela Rosa",
+                "Tamsin",
+                "Corinne Voss"
+            ],
+            "locations_used": [
+                "TideLab",
+                "Boardwalk",
+                "Community Hall"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Community Hall Projection",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At the Community Hall, cold yellow light, hand-painted maps pinned to wood, I present TideLab’s granular observations — salt wedge trajectories, oyster bed viability, and drift patterns. Tamsin holds a tablet, neutral but worried. Corinne Voss joins over a clean holo, her trench coat immaculate; she frames relocation as a “necessary consolidation.” The room’s air tastes of wet wool and heat from the projector. Mateo’s jaw clenches. Abuela Rosa taps her shawl. I make a plea: community-centered, low-tech marsh restoration and distributed defenses. Corinne counters with masterplans and ROI figures, and her voice slices the warmth. The town divides into tense murmurs. I must choose a route: galvanize direct resistance with the collective, open channels with Voss to negotiate a hybrid, or escalate with legal/data campaigns that could buy time but require exposing embarrassing municipal weaknesses. Each choice will change who stands beside me and whether Luka’s small tech is preserved or compromised. The major decision arrives like a tide: will I push for confrontation, collaboration, or institutional weaponization of data?",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "From Chapter 1, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "The town must rally to a clear strategy against Voss.",
+                "options": [
+                    {
+                        "label": "Organize the collective to publicly oppose Voss, prioritize marsh restoration and civil resistance",
+                        "consequence": "Energizes grassroots support but risks immediate confrontation with corporate security and political pushback.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Enter mediated talks: engage Tamsin and Voss to negotiate a hybrid plan",
+                        "consequence": "Opens channels for compromise that might preserve parts of the town but requires concessions.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Build a data-driven legal strategy: share TideLab findings, seek injunctions and regulatory leverage",
+                        "consequence": "Slower, risky legally but could halt Voss if regulations support community claims.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Tamsin",
+                "Corinne Voss",
+                "Mateo",
+                "Abuela Rosa",
+                "Luka"
+            ],
+            "locations_used": [
+                "Community Hall"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Decision at the Waterline",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "From the meeting’s afterglow and the rain-wet boardwalk, I stand at the waterline with Luka, the wind teasing my sea-green hair streak. The choice I made at the Hall crystallizes into action: activists chalk plans on the boardwalk if I chose confrontation; I sit in a Voss mediation room if I chose negotiation; or I start collating chain-of-custody for sensor data if I chose legal escalation. Whichever path, Corinne’s presence tightens like a current: she sends a small, polite envoy or a legal threat, and the town’s faultlines show. Luka’s jaw tightens; he confesses being contacted by a Voss recruiter (old startup ties). I must balance trust and the temptation of scalable solutions he hints at. Abuela Rosa’s steady hand on my shoulder reminds me that shorelines change slowly, and people cannot be written off as losses. The stakes escalate: the Bay’s livelihoods are on the line, and my choice determines which allies arrive, what risks are acceptable, and whether my tendency to shoulder responsibility will break or bind us.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 2, Option [A/B/C]",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Commit to a detailed plan based on the route chosen at the Hall.",
+                "options": [
+                    {
+                        "label": "Begin coordinated marsh restoration and public demonstrations.",
+                        "consequence": "Rapid local mobilization; increased visibility — good press, but Voss escalates presence.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Enter formal negotiations with Tamsin and Voss, propose a hybrid pilot.",
+                        "consequence": "Opens a fragile negotiation track where small victories could be traded for concessions.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "File for regulatory review and begin a data-release strategy with legal counsel.",
+                        "consequence": "Begins a slow legal engine that could constrain Voss but risks being outmaneuvered by corporate lawyers.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Abuela Rosa",
+                "Mateo",
+                "Corinne Voss"
+            ],
+            "locations_used": [
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Marshwork Rising",
+            "branch_designation": "Route A",
+            "narrative_focus": "We stop talking and start planting. TideLab becomes a bustle of muddy hands and clipboard planning. I give orders I didn’t know I could: who digs where, which seed bundles go to low flats, how to stagger oyster reef placements. Luka runs drones to map subsurface channels; the scuffed controller blinks as he files aerials, salt-bleached strands at his temple taut. Mateo’s fisherman eyes find new pride in restoration work. Corinne’s response is surgical: polished brochures promising jobs and a grander plan; a Voss rep appears at the boardwalk in a neutral blazer, measuring faces. Tamsin watches from the periphery. The collective is energized — neighbors who once mended nets now learn to plant mangrove saplings in stormy mud. Yet the fall arrives quietly: a Voss permit fast-tracked, or a security warning at a demo. My refusal to compromise hardens into a standoff. We are visible, a bright target. I feel the weight of responsibility and a familiar guilt when a volunteer’s daughter returns with a scraped knee from a rushed deployment.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Mateo",
+                "Corinne Voss",
+                "Tamsin",
+                "Volunteers"
+            ],
+            "locations_used": [
+                "TideLab",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Boardwalk Stand",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The protest at the boardwalk becomes a focal flashpoint. We chain ourselves to pilings, chalk tide lines over Voss posters; tides hiss nearby. Corinne’s eyes watch from a raised quay in a drone feed; her polished suit is a smear against wet sky. The police arrive, and Voss’s security carefully photographs faces. Luka stands beside me, the controller cold in his palm, cheeks flush from wind. The pressure crescendos into confrontation: a scuffle, a shaky live-stream, and a misinterpreted shove that looks worse in the feeds. The fall is sudden: Voss lawyers issue an injunction, the council threatens fines, and a donor meeting pivots to risks, not collaboration. My stubbornness that once pulled us forward threatens to burn bridges. Tamsin’s hesitation becomes a wall. Abuela Rosa’s hand on my wrist steadies me, but the ache of possible displacement weighs heavy. I must decide quickly: double down in civil resistance, pivot to a legal strategy driven by our data, or accept mediated talks with painful concessions.",
+            "emotional_trajectory": "Neutral",
+            "Valance": "Neutral",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "The Boardwalk stand has escalated; choose a next decisive strategy.",
+                "options": [
+                    {
+                        "label": "Escalate: organize larger civil resistance, aim to make Voss's reputation costly.",
+                        "consequence": "Media attention increases; risk of arrests and deepening legal reprisals.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Switch to legal/data strategy: use the incident to demonstrate unjust force and push for injunctions and oversight.",
+                        "consequence": "Slower victory but builds a paper trail; requires discipline and allies.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Return to the table: accept mediated concessions with council oversight to protect homes.",
+                        "consequence": "Immediate threat recedes but requires compromise and possible community relocations.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Corinne Voss",
+                "Tamsin",
+                "Abuela Rosa",
+                "Mateo"
+            ],
+            "locations_used": [
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Aftermath & Negotiation — Happy Ending",
+            "branch_designation": "Route A",
+            "narrative_focus": "We escalate, and the national press turns toward Marisol Bay after footage of the stand becomes viral. Voss’s PR stumbles as older project records leak (community volunteers and Jules worked quietly with an investigative reporter to surface inconsistencies). Tamsin, pressured, withdraws support for full relocation; council hearings are convened. Corinne is forced into a public compromise: Voss scales back the seawall footprint and funds distributed marsh restoration and small-scale, community-owned aquaculture. Luka and I stand before the crowd in salt-wet clothes; he smiles, tired and honest, his locket heavy against his chest. We win a negotiated hybrid that preserves most homes and funds TideLab expansion. The ending is a current of relief and cautious optimism: I still carry guilt about the chaos, but our community holds. Luka decides to co-lead TideLab rather than accept corporate offers. Abuela Rosa hums as seedlings are planted anew.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Corinne Voss",
+                "Tamsin",
+                "Jules",
+                "Abuela Rosa",
+                "Mateo"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "TideLab",
+                "Community Hall"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Negotiation Table",
+            "branch_designation": "Route B",
+            "narrative_focus": "You accept talks. In a glass-lined room that echoes Voss’s clinical aesthetic, Tamsin moderates a fragile pilot proposal: a hybrid of raised quay, piloted aquaculture, and co-funded marsh restoration. Corinne’s platinum bob gleams; she speaks of efficiency and covering key infrastructure. I press for clear community oversight, binding commitments, and funding for TideLab’s small-tech sensors. Luka stands back, clearly tempted by the scale of impact these resources could unlock. The mood lifts — a peak of potential — as Corinne shows a rendering that includes a cooperative wetland. But the fall is near: behind-the-scenes clauses, relocation carve-outs, and fine-print timelines lurk. The town’s elders fear losing neighborhoods for the sake of regional cargo. My emotional trait — swallowing responsibility — pushes me toward a yes that might cost others. Tamsin consults municipal constraints and warns that a “pilot” could be permanent if we accept the wrong language. I must choose whether to sign a fragile compromise, walk away to preserve autonomy, or insist on stronger guarantees via legal terms.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Tamsin",
+                "Corinne Voss",
+                "Luka",
+                "Abuela Rosa"
+            ],
+            "locations_used": [
+                "Voss HQ"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Pilot Terms and the Quiet Leak",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Negotiations stall on language. I push for community oversight clauses and binding funding; Corinne replies with “flex” language. The pressure builds; Luka quietly admits he’s been offered a research grant contingent on collaborating with Voss technicians. Jules helps leak a redacted term sheet to a sympathetic reporter. The fall arrives as public perception shifts: some see growth, others see gentrification and displacement. The pilot's terms are softened in the small hours; council members worried about funding shift toward Corinne’s assurances. If I press, I risk splitting the town and losing Tamsin’s fragile mediation. If I relent, I risk granting Voss a procedural foothold that could become permanent. The decision now: fight to publicly expose the weak guarantees and rally legal/regulatory allies, or accept the pilot with strict sunset clauses and shared governance that might still be eroded.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Neutral",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Finalize the pilot terms.",
+                "options": [
+                    {
+                        "label": "Push the leak and public legal pressure to force stronger legal guarantees.",
+                        "consequence": "Risk of Corinne withdrawing; national attention could reshape negotiations.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Accept a watered pilot with sunset clauses and community oversight promises.",
+                        "consequence": "Secures immediate resources but leaves future vulnerability.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Walk away and demand a regulated review process, stalling the pilot.",
+                        "consequence": "Could force real oversight but risks Voss choosing to act without local cooperation.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Corinne Voss",
+                "Luka",
+                "Jules",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "Negotiation room",
+                "Voss HQ"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Media Storm — Bittersweet Ending",
+            "branch_designation": "Route B",
+            "narrative_focus": "The leak goes public. National reporters flood Marisol Bay, and the terms spark outrage. Voss’s board scrambles, and Corinne is forced onto defensive interviews. Under pressure, Voss agrees to stronger legal oversight and an enforceable pilot with community representation; however, the compromise includes relocation planning for certain marginal blocks and accelerated port development in prioritized zones. The compromise buys protection for many but requires hard trade-offs. Luka is offered a role coordinating community sensors with Voss oversight; he accepts to keep his work local, creating tension but also pragmatic coordination. The town preserves most homes, but the memory of the neighborhoods lost — and the families who move — softens the victory. I’m left with relief tangled with grief, and a relationship with Luka that is steady but altered.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Corinne Voss",
+                "Jules",
+                "Tamsin",
+                "Abuela Rosa"
+            ],
+            "locations_used": [
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Chain of Custody",
+            "branch_designation": "Route C",
+            "narrative_focus": "You pursue the legal route. Back in TideLab, we rig a rigorous chain of custody for sensor logs, timestamp every sample, and build an airtight case. Jules photographs every marker; Luka helps refine encrypted transmissions so data integrity is clear. Tamsin finds a sympathetic municipal lawyer who sees regulatory gaps. The path is slow, dry, methodical: filing for injunctions, attending hearings, and educating the town on evidentiary standards. Corinne responds with corporate lawyers and quicker approvals. The community’s patience frays — volunteer fatigue and the anonymous intimidation of legal notices gnaw at resolve. I carry the internal weight of guilt for choosing patience when neighbors want immediate action. But Abuela Rosa reminds me that the longest fight can outlast a towering company’s PR cycle. Pressure builds: do we continue the slow legal engine, risk running out of time against rising tides, or do we mobilize the community into a concurrent public campaign?",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Jules",
+                "Luka",
+                "Tamsin",
+                "Abuela Rosa",
+                "Mateo"
+            ],
+            "locations_used": [
+                "TideLab"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Legal Hub: Strategy and Sacrifice",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The legal strategy becomes a hub for tactical choices. We can redouble and launch a viral public campaign to rally national regulators (Option A), maintain the quiet legal course and trust precedent (Option B), or negotiate a conditional moratorium in exchange for immediate community protections (Option C). The emotional pressure is intense: every day matters; storms gather on the horizon and a permit deadline approaches. Luka warns that joining a Voss-linked research network could give us influence but might risk perceived integrity. Abuela Rosa urges solidarity and measured courage; Mateo worries about lines of credit. I must weigh systemic strategy against immediate human costs — the core dilemma of stewardship versus survival. This moment will define whether the Bay’s story becomes a cautionary tale or a model for community-centered adaptation.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Choose the legal-tactical strategy to counter Voss.",
+                "options": [
+                    {
+                        "label": "Launch a coordinated public campaign tied to our legal filings (press, regulators, viral footage).",
+                        "consequence": "High visibility; could force regulatory pause but invites PR countermeasures.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Proceed quietly through precedent, aiming to win on technical legal grounds.",
+                        "consequence": "Slower but less risky publicly; might be beaten by approvals.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Negotiate a conditional moratorium with Tamsin, using legal pressure as leverage.",
+                        "consequence": "Immediate breathing room if enforceable; risky if the moratorium is poorly defined.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Abuela Rosa",
+                "Mateo",
+                "Jules",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "TideLab",
+                "Council chambers"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Court & Camera — True Ending Path",
+            "branch_designation": "Route C",
+            "narrative_focus": "We combine legal filings with a public campaign. Jules’s footage and our chain-of-custody produce an exposé; regulators pause Voss’s permits pending inquiry. The national story prompts a policy review beyond Marisol Bay. Corinne is forced into transparent oversight, and the region convenes a multi-stakeholder panel that includes community representatives. The victory is structural: the pause prevents immediate displacement and triggers a regulatory precedent for community-led oversight in coastal projects. Luka refuses direct corporate integration and instead helps scale community sensors in a cooperative model. The cost is slow and bureaucratic; enforcement fights continue, but the legal and cultural shift promises long-term systemic change. The town is bruised but proud. This is the \"True\" ending: not tidy, but transformational; we sacrifice speed for a safer rulebook for other towns.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Jules",
+                "Corinne Voss",
+                "Tamsin",
+                "Abuela Rosa"
+            ],
+            "locations_used": [
+                "Courtroom",
+                "TideLab",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Legal Leverage — Compromise Ending",
+            "branch_designation": "Route A / Option B OR Route C Option C",
+            "narrative_focus": "You choose to channel the crisis into disciplined legal pressure and to negotiate a conditional moratorium. The legal actions and Tamsin’s municipal leverage win a binding commitment: Voss agrees to scale back its most destructive plans and fund community restoration while certain marginal blocks are set for phased relocation with compensation. Luka takes a hybrid role: coordinating community sensors but attending Voss technical meetings to hold them accountable. The result secures many homes and preserves cultural memory, but several neighborhoods must relocate. The ending is bittersweet — infrastructure, jobs, and habitats are partially saved; personal costs are high. I feel both proud and hollow. Abuela Rosa comforts me, invoking lineage and the knowledge that preserving community requires hard choices.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 5, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Tamsin",
+                "Corinne Voss",
+                "Abuela Rosa",
+                "Mateo",
+                "Jules"
+            ],
+            "locations_used": [
+                "Council chambers",
+                "TideLab"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Compromise Accepted — Sad Variant",
+            "branch_designation": "Route A / Option C",
+            "narrative_focus": "You choose mediated concessions to avoid immediate confrontation. Corinne’s scaled plan includes community restoration funds but also an operational clause that means some low-lying neighborhoods will be permanently ceded to port expansion. The immediate threat recedes; we buy time and resources, but the moral cost is heavy. Luka accepts a consulting role with Voss to maintain influence; our relationship cools as he slips into corporate rhythms. The town saves infrastructure but loses neighborhoods and a sense of autonomy. I carry the weight of those trade-offs alone, determined to keep TideLab alive but haunted by the knowledge that compromise sometimes looks like surrender.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Corinne Voss",
+                "Tamsin",
+                "Abuela Rosa",
+                "Mateo"
+            ],
+            "locations_used": [
+                "Polished quay",
+                "Boardwalk",
+                "TideLab"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Stalled & Exposed — Sad/Last-Resort Ending",
+            "branch_designation": "Route B / Option C OR Route C Option C",
+            "narrative_focus": "You walk away from the table and demand a formal regulatory review. Voss, frustrated, accelerates site works; the council hesitates and then grants emergency permissions in the face of economic pressure. Corinne moves quickly; construction displaces neighborhoods before court injunctions can freeze work. Luka, influenced by offers and exhaustion, chooses a consultancy contract to salvage technology from within the system; he drifts further from TideLab. The town fractures: some accept relocation assistance, others cling to their houses and face legal limbo. I leave Marisol Bay for a time, taking a fellowship with a regional resilience network to fight from a distance, haunted by failure and vows unresolved. This is the “Sad” ending: protective infrastructure rises, but the social fabric is rent and personal ties are strained.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryPositive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 8, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amaya Reyes",
+                "Luka",
+                "Corinne Voss",
+                "Abuela Rosa",
+                "Tamsin"
+            ],
+            "locations_used": [
+                "Construction site",
+                "Boardwalk",
+                "TideLab"
+            ]
+        }
+    ],
+    "remarks": "Branching split points occur at Chapter 2 (three-way), Chapter 3 (three-way continuation), Chapter 5 (three-way), Chapter 8 (three-way) and Chapter 11 (three-way), producing multiple endings. Characters: Amaya Reyes (player), Luka, Corinne Voss, Mateo, Abuela Rosa, Tamsin, Jules. Locations used across chapters include TideLab, Boardwalk, Community Hall, Voss HQ, Marshland, courtrooms, and the quay.",
+    "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+    "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)"
+}

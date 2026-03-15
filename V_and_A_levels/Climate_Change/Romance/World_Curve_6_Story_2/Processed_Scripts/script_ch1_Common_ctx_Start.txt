@@ -1,0 +1,135 @@
+### SCRIPT
+# Route: Route C (Ending)
+# Context: Start
+
+[Scene: Tide Research Station | Pre-Dawn]
+[Background:"ch1_Start_1"]
+[Music: Sparse, low-register ambient hum]
+[Sound: Tide sensors clattering softly; distant gulls like soft punctuation]
+
+You wake before the light, as you always do — not from an alarm but from a small, mechanical insistence at the edge of your sleep. The tide sensors have a nervous rhythm tonight. It threads through the quiet like a reminder you can't ignore.
+
+Your parka smells of yesterday's salt and the faint clean tang of the lab solvent Nyla keeps in the corner. You close your fingers over the brass tide-watch and feel its worn weight against your palm: an anchor you loop into habit more than time. Outside, the horizon is a thin gray seam; there is a wrongness to it you know without naming. The low tide sits higher than it should, and that higher notch cut into the cliff — a new mouth in the bluff — feels like an accusation.
+
+You move through the station with the slow efficiency of someone cataloguing small defeats. The tide gauges blink an uptick in numbers that don't belong. A cluster of sensors reports minor structural flex where there should be none. Nyla's tablet, abandoned on the bench, chatters with tiny lines of anomalous wave signatures: sharp spikes, then a slow tail. She left it mid-stream — the tablet's carrier app glowing like a small, urgent pulse.
+
+You think of the lean-to on the quay. Half-buried is generous; the fisherman patched it in summer and the sea took its stitches this winter. You count it: one small house lost, one more notch in the cliff, a co-op shed full of nets drenched in silt. You count them as if they were numbers on a grant form, because the grants will be the ledger you live under for the next year. The tally curves back to a single, sharp memory — the house you lost in the family flood. The guilt is a folded thing at the base of your throat you smooth without thinking.
+
+Old Man Cala's voice moves across that memory like a tide: where the dunes were, he says, the grass used to stand like a fence. His stories don't comfort so much as adjust the tilt of your attention. You can hear him now, speaking slow and grainy: they are not simply rocks and sand, child. They were a way to hold back what wants to come in.
+
+Nyla appears from the alcove with a thermos and a scowl that softens when she sees you watching the stream of numbers. She's already in motion — fingers quick on the tablet, breath a little foggy in the cold.
+
+Nyla: "You're up early. The sensors haven't quieted since midnight. Look at this."
+She holds the tablet toward you, the graph jagging like a heartbeat.
+
+Maya Serrin: "I saw the notch on the bluff. Are these spikes correlated to the gust front last night?"
+
+Nyla: "Partly. There's that. But the waveform doesn't match the usual recipe. There's energy in frequencies we haven't been seeing on the low tide. Either there's an underwater reflection pattern changing — or we've got shifting bathymetry near the quay."
+She taps the screen; her tone is brisk but small tremors show.
+
+Maya Serrin: "Shifting bottom would explain the lean-to. It would explain the nets. How quickly does that escalate?"
+
+Nyla: "Not instantly. It's an edge. But edges are where things start to pick up. If the bar moves, the waves refract differently. If the bar moves toward the shore, every low tide is effectively a little higher."
+
+Maya Serrin: "And that matches the gauges. The uptick on the tide log is real."
+
+Nyla: "Real and boringly persistent."
+She offers a crooked, tired smile. "Mayor Hale pinged me at three. Emergency meeting at ten. Everyone's been told."
+
+You feel the familiar tightening: calendars, grant windows, investors' latent interest. The corporate offer — Elena Park's firm — hangs at the edges of your inbox like a sleek shadow. Her proposal: quick engineered defenses, a seawall the books will like. It reads on the screen as certainty. It reads in the mayor's curt line as pressure.
+
+You press the tide-watch into your palm and let its brass warmth ground you. You will have to speak. You will have to find the phrase that doesn't sound naïve or sentimental: nature-first, community-led, living shorelines. You will have to make chips of time add up to protection.
+
+[INTERACTION]
+> Choice A: "Straddle the fence: follow the numbers first"
+> Choice B: "Speak first: go to the quay to see with your own eyes"
+[Outcome A: "You lean close to the console, fingers hovering over data sets — let the graphs and the models speak before you let the story speak. You tell Nyla to log everything and prepare the visualization for Hale."]
+[Outcome B: "You close the tablet, slide on your boots, and decide you need the smell of wet rope and the tactile truth of the quay more than another graph. Nyla protests for a second but hands you a thermal flask."]
+[MERGE: Continue to the quay scene]
+
+[Scene: Quay | Dawn]
+[Background:"ch1_Start_2"]
+[Sound: Water threading in and out, nets creaking against wood]
+[Music: Low, steady piano, patient]
+
+The quay smells of wet canvas, diesel, and something older — cedar oil and fish breath. The lean-to sits as a wounded thing, half-swallowed by sand and silt, the patchwork of its canvas like a bandage at half-mast. You walk the spray-slick boards carefully, boots making soft thunks. Each step is a small report.
+
+Aiden Koa is there, shoulders squared against wind, hands on a rope as if steadying more than a boat. He looks up when you approach, and for a moment the sea in his eyes is the same as when he came home a decade ago: steady, tired, warm. He doesn't come forward; instead he waits for you to close the space.
+
+Aiden Koa: "Did you get Nyla's graph? This morning the shoreline ran my hand like a different thing."
+
+Maya Serrin: "I saw it. The lean-to didn't stand a chance if the bar shifted. How's the co-op shed?"
+
+Aiden Koa: "Mostly nets. A few boxes of bait we can save. Old man Jiro's traps are gone, though. He'd kill the sea if he could and pay nothing for it."
+He smirks, then goes quiet. "Hale sent word for ten. Elena's people were on the line early. She's got numbers and a truck. I don't like the idea of 'safety' being a concrete contract."
+
+Maya Serrin: "Safety isn't a single shape. I want to protect what we have without carving the sea off from us."
+
+Aiden Koa's jaw tightens in a way that means more is unsaid. He looks toward the cliffs — toward the new notch — then back at you.
+
+Aiden Koa: "You always say that. Living shorelines and dunes and all. I— I get it. My mother remembers where she used to gather clams as a child. If a wall goes up, those places die."
+He laughs, brittle. "Maybe you and Elena can engineer the moon together. Will that bring back a beach to walk on with bare feet?"
+
+Maya Serrin: "I don't want poetry to take precedent over people. I want both. I want options that don't cost us the things we love."
+
+Aiden Koa: "And what if there isn't time for both? What if the grant timeline forces a faster fix?"
+
+Maya Serrin: "Then we make the fastest fix the least destructive one. If that's impossible, then we choose what we can live with after the flood."
+
+Aiden Koa: "You carry so much on your back, Maya. Sometimes I wonder if you believe you can fix everything yourself."
+
+Maya Serrin: "I don't believe I'm invincible. I believe in doing better with what we have. And I believe in the people who show up."
+
+Nyla calls from the boardwalk, voice distant but steady — a conduit of data and practical urgency.
+
+Nyla: "Mayor wants us at the hall. He said bring what we have and nothing theatrical. Keep it simple."
+
+You take a breath that tastes faintly of iron and seaweed. Old Man Cala's voice again, not quite memory now but a companion: fence the dune, he said, plant the roots where they will hold. You memorize the cadence like a prescription.
+
+[INTERACTION]
+> Choice A: "Touch the pendant: reach out before you go in"
+> Choice B: "Keep distance: tuck the tide-watch deeper into your palm"
+[Outcome A: "You reach for Aiden's wooden wave pendant reflexively, fingers hovering but not taking. He notices and gives a half-smile that is both reassurance and warning: don't lose yourself in the fight."]
+[Outcome B: "You slide the tide-watch under your cuff and keep your hands to yourself. Aiden reads the gesture: I'm here, but I'm not stopping you from fighting alone."]
+[MERGE: Continue to the boardwalk & marsh scene]
+
+[Scene: Abandoned Boardwalk & Marsh | Early Morning]
+[Background:"ch1_Start_3"]
+[Sound: Sloshing footsteps, distant conversation like undersea hum]
+[Music: Sparse strings, a single note lingering]
+
+The boardwalk feels like a place of holdings and losses — a liminal theatre between land and water. Puddles mirror the bleak sky in small, reflecting patient rounds. Nyla's tablet is back in your hands, displaying a visualization you asked her for: a time-lapse of the bar movement over the last two months. The image is quiet and terrible in its steadiness: a slow migration, pixels shifting shoreward.
+
+Mayor Hale's message sits at the top of your inbox on every device: Ten a.m., community hall. Emergency. He writes in his practical, debtor's hand. You can almost see him arranging budgets and cross-checking re-election lines on a mental ledger. The wording is careful; the pressure is not.
+
+You press the tide-watch into your palm and feel the brass warmth and the tiny dent where your fingernail hooked it once as a child. You steady yourself on that weight and on the memory of Old Man Cala's dunes. You are tired in a way that something in you calls productive; you are also afraid because every small failure has felt like a vote against you. The grant timeline waits like a metronome; Elena's offer waits like a polished coin. Somewhere beneath all of this is the people you love — fishermen, grandmothers, the kid who runs the fish stall — and the thought of losing them to the wrong version of 'safety' is a hollow ache.
+
+You take one last look back at the water. The sea is indifferent and intimate at once, pressing the future against the town's heels. You steel yourself, as you have steeled a hundred times, to go speak for a thing that will not speak for itself: the living shorelines, the dunes, the marshes. You habitually rehearse your line about community-led defenses in the quiet between waves and data, and the rehearsal makes the pitch both less miraculous and more necessary.
+
+You walk toward the path that climbs to the community hall. The bulbs strung outside are not yet lit. Your steps are measured. Your breath makes a small fog. In the pocket of your parka the tide-watch rests like a small truth.
+
+You know the meeting will be a convergence: grant officers, anxious homeowners, Elena's envoy, Mayor Hale with his folders. You know there will be moments where a single phrase can shift the room. You prepare the phrase in your head — succinct, unflashy, stubborn in principle.
+
+You reach the hall's shallow steps. For a second everything pauses: the sound of the town seems to gather behind the door, the weight of Old Man Cala's stories and the lean-to's absence settling like dust on your shoulders. You press your thumb against the tide-watch and let the brass warmth remind you of why you wake before dawn.
+
+You inhale. You push the door open.
+
+[Background:"ch1_Start_4"]
+[Music: Low unresolved chord — patient, expectant]
+
+You step inside, and the room turns toward you with the gravity of small, human needs. You can already feel the shape of the debate ready to form — the way the word "safety" will be wielded like a tool. You have minutes to make a case, seconds to catch a look, a pause to let a single sentence land.
+
+You steel yourself to speak before the room decides.
+
+[Background:"ch1_Start_5"]
+[Music: A single held note, then a breath]
+
+[Background:"ch1_Start_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

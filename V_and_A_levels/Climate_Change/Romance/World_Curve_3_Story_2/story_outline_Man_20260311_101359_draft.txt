@@ -1,0 +1,243 @@
+## Visual Novel Title
+Tides of Elara
+
+---
+
+## World View
+Elara is a near-future coastal town clinging to a temperate sea reshaped by climate change. Rising tides and violent seasonal storms have remade daily life: sandbag lines, elevated walkways, shuttered storefronts, and experimental green infrastructure define the streets. Political power is split between local committees steeped in tradition and outside developers armed with capital and glossy plans. The culture is maritime and communal — fishers, shopkeepers, volunteer crews, and field scientists share memory of old floodlines and family loss. Religion and civic ritual thread through seasonal memorials for those taken by sudden floods, and a pragmatic, often gritty religious tolerance governs public life. Class hierarchy is subtle: long-standing fishing families and small-business owners command social respect; developers and corporate planners bring wealth and influence but little local trust. Geography alternates low marsh and jagged breakwater, with a small harbor and a converted boathouse-turned-research greenhouse — Tidewatch Lab. Conflict centers on adaptation vs. profit, memory vs. redevelopment, and whether Elara will choose living, nature-led resilience or an engineered seawall and waterfront redevelopment. The atmosphere is nautical melancholy warmed by the community's stubborn resilience: foggy mornings, salt-stained air, sudden gold after storms, and wet wood textures underfoot. Visuals lean semi-realistic painterly with muted coastal palette, cinematic overcast lighting, and character-focused anime-influenced expressions.
+
+---
+
+## General Plot Overview - Plot Outline
+You inhabit Maya Soler in first-person as Elara's environmental engineer-activist. The town faces a decisive council vote: Elias Voss, the polished developer, pushes a hard-engineered seawall and profitable waterfront redevelopment; Maya champions living breakwaters, wetlands restoration, and community-led adaptation. The story follows a Man-in-a-Hole arc: early normalcy slides into crisis as political pressure and personal stakes rise; Maya bottoms out amid betrayal, angry storms, and risk to loved ones; then recovery begins through careful strategy, compromise, or revelation. Romance with Aiden Kuro — a steady fisherman — is entwined with policy: each tactical choice reshapes trust, livelihoods, and intimacy. Branching decisions at the town council, during fieldwork, and at moments of moral reckoning create divergent outcomes: a triumphant hybrid solution that heals both town and relationship; a bittersweet compromise requiring relocations; an exposed corruption leading to systemic change but personal sacrifice; or a rushed engineering victory with heavy costs. Every route adheres to the environmental themes: adaptation vs. profit, tradition vs. innovation, and how love and sacrifice mirror communal choices.
+
+---
+
+## Chapter Structure
+
+*(Each chapter contains first-person narration in Maya's POV, references to visual traits, and exact Valence and Arousal tags. Branch name is indicated where applicable.)*
+
+---
+
+### Chapter 1: Salt‑Stained Morning [Neutral] [A-VeryLow] (Branch: Common)
+
+* **Entry Condition:** None (Start)
+* **Summary:** I wake before dawn, lace my scuffed hiking boots, and walk the Elara Marina with my coral-shaped pendant rubbing against my collar. The boardwalk smells of wet wood and tar; the buoy's red paint is chipped. I make notes in my patched field notebook — salt streaks on its duct-taped cover — about tidal shifts, and I notice Aiden Kuro squinting into the fog, his knit cap low and amber eyes guarded. The town is tired but alive: shop shutters tied, a café's warm light haloing puddles. I think about my brother, the flood that took him, and how that guilt pushes me to fix things. Professor Noor wants a controlled living breakwater pilot at Saltmarsh; Elias Voss will probably arrive this week with renderings of a seawall and a shiny promenade. My braid swings when I tilt my head; I roll my olive-green jacket sleeves and imagine reed roots binding silt like hands holding a town. This morning the sea feels like a question. I can feel the story beginning at the waterline.
+* **Visuals:** Wet boardwalk, fog, Maya's chestnut hair with salt-streak highlights in a practical braid, worn field notebook, coral pendant, Aiden in oilskin coat.
+* **Valence:** Neutral  
+* **Arousal:** A-VeryLow  
+* **Next:** Chapter 2
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 2: Tidewatch Meeting [Negative] [A-Low] (Branch: Common)
+
+* **Entry Condition:** From Chapter 1, Option A
+* **Summary:** At Tidewatch Lab the greenhouse warmth is a revelation: glass fogged with condensation, potted marsh plants glinting under lamps, maps pinned to corrugated metal. Prof. Noor moves with the calm of someone who’s waded through worse storms, her salt-and-pepper bun a familiar anchor. Rosa Tan bursts in, short hair plastered under a yellow jacket, tote jangling with flyers; she wants an immediate rally. Elias's glossy renderings of a seawall hover in my mind like a threat. I run my multi-tool along a table edge and explain my model: living breakwaters built from oyster reefs and cordgrass, designed to reduce wave energy while restoring habitat. Aiden comes late, sleeves rolled, his flannel dusted with salt and fish scales; he listens, eyes narrowed, then asks practical questions about catch and access that cut right to people's livelihoods. The room hums with worry and possibility. I feel the weight of my brother's absence more keenly when I watch Ben Harper's weathered hands — his memory of past projects thick in the air — and I wonder whether stubborn principle can protect people who need immediate income.
+* **Visuals:** Tidewatch greenhouse, Maya's olive-green field jacket over faded floral dress, Prof. Noor in lab coat, Rosa's protest buttons, Aiden's knit cap and braided rope bracelet.
+* **Valence:** Negative  
+* **Arousal:** A-Low  
+* **Next:** Chapter 3
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 3: Council at High Tide [VeryNegative] [A-Mid] (Branch: Common / Split)
+
+* **Entry Condition:** From Chapter 2, Option A
+* **Summary:** The council chamber sits in the City Hall annex — mirrored glass outside, cool clinical light within. Elias Voss arrives in an immaculate navy suit, fountain pen glinting, his steely blue eyes measuring faces. He speaks of quick fixes, economic revival, and "proof" that a seawall will shield Elara and attract investment. His renderings are seductive, like promises pressed into stone. Opposite him, Rosa's voice shakes with urgency; Ben recites a litany of past "rescues" that hollowed out livelihoods. I offer a living approach: marsh restoration, small-scale living breakwaters, public stewardship schemes. Prof. Noor lays out data in a quiet, patient cadence. The room's mood shrinks around a single hinge: the council must vote whether to continue with an engineer-led plan or authorize Elias's seawall and accompanying redevelopment. My chest tightens, my hands smell of salt and ink. Aiden's amber eyes find mine from the back row, narrow and hurt. The choice I make on the town's floor will ripple through nets, docks, and bedsheets. This is the split.
+* **Visuals:** City Hall annex, Elias in tailored suit, Maya's braid and work gloves tucked at her belt, Aiden's weathered face in the crowd, Ben's battered cap.
+* **Valence:** VeryNegative  
+* **Arousal:** A-Mid  
+* **Branch:** MAJOR DECISION (Logic Hub)
+* **The Choice:** The council forces a public stance.
+  * **Option A:** "I publicly endorse the living‑breakwaters plan and ask for a pilot." -> **Consequence:** Rosa mobilizes volunteers but Elias escalates PR; **Jumps to:** Chapter 4
+  * **Option B:** "I open negotiations with Elias, seeking concessions to protect fishermen." -> **Consequence:** A negotiated short-term deal is possible but compromises my ideals; **Jumps to:** Chapter 7
+  * **Option C:** "I threaten to expose Elias's conflicts and demand a delay pending independent review." -> **Consequence:** Tension spikes; Elias threatens legal action and political countermeasures; **Jumps to:** Chapter 10
+
+[Chapter description — 190 words]
+
+---
+
+## Route A
+
+### Chapter 4: Saltmarsh Pilot [Negative] [A-High] (Branch: Route A)
+
+* **Entry Condition:** From Chapter 3, Option A
+* **Summary:** I stand at Saltmarsh with a clipboard and Prof. Noor’s steadying presence. Mist lifts and reveals russet marsh grass threaded with tidal channels. Volunteers from the bakery, teenagers with rolled sleeves, and Ben Harper's slow, sure hands gather knee-high stakes and oyster bags. Elias launches a PR counteroffensive — a glossy brochure left on the boardwalk, a drone circling the site — his polished voice issuing promises of certainty. Aiden walks the perimeter in his patched oilskin, salt crust along his cuffs, and asks if the pilot will threaten his family's seasonal traps. My chest aches; I see my brother's face in every volunteer, and I think of every time I refused help. The pilot needs community buy-in, funding, quick measurements before the storm season. I can rush this, broaden concessions to businesses, or call for more data from Noor. Each choice reshapes trust. I roll my sleeves, braid catching a stray salt-streak, and realize leadership will cost me friends unless I listen — and not only argue. The tide of public opinion already colors the horizon.
+* **Visuals:** Saltmarsh wet ground, Maya's olive-green field jacket and gloves, Prof. Noor with soil-stained fingers, Elias's drone reflecting sky, Aiden’s flannel and rope bracelet.
+* **Valence:** Negative  
+* **Arousal:** A-High  
+* **Branch:** MAJOR DECISION (Logic Hub)
+* **The Choice:** How to proceed with the pilot under public pressure.
+  * **Option A:** "Fast‑track the pilot and start construction this week." -> **Consequence:** Momentum but higher risk of mistakes and opposition; **Jumps to:** Chapter 5
+  * **Option B:** "Broker concessions for small businesses to ensure economic buy-in." -> **Consequence:** A compromise that could dilute ecological goals but secure local support; **Jumps to:** Chapter 6
+  * **Option C:** "Insist on Prof. Noor's extended testing before any public works." -> **Consequence:** Might preserve scientific rigor but gives Elias time to erode support; **Jumps to:** Chapter 5
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 5: Night of Sand and Data [Positive] [A-VeryHigh] (Branch: Route A)
+
+* **Entry Condition:** From Chapter 4, Option A/C
+* **Summary:** The night a squall blows in, our camp at Saltmarsh is all lamps and shouted orders. I trace lines in damp sand in my patched notebook, fingers numb, hair a damp braid plastered to my neck. Volunteers lash reed mats; Prof. Noor toggles instruments that blink like small constellations. Elias's legal team sends a terse note; the drone films us with clinical detachment. Aiden shows up with bundled nets — his amber eyes soft when he sees my exhausted smile — and he carries a thermos that smells of strong tea and sea salt. We argue: keep working through the storm to secure the living structures, or retreat and preserve lives at the cost of losing momentum. Rosa's yellow jacket flaps like a flare; Ben's face is a worn map of storms. I feel the pull to overcommit, the old brother-shaped guilt insists I save this town now. I make a choice — to stay and anchor the pilot through breaking waves, or to step back and plan again. The decision will determine whether the pilot can withstand nature's next challenge.
+* **Visuals:** Night-swept Saltmarsh, wet wood and reed mats, Maya's floral dress under field jacket, Aiden’s knit cap, instruments blinking, lamp-lit faces.
+* **Valence:** Positive  
+* **Arousal:** A-VeryHigh  
+* **Branch:** MAJOR DECISION (Logic Hub)
+* **The Choice:** Face the storm now or protect people first.
+  * **Option A:** "Hold the line and complete the installations tonight." -> **Consequence:** Risk to volunteers but potential to prove the concept; **Jumps to:** Chapter 6
+  * **Option B:** "Evacuate to safety and regroup after the storm." -> **Consequence:** You lose immediate momentum but preserve trust; **Jumps to:** Chapter 6
+  * **Option C:** "Publicly release preliminary data now and call for aid." -> **Consequence:** Raises profile, invites scrutiny and Elias's rebuttal; **Jumps to:** Chapter 6
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 6: Living Breakwaters (Happy) [VeryPositive] [A-VeryHigh] (Branch: Route A — Ending)
+
+* **Entry Condition:** From Chapter 4, Option B OR From Chapter 5, Option A/B/C
+* **Summary:** The morning after the storm, sunlight slants gold across seedheads. Some installations held; some did not. The pilot showed that living structures reduce wave energy where properly sited. The council, faced with public photos, Prof. Noor's data, and the visible work of volunteers, approves a hybrid plan: targeted engineered defenses where necessary and living breakwaters for community shorelines. Elias concedes publicly to a phased redevelopment that funds local businesses and supports wetland restoration. Aiden and I stand on the reclaimed edge, his rough hand finding mine. He tells me he was afraid but proud — amber eyes bright with salt and a rope bracelet catching the light. We agree to keep listening: he will help adapt fishing schedules to new access points; I will fight to keep costs local. My guilt doesn't vanish, but the town's survival feels less like an impossible penance and more like a shared project. We have a future that smells of wet wood, salt, and baked bread.
+* **Visuals:** Golden saltmarsh light, Maya's coral pendant, Aiden’s flannel and rubber boots, Dr. Noor smiling, rebuilt boardwalk elements and living reefs.
+* **Valence:** VeryPositive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Ending (Happy)
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 13: Scaled Victory, Deep Loss (Route A — Alternate Ending / Bittersweet) [Positive] [A-VeryHigh] (Branch: Route A — Alt)
+
+* **Entry Condition:** From Chapter 4, Option C
+* **Summary:** We paused for more testing, as Prof. Noor recommended. The caution saved us from a premature failure but gave Elias time to reframe his pitch as "stability now." He offered scaled protections to fishermen — temporary docks, subsidized fuel — in exchange for postponed living interventions. The council accepted a phased approach: pilot funding approved, but with tight strings and commercial concessions that will reshape the waterfront. Aiden's jaw tightened when the subsidies were announced — pragmatism written in the lines around his amber eyes. Some small shops survive; others must relocate. I feel relief that the marsh will be restored, but grief for what we lose in the process: old moorings, a particular morning market stall, the intimacy of a town that didn't have strings attached. Aiden and I love each other, but our arguments about risk have left small fissures. It's not a failure — it's a survival with costs. I keep my notebook closed and let the salt air carry both the ache and the hope.
+* **Visuals:** Saltmarsh under calm light, Maya’s duct‑taped notebook, Elias's brochures fluttering, Aiden's rope bracelet and patched coat, displaced storefronts.
+* **Valence:** Positive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Ending (Bittersweet)
+
+[Chapter description — 190 words]
+
+---
+
+## Route B
+
+### Chapter 7: Quiet Bargain [Negative] [A-High] (Branch: Route B)
+
+* **Entry Condition:** From Chapter 3, Option B
+* **Summary:** I take Elias's offer to a back room: polished wood reflecting his navy suit, the smartwatch at his wrist a metronome of assured timelines. He promises immediate funds to shore up piers, emergency jobs, and a "community clause" in his redevelopment plan. In exchange, he wants quiet assent for a seawall that will remake the waterfront into a revenue generator. Aiden watches from the edge of the room, fingers finding his wooden compass, amber eyes narrowed with distrust. Ben says he remembers similar "rescues" that left boats stranded. Rosa calls the deal a sellout; Prof. Noor warns of long-term ecological costs. The bargain is tempting: immediate income and a chance to prevent bankruptcy for several families. But this is where I carry the weight of principle against pressing need. Choosing negotiation could shield people this winter but might sacrifice the town's culture and the integrity of the coastline. I hold my multi-tool like a small, private anchor and try to measure the shape of a decision that isn't only about me.
+* **Visuals:** Elias's mirrored office, Maya's olive jacket, Aiden with carved compass, Ben's battered cap nearby, papers and brochures on polished table.
+* **Valence:** Negative  
+* **Arousal:** A-High  
+* **Branch:** MAJOR DECISION (Logic Hub)
+* **The Choice:** Negotiate terms now or resist for principles.
+  * **Option A:** "Accept a deal that secures immediate jobs with ironclad protections for fishing access." -> **Consequence:** Some protections win but at a cost to long-term ecology; **Jumps to:** Chapter 8
+  * **Option B:** "Refuse and mobilize the town to block construction." -> **Consequence:** A power struggle begins with legal battles and protests; **Jumps to:** Chapter 9
+  * **Option C:** "Leak the negotiation terms to the press to force transparency." -> **Consequence:** Public uproar forces accelerated timelines and unpredictable fallout; **Jumps to:** Chapter 14
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 8: Concessions and Currents [Positive] [A-VeryHigh] (Branch: Route B)
+
+* **Entry Condition:** From Chapter 7, Option A
+* **Summary:** The deal passes with clauses that protect landing zones and allocate short-term grants to fishers. The town breathes a fragile sigh; a few mouths that had feared winter closures will have wages. Elias's team moves fast, cranes shading the harbor like metallic birds. But soon a problem emerges: his wall design reroutes currents, and small shoals vital to juvenile fish are eroded in the model Prof. Noor had warned about. Ben stands at the breakwater, white stubble bristling, and remembers 1978 floods when a similar solution left beachside families destitute. Aiden argues with me in low tones about the margin between keeping nets full and preserving spawning grounds. My own conscience feels divided, and in the boardwalk cafés, eyes rest on me with expectation and resentment. The "solution" is already reshaping lives. I find myself asking whether a compromise that saves this winter can be reconciled with a town that thrives in decades.
+* **Visuals:** Harbor with cranes, Maya's rolled sleeves and notebook, Aiden’s flannel and rubber boots, Prof. Noor's concerned expression, Elias's glossy banners.
+* **Valence:** Positive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Chapter 9
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 9: Shorelines Remade (Bittersweet) [VeryPositive] [A-VeryHigh] (Branch: Route B — Ending)
+
+* **Entry Condition:** From Chapter 7, Option B OR From Chapter 8, Next
+* **Summary:** After months of construction, temporary protections and subsidies blunt the worst of a fierce season. The water doesn't swallow the whole town. But the seawall reshapes the harbor: some fisheries have new docking, others must relocate inland. Families accept relocation packages; a store owner shifts to a new pier two towns over. Aiden and I find each other in a cove, salt on our clothes and grief softening into practical plans. We vow to keep adapting — he teaches fishers new techniques; I shepherd community funds into sustainable practices for those who lost work. The victory lacks the completeness I once imagined; there are missing faces at the market, and some old moorings are gone. Yet children run along modified boardwalks, and Ben nods at a small plaque that lists volunteer names. The town endures, but our love is tested by different priorities and the small resentments that accumulate like barnacles. We continue, because survival sometimes means letting go.
+* **Visuals:** Modified boardwalk, patched business fronts, Maya's coral pendant, Aiden’s rope bracelet, Ben's worn coat and the new plaque.
+* **Valence:** VeryPositive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Ending (Bittersweet)
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 14: Public Blowback (Route B — Alternate Ending / Sad-tinged Recovery) [Positive] [A-VeryHigh] (Branch: Route B — Alt)
+
+* **Entry Condition:** From Chapter 7, Option C
+* **Summary:** I leaked the negotiation notes. The press lit them like tinder and the town ignited. For a week, protesters and contractors shouted across the harbor; Elias's team accused me of sabotage. The construction was delayed but the fallout was swift: investors pulled out, leaving incomes uncertain. A storm later exposed weaknesses in hastily erected temporary defenses, and the town paid a price. In the months after, we pieced things back together with small grants, grassroots labor, and a painful census of losses. The moral win — transparency — arrived with economic pain. Aiden and I argued until we learned to listen differently; we loved each other across a landscape of repair. I learned that truth without plan can wound. The town started to reorganize itself around community-led funds and cooperative fisheries. The recovery is not neat, but it is ours.
+* **Visuals:** Protest signs, Maya’s patched notebook open to a leaked page, Elias's mirrored office empty at dusk, Aiden’s knit cap in a crowd.
+* **Valence:** Positive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Ending (Sad‑tinged Recovery)
+
+[Chapter description — 190 words]
+
+---
+
+## Additional Routes
+
+### Chapter 10: Threat and Evidence [Negative] [A-High] (Branch: Route C)
+
+* **Entry Condition:** From Chapter 3, Option C
+* **Summary:** I take a different path: Rosa, Prof. Noor, and I begin collecting paper trails and meeting notes that suggest Elias's firm has prior contracts delivering short-term fixes that worsened long-term vulnerability elsewhere. Elias answers with legal threats, the polished edge of his steely blue gaze cutting through public confidence. He sends emissaries to the fishermen with offers they can't refuse. Aiden's jaw tightens; his thumb plays the carved wooden compass his father gave him. Gathering evidence feels like excavating the town's wounds; each file carries the weight of nameless people who lost livelihoods in other places. The risk is personal: legal fees, smear campaigns, and the possibility that I will make enemies who can ruin me and the pilot. But if the town is to choose equitably, it must know who stands to profit from quick fixes. My coral pendant feels heavier than normal against my throat.
+* **Visuals:** City Hall documents, Maya’s patched notebook, Prof. Noor’s glasses, Rosa’s rainproof yellow jacket, Elias’s legal notices.
+* **Valence:** Negative  
+* **Arousal:** A-High  
+* **Branch:** MAJOR DECISION (Logic Hub)
+* **The Choice:** How to use the evidence.
+  * **Option A:** "Hold a secret meeting to collect more documents and corroborate stories." -> **Consequence:** More proof but greater exposure to legal risk; **Jumps to:** Chapter 11
+  * **Option B:** "Go public immediately and force a formal investigation." -> **Consequence:** Immediate pressure but high personal cost; **Jumps to:** Chapter 12
+  * **Option C:** "Confront Elias privately and demand a pause." -> **Consequence:** Risk Elias stonewalls or retaliates; **Jumps to:** Chapter 11
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 11: Files in a Rainstorm [Positive] [A-VeryHigh] (Branch: Route C)
+
+* **Entry Condition:** From Chapter 10, Option A/C
+* **Summary:** We meet in a back room above the café, napkins and legal affidavits spread like maps. Prof. Noor's fingers are stained with soil and ink; Rosa's protest buttons glint under lamplight. We collect testimony from fishermen who'd been told "this time will be different," plus financial links that tie Elias's firm to short-term developments in other towns. The risk increases: Elias sues for defamation, and his firm's lawyers file injunctions to freeze our public meetings. Aiden grows protective, bringing along Ben for moral weight when interviews become heated. I feel hunted and strangely fierce — the guilt for my brother's death hardens into resolve. At the same time, I realize that exposing wrongdoing will fracture people who trusted Elias's promises, and some of those people are my friends. We decide whether to dump documents to a national outlet or hand them to an independent council. Either path will ripple — perhaps into policy change, perhaps into personal ruin.
+* **Visuals:** Dim café back room, Maya’s duct-taped notebook open, Prof. Noor’s lab coat sleeve ink-stained, Aiden's wooden compass, Rosa's determined face.
+* **Valence:** Positive  
+* **Arousal:** A-VeryHigh  
+* **Branch:** MAJOR DECISION (Logic Hub)
+* **The Choice:** Release the files how?
+  * **Option A:** "Release to a national investigative outlet." -> **Consequence:** Immediate national scrutiny, possible rapid change; **Jumps to:** Chapter 12
+  * **Option B:** "Provide evidence to the independent review council." -> **Consequence:** Slower but more legally robust process; **Jumps to:** Chapter 12
+  * **Option C:** "Destroy the files to avoid townwide harm." -> **Consequence:** Personal sacrifice to keep the town intact; **Jumps to:** Chapter 12
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 12: Exposure and Aftermath (True) [VeryPositive] [A-VeryHigh] (Branch: Route C — Ending)
+
+* **Entry Condition:** From Chapter 10, Option B OR From Chapter 11, Option A/B/C
+* **Summary:** We release the evidence. The national press runs a careful, damning series; state regulators open an inquiry. Elias's seawall contracts are paused, investors pull back, and an independent audit begins. The town is shaken — lawsuits and layoffs jitter the streets — but systemic wrongdoing is revealed and the council orders a moratorium on single-solution redevelopment. Prof. Noor helps translate scientific prescriptions into new policy, and a coalition forms to fund multi-year, nature-based adaptation with outside oversight. The cost is visceral: I lose quiet privacy, my work becomes a public spectacle, and Aiden and I have a brittle exchange that leaves our intimacy altered. I gained leverage to save Elara from a costly mistake, but I also handed my private life to the press. The result, though, is a policy correction that could preserve the coastline long-term. I stand on the marina, my coral pendant cold, understanding that the kind of change that matters sometimes requires sacrifice beyond the personal.
+* **Visuals:** Press cameras at the harbor, Prof. Noor advising in public hearings, Maya's patched notebook now evidence, Elias's polished lapel pin being examined, Aiden alone on a pier.
+* **Valence:** VeryPositive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Ending (True)
+
+[Chapter description — 190 words]
+
+---
+
+### Chapter 15: Quiet Reckoning (Route C — Alternate Ending / Private Cost) [Positive] [A-VeryHigh] (Branch: Route C — Alt)
+
+* **Entry Condition:** From Chapter 10, Option C
+* **Summary:** I confront Elias privately, asking him to pause votes until an independent study completes. He listens, then smiles a thin, corporate smile that doesn't reach his steely blue eyes. He offers a slice of control instead: a delayed timeline and a closed advisory seat for me — conditional and monitored. I refuse publicly to be co-opted. Elias withdraws his initial offer and accelerates other alliances. The town is left in an excruciating limbo: no seawall built, no immediate funds, but also no clear path forward. The longer view opens: grassroots funds, new local committees, and a slower, community-first plan that will take years. Aiden and I sit on the breakwater and talk about what staying will cost. Our relationship survives but changes: we find new rhythms in activism and fishing, compromise and distance woven together. The immediate pressure eases; the future is uncertain, but it is ours to shape slowly.
+* **Visuals:** Maya’s braid damp with sea breeze, Elias’s unreadable expression, Aiden’s knit cap in hand, low-lit harbor at dusk.
+* **Valence:** Positive  
+* **Arousal:** A-VeryHigh  
+* **Next:** Ending (Private Cost)
+
+[Chapter description — 190 words]

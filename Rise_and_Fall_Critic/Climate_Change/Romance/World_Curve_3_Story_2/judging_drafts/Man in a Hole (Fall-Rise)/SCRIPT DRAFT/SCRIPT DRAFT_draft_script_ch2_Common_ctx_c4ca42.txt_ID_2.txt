@@ -1,0 +1,145 @@
+[Scene: Maris Institute — Coastal Research Lab | Late Morning]
+[Visual: Pan across condensation-flecked panoramic windows; tides churn beyond the glass]
+[Music: Low, insistent cello hum; restrained electronic ticks underneath]
+[Sound: Distant beeping of tide gauges, the soft scrape of marker on whiteboard]
+
+You come in smelling of market salt and frying oil; the compass at your throat is a small, private heat against the cloth. The lab feels cooler than the harbor—the fluorescent lights sharpening the edges of maps, the hum of servers like a held breath. Whiteboards are crowded with curves and arrows, pins anchoring paper maps that look like skinned geography. Your notebook—taped spine and all—feels heavier than it should.
+
+Professor Anika Bhat stands by a long board covered in annotated maps. Her silver bun bobs when she turns; the lab coat she wears is threaded with faint sea-salt and coffee. She does not smile exactly—her kindness lives in persistence, in unwillingness to let an error pass.
+
+Professor Anika: "Mara, these margin calculations—walk me through your assumptions."
+
+You set your bag down and pull your notes free. Your fingers still smell faintly of fish and the vendor's spice. You tilt your notebook so the numbers are legible under the lab light; the ink bleeds slightly where condensation found you.
+
+You: "I pulled the last five tide-gauge records and aligned them with the rainfall models Professor Bhat suggested. I applied the seasonal bias correction and—" You catch yourself, then add, "—I used a conservative envelope for exposure."
+
+Professor Anika: (tilting her head) "Conservative or convenient? There's a difference."
+
+You feel the sharpness of that word in your ribs. Convenient. You tighten your jaw; the compulsion to defend is reflexive, but so is the knowledge that defensiveness smells like fear.
+
+You: "I erred on assumptions that won't overpromise protection. Overestimating risks can immobilize funding."
+
+Professor Anika: (softly) "Or it can be the difference between a street that floods and one that doesn't. Show me the probability envelope you built."
+
+You tap the screen; the curve blooms—bands of shaded probability squeezing tighter toward the future. Anika's finger traces a high-exposure segment.
+
+Professor Anika: "Your upper bound is tight. Where did you truncate the outliers?"
+
+You: "I—" You breathe out. "I capped it at the ninety-fifth percentile because the instrumentation has gaps in the 2030 window and—"
+
+Professor Anika: (interrupting, not unkind) "Because the data is messy. I know. But 'messy' is not an excuse to smooth risk away. If you give the city numbers that look neat, they'll act neat."
+
+The lab smell is a thin mix of ozone and bitter coffee. The words hang between you—she isn't attacking you personally, but she is carving space to make you uncomfortable. Guilt slides up under your sternum: the memory of a block gone after the storm, the faces you can still hear when rain starts. It makes you want to make the numbers cleaner, to put an armor of certainty over a trembling thing.
+
+Professor Anika: (softer) "Mara—don't bury the floods to make your childhood less raw."
+
+You: (voice low) "I don't want to immobilize anyone either. I want a plan that can be built without tearing neighborhoods apart."
+
+Professor Anika: "Then be precise about what 'buildable' means. Be honest about the trade-offs. Those are the arguments our neighbors deserve."
+
+A hush like a tide holds its breath. You nod because she is right, and because admitting wrong is the only way forward that doesn't taste like cowardice.
+
+[Interactive Moment: Choice A ("Defend the cutoffs—stress feasibility") -> Reaction: "You hold the device screen forward, eyes steady. 'If we publish the higher variability, procurement won't fund small pilots. We need something they can sign for.' Anika's jaw tightens; she doesn't disagree but she doesn't look pleased."] || Choice B ("Admit the uncertainty—push for broader envelope") -> Reaction: "Your hands feel colder than the air as you expand the shaded bands on the display. 'We have to show the worst plausibilities as well as the median. People deserve the truth.' Anika exhales—approval mixed with worry—'Good. Expect resistance from procurement.'"]
+
+Professor Anika: (after either choice, with that measured weight of consequence) "I'll revise the report with you. But Mara—remember who this is for. Numbers are not abstractions."
+
+You allow yourself a half-smile, bitter and relieved, and you pack up your notebook. The lab's machines exhale little warm breaths; outside, the sea presses softly against the city like a question.
+
+[Visual: Cut to City Hall — Planning Atrium | Midday]
+[Music: Tension swells—strings with a low brass undernote]
+[Sound: Murmur of gathered crowd, occasional clear voice on a portable speaker, footsteps echoing on marble]
+
+The atrium swallows noise and bright light. Glass panels throw harsh reflections; digital flood-model displays blink neon cyan and magenta—a cold, clinical aurora. Security scanners and the glint of chrome make your shoulders feel two sizes too small. The city notice—urgent, insistent—had been curt and important: "Public convening regarding coastal defenses. Immediate." It pulled you here like the current pulls at your ankles.
+
+You step into the atrium and the smell changes—polished stone, the metallic tang of indoor air systems, a faint trace of someone's overly confident perfume. Crowds press in fragments: municipal staff in blazers, neighbors in sun-faded work shirts, a cluster of protestors with hand-painted signs.
+
+Across the marble floor, a familiar cadence cuts through the murmur: measured, urbane, a voice that makes even fluorescent overheads feel domesticated.
+
+Elias Kade arrives like a practiced solution—tailored navy blazer, municipal ID catching the light. He smiles when he sees you, but it is a smile that knows the language of committees and compromise.
+
+Elias: (approaching, lanyard clinking) "Mara. I didn't expect you to make it from the market so quickly."
+
+You: "I heard it through the neighborhood. Can't let them frame the numbers without the people who live them."
+
+Elias: (studying you) "There's a lot riding on this session. Mayor Chen is setting the tone today."
+
+Elias's voice is calm as an engineer's draft—settling but cool. There's relief in it that feels almost like collateral: he wants a problem to be solvable in meetings, not messy human terms. You instinctively bristle at that—it's not that his approach is wrong, but the way it can smooth over people's grief makes your teeth ache.
+
+Elias: (lowering his voice) "Anika is good company to have at your side. She'll keep us honest."
+
+You: (dry) "You always root for the model."
+
+Elias: (a small shrug) "I root for things that keep people dry. Sometimes that's a model."
+
+You both turn as a ripple moves through the room. Nova Duarte threads through the crowd—paint-splattered vest, megaphone slung over her shoulder like an accusation—and the space around her charges. Her steel-gray eyes find you and don't blink.
+
+Nova: (loud, cutting through) "This isn't a math problem you can optimize away! It's people's homes!"
+
+The protestors respond with a raw chorus. The municipal aides stiffen; some people clap, some scowl. Nova's presence is a bright, abrasive tide against the atrium's marble.
+
+Mayor Heloise Chen steps forward, impeccable in a tailored suit, a lapel pin—her smile practiced and thin. The newsroom lights of the atrium blare against her features. She prefers deadlines, deliverables, and the tidy math of budgets.
+
+Mayor Chen: "Thank you all for attending. We are at a critical juncture. The council expects a seawall proposal within six weeks."
+
+A murmur—a ripple of disagreement, a hiss of panic—runs through the room. Six weeks feels like a shred of cloth to sew a city back into shape.
+
+You: (internally) Six weeks. The word loops like a hook: impossible, political, urgent. Your skin prickles with the memory of a night when a wall held and then didn't. You think of Samir's hands, of Mrs. Ebbett's alleys, of the kids who used to play in the reclaimed lot now a watery ghost.
+
+Mayor Chen: "We will consider supplementary wetland proposals after the initial defense design. For now, procurement needs a single engineering solution that can be implemented at scale."
+
+Nova: (spitting) "So the people who lost everything can wait on a 'supplementary' plan? Or be moved after the fact?"
+
+Elias: (intervening, voice smooth but firm) "The compromise is pragmatic. We can prioritize neighborhoods for the barrier's reinforcement. We can pilot complementary ecological works."
+
+Nova: (turning on him) "Pilot? You mean 'later.'"
+
+Elias: "No—pilot as in immediate adjacent restoration that reduces wave return—"
+
+Nova: "Adjacency is not evacuation, Elias. You and your pilots always assume there's time to tweak while people drown."
+
+The exchange becomes a skein of accusation and counter-accusation. You feel the room tilt: people choosing sides not because they love the rhetoric but because they're terrified and looking for anchors.
+
+Professor Anika moves close enough so you feel the warmth of her scarf. She whispers, urgency threaded through: "You were asked to present the community pilot."
+
+You: (voice steady despite the quake) "I will. But not like they expect."
+
+You step forward to the podium. The neon models throw cold light across your face; cameras blink like distant lighthouses. You breathe in the scent of polished stone and the faint, metallic tang of everyone's watchful breathing. You open your notebook; your fingers find the seam where a pressed flower used to be—old habit—then close it.
+
+You: "Mayor Chen, members of the council, neighbors—I'm Mara Lin. I grew up on the low alleys behind the promenade. Those alleys are not lines on a hazard map. They're memory and grocery mornings and people who can tell you where the culvert jams when the wind shifts from the north."
+
+A quiet flutters through the atrium: not the polite note of a presentation, but the brittle silence that comes before someone says a truth that will break something.
+
+You present numbers the way you must—tidal probabilities, exposure curves, where the models and lived experience overlap and where they do not. You point out the neighborhoods the models flag as high-risk and you read, softly, the account of a single block's loss one stormy night—the clang of shutters, the neighbor who refused to leave, the sound of water in the pantry.
+
+Elias: (leaning in, quietly) "We can find room in the procurement schedule for pilots—"
+
+You: (cutting in, not unkind) "Not if we let pilots be an afterthought. The models can tell us where to build a wall. They can't tell us what to save or what to ask people to leave."
+
+Nova: (from her cluster, voice ragged with wear) "Exactly. We don't want a wall that keeps the money dry and the people out."
+
+Mayor Chen: (face hardening) "We must be pragmatic. A seawall—engineered and funded—secures commerce and the larger population. We cannot gamble with the city's fiscal stability."
+
+You feel the room close in—consequence like pressure at sea level. The mayor's words are municipal geology: immovable and reshaping everything around them.
+
+Mayor Chen: (decisive) "Six weeks. Seawall proposal. Compliance with procurement benchmarks. After that, we will evaluate ecological integrations."
+
+The finality in her voice is a steel gate slamming. Around you, mouths form small o's; Nova's jaw tightens into a line that looks like fracture. Elias's brow creases—not alarm, but calculation—and he steps toward you, almost as if to offer an anchor.
+
+Elias: (quiet, a hand almost brushing the small of your back) "We can work within this. We have to."
+
+You: (internal) The hand is almost forgiveness and almost strategy; you feel both and cannot accept both at once. The deadline is a blade that forces a choice you have not been allowed to prepare for—engineer a wall now, accept the displacement it implies later, or push for time and risk losing any budget at all.
+
+Your ribs tighten. An old guilt—like a sandbag at your chest—settles heavier. The neighborhood faces you know flash behind your eyes: Mrs. Ebbett's stubborn chin, Samir's grin when something finally worked, the kids with salt in their hair.
+
+You: (barely audible) "Six weeks."
+
+[Visual: Camera holds on your face — horizon-light in your sea-glass eyes; the neon models glitter like options that aren't really choices]
+[Music: A single dissonant piano note blossoms and lingers]
+
+You stand at the place where numbers meet noise—the models, the memories, the sudden municipal decree. Each path ahead would force loss or compromise.
+
+You know what the city wants. You know what your neighbors need. You know what you can't afford to smooth into a single 'practical' line.
+
+You swallow. The room echoes with the click of a dozen professional notebooks closing.
+
+[LINEAR JUMP]

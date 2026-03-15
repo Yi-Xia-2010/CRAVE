@@ -1,0 +1,483 @@
+{
+    "title": "Maris Bay: Tides of Salt and Seed",
+    "summary": "Maya Alvarez, a community organizer in near-future Maris Bay, must marshal neighbors, science, and craft to protect homes and the town's identity from a glossy harbor redevelopment. The story branches into three strategic directions—negotiation with developers, confrontational activism, or quietly proving alternatives through prototypes—each with moral forks that shape civic outcomes and Maya's relationship with Evan Kaito. Across routes the emotional arc is a rise: setbacks become leverage, alliances build capacity, and choices shape endings from happy community-led success to bittersweet compromises or loss.",
+    "emotional_curve_type": "Rise (Rags to Riches)",
+    "player_character": "Maya Alvarez",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt on My Sleeves",
+            "branch_designation": "Common",
+            "narrative_focus": "I wake at dawn to the smell of brine and wet wood. The boardwalk’s planks creak beneath my boots as I check the temporary reed beds by the dock. My satchel bumps against my hip — seed packets, a copper barometer necklace warm against my chest. Memories of the store I lost to a storm surge return as a steady knot of guilt; that loss is why I lead the seed-bank projects and patch the rooftop nursery. Today, Mayor Lionel Park has called a preliminary briefing about Irene Vale’s harbor redevelopment. I know Irene’s platinum bobface and corporate poise from a dozen rallies; the project’s renderings glow on my phone — engineered seawalls that will mean jobs, but also marsh loss. Tala has texted about a volunteer shoreline patrol; Dr. Sora Kim mails data about tipping points. My hands smear soil on my linen shirt as I list priorities: protect the marsh, keep people in homes, scale low-tech desal kits Evan tinkers with. The town asks for strategy; I feel the tug of duty and the private ache of wanting something — someone — to hold close.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Mayor Lionel Park",
+                "Irene Vale",
+                "Tala",
+                "Dr. Sora Kim",
+                "Evan Kaito"
+            ],
+            "locations_used": [
+                "Maris Bay Boardwalk",
+                "dock",
+                "Rooftop Nursery"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Morning Briefing",
+            "branch_designation": "Common",
+            "narrative_focus": "At the Council House Atrium, fluorescent light sharpens the edges of Irene’s glossy renderings. I stand under that glass, shoulders damp from the morning mist. Irene’s steely grey eyes meet mine across the dais; she speaks in measured sentences about jobs and stabilization while a digital lapel pin flashes projected metrics. Mayor Lionel looks drained but attentive; Captain Reyes sits with his carved pipe, stone-faced. Dr. Sora Kim shares her models quietly—exposed marsh accretion curves, microclimate feedbacks — and I translate them into community language: living shorelines, pilot modular habitats, jobs through restoration. Evan waits at the back, camera and solar wristband catching light; his black hair is wind-tousled, eyes reserved but steady when they occasionally find me. The room hums with equal parts fear and hope. Tala whispers plans for a neighbor-led demonstration. I notice how Irene’s polished plans already sway local boards with promises of immediate repair — I feel the old panic: will people accept fast cash over slow care? I must decide how loudly to fight, where to build pilot projects, and how much to risk telling our most vulnerable neighbors the truth about trade-offs.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Irene Vale",
+                "Mayor Lionel Park",
+                "Captain Reyes",
+                "Dr. Sora Kim",
+                "Evan Kaito",
+                "Tala"
+            ],
+            "locations_used": [
+                "Council House Atrium"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Forked Tide",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "After the briefing, beneath the atrium’s cool glass, the crowd fragments into argument and quiet negotiation. I breathe salt-tinged air and consider three possible routes forward: I can accept a seat at Irene’s table to negotiate concessions and seek marsh protections inside a development framework; I can rally grassroots labor — lead protests, organize direct restoration work and block construction; or I can build a third path: quietly scale Evan’s prototypes and Dr. Sora Kim’s pilot data, proving alternatives rather than confronting the vote head-on. Each path touches different parts of my life. Sitting with Irene might protect homes through leverage, but I fear losing local memory to engineered flattening. Leading protests could keep the marsh physically intact, but risks legal backlash and immediate economic harm to families. Quiet cooperation with Evan is slow and uncertain; it might save the marsh in the long run, but the town needs immediate relief. My barometer necklace feels heavy. I can smell the sea, the tradeoffs, and I know Tala and Captain Reyes expect me to choose. This is the first real split: choose negotiation (Option A), activism (Option B), or prototype diplomacy (Option C).",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "I must select a strategy to pursue publicly and morally.",
+                "options": [
+                    {
+                        "label": "Sit at Irene’s table and negotiate for marsh protections.",
+                        "consequence": "Opens institutional bargaining; gains political access but risks compromise.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Organize direct action and blockade the Glass Harbor site.",
+                        "consequence": "Mobilizes community labor and anger; risks arrests and economic blows.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Work with Evan to scale a visible pilot project and present data to the town.",
+                        "consequence": "Builds evidence-based alternatives that may persuade voters, but takes time.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Tala",
+                "Captain Reyes",
+                "Evan Kaito"
+            ],
+            "locations_used": [
+                "Council House Atrium"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Negotiation Seat",
+            "branch_designation": "Route A",
+            "narrative_focus": "I accept Irene’s offer of a negotiation seat. Opposite her, in a room smelling faintly of machine oil and coffee, I set out terms: enforceable marsh buffers, community employment quotas for restoration, and a phased approach that preserves cultural markers like the boardwalk’s old stalls. Irene’s platinum bob bobs with a practiced nod; she listens in a way that’s almost kind. Mayor Lionel observes with a hopeful, weary expression. Negotiating means trading rhetoric for policy, but I keep my face open and my hands full of small proofs: Dr. Sora Kim’s sedimentation graphs, Captain Reyes’s logbooks, and a handful of seed tags from my satchel. Evan drops off a prototype desal module at the door—his grey-blue eyes unfurl with something like pride when our fingers brush as he adjusts a latch. The room is cool, but I feel heat—responsibility to neighbors and dread at what I might concede. We hash out a conditional pledge from Irene: partial marsh set-asides and an apprenticeship fund. It’s not all I want, but it’s something solid. I leave determined to hold her to it in public.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Irene Vale",
+                "Mayor Lionel Park",
+                "Dr. Sora Kim",
+                "Captain Reyes",
+                "Evan Kaito"
+            ],
+            "locations_used": [
+                "Council negotiation room",
+                "Verdant Rooftop Nursery",
+                "Stormcliff Lighthouse"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Contracts and Confessions",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The draft agreement looks promising on paper: marsh set-asides, local labor contracts, and a study fund. But the fine print gnaws. The harbor plan still requires converting a fringe marsh parcel into engineered foundations; Irene insists the town cannot wait longer without economic lifelines. In private, over a battered table where the Verdant Rooftop seeds lie nearby, Evan and I tinker with a scaled pilot habitat that could replace engineered fill. He’s tentative about pushing too hard; his old consulting past shadows him, and he worries about overpromising. I confess my fear: if I push Irene too far, the deal collapses and families suffer; if I settle, we lose ground ecologically. Evan’s fingers, tool-scarred and warm, find mine for a heartbeat; the gesture is small and dangerous. Tala calls with news that some fishers prefer immediate jobs. Dr. Sora Kim urges data-driven clauses. I must choose how public and uncompromising to be with the contract’s signing: sign and secure partial gains while bargaining for future reparations; stall and demand more protections at the risk of losing everything; or accept the deal but use it as leverage to pivot Irene publicly later by demonstrating better prototypes. Each feels like bargaining for people’s lives and my own capacity for love.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I finalize a political deal that affects homes and marsh?",
+                "options": [
+                    {
+                        "label": "Sign the conditional contract now; secure set-asides and apprenticeships.",
+                        "consequence": "Immediate protections and jobs; risk of later ecological losses but stronger political leverage.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Refuse to sign; push for stronger, measurable marsh protections now.",
+                        "consequence": "Possible collapse of agreement, mobilizes activists, legal risk.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Sign but make the ink public: use the agreement as a staged leverage to pilot Evan’s habitat and force a public reckoning later.",
+                        "consequence": "Political theater with technical bets; risky personally and publicly.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Evan Kaito",
+                "Tala",
+                "Dr. Sora Kim",
+                "Captain Reyes",
+                "Irene Vale"
+            ],
+            "locations_used": [
+                "Verdant Rooftop Nursery",
+                "rooftop table"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Boardwalk Morning — Promise Kept",
+            "branch_designation": "Route A — Ending: Happy",
+            "narrative_focus": "The contract signs with flourishes. I watch signatures smear slightly in the salt air as community representatives, Irene, and Mayor Lionel gather on the boardwalk for the press photos. Captain Reyes hands apprenticeships to young fishers with a private grin. Dr. Sora Kim announces funded studies for the marsh set-asides. Evan stands beside me—his hair wind-tousled, grey-blue eyes lit—with a pilot habitat quietly humming on the boardwalk, desal unit filtering water for seedlings. The deal wasn’t everything I wanted, but it changed the calculus: preserved marsh ribbons, jobs for restoration crews, a community fund for retrofits. We spent nights sewing clause language with Tala and neighbors; I am exhausted and, strangely, buoyed. In private, Evan and I walk to the Stormcliff Lighthouse where wind sharpens confessions. We promise to build a life as steadily as we build habitats: small, stubborn, and repair-minded. The town breathes a fragile relief; the marsh edge still quivers, but we have bought time and dignity. I hold my copper barometer against my heart and feel rain coming — but this time, I feel ready.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Irene Vale",
+                "Mayor Lionel Park",
+                "Captain Reyes",
+                "Dr. Sora Kim",
+                "Evan Kaito",
+                "Tala"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Stormcliff Lighthouse"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Rally Lines",
+            "branch_designation": "Route B",
+            "narrative_focus": "I choose direct action. We begin with the Glass Harbor fence: Tala organizes volunteers with bright recycled vests, Captain Reyes brings elderly witnesses to recite sea-memories, and we lay down pickets and seed beds in front of shiny renderings pinned to plywood. The police presence feels heavier than I expected; a few commitments waver when developers whisper immediate payouts. I move through the crowd in my scuffed rubber boots, teal hair streak damp with spray, trading fist-bumps and anxious looks. Evan arrives with a hush — he’s reluctant about confrontation after corporate consulting — but he helps build a sturdy, public pilot habitat from salvaged glass and denim strapping, a quiet sign that alternatives can be tactile. Irene’s team sends legal warnings; Mayor Lionel begs for calm. The media sharpens every shout. We chant for the marsh; we chain a string of seed tags to the fence as a makeshift memorial and a promise. My stomach twists with the fear of arrest and the moral clarity that it would mean something if we stood firm. The tide is not only ocean; it’s policy, and we are trying to slow it with bodies and work.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Tala",
+                "Captain Reyes",
+                "Evan Kaito",
+                "Mayor Lionel Park",
+                "Irene Vale"
+            ],
+            "locations_used": [
+                "Glass Harbor Development Site",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Frontline Choices",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The blockade escalates. The developer’s hired security tries to remove our seed beds; a tense scuffle ends with a handful of arrests. Captain Reyes recounts how similar fights once protected his nets; his voice is low and authoritative. Dr. Sora Kim offers to publish rapid-impact science that shows the marsh’s buffering value, but legal barriers mean evidence alone won’t stop bulldozers. Evan, watching from the sidelines with his compact brass camera, is quiet—his guilt about past corporate ties keeps him from storming forward, but he refuses to abandon us. We must decide the shape of escalation: sustain a nonviolent blockade and risk arrest and fines but possibly stop construction; escalate with a legal challenge and scientific injunction seeking to delay work; or accept a pragmatic short-term truce to protect vulnerable households, running the public pilot to gather more persuasive data before the final permits. Each choice changes who we protect immediately versus who pays later. The crowd’s faces — hopeful, terrified, resolute — press in on me. My barometer swings in my palm.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How far do we escalate on the frontline?",
+                "options": [
+                    {
+                        "label": "Hold the blockade, risk arrests to stop construction.",
+                        "consequence": "Potential immediate halt but legal and economic backlash.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "File an injunction backed by Dr. Sora Kim’s rapid science; pause construction through legal channels.",
+                        "consequence": "Leverages science and law but may take time and feel like giving ground.",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Accept a short truce protecting the most vulnerable and double down on public pilot demonstrations.",
+                        "consequence": "Guards families now but may cede some construction; bets on persuasion.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Captain Reyes",
+                "Dr. Sora Kim",
+                "Evan Kaito",
+                "Tala",
+                "Mayor Lionel Park"
+            ],
+            "locations_used": [
+                "Glass Harbor Development Site",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "After the Barricade — Loss",
+            "branch_designation": "Route B — Ending: Sad",
+            "narrative_focus": "We hold the line until the dawn when the county sends in injunctions and heavy equipment. The barricade does stop one early shift, but the legal weight of developer money pushes the mayor to call in the final permits. A scuffle in front of the Glass Harbor gates leaves several community members injured and a few jailed overnight; our moral high ground fractures under public pressure as some local families accept one-time payouts to move. Captain Reyes’s stories of past protections feel like distant comfort as the marsh is marked and measured for fill. Evan helps as much as he can—delivering hot tea, recording testimony—but he’s haunted by the sense we failed to translate conviction into lasting policy. Standing on the boardwalk that evening, ash and dust in the air, I feel a hollow growth in my chest: we saved memories, made noise, but the engineered shoreline is already planned. I leave town with guilt and resolve. The story of Maris Bay continues elsewhere; I must carry lessons and a seed of stubborn energy to fight again, but this chapter closes with displacement and a quiet, painful separation as people move.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Captain Reyes",
+                "Evan Kaito",
+                "Mayor Lionel Park"
+            ],
+            "locations_used": [
+                "Glass Harbor site",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Quiet Prototype",
+            "branch_designation": "Route C",
+            "narrative_focus": "I choose the middle path: work with Evan and Dr. Sora Kim to build undeniable prototypes. We take over a small lot and retrofit it into a living pilot: reed beds, a modular habitat, and a desal hyphen that hums quietly at night. My hands dig into the soil; my field jacket is damp with irrigation. Evan teaches a group of neighbors how to assemble panels; his undercut hair gets caught in the evening wind as he leans over plans. The approach is slow and steady: publish clear data, host open days, invite Mayor Lionel and the public to see people living with dignity while the marsh sequesters sediment. Tala runs community tours; Captain Reyes brings children to learn knotwork and tide-knowledge. We face setbacks—salinity spikes, a storm that washes a row of seedlings away—but each failure yields data points Dr. Sora Kim writes into grants. Choosing diplomacy through demonstration is a gamble against time, but it feels like building a language Irene cannot entirely dismiss: facts staged as lived reality. The pilot grows small communities—neighbors sharing food and tools—and Evan grows near in ways I let my chest notice.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Evan Kaito",
+                "Dr. Sora Kim",
+                "Tala",
+                "Captain Reyes",
+                "Mayor Lionel Park"
+            ],
+            "locations_used": [
+                "Verdant Rooftop Nursery",
+                "small pilot lot",
+                "pilot site"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Legal Pause",
+            "branch_designation": "Route B — Alternate Branch",
+            "narrative_focus": "We file for an injunction. Dr. Sora Kim’s rapid-impact memo and Captain Reyes’s logbooks form the case; legal clinics offer pro bono counsel. The court grants a temporary pause while sediment studies proceed. The community breathes, but the pause is fragile and bureaucratic; Irene’s team rallies donors and frames us as obstructionists in some press circles. In private hearings, Irene shifts tone: she shows up in a neutral trench and listens, and for a breath I see the human calculation behind her corporate face. The pause buys time — time to build a public pilot, time to involve Evan’s maker collective, and time to let Mayor Lionel reclaim some political agency. Yet the injunction means we must also perform patience: the town needs work, and some neighbors bristle at delays. I spend nights translating technical reports into neighborly language, carrying seed packets and small promises, trying to keep everyone anchored while the courts deliberate. Evan runs smaller demos, gradually winning quiet allies with tangible comfort: a desal unit that brings drinkable water to a rooftop garden. The legal route is not dramatic; it is tedious, precise, and slowly hopeful.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Dr. Sora Kim",
+                "Captain Reyes",
+                "Irene Vale",
+                "Mayor Lionel Park",
+                "Evan Kaito"
+            ],
+            "locations_used": [
+                "Courtroom",
+                "pilot site"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Demonstration at Dawn",
+            "branch_designation": "Route C — Ending: True",
+            "narrative_focus": "Our pilot works publicly. A storm that would have once breached the lot now washes through reed channels and leaves sediment behind; our modular habitats bob but do not flood. Dr. Sora Kim’s data, tenaciously gathered, shows the marsh’s resilience metrics in sharp color: lower surge impact, increased biodiversity, measurable community employment. The town gathers at dawn for an open demonstration: Mayor Lionel speaks of partnership; Captain Reyes tells a story of the first tide he remembers; Tala lays out a chart of apprentices trained. Irene arrives with her polished entourage and watches. I expect confrontation; instead, she asks questions — practical, sharp, unyielding, but curious. The evidence is undeniable and public; she must reckon with cost, optics, and long-term risk. In a private follow-up meeting, Irene proposes a hybrid model: engineered structures outside crucial marsh corridors, larger investments in nature-based jobs, and an institutionalized community oversight board. We find an uneasy governance truce. Evan and I stand at the edge of the pilot, hands touching over a small tray of sprouted seeds. The romance that grew in dirt and design is quiet, built from shared labor and mutual repair. This is not triumph without compromise, but it is a honest pivot that enacts structural change.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Dr. Sora Kim",
+                "Evan Kaito",
+                "Mayor Lionel Park",
+                "Captain Reyes",
+                "Tala",
+                "Irene Vale"
+            ],
+            "locations_used": [
+                "Saltmarsh Labyrinth",
+                "pilot habitats",
+                "Verdant Rooftop Nursery"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Refuse the Fine Print — Confrontation Grows",
+            "branch_designation": "Route A — Alternate Ending: True",
+            "narrative_focus": "I refuse to sign the conditional contract. It fractures alliances but consolidates a determined coalition: Tala mobilizes neighborhood labor, Dr. Sora Kim organizes public forums, Captain Reyes offers oral histories that the press picks up. The town polarizes; Irene withdraws the conditional concessions and mounts a high-pressure campaign. For weeks the community faces economic uncertainty and heated public debates. I go on the boardwalk, speak plainly about long-term costs, and deliver neighborhood trainings on low-tech floodproofing. Evan joins in, slow at first but steady, his grey-blue eyes catching light when we test a desal unit. The tension is raw; some neighbors resent the risk I pushed onto them. Then a break: a major storm exposes the vulnerability of the engineered plans; Irene’s renderings face real-world failure in front of national cameras. Under that pressure, she agrees to a hybrid solution and funds a larger, jointly managed restoration fund — not as a surrender but a pragmatic pivot. The truce is uneasy, but it institutionalizes community oversight and funds scaled apprenticeships. Evan and I grow closer through the bruising work. This outcome is a complex moral victory: systems change at a cost, and love grows through shared insistence.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Tala",
+                "Dr. Sora Kim",
+                "Captain Reyes",
+                "Irene Vale",
+                "Evan Kaito",
+                "Mayor Lionel Park"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "pilot site"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Sign and Stage — Bargaining with Risk",
+            "branch_designation": "Route A — Alternate Ending: Bittersweet",
+            "narrative_focus": "I sign but make the signatures public and stage a grassroots demonstration of Evan’s pilot the same day — a political gambit. The move buys partial protections and a public deadline for demonstrable alternatives. Initially, it looks like savvy leverage; headlines say “Community Keeps Watch.” But the gamble strains people: a few long-time residents are told to relocate for phased construction; some apprentices find steady jobs, while others mourn lost gardens. Evan throws himself into the prototype’s scaling, winning small grants; I find myself collapsing into the lighthouse at night, barometer warm against my skin, trying to reconcile policy theater with neighbors’ losses. Evan and I try to hold one another, but the pressure of public performance and private sorrow introduces a distance between us: he leaves for a regional maker fellowship to scale the habitat, promising to return, and we part knowing our love is honest but taxed by the choices we made. The town survives with patches of marsh and new jobs, but the cost is visible: sagging porches, families moved, and a community stitched together with practical repairs and ache.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Evan Kaito",
+                "Irene Vale",
+                "Mayor Lionel Park",
+                "Tala"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Stormcliff Lighthouse",
+                "pilot site"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Truce and Tides",
+            "branch_designation": "Route B — Alternate Ending: Bittersweet / True Hybrid",
+            "narrative_focus": "We accept a short truce. Construction halts in designated zones to protect the most vulnerable homes while we accelerate public pilots and studies. The compromise is messy: some marsh is still converted, and a handful of houses relocate with compensation, but the truce forces Irene’s team to fund apprenticeship programs and community oversight. In the pause, I and Evan orchestrate large, public demos of flooding performance; Dr. Sora Kim’s evidence becomes impossible to ignore. Irene—her platinum bob less sharp in the pale light—meets with neighborhood leaders and concedes to a hybrid plan: engineered protections beyond critical marsh corridors and robust nature-based restoration inside them. The arrangement does not fix everything. Some old families lose ground, and the town’s skyline changes: glass harbor structures rise where tumbled nets once hung. But we maintain enough marsh to buffer storms and create durable jobs in restoration. Evan stays nearby as he expands his maker collective regionally but keeps a commitment to Maris Bay. Our love withstands compromise; it is not pristine but repaired through work. The ending is neither total triumph nor total loss: it is a lived negotiation and a step forward.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Alvarez",
+                "Evan Kaito",
+                "Dr. Sora Kim",
+                "Irene Vale",
+                "Mayor Lionel Park",
+                "Tala",
+                "Captain Reyes"
+            ],
+            "locations_used": [
+                "Glass Harbor edge",
+                "Verdant Rooftop Nursery",
+                "pilot habitats"
+            ]
+        }
+    ],
+    "remarks": "Branch split points occur at Chapter 3 (major route split), Chapter 5 (Route A split), and Chapter 8 (Route B split). Routes conform to the specified depth constraints. All chapters are Maya Alvarez first-person POV and reuse the core character and location set from the world view.",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

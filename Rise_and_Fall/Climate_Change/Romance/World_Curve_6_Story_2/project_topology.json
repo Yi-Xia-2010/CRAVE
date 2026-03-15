@@ -1,0 +1,235 @@
+{
+  "generated_at": "2026-03-11 12:17:04",
+  "total_chapters": 15,
+  "total_valid_routes": 7,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 14,
+      "branch_name": "Additional Route — Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending: Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Additional Route — Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending: Happy",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Route — Epilogue",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13,
+        15
+      ],
+      "length": 7
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Additional Route — Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13,
+        14
+      ],
+      "length": 7
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Incoming Tide",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Council Call",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Thresholds",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Hold the Line",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Brokers and Boundaries",
+      "branch": "Route A / Split",
+      "children_ids": [
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Highwater Reckoning",
+      "branch": "Route A — Ending: Happy",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Negotiated Waters",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Strings Attached",
+      "branch": "Route B / Split",
+      "children_ids": [
+        14,
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Compromised Harbor",
+      "branch": "Route B — Ending: Bittersweet",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Managed Retreat",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Patchwork Futures",
+      "branch": "Route C / Split",
+      "children_ids": [
+        12,
+        14
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Shoreline Farewells",
+      "branch": "Route C — Ending: Sad",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Exposure",
+      "branch": "Additional Route — Triggered from Chapter 5, Option B",
+      "children_ids": [
+        14,
+        15
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "Scales and Sacrifice",
+      "branch": "Additional Route — Ending: True",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Aftertide",
+      "branch": "Additional Route — Epilogue",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 18,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 1,
+    "entry_rescue_typeA": 1,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

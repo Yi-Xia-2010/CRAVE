@@ -1,0 +1,125 @@
+### SCRIPT
+# Route: Route A — Ending: Happy
+# Context: 453e40
+
+[Scene: Reclaimed Wetland Garden | Morning → Dusk]
+[Background:"ch4_453e40_1"]
+[Sound: Squelch of boots in peat, low chatter, the distant gulling of the sea, a trowel tapping a stake]
+[Music: Light, rhythmic acoustic — steady, mid-tempo; a small percussion line mimicking the patient beat of work]
+
+You sign the volunteer roll with a fingertip still damp from the channel you just dug. Your sleeves are dark with mud; the knit scarf at your neck smells faintly of tea and salt. You let the familiar weight of the Moleskine inside your jacket sit near your ribs, a small, useful ballast.
+
+Sora is there before you, moving through the rows like they own the tides — not in possession but in an intimate, practiced way. Hair falling in glossy waves over one shoulder, they clap a hand on a volunteer’s back, lean to show a child how to wedge cordgrass roots into their trench, then turn to you with that quick, bright grin that loosens something guarded in your chest.
+
+Sora Watanabe: "You're late enough to make it dramatic, on time enough to be useful. Perfect."
+
+Ari Navarro: "Your timing would be dangerous if you weren't so persuasive."
+
+Sora laughs, then gestures at the layout board — a repurposed surfboard still marked with previous campaigns, now pinned with sketches of living channels.
+
+[Background:"ch4_453e40_2"]
+[Sound: Volunteers murmuring, a child calling, a can of paint rattling softly]
+
+You take a breath and step into the choreography. Teaching volunteers to map wave overtops feels less like lecturing and more like translating: you show the hand-axes where to measure, how the smear of seafoam at dawn becomes a line on their fabric rulers, how to mark the improbable places the water prefers. Their questions are quick; their faces, sun-washed and earnest, read like small topographies of hope.
+
+Volunteer (young woman): "If the tide comes in faster than the models say, do we—"
+
+Ari Navarro: (cutting in, steady) "We record. We signal. We pull the markers and prioritize people first. The data tells us where to place durable ties later. Today we collect what we can, and we show the town it's possible to care for both land and life."
+
+Volunteer (young woman): "Okay. Show me the nodes again."
+
+You repeat the method, slower this time. Your voice finds its professional cadence and settles there. Around you, Sora Watanabe moves from group to group, their paint-streaked jacket brushing shoulders like a promise. When their sleeve brushes yours while reaching for a bundle of marsh grass, something small and private settles in the space between your shoulder blades — not a storm, not yet, just heat.
+
+[INTERACTION]
+> Choice A: "Joke about the wet socks"
+> Choice B: "Keep it procedural"
+[Outcome A: "You make a small, dry joke about the town inventing a new fashion season: 'Wet socks, utility chic.' The volunteers chuckle; Sora's smile goes slack-jawed amused, and the child nearby repeats the phrase with delighted solemnity."]
+[Outcome B: "You keep the exchange strictly technical, listing tolerances and anchor depths. Volunteers nod with tight concentration; Sora watches you, the corner of their mouth softening, as if they appreciate the steadiness you're providing."]
+[MERGE: Continue]
+
+Dr. Noor arrives with their usual quiet gravity, hands tucked into a weathered messenger bag. They spread a sheet on the board — not glossy slides but hand-scribbled contagion-maps revised to show where stagnation and standing water could combine with human activity to create health risks. The paper smells faintly of printer toner and fieldwork.
+
+Dr. Noor: "I tightened the buffer zones near the old boatyard. If we route the channels this way, we reduce the risk window by—" (they tap the map) "—a measurable amount."
+
+You lean in, reading the notes through a haze of afternoon light. The numbers are familiar; the calculus is necessary. You feel the ghost of the formal models you once trusted as if they learned new humility overnight.
+
+Ari Navarro: "These margins give us elbow room for community monitoring. If volunteers crowdsource daily checks, the models should adapt faster than the municipal update cycle."
+
+Dr. Noor: (a small, approving nod) "Exactly. And your mapping data will be the feed. It's a good marriage of science and people."
+
+Sora Watanabe: (murmuring as they kneel to plant) "Data by the hour, not the quarter. Love that for us."
+
+Maya Cruz appears with a chipped enamel mug in both hands, steam rising like a little promise. She gives you a conspiratorial look and sets the mug down by your elbows.
+
+Maya Cruz: "Tea. For the stubborn planner who won't let us build a seawall first thing in the morning."
+
+You accept the mug. The tea tastes of lemon and something stronger — clove? — and for a moment the town and your grief and your work are compressed into a warm, bitter-sweetness that soothes the ache under your sternum.
+
+[Sound: Laughter rising; the scrape of a shovel; a gull's distant cry]
+[Music: The acoustic picks up a gentle harmony, a string entering to underscore the day's steady momentum]
+
+You and Sora Watanabe spend the afternoon like a practiced duet. They rally a team to weave willow bundles for living breakwaters while you lay out a template for cordgrass plantings. At one point they pull you aside to crowdsource the monitoring plan they insist on: a shared spreadsheet accessible on cheap phones, with volunteer shifts and a simple rubric for reporting overwash.
+
+Sora Watanabe: "If everyone has skin in the game — literally, hand-in-mud — they won't let a council slip a bad plan through. We make the project visible and impossible to ignore."
+
+Ari Navarro: "And we make sure the data can't be dismissed as 'anecdote.' People are both the monitors and the validators."
+
+Sora Watanabe: (leaning in, voice quiet) "That's why I wanted you here—because you know how to make people and numbers speak the same language."
+
+You both laugh nervously when your retrofit watch blinks a reminder of an incoming bimonthly tide. The screen shows a modest rise; the reading is a small, empirical punctuation in the day.
+
+Ari Navarro: (smiling, half to hide the tug of old loss) "Nothing dramatic on the meters. For now."
+
+Sora Watanabe: (their dark almond eyes searching yours) "For now. But we keep watching. Together."
+
+[INTERACTION]
+> Choice A: "Ask Dr. Noor about model uncertainties"
+> Choice B: "Accept the moment and sip the tea"
+[Outcome A: "You lean toward Dr. Noor and ask a pointed, technical question about the contagion-map boundaries. They dig into margins, probabilities, and what to watch for. The volunteers overhear and nod—an expert conversation that feels quietly reassuring."]
+[Outcome B: "You choose the small human comfort: cradle the mug, savor the warmth, and watch Sora plant the next bundle. The technical questions wait; for the moment, the present work holds your full attention."]
+[MERGE: Continue]
+
+Dusk comes on in layers. Lanterns are strung between posts, their warm amber light cutting gentle holes through the coastal gray. Shadows gather in the reeds; the boardwalk gleams wet and new. The community carries tools and stories in equal measure — an old fisherman's joke, a youth's earnest question about seed density, the quiet recounting of a flooded basement that became a loft studio.
+
+Volunteer (older man): "You planners always think in years. We think in memory. That's how we decide what to save."
+
+Ari Navarro: (softly) "Then we put memory into our designs. We don't just hold the shoreline—we hold the stories attached to it."
+
+Sora Watanabe threads lantern light into their pendant; reclaimed glass glints an amber echo of the greenhouse behind you. They linger when most people start packing, planting a final tuft of cordgrass with a patient, reverent care.
+
+Sora Watanabe: (when they're close enough that their breath stirs your scarf) "Stay for the tide watch later? I could use another set of eyes. And you… you can tell me if I'm being dramatic about the tide or right to be worried."
+
+You feel the little machinery of your defenses — the checklists, the reflex to distance — press against the warmth of the request. Invitation. A sea of small possibilities.
+
+Ari Navarro: (after a heartbeat) "Yes."
+
+Sora Watanabe's relief is immediate but modest, their smile folding into something softer.
+
+Sora Watanabe: "Good. I like it when you're here."
+
+Ari Navarro: "I like being useful."
+
+Sora Watanabe: (half-teasing, half-earnest) "There are more useful things you can be. Like holding a lantern and making terrible jokes about wet socks."
+
+You both laugh — the sound a small tide that pulls you closer to ordinary things: lantern light, shared tea, the smell of peat drying on your jacket.
+
+[Background:"ch4_453e40_3"]
+[Sound: Night insects starting, low sea humming; a volunteer's muffled song in the distance]
+[Music: The rhythmic acoustic simplifies to a single sustained guitar note—steady, expectant]
+
+You walk the boardwalk as volunteers disperse, your hands still smelling of peat. The town around you breathes steady and tired, a living thing on the edge of decision and repair. You think of the sibling you lost; the children's footprints in the mud; the way Sora's eyes looked at you when they asked you to stay. None of it resolves anything grand, but it knits something new and careful: trust formed in joint labor.
+
+Your watch buzzes a soft, habitual alert — the tide is rising, measurable but not urgent. You tuck your hands into your jacket and feel the town settle around the action you chose today.
+
+[Page-Turn Moment]
+You stand at the railing, lanterns behind you and the dunes ahead. The sea is flat and reflective, not yet the actor of a crisis but the patient stage for what you two — and the people here — are building. You imagine the spreadsheet lighting up with the first real uploads tomorrow, the first data point where a child's careful note beats a model into honest correction. The thought is small and precise and electric.
+
+[Background:"ch4_453e40_4"]
+[Music: Fade Out]
+[NEXT CHAPTER: 5]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 5
+    > Jump Target File: script_ch5_Route_A_Split_ctx_4001e7.txt

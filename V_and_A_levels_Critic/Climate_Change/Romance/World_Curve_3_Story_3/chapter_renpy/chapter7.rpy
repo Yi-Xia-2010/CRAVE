@@ -1,0 +1,242 @@
+label chapter7:
+
+    # [Scene: Marisol Wetland Reserve | Dawn]
+
+    scene bg ch6_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Swelling strings, bright and urgent]
+    # play sound "sfx_placeholder"  # [Sound: Distant gull calls, the soft slap of waves, boots on wet boardwalk]
+    "You step onto the raised observation platform and the world answers: reeds leaning like a thousand tiny hands bracing, roots dug like anchors in the churn. Mud beads between the slats of the boardwalk under your"
+    "boots; the air is heavy with the clean, metallic tang of salt and the warm, loamy scent of upturned earth. The storm has left its ledger here—driftwood tally marks, a flung tarp, a bird's nest clinging"
+    "to a reed—but beneath the chaos the marsh is doing exactly what you designed it to do."
+    "You walk the edge of the tidal creek and watch a thin line of stormwater slither back toward the bay. The restoration mats you championed are stuffed with new cordgrass; their woven roots hold, knotting the"
+    "mud into places that once would have washed away. Water that would have thundered unbidden past the seawall is caught and slowed, braided into channels where small fish dart and snipe probe for breakfast. Your throat"
+    "tightens—not in alarm this time, but in something like relief passing slowly into pride."
+    "Ava would have called this a success metric in neat percentages. Lupe will call it payroll and receipts. For you, it's an anatomy of hope: the marsh flexing, not breaking, and the town breathing with it."
+    # play sound "sfx_placeholder"  # [Sound: A far cheer—someone on the harbor has opened the boathouse door]
+
+    scene bg ch6_601bcb_2 at full_bg
+    "You lower your hand to the battered brass compass at your collar. It feels warm from your skin. The braid on your notebook, knotted years ago, brushes against your palm, a relic that used to belong"
+    "only to you and the memory of a flood. Today it is a shared thing: a map, a ledger, a promise."
+    # [Scene: The Harbor and Boardwalk | Morning]
+
+    scene bg ch6_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, propulsive—heartbeat rhythm, celebratory brass threads]
+    # play sound "sfx_placeholder"  # [Sound: Hammering, laughter, a child's shout, water sloshing against pilings]
+    show lupe_kade at left:
+        zoom 0.7
+
+    lupe_kade "We got the first transfer through the cooperative account. State cleared the procurement, I reconciled the line items, and—Maia, we hired three more workers from Jonah's cooperative. Payroll's set for the next four weeks."
+    show maia_rivera at right:
+        zoom 0.7
+
+    maia_rivera "You did all that?"
+
+    lupe_kade "You called the meeting and threw a mean elbow for community oversight. I'm just the one who reads the fine print and wakes up at six."
+    "Her efficiency feels like a hand on your shoulder. The money moving under community control is a literal warm current now, not just a promise on paper. You let that warmth press against the ache that used to say you had to do everything alone."
+    show jonah_kade at center:
+        zoom 0.7
+
+    jonah_kade "You see it? The mats—look how they held."
+
+    maia_rivera "I—"
+    "you reach for a map you carry, smudged with coffee and notation, and spread it on a barrel"
+
+    maia_rivera "—I marked where the channels stayed. The fish passages we argued for—Lupe logged the sensors—"
+
+    jonah_kade "You did that. You made them listen."
+    "Maia Rivera (you want to say you were only one voice; instead you let the town's work stand) 'We did that. We pushed. It took all of us.'"
+
+    jonah_kade "You always make the tide maps look like a promise."
+
+    maia_rivera "You did that."
+    "Jonah Kade's hand finds yours across the barrel without fanfare—rough, callused, steady. He rubs a salt crust from his hair with the back of his wrist and then, joke-quiet, tucks a strand behind your ear. The contact is small, domestic, electric."
+
+    jonah_kade "You always make the tide maps look like a promise."
+
+    maia_rivera "We did that. We pushed. It took all of us."
+
+    jonah_kade "You always make the tide maps look like a promise."
+
+    menu:
+        "Playfully correct his reading of the map.":
+            "You jab a finger at a tide line and explain, in an exaggerated professor voice, how currents shifted. Jonah grins and tries to copy your hand gestures, making you both laugh until a worker shouts for more matting."
+        "Keep the moment quiet and thumb the corner of the map.":
+            "You fold the map down to the size of your palm and let Jonah's fingers warm yours. Neither of you speaks; the silence says more than maps ever could."
+
+    # --- merge ---
+    "The morning moves into a flurry of motion. Tomas stands at the edge of the reopened boathouse, the door thrown wide to reveal benches scrubbed and tools hung like medals. When the first cooperative boat slides"
+    "back into the water without listing or groaning, a small cry breaks from him—an old, wind-salted sound you've heard in legends."
+    hide lupe_kade
+    show tomas_rivera at left:
+        zoom 0.7
+
+    tomas_rivera "I never thought I'd see it again. My father's bow there—my god."
+
+    maia_rivera "You kept the plans, Tomas. You told me about the ribs and the way the hull sits. We used them."
+    "Tomas presses your clasped hand to his chest, as if checking that the town is still beating. He sobs quietly, then laughs, then steadies."
+
+    tomas_rivera "You all did this. You brought it home."
+    "You hold him because there is nowhere else to put relief and because such moments are not yours alone to catalogue. The town's sorrow and joy mingle in the salty air like tide lines meeting—distinct, then braided."
+    # [Scene: Makeshift Meeting Circle on the Boardwalk | Noon]
+    hide maia_rivera
+    hide jonah_kade
+    hide tomas_rivera
+
+    scene bg ch6_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: High, triumphant strings; snare rolls push forward]
+    show elias_wren at left:
+        zoom 0.7
+
+    elias_wren "Maia.' (he inclines his head) 'The modular units—scaled, community-operated. We adapted the intake designs to minimize bycatch and a bypass channel for migratory species. I pushed for the clause you wanted."
+    show maia_rivera at right:
+        zoom 0.7
+
+    maia_rivera "You did that for us?"
+
+    elias_wren "Yes. It took…pressure. And you were persuasive where I would have used a model. I learned—talking to Lupe, to Jonah—how these local practices matter."
+    "You: The internal list of compromises tightens and loosens all at once. Elias's offering is not a surrender; it's a transformed hand extended, the corporate edge dulled by real listening. You feel the gravity of that moment: a figure used to top-down solutions bending into cooperation."
+
+    maia_rivera "I will read the specs with Ava. We will test intake velocities and ensure fish passages meet the thresholds. If it harms the runs, it doesn't go in."
+
+    elias_wren "Fair. And I'll authorize additional community seats in the oversight committee. Not tokens—real voting power. Your team will lead the pilot."
+    "The exchange is long—negotiation braided with apology and earnestness. You press, you parse, you hold to the things that cannot be ceded. Elias answers with more patience than you expected, his steel-gray gaze softening when Tomas"
+    "calls out a memory. You both place the town's needs above the clean triumph of unilateral execution."
+
+    elias_wren "I want this to work—really work. If it means losing some elegance for resilience, then that's the route we take."
+
+    maia_rivera "Then prove it to us—not with a press release, but with data and with labor hired from here. Let Lupe run the books."
+    "Elias Wren: (nods) 'And I'll authorize additional community seats in the oversight committee. Not tokens—real voting power. Your team will lead the pilot.'"
+
+    menu:
+        "Ask Elias for immediate community training on the pumps.":
+            "You put your hand on the folio and insist on a training schedule. Elias, surprised, agrees and scribbles dates. Lupe beams, already imagining job descriptions."
+        "Request a phased pilot with independent monitoring by Ava.":
+            "You propose a phased pilot with independent sensors and Ava's oversight. Elias agrees to the monitoring—reluctant, then resolute—and offers dedicated funds for the instrumentation."
+
+    # --- merge ---
+    "The harbor hums like a living engine. Children run between legs, pulling wet rope; someone sets up a barbecue on a dock; a radio crackles local news, and the chorus of voices—those who protested, those who argued, those who pleaded—have turned to planning and to repair."
+    # [Scene: Reopening Ceremony at the Boathouse Dock | Late Afternoon]
+    hide elias_wren
+    hide maia_rivera
+
+    scene bg ch6_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: Choir-like swell; timpani underlines collective heartbeat]
+    # play sound "sfx_placeholder"  # [Sound: Applause, a folding table sliding, Tomas clearing his throat]
+    show mayor_rosa_santiago at left:
+        zoom 0.7
+
+    mayor_rosa_santiago "What we decided here is a model. State resources, yes—but community control. Labor from the co-op, oversight at the table. Marisol speaks for Marisol."
+    show maia_rivera at right:
+        zoom 0.7
+
+    maia_rivera "We will keep watching. We'll learn faster than the tides change."
+    "Jonah Kade [steady, grounding]: (squeezes your hand)"
+    "After the ribbon is cut—an old line of braided rope—the first boat moves out. The sound of the hull sliding into water is like a long exhale."
+    "Tomas steps forward, steadier now, and addresses the crowd in a voice that remembers the sea and the people who love it. He speaks of storms and of hands that rebuild; each word is met with a sound that is not merely cheering but recognition."
+    show tomas_rivera at center:
+        zoom 0.7
+
+    tomas_rivera "We did not save the past by letting it sleep. We saved tomorrow by building it together."
+    "The crowd breaks. People hug; coins clink in an open hat; Lupe checks the roster and smiles like someone awaiting the next season's harvest. Elias Wren stands to the side, watching the communal choreography he once"
+    "tried to plan from afar. His eyes meet yours—there is a small, sincere softness there."
+    "Later, as the sun drops, you and Jonah walk the new stretch of raised boardwalk. The sunset is molten orange against slate—every color you ever carried in your head reduced to its purest job: to make"
+    "the moment incandescent. The world seems to tighten, then expand—very high energy, charged with triumph and the last small, dangerous thing: possibility."
+    hide mayor_rosa_santiago
+    show jonah_kade at left:
+        zoom 0.7
+
+    jonah_kade "You looked like you were about to cry when Tomas opened that door."
+
+    maia_rivera "Maybe I was. I—' (you swallow, the sentence a tide) '—I kept thinking about that night when the boathouse floated away. I thought if I made the right plan, if I—"
+
+    jonah_kade "You did make the right plan. You didn't have to do it by yourself."
+
+    maia_rivera "I know.' (and for the first time in a long time, the knowledge comes with relief, not obligations) 'I learned to let go of the idea that I had to be the only one carrying it."
+
+    jonah_kade "Good. 'Cause we like you better when you share maps and cookies."
+
+    maia_rivera "We do cookies now?"
+
+    jonah_kade "We do. And storms don't scare us as much when we cook together afterward."
+
+    menu:
+        "Lean into Jonah and kiss him softly.":
+            "You let the boardwalk sway and close the distance. The kiss is small and honest; salt and sunset. Jonah's hands cup your face, and someone on the dock cheers playfully in the distance."
+        "Rest your forehead against his shoulder and stay wordless.":
+            "You rest your head on Jonah's shoulder and listen to the harbor breathe. The silence is full—no words necessary—and your chest lightens as if a net were lifted."
+
+    # --- merge ---
+    "The sky blushes into an indigo bruise. The cool wind smells like rosemary and the smoke from someone's grill. You touch the Moleskine at your hip, feeling its braid like a tether to both past and"
+    "present. You slide it open and lay the tide maps on the boardwalk between you; Jonah traces a finger along a line you drew in pen, not a critic now but a conspirator."
+    hide maia_rivera
+    show elias_wren at right:
+        zoom 0.7
+
+    elias_wren "The pumps will arrive in modules. Full training for the community operators. Lupe runs procurement. Maia, Jonah—I mean, the pilot will have a community review at ninety days. If the runs fail, we pull them and reassess. No single point of failure."
+    hide tomas_rivera
+    show maia_rivera at center:
+        zoom 0.7
+
+    maia_rivera "Agreed. We will hold you to that. And if it doesn't meet the thresholds, we will stop."
+
+    elias_wren "Understood."
+    "His words are decisive and, in their decisiveness, comforting. He has not become small; he has become different—less sure of being right, more willing to be useful."
+    "The town's work of repair stretches into the night—lamps on boathouses, nets being mended, someone's radio playing a song you don't know that everyone seems to like. Firelight flickers off faces, making them countable, human, unslicked by press pictures."
+    "You stand on the newly raised boardwalk, Jonah's arm around you, Tomas nearby, Lupe chattering about scheduling, Elias at a respectful distance. The sky is a bowl above you, stars starting to stitch themselves in."
+    "Your guilt—once a weight you carried like an extra coat—has thinned. It is still there, a craft memory of the nights you stayed up correcting tide models, but it no longer anchors you to isolation. You"
+    "learned to accept help: to let Lupe handle money, to let Jonah hold your hand, to let Elias be a partner rather than an adversary. Delegating doesn't mean failing; it means trusting the town enough to"
+    "let it be itself."
+    "You breathe in the sea-scented night and feel something open, like a gate swung by many hands."
+    hide jonah_kade
+    hide elias_wren
+    hide maia_rivera
+
+    scene bg ch6_601bcb_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, soaring violin line resolves into a warm chord]
+    "You close the Moleskine, and this time the knot at the spine is not a seam of worry—it is a binding of the work you've shared. You lay the book on the railing and rest your forehead against Jonah's shoulder. The crowd's muffled joy circulates around you like warm wind."
+    "Tomas laughs and then says, with the plain authority of an old fisherman, 'Tomorrow we'll take the kids out on the calm side—teach them how to read a tide without a screen.'"
+    show maia_rivera at left:
+        zoom 0.7
+
+    maia_rivera "Teach me too."
+    show jonah_kade at right:
+        zoom 0.7
+
+    jonah_kade "Always."
+    "Electric and gentle, the evening is at once a sigh and a shout. The town has kept its voice; you have kept your center. The co-managed clause sits on paper and in practice; Lupe holds the"
+    "keys to an account full of possibility; Jonah's hand has found your braid on the Moleskine and does not let go."
+    hide maia_rivera
+    hide jonah_kade
+
+    scene bg ch6_601bcb_7 at full_bg
+    # play music "music_placeholder"  # [Music: Full orchestra swells into a bright, conclusive chord then settles into a gentle hum]
+    # play sound "sfx_placeholder"  # [Sound: Night waves, distant laughter, a faint church bell marking the hour]
+    "You stand there until the last light slips under the horizon. In that wide, darkening space you feel—unequivocally—that a future is possible. Not perfect. Not safe from storms. But held: by roots, by agreements, by hands that answer yes when the town calls."
+    # [Scene: Epilogue — Rooftop Garden of Maia's Childhood House | Night]
+
+    scene bg ch6_601bcb_8 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet harp; intimate and resolved]
+    "Later, on the rooftop where you once rehearsed rescue plans alone, you and Jonah sit with mugs of something too sweet and too warm for sea air. The house below sleeps, the town murmurs, and your Moleskine rests between you, the braid catching moonlight like a small flag."
+    "Maia Rivera: (you trace the edge of a tide line with your fingertip) 'We did it—together.'"
+    show jonah_kade at left:
+        zoom 0.7
+
+    jonah_kade "We did.' (he squeezes your hand) 'And we'll do it again."
+    "You close your eyes for a second and let the exhaustion and the exhilaration collide into a kind of clarity. Your guilt is softer now; your shoulders lower. Standing on the newly raised boardwalk at sunset"
+    "you felt a future taking hold. Now, in the hush of rooftop rosemary, you let the future breathe in."
+    "Tomas's laughter from below carries upward, a sound that is somehow more sustaining than any grant formality. You lean into Jonah. He smells of salt and tar and the thing that docks people home."
+    "Elias Wren's words—that the company would adapt, that oversight would be real—ring like a promise kept. Lupe's meticulous numbers hum in the background of your mind: community jobs, quarterly audits, sensors that will tell the story"
+    "of what comes next. These are the practical poems of resilience: not headlines but ledgers and handshakes and sleeves rolled up."
+    "Your heart, which has spent so long measuring risk, beats instead in measures of shared labor and small, awkward intimacies. Romance, here, is not a climax of fireworks; it is an accumulation: evenings on the harbor,"
+    "a hand on a map, a quiet repair, a cup of too-sweet tea on a rooftop."
+    "You stand, drawing the last of the night across the bay, and feel the town's future warm in your hands like a net full of small, shining fish—alive, heavy, and worth the work."
+    # play music "music_placeholder"  # [Music: A final, bright chord; the sound of waves like applause]
+    hide jonah_kade
+
+    scene bg ch6_601bcb_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch6_601bcb_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,126 @@
+{
+    "design_logic": "I fuse Climate Change (the external, systemic crisis) with Romance (an intimate, character-driven stake) to create tension between public duty and private desire. The core conflict: saving a vulnerable coastal town requires hard choices that force the protagonist to choose between protecting community infrastructure and preserving a fledgling relationship — or to find an improvisational third way. The narrative emphasizes moral ambiguity, local politics, and the tactile reality of climate adaptation, letting romance grow amid planning meetings, storm warnings, and shared labor on the shoreline.",
+    "setting": "A small coastal town on a temperate shore in the near-future (2030s) where rising seas and stronger seasonal storms have already reshaped daily life. The town mixes weathered wooden architecture and new eco-engineering interventions (living seawalls, tidal gardens). Atmosphere: briny, windswept, melancholic but alive with community urgency.",
+    "visual_style": "Soft anime watercolor, realistic textures, eco-futurist accents, muted pastels with salt-bleached highlights, warm dusk lighting, cinematic rain sequences",
+    "main_characters": [
+        {
+            "name": "Maya Ortega",
+            "role": "Protagonist",
+            "personality": "Practical, empathetic, stubbornly optimistic with a scientist's skepticism. Leads with care for neighbors, but internalizes grief and responsibility. Quick to improvise and stubborn about community-led solutions.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length curls with natural salt-streaked lighter tips, often tied back with a navy bandana",
+                "eyes": "Sea-green, warm almond shape, freckled crescent at the left iris",
+                "clothing": "Worn olive field jacket with a waterproof lining, faded denim overalls or cargo trousers, layered thermals in muted teal, sturdy rubber boots often splattered with mud and salt",
+                "accessories": "Canvas messenger bag with stitched civic badges, a weathered satellite phone, silver compass pendant engraved with her childhood harbor coordinates, a frayed notebook full of sketches and tide charts"
+            },
+            "goal": "Design and implement community-centered adaptation measures that protect livelihoods while preserving the town's character.",
+            "background_story": "Grew up here; family home partially lost in a major flood when she was a teen. Trained as an environmental engineer elsewhere, she returned to apply low-tech, humane solutions rather than large corporate projects. Her return rekindles old ties and unresolved grief over loss.",
+            "emotional_trait": "Fierce protectiveness that becomes isolation — struggles to ask for help and prioritize personal needs."
+        },
+        {
+            "name": "Elias Voss",
+            "role": "Love Interest",
+            "personality": "Warm, charming, quietly pragmatic and creative. Balances entrepreneurial instinct with a genuine love for the town. Tends to second-guess high-risk ideals in favor of incremental, economically viable solutions.",
+            "appearance_features": {
+                "hair": "Sandy blond, naturally tousled with sun-bleached tips; a single thin braid at the nape tied with blue thread",
+                "eyes": "Steel-blue, rounded and reflective, often crinkling at the corners when he smiles",
+                "clothing": "Soft linen shirts in light earth tones, a sea-stained leather vest/jacket, patched chinos, rolled sleeves, functional boat shoes",
+                "accessories": "A brass pocket watch with an engraving from his grandfather, a small leather-bound sketchbook filled with renovation plans and seaside sketches, a looped cord bracelet of recycled fishing line"
+            },
+            "goal": "Revitalize the local economy with sustainable, community-minded businesses while keeping people employed and afloat financially.",
+            "background_story": "Left for university, worked on coastal policy and small-scale restoration projects, then returned when family finances and the town's decline converged. He hopes to bridge funding needs with ethical development but fears being seen as selling out.",
+            "emotional_trait": "Cautious optimism — deeply hopeful but afraid of failing those who depend on him."
+        },
+        {
+            "name": "Councilwoman Tamsin Hale",
+            "role": "Antagonist",
+            "personality": "Confident, strategically minded, persuasive and terse. She believes top-down modernization is the only practical path, and she is willing to prioritize efficient large-scale engineering over slower community processes.",
+            "appearance_features": {
+                "hair": "Silver-brown blunt bob, meticulously styled, always immaculate even in wind and rain",
+                "eyes": "Amber, sharp and assessing, slightly hooded",
+                "clothing": "Tailored dark slate blazer with a high collar, smart waterproof trousers and polished ankle boots, occasionally a silk scarf in civic colors",
+                "accessories": "Thin gold-rimmed glasses, a digital slate/tablet always at hand, a minimalist lapel pin representing the regional development authority, a discreet communicator earpiece"
+            },
+            "goal": "Secure a comprehensive funded seawall and redevelopment contract that will modernize the town's infrastructure and attract investors.",
+            "background_story": "A former civil engineer who rose through regional politics; she genuinely believes in systemic, engineered solutions based on data and scale. Her approach marginalizes grassroots voices and she sometimes rationalizes hard choices as necessary for the greater good.",
+            "emotional_trait": "Pragmatic ruthlessness with an undercurrent of guilt about the social costs of 'efficient' solutions."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Delgado",
+            "relation_to_main": "Childhood friend of Maya; local fisherwoman and community organizer",
+            "appearance_summary": "Broad-shouldered, deeply tanned skin, tightly braided black hair with sea-shell charms, practical flannel shirts and rubber waders",
+            "function_in_story": "Represents working-class stakes; mobilizes neighbors for collective action and grounds debates in lived experience."
+        },
+        {
+            "name": "Dr. Henrik Sato",
+            "relation_to_main": "Former mentor to Maya; retired oceanographer",
+            "appearance_summary": "Lean, wiry, white hair in a messy bun, always wearing a faded lab pullover and round spectacles",
+            "function_in_story": "Provides scientific context, historical memory, and quiet counsel; occasionally challenges Maya with ethical dilemmas."
+        },
+        {
+            "name": "Luca Ortega",
+            "relation_to_main": "Younger sibling of Maya",
+            "appearance_summary": "Short-cropped hair, energetic, practical workwear, often carrying tools and community flyers",
+            "function_in_story": "Emotional tether to family stakes; represents the next generation's future and practical consequences of decisions."
+        },
+        {
+            "name": "Mira Chen",
+            "relation_to_main": "Representative from a regional development firm; ally to Tamsin",
+            "appearance_summary": "Sleek black bob, minimalist corporate attire with high-tech fabric, chrome-accented tablet always visible",
+            "function_in_story": "Offers lucrative funding and rapid-build proposals that tempt town leadership, catalyzing conflict over values and control."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Harbor & Living Sea Wall",
+            "visual_description": "A low, curving seawall woven with planted marshes and anchored reeds; soft gray stone streaked with green algae. Morning light slants through mist, giving everything a pearl sheen; gulls wheel overhead. Wet wood docks creak, puddles reflect sky, and distant shipping containers are rusted and moss-streaked."
+        },
+        {
+            "name": "Maya's Field Lab & Greenhouse",
+            "visual_description": "A repurposed boathouse with glass panels patched from salvaged panes; interior is humid with condensation, hanging seed trays and tide-monitor screens casting cool cyan glows. Warm, filtered daylight through salt-smudged glass gives plants a gold-green tint; workbenches strewn with maps, coral samples, and weather logs."
+        },
+        {
+            "name": "Old Boardwalk and Abandoned Resort",
+            "visual_description": "Sun-bleached planks and fractured tourist facades sag against wind; paper signs flap in gusts. Evening storms throw dark clouds low, neon hotel signs buzz faintly and reflect in slick puddles. The place feels haunted but poetic — a visual history of the town's past prosperity."
+        },
+        {
+            "name": "Municipal Hall / Council Chambers",
+            "visual_description": "A brick neo-classical building with modern glass annexes. Inside, warm lamplight contrasts with the cool blue of projection screens; long wooden table, microphones, and maps pinned to corkboards. Rain streaks down the high windows during tense meetings, adding a tactile urgency to dialogue scenes."
+        },
+        {
+            "name": "Rooftop Community Garden & Tidal Observatory",
+            "visual_description": "A patched rooftop of planters, solar panels, and wind-catchers overlooking the sea. Golden hour bathes raised beds in warm light; the wind stirs the leaves and a faint salt-scent perfumes the air. The observatory's instruments whir quietly under a pastel sky, making it a private refuge for intimate conversations."
+        },
+        {
+            "name": "Incoming Stormfront (Key Setpiece)",
+            "visual_description": "Low, churning clouds bruise the horizon; a cold green light precedes towering waves. Flashing lightning silhouettes the town's skyline. Streetlights shimmer in sheets of rain; the scene is high-contrast, kinetic, with dramatic reflections and saturated color shifts to emphasize danger and urgency."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethics of Progress"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Maya and Elias forge a cooperative plan combining community-built living defenses and sustainable businesses. Tamsin concedes to a hybrid approach after public pressure; the town secures mixed funding. Love deepens; the community adapts with dignity and shared stewardship."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A severe storm destroys part of the boardwalk and forces the town to accept a rapid-build seawall funded by external developers. The structure saves many but alters the town's character. Maya and Elias separate temporarily as Elias stays to run the new businesses while Maya continues grassroots work elsewhere — they part with hope but not certainty."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political compromise fails; a delayed, top-down project is underfunded and breaches in a catastrophic storm. The town suffers heavy losses including a beloved community space. Romance frays — Maya and Elias are estranged, and the community faces long-term displacement."
+        },
+        {
+            "type": "True",
+            "summary": "No tidy victory: Maya learns to share leadership and asks for help, Elias learns to take principled risks, and Tamsin faces accountability. The town survives but with scars; relationships are reshaped rather than resolved. The ending emphasizes moral complexity and continued work — a realistic, hopeful persistence rather than closure."
+        }
+    ],
+    "estimated_chapters": 6
+}

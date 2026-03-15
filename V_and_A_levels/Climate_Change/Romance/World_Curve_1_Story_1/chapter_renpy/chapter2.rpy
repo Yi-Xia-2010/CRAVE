@@ -1,0 +1,154 @@
+label chapter2:
+
+    # [Scene: Community Shelter & Town Hall | Early Evening]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur, spoons clinking in paper cups, the distant hiss of rain on eaves]
+    # play music "music_placeholder"  # [Music: Sparse piano motif, patient and slightly taut]
+    "You step inside carrying your dented thermos and the field notebook that never leaves your side. The air is thick with coffee and salt-sweet damp—the odor of people who have stayed through too many storms and"
+    "still come back to argue, to plan, to hold one another up. Your sleeves are rolled; your hands know the outline of every page where Rowan's charts have been folded and annotated. For a moment you"
+    "feel the weight of last night’s resolve like a small stone against your sternum, steady and necessary."
+    "Rowan Hale stands a little to your left, coat flecked with mud, the slow, deliberate nod that has always meant he’s following the argument in his head. Behind you, the projector hums and casts layered tidal"
+    "lines across the wall: faint curves of past high-water marks, a quilt of probable futures. The room leans forward as if gravity itself is listening."
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "Thank you for coming. I know it's wet and late and we've all had enough of meetings that don't change anything."
+    "You let the honesty hang for a beat. It lands—soft, and then it sharpens conversations into focus."
+    "Amaya paces near the back, purple hair pulled into a knot that bobs as she speaks. Her hands paint metaphors in the air like small torches."
+    show amaya_chen at right:
+        zoom 0.7
+
+    amaya_chen "Think of the marsh as the first floor of our neighborhood. If the first floor is gone, everything else collapses into debt and displacement. We're not just fighting water—we're fighting being erased."
+    "A woman near the front breathes out; someone taps a plastic chair with a knuckle in agreement. The projector slides to a new frame: Rowan's reconstruction of the marsh over fifty years, the color bands narrowing where land used to be."
+    show professor_rowan_hale at center:
+        zoom 0.7
+
+    professor_rowan_hale "These are histories stitched to the coastline. They explain what happened and why certain interventions accelerate loss instead of preventing it."
+    "You click the thermos lid off and snap it back on—a small nervous ritual—and then point at the overlapping bands."
+
+    maya_reyes "These aren't abstractions. They are our boats, our gardens, our rent. If the marsh recedes another meter, it's not just habitat—it's livelihoods."
+    "Lito leans forward from his seat, sleeves rolled, hands scarred and honest from nets and repairs. When he speaks, there's no rhetoric—only blunt truth."
+    hide maya_reyes
+    show lito_reyes at left:
+        zoom 0.7
+
+    lito_reyes "If the marsh goes, the boats and our rent go with it. You think those suits will move in and fix the problem for us? They'll fix it for their ledgers, Lila. For the investors. Not for my neighbors."
+    "Murmurs—some angry, some scared—move through the room like a breeze whipping under a tarp. You meet Mayor Sofía Álvarez's gaze; she looks open but frayed, the sort of fatigue that comes from carrying other people's impossible trade-offs."
+    hide amaya_chen
+    show mayor_sofa_lvarez at right:
+        zoom 0.7
+
+    mayor_sofa_lvarez "I'm here to listen. I can take recommendations to the council, but I need specifics—costs, timelines, commitments. The city can't promise everything at once."
+    "Her honesty is a map of constraints; you can see where policy must land and where it will slide off the edges."
+    "From the doorway, someone steps in—ash-blond hair damp from the drizzle outside, a drafting pen visible in a pocket, slate-blue eyes scanning the room and then resting on you with a steady, appraising look. Elias Stone."
+    "He carries a quiet you can't quite read; there's history in the way he measures a room but not the kind you can name aloud."
+    hide professor_rowan_hale
+    hide lito_reyes
+    hide mayor_sofa_lvarez
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The doorway sighs as it closes; the room's breath tightens]
+    show elias_stone at left:
+        zoom 0.7
+
+    elias_stone "Modular living-shore prototypes. Build them in phases with community crews, financed incrementally—let the work create protective structure and local jobs. We can pilot three bays this season and scale based on performance."
+
+    "A ripple of hope moves through the room—audible, small, skeptical. People start to mutter possibilities" "jobs,' 'training,' 'less displacement."
+    "Camille Duval stands near the projection’s edge, suit immaculate, a presentation tablet reflecting the room. Her voice is clinical but practiced, every sentence a promise in corporate grammar."
+    show camille_duval at right:
+        zoom 0.7
+
+    camille_duval "Our reclamation initiative guarantees immediate structural stabilization of property lines. We have funding, engineering certainty, and timelines that meet insurance threshold requirements. This isn't about sentiment—it's about preventing future losses."
+    "Her words have a sheen. They feel like a blanket stitched from bright, durable fabric—comforting in the short term, smoothing over texture and attachment."
+    "You feel the old reflex rise—push harder, refuse the compromise that shrinks the marsh into a footnote. You taste anger like salt on your tongue. But Elias Stone's eyes, calm and deliberate, hold yours for a"
+    "second long enough to complicate that reflex. He once worked for people like Camille, you know that much; you will not pretend the knowledge sits cleanly in your chest."
+
+    menu:
+        "Start with the science—lay out every error in Camille's plan":
+            "You gesture to the projection, calling out engineering blindspots with the precision of someone who has spent years in the mud. Rowan's nods are slow and approving, but you feel the room stiffen—your words land as accusation and rallying cry at once."
+        "Open with the stories—highlight names, boats, and the marsh's memory":
+            "You begin with people: neighbors, a lost dock, the smell of wet cedar after a storm. Amaya's eyes shine; hands reach for one another. The room softens into a circle, and practical questions return like small knocks at the edge of the firelight."
+
+    # --- merge ---
+    "Whatever you choose, the meeting stretches into a conversation that isn't tidy. Camille answers with timelines and simulations. You counter with instances of failed 'solutions' elsewhere—sealed shorelines that starved adjacent wetlands and raised waves downcurrent. The exchange becomes less about data and more about values."
+
+    camille_duval "You keep using the word 'home' as if it's not also an economic unit. We can secure mortgages, protect businesses. Your approach is noble, but it won't hold under a Category Four."
+    show maya_reyes at center:
+        zoom 0.7
+
+    maya_reyes "Noble isn't enough when someone's mortgage is underwater, Camille. We need durable security that respects ecology and people."
+
+    camille_duval "We can do both. But not on the timelines you've set."
+    "Elias Stone steps into the opening and lays down sketches from his satchel—quick, functional renderings of living-shore segments that can be assembled with crews of locals. He explains phased financing that draws on small grants, crowd-funded labor credits, and conditional city loan guarantees."
+
+    elias_stone "We don't have to accept a binary. We can pilot living-shore modules and use performance data to attract more funding. It isn't immediate like a seawall, but it scales and keeps control local."
+    "There is, in his suggestion, the kernel of a bridge. People murmur. Lito narrows his eyes."
+    hide elias_stone
+    show lito_reyes at left:
+        zoom 0.7
+
+    lito_reyes "Perform how? You mean wait for proof we might not get in time to keep our boats? We need something that stands now."
+    hide camille_duval
+    show elias_stone at right:
+        zoom 0.7
+
+    elias_stone "No—I'm proposing a hybrid approach. Immediate smaller protections, built by us, and then scale as we demonstrate effectiveness. It isn't a promise, but a pathway that keeps ownership in the neighborhood."
+    "Your chest tightens. The word 'hybrid' sits like a hinge—can it swing open without pinching what matters? You want to demand proof, contract stipulations, guarantees. You also want to believe someone who is offering work to your neighbors and not contractors who won't be back after the ribbon-cutting."
+    "Amaya moves through the crowd, translating the technicalities into human terms again, coaxing the group from doubt toward small actionable questions. Her metaphors land like candles: small lights in an otherwise dim place."
+    hide maya_reyes
+    show amaya_chen at center:
+        zoom 0.7
+
+    amaya_chen "We can pilot, we can collect data, and we can build community leadership into the project—training, stipends, shared decision-making. We ask the city to backstop with conditional funding tied to performance metrics we help define."
+    hide lito_reyes
+    show mayor_sofa_lvarez at left:
+        zoom 0.7
+
+    mayor_sofa_lvarez "If we craft the right conditions—performance metrics, community oversight, incremental disbursements—council might consider a pilot. It's not a yes, but it's something tangible to present."
+    "The room exhales, not relieved but shifted. The tide in you has crested—hope folding back into caution. Camille Duval watches with that precise expression of someone cataloging assets and liabilities; she doesn't look outward toward the marsh so much as at the map of what will gain from her plan."
+    hide elias_stone
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "I can see the coastline in terms of people and loss and also in numbers, but numbers don't keep someone’s memories. They don't hold a dock together."
+    "You realize your instinct—to push for an uncompromising preservation of the marsh—is noble, but alone it may not be the strategy that keeps people's roofs over their heads tonight. Elias Stone's proposal reframes the fight as"
+    "malleable: not capitulation, but a staged tactic. But every staged tactic is a bet, and every bet risks the thing you swore to protect."
+
+    menu:
+        "Challenge Elias publicly—demand a binding timeline and accountability":
+            "Your voice sharpens; you press him for legal language, for oversight boards and retractable clauses. Elias' jaw tightens; he answers with pragmatic caveats that reveal both his competence and his limits."
+        "Ask for a private conversation later—hold the option but avoid public confrontation":
+            "You keep your question gentle, reserving the sharper edges for a one-on-one. Elias nods, unreadable for a heartbeat, then says he'll stay until the end to speak with you."
+
+    # --- merge ---
+    "The meeting unwinds into a tangle of small committees, volunteers signing up for reconnaissance and measurement teams, and heated sidebar arguments. Camille schedules a public forum with her engineers; Amaya sets up a volunteer roster. Rowan"
+    "offers to compile the data into a format council can use. Lito and several fishermen talk in heated tones about immediate reinforcement of the docks."
+    "When the last chair is folded and the projector clicks off, the air feels colder—partly from the night outside, partly from the realization that talk has to give way to decisions. You fold your maps back into your notebook. Each page is a plan and a plea."
+    "Elias Stone falls into step with you as you pass through the foyer, rain ticking on the roof above. For a moment his profile is unreadable in the dim light: someone who knows both the language"
+    "of corporate boards and the language of timber and tide. You wonder if trust is something you can extend to someone with a foot in both worlds."
+    hide amaya_chen
+    show elias_stone at center:
+        zoom 0.7
+
+    elias_stone "If you want, we can draw up pilot specifics and meet with the mayor together. Community oversight clauses. Performance thresholds. If it helps, I can make introductions for conditional financing that require community sign-off."
+
+    maya_reyes "His offer is tangible, and it is also a foreign map stamped with his past. I can say no and risk the immediate stability Camille promises, or I can say yes and hope the pilot doesn't become a gradual erosion of control."
+    "The knot of plans in the room feels like a bruise—tender, necessary, and not yet healed. Choices are not yet made; promises hang like low clouds over the marsh. The meeting ends in a latitude of unease: not defeat, not victory, only the slow pressure of what must be decided."
+    hide mayor_sofa_lvarez
+    hide maya_reyes
+    hide elias_stone
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: Piano motif returns, quieter, with a lower register hinting at unresolved tension]
+    "You step out into the salt night, the thermos warm against your palm. The boardwalk light catches on the notebook's worn edges, and for a second you imagine the shoreline as it could be—living resilience or"
+    "a smooth wall of glass. The choice feels enormous and small at once: enormous in consequence, small in that your next acts are the ones that will shape the rest."
+    "There is no final answer tonight—only the braided threads of strategy, hope, fear, and trust. You fold your coat tighter against the drizzle and let the thought settle like a stone: the shore will be defined by the choices made in rooms like this one."
+
+    scene bg ch2_c4ca42_4 at full_bg
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

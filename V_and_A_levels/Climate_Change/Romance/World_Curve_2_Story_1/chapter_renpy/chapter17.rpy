@@ -1,0 +1,226 @@
+label chapter17:
+
+    # [Scene: Rooftop Greenhouse | Dawn]
+
+    scene bg ch14_6b08b4_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gull cry; muted hum of a nearby micro-turbine]
+    # play music "music_placeholder"  # [Music: Low, urgent cello pattern; tempo quickens underneath]
+    "You are perched on the edge of the rooftop greenhouse, legs folded against your chest, the coral scarf tightened at your throat like a bandage. The air is warm and humid from the plants, but outside"
+    "the glass the world smells of salt and diesel—two futures braided together. You can feel the choice you made still hot in your chest: slow settlements, quiet corridors with councilors who say 'we'll protect you' in"
+    "soft tones while maps are redrawn in back rooms."
+    "There is no exultation in the decision—only a raw, bright ache. You chose to bargain for time, not to burn everything down to keep principle intact. You chose to trade purity for shelter. The greenhouse smells"
+    "like basil and wet soil; the taste in your mouth is copper, like an old key."
+
+    scene bg ch14_6b08b4_2 at full_bg
+    # play music "music_placeholder"  # [Music: Cello tightens, a high violin thread slicing through]
+
+    "Elias Park (Love Interest)" "You should have slept."
+    "You let out a laugh that has no humor in it."
+
+    "Mira Santos (Protagonist)" "Sleep is for when the town isn't being parceled into glossy renderings."
+    "He leans on the frame, watching you. For a moment his face is unreadable—soft in the way that means he is composing his response—and then he says what he always does when the world has gone loud: small, precise."
+
+    "Elias Park (Love Interest)" "We did what we could. We got covenants. We preserved streets. Jun got the school annexed into the protected zone. Aunt Lila's block—"
+    "You cut him off because the list is a ledger of losses as much as wins."
+
+    "Mira Santos (Protagonist)" "—and half of East Wharf becomes a managed zone. Corporate oversight. Eviction clauses written in three-line paragraphs. They kept the parts they like. We kept the parts they can't commodify yet."
+    "Elias Park (Love Interest)'s jaw tightens. He runs a thumb over the prototype turbine pendant at his throat, worry like a pulse."
+
+    "Elias Park (Love Interest)" "The protections matter, Mira. I know it isn't the whole thing. I know the language is ugly. But people won't be uprooted tomorrow."
+
+    "Mira Santos (Protagonist)" "Tomorrow it's the slow work—permits, contractors—then in two years the check comes with conditions. We didn't stop the machine; we greased a cog."
+
+    "Elias Park (Love Interest)" "We bought breathing room. That's not nothing."
+    "You want to shout that breathing room smells of salt and rust and is not the same as living without the ledger. Instead you put your palm against the glass where the world is bright and hard and distance-smeared."
+
+    "Mira Santos (Protagonist)" "Aunt Lila asked me if I felt proud. I didn't know how to tell her that pride tastes like compromise."
+    "Elias Park (Love Interest) steps closer, the greenhouse warmth wrapping around both of you. He doesn't say anything for a beat long enough that you can count the second-hand ticking of the rooftop timer."
+
+    "Elias Park [soft] (Love Interest)" "We'll keep doing the work. We'll make sure the protections have teeth. I'll make designs that can't be unbuilt without public record. We'll keep the Saltworks visible, loud. I'll—"
+    "His voice frays. You feel something tighten in your throat—anger, grief, a kind of exhausted pleading."
+
+    "Mira Santos (Protagonist)" "And what about you? What do you do when the repairs you build are folded into management's glossy brochure? When your turbines are on the pamphlets of a corporation that also funds the lawyers who write the clauses?"
+    "Elias Park (Love Interest) looks at you, the playfulness gone, and there is something like a shadowed reserve. He answers without theatricalism."
+
+    "Elias Park (Love Interest)" "I keep building. But I won't hide what I build anymore. If my name ends up in a brochure, it'll be beside the people who helped make it. Not as an afterthought."
+
+    "Mira Santos (Protagonist)" "Promise?"
+    "He meets your eyes. For a heartbeat you believe him. Then the memory of his hesitation in previous meetings—of certain things he let slide for political warmth—rises like a tide. You don't ask him to swear; the town is not a thing of promises. It is a ledger of actions."
+
+    menu:
+        "Trace a plan in the Moleskine":
+            "You pull the notebook from your jacket and begin sketching a redundancy—community oversight nodes, public audit logs—your fingers move before the words come."
+        "Stand and go to council now":
+            "You fold the Moleskine shut with a sharp edge and say, 'Let's go.' Elias nods once, the turbine pendant catching the light. There is no time left for drafts."
+
+    # --- merge ---
+    "Continue to the Municipal Offices scene"
+    # [Scene: Municipal Offices | Midday]
+
+    scene bg ch14_6b08b4_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Muffled murmurs in the atrium; the stamp of shoes on tile]
+    # play music "music_placeholder"  # [Music: Percussive strings; heartbeat rhythm steady and rising]
+    "You arrive at the municipal offices with a stack of revised covenants, witness statements, and a crowd that smells of wet wool, coffee, and determination. Jun threads flyers through fingers; Aunt Lila moves like an anchor—stooped but unbowed, the hand-stitched cardigan a banner."
+    "The councilors receive you in a glass-walled room that looks out over the bay. Outside, renderings are projected onto vinyl boards—slick images of an engineered coastline—clean lines, bright promenades. Inside, counselors fold their hands, polite and fat with the comfort of process."
+
+    "Cassandra "Cass" Whitlock (Antagonist)" "Mira, Elias—thank you for coming. We appreciate your willingness to negotiate."
+    "You can smell the faint coastal smoke on her coat, and beneath it a scent like new paper and cold metal—the smell of contracts."
+
+    "Mira Santos (Protagonist)" "Appreciate isn't what I'd call it. We have proposals for protective covenants. We want enforceable community oversight."
+
+    "Cassandra "Cass" Whitlock [smiling] (Antagonist)" "Enforceable, yes—within reason. We must balance private investment with public stability. You know how markets react to uncertainty."
+    "Jun's voice is higher, edged."
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "Does 'within reason' include language that allows corporations to reapply for management after a certain profit threshold? Does it include clauses that let them rezone by administrative fiat?"
+    "Cassandra 'Cass' Whitlock (Antagonist)'s smile never fully shrugs. Her tone is practiced in empathy."
+
+    "Cassandra "Cass" Whitlock (Antagonist)" "There are standards. There are review boards. We are not interested in displacing people; that would be short-sighted. We are interested in durable infrastructure. You of all people know a seawall is only as functional as its maintenance funding."
+    "Aunt Lila's fingers drum a cadence that could be a prayer. She speaks without flourish."
+    show aunt_lila_santos at right:
+        zoom 0.7
+
+    aunt_lila_santos "Durable? Your idea of durable is that the town fits neatly in your balance sheets. My neighbor's shop doesn't fit into a balance sheet. My memories don't either. How do you propose to put that in the ground?"
+    "Cassandra 'Cass' Whitlock (Antagonist) leans forward, unblinking, with the same measured compassion that has broken many communal shoulders before."
+
+    "Cassandra "Cass" Whitlock (Antagonist)" "We can create a heritage covenant, a cultural reserve. But there will be zones that require professional management to maintain."
+    "You feel the room tilt under the weight of that word—management. The way it crept into proposals like ivy."
+
+    "Mira Santos (Protagonist)" "And what of enforcement? Who watches them when the cameras go dark? Who funds the repair when profit margins shrink?"
+
+    "Cassandra "Cass" Whitlock (Antagonist)" "A hybrid board. Investors commit to endowments that fund maintenance. The town keeps a seat at the table."
+
+    "Mira Santos (Protagonist)" "And the rest of East Wharf—will people still be able to keep their leases? Will Aunt Lila's neighbor be offered fair relocation, fair compensation?"
+    "There is a pause long enough that the fluorescent lights hum louder. Cassandra 'Cass' Whitlock (Antagonist)'s fingers drum a non-answer."
+
+    "Cassandra "Cass" Whitlock (Antagonist)" "We will build safeguards. It won't be perfect, but it will be safer than litigation that erodes community resources over years."
+    "You taste the words like a slow poison: safer than litigation. Safe for some, costly for others."
+    "The room erupts into argument—voices layered, slippery with fear. Jun's passionate cadence. A councilor's calm data recitation. Noah’s blunt intervention from the doorway:"
+    show noah_rivera at center:
+        zoom 0.7
+
+    noah_rivera "If you call it 'management' and 'maintenance' while raising rents, that's displacement by another name."
+
+    "Cassandra "Cass" Whitlock (Antagonist)" "Mr. Rivera, your rhetoric isn't helpful."
+
+    noah_rivera "Call it what it is."
+    "The exchange is a knife. The council board trades concessions like muscle memory—two short-term triumphs for a larger acquiescence. You watch it happen, the slow kiln of compromise where corners get shaved and words are softened until nothing hurts too much at once."
+    # [Scene: Municipal Offices — After the Vote | Late Afternoon]
+    hide jun_park
+    hide aunt_lila_santos
+    hide noah_rivera
+
+    scene bg ch14_6b08b4_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The stamp; a sigh that runs through the room like wind]
+    # play music "music_placeholder"  # [Music: Cello crashes into a sustained dissonant chord; tempo peaks]
+
+    "They call the settlement a victory. The press release is written with the right adjectives" "balanced,' 'durable,' 'community-driven."
+
+    "Elias Park [quiet] (Love Interest)" "This is what we can get today."
+
+    "Mira Santos (Protagonist)" "Today doesn't own tomorrow."
+    "He looks at you, worn, and there is gratitude there; also something else that doesn't coalesce into a single thing—complex, guarded. You remind yourself: people can hold commitment and fear together. You cling to the simple"
+    "knowledge that he is here, that he didn't walk away the moment the deal smelled of compromise."
+
+    menu:
+        "Read the fine print aloud":
+            "You scan the clauses aloud, bitterness sharpening each phrase. Attendees stiffen as the implications land."
+        "Fold the documents slowly and let the room decide the tone":
+            "You close the stack with a soft finality and hand it to the clerk. You let human faces carry the weight of the words."
+
+    # --- merge ---
+    "Continue to the Boardwalk scene"
+    # [Scene: Boardwalk — Evening]
+
+    scene bg ch14_6b08b4_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The creak of the boardwalk beneath your boots; distant laughter that sounds thin]
+    # play music "music_placeholder"  # [Music: Sparse piano notes; a mournful brass undertone rising]
+    "You walk the boardwalk after—the decision's echo following like an undertow. Some neighborhoods will keep their porches; others will be repurposed into managed zones where corporate logos will sit beside hand-painted signs. The difference isn't just"
+    "legal; it's aesthetic, ancestral—those porches hold late-night gossip, a child's scraped knee, recipes for fish stew. You can already see the brochure photographs trying to flatten them into 'authentic experiences.'"
+    "Noah catches up to you, cheeks reddened from the cold, paint flecks on his jacket like confetti."
+    show noah_rivera at left:
+        zoom 0.7
+
+    noah_rivera "You did what you could. You slowed them. You dragged that process into public light."
+
+    "Mira Santos (Protagonist)" "We slowed a process and licensed it."
+    "Noah stares at the managed-zone marker, a thin rope that will become a perimeter."
+
+    noah_rivera "You think Aunt Lila will be okay?"
+
+    "Mira Santos (Protagonist)" "Aunt Lila will breathe. The house is protected under the covenant."
+
+    "Mira Santos (Protagonist)" "Protected how?"
+    "Noah shrugs like he carries the town's uncertain ledger."
+
+    noah_rivera "For now."
+    "Aunt Lila meets you on the boardwalk, cardigan buttoned tight. Her face is a map of lines—every storm, every laugh—etched in salt-creased skin."
+    show aunt_lila_santos at right:
+        zoom 0.7
+
+    aunt_lila_santos "You know I don't regret that you tried to save people. I know what we are up against. But my heart aches. The town won't be the same. It's quieter on the inside."
+
+    "Mira Santos (Protagonist)" "We saved something."
+
+    aunt_lila_santos "Saved bits. You made a choice that lives in my hands like a small ember. It will keep us warm, but it won't be the same light."
+    "Her voice is calm but the words are knives. The town's soul—how do you quantify it? How do you catalog laughter and late-night porch conversations into a covenant? You can only feel the difference: evenings dimmer, spontaneous music replaced by curated events, risk sanitized into permitted art."
+    "Elias Park (Love Interest) arrives beside you; the sea casts them in an indifferent sheen. He doesn't touch you. He doesn't retreat either. He stands like a structure that will hold if leaned on."
+
+    "Elias Park (Love Interest)" "We stay."
+
+    "Mira Santos (Protagonist)" "We stay."
+    "He turns to you then, earnest, and for once his reticence falls into the cadence of the sea."
+
+    "Elias Park (Love Interest)" "I don't want this to be the shape of how we love. I don't want our promise to be footnotes in other people's reports."
+
+    "Mira Santos (Protagonist)" "I don't either."
+    "He swallows. You both watch a managed-zone placard hang like an omen on the rafters of a once-public pier—'Managed Resilience Zone: Private Partner.' The words are antiseptic."
+
+    "Mira Santos (Protagonist)" "Will it be enough?"
+
+    "Elias Park (Love Interest)" "Maybe. Maybe not."
+    "The answer hangs like a buoy—uncertain, bobbing."
+    # play music "music_placeholder"  # [Music: Strings wind into a sharp peak; tempo at its highest; the sounds of the town and the sea converge into one loud pressure]
+    "You feel rage, grief, relief, exhaustion—all braided into one impossible rope. The arousal in your chest is palpable: your heart races, your palms sweat, your breath comes quick. This is the climax; the settlement is done; the town is both saved and sold."
+    "You speak, and the words are brittle with truth."
+
+    "Mira Santos (Protagonist)" "We did this to keep people from being uprooted. We did this so Aunt Lila can sleep in her bed. We did this because otherwise the lawyers would grind us down. But we made a bargain with a system that will shape the story of Marrow Bay from now on."
+
+    "Elias Park (Love Interest)" "We'll keep fighting. From inside these protections we make—"
+
+    "Mira Santos (Protagonist)" "From inside the cage we built."
+    "A seagull cries. The wind slaps the bunting like a whip."
+    "Jun joins you, cheeks flushed, eyes too old for their years."
+    show jun_park at center:
+        zoom 0.7
+
+    jun_park "They'll teach the kids about this. About what it costs to protect and what it costs to lose. They'll learn the language of covenants early."
+
+    "Mira Santos (Protagonist)" "And they'll learn about the holes in them."
+
+    jun_park "They will. They'll be angrier, maybe wiser."
+    "Aunt Lila squeezes your hand. It's not comfort so much as a passing of weight."
+
+    aunt_lila_santos "You carried it. You carried more than you thought you had to. That is not nothing."
+
+    "Mira Santos (Protagonist)" "It feels like everything and nothing all at once."
+    "The tide pulls at the pilings. The dark looms and the town lights blink like sentries."
+    hide noah_rivera
+    hide aunt_lila_santos
+    hide jun_park
+
+    scene bg ch14_6b08b4_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained dissonant chord holds and then begins to resolve downward into a slow, mournful conclusion]
+    "You know this is a finality of a kind. Not absolute, but decisive. The document is stamped. The commitments are inked. The town moves forward under a set of rules that will protect some and expose"
+    "others. The safety you've carved out is real—but it bears a price you walk home with every night."
+    "You look at Elias one last time before you leave the pier. His expression is complex—grief and steady resolve braided together. He reaches, and this time his hand clasps yours without flinch. No dramatic words. No promises beyond the simple human touch."
+    "You lean into him, and the contact is both shelter and reminder that love itself must be negotiated—sometimes for survival, sometimes out of fear."
+
+    scene bg ch14_6b08b4_7 at full_bg
+    # play music "music_placeholder"  # [Music: Faint piano notes linger then fall silent]
+
+    scene bg ch14_6b08b4_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

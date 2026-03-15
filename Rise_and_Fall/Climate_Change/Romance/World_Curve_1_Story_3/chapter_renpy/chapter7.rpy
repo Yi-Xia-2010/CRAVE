@@ -1,0 +1,196 @@
+label chapter7:
+
+    # [Scene: Beaconworks Lab | Midday]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, hopeful strings with a steady rhythmic undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Low hum of servers; the soft clack of a stylus against a tablet]
+    "You step into the lab with your boots still carrying the faint grit of the Drowned Garden. The air here is cooler, a dry electric against your skin, scented with resin and the faint mineral tang"
+    "of someone's thermos. For a heartbeat you let yourself breathe in the deliberate order of it: labeled bins, tidy cable loops, a map wall where someone's neat handwriting has circled the Promenade in cautious black ink."
+    "Elias Harrow is already at the projection. He leans close to the model, fingers following contour lines like a lover tracing a coastline. When he looks up and sees you, the tight focus in his amber"
+    "eyes loosens. Hope flickers — not loud, but precise, like a red LED coming to life."
+    show elias_harrow at left:
+        zoom 0.7
+
+    elias_harrow "You came early."
+    "He says it as if early were a small, brave thing."
+    "You smile, and something in your chest steadies. Coming here wasn't a show of deference; it was an insistence. Ever since the council room, you've been steering the conversation toward a table that actually seats both"
+    "engineering and mud. Today that table is in front of you — threefold, literal and symbolic — and a small army of compromises rests on the edges."
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "I came with an agenda and two pockets full of anchors."
+    "You tap your seed-bead bracelet against the bench. 'Let's make them count.'"
+    "Elias's mouth quirks. He sets his tablet down and gestures to the chairs. He is calm, but you can feel the political temperature of this room — Lucia's presence will raise it. You've pushed him into visible risk; now he offers it back with the confidence that your words mattered."
+    hide elias_harrow
+    hide mara_solenne
+
+    scene bg ch7_453e40_2 at full_bg
+    show lucia_montrose at left:
+        zoom 0.7
+
+    lucia_montrose "Mr. Harrow. Ms. Solenne. I appreciate Beaconworks accommodating this early review."
+    "Her voice is steel with an undercurve of diplomacy."
+    "When she looks at you, the appraisal is quick and careful, like an engineer reading a stress test. There is a moment of something unreadable in her expression — curiosity, respect, the calculation of political risk."
+    "It could be any of them; the ambiguity sits between you like a third person in the room."
+    "You take a seat across from Lucia, the projection between your hands and hers. Rani and Eda arrive a breath later: Rani with an oily, sawdust-smudged jacket and a graceless grin; Eda steadied and exact as"
+    "tide knowledge itself, shawl heavy with shell-stitched history. Seeing them by your side is like finding a familiar tide pool in a city of unknown currents."
+    show rani_cho at right:
+        zoom 0.7
+
+    rani_cho "You bring coffee and won us free biscuits?"
+    "She asks Elias, half-joking, half-weaponized charm."
+    "Elias offers a modest, embarrassed smile and produces a small paper cup. The joke diffuses something stiff in the air. It isn't victory, but it is warmth."
+    show eda_nal at center:
+        zoom 0.7
+
+    eda_nal "Speak what the land remembers."
+
+    "She tells you, then to Lucia" "Listen to what is still alive at the margins."
+    "Lucia inclines her head. The room changes, imperceptibly — the ledgered world of models softens around real bodies and histories."
+    hide lucia_montrose
+    show mara_solenne at left:
+        zoom 0.7
+
+    mara_solenne "We don't want to stop progress."
+    "Your voice is steady. 'We want progress that doesn't bulldoze the people and systems that already keep this place breathing.'"
+    hide rani_cho
+    show lucia_montrose at right:
+        zoom 0.7
+
+    lucia_montrose "The city's mandate is rapid mitigation. Lives are at immediate risk. Large-scale barriers reduce that risk efficiently."
+    "Elias steps between the two lines of argument like a seamstress threading needle to fabric. He opens his tablet; the projection shifts. Where there had been a monolithic wall, modular segments appear — engineered cores with"
+    "pockets for living mulch and marsh-planted inserts. His annotations pulse, showing how tidal flow could be redirected into preserved intertidal channels."
+    hide eda_nal
+    show elias_harrow at center:
+        zoom 0.7
+
+    elias_harrow "What if this is not an either/or?"
+    "He asks, 'What if we test modular sections — engineered for durability but designed to accept wetland inserts and living anchors? We can measure hydrodynamic load, but we can also create plant channels that buffer storms.'"
+    "Lucia raises an eyebrow, intrigued despite herself."
+
+    lucia_montrose "Testing slows deployment. How do you justify risk while the storm season tightens?"
+    "Elias flicks his stylus, bringing up community-survey overlays and a handful of collected sensor data. He pins a cluster of dots on the Promenade stretch — not only engineering metrics but annotated notes tagged 'community priority,' 'child route,' 'raft moor.'"
+
+    elias_harrow "Because if we do this in phased modules, we can prioritize high-risk segments while preserving or restoring adjacent wetland capacity. And because community knowledge will help us place certain inserts where they absorb wave energy better than a uniform wall."
+    "The exchange widens into a slow conversation. You bring Rani's practicalities: where rafts tie, where footpaths cross, which piles of eelgrass mark natural scouring points. You bring Eda's memory of past floods — which channels once"
+    "swallowed water benignly and which funneled it like a blade. Lucia counters with time and budget numbers, deadlines, and the blunt arithmetic of city survival."
+
+    "Dialogue stretches and folds. Nobody wins instantly. Instead, the room negotiates in units of small, resolvable things — a pilot scope here, a monitoring protocol there. You learn, with Elias at your side, to speak in calibrations" "We can deploy modular cell X with buried pier supports and a removable planting matrix that can be swapped during low tide windows for maintenance."
+
+    elias_harrow "If Beaconworks signs a memorandum recognizing community criteria as part of pilot sign-off, I will put my name to the engineering reports. I'll carry political weight on the technical review."
+    "Lucia studies him. The room holds its breath. You watch the negotiation become a trust exercise: an engineer vouching his professional reputation for community space."
+
+    lucia_montrose "A memorandum will require measurable endpoints. I will not authorize open-ended experiments."
+
+    elias_harrow "We can define endpoints: erosion thresholds, wave attenuation targets, biodiversity indices. We'll include scheduled reviews and rollback triggers."
+    "Rani Cho folds her arms and leans in, blunt and human."
+    hide mara_solenne
+    show rani_cho at left:
+        zoom 0.7
+
+    rani_cho "And if the first insert gets trampled or trashed, we'll fix it. We build what's practical and can be maintained by locals. We teach people how to tend it instead of suing them later."
+    "Eda touches a small resin leaf on the shelf, and her voice softens into a kind of weathered certainty."
+    hide lucia_montrose
+    show eda_nal at right:
+        zoom 0.7
+
+    eda_nal "When people can fish and plant at the edge, they watch the sea in a different way. They don't treat it like a force to be outwitted; they treat it like a neighbor."
+    "There is friction: Lucia pressing for timelines; you reminding her that displaced people don't reappear for efficient statistics. But friction becomes something like heat that forges policy into a tool — not a weapon."
+
+    menu:
+        "Anchor the pilot with measurable engineering targets — emphasize data and compliance":
+            "You push for a set of clearly defined metrics and rollback clauses. Lucia nods, visibly relieved by the clarity; Elias taps in procedural notes with steady fingers. Rani mutters about paper but accepts that numbers buy time. The room aligns around measurable language."
+        "Anchor the pilot with community stewardship clauses — emphasize maintenance and local guardianship":
+            "You press for community stewardship lines: training funds, local maintenance stipends, and legal recognition of stewards. Eda smiles with quiet approval; Elias calculates the budgetary ripple. Lucia narrows her eyes, weighing political exposure versus social buy-in."
+
+    # --- merge ---
+    "Continue"
+    "You decide, in a small, pivotal heartbeat, to marry both impulses and say so out loud."
+    hide elias_harrow
+    show mara_solenne at center:
+        zoom 0.7
+
+    mara_solenne "We need both."
+    "You tell Lucia, 'Hard endpoints so the city can evaluate risk — and stewardship that makes the pilot live between storms. Metrics tell us when to stop; people tell us where to start.'"
+    "Lucia exhales, a tiny concession that sounds almost like approval."
+    hide rani_cho
+    show lucia_montrose at left:
+        zoom 0.7
+
+    lucia_montrose "If Beaconworks signs a memorandum that includes both engineering endpoints and designated stewardship structures — with monitoring commitments — I will present this co-design pilot for formal review."
+    "Her words land like a seal. For a moment the lab is only the small sound of rain against glass and the soft click of an overly full concentration of hope. You let yourself feel the"
+    "slow lift in your chest. This is not triumph; it is a careful, shared ascent."
+    # [Scene: Rooftop | Late Afternoon]
+    hide eda_nal
+    hide mara_solenne
+    hide lucia_montrose
+
+    scene bg ch7_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Market hum below; the distant clank of construction; a breeze through planters]
+    "Later, on a rooftop that smells of thyme and rain-damp earth, you and Elias sit on a reclaimed bench and go over the memorandum draft. The city is a collage out there — hard lines and"
+    "soft green knit together by light. You trace the margin of a clause with a fingertip and feel the residue of a long thought."
+    "Elias's hands are still. Up close, his face is open — the quiet sincerity that first drew you into these rooms. He is nervous in a way that seems almost intimate."
+    show elias_harrow at left:
+        zoom 0.7
+
+    elias_harrow "I didn't expect to have leverage like that."
+    "He admits it, voice small in the golden light. 'Maybe I always expected to be a quieter kind of bridge. You pushed me into a bolder arch.'"
+    "You laugh, then the sound settles into something warmer. The trust between you isn't theatrical; it is practical, scaffolded like the pilot you're designing. You let yourself reach for something light — a touch, a joke, a small test of softness."
+
+    menu:
+        "Reach out and squeeze his hand - practical reassurance":
+            "You take his hand, fingers warm beneath your palm. Elias breathes out and steadies; his shoulders drop. There's a concrete calm that settles around both of you, a tacit promise to keep building."
+        "Tease him about taking risks — affectionate ribbing":
+            "You tease him, letting your voice go a touch higher. Elias's mouth curves into a real smile, and laughter threads between you — a fragile, bright thing that makes the rooftop feel protected for a moment."
+
+    # --- merge ---
+    "Continue"
+    "You choose to squeeze his hand — a small, steadying contact, more promise than drama. He returns the pressure, a soft architecture of assent. Between the two of you, a new rhythm forms: one part math, one part mud, one part care."
+    # [Scene: The Promenade (Site Visit) | Low Tide]
+    hide elias_harrow
+
+    scene bg ch7_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant jackhammers; the squelch of boots in mud; occasional shouted directions]
+    "You walk the Promenade together with a small team. Sensors are mounted on stakes, and Rani notes where spare timbers should be lashed; Eda walks the edge, placing a small palm on the exposed bank as"
+    "if greeting an old friend. The pilot will have to work here — in this liminal, bitter-sweet expanse where industry meets life."
+    "Elias shows Lucia where modular cells could slot in; she runs a gloved hand along a mock section and listens to the data Elias feeds her live. The exchange is less theatrical than the stories make"
+    "it out to be: the two of them trade assumptions and chip away at them, recalibrating. You watch Lucia's jaw relax in places where she sees numbers that meet the city's thresholds; you see her face"
+    "soften when Eda points out a narrow eelgrass alley that always slows wave velocity."
+    show eda_nal at left:
+        zoom 0.7
+
+    eda_nal "Here."
+    "She says, pressing a palm into the wet and pointing to a line of compressed sand. 'Storms used to peel here, then settle — the plants used to catch the first rush.'"
+    "Lucia looks where Eda points, then at the prototype cell, then at Elias. There is a kind of victory in her nod: not the victory of crushing opposition, but of integrating something that matters."
+    show lucia_montrose at right:
+        zoom 0.7
+
+    lucia_montrose "If the pilot can be monitored and demonstrate both survivability and measurable reduction in local scour, I will take it to the council with a recommendation."
+    "You feel something like a tide pulling further in your chest — not the sharp jolt of triumph but a wide, steady lifting. The memorandum will go for review. The city will look. The pilot will be measured, argued over, and possibly, finally, allowed to try."
+    "Rani Cho slaps your shoulder."
+    show rani_cho at center:
+        zoom 0.7
+
+    rani_cho "You built a bridge out of words and mud. I'll bring the hammers."
+    "Elias turns to you, eyes bright with a low, contained joy."
+    hide eda_nal
+    show elias_harrow at left:
+        zoom 0.7
+
+    elias_harrow "We did it — together."
+    "You let the optimism sit — not unearned, but hard-won. You imagine the first modular insert rooted with marsh grass, children learning to plant, elders watching with a sagely pride. You imagine a city learning to braid old memory with new metal."
+    hide lucia_montrose
+    hide rani_cho
+    hide elias_harrow
+
+    scene bg ch7_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Warm strings swell into a hopeful crescendo]
+    "Page-Turn thought linger: The memorandum goes to formal review; the pilot could be the first place where you and Elias make policy feel like a human thing. You trace the margins of what must come next:"
+    "funding debates, council hearings, maintenance training, the inevitable tests where the pilot will either hold or teach you how to do better. This isn't the end. It's a beginning that requires more stubborn, patient ascent."
+
+    scene bg ch7_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

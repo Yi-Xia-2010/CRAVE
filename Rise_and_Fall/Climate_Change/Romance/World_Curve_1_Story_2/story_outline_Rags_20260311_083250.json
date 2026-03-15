@@ -1,0 +1,462 @@
+{
+    "title": "Tidebound Promises",
+    "summary": "I am Mira Solace, a municipal resilience scientist rooted in the Old Pier Neighborhood. In a rising-arc story of steady progress, I navigate technical plans, community grief, and a rekindled romance with Arin Voss as Solace Harbor must choose how to survive and who will survive with it. The pressure point is Aegis Corporation’s proposal — fast, engineered floodwalls and relocations — championed by Liora Kade. My work and my heart are on the line: I convene assemblies in the Tidehouse, sketch tidal gradients into my worn leather notebook, and argue for community-led, ecologically integrated adaptations with craft and evidence. Arin galvanizes grassroots energy. Samir mediates technical nuance; Etta grounds us in memory; Noah anchors the personal stakes. Branches let me pursue scaling community-led solutions, negotiating hybrid policy wins, or steering municipal processes to enable equitable relocation with restitution. Every branch advances upward: relationships deepen or transform into mature partnerships, community capacity grows, and Solace Harbor gains resilience in different forms.",
+    "emotional_curve_type": "Rise",
+    "player_character": "Mira Solace",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Morning at the Tidehouse",
+            "branch_designation": "Common",
+            "narrative_focus": "I begin the day at the Tidehouse, checking tide logs and meeting community members; I feel the first ripple of momentum as small experiments show promising data.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mira Solace",
+                "Etta",
+                "Samir",
+                "Arin Voss"
+            ],
+            "locations_used": [
+                "Tidehouse",
+                "Harbor",
+                "Tidehouse boathouse",
+                "Rooftop garden"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Convening at the Old Pier",
+            "branch_designation": "Common",
+            "narrative_focus": "I host a community assembly in the Old Pier Neighborhood to present data and listen; trust grows as neighbors share repair strategies and elders recount place-knowledge.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mira Solace",
+                "Noah",
+                "Etta",
+                "Arin Voss",
+                "Samir"
+            ],
+            "locations_used": [
+                "Old Pier Neighborhood",
+                "Assembly"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Aegis Proposal",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "Liora unveils Aegis’s fast floodwall plan at a public briefing. I must choose how to respond: directly oppose, propose a hybrid negotiation, or partner with Arin for a public campaign. Each choice charts a different kind of progress.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Whether to push for grassroots alternatives, negotiate a hybrid plan through municipal channels, or partner with Arin for a public campaign.",
+                "options": [
+                    {
+                        "label": "Push grassroots alternatives",
+                        "consequence": "Deepens community capacity and hands-on adaptations; positions me as a local leader",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Negotiate a hybrid plan with municipal influence",
+                        "consequence": "Opens institutional leverage and technical compromises",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Mobilize a public campaign with Arin",
+                        "consequence": "Amplifies public pressure and creative direct action",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Liora Kade",
+                "Samir",
+                "Etta",
+                "Arin Voss",
+                "Noah"
+            ],
+            "locations_used": [
+                "Public briefing hall",
+                "Aegis presentation hall"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Rootwork (Route A)",
+            "branch_designation": "Route A",
+            "narrative_focus": "I commit to expanding community-led pilots: marsh restoration, neighborhood floodproofing, and shared workshops — scaling local solutions into a replicable model.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Noah",
+                "Etta",
+                "Samir"
+            ],
+            "locations_used": [
+                "Rooftop common garden",
+                "Old Pier Neighborhood",
+                "Tidehouse"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Scaling Tactics",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "With pilot successes, I choose how to scale: formalize a community cooperative, push for municipal adoption of our model, or accept conditional funding from sympathetic private donors. Each option grows capacity differently.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to institutionalize the grassroots victories.",
+                "options": [
+                    {
+                        "label": "Formalize a community cooperative",
+                        "consequence": "Local ownership, slower access to capital, strong social bonds",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Push for municipal adoption and policy change",
+                        "consequence": "Leverages city resources with institutional legitimacy",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Accept conditional philanthropic funding",
+                        "consequence": "Rapid scaling but with donor constraints to navigate",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Samir",
+                "Noah"
+            ],
+            "locations_used": [
+                "Tidehouse",
+                "Rooftop"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Cooperative Bloom — Ending (Route A, Ending A1)",
+            "branch_designation": "Route A (Ending A1)",
+            "narrative_focus": "The community cooperative succeeds: decentralized green infrastructure, new apprenticeships, Noah’s shop becomes a regional hub. Mira and Arin deepen their partnership through shared leadership.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Noah",
+                "Samir",
+                "Etta"
+            ],
+            "locations_used": [
+                "Maintenance hub",
+                "Old Pier Neighborhood",
+                "Tidehouse"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Municipal Leverage (Route B)",
+            "branch_designation": "Route B",
+            "narrative_focus": "I choose to negotiate a hybrid with municipal influence: I work inside the system with Samir to reshape Aegis proposals into equitable, adaptive policy.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Mira Solace",
+                "Samir",
+                "Liora Kade",
+                "Arin Voss",
+                "Noah"
+            ],
+            "locations_used": [
+                "Glass conference room",
+                "Municipal offices",
+                "Neighborhood corridors"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Policy as Practice",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Building on municipal leverage, I choose between three strategies: codify community co-management, demand enforceable relocation protections, or create a city-funded retrofit program. Each path embeds community needs differently.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which policy instrument to prioritize to institutionalize equity.",
+                "options": [
+                    {
+                        "label": "Codify community co-management",
+                        "consequence": "Long-term shared governance and local oversight",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Secure enforceable relocation protections",
+                        "consequence": "Ensures restitution and home rights for displaced neighbors",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Create city-funded retrofit programs",
+                        "consequence": "Funds broad resilience upgrades with municipal accountability",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Liora Kade",
+                "Samir",
+                "Noah",
+                "Etta"
+            ],
+            "locations_used": [
+                "Aegis construction site",
+                "Construction site",
+                "Cranes"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Co-Management Charter — Ending (Route B, Ending B1)",
+            "branch_designation": "Route B (Ending B1)",
+            "narrative_focus": "The city adopts a codified community co-management charter. Neighborhoods gain legal authority and funding to steward green infrastructure; Mira’s partnership with municipal actors deepens.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Noah",
+                "Samir",
+                "Liora Kade",
+                "Etta"
+            ],
+            "locations_used": [
+                "Council chamber",
+                "Old Pier Neighborhood"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Rally on the Causeway (Route C)",
+            "branch_designation": "Route C",
+            "narrative_focus": "I partner with Arin for a public campaign: photo-documentary actions, rooftop demonstrations, and creative direct interventions that amplify marginalized voices across the city.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Liora Kade",
+                "Community members"
+            ],
+            "locations_used": [
+                "Causeway",
+                "Night market",
+                "Rooftop"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Creative Pressure",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The campaign succeeds in drawing attention, and I must choose our next move: institutionalize the movement into a civic coalition, negotiate with Aegis for binding concessions, or scale the campaign regionally with media partnerships.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Where to channel the campaign’s energy for durable gains.",
+                "options": [
+                    {
+                        "label": "Institutionalize a civic coalition",
+                        "consequence": "Creates a durable organization that can negotiate and deliver programs",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Negotiate binding concessions with Aegis",
+                        "consequence": "Leverages public pressure into enforceable corporate commitments",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Scale regionally with media partnerships",
+                        "consequence": "Broad awareness and replicable models across other harbors",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Etta",
+                "Samir",
+                "Liora Kade"
+            ],
+            "locations_used": [
+                "Flooded plaza",
+                "Causeway",
+                "Neon-lit streets"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Civic Coalition — Ending (Route C, Ending C1)",
+            "branch_designation": "Route C (Ending C1)",
+            "narrative_focus": "The civic coalition forms, professionalizing grassroots capacity, winning municipal seats and program funding. Mira and Arin become co-directors of a durable movement organization.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Samir",
+                "Noah",
+                "Etta",
+                "Liora Kade"
+            ],
+            "locations_used": [
+                "Refurbished row house",
+                "Old Pier Neighborhood",
+                "Rooftop garden"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Hybrid Justice — Cross-route Ending (Route A/B)",
+            "branch_designation": "Cross-route Ending (A2/B2)",
+            "narrative_focus": "Through municipal adoption or targeted policy pushes, a hybrid solution combines Aegis infrastructure with strong relocation protections and community oversight—resulting in a measurable rise in safety without erasing place.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option B / From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Noah",
+                "Samir",
+                "Etta",
+                "Liora Kade"
+            ],
+            "locations_used": [
+                "Mixed construction-and-garden site",
+                "Old Pier Neighborhood",
+                "Construction site"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Philanthropic Accord — Cross-route Ending (Route A/C)",
+            "branch_designation": "Cross-route Ending (A3/C2)",
+            "narrative_focus": "Conditional philanthropic funding and negotiated corporate concessions speed scaling of retrofits and community programs while creating permanent funding lines and regional partnerships.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option C / From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Donor representative",
+                "Liora Kade",
+                "Samir",
+                "Noah"
+            ],
+            "locations_used": [
+                "Conference hall",
+                "Retrofit pilot site"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Citywide Retrofit Program — Cross-route Ending",
+            "branch_designation": "Cross-route Ending (B3/C3)",
+            "narrative_focus": "A city-funded, accountable retrofit program scales resilience across socioeconomic lines; Solace Harbor becomes a model of equitable adaptation, and Mira assumes a new municipal leadership role.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option C / From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Solace",
+                "Arin Voss",
+                "Noah",
+                "Etta",
+                "Samir"
+            ],
+            "locations_used": [
+                "Green roofs",
+                "Municipal offices",
+                "Rooftop garden"
+            ]
+        }
+    ],
+    "remarks": "World View: Solace Harbor is a near-future, mid-latitude coastal city reshaped by decades of sea-level rise and intensifying storms. Once-distinct neighborhoods now stitch themselves together across stilts, reclaimed rooftops, and raised causeways. Political power centers around a coalition of municipal agencies, emergent community collectives, and multinational resilience firms such as Aegis Corporation. Class and place are tightly bound: the economic core sits behind hardened infrastructure proposals; older dockside districts house multi-generational residents with place-based knowledge. Culture favors pragmatic repair, barter, and adaptive design. Conflict fractures around questions of scale and equity: rapid engineered defenses versus slower, community-led ecological adaptations. Atmosphere is melancholic but not defeated: damp salt air, watercolor fog, and daily rituals of care that promise renewal.",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

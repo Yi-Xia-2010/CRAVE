@@ -1,0 +1,127 @@
+label chapter3:
+
+    # [Scene: Town Hall | Early Evening]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play music "music_placeholder"  # [Music: Tense BGM — low strings, distant percussion]
+    # play sound "sfx_placeholder"  # [Sound: Murmured crowd, a chair scraping, gulls faintly in the distance]
+    "You feel the photo in your phone like a small, heavy coin in your palm — the renderings captured earlier, glare caught across corporate teal and clean lines. It is proof and provocation both: an image"
+    "that says the town might be redrawn overnight. Your fingers curl around the device until the glass leaves a crescent on your thumb."
+    "The room smells of reheated coffee and winter wool, a thin undertow of salt that follows everyone in from the harbor. Fluorescent lights buzz above; the dais looks smaller in person, less heroic and more like"
+    "a stage for hurt and persuasion. People crowd the rows of mismatched chairs: fishermen in patched sweaters, young parents holding antsy children, a cluster of students with notebooks. Poster edges ripple where supportive hands brush them"
+    "— 'JOBS NOW' pinned beside 'SAVE THE MARSH.'"
+    "Mayor Rosa stands at the podium, palms down on the wood. Her voice, when she speaks, is measured but tired, an attempt at calm in a room ready to split."
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "Thank you all for coming. Tonight, Cassandra 'Cass' Rey will present the Azure Crescent proposal. We'll allow questions after the presentation. Please—let's keep it civil."
+    "The first slide washes the back wall in corporate sheen: an aerial, tidy and impossible, the marsh reduced to a curved boardwalk and sculpted pools. Applause breaks in pockets. Someone boos from the back. You feel the room tilt on its hinges."
+    hide mayor_rosa_alvarez
+
+    scene bg ch3_98c6f2_2 at full_bg
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "Good evening. Azure Crescent is not just development; it's opportunity — jobs, a protective seawall, and a reimagined shoreline that secures this town for decades."
+    "Her cadence is practiced sympathy. She gestures to renderings — the same images you photographed — and for a moment you see the town as she paints it: tidy, defended, modern. The words 'resilience' and 'investment' circle the room like moths."
+    "You rise. You could unfold the maps, point to the eelgrass beds, list the species whose years of subtle barter this plan would erase. You could call out the calculations — salt intrusion, storm surge models,"
+    "the false security of a wall that displaces the marsh rather than nurtures it. You have the data. You have the charts. But for every figure you speak, there is a life that hangs on an"
+    "immediate paycheck. For every species you name, there is a face in the crowd that needs bread."
+
+    menu:
+        "Stand and ask Cassandra about long-term salt intrusion risks":
+            "You stand, the back of your chair scraping a long note across the hall. Your voice comes out steadier than you expected; Cass nods with the patient air of someone who expects questions. A hush falls, teeth grinding like distant tide stones."
+        "Wait and let the Q&A begin; take notes":
+            "You keep your seat, pen hovering over the page. Each word from Cass is a coin flipped in the air; you mark where detail slips into gloss, building a list you can use later. Eli's hand finds yours under the bench, a quick, grounding pressure."
+
+    # --- merge ---
+    "Cassandra listens to the question or watches you write; either way she answers with diplomacy, layering statistics with soothing cadence. Her rebuttals are precise — a softened version of the same corporate language that arrived on"
+    "the renderings. But there's a moment that isn't in the script: when she says 'We can work with local stakeholders,' her eyes flick to you as if cataloging who you are for later negotiation."
+
+    cassandra_cass_rey "We recognize coastal ecosystems. We have engineers signed on to integrate marsh buffers. This isn't erasure — it's adaptation."
+    "Murmurs ripple. Tomas clears his throat loudly from the second row, the room tilting toward his baritone."
+    show old_tomas_calder at right:
+        zoom 0.7
+
+    old_tomas_calder "Adaptation that pays the bills is welcome, but I've seen 'buffers' mean a bulldozer and a nice sign. Words don't feed a rig or fix a broken net."
+    "Old Tomas's bluntness lands like a stone. Someone shouts that the town needs the work now. A young woman whispers about a mortgage. These are not abstract numbers; they are breath, bills, children."
+    "You step forward again, forced into a tone you hate — the translator between models and mouths. Your voice skews toward the clinical because that is where you live, even as your chest tightens."
+    show mara_voss at center:
+        zoom 0.7
+
+    mara_voss "A seawall without living elements will push the marsh out. Even with engineering, the hydrology changes — we lose nursery grounds, and fisheries' yields decline within years. The short-term gain risks long-term collapse."
+    "Cassandra 'Cass' Rey inclines her head, not dismissive but not conceding. You hear the audience — pockets of nods and rooftops of scoffs. Rina Park slips into the aisle beside you, sunglasses pushed up, energy like a gust of wind."
+    hide cassandra_cass_rey
+    show rina_park at left:
+        zoom 0.7
+
+    rina_park "We can pilot hybrid designs, show metrics fast. Funders are ready to seed small jobs that begin this summer."
+    "She offers the optimism you need, but there is a hitch: her funding models demand quick wins and visible placemaking. The sort of experiments that placate cameras might not protect complex wetlands."
+    "Elias 'Eli' Calder — silent until now — leans in, voice low and warm, meant for you more than the room."
+    hide old_tomas_calder
+    show elias_eli_calder at right:
+        zoom 0.7
+
+    elias_eli_calder "Whatever you do, pick a path that'll keep nets in the water this season. We can't promise everyone can wait for long-term models."
+    "You can hear the tremor under his calm — family nets to mend, rent to pay. His eyes lock on yours: not imploring affection, but a plea shaped by bread and salt. There is tenderness and"
+    "urgency folded in that look, and you feel your chest fracture in a new way."
+
+    mara_voss "I know. I don't— I won't make people choose between paying bills and protecting the place. But I also can't in good conscience endorse a plan that will hollow out the ground our kids will depend on."
+    "Mayor Rosa steps in, palms steadying the room."
+    hide mara_voss
+    show mayor_rosa_alvarez at center:
+        zoom 0.7
+
+    mayor_rosa_alvarez "Mara, Cassandra — we're not choosing ideology tonight. We need practical paths. Cassandra, can the developer and Mara's team sit together to explore modifications? A compromise could get us what we need."
+    hide rina_park
+    hide elias_eli_calder
+    hide mayor_rosa_alvarez
+
+    scene bg ch3_98c6f2_3 at full_bg
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "I'm willing to meet. A design table is the fastest way to deliver both jobs and protections."
+    "There is an applause that smells faintly of relief — but in the same breath there are groans. The offer hangs in the air like low tide: exposed possibilities and exposed risks."
+    "You think of the renderings in your phone, the glare across the new shoreline. You think of Nia's stubborn grin when she planted seedlings last spring, of Tomas's stories about the mudline when he was a boy. You think of Rina's promise of quick jobs and Eli's wary hope."
+    "The air outside the Town Hall tastes colder when you step into the vestibule for a moment. The headland floodlights glare at a steady, watchful angle. Someone knocks ash from a cigarette; a child squeals. The"
+    "town square is a patchwork of opinions, and you are the seamstress again — needles poised, thread frayed."
+
+    menu:
+        "Go talk to Eli on the headland; get his read":
+            "You cross the square toward the headland. Eli waits near the railing, breath fogging. He says little at first, then lays out the immediate needs: crew work he can offer, the families that can't wait. The practicality in his voice steadies your panic."
+        "Gather the small group (Rina and Tomas) in the back room to sketch a pilot plan now":
+            "You return to the back room. Rina pulls up funding notes on her tablet; Tomas grumbles but offers a map of the flats. For a moment, the room hums with activity — quick, tangible, immediate. But the window shows Cass's banner still unfurled outside."
+
+    # --- merge ---
+    "Inside again, the mood has seeped into everyone's bones. Words have been spoken that cannot be unsaid. Cassandra has not been coy: she wants results. Mayor Rosa wants votes. The room, in its tiredness, wants certainty."
+    hide cassandra_cass_rey
+
+    scene bg ch3_98c6f2_4 at full_bg
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "Mara, your science is important. We need it — frankly, it legitimizes what I can sell a funder. Sit with me. Let's design something that keeps jobs and keeps key marsh areas intact. Show me where to draw lines."
+    "There is an ease to the offer, an implied power imbalance: she brings institutional muscle and money; you bring expertise and credibility. The bargain on the table tastes like a compromise — plausible, dangerous, maybe necessary."
+    "You can feel every choice peeling away another layer of safety. If you sit with her, you walk into the rooms where cards are shuffled and deals made. If you don't, the fight will become public,"
+    "lit by camera flashes and legal fees. If you focus locally, you sidestep the Goliath but risk being sidelined from bigger decisions."
+    "The hall's lights hum. Somewhere in the square, a tide-watch buoy keeps its lonely blink."
+    "Nia finds your hand in the aisle, small and fierce."
+    show nia_voss at right:
+        zoom 0.7
+
+    nia_voss "Make them earn it, Mara. Don't let them write the whole map before we get a say."
+    "You breathe in the cold, metallic air and consider the pieces: the preservation of marsh, the promise of jobs, the fragile thread of your own relationship with this place and with Eli. Your notebook in your"
+    "pocket bears penciled headers and half-formed plans; your phone still holds the photograph — glare and all — a stubborn scrap of evidence."
+    "The choice compresses into a single white-hot point. You feel the fall of everything you care about in miniature — the town's future, the marsh's breath, a partnership that may require you to cross a line you swore you'd hold."
+    "You pause on the threshold between public argument and private strategy, knowing that the path you pick will shape headlines, livelihoods, and maybe the shape of your heart."
+    "How do I position myself and my science in the town’s crisis?"
+
+    menu:
+        "Negotiate; seek to modify Azure Crescent to include living-shore elements.":
+            jump chapter4
+        "Lead a legal and grassroots blockade to stop the development outright.":
+            jump chapter7
+        "Prioritize fast, local pilot restoration and small green job programs, sidestepping the developer.":
+            jump chapter10
+    return

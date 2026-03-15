@@ -1,0 +1,177 @@
+### SCRIPT
+# Route: Route B — Ending
+# Context: 6b08b4
+
+[Scene: Municipal Trailers | Late Afternoon — Cold, Windy]
+[Background:"ch8_6b08b4_1"]
+[Sound: Distant jackhammers; a diesel truck idling; a woman outside chanting through a megaphone]
+[Music: Percussive strings — staccato, building]
+
+You step out of the trailer and the air hits like a slap: wet concrete smell, salt, and the metallic tang of ozone from the torn sky. The foreman's voice floats across the site, clipped and efficient. There is no softness to this afternoon — only decisions stacked like lumber.
+
+Your Moleskine is open in your hands before you realize you've reached for it. Diagrams of the Flats crawl across the page in cramped ink: channels, proposed berms, tide lines. Someone—Evelyn, you think—has already circled developer easements in red on a printed plan pinned to the trailer wall. The red eats the marsh.
+
+Mayor Tomas Greer stands at the head of the table, shoulders hunched to meet the wind and the weight of other people's expectations. Evelyn Hart is beside him, flawless against the grime: silver bob, trench coat, tablet clutched like a talisman. Lina is outside the trailer's doorway, one hand on her megaphone, jaw tight. Arin Kai is leaning against the table, arms folded, eyes moving from you to the plans and back again — unreadable in a way that makes your chest tighten.
+
+Mayor Tomas Greer: "Matching funds are on the table. Public-private, levered—this is how we move from emergency to infrastructure. We can have crews pouring concrete as early as tomorrow."
+
+Evelyn Hart [cool]: "The easements are standard. They allow developers temporary access for staging and permanent rights for maintenance. In exchange, we secure investment and immediate coastal defenses. We can include oversight language."
+
+You hear the word oversight, and it lands like a challenge. Oversight. Words are scaffolding; they can either hold weight or crumble under rain.
+
+[Background:"ch8_6b08b4_2"]
+[Sound: A chair scrapes; someone outside shouts, muffled under the trailer roof]
+[Music: A low, insistent drum — relentless]
+
+Evelyn Hart [leans in, voice cool]: "Dr. Soler, your monitoring frameworks are valuable. We can incorporate community monitoring as a condition for release of the second tranche—conditional funding tied to milestones."
+
+You want to say—no, you need to say—that milestones measured in quarters and line items do not translate to marsh recovery on the scale the Flats require. You want to tell her that a berm here will redirect sediment and choke a silt finger there until it dies. But the room is a pressure cooker and every sentence heavier than the last.
+
+Maya Soler [you]: "Conditional release doesn't protect the channels. The proposed easements cut across two major silt fingers. You'd be sealing off migration paths we've tracked for years."
+
+Evelyn Hart [tilts her head; a small, rehearsed smile]: "We can design offsets. Plantings, replacement channels, some engineered habitat. Those are negotiable."
+
+Maya Soler: "Offsets are not the same as intact, functioning marsh. Planting saplings can't mimic decades of tidal accretion—"
+
+Evelyn Hart: "They don't have to mimic them perfectly. They have to reduce risk and—"
+
+Lina Park [pushing through the doorway, urgent]: "Reduce risk for who, Eve? For the condos on the spit? For investors who don't live here? People will lose fishing grounds if you cut those channels. You can't just—"
+
+Evelyn Hart [measured, a blade under silk]: "Ms. Park, I'm sympathetic to passion. But sympathy doesn't secure warehouses, can't build roads to higher ground, and won't keep people working. We are balancing lives and livelihoods. That requires trade-offs."
+
+[Sound: A protester's chant rises in the distance, layered with the thump of machinery]
+[Background:"ch8_6b08b4_3"]
+
+Your mouth tastes of iron. The word trade-off echoes against the aluminum walls and lands like a verdict. You think of Rita's stooped back in her kitchen, of the photograph of your old house half-submerged in a stormshuttered drawer. You think of lines on a map that mean entire seasons of life for people who have always read the bay like weather.
+
+Mayor Tomas Greer: "We need to be careful. If we push too far on offsets, we risk the funding. If we accept too much, we risk the marsh. I asked Dr. Soler here because she understands both sides. Help me bridge this."
+
+The trailer feels smaller. The map feels enormous.
+
+Arin Kai [quiet]: "If they tie the release to strict milestones, maybe we can push for quota flexibility—let my family's boats fish a little more until the adjustments take effect. We need breathing room."
+
+Maya Soler: "Quota exceptions would buy short-term relief for fishermen—"
+
+Arin Kai [interrupting, sharp]: "They buy time. Time is different from sacrifice. Time lets people keep roofs over their heads while you find ways to make the marsh whole again."
+
+You can hear the desperation folded into his practical cadence. He thinks in timber and tide charts, in engines and nets. His plea is a small, private hurricane.
+
+You want to argue that breathing room without structural guarantees is a recipe for permanent damage. You want to tell him that a quota exception without habitat protection will hollow the bay. But Arin's jaw is tense and there are raw lines at the corner of his eyes you don't know how to mend.
+
+[Background:"ch8_6b08b4_4"]
+[Music: Strings spike — quick, dissonant]
+
+Lina pulls her phone from a pocket and shows you a live stream: a line of volunteers unrolled across Main Street, placards bristling like wheat. The comments scroll faster than you can read: "Not in our name," "Protect the Flats," "No private easements." Her thumb hovers over a schedule — a march at dusk, an occupation of the construction site.
+
+Lina Park: "We can't let them pour concrete tomorrow. Even a slowdown forces transparency. People will stand. Will you stand with them, Maya?"
+
+You measure the weight of standing. Standing could mean exposing every flaw in the plan and triggering investor panic. Standing could mean legal maneuvers, injunctions, lawsuits, and a town suddenly cut off from promised funds. Standing could mean your name in the paper with the word obstructionist under it.
+
+[INTERACTION]
+> Choice A: "Step outside to address the volunteers now"
+> Choice B: "Stay and force language changes at the table"
+[Outcome A: "You step to the trailer door and pull the scarf tighter. Your voice, when it comes, carries into the cold and the crowd quiets a fraction; you promise a forum and plead for restraint."]
+[Outcome B: "You put your hand flat on the blueprints, tapping the line where the easement slices the marsh. Your tone is sharp; you demand specific offsets and oversight clauses, and the room bristles."]
+[MERGE: The meeting continues with tensions heightened; negotiations press on.]
+
+[Sound: The megaphone coughs; a police cruiser idles further down the road]
+[Music: Percussion quickens — heartbeat tempo]
+
+Evelyn Hart [studies your Moleskine with a look that is almost curiosity and almost appraisal]: "Those are detailed observations, Dr. Soler. We'll fund monitoring, and your team will receive data access. The easement provides necessary staging. It's not optional."
+
+Maya Soler: "Data access doesn't stop heavy equipment from collapsing silt ridges. The staging alone will compress sediment and alter flows. I'm asking for specific language: no staging within fifty meters of identified silt fingers; mandated soft access paths; independent oversight with veto power for ecological red flags."
+
+Evelyn Hart [gentle, unruffled]: "Veto power is not acceptable to our partners."
+
+Maya Soler: "If there is no veto, there is no check. Oversight must be real, not symbolic."
+
+Mayor Tomas Greer [pinched]: "Vetoes could kill the whole thing. Investors don't like uncertainty."
+
+Evelyn Hart: "We can include arbitration, independent audits, and phased access tied to ecological milestones."
+
+Maya chews the inside of her cheek. Arbitration sounds like legal theater. Phased access sounds like another delay clause.
+
+Your internal monologue accelerates — a cascade: If you push for veto, you may lose the funding. If you accept arbitration and audits, the marsh could be sliced and replanted in offset patches that never replicate the complex hydrology. If you call for a moratorium, you hand Evelyn a weapon: investors pull out, contractors sue, and the town's immediate infrastructure remains at risk.
+
+You stand between a slow heartbreak and an immediate fix that tastes of compromise.
+
+[Scene: Seawall Construction Site | Dusk]
+[Background:"ch8_6b08b4_5"]
+[Sound: Metal clanks; a generator thrumming; distant chants now sharper]
+[Music: Brass and timpani — heavy, threatening]
+
+You walk the perimeter with Arin at your side. The wind has teeth here; it tugs at sleeves and at your resolve. The easement stakes are visible — thin stakes with red flags — marking where staging will go and where the developers claim right of way. Each stake is a small insult: the marsh’s slow labor reduced to flagged territory.
+
+Arin Kai: "They're planning to set the staging right there." (He points. His voice is rough.) "That's where the eelgrass beds start. If they compact that area, the nursery shrinks."
+
+Maya Soler: "The maps we handed the council show that. The easement cuts across the heart of the nursery channel. Once the sediment regime is altered, recovery could take decades."
+
+Arin Kai [clenches his hands]: "We could ask for temporary moorings elsewhere. We could shift the staging. We could... I don't know, Maya. I know boats and nets, not contracts. Tell me the words."
+
+You wish for the right words like oxygen. They don't come easily. You feel the tide of the moment: decisions rising, choices branching, consequences latent and lethal.
+
+[INTERACTION]
+> Choice A: "Suggest a technical amendment to move staging zones"
+> Choice B: "Ask Arin to speak about the fishing impact now"
+[Outcome A: "You kneel, tracing the line of stakes with a gloved finger. 'Shift it thirty meters north,' you say. 'Use floating platforms for heavy equipment.' The engineer on duty frowns, but notes it down."]
+[Outcome B: "You hand Arin your Moleskine and he straightens, voice steadying into something raw and public; he names the nets, the seasons, the families. The foreman slides his hands into his pockets and listens."]
+[MERGE: The site walk continues; small concessions are noted but tensions remain.]
+
+[Sound: A chain-link rattle; someone laughs too loudly; the generator coughs]
+[Music: Strings sharpen — almost unbearable]
+
+Arin's fingers brush yours for a fraction as you swap the Moleskine. The contact is small, a flash. He looks at you, and for a beat his expression is complex — not exactly sorrow, not exactly accusation, but the map of a thousand shared histories and a thousand unspoken compromises. Your chest tightens until it feels like it might fracture.
+
+Arin Kai: "If you push for vetoes, some of our neighbors will blame you when the funds disappear. If you accept this and try to protect what you can from inside, you'll be blamed for the compromise. If you call for a moratorium, the town could fracture overnight."
+
+Maya Soler: "I know what each path costs in different currencies. My question is: which loss do we live with? Which loss do we refuse to make permanent?"
+
+Arin Kai: "There are kids here who need food next week. There are families who can't wait for ecological recovery that could take a generation."
+
+Maya Soler [voice tight]: "If the marsh is carved up now, a generation won't have a marsh to inherit."
+
+Arin Kai: "Then what do we do?"
+
+The wind seems to answer by whipping a salt-lashed spray in your face. Your gloves are damp; the paper in your Moleskine flutters like a nervous heart.
+
+[Sound: A sharp shout as Lina's group moves in closer; police radios crackle]
+[Background:"ch8_6b08b4_6"]
+
+Inside, in the trailer, Evelyn has begun to read aloud the clause that guarantees developer easements. Her voice is lawyer-soft: precise, inevitable. The words are legal mortar: "The Developer shall have the right to access, stage, and maintain..." The sentence is never-ending, swallowing the next breath.
+
+Evelyn Hart: "We have contingencies. We can fund relocation subsidies, workforce training, and an economic resilience fund."
+
+Maya Soler: "Relocation subsidies are not restoration. Economic resilience without ecological base is a bandage on an artery."
+
+Evelyn Hart [shifts, patient]: "These are pragmatic choices. Hard choices. This is how we shelter lives now."
+
+Maya Soler: "Hard choices are not always just. Sometimes they're expedience wearing the face of salvation."
+
+The room tilts. Voices overlap. The foreman's radio squeals. Someone bangs a lid. Your pulse is a drum. The arousal is a physical thing — you feel it behind your teeth, in the hollows of your wrists.
+
+You run fingers along the margin of the Moleskine until the smudge of ink is a map you can soothe. You think of Rita's hands, folded like vows. You think of Noah's grin, of Lina's stubborn young face, of Arin's compass pendant glinting in the cold light.
+
+Everything you love is straining under the weight of funding schedules and legal phrasing.
+
+[Music: Builds to a bracing crescendo — strings, brass, timpani]
+[Sound: A distant siren; a megaphone's feedback squeals; the generator thumps like a heartbeat]
+
+You have to choose. Right now. The trailer's air is heavy with accusation and need. Outside, the crowd waits like weather. The foreman will pour concrete tomorrow unless something changes. The options sit before you like three paths carved into a tide map — each with its own costs. Your fingers hover over your pen. The Moleskine is a ledger of what could be saved, scrawled in jittery ink.
+
+You inhale until the cold bites. The arousal has reached a point of no return. Every sound is an alarm. Every face is a verdict.
+
+[DECISION POINT]
+1) Option 1: "Force stronger ecological offsets and stricter oversight" -> TARGET chapter_id: 9
+2) Option 2: "Accept the contract and work to mitigate harm from within" -> TARGET chapter_id: 9
+3) Option 3: "Call for an immediate community moratorium and public forum" -> TARGET chapter_id: 14
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Force stronger ecological offsets and stricter oversight" -> ID 9 (Route B — Ending)
+    > Jump Target File: script_ch9_Route_B_Ending_ctx_3be532.txt
+Option 2: "Accept the contract and work to mitigate harm from within" -> ID 9 (Route B — Ending)
+    > Jump Target File: script_ch9_Route_B_Ending_ctx_3be532.txt
+Option 3: "Call for an immediate community moratorium and public forum" -> ID 14 (Route B — Alternative Ending)
+    > Jump Target File: script_ch14_Route_B_Alternative_Ending_ctx_3be532.txt

@@ -1,0 +1,169 @@
+### SCRIPT
+# Route: Route C — Ending (True)
+# Context: 98c6f2
+
+[Scene: Skyfield Conservatory | Early Evening]
+[Background:"ch3_98c6f2_1"]
+[Sound: Murmurs like surf; a microphone squeal. Footsteps on wet decking. A distant ambulance tone swallowed by glass.]
+[Music: String ostinato undercut with a tense electronic pulse]
+
+You push through the wet glass door and the greenhouse breathes on you—humid, leaf-sweet, and metallic from the municipal screens. Your scarf is still damp; the coral fiber presses against your throat like the memory that never lets go. The room smells of soil, hot plastic from display projectors, and cheap coffee left cooling in paper cups.
+
+The forum is already a live wire. Rows of faces, some storm-tight with purpose, others raw at the edges. Cameras perch on tripods; Tamiko's camera is low and steady near the back. Lina stands at the mic—her hands are folded so tight they whiten the knuckles. Elias Moreno is at a cluster of municipal planners, tablet glowing against his chest. Cassian Vale sits to the side, immaculate in his dark coat, a PR spokesperson smiling a little too hard beside him.
+
+You feel the air change as you enter: the conversation has weight now, every sentence a possible hinge.
+
+[Background:"ch3_98c6f2_2"]
+[Sound: A chair scrapes; the mic clicks on]
+
+Moderator (off-screen): "We're opening questions. Please keep them concise."
+
+Lina: "My name is Lina Cortez. I grew up on Wharf Seven. If this fast-track goes through, my uncle—he's lived there thirty years—will be priced out. They tell me there's 're-housing' money. What does that mean when rents skyrocket and people who know how to patch a house are told to leave?"
+
+You watch the room tilt, a dozen sympathetic faces pivoting like weather vanes. Someone near the front starts clapping; others begin to shout past the applause. You feel a hot pressure behind your ribs—anger that tastes like salt.
+
+Elias Moreno moves forward before you can. He palms his tablet, voice measured, practiced.
+
+Elias Moreno: "We hear you, Lina. The phased plan includes targeted protection and a relocation fund. We're prioritizing—"
+
+Tamiko's camera clicks. Her voice cuts through like a bell.
+
+Tamiko: "Priority for who, Elias? The contract you were handed this week locks in a fast-track clause tied to external funding. We have the draft."
+
+[Background:"ch3_98c6f2_3"]
+[Sound: A collective intake of breath. The hum of electronics rises.]
+
+Dr. Arun stands, shaking his head, fingers pressed to his temple.
+
+Dr. Arun: "The clause...it's a procedural override. It limits local approval windows and ties milestones to tranche releases. Pacing aside, it gives the fund—whoever controls it—leverage to dictate scope."
+
+Cassian Vale's PR guy folds his hands and smiles like sunlight on glass.
+
+Cassian Vale (calmly): "Our funding partner is committed to swift action. Delay costs lives. We offer comprehensive re-housing vouchers and preferential access to new units."
+
+Tamiko scoffs, voice sharpened.
+
+Tamiko: "Preferential? A voucher doesn't push out speculative rents. You're trading speed for people's homes, Cassian."
+
+Cassian Vale's eyes flick to you. The look is precise; there's an unreadable calm there.
+
+Cassian Vale: "Ms. Santos, are you suggesting we choose delay over protection? That you prefer risk to your neighbors?"
+
+You taste copper in your mouth. The room tightens as if someone compressed air in a bellows. Every side stares; the greenhouse becomes a pressure chamber.
+
+[INTERACTION]
+> Choice A: "Step up to the mic, demand to read the clause aloud"
+> Choice B: "Stay back, let Elias take the lead and prepare rebuttal data"
+[Outcome A: "You cross the floor, paper in hand, and your voice carries—clear, sharp. The clause feels smaller under the heat of all those eyes."]
+[Outcome B: "You stand grounded, watching Elias assemble diagrams on his tablet. His jaw is set; you feel your pulse sync with his breath."]
+[MERGE: Scene continues.]
+
+You can feel your community's history thrumming along the floorboards: the time your neighbor banged on doors to warn everyone during last spring's King Tide; the way hands braided ropes, the nights spent sandbagging until your back ached. History presses against policy right now, and you are the seam.
+
+Elias Moreno gestures for calm, scrolling through annotated timelines. His sea-gray eyes meet yours across the crowd—there's something vulnerable there, a fissure you didn't expect.
+
+Elias Moreno: "I didn't bring this clause in; my team was briefed late—" (he swallows) "—but we can renegotiate the milestones. We can add community consent triggers."
+
+Tamiko leans in. Her voice is low enough that only the two of you can hear.
+
+Tamiko: "Renegotiate? They can lock the release of funds to 'completion metrics.' That gives Vale leverage to declare neighborhoods non-compliant when they don't meet aesthetic or densification targets."
+
+You watch Elias Moreno's hands. They hover like someone holding a model that could crumble if he breathes wrong.
+
+You step forward, choosing your words with the same careful thrift you used patching tarps.
+
+Mira Santos: "If the funding structure makes decisions contingent on their private standards, we don't have real negotiating power. We get boxed in."
+
+Elias Moreno: "We can structure clawbacks and binding covenants—legal enforceables that prioritize tenure and affordability. Dr. Arun, your data on ecosystem-based solutions can be framed into performance indicators."
+
+Dr. Arun: "Performance indicators that count marsh health and accessibility—yes—but legal clauses need teeth. They need penalties for displacement. Otherwise, it's lip service."
+
+Cassian Vale interrupts, voice smooth as glass.
+
+Cassian Vale: "This reads like negotiating in the middle of a storm. I appreciate passion, but facts are the keel here. My consortium funds infrastructure at scale. We deliver predictability."
+
+Tamiko steps up to the mic and speaks with a ferocity that makes people stop mid-breath.
+
+Tamiko: "Predictability for whom? Your 'predictability' builds walls where our schools and markets are. It privatizes the coastline. We need accountability, not glossy renderings."
+
+A man near the back shouts, someone's aunt begins to cry softly, and a municipal planner whispers about emergency timelines. The heat in the room spikes; voices overlap into a rough tide.
+
+[INTERACTION]
+> Choice A: "Place a hand on Lina's shoulder to steady her"
+> Choice B: "Push for a calm micro-community caucus—pull Elias and Tamiko aside now"
+[Outcome A: "Her shoulders tremble under your palm; her gratitude is a small, fragile thing. Her story becomes less like a broadcast and more like a tether."]
+[Outcome B: "You ask for a five-minute caucus. People grumble, some cheer. Elias nods, Tamiko's jaw tightens but she follows—privilege of a private conversation in public."]
+[MERGE: Scene continues.]
+
+You gather Lina at the mic. Her voice is small at first, but the room leans in. Tears catch the light; she spits the words out in half-sobs.
+
+Lina: "My daughter's school—if they move the family, they'll lose the counselors who know them. My neighbor's carpenter—who does he become when polished condos line the shore? You talk about safety like it's just concrete."
+
+Elias Moreno closes his eyes for a heartbeat. He swings the tablet to show projected floodplain modeling—lines and probabilities, colors that suggest inevitability.
+
+Elias Moreno: "I am asking for time—time for adaptive, phased intervention that protects most people without waiting for catastrophe. I am not blind to risk. But full paralysis means everyone loses."
+
+You respond, because silence here is compliance.
+
+Mira Santos: "Time is a luxury when an investor decides your risk profile. We need written guarantees, not promises. We need binding clauses on tenure, community oversight, and incremental 'no-displacement' checkpoints."
+
+Cassian Vale leans forward, tone sharpened.
+
+Cassian Vale: "Binding clauses slow implementation. They invite litigation. Litigation stalls safety. I will not apologize for offering a solution that acts quickly."
+
+Tamiko slaps a printout on the podium. The clause on the screen—bold, merciless—reads: expedited approvals, milestone-linked tranche releases, executive override conditions in the event of 'necessary acceleration.'
+
+Tamiko: "Listen to the sentence: 'In circumstances where timely delivery is deemed necessary by the Fund, standard public approval processes shall be abridged.' That's a bypass."
+
+A ripple of anger crosses the room—hot, animal.
+
+Dr. Arun: "We cannot allow a contingency that sidesteps democratic oversight. The models—" (he taps a graph) "—show that hard infrastructure without social safeguards increases displacement risk by seventy percent in scenarios with speculative pressure."
+
+Cassian Vale's PR guy smiles tightly.
+
+Cassian Vale (quietly): "And yet, without infrastructure, the city drowns. That's the trade."
+
+Your breath stutters. You feel the old fear—water under threshold, door stuck. This is the same arithmetic, dressed up as progress.
+
+Elias Moreno's voice cracks when he speaks next. It's the first fracture you've seen in his public armor.
+
+Elias Moreno: "I—If we don't move now, more people are at risk. If we move in the wrong way, we hurt people in different ways. I'm trying to find a path that reduces overall harm."
+
+You want to shout that 'overall' can't erase the people sitting in front of you. You want to tell him his metrics don't write condolence letters. But you also know the confidence in the room could tip into paralysis that kills.
+
+Your chest feels raw. Every second that passes makes the room more combustible.
+
+A city reporter leans forward, mic outstretched.
+
+Reporter: "Ms. Santos, what's your response to the clause? Will you endorse immediate action, or will you oppose it?"
+
+All eyes snap to you. The greenhouse sound collapses into a single wire of attention.
+
+You hear, beneath the noise, the little ledger in your brain: your grandmother's hands sewing sandbags; the names folded into your pocket; Dr. Arun's quiet presentations that turned science into human stories. The ledger says: protect the people first. The city says: choose a lever and pull.
+
+Your throat tightens. This is the hinge. Every face in the room waits for the seam to be sewn—or torn.
+
+You can feel your pulse in your ears, a drum rolling toward something unavoidable. The arousal builds: the murmurs harden into shouts, the cameras tilt, Tamiko's fingers drum the grandmother's rhythm on her camera. Elias Moreno's brow creases; Cassian Vale's smile thins.
+
+You realize, with a cold clarity, that whatever you choose now will fracture alliances. It will set a path—co-design, public expose, or immediate local resistance—and there is no neutral ground.
+
+[Background:"ch3_98c6f2_4"]
+[Sound: Microphone feedback peels once, then goes dead. The room inhales as one.]
+
+You lift your chin. The decision blooms, sharp as broken slate.
+
+[DECISION POINT]
+1) Option 1: "Negotiate with Elias, push for stronger community guarantees in his plan." -> TARGET chapter_id: [4]
+2) Option 2: "Publicly confront Cassian and demand a halt; side with Tamiko’s expose approach." -> TARGET chapter_id: [7]
+3) Option 3: "Organize direct neighborhood resistance—shoreline defenses and an occupation to buy time." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Negotiate with Elias, push for stronger community guarant..." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Publicly confront Cassian and demand a halt; side with Ta..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Organize direct neighborhood resistance—shoreline defense..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

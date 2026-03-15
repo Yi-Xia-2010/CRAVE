@@ -1,0 +1,204 @@
+### SCRIPT
+# Route: Additional / Ending (Sad)
+# Context: 453e40
+
+[Scene: The Beacon Plaza | Morning, Installation Day]
+[Visual: Wide shot of The Beacon's glass face reflecting low tide; engineers in high-visibility vests move like clockwork]
+[Music: Ambient, steady synth undercurrent]
+[Sound: Metallic clanks, distant gulls, soft hum of generators]
+
+You arrived here because the town voted for a monitored trial. The memory of that vote is a quiet, measured thing under your ribs—part civic duty, part cautious hope. You stand at the edge of the plaza with your ledger tucked under one arm and the brass compass at your throat, watching Lila's team anchor sensor masts into the engineered stone.
+
+Lila Park steps out from under a pop-up canopy, hair immaculate against a gray sky, eyes scanning the crowd with practiced calm. She holds a tablet the way someone holds a promise: visible, precise, polished.
+
+Lila Park: "Thanks for coming early, Asha. We wanted to make sure the installation is transparent—legal observers, independent monitors. Full access to the feed for the trial period."
+
+Asha Moreno: "Transparency matters. So does the scope. 'Access' has felt elastic in other towns. 'Independent' means independent. We need logs, open APIs, a maintenance schedule, and plain-language clauses that the community can understand."
+
+Lila's smile is small, the kind that has a margin between warmth and persuasion.
+
+Lila Park [tilting her head]: "We can provide logs, filtered snapshots, and a liaison. Platform uptime is a company metric—of course we'll share maintenance windows. We want Marabel to be a model, Asha. We fix what needs fixing."
+
+Noah Reyes crosses to stand at your side—his coat still damp from a morning rain. He folds in beside you with a motion that, in the crowds of boards and cables, reads like gravity.
+
+Noah Reyes: "The liaison should be a local hire. Shared dashboards hosted from here, with exportable CSVs. If we're doing this publicly, we put the data where anyone with a ledger or a laptop can pull it."
+
+Lila Park [eyes on Noah]: "We can do a mirrored archive. But for some diagnostic reads we need controlled endpoints—safety-critical telemetry can't be exposed unfiltered."
+
+You feel the familiar tug: safety vs sovereignty. Lila's language is commercially tidy—'endpoints,' 'telemetry,' 'diagnostic reads'—and it lands easy in a room that wants fewer midnight sirens. You also feel the ledger in your bag, the columns you keep of repair estimates and community labor hours.
+
+Noah Reyes: "Controlled endpoints, then—under a governance protocol we agree on now. If any access is restricted, it goes through a community review board. No unilateral changes."
+
+Lila Park [pauses, then slightly softer]: "Noah, Asha—reasonable. For the trial, we can implement a technical steward from our engineers with oversight. If this scales, we can transition operational control in phases."
+
+Asha Moreno: "Phases mean obligations. We need clear trigger points—metrics that return control to the town if commercial terms threaten access. And fees? We need caps or waivers during the trial."
+
+Lila bites her lip, not unkindly.
+
+Lila Park: "Cost models are part of the grant architecture. We can write waivers into the trial terms. The goal is resilience, not revenue extraction."
+
+Your chest relaxes a fraction. It is enough—for now.
+
+[Visual: Close-up on your hand opening your ledger; a legal observer in the crowd records with a neutral face]
+[Sound: Notifications—soft pings cascade as the first sensors go live]
+
+[INTERACTION]
+> Choice A: "Inspect the sensor mast directly"
+> Choice B: "Stand by Noah and listen to his negotiation"
+[Outcome A: "You step closer to a technician, run a gloved hand along a cool metal pole, and find a sticker with a serial code. Someone nearby explains the redundancy protocols in a steady voice."]
+[Outcome B: "You let Noah take the lead for a moment. He leans into his steady cadence, asks for the governance language you wanted, and watches Lila's expression for micro-shifts."]
+[MERGE: Return to narrative flow]
+
+[Scene: Tidewatch Lab | Midday, Post-Installation]
+[Visual: Low-slung concrete lab; monitors cast pale rectangles across your face]
+[Music: Low, rhythmic percussion—measured heartbeat]
+[Sound: Soft whirr of fans, keyboard taps, alert chimes]
+
+You and Noah return to Tidewatch Lab with the first live feeds streaming across the screens. The room smells of ozone and wet paper—charts hung to dry, a kettle simmering forgotten. The engineers have left a monitored channel open; you watch graphs trace tides with an almost clinical satisfaction. The predictive model tightens around observed waves, error margins narrowing like a lens focusing.
+
+Noah Reyes: "Look—confidence intervals down by twenty percent on the two-week horizon. That reduces evacuation false-alarms. People get used to the system if it behaves."
+
+Asha Moreno: "Fewer false alarms mean fewer lost shifts, less generator fuel wasted, less sleeping-sick worry. It buys us something." (You tap the ledger) "But maintenance clauses show up here—embedded language about 'platform-managed assets' and 'support windows.'"
+
+Noah Reyes leans over the ledger and frowns, his fingers finding a margin to underline.
+
+Noah Reyes: "That's the donor template. Standard practice. We can push to shorten the 'support' timeline and add exit clauses."
+
+Asha Moreno: "And the fees?"
+
+Noah Reyes: "Layered. But we can ask for a capped maintenance stipend for the trial—paid by the consortium, not the town."
+
+You close your eyes for a moment and inhale the filtered lab air. The raw numbers are comforting: a clear forecast is a pragmatic thing. But each tidy improvement accrues a quiet cost—a pattern in the language that shifts ownership in small increments.
+
+Noah Reyes [soft]: "We'll hold them to the trial. We'll make the community board real. We'll write the triggers together."
+
+Asha Moreno: "We will. But promises are drafts until ink signs them. I want the steward to be jointly appointed, not a goodwill hire."
+
+Noah reaches out; his hand rests on the small of your back—an unassuming anchor. It is the sort of gesture that is steady, not theatrical. The lab's lighting catches the damp of his curls and makes him human in a way that paper cannot.
+
+Noah Reyes [quiet]: "Asha, I want to keep the town whole. I don't want 'resilience' to become code for 'market control.'"
+
+Asha Moreno: "Neither do I."
+
+[INTERACTION]
+> Choice A: "Run a scenario with the new forecast against last winter's storm"
+> Choice B: "Message Marta to coordinate volunteer shifts for sensor checks"
+[Outcome A: "You input the storm data and watch the simulation retrace old flood lines—the model predicts fewer missed evacuations, a narrower surge estimate. Relief settles like sediment."]
+[Outcome B: "You send Marta a short list. Within minutes, her reply arrives—cheerful, efficient—and you picture the raised gardens volunteers gathering flashlights for hourly checks. The community moves into the work, hands steady."]
+[MERGE: Return to narrative flow]
+
+[Scene: Raised Gardens & Market Walkway | Afternoon]
+[Visual: Raised platforms as a patchwork, people moving with crates, string lights fluttering in an overcast light]
+[Music: Acoustic guitar motif—warm and functional]
+[Sound: Footfalls on wet wood, conversation hum, the scent of frying dough]
+
+Marta organizes volunteers like a conductor. Her gloved hands make lists on laminated sheets; her voice cuts through the hum.
+
+Marta: "We need people for midnights checks—if alerts ping the phones, we need human confirmation. Sign up for a two-hour slot, please. Also, anyone with a ladder, we borrow you."
+
+Asha Moreno: "I'll take the midnight after the first week. If the model holds, I want to inspect the sensors before dawn."
+
+Marta: "Good. Bring extra headlamps. And Asha—watch your back. The Beacon looks good in the light; it's been asking a lot of questions about our supply chain."
+
+Asha Moreno: "Questions and offers. Noah is working on clauses to keep it from becoming gatekeeper."
+
+Marta squints, half grin, half scold.
+
+Marta: "Don't let them make 'access' a fancy word for 'paywall.' If you need me to organize a public read-through of the terms, I will—I'll bring tea and plain language."
+
+Her humor steadies you. The volunteers file past with crates of seedlings, the raised gardens bright against the gray. You hear, in the pile of movement, a practical faith: people will do the work if the work belongs to them.
+
+[Scene: The Old Boatyard | Late Afternoon]
+[Visual: Sawdust motes, the smell of resin; Eli under a hull with light in his teeth]
+[Music: Low, rhythmic hammering; a measured, honest tempo]
+[Sound: Wood tapping, salt-rough laughter]
+
+Eli Duarte's hands are steady as he runs a plane down a salvaged hull. He looks up when you approach, salt in his beard and sawdust on his forearms.
+
+Eli Duarte: "You see the changes up top?"
+
+Asha Moreno: "Sensors are live. Forecasts tighten. They're promising fewer evacuations."
+
+Eli Duarte wipes his palms and crosses to the workbench.
+
+Eli Duarte: "Good. Forecasts help—but don't let 'help' become a leash. I'm refurbing hulls into barges for fast transport if we need to move folks or supplies. Tech is fine, but wood holds stories."
+
+Asha Moreno: "How many can you get ready?"
+
+Eli Duarte: "Three by the week after next. I've got volunteers and a supplier for a sealant—salt-tough. Noah's been helping source plywood."
+
+Asha Moreno: "Noah's been good at finding middle ground."
+
+Eli studies you with the same blunt honesty he uses on timber.
+
+Eli Duarte: "He's steady. Watch that steadiness—sometimes steady means 'too cautious' when action is needed. But he's yours, and he fights with people, not for profit."
+
+Asha Moreno: "He fights with people in a way that keeps doors open. That's what I needed."
+
+Eli shrugs and hands you a wooden shim—an old mechanism of trust, not a contract.
+
+Eli Duarte: "If the Beacon ever lets the town down, we have barges."
+
+You laugh, a brief, brittle sound that softens when Eli does.
+
+[Scene: Tidewatch Lab | Evening, Between Meetings]
+[Visual: Monitors dimmed to a soft amber; rain threads down the window]
+[Music: Sparse piano—reflective, unhurried]
+[Sound: Rain tapping, kettle clicking off]
+
+Back at the lab, data still hums on the screens. For a while, the town breathes differently: a few fewer alarms, fewer midnight evacuations, a supply chain that arrives with better timing. The immediate difference is measurable—hot meals delivered without delay, generators fired up less often, kids sleeping through small surges.
+
+You pore over your ledger. Columns of community labor, repair costs, volunteer hours still blend into the rough arithmetic of civic care. Next to those, a new column appears: 'platform maintenance'—a neat header that brushes against your values with the flatness of corporate stationery.
+
+Noah Reyes [watching you]: "You look at that line and can already see where the tension will be."
+
+Asha Moreno: "It sits like a note in my throat. The tech gives us breathing room. But there's wording—'access points,' 'platform-managed assets'—that quietly redirects responsibility."
+
+Noah Reyes [softly]: "We'll fight for the steward and the caps. We'll make the board binding for the trial."
+
+Asha Moreno: "And afterward? How do we ensure 'trial' doesn't become a permanent dependency?"
+
+Noah Reyes: "We write triggers—metrics that, once met, force renegotiation or transfer of operational control. And we build redundancy with barges and local sensor arrays. Tech plus craft."
+
+Asha Moreno: (internal) Tech plus craft. The formula could be a life-jacket or a harness. It will depend on whether the town writes the margins of the contract or signs them blank.
+
+Noah's hand finds yours for a moment as you both stare at a tidal map. The gesture is small, domestic—his fingers cool, callused at the edges from work in damp wood and rain-soaked documents. There is neither a question nor an answer in it; only a presence that offers shared consequence.
+
+Noah Reyes [quiet, concerned]: "I don't want us to wake up and find we've sold the tide to a company. I want a town that can stand at the water and say 'this is ours.'"
+
+Asha Moreno: "We make that 'we' something real. We hold the steward, the data, the barges, the volunteer checklists—everything."
+
+[Music: The piano resolves into a single hovering chord]
+[Sound: A soft ping—an alert from the Beacon; your phone and others in the lab light briefly]
+
+You watch the alert cascade through the trial’s system—an early-warning test, harmless but effective. Phones light, volunteers respond, barges are checked on a roll call. The trial behaves like a balm: sharp forecasts stop needless panic. For a day, the town moves with less fear.
+
+And yet, beneath that relief, you feel a small, steady current of unease—the kind that sounds like a marginal clause tightening its language, like a line item inked on a ledger that later proves harder to erase.
+
+You reread a section of the trial agreement, the fresh ink still warm in your mind: 'platform-managed assets' and 'access points'—terms that can be coded or litigated. The Beacon's efficiency is seductive in the face of fear. You can see in the data the balm it provides; you can see in the contract the leash it could become.
+
+You close the ledger and tuck it into your bag. Outside, rain has turned to a fine silver mist, and the Promenade lights smear into halos. The town sleeps with fewer alarms, and tomorrow will ask for both care and vigilance.
+
+You breathe in salt, damp wood, and the faint electric tang of instruments. The trial is a crucible—testing the metal of the town's agreements as much as the sensors.
+
+You look at Noah, at the steady set of his jaw, the tired softness around his eyes.
+
+You think of Lila's clean promises; of Marta's tea and lists; of Eli's barges; of legal observers with neutral faces; of volunteers who check sensors by flashlight. All of those threads are weaving into a single net.
+
+A thought sits at the edge of your awareness—this is not a failure or a triumph yet. It is a hinge. The real measure will be how the town holds the terms when the honeymoon of fewer alarms ends and the long work of maintenance and governance begins.
+
+Page-turning thought: You will need to turn the trial into a test of the town's authority as much as a test of the Beacon's sensors.
+
+[Visual: Slow push-in on your compass against the ledger; rain blurs the window like an unsteady lens]
+[Music: Fade to a single resonant note]
+[Sound: Distant gull, soft and patient]
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 8]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 8
+    > Jump Target File: script_ch8_Route_B_Split_ctx_6b08b4.txt

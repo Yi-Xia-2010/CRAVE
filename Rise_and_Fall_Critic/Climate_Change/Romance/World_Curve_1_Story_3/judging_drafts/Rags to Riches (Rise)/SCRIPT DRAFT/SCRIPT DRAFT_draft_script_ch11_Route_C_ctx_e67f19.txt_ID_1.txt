@@ -1,0 +1,109 @@
+[Scene: Meeting Room | Morning]
+[Visual: Sunlight through high glass, an emerald wash across a long table strewn with printouts and a single, damp cutting in a shallow clay pot]
+[Music: Warm strings, steady and rising]
+[Sound: Distant city hum; a faint water alarm chirrs then dies]
+
+You close your notebook and feel the click of the spine like a small, deliberate promise. From the conference glass you can see scraps of La Marisma — rooftops, market domes — folded into a horizon of glass towers and rewilded shoreline. Hana is already at the table, sleeves rolled, AR monocle tucked for the moment. Jun sorts through algae charts with patient, exact fingers. Elias leans back with his jacket half-unbuttoned, watching you with that sea-glass look that never quite tells you everything.
+
+You remember the exchange at the end of the last meeting — Hana's hesitation, the way she agreed to draft the covenant — and you let that memory steady you. This is the moment for shaping promises so they can't be walked away from. Your chest tightens with a hopeful kind of responsibility.
+
+Jun: "The calibration data's clean. If we scope the sensor suite to community-governed thresholds, the data will be auditable and defensible. We can certificate the readouts in two ways—public ledger timestamps and a parallel independent validation."
+
+You: "Parallel validation is non-negotiable. If audits can be reproduced by people on the ground, nobody can call the numbers into question."
+
+Hana: (nods) "We can open the firmware's telemetry endpoints. Not the entire IP, but the telemetry hooks, encryption standards, and the failure-mode logs. If you want full open-source, we can negotiate a horizon for releasing key algorithms after field-proven safety checks."
+
+Elias interrupts with a laugh that tastes like both affection and challenge. Elias: "Horizon or not, that's a lot of faith to put in corporate timelines. Open telemetry is good, but we need the ability to do more than read — we need to patch, adapt, and teach people how to repair."
+
+Hana: "I understand. I also have fiduciary obligations. If we design a legally bound clause that requires transfer of repair protocols after X months or on verified community competence, we can bridge both concerns."
+
+You can feel the conversation threading between practicality and idealism. Your fingers drum a rhythm on the table. You imagine Teo with a wrench in hand, the kind of person who will need firmware he can print out and a schematic he can tape to a wall.
+
+Jun: (softly) "From a scientific angle, escrowed release tied to audit outcomes is doable. The data can trigger staged releases."
+
+You: "Good. We'll need maintenance cooperatives named explicitly in the covenant — not as an afterthought. And a community veto on any hardware retrofits that change fundamental operation."
+
+Hana's jaw tightens for a second, an unreadable flicker. She covers it with a practical breath.
+
+Hana: "Veto is politically heavy. But I can accept a legally defined 'pause-and-review' mechanism triggered by certified community auditors. Call it a functional veto: if a majority of verified local stewards log a concern, we enter a 30-day arbitration and the deployment is paused."
+
+Elias: (leaning forward) "Thirty days is long when a pump's failing. Also—who certifies the auditors? That's the loophole."
+
+Jun: "We can co-create the auditor registry. Sensors, training modules, a verification badge issued jointly by Tideworks and a community council. Transparency in picking auditors will be written into the charter."
+
+You: "We write the process down now. Not future promises. The timeline, the badge criteria, a maintenance coop charter, and an escrow mechanism: money released in tranches tied to clear, community-audited outcomes."
+
+Hana: (after a breath) "I can commit to drafting the technical annex and the escrow parameters in legal language my team will stand behind. But I need Mayor Ortega's office to sign off on enforcement authority."
+
+You: "Then we take the draft to Lila. If she signs, that makes it municipal—beyond a corporate handshake."
+
+Elias looks at you, eyes sharp. Elias: "All of that sounds like a legal scaffolding. What about the day-to-day? People need to know how to run the pumps at two in the morning with no internet and a busted control panel."
+
+You smile inwardly at the image. Teo would make the panel's cover out of scavenged plywood and call it art.
+
+You: "Maintenance co-ops will train people. Jun's curriculum will be modular. We'll run drills at the plaza. If people can operate the systems and audit them, the clauses won't be paperweight."
+
+[Interactive Moment: Choice A ("Insist on the term 'community veto' in the draft") -> Reaction: "You press both palms flat on the table. 'Community veto' sounds clumsy on paper but it says exactly what we mean: the neighborhood retains final pause on key changes. Hana studies you, nods slowly, and asks for legal language you can both live with." || Choice B ("Use 'pause-and-review' as the legal term") -> Reaction: "You soften your voice. 'Pause-and-review' is more palatable to the lawyers and still gives the community protection. Hana relaxes visibly and Jun scribbles the phrase into his notes. Elias grumbles but doesn't argue further."]
+
+[Visual: Cut to Skyward Market | Midday]
+[Music: Light, intimate flute line accented with a hopeful piano]
+[Sound: Market chatter, the hiss of a steamer, the distant slap of light on water]
+
+You carry printed summaries and a confidence that feels both earned and fragile into the market. The greenhouse domes blur sunlight; the smell of roasted corn and citrus wraps around you. Teo is already handing out small flyers with a grin that could defuse an air-raid siren.
+
+Teo: "You look like you need a cup of something hot. Or my mom's stew — either will do the job."
+
+You show Sofia the draft covenant. Her hands are soil-stained and small in yours as she reads. Around you, neighbors gather—old men comparing fish nets, children threading bead bracelets of sea-glass, young parents watching.
+
+Sofia: (after reading) "If the maintenance group is trained, and if the money is there when pumps break, then I can teach my neighbor to fix things. But we need language that means our elders won't be moved. Promise me that."
+
+You meet her gaze squarely. You have to honor every person in this place: their recipes, their jokes, the way their lives have braided into the neighborhood.
+
+You: "We'll put a clause protecting cultural sites and housing priorities. No displacement as a condition of the pilot."
+
+Sofia exhales, a laugh like a relieved wind. Elias stands nearby, arms folded, watching how words become relief for the people they matter to.
+
+[Interactive Moment: Choice A ("Demonstrate the telemetry interface on a tablet now") -> Reaction: "You pull up the prototype interface. Neighbors lean in. When they see a live sensor feed tied to the plaza, hands reach out to touch the icons and start asking the exact questions you hoped for. The sight of people learning the dashboard makes the agreement feel tangible." || Choice B ("Hand out plain summaries and listen to concerns first") -> Reaction: "You pass out summaries and step back. People begin to talk—memory, loss, hope. You hear details you wouldn't have if you'd led with tech. The conversation deepens, and Teo returns with fresh cups of tea for those who stay."]
+
+Teo: "You always pick the neighborhood. I like that. But promise me the legal stuff won't be so slow we miss a season."
+
+You: "We build speed into the contract: phased funding, predefined review periods, calendar triggers. No foggy 'as soon as possible.'"
+
+Elias: (softly, to you) "This—this is the kind of work that actually matters. Don't let the lawyers make it feel like fantasy."
+
+You nod. His words are a low, steady buoy.
+
+[Scene: Meeting Room | Late Afternoon]
+[Visual: The table again, now with a whiteboard crowded with clauses, timelines, and a small printed badge prototype for community auditors]
+[Music: Strings swell with gentle optimism]
+[Sound: A distant gull; sunlight gone slanted and forgiving]
+
+Mayor Lila joins via a holo-link, her lined face composed, a laminated schedule half-silhouette behind her. Her expression is complex; she listens with the weight of a city in every blink.
+
+Mayor Lila: "If the city signs an enforcement memorandum, it becomes policy. That gives us teeth. But I need the community's process spelled out and a maintenance fund ring-fenced. No political wiggle room."
+
+You: "We'll include the municipal enforcement memorandum in the covenant and ring-fence the pilot funds in escrow with conditional release triggers. Jun will design the audit thresholds; Teo will chair the maintenance cooperative nominations."
+
+Jun: "We can define thresholds based on empirical risk models and add community confidence metrics. Both need to be satisfied."
+
+Hana: "My legal team will translate the technical annex into enforceable clauses. I will also personally commit to an open telemetry standard and to transfer repair protocols to community ownership upon verified competence."
+
+Elias studies Hana, then you, then Lila. His look is complex, as many things are now. Elias: "Hana, if you mean that—really mean that—then this could be the model we've been needing. Not charity, not takeover. Partnership."
+
+Hana exhales a breath you can feel like a small thaw. Hana: "I mean it. But it will take paperwork, guarantees, and a public record. I'm willing to do that."
+
+You listen as everyone folds their commitments into a shape that could hold. The room hums with the sort of practical hope that builds things: clauses, badges, training modules, pumps that will be repaired at midnight by neighbors who know the code.
+
+In your head, the problem narrows: how do you lock Aegis into a true partnership so that promises become enforceable action without strangling the pilot in red tape or allowing performance to be reduced to mere optics?
+
+The answers you need are not mutually exclusive — they are strategic choices. Each will lean the project toward a different balance of legal enforceability, political momentum, and measured accountability.
+
+Your pulse picks up in the pleasing way of a plan within reach.
+
+[Page-Turn Moment: You imagine the plaza with people gathered for a launch—drills, kids learning a simple valve-check, Jun calibrating sensors as Teo sketches a maintenance kiosk. The image is so clear it steadies you. You realize the immediate next step is not another draft but a commitment: one of three ways to bind Aegis so it cannot walk away. You breathe, tasting citrus and the faint mineral tang of the sea, and feel an honest, rising conviction that the work can be done.]
+
+[DECISION POINT]
+How do I lock Aegis into a true partnership?
+1) Option 1: "Push for legally binding contracts with community veto and maintenance cooperatives." -> TARGET chapter_id: [12] -> TARGET chapter_index: [12]
+2) Option 2: "Stage a public joint rollout to create political momentum and pressure for guarantees." -> TARGET chapter_id: [6] -> TARGET chapter_index: [6]
+3) Option 3: "Propose a staged pilot with escrowed funds released only after community-audited outcomes." -> TARGET chapter_id: [9] -> TARGET chapter_index: [9]

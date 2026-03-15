@@ -1,0 +1,286 @@
+label chapter12:
+
+    # [Scene: Municipal Hall | Night]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Shouts ricochet off concrete—voices like snapped lines; a distant car alarm flutters. Thunder rolls close, hungry.]
+    # play music "music_placeholder"  # [Music: Aggressive strings weave with percussion; tempo quickens.]
+    "Narration:"
+    "You walk out of the chamber with your sleeves wet and the taste of metal on your tongue. The thing you pushed into the light—papers, appendices, an argument translated into proof—has done what evidence does: it"
+    "has split the room open. There is no neat victory here. There is only the echo of every story that could not be contained."
+    "Your hands remember the lectern's grain. Your mind keeps counting: who left in the first hour; who returned to their porch and found the mailbox empty; which volunteer's van didn't come back. Details accrete into a"
+    "ledger of loss. The legal route you chose (or the mediated audit you accepted) unspooled into processes that move slower than water but hit harder than a wave: motions filed, sub-committees formed, timelines extended. The auditors'"
+    "language is soft; the consequences are not."
+    show mayor_tomas_greer at left:
+        zoom 0.7
+
+    mayor_tomas_greer "We'll get through the audit. It will be—"
+    "Narration:"
+    "(He swallows.)"
+
+    mayor_tomas_greer "It will be thorough, Maya. That's what people asked for."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "Thorough is a word that takes months, Tomas. People need roofs and docklines now. Thorough doesn't stop tides."
+
+    mayor_tomas_greer "I know. I know what it looks like up close. The county says we can't divert funds until the audit finishes. Legal cautions—"
+    "Narration:"
+    "You feel the words as a vise. Delays as protection: a bureaucratic palliative while tides keep coming."
+    "Lina Park steps up beside you, jaw set sharp as a file. Her tablet glows with a list of volunteer rosters and legal filings, a small white flag pinned in the middle that says 'Next Steps'."
+    show lina_park at center:
+        zoom 0.7
+
+    lina_park "We mobilized oversight. We made it public. That was the right call."
+
+    maya_soler "Right doesn't rebuild a house."
+
+    lina_park "It keeps the decision from being bought. It keeps us from letting secrecy swallow the marsh."
+    "Narration:"
+    "You don't want her to be wrong, but you also don't want to watch the old crane at the port keep digging while the audit drags. Both truths can sit in your chest, sharp and jagged."
+    hide mayor_tomas_greer
+    hide maya_soler
+    hide lina_park
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain intensifies; a nearby window cracks with wind.]
+
+    menu:
+        "Tell the volunteers we'll hold the line at the Flats tonight":
+            "You raise your voice and make the quick, blunt plan. A dozen hands reach toward the map; someone hands you a flashlight. The group moves with the clumsy confidence of people who still can act."
+        "Advise caution — wait for the legal status":
+            "You urge calm and protocol. Faces fall, some relieved, some furious; a volunteer mutters that prudence looks a lot like surrender. The tablet in Lina's hands emits a cold-blue glow as she sends another email."
+
+    # --- merge ---
+    "..."
+    # [Scene: Rooftop Garden & Solar Terrace | Two Days Later | Late Afternoon]
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft thud of a crate being set down; gulls sound distant, rotational and wary.]
+    # play music "music_placeholder"  # [Music: Low, droning cello with a distant timpani—heartbeat and threat.]
+    "Narration:"
+    "You come up here because the terrace is where you used to breathe. Now it is where you count losses in the faces of volunteers and neighbors. People have started to leave. A 'For Sale' sign"
+    "leans against a shopfront you can see from the terrace; in someone's yard a boat is wrapped in tarpaulin as if already grieving."
+    "Rita Soler arrives later than usual, scarf clamped tight, the seams of her coat wet. Her palms cup a thermos; she offers you a paper cup. You accept because there is warmth in the hand-off, even as everything feels like it's being taken."
+    show rita_soler at left:
+        zoom 0.7
+
+    rita_soler "They told me two houses on Harbor Street sold this morning,' she says without preamble. 'Young family. Bought by someone with a card from the city."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "Do you think they'll be safe where they go?"
+
+    rita_soler "Not always. But they're alive—sometimes that's the only ledger you can keep open."
+    show lina_park at center:
+        zoom 0.7
+
+    lina_park "Evelyn's team filed the counter-report today. They framed several of our volunteers as 'uninformed stakeholders'. They're questioning methodologies."
+
+    maya_soler "Questioning how we counted plants. Questioning how we counted people's futures."
+
+    lina_park "They're good at reframing, at tidying narratives. The audit's going to be a filter."
+    "Narration:"
+    "Evelyn Hart's voice—always measured—seems to echo around the terrace, the syllables like stones dropped in a well. You remember her at the meeting: composed, her sleeve immaculate despite the wind. Her presence now is a kind of weather."
+    hide rita_soler
+    hide maya_soler
+    hide lina_park
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The terrace's solar panels click; a ratchet turns as someone tightens a line.]
+
+    menu:
+        "Go down to the harbor and confront the quota board":
+            "You grab your jacket and head down the stairs. On the pier you find men and women with faces like maps—lines of worry. The quota board is a digital glow you want to shatter with your hands. You try reason; you try anger; the board blinks back with policy."
+        "Try to steady Arin first — he's in the harbor, and you can't do everything":
+            "You send a quick message to Arin to meet you at the lantern house. The harbor feels colder when you're trying to be both scientist and anchor. You blink and the sky is a slit of low light."
+
+    # --- merge ---
+    "..."
+    # [Scene: Lira Bay Harbor — Fisherman's Pier & Lantern House | Dusk]
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sea hitting the pilings, a slow metallic thump of winch and chain; voices low and angry.]
+    # play music "music_placeholder"  # [Music: Percussive, fast, a strike of violins; the cadence of panic.]
+    "Narration:"
+    "You find Arin near the lantern house, sleeves rolled, hands knotted around a rope. He looks smaller than he used to, shoulders bent by a gravity that has nothing to do with tides. His face is salt and coal; his eyes—amber—are a bruise you keep returning to."
+    show arin_kai at left:
+        zoom 0.7
+
+    arin_kai "They're docking a couple for auction at first light. Quota cuts 'til further notice."
+    "Narration:"
+    "(He spits the bureaucratic phrase like a curse.)"
+
+    arin_kai "They say it's redistribution. They say it's 'ecological recovery'."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "Who decides? Who signs the slips that make a family's livelihood disappear?"
+
+    arin_kai "Hands in the system. Lines of credit. A lawyer with nicer shoes than any of us will ever own. And somewhere in a room, someone decides that numbers are more reliable than a net."
+    "Narration:"
+    "You want to shout that numbers are bodies. You want to point at the marsh and say those plants are futures, not variables. Instead your voice tightens to a thread."
+
+    maya_soler "We exposed the appendix. We wanted transparency."
+
+    arin_kai "Transparency got us paper. It didn't buy fuel for the winter. It didn't stop the bank from listing a lien on my father's boat."
+
+    arin_kai "You did the right thing—maybe. But it didn't mean 'no harm'. It meant 'known harm'."
+    "Narration:"
+    "You both stand on the pier and the bay answers with a swell. A tow truck operator walks up to the boatline and says, 'We're clearing space.' His face is expressionless—neither villain nor ally, just a function."
+    # play sound "sfx_placeholder"  # [Sound: A winch snags; a first boat shudders free. A child's laugh from somewhere makes you flinch; an old dog barks.]
+
+    "Rita Soler (off)" "Maya! Come here!"
+    hide arin_kai
+    hide maya_soler
+
+    scene bg ch12_f99e88_6 at full_bg
+    show rita_soler at left:
+        zoom 0.7
+
+    rita_soler "There's a family from Harbor Street. They're packing a car. They asked if you could look after the garden on the terrace."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "Tell them yes. Tell them we'll keep things that can be kept."
+
+    rita_soler "Keep things that can be kept,"
+    "Narration:"
+    "You feel the ache of promises kept and the shape of what you cannot keep. The lantern's light blurs; the world feels like a photograph left in rain."
+    # [Scene: Municipal Offices — Audit Hearing Room | Two Weeks Later | Gray Midday]
+    hide rita_soler
+    hide maya_soler
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The murmur of cameras; the scratch of pens; the click of a recorder.]
+    # play music "music_placeholder"  # [Music: A low dissonant chord that refuses resolution.]
+    "Narration:"
+    "The audit is a long knife. It slices through narratives with procedural patience. In public hearings the language is clinical—'conflicts of interest', 'procurement timelines', 'statistical significance'—and it sounds like someone explaining why a building must come down."
+    show evelyn_hart at left:
+        zoom 0.7
+
+    evelyn_hart "We welcome the scrutiny. Our data will stand. Our measures protect the town's critical infrastructure."
+    show lina_park at right:
+        zoom 0.7
+
+    lina_park "Protected how? With walls that cut communities off? With redevelopment that prices out fishermen?"
+
+    evelyn_hart "Adaptive measures require investment. We cannot let sentimentality hinder scale."
+    show mayor_tomas_greer at center:
+        zoom 0.7
+
+    mayor_tomas_greer "Our duty is to keep lives intact. This audit will clarify how that is achieved."
+    "Narration:"
+    "The mediated outcome emerges not as a verdict but as a compromise. There are concessions—some review committees, community liaisons appointed—but also technical wiggle-room. Evelyn's team keeps enough distance from culpability that she remains politically usable. The developers pause, their checks on hold. Some investors say they'll renegotiate. Some don't."
+    "You read the pages handed out in that room: lines that look like progress and feel like a slowly closing loop. The relief is brittle."
+    # play sound "sfx_placeholder"  # [Sound: In the room somewhere, a phone vibrates. A notification pings: 'Foreclosure notice served on 12 Harbor Street.']
+    # play music "music_placeholder"  # [Music: A single violin shrieks, then cuts.]
+    "Narration:"
+    "You are left with moral clarity and material loss. The audit confirmed malpractice in small places and institutional oversight in others; it documented what you already suspected and gave it names. But the paperwork takes time."
+    "Time is where houses leak and boats are sold. Transparency did not protect the bay from immediate harm—it lit the harm for everyone to see."
+    hide evelyn_hart
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "So we have the truth, and we have people on the dock taking inventory of what they can still hold onto."
+
+    lina_park "Truth matters. It will matter years from now, when the policy record is cited, when grants are written differently. But right now—"
+
+    maya_soler "—right now it feels like we traded silence for spectacle, and the spectacle didn't stop the tide."
+
+    mayor_tomas_greer "We will secure relief funds. County offices are... coordinating."
+
+    maya_soler "Coordinate until what? Until the storm season starts? Until the quay collapses?"
+    hide lina_park
+    show evelyn_hart at right:
+        zoom 0.7
+
+    evelyn_hart "Emotion is expected in public forums, Ms. Soler. Practicality will guide us now."
+    "Narration:"
+    "Her smile is a razor folded into civility. You see it and feel a hollowing, as though a part of you had been hoarded away by systematized calm."
+    # [Scene: Rooftop Garden & Solar Terrace | One Month Later | Early Morning]
+    hide mayor_tomas_greer
+    hide maya_soler
+    hide evelyn_hart
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A kettle hissing. Voices afar, then silence.]
+    # play music "music_placeholder"  # [Music: A low, elegiac theme—minor key piano with distant wind.]
+    "Narration:"
+    "The town has changed shape. Some neighbors sold and left before the waters found them; others stayed and grew thinner at the seams. Arin's name is on a list—quota redistributed. A couple of boats were sold;"
+    "one of them belonged to a family that's been fishing for three generations. Their absence is a gap that the harbor notices the way a body notices a missing limb."
+    "Arin stands at the terrace edge. There is a line in his jaw you have never seen before. He looks at the water as if expecting it to answer him back."
+    show arin_kai at left:
+        zoom 0.7
+
+    arin_kai "They offered a retraining grant. Something for shoreline restoration. Not enough fuel money, but... training."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "Do you want it?"
+
+    arin_kai "Do I want to be told how to adapt by people who've never fished a rising tide? No. But I want my kids to wake up. I want my father's tools off the auction block."
+    "Narration:"
+    "There is no neat reconciliation. There is only the work: mapping what can be rescued, writing grants that smell like preserved desperation, teaching others to plant marsh grass in the thin hours between storms and bank notices."
+    "Rita sits beside you with her thermos. Her face is the map of years and choices."
+    show rita_soler at center:
+        zoom 0.7
+
+    rita_soler "Truth came. It didn't stop the river. But it makes us remember who we were protecting."
+
+    maya_soler "It also showed who would stay and who would sell."
+
+    rita_soler "People sell for many reasons. Shame won't help them load a truck. Neither will your guilt. You did what you could."
+    "Narration:"
+    "You test the consolation; it fits awkwardly. You have exposed damage and named the architects of it, and the naming made the damage visible in ways that would haunt the town's memory. Families left with boxes."
+    "Arin's boat sits on a lot with a chain around its hull. You bruise your knuckles on a railing—a private, sharp, useful pain."
+    hide arin_kai
+    hide maya_soler
+    hide rita_soler
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull cries; a siren wails far away.]
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "I thought if I brought the appendix out, we'd at least get time to make different choices."
+    show arin_kai at right:
+        zoom 0.7
+
+    arin_kai "We bought candor—not shelter. There's a difference."
+
+    maya_soler "What do we do now?"
+
+    arin_kai "You keep doing the thing you do. Maps, plants, patience. I'll keep what pieces I can. Maybe I'll take that grant for now. Maybe I won't. We'll see."
+
+    maya_soler "And us?"
+
+    arin_kai "Us... is something I don't know how to promise anymore. Not when I wake up counting fuel. Not when the next tide could take more than a boat."
+    "Narration:"
+    "You hold the loss of certainty like a stone. You had imagined paths that wound back toward each other: shared stewardship, hands in mud, nights on the terrace talking until dawn. The path you had planned"
+    "is littered now with notices and auction listings. Love, once a promise you could fold into a plan, becomes another kind of work—tender, uncertain, liable to be undone by economy and policy."
+    hide maya_soler
+    hide arin_kai
+
+    scene bg ch12_f99e88_10 at full_bg
+    # play music "music_placeholder"  # [Music: Pianissimo—one note held then released into silence.]
+    "Narration:"
+    "There is moral clarity: the town knows its records, the audit is in public hands, Evelyn's name is recorded with mitigating clauses and acknowledgements. There is accountability shaped like a slow device. There are signs that"
+    "this record will alter future proposals, that grant committees will read your appendices and think twice. That is a seed. Seeds take seasons."
+    "There is also material loss. Boats sold, shops shuttered, a net of community frayed. You have not stopped harm. You have called it what it was."
+    "Silence gathers. You fold your hands and let the terrace's cold seep into your bones. In your mind's ear you can still hear Lina's insistence, Rita's old stories, Arin's tired pragmatism. You mourn what has been"
+    "lost and you catalog what remains: a stretch of marsh still holding, a handful of volunteers, your own stubborn hands."
+    "Narration:"
+    "You will keep coming back. You will keep mapping, replanting, testifying, teaching. The bay will not be healed in months. It will keep asking you to choose between tending a bed of glasswort and untangling bureaucracy."
+    "You will choose both and neither; you'll choose what is possible. You will love and you will be loved imperfectly, in shards and in remnants."
+    "The storm will come again. So will the sun. You stand on the terrace and make a promise not to a person but to the place: to record the truth, to bury it in the public"
+    "ledger so that the next time a wall is proposed, a community might remember and say no with knowledge."
+    "You close your notebook. The pages are damp, but the ink has not run."
+
+    scene bg ch12_f99e88_11 at full_bg
+    # play music "music_placeholder"  # [Music: A lone cello plays a slow descending line as the screen softens into dusk.]
+
+    scene bg ch12_f99e88_12 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,198 @@
+label chapter18:
+
+    # [Scene: Corporate Seawall Construction Site | Morning]
+
+    scene bg ch15_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant jackhammers, the low moan of winches, gulls calling. A diesel engine idles.]
+    "You stand with Mayor Jerome Hale and Dr. Elena Park beneath a scaffold of scaffolding and tarpaulin, the sea beyond already hemmed by new stone. The hybrid decision from months back — the fragile truce between marsh and machinery — has become machinery in earnest."
+    show mayor_jerome_hale at left:
+        zoom 0.7
+
+    mayor_jerome_hale "This will secure sixty-eight properties in the first phase, with room for more if the harbor stabilization performs as projected."
+    "You can feel your thumb press the tide-watch in your pocket until the brass bites the fabric. The watch has that stubborn heat about it; it hums with decisions you made at council tables and hurried"
+    "phone calls in the small hours. Elena stands to your right, the lines of her coat clean as a blueprint — her mouth narrowed, satisfied."
+    show dr_elena_park at right:
+        zoom 0.7
+
+    dr_elena_park "We modeled the increased load. The extension is within tolerance. It will buy time, Maya."
+    show maya_serrin at center:
+        zoom 0.7
+
+    maya_serrin "Buy time for whom?"
+    "You keep your voice clipped, thin with the cold. 'Buy time for what? We made space for both approaches once. We said we would steward the marsh, not bury it.'"
+    "Elena's eyes do not flicker with guilt. They are something else — the cool glow of a machine that solved its own problems."
+
+    dr_elena_park "You asked for rapid protection. The investors needed results. This is the fastest way to guarantee people can keep homes above water this season."
+
+    mayor_jerome_hale "We needed public confidence. Insurance rates fall, mortgages stabilize—people can breathe. That's governance, Maya."
+    "You look out across the worksite. Men in fluorescent vests move like tide lines. Concrete pours into forms with a sound like a low, awful heartbeat. You imagine the sediment maps Nyla gave you, the diagrams"
+    "that showed how a bulwark shifted flows. You imagine, too, the faces in the meeting rooms who ran their fingers over spreadsheets and smiled."
+    "Your voice feels small against the machines, but it is steady enough to cut the air."
+
+    maya_serrin "We promised community oversight, environmental thresholds, binding protections for fishing lanes."
+
+    dr_elena_park "We included monitoring contracts. There will be environmental surveillance. This model scales—other towns will want it."
+    "You open your mouth, then close it. There is a ledger in Elena's words: lives saved in the immediate, downstream losses unaccounted for or deferred to critics and charts and later committees. You sign the authorization"
+    "paperwork with a pen that smells faintly of oil. The motion is ordinary and catastrophic."
+    # play sound "sfx_placeholder"  # [Sound: The stamp of a seal. Nearby, a concrete mixer thuds.]
+
+    menu:
+        "Place your hand over the seal when you stamp it":
+            "You press your palm to the official seal after stamping, as if your palm can steady the decision. The paper takes your imprint, but the wind takes nothing."
+        "Fold the documents into the inner pocket and walk away":
+            "You tuck the final page into your parka, pretending to shield it. Your fingers feel the ridge of the fold, as if it's a scar."
+
+    # --- merge ---
+    "The scene continues after the decision, with the authorization complete and the work moving forward."
+    # [Scene: Expanded Seawall | Late Afternoon — Weeks Later]
+    hide mayor_jerome_hale
+    hide dr_elena_park
+    hide maya_serrin
+
+    scene bg ch15_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A steady mechanical rhythm — pumps, the scrape of tracked cranes. Children’s laughter is quieter; the water's surf is different, duller.]
+
+    "The immediate effects are undeniable. Letters arrive" "Your flood insurance has been adjusted."
+    show mayor_jerome_hale at left:
+        zoom 0.7
+
+    mayor_jerome_hale "The town committee approved the funding tranche. We can accelerate phase two next month if the investors hold."
+    show dr_elena_park at right:
+        zoom 0.7
+
+    dr_elena_park "They're pleased. The model is working and the press likes a success narrative."
+    "There are congratulations, press handshakes, a plaque ordered with Elena's firm name. There are also subtle shifts you feel in the marrow of things: the tidal pools that used to mirror cottages are flatter. Paths that"
+    "children used to take at low tide now end in a glare of new concrete. You keep thinking of Old Man Cala's stories of moon-gates and channels that taught fishers where the sea moved; a whole"
+    "lexicon of practical knowledge seems to be losing the words that explained it."
+    "You walk along the new promenade where homeowners now stroll, and a windless hush presses the smell of diesel into your hair. A delivery truck hums past with a driver who nods at you like a stranger who just happens to live next door."
+    show nyla_torres at center:
+        zoom 0.7
+
+    nyla_torres "Data's updating. Shoreline displacement is measurable already. Sediment's moving offshore at the estuary bend. We can simulate the long-term, but—"
+    hide mayor_jerome_hale
+    show maya_serrin at left:
+        zoom 0.7
+
+    maya_serrin "We knew that would happen. We modeled it. But people voted with their fear. We offered them a choice: immediate safety or a different kind of safety. They chose now."
+    "Nyla's face is streaked with mud and salt, her usual fire tempered by fatigue."
+
+    nyla_torres "They chose bread, Maya. Rent and bills were crumbling. I'm not saying it's right or wrong—just that choices are heavy with other people's needs."
+    "You want to argue, to demand more safeguards. You want to force Elena to sign a legally binding covenant that will protect fishing lanes and ensure sediment replenishment. But the covenant would require time you do not have. The cranes do not pause for ethical clarifications."
+
+    menu:
+        "Pull Nyla aside and demand she run the legal simulations immediately":
+            "You press the tablet between your palms and point at the graphs. Nyla nods, fingers already flying over the screen, promising to draft language. You feel the beginning of a plan and the shape of fresh exhaustion."
+        "Leave Nyla to the data and walk down to the quay to see it for yourself":
+            "You let Nyla work. The tablet's light reflects in her eyes and she makes a note to update you. You walk toward where the water meets engineered stone, needing to be a witness."
+
+    # --- merge ---
+    "The narrative continues as the consequences of the seawall become clearer at the quay."
+    # [Scene: Quay | Dawn — The Fishing Co-op]
+    hide dr_elena_park
+    hide nyla_torres
+    hide maya_serrin
+
+    scene bg ch15_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A hollow, persistent slap of empty nets; a distant engine revving for a boat that won't find the shoal it remembers.]
+    "You come down the gangway and the air tastes of old fish and damp rope. Men gather near the co-op with hands that have held lines for decades. They do not look at you with simple anger but with a complex, layered disappointment that feels like a monthly tide."
+    "Aiden Koa stands with his back to you at the lip of the seawall, shoulders hunched, tracing the line where old maps show a channel. His callused hand moves along the concrete, as if reading the"
+    "grain like a seam of history. The wave tattoo on his forearm — once a symbol of belonging — looks small against the manufactured wall."
+    show aiden_koa at left:
+        zoom 0.7
+
+    aiden_koa "They pushed the channel out two hundred meters last month. The midline shoal shifted like it always does, but now the current’s different. The fish—"
+    "His voice breaks on the last word."
+    show maya_serrin at right:
+        zoom 0.7
+
+    maya_serrin "We tried to include protections. We tried—"
+
+    aiden_koa "You authorized more than inclusion, Maya. You let them press concrete into our mouth. My nets come up with sand. The traps are empty. People I grew up with started taking their last catches to the market and then packing a single bag for the bus."
+    "There is a sound like a net dropped to the dock: hollow and final."
+    "You reach for words that will stitch what you did to what is left. Your empathy is a map of obligations and failures; you trace the border between them."
+
+    maya_serrin "Elena promised monitoring. Legal covenants—"
+
+    aiden_koa "Promises don't feed a family this week. They don't fix a propellor in time. You can say they made a plan, but they made it without asking us to move our habits. They moved the sea and left us with the bill."
+    "Dr. Elena Park appears at the edge of the quay, hands folded, her expression unreadable in the morning haze — complex, yes, but it leans toward a triumph that tastes of iron."
+    show dr_elena_park at center:
+        zoom 0.7
+
+    dr_elena_park "We have contingency funds for transition. The company will fund training programs and buyout packages for those who choose to relocate."
+    "A low, angry murmur runs through the co-op. Some men spit into the water like a ritual. Others fold their arms and watch."
+    hide aiden_koa
+    show mayor_jerome_hale at left:
+        zoom 0.7
+
+    mayor_jerome_hale "We are arranging temporary docking subsidies, emergency grants. We're not abandoning you."
+    "A fisherman you know — Tomas, who taught younger hands how to splice line — laughs once, a brittle sound."
+
+    "Tomas (Fisherman)" "Subsidies. Grants. Words that mean 'wait while we build the thing that makes it impossible for us to fish where we've always fished.'"
+    "You feel something harden and then splinter inside you. There should be a way to explain the arithmetic of storm frequencies and investor timelines, but every number feels like paper pushed against a wound. Aiden's eyes"
+    "find yours, and for a moment the tide of everything between you is visible: trust, accusation, the intimacy of shared work. He does not soften."
+    hide maya_serrin
+    show aiden_koa at right:
+        zoom 0.7
+
+    aiden_koa "You saved houses, Maya. You saved the town on a map. You let them redraw where Saltwood begins and ends."
+    hide dr_elena_park
+    show maya_serrin at center:
+        zoom 0.7
+
+    maya_serrin "I was trying to save lives. I couldn't—"
+
+    aiden_koa "You could have said no. You could have fought for different funding models, slower timelines. You could have kept it closer to what we needed."
+    "The accusation is a physical thing. It hits you like a wave against rock. You want to tell him about the injured fisherman in the clinic, about the investor calls at three a.m., about the mayor's threats and the petitions from frightened homeowners. You want to be understood."
+
+    maya_serrin "Do you know what it feels like to hold all those faces and decide? That hunger in the room? To watch a mother count the money for plywood and think, 'If I can't get this, our kid will not sleep dry'? I tried to find a middle that wouldn't leave either of us behind."
+    "Aiden's jaw works. There is so much else — grief, practical anger, the ache of losing a landscape you loved. He looks down at his wave tattoo, runs a thumb over it as if feeling for an echo."
+
+    aiden_koa "Your middle baked strangers into our mouths. And that's on you."
+    "Elena steps closer, hands raised as if in mediation, but there is a flash of something like vindication at the back of her throat."
+    hide mayor_jerome_hale
+    show dr_elena_park at left:
+        zoom 0.7
+
+    dr_elena_park "You made the call. We'll measure, we'll mitigate. The model will be refined."
+
+    maya_serrin "Refined. And meanwhile?"
+    "The quay answers with silence. A child runs past, clutching a plastic bucket; a boat lifts its bow to the water and is hauled away on a trailer. Someone loads a rented van with a fridge and a small mattress, and the sight is ordinary and apocalyptic at once."
+
+    menu:
+        "Put your hand on Aiden's shoulder and try to bridge it":
+            "You reach out, fingers tentative on his oil-worn coat. He flinches but does not pull away; his breath is a short hit of salt and anger. For a second you think you can feel the years between you smoothing. Then he steps back, leaving your hand to curl empty."
+        "Step back and give him space, letting the quay's reality speak":
+            "You take a half-step away. The space between you widens; it feels like giving him room to grieve, but also like conceding a small, private battlefield. He watches you go, unreadable."
+
+    # --- merge ---
+    "The emotional rupture remains as the town adjusts to its new boundaries; the scene continues to the cliffs."
+    # [Scene: Saltwood Cliffs | Night]
+    hide aiden_koa
+    hide maya_serrin
+    hide dr_elena_park
+
+    scene bg ch15_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single bowed cello, low and sustained. The air is a thin, painful chord.]
+    "You climb the path alone, boots making a muted slap against the wet board. The town is quieter now; the skyline is angular with concrete where it used to be lyrical with boardwalks and boat masts."
+    "The floodlights cast a clinical stripe across the beach. From up here the town is a changed geography: lines drawn where none had been, a coastline remapped by consent and compromise."
+    "You hold the tide-watch between your fingers until it warms. Your shoulders are taut, and the ache is a raw, expanding thing that eats small comforts: a neighbor's laughter you won't hear again, the taste of"
+    "a certain clamshell chowder you will not make, the precise angle of the sun across the marsh in late July."
+    "You think of the families who left, the men at the quay, Old Man Cala's stories that now belong to a different shore. You think of Aiden tracing the seawall like a finger reading a scar."
+    "You remember Elena's small smile when the investors called, and the way Mayor Hale said 'public confidence' as if it were the same thing as a beating heart."
+    "A letter arrives in your memory — Nyla's graphs, a page of numbers threaded with possible futures. You recount them like a litany: lives saved now, incomes collapsed over seasons, tides pushed to new boundaries. You"
+    "think of the children who will know this coastline as concrete and not as a living fold."
+    "There is no revelation that absolves you. There is, at most, an accumulation of understanding and sorrow. You wanted to prevent immediate loss; you did. The town survives in a practical way: homes hold, insurance companies"
+    "nod, lights stay on through storms. But the rhythms that taught people how to be Saltwood — the tide's lessons, the places where fish came close to shore, the way people said each other's names during"
+    "low-water repairs — those rhythms have been narrowed."
+    "You think, finally, of what you will tell your own stories about this time. Will you say you chose pragmatism and saved lives, and accept what that pragmatism took? Will you carry regret like a stone"
+    "in your coat? Will Aiden ever look at that concrete and hear anything of the small, messy town he grew up in?"
+    "The wind takes the question as if it were a paper, and the paper crumples."
+    "You watch the seawall's lights flicker, and for a long time you only breathe. There is a strange, bitter hush to the town that saved itself at the cost of its ungoverned edges."
+    "You are not absolved. You did what you thought was right in a moment that offered only hard choices. The settlement stands. The skyline is different. Some people are safe; some are lost. You hold the knowledge like a wound you will bandage but not remove."
+    "You turn the tide-watch over in your hand and close your fingers around it. The brass is familiar; it has been at every decision point. Tonight it feels almost too warm."
+    "You walk down the cliff path, the lights of the seawall receding, and you carry with you the narrow shore that remains — clean, defended, and diminished."
+
+    scene bg ch15_3be532_5 at full_bg
+    "THE END"
+    # [GAME END]
+    return

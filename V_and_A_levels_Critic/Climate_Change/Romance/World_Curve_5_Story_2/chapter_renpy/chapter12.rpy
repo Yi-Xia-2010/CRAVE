@@ -1,0 +1,217 @@
+label chapter12:
+
+    # [Scene: Tide-sprayed Conference Room | Morning]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A persistent slap of tide against pilings; the distant hiss of a cargo winch]
+    # play music "music_placeholder"  # [Music: Tense, brisk strings under an electronic tick—heartbeat tempo]
+    "You step into the room with the taste of metal and kelp at the back of your throat, the notebook heavy at your ribs. The decision you voiced in Chapter Three has already shifted the town's shape—like a skiff nudging against a tide—and the consequences arrive faster than you expected."
+    "Dr. Selene Park stands at the front, immaculate against the gritty backdrop. Her AR spectacles throw a lattice of holographic data into the humid air: wave attenuation curves, projected marsh accretion, animated pods labeled 'Engineered Rhizome Scaffold' and 'Seed Packet Beta-3.' The projections hum with sterile promise."
+    show dr_selene_park at left:
+        zoom 0.7
+
+    dr_selene_park "Ms. Navarro—thank you. Our first shipments are en route. These seed packets have been engineered for saline variability; the scaffolds accelerate root anchoring by forty percent in trial sites. We can deploy within seventy-two hours."
+    "You feel the words in your teeth—useful, precise. Useful, and already moving the town toward a path you didn't fully map out. The room watches you the way gulls watch a thrown fish: expectant, hungry, quick to descend."
+    "Mateo Ríos is beside you, hands folded around a rolled blueprint tube. Relief and a sharpened worry make small, conflicting constellations on his face."
+    show mateo_ros at right:
+        zoom 0.7
+
+    mateo_ros "Seventy-two hours is… fast. It buys neighbors breathing room. But we need binding terms—maintenance commitments, data transparency, a moratorium on irreversible structural changes."
+
+    dr_selene_park "We welcome municipal oversight. Our standard contracts include performance guarantees; we can modify clauses, of course. We move quickly because urgency demands it."
+    "You keep your voice steady because steadiness is a tool you can hand the room; but inside, a knot tightens—old, familiar: the part of you that remembers your mother's house gone, remembers promises made in emergency that later left empty porches."
+    show aiko_navarro at center:
+        zoom 0.7
+
+    aiko_navarro "Speed matters. So does who decides where these technologies go, and how long they stay. We need clarity on governance—who maintains these scaffolds, who pulls them if they fail, what safeguards there are against monoculture replacement."
+
+    dr_selene_park "Agreed. We can propose a joint oversight committee. We have legal counsel standing by to draft a fast-track memorandum."
+    "Tala, perched on the edge of a folding chair, doesn't bother with politeness. Her words are a blade."
+    hide dr_selene_park
+    show tala_kumari at left:
+        zoom 0.7
+
+    tala_kumari "Fast-track memos look great on paper when you're watching from a glossy lab. We don't need your counsel—we need trust. Where has corporate speed left us except with fewer neighbors and a prettier sea wall?"
+    "The room tightens. Old Man Rohan, fingers stained with iodine and years, says nothing at first; his gaze follows the holograms like someone reading a map you cannot fold back into your pocket."
+    hide mateo_ros
+    show old_man_rohan at right:
+        zoom 0.7
+
+    old_man_rohan "There was a time we planted eelgrass and called it ours. The sea knew. Machines can't tell you the smell of a tide before a storm."
+    "His words have gravity. Dr. Park inclines in acknowledgment but her lips are a line: strategy."
+    hide aiko_navarro
+    show dr_selene_park at center:
+        zoom 0.7
+
+    dr_selene_park "Traditional knowledge is valuable. Our models incorporate historical tidal datasets. Collaboration isn't paywalling memory—it's scaling protection."
+    "Ivy, face flushed as if the sea had kissed her hard, cuts in, voice shaking between anger and fear."
+    hide tala_kumari
+    show ivy_navarro at left:
+        zoom 0.7
+
+    ivy_navarro "Scaling protection doesn't pay rent if the company buys up lots and turns us out. Jobs now mean a contract later that says 'relocate.' Which of you will sign to keep my cousin's place? Who guarantees people can still fish the old channels?"
+    "Mateo Ríos reaches and squeezes your shoulder, a small anchor. You decide whether to deflect, to promise, to press a question that might expose Dr. Park's limits."
+
+    menu:
+        "Ask for a written moratorium on displacement clauses":
+            "You voice the demand plainly. Dr. Park's smile narrows; a murmur runs around the room. Mateo's jaw tightens in approval, Tala's eyes soften for a second."
+        "Hold the question, listen to the council's tone first":
+            "You keep the line of inquiry in reserve. The room moves faster, speculation filling the gaps. Dr. Park launches into the technical benefits and the word 'moratorium' never rises."
+
+    # --- merge ---
+    "Scene continues"
+    # [Scene: Docks — Unloading | Midday]
+    hide old_man_rohan
+    hide dr_selene_park
+    hide ivy_navarro
+
+    scene bg ch10_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Crate slams, shouted directions, gulls cutting the salt air]
+    # [Smell: Diesel, wet wood, sharp adhesive]
+    # play music "music_placeholder"  # [Music: Fast percussion, uneasy rhythms—every sound a tick on an invisible clock]
+    "The first shipment thuds onto the docks with a sound that feels like a verdict. Volunteers—some wearing Tidepark vests, others municipal jackets, and a few with Tala's unmistakable array of pins—work under the bright, anxious sky."
+    "You move through the crowd. People talk in small storms: excitement, dread, bargaining. A young systems technician in a corporate polo tries to explain scaffold modules to a cluster of fishers; their hands show the geometry of tides, not codes, and they speak in metaphors the worker does not catch."
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "I can draft emergency clauses. Time-limited deployment, community veto power on anchor points, guaranteed local labor hires—terms that keep the town's agency."
+    "His words are rapid, a pebble skipping across currents. He wants to keep the ship steady between speed and sovereignty. He believes in the middle ground because it can be all that holds people together."
+    "Tala crosses her arms, jaw set."
+    show tala_kumari at right:
+        zoom 0.7
+
+    tala_kumari "Hires? Sure. For now. Until the company automates the jobs and relocates the leaseholders. We don't want to be the test site that proves some algorithm and then gets turned into a case study."
+    "Old Man Rohan watches the scaffolds—modules that look like latticed, living ribs—and asks the question everyone is afraid to put plainly."
+    show old_man_rohan at center:
+        zoom 0.7
+
+    old_man_rohan "If this goes wrong, who takes it back? Who takes responsibility when the beds choke or the fish leave?"
+    "The tech's answer smells of rehearsed optimism."
+
+    "Corporate Tech" "We monitor biophysical responses in real time. We have rollback procedures. Our contracts cover remediation."
+
+    "You see a line in that answer" "Our contracts.' It isn't 'our town' or 'our hands.' The word 'cover"
+    "Ivy pulls you aside, voice low and urgent."
+    hide mateo_ros
+    show ivy_navarro at left:
+        zoom 0.7
+
+    ivy_navarro "Aiko—if they start work tomorrow, people sleep tonight. My landlord's been calling around about the possibility of buying out the block. If we stall them, do you know how many families go without a roof because of one more tide?"
+    "Your chest tightens. The choices aren't theoretical. They're human, immediate, a balance of roofs and roots."
+
+    menu:
+        "Help the crew unload while asking about local hire guarantees":
+            "You lift a crate with the others; the weight grounds you. The corporate foreman nods, promises to pass your question up the chain. Mateo scribbles clauses into his tablet."
+        "Confront the foreman about rollback accountability":
+            "You demand specifics. The foreman's practiced calm fractures into defensive phrasing. Eyes in the crowd turn toward you—some relieved, some worried."
+
+    # --- merge ---
+    "Scene continues"
+    # [Scene: City Hall — Late Afternoon / Hearing Room]
+    hide tala_kumari
+    hide old_man_rohan
+    hide ivy_navarro
+
+    scene bg ch10_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Microphones buzzing, whispered arguments, rain starting faintly outside—each drop a metronome]
+    # play music "music_placeholder"  # [Music: Crescendo—strings and low brass; tension tightening like a drum roll]
+    "By the time you reach City Hall, the afternoon has turned to a low, impatient gray. Councilor Nguyen presides with a weary patience; the room smells of damp coats and the metallic tang of urgent decisions."
+    show councilor_nguyen at left:
+        zoom 0.7
+
+    councilor_nguyen "We are under time pressure. The company offers rapid protection. The risk of doing nothing is immediate. But the community's voice is, of course, central."
+    "A few councilors glance at the incoming live feed from the docks. Votes are not yet cast, but alignment leans toward the 'fast wins' camp. You can feel the political geometry: covering roofs today often wins polls tomorrow."
+    "Mateo Ríos stands and pushes a tablet across to you—draft clauses, highlighted and underscored. He meets your eyes with an intensity that isn't just professional; it's personal."
+    show mateo_ros at right:
+        zoom 0.7
+
+    mateo_ros "If we take them, we insert legally binding community governance within the pilot: a community oversight board with veto power over anchor points, a clawback clause if displacement metrics exceed thresholds, guaranteed local hiring with wage protections, and transparent environmental monitoring data shared publicly."
+    "His voice quickens—this is negotiation as rescue. It's also the only bridge you can imagine across the gulf cracking between people who want shelter now and those who fear losing everything later."
+    show dr_selene_park at center:
+        zoom 0.7
+
+    dr_selene_park "Those are reasonable requests, but they slow deployment. Delay increases exposure to an incoming storm window. We can expedite with fewer constraints."
+    hide councilor_nguyen
+    show tala_kumari at left:
+        zoom 0.7
+
+    tala_kumari "Expedite for whom, Selene? For a corporation or for the people who will stand in ankle-high water come spring?"
+    "The room erupts into a cascade of arguments. Voices overlap—some pleading for speed, some for sovereignty. Your internal monologue runs hot, the 'shoulds' and the 'mustn'ts' crowding into one another."
+    "You remember your mother's hands on a soggy table, mapping evacuation routes with a child's crayons; you remember Rohan teaching you to read the clouds. You are not the only person in this room with a ledger of losses."
+    hide mateo_ros
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "We do not get to trade agency for a temporary lull. If we sign a contract that lets a private entity own the scaffolding of our recovery, that becomes precedent. We can be protected today but erased tomorrow."
+
+    dr_selene_park "Our protocols include sunset clauses. We do not intend to own the shoreline."
+
+    tala_kumari "Sunset clauses sound like promises written in sand."
+    "Ivy's voice is small but cut through the din."
+    hide dr_selene_park
+    show ivy_navarro at center:
+        zoom 0.7
+
+    ivy_navarro "If people have work tomorrow, they can eat tonight. If no work comes, what good is 'agency' when your flat is gone?"
+    "The debate tilts between immediate human need and long-term stewardship—the exact crux you've been carrying. The urgency intensifies: a weather report pings through Councilor Nguyen's tablet. A coastal band of severe storms is forecasted to graze the bay within four days."
+    # play sound "sfx_placeholder"  # [Sound: A sharp gust rattles the window frames; rain begins in earnest, pattering into a roar]
+    # play music "music_placeholder"  # [Music: The tempo quickens—violins fraying at the edges, percussive hits like falling shingles]
+    "You feel your lungs match the rising tempo. People are looking at you. In their faces, you read trust, accusation, hope. The town's next step is a hinge and your hand is on the knob."
+    hide tala_kumari
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "We can try to negotiate safeguards. You know I lean toward consensus, but this is one of those times when structure matters as much as speed. If we lock in real legal power for the community, we can take the aid without losing our say."
+    hide aiko_navarro
+    show dr_selene_park at right:
+        zoom 0.7
+
+    dr_selene_park "Negotiation is feasible. But I cannot promise a timeline indefinite enough to avoid the initial deployment window. The storm window forces choices."
+    hide ivy_navarro
+    show tala_kumari at center:
+        zoom 0.7
+
+    tala_kumari "So either we let them in now and risk being overrun, or we hold out and watch people drown in their living rooms while we argue theory."
+    hide mateo_ros
+    show old_man_rohan at left:
+        zoom 0.7
+
+    old_man_rohan "Is this what 'negotiation' feels like? Choosing which children get a coat before the storm?"
+    "The room's sound becomes a white roar—differing imaginaries clashing: immediate shelter versus long-term sovereignty. You feel the weight of community tied to your ribs like a harness."
+    "Your mind races through practicalities and philosophy: could legal clauses truly bind a multinational? Could a moratorium on displacement hold when dollars push harder than words? If you refuse the firm, can Tala and grassroots networks"
+    "scale fast enough to keep people safe in the next few days? If you accept without safeguards, what will the town look like six months from now?"
+    "You think of the engineered seed packets stacked on the docks—potential salvation or the first layer of something that might not belong to the living memory of Marisma Bay."
+    "Your heartbeat is a drum. The rain outside intensifies, matching the pressure in the room. You know you must choose an engagement strategy now—how you, as Aiko, will steer the town through both storm and aftermath."
+
+    menu:
+        "Agree to press for immediate deployment while demanding legally binding community clauses":
+            "You speak with a voice honed by both urgency and principle. The room reacts in equal parts relief and skepticism—someone claps, someone hisses. Mateo's shoulders slump with both exhaustion and gratitude."
+        "Hold out for grassroots mobilization with Tala and delay corporate deployment":
+            "You voice solidarity with Tala. Cheers break from the Hub benches; others in the room scowl. Rohan lays a hand on your arm, proud and scared."
+
+    # --- merge ---
+    "Scene continues"
+    hide dr_selene_park
+    hide tala_kumari
+    hide old_man_rohan
+
+    scene bg ch10_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain peaking; a distant siren that could be work or warning]
+    # play music "music_placeholder"  # [Music: Peaks into a sharp chord, then narrows to a single sustained note—expectation stretched taut]
+    "You inhale as the council's murmurs coalesce into a moment carved out of wet wood and anxious faces. The choice crystallizes around three paths—each with teeth. You can try to bind the company legally to the"
+    "town's governance; you can accept immediate deployment for the promise of relief and jobs; or you can refuse the firm and double down on grassroots resistance with Tala, risking immediate suffering to keep autonomy intact."
+    "Your throat tightens. You know the town's history, the way quick contracts once took more than they gave. You also know the immediate math of tides and storms. The arousal that carried you here—urgent, high—finds its peak in the pause before you speak."
+    show councilor_nguyen at left:
+        zoom 0.7
+
+    councilor_nguyen "Ms. Navarro?"
+    "You can smell the rain through the window, the salt and the iron of decisions. Everyone is smaller and larger at once in the same instant: neighbor, political actor, future-carer. Your knuckles press into the paper of Mateo's draft, and the decision blooms, sharp as a shell."
+
+    menu:
+        "Negotiate a formal partnership that legally embeds community governance clauses.":
+            jump chapter13
+        "Accept corporate deployment immediately to secure rapid relief and jobs.":
+            jump chapter15
+        "Refuse the firm and double down on grassroots resistance, working with Tala.":
+            jump chapter16
+    return

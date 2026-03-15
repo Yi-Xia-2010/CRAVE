@@ -1,0 +1,193 @@
+label chapter12:
+
+    # [Scene: AquaWorks Research Station Catwalk | Morning - Storm Front Approaching]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant press feed crackles in your bag; an automated voice from the station announces the live stream. The sea outside beats like a second heart. A high, sudden alarm begins to build.]
+    "You came in with the press release still warm from the inbox — a glossy line about 'protected communities,' a photo of The Arc at low tide, smiling executives beneath logos. It felt performative then, brittle"
+    "as a shell. Now the wind has teeth, and the station smells like wet metal and someone else's faith."
+    "You lean over the rail, eyes on the tidal telemetry. The screens show a clean line until a spike takes it jaggedly upward: pressure readings climbing in the upstream segment. Your thumbs hover over the console because habit taught you to react before hope catches up."
+    # play music "music_placeholder"  # [Music: Low, insistent percussion; a slow, anxious strings motif]
+    # play sound "sfx_placeholder"  # [Sound: Alarm: Piercing system alert, layered with shouts and the thud of boots on metal]
+    show dahlia_kestrel at left:
+        zoom 0.7
+
+    dahlia_kestrel "What's that? Run the model again—double-check the joint tolerances."
+    "Dahlia's voice is clipped, formal at first, the cadence of someone used to being the calm center. You catch her hand on the tablet, the silver cuff flashing as she taps. For a moment you imagine her hand steady as paper; the shrine of her certainty yellowed by the rain."
+    "You move along the console, gloved fingers tracing the same data you have memorized in midnight edits. The spike is not noise. The pressure front that the models labeled 'unlikely' is moving like a fist. You"
+    "feel, with a scientist's horror, how models become maps of omission when the sea decides to improvise."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Pressure front's already past the threshold in segment four. Joint diff reading is—"
+
+    dahlia_kestrel "We accounted for passage. We designed seams for biocompliance. The flex points—"
+
+    maya_reyes "—were calculated to flex, not to fail. But look—there's microfracture propagation on the upstream coupling. It wasn't in the failure mode set."
+    "Dahlia's jaw tightens. For the first time the composure you admired on panels and podiums slips. Her bob is plastered to her temple by rain that tracked in on the catwalk; the rain makes her look oddly human, like a portrait with the varnish off."
+
+    dahlia_kestrel "If we remotely lock the adjacent segments, we can reduce differential pressure. Seal the fish-pass gates; close the relief valves."
+
+    maya_reyes "Locking them changes flow patterns downstream. It'll spike pressure elsewhere. You saw the model runs."
+    "Dahlia's eyes go cold for a fraction — the same expression you saw at a boardroom when a budget line didn't balance. Calculations, casualty. She breathes and says it as if reciting a theorem."
+
+    dahlia_kestrel "Acceptable risk."
+    "The words fall like metal. The catwalk seems to narrow. Someone on the team swears; someone else is already moving toward the manual override. You think of the families on the promenade, of Jonah's small boat"
+    "tied like a nervous promise to a piling. 'Acceptable risk' is a ledger entry until faces flash into it."
+
+    menu:
+        "Shout to close the fish-pass manually":
+            "You sprint along the slick catwalk, fingers stammering over a frozen panel. Hands clamp the manual lever. The mechanism groans. A wave of water sees your effort as a personal insolence and finds a new seam."
+        "Insist on a controlled lock sequence":
+            "You hold Dahlia's gaze, forcing the sequence to follow the algorithm you know might mitigate differential surges. The controls obey, but somewhere downstream a gauge blinks red."
+
+    # --- merge ---
+    "Neither choice buys certainty. You taste copper on your tongue and hear, under everything, the sea making a new decision."
+    # [Scene: The Arc — Exterior | Moments Later]
+    hide dahlia_kestrel
+    hide maya_reyes
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Metal creaking, the violent slap of water against engineered faces, the distant roar of collapsing wood.]
+    "Where the design promised to intercede, water found the seams like a returning litany. The joints we'd kept open — the humane concessions for fish and small-boat passage — answered the sea's question with a knife."
+    "Water threaded through the tolerances that had been marketed as elegance and turned them into blades."
+    "You watch a panel near an upstream coupling tremble. It flexes beyond tolerance. A fracture blooms along a weld line, hair-thin and then suddenly wide. The sea takes advantage, pushing water through with a force that"
+    "turns the panels into battering rams. Pieces of The Arc, polished to press-ready shine, flail like metal teeth. The promise becomes debris."
+    "Crowd noise: people shouting, a siren-like horn from the station, the wet smash of timber against concrete."
+    "A family on the promenade is thrown from a collapsed bench; a dog yelps, then is silent. Nets hang shredded from the pilings, scalloped like the teeth of a comb. You see, in a splintered frame, Jonah's cap tumble into the surf."
+    # [Scene: Promenade | Continuous]
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Screams, the groan of collapsing structure, the metallic ringing of The Arc pieces striking concrete.]
+    "Promenade — the town's daily theater of stubborn life — becomes a ruin in minutes. A multi-use stretch of boardwalk designed for markets and slow Sunday traffic folds out of alignment and slides into the surf. Windows explode inward like startled eyes."
+    "You run. You move because history made you move—because your father used to run toward nets that had come loose instead of away. You're faster than you thought; you are also not fast enough."
+    "Elias Kwan is already there when you reach the shelter truck, hands working on a family whose lower floor is underwater. He looks at you, and in that look is all the things that won't fit into an emergency plan: blame, fear, something like pleading."
+    show elias_kwan at left:
+        zoom 0.7
+
+    elias_kwan "You signed off. You made them feel safe. You told everyone we'd be okay."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "I didn't— I fought for release clauses, for turbines and passages. I never promised invulnerability."
+
+    elias_kwan "But you made peace with the idea that a barrier could be a solution. People listened to that peace."
+
+    maya_reyes "We all listened. Dahlia sold the story, yes — but we signed the clauses together. This was never just me."
+
+    elias_kwan "That's not how it feels when your brother's net is gone and the house has a month of water in it."
+    "The shelter is a swaying tent amid the chaos. Inside, people huddle with wet blankets. The air is warm and sour with breath and rain. Someone mumbles about insurance documents; an older woman keeps pressing a photo to her chest like a talisman."
+
+    maya_reyes "Jonah—"
+
+    elias_kwan "Jonah's small boat didn't make it. His boat is gone."
+    "The words are blunt as a plank. You think of Jonah's hands, the way he repaired rope, the way his laughter could fill a morning. For a second, rage flares so hot you can feel it in your throat."
+
+    maya_reyes "We did what we thought was right. We didn't know the coupling would fail like that."
+
+    elias_kwan "We didn't know? You were there at the models. You vouched for their tweaks. You put your name in the room where they made the trade-offs."
+
+    maya_reyes "And you—"
+    "Elias's face twists with something between accusation and helplessness, his fingers working the frayed edge of a blanket until the wool sings. The argument fractures into practicalities: where to send families, what pumps still function, who has dry water. Between the lines of logistics, grief sharpens into blame."
+
+    menu:
+        "Stay to coordinate rescue":
+            "You stay in the shelter, barking instructions like a captain whose ship has sprung a leak. You organize chains of help, roll out the volunteer lists, and send people to salvage what they can. Your voice grows hoarse; the town leans on it like a brace."
+        "Leave to find Jonah's boat":
+            "You push against the crowd and the storm, mud sucking at your boots, and run the wet shoreline calling Jonah's name. You find a floating chunk of fiberglass with his cap lodged like a mute flag. Your hands come away raw and empty."
+
+    # --- merge ---
+    "You aren't allowed the clean luxury of choosing feeling over action. Either way, you collect loss."
+    # [Scene: Emergency Shelter — Makeshift Gym | Later, Dusk Dropping]
+    hide elias_kwan
+    hide maya_reyes
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: People talking in low, stunned threads; a radio recites casualty tallies. Rain thuds on the roof like a metronome.]
+    "Inside, the town speaks in fragments: names of those who left when the tide took their foundation, vows to sue, a mother's checklist for what to salvage. Some families push a cart full of photographs, jars"
+    "of pickles, a single pot. Others stand numb, hands in pockets, watching the ceiling drip."
+    "Dahlia Kestrel comes into the gym by a side door, hair wind-blown and eyes rimmed in an exhaustion that does not accept comfort. She moves through the shelter with the practiced gait of a leader, stopping"
+    "to listen, to issue a statement of intent. Her mouth forms strategies like a mapmaker."
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "How could this happen? The specifications—"
+    show dahlia_kestrel at right:
+        zoom 0.7
+
+    dahlia_kestrel "We underestimated a compound pressure pulse — a non-linear event that wasn't represented in historical data sets used for calibration."
+
+    maya_reyes "You relied on historical datasets. The climate is not historical."
+    "Dahlia's hands are ink-stained from notes. For the first time, her public sentences sound like confessions. She meets your eyes, and something like shame crosses her."
+
+    dahlia_kestrel "We tried to design to the edge of what we understand. We thought the redundancies were sufficient."
+
+    maya_reyes "Sufficient for what? For the numbers? For an image of a town that doesn't have to change?"
+    "Dahlia looks at you, and there is a measure of something that might have been sorrow or defiance. Her voice drops."
+
+    dahlia_kestrel "I thought saving the most lives meant moving fast. I thought scale would save people. I thought—' (she falters) '—I thought I could prevent the kind of loss that took someone from me."
+    "You feel the sentence like a stone. Her grief is not like your town's grief; it's a grief that has been folded into spreadsheets and deployed as certainty. When it breaks loose, it doesn't soften her"
+    "strategy so much as make her more dangerous in smaller, quieter ways — because she now has to prove the calculus right, not wrong."
+
+    maya_reyes "You made a promise about 'protection'. People believed that promise."
+
+    dahlia_kestrel "And they were right to believe in something. People need to feel safe."
+
+    maya_reyes "Safety built on a single solution isn't safety; it's a bet."
+
+    dahlia_kestrel "We also provided jobs, infrastructure, immediate mitigation. There were compromises — compromises we argued for together."
+
+    maya_reyes "Compromises that opened seams for the sea to use like knives. People are homeless. Jonah's boat is gone."
+
+    dahlia_kestrel "I am sorry. I never—"
+    show elias_kwan at center:
+        zoom 0.7
+
+    elias_kwan "Sorry won't rebuild nets, Dahlia."
+    "Dahlia meets Elias with a steadiness that has nothing to do with the storm."
+
+    dahlia_kestrel "No, it won't. But it starts with accountability, with repair. We'll fund reconstruction, we'll set up temporary fish moorings. We'll—"
+
+    elias_kwan "You'll write checks and leave. You won't stay when the insurers move on. You won't live here to knock on doors in the middle of the night."
+
+    dahlia_kestrel "You're assuming my intentions."
+
+    elias_kwan "I'm assuming what I know from watching suits come with promises tied to contracts."
+
+    maya_reyes "Please. Stop. This is not a debate over intent. People are cold, and the water is in their basements."
+    "The exchange degenerates into a thrash of sentence fragments and accusations, each line a brittle plank bridging deeper divides. No one yells; there is no cinematic collapse into yelling. Instead there is a grinding of teeth—a fatigue that is quieter and more final."
+    "The shelter becomes a theatre of small cruelties: who gets priority for the dry bunks, which houses are condemned, which livelihoods are salvageable. You sit on the edge of a folding chair and pull your field"
+    "journal from your bag. Its spine is mud-caked; pages feathered with water spots and pressed marsh grass, a physical timeline of everything you have tried."
+    "Your hands know the pages by feel. Each sketch, each meeting note, each clause you fought for — they crowd the margins of that book like witnesses. You flip through them not for instruction, but like reading someone's life in minor keys."
+
+    maya_reyes "These were the plans. They were not enough."
+    # [Scene: Promenade Rubble | Night — Aftermath Calm]
+    hide maya_reyes
+    hide dahlia_kestrel
+    hide elias_kwan
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant hum of generators; quiet voices picking through salvaged belongings.]
+    "At the fringe of the rubble field, families gather what they can. Some decide, quietly, to leave altogether — to board a bus to a city that offers jobs and anonymity. They walk like people who have been made portable in an instant."
+    "You stand where the boardwalk used to be and look at The Arc, now a zig of broken metal under floodlight. It is an object lesson in scale: shiny intentions turned militant once the sea chose its path."
+    "You pack your field journal into your bag with deliberate slowness. Each page catches on your fingers as if reluctant to leave your grasp. You think of your father and the way he taught you to"
+    "read currents by how they moved debris — to know the water's mind by its action."
+    "There is no reconciliation in the air, not tonight. The conversation between you and Elias closes like a book with no endnotes. He walks away with his hands in his pockets, jaw set, and you do"
+    "not follow. You watch him go, the silhouette of someone who could be an ally or a stranger depending on whether there is daylight enough to fix what broke."
+    "You step back from the ruined promenade and slit the bag closed. Rain starts again, soft as if only to weep with you. The town will take years to unlearn its faith in a single fix."
+    "Some people will rebuild here; some will not. The Arc will be a legal and technical and moral inquiry for months. Lawsuits, reports, committees — all the instruments of a civilization trying to make sense of"
+    "a failure."
+    "You hold the field journal like a small, heavy thing. Inside it are the blueprints for attempts that mattered, for convictions that survived the collapse and for mistakes you can hear in the margins. You do"
+    "not have answers that make sense of what happened tonight. You have only the tasks that will follow: to help clean, to hold people, to tend the seedlings still in the wetlands, to read the data"
+    "again and again until it reveals where assumptions led astray."
+    "The press release that began the morning promised protection and certainty. The day's end hands you the opposite: a ledger of what a community loses when its safety is outsourced, and the relentless arithmetic of consequences."
+    "You feel the hollow echo of promises made too fast—not as rhetorical flourish, but as a physical ache behind the eyes."
+    "You close your journal and, for the first time since you returned to Lumen Bay, you imagine leaving parts of the town behind — not because you want to, but because the cost of staying as"
+    "if nothing changed might be too high. The decision is not one you can make tonight."
+    "You breathe in the cold, briny air, and the smell of wet earth and diesel is a thin, honest thing under your skin. You are tired. You are furious. You are unmoored in a way that does not resolve into fury or calm but into small, hard steps forward."
+    "You tuck the journal against your ribs like a patient animal and walk away from the broken promenade into the rain, toward the shelter where faces need names and hands need direction. The future is a rumor and a plan both; neither comforts yet."
+
+    scene bg ch12_f99e88_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

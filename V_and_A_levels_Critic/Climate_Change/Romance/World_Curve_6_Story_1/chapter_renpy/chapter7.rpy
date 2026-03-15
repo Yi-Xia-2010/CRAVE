@@ -1,0 +1,174 @@
+label chapter7:
+
+    # [Scene: Nueva Mar Municipal Hall | Mid-morning]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The low, steady hum of HVAC; footsteps on terrazzo; distant muffled voices]
+    # play music "music_placeholder"  # [Music: Bright, insistent strings—tempo quickening]
+    "You trace the outline of the day on the inside of your skull as if marking storm windows on a map. Elias Kahn said he'd file the memos; Elias Kahn said he could get language inserted."
+    "You followed him into the municipal current because you trusted his cadence—a careful, calibrated motion that makes room for other people's mistakes and for your stubbornness. You're here because there are clauses to be carved into"
+    "a paper that will decide whether the Low Row keeps breathing or is sealed behind concrete."
+    "The atrium smells like burnt coffee and lemon-scented cleaner. Light from the raised plaza comes in as a cool band; it glints off the polished banister as you run your fingertips along it. Your trefoil tattoo"
+    "presses against the inside of your wrist; a small, secret compass of nerves. You worry it like an old habit, like a prayer."
+
+    scene bg ch7_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A paper rustle, the soft beep of a distant elevator]
+    "Elias Kahn finds you before you can decide whether to pace or sit. He moves with that quiet, deliberate energy—two steps forward, one subtle look back. His amber eyes are steadied, but there's tightness at the"
+    "jaw you don't want to admit you notice; he is carrying municipal weight and the private weight of promising you things that take forever to become true."
+    show elias_kahn at left:
+        zoom 0.7
+
+    elias_kahn "They sent the draft for the corporate proposal last night. I redlined it until my eyes stung. There's room in the monitoring section—if we push the language we talked about, there's a legal pathway for the wetland corridors."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Room?"
+    "You let the word be a scalpel."
+
+    maya_corvin "How big is the opening, Elias? Are we talking a foot of margin or a hallway wide enough to walk through?"
+
+    elias_kahn "Hallway. Narrow. But continuous. I couldn't get the mitigation fund to cover full land-transfer, but I got 'independent monitoring' language into the draft. Two-year pilot with sunset clauses and mandatory public reporting. It's not everything, but it holds the line."
+    "You swallow. The arousal—sharp, electric—pulls your shoulders back. This is progress the way a tide is: incremental, inevitable if you nudge it. You picture the wetland channels running like patched veins through the concrete, alive rather than ossified."
+
+    maya_corvin "Will the monitoring board have authority? Are their reports binding, or do they only give lip service?"
+
+    elias_kahn "Binding on the reporting schedule. Recommendations are advisory, but breaches trigger a funding holdback. We have to define metrics so Camila 'Kai' Navarro can't game them—lookback windows, ecological indicators, third-party auditors. I have Dr. Sima Raza looping in to validate the indicators."
+
+    "Elias Kahn puts a slim tablet—his municipal tablet—between you and the world. The redlines glow like the guts of a machine. You study the clause fragments he highlights" "independent oversight,' 'pilot phase,' 'performance holdback,' 'transparency portal."
+    hide elias_kahn
+    hide maya_corvin
+
+    scene bg ch7_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Keyboard clicks, a chair being pushed back in a conference room nearby]
+    "You follow Elias Kahn through the hallways into a conference room where the city's light takes on a formal tone. People are already gathering: a municipal lawyer with a quiet cough, Dr. Sima Raza with a"
+    "stack of annotated printouts, Rafi early and impatient, and—inevitably—Camila 'Kai' Navarro's legal team arranged like a blade of well-oiled machinery at the far table. The air thickens, not because of heat, but because everyone in the"
+    "room knows the stakes."
+    show rafi_odeh at left:
+        zoom 0.7
+
+    rafi_odeh "We need teeth, Maya. Paper teeth don't bite back. If it's a pilot, it has to be enforced now. If it's two years, we need a renewal trigger so this doesn't get tabled."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Renewal triggers are in. Performance thresholds too."
+    "You lay out the bit of language Elias Kahn gave you."
+
+    maya_corvin "But we also have to define who sits on the monitoring board. If it's only municipal appointees, it's meaningless."
+    show dr_sima_raza at center:
+        zoom 0.7
+
+    dr_sima_raza "We can propose a slate with representatives from the Low Row, an independent ecologist, and an auditor from outside the city. The metrics—salinity gradients, native flora cover, stormwater retention—are quantifiable. Two years gives us data points across seasons."
+    "Camila 'Kai' Navarro's representative clears her throat. The room narrows around the sound."
+
+    "Kai Representative" "Our investors require strict performance metrics and timelines. We can offer accelerated funding if the pilot meets milestones. But we cannot accept open-ended review periods or veto power that stalls construction. The city needs safe infrastructure now."
+    "Camila 'Kai' Navarro steps into the light as if called by the sound of the debate. Their platinum hair is a stark white plane against the municipal gray. They wear the corporate field suit, a precise silhouette that reads like an argument."
+
+    "Camila 'Kai' Navarro" "Maya. Elias. I respect your commitment to the community. We all want the same outcome: a city that survives. But timeline matters. We offer scale."
+    "You feel the familiar edge of friction, the kind that grinds into two halves and produces heat. There is nowhere to move where motion doesn't create new pressure. Your voice is steady, but there's a fever to it—a high arousal urgency that comes from being on the wire."
+
+    maya_corvin "Scale that erases corridors is not survival; it's displacement. We need pilots that prove wetlands increase resilience. The metrics you ask for? Dr. Sima Raza will help make them rigorous. But holdbacks need to be enforceable."
+
+    "Camila 'Kai' Navarro" "Enforceable to whom, Maya? Enforcement costs time and capital. Investors will balk at ambiguity. You and I both know the political clock here."
+    hide rafi_odeh
+    show elias_kahn at left:
+        zoom 0.7
+
+    elias_kahn "That's why we pair performance metrics with concrete penalties—funding holdbacks and phased deployment. If an indicator fails, progress pauses, remediation funded, and contractors are held to a corrective action plan. It's a two-year pilot, not a free pass."
+    "The dialogue stretches and folds. Each retort pulls at the seam of possibility. Conversations loop: clause, clause, counterclause—legal and ethical cartwheels. You feel electrified, your mind making fast calculations and moral ledger entries at the same time."
+
+    menu:
+        "Pull Elias aside and ask for a five-minute honest read":
+            "You catch Elias’s sleeve and whisper your fear: 'Is this actually enforceable?' He closes his hand over yours—brief, complex—and says, 'We won't have absolute certainty, but we have mechanisms. I'll hold them to it.' His amber eyes are unreadable and steady."
+        "Call out Kai directly in front of the room":
+            "You lean forward and press, 'So investors decide what stays and what goes? Is that the message?' Camila 'Kai' Navarro's smile tightens; their legal counsel glances at the contract language. The room shifts—lines are drawn more clearly."
+        "Sit back and let Elias negotiate":
+            "You fold your hands, breathe slowly, and let Elias lead. He speaks with measured pressure; you watch the language bend in the margins and feel relief that you're not alone in bearing the weight."
+
+    # --- merge ---
+    "Nothing changes about the objective because of the choice. The room keeps moving toward a paper that will become law if it survives the signatures. The choices only reveal different immediate textures of the same path—and you take one because the world keeps spinning."
+    # play sound "sfx_placeholder"  # [Sound: The air-conditioner hum returns like a metronome; people whisper in the hallway]
+    "Nothing changes about the objective because of the choice. The room keeps moving toward a paper that will become law if it survives the signatures. The choices only reveal different immediate textures of the same path—and you take one because the world keeps spinning."
+    "Negotiations bleed into hours. Memos trade hands like small flags. Elias Kahn is relentless but gentle, threading compromise through doctrine. He worries aloud—legal phrasing and the risk of loopholes—while you pace the outer ring of the"
+    "room, fingers worrying your tattoo, the brass compass heavy in your jacket. Each time Elias Kahn secures a clause, there's a micro-explosion of relief in your chest; it is rhythm, it is fuel."
+
+    elias_kahn "If we can get 'independent auditors with public reporting' into the appendix and a funding holdback triggered by failing thresholds, we can prevent unilateral modification for the pilot duration."
+
+    maya_corvin "We need community representation on the board. Not token names—actual seats."
+    "Elias Kahn: (nodding) 'Agreed. Rafi will nominate. We can include statutory language that requires seat rotation and nomination protocols.'"
+    "Rafi: (exhausted, but bullish) 'I can get volunteers and names. I'm not handing this to a PR person. This is our neighborhood's oversight.'"
+    "Camila 'Kai' Navarro watches the exchange with a precise face. You can tell, in the way their jaw flexes, that they accept some sacrifice for the project to move forward—this is not just negotiation, it's triage."
+    "The tension is high, but the tone is getting greener, not grayer. You're building something together, however begrudgingly."
+    # [Scene: Conference Room A | Mid-afternoon]
+    hide maya_corvin
+    hide dr_sima_raza
+    hide elias_kahn
+
+    scene bg ch7_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A printed page sliding into a folder; low chatter outside the door]
+    # play music "music_placeholder"  # [Music: Swelling strings—urgent but hopeful]
+
+    "Camila 'Kai' Navarro" "Two-year pilot. Independent monitoring. Funding holdbacks. Community seats. But we need a clause that limits oversight to the pilot window—no perpetual encumbrance on future infrastructure budgets."
+
+    "Elias Kahn (hands folded, tactical)" "We put a review clause at 18 months. If the pilot demonstrates measurable resilience improvements, the city and corporate partners will negotiate a permanent integration plan, but with safeguards to protect corridors. We also include an appeals process for the community."
+    "You feel the pulse rise—this is it, the quickening. The words on the page are no longer abstractions. They are maps, keys, and barricades at once. You sign your name to drafts in your head, then"
+    "force yourself not to. You have learned to pace the momentum of joy; celebrations come after commitments are made."
+    "Mayor Ana Velez enters with the slow, ceremonial gait of someone who has shepherded many compromises between opposed tents. When she speaks, the room leans."
+    show mayor_ana_velez at left:
+        zoom 0.7
+
+    mayor_ana_velez "This language is a start. We will present a conditional pilot. It is not the perfect plan, but it is a plan that holds space for the community and secures the city's core infrastructure. I call for a vote to move this amendment to public hearing."
+    "Your throat tightens. This is the public affirmation you've chased—the municipal seal, the mayor's voice, a procedural nudge that turns conversation into policy. The arousal in your chest rises to a peak: high, fierce, and startlingly bright."
+
+    "Rafi (a bark that lets out a laugh)" "Finally. We make them show their work."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Mayor, with board language and public reporting integrated, will the city commit resources to support community nominators for the monitoring board? We need capacity-building funding."
+
+    "Mayor Ana Velez (softening)" "Yes. We'll include a resident support fund in the pilot budget for training and stipends."
+    "You can feel the room release a collective breath. It's not unalloyed triumph; people on your edges glare—activists who want faster, more radical action; neighbors who fear compromise—but it's not defeat either. It's the sort of victory that smells of coffee and paper and the faint sweat of hard labor."
+
+    menu:
+        "Step up and ask for the mayor's public framing":
+            "You rise and say, 'Mayor, will you present this as a mutual safeguard—one that preserves both lives and livelihoods?' She nods and says she'll emphasize community agency in her statement. The municipal photographer clicks; a moment is captured."
+        "Stay quiet and let Elias manage the public framing":
+            "You let Elias stand where the cameras will land. He speaks with steady cadence about shared stewardship. You listen to his voice and sense the wider world hearing him."
+
+    # --- merge ---
+    "The murmur of assent grows; a stamp hits ink; someone claps once, then another."
+    # play sound "sfx_placeholder"  # [Sound: The murmur of assent grows; a stamp hits ink; someone claps once, then another]
+    "You sit at the long table as the final draft is arranged. Your pen hovers, an instrument that will convert negotiation into obligation. Your hands tremble—not with fear, though there's trace of it, but with a"
+    "fragile, relieved energy. The municipal clock on the wall ticks in the air like an accelerant."
+    "Elias Kahn slides the amendment to you. The words are crisp, the clauses you fought for nested where you demanded. 'Independent monitoring board,' 'two-year pilot,' 'performance holdbacks,' 'public reporting,' 'resident seats,' 'capacity fund.' They are not"
+    "perfect. Nothing is. Still, it is a shape that holds enough of what you wanted to keep the Low Row recognizable to itself."
+
+    "Elias Kahn (quiet)" "If you sign this, it moves to public hearing and then to the council. It doesn't mean the fight's over, Maya. It means the fight has moved to a different terrain. But it's a terrain where we can work."
+    "You meet his eyes. For a second there's a private map between you: trust, possibility, and the knowledge that municipal victories require slow tending. His gaze is complex—supportive, contained, not a dictionary of promises. The unreadable thing in his look is not empty; it is focused."
+
+    maya_corvin "Then we tend it. We will show them wetlands that breathe, not barriers that silence. We will be loud enough in the public hearing room to make them see what a living coastline looks like."
+
+    "Elias Kahn (a small, tired smile)" "And I'll be loud where it matters in the meetings that matter."
+    "The pen slides over the line. The signature is small and decisive, a tremor pressed flat into ink. The municipal clock chimes as if to mark the moment, and for a beat you feel the city"
+    "tilt in a direction you had fought for: toward protection that keeps people and places connected."
+    hide mayor_ana_velez
+    hide maya_corvin
+
+    scene bg ch7_453e40_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, almost inaudible exhale from across the table; the distant clang of a service elevator]
+    "Rafi reaches across and squeezes your shoulder with a grin that is half-joy, half-relief. Mayor Ana Velez nods, stamping her approval for the next procedural step. Camila 'Kai' Navarro inclines their head—an acknowledgement mixed with calculation. Elias Kahn watches you, something like hope folded into his expression."
+    "You let yourself breathe, the kind of breath that comes after a sprint when you realize you've reached the crest. The arousal that built through negotiation cresting now spills into a warm, vivid positive: relief, purpose, and the brittle, fierce thrill of something won against inertia."
+
+    scene bg ch7_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Strings crest and hold a luminous chord]
+    "You stand on the threshold of a new fight: public hearings, watchful neighbors, the press, and the long slow work of implementation. But for this moment the municipal clock has nudged the city toward a path you can live with—a hybrid that preserves more than it takes."
+    # [Page-Turn Moment]
+    "Your fingers still smell faintly of coffee and ink. Outside, the plaza light is beginning to soften into the afternoon; the harbor is a sheet of low silver. You think of Lio's face when you tell"
+    "him the news, of the rooftop gardens you will walk to measure the first spring after the pilot begins. You think of Elias Kahn—steady, not infallible—and of Camila 'Kai' Navarro—calculated, not cruel. The amendment is signed;"
+    "the next phase is public, messy, and full of danger and possibility. You press your palm over the trefoil on your wrist and feel, for the first time in a long while, a clear line under"
+    "the word hope."
+
+    scene bg ch7_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter9
+    return

@@ -1,0 +1,250 @@
+label chapter8:
+
+    # [Scene: Abandoned Pier & Kelp Nursery | Pre-dawn — Storm on the horizon]
+
+    scene bg ch8_601bcb_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind biting at loose tarps; distant siren cadence; the soft slap of waves against concrete]
+    # play music "music_placeholder"  # [Music: Sparse, low cello that pulls downward]
+    "The decision you made in the council room is still warm in your chest—targeted evacuations, keep the pilot alive, save the people most at risk. The words felt mechanistic then, an administrative mechanism to limit damage."
+    "Now the decision has a sound: the thud of crates, the whisper of packing tape, the small panicked laugh of a child when a tarp snaps loose."
+    "You shoulder another box of Elena's art supplies, the cardboard damp at the corners. Your fingers know the map of this neighborhood by touch; you can tell which cobbles will give beneath your weight and which"
+    "will throw up a bruise. You tuck a small wooden carving—Elena's good-luck mermaid—into a plastic crate and tape it shut as gently as you can."
+    show elena_torres at left:
+        zoom 0.7
+
+    elena_torres "They told me 'just take the essentials' like that makes sense."
+    "(She laughs, breath cracking.)"
+
+    elena_torres "Mara, I— I don't know what 'essential' is when your whole shop smells like paint."
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "The register, the ledger, any receipts that prove your lease—Elena, the rest we can try to salvage later."
+    "(You fold a sweater into the top of the crate; your hands are steadier than you feel.)"
+
+    mara_evans "We'll get you a temporary stall from Cass's relief list. We promise—"
+    "Elena: (She cuts you off with a look that is not accusation but raw exhaustion.) 'Promise me nothing until it's true. I can't keep hoping, Mara. Not like before.'"
+    "Mara Evans: (You want to answer that your plans are real, that plan is craft and craft endures storms—but you also remember the last surge, the storefront gone in a night.) 'I hear you.'"
+    "(The words are a rope you hand her instead of a false map.)"
+    "Tomas is there with a knotted rope looped around him like a makeshift sash, the salt-worn cap pulled low. Children circle him, shivering, coaxed into small pockets of safety. He pulls his voice low and wide, the way old men do when they want everyone to listen."
+    show tomas_belmar at center:
+        zoom 0.7
+
+    tomas_belmar "When I was a boy, the bay used to turn sharp with salt—sweeter maybe. You could smell it in your teeth. We learned the tide the way some learn a lullaby."
+
+    "Child" "Did the tide ever take your house, Tomas?"
+    "Tomas: (He looks at you over the child's head, that look that knows how you carry history.) 'It took some things. It left other things. We learned to sew nets with the holes left in them by old storms.'"
+    "You stand close enough to feel the warmth of his breath despite the chill. There is a steadiness in his telling, a ritual that stitches hands to place. You find yourself repeating the story later, in your head, as if memory could reinforce the shore."
+    "Noah Ríos crouches near the buoy line with a borrowed tablet balanced on his knee, the screen painting his face in cold blue. His mouth is a thin line; his fingers stutter over a sensor readout."
+    hide elena_torres
+    show noah_ros at left:
+        zoom 0.7
+
+    noah_ros "Barometric's dropping faster than we modeled—unexpected vortex off the shelf to the west."
+    "(He points at a jagged line.)"
+
+    noah_ros "Our mat tolerances take nine hundred and twenty-five millimeters. Forecasted is… they upgraded it. It’s not a small miss."
+
+    mara_evans "Can the anchors be shortened? Drive-add more deadweight? Anything to raise the friction coefficient?"
+    "Noah Ríos: (He glances at you, then at the frayed rope tied to a buoy.) 'We can add ballast—sandbags, concrete blocks—but the mats were never meant for that much kinetic energy. It's going to be a gamble.'"
+    "(He closes his jaw.)"
+
+    noah_ros "We do what we can and get people out."
+    "Priya's voice carries over a comm, clipped and efficient, cutting through the near-hum of preparation."
+    hide mara_evans
+    show priya_anand at right:
+        zoom 0.7
+
+    priya_anand "I've rerouted two buses, mobilized the city rovers, and coordinated with the hospital for triage. Cass approved targeted shelter vouchers. We're relying on the volunteer teams you organized."
+    "(She exhales, a micro-broken sound.)"
+
+    priya_anand "But Mara—this is a structural event. We cannot pretend otherwise."
+    "Mara Evans: (You look at the faces around you—the mayor's pamphlets in Elena's pocket, Tomas's rope, Noah's tablet—and you feel the center of your responsibility tilt under the wind.) 'Then we do the thing we said"
+    "we'd do. Prioritize. Move the elderly and families on the lowest block first. Keep the pilots running where we can.'"
+
+    priya_anand "I'll run the evac manifest. You keep the site teams on securing lines."
+    "(She hands you a laminated list.)"
+
+    priya_anand "And Mara—document everything. If we lose ground, the record will matter."
+    "You nod because she is right. Documentation is oxygen for any future argument. You slide the list into your sling where the notebook sits—ink smudged from the night's damp."
+
+    menu:
+        "Answer Priya with a plan":
+            "You lay out the priority list aloud, voice even—elders on Mariner Row, single parents next, then mosaic households. Priya's eyes flick to you, gratitude compressed into a thin line."
+        "Hug Elena quickly":
+            "You fold Elena into a quick embrace; she leans into you like she's accepting a weathered wall. Her hands tremble against your back; you taste salt and turpentine."
+
+    # --- merge ---
+    "Continue"
+    # [/INTERACTION]
+    # [Scene: Flooded Promenade | Night — The storm breaks]
+    hide tomas_belmar
+    hide noah_ros
+    hide priya_anand
+
+    scene bg ch8_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Roar of wind, the metallic scream of a snapped cable, a wave folding over a bench]
+    # play music "music_placeholder"  # [Music: Timpani rolls, low brass clashing; a rhythm that accelerates then shreds]
+    "The storm arrives like a final verdict—sudden, inexorable. The rain is no longer speckled but a sheet that presses against your face; the cold is a clench in your ribs. The living mats along the low"
+    "wall shudder as a beast moves beneath the water, and you sense rather than see the scale of the surge."
+    "Noah Ríos: (Shouting over the wind.) 'Anchor line four! Pull! Pull! Add the second webbing now!'"
+    "Mara Evans: (You leap, hands slipping on wet rope, hauling a wet strap into place. Your palms burn with the friction.) 'We need the sandbags on line two, now!'"
+
+    "Volunteer" "It's coming faster—"
+    "Priya: (Her voice through the comm slices into you.) 'Mara, redirect people inland. Stop trying to secure everything—keep lives the priority.'"
+    "Mara Evans: (You look at the mat; the kelp woven into it is a green bruise bobbing at the edge of the water. Your hands want to hold it together like a broken bone.) 'We can't just—'"
+    "Noah Ríos: (His face close to yours, eyes raw under the rain.) 'If you stay here to fight the mat, people downstream won't make the buses. Mara, I need you moving the evac line.'"
+    "Mara Evans: (For a second, you measure the tug of two lifelines—the pilot that might prove a future for the bay and the living bodies in front of you. The choice pulls like a tide.) 'Go. I'll make sure the kids are off.'"
+    "Noah Ríos: (He doesn't argue; he nods once, fierce.) 'Then go. I will do what I can to hold them. But if it goes—'"
+    show mara_evans at left:
+        zoom 0.7
+
+    mara_evans "Then we account for it."
+    "(You push past, directing people into the shelter rovers like a conductor with cracked batons. Tired hands lift children, old men climb slowly with the stubborn dignity of people who have weathered hunger and come up"
+    "laughing. You hear Tomas' voice behind you, telling a story faster than he usually does.)"
+    show tomas_belmar at right:
+        zoom 0.7
+
+    tomas_belmar "Keep your feet, little ones. Keep your hands, and the sea will remember you less as hunger and more as garden."
+    "You run back once to shove another strap into place. The living mat groans, fibers whimper, then tear with a sound like cloth parting forever. Water, which had been a peripheral threat, folds over the promenade"
+    "with a deliberate, greedy intelligence. The mat peels back like a skin, handfuls of kelp ripped like hair."
+    # play sound "sfx_placeholder"  # [Sound: A long, tearing wail. Metal on metal. Shouts, a child's cry cut off by the wind.]
+    # play music "music_placeholder"  # [Music: The cello reduces to a single sustained minor note—a held breath]
+    "Noah Ríos: (His voice now close enough to be felt.) 'It's failing—take those coordinates. Record the time.'"
+    "Mara Evans: (You set the tablet to record, hands shaking. The mat slides into the dark water, a part of your plan vanishing into salt and foam. You think, hot and stupid and furious, that you"
+    "could have checked a different calculation, tethered one more line—then the wind takes the thought and folds it away.)"
+
+    menu:
+        "Stay with Noah to salvage sensors":
+            "You grab the tablet back from him, knees in the muck, and together you try to clamp the failing connectors. The sensors stutter before darkening; Noah curses a soft private curse and keeps working."
+        "Lead the final family onto the rover":
+            "You shoulder a toddler and bark directions at a young parent, pulling them up the ramp into the rover. The child's small arms lock around your neck, brief and fierce, and you feel the surrender of custody—safety given to hands that are not yours."
+
+    # --- merge ---
+    "Continue"
+    # [/INTERACTION]
+    # [Scene: East Strand | Dawn — After the tide]
+    hide mara_evans
+    hide tomas_belmar
+
+    scene bg ch8_601bcb_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low constant burble as water recedes into gutters; muffled cries; the distant clank of heavy equipment]
+    # play music "music_placeholder"  # [Music: Sparse piano, slow and descending]
+    "Dawn shows everything that nighttime hides. The water has left a silt-slick that sketches the path of the surge—the places where it took and where it left. The living mats are gone in a long, ragged"
+    "seam. Some houses stand with their lower ribs washed out; other buildings are simply not there. Elena's shop front is a torn mouth of metal and soggy paint."
+    "Elena: (She stands with an armful of sodden canvases, her face blank as if someone has turned the lights down.) 'It smelled like paint and flour and lemon in there. Now it smells like pool chlorine and sadness.'"
+    "Mara Evans: (You kneel on the ruined cobbles and touch a soaked business card that reads her shop's name. Your fingertips carry the film of salt and varnish.) 'We'll inventory. We'll start recovery lists. There are funds—Cass has relief money. Priya has the forms.'"
+    "Priya: (She arrives with a tablet and a list, her face miles older than it did last night.) 'We documented shelters, inventories, and the evac manifest. We saved numbers, Mara. We saved more people than any"
+    "of us thought possible. But the city council's already received a requisition from Arman's office. They're calling this a 'city emergency response.''"
+    "Mara Evans: (The name is a cold incision. You taste metal.) 'He—'"
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "—is pushing the hard wall as an immediate emergency build. Contractors are being mobilized. Cass is trying to hold the line, but the pressure is enormous."
+    "Radio announcer: (A gravelly voice over a nearby volunteer radio.) '—the mayor's office confirms expedited emergency contracts. Residents along the greatest risk zones are advised of relocation planning. Further details as they become available.'"
+    "Noah Ríos stands a few steps away, the borrowed tablet tucked under his arm like a silenced animal. His face is taut in a way that argues with exhaustion; the jokes are gone. He watches the bodies moving like a man who has seen both a victory and its cost."
+    show noah_ros at right:
+        zoom 0.7
+
+    noah_ros "We stabilized what we could. Sensors logged an exceedance at 01:47. The mats held enough to slow the flow in two sections—saved multiple stairways. If we hadn't—"
+    "(He stops. He doesn't finish the sentence, but the implication hangs: lives.)"
+    "Mara Evans: (You close your eyes. The savings tally is a thin and jagged thing.) 'We did what we could, Noah. That doesn't change what we lost.'"
+    "Noah Ríos: (He lets out a breath that sounds like a laugh and a sob at once.) 'You know I'm going to try to make the data sing, right? Publish the logs, push the open-source files."
+    "Maybe it helps cities that can afford the time. But here—this is a hometown that didn't get the luxury of iteration.'"
+    "(He looks at you, an accusation wrapped in care.)"
+
+    noah_ros "We need to think about the people, not the prototype."
+    "Mara Evans: (The line between 'prototype' and 'people' is the line you've been living on.) 'We were prioritizing people. That was the order of operations.'"
+
+    noah_ros "I know."
+    "(He rubs his palms over his face.)"
+
+    noah_ros "But promise me you'll let me do what I can with the tech. Promise me we won't let it be buried in shame."
+    "Mara Evans: (You find your voice.) 'No. I won't let it be buried. But I won't let tech become a consolation prize instead of a shelter.'"
+    "Tomas moves among neighbors, tying up what can be tied, offering rope and a memory. He stoops by a young woman, pressing a hand to the calf where the water gnawed."
+    show tomas_belmar at center:
+        zoom 0.7
+
+    tomas_belmar "We will move. We will make sure the children have beds. This is not the last tide. It is a tide we will take notes on and then act."
+    "Mara Evans: (You tug your pendant—your anchor. Something small and copper glints in the silt: the braided bracelet you gave a neighbor, the one you braided the week you first measured the mats. For a second"
+    "it sits in the shallow water, bobbing like a small made thing trying to keep afloat. Then a wave carries it away, and you do not reach it in time. It slides past your fingers and"
+    "is gone.)"
+    "You taste loss—small, private, and enormous."
+
+    menu:
+        "Tell Elena you'll find her a new stall":
+            "You pull her hand into yours and speak in steadier tones. You offer to talk to Cass, to push for a temporary market on higher ground. Her eyes shine with the faint hint of hope, brittle but there."
+        "Stand with Noah in silence":
+            "You walk to where Noah stands and put a hand on his shoulder. You do not speak; the silence is its own kind of promise. He leans into it for a fraction of a second before setting his jaw and moving back into logistics."
+
+    # --- merge ---
+    "Continue"
+    # [/INTERACTION]
+    # [Scene: Abandoned Pier | Mid-morning — Ruined cobbles and a quiet that feels like an accusation]
+    hide priya_anand
+    hide noah_ros
+    hide tomas_belmar
+
+    scene bg ch8_601bcb_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Heavy machinery in the distance; the soft sob of someone who cannot stop their hands from working]
+    # play music "music_placeholder"  # [Music: A single violin, long and thin, then silence]
+    "The emergency declarations come like a second storm—administrative, efficient, and colder. Arman's name appears in the press as a savior; his contractors are pictured with hard hats and smiling PR photographers. A plan is sketched in"
+    "a city newsletter: a fast wall, a hard line across the map that protects the economic core and creates a sterilized shore."
+    "You watch a news truck pull up, a reporter with a shallow smile. The framing is already coming: decisive action, saving lives through decisive investment. It reads as if there are no lives that lose their address in the process."
+    "Cass calls you later, voice threaded with policy and defeat."
+    show cassandra_cass_green at left:
+        zoom 0.7
+
+    cassandra_cass_green "The pressure is massive. Investors are calling. Arman has resources ready to deploy. If we fight this now, we risk a longer delay—and more harm. If we accept, we secure critical infrastructure."
+    "(She breathes.)"
+
+    cassandra_cass_green "I know how this looks, Mara."
+    show mara_evans at right:
+        zoom 0.7
+
+    mara_evans "You know what it would do to East Strand. You know what 'securing infrastructure' translates to in lost business names, in children who don't know their neighbors."
+
+    cassandra_cass_green "I do. And I'm trying to balance what keeps the hospital and the power plant afloat with what keeps people in their homes. I'm sorry."
+    "Mara Evans: (Apology is a particular kind of weight; you accept it and catalog it.) 'When you're ready to take the hard meetings about relocation assistance that preserves dignity—call me. Don't let that budget be a consolation prize.'"
+
+    cassandra_cass_green "I won't promise the impossible. But I'll keep pushing for the humane line."
+    "You hang up and realize the call lasted long enough and not long enough. The city is a machine that eats nuance for fuel."
+    "Noah Ríos comes up to you, wet hair plastered to his head, hands stained with grease from the last attempt to bolt things."
+    show noah_ros at center:
+        zoom 0.7
+
+    noah_ros "They offered me a contract to replicate the mats across other cities. Private funders."
+    "(He keeps his eyes on the harbor.)"
+
+    noah_ros "It could mean stability for my team. It could mean we save other places, faster."
+    "Mara Evans: (You remember the look on the children's faces when Tomas told them about the bay's salt; you remember Elena's trembling hands.) 'Will they let you keep it open-source? Will it stay for the people, Noah?'"
+    "Noah Ríos: (He looks at you, and for a beat you see the calculation—the pull between ideal and survival.) 'They said 'open API' in the PR blurb. They said 'community benefits' in the contract. But I'm tired, Mara. My niece needs steady help. Sometimes 'good enough' buys breathing room.'"
+    "Mara Evans: (There is a soft, complicated ache that settles behind your breastbone.) 'Do what you must to keep people fed. Just—don't let it be used to wash people out of their homes without trying all other options first.'"
+
+    noah_ros "I won't. I promise."
+    "Around you, relief teams set up temporary shelters, and the city posts relocation notices. Tomas sits on a low wall and unties the rope around his waist, folding it like a map."
+    hide cassandra_cass_green
+    show tomas_belmar at left:
+        zoom 0.7
+
+    tomas_belmar "We are not vanished. We are moved. There is a difference, and it matters."
+    "Mara Evans: (You stand on ruined cobbles where you used to dance with Elena's neighbors in better summers—now slick and untrustworthy. Rain slicks your hair back; the salt runs from your face and freezes into a"
+    "clear trail. The ache that begins in your shoulders sinks deeper into your bones. It is named: failure, regret, the cost of choices. It will not leave in a day; it will be a long, honest"
+    "thing.)"
+    "You look out to where the hard wall's first pilings are already being imagined in the minds of people you know—Arman's office drafting emergency blueprints, the city sanctioning relocation maps. The horizon feels strangely narrow; the bay seems to fold inward like a held breath."
+    "You do not have a single ending that fits this night. There is no tidy resolution to the work you began, only consequences that branch and multiply. You think of every person who loaded a crate"
+    "with shaking hands, every child carried onto a rover, of Tomas's story and Elena's paint-stained palms. You think of the bracelet, the small copper knot that slipped through your fingers and into the water—an emblem of"
+    "all the things that cannot be held back."
+    "You let the long inhale go. It leaves you with a new kind of steadiness—less certain, more practical: you will file reports, you will push for relocation with dignity, you will keep the sensor logs public, you will be present for those who have been scattered."
+    "Not victory. Not comfort. Not even the solace of certainty. Just a work list that feels like a slow, necessary prayer."
+    hide mara_evans
+    hide noah_ros
+    hide tomas_belmar
+
+    scene bg ch8_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single, resigned piano chord; then quiet]
+
+    scene bg ch8_601bcb_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

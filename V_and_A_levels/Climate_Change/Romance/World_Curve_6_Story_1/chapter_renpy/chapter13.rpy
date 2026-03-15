@@ -1,0 +1,199 @@
+label chapter13:
+
+    # [Scene: Down-Coast Weak Spot | Night — Storm]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Sirens wailing in the distance; water slamming like a fist against wood and concrete]
+    # play music "music_placeholder"  # [Music: Violent, staccato strings; a low percussion like a heartbeat under pounding surf]
+    "You wake to sirens the way the sea wakes to moonlight—sudden, inevitable, and impossible to ignore. The room is a smear of dark. You taste salt and diesel at once, metallic and sour, as if the air itself has learned to bruise."
+    "You are out the door before thought finishes its shape. Rain drives into the collar of your jacket. Your notebook is a weight at your hip, pages flapping. The town is a motion now: headlights, shouted"
+    "names, people moving like flotsam toward where the maps and the models and your compromises named 'protection.'"
+    "You run a street that an hour ago you would have walked. The down-coast weak spot—always a line on a drawing, a note in your margins—has become a living rupture. The engineered sections, the concrete bands"
+    "the funders wanted first, wear the scratches of victory: they have held where they were placed. But that victory has a price. The currents, redirected and angrier, have found the thin places between decisions and houses."
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Cries and the clank of chains; a small engine coughing as someone tries to start a skiff]
+    "You stumble down the alley, boots slick with mud. A neighbor—Mr. Arroyo—forces a wet blanket around his shoulders. He looks at you with the rawness of someone who believed you, who believed the pilot would be the thing between his grandchildren and the sea."
+
+    "Mr. Arroyo" "You told us— you said the data would show where to harden and where to heal. Where—"
+    show alea_maren at left:
+        zoom 0.7
+
+    alea_maren "We tested where we could. I—"
+
+    menu:
+        "Help pull the boat free":
+            "You shoulder against a thumping hull, hands smarting with salt and rope. Two hands find yours and you heave in rhythm, the muscle memory of rescue older than your fear."
+        "Move down the line to check on the families":
+            "You push past the tangle of voices toward a cluster of wet mattresses and children blinking at the storm's glare; an old woman grabs your sleeve and asks if the seawall will hold tomorrow. You have to tell her what you don't know."
+
+    # --- merge ---
+    "Narrative continues at 'The tide has already rewritten the map.'"
+    "The tide has already rewritten the map. Where marsh grass should curl, there are channels where water now runs like new blood. Houses sit in the wrong geometry: porches tilted, furniture bobbing like private islands. Someone"
+    "yells about pets, and a spray of feet and pointed lamplight threads through the chaos."
+    # [Scene: Promenade | Dawn — Aftermath]
+    hide alea_maren
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low machinery hum; the distant murmur of a crowd settling into a brittle, exhausted rhythm]
+    # play music "music_placeholder"  # [Music: Slow, mournful cello undercut with punctuated, high violin tremolos]
+    "You walk the promenade as if you are following the course of an accusation. Dawn clarifies the wreckage in a way that noise had not allowed: the overturned boats that will never be the same, the"
+    "dune gardens you had planted with the volunteers already ragged, reeds torn like hair. The smell is of algae, wet wood, and the diesel the rescue crews burn to keep pumps and chainsaws alive."
+    "Rin Sato is there, already cold and impossible, hands jammed into pockets. Their amber eyes are wide, glassy with sleep or shock or all the months you've both bottled up. They meet you without ceremony, as if there is nothing left of ceremony here."
+    show rin_sato at left:
+        zoom 0.7
+
+    rin_sato "They called it a pilot,' (a bitter little laugh) 'like it was just an experiment. Tomas is at the shelter. He kept saying he'd never seen the water do that.' (they look away) 'We lost the shed by the mill."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "We lost—"
+    "You try to explain—brief sentences, hands carving diagrams the rain has already drawn in the sand. Rin listens, jaw tight. They will not let this become only your calculus."
+
+    rin_sato "You and the engineers signed things, Alea.' (the name tastes like accusation and remembering) 'You went to the funders. You said the pilot would be enough to buy time."
+
+    alea_maren "I didn't think—' Your sentence dies under a howl of wind. 'I saw models that said the redistributed flow was unlikely. I—"
+    "The argument folds back into practicalities quickly—who needs blankets, which roads are impassable, which families have nowhere to go. Elias Hart appears at the edge of the group like an uncanny tide: dry collar, neat coat,"
+    "his presence announcing a kind of authority even in ruin. His hands are clean in a way that makes the debris look louder."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "We are deploying temporary relief—barriers, transportation vouchers. Contracts are being expedited.' (there is an edge of rehearsed calm) 'I have teams en route with emergency funds."
+    "You watch his mouth move and your throat closes with a complicated, corrosive thing: gratitude mingled with a distaste that tastes like salt and iron. He offers solutions in the currency he knows—promises and timetables—but those are slow when a child is sleeping in an armchair in a gymnasium."
+
+    alea_maren "Promises don't stop water, Elias.' (your voice is ragged) 'People are in the sand now. The breach—there are people who will be asked to leave the only place they've ever called home."
+    "Elias Hart: (his gaze goes unreadable; for a heartbeat it is a book you can't open) 'Legal oversight is in process. The paperwork—' (he folds the words as if into neat packets) '—has to be correct. Hasty measures make things worse downstream.'"
+
+    alea_maren "Downstream is where the poorest live.' Your hand trembles; the silver band at your finger catches the weak light. 'We knew about the redistribution effect. You insisted the wall had to start somewhere."
+    "Elias Hart flinches, a human motion that peels back his cultivated veneer. He looks at you—not with the cool appraisal you expected—but something close to regret, tightened and brief."
+
+    elias_hart "We were buying time.' (his voice drops) 'I wanted to stop the next flood. I thought—' (he stops; the sentence goes incomplete like half-built concrete) 'I did what I thought would save people."
+    "Alea Maren: The words hang between accusation and confession; they do not neutralize the break. You want to hate him a clean hate, a black line to anchor blame. Instead you feel the fatigue of every"
+    "barter you made: the compromises that meant someone else would hold the loss when the tide turned."
+    hide rin_sato
+    hide alea_maren
+    hide elias_hart
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Children crying, a radio reading names, distant shouts; the music spikes into a harsh, collapsing chord]
+    "Anger, grief, and blunt, bureaucratic replies collide in the cold. The lawyers are arriving in waves as paperwork; they buy time in the currency of delay. Emergency contractors erect temporary cofferdams that look like bandages on bone."
+    "Maya Calder finds you and holds you without speaking. Her apron is still floured; it smells like coffee and the kitchen that always tries to stitch Harborstone back together."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "We will feed them,' she says simply. 'We will call for volunteers. We will not let them disappear into paper."
+    "You sob then—not the controlled, private grief of the lab, but a raw release. Someone puts a damp towel around your neck. Tomas Reyes, eyes rimmed red, grabs your hand as if to pin you somewhere solid."
+    show tomas_reyes at right:
+        zoom 0.7
+
+    tomas_reyes "Everyone is asking for you,' he says. 'They trusted you."
+    show alea_maren at center:
+        zoom 0.7
+
+    alea_maren "I trusted the instruments,' you whisper. The sentence is a confession and a plea. 'I wanted something we could hand them that would keep them in their homes."
+    "Tomas Reyes's look is a collage of adolescence and accusation. 'And now?'"
+    "You have no answer clean enough to hand to any of them."
+    # [Scene: Dune Gardens | Morning — Ruins]
+    hide maya_calder
+    hide tomas_reyes
+    hide alea_maren
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The brittle clack of broken fencing; the distant creak of a partially submerged swing]
+    # play music "music_placeholder"  # [Music: High, thin piano notes that don't resolve; a low sustained cello]
+    "You walk the dune gardens later, with Rin at your side. The restoration plots you and volunteers sat in kneeling, hands deep in mud and hope, are gouged, the protective contours eroded into a playground of the storm's caprice. The birds that nested here are gone, startled and scattered."
+    "Alea Maren: (to yourself, and to the marsh) 'We thought we could mimic patience. We thought we could buy time the old ways.'"
+    "Rin Sato: (softly) 'We did what we could. You did what you believed.'"
+    show alea_maren at left:
+        zoom 0.7
+
+    alea_maren "Belief is thin armor."
+    "Rin looks at you—and for a spell, no speech divides you. The wind moves through the grasses like an answering sigh. Then Rin takes your hand, fingers cold and solid. The contact burns, a small human flame in the wide cold of the loss."
+    show rin_sato at right:
+        zoom 0.7
+
+    rin_sato "Stay,' they say, simple and impossibly loud. 'Help us rebuild—help them—help me."
+    "Alea Maren: The answer that will change everything forms and dissolves in the same breath. You think of the children who will remember this shape of water and say their own names as if to anchor"
+    "themselves. You think of all the towns along coasts you studied—how many times has a decision made in one place created ruin somewhere else?"
+    "There is a point beyond which atonement cannot be local. You have been offered choices in the past: to translate, to bargain, to publish. The pilot—equivocal, provisional—sat in your hands like a hot coal. You can feel its burn even now."
+    hide alea_maren
+    hide rin_sato
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: The cello descends into a single, resonant note that lingers and then fades]
+    "Rin squeezes your hand. You want to say yes. You want to fix this with the steady, patient labor you know. You want to be here when the town learns to be new."
+    "But you also hear other seas, other towns, other faces. The models and papers and the possibility of scalable change ripple in your head like an undertow. You know something about systems—how patterns repeat. You know"
+    "how to build the case to take this beyond Harborstone. You know that if you leave, you can try to make fewer towns pay this price."
+    show rin_sato at left:
+        zoom 0.7
+
+    rin_sato "If you go—' (they swallow) '—promise me you'll at least tell them the whole truth. No more half-phrases for funders."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "I promise—"
+
+    rin_sato "Will you promise to come back?"
+    "Alea Maren: The promise you can keep is to truth, maybe to travel to other towns to make the case, maybe to call when you can. You cannot promise the easy thing—an anchored life here—because the work that rose out of this failure does not stop at Harborstone's borders."
+    "You look at the shoreline you grew up with, at children tracing new channels in the surf, at the thin, stubborn life that scrambles to be. Behind you, Harborstone breathes in and out, raw and courageous."
+
+    alea_maren "I will tell the truth,' you say finally. 'I will work so this isn't only us again. I will come back if I can."
+    "Rin Sato: (a laugh that breaks like a wave) 'That's not the same as staying.'"
+    "You both know that. The laugh hollows into silence."
+    hide rin_sato
+    hide alea_maren
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull cries once, long and solitary; the distant thump of a relief helicopter lifting away]
+    # play music "music_placeholder"  # [Music: A single, mournful oboe line holds the end of the phrase]
+    "You help where you can for the weeks that follow—sandbagging, organizing meal lines in Maya's cafe, documenting damage. Volunteers arrive, cameras collect frames you already know by heart; politicians speak in cautious tones. Elias's teams put"
+    "bandages on the broken places; his public statements are polished and not enough. The town will rebuild in the pragmatic, ragged way towns do. There will be new maps; there will be relocations. There will be"
+    "children who will remember this night as the shape of loss."
+    "When the time comes to leave, it is not a grand exodus. It is a small departure—your bag moved from one bench to another, a last cup of coffee in Maya's kitchen, an embrace with Tomas that says more than either of you can hold."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "This place will hold you,' she says, eyes red but steady. 'Even when you're gone."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "I'll try to hold it the right way,"
+    "Rin meets you at the pier before dawn. The light is thin; the sea is a cold sheet that keeps its distance. They hand you a small bundle: a braid of sea-glass, threaded on a string—one you recognize as lineage and belonging."
+    show rin_sato at center:
+        zoom 0.7
+
+    rin_sato "For when the coast gets too far to carry,"
+    "You fold the gift into your hands and the memory of every small kindness you made here presses like a weight. You want to say a hundred things—stay, fight, forgive me—but words are clumsy boats to carry the small things you mean."
+
+    alea_maren "I'll keep it,' you say. 'And I'll write everything as I see it."
+    "Rin Sato: (their voice goes quiet) 'Then do that. And if you can, at some point—come back.'"
+    "You both stand in the fragile quiet, two people who have loved and lost in public, who have learned that service can feel like renunciation. The horizon is cold and flat; the town behind you hums with rebuilding and grief."
+    "You walk to the bus with your bag, with the notebook tucked safe. You look back once. The pier is a thin line. You see Rin's shape, small against the dawn, hands in pockets like they"
+    "started the night. Maya waves from the doorway of the cafe; Tomas lifts his chin as if to say that whatever you do, some of them will remember you for trying."
+    hide maya_calder
+    hide alea_maren
+    hide rin_sato
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Low, sustained strings; a single heartbreaking piano motif that resolves to nothing triumphant]
+    "You step onto the bus and feel the weight of the town compress into a tidy, terrible knot inside you. It will be years before what you do leaves the same kind of mark. It may never undo everything. The ache is a permanent tide."
+    "You close your eyes. In that darkness, the names of houses and people and streets become a litany—moments you carry forward to other councils, other hearings, other shores. You will speak; you will make other towns"
+    "less likely to trade away their margins for quick certainty. You will not be able to bring back the night of the breach."
+    "Rin's hand finds yours briefly at the last second—fingers warm and trembling. The contact lasts a breath. You let the bus pull away."
+    # [Scene: Harborstone — Final Image at Distance | Morning]
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained note that fades but does not resolve]
+    "You look back until the town is small and then until it is only a line on the map in your head. The seal of your life here has cracked; you will carry the fracture out"
+    "into other rooms and hearings and coastlines. The romance that grew in the salt and wind remains—flattened, unresolved; a tenderness with edges sharpened by what you could not save."
+    "You turn your face to the moving window and the rain on the glass is indistinguishable from the ocean somewhere outside. You begin to write in your head already—notes for testimony, a list of technical corrections,"
+    "names to call. The work will be hard; it will be relentless. So will the memory."
+    "You breathe, and the breath is full of the town you left: its lamplight, its ruined gardens, Tomas's accusing hope, Maya's steady hands, Elias's unreadable regret, Rin's small, fierce warmth. You carry all of it like ballast."
+
+    scene bg ch12_f99e88_10 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch12_f99e88_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

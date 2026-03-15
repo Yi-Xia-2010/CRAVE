@@ -1,0 +1,33 @@
+graph TD
+    classDef fileNode fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    chapter12_rpy[chapter12.rpy]:::fileNode
+    chapter9_rpy[chapter9.rpy]:::fileNode
+    chapter1_rpy[chapter1.rpy]:::fileNode
+    chapter5_rpy[chapter5.rpy]:::fileNode
+    chapter15_rpy[chapter15.rpy]:::fileNode
+    chapter11_rpy[chapter11.rpy]:::fileNode
+    chapter4_rpy[chapter4.rpy]:::fileNode
+    chapter6_rpy[chapter6.rpy]:::fileNode
+    script_rpy[script.rpy]:::fileNode
+    chapter8_rpy[chapter8.rpy]:::fileNode
+    chapter7_rpy[chapter7.rpy]:::fileNode
+    chapter10_rpy[chapter10.rpy]:::fileNode
+    chapter2_rpy[chapter2.rpy]:::fileNode
+    chapter13_rpy[chapter13.rpy]:::fileNode
+    chapter3_rpy[chapter3.rpy]:::fileNode
+    chapter14_rpy[chapter14.rpy]:::fileNode
+    chapter1_rpy --> chapter2_rpy
+    chapter10_rpy --> chapter11_rpy
+    chapter11_rpy -->|Recommend scali.. / Recommend scali..| chapter12_rpy
+    chapter11_rpy -->|Demand public v..| chapter15_rpy
+    chapter2_rpy --> chapter3_rpy
+    chapter3_rpy -->|Stand with Jona..| chapter4_rpy
+    chapter3_rpy -->|Back Asha's dec..| chapter7_rpy
+    chapter3_rpy -->|Propose a hybri..| chapter10_rpy
+    chapter4_rpy --> chapter5_rpy
+    chapter5_rpy -->|Refuse external.. / Accept the NGO ..| chapter6_rpy
+    chapter5_rpy -->|Push for a rigo..| chapter13_rpy
+    chapter7_rpy --> chapter8_rpy
+    chapter8_rpy -->|Push full-on fo.. / Insist on paral..| chapter9_rpy
+    chapter8_rpy -->|Pause to broker..| chapter14_rpy
+    script_rpy --> chapter1_rpy

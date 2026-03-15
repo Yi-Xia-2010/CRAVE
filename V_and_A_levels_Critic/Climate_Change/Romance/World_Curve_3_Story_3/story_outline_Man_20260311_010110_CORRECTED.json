@@ -1,0 +1,535 @@
+{
+  "title": "Tides of Marisol",
+  "summary": "I play Maia Rivera, a coastal ecologist driven by guilt and care, trying to shepherd Marisol Bay through an existential choice: local stewardship, corporate engineering, or principled resistance that risks short-term aid. The narrative follows a Man-in-a-Hole emotional arc: initial equilibrium slides into a crisis, a personal and communal low, then a climb back through partnerships, hard moral choices, and healing intimate wounds. Love and political conflict shape decisions between community-led adaptation, corporate-scale defenses, and investigative truth, producing distinct romantic, political, and ethical outcomes across multiple endings.",
+  "emotional_curve_type": "Man-in-a-Hole",
+  "player_character": "Maia Rivera",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Salt and Ledger",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake before dawn to the wetland, Moleskine heavy in my jacket pocket; my dark chestnut hair is pulled into a messy bun, salt streaking the tips. The marsh waits—boardwalks slick, reeds bowed with last night's rain—and I measure loss the way others measure time. I describe the rooftop garden of my childhood house: rosemary that smells like my mother, copper-pink sunset pooling across pots. Tomas's voice drifts from a door two houses down—his weathered face and callused hands remind me why I returned after the boathouse was lost. Jonah appears on the boardwalk, sandy blond hair wind-tossed, sea-glass blue eyes shaded by a canvas cap; we exchange a terse, warm greeting about nets and tides. Later, an early message from Ava arrives: tide gauge anomalies and a preliminary storm model. I feel the first tightening—responsibility like a physical weight—tugging at the braided blue cord bracelet on my wrist. On the surface I’m methodical: mapping creeks, cataloging wrack, planning meetings. Inner voice reveals guilt from a past failed response. The town is sleepy but fragile; I close my Moleskine, resolve to act.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "Low",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maia Rivera",
+        "Tomas",
+        "Jonah",
+        "Ava"
+      ],
+      "locations_used": [
+        "Marisol Wetland Reserve",
+        "Rooftop garden",
+        "Boardwalk"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Harbor Talk and Tension",
+      "branch_designation": "Common",
+      "narrative_focus": "The harbor smells of diesel and salt; nets sag on the docks like sleeping beasts. I follow Jonah along the boardwalk—his thick knit sweater pilled at the sleeves, the brass fisherman's ring catching lamplight—while he updates me on erratic catches. The fishing cooperative's ledger sits in Lupe’s hands; she’s effusive, freckled, sun-worn, pushing for adaptive quotas. Soft afternoon sun filters through haze; neon signs of the fishmonger blink at the edge of the frame. Word arrives that Elias Wren is in town—a man with jet-black slicked-back hair and a trench coat too clean for the mud—here with a climate-tech pitch and letters of funding. I watch him from afar, aware of his polished silver watch and AR lapel pin; his presence sets people on edge. Mayor Rosa's office calls; she balances petitions in a light blazer, asking me to speak at a meeting. I juggle data from Ava—tablet full of sample vials and graphs—and Tomas's stories about the boathouse. Jonah's voice softens when he mentions his lost sibling; the harbor narrows between hope and fear. The pressure builds: a storm model shifts closer, and my notebook fills with new lines.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 1, Option Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maia Rivera",
+        "Jonah",
+        "Lupe",
+        "Elias Wren",
+        "Mayor Rosa",
+        "Ava",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Boardwalk",
+        "Mayor's office"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Town Hall—Lines in the Sand",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "Town Hall smells of dust, coffee, and the tang of nerves. I step up at the retrofitted gymnasium podium, linen blouse under a worn navy blazer, Moleskine open to maps of marsh restoration mats and predicted tide-lines. Faces lean in: Tomas with his carved cane, Lupe with a stack of cooperative records, Dana in a bold tee holding a protest banner, Mayor Rosa clutching a stack of petitions. Across the room, Elias stands by a projection screen—crisp smart-casual, an AR schematic hovering over his leather folio. He lays out a shiny engineered seawall and offshore renewable platform that promises regional resilience and funding. The room fractures between practical hope and fear for local control: Jonah speaks up, sea-glass blue eyes hooded, warning of disrupted fish migrations; Lupe presses for jobs; Dana accuses Elias of colonizing the coastline. I feel my chest tighten, guilt boiling into urgency. The storm model Ava flagged is eight days out. I must choose how to lead the town: trust grassroots restoration, negotiate a hybrid partnership, or investigate and expose corporate compromises. My heartbeat is the metronome of the town's fate.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 2, Option Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide the public stance and pathway for Marisol Bay.",
+        "options": [
+          {
+            "label": "I call for an immediate community-led restoration plan, rejecting the corporate proposal.",
+            "consequence": "Rally local labor and preserve autonomy; risk limited funding and slower protection.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "I open formal negotiations with Elias for a partnership, seeking concessions.",
+            "consequence": "Potential rapid infrastructure and funds with oversight battles.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "I ask for more time and quietly task Ava to audit Elias's impact studies—seek truth before choosing.",
+            "consequence": "Delay decisions; possible exposure or lost windows of funding; political risk.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Tomas",
+        "Lupe",
+        "Dana",
+        "Mayor Rosa",
+        "Elias Wren",
+        "Jonah",
+        "Ava"
+      ],
+      "locations_used": [
+        "Town Hall (retrofitted gymnasium)",
+        "Projection screen"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Hands in the Mud",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose the marsh: my voice is hoarse but steady as I organize a dawn crew. I tie my dark chestnut hair into a tighter bun, shrug into the weathered olive field jacket with patched elbows, and grab the Moleskine where I sketched tide-break berms. Jonah and Lupe are there—Jonah's rolled sleeves and oil-stained canvas jacket smell of tar and salt; Lupe's smile is fierce and insistently hopeful. We build living breakwaters and restoration mats, stirring mud, planting cordgrass. Tomas watches, cane set against a bench, telling stories about the boathouse to keep morale. Dana paints a banner for the Harbor—anger braided with love. But funds are tight. Mayor Rosa offers a small state grant contingent on oversight that could constrain community control. I face a new choice: accept conditional funding (risking strings) or refuse and mobilize more grassroots labor. The sky toward the harbor darkens with rumor and the storm clock ticks. My guilt asks if preserving autonomy is vanity when time and tide are unrelenting. I feel Jonah's steady presence—a hand on my shoulder, sea-glass eyes worried but loyal.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to fund the restoration quickly without losing autonomy?",
+        "options": [
+          {
+            "label": "Accept the conditional state grant and secure immediate materials.",
+            "consequence": "Faster restoration but oversight and reporting requirements.",
+            "target_chapter_index": 5
+          },
+          {
+            "label": "Refuse the conditional funds and widen volunteer recruitment, delaying work.",
+            "consequence": "Maintain autonomy but risk being underprepared for storms.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Negotiate a co-managed clause with Mayor Rosa that binds community oversight.",
+            "consequence": "Compromise that may buy time but requires political capital.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Jonah",
+        "Lupe",
+        "Tomas",
+        "Dana",
+        "Mayor Rosa"
+      ],
+      "locations_used": [
+        "Marisol Wetland Reserve",
+        "Boardwalk",
+        "Harbor"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Contracts and Quiet Compromises",
+      "branch_designation": "Route A",
+      "narrative_focus": "I sign paperwork under fluorescent civic lights, linen blouse slightly rumpled, brass compass pendant cold against my throat. The state grant comes with a bureaucratic envelope of oversight—a liaison who wants weekly reports and benchmarks. Jonah watches from the doorway, sea-glass eyes troubled, fisherman's ring turning with his thumbs. I brief Ava, who thumbs through sample vials and models, measuring how much marsh we can realistically restore before predicted storm surge. We accelerate planting schedules, hire local crews, and buy restoration matting. The town hums with activity—hammers, the metallic clang of stakes, Lupe balancing books and payroll. Yet I can't shake a small shiver: the oversight office wants access to dredging plans that could shift fish routes. Elias sends an oblique congratulation, slick smile caught in a doorway, while Dana stages a small protest outside. At night we sit on my rooftop garden under copper sunset, rosemary scent clinging to the air; Jonah leans in closer than he used to. I keep thinking of Tomas's stories and the boathouse. The grant buys us nights and inches; whether it costs our soul is a question I now wear like a bruise.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 6,
+      "characters_involved": [
+        "Maia Rivera",
+        "Jonah",
+        "Ava",
+        "Lupe",
+        "Dana",
+        "Tomas",
+        "Elias Wren"
+      ],
+      "locations_used": [
+        "Community Center",
+        "Rooftop garden"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Marsh, Promise, and a New Shoreline",
+      "branch_designation": "Route A (Happy Ending)",
+      "narrative_focus": "The storm blows past like the drawn breath of the town—violent, precise, and then receding. We wake to mud-smudged boardwalks and battered signs, but the restored marsh has held more water than the seawall would have; plant roots clenched against the surge. Our co-managed oversight clause with Mayor Rosa becomes a model: community seats on the implementation board, local labor prioritized, state funds channeled through a cooperative account Lupe administers. Jonah and I spend long evenings on the harbor, rubbing salt from his sandy blond hair as we laugh about a small victory; his rough hand finds the braid on my Moleskine as I show him tide maps. Elias lingers—his steel-gray eyes narrower, sincere in private—and offers modular tech for pumps under community terms; I negotiate hard, protecting fish passages. Tomas cries quietly at the reopening of the boathouse dock. Romance with Jonah grows with the tide: patient, rooted, sometimes awkward, often wordless. The town keeps its voice. We win adaptability and keep our traditions. My guilt lightens because I learned to accept help and delegate. Standing on a newly raised boardwalk, sunset orange against slate, I feel a possible future taking hold.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option B / From Chapter 5, Option Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Jonah",
+        "Lupe",
+        "Tomas",
+        "Elias Wren"
+      ],
+      "locations_used": [
+        "Marisol Wetland Reserve",
+        "Boardwalk",
+        "Harbor"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Signed Lines, Silent Costs",
+      "branch_designation": "Route B",
+      "narrative_focus": "I step into Elias Wren's offshore project site—sleek containers, glowing displays—fingertips still smudged with mud from my field jacket pockets. He holds out a leather folio; inside are timelines, impact assessments, signed funding agreements. His jet-black hair is neat, his steel-gray eyes sharp; the AR pin flickers with a coastal schematic. The promise is intoxicating: an engineered breakwater coupled with offshore renewable platforms that could reduce regional emissions and flood risk—and bring jobs. Mayor Rosa leans in, tempted. Jonah is skeptical; he stands at the edge of the harbor, jacket heavy and salt-stained, his sea-glass eyes narrowing. I broker a meeting between cooperative leaders and Elias. He shows renderings of broad protection; I press for fish-migration data and participatory governance. The mood is pragmatic but strained. I feel the weight of a decision that could transform livelihoods. Dana accuses me of selling out at a protest outside; Tomas warns me about the cost of losing shore-side control. The storm model warns of a soon approach. I have to choose how tough to push Elias—insist on strict environmental clauses or accept his faster timeline with concessions to bring immediate relief.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Negotiate the balance of speed versus local safeguards.",
+        "options": [
+          {
+            "label": "Push Elias for strict environmental clauses, even if it slows deployment.",
+            "consequence": "Greater ecological safeguards; risk losing funding momentum.",
+            "target_chapter_index": 8
+          },
+          {
+            "label": "Accept Elias's timeline to get infrastructure in rapidly.",
+            "consequence": "Fast protection and jobs, but potential loss of fishing territory and local autonomy.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Demand a public co-management agreement and tie contracts to cooperative oversight.",
+            "consequence": "Complicated politics; possible compromise.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Elias Wren",
+        "Jonah",
+        "Lupe",
+        "Mayor Rosa",
+        "Dana",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Offshore Project Site",
+        "Harbor"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Clause by Clause",
+      "branch_designation": "Route B",
+      "narrative_focus": "I spend sleepless nights drafting clauses with Ava, the Moleskine a palimpsest of scribbled demands. Elias and his team come back with revisions—some concessions, some stonewalling. I demand independent fishery studies and a clear clause guaranteeing local co-ops seats on the governance board. Jonah sits with me in the rooftop garden, sandy blond hair mussed, rubbing his chin as he reads the legalese; his loyalty to the bay pushes him to trust my negotiation. Lupe works the cooperative's numbers, eyes flicking between trembling lines of payroll and the promises of industrial-scale work. Mayor Rosa tries to keep everyone in line, hands folding petitions like origami. Dana stages escalating protests led by youth. The storm horizon brightens with pressure; contractors push to break ground. In a tense session Elias offers a compromise—modular infrastructure deployed in phases with an audit clause. I must decide whether to accept his phased compromise, which keeps some local oversight, or reject limited concessions and risk the entire deal collapsing. My chest tightens with the sense that every sentence I sign will be read by future hands like a map.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 9,
+      "characters_involved": [
+        "Maia Rivera",
+        "Ava",
+        "Jonah",
+        "Lupe",
+        "Mayor Rosa",
+        "Dana",
+        "Elias Wren"
+      ],
+      "locations_used": [
+        "Rooftop garden",
+        "Community Center negotiation rooms"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Sunk Lines and Tides Turned",
+      "branch_designation": "Route B (Bittersweet Ending)",
+      "narrative_focus": "The engineered platforms go in under harsh white lights, cranes like mechanical seabirds. The infrastructure reduces regional flood risk and brings investment—new training programs, repair facilities, and a steadier paycheck for some. Lupe manages a payroll transition; Jonah takes shifts helping retrofit boats to comply with new routes, his jaw set. But fish migratory patterns shift in subtle ways the early studies missed; older fishers mutter about lost spots, and some of our ancestral lines of work wobble. I stand on the boardwalk at dusk, chestnut hair loose in a breeze, watching the new metallic silhouettes glitter against the sea. Elias is quieter now—his steel-gray eyes softer in conversation, and in private his touch is unexpectedly gentle when he helps me fold maps; it could have been something different, slow and cautious. I negotiate reparations and local hiring quotas, but the town has ceded some autonomy for the infrastructure's benefits. Romance drifts toward Elias in careful tones or fractures with Jonah, depending on choices; in either case I feel the ache of compromise. We have protection, jobs, and a cleaned harbor—but not the full soul of Marisol Bay intact. The ending is a small, hard-won safety stitched with losses.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option B / From Chapter 8, Option Next / From Chapter 7, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Lupe",
+        "Jonah",
+        "Elias Wren",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Offshore Project Site",
+        "Harbor"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Quiet Audit",
+      "branch_designation": "Route C",
+      "narrative_focus": "I ask Ava to run a quiet audit of Elias's impact studies before committing publically; her cropped black hair is streaked with exhaustion as she hands over raw model outputs on a tablet. I tell only Tomas and Jonah that we're delaying a public decision; secrecy hangs like fog. We sneak into Elias's offshore staging area during a site tour—my field jacket muddy at the hem, Elias smiling businesslike in his trench coat, the clean edges of his plans glowing on an AR lapel display. Ava finds anomalies: underreported sediment displacement, optimistic fish migration models, and contract clauses giving corporate partners decision-making power over local fisheries. My throat goes dry; this is not sabotage but oversight bending toward expedience. I face a moral crossroads: do we expose the compromises now and risk immediate funding and project speed, or do we attempt to rewrite the plan quietly through negotiation? Dana urges immediate public exposure; Jonas (Jonah) warns that delay could cost lives. The storm clock accelerates. My guilt is a physical ache—do I hold truth above protection?",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to handle the audit findings?",
+        "options": [
+          {
+            "label": "Expose the compromises publicly now.",
+            "consequence": "Risk losing fast funding but preserve integrity; mobilize grassroots power.",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Attempt to renegotiate clauses privately, using the audit as leverage.",
+            "consequence": "Time-consuming; may secure better terms or be stonewalled.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Delay and continue collecting evidence to build an airtight case.",
+            "consequence": "Might be safer legally but could be perceived as cowardice.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Ava",
+        "Tomas",
+        "Jonah",
+        "Elias Wren",
+        "Dana"
+      ],
+      "locations_used": [
+        "Offshore Project Site",
+        "Ava's tablet readouts"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "The Loud Truth",
+      "branch_designation": "Route C",
+      "narrative_focus": "I step into the gymnasium under harsh fluorescent lights and lay out the audit—Ava projected data, sediment maps, clause excerpts. My voice shakes at the start; my dark chestnut hair is loose, my compass pendant heavy. The room erupts: Dana rallies youth to demand a halt; Mayor Rosa goes pale, the petitions slipping from her lap. Elias's steel-gray gaze narrows; he accuses me of sabotage as his polished team brings up counter-analyses. Jonah’s sea-glass eyes lock with mine—there's danger in his look and, beneath it, fierce loyalty. We leak the audit to regional regulators and trusted press contacts, framing it as civic duty. The immediate result is chaos: project timelines pause, funding hangs in the air, contractors bristle. But trust returns to some: townspeople say I acted with integrity. There is cost—some short-term jobs are delayed, and the storm clock refuses to wait. In the wake of the reveal, I stand exposed and strangely lighter; I chose principle. The future is uncertain, but it feels ethically coherent.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 12,
+      "characters_involved": [
+        "Maia Rivera",
+        "Ava",
+        "Dana",
+        "Mayor Rosa",
+        "Elias Wren",
+        "Jonah"
+      ],
+      "locations_used": [
+        "Community Center hearing (gymnasium)",
+        "Projection / presentation setup"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Reputation and Renewal",
+      "branch_designation": "Route C (True Ending)",
+      "narrative_focus": "The pause forces a hard re-write. Regulators open a formal review; Elias’s firm must revise impact assessments publicly. The town rallies: volunteers for restoration pump muddy hands alongside coordinated pilot engineering solutions that must now meet tighter environmental constraints. Lupe coordinates compensation programs, and Mayor Rosa brokers a cooperative grant that prioritizes local jobs. The romance threads alter: with Elias, there is a slow thaw—his polished certainty tempered by the human evidence of our audits; we exchange careful conversations where his steel-gray eyes soften and he admits mistakes. With Jonah, we find a cautious respect—he supports an approach anchored in community oversight. I learn to hold truth without turning it into weaponry; Ava becomes my scientific partner in rebuilding trust, and Dana’s fire channels into structured civic pressure. The ending is not a triumph in the naive sense; funds were delayed and some hardship followed, but the model created a replicable, ethical hybrid: transparency, community seats at the table, and materially safer shorelines. I close the Moleskine with cleaner hands and a quieter chest.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option Next / From Chapter 10, Option B / From Chapter 10, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Lupe",
+        "Mayor Rosa",
+        "Ava",
+        "Elias Wren",
+        "Jonah",
+        "Dana"
+      ],
+      "locations_used": [
+        "Marisol Wetland Reserve",
+        "Community Center"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "The Shortcut Accepted",
+      "branch_designation": "Route D",
+      "narrative_focus": "In a moment of political pressure and exhaustion, I accept a pressured addendum Elias offers through my negotiators: an accelerated roll-out with post-deployment audits. My chest tightens when I sign; the leather folio stamped and Elias's steel-gray eyes briefly kind. Jonah stands at the edge of the harbor, canvas cap in hand, looking hollow. Lupe warns me privately about fish maps shifting; Tomas sighs with a story of a storm that came with no warning. I rationalize: jobs now, audits later. The town cheers superficially when equipment arrives: clean metal, LED lights, modular pumps. But the sea remembers its old paths. Months later a seasonal storm—a predicted but intense surge—overwhelms an unfinished levee; some fishing grounds are altered forever, small businesses suffer water intrusion in the Flooded Historic Quarter, and a few cultural sites are damaged. People look to me with a mixture of gratitude for the infrastructure and accusation for the parts that weren’t finished. I sit on my rooftop garden at dusk, rosemary crushed under my palm, my Moleskine pages heavy with notes and apologies. This is the low before any rise.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the storm's damages and local anger?",
+        "options": [
+          {
+            "label": "Double down on corporate partnerships to finish infrastructure quickly.",
+            "consequence": "Speed now, more centralized control and potentially deeper cultural loss.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Publicly accept responsibility and lead a grassroots rebuilding with strict oversight of the remaining projects.",
+            "consequence": "Loss of some funding, but regains civic trust and community agency.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Resign from the implementation board and allow the mayor to take charge.",
+            "consequence": "Political fallout and personal retreat; uncertain recovery.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Elias Wren",
+        "Jonah",
+        "Lupe",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Offshore Project Site",
+        "Flooded Historic Quarter",
+        "Harbor",
+        "Rooftop garden"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Tides of Compromise (Fracture)",
+      "branch_designation": "Route D",
+      "narrative_focus": "I choose speed: more cranes, longer contracts, stricter timetables; I justify it as triage. The infrastructure finishes faster—metallic silhouettes cut into the skyline like a new language—but the town's spirit feels clipped. Jonah helps rebuild nets and retrofits boats to new channels, but the look on his face is lean and resigned. Small, older fishers find their traditional haunts gone or diminished; Lupe negotiates compensation postings that never quite soothe the historical hurt. Dana organizes a mass demonstration that captures headlines; Elias’s corporate PR hums with smooth reassurances. The physical protection seems real—the levees and modular pumps keep the next big surge at bay—but cultural touchstones, storefronts in the Flooded Historic Quarter, and the boathouse's original footprint are lost or transformed beyond recognition. I wake some mornings feeling like a translator who misread the map. Romance with Jonah frays under unspoken blame; with Elias there’s distance and a question never fully answered about whose priorities I served. The ending is complicated: safer shores with a quieter, angrier heart.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 13, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Maia Rivera",
+        "Jonah",
+        "Lupe",
+        "Dana",
+        "Elias Wren"
+      ],
+      "locations_used": [
+        "Harbor (retrofitted)",
+        "Flooded Historic Quarter"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Ashes and Seedlings",
+      "branch_designation": "Route D (Sad-but-Seeded Recovery Ending)",
+      "narrative_focus": "I accept responsibility publicly and organize a grassroots rebuilding—muddy hands, late nights, soup lines, and song. We lose some things that can't be reclaimed: storefront facades and boatyards in their original form. But seeds are planted—real, ecological ones—that take hold in the broken soil. Lupe helps roll out a town-managed fund; Tomas leads a memorial for the boathouse. Jonah, initially distant, returns later in winter to help mend community nets; his sea-glass eyes are softer, but the way he ties a knot now holds a quiet boundary we both respect. Elias remains in town long enough to learn humility; his steel-gray eyes show a rare, private apology. I am not absolved; my guilt is a steady ache and a reminder to be vigilant. The ending is not tidy: livelihoods have shifted, traditions altered, and regret sits at our table. Still, the community learns to steward its own recovery with renewed agency. In the rooftop garden, under a dull mauve sunset, rosemary new shoots push through the dirt—small, stubborn life among the ash.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 13, Option B / From Chapter 13, Option C / From Chapter 14, Option Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maia Rivera",
+        "Lupe",
+        "Tomas",
+        "Jonah",
+        "Elias Wren"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Flooded Historic Quarter",
+        "Harbor"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "The outline implements a Man-in-a-Hole Fall→Rise arc with Chapter 3 as the primary split and additional logic hubs at Chapters 4, 7, 10, and 13. Four distinct endings map to community-first, corporate partnership, investigative truth, and fractured compromise routes.",
+  "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+  "_meta_arc_strategy": "Man in a Hole (Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 01:01:10"
+}

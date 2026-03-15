@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret the Climate Change theme through a near-future coastal community under immediate environmental threat and pair it with Romance to explore how intimate relationships are tested by moral choices, scarce resources, and competing visions for survival. Core conflict: community-led, nature-based resilience vs. high-tech/ corporate engineered solutions, with love relationships entangled in those choices so personal loyalties reflect broader ethical stakes.",
+    "setting": "Near-future coastal town (Saltwood) on a rapidly eroding shoreline. Time period: 2035–2040, a world of advanced monitoring tech but limited political will. Atmosphere: salt-stung, wind-swept, tense but tender — equal parts emergency and everyday life, with community rituals and weathered architecture juxtaposed against slick engineering proposals.",
+    "visual_style": "Painterly semi-realistic, coastal pastel palette, cinematic lighting, wet-surface reflections, documentary textures, naturalistic character shading",
+    "main_characters": [
+        {
+            "name": "Maya Serrin",
+            "role": "Protagonist",
+            "personality": "Determined, empathetic, methodical and quietly stubborn. She balances scientific rigor with deep care for people; she is prone to taking responsibility and can internalize failure.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length corkscrew curls usually pulled back into a loose knot",
+                "eyes": "Storm-gray, wide-set, with tired smile-lines at the corners",
+                "clothing": "Worn olive-green field parka with salt stains, layered merino sweater, faded jeans reinforced at the knees, rubberized research boots with dried mud",
+                "accessories": "Captain's field notebook with clipped tide charts, brass tide-watch (worn), a thin silver band on her left index finger"
+            },
+            "goal": "To design and implement community-led, nature-based coastal defenses that preserve both habitat and livelihoods while keeping the town intact.",
+            "background_story": "Grew up in Saltwood; left to study coastal systems and returned after a family flood lost their home. She now runs the municipal restoration program and feels personally responsible for the town’s future.",
+            "emotional_trait": "Strength: relentless empathy that motivates action. Flaw: guilt-driven risk-taking — she often pushes herself and others too hard to reverse past losses."
+        },
+        {
+            "name": "Aiden Koa",
+            "role": "Love Interest / Community Anchor",
+            "personality": "Warm, pragmatic, wryly humorous, deeply loyal to community rituals and fishers’ traditions. Skeptical of outsiders and quick to distrust top-down fixes yet open to practical collaboration.",
+            "appearance_features": {
+                "hair": "Sandy blond, sun-bleached, kept short and tousled",
+                "eyes": "Sea-green with freckled amber rims",
+                "clothing": "Salt-stiff navy canvas jacket, wool henley, patched oilskins rolled at the sleeves, broken-in leather deck boots",
+                "accessories": "Hand-carved wooden wave pendant on leather cord, small brass compass attached to belt, a faded tattoo of a wave along his forearm"
+            },
+            "goal": "Protect traditional livelihoods (fishing, small businesses) and ensure any adaptation doesn't erase local identity or hand over control to distant corporations.",
+            "background_story": "Third-generation fisher, once left to work on larger trawlers but returned to be with his aging mother and community. He organizes the small fishers’ co-op and volunteers for rescue efforts during storms.",
+            "emotional_trait": "Strength: steady resilience and protective instincts. Flaw: fear of change that can harden into rejection of necessary innovations."
+        },
+        {
+            "name": "Dr. Elena Park",
+            "role": "Antagonist / Rival Love Interest (ambiguous)",
+            "personality": "Brilliant, composed, persuasive and career-driven; she sees urgency as a technical problem that must be solved at scale. She believes bold engineering is the fastest way to protect people, and can be impatient with what she sees as sentimentalism.",
+            "appearance_features": {
+                "hair": "Sleek black bob with a precise tapered edge",
+                "eyes": "Warm amber, narrow and assessing",
+                "clothing": "Tailored graphite waterproof trench coat over a streamlined technical suit with subtle reflective piping, polished weatherproof boots",
+                "accessories": "Augmented-reality specs (often lifted on her head), a slim anodized planner device, an engraved signet ring with her institute’s emblem"
+            },
+            "goal": "Implement a high-visibility, engineered seawall and automated flood barriers to quickly secure the town and showcase her firm’s model to other threatened regions.",
+            "background_story": "Raised in a floodplain city and trained as a civil/climate engineer; rose through a private climate engineering firm that promises rapid solutions. She genuinely wants to save lives but is under pressure from investors and her own legacy ambitions.",
+            "emotional_trait": "Strength: clear-sighted problem-solving and confidence. Flaw: utilitarian detachment — a tendency to prioritize outcomes over people’s attachments and agency."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mayor Jerome Hale",
+            "relation_to_main": "Municipal leader who works closely with Maya",
+            "appearance_summary": "Older, weathered face, salt-and-pepper hair, business-casual blazer with practical rainproof scarf—often carrying town planning folders.",
+            "function_in_story": "Political gatekeeper balancing budgets, grant timelines and re-election pressures; represents pragmatic compromises and the town’s official stance."
+        },
+        {
+            "name": "Nyla Torres",
+            "relation_to_main": "Childhood friend and technical collaborator of Maya",
+            "appearance_summary": "Short, energetic with a bright-pink pixie cut, always with modular tool-belt and digital tablet; smeared with algae or grease depending on the day.",
+            "function_in_story": "Provides grassroots data gathering, visualization tools, and emotional support; acts as the connector between tech and community voices."
+        },
+        {
+            "name": "Old Man Cala",
+            "relation_to_main": "Mentor figure to Aiden and oral historian for the town",
+            "appearance_summary": "Stooped posture, deeply lined bronze skin, thick salt-streak beard, always in heavy wool coat with a knit cap.",
+            "function_in_story": "Holds local memory and traditional knowledge; his stories challenge modern assumptions and remind characters of what's at stake culturally."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Saltwood Cliffs and Shoreline",
+            "visual_description": "Wind-battered cliffs with exposed strata, grasses flattened by sea spray, and rows of pastel clapboard houses perched close to the edge. Late-afternoon light cuts gold across wet sand; low clouds roll in with cold silver-blue hues. The atmosphere feels precarious — drips, slick stones, and the constant ocean hiss."
+        },
+        {
+            "name": "Tide Research Station",
+            "visual_description": "A low glass-and-wood structure on stilts; interiors are warm amber from instrument panels and laptop screens. Outside, tide gauges and weather sensors gleam like small sentinels. Early-morning fog softens edges; reflections of data screens add electric aqua highlights to otherwise muted coastal tones."
+        },
+        {
+            "name": "Abandoned Boardwalk & Marsh",
+            "visual_description": "A creaking boardwalk half-submerged by higher tides; broken planks, salt-rusted railings, and reeds leaning in sickle-shaped arcs. Light is diffused and green-tinged through marsh mist; puddles mirror a gray sky and stranded carnival signs create melancholy silhouettes."
+        },
+        {
+            "name": "Corporate Seawall Construction Site",
+            "visual_description": "A sharp contrast: concrete segments, heavy cranes, and armored trucks under cold white floodlights. Fluorescent safety vests flash against iron-gray forms; night work brings hard, clinical illumination that erases the softer coastal palette, producing metallic reflections and sharp shadows."
+        },
+        {
+            "name": "Saltwood Community Hall",
+            "visual_description": "Warm-lit interior with long wooden tables, hand-drawn maps pinned to corkboards, and strings of yellow bulbs. The color palette is warm amber and worn oak; voices echo softly and the air carries the smell of coffee and sea salt — a refuge of human-scale intimacy."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love and Responsibility",
+        "Community Resilience",
+        "Ethical Trade-offs"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A locally driven hybrid strategy (living dunes, restored wetlands plus modest engineered barriers) succeeds. The town retains most homes and livelihoods; Maya and Aiden commit to a relationship rooted in shared stewardship. Elena is persuaded to fund scalable nature-based programs alongside her tech, leaving with a changed approach."
+        },
+        {
+            "type": "Sad",
+            "summary": "A full engineered seawall is chosen under political and investor pressure. It prevents immediate flooding but severs access to traditional fishing grounds, harms local ecosystems, and fractures the community. Maya and Aiden drift apart over conflicting values; Elena achieves professional success but lives with growing doubt."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise plan is implemented too late to save some neighborhoods. The town endures losses but gains long-term resilience. Maya loses the childhood home but wins broader support for community governance of projects. Romance is tentative: she and Aiden remain close but both carry scars and new responsibilities; Elena leaves but funds a memorial ecology fund."
+        },
+        {
+            "type": "True",
+            "summary": "Maya steps away from romantic closure to scale the model: she helps replicate Saltwood’s community-first approach regionally. The town survives in a changed form; her relationship with Aiden becomes a long-distance partnership rooted in shared purpose, and Elena becomes an uneasy ally — the ending emphasizes moral clarity and the larger movement rather than a simple personal 'happy' resolution."
+        }
+    ],
+    "estimated_chapters": 6
+}

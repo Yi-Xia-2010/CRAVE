@@ -1,0 +1,527 @@
+{
+  "title": "Tidebound Promises",
+  "summary": "Mara Lin, a marine ecologist and community organizer in near-future Asterport, leads grassroots tidal marsh restoration while navigating a municipal megaproject—the Asterport Shield—that threatens displacement of low-lying neighborhoods. As storms intensify, Mara must weigh direct protest, technical collaboration with Ibrahim “Ibe” Rafiq, and administrative maneuvering. Choices lead to multiple outcomes: community-driven preservation and partnership, bittersweet compromises, painful personal losses, or moral victories that cost private life. The arc follows a Man-in-a-Hole structure (Fall → Rise).",
+  "emotional_curve_type": "Man in a Hole (Fall→Rise)",
+  "player_character": "Mara Lin",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Morning Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "A routine morning at the Harbor Market establishes Mara’s commitments: planning a Saltmarsh planting, relationship with Ibe, and the looming municipal announcement of Eloise Varela’s Asterport Shield.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Kai",
+        "Rosa",
+        "Samira",
+        "Harbor Market crowd"
+      ],
+      "locations_used": [
+        "Harbor Market",
+        "Raised Quay"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Planning the Flats",
+      "branch_designation": "Common",
+      "narrative_focus": "Mara leads rooftop garden preparations and coordinates volunteers while debating Ibe’s modular uplift ideas and worrying about fast-tracked approvals and rumored relocation plans.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Rosa",
+        "Kai",
+        "Samira"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Harbor Market",
+        "The Flats (planning maps)"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Public Rollout",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "Eloise presents the Asterport Shield at the Municipal Planning Hall, a leak surfaces about investor redevelopment rights, and Mara must choose how to respond: lead protest, work with Ibe on a hybrid technical plan, or request a closed meeting with Samira.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do you react to Eloise’s rollout and the leak?",
+        "options": [
+          {
+            "label": "Lead an immediate organized protest at the planning hall—no concessions.",
+            "consequence": "Mobilizes community anger and forces a public confrontation; marks you as the grassroots face of resistance.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Work with Ibe to propose a hybrid technical plan and present it to Samira.",
+            "consequence": "Aligns you with engineering pragmatism and gives Ibe space to act; may be seen as conciliatory.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Ask Samira for a closed meeting; attempt to stall approvals administratively.",
+            "consequence": "Delicate bureaucratic maneuvering; buys time but risks political isolation.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Eloise Varela",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Samira",
+        "Kai",
+        "Rosa",
+        "Press / Crowd"
+      ],
+      "locations_used": [
+        "Municipal Planning Hall",
+        "Harbor Market (outside protest)"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Gates and Shouts",
+      "branch_designation": "Route A",
+      "narrative_focus": "Mara leads a protest at the Planning Hall that escalates into a march and confrontations with security as a storm warning arrives; she coordinates emergency reinforcements at the Flats with Ibe.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Kai",
+        "Rosa",
+        "Eloise Varela",
+        "Security",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Municipal Planning Hall",
+        "The Flats",
+        "Harbor Market"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Surge",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "A sudden storm surge hits during the protest; tide breaches part of the Flats, a full investor clause leak fans outrage, and Mara must choose between occupying a pumping station, deploying Ibe’s modular uplift, or negotiating temporary relocations.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do you respond to the sudden surge and the leaked clause?",
+        "options": [
+          {
+            "label": "Lead an occupation of the municipal pumping station to stop forced relocations.",
+            "consequence": "Public defiance draws attention and forces temporary policy freeze, but risks arrests and infrastructure sabotage.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Work with Ibe to hurriedly deploy a modular uplift in the worst-hit street.",
+            "consequence": "Rapid engineering could prevent worst losses but might fail without full testing, endangering lives.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Negotiate an emergency temporary relocation for the most vulnerable while documenting abuses.",
+            "consequence": "Saves immediate lives and creates a time window to gather evidence, but cedes ground and heart of the community.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Volunteers",
+        "Samira",
+        "Eloise Varela",
+        "Community elders"
+      ],
+      "locations_used": [
+        "The Flats",
+        "Municipal pumping station",
+        "Harbor Market",
+        "Rooftop Greenhouse"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Occupation (Ending A — Happy)",
+      "branch_designation": "Route A",
+      "narrative_focus": "Mara leads an occupation of the municipal pumping station; evidence is exposed, public pressure forces a negotiated hybrid plan that preserves community stewardship, and Mara and Ibe move toward commitment.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative (transitioning toward rise)",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Samira",
+        "Eloise Varela",
+        "Rosa",
+        "Kai",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Municipal pumping station",
+        "Rooftop Greenhouse",
+        "The Flats"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Quiet Counsel",
+      "branch_designation": "Route B",
+      "narrative_focus": "Mara and Ibe craft a hybrid modular proposal in a workshop; Samira listens but is constrained. The conciliatory plan is presented to council, and Mara and Ibe share a hopeful rooftop moment before a storm tests the design.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative (start of rise)",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Samira",
+        "Rosa",
+        "Kai",
+        "Eloise Varela"
+      ],
+      "locations_used": [
+        "Workshop",
+        "Rooftop Greenhouse",
+        "Municipal Council"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Field Test",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "A council-approved limited field test of Ibe’s modular uplift begins; during installation a hinge failure threatens collapse and Mara must choose to evacuate, attempt risky manual reinforcement, or broadcast the failure publicly.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral (rising)",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do you respond to the pilot failure?",
+        "options": [
+          {
+            "label": "Evacuate the site and document the failure to troubleshoot safely.",
+            "consequence": "Preserves lives and allows technical fixes but undermines public confidence in the hybrid plan.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Organize a volunteer manual reinforcement—risky but could save the installation and public faith.",
+            "consequence": "If successful, it demonstrates community capacity and keeps the project alive; if it fails, the political fallout is severe.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Live-broadcast the failure, forcing Eloise to commit municipal resources.",
+            "consequence": "Shames the municipality into action but may erode trust between you and Ibe for making choices about consent.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Samira",
+        "Eloise Varela",
+        "Volunteers",
+        "Press"
+      ],
+      "locations_used": [
+        "Pilot block in the Flats",
+        "Rooftop Greenhouse",
+        "Workshop"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Reinforcements (Ending B — Bittersweet)",
+      "branch_designation": "Route A & Route B converge",
+      "narrative_focus": "Manual reinforcement/evacuation salvages much of the pilot but a childhood block is lost; a revised hybrid plan funds protections but requires relocation of a neighborhood. Mara and Ibe face strain but commit to a pragmatic future.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option B OR From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Rosa",
+        "Kai",
+        "Volunteers",
+        "Municipal officials"
+      ],
+      "locations_used": [
+        "Rooftop Greenhouse",
+        "The Flats",
+        "Old Promenade / Childhood block"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Quiet Stalls",
+      "branch_designation": "Additional Route — Administrative",
+      "narrative_focus": "Mara uses bureaucratic stall tactics with Samira to force environmental reviews and consultations, buying time for the Flats but angering activists and creating political pressure from Eloise.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative (turning toward rise)",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mara Lin",
+        "Samira",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Rosa",
+        "Kai",
+        "Eloise Varela"
+      ],
+      "locations_used": [
+        "Municipal Hall corridors",
+        "Planning offices",
+        "Rooftop Greenhouse"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Leak and Lines",
+      "branch_designation": "Additional Route / Split",
+      "narrative_focus": "A partial amendment leak gives Samira documents that could be published; Mara must decide whether to publish, use them privately to broker policy, or withhold and focus on local resilience.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative (rising)",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do you use Samira’s leaked documents?",
+        "options": [
+          {
+            "label": "Publish them publicly to ignite mass action and legal scrutiny.",
+            "consequence": "Forces rapid transparency, risks personal and municipal fallout, and may provoke immediate, chaotic outcomes.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Use them as private leverage to broker a more protective hybrid policy.",
+            "consequence": "Potentially less spectacle, more stable compromise, but requires trust in backroom bargaining.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Keep them confidential and redirect energy to direct community resilience.",
+            "consequence": "Avoids scandal but may allow harmful policies to proceed; focuses on local adaptive work.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Samira",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Rosa",
+        "Kai"
+      ],
+      "locations_used": [
+        "Planning Hall",
+        "Rooftop Greenhouse",
+        "Municipal offices"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Public Reckoning (Ending C — True)",
+      "branch_designation": "Additional Route & Route A",
+      "narrative_focus": "Mara publishes the leaked documents, triggering investigations and suspension of Eloise’s plan; policy corrects toward community-led oversight but a storm and subsequent losses fracture Mara’s personal relationships, including with Ibe.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive (moral victory)",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option C OR From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Samira",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Eloise Varela",
+        "Volunteers",
+        "Investigative press"
+      ],
+      "locations_used": [
+        "Drowned Promenade",
+        "Municipal Hall",
+        "Harbor Market",
+        "Rooftop Greenhouse"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Last Stand (Ending D — Sad)",
+      "branch_designation": "Route B",
+      "narrative_focus": "Volunteers attempt a risky manual reinforcement during pilot failure; it fails, the pilot collapses publicly, Eloise pushes full engineered solutions with relocation, and Mara is left to preserve what remains while Ibe moves away permanently.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive (rise continues but bitters, labeled Sad)",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Rosa",
+        "Kai",
+        "Volunteers",
+        "Eloise Varela"
+      ],
+      "locations_used": [
+        "Pilot block in the Flats",
+        "Harbor Market",
+        "Rooftop Greenhouse"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Brokered Accord (Ending A — Happy, Alternate)",
+      "branch_designation": "Additional Route & Route B",
+      "narrative_focus": "Using the leaked documents privately, Mara brokers a strong hybrid policy with enforceable community oversight; the Flats are protected with minimized loss and Mara and Ibe commit publicly at a festival.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option B OR From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Samira",
+        "Eloise Varela",
+        "Rosa",
+        "Kai"
+      ],
+      "locations_used": [
+        "Municipal Hall (closed negotiations)",
+        "Harbor Market festival",
+        "Rooftop Greenhouse"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Quiet Resilience (Ending B — Bittersweet Alternate)",
+      "branch_designation": "Additional Route / Choice C Continuation",
+      "narrative_focus": "Mara withholds documents and doubles down on community resilience; the Flats gain strength through local labor while municipal plans proceed elsewhere, and Mara and Ibe’s relationship becomes companionate amid ongoing moral complexity.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive (rising but tempered)",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Lin",
+        "Ibrahim \"Ibe\" Rafiq",
+        "Rosa",
+        "Kai",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Rooftop Greenhouse",
+        "The Flats",
+        "Harbor Market"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "",
+  "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+  "_meta_arc_strategy": "Man in a Hole (Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 21:09:16"
+}

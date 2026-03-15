@@ -1,0 +1,229 @@
+label chapter28:
+
+    # [Scene: Council Chambers | Morning]
+
+    scene bg ch13_cfa7c2_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm strings with a steady beat—hopeful but restrained]
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of voices, a distant gull, rain tapping on the window]
+    "You arrive with wet shoes and the salt still on your scarf. The hall smells like paper, damp wool, and coffee gone cold from waiting. Your notebook is a weight against your ribs—pages thumbed back to"
+    "legal notes, to letters from neighbors, to Abuela Rosa's handwriting in the margins: remember the shoreline is people."
+    "You breathe slow, practicing the cadence that keeps the room from tipping into performance. Today isn't a blockade or a protest chant; it's a ledger reconciled into law. It should hold under pressure. It should keep people where they can live."
+    "Tamsin meets your eye from the dais—her expression open, a small tired smile that says this was the only thing she could get through the paperwork and politics: leverage. She nods once, and you feel the room tilt toward you."
+    show tamsin_cho at left:
+        zoom 0.7
+
+    tamsin_cho "We have language. It's binding. Voss will scale back the deep dredging, fund the marsh restoration fund, and agree to a phased relocation plan with compensation for the most marginal blocks. Municipal oversight will include community-appointed monitors and a temporary moratorium on disruptive activity until restoration benchmarks are met."
+    "You let the words land. Each clause is a small rescue: habitat parcels spared, TideLab's sensors included in oversight, legal teeth where there had been corporate promises. Relief washes across your face—quiet, solid, like sunlight under cloud."
+    # play sound "sfx_placeholder"  # [Sound: A low exhale from the gallery—soft sighs, a few muffled sobs]
+    hide tamsin_cho
+
+    scene bg ch13_cfa7c2_2 at full_bg
+    show corinne_voss at left:
+        zoom 0.7
+
+    corinne_voss "We will accept the terms, with the condition that the phased relocation timeline is coordinated with Voss's infrastructure schedule to minimize disruption to supply chains. We are investing in the restoration fund and in community employment programs tied to the marsh work."
+    "Her voice is precise. You hear the calculation—profit framed as benevolence. Still, the concession is real. The word 'accept' sits heavy and crucial in the air."
+    "You stand to speak because this is your town's moment and your throat has been rehearsing the line for weeks."
+    show amaya_reyes at right:
+        zoom 0.7
+
+    amaya_reyes "Council members, Tamsin—this moratorium and the restoration fund are exactly what TideLab and the neighborhoods asked for. The oversight committee will publish sensor data publicly. We will have a seat at every technical review. If Voss breaks the terms, we'll pursue immediate enforcement."
+    show tamsin_cho at center:
+        zoom 0.7
+
+    tamsin_cho "And the municipality will hold the escrow for the compensation. There are clauses for independent audits. Those audits will include community-chosen experts."
+
+    corinne_voss "Independent audits, yes. We will not delay legitimate work more than necessary, but we will comply."
+    "The back-and-forth is not a surrender; it's a tightening of expectation—legal scaffolding replacing the soft promises you fought for. Each exchange is another bolt in a structure that, you hope, will outlast storms and lawyers."
+    hide corinne_voss
+    hide amaya_reyes
+    hide tamsin_cho
+
+    scene bg ch13_cfa7c2_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft scrape of paper as a council member stamps a document]
+    "Tamsin steps down from the dais and approaches you; the room feels like it's holding its breath."
+    show tamsin_cho at left:
+        zoom 0.7
+
+    tamsin_cho "You did the heavy lifting, Amaya. Your data, TideLab’s community sensors, the public feed—those made the legal case undeniable. The council couldn't look away. Corinne couldn't either. We—' (she breathes) '—we got them to write the moratorium into the resolution."
+    "You want to say everything and nothing. Pride hits first—clear and bright—then a hollowness pushes at the ribs: neighborhoods set for relocation. The law that keeps many will also mark some for leaving."
+    show amaya_reyes at right:
+        zoom 0.7
+
+    amaya_reyes "What's the timeline? How many blocks—"
+
+    tamsin_cho "Phased over three years. Priority protections for the fishing rows and the main garden terraces. The marginal areas—three blocks on the eastern spit—are in the relocation schedule. Compensation will be fair, legally binding, and the restoration jobs will prioritize residents displaced."
+    "Your mouth twists. Fair. Legally binding. Terms that read right on paper and will still mean grief in the hands that pack boxes."
+
+    menu:
+        "Check the TideLab feed on your wristwatch":
+            "You fumble the chipped solar watch open; data scrolls green—sensors reporting stable salinity trends where the restoration pilot is running. A small, immediate proof that the work matters."
+        "Find Luka in the gallery and slip him a look":
+            "You catch Luka's eye across the room; he lifts his palm with a tiny, crooked smile that says he'll do the hard part—hold the technical meetings open—and then come back to the sensors at dusk. Your chest eases a fraction."
+
+    # --- merge ---
+    "The scene continues with Luka threading through the rows and approaching your elbow."
+    "Luka Maren threads through the rows with the easy, slightly distracted motion you've always loved—hands finding a stray cable, sleeves rolled. He pauses at your elbow, amber eyes warm and raw."
+    show luka_maren at center:
+        zoom 0.7
+
+    luka_maren "They put it in writing. We have oversight. The sensors get a seat at the table."
+
+    amaya_reyes "You satisfied?"
+
+    luka_maren "Partly. I want their engineering models open-source, or at least peer-reviewed. I can push at the meetings—make sure their timeline honors ecological recovery, not quick fixes designed to justify more dredging."
+    "You press your palm to his shoulder—the motion is habitual, intimate in a room full of bureaucratic distances."
+
+    amaya_reyes "It will be heavy. They'll ask you to bridge two worlds, Luka. They'll ask us both."
+
+    luka_maren "I know. I'll keep TideLab's network running. I'll go to Voss meetings with a recorder and a notepad. If they try to bury an impact study, we'll publish it. If they try to cut corners, we'll show the sensors."
+    "The conversation stretches—more questions than answers, more plans than guarantees. It's the choreography of commitment: promises, then proof."
+    hide tamsin_cho
+    hide amaya_reyes
+    hide luka_maren
+
+    scene bg ch13_cfa7c2_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A muted cheer rises, then soft applause; some in the audience cry quietly]
+
+    "Mayor" "By unanimous vote, the council enacts the coastal moratorium resolution and establishes the restoration escrow, with community oversight as amended."
+    "The room exhales like a wave breaking—sudden, abundant, messy. Hands clap; someone nearby sobs out a laugh. You feel the lift of the hall under you, a buoyant, terrible relief."
+    "Corinne Voss crosses the floor. She stops before you and Luka, hands folded."
+    show corinne_voss at left:
+        zoom 0.7
+
+    corinne_voss "Voss Marine Solutions will fund the initial restoration endowment and the compensation escrow. We will deploy local employment programs. We expect to collaborate productively."
+    "You read the words on her face: the corporate calculus has been altered by public pressure and legal framing. You do not trust her entirely—her worldview hasn't changed in an instant—but this is a victory the town can build from."
+    show amaya_reyes at right:
+        zoom 0.7
+
+    amaya_reyes "We will hold you to the audits. And to the jobs promise. TideLab will publish sensor data in real time. We want transparency."
+
+    corinne_voss "Transparency is now part of the agreement. We will comply."
+    "The exchange has noise and friction, but under it all is something in the room—relief braided with wary determination. You sense the town rearranging itself around new supports."
+    # [Scene: TideLab | Late Afternoon]
+    hide corinne_voss
+    hide amaya_reyes
+
+    scene bg ch13_cfa7c2_5 at full_bg
+    # play music "music_placeholder"  # [Music: A gentle rhythmic guitar—steady, hopeful]
+    # play sound "sfx_placeholder"  # [Sound: The whir of a calibrating drone; the soft clink of tools]
+    "Back at TideLab, the work begins in earnest. Jules hands you a tray of freshly printed monitoring schedules; Mateo spreads a map where the relocation blocks are painstakingly inked in."
+    show mateo_reyes at left:
+        zoom 0.7
+
+    mateo_reyes "Three blocks. They're offering relocation payments and a job promise. It's not nothing."
+    show amaya_reyes at right:
+        zoom 0.7
+
+    amaya_reyes "It's not nothing."
+    "and the words take shape differently than when the council said them. For Mateo, it's his nets, his boat slip. For others, it's ancestral rooms and a small yard where children learned to tide-pool."
+    show jules_park at center:
+        zoom 0.7
+
+    jules_park "We'll get residents trained on the restoration crews. The marsh work needs people who know the water. And we can make the temporary housing near the main pier—the kids won't be far from school."
+
+    amaya_reyes "We'll make sure cultural memory moves with them. Abuela Rosa's stories, the placenames, the gardens—we are not letting those go."
+    "Abuela Rosa lifts her chin from the corner of the room, eyes sharp and warm."
+    hide mateo_reyes
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "We carry it with our hands. We stitch our songs into new soil. Lineage is not a place. It is a carrying. You do good work, niña. Do not forget to breathe."
+    "She reaches across the table, takes your roughened fingers in her stooped hand. The touch is small and fierce—an elder blessing that unfurls the space inside you where pride and ache twine. You feel steadier."
+
+    menu:
+        "Take a moment to map community job roles with Jules":
+            "You sit with Jules over the schematics, assigning names to tasks—seed propagation, oyster-bed monitoring, data entry. Names become plans; plans become livelihoods."
+        "Walk the shoreline with Mateo to mark critical slips":
+            "You follow Mateo along the waterline, feeling the wet mud compress under your boots. He points to the slips and the places children fish. Each marker is a life that will be moved, but not erased."
+
+    # --- merge ---
+    "The scene continues with Luka at the bench and the group organizing work."
+    "Luka Maren is at the bench, head bent over a sensor array, soldering in a quiet rhythm. He looks up, and you read the quiet agreement in his eyes: shared work, shared consequences."
+    hide amaya_reyes
+    show luka_maren at right:
+        zoom 0.7
+
+    luka_maren "I'll split my time. Half the week with Voss—only so I can insist on transparency. The other half here, keeping the sensor grid and community training intact. I won't let them close doors to the data."
+    hide jules_park
+    show amaya_reyes at center:
+        zoom 0.7
+
+    amaya_reyes "You'll be stretched."
+
+    luka_maren "I don't want the job of policing them forever. I want the job of making sure our methods are better than their shortcuts."
+    "You laugh, the sound wet and relieved. You can imagine nights where he'll return exhausted from meetings and you'll patch a frayed cord together while telling the story of some ridiculous sensor error. It's small, domestic, and crucial."
+
+    amaya_reyes "Promise me you'll come home for dinner when you can."
+
+    luka_maren "I promise. And when I can't—I'll send the drone to drop off soup."
+    "You both pause. The romance here is not fireworks; it's the steady accumulation of tiny promises, of choosing one another through long lists of obligations. The mid-tempo beat of your lives hums on."
+    hide abuela_rosa
+    hide luka_maren
+    hide amaya_reyes
+
+    scene bg ch13_cfa7c2_6 at full_bg
+    # play music "music_placeholder"  # [Music: Strings swell slightly—bright, forward-moving]
+    # play sound "sfx_placeholder"  # [Sound: Laughter mixed with the steady slap of waves]
+    "Weeks become months. The restoration pilot shows early signs of resilience: salinity stabilizes in test plots; juvenile oysters return; hired crews rebuild nursery beds. The relocation program opens with community liaisons on-site; compensation checks are issued; people pack with a mix of anger and relief."
+    "At the dedication of the restoration site, the town gathers. There are speeches, a ribbon cut with a borrowed pair of gardening shears, and a crowd that looks a little less like victims and more like co-authors of a hard win."
+    "You stand beneath a sky that still remembers storms but now keeps a sliver of blue. You feel pride—sharp, necessary—and a hollow where the memory of what had to be let go lives."
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "You did the work that needed doing. The shore remembers those who defend it. So do I."
+    show amaya_reyes at right:
+        zoom 0.7
+
+    amaya_reyes "We kept most of the town."
+
+    abuela_rosa "Most. That is a blessing in a hard season. You have given them a chance to live and to remember."
+    "You think of rooms emptied, of the wharf boxes to be loaded, of the small garden plot Mateo will replant near the pier. You think of all the hands that will lean into the marsh to"
+    "restore its memory. That hollow inside you is not an absence but a room in which grief and gratitude sit together."
+    "Later, you and Luka walk along the boardwalk where the new sensor buoys blink their tiny lights like sentinels. The ocean stretches, a muted mirror."
+    show luka_maren at center:
+        zoom 0.7
+
+    luka_maren "We made a choice that kept people here and moved some. It wasn't perfect."
+
+    amaya_reyes "It was hard. It still is."
+
+    luka_maren "But it's ours. And we'll keep watch."
+    "You look at him—at the salt-struck hair, the stubborn tilt to his smile—and let the tide of relief and tiredness settle. There is love threaded through the policy, through the audits and the job rosters. It is practical, material, and honest."
+    hide abuela_rosa
+    hide amaya_reyes
+    hide luka_maren
+
+    scene bg ch13_cfa7c2_7 at full_bg
+    # play music "music_placeholder"  # [Music: A single sustained cello note resolving into gentle chords]
+    "You are tired and awake. You are proud and hollow. The moral ledger balances imperfectly, but it balances. You have secured homes, seeded jobs, and kept the town's stories in motion. You know names will be"
+    "moved from one map to another, but you also know the names will be carried."
+    "Abuela Rosa squeezes your shoulder and, without ceremony, lays a small woven bundle in your palm—a piece of braided grass, folded paper with a few place-names written in her looping script."
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "For remembering. Plant this where you will. Tell the children the names when they come to plant. That way, nothing is forgotten."
+    "You tuck the bundle into your jacket, feeling the tiny roughness of the braid. It fits with the rest of your things—the notebook, the watch, the bracelet with seeds. These are the things that keep memory alive."
+    hide abuela_rosa
+
+    scene bg ch13_cfa7c2_8 at full_bg
+    # play music "music_placeholder"  # [Music: Swelling strings, bright but gentle—hopeful resolution]
+    # play sound "sfx_placeholder"  # [Sound: A chorus of small sounds—tools, waves, distant conversation—a living seam of community]
+    "You close your eyes for a moment and breathe in the salt and wet soil and human warmth. The path ahead will be full of details to tend: audits to watch, jobs to organize, families to help settle. The fight did not disappear. It changed shape."
+    "You feel a steady, expanding warmth—pride that did not come from vanquishing an opponent but from designing something better, together. The hollow remains a space that will make room for future stories and for the people who will carry them."
+
+    scene bg ch13_cfa7c2_9 at full_bg
+    # play music "music_placeholder"  # [Music: Resolve chord, gentle fade]
+    show amaya_reyes at left:
+        zoom 0.7
+
+    amaya_reyes "We did it. We'll keep doing it."
+    hide amaya_reyes
+
+    scene bg ch13_cfa7c2_10 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle outro—hopeful, lingering]
+
+    scene bg ch13_cfa7c2_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

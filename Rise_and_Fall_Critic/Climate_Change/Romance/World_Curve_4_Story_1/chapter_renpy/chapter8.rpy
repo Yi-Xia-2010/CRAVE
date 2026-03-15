@@ -1,0 +1,199 @@
+label chapter8:
+
+    # [Scene: Skyfarm Terraces | Morning — A Week After the Last Harvest]
+
+    scene bg ch8_6b08b4_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, steady cello with distant percussion; a gentle, melancholic motif underpins the morning]
+    # play sound "sfx_placeholder"  # [Sound: The soft hiss of drip-irrigation, gull calls, and an undercurrent of far-off mechanical hum]
+    "You breathe in salt and loam together — a smell that belongs only to mornings when the city is still stitching itself back. The terraces are full of voices: laughter from the seed-laden benches, the clank"
+    "of a crate being hoisted, the low bargaining hum of neighbors swapping roots and stories. For a little while, it feels like proof that the small things add up."
+    "Your jacket is salt-streaked at the sleeves; your palms are rough where you gripped the same plank three mornings in a row. You feel the ache like a ledger entry: each seam you sew is a"
+    "debt you pay forward. It’s honest work, and it feeds people now. That should be enough. For a while, it is enough."
+    "Ibe leans over a raised bed, forehead shaded by a crooked cap, sanding a splintered rail with methodical patience."
+
+    "Ibrahim "Ibe" N'Diaye" "You did good with the pump last night. Kept the lower stalls dry through that tide. Toma says your— (he grins) —your stubbornness is finally being useful."
+    show maia_soler at left:
+        zoom 0.7
+
+    maia_soler "Ibe, stubbornness built half these terraces. The other half is your unwillingness to let things fall apart."
+
+    "Ibrahim "Ibe" N'Diaye" "And about the other half?' (he gestures toward the horizon, where a pale rectangle of the city sits under low cloud) 'You still think your way is enough."
+    "You pause. The question lands like a pebble in still water; its ripples show everything you've been trying to ignore lately. For now, you answer in the only language you trust: labor."
+
+    maia_soler "It's a start. We make what we can. We teach — we make the work replicable. People here can keep themselves alive with what they learn from one another."
+    "Ibrahim 'Ibe' N'Diaye folds his hands, the carpenter’s patience and the neighbor’s bluntness intermingled."
+
+    "Ibrahim "Ibe" N'Diaye" "Yeah. But I saw a clip this morning. Old Dock's looking thin. Wind tore another pier out. That's not on our terrace ledger."
+    "The wind lifts a seed-paper wrapper from a table and carries it toward the rail. Somewhere beyond the lavender and tomato vines, the city’s larger breath keeps tugging at the edges."
+
+    menu:
+        "Walk the terrace, visiting every team":
+            "You move through the terraces, stopping to tie knots briskly, correct a drip line, share a joke. Each hand you clasp leaves a warmth that steadies you for a few more hours."
+        "Stay and catalog supplies, inventory what we have":
+            "You sit amid crates and clipboards, mapping resources, thinking in lists. The neat boxes of facts help you pretend the world can be counted into safety."
+
+    # --- merge ---
+    "You continue the morning with the terrace work, the market visit awaiting."
+    hide maia_soler
+
+    scene bg ch8_6b08b4_2 at full_bg
+    # play music "music_placeholder"  # [Music: Cello swells, then thins]
+    "You visit the market after the morning’s work. Canal Twelve is less festival today than the terraces, but life pushes on between stalls. Neon awnings ripple with a jaunty resilience; children dart between legs that still"
+    "bear the salt of last night’s tide. The press van is parked at the edge of the market — black-glass panels and a logo that feels too clean for the smell of fish and oil. A"
+    "reporter interviews a man selling smoked seaweed."
+
+    "Reporter" "—and some residents argue the decentralized model has kept families fed. Is this pride or reckless insularity?"
+
+    "Vendor" "We do what we must. You lot— (he gestures at the van) —you sell us decisions, not food."
+    "You feel the word 'insularity' like a bruise forming. The camera angle seeks people like you as an image: quaint, not competent; sentimental, not strategic."
+    # [Scene: Skyfarm Terrace — Midday]
+
+    scene bg ch8_6b08b4_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, mechanical thrum grows louder; insects quiet as if listening]
+    "Elias Kade finds you near a compost barrel, hands empty for the first time that morning. Grease still dots the hem of his undershirt; his wrist tablet is dark for now. When he approaches, his steps are hesitant—careful about the soft places where pride and fear mingle."
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "Maia. (he doesn't try to smooth it over with a joke) Did you—did you hear from Old Dock this morning?"
+    "You nod before you can stop yourself."
+    show maia_soler at right:
+        zoom 0.7
+
+    maia_soler "Ibe mentioned it. The pier collapsed further. Toma's nephew lost his shed."
+    "Elias Kade's jaw tightens for a beat that stretches."
+
+    elias_kade "My team flagged erosional acceleration six months ago. I kept adjusting the models — tried to find a modular ramp-up that could buy us time without centralizing control. Some of the early tests showed hybrid benefit. I… I didn't push hard enough to make room for both sides."
+    "There is so much folded into what he says: remorse, professional ache, the attempt at confession. You stare at him, cataloguing every micro-expression for truth."
+
+    maia_soler "You didn't push hard enough, or you couldn't convince people of an idea that felt like it would take away agency? There’s a difference."
+    "Elias Kade: (after a long breath) 'Both. The models said 'both.' My meetings said 'no.' I thought I could build trust from the inside — show a prototype here, distribute controls there. But the consortium was impatient. Rin wanted a single-sweep deployment.'"
+    "He looks away, toward where the van’s satellite dish tilts like a white gull catching sun."
+
+    elias_kade "I didn't understand how dangerous paralysis would be if it came too late. But I still think— (he searches your face) —I still think scale matters. We could have saved those docks if the TideGrid had been in a modular form sooner. I carry that."
+    "Your chest tightens; the anger is a slow sort of sadness. It is easy to imagine the equation in red numbers, the way models can feel like moral imperatives when printed on glass. It is harder"
+    "to imagine what you lost when your community's autonomy became the counterargument in a press piece."
+
+    maia_soler "So what now, Elias? You tell me you regret, and I sit with docks that vanish at the edge of the city. You keep building a system that could protect everyone — and still I can't forget how much control it asks for."
+
+    elias_kade "I don't have an answer that fits neat in one breath. I want to keep you and your people safe and — (he falters) —and I want my work to mean more than making neat safe zones for the wealthy."
+    "You both look at the same patch of harbor. Words feel like fragile planks laid over a gap, and you are unsure whether they will hold."
+
+    menu:
+        "Take his hand, keep him near":
+            "You close the small space between you, fingers finding his. It steadies you both for a moment—but it does not change the tide."
+        "Step back, ask him to prove it with action":
+            "You give him a look that is not forgiving. 'Show me the hybrid,' you tell him. His face tightens, reshaped by the promise of labor rather than comfort."
+
+    # --- merge ---
+    "The conversation leaves both of you with a fragile plan and unresolved truths."
+    # [Scene: Old Dock District | Late Afternoon — After the Storm Surge]
+    hide elias_kade
+    hide maia_soler
+
+    scene bg ch8_6b08b4_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The raw edge of wind; flapping tarps; distant shouting; the indifferent slap of waves against twisted timber]
+    "You arrive with a small team: a cart of tools, a couple of spare pumps, and the sort of optimism that belongs to people who refuse to be told the world is finished. What you find"
+    "is larger than a miscalculation. It is the feeling of memory washed and unavailable — the wooden benches where Toma once told stories are gone; the mosaic tiles that used to map a child's footprints are"
+    "either freckled with algae or swallowed whole."
+    "Old Man Toma sits on a half-submerged step, cloak tangled around him like a map. His face is weathered in a different way today — not just age, but shock. The way his hands rest on"
+    "his knees says he is trying to hold himself upright without the prop of familiar things."
+    "Old Man Toma: (soft, almost a whisper) 'We kept the lamp on the day the pier gave. It was there, and then the water took it all at once. Not slow. Quick. Like someone pulled the line.'"
+    "Maia Soler kneels beside him; the board beneath you sways with a tired protest."
+    show maia_soler at left:
+        zoom 0.7
+
+    maia_soler "I can't bring back the dock, Toma. I can shore the next pier. I can keep the ones that are left. Tell me what to do."
+    "Toma's eyes slide past you, to the horizon that used to have a ribbon of docks."
+    show old_man_toma at right:
+        zoom 0.7
+
+    old_man_toma "You do what you always do, child. Patch. Teach. Remember. But know this—some tides don't ask permission. You can't placate the ocean with good intentions."
+    "His words are not resignation; they are a naming. You feel the weight of that naming like a ledger you cannot pay."
+    "Neighbors gather — faces tarnished by loss, voices rising in the way grief sometimes turns to accusation."
+
+    "Neighbor 1" "You said we could manage. We sold our trust to one another. Where was the city when the pier started to go?"
+
+    "Neighbor 2" "They said small was strong. Now look."
+    "You hear the refrain of 'reckless' again, this time sharpening into something harder. The press van’s microphone is already active; a live feed captures the edge of your neighborhood as if it were a cautionary tale."
+    hide maia_soler
+    hide old_man_toma
+
+    scene bg ch8_6b08b4_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The press feed’s tinny audio overlays the wind: Rin's voice is calm, practiced, magnified]
+    show rin_voss at left:
+        zoom 0.7
+
+    rin_voss "The city can no longer be a laboratory for partial solutions. Tonight I will petition for emergency centralized stabilization. We must act as one. We must stop experiments when they risk the many for the comfort of the few."
+    "Her words fall like a verdict. The feed cuts to footage of the Old Dock, and behind her the tide model glows blue and authoritative."
+
+    "Maia Soler (inward)" "She frames us as privileged in our autonomy. She frames our choices as a moral failure. She turns our refusal into proof of negligence."
+    "Elias Kade stands a few feet away, tablet in hand, the glow illuminating his face; the light makes his features look smaller. He watches Rin with a complexity that is almost pain."
+    show elias_kade at right:
+        zoom 0.7
+
+    elias_kade "She's using the surge to consolidate. She'll mandate a city-wide deployment. She'll frame it as necessary. I can see the board papers now."
+    show maia_soler at center:
+        zoom 0.7
+
+    maia_soler "Will the TideGrid save places like this?"
+
+    elias_kade "Yes. It will reduce regional surge risk. But depending on how it's deployed it could centralize operations, limit community controls, and set governance precedents that are hard to break."
+
+    maia_soler "So saving some may mean someone else pays with their voice."
+
+    elias_kade "That's the fear the models don't convey — the governance cost. And I didn't know how to build that into my design as a non-negotiable feature. I'm—' (his voice breaks on the last word) '—I'm sorry."
+    "You stare at Rin's image on the screen, at Toma's hands, at the wrecked mosaic. The honest work you did feels both luminous and painfully small. The terrace's patches can't hold back policy when a crisis is reframed as tyranny disguised as salvation."
+    "Neighbors shout at the van; a woman throws down a crate in fury. The camera angles tighten, hungry for drama. The narrative outside your terrace becomes a courtroom where your community's motives are tried."
+    # [Scene: Canal Twelve | Dusk]
+    hide rin_voss
+    hide elias_kade
+    hide maia_soler
+
+    scene bg ch8_6b08b4_6 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano; dissonant notes ring out, then resolve into a slow, descending line]
+    "Elias Kade walks with you along the market edge. He keeps his hands to himself, as if what he wants to offer might be blown away by the wind. You both move through the hush of"
+    "people who have taken on the day's grief and turned it into careful, brisk motion."
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "Rin will push for a vote at the council. She has allies with capital and influence. The mandate will likely be justified under emergency powers. The press will call the debate 'necessary' and 'urgent.' They'll paint people like us as romantic but impractical."
+    show maia_soler at right:
+        zoom 0.7
+
+    maia_soler "And if it passes? If the TideGrid comes down as a centralized mandate?"
+    "Elias Kade: (after a long pause) 'Then the city gets stabilized faster. People live. But governance shifts. Access will be mediated. Some neighborhoods will have a voice; some won't. The choice won't be only technical —"
+    "it'll be who decides how the system runs, who owns the maintenance, who pays for oversight.'"
+    "You feel each word like a stone dropped into the harbor of your convictions. The scale of the trade-off is not abstract anymore; it sits between you like a small, sharp instrument."
+
+    elias_kade "I—' (he stops) 'I don't know if we made the wrong call by doubling down on community resilience. I can't take back what you chose. But I can't pretend that the docks would still be whole if a hybrid had been funded earlier. I live with both of those truths. I don't expect you to forgive me for either. I only want you to know I don't think I'm wholly right or wholly wrong."
+    "You consider how to answer a confession that is both an apology and a plea. Your hands ache; your voice is steady because you need it to be."
+
+    maia_soler "You can keep telling me the models say both, Elias. But you must also understand that our refusal wasn't born of romanticism. It was born of mistrust — of being told safety requires surrendering our say."
+
+    elias_kade "I understand. I really do. I'm trying to build the bridge between saying and doing. I need you to see the bridge when it's built."
+    "You look at the bridge he offers — half-concrete, half-rope — and you cannot pretend the parts won't fray."
+
+    menu:
+        "Tell him you'll help audit any proposed TideGrid plan":
+            "You give him a flat, measured look. 'If they do this, we need people at the table. We need open protocols and community oversight.' Elias nods, grateful and exhausted, and for a heartbeat the work looks possible again."
+        "Tell him you'll resist any central mandate":
+            "You make your stance plain. 'If they try to mandate, we'll resist.' His face goes still, and the air between you tightens; the road ahead is suddenly a line drawn in salt water."
+
+    # --- merge ---
+    "The evening ends with a fragile alignment of purpose and a clear adversarial horizon."
+    hide elias_kade
+    hide maia_soler
+
+    scene bg ch8_6b08b4_7 at full_bg
+    # play music "music_placeholder"  # [Music: The cello returns, lower, a single mournful line weaving into the soundscape]
+    "You think of the children who plant seeds with dirty knees, of Old Man Toma’s stories tucked inside his cloak, of the wooden benches now gone. You think of Rin's measured face on the screen, the"
+    "way certainty looks when polished. You think of Elias and the models stacked in his head like fragile plates."
+    "The sense of ascendancy you felt weeks ago — that luminous tilting toward agency — has curdled into something harder to name: fatigue, grief, and an urgent, aching awareness that small stitches alone may not be enough when the pattern itself begins to fail."
+    "You stand there, hands empty again, listening to a city that hums with both life and a louder machinery. The night presses close; the hum from a distant barge knots into the city's current like a new, cold pulse."
+    # [Page-Turn Moment: You press your thumb against the photograph in your copper locket until the edges burn warm. You want to hold onto the memory of a shore that used to be wide, but the image trembles. Somewhere, council chambers light up; somewhere, machines warm into motion. You are practiced at making hands and gardens and neighbors into a defense. Tonight, you must decide whether to hold the stitches tighter, to step back and make a public stand, or to reach for a way to weld smaller things into something the city can accept. The choice shimmers ahead like surf under cloud. You take a breath, and the world tilts toward the next action.]
+
+    scene bg ch8_6b08b4_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter9
+    return

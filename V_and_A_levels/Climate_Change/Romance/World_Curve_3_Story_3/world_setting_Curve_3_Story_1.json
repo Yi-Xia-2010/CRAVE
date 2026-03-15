@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the Genre (Romance) by centering personal relationships inside a near-future coastal city undergoing environmental upheaval. The narrative conflict is the friction between urgent collective adaptation (policies, infrastructure, community action) and intimate human needs (love, trust, sacrifice). Romance becomes the lens that reveals different moral choices: protect a relationship at personal cost, or risk it to save a wider community. That tension drives character decisions across six chapters.",
+    "setting": "Near-future coastal metropolis (called Valora Bay) where rising seas and increasingly violent storms have reshaped neighborhoods. Concrete seawalls, experimental living shorelines, rooftop farms, and flooded promenades coexist with restored marsh corridors. The atmosphere is humid, salt-tinged, and often storm-darkened, but threaded with bursts of bright greenery and artisanal market life—the city is in resilience-invention mode.",
+    "visual_style": "Semi-realistic anime with environmental detail; muted, stormwashed palette punctuated by saturated greens and warm interior lights; textured linework; soft cinematic lighting; eco-tech accents",
+    "main_characters": [
+        {
+            "name": "Maya Reyes",
+            "role": "Protagonist",
+            "personality": "Analytical, empathetic, stubborn when convinced of a cause. Leads with data but learns to trust community stories. Tends to internalize guilt and overwork to solve problems for others.",
+            "appearance_features": {
+                "hair": "Deep chestnut, collarbone-length with uneven bangs and a single silver streak tucked behind the ear",
+                "eyes": "Warm hazel with a faint freckle pattern in the left iris",
+                "clothing": "Weathered olive field jacket with reflective trim over a simple navy jumpsuit, rolled sleeves showing ink-stained forearms; ankle boots with salt scuffs",
+                "accessories": "A braided paracord bracelet from her childhood village, a slim digital tablet clipped to her belt, a small brass pendant engraved with a tide line"
+            },
+            "goal": "Design and implement community-led adaptation that protects vulnerable neighborhoods while keeping their culture intact.",
+            "background_story": "Grew up in a lower-lying district that was repeatedly flooded; studied urban ecology on scholarship and returned to apply scientific solutions. Haunted by a past failure to stop a small neighborhood displacement, she now channels that guilt into pragmatic resilience work.",
+            "emotional_trait": "Strength: deep empathy and conviction. Flaw: tendency to shoulder blame and avoid asking for help."
+        },
+        {
+            "name": "Emil Kwon",
+            "role": "Love Interest",
+            "personality": "Warm, tactile, patient. A practical problem-solver who prefers hands-on solutions and community craft over policy. Lighthearted but quietly principled; slow to anger, quick to defend the vulnerable.",
+            "appearance_features": {
+                "hair": "Soft black hair kept short on the sides and longer on top, often tousled from sea winds",
+                "eyes": "Sea-glass green, rounded and observant",
+                "clothing": "Layered linen-cotton fisherman shirt in faded teal, rugged canvas pants patched at the knees, rubber-soled deck shoes",
+                "accessories": "A leather satchel full of hand-tools and retrofit schematics, a utilitarian wire-framed wristwatch modified with tide alerts, a faded blue bandana"
+            },
+            "goal": "Create small-scale, low-tech solutions (floating gardens, modular breakwaters) that communities can build themselves.",
+            "background_story": "Raised in a family of small-scale fishers and boatwrights, Emil learned to read tides and mend nets. When industrial projects began displacing his community, he adapted traditional skills into resilient prototypes and became a bridge between makers and scientists.",
+            "emotional_trait": "Strength: steady loyalty and practical optimism. Flaw: sometimes underestimates systemic political barriers and prefers immediate fixes."
+        },
+        {
+            "name": "Noah Ortega",
+            "role": "Antagonist / Complicated Rival",
+            "personality": "Charismatic and decisive, pragmatic to a fault. Loves his city and claims to act in its long-term interest but is impatient with slow compromise. Can be paternalistic and secretive.",
+            "appearance_features": {
+                "hair": "Salt-and-pepper, cropped close at the sides with a tousled top",
+                "eyes": "Steel-gray, narrow and evaluating",
+                "clothing": "Tailored dark weatherproof coat with a high collar over a clean-cut shirt and work-chic trousers—practical elegance signaling authority",
+                "accessories": "A discreet lapel pin of the Development Consortium, a tablet with secure credentials, a heavy signet ring bearing his family's crest"
+            },
+            "goal": "Push a large-scale engineered seawall and urban redevelopment plan to quickly protect the city’s economic core.",
+            "background_story": "A former engineer turned policy leader from an influential family, Noah believes strong centralized projects are the only realistic path to survival. He clashes with Maya over process and displacement risks but genuinely fears catastrophic loss if action is delayed.",
+            "emotional_trait": "Strength: decisive leadership and strategic clarity. Flaw: unwillingness to fully share power or accept slower, participatory approaches."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Asha Karim",
+            "relation_to_main": "Mentor to Maya",
+            "appearance_summary": "Silver-tied hair, lightweight lab coat with plant stains, warm amber spectacles.",
+            "function_in_story": "Longtime ecologist who offers historical context, moral counsel, and quiet challenges to Maya when she needs perspective."
+        },
+        {
+            "name": "Diego Ramos",
+            "relation_to_main": "Childhood friend of Emil and community organizer",
+            "appearance_summary": "Stocky, sun-leathered skin, always seen with a messenger bag full of flyers and community maps.",
+            "function_in_story": "Keeps the neighborhood voice alive, mobilizes workshops, and pressures Maya to include grassroots voices rather than top-down fixes."
+        },
+        {
+            "name": "Mayor Lila Chen",
+            "relation_to_main": "Authority figure who must choose policy",
+            "appearance_summary": "Polished public figure with short bob haircut and neutral-toned suits softened by a plant brooch.",
+            "function_in_story": "Represents political constraints and compromise; her decision is the plot pivot that forces the protagonists to choose between personal and public priorities."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Verdant Spire Rooftop Farm",
+            "visual_description": "A layered rooftop oasis of raised beds and reclaimed wood trellises atop a municipal tower. Early-morning light filters through condensation, painting greens in luminous, saturated tones. Warm string lights glow at dusk among draping vines; soft hum of irrigation and the scent of wet soil mingle with distant sea-salt air."
+        },
+        {
+            "name": "Tideward Promenade (Flooded Market)",
+            "visual_description": "Long stretch of market stalls built on stilts and floating platforms. Water lapping against pilings reflects neon signage and tarpaulin colors. Overcast afternoons make water mirrors matte pewter while stalls wear bright umbrellas and hand-sewn canopies. After storms, debris and repaired patchwork create a tapestry of resilience."
+        },
+        {
+            "name": "Asteria Coastal Research Lab",
+            "visual_description": "Glass-and-steel waterfront lab with wet floors, instrument arrays, and wall maps annotated with sticky notes. Interior lighting is cool white mixed with monitors' blue glow; outside, waves crash against experimental breakwaters. The lab smells of ozone, coffee, and algae samples."
+        },
+        {
+            "name": "Old Beacon Lighthouse",
+            "visual_description": "A weathered brick tower perched on a rocky outcrop, streaked with salt and lichen. Golden light spills from the lantern room at dawn, cutting through mist. The surrounding marsh is a patchwork of reflective pools and reeds that catch low-slung sunlight in sheets of copper and green."
+        },
+        {
+            "name": "Seawall Construction Site / Council Hall",
+            "visual_description": "Contrast between sterile council chambers—fluorescent-lit rooms of polished wood and schematic screens—and the muddy, machine-noised construction site outside where cranes throw long shadows at sunset. Dusty oranges and hydraulic blues dominate the outdoor palette; indoor reflections are colder and clinical."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Adaptation vs. Prevention",
+        "Community Resilience",
+        "Love under Crisis"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A blended outcome: Maya brokers a hybrid plan combining living shorelines and targeted engineered defenses, the community is preserved, and she forms a committed partnership with Emil. Noah concedes and helps redirect funds into equitable programs. The romance and civic victory feel earned."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Maya chooses to prioritize community autonomy over a tidy policy compromise. The living-shoreline approach succeeds locally but lacks full city funding; Emil stays by her side but their future requires modest living and hard work. They gain moral victory and local stability, but personal comforts are sacrificed."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political inertia and a rushed push for a large seawall lead to displacement of vulnerable neighborhoods. Maya and Emil's relationship fractures under the pressure—Maya is blamed for delays, Emil feels powerless and distances himself. The city is technically protected in zones, but cultural loss and mistrust linger."
+        },
+        {
+            "type": "True",
+            "summary": "Maya exposes hidden conflicts of interest driving the seawall project; the scandal forces structural change. The outcome is complex: policies shift toward participatory resilience, but Maya and Emil have grown apart—she moves into a civic role requiring long absences. Their love survives as a deep, matured companionship rather than romantic idealism."
+        }
+    ],
+    "estimated_chapters": 6
+}

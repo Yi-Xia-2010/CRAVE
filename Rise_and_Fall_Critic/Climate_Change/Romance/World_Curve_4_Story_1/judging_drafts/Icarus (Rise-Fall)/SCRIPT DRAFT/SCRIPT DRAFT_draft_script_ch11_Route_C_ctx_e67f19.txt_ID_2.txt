@@ -1,0 +1,148 @@
+[Scene: Aunt's Roof | Dusk]
+[Visual: The roof is a quilt of patched tarpaulin and salvaged tiles; a low wooden railing rimmed in salt crust. Beyond, terraces and raised walkways form a jagged skyline. Modular node beacons blink like distant lighthouses.]
+[Music: Low, tense cello with distant percussion — a slow, sinking rhythm]
+[Sound: Rain fattening into a steady fall; a distant mechanical whine of pumps; a soft, intrusive digital ping]
+
+You are already where memory lives: the roof that belonged to your aunt, once whole in sunlight, now a stitched thing leaning into the weather. The copper locket at your throat presses warm against the damp linen of your shirt; the photograph inside is a sliver of shore you cannot exactly remember but recognize in feeling.
+
+Across the channel, a cluster of modular nodes — the hybrid array you helped charter and sign the oversight memorandum for — thrums. Each has a painted sigil: a carved wave, a hand, and the thin line of this neighborhood's mark. Tonight, those sigils glow with a technical blue, not with the mossy warmth you meant them to carry. They pulse, then a new light blooms: remote-control amber.
+
+Your first thought is a physical one. The amber is the override. The indicator reads CONTROL: REMOTE—EMERGENCY. Your stomach dips as if the roof itself could tip.
+
+You can hear people moving below: footsteps on tarred boards, a chorus of soft curses, someone crying out that their pump's been silenced. Farther away, a public announcement booms — clinical and muffled by rain — something about "priority stabilization for critical infrastructure; hospital wards are at imminent risk." The voice is not Rin's; it sounds like an automated legal mouthpiece speaking clauses in a language of authority.
+
+Elias arrives as the announcement finishes, rain spattering his jacket. He is a shape in the dim, hair soaked into his forehead, the wrist tablet glowing against his sleeve. When he steps up onto the roof ladder you can smell ozone and the faint, clean tang of his solar-fabric jacket.
+
+Elias Kade: (breathless) "Maia— I got the logs. It's— I have them."
+
+You don't answer right away. You let the sound of the rain push at your ribs. You look at the nodes again. The sigils you carved with your own hands look smaller under the technological halo.
+
+You: "They switched control."
+
+Elias: (voice tight) "The fallback chain executed. A cascade. It defaulted to centralized override when the redundancy handshake failed. There were five failed acknowledgments in ninety seconds."
+
+You: (sharper than you mean) "Five. And they tripped Rin's clause."
+
+Elias: (his hands shake as he pulls the tablet toward you; his thumb leaves a wet streak across the glass) "It wasn't meant to be like this. We wrote the clause to handle hospitals. We argued for community thresholds. There were— there were legal addenda that pushed authority in emergencies. I— I pushed."
+
+You reach for the tablet. The logs are a pale, scrolling geography of timestamps and callsigns: NODE_23: HEARTBEAT_MISS -> FALLBACK_INIT -> OVERRIDE_REQUEST -> OVERRIDE_ACK (RIN_VOSS/LEGAL) -> REMOTE_CONTROL_ACTIVE. The signature is crisp, procedural. The call is stamped at 19:12:03; the first failure at 19:10:32. The rain is louder now, as if the city is trying to wash this record clean.
+
+You: "You pushed? Or you resisted and lost?"
+
+Elias: (eyes drop; he picks at a fray on his cuff) "I tried to assert the custodianship. I filed for a soft pause— an audit lock. They overruled it. The legal team cut a binding clause—emergency mandate. I got a notice—when the fallback began, my appeal was queued and then dismissed as untimely. The court functions are… Ibe says it's a maneuver of jurisdiction. Rin's counsel invoked an emergency statute written back when the council feared exactly this kind of cascade."
+
+You let the words settle. Betrayal has flavors: the hot metallic of being lied to, the slow sour of being outmaneuvered. It is worse when the betrayal tastes like inevitability.
+
+[Interactive Moment: Choice A ("Go down and rally the neighbors now") -> Reaction: "You sling the rope bag over your shoulder, fingers numb but steady, because someone has to be loud for the people who will be quieted. The plan forms in your head: block access, form human chains, interrupt the technicians who will plug those nodes into Rin's feed." || Choice B ("Stay and comb the logs with Elias") -> Reaction: "You crouch beside Elias, your breath fogging the tablet's light. You trade speed for evidence—every timestamp, every signature might become the small hinge on which later accountability turns. The rain presses like an audience; for now you look for the clearest proof."])
+
+Elias watches you make the decision as if it matters where your feet go. When you choose, the rain seems to agree.
+
+[Scene: Modular Node Site — Canal Twelve Cluster | Night]
+[Visual: A ring of barge-mounted nodes with slick metal backs to the water; technicians in reflective shells are corralling hoses. Spotlights carve the rain into sheets; a projector on a crane broadcasts the city's crest beside Rin's corporate emblem.]
+[Sound: The staccato clack of boots, a public-address channel overlaying procedural updates; a low, political murmur behind broadcasts]
+
+Down at the cluster, neighbors huddle under patched awnings. Ibe stands with a plank of reclaimed cedar across his palms and looks at you like someone who has been given bad news that he has to haul anyway.
+
+Ibrahim 'Ibe' N'Diaye: (low) "They lit the amber before half the pumps could sync. Old Man Toma's block is on the wrong wavelength for their routing. He— he called all morning and they said 'assessments incoming.'"
+
+You: "Which blocks were reassigned?"
+
+Ibe: "Hospital Hill, Marina Spine, the Waterworks. Central corridors first. Your terrace—" (he gestures without finishing)
+
+Your terrace flickers in the distance like a withheld constellation.
+
+A technician approaches, tablet held up like a placard. The overlay on their screen lists the emergency criteria: PATIENT_LOAD > 90%; FLOOD_RISK INDEX > 0.8; INFRASTRUCTURE_WEIGHT > threshold. Legal authorization is visible, stamped with a municipal authority token and Rin Voss's syndicate seal.
+
+Technician: (quiet, clinical) "We're following emergency priority. Local nodes are being rebalanced to maintain artery flows. We're reallocating transfer capacity to stabilized channels. We're sorry for the delay."
+
+Your neighbor's voice cuts him off.
+
+Neighbor (young mother): "Sorry doesn't stop the basement from filling, it doesn't stop my fridge from spitting seawater. My boy's school has no generator."
+
+Technician: (apologetic) "There are protocols for community aid—"
+
+Neighbor: "Protocols don't catch children."
+
+The technician looks at you like a plea. You feel how thin the answer is.
+
+Elias pushes through the small crowd to stand beside you, soaked, the tablet clutched to his chest.
+
+Elias: "I can pull a public stream of the override packets. Let me—"
+
+You: (bitter) "And make Rin's legal team aware? She'll bury it in counsel memos, Elias. Exposure works if the apparatus that judges exposure is not feeding the same hand."
+
+Elias: (frustrated) "Then what do you want us to do? Storm the barge? Shut down the central? Those are violent acts—"
+
+You: (interrupting) "Sometimes violence is words, sometimes it is standing in a doorway. But you know that. You worked with me on the custodial protocols."
+
+Elias: (voice breaking) "I know. I know. I pushed for escrow access, localized overrides. I— I argued for weighted community priority. It was in the draft. The final clauses— they shifted the hierarchy in emergency mode. Rin called it necessary for triage. I saw the graphs; it's clumsy but it saves lives when hospital wards would fail. Do you believe I would sign away people for plans? Maia—"
+
+You: (the name tastes like argument) "Don't call me Maia like your defense."
+
+He flinches as if you've struck him.
+
+The crowd's murmurs swell into a push of voices—anger, grief, pragmatic calculations. You sense the coalition's credibility fraying; artisans who once hung the new sigils on their doors now yank them down and toss them into the canal, splash and foam carrying the colors away.
+
+[Interactive Moment: Choice A ("Broadcast the logs to the market channel") -> Reaction: "You lift Elias's tablet and press the share. For a moment you imagine the city receiving the full, raw history of those ninety seconds. Perhaps it will anger people to action. Perhaps it will only make them angrier at you for letting central authority do what you supposedly wanted to prevent." || Choice B ("Hold the evidence and demand a private audit first") -> Reaction: "You lower your hand and keep the logs to yourself and Elias. Proof can be weaponized if used too soon. You think of the legal teeth that could bite if presented at the wrong time—your choice is to build a better blade before you try to cut a vein." || Choice C ("Call out to the technicians and ask for transparent reroute") -> Reaction: "You shout across the rain for clarity, demanding they reroute flows visibly. The technicians flinch; transparency is not always a tool they are permitted to use. Still, the request fractures the theater of authority, and for a moment you hear hesitance in the orders they issue.")]
+
+Your choices ripple outward, but they do not change the immediate fact: the nodes have been rerouted, and for now, neighborhoods are being triaged.
+
+[Scene: Aunt's Roof | Night — Later]
+[Visual: The rain has thinned into a persistent drizzle. The amber override indicator remains. Lamps on terraces burn weaker, more wary. The city's broadcast is a dull legalist hum in the distance.]
+[Music: A single violin line, thin and unresolved]
+[Sound: The soft scrape of a chair leg as you sit; distant coughing; a municipal siren folding into nothing]
+
+You return to the roof, not certain if you came back to the same view. The sigils near your neighbor's balcony are half-peeled, their paint spent. Your own hands are slick with salt and something that might be exhaustion or adrenaline.
+
+Elias follows and stands a little too close, the edge of the rooftop between you a brittle thing.
+
+Elias: (quiet) "I did what I could. I sent the audit request. I pushed for partial relock. I—" (he inhales, trying for steadiness) "—I issued a public notice that the override included community input as a contingency. It didn't stick."
+
+You: (cold) "It didn't stick because the contingency language had a caveat that allowed immediate legal precedence. You said you read it. You wrote parts of it."
+
+Elias: (eyes watering, because his logic can fail into sorrow) "I tried to carve in guardrails. They were sliced by counsel before the vote. I— the vote was minutes long, filed through an emergency session. I wasn't in the room when the clause passed. By the time I appealed, the override had been invoked."
+
+You: (chewing the dark) "So the scaffolding of our compromise groans and something heavy falls through."
+
+Elias: (voice small) "I believed design could make justice inevitable. I believed that if we encoded the right priorities, the system would uphold them."
+
+You: (a slow, cold laugh) "That is the part I think I am angriest at—the idea that code can guarantee moral outcomes. You and your graphs made virtue into a protocol."
+
+Elias: (defensive) "I didn't mean for—"
+
+You: "No. You meant to save lives. You meant to do good. But meaning doesn't stop a neighbor's child's bedroom from taking on water."
+
+A silence presses around the two of you. The rain cleans itself into the gutters. The city breathes, tired and mechanical.
+
+From below, a voice rises — Old Man Toma's, thin but steady.
+
+Old Man Toma: (calling up) "Buildings survive wind if people hold the timbers. Machines only do what they're told."
+
+The neighbors chant low, not a protest so much as a collection of hurt sounds. The coalition's banners, once bright with a compromise, hang limp.
+
+You close your eyes and feel the tangle of your convictions: the years of maps, the arguments at the terrace meetings, the soft hours spent teaching elders how to read a solar node status; the way Elias's smile used to fill in the spaces you left blank. The betrayal is not simple: it is not only legal maneuvering or technological imperfection. It is the collapse of a shared vision under the weight of a world in which emergencies are weapons, not just failures.
+
+Elias: (near tears) "We can rally. We can litigate. We can make a new covenant—"
+
+You: (cutting him off, voice steady but breaking) "Maybe. Or maybe we learn that people will always find a way to make emergency mean priority for some and exile for others. Maybe we built something that could be used to save, and someone has chosen who gets saved."
+
+He reaches for you as if for purchase; you step back. The distance is not just rain and boards now; it is an ethical canyon you both helped dig.
+
+You: (internal) You want to scream, to shake the rooftop until the tiles fall, to call every neighbor and every artisan and make them feel the technical betrayal the way your chest does. Instead you stand, hands in your pockets, feeling the copper locket warm, wondering which parts of your life you are willing to fracture in order to keep the rest intact.
+
+Around the perimeter, the community sigils dim one by one — not because power fails but because people remove them like flags from a ship that has chosen sides.
+
+Hope bleeds at the seams. The scaffolding of compromise creaks.
+
+You look at Elias. You look at the amber lights. You look at the blurred city horizon where Rin's emblem hovers on the public feed like a promise that was also a command. There is a shape of a decision yawning in front of you — not a single choice but a direction that will set the tone for how you will answer the city's wound.
+
+You breathe in salt and rain and something metallic. The sound of the pumps far away is steady and terrible.
+
+[Visual: Camera pulls close to your face; rain streaks like thin glass. The music drops to silence except for one held note.]
+[Music: One sustained cello note, unresolved]
+
+[Page-Turn Moment: You feel the night press closer around the rooftop; the amber override still glows like an accusation. Your hands itch to act — to litigate, to march, to expose the logs, to burn the sigils — and you know that whatever path you choose now will change more than policy. It will change the measure of trust between you and Elias, between the coalition and the people it vowed to protect. You pull the locket from beneath your shirt, touch the tiny photograph within. For a single, fragile second you imagine the possibility that the scaffolding can be mended — but when you look out, the city's lights look uncertain, and the rain knows how to wash away neat answers. You close your fist around the locket, feeling the metal bite, and you wait for the next move.]
+
+[LINEAR JUMP]
+
+{"has_choice": false, "description": "", "options": [], "root_default_next_chapter": 12}

@@ -1,0 +1,237 @@
+label chapter12:
+
+    # [Scene: Pilot Hydrology Zones | Morning — crisp, after the signing]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low strings; a single, melancholy piano motif underpins a fragile optimism]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the soft slap of controlled waves against the boards, the murmur of a gathered few]
+    "Narration:"
+    "You remember the moment you agreed to meet in public because you wanted witnesses. Public signatures felt like armor—the kind that could at least be photographed and filed and held up when someone tried to say the promise was different than it seemed."
+    show seren_blake at left:
+        zoom 0.7
+
+    seren_blake "This is a beginning,' she says. She offers you a small, formal smile that doesn't quite reach her eyes. 'Coordination and buffers buy time. We can scale this responsibly together."
+    "Narration:"
+    "You feel the legal language under your fingertips—the clause about 'mutually agreed operational pauses,' the schedule of heavy-equipment windows, the buffer zones marked on a map annotated in terse blue. The words are soft with intent; their teeth will be revealed later."
+    show ilias_navarro at right:
+        zoom 0.7
+
+    ilias_navarro "You did it.' He brushes his thumb against a salt-stiff ribbon on a buoy. 'For a little while."
+    show maya_kestrel at center:
+        zoom 0.7
+
+    maya_kestrel "We made them stand still,' you correct him. 'But 'for a little while' has to be enough to show the stitch. That's the hard part."
+
+    ilias_navarro "People will see it, Maya. They'll see the beds take."
+    "Narration:"
+    "You swallow. The tent smell—tar, damp canvas, a faint chemical tang from the ink on the contract—sits under the salt. Hope tastes like copper and coffee in your mouth."
+
+    menu:
+        "Raise your free hand in a small, public wave to the volunteers":
+            "You give the line of volunteers a brief, watery salute. They wave back, faces bright with the kind of tired joy that has nothing to do with victory."
+        "Keep your hands on the agreement, fingers tracing the clause about buffers":
+            "You let your fingers rest on the printed buffer line and feel the weight of the words as if they were stones. A woman at the edge of the crowd nods at you with trust that trembles."
+
+    # --- merge ---
+    "Narration continues"
+    "Narration:"
+    "The first month is a small miracle in sequence rather than magnitude. Machines are parked; permits are filed with the new annotations. Volunteers show up at dawn, coffee-stained and steady. You watch hands that know how"
+    "to mend nets learning how to tuck seedlings; you watch children measure tidemarks with serious faces."
+    # [Scene: Pilot Hydrology Zones | Late afternoon — a month later]
+    hide seren_blake
+    hide ilias_navarro
+    hide maya_kestrel
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: A gentle harp and muted strings; the mood is tender and fragile]
+    # play sound "sfx_placeholder"  # [Sound: A managed rhythm to the surf now—measured, as if someone has taught the ocean to breathe]
+    "Narration:"
+    "You and Ilias sit with a slow, companionable silence. The planted beds have taken a green that feels like permission. The rhythm of the waves is measured—no hungry surge, just the calculated push and retreat the new protocol allows. Ilias nudges a tray, testing roots with a satisfied hum."
+    show ilias_navarro at left:
+        zoom 0.7
+
+    ilias_navarro "See? See how the blades have taken to the frames?' He nudges you with his shoulder, proud and exact. 'Hana said the growth rate is better than she expected for a first trial."
+    show maya_kestrel at right:
+        zoom 0.7
+
+    maya_kestrel "Better than we expected,' you say. 'That's something to put in the notebook."
+    "Narration:"
+    "He takes your field notebook from your lap, flipping to the page where you sketched planting grids and volunteer shifts. His thumb brushes your notes as if blessing them."
+
+    ilias_navarro "You drew the whole thing and then made everyone believe in it,' he muses. 'How did you do that?"
+
+    maya_kestrel "I didn't. They did. You did.' You look up at him—his hair sticky with salt, his jaw softened by relief. 'We did."
+    "Narration:"
+    "He shifts so your shoulders touch. For a moment a warmth spreads—less like a flame and more like the heat left by someone who stayed the night to patch a roof before dawn. You smile, and he mirrors you, sudden and genuine, like an answering lighthouse."
+
+    menu:
+        "Lean your head against his shoulder to let the small warmth hold":
+            "You rest your head, and the world narrows to the creak of the boards and the steadiness of his breath. You both listen to the managed ocean as if it were news of peace."
+        "Keep your posture straight and steady; there will be time for private everything later":
+            "You keep your back straight, palms pressed flat to the wood, and let the moment be made of looks instead of touch. He reads the restraint and smiles anyway, patient."
+
+    # --- merge ---
+    "Narration continues"
+    "Narration:"
+    "Outside the buffer, the town laughs softer around practical things—seedling sales, teaching nights, Rafi's article that didn't quite call it a victory but didn't bury it either. Hana runs samples with a careful optimism, and biological indicators flick upward like small green lights."
+    "You let yourself believe for a month. Hope is a physical thing in people here—knitted into hats, offered in jars of preserved kelp, folded into the exacting care of volunteers who returned each day. For a while, that was enough."
+    # [Scene: Saltgarden Research Lab | Overcast, a week after the month]
+    hide ilias_navarro
+    hide maya_kestrel
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: A thin, uneasy violin thread running under a low piano]
+    # play sound "sfx_placeholder"  # [Sound: The lab's dehumidifier hums; distant, the harbor bell rings once, slow and bored]
+    "Narration:"
+    "The call comes as an email at first—a firm update. Then a terse message from Seren's office. Then a voice-mail on Mayor Ansel's line that vibrates with a procedural calm you know too well. By the"
+    "time you stand in the lab doorway, Hana's face is unreadable in a way you're learning to think of as complex."
+    show dr_hana_sato at left:
+        zoom 0.7
+
+    dr_hana_sato "We always knew the biggest hazard wasn't the sea.' She sets the tablet down between you with the gravity of someone trained to deliver bad data. 'It's the human schedules that outpace biology."
+    show maya_kestrel at right:
+        zoom 0.7
+
+    maya_kestrel "What do you mean?"
+
+    dr_hana_sato "Investors in the Skyhub project pushed for earlier deployment windows. There's been a legal interpretation—an addendum signed at the regional level that revises 'operational pauses' to allow machinery in under an 'expedited remediation' clause.' She looks at you, then at the tablet. Her fingers hover. 'It was privately negotiated. You weren't in those rooms."
+    "Narration:"
+    "Silence thickens between the racks. The word privately lands like a stone dropped into water that had been calm."
+    show seren_blake at center:
+        zoom 0.7
+
+    seren_blake "Our investors are accountable. We had to renegotiate to secure continued funding for the larger program. We did what we needed to ensure regional resilience.' There is a professional resignation in her tone. 'We can still collaborate—"
+    "Maya Kestrel: (You finish the sentence she doesn't give you.) '—if the science is allowed to show itself.'"
+
+    seren_blake "Yes."
+    "Narration:"
+    "You remember the map from the agreement, the neat blue buffer, the schedule. You remember how you had trusted signatures because they were in public. You look down at your own handwriting in the notebook—the notes"
+    "about tide windows and sediment testing now feel fragile, like lines drawn in chalk on a dock."
+    # [Scene: Pilot Hydrology Zones | Morning — machinery returns early]
+    hide dr_hana_sato
+    hide maya_kestrel
+    hide seren_blake
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Low percussion and brass; a relentless, descending motif]
+    # play sound "sfx_placeholder"  # [Sound: Hydraulic pumps, the rasp of steel against mud, the dull, suffocating pop of plants being smothered]
+    "Narration:"
+    "The machines do not come with ceremony. They come with permits that say they're necessary. They bring with them the literal churning of a promise; their buckets and treads reinterpret the lagoon into a place to"
+    "be remade on someone else's timetable. The water goes grey and then brown; the planted trays heave and collapse with a sound like breaking breath."
+    "Neighbors shout. Someone hurls a rope. You move instinctively—into the water, into the mud—the planner who once made sandbags with numb fingers, who once buried a sibling's jacket in sand that smelled like iron."
+    "Narration:"
+    "You are not allowed into the negotiation that birthed the addendum. You read the amended clauses later, when an assistant slides a redacted PDF across Mayor Ansel's desk with a nervous look. Black bars obliterate the"
+    "logic of subsidy and pressure; what remains is the final, bureaucratic permission stamped before the machines rolled."
+    "Narration:"
+    "You hold Ilias's hand as he trudges back, mud to his knees and his camera full of pictures of collapsing trays. He is quiet in a way that rearranges the room."
+    "Ilias Navarro: (He stands in front of you, and for a long moment you can only see the small constellation of salt on his face.) 'They told me—' He stops, as if the words taste wrong."
+    "'—they asked if I wanted to come look at the samples in their lab abroad. It's…an offer. For the analysis.'"
+    show maya_kestrel at left:
+        zoom 0.7
+
+    maya_kestrel "So they want the proof and they want you."
+    show ilias_navarro at right:
+        zoom 0.7
+
+    ilias_navarro "I can go. I can help—figure out what failed, try to salvage data.' He looks at the ruined trays at his feet, then at you. 'I don't know what staying would do."
+
+    maya_kestrel "Stay.' You say before you can temper it. 'Stay and help me—help them—fix this."
+    "Narration:"
+    "He doesn't answer right away. He looks at the cloudy water, at the mud, and then at the list of names in your notebook—volunteers who came, families who started to stake their small claims on new"
+    "harvests. Some of those names you know by habit; others you added only last month."
+
+    ilias_navarro "If I go,' he whispers, 'I can dig into the sediment profiles. I can get funding for controlled labs. Maybe we can raise the science quickly enough to make it undeniable."
+    "Narration:"
+    "You know what he means without him saying it—science that convinces not by kissing but by accounting for the variables they will use to drown your argument."
+
+    maya_kestrel "And while you're gone, they'll win the optics."
+
+    menu:
+        "Tell him you understand and push him toward the offer; science needs him there":
+            "You force a soft smile that tastes of salt and iron. 'You should go,' you tell him. 'If they'll listen to you, then go.' He nods, anguished and grateful."
+        "Beg him to stay, even if you know what a selfish ask that is":
+            "You grip his hand tighter than you mean to. 'Stay,' you say. 'Please.' He closes his eyes, and the holding looks like a small collapse."
+
+    # --- merge ---
+    "Narration continues"
+    "Narration:"
+    "Families who had signed up to buy future seedlings watch their investment become detritus. Some sit on the harbor steps and cry quietly; others pack and sell whatever they can at cut rates because the promise"
+    "of a slow, living economy is suddenly replaced with an offer of quick cash from buyers who smell vulnerability. You catalog the transactions as if the ledger might explain grief."
+    "Dr. Hana Sato: (She comes to stand beside you, her lab coat muddied at the hem.) 'Legal frameworks are only as strong as the political will that supports them.' Her voice has the flatness of someone"
+    "who has learned to name what is happening. 'When money presses, language bends. We knew this was a risk.'"
+    "Maya Kestrel: You look at the blacked-out pages in your notebook—language where a promising line was replaced by crimsonacted justifications. 'We had their signatures in public,' you say, incredulous. 'And still—'"
+    show dr_hana_sato at center:
+        zoom 0.7
+
+    dr_hana_sato "Signatures don't bind investors,' she replies. 'Contracts bind contractors. Contracts can be reinterpreted if a regional authority accepts a new reading. That's the way the power flows."
+    "Narration:"
+    "You realize, with a clarity that is like being slapped awake, that the rise you tasted was temporary in the same way a tide is temporary when someone with money chooses to draw it back. That"
+    "knowledge isn't new; it's one you'd been trying to outmaneuver. But knowledge is not armor against sorrow."
+    # [Scene: Harborfront | Dusk]
+    hide maya_kestrel
+    hide ilias_navarro
+    hide dr_hana_sato
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano, descending; a single violin draws out a note like a long exhale]
+    # play sound "sfx_placeholder"  # [Sound: The slap of a crate being closed somewhere; an airplane's distant drone—someone leaving]
+    "Narration:"
+    "You sit with Ilias on the same reclaimed board. His hand is wet in yours—salt and sediment embedded under cuticles. You both look at the water that is now a grey churn where green should have"
+    "been. He holds an envelope in his other hand—an official packet from a foreign lab with a stamped offer; the kind of thing that arrives at the precise, polite speed of opportunities excavated from disaster."
+    show ilias_navarro at left:
+        zoom 0.7
+
+    ilias_navarro "They said they admired our work,' he says, voice small. 'They want to fund a study that might prevent this elsewhere. They didn't ask us how it felt to lose something people put their hands into."
+    show maya_kestrel at right:
+        zoom 0.7
+
+    maya_kestrel "People put their hands into it because they trusted you,' you say. 'Because of what you showed them."
+    "Narration:"
+    "He laughs, brittle. 'Trust isn't profitable in the short run. Investors want return curves, not long breaths.'"
+    "Maya Kestrel: (You close your notebook. Your fingers trace the beginning of a paragraph that once listed pilot successes. Now, margin notes are heavy with black bars—redactions that look like wounds.) 'We asked for time,' you whisper. 'We asked for a buffer.'"
+    "Narration:"
+    "He looks at the blacked-out clauses with you, then lifts his wet palm so you can see the small abrasion there where he'd been hauling a collapsed tray. The small abrasion is an emblem."
+
+    ilias_navarro "Maybe I should go,' he says finally. 'Maybe the work gets done. Maybe I can learn something important and bring it back."
+    "Maya Kestrel: (You feel the ledger in your chest—the tally of what has been lost and what might be learned. There's a ledger for grief you never meant to tally for the people you love.) 'Or stay,' you say. 'Or both cannot be made to mean the same thing.'"
+    "Narration:"
+    "You press the pen into the paper and write a single line across the top of a new page: For the record. Beneath it, you list dates, names, times—what little paper can hold of a beginning"
+    "and its collapse. Your hand shakes, not from cold but from the enormity of a grief that is slow and enormous."
+    "Narration:"
+    "You had hoped coordination would make a buffer permanent. Instead, you learned that buffers can be paper-thin when someone farther from the water decides money must move faster than ecology."
+    "Dr. Hana Sato: She kneels in the quay's filth beside you without asking. Her voice is small. 'You built something people believed in,' she says. 'That matters in ways numbers can't measure.'"
+
+    maya_kestrel "It matters until it doesn't,"
+    "Narration:"
+    "The night gathers. Some people leave Hearthbend with packed trucks and empty eyes. Others stay because leaving is a different kind of ruin. You do not know what the right thing is; you only know the steady, aching shape of what you have lost and what you will carry."
+    "Narration:"
+    "You turn the page in your notebook and begin writing again—not strategies this time, but names. Not plans, but the small testament of who showed up, who planted, who trusted well enough to believe a pause was more than a word."
+    "Narration:"
+    "You close the book and tuck it to your ribs the way you did the first night you came home from the ferry—the way you have always kept memory like armor."
+    hide ilias_navarro
+    hide maya_kestrel
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, low cello note lengthens and fades]
+    "Narration:"
+    "Ilias says he'll consider the offer. Seren's team posts updates that read like progress while the county records a quiet, bureaucratic alteration none of you had watched being written. Hana returns to her lab and waits"
+    "for sediment samples that tell a story you'll all have to read together—if you still can."
+    "Narration:"
+    "You stand on the harborfront, the carved coral pendant cold under your collarbone. Your notebook is heavier now, every paragraph flavored by a grief that is patient and far-reaching. You realize something you have been avoiding:"
+    "a rise can be followed by a fall that is not a counterpoint but a conclusion."
+    "Narration:"
+    "You breathe in tar, kelp, and the faint chemical tang of sanctioned machinery. The smells bind into a memory you will return to on nights when the rain is loud and the town is quiet."
+    "Narration:"
+    "You close your eyes once and envision the seedlings as they first were—green, hopeful, taught into life by hands that loved the work. You keep that image, and you also keep the sight of them gone beneath stirred silt. Both will be true."
+    "Narration:"
+    "You stand, the harbor wind cutting at your jacket. You know that some things must be named plainly: who made the decisions, who was absent from the rooms where the clauses changed, who held the pens."
+    "Narration:"
+    "You do not have the power to unwrite what has been signed. What you have is the record and the people who still show up to read it with you."
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch12_f99e88_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

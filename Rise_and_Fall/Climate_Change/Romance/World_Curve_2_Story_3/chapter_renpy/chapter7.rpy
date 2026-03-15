@@ -1,0 +1,177 @@
+label chapter7:
+
+    # [Scene: Town Hall | Evening]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, resigned strings]
+    # play sound "sfx_placeholder"  # [Sound: Rain spattering the panes; distant muffled voices in the foyer]
+    "You remember standing on the pier — rain beading on the compass in your palm — and choosing this: negotiation. The choice still feels like a tide, slow and inevitable. Now you stand under the same"
+    "roof that has decided so much of Greyhaven's fate for generations: heavy doors, a council table scarred with rings of many coffees, a lectern with a microphone that tastes of old meetings."
+    "Aria is already here. She sits at the head of the table, briefcase closed but within arm's reach. Her jacket is the precise gray of storm clouds; her hair is a clean line. Up close, her"
+    "eyes are steel-gray, narrowed the way someone narrows a lens. She does not smile as you enter. She offers you a chair like an invitation and like a test."
+    show aria_chen at left:
+        zoom 0.7
+
+    aria_chen "Thank you for proposing this, Isla. A joint technical review is the responsible approach. We owe the town answers that hold up under scrutiny."
+    "You take the offered seat. The wood is warm against your palms. Your voice doesn’t want to be loud; you don't need volume — you need clarity."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "We need monitoring that the community trusts and data that can't be spun. I propose a pilot at the salt flats, continuous sediment cores, wave height loggers, and living breakwater performance metrics — community partners trained to do the work."
+    "Aria's fingers hover at the edge of her briefcase. For a fraction of a breath you search her face for something personal, some stray detail that would tell you what she fears most. You find only professionalism — and a calculation."
+
+    aria_chen "We have access to council funds for monitoring. We'll allocate resources to the pilot. But understand: the timeline matters. The council needs initial results within six weeks to present to our investors. They need actionable recommendations."
+    "Your chest tightens at the word 'investors.' The room smells like old varnish and the faint tang of metal from the microphones. You think of Jonah's hands, of nets and knots that held steady in storms. Six weeks is a political heartbeat, not a scientific one."
+
+    isla_morgan "Six weeks gives us sample snapshots, not long-term trends. There's a risk of misinterpreting episodic events as systemic change."
+    "Aria leans back. She is not unkind. She is a strategist."
+
+    aria_chen "Risk exists in inaction as well. The town is on the clock. We can include longer-term monitoring in the budget — but the pilot must produce preliminary findings quickly, to secure continued funding."
+    "You glance at your tablet, at the models that insist patience is a non-negotiable. You have a choice: accept the compromise to get equipment and a seat at the table, or refuse and risk being shut out entirely. Your father's compass pulses in your pocket like a small, private heartbeat."
+
+    menu:
+        "Frame the six-week pilot as a rigorous first phase, insisting on clear limits to avoid premature conclusions":
+            "You outline a phased approach, voice steady; Aria nods, making notes, and the room relaxes into the practical rhythm of planning."
+        "Push back and demand no timeline until at least three months of baseline data is collected":
+            "Your jaw tightens. Aria's eyes sharpen. The conversation cools; the room tightens like a held breath, and a staffer in the corner taps a pen more loudly."
+
+    # --- merge ---
+    "The meeting proceeds with Aria pragmatic in response to your phrasing; she accepts language about phases, contingencies, and community oversight — but her briefcase remains present in the center of the table, like an unspoken clause."
+    "Aria is pragmatic in response to your phrasing. She accepts language about phases, contingencies, and community oversight — but her briefcase remains present in the center of the table, like an unspoken clause."
+    "Luca arrives late, shaking rain from his jacket. He crosses the room quickly, boots leaving small wet crescents on the floor. When he sees Aria across the table, his mouth goes thin."
+    show luca_moreno at center:
+        zoom 0.7
+
+    luca_moreno "You talked to her alone?"
+    "You can hear accusation even before the words finish. It lands softer than a thrown stone and heavier than you expect."
+
+    isla_morgan "No. I invited the joint review in public. This was the only way to get a real conversation started without the usual posturing."
+    "Luca's eyes flick to the briefcase, then to you. There's a heat in him that is almost tenderness, but it turns brittle fast."
+
+    luca_moreno "Isla, you know how these things go. 'Joint' becomes 'we rubber-stamp it' and then the project is sold to the highest bidder. You gave them the language to fold us in."
+    "You want to exhale, to explain that having them inside the process gives you leverage — and that without funding no monitors get deployed at all. You are convinced of both things at once, and that makes the space between your ribs ache."
+
+    isla_morgan "Leaving them out also means no funding, Luca. No gear, no community training. We get nothing if we refuse every compromise."
+    "Luca's jaw tightens. He runs a hand through his wet hair, leaving salt streaks across his palm."
+
+    luca_moreno "So we compromise the truth for a check? Isla, we've rallied people because we refuse to be bought. Don't tell me you want to sit at their table and wait for crumbs."
+
+    isla_morgan "This isn't crumbs. This is an opportunity to secure the tools that let us show the truth — properly."
+    "The argument has more turns. Luca accuses; you counter with details; Aria sits like a judge, interjecting the occasional reminder about deadlines and deliverables. The council staff shuffle papers, a clock ticks; the rain keeps time outside."
+
+    aria_chen "If the community is part of the monitoring, then the data is theirs. We will include public reporting obligations in the pilot terms."
+    "Luca's laugh is short, almost a bark."
+
+    luca_moreno "Public reporting — after we've let the process be defined by filings and investors? Public reporting that's delayed until it's convenient?"
+    "Aria's eyes harden briefly. You see in that hardening a flicker of feeling — protective perhaps, or embarrassed — but she covers it with policy."
+
+    aria_chen "Convenience has no place in these terms. The language will state timelines and disclosure requirements. Trust has to be operationalized."
+    "For the first time, you hear the truth in Aria's pragmatism: she knows the mechanics of governance. But you also see where the friction will come from — the political calendar always truncates science."
+    # [Scene: Salt Flats | Morning — Two Weeks Later]
+    hide aria_chen
+    hide isla_morgan
+    hide luca_moreno
+
+    scene bg ch7_453e40_2 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano notes, a tension undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Wind whipping reeds; the beep and whisper of deployed loggers]
+    "The pilot begins on the flats. Instruments look small against the expanse: wave loggers bob like mechanical gulls, sediment traps glint with packaged labels, a string of citizen scientists — fishermen's children, retirees, a few council"
+    "staff — lean into waterproof notebooks. Luca and Ravi rig a modular frame for a living breakwater prototype while you calibrate a turbidity sensor."
+    "The work is intimate, hands-on: salt under your fingernails, the rasp of rope against your palm, the tactile certainty of bolts and clamps. You like this. Science that smells like salt and mud feels honest."
+    "Aria visits twice during the week, always in that same clipped rhythm. She walks the lines with an engineer from the council, clipboard in hand. She asks practical questions about deployment metrics and sample frequency. You"
+    "answer as precisely as you can, but you notice absences: data sets you expected to be copied to the shared drive are missing; reference maps look redacted in ways that don't read like caution."
+    "In the brief pauses between calibration and calibration, you catch a glimpse of Aria's briefcase unzipped in the back seat of her car — binders marked 'Economic Framework,' 'Investor Timelines,' and a stack of council minutes"
+    "with highlighted passages. These are not strictly forbidden to notice; they are visible in plain sight. What you can't know for sure is why specific scientific appendices are absent from the council packet."
+    "Your mind fills with hypothetical valves of explanation — acceptable political secrecy, bureaucratic oversight, deliberate omission. The Schrödinger weight of possibility sits heavy; any conclusion you draw feels provisional."
+
+    menu:
+        "Respect the boundary; focus only on the monitoring work and document what's missing later":
+            "You clamp down on curiosity, keeping attention on sensors and community training. The days pass with steady work and the instruments hum like a small promise."
+        "Discreetly check the council drive and cross-reference the packets to see what's absent":
+            "You take a quiet hour at Tidewatch with permissions and a quiet keyboard. You find gaps that don't map to simple clerical errors; your stomach tightens at implications you can't yet prove."
+
+    # --- merge ---
+    "The pilot continues under Aria's timeline; the tension between pragmatic deadlines and your ethical caution remains unresolved."
+    "Aria's timeline presses. Council meetings loom; press releases are drafted with phrases about 'timely action' and 'data-driven decisions.' Her professionalism begins to press against the elasticity of your ethics: how much do you bend to get instruments in the field?"
+    "At night in the boathouse lab, Tidewatch smells of damp wood and the antiseptic of field kits. You lay out incoming data on the table. Early reads are messy — storms wrinkle the first week and"
+    "sensors trim differently than predicted. Aria's team sends a terse message: interpret anomalous spikes as 'weather anomalies' rather than system failures. The phrasing feels oriented toward a narrative."
+    "You stare at the numbers until the lamp's light pools like a private sun. You are trained to distrust stories and favor signals. The anomalies could be nothing. They could be everything."
+    "Luca sits on the bench across from you, elbows on knees, watching the glow on your face."
+    show luca_moreno at left:
+        zoom 0.7
+
+    luca_moreno "You found something?"
+    "You don't want to answer without certainty. You also don't want to hide anything from him."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "There are gaps in what the council circulated. Some files we expected aren't present. And the anomalies in the first-week readouts need longer sampling to interpret. Aria's pushing for conclusions before the data are ready."
+    "Luca's hands flex. He softens, then hardens."
+
+    luca_moreno "So she's running the clock and controlling the flow. Classic. Why did you trust her?"
+
+    isla_morgan "Because without access we'll have no equipment or training. It's not trust in her; it's leverage at a table they control. If we refuse, someone else takes the funding and decides the terms."
+
+    luca_moreno "That's the argument people in the room use when they decide to sell the town. I can't watch you keep making deals with them when we could push them with public pressure."
+
+    isla_morgan "And I can't watch us throw away a chance for rigorous monitoring because we're afraid of political games. We need the instruments in the ground to prove anything."
+
+    "The conversation turns inward. You recall Jonah's words" "They judge by consequences, not intentions."
+    # [Scene: Tidewatch Lab | Night — Two Weeks Later]
+    hide luca_moreno
+    hide isla_morgan
+
+    scene bg ch7_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Dull bass, the ache of low strings]
+    # play sound "sfx_placeholder"  # [Sound: The hum of refrigeration, distant gulls at night]
+    "You stay late to analyze another batch of cores. Your hands are stained; your mind loops through what you know and what you do not. There is a policy meeting tomorrow where Aria will present the"
+    "initial pilot summary. 'Proof' — that brittle word — will be framed to the council in a way that guides decisions."
+    "Your tablet pings: a short message from an unknown sender with an attached file labeled 'Supplemental — Redacted.' You do not open it immediately. The room smells of cold metal and coffee gone flat. Your reflex is to verify, to confirm, to make certainty where there is only shadow."
+    "Luca appears at the doorway, rain still in his hair though the downpour ceased hours ago. He steps in without knocking, the way of someone who believes the lab is as much his home as yours."
+    show luca_moreno at left:
+        zoom 0.7
+
+    luca_moreno "You okay?"
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "I'm tired. The data are messy, and Aria pushed to have the preliminary results framed for the council."
+    "Luca moves closer. He's calmer than earlier, but the hurt hasn't softened."
+
+    luca_moreno "I don't know if I can watch you bargain the town away while calling it strategy. It looks like selling out."
+    "You close your eyes, feeling the accusation like a small, cold stone at the base of your throat. You love him in ways that are raw and complicated; that same love makes his judgment sharper."
+
+    isla_morgan "That's not what I'm doing. I'm trying to keep us in the conversation so we can demand transparency from the inside."
+
+    luca_moreno "And what if the inside stretches 'transparency' into a press release? What if the inside eats us so we can feed the machine? Are you going to trade our evidence for a promise?"
+    "The question hangs between you like fog. There is no easy retort. You know he fears co-option because he fears power without accountability. You fear paralysis without tools. Neither fear invalidates the other."
+    "You rub the bridge of your nose until your eyes water from salt and tiredness. Outside, rain starts again, a thin steady hiss that softens the world to grays."
+
+    isla_morgan "There are files missing from the packet Aria circulated. I don't know why. I haven't seen anything that proves bad intent, but I also can't ignore gaps. We can ask for a forensic copy of the records — demand transparency — or we can trust the process and hope they honor the terms."
+    "Luca's reply is a whisper and a verdict."
+
+    luca_moreno "If you ask for copies, you're starting a fight that could get the pilot pulled. If you don't, you sleep with uncertainty."
+    "You feel the decision like a cut between two tides. Your chest feels hollowed, like a room with the furniture removed. The choice is not simply procedural — it's moral, personal, and political all at once."
+    "You are an island balancing between two currents: allegiance to evidence and allegiance to the people who will lose if you are wrong."
+    "You think of Jonah's worn hands and of your father's compass. The compass is steady. It does not tell you which current to pick; it merely orients."
+    # play music "music_placeholder"  # [Music: Strings deepen, a slow, downward refrain]
+    hide luca_moreno
+    hide isla_morgan
+
+    scene bg ch7_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain, heartbeat subtly mixed into the soundscape]
+    "The lab feels smaller now, claustrophobic with unshared files and the weight of possible consequences. Luca's silhouette is a shadow at the doorway. Aria's briefcase sits on the table at Town Hall like a promise and"
+    "a threat. The pilot hums on the flats — instruments that could prove everything, instruments that could also be used to draw a misleading picture."
+    "You can taste salt and the metallic edge of fear. The clock toward the council presentation ticks."
+    "You know what the choice is, and you also know you are not yet ready to move."
+    "You hold the unresolved moral geometry like a live coal in your hands, warm and dangerous."
+    "You take a breath. The air is cold in your lungs, and the rain presses its thin fingers against the window."
+    # [Page-Turn Moment]
+    "You fold a note into your pocket, not yet deciding whose side of the door you'll open. Outside, Greyhaven sleeps in rain and the sea keeps its patient ledger. Inside, the instruments click and log small"
+    "truths that will have to be argued into meaning. Trust can be built — or it can be bought. Which will happen is a choice that has not yet been made."
+
+    scene bg ch7_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

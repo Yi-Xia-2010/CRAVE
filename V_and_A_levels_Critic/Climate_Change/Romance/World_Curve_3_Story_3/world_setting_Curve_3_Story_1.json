@@ -1,0 +1,132 @@
+{
+    "design_logic": "I interpret the Climate Change theme through a character-driven, near-future coastal drama where environmental stakes shape intimate choices. Romance is the engine that humanizes policy tradeoffs: love interests represent different responses to climate crisis (local stewardship vs. large-scale technological intervention). The core conflict is whether the protagonist will prioritize community-led resilience, partner with corporate-scale solutions that risk local autonomy, or find a synthesis. Emotional stakes (family loss, livelihood, guilt) are tied to environmental consequences to create meaningful romantic and moral choices.",
+    "setting": "Marisol Bay, a small coastal town in the near future (circa 2040) where sea-level rise, stronger storms, and shifting fisheries press a close-knit community. The atmosphere balances salt-scented nostalgia and anxious urgency: foggy mornings, long golden twilights filtered through haze, and an undercurrent of civic meetings, fieldwork, and construction scaffolding at the water's edge.",
+    "visual_style": "Coastal watercolor realism, soft film grain, cinematic lighting, textured brushstrokes; muted earthy palette (sands, sea-teals, storm-grays) with warm sunset oranges and occasional neon technical accents; character design leans toward semi-realistic anime hybrid for expressive faces and detailed clothing",
+    "main_characters": [
+        {
+            "name": "Maia Rivera",
+            "role": "Protagonist",
+            "personality": "Determined, empathetic, scientifically rigorous but emotionally guarded. Community-first thinker who struggles with guilt and the need to control outcomes. Quick to listen, slow to forgive herself, persistent in consensus-building.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves often pulled into a messy bun with salt-streaked tips",
+                "eyes": "Warm hazel with flecks of green; soft rounded shape that widens when she smiles",
+                "clothing": "Weathered olive field jacket with patched elbows over breathable layered shirts; practical waterproof trousers and scuffed rubber boots for sitework; a tidy linen blouse and worn navy blazer for public meetings",
+                "accessories": "A battered Moleskine notebook filled with tide maps and sketches, a braided blue cord bracelet from childhood, and a salvaged brass compass pendant on a thin chain"
+            },
+            "goal": "Protect and restore Marisol Bay's wetlands and coastal community while preventing destructive development that threatens local livelihoods.",
+            "background_story": "Grew up in Marisol Bay, left to study coastal ecology after losing the family boathouse to a storm. Returned to lead local restoration projects. Haunted by a childhood flood and by a professional failure during a past storm response, she channels guilt into activism.",
+            "emotional_trait": "Strength: empathic resilience and steady leadership. Flaw: guilt-driven overwork and difficulty accepting help or intimacy."
+        },
+        {
+            "name": "Jonah Kade",
+            "role": "Love Interest",
+            "personality": "Practical, grounded, quietly warm with a dry wit. Deeply loyal to tradition and the sea; initially skeptical of outsiders and big plans but open-minded when trust is earned. Protective of family and the fishing cooperative.",
+            "appearance_features": {
+                "hair": "Sandy blond, short and always a bit wind-swept from long days on the water",
+                "eyes": "Sea-glass blue, slightly hooded and observant",
+                "clothing": "Thick knit sweater with salt pilling under a heavy oil-stained canvas jacket; rolled-up sleeves and durable trousers, worn leather boots for the docks",
+                "accessories": "A small carved wooden charm tied to his belt inherited from his father, a brass fisherman's ring, and a weathered canvas cap he tucks behind his ear"
+            },
+            "goal": "Protect the fishing grounds and traditions of Marisol Bay while keeping his cooperative economically viable amid environmental change.",
+            "background_story": "Third-generation fisher and captain of the town cooperative. Lost an older sibling in a storm years ago, which hardened his resolve to keep the community afloat. He knows the sea's moods and fears projects that could disrupt fish migration or local control.",
+            "emotional_trait": "Strength: unwavering loyalty and steady patience. Flaw: fear of losing identity and a reluctance to adapt that can come off as stubbornness."
+        },
+        {
+            "name": "Elias Wren",
+            "role": "Antagonist",
+            "personality": "Charismatic, analytical, and morally pragmatic. A visionary who believes large-scale technological solutions are the fastest route to save coasts, but can be condescending when challenged. Sincere yet often blind to local nuance.",
+            "appearance_features": {
+                "hair": "Jet-black, short and slicked back, always kept tidy",
+                "eyes": "Steel gray, sharp almond shape that narrows when he focuses on data",
+                "clothing": "Tailored waterproof trench coat over crisp smart-casual shirts and slim technical trousers; polished weatherproof boots and a clean-cut corporate look even at muddy sites",
+                "accessories": "A minimalist silver watch synced to project timelines, an AR lapel pin that displays schematics, and a leather folio containing impact assessments and signed funding agreements"
+            },
+            "goal": "Deploy a large-scale renewable infrastructure and coastal engineering project that will significantly reduce regional emissions and flooding risk while securing funding and corporate momentum.",
+            "background_story": "A rising project manager from a climate-tech firm; he was driven into the field after losing a loved one to a storm in another region. He climbed the corporate ladder believing systemic solutions are required. He truly wants to prevent disasters but is used to top-down decision-making.",
+            "emotional_trait": "Strength: decisive visionary leadership. Flaw: tunnel vision and defensiveness that can alienate community stakeholders."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mayor Rosa Santiago",
+            "relation_to_main": "Town mayor who must arbitrate development permits",
+            "appearance_summary": "Dignified mid-50s woman in breathable civic blouses and a light blazer, streaked gray hair in a low chignon, often holding a stack of community petitions",
+            "function_in_story": "Holds political power over permits, balancing pressure from developers, voters, and state funding. A swing vote in key decisions."
+        },
+        {
+            "name": "Ava Kim",
+            "relation_to_main": "Colleague and junior ecologist who works with Maia",
+            "appearance_summary": "Late 20s, cropped black hair, practical field gear with a high-visibility vest, always with a tablet and sample vials",
+            "function_in_story": "Scientific confidant who provides data, moral support, and small moments of levity; can be the player-extended voice for ethical choices."
+        },
+        {
+            "name": "Tomas Rivera",
+            "relation_to_main": "Maia's elderly neighbor and mentor figure",
+            "appearance_summary": "Weathered face, white hair, callused hands; usually in a patched sweater and rainproof coat, leaning on an old cane carved with nautical motifs",
+            "function_in_story": "Emotional anchor who embodies town history; offers wisdom and stories that remind Maia and the player of what's at stake culturally."
+        },
+        {
+            "name": "Lupe Kade",
+            "relation_to_main": "Jonah's younger sister and cooperative bookkeeper",
+            "appearance_summary": "Short, energetic, sun-freckled skin, practical sundresses with work boots when needed; quick to smile",
+            "function_in_story": "Represents local youth and future generations; she advocates for hybrid solutions and can persuade Jonah in key moments."
+        },
+        {
+            "name": "Dana Park",
+            "relation_to_main": "Community organizer and occasional foil to Maia",
+            "appearance_summary": "Sharp ponytail, bold graphic tee beneath a field vest, hands stained with paint from protest banners",
+            "function_in_story": "Pushes for direct action and mass mobilization; sometimes clashes with Maia's preference for measured scientific outreach, creating moral tension."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marisol Wetland Reserve",
+            "visual_description": "A stretch of marsh crisscrossed by boardwalks and tidal creeks. Light is soft and diffused through coastal haze, grasses gleam in muted golds and sea-teals. Early morning fog lifts to reveal scattered flocks of birds. Background art emphasizes wet mud textures, reflective puddles, and hand-built restoration mats. Atmosphere: quiet, hopeful, slightly muddy."
+        },
+        {
+            "name": "The Harbor and Boardwalk",
+            "visual_description": "Weathered wooden planks, fishing boats bobbing at low tide, nets and buoys in rust-red and faded blue. Late-afternoon lighting casts long, amber shadows; gulls wheel against a silvered sky. Neon shop signs for the fishmonger or café provide warm contrast to salty air. Atmosphere: lived-in, communal, a crossroads for gossip and negotiation."
+        },
+        {
+            "name": "Offshore Project Site (Elias' Base)",
+            "visual_description": "A temporary staging area of sleek containers, scaffolding, and glowing technical displays facing the open water. Harsh white LED lights at night, sterile metallic surfaces and vapor trails; contrast between polished equipment and the rough sea. Atmosphere: clinical, ambitious, slightly alien among the town's wood and stone."
+        },
+        {
+            "name": "Flooded Historic Quarter",
+            "visual_description": "Cobblestone streets half-submerged, storefronts with watermarks and salted residue. The sky is heavy and low; puddles mirror neon and protest banners. Warm lamplight leaks from upper windows, suggesting stubborn life within decay. Atmosphere: melancholic, urgent reminder of loss."
+        },
+        {
+            "name": "Community Center (Town Hall)",
+            "visual_description": "A retrofitted gymnasium with folding chairs, mismatched banners, and a projection screen. Fluorescent lights buzz softly; pamphlets and hand-drawn maps clutter tables. Faces of townspeople captured in warm, close lighting during meetings. Atmosphere: democratic, sometimes tense, always human."
+        },
+        {
+            "name": "Rooftop Garden of Maia's Childhood House",
+            "visual_description": "A small sanctuary of potted succulents and reclaimed wood planters on a corrugated rooftop. Sunsets here are vivid—copper and mauve—air filled with rosemary and salt. Intimate lighting, soft wind, and distant roll of waves create a space for quiet conversations and vulnerable moments. Atmosphere: personal, peaceful, intimate."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Moral Compromise versus Local Autonomy",
+        "Romance and Personal Healing"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Maia brokers a locally led hybrid solution that integrates community-run marsh restoration with responsibly scaled renewable infrastructure; Jonah and Maia form a lasting partnership rooted in shared stewardship. The town retains control over resources, and livelihoods are protected while resilience improves."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The large-scale project is approved with concessions: it reduces flood risk but centralizes control, creating economic benefits at the cost of some local autonomy. Maia achieves measurable environmental gains but sacrifices parts of the town's fishing territory. A romance with Elias grows slowly from friction, or Maia and Jonah part respectfully to pursue different lives."
+        },
+        {
+            "type": "Sad",
+            "summary": "Community infighting and delayed action allow a major storm to devastate parts of Marisol Bay. Key cultural sites and some lives are lost. Maia is haunted by the outcomes and relationships fracture; the ending emphasizes the cost of paralysis and missed compromises."
+        },
+        {
+            "type": "True",
+            "summary": "Maia chooses principle over convenience: she refuses a backroom deal and exposes environmental compromises in the corporate plan. Short-term funding is lost but a grassroots movement inspired by her honesty rebuilds civic trust and spurs broader policy changes. Romance is quieter—either a rebuilt friendship with Jonah or a wary respect with Elias—focusing on ethical leadership rather than tidy happiness."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

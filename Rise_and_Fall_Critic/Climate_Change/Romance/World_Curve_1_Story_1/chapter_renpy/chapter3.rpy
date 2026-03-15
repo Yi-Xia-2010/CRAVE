@@ -1,0 +1,121 @@
+label chapter3:
+
+    # [Scene: Town Hall & Waterfront Plaza | Early Evening — Meeting Night]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Muffled voices from inside, the creak of the front doors as someone passes, a distant gull cut by the town clock striking six.]
+    # play music "music_placeholder"  # [Music: Warm piano, hopeful undertone; a steady rhythm like a marching tide]
+    "You arrive with the Beacon's whiteboard still under your skin: the letters you paused over, the soft smudge of marker ink on your fingertips. The plaza smells of wet paper and coffee, of rain cooling hot"
+    "pavement. Volunteers cluster near the steps—Miriam's group handing out leaflets, a couple of younger engineers checking a tablet—faces lit by screens and possibility. Your shoulders tighten, then loosen; the weight of plans you shared has become,"
+    "somehow, lighter."
+    "Through the doors, the Town Hall's meeting room is brighter than you expected: fluorescent lights softened by the crowd, the municipal seal hanging over the dais, folding chairs slotted in tidy rows. Hal's absence sits in"
+    "the small, empty seat near the back; you feel him in the memory of his hands on a drawing board rather than in a body on a chair. Council members murmur in half-lines. Marco Voss stands"
+    "near the podium already, talking—his voice smooth, practiced, folding the room inward."
+
+    scene bg ch3_98c6f2_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Marco's speech, measured applause that reads like calculation]
+    # play music "music_placeholder"  # [Music: A brighter string as Marco's pitch hits a familiar cadence]
+    show marco_voss at left:
+        zoom 0.7
+
+    marco_voss "—and with a single private investment we can accelerate Seabright's protections, rebuild with certainty, and secure the waterfront for generations. We move fast, we leverage capital, we deliver results."
+    "You listen while the room leans forward. His words have the neat certainty of a contract signature: short, tidy, and expensive. In the audience, faces shift—some hopeful, some cautious. Miriam's jaw sets; Elias 'Eli' Navarro stands"
+    "near the side, hands tucked into his reflective vest pockets, jaw working a thought you can't see. His presence steadies you like an anchor."
+
+    "Elias 'Eli' Navarro" "Marco, the renderings look clean. But the cost assumptions don't account for legacy structures—old posts, uneven soil. If we're talking numbers, there are variable stressors you can't buy away."
+
+    marco_voss "Eli, always good to have a numbers person in the room. Our models include buffers. We also bring construction guarantees—performance bonds, maintenance contracts. No one wants another delayed project."
+
+    "Elias 'Eli' Navarro" "Maintenance contracts can't rewrite history. They can't make a business that loses its ground overnight feel whole again. We're trying to plan for the people who will still live and work here in twenty years."
+    "The room hums—the small, private electricity of a community wrestling with trade-offs. You rise to your feet because you are the person who made the meeting notice, because the Beacon's whiteboards waited for this, because the town's spine needs wiring into something stronger."
+    hide marco_voss
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Chair legs scrape, the soft intake of breath that preludes attention]
+    # play music "music_placeholder"  # [Music: Piano swells into an encouraging chord]
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "Thank you. Marco, Council, neighbors—thank you for coming. I want to start where we started: with data from our sensors and the stories those numbers belong to. Wherever we land tonight, I want Seabright to keep its people—its small businesses, its traditions—and its shore."
+    "You can feel the eyes on you as if they're tides: some ebbed, some ready to surge. You breathe deliberately, tasting marker ink and salt in the back of your throat. The Beacon taught you to speak plainly; now, the town needs it plain and steady."
+
+    amara_vale "Our community plan focuses on three things: ecological restoration that buys us time, modular engineering that adapts as sea levels change, and an equitable process that keeps residents at the center of decisions. We have pilot sites ready—mangrove plantings, raised promenade segments, a small microgrid prototype—and a volunteer base that will help implement and maintain them."
+
+    "Councilor Hayes" "How much will that cost, Amara? And can it be done without outside developers stepping in to 'save' us?"
+    show miriam_santos at right:
+        zoom 0.7
+
+    miriam_santos "We can't be saved by someone who profits off our loss. Any outside deal must be accountable. We want safeguards, written guarantees, community oversight."
+    "Your heartbeat picks up in the rhythm of the room. This is the velocity of possibility: technical plausibility rubbing against political will. You look at Elias 'Eli' Navarro for a second; he gives you a small, resolute nod—one that says he's already sketched the retrofit curves in his head."
+
+    menu:
+        "Open with the human stories — start by reading a resident's testimony":
+            "You reach for the folder with residents' notes, your voice softening into the cadence of time. The room changes; faces tilt, and two people blink back moisture. The technical edge of the conversation blunts, replaced by the weight of lived experience."
+        "Lead with the technical wins — begin with sensor graphs and pilot metrics":
+            "You click the slide forward: graphs bloom across the screen, sensors' lines forming a clear trajectory. Eyes in the back of the room sharpen; the conversation pivots to feasibility and deadlines, the emotional layer folded beneath evidence."
+
+    # --- merge ---
+    "You choose your opening and feel it land. The meeting becomes a field of voices—some sharp, some conciliatory."
+    show marco_voss at center:
+        zoom 0.7
+
+    marco_voss "Those are compelling stories, Amara. But stories don't finance seawalls. We can put money behind timelines. I'm offering not just capital but a delivery plan."
+
+    amara_vale "Capital can be useful. But only if it's steered by oversight that prevents displacement, that protects renters and longstanding business owners. We need enforceable terms, not just good intentions."
+
+    marco_voss "Enforceable terms are contractual. We can layer conditions. What we can't afford is paralysis. Every season we delay is more erosion, more cost."
+    "Elias 'Eli' Navarro steps closer, voice low, measured—an engineer translating between two languages: urgency and care."
+
+    "Elias 'Eli' Navarro" "Which is why a hybrid approach matters. We'd use modular seawalls that can be retrofitted, tie them to ecological buffers—mangroves and living shorelines—that reduce wave impact, and establish a phased funding plan. It buys time and keeps the town intact while we test what scales."
+
+    miriam_santos "Phased funding is fine if there's oversight. We've seen projects that started with promise and left us with raised taxes and empty storefronts."
+
+    "Councilor Reyes" "We need guarantees. Bonds, community trustees, performance metrics tied to resident protections. Can we draft that tonight—principles, at least?"
+
+    menu:
+        "Ask Eli to outline a pilot phase now — bring technical clarity to the room":
+            "You signal to Eli; he steps up with diagrams drawn in the air. The room listens to pragmatic timelines and scaling options. Questions become logistical rather than purely ideological."
+        "Call for Miriam and community members to speak — anchor the plans in lived needs":
+            "You invite Miriam and a couple of business owners forward. Their voices ground the technical ideas in the concrete: 'If you raise the promenade, where do my customers park?' and 'What happens to rent when property values rise?' The council's tone shifts toward accountability."
+
+    # --- merge ---
+    "The exchange continues—arguments unclench into outlines."
+    "The exchange continues—arguments unclench into outlines. Marco refines his pitch to include community trustees; he smiles in a way that could be earnest or tactical. Miriam presses for binding language; Marco nods and offers a legal"
+    "team. Elias 'Eli' Navarro keeps returning to small details: load calculations for old porches, incremental seawall heights, sensor networks that inform thresholds for action."
+    "Your internal voice ticks through a list: keep the town's character; protect renters; implement pilots that can scale; bind funding to results and protections. The ledger of your responsibility morphs into a checklist that can be shared. Relief washes in—steady, like warm water filling a hollow place."
+
+    amara_vale "If the Council is willing, we can propose a hybrid path tonight: formalize pilots led by local engineers and ecologists, require any private funds to be channeled through a community oversight trust, and draft enforceable tenant protections before any site work begins."
+
+    marco_voss "I'm willing to sign into that, provided timelines and deliverables are clear. We can't have open-ended delays."
+
+    miriam_santos "And 'sign into' means legally binding clauses, with community representation. No fine print."
+
+    "Councilor Hayes" "This Council will want specifics. Can you bring us a draft for the next meeting that lays out the phases, the oversight board structure, and the protections you all mention? We can authorize exploratory agreements contingent on seeing those drafts."
+    "The room breathes again; the conversation has shifted from zero-sum to scaffolding a possible shared path. You hear murmurs of agreement—cautious, expectant."
+    "You look at Elias 'Eli' Navarro. He meets your gaze and there is an implicit question there: do we, publicly, offer this collaboration as the town's endorsed route? Your throat tightens with the gravity of speaking not just for yourself but for everyone watching this delicate negotiation."
+
+    menu:
+        "Search the crowd for a familiar face — glance at Rosa for moral support":
+            "You find Rosa near the back, apron dusted faintly with flour still. She gives you the tiniest, fierce thumbs-up. It steadies you—reminder of kitchens, of small rents, of the stakes beyond renderings."
+        "Look straight at the Council and speak without checking anyone — claim the floor with resolve":
+            "You turn back to the dais, feeling the room narrow to the space between your words and the Council's vote. The resolve in your chest feels cleaner, less mediated by the worry of how others will read your hesitation."
+
+    # --- merge ---
+    "The room waits. The choice you will make isn't simply administrative; it's a public endorsement that will reroute the town's future."
+    hide amara_vale
+    hide miriam_santos
+    hide marco_voss
+
+    scene bg ch3_98c6f2_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft collective intake of breath; the clock ticking in the hall like a tide gauge]
+    # play music "music_placeholder"  # [Music: Warm, ascending cord — a promise, not a certainty]
+    "You prepare to endorse a public path—one that will steer Seabright toward private partnership, engineering-ecology collaboration, or full grassroots resistance. The room leans on your voice for a beacon; you feel the lift of responsibility as possibility."
+
+    menu:
+        "Work closely with Eli and prioritize pragmatic engineering + ecology":
+            jump chapter4
+        "Accept Marco’s partnership under strict terms":
+            jump chapter7
+        "Reject corporate deals; escalate grassroots mobilization":
+            jump chapter11
+    return

@@ -1,0 +1,135 @@
+label chapter1:
+
+    # [Scene: Tidewatch Coastal Lab | Late Morning]
+
+    scene bg ch1_Start_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The steady drone of pumps underfoot, occasional ping from a workstation, distant gulls muffled by rain]
+    # [Smell: Wet electronics and strong coffee; a hint of brine carried on the ventilation]
+    "You sit at the long table where tide-maps are spread like weathered wings. Your field jacket clings damp to your shoulders; the bronze compass pendant at your throat rubs against wet fabric and chafes a memory"
+    "into your skin. Your fingertip traces a pencil line on a map in your battered leather notebook—smudged ink, annotated tide marks, a folded photograph tucked beneath the page."
+    "The lab is set up like a spare, stubborn shrine to practicality: shipping-container counters, corkboards plastered with laminated charts, a whiteboard where someone has scrawled an optimistic schedule you don't believe in. Puddles ring the boots"
+    "of the nearest workstation where a leak from last night still tries to remember the storm. The LEDs throw small halos on drying metal; your smartwatch, its face cracked and taped with frayed cord, buzzes against"
+    "your wrist—another reminder in its blunt digital voice."
+    # play sound "sfx_placeholder"  # [Sound: A soft chime from the smartwatch; you glance at the screen]
+    "The calendar invite blinks: Town Hall — 3:00 PM — Public Hearing. Your stomach tightens before your fingers can answer."
+    "You run your thumb along the calluses at the edge of the photo in your notebook: your father's hands, wind-etched and sure, gripping a dock rail in a picture taken years before the one that matters."
+    "You can feel the slip of his gloves in your memory—the wrong step, the salt-snap of the sky—and a promise you made then and there: restore the marsh, slow the water, protect the people who couldn't"
+    "run farther than the docks. The map beneath your hand is the promise translated into contour lines and species lists; it feels fragile when you press too hard."
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Her boots scuff softly across concrete; a soft ripple in the lab's background hum]
+    show dr_claire_hsu at left:
+        zoom 0.7
+
+    dr_claire_hsu "You—sorry to barge. The telemetry's in. I ran the model overnight."
+    "She sets the tablet on the table, fingers tapping—data blooming across the screen with clinical efficiency. Animations cascade: modeled floods, current vectors, pressure maps. A soft overlay shades neighborhoods in tones that mean pain: amber to deep crimson."
+
+    dr_claire_hsu "This is preliminary, but it's consistent. If Voss's levee is placed where they're proposing—the crest line along the reclaimed spit—it redirects the surge. The water finds the path of least resistance. Those low blocks—old market, parts of La Plaza—absorb displacement. Volume doesn't disappear; it moves."
+    show mara_solano at right:
+        zoom 0.7
+
+    mara_solano "How much are we talking? Weeks? Months? Or—' Your voice wants to climb into something louder, but it settles, precise and thin. 'Does the model show volumes, Claire? Peak depth? Flow speeds?"
+
+    dr_claire_hsu "Peak depth increases by a half-meter in places they didn't account for. Flow convergence will be faster. We ran three scenarios. All of them show rerouting toward lower elevation neighborhoods. The levee stabilizes the spit, but it funnels energy. The engineers call it 'managed redirection.' The people who live in the funnels call it displacement."
+    "You stare at the animation as if the red is a burn and not a projection. The map is not abstract; it's Aunt Pilar's house, Rosa's stall, the bench where Mateo taught kids to net fish. The numbers feel like a ledger written in someone else's ink."
+
+    menu:
+        "Tap the tablet to zoom into the affected block":
+            "Your finger drags the model closer, lines jagged like exposed ribs. You memorize street names as if saying them aloud will anchor them in place."
+        "Close the tablet and press both palms to your face":
+            "You feel the lab's warmth blur. For a moment you let the ache sit in your sinuses—salt, coffee, fatigue—before you breathe through it."
+
+    # --- merge ---
+    "Continue with the scene as Dr. Claire Hsu speaks to you about strategy."
+
+    dr_claire_hsu "I hate that I'm telling you this the way I am. Models are not verdicts. But the physics are stubborn. Elena's team runs structural optimizations—great for shore stability. They don't factor in neighborhood livelihoods the way we do."
+
+    mara_solano "Can we show this? Bring the model to Town Hall? The public needs to see—' Your hands want action: raw, immediate. The data feels like a weapon and a truth both. 'If they don't understand the rerouting, they'll cheer the barrier and send a bulldozer to Pilar's stoop."
+
+    dr_claire_hsu "We can release it, but—' She searches for a phrase that keeps both the integrity of science and the urgency of the situation intact. 'If we push preliminary telemetry without caveats, we give Elena's PR team a vector to discredit us. They'll call it alarmism. They'll freeze the process and tighten control. We risk losing public trust if we misrepresent uncertainty."
+
+    mara_solano "So either we let them bulldoze with polished promises, or we hand them an incomplete image and let them smear it.' Your jaw tightens. 'That's not a choice."
+
+    dr_claire_hsu "No.' She meets your eyes, the scientist's careful compassion in the set of her mouth. 'But we can do both responsibly—clear language, community-led interpretation, a coordinated release with field evidence. It means more work. It means exposure."
+    "The lab seems to breathe with you—a low exhale from the pumps, the soft clink of a spoon against a mug. Your smartwatch buzzes again. The invite persists like a cold thing in the palm of your hand."
+    # play sound "sfx_placeholder"  # [Sound: A notification ping; distant voices through the lab's half-open door]
+    show aunt_pilar at center:
+        zoom 0.7
+
+    aunt_pilar "Mija? Are you in there? My knees sent me a rumor you were at Tidewatch."
+    "You move to the speaker and press for the video feed. Her face appears grainy: silver hair tucked in a bun, bright patchwork shawl, hands restless with habit. She's been the keeper of kitchen-shed meetings and rooftop herb swaps for decades. She looks small and enormous at once."
+
+    aunt_pilar "You look like the storm didn't wash you away. Are you eating? Are you sleeping? They say a promise is only a promise if it keeps the person who made it."
+
+    mara_solano "I'm—I'm here. I have data. Claire just showed me—"
+
+    aunt_pilar "Data isn't enough, mara. Words on machines don't warm a roof. But words are not nothing. Remember the night your father went, how the tide took its time at first? You ran into the dark. You promised the marshes. Don't let a fancy wall make you trade the people you love for something sterile."
+    "Aunt Pilar's hands—callused, steady—tighten around something off-screen, perhaps a dish towel, and her eyes glint with a history you feel like a current under your feet."
+
+    mara_solano "I can't—' The sentence swells with all the things 'can't' has meant to you: resources, politics, grief. 'I won't watch them get pushed into the gutters."
+
+    aunt_pilar "Then make them see. Let them hear the gulls and the pumps and the smell of the tide. Tell it like it is to the neighbors. And bring the plants—bring the kids to the marsh when the tide's low. People forget what they stand to lose when it's only numbers."
+    # play sound "sfx_placeholder"  # [Sound: You can hear the lab's pumps rise in tempo, an inaudible pressure in the building as the tide climbs outside]
+    "Your chest is an anchor and a bell at once—weighted and ringing. You remember your father's hands: the hem of his jacket slick with salt, the rasp of orders in the wind. That memory is not"
+    "static; it is a motion that insists on a response. You flip to the photograph tucked in your notebook—the edges softened by touch—and press the image to your forehead for a single, private second."
+
+    menu:
+        "Text Jonah: 'Town Hall. 3. Meet at the boardwalk? Bring the camera.'":
+            "You thumb the message out, hands quicker than your heart. You know Jonah will arrive with a grin and a plan, and that steadies you in a way the maps cannot."
+        "Call Jonah instead, let him hear the sound of your voice":
+            "You press call and let it ring. When he answers, his voice is warmth and salt and a promise you can almost touch; the news tucks under his optimism like a dark cloud but he doesn't let it sit there. If you call, Jonah answers on the second ring, static and a laugh in his voice."
+
+    # --- merge ---
+    "Continue with Jonah's response and the coordinated outreach plan."
+    # play sound "sfx_placeholder"  # [Sound: Your phone buzzes; Jonah's name flashes. You choose.]
+    hide dr_claire_hsu
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "Mara. Late morning dip? How's Tidewatch treating you?"
+
+    mara_solano "Claire ran a model. Voss's levee—it's not neutral. It pushes water into low blocks. It—' Your words tumble; you let them. '—it will make people pay for the security someone else sells."
+
+    jonah_reyes "That's Elena in a nutshell. Sell stability, buy silence. We can get people out to listen, Mara. Market day, the plaza, the kids' garden—if we show them what the model means on the ground, not just on a screen, they'll understand."
+
+    mara_solano "We need numbers tied to places. Science that won't be smeared. Claire worries about premature release."
+
+    jonah_reyes "We'll help translate. I can film, get close-ups, interviews with Rosa and Mateo, the nets, Pilar's stoop. Make it human. People don't like being lied to if you show them the lie inching up a street."
+    "A pause softens his words, and in it is the faith he always has in the town and in you."
+
+    jonah_reyes "Whatever you need. I'm there. Even if it's just to stand with you in front of council and look furious together."
+    "You manage a bitter laugh. His steady, bright presence pulls at something in your chest that isn't purely strategic. It is a warmth that could be warmth or distraction; in this moment it is both."
+    "Back in the lab, Dr. Claire Hsu watches the exchange with a mix of scientific concern and private relief that you're not planning to act without a plan."
+    hide mara_solano
+    show dr_claire_hsu at right:
+        zoom 0.7
+
+    dr_claire_hsu "If we're going to do outreach, let's scaffold it. Field samples the cooperative can vouch for, paired with modeled scenarios. I can run a rapid sensitivity analysis—show which neighborhoods spike the most under small changes in placement. It won't be perfect, but it will be defensible."
+    hide aunt_pilar
+    show mara_solano at center:
+        zoom 0.7
+
+    mara_solano "Defensible is the word they respect. But will Council listen before Voss's hearing is finalized?"
+
+    dr_claire_hsu "Avi Malhotra is squeamish about headlines, but if the community shows up with data and a clear alternative plan—your restoration strategy—he's less likely to vote for a plan that wipes out votes and livelihoods. It's politics packaged as practicality."
+    "You inhale, tasting salt and the bitter aftertaste of coffee. The lab's lights feel suddenly too small for the weight of strategy and family and memory pressing in. The tide hums, and the pumps' rhythm seems to speed in sympathy with your pulse."
+    "You flip through your notebook, fingers stopping at the restoration diagrams you sketched last year: marsh terraces, coir logs, seed mixes, community plantings. Each drawing is a negotiation between what the sea allows and what people"
+    "need. Each line is a promise you made again and again until it blurred into the folds of your life."
+    "Duty and loyalty are not the same thing, your head says. One is a ledger; the other is a compass that points where it is hardest to walk."
+    hide jonah_reyes
+    hide dr_claire_hsu
+    hide mara_solano
+
+    scene bg ch1_Start_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The pumps increase in pitch; a distant siren too far to name]
+    "You stand. The lab's floor is cool under your boots. The compass at your throat presses cold against the hollow where resolve gathers."
+    "You brace to choose how to fight."
+
+    scene bg ch1_Start_4 at full_bg
+    # [PAGE-TURN MOMENT: The map flutters, the red edges like tide-lines in ink. You feel the pull of your father's hands, the warmth of Jonah's promise, Aunt Pilar's steady mandate. Every option costs something. The lab hums; the town waits. You open your mouth to speak and the words fall somewhere between data and memory.]
+
+    scene bg ch1_Start_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

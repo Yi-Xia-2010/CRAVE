@@ -1,0 +1,463 @@
+{
+    "title": "Saltbridge Tides",
+    "summary": "I am Maya Serrano, a community resilience coordinator rooted in Saltbridge. The narrative follows a Man-in-a-Hole arc: a fall into crisis when a new storm threat, policy delays, and a fractured funding decision push Saltbridge toward displacement. At the nadir I must choose a path: ally with Elias’s grassroots urgency, negotiate pragmatic infrastructure with Noah’s firm, or lead a risky independent community action. Each path forces different sacrifices and reveals different facets of love and commitment: romance with Elias channels collective mobilization, romance with Noah complicates moral compromises within systems, and a solo-led route tests the limits of communal sacrifice. Across each branch I confront loss — damaged public space, personal guilt, or community fragmentation — and then climb toward recovery through coalition-building, science-led strategy (with Dr. Hana Park), or hard-won policy negotiation. Endings vary (Community Triumph, Compromise and Renewal, Corporate Win, Catalytic Sacrifice) but all follow the Fall→Rise emotional curve, emphasizing how personal intimacy and political choices interlock when the sea demands a response.",
+    "emotional_curve_type": "Man-in-a-Hole",
+    "player_character": "Maya Serrano",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt, Not Yet Water",
+            "branch_designation": "Common",
+            "narrative_focus": "I walk the boardwalk at dawn, notebook under my arm and compass against my sternum, learning how the town greets another high tide. News of a funding delay arrives, and the cracks in consensus reveal themselves. I catalogue salt stains, the warped wooden planks, and the way Rosa’s café light feels like a fragile lamp in a storm. I consider Finn’s practical optimism—his patched jacket and the way he still laughs when he ties knots—and my own red thread, knotted at my wrist like a promise I sometimes forget. The sea holds its breath; so do we. Inside me, planning gives way to a heavier knot: memories of a neighbor lost in a storm; the dented compass necklace feels suddenly heavier. I argue with myself about delegation, about whether to call Elias and push harder or to start drafting a counterproposal to Mayor Lillian. The city smells of salt and fried coffee; my field notebook is full of tide logs and half-formed contingencies. For the first time in months, I feel an honest tremor: the problem may be bigger than my plans.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Serrano",
+                "Rosa",
+                "Finn",
+                "Mayor Lillian Cho",
+                "Elias"
+            ],
+            "locations_used": [
+                "Boardwalk at dawn",
+                "Rosa’s café"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Saltbridge Community Hall",
+            "branch_designation": "Common",
+            "narrative_focus": "At the community hall, fluorescent bulbs throw honeyed light over maps and age-stained chairs. I lead a meeting that begins with warmth and frays into argument: a developer’s promise of a high-tech sea-wall; Rosa presses for equity; Finn brings up the memory of our neighbor lost to a surge. Dr. Hana Park lays out scientific models on a small field tablet, her ash-brown hair tucked under a lab vest. Tension thickens when Mayor Lillian Cho’s representative announces a funding gap and a conditional contract favoring a large firm — Kestrel Marine Development. Elias, arriving late with an indrawn laugh and sandy-blonde hair damp from fog, makes an electrifying speech about mobilizing residents to insist on community-led adaptation. Noah Kestrel, passing through with a crisp navy coat and polished boots, offers an interview about efficiency and timelines. My heart clenches; each face is a different map of possibility. I feel my old habit of taking responsibility — of trying to be the fulcrum that keeps everything balanced — press on my ribs. When the meeting ends, the town disperses into the wet night, and I write a single line in my notebook that tastes like iron: decide a direction.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Noah Kestrel",
+                "Dr. Hana Park",
+                "Rosa",
+                "Finn",
+                "Mayor Lillian Cho"
+            ],
+            "locations_used": [
+                "Saltbridge Community Hall"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Crossroads at High Tide",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The town stands at a crossroads. I walk alone down to the dunes and the emergency barricade, sandbags stitched into place and hand-painted protest signs flapping like anxious mouths. The horizon is a trembling line; gulls wheel and the air tastes of metal. My choices condense into three blunt paths. Elias wants a mass mobilization — direct action, protests, and community-built defenses that pressure the Mayor and shame corporate overreach. Noah offers a mediated negotiation — a fast-track contract that would build durable defenses but requires concessions: rezoning, buyouts for some blocks, and corporate-managed maintenance. The third path is mine alone: organize a high-risk, community-led evacuation and relocation plan that would save residents but demand we abandon beloved historic blocks, a plan Hana would call “strategically traumatic.” I feel the red thread on my wrist pull tight. Each option claims a part of my conscience, and each promises loss. I know, with a quiet, painful certitude, that whichever route I choose will reshape my relationships, my town, and my life.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 2, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which strategy will Maya prioritize?",
+                "options": [
+                    {
+                        "label": "Stand with Elias — prioritize grassroots mobilization and direct action.",
+                        "consequence": "Align with activists, risk arrests and escalation",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Work with Noah — negotiate pragmatic infrastructure and concessions.",
+                        "consequence": "Enter mediated talks; risk displacement trade-offs",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Lead an independent evacuation/relocation plan — accept painful sacrifices.",
+                        "consequence": "Forge a high-risk community relocation plan; may alienate allies",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Noah Kestrel",
+                "Dr. Hana Park",
+                "Finn"
+            ],
+            "locations_used": [
+                "The Dunes",
+                "Emergency Barricade"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Salt and Protest",
+            "branch_designation": "Route A",
+            "narrative_focus": "With Elias at my side — his sandy hair damp and his camera swinging like a talisman — we organize a beachfront blockade. We plaster the sandbags with hand-lettered signs and sing songs we learned as children. The mobilization is a luminous, urgent thing: neighbors with oil-stained hands, Rosa offering pastries in a flying tray, Finn steadying a ladder. For a moment I feel the old small-town cohesion like a warm garment. Then the tide turns: a clash with enforcement, a miscommunication that leaves a stretch of sandbag barrier undermanned, and the sea slips in behind a seam we missed. Someone I know is hurt amid the shouting — a slip, a twisted ankle, wet hair and a face I recognize from childhood. The pressframe goes harsh. I am arrested briefly, the Moleskine soaked through with fingerprints and seawater, and we lose certain grant opportunities tied to sanctioned processes. The town reels. My instinct to take responsibility crushes me: how many calculated risks will I let my community pay for? The descent feels personal and political at once.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After the clash, how do I proceed?",
+                "options": [
+                    {
+                        "label": "Double down on direct action with Elias — escalate to larger civil disobedience.",
+                        "consequence": "Higher risk, potential moral victory but greater harm",
+                        "target_chapter_index": 5
+                    },
+                    {
+                        "label": "Consolidate and rebuild community capacity — shift focus to mutual aid and Rooftop Sanctuary efforts.",
+                        "consequence": "Slower gains, steadier community resilience",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Request scientific backing from Dr. Hana to bring evidence to the Mayor.",
+                        "consequence": "Legitimizes demands but may slow momentum and disappoint activists",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Rosa",
+                "Finn",
+                "Dr. Hana Park"
+            ],
+            "locations_used": [
+                "Dunes",
+                "Emergency Barricade"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Arrest Records and Aftermath",
+            "branch_designation": "Route A",
+            "narrative_focus": "We escalate. The next action is a mass sit-in atop a collapsed pier, where my boots and Elias’s scarf are both plastered with sea-spray and determination. Police kettles tighten; someone smashes a camera and the press spins an ugly narrative. Finn is injured more seriously than before, and Rosa’s café receives a vandalism threat that keeps customers away. The arrests are messy; the inked bracelet at the holding cell is a cold, humbling circle. I spend a night in a cell, the fluorescent light strobing across my green-gray eyes, thinking of all the plans that failed because I prioritized momentum over logistics. Elias is defiant across the legal line; he looks at me with urgent, broken love. I am weary and raw, cataloguing failures in my Moleskine and thinking bitterly about the neighbor I once lost. I feel smaller than the person who arrived at the dunes, and the bottom presses in: we have moral clarity but diminished capacity. The fall finds its trough here, and I sit with the cost.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 6,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Finn",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Collapsed pier",
+                "Boardwalk holding cell"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Rooftops and Repair",
+            "branch_designation": "Route A",
+            "narrative_focus": "After the arrests and the broken press cycle, we pivot. Elias and I spend damp mornings on the Rooftop Sanctuary, planting raised beds under solar fabric and teaching neighbors how to store potable water and patch breaches. Dr. Hana helps us translate our protest into hard data; she models modular, community-driven sea barriers. I call meetings at Rosa’s café, where the warm smell of coffee becomes the smell of strategy; Finn helps rig pulleys and passes me a rope with hands that remind me of home. Slowly, our mutual-aid network wins a conditional municipal grant because we can demonstrate community capacity and a clear, low-cost modular plan. Mayor Cho softens publicly, and Noah Kestrel, watching from the Kestrel office across the harbor, offers technical expertise rather than a takeover. Elias and I find tenderness in late-night plan-checking: his hair falls into his eyes; my braid swings against my neck when I laugh. The town still bears scars, but the recovery begins. Our love deepens not as an escape but as a connective force: commitment to each other and to collective repair.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4, Option B / From Chapter 5",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Dr. Hana Park",
+                "Finn",
+                "Rosa",
+                "Mayor Lillian Cho",
+                "Noah Kestrel"
+            ],
+            "locations_used": [
+                "Rooftop Sanctuary",
+                "Rosa’s café",
+                "Harbor (Kestrel office across the harbor)"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Glass and Blueprints",
+            "branch_designation": "Route B",
+            "narrative_focus": "I take Noah’s offer to talk. His office — Kestrel Marine Development — is a cold shell of polished concrete and marine-blue displays. Noah’s hair is slicked back, his steel-blue eyes calm and inclusive, and his cuff glints under the office lights. He presents a streamlined plan: a reinforced sea-wall, levees keyed to new zoning, fast-tracked permits if the town accepts certain buyouts. He speaks in probabilities, in models that hum like machines. The offer promises quick reduction of risk, but it asks for historic blocks and a measure of control that will be ceded to corporate maintenance. I feel the gravitational pull of pragmatism: the math looks clean; lives could be protected. But when I return to the boardwalk, Elias’s protest banner flaps in the rain like an accusation. Finn asks me, quietly, whether I can live with the neighborhoods we might lose. Dr. Hana whispers inconvenient truths about engineered blights and socioeconomic displacement. The decision yawns before me. The fall continues as I hand the town’s fate to systems that might forget the people who built the place.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How will I negotiate with Noah’s firm?",
+                "options": [
+                    {
+                        "label": "Accept the pragmatic deal to secure fast infrastructure, agreeing to some buyouts.",
+                        "consequence": "Faster protection but displacement risk",
+                        "target_chapter_index": 8
+                    },
+                    {
+                        "label": "Insist on stricter equitable safeguards and public oversight, even if it delays work.",
+                        "consequence": "Slower timeline, possible funding fallout",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Keep personal distance — refuse romantic alignment to keep independence in negotiation.",
+                        "consequence": "Maintain leverage but risk losing personal support",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Noah Kestrel",
+                "Elias",
+                "Dr. Hana Park",
+                "Finn",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Kestrel Marine Development Office",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Contracts and Compromises",
+            "branch_designation": "Route B",
+            "narrative_focus": "We sign a conditional agreement. The town gets expedited levees and a private-maintained sea-wall; Kestrel will build a modernized promenade, and several blocks will be offered buyout stipends. Initially, relief blooms: the weather forecasts lessened risk, and FEMA begins to walk back emergency redlines. But the fine print bites. Families with low equity are pressured; a developer’s remediation clause favors high-end retail along the new promenade. Residents I grew up with find cold, bureaucratic letters in the mail. A community meeting in the hall cracks into shouting: Elias calls the arrangement a sellout; Rosa cries at the loss of a bakery block; Finn is pragmatic but hollow. Noah sits quietly beside me, his cuff a steady glint; he offers small private comfort in the lobby, but I feel a gulf. The fall deepens not because infrastructure failed but because human costs multiply. I ask whether safety bought this way is a betrayal, and the answer feels like salt in a wound.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 9,
+            "characters_involved": [
+                "Maya Serrano",
+                "Noah Kestrel",
+                "Elias",
+                "Rosa",
+                "Finn",
+                "Mayor Lillian Cho"
+            ],
+            "locations_used": [
+                "Kestrel Marine Development Office",
+                "Saltbridge Community Hall"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Negotiated Shorelines",
+            "branch_designation": "Route B",
+            "narrative_focus": "The aftermath of compromise is messy but begins to show slow healing. After protests and legal pressure led by Elias’s group, Noah agrees to a public oversight committee with representation from displaced neighborhoods and community-run maintenance funds. Dr. Hana helps us map living shorelines and rooftop networks to be prioritized for vulnerable blocks; Rosa’s café becomes the point of triage for relocation counseling. The work is politically bruising: some historic rows must be surrendered to the new remediation footprint, and there are families who will never return. But we secure a jobs program funded by Kestrel to hire local crews to build and maintain new green infrastructure; Finn leads a small team that refits boats into emergency supply vessels. Noah’s guarded affection grows into a steady presence: he speaks softly about structural integrity while also bringing warm soup to the hall on long nights. My own guilt eases into a sober steadiness; recovery here is not victory but durable repair. Romance survives in a tempered way, with practical agreements and lingering questions about means and ends.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7, Option B / From Chapter 8",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Noah Kestrel",
+                "Dr. Hana Park",
+                "Rosa",
+                "Finn"
+            ],
+            "locations_used": [
+                "Saltbridge Boardwalk",
+                "Rooftop Sanctuary",
+                "Rosa’s café"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Plan I Keep to Myself",
+            "branch_designation": "Route C",
+            "narrative_focus": "I choose a third path: a high-risk, community-first relocation and evacuation plan that refuses corporate takeover and refuses to accept half-measures. At dusk, I meet Dr. Hana at the High Tide Laboratory: sodium lamps cast orange pools on metal, and she strands data like rope across a table. We talk about phased relocation, living shorelines, and the ethical cost of “managed retreat.” The plan is tactically brilliant but politically explosive — requiring mass buyouts, staged evacuations, and formalized sacrifice of historic blocks to preserve human life. I start to map shelters on the Rooftop Sanctuary network, coordinate floating supply caches, and pull volunteers. Elias admires the courage but warns about isolation; Noah offers, curiously, a quiet technical suggestion and then withdraws. As the town learns pieces of the plan, some residents call me heroic, others call me ruinous. The fall is social and personal: I become both a leader and a pariah, and the loneliness of command finds a weight all its own.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I enact the controversial community plan?",
+                "options": [
+                    {
+                        "label": "Coordinate a controlled evacuation and Rooftop Sanctuary relays with Hana and Rosa.",
+                        "consequence": "Structured sacrifice, high coordination but potential long-term model",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Sabotage Kestrel equipment to slow corporate construction and force renegotiation.",
+                        "consequence": "Criminal risk, potential backlash",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Lead a mass blockade of development zones, prioritizing civil resistance.",
+                        "consequence": "High visibility, chance of violent enforcement",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Dr. Hana Park",
+                "Elias",
+                "Noah Kestrel",
+                "Finn",
+                "Rosa"
+            ],
+            "locations_used": [
+                "High Tide Laboratory",
+                "Rooftop Sanctuary",
+                "Construction sites"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Sanctuary Logistics",
+            "branch_designation": "Route C — Evacuation",
+            "narrative_focus": "We start a phased evacuation blueprint. The Rooftop Sanctuary becomes a hub for reallocating resources; solar fabric drips with condensation as volunteer teams map who will leave and who will stay to maintain critical systems. Dr. Hana coordinates buoy maintenance from the mobile research boat; Finn becomes the pragmatic point person, knotting ropes and converting storage into supply caches. For all our carefulness, disaster still happens: a surprise high tide rushes an unreinforced channel; a family refuses to evacuate until the last moment; our logistics timeline fractures. I feel culpable when an elderly neighbor who trusted me slips in a flood of seawater; we save her life but lose a cherished bookshop to water and mold. The town’s social fabric frays — accusations of elitism and of top-down imposition color neighbors’ faces. The fall deepens: I wanted to protect them without taking away autonomy, and instead I am accused of deciding who should lose home and who should not. Loneliness tastes like iron and wet wood.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Maya Serrano",
+                "Dr. Hana Park",
+                "Finn",
+                "Rosa",
+                "Elias",
+                "Noah Kestrel"
+            ],
+            "locations_used": [
+                "Rooftop Sanctuary",
+                "Mobile research boat",
+                "Local bookshop"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "The Price of a New Shore",
+            "branch_designation": "Route C — Evacuation",
+            "narrative_focus": "After the immediate crisis, the town enters a brittle rebuilding. The evacuation plan, messy and traumatic, nonetheless prevents a catastrophic loss of life. We formalize relocation with input from displaced residents; the Rooftop Sanctuary network becomes a distributed lifeline. Federal funds come with strings, but Hana helps me secure a grant earmarked for equitable relocation that requires community governance. Rosa’s café becomes a central services hub, and Finn organizes a crew to retrofit floating storage and rewire pump systems. The town becomes, painfully but proudly, an emergent model: we publish our protocols; other coastal towns consult us. Love reshapes: Elias, who stayed close through the worst, kisses me in a rooftop greenhouse under a dawn that smells of rosemary; our intimacy is both tender and charged with shared trauma. Some losses remain irreparable — the bookshop remains waterlogged — but the rise here is defined by hard-won systems and a reconstituted community that honors both memory and necessity.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Dr. Hana Park",
+                "Finn",
+                "Rosa",
+                "Elias"
+            ],
+            "locations_used": [
+                "Rooftop Sanctuary",
+                "Rosa’s café",
+                "Bookshop (lost)"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "A Night of Broken Machines",
+            "branch_designation": "Route C — Sabotage",
+            "narrative_focus": "We decide, impulsively and with a shared fury, to cripple heavy equipment on a storm-damp morning. The strategy feels like a revolt of the necessary against the inevitable; Elias helps with logistics but warns me about the escalation. We slip into the construction zone under fog and hammer loose pins, short a control cable; the machines stall. For a heartbeat it feels righteous. Then the company calls in private security and legal injunctions. Kestrel claims sabotage in the press, and the town is caught in a legal and political maelstrom. Police question activists; fines are levied. The public narrative shoves us into villainy and weakens our moral standing. I watch as families that relied on our credibility stop trusting us, and the sea, indifferent to our gestures, keeps its steady rise. I am arrested again, and this time the consequences ripple into long-term constraints on our ability to access grants. The fall leaves a bitter aftertaste: righteous anger without a durable plan can become a self-inflicted wound.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 14,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Finn",
+                "Kestrel Marine Development",
+                "Private security"
+            ],
+            "locations_used": [
+                "Construction site"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "After the Clampdown",
+            "branch_designation": "Route C — Sabotage",
+            "narrative_focus": "The legal and political fallout forces pragmatic recalibration. After the sabotage, support at the municipal level evaporates; Kestrel presses its case, and Mayor Cho is forced to broker hard concessions. We lose municipal access to certain relief funds as a condition of litigation, but unexpected alliances emerge: small funders, neighboring towns, and an independent philanthropic trust step in with conditional support for a community-led adaptation pilot — but only if we commit to transparency and a nonviolent, collaborative governance model. Dr. Hana insists we rebuild trust through inclusive processes. I organize restorative dialogues in Rosa’s café, standing in front of folding chairs with my olive jacket spattered with the memory of wet work. Elias, who is shaken, chooses to step back from direct action into community education; his affection for me is steady and warm, though tempered by what we lost. The new recovery is slower and more constrained than any dream of total triumph; yet it is real and socially durable. We salvage what we can and build protocols so the next fight doesn’t burn the town.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 13, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Dr. Hana Park",
+                "Elias",
+                "Mayor Lillian Cho",
+                "Rosa",
+                "Finn"
+            ],
+            "locations_used": [
+                "Saltbridge Community Hall",
+                "Rosa’s café"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Standstill at the Waterline",
+            "branch_designation": "Route C — Blockade",
+            "narrative_focus": "We choose a mass blockade at the official development site. The morning is cold and damp; banners flap and Elias films quietly, amber eyes reflective and solemn. The blockade delays construction and draws national attention. After tense days of negotiation, a painful but significant compromise emerges: Kestrel agrees to a phased development pause and to co-develop a pilot living-shoreline program with community oversight, in exchange for a permit timeline extension and a public audit clause. The concession is fragile and contingent, but it’s also unprecedented: public oversight of corporate adaptation work. The blockaded stretch will still see redevelopment, and several historic shops will be relocated, but the pilot funds rooftop networks and a community-maintained barrier design. The rise is imperfect and politically compromised, but it secures structural space for local governance. My romantic entanglements realign: some relationships deepen through shared hardship; others recede. I stand on the boardwalk, soaked hair braided and compassed heart steady, feeling that the place between retreat and rebuilding is where we will spend the next years learning how to live.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrano",
+                "Elias",
+                "Mayor Lillian Cho",
+                "Kestrel Marine Development",
+                "Rosa",
+                "Finn"
+            ],
+            "locations_used": [
+                "Boardwalk blockade",
+                "Development site"
+            ]
+        }
+    ],
+    "remarks": "Structure notes: All chapters begin with Entry Condition except Chapter 1. The story branches at Chapters 3, 4, 7, and 10. Each route follows a Fall → Rise Man-in-a-Hole arc. Visuals and character designs referenced: Maya Serrano, Elias, Noah Kestrel, Dr. Hana Park, Rosa, Mayor Lillian Cho, Finn. Endings per route: Route A — Community Triumph; Route B — Compromise and Renewal; Route C — multiple endings depending on option (Catalytic Sacrifice, Corporate Win/Local Displacement, Mixed negotiated victory).",
+    "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+    "_meta_arc_strategy": "Man in a Hole (Fall-Rise)"
+}

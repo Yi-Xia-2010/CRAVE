@@ -1,0 +1,140 @@
+### SCRIPT
+# Route: Route C
+# Context: c4ca42
+
+[Scene: Greenline Reclamation Hub | Sunrise]
+[Background:"ch2_c4ca42_1"]
+[Sound: Distant gulls, the soft drip of condensation, a kettle clicking on a portable stove]
+[Music: Gentle acoustic guitar, slow and hopeful]
+
+You step out onto the terrace and the air takes you—wet mulch, salt that tastes like memory on the back of your tongue, sunlight slicing through leaves. The boardwalk underfoot is still cool; dew makes your boots whisper with each step. Children’s laughter threads between conversations, bright and small. A handful of neighbors tend rain barrels, hands in the soil; someone is varnishing a hand-painted sign that reads KEEP THE SHORE LIVING.
+
+You breathe in. Professor Haruto’s voice is a hum at the back of your head—how sediment moves, how slow processes outlast flashy fixes. The Moleskine is tucked beneath your jacket where you left it; the brass of the compass presses a familiar point against your ribs. You feel the notebook there like a secret oath.
+
+[Background:"ch2_c4ca42_2"]
+Lina Park: "Morning, Maya! You’re just in time — we brewed way too much coffee and Sasha's painting waves again." (She grins, then lowers her voice.) "Mayor's had the podium since dawn. This place smells like hope and compost."
+
+You manage a small smile back, the sort that reaches your eyes. Hope and compost, you think, is not a terrible combination.
+
+[Background:"ch2_c4ca42_3"]
+Mayor Amara Sol: "Thanks for coming early. We have investors arriving, community proposals to hear, and —" (she looks up at you) "— experts to keep us honest."
+
+Mayor Amara’s voice is even, measured. There’s an economy to her words that sits like ballast between competing agendas. You nod; she hands a stack of printed site maps toward the cluster of familiar faces.
+
+Elias is at the far edge of the terrace, sleeves rolled, thumb and forefinger pinching a clump of reed roots from the demonstration bed. The mud at his nails looks like a medal. He catches your eye and walks over—his steps easy as if the terrace were his studio. He quirks one eyebrow at your jacket and the Moleskine peeking from inside.
+
+Elias Rowe: "You brought the notebook. Thought you might. Did you want to show Haruto’s latest curves or keep them as a bedtime story?"
+
+Maya Calder: "Not bedtime. Reference. And you? You look like you wrestled a marsh for breakfast."
+
+Elias Rowe: (laughing) "Guilty. The marsh won a round. But the terraces are holding, which is the point. See that break in the planting? If we stagger the coir logs there and slip in three more native plugs, the wave energy diffuses and we buy the shoreline more time to build sediment."
+
+You tilt your head and feel the familiar mechanics of analysis knitting up behind your eyes—the slow, satisfying pattern of problem and solution. Elias points, his finger making soft diagrams in the air.
+
+Maya Calder: "Staggered logs plus plugs would help local accretion... but have you modeled seasonal surge events? Haruto—" (the name arrives like a pebble in your mouth) "—had notes about localized down-drift erosion. We need to see sediment budgets, not just immediate plant survival."
+
+Elias Rowe: "I know. That’s why we pair it with temporary breakwaters — low-profile—keeps costs down and relates to what the community can maintain. You do the numbers, I’ll make the drawings pretty and functional, and Lina will convince Mrs. Reyes to water them."
+
+Lina Park: (from a few steps away) "Mrs. Reyes is already halfway converted. She wants us to teach her granddaughter to plant by next week."
+
+The exchange eases you. It’s practical, iterative—community-scaled. The terrace feels like a slow machine turning toward resilience, each person a cog.
+
+[INTERACTION]
+> Choice A: "Peer at the demonstration bed, fingers in the soil"
+> Choice B: "Open the Moleskine and review Haruto's scribbles"
+[Outcome A: "You crouch, palms finding the damp earth. The roots are finer than you'd expected; your fingers trace their paths like reading handwriting. The scent of silt is a comfort."]
+[Outcome B: "You slide the notebook free and flip to the page with Professor Haruto's annotations. The graphs are polite but insistent—time is gradual, stubborn, and the patterns don't romanticize urgency. You fold a corner for later reference."]
+[MERGE: You stand again, letting the choice you made—whatever it was—settle into the rhythm of your shoulders. Elias watches you with that patient focus that makes even criticism feel like a scaffold you can climb. He reaches and squeezes your shoulder, a small, grounding pressure.]
+
+Elias Rowe: (soft) "You do that thing where you solve the world in your head. It’s okay to bring part of the world back in your hands."
+
+Maya Calder: (after a beat) "And it’s okay for you to joke like that and not run from the parts that get messy."
+
+He smiles, something unreadable in the way his mouth curves. It’s an invitation not to keep emotions strictly in a lab drawer.
+
+[Sound: Footsteps click against the wooden boards; murmurs ripple as more people gather]
+[Background:"ch2_c4ca42_4"]
+
+A hush falls as Serena Voss appears at the terrace edge—precise, composure cut to a blade. Her platinum bob is immaculate; a slim holo-tablet hovers in her hand, the device always seemingly an extension of her motion. Sapphire cufflinks flash a cold point of light.
+
+Serena Voss: (measured) "Good morning. I’ll keep this succinct. We appreciate the community's effort; what we offer is stability—immediate, quantifiable. We propose a reinforced seawall along the central harbor stretch. It's engineered, predictable, and it protects critical infrastructure."
+
+She gestures and the holo-tablet unfurls: a glowing schematic rises above the device, neon against the green rows. The rendering is clean, authoritative: a continuous, high-contrast barrier, cross-sections that show immediate flood-stage prevention, cost-benefit timelines that end in neat upward curves.
+
+[Sound: A low ripple of murmurs; some faces look relieved, others uncertain]
+Investor (softly): "That’s fast. That’s reassuring for bondholders."
+
+Mayor Amara Sol: (careful) "Serena, the wall mitigates immediate risk. But you understand community concerns about habitat loss and long-term sediment dynamics."
+
+Serena Voss: (nods) "We do—and we've run environmental offsets. We can add engineered tidal channels and compensatory wetlands where feasible. But I’ll be frank: delays cost lives and investors lose confidence."
+
+You feel the air between the rows of plants press a little closer. The terrace smells the same—mulch, salt—but there is a new metallic undercurrent: the scent of decision.
+
+You slide a hand over the Moleskine under your jacket. Haruto's lesson about the persistence of sediment movements comes back soft and slow: a seawall changes where the sand goes; it changes what the coast remembers. You can almost see lines in the air, the coastline redrawn in ink and tide.
+
+Lina steps forward before you can. She has that particular look of someone who grew up here and has learned the language of both grief and practical work.
+
+Lina Park: "We need to hear what that seawall does to the people who fish, the people who garden the marsh. You can’t just—"
+
+Serena Voss: (interrupting lightly) "Lina, the design includes compensatory measures and community investment. The reality here is that the water is rising now, not later."
+
+Lina Park: "The water's been rising for decades, Serena. Some of us have been trying to work with it, not fight it."
+
+Serena’s eyes soften for the briefest moment, a humanizing flicker before corporate polish returns.
+
+Serena Voss: (quiet) "I grew up near a delta. We built a wall and thought it would save us. It saved the road and took away the marsh. I remember the quiet after, and I don't want to be the person who remembers only the quiet. I want to build something that keeps people safe."
+
+There it is—a fragment of the person beneath the suit. It complicates the tidy opposition you had in your head and makes the problem—serious and layered—even more human.
+
+Mayor Amara Sol: "We need proposals that are accountable to this community. I want numbers that don't just protect infrastructure, but show what’s shifted to make that protection possible. How will you measure success in ten, twenty years?"
+
+Serena Voss: "Monitoring arrays, adaptive design clauses, community oversight committees."
+
+Maya Calder: (leaning in, voice steady) "And the sediment transport models? Will those be transparent? Will the offsets be community-managed, or handed to third-party contractors?"
+
+Serena Voss: (measured) "Transparency, yes—within the constraints of commercial IP. Offsets can be administered through a public trust if the town insists."
+
+The conversation loops back, measured and productive rather than explosive. Voices layer: technical, political, personal. The arousal in the room is low but building, like the swell of a tide you can sense coming long before the wave crests.
+
+[INTERACTION]
+> Choice A: "Ask Serena to walk the terrace with you after the meeting"
+> Choice B: "Hold your question and instead point Mayor Amara to Haruto's dataset later"
+[Outcome A: "You look Serena in the eye and ask, softly, for a walk-through. For a beat she measures you—then nods. 'After,' she says. There’s a promise there that's at once professional and oddly intimate."]
+[Outcome B: "You keep the question in your pocket and instead catch Mayor Amara’s eye, tapping the Moleskine. She nods minutely, an acknowledgment that you will deliver the data to her later—another, quieter path toward influence."]
+[MERGE: Elias gives you a look that says he sees the calculation you just made, that he trusts you to pick the right way forward. Lina bustles beside you, rallying a small group to tend to a cracked rain barrel. Mayor Amara rolls the town plans with practiced ease, the roll sounding like a little drum.]
+
+People begin to speak in threads—technical clarifications, anecdotal pleas, offers to volunteer time and materials. The terrace hums; it hums with a particular kind of optimism that isn't naive. It's the optimism of people who have seen storms and still choose to plant.
+
+You close your eyes for half a second and let the light fall across your face. It warms you in a precise way — like a lab incubator turned gentle. For the first time since the last meeting-turned-argument, the thought that you can do this with people, not against them, lands like a small gift.
+
+[Background:"ch2_c4ca42_5"]
+Serena Voss: "I'll be at the hearing next week. I hope we can find a hybrid approach that satisfies both science and the immediate need for security."
+
+You find your voice, soft but certain.
+Maya Calder: "So do I. We all do."
+
+There’s no shout, no dramatic fallout—only the quiet exchange of commitments. The terrace feels like a held breath that decides to keep breathing.
+
+[Sound: A kettle whistles; someone laughs; the hum of earnest conversation resumes]
+[Music: The guitar resolves into a single, warm chord that lingers]
+
+You take one last look around the terrace: a child smearing blue paint into a wave on a protest sign; Tomas helping an older neighbor with a watering can; Elias sketching modifications into a fold-out plan with a stub of a pencil. The community is an accumulation of small decisions—each one, stubbornly hopeful.
+
+You let the hope settle in, not as a naive certainty but as a steadying fact. It is enough to go to the next room, to the next meeting, to the public hearing that will ask the town to choose.
+
+You slip the Moleskine back under your jacket. The compass inside is a calm weight at your sternum. Professor Haruto's graphs and Lina's stubborn hands and Elias's quiet steadiness form a constellation you can navigate by.
+
+You inhale, tasting salt and coffee and possibilities, and step toward the pergola where the meeting will continue.
+
+[Background:"ch2_c4ca42_6"]
+[Music: Fade to a single sustained note — a quiet invitation to move forward]
+
+[Background:"ch2_c4ca42_7"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

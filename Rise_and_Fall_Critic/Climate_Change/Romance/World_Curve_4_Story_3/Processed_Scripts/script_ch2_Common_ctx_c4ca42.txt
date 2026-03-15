@@ -1,0 +1,127 @@
+### SCRIPT
+# Route: Route B → Option B / Route C → Option C
+# Context: c4ca42
+
+[Scene: The Saltworks | Morning → Late Evening]
+
+[Background:"ch2_c4ca42_1"]
+
+[Sound: Low hum of a dehumidifier. Outside, gulls cry; nearby, a distant diesel engine coughs and settles.]
+
+You push the door closed behind you with the same deliberate calm you learned when storms taught you to move slow and steady. The tang of kelp preserves lingers under the colder metallic tang of the workshop—salty, vinegary, the kind of smell that carries memory. Your fingertips bear a faint smear where you sampled one too many jars while drafting talking points: a map of brine and sugar and the proof that food, like policies, must be tasted before you promise it to people.
+
+You hang your heavy-weather jacket over a chair. The bracelet of recycled polymer beads glints when you gesture; for a heartbeat it catches the light like a small, stubborn lighthouse. You pull a fresh hydrograph down from the roll and press the paper flat against the chalkboard, thumb leaving a salt-dark smudge on the margin.
+
+Marin Solace [You set pins in a straight line, counting tidal nodes in your head. Organization steadies you.]: "All right. If we open with the cost comparison, people will hear money before ecology. I want them to feel the shore first—then the numbers."
+
+Asha [ ]: "Good. Start with the lived line—Elder Mae's photo, the old marsh cross-section, then the drone still of the terraces. Make it visceral." (She taps a sticky note and slides it beneath the chart.) "Then hit them with short, clear numbers. 'Maintenance wages' in bold. No euphemisms."
+
+You step back and look at the spread: hydrographs, annotated cross-sections, hand-drawn isobaths where living shorelines will sit. Your fingers want the clean sweep of ink across the board, but your brain catches on details. Tide variance here. Shoal drift there. You taste lemon and salt in the back of your mouth—leftover from the tart you abandoned in the last meeting—and it steadies you, oddly like a talisman.
+
+[Sound: A notification chime; Raff's face blinks into pixelated life on a wall-mounted tablet. The drone footage plays in short bursts—swirling, architecturally beautiful patterns of terraces like calligraphy across the shoreline.]
+
+Raff [Grinning, breathless with energy]: "These cuts are gold. From above it looks like art. People will eat this with forks if we don't stop them." (He rewinds and points with his finger on the screen.) "See that pattern at 0:14? If you shift the southern array, you reduce stress on the moorings by a measurable amount."
+
+Marin Solace [You laugh, the sound surprising yourself with how light it feels.]: "That's exactly what we need—something that makes people's chests open before their spreadsheets kick in." (You mark the frame with a sticky note.) "Can you run versions with and without the southern shift? Keep them under twenty seconds."
+
+Raff [ ]: "On it. Also—Ben's assistant pinged. He wants to see the permit language by noon. And Lydia Voss's team is touring the levee sites this afternoon. I thought you'd want to know."
+
+You tuck a pen behind your ear and type a fast reply to Ben. The text is careful, the way you taught yourself to be careful in public: precise, non-confrontational, impossible to misread. Permits. Conditions. A timeline you can stand by. You feel Asha's eyes on you as you send it.
+
+Asha [She folds her arms, watching the board.]: "Ben's wording will be cautious. He always is. But you know your line—co-management, maintenance wages, adaptive clauses. Don't let them sand it down."
+
+Marin Solace [You watch the way the morning light slants across her face; pride sits like warmth in your chest.]: "We won't let them. If Ben trims language, we'll push for review clauses. It's safer politically and ethically."
+
+Asha [She cracks a smile.]: "You sound like a lawyer when you're excited. Focus, Marin."
+
+[Interactive Moment: Choice A ("Ask Raff to emphasize human stories in the cut") -> Reaction: "Raff's grin gets bigger. 'Already on the storyboard—Mae's bench and Jonah's dock will be the two anchors.' He shoots you a thumbs-up. You feel the pitch tighten into a human arc." || Choice B ("Ask Raff to prioritize technical clarity for Council") -> Reaction: "Raff's fingers pause over the timeline. 'Okay—I'll make a second edit with overlay metrics and the maintenance schedule. It'll be dry, but Council will eat it.' He leans forward, serious, and you feel the campaign's backbone settle under your ribs."]
+
+[INTERACTION]
+> Choice A: "Ask Raff to emphasize human stories in the cut"
+> Choice B: "Ask Raff to prioritize technical clarity for Council"
+[Outcome A: "Raff's grin gets bigger. 'Already on the storyboard—Mae's bench and Jonah's dock will be the two anchors.' He shoots you a thumbs-up. You feel the pitch tighten into a human arc."]
+[Outcome B: "Raff's fingers pause over the timeline. 'Okay—I'll make a second edit with overlay metrics and the maintenance schedule. It'll be dry, but Council will eat it.' He leans forward, serious, and you feel the campaign's backbone settle under your ribs."]
+[MERGE: The team pivots; both directions feel right because this project has to live in two languages: the language of memory and the language of oversight. Asha's hand finds yours on the edge of the bench in a quick, grounding squeeze.]
+
+You nod at Raff—the choice makes the video team pivot; both directions feel right because this project has to live in two languages: the language of memory and the language of oversight. You let the immediate tug to emphasize stories stay in your throat; Asha's hand finds yours on the edge of the bench in a quick, grounding squeeze.
+
+[Sound: The misting rig at the far bench clicks on with a soft hiss. Small droplets float like a passing sea fog in the cold air.]
+
+You pin a new set of talking points to the board. Each phrase is measured; you trim adjectives with a curator's patience. "Ecological outcomes," "long-term cost savings," "local stewardship," "transparent oversight." You choose verbs that mean work—'maintain,' 'adapt,' 'assess'—not promises.
+
+Marin Solace [You read the handout aloud, listening for where your voice might betray overpromise.]: "—we propose a pilot of three living terraces, anchored at the shoal, monitored quarterly, employing local crews for maintenance and enabling continued access for small-scale fishing." (You look at Asha.) "Short, human. No abstract future-tense."
+
+Asha [ ]: "Don't shy away from the good news. People respond to competence that feels like care." (She taps the line about wages.) "Leave this in."
+
+[Sound: A soft buzz. Your tablet lights up—Ben Rhee's message arrives: a few carefully worded lines about permits, liability language, and a polite question about insurance. The tone is bureaucratic, warm, and slightly hedged.]
+
+Marin Solace [You read Ben's lines twice, tasting the diplomacy in them.]: "He's trying to bridge us and Lydia Voss's timeline. Good. We'll meet him halfway on documentation, and keep the co-management clause non-negotiable."
+
+Asha [ ]: "I'll draft the clause language. Keep it short, enforceable, and with a built-in review period."
+
+You spend the afternoon alternating between drafting the community handout and tweaking the proto-terrace markers in the model bay. Each tray of marsh plugs slides into the misting rig with a careful, satisfying thud. Your hands are damp and cold, but you press each tray in like setting a small promise into place. The mist cools the back of your neck; it smells faintly of peat and fresh water, and you imagine the living roots finding purchase in the shoal, catching sediment like slow, patient teeth.
+
+[Background:"ch2_c4ca42_2"]
+
+[Sound: A knock at the back door. Footsteps. The wind carries the smell of wet rope and sea diesel.]
+
+Jonah Reyes [He walks into the room carrying something small wrapped in oilcloth, the easy grin you know folding across his face.]: "I didn't take long. You looked like you could use a spare cleat and an opinion." (He tucks the oilcloth into the pocket of his vest and opens his sketchbook; inside, a folded strip of paper slides out—hand-drawn contours, a shoal shift annotated in quick, precise strokes.)
+
+Marin Solace [You feel the tired line at the corner of your eyes ease. His laugh creases something in you that isn't tired at all—it's a soft, startled ease.]: "You mapped that? That could change placement for the terraces."
+
+Jonah Reyes [ ]: "Felt like it. The sand's been migrating west since last winter. If you hug the terrace closer to the older breakwater, the current slows and the sediment will settle sooner. Keeps the mooring lines less taut—less wear." (He taps a sketch.) "Also—brought the cleat. Thought you'd want to test retrofit suggestions on the actual bolt pattern."
+
+You and Jonah Reyes stand shoulder to shoulder over the model bay. He points, you adjust, and the conversation folds into intimate technicality: knots, load dispersal, how roots will tangle with rope. It isn't all work; there are soft interruptions—an offhand joke from Jonah about your "obsessive margins," a joke about Raff's editing making everyone a poet for ten seconds. You push and prod at assumptions together, and each push is a small mutual shaping.
+
+Jonah Reyes [He hesitates, then adds.]: "If you want, I can be at the docks early tomorrow. I'll bring the kids who helped me with the scouting—give them a look at real-world tech. Might help with buy-in."
+
+Marin Solace [You consider the image: small hands on rope, faces lit by the soft sun over water. It feels like a fulcrum.]: "That would be perfect. Local faces, local knowledge. We need to show people this is their work, not just our plans."
+
+Jonah Reyes [ ]: "Cool. Also—Raff's footage looked amazing. You're getting good at this, Sal." (He searches your face, then adds quieter.) "You look tired, though. You okay?"
+
+Marin Solace [You feel the tiredness like a lode under a river: present but not all of you. You choose honesty.]: "I'm...holding. Tonight's a long one, but the finishing line is clearer than it was this morning." (You let the words be both confession and rally.)
+
+Jonah Reyes [He nods, setting the cleat on the bench like a small tool consecrated to the work.]: "Good. Let me know if you want someone to run lines with you before the hearing. I can be clumsy with a mic, but I can tell a story about why the sea matters."
+
+[Interactive Moment: Choice A ("Ask Jonah to run lines with you tonight") -> Reaction: "Jonah's face brightens; he folds himself into the conversation with an ease that makes rehearsal feel playful. He reads your opening like a poem, then stumbles and laughs, and you both find a cadence that feels honest." || Choice B ("Save the rehearsal for morning and focus on the handout") -> Reaction: "Jonah nods, understanding. 'Okay—morning then.' He helps you tape the final handout instead, his fingers careful around the paper, and you feel the work settle—less performance, more craft."]
+
+[INTERACTION]
+> Choice A: "Ask Jonah to run lines with you tonight"
+> Choice B: "Save the rehearsal for morning and focus on the handout"
+[Outcome A: "Jonah's face brightens; he folds himself into the conversation with an ease that makes rehearsal feel playful. He reads your opening like a poem, then stumbles and laughs, and you both find a cadence that feels honest."]
+[Outcome B: "Jonah nods, understanding. 'Okay—morning then.' He helps you tape the final handout instead, his fingers careful around the paper, and you feel the work settle—less performance, more craft."]
+[MERGE: Either way, Jonah stays long enough that his presence becomes an additional kind of support: not managerial, not rhetorical, simply solid.]
+
+You choose, and the small rehearsal or the quiet tape-job becomes another stitch in the day's fabric. Either way, Jonah Reyes stays long enough that his presence becomes an additional kind of support: not managerial, not rhetorical, simply solid.
+
+Time thins. The sun flattens into a colder angle. You fit the last tray into the misting rig: a small, careful motion—press, slot, click. The rig exhales and the droplets catch the board light and throw tiny, jewelled reflections across the room. You trace, with a finger from a pen, the route you will take when presenting the prototypes—where you'll pause to point, which anecdote you'll give for each terrace, when you'll defer to fishermen, when you'll call on Elder Mae.
+
+Marin Solace [You feel a rising confidence—that steady warming that starts at the base of your hands when you make something concrete out of worry. For once you sense that applause won't be a test but a form of permission.]: "If we keep the language simple and the stakes visible, they can't mistake our intentions."
+
+Asha [She leans in, folding her arms around the bench. You can see the tiredness in her eyes mirroring yours, but it's daylighted by satisfaction.]: "You did the work, Marin. The rest of tonight is polish. Let the community see themselves in it."
+
+[Sound: A soft chorus of messages pinging as evening settles—Ben's assistant confirming a noon review, a short photo from Elder Mae of a bench at low tide with a note: 'Bring this.'] 
+
+You look around the Saltworks—at the ragged chalkboard, the lined hydrographs, the mug with a lipstick stain, the jar of kelp preserves half-empty—and you feel the rightness of it, like the fitting of a key. Someone else's applause no longer feels like a verdict; it feels like feedback.
+
+You stand for a moment with the chalk in your hand, the board behind you full of work and possibility. The room hums: machines, the fridge in the corner, the soft sound of rain beginning to smear the windows. Outside, lights wink on along the boardwalk. The levee lights far beyond throw a line of small, steady beacons across the wet horizon.
+
+[Background:"ch2_c4ca42_3"]
+
+A little voice in your chest—old fear rephrased—asks whether the town will meet this with the courage it needs. You answer in the only way you know how: with work you can show and words you can file. With a plan you can put in people's hands.
+
+You close the door and breathe, feeling the finality of tonight's prep and the forward pull of tomorrow's hearing. The ready weight of the handout sits in your satchel like a small, heavy promise.
+
+[Music: A gentle, hopeful swell—strings and a single low piano—rises and holds.]
+
+You step outside into the salt night, the town mapped in dim lights and the sound of near waves, and you imagine the first words you will say at the podium: not a demand, but an invitation to protect what everyone has already been saving.
+
+[Background:"ch2_c4ca42_4"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

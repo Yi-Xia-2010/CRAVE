@@ -1,0 +1,302 @@
+label chapter16:
+
+    # [Scene: Back-room Meetings | Night]
+
+    scene bg ch14_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid, strained strings — urgent, taut]
+    # play sound "sfx_placeholder"  # [Sound: The distant rumble of waves; muffled voices through a thin door]
+    "Narration:"
+    "You promised yourself the meeting would be clinical: numbers, allocations, a ledger of concrete work. Instead the room tastes of cigarette smoke and lemon hand-sanitizer; the lamp throws everyone's faces into relief and into accusation at"
+    "once. Dr. Elena Park sits at the head, composed as always, her fingers laced around a slim planner like a talisman. Mayor Hale looks older than he did an hour ago; his jaw moves under the"
+    "thin cuff of his coat. Nyla perches on a folding chair like a wired compass, agitation sparking under her humor."
+    "You lay the outline on the table — line items for dock repairs, emergency haul compensation, discreet contracts for private contractors to fix the small access ramps that big grants would never prioritize. You watch the"
+    "numbers rearrange themselves into the scales you know will balance some households back toward livable."
+    show dr_elena_park at left:
+        zoom 0.7
+
+    dr_elena_park "We'll seed the remediation fund this quarter. You allocate. We move the purchases through our procurement channels. Publicly, this remains a private grant."
+
+    dr_elena_park "We'll seed the remediation fund this quarter. You allocate. We move the purchases through our procurement channels. Publicly, this remains a private grant."
+    "Narration:"
+    "Her voice is soft and precise; an easy cruelty hides in its smoothness. There is no malice, only the economy of outcomes."
+    show maya_serrin at right:
+        zoom 0.7
+
+    maya_serrin "Private, yes. But you understand the terms we discussed — no unilateral decisions about zoning or fishing access without community oversight. No projects that displace people under the radar."
+
+    dr_elena_park "Maya, you asked for latitude to act quickly. My firm needs operational discretion. We can write protections in, but some parts will have to be handled off-cycle. You asked me to be fast."
+    "Narration:"
+    "You feel the room narrow to the space between your words and hers. Fast is a commodity. Integrity is not. You name both."
+
+    maya_serrin "And the visibility? If this goes public later — if someone's ledger leaks — how do we protect the families who depend on this? How do we ensure the money isn't used to leverage broader concessions?"
+
+    dr_elena_park "We craft the narrative for later. For now: repairs, compensation, queue repairs prioritized by need.' (She folds her hands.) 'You keep governance. We provide capital. Quiet now; a story when it's safe."
+    show nyla_torres at center:
+        zoom 0.7
+
+    nyla_torres "You mean hush money."
+    "Mayor Hale: (cutting in) 'Nyla—'"
+
+    nyla_torres "Call it what it is. If this stays secret and people find out they've been saved but their neighbors weren't told the same way—there will be a fracture. There will be questions about who gets to decide who is saved."
+
+    dr_elena_park "And if we wait for perfect visibility, more people die next autumn. Maya: you asked for options that don't collapse under timeframe. This is one."
+    "Narration:"
+    "Your chest tightens. The air feels hot. You can taste salt and the metallic tang of inevitability. Your thumb rubs against the tide-watch in your pocket — brass familiar against skin — and the old grief under your ribs presses like a tide against a cliff."
+
+    maya_serrin "We'll take the fund. We govern the distribution. I will sign confidentiality provisions to the minimum extent needed to make contractors move fast. But —' Your voice hardens. 'No policy concessions without a recorded, community-approved vote."
+    "Narration:"
+    "Dr. Elena Park's jaw loosens, then reforms into consent. It's not a concession so much as an accounting move — one that will be tested when power stakes rise."
+    hide dr_elena_park
+    hide maya_serrin
+    hide nyla_torres
+
+    scene bg ch14_601bcb_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A soft electronic ping — funds in motion]
+    # play music "music_placeholder"  # [Music: A single high chord snapped like a taut wire]
+    "Narration:"
+    "The transfer pings across device screens like a confession. There is relief — immediate, sharp — and then a spreading cold like ink in water. You sign the confidentiality clause. The signature feels smaller than your name should."
+    show dr_elena_park at left:
+        zoom 0.7
+
+    dr_elena_park "We move fast. We do good where it matters. Trust me to keep my engineers in line."
+
+    "Mayor Hale" "Thank you. Saltwood will remember this."
+    "Narration:"
+    "He says it as if gratitude can fill the gaps secrecy opens."
+    "Narration:"
+    "You watch Dr. Elena Park's composed back in the doorway, the way she tilts her head to look at the cliff-line view beyond the glass, and you don't know if she is looking at the town or calculating the optics."
+
+    menu:
+        "Ask Dr. Elena Park for a written guarantee to release the full record publicly after five years":
+            "Dr. Elena Park lifts an eyebrow, the policy wonk appearing for a heartbeat. 'Five years is long for investors. Three, conditional on audits, and you have a deal.' You feel the gap between ideal and possible widen again."
+        "Refuse negotiation on the release timetable — insist on community veto":
+            "Dr. Elena Park's smile thins. 'Insistence risks the whole transfer. You want the funds faster than your politics will allow.' The lamp's light tilts; you swallow, the pressure of a hundred households humming in your throat."
+
+    # --- merge ---
+    "Continue to the next scene as scripted."
+    # [Scene: Tide Research Station | Pre-dawn]
+    hide dr_elena_park
+
+    scene bg ch14_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: Staccato percussion; the tempo accelerates]
+    # play sound "sfx_placeholder"  # [Sound: Radio chatter, the distant slap of waves, a door slamming]
+    "Narration:"
+    "Nyla works like the engine you still can't fully trust to run on goodwill alone. She has a tablet open to a distribution map, satellite overlays, and a list of names. Her hair is damp with"
+    "condensation. The room smells of wet wool and hot sugar — instant coffee burned into goodwill."
+    show nyla_torres at left:
+        zoom 0.7
+
+    nyla_torres "We've coded two distribution tiers. Emergency repairs first: ramps and the two eastern quays. Compensation next for the 17 fishers who recorded catastrophic losses last month. Contractors can be in by dawn if we clear paperwork under the private contract channel."
+    show maya_serrin at right:
+        zoom 0.7
+
+    maya_serrin "Make sure we flag the hauls that are generational—those where a family's right to fish has cultural weight, not just economic. We can't paper over heritage."
+
+    nyla_torres "Flagged. I'm also encrypting the lists. No printouts that could leak. This will be hush. I hate the word hush."
+
+    maya_serrin "We do this so people can feed their kids. We do it because otherwise there's no town left to argue about ethics in."
+    "Narration:"
+    "Nyla pauses, then gives you a half smile that's mostly sorrow."
+
+    nyla_torres "You did what you thought would hurt the least."
+
+    maya_serrin "I did what I could. That doesn't make it clean."
+    "Narration:"
+    "She meets your eyes for a long beat. No answers there you can borrow."
+    # play sound "sfx_placeholder"  # [Sound: A single urgent ring on Nyla's phone; she answers and listens rapidly]
+
+    nyla_torres "Good. They can be at the Quay in forty. Bring patched tarps. No press. Repeat: no press."
+    "Narration:"
+    "The station becomes a choreography of muted panic: mechanics loading crates; Nyla routing messages through community channels disguised as emergency maintenance notices; you stamping envelopes with compensation checks. Each stamp is a small betrayal and a necessary medicine at once."
+
+    menu:
+        "Volunteer to hand-deliver the first envelope yourself":
+            "You tuck a check into the parka pocket and head for the quay. The walk there feels like walking toward a judge. Every face you pass is a possible witness, every back a possible grievance."
+        "Assign Aiden Koa or another local as courier — stay behind to coordinate":
+            "You hand the envelope to a fisher you trust. He nods and disappears into the dark. Remaining at the station, you feel both safer and more removed, the anxious sensation of being an architect of secrecy rather than a bearer of relief."
+
+    # --- merge ---
+    "Continue to the quay scene as scripted."
+    # [Scene: Quay | Dawn]
+    hide nyla_torres
+    hide maya_serrin
+
+    scene bg ch14_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendoing brass and percussion — alarmed but forward-pushing]
+    # play sound "sfx_placeholder"  # [Sound: Hammering, shouted instructions, the crack of waves on pilings]
+    "Narration:"
+    "You arrive at the Quay with a check in your hand and an ache behind your ribs. A cluster of fishers waits, breath visible as smoke in the cold. Old Man Cala stands with his hands"
+    "in his pockets, watching like someone reading a long-grain ledger. Aiden Koa is there — sleeves rolled, the rope coiled across his shoulder — and for a heartbeat you think the night could fall into ordinary"
+    "work."
+    "Narration:"
+    "He moves when he sees you, expression folded up in a way that makes you want to smooth it out and also hate the inevitability of what sits behind it."
+    show aiden_koa at left:
+        zoom 0.7
+
+    aiden_koa "You did it."
+    show maya_serrin at right:
+        zoom 0.7
+
+    maya_serrin "We did what we had to."
+    "Narration:"
+    "Aiden Koa studies the folded paper in your hand as if it might be a lie."
+
+    aiden_koa "Who 'we' is matters."
+
+    maya_serrin "It was Dr. Elena Park's money. My negotiating. Nyla's routing. Mayor's sign-off. This town's ledger — some of it — will be written in another hand for now."
+
+    aiden_koa "So you sold us a little to keep a little. You kept the boats afloat and traded our names for secrecy."
+
+    maya_serrin "I didn't sell anyone out. I bought time. That's not the same thing."
+
+    aiden_koa "Time doesn't come free. It asks for favors. It asks for shadows."
+    "Narration:"
+    "Your throat tightens. You want to say—no, to push the words bluntly into the air—that you did it because you couldn't sleep knowing they'd lose everything. But all you can offer is the check pushing warm against your palm."
+    "Narration:"
+    "You hand the envelope to a woman named Lena whose son's name is on the list. Her hands tremble when she opens it. She looks up at you at once — eyes wet, practical, relieved — and for a beat, relief washes across the quay like sunshine."
+
+    "Lena" "Thank you."
+    "Narration:"
+    "The crew begins to distribute tarps, patch hulls, and the sound of practical work swallows the larger questions for now. The immediate chaos — tarps pinned down, rope coiled, engines coaxed to life — is merciful in its bluntness. Lives are repaired in timber and tar and hands."
+
+    aiden_koa "You should've told people. Even if it would've made things ugly."
+
+    maya_serrin "It would have slowed the repairs. It would've given time for other pressures to win."
+
+    aiden_koa "And what about the pressures that come later? The whispers that one group got help and another didn't? The way that grows teeth?"
+
+    maya_serrin "We'll document everything. We'll build audit trails in the background. We'll try to limit harm."
+
+    aiden_koa "Try. That's a politician's word and an engineer's loophole."
+
+    maya_serrin "I'm not a politician.' Your voice cracks. 'I'm someone who lost a house to a flood and didn't want anyone else to go through that."
+    "Narration:"
+    "He looks at you then, and the expression is complex — part forgiveness, part disappointment, part something like exhaustion."
+
+    aiden_koa "I don't like what you did. But I don't like the alternative either."
+
+    maya_serrin "Neither do I."
+    "Narration:"
+    "The air between you is a ledger: credits and debits of trust. He touches the wooden pendant at his throat, an old nervous motion. You imagine the numbers of the town adding up in the space between you two: saved hauls, patched quays, whispered debts."
+
+    menu:
+        "Tell Aiden Koa everything — the full scope and the firm's expectations":
+            "You speak fast and small, the words tumbling out in a rush: the terms, the confidentiality, Dr. Elena Park's expectation of 'latitude' in other areas. Aiden Koa listens, jaw tight, and when you finish his eyes go far away for a second. 'That's not just help,' he says finally. 'That's leverage.'"
+        "Keep the conversation narrow — focus on the immediate relief and the repair work":
+            "You keep your sentences short. 'We fixed ramps. People can fish. That's what matters now.' He studies you, not satisfied but not erupting either, the cracks in his trust visible but not splintered."
+
+    # --- merge ---
+    "Continue to the community hall scene as scripted."
+    # [Scene: Saltwood Community Hall — Afternoon]
+    hide aiden_koa
+    hide maya_serrin
+
+    scene bg ch14_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: Low, uneasy cello — a mournful undertone]
+    # play sound "sfx_placeholder"  # [Sound: Murmurs, the rustle of paper, a single worried laugh]
+    "Narration:"
+    "Rumors bloom like fungus in damp places. By midday whispers have congealed into threads: Dr. Elena Park's firm, who paid, who was chosen, who wasn't. Some people approach you with gratitude; others with a tremor that"
+    "edges toward accusation. You answer as best you can, balancing truth and the need to protect the distribution process from sabotage."
+
+    "Mayor Hale" "This was the cleanest option politically. People will resent secrecy, but they will also point at the fixed boats. Keep a record. If this becomes a story, you'll need every receipt and every authorization."
+    show maya_serrin at left:
+        zoom 0.7
+
+    maya_serrin "I'm keeping records. Encrypted. Multiple places. I hate that I have to."
+
+    "Mayor Hale" "We all have to do things we hate to keep the town whole sometimes."
+    show nyla_torres at right:
+        zoom 0.7
+
+    nyla_torres "There are folks who say we've been saved by corporate favors. Some are calling it a sellout. People are mad. People are scared. You need to talk to Aiden Koa if you want the co-op to stay together."
+    "Narration:"
+    "You nod, but the nod feels flimsy. You thought the ache would ease after the first repairs. Instead the ache has split into tendrils — worry about future leverage, about the phrase 'quiet acceptance' becoming shorthand for control, about Dr. Elena Park's casual phrase 'latitude' turning into unseen fences."
+    # [Scene: Quay — Evening]
+    hide maya_serrin
+    hide nyla_torres
+
+    scene bg ch14_601bcb_6 at full_bg
+    # play music "music_placeholder"  # [Music: A long, ascending violin line — bittersweet, urgent]
+    # play sound "sfx_placeholder"  # [Sound: The slap of water, distant laughter that doesn't reach for long]
+    "Narration:"
+    "You walk the quay again, the tide-watch heavy and secret in your pocket. The day has given you small mercies: the first repaired ramp stands like a small, stubborn island. The smell of diesel and wet rope is almost domesticated now. People are back on their boats, cautious, practical, alive."
+    "Aiden Koa approaches as the last of the crews tighten a cleat. He doesn't touch you. He stands an arm's length away and looks at the harbor the way someone reads a map of wounds."
+    show aiden_koa at left:
+        zoom 0.7
+
+    aiden_koa "They'll remember the boats. They won't forget the hush."
+    show maya_serrin at right:
+        zoom 0.7
+
+    maya_serrin "I know."
+    "Narration:"
+    "He looks at you, searching perhaps for absolution or for a crack large enough to climb into."
+
+    aiden_koa "I can accept help. You know that. I'm not… forever opposed to the dirty work of survival. But secrecy leaves us brittle. If your signature binds us to future silence — that's what worries me. That's what I can't swallow."
+
+    maya_serrin "I put a clause. Community oversight. Audits. Limits on what can be done with the fund. I tried to build guardrails."
+    "Aiden Koa: (shakes his head) 'Guardrails built by people who won't be here to mind them don't mean much. You built something out of love, Maya. But you also welcomed shadows. Love doesn't cancel the cost.'"
+
+    maya_serrin "I know."
+
+    aiden_koa "We're not the same people we were before tonight. I don't know if we'll be able to bridge that with time or just explain it away."
+
+    maya_serrin "Then we'll keep trying. I will keep trying."
+    "Narration:"
+    "He studies your face like someone trying to place a seam in old wood. He reaches out and brushes his fingers against your forearm — almost a touch, almost a test — then lets his hand fall."
+
+    aiden_koa "Don't make me choose between a town and the way we live in it."
+
+    maya_serrin "I won't make you choose."
+    "Narration:"
+    "He walks away then, and you watch the space his body leaves like a small cartography of what trust needs to heal."
+    # [Scene: Saltwood Cliffs | Night]
+    hide aiden_koa
+    hide maya_serrin
+
+    scene bg ch14_601bcb_7 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano, a low roar beneath — elegiac and unresolved]
+    # play sound "sfx_placeholder"  # [Sound: Wind tearing at grasses, the distant bell buoy chiming]
+    "Narration:"
+    "You stand on the cliffs where the spray tastes of iron and decision. You feel both the solidity of what you have done and the hollow that lives beside it. The fund has patched hulls; families"
+    "will eat a season longer. But secrecy walks these streets now like a second tide — rising in rumor, pulling at attachments."
+    "Narration:"
+    "You lay your thumb on the tide-watch and feel its wornness. Its brass has been against your skin for years, an implausible relic of steadiness. Tonight it feels like a stone thrown into dark water: a ripple that cannot be unmade."
+    "Narration:"
+    "You think of your mother's house and how you promised yourself you'd never ask people to lose things in silence. You think of Dr. Elena Park's precise smile and the way leverage can masquerade as kindness."
+    "You think of Aiden Koa's quiet anger and Nyla's furious competence and Mayor Hale's weary pragmatism."
+    "Narration:"
+    "You have bought the town minutes — and those minutes cost you something you carry like cargo. The knowledge of compromise settles into your bones. The town will mend. But beneath the mending, the whispered debts will run like gulls over harbor water: quick, agitated, impossible to silence."
+    show maya_serrin at left:
+        zoom 0.7
+
+    maya_serrin "We did the best we could, with the pieces we were dealt."
+    "Narration:"
+    "The wind takes your words and scatters them over the water. The tide keeps moving. Boats bob, lights go on, and people sleep with the uneasy comfort of meals in their bellies and questions at the edges of their dreaming."
+    "Narration:"
+    "There is relief, immediate and palpable. There is also a rawness that will endure — quarrels, whispered debts, a fractured trust that will require years of patient reparations not just in timber but in honesty. The"
+    "romance you hoped might anchor possibility — the simple faith between you and Aiden Koa — is not destroyed, but it is dented. It will need work, apologies, and time. The town will survive in part"
+    "because of your hands and in part despite the things you signed away."
+    "Narration:"
+    "You close your fingers around the tide-watch. The brass is cool and indifferent. The ocean roars below, relentless and unconcerned. You are both relieved and ragged, a person who saved people and sold silence to do"
+    "it. You can live with that contradiction — you suspect many others will have to learn to live with it too."
+    "Narration:"
+    "You step back from the cliff edge and for a moment consider the ledger of choices behind you and ahead of you. There will be audits. There will be secrets unearthed and apologies that are too"
+    "late. There will also be mornings when boats launch and children run on repaired planks and Old Man Cala tells another story that stitches a little of the town back together."
+    "Narration:"
+    "You breathe in the salt and let the weight of the day settle into your bones. You do not feel triumphant. You feel burdened and resolute."
+    hide maya_serrin
+
+    scene bg ch14_601bcb_8 at full_bg
+    # play music "music_placeholder"  # [Music: A final, low unresolved chord]
+    # play sound "sfx_placeholder"  # [Sound: The distant bell buoy rings once more]
+    "Narration:"
+    "You will sleep and then wake and do it all again. The secret fund did what it was meant to: it kept people afloat. But the cost is a story that will be told in halves"
+    "and whispers. You carry the full story alone for now — the brunt of the compromise, the sleeplessness, the small moments of mercy and guilt."
+    "Narration:"
+    "You look back toward the town, toward the lamps growing dimmer as the night deepens, and neither forgiveness nor condemnation arrives. Only the tide, forever moving, indifferent and faithful both."
+
+    scene bg ch14_601bcb_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

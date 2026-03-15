@@ -1,0 +1,129 @@
+label chapter14:
+
+    # [Scene: Corporate Seawall Construction Site | Overcast Afternoon]
+
+    scene bg ch10_e30d59_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The steady thrum of diesel generators, distant crane groans, fine spray hissing as waves splice concrete]
+    # play music "music_placeholder"  # [Music: Tense, driving strings — a brisk ostinato that quickens the pulse]
+    "You walk into the site with the salt still in your hair and the trefoil beneath your skin. You accepted Camila 'Kai' Navarro's invitation because the choice to come felt like moving: toward conversation, toward possible"
+    "shelter. Now the reality of the place presses at you — cold steel, spoken schedules, and a smell of wet metal that tastes like inevitability."
+
+    scene bg ch10_e30d59_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A data tablet chirps; someone outside calls coordinates over a radio]
+    # play music "music_placeholder"  # [Music: Strings swell briefly then settle into a taut, hopeful chord]
+    "Camila 'Kai' Navarro is already there. She stands by the projection, spine straight, slate neoprene jacket uncreased as if she stepped out of a brochure instead of onto a wind-lashed site. Her platinum bob is a"
+    "line; her eyes are steel-gray and fixed on the models. When she looks up, there is a careful, measured smile — not warmth granted, but offered as a choice."
+
+    "Camila 'Kai' Navarro" "You made it. Thank you for coming."
+    show maya_corvin at left:
+        zoom 0.7
+
+    maya_corvin "I didn't want this to be one more press release, Kai. I came because this affects real people. So talk to me straight."
+    "Camila 'Kai' Navarro studies you for a full heartbeat, the room shrinking around that look, then turns to the table and taps the projected model. Waves of light fan over an engineered section of coast: shaded bands where concrete meets planted corridors."
+    hide maya_corvin
+
+    scene bg ch10_e30d59_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft click of Camila 'Kai' Navarro's pen on the table edge]
+    # play music "music_placeholder"  # [Music: A higher string line threads in — urgent, expectant]
+
+    "Camila 'Kai' Navarro" "What I'm proposing is a hybrid. A seawall where necessary, but with living corridors—continuous wetland ribbons woven into the structure. They slow wave energy, host biodiversity, and allow for community access. The catch is operational: these corridors need guaranteed maintenance funding. Without it, the living elements fail and become liabilities. The firm's legal team insists on a performance clause: if maintenance thresholds aren't met, we reserve the right to modify or remove living elements to keep structural integrity."
+    "You feel the word reserve press against your ribs — 'remove' like a small, surgical amputation. The technical language is a net: precise, efficient, and edged with conditionality. Hope blooms in your chest anyway — because"
+    "the plan includes wetlands, because 'living corridors' is the language you've used in meetings for years."
+    show maya_corvin at left:
+        zoom 0.7
+
+    maya_corvin "Performance clauses can be safeguards. They can also be escape hatches. What guarantees do we have that 'maintenance thresholds' won't become a bureaucratic axe?"
+    "Camila 'Kai' Navarro's jaw tightens, and for a moment her posture flicks from corporate polish to something humanly fierce."
+
+    "Camila 'Kai' Navarro" "We can set verifiable metrics. Independent sensors, jointly audited logs, escrowed maintenance funds triggered by objective readings. We can build accountability into the contract."
+    "She leans in, and the proximity changes the air — it's no longer just data between you. It's intent."
+
+    menu:
+        "Ask for the monitoring specs now":
+            "You reach for the tablet and swipe a finger across the projection. 'Show me the sensors — how they report, who reads them, who holds the escrow.' Your voice is clipped; the urgency is practical. Camila 'Kai' Navarro responds with a quick, precise list: sensor types, data streams, a proposed third-party auditor, and a timeline for deployment."
+        "Pause and name the people it protects":
+            "You close your eyes for a second and let the image of Mrs. Ortega's rooftop tomatoes fill the room. 'Name the people protected by this clause—name the gardeners, the fishermen, Lio's murals.' The question pulls Camila 'Kai' Navarro's eyes to you in a different way; she answers not with specs but with a line of small, human details: school runs, market stalls, the rooftop nursery's schedule. Her voice softens, and the numbers on the board feel less abstract."
+
+    # --- merge ---
+    "Return to main narrative"
+    "You choose both without choosing, because the meeting needs both the hard and the human. Camila 'Kai' Navarro provides the technical specs with brisk competence and the human notes with an almost reluctant tenderness."
+    "Elias Kahn's tablet buzzes on the table. He steps into the doorway — trench coat damp at the hem, clipboard in hand — and his presence shifts the room. He has come in person; the municipal badge at his collar is a reminder that compromise lives in committees and signatures."
+    show elias_kahn at right:
+        zoom 0.7
+
+    elias_kahn "Maya. Camila.' (He offers a tired, cautious smile. His eyes flick to the projection, then to you.) 'I read the briefing. Municipal co-ownership of monitoring is the only way to ensure local oversight. If the firm holds sole integration rights, we risk corporate capture of the narrative — and the tech."
+    "You feel the tautness between them: Camila 'Kai' Navarro's efficiency vs. Elias Kahn's procedural caution; both are trying to keep the same shore intact. The tension is hot and electric."
+
+    "Camila 'Kai' Navarro" "Co-ownership complicates procurement. It delays deployment. We have windowed windows — storms scheduled in the forecasts that won't wait for perfect governance. We can fast-track protective measures, temporary bulwarks and modular breakwaters, while the monitoring framework is finalized."
+
+    elias_kahn "Temporary constructs become permanent if there's no binding maintenance. Fast-track without joint enforcement is allowing the city to outsource both risk and responsibility."
+    "The argument is not antagonistic in style — it is the collision of two urgent logics. You feel your pulse in your throat; the strings in the music tighten."
+
+    maya_corvin "I'm not asking for perfection. I'm asking for a rollback clause on integration rights if oversight isn't mutually controlled. If maintenance funds are in escrow and the municipality has a seat on the audit panel, then temporary measures could actually protect homes and buy us time."
+    "Camila 'Kai' Navarro studies you, and in that look there is a calculation that includes more than the models. She uncovers a small thing: a porcelain pendant tucked inside her jacket, almost hidden against the neoprene. For the first time, a seam opens in her armor."
+
+    "Camila 'Kai' Navarro (a whisper)" "This was my grandmother's. She kept it through floods I barely remember. I don't wear it to be softer. I wear it because I wanted to be sure I remember what I'm building for."
+    "The pendant is small, pale, and flickers like a private lighthouse. The admission is quick, almost embarrassed; it humanizes the decisive steel of her voice."
+    "The pendant is a small, bright proof that she has a lineage here — that beneath her firm's letterhead is a memory of loss and care. It changes nothing about the clause, and everything about how you look at her."
+    # play music "music_placeholder"  # [Music: A high, hopeful chord pieces through the earlier tension — strings pacing upward rapidly; the rhythm quickens]
+    # play sound "sfx_placeholder"  # [Sound: Distant thunder like a drum-roll; somewhere outside, workers shout coordinates as the wind picks up]
+
+    "Camila 'Kai' Navarro" "Listen. We can do both. Immediate protective modules — inflatable, anchored barriers and modular berms — deployed within seventy-two hours. They will not be a final solution, but they will protect critical nodes: the clinic, the nursery, the Old Promenade access points. In parallel, we put monitoring systems online with open APIs, a legally binding municipal co-ownership of node data, and an escrowed maintenance account published to a public registry. The firm will request integration rights to optimize system performance — drone-based sediment management, adaptive valve control — but only under a staged release tied to transparent audits."
+    "She lays out the timeline as if reading off a map carved into her hands. Each phrase is fast, efficient — a litany of deliverables."
+    "Elias Kahn's jaw clenches. He leans forward, voice low and urgent."
+
+    elias_kahn "Integration rights are where influence is captured. 'Optimization' becomes gatekeeping. We need legal guarantors: a municipal veto on major changes, community representatives on the audit board, and a sunset clause on unilateral control."
+
+    "Camila 'Kai' Navarro" "A veto risks paralysis. A sunset clause risks abandonment. We need choreography — a staged authority transfer contingent on performance, not a blunt veto."
+    "The room vibrates with the necessity of motion. The models glow; the chord in the music rises. Your chest feels tight, but not with despair — with pressure that tastes like possibility."
+
+    maya_corvin "So — temporary protective modules now. Co-owned monitoring data and escrowed maintenance funds. Integration rights staged, contingent on audits and public registry. And community representation on the audit board. Is that it?"
+
+    "Camila 'Kai' Navarro (a small, almost reluctant nod)" "Yes. With the caveat that 'contingent' must be backed by enforceable metrics. No fuzzy language. Objective thresholds. Third-party auditors."
+
+    "Elias Kahn (soft, urgent)" "And legal language that prevents us from being outmaneuvered when budgets tighten."
+    "Camila 'Kai' Navarro places a slim, corporate contract on the table. The paper smells faintly of ink and policy. The lines of print are clinical and clean, but Camila 'Kai' Navarro's finger traces a paragraph and taps it."
+
+    "Camila 'Kai' Navarro" "Temporary protective deployment is our bargaining chip. We can deploy within days if you sign an intent to the staged integration pathway. It is not a full contract. It is a commitment to the process. It buys you shelter and us the data we need to justify long-term integration."
+    "You feel the room tilt toward a decision point. The music surges — high, insistent — then holds on a single note as machinery outside accelerates. Your mind runs through the practicalities: canvasses to notify neighbors,"
+    "Lio's mural plans, Rafi's roster of volunteers who could help anchor the modular barriers. You think of the Old Promenade's tilted benches and the way the community sings at vigils. You think of the pendant cradled"
+    "like a tiny beacon at Camila 'Kai' Navarro's throat."
+
+    menu:
+        "Ask for a public signing ceremony":
+            "You suggest a public signing, in front of the community and the press. 'Let people see us agree in public.' Elias Kahn's eyes bob with approval; Camila 'Kai' Navarro pinches the bridge of her nose, calculating the optics versus the need for speed. She murmurs, 'Publicity complicates rapid deployment, but it could force accountability.' The idea settles into the room like salt."
+        "Demand immediate escrow details before any commitment":
+            "You press for numbers — who holds the escrow, the audit schedule, the release triggers. Camila 'Kai' Navarro slides a preliminary escrow outline across the table; Elias Kahn begins annotating with legal caveats. The air is electric with negotiation; paperwork becomes the scaffolding for trust."
+
+    # --- merge ---
+    "Return to main narrative"
+    "You feel the arousal in your body climb — not panic, but a high, focused pressure. This is what movement feels like: a sprint without losing precision."
+    "Camila 'Kai' Navarro's face is a study in compromise. She is decisive and quick, and in her calculations there is room for an unexpected human calculus. She looks at you, really looks, as if trying to read whether you'll break or bargain."
+
+    "Camila 'Kai' Navarro" "I can authorize the temporary deployables. They will help keep folks dry and the clinic functional. In exchange, we request staged technical integration rights to manage adaptive elements. We'll accept municipal co-ownership language in the monitoring clause and a public registry for maintenance escrow, verified by a third-party auditor. But the staged release depends on transparent, published performance reports."
+    "Her voice is steady. Her offer is both a bridge and a hinge."
+    "Elias Kahn exhales, a sound that carries fatigue and something like relief."
+
+    elias_kahn "This could work — if the binding language is ironclad and the community has teeth in the audit board. Otherwise, it's a fast-track that leaves the city holding the long-term bill."
+    "You stand at the edge of a choice that could realign the city's coastline — and your chest is a drumbeat. Every concession feels like a small victory and a potential future wound. The music reaches"
+    "its highest, most insistent thread yet; the spray outside whitecaps against the scaffolding like a metronome counting down."
+    "You are torn between the impulse to seize immediate protection for your neighbors and the need to lock governance so that the living corridors do not become a promise scavenged by shifting budgets. You know how"
+    "fast promises can erode in committee lobbies and budget hearings. You also know what a clinic without flood protection looks like."
+    "Camila 'Kai' Navarro watches you, waiting. Elias Kahn stands beside you, clipboard ready, eyes pleading for vigilance. The pendant at Camila 'Kai' Navarro's throat gleams faintly — an unspoken testament that portals of power and pockets of memory can, sometimes, occupy the same body."
+    "The offer hangs in the air like a rope thrown across a storm-riven gap: temporary rapid protection now, integration rights staged and contingent — but still integration rights."
+    hide maya_corvin
+    hide elias_kahn
+
+    scene bg ch10_e30d59_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single held chord — taut and luminous]
+    "You have to decide whether to trust Camila 'Kai' Navarro's guarantees, to push for municipal co-ownership of monitoring, or to walk away and keep only grassroots pressure. The tide outside is relentless, and so is the"
+    "clock. Your heartbeat matches the site's machinery; the whole room seems to hold its breath with you."
+    # [Page-Turn Moment]
+    "You picture the rooftop nursery and the clinic, the Old Promenade's tilted benches and Lio's mural-streaked hands. You imagine the temporary barriers humming in wind and rain, buying time for seedlings to establish roots in living"
+    "corridors. You imagine contract language that either locks in accountability or opens a doorway to erosion. For a breath you let yourself imagine a future where urgent protection and community sovereignty are not enemies but partners."
+
+    scene bg ch10_e30d59_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter16
+    return

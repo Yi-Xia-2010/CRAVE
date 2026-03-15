@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-03-10 23:38:02",
+  "total_chapters": 15,
+  "total_valid_routes": 6,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Route C — Alternate Ending: True/Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending: Bittersweet/Sad",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route B — Alternate Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route A — Alternate Ending: Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt & Compass",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Greenwave Morning",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Town Hall Storm",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Public Stand",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Sacrifices on the Boardwalk",
+      "branch": "Route A / Split",
+      "children_ids": [
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Burned Nets",
+      "branch": "Route A — Ending: Sad",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Closed Door",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Quiet Accounting",
+      "branch": "Route B / Split",
+      "children_ids": [
+        14,
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Fortified Lines",
+      "branch": "Route B — Ending: Bittersweet/Sad",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Kelp & Conscience",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Scales & Seams",
+      "branch": "Route C / Split",
+      "children_ids": [
+        12,
+        15
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Drowned Promises",
+      "branch": "Route C — Ending: Sad",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Negotiated Shorelines",
+      "branch": "Route A — Alternate Ending: Bittersweet",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Exposed Ledger",
+      "branch": "Route B — Alternate Ending: Sad",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "The Compromise Charter",
+      "branch": "Route C — Alternate Ending: True/Bittersweet",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

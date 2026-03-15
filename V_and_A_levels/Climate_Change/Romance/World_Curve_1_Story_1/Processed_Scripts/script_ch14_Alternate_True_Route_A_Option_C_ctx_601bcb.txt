@@ -1,0 +1,194 @@
+### SCRIPT
+# Route: Alternate True/Route A Option C
+# Context: 601bcb
+
+[Scene: Courthouse Press Steps | Dawn]
+[Background:"ch14_601bcb_1"]
+[Sound: Shutter clicks, murmured questions, the low hum of generators powering live feeds]
+[Music: Driving strings, a rapid heartbeat percussion — urgent, forward]
+
+You stand with Amaya at your shoulder, damp notebook folded into your palm like a talisman. The air tastes of brine and paper and adrenaline; your scarf is still damp from the marsh last night. Around you the city folds itself into a single pointed moment — microphones lean, lights bloom, and someone calls your name like an invitation.
+
+Amaya's eyes are steady and fierce; she moves like someone who has placed truth onto a stage and lit the fuse. In her hand is a sheaf of printouts — the internal models you did not expect the world to see today. Leaked, copied, verified by the journalist Amaya trusted. The paper edges are wet from hurried printing and the ocean air; they glitter like evidence and like reckoning.
+
+Amaya: "They're live on the feed in thirty seconds. You ready to say anything, or do you want me to lead?"
+
+Maya Reyes: "Let you lead. I'll follow if it gets us a hearing."
+
+Amaya nods, and the cameras lean in, like the city itself is holding its breath.
+
+[Background:"ch14_601bcb_2"]
+[Sound: A reporter's voice resolves into clarity over the crowd]
+
+Reporter: "Maya Reyes, you authorized this leak? Did you intend to force a public hearing?"
+
+Amaya steps forward, voice cycling between calm and blade-sharp clarity.
+
+Amaya: "We authorized the release of models that show projected contamination zones and underestimated pollution sinks tied to the Duval method. We released them because people's homes and livelihoods are at stake. We did it because the public deserves to know what the company knew and hid."
+
+Reporter: "Camille Duval's office calls these allegations 'selective excerpts.' Camille will respond shortly. Ms. Reyes—"
+
+[INTERACTION]
+> Choice A: "Step up and speak—own it"
+> Choice B: "Let Amaya take the lead"
+[Outcome A: "You move forward, lift your chin, and speak into the sea of lenses. 'We did this because our neighbors deserve to see the truth,' you say, and your words land like stones. The cameras find your face; a hundred strangers' eyes are suddenly mapped onto your heartbeat."]
+[Outcome B: "You stay behind Amaya, hands loosely gripping the notebook. She names the facts, the timelines, the data; your presence beside her is the testimony itself. The reporters write 'community models corroborated' in the margins, and the leak becomes undeniable."]
+[MERGE: You feel the city tilt. Whether you stepped forward or let Amaya hold the microphone, the effect is the same: a live feed cuts to a rolling infographic — maps, hot zones, red overlays creeping like spilled ink. The muffled sound of a newsroom swells into your bones.]
+
+[Scene: Televised Forum — City Hall Auditorium | Midday]
+[Background:"ch14_601bcb_3"]
+[Sound: Collective intake of breath; a moderator's gavel strikes twice]
+[Music: Brass and strings clash into a high, insistent chord — the highest pitch of the morning; electricity]
+
+You sit in the second row; Elias Stone takes the seat next to you without asking. His fingers are restless on a folded set of plans — not the glossy corporate renderings but his sketches of living shorelines, marsh terraces, and community piers. He tucks one into his pocket as a quiet offering.
+
+Elias Stone [softly]: "If they spin, remember the models. We have Professor Hale's annotations. When it goes live, be precise. Don't give Camille Duval easy turns."
+
+Maya Reyes: "You can do it. You know how to call her on the numbers."
+
+Elias Stone: "And you know how to call her on the consequences."
+
+The moderator opens the forum. Cameras record every inhale and exhale. Camille Duval takes the podium with that lacquered ease she wears like armor. Her suit catches the lights; her voice is practiced, every sentence a compact argument.
+
+Camille Duval: "I will not argue with theatrics. Our designs are peer-reviewed by multiple firms. We will provide jobs, reclaimed land, protection—"
+
+A reporter throws a clip across the stage — the leaked models animated, trajectories marching across the city's shorelines. The auditorium shudders; some mouths open in silent alarm. Camille Duval's expression fissures for a fraction of a second — not outrage this time, calculation.
+
+Camille Duval [cool]: "These documents are taken out of context. Our projections consider remediation and staged deployment. Accusations from unnamed sources are not substitutes for peer-reviewed policy."
+
+Elias Stone stands before she can finish, voice steadier than you expect, and the room reorients.
+
+Elias Stone: "Ms. Duval, those models do not just indicate risk under a worst-case deployment. They show systemic underestimation of pollutant sinks and cumulative inundation. You omitted sediment transport in a way that incorrectly models dispersal into neighborhood estuaries."
+
+Camille Duval [a thin smile]: "Mr. Stone, with respect, your revision oversimplifies complex mitigations."
+
+Elias Stone: "No, it clarifies them. And the community has data you did not want in front of policymakers."
+
+The exchange is a spark in dry brush. The moderator tries to contain it, but the viewers are already in motion — public comments flood in, phone calls into city offices spike, and the newsroom banners shift from "allegations" to "investigation." The live feed cuts to Mayor Sofía Álvarez in her office, surrounded by advisors and maps.
+
+Mayor Álvarez [on camera; measured, tired]: "Effective immediately, I am ordering a pause on all final permits for the Duval Reclamation Project pending independent review. We will open an inquiry and ensure community evidence is considered."
+
+The crowd erupted around you — a sound like wind across grass. Some cheer, some cry, some sit with stunned relief. Your chest feels enormous and hollow at once.
+
+[Sound: Mobile alerts ping — investors pull back, a market segment scroll shows 'Duval Holdings: -18%'.]
+[Background:"ch14_601bcb_4"]
+
+Camille Duval [quiet, to the moderator but audible]: "This is not the end. We will litigate. We will present new analyses. I will ensure my project adapts."
+
+Elias Stone catches your eye; there is a look there that says both triumph and premonition. The win is immediate — the city has stopped the permits — but the fight is far from over.
+
+[INTERACTION]
+> Choice A: "Rush to the courthouse to testify in person"
+> Choice B: "Go to the marsh—document the living proof"
+[Outcome A: "You push through the crowd, adrenaline high, thinking testimony now might harden the inquiry. Amaya slips a hand into yours as you pass, grounding and fierce. The courthouse doors are stamped with the city seal and the day feels like a hinge."]
+[Outcome B: "You and Elias slip away from the cameras to the marsh. You take photographs, measure, collect fresh samples with trembling hands. The tide is generous; the reeds bow like witnesses. You breathe salt and data into the same catalog, knowing both will be needed."]
+[MERGE: [Scene: City Hall — Emergency Committee Room | Afternoon]
+[Background:"ch14_601bcb_5"]
+[Sound: Low, earnest voices; the scratch of pens across notepaper]
+[Music: A decisive rhythmic motif — tense but forward-moving]
+
+Mayor Álvarez presides with Professor Hale and community representatives, Amaya in a jacket dusted with salt and city grime. Lito is there too, quiet and blunt-eyed. You watch as legal protections are drafted on the spot: community stewardship clauses, seed funding for living-shore pilot programs, clauses that secure tenant protections from immediate displacement.
+
+Mayor Álvarez: "We cannot un-do the damage of past storms. But we can protect who is left. The committee approves preliminary legal protections for community-led stewardship and allocates an emergency seed fund to support the living-shore pilots pending the inquiry."
+
+The room exhales. Professor Hale, hands trembling with age and relief, places a folder on the table that feels like a small crown.
+
+Professor Hale: "This is what science done with people looks like. Not a monument, but a system that breathes."
+
+Amaya leans in, voice fierce with exhaustion and triumph.
+
+Amaya: "This is your win, Maya. We proved the models and the stakes. People listened."
+
+You close your eyes for a moment — the magnitude of it washing through you like a high tide. Legal bindings, a fund, and a pause on the project's machinery — this is consequence made into protection.]
+
+[Scene: Duval Reclamation Tower — Boardroom | Late Afternoon]
+[Background:"ch14_601bcb_6"]
+[Sound: Quiet, methodical typing; the click of precise shoes on marble]
+[Music: Low cello — stern, reformulating]
+
+Camille Duval meets with her advisors. Her tone is tight but not broken. She is not a caricature of malice; she is a strategist who believes in a different kind of hard answer.
+
+Camille Duval: "We retool. We present revised permits, we commission new models that incorporate community data and our remediation schedule, and we lobby. This is business, and business adapts."
+
+Advisor: "Publicly, we can pivot to more inclusive language. Privately, we maintain our core design specs. We'll stress economic stability."
+
+Camille Duval [a small, unreadable softening]: "We must be faster. And we must be smarter about how we bring people along, even if they resist."
+
+There is a moment — a flash — where you almost see a version of her that could have been an ally if paths had turned differently. Then the meeting resumes, and the room shifts back into plans and metrics.
+
+[Scene: Rooftop Greenhouse Lab | Dusk]
+[Background:"ch14_601bcb_7"]
+[Sound: Distant horns, the quiet drip of irrigation, two people breathing]
+[Music: Strings soften but remain urgent — hopeful, full-bodied]
+
+Elias Stone sits opposite you on a weathered bench, the soil scent of the greenhouse wrapping around both of you like a memory. He has a call on his phone that lit up his face with blue — a national adaptation institute, offering a pilot program, a chance to scale his work.
+
+Elias Stone [rubbing his thumb along a sketch]: "They want me to lead a national pilot. Funded, staff assigned. It's… everything we've talked about — real impact at scale."
+
+You trace the edge of a tray with your finger. Pride and the ache of impending distance bloom in your chest at the same time.
+
+Maya Reyes: "They want to take you away."
+
+Elias Stone [measured]: "They want me to try. I told them I could split my time — keep helping here while they mobilize resources that could make our designs a standard. But that was my hopeful answer, not their practical one."
+
+Your silence says what both your voices could not: that promises to split time thin can fray into absence.
+
+Elias Stone [leaning forward, earnest]: "Maya, I want to do this and I want to be with you. I don't want to leave the marsh alone. But I can't pretend the choice isn't huge. If I go, I could protect other towns the way we're protecting ours. Isn't that worth trying?"
+
+Maya Reyes: "It is worth trying. But it's also worth being honest about how much trying can cost."
+
+Elias Stone reaches across, fingers resting against your wrist — a small, unflinching pressure.
+
+Elias Stone: "What do you want me to do?"
+
+[INTERACTION]
+> Choice A: "Ask him to stay—refuse the national offer"
+> Choice B: "Tell him to go—let him take the opportunity"
+> Choice C: "Ask for time—negotiate a plan"
+[Outcome A: "You say it plainly: 'I need you here.' His face falters; the offer is gold. He hesitates between ambition and loyalty. There is love in the plea and the knowledge it might not be fair."]
+[Outcome B: "You force back a smile and say, 'Go. Bring what you learn back to us.' He swallows, gratitude and grief stomping each other in his throat. He promises to return when he can, knowing both of you will keep growing."]
+[Outcome C: "You take a breath and say, 'Give me a plan. Not promises — a schedule. Visits, check-ins, defined roles.' Elias nods, the engineer in him brightening at the structure, but the weight of distance still hums beneath."]
+[MERGE: Elias listens to whatever answer you give with an intensity that makes the greenhouse feel like its own world. He does not argue; he honours the honesty. Later, in the marshlight, you both find a way forward that is neither perfect nor empty: an agreement to try, to be practical and gentle, to name the risks aloud. It is a compromise shaped by care.]
+
+[Scene: Tidal Fringe Marsh — Nightfall]
+[Background:"ch14_601bcb_8"]
+[Sound: Lapping water, distant laughter, the call of a night bird]
+[Music: A warm, rising motif — triumphant but tender, layered strings and a single voice.]
+
+The legal protections stick; the seed fund is announced and matched by small donors and a surprised foundation. The Duval project recasts itself, teeth grinding against new regulations and public scrutiny. Camille Duval keeps fighting — in legal filings, in lobbying rooms beyond the reach of the public voice — but the city has shifted. The marsh has a legal backbone now; people have time and resources to plant roots again.
+
+You walk the boardwalk hand in hand with Elias Stone, neither of you pretending this is a victory without scars. Lito stoops to untangle a net nearby, offering a dry joke about the tide finally taking a coffee break. Amaya texts you a photo of the front-page headline, then a selfie with protestors, then a meeting invitation. The threads of your community buzz like a repaired net catching light.
+
+Elias Stone [soft]: "This — this is why I do the work."
+
+Maya Reyes [breathes out a laugh]: "And this is why I keep showing up."
+
+There is no dramatic cinematic kiss at the end of your story. Instead there is the kind of parting that honors both the person and the purpose: a long embrace that tastes of salt and plans, hands lingering as if measuring the future by the lines on each other's palms. Elias will leave for longer stints. He will return, sometimes, with new sketches and tired eyes. Sometimes he will be a voice across a call at two in the morning, translating a funding meeting into a plan that fits your marsh like a glove. Sometimes absence will press up against both of you like a tide — but it will not be cruel. It will be negotiated, named, and carried.
+
+You stand at the water's edge and look back at the boardwalk, at the warm scatter of lights where neighbors talk and plot and plant. The legal protections mean the city will no longer sign a permit without community review. The seed fund is a promise with teeth. You have a platform now — invitations to teach, to run clinics for other communities, to spread the quiet, exact work of stewardship beyond your block.
+
+Maya Reyes [thought]: "We did not win because one person was right. We won because we made the problem impossible to ignore."
+
+The victory tastes of salt and coffee and late-night stitches. There are losses braided in: the cost of the fight to the body, the friendships frayed and mended, the exhaustion in Amaya's laugh. Camille Duval's battle is not over; neither is your work. But the immediate future is different from the past: legal breathing space, funding, and the slow steady application of care.
+
+[Background:"ch14_601bcb_9"]
+[Sound: The night is full of small, honest sounds—reeds, water, voices carried on the wind]
+[Music: Final chord swells — triumphant, warm, sustained]
+
+You tuck your notebook into your jacket and rest your hand on the pendant at your throat—the green bead winked by the moon. It is a small thing, older than the fight and newer than the victory. It reminds you who you are and what you owe.
+
+You walk back toward the community lights, Elias Stone at your side, and a city that has learned to listen follows — slow at first, then with a cadence that feels like a future finally learning how to keep its promises.
+
+[Music: Fade to a lingering, hopeful motif]
+[Background:"ch14_601bcb_10"]
+
+[Background:"ch14_601bcb_11"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

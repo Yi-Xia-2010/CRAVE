@@ -1,0 +1,202 @@
+label chapter1:
+
+    # [Scene: Harbor's Reach | Late Afternoon]
+
+    scene bg ch1_Start_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, mournful strings; a distant, steady pulse like trudging tide]
+    # play sound "sfx_placeholder"  # [Sound: Gulls wheel and cry; a low mechanical hum from a distant crane; boards creak underfoot]
+    "You step off the bus with your bag heavier than you remember and the air already tasting of salt and old storms. Harbor's Reach looks the same and wrong — the same clapboard faces tilted to"
+    "the water, bunting frayed at the edges; wrong because the water has risen its claim a little more. Dark tide lines run higher up pilings and against the baseboards of businesses that used to be dry"
+    "at this hour. You notice the salt-scorched paint where nothing brushed before and the way the cobbles hold a sheen you used to think only storms brought."
+    "Your multi-sensor band records a soft uptick in humidity; you don't need the readout. You know the score by smell and sight: brine, seaweed, the acrid tang of diesel from the machines working the headland. Somewhere"
+    "above the harbor, a banner flaps: AZURE CRESCENT — RESTORE AND REBUILD. Corporate teal on tar-black cloth, the letters enormous and confident where the headland has been cleared. It cuts across the skyline like a promise"
+    "and a threat at once."
+    "You run a thumb over your coral pendant, feeling the familiar worn groove. The town breathes around you — market calls, the clack of a boat hull on its cradle, a child's laugh — and under"
+    "that there is a low political hum. People are talking about work, about survival. You can feel the math of it in your chest: mouths to feed, bills climbed with the tide."
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Ropes whispering, boards creaking, a tinny radio from a distant skiff playing an old sea shanty]
+    "You move toward the dock. Aster rocks quietly where she always has, a patched little honesty of a skiff with jars on her bench and a coil of rope that smells like home. You feel the"
+    "grain of wet wood through your boots and taste the salt that always clings to Harbor's Reach."
+    "A voice calls your name — low and familiar, threaded with an ease you haven't heard in a while."
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "Well, look who finally decided to show up. Thought you were going to let the place drown without you."
+    "His grin is half-accusation, half-relief."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Not that kind of abandonment, Eli."
+    "You step closer; there's a distance between you both that hasn't been measured yet. 'I had to make sure I'd be coming back to something worth fighting for.'"
+    "Elias 'Eli' Calder: (He studies you, tucking a strand of sun-bleached hair behind his ear, boat-smudged hands folding into each other.) 'You always pick the dramatic lines. Did you bring papers? Plans? A miracle?'"
+    "His amber eyes are warm but guarded; he looks at the harbor first, as if listening for which way it will decide to lean."
+
+    mara_voss "I've got plans — and data. Enough to start the conversation. Not a miracle."
+    "You shrug, but your fingers tighten around your waterproof notebook. 'And you? How's the boatyard been holding up?'"
+
+    elias_eli_calder "Old Tomas's crew's been patching more than usual. Winters are getting meaner. Jobs thin, though."
+    "He gives a short, humorless laugh. 'You know the mayor's been getting calls. Cassandra \'Cass\' Rey's people have banners in every vacant lot. The headland's a mess of survey flags and those floodlights they like to use for theater.'"
+    "You watch as his jaw tightens. There's an old protector in him — hands used to wood and rope, not contracts and renderings. You want to reach out and smooth the tension from his face. You"
+    "also remember that last storm, the faces in the gallery of flood photos he'd shown you, the way he refuses to let statistics stand between him and the people he loves."
+
+    menu:
+        "Reach for his arm":
+            "Your fingers close on his forearm, rough with work. He doesn't pull away right away; his eyes flick to yours and something softens — gratitude, or surrender — before he clears his throat and says, 'We need you, Mara.'"
+        "Keep your hands to yourself":
+            "You fold your arms instead, keeping the tide of your emotions contained. He reads the restraint and lets out a slow breath. 'Alright,' he says, practical again. 'Let's figure out where to start.'"
+
+    # --- merge ---
+    "Continue narrative."
+    "Elias 'Eli' Calder: (He nods slowly, letting whatever you did settle.) 'Listen, the town's frayed. People want jobs. They want safe houses and predictable tides. Cass promises all of that. Mayor Rosa is... she's nervous. I don't blame her.'"
+
+    mara_voss "Promises don't hold against a storm."
+    "You can't stop the bitterness. You look toward the headland where Azure Crescent's flags puncture the skyline like nails. 'But I also know the people who say 'we can't wait' when the marsh could be saved by time and a different kind of work.'"
+
+    elias_eli_calder "So what — we build living stones? Plant reeds and wait for the economy to catch up?"
+    "He lets out that tired sound again: half-joke, half-anger. 'My uncle's not a patient man for experiments. A paycheck next week is a promise you can eat.'"
+
+    mara_voss "It's not waiting. It's work. It's training, building sea-friendly docks, mussel farms, marsh technicians. It's not immediate like a new boardwalk, but it doesn't erode the thing everyone needs to keep fishing."
+    "Elias 'Eli' Calder: (He looks at you, really looks. The harbor's light catches those little teal flecks in your eyes.) 'It has to do both,' he says finally. 'Otherwise people will be hungry while we prove you're right. That's the fault line here, Mara.'"
+    "His words land like a plank across a widening gap. You hear the town's history in them — generations that learned to read the water by hand, not by models. You also hear your own impatience:"
+    "the scientist in you wants tests, timelines, controlled trials; the daughter wants her home to exist for the kid who will one day stand on these docks."
+    # [Scene: Marketplace | Late Afternoon]
+    hide elias_eli_calder
+    hide mara_voss
+
+    scene bg ch1_Start_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Market chatter, a cart rolling, a child's small feet splashing in a shallow gutter]
+    "You and Elias 'Eli' Calder thread through the marketplace. Stalls are a patchwork of resilience — freshly painted signboards advertising raised-bed produce beside shutters nailed up. Nia is a flare of motion before you see her:"
+    "bright yellow raincoat, paint on her knees, a grin so wide it fights with worry lines around her eyes."
+    show nia_voss at left:
+        zoom 0.7
+
+    nia_voss "Mara!"
+    "She launches at you, hugs so quick and tenacious you feel every one of her bones. 'You smell like home and bus coffee. You're back. Are you really back for good?'"
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "I came back to help."
+    "Your voice is steadier than your pulse. 'For as long as they let me.'"
+    "Nia: (She pulls back, hands on her hips, eyes scanning you like a friend and a judge.) 'We fixed the window at the bakery. It's boarded, sure, but folks are trying. I've been teaching the kids"
+    "tide times — their parents couldn't make it. If you're going to be here, we need plans that don't sound like bedtime stories.'"
+
+    mara_voss "You and me both."
+    "You catch the way she says 'we' and it swells your chest with responsibility and fear."
+
+    nia_voss "Eli told me Cassandra \'Cass\' Rey has the mayor eating out of her hand. Are you going to speak at the hall?"
+    "There's a bluntness to Nia that you cherish; she doesn't let fear dress itself up as caution."
+
+    mara_voss "I have something to say."
+    "But up close, hearing the market breathe and the faint thump of machinery down on the headland, you feel the shape of the crowd, the weight of expectation."
+
+    menu:
+        "Show Nia your notebook now":
+            "You flip to the first page where your sketches and field notes fold into one another. Nia's eyebrows rise. 'Ooh,' she says. 'This looks important.'"
+        "Save it for the meeting":
+            "You slide the notebook deeper into your bag. 'At the hall,' you tell her, firmness in your voice. She nods but you see the disappointment flicker away like a gull on wing."
+
+    # --- merge ---
+    "Continue narrative."
+    "Your chest is tight as you think of Mayor Rosa — a woman you respect, tired from juggling grant applications and re-election realities. You think of Cassandra 'Cass' Rey: sleek, effective, the kind of person who"
+    "can make a promise feel like inevitability. You want to meet her eyes and see the cracks in that certainty."
+    # [Scene: Headland Overlook | Dusk]
+    hide nia_voss
+    hide mara_voss
+
+    scene bg ch1_Start_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant rumble of heavy machinery, a rhythmic thump like a heartbeat in the distance]
+    "You climb the headland path for a better view. The shoreline's scraped bones are open now: concrete pylons, survey markers, and the outline of an engineered sea wall cutting across the light. Floodlights stand like lighthouses gone wrong, harsh and clinical."
+    "From here you can see the town's geography like a map you used to draw as a child: the marsh's slow network of channels, the arc of the harbor, the places that have always been sacred"
+    "and the places that have been traded away. The Azure Crescent banners look small from far up, but their influence stretches."
+    "Cassandra 'Cass' Rey appears out of the shadow of a portable office — impeccable coat flapping and an organized storm of aides. She is speaking into a microphone, leaning into the public address offered to her. Her voice carries across the scrub: poised, persuasive."
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "We are not here to erase history. We are here to protect families. A new sea wall, expanded parking for boats — jobs that pay now. Harbor's Reach deserves safety you can count on."
+    "She smiles, measured."
+    "You: (Your first reaction is a tide of cold; there is something about her certainty that smooths away complication.) You notice the polished cuff on her wrist, the way she makes a plan look inevitable. 'She sounds like she means it,' you think, tasting the steel of resolve."
+    "Elias 'Eli' Calder: (Next to you, his jaw flexes.) 'She makes safety sound like brick and steel. Doesn't sound like any of our nets.'"
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "She's selling urgency."
+    "You feel the word like a small stone in your hand. 'And urgency isn't always right. Sometimes it's loud because it needs to drown out doubt.'"
+    show nia_voss at center:
+        zoom 0.7
+
+    nia_voss "People will vote for whoever promises work that pays today."
+    "Her voice is flat; you can hear the bargaining in it — hope versus survival."
+    "Mayor Rosa emerges from the meeting room, coat collar up against the wind. Her face is a ledger of decisions — measured, tired, attentive. She pauses midway between the headland and the parking lot; eyes moving from the banner to Cassandra 'Cass' Rey to the town below."
+    hide cassandra_cass_rey
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "Ms. Rey, thank you for coming."
+    "Her tone is careful."
+    "Cassandra 'Cass' Rey: (She inclines her head with the practiced smile of someone who maps outcomes in her sleep.) 'Mayor, with your leadership and our plan, we can deliver that future faster than anyone expects.'"
+    "Mara Voss: (You step forward before you can stop yourself.) 'Speed doesn't have to mean erasure.'"
+    "Your voice is steadier than you feel. 'A wall that severs the marsh's pulse will rob this place of its regenerative pathways. Short-term jobs that leave the ground ruined are not safety.'"
+    "Cassandra 'Cass' Rey: (Her smile doesn't change; only her eyes narrow, quick and bright.) 'Ms. Voss, you bring passion. Passion is useful. But the people here also need incomes. We have to think of people's day-to-day needs now.'"
+
+    mara_voss "And we should think of them fifty years from now."
+    "You reach for evidence without revealing every method in your head — you can't promise solutions you haven't yet proven in public. 'There are hybrid options. Living shorelines can create jobs — for builders, for technicians, for fishers who adapt. It's not either-or.'"
+    hide mara_voss
+    show cassandra_cass_rey at right:
+        zoom 0.7
+
+    cassandra_cass_rey "Hybrid sounds like hedging. People want certainty."
+    "She takes a breath that smells faintly of travel coffee and polished metal. 'They want to know they'll have roofs this winter. They don't want to be guinea pigs.'"
+    "Mayor Rosa: (Her hands twist at the lapels of her coat.) 'We need proposals. Data. A timeline. Ms. Voss, will you present your plan at tonight's town meeting?'"
+    "Mara Voss: (The question lands like surf on stone.) Present? Public? The thought of standing in that hall, with faces you know split between hope and hunger, fills your mouth with sand. You think of your"
+    "notebook, of the mockups and the fieldwork you can do, and of Elias 'Eli' Calder's patient hands."
+    hide nia_voss
+    show mara_voss at center:
+        zoom 0.7
+
+    mara_voss "Yes."
+    "The single word feels like a promise and a threat. 'I'll talk. I'll bring what I can — the core of it.'"
+
+    menu:
+        "Ask Mayor Rosa for more time":
+            "You step closer to Mayor Rosa, voice low. 'If I could have a week to bring preliminary field data—' She nods, weighing political calendars and public pressure. 'I'll see what I can do,' she says, not committing, but not closing the door either."
+        "Tell Cassandra Rey you'll debate her directly tonight":
+            "You square your shoulders and meet Cassandra \'Cass\' Rey's gaze. 'Then we'll debate it tonight.' She smiles with a predator's grace. 'I welcome the scrutiny,' she replies, and the air between you becomes sharp with attention."
+
+    # --- merge ---
+    "Continue narrative."
+    "The headland seems to tilt under you; the sky grows a colder bruise, and the floodlights on the cleared site flare up, cutting harsh halos into the dusk. The town below begins to gather — a ragged audience to a fight they did not expect but cannot avoid."
+    "You feel the strain of responsibility settle into your bones: the ledger of people who count on work now and on ecological memory later. Your throat tightens at the balance you might have to strike, at"
+    "the compromise you might not be willing to make. Elias 'Eli' Calder's hand finds yours for a second — a silent pledge that whatever happens, you will not be alone."
+    hide mayor_rosa_alvarez
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "We'll walk into that hall together."
+    "His voice is low, certain. 'No theatrics,' he adds with a half-smile that means he knows you'll do what you must."
+
+    mara_voss "Together."
+    "You repeat it, but your mind is already racing through the lists of data, the field samples you need, the stories you will have to tell to make the science feel like a hand reaching back instead of a lectern pushing them away."
+    # [Scene: Town Hall Exterior | Dusk to Early Evening]
+    hide cassandra_cass_rey
+    hide mara_voss
+    hide elias_eli_calder
+
+    scene bg ch1_Start_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs of a growing crowd, the distant slap of a door against its frame, footsteps that quicken as the meeting time approaches]
+    "You descend toward the building. The town is a pulse — people amassing like low tide lines, some with signs, some with resumes, some with faces like questions. Cassandra 'Cass' Rey's aides arrange a small podium"
+    "and a microphone. A few of your old classmates are in the crowd; an aunt you haven't seen in years stands with a folded list of community repairs."
+    "Inside, the fluorescent lights buzz. The dais waits, a worn wooden thing with a microphone that sounds like authority and judgment all at once. You feel the weight of every eye that might rest on you this evening."
+    "You catch a final breath, the air metallic with expectation. There is so much to say, so much you mustn't promise. You think of the marsh — of seedlings in the mud, of eelgrass lifting and"
+    "falling like breath — and you speak its name in your head like a prayer."
+    "You step toward the door, the hall's threshold a thin line between what has been argued in small conversations and what will be judged in public."
+    "You pause there, the murmur of the crowd seeping through the wood. You can still hear Cassandra 'Cass' Rey's practiced cadence and Mayor Rosa's measured diplomacy. Outside, Elias 'Eli' Calder's hand squeezes yours once more."
+    "You feel the room tilt into a future that is either held together or torn at the seams. The floodlights on the headland mark the place where choices will be decided; the banner's letters hover like a verdict."
+    "You step inside."
+    "The door closes behind you with a sound that carries the weight of the town's history. You taste brine, fear, and the iron tang of responsibility on your tongue, and you find yourself ready — or as ready as anyone can be when everything meaningful is on the line."
+
+    scene bg ch1_Start_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

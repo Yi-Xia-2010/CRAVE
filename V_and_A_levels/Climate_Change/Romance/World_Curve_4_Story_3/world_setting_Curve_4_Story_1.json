@@ -1,0 +1,121 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where environmental crisis forces characters to confront values, responsibilities, and intimacy under pressure. The core conflict pits immediate human needs and economic pressures against long-term ecological stewardship and community memory. Romance provides the emotional throughline: relationships become microcosms of trust, compromise, and sacrifice. The narrative will fold personal choices into public consequences — love scenes happen beside tidal defenses, negotiations, and restoration projects — so the emotional stakes naturally amplify the environmental stakes.",
+    "setting": "Near-future coastal town of Marabel, once a sleepy fishing community now besieged by rising tides and intensifying storms. The town sits between reclaimed marshes, a wavering promenade of wooden pilings, and a newly-built corporate resilience hub. Daily life mixes patchwork defenses, community gardens on raised platforms, and visible scars where development met the sea. Atmosphere is intimate and weathered: salt-smoke mornings, heavy summer skies, and neon-lit storm-warning nights.",
+    "visual_style": "Semi-realistic painterly anime, muted coastal palette, overcast lighting, wet surfaces, warm human closeups, environmental detail (moss, rust, tidal pools), cinematic depth-of-field",
+    "main_characters": [
+        {
+            "name": "Asha Moreno",
+            "role": "Protagonist",
+            "personality": "Driven, empathetic, quietly stubborn; thinks in systems but feels with people. Tends to shoulder responsibility, seeks practical solutions, struggles to ask for help. Has an activist streak tempered by scientific rigor.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with sun-bleached tips, usually pulled into a low messy bun with stray tendrils framing her face",
+                "eyes": "Warm hazel with flecks of green, rounded and observant; faint crow's feet when she smiles",
+                "clothing": "Functional coastal workwear: weathered olive field jacket with salt stains, high-waisted jeans rolled above rubber boots, layered knit sweaters in ocean blues; often has a ledger or tablet tucked under her arm",
+                "accessories": "A battered brass compass on a fraying cord (family heirloom), a silicone band with community garden coordinates, and a pair of noise-cancelling headphones she uses to think"
+            },
+            "goal": "To design and implement a community-led tidal adaptation plan that preserves Marabel's homes and identity without selling the town to corporate developers.",
+            "background_story": "Grew up in Marabel; left to study coastal engineering and climate science, returned when projections showed accelerating coastline loss. Her father was a fisherman whose small boat was lost to an early storm, which anchors her commitment to protecting neighbors.",
+            "emotional_trait": "Strength: practical compassion — she organizes and comforts. Flaw: guilt-driven overwork leading to brittle defenses in relationships."
+        },
+        {
+            "name": "Noah Reyes",
+            "role": "Love Interest / Community Planner",
+            "personality": "Warm, pragmatic, tactically optimistic. Good at reading rooms and finding compromise. A natural mediator who values human connection and storytelling.",
+            "appearance_features": {
+                "hair": "Dark curly hair, short at the sides with longer soft curls on top that he often pushes back with a hand",
+                "eyes": "Deep brown, slightly hooded; a gentle, direct gaze",
+                "clothing": "Layered casual: faded graphic tees under a weatherproof pea coat, practical cargo trousers, well-worn leather sneakers; often carries a rolled-up map or community flyers",
+                "accessories": "A simple silver ring he wears on a necklace (he keeps it because he's not ready to put it on his finger), a battered sketchbook filled with plans and community scribbles"
+            },
+            "goal": "To keep Marabel's community cohesive while securing funding and political support for resilience projects — ideally without selling core assets to outsiders.",
+            "background_story": "Local planner who stayed rather than leaving for city work. Former volunteer lifeguard; lost a sister's apartment in a flood and now channels that loss into civic work. He and Asha have an easy history and an undercurrent of unspoken possibilities.",
+            "emotional_trait": "Strength: empathetic connector — he can build alliances. Flaw: fear of confrontation makes him sometimes prioritize consensus over bold action."
+        },
+        {
+            "name": "Lila Park",
+            "role": "Antagonist / Complicated Ally",
+            "personality": "Charismatic, ambitious, media-savvy; intellectually sharp and persuasive. Operates with a 'results first' ethic and believes technological fixes can outpace ecological decline. Not purely villainous — genuinely believes she's saving the town in the only scalable way.",
+            "appearance_features": {
+                "hair": "Jet black, sleek bob cut with an asymmetrical fringe; impeccably styled even in wind and rain",
+                "eyes": "Steel-gray, almond-shaped; direct and assessing",
+                "clothing": "Tailored, modern outerwear in slate and white; high-tech breathable fabrics, signature ankle boots with subtle metallic accents. Carries a clear, corporate-grade tablet.",
+                "accessories": "A minimalist smart cuff that monitors tide and sensor feeds, a polished ID badge from the resilience consortium, and a small lapel pin shaped like a wave"
+            },
+            "goal": "To implement a visible, high-tech resilience project (sensor network, engineered sea wall and floating districts) that will position her company as the leader in climate adaptation and attract investment — even if it means consolidating property and altering the town's social fabric.",
+            "background_story": "Raised in a nearby metropolis, rose through a tech-resilience firm by blending engineering and PR. She sees Marabel as a model site where quick, fundable interventions prove scalable. Her past includes a family displaced by a catastrophe, which fuels her urgency for large-scale solutions.",
+            "emotional_trait": "Strength: decisive and visionary. Flaw: emotional distance — suppresses small human costs in favor of system-level wins."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mayor Rosa Alvarez",
+            "relation_to_main": "Town mayor and political counterpart to Asha",
+            "appearance_summary": "Middle-aged, warm brown skin, silver-streaked braided hair, practical business-casual attire with a floral scarf",
+            "function_in_story": "Balancing act between residents' needs and political pressures; pivotal in approving or denying Lila's proposals."
+        },
+        {
+            "name": "Eli Duarte",
+            "relation_to_main": "Childhood friend of Asha and local boat-builder",
+            "appearance_summary": "Sun-leathered skin, salt-streaked blond hair in a topknot, muscular arms, always with wood shavings on his jacket",
+            "function_in_story": "Grounds the community’s memory of old Marabel; provides practical craft and a voice urging cultural preservation."
+        },
+        {
+            "name": "Marta Chen",
+            "relation_to_main": "Noah's neighbor and organizer of the raised community gardens",
+            "appearance_summary": "Short, energetic, cropped silver hair, gardening overalls stained with soil and bright rubber gloves",
+            "function_in_story": "Represents grassroots resilience; a moral compass for community-first approaches and a rallying figure for residents."
+        },
+        {
+            "name": "Caleb Osei",
+            "relation_to_main": "Junior engineer under Lila, conflicted ally",
+            "appearance_summary": "Lean, nervous energy, wire-rimmed glasses, often in company-branded field gear",
+            "function_in_story": "Embodies internal conflict inside the corporate project; provides leaks, technical insight, and a chance for reconciliation or betrayal."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marabel Promenade",
+            "visual_description": "A long wooden boardwalk battered by salt and wind, evening light turning puddles to burnished silver. Weathered lampposts flicker during storm warnings. Background shows rows of clapboard houses on stilts, laundry snapping in gusts, and distant turbines. Atmosphere: humid, nostalgic, with gull cries and the smell of brine."
+        },
+        {
+            "name": "Tidewatch Lab",
+            "visual_description": "Low-slung concrete and glass laboratory perched on a raised berm. Interior lighting is cool and clinical with screens streaming tidal models; exterior has slick concrete steps streaked with algae. Overcast daylight pools on instrument racks, cables snaking like vines. Smell of ozone and damp charts hung to dry."
+        },
+        {
+            "name": "Floating Market & Raised Gardens",
+            "visual_description": "A patchwork of raised plots and buoyant platforms where vendors sell seafood and salted fruits. Bright awnings (papaya orange, teal) flutter above rusted metal planters; strings of solar lanterns glow at dusk. Wet wood, warm conversation, and steam from street food create a cozy defiant mood against the sea's threat."
+        },
+        {
+            "name": "Lila Park's Resilience Hub (The Beacon)",
+            "visual_description": "A glass-and-steel tower with clean lines and reflective panels, lit internally with cool white LEDs. At night it emits a soft halo, sensors blinking like eyes. The plaza at its base is paved with engineered stone and features an interactive tide model; landscaping uses engineered salt-tolerant flora. The structure feels imposing and efficient under grey skies."
+        },
+        {
+            "name": "The Old Boatyard",
+            "visual_description": "A clustered yard of half-repaired hulls, ropes, and hand-lettered signs. Afternoon sun filters through patched sails, highlighting sawdust motes. Puddles mirror the sky and rusted cranes lean like sleeping beasts. It is earthy, tactile, and strong with the memory of labor."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love and Moral Compromise"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Asha, Noah, and the town forge a hybrid adaptation: community-led tidal marsh restoration combined with scaled-down, locally governed technologies brokered through revised terms with Lila's firm. Marabel retains its character, most homes are saved, and Asha and Noah begin a committed partnership built on mutual respect and shared leadership."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The town accepts Lila's comprehensive project to secure immediate safety but at the cost of selling communal waterfront property and reshaping Marabel's social landscape. Some longtime residents leave. Asha distances herself but remains to oversee community programs; she and Noah part with affection, recognizing different sacrifices each must make."
+        },
+        {
+            "type": "True",
+            "summary": "After a severe storm that exposes flaws in both grassroots and corporate plans, Marabel fractures temporarily. Asha chooses to prioritize an experimental natural restoration that may fail but aligns with her values. The outcome is uncertain: some infrastructure is lost, but a resilient community network remains, and Asha's relationship with Noah evolves into a quieter, honest partnership that accepts hard trade-offs. The ending emphasizes moral integrity over tidy resolution."
+        },
+        {
+            "type": "Sad",
+            "summary": "The corporate solution is implemented without meaningful local oversight. While property is preserved physically, many residents are displaced by rising costs and privatized amenities. Asha leaves town disillusioned; her relationship with Noah collapses under the weight of compromise. Marabel becomes a model of technological adaptation but loses its heart."
+        }
+    ],
+    "estimated_chapters": 6
+}

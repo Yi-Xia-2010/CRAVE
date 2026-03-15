@@ -1,0 +1,187 @@
+### SCRIPT
+# Route: Final Epilogue (Convergent True Ending)
+# Context: f99e88
+
+[Scene: The Beacon | Late Afternoon — the day after the vote]
+[Visual: Warm light through the Beacon's high windows catches salt-smeared glass. Whiteboards are crowded with ink and sticky notes. A folding table holds coffee urns, paper forms, and a stack of newly stamped community bond certificates.]
+[Music: Bright, rising piano motif — steady, hopeful]
+[Sound: Low hum of the building's sensors, the occasional scraping of a chair; outside, gulls call and a distant hammer thumps as volunteers repair a railing.]
+
+You walk back into the Beacon with the weight in your pocket now lighter and oddly different — smaller, like a stone set in a pocket you can feel but that doesn't drag. The vote passed: narrowly, by a margin that tastes sharp and celebratory at once. The town has agreed to a community bond. Funds will go to retrofits, a phased mangrove corridor, and a modest seawall. It's not everything; it's more than nothing.
+
+Rosa: "Look at this place. You should've seen the queue at the bakery this morning — people signing pledge forms with one hand and holding cinnamon buns in the other."
+Rosa [laughs, then softens]: "You did this, you know. We did."
+
+You walk back into the Beacon with the weight in your pocket now lighter and oddly different — smaller, like a stone set in a pocket you can feel but that doesn't drag. The vote passed: narrowly, by a margin that tastes sharp and celebratory at once. The town has agreed to a community bond. Funds will go to retrofits, a phased mangrove corridor, and a modest seawall. It's not everything; it's more than nothing.
+
+Rosa's cap is bright against her flour-dusted apron. The scent of warm sugar and sea salt presses at the back of your throat like a memory of better mornings. She hands you a paper cup; it steams in your hands. Her smile is steady, the kind that stitches neighborhoods into neighborhoods.
+
+[INTERACTION]
+> Choice A: "Take the cup and drink"
+> Choice B: "Tuck the cup away and go straight to the whiteboard"
+[Outcome A: "You lift the cup to your lips. The coffee is too strong and perfect; for a moment your chest lightens and a laugh slips out of you. Rosa's eyes crinkle with relief."]
+[Outcome B: "You fold the cup into your jacket and move to the whiteboard. The room leans toward your plans; people have questions waiting like small, eager waves."]
+[MERGE: Continue to the planning conversation with Elias 'Eli' Navarro.]
+
+Elias 'Eli' Navarro: "We should schedule the pilot for the modular foundation next week. Hal cleared his tinker shed; he'll help with the first frame."
+Elias 'Eli' Navarro [rubs a thumb along the edge of a printed schematic]: "If we keep materials local and labor cooperative, we keep money flowing in-town."
+
+Amara Vale: "And the loan committee — Rosa, Miriam, and me — will fast-track applications for the small businesses that need stabilizing grants. We can't let the retrofit money become a lottery."
+
+Elias 'Eli' Navarro: "Agreed. And—"
+Elias 'Eli' Navarro [hesitates, searching the room]: "—we'll keep the prototype open-source. Anyone can inspect the design, suggest changes. No secrets."
+
+Elias 'Eli' Navarro's hands are work-worn, the calluses mapping years of lifting and measuring. He speaks with the quiet precision of someone who trusts calculations but knows how numbers sit inside people's lives. There's a thread of something softer in his voice when he mentions "open-source" — not idealism for its own sake, but a literal safety net for the town.
+
+Hal: "Remember to build in recall paths. Governance isn't just paper. It's who shows up when the first foundation pops a seam."
+Hal [shuffles his feet, voice low and a little tremulous]: "We teach the apprentices, we document, and we make sure the knowledge lives here."
+
+Amara Vale: "We will. We put training hours into the bond. We teach more than how to hammer; we teach maintenance and monitoring, too."
+
+Hal: "Good. Passing the bond is one night. Keeping Seabright afloat every season — that's the work."
+
+Hal's sweater smells faintly of oil and mended sails. He moves like someone who learned patience in storms. His words settle like a plank tightened across an opening. The bond is victory and beginning both.
+
+Marco Voss [from the doorway, voice smooth]: "Congratulations, Amara. A narrow win, but a win."
+Marco Voss [gives a small, practice smile; his eyes linger with a calculation you can't, and shouldn't, fully read]
+
+Marco Voss's suit is slightly damp at the shoulders from the drizzle outside. He extends a hand in a gesture that should be simple; the air around it has the familiar grit of negotiation. His presence is a reminder: the town's decisions will ripple into the corridors he moves in.
+
+Amara Vale: "Marco."
+Amara Vale [you keep your tone measured]: "This space is for the town. If you have an interest in contributing, you come through the committee."
+
+Marco Voss: "Of course."
+Marco Voss [inclines his head]: "You'd do well to remember — funding scales outcomes. When people have projects that need speed and scale, we can move."
+
+Amara Vale: "We moved tonight."
+
+Marco Voss [his smile shifts, a little admixture of concession and assessment]: "Yes. And I can appreciate that. My team will watch the pilot. We'll be quiet."
+Marco Voss [the word lands oddly — a promise, a warning; his expression is complex]
+
+You notice how the Beacon's light pools around his shoes, how his words sit differently than they might have a year ago. Marco's tone is, as ever, persuasive. You file it under "watch and verify" rather than trust.
+
+Rosa: "Enough strategizing. Come on — we have to get these loan forms laminated. The bakery's on the clock."
+
+You laugh, and the sound threads into the room like a rope. Hope pulls taut in small, practical things: laminated forms, taught apprentices, the first saplings for a mangrove corridor staked in thanks and stubbornness.
+
+[Scene: Old Harbor | Early Evening — site visits]
+[Visual: Narrow alleys saturated in post-drizzle light; sandbags still line low thresholds. Shop awnings drip and shimmer. Volunteers move trailers with wrapped insulation and plywood. A small whiteboard propped outside a closed antique shop reads "Coop Retrofit: Apply Here".]
+[Sound: The slap of boots on wet cobbles, the soft thrum of a generator, voices calling instructions; gulls wheel against a thinning sky.]
+[Music: Gentle strings with an ascending motif — patient and tender]
+
+You walk the Old Harbor with Elias 'Eli' Navarro at your side, clipboard in hand. The retrofit list is long: shop thresholds raised, electricals elevated, storm doors fitted. Some proprietors lean into the work; others worry about the cost even with cooperative loans. The air smells of wet tar and frying oil from a nearby stall where someone grills fish for volunteers.
+
+Shopkeeper [tight-lipped]: "The loan helps, but what about when the tide keeps creeping higher? These plates won't hold forever."
+
+Amara Vale: "We're pairing retrofits with the mangrove phases. The cordon will slow surge and give us time to implement more structural defenses. This is phase one — safety now, strategy for later."
+
+Shopkeeper: "We just can't close for a month. My rent — my family's rent — it's counted weekly."
+
+Elias 'Eli' Navarro: "We'll schedule work nights and quick shifts. We can stage the retrofits so shops stay open. We've budgeted for temporary bracing. Rosa's cooperative fund will float payroll if needed."
+
+Your words measure hope into timetables. Some owners relax; others keep faces drawn. Not all wounds heal the same way. You file their worried faces into the ledger of what adaptation must include: not merely structures, but livelihoods.
+
+Old Man Tor [from a stoop, voice like wind through nets]: "When I was a boy, we braided line from sea-silk and called the harbor ours. We didn't think to move the sea; we learned the songs to go with it. Now you weave another kind of rope."
+
+Amara Vale: "What song should we sing, Tor?"
+
+Old Man Tor [eyes clear, slow smile]: "One that remembers which houses to carry forward and which to bless for their service. You don't let go without ceremony."
+
+He hands you a small carved buoy — worn wood, a painted blue stripe rubbed thin. You cradle it, feeling pores and old paint. It's a talisman, or memory, or both. The harbor's history presses itself into the present, not as myth but as a ledger of choices that will be counted in salt years.
+
+[INTERACTION]
+> Choice A: "Tie the buoy to your notebook"
+> Choice B: "Return it to Tor and ask for a blessing"
+[Outcome A: "You loop the cord around your field notebook and tuck it into your bag. It feels oddly steady there, as if the town has pressed its confidence into your pocket."]
+[Outcome B: "You hand the buoy back. Tor's fingers close around it like a benediction; his smile deepens and some private light flickers in his eyes."]
+[MERGE: Continue walking the harbor with Elias 'Eli' Navarro.]
+
+You move on to a corner where scaffolding frames a shopfront. Volunteers hand up boards; a painter coats a newly elevated sill. Each raised step, each tightened bolt, is a small promise against a large uncertainty. The bond money hums through these tiny actions like new current.
+
+Rosa [calling from the next block]: "We've routed the first cooperative loans! Two bakeries, a bait shop, Old Man Jenkins' repair. They're nervous, but they're onboard."
+
+Amara Vale: "Thank Rosa for her roster. We'll need more — we must be deliberate about who qualifies for emergency bridge funding."
+
+Rosa: "Deliberate, but fast. People have to eat while we do the things that keep the sea from eating them."
+
+The evening is a patchwork of practical kindness. Where money meets need imperfectly, people mend with one another.
+
+[Scene: Modular Foundation Workshop | Night — first pilot assembly]
+[Visual: A repurposed boathouse, light spilling from windows. The frame of a modular foundation sits on workstands: pre-fabricated segments of composite material, bolted connectors, labeled parts. Hal's tools line a wall like a familiar constellation.]
+[Sound: Metal clinks, the hiss of a heat gun, Hal's soft humming. Outside, waves lap with a persistent, distant rhythm.]
+[Music: Warm cello underpinning with a hopeful, ascending counterpoint]
+
+The pilot assembly feels reverent and practical all at once. A crowd has gathered: volunteers, curious neighbors, a few skeptical council members, and the camera of a local journalist blinking red. The modular pieces fit together like a mechanical promise.
+
+Elias 'Eli' Navarro [hands steady]: "We test for buoyancy, stress, and real-world settling. Hal, will you run the first load test?"
+
+Hal [tapping a gauge]: "Set her up. We'll watch for micro-stress. The model's conservative; conservative survives."
+
+You watch Elias 'Eli' Navarro socket a connector into place with the precision of someone who loves the logic of how things hold. His shoulders soften when he looks up at you — not spoken, just a brief shift, an offering of trust. There's a current between you that is more work than romance and more care than mere friendship. It grounds you.
+
+Elias 'Eli' Navarro: "If we get the geometry right, we can reduce material costs by twenty percent. That means more retrofits for the same bond."
+
+Amara Vale: "And if the community learns the assembly, then repair is local. That's the point: money stays in the town and knowledge stays in the town."
+
+Elias 'Eli' Navarro: "Exactly."
+Elias 'Eli' Navarro [smiles, then grows serious]: "I don't want to promise more than we can do. But — I'm proud of what we built."
+
+Pride is a low and rooted thing in Elias 'Eli' Navarro. It looks like callused palms and late nights measuring tolerances. You feel a flare of warmth hearing him speak — for the town and, quietly, for the collaboration between you.
+
+Marco Voss [appearing at the doorway, less formal than in the Beacon, sleeves rolled]: "Impressive work."
+Marco Voss [steps inside with the deliberate gait of someone assessing value]: "If this scales, it's a template. Investors will lounge waiting to fund the next phase..."
+
+Amara Vale [cutting gently]: "This is a cooperative design. If investors want to help, they come through the town's structures."
+
+Marco Voss [a little smile, an unreadable look]: "And the town will decide its own terms. Of course. I'm happy to wait."
+
+His tone is warmer than it was in the Beacon, but the edge hasn't disappeared. He watches the pieces click together and nods with a calculation that you accept without surrender. You're not naive; you're hopeful and watchful.
+
+Hal [placing a hand on the frame]: "Okay — HER weight, please."
+
+Sound: The gauge ticks upward; a flurry of quiet conversation. Then, a collective exhale as the load holds.
+
+Elias 'Eli' Navarro: (exhales) "Good. Now for settlement testing. We'll simulate a storm cycle in the sensors."
+
+You stand close enough to feel the workshop's warmth on your cheek. Outside, the sea murmurs, patient and indifferent. Inside, people who love this place have come together to make a difference that is tangible and immediate.
+
+Rosa [leaning in, grinning]: "Should I prep a banner for the launch? 'Cooperative Harbor' — sounds good, doesn't it?"
+
+Amara Vale [soft laugh]: "It does. It sounds like work and a promise."
+
+Rosa: "Exactly. Also — pastry. Always pastry at launches."
+
+The room fills with a small, eager comedy of competence and tenderness. The pilot will not save everything. The seawall is modest. Projects will stall; some shops will struggle despite loans. But here, tonight, you hold a prototype that translates community will into bolts and beams.
+
+[INTERACTION]
+> Choice A: "Stand at the workbench and help tighten bolts"
+> Choice B: "Step back and take notes for the community report"
+[Outcome A: "You pick up a ratchet and find the rhythm of the work. Each turn feels like a sentence in a long conversation with the town."]
+[Outcome B: "You open your field notebook and start logging details: torque, names of volunteers, concerns raised. Your notes feel like maps for others to follow."]
+[MERGE: Continue with Elias 'Eli' Navarro's quiet moment.]
+
+Elias 'Eli' Navarro [quietly, when he has a moment alone with you]: "We did something right. Not everything — not perfect — but right."
+Elias 'Eli' Navarro [meets your eyes, the room busy around you]: "I'm glad you're here for it."
+
+Amara Vale [your voice low, steady]: "Me too."
+
+There is a pause that is not a decision but a recognition of shared labor. It will need tending like everything else. You tuck the moment away with the buoy and the laminated forms and Rosa's steady grin.
+
+Outside, the tide creeps up with quiet patience. Inside the workshop, a small gauge blinks green. The bond money hums into action: adhesives for a seawall, pallets of saplings for a mangrove corridor, and a ledger of cooperative loans printed and waiting. There will be setbacks — stalled permits, balky suppliers, a shop that needs an extra month of assistance — but there is also motion, and the motion is in the town's hands.
+
+You close your notebook and look at the assembled community: Hal arranging tools, Rosa sketching a banner, Elias 'Eli' Navarro by the prototype with grease on his knuckles, Old Man Tor smiling with his carved buoy in his lap, Marco Voss standing at the edge of the light like a storm-cloud that may one day give good rain. The Beacon's whiteboards are full. The harbor's docks are being raised. The first saplings are staked.
+
+The future is not neat. It is not safe. It is, finally, collaborative.
+
+[Visual: The workshop lights blink as the sensors run their test sequence. Outside, a line of clouds edges the horizon, lit with a thin late-gold that promises more days.]
+[Music: A sustained hopeful chord — rising, then holding]
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: [13]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 13
+    > Jump Target File: script_ch13_Epilogue_Accessible_from_multiple_routes_ctx_782002.txt

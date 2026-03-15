@@ -1,0 +1,128 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where personal relationships and planetary stakes collide — intimate choices reverberate across a threatened coastal community. The core conflict pits community-led, nature-based resilience against corporate technocratic fixes; the romance forces the protagonist to reconcile duty to the town with desire for personal connection. This lets players experience moral trade-offs (safety vs. tradition, quick fix vs. long-term repair) through emotionally grounded character choices.",
+    "setting": "A near-future coastal town (Maris Bay) battered by increased storms and rising tides. Time period: 2035–2040. Atmosphere: salt-thick air, stubborn wild greenery reclaiming flood zones, neon hints of outside capital clashing with weathered wood and community gardens — a place of pragmatic hope and frayed memories.",
+    "visual_style": "Semi-realistic anime-influenced, muted coastal palette, textured brushwork for weather effects, atmospheric lighting, wet-surface reflections, occasional neon accents",
+    "main_characters": [
+        {
+            "name": "Marin Solé",
+            "role": "Protagonist",
+            "personality": "Empathetic, methodical, quietly stubborn. Scientific and hands-on, but prone to carrying others' burdens. Tends to over-explain to mask emotion; loyal and community-minded.",
+            "appearance_features": {
+                "hair": "Sea-glass teal, shoulder-length waves with sun-bleached tips and a single silver streak at the temple",
+                "eyes": "Gray-green, soft and observant with amber flecks when in sunlight",
+                "clothing": "Weatherproof olive-green field jacket with patchwork repairs, faded denim, breathable reef-pattern shirts, mud-specked leggings, sturdy salt-stained boots",
+                "accessories": "A battered waterproof notebook with tide charts and pressed seaweed, thin wire-frame glasses, braided shell bracelet from childhood, a scratched multi-tool"
+            },
+            "goal": "Design and implement community-led coastal restoration that balances safety with local livelihoods; keep Maris Bay intact without erasing its culture.",
+            "background_story": "Born and raised in Maris Bay, Marin left to study coastal ecology after losing a friend in an early, unanticipated storm. Returning home with technical expertise, they now lead small-scale restoration projects while trying to bridge scientific proposals with local needs.",
+            "emotional_trait": "Guilt-driven perseverance — their strength is deep care, their flaw is taking too much responsibility and hesitating to ask for help."
+        },
+        {
+            "name": "Kaito Navarro",
+            "role": "Love Interest",
+            "personality": "Warm, kinetic, wryly humorous, fiercely protective of local traditions. Practical and action-oriented; suspicious of outside promises but open to sincere collaboration.",
+            "appearance_features": {
+                "hair": "Dark chestnut, cropped on the sides with longer, wind-tossed top often tied back in a short knot",
+                "eyes": "Warm hazel, rounded and expressive, quick to crinkle when smiling",
+                "clothing": "Thick knitted fisher sweater in muted navy with needle repairs, oilskin coat slung over a faded tee, rolled canvas trousers, rubber-soled deck shoes",
+                "accessories": "A handmade compass pendant passed down from his grandfather, calloused hands with faded rope burns, a small carved whale talisman on his belt"
+            },
+            "goal": "Protect the fishing community's way of life and ensure any adaptation plan preserves their access to the sea and seasonal rhythms.",
+            "background_story": "Kaito comes from three generations of fishers. He organized informal rescue crews during storms and now helps run the cooperative pier — skeptical of big projects that risk privatizing the coastline.",
+            "emotional_trait": "Proud loyalty — his strength is fierce commitment to people; his flaw is stubbornness that sometimes blocks compromise."
+        },
+        {
+            "name": "Aria Chen",
+            "role": "Antagonist",
+            "personality": "Charismatic, polished, coolly logical. Presents a convincing, efficient vision for large-scale protection. Beneath the veneer: pragmatic idealism mixed with ambition and a willingness to prioritize scalability over nuance.",
+            "appearance_features": {
+                "hair": "Sleek, jet-black bob with precise, blunt bangs that catch the light",
+                "eyes": "Steely blue-gray, sharp and assessing, with a slight reflective sheen from augmented lenses",
+                "clothing": "Tailored storm-gray suit with reflective piping, high-collared technical overcoat, minimalist waterproof boots — corporate elegance meets field-ready design",
+                "accessories": "Silver cuff engraved with TideLine Ventures emblem, AR contact lenses for project overlays, a smart slate tablet always in hand"
+            },
+            "goal": "Implement TideLine Ventures' engineered coastal defense program — large seawalls and tech-driven flood barriers that promise quick, measurable protection.",
+            "background_story": "Raised in an engineering hub, Aria climbed the private-sector ladder and now leads a climate adaptation firm. She believes top-down, tech-first solutions scale fastest and save the most lives — even if they require tough trade-offs for local communities.",
+            "emotional_trait": "Conviction-as-blindspot — her strength is decisive leadership; her flaw is moral tunnel vision when stakes look binary."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Solé",
+            "relation_to_main": "Marin's younger sister",
+            "appearance_summary": "Short, sun-freckled, practical in bright paint-splattered overalls.",
+            "function_in_story": "Emotional anchor and community organizer; pushes Marin to act faster and keeps family stakes in focus."
+        },
+        {
+            "name": "Old Tomas",
+            "relation_to_main": "Community elder / former fisherman",
+            "appearance_summary": "Stooped figure with a knitted cap, deep-lined face, and slow, deliberate movements.",
+            "function_in_story": "Repository of local history and oral knowledge; challenges technocratic narratives with lived memory."
+        },
+        {
+            "name": "Dr. Lian Obasi",
+            "relation_to_main": "Colleague and scientific collaborator",
+            "appearance_summary": "Short-cropped hair, bright eyes, lab vest stained with samples, always carrying sensor gear.",
+            "function_in_story": "Provides technical data and alternative nature-based solutions; helps Marin design ecological interventions."
+        },
+        {
+            "name": "Mayor Ana Beltran",
+            "relation_to_main": "Local official with final say on projects",
+            "appearance_summary": "Formal but weary, often photographed in public raincoats; has a practical, pragmatic air.",
+            "function_in_story": "Balancing figure between local pressures and outside funding; her decisions are pivotal and can swing by public persuasion."
+        },
+        {
+            "name": "Jun Park",
+            "relation_to_main": "TideLine liaison and Aria's junior associate",
+            "appearance_summary": "Young, well-dressed, nervous energy, constantly checking a handheld comm.",
+            "function_in_story": "Humanizes the corporation; acts as a conduit for information and occasionally questions corporate certainty."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Old Pier & Fishing Co-op",
+            "visual_description": "Gray-brown planks darkened by salt and rain, ropes coiled along rails; diffuse late-afternoon light filtered through low clouds. Wet reflections mirror stringed lanterns, gulls wheel against a backdrop of churning silver sea. The mood is tactile and weathered — community warmth inside weatherworn buildings, damp air smelling of kelp and diesel."
+        },
+        {
+            "name": "Maris Bay Research Greenhouse",
+            "visual_description": "A glass-and-steel retrofit built on reclaimed land: warm, humid interior lighting bathing rows of salt-tolerant plants. Outside, storm-scoured skies create dramatic backlighting; inside, bioluminescent algae tanks glow teal at night, casting rippling patterns across potted roots and patched lab equipment."
+        },
+        {
+            "name": "Boardwalk Floodplain (High Tide Zone)",
+            "visual_description": "Broken boardwalk sections half-submerged in brackish pools, sun-bleached signs leaning, reeds and saltwort reclaiming space. Afternoon storms streak the horizon with silver rain; puddles reflect a bruised sky. The palette is muted blues and ochres, with slick surfaces and a quiet, uncanny beauty."
+        },
+        {
+            "name": "TideLine Ventures Field Office & Prototype Site",
+            "visual_description": "Crisp modular architecture with reflective panels and sharp edges, harsh white LED floodlights by night. Polished temporary platforms and tech scaffolding hum with activity. Neon company colors cut the fog; sterile lighting contrasts with the town's warm, weathered tones, creating a sense of clinical efficiency and alien intrusion."
+        },
+        {
+            "name": "Rooftop Community Garden & Storm Shelter",
+            "visual_description": "A patchwork rooftop oasis: raised beds in reclaimed crates, windbreaks stitched from salvaged fabric, warm golden-hour sun on green leaves. Strings of solar fairy-lights at dusk, the sky a painterly gradient. The shelter's interior is cozy and crowded with shared tools and donated books — a visual of human resilience and improvisation."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Technology"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Marin and the community implement a hybrid, nature-based defense plan that preserves fishing access while slowing erosion. TideLine is contracted to modify their designs to be community-led. Marin and Kaito commit to a partnership — both romantic and civic — symbolizing healed trust and practical hope."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A fierce storm tests the town mid-project. Marin sacrifices a promising grant opportunity (and a potential career move) to ensure community ownership of the plan. The coastline stabilizes slowly, but Marin and Kaito choose different paths: their relationship becomes a lasting, loving friendship as priorities diverge."
+        },
+        {
+            "type": "Sad",
+            "summary": "Aria's engineered barriers are erected quickly but privatize large swaths of the shoreline and displace small fishers. Maris Bay loses central cultural spaces; Marin leaves to work with displaced communities elsewhere. Romance with Kaito is severed by bitterness and loss; the ending emphasizes cautionary consequences of top-down fixes."
+        },
+        {
+            "type": "True",
+            "summary": "No tidy victory: Marin rejects an easy compromise and publicly exposes TideLine's hidden clauses, forcing a legal and moral reckoning. The town endures economic strain but gains legal protections and a renewed cooperative. Marin sacrifices personal comfort and a guaranteed future for long-term ethics; the romance is unresolved but built on honest, principled choices."
+        }
+    ],
+    "estimated_chapters": 6
+}

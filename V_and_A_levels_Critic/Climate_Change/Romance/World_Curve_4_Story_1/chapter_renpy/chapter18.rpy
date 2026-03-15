@@ -1,0 +1,194 @@
+label chapter18:
+
+    # [Scene: Town Hall | Night]
+
+    scene bg ch13_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Dissonant strings under a rapid percussion—heartbeat tempo]
+    # play sound "sfx_placeholder"  # [Sound: Microphones crackle, camera shutters, the low roar of a crowd]
+    "You push through the crowd with water beading on your jacket, each step a small war against the press of bodies and the slick steps. Phones lift like a field of small suns; phrases flash on"
+    "screens — 'LEAK', 'LAWSUIT', 'BREAKING' — and the words feel surgical, cutting the town open."
+    "Inside, the warmth is thin and false. The council chamber smells of wet wool and cheap coffee, paper and the metallic tang the storm left in everything. Plastic folding chairs are stacked where they usually are; tonight they're barricades, and every available seat is taken."
+
+    scene bg ch13_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A lawyer's shoe taps like a metronome; an indignant murmur rises and falls]
+    "You find a place at the edge of the gallery. Rae is already here, paint still staining the cuff of her sleeve, eyes burning like a match. Tommy stands behind her, shoulders set. Elias Navarro is"
+    "nearer the front, his jacket damp at the collar; he meets your gaze for a fraction of a second that feels both like a question and a plea. Celeste Park sits at the witness table with"
+    "counsel, posture immaculate, the storm outside unable to wrinkle her precision."
+    "You remind yourself of what the night was: ropes, rain, the volunteer who didn't make it off the anchor in time. The stretcher, the ambulance lights, the sharpness of Elias Navarro's hands on the rope. Now"
+    "that immediacy has expanded into something with teeth. Leaks — anonymous files, a cache of emails, a drone clip posted overnight — have turned what was local urgency into a national scandal."
+
+    menu:
+        "Check the first headline on your phone":
+            "You lift your phone and see a national feed — a snippet of the leaked drone footage already branded with a network's chyron. Your stomach drops."
+        "Tap Elias' sleeve to ask quietly":
+            "You tap Elias. He turns, and for a second his face is soft, unreadable. He mouths, 'Later.' Then he straightens, shoulders set as if putting a uniform on."
+
+    # --- merge ---
+    "The hearing proceeds as the room focuses on testimony and evidence."
+    # play music "music_placeholder"  # [Music: Tension tightens; a single cable-bowed note climbs]
+
+    scene bg ch13_f99e88_3 at full_bg
+
+    "Council Chair" "Order. This hearing will come to order. We will hear testimony and review claims presented in the recent filings."
+    "A woman from a coastal legal aid group stands first — her binder is thick, her voice steady but strained."
+
+    "Legal Advocate" "We've filed for an immediate injunction. The evidence presented in the leaked materials suggests there was deliberate misrepresentation in environmental assessments. We ask this council to halt construction pending independent review."
+    "You feel the room fold inward. Behind the advocate's words are more than technicalities: they hint at intent. The chamber hums with the noise of a town waking up to a betrayal."
+    "Celeste's Counsel stands smoothly, voice practiced, each movement a small choreography designed to reassure."
+
+    "Celeste's Counsel" "The developer has complied with all regulatory requirements. Any internal communications taken out of context do not constitute willful misrepresentation. We mustn't allow headlines and viral clips to dictate public policy."
+    show celeste_park at left:
+        zoom 0.7
+
+    celeste_park "Emphasize the economic stability. Emphasize jobs. Make it human."
+    "He nods and turns forward, but you catch the way her fingers flex — controlled, contained. You can't read whether she is steeled by conviction or by calculation; her reaction to the leak is, like her, complex."
+    "You rise when your name is called, voice steadier than you feel."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "This isn't just about reports. Last night we watched a volunteer ripped under a tide that kept coming for too long. We listened to sirens. We watched people who thought they were defending the commons become casualties. If these materials show what you say they show, Celeste Park — if the designs prioritize promenade over marsh — then this council has to do more than debate optics. You have to protect people."
+
+    celeste_park "Mara, we all want the same thing: a viable Solhaven. You know I came to this town with offers that can secure livelihoods."
+    "The exchange is soft but venomous under the lights. Elias Navarro approaches the microphone after you with his tablet in hand."
+    show elias_navarro at center:
+        zoom 0.7
+
+    elias_navarro "I… I want to be careful. Technical procedures were followed for the pilot installations. But — and this is critical — there are documents and footage that need transparent, independent verification. If results have been misrepresented, we can't paper over it. We must open the data."
+    "His voice is steady, but you hear the tremor under it — the place where fear becomes guilt. He looks at Celeste Park; his gaze is earnest and searching, as if this were a math problem"
+    "he could solve with enough equations. You can hear the strain in him trying to hold two allegiances: the one to the town's safety, and the one that ties him to institutional routes he has already"
+    "promised to navigate."
+    # play sound "sfx_placeholder"  # [Sound: A phone vibrates loudly; a reporter shouts something indistinct; the room edges toward chaos]
+    # play music "music_placeholder"  # [Music: Percussion becomes frenetic; dissonant brass cuts in]
+    "Then the feed starts — projected on the screen behind the dais. The public counsel has played the clip everyone has seen a dozen times scrolling through feeds: a drone at night, bright survey markers puncturing"
+    "dark marsh, a compact crew working under floodlights. The footage lingers on a conversation — a snippet of audio — a voice, crisp and edited, that references 'adjusting margins' and 'prioritizing promenade integrity'."
+    "Crowd: (murmurs, sharp intake)"
+
+    "A national correspondent is live in a corner of the screen, voice amplified" "This footage, combined with internal correspondence now in multiple outlets, paints a picture of a rushed project where environmental risk was minimized in favor of development gains. The question — why did regulators not flag this sooner? — is now central."
+    "Rae leaps to her feet, paint-dusted hands raised."
+    hide celeste_park
+    show rae_carter at left:
+        zoom 0.7
+
+    rae_carter "Tell them about the markers! Tell them about the night crew we found! You all knew! You all knew and kept going!"
+    "A woman near the front sobs; someone else yells, 'Shame!' The temperature of the room spikes."
+
+    menu:
+        "Call out Celeste directly from the gallery":
+            "You stand, the words forming like a tide. For a moment you feel the communal weight in your voice: the volunteers, the dead, the gardens trampled."
+        "Lean toward Elias and whisper a question":
+            "You lean in close enough to hear the rain on his jacket. 'Did you — can the data be trusted?' you whisper. He closes his eyes, jaw working. 'We have to assume nothing and verify everything,' he replies, but you hear the edge of exhaustion in it."
+
+    # --- merge ---
+    "The hearing continues, attention returning to expert testimony."
+    "Dr. Amina Bhatt is asked to speak next. Her face is exhausted but fierce; she is the one who can translate field science into something the court of public opinion understands."
+    hide mara_lin
+    show dr_amina_bhatt at right:
+        zoom 0.7
+
+    dr_amina_bhatt "Methodology matters. If sampling points were shifted or if pre-storm baselines were misrepresented, then models used to justify construction are compromised. An independent audit is the minimum. Lives are on the line when models are treated like guarantees."
+    "A council member, flustered, asks a pointed question about liability and timelines. Celeste's Counsel fires back with legalese meant to soothe."
+
+    "Celeste's Counsel" "Halting construction indefinitely could jeopardize contractual obligations, investor confidence, and the immediate economic relief this project promises."
+    "The argument veers between numbers and morality. You can almost feel the photographers' shutters syncing with the council's breaths — everything captured to be re-framed in feeds, columns, and the next day’s headlines."
+    "Elias Navarro turns toward you when Amina finishes, eyes raw."
+
+    elias_navarro "I didn't see everything that happened on those nights. I wasn't there during those late surveys. But I can and will ask for every raw dataset, every chain-of-custody log. If anyone altered sampling points to underreport wetland presence, that is fraud. And if that happened, it needs to be exposed."
+    "You search his face for certainty and find only a man who understands the consequences of his own technical optimism. The room feels like it's balancing on a blade."
+    "Celeste Park finally rises, and the chamber hushes like water drawing back."
+    hide elias_navarro
+    show celeste_park at center:
+        zoom 0.7
+
+    celeste_park "We are in a town that needs jobs, that needs infrastructure to keep people safe from storms. Yes, mistakes may have been made. If they were, we will address them. But do not mistake cautious scrutiny for paralysis. There is a difference between necessary oversight and fear-driven obstruction."
+    "Her voice holds the grain of someone used to steering committees and press releases. She looks at you then — not with hatred, not with simple warmth, but with appraisal. The expression is layered. Complex. Unreadable."
+    "A reporter's hand shoots up."
+
+    "Reporter" "Ms. Park — did your team ever advise altering environmental reports to make the promenade more feasible?"
+
+    celeste_park "No. Any insinuation of deliberate alteration is irresponsible. The company conducted assessments in good faith."
+    # play sound "sfx_placeholder"  # [Sound: Phones murmuring, a chorus of low judgments]
+    # play music "music_placeholder"  # [Music: Crescendo to a near-climax — strings fraying at the edges]
+
+    "Then a legal representative from an anonymous whistleblower group requests the floor. A stack of printed emails — redacted, timestamped — is passed to the clerk and then held up, the text projected onto the screen. The language is stark" "deprioritize marsh considerations', 'ensure investor confidence', 'adjust baselines"
+    "You feel the air go thin. It is one thing to suspect malfeasance; it is another to see an internal memo framed against the face of someone who promised solutions."
+
+    celeste_park "Context. You are taking phrases out of larger analyses. Every project has negotiation. You pick a phrase and you make a story."
+
+    "Legal Advocate" "Those phrases are orders. And orders that, when acted on, put people and ecosystems at risk."
+    "A woman in the back — a volunteer who'd been at the rope line the night before — stands shakily, eyes fierce."
+
+    "Volunteer" "We trusted these people with our lives. We took direction because we believed it would keep everyone safe. Instead, we lost someone."
+    "Her voice fractures the damp, clinical air. The chamber feels as if it has collectively inhaled one enormous, held breath. You are in that held space, heart hitting ribs like a trapped bird."
+    # play sound "sfx_placeholder"  # [Sound: A camera flash so bright it feels like a sting]
+    # play music "music_placeholder"  # [Music: All instruments stop, then one piercing note sustains]
+    "Elias Navarro moves toward Celeste Park. Counsel steps between them like a dam trying to stop a river. The proximity of those two — one who speaks in budgets and design and one who promised to secure livelihoods — is a pressure. Words are sharp and short."
+    hide rae_carter
+    show elias_navarro at left:
+        zoom 0.7
+
+    elias_navarro "If your team misled regulators, Ms. Park, then the remedy isn't only policy. People need accountability."
+
+    celeste_park "You speak as if the town were your laboratory, Mr. Navarro. There is a difference between engineering and activism. We are solving problems, not alibiing fear."
+
+    elias_navarro "Engineering without oversight is just construction. And construction without the people it affects is just—"
+    "Mara Lin cuts in before he finishes, because someone has to pull the thread from the knot."
+    hide dr_amina_bhatt
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "—a thin promise that breaks when it rains."
+    "The chamber erupts. Voices overlap into a tide. Someone shouts legal terms; another counters with cries of betrayal. The national feed captures the moment and sends it outward, a spark to tinder."
+
+    menu:
+        "Stand and demand an independent forensic audit, publicly":
+            "You rise and try to speak above the noise, the words about audits and accountability sharp as new glass. For a second, you feel the crowd turn into an organism responding to your voice."
+        "Stay silent and watch Elias and Celeste":
+            "You fold your hands, pulse like a drum in your throat, watching them like two tectonic plates. The silence you keep is something between strategy and shock."
+
+    # --- merge ---
+    "The hearing continues with calls for an audit and calls for measured deliberation."
+    hide celeste_park
+    show dr_amina_bhatt at center:
+        zoom 0.7
+
+    dr_amina_bhatt "An independent forensic audit must be part of any forward motion. We must examine the raw sampling logs, the unedited drone footage, the chain-of-custody. Until then, construction should be paused. This is not an attempt to stop progress — it is an attempt to prevent irreversible harm."
+    "The council chair looks at the clerk, at Celeste Park, at you — trying to weigh legal exposure, economic panic, and the rising howl of national attention. In the back, Rae pulls out a stencil and"
+    "slaps a new poster on the wall: an image of the marsh half submerged, the words 'REMEMBER' in jagged letters. A camera catches it and the image spreads."
+    "The compound pressure of national anchors, lawsuit filings, chanting locals, and the raw footage coalesces into a single point of heat. The room shakes not physically but morally; you can feel the foundations shift."
+
+    "Celeste's Counsel lowers his voice and speaks into a phone. A line of text scrolls across the screen behind them" "Investors calling. Stock open."
+    "Elias Navarro's shoulders slump for a fraction of a second. He turns to you, eyes wide and candid."
+
+    elias_navarro "This could become a class action. This could shut everything down or drag us into court for years."
+    "You look at him — the man who frames everything in systems, models, probabilities — and for a moment you realize the scale of the thing: it's not only a fight over a promenade. It's a"
+    "collision of livelihoods, grief, legal jeopardy, and the human cost of inaction masked as certainty."
+    # play music "music_placeholder"  # [Music: Thunderous, all instruments converging into the loudest, most urgent chord yet]
+    # play sound "sfx_placeholder"  # [Sound: A single, unmistakable alert tone — a notification of a new filing; the clerk's hands tremble as she flips pages]
+    "The chair bangs the gavel as if to keep the roof from lifting off the building."
+
+    "Council Chair" "Given the new evidence and the filings we have received this evening, this council will take time to deliberate on immediate measures. All parties will be notified of the preliminary orders."
+    "The word 'deliberate' lands like a weight you cannot move. You can feel the momentum of the night bending toward the inevitable: lawyers drafting paperwork, cameras feeding the next day's narratives, the town's wound set open and poured with salt by nationwide scrutiny."
+    "You stand there — soaked, trembling, lungs tight — and know the next step will not be simple. The leak has become more than a leak; it has become a force with its own appetite, demanding answers, accountability, and consequence."
+    "Celeste Park gathers her papers with hands that do not shake. Elias Navarro folds his hands into a fist, then unclenches them slowly, his jaw working. Rae's poster flutters in a breeze that isn't there. Dr."
+    "Amina's eyes on the dais are somber, tired in a way that makes your chest ache."
+    "For a moment, in the compressed silence between the gavel and the next wave of clamour, you think of the volunteer on the stretcher, of the gardens, of the marshes that bent under human plans. You"
+    "think of how quickly your town's private pain became a spectacle of accusation and defense."
+    "The room is a pressure cooker ready to turn; your decisions from this point will ripple far outward. Your phone buzzes again — more headlines, more legal notices, a lawyer’s number. You feel pulled in a dozen directions: toward immediate action, toward measured containment, toward protecting people and protecting memory."
+    hide elias_navarro
+    hide mara_lin
+    hide dr_amina_bhatt
+
+    scene bg ch13_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single sustained note cuts through the background, insisting on movement]
+    "The chamber empties and refills with aftershocks — whispers, the clack of reporters filing notes, the rustle of legal pads. You are at the center of a new coastline re-drawn by scandal, and somewhere beyond the doors the storm still glares at the town like an accusation."
+    "You breathe in salt and static and the metallic tang of fear. Your options are opening like multiple fractures in ice — none clean, all consequential."
+
+    scene bg ch13_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: The tension holds, a coiled string ready to snap]
+    "You are on the brink. The hearing has become a hinge: construction paused, lawsuits germinating, national narratives forming, reputations on the edge. The next decision will tilt the balance toward legal preservation, public accountability, or something harsher."
+
+    scene bg ch13_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter20
+    return

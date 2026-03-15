@@ -1,0 +1,120 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the Genre (Romance) by making the environmental crisis both the external antagonist and the force that intensifies intimate choices. The central emotional engine is how people form bonds under pressure: shared loss, competing solutions, and the ethics of intervention. The core conflict is a triangle of values — community-led resilience vs large-scale engineered fixes — mirrored in a love triangle that forces the Protagonist to choose between loyalty to place, pragmatic partnership, and personal healing.",
+    "setting": "A near-future coastal town, Brinehaven: a once-sleepy fishing community now battered by more frequent storms and rising tides. The world blends small-town rhythms with the technologies of climate adaptation. The atmosphere is charged — salt in the air, a sky that can switch from clear gold to bruised storm-blue within an hour, and a sense that every decision has real, visible consequence.",
+    "visual_style": "Painterly coastal realism; semi-realistic character art with expressive faces; warm natural palette with storm grays and teal highlights; textured brushstrokes for weathered wood and wet surfaces; cinematic lighting (golden hour and storm-lit contrasts).",
+    "main_characters": [
+        {
+            "name": "Mira Kestrel",
+            "role": "Protagonist",
+            "personality": "Practical, deeply empathic, quietly stubborn. Mira is a scientist who believes in community-led solutions; she listens before proposing fixes and carries the weight of survivor's guilt. She negotiates between data-driven logic and moral responsibility, often playing mediator between opposing viewpoints.",
+            "appearance_features": {
+                "hair": "Deep navy-blue, shoulder-length, wind-tossed waves often tucked behind one ear",
+                "eyes": "Sea-glass green with a steady, observant gaze",
+                "clothing": "Worn olive-green field jacket with embroidered tide lines at the hem, faded denim overalls or a simple sundress underneath depending on season, scuffed ankle boots",
+                "accessories": "Weathered leather field notebook full of sketches and storm logs, a small coral pendant on a braided cord (family heirloom), a waterproof wristband with tide data etched into it"
+            },
+            "goal": "Implement resilient, community-led coastal adaptations that preserve livelihoods and culture while mitigating future loss.",
+            "background_story": "Born and raised in Brinehaven, Mira left to study climate science after her childhood home was heavily damaged in a storm. She returned to help rebuild, haunted by the memory of what she couldn't save. Her scientific training and hometown ties put her between locals who distrust outsiders and city planners pushing large-scale engineering.",
+            "emotional_trait": "Guilt over past loss that fuels compassion but can make her overly cautious about risking relationships or endorsing untested solutions."
+        },
+        {
+            "name": "Jonah Reyes",
+            "role": "Love Interest",
+            "personality": "Warm, earthy, fiercely loyal to his community. Jonah is quick with a joke and slower to trust plans that feel like 'outsiders deciding for us.' He leads local fishing crews and organizes grassroots resistance to top-down projects that ignore local knowledge.",
+            "appearance_features": {
+                "hair": "Sun-bleached dark brown curls kept short and often wind-swept",
+                "eyes": "Warm amber-brown, soft around the edges with laugh lines",
+                "clothing": "Thick wool fisher's sweater with salt-stiffened sleeves, patched denim trousers, well-broken rubber boots, and a faded trucker cap",
+                "accessories": "Rope-and-shell tide-mark bracelet he made as a teenager, a simple carved wooden compass given to him by his grandfather, a pocketknife with a mosaic handle"
+            },
+            "goal": "Protect the town's way of life and traditional livelihoods, resisting solutions that prioritize aesthetics or outsiders' profits over people.",
+            "background_story": "Third-generation fisher. Jonah's family lost boats and storage sheds to recent storms but rebuilt using community labor. He channels anger into organizing and volunteers as a mentor for younger crew members. He sees Mira as one of their own but distrusts large firms promising 'silver-bullet' fixes.",
+            "emotional_trait": "Stubborn loyalty — a strength that makes him reliable but can blind him to innovations that might help."
+        },
+        {
+            "name": "Cassian \"Cass\" Romano",
+            "role": "Love Interest / Rival",
+            "personality": "Analytical, polished, and earnest. Cass is an urban coastal engineer from a larger firm who believes in scalable, tech-forward solutions. He is charismatic in public forums but privately insecure about being seen as a corporate agent rather than an ally.",
+            "appearance_features": {
+                "hair": "Jet-black hair with a single silver streak at the temple, usually tied back in a short knot",
+                "eyes": "Clear steel-gray, precise and assessing",
+                "clothing": "Tailored waterproof trench coat in slate blue, crisp button-up shirts rolled at the sleeves, weatherproof Chelsea boots; his clothing balances function and professional polish",
+                "accessories": "A slim tablet always at hand with models and topographic maps, a discreet corporate lapel pin, and a multifunction watch that records environmental data"
+            },
+            "goal": "Deploy robust engineered defenses and infrastructure upgrades to secure Brinehaven and create a model other towns can replicate.",
+            "background_story": "Raised in a coastal metropolis and trained in large-scale infrastructure projects, Cass wants to prove that thoughtful engineering can save towns without erasing them. He genuinely admires community knowledge but struggles to reconcile it with the constraints of funding, deadlines, and political stakeholders.",
+            "emotional_trait": "Rationality that becomes emotional detachment under stress; he fears failure and compensates by pushing for control."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Tessa Kestrel",
+            "relation_to_main": "Younger sister of Mira",
+            "appearance_summary": "Short-cropped sandy-blonde hair, freckled face, bright hazel eyes, practical thrift-store hoodies and rubber sandals.",
+            "function_in_story": "Represents the next generation of Brinehaven — hopeful, impatient for action, and the personal stake that drives Mira's decisions; she challenges Mira's caution."
+        },
+        {
+            "name": "Old Man Rafi",
+            "relation_to_main": "Elder mentor to Jonah and community storyteller",
+            "appearance_summary": "Stooped but sturdy, weathered bronze skin, white beard braided with a single blue bead, always in a patched sea coat and cap.",
+            "function_in_story": "Keeper of local oral history and traditional ecological knowledge; his approval matters to the town and he provides moral clarity in debates."
+        },
+        {
+            "name": "Mayor Lynette Cole",
+            "relation_to_main": "Municipal authority, political antagonist",
+            "appearance_summary": "Polished public figure in designer raincoats, sharp bob haircut, focused dark eyes and an array of pragmatic accessories like a tablet and press-ready notes.",
+            "function_in_story": "Balances political pressures and funding opportunities; she pushes for quick-visible wins (often favoring corporate-backed solutions) and forces characters to negotiate public optics vs long-term resilience."
+        },
+        {
+            "name": "Dr. Saira N'Goma",
+            "relation_to_main": "Scientific mentor and ally to Mira",
+            "appearance_summary": "Mid-40s, braided hair with silver threads, bright incisive eyes behind tortoiseshell glasses, soft teal field vest with many pockets.",
+            "function_in_story": "Provides technical expertise, helps translate data into community presentations and supports Mira with credibility and tough questions about trade-offs."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Brinehaven Boardwalk & Docks",
+            "visual_description": "Long, weathered wooden planks glisten with salt and recent rain. Golden-hour light slants across beached nets and algae-streaked pilings; gulls wheel against a cobalt sky. When storms approach, low, bruised clouds roll in and the water becomes a slate mirror, punctuated by reflections of lamplight and warning buoys."
+        },
+        {
+            "name": "The Saltmarsh Fen",
+            "visual_description": "A patchwork of reed islands and shallow tidal pools; matte greens and ochres dominate under a diffuse, overcast sun. Early-morning mist clings to knee-high grasses, and the air smells of peat and metal. Narrow boardwalks cast long, soft shadows and puddles reflect fragmented sky."
+        },
+        {
+            "name": "Municipal Hall & Planning Office",
+            "visual_description": "A modern civic building of glass and concrete that catches both sunrise and stormlight; interiors are cool and clinical with steel-blue tones. Conference rooms have long tables with digital models projecting holographic waterlines; window views show the town squeezed between marsh and sea."
+        },
+        {
+            "name": "The Research Lighthouse",
+            "visual_description": "A battered stone tower at the town's edge converted into a field lab. Weather-stained white paint and salt-rusted metal balconies contrast with glowing interior lamps at night. Interior lighting is warm and focused; instruments hum, maps are tacked to corkboards, and rain drums on the roof create a percussive backdrop."
+        },
+        {
+            "name": "Community Seed & Repair Garden",
+            "visual_description": "A reclaimed rooftop garden with raised beds, flowering succulents, and rows of native grasses in reclaimed barrels. Soft afternoon light, bees humming, and strings of lanterns create an intimate, hopeful atmosphere where townsfolk meet; the palette is green and sun-washed with accents of reclaimed wood and bright cloth banners."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A hybrid solution is co-created: scaled, sensible engineered defenses combined with community-led marsh restoration. Mira and Jonah form a committed partnership rooted in mutual respect and shared stewardship of Brinehaven; the town regains stability and retains cultural continuity."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Large-scale defenses are built under political pressure, preventing immediate catastrophe but costing some traditional livelihoods and altering the town's character. Mira accepts a partnership with Cass professionally to ensure safeguards are community-integrated, but she and Jonah part ways painfully, each following their convictions."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political infighting and delayed action lead to a catastrophic storm that destroys significant parts of the town. Relationships fracture under blame and grief. Mira survives but is left with the heavy burden of asking whether different decisions could have saved more; the personal romances end unresolved."
+        },
+        {
+            "type": "True",
+            "summary": "Mira chooses a difficult, less visible path: she exposes a series of funding conflicts and forces transparent, community-centered planning. The town rebuilds slowly through cooperative governance. Romance is ambiguous — a deep bond remains between Mira and one of her partners, but the story focuses on collective moral victory over personal closure."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

@@ -1,0 +1,36 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance (Theme and Genre). The theme is "truth and its consequences," and the genre seems to be a drama with elements of social commentary. The story revolves around Maya's struggle with public truth, professional costs, and community impact. It matches the theme well, so I'd say a high score here, maybe 5.
+
+Coherence: The story flows logically. It starts with Maya's dilemma, the consequences of her actions, and the aftermath. The plot is consistent, and the cause-effect relationships are clear. So, coherence is strong, probably a 5.
+
+Empathy: The characters' emotions are well-depicted. Maya's internal conflict, the strain on her relationships, and the community's mixed reactions are all relatable. The reader can feel her grief, responsibility, and the weight of her decisions. That's a 5.
+
+Surprise: The ending isn't a twist but a resolution. The story builds up the consequences, and the ending feels inevitable. The surprise factor is low, maybe a 2 or 3. But since it's a visual novel, the emotional resolution might not be surprising but satisfying.
+
+Engagement: The story is engaging with its emotional depth and moral dilemmas. The reader is invested in Maya's journey and the community's fate. The pacing and character development keep the reader involved. So, engagement is high, maybe a 5.
+
+Complexity: The story has layers—personal, professional, community, and legal aspects. It's not overly complicated but has enough depth to explore multiple dimensions. The legal framework and social dynamics add complexity. I'd rate this a 4 or 5. Maybe 5 since it's well-structured without being too convoluted.
+
+Wait, the surprise score might be lower. The ending isn't a twist but a reflection of the themes. The reader expects the consequences, so it's not surprising. So SU_Score 2. But maybe 3 if the resolution is satisfying in a way that's not obvious. Hmm. Let me check again. The story ends with Maya acknowledging the cost and the ongoing struggle, which is a realistic conclusion. Not a surprise, but a fitting end. So maybe 3.
+
+Putting it all together, the scores would be:
+
+RE: 5, CH:5, EM:5, SU:3, EG:5, CX:5.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story aligns perfectly with its theme of truth and its consequences, exploring moral dilemmas, personal sacrifice, and societal impact. The genre of dramatic social commentary is well-matched by the narrative's focus on ethical choices and their ripple effects.",
+  "CH_Score": 5,
+  "CH_Explanation": "The narrative is logically structured, with clear cause-and-effect relationships between Maya's decisions, the community's reactions, and the legal/ethical outcomes. The plot progresses cohesively without contradictions or unresolved threads.",
+  "EM_Score": 5,
+  "EM_Explanation": "The characters' emotions are deeply rendered, particularly Maya's internal conflict, grief, and sense of responsibility. The reader can empathize with her sacrifices, strained relationships, and the weight of public scrutiny, making the emotional journey compelling.",
+  "SU_Score": 3,
+  "SU_Explanation": "The ending is not a twist but a thematic resolution, emphasizing the ongoing struggle between truth and consequence. While not surprising, it feels inevitable and satisfying, reinforcing the story's core message rather than introducing unexpected elements.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story is highly engaging due to its emotional depth, moral complexity, and relatable stakes. Readers are drawn into Maya's personal and professional challenges, as well as the broader community's dynamics, creating a strong investment in the narrative's outcome.",
+  "CX_Score": 5,
+  "CX_Explanation": "The story is layered with intricate themes (truth, justice, sacrifice) and explores multiple dimensions—personal, professional, legal, and social. Its complexity is balanced by clarity, making it elaborate without being overwhelming."
+}

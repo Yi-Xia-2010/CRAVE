@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the intimate lens of human connection: romance becomes the human-scale engine that forces characters to confront ecological collapse and personal responsibility. Genre elements of romance drive choices, emotional stakes, and relationship arcs; climate elements create external pressure (resource scarcity, extreme weather, community divides) that test bonds and catalyze growth. The core conflict is between immediate emotional needs (fear, desire, comfort) and long-term planetary stewardship: characters must decide whether to prioritize personal safety and comfort or risky collective action. The six-chapter structure stages introduction, rising tension from environmental events, deepening emotional entanglement, a rupture caused by climate crisis, a moral/strategic choice, and resolution with consequences.",
+    "setting": "A small coastal city transitioning from a declining fishing economy into an experimental green-tech hub during an era of worsening storms and sea-level rise (near-future, 2035). The atmosphere is intimate and tactile—salt air, drizzle, patched rooftops—mixed with neon signs of pilot sustainability projects. Social tension between retrofit optimism and nostalgia for old livelihoods pervades every street.",
+    "visual_style": "Soft realist anime with painterly textures; muted coastal palette (seafoam, slate, rust) accented by bioluminescent greens and warm human skin tones; environmental detail emphasis; cinematic lighting with storm contrasts (low-key, wet reflections, fog diffused highlights)",
+    "main_characters": [
+        {
+            "name": "Maya Calder",
+            "role": "Protagonist",
+            "personality": "Empathetic, determined, quietly stubborn. Maya is pragmatic but emotionally open; she mediates between community needs and scientific urgency. She vacillates between guilt-driven overwork and a longing for simple human connection.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves often tucked behind one ear; small silver streak at the temple from early stress",
+                "eyes": "Warm hazel with flecks of green, rounded but observant; soft downward lashes that give a perpetually concerned expression",
+                "clothing": "Worn navy fisherman's jacket layered over a faded green field shirt and high-waisted utility trousers; sturdy rubber boots scuffed from tide work. Practical, slightly patched clothing that mixes lab notebooks with weather-worn denim.",
+                "accessories": "A braided leather wrist cuff with a small brass charm (a tiny anchor), a waterproof field notebook full of diagrams, and a recycled-glass pendant containing a single preserved kelp frond."
+            },
+            "goal": "Secure long-term flood protections and sustainable livelihood programs for her coastal neighborhood while avoiding displacement of longtime residents.",
+            "background_story": "Raised in the portside district by a single parent who fished until the income dried up, Maya earned an environmental engineering scholarship and returned to implement community-based resilience projects. Her history ties her to both technical solutions and local culture; she fears repeating outside-led gentrification mistakes.",
+            "emotional_trait": "Tends to shoulder responsibility alone (emotional overburden) but is capable of deep compassion that ultimately motivates collaboration."
+        },
+        {
+            "name": "Elias 'Eli' Maren",
+            "role": "Love Interest",
+            "personality": "Warmly idealistic, improvisational, and a bit reckless in pursuit of joy. Eli believes small acts can ripple outward; he is a musician-turned-urban-farmer who sees beauty in adaptive reuse and community rituals.",
+            "appearance_features": {
+                "hair": "Sun-bleached ash-blond, kept in a messy undercut with a longer top he ties back with a scrap of cloth when working.",
+                "eyes": "Sea-glass blue, almond-shaped and quick to crinkle when he smiles; his gaze is open and attentive.",
+                "clothing": "Layered casual: a hand-dyed coral tee under a patched denim vest, rolled-up hemp pants, and mismatched sneakers; frequently carries a collapsible toolkit slung like a guitar case.",
+                "accessories": "A necklace of wooden beads made from driftwood, a battered harmonica tucked into a pocket, and a wristwatch replaced by a small digital tide-and-weather band he built himself."
+            },
+            "goal": "Cultivate resilient rooftop farms and community festivals that reconnect people to local food, create income, and uplift cultural memory.",
+            "background_story": "Once a touring musician, Eli returned after a storm destroyed the venue circuit. He apprenticed with a permaculture collective and now runs micro-farms across rooftops and promenades, combining art and sustenance to keep the neighborhood alive.",
+            "emotional_trait": "Optimism bordering on avoidance—he sometimes deflects hard choices with charm and humor, but his creativity becomes vital in crisis."
+        },
+        {
+            "name": "Dr. Sienna Kade",
+            "role": "Antagonist / Rival (institutional)",
+            "personality": "Intellectually brilliant, politically savvy, and rhetorically persuasive. Sienna is mission-driven and believes in top-down, scalable tech solutions; she can appear cold or distant when tough choices are at stake.",
+            "appearance_features": {
+                "hair": "Jet black, sleek bob cut that ends at the jawline, precisely parted; hair always glossy and controlled.",
+                "eyes": "Steel gray, narrow and evaluative; she maintains an unreadable surface except in rare moments of softness.",
+                "clothing": "Tailored pale-gray coastal-tech blazer with integrated sensors, a minimalist white blouse, and dark tapered trousers; her clothing is functional and subtly authoritative.",
+                "accessories": "A slim smartband that records environmental metrics, a laser-etched titanium pen, and a government-issued ID badge on a retractable lanyard."
+            },
+            "goal": "Implement a rapid, large-scale seawall and automated flood-control infrastructure that will secure the city for future investment—even if it necessitates short-term relocation and central control.",
+            "background_story": "Former academic and policy adviser who rose to lead a regional resilience authority. Her childhood in a floodplain shaped her urgency; she prioritizes measurable impact and speed over gradual community processes.",
+            "emotional_trait": "Prone to moral certainty (rigid conviction) that blinds her to the emotional and cultural costs of her methods, though she genuinely fears catastrophic loss."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Calder",
+            "relation_to_main": "Maya's mother",
+            "appearance_summary": "Weathered hands, salt-and-pepper braid, faded floral work dresses patched with denim scraps.",
+            "function_in_story": "Represents generational memory and the local fishing heritage; her resistance to change forces Maya to reconcile technical solutions with cultural preservation."
+        },
+        {
+            "name": "Theo Baines",
+            "relation_to_main": "Maya's colleague and data analyst",
+            "appearance_summary": "Thin, short-cropped ginger hair, glasses with a scratch on the left lens, casual hoodies stained with coffee.",
+            "function_in_story": "Provides technical insight, helps uncover data inconsistencies, and acts as a conscience on ethical data use; offers pragmatic comic relief and a moral sounding board."
+        },
+        {
+            "name": "Asha Patel",
+            "relation_to_main": "Community organizer allied with Eli",
+            "appearance_summary": "Short black curls, bright scarves, reflective safety vest with artful pins, paint-splattered cargo pants.",
+            "function_in_story": "Mobilizes local residents for cooperative action and organizes the farmers' markets and mutual aid networks that become crucial during crises."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harborside Promenade",
+            "visual_description": "A patchwork boardwalk of old timber and new recycled-plastic planks; late-afternoon light slants across puddles and salt-polished metal. Warm lamplight from cafes mixes with the fizz of small bioluminescent planters. Weathered murals of fish and tide-lines contrast with posters for resilience workshops; low clouds hang in the background and gulls wheel against a slate sky."
+        },
+        {
+            "name": "Kade Resilience Lab (Regional Authority HQ)",
+            "visual_description": "A modern glass-and-titanium facility set on reinforced concrete piers. Interior lighting is cool and controlled with soft LED strips; large digital maps and sensor arrays glow in panels. Outside, the seawall models cast sharp shadows in midday sun. The atmosphere is sterile, efficient, with the faint hum of climate-control systems and the scent of ozone."
+        },
+        {
+            "name": "Rooftop Gardens & Micro-farms",
+            "visual_description": "A tessellation of small green islands on building tops—raised beds, trellises, and rain-collection barrels. Golden-hour light catches suspended irrigation lines and swaying lettuce, while mist from a late drizzle beads on leaves. String lights and handmade signs create a communal, almost festival-like intimacy among an otherwise concrete skyline."
+        },
+        {
+            "name": "Old Dockside Neighborhood",
+            "visual_description": "Narrow lanes between low houses clinging to the water's edge; corrugated metal roofs, net-draped balconies, and fishing gear hung to dry. The light is diffuse on rainy days, casting reflections in puddle-bogged alleys; the air carries brine and diesel. Occasional flood patches show where the street has been recently patched with sandbags and tarps."
+        },
+        {
+            "name": "Storm-scarred Boardwalk (Climactic Scene)",
+            "visual_description": "A jagged line of shattered boards and twisted railings under an overcast, angry sky. Flashes of broken glass and strewn market stalls catch occasional lightning or searchlight beams. Water slaps at exposed pilings, and high wind distorts banners. The palette is cold with sudden warm flashes from emergency lamps and rescue beacons."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community vs. Institutional Power",
+        "Sacrifice and Renewal"
+    ],
+    "possible_endings": [
+        {
+            "type": "Bittersweet",
+            "summary": "Maya and Eli help broker a hybrid solution: a smaller, adaptive seawall combined with community-run green infrastructure. The neighborhood survives but is transformed—some families relocate, old docks are lost, and relationships are altered. Maya and Eli remain together, committed to rebuilding, but carry the memory of loss and the responsibility of care."
+        },
+        {
+            "type": "Happy",
+            "summary": "A successful, inclusive retrofit plan is implemented after community mobilization exposes flaws in the top-down proposal. Sienna concedes to community-led governance, and a full recovery—socially and ecologically—begins. Maya and Eli’s relationship deepens into partnership, and the city becomes a model for cooperative resilience."
+        },
+        {
+            "type": "Sad",
+            "summary": "The rapid seawall project is prioritized under crisis politics; it protects large parts of the city but requires forced relocation of the harborside district. Maya loses her home and faces estrangement from her community; she and Eli part ways as their values diverge—one choosing migration to safety, the other staying to fight for those left behind."
+        },
+        {
+            "type": "True",
+            "summary": "A morally complex ending: immediate disaster forces evacuation, exposing the need for systemic change. Some institutions reform, while others double down. Maya leads a new hybrid cooperative elsewhere; Sienna faces accountability but remains influential. The romance survives in a transformed form—partners in advocacy rather than domestic stability—underscoring that truth is process, not tidy resolution."
+        }
+    ],
+    "estimated_chapters": 6
+}

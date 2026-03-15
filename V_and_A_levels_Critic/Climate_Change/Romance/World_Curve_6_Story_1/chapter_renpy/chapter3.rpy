@@ -1,0 +1,145 @@
+label chapter3:
+
+    # [Scene: Old Promenade — Temporary Hearing Tent | Late Afternoon → Approaching Storm]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, low engine hum, the scratch of microphone feedback]
+    # play music "music_placeholder"  # [Music: Low, steady ambient — a taut, pulsing synth beneath the air]
+    "You stand behind the podium with the map-prints still warm from your palms. The resolve you hardened in the municipal plaza sits behind your ribs like a stubborn stone: not bright, but dense and useful. Your"
+    "braid is tucked under your collar; the compass is quiet in your jacket. You can feel the salt in your throat and the smell of wet wood and old rope under the polished plastic of the"
+    "tent."
+    "The tent is half civic pageant, half circus. A row of folding chairs fills quickly with neighbors; others hover along the back. People you recognize — Rafi with soil-smudged sleeves, Mrs. Ortega clutching a photo, and"
+    "Lio with paint-splattered cuffs — are all there, faces lit by the projection’s glow. You glance at them and notice how the light makes their eyes look like coastal glass, patient and wary."
+
+    scene bg ch3_98c6f2_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of the crowd, a distant siren that might be routine or might be something more]
+    "From the dais, the corporate spokesperson steps up first. Her image on the screen is surgical: a glossy render of a straight, gleaming barrier and placard text — 'GUARANTEED PROTECTION: 98% STORM REDUCTION.' The template is familiar: certainty dressed in steel."
+
+    "Corporate Spokesperson" "Our model projects a near-elimination of overtopping events within five years. This structure protects critical infrastructure and guarantees economic stability for Nueva Mar."
+    "Your stomach tightens the way it does before a tide turns. The slides are persuasive because they simplify the problem into a single answer. The city wants answers."
+    "Dr. Sima steps to the laptop and clicks her slides forward. Her face is lit from below by the screen; she looks like someone who has spent nights arguing with numbers and losing and winning at the same time."
+    show dr_sima_raza at left:
+        zoom 0.7
+
+    dr_sima_raza "The wall reduces immediate flood risk along key nodes. These models are clear about localized protection.' (She shifts.) 'But look at the ecological model overlay."
+    hide dr_sima_raza
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low, sympathetic hum from the crowd; someone says, "Oh."]
+    show dr_sima_raza at left:
+        zoom 0.7
+
+    dr_sima_raza "If we remove or truncate those marsh corridors, we see long-term amplification of risk. Wetlands attenuate wave energy, store sediment, and support livelihoods. Our projections show that, without those functions, maintenance costs and residual flood risk migrate and concentrate elsewhere — often into smaller, less-resourced communities."
+    "You can feel the tent's microclimate shift: the air thickens, people lean forward. Sima's voice is cautious but firm; she offers no easy heroics, only the data and the quiet ruin it suggests if choices ignore complexity."
+    "You step up when the chair gestures. The podium is worn and slightly sticky with storm residue; the microphone tastes of metal against your teeth when you breathe."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Mayor Velez, members of the board, neighbors — thank you for this time."
+    "(You pause, because you learned that silence can be a tool: it lets faces form in the listeners' minds.)"
+
+    maya_corvin "We are not asking for sentiment. We are asking for survivability that lasts beyond the quarter-cycle of an investment return. A hybrid solution — targeted structural reinforcement where essential, restored wetlands where possible, and managed retreat corridors where homes are indefensible — preserves both safety and the ways people live here."
+    "Your hand rests, briefly, on the stack of summaries. You pull one forward and let the practical drawings speak: cross-sections of a seawall integrated with tidal marsh inserts, diagrams of stepped retreats, and cost curves that show phased investment."
+
+    maya_corvin "Pilot this at the Low Row. Let us prove the model at neighborhood scale before you commit to a city-wide monolith."
+    # play sound "sfx_placeholder"  # [Sound: A reporter's camera clicks. A neighbor exhales audibly.]
+    "You can feel the tent's emotion tilt towards the hope you placed in the request: pragmatic, not romantic. But there is always a counterweight."
+
+    menu:
+        "Show the photo of the Promenade before the rebuild":
+            "You slide a faded photograph toward the dais — the old promenade, crowded with families and fishermen. There is a visible intake from the crowd; a few eyes go glassy. It humanizes the plan, a small bridge from data to memory."
+        "Double-down on a technical comparison chart":
+            "You click to the next slide: side-by-side flood models, projected maintenance costs. The room quiets; engineers in the tent exchange nods. The argument sharpens into numbers — precise, industrious, harder to dismiss."
+
+    # --- merge ---
+    "The scene continues."
+    "You watch the reactions ripple: a mother's hand tightens around her child's shoulder when she sees the photo; an analyst in the back leans forward at the charts. Both serve the same purpose — they pull the room toward you, but along different channels."
+    "Elias Kahn stands when his name is called. When he walks, his gait is the easy diplomacy you've seen in municipal hallways: measured, practiced, a man comfortable smoothing edges."
+    show elias_kahn at center:
+        zoom 0.7
+
+    elias_kahn "I've worked with Maya and the community on the technical summaries. I believe a phased approach — with clear milestones and accountability — will protect lives while bringing investors into a transparent process."
+    "Elias Kahn pauses, looking directly at you for a fraction longer than formality requires. There's an unspoken negotiation in that look: trust tempered by caution."
+
+    maya_corvin "You can hear the caution threaded in his words. He's offering process; he's offering time. You want urgency. You don't want patience to become inertia."
+
+    maya_corvin "Process is necessary, but process can be weaponized by delays. If we accept a 'phased' promise without locked-in pilots and benchmarks, we risk losing the wetlands before we get the data we need."
+
+    elias_kahn "I don't disagree. I only ask for a framework that doesn't tie us to one endpoint before we've tested alternatives."
+    "The board chair — Mayor Ana Velez — folds her hands with deliberate calm. Her scarf moves like a flag caught in slow wind."
+
+    "Mayor Velez" "Maya, Elias, Dr. Sima — you speak to competing truths. My obligation is to reduce harm to the largest number in the shortest time. The question I must weigh is what reliably protects people tomorrow versus what preserves them over decades."
+    "(She studies the crowd. Her voice is composed, not unfeeling.)"
+
+    "Mayor Velez" "Compromise will be required. Prove to me that the pilot reduces risk measurably within the first cycle, and we have a path."
+    "Before you can answer, a sharp voice cuts across the tent."
+
+    "Camila 'Kai' Navarro" "With respect, delay is the luxury we cannot afford. Storm intensity is accelerating. A robust, well-engineered seawall in critical sectors is the fastest way to prevent immediate loss. We can design it to meet ecological offsets later, but first — stop the water."
+    "Her tone carries both conviction and impatience. The corporate rhetoric is simple and fast: stop the bleeding now, worry about the scarring later."
+
+    maya_corvin "Kai, 'stop the water' is not neutral — it is a redistribution of risk. You harden a line; you starve the next curve of its buffer. People who don't have political capital end up drowning in the ensuing concentration of harm."
+
+    "Camila 'Kai' Navarro" "And if your pilot fails, more people drown while you tinker. Large-scale infrastructure buys time."
+    "(There is a hard edge to Kai's words; they are not only policy — they are a moral posture.)"
+    "The exchange lengthens, each sentence a careful shove. The chair interjects with procedural queries, forcing us into a slower cadence of questions and answers: funding timelines, maintenance responsibilities, legal accountability. The tent fills with the language of bureaucracy; it is comforting to some, infuriating to others."
+    # play sound "sfx_placeholder"  # [Sound: The wind lifts; canvas flaps in a heavier rhythm. Outside, a siren crescendos — not immediate panic, but an audible reminder of the stakes.]
+    # play music "music_placeholder"  # [Music: The ambient pulse quickens by a notch, maintaining mid-level tension]
+    "You feel the tent breathe as the weather presses in. The board polls the engineers, the municipal accountants, and the environmental counsel. You and Kai exchange a look: complex, unreadable. The Schrödinger of prior interactions sits"
+    "between you both — alliance possible, enmity possible, a braided possibility that neither of you can fully name here."
+
+    "Mayor Velez" "Given the technicals and the urgency, the board will not make a final decision today. We will schedule an expedited vote. That vote will have to consider immediate protections and longer-term resilience."
+    "The word 'expedited' is teeth and throttle. It's a half-step: not a yes, not a no, but a forced timeline that compresses options."
+
+    maya_corvin "An expedited vote buys time in calendar days but forces pressure in strategy. You can see three routes forming in your head like tidal channels: public pressure now; procedural negotiation through allies; or a risky rapprochement with corporate power."
+
+    "Board Member" "We expect detailed amendments to be submitted within seventy-two hours."
+    "A whisper travels in the tent; neighbors look at one another. Some faces harden into action; others look stunned by the speed of the squeeze."
+
+    menu:
+        "Call for an immediate neighborhood caucus outside the tent":
+            "You step down and call to the nearest cluster of neighbors. Within minutes Rafi, Lio, and half a dozen others form a ring on the wind-damp boards. Plans for leaflets, social livestreams, and a night watch at the plaza begin in the air like seeds. Energy gathers."
+        "Ask Elias for a private meeting after the hearing":
+            "You catch Elias's eye across the rows and mouth 'Now?' He nods almost imperceptibly. A plan for quiet amendments and a shared language with the mayor begins to form in hushed tones. It's slow and surgical."
+        "Request a private technical sit-down with Kai":
+            "You approach Kai by the projection rig. Her expression doesn't soften, but there is a flicker of pragmatic interest. 'Bring your models,' she says. 'Prove ground truth, and I'll bring engineering resources.' The offer smells like compromise — and like danger."
+
+    # --- merge ---
+    "The scene continues."
+    "Whatever you choose in that hot moment will not rewrite what happened inside the tent, but it will shape the next seventy-two hours."
+    # play sound "sfx_placeholder"  # [Sound: The siren fades into the background as gusts push spray against the old promenade pilings. The board boxes up the hearing with formal language: 'delayed decision,' 'expedited vote,' 'submissions required.']
+    "The crowd begins to move, some in clusters to a nearby café, others toward the boardwalk where the wind already plays with loose paper. You fold your summaries, but your hands tremble in the way of"
+    "someone who knows the next steps will be logistical wars: phone trees, petitions, design revisions, fundraising, bargaining."
+
+    maya_corvin "You are exhausted, but the exhaustion is ordered now; like a list that makes action possible. You measure the options by the things you hold most dear: community autonomy, ecological function, immediate safety. None of them line up without compromise."
+    "Your chest tightens as the tent's lights sway. You can taste the salt in the air with a sharper edge, like a countdown on the tongue."
+    "Around you, neighbors begin to argue softly about strategy. Lio pulls you aside, eyes bright in the dim."
+    hide dr_sima_raza
+    show lio_corvin at left:
+        zoom 0.7
+
+    lio_corvin "We can blow this up on the airwaves. Get everyone to vote. Make it noisy."
+    hide maya_corvin
+    show rafi_odeh at right:
+        zoom 0.7
+
+    rafi_odeh "Noise helps, but so does paperwork. We can't just shout; we need leverage."
+    "A woman you don't know reaches for your hand and squeezes it hard enough to startle you."
+
+    "Unknown Neighbor" "Do whatever it takes. We can't lose another season."
+    "You look at the three paths unfurling and feel the tide of the tent pressing at your ankles."
+    hide elias_kahn
+    hide lio_corvin
+    hide rafi_odeh
+
+    scene bg ch3_98c6f2_4 at full_bg
+    "You know you must choose how to pursue influence before the expedited vote. None of the options is pure. All are necessary in pieces. The board's calendar has compressed reality into a choice that will ripple out in ways you cannot fully foresee."
+    # play music "music_placeholder"  # [Music: Resolute, steady note; the mid-arousal tension sits at its crest, waiting to be acted upon]
+
+    menu:
+        "Push the neighborhood referendum — mobilize public voices.":
+            jump chapter4
+        "Work through Elias to negotiate a municipality-corporate compromise.":
+            jump chapter7
+        "Meet Kai privately to explore a technical joint proposal.":
+            jump chapter13
+    return

@@ -1,0 +1,124 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the engine of relationship stakes: adaptation choices force intimate, ethical decisions that test trust and values. The core conflict is between community-led ecological solutions and large-scale political/engineering responses — a triangle of loyalties (protagonist, a scientist, and a planner) creates personal and ideological tension so romances are inseparable from moral consequences.",
+    "setting": "Near-future coastal city of Corvena Bay — a once-thriving fishing and shipbuilding town transformed by rising seas and unpredictable storms. The timeline is 10–15 years from now: resilient technologies exist but resources are scarce, and social fracture over who to save has begun. Atmosphere: humid salt air, frequent low clouds, streaked sunlight after storms, a mix of reclaimed green infrastructure and patched-up concrete.",
+    "visual_style": "Painterly anime with weathered textures, muted coastal palette (sea greens, salt-grays, rust orange), cinematic lighting, soft film grain, character-focused close-ups, environmental detail for decay and regrowth.",
+    "main_characters": [
+        {
+            "name": "Mara Kestrel",
+            "role": "Protagonist",
+            "personality": "Determined, compassionate, fiercely protective of community; organizes with practical optimism but carries lingering guilt from past losses. Quick to listen, slow to accept help; values consensus but can become stubborn when pressured.",
+            "appearance_features": {
+                "hair": "Dark chestnut, short asymmetrical bob with wind-tousled texture and tide-streak teal dye at the tips",
+                "eyes": "Sea-glass green, wide and often reflective, framed by faint crow's feet from sleepless nights",
+                "clothing": "Weathered olive canvas jacket with stitched-on patches of local cooperatives, layered over a salt-streaked knit sweater and reinforced utility trousers; scuffed rubber boots with dried marsh mud",
+                "accessories": "Battered leather field journal with pressed seaweed pages, a hand-knit gray scarf with a moth-eaten corner, a small silver compass pendant on a frayed cord"
+            },
+            "goal": "Protect her neighborhood and create a sustainable, community-driven adaptation plan that doesn't sacrifice the vulnerable.",
+            "background_story": "Grew up in a fishing family; after a major storm destroyed their harbor and took her father's boat, she helped form a co-op to rebuild livelihoods. Became a local organizer and unofficial mediator between residents, NGOs, and the city.",
+            "emotional_trait": "Strength: deep empathy and resilience. Flaw: guilty over past losses, she overcommits and avoids asking for help until exhausted."
+        },
+        {
+            "name": "Elias Navin",
+            "role": "Love Interest",
+            "personality": "Pragmatic, quietly romantic, patient and methodical. Trained scientist who values data and small-scale iterative solutions; struggles to translate technical optimism into public trust.",
+            "appearance_features": {
+                "hair": "Sandy blond, loosely tied back into a short ponytail with soft curls escaping around the ears",
+                "eyes": "Steel-blue, narrow and observant; wears thin-rimmed rectangular glasses that fog in sea spray",
+                "clothing": "Crinkled white field shirt under a high-collared waterproof parka with multiple instrument pockets, faded utility jeans, and heavy rubber boots stained with algae",
+                "accessories": "A portable sensor wristband that emits a faint green pulse, a water-smudged field notebook filled with coral and marsh sketches, an old brass watch inherited from his mentor"
+            },
+            "goal": "Develop and scale regenerative living breakwaters and reef systems to reduce wave energy and restore marine habitat.",
+            "background_story": "Left Corvena to study marine biology and coastal engineering, returned when funding allowed to apply living-structure solutions. Lost a mentor during a rescue years ago, which drives both his technical rigor and reluctance to make public promises he cannot prove.",
+            "emotional_trait": "Strength: analytical calm under pressure. Flaw: emotional reserve — he often buries feelings in data and hesitates to commit fully to relationships for fear of destabilizing them."
+        },
+        {
+            "name": "Jun Park",
+            "role": "Antagonist",
+            "personality": "Charismatic, decisive, fiercely practical. A strategic thinker who prioritizes large-scale, measurable outcomes; privately tormented by the compromises political reality forces upon ideal plans.",
+            "appearance_features": {
+                "hair": "Jet-black, undercut with a longer swept-back top kept immaculate even in wind",
+                "eyes": "Warm amber, almond-shaped, with an intensity that reads as both charm and calculation",
+                "clothing": "Tailored deep-indigo waterproof coat over an eco-fabric button shirt, slim flood-resistant trousers, and polished boots; his look is clean and purpose-built",
+                "accessories": "A discreet earpiece for constant council updates, an architect's scale ruler engraved with his initials, a minimalist maple wood bracelet worn since childhood"
+            },
+            "goal": "Implement a city-wide adaptation plan (including managed retreat zones and engineered flood barriers) to save the city as a whole, even if some neighborhoods must be sacrificed.",
+            "background_story": "Childhood friend of Mara who left to study urban planning and rose through municipal ranks. He returned with the conviction that tough choices are necessary; political pressure has hardened him into someone who makes decisions others resent.",
+            "emotional_trait": "Strength: decisive leadership. Flaw: justifies harmful compromises and suppresses guilt, which distances him from the people he wants to protect."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Ivy Kestrel",
+            "relation_to_main": "Younger sister of Mara",
+            "appearance_summary": "Short, sun-freckled face, curly auburn hair in a messy bun, practical overalls splattered with soil and paint.",
+            "function_in_story": "Moral conscience and grounding presence for Mara; pushes for hopeful artful community rebuilding and voices what the youngest residents need."
+        },
+        {
+            "name": "Rosa Alvarez",
+            "relation_to_main": "Community elder and mentor figure",
+            "appearance_summary": "Silver hair braided with salt-bleached reeds, deep brown eyes, wrapped in layered shawls dyed with sea-indigo.",
+            "function_in_story": "Keeper of local history and cultural memory; bridges generational tensions and offers counsel during council hearings."
+        },
+        {
+            "name": "Theo Mendes",
+            "relation_to_main": "Friend and NGO technician who helps Elias",
+            "appearance_summary": "Messy black hair, quick smile, techwear jacket with modular pockets and a solar pack slung on his shoulder.",
+            "function_in_story": "Provides technical support for living infrastructure experiments and comic relief; his coding and hands-on skills are pivotal in trial deployments."
+        },
+        {
+            "name": "Councilwoman Lian Mor",
+            "relation_to_main": "Political antagonist aligned with Jun's mandate",
+            "appearance_summary": "Sleek silver bob, tailored power suits with reflective panels, and a neutral, authoritative air.",
+            "function_in_story": "Represents constrained municipal authority; must balance budgetary realities and votes, forcing moral compromises that drive plot decisions."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Strand (Low-tide Boardwalk)",
+            "visual_description": "A long wooden boardwalk scarred by salt and patched with planks of different vintages; morning golden light filters through lingering fog, puddles mirror the sky, bleached nets and buoy markers hang from rails. Color palette: salt-white, driftwood brown, algae green. Atmosphere: intimate, tactile — a place for whispered confessions and community meetings."
+        },
+        {
+            "name": "Tideworks Lab (Makeshift Field Lab)",
+            "visual_description": "A converted shipping container at the harbor's edge, interior lit by warm task lamps and bioluminescent tank glows. Surfaces streaked with salt, glass jars of specimens, charts taped to corrugated walls. Outside, mooring lines creak and gulls circle under a pale, shifting sky. Colors: fluorescent lab greens against rust and ocean blue."
+        },
+        {
+            "name": "Salted Rooftop Garden (Sky-Farm)",
+            "visual_description": "A reclaimed rooftop greenhouse of corrugated glass and reclaimed timber, misted with desalinated water. Soft, diffused sunlight through salt-veined glass, rows of halophyte plants in raised beds, hanging lanterns for evening conversations. Colors: verdant greens, warm amber lights, and soft terracotta paths. Mood: hopeful and private — a refuge above floodlines."
+        },
+        {
+            "name": "The Basin (Community Floodplain Garden)",
+            "visual_description": "A low-lying public garden built in a shallow basin designed to collect stormwater; muddy paths bordered by grasses and young mangrove stands. Overcast light after rain, reflective puddles, community art made from salvaged metal. Colors: wet charcoal, fresh moss, rusty reds. Atmosphere: communal, a place of repair and ritual."
+        },
+        {
+            "name": "City Hall Glass Atrium (Council Chamber)",
+            "visual_description": "A modern glass atrium with stark lines, polished concrete, and columns of water-stained stone; afternoon sun slants through blinds creating sharp shadows. Screens display tide forecasts and budget tallies. Colors: clinical grays, cobalt digital displays, occasional banners of civic pride. Mood: bureaucratic pressure, public scrutiny."
+        },
+        {
+            "name": "Old Beacon Lighthouse (Ruins)",
+            "visual_description": "A crumbling lighthouse perched on a jagged breakwater, roofs missing tiles; broken glass refracts dusk light, sea spray coats the stones. Twilight blues and storm-pale clouds dominate, with warm lamp glow when lit. Atmosphere: melancholic, a place for decisive confrontations and memory scenes."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance & Moral Choice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A hybrid solution is implemented: living breakwaters and targeted infrastructure protect key zones. The community secures funding for equitable relocation where necessary. Mara and Elias build a partnership—personal and professional—anchored in trust. Jun stays in office but shifts tactics, and damaged neighborhoods slowly recover."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Compromise leads to saving the city’s core but some neighborhoods are surrendered to managed retreat. Mara negotiates protections for displaced residents but loses parts of her childhood community. Elias departs to scale solutions elsewhere; he and Mara part amicably, their love remembered but unresolved."
+        },
+        {
+            "type": "True",
+            "summary": "Mara rallies a grassroots movement that forces an ethical re-evaluation of the municipal plan. A courageous, albeit painful, communal retreat paired with ecological restoration becomes the new model. Relationships survive in altered forms: Jun admits his mistakes and begins reparative measures; Mara and Elias remain committed partners leading the next phase of rebuilding together."
+        },
+        {
+            "type": "Sad",
+            "summary": "A violent, unexpected storm overwhelms the city before plans take effect. Critical infrastructure fails, and there are significant casualties and displacement. Political fracture deepens, and personal relationships break under grief. Survivors live with heavy loss and hard lessons about timing and hubris."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

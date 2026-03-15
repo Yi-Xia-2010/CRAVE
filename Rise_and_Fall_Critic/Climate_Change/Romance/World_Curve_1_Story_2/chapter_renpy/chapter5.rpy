@@ -1,0 +1,183 @@
+label chapter5:
+
+    # [Scene: Greenhouse Rooftop Lab | Late Afternoon]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, rising strings — hopeful, steady]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, low hum of pumps and a faint purr of a tide-monitor]
+    "You press your palm to the wrist-patch like you did before, feeling the small weight of the confirmation settle in your hand. The notification on the screen still reads the same line you saw an hour"
+    "ago: Conditional Grant Approved — First Tranche Pending Verification. It tastes less like luck and more like leverage."
+    "Around you, the rooftop breathes — the hydroponic trays exhale wet warmth, the greenhouse metal smells faintly of salt and copper, and the air is threaded with the sweet, briny tang of young kelp. Elias is"
+    "at the corner bench, knees tucked against him on the narrow stool, fingers stained with algae from the samples he's catalogued. He looks up when you exhale; the motion makes the light catch the glass pendant"
+    "at his throat. For a suspended second it looks like a tiny, breathing star."
+    show elias_maren at left:
+        zoom 0.7
+
+    elias_maren "We have leverage. Amina can move money if we make a plan she can measure. That gets us more boats, more anchors. It gets more hands out there sooner."
+    "You feel gratitude swell — not the small, private kind you bury in your chest, but a warm, outward pressure that makes you want to hand it back to the people around you. Jun appears at"
+    "the greenhouse hatch, boots leaving wet prints, carrying a battered toolbag and a thermos that smells of bitter coffee. Riv's laugh echoes from below as someone passes a sample jar up through the window."
+    show jun_park at right:
+        zoom 0.7
+
+    jun_park "You look lighter. Good. We need that. Listen — people want a stake. They don't want to be token volunteers. If we build this right, it can pay neighbors, not just invoices."
+    "You let your fingers close around the braided string on your wrist — the old reflex that steadies the shoulders, that keeps you from shouldering everything alone. The string is rough under your skin; it is"
+    "a reminder of your mother's hands, of the workshop and the late nights bent over pumps and nets. You're not the only one with a claim on this project. Elias's maps are a scaffolding; Jun's hands"
+    "are a way to build it; the grant is a lever."
+    "Elias Maren rises and comes closer. You can smell the kelp on him, the ocean's clean, dark scent, and beneath it a faint trace of coffee and sea-salt sweat. He kneels and pushes a monitor toward"
+    "you, the screen showing a simple, pulsing graph — projected kelp density, projected carbon uptake, a tidy line that says 'impact' in clean numbers."
+
+    elias_maren "Municipal funding buys us scale faster. It makes the science easier to defend. Amina listens to grants and metrics. And —' (he meets your eyes, voice threading hope and something steadier) '— it's easier to ask people to keep working if their jobs are funded."
+    "You want to say yes on the spot because yes is the honest answer to the pull in your chest: faster boats mean more anchors, more people trained, fewer nights you sleep with the town's tide-forecast"
+    "buzzing like a mosquito behind your ear. But you remember Jun's words: people want ownership."
+
+    menu:
+        "Ask Elias to draft a municipal-friendly metrics plan now":
+            "You lean over the monitor and point to the projected timelines. Elias Maren nods, already scrolling through his notes to match numbers with the community workshops. He looks relieved, like someone handing a map to a partner."
+        "Insist we take it to the neighborhood committees first":
+            "You fold your arms and speak firmly about co-ownership. Jun's grin widens; Elias Maren's eyes narrow with patient curiosity — he asks who you'd like him to bring to the first committee meeting."
+
+    # --- merge ---
+    "Continue to next scene"
+    # [Scene: Workshop — Main Floor | Early Evening]
+    hide elias_maren
+    hide jun_park
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low chatter from a nearby community meeting; the smell of oil, wet canvas, and warm wood]
+    "You lead them down into the workshop where tools lean like old friends. The metal key you keep in the palm of your hand feels ordinary until you press it into the grain of the bench;"
+    "then it is a talisman, a proof that the work is inheritably yours and therefore, paradoxically, not yours to hoard."
+    "Mayor Amina Bakar meets you at the threshold — scarves wrapped and ceremonial but not remote. Her eyes hold the patient gravity of someone who balances budgets against pulsing needs. She offers a folded municipal memo: conditions, oversight, and a timeline that looks aggressive."
+    show mayor_amina_bakar at left:
+        zoom 0.7
+
+    mayor_amina_bakar "It's conditional. We can release the tranche if we can align the pilot to municipal procurement and labor audits. It reduces risk for the town council and ensures accountability for spending. It also opens doors to matching funds from regional partners."
+    show jun_park at right:
+        zoom 0.7
+
+    jun_park "Accountability's fine as long as it doesn't become us writing reports for their photo ops."
+    "Amina's smile is small, and not quite indulgent. She understands the sting of being moralized to."
+
+    mayor_amina_bakar "I want to see this last. For the town to see it last. But I also want to trust you, Mika. You have people who follow your lead; that's rare. The metrics give me something the council can vote for."
+    "Elias Maren stands a little behind you, quiet. He folds his hands as if holding the gears of some imagined machine steady."
+    show elias_maren at center:
+        zoom 0.7
+
+    elias_maren "We can build metrics that are meaningful to residents — job-hours created, kelp density, shoreline attenuation. Not just numbers for a vote. We can make the metrics reflect people's lives."
+    "Jun nudges your shoulder. His voice is lower, practical."
+
+    jun_park "Or we form a co-op. People own a piece, make decisions at kitchen tables, split revenue from kelp sales or carbon credits. It costs more time but it keeps wealth local."
+    "There's a pause — the kind of silence where a dozen different futures sit, breathing against the ceiling. You feel the old reflex to make the decision yourself, to be the one to choose and carry"
+    "the consequences. But the grant — the mayor's conditional money — insists that this is bigger than you. The greenhouse and the workshop and the nets are small nodes in a system you cannot hold alone."
+    hide mayor_amina_bakar
+    hide jun_park
+    hide elias_maren
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play music "music_placeholder"  # [Music: The strings swell, then settle into a brighter motif — possibilities unfolding]
+
+    menu:
+        "Tell Amina we'll draft a municipal-aligned plan immediately":
+            "You fold the memo under your palm and say yes. Amina's relief is visible; she slips an older logbook across the bench — 'municipal contacts' — and instructs an aide to set a rapid planning meeting. Elias Maren lets out a breath, already listing data points aloud."
+        "Propose forming a community cooperative first":
+            "You speak up, describing a governance charter and local stakes. Jun grins, Riv starts mapping a flyer in his head, and Amina's brow lifts — skeptical but intrigued. Elias Maren asks a careful question about revenue distribution, which you answer with hands-on clarity."
+
+    # --- merge ---
+    "Continue to next scene"
+    # [Scene: Voss Development Office (Meeting Room) | Night]
+
+    scene bg ch5_4001e7_4 at full_bg
+    # play music "music_placeholder"  # [Music: A gentle piano motif, hopeful but with crisp, clean intervals]
+    # play sound "sfx_placeholder"  # [Sound: The faint click of a presentation remote; the room smells of polished wood and the distant sea]
+    "Soren is already in the room when you arrive. He offers a smile that is all polish and promise. His data-bracelet projects glossy renderings above the table — aerial shots of the town with neat, raised terraces and modular kelp platforms that look like chess pieces on water."
+    show soren_voss at left:
+        zoom 0.7
+
+    soren_voss "We can scale this exponentially. Engineering adds predictability — levees, modular breakwaters with kelp integrated into their design. We fund the expansion, we handle logistics, we deliver on timelines. People get work and a safer shore."
+    "He taps the projection and a simulation runs: waves lift and fail, harbors stay below the high line. It is persuasive in a bone-deep way you feel in your sternum."
+    "Elias Maren's jaw tightens. He leans forward."
+    show elias_maren at right:
+        zoom 0.7
+
+    elias_maren "Soren, 'predictability' can't be an excuse to strip agency. The ecology needs room to breathe. Kelp needs different anchor points, different light regimes. If we make it industrial, we lose the functions we are trying to protect."
+    "Soren Voss's smile softens, not into defeat but into a practiced concession."
+
+    soren_voss "Then we build safeguards into the contract, scientifically-grounded measures and independent audits. I want to do this right; I just don't see the point in dithering when we can deploy at scale."
+    "You see the muscle memory in Soren Voss's posture — the way he shapes sentences into plans that sound like salvation. The mayor watches, weighing votes and optics and grant matchings. Jun leans in, knuckles white on the table."
+    show jun_park at center:
+        zoom 0.7
+
+    jun_park "Soren's capital moves fast, but if we do it, we do it so people have jobs by the season, not just promises on a brochure. Who writes the contract? Who enforces the safeguards?"
+    "Mayor Amina Bakar taps a pen against the memo."
+    hide soren_voss
+    show mayor_amina_bakar at left:
+        zoom 0.7
+
+    mayor_amina_bakar "I will consider partnerships that bring capital and engineering, but I'll need governance language. Independent measures. Community representation in oversight. If those are on paper and enforceable, the council can vote. This is the condition the tranche comes with."
+    "You feel the old guilt like a weight in the throat: the nights you stayed up fixing pumps while others slept, the vague promise to your mother's memory that you would keep Atera's dignity intact. The"
+    "word that tugs is 'together' — but what does together look like when capital and community are asked to share a table?"
+    "Elias Maren places a hand on the back of a chair and meets your eyes. There is a softness there that steadies the chest-stuffing guilt and turns it toward something like courage."
+
+    elias_maren "Whatever we choose, I want it to be something people can see themselves inside of. Not just recipients, but co-authors."
+    "Soren Voss glances at you, his gray eyes studying you like a blueprint. There's something almost vulnerable in his admission about wanting to do it right; you sense the contradiction and the possibility both at once."
+    hide elias_maren
+    show soren_voss at right:
+        zoom 0.7
+
+    soren_voss "If you let me, Mika, I will move the scale necessary so your kelp isn't a sandbox but a system. I'll sign on to enforceable ecological clauses. Use my network to get us regional buy-in."
+    "The offer hangs — not coercive, but full of gravitational pull. It would solve logistics. It would also mean strings, and compromise, and the kind of political entanglement that has cost people before."
+    "You breathe in the engineered air, think of the greenhouse light, the smell of kelp on Elias Maren's skin, Jun's pragmatic grin, Amina's steadying presence, and the city's reflection on the glass. The town is a"
+    "web of needs and promises, and somewhere inside, your mother's key feels like a compass pointing away from a lonely path."
+    "You find your voice in the hush."
+    hide jun_park
+    show mika_hoshino at center:
+        zoom 0.7
+
+    mika_hoshino "We won a chance. We can either build with the town in the center, or we can build a monument that looks like help. If we accept capital, it needs teeth. If we go municipal, metrics need to mean people. If we build a cooperative, it needs viability and not just idealism."
+    "Elias Maren offers a quick, hopeful smile. Jun cracks a half-laugh, exhaling a tension he didn't know he'd held."
+    hide mayor_amina_bakar
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "And if you say 'co-op' loud enough, Riv will plaster the whole town in flyers."
+    "Riv's voice from the doorway is bright and conspiratorial."
+    hide soren_voss
+    show ravi_riv_delgado at right:
+        zoom 0.7
+
+    ravi_riv_delgado "I'll do the art. People show up for art."
+
+    menu:
+        "Press Soren hard on enforceable safeguards now":
+            "You lean into the window reflection and name specific clauses: independent audits, community board seats, phased rollouts with ecological stop-conditions. Soren Voss nods; his jaw tightens and he asks for counsel's time — the conversation turns legal, and Amina approves a draft review."
+        "Ask for a short pause to bring the town together first":
+            "You ask for 48 hours to convene a kitchen-table meeting. Elias Maren and Jun exchange looks — it's slower, but the room relaxes. Soren Voss agrees reluctantly, and Amina makes a note to hold the tranche decision while you consult the community."
+
+    # --- merge ---
+    "Continue to next scene"
+    # [Scene: Greenhouse Rooftop Lab | Night — Back Where It Began]
+    hide mika_hoshino
+    hide jun_park
+    hide ravi_riv_delgado
+
+    scene bg ch5_4001e7_5 at full_bg
+    # play music "music_placeholder"  # [Music: Linger of strings, quietly affirmative]
+    # play sound "sfx_placeholder"  # [Sound: The distant murmur of people still talking in the night; the greenhouse fan hums a soft lullaby]
+    "You climb back up to the rooftop alone for a moment. The town's lights pool in the harbor like a reflection of stars brought down to water. Your hands find the dented metal key in your"
+    "pocket; it's warm from the body heat of your jacket. You think of your mother and the way she taught you to fix things: not because everything could be made whole, but because repair is itself"
+    "an argument against giving up."
+    "You are tired but not hollow. The grant is a lever — and what kind of lever you become depends on how you use it. The options are not merely bureaucratic; they are the shape of"
+    "the town you want to wake up to. You feel the knot in your chest loosen as you hear Elias Maren's voice behind you, quiet and certain."
+    show elias_maren at left:
+        zoom 0.7
+
+    elias_maren "Whatever you choose, I'm with you. I trust your judgment."
+    "There is a steadiness in his voice that banishes some of the old loneliness. You don't have to carry the guilt alone anymore; you have people who will argue with you, who will hold you to"
+    "standards and who will help you meet them. That is a new kind of heavy — shared and therefore survivable."
+    "You look toward the horizon and imagine kelp swaying in orderly groves, people hauling in boats in daylight that is not a panic-lit night, a town that hums with work and laughter and the occasional stubborn"
+    "argument at the council table. The future is a scaffold, and tonight you've gotten more planks."
+    "Page-Turn Thought: This is a hinge. One more step and the direction becomes practice. The choice you make will unfurl specific rhythms into daily life — payrolls, meetings, kitchen-table governance, legal clauses, or glossy infrastructural contracts."
+    "But each path promises movement forward, an expansion of the work you started. The town will build something with these planks. You will decide which hands pick them up first."
+    # play music "music_placeholder"  # [Music: A hopeful chord sustains, then softens into an anticipatory silence]
+
+    jump chapter6
+    return

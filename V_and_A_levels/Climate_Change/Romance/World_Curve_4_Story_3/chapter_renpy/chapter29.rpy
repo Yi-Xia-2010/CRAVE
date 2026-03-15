@@ -1,0 +1,206 @@
+label chapter29:
+
+    # [Scene: Marabel Promenade | Early Morning]
+
+    scene bg ch15_735866_1 at full_bg
+    # play music "music_placeholder"  # [Music: Dissonant strings, urgent tempo]
+    # play sound "sfx_placeholder"  # [Sound: A thin pattern of Beacon pings undercut by distant legal horns and drone rotors]
+    "You press your palm into the pocket where the brass compass rests and feel the metal cold through fabric — a small, honest weight in a morning that has lost its innocence. The Beacon's thin alarm"
+    "still runs in your chest like a foreign tide; the court notices arrived at dusk and the town meetings have become hearings. You keep thinking of the last time the lab feed blinked and hope turned"
+    "its face toward procedure. That night dissolved into subpoenas and press releases, and somehow the sea found room in the gaps."
+
+    "Salt and asphalt and the burned-sugar smell of an abandoned stall hang in the air. Fewer vendor canopies flap today; the market's laughter has been thinned by notices taped to lampposts" "Property Covenant Pending."
+    "You look up and the Beacon pulses coldly, a lighthouse that now points inward to contracts instead of outward to weather. Lila Park's name moves through the town like a tidal current — a withdrawal letter, a statement; an absence that makes space for other hands, hands with different aims."
+
+    scene bg ch15_735866_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Crowd murmur rising; a gavel-like thud from an adjacent public hearing]
+    "You hear Noah's voice before you see him — measured through a megaphone, then nearer, then right behind you."
+    show noah_reyes at left:
+        zoom 0.7
+
+    noah_reyes "Asha. I sought you at the hearing but you were gone. They put the panel in the old library; chairs filled in minutes."
+    "You turn. His coat smells of printer ink and the same sea that eats away at foundations. He holds a rolled stack of papers and his face is a map of small compromises — the tired"
+    "lines around his mouth, the way his fingers shake just a touch when he hands you a page."
+
+    noah_reyes "They offered terms. Not what you wanted, not what I wanted. But—"
+    "You brace for the rest of the sentence because it feels like a hinge."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "But?"
+
+    noah_reyes "—I stayed in the room. I argued for resident seats on the board. I pushed for community oversight clauses. They… listened enough to make the investors stay. There are guarantees, Asha. Limited, imperfect, but real."
+    "You look at the contract in his hand. The clauses are precise, typed in the kind of serenity investors like to pray to. Somewhere in the legalese is the hush that buys roofs tonight and gates tomorrow."
+
+    asha_moreno "What did you have to give to get them to listen?"
+    "Noah swallows, and the steady measure that usually steadies others wobbles."
+
+    noah_reyes "My word that I'll lead the technical team. I'm staying to make sure the sensors—everything—are configured to open for public access. It's a foothold. I can—"
+    "You hear the word foothold and it sounds like a foot placed on somebody else's land."
+
+    asha_moreno "You promised to build trust with me, Noah. Not to keep watch from inside a cage."
+    "Noah's eyes flash: he wants to answer, to bridge this fissure with reasoning, but the plaza around you is a chorus of pressure — contractors, lawyers, a woman sobbing into a folded flyer — and his pragmatism folds inward like a shield."
+
+    noah_reyes "If I refuse, someone worse takes the job. If I leave, the sensors will be locked by a board that doesn't care. I can keep us in the room. I can—"
+    "You cut him off, because you remember the small, private way his hand once reached across a map to find yours."
+
+    asha_moreno "Keep us in the room? Keep who, Noah? The town? Ourselves? You can keep a seat and watch the room grow smaller."
+    "Noah's jaw tightens; he meets your gaze with a steadiness that is almost pain."
+
+    noah_reyes "I am trying to save what I can. I don't want to abandon Marabel the way I almost did when—"
+    "He leaves the sentence rough, a memory of an earlier absence you both learned from. The public noise swells: an argument at the market about entry fees, someone shouting about legacy rights, a child asking why their auntie's stall is missing."
+
+    asha_moreno "You said you'd never let money change the story of this town into a case study."
+
+    noah_reyes "I didn't — ' (he inhales sharply) 'I can't watch everything I love be sold to people who will only run tests and leave. I can stand inside and make the engineers remember names. I can keep the algorithm honest. Asha, please. Stay."
+    "His voice cracks at the end, and the crack sounds like a literal tearing: the sound a fabric makes when a hand chooses a different path."
+
+    menu:
+        "Reach for his hand":
+            "You let your fingers close on his wrist, feeling the heat and the tremor. For a second you imagine the town held by two steady hands."
+        "Step back and hold the compass":
+            "You draw the brass from your pocket, its cool rim cutting a small circle against your palm. The metal is an old map you did not want to follow today."
+
+    # --- merge ---
+    "Continue the scene."
+    "The plaza's noise spikes — a legal van rolls by with 'Covenant Services' on its side. A vendor sets down a shutter and walks off, carrying a box of jars that won't fit into the new"
+    "ledgered economy. A cluster of homeowners argue with a representative in a neat suit; the sound of their voices is urgent and raw."
+    # [Scene: Beacon Plaza | Late Morning]
+    hide noah_reyes
+    hide asha_moreno
+
+    scene bg ch15_735866_3 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, rapid strings; heartbeat tempo]
+    # play sound "sfx_placeholder"  # [Sound: Podium murmurs, the rustle of legal pads, a distant siren]
+    "Mayor Rosa Alvarez stands before a small press of cameras, hands folded into a practiced calm. Her floral scarf looks out of place against the stainless formality of the Beacon's glass. She meets your eyes and the recognition there is immediate — long alliances weathered into cautious care."
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "Asha. I know this is not the future we wanted. You know what we had to weigh.' (she meets your face) 'When the firm's legal team threatened to withdraw everything entirely, we had to find alternatives. Investors came forward to fill the gap. We insisted on community seats. We won the wetlands fund. We kept houses standing."
+    "You watch the way she chooses the verbs — won, insisted — as if they could stitch what has been ripped."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "At what cost, Rosa? To whom will those houses belong when rates rise? Who signs access agreements when someone older needs their front room back? You can't buy time and call it justice."
+
+    mayor_rosa_alvarez "I know. People are being displaced today and that will haunt me. I held meetings all night. I signed what I thought would save as many as possible."
+
+    asha_moreno "Signed what they wrote, Rosa. That's the point — the signatures were theirs to offer, and ours to accept because we had nothing else in the dock."
+    "A woman behind the Mayor's shoulder begins to cry with that old, exhausted sound; a man mutters about 'model towns' and 'pilot communities' like curses and currencies."
+    "You feel something rise in you — a heat that is not anger alone but a furnace made of grief and betrayal. The arousal in the plaza is a pressure: legal orders, bureaucratic promises, investors in sunglasses writing checks onto new maps of ownership."
+
+    menu:
+        "Call out the managed-access clause to the cameras":
+            "You step forward, voice raw. The cameras pivot. 'Who will be able to use the Beacon when their credit score fails them?' you ask, naming the clause that will gate memory."
+        "Quietly step away from the podium and document the vendors":
+            "You lower your head and walk the market, taking names and faces, small resistances that can be reassembled later into witness lists."
+
+    # --- merge ---
+    "Continue the scene."
+    "You choose — or do not — and the choice tastes like salt."
+    # [Scene: Old Boatyard / Edge of Market | Noon]
+    hide mayor_rosa_alvarez
+    hide asha_moreno
+
+    scene bg ch15_735866_4 at full_bg
+    # play music "music_placeholder"  # [Music: A harsh, held note; then the rumble of heavy boots]
+    # play sound "sfx_placeholder"  # [Sound: The distant thrum of a delivery drone, voices raised]
+    "Eli Duarte finds you among the boats, sawdust in his hair and a face carved by the work of hands. He looks at your palms as if trying to read the compass marks."
+    show eli_duarte at left:
+        zoom 0.7
+
+    eli_duarte "They told us we'd be preserved as a demonstration site. They told me they'd fund a community workshop.' (he spits the words, disgusted) 'And then the paperwork put a lock on who can learn the craft."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "They call it stewardship; it's extraction dressed up in glossy tags."
+    "Eli's jaw tightens."
+
+    eli_duarte "Noah took a job overseeing the tech. He did what he thought kept the town whole. But half the market can't afford the access passes. Half the old fishermen are—"
+    "He can't finish. You have to finish it for him. You see faces in the crowd: Marta clutching a gardening apron now fenced off by QR codes, a vendor leaving a child with a neighbor because their stall will be repossessed under covenant terms."
+    "Your chest aches with a high, hot pressure. The pace of everything ramps — legal notices, eviction forms slid beneath doors, the Beacon's lights cycling in a pattern that belonged once to weather and now belongs to occupancy thresholds."
+
+    asha_moreno "We traded a whisper of control for a steel door. We wanted a town. We built a museum."
+    "Eli slams a palm on a hull's wet side; the sound echoes like a verdict."
+
+    eli_duarte "You leaving us to fight that museum from the outside won't feel like principled, Asha. It'll feel like abandonment."
+
+    asha_moreno "And staying to keep a single seat at their table feels like consent."
+    "He stares at you, the man who once taught you how to splice rope, the same salt in his laugh and in his anger. Around you both, the market's hum becomes a machine's hiss."
+    # [Scene: Promenade Cliff Edge | Dusk]
+    hide eli_duarte
+    hide asha_moreno
+
+    scene bg ch15_735866_5 at full_bg
+    # play music "music_placeholder"  # [Music: Slow, discordant strings, a rising undertow]
+    # play sound "sfx_placeholder"  # [Sound: Whisper of tidal water, distant construction]
+    "You sit on the edge of the Promenade where the boards give way to sea-grassed bogs. The town lights look arranged now like a model — precise, fenced, curated. The market across the way is smaller,"
+    "punctuated by managed kiosks with digital LRP signs. The scent of fried dough is faint, almost ancestral, and the gulls wheel without the noisy accompaniment of children."
+    "Your fingers find the brass compass and lift it to the light. The metal catches the Beacon's cold glare and flings it into your palm like an accusation."
+    "Noah approaches slowly, his steps careful as if each one mustn't wake the argument again. He stops a few feet away, hands empty, the rolled papers gone."
+    show noah_reyes at left:
+        zoom 0.7
+
+    noah_reyes "I never wanted us to be on different sides of this.' (quiet) 'I thought staying inside would keep us together."
+    "You watch his voice fracture under its weight. Around you, the town breathes a rhythm: a mixture of machinery and resignation. VeryHigh energy — the municipal engines humming, the market's murmur, legal presses stamping their authority. It all presses into you like a tide higher than you predicted."
+    show asha_moreno at right:
+        zoom 0.7
+
+    asha_moreno "You chose to sit inside their machine, and I chose to stand outside it and hold the people who couldn't buy a pass. Two forms of rescue. Two kinds of surrender."
+    "Noah runs a hand through hair that's been flattened by worry."
+
+    noah_reyes "Is that what you think? That I'm surrendering?"
+
+    asha_moreno "I think you are surviving in a way that costs us what we believed in. Maybe someday you'll show me the ways your architecture holds names open. Maybe you'll be right. But I cannot be the person who watches their neighbors pay to stay in the town of their childhood."
+    "Noah closes his eyes for a moment as if to collect a courage that was already spent."
+
+    noah_reyes "Then go, Asha. Do the work you say matters. Teach them the living-shore methods, the marshcraft. But don't ask me to stand at both the gate and at the shore."
+    "The air between you hums with everything unsaid. Your fingers tighten on the compass so hard the rim bites under skin."
+
+    asha_moreno "I won't ask you to stand where your convictions fear to tread. I only asked you to keep the town's grammar — its people — above the ledger."
+
+    noah_reyes "I know.' (a long beat) 'I love you."
+    "You want to tell him that love lived in a different register than the one the Beacon now keeps. Love had been the map you both consulted before the contracts arrived. But saying it would not change the route both of you had chosen."
+
+    asha_moreno "I love you, too."
+    "Noah's face collapses with the quietness of someone who has been given the mercy of truth and the sentence of distance at the same time. Cars hum, drones wheel. The Beacon's halo glows steady, indifferent."
+    "You stand. The wooden boards hum beneath your boots. The compass is heavy in your palm like a relic you have forgiven for being true to itself."
+    # play music "music_placeholder"  # [Music: Crescendo to a high, dissonant peak — strings and percussion collide]
+    # play sound "sfx_placeholder"  # [Sound: A sanctioned convoy of gray trucks, a last flare of protest — shouting, the stomp of feet, the beep of a closing gate]
+    "You walk away without looking back. Each step is a lesson learned and unlearned; each step a refusal to sign another ledger in which human names are footnotes. Behind you, Marabel contracts into a curated resilience:"
+    "roofs preserved, rights auctioned, community curated by covenant and credit. Ahead, an itinerant life waits — a program of living-shore training, of rebuilding with hands and memory rather than with glossy panels. It will be harder."
+    "It will be uncertain. It will not keep every house."
+    "You pass the market; a few familiar faces lift their heads and recognize you. Some smile — the quick, private gratitude of people who will miss you. Some do not. A child runs past and tugs"
+    "at a plastic banner that reads 'Resilience Demonstration — Tickets Required' and you let the tug irritate your hands; it is the kind of small cruelty that rings in the ribs."
+    "You stop at the edge of the promenade where the boards end and mud begins. The Beacon's glow is a halo retreating behind you. You put the compass back into your pocket, the chain cold against your sternum."
+    "A tidal wind takes the scent of salt, oil, and driftwood and pushes it through you. The Promenade, once a single street of memory and movement, now feels like a shore between two futures. You choose one."
+    hide noah_reyes
+    hide asha_moreno
+
+    scene bg ch15_735866_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, low cello line — mourning, then acceptance]
+    # play sound "sfx_placeholder"  # [Sound: Distant drone recedes; gulls return to an honest noise]
+    "You will spend mornings moving between caravans and displaced houses, teaching raised-bed techniques and living-shore defenses, convincing landlords to accept seed swaps instead of rent hikes, translating policy-speak into language people can act on. It will"
+    "be itinerant, bitterly practical, and it will not fit into the glossy reports of 'successful adaptation' that will be written about Marabel. That is precisely why you go."
+    "You do not know if the marsh restorations you teach will hold storms the way engineered walls might. You do not know how many of the people you love will follow. But you know the difference"
+    "between a preserved façade and a living community, and you cannot keep the former if it costs the latter."
+    "You take one last look back. The Beacon stands like an altar of white glass. The managed kiosks blink their polite lights. Noah is a small figure near the plaza, shoulders squared, looking as if he"
+    "has already translated your absence into the work he must do. Love stays in both of you, reshaped: in his hands as duty, in yours as an ache that moves you away."
+
+    scene bg ch15_735866_7 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet, drawn strings — a mournful cadence that becomes a step]
+    # play sound "sfx_placeholder"  # [Sound: The tide's steady breath; a gull's final cry]
+    "Narration:"
+    "This is the price of safety as it is often sold: preservation without belonging, roofs purchased and names forgotten. Marabel will remain on maps as a resilience success; the plaques will be correct. But the market"
+    "will have fewer voices, the promenade will be narrower in memory, and your brass compass will sit heavy in your pocket as a relic of maps that once were shared."
+    "You do not leave because you hate the town. You leave because you cannot participate in its shrinking without becoming a signature of the bargain. You will keep helping — differently. You will teach, travel, and"
+    "bear witness. Your work becomes a way to keep memory alive outside the Beacon's curated walls."
+
+    scene bg ch15_735866_8 at full_bg
+    # play music "music_placeholder"  # [Music: A single sustained minor chord that thins into silence]
+    # play sound "sfx_placeholder"  # [Sound: The Beacon's final, distant ping — then quiet]
+
+    scene bg ch15_735866_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

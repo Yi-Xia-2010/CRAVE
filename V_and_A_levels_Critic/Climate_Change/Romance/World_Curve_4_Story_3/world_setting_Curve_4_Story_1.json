@@ -1,0 +1,127 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) and Genre (Romance) as an opportunity to create a character-driven drama where personal relationships and community choices are inseparable from ecological stakes. The core conflict is between short-term economic survival and long-term ecological resilience, mirrored in the protagonist's emotional choices: protect the town and its future, or prioritize immediate comfort and a single relationship. Romance is used to humanize differing climate responses (idealism, pragmatism, ambition) and to make systemic consequences feel intimate.",
+    "setting": "A mid-sized coastal town called Harborwell in the near future (2035) where rising tides, stronger storms, and shifting fisheries force citizens to choose between redevelopment plans and community-led adaptation. Atmosphere: salt-tinged, windswept, nostalgic with a tense undertone of urgency.",
+    "visual_style": "Semi-realistic anime cel-shaded with painterly lighting, muted coastal palette (teals, slate blues, weathered wood browns), occasional neon for municipal signage; emphasis on rain and wet surfaces, reflective puddles, and fog-diffused sunsets.",
+    "main_characters": [
+        {
+            "name": "Maya Reyes",
+            "role": "Protagonist",
+            "personality": "Empathetic and analytical, a pragmatic idealist who balances care for people with scientific rigor. Resolute under pressure but haunted by past compromises. Tends to internalize blame and over-plan.",
+            "appearance_features": {
+                "hair": "Chestnut-brown with thin sun-streaks, shoulder-length, usually pulled into a low, messy braid with stray bangs",
+                "eyes": "Warm hazel, rounded with a thoughtful, observant quality; flecks of green appear in sunlight",
+                "clothing": "Work-ready layered outfits: water-resistant field jacket in olive, faded navy utility trousers, worn leather ankle boots with salt stains; often wears a simple blue scarf handed down from her mother",
+                "accessories": "A battered Moleskine field journal wrapped with elastic bands, a brass compass locket (non-functional heirloom), a utility watch with tide data"
+            },
+            "goal": "To mobilize scientifically sound, community-centered adaptation measures that preserve Harborwell’s social fabric while reducing climate risk.",
+            "background_story": "Raised in Harborwell, Maya became a coastal resilience planner after losing a family home in a previous storm. She returned from a regional research program to help her hometown, carrying guilt over a policy decision she made years ago that prioritized immediate relief over long-term safety.",
+            "emotional_trait": "Strength: tenacious responsibility; Flaw: persistent guilt that can lead to emotional withdrawal."
+        },
+        {
+            "name": "Elias Hart",
+            "role": "Love Interest",
+            "personality": "Open-hearted, magnetic organizer — optimistic and creative with grassroots tactics. Passionate about community storytelling and local fisheries. Can be impulsive and skeptical of institutional solutions.",
+            "appearance_features": {
+                "hair": "Sandy-blond, slightly curly, kept medium-length and often tousled from the sea breeze",
+                "eyes": "Sea-green, almond-shaped, with a quick laugh in them",
+                "clothing": "Hand-sewn denim jacket layered over knitted fisherman sweaters; rolled trousers, rubber-soled boots patched with colorful fabric scraps; often barefoot when on docks",
+                "accessories": "A hand-carved wooden whistle on a leather cord, a canvas satchel full of flyers and petitions, a ring made from a recycled fishing hook"
+            },
+            "goal": "To rally Harborwell residents to oppose top-down projects and enact community-led adaptation that centers local knowledge.",
+            "background_story": "Elias left Harborwell to study community development but returned when his family's fishing income collapsed. He founded a grassroots co-op and became a local voice against corporate redevelopment.",
+            "emotional_trait": "Strength: contagious hope; Flaw: can romanticize solutions and underestimate complex trade-offs."
+        },
+        {
+            "name": "Maren Voss",
+            "role": "Antagonist",
+            "personality": "Polished, strategic, and intensely pragmatic. She believes decisive top-down action is necessary for economic survival. Charismatic but guarded, she rarely shows doubt publicly.",
+            "appearance_features": {
+                "hair": "Sleek black bob with a single silver streak at the temple, always immaculately styled",
+                "eyes": "Sharp steel-gray, narrow and calculating",
+                "clothing": "Tailored, waterproof trench coats in charcoal or deep navy over crisp blouses; impeccably fitted trousers and polished leather shoes; overall corporate-civic aesthetic",
+                "accessories": "A minimalist gold lapel pin bearing the town seal, a slim digital tablet edged with fingerprints, a fountain pen engraved with her initials"
+            },
+            "goal": "To implement a large-scale redevelopment (sea wall + commercial zone) that promises jobs and immediate protection, consolidating Harborwell’s fiscal stability and her political standing.",
+            "background_story": "Born outside Harborwell and raised in subsidized housing, Maren worked her way into municipal leadership. She believes bold, fast policy is the only way to prevent economic collapse and is willing to make unpopular trade-offs.",
+            "emotional_trait": "Strength: decisive leadership; Flaw: a fear-driven tendency to justify harm as necessary, which blocks empathy."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Iris Tanaka",
+            "relation_to_main": "Childhood friend of Maya and local fisherwoman",
+            "appearance_summary": "Weather-beaten face, cropped silver-streaked hair, layered neoprene vests and bright rubber gloves; a tattoo of a small anchor behind her ear.",
+            "function_in_story": "Provides local ecological knowledge, fishermen’s perspective, and a moral grounding for community-centered adaptation; acts as an emotional anchor for Maya."
+        },
+        {
+            "name": "Professor Julian Kim",
+            "relation_to_main": "Former mentor to Maya",
+            "appearance_summary": "Late-50s, thin spectacles with round frames, soft gray hair, lab cardigan with coffee stains, always carries a thermos.",
+            "function_in_story": "Offers scientific validation and technical guidance for adaptation proposals; his research findings become a pivotal plot device."
+        },
+        {
+            "name": "Mayor Ana Delgado",
+            "relation_to_main": "Town official, political foil to Maren (ally/compromise figure)",
+            "appearance_summary": "Small, energetic, often in bright blouses and civic sash, hair in tight bun; smiling but exhausted.",
+            "function_in_story": "Represents the town’s political center; forced to broker deals between activists, developers, and officials; her decisions catalyze major turning points."
+        },
+        {
+            "name": "Samir Reyes",
+            "relation_to_main": "Maya’s younger brother",
+            "appearance_summary": "Lean, sun-kissed, short-cropped hair, practical wear (hoodies and work boots), carries a camera.",
+            "function_in_story": "Keeps family stakes tangible, documents town life and protests; his personal risk raises emotional stakes for Maya."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tidewatch Harbor",
+            "visual_description": "A ragged mosaic of fishing boats, salt-streaked wooden piers, and thrifted storefronts. Late-afternoon lighting: low, amber sun filtered through mist; wet wood gleams, gulls trace pale sky. Puddles mirror fractured boardwalk lamps; the smell of brine is constant."
+        },
+        {
+            "name": "Glasshouse Research Lab",
+            "visual_description": "A compact, modern glass-and-steel facility perched on a dune ridge. Interior lighting is cool and clinical with soft blue displays, while the exterior reflects storm clouds; condensation beads on panes. Plants in experimental trays cast fragile green silhouettes."
+        },
+        {
+            "name": "The Boardwalk & Old Pier",
+            "visual_description": "Weathered planks, crooked benches, and a string of torn festival banners. Dawn light bleeds pastel pinks and washed blues; incoming tide laps hungrily at weakened pilings. Broken neon from an old arcade bleeds electric magenta into wet planks at night."
+        },
+        {
+            "name": "Harborwell City Hall / Council Chamber",
+            "visual_description": "Brick façade with salt scarring, interior wood-paneled chamber lit by warm incandescent bulbs. Long windows offer foggy views of the sea. Tension-laden atmosphere during meetings: fluorescent harsh overhead, shadowed faces in the audience."
+        },
+        {
+            "name": "Rooftop Garden & Salt Marsh Restoration Site",
+            "visual_description": "A patchwork rooftop garden of salvaged decking, tendered grasses, and rain barrels overlooking a newly seeded salt marsh. Morning light is clear and green-edged; mud glows dark and fertile. Bees hum; smell of wet earth and cut grass is strong."
+        },
+        {
+            "name": "Abandoned Sea Wall / High-Tide Field",
+            "visual_description": "A jagged concrete remnant, half-submerged at high tide. Storm-lit skies and spray create dramatic backlighting; scattered debris and brackish pools reflect a steel-blue gloom. The site feels both dangerous and sacred — a ledger of past decisions."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Collective Responsibility",
+        "Sacrifice vs. Survival"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led adaptation plan prevails: modular living platforms, restored salt marshes, and small-business grants stabilize Harborwell. Maya and Elias forge a committed partnership built on shared values and mutual respect; Maren is politically checked and ultimately supports incremental policy changes."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise project (partial sea wall plus relocation assistance) is approved after a costly showdown. The town avoids immediate collapse but some neighborhoods are sacrificed. Maya and Elias' relationship survives but is strained by differing moral choices; personal losses linger, and adaptation is framed as ongoing work."
+        },
+        {
+            "type": "Sad",
+            "summary": "Maren’s large redevelopment plan passes with corporate backing. Short-term jobs come at the cost of long-term resilience; a major storm within months devastates marginalized areas. Maya leaves Harborwell disillusioned, Elias remains to fight locally; their romance fractures under moral divergence.",
+            "type_extra_note": "This ending underscores the human costs of prioritizing economy over ecology."
+        },
+        {
+            "type": "True",
+            "summary": "Maya chooses principle over a romantic compromise: she rejects an opportunistic alliance intended to secure quick funding that would harm vulnerable residents. The immediate future is uncertain, but her decision galvanizes a quieter, sustained movement. The ending is morally honest — a hard-earned seed of hope rather than neat closure."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

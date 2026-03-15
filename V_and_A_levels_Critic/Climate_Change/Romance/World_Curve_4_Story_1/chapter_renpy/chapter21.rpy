@@ -1,0 +1,223 @@
+label chapter21:
+
+    # [Scene: Town Hall — Emergency Coordination Center | Night]
+
+    scene bg ch14_fdaff5_1 at full_bg
+    # play music "music_placeholder"  # [Music: High, insistent percussion; strings rasping like wind through rigging]
+    # play sound "sfx_placeholder"  # [Sound: Civil-defense siren wails; radio chatter overlaps with distant thunder]
+    "You are still wearing the courthouse dust in the creases of your jacket. The judge's unresolved chord hangs in your bones—a legal pause that felt like a promise or a countdown, you couldn't tell which. You"
+    "had sat close to the front so the world would not tilt away from you. The world tilts now, and it does it fast."
+    "Sheets of emergency protocol are spread across the long table. A whiteboard is half-covered in hand-scrawled priorities: EVAC ZONES, MED TRIAGE, ASSET ALLOCATION. Steam fogs the windows where people keep leaning to look at the sea. Your mouth is dry. The air tastes of metal and old coffee."
+    "Dr. Amina Bhatt stands with a tablet in both hands, her face lit by cold data. She looks up and the data reads on her like a private language. Elias Navarro is at the far side"
+    "of the table, jaw working, his fingers tracing an unseen diagram on the table's edge. Tommy props a thermos against his knee and doesn't make a joke; his silence is a rope."
+    "Celeste Park is here too—tense, tightly composed, the kind of calm that can break glass. Her palms are flat on the table; her eyes keep flicking to the digital tide model looping on the monitor."
+    show dr_amina_bhatt at left:
+        zoom 0.7
+
+    dr_amina_bhatt "Surge models just updated. If the storm tracks a half-degree east, the promenade—what's exposed there—will get a three to four-meter surge on top of high tide. Floodwalls won't hold in a few sectors."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "How much time do we have?"
+
+    dr_amina_bhatt "Three hours until the first pulse. Two if the eyewall contracts faster. We should be moving immediate evac and rescue assets now, not after."
+    "Elias Navarro lifts his head. His voice is steady, technical, but under it you can hear the tug between the model and the neighborhoods he walked at dawn."
+    show elias_navarro at center:
+        zoom 0.7
+
+    elias_navarro "We can prioritize critical infrastructure nodes—water pumps, the clinic, the main generator—if we route teams there, we preserve response capability. If we spread ourselves too thin rescuing individual pockets, we risk losing the entire network."
+    "Tommy's hand slaps the table. 'Preserve what, kid? You talking about pumps while my Aunt Rosa's roof's about to peel off? People are in their houses.'"
+    hide dr_amina_bhatt
+    show celeste_park at left:
+        zoom 0.7
+
+    celeste_park "We cannot allow disorder to dictate outcomes. Protect the promenade access points—if the promenade holds, we protect commercial zones and prevent the supply chain from collapsing. That's the calculus."
+    "Your chest tightens. The words all feel true in pieces and untrue as a whole. Strategy becomes a set of scissors cutting families into categories. Triage."
+    # play sound "sfx_placeholder"  # [Sound: Radio crackle; a voice—ragged—reports water in the lower lane of Harbor Street]
+    hide mara_lin
+    hide elias_navarro
+    hide celeste_park
+
+    scene bg ch14_fdaff5_2 at full_bg
+    "You are the one standing between the maps and the maps' consequences. The room looks to you because you stayed. That alone is a kind of appointment."
+
+    menu:
+        "Briefly run the numbers for the harbor cluster":
+            "You pull the tablet toward you, fingers moving fast. The sea-level overlays blur into thresholds—probable breach zones highlighted in red; margins tighten and the map names the houses you know by the sound of them."
+        "Go out to the Promenade to assess in person":
+            "You grab a raincoat off the rack and push through the door; wind hits like a retort. The promenade, half-built, feels smaller and sharper up close. You can smell the oil from the construction mats and the sea; the rebar glints like teeth."
+
+    # --- merge ---
+    "Narrative continues below."
+    show dr_amina_bhatt at left:
+        zoom 0.7
+
+    dr_amina_bhatt "If we lose Harbor Street, evacuation routes constrict. That increases rescue time exponentially."
+    show elias_navarro at right:
+        zoom 0.7
+
+    elias_navarro "We can triangulate—send an official rescue launch to Harbor Street, and coordinate volunteer skiffs to the Commons. If Mara—if you authorize the volunteer teams, we'll have boots and boats in parallel."
+    show mara_lin at center:
+        zoom 0.7
+
+    mara_lin "Volunteer teams are going to do what the official teams won't—get into places equipment can't reach. But volunteer runs are riskier. We need a chain of command, liability clearances, a med bay, and a radio net."
+    hide dr_amina_bhatt
+    show tomas_tommy_reyes at left:
+        zoom 0.7
+
+    tomas_tommy_reyes "They know the alleys worse than any GPS. Let them. I'll take a skiff."
+
+    "Celeste Park (coldly)" "Volunteers are unpredictable under stress. If someone gets hurt, that becomes our liability. The town can't absorb another mass casualty."
+    "Your throat closes around the calculus of grief. Volunteering feels like throwing yourself at the sea to catch someone else before the sea learns where to pull you."
+    # [Scene: Town Streets → Promenade (half-finished) | Night — Wind Rising]
+    hide elias_navarro
+    hide mara_lin
+    hide tomas_tommy_reyes
+
+    scene bg ch14_fdaff5_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind rakes; boat horns in the distance; the intermittent slap of waves on concrete]
+    # play music "music_placeholder"  # [Music: Rapid, high-string staccato; heartbeats in the low end]
+    "You run. You move without thinking, because thinking is an expense you cannot afford. The promenade is a broken spine of promises: concrete slabs half-poured, plywood ramps roped down, survey flags snapping like small flags of surrender."
+    "On the radio, Elias Navarro's voice comes through clipped. 'Command, this is Navarro. Generator 2 offline. We're staging pumps at the clinic. We have one official launch left—priority to the clinic and the waterworks.'"
+    show mara_lin at left:
+        zoom 0.7
+
+    mara_lin "Are there still civilians trapped on Harbor Street, Elias?"
+
+    "Elias Navarro (pause, the radio catching rain)" "Affirmative—multiple calls from households. We're trying to verify elderly occupancy. Command recommends clinic and waterworks first. If we divert the launch, we risk losing both."
+
+    mara_lin "We don't have to choose between lives and infrastructure in name—just in practical supply. What's the ETA if we dispatch volunteer skiffs?"
+    show elias_navarro at right:
+        zoom 0.7
+
+    elias_navarro "Ten minutes to Harbor if the water stays clement. But the wind's gusting to thirty knots—timing's optimistic."
+    "Your mouth tastes like copper. The surge map is a living thing: moving, swallowing margins you thought you could hold. You can see the Commons in the distance, a pocket of marsh and raised beds that used to be safe. Now it's an island with people on it."
+    "Tommy jogs up, water seeping through his boots. 'Rae's group is camped at the Commons boardwalk. They're trying to ferry a few elderly neighbors. One of the boats capsized earlier—lost a motor. We need that launch or we lose them.'"
+
+    elias_navarro "If we commit the official launch to the Commons, we compromise the clinic. We risk multiple critical failures."
+    show tomas_tommy_reyes at center:
+        zoom 0.7
+
+    tomas_tommy_reyes "If we don't, we compromise them too. People aren't infrastructure, Elias."
+    "You feel the words like a physical pain. The decision is less about cold calculus and more about what kind of cruelty you can live with at the end of the night."
+
+    menu:
+        "Order the official launch to the clinic":
+            "You almost say it. You picture the clinic's basement rising with water, the hum of the generator stuttering. Saying it means a kind of institutional honor—keeping the node alive."
+        "Authorize volunteers to prioritize the Commons":
+            "You picture Rae's face—bright, stubborn—and Tommy's hands working a rope. Signing off on volunteers feels like handing the town's safety to itself. It feels like faith and madness in one breath."
+
+    # --- merge ---
+    "Narrative continues below."
+    # [Scene: Saltwren Commons & Boardwalk | Night — Rain Tightening]
+    hide mara_lin
+    hide elias_navarro
+    hide tomas_tommy_reyes
+
+    scene bg ch14_fdaff5_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The tidal roar grows. Screams—brief, swallowed—catch the wind and disappear. Radio static cuts in jagged lines.]
+    # play music "music_placeholder"  # [Music: A single, sustained cello note undercut with rising percussion; the tempo shifts into near-panic]
+    "You arrive at the Commons in a cough of spray. People are everywhere and nowhere—clusters of movement, hands lifted, voices overlapping. Rae is there, soaked, paint-stencil still slung over a shoulder. Her face is set in the determined tilt you've seen before; it's a brave look and an unwise one."
+    show rae_carter at left:
+        zoom 0.7
+
+    rae_carter "Mara. We can get the elders off the eastern board. We need a craft with a motor."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "The official launch is tied to the clinic. You have skiffs?"
+
+    "Rae (grimacing)" "Two. One with a patched motor. Tommy's got one, but without the launch we can't bring anyone with serious mobility issues."
+    "Dr. Amina Bhatt kneels beside a woman whose coat is plastered to her shoulders. She steadies her breathing. 'Hypothermia risk is already elevated. We have three hemodynamically unstable cases if we pull them from flooded rooms.'"
+    "Elias Navarro arrives, rain beading his hair, collar turned up. He looks at the cluster of people, and something in his shoulders sags as if bearing weight. For a moment his expression is unreadable—complex—and you see the hinge there: the model and the neighbor both folded in his face."
+    show elias_navarro at center:
+        zoom 0.7
+
+    elias_navarro "Command's order stands. Clinic first. But I'm not going to walk away if you need a hand with triage on-site."
+    "His tone is small. He wants to do both and knows he can't. That particular kind of guilt is a new cruelty."
+    "Celeste Park approaches, her coat darkened with rain but otherwise immaculate. She speaks conversationally, like making a point across a boardroom table."
+    hide rae_carter
+    show celeste_park at left:
+        zoom 0.7
+
+    celeste_park "If the Commons becomes untenable, its loss will magnify longer-term recovery costs. We should focus on containment—the construction crews can shore the eastern access quickly if authorized."
+
+    "Tommy (bitter)" "You're gonna shore up where the investors park while my Aunt Rosa's kitchen floats away?"
+
+    celeste_park "I'm talking about minimizing overall displacement. It's hard decisions in crisis; someone must make them."
+    "Your jaw clenches. Someone must always make them, and that someone will be you if you let it."
+    hide mara_lin
+    show dr_amina_bhatt at right:
+        zoom 0.7
+
+    dr_amina_bhatt "We have limited evacuation capacity. The last powered launch is the decisive resource. It can't do two pickups. Whoever we put it under will be moved out first."
+    "You look at faces—Rae's lean, determined ache; Tommy's exhausted set; the clinic volunteer's shaking hands; the elderly woman inhaling through wet lungs. You feel the weight of the space around you like an added limb."
+
+    "Elias Navarro (quiet)" "Mara, if you authorize the volunteers legally—I'll argue chain of custody for med evac. It'll buy us a legal shield and get them out."
+    hide elias_navarro
+    show mara_lin at center:
+        zoom 0.7
+
+    mara_lin "That's not the problem. The problem is we have one powered launch. One boat. The numbers are closing."
+    hide celeste_park
+    show rae_carter at left:
+        zoom 0.7
+
+    rae_carter "Tell me to step back and I'll go anyway. You know me."
+    hide dr_amina_bhatt
+    show tomas_tommy_reyes at right:
+        zoom 0.7
+
+    tomas_tommy_reyes "If we lose the Commons, we lose more than beds—we lose a place where folks sleep when they can't pay a motel. This is about human continuity."
+    hide mara_lin
+    show celeste_park at center:
+        zoom 0.7
+
+    celeste_park "And if you lose the promenade, the economic blow will displace twice as many households. Everything is connected."
+    "Your hands are numb, not from cold but from the weight of choice. You can taste the salt and metal of decisions on your tongue. You remember your sibling's laugh again, smaller now under the roar. The memory is a cruel compass needle that refuses to stop spinning."
+    "Dr. Amina Bhatt checks her tablet again. 'Time to surge: thirty minutes. The launch can make one run to the clinic with full patient load. Volunteers could make three runs to the Commons with patched motors—but that's assuming seas don't capsize them on the return.'"
+    hide rae_carter
+    show elias_navarro at left:
+        zoom 0.7
+
+    elias_navarro "If I divert the launch to the Commons, we could get the most vulnerable off. Clinic could fail without the generator and pumps. If the clinic floods, casualties will likely exceed this immediate group."
+    "You feel the room contracting until it is the size of a throat."
+
+    "Tommy (voice breaking)" "What's the point of saving a clinic if the people who need it are gone?"
+
+    "Celeste Park (sharp)" "If the clinic goes, we lose triage capabilities, longer-term mortality rises, and the town becomes unviable."
+    "There are no good options. There are only gradients of harm."
+    "Mara Lin (internal): You can feel the arousal climbing like a physical thing in the room—breathing shallower, radio static turning into a hiss. Everything accelerates. The decision is a small, terrible lever that will release a"
+    "long chain of consequences. It will entangle your name with who lived and who didn't."
+    # play music "music_placeholder"  # [Music: Builds to a piercing, sustained chord; the wind becomes a wall. Everyone's voice is a second under the sound of the storm.]
+    "You turn to Elias Navarro—the person whose face has been both harbor and argument. Rain beads on his eyelashes. He meets your eyes in a way that is unreadable: not absence of feeling but complexity—calculation and sorrow braided together."
+
+    elias_navarro "Mara, we need you to authorize the lead call. Command is waiting."
+    hide tomas_tommy_reyes
+    show dr_amina_bhatt at right:
+        zoom 0.7
+
+    dr_amina_bhatt "The models favor preservation of the clinic for community survival. Ethically, triage on a network-level saves more lives over time."
+    hide celeste_park
+    show rae_carter at center:
+        zoom 0.7
+
+    rae_carter "Ethics won't carry Aunt Rosa out on a board. Tell me to step aside and I'm not listening."
+    "Tommy steps closer, voice low. 'This is the moment—who do we trust? The institution? The neighbors? You decide.'"
+    "You feel your heart thudding not like a physical organ but like an alarm. Every instinct pulls you: into the maps, into the math, into the faces."
+    hide elias_navarro
+    hide dr_amina_bhatt
+    hide rae_carter
+
+    scene bg ch14_fdaff5_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Siren now a background constant; a child's cry distant and thin]
+    "You raise your hand to a pen, to a radio, to the terrible authority that has been given to you by attendance, by history, by grieving. The storm is a crowd closing in, the decision a last door."
+    "Your breath catches."
+    "You are about to make the call."
+    # play music "music_placeholder"  # [Music: Crescendo—everything at peak intensity; the cello drops low; percussion like a hammer]
+
+    scene bg ch14_fdaff5_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter23
+    return

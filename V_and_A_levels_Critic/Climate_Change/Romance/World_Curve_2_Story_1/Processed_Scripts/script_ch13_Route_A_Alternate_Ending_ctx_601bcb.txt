@@ -1,0 +1,227 @@
+### SCRIPT
+# Route: Route A (Alternate Ending)
+# Context: 601bcb
+
+[Scene: Wave Innovation Lab | Night — hours after the breach]
+[Background:"ch13_601bcb_1"]
+[Sound: Alarms—short, insistent beeps—layered over the ocean's steady roar beyond the pilings]
+[Music: Driving percussion with an underlying minor-key synth—relentless, urgent]
+
+You come in wet. Salt flakes along your jacket collar, hair plastered to your forehead. The lab smells of ozone and solder and the faint, persistent tang of the sea. Your hands are black with grease where you gripped a buoy's casing; your palms still remember the cold bite of the water.
+
+Mateo Alvarez [Wearied]: "We lost two anchors in the northwest channel when that flank hit. The modular clamps sheared—" (he cuts himself off, breath sharp) "—but the node mesh held. If we reroute the array we can compensate, at least until dawn."
+
+The graphs on the screen spike and fold like a broken heartbeat. You read numbers as if they were tide lines on a body—where pressure rose, where it broke.
+
+Your throat tightens. This is what you wanted: something that could be scaled, that could buy time. But the buying feels like bargaining with the sea itself—small victories traded for an uncertain tomorrow.
+
+Mateo Alvarez [Urgent]: "We need crews on the eastern piers now. Etta's pulling the nursery teams into assembly. Jun's out with the boats. I can keep the control loop stable if someone coordinates field teams without tripping the maintenance contracts."
+
+You glance at the lab console; there, a blinking message from Elio Sato's firm — terse, polished, offering funds and an engineer liaison with a signature that shimmers corporate-blue. The note smells of investment and knots—solutions that come with strings.
+
+Ari Tanaka: "What does 'liaison' mean this time?"
+
+Mateo Alvarez [Half-smile]: "It means they can give us the parts faster than we can fabricate. It means satellite uplink for the mesh. It means—" (he swallows) "—it means oversight, Ari. Contracts. Data-sharing clauses."
+
+Mateo Alvarez's hands hover over the keyboard like he's holding an apology.
+
+Ari Tanaka: "We accepted community deployment. We promised the town control. We can't hand over everything because it keeps us afloat for one season."
+
+Mateo Alvarez: "I know." (he turns, urgency sharpening him) "But right now it's not about future clauses. It's about keeping fifty houses from flooding again tonight. We don't have the luxury of idealism when the next surge could wipe the docks clean."
+
+Your chest hammers; the lab's neon light feels too thin to hold so many decisions. Outside, the sea hammers pilings with a force that makes the building vibrate. The teams are already moving—people you know by gait and name—dragging buoys across slick planks, shouting over the wind.
+
+[Background:"ch13_601bcb_2"]
+
+[Music: Crescendo—percussion and synthetic swells—heightens the urgency]
+
+Etta: (coming up the lab stairs, rain streaking her hair, voice like crushed paper) "The eastern array can't be left undermanned. If that channel fails, the water will take the low blocks first—your mother's street will be the first to go, Ari."
+
+You flinch at the mention of family; the image of the old Tanaka house, its porch warped by salt, flashes abrupt and raw.
+
+Ari Tanaka: "Then we stop the eastern breach." (your voice is steadier than you feel) "Mateo, route me a team. I'll handle coordination on the ground. We can't let the fabric tear."
+
+Etta: "And the contracts?" (she doesn't need an answer yet—she's asking because elders always do—because someone must carry the moral weight)
+
+Mateo Alvarez: "I'll negotiate terms with Elio Sato. Short-term access. No proprietary lock. We keep community custody of the control protocols."
+
+Etta studies you both, a slow, wary breath. "You both say 'we' like you can make promises that don't rip people apart."
+
+Ari Tanaka: "We make the promises we can keep." (you almost say 'we are the promises,' but you don't; the sentence catches)
+
+[INTERACTION]
+> Choice A: "Stay at the console"
+> Choice B: "Go to the eastern piers"
+[Outcome A: "You pull the lab console closer and keep the maps in your sightline, diverting signal traffic and issuing assignments over the radio. Your voice is precise; commands cut the noise into work."]
+[Outcome B: "You grab a harness and sprint down the ramp, boots slapping planks. Saltwater hits your face; you shout, torque a clamp with hands that have started to shake, and help steady a buoy as it finds its hold."]
+[MERGE: Whichever you picked—if you stayed, the monitors reflect your face, jaw clenched; if you went, cement and tar hiss under your boots, and a child's plastic toy bobbing in a pooled gutter reminds you why you move—both are intimate, both are costly.]
+
+[Background:"ch13_601bcb_3"]
+
+[Music: Rapid staccato strings — the tempo quickens toward a peak]
+
+The night becomes work and crisis braided together. The buoys lock systems into a fragile lattice that hums like a second heartbeat beneath the town. Volunteers rotate between hands-on wrestling with hardware and radio relays that sound like prayers. You hear names—Jun, Mara, Councilor Rosa—spoken into the dark, each one a weighted life. The lab's LED status bars flick green, then orange, then red, and everyone recalibrates hope.
+
+Each time a buoy reports stable, something in your chest loosens—then tightens again as you remember the cost. These machines are stopgaps. They will need parts, money, institutional permission. In exchange, Elio Sato's message grows more insistent, asking for 'shared telemetry' and 'regional rollout.' His tone is that of a man trying to be kind while moving chess pieces.
+
+[Scene: Tidebridge Harbor | Night — the surge hits]
+[Background:"ch13_601bcb_4"]
+[Sound: A roar that drowns radios for a breath; the lab's alarms spike into a continuous wail]
+[Music: Full, chaotic timpani with a high, keening synth—panic reaches a fever pitch]
+
+The ocean finds a weak seam. Water sluices past low-stacked sandbags, kisses thresholds of houses, and drags a rusted bicycle down the road like a child's ghost. Someone screams—maybe a warning, maybe a name—and it tears like something pulled wide.
+
+You run. You move through a crowd that feels like a living chain—hands passing rope and tools, breath visible and ragged. You see Jun at the edge, hauling a buoy line, the set of his shoulders like iron. For a second he meets your eyes and there is a flash of accusation, of fear, and then a jerk of a smile that's not a laugh.
+
+Jun: (shouting over the surf) "Ari! The north block's water's jumped the break! We need a makeshift sill!"
+
+Ari Tanaka: "I know—pack the coir, wedge the logs—Etta's got the pattern. Mateo, can you stabilize the node there?"
+
+Mateo Alvarez [Wired and raw]: "I'm trying. The relay's flaring. If we reroute power we'll lose telemetry for ten minutes, but we can anchor the array manually."
+
+Jun: "Ten minutes is a lifetime with this surf."
+
+Mateo Alvarez: "Then we do it now."
+
+Ari Tanaka: "Do it."
+
+The world narrows to the work: hands, salt, the rope between you that keeps someone from washing away. Your body moves as if with muscle memory—torquing bolts, holding a buoy while others secure it—some primal choreography of survival. Noise is a physical thing: the ocean, the screech of metal, the shallow, panicked prayers.
+
+[Music: Climactic peak—everything tight, relentless]
+
+For a breath the buoys hold. A shudder passes through the line as if the sea tests and retracts, and the tide's roar eases like a released breath. Somewhere nearby, someone cries. You don't know if it's relief or grief.
+
+[Background:"ch13_601bcb_5"]
+[Sound: The lab's alarms shift to a long, lower tone. Radio chatter turns from sharp commands to muttered assessments.]
+
+The immediate crisis eases enough to measure damage. The eastern blocks are sopped but standing. The north had a few basements flooded; one family lost the ground floor. A child’s toy floats in a flooded stoop like a small, stubborn buoy—untethered, refusing to sink entirely.
+
+Etta: (sits on a crate, hands clasped, voice broken) "We kept people from drowning. We kept roofs. But we lost a dozen small businesses and Mrs. Hargrove's bakery—gone."
+
+You feel hollow. Everything you wanted: saved, fractured, compromised, expensive. The buoys bought time, yes—but they cost maintenance contracts, municipal oversight, and now a new kind of governance that smells faintly of brokerage.
+
+[Scene: Wave Innovation Lab | Early Morning]
+[Background:"ch13_601bcb_6"]
+[Music: A lower, grief-soft piano motif—heavy but unresolved]
+
+Elio Sato [Measured]: "You did what needed to be done. The data you collected over the last twelve hours is...invaluable. Imagine scaling this across the whole estuary. We can underwrite production and deployment—fully funded, rapid rollout."
+
+Ari Tanaka: "At what cost?"
+
+Elio Sato: "Data access. Regional monitoring rights for optimization. A limited governance seat on maintenance protocols. We don't want to own the town—we want to make the system interoperable. We need telemetry to improve the models."
+
+His eyes flick to Mateo Alvarez for reaction, then back to you. There's a tilt of the head that is almost humane, which somehow makes the offer worse: a man who understands softens the edges of a leash.
+
+Mateo Alvarez [Quiet, ragged]: "If we sign over live telemetry, they can decide when to shut down nodes, when to prioritize areas. They'll have decision weight."
+
+Elio Sato: "We'd build the system to protect the greatest number of assets. Public-private partnership models mean fewer failures and faster repairs. It isn't about power—it's about scale and lives saved."
+
+Etta: "Scale that leaves people out is still a scale into erasure."
+
+Elio Sato [Unfazed]: "If you want total autonomy, you'll need sustained capital. Philanthropy dries up. Grants are limited. Corporations can provide a network effect that compresses response times."
+
+The words are all calculus. Lives turned into functions. You look at the map of the town projected onto the wall—blocks colored by risk—and you see the math of what he proposes. Neighborhoods with higher assessed value cluster green; older, lower-income blocks sit orange and red. His model would maximize 'assets.' Your town is not a series of assets.
+
+Ari Tanaka: "If we let you in, we risk prioritizing moneyed blocks over low-asset homes. We risk people waking up one day to find their node throttled because the return calculus says so."
+
+Elio Sato: "We can write safeguards into the agreement. Oversight committees. Community liaisons—"
+
+Ari Tanaka: "You mean appointed oversight with veto power."
+
+Elio Sato [Softly]: "Ari, I'm offering stability. It's messy, yes, but your people can sleep without waiting for the next breach."
+
+Mateo Alvarez [Low]: "They're offering what we don't have. Parts, manpower, redundancy. We can keep this town standing—if we take the deal."
+
+You look at Mateo Alvarez as if seeing him for the first time tonight: wind-creased face, hands raw, an exhaustion so total it looks like a risk. Love and strategy knot messy in your chest.
+
+Ari Tanaka: "And in exchange?"
+
+Mateo Alvarez: "In exchange we take the maintenance contracts—guaranteed funding for teams from here. In exchange we accept joint governance, but we nail down clauses now that lock community veto on any regionally prioritized throttling."
+
+Etta: "Words are sand when the tide comes."
+
+Jun: (quiet, he has been listening) "I'm moving up the ridge."
+
+Heads swivel. Jun stands framed by the lab door, rain beading on his cap, face set like flint.
+
+Ari Tanaka: "Jun—"
+
+Jun: "My nets were gutted. My house is the kind that will be picked over first if the buyouts start. Council's been offering relocation aid. I can't keep patching a hole for someone who'll buy me out when it suits them."
+
+Ari Tanaka: "We don't know that will happen—"
+
+Jun: "We know what happens when 'optimization' meets poor people. They get optimized out." (his voice cracks) "I can't watch Mom lose the shop because someone said it was less valuable. I hate the thought of leaving. But I can't gamble the next few years on promises."
+
+[INTERACTION]
+> Choice A: "Reach for Jun's shoulder"
+> Choice B: "Hold back and listen"
+[Outcome A: "You step forward and place your hand on Jun's shoulder. He flinches, then relaxes into the contact for a moment. Your fingers find callus and salt, and for a second the storm's noise recedes."]
+[Outcome B: "You let Jun speak without touching him. You watch his jaw work; you hear the decisions in his voice. Your restraint keeps the space between you honest—no soothing words, only listening."]
+[MERGE: The lab is a furnace of decisions. People whom you love are making choices that will fracture the town into those who stay and those who leave, those who have power and those whom policy will categorize as expendable. The buoys kept water from swallowing every street, but they also created a dependency that invites actors with capital and leverage.]
+
+The lab is a furnace of decisions. People whom you love are making choices that will fracture the town into those who stay and those who leave, those who have power and those whom policy will categorize as expendable. The buoys kept water from swallowing every street, but they also created a dependency that invites actors with capital and leverage.
+
+[Music: Tense low strings—the arousal doesn't drop; instead tension tightens into a hard, unbearable point]
+
+You and Mateo Alvarez stand in the middle of it all—two people who have sewn plans together with wire and sweat. The world narrows to him: the way his hand trembles when he finally turns to you, how his eyes go soft when he tries to smile.
+
+Mateo Alvarez: "I didn't sign anything yet. I wanted us to decide together. I wanted you."
+
+Ari Tanaka: "You wanted me." (you repeat the words as if testing the sound) "I wanted what we started to stay ours. But I also wanted to keep people from drowning tonight."
+
+Mateo Alvarez: "We saved people. We kept the harbor from becoming a grave. That matters."
+
+Guilt pulls taut in your chest. The town looks to you to be the moral compass and the operator. You have failed in the purest sense and succeeded in the pragmatic one. It feels like walking a shoreline of broken glass and knowing only the soles of your boots will carry you.
+
+You step toward him, and the lab's dim light bakes the salt in your eyelashes. He reaches for your hand—brief, hopeful, absolute.
+
+Mateo Alvarez: "If we make this commitment—if we sign a coalition agreement that keeps community veto and maintenance jobs local—I'll marry you, Ari."
+
+You laugh—it's a small, sharp sound—and then you realize you are crying, the laugh curdled into salt.
+
+Ari Tanaka: "Don't make promises to fix the future with vows."
+
+Mateo Alvarez: "I'm not promising the future. I'm promising to be in it with you. To stand in it while we fight."
+
+Ari Tanaka: (you breathe in) "Then stand with me."
+
+He does. It is not cinematic. It is two people standing in a lab that smells of grease and coffee, hands clasped for just long enough to make the promise—small and defiant.
+
+[Background:"ch13_601bcb_7"]
+[Music: Piano chord—soft but unresolved; underlying percussion still ticks—this is no closure, only the hush after the immediate storm]
+
+The town will sleep in shifts. Repairs will become routine. Maintenance contracts will bind the buoys to paid technicians and bureaucratic reviews. Elio Sato will draft terms; the council will haggle; some clauses will pass, others will be fought tooth and nail. The stability you bought tastes metallic in your mouth: safety threaded with obligation.
+
+You try to tally wins. Houses still stand. People still have roofs. Children woke up. But you feel a thousand small losses: a bakery gone, Jun leaving, the nursery's seedlings crushed in low places. The cost ledger will be long.
+
+You and Mateo Alvarez walk together out toward the harbor at first light. The sky is a bruised watercolor—ash and the briefest hint of pink. The pilings are scattered with detritus; the buoys bob like tired sentries. The town looks both saved and altered, familiar in shape but changed at the edges.
+
+Mateo Alvarez [Soft]: "We did what we could."
+
+Ari Tanaka: "We did what we had to."
+
+He squeezes your hand. There is no fireworks. There is a small, honest steadiness—knees bruised, hands filthy, hearts taxed. Around you, people clean, make lists, grieve. The political negotiations will come. Contracts will be signed. Some families will take offers, move to higher blocks with relocation aid. Others will stay and tend what remains.
+
+In the end, the sea did not stop. You built a machine that held it back for a while and created a new set of rules for who gets protected and whose losses are catalogued as acceptable. That is the bitter truth.
+
+[Background:"ch13_601bcb_8"]
+[Sound: The distant call of a gull; hammers in the distance; a child's laughter that sounds small and fierce]
+[Music: A low, elegiac string note—final, not reconciled]
+
+You lean your forehead against Mateo Alvarez's shoulder and let the salt dry on your cheek. He rests his chin on your head. It's an anchor that says you will not be alone carrying this weight. That is solace, but it does not erase the ledger.
+
+The buoys bought time. They bought breaths, and breakfasts, and the warmth of sleeping children. They also opened a door to a future where data is currency and decisions are brokered. You made a choice that holds people now—and shifts risks onto the uncertain shoulders of governance and capital. You have a partner at your side. You have a town that is bruised and breathing.
+
+[Background:"ch13_601bcb_9"]
+[Music: Sparse, held chord—resigned and heavy]
+
+[Background:"ch13_601bcb_10"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

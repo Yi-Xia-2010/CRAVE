@@ -1,0 +1,111 @@
+label chapter2:
+
+    # [Scene: Saltglass Research Lab | Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, ascending synth strings — hopeful, attentive]
+    # play sound "sfx_placeholder"  # [Sound: Distant mechanical hum, the whisper of recycled air, gull calls muffled by glass]
+    "You follow the hum down the raised walkway, each step a small clap against weathered composite planks. The sound is steady — not threatening, more like a pulse — and it guides you toward the lab"
+    "as if the city itself is breathing out possibilities. Salt clings to the lip of the handrail; when you run a thumb along it, the grit tickles under your skin. The air smells of wet metal,"
+    "old seaweed, and the faint green of something growing under glass."
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # [Elias Kade: "Maia. You're right on time."]
+    "You step inside. A ribbon of cool air wraps around you; condensation beads the glass. Moss panels exhale a damp, green scent. Screens hover with schematics; a holographic model of Marenport spins in the center, ghosted"
+    "lines tracing currents and sediment. The TideGrid simulation blooms in the holo — modular turbines like clustered lilies, arcs of redirected flow, delicate clouds of simulated silt falling into new beds."
+    "Your municipal ID feels heavier than the metal of the locket at your throat — not a chain, but a weight of promises. You think of Old Man Toma's crooked stoop, of Ibe's hands splitting wood"
+    "in the fog, of the Skyfarm kitchens where a whole neighborhood learns what hunger feels like and how to mend it. There is a pull in you toward people who can be touched and named, and"
+    "another pull — tidal and systemic — toward the promise of saving many."
+    "Serena Qiu stands to Elias's left, arms crossed, eyes like a scanner. Her voice lands cool and precise."
+    show serena_qiu at left:
+        zoom 0.7
+
+    serena_qiu "The model's elegant, Elias. But elegance doesn't substitute for emergent feedback. Turbines at that density might accelerate sedimentation in unexpected nodes — choke channels that communities rely on for their living gardens."
+    "Elias leans into the holo, unfazed, fingers spinning the grid. His tone is fond, like talking about a beloved instrument."
+    show elias_kade at right:
+        zoom 0.7
+
+    elias_kade "We can tune it. The modularity lets local teams adjust output. Think of it as scaffolding, not a slab across the city. If we open the design, communities can patch it, adapt it —"
+    "You flinch at the word 'open' because openness can be lip-service when power concentrates, but his next words are quiet, sincere."
+
+    elias_kade "— and I don't want to do it to you, Maia. I want to do it with you."
+    "Your throat tightens, because it is both an offer and a plea. You move closer to the simulation to see the flow lines. The turbines hum in the holo, a low, hopeful vibration translated into code."
+
+    menu:
+        "Run your fingertip along the flow lines":
+            "You trace a channel where a proposed turbine would sit, feeling the invisible current the simulation insists on. The holo shivers slightly under your touch — a tiny collaboration between your warmth and the machine's cool. Elias watches you, something like relief in his set jaw."
+        "Fold your arms and watch Serena's face":
+            "You cross your arms and let Serena's expression do the talking. Her jaw tightens; she points to a red node pulsing in the model, and you feel the conversation shift from poetry to protocol. Elias meets your eyes, searching."
+
+    # --- merge ---
+    "Continue"
+    "Elias's optimism unfurls like an explanation he has practiced for years; language full of numbers and humane metaphors, the kind that makes large problems feel architected rather than inevitable."
+
+    elias_kade "We could reduce flood exposure citywide within five years. Lives saved, infrastructure preserved. The turbines would shepherd sediment back to ancestral shorelines — a kind of synthetic patience. It's not perfect, but it is fast."
+    "You want to ask how many lives, which neighborhoods would be prioritized, whether Old Man Toma's enclave is in the model's green or grey band. Instead you ask the question you always start with, the one that sounds small and honest."
+    show maia_soler at center:
+        zoom 0.7
+
+    maia_soler "Who decides where it goes first?"
+    "Elias's fingers pause on the tablet; his smile tightens but doesn't leave his face. He gestures toward the schematic panels that scroll like a layered tide."
+
+    elias_kade "A coalition. Engineers, local stewards, municipal board members —"
+    "Serena cuts in before he can detail the coalition, tapping a series of diagrams that explode in a cascade of warnings."
+
+    serena_qiu "And what does 'coalition' mean in practice? Who holds the override? What legal framework prevents private interests from privatizing the piloted modules? We know what token community involvement looks like — I've seen it. We need hard constraints."
+    "Her skepticism is not cynicism; it is a hand on the brake, and for a moment the room smells of ozone and paperwork. You sense the argument that will come if, after the prototype, access is"
+    "limited. You think of community kitchens, sliding windows where neighbours pass bowls and gossip. A turbine that saves a highway but drowns a terrace is no salvation."
+    "Ibrahim N'Diaye steps in then, boots quiet on the lab floor, a plank tucked under one arm, sawdust still in the groove of his nail beds. His presence is immediate and warm — the smell of wet timber and the sound of an old laugh lined against worry."
+
+    "Ibrahim N'Diaye" "Elias, look. If your turbines breathe good and odd into the channels, will they let us keep the floating docks by Canal Twelve? My family's market would lose half its stalls if currents moved twice as fast."
+    "Elias inclines his head toward Ibe, gratitude evident in how he explains."
+
+    elias_kade "That's precisely why we model micro-controls. We can program adaptive flow. It's not a blunt instrument."
+    "Ibe folds his arms, and you see the carpenter's stubbornness: a refusal to let tools write lives for him."
+
+    "Ibrahim N'Diaye" "Your 'adaptive' has to be quick and local. I'm not talking about waiting for a central office to decide while the market rots. If you ask us to trust you, you have to give us the means to act tomorrow."
+    "Elias meets Ibe's gaze. For a beat, his optimism turns into work — the kind of collaborative grind you love, the remediation of pride through shared effort."
+
+    elias_kade "Give us a pilot node on Canal Twelve. Let the community run it. We'll monitor remotely, but the control interface will be yours. Open-source firmware, transparent logs."
+    "Serena snorts softly, but there is less contempt than consideration in it."
+
+    serena_qiu "Transparency is nice. But logs are only useful if someone can read them and act. Training, maintenance, liability — who's paying for that? Who's legally responsible when a module misroutes sediment into a rooftop garden and—"
+
+    maia_soler "—you'll help fix it. You'll help rebuild.' The words surprise you; they come from that place in your chest that believes people can be apprentices and masters to each other. 'I don't want us to be handed a finished thing. I want us in the room while they build it."
+    "There is a pause that fills the lab in a warm way. The hum seems to grow more like a choir than a machine."
+
+    elias_kade "That's the point. A scaffold that becomes a community tool. We design the TideGrid so it amplifies local agency, not replaces it."
+    "Serena's eyes soften, if only fractionally."
+
+    serena_qiu "If the toolkit is real — not just PR — if training, funding, and legal protections are in the package, then we can test. But we test with fail-safes, and we keep the control distributed."
+
+    menu:
+        "Ask Elias about the pilot node's fail-safes":
+            "You crouch closer to the holo, pinpoint a small red halo around a pilot node. Elias explains the emergency reverse-thrust protocol and the community override key. Hearing the detail makes your chest unclench, just a little."
+        "Tell Ibe you'll bring the community's conditions back to the council":
+            "You meet Ibe's eyes and promise to carry their demands to the municipal board. The promise feels like a stitch — small, but binding. Ibe nods and runs a callused finger over the edge of his plank."
+
+    # --- merge ---
+    "Continue"
+    "The promise sits between you like a thin board across two docks — fragile, straight. Elias steps forward, and in the way he reaches for your hand there is more than a request; it's an offering of partnership stitched into the scale of the city he wants to shape."
+    "His fingers are warm. You feel the texture of his jacket against your palm, the small weight of the seedbank tin at his hip, the tablet's faint vibration against his skin."
+    "You can feel the lab's hum in your bones. The simulation's lines are tidy, hopeful. Around the edges of that neatness are the ragged, living things you vowed to protect. Your people-first instincts bristle — not"
+    "because you can't see the good, but because you know how promises become blueprints without care. And yet — and yet — the clarity in Elias's eyes is magnetic. The scale of his plan touches a"
+    "chord in you that wants to imagine saved grandchildren, whole kitchens that keep burning wood for longer."
+    "Elias's thumb rubs the back of your hand in a motion that is both comfort and encouragement. The world outside the glass feels suddenly wider, containing both small kitchens and sweeping turbines. The lab is full of plans and people arguing toward the same horizon."
+
+    elias_kade "Maia, will you help me make it real? Not for me, for them."
+    "You swallow. The decision waits like the tideline on a grey morning: inevitable, patient, and refusing to be rushed."
+    # [Page-Turn Moment: The hum in the lab swells and then quiets as if the city breathes in. Outside, the light through the salted glass turns a warmer gold; somewhere nearby, a gull answers with a brassy call. Your hand is still in Elias's, and for an instant you let yourself imagine a modular turbine humming a few hundred meters away, tide steered so a market doesn't drown and a rooftop garden thrives. You think of Ibe's plank, Toma's stoop, and the long, small labor that built kitchens and kept memory. Everything you hold dear could be protected by something big — or by the stubborn, messy work you already do. The choice curves toward you, patient as the ocean.]
+    hide serena_qiu
+    hide elias_kade
+    hide maia_soler
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: Strings swell into a hopeful chord, then hold]
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

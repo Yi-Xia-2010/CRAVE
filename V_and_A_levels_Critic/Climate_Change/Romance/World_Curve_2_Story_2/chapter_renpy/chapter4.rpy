@@ -1,0 +1,189 @@
+label chapter4:
+
+    # [Scene: Rooftop Orchards | Late Afternoon — Golden Hour]
+
+    scene bg ch4_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gull cries; the soft slap of tide against pilings below; a steady murmur of voices and hammering]
+    # play music "music_placeholder"  # [Music: Tense, rhythmic percussion under a minor-string motif]
+    "You think back to the market pallet—the hush as every eye turned to you—and the way the town’s breath seemed to hold until you answered. You answered. The word still tastes like salt and grit in your mouth."
+    "Now the answer is no longer an idea but a hands-on schedule: sit-ins, rallies, a kelp-planting demonstration tonight, workshops to teach neighbors how to weave biopolymer mats and seed oyster clusters. The rooftop smells sharp with"
+    "brine and compost and the chemical-sweet of freshly heated biopolymer. People move like a living instruction manual—each touch handed down in small, corrective motions."
+    "Nita is on your left, apron tied tight, voice pitched to be heard over the hammering. Her laugh, at once tired and buoyant, cuts through the tension."
+    show anita_nita_ramirez at left:
+        zoom 0.7
+
+    anita_nita_ramirez "Mara—no heroics with the last batch. If the weave goes bad we have to trash it and we lose time."
+    "You wipe your palms on your trousers, feeling the grit of salt and polymer residue. Your sketchbook sits heavy against your hip, a small, stubborn weight. You want to tell Nita that you know, that you"
+    "planned for contingencies, but the truth is all the plans feel paper-thin against the mechanized certainty of Blackbrand."
+    show mara_linh_alvarez at right:
+        zoom 0.7
+
+    mara_linh_alvarez "We stick to the pattern—three weaves per team. If one fails, the next is already underway. Dr. Leila's sensors will test buoyancy as we go."
+    "Dr. Leila, sleeves pushed up, goggles speckled with mist, looks up from a tray of oyster spat. Her voice is clinical and quick, the kind that makes numbers feel like armor."
+    show dr_leila_osei at center:
+        zoom 0.7
+
+    dr_leila_osei "The spat uptake is good in the shallow troughs. If we anchor the mats at this angle the oysters will take faster and the reef will develop a foothold before the next surge."
+
+    "Nita (grinning)" "You always make it sound neat, Doc."
+
+    dr_leila_osei "It's not neat, Nita. It's real work. But the math is sound."
+    "Kai Navarro arrives with a satchel of cuttings swinging from his shoulder; his smile is the sort that tries to lift everyone like a slack sail. He sets down a bundle of glass-bottled roots and his fingers come away smelling of kelp and thyme."
+    hide anita_nita_ramirez
+    show kai_navarro at left:
+        zoom 0.7
+
+    kai_navarro "We can stagger the planting—start at the windward edge, then drop the lines. Less strain on the volunteers and the ropes."
+    "Mara Linh Alvarez: (as you assign teams) 'Windward first. Two teams on mat-weave, three on oyster clusters, Kai—you're with the kelp lines.'"
+
+    kai_navarro "Right. I was hoping you'd say that. Also—' (he leans closer, voice softening) '—we can make a little festival of it. Bring the market cooks up here. If more folks see the beds and the kids planting, it's harder for Evelyn to paint us as hysterics."
+    "Your chest tightens at the name—Evelyn Black—because it no longer hangs in the air as abstract threat but as a bureaucratic hammer: cease-and-desist templates in glossy font, PR blurbs about 'expert-led rapid protection', a sponsored op-ed"
+    "in the regional feed promising jobs and 'immediate security'. Her signatures are clean; the paper bites."
+    "Reverend Sol approaches slowly, cane tapping in a patient rhythm. His face is a map of the town's storms—softened, weathered, not easily surprised."
+
+    "Reverend Sol" "Mara. Remember what I told you at the meeting. People need both heart and a place to stand. You cannot be both the plan and the refuge all at once."
+    "You hear the caution in his voice, but it comes wrapped in steadiness, not scorn."
+
+    mara_linh_alvarez "I know, Sol. But if we don't act now—if we only stand—Evelyn Black will move faster than she'll reckon with our stories. This gives the town something tangible to rally around."
+
+    "Reverend Sol" "Tangible is good. But we must not step so far that the bridge burns behind us."
+    "The sun leans toward the horizon and you feel the tempo quicken—the string of activities must fit before dusk swallows the rooftop. Your internal metronome beats faster: public visibility is protection, but visibility invites attention. You"
+    "think of your father's hands—callused, steady—how he made decisions with the sea always counted in. You do not want to fail the same way."
+
+    menu:
+        "Linger with Leila to double-check the spat measurements":
+            "You tuck a stray vine behind your ear and follow Leila back to the trays, fingers first finding the gentle pull of oyster tears. Sitting with her, you calm your breath into the slow arithmetic of growth."
+        "Head down to the promenade to recruit the market cooks":
+            "You tighten the strap of your sketchbook and step toward the ladder. Voices drift up from below—laughter, a shout about fresh mackerel—and you feel a tug of urgency at your ankles."
+
+    # --- merge ---
+    "The scene continues as the planting and preparations proceed into evening."
+    # [Scene: Kelp Farm Platform | Dusk]
+    hide mara_linh_alvarez
+    hide dr_leila_osei
+    hide kai_navarro
+
+    scene bg ch4_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Lines creaking; boots on wet planks; the low mechanical hum of distant construction]
+    # play music "music_placeholder"  # [Music: Pulse quickens—drums and dissonant strings]
+    "You choose—and choice dissolves into action. At the platform, the air tastes of iodine and hope. Lanterns are strung, children run their palms through the shallow trays, elders braid rope like stories. The planting starts with"
+    "clean rhythm: two-handed grabs, a shout to steady a line, a wet slap as kelp bundles hit the water."
+    "A group of teenagers from Juno's bike crew struggle with a stubborn mat. You step in, palms finding the pattern, and for a minute the day narrows to your hands and the weave. Someone laughs—a brittle, human sound—and it ricochets across the platform."
+    "Kai Navarro is everywhere at once—half in the water, half on the quay—his movements quick as a gull's. He looks at you every few minutes as if to translate urgency into a private code: we're doing this together."
+
+    "Kai Navarro (breathless)" "They're getting the hang of it. If we keep the waves out during the next high tide, the mats will set."
+    show mara_linh_alvarez at left:
+        zoom 0.7
+
+    mara_linh_alvarez "Watch the clamps on line three—if the knot slips we'll lose the whole run."
+
+    "Kai Navarro (grins)" "You are impossibly good at telling people what not to do."
+
+    "Mara Linh Alvarez (sharp)" "Someone has to be."
+    "The rooftop murmurs into a chant—an unintended rhythm: 'Keep the town, keep the town.' It is not militant; it is a mother calling her children home. You feel the swell of it, the solidarity like a sheet wrapping around your shoulders."
+    "Then a drone—small, corporate—cuts the air. Someone points. The device hovers above the kelp lines briefly, camera lens glinting like an eye."
+
+    "Dr. Leila (muttering)" "They're documenting. They're documenting everything."
+
+    mara_linh_alvarez "Good. Let them document. Let the world see us build."
+
+    "Dr. Leila (sharp)" "Documentation can be used against you in court."
+    "Your stomach drops. The legal notices you've seen in the town feed are no longer theoretical. Evelyn Black's suit has teeth and lawyers, and they bite paper with professional hunger."
+    "Nita hustles over, face flushed and furious."
+    show anita_nita_ramirez at right:
+        zoom 0.7
+
+    anita_nita_ramirez "They taped a notice to Sol's church door. Three pages—threatening injunctions if we touch their staging area. They've got a lawyer's letter and a suit with the town seal."
+
+    "Reverend Sol (quiet, but his voice is a breaking wire)" "They have the city's attention. They know how to make bureaucracy their shield."
+    "The hum of Blackbrand's cranes becomes a presence—distant but insistent. Over the water, security lights blink on at their staging yard in a slow, mechanical sweep. Islands of hard white wash the shoreline, clinical and sterile, like a surgical light finding the wound it intends to cut."
+    "You feel panic like a sudden cold. Your hands, still smelling of kelp, tremble."
+    "Kai Navarro reaches for your elbow, grounding and warm."
+    show kai_navarro at center:
+        zoom 0.7
+
+    kai_navarro "Hey—breathe. We'll get a press call together. We'll show them the math, Leila will give the data. We'll bring the town with us."
+
+    "Mara Linh Alvarez (through teeth)" "They served papers. They think a piece of paper will stop neighbors from holding hands."
+
+    "Kai Navarro (soft)" "They think rules can substitute for relationships. They haven't met Nita."
+
+    "Nita (snort-laugh)" "They will, when they see who's on the line."
+    hide mara_linh_alvarez
+    show dr_leila_osei at left:
+        zoom 0.7
+
+    dr_leila_osei "Paper is persuasive in court. But it doesn't stop kelp. It doesn't stop oysters. It doesn't stop kids from wanting a future in their hometown."
+
+    "Reverend Sol" "We must choose our posture. The posture determines who stays beyond the headlines."
+    "The rooftop shifts. Faces are sharper, voices lower but more frantic. Somebody shouts from the edge—Blackbrand's PR truck is on the far side of the inlet, lights blinking; a branded projector casts a clean logo across"
+    "a tarpaulin on their staging yard: 'Blackbrand Solutions — Protecting Marisport.' A pre-recorded spokesperson intones calm assurance—Evelyn Black's voice is not present, but her machine is."
+    "A woman from the market (you know her—she sold you strawberries last week) clutches a woven mat to her chest and says, trembling, 'They're saying we're reckless. That we're endangering lives.'"
+    "You want to yell back that community care is not foolishness, that living systems heal in ways concrete cannot. But the legal language is precise, efficient, and uglier than you expected—threat of fines, claims of trespass, promises of 'swift enforcement'."
+    "Your mind races through a directory of strategies: public sit-in at the staging yard, a rally on the promenade, a legal defense fund, a staged press-conference with Dr. Leila's data, a midnight kelp-planting demonstration to outpace the injunction. Each option opens like a wound; each closes like a lock."
+    "Your heartbeat beats like someone knocking insistently at a door. The rooftop noise becomes a drumline for your fear: supportive hands, whispered plans, then the distant, mechanized sweep of security lights turning toward the town as if in prayer."
+
+    menu:
+        "Call an emergency meeting at the Floodplain Market":
+            "You pull your phone from your pocket and type rapidly, thumbs blur—Nita will coordinate food, Sol will keep people steady, Kai will handle the tech. The message shoots into a dozen hands and hearts."
+        "Plan the sit-in at Blackbrand's staging yard tonight":
+            "You close your eyes for one stuttering breath and map the route in your head: ladders down, tide charts, legal observers. The plan feels dangerous and necessary in equal measure."
+
+    # --- merge ---
+    "The group prepares; evening decisions and preparations continue into nightfall on the rooftop."
+    # [Scene: Rooftop Orchards Edge | Nightfall — Security Lights Visible Across the Inlet]
+    hide anita_nita_ramirez
+    hide kai_navarro
+    hide dr_leila_osei
+
+    scene bg ch4_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant whine of generators; volunteer voices fall into anxious patterns; a lone gull cries]
+    # play music "music_placeholder"  # [Music: Strings rise into a tense crescendo; dissonant chords]
+    "Night presses in and with it the sense of escalation. A courier arrives by canoe from the promenade—an envelope with the city seal and a digital printout. You unfold it with hands that do not want to tremble."
+    "The notice is formal, flat, and infuriatingly precise: injunction pending; trespass warnings; a demand that any 'unauthorized modification' cease. It is followed by a glossy PR release on social channels—Blackbrand's feed saturated with tidy renderings of"
+    "the proposed barrier, smiling citizens in hard hats, the phrase 'swift protection' repeated like a benediction."
+    "Evelyn Black's machine is everywhere at once—lawyers on paper, lights in the night, screens in people's hands. You feel your throat constrict—not only at the legal threat, but at the attempt to render your neighbor's work as reckless spectacle."
+    "Reverend Sol places a palm over the notice, then folds it carefully back into the envelope like a relic. His hands are steady."
+
+    "Reverend Sol" "They push with what they have. We answer with what we have."
+
+    "Nita (fierce)" "We get louder. We make our work visible. We flood every feed with footage of these kids planting."
+    show dr_leila_osei at left:
+        zoom 0.7
+
+    dr_leila_osei "We also get counsel. I'll call my colleague at the university clinic. There's precedent—community stewardship can be a legal defense."
+
+    "Mara Linh Alvarez (thinking aloud)" "We can put observers at every action. We can notify regional press. And—' (your voice drops) '—we can be careful. We cannot let anger make us reckless in a way that harms people we love."
+    "Kai Navarro steps close, the scent of his herbal cloth a familiar counterpoint to the bitter press of the evening."
+    show kai_navarro at right:
+        zoom 0.7
+
+    kai_navarro "Whatever we choose, we choose together. We don't let fear make us fracture."
+    "You feel the words like a lifeline and like a possible trap; solidarity is safety only if it doesn't become blind momentum. You look at the faces around you—some young, some old, some with weathered hands"
+    "that have fixed boats and babies and each other. Their trust is a thin rope strung across the water between this rooftop and the staging yard's lights."
+    "The security lights complete their rotation and hold, bathing the far shore in clinical white. The projector blinks to a new image: a rendering of an engineered barrier with neat green pockets—Evelyn Black's compromise already framed as the town's future."
+    "Your chest tightens, and for a beat you are back at sea with your father—wind ripping at the rigging, a storm that taught you hard lessons about choice and consequence. The old guilt flares: the sense that any choice is a betrayal to someone."
+    "A small, hard sound—like a banner snapping—cuts across the rooftop. It is a marker: the point of no return you did not ask for but have always known would come."
+    "You know the town expects an action. The rooftop is full of ready hands and raw nerves. The options curve before you like a coastline in a storm—each one promises protection and peril."
+    "The air tastes metallic. Security lights hum across the inlet. Evelyn Black's legalese breathes down the town's neck."
+    "You breathe in. The murmurs around you thicken into plans."
+    "A decision must be made."
+    hide dr_leila_osei
+    hide kai_navarro
+
+    scene bg ch4_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Pause—a single, sustained dissonant chord]
+    "You step forward into the center of the rooftop, the gathered faces tilting toward you as if the world might reorient on your word. The crowd's hush is sharp enough to slice."
+    # [Page-Turn Thought]
+    "You imagine the staging yard at midnight: lights, the metallic tang of machinery, the echo of footsteps on tarpaulin. You imagine the legal notices folded into pockets and the faces of neighbors lit by lanterns as"
+    "they choose whether to walk toward the machines or stay and fortify their homes. You imagine Evelyn Black watching from a distance as the town decides which version of protection it will accept."
+    "For a second the sound of the sea is louder than any legal brief; for a second the choice is only a question of courage."
+
+    scene bg ch4_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: High, unresolved cadence]
+
+    scene bg ch4_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter5
+    return

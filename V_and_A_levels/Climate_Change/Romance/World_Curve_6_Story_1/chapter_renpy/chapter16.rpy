@@ -1,0 +1,205 @@
+label chapter16:
+
+    # [Scene: Old Lighthouse | Dusk]
+
+    scene bg ch15_01c203_1 at full_bg
+    # play music "music_placeholder"  # [Music: High, strained strings; a lone trumpet like a call across water]
+    # play sound "sfx_placeholder"  # [Sound: Distant thunder; gulls shrieking; the lighthouse lamp thumps as it rotates]
+    "You reach the lighthouse on a wind that seems set on peeling words from your memory. Your pockets are heavy with a folding map—creases like a topography of obligations—and a notebook whose tabs stick out like"
+    "fingers demanding to be counted. The salt cuts at your face, and every breath tastes of the town's labor and loss."
+    "Rin Sato is already there, hair whipped into a halo, teal streak blurred by wet. They stand with both hands curled over the railing, watching Harborstone pull tight under pressure: a stitched pier, windowless houses shuttered,"
+    "a string of lamps wobbling in the gust. Behind Rin Sato, on the headland, Elias Hart leans against the lantern house, coat buttoned against the weather, his face set in a way that reads as complex—part"
+    "calculation, part something that could be called regret."
+    "You can feel how small the lighthouse makes you, even as the decision you made feels enormous in your hands. The recording you've used has been filed. The contracts are bound and audited—or will be—and in"
+    "the pause between signatures and signatures, a new thing exists: a promise to many towns, and the painful knowledge of what was traded to make that promise possible."
+    "Rin Sato turns to you before you can step forward. Their voice is thin from the wind but steady."
+    show rin_sato at left:
+        zoom 0.7
+
+    rin_sato "You told me you'd tell me first."
+
+    rin_sato "You told me we would choose this together."
+    "You swallow. You want to list all the practicalities—binding clauses, the oversight board you insisted on, the conditional funds that buy breath for living shorelines elsewhere—but the lighthouse eats lists. All you can do is let"
+    "the map press its paper edges into your palm and say what you can hold without it turning to salt."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "I thought I could keep both—Harborstone and the work beyond it. I thought if I built the right scaffolding, if I put auditors and community seats into the contract, I could make… more than a bargain."
+    "Rin Sato's laugh is a little raw. 'A bargain. That's not how these things land. You know that.' They turn, face the sea, and the wind pushes their words back to you. 'We wanted accountable solutions,"
+    "yes. But we wanted you in the middle of it. Not two thousand miles away with photographs of kids you help.'"
+    "You reach for a fulcrum that won't settle: explanation, apology, something that proves you are not abandoning the town or the people in it. Instead you find the image that has always sharpened decisions—your sibling's red sneaker—and it makes your throat close hard enough to hurt."
+    "Elias Hart's voice cuts in from where he's been listening, precise as a knife."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "Alea, this was never about a simple choice between leaving and staying. It's scale. Lives are going to be saved if we put structure behind the proposals you've been working on. You know that."
+
+    alea_maren "And some lives will be counted differently, depending on where the wall goes, on who moves inland first. You know that too."
+    "Elias Hart shifts, jaw tight."
+
+    elias_hart "I agreed to oversight because you forced it. That was the point of the recording. It gave us leverage to enforce standards. I intend to keep my side of that bargain."
+    "Rin Sato's eyes flash."
+
+    rin_sato "And your side? You're here as a face for a campaign, Elias. Will you still stand by the committees when the cameras turn away? When budgets squeal? When your investors want a faster return?"
+    "Elias Hart's gaze flicks—unreadable, then not."
+
+    elias_hart "I want to build something that lasts. We can't save everyone here, but we can save more towns than this if we build strict standards now."
+    "The wind seizes the conversation—voices rise, drop, spike like waves. The lighthouse lamp turns, casting brief hard light over all of you. You feel your heart beat too fast, like it's trying to split the world along the same seams your decisions will."
+
+    menu:
+        "Step between Rin and Elias and hold your ground":
+            "You plant your boots on the wet stone, the map creased against your thigh. Rin's hand finds yours and squeezes; Elias watches, a small shift of calculation across his face."
+        "Stand back and let them finish without you":
+            "You keep your hands in your pockets, letting the wind take at your words. Rin's voice fractures once; Elias's jaw hardens. The gulf between speech and deed widens, and you feel it like a splinter."
+
+    # --- merge ---
+    "The group separates and the conversation resolves into practical next steps as the scene continues."
+    "You let the small mediation end without grand gestures. There is no tidy resolution here—only the steady contraction of consequences. You fold the map again and tuck it into your jacket. The lighthouse wind seems to lean into the space where history will be rewritten."
+    # [Scene: Promenade | Night]
+    hide rin_sato
+    hide alea_maren
+    hide elias_hart
+
+    scene bg ch15_01c203_2 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, urgent drums; a dissonant swell under the wind]
+    # play sound "sfx_placeholder"  # [Sound: Ferries horning in the distance; the scrape of crates; a shout calling for last-minute goodbyes]
+    "You walk the boards where you once taught volunteers to plant marsh grass. The town seems smaller and larger at once: smaller because houses are gone, larger because the work you will do will reach far"
+    "beyond this shoreline. People watch—some with open curiosity, some with a gaze that contains accusation. Maya stands by the cafe door, eyes watering, but she nods in a way that says both blessing and 'I will"
+    "feed you if you return.'"
+    "You stop at the rail and gather a small fistful of dune grass—roots still dark with mud. For a ridiculous and human reason you tie one sprig to the strap of your bag. It is a bad knot, and the blades whip in the wind like a small, green flag."
+    "Elias Hart approaches you there, the folio in his hands like a talisman. He doesn't offer speeches now; only practicalities that hum with consequence."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "The contracts are being executed. Regional partners have committed. You'll have a team—engineers, policy analysts. You'll be able to set standards that require our oversight board to be public, to publish budgets, to commit to living-shoreline offsets."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "And if they backslide?"
+
+    elias_hart "Then we have legal recourse. We have the recording. We have the pressure you can bring. You won't be alone."
+    "You think of the legal recourse as a blunt instrument; it will not bring back the houses that sank, or the mouths that were left to weather through a storm. You think of the kids who"
+    "will benefit from standards that make their towns more than afterthoughts. Your hands tense on the folio as if you could bruise it into confession."
+    "Rin Sato appears beside you without a sound, their shoulder grazing yours."
+    show rin_sato at center:
+        zoom 0.7
+
+    rin_sato "You promised listening. Not only to the experts but to us—the fishermen, the mothers, Tomas and Maya. Promise me you'll keep their voices at every table."
+
+    alea_maren "I will fight to make sure they're at every table. I will put them in the bylaws if I have to."
+    "Rin Sato doesn't relax entirely."
+
+    rin_sato "Will you stay in touch?"
+    "You want to say 'always' and mean it as a vow, but the map in your mind already sprawls with other shorelines, other towns that will call for your attention at odd hours and with urgent, loud grief."
+
+    alea_maren "I will come back. As much as I can. But I won't be here every morning. I won't be the neighbor who brings over soup the week after the storm. I have to build a thing that keeps coming, even when I'm not."
+    "Rin Sato's fingers find the dune grass tied to your bag and twist it once, twice—an attempt to anchor both of you."
+
+    menu:
+        "Let Rin twist the grass; take the small comfort":
+            "You let your hand brush theirs while they twist the grass, and for a moment the world narrows to the warmth of shared fingers. The wind tries to tear that moment from you, but you hold it—an ember against the gale."
+        "Take the grass back and tie it tighter to your bag":
+            "You snatch the sprig and tie it carefully, obsessively, as if the knot could keep everything intact. Rin watches with an unreadable face—something like relief and something like sorrow."
+
+    # --- merge ---
+    "The evening continues with preparations and departures; practical arrangements are made."
+    "Elias Hart clears his throat."
+
+    elias_hart "The ferry will leave at first light. We've arranged safe passage for your immediate travel and the first convening. You'll meet Dr. Lian Cho and other regional leads on the second day. There are already communities waiting on the phone."
+    "You nod because the list of meetings is a lifeline—and a set of commitments you can lose sleep over. The arousal inside you ramps: adrenaline laced with the edge of grief. The town's watchful eyes press on you like the wind."
+    # [Scene: Harborstone Pier / Ferry Boarding | Night into Early Dawn]
+    hide elias_hart
+    hide alea_maren
+    hide rin_sato
+
+    scene bg ch15_01c203_3 at full_bg
+    # play music "music_placeholder"  # [Music: A rising, almost violent orchestral swell; timpani and high strings racing]
+    # play sound "sfx_placeholder"  # [Sound: The ferry horn booms repeatedly; ropes strain; someone cries out; rain begins in earnest]
+    "You stand at the head of the boarding ramp with your bag at your feet and the dune grass bobbing against canvas. People move past you: neighbors wrapped in coats, couples holding hands as if to"
+    "compress months of courage into the space between them. A child runs, laughing, and your chest lurches—joy like a small, impossible thing in this storm."
+    "Rin Sato stays with you until the very edge. There is a temperature to their eyes now—a mix of fierce love and the hollow that forms when promises lengthen into distance. They take your hands, the"
+    "same way they always did when they wanted to anchor a crowd or an argument."
+    show rin_sato at left:
+        zoom 0.7
+
+    rin_sato "You could stay."
+    show alea_maren at right:
+        zoom 0.7
+
+    alea_maren "If I stay, I help one place better. If I go, I can help dozens. I—"
+    "The rest of the sentence is swallowed by the horn that wracks the pier. It feels like a numbering of bodies against the sea: who stays, who goes, who gets swept under no matter the plan."
+    "Rin Sato pins you with a look that is all small mercies and jagged edges."
+
+    rin_sato "I won't stop you. But I won't lie and say this won't change things."
+
+    alea_maren "I don't expect to be unchanged."
+    "There is a silence that collapses like a lung between you. Around you bodies move like a flock shifting, and the world becomes all sound and motion: ropes creaking, boots on wet wood, the ferry's diesel coughing itself awake. Your hands tremble in Rin Sato's."
+
+    rin_sato "Promise me you'll let me be angry when I am. Promise me you won't build something so big you forget our little things."
+
+    alea_maren "I promise—I'll let you be angry. And I'll try not to forget the soup bowls and the posters and the noise of this town. But I cannot promise I won't be absent."
+    "Rin Sato nods, a small, fierce nod. 'Then promise you'll write. Write the maps. Send us the margins.'"
+    "You feel the ascent of sound inside you: a high, keen pressure that wants to spill into wails or action. You steady it with sentences, legalistic and human."
+
+    alea_maren "I'll write. I'll send maps. I'll fight for the oversight board to have real teeth. I'll come back when I can. And—' You can't make it feel like enough. '—I'll carry this place with me."
+    "Rin Sato's hand moves from yours to your cheek in a gesture that is both goodbye and benediction. The wind rips at their hair, seats of it plastering to their forehead, and you can smell their rain-soaked scarf and the faint citrus of the sea-glass necklace pressed against their sternum."
+    "They kiss you then—not long, but carved with meaning and a pressure that could fracture stone. The ferry horn shatters the space as the ramp unmoors and engines take a deeper tone. You taste salt and the metallic tang of inevitability."
+    "Elias Hart stands a little way off, watching the exchange, his features schooled. When the ferry's engines shift into full, he steps forward and offers his hand."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "You did what you thought would save more. Make it count."
+    "You take his hand. It's the handshake of alliances and the small, sharp click as pieces of a puzzle lock into place. Your palm is damp, and his is warm but not tender."
+    "You turn back once as the ferry begins to move, watching the promenade reduce to a smear of lights and the lighthouse flash a final, slow warning. Tomas and Maya are there, small and solid and"
+    "human. You tuck your notebook tighter, feel the tabs like small teeth in your palm."
+    "Everything inside you wants to collapse into the boards—into the town's smell of bread and oil and people's voices—but the ferry pulls, and motion translates grief into distance. The water below lashes at pilings; the ship's wake threads white into a black surface."
+    "Rin Sato calls your name. You look at them—at the set of their jaw, the wetness at the corner of their eye—and you give what you can: a smile that hurts, and a nod that says both 'go' and 'remember'."
+
+    menu:
+        "Turn away immediately to avoid prolonging goodbye":
+            "You turn back to the ferry's ramp, forcing your face into a careful neutrality. The motion makes your stomach drop; Rin's figure blurs and then sharpens in the rear, and a small sob that you try to swallow tears at the edge of your throat."
+        "Hold Rin for an extra long beat, delaying boarding":
+            "You hold them as if you could fold time into a smaller thing. Their breath is hot with the storm; their hands grip your jacket and you both tremble. The delay is a theft and a gift—minutes that will become memory."
+
+    # --- merge ---
+    "The boarding completes and the ferry departs; distance grows between you and Harborstone."
+    "You step aboard. The smell of diesel and wet metal envelops you, a smell that will forever be attached to this leaving. You find a place against a railing and press yourself to it as the shore slides away, house by house, poster by poster, the pier's gnawed boards shrinking."
+    "The arousal inside you roars: panic braided with purpose. You think of the people who will benefit from the standards you will write, of the towns that will call you frantic at two in the morning,"
+    "of the politicians you'll have to fight for every line in a budget. You think of the ones you could not save here. The image of a red sneaker surfaces so quickly it is physical, and"
+    "you taste bile."
+    "Rin Sato stays on the pier as long as they can. When at last they turn and walk away—when the distance is a single strip of water between you—their shoulders straighten, as if to gather themselves"
+    "back into the life that remains. You see them through the spray, blurred, then clearer as the ferry takes a turn and the morning light cuts across water like a revelation you didn't ask for."
+    "You tie the dune grass tighter to your bag with fingers that don't remember how to be gentle. The map at your hip is creased a dozen ways. The notebook presses its tabs like teeth into"
+    "your ribs. You realize you are leaving with more than papers: you're carrying the town's scars in the muscles of your forearms, the ache of absence behind your eyes, the memory of a kiss that tasted"
+    "of salt and promise."
+    "The ferry's horn sounds long and low, a mourning. Harborstone shrinks until it is a bruise on the horizon. A gull wheel circles once and dives, and the wake that slices the water behind you will,"
+    "in time, erode things and also carry seeds—literal and metaphorical—into sloughs you will map and defend."
+    "Your chest is full of grief so immediate it has weight. The decision you made is a map written in loss and necessity. You did not save everyone. You did not pretend otherwise. You are leaving to try to save many more."
+    "You close your eyes as the wind pins them shut, and you let the salt run freely now, marking the face that will carry these lines like topography. The notebook at your side is heavy with"
+    "tabbed pages and promises. The folding map, folded and refolded, feels like a palm-sized continent of obligations."
+    "As the ferry eats distance and Harborstone becomes a smaller and smaller object, a line of light on the water, you begin to inventory what you will do first: convene the oversight board, publish budgets, ensure"
+    "the clauses you fought for exist in enforceable language. The list is long and urgent. It steadies you in a way that is both relief and a new kind of ache."
+    "You press your palm flat against your notebook as if to feel the history there, then fold your fingers around the strap of your bag and grip the dune grass until its blades whisper. The town"
+    "recedes, but the choices will travel with you—like seeds cast into a current that cannot be turned back."
+    hide rin_sato
+    hide alea_maren
+    hide elias_hart
+
+    scene bg ch15_01c203_4 at full_bg
+    # play music "music_placeholder"  # [Music: A low, unresolved chord with a single, sustained violin line; the tempo slows but the tension remains]
+    # play sound "sfx_placeholder"  # [Sound: The ferry's engines thrumming; distant gulls; the soft, continuous patter of rain beginning to fall]
+    "You do not know whether the ledger of compromises will balance in favor of more lives saved. You do not know whether the oversight will hold, whether Elias Hart's promises will endure beyond the first public"
+    "gaze. You know only this: you chose the scale of responsibility over the narrow shelter of the familiar, and that choice will shape the map of many futures."
+    "You tighten the knot on the dune grass one last time, and let the wind take everything else—voices, lamplight, the last stretch of pier—until Harborstone is a memory you carry in the muscles of your hands and the ink of your notebook."
+    # [Scene: Ferry | Dawn]
+
+    scene bg ch15_01c203_5 at full_bg
+    # play music "music_placeholder"  # [Music: Single, strained cello note that lingers and does not resolve]
+    # play sound "sfx_placeholder"  # [Sound: A distant call, like someone shouting a name; the water steadying into rhythm]
+    "You watch the place you loved grow small, and you make the maps you must—both the literal ones folded into your jacket and the internal atlas of choices that will guide you. The grief is a constant pull beneath the motion, but beneath the grief is a fierce, urgent purpose."
+    "You breathe in salt and diesel and the thin, metallic tang of obligation, and you begin to read the horizon for the next town that will need you."
+
+    scene bg ch15_01c203_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance. The theme is about moral responsibility and the consequences of decisions in a crisis. The story revolves around Maya Soren's choices regarding a policy pause that led to a disaster. The genre seems to be a drama with elements of moral dilemma. The story matches the theme well, so I'd say high relevance, maybe a 5.
+
+Coherence: The plot is linear, showing the aftermath of the decision, interactions with other characters, and the consequences. It makes sense, though some parts might be dense. Still, it's coherent, so probably a 5.
+
+Empathy: The characters' emotions are well depicted. Maya's guilt, Asha's anger, Elias's departure. The reader can feel their struggles. So empathy score is high, maybe 5.
+
+Surprise: The ending isn't a twist. It's more of a resolution where the characters accept the consequences. The surprise factor is low, so maybe a 2 or 3. But the ending isn't unexpected, so 2.
+
+Engagement: The story is emotionally heavy and thought-provoking. The reader is engaged with the moral questions and character development. So engagement is high, 5.
+
+Complexity: The story deals with moral philosophy, policy, and human emotions. It's layered but not overly complicated. Maybe a 4, as it's complex enough but not too convoluted.
+
+Now, I need to structure this into JSON with the exact keys. Make sure explanations are concise and match the scores.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story tightly aligns with its theme of moral responsibility and the tension between principle and consequence. The genre (drama/moral dilemma) is reflected in the focus on ethical decision-making and its human cost, making it highly relevant.",
+  "CH_Score": 5,
+  "CH_Explanation": "The narrative is logically structured, tracing the aftermath of a policy decision, character interactions, and the ripple effects of the disaster. The cause-and-effect relationships and emotional arcs are clear and consistent.",
+  "EM_Score": 5,
+  "EM_Explanation": "The characters' emotions—guilt, grief, anger, and resolve—are vividly conveyed through their actions and dialogue. Readers can deeply empathize with Maya's internal conflict and Asha's determination, as well as the collective trauma of the city.",
+  "SU_Score": 2,
+  "SU_Explanation": "The ending is predictable and resolves the central conflict through acceptance and reflection rather than a dramatic twist. The focus on moral ambiguity and consequence leaves little room for surprise.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story's emotional weight, moral complexity, and character-driven stakes create strong engagement. Readers are drawn into the ethical dilemmas and the human-scale consequences of systemic failures.",
+  "CX_Score": 4,
+  "CX_Explanation": "The narrative weaves together policy analysis, personal relationships, and philosophical questions about responsibility. While not overly intricate, it balances depth with accessibility, offering layered themes without excessive complexity."
+}

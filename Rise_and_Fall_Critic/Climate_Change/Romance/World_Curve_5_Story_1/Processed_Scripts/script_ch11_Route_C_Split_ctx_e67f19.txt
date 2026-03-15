@@ -1,0 +1,181 @@
+### SCRIPT
+# Route: Route C — Barrier
+# Context: e67f19
+
+[Scene: Tidelab Greenhouse | Late Afternoon]
+[Background:"ch11_e67f19_1"]
+[Music: Low, slow cello undercurrent; distant wind through the vents.]
+[Sound: A phone vibrates sharply against metal; somewhere outside a truck backfires and a gull calls.]
+
+You had just written the word "fragility" twice and closed the notebook like a promise. The lamps are down to a softer pulse; volunteers have already drifted away in pairs, their laughter thinning into the boardwalk's late light. You let the air settle in your lungs and savor the hush—until the screen of Asha's tablet flashes with a headline that tastes of battery acid.
+
+The headline is small, then enormous: leaked model, "acceptable displacement" memo. A truncated forecast, a line out of context, a sentence boiled into a banner. The Tidelab's warm air turns thin, like someone opened a door to a cold stairwell.
+
+Your mouth goes dry. For a moment you only listen—count the beats of your heart against the hum of pumps, the slow drip from a clogged gutter. Then you move.
+
+[Background:"ch11_e67f19_2"]
+[Sound: Asha's breath, shallow; distant, muffled shouts from the boardwalk.]
+
+Asha looks up at you, cheeks flushed, fingers white where they've gripped the tablet.
+Asha: "Mira—someone clipped Jonah's model and sent it to the paper. They ran the memo about 'acceptable displacement' as if it's policy. The parameters were partial—only a sensitivity test—and they cut the notes. People are... they're reading it like a plan."
+
+Mira Kestrel: "Partial how?"
+
+Her hand finds yours; you feel the small, familiar tremor.
+Asha: "Truncated. The version released skipped the mitigation scenarios. It shows worst-case relocations as if those were the targets, not thresholds we were testing. Cassian's group saw it—before we'd even called for a town meeting. They think we're delaying because we're 'analyzing.' They think delay is displacement."
+
+You taste iron and salt as your chest tightens. Your mind fans through a hundred little failures that could let a file slip: an unsecured drive, an offhand email, a borrowed laptop left logged in. None of it is tidy. None of it gives meaning to the particular betrayal you feel.
+
+[INTERACTION]
+> Choice A: "Call Jonah directly and demand answers"
+> Choice B: "Gather Asha and head to City Hall"
+[Outcome A: "You snatch up your phone and scroll for Jonah's contact, thumb hovering. In the cold ring of the call you try to keep your voice steady, to ask for facts before fury."]
+[Outcome B: "You close the tablet with a hard press and shove it into your jacket. The motion says 'we fix this together.' Asha nods, wiping her hands on her vest as you both step into the damp light, moving fast toward the Mayor's office."]
+
+You choose to leave Tidelab. The greenhouse smells of wet soil and the faint, sweet rot of overripe fruit—home—but the town is somewhere else now, raw and exposed.
+
+[Scene: Mayor's Office | Evening]
+[Background:"ch11_e67f19_3"]
+[Music: Dissonant piano chords; a distant siren loops like a repeating bruise.]
+[Sound: A chorus of muffled voices, an answering machine filling with urgent pleas.]
+
+Mayor Lin's aide meets you in the foyer with a distressed smile that doesn't quite land. The Mayor herself looks like a woman compressed by responsibility—bun undone, blazer wrinkled, eyes rimmed with fatigue.
+
+Mayor Lin: "Mira, thank you for coming. We expected—"
+(she scans a sheet of paper, then looks back at you)
+Mayor Lin: "—this. Jonah's team says it's a leak, not an authorized release. We're fielding calls from every corner of the state. Ruben called me twice. Nadia is at school, shaking."
+
+Mira Kestrel: "Is Jonah—has he explained how this file left his office?"
+
+Mayor Lin folds her hands as if to clamp the problem smaller.
+Mayor Lin: "He's saying an internal audit file went external. He's promised a public clarification. But the headlines are already moving. The protest groups are mobilizing. People think the pilot is a cover for inaction."
+
+Jonah Hale arrives shortly after, rain beading off his neat coat. He moves with a measured, corporate gait; the spill of the leak seems to sit heavy at his shoulders. There's a smoothness to his voice that is meant to be calming—and in the room, that smoothness scrapes.
+Jonah Hale: "Mayor—Mira. I want to be clear: the prototyped outputs were preliminary. They were never meant to represent policy."
+
+Mira Kestrel: "Then why did a memo about 'acceptable displacement' make it to press?"
+(You hold your phone like evidence. Your words are sharp not for heat but to cut away cover stories.)
+
+Jonah Hale: "An internal note—poorly labeled. We have an investigation underway. The consortium will issue a statement."
+
+Cassian Rhys barges in like a winter wind, paint-smears triple-stacked across his jacket as if the town itself has marked him. He slams his satchel on the council table so hard flyers scatter like stunned gulls.
+Cassian Rhys: "Investigation? That's not an answer. That's what you give when you want to delay action. Folks are on the water, Mira. Folks are tearing up berms because they think the pilot is a lie."
+
+Jonah Hale: "Cassian—"
+
+Cassian Rhys (cutting him off): "No. You call it 'poorly labeled.' People call it betrayal. If the only options are spin or silence, then you're choosing silence."
+
+The room's air tightens; words are small against the gravity of people's fears.
+
+Mayor Lin: "We need to calm things. We need an official clarifying statement, and we need community liaisons on the boardwalk right now."
+
+You feel the pull between two weights: your methodical instinct to gather facts and Asha's trembling hand reminding you that facts take time, and people do not.
+
+[INTERACTION]
+> Choice A: "Step forward and mediate between Jonah and Cassian"
+> Choice B: "Let Cassian speak and take notes for the later public forum"
+[Outcome A: "You position yourself between their voices, palms open. Your voice is low, trying to stitch the room back together: 'We have to speak plainly.' Cassian's jaw keeps working, but he lets you speak. Jonah's hands fold around an invisible pen, listening."]
+[Outcome B: "You stay back and let Cassian's fury have its space, fingers moving over your notebook as if the act will preserve the truth. His words cut through the room; your notes will later become structure."]
+
+You mediate, or you hold the archive—both acts feel like traction on slick rocks. Neither feels like comfort.
+
+Jonah Hale (quiet now): "If there's misinterpretation, we need to be transparent. We can release the full set of model runs with annotations. Show the sensitivity tests. Demonstrate intent."
+
+Cassian Rhys: "Announcing the files here won't stop the mob on the boardwalk. It won't stop the headline: 'Town Facing Displacement.' People don't want more files. They want guarantees."
+
+Mayor Lin: "Then what do you want me to guarantee, Cassian? The consortium won't sign on to anything that moves funding without legal cover. We can't un-decide decades of policy overnight."
+
+The conversation ricochets between the technical and the visceral. Every sentence has a second meaning—insurance clauses, livelihoods, children's futures. You feel each syllable like a lever.
+
+[Scene: Boardwalk / Town Square | Night]
+[Background:"ch11_e67f19_4"]
+[Music: Low drums from a protest, a rhythm like a heartbeat; distant whale-like foghorn.]
+[Sound: Shouts, the hiss of spray paint, the metallic clang of someone hammering a protest sign into a post.]
+
+On the boardwalk, the town looks smaller and angrier. Volunteers split like a frayed rope—some head to berms with shovels, some head to the rally with signs, and some drift between both like ghosts.
+
+You move through the crowd with Asha at your elbow. She speaks quietly into your shoulder, each word a small, urgent packet:
+Asha: "The paper took a memo from an engineer who used 'acceptable displacement' in a modeling context—meaning threshold values for stress testing—and spun it as a policy. They didn't publish the caveats. They published heat."
+
+Mira Kestrel: "Who leaked the file?"
+
+Her hand squeezes yours; it's a small, frantic pressure.
+Asha: "We don't know. The metadata's been scrubbed. Someone wanted that language in the open. Whether it was malice or incompetence—people don't see nuance anymore."
+
+You feel the smell of wet paint like an accusation: oil, solvent, a sweetness of emergency. Sirens thread through the air and seem to get caught on the roofs like fishing nets.
+
+An older man—Ruben—stands near the water, cane planted in wet wood. His face is a map you've read a thousand times. He looks at you with something like sorrow and something like demand.
+Ruben: "We tried hedges and hands, Mira. It was honest work. But if people now believe engineers wrote our homes into a spreadsheet—what are we?"
+
+You want to answer with graphs and charts and the slow patience of proofs. You also want to drag every headline into the water and watch it sink.
+
+Cassian Rhys (leaning in, voice barely restrained): "They want a spectacle. They'll get one if we let them. We can push this to the national papers. We can make this about more than Lowry Bay. But we have to act, not just speak."
+
+Mira Kestrel: "Act how? Block the consortium trucks? Sit in front of the machines? Publish the raw data?"
+
+Cassian Rhys (bitter laugh): "You always want it neat—'hold pace, hold transparency.' Now the town's already fractured. People don't have time for the pace you like."
+
+His words land like pebbles on your chest. You do value pace and the slow build of consent, but tonight pace feels like an academic word for "wait until you've been displaced."
+
+[Scene: Tidelab Greenhouse | Late Night]
+[Background:"ch11_e67f19_5"]
+[Music: Sparse piano notes, uncertain intervals; the bow of a violin trembles.]
+[Sound: Rain on the greenhouse roof, distant chants like low thunder.]
+
+Back at Tidelab, the town's noise leaks through the structure like a second tide. Asha points at graphs—versions, timestamps, nodes of missing data. She speaks as if laying out a map to a crime.
+Asha: "Look here. The model we authorized had annotation layers explaining sensitivity ranges. The leaked export shows only the stress curve without the mitigation overlays. The memo—'acceptable displacement'—was from an internal thought experiment. Alone it reads monstrous."
+
+Mira Kestrel: "Do we have the full set? Can we show people the context?"
+
+Her hands shake; she swallows.
+Asha: "We can. But releasing everything—raw runs, emails—could collapse the pilot. Funding is contingent. If the consortium withdraws, the pilot dies."
+
+You feel the room tilt. The choice opens like a wound: expose and risk everything, or contain and risk the town's ire and displacement continuing under a different design.
+
+You imagine Nadia's face when she hears "relocation" in the night's chorus. You imagine Ruben's hands digging berms that could soon be erased by a wall 30 meters tall. You imagine Jonah's neat hands—and the thought of him as a person rather than an office both humanizes and complicates how you regard culpability.
+
+Asha (voice breaking): "If we publish a forensic review—unvarnished—the consortium could walk. The pilot could collapse. But the discriminatory language in their memos—if it's deliberate—must see the light."
+
+Mira Kestrel: "And if we don't?"
+
+Asha: "If we don't, the story becomes 'we delayed.' That narrative justifies the barrier people are already screaming for. It centralizes decision-making and displaces families under the guise of efficiency."
+
+You press the tidewatcher against your palm. It is warm and small and incapable of answering the larger question. Night presses at the glass. The lab's humid warmth suddenly feels like a greenhouse of secrets.
+
+[INTERACTION]
+> Choice A: "Prepare a limited release—annotated files with context, framed as clarification"
+> Choice B: "Begin preparing a full forensic report for publication—no redactions"
+[Outcome A: "You start drafting a concise, annotated packet that explains the truncated outputs. It feels like building a bridge—careful, contextual, and possibly toothless. Asha nods, relief and fear braided together."]
+[Outcome B: "You set your jaw and start compiling everything: raw models, emails, memos. It's honest, brutal, and risky. Asha's eyes widen, then harden; she reaches for the files, hands steadying."]
+
+Your chest feels like the bell in the lighthouse—ready to ring, unable to stop. Choices exist in a narrow room: triage the town's panic, or pull the curtain and risk the stage collapsing.
+
+You think of all the small acts that built today—the seedlings, the community meetings, the shared cups of coffee with volunteers—and how a single sentence can dismantle a year of trust.
+
+Outside, someone chants. Paint hisses. A siren unspools and then fades. The world is louder and meaner than the plans you'd made in quiet rooms.
+
+You could feel every possible outcome as a pressure against your sternum. The leak has turned deliberation into crisis; your calm telephone voice is a poor match for the heat now burning through the town.
+
+You look at the papers, at Asha's hands, at the shared history in the room, and you realize that whatever you choose will be read as your moral map.
+
+[Background:"ch11_e67f19_6"]
+[Music: Single, descending cello note; the atmosphere tightens.]
+[Sound: An ambulance passes; a chorus of distant, low voices continues.]
+
+Page-turn thought: The leak has broken the rhythm. There is no right time for radical honesty and no neat place for half-truths. Every path will cost something precious.
+
+[DECISION POINT]
+1) Option 1: "Push an organized, supported relocation paired with strict community protections." -> TARGET chapter_id: [13]
+2) Option 2: "Allow a hard infrastructure push to move forward under protest, hoping political pressure limits displacement." -> TARGET chapter_id: [14]
+3) Option 3: "Expose the consortium’s flawed modeling publicly, risking the pilot and funding but potentially stopping harmful construction." -> TARGET chapter_id: [15]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Push an organized, supported relocation paired with stric..." -> ID 13 (Route C — Relocation)
+    > Jump Target File: script_ch13_Route_C_Relocation_ctx_f99e88.txt
+Option 2: "Allow a hard infrastructure push to move forward under pr..." -> ID 14 (Route C — Barrier)
+    > Jump Target File: script_ch14_Route_C_Barrier_ctx_f99e88.txt
+Option 3: "Expose the consortium’s flawed modeling publicly, risking..." -> ID 15 (Route A — Expose)
+    > Jump Target File: script_ch15_Route_A_Expose_ctx_f99e88.txt

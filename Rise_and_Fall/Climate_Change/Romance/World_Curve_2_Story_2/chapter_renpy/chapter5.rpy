@@ -1,0 +1,170 @@
+label chapter5:
+
+    # [Scene: Pilot Site, Willowmarsh Edge | Early Morning]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the soft scrape of boots in mud, a reporter's recorder clicking somewhere near the dock.]
+    # play music "music_placeholder"  # [Music: Sparse, low strings — a weathered, somber motif]
+    "You are already damp where your jacket rides your hips. The marsh smells of brine and old seaweed, an honest smell that doesn't pretend anything away. Your breath fogs in front of you, and every inhalation tastes like salt and obligations you cannot postpone."
+    "The pilot patch is smaller than you imagined and larger than a promise. Marsh mats lie like bandages across the soft earth; bundles of seeded reeds poke up in stubborn rows, their pale stalks trembling in the wind. Tiny things—fiddler crabs, a cluster of silvery minnows—announce early, stubborn life."
+    "You crouch close enough to see the roots gripping the mats. The soil around them is still raw, a tenderness that makes you ache. Your hands remember the rhythm of it: the way you have planted"
+    "hope before, the way the tide sometimes takes more than you expected. You press a thumb into the mud and the cold clings like judgement."
+    "Elias 'Eli' Calder is there, sleeves rolled, hands ending in the familiar calluses of someone who has spent years shaping wood to resist the sea. He moves through the team with practiced ease, steadying a mat"
+    "here, tying a rope there. He looks up when you make a small, almost involuntary noise of relief."
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "Didn't think the first plugs would hold so quick. Not without the storms, at least."
+    "You want to say: we planted time into this mud and it's answering. Instead you say it quieter."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "They're settling. The hold's better than we modelled for year one."
+    "Elias 'Eli' Calder half-smiles. He looks at the seedlings, then at the headland where machinery bides its time in silhouette."
+
+    elias_eli_calder "Good. That's good. Money's still… tight, you know. If this can mean work that keeps boats in the water without tearing the marsh, it's something."
+    "His pragmatism is a buoy and a tether; you feel both weight and lift in it."
+    hide elias_eli_calder
+    hide mara_voss
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A polite clearing of a throat, the whisper of fabric; birds quiet as if listening for alliances.]
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "Mara.' (Her greeting is precise. There is a practiced warmth in it that keeps distance.) 'Morning. The pilot looks—encouraging."
+    "You study her face and decide you will call nothing final. Cassandra 'Cass' Rey's presence at the edge of a human-scale success is a line of light and a longer shadow."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "It looks like a pilot. It's not a guarantee."
+    "Cassandra 'Cass' Rey rests the pad on a barrel, fingers fanning the tablet like a fan of quiet diagrams."
+
+    cassandra_cass_rey "Which is why my team has drafted a legal package tying the pilot into an implementation clause. Funding would come faster if the pilot is codified into the Azure Crescent project.' (She gestures — precise, economical.) 'It secures materials, skilled crews. We can scale this across vulnerable stretches in months, not years."
+    "Her voice is choreography: hopeful, efficient. But you hear the undercurrent that always threads through her solutions—the edges are defined by lines drawn on a map and signed with initials."
+
+    mara_voss "Tying it to the larger development ties it to their timeline.' (You keep your voice even.) 'And to grading boundaries, to access roads. To equipment heavier than hand crews. That's not the same as protecting the marsh."
+    "Cassandra 'Cass' Rey's gaze pins you for a moment but does not commit to judgment."
+
+    cassandra_cass_rey "You're a scientist, Mara. You know adaptive management. We draft the covenants, you define the metrics. We keep oversight mechanisms in place."
+    "You want to trust the ease in her offer—the simplest path to resources—but your chest tightens. The MOU you signed felt like the first thin rope across a widening chasm; this would be a bridge built by people whose priorities you still do not fully recognize."
+
+    menu:
+        "Kneel and check the root hold yourself":
+            "You drop to your knees, fingers probing the snug dark around each mat. Roots are entwined and the sediment holds. For a moment the panic eases—there is something physical to anchor to."
+        "Keep standing and ask Cass for the full legal wording":
+            "You stay upright, the damp of your jacket at your back, and you ask Cass for the text. She taps her tablet; a silvered PDF unfurls. Her smile doesn't change but the air between you thickens."
+
+    # --- merge ---
+    "Continue with the narrative where Rina arrives then, tangled in a field vest and a camera strap."
+    "Rina arrives then, tangled in a field vest and a camera strap. She is always the one who translates science into attention."
+    show rina_park at center:
+        zoom 0.7
+
+    rina_park "Publicity's good. Funders love visible success.' (She says it like she believes in it.) 'But if it's linked to corporate milestones, we hand them leverage. Mara, do we have emergency clauses? Sunsetting protections?"
+
+    mara_voss "We can write them. But they're only teeth if they're enforceable. Cass, who audits the audits?"
+
+    cassandra_cass_rey "Independent oversight. Third-party auditors. Escrowed funds for remediation.' (She lists with the crispness of a ledger.) 'We get the town workforce on sustainable pay scales. We show the voters and the press that restoration works hand-in-hand with jobs."
+    hide cassandra_cass_rey
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "And those auditors—who signs them? Who picks them?' (He interjects; his voice carries the rough edge of someone who has seen promises wither.) 'If it's lawyers, if it's corporate panels—"
+    hide mara_voss
+    show cassandra_cass_rey at right:
+        zoom 0.7
+
+    cassandra_cass_rey "Contracts name auditors. You can propose names.' (She allows, almost magnanimously.) 'But delaying makes it harder. The funding cycles don't wait."
+    "Nia, breathless from running over the marsh boardwalk, plants herself near you and Elias 'Eli' Calder. Her eyes flick between the seedlings and the tablet like a child trying to reconcile a miracle with fine print."
+    hide rina_park
+    show nia_voss at center:
+        zoom 0.7
+
+    nia_voss "What if they change the plan after it's signed? What if the big machines come later and the mats are just—"
+    "You want to answer with the certainty of someone who has run models and counter-models. But the truth is a fractal: every layer reveals more edges. You can make strong covenants, but legal language is many-layered and rarely neutral."
+    hide elias_eli_calder
+    hide cassandra_cass_rey
+    hide nia_voss
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The scrub of gravel; far-off motor idling. The small, insistent hum of machinery waiting like a kept promise.]
+    "You notice the tire tracks without meaning to. They are a punctuation mark you have come to dread—an invitation written in mud. Your throat tightens again."
+    "Inside you, a ledger runs: metrics, monitoring stations, sediment accretion curves. Outside, human things—need, fear, the desire for work—fold into one another awkwardly like two halves of a broken plank being clumsily hammered together."
+    "Mayor Rosa's voice arrives on the wind, measured as ever but threaded with a fatigue you recognize."
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "We need jobs. We need to show movement before the next budget quarter. But we owe our kids more than quick fixes."
+    "You meet her eyes. There is no malice in them—only someone who carries the town's small increments of hope and debt at once."
+    "A developer engineer steps forward—a young man with a sunburned neck and a hard hat in hand. He shows you a tablet with a rendering in which the living-shoreline sits like an ornament on a larger concrete scheme. The rendering is smooth; it solves edges with neat textures."
+
+    "Developer Engineer" "If we can formalize the pilot, we'll align the crew schedules, source materials, and PLCs with the main contract. Economies of scale. Less overhead."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Or we scale risks,' you say. 'Scale the footprint. Scale the speed at which corners are cut."
+    "The engineer flinches, and you feel the friction in the air. No one in the group is naïve about trade-offs; you are negotiating not just land but the future mood of your town—the small dignities that anchor people to place."
+
+    menu:
+        "Step between the developer and the headland and demand a pause":
+            "You move without thinking, a body remembering how to hold off a tide. The crew quiets. Cass's hand stops mid-tap on her tablet. For a beat your voice carries—'No grading until we sign covenants'—and it lands like a stone."
+        "Tweet the pilot's early success and call for community oversight":
+            "You reach for your phone. Your fingers are steadier than your stomach. The post is careful, clinical, hopeful—a call for volunteers and oversight. Within minutes, messages start to come. Attention arrives, blunt and hungry."
+
+    # --- merge ---
+    "Continue with the narrative where the tide's regular breathing marks the moment."
+    "The tide's regular breathing marks the moment. You are the named signatory on the MOU; that fact sits on your shoulders with quiet, inexorable pressure. Every line you sign after could be read as consent."
+    "Cassandra 'Cass' Rey folds her tablet closed slowly. There is a pause, long enough for gulls to file back into the sky."
+    show cassandra_cass_rey at center:
+        zoom 0.7
+
+    cassandra_cass_rey "Mara, this is an implementation path. You can keep this as a pilot indefinitely, but without scale, the funding dries. I'm offering a route that keeps the restoration in the public eye and in active budgets."
+
+    mara_voss "At what cost?"
+    "She meets your question with an almost unreadable expression—complex, like a tidepool reflecting both sky and bedrock."
+
+    cassandra_cass_rey "At the cost of compromise. Adaptation requires leverage. I'm offering leverage."
+    "Elias 'Eli' Calder steps closer to you as if by doing so he can share weight. He speaks low."
+    hide mayor_rosa_alvarez
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "If this gets our crews hired for winter work—if this keeps the boatyard from folding—I'm in favor of pragmatic buys. But we have to be on the selection committee for auditors. And Shoreline access—no heavy grading within twenty meters. No exceptions."
+    "Rina presses her palms together, urgency in every line of her face."
+    hide mara_voss
+    show rina_park at right:
+        zoom 0.7
+
+    rina_park "Public referendum could lock protections, but the timeline—funding windows will close. And organized opposition could spin a referendum into a stall tactic. Cass knows how to navigate councils; she also knows how to bend narratives."
+    "Mayor Rosa exhales, the weight of a thousand small votes in her lungs."
+    hide cassandra_cass_rey
+    show mayor_rosa_alvarez at center:
+        zoom 0.7
+
+    mayor_rosa_alvarez "We can't let the town fracture over this. We need to be united enough to win. But we can't sell the marsh either."
+    "You look at each of them—the engineer, the mayor, Cassandra 'Cass' Rey, Elias 'Eli' Calder, Rina, Nia—trying to translate all their wants into a single, coherent path. The marsh itself seems to hold its breath, small shoots against a larger tide."
+    "Your mind moves through hypotheticals the way a surveyor moves a tape measure: from baseline to contingency, from covenants to enforcement. Each scenario births another: audit reports contested, community anger turned into protest, funding rescinded, work expedited past the fragile lines."
+    "You feel the temperature of the morning drop. The soft strings in the air swell with a minor chord."
+    "You: (Thinking) 'If I accept Cass's legal package, we gain scale and money—but we risk allowing heavier machinery and legal ties to the development's timetable. If I demand a referendum, we could lock protections—if the town"
+    "votes with enough clarity—but we also risk losing funding and inviting political sabotage. If I refuse the legal route and scale up community builds independently, we keep ecological integrity purer—but we risk losing funding and inviting"
+    "the developer's impatience.'"
+    "The sentence closes like a tide pulling back. The choice arrives not as a single thunderclap but as a slow tilting: a weighing of what you will trade now for what you might keep later."
+    "You look down at your pendant—coral worn smooth by years of salt and the small friction of being held against your sternum. You feel its cool press as if it were a compass."
+    hide elias_eli_calder
+    hide rina_park
+    hide mayor_rosa_alvarez
+
+    scene bg ch5_4001e7_4 at full_bg
+    # play music "music_placeholder"  # [Music: Low, insistent piano — a falling motif]
+    "You are the watchful eye. The pilot is breathing. The town is listening. The legal package awaits a signature that would change the terms of protection, funding, and speed."
+    "Page-turn thought: The marsh is small. The stakes are enormous. You know that whatever line you draw today will be read for years; you also know that inaction is a decision that will cost something too. The tide is neither friend nor enemy—it simply remembers the contours you leave."
+
+    menu:
+        "Accept Cass’s legal package to secure funding and fast deployment.":
+            jump chapter6
+        "Demand a public referendum and stricter covenants before more site work.":
+            jump chapter14
+        "Refuse to legalize the pilot into the development; scale up community builds independently.":
+            jump chapter15
+    return

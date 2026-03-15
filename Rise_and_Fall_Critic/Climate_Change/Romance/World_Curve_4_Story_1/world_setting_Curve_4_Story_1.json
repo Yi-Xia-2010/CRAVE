@@ -1,0 +1,115 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the emotional lens of Romance: the environmental crisis is not just backdrop but active pressure that shapes choices, trust, and sacrifice. The genre's intimacy lets players experience climate consequences personally — flooded neighborhoods, contested technologies, and community bonds — while the romance plot explores how love negotiates responsibility, dissent, and ethical compromise. Core conflict: the protagonist must decide whether to prioritize an experimental large-scale climate intervention that could protect many at systemic cost, or support small-scale, community-led resilience that preserves local autonomy but risks greater short-term loss. This forces romantic partners into opposing moral positions and tests whether intimacy can survive political disagreement.",
+    "setting": "A near-future coastal archipelago city named Marenport: partial sea-level inundation has reshaped streets into canals, reclaimed rooftops are gardens and terraces, and glass-and-wood architecture mixes with patched floating platforms. Time period: 2043 — technology is advanced but unevenly distributed. Atmosphere: melancholic yet verdant, salt-scented air, constant low cloud with bursts of golden sunlight after storms; hopeful pragmatism underlies everyday life.",
+    "visual_style": "Soft anime watercolor, Neo-eco realism, muted sea-glass palette, warm backlight contrasts, tactile environmental detail (moss, rust, glass), intimate character closeups, cinematic rain and golden-hour lighting",
+    "main_characters": [
+        {
+            "name": "Maia Soler",
+            "role": "Protagonist",
+            "personality": "Empathetic, pragmatic, stubborn in her convictions; scientifically literate but people-first in approach. Quick to comfort, slow to forgive perceived betrayals. Curious and reflective with an underlying anxiety about responsibility.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves, often tied back in a loose low knot with a frayed blue ribbon",
+                "eyes": "Deep sea-green, round and observant, with a slight tiredness at the corners",
+                "clothing": "Layered practical clothes: worn olive-green field jacket patched at the elbows, breathable linen shirts in muted tones, high-waisted cargo trousers that tuck into waterproof ankle boots; often has damp salt crust at hems",
+                "accessories": "A handmade copper locket containing a tiny pressed coastline photograph, a multi-tool bracelet, and a faded municipal ID badge from the Marenport Resilience Collective"
+            },
+            "goal": "To protect her neighborhood and the people she loves by building resilient, community-led solutions that preserve autonomy and cultural memory of the islands.",
+            "background_story": "Born and raised in Marenport, Maia trained as an environmental scientist but returned to lead grassroots resilience efforts after the great storm that flooded much of her childhood street. She distrusts top-down solutions from distant corporations and fears losing community agency. Her commitment stems from watching elders lose homes and seeing heritage landscapes erased.",
+            "emotional_trait": "Strength: empathic leadership; Flaw: guilt-driven tendency to shoulder too much and mistrust institutional help."
+        },
+        {
+            "name": "Elias Kade",
+            "role": "Love Interest",
+            "personality": "Warm, intellectually restless, idealistic about scalable solutions; can be charmingly optimistic but sometimes dogmatic about technological fixes. Caring and direct with a tendency to compartmentalize emotions under logic.",
+            "appearance_features": {
+                "hair": "Ash-blond, short on sides with longer tousled top that falls into his forehead",
+                "eyes": "Light gray-blue, narrow and often squinting as if analyzing light and line, flecked with gold when sunlight hits",
+                "clothing": "Simple, utilitarian urban tech-wear: a water-resistant slate-blue jacket with reflective piping, fitted solar-fabric undershirts, dark tapered jeans, and lightweight modular boots with micro-sensors",
+                "accessories": "A compact wrist tablet permanently strapped to his forearm, an engraved titanium ring from his mentor, and a small seedbank tin he carries for distributed replanting initiatives"
+            },
+            "goal": "To implement a scalable geoengineering-inspired system (the 'TideGrid') that could stabilize sea levels for the entire city, believing it will prevent future disasters on a large scale.",
+            "background_story": "A rising engineer who grew up in an inland district, Elias joined a progressive-tech consortium after losing family in a flood elsewhere. He sees large-scale engineered infrastructure as the fastest route to saving lives and has become emotionally invested in the TideGrid project, which he helped design.",
+            "emotional_trait": "Strength: resolute optimism and technical brilliance; Flaw: can undervalue local nuance and the emotional side of policy decisions, leading to friction in personal relationships."
+        },
+        {
+            "name": "Rin Voss",
+            "role": "Antagonist / Complicated Ally",
+            "personality": "Calculating, charismatic public figure who blends corporate ruthlessness with genuine environmental rhetoric. Pragmatic realpolitik, often willing to make morally gray choices for perceived greater good. Secretly sympathetic but manipulative.",
+            "appearance_features": {
+                "hair": "Platinum black, cropped short in a sharp asymmetrical bob with a single silver streak",
+                "eyes": "Steely amber, almond-shaped and seldom revealing true emotion",
+                "clothing": "Tailored modernist suits in storm-gray and sea-foam accents, always immaculately pressed; often wears a long asymmetric coat with a metallic clasp",
+                "accessories": "A sleek neural comm-pin behind the ear, a corporate insignia lapel pin shaped like a stylized wave, and a slender cane that doubles as a data interface"
+            },
+            "goal": "To implement the TideGrid quickly and cement political and financial power, believing centralized control is necessary to avert catastrophe; she seeks to convince or coerce the populace and talented individuals (like Elias) to her plan.",
+            "background_story": "A former public works director who transitioned to lead a powerful climate-tech conglomerate after seeing bureaucratic paralysis. Rin frames her ambition as urgency-driven — the city cannot wait for slow, messy consensus. She is both a benefactor and a threat to the community.",
+            "emotional_trait": "Strength: strategic clarity and charisma; Flaw: emotional distance that allows moral compromise under pressure."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Ibrahim 'Ibe' N'Diaye",
+            "relation_to_main": "Childhood friend of Maia and community carpenter",
+            "appearance_summary": "Broad-shouldered, sun-darkened skin, shaved head, warm hazel eyes; wears a stained apron and always has callused hands with a pencil tucked behind one ear.",
+            "function_in_story": "Practical support for Maia's projects, voice of local history and humor; occasionally challenges Maia's decisions with blunt truths and supplies physical infrastructure for community initiatives."
+        },
+        {
+            "name": "Serena Qiu",
+            "relation_to_main": "Elias's former colleague and skeptical supporter of techno-solutions",
+            "appearance_summary": "Slim, sharp-featured, black hair in a practical bun, wears minimalist functional clothing with a diagnostic wristband.",
+            "function_in_story": "Serves as Elias's conscience and technical sounding board; questions assumptions in the TideGrid design and helps reveal potential unintended consequences."
+        },
+        {
+            "name": "Old Man Toma",
+            "relation_to_main": "Elder of Maia's neighborhood",
+            "appearance_summary": "Stooped but steady, white hair tied back, weathered face mapped by salt and sun; wrapped in a patchwork cloak of netting, woven cloth and recycled plastic.",
+            "function_in_story": "Keeper of local lore and place-memory; provides emotional stakes tied to cultural heritage and catalyzes community resistance or acceptance based on Maia's actions."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marenport Flooded Promenade",
+            "visual_description": "A once-grand stone promenade now partially submerged; shallow water reflects broken string lights and the cloudy sky. Morning fog lifts in pale gold, wooden boardwalk patches and raised walkways create layered silhouettes. Colors: muted slate blues, kelp greens, sun-amber highlights. Atmosphere: quiet, slightly melancholic, with gull calls and distant machinery hum."
+        },
+        {
+            "name": "Saltglass Research Lab",
+            "visual_description": "A retrofitted glass-and-metal lab perched above tidal channels, interior bathed in cool fluorescent light and warm afternoon glean through salt-streaked panes. Surfaces show condensation and living moss panels; suspended monitors and potted micro-ecosystems create a clinical-yet-organic feel. Colors: sterile whites offset by glowing cyan screens and greens of plants."
+        },
+        {
+            "name": "Skyfarm Terraces",
+            "visual_description": "Tiered rooftop farms stepped like terraces, sun-drenched between storm clouds. Drip-irrigation lines glisten; wind-sculpted canvas awnings flutter. The light is warm and restorative at dusk, long shadows and gold-filtered dust motes emphasizing communal labor. Colors: warm terracotta, verdant greens, sky-washed pastels."
+        },
+        {
+            "name": "Floating Market of Canal Twelve",
+            "visual_description": "A lively market of boats and raised stalls stitched together with rope bridges. Neon fabric awnings strung with bioluminescent seeds cast gentle teal and coral glows at night. Rain-slick wooden planks mirror lantern light. Sounds: bargaining voices, splashes, street musicians playing rusted metal instruments. Colors: saturated jewel tones against wet ebony wood."
+        },
+        {
+            "name": "Coastal Ruins — Old Dock District",
+            "visual_description": "Collapsed piers and skeletal warehouses overrun by salt-tolerant weeds and climbing vines. Low, stormy sky and wind-thrashed banners impart a post-memory mood. Diffuse gray light, sharp contrasts where sun breaks through clouds. Architecture shows exposed beams, rusted corrugated metal, and mosaic remnants of pre-flood advertisements."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love and Responsibility",
+        "Community vs. Centralized Power"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A negotiated hybrid solution: Maia and Elias reconcile by co-designing a scaled TideGrid that is modular and open-source, overseen by a coalition including community representatives. The city stabilizes, neighborhoods retain autonomy, and Maia and Elias commit to building a life together while remaining vigilant stewards."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The TideGrid is deployed quickly under Rin's leadership, saving many lives but imposing centralized governance that erodes some local customs and autonomy. Maia separates from Elias over the ethical cost; they part with unresolved feelings but a mutual recognition of their convictions' limits."
+        },
+        {
+            "type": "True",
+            "summary": "Maia leads a mass movement of small-scale, adaptive solutions that slow harm but cannot fully prevent a devastating storm. The city loses historic quarters, and Elias's TideGrid is delayed. The ending focuses on truth rather than consolation: communities rebuild with renewed democratic structures; Maia and Elias remain close but their relationship fundamentally changes, reflecting nuanced growth rather than tidy closure."
+        },
+        {
+            "type": "Sad",
+            "summary": "Rin's authoritarian deployment of the TideGrid succeeds in stabilization for elites but further marginalizes vulnerable communities. Maia's resistance is quashed, Elias becomes complicit, and personal relationships fracture under moral betrayal. The city survives materially but loses its social fabric."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

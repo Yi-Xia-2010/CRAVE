@@ -1,0 +1,216 @@
+label chapter7:
+
+    # [Scene: Council Annex | Morning]
+
+    scene bg ch7_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, steady strings]
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of staff in the next room; the soft click of a pen on paper]
+    "You sit with the dented compass in your palm, the brass warm from your touch. The decision you made in the chamber—accept a negotiated partnership—feels like a stone you set in motion. It rolls now, carefully, into a path you and the town can walk together."
+    show evelyn_hart at left:
+        zoom 0.7
+
+    evelyn_hart "Ms. Armitage, the clauses we discussed are here,' (she taps the tablet, voice smooth) 'community seats, open ledgers, and a trial-period oversight board. Rafi's transparency protocol—"
+    show rafi_chen at right:
+        zoom 0.7
+
+    rafi_chen "—is ready to eat Evelyn's watch for breakfast if it tries to hide anything."
+    "Evelyn Hart's smile doesn't flicker, but her eyes appraise you both—measured, like a tide gauge. There's a glint from her smartwatch that reflects the room's light; it reads like professionalism and the city's metrics rolled into one."
+    "You flip through the printed packet with your fingers—legal language you can, and do, carry in your head now. You underline phrasing, add margin notes. Every clause is a small contract against the disaster that keeps knocking at the town's doors."
+    "You feel Jonah Reyes's presence from the doorway before you see him. He leans against the frame, a tool bag at his feet, his sweater still smelling faintly of tar and rain. He watches you with"
+    "an intensity that isn't quite hope and isn't quite fear. It nudges something in your chest that you try to keep steady."
+    show jonah_reyes at center:
+        zoom 0.7
+
+    jonah_reyes "You look like you could use all the coffee in that place."
+    hide evelyn_hart
+    show maya_armitage at left:
+        zoom 0.7
+
+    maya_armitage "I'd take it. And an extra notebook.' (you give a small, dry smile) 'These clauses—if we hold them—will change how the money moves. If we don't—"
+    hide rafi_chen
+    show evelyn_hart at right:
+        zoom 0.7
+
+    evelyn_hart "We'll measure. We'll release funds contingent on milestone verification. Rafi's protocols can be built into the disbursement schedule."
+    hide jonah_reyes
+    show rafi_chen at center:
+        zoom 0.7
+
+    rafi_chen "Open ledgers, public dashboards. No mystery contractors. I'll set automated audits. If anything in the chain shortens a standard or attempts cost-avoidance, the community board flags it immediately."
+
+    "The exchange grows into a negotiation rather than a performance. Words become tools—guardrails you all agree to place on the project. You draft an additional line into the annex" "All subcontractor changes require a two-week public disclosure and review by the community oversight board."
+
+    maya_armitage "And enforcement? It's not enough to write this—someone has to be able to stop a change."
+
+    evelyn_hart "The city will withhold second-phase disbursements until compliance audits clear. It's in the contract."
+
+    rafi_chen "So you give us the lever, not just the carrot. I like it."
+
+    evelyn_hart "We both want accountable rollout. My metrics need to show progress; your community needs to see the integrity. We can do both."
+    "The sentence lingers, soft and ambivalent—true, but threaded with an implied pressure: deadlines, metrics, and the city's appetite for demonstrable success."
+
+    menu:
+        "Add a clause demanding community veto power for any budget reallocation":
+            "You scribble a clause that grants a community veto on budget reallocations. Rafi whistles—silent approval—and Jonah shifts, a hard line of relief cutting his face. Evelyn reads it, her expression cooling slightly as she weighs political fallout. She doesn't refuse, but the air constricts. 'We'll discuss the veto mechanism,' she says."
+        "Accept the current enforcement language but schedule a monthly public review meeting":
+            "You propose monthly public review meetings instead of a strict veto. Rafi nods; he likes the cadence of frequent audits. Jonah exhales—a short, practical sound. Evelyn smiles thinly, relieved by the predictability. 'We can work with regular reviews,' she agrees, 'so long as they don't delay construction milestones.'"
+
+    # --- merge ---
+    "The choice is small on paper but heavy in muscle memory—the difference between absolute community control and a system that keeps the city's machine engaged. You pick your words for the town as if they were"
+    "tools, not weapons. The room tilts toward compromise: a governance structure with teeth, but not enough to paralyze progress."
+    hide maya_armitage
+    hide evelyn_hart
+    hide rafi_chen
+
+    scene bg ch7_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The hum of the building's HVAC; somewhere outside, a distant hammering begins]
+    "You stand, and the meeting moves into implementation mode. There's a calendar, lines on a whiteboard, a list of contractors vetted by the mayor's office. You mark the oversight membership roster, reserving seats for Nan, a"
+    "fisher, and two at-large community reps. The thought of Nan in a boardroom feels both incongruous and right—her hands, callused and steady, belong in any committee that speaks for the harbor."
+    show evelyn_hart at left:
+        zoom 0.7
+
+    evelyn_hart "We mobilize next week. Contractors stage at the harbor, materials come in. Pilot piers go up mid-month."
+    show maya_armitage at right:
+        zoom 0.7
+
+    maya_armitage "We will want Rafi embedded on-site. No subcontractor substitution without community sign-off. And—' (your voice tightens, honest) '—public updates every week."
+
+    evelyn_hart "Weekly updates are acceptable. Transparency accelerates trust."
+    "Her acceptance is a small victory that tastes faintly of salt and possibility. Hope becomes a rhythm—meet, plan, build—a cadence that the town hasn't felt in months."
+    # [Scene: Highwater Cove Harbor | Early Afternoon — Montage]
+    hide evelyn_hart
+    hide maya_armitage
+
+    scene bg ch7_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Bright, pulsing strings; the tempo quickens]
+    # play sound "sfx_placeholder"  # [Sound: Clanging metal, the slap of waves against new timber, laughter, and occasional shouted instructions]
+    "Weeks arrive as a blur. You stand watch at the harbor as modular piers are craned into place—sleek, engineered sections that click together like scaled bones. Contractors move between task lists and coffee breaks, and the"
+    "town's hands press into the work: teenagers hauling planks, elders knotting safety lines, Nan handing out thermoses with a deliberate authority."
+    show rafi_chen at left:
+        zoom 0.7
+
+    rafi_chen "The open ledger is live. Anyone can see line-item spending. I'm also streaming displacement metrics in case the contractors' timelines start drifting."
+    show maya_armitage at right:
+        zoom 0.7
+
+    maya_armitage "Good. If we keep the data visible, rumors can't take root."
+
+    rafi_chen "And if they do, we have receipts. Literal receipts."
+    "Jonah Reyes joins you at the dock, grease under his nails, his hair damp from the spray. He holds a length of rope with practiced fingers, knotting it as if memory is a muscle he never lost."
+    show jonah_reyes at center:
+        zoom 0.7
+
+    jonah_reyes "You did good in there,' (he says, casual, but the compliment settles warm) 'You kept them honest."
+
+    "Maya Armitage (feeling the weight of the work and the lift of the praise)" "We did what we had to. You—' (you glance at the hull he has been repairing) '—look like you haven't been sleeping much."
+
+    jonah_reyes "Boat sleeps less than I do. Fixing her keeps my hands busy."
+
+    maya_armitage "Fixing things keeps people close."
+    "Jonah Reyes's mouth twitches. He looks at you for a long moment, then away—at the water, at the horizon where barges look like a promise."
+
+    jonah_reyes "There's a lot of closeness in knowing where the next storm might hit. In knowing how to move everything before the tide takes it. I'm glad you've got the town behind you."
+    "You: (internal) You want to say more—tell him that the way he steadies his voice steadies you—but the words fold in on themselves. You breathe salt and diesel and the scent of wet wool from his"
+    "sweater. The moment is small, alive, and you tuck it into the pocket of the day."
+
+    menu:
+        "Grab a wrench and help Jonah on the hull":
+            "You take the wrench. Your fingers press calluses into the handle and you work in synchrony, shoulder to shoulder. Jonah's jokes come easier; his guardedness softens into focus. After a while he grins, unexpected and bright. 'You're a natural,' he says, and you feel something like belonging bloom."
+        "Watch Jonah from the pier and hand him a hot flask when he looks up":
+            "You stand on the pier's edge, passing Jonah a steaming flask. He takes it with both hands and the warmth travels between you. He doesn't say much—just a 'thanks'—but the silence tastes like trust being rebuilt."
+
+    # --- merge ---
+    "The days are stitched with such choices—small acts that bind the community together. The rooftop garden swells under the added attention; rain-catchment cisterns fill faster than anticipated. The Tidal Institute gains two new benches of lab"
+    "equipment, a donated centrifuge hums in a corner, and your notebooks fill with new data points: success rates, sediment stabilization percentages, community support metrics."
+    # [Scene: Tidal Institute | Late Afternoon]
+    hide rafi_chen
+    hide maya_armitage
+    hide jonah_reyes
+
+    scene bg ch7_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, hopeful piano undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Soft fan hum; the distant thud of pilings being driven outside]
+    "You return to the lab and find Rafi hunched over a console, muttering to himself as sensors stream live data. The new instruments are an embarrassment of riches: better microscopes, faster processors, a thermal imager that maps microclimates around the new piers."
+    show rafi_chen at left:
+        zoom 0.7
+
+    rafi_chen "Look at these returns. Vegetation is trapping silt faster than we modeled for the first month. The marsh microtopography is responding."
+
+    "You" "That's faster than expected."
+
+    rafi_chen "Funding's let us scale the pilot faster. We can introduce more check-dams and test the biogenic mats across a larger area."
+    show maya_armitage at right:
+        zoom 0.7
+
+    maya_armitage "Which is good—' (you hesitate) '—if the contractors follow specs. There's pressure for speed."
+
+    rafi_chen "Yeah. The dashboards show accelerated timelines. Contractors are hitting milestones faster than we predicted, but there's chatter in the admin channels about 'value engineering.'"
+    "You: (internal) Value engineering. A euphemism for trimming what keeps people safe. It's a word that tastes of corners and of future regrets."
+
+    maya_armitage "We set the oversight board in the contract. Rafi—embed your audit triggers. If any spec drops by more than three percent, the board gets an immediate alert."
+
+    rafi_chen "Already on it. I'm beefing up the sensor suite so you can see deviations before they're implemented."
+    "Evelyn Hart steps in through the lab's back door, hands loosened from her folders, gaze scanning the equipment with the practiced assessment of someone used to infrastructure and its optics."
+    show evelyn_hart at center:
+        zoom 0.7
+
+    evelyn_hart "The upgrades are impressive. Our funders like the results so far. I imagine we'll be posting the progress reports next week."
+
+    maya_armitage "And the subcontractors?"
+
+    evelyn_hart "They're efficient. We asked for competitive bids to keep costs reasonable."
+
+    maya_armitage "Reasonable mustn't mean unsafe. We made that clear."
+
+    evelyn_hart "We made it clear. I agree. Rafi's audits will be built into the disbursement schedule. If the metrics fall, funds hold. We both stand to lose if the pilot fails."
+    "There's a steadiness to her that is no longer an adversary force; rather, it's the steady hand of someone who understands how to move permissions and capital. Her readiness to cut corners hasn't disappeared—it's a shadow"
+    "at the edge of every timeline—but for now she keeps to the agreement. Her stare is still precise, but in the lab's soft light you detect the faintest loosening of it: a politician's calculus yielding to"
+    "measured oversight."
+    "You sit at a bench, pen poised over your notebook. You write the enforcement mechanism one more time, in a hand that trembles only slightly. Your bracelet chirps softly—another microclimate datapoint. You trace the numbers with your finger like a map."
+    hide rafi_chen
+    hide maya_armitage
+    hide evelyn_hart
+
+    scene bg ch7_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Strings swell, optimistic but not naive]
+    # play sound "sfx_placeholder"  # [Sound: Distant laughter from the rooftop garden; the gentle lapping of water against new pilings]
+    "In the evenings, after the day's logistics are settled, Jonah Reyes walks you through the harbor. His voice is quiet and easy, telling small stories: a forgotten buoy that washed free and dragged a net; a"
+    "boy who learned to tie a proper bowline. He speaks about loss without dwelling on it. There are silences between you, not empty but full of reconnection."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You kept your head when it mattered. The town feels steadier. People are sleeping better."
+    show maya_armitage at right:
+        zoom 0.7
+
+    maya_armitage "People are doing more than sleeping—they're building."
+    "He stops and looks at you. The harbor lights catch the water in his eyes and make him look like he could break and be remade by what he loves."
+
+    jonah_reyes "Stay,' he says, not as a demand but an invitation. 'Stay and help keep this place ours."
+    "You: (internal) The word 'stay' folds into all the things you've been arguing for: for the town, for Nan, for Jonah. It tastes like cedar and rain."
+    "You take his hand, briefly, your fingers warm with salt and work. The contact is an anchor and a promise. The climb to reconcile the town's needs with the city's pressure is demanding, but each small,"
+    "honest meeting, each audited night, each person who learns to knot a line—it adds up."
+    hide jonah_reyes
+    hide maya_armitage
+
+    scene bg ch7_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendo of hopeful strings and a steady, uplifting piano]
+    "The town rallies. The modular piers hold against an unusually high tide, the rooftop garden's cisterns function through a heavy storm, and the Tidal Institute publishes its first public progress report. People clap at the weekly town review; it's a small, messy celebration but real."
+    "Yet, under the lift of victory, small tensions thread through—contractors whisper about expedited schedules; a subcontractor proposes cheaper materials to shave costs; Evelyn Hart's watch flicks from time to time with incoming messages that you cannot"
+    "read. Those are the edges you know will require attention: not failures yet, but lines you must vigilantly guard."
+    "You close your notebook at the end of one long day. Your chest is full of the fatigue that tastes of purpose rather than defeat. The compass in your pocket sits like a heart, steady and sure. You feel the town's hope rise around you—not naive, but active and earned."
+    "You stand at the harbor's edge as twilight settles. The new piers catch the last light, and the water reflects a doubled sky—one of the weathered town and one of the engineered promise. You let the sound of distant conversation and the slap of water wash over you."
+    "You think of Nan's words—about when to let the harbor teach you to dance—and you realize this is the step she's been training you for: not a single, heroic move but the slow, patient work of steadying others and being steadied in return."
+    "A wind comes off the water, cool and salt-laced. You breathe it in. For the first time in a long while, your chest unclenches."
+    "You look toward the Council Annex and then to the horizon beyond the harbor. The path ahead is clear enough to plan; the risks remain, but the town now has instruments, seats at the table, and hands ready."
+    "You turn to leave, the sound of the harbor folding behind you, and feel the future—for the moment—tilt toward something you can work with."
+    # [Page-Turn Moment]
+    "You fold the day's report into your bag, your bracelet logging one last microclimate reading as the lights on the modular piers blink steady. The ledger is open, the oversight board is seated, Rafi's protocols purr"
+    "in the background, and Jonah Reyes's hand is warm in yours for a heartbeat longer than necessary. You know vigilance will be required; you also know the town has bought itself a chance. That chance is"
+    "a fragile, rising thing—and you are tired and elated enough to guard it."
+
+    scene bg ch7_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter8
+    return

@@ -1,0 +1,186 @@
+### SCRIPT
+# Route: Additional Route & Route B
+# Context: 453e40
+
+[Scene: Municipal Hall Corridors | Morning]
+[Background:"ch10_453e40_1"]
+[Sound: Distant elevator ding, low murmur of office voices, the steady drip of a leaky gutter somewhere inside the building]
+[Music: Low, tense piano underscoring — steady, deliberate]
+
+You step into the Hall with the compass pendant warm against your palm, a small familiar weight under the fabric of your shirt. The corridor smells of wet wool and stale coffee; the building itself smells faintly of ozone from yesterday’s storm and the paper dust of too many permits. Your notebook is folded into the inside pocket of your jacket like a promise you still mean to keep.
+
+Ibrahim 'Ibe' Rafiq walks at your shoulder. He moves the way someone keeps one hand on a thing that might fall—practical, watchful. His paracord bracelet brushes your sleeve when you pause. You don't touch him; you don't need to. The presence is a map in itself.
+
+Samira's office is small, marginally heated, and lined with binders. She opens the door with a hand that says apologetic and efficient at once. Behind her, a wall-mounted projector hums with a paused slide of Eloise Varela's proposed barrier—a single blue line drawn across the civic map like a verdict.
+
+Samira: "You came alone?"
+
+Mara Lin: "No." (You glance at Ibrahim 'Ibe' Rafiq.) "We came with paperwork, with people. We came to buy time."
+
+Samira closes the door and lets a shade fall over the light. Her voice is lower now, the municipal softness you’ve seen in the way she de-escalates angry crowds.
+
+Samira: "You asked for a closed meeting. I called it. This is—" (she taps a pen against a clipboard) "—not without risk, Mara."
+
+You watch the pen click. The sound is tiny and precise.
+
+Mara Lin: "Risk is a word Eloise will throw like ballast. We need—what, Samira? An administrative hold? A longer EIR? A public consultation that can't be bypassed?"
+
+Samira exhales. She folds her hands as if wrapping them around the problem.
+
+Samira: "There are channels. An extended environmental impact review will slow the process, yes. We can require additional community outreach and independent ecological assessments. But those letters have to be filed before the vote calendar clears. And I can't fabricate grounds; I need documented cause or legal standing to request the hold."
+
+You feel your stomach tighten. The Flats, the new reed fences, the volunteers’ faces—each one a small ledger of stakes you cannot ignore.
+
+Mara Lin: "What does documented cause look like? A timeline of prior neglect? New tide gauges? Affidavits from residents?"
+
+Samira: "All of that. Scientific assessments are strongest. Historical flood data helps. Affidavits show immediate harm. If the planning department receives a formal petition with those elements, I can route it. But even then, Eloise controls the steering committee. She can fast-track. She can call a special vote."
+
+Ibrahim 'Ibe' Rafiq leans forward, hands flat on Samira's desk. His voice is practical, a subtraction of panic.
+
+Ibrahim 'Ibe' Rafiq: "We can provide preliminary surveys. I can pull together modular plans—costed, staged—showing alternates to wholesale displacement. If Samira files a request citing incomplete environmental analysis, that gives us legal pause."
+
+Samira studies him like she already does—a catalog of competence, then a calculation.
+
+Samira: "You two move fast. It's good. But this buys days, maybe weeks. It also looks like stalling to people who want action now. If activists find out it's administrative maneuvering without public visibility, they'll feel betrayed."
+
+You hear that before she finishes: the word that has been nesting in your chest. Betrayal. It tastes like iron.
+
+Mara Lin: "We’ll organize public input simultaneously. Paperwork and presence. We will not hide this as a dodge. The Flats need the breathing room to finish planting and to collect data."
+
+Samira's fingers find a form—an intake sheet for petitions.
+
+Samira: "I can enter the request today, if you can bring the documents. I'll need signatures, sworn statements, and any tide gauge logs you have. If you can secure a preliminary ecological report from the Marshkeepers or a university partner, even better. But be prepared: Eloise will respond publicly. She will make noise."
+
+You nod. Preparing for Eloise's noise is a muscle now, one you flex in private.
+
+[INTERACTION]
+> Choice A: "Help Samira file the petition now"
+> Choice B: "Step out to coordinate volunteers at the market"
+[Outcome A: "You pull up a chair and unroll the Flats maps across Samira's desk. Your hands move to the margins—dates, names, times—and you begin to transcribe the volunteers' affidavits into the official form. Samira's expression softens at your thoroughness."]
+[Outcome B: "You hand Ibrahim 'Ibe' Rafiq the list and push the maps back toward Samira. Outside, the corridor air hits your face like a gust of the sea; you can already hear the market's distant hum. You make the decisions that will ripple outward."]
+[MERGE: You and your allies proceed with both legal filings and public coordination, balancing paperwork with presence.]
+
+Samira watches you both with a mix of relief and something like grief.
+
+Samira: "If Eloise pressures the council, I will need a procedural reason to refuse an emergency vote. It's rare. But I've stalled worse. You must understand: I risk my job doing this."
+
+Mara Lin: "You won't be doing it alone."
+
+She looks at you—there is an unreadable look there, a tightness that could be gratitude or fear. It fits the 3-Check rule: you do not assume which.
+
+[Scene: Planning Offices | Late Morning]
+[Background:"ch10_453e40_2"]
+[Sound: Keyboard clacks, a muffled conversation about budgets, a phone that won't stop ringing]
+[Music: Quiet rhythmic synth — steady momentum, a deliberate pulse]
+
+You move through the planning offices as a current moves through reeds—purposeful, bending but unbroken. Kai meets you at the doorway of the community liaison room, coat half on, paint flecks dark against canvas.
+
+Kai: "You doing admin-magic without us? People are already nervous. There's a rumor of a community sit-in at the Hall this afternoon if things go fast."
+
+Mara Lin: "We're filing a formal review request. It's not a dodge. It buys time to gather scientific evidence and to hold the consultations Eloise promised but didn't want to schedule."
+
+Kai's jaw works. He leans in, voice low, urgent.
+
+Kai: "They'll call that stalling, Mara. They'll say you're letting bureaucracy speak for the people. If activists feel sidelined, they'll lash out. We need the market and the Flats on the same page, or this splinters."
+
+The word 'splinters' clicks like brittle wood in your head. You imagine hands pulling in different directions, rope fraying.
+
+Ibrahim 'Ibe' Rafiq: "We can split tasks. Samira holds the formal route. We hold the public route. I can assemble a quick field brief with tide logs and a schematic that shows alternative anchoring. Kai can get signatures at the market. You manage the narrative—public messages, timelines."
+
+Kai exhales, then nods slowly. He pulls out a tablet and begins drafting a message to the vendors, to the Marshkeepers, to the volunteers who'd been expecting direct confrontation.
+
+Mara Lin: "Make it clear this is a dual track. No one's being silenced. We're delaying the vote so the city can do this right—so no one loses everything on the altar of a rushed 'shield.'"
+
+A colleague from another desk passes by and leaves a list of legal references—sections of municipal code that Samira can invoke. Paperwork multiplies like shells on a shore. You start feeling the fabric of bureaucracy under your fingers: cumbersome but capable of holding weight.
+
+[INTERACTION]
+> Choice A: "Tell the activists openly that you're pursuing administrative delay"
+> Choice B: "Let Samira frame the delay publicly, while you keep working behind the scenes"
+[Outcome A: "You stand before the assembled volunteers and speak. Your voice is hoarse from the sea air, but you explain the tactic step by step. Some faces soften, others harden. A scatter of applause, a flicker of suspicion—both are real."]
+[Outcome B: "You let Samira prepare a press release and dump legalese into the public channel. It reads safe and precise; it doesn't satisfy the hunger in the market, but it buys time. You watch Kai's shoulders tense—uncertainty eats at the edges."]
+[MERGE: The group maintains a coordinated dual approach—legal delay plus public engagement—while managing trust among activists.]
+
+You choose the words that will stitch together two strategies. The map of the Flats unfurls again in your mind: reed fences, volunteer waders, Rosa's weathered hands. Paper can buy hours; presence can buy trust. You have to balance both.
+
+[Scene: Rooftop Garden & Communal Greenhouse | Afternoon]
+[Background:"ch10_453e40_3"]
+[Sound: Dripping from the misting system, the soft snap of leaves, a gull's cry far below]
+[Music: Subdued strings—long notes that swell and don't resolve, building tension under the calm]
+
+By afternoon you've collected affidavits, tide logs, and a skeleton ecological brief. In the greenhouse, the air clings to your skin. The city seems distanced here—a painting you can touch but not change from a single hand. Ibrahim 'Ibe' Rafiq kneels beside a crate of seedlings, staining his palms with wet compost as if to remind himself of things that persist after storms.
+
+Ibrahim 'Ibe' Rafiq: "You did good in there," he says, voice small. "Paperwork, razor focus. You didn't flinch."
+
+Mara Lin: "It's necessary. But it feels like being on the defensive all the time."
+
+Ibrahim 'Ibe' Rafiq looks up. His face has that tired, familiar set—the survivor's shadow. He rubs the carved talisman he keeps in his pocket.
+
+Ibrahim 'Ibe' Rafiq: "You want people to stay. I want people to stay. We do the same work in different languages."
+
+Rosa appears at the greenhouse door like an old tide—steady, scented of lavender and mud. She moves with the kind of certainty that comes from decades of repairing what storms have taken.
+
+Rosa: "Samira called me. She says there is enough to file. The Marshkeepers will sign. But the city's machine is heavy. Eloise Varela—she won't like being delayed."
+
+The name pulls the air out of the room. You taste the metallic edge of politics.
+
+Mara Lin: "If Eloise pushes back publicly, she'll spin this as obstruction. She'll demand a vote."
+
+Rosa: "Then prepare for noise. Prepare for the storm of the council. Prepare your words."
+
+You can feel the building momentum—the arousal rising from steady processes to a pressure that will need release. The greenhouse becomes a small island of quiet in a city preparing to roar.
+
+A vibration in your pocket. Samira's terse text: 'They're calling for a special session. Council clerks say Eloise put a hold on delays. 48 hours.'
+
+The room tilts. For a moment all you hear is your own breath.
+
+Ibrahim 'Ibe' Rafiq: "Forty-eight? That's not time."
+
+Mara Lin: "It's a window."
+
+Kai's face appears at the greenhouse door, rain streaked from the quick shower outside. His eyes are fire and worry.
+
+Kai: "Crowd's gathering at the Hall. People are chanting for a public meeting. They're angry—some think we're playing games."
+
+Before you can answer, the greenhouse glass rattles. You look up and out—Eloise Varela stands on the plaza below the Hall, a silhouette framed against reflections. She lifts a hand to the AR lens at her temple and speaks into it. Her voice carries up like cold wind filtered through glass.
+
+Eloise Varela [projected, distant]: "Samira, this is unacceptable. We will not entertain delay tactics while our city is in danger."
+
+You feel the words as a physical thing: the city's pressure focused into a single, steel-edged sentence.
+
+Samira [text]: "I'm proceeding. We're invoking public consultation requirements. Please stand ready."
+
+Eloise Varela's shadow on the plaza stretches. For a beat her expression is unreadable—sharp, composed, maybe regretful, maybe resolute.
+
+The stalling works, maybe. It also looks like an evasion. You have bought time, but time is a fractious ally. Activists are restless. Eloise is mobilizing power you cannot match with petitions and reed fences. Your chest feels hollow, like a boat with a slow leak.
+
+Rosa reaches out and lays a soil-stained hand against your forearm, grounding.
+
+Rosa: "You did the right thing, child. But politics will test you."
+
+You want to say you are ready. You want to believe it. Ibrahim 'Ibe' Rafiq's hand finds yours—a small, real contact—and you hold it for a second that means more than paperwork ever can.
+
+Then another vibration: an incoming call labeled 'Council Clerk — URGENT.'
+
+You could take it. You could let it ring. Outside, the market's distant chant sharpens into a rhythm. Inside, the greenhouse's mist hangs like breath.
+
+You stand at the edge of something—neither a victory nor a defeat, only a tightening. The administrative hold is filed, signatures collected, affidavits logged. You have slowed the machine, but you have also lit a fuse.
+
+[Background:"ch10_453e40_4"]
+[Sound: The call continues to vibrate, the chant below shifts, a distant siren begins to wail faintly]
+[Music: A single, rising chord that does not resolve — tension peaking toward the next move]
+
+You breathe in the greenhouse air, tasting soil and rain and something metallic—expectation. You can feel the city pressing from both sides, the community demanding action, Eloise pressing timelines, Samira balancing on the edge of a professional precipice. The decision you made—to file and stall, to thread legality into activism—has already cascaded into consequences you can feel but not fully control.
+
+You tap the screen to accept the call.
+
+[Background:"ch10_453e40_5"]
+
+[Background:"ch10_453e40_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: 11]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 11
+    > Jump Target File: script_ch11_Additional_Route_Split_ctx_e67f19.txt

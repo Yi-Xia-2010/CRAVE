@@ -1,0 +1,111 @@
+label chapter2:
+
+    # [Scene: Old Market Boardwalk | Late Evening]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wooden planks creak underfoot, vendors' muffled laughter and the soft slap of small waves against pilings]
+    # play music "music_placeholder"  # [Music: Low, melancholic synth undercurrent; distant drumbeat of community chanting]
+    "You step onto the boardwalk and the air hits you like a familiar ache — briny and sweet, threaded with the smell of frying empanadas and damp tarpaulin. Cold rain ghosts your hair, making the caramel"
+    "highlights cling in dark ribbons at your neck. Your boots leave brief, dark prints on the planks before the tide of people shadowing the market smooths them away."
+    "Rosa and Mateo weave through the stalls handing out flyers. Their hands are quick, practiced: a gesture, a smile, a small word that lands like a pebble and makes ripples. The flyers are damp at the corners; someone tucks one under a jar lid to keep it from blowing."
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The click of Jonah adjusting film, a low murmur of agreement from the gathered crowd]
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You're late. The tide's not waiting for any of us."
+    show mara_solano at right:
+        zoom 0.7
+
+    mara_solano "I went straight from Claire's. Data, as promised."
+    "Jonah Reyes leans in; his amber eyes catch the light and for a moment they look like lamp-glass. They darken when you say Claire's name — not a quick sadness, but something complicated, layered. You tell"
+    "him what Claire showed you: the revised projections, the creeping red margin, the neighborhoods that sit like thin lines on a map."
+
+    jonah_reyes "She really—? Showed you the margins?"
+
+    mara_solano "Not the whole file.' You keep the hard specifics to yourself; whether the exact numbers are the ones you need is a small, private measurement of trust. 'But the new layers make Elena's gates look less...complete. There are trade-offs the model flags that aren't in her brochures."
+    "Jonah Reyes's hands go to his camera, fingers ghosting over the battered leather strap as if grounding himself. Around you, a vendor bangs a spoon on a pot to cut through the chatter; someone laughs too loud and someone else hushes them gently."
+
+    jonah_reyes "Then we show up. We make it obvious there's another plan — one that keeps people here. Candle vigils on the docks, a market strike the morning of the hearing, testimony at Town Hall. Make the moral case loud enough they can't package it into a headline."
+    "You feel the pull of his energy, the old magnetism that made you run together in storms as kids. For a second you almost let the list of social actions drown out the tide of technical"
+    "problems crowding your head: sensor arrays, tide-model validation, permitting windows, soil coring schedules. The practical inventory lines itself up like armor."
+
+    mara_solano "Vigils mean crowd control plans, permits for the piers, noise exemptions if we hold them late. A market strike—Rosa and Mateo can organize vendors, but people need emergency funds, a contingency plan for early harvests. Town Hall testimony—someone has to compile the data packet that doesn't read like a thesis."
+
+    jonah_reyes "And we'll do all of that. People will show. We can crowdsource the data packet—pictures, dates, names—film it, make the story impossible to ignore."
+    "Your chest tightens. The practical side of you lines up logistics like a row of tide markers; each one balanced on a possibility of failure. You can feel the old compulsion rise — shoulder everything, solve"
+    "the technical knot yourself so nobody else has to carry the weight. Aunt Pilar's face flashes — the steady bun, the shawl patched with threads that look like sunlight. Her jaw is the same as it"
+    "was the last time you saw her at the kitchen table: set. She will not leave. The thought of having to persuade her to move, to sell, to sign away memories makes your stomach drop."
+
+    menu:
+        "Ask Jonah how many people he'd expect at a candle vigil":
+            "You fold the logistics back into words like a map. Jonah gives you a number and then another — a cautious estimate followed by the one he hopes for, and he presses the strap of his camera as if to steady it."
+        "Say nothing, and let him keep talking":
+            "You let the list hang in the air. Jonah keeps talking, filling the silence with plans and belief; you watch the way his hands paint the future as if it were already drying on the planks."
+
+    # --- merge ---
+    "The conversation continues, plans and concerns layering as the market's rhythm carries on."
+    "Jonah Reyes stumbles into a laugh that tastes oddly like grief; there's a jag in it. He doesn't promise everything will work. He says the word 'risk' in the same breath as 'necessity' and you hear"
+    "both meanings. He talks about people who'll come because they'll remember their fathers' boats being swamped, about young ones who'll come because they want a future that isn't sold away."
+    show rosa_and_mateo_market_co_op at center:
+        zoom 0.7
+
+    rosa_and_mateo_market_co_op "If we close the market for a day, we need to make sure it's not a blow to families. Mateo's pulling a list."
+    hide jonah_reyes
+    show rosa_and_mateo_market_co_op at left:
+        zoom 0.7
+
+    rosa_and_mateo_market_co_op "We float emergency payouts if the coop can muster it. Otherwise, we'll lose the mom who lives on two days' profit."
+    "The market's hum becomes a chorus — arguments, bargains, the clack of a shutter. You feel both buoyed and as if you're trying to prop up a pier with your hands."
+
+    mara_solano "Jonah, we can't just 'make noise.' We need an evidence packet that holds up at Council. We need sensors in the marsh, tide calibrations, legal cover. If Elena's team shows up with polished renderings and a purse, they make it look inevitable."
+    "Jonah Reyes's jaw tightens. He leans closer so his voice is nearly a whisper over the rain."
+    hide mara_solano
+    show jonah_reyes at right:
+        zoom 0.7
+
+    jonah_reyes "Then we don't let them be the only voice that sounds inevitable. We bring data, and we bring the people who'll stand behind the data."
+    "You both watch a shadow move past the edge of a mural — a figure under a transparent umbrella that gleams like a screen. For a moment everything narrows: the umbrella's clear dome, the way lantern"
+    "light refracts across its surface, the faint pulse of data HUDs reflected in the rain. Elena's presence is not a shout but a clean, surgical image: polished boots on wet wood, an outline of a cuff"
+    "that means corporate telemetry. Someone at the edge of the market points and murmurs; the crowd ripples like a small, anxious sea."
+    hide rosa_and_mateo_market_co_op
+    hide rosa_and_mateo_market_co_op
+    hide jonah_reyes
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant, polished voice on a corporate stream, too smooth to be human]
+    "You realize the boardwalk is not just a place of memory and commerce but a line on a map that could be erased with the right permits and steel. The murals behind Jonah seem to breathe"
+    "in the storm light, colors flaring like a warning. Your practical inventory tightens into a decision node: galvanize the crowd and risk escalation, or continue building the technical scaffolding and hope the bureaucracy buys time."
+    "Your pulse matches the rhythm of the plank joints beneath your feet. Around you, the market exhales — smoke from a grill, laughter, the soft crying of a child soothed by a shawl. Jonah's hand brushes the strap of his camera again, then drops."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "We can be loud and organized. We can make it impossible to pretend there's no other way."
+    "You open your mouth to answer and the words form, sharp and numerous: the list of permits, sensor placements, modeling windows, who to call at Town Hall, who can testify without risking their livelihoods. But as"
+    "the first words scrape your throat, the market's lights blink and the rain fatten on the wood as if the sky is listening."
+
+    menu:
+        "Start listing the exact technical steps now":
+            "You begin: sensor nodes here, tide calibration points there, a timeline. Jonah nods, jotting the ideas on the back of a flyer like a talisman. He looks at you the way people look at a lighthouse — a mix of dependency and trust."
+        "Take Jonah's hand and say we'll do it together":
+            "Your hand finds his, fingers finding the familiar scar on his thumb. Jonah's expression goes complex — both relieved and wary — because his optimism is tempered by the knowledge of what the work will ask of both of you."
+
+    # --- merge ---
+    "Whether by plan or touch, the resolve between you tightens; the market leans in, waiting."
+    "The murmuring crowd tightens its circle around you two. Someone else begins a chant that rises and falls like the sea. The clear umbrella—Elena—stands at the periphery like a seal on a letter: poised, unreadable. You can feel the town's attention contracting toward the axis of the coming hearing."
+    "Everything asks for an answer that isn't just technical or rhetorical: it asks for a moral posture, for risk, for who you are willing to ask to stand with you and who you can ask to"
+    "leave. In the flash of a wet mural and Jonah's amber eyes, the question sits heavy and bright."
+    hide jonah_reyes
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The pumps in the distance, steady as a heartbeat; a lone gull caws]
+    "You can keep enumerating tasks until the tide washes the ink from your notebook. You can begin the candlelight and action now, or you can step back and build the packet that will make the town's argument undeniable. Either path promises sacrifice; neither guarantees safety."
+    "The market leans toward you both, waiting for the shape of what comes next."
+    # [PAGE-TURN MOMENT: You breathe in, the salt and smoke and rain folding into the space where decision lives. Jonah watches you with an expression that's both plea and plan. The umbrella's HUD flickers one last headline and the mural behind you seems to steady as if to brace. You feel the old pulls — duty, loyalty, the magnetism of shared history — each pressing at the thin membrane between protest and policy. You begin to speak and the word hangs like a bell.]
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

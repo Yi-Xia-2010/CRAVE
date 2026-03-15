@@ -1,0 +1,163 @@
+[Scene: Tideworks Lab | Morning]
+[Visual: Interior of a converted shipping container — warm task lamps, bioluminescent tanks, salt streaks on metal]
+[Sound: Low hum of generators, distant gull calls, the occasional metallic clank as a crate is opened]
+[Music: Sparse, tense strings; a slow, descending piano motif]
+
+You push the container door open and the smell hits you first — a wet, iron tang undercut with diesel and the green-sweet of harvested seaweed. The lab is crowded: larger modules stack along one wall, sensor racks dangling like mechanical sea-flowers, and Theo bent over a tangle of cables with his back to the entry. Elias stands beside him, sleeves rolled, peering at a tablet where a stream of numbers scrolls too fast for comfort.
+
+Theo: "Morning, Mara. Nice of the sea to give us fog for dramatic effect."
+
+Theo's grin is shorthand for steadying the room, but when you step closer you see the edges of his voice fray. His fingers leave smudges on a connector; the connector doesn't want to seat cleanly.
+
+Elias looks up, eyes ringed with the same exhaustion you feel in your bones. He doesn't bother with a greeting that could pretend everything is normal.
+
+Elias: "We pushed the module specs overnight. Bigger anchors, more sensor nodes. Funders greenlit the scale. We can have three bays live by dusk."
+
+Elias taps the tablet; the numbers bloom into a site map: red dots for modules, thin lines for cable runs. It all looks tidy as if mapping could make the ocean behave.
+
+You eye the module nearest the door. The steel has been pitted by salt; the welds are new but their seams gleam wetly in the lamp light. A strip of polymer — a fixture meant to isolate vibration — is bowed. It wasn't like that in the prototype runs.
+
+You: "Is that bowing new?"
+
+Elias's jaw tightens; he runs a thumb along a sensor housing, where salt crystals have started to nest in a seam.
+
+Elias: "Manufact tolerances were tighter in the last batch. Theo says it's supply substitution — a polymer run the vendor shipped to save time. We can replace them, but that adds days."
+
+Theo: "Or we can crimp them and go. Crimping is ugly but it holds until the second season."
+
+Elias meets your eyes. "If we stop now, the funders— they'll call it a failure. They'll pull the next tranche. We lose our deployment window and a lot of leverage."
+
+You know the math — no leverage means decisions get made for you, by boardrooms far from Corvena's tides.
+
+You: "And if we don't stop?"
+
+Elias exhales. The tablet's glow scours his face. "Sensors drift. Anchors flex. If fatigue accumulates we could lose a module in a storm event. Worse, we could validate Jun's 'engineered walls only' narrative — that living systems are too fragile."
+
+A silence rolls through the lab like a low incoming tide. You think of your father's boat, of ropes burned against palms, of promises that smelled like wet rope and coffee. The ledger opens in your chest and all the entries are immediate and electric.
+
+[Interactive Moment: Choice A ("Take a closer look at the fixtures yourself") -> Reaction: "You kneel, hands scraped on metal, and run your fingers along the polymer. It's soft where it shouldn't be. You can feel the hairline of compromise as plainly as a cracked seam in a hull." || Choice B ("Ask Theo for a risk estimate and trust his call") -> Reaction: "You step back and let Theo speak. He lists failure modes, probabilities, and a timeline if they 'go live' now — his voice steady, but the numbers have a tremble under them."]
+
+
+[Scene: Harbor | Midday]
+[Visual: Open harbor, mooring lines and modules on flatbed barges, a gray sky pressed low; cranes arc like dark ribs]
+[Sound: Cranes groaning, the slap of water against pilings, the creak of tarps]
+[Music: Wind-swept cello; low percussion that punctuates the work rhythm]
+
+By noon the barges are loaded. Volunteers in oilskins move with the rhythm of people who've learned to be efficient because there is never enough time. Ivy appears at the edge of the gangplank with a thermos, cheeks flushed from the cold, paint on her overalls.
+
+Ivy: "You look like you swallowed a storm."
+
+You give a tight laugh that tastes like sea salt.
+
+You: "Feels like one."
+
+Elias goes over deployment runs, calling lifts like a conductor. You notice how he softens when he speaks to the crew — the same careful tone he uses with you, only public. When he's not talking numbers, his hands are restless. He keeps checking the sensor wristband; its green pulse is steady but the display flashes a caution you can't read from here.
+
+A call cuts across the harbor — the funders. The voice on the comm is clipped and polite, like a hammer with a smile.
+
+Funder Rep (over comms): "Status update, Tideworks. Board wants to broadcast initial figures by week’s end. They're seeing momentum metrics and want to lock narrative. No delays."
+
+Elias: "We're aligning to their window, but there are anomalies with a subset of fixtures —"
+
+Funder Rep: (interrupting) "Anomalies are expected in scale. Minor retrofits on the go are fine. What we need is progress, not headlines of delay."
+
+The rep's words are cleanly economical. Progress, not delay. They place a currency on time.
+
+You look at the crews heaving the modules into the water, ropes singing through hands. Every step forward makes it harder to call halt. The modules weigh like small promises.
+
+You: "If we keep going and something fails, it won't just be metrics. It'll be people losing faith. They'll say we were reckless."
+
+Elias: (soft) "And if we stop, they could asphyxiate this whole movement with a press release. We could hand Jun a victory."
+
+The tension between moral honesty and tactical survival isn't new, but it is sharpened today — a blade glinting in the salt. You hear Rosa's voice in the back of your head about how the shore remembers. It feels less like counsel and more like a ledger you cannot ignore.
+
+[Interactive Moment: Choice A ("Tell the crew to slow the deployment and replace suspect fixtures") -> Reaction: "You call out the pause. Hands drop; there are groans from people counting on pay. Theo swears under his breath and starts organizing parts requisition. The energy in the harbor folds inward, careful but brittle." || Choice B ("Keep the schedule visible and instruct retrofits be done quietly during night shifts") -> Reaction: "You smile thin and say we'll keep to the timeline. Theo's jaw tightens and he nods; you can see the ethical weight settle like a shadow across his shoulders. The crew resumes work with a focused, wary gait."]
+
+
+[Scene: Deployment Site / Test Bay | Late Afternoon]
+[Visual: Modules bobbing at low tide, sensor masts upright like sentinels; the sky bruises toward evening]
+[Sound: A new, intermittent ringing from a faulty sensor, distant thunder, the staccato chatter of radios]
+[Music: Minor-key piano with an undercurrent of dissonant strings]
+
+By the time the sun slants low, the first modules are in place. Sensors light in faint pulses, netted LEDs reflected in puddled oil on the decking. On the monitoring rig, data streams spike and sigh; most is good. But one stream — a strain gauge on an anchor line — keeps producing an outlier: repeated micro-tremors that shouldn't be happening at low swell.
+
+Theo: "We've got micro-yielding on anchor point C3. The polymer shim's deforming under cyclical load. It shouldn't if the module's installed right."
+
+You reach for the comm. "How frequent?"
+
+Theo: "Irregular. Could be installation. Could be material defect. Could be cumulative fatigue if the supplier swapped grades."
+
+Elias closes his eyes for a fraction of a breath and the tablet trembles in his palms.
+
+Elias: "If it's cumulative, we have a window where proactive reinforcement saves us. If it's installation error, we can correct it quickly. The problem is — the funders want us to keep modules in the water to hit KPIs. They equate visibility with success."
+
+You watch the waveforms like a tide chart of your own heartbeat. Every anomalous blip is a small betrayal of assurance. You are the person whose ledger others read; they mark your choices.
+
+A discrete message pings on your field phone. It's from one of the funders' liaisons — the tone in the message is almost casual, the subtext heavy:
+
+Funder Liaison (text): "Great work today. Keep momentum. Board wants assets visible Friday."
+
+You feel the text like a physical pressure. Momentum — the single word shapes everything.
+
+Elias: "We can reinforce C3 now, but it means pulling this module. That pushes the timeline and the narrative."
+
+You: "How long to retrofit?"
+
+Theo rubs his temple. "We can do a quick retro-fit within a night-shift, but proper reinforcement would take three days and a wet-test. The board won't like three days."
+
+Elias looks at you, the question in him vast and hungry.
+
+Elias: "Mara, I know we need credibility out there. But I also know what happens when you paper over a fatigue problem. We either pause and be honest, or we patch and hope. I don't want to build a future on hope alone."
+
+Your chest tightens. The fracture between what's morally clean and what's politically expedient yawns open and cold.
+
+Ivy comes up beside you, sleeves splattered with salt and soil. She doesn't pretend to be a strategist; she speaks for a different ledger — the small, immeasurable values.
+
+Ivy: "If you hide it, people will forgive us at first. But when the broken things start piling up, they'll say we let them down. They'll remember that."
+
+Rosa's voice arrives through Theo, who repeats a line she'd told you before: "The shore remembers us." It's not a scolding; it's a chronology.
+
+You want to be everything to everyone — to keep momentum, to keep people safe, to keep faith. Those aims press against each other until the seams threaten to split.
+
+Elias: (quiet, urgent) "If we go live on schedule, we risk a sharp loss later. If we pause and publish, we take a hit now and maybe lose funding. If we retrofit quietly, we keep funding but we take on ethical risk of concealment."
+
+Your mind catalogs the outcomes like a surgeon measuring cuts.
+
+You: "And Jun? If funders pull, Jun has the perfect stage to say the community's approach failed."
+
+Elias: "Exactly."
+
+The lantern-light shifts. The modules bob slowly, obediently, as if they understand the weight of being symbols.
+
+You breathe. The decision is suddenly heavy in your hands. You feel every face you represent leaning into you. The ledger, salt-scraped and living, asks for an accounting.
+
+[Music: Staccato high strings; the piano motif resolves into a single unresolved chord]
+
+You draw your hand to your compass pendant — its cord warm against your skin — and realize there is no purely technical choice left. Each path maps onto a different morality and a different future for Corvena.
+
+You: "I have to decide."
+
+[Visual: Close-up on the wavering waveform for anchor C3; the screen freezes on a jagged spike]
+[Music: Mournful low cello]
+
+You set your jaw. The air tastes of iron and the promise of rain. The harbor narrows into a throat, and you can feel the city's breath held in the choked space between now and next.
+
+You: "We need to choose — now."
+
+[Decision Looms — do not resolve here]
+
+You: (internal) "Keep deploying on the funders' schedule." (What does that mean for the people who trust me? Will metrics be worth the price of a broken anchor? I can already hear the press releasing 'progress' while someone somewhere picks through the wreckage later.)
+
+You: (internal) "Pause and make the anomalies public." (We take a hit now; we are honest and maybe we lose funding. But honesty could rebuild trust — or leave us without a future at all.)
+
+You: (internal) "Quietly retrofit anchors and delay the public report." (We buy time, preserve funding, and risk moral bankruptcy if discovered. We preserve the movement now at the cost of secrecy.)
+
+[Music: Single, unresolved note; wind through rigging]
+[Visual: The camera pulls back from the lab lights to the darkening harbor; small lights blink like questions on the water]
+
+[DECISION POINT]
+Decide how to handle faulty fixtures and funder pressure.
+Options:
+1) "Keep deploying on the funders' schedule." -> TARGET chapter_id: 6, TARGET chapter_index: 6
+2) "Pause and make the anomalies public." -> TARGET chapter_id: 13, TARGET chapter_index: 13
+3) "Quietly retrofit anchors and delay the public report." -> TARGET chapter_id: 6, TARGET chapter_index: 6

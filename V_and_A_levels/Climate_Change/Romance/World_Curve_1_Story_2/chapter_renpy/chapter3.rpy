@@ -1,0 +1,163 @@
+label chapter3:
+
+    # [Scene: Community Rooftop Garden & Meeting Hall | Evening]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Muffled town traffic below, the distant gull-cry of the harbor, the low murmur of a crowd arranging chairs]
+    # play music "music_placeholder"  # [Music: Urgent piano, tempo picking up; percussion underlines a gathering pulse]
+    "You step onto the rooftop with your notebook in your hand and the taste of rain still in the groove of your teeth. The garden smells of damp coffee, wet soil, and the citrus soap someone"
+    "used to scrub mud off their boots. Posters — hand-lettered, earnest, curling at the edges — flap against a scuffed railing: RESTORE THE MARSH, SAVE OUR GROUND, LISTEN TO SCIENCE. The light is fluorescent indoors and"
+    "golden outside; the two do not agree, and the clash sets everyone a little on edge."
+
+    scene bg ch3_98c6f2_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The scrape of a chair leg; someone laughs too loud at nothing]
+    # play music "music_placeholder"  # [Music: A single rising string]
+    "Councilor Tomas Hale stands by the projector with a leather briefcase under one arm and contractor pamphlets splayed like promises across a folding table. His voice is polished, practiced as he thumbs through glossy pages and smiles at faces he knows how to read."
+    show councilor_tomas_hale at left:
+        zoom 0.7
+
+    councilor_tomas_hale "Good evening! Thank you all for coming. We have some—very viable—options to consider tonight, and representatives from Vernon & Crow and regional planners are here to answer your questions."
+    "From the doorway Dr. Elara Voss arrives in a charcoal trench coat, platinum bob immaculate even under the fluorescent glare. Her tablet glows with diagrams: a tall seawall, a reclaimed promontory, clean cross-sections, concrete set against a storm-scarred horizon. The diagram hums with authority."
+    hide councilor_tomas_hale
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A low collective intake; the hum of the vending machine underneath]
+    # play music "music_placeholder"  # [Music: Tense synth undercurrent]
+    show dr_elara_voss at left:
+        zoom 0.7
+
+    dr_elara_voss "Our model shows a 72 Percentage reduction in overtopping events within the next two storm cycles. It's a measurable hedge. It buys the town time to adapt — to rework infrastructure behind a reliable barrier."
+    "You feel a small heat behind your ribs — not quite anger, not quite fear — but a surge of readiness. Elara's model is exact. Your maps and marsh cores are messy by comparison; living systems"
+    "never sit still for a neat cross-section. Still, there is a different kind of value in that mess: life, harvest, and the slow remembering of how the tide used to sing against willow roots."
+    "Mateo Reyes clears his throat near the back, white stubble sharp against a navy cap. When he speaks the room flattens, gravity folding toward memory."
+
+    "Mateo Reyes" "When I was a boy the marsh fed us. We took only what we needed and the land gave back. You can sit behind glass and draw up a fortress, but you can't make people remember what they stopped remembering."
+    "Someone applauds. The sound is soft but real; a few heads nod like small beacons."
+    "Aiden stands with the co-op banner tucked under one arm. His hair is wind-ruffled; his eyes—sea-blue, steady—find yours across the room. When he speaks his voice rides that line between fury and care, a hand held out to keep people from tumbling into panic."
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "We need work that keeps boats in the water and people eating. A wall that pushes the seabed further out could cut off the little channels my uncle uses. That's not just theory; it's how people survive. I say we find a way to protect the town and preserve the fishing grounds."
+    "The room fractures almost audibly then: a ripple of nervous agreement, a handful of coughs, an elder's muttered counter. Lina moves through the crowd, paint-splattered hoodie bright against dim fabric. Her face is raw with urgency."
+    show lina_kwon at center:
+        zoom 0.7
+
+    lina_kwon "We have volunteers. The center can close early and get a hundred people out there tonight. If we start the pilot plots now, we keep momentum and show people what this looks like."
+    "Priya Anand stands by the map table, binoculars around her neck. She taps a legal timeline on her tablet with the tip of a pen."
+    hide dr_elara_voss
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "Grant windows close fast. Permitting windows are shorter than people think. If we delay to debate too long, we risk losing both funding and jurisdictional support."
+    "Councilor Tomas Hale smiles in that smooth way you have learned to read: measured concern, a political hinge. He taps a pamphlet with the name of a contractor that promises quick jobs, payrolls, and 'visible protections.'"
+    hide aiden_reyes
+    show councilor_tomas_hale at right:
+        zoom 0.7
+
+    councilor_tomas_hale "People need something now. Jobs. Assurance. Investors are looking for concrete timelines we can present at regional hearings."
+    "The air thickens. Fluorescent light makes sweat into a sheen on foreheads. Your notebook is in your lap, the ink on the last page still damp where you sketched tidal-prism models earlier. You had practiced this"
+    "presentation in your head all week — salinity gradients, Spartina survivorship, sediment accretion rates, community co-benefits quantified with people in the equation — but standing here is different. Everyone's life is on the edge of the"
+    "scales."
+    "You stand to speak, setting the notebook on the podium with the quiet deliberateness that's become your habit. When you draw breath, you let the grief that had been folded into quiet work fold slightly outward. This time you make it do work."
+    hide lina_kwon
+    show maya_kwon at center:
+        zoom 0.7
+
+    maya_kwon "What I'm proposing isn't sentimental. It's evidence-driven restoration. Pilot plots in the north channel, living shorelines at the pier, networked sensors so we can measure accretion in real time. We can train volunteers tonight, collect baseline cores, and show measurable gains in months, not years."
+    "A murmur. Aiden looks at you with something like a question and a pledge in his eyes. Mateo's hands are folded but his fingers tap a rhythm."
+    hide priya_anand
+    show dr_elara_voss at left:
+        zoom 0.7
+
+    dr_elara_voss "Pilots have value, yes. But given current rise trajectories and storm unpredictability, pilots don't guarantee protection. A well-engineered structure mitigates risk to infrastructure and lives now. We can bring resources, contractors, and expedited permitting to the table."
+    "You hear the word 'now' as the room's heartbeat. It bumps against your patient instincts — the steady accrual of sediment, the slow brave growth of grass. You almost want to shout that 'now' is what"
+    "community labor creates too: immediate action, immediate solidarity. But Elara's offer is not empty; it brings money and timetables."
+    "The dialogue twists. Tomas leans forward, palms flat on the table."
+
+    councilor_tomas_hale "We need to thread a needle: immediate jobs and long-term security. I propose we hear both sides and see what funding streams respond. We can't do nothing."
+    "There is a charge to the air now — more than tension, less than panic; it feels like everyone caught between oars. You think of the storm that took your parents' house: wood groaning like old"
+    "chairs, the smell of soaked insulation, the small locket you press with your thumb until the image inside blurs. For years you let that grief tuck itself behind data and grant forms. Tonight it pushes forward,"
+    "and it sharpens rather than unravels you."
+
+    maya_kwon "I am not asking to close the door on engineered solutions. I'm asking we don't make a choice that sacrifices the very systems that make this town livable just because they look slower on a spreadsheet. A hybrid approach — pilots that demonstrate ecological function plus targeted strategic defenses where communities lack viable relocation options — is possible. We can set metrics, timelines, and a staged funding request that satisfies grantors and keeps fishers on the water."
+    "Aiden steps up beside you, not taking over, but anchoring the proposal with his presence."
+    hide councilor_tomas_hale
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "We can work with the co-op to ensure access corridors for fishing. We can agree on buffer zones. But we can't have contractors drawing lines that cut out our kids' way to learn the trade."
+    "Alden's voice draws a string of nods. Elara's expression is neutral but not closed; she taps her tablet, bringing up overlay models."
+
+    dr_elara_voss "If you want a hybrid, fine. Show me specifics tonight. Where do you want pilot plots, what are your fallback protections, and how will you document success? Investors and regional partners need deliverables."
+    "The room shifts toward technicalities — maps unfurled, tidal numbers repeated like prayer. Priya calls for a timeline. Tomas mentions investor pressure again, softer this time. Lina's hands are clenched on her clipboard."
+    hide maya_kwon
+    show lina_kwon at center:
+        zoom 0.7
+
+    lina_kwon "People can get their hands dirty tonight. We have tarps, seedlings, tools at the center. If you tell us where to go, we'll be there."
+    "Your pulse ratchets faster. The crowd is leaning into you, into the possibility that tonight might break the inertia. You can feel energy — hunger for action, for practical proof that this town can choose a"
+    "future that keeps people and the marsh alive. Your words begin to come quicker, clipped by the speed of thought."
+
+    menu:
+        "Lead with the science — show charts and models first":
+            "You flip your notebook open to the annotated tidal-prism graph, voice tightening around numbers and projections. The room listens to data edge its way into conviction."
+        "Lead with the story — speak about the marsh you remember":
+            "You close your eyes for half a breath and sketch the memory: willow roots, laughing children, the smell of wet reeds. Faces soften; people remember why they're here."
+
+    # --- merge ---
+    "'You choose both: strategy and story braided together, because you have learned that data without people is unreadable, and story without proof is a flash.'"
+    "The choice hangs no longer than a heartbeat. You choose both: strategy and story braided together, because you have learned that data without people is unreadable, and story without proof is a flash."
+    hide dr_elara_voss
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "We will show both. Here are the coordinates for test plots at the north channel, the species mix, and a monitoring protocol. Here is what we'll ask volunteers to do tonight: baseline cores, transplant plots, and sensor installs. And here is why: because the marsh held us before, and with care it can hold us again."
+    "A low, mounting applause follows — not universal, but enough to make heat bloom in your cheeks. Dr. Elara Voss's jaw tightens in a small, almost imperceptible way. Councilor Tomas Hale taps his pen. Voices become a chorus of questioning and bargaining; the tempo of the meeting accelerates."
+    hide aiden_reyes
+    show priya_anand at right:
+        zoom 0.7
+
+    priya_anand "If we commit tonight to a pilot, we need a legal path for access and protections during the permit process. I'll draft an emergency cooperation memo. We can get interim insurance language in to protect volunteers."
+    hide lina_kwon
+    show aiden_reyes at center:
+        zoom 0.7
+
+    aiden_reyes "I'll rally the co-op. We'll carve access corridors where needed and commit to work days around the planting schedule."
+
+    "Mateo Reyes" "And I'll tell the younger men and women where the North Channel used to bend. They'll listen."
+    "The rooftop hums. The momentum is real. Hearts lift on a tide of possibility. Yet, across the room, Elara lifts her tablet and offers a different kind of momentum — belts of contractors, timelines that can be checked off, poured concrete that will sit and stand like a promise."
+    hide maya_kwon
+    show dr_elara_voss at left:
+        zoom 0.7
+
+    dr_elara_voss "If you're interested in pilots, I can ensure engineers are present to advise on minimizing impact to navigation and to design transitional structures that don't sever access. We can provide a phased plan: immediate stabilization, parallel pilots, and, where necessary, structural backup."
+    "Her concession smells like leverage. You taste hope and a lagging caution. The room's energy spikes; debate becomes action planning. Voices climb, footsteps shuffle. People pull chairs closer, sketch on napkins, argue lovingly and sharply. High arousal: everyone is awake, choices spinning like a bright wheel."
+    "You feel Aiden's presence beside you, a steadying weight. He doesn't press you to choose. Instead he folds himself into the conversation, balancing the co-op's practical needs with the passion of volunteers."
+
+    aiden_reyes "We don't want to lose our way of life for promises that don't include us."
+    hide priya_anand
+    show councilor_tomas_hale at right:
+        zoom 0.7
+
+    councilor_tomas_hale "We don't want to lose the town's tax base for a romantic idea that may not cover immediate liabilities."
+    "Your heart hammers. The room's din becomes a single focused roar: the community at a hinge. You breathe in, breathe out, and for a sliver of a second everything narrows to a single, urgent clarity. This"
+    "is not a theoretical debate. It is a pivot in how the town will survive storms and what it chooses to protect: livelihoods, ecology, culture."
+    "Your grief — the storm's long shadow — is no longer a private thing. Tonight, it is a sharpened lens. You understand that the choice will steer policy and the shape of your life and the"
+    "fragile new thing with Aiden. Your voice, when you make it, is stripped of theatricality; it hums with the high pitch of decisive hope."
+    hide aiden_reyes
+    show maya_kwon at center:
+        zoom 0.7
+
+    maya_kwon "We have three practical paths from here. We can mobilize volunteers tonight and show momentum. We can work with the co-op to find a negotiated compromise that preserves access while piloting living shorelines. Or we can enter formal negotiations with engineers to shape a technically funded plan. Each path changes who leads, how fast we move, and how much of the marsh we keep intact. We need to choose a strategy and move."
+    # play sound "sfx_placeholder"  # [Sound: A collective intake — like sails filling]
+    # play music "music_placeholder"  # [Music: Swells to a climactic chord; drums accenting the moment]
+    "There is a pause so complete the fluorescent hum seems loud. Eyes search your face, then the maps, then one another. The meeting has done more than split: it has lit a direction. Now the action point sits on the table, as sharp and unavoidable as a tide line."
+
+    menu:
+        "Mobilize the volunteers tonight—start the pilot planting now.":
+            jump chapter4
+        "Work with Aiden to propose a co-op compromise that preserves fishing access while piloting living shorelines.":
+            jump chapter8
+        "Accept Elara's offer to meet engineers; enter formal negotiations to shape a technically funded plan.":
+            jump chapter11
+    return

@@ -1,0 +1,219 @@
+label chapter16:
+
+    # [Scene: Rosa's Greenhouse Conservatory | Dawn]
+
+    scene bg ch15_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low drip of irrigation, distant gulls, muffled conversation]
+    # play music "music_placeholder"  # [Music: Sparse piano in a low register — minor, steady]
+    "You come in on quiet legs, the greenhouse warm enough to fog your breath, soil-sweet and citrus-bright under your nose. Rosa moves between seedlings with the deliberate ease of someone who's been teaching the same hands"
+    "how to be careful for decades. Her gloves are dark with compost; a thin line of salt peeks at her temples where sleep dampened her braid."
+    show rosa_marin at left:
+        zoom 0.7
+
+    rosa_marin "You look like you haven't slept. Good. That means you're thinking with your bones."
+    "You let out a laugh that wants to be lighter than it is. The laughter splinters into the steam."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "I've been thinking with everything. Bones, paper, stubbornness. Niko's already at the promenade setting up the first rapid-response cache. Lena's got a recorder wired to the courthouse steps. Tomas Herrera—' You glance toward the table where a folded slate-blue jacket sits like a promise. '—is helping sketch the regional map again."
+    show tomas_herrera at center:
+        zoom 0.7
+
+    tomas_herrera "Maps don't lie, but they can be argued with. (He half-smiles.) And they help us make a case someone in a suit can carry upstairs without crying."
+
+    mara_voss "That's your job: make things say they matter to people who keep budgets."
+
+    tomas_herrera "And yours is to make sure what's budgeted is worth keeping. We need both."
+    "The air hums with something you can't name—fatigue, resolve, the raw friction where hope meets ledger lines. Rosa sets a tray of marsh sedge into your hands like an offering. The roots smell of brine and patience."
+
+    rosa_marin "You remember the old tide chart in your locket, sí? Keep it close. We will need remembering."
+    "You feel the cold metal of the locket beneath your palm through shirt fabric; the tide-chart is a knot in your chest that untangles only when you plant. You don't say this out loud. You don't have to."
+    hide rosa_marin
+    show niko_alvarez at left:
+        zoom 0.7
+
+    niko_alvarez "We've been teaching volunteers how to splice and shore up—quick repairs to berms, how to redirect the flow away from foundations. We also got someone to retrofit an old fishing trawler into a supply skiff. It's messy and it smells like tar, but it floats."
+
+    "Lena (tapping her recorder, eyes sharp)" "People need to see the work. Not just the injunction and the press releases—kids with spades, neighbors mending the dunes. That's the narrative that keeps voters' attention when the cameras move on."
+    "Your chest tightens at the last thought. The cameras do always move on."
+    "Tomas Herrera leans forward, lower now, quieter. 'I've been talking with Anton. He's willing to sponsor a regional coordination fund—small, but real. Legal scaffolds are coming through too, but they will tie our hands if we"
+    "don't design them. There are donors calling who want names on plaques. I don't like the idea, but—'"
+    "You cut him off gently because you don't need the list of compromises right now. What you need is an honest voice."
+
+    mara_voss "You don't like the idea because it looks like selling the shoreline. But—' You swallow. 'We also don't have four more years."
+    "Tomas Herrera searches your face, measuring. 'I know. I know. I'm trying to keep both of those truths open, Mara. I want to be honest about the trade-offs and hold the line where it matters.'"
+    "There is a pause filled with the smell of wet wood and the faint metallic bite of salt. You watch how Tomas Herrera folds his fingers, how his hazel eyes darken with a weariness that is not resignation but calculation."
+
+    menu:
+        "Reach for his hand":
+            "You close the distance and let your fingers find his. The contact is small and immediate; it anchors you both in the middle of a plan that threatens to fray. Tomas Herrera's shoulders un-tense for half a breath, and in that slack you both say without words that you don't have to carry every weight alone."
+        "Turn back to the seedlings":
+            "Your palms press soil into the roots as a quiet answer. Tomas Herrera watches, understanding folding into his expression. The conversation continues; no promises are made, but the work presses forward and you meet it with both hands."
+        "Ask Rosa for practical help":
+            "You ask Rosa to teach a quick propagation trick on the spot. Her hands show you the loop and the pinch; the group gathers. Tomas Herrera steps back and lets the community teach instead of convincing, and for a few minutes the plan is less about negotiation and more about transfer of skills."
+
+    # --- merge ---
+    "Rosa laughs softly at the dozen stone-faced faces leaning in. 'Good. That is how you keep people—give them the work and the way to do it.'"
+    "The micro-moment dissolves into the morning routine: seed trays, lists scrawled in your Moleskine, a postcard of a legal form slid across the table with Lena's finger tapping the corner. None of this undoes what has"
+    "been lost. That is the current beneath everything: a coastline with names on it, places you have booked in memory and in maps."
+    # [Scene Transition: Cut to Lantern Lighthouse | Late Morning]
+    hide mara_voss
+    hide tomas_herrera
+    hide niko_alvarez
+
+    scene bg ch15_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The wind gnaws at the lighthouse railings; distant hammers]
+    # play music "music_placeholder"  # [Music: Low strings, a slow cello line — somber, resilient]
+    "The path up to the Lantern Lighthouse is narrow and slick with spray. You climb with Niko and a team of volunteers—some familiar faces, some hands you met at distribution centers after the surge. They carry"
+    "gear, sandbags, memory boards, portable pumps. The summit feels like a pulpit for grief and instructions."
+    show niko_alvarez at left:
+        zoom 0.7
+
+    niko_alvarez "We run drills here. If a surge comes, we secure the lower paths, we triage the flats, and we move infants and elders to high ground first. We've got radio points set along the promenade."
+    "You nod, the commands feeling natural in your mouth. You're good with triage, with who to move and when. You have spent the last decade telling water where to go."
+    "Tomas Herrera, when he arrives at the top, is windsmoothed, hair slicked to his head. He hands you a thermos; the coffee inside is weak but warmer than your fingers. He watches the team with the"
+    "same quiet attention he brought to council tables—calm, cataloguing like a man who can turn chaos into steps."
+    show tomas_herrera at right:
+        zoom 0.7
+
+    tomas_herrera "I drew a diagram for a chain of micro-hubs—greenhouse patches, school basements, the mill roof. If we connect them with supplies and a shared legal umbrella, we can move faster than any single office can process."
+    show mara_voss at center:
+        zoom 0.7
+
+    mara_voss "Faster is better than perfect. Faster could mean fewer of our places turning into someone else's development site."
+
+    tomas_herrera "It could. It could also mean we have to ask for help from people who will want something back. I'm trying to figure out what we can accept and where we have to hold firm."
+
+    mara_voss "What are you willing to accept?"
+    "He looks at you like the question is both policy and private. 'I'm willing to accept stepping sideways within the system if it helps keep communities intact. I'm also willing to step away if the system becomes the thing.'"
+    "You feel the weight of that. The shoreline tests everyone for how much compromise their bones can take."
+
+    mara_voss "And us?"
+    "Tomas Herrera falters for the first time all morning. 'That's a different ledger,' he says. 'I don't have a plan for that except to be honest. That might not be enough.'"
+    "You want to argue. You want to make promises you can't keep. Instead, you pull your jacket tighter against the wind."
+
+    mara_voss "Honesty is an underused currency."
+
+    tomas_herrera "Then we'll start there."
+    "He moves to secure a line being thrown by a volunteer and miscalculates the arc. You react, grabbing the rope with him; your hands brush—salt and callous, a small human shock. The rope jolts taut. For a heartbeat the cold wind is just sound."
+
+    menu:
+        "Climb the small ladder with Tomas to inspect the beacon":
+            "You take the ladder handrail beside him; the horizontal view of the harbor opens and you both take it in. The horizon is a stitched seam now—some places mended, others raw. You exchange plans in whispers against the wind. There's intimacy in shared elevation; distance becomes view, not absence."
+        "Stay on the platform and coordinate the drills":
+            "You stay grounded, barking instructions, letting Tomas Herrera take the risky climb. Watching him work is its own kind of closeness; you trade glances between commands, and the bond grows in the space of competence."
+
+    # --- merge ---
+    "The choice you make shaves the moment one way or another, but either path folds into the same steady motion: people trained, kits packed, radios tested. There is no triumph yet, only the muscle memory of preparedness."
+    # [Scene Transition: Harbor Promenade (the Flood Line) | Late Afternoon]
+    hide niko_alvarez
+    hide tomas_herrera
+    hide mara_voss
+
+    scene bg ch15_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft conversations, the scrape of rakes, distant municipal siren that fades]
+    # play music "music_placeholder"  # [Music: Sparse woodwind, a quiet hymn undercut with a minor chord]
+    "The promenade is lined with small signs now—names, dates, messages in waterproof marker. Some are for places lost. Some are for people who rebuilt. You walk the line slowly, each step sending a small splash along"
+    "cracked concrete. Volunteers are replanting cordgrass into pockets of sand; a child is sketching a map of the bay in the mud, entirely unconcerned with precincts or legalese."
+    "Mayor Anton stands near a folding table with folders and a discreet cluster of municipal staff. He looks older in the late light; the weight of choosing budgets has pressed new lines into his face. He"
+    "greets you with a thin smile and hands you a laminated memo—funding details, pilot areas, a deadline that will not be enough."
+    show mayor_anton_chi at left:
+        zoom 0.7
+
+    mayor_anton_chi "This isn't everything you asked for. It's something we can get through the council this cycle. It secures—' He gestures vaguely toward the wet grasses. '—these pilot pockets and creates a framework for regional coordination. It buys time."
+    "You read it like a map that omits roads. The paper promises scaffolding but not the muscle that will be needed to hold it."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Time is a thread we have to weave into something stronger. What safeguards are there to stop repurposing these pilots into development parcels?"
+    "Mayor Anton's expression shifts, careful as a tide. 'There are clauses—oversight language, community boards, audits. They'll need your input to be real. You'll have to be willing to sit on them.'"
+    "You think of afternoons at council chambers, the echoing quiet of rooms where long words mask small betrayals. You think of Elys Reed—her face unreadable in your memory, the way she reframes outcomes into momentum. You remind yourself to call that complexity what it is: complicated, not simply villainous."
+
+    mara_voss "I'll sit. I'll bring Rosa. We'll make sure the oversight has teeth."
+
+    mayor_anton_chi "You'll need to help convince the broader public. Your exposure was crucial. Lena's reporting will keep the story alive, but we need more voices."
+    "Lena joins you then, camera slung over her shoulder, cutting a clean line through the late-day activity. She catches your eye and nods toward a small group of volunteers erecting a memorial board made of reclaimed pallet wood—names written in a practiced, trembling hand."
+    show lena_park at center:
+        zoom 0.7
+
+    lena_park "People will listen if they can see what the loss looks like and what work looks like in the same frame. We make the ordinary work visible, we starve the performative solutions of oxygen."
+
+    "Niko adds in his easy, blunt way" "And we keep building the skills. We train fast-response crews who can be the difference between a flooded basement and a saved home."
+    "You close your eyes for a moment and let the promenade's smells flood you: salt and diesel, wet wood and something floral from Rosa's greenhouse carried on the breeze. The community's chorus rises — not a"
+    "triumphal anthem but a layered, gritty hymn: people tending, arguing, laughing despite everything, hands in earth, hands on tools."
+    "Tomas Herrera appears beside you, quiet. He watches the shoreline with you. Neither of you speaks right away; there are simply too many things to name."
+    hide mayor_anton_chi
+    show tomas_herrera at left:
+        zoom 0.7
+
+    tomas_herrera "There will be nights I'm gone for meetings outside the Bay. There will be political calls I have to take that won't be in your favor. I want you to know that doesn't mean I'm gone from this."
+
+    mara_voss "I know that some things we will have to do apart. That doesn't mean we've failed each other. It means we are both different kinds of necessary."
+    "He reaches for your hand. This time you let it close around his without the need for a defining word."
+
+    mara_voss "We built a network from the things we could carry. We'll hold the pilots so they don't get hollowed. We'll teach the crews so they don't have to improvise every time. We'll make sure the lawyers don't write the story alone."
+
+    tomas_herrera "And we'll keep each other honest. If I start hearing 'feasible' used like lipstick, call me out."
+    "You both laugh—brief and wind-blown—and then fall into a companionable silence. The laughter doesn't change the losses you have tallying in your head, but it stitches a seam in the present."
+    "Rosa ambles up with a small wreath of marsh grass and wildflower. She nods at the memorial board and then at you."
+    hide mara_voss
+    show rosa_marin at right:
+        zoom 0.7
+
+    rosa_marin "You will carry this. You are not alone. That is the work and the weight."
+    "You bow your head and lay your palm on the wreath. The grass pricks like a small, bright pain."
+    "The day wanes. Workers pack tools into rusted vans; the community disperses into neighborhoods to check on the elderly, to shore a neighbor's threshold, to bring a kettle to someone's kitchen that has been without power."
+    "You walk the promenade until your boots are damp at the edges, and when you stop you can hear the low murmur of people talking about plans as if the sound itself can coagulate into policy."
+    "There are concessions in the memo in your bag, lines you had to swallow to secure any guardrails at all. There are faces you couldn't save from losing a place. There are nights ahead when you"
+    "will replay the decisions that cost you dearly and ask whether there was another way. The ache for what could not be held is a tide you have learned to navigate; it does not ebb entirely."
+    "You look at Tomas Herrera then, and the harbor looks back at both of you—vast, patient, indifferent, necessary. The movement has become a thing with a pulse beyond either of you: volunteers, legal teams, journalists, municipal"
+    "staff, elders and children. It will take more of you than either of you imagined. It will also give back a shape to your grief you didn't know you needed: organized purpose."
+    hide lena_park
+    hide tomas_herrera
+    hide rosa_marin
+
+    scene bg ch15_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Piano resolves into a warm yet minor chord]
+    "You make a choice—not a bright, cinematic promise, but a steady one. You will lead the regional network, stitch pilots into policy, train rapid-response crews, and hold the line when money and expedience lobby otherwise. Tomas"
+    "Herrera will work within municipal and regional systems to turn those pilots into binding ordinances and to find pockets of funding that respect community oversight. Your partnership will be braided through different terrains: some shared, some"
+    "parallel, sometimes far-flung."
+    "It is not a tidy romantic resolution. It is honest and hard. It asks for distance and gifts you with purpose. You accept that choice because staying small would be the true betrayal of the people"
+    "whose names are on the board and whose footprints you still find in wet sand."
+    "You stand on the promenade as twilight takes the harbor in its fist. The lighthouse turns its slow, steady eye. The town hums with the work you set in motion. People repair what they can, plant"
+    "where they must, grieve where they need to. The injunction and the scaffolds bought time; time will be spent wisely or squandered. You and the coalition vow to watch."
+    "You open your Moleskine and add a new entry: lists of micro-hubs, training schedules, a roster of legal allies, a roster of elders with salt-storied knowledge. You draw a rough map that connects Rosa's greenhouse, the"
+    "lighthouse, the mill roof, the promenade pockets. The ink smudges slightly with the damp of your hands. It is imperfect and it is real."
+
+    "Tomas Herrera slips a folded piece of paper into your palm—an airport call time, a conference agenda, a note that reads, simply" "For the legal umbrella."
+    "You look out once more at the bay. The water is a bruised, honest color. The sky holds the memory of storms and the forecast of more. You don't pretend otherwise."
+    show mara_voss at left:
+        zoom 0.7
+
+    mara_voss "We will grieve. We will argue about money and names and control. We will lose things we love. And we will get up the next day and keep planting."
+    show tomas_herrera at right:
+        zoom 0.7
+
+    tomas_herrera "That's the only promise we can make."
+    "You breathe in the cold, salt edge of the evening and feel the weight of the movement and the weight of your heart as one combined load. The choice you made is not glamorous. It is"
+    "not complete. It is, however, the only thing that feels true enough to carry forward."
+    hide mara_voss
+    hide tomas_herrera
+
+    scene bg ch15_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: The piano drops to a single, sustained minor chord; strings whisper beneath it]
+    "You close the Moleskine, the pages warmed by your hands. You fold the tide-chart in your locket over and fasten it. The locket is small against your sternum—a private map for a public fight."
+    "You do not know how many seasons this will take. You do not know if, in five years, every pilot will have held. You do know you have chosen the harder path: steady, communal, capable of"
+    "outliving single victories and single disasters. You have chosen to translate grief into infrastructure and to let love be a companion across difficult distances rather than a promise of shelter."
+    "The night descends, and in its margin the town hums: quiet meetings, the scrape of a shovel, the faint jeer of a distant campaign ad you will need to counter. You will come back to this"
+    "promenade in a year, in ten years. There will be more names, and there will be fewer of the places that once were. There will be, you hope, more resilience."
+    "You stand there for a moment longer, feeling the slow chorus of people around you—neighbors who once were strangers, volunteers who learned how to hold doors against water, elders who taught you names for plants that"
+    "stop erosion. The chorus is not triumphant; it is weary and honest. It carries the town forward."
+    "You walk home with Tomas Herrera by your side. There is no final promise, no cinematic embrace—only the quiet knowledge that you will keep coming back to this work, and that the person next to you will keep showing up too, in ways you both can bear."
+
+    scene bg ch15_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Single cello line resolves into a soft, low note and fades]
+
+    scene bg ch15_f99e88_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

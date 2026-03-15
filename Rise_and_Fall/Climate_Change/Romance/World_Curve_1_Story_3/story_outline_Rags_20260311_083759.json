@@ -1,0 +1,463 @@
+{
+    "title": "Tidebound: Seeds of the Promenade",
+    "summary": "I am Mara Solenne, a wetland keeper and community organizer whose home, the Drowned Garden, is threatened by a city-scale adaptation plan. The story is a first-person arc of steady progress ([Rise]) in which every choice increases agency, resources, or emotional reconciliation. Early scenes ground the conflict: Elias Harrow, the engineer I love, is contracted with Lucia Montrose’s consultancy to design coastal defenses. At a City Hall hearing (the common split), I must decide whether to pursue radical direct action, negotiated partnership with engineers, or legal/political appeals. Each route yields a different kind of success rather than success vs. failure: a community-driven hybrid pilot (Happy), a pragmatic compromise that secures protections and funding while preserving some wetlands (Bittersweet), and a policy-savvy, iterative plan that embeds living elements into engineering via a negotiated pilot and continued co-management (True). Along the way I deepen trust with Elias through collaborative design, shrewd organizing with Rani and Eda Nal, and tactical political moves with Councilor Mateo Qu. Branching choices emphasize different strengths: charismatic mobilization, technical co-design, or legal/policy strategy. The arc culminates in uplift: wetlands preserved or integrated, livelihoods stabilized, and a matured romance formed on a foundation of mutual respect and shared craft.",
+    "emotional_curve_type": "Rise",
+    "player_character": "Mara Solenne",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt & Seedling",
+            "branch_designation": "Common",
+            "narrative_focus": "I wake to the smell of brine and soil, tending the hydroponic locket’s marsh grass on my windowsill. Morning at the Drowned Garden is hands-on: I patch a ruptured footbridge, bargain for a replacement float, and take stock of rumors about a new seawall. My seed-bead bracelet clinks as I check the cracked solar watch; I find a message from Elias arranging a meeting at Beaconworks Lab. I juggle community notices and memories — my sibling’s absence after a storm — and feel the old guilt that fuels me. Rani stops by with sawdust on her skin and offers a whisper of practical help. I sense the city’s pressure: construction dust and Lucia Montrose’s name in a council brief. I respond with the only tools I have: a network, stubborn hope, and a plan to bring people to the Promenade hearing. This chapter frames my urgency, shows my sea-glass green eyes and deep sea-green bob drenched in salt-sheen, and sets the stakes: preserve wetlands and protect our dignity.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Rani"
+            ],
+            "locations_used": [
+                "Drowned Garden",
+                "Beaconworks Lab",
+                "Pontoons"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Beaconworks Between Tides",
+            "branch_designation": "Common",
+            "narrative_focus": "I walk the slick, echoing floors of Beaconworks Lab to meet Elias. The warehouse’s cool fluorescent light makes the wetland samples glow in resin trays; Elias is there, sandy blond hair falling into amber eyes, fingers stained with model clay. We talk data and people; he shows me a simulation — a rigid seawall plan — and I pause at how clean it looks and how empty. Our conversation is intimate: he listens, fingers hovering over a brass compass; I show him Eda Nal’s photographs of living root mats. We argue gently about trade-offs — his methodical grace, my urgency. Somewhere between blue task-light and warm filament bulbs, we find a compromise: Elias offers to bring community storm-survey data into the model; I promise to let him shadow us on a marsh workday. The moment tightens our faultlines but also our possibilities: together we can design something that doesn’t erase what keeps us afloat.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Eda Nal",
+                "Rani"
+            ],
+            "locations_used": [
+                "Beaconworks Lab"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Public Hearing — The Promenade Rift",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At the City Hall Council Chamber, I stand in public light among reclaimed-wood benches and murmuring citizens. Lucia Montrose — silver bob, steel-gray eyes — presents the consultancy’s emergency seawall to a crowded dais. Councilor Mateo Qu reads a procedural brief that tilts toward urgency. I give testimony about the Drowned Garden, my sea-glass eyes on Lucia’s pearl brooch, Elias at my side with his slim tablet. The room hums with pressure. After hearings, a hard choice presses: organize direct action at the Promenade construction zone; push Elias to broker a co-designed pilot with Beaconworks and the community; or pursue legal/policy channels through Councilor Mateo Qu and secured protective ordinances. Each path builds capacity in different ways. I weigh risk, love, and strategy; my hydroponic locket feels like a catechism against panic. This chapter ends with a major split where I commit to one primary approach that will shape how I and Elias pursue progress.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How will I prioritize action after the hearing?",
+                "options": [
+                    {
+                        "label": "Lead a visible direct-action campaign at the Promenade construction site.",
+                        "consequence": "Mobilizes grassroots energy and forces public visibility; risks legal trouble; Elias gains field credibility",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Push Elias to broker a co-design pilot between Beaconworks and the community.",
+                        "consequence": "Builds technical partnership and shared authority; requires trust and political finesse",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Pursue legal and policy channels with Councilor Mateo Qu to secure protective ordinances.",
+                        "consequence": "Institutional leverage and funding potential; slower but durable gains",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Councilor Mateo Qu",
+                "Rani",
+                "Eda Nal"
+            ],
+            "locations_used": [
+                "City Hall Council Chamber",
+                "Promenade"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Chain & Canopy — Direct Action Begins",
+            "branch_designation": "Route A",
+            "narrative_focus": "I commit to Option A: lead a visible direct-action campaign at the Promenade construction site. I gather Rani, elders like Eda Nal, and neighbors to craft symbols: floating gardens lashed to pylons, seed-bead banners, and human chains across machinery. My waxed navy raincoat is streaked with mud and salt; Rani’s toolbelt clinks as she rigs a makeshift platform. Elias, nervous but supportive, shows up in his soot-creased tan field jacket and uses his tablet to map safe anchor points. The action draws press and the city’s eye — footage of children handing stockings of marsh seed to workers spreads. Lucia’s security cordons tighten, but our visibility forces discussions on safety and public input. I feel a swell of power and community cohesion; we win a temporary injunction to pause construction and a seat at an emergency consultation table. This victory opens tactical space for deeper negotiations.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Mara Solenne",
+                "Rani",
+                "Eda Nal",
+                "Elias Harrow",
+                "Lucia Montrose"
+            ],
+            "locations_used": [
+                "Promenade construction site"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Designing a Living Pilot",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "With construction paused, I convene a working table: Rani’s raft-builders, Eda Nal’s elders, Elias, and a council rep. I balance crowd energy with technical constraints; my fingers smell of oil and salt as I trace where living root mats could bolt into engineered pylons. Elias adapts his simulation to accept softer buffer zones. We face a tactical decision about scale and leadership: push for a rapid, community-run pilot with maximum autonomy; negotiate a co-management pilot with Beaconworks and city oversight (sharing authority); or accept a limited, well-funded pilot that trades some autonomy for guaranteed resources. Each choice is a different kind of gain. I feel my impatient guilt tempered by the possibility of structural success as the team affirms a plan. The chapter ends with a decision that will shape funding, control, and our relationship’s public balance.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which governance model do we pursue for the pilot?",
+                "options": [
+                    {
+                        "label": "Community-run pilot — maximum local autonomy.",
+                        "consequence": "Strong local stewardship; limited funds and formal recognition but high legitimacy",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Co-managed pilot with Beaconworks — shared authority.",
+                        "consequence": "Technical support and shared decision-making; builds lasting partnership",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Well-funded city-backed pilot with oversight — scale faster, less autonomy.",
+                        "consequence": "Significant resources and legal protections; community cedes some control",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Rani",
+                "Eda Nal",
+                "Elias Harrow",
+                "Beaconworks technicians"
+            ],
+            "locations_used": [
+                "Rooftop greenhouse",
+                "Promenade",
+                "Beaconworks"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Tidebound Pilot — A New Garden",
+            "branch_designation": "Route A (Ending: Happy)",
+            "narrative_focus": "Regardless of governance nuance, our pilot launches as a hybrid living barrier: engineered pylons with integrated root-mat platforms managed by a co-operative of locals and Beaconworks technicians. I stand at the edge of a newly planted marsh, my hydroponic locket clutched, sunlight turning my braided copper wire warm. Elias, in a soot-creased jacket now streaked with mud, presents recalibrated data to a watching crowd. Lucia attends but watches us with a new, guarded respect; Councilor Mateo announces conditional funding. We celebrate a legal recognition of community co-management and funding for livelihoods training. The romance between Elias and me deepens into comradeship: we sleep on converted rooftops and argue gently about instrumentation and planting schedules. The Drowned Garden feels sturdier; the pilot proves that a living approach can absorb storm energy while creating jobs. We have not solved everything, but we have secured a scalable proof that others can adopt.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Councilor Mateo Qu",
+                "Rani",
+                "Eda Nal",
+                "Beaconworks technicians"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Rooftop",
+                "Beaconworks"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Negotiated Design — The Beaconworks Bridge",
+            "branch_designation": "Route B",
+            "narrative_focus": "I choose Option B: push Elias to broker a co-design pilot between Beaconworks and the community. Elias accepts the political risk and uses his standing to convene a shared table. We work in Beaconworks’ cool glow: resin flora alongside his annotated simulations. My sea-glass eyes watch him negotiate with Lucia — not a face-off but a tightly choreographed bargaining where Elias insists on community survey points. Rani and Eda Nal bring lived experience to technical conversations; I learn to speak with calibrations and anchors instead of slogans. The pilot becomes a negotiated compromise emphasizing modular living elements integrated into engineered sections. We secure a formal memorandum that recognizes community input and commissions a phased implementation. Our relationship deepens as trust is built in the workshop and over muddy site visits. The chapter ends as the city accepts a co-design pilot for formal review.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Rani",
+                "Eda Nal"
+            ],
+            "locations_used": [
+                "Beaconworks Lab",
+                "Rooftop",
+                "Promenade"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Partnership Trials",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The co-design pilot is approved for phased development, but implementation demands trade-offs. We face a choice about public messaging and control: insist on transparent community leadership and co-branding (prioritizing identity and dignity), accept Beaconworks-led roll-out with community oversight (prioritizing technical reliability), or push for an open, iterative pilot that publishes data and invites broad civic input (prioritizing scalability and political capital). Elias grows tense about how public our relationship is becoming; Lucia hovers, offering conditional funding for visibility. My impatience presses for visible justice; others counsel prudence. The chapter explores negotiation fatigue, trust between Mara and Elias, and how partnership can multiply influence. The decision will define public perception and resource allocation.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How should we frame and manage the pilot’s public face?",
+                "options": [
+                    {
+                        "label": "Full community leadership and co-branding.",
+                        "consequence": "High legitimacy and identity preservation; slower rollout",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Beaconworks-led roll-out with community oversight.",
+                        "consequence": "Faster technical deployment; community gains secured seats but less headline control",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Open, iterative pilot with published data and civic input.",
+                        "consequence": "Maximum scalability and political capital; risk of critique and dilution",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Rani",
+                "Eda Nal",
+                "Councilor Mateo Qu"
+            ],
+            "locations_used": [
+                "Beaconworks Lab",
+                "Promenade",
+                "City Hall"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Co-Designed Phases — A Pragmatic Victory",
+            "branch_designation": "Route B (Ending: Bittersweet)",
+            "narrative_focus": "The pilot rolls out as phased, co-designed sections: engineered pylons accommodate modular root-mat inserts and community stewardship programs launch. Funding arrives; Beaconworks provides technicians, and Rani’s workshops create new craftspeople. Some wetlands are necessarily altered to create access and hardened entry points, and we secure legal protections and relocation funds for displaced residents. Elias accepts a municipal engineering advisory role; our relationship finds a steadying rhythm of shared work and private tenderness. The landscape changes, but livelihoods and participatory oversight endure. The result is a pragmatic victory: many remain protected, some losses are mourned, and our partnership demonstrates how labor and engineering can co-create durable infrastructure.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Rani",
+                "Eda Nal",
+                "Beaconworks technicians",
+                "Councilor Mateo Qu",
+                "Lucia Montrose"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Rooftop",
+                "Beaconworks"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Law, Paper & Tide — The Council Route",
+            "branch_designation": "Route C",
+            "narrative_focus": "I choose Option C: pursue legal and policy channels with Councilor Mateo Qu. Workshops and hearings proliferate; I learn municipal budgeting timelines and legal clauses. In City Hall’s echoing chamber, I present an ordinance draft that recognizes wetland buffers and creates a fund for living infrastructure. My sea-glass eyes meet Mateo’s damp briefing papers; he introduces a procedural pathway that could secure long-term funding and statutory protections. Elias offers to run models for the ordinance’s phased impact. It’s a patient route, with slow meetings and legal bottlenecks, but it promises structural change rather than temporary pauses. I find latent satisfaction in mastering policy language and in building alliances with civic groups across elevation lines.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Mara Solenne",
+                "Councilor Mateo Qu",
+                "Elias Harrow",
+                "Rani",
+                "Eda Nal",
+                "Lucia Montrose"
+            ],
+            "locations_used": [
+                "City Hall Council Chamber",
+                "Beaconworks Lab",
+                "Drowned Garden"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Policy Crossroads — Tactical Choices",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The ordinance reaches a pivotal committee where tactical choices will affect scale and enforceability. I must decide the campaign’s center of gravity: push for a sweeping ordinance that enshrines living buffers city-wide (ambitious and politically risky); propose a narrowly targeted ordinance protecting pilot zones with robust funding (safer, targets immediate needs); or craft a phased ordinance that mandates pilot successes before scaling (evidence-based and politically defensible). Each choice trades breadth for certainty. Elias worries about political backlash; Lucia’s team hints at matching funding for limited measures. I balance policy strategy, community urgency, and my relationship with Elias. The chapter ends with a major decision that directs legislative scope.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "What legislative scope do we pursue?",
+                "options": [
+                    {
+                        "label": "City-wide ordinance enshrining living buffers.",
+                        "consequence": "Ambitious, shifts policy culture citywide; risk of political defeat",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Narrow ordinance protecting pilot zones with robust funding.",
+                        "consequence": "Immediate protections and funding, demonstrable wins",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Phased ordinance contingent on pilot results.",
+                        "consequence": "Evidence-based, politically defensible, scales if proven",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Councilor Mateo Qu",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Rani",
+                "Eda Nal"
+            ],
+            "locations_used": [
+                "Council committee room",
+                "City Hall"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Ordinance & Outreach — Scaling Proof",
+            "branch_designation": "Route C (Ending: True)",
+            "narrative_focus": "Having pursued the city-wide ordinance, a coalition forms to support it. The campaign is taxing but galvanizing: town halls, data releases co-authored by Elias, and legal testimonies from Eda Nal. Lucia senses momentum and offers a public partnership that would incorporate living elements into city defense standards. The ordinance ultimately passes in a modified but meaningful form: living buffers are recognized as eligible for city funding, and a statutory process prioritizes co-managed pilots. We secure an institutional pathway for scaling living infrastructure. The triumph is structural and long-term: the city’s policy posture shifts to make living systems a legitimate part of defensive planning. Our romance acknowledges different callings: Elias accepts a role shaping policy, and I remain embedded in community stewardship; we walk forward together, aware that the real work continues.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Councilor Mateo Qu",
+                "Eda Nal"
+            ],
+            "locations_used": [
+                "City Hall",
+                "Town halls",
+                "Beaconworks Lab"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Targeted Protections — Local Wins (Alternate Ending)",
+            "branch_designation": "Route C (Ending: Practical/Happy)",
+            "narrative_focus": "Choosing a narrow ordinance protecting pilot zones yields immediate, tangible protections and funds. We deploy rapid repairs, direct job training, and a legal guarantee that pilot areas remain co-managed. The focused victory builds local resilience and creates demonstrable metrics that persuade more neighborhoods to adopt similar models. Elias and I co-author an open-source maintenance playbook; Lucia contributes technical expertise at public forums. The pragmatic success spreads slowly outward — not a city overhaul, but a replicable, hopeful model that other wards adapt. The romance strengthens as shared craft turns into public partnership.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Rani",
+                "Lucia Montrose"
+            ],
+            "locations_used": [
+                "Pilot zones",
+                "Rooftop market"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Collaborative Accords — Broadening Influence (Alternate Ending)",
+            "branch_designation": "Route C (Ending: Happy/Expansive)",
+            "narrative_focus": "The phased ordinance demands pilot success before scaling. Our initial pilots succeed, producing robust data and political will. We use that evidence to broker broader agreements: Lucia signs a collaborative accord committing portions of redevelopment funds to living systems, Beaconworks establishes a fellowship for community engineers, and Councilor Mateo secures city-wide guidance for integrating modular living elements. The result is a balanced institutionalization: living systems become a standard option in defensive planning. Elias and I negotiate roles — he leads technical fellowships, I scale community stewardship programs. Our partnership matures into public leadership and private tenderness.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option C (Phased ordinance leading to alternate scaling)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Councilor Mateo Qu",
+                "Rani",
+                "Eda Nal"
+            ],
+            "locations_used": [
+                "City planning offices",
+                "Training circles",
+                "Promenade"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Epilogue — Harvest & Horizon",
+            "branch_designation": "Route C (Ending: True/Long View)",
+            "narrative_focus": "The phased approach matures into durable policy and practice. Years later, I return to the Promenade to watch tidal grasses bend in engineered gaps and children sell marsh seedlings at the rooftop market. Elias presents new simulation modules to a cohort I helped train. Lucia reads a city brief that cites our pilots as case studies. Eda Nal teaches a younger generation the old water songs. Our romance has evolved into deep partnership: shared responsibilities, mutual admiration, and different callings that converge on the same goal. The city is not healed — no place of such complexity can be — but it is stronger, more adaptive, and threaded by the relationships we have built.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option C (alternate jump)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Solenne",
+                "Elias Harrow",
+                "Lucia Montrose",
+                "Eda Nal",
+                "Rani",
+                "Children"
+            ],
+            "locations_used": [
+                "Promenade",
+                "Rooftop market"
+            ]
+        }
+    ],
+    "remarks": "Worldview: Port Lyra — a near-future coastal metropolis remade by rising seas; political tensions between corporate-led engineered defenses (Lucia Montrose), community-led living adaptation (Eda Nal, Mara), and policy actors (Councilor Mateo Qu). Themes: community stewardship, co-design, policy trade-offs, and a relationship between Mara Solenne and Elias Harrow that grows through technical and political collaboration.",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

@@ -1,0 +1,114 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the story's emotional engine: characters' differing responses to a rising-sea threat expose values, fears, and the limits of love under pressure. The core conflict is personal versus systemic: can intimate relationships survive when the protagonists must choose between pragmatic engineering, grassroots ecological restoration, and the needs of their community? Each romantic route interrogates compromise, sacrifice, and whether love helps or hinders long-term resilience.",
+    "setting": "A near-future coastal city (Solace Bay) where incremental sea-level rise and increasingly violent storms have reshaped daily life. The tone is intimate and urgent—sunlit market mornings contrast with storm-washed nights. Technology and tradition collide: reclaimed-material architecture, rooftop farms, and municipal engineering projects sit next to activist encampments and flooded neighborhoods.",
+    "visual_style": "Painterly anime-influenced realism, muted coastal palette, warm-gloom lighting, textured materials, eco-grunge details",
+    "main_characters": [
+        {
+            "name": "Mara Lin",
+            "role": "Protagonist",
+            "personality": "Practical idealist: scientifically rigorous, empathetic, stubbornly hopeful. Tends to mediate between extremes, but can obsess over details and carry survivor guilt. Drawn to finding community-led solutions that scale.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves with sun-bleached tips and a single unruly curl that falls over her forehead",
+                "eyes": "Sea-glass green, almond-shaped, with faint crow's feet from squinting at horizon surveys",
+                "clothing": "Layered coastal fieldwear — a recycled-sailcloth windbreaker in faded teal, ink-stained cargo trousers with reinforced knees, and well-broken leather boots patched with bright fabric scraps",
+                "accessories": "Small brass compass pendant on a braided cord, a weatherproof notebook with taped spine, a thin recycled-plastic bracelet braided from fishing line"
+            },
+            "goal": "To design and implement community-centered adaptation projects that protect Solace Bay while preserving its neighborhoods and culture.",
+            "background_story": "Grew up in a low-lying neighborhood that was partially lost to a storm when she was a teenager. Studied coastal systems and returned home to build resilience. Her work is driven by a mixture of scientific curiosity and personal indebtedness to displaced neighbors.",
+            "emotional_trait": "Stubborn optimism that can mask guilt and an unwillingness to accept help"
+        },
+        {
+            "name": "Elias Kade",
+            "role": "Love Interest",
+            "personality": "Measured, urbane, deeply pragmatic. A charming negotiator who believes in technocratic solutions and steady progress. He’s emotionally reserved but fiercely loyal when trust is earned. Can be risk-averse and defensive about authority.",
+            "appearance_features": {
+                "hair": "Short curly black hair with a subtle undercut; usually slightly wind-tousled",
+                "eyes": "Warm hazel, narrow and observant, often reflecting small smiles",
+                "clothing": "Tailored navy work-blazer with reflective trim over a crisp shirt and practical utility trousers; polished yet weatherproof leather shoes",
+                "accessories": "Digital drafting stylus clipped to his pocket, an engraved keychain from his late engineer father, and a municipal ID badge on a lanyard"
+            },
+            "goal": "To implement large-scale engineered defenses that keep the city functional and protect economic interests while minimizing chaos.",
+            "background_story": "Raised in a family of municipal engineers who built early seawalls. He rose through the planning office on practical competence and is driven by a desire to prevent the kind of losses his family once mitigated.",
+            "emotional_trait": "Fear of failure and change that manifests as defensiveness and an overreliance on 'safe' expertise"
+        },
+        {
+            "name": "Nova Duarte",
+            "role": "Antagonist / Rival / Love Interest",
+            "personality": "Charismatic, fierce, uncompromising. A natural organizer who channels anger into direct action. Deeply loyal to community and unwilling to accept small compromises when lives are at stake. Inspires trust but can alienate by refusing incrementalism.",
+            "appearance_features": {
+                "hair": "Short platinum-blonde undercut with dark roots; often braided accents threaded with tiny sea-glass beads",
+                "eyes": "Steel-gray, wide and intense — the look of someone who’s seen disasters up close",
+                "clothing": "Patchwork activist vest made from reclaimed banners and tarpaulin, wide-leg cargo pants with hand-stitched slogans, paint-splattered canvas sneakers",
+                "accessories": "Hand-painted protest megaphone slung on a strap, an array of enamel pins with movement symbols, a weathered leather satchel carrying plant cuttings and pamphlets"
+            },
+            "goal": "To force the city to embrace radical, community-led adaptation (managed retreats, tidal wetlands) and to hold officials accountable for past negligence.",
+            "background_story": "A grassroots organizer who lost her younger sister during a failed, delayed evacuation. She rose from movement work and is driven by personal loss and a fierce mistrust of bureaucratic compromise.",
+            "emotional_trait": "Righteous anger that fuels conviction but can burn bridges and isolate allies"
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Samir Reyes",
+            "relation_to_main": "Childhood friend of Protagonist",
+            "appearance_summary": "Sun-kissed skin, lean build, messy dark-brown dreadlocks tied back; usually wears a faded fisherman sweater and worn sneakers.",
+            "function_in_story": "Local connector and moral anchor who knows the neighborhoods inside out; helps mobilize neighbors and grounds Mara emotionally."
+        },
+        {
+            "name": "Professor Anika Bhat",
+            "relation_to_main": "Mentor to Mara",
+            "appearance_summary": "Silver hair in a low bun, wire-framed spectacles, lab coat with faint sea-salt stains and colorful scarves beneath.",
+            "function_in_story": "Provides scientific guidance, historical context on coastal systems, and challenges Mara to think bigger than her guilt-driven impulses."
+        },
+        {
+            "name": "Mayor Heloise Chen",
+            "relation_to_main": "Political adversary / stakeholder",
+            "appearance_summary": "Impeccable tailored suits, minimal jewelry, a polished but guarded smile; small lapel pin with the city's emblem.",
+            "function_in_story": "Wields budgetary and political power; must be negotiated with or publicly shamed, representing the institutional inertia Mara must face."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Solace Harbor Promenade",
+            "visual_description": "Golden-hour light softens the glossy wet cobbles; low tide pools reflect stringed market lanterns. Warm ambers blend with deep teal sea, salt spray catching sparkles. Weathered vendor stalls draped in banners create colorful, fluttering textures; distant storm clouds silhouette a jagged skyline. Atmosphere: nostalgic, precarious, alive with community noise."
+        },
+        {
+            "name": "Tideward Rooftop Garden",
+            "visual_description": "High, sun-bathed terrace with vertical green walls and rust-red planters. Bright greens and ochres contrast with the gray city below. Dappled sunlight through weatherproof awnings, bees humming, the air smelling of wet soil and citrus. Atmosphere: oasis-like, hopeful, an intimate place for conversations and secret meetings."
+        },
+        {
+            "name": "Maris Institute — Coastal Research Lab",
+            "visual_description": "Interior lit by cool fluorescent panels and the soft blue glow of monitors. Large panoramic windows streaked with condensation show an endless, choppy sea. Whiteboards plastered with annotated maps, stacks of tide gauges and glass sample jars. Colors: clinical blues and greens, stainless steel, paper maps pinned with red string. Atmosphere: focused, slightly claustrophobic, a crucible for scientific urgency."
+        },
+        {
+            "name": "City Hall — Planning Atrium",
+            "visual_description": "A glass-and-marble atrium flooded with harsh midday light that casts sharp reflections on polished floors. Digital flood-model displays flicker in neon cyan and magenta. Cool grays and corporate blues dominate; subtle security cameras and chrome fixtures underline institutional formality. Atmosphere: cold, procedural, political."
+        },
+        {
+            "name": "Sea Barrier Construction Site",
+            "visual_description": "Overcast sky and wind-whipped rain; silhouettes of cranes and barges against a steel-gray horizon. Muddy trenches and wet plywood platforms, high-visibility orange vests glowing like small beacons. Puddles reflect the machinery and flashing safety lights; the air smells of diesel and salt. Atmosphere: tense, industrial, the frontline of contested solutions."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A hybrid solution combining engineered defenses and ecological restoration is adopted after intense negotiation. The community is largely protected, displacement is minimized, and the protagonist forms a lasting partnership (romantic and professional) with their chosen partner. The ending emphasizes cooperation and renewed local life."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "An ambitious ecological plan succeeds in restoring wetlands, but it requires managed retreats that permanently alter some neighborhoods. The protagonist's relationship survives but is tested—one partner stays to rebuild while the other takes a role elsewhere to scale the approach. Victory for resilience comes with tangible loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political inertia and half-measures lead to a failed barrier during a violent storm. Parts of the city are devastated, relationships fracture under blame and grief, and the protagonist is left to reckon with the consequences of compromises that prioritized short-term stability over real change."
+        },
+        {
+            "type": "True",
+            "summary": "A slow, realistic path: neither perfect victory nor total defeat. The protagonist helps form a durable coalition that wins some critical reforms and pilot projects. Progress is incremental; the romance matures into a complex partnership built on shared values rather than fairy-tale resolution. The ending honors messy compromise and long-term commitment."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

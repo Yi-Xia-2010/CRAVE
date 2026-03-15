@@ -1,0 +1,114 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through an intimate, human lens and pair it with Romance to create stakes that are both global and personal. The core conflict comes from competing visions for the town's future: immediate economic development versus long-term ecological resilience. Romance is used to explore compromise, trust, and whether love can survive when partners are on different sides of a communal crisis. The narrative will force characters to balance personal desire with community responsibility, creating choices that affect both relationship arcs and environmental outcomes.",
+    "setting": "A small coastal town, Solhaven, on the edge of a temperate sea in the near future (2035). The town is a mix of weathered fishing-era buildings, new glass-front development projects, salt-stained greenhouses, and reclaimed wetland spaces. Frequent storms and rising tides shape daily life; residents are acutely aware of seasonal flooding and shifting livelihoods. The atmosphere is melancholic but resilient — hopeful activism sits alongside grief for what has already been lost.",
+    "visual_style": "Semi-realistic anime with painterly lighting; muted coastal palette (seafoam, rust, slate); soft film grain; natural textures; environmental detail emphasis; cinematic golden-hour and storm-light scenes.",
+    "main_characters": [
+        {
+            "name": "Mara Lin",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: fiercely protective of community spaces, quietly stubborn, compassionate but guarded about personal attachments. Tends to lead with action rather than speeches. Empathy-driven organizer who is skeptical of grand gestures that ignore local nuance.",
+            "appearance_features": {
+                "hair": "Dark chestnut with natural ash highlights, cut in a choppy bob that brushes her jawline; often tucked behind one ear and streaked with soil during fieldwork.",
+                "eyes": "Warm hazel with a soft, round shape; small crow's-feet when she smiles; gaze is observant and steady.",
+                "clothing": "Layered pragmatic outfits: olive utility field jacket with patchwork repairs, faded denim overalls or high-waisted trousers, thick knit sweaters in muted teal or ochre, waterproof boots caked with mud. Often has rolled sleeves and a bit of plant matter on clothing.",
+                "accessories": "A frayed canvas satchel with pins from local campaigns, a thin copper bracelet engraved with coordinates of the town's original marsh, a pair of practical work gloves tucked into her back pocket."
+            },
+            "goal": "Secure a resilient future for Solhaven’s wetlands and community gardens while finding a way to sustain close personal relationships.",
+            "background_story": "Raised in Solhaven after her family returned to rebuild the town following a major storm, Mara trained as an urban ecologist and now runs a community reclamation project converting derelict lots into salt-tolerant gardens and buffer wetlands. She lost an older sibling to a flood years ago; that loss shapes her urgency and distrust of top-down solutions.",
+            "emotional_trait": "Strength: fierce loyalty and resourcefulness. Flaw: difficulty trusting institutions and letting others share emotional burden."
+        },
+        {
+            "name": "Elias Navarro",
+            "role": "Love Interest",
+            "personality": "Analytical, earnest, and slightly idealistic about engineering solutions. Warm and patient in private, professionally careful and diplomatic. He believes in pragmatic innovation and in forging compromises, sometimes to his own emotional detriment.",
+            "appearance_features": {
+                "hair": "Soft black hair, slightly wavy and kept medium-length (ears to collar) with a few sun-bleached tips from fieldwork.",
+                "eyes": "Deep blue-gray, almond-shaped; reflective and often thoughtful, with a tendency to lift his eyebrows when surprised.",
+                "clothing": "Smart-casual technical wear: breathable collared shirts in slate or sea green, rolled sleeves, fitted navy field jacket with subtle reflective piping, slim cargo trousers, low-profile hiking shoes. Keeps a tablet or notebook tucked under his arm.",
+                "accessories": "A multifunction wristband with weather sensors, a simple leather-bound field notebook with engineering sketches, a pair of wire-frame reading glasses he uses when drafting proposals."
+            },
+            "goal": "Design and implement practical flood-mitigation infrastructure that protects Solhaven while preserving livelihoods.",
+            "background_story": "Born in the regional city, Elias studied civil and environmental engineering and returned to Solhaven after a fellowship with a coastal resilience institute. He joined a cooperative that partners with towns for adaptive infrastructure. His upbringing was urban, but a formative internship in a flood-prone community convinced him that engineered solutions must work hand-in-hand with local practice.",
+            "emotional_trait": "Strength: patient problem-solver and communicator. Flaw: tendency to intellectualize emotions and prioritize 'fixes' over listening."
+        },
+        {
+            "name": "Celeste Park",
+            "role": "Antagonist / Secondary Love Interest Rival",
+            "personality": "Charismatic, ambitious, and highly strategic. She believes urgency requires decisive action and is willing to push unpopular measures. Presents as polished and sympathetic publicly, but privately is calculating and fiercely competitive.",
+            "appearance_features": {
+                "hair": "Sleek, platinum-blonde bob cut to chin length with a precise part; always immaculate.",
+                "eyes": "Steel-gray, sharp and slightly upturned; narrow when she is evaluating someone.",
+                "clothing": "Tailored coastal-business wardrobe: pale sand-tone trench coats, minimalist sheath dresses in charcoal, high-quality waterproof ankle boots. Accessories are understated but expensive.",
+                "accessories": "A sleek smartwatch, a silver lapel pin shaped like a stylized wave (company logo), and a slim black portfolio containing development plans."
+            },
+            "goal": "Push through a major mixed-use development project (diked commercial promenade plus floodwall) that she argues will stabilize the economy and attract investors.",
+            "background_story": "Raised in a technocratic family of planners, Celeste climbed political and corporate ladders quickly. She grew up valuing order and efficacy; in her view, radical ecological measures can be romantic but impractical without funding and formal structure. She sees the town's plight as a place to implement scalable resilience models.",
+            "emotional_trait": "Strength: decisive leadership and strategic clarity. Flaw: can be dismissive of local customs and underestimates the emotional stakes people have tied to place."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Tomas 'Tommy' Reyes",
+            "relation_to_main": "Childhood friend of Mara; local fisherman and informal community spokesperson",
+            "appearance_summary": "Sun-leathered skin, graying at the temples, usually in a battered knit beanie and a woven fisherman’s coat. Hands callused and stained with fish oil.",
+            "function_in_story": "Provides local knowledge, moral support, and represents the fishing community's economic concerns; acts as a sounding board and occasionally obstructs or endorses projects depending on short-term impact."
+        },
+        {
+            "name": "Dr. Amina Bhatt",
+            "relation_to_main": "Mentor figure to Elias and scientific adviser to community projects",
+            "appearance_summary": "Mid-50s, steel-brown hair in a loose bun, practical glasses, often in field vests with instrument pockets.",
+            "function_in_story": "Offers scientific context, mediates technical disagreements, and helps design ecological monitoring; serves as moral compass on evidence-based approaches."
+        },
+        {
+            "name": "Rae Carter",
+            "relation_to_main": "Local youth activist, ally to Mara",
+            "appearance_summary": "Short, energetic, with dyed teal undercut and paint-splattered clothes, always carrying a camera or stencil.",
+            "function_in_story": "Organizes grassroots campaigns, creates poignant visual protest art, and brings community energy and narrative tension when actions escalate."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Saltwren Commons (Community Gardens & Reclaimed Wetlands)",
+            "visual_description": "A patchwork of raised beds, wooden boardwalks, and shallow tidal pools. Late-afternoon light bathes marsh grasses in gold; mist rises after high tide and the air smells of brine and compost. Weathered driftwood benches and colorful repurposed signs lend a DIY aesthetic. Puddles catch soft sky reflections; small wind chimes and netting ripple in sea breezes. Background: low-profile houses with potted succulents and algae-tinted glasshouses."
+        },
+        {
+            "name": "Solhaven Promenade (Planned Development Site)",
+            "visual_description": "An exposed stretch of shoreline scarred by concrete remnants, strewn with construction markers and survey flags. On overcast days, the sea and sky merge into slate planes; intermittent sun reveals the sheen of rusted rebar. Temporary trailers and chain-link fences ring the area; corporate banners flutter. At night, harsh LED floodlights cast long, cold shadows and create a clinical atmosphere."
+        },
+        {
+            "name": "Tidewatch Lab (Local Research Hub)",
+            "visual_description": "A converted boathouse with large panes facing the water; interior lit by a mix of warm lamp light and the blue glow of monitors. Shelves of sediment cores and labeled jars line the walls. Rain-spattered windows and tangled instrument cables give it a lived-in scientific charm. External walkways are slick with algae after storms; inside the smell of tea and equipment lingers."
+        },
+        {
+            "name": "Town Hall & Council Chamber",
+            "visual_description": "Brick-and-glass municipal building with a low auditorium. Daylight filters through tall windows, throwing patterned light across wooden benches and banners. Meeting nights are charged: fluorescent overhead lights, plastic folding chairs, and a crowd pressing shoulder-to-shoulder. The chamber is where rhetoric is amplified; clapping, murmurs, and heated exchanges create a charged acoustic."
+        },
+        {
+            "name": "Rooftop Garden of the Old Mill",
+            "visual_description": "A secret elevated refuge above the old grain mill — a mosaic of salvaged tiles, hanging planters, and a rope-ladder entrance. Golden-hour scenes are lush: warm amber light catching on glass mason jars used as lanterns, shadows of trellises stretching over worn wooden decking. During storms, the rooftop becomes a wind-swept observatory where salt spray reaches high and city lights glimmer through rain."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Compromise & Community Victory — Mara and Elias find a working partnership: a hybrid plan combining Celeste's infrastructure funding with Mara's nature-based solutions leads to a resilient promenade with integrated wetlands. The town's economy stabilizes and their relationship deepens into long-term partnership as they co-lead ongoing restoration."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Sacrifice for the Greater Good — A severe storm destroys part of Solhaven, validating Mara's urgency but displacing some residents. Elias helps implement emergency engineered protections that save lives, but the stress drives a wedge between him and Mara. They part as friends committed to the same cause, with the town partially restored and lessons learned at emotional cost."
+        },
+        {
+            "type": "Sad",
+            "summary": "Development Overcomes Local Will — Celeste's development proceeds with legal and financial force; short-term gains follow but natural buffers are lost. Flooding worsens in outlying neighborhoods, leading to loss and resentment. Mara remains in town as an organizer, emboldened but heartbroken; Elias, compromised by bureaucratic ties, becomes distant. The romance dissolves under unresolved grief and blame."
+        },
+        {
+            "type": "True",
+            "summary": "Long View Resolution — No tidy victory, but durable progress. Through protracted negotiation, grassroots action, litigation, and adaptive implementation, Solhaven secures a phased resilience plan that includes relocation aid, living shorelines, and economic diversification. Mara and Elias reconcile after recognizing different time horizons; their relationship matures into a realistic partnership centered on shared values rather than ideal outcomes."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

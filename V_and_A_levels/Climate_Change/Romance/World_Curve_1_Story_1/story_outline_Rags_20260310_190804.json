@@ -1,0 +1,515 @@
+{
+    "title": "Tidebound Promises",
+    "summary": "Maya Reyes, a field ecologist, returns to her coastal hometown to defend its tidal marsh from corporate reclamation. As sea levels rise and political pressure mounts, Maya must choose between grassroots restoration, negotiated technical compromise, or direct exposure of corporate malpractice. Romance with Elias Stone, an engineer with a conflicted past, develops alongside tactical decisions that shape protests, legal maneuvers, and pilot projects. Multiple endings (Happy, Bittersweet, Sad, True) reflect the costs and trade-offs of adaptation, while the core arc emphasizes growth, shared responsibility, and resilient stewardship.",
+    "emotional_curve_type": "Rags to Riches / Rise",
+    "player_character": "Maya Reyes",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Chapter 1: Returning Tides",
+            "branch_designation": "Common",
+            "narrative_focus": "I step off the bus with my thermos clutched, the battered field notebook heavy in my jacket pocket. The marsh smells of brine and wet wood; the boardwalk groans underfoot like a memory. My chestnut bob is damp from fog, the silver streak at my temple catching salt light. Lito waves from the market, sun-bronzed and work-worn, and Amaya threads a bright scarf through a crowd of neighbors. We walk past a half-finished flood barrier whose sterile concrete contrasts with the reed ribbons. I lay out tide maps from Professor Rowan Hale in the town hall later — his white hair and mud-specked coat a small comfort — and I feel the old guilt: a cousin lost in a past storm, the promise I made to keep this place. The shelter’s fluorescent light throws everyone into sharp earnestness, Mayor Sofía in a tired blazer pressing for quick fixes. Camille's flyers glitter from a corporate podium in my vision — her jet-black bob a silhouette against mirrored glass in the reclamation renderings. I resolve to convene neighbors for a restoration plan tonight; the decision feels like both resistance and homecoming.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Reyes",
+                "Lito",
+                "Amaya",
+                "Rowan Hale",
+                "Mayor Sofía",
+                "Camille Duval"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Marsh",
+                "Market",
+                "Town Hall",
+                "Shelter",
+                "Duval Reclamation Tower"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Chapter 2: Council of Ragged Hopes",
+            "branch_designation": "Common",
+            "narrative_focus": "The town hall smells of coffee and wet coats. I stand at the projector with my dented thermos and present Rowan’s layered tidal data; his slow, deliberate voice nods behind me. Amaya paces with her purple-tinged hair in a knot, translating technical charts into neighborly metaphors that land like lit candles in a dim room. Lito sits forward, hands callused, and says what everyone fears: “If the marsh goes, the boats and our rent go with it.” Mayor Sofía’s face is open but exhausted; she moves between our human stories and Camille’s glossy proposals. I catch Elias in the doorway — ash-blond hair damp, a drafting pen tucked into a pocket, slate-blue eyes assessing the room. He offers a measured idea: modular living-shore prototypes that could be built with community crews and phased financing. There’s an audible hope but also a buzz of disbelief. Camille’s project promises immediate property stabilization; her clinical charisma feels like a shiny anesthetic. I feel the old instinct: push harder, refuse compromise. But Elias’ eyes, steady and cautious, make me wonder if I can trust someone who once worked for Duval. The meeting ends with a knot of plans and the sense that choices will define our shore.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rowan Hale",
+                "Amaya",
+                "Lito",
+                "Mayor Sofía",
+                "Elias Stone",
+                "Camille Duval"
+            ],
+            "locations_used": [
+                "Town Hall",
+                "Market",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Chapter 3: The Forked Shore",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "After the meeting, the boardwalk feels narrower, wind tugging at the hem of my jacket. Camille’s reclamation tower looms in billboards—mirrored steel promising certainty. I walk the fringe where reeds bend and sea glass glitters; Rowan helps me trace erosion lines in my notebook, fingers stained with marsh silt. Elias and I argue gently about funding models under a leaking tarp, his braided fishing-line bracelet catching light as he gestures. Amaya rallies neighbors for a public demo, and Lito tells me he’s ready to volunteer the boat if I need him. At dusk, Mayor Sofía convenes an emergency hearing: a corporate bid is on the table, public funds are thin, and pressure is mounting. Standing there, I feel every choice tighten like a knot in my throat. Do I mount a full grassroots campaign and risk being crushed by money and machinery? Do I try to co-design pragmatic adaptations with Elias and Mayor Sofía, seeking compromise? Or do I confront Camille directly, risking personal danger but forcing public scrutiny? The tide will not wait. Tonight I must choose how we begin: resistance, negotiation, or direct exposure — and what I ask of the people I love.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "You decide the strategic opening move to defend the marsh and community.",
+                "options": [
+                    {
+                        "label": "Start a public restoration action and mobilize the neighborhood.",
+                        "consequence": "Full grassroots campaign; builds local solidarity but risks legal pushback and resource shortfalls.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Work with Elias to propose a community-centered adaptive plan and pitch it to the mayor.",
+                        "consequence": "Seeks pragmatic compromise; gains technical credibility but requires compromise and political navigation.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Confront Camille publicly—leak evidence and demand a hearing.",
+                        "consequence": "Escalates conflict; may expose corporate tactics but risks retaliation and legal danger.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Rowan Hale",
+                "Elias Stone",
+                "Amaya",
+                "Lito",
+                "Mayor Sofía",
+                "Camille Duval"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Marsh",
+                "Town Hall"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Chapter 4: Hands in the Mud",
+            "branch_designation": "Route A",
+            "narrative_focus": "We gather at first light; my olive jacket smells of marsh and the thermos feels warm against salt-chapped hands. Amaya organizes planting crews with a grin, and neighbors unroll reclaimed nets into seedlings trays. I lead a small team onto the marsh, boot soles sinking in black water. Lito jokes about my stubborn face as we hammer in living-shore posts, the reed-embroidered beanie wobbling on my head. Elias shows up with a weathered vest and a sketchbook; he refuses a podium and instead gets his hands muddy alongside us, sleeves rolled, denim dark with slime. The work is slow, tactile, and communal: we stitch sediment traps of woven oyster shells while Rowan measures accretion rates and murmurs encouragement. But the first night, bulldozers arrive in the distance — bright floodlights slicing the fog — and a Duval representative reads a cease-and-desist at our periphery. I feel the old guilt flare into anger: we’re small against a tower of capital. Still, the faces around me — sweaty, resolute — fill me with an ember of hope. We sleep in the shelter, exhausted but bolstered; tomorrow we plan rallies and legal counters.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Reyes",
+                "Amaya",
+                "Lito",
+                "Elias Stone",
+                "Rowan Hale"
+            ],
+            "locations_used": [
+                "Marsh",
+                "Shelter",
+                "Boardwalk",
+                "Greenhouse/Seedling Area"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Chapter 5: Rally at Floodlight Ridge",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "The rally is a patchwork: tarps, warm bulbs, handmade signs, and the smell of frying oil. We line the boardwalk as the Duval floodlights sweep the marsh—sharp chrome against soft reeds. I step to the megaphone while Elias projects a modular design on a folding screen: a living-shore plan that can be built affordably and scaled. People shout, cameras flash, and Camille appears in a sharply pressed gray suit that seems to drink the night. Her pale gray eyes are cold and precise; her speech about “efficient security” lands like a scalpel. Emotions fray. Lito tells me quietly he’s ready to risk arrest; Amaya wants to push for a dramatic sit-in; Mayor Sofía sends word that legal counsel worries about injunctions. I feel everything tilting — my instinct to stand firm for the place I love, and a whispered thought that bargaining could secure most of what the community needs. Elias squeezes my shoulder; his slate-blue eyes plea for a plan that keeps people safe without erasing the marsh. I can’t hold both absolutes. I choose a path that will define everything.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you escalate the campaign at the rally?",
+                "options": [
+                    {
+                        "label": "Lead an escalating civil action—block the construction access and call for arrests if necessary.",
+                        "consequence": "Maximizes visibility and moral stance; high legal risk; can galvanize allies.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Use Elias’ design as a petition: present a concrete alternative to the mayor and investors.",
+                        "consequence": "Builds a technical counter-proposal; leverages credibility but requires compromise.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Publicly challenge Camille in a live forum—force a hearing immediately.",
+                        "consequence": "Exposes her plans to scrutiny but risks legal retaliation and corporate PR.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Camille Duval",
+                "Lito",
+                "Amaya",
+                "Mayor Sofía"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Floodlight Ridge",
+                "Market",
+                "Rally Site"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Chapter 6: Victory Day (Happy Ending)",
+            "branch_designation": "Route A - Ending",
+            "narrative_focus": "I remember the tide that morning like a breath held and released. The blockade held; neighbors formed a human chain at the access road as national media arrived. Lito’s grin was mud-smudged, proud; Amaya had tears. The mayor, pressed by public will and Rowan’s data, paused Duval’s permit and endorsed a phased living-shore program. Elias’ modular designs — sketched in his satchel, ink smudged with rain — were adapted into a funded pilot that prioritized marsh ecology and local crews. Camille retreated into legal channels; the tower’s PR shimmer dimmed against a chorus of community testimony. That evening, we planted a ceremonial reed and poured sea glass into the soil. Elias and I sat on the wet boardwalk later, sharing a thermos, his fingers rough against mine. I no longer bore the fight alone; guilt transformed into shared resolve. We pledged to keep building, to teach, to scale what started on our patchwork boards. The marsh will still be vulnerable, storms will come, but the victory felt honest and rooted in the faces around me. Love and work braided into a promise I could carry forward.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Lito",
+                "Amaya",
+                "Elias Stone",
+                "Mayor Sofía",
+                "Camille Duval",
+                "Rowan Hale"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Marsh",
+                "Town Hall",
+                "Rally Site"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Chapter 7: The Engineer's Offer",
+            "branch_designation": "Route B",
+            "narrative_focus": "I agreed to meet Elias at the Rooftop Greenhouse Lab to sketch a community-centered pitch. The greenhouse is humid and green; rain traces the panes and the skyline stacks cranes like questions. Elias moves with deliberate warmth, rolling up a soft knit sleeve to reveal a bracelet of reclaimed line. He lays out phased infrastructure that pairs marsh restoration with small-scale, modular flood relief structures — designs that maintain tidal exchange and preserve habitat. He speaks softly about funding mechanisms and pilot metrics; his ash-blond hair falls forward as he bends over a plan. I feel the old mistrust toward anyone with corporate experience, but his eyes are steady. We draft a polite but firm proposal for Mayor Sofía and pore over presentation slides under strings of bulbs. The choice looms: push for full co-design and seek municipal backing, accepting compromises, or return to uncompromising grassroots action. Walking home along the salt-streaked boardwalk, I wrestle with the relief of a strategic approach and the fear that compromise might cost what we’ve always been. Elias offers to stand by the community in any meeting; his steady presence begins to feel like an anchor.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Mayor Sofía",
+                "Rowan Hale",
+                "Amaya"
+            ],
+            "locations_used": [
+                "Rooftop Greenhouse Lab",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Chapter 8: Policy & Heartstrings",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "We present our co-designed adaptive plan to Mayor Sofía in a fluorescent conference room. I stand beside Elias, hawking mud under my fingernails and a reed bead at my throat; he’s composed in a soft sweater, his plans neatly rolled. Rowan provides historical models and Amaya summons community testimony. The mayor listens, then explains budget constraints and political pressure from Duval investors. Camille appears at the hearing — her gray suit a blade — proposing an immediate, centralized seawall and fast-track permits. Tension tightens until the public forum turns heated: neighbors shout about home loss; investors whisper about liability. Elias urges a careful negotiation and suggests a pilot funded with matched grants, while my gut pulls toward a forceful public exposure of Duval’s risk assumptions. We need leverage: legal pressure, media spectacle, technical credibility, or a negotiated pilot. My heart is a split tide between tactical patience and moral fury. Elias squeezes my hand, but his avoidance of confrontation is obvious. I must choose whether to bind the proposal to political compromise, escalate public pressure, or hit Camille with an investigative reveal.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you press at the hearing?",
+                "options": [
+                    {
+                        "label": "Push for an official pilot: accept phased compromise with safeguards.",
+                        "consequence": "Gains funding and political weight but concedes some shoreline uses.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Launch an investigative expose about Duval’s assumptions and push for an immediate injunction.",
+                        "consequence": "Risks legal retaliation but could halt construction and flip public opinion.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Hold the community firm: threaten coordinated legal and civil action unless the city adopts our full plan.",
+                        "consequence": "Max pressure, highest risk of backlash and displacement but may secure maximal protection.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Rowan Hale",
+                "Amaya",
+                "Mayor Sofía",
+                "Camille Duval"
+            ],
+            "locations_used": [
+                "Conference Room",
+                "Town Hall",
+                "Rooftop Greenhouse Lab"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Chapter 9: Compromise & Candlelight (Bittersweet Ending)",
+            "branch_designation": "Route B - Ending",
+            "narrative_focus": "The pilot passed with mayoral backing, funded by a mix of municipal bonds and a reluctant private grant after we tightened safeguards. We saved most homes and the core marsh ribbon; in exchange, a low-lying cove near Lito’s favorite fishing spot was sold for engineered fill to protect a commercial corridor. I still bear the ache of that lost cove — its name and memory feel like a missing tooth — but the living-shore we built with neighbors has begun to trap sediment and host juvenile fish. Elias and I walk the boardwalk at dusk, his satchel bulging with adjustments to the modular design. We speak in low, hopeful tones; there’s affection and mutual respect, and a promise to keep iterating. Camille’s tower rises on reclaimed soil, a reminder that some forces bend the shore toward industry. We celebrate small victories and hold a ritual for what we ceded; the community endures, stronger in civic tools and solidarity, yet marked by the necessary compromises. The future is better than the past’s worst possibilities, but not without grief.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Lito",
+                "Camille Duval",
+                "Mayor Sofía",
+                "Amaya",
+                "Rowan Hale"
+            ],
+            "locations_used": [
+                "Pilot Living-Shore",
+                "Boardwalk",
+                "Rooftop Greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Chapter 10: Public Reckoning",
+            "branch_designation": "Route C",
+            "narrative_focus": "Confrontation tastes like metal and rain. I organize a live forum and, with Amaya’s agile planning, we subpoena a former Duval engineer to testify about the firm’s risk models. Camille arrives, jaw set, storm-gray bob immaculate beneath a rain hood. The televised hearing unfolds under relentless lights that sweat salt on my jacket. I present evidence from Rowan and archival tide maps from my notebook — a family heirloom of shoreline memory — and demand an immediate audit. Elias stands beside me, his slate-blue eyes flicking between the cameras and the microphone; he’s nervous, but present. The crowd is raw and loud; Lito shouts something about the boats, and Mayor Sofía is cornered into a tough vote. We force Camille’s hand into public answers, and for a moment the tide of opinion shifts toward accountability. But the corporate machine is practiced: legal counters and PR spin arrive within the hour. Exposing Camille has consequences beyond a headline — the firm can fight harder, and our community’s resources are finite. Still, truth aired feels like a necessary wound.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maya Reyes",
+                "Amaya",
+                "Camille Duval",
+                "Elias Stone",
+                "Mayor Sofía",
+                "Lito",
+                "Rowan Hale"
+            ],
+            "locations_used": [
+                "Floodlit Forum",
+                "Town Hall",
+                "Televised Hearing Venue"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Chapter 11: Aftermath & Choices",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The public hearing split the city. Some called for Camille’s resignation; others rallied to Duval’s legal defense. We gained an audit order, but the firm countersued and accelerated construction elsewhere. The neighborhood is exhausted; volunteers thin and funds stretched. I sleep poorly, pulling my scarf tight around my neck, and wake to find a storm warning. Elias offers to pitch my community-centered retrofit to a national fund, which could save the marsh but would ask him to scale away from local work. Mayor Sofía is pragmatic: she will back emergency shoring if we accept a land swap in two neighborhoods. Lito asks bluntly whether we can live with that. Amaya urges solidarity actions. The choices are stark and intimate: accept a land swap to secure wider protection, push for national attention with Elias’ help (but let him go), or double down on local defense risking the community to corporate pressure. I feel the tide of obligation pulling me in differing directions — to home, to love, to principle. I must decide the life I hope to build and what I will ask of those I love.",
+            "emotional_trajectory": "Rise/Fall",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which path secures the marsh and your life?",
+                "options": [
+                    {
+                        "label": "Accept coordinated land swaps and emergency shoring to protect the majority.",
+                        "consequence": "Short-term protection, long-term cultural loss in some coves.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Support Elias taking a national role to scale adaptive designs—sacrifice daily proximity for broader influence.",
+                        "consequence": "National impact, but relationship strains and distance.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Double down locally—organize a sustained civil campaign and legal defense.",
+                        "consequence": "High risk; potential displacement and legal exhaustion.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Mayor Sofía",
+                "Lito",
+                "Amaya",
+                "Camille Duval"
+            ],
+            "locations_used": [
+                "Shelter",
+                "Boardwalk",
+                "City Offices"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Chapter 12: The Costs of Certainty (Sad Ending)",
+            "branch_designation": "Route C - Ending",
+            "narrative_focus": "The city chose engineered certainty. Emergency shoring and reclamation works progressed rapidly; lives were spared in narrow metrics, and investor confidence returned. But the marsh was partitioned: Duval’s machines filled the most vulnerable inlets, and long stretches of living reeds were replaced by sheet piles and concrete revetments. Lito’s favorite cove, and several family moorings, vanished under engineered fill. Camaraderie frayed as displacement and rising rents pushed neighbors away. I lost more than geography; I lost a daily rhythm and a piece of home that cannot be reconstructed. Elias and I grew distant under the weight of lawsuits and evacuation logistics; he stayed to help engineers optimize the city’s defenses while I led remaining grassroots remediation elsewhere, the two of us drifting like separate buoys in different channels. My work continued with stubborn, private purpose, but grief marked every map I drew. The city achieved short-term stability; its long-term ecological resilience remained poorer. I leave the neighborhood to continue activism, heart heavy with the knowledge that what we fought for was not preserved.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option A; also From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Lito",
+                "Camille Duval",
+                "Mayor Sofía"
+            ],
+            "locations_used": [
+                "Reclamation Works",
+                "Marsh",
+                "Boardwalk",
+                "City"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Chapter 13: Negotiated Shorelines (Alternate Bittersweet/Route A Option B)",
+            "branch_designation": "Route A - Alternate Ending",
+            "narrative_focus": "We took Elias’ approach and pushed a formal petition: well-crafted, technically grounded, and politically savvy. The mayor adopted a hybrid policy: the city funds pilot living-shore restorations and agrees to co-develop zones with Duval for commercial protection. We protected most residences but ceded a narrow industrial strip for reclaimed fill. The compromise felt practical, and the community secured training programs to steward the restored marsh. My guilt softened into stewardship work — long shifts teaching neighbors to install marsh planting grids and measure accretion. Elias remained in town, balancing his projects between local detail and grant writing; we were together, folding our lives into daily repair. Camille’s tower proceeded but with mandated transparency and an oversight board that included community voices. The victory was pragmatic: not absolute, but durable. Some places were lost; others re-grew. I learned to measure triumph as persistence rather than total restoration. We ate fried fish on the boardwalk and toasted with thermoses, bruised but resolved.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option B; also reachable from Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Mayor Sofía",
+                "Lito",
+                "Camille Duval",
+                "Amaya",
+                "Rowan Hale"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Rooftop Greenhouse",
+                "Partially Restored Tidal Fringe"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Chapter 14: Exposing the Ledger (Alternate True/Route A Option C)",
+            "branch_designation": "Alternate True/Route A Option C",
+            "narrative_focus": "We forced Camille into a public reckoning by leaking internal risk models and pollution projections through a trusted journalist Amaya arranged. The story detonated: legal investigations began, investor confidence faltered, and the city paused permits pending an inquiry. It wasn’t a clean victory. The committee granted legal protections for community-led stewardship, but Camille’s network fought back; Duval retooled and lobbied for revised permits. Elias got headhunted for a national pilot, and the opportunity pulled him toward broader impact. He offered to split his time, but the truth was a slow drift: distance crept into daily life as he traveled for funding meetings. We parted with care, not bitterness — our love shaped a parting that honored both our commitments. The marsh gained bindings in law and a seed fund, and I gained a platform to teach coastal stewardship, but personal costs were real. The ending felt honest: victories and losses braided together, and the future remained a work in progress anchored by quieter promises.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Amaya",
+                "Camille Duval",
+                "Elias Stone"
+            ],
+            "locations_used": [
+                "Courthouse/Press Steps",
+                "Televised Forum",
+                "City"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Chapter 15: Scaling Out (True / Route B & C Option C)",
+            "branch_designation": "True / Route B & C Option C",
+            "narrative_focus": "The choice to send Elias outward changed everything. He accepted a national role to scale community-centered adaptive designs, and I chose a path that kept me rooted. Elias’ work brought new funding and credibility to our approach, catalyzing pilots across regions. He called from far-off coastal cities with sketches and hopes; his voice remained warm but measured. Back home, the community secured a binding stewardship contract supported by national grants Elias helped unlock; Mayor Sofía signed on officially. We didn’t end together: distance and obligations made a quiet separation practical. We wrote each other long letters and shared plans over crackled calls. The marsh survived better than it would have without coordinated scaling; dozens of neighborhoods gained living-shore training and legal protections. I kept the field notebook, leading local crews and mentoring a new cohort of stewards. The ending is honest: we traded daily intimacy for broader impact, finding meaning in different channels. The world was bettered incrementally, and love adapted into a new, respectful shape.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option C; From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Reyes",
+                "Elias Stone",
+                "Mayor Sofía",
+                "Community"
+            ],
+            "locations_used": [
+                "Distant Coasts",
+                "Boardwalk",
+                "City Offices"
+            ]
+        }
+    ],
+    "remarks": "Major split nodes occur at Chapter 3, Chapter 5, Chapter 8, and Chapter 11. Every path from Chapter 1 to an ending visits at most six chapters. Visual and character references (Maya’s chestnut bob and silver streak, Elias’ ash-blond hair, Camille’s jet-black bob, Lito, Amaya, Rowan, Mayor Sofía) are used throughout to maintain continuity. Endings: Chapter 6 (Happy), Chapter 9 & 13 (Bittersweet variants), Chapter 12 (Sad), Chapter 14 & 15 (True/alternate endings).",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

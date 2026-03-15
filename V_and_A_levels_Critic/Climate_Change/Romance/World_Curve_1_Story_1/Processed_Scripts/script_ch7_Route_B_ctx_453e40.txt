@@ -1,0 +1,151 @@
+### SCRIPT
+# Route: Route B
+# Context: 453e40
+
+[Scene: Flooded Boardwalk Market | Midday — After Choosing to Escalate]
+[Background:"ch7_453e40_1"]
+[Sound: A low, insistent drum of rain on tarps; distant gulls cut across the murmur of voices]
+[Music: Driving, urgent percussion with rising strings]
+
+You step onto the boardwalk with Sami at your shoulder and a borrowed camera warm in your fist. The decision you made in the council room is a weight and a buoy both — the kind of thing that keeps you moving even when the water pulls at the edges. Neon lifevests bob around you like a flotilla of determined stars. Hand-painted signs slap wetly in the wind: "HOMES NOT BARRIERS," "RESILIENCE, NOT RELOCATION."
+
+Salt and fried food and diesel mingle under the wet-air sunlight. Every footfall sends a small, bright sound through the boards. Your solder-scarred multi-tool thunks against your hip; the metal catches a strip of iris-streaked light and throws it, sharp, across the underside of a vendor canopy. It feels absurdly ordinary and impossibly necessary in the same breath — tools and testimony, both kinds of work.
+
+Sami squeezes your arm. His grip is quick, fierce.
+
+Sami [Fierce]: "They're already lining up the kayaks. We got legal observers on the north pier and Noor's files are already in a courier's bag. You're sure about talking to the camera first?"
+
+Maya Rios: "I am." (You taste the words before you let them go — salt, the faint tang of adrenaline.) "Stories are proof. The data Noor brings is the backbone, but people remember faces."
+
+[Background:"ch7_453e40_2"]
+[Sound: A single, clear voice from a megaphone testing the levels; an excited murmur rises]
+
+Dr. Noor crosses the slick boards toward you, a leather folio tucked under one arm like a talisman. Her face is tired and steady; the furrows at her temples catch rain.
+
+Dr. Noor [Tired, steady]: "Motion's filed. Tide data, past storm models, projections — everything the council can't ignore. I timed the filing with the press release. We have legal grounds to demand an emergency hearing."
+
+Maya Rios: "Good. Make sure the evidence is stamped. If they can dispute format, they'll stall."
+
+Dr. Noor [a small, dry smile]: "You always distrust the edges more than the center."
+
+Maya Rios: "I watched the edges swallow a street once, Noor. I don't want to watch it do it again while people sign away their homes."
+
+She nods, but her eyes are softer than her agreement. Something like relief passes across her features — a scientist relieved that the variables finally have an audience.
+
+[Sound: A chant rising — a rough, rhythmic call that umbrellas the market: "Homes! Not! Barriers!"]
+[Music: Tension swells; percussion tightens]
+
+You move through the crowd, camera held level. You call out names, stories, the small facts that bind people to this place: the bakery on the corner that uses sea salt in every loaf, the aunt who keeps a fig tree on a patched balcony, the kid who stitched together a raft for a summer race. You narrate in bursts, breath rough, voice steady from practice and need.
+
+Maya Rios [into camera]: "This is where my brother learned to whistle at the tide. Where Sami's mother kept her radio under a tarp so the storms wouldn't take it. If the council builds a barrier that asks us to sign away this memory for a corporation's balance sheet, you won't just tear wood — you'll sever histories."
+
+Neighbor (off-screen): "They're offering checks and buses. Luca's boys are handing out glossy brochures like it's a charity."
+
+[Background:"ch7_453e40_3"]
+[Sound: The soft, slick noise of pamphlets opening]
+
+One envoy steps forward through the rain-slicked aisle, voice lubricated with polished persuasion.
+
+Luca Envoy [Polished]: "We recognize the hardship here. Our proposal includes immediate temporary housing, relocation stipends, and guaranteed employment during construction. It's a safer option for many. Think of the children."
+
+Sami [Snaps]: "Safer for whom? They'll replace porches with parking and call it progress."
+
+Maya Rios: "Compensation doesn't buy what roots buy." (You let the camera catch your face; your words land like pebbles across the crowd.) "And it won't stop the next surge."
+
+Luca Envoy [Smiling]: "We can make the transition smooth. No one likes upheaval. We offer certainty."
+
+[INTERACTION]
+> Choice A: "Send Sami to counter the envoys"
+> Choice B: "Stay and keep recording people's stories"
+[Outcome A: "You nod at Sami; his shoulders tense and he storms toward Luca's group, voice raised, fingers gripping a pamphlet until it creases. He trades terms: dignity for speed; he presses neighbors to ask hard questions and refuses glossy assurances."]
+[Outcome B: "You keep the camera trained on a woman who smells of fryer oil and kelp. Her voice trembles; you let it. It becomes testimony the press can't—or won't—ignore. Your presence there gives her words weight."]
+[MERGE: Sami's exchange with the envoys becomes a small skirmish of language: facts thrown against promises. You watch, half-organizer, half-anchor — knowing that letting the community speak for itself is as much a strategy as confronting polished persuasion.]
+
+Sami's exchange with the envoys becomes a small skirmish of language: facts thrown against promises. You watch, half-organizer, half-anchor — knowing that letting the community speak for itself is as much a strategy as confronting polished persuasion.
+
+Elliot Chen stays at the periphery, his drafting glasses smudged and perched unusually on his head. He's not in front; he lets the crowd have its center. When he finds you between two stalls, he says low, urgent.
+
+Elliot Chen: "I can give testimony tomorrow—show them the prototype readings, the living seawall's absorption model—but I wanted you to lead today."
+
+Maya Rios: "You don't have to defer."
+
+Elliot Chen [small laugh, worried]: "I know. I choose to. This—" (he gestures at the crowd, the signs, the way people lean together) "—isn't a test of a model. It's a test of our willingness to stay."
+
+Maya Rios: "And if they weaponize evidence to sideline our voice?" (There is a hard, practical edge to your worry.)
+
+Elliot Chen: "Then we make the evidence part of the story. Noor's data folded into the names you film. Technical rigor wrapped in human faces. It's how we keep them honest."
+
+Maya Rios: "Careful. I don't want data to smother the very people it proves."
+
+Elliot Chen [reaches, hesitates, then places a palm lightly on your shoulder]: "Noted. I'll make sure the numbers point to those faces."
+
+The touch is quick, grounding. It carries no promise and a lot of intent. Your instinct is to pull away and keep everything on your own shoulders. Instead, you let it sit a second longer than usual. It feels like a small, dangerous permission.
+
+[Background:"ch7_453e40_4"]
+[Sound: Radios buzzing; the slap of wet fists on board rails; a drumbeat of chant returning stronger]
+
+A vendor hunches at your elbow, panic bright in her eyes. A child has climbed onto a raft and refuses to come down. You kneel, hands wet, and name the child's fears in simple words until the knot loosens.
+
+Maya Rios: "We anchor the line. We don't leave the raft. We'll anchor it to the north pilings, I promise."
+
+Vendor: "Promise?"
+
+Maya Rios: "Yes." (You've promised other things that slipped through hands. This one will be kept.)
+
+[INTERACTION]
+> Choice A: "Run to coordinate the kayaks at the north pier"
+> Choice B: "Stay to shepherd the crowd and finish the live feed"
+[Outcome A: "You sprint, splashing water across the planks. You bark quick, clear orders into a soaking megaphone — two kayaks hold the line, one crew for supplies, one for observation. The team moves like a single organism, efficient and fierce."]
+[Outcome B: "You stay. Your voice becomes the drum under the chant, coaxing anger into questions, fear into action. The camera's battery dies at the end but the recording continues in people who remember what you said."]
+[MERGE: Time compresses. Each decision folds quickly into the next as teams organize and the crowd solidifies its plan.]
+
+Time compresses. Each decision folds quickly into the next. The sun pokes through a ragged cloud and blesses a hundred faces with a wet gold. Cameras — press, phones, a few shaky livestreams — point like lances at the council steps across the inlet.
+
+On those steps, Irene Voss stands framed by the storm-glossed glass of City Hall. She has the posture of someone practiced at weighing consequences and choosing the one that leaves the least damage to her legacy; her expression when it meets yours is careful, layered — appraisal, invitation, something unreadable.
+
+Maya Rios (narrow your eyes): "She's watching."
+
+Sami: "She always watches. She thinks she can make us choose for our own good."
+
+Maya Rios: "She can be made to answer in front of us."
+
+A distant voice crackles from the building's external speakers — a city official trying to calm a crowd — but the crowd won't be calmed. Luca's envoys try a second round, spreading shiny maps of "stages" and "pathways" across damp hands. A mother crumples a pamphlet and throws it back at them.
+
+Neighbor: "You can't paint over the sunrise."
+
+[Sound: A sudden, clear response — a city clerk's amplified voice announcing an emergency hearing: "By order of the council, an emergency public hearing has been scheduled for tomorrow afternoon. All parties will have the opportunity to present."]
+
+The announcement is small and enormous at once. The crowd ricochets, a single body of sound: cheers that are part triumph, part relieved exhaustion, part fearful exhilaration. Air seems to move faster; your breath comes quicker. This is what pressure looks like when it isn't crushing — it's a lever finding its fulcrum.
+
+Sami punches the air. Dr. Noor exhales so hard her shoulders shake; you think for a moment she might laugh. Elliot Chen's eyes find yours, steady and bright, as if he had been waiting for that exact note in the symphony.
+
+Elliot Chen: "We did it."
+
+Maya Rios [a laugh that tastes like salt and victory]: "We made the council bite."
+
+Luca's envoy masks disappointment with civility. Luca himself remains near the building, a smoothed presence. Irene Voss's unreadable face gives nothing away. You feel the electric charge of success — and underneath it, the thin, vibrating thread of danger. A hearing is a battlefield different in shape but not in stakes. Winning the hearing won't be the same as rebuilding a seawall by hand; it will demand arguments, compromises, and the patience to keep a community tethered through negotiation.
+
+You move to the camera one last time before the crowd disperses for makeshift teams and late afternoon shifts, your voice raising over the reedy chant.
+
+Maya Rios [into camera]: "They told us to choose safety over memory. Today we chose both. Tomorrow, we make them decide in public. Come if you can. Bring your stories."
+
+[Background:"ch7_453e40_5"]
+[Sound: The chant subsiding into organized lists and the slap of oars starting; a distant siren begins and then cuts off]
+[Music: High-energy strings and percussion build to a held chord]
+
+You stand for a second and feel, painfully and deliciously, how many hands have found the edge you offered and held on.
+
+[Page-Turn: The council has to answer. A hearing is scheduled. The city will be forced to speak publicly about what this neighborhood is worth — and who gets to decide.]
+
+[Background:"ch7_453e40_6"]
+[Music: A sustained, hopeful chord mixed with the distant roll of rain]
+
+[Background:"ch7_453e40_7"]
+[Music: Fade Out]
+[NEXT CHAPTER: 8]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 8
+    > Jump Target File: script_ch8_Route_B_Split_ctx_6b08b4.txt

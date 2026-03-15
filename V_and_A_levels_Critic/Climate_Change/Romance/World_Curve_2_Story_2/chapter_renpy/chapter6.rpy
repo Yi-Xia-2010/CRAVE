@@ -1,0 +1,252 @@
+label chapter6:
+
+    # [Scene: Floodplain Market | Dawn]
+
+    scene bg ch6_601bcb_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant engine hum; the metallic clack of a crate lid; gulls arguing over scraps]
+    # play music "music_placeholder"  # [Music: Sparse, tense strings; a low, insistent percussion underfoot]
+    "You wake to a market that tastes of loss. The platforms you helped stitch together—raised walkways, patchwork stalls, Nita's lemon crate pyramid—are ragged in the wake of last night. There are bits of legal paper plastered"
+    "to posts like barnacles, and ribboned survey stakes marking long lines on the mud where machines already ate into what used to be yards and front steps."
+    "You feel it first in your hands: the compass cold against your palm, the strap of your sketchbook damp with someone else's sweat. Your throat is dry, and the town feels fractured into too many small,"
+    "urgent sounds—murmurs, sobs, the clink of a lock being snapped shut. The arousal that held you taut through the occupation snaps into raw, jagged motion; everything that follows is happening too quickly and with too much"
+    "force."
+    "Nita is at her stall, arms folded, cheeks streaked with salt and last night's smoke. She doesn't look surprised—this is the face she wears when she has to be both messenger and midwife to the town's wounds."
+    show anita_nita_ramirez at left:
+        zoom 0.7
+
+    anita_nita_ramirez "They put the notices up at midnight. Some of the old blocks—Sol says the city already issued rezoning."
+    show mara_linh_alvarez at right:
+        zoom 0.7
+
+    mara_linh_alvarez "How many homes, Nita?"
+
+    anita_nita_ramirez "Enough. Too many. I saw two trucks by the Spire before dawn. People are packing in little piles—old quilts, framed photos, fish boxes. Juno's block got the yellow tape."
+    "You swallow, the name Juno arresting you more sharply than the rest. Your sibling's bike is a memory under a tarp; Juno's decisions have been a private thermometer of your success for months. The image of the yellow tape is a sudden, bright burn in your mind."
+
+    menu:
+        "Find Juno and help pack":
+            "You drop your sketchbook on the crate and push through the crowd, hands searching for a familiar hoodie. Your steps are loud enough to bruise the air; you find Juno leaning against a post, eyes flat, fists clenched. They don't look at you first—there's a distance earned through fear."
+        "Go look for Kai and Dr. Leila":
+            "You tuck your compass back and move toward the greenhouse edge, toward the smell of compost and metallic talk of sensors. Kai is there, sleeves rolled, talking fast with Leila who keeps shaking her head—data and human cost balancing like two bad scales."
+
+    # --- merge ---
+    "The narrative continues."
+    "You do both in the span of a single, ragged breath—there is no time to spare for sequenced grief. Juno is half-packed, elbow-deep in a box of their things, avoiding eye contact as if looking would"
+    "make the loss happen faster. Kai Navarro is by the salt barrel, voice low but urgent with Leila—papers spread between them like wounds."
+    show kai_navarro at center:
+        zoom 0.7
+
+    kai_navarro "(soft, to you) They gave us a fund—small, legally encumbered. Leila says it's 'stewardship' on paper but comes with easements and strings. The company's lawyers tied it to exclusive maintenance contracts. It will pay for patches—small ones—but the bigger swathes are theirs now."
+
+    mara_linh_alvarez "They put conditions on repair work? That means access, Kai. That means...people who can't pay are priced out."
+    hide anita_nita_ramirez
+    show dr_leila_osei at left:
+        zoom 0.7
+
+    dr_leila_osei "(rubbing her temple) The injunction worked in places—we bought days, pockets of time—but every pause let them bring in private security. Rezoning is a lever. Once they call an area 'redevelopment,' the city's hands are tied in new ways. I wanted another outcome."
+
+    kai_navarro "(voice catching) We saved some beds—kelp lines, two rooftop orchards—but the contract language... Mara, they put in clauses that freeze community governance unless we hit performance metrics designed by Blackbrand."
+
+    mara_linh_alvarez "So—so they'll keep the appearance of community control while owning the levers?"
+
+    dr_leila_osei "Exactly. It's performative governance. It locks stewardship behind pay-to-play clauses, and it reroutes storm-relief budgets to private contractors first."
+    "The wind picks up, a hard, salt-scented blade that worries at tarps and flags. A truck backs up with a stutter and an exhaled horn like a grief-stricken animal. People move around you, small islands of"
+    "frantic motion—the very essence of very high arousal: every sense keyed to crisis, to the hard, sharp now."
+    "Reverend Sol arrives with his cane and an energy that is both steady and haunted. He moves slower than he used to, but his eyes are the same lighthouse—steady, searching."
+
+    "Reverend Sol" "(quietly) We lost the seawall fight here—but the history stays in us. We have stewardship money, but the people who can least afford the cost are the ones being moved. It isn't just structures we lose. It's stories, recipes, the way mornings used to smell."
+    "You want to answer. You want to tell him that you will pull the town back together with thread and salt and stubbornness. Your thoughts come out as clotted fragments: petitions, protests, injunctions, the smell of"
+    "diesel and legal paper. But the felt truth in your bones is heavier—something you did not only miscalculate but was worn down by the scale of capital and the speed of decisions made in rooms that"
+    "smelled of air conditioning and cheap coffee."
+
+    menu:
+        "Confront the Blackbrand foreman on site":
+            "Your feet carry you toward the construction line down at the mud, toward the clinical white lights and orange hazard cones. The foreman watches you with an unreadable neutrality; the machines hum like distant thunder. He tells you the implementation is 'complete' in language that leaves no room for feeling."
+        "Hold the crowd and speak":
+            "You turn back to the gathered; your voice, when it finds you, clears the air. You speak about the elders, about Juno, about houses with photographs in the window. They listen; some cry, some grip the rail. For a moment there is unity, and then the cry of a truck grows louder and everything whips back into motion."
+
+    # --- merge ---
+    "The narrative continues."
+    "You try both again—the town requires everything of you until you have nothing left to give in obvious parts. At the construction edge, a tall, precise woman in a dark trench stands with a tablet—a human"
+    "embodiment of Blackbrand's neat certainty. You sense Evelyn before you see her: the gravity of someone who believes calculation is the same as care."
+    hide mara_linh_alvarez
+    show evelyn_black at right:
+        zoom 0.7
+
+    evelyn_black "(cool, controlled) Ms. Alvarez. I—' (Her sentence is almost an offer; you taste it like metal.) '—I know this is hard. The model shows a net reduction in risk. We can seed more funds contingent on performance. There are provisions for cultural preservation funds."
+    hide kai_navarro
+    show mara_linh_alvarez at center:
+        zoom 0.7
+
+    mara_linh_alvarez "Performance for whose benefit, Evelyn? For your investors? For the neighborhoods that can afford the fees? You call this protection, but protection for who?"
+
+    evelyn_black "(eyes like slate) We protect the most people. You understand trade-offs—"
+
+    mara_linh_alvarez "Trade-offs don't decide who keeps their grandparents' home."
+    "Evelyn's jaw tightens imperceptibly. There is no villainous shout—only the cold, sustained logic of policy run through private profit."
+
+    evelyn_black "(softly) The alternative is disorder. We cannot afford to wait for ideals when storms come. Choices must be made, and they are painful."
+
+    "Reverend Sol" "(interrupting) And whose pain gets prioritized, Evelyn?"
+    "Evelyn's hand tightens around the tablet; there is a flicker—maybe of regret, maybe of calculation."
+
+    evelyn_black "We included community liaison roles. We will fund maintenance. We can negotiate memorial plaques—"
+    "The exchange narrows into a chorus of words that refuse to bind the wound. You fling back with everything you have—an image of Juno's bike, of Nita's produce, of the narrow lane that cut through your"
+    "childhood—because if you let those images be swept away by corporate clauses and city impulses, the town will not be recognizable."
+    "Kai Navarro steps in beside you, shoulder brushing yours. His presence is a tether; you feel it, and it gives and frays all at once."
+    hide dr_leila_osei
+    show kai_navarro at left:
+        zoom 0.7
+
+    kai_navarro "(voice shaking) We made compromises because we thought saving people meant choosing the small sure things. But this—this is an architecture of extraction. We built hope and they built escrow accounts."
+
+    mara_linh_alvarez "Then what do we do, Kai? Tell me what 'we' looks like now."
+
+    kai_navarro "(after a beat) 'We' looks like rebuilding what we can. It looks like holding legal fights over the next three years. It looks like a lot of people moving out with boxes, and a lot of others staying because they have nowhere else to go."
+    "The words land like stones. Juno, who has been silent, laughs—a sound without humor that cracks into the air."
+    hide evelyn_black
+    show juno_alvarez at right:
+        zoom 0.7
+
+    juno_alvarez "Maybe we don't rebuild. Maybe we leave before the sea does."
+    "That sentence is a detonator. The very high arousal becomes a storm now—people shout, a woman hurls a paper cup at a security vehicle; the foreman's walkie-talkie spits commands; a child cries. The atmosphere is a"
+    "physical thing pressing at you from all sides: the smell of diesel, of frying oil from Nita's stall, of wet rope and old wood—sudden and suffocating."
+    "You find yourself on the promenade later, the boardwalk slick under your boots. The sun is a thin coin behind cloud; reflections smear the water into a bruised watercolor. The town is fractured into those who leave, those who stay, and those who have to decide which to be."
+
+    "Reverend Sol" "(placing his hand over yours) This will change everything. But we've been changed before. We'll teach the stories, we'll hold the maps, and those who can will keep the small beds alive."
+
+    mara_linh_alvarez "And the rest?"
+
+    "Reverend Sol" "(no easy answer) The rest will carry the loss inside them. They'll become new kinds of resilient. We'll do what we can."
+    "You want to lean into him, to let someone else carry the weight. Your fingers close like a trap around the compass. It is scuffed; your father's face in memory is a low-fidelity projection, stable and"
+    "metronomic. He would have done the same thing—stood with neighbors, argued with the city clerk, cut a net for a boat with an economy of words."
+    hide mara_linh_alvarez
+    hide kai_navarro
+    hide juno_alvarez
+
+    scene bg ch6_601bcb_2 at full_bg
+    # play music "music_placeholder"  # [Music: Climatic, discordant swell; brass and strings clash; percussion hits like pounding rain]
+    "Kai Navarro finds you as twilight falls, the day collapsing into a bruise of color. There is a set to his jaw that speaks of decisions you do not know the shape of yet."
+    show kai_navarro at left:
+        zoom 0.7
+
+    kai_navarro "(softly) I thought if we proved small projects could scale, we could keep control. I thought—' (He breathes out, anger and apology braided.) '—I thought we could outwork them with better plans."
+    show mara_linh_alvarez at right:
+        zoom 0.7
+
+    mara_linh_alvarez "You still think that?"
+
+    kai_navarro "I still believe small things matter. But I was naive about how they would weaponize our language—'community,' 'resilience'—into contract language that cuts people out."
+    "Silence presses. The high arousal leaves you raw; there is nowhere for the energy to go except to the hardest place inside you—the part that keeps score of every compromise, every late-night phone call, every whispered bargain."
+
+    mara_linh_alvarez "Do you blame me for pushing for the occupation?"
+
+    kai_navarro "(after a long beat) I blamed the timing. I blamed the way we moved people into positions where they were exposed. But mostly I blamed the system."
+
+    mara_linh_alvarez "And us?"
+    "Kai Navarro's eyes flash—something like fear, like sorrow. He looks away. When he does, you feel the relationship between you thin to a single thread."
+
+    kai_navarro "(whisper) I don't know what we are right now."
+
+    mara_linh_alvarez "We were people trying to save our town. That counts for something."
+
+    kai_navarro "(a small, bitter laugh) It counts. And sometimes counting isn't enough."
+    "He touches your hand—brief, a human punctuation—and then leaves, swallowed by the market's descending tide of lit lamps and shouting voices. You stand watching until he is a silhouette, then until the silhouette is nothing but a memory."
+    "Night settles with the taste of salt and smoke. You walk alone to the edge of the Promenade where the sea is an inky referee, indifferent. Under the solar spire's muted LED halo, people who are"
+    "staying make lists, distribute bedding, set up watch shifts. Those who are leaving do so with the sound of their departure sharpened by a hundred small goodbyes."
+    "You run your thumb along the compass rim until the metal is warm. There is a small, private grief that curls like smoke in your chest for the houses lost, for the elders gone, for Juno's"
+    "flat refusal to be buoyed by your good intentions. That grief is very negative and loud and it blooms into a decision inside you—not a political maneuver, not a legal tactic, but a personal reckoning."
+    "You will keep the beds alive. You'll teach the children how to graft, how to measure tide, how to read the seam between salt and land. You will take the stewardship money and wrestle the clauses"
+    "into something that doesn't hollow out people's lives. But you will also accept, with bone-deep clarity, that some things are gone: streets you cannot piece back, a faith that good intentions alone will outlast capital's appetite,"
+    "the safe, untroubled intimacy you had with Kai."
+    # [Scene: Blackbrand Development Site | Night]
+    hide kai_navarro
+    hide mara_linh_alvarez
+
+    scene bg ch6_601bcb_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Polite applause; muffled murmurs of officials; distant waves]
+    # play music "music_placeholder"  # [Music: Low, elegiac tones; a single piano line that carries like a ferryman]
+    "You stand at the periphery of the official ribbon-cutting because you must—because memory requires witness, because if no one speaks for the places that were taken, they will be erased twice. Evelyn stands at the podium."
+    "She speaks with the smooth, practiced cadence of someone who has made many hard choices and learned to dress them in necessity."
+    show evelyn_black at left:
+        zoom 0.7
+
+    evelyn_black "This barrier will save lives and infrastructure. It will create new opportunities, stabilize property values, and allow us to invest in long-term adaptation."
+    "Your stomach curdles at the phrase 'stabilize property values'—a cosmetic sentence that papers over families and histories. You step forward before you think about it, the crowd parting with a sound like a held breath."
+    show mara_linh_alvarez at right:
+        zoom 0.7
+
+    mara_linh_alvarez "You call it protection, but you priced out the people who built this place. You call it investment, but you sold them a future where they have to pay to remember their own streets."
+
+    evelyn_black "We offered funds for cultural programs. We created a memorial trust. We negotiated in good faith."
+
+    mara_linh_alvarez "Memorial funds do not keep roofs in repair. Memorial funds do not stop families from having to move."
+    "A murmur ripples through the audience. For a moment the air is so electric it stings the back of your neck. You think of Juno loading a faded hoodie into a truck and the way they looked at you—like you had lost something by being who you were."
+
+    evelyn_black "I cannot give you everything. I can give you stability. We both know how storms escalate. We must make hard choices."
+
+    mara_linh_alvarez "Maybe. But the hard choices you make are not measured in the weight of someone's photographs."
+    "There is no shouting, no last-minute heroics, no cinematic reversal. The machine of policy and capital continues. The ribbon is cut; the cameras flash. A small group of elders stands to the side, their hands folded. Juno does not attend."
+    hide evelyn_black
+    hide mara_linh_alvarez
+
+    scene bg ch6_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: Falls into a single, sustained minor chord]
+    "You walk away from the podium and the lights. You pass the line where the machines were staged last week; mud still clings to the wooden posts, and a child's handprint is faint on a stair"
+    "where someone left it in a careless summer. You close your eyes and try to measure the loss—how many kitchens will now be kitchens in new places, how many names will be stored in wallets and"
+    "not in street corners."
+    "Nita finds you on the Promenade, two paper cups of coffee in her hands. She offers one—the cardboard is warm, grounding."
+    show anita_nita_ramirez at left:
+        zoom 0.7
+
+    anita_nita_ramirez "(quiet) I kept the market stall ledger. We have names. We have seeds. We'll keep making. It won't be enough, Mara. It won't be enough for everyone."
+    show mara_linh_alvarez at right:
+        zoom 0.7
+
+    mara_linh_alvarez "It won't."
+
+    anita_nita_ramirez "But people will remember the way the town banded. That counts."
+
+    mara_linh_alvarez "Counting isn't rescue."
+    "Nita shrugs, a small, fierce motion."
+
+    anita_nita_ramirez "No, but it keeps us breathing."
+    "The night is a tightened thing around your chest, heavy and oppressive. You want a cathartic reconciliation—some clean, righteous victory—but the truth is uglier and quieter: people will cry themselves to sleep and then get up"
+    "and tend beds, some will leave, some will stay and resent, and Kai's hand in yours will be a memory of a mapping you both tried and failed at."
+    "You climb to the rooftop orchard alone, your boots whispering over slatted wood. The city lights smear the horizon; the sea tastes faintly of metal and something like resignation. You sit on the bench where once"
+    "you and Kai shared a plan and a sandwich and a laugh that didn't feel like labor."
+    "You take the compass from your neck and lay it open on your knee. It points as it always has, indifferent to the politics layered on top of the shoreline. You think of your father standing"
+    "shoulder-deep in a stormy morning, choosing nets under a sky that didn't promise anything. There's a terrible steadiness to the image."
+    "You close your eyes and let the grief come—the full, undiluted weight of what was lost. It is a very-negative horizon: homes that will never be the same, a town rearranged by edges of concrete, people"
+    "priced out of their memories. The crying comes in waves; you count them and do not try to outrun them."
+    "When the grief subsides to a dull ache, you stand. The arousal that rippled through the chapter—the fear, the shouting, the machines, the legal filings—settles into a tight, functional resolution. You will continue. You will fight,"
+    "in smaller ways now, for patches, for children, for stories. You will hold seedlings in winter. You will teach tide-reading to those who remain. But you will not pretend the cost was zero."
+    "You wrap the compass back into its leather; your fingers brush the scuff that carries your father's invisible map. It will guide you, but it will not fix everything."
+    "Kai does not return that night. You do not know if this is a fracture that will mend with time or a chasm that will harden. The knowledge sits like a pebble under your tongue: some"
+    "loves will weather this; some will not. You do not have the luxury of deciding which will happen. You have only the work—small, stubborn, militant in its gentleness."
+    "Dawn comes on a sky threaded with grey. People move through it like slow tides—some leaving, some staying, all carrying the day's shape inside them. You walk the promenade alone, each step a small protest against erasure."
+    hide anita_nita_ramirez
+    hide mara_linh_alvarez
+
+    scene bg ch6_601bcb_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A solitary gull; the distant thump of machinery; the faint drip from a torn tarp]
+    # play music "music_placeholder"  # [Music: Quiet, resigned piano; one last minor cadence that fades]
+    show mara_linh_alvarez at left:
+        zoom 0.7
+
+    mara_linh_alvarez "We will remember. We will plant. We will teach. We will be honest about the cost."
+    "It is not a victory cry. It is a litany of persistence. It is a pledge that the town's story will not be rewritten without footnotes."
+    hide mara_linh_alvarez
+
+    scene bg ch6_601bcb_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade into a single sustained cello note that slowly diminishes]
+    "You hold the compass to your chest and feel its steady, implacable point. You do not have all the answers. You do not have the restored homes for everyone, nor the clean closure of a perfect"
+    "compromise. What you have is the knowledge of what was lost and a stubborn, weary plan to make sure the losses are not total."
+
+    scene bg ch6_601bcb_7 at full_bg
+    # play music "music_placeholder"  # [Music: Silence]
+
+    scene bg ch6_601bcb_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

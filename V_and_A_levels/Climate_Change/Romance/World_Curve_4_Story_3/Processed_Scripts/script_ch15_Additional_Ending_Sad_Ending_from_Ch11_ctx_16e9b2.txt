@@ -1,0 +1,232 @@
+### SCRIPT
+# Route: Additional / Ending (Sad)
+# Context: 16e9b2
+
+[Scene: Promenade | Night Deepening]
+[Background:"ch15_16e9b2_1"]
+[Music: Rapid strings, layered with industrial percussion — urgent and relentless]
+[Sound: Ocean roar, distant sirens, the electronic whir of delivery drones overhead]
+
+You sit on the lip of the Promenade, knees drawn against the salt-stiff wind, and the brass of the compass in your pocket feels like a burned coin against your thigh. The night is too bright and too cold at once: LED halos from the Beacon cut through mist, and mobile floodlights from investor vans throw long shadows over the boards. Somewhere down the Promenade a megaphone coughs and a handful of residents shout into it; their words are half-caught by the wind and then swallowed by the sea.
+
+You can taste metal — not from the air but from the spreadsheet of clauses you posted to the town's feed, from the leaked drafts that became a courtroom flashpoint. You remember the pressroom, the judge's bored pen, the flurry of legal counsel. The public reveal shifted everything like a stamp on the tide: Lila Park's firm withdrew her pledged capital within a week, a tactical retraction you still feel like a bruise.
+
+[Background:"ch15_16e9b2_2"]
+[Sound: A drone whines closer, then recedes; a vendor's stall flap slaps once and is silent]
+
+You look up as a delivery drone noses past, its belly lights blinking. Below it, the market—your market—has thinned. Teal awnings that used to buzz with Marta's laughter and the smell of salted citrus stand half-collapsed. The air lacks the steam and spicy life it once held. You can count faces now: fewer Eli folk, fewer of the boatwrights who used to trade gossip for rope; the places where neighbors once argued about seed mixes are now shaded by corporate canopies with discreet logos.
+
+[INTERACTION]
+> Choice A: "Stand up and go find Noah"  
+> Choice B: "Call Mayor Rosa"  
+> Choice C: "Walk the market silently"
+[Outcome A: "You push to your feet, soaking through your jeans at the hem, and move toward the Beacon where you know he'll be. Your feet slap the wet wood with a new, brittle determination."]
+[Outcome B: "You tap the mayor's name and hold the phone to your ear; her sigh is an ocean in miniature, and you both speak in the language of compromise and loss until the line goes quiet."]
+[Outcome C: "You weave between empty stalls, fingers brushing salt-scarred planks, listening to the absent rhythm of what used to be—grief in miniature, a ledger of what has already been priced out."]
+[MERGE: You pick one path in the moment and the camera cuts with a wet smack to Noah Reyes's silhouette near the Beacon's outer plaza]
+[Background:"ch15_16e9b2_3"]
+[Music: Tension tightens — high strings, heartbeat percussion]
+[Sound: The Beacon's sensors ping in a slow, clinical rhythm]
+
+Noah Reyes is under a canopy of engineered stone, shoulders wet but steady. When he sees you he doesn't smile the easy way he used to; his mouth presses into a line, and there is a ledger of decisions behind his eyes. He holds a rolled-up map, but it's not yours.
+
+Noah Reyes: "They called. They want me to run the technical board."
+
+You stare, because the sentence lands like a net. Your mouth opens; you taste the salt of a dozen unsaid protests.
+
+Asha Moreno: "What do you mean, 'run the technical board'?"
+
+Noah Reyes: "It—it's a director role. They said it's the only way the investors will sign on. It's on-site, high oversight. I can keep sensors transparent, set maintenance schedules, be the liaison—"
+
+Asha Moreno: "The liaison. Right. The same word Lila Park used when she was trying to sell this like a tour." (You laugh without humor.) "Noah, that's them writing the rules and keeping you in the room to nod."
+
+Noah Reyes: "I know how that sounds. I know—" (He steps closer, rain pulling curls damp across his forehead.) "I can be inside, Ash. If I'm in, I can at least push for public dashboards, for resident representation. I can slow them down from the inside."
+
+Asha Moreno: "Slow them down? Noah, they are waiting for us to bleed each other out in committees. I watched them change the language overnight—'managed access', 'covenanted spaces.' That is code. That is rent. That's a shoreline with a gate."
+
+Noah Reyes: "And letting them walk away? Letting Lila Park's company withdraw and letting investors swoop in without any oversight? Ash, the court drained our legal leverage. Money walked through our window and the town was already on its knees."
+
+Asha Moreno: "So we hand them the throat and call it a truce." (Your voice cracks; the attack of truth is small and fierce.) "We keep houses standing but not their families."
+
+Noah Reyes: (hesitant) "You saw the council minutes. Rosa—"
+
+Mayor Rosa: "We couldn't keep everyone afloat and also keep the lights on." (She interjects, voice coming over the portable line Noah holds between them.) "Asha, you know the budget gaps. I tried for guarantees. I argued. Investors demanded governance in exchange for the capital they would deploy within months."
+
+You can hear the mayor's breath: tired, political, practical.
+
+Asha Moreno: "We exposed them, Rosa. We made the clauses visible. We didn't make the town immune—we made it a target."
+
+Mayor Rosa: "You made it a town that remembers. There are still protections—some. They're not what we wanted, but they're better than abandonment."
+
+Asha Moreno: "Better than abandonment is not the standard we promised ourselves." (You stare at Noah Reyes, at the rain tracking down his cheek like a deliberate, obvious thing.) "Are you with them or with us, Noah?"
+
+Noah Reyes: "I'm with Marabel. That's why I—" (He falters, searching.) "Maybe being 'with us' looks like this now: inside the machine, and naming what I can without losing everyone."
+
+Asha Moreno: "Or it looks like standing in the square and refusing their cheque."
+
+Noah Reyes: "If I refuse, they'll bring someone else. Someone who doesn't care enough to keep any dashboard public. Someone who'll hard-code paywalls into the Beacon. I can't watch them do that, Ash."
+
+Asha Moreno: "So you accept the leash so you can tug at the end." (You press the compass in your pocket like a hot memory.) "Do you have any idea what that will do to Marta's rent? To Eli's moorings?"
+
+Noah Reyes: "I do. I thought about that with every hour I slept badly these months." (He reaches, but stops short.) "I'm not asking you to understand. Only to trust me a little."
+
+Asha Moreno: "Trust feels expensive tonight."
+
+Noah Reyes: "It always has. But what we did—exposing the clauses—that was right. It was legal transparency. It was necessary. I don't regret it."
+
+Asha Moreno: "Do you regret what followed?" (Your voice is small.) "The fallout?"
+
+Noah Reyes: "I regret the timing, the way—" (He swallows.) "I regret the families that couldn't wait. But I don't regret us telling the truth."
+
+A silence drops between you, heavier than rain.
+
+[Background:"ch15_16e9b2_4"]
+[Sound: Helicopter thrum in the distance; a baby's cry on a nearby porch that echoes and is left unresolved]
+
+Noah Reyes: "I wanted—" (He searches for a different sentence.) "I hoped we could rebuild together. I still do. But I can't stand by while everything we fought for is replaced with decorations."
+
+Asha Moreno: "Then maybe that's where we end." (You stand, rain flattening your hair into your scalp.) "Not because I don't love you—because I do—but because love without the same horizon is a house with different foundations."
+
+Noah Reyes: "Ash—"
+
+Asha Moreno: "Don't." (You hold up a hand; it's not an order, only the last map you can fold into your pocket.) "Don't make this harder. Go. Do what you can. I will do what I must."
+
+[Background:"ch15_16e9b2_5"]
+[Music: A single long note, then percussion resumes — faster, harsher]
+
+Noah Reyes: (lowered) "You said once we both wanted to protect a town's memory, even if it changed the plan for us. Do you still—"
+
+Asha Moreno: "I want to protect people, not monuments." (You turn away before the rest of the sentence pulls you back.)
+
+[Scene: Beacon Lobby | Later That Night]
+[Background:"ch15_16e9b2_6"]
+[Sound: Low murmur of negotiation, the scratch of pens on legal pads, the distant clink of a champagne flute]
+
+Lila Park stands by the model with her smart cuff glowing. Her face is a mask that reads like an ad: controlled, clean, certain. Across from her, Mayor Rosa and two investors exchange firm nods. You stay in the doorway, a wet silhouette, and watch the negotiation close like a trap.
+
+Lila Park: "We had to make a business decision. The public campaign increased liability exposure. We couldn't proceed on the same timeline."
+
+Mayor Rosa: "Your withdrawal left a gap we couldn't fill with grants alone."
+
+Investor 1: "Our terms include preservation of the Beacon and the establishment of a management board. With a covenanted housing overlay. This assures long-term stability and return."
+
+You want to say 'return' is an ugly word when it's about people's roofs. Marta's garden plots are on your tongue as accusation and become only a taste of bitterness.
+
+Lila Park: "We are offering technology and capital. We will fund maintenance, sensors, interoperable dashboards — with access tiers for registered residents and premium services for managed-district visitors."
+
+Asha Moreno: (softly, to yourself) "Access tiers."
+
+Mayor Rosa: "It secures the Promenade and many houses. It's not full control."
+
+Asha Moreno: "It's enough control." (You step forward; your voice is sharper than you mean it to be.) "It's a firewall around the people who can pay."
+
+Investor 2: "Protection is tailored. We want to avoid displacement. Cov... overlays will offer subsidies."
+
+Asha Moreno: "Subsidies that evaporate when the market wants different tenants."
+
+Lila Park: (coolly) "Asha, you made this public. That changed risk models. You know the financial calculus: when a firm perceives legal exposure, either the firm increases investment in mitigation or withdraws. We withdrew to protect our shareholders."
+
+Asha Moreno: "You left the town to privateers, and then sold it a map with a nicer cover."
+
+Lila Park: "We offered transparency, protocols, governance structures. We did not walk away from the idea of community agency."
+
+Asha Moreno: "You walked away from the people who couldn't meet your agency's definition."
+
+[Sound: A sharp argument rises outside — residents confronting security; a small glass shatters somewhere down a hallway]
+[Music: Cymbals crash, then a percussive, relentless sequence; heartbeats in the mix]
+
+Mayor Rosa: (after a pause) "We took the offer. We weighed homes versus empty lots. This felt like the path to keep people sheltered. I know it changed the shape of Marabel. I—"
+
+Asha Moreno: "You sold the shape of it." (You feel the words like stones.)
+
+Mayor Rosa: "We tried every path."
+
+Asha Moreno: "Did you try asking who would be left? Did you ask what we lose when every public space has a membership tier?"
+
+Mayor Rosa: "Asha, the court drained our options. We did what we could, given the legal exposure and the immediate threat of high tides. This is not a triumph I'm proud of."
+
+Asha Moreno: "Pride is not the measure people are using to sleep." (You turn to leave; your voice fragments.) "They don't sleep because their incomes are now proposals on paper."
+
+[Scene: Market | Next Morning]
+[Background:"ch15_16e9b2_7"]
+[Sound: The market is subdued — footsteps, a single cart wheel, the distant beep of scanners]
+
+You walk the rows that used to be thrumming with barter. A vendor you recognize — thin-shouldered, usually loud — doesn't meet your eyes. Eli's boat is moored but the men around it are fewer; a 'For Lease' placard has been laminated and branded. Marta waves from a raised plot that's been fenced and now has a small kiosk with a card reader. The smell of frying dough is a memory that hits like hunger.
+
+You sit on a low crate and pull the compass from your pocket. The brass is dulled from rain and grief. You trace the engraving your grandfather left you and the leather cord. It feels like the last small piece of a different map.
+
+[Music: A low, elegiac cello line under a sparse percussion; the tempo holds harshly steady]
+[Sound: Distant drone hum, a child's muffled laugh from a gated play area, the metallic whisper of an elevator in the Beacon]
+
+Noah Reyes finds you by the water's edge. He doesn't come to argue now; his shoulders are tired in a new way, burdened by policies and calendars.
+
+Noah Reyes: "I start Monday. They gave me a seat on the management board too—public liaison, supposedly. There's a lot of oversight."
+
+Asha Moreno: "You're staying."
+
+Noah Reyes: "I'm staying. I couldn't watch the Beacon privatize remotely."
+
+Asha Moreno: "What about those who can't pay for access tiers? What about people who held this town together with small things you can't monetize?"
+
+Noah Reyes: "We're setting a fund. The investors agreed to a hardship pool for a few years. It's not a solution, but—"
+
+Asha Moreno: "A fund is a bandage." (You stand.) "Noah, I can't be part of the shape you are helping them draw."
+
+Noah Reyes: "So you leave."
+
+Asha Moreno: "I go where people need someone who will teach them to read a shoreline without expecting a subscription."
+
+Noah Reyes: (voice cracks) "You'll teach them to save their homes? To rebuild natural marshes? To—"
+
+Asha Moreno: "To make living-shore training itinerant, to teach people how to keep their platforms sip-proof with rope and reed, to show school kids how to read tidal charts without paying a portal fee. It's not glamorous. It might fail. But it's honest."
+
+Noah Reyes: "You'll leave me in the middle. You'll let me sit in meetings and answer for things we both hoped would be different."
+
+Asha Moreno: "I'll be doing different work. Maybe it's the same love in a different language." (A laugh like a broken bell.) "Maybe it's alone."
+
+Noah Reyes: "Ash—"
+
+Asha Moreno: "Don't call it 'alone' to absolve yourself. You made your choice. I made mine."
+
+[Background:"ch15_16e9b2_8"]
+[Sound: A long gull cry cuts through the air; the Beacon's hum crescendos and then recedes into its mechanical lullaby]
+
+Noah Reyes: (softly) "Keep it. When the tide changes, look at it and remember how we tried."
+
+Asha Moreno: "I will remember." (You put the compass in your pocket again. The metal is warm from your hand. It sits there like a small, private argument.)
+
+[Scene: Promenade | Dusk — Your Departure]
+[Background:"ch15_16e9b2_9"]
+[Music: High, thin strings carry an urgent, aching rhythm; tempo quickens toward a final cadence]
+[Sound: Distant crowd murmurs, a security gate closing with a metallic thud, drone rotors fading into the sky]
+
+You walk with a small pack: technical manuals, seed packets folded into a plastic bag, a ledger of names. You have a list of communities down the coast who asked for itinerant training; they are small, gritty places that prefer the smell of diesel and wood smoke to LED halos. You will teach them to stitch living shorelines with reed and rock, to rig low-cost sensors that can be community-owned, to make leases that hold people first.
+
+You pause at the edge of town and look back one last time. The Beacon gleams like a lighthouse that forgot how to tell stories. The Promenade is intact as architecture but hollowed of some voices. There are homes with lights on; there are others darkened where families could no longer afford the new covenant. The market is smaller but not dead. There are faces you know and faces you mourn.
+
+You have no speech left to give — only the slow, practical work of being there for the people who could not make the investors' cut.
+
+You take a breath that gathers salt, the last of this town you will carry inside you in the immediate way that breath can. Love does not dissolve; it distills. What you and Noah Reyes had is not erased — it is reshaped into ache and memory, into the kind of quiet that lives in calluses and in the way you still know the pattern of his silence.
+
+[Background:"ch15_16e9b2_10"]
+[Music: Strings pull higher, then a single piano note — a chord that does not resolve to major]
+[Sound: One final long gull cry, and then silence apart from the ocean]
+
+You step off the Promenade toward the road that follows the coast. Rain begins again, not a collapse but a steadying fall, and the towns you will teach are out there in the weather, waiting for someone to arrive with a map that is small, human, imperfect.
+
+You do not look back again.
+
+[Background:"ch15_16e9b2_11"]
+[Music: Fade to a single, unresolved note]
+[Sound: The sea, steady and indifferent]
+
+[Background:"ch15_16e9b2_12"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

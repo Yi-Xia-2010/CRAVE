@@ -1,0 +1,116 @@
+{
+    "design_logic": "Blend climate change and romance by making the environmental crisis the engine of emotional stakes: the town's survival choices force intimate decisions about loyalty, compromise, and love. The genre pairing lets personal relationships mirror larger moral conflicts — adaptation vs. profit, tradition vs. innovation — so romance is not separate from the plot but the lens that reveals consequences. Core conflict: the protagonist must choose between protecting her community with a nature-first plan (and risking loved ones' livelihoods or political fallout) or accepting a high-tech, profit-driven solution pushed by an antagonist; every choice reshapes relationships.",
+    "setting": "A near-future coastal town (Elara) on the edge of a temperate sea, mid-21st century. Rising tides and increasingly violent seasonal storms have reshaped daily life: sandbags, elevated walkways, and shuttered storefronts sit beside experimental green infrastructure. The atmosphere blends nautical melancholy with stubborn community resilience — foggy mornings, salt-stained air, and sudden golden light after storms.",
+    "visual_style": "Semi-realistic painterly; muted coastal palette with pops of warm color; overcast cinematic lighting; eco-tech details; natural textures (wet wood, salt, moss); subtle character-focused anime influence for expressive faces",
+    "main_characters": [
+        {
+            "name": "Maya Soler",
+            "role": "Protagonist",
+            "personality": "Empathetic, tireless, principled, and quietly stubborn. Think methodical problem-solver with a poet's tendency to see people like ecosystems — interdependent and fragile. Driven but prone to carrying guilt for past failures.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves with intentional salt-streaked highlights and a practical braid for fieldwork",
+                "eyes": "Green-gray, slightly round and reflective, flecks of gold when seen in sunlight",
+                "clothing": "Weatherproof olive-green field jacket layered over a faded floral dress and utility cargo trousers; scuffed hiking boots; often rolls sleeves and wears work gloves tucked into a belt",
+                "accessories": "Worn field notebook patched with duct tape, a coral-shaped pendant made from recycled plastic, a small multi-tool clipped to her belt"
+            },
+            "goal": "Implement nature-based coastal resilience (restored wetlands, living breakwaters) to protect Elara while keeping the community's cultural identity intact.",
+            "background_story": "Grew up in Elara; lost an older brother in an unexpectedly rapid flood that galvanized her to study environmental engineering. Returned to help her hometown adapt, frustrated by outside 'solutions' that ignore local knowledge.",
+            "emotional_trait": "Strength: deep empathy and perseverance. Flaw: self-blame — she overcommits and struggles to accept help, which strains relationships."
+        },
+        {
+            "name": "Aiden Kuro",
+            "role": "Love Interest",
+            "personality": "Pragmatic, steady, quietly charismatic. He values tradition, community, and the craft of fishing. Protective and warm but slow to trust new ideas that threaten livelihoods.",
+            "appearance_features": {
+                "hair": "Thick black hair usually tousled and tucked under a knit fisherman's cap; short at the back",
+                "eyes": "Warm amber-brown, narrow when smiling, with crow's feet earned from sun and salt",
+                "clothing": "Layered knit sweaters and a flannel shirt beneath a patched oilskin coat; sturdy rubber boots and rolled cuffs stained with salt and fish scales",
+                "accessories": "A small carved wooden compass made by his father, a braided rope bracelet, and a silver ring engraved with a simple wave motif"
+            },
+            "goal": "Protect his family's way of life and keep the town economically afloat while finding a way to live with the changing sea.",
+            "background_story": "Born into a line of fishers, he learned to read weather and tides as a child. He distrusts top-down projects after a previous 'engineering rescue' left several boats stranded and businesses bankrupt.",
+            "emotional_trait": "Strength: steadfast loyalty and practical courage. Flaw: fear of change that can harden into stubbornness, making him resistant to necessary compromises."
+        },
+        {
+            "name": "Elias Voss",
+            "role": "Antagonist",
+            "personality": "Charismatic, polished, persuasive, and strategic. Publicly sympathetic to the town but driven by a profit-first worldview and political ambition. Skilled at reframing dissent as 'delay' or 'nostalgia.'",
+            "appearance_features": {
+                "hair": "Silver-dark, slicked back with a precise part; immaculately groomed",
+                "eyes": "Steely blue, narrow and assessing; often obscured behind a faintly reflective glare from glass facades",
+                "clothing": "Custom-tailored dark navy suit with subtle technical fabric panels, crisp white shirts, slim tie; polished leather shoes",
+                "accessories": "A minimalist smartwatch with corporate insignia, a lapel pin etched with the development firm's emblem, and a heavy engraved fountain pen"
+            },
+            "goal": "Construct a large, hard-engineered seawall and lucrative waterfront redevelopment that secures his reputation and financial interests.",
+            "background_story": "Rose through urban planning and private development; positions himself as a savior with the capital to 'fix' Elara, having overseen similar projects elsewhere with mixed long-term outcomes.",
+            "emotional_trait": "Strength: persuasive ambition and strategic clarity. Flaw: hubris and moral compartmentalization — sees human costs as acceptable collateral for success."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rosa Tan",
+            "relation_to_main": "Childhood friend of Maya and community organizer",
+            "appearance_summary": "Short-cropped black hair, lively dark eyes, rainproof yellow jacket and reusable tote covered in protest buttons.",
+            "function_in_story": "Organizes town meetings, rallies grassroots support for living infrastructure, and pressures Maya and Aiden to act quickly; serves as the town's moral chorus."
+        },
+        {
+            "name": "Ben Harper",
+            "relation_to_main": "Elder fisherman respected by Aiden and the town",
+            "appearance_summary": "Weathered face with deep lines, white stubble, a battered cap, and a patched pea coat that smells faintly of tar.",
+            "function_in_story": "Provides historical memory of past storms and failed projects, offers practical wisdom, and serves as the community’s conscience during tough choices."
+        },
+        {
+            "name": "Prof. Noor Azizi",
+            "relation_to_main": "Mentor figure to Maya and scientific advisor to the town",
+            "appearance_summary": "Mid-50s, salt-and-pepper bun, small spectacles, lab coat over warm knitwear, fingers stained with soil samples.",
+            "function_in_story": "Supports Maya's nature-based plans with data, helps translate science to persuasive presentations, and offers counsel when political pressure mounts."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Elara Marina (Boardwalk & Harbor)",
+            "visual_description": "A long, weather-bleached boardwalk fringed with low wooden stalls and bobbing boats. Morning fog hangs low; puddles catch silver sky. Muted blues and grays dominate, punctuated by the red of a buoy and warm yellow lights from a small café. Sea-spray brightens edges; slick wood, salt crusts, and faded hand-painted signs give a tactile, lived-in feel."
+        },
+        {
+            "name": "Tidewatch Lab (Greenhouse + Field Station)",
+            "visual_description": "A glass-walled greenhouse built into a converted boathouse, filled with salvaged instrumentation, potted marsh plants, and maps pinned to corrugated metal. Light is soft and diffused, green hues from plant beds warming the room. Dripping condensation, warm lamps at night, and the smell of damp soil make it an intimate, hopeful refuge amid the storm."
+        },
+        {
+            "name": "Voss Development Office / City Hall Annex",
+            "visual_description": "A sleek, mirrored glass facade facing the water, chrome detailing, and sharp angles. Interior lighting is cool and clinical: recessed LEDs, polished stone floors, and projected renderings of a flood-proof promenade. The exterior reflects sea and sky like a shifting canvas; at dusk it hums with lamplight and corporate banners."
+        },
+        {
+            "name": "Saltmarsh Wetlands (Restoration Site)",
+            "visual_description": "Low, spongy ground threaded with tidal channels and reed beds; colors range from russet marsh grass to deep green pools. Light slants across the wetlands during golden hour, long shadows and glowing seedheads, with the distant roar of the sea. The place feels fragile and ancient, alive with small birds and the subtle movement of water."
+        },
+        {
+            "name": "Storm-Battered Breakwater",
+            "visual_description": "A jagged line of concrete and rock where waves crash and spray arcs into the air. Overcast skies, spray forming halos in streetlights at night. Rusted signage and rope fences flap in wind; dramatic silhouettes of townsfolk huddled against wind set against white foam."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community vs. Development",
+        "Love and Sacrifice",
+        "Adaptation and Memory"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "The town rallies around a hybrid plan: living breakwaters and targeted engineered defenses. Maya and Aiden reconcile by finding complementary roles — she leads ecological projects, he guides local economic adaptation — and they become partners both personally and in community leadership."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise policy passes that protects the most vulnerable areas but requires relocations and economic shifts. The community survives with losses; Maya's plan is partially implemented but scaled-down. Maya and Aiden stay committed but strained by differing priorities — an honest, enduring love weathered by sacrifice."
+        },
+        {
+            "type": "Sad",
+            "summary": "Elias's seawall project is rushed through; short-term gains are celebrated, but a stronger-than-expected storm breaches defenses, causing severe damage and loss. The town fractures; Maya and Aiden drift apart amid blame and grief. The political victory proves hollow as the cost becomes clear."
+        },
+        {
+            "type": "True",
+            "summary": "A risky choice to expose corruption and document ecological evidence (possibly requiring Maya to sacrifice a personal relationship or her safety) triggers a wider investigation. The corrupt project is halted, and systemic policy change begins. The ending is morally resolute: the town must rebuild slowly, and Maya's personal life is altered — she gains systemic impact at the expense of a simple, private future."
+        }
+    ],
+    "estimated_chapters": 6
+}

@@ -1,0 +1,255 @@
+label chapter17:
+
+    # [Scene: Repaired Levees | Dawn — after the storm]
+
+    scene bg ch14_77428d_1 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, rising strings; a gentle, hopeful motif]
+    # play sound "sfx_placeholder"  # [Sound: Distant gull calls, water slapping against sand, the steady hum of portable pumps winding down]
+    "You wake to the smell of wet concrete and seaweed. Your jacket is still speckled with last night's rain; your notebook feels heavier in your bag with the pages you never quite finished. From where you"
+    "stand on the levee—climbing a narrow ladder to get a run of sightlines—you can see the work done last night: cranes parked like mechanical crustaceans, freshly set modular segments stitched together by municipal crews and the"
+    "visiting specialists' teams. The breach that had threatened the Old Quay is a scar now seam-closed, a wound dressed and bound."
+    show aria_navarro at left:
+        zoom 0.7
+
+    aria_navarro "They moved fast. Faster than I expected. Faster than the town trusted they'd move."
+    "A group clusters below: Mateo Hale, grease still on his forearms; Jun with a sensor board slotted under one arm; Sora Lin leaning against a piling, eyes on the water. Nearby, Elena speaks low to a"
+    "woman in navy—clearly one of the regional specialists—while the mayor checks notes on her tablet. The air carries the metallic tang of new steel and the sweet, oily smoke of hot coffee from a field kettle"
+    "someone set up for crews."
+    hide aria_navarro
+
+    scene bg ch14_77428d_2 at full_bg
+
+    menu:
+        "Step down to speak with the lead specialist, hands outstretched":
+            "You descend the ladder, breath visible in the cool morning, and offer your hand before words. The lead specialist studies your palm for a long beat—then takes it with a practiced, careful warmth."
+        "Hang back and let Mateo make first contact":
+            "You stay above, letting Mateo thread through the crew. He moves like a presence that takes the room's temperature down; the lead specialist nods and goes to him, and you watch their shoulders ease a fraction."
+
+    # --- merge ---
+    "The conversation with the lead specialist begins in earnest."
+    "The specialist you meet is taller than you pictured, with a cropped gray braid and a municipal badge that reads: Regional Coastal Resilience Unit. She speaks with a voice that layers authority and apology, used to explaining emergency measures to wary communities."
+
+    "Dr. Nia Alvarez" "Aria—thank you. The crews stabilized the breach while your people kept the perimeter safe. We couldn't have secured the foundation lines without the local teams clearing the access points."
+    show aria_navarro at left:
+        zoom 0.7
+
+    aria_navarro "We cleared them because we couldn't afford any delay. But—' (you feel the 'but' like a stone in your throat) '—we need to make sure what you build here does not overwrite how this town lives on these shores."
+
+    "Dr. Nia Alvarez (tilting her head)" "That's not our intention. We're here to stabilize and advise, not to take over. Our mandate is short-term emergency support, with handover plans to local governance. But we have resources that move faster than municipal budgets—crews, materials, satellite assessments. That's what happened last night."
+    "Mateo Hale, stepping close, folds his arms as if against wind. His voice is low but steady; the mechanical logic you love in him sits at the edges of his words."
+    show mateo_hale at right:
+        zoom 0.7
+
+    mateo_hale "You got the breach closed. That's a fact. We didn't have the manpower. But some of us—' (he glances at you) '—want to be present in the choices about materials and geometry. There are details that matter when tides fold under a certain wind."
+
+    "Dr. Nia Alvarez" "Absolutely. We'll review specs with your engineering leads. We want to incorporate local constraints."
+    "Sora Lin, not one to let a quiet exchange alone, crosses their arms and steps into the circle with a bristling smile that doesn't reach their eyes."
+    show sora_lin at center:
+        zoom 0.7
+
+    sora_lin "That's good to hear. 'Incorporate' is a soft word for 'listen to.' Last time a fancy wall went up without consultation, we lost a fish lane and my cousin's net beds. We can't afford a repeat."
+
+    "Dr. Nia Alvarez (presses her lips, the moment stretched)" "I know there is history here—regrets. I'm not asking you to trust us blindly. I'm asking for a chance to prove that technical assistance can be accountable. We propose a short memorandum that defines roles and oversight—signed by the mayor and a community council. It binds our team to local-led monitoring."
+    "Jun, always the technician, resurrects a brittle grin and waves a palmful of small sensor chips like a peace offering."
+    hide aria_navarro
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "We can stream data to a public board—open-source. If the specs change, the sensors will show it. Transparency by design."
+    "You breathe in. The pumps' hum, the tide ticking against the pilings, the pattern of people's faces around you—all of it says the town is safe for this morning. It's easy to be convinced by the"
+    "math of stabilization: reduced flood risk, fewer homes needing evacuation, less immediate loss. It is equally true that 'safe for now' can calcify into 'decided for us' unless constrained."
+    hide mateo_hale
+    show aria_navarro at right:
+        zoom 0.7
+
+    aria_navarro "This is the trade—speed that saves versus the slow building of authority that keeps us human. Both are urgent. Both are true."
+    hide sora_lin
+    hide jun_park
+    hide aria_navarro
+
+    scene bg ch14_77428d_3 at full_bg
+    "Conversations break into small clusters. Aria Navarro and Mateo Hale walk the line together, feet finding the same rhythm on the rough concrete. He points to a seam, fingers tracing a line of sealant."
+    show mateo_hale at left:
+        zoom 0.7
+
+    mateo_hale "They used a composite in the seams—lightweight, quick to cure. It should flex with tides. If we pair it with sumped drains at intervals, we can control pore pressures."
+    show aria_navarro at right:
+        zoom 0.7
+
+    aria_navarro "And the material leaches? Or is it inert?"
+
+    mateo_hale "Tests say low leach, but local sediment chemistry can surprise you. We should push for a monitoring period before permanent authorization. And sensors—Jun's rig—must be integrated."
+    "Mateo Hale studies your face, eyes folding concern into a practical plan."
+
+    mateo_hale "I want to make sure the community is in the loop. I can sit with Dr. Alvarez during spec reviews. We need to translate their timetables into the town's nights and market days."
+
+    "Aria Navarro (softly)" "Thank you. It's ... good to have someone who can marshal the technical language into the town's time."
+    "Mateo Hale gives a small, almost-smile that looks more vulnerable than his usual reserve permits."
+
+    menu:
+        "Ask Mateo to lead the technical review with you":
+            "You find the words: 'Lead with me.' He nods, that quiet promise settling into his shoulders. He already begins to plan in the space between you—calls, checklists, the ease of two minds mapping a solution."
+        "Offer to co-host a community forum where Dr. Alvarez presents, and you translate":
+            "You suggest a forum, visualizing the rooftop greenhouse lit with string lights and the town gathered. Dr. Alvarez’s eyes soften at the image; she agrees more readily than you expect."
+
+    # --- merge ---
+    "Plans form for both technical review and a public forum."
+    "You arrange the first public forum for that evening atop the Rooftop Greenhouse. The idea is simple: a live presentation of what was done, open data streams, and a panel of local stewards who will sit"
+    "with the specialists to review next steps. You like the word 'stewards' for tonight—it's less precious than 'owners' and less alien than 'managers.'"
+    # [Scene: Pier | Midday — logistics and paperwork]
+    hide mateo_hale
+    hide aria_navarro
+
+    scene bg ch14_77428d_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low conversation, marker squeaks, the clack of a camera tripod as a young reporter documents the exchange]
+    # play music "music_placeholder"  # [Music: Warm pizzicato, a hopeful rhythm]
+    "Mayor Isla Cortez convenes a quick table at the pier. She stands like someone grafted into civic office; efficient, with a grace that says she can balance a budget and a barking dog in the same breath."
+    show mayor_isla_cortez at left:
+        zoom 0.7
+
+    mayor_isla_cortez "We need to formalize oversight. The specialists offer crews and materials—welcome. We also need a memorandum of understanding—clear language that preserves the town's procedural rights."
+    "Dr. Nia Alvarez unfolds a tablet and scrolls through a draft. Her tone is conciliatory; she is used to this room."
+
+    "Dr. Nia Alvarez" "Our draft is meant to be a starting point. We recognize municipal primacy and propose a joint monitoring clause, turnover timelines, and a conflict-resolution mechanism with an independent arbiter."
+    "Sora Lin snatches the tablet like a child reaching for a toy—only more pointed—and skims the page with a practiced, impatient eye."
+    show sora_lin at right:
+        zoom 0.7
+
+    sora_lin "Where's the clause on ecological impacts? Where do you address community remedies if a mitigation fails? Those lines are easy to say later; they're hard to write in when the machines are running."
+
+    "Dr. Nia Alvarez (meeting Sora's gaze)" "Put them in. We can include ecological thresholds and stipulated remedial actions. We can fund a small local restoration unit as part of the handover."
+    "Sora Lin's face shifts minutely—hope and suspicion braided together."
+
+    sora_lin "We need guarantees that the restoration unit is locally staffed and budgeted for beyond your timeline. Otherwise, it's a bandage."
+    show mayor_isla_cortez at center:
+        zoom 0.7
+
+    mayor_isla_cortez "Agreed. We also propose rotational oversight—community reps join the daily briefings and have veto power on changes that affect fishing lanes and market access."
+    "Jun waves a hand, practically beaming at the kettle of community energy."
+    hide mayor_isla_cortez
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "And transparent telemetry. All sensor APIs public. If Dr. Alvarez's team tweaks a parameter, the town sees it in real time—no surprises."
+
+    "Dr. Nia Alvarez" "We can commit to that. Open telemetry and a joint dashboard developed with your tech people."
+    "You feel the air change as edges round. The pace slows—words are placed like stones across a stream so everyone can cross."
+    hide sora_lin
+    show aria_navarro at right:
+        zoom 0.7
+
+    aria_navarro "It's bureaucratic and beautiful—the slow craft of building trust into contract language. This is how technical aid cedes power: not by asking permission, but by embedding oversight into the work itself."
+
+    menu:
+        "Suggest a cultural forum—songs, stories, and testimony included in the MOU as a formal step":
+            "You pitch the idea, thinking of Elena's voice and the rooftop greenhouse. The mayor laughs softly, but Sora lights up; Dr. Alvarez nods, surprised and pleased by the idea's sincerity."
+        "Push for immediate signature to lock protections now":
+            "You feel the urge to secure everything in ink before the specialists leave. But when you push, the table tightens—signatures rushed can breed resentment. You feel the cost of haste like a small sourness in the back of your mouth."
+
+    # --- merge ---
+    "The memorandum evolves with cultural and procedural safeguards."
+    "Words get typed into the tablet. Signatures are discussed not as finality but as scaffolding. The memorandum emerges as a living thing: short-term stabilization goals, a clause for independent ecological audits, local staffing commitments for restoration"
+    "budgets, mandatory open-data integration with community dashboards, and a joint oversight council that includes equal community representation."
+    "Elena, standing a little apart with hands in the pockets of her apron, watches the draft like someone monitoring a tide line. She catches your eye and squeezes your hand. That pressure says more than any"
+    "signature could: validation, expectation, and the tacit warning that towns survive by mutual care, not by a list of good phrases."
+    hide mayor_isla_cortez
+    show elena_navarro at center:
+        zoom 0.7
+
+    elena_navarro "This needs teeth, niña. Paper without teeth is a fishbone."
+
+    "Dr. Nia Alvarez" "We can add enforcement clauses tied to our funding—release of tranche payments contingent on compliance and independent audits."
+    hide jun_park
+    show mayor_isla_cortez at left:
+        zoom 0.7
+
+    mayor_isla_cortez "And dispute resolution anchored to local customary processes first, then outside arbitration only as last resort."
+
+    "Sora Lin (quietly)" "If this is binding, we have to keep it public. The town needs rituals to mark oversight—open forums, planting days, audits with community feasts."
+
+    "Aria Navarro (smiling despite the weight)" "Make it visible, make it cultural. Make it ours."
+    hide aria_navarro
+    hide elena_navarro
+    hide mayor_isla_cortez
+
+    scene bg ch14_77428d_5 at full_bg
+    # play music "music_placeholder"  # [Music: Strings lift into a gentle swell; the mood is tentative, hopeful, ascending]
+    "Later, as the sun drops lower and the town's routine reasserts itself—vendors setting up drying racks, kids skipping along the quay—the memorandum draft sits under a paperweight on the Mayor's table. The specialists are packing supplies"
+    "into trucks; the crews who came with them polish tools and share farewell nods with local workers. There is relief in the air so tangible it tastes of citrus and frying fish."
+    show aria_navarro at left:
+        zoom 0.7
+
+    aria_navarro "We bought time, and we turned a near-disaster into leverage. That feels like a small miracle. But miracles are fragile—the real work will be keeping this arrangement honest."
+    "Mateo Hale catches your elbow as you walk away from the pier. He looks at the horizon where the repaired levee meets the open water."
+    show mateo_hale at right:
+        zoom 0.7
+
+    mateo_hale "We did the right thing. The town didn't have to evacuate. We saved homes. Now we have to make sure the templates they bring don't become our cages."
+
+    aria_navarro "We will. We have a draft—and we have people ready to make sure it's more than paper."
+
+    "Mateo Hale (softly)" "And you'll lead the community side? I can take the technical liaison role. We'll cover both the heart and the hinge."
+    "Aria Navarro: (there's a small thrill at the offer; it is support without a demand) 'That would help. I don't want to be the only one holding this whole arc.'"
+    "Mateo Hale's hand brushes yours—a tiny, unspoken promise that is not a contract but something steadier."
+    # [Scene: Town Center | Twilight — the first cultural forum setup]
+    hide aria_navarro
+    hide mateo_hale
+
+    scene bg ch14_77428d_6 at full_bg
+    # play music "music_placeholder"  # [Music: A lullaby-like guitar; distant laughter and the cyclical rhythm of the tide]
+    "You stand at the back as the town trickles in: fishers in salt-stiff caps, schoolteachers with their satchels, Elena with a bundle of wrapped empanadas, and youth with hand-painted banners. Dr. Nia Alvarez takes a moment before speaking to bow her head slightly—the gesture carries respect rather than condescension."
+
+    "Dr. Nia Alvarez" "Tonight is about transparency. We will show what we did, why we did it, and what our proposed timelines are. We'll leave open the questions you bring. This is not our decision alone."
+    "A hand shoots up—Sora Lin's, of course—and the room laughs because Sora always seems to know the question before it's formed."
+    show sora_lin at left:
+        zoom 0.7
+
+    sora_lin "When does the town get to approve changes that affect fishing lanes? And how do we enforce the ecological replacements you promised?"
+
+    "Dr. Nia Alvarez" "Those questions belong in the memorandum—language we agreed to adjust. We will not change the coastal geometry without joint agreement. We also commit funding to a local restoration unit for three years—staffed locally and supervised jointly."
+    "Jun unspools a tablet and throws open a live dashboard; tide gauges, pore-pressure sensors, and the repaired seam's stress indicators animate across the screen. People's faces lean in; data becomes a new kind of story."
+    "Aria Navarro: (when it is your turn) 'We've always made plans here with both hands: one for tools, one for tradition. Tonight, we ask you to keep helping—on the technical timelines and the cultural ones. Keep us in the room when you make the calls.'"
+    "A murmur of assent ripples. The rooftop smells of soil and incense; the string lights make everyone's faces softer."
+    show aria_navarro at right:
+        zoom 0.7
+
+    aria_navarro "We averted the worst. We built a framework for accountability. It won't fix everything, but it creates a scaffolding for trust. That's rising—slow, tangible, communal."
+    "The conversation runs long: questions, clarifications, a small, heated exchange about whether the funds will cover lost nets, followed by a Sora-proposed community planting day that gets more applause than any clause in the memorandum. The"
+    "specialists answer, sometimes haltingly, sometimes with surprising humility. Each time they offer a technical term, someone translates it into a lived image: 'drainage nodes' become 'places the crabs will still cross'; 'material flex' becomes 'a wall"
+    "that breathes with the tide and doesn't cut the fish'."
+    hide sora_lin
+    hide aria_navarro
+
+    scene bg ch14_77428d_7 at full_bg
+    "You stand on the edge of the rooftop as the forum disperses. The town below starts to glow with lanterns. The repaired levees hold like a promise. The specialists will leave in a few days, and the memorandum will travel with their teams—signed, amended, and witnessed."
+    show aria_navarro at left:
+        zoom 0.7
+
+    aria_navarro "This moment feels like the crest. We did not solve everything, but we shifted the arc. The real test is in the next months—did we make institutions that hold, or did we paper over power?"
+    "Mateo Hale joins you, and Sora Lin comes up the ladder behind him. The three of you watch the harbor breathe—light after dark, tide after tide."
+
+    "Sora Lin (soft)" "We made space tonight. Keep pressing, Aria. Make sure those rituals aren't just window dressing."
+    show mateo_hale at right:
+        zoom 0.7
+
+    mateo_hale "I'll take the technical reviews. I'll insist on independent audits. We'll make their mechanisms work in the town's time."
+
+    aria_navarro "And I'll keep the forums—and the feasts."
+    "They exchange a look that tastes like possibility."
+    # play music "music_placeholder"  # [Music: A single, sustained chord; the strings resolve upward]
+    hide aria_navarro
+    hide mateo_hale
+
+    scene bg ch14_77428d_8 at full_bg
+    show aria_navarro at left:
+        zoom 0.7
+
+    aria_navarro "For the first time in weeks, I feel a current under us that is steady enough to swim toward. We avoided evacuation. We bound outside help with local oversight. There is still friction—politics and history do not erase overnight—but tonight there is a rising: of trust cautiously earned, of structures that will be watched, and of communities with recourse."
+    "Page-turn thought: There will be negotiations—tightening language, testing commitments, ceremonial planting days that turn into auditing practices—but the town has bought its breath. The next hours and days will decide whether this breath turns into a steady rhythm."
+    hide aria_navarro
+
+    scene bg ch14_77428d_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter18
+    return

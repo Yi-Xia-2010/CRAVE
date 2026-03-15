@@ -1,0 +1,535 @@
+{
+    "title": "Tidebound Promises",
+    "summary": "You are Aiko Mori, a former urban climatologist turned community coordinator navigating a coastal metropolis in 2042 where technocratic geoengineering proposals from HelioCorp clash with grassroots resilience. The story follows choices between Elias’s community-led mutual aid and Dr. Rowan Hale’s centralized, fast-acting infrastructure. Beginning with hopeful cooperation and small wins (Rise), a crisis and ethical compromise precipitate a sharp collapse (Fall), and you must rebuild toward principled outcomes (Rise). Romance threads through the moral dilemmas, and multiple branching paths lead to four distinct endings: communal triumph, pragmatic sacrifice, systemic reform, or tragic martyrdom.",
+    "emotional_curve_type": "Cinderella",
+    "player_character": "Aiko Mori",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Plans",
+            "branch_designation": "Common",
+            "narrative_focus": "I introduce myself — Aiko Mori — and my daily rhythms: checking tide maps in my tattered leather notebook, threading a solar pendant through a rain-damp morning, pulling my olive-weatherproof jacket tighter. I describe the neighborhood’s battered geometry: patched concrete, tide lines on walls, Mina’s kitchen smoke, Elias hauling seedlings up to Verdant Terrace. My scientific training surfaces in small observations (salt crystallization on a jetty) and memories of being sidelined at the institute. I sense an approaching decision: HelioCorp has announced a pilot project, and Elias wants to lead a volunteer fortification. I wrestle with trust — my hazard models vs. the warmth of mutual aid. The chapter ends with an invitation: the community meeting at the Old Beacon tonight. It’s the first beat of hope; small triumphs feel possible.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryLow",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rowan Hale",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Tideward Promenade",
+                "Verdant Terrace",
+                "Old Beacon",
+                "HelioCorp Atrium"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Meeting at the Beacon",
+            "branch_designation": "Common",
+            "narrative_focus": "I narrate the community meeting at Old Beacon: neighbors spread a rumpled map, Mina passes bowls of soup, Sora tells a short, stinging history of the shoreline. Elias moves through the crowd, lighting faces with possibility. Dr. Rowan Hale’s representatives will present in a week; HelioCorp promises a fast-acting modular barrier and a data partnership. I weigh models in my head, imagining server-readouts in the Subbasement Data Lab and the sterile geometry of the HelioCorp Atrium. Rafi drops by, whispering about leaked memos and ambiguous clauses. The community’s immediate needs clash with my distrust of centralized power. I assert cautious pragmatism — offer to run a localized pilot of sensors and small-scale reinforcements as a compromise. The meeting’s energy is hopeful; hands clasp, maps exchanged.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "Low",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Sora",
+                "Rafi",
+                "Rowan Hale",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Old Beacon",
+                "Subbasement Data Lab",
+                "Verdant Terrace",
+                "HelioCorp Atrium"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Offer",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "HelioCorp announces a public forum at the glass atrium. Dr. Rowan Hale will attend; Elias urges direct confrontation, I plan a fact-based presentation. At the forum, Rowan presents glossy models: modular sea-sheild arrays and a cloud-seeding adjunct that could blunt storm surges. The crowd is dazzled; Mina looks conflicted. Rafi whispers of exclusivity and displacement clauses hidden in fine print. I face a moral calculus: sign a monitored partnership that ensures rapid infrastructure (and HelioCorp’s leverage over neighborhoods) or refuse and risk slower, risky grassroots measures. The chapter ends with a Major Decision (Logic Hub): whether to pursue a negotiated partnership with HelioCorp, commit wholly to Elias’s community mobilization, or attempt a hybrid — my open-data pilot with conditional oversight. My internal voice recognizes stakes in love and governance.",
+            "emotional_trajectory": "Rise / Fall",
+            "Valance": "Positive",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I respond to Rowan’s public offer and the neighborhood’s need?",
+                "options": [
+                    {
+                        "label": "We negotiate a conditional partnership with HelioCorp.",
+                        "consequence": "Opens Route A (pragmatic collaboration)",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "We refuse and double down on community resilience.",
+                        "consequence": "Opens Route B (grassroots path)",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "We propose a hybrid: open-data pilot with strict community oversight.",
+                        "consequence": "Opens Route C (balanced oversight)",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Rowan Hale",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "HelioCorp Atrium",
+                "Subbasement Data Lab",
+                "Tideward Promenade",
+                "Old Beacon"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Glass and Compromises",
+            "branch_designation": "Route A",
+            "narrative_focus": "I accept a conditional, negotiated partnership: HelioCorp will deploy a pilot modular barrier if we establish a jointly governed oversight charter. I negotiate clauses, insisting on open-data access and community seats. Rowan’s polished demeanor softens for a beat; he commends my rigor. The early days of the pilot are hopeful: HelioCorp crews install sensors while Verdant Terrace volunteers seed marsh grasses to buffer wave energy. Elias is uneasy but helps, planting seedlings with stubborn hands. My tattered notebook fills with procedural notes and uneasy compromises. Trust is building but taut. I feel seen by Rowan’s respect and pulled by Elias’s loyalty.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Aiko Mori",
+                "Rowan Hale",
+                "Elias",
+                "Mina",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Tideward Promenade",
+                "Verdant Terrace"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "The Breach",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "A sudden superstorm hits. Despite HelioCorp's pilot, an unexpected scouring current breaches a secondary levee near the Subbasement Data Lab. Sensors blink warnings; the atrium lights in the city dim. The crisis is intense and visceral: the lab’s servers risk catastrophic failure, Mina’s kitchen nearly floods, and volunteers scramble. Rowan’s rapid centralized protocols demand temporary evacuations and control of infrastructure; Elias rallies neighbors to hold lines and manually divert pumps. The emotional pressure explodes: my models contradict immediate mandates, and I must choose a critical course of action. This chapter is the climactic fall — panic, betrayal, and an ethical rupture.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I respond during the breach?",
+                "options": [
+                    {
+                        "label": "Authorize HelioCorp lockdown of critical infrastructure.",
+                        "consequence": "Centralization secures servers, but volunteers are denied access",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Lead the neighborhood to shore the levee now.",
+                        "consequence": "Possible data loss but immediate human protection",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Attempt to split resources — defenders here, technicians there.",
+                        "consequence": "Fragmented response risks both but preserves agency",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Rowan Hale",
+                "Elias",
+                "Mina",
+                "Sora",
+                "Rafi",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Subbasement Data Lab",
+                "Tideward Promenade",
+                "HelioCorp Atrium"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Aftermath (Route A Ending — Bittersweet Resolution)",
+            "branch_designation": "Route A",
+            "narrative_focus": "Regardless of which immediate action I picked, the result is complicated. The servers survive only because I authorized a partial lockdown while personally directing volunteer shore teams — a risky split that required my physical presence in both places. The pilot succeeds in preventing the worst systemic failure, lives are saved, but HelioCorp uses the emergency as legal cover to expand contractual controls. Neighborhood autonomy is reduced; some families face relocation under executive orders masked as temporary measures. My relationship with Elias strains: he accuses me of bargaining away local agency to placate Rowan; I argue I saved lives. The chapter explores guilt, relief, and fractured intimacy.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 5, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Rowan Hale",
+                "Mina",
+                "Sora",
+                "Rafi",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Tideward Promenade",
+                "Verdant Terrace",
+                "Old Beacon"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Seeds and Barricades",
+            "branch_designation": "Route B",
+            "narrative_focus": "I decline HelioCorp and throw myself into Elias’s plan: rapid mutual-aid fortifications, citizen-run sensor networks, and volunteer-led pumps. The mood is upswelling; we scaffold community power on Verdant Terrace, hand-cut lumber, and sun-bleached banners. Elias is radiant in overalls, shooting candid photos with his battered vintage camera, rallying cooks and anglers alike. Rafi digs into HelioCorp’s corporate filings and finds threads suggesting predatory clauses — fuel for speeches. Sora and Mina anchor nightly rotations at Old Beacon. I lead technical oversight with careful models, integrating low-cost sensor arrays and open-source tools documented in my tattered notebook. The route’s energy peaks with a public blockade of a proposed HelioCorp staging area; we feel both potent and precarious.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Verdant Terrace",
+                "Old Beacon",
+                "HelioCorp staging area"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "The Surge",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "A surprise tidal surge overwhelms improvised barricades. Volunteers frantically shore gaps; the Verdant Terrace faces inundation. Our decentralized pumps struggle; radio channels chatter with conflicting reports. Rafi uncovers leaked communications that show Rowan had contingency plans to curtail city access to certain infrastructures if \"public safety\" required. Panic rises. Elias insists on one course — immediate, all-hands reinforcement at a particular breach — while I can mathematically prove a staggered fallback strategy that redistributes volunteers to prioritize evacuation routes and food stores. The crisis forces a cliff choice: follow Elias’s direct charge (heroic but risky), implement my staged retreat to save many (strategic but leaving a neighborhood exposed), or attempt a risky simultaneous maneuver that could either hold everything or fail catastrophically.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to respond to the surge?",
+                "options": [
+                    {
+                        "label": "Join Elias in a direct all-hands defense.",
+                        "consequence": "Immediate heroism risks broader losses",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Execute a staged retreat and prioritize evacuations.",
+                        "consequence": "Saves many but leaves Verdant Terrace vulnerable",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Split teams for simultaneous defense/evacuation.",
+                        "consequence": "High coordination required; risk of both failing",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Verdant Terrace",
+                "Old Beacon"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Wake and Reckoning (Route B Ending — Happy Resolution)",
+            "branch_designation": "Route B",
+            "narrative_focus": "Our chosen tactic — a coordinated simultaneous maneuver split into focused defense and prioritized evacuations — works, albeit with bruises and loss of some rooftop beds. Elias is exhausted, laughing through tears as people are hoisted to safety. The neighborhood endures; we’ve solidified our systems and built an equitable aid pipeline that draws other districts into collaborative resilience. HelioCorp’s attempts at control are publicly challenged by Rafi’s reporting and Sora’s testimony; the company recalibrates its outreach, pressured by civic solidarity. My relationship with Elias deepens into a steady, mutual reliance. The ending is hopeful: local networks scale, HelioCorp is forced to negotiate transparently, and small lives are protected by citizen ingenuity.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 8, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Verdant Terrace",
+                "Old Beacon",
+                "Tideward Promenade"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Middle Ground",
+            "branch_designation": "Route C",
+            "narrative_focus": "I propose a hybrid: a HelioCorp-assisted pilot that is strictly governed by a community-municipal oversight board, with legal protections written into the contract and an open-data promise enforced by public watchdogs. Rowan agrees grudgingly; Elias is skeptical but participates in drafting committees. Mina insists on community job guarantees; Sora demands cultural protections for shoreline rituals. Rafi promises to monitor compliance. The pilot tests both modular barriers and citizen-run sensors; early collaboration generates hope. I balance my scientist’s exactitude with neighborly pragmatism, penning clause language in the margins of my tattered notebook.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Aiko Mori",
+                "Rowan Hale",
+                "Elias",
+                "Mina",
+                "Sora",
+                "Rafi",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Verdant Terrace",
+                "HelioCorp Atrium",
+                "Old Beacon",
+                "Subbasement Data Lab"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Two Fires",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The pilot faces simultaneous crises: a local storm tests the system, and leaked internal memos reveal a contingency that would prioritize HelioCorp’s global contracts over local autonomy in extraordinary events. The model’s success attracts political attention, and pressures mount. During the storm, a decision loop appears: Rowan pushes to activate an automated containment that would redirect water but close off certain neighborhood access routes, citing emergency mandate language. Elias wants an emergency neighborhood council to override the toggle. I can trigger the automated measure that nearly guarantees system integrity (and corporate leverage), manually delay to buy time for public input (risking system overload), or publicly expose the leaked memos now and force a larger political fight that could delay action. The storm’s urgency escalates the moral choice: speed vs. democratic process.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How to respond to the automated override and leaked memos?",
+                "options": [
+                    {
+                        "label": "Activate automated containment to preserve systems.",
+                        "consequence": "Save infrastructure but cede emergency control",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Delay activation to convene emergency community council.",
+                        "consequence": "Risk system overload but preserve democratic process",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Expose leaked memos publicly now.",
+                        "consequence": "Sparks political fallout and scrutiny; may delay response",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Rowan Hale",
+                "Elias",
+                "Rafi",
+                "Sora",
+                "Mina",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Subbasement Data Lab",
+                "Verdant Terrace",
+                "HelioCorp Atrium",
+                "Old Beacon"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Public Reckoning (Route C Ending — True Resolution)",
+            "branch_designation": "Route C",
+            "narrative_focus": "I choose transparency: I leak the memos through Rafi, convene an emergency council, and stall the automated override while enabling manual safeguards. The consequence is fierce: HelioCorp sues, public hearings convene, and political bodies are forced to legislate emergency oversight. The short-term result is chaotic — temporary disruptions and legal battles — but long-term, it forces institutional reform: binding community vetoes, transparent emergency protocols, and a national mandate for open-data infrastructure. I sacrifice professional acclaim from corporate quarters and accept targeted career disruption, but the policy victory institutionalizes community governance. My relationship with Elias is complicated but durable.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 11, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Rafi",
+                "Elias",
+                "Rowan Hale",
+                "Mina",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Subbasement Data Lab",
+                "Old Beacon",
+                "Council chambers"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Tension on the Edge",
+            "branch_designation": "Route D",
+            "narrative_focus": "I attempt a less choseable path that refuses all formal alliances and instead pursues aggressive public exposure and sabotage of any centralized deployments. I rally a radical wing, pushing for civil disobedience and disruptive actions to prevent HelioCorp's footprint. The city hums with desperate energy; Elias supports the direct action but I worry about moral cost. The mood is high-velocity: midnight meetings, banner drops, and tense run-ins with municipal police. I’m driven by anger at being sidelined and fear of losing the commons. This route escalates into riskier choices and sets up a potential tragic consequence.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option D (implicit alternate path)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 14,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "City streets",
+                "Old Beacon",
+                "Subbasement Data Lab"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Catastrophe",
+            "branch_designation": "Route D / Split",
+            "narrative_focus": "During a high-risk direct action aimed at disabling a HelioCorp control node near the Subbasement Data Lab, an unforeseen failure triggers a cascade: a compromised valve misdirects water into the lab. Attempts to avert disaster fail; the lab floods rapidly. I rush in to manually recalibrate valves and stabilize servers, but the scenario escalates beyond human response time. In a tense, tragic scene, I sacrifice myself to physically secure a failing panel so automated failsafes can be engaged; my last moments are intimately detailed, with images of my silver streak plastered with wet salt, my worn boots slipping, Elias’s hands reaching for me. The chapter is the fall — terror, collapse, and self-sacrifice for a greater good.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 13",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "In the moment of failure, do I:",
+                "options": [
+                    {
+                        "label": "Secure the panel myself, risking my life.",
+                        "consequence": "Systems saved; I perish",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Pull Elias and the team out to prioritize evacuation.",
+                        "consequence": "Live but systems lost",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Attempt a risky manual override with team assistance.",
+                        "consequence": "High chance of injury for multiple people",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Subbasement Data Lab",
+                "Tideward Promenade",
+                "Old Beacon"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Tide’s Echo (Route D Ending — Sad / True)",
+            "branch_designation": "Route D",
+            "narrative_focus": "The final chapter depends on the split: if I secure the panel (Option A), I die as the community mourns; HelioCorp faces public outcry and eventual reform after my death galvanizes policy change. If I pull Elias and live (Option B), the system fails, and many are displaced; the personal consequences are a life marked by survivor guilt and lost trust. If I attempted a team override (Option C), we survive but with permanent injuries and strained relationships. In all sub-outcomes, my action, whether sacrifice or survival, catalyzes public reckoning: my notes become manifestos; Rafi’s reporting transforms grief into policy; Mina and Sora carry forward memory and cultural continuity. The chapter focuses on legacy — what it means to be remembered and how love molds institutional change.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral (if survival) / VeryPositive (if reforms) / VeryNegative (if death)",
+            "Arousal": "VeryHigh (climax resolved) / High (epilogue)",
+            "entry_condition": "From Chapter 14, Option A/B/C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aiko Mori",
+                "Elias",
+                "Mina",
+                "Rafi",
+                "Sora",
+                "HelioCorp"
+            ],
+            "locations_used": [
+                "Old Beacon",
+                "Subbasement Data Lab",
+                "Courthouse"
+            ]
+        }
+    ],
+    "remarks": "Possible endings referenced in the outline: Bittersweet Ending (Route A - pragmatic victory with emotional cost), Happy Ending (Route B - community triumph), True Ending (Route C - institutional reform via transparency), Sad/True Ending (Route D - sacrifice or heavy cost leading to systemic change). The global emotional curve is Rise → Fall → Rise (Cinderella).",
+    "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+    "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)"
+}

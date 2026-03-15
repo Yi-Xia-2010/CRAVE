@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through intimate, human-scale stakes and merge it with the Romance genre by making environmental restoration the crucible that tests and bonds people. The story centers on a coastal community facing rising seas and a proposed development that promises short-term jobs but long-term ecosystem loss. The core conflict: duty to the ecosystem and community versus economic survival and personal longing. Romance arises naturally as trust, empathy, and opposing worldviews reconcile (or fail to), letting player choices decide whether love aligns with compromise, sacrifice, or stubborn resistance.",
+    "setting": "A small mixed-economy coastal town and its surrounding marshes and inshore waters in the near future. Climate impacts—higher tides, stronger storms, salt intrusion—are visible and shaping daily life. The atmosphere balances a bittersweet coastal beauty with persistent anxiety: gulls, mudflats, boarded storefronts, and the hum of debate at the town hall.",
+    "visual_style": "Soft watercolor realism; coastal palette (teals, driftwood browns, oyster grays, storm-gold highlights); cinematic backlighting; textured brushwork for backgrounds; character designs with subtle anime influence for expressive faces and clear silhouette reads.",
+    "main_characters": [
+        {
+            "name": "Mara Voss",
+            "role": "Protagonist",
+            "personality": "Focused, compassionate, methodical and fiercely curious. She balances scientific rigor with a deep emotional investment in place and people. She can be stubborn and bears guilt for perceived past failures, but she is also the group's moral compass.",
+            "appearance_features": {
+                "hair": "Dark sea-glass green bob, chin-length, with pale salt-streak highlights and slightly uneven bangs from wearing a hood",
+                "eyes": "Storm-gray with tiny teal flecks; soft, observant shape that widens when she’s excited or worried",
+                "clothing": "Layered field-ready outfits: faded olive softshell jacket with mud-stitched patches, high-waisted cropped cargo pants, well-worn rubber boots with custom laces, and sundresses beneath for town days",
+                "accessories": "A small coral pendant worn on a braided cord, a weathered waterproof field notebook with stickers, a wrist-worn multi-sensor band for data logging"
+            },
+            "goal": "Design and implement a living-shoreline restoration that protects the marsh while sustaining the town’s fisheries and livelihoods.",
+            "background_story": "Grew up in the town and left to study marine ecology. Returned after a destructive storm to help her family and community. She feels responsible to prove science can coexist with local economies and to reconcile with an estranged parent who still fishes.",
+            "emotional_trait": "Strength: deep empathy and quiet resilience. Flaw: internalizes blame and hesitates to ask for help until crises force her to."
+        },
+        {
+            "name": "Elias \"Eli\" Calder",
+            "role": "Love Interest",
+            "personality": "Warm, pragmatic, grounded; a practical craftsman who prefers action to theory. He’s wry and protective of his community, suspicious of outsiders at first but generous once trust is earned. He navigates loyalty to tradition and openness to new methods.",
+            "appearance_features": {
+                "hair": "Sun-bleached sandy brown, slightly curly, kept a little long at the nape and often tamed back with a band",
+                "eyes": "Warm amber, slightly hooded with laugh lines, quick to soften",
+                "clothing": "Salt-stained flannel shirts layered under a canvas boatmaker’s vest, cuffed work jeans, patched knee pads and thick-soled deck shoes",
+                "accessories": "A small brass compass on a cord, a leather cuff engraved with his boat’s name, and a sketchbook full of hull designs and tide notes"
+            },
+            "goal": "Protect his family’s livelihood and the town’s economy while exploring sustainable alternatives that keep people working on the water.",
+            "background_story": "Born into a multi-generation family of boatbuilders and fishers. He’s watched neighbors lose homes and seen regulations come and go. Initially skeptical of scientists, he slowly becomes an active collaborator as restoration proves to create new income streams.",
+            "emotional_trait": "Strength: practical optimism and loyalty. Flaw: fear of change that threatens immediate survival, which sometimes makes him resist risky solutions."
+        },
+        {
+            "name": "Cassandra \"Cass\" Rey",
+            "role": "Antagonist",
+            "personality": "Charismatic, sharply strategic, and persuasive. She presents as urbane and solution-oriented, promoting pragmatic economic development. Underneath, she’s driven by a need to secure results and control uncertainty, shaped by loss.",
+            "appearance_features": {
+                "hair": "Sleek black hair cut into a long bob with a single deliberate silver strand at the temple",
+                "eyes": "Clear ice-blue, precise and assessing; her gaze is often steady and evaluative",
+                "clothing": "Tailored navy pea coat or a smart, weatherproof trench over minimalist business-casual ensembles; polished leather ankle boots",
+                "accessories": "A slim digital cuff that manages her schedule and contracts, an engraved silver lighter, and an architect’s set of rolled renderings"
+            },
+            "goal": "Deliver a large coastal development project (promised jobs and a protective sea wall) that will revitalize the town economically and validate her career record.",
+            "background_story": "A planner born in the city whose childhood home was damaged by a storm; she believes engineered, large-scale solutions shield communities. She sincerely believes her plan will help the town but is willing to leverage political pressure and media to get results.",
+            "emotional_trait": "Strength: decisive confidence and leadership. Flaw: pragmatic detachment that can blind her to cultural and ecological nuance; a fear of failing to produce tangible outcomes."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Nia Voss",
+            "relation_to_main": "Younger sister of Mara",
+            "appearance_summary": "Short curly dark hair, energetic hands, often in bright raincoats and mismatched boots.",
+            "function_in_story": "Represents the next generation and everyday consequences of choices; pushes Mara toward community-first solutions and personal openness."
+        },
+        {
+            "name": "Old Tomas Calder",
+            "relation_to_main": "Eli’s uncle and town elder",
+            "appearance_summary": "Weathered face with deep-set crow’s feet, white crewcut, patched fisherman’s sweater and a yellowed cap.",
+            "function_in_story": "Provides historical memory, practical wisdom, and a barometer for the town’s mood; sometimes a voice of reluctant tradition and sometimes surprising adaptability."
+        },
+        {
+            "name": "Mayor Rosa Alvarez",
+            "relation_to_main": "Town mayor and decision-maker",
+            "appearance_summary": "Sharp, tired eyes, often in practical blazers with rolled sleeves and a lapel pin of the town crest.",
+            "function_in_story": "Holds the decisive political power; balancing re-election pressures, she is courted by developers and activists alike."
+        },
+        {
+            "name": "Rina Park",
+            "relation_to_main": "NGO coordinator, friend and occasional rival to Mara",
+            "appearance_summary": "Practical field vest, braided hair, large polarized sunglasses she pushes up on her head.",
+            "function_in_story": "Brings outside funding, media savvy, and friction when top-down NGO approaches clash with local needs; serves as an ally who pushes hard for visible wins."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harbor's Reach (town center)",
+            "visual_description": "Low-slung clapboard storefronts with flaking paint, bunting lines across the square, and spray-silvered cobblestones. Late-afternoon light falls warm and golden, long shadows stretching from piled lobster crates. Weather: frequent wind and salt haze; palette of oyster white, rust, and sun-bleached wood. Background art should show a mix of boarded windows and newly painted signs—an uncertain optimism."
+        },
+        {
+            "name": "Willowmarsh (the marsh and tidal flats)",
+            "visual_description": "Expansive marsh with reeds bending in wind, water channels reflecting a quickly-changing sky. Lighting often diffuse—overcast with moments of dramatic sunbreaks casting speckled gold across water. Colors: deep greens, muddied ambers, pale silvery-blue pools. Atmosphere: quiet, alive with birdcalls and the distant hiss of tides; fog can roll in for moody, intimate scenes."
+        },
+        {
+            "name": "Aster (research skiff and dock laboratory)",
+            "visual_description": "A patched skiff and a small modular dock lab: flaking metal, ropes, sample jars lined on shelves, and soft LED lamps in the evenings. Interior lighting is warm and utilitarian; exteriors catch blinking navigation buoys and reflected sunset. The sense is tactile and makeshift but purposeful."
+        },
+        {
+            "name": "Azure Crescent Development Site",
+            "visual_description": "Cleared headland with concrete pylons and survey markers, the skeletal outline of a sea wall and raised boardwalks. Bright corporate banners flutter; heavy machinery casts long industrial silhouettes at dusk. Palette: cold steels, corporate teal, and tar-black earth, illuminated by harsh floodlights at night for tense scenes."
+        },
+        {
+            "name": "The Glasshouse (abandoned community greenhouse)",
+            "visual_description": "A glass structure mottled with salt spray and moss; inside, shafts of light carve through glass panes, catching overgrown vines and puddles on flagstone. It feels like a memory—sunlit and a little eerie—perfect for intimate conversations and quiet reconciliations."
+        },
+        {
+            "name": "Town Hall / Meeting Room",
+            "visual_description": "A rectangular room with rows of mismatched chairs, a dais with a worn wooden podium, and a bank of windows facing the harbor. Lighting is dependent on crowd mood: warm and crowded during optimistic rallies, stark and fluorescent during heated hearings. Noticeboards with posted flyers and tide maps create textured detail."
+        }
+    ],
+    "theme": [
+        "Community resilience",
+        "Trade-off between short-term economy and long-term ecology",
+        "Love as a force for compromise and moral clarity",
+        "Responsibility to place and future generations"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Through persistent community organizing and clever hybrid solutions (a living shoreline plus small-scale raised docks), Mara and Eli secure a compromise: the developer modifies plans to protect core marshes, new green jobs arise, and Mara and Eli form a committed partnership grounded in shared purpose."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A negotiated agreement saves portions of the marsh but allows limited development on less-sensitive land. Economic stability returns slowly, but some heritage sites are lost. Mara achieves a scientific and legal victory but the scars of concessions linger. The romance survives, tempered by the knowledge that not all losses were avoided."
+        },
+        {
+            "type": "True",
+            "summary": "Mara prioritizes the marsh’s ecological needs and leads a principled resistance that halts the development legally, but the town suffers short-term economic hardship. Eli, fearing his family’s survival, parts ways to seek work elsewhere. The ending rewards environmental integrity and moral clarity but accepts personal sacrifice—an honest, consequential outcome."
+        },
+        {
+            "type": "Sad",
+            "summary": "Development proceeds largely unmodified after political maneuvering and fracturing local support. The marsh is irreversibly altered; the town's character shifts and many residents leave. Mara and Eli’s relationship collapses under the strain of blame and unmet promises, leaving a somber reflection on missed opportunities."
+        }
+    ],
+    "estimated_chapters": 6
+}

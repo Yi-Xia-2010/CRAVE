@@ -1,0 +1,232 @@
+label chapter15:
+
+    # [Scene: Arcology Development Site | Late Afternoon — Overcast with salt haze]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Soft piano with hopeful undertones; a low sustained cello threads beneath]
+    # play sound "sfx_placeholder"  # [Sound: Distant hum of generators; seagulls, faint traffic, a loose banner flapping]
+    "Narration"
+    "You come to the site with the satchel heavy at your shoulder and the brass compass warm against your palm. The scaffolding eats the horizon where houses once stitched the shoreline together. Up close the concrete"
+    "is still fresh — a sheen that rejects salt and memory — and the air tastes of dust and salt, sharp on the tongue."
+    "You move quietly between cones and temporary floodwalls. For a moment you are cataloguing by habit: the angles of a foundation, the placement of an access ramp, the way light settles on poured stone. Then your"
+    "eyes land on small, human things — a child's chalk drawing half-scrubbed on a temporary barrier, a porch swing gone; a narrow alley where a 'For Lease' sign swings like a pendulum. Your navy jacket feels"
+    "suddenly thin not because of the wind, but because everything that sheltered you seems thinner now."
+    "Narration — Internal"
+    "You should have anticipated compromises. You were the one who measured them. But anticipation and acceptance are not the same. Some losses were ledgered in meetings with numbers; others were not, and they arrive as a"
+    "kind of weather — sudden and damp. Whether the pilot was photographed as quaint failure, or whether the pilot was folded into glossy investor reels and rebranded as scalable resilience, the result is the same on"
+    "the ground: porches emptied, murals painted over with corporate grey, and neighbors who used to greet you by name looking away."
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Your own footsteps; a distant shouted instruction cut off by wind]
+
+    menu:
+        "Pick up the sun-bleached postcard wedged in gravel":
+            "You slide a thumb over a smudged ink heart and fold the postcard into your satchel, the paper brittle but keeping a story. For a breath you feel connected to what used to be — a private relic you tuck against maps and plans."
+        "Leave the postcard and move on":
+            "You step past the postcard as if stepping through a small funeral. Leaving it feels like letting a story rest; it weighs on you anyway, a quiet accusation."
+
+    # --- merge ---
+    "Continue the narrative at the pilot site near the shoreline."
+    # [Scene: Pilot Site (near shoreline) | Late Afternoon — Tide low, wind at your back]
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft lapping of water; the creak of wet ropes]
+    "Narration"
+    "The pilot site is quieter than you expected. Frames that were once a hub of frantic hands and warm tea now wear a kind of clinical silence — or, alternately, a staged quiet, as if the"
+    "cameras left but the narrative remained. You can feel both versions: the raw, grimed reality of volunteers who worked nights and the curated image investors will prefer. You let both sit in the same space; your"
+    "training has taught you to hold contradictions, but your chest still tightens."
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft click of a tablet; his footsteps measured]
+    "Narration"
+    "Kai Solano is there, leaning on a rusted railing, mouth compressed. When he turns, his face is a shutter — grief folding quickly into a blade of anger. He does not move to embrace you. You are not surprised; some wounds are still too hot."
+    show kai_solano at left:
+        zoom 0.7
+
+    kai_solano "You know what they called it in the socials? 'Charming coastal experiment.' Charming. As if we were an aesthetic, not people."
+    show aria_marin at right:
+        zoom 0.7
+
+    aria_marin "They'll put anything in a headline. They didn't see the nights, Kai. They didn't see the volunteers."
+
+    kai_solano "No. They didn't. They saw a photo. That's all they ever needed. You stood at meetings, Aria. You pitched process. Process doesn't stop a crane."
+
+    aria_marin "I know. I know what got done and what didn't. I led the logistics. I held the timeline. But I also—' [faltering, searching for language that isn't a ledger] '—also hoped for something different. We all did."
+
+    kai_solano "Hope isn't a defense against bulldozers. Hope isn't legal counsel. Hope isn't equity."
+
+    aria_marin "No. But hope is what made people show up at three in the morning to keep pumps running. It's what got the seedlings in the ground. It doesn't excuse what failed, but it's not nothing."
+
+    kai_solano "So what is it, Aria? A story to sell? A stopgap?"
+
+    aria_marin "It's a start. And starts can be reclaimed. If we let this be only a photo op, we fail again. If we don't, we at least keep some of what matters — the murals, the markets, the stories."
+
+    kai_solano "You're good with words tonight."
+
+    aria_marin "Words are what I was taught to make plans with. I can put them to use or I can let them pity us. Which would you have me do?"
+
+    kai_solano "I don't know. I just—' [turns away] 'Be careful. Promise me you won't let them tidy our grief into a nice narrative."
+
+    aria_marin "I won't let them."
+    "Narration — Internal"
+    "His anger is not only at the companies; it is at every system that converts human loss into efficiency diagrams. You can't soothe that with a timeline. You know you can offer something else: witness, accountability,"
+    "a process that refuses to let memory be paved over. It is imperfect comfort, but it is something."
+    show noah_vega at center:
+        zoom 0.7
+
+    noah_vega "Aria. Kai. I—' [pauses as if choosing tone] 'I wanted to speak in person."
+
+    aria_marin "This is not the kind of talk that fits in a construction schedule, Noah."
+
+    noah_vega "You're right. And for that, I'm sorry. The company moved faster than it should have. There were—' [gestures, helpless with corporate language] '—operational pressures, contractual obligations. But I want to say I regret how it landed. I regret lives disrupted."
+
+    kai_solano "Regret doesn't put your neighbor back in their home, Vega."
+
+    noah_vega "I know. I know. That's why I'm proposing —' [flips his tablet, fingers skimming documents] '—an accelerated fund for relocation assistance, commitments for cultural heritage panels in the new development, and long-term community advisory seats. Concrete steps."
+
+    aria_marin "Steps that come after the fact. After houses are leveled, after people move out."
+
+    noah_vega "It's not the order I would've wanted. I want to be better at anticipating harm. I want to build mechanisms that are compensatory, not apologetic. I am asking — will you help shape these covenants so they are binding?"
+    "Narration — Internal"
+    "His apology is measured and swaddled in metrics. It is sincere in tone but insufficient in the way apologies often are when they come too late. Part of you hears the engineer's itch to solve through"
+    "design — another part hears the loss that cannot be engineered back. You weigh his offer as you do every proposal: for its capacity to do good now, and for the precedent it sets later."
+
+    aria_marin "Words and funds and panels are tools. They can help. But they are not the thing we lost. If you want me to help, Noah, you have to let the process center people — real, binding protections, audits of displacement, and reparations that are not optional optics. Transparency. Restitution."
+
+    noah_vega "You tell me what transparency looks like. I will push it up the chain."
+
+    kai_solano "Make sure 'push' isn't another corporate euphemism."
+
+    noah_vega "I will. I'll take your skepticism as leverage."
+    hide kai_solano
+    hide aria_marin
+    hide noah_vega
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Minor chord resolves into a warmer progression, like sunlight through cloud]
+    "Narration"
+    "Noah's promises will mean labor: hearings, audits, lawyers, community monitors. It will be a long, public struggle. You imagine it like planting mangroves in a storm — heavy, hands-on, and slow. The town will change shape;"
+    "some people will leave, some will come back, others will find new work. The texture of neighborhoods will be altered. But the option of reparative work exists now on the table. It is imperfect. It is"
+    "necessary."
+    # [Scene: Boardwalk | Early Evening — Wind colder, lamplight flickering on wet wood]
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind, distant laughter of unfamiliar faces, the clang of a maintenance cart]
+    "Narration"
+    "You walk the boardwalk as the sun leans away. The town still hums with commerce; cranes and new signage promise tax revenue, insurance, and supposedly safer streets. There are new kiosks offering 'Salthaven Experience' packages; there"
+    "are long lines for coffee in a gleaming café with corporate motif. The economy turns. The town survives, structurally speaking."
+    "But survival has a cost that shows in small things: porches boarded with 'For Lease,' children's names erased from a game's chalk circles, a beloved bakery replaced by a rehabbed boutique selling artisanal weatherproof gear. The"
+    "change is not all bad — there is cleaner sewage outflow, stronger pumps in the storm drains — but there is a thinning of the connective tissue that once made the place home."
+    "Narration — Internal"
+    "You find Maya on the steps of an empty house, paint-splattered raincoat wrapped tight. She meets you with a look that is the closest thing to accusation she knows: hurt folded into adulting."
+    show maya_marin at left:
+        zoom 0.7
+
+    maya_marin "You knew they would do this, right? You thought it through, but did you imagine how it would look when they called our streets 'marketable'?"
+    show aria_marin at right:
+        zoom 0.7
+
+    aria_marin "No. I didn't imagine that insult. I imagined negotiations failing or succeeding in technical terms. I didn't imagine my sister's childhood peeled from a porch and sold back as an experience."
+
+    maya_marin "So now what? You write op-eds? You go to hearings? Do you… play nice?"
+
+    aria_marin "I plan. I protest. I write. I show up. I'm going to push for the covenants Noah mentioned to be irreversible, audited, and enforced. I'm going to demand reparations where they’re owed. That won't bring everything back, but it will be something real."
+
+    maya_marin "You're asking for a lot."
+
+    aria_marin "Asking is how this starts."
+
+    maya_marin "Make sure the kids get their mural back. Make sure Elder Tomas gets his corner patch preserved. Don't let 'progress' steamroll memory."
+
+    aria_marin "I won't let them steamroll everything. I can't promise to save every porch, but I can promise to keep fighting."
+    "Narration"
+    "She searches your face like a map for a route home. For a moment the two of you stand in the wind and the sameness of your grief. Then she pulls from her coat a small"
+    "packet of seed — something she has kept from the Conservatory when they were moved — and hands it to you."
+
+    maya_marin "Plant it where they can't tear it up for pictures."
+    "Aria Marin: (holding the packet) 'We will find a place.'"
+
+    menu:
+        "Plant the seed packet now in a crack between the boardwalk planks":
+            "You kneel with a small trowel you always keep in your satchel and tuck the seed into basswood dust. Your hands are muddy; the gesture is small but real. Someone walking by whistles, a child points, and for a second the boardwalk remembers how to be tender."
+        "Save the packet and plan a community planting":
+            "You fold the packet into your map and make a list. The plan will require volunteers and permission slips, but it will be a public act — a reclaiming. The packet feels like a promise you can share."
+
+    # --- merge ---
+    "Continue the narrative into the arcology entrance scene as dusk falls."
+    # [Scene: Outside the Arcology Entrance | Dusk — Artificial lights warm the entryway; a new plaque glints]
+    hide maya_marin
+    hide aria_marin
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: Piano returns, more resolved and warm]
+    # play sound "sfx_placeholder"  # [Sound: Murmurs of a crowd; a distant percussion as someone drums a rhythm for a small gathering]
+    "Narration"
+    "Weeks fold into months. You find yourself speaking into echoing municipal rooms and narrow cafés alike. You write op-eds that are read, quoted, and sometimes dismissed. You hold forums where residents bring photos of porches they"
+    "fear losing and receipts for rent increases. You stand outside the arcology and listen to a developer explain 'benefits packages' to potential residents; his smile is polished, and your voice inside is not."
+    "Narration — Internal"
+    "The work takes a new shape. It is not the tidy victory you always imagined; it is a different kind of rising. You become, in the papers and in the council minutes, a persistent critic —"
+    "loud enough to be noticed, patient enough to litigate, humane enough to center stories. That is not the same as a lover's embrace or a neighbor's hand on the back, but it is a scaffold that"
+    "holds something in place."
+    show noah_vega at left:
+        zoom 0.7
+
+    noah_vega "They're going to put the audit in third quarter. I pushed it through. There will be oversight. I couldn't get everything I wanted, but I got that."
+    show aria_marin at right:
+        zoom 0.7
+
+    aria_marin "You got a process. That's something. Make it iron."
+
+    noah_vega "I'll do what I can. I—' [hesitates] 'I know it's small consolation."
+
+    aria_marin "Maybe. But some small things, repeated, add up. Make sure the restoration funds reach the families who need them first. Make sure the advisory seats are not token."
+
+    noah_vega "They won't be."
+    "Narration"
+    "The promise in his tone matters because you can use it. You cannot trust it blindly, but you can make a plan that uses every instrument of accountability at your disposal. So you do. You name"
+    "auditors, you request clauses, you make sure every line is public. The fight is bureaucratic and tedious and sometimes cruelly slow, but it is a rising: a long, steady push against erasure."
+    # [Scene: Civic Rooftop Garden | Night — Solar lanterns swing, rain-swept scent of wet earth]
+    hide noah_vega
+    hide aria_marin
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Warm strings; a quiet hopeful motif]
+    # play sound "sfx_placeholder"  # [Sound: Distant waves, soft conversation, the clink of a teacup]
+    "Narration"
+    "There are small returns. Maya organizes a mural crew that repaints erased panels; Elder Tomas leads a ceremony for the families who left; a new market begins on weekends where old vendors teach apprentices their trades."
+    "Kai Solano, cautious and still raw, shows up sometimes — not always to agree, but to do the work that needs hands. Noah Vega, quieter now, sends through material donations and forgets to be self-conscious in"
+    "front of people he once only spoke to via memos."
+    "Narration — Internal"
+    "You discover a strange interior geography: exile not as a place but as a relationship with your surroundings. You can live here and be at odds with it, or you can make this dissonance the fuel"
+    "for a new practice. You choose the latter. You are a planner who misstepped, yes. But you are also a person who can listen while building — a role no one asked you to play, but"
+    "one the town needs."
+    show aria_marin at left:
+        zoom 0.7
+
+    aria_marin "It won't be the town we grew up in. But some things — music under the awnings, the taste of a market fish, the way Elder Tomas tells the old stories — we can keep those. We'll make room for them."
+    show maya_marin at right:
+        zoom 0.7
+
+    maya_marin "We have to. For the kids who will grow up here."
+    "Narration"
+    "There are fractures you cannot glue. Relationships fray where hopes once met: Kai Solano's trust is thin and hard to bridge; your nights are doubled with lists and meetings; the ring in your satchel feels like"
+    "a relic of a different promise. You mourn. You also plant. You also file motions, hold public hearings, and press for reparations."
+    hide aria_marin
+    hide maya_marin
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: Swell into brighter strings; the melody resolves into a sustained, gentle major chord]
+    # play sound "sfx_placeholder"  # [Sound: Wind easing; a few voices singing somewhere offstage]
+    "Narration — Final Internal"
+    "In the end you learn to measure success not by a single saved block, not by an unblemished skyline, but by the work you refuse to abandon. The arcology stands. Some porches are gone. Some people"
+    "have left. But gardens reappear on rooftops. Murals return, not identical but fierce. A fund is established — imperfect, audited, contentious — that will at least begin to return what was taken in part. You are"
+    "both critic and builder now: a person who raises questions in council rooms and seeds in shared beds."
+    "You press the brass compass into your palm and feel its worn weight. It is not a tool for perfection, but it is a tool for direction. You take a step forward."
+
+    scene bg ch12_f99e88_10 at full_bg
+    # play music "music_placeholder"  # [Music: Piano and strings hold a warm, lingering note; then fade]
+
+    scene bg ch12_f99e88_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,223 @@
+label chapter9:
+
+    # [Scene: Outside City Hall | Midday — After the Leak/Demo]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Urgent, driving strings; horns cut through in brief, triumphant stabs]
+    # play sound "sfx_placeholder"  # [Sound: A thousand small sounds layered — shouted lines from reporters, the crackle of handheld radios, a distant gull, the slap of rain against awnings]
+    "You stand on the edge of the crowd and feel the city move through you. Whether it began with a midnight press release that tore open council complacency, or a single viral video of children paddling"
+    "beside a moss-wrapped prototype, the result is the same: the air around City Hall is charged, electric with consequence."
+    "Neighbors press in close — Sami's familiar outline to your left, coat plastered with rain; someone hands you a paper cup of coffee that you barely taste. Elliot Chen is there, hair damp, face flushed with"
+    "either triumph or exhaustion; he does not try to stage modesty. Dr. Noor stands at the periphery, hands clasped around a leather folio like an anchor. Cameras tilt toward Irene Voss and Luca Marin as they"
+    "emerge from the glass doors: Irene composed, the practiced mask, Luca offering perfunctory smiles. Their expressions are public and complicated — a mixture of anger, calculation, and something that looks like a grudging recalculation."
+
+    "You listen to the reporters ask the same questions you have been living inside for months, and you realize how strange it feels to hear them asked aloud" "Will the city protect the Harborfront?' 'Who pays?' 'Will families be forced to move?"
+    "Elliot Chen squeezes your shoulder once, a quick pressure that says more than a handshake. You return it with a slight of your own, fingers half-reluctant to let go. There is, beneath the adrenaline, a tenderness"
+    "that edges your steadiness. You have done the technical work and the moral work and now the city is responding in a language neither of you fully controls."
+    show sami_alvarez at left:
+        zoom 0.7
+
+    sami_alvarez "They hit the front page. Noor's charts pulled a lot of the riffraff offstage—Luca looks like he's counting reputational damage in real time."
+    "Sami's grin is fierce, bright as a flare. He burrows a hand into his wet lifevest pocket and produces a crumpled screenshot someone shoved in his direction. His energy is kinetic — immediate, practical. You let a small laugh leak out; it pushes oxygen into your chest."
+    "Dr. Noor steps forward, voice low but carrying. 'The data shifted the conversation. We made the public see the cost curve as human stories, not just lines on a graph. That's why they called this hearing.'"
+
+    "Reporter" "Councilmember Voss, will the city accept a hybrid program with community-run pilots?"
+    show irene_voss at right:
+        zoom 0.7
+
+    irene_voss "We're considering a series of pilot projects. We will evaluate responsibly, with an eye toward fiscal and social outcomes."
+    "Her reply is precisely the kind of vow that can mean many things. You don't expect absolutes from people who manage cities, but you do expect movement. The cameras linger on the word 'pilot' and you feel the room — the city — tilt toward possibility."
+    hide sami_alvarez
+    hide irene_voss
+
+    scene bg ch9_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The rhythm of applause, distant chanting; a swell in the score that smells of triumph]
+    "You think of the nights you and Elliot Chen soldered sensors until your fingers cramped, the smell of wet moss and copper in the Green Spire. You think of Sami hauling rescued satchels of seed stock"
+    "through flooded alleys. You think of Dr. Noor at a lectern, making complexity comprehensible without losing the human edge. All those small, stubborn acts have become leverage."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "We proved a model can be beautiful and effective, Maya. People saw it. They couldn't unsee kids safe in that water."
+
+    "You find yourself answering before you fully parse why you're talking. The words are steady and bright. Maya Rios" "We made something that works. Now we make sure it scales responsibly."
+
+    elliot_chen "And you stopped trying to carry the whole tide on your own."
+    "You feel your throat tighten. It is the kind of admission you have housed and hidden for years — that you don't want to be the one who keeps failing the people you love because you"
+    "refuse help. He doesn't ask you to change all at once. He just hands the possibility of shared labor back to you like a tool."
+
+    menu:
+        "Let Elliot take the lead on the next logistics run":
+            "You nod once, quick and practical. It's easy in principle; you give him the list and the keys to a van. He beams and sets off, and you watch the way the neighborhood unloads with coordinated motion."
+        "Grab the clipboard and organize the volunteer crews yourself":
+            "You lift the clipboard like a familiar weight, calling names, assigning routes. Sami falls into step beside you and the crowd responds. The motion calms you in the way work always has."
+
+    # --- merge ---
+    "The narrative continues with a sequence of flash edits and the council convening."
+    hide elliot_chen
+
+    scene bg ch9_3be532_3 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid, rhythmic percussion overlaid with a triumphant choir swell]
+    "The council convenes. Cameras flood the chamber where polished stone and the smell of lemon cleaner dominate. Inside, the rhetoric is sharp; outside, your neighborhood holds its breath. The meeting is theater and also the slow,"
+    "painful work of policy. Irene speaks with the kind of precision that makes compromise possible and threatens to make it antiseptic."
+    show irene_voss at left:
+        zoom 0.7
+
+    irene_voss "We cannot ignore the political climate or the fiscal responsibility owed to the entire city. That said—"
+    "Her voice breaks the formal cadence and, for a moment, you see the human seam underneath the politician's armor; she is not a cartoon antagonist today, merely a powerful person making a hard calculation. Her eyes"
+    "meet yours for the fraction of a second that feels like a ledger closing and reopening."
+    "You sense Luca nearby, all charm and glossy renderings, adjusting the argument in his head. Even he looks unmoored — the PR spin does not fit the public images running in every feed. There is pressure"
+    "on them, and you can feel the concrete of their certainty beginning to crumble in places."
+    "Dr. Noor gives testimony like a lighthouse, precise and luminous. She ties projection models to living stories; she names neighborhoods and risk thresholds and human costs. Her voice carries, and you can tell the room wants to listen."
+    show dr_noor_patel at right:
+        zoom 0.7
+
+    dr_noor_patel "We must not mistake speed for safety. A living infrastructure pilot, scaled with community leadership and scientific oversight, will buy us time and knowledge. It will keep people in place while we learn how to make the shoreline resilient."
+    "Someone on the council asks about liability and private contractors. The question hangs like a gauntlet. The answer is not tidy, but it is honest enough: a hybrid model — public funds paired with community stewardship and regulated contractor involvement — with strict oversight and accountability."
+    # play sound "sfx_placeholder"  # [Sound: A collective intake of breath; then, cheers from the gallery]
+    hide irene_voss
+    hide dr_noor_patel
+
+    scene bg ch9_3be532_4 at full_bg
+    "When the vote is announced — a constrained compromise, negotiated under public pressure — the result is both enormous and partial. The city agrees to fund pilot zones, to allow community teams to manage certain segments"
+    "of the living wall under scientific protocols, and to form an oversight board where neighbors have an equal voice. Contractors will be part of installation in limited capacity, subject to strict audits and local hiring commitments."
+    "There is legal wrangling to come; there are still families in limbo — offers of relocation arrive with thin envelopes and thinner consolation — but the Harborfront is not written off."
+    "You feel a rush so sharp it is almost vertigo: relief, fatigue, and the full-bodied joy of small survival. The crowd outside melts into a cheered, wet organism. Neighbors hug, laugh, cry — a messy, sincere map of what has been regained."
+
+    "Sami (shouting over the din)" "That's a start. Now we make sure they keep their side."
+    "Sami's voice is a promise and a threat and you know which part he means. You do, too."
+    # [Scene: Harborfront | Dusk — Days Later]
+
+    scene bg ch9_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: High-energy strings settling into an intimate, hopeful motif; the tempo remains high, an undercurrent of ongoing work]
+    # play sound "sfx_placeholder"  # [Sound: Dripping water, the clink of tools, low conversation, laughter]
+    "Back at the Harborfront and the Green Spire, the work shifts from spectacle to the granular labor of implementation. You and Elliot Chen spend late nights calibrating irrigation valves; your hands are routinely muddy, and there is a rhythm to the way you pass each other tools and cautions."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "If we reroute the sensor loop here, it shares load and lets us measure salinity gradients in real time. It'll buy the plantings more tolerance."
+    "You lean over the circuit board with him, breath warm against his ear as you explain adjustments. The proximity is practical — hands brushing over a soldered joint — but the intimacy is real. You are no longer only colleagues; the guardedness around your heart unravels in small increments."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "Okay. And if we pair the salt-tolerant genoa with the dune grass pocket here, it creates a microbuffer. It won't be perfect, but it's resilient."
+
+    elliot_chen "Perfect's overrated. Resilient is better."
+    "There is a laugh between you, soft and shocked like a bird that has rediscovered wind. He reaches for a rag and wipes a smear of solder from your cheek; his fingers linger a fraction longer than the task requires. You do not pull away."
+
+    menu:
+        "Accept Elliot's hand and let it stay":
+            "You let your hand rest under his. The warmth settles something heavy in your chest; you realize you don't have to be a lone bulwark. Elliot's smile is small and grounded and the two of you return to the valves with steadier hands."
+        "Separate work and feeling; keep your distance while staying close":
+            "You pull your hand back with a practiced, apologetic chuckle, redirecting the moment into technical critique. Elliot nods, not hurt, and together you continue calibrating as partners with a careful, new mutuality."
+
+    # --- merge ---
+    "The narrative follows the community's ongoing work and the expanding roles of neighbors and volunteers."
+    "Across the boardwalk, Dr. Noor monitors early data feeds, translating numbers into plain sentences for volunteers at the briefing table. Sami coordinates supply runs with the same chaotic love that has characterized his movement since childhood."
+    "People who once met on porches to trade canned food now trade permits and soil amendments. The community capacity is not merely preserved — it is expanding into roles you never had time to imagine."
+
+    "Neighbors" "We got the first grant check.' 'Can you show me how to splice this irrigation tape?' 'Are you sure this species will hold up through storm season?"
+    "Voices overlap. You answer as many as you can. Each instruction you give, each nod you offer, seeds trust. There are still tense conversations: homeowners who choose to relocate, angry letters you read to the group"
+    "and then fold into a stack that will be responded to with listening sessions and legal aid. The victory is not fairy-tale clean. That is part of why it feels real."
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch9_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: A swelling, triumphant choir underscored by the steady pulse of work]
+    "At night, when asphalt and wet wood cool and the city's chatter softens, you and Elliot Chen walk the newly reinforced edge. The living wall prototypes breathe in the dusk, beads of water beading on leaves like a promise. Your shoulders brush; you don't speak immediately."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "Whatever happens next, we built something together."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "We did. And we'll keep building. But it's not just us. Sami, Noor, everyone — it takes the whole shore."
+    "The words fall into the salt air and feel both small and enormous. You notice, acutely, how terrifying tenderness is — how much it asks you to trust that the hands beside you will hold when"
+    "the tide takes. You decide, quietly, that whatever the future files away in logs and legalese, you'll keep choosing this: messy, collective, human work."
+    # play sound "sfx_placeholder"  # [Sound: A distant thunderhead, the steady tide; music rises to a bright, high chord]
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch9_3be532_7 at full_bg
+
+    "Dr. Noor (calling from the Spire's comms)" "Early data is promising. We're seeing reduced erosion rates in the pilot zones. There will be tweaks. There will be lawsuits. There will be hard days. But the system responds. It learns."
+    "Her voice is both scientist and friend — the blend that has made her the proof in every argument. You are suddenly, shockingly, weightless with relief."
+
+    "Sami (laughing)" "And when the lawyers try to settle, we'll drown them in community testimony."
+    "Sami's bravado is theatrical but true. You all laugh because laughter is a way of refusing the gravity of everything that might still go wrong."
+
+    scene bg ch9_3be532_8 at full_bg
+    # play music "music_placeholder"  # [Music: Climactic, exuberant strings; then, a tender piano melody]
+    "In the immediate aftermath, there are still people you cannot save from relocation. Some envelopes cannot be made whole. That grief is a sober counterweight to the joy. You hold it and let it sit beside"
+    "the relief. The mixture is not contradictory; it's the honest texture of what it means to fight and to win in part."
+    "Irene Voss approaches you quietly near the rail, away from the reporters. Her face is unreadable in public but here — in the rain and the salt — it is complex."
+    show irene_voss at left:
+        zoom 0.7
+
+    irene_voss "You forced my hand. I admit it. The coverage made it politically necessary. That was…a tool I need to respect."
+    "You watch her struggle with admission. She is not apologizing in the sentimental way you might wish; she's offering a pragmatic acknowledgment that signals a change in the balance of choices."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "We needed a way forward that didn't erase neighborhoods. We did more than make a spectacle. We made a model."
+
+    irene_voss "Then steward it carefully. Hold us to the oversight."
+    "Her request is a demand and an offering. You nod. It is not trust yet, but it is a start."
+
+    menu:
+        "Agree to oversight terms and insist on community veto power":
+            "You speak with the authority of months of work: oversight, community seats on the board, enforceable audit clauses. Irene's expression tightens, then yields. She signs the preliminary terms."
+        "Accept oversight but keep pushing for stronger legal safeguards later":
+            "You give her a constrained nod and say you'll draft the more binding language with Dr. Noor and the legal clinic. It keeps the momentum and buys time for a more thorough bargain."
+
+    # --- merge ---
+    "The community celebrates cautiously while the work of implementation and legal follow-through continues."
+    # play sound "sfx_placeholder"  # [Sound: A rising chorus of voices from a nearby gathering — celebration edged with plans; the music pulls up into a sustained, exultant chord]
+    hide irene_voss
+    hide maya_rios
+
+    scene bg ch9_3be532_9 at full_bg
+    "You let yourself sink into the exhaustion that follows high strain. It is a delicious, necessary collapse: muscles slacken, breath lengthens, the adrenaline recedes and leaves something steadier in its place. Elliot wraps a salvaged blanket around both of you; it's too small and perfect."
+    show elliot_chen at left:
+        zoom 0.7
+
+    elliot_chen "Come home tonight. Even if 'home' is the Spire and two pots of plants."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "Home is where the work is done and the people are. I'm staying. With you."
+    "He laughs, startled and relieved, and the laugh is a small, sharp bell. You realize the phrase is as much a vow as the policy you've just defended. It is offering a future built of messy, imperfect days."
+    hide elliot_chen
+    hide maya_rios
+
+    scene bg ch9_3be532_10 at full_bg
+    # play music "music_placeholder"  # [Music: A soft coda that still carries high strings — triumphant but intimate]
+    "You sleep in the Spire that night with the sound of rain and distant sirens far behind you. Your body is tired in the way that means you have used your limits and found more. Your"
+    "dreams are not restful; they are populated by blueprints and hands passing tools, but in them you wake repeatedly to Elliot Chen's steady presence and a shoreline that holds."
+    "Morning comes not like a promise but as the next round of work. The pilot programs will require monitoring, lessons, legal defense, funding cycles, community meetings, and the hard recalibration of human systems. There will be"
+    "setbacks and grief and the slow accretion of small successes that, together, reshape a coast."
+    "You rise, coffee bitter and necessary, and look out over the Harborfront. The living wall's green band cuts the horizon like a new idea made physical. For the first time in a long while, you let"
+    "yourself feel the mixture of relief and tethered hope fully: very bright, very urgent, full of work and tenderness."
+
+    "Dr. Noor (on your comm)" "We have grant meetings. We have to finalize training curricula. And—' (a pause, softer) '—you should know, this matters. Not just here. People are watching."
+    show maya_rios at left:
+        zoom 0.7
+
+    maya_rios "Then we keep building. And we teach them how."
+    "You breathe in the briny air and taste salt and the copper tang of solder and the sweetness of warm coffee. There is fear in you yet — there will always be fear — but underneath"
+    "it is a new thing: a steady faith in collective labor and a person beside you who will share the midnight soldering and the dawn’s quiet victories."
+    hide maya_rios
+
+    scene bg ch9_3be532_11 at full_bg
+    # play music "music_placeholder"  # [Music: Climactic, high, a bright cathedral of strings and low percussion that then resolves into a warm, sustaining chord]
+    # play sound "sfx_placeholder"  # [Sound: The tide breathing in against pilings; distant city bell tolling once]
+    "You have pulled a living thing into being from argument and dirt and community. It is not finished. It is not perfect. It is proof that something durable can begin when people refuse to trade their memories and homes for expediency."
+    "You let the weight of that certainty sit with you and — finally — you let yourself smile."
+
+    scene bg ch9_3be532_12 at full_bg
+    # play music "music_placeholder"  # [Music: Fade out on a single, hopeful piano note]
+
+    scene bg ch9_3be532_13 at full_bg
+    "THE END"
+    # [GAME END]
+    return

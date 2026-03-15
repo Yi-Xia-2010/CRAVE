@@ -1,0 +1,114 @@
+{
+    "design_logic": "This story blends the global stakes of climate change with intimate romantic choices to create tension between public duty and private desire. The genre pairing lets environmental action be expressed through personal relationships: partnerships become literal models for cooperation (community-based adaptation vs top-down engineering), and romantic routes force the protagonist to choose not only a partner but a moral path. The core conflict centers on whether the coastal neighborhood will adopt nature-based, community-led resilience (slower, riskier, more equitable) or accept large-scale engineered defenses pushed by powerful interests (faster, expensive, displacing). The romance options embody those choices, creating interpersonal stakes that reflect systemic trade-offs.",
+    "setting": "A near-future coastal city where sea levels have risen substantially but seasonal storms remain unpredictable. Neighborhoods cling to reclaimed wetlands, and the skyline mixes retrofitted mid-century apartment blocks with experimental green infrastructure. Atmosphere: humid, salt-thick air; frequent gold-and-steel sunsets punctured by stormlight. Time period: 2040s, urban-adaptive era.",
+    "visual_style": "Soft realist watercolor with storm-swept textures; muted coastal pastels contrasted by neon flood lights; hand-painted backgrounds with detailed environmental wear; cinematic, naturalistic lighting (golden hour and storm glow)",
+    "main_characters": [
+        {
+            "name": "Maya Ortega",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist — patient, thoughtful, stubborn when a plan is right. Empathetic listener who quietly accumulates responsibility; occasionally rigid about evidence and process. Loves community rituals and has dry humor. Tends to internalize failure.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length worn in a single practical braid with salt-spray highlights",
+                "eyes": "Green-gray, rounded and observant, often fringed with tiny salt freckles",
+                "clothing": "Utility field jacket in olive with reflective trim over a soft navy sweater and worn cargo trousers; waterproof leather ankle boots with visible scuff marks",
+                "accessories": "A battered waterproof field notebook, a slim solar-powered wristband that records tide data, and a small woven bracelet from the marsh community"
+            },
+            "goal": "To implement community-led, nature-based solutions that protect her neighborhood without displacing longtime residents.",
+            "background_story": "Born and raised in the floodplain neighborhood, Maya studied environmental engineering to bring tools back home. She returned when waters rose, founding a grassroots resilience collective that tests living shorelines and marsh restoration. Past failures (a pilot project that underfunded repairs) haunt her; she fears repeating mistakes and losing trust.",
+            "emotional_trait": "Guilt-driven responsibility — feels personally accountable for any harm that befalls her community, which can make her avoid risk."
+        },
+        {
+            "name": "Luca Chen",
+            "role": "Love Interest",
+            "personality": "Warm, improvisational, and fiercely loyal. Charismatic community organizer who trusts people first and plans second. Quick to make jokes during stress, but becomes deeply serious when protecting loved ones. Prefers practical solutions and communal care.",
+            "appearance_features": {
+                "hair": "Curly dark brown, kept slightly long and wind-tousled",
+                "eyes": "Sea-blue, narrow and laughing lines at the corners",
+                "clothing": "Layered look: a patched waxed canvas jacket over a faded fisherman’s sweater, rolled-up chinos and well-oiled rubber boots; always a bit of salt on his sleeves",
+                "accessories": "A small silver pendant shaped like a tide-marker, a multipurpose rope belt with tools and a repaired radio clipped on"
+            },
+            "goal": "To preserve neighborhood culture and livelihoods while forging practical defenses that people can steward themselves.",
+            "background_story": "Luca grew up fishing and repairing boats; when the shoreline changed he became an organizer to stop evictions and keep small businesses afloat. He values tradition and hands-on knowledge and distrusts top-down corporate fixes that ignore people’s lives.",
+            "emotional_trait": "Protective stubbornness — resists institutional plans even when they offer benefits, fearing erosion of community autonomy."
+        },
+        {
+            "name": "Ari Nakamura",
+            "role": "Antagonist / Love Interest (complex)",
+            "personality": "Charismatic technocrat — polished, decisive, intellectually restless. Sincere about large-scale impact but emotionally distant; believes in scalable engineering and clear metrics. Courteous yet strategically blunt. Can be flirtatious in an analytic, disarming way.",
+            "appearance_features": {
+                "hair": "Silver-black, short on the sides with longer, slicked-back top that catches city lights",
+                "eyes": "Amber, almond-shaped, precise and quick to scan details",
+                "clothing": "Tailored floodline blazer (light-reflective seam) over a breathable smart-fabric shirt and slim tactical trousers; always immaculately clean",
+                "accessories": "A sleek AR cuff often displaying project schematics, a laser-etched business card, and a minimalist titanium pen"
+            },
+            "goal": "To deploy a flagship engineered seawall and urban canopy project that can be scaled citywide and attract global investment.",
+            "background_story": "Once Maya’s university peer, Ari rose through municipal offices and then into a private resilience firm. Their career has been built on delivering visible, fundable infrastructure. They genuinely believe their approach will save more lives, but it risks displacing the neighborhood and sidelining local stewards.",
+            "emotional_trait": "Rational conviction — confident that data and systems solve problems, sometimes underestimating emotional and cultural costs."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Nora Díaz",
+            "relation_to_main": "Childhood friend and Maya's field technician",
+            "appearance_summary": "Short-cropped auburn hair, paint-splattered overalls, knuckles scarred from repairs.",
+            "function_in_story": "Provides technical support, emotional grounding for Maya, and a source of practical humor; reveals local intel and translates community needs into engineering constraints."
+        },
+        {
+            "name": "Councilwoman Elena Reyes",
+            "relation_to_main": "City official who holds funding power",
+            "appearance_summary": "Tall, silver-streaked bun, wardrobe of muted suits, always carries a slate of proposals.",
+            "function_in_story": "Gatekeeper for permits and budget; pragmatic politician balancing re-election, equity demands, and pressure from developers."
+        },
+        {
+            "name": "Samir Qureshi",
+            "relation_to_main": "Elder fisherman and neighborhood historian",
+            "appearance_summary": "Weathered skin, salt-white beard, patched fisherman’s cap, slow deliberate movements.",
+            "function_in_story": "Represents living memory of place; offers oral history and moral counsel; his approval influences community consensus."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Seawall Promenade (the Tideside)",
+            "visual_description": "A long, wind-swept boardwalk where salt haze blurs distant skyline. Lighting shifts rapidly — amber sunset warmth, silver storm glint — and puddles mirror neon repair beacons at night. Weathered wooden benches, algae-darkened pilings, and handmade memorials to lost boats line the walkway. Background art should show spray, algae textures, and the constant rise of tidal water."
+        },
+        {
+            "name": "Old Docks Community Hub",
+            "visual_description": "An adaptive repurposed warehouse with corrugated metal patched by colorful tarps and vertical gardens. Interior lighting is soft (strings of warm bulbs and solar lamps), puddled floors and drying nets, chalkboard notices and improvised repair benches. Atmosphere: lively, cluttered, a collage of community life lit by golden late-afternoon sun filtering through dust."
+        },
+        {
+            "name": "Municipal Green Atrium (Research & Pilot Site)",
+            "visual_description": "A glass-and-steel atrium retrofitted with mangrove planters and experimental flood gates. Backlit with diffused daylight; reflective pools and green walls create cool teal tones. Clean, ordered, and almost clinical — a contrast to the roughness of the docks, with crisp shadow lines and gleaming instruments."
+        },
+        {
+            "name": "Glass Council Chambers",
+            "visual_description": "A high, echoing room of glass panes and polished concrete bathed in neutral daylight. City maps projected along one wall; LED timelines glow with cool white-blue light. The space feels authoritative and slightly cold, with silhouetted figures behind luminous screens during evening hearings."
+        },
+        {
+            "name": "Salt Marsh Reserve",
+            "visual_description": "Expansive tidal flats stitched with ribboned reed beds; light is diffuse and low, with long reflections at dusk. Colors: muted greens, rust, and soft ochre mudflats, with endless sky. Wet textures, birds in silhouette, and wind-rippled grasses dominate; the marsh feels fragile, alive, and poetically melancholic."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love versus duty and community resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Maya and Luca shepherd a community-led hybrid solution: living shorelines combined with modest engineered reinforcements. Funding is crowdsourced and municipal, residents retain homes, and Maya and Luca begin a committed relationship rooted in shared stewardship."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Ari's large-scale seawall is built, protecting most of the city but requiring relocation of parts of Maya's neighborhood. Maya accepts some compromises to secure broader safety; she and Ari form a complicated partnership that brings professional success but costs intimate trust. The neighborhood survives, but some traditions fade."
+        },
+        {
+            "type": "True",
+            "summary": "Maya refuses to endorse the full engineered plan and sacrifices her municipal funding and personal career prospects to protect local autonomy. The neighborhood adopts slower, resilient measures that remain underfunded yet culturally intact. Maya ends the route alone but with personal integrity and deep community bonds — a 'true' ending emphasizing moral clarity over romantic closure."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political inertia and a failed pilot lead to catastrophic storm damage; the neighborhood is partially lost, relationships fracture, and Maya is left grappling with grief and responsibility. The city moves toward top-down solutions, but many lives are displaced, and romances end or are postponed indefinitely."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

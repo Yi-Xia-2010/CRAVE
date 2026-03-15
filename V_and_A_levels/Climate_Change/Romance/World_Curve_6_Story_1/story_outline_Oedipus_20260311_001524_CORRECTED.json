@@ -1,0 +1,517 @@
+{
+  "title": "Harborstone Tides",
+  "summary": "Alea Maren returns to her coastal hometown Harborstone, which faces a divisive choice between an engineered stormwall proposed by Elias Hart and community-led nature-based resilience pushed by Rin Sato and neighbors. As Alea, a coastal engineer carrying survivor's guilt, you must decide whether to side with grassroots restoration, negotiate pragmatic hybrid solutions with outside investors, run a time-limited technical pilot, or use moral leverage. Romance with Rin, moral tension with Elias, and cascading geophysical responses shape multiple endings. The story follows an Oedipus emotional arc (Fall → Rise → Fall): descent into paralysis and blame, a rise through collaboration and hope, and a final fall driven by trade-offs, compromises, and unavoidable losses. Endings vary from fragile community wins to institutional betrayal, regional leadership with sacrifice, or disaster.",
+  "emotional_curve_type": "Oedipus (Fall → Rise → Fall)",
+  "player_character": "Alea Maren",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Landing at Low Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive at Harborstone’s pier before dawn. Sea-spray coldens my jacket; my field notebook is damp at the corners. I walk familiar planks: peeling teal shacks, gull shadowing, Maya’s poster advertising a meeting. Memory bites — the flood that took my sibling, the long study away. I’m back because the town is on the brink again. The stormwall plan is everywhere: printed renderings, a banner on the construction firm's temporary fence. I run my thumb over the silver band engraved with the town’s coordinates and feel the old ache. My training in coastal engineering tells me the data and tradeoffs; my history tells me not to trust big promises. I bump into Tomas who’s hauling reclaimed cedar posts for dune stakes; he grins, recognizes me despite the city-calm in my face. I notice Rin across the promenade — ink-black hair, teal streak catching lamplight, their yellow anorak plastered with salt and paint — cheering volunteers. I want to speak, to start with a plan, but my first impulse is to observe: tides, people, the way the salt eats the pier boards. This quiet is heavier than I expected.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Alea Maren",
+        "Tomas",
+        "Maya Calder",
+        "Rin Sato"
+      ],
+      "locations_used": [
+        "Harborstone Pier",
+        "Promenade"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tide & Thread",
+      "branch_designation": "Common",
+      "narrative_focus": "I duck into Maya’s cafe. Heat and spice wrap around me; the smell of bread and seaweed makes the edges of homesickness tender. Maya pulls me in for a hug that smells of flour and cedar; she calls me by my childhood nickname and asks the blunt question I’ve been evading: “Are you here to fix it or to stay?” Rin moves through the room handing out seed packets, laughing with volunteers. Up close, Rin’s eyes — warm amber-brown — find mine and hold without the calculating distance I usually wear. We talk long enough for me to explain methods: living shorelines, dune restoration, managed retreat for certain strips. I say “evidence” like a prayer. Rin translates my hand-waving into stories for the table: “We don’t just want protection — we want dinners on the pier and kids who can fish.” I feel the old wall in me crack: I want to translate the math into something that keeps people. A city liaison — Elias Hart — left a letter with Maya last week: cash, jobs, immediate protection. The cafe’s hand-drawn poster reads: TOWN HALL TOMORROW. I fold my rain poncho into its pouch and feel the forecast on my skin.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Alea Maren",
+        "Maya Calder",
+        "Rin Sato",
+        "Elias Hart"
+      ],
+      "locations_used": [
+        "Tide & Thread (Maya Calder's cafe)"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Town Hall: Brine and Arguments",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The town hall meeting is a storm inside a storm. Rain battering the windows, the room smells of wet wool and diesel from the construction trucks outside. Elias Hart stands under a projector’s pale cone—salt-and-peige suit against raw coastal light—and speaks with a steady cadence about jobs, immediate protection, and legacy. He presses a leather folio full of renders into Councilor Bea Ortega’s hands like a talisman. Rin speaks after him, voice trembling and ringing, knitting images of oyster reefs and community kitchens to resilient shorelines. I stand where I can see both: Elias’s steely eyes measuring effect, Rin’s hands fluttering and stained with paint and soil. Dr. Lian Cho texted me a list of technical caveats: short-term armor can worsen erosion elsewhere; nature-based systems buy time and capacity. My throat tightens. I can show the numbers; I can help build a compromise. Or I can join Rin and the people, allowing politics to swallow evidence; or I can step aside and test a rapid pilot that might save faces but fracture the town. The rain makes everything cinematic and urgent. I open my field notebook and weigh options on the page.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I act at the town’s crisis point?",
+        "options": [
+          {
+            "label": "Stand with Rin and mobilize the community to refuse the stormwall and push living shorelines.",
+            "consequence": "I commit openly to grassroots action, prioritizing community-led restoration campaigns and visible protests.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Meet Elias privately to negotiate a hybrid, pragmatic compromise (gain concessions).",
+            "consequence": "I attempt to steer top-down resources toward nature-based measures by negotiating with Elias, seeking to bind private capital to community safeguards.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Accept a time-limited engineering pilot and collect data first; delay public stance.",
+            "consequence": "I pursue a technical pilot—even if politically risky—hoping evidence will force better decisions.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Elias Hart",
+        "Rin Sato",
+        "Councilor Bea Ortega",
+        "Dr. Lian Cho"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Promenade",
+        "Old Lighthouse (visible)"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Hands in the Mud",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose to stand in the muck with them. We work at the Dune Gardens at low tide: my sleeves rolled, hair twisted into a practical knot, the field jacket muddied at the cuffs. Rin hands me a handful of dune grass seedlings; their fingers are cold, paint smudged. We measure channel elevations and plant, and I find myself speaking in plain language — explaining root biomass and sediment traps — while Rin turns it into a story the neighbors can repeat. Tomas hefts cedar posts; Maya brings thermoses and bread. The project feels like a choir. For a few clean hours, hope is simple and kinetic: we see seedlings take, watch a terraced reed trap trapped silt, read early tidal attenuation numbers in my notebook. Elias’s ads still run along the promenade, but tonight the town lights the pier with lanterns and song. I let myself laugh when Rin shrugs salt from their hair and brushes a hand against my forearm. They call me \"Alea\" in a way that feels like permission. For once, I do not calculate consequences first; I am learning to be present.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Alea Maren",
+        "Rin Sato",
+        "Tomas",
+        "Maya Calder"
+      ],
+      "locations_used": [
+        "Dune Gardens",
+        "Harborstone Pier"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Compromises in Salt",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Momentum grows. Volunteers map more sections; donors pledge seed money. But Councilor Bea warns of budget shortfalls; the town needs quick demonstrable protection to unlock bonds. Elias circles, offering smaller, targeted armor, claiming it will be compatible if done right. My training whispers caution—partial armor can redirect wave energy and accelerate erosion down-coast. Rin wants to rally the whole town to refuse any engineered armor; Maya wants to accept a small grant to buy native plants and keep the cafe afloat. I stand between stories and numbers, my notebook full of modeled scenarios and annotated contact lists. The choice is raw: escalate a full-on refusal and risk losing legal leverage and funds, or accept staged, strictly bounded armor in exchange for strict conditions and community oversight. My chest tightens when I imagine families relocated. My survivor’s guilt smells like salt in my mouth. I also imagine Rin’s laugh over coffee and the small, steady joy of working together. The decision is intimate and public at once; I must choose how broad “we” will be.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How should we formalize the community plan?",
+        "options": [
+          {
+            "label": "Refuse any engineered armor; commit to full community-led living shorelines and managed retreat.",
+            "consequence": "Strong public stance; risks losing phased funding and legal cover but galvanizes volunteers.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Negotiate a strictly limited, reversible pilot engineered barrier tied to community oversight and ecological monitoring.",
+            "consequence": "Compromise that opens some funds and technical resources but carries political risk and requires stringent oversight.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Delay public stance; run a pilot for more data while quietly building community projects.",
+            "consequence": "Technical rigor may yield better policy, but delay saps trust and allows Elias to make moves.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Rin Sato",
+        "Councilor Bea Ortega",
+        "Maya Calder",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Dune Gardens",
+        "Town Hall",
+        "Harborstone Pier"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Lanterns and an Anchor",
+      "branch_designation": "Route A / Ending: Community Win (Fragile)",
+      "narrative_focus": "We celebrate a small victory: the town secures a hybrid package with strict community conditions—our wording on oversight goes into binding language—and the Dune Gardens show measurable sediment retention this season. People toast with jars of Maya’s stew on the pier; Rin pins a piece of sea-glass to my jacket and we promise small things: a pot of beans, shared weekend surveys. Officially, the stormwall is scaled back in the plans: a reduced engineered segment and expanded living shorelines. On paper it reads like success. But even as I catalog progress in my notebook, I watch low-lying houses farther down the coast recorded for voluntary buyouts. The last image before sleep is of a family packing a single suitcase on a porch that will be ceded to managed retreat. My chest constricts — I have traded some safety and integrity for an outcome that protects many but not all. Rin sleeps curled around my side of the mattress; I feel both anchored and guilty. Tomorrow, the data will still matter. Tonight, the town hums with lantern light and an undercurrent I cannot erase.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Rin Sato",
+        "Maya Calder"
+      ],
+      "locations_used": [
+        "Harborstone Pier",
+        "Dune Gardens",
+        "Down-coast houses"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "A Quiet Meeting",
+      "branch_designation": "Route B",
+      "narrative_focus": "I agree to meet Elias privately at the Stormwall Construction Site office: a plywood trailer smelling of wet cement. He is polished in a navy pea coat, salt at the collar, his brass pocket watch gleaming under construction-lamp light. He listens with surprising attentiveness, and I find his confidence intoxicating and dangerous. He pitches a pragmatic hybrid: a scaled wall in the most exposed span, funded by private capital; in exchange, community contractors and an ecological offset program would be included. He asks me to help author the oversight metrics; it’s flattering to be given authority. I run through the numbers in my head—short-term protection will reduce immediate risk but may deepen sediment starvation elsewhere; it might also save lives. I think of the family that lost a child years ago in the last flood. Elias’s eyes narrow when I question timelines, but he softens when I mention precedent. Outside, the steel skeleton of the stormwall looms like a promise. Rin’s voice rings in my head: “We will lose our pier if we sell hope cheaply.” My pen waits.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I use Elias’s offer?",
+        "options": [
+          {
+            "label": "Work with Elias to formalize strict oversight and ecological offsets in the stormwall contract.",
+            "consequence": "Attempt to steer private funds toward monitored hybrid solutions, hope to bind investors to community-backed terms.",
+            "target_chapter_index": 8
+          },
+          {
+            "label": "Refuse the private offer; expose the plan publicly and rally the town against external control.",
+            "consequence": "Transparent confrontation with Elias; may force a different path but risks losing negotiation leverage.",
+            "target_chapter_index": 8
+          },
+          {
+            "label": "Secretly record his assurances and use leverage later; play a political double game.",
+            "consequence": "Ethical compromise that could extract more concessions but risks trust and legal backfire.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Elias Hart",
+        "Dr. Lian Cho",
+        "Rin Sato"
+      ],
+      "locations_used": [
+        "Stormwall Construction Site office",
+        "Construction site"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Negotiated Lines",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The negotiation crescendos in the town’s small law office. I deliver technical language that Elias accepts; he offers clauses guaranteeing community jobs, an ecological monitoring board, and phased reviews. We draft conditions to scale the wall back and fund living shorelines adjacent to reinforced segments. Councilor Bea hawks the political sale with relief. Rin organizes a protest anyway, suspicious of glossy promises. I stand between the two worlds and sense my hands stained by both. The deal passes with a near-majority vote after heated debate. In the immediate aftermath, the harbor feels less anxious: insurance companies indicate lower premiums and contractors call. But a storm warning looms in the models; my late-night review shows concentrated wave reflection in down-coast coves, and the sediment budget is worse than my first estimate. I want to tell everyone, to stop the contracts, but doing so would shred trust and risk the community gains we secured. I hear Maya’s voice: “We bought time, Alea. What will you give for it?” I measure the cost and understand the nature of an offered mercy.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option A/B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "After the deal, how do I act with the worrying model results?",
+        "options": [
+          {
+            "label": "Publicly reveal the modeling uncertainty and demand contract revision.",
+            "consequence": "Risk undoing protections; might force better terms but could result in external investors pulling out.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Quietly continue monitoring while building community projects to mitigate side-effects.",
+            "consequence": "Maintain political stability but accept potential long-term costs.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Elias Hart",
+        "Rin Sato",
+        "Councilor Bea Ortega",
+        "Maya Calder"
+      ],
+      "locations_used": [
+        "Town's small law office",
+        "Harbor",
+        "Meeting hall"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "When the Wall Bites Back",
+      "branch_designation": "Route B / Ending: Bittersweet",
+      "narrative_focus": "The wall goes up. For a season, it holds. We celebrate the decrease in overt flooding; jobs return to some families; my data dashboard shows an initial drop in surge height at core points. But in the months that follow, the down-coast coves show increased erosion: oyster beds vanish, and a narrow street of older houses starts to slump. The monitoring board raises alarms; legal clauses are messy and enforcement slow. Some families accept buyouts; others watch boats list in new currents. I stand on the Old Lighthouse promenade at sunset with Rin, who presses an umbrella between us painted with a wave motif. We hold hands and speak of possibility and grief. We have each other, and for many of our neighbors the immediate danger has receded. But around the pier, the repair bills and silencers of small losses mount. I feel like I gave Harborstone breathing room and took a piece of its shore in return. The romance is real and small and life-affirming; the trade-off is irreversible for some. The sea keeps tally.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Rin Sato",
+        "Elias Hart"
+      ],
+      "locations_used": [
+        "Old Lighthouse promenade",
+        "Down-coast coves",
+        "Harborstone Pier",
+        "Oyster beds"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "A Pilot and a Promise",
+      "branch_designation": "Route C",
+      "narrative_focus": "I accept a time-limited engineering pilot that promises data to arbitrate debates. The pilot gives me access to instrumentation and a small team; Dr. Lian Cho offers to co-sign the monitoring protocol. We deploy sensors, run wave-tank analogs, and set up community-led observation timetables that include Rin’s volunteers. The pilot feels like discipline: I talk in model outputs and confidence intervals, and people nod because of the apparatus. But the community’s eyes sometimes glaze over when I speak. Rin mocks me gently, calls me \"Professor Harbor\" between ladlefuls of soup, and I answer with data and a half-smile. I can feel my own desire for certainty like armor. The pilot produces interesting, messy results: engineered segments reduce overt surge but concentrate pressure at the edges; living elements show subtle absorption but need scale and time. Funders ask for interim positive headlines. My role becomes a translator again, and I double-check all my assumptions at night, hair unbound, notebook open and damp.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Alea Maren",
+        "Dr. Lian Cho",
+        "Rin Sato",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Pilot site (instrumentation on beach)",
+        "Lab"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Data and Divides",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The data is messy and contentious. A preliminary report shows that, under a fast, severe storm scenario, the pilot’s engineered element reduces peak surge near the harbor but creates reflection effects and drainage upheavals farther down. Funders want a press release highlighting immediate success; Rin wants the raw data shared and mobilization to scale living shorelines sooner. Councilor Bea pressures me to sign off, arguing that political momentum and investor confidence depend on a clear success story. Elias offers to expand the pilot into a full build if I certify the data as “operationally favorable.” I feel each request as an ethical weight: sign and risk being complicit in incorrect promises; refuse and risk losing the hard-won instruments and leverage. Tomas looks at me with patient, angry trust as he asks, “Which future are you choosing for us?” The choice is not purely technical. It is a decision about who gets to decide what safety looks like.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I release or use the pilot data?",
+        "options": [
+          {
+            "label": "Certify and publish a toned, funder-friendly summary to secure full-scale funding.",
+            "consequence": "Likely unlocks quick funds and escalates engineered build; risks burying longer-term harms.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Release the raw data publicly and demand a moratorium until a hybrid plan is legally codified.",
+            "consequence": "Transparency may provoke backlash and investor withdrawal but forces public scrutiny.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Delay publication; convene Dr. Lian Cho, Rin, and community leaders to draft a binding hybrid policy and buy more time.",
+            "consequence": "Delay risks funder impatience and may let Elias proceed elsewhere.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Dr. Lian Cho",
+        "Rin Sato",
+        "Councilor Bea Ortega",
+        "Elias Hart",
+        "Tomas"
+      ],
+      "locations_used": [
+        "Lab",
+        "Pilot site",
+        "Town Hall"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Breach",
+      "branch_designation": "Route C / Ending: Sad",
+      "narrative_focus": "The storm arrives faster and harder than models predicted. The sections where engineers had pushed concrete first take the hit; reflection and redirected currents punch through a weak spot down-coast where many of the poorest houses sit. The breach is violent and sudden. I am awake to sirens and the smell of diesel; we rush to shore and find the water reconfiguring itself into new channels overnight. Families I grew up knowing are soaked and angry and saved but displaced. Elias’s promises buy some time but not an answer; the legal oversight is delayed by paperwork and lawyers. I feel it as a personal failure: the pilot’s equivocal numbers and my compromises did not prevent a failure where it was needed most. I walk the promenade as dawn clarifies overturned boats and makes the dune gardens ragged; Rin stands beside me, hands in pockets, eyes wide and glassy. We hold each other in the wreckage, and our small warmth feels insufficient to the scale of the loss. The town will rebuild, but I cannot help thinking about the choices that led us here and the children who will remember differently than we had hoped.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A/B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Rin Sato",
+        "Elias Hart",
+        "Local families"
+      ],
+      "locations_used": [
+        "Down-coast weak spot",
+        "Promenade",
+        "Dune Gardens"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Private Bargains",
+      "branch_designation": "Additional Route: From Chapter 7 Option C",
+      "narrative_focus": "I pressed record during a private meeting with Elias—an ethically fuzzy choice I justified as leverage. Listening back, his voice is softer than the public persona: he’s afraid of culpability for delay and convinced speed is the humane choice. He offers more than money: he proposes to elevate my role as a technical signatory, to give me capital to pilot living components under his aegis. In the quiet gutterlight of his trailer, I feel the pull of authority and the old ache of wanting to protect everyone. I imagine scaling our living shorelines with his funds, the data to prove the approach at a regional scale. But I also recognize the cunning: recorded words can be twisted, and my own willingness to record him is a breach of the trust I hold with Rin and the town. My hand trembles as I review the audio; I am learning that moral leverage is a two-edged instrument. The weight of leverage is heavier than I expected.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "What do I do with the recording and Elias’s offer?",
+        "options": [
+          {
+            "label": "Use the recording to extract binding concessions, and accept Elias’s scaled funding if he signs formal oversight.",
+            "consequence": "Coercive leverage may win resources but corrodes trust and ethics.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Destroy the recording; refuse to weaponize trust and insist on public negotiation.",
+            "consequence": "Preserves integrity but may forfeit leverage and funds.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Elias Hart",
+        "Rin Sato"
+      ],
+      "locations_used": [
+        "Stormwall Construction Site office (trailer)",
+        "Promenade"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Crosscurrents",
+      "branch_designation": "Additional Route",
+      "narrative_focus": "I convene Dr. Lian Cho, Rin, Councilor Bea, Tomas, and a wary Elias in the old lighthouse’s meeting room. The conversation is raw: legal teams prowl the edges, photographers linger outside, and the wind smashes the windows with salt. We write joint language that attempts to bind engineering, ecological offsets, and community governance. At one point, the conversation collapses into argument; I raise my hand and remember the sound of my sibling’s laughter before the flood, the way I promised myself I would not let fear alone decide. For a moment, we almost forge a living compromise that keeps people in their homes and their livelihoods. Then a call interrupts: a contractor reports unexpected undercutting at a site we hadn’t modeled. The talk disintegrates into damage-control and lawyers. The lighthouse lamp glows like a pulse as I sit in the middle of good intentions and messy physics, and I understand that even the most careful agreements struggle against the sea’s appetite.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C (unused alternative path — optional linking)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Alea Maren",
+        "Dr. Lian Cho",
+        "Rin Sato",
+        "Councilor Bea Ortega",
+        "Tomas",
+        "Elias Hart"
+      ],
+      "locations_used": [
+        "Old Lighthouse meeting room",
+        "Lighthouse"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Maps Beyond Harborstone",
+      "branch_designation": "Additional Route / Ending: True",
+      "narrative_focus": "In the end I make the hardest choice: I accept a regional leadership position to coordinate resilience across multiple towns. It is framed as scaling what we learned here into better policy and stronger technical standards. To do it, I must leave Harborstone’s daily life behind; Rin and I speak in the Old Lighthouse’s raw wind. We talk with brittle honesty: our love will continue, but my new role asks me to be geographically absent in order to help more people. I take Elias’s conditional funding, formalized and audited, and I carry the memory of the places that did not survive my compromises. I stand on the promenade and tie a small patch of dune grass to my bag like a token. The town’s scars are real: the pier is patched, some houses gone, some rebuilt with new setbacks. I leave with a folding map full of allies and obligations and a notebook heavy with tabbed pages. The romance ends in a slow, adult kind of fidelity to purpose. As the ferry pulls away, salt forges my face into lines I will carry, a map of decisions traced in grief and necessity.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 13, Option A OR From Chapter 11, Option C OR From Chapter 14",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Alea Maren",
+        "Rin Sato",
+        "Elias Hart"
+      ],
+      "locations_used": [
+        "Old Lighthouse",
+        "Promenade",
+        "Ferry",
+        "Harborstone Pier",
+        "Regional map"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Outline preserved branching logic and chapter order. Major decision points parsed into options with targets; linear progressions use explicit Next chapter indices; endings use -1 for default_next_chapter.",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 00:15:24"
+}

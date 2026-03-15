@@ -1,0 +1,150 @@
+label chapter5:
+
+    # [Scene: Verdant Rooftop Nursery | Morning]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant gull-call of the bay, a low hum of city generators far below, the soft clink of metal as someone adjusts a tiny bracket on the prototype.]
+    # play music "music_placeholder"  # [Music: Tense, driving strings with a bright undertone — urgency braided to hope]
+    "You come up onto the roof with the sea still in your mouth from last night — the lamp room’s wind, the steady groan of the lighthouse, the way the horizon held the town like a"
+    "promise. The printouts from Sora, Reyes’s notes, and Irene Vale’s draft sit heavy in your satchel, folded where the barometer presses against them; the copper feels cool under your throat, a steady pulse behind your decision-making."
+    "The rooftop smells of wet soil and citrus from compost tea. Sunlight catches on the emerald of the reed seedlings and strips the rust from an old tin. Evan is already at the table, hunched over"
+    "the little prototype: a scaled habitat module with reed beds, miniature breakwater ribs, and a pale patch of faux-marsh. His fingers move with practiced economy — a small file, a soldered seam, a solar strip aligned"
+    "against the module’s roof. He looks up when you reach the table, clearing a scratch of salt from the corner of his lip."
+    show evan_kaito at left:
+        zoom 0.7
+
+    evan_kaito "You're here early."
+    "You set the printouts down with a soft thud, the sound like a promise landing. Your voice is a measured blade."
+    show maya_alvarez at right:
+        zoom 0.7
+
+    maya_alvarez "We don't have time for early. Irene Vale's office wants progress by week's end. She said—' (You stop; saying her name tastes like the bitter peel of a rind.) '—she wants a signature that looks decisive."
+    "Evan's brows knit. He runs a fingertip along the prototype's deck, as if the little model can tell him what to say."
+
+    evan_kaito "I saw the clause about converting that fringe marsh parcel. They call it 'foundational fill' in the draft. It's not just wording, Maya. It's permanent change."
+
+    maya_alvarez "I know. The set-asides and the apprenticeships are real. Local hires, training budgets — people will have work. Sora's study fund is in the draft. Captain Reyes' list of submerged lots is attached.' (Your hands are steady, but your heart pushes against the words.) 'If I refuse, families lose the promised wages. If I sign as-is, we lose a piece of marsh that won't come back."
+    "Evan's jaw tightens. He looks away, then back, and the oldhold of his consulting past flickers across his face — the restraint that used to mean career advancement, now a halo of guilt."
+
+    evan_kaito "I keep thinking about what I told you in the maker space — small wins that prove a concept. But getting that demonstration to scale, fast enough to stop political momentum, is… risky.' (He exhales.) 'If we show Irene Vale something the town can see — a live, breathing module — we can use that data to renegotiate. But if it fails, if it looks like tinkering when the town needs real jobs, you've given Irene Vale a wedge back."
+    "You lean over the model, fingertips hovering above the miniature reeds. The sunlight warms the copper on your barometer. Your inner voice sharpens, cataloging the variables like a ledger: people's rent, Sora's hydrology models, the apprenticeships"
+    "that mean enough dinners paid. Your empathy flips between the immediate — the man at the docks who scheduled a day of work — and the long game — the marsh that takes centuries to rebuild."
+
+    maya_alvarez "We have sixty days to show feasibility at scale. Seventy if we push the community to backlog labor. If it works, we don't just bargain—we propose a hybrid. If it fails, we hold Irene Vale accountable for split funding. It's not perfect. But it's leverage."
+    "Evan scoffs, half-laugh, half-broken."
+
+    evan_kaito "Leverage is a legal term with soft edges. I spent years making leverage sound like certainty to boards. I still flinch at the word."
+    "He reaches for your hand without meaning to; his thumb brushes the inside of your wrist. For a second — less than a breath and forever — the rooftop narrows down to the two of you,"
+    "the tiny habitat, and the tideline far below. His fingers are callused, warm, and the touch is an argument all its own."
+
+    menu:
+        "Withdraw your hand, keep it strictly professional":
+            "You pull your hand back and set your palms flat on the table. The motion is small but deliberate; it redraws a boundary between the work and the want. Evan's eyes flick to your hands and then to the model, and for a beat you both become technicians again."
+        "Let your hand stay, let the closeness stand":
+            "You let his fingers rest against yours. The contact steadies you both. Evan's shoulders loosen and he allows himself a small, honest smile. The risk is louder, but it aligns you; you both draw breath and work the next problem from the same side."
+
+    # --- merge ---
+    "Continue main scene."
+    "Evan's look is complicated — an easy warmth laced with something guarded. He clears his throat."
+
+    evan_kaito "Whatever we choose, it needs Sora's numbers stitched into the language. Measurable milestones, independent audits, escrowed funds tied to ecological outcomes. That's how you make them live up to the promise."
+    "You nod, already thinking of the clauses that could anchor a developer's dollars to marsh health. The work feels like stitching a wound closed while someone watches you with a stopwatch."
+    # play sound "sfx_placeholder"  # [Sound: A phone buzzes; Tala's name flashes across the screen. The ringtone is a tinny, upbeat melody that feels at odds with the tension in your chest.]
+    "You tap the screen and raise it to your ear."
+
+    "Tala Ruiz (over the phone)" "Maya! Quick update — the fishers at the pier voted, half for the jobs, half for the mitigation projects, but—' (She takes a breath that you can hear in the line.) '—the biggest crew wants immediate rigs up. They can't wait another month."
+
+    maya_alvarez "What's Captain Reyes saying? Did he talk to them?"
+    show tala_ruiz at center:
+        zoom 0.7
+
+    tala_ruiz "He did. He told them about the marsh history and the old eel beds, but money's tight. If Irene Vale brings the first paychecks in, you know how people lean. We can fight the narrative, but we need a plan that keeps their lights on."
+    "Tala's voice carries the worn optimism that always makes you sharper. You and Tala trade the kind of rapid-fire planning born of old habit — logistics, names, times, the human variables that don't fit neatly into a contract."
+
+    maya_alvarez "Okay. We roll two tracks. Evan, can you get a stable live demo running on the pier so those crews can see an on-the-water job? Tala, mobilize the apprentices list—use Reyes' trainees. I'll talk to Sora about binding clauses and get the mayor to sit on escrow oversight."
+
+    tala_ruiz "That's fast, Maya. Too fast?' (She laughs softly.) 'No, it's perfect. If anyone can thread this needle—"
+    "You feel the needle. You feel the town's pulse. The tempo of the rooftop accelerates. Soil under your nails, solder under Evan's fingernails, the smell of coffee from a thermos left humming beside a tray of seed packets."
+
+    menu:
+        "Promise to push for the apprenticeships first":
+            "You promise Tala you'll prioritize hiring and training this week. Her laugh on the line sounds like relief; she begins coordinating. The pragmatic momentum begins to crawl forward, a small machine that grinds toward delivery."
+        "Tell Tala you need to secure the study fund first":
+            "You tell Tala you have to lock the study fund in the contract before hiring starts. Her voice tightens but she accepts it; the choice buys scientific certainty but risks immediate labor and invites frustration from those who need pay now."
+
+    # --- merge ---
+    "Continue main scene."
+    "Before Tala can say more, Dr. Sora Kim appears at the rooftop ladder, white hair braided tight, a tablet under her arm, the air around her smelling faintly of algae-processing ink. She moves with a scientist's quiet certainty, eyes scanning the model as though it were a specimen."
+    hide evan_kaito
+    show dr_sora_kim at left:
+        zoom 0.7
+
+    dr_sora_kim "You left the modulation on the eastern flank too shallow. Wave overtopping will be a predictable failure point at three meters. The draft's thresholds don't account for tide amplification in surge events.' (She taps the tiny model where reed roots meet the breakwater.) 'We need clause language that specifies monitoring intervals, thresholds for remediation, and clear enforcement mechanisms."
+
+    maya_alvarez "Sora, we can demand a third-party auditor and a schedule tied to hydrology outputs. Escrow funds released only when specific performance indicators are met."
+
+    dr_sora_kim "Good. But the indicators must be scientifically defensible and statistically robust. 'Repair when damaged' is not measurable. 'Replace fifty percent of lost biomass within five years' is. Tie workforce training to those measurable outputs.' (She looks at you with a sharp, caring intensity.) 'Make the clauses airtight. You have the leverage of moral capital here—use the data to bind them."
+    "Evan leans in, fingers steady now on a small bracket. He and Sora trade a technical exchange — sediment accretion rates, reed rooting depths, the energy budget of a module. Their dialogue is dense, layered —"
+    "comfortable for them, nearly opaque for anyone else — but you watch it both as a strategist and as someone who loves them."
+    hide maya_alvarez
+    show evan_kaito at right:
+        zoom 0.7
+
+    evan_kaito "If we can show a fifty-percent biomass recovery metric in two years for pilot plots on the pier, and an averaged sediment accretion rate above baseline, we can compel a re-evaluation of fill methodology."
+
+    dr_sora_kim "Exactly. That language is what binds policy to ecology. Without it, you get promises."
+    "Your chest tightens at the word 'promises' — last night's pledge at the lighthouse hums in your ears. The rooftop seems to shrink and expand with the weight of possibility. You imagine Irene Vale reading your face through a framed photograph and deciding if you are flexible enough."
+    # play sound "sfx_placeholder"  # [Sound: A text message pings. The sender is labeled 'Irene Vale' and the preview reads: 'We need signature by Friday. Investors are uneasy. Town needs jobs. We can protect what we can, but act now. —I.']
+    "You feel the air go out of your lungs as if the whole bay exhaled at once. The timetable collapses into a single axis: sign now, or fracture later. Your mind runs a thousand municipal equations"
+    "in the space of a heartbeat — payroll schedules, contractor deadlines, an older neighbor’s landlord notice, the apprentices' upcoming school costs."
+    "Evan places his palm flat on the table, mirroring yours. His voice is low but steady, edges smoothed by tenderness."
+
+    evan_kaito "Whatever you choose, I'll stand with you. But I won't push you into promising more than we can deliver. I've been that man. I don't want to be him again."
+    "You search his eyes for the man who built things to shelter people, and you find him — present, honest, the kind of quiet courage that could turn a small prototype into a political instrument. The"
+    "rooftop holds its breath with you. The seedlings tilt in the sun like a small congregation."
+    "Your internal monologue is a drumroll. You count the stakes as if tallying people: Captain Reyes and his apprentices; the fishers who voted for immediate rigs; the graduate students Sora will send out to measure sediment;"
+    "the sequence of legal signatures that will chain the developer's feet to ecological obligations. You are at a crossroads that will name the kind of leader you will be and the kind of relationship you can"
+    "allow with someone who shares your work and your vulnerabilities."
+    "Everything vibrates: the thrumming strings of the music, the metallic edge of the prototype, the urgent ping of the text, Tala's half-hopeful laughter, Sora's precise cadence. Your arousal spikes — not panic, not despair, but a"
+    "high, bright pressure that propels you toward decision. The positivity underneath it all isn't naïveté; it's a stubborn faith that careful, clever action can bind profit to repair, that intimacy can be a steadying force rather"
+    "than a liability."
+    "You look at the draft on the table, at the clause that eats marshland for 'engineered foundations', and you feel the map of possible futures fan out like tidal creases. Each choice will pulse through the town; each will press on your capacity for love and responsibility."
+    hide tala_ruiz
+    hide dr_sora_kim
+    hide evan_kaito
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play music "music_placeholder"  # [Music: Swell to a very high, insistent chord; the strings are urgent, hopeful, and impossibly bright]
+    "You find your voice and speak, not to decide, but to measure the room."
+    show maya_alvarez at left:
+        zoom 0.7
+
+    maya_alvarez "We have three paths in front of us. Sign and secure set-asides and apprenticeships now. Refuse and push for stronger, measurable protections. Or sign publicly and use the contract to stage the pilot and force a public reckoning later."
+    "Evan's hand tightens on yours, brief and grounding."
+    show evan_kaito at right:
+        zoom 0.7
+
+    evan_kaito "Whatever you pick, make sure you can live with the consequences. Make sure the town can live with them."
+    "Tala folds her arms, impatient and proud."
+    show tala_ruiz at center:
+        zoom 0.7
+
+    tala_ruiz "Don't let them call us sentimental — let them call us competent."
+    "Dr. Sora Kim places a gentle hand on the contract."
+    hide maya_alvarez
+    show dr_sora_kim at left:
+        zoom 0.7
+
+    dr_sora_kim "And make sure the science is non-negotiable. Without the numbers, we have sentiment; with them, we have leverage."
+    "You inhale. The rooftop narrows to the table, to the model, to the single line of text that will tilt policy and people. The pressure is hot, but it feels like purpose more than fear. You"
+    "are not alone here: you have a maker at your side, a scientist in your corner, a childhood friend ready to mobilize, and a captain whose stories of marsh memory stitch the present to the past."
+    "The decision waits like a tide at the lip of the shore: it will come in, or it will hold."
+
+    menu:
+        "Sign the conditional contract now; secure set-asides and apprenticeships.":
+            jump chapter6
+        "Refuse to sign; push for stronger, measurable marsh protections now.":
+            jump chapter13
+        "Sign but make the ink public: use the agreement as a staged leverage to pilot Evan’s habitat and force a public reckoning later.":
+            jump chapter14
+    return

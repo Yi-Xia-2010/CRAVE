@@ -1,0 +1,202 @@
+label chapter18:
+
+    # [Scene: Municipal Depot | Morning]
+
+    scene bg ch15_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant engines of supply trucks, the clack of tools, a chorus of voices rehearsing chants]
+    # play music "music_placeholder"  # [Music: Bright, insistent strings — a forward-driving rhythm]
+    "You stand with your palm against the cool metal of a crate, breathing in a salt-and-soil mix that feels impossibly like the neighborhood itself. The decision you made in the lab — to back Elias's demonstration"
+    "— has already reoriented the morning: plans that were tentative are suddenly kinetic. People move with purpose, not panic; urgency braided with care."
+    "Your notebook is closed at your hip. The potted cutting swings gently in its sling and you check its soil reflexively as if tending it will steady the day. Around you, Teo is barking logistics at"
+    "two volunteers, folding tarps and looping ropes. Sofia hands out thermoses from a battered cooler, her laugh cutting through the organized chaos like a line of light."
+    "Elias Hart approaches with paint on his knuckles and a grin that looks like sunrise. He catches your eye first and then takes in the depot — the banners, the makeshift first-aid kits, the woven placards that read things you had helped edit in the late hours."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "You did that. You know it’s going to be messy, right? Cameras, chants, Leon's PR trying to spin it into a circus. But messy works."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "Messy gets attention. Messy gets responses. We must keep the message tight — oversight, publicly auditable data, and a guarantee for local operations. Otherwise it's just optics."
+    "Elias Hart's grin softens; his optimism steadies into something like appreciation."
+
+    elias_hart "And that's why I asked you to lead the outreach. You balance stubbornness with strategy. Promise me you won’t neutralize the heart of it."
+    "You feel the old friction — his tendency to romanticize disruption and your need for procedural guardrails — but in the morning light it reads less like opposition and more like a necessary double helix."
+
+    asha_rivera "I won't. You'll bring the people; I'll bring the terms. We make them visible and we make them accountable. Teo, routes?"
+    show mateo_teo_rivera at center:
+        zoom 0.7
+
+    mateo_teo_rivera "West corridor clear. Two boats for the boardwalk stretch. Sofia's got snacks, and Jun is streaming the data feed from the lab. If the mayor drags her feet, we light up the numbers live."
+    hide elias_hart
+    show sofia_navarro at left:
+        zoom 0.7
+
+    sofia_navarro "And if anyone gets tired, they eat. This community doesn't do energy saps."
+    "The depot thrums — a living thing waking. You listen to it, to the clatter and the small kindnesses, and something in you relaxes into a resolute rhythm."
+
+    menu:
+        "Hand paint the main banner with Elias":
+            "You take a brush. The paint smells of solvent and rain. Together you stroke letters that bob like tide lines; Elias moves fast, and you find that your timing syncs again."
+        "Organize the legal packets and training scripts":
+            "You spread the contracts and training outlines across the bench. Volunteers gather around your careful notes; the readiness in their eyes steadies you in a way banners cannot."
+
+    # --- merge ---
+    "Narrative continues below."
+    # [Scene: Skyward Market | Midday]
+    hide asha_rivera
+    hide mateo_teo_rivera
+    hide sofia_navarro
+
+    scene bg ch15_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Market chatter, the hiss of a grill, the murmur of a crowd swelling in the distance]
+    # [Smell: Citrus, wet compost, frying dough]
+    # play music "music_placeholder"  # [Music: Warm acoustic motifs layered with a building percussive undercurrent]
+    "You walk through the market with Elias Hart at your side and a folded placard tucked under your arm. The market smells like every decision you have ever made here — soil and citrus, old cloth"
+    "and the iron tang of policy argued over late into nights. Vendors lean out of their stalls to touch your shoulder or press a flier into your hand. People you’ve taught to graft seedlings call out,"
+    "offering water jugs and spare hands."
+    "Sofia moves between tables, distributing leaflets with practiced grace. A grandmother presses a small clay bird into your palms — a charm, she says, for safe travels. You tuck it into your jacket, feeling the weight of the neighborhood's blessing."
+    "Someone in the crowd mutters, 'They're packing a march to the boardwalk.' A ripple of sound —footsteps, the tightening of straps — becomes a pulse."
+    "A vendor, ragged at the edge but steady, confronts Elias Hart with a practical fear."
+
+    "Vendor" "What if they come in with armored vans and take the pilot as some 'test' that later becomes a tower? How do we stop that?"
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "We don't let them. We're bringing everyone. We'll post the audits live. We'll hold them by their own promises."
+    "You step forward, feeling the need to anchor his rush with specifics."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We have commitments on the table, but this demonstration must translate into enforceable clauses. If Leon's people try to pivot the narrative, we feed the public the data Jun is streaming. If the mayor promises funds in private, we ask for public hearings immediately. Visibility isn't noise — it's accountability."
+
+    "Vendor" "Then make sure we keep our hands in the machine. No outsiders running our pumps."
+
+    asha_rivera "No outsiders running our pumps."
+    "The market seems to exhale in approval. Hands are clasped, banners are pinned to poles. Somebody starts a chant and it spreads like a breeze over water."
+
+    menu:
+        "Take the microphone to speak at the market kickoff":
+            "You climb the crate with the mic; your voice rolls through the rafters. You speak precise, human lines about oversight and training, and people quiet to listen."
+        "Stay in the crowd to coordinate logistics":
+            "You remain in the weave of the crowd, answering questions, redirecting volunteers, catching small emergencies before they grow. Your presence becomes a quiet force-multiplier."
+
+    # --- merge ---
+    "Narrative continues below."
+
+    elias_hart "Whatever you do, stay visible. People need to see someone who'll hold their hand on the paper."
+
+    asha_rivera "Visible with the paperwork. That's the bargain."
+    "He laughs, then his expression finds yours — something like apology and something like promise mixed in. For the first time since the falling-out, there is no edge of accusation in the way his hand lingers near yours when he passes you a stack of flyers."
+    # [Scene: Old Estuary Boardwalk | Dusk]
+    hide elias_hart
+    hide asha_rivera
+
+    scene bg ch15_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The crowd's distant chanting, the slap of small waves, the metallic echo of a municipal vehicle arriving]
+    # [Smell: Wet wood, salt spray, a faint metallic tang of electricity from deployed sensors]
+    # play music "music_placeholder"  # [Music: A swelling, optimistic chord that resolves into a gentle, assured motif]
+    "You stand at the edge of the boardwalk, the demonstration massed between mangroves and the municipal vehicle parked under the harbor lights. The crowd's energy is taut and bright. People are tired and fierce in the"
+    "way of those who have loved something through damage and promised to tend it back. Children cling to shoulders; elders hold wooden signs; the bandolier of first-aid volunteers threads through the edges."
+    "From the municipal vehicle, Mayor Lila steps out with a laminated folder in her hand. Her face is a map — worry lines softened by determination. She surveys the crowd, the banners, the network of faces"
+    "she answers to, and then finds you. For a pause, time narrows to the space between two exhalations."
+    show mayor_lila_ortega at left:
+        zoom 0.7
+
+    mayor_lila_ortega "I heard you would be here. I want this to be constructive. The city has emergency funds we can redirect today, but my team needs a public commitment that the pilot will include community oversight and transparent reporting."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We asked for that. We asked for enforceable oversight, local operations and training, and transparent public data with community-led audits. We can't accept a PR stunt."
+
+    mayor_lila_ortega "Signed audits, public launch plans, and a clause that ensures local training and co-management — if we write these into the ordinance today, I can secure emergency allocations and expedite permitting. There will be legal language, but I'm ready to push it through council in the emergency session tomorrow."
+    "A murmur passes through the assembled — hope unfurling like sails. You sense the crowd shifting, leaning into the possibility that months of labor may be parlayed into weeks of implementation."
+    "Elias Hart steps forward, voice carried by the crowd's momentum."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "We asked for enforceable promises. We asked to be partners and stewards. Will you sign that today, Lila? We'll give you the space to do governance, but not at the cost of our autonomy."
+
+    mayor_lila_ortega "I will sign. But know this: I have to balance constituencies. This will be a test. I'll put the ordinance on the table and I will publically commit these funds if the legal team can ensure the clauses are enforceable."
+    "She opens her folder and produces a set of printed lines — not the finished ordinance but a memorandum of intent, the kind of political seal that catalyzes action."
+    "You think of Jun's data streams, of the sensors half-built at Tideworks, of the volunteers learning to read pH and pump flow. You think of Teo's hands repairing valves at midnight and Sofia's steady way of"
+    "holding the neighborhood together. You think of every small, patient negotiation that carried you to this boardwalk."
+
+    asha_rivera "Make it public. Post it on the municipal feed, put the audits on the city portal, and schedule a public launch with community-led training. If Leon's team pushes back, the city knows citizens saw this signed promise."
+
+    mayor_lila_ortega "Agreed. We'll publish everything and include community auditors. I can't promise the world, but I can promise the machinery of government will be visible and answerable."
+    "There's a sound like a held breath being released — not triumph, not yet, but a collective pivot toward possibility. You feel the light change: the last gold of dusk stretches into lantern-lit determination."
+    "Elias Hart reaches for your hand with a quick, almost clumsy motion. The crowd parts like water around a buoy. He does not make a speech — his presence says enough: we brought them here, and they listened."
+
+    elias_hart "This is just the beginning, Asha. People will see how we steward it. They'll see these initiatives protect homes, grow food, and keep tides at bay. Then we'll have leverage for more."
+
+    asha_rivera "And if the funding wobbles or the lawyers wriggle?"
+
+    elias_hart "Then we don't give up. We ramp the visibility. We bring the numbers to the public square. We keep doing what we do."
+    "You hold his gaze, feeling years of shared effort and the new weight of public responsibility. The demonstration folds into a process — the mayor's signature is a hinge. What comes next will be labor and"
+    "negotiation, but also a rare alignment: grassroots pressure translated into municipal authority, funds moving fast enough to matter."
+    "Teo finds you and squeezes your shoulder — a shorthand for relief and for the heavy work that remains. Sofia presses a bowl of warm soup into your hands. The community crowds in; someone shouts a chant and the sound grows until it seems the estuary itself hums in answer."
+    "You stand at the edge of the boardwalk, lantern light catching the sea-glass braid in your hair. For once, hope is not a quiet private thing; it's loud, shared, and actionable. The pilot rollout is scheduled."
+    "The city has promised emergency funds. Contracts will be drawn with the clauses you insisted upon. Auditors — community-nominated — will sit at the table. Volunteers will be trained and lead operations."
+    "You let yourself feel the rise: the slow, inevitable lifting of momentum into change. It does not erase losses, but it begins to mend them."
+
+    elias_hart "Do you know what this feels like? It feels like the city hearing us for the first time in a way that matters."
+
+    asha_rivera "It feels like responsibility. And like the chance to show something different: that community care and competent engineering can hold hands."
+    "He looks at you then, really looks — no agenda this time, just presence, and your chest loosens around something you have been holding in for months."
+
+    elias_hart "Will you walk the pilot with me? Side by side?"
+    "You consider the literal meaning — fieldwork, audits, meetings — and the other meaning — trust, reconciliation. You think of refusing compromise until it's almost too late, of the fear of betraying your people, and of the small green cutting at your hip that kept growing no matter the storms."
+
+    asha_rivera "Side by side,"
+    hide mayor_lila_ortega
+    hide asha_rivera
+    hide elias_hart
+
+    scene bg ch15_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: A warm, rising harmony]
+    "Around you, the community organizes itself into teams: training pods, sensor crews, documentation circles. Jun's live feed blinks across phones. Volunteers practice the routines you wrote down. The mayor's memorandum is shared on screens, and lawyers beginning the ordinance type into tablets with furrowed concentration."
+    "You watch people you love set to work — repairing, testing, teaching — and it hits you that victory here will be measured in the small, repeatable acts that keep systems running and people fed. The"
+    "public demonstration has done more than force a signature; it has accelerated a sliver of time so that funding, law, and community capacity crested together."
+    "A soft breeze lifts the edge of a banner. You feel the neighborhood's weight and warmth in your hands and you let it be heavy for a moment, letting the satisfaction sit in your bones. This"
+    "is not salvation, only a beginning that looks, after so much struggle, like a plausible path forward."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "Are you going to cry or are you saving tears for celebration?"
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "I am cataloguing them. For metrics."
+    "He nudges you with an elbow. Teo whoops in the background. Sofia presses another thermos into your palm. The crowd starts a new chant that is part promise and part plan, and you join in because you can — because action has found language."
+    hide elias_hart
+    hide asha_rivera
+
+    scene bg ch15_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: Builds to a gentle, hopeful resolution]
+    "You stay on the boardwalk long after the mayor's motorcade has receded and the formalities have been posted to public feeds. You talk logistics with Teo, plan training schedules with Sofia, and map the first wave"
+    "of sensor deployments with Jun over a borrowed tablet. Each conversation loops back to the same center: community control, transparent data, and the hard work of stewardship."
+    "When the crowd finally begins to disperse, you stand with Elias Hart at the very edge, looking over the water. The sky is a wide, forgiving color. The city behind you hums like an organism now awake to a possible path."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "We didn't just force a concession. We set a precedent."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "Then we make sure it becomes a model, not a one-off. We document, teach, and keep the community in the engine room."
+    "He nods, then offers something that is both personal and political."
+
+    elias_hart "A toast, then — to messy, visible, accountable work. To standing side by side. To the people who showed up."
+    "You raise your thermos. Around you, lights blink on in the barrio, the market vendors sweep up, and the first classes for community auditors are scheduled in a list your hand already tucks into your notebook."
+    "You close your eyes for a breath and let the rising feeling fill you: not victory, not even relief exactly, but the deep current of communal momentum — accelerations wrought by care, by pressure, and by a refusal to be sidelined."
+    hide elias_hart
+    hide asha_rivera
+
+    scene bg ch15_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: Resolves into a warm, sustained chord]
+
+    scene bg ch15_3be532_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,114 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) and Genre (Romance) as an opportunity to make a personal love story emerge from systemic environmental crisis. The climate backdrop is not just wallpaper but the engine of conflict: scarce resources, displacement, and competing visions for adaptation shape characters' desires and moral choices. The romance serves as the emotional kernel—two people learning to trust, compromise, and weigh individual attachment against community resilience. Core conflict: whether to pursue technological/market solutions that risk social fracture, or community-centered, slower adaptations that preserve memory and connection. This sets up intimate stakes (relationships, regret, forgiveness) inside civic stakes (policy, development, habitat).",
+    "setting": "Near-future coastal city (circa 2040) where sea rise, frequent storms, and managed retreats have reshaped neighborhoods. Low-lying districts merge with marshes; reclaimed boardwalks and solar piers sit beside abandoned high-rises. The atmosphere is melancholic but pulsing with grassroots resilience—salty air, patchwork flood defenses, community gardens on rooftops, and public murals cataloging lost streets.",
+    "visual_style": "Neo-realist watercolor, muted coastal palette (sea-glass greens, washed denim, rust), soft anime-influenced character linework, cinematic backlighting, wet-surface reflections, tactile mixed-media textures",
+    "main_characters": [
+        {
+            "name": "Ava Marin",
+            "role": "Protagonist",
+            "personality": "Determined, empathetic, practical and stubborn; deeply community-focused with a tendency to shoulder responsibility for others' suffering. Quick to act, slow to forgive herself. She is a listener who becomes a catalyst.",
+            "appearance_features": {
+                "hair": "Dark green-black, shoulder-length waves with sun-bleached copper tips and a habitual strand tucked behind one ear",
+                "eyes": "Sea-glass green, wide and observant with faint crow's feet from squinting into bright horizons",
+                "clothing": "Patchwork waterproof field jacket (olive canvas patched with colorful scrap fabric) over a faded striped linen shirt and high-waist cargo trousers; worn rubber sandals for wet walkways; often has a damp scarf tossed into a bag",
+                "accessories": "A battered leather field journal bound with twine, a thin silver ring shaped like a curling wave on her index finger, a woven bracelet made from repurposed fishing line"
+            },
+            "goal": "Protect and adapt her Tideward neighborhood so residents can remain and maintain their cultural memory; to build cooperative defenses and community-led rebuilding.",
+            "background_story": "Born and raised in Tideward; her family ran a small repair shop that was partially lost in a major storm when she was sixteen. That loss pushed her into community organizing—repairing homes, mapping high-tide routes, and documenting neighborhood histories. She balances practical adaptation work with curating an oral archive of the area.",
+            "emotional_trait": "Strength: fierce empathy and resilience. Flaw: guilt-driven stubbornness that makes her push others away when decisions are hard."
+        },
+        {
+            "name": "Ilan Cortez",
+            "role": "Love Interest",
+            "personality": "Inventive, idealistic, quietly charismatic. Analytical and optimistic about technical solutions but emotionally cautious. He treads a line between engineer pragmatism and romantic idealism.",
+            "appearance_features": {
+                "hair": "Dark brown, short undercut with a longer top he often slicks back; a few sun-bleached strands fall forward when he focuses",
+                "eyes": "Warm amber-brown, slightly almond-shaped and reflective when he talks about ideas",
+                "clothing": "Slim technical vest woven with integrated micro-solar panels over a breathable henley; rolled sleeves reveal ink smudges and light burn marks; tapered dark denim with reinforced knees; lightweight waterproof trainers",
+                "accessories": "A small brass compass his grandfather gave him on a chain, a prototype microfilter pendant that doubles as a locket, and a battered smartwatch he uses for field data"
+            },
+            "goal": "Design and deploy affordable, community-scaled adaptation tech (modular flood barriers, solar microgrids, water filtration) that keeps people in place without corporate displacement.",
+            "background_story": "Raised inland, Ilan worked at a promising green-tech startup until his hometown was hit by an inland flash flood; he left the corporate track to focus on tangible, low-cost devices for neighborhoods. He arrived in Tideward to pilot a modular barrier system and to reconnect with the coastal culture he loved on childhood visits.",
+            "emotional_trait": "Strength: quiet resilience and optimism. Flaw: tendency to prioritize technical solutions and prototypes over people’s emotional needs and social complexity."
+        },
+        {
+            "name": "Evelyn Harrow",
+            "role": "Antagonist",
+            "personality": "Polished, decisive, and strategically pragmatic. Charismatic in public with a private utilitarian calculus. She believes hard choices and centralized coordination are required to save the city’s future.",
+            "appearance_features": {
+                "hair": "Silver-blonde bob, bone-straight and meticulously styled with an asymmetrical fringe",
+                "eyes": "Steel-gray, narrow and assessing; carries an expression of concentrated control",
+                "clothing": "Tailored navy trench coat with water-resistant lapels, silk blouse, smart rubber boots with chromed buckles; always immaculate even in rain",
+                "accessories": "A digital lapel pin that displays municipal flood metrics, a jade cufflink set, and a slim encrypted tablet she keeps clipped to her belt"
+            },
+            "goal": "Implement a city-wide managed retreat and redevelopment plan that she believes will secure long-term economic survival—even if it requires relocating vulnerable communities and enabling private development on newly consolidated land.",
+            "background_story": "A career urban planner who rose through municipal ranks after her family was displaced in an earlier storm. Hardened by political compromise and pressured by investors, Evelyn now navigates between donors and public welfare, convinced tough central action is the only viable path.",
+            "emotional_trait": "Strength: decisive leadership and clarity under pressure. Flaw: cold utilitarianism and emotional distance that blinds her to cultural cost and personal grief in communities."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mira Soto",
+            "relation_to_main": "Childhood friend of Ava",
+            "appearance_summary": "Short, sun-freckled with a shaved undercut and vibrant patchwork skirts; always carrying a thermos and a bag of seeds.",
+            "function_in_story": "Emotional anchor to Ava; leads the community seed-exchange garden and helps ground Ava’s decisions in daily life and memory."
+        },
+        {
+            "name": "Tomas Marin",
+            "relation_to_main": "Ava's uncle and small-boat mechanic",
+            "appearance_summary": "Salt-gray hair in a low ponytail, oil-stained hands, thick canvas jacket patched with sailcloth.",
+            "function_in_story": "Represents traditional local livelihoods and skepticism of large-scale tech solutions; provides boats, local knowledge, and moral complexity about leaving vs staying."
+        },
+        {
+            "name": "Rahim Okoye",
+            "relation_to_main": "Leader of a citywide adaptation coalition, occasional ally to Ilan",
+            "appearance_summary": "Tall, calm demeanor, cropped hair, utilitarian vest festooned with pins representing different neighborhoods.",
+            "function_in_story": "Acts as a bridge between grassroots organizers and municipal policy; pressures both Ava and Ilan to scale solutions but also warns against top-down displacement."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tideward Neighborhood",
+            "visual_description": "Low-lying lanes of weathered clapboard houses on stilts, tangled with rope-and-salvage fences. Golden-hour light cuts across wet cobbles; salt-stained murals and handwritten signs cling to lampposts. After rain, puddles reflect string lights and revitalized rooftop gardens. The palette is muted teal, rust, and sun-faded coral; air is thick with brine and diesel from small boats."
+        },
+        {
+            "name": "Saltworks Lab",
+            "visual_description": "A repurposed warehouse on a reclaimed pier, interiors lit with warm LED task-lamps that create pools of light over workbenches. Tools, schematics, and 3D-printed molds scatter the concrete floor. Large windows frame churning gray seas and a horizon with scaffolding from nearby projects. Colors: industrial steel, warm amber lights, and hints of green from salvaged plants."
+        },
+        {
+            "name": "City Hall Promenade",
+            "visual_description": "Polished stone steps facing a broad waterfront boulevard. Sleek municipal kiosks and digital screens display tidal alerts in muted blues. Even on overcast days the promenade feels formal: clean lines, glass railings, and manicured salt-tolerant hedges. Lighting is cool and even, producing a civic, slightly antiseptic atmosphere."
+        },
+        {
+            "name": "Moonlit Boardwalk",
+            "visual_description": "A narrow wooden boardwalk that projects into marshland; lanterns cast soft, golden pools that glimmer on wet planks. Night fog curls low, muffling sounds. Architecture is sparse—benches made from driftwood and signal flags. Colors are deep indigo, muted gold, and soft silver reflections."
+        },
+        {
+            "name": "High-Rise Development Site",
+            "visual_description": "Concrete skeletons and cranes silhouetted against a stormy sky. Temporary flood barriers and heavy machinery occupy muddy lots; warning lights blink red against the slate background. The environment feels urgent and clinical—cold concrete, fluorescents, and the metallic scent of new construction."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Ava and Ilan succeed in piloting a hybrid strategy: community-built modular defenses paired with distributed microgrids. Evelyn compromises, adopting community-led planning for Tideward after public pressure. Tideward remains inhabited, revitalized with resilient infrastructure and a newly formalized community co-op; Ava and Ilan commit to each other and to shared stewardship of the neighborhood."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The city approves a limited managed retreat: some areas, including parts of Tideward, must relocate to higher ground. Ava leads a successful cultural rescue—an archive, relocated homes, and a waterfront memorial—while Ilan's tech is repurposed into mobile units for resettled communities. The lovers part ways geographically but remain emotionally connected; the community survives but transformed, carrying loss alongside hope."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate-backed development proceeds after regulatory maneuvering; Tideward is cleared. Ava is forced to watch the neighborhood razed despite protests. Ilan's tech is absorbed into private infrastructure that marginalizes former residents. Their romance fractures under ethical disagreement; Ava becomes an activist working elsewhere, carrying deep grief and a fierce vow to fight future displacements."
+        },
+        {
+            "type": "True",
+            "summary": "No tidy victory: the city settles into a long-term hybrid response with persistent tensions. Ava and Ilan build something small but resilient with their neighbors, while Evelyn's policies shift in increments. The ending emphasizes ongoing work and accountability—love survives as a practice of listening, rebuilding trust, and iterative adaptation rather than a finalized happily-ever-after."
+        }
+    ],
+    "estimated_chapters": 6
+}

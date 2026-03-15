@@ -1,0 +1,199 @@
+### SCRIPT
+# Route: Route B / Ending: Bittersweet
+# Context: 3be532
+
+[Scene: Old Lighthouse & Sunset Promenade | Sunset]
+[Background:"ch9_3be532_1"]
+[Music: Low, urgent strings; a taut, pulsing percussion beneath a sustained, high violin note]
+[Sound: Wind, distant gull calls, the thin creak of metal railings]
+
+You remember the first winter after the wall went up as if it were a small, expensive miracle: streets that had flooded every spring stayed dry, market tables stayed upright, and the pier's worst puddles shrank to memory. For a season the town breathed. You sat in Maya's kitchen and watched Tomas laugh as he tightened a new sail, and you felt that tight, unfamiliar thing—relief—knot and then loosen in your chest.
+
+[Background:"ch9_3be532_2"]
+[Narration]
+Your dashboard followed the celebration: surge heights down at core points, insurance calls slowing, short-term jobs for concrete crews and new patrols. The numbers blinked green enough to let people sleep again.
+
+But numbers are not the whole shore.
+
+[Sound: A single, sharp gull cry; then silence]
+[Music: Strings shift to a harsher minor drone]
+
+Months passed like pages in a field notebook. The wall held where it stood. Down-coast, the coves began to eat themselves.
+
+[Scene: Down-Coast Coves | Various—dawn, low tide, thunderheads]
+[Background:"ch9_3be532_3"]
+[Sound: The hollow clack of exposed shell; the soft, persistent hiss of currents finding a new path]
+[Narration]
+You read the reports until the margins blurred: increased downdrift erosion; oyster beds in decline; sediment starving places that had always been fed by longshore drift. Boats nosed into strange channels. The narrow street—Elm Row, the one with the sagging porches and salt-stain curtains—began to slump, one house at a time, as if the earth were shrugging off parts of town it no longer wanted to hold.
+
+[Background:"ch9_3be532_4"]
+[Sound: Muffled phone alerts; a distant, panicked hum of a community group chat]
+
+You are at the monitoring board when the alarm tone changes from routine to urgent. The screen that once offered reassurances now lists bullet points you did not want to see: "Down-coast erosion exceedance: immediate assessment recommended." The legalese crawls like tide lines—a promise that enforcement is slow, that clauses will be argued, that escrowed funds can be redirected. The board's chair keeps saying "process" like a mantra. Process does not stop a porch from failing.
+
+[INTERACTION]
+> Choice A: "Step down to Elm Row to see the slumping houses"
+> Choice B: "Call Rin and tell them to meet you at the lighthouse"
+> Choice C: "Draft an immediate advisory to the council demanding enforcement"
+[Outcome A: "You drop your notebook into your jacket and walk the twelve-minute path to the narrow street, toes slipping on packed mud. You feel every grain beneath your boots as if it is a ledger of the town's debts."]
+[Outcome B: "You thumb through your contacts with hands that shake. The call connects. Rin's voice is close, alive—an offering. 'I'm on my way,' they say, and that simple answer steadies something brittle inside you."]
+[Outcome C: "You open the template and the words stick. Your fingers can form policy but not absolution. Sending it feels like a rope thrown from a slowly sinking ship."]
+[MERGE: The narrative continues at the Harborstone Pier one week later.]
+
+[Scene: Harborstone Pier | Noon — a week later]
+[Background:"ch9_3be532_5"]
+[Sound: The rasp of machinery, murmured interviews, the click of camera shutters]
+[Narration]
+Some neighbors accept buyouts. Others watch their boats list in new currents, funeral slow and quiet. The pier wears a patchwork expression: people repairing what they can, and staring at what they cannot. Repair bills arrive like little summonses. Every invoice is a small loss. Every withheld clause is a larger one.
+
+[Background:"ch9_3be532_6"]
+[Sound: Reporter murmurs; the scrape of a photographer's vest]
+[Narration]
+Elias comes with the courtesy of a man with a plan that once made sense. He smiles. He speaks of safety, of "hard choices" and "legacy." He has visiting cards and flinty blue eyes that miss nothing.
+
+Elias Hart: "Alea—"
+[Background:"ch9_3be532_7"]
+Elias Hart: "—you did what you thought best. The wall kept the worst at bay. That counts for something."
+
+Alea Maren: "It counts. For some. But what about the coves? What about the houses at Elm Row? The oyster beds collapse on the map like lost teeth."
+
+Elias Hart: "Down drift is a known consequence. We committed to mitigation funds, monitoring, and compensatory measures. These take time—legal frameworks, contractors—"
+
+Alea Maren: "Time is exactly what people don't have. 'Mitigation funds' are not planks. They do not hold porches. They do not put back spawning grounds. You promised oversight."
+
+Elias Hart: [voice narrows] "Oversight takes institutions. You pushed for expediency, Alea—you asked us to act. We acted. If you want to rewrite the past, sue me."
+
+Alea Maren: "I didn't ask for urgency that shipped the problem down the coast."
+
+Elias Hart: "You were the one running models. You told us where the risk concentrated. We acted to reduce immediate casualties." (He gestures to the pier, to the people unloading crates of supplies.) "Isn't that what you wanted? Saved lives."
+
+[Music: A sudden, high, strident chord — everything tightens]
+[Narration]
+It becomes argument folded into accusation folded into the worn paper of long-standing fault lines: who left, who returned, who had money to lobby and who had not. Elias's words are practiced. They fit into cameras and grant proposals. Your anger is sharp enough to taste metallic salt.
+
+Alea Maren: "Saved lives, yes. But you shifted the ledger. You made a choice that pockets some people and empties others. The trade-offs are not incidental; they're deliberate."
+
+Elias Hart: [quiet, almost intimate] "Trade-offs are governance, Alea. You can't save everyone."
+
+Alea Maren: "Maybe you can try to do it without handing the bill to the poorest."
+
+Elias Hart: "You're asking for what sounds noble but is often infeasible. If you prefer moral purity to pragmatic protection, that's a choice you make every time you speak in front of a crowd."
+
+[Background:"ch9_3be532_8"]
+[Sound: A single, deep horn from a barge far off; a neighbor's dog barking like a calendar of alarm]
+
+[Narration]
+His eyes flicker—there, a fraction of something like regret—then back to steel. He is both self-assured and, you realize, terrified that his name will be the one the town remembers when the next storm comes. He will stave off that memory with contracts and press releases. Contracts rarely remember oyster beds.
+
+[INTERACTION]
+> Choice A: "Call out Elias publicly in front of the press"
+> Choice B: "Keep the confrontation private—file a detailed report and push for legal enforcement"
+[Outcome A: "You open your mouth and your voice is a low, dangerous thing. For a second the air around you holds like glass. Cameras tilt; mouths go attentive. You speak the sentence that will be replayed: 'This protection came at a price we did not consent to pay.' The microphones hum. Elias's jaw tightens."]
+[Outcome B: "You step back, letting the cameras frame Elias. You gather evidence instead of headlines. It feels slower, like suturing a wound that wants to bleed. But you believe in stitches."]
+[MERGE: Narrative continues at Elm Row weeks later.]
+
+[Scene: Elm Row | Afternoon — weeks later]
+[Background:"ch9_3be532_9"]
+[Sound: The low thump of heavy equipment; people murmuring each other’s names]
+[Narration]
+You stand with a clipboard that feels suddenly ludicrous—data in the face of a sagging foundation. The neighbors who could not afford buyouts stand like weathered markers and watch the town take pieces from them, slowly.
+
+A woman you know—Mrs. Delgado—walks by with a box of photographs. She says nothing. Her husband opens the box at your feet: a paperboat bent with a name, a kindergarten drawing, an old postcard of the pier in good weather. He looks up at you. His eyes are asking for the thing you don't have: restitution that is more than money.
+
+Alea Maren: "We will document everything. I will push the board. I will—"
+Mrs. Delgado: [voice rough] "Will you keep our house? Because paperwork doesn't stop the porch from tipping."
+
+[Music: Drums accelerate into a frenzy; a high violin screeches]
+[Narration — Climax]
+The ground gives a small, terrible knuckle. A neighbor's car slides. Emergency personnel shout. The house at the corner—always the one you thought would hold—finally lets go and tips slow as a confession into the new channel. The world narrows to shattering glass and the child's plastic boat rolling into the mud like an offering.
+
+Alea Maren drops to her knees. The clipboard clatters. Your hands are raw from trying to hold policy together with paper.
+
+[Sound: A rider's horn, a chorus of weeping, a reporter's breathless questions]
+[Narration]
+You thought the arousal of the negotiation was the peak. You were wrong. This is the peak: a slow, irrevocable unmaking made visible in the tilt of rafters.
+
+Elias stands nearby when the house goes. He looks like a man who is being stripped naked in public—no more comfortable under scrutiny than the rest of the town. He offers words, official-sounding, hollowed by the reality they meet.
+
+Elias Hart: [softly] "We can expand the mitigation—there are funds we can redirect—"
+
+[Background:"ch9_3be532_10"]
+Alea Maren: "Redirect? To whom? To who at the end of this? Some families never get back the beds the sea takes."
+
+Elias Hart: "I didn't foresee the rate. The models—"
+
+Alea Maren: "You had the models. You had the money. You had the podium."
+
+[Music: A single, shattering chord, then a breakdown into a low, mournful drone]
+
+[Narration]
+You feel something fracture in you other than professional certainty. It is a harder, private crack—guilt, shame, the knowledge that your shorthand for compromise helped carve the coastline into winners and losers.
+
+[Scene: Old Lighthouse & Sunset Promenade | Sunset — later that evening]
+[Background:"ch9_3be532_11"]
+[Sound: Soft rain threatening in the distance; the lighthouse breathes its slow, faithful flash]
+[Music: A plaintive cello, then silence held like a held breath]
+
+Rin Sato: [quiet, their hand finding yours] "You look like someone who has been carrying a sea in their chest."
+
+Alea Maren: (your palm is damp against theirs; you squeeze) "I built something to hold people. It held them. And it took something from others. I thought saving lives would feel like victory. It feels like theft."
+
+Rin Sato: "It feels like loss because it is loss. We cannot unmake what was done. But we can—" (they search for the word) "—keep the living parts alive. Plant what will grow. Hold rooms for people. Fight where we can."
+
+Alea Maren: "I keep seeing Mrs. Delgado's box of photos. I keep seeing that child's crooked swing. I keep thinking maybe I stayed silent for the wrong reasons."
+
+Rin Sato: [their voice rough with feeling] "You tried to buy breathing room. That is not nothing. But you also have to learn to carry the parts you didn't save without letting them sink you entirely."
+
+[Narration — Multi-turn, tender and jagged]
+Alea Maren: "What if holding what we have means letting more go? What if staying together is selfish when the town needs someone to leave and fight systemically?"
+
+Rin Sato: "Then we decide together. We decide to be stubborn in a different way. We keep each other to remember who the shore belongs to. You don't have to do this alone."
+
+Alea Maren: (you look at the horizon; the sea has a ledger you did not write) "I wanted to be the person who used data to be merciful. Instead, it reads as compromise."
+
+Rin Sato: "Compromise always reads wrong up close. But you are not only compromise, Alea. You're also the one who stood up in council and said the words that made people listen in the first place."
+
+Alea Maren: "That voice got a wall built. It also weighted the scales."
+
+Rin Sato: (their thumb draws a line on the back of your hand) "Then we will spend the rest of our days leaning the scale back. If the town will let us. If you let me."
+
+[Narration]
+You hold their hand until the lighthouse blinks again. Between you there is warmth and a tired, stubborn resolve. It is small. It is real. It is not the world-saving arc you once fantasized about in textbooks, but it is life-affirming in its particularity: two bodies pressed shoulder to shoulder against salt and policy and loss.
+
+[Background:"ch9_3be532_12"]
+[Sound: A distant siren wends away; a gull shrieks; the foam paces the shore in a relentless, indifferent tempo]
+[Music: A low, steady bass line; the violin sighs a minor shift]
+
+[Narration — Denouement]
+The town will endure in the ways towns do: patched, rearranged, grieving. Some families left quietly after buyouts—faces that used to wave now gone. Some livelihoods stabilized; fishermen relearned rhythms. The pier's lights flick on and off as people count small recoveries and larger losses. The monitoring board drafts new clauses. The legal machine grinds slowly. Enforcement is bureaucratic and late; it is a poor makeshift justice.
+
+You have a person who will stay. You have a town that is safer in some ways and more fragile in others. You have the ledger you cannot wipe clean and the board you cannot force to move faster than process allows. You live with the memory of what the wall held and what it pushed away.
+
+[INTERACTION]
+> Choice A: "Promise Rin you'll keep fighting for the coves—file one last suit"
+> Choice B: "Fold into the small life with Rin—focus on repair and community rebuilding"
+> Choice C: "Do both—split time between local work and regional advocacy"
+[Outcome A: "You say the words: 'I'll fight. I'll file. I'll make them listen.' Your voice is hoarse but steady. Rin nods, mouth thin with tired pride."]
+[Outcome B: "You press your forehead briefly to theirs. You whisper about grafting cordgrass and seed collections and small joys. Rin smiles through a rain of grief, and for a breath the world feels almost bearable."]
+[Outcome C: "You draw in a long breath and aloud sketch a plan: weekends at Tide & Thread, weekdays compiling evidence for a regional coalition. It is exhausting but maybe, you think, sustainable."]
+[MERGE: The final reflection closes the chapter.]
+
+[Final Reflection]
+You taught the town to breathe again in the immediate sense. You also watched the shoreline tally losses that cannot be undone. The romance that grew in the margins—two people who passed each other in the chaos and then learned to keep each other—remains small, steadfast, an ember in a wind that keeps wanting to blow the town apart.
+
+You stand at the lighthouse once more, fingers threaded with Rin's, the umbrella between you both a fragile, painted promise. Below, somewhere farther down the coast, a seaside community mourns an oyster bed. A porch sinks. The legal calendars move. The sea keeps a scorecard only it understands.
+
+[Background:"ch9_3be532_13"]
+[Sound: The surf is steady, indifferent, the only metronome the world will accept]
+[Music: A single, low cello note holds through to silence]
+
+[Background:"ch9_3be532_14"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

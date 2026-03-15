@@ -1,0 +1,32 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand each criterion and how the story fits them.
+
+Starting with Relevance (Theme and Genre). The theme here is about the conflict between survival and cultural preservation, which is a common theme in visual novels that deal with societal issues. The genre seems to be a drama with elements of conflict and resolution. The story does match the theme well, so I'd say a high score here, maybe 5.
+
+Coherence: The story flows logically. The characters make decisions that lead to consequences, and the plot is clear. There's a beginning, middle, and end. So coherence is strong, probably a 5.
+
+Empathy: The characters' emotions are well portrayed. Marin's internal conflict between saving lives and losing cultural aspects is clear. Kaito's grief and determination are also evident. The reader can feel their struggles, so empathy is high, maybe 5.
+
+Surprise: The ending isn't a twist, but it's satisfying. The resolution is expected given the buildup. The story doesn't have a major surprise, so maybe a 3. It's not unexpected, but the resolution is meaningful.
+
+Engagement: The story is engaging with its emotional depth and relatable conflicts. The reader is invested in the characters' decisions and the town's future. So engagement is high, 5.
+
+Complexity: The story has layers with the conflict between technology and tradition, personal vs. community, and the ongoing struggle for cultural preservation. It's not overly complicated but has enough depth to be considered complex, so maybe a 4.
+
+Now, I need to structure this into JSON with the exact keys. Make sure explanations are concise and match the scores.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story strongly aligns with its theme of balancing survival and cultural preservation, exploring moral dilemmas and societal change. The genre (drama with societal conflict) is well-matched to the narrative focus on human struggles and decisions.",
+  "CH_Score": 5,
+  "CH_Explanation": "The plot is logically structured, with clear cause-and-effect relationships between characters' choices and consequences. The narrative flows smoothly from crisis to resolution, maintaining internal consistency.",
+  "EM_Score": 5,
+  "EM_Explanation": "Characters' emotions are deeply conveyed through their internal conflicts (e.g., Marin's guilt over lost traditions vs. saving lives) and interactions (e.g., Kaito's grief and resolve). Readers can empathize with their struggles and motivations.",
+  "SU_Score": 3,
+  "SU_Explanation": "The ending is satisfying but not surprising, as the resolution of conflict (compromise between survival and cultural preservation) feels inevitable given the buildup of tension and character arcs.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story is emotionally compelling, with relatable stakes and morally complex decisions that draw readers into the characters' world. The focus on community and personal sacrifice maintains engagement throughout.",
+  "CX_Score": 4,
+  "CX_Explanation": "The narrative weaves multiple layers—moral ambiguity, cultural identity, and societal resilience—into a cohesive story. While not overly intricate, it balances thematic depth with accessible storytelling."
+}

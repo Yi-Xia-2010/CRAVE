@@ -1,0 +1,493 @@
+{
+  "title": "Tidal Promises",
+  "summary": "Maya Soren, an urban ecologist in flood-threatened Harrow Bay, brokers an adaptation plan that blends Elias Voss’s kelp-assisted sea-wall engineering with community-centered governance led by activists like Asha Reed. Early success and a blossoming romance with Elias create momentum, but choices about speed, process, and oversight precipitate ecological trade-offs and social harm. Branching decisions force Maya to balance rapid deployment, thorough review, or scaled/community pilots. Multiple endings—tragic collapse, bittersweet compromises, or durable community-led resilience—show how love, ethics, and governance shape who is protected and who is sacrificed.",
+  "emotional_curve_type": "Icarus (Rise-Fall)",
+  "player_character": "Maya Soren",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Boardwalk Morning",
+      "branch_designation": "Common",
+      "narrative_focus": "Maya walks the Harrow Bay boardwalk at low tide, negotiates repairs, runs into Elias who excites possibility with a kelp/sea-wall hybrid, and senses tension with Asha. She files Elias's prototype and promises to convene stakeholders at the Resilience Hub.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Low",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Jonah Mek",
+        "Rosa Calder"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Market",
+        "Tide-steps",
+        "Resilience Hub (on route)"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Resilience Hub Convening",
+      "branch_designation": "Common",
+      "narrative_focus": "At the Rooftop Garden Resilience Hub Maya mediates a stakeholder meeting: Dr. Lena warns of trade-offs, Jonah and Rosa press community needs, Elias presents the kelp/seawall model, and Asha challenges institutional authority. Maya brokers a tentative hybrid pilot and schedules a demonstration from the research vessel Aster.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Jonah Mek",
+        "Rosa Calder"
+      ],
+      "locations_used": [
+        "Rooftop Garden Resilience Hub",
+        "Greenhouse domes"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Council Submission (Split)",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "Maya presents the hybrid proposal at the City Archive & Council Hall. The Council appears receptive, but hints at expedited contracts and corporate funding. A major decision forces Maya to choose between rapid funded deployment, full review with hearings, or a scaled community pilot.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Whether to accept an expedited funded deployment that would accelerate Elias’s hybrid pilot but shorten environmental review and limit community consultation.",
+        "options": [
+          {
+            "label": "Accept the rapid funding and sign an expedited deployment contract.",
+            "consequence": "Rapid implementation, visible protective infrastructure sooner, but reduced consultation and higher risk of ecological or social harm.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Insist on full environmental review and extended community hearings, delaying deployment.",
+            "consequence": "Slower implementation, more community trust and oversight, but higher immediate risk from forthcoming storm season.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Propose a scaled pilot—small, transparent, community-led demo that buys time.",
+            "consequence": "Middle course—symbolic progress, retained oversight, requires extra negotiation and localized compromise.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Councilors",
+        "Corporate lobbyist"
+      ],
+      "locations_used": [
+        "City Archive & Council Hall",
+        "Glass atrium",
+        "Marble steps"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Fast Track Deployment",
+      "branch_designation": "Route A",
+      "narrative_focus": "Maya signs the expedited contract; Elias mobilizes crews and installs pylons and living-reef modules. Initial public praise follows, but ecological warnings surface and Asha accuses Maya of selling out, fracturing alliances and beginning a fallary arc.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Jonah Mek",
+        "Rosa Calder"
+      ],
+      "locations_used": [
+        "Research vessel Aster",
+        "Boardwalk",
+        "Lower Quay"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "First Signs of Strain",
+      "branch_designation": "Route A",
+      "narrative_focus": "The pilot stabilizes some flood markers but fisheries report declines and currents shift. Dr. Lena documents harms; Maya tries reparations while public praise isolates her. Tensions grow between Maya, Elias, and Asha as trust erodes.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 6,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Jonah Mek",
+        "Rosa Calder"
+      ],
+      "locations_used": [
+        "Lower Quay",
+        "Promenade",
+        "Laboratory"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Collapse — The Tipping Storm (Ending: Sad)",
+      "branch_designation": "Route A (Ending: Sad)",
+      "narrative_focus": "A stronger-than-expected storm exposes weaknesses in the rushed wall: fisheries collapse, riots erupt, funding withdraws, and Maya is scapegoated. Elias withdraws; Asha denounces Maya. The ending is catastrophic and tragic.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option B? (From Chapter 4 then through 5 linear)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Rosa Calder"
+      ],
+      "locations_used": [
+        "Promenade",
+        "Lower Quay",
+        "Aster (departing)"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Hold for Review",
+      "branch_designation": "Route B",
+      "narrative_focus": "Maya refuses the expedited contract, insists on full environmental review and extended hearings. Political favor is lost; Elias is frustrated but Asha warms slightly. Maya shepherds a slower, integrity-driven path while storm season approaches.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to balance extended review with urgent protective measures as a forecasted storm intensifies.",
+        "options": [
+          {
+            "label": "Implement temporary, reversible protective measures while review continues.",
+            "consequence": "Reduces immediate risk with limited footprint but may be insufficient in a severe storm.",
+            "target_chapter_index": 8
+          },
+          {
+            "label": "Hold all action until review concludes, prioritizing scientific certainty.",
+            "consequence": "Full oversight preserved but risks immediate damage.",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Authorize small community-led micro-projects with local control and monitoring.",
+            "consequence": "Builds trust and local resilience but lacks scale for major surges.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Jonah Mek",
+        "Rosa Calder",
+        "Councilors"
+      ],
+      "locations_used": [
+        "Resilience Hub",
+        "City Archive",
+        "Rooftop Garden"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Temporary Measures",
+      "branch_designation": "Route B",
+      "narrative_focus": "Deploy temporary reversible defenses—sandbag lines, raised walkways, community-operated pumps—and small kelp nurseries. Mixed protection results; Asha monitors community control and trust grows. Maya and Elias develop a gentler romance amid high stakes.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 9,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Jonah Mek"
+      ],
+      "locations_used": [
+        "Lower Quay",
+        "Rooftop garden",
+        "Aster (for kelp nurseries)"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Storm Test — Partial Triumph (Ending: True/Bittersweet)",
+      "branch_designation": "Route B (Ending: Bittersweet/True)",
+      "narrative_focus": "The storm hits: temporary defenses protect several neighborhoods and kelp boxes reduce surge in a cove, but some areas flood and households relocate. Maya brokers reparations and a rotating council seat. The ending is bittersweet but durable governance emerges.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Jonah Mek",
+        "Rosa Calder"
+      ],
+      "locations_used": [
+        "Promenades",
+        "Lower Quay",
+        "Cove (kelp boxes)"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Scaled Pilot Proposal",
+      "branch_designation": "Route C",
+      "narrative_focus": "Maya proposes a small, transparent community-led demonstration kelp plot with full local oversight and real-time monitoring. The pilot yields cautious positive results and informs governance; romance with Elias deepens in small, intimate moments.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Jonah Mek"
+      ],
+      "locations_used": [
+        "Resilience Hub",
+        "Rooftop kelp trays",
+        "Promenade"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Hold Action (Ending: Sad Alternative)",
+      "branch_designation": "Route B (Ending: Sad)",
+      "narrative_focus": "Maya holds all action until the review concludes. While the review reveals critical ecological warnings, an unexpected surge hits before protections are in place, causing severe flooding and public anger. The ending highlights the moral cost of inaction despite careful process.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Dr. Lena Huang",
+        "Councilors"
+      ],
+      "locations_used": [
+        "Floodplain neighborhoods",
+        "Council chambers",
+        "Boardwalk"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Micro-Projects (Ending: True/Happy Alternative)",
+      "branch_designation": "Route B (Ending: Happy/True)",
+      "narrative_focus": "Maya authorizes community-led micro-projects—fisher-run kelp nurseries, local carpentry for thresholds, neighborhood-managed pumps—that build cohesion and agency. Scale is limited but social fabric strengthens; Elias and Asha find constructive roles. The ending is a gentle triumph rooted in community autonomy.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Jonah Mek"
+      ],
+      "locations_used": [
+        "Neighborhoods",
+        "Kelp nurseries",
+        "Workshops"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Community-Led Legal Clause",
+      "branch_designation": "Route A, Option C",
+      "narrative_focus": "Maya proposes binding legal language guaranteeing community control over deployment sites. Asha crafts enforcement mechanisms, Jonah codifies labor promises, and Elias reluctantly accepts constraints. The clause shields neighborhoods but delays large-scale protection.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to finalize enforcement for the community clause when a private contractor offers guaranteed faster work in exchange for looser oversight.",
+        "options": [
+          {
+            "label": "Insist on strict enforcement language and reject the contractor's concessions.",
+            "consequence": "Community sovereignty preserved, but deployment remains slow and politically vulnerable.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Allow limited contractor flexibility in exchange for binding reparations language.",
+            "consequence": "Speeds work but risks erosion of oversight.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Asha Reed",
+        "Jonah Mek",
+        "Elias Voss"
+      ],
+      "locations_used": [
+        "City Archive",
+        "Council Hall",
+        "Lower Quay"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Enforce Community Clause (Ending: True)",
+      "branch_designation": "Route A (Ending: True)",
+      "narrative_focus": "Maya insists on strict enforcement and rejects the contractor. Deployment slows but cements community sovereignty; Elias pivots to small-scale restorative work and Asha stays engaged. The ending is morally complex but rooted in justice and durable governance.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Jonah Mek"
+      ],
+      "locations_used": [
+        "Council Hall",
+        "Community gardens",
+        "Rooftop workshop"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Contract Compromise (Ending: Bittersweet)",
+      "branch_designation": "Route A (Ending: Bittersweet)",
+      "narrative_focus": "Maya accepts limited contractor flexibility with binding reparations. Implementation speeds up and some disasters are averted, but oversight frays, staging areas displace elders and gardens, and Asha feels betrayed. The ending is bittersweet with mixed moral outcomes and strained relationships.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soren",
+        "Elias Voss",
+        "Asha Reed",
+        "Jonah Mek",
+        "Contractor"
+      ],
+      "locations_used": [
+        "Construction sites",
+        "Promenade",
+        "Temporary housing"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Endings summary: Route A (Fast Track) yields Sad catastrophic collapse (Chapter 6) or True/Bittersweet outcomes (Chapters 14–15) depending on enforcement choices. Route B (Hold for Review) yields Bittersweet/True (Chapter 9) when temporary measures balance outcomes, Sad (Chapter 11) if inaction causes damage, or True/Happy (Chapter 12) if micro-projects empower communities. Route C (Scaled Pilot) offers a cautious, ethically aligned path (Chapter 10) informing governance. Across paths the arc follows an Icarus rise to Chapter 3 and a fall driven by choices of speed, oversight, and compromise; the romance with Elias threads every route and is tested by those choices.",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 11:04:28"
+}

@@ -1,0 +1,211 @@
+## Visual Novel Title
+Saltline Rising
+
+---
+
+## World View
+Saltline is a near-future coastal town pinned between shifting tides and stubborn human memory. Once a small fishing village, it now negotiates with rising seas, storm seasons, and competing ideas of survival: grassroots craft and cultural continuity versus centralized, corporate-engineered defenses. Politically, the town sits inside a contested district where municipal councils, regional agencies, and a private infrastructure consortium jostle for control of funding and implementation. Class lines are blurred—boatbuilders and lab technicians live cheek-by-jowl—but cultural authority belongs to those who tend communal rituals, keep songs alive, and claim the shore as public commons.
+
+Culturally, Saltline combines maritime folk practices with emergent neo-ecological experimentation: floating farms, coral nurseries, wind-harnessing cliff gardens, and communal repair co-ops. Religion is informal—ceremonies around tides, harvests, and storms unify the town. Conflict centers on whether to accept large-scale engineered barriers and automated retrofits (promised by external agencies) or to invest in distributed adaptation rooted in local craft. Geography is intimate and visual: salt-silver beaches, reclaimed marsh patchworks, a craggy cliff studded with wind turbines, and a harbor half-mended with salvaged wood. Atmosphere is bittersweet—wind-swept, practical, and hopeful, where warm lamplit interiors and weathered architecture meet blinking sensors and patchwork green tech.
+
+---
+
+## General Plot Overview - Plot Outline
+You are Marin Alvarez: a Saltline native, engineer by training, and keeper of uneasy promises. The story follows a "Man in a Hole" fall-then-rise curve. The opening eases you into town life and mounting weather threats; then a crisis deepens when a controversial mitigation plan—championed by Elena Moro—moves forward and tensions fracture the community and your relationships. At the bottom of this fall you confront the consequences of a past reinvestment that damaged a marsh you once defended. From that nadir, you climb: choosing between centralized control and community-led adaptation, bridging Kaito's craft-based resilience and Elena's systemic tools, mentoring Maya and listening to Luka and Rin. Your romantic thread with Kaito is entangled with ethics: staying to rebuild together, leaving to scale solutions, or splitting over strategy. Branching choices lead to four core outcomes: a cooperative hybrid success, a centralized-but-cultural-loss outcome, a bittersweet compromise, or a "true" federated governance path that restores agency and a mature bond. Each route forces you to reconcile technical expertise, community ritual, and how to love under climate pressure.
+
+---
+
+## Chapter Structure
+
+*(Each chapter is written in first-person POV and contains visual references to character appearances and locations. Each chapter summary is 180–200 words.)*
+
+
+### Chapter 1: Tide Memory [Fall] (Branch: Common)
+
+* **Entry Condition:** None (Start)
+* **Summary:** I return to Saltline with a sagging satchel and a head full of calculations—and guilt heavier than my field jacket. My dark teal bob is wind-tousled, the salt-silver streak at my temple catching morning light as I step onto the Harbor. The docks smell like tar and kelp; fishermen unload mended nets while children string sea-glass beads. I inventory damage with my sensor wristband buzzing small pings against my skin. I meet Rin in front of the Tidewise Lab; she's bright in a knit hat, waving a noticeboard plastered with hand-drawn maps and community meeting times. Luka’s stooped silhouette appears against the lighthouse; his beard is salt-stiff, and he hums the old tidal chant that used to comfort me. There's tension—Elena's emissaries circulated renderings of a district barrier; Ishaan delivered a glossy pamphlet promising certainty. I tuck my seashell necklace beneath my collar and feel the old promise—this town saved me once—and the memory of the marsh I urged to be paved tightens in my chest. I move through familiar textures: weathered wood, rope, and copper pipe, gathering faces and fragments, trying to decide whether to speak first or to listen. I start the day with both resolve and a hollow I can't name.
+* **Visuals:** Saltline Harbor at dawn; Marin’s teal bob and seashell necklace; Tidewise Lab in background; Rin in a bright knit hat.
+* **Valence:** Neutral
+* **Arousal:** VeryLow
+* **Branch:** Common
+* **Next:** Chapter 2
+
+
+### Chapter 2: Weathered Promises [Fall] (Branch: Common)
+
+* **Entry Condition:** From Chapter 1
+* **Summary:** The lab smells like wet glass and old coffee; condensation halos on panes filter the harbor into muted sea-glass shapes. I unpack notebooks from my leather satchel and flip through maps of marsh elevation lines—my handwriting is there: an old plan I once championed. Maya arrives, camera slung; her teal-tipped hair bobs as she argues for urgency with the kind of bluntness that makes me both proud and ashamed. Kaito shows up at the cooperative workshop with a splintered bench and paint-splattered denim; his amber eyes lift to me with a warmth that steadies my shoulders. He slips me a carved wooden compass pendant—his palms are calloused, his hair sun-bleached at the tips—and I feel the tug between what I built and what I broke. Elena appears on a projected feed, platinum bob immaculate, her trench coat emblem sharp against the lab's fog. She discusses a regional barrier with crisp graphs; Ishaan fields questions about funding and timelines. A storm model blinks red on the wall; my wrist sensor vibrates. My chest tightens. Somewhere in Luka's slow recounting of a flood-song, I realize the town's trust has eroded—and so has mine in simple fixes. I am poised at a decision I don't yet name: defend what was, or glide toward promised certainty.
+* **Visuals:** Tidewise Lab interior; Marin’s weathered satchel and sensor; Kaito’s denim apron and wooden compass; Elena’s holographic presence.
+* **Valence:** Negative
+* **Arousal:** Low
+* **Branch:** Common
+* **Next:** Chapter 3
+
+
+### Chapter 3: The Meeting That Fractured Us [Fall] (Branch: Common / Split)
+
+* **Entry Condition:** From Chapter 2
+* **Summary:** The Community Hall is full: string lights, maps taped to the walls, faces lined with salt and resolve. I stand at the podium with my notes; Marin voice steadies though my hands are callused and shaky. Elena presents an engineered barrier: a smooth render, wetlands tamed, automated pumps humming like a heartbeat. Her gray eyes cut the room; Ishaan's suit gleams, and a hush ripples. Kaito sets up a tactile display of repurposed pilings and coral frames; his amber eyes meet mine, and I feel both pride and the old, sharp guilt. Maya snaps photos and shouts for immediate action; Luka reads a tidal litany, asking for time to heal. The room fractures—some demand Elena's plan; others fear corporate displacement of commons. My chest locks around the memory of the marsh I once advocated to "improve"—the way it stilled after our intervention. I can feel the fall finishing, the bottom approaching. The mayor asks me to recommend a position: sign with Elena's centralized mitigation, back Kaito's community-led adaptation, or propose a hybrid I can draft. My voice will set things in motion. I taste salt and iron; this is the hole, and I must choose how to climb.
+* **Visuals:** Community Hall / Storm Room with maps and lights; Marin at podium; Kaito's toolbelt and Elena’s trench coat visible.
+* **Valence:** VeryNegative
+* **Arousal:** Mid
+* **Branch:** Common / Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** Decide how to publicly position your expertise.
+* **Option A:** "Endorse a community-centered adaptive program that prioritizes cultural sites and incremental craft-based defenses." -> **Consequence:** Bolsters Kaito and grassroots trust but angers Elena and Ishaan. -> **Jumps to:** Chapter 4
+* **Option B:** "Support Elena's engineered coastal barrier and efficient retrofits, securing external funding." -> **Consequence:** Wins institutional backing but risks displacing marshlands and local practices. -> **Jumps to:** Chapter 7
+* **Option C:** "Propose a hybrid governance pilot—my technical scaffolding with community-led stewardship—ask for time to prove it." -> **Consequence:** Neither side fully trusts you; you must broker cooperation while under pressure. -> **Jumps to:** Chapter 10
+
+
+### Chapter 4: Wooden Barricades (Route A) [Rise] (Branch: Route A)
+
+* **Entry Condition:** From Chapter 3, Option A
+* **Summary:** I take Kaito's hand in the aftermath—his calloused thumb rubs my wristband, grounding me. We refit the workshop windows with salt-crusted planks and place coral frames along the Floating Farm. My olive field jacket is streaked with sawdust; the seashell at my throat swings as we hammer. The council reluctantly funds a small pilot: repaired pilings, elevated community beds, and an experimental tide gate designed with local artisans. Elena's emissaries watch, eyes narrow, but neighbors start volunteering—Rin posts hand-painted schedules and Luka brings ceremonial rope to bless the first brace. I'm consumed with logistical lists, feverish but energized—my sensor maps feed into improvised coral nursery designs; Maya films our failures and small triumphs. Kaito leaves me a sketchbook with a rough rendering of a woven sea-wall that doesn't look like a fortress, but a place to gather. Once-broken trust mends slowly; we stitch bureaucratic permits with potluck dinners. Yet funding is thin, storms sharpen on the horizon, and Ishaan quietly pressures the mayor to pick a single winner. For the first time since my return, I feel the climb begin—not clean, but communal and human, with Kaito's amber eyes quietly insisting we keep steady.
+* **Visuals:** Workshop and Floating Farm; Marin’s patched olive field jacket; Kaito’s paint-splattered apron and carved compass; community rope and tools.
+* **Valence:** Negative
+* **Arousal:** High
+* **Branch:** Route A
+* **Next:** Chapter 5
+[Chapter 4 — 190 words]
+
+
+### Chapter 5: Knots and Negotiations (Route A / Split) [Rise] (Branch: Route A)
+
+* **Entry Condition:** From Chapter 4
+* **Summary:** We hold the pilot's first storm test with a half-built tide gate and a rag-tag flotilla of salvaged barrels. The sky is a bruise; wind tugs the salt-silver streak at my temple into my eye. Elena arrives in her trench coat, neutral smile like a polished instrument. Things go sideways: currents force debris into our scaffold; one coral frame collapses and a section of promontory we hoped to protect sinks a few feet. Maya captures frame-by-frame the panic, Luka chants to steady volunteers, and Rin sweeps up kelp. Ishaan re-enters with a funding ultimatum: either we accept corporate engineering oversight or lose regional grants. I'm exhausted, responsible, and very human—my sensor wristband bleeps warnings of structural stress. Kaito refuses to cede the workshop to external crews; Elena insists on automated reinforcements. I'm squeezed, and I realize this is not only a strategic problem but a moral one—what am I willing to concede to get things built? My throat tightens as the community looks at me to negotiate. I must choose how we respond: double down on autonomy, accept oversight with guarantees, or step back and ask Elena for more time to rework the design.
+* **Visuals:** Sunken Promenade and storm-bruised sky; Marin’s wind-tousled hair and tide-worn necklace; Kaito and Elena physically present; Maya filming.
+* **Valence:** Neutral
+* **Arousal:** High
+* **Branch:** Route A / Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** How to respond to Ishaan's ultimatum and the pilot's failure.
+* **Option A:** "Refuse oversight—preserve local control and rebuild with community labor." -> **Consequence:** Funding is threatened; community morale either hardens or falters. -> **Jumps to:** Chapter 6
+* **Option B:** "Accept conditional oversight—contractual safeguards to protect marshlands and cultural sites." -> **Consequence:** You risk compromise but secure resources to fortify the pilot. -> **Jumps to:** Chapter 6
+* **Option C:** "Withdraw temporarily—focus on proving a smaller, science-backed component before scaling." -> **Consequence:** Elena calls it cowardice; Kaito worries you cede momentum, but you buy time. -> **Jumps to:** Chapter 15
+
+
+### Chapter 6: Harvest and Harbor (Route A — Ending: Cooperative Hybrid / Happy) [Rise] (Branch: Route A / Ending)
+
+* **Entry Condition:** From Chapter 5, Option A/B
+* **Summary:** The summer after the test, the Harbor carries a new song: one of mended nets, repair creaks, children running along elevated boardwalks. Our pilot worked because we merged skill sets—my flood modeling configured flow-friendly pilings, Kaito’s woven braces held when we retreated during the surge, and Elena, begrudgingly, adjusted pump placement to avoid critical eelgrass beds. The mayor signs a scaled hybrid plan that funds community crews and targeted engineering where necessary. I stand on the Cliffside Gardens at golden hour; my dark teal hair is frayed by wind, the seashell necklace warm against my throat, and Kaito’s paint-splattered apron hangs nearby. He slips his hand into mine; his amber eyes are steady and quiet in their joy. Elena approaches with a trimmed briefing pad and a softened gaze—she offers a pilot-for-data partnership rather than domination. Luka plays the old tidal song; Rin pins a new banner across the Hall. I feel guilt unlatch and reform into accountable humility. The town keeps its rituals; ecosystems breathe a little easier. Our romance is not cinematic fireworks but a steady partnership: technical rigor braided with craft, laughter, and shared responsibility. We are not saved; we are co-authors of a future.
+* **Visuals:** Cliffside Gardens golden hour; Marin’s patched jacket and seashell necklace; Kaito holding hands; Elena with briefing pad.
+* **Valence:** Positive
+* **Arousal:** VeryHigh
+* **Branch:** Route A / Ending
+* **Next:** Chapter 6 (End)
+
+
+### Chapter 7: Concrete Promises (Route B) [Rise] (Branch: Route B)
+
+* **Entry Condition:** From Chapter 3, Option B
+* **Summary:** I stand before Elena's renderings again, this time with the mayor at her side and an outside council watching. Her platinum bob gleams; the trench coat and the corporate emblem feel like a compass pointing to certainty. Ishaan explains timelines and insurance—our grants, he says, hinge on immediate, decisive action. The barrier would protect the district's economic spine and critical infrastructure. My formal training hums in my chest: the numbers look clean until you overlay living maps of eelgrass and communal gardens. Kaito arrives to protest with a wooden placard, hands callused and voice steady, but the mayor appears worn by lobbying and fear. I feel the marrow of the hole the town sits in: when faced with a clear-sounding rescue, people clutch it. Elena offers me a role as technical lead for retrofits—authority, resources—but it requires endorsing some relocations and the temporary sidelining of community practices. My sensor wristband skitters restive; the Sunken Promenade's half-submerged tiles glitter like witness fragments. My chest tightens with the knowledge that accepting will deliver physical security for many and cultural erosion for some. The choice tastes like iron. I must decide whether to sign on or to refuse.
+* **Visuals:** Community Hall with Elena’s renderings; Marin’s compact environmental sensor; Kaito with placard; Sunken Promenade glimpsed.
+* **Valence:** Negative
+* **Arousal:** High
+* **Branch:** Route B
+* **Next:** Chapter 8
+[Chapter 7 — 190 words]
+
+
+### Chapter 8: Contracts and Quiet Revolts (Route B / Split) [Rise] (Branch: Route B)
+
+* **Entry Condition:** From Chapter 7
+* **Summary:** Negotiations move into the storm room by neon screens. Elena lays out a schedule; Ishaan's clarifying tones make things feel inevitable. Maya docs a town meeting where elders voice fear of displacement; Luka calls for ritual observance before any construction. Kaito insists on a referendum; his amber eyes burn—not with rhetoric but with the possibility of losing what he stayed to protect. I draft consequential clauses: environmental offsets, relocation packages, promised cultural funds. Elena counters—offsets are inefficient when measured against statistical safety. The arched sky darkens; models predict an earlier-than-expected surge. I feel pressure like a physical thing. If I sign, I secure millions but risk destroying the marsh I once defended; if I refuse, the town may be exposed and funding evaporates. Option A: sign with Elena, expedite work. Option B: refuse and fundraise grassroots, risk the storm. Option C: push for a legally binding hybrid pilot with independent oversight. My palms are salt-wet; my sensor buzzes warnings. Kaito looks like he might break; I know whatever I choose will redraw lines between us.
+* **Visuals:** Community Hall in cool screen-light; Marin’s rolled-up sleeves and sensor wristband; Kaito and Elena physically opposed.
+* **Valence:** Negative
+* **Arousal:** High
+* **Branch:** Route B / Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** Final stance on Elena's barrier.
+* **Option A:** "Sign the contract—secure fast funding and infrastructure." -> **Consequence:** You gain institutional power and speed, alienating many locals. -> **Jumps to:** Chapter 9
+* **Option B:** "Refuse and mobilize a full grassroots defense." -> **Consequence:** Risk lives and grants; Kaito leads resistance, Elena withdraws funding. -> **Jumps to:** Chapter 9
+* **Option C:** "Insist on a tightly monitored hybrid clause with ecological safeguards." -> **Consequence:** Delays begin; Ishaan fumes; the community remains divided into action and suspicion. -> **Jumps to:** Chapter 9
+
+
+### Chapter 9: Fortified Shores (Route B — Ending: Centralized Mitigation / Sad) [Rise] (Branch: Route B / Ending)
+
+* **Entry Condition:** From Chapter 8, Option A/B/C
+* **Summary:** The barrier rises like a blunt promise. Steel and concrete stitch across the creek, pumps hum and lights flash on automated nodes. Insurance rates fall; the harbor's economic spine breathes easier. Elena strides through the construction like a conductor of inevitability; her steely gray eyes are satisfied. But the salt-flats we loved are truncated—eelgrass beds are dredged, the Sunken Promenade is cordoned and reconfigured as a managed waterfront. Kaito stands on the harbor with a small group of resistors, his amber eyes rimmed with salt. We argue in the rain; I can feel the gap like an open wound. I signed, thinking I could secure a future; instead I watch the town's commons shrink. People keep their roofs but lose the small places where songs were learned. Maya films a portrait of displaced elders, Luka walks the cliff with a slower step. My seashell necklace feels heavy with blame. My relationship with Kaito breaks under the weight—his steadiness turns into leadership of the resistance, and I, who implemented the plan, become an emblem for the cost. The town is materially safer, but the cultural stitches have frayed. I sleep with thunder in my head.
+* **Visuals:** Barrier construction, pumps and gray skies; Marin’s olive jacket rain-soaked; Kaito at the harbor with resistors.
+* **Valence:** Negative
+* **Arousal:** VeryHigh
+* **Branch:** Route B / Ending
+* **Next:** Chapter 9 (End)
+
+
+### Chapter 10: The Middle Ground (Route C) [Rise] (Branch: Route C)
+
+* **Entry Condition:** From Chapter 3, Option C
+* **Summary:** I propose a pilot: a federated governance model where technical retrofits are conditional on community stewardship and adaptive review boards. The Tidewise Lab becomes a messy diplomatic floor—sensors, tea, and earnest arguments. Elena blinks, surprised, her platinum bob tilted; Ishaan sizes the proposal like a contract to be won or neutralized. Kaito helps translate my diagrams into tactile models—his hands move with a craftsman's ease, straps of his utility belt catching light. Maya and Rin organize town workshops; Luka insists on ritual review. We draft binding charters: seasonal review, shared data, marsh protection clauses, community curators on the engineering board. The mayor is intrigued but cautious; regional funders require measurable metrics. The pilot needs rapid wins to survive—coral frames that boost fish nurseries, tide gates that don’t suffocate eelgrass. My past mistake—pushing tech without local consent—weighs on every clause. But there is space to rebuild trust because the design explicitly limits top-down authority. The first storms still threaten; trust is still brittle. I realize this route will require relentless brokerage: not just models, but humility and time.
+* **Visuals:** Tidewise Lab & Greenhouse; Marin’s sensor and sea-glass eyes; Kaito’s sketchbook; Luka with ceremonial rope.
+* **Valence:** Negative
+* **Arousal:** High
+* **Branch:** Route C
+* **Next:** Chapter 11
+[Chapter 10 — 190 words]
+
+
+### Chapter 11: Covenants and Coral (Route C / Split) [Rise] (Branch: Route C)
+
+* **Entry Condition:** From Chapter 10
+* **Summary:** The pilot's first cycle is a crucible. We anchor coral frames at the Floating Farm, calibrate tide gates, and host community audits. Elena watches the data feed but insists on an external audit team—an intrusion that makes grassroots volunteers bristle. Ishaan threatens to pull funds unless we hit milestones. Kaito and I are frequently at odds in meetings; his sketchbook contains hand-drawn plans for living benches, my notes contain brute-force models. A violent squall tests our systems: pumps whine, coral frames sway, and volunteers scramble. I must choose how to allocate our limited remaining discretionary funds: funnel them into engineered redundancy to pass funder audits, focus on coral nursery expansion to sustain ecosystems, or invest in legal safeguards to cement community governance. Each choice shapes not only survival but the moral texture of Saltline. My hands tremble as I sign a temporary authorization form for emergency reinforcement; I think of the marsh I displaced and vow not to repeat that erasure. Kaito’s amber eyes meet mine in the chaos; the future of our relationship is braided with policy, and the next decision will determine whether we build together or apart.
+* **Visuals:** Floating Farm & Coral Nursery under squall; Marin with rolled sleeves and weathered satchel; Kaito’s utility belt visible as he helps.
+* **Valence:** Neutral
+* **Arousal:** High
+* **Branch:** Route C / Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** Prioritize funding direction during crisis.
+* **Option A:** "Allocate funds to engineered redundancy to secure immediate protections." -> **Consequence:** Meets funder checkpoints but delays ecological restoration. -> **Jumps to:** Chapter 12
+* **Option B:** "Invest in coral nursery expansion and marsh restoration." -> **Consequence:** Strengthens ecosystems but angers bureaucrats; funding may be reduced. -> **Jumps to:** Chapter 13
+* **Option C:** "Use funds to legalize shared governance and bind future decisions to community quorum." -> **Consequence:** Slower implementation, but secures long-term agency. -> **Jumps to:** Chapter 14
+
+
+### Chapter 12: Tides of Compromise (Route C — Ending: Bittersweet) [Rise] (Branch: Route C / Ending)
+
+* **Entry Condition:** From Chapter 11, Option A
+* **Summary:** We ride out storms that year because the systems were reinforced; pumps and engineered redundancy kept the coastal spine functional. Funders congratulate the pilot; Ishaan’s smile returns. But eelgrass beds recover more slowly than promised; some elders mourn the lost fishing stones. The Floating Farm yields food, though not as abundant as we'd hoped when reefs were fuller. I sit on the Sunken Promenade at dusk with Kaito beside me; his hands are dry and scarred, his amber eyes reflecting the lamplight. Our relationship survives, but it carries a grain of irreconcilable difference: he wanted more time for living systems, I balanced against the need to secure homes. We write letters to distant colleagues. Elena acknowledges the necessity of community voices but continues to push centralized efficiencies elsewhere; we have a negotiated peace. Rin pins a faded banner across the Hall and Luka leads a cautious, smaller ritual by the harbor. Saltline remains recognizable but altered. I find myself neither exonerated nor fully guilty—only accountable. The ending tastes of salt and bread: survival, but with room for longing and repair.
+* **Visuals:** Sunken Promenade at dusk; Marin’s sea-glass eyes and seashell necklace; Kaito seated beside Marin; Floating Farm glimpsed.
+* **Valence:** Neutral
+* **Arousal:** VeryHigh
+* **Branch:** Route C / Ending
+* **Next:** Chapter 12 (End)
+
+
+### Chapter 13: A Seed of Governance (Route C — Ending: True / Federated) [Rise] (Branch: Route C / Ending)
+
+* **Entry Condition:** From Chapter 11, Option B
+* **Summary:** We channel funds into living systems. Coral nurseries multiply, eelgrass returns, and the Floating Farm's frames begin to outpace losses. Bureaucrats grumble; Ishaan adjusts with visible reluctance. Elena, watching the data trend, begins to see ecological resilience as a measurable value. We formalize a federated governance charter: rotating stewardship seats, transparent sensor data, and legal covenants ensuring community consent for major shifts. Luka presides over a covenant ceremony where ropes are braided and charters signed; Rin posts every public record with hand-drawn annotations. Kaito and I mend broken conversations through late-night repair sessions and shared tea; his amber eyes smile with cautious hope. My technical designs become enablers rather than directives—a scaffolding that the town can dissolve or repurpose as needed. The recovery is slow but deep: trust rebuilds more reliably than any concrete barrier I once imagined. This ending is not a triumph of technology nor craft alone; it is a negotiated culture of stewardship. We stand together on the cliff gardens, sea-spray haloing our faces, and I finally feel that my work has been redeemed—not by victory, but by shared responsibility.
+* **Visuals:** Cliffside Gardens; Marin’s rolled-up sleeves and sensor; Kaito’s sketchbook tucked in his back pocket; Luka with braided rope.
+* **Valence:** Positive
+* **Arousal:** VeryHigh
+* **Branch:** Route C / Ending
+* **Next:** Chapter 13 (End)
+
+
+### Chapter 14: Legal Papers and Shorelines (Route C — Ending: Institutional Loss / Sad) [Rise] (Branch: Route C / Ending)
+
+* **Entry Condition:** From Chapter 11, Option C
+* **Summary:** We solidify governance into law, but the legal route brings its own ironies. Binding covenants slow construction and force ecological review; many regulators appreciate the precedent. Yet the time cost is real—some neighborhoods endure flooding events before reforms can take hold. Elena acknowledges our model and partners with us in public pronouncements, but private agencies push elsewhere for faster wins. Kaito leads a community-built breakwater that softened a storm surge for a few streets; elsewhere the automated pumps prevented wholesale property loss. The final ledger balances lives saved and ecosystems harmed in unequal measures. My hands are stained with kelp and ink from signatures; my seashell necklace feels like a relic now framed by paperwork. Some elders celebrate renewal; others mourn lost shorelines and shifted rituals. My relationship with Kaito bends under administrative fatigue and small victories that feel incomplete—he's proud of local projects but bitter about the time wasted on legal battles. The town survives materially, and a framework for shared governance exists, but in corners the cultural fabric shows fray. This conclusion is sober: we buy agency, but not without scars.
+* **Visuals:** Tidewise Lab with legal documents on tables; Marin’s satchel and ink-stained hands; Kaito operating a small community breakwater.
+* **Valence:** Negative
+* **Arousal:** VeryHigh
+* **Branch:** Route C / Ending
+* **Next:** Chapter 14 (End)
+
+
+### Chapter 15: Returning Maps (Route A Option C — Ending: True / Personal Renewal) [Rise] (Branch: Route A Alternate Ending)
+
+* **Entry Condition:** From Chapter 5, Option C
+* **Summary:** I withdraw from the immediate fray to pilot a compact scientific component: a modular data node and living grille I can prove quickly. I travel between Saltline and distant networks, sharing models that explicitly include cultural constraints and co-authored stewardship terms. Kaito helps from afar—his amber eyes appear in video calls, his hands still holding paint-stained prototypes. This distance is not abandonment but a different kind of partnership: we trade letters, sketches, and the occasional repaired bench upon my returns. The modular system proves effective and becomes the seed for a federated model elsewhere. Meanwhile, back home, the community uses the breathing room to strengthen local crafts and rituals. Elena eventually adapts parts of our model; Ishaan publishes case studies on hybrid governance. I stand on the cliffside in a thin rain, my dark teal hair plastered to my temple, and I feel both the ache of absence and the satisfaction of principled work. Kaito presses the carved compass into my palm in person one evening when I return; we do not vow dramatic closure, but a durable promise: to build work and life that honor both the lab and the harbor. This ending is slow, true, and hopeful.
+* **Visuals:** Cliffside Gardens in rain; Marin’s frayed sensor strap; Kaito’s carved wooden compass; Tidewise Lab export crates.
+* **Valence:** VeryPositive
+* **Arousal:** VeryHigh
+* **Branch:** Route A Alternate Ending
+* **Next:** Chapter 15 (End)
+
+---
+
+Notes on Navigation and Structure:
+- Chapters 1–3 form a common route that leads to the primary split (Chapter 3). Chapters 4–6 are Route A; Chapters 7–9 are Route B; Chapters 10–14 are Route C with multiple endings; Chapter 15 is an alternate ending reachable from Route A’s split. Every route from Chapter 1 to any ending is six chapters or fewer (counting start at Chapter 1), satisfying the Estimated Depth constraint.
+- Split points occur at Chapter 3 (major hub), Chapter 5 (Route A split), Chapter 8 (Route B split), and Chapter 11 (Route C split), fulfilling the requirement for at least three distinct split points.
+- All chapters are in first-person POV as Marin Alvarez and reference visual character traits (hair, eyes, clothing, accessories) and locations from the provided world setting.

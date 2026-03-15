@@ -1,0 +1,107 @@
+### SCRIPT
+# Route: Route C
+# Context: e67f19
+
+[Scene: AquaWorks Research Station | Early Evening]
+[Background:"ch11_e67f19_1"]
+[Music: Low, hopeful strings; a steady, ascending motif underpins conversation]
+[Sound: Soft hum of pumps below; the distant call of gulls; a kettle clicking off in the corner]
+
+You stand at the long table with your field journal closed at your elbow, the pressed marsh grass inside like a quiet witness. From the work of the last chapter you carry a small, fierce authority — the adrenaline of having a seat at the table, the proof points you insisted on, the clause you fought for that rings the marsh with funds. It is intoxicating to be listened to; it is corrosive to be wanted so badly for the optics.
+
+Dahlia Kestrel [neutral]: "Dahlia sits at the head, tablet lit, the silver cuff catching the teal light as she flicks through slides of performance metrics. Engineers cluster by a projection: a three-dimensional render of modular barrier segments glinting in schematic lights. Funders — tightly suited, polite — watch with the practiced hunger of people who buy large projects and sell certainty."
+
+The room smells like recycled air, warm coffee, and a ghost of salt that comes through the windows. Your palms are a little damp. On the screen the numbers are clean and persuasive; in your bag the tide models you annotated in early mornings are muddy and stubborn and insist on a longer timeline. You can feel both sets of truths at once: the clinical assurance of simulation and the messy, patient logic of living systems.
+
+Dahlia Kestrel [smiles, precise]: "We're tracking at ninety-two percent resiliency in storm surges up to category four, with a phased rollout over eight months. Insurers are already pricing the premium drops. We can sign permits within ninety days."
+
+Maya Reyes [even]: "That's promising. But resiliency in a model doesn't always match what migratory lanes or seed propagation need. The marsh buffer we've been restoring is part of that system — the barrier can't be a substitute for the living edge."
+
+Dahlia Kestrel [tilting her head]: "Which is why you've been included. We want to integrate local restoration into the plan. But there's also a political window — funders and insurers need to see action now. A delay means we lose momentum and the very jobs you're worried about."
+
+Engineer 1: "From a structural standpoint, we can accelerate testing. We have scaled simulations and rapid-deploy segments ready for pilot testing at controlled points."
+
+You feel the high: the engineers looking to you for sign-off, the funders nodding, the hum of possibility like electricity in the air. It is the kind of influence you have wanted for years — the power to protect the town and create work. But each proposal slides over the softer parts of the bay you know by touch — eel grass rhymes, silt that needs months to settle, the way juvenile fish find shelter in irregular channels.
+
+Elias Kwan [quiet, measured]: "If we go full-bore at once, the younger boats will struggle. The nets will need moving, spaces to dry gear will shift. People don't have time to relearn everything while losing pay. Phased means you can retrain crews, you can schedule closures that match spawning, you can keep income while we adapt."
+
+Maya Reyes [soft]: "I don't want to deliver protection that makes survival harder." (you look to Elias; your voice softens) "There are livelihoods here that aren't audited on a balance sheet."
+
+Funders Representative [interjecting]: "With respect, the town needs to reduce exposure. Delays are liabilities. Insurance markets respond to that. We can retrofit livelihoods — after the barrier stabilizes — with job programs linked to construction."
+
+The phrase "retrofit livelihoods" tastes thin in your mouth. You picture Jonah and other fishers learning new lines of work while the town changes shape under them. You are the person who thinks in systems; you believe economic transitions can be designed with care. But you also know design is often replaced by schedules.
+
+[INTERACTION]
+> Choice A: "Flip open your journal and point to the ring-fenced clause"
+> Choice B: "Lay a hand flat on the map where Elias indicated the lanes"
+[Outcome A: "You pry the journal free and tap the section where you circled 'permanent ring-fencing for marsh funds.' The table goes quieter; someone says 'interesting' as if it were a new variable on a spreadsheet. You feel steadier, as if the grass itself is an ally."]
+[Outcome B: "Your palm makes a small, human punctuation on the paper. Elias meets your eyes and something like relief passes through his face. The funders glance down at the map and, for a beat, remember the people behind the numbers."]
+[MERGE: The meeting continues with the negotiation over transparency, accreditation, and benchmarks.]
+
+Dahlia Kestrel [leaning forward]: "Maya — we want your leadership on the deployment plan. Public testing data is expensive to publish in real-time; it can be misinterpreted, and it slows approvals. But we can commit to a transparent advisory feed and periodic third-party reviews."
+
+Maya Reyes: "Advisory feed is not the same as public structural testing. People deserve to see how these segments perform before they're permanent. Trust is built through transparency."
+
+Engineer 2: "We can redact proprietary elements while releasing load-testing results."
+
+Dahlia Kestrel [a little tightly]: "Redaction is messy. There's intellectual property and competitive advantage at stake. We can create a digestible public brief and a detailed technical appendix available to accredited reviewers."
+
+Your journal sits like ballast. You imagine printing the full data and taking it down to the boardwalk, letting people read the testing reports between coffee cups. You imagine explanations in plain language and community monitors helping interpret what the numbers mean. That is slow work. It is also how trust grows.
+
+Elias Kwan: "If the tests are only for 'accredited reviewers' — who decides accreditation? Coastal people? Or remote institutions? If it's the latter, we lose control again."
+
+Dahlia Kestrel [meeting his gaze]: "Accreditation ensures competent interpretation. But we can co-design the reviewer list with you, with community representatives. I will commit to that."
+
+Maya Reyes: "Co-design the reviewers and include a clear public brief schedule. Also — and this is non-negotiable for me — we need an explicit plan for marsh buffer expansion aligned with deployment, with measurable benchmarks and community oversight."
+
+Funders Representative [exchanging a look with another]: "Benchmarks are negotiable, so long as there are milestones tied to payment schedules."
+
+You can sense the negotiation tightening into a new shape. Each concession is a stitch; you are trying to sew strong seams. The room is a negotiation engine, but your chest remembers why you came back to Lumen Bay — not to make beautiful slides, but to keep a living place alive.
+
+[INTERACTION]
+> Choice A: "Tap the braided hemp bracelet at your wrist"
+> Choice B: "Push a small, empty espresso cup toward the engineers"
+[Outcome A: "Your thumb rubs the familiar knot your grandmother made. It steadies you; you hear your father's old lullaby Jonah hummed earlier in your mind. Your tone softens, and you ask for the benchmarks in plain language so everyone can read them."]
+[Outcome B: "The cup is an absurd, human gesture. It makes the engineers smile; one of them folds the cup into a makeshift pointer and sketches an adaptive timeline on the map. The tension loosens by a degree."]
+[MERGE: The team outlines a phased pilot, monitoring, and public data requirements.]
+
+Engineer 1 [pointing at a slide]: "We can phase the deployment: pilot one segment at the estuary entrance where habitat disruption is minimal, monitor impacts for three months with both sensors and community observations, then proceed if benchmarks are met."
+
+Maya Reyes: "That's closer to what I'd hoped for. Pilot, monitoring, community observation. And the monitoring data has to be public and accessible."
+
+Dahlia Kestrel [counting on her fingers]: "Pilot deployment, public brief, co-designed reviewers, ring-fenced marsh funds, phased payments... You're building a lot of checkpoints."
+
+Maya Reyes [smiling despite the pressure]: "I'm building a ladder people can climb without falling between steps."
+
+The room allows itself a small laugh. The funders look at Dahlia, Dahlia looks at you — the architecture of compromise settling into a blueprint. The hum of the pumps below feels like an approving pulse. This is the intoxicating part: you can shape outcomes; people will have jobs and a defensive line. The hope lifts, a real thing at the core of your chest.
+
+But there is an undertow: if you push too hard, Dahlia might walk, taking funds and momentum elsewhere. If you sign off too quickly, the town could be exposed to unintended harm. The pressure is not just strategic; it is moral.
+
+Dahlia Kestrel [quiet, almost candid]: "We need a final decision by tomorrow morning to keep the window with insurers. I know you're the one who can bridge this, Maya. Your voice matters to the community, and it's what convinces the board inside my firm."
+
+Elias Kwan [softly]: "Whatever you decide, make sure it keeps people fed and working."
+
+Maya Reyes [feeling the weight and the lift of that responsibility]: "I understand. I won't let this be a glossy case study that erases the people who live here."
+
+You close your eyes for a heartbeat and picture the marsh at sunbreak — salt sheen on new cordgrass, children's boots splashing in safe channels, Jonah mending a net while the town hums. You remember the clause you insisted on, the signatures, the small triumphs. Influence is not an end; it's a tool. You can shape how it's used.
+
+[Background:"ch11_e67f19_2"]
+[Music: Strings swell with a hopeful turn, a sense of forward motion]
+
+You breathe out and prepare to speak, knowing the next words will tilt a coalition and the town's immediate future.
+
+[DECISION POINT]
+1) Option 1: "Sign off to preserve partnership; secure jobs and fast protection." -> TARGET chapter_id: [12]
+2) Option 2: "Demand full public testing and structural transparency." -> TARGET chapter_id: [12]
+3) Option 3: "Withhold final approval until an independent ecological audit is complete." -> TARGET chapter_id: [12]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Sign off to preserve partnership; secure jobs and fast pr..." -> ID 12 (Route C)
+    > Jump Target File: script_ch12_Route_C_ctx_f99e88.txt
+Option 2: "Demand full public testing and structural transparency." -> ID 12 (Route C)
+    > Jump Target File: script_ch12_Route_C_ctx_f99e88.txt
+Option 3: "Withhold final approval until an independent ecological a..." -> ID 12 (Route C)
+    > Jump Target File: script_ch12_Route_C_ctx_f99e88.txt

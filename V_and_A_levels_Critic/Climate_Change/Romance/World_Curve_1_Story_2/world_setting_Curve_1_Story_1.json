@@ -1,0 +1,115 @@
+{
+    "design_logic": "I blend Climate Change with Romance by making the environmental crisis both the external conflict (rising seas, policy battles, ecological collapse) and the emotional crucible that shapes relationships. The romance routes force characters to choose between personal desire, scientific duty, and communal responsibility. Core conflict: how to balance urgent collective action with intimate human needs—can love be sustained if characters' solutions to climate threats diverge? The narrative emphasizes moral choices (mitigation vs adaptation, radical activism vs institutional compromise) so each romantic path highlights different ethical outcomes.",
+    "setting": "Near-future coastal town and small city-region called Mariselle, 2038. Once-thriving fishing piers and seaside promenades now scarred by seasonal 'supertides', aggressive storms, and managed retreats. The atmosphere is humid and salty, a mix of persistent gray skies and sudden bright, toxic-yellow sunsets caused by atmospheric particulates. Technology is practical and weatherworn: solar canopies, tide barriers, community desal plants, and improvised wetlands restoration sites.",
+    "visual_style": "Painterly realism with soft anime facial design; muted coastal palette (seafoam, slate, rust); environmental textures (salt crusts, rain stains, moss); cinematic lighting with fog, low sun rays, and neon emergency lights",
+    "main_characters": [
+        {
+            "name": "Ari Navarro",
+            "role": "Protagonist",
+            "personality": "Pragmatic, compassionate, stubborn in detail; a natural listener who hates spectacle but believes in measurable impact. Feels guilt-driven responsibility to protect the town yet is romantic beneath a reserved exterior.",
+            "appearance_features": {
+                "hair": "Dark brown, shoulder-length wavy hair usually tied in a low, messy bun with loose strands framing the face",
+                "eyes": "Warm hazel with a subtle green fleck in the left iris; soft, slightly hooded shape that narrows when concentrating",
+                "clothing": "Layered practical outfits: faded navy field jacket with water-resistant patches, lightweight technical sweater, worn denim trousers with reinforced knees, rubber-soled boots scuffed with salt; always a thin scarf knitted by a neighbor",
+                "accessories": "A scratched fitness-watch retrofitted with barometric sensor, a small leather-bound Moleskine of tide notes, a chipped enamel pin of a seagull from childhood"
+            },
+            "goal": "To design and implement a community-led adaptive strategy (living shorelines, retrofits, evacuation plans) that preserves both lives and local culture.",
+            "background_story": "Grew up in Mariselle; lost their younger sibling in a flash flood years ago when emergency systems failed. Trained as a coastal engineer/planner, returned home after a stint abroad to apply sustainable tech while navigating local politics and community trauma.",
+            "emotional_trait": "Emotional strength: empathy and methodical calm. Emotional flaw: internalized guilt that makes them avoid romantic vulnerability until trust is proven."
+        },
+        {
+            "name": "Sora Watanabe",
+            "role": "Love Interest",
+            "personality": "Fiery idealist, charismatic community organizer, quick-witted and theatrical in rallies but deeply tender in private. Believes direct action and grassroots pressure can force quicker solutions.",
+            "appearance_features": {
+                "hair": "Jet black, shaved on one side and long on the other, falling to mid-back in glossy waves",
+                "eyes": "Dark almond-shaped eyes with an intense, honest gaze; long eyelashes and a tendency to widen when excited",
+                "clothing": "Colorful, layered streetwear: oversized recycled-canvas jackets splattered with paint, earth-toned cargo pants, bright bandanas used as face coverings in protests, and high-top trainers with hand-stitched patches",
+                "accessories": "A handmade pendant of polished shell and reclaimed glass, a roll of protest flyers tucked in a satchel, several mismatched ear studs"
+            },
+            "goal": "To mobilize Mariselle so the people force bold action—halt risky development, demand emergency funding, and establish community-controlled climate refuges.",
+            "background_story": "Former marine biology student whose fieldwork was cut short by funding shifts; after witnessing corporate greenwashing and municipal inaction, Sora turned to organizing. Born to migrant fisher parents, Sora feels the town's losses as personal affronts.",
+            "emotional_trait": "Emotional strength: courage and conviction. Emotional flaw: impatience and tendency to escalate conflict, sometimes alienating allies—including potential lovers."
+        },
+        {
+            "name": "Lina Moreau",
+            "role": "Antagonist",
+            "personality": "Measured, urbane, politically savvy; outwardly calm with razor-sharp pragmatism. Not villainous in personal terms—believes in compromise and infrastructure-first solutions—but her policies often favor large-scale engineering and private investment over community-led initiatives.",
+            "appearance_features": {
+                "hair": "Platinum-blonde bob, precise and chin-length with an immaculate side part",
+                "eyes": "Ice-gray, cool and assessing; thin arched brows that articulate her often-skeptical expressions",
+                "clothing": "Tailored, high-collared trench coats in storm-gray and amber silk blouses; slim-cut trousers and polished leather ankle boots. When in the field, she dons a sleek, bespoke waterproof coat.",
+                "accessories": "A slim tablet-case embossed with a municipal seal, minimalist gold hoop earrings, a discreet lapel pin representing the regional Development Authority"
+            },
+            "goal": "To secure large-scale funding and implement a comprehensive engineered solution (automated levees, desalination hub, and incentivized vertical housing) she believes will save the region efficiently.",
+            "background_story": "A city official and former consultant who rose through regional bureaucracy. Lina grew up in an inland city devastated by drought; she lost a parent to resource conflicts and became convinced top-down systems and capital investment are necessary to prevent chaos.",
+            "emotional_trait": "Emotional strength: strategic thinking and emotional restraint. Emotional flaw: difficulty trusting grassroots voices and a blind spot for the cultural impacts of technocratic solutions."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Maya Cruz",
+            "relation_to_main": "Childhood friend of Ari",
+            "appearance_summary": "Short, wiry, sun-freckled, often in a fisher's raincoat and knit hat.",
+            "function_in_story": "Runs a co-op that supplies wetland plants and volunteers for restoration; moral support for Ari and a source of local gossip and history."
+        },
+        {
+            "name": "Ephraim Blake",
+            "relation_to_main": "Rival developer and Lina's main funder (antagonistic force)",
+            "appearance_summary": "Tall, gaunt, always in slick dark suits; a permanent tan from private beaches.",
+            "function_in_story": "Pushes large-scale property projects that threaten managed retreat; represents private capital interests and complicates political compromises."
+        },
+        {
+            "name": "Dr. Noor Patel",
+            "relation_to_main": "Ari's former mentor",
+            "appearance_summary": "Graceful, silver-streaked hair in a braided crown; lab coat over flowing clothes; carries an old field camera.",
+            "function_in_story": "Provides scientific backing, moral counsel, and a revealing secret about past modeling errors that forces Ari to reassess earlier assumptions."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Mariselle Boardwalk",
+            "visual_description": "A long, weathered promenade with salt-bleached planks and seaweed-wet ropes; late-afternoon light filters through heavy fog, turning the horizon a washed oyster-gray. Rusted railings, colorful protest banners tied to lamp posts, and pools reflecting neon work lights after storm hours. Gulls circle in slow spirals; the smell of brine is strong."
+        },
+        {
+            "name": "Tidewatch Institute",
+            "visual_description": "Low-slung research center built into a rising dune, cladding of corrugated metal and reclaimed timber. Interior: fluorescent labs, dry-erase maps pinned to corkboards, windows streaked with rain. Exterior lighting is utilitarian—cool LEDs that throw stark shadows—while the rooftop greenhouse glows warm amber at night."
+        },
+        {
+            "name": "Old Harbor District (Flooded Row)",
+            "visual_description": "Narrow alleys where the sea has begun to claim ground: half-submerged storefronts, faded murals blurred by salt, and boats moored where cars once parked. Mornings are subdued with pearlescent mist; oil-slick reflections make the scene almost mirror-like. Sputtering emergency lamps cast orange halos after dusk."
+        },
+        {
+            "name": "Municipal Council Hall",
+            "visual_description": "A modernist building of glass and concrete with a public plaza that becomes a protest stage. Interior council chambers have warm wooden panels, harsh overhead lighting, and a bank of windows showing the churned gray sea. Press conferences are bathed in glaring camera lights and banners that add saturated splashes of color."
+        },
+        {
+            "name": "Reclaimed Wetland Garden",
+            "visual_description": "A patchwork of newly dug channels, boardwalks, and dense reeds. Bright, living greens punctuate the coastal grays; late morning sun creates dappled gold through mist rising from marsh water. Community volunteers hang drying nets and hand-painted signs; children's shoes leave muddy prints along paths."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love and Responsibility",
+        "Community vs. Technocracy"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Ari and Sora form a committed partnership based on shared grassroots action. The community's living shoreline pilot succeeds, blending engineered defenses with wetland restoration; Lina is pressured into transparent partnerships with local cooperatives. The town is not unscathed but becomes a model of just adaptation; the romance survives because both partners honor mutual agency."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Ari chooses a compromise with Lina's large-scale infrastructure that saves many lives but requires relocation of several neighborhoods, including some of Ari's childhood streets. The relationship with Lina deepens into a complex, politically charged partnership. Sora departs to lead a national activist network—friendship remains, romance dissolves into respectful distance. Growth comes at the cost of cultural loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "Ephraim's project proceeds after a political victory; emergency engineering buys time but is poorly maintained. A late-season storm overwhelms defenses, causing significant casualties. Personal relationships fracture under blame and grief. Ari becomes a determined but hardened organizer, carrying survivor guilt; romance fails to take root amid loss."
+        },
+        {
+            "type": "True",
+            "summary": "A path-dependent ending where no single choice 'wins'—Ari rejects simple binaries, forging a new third way with rotating leadership councils, hybrid engineering, and legally binding community oversight. Romance follows a slow, realistic trajectory: intimacy is rebuilt through shared labor, honest debate, and acts of repair. The town continually adapts; the ending emphasizes enduring responsibility over tidy resolution."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

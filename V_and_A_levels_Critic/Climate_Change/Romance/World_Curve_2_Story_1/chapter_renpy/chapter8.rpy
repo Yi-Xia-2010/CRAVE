@@ -1,0 +1,166 @@
+label chapter8:
+
+    # [Scene: Wave Innovation Lab | Dusk]
+
+    scene bg ch8_6b08b4_1 at full_bg
+    # play music "music_placeholder"  # [Music: Sharp, urgent strings; a high, insistent electronic pulse]
+    # play sound "sfx_placeholder"  # [Sound: A steady ping—then an alarm spike]
+    "You keep your fingers curled around the coral strap of the camera in your tote because it's the only thing in your hands that feels ordinary. Outside, the sky has gone the color of old tin;"
+    "rain threads down the pilings in thin, furious lines. The monitor shows promise—a clean run of harvested power, stabilizing pump cycles—and then the red readouts bloom like bruises."
+    "'Voltage spike on Array Three,' someone shouts. The voice is clinical, too loud for what the room needs."
+    show mateo_alvarez at left:
+        zoom 0.7
+
+    mateo_alvarez "We need to shed load—reroute to the intake. Kira, pull the node back, now."
+
+    "Kira" "Can't—current's feeding backwards. The surge control tripped and it's not responding to remote reset."
+    "You taste salt and copper when the panel throws a cascade of errors. The smell is ozone and wet equipment, like a throat cleared too late. Someone curses. The lab's LEDs flicker; the holo-map jitter-stutters as if it were seasick."
+    "You rush to the console because leaving feels like abandoning an animal. Your fingers slide over cold plastic; your watch buzzes with rising tide alerts from the harbor. Your throat tightens—there are low blocks along the"
+    "inlet where people stacked sandbags and prayers; they were the first to flood last season."
+    "Your internal list unspools at triple speed: reboot motors, route power, patch firmware, call the harbor teams, warn the council. Each item lands with the dull weight of obligation—others expect you to move the tide."
+    # play sound "sfx_placeholder"  # [Sound: A second, louder alarm. The room's hum becomes a heartbeat hammered with wire.]
+    "Mateo Alvarez's jaw flexes. 'If the controller fails, the buoys could draw down—suck energy back into the grid. That overload will cascade.'"
+    "You hear the literal meaning but also hear the metaphor. You picture the town—a lattice of people trusting projects to hold them—and you feel your responsibility blossom into something like dread."
+    "You grab your tote and the camera out of impulse more than plan, because documenting failure can be a political proof later. But the camera shakes in your hand; you put it away and roll up your sleeves instead."
+
+    menu:
+        "Stay and help Mateo in the data cluster":
+            "You shoulder into the server rack, breath steaming in the cold air. Fingers fly across the keys. Mateo calls sequences, voice tight; you override a stuck routine and reroute auxiliary lines. For a sliver of time the alarms abate—then the next node glows orange."
+        "Run to the harbor to help with evacuations":
+            "You push through the lab doors into the rain. The harbor smells of wet rope and diesel; people shout from low roofs. You hand out a tarp and start moving sandbags, elbows slick with rain and salt. You find a woman with a child shivering in a soaked blanket and feel your jaw go slack with the same helplessness you've kept at bay."
+
+    # --- merge ---
+    "You do both, in a way—you half-stay, half-run, the decision folding your actions into a messy seam. Mateo falls into a rhythm you can match: one of you tracks diagnostics, the other boots up field comms"
+    "and texts Jun's number until it goes through. The buoys cough and die like someone punctured lungs. On the holo, Array Three flashes red and then dark."
+    # play sound "sfx_placeholder"  # [Sound: A long, low groan of surf pushing inland; a ripple of shouting]
+    "The lab feeds into the harbor like a vein. You follow the thread you tightened with your phone. On the wet pavement, lights from the lab stab the grey. People are moving—boats shoved off docks, neighbors forming chains, voices rough with adrenaline."
+    # [Scene: Tidebridge Harbor | Dusk]
+    hide mateo_alvarez
+
+    scene bg ch8_6b08b4_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind battered on corrugated roofs; distant shouts; the clink of metal against metal]
+    # play music "music_placeholder"  # [Music: Percussive, building—heartbeat drums layered over fraying strings]
+    "You step onto the harbor and the rain seizes every other sound. Puddles shiver with the collision of rain and salt. Low blocks are already ankle-deep; the water lenses the flares of people moving—bright waterproof jackets,"
+    "a child's umbrella turned inside-out. A smell rides up from the flood: wet peat, brine, and the sour hum of leaking fuel."
+    "Etta arrives with a tarp and hands, her apron bone-damp. She is shorter than she used to be, and you can see the tremor in her hands when she ties a knot. She doesn't look sentimental—only furious in a way that makes the world sharpen."
+    show etta_hargrove at left:
+        zoom 0.7
+
+    etta_hargrove "We hold the line,' she says, as if the phrase alone could anchor the tide. 'We stack the coir; we pull the pumps. We do not give up the marsh because a machine hiccuped."
+    "Mara, already recording, moves like a prism—sharp eyes, the recorder lifted. She hunts for detail, for the exact shape of failure that will make a story matter. Her recorder sees what you sometimes refuse to look"
+    "at: faces, the way neighbors pass a sleeping dog into a boat, the slow unclenching of someone who thought they would have to leave."
+    show mara_chen at right:
+        zoom 0.7
+
+    mara_chen "This is Tidebridge harbor, six months after the pilot. A surge overwhelmed the array. Residents are—"
+    "Her words vanish into the wind and someone near the quay swears loudly."
+    "And then—because the world has its own architects of timing—Elio Sato arrives with a sleek umbrella, salt streaking his coat but his steps clean and deliberate. He moves like someone who rehearses being calm. He lifts"
+    "a tablet, shows a storyboard of turbines and private docks, and, with the kind of composure that makes anger taste metallic, begins to speak."
+    show elio_sato at center:
+        zoom 0.7
+
+    elio_sato "This is precisely why we can’t rely on pilots alone. We need scaling, centralized standards, durable infrastructure. Private capital buys speed, and speed saves lives."
+    "A hush—and then a cascade of complaints. Someone accuses him of profiteering. Another voice calls him a savior. Mateo Alvarez's face folds into a look you can't parse for a beat—brave, angry, raw."
+    hide etta_hargrove
+    show mateo_alvarez at left:
+        zoom 0.7
+
+    mateo_alvarez "Speed without oversight gives you a wall without accountability. The buoys were a compromise—local maintenance, open data. We keep control, or it isn't our protection."
+
+    elio_sato "Control is a luxury when the sea is here now. Investors want assurances of governance—if they fund maintenance, they will expect IP control to guarantee ROI. That allows mass deployment. You think a volunteer base can maintain thousands of nodes through another storm season?"
+    "You hear the edges on both sides. Elio Sato's words are efficient, glazed with a logic that dismisses human complexity as inefficiency. Mateo Alvarez's are warm with impatience and the trembling of someone who knows how to prototype but is terrified of letting a town down."
+    "You stand between them like a seam. The harbor is a lattice of small, urgent hands—people who voted to try the tech, people who lent tractors, people whose houses are low and thin and full of"
+    "memory. Your throat closes because the decision is not just technical; it's moral, romantic, political. It is whether the town remains its own town."
+    "Etta steps into the tilt of the argument in a way that refuses simplistic alignment. She looks at Elio Sato and then at Mateo Alvarez and then at you; her face folds into the sort of complex silence you learned to read when you were young."
+    hide mara_chen
+    show etta_hargrove at right:
+        zoom 0.7
+
+    etta_hargrove "Neither purity nor speed alone protects the people who drown when our systems fail. We have to ask: who keeps the keys when the money dries up?"
+
+    elio_sato "You keep your local stewards. We provide durability. It's a partnership. Give us IP control for redundancy models and we scale your solution citywide."
+    hide elio_sato
+    show mara_chen at center:
+        zoom 0.7
+
+    mara_chen "And the clauses? The town deserves to see the contract. No one signs in a puddle."
+
+    mateo_alvarez "You really think they'll hand over control and trust us to shepherd oversight? They will lock it in. I've seen these clauses before. I walked away from projects that looked like this."
+    "He glances at you in a way that scrapes. There is so much unsaid in that look: the years he spent cobbling prototypes, the nights he went hungry to pay for parts, the quiet hope that"
+    "these buoys could be the bridge between his skills and his love for this town. You feel a quick, hot edge of fear—if you sign something that strips access, you will have betrayed more than a"
+    "plan. You will have betrayed people who believed in you."
+    "Your brain scrambles for the neatness of bullet points—legal safeguards, fiduciary trustees, open-source clauses, community oversight boards—but the siren of the immediate pulls harder: more buoys online now would mean more drained pressure on the marsh, more pumps, more lights for clinic refrigerators. Each solution is an arithmetic of lives."
+
+    menu:
+        "Call for the contract text now and refuse to sign without community review":
+            "You force the moment into the light. Someone hacks in a link and you scroll clauses with rain-damp fingers—terminology that nails access to a corporate account. The crowd murmurs; Elio smiles thinly and notes the time constraints investors have. Mateo's hand finds your shoulder and doesn't leave."
+        "Ask Elio to outline immediate deployment if we offer provisional intellectual sharing":
+            "You press for a middle path. Elio outlines a staged IP handover and a 'community trust clause'—terms as slippery as wet kelp. His eyes are steady; the assembled crowd shifts uneasily. Etta's jaw tightens; Mara lowers her recorder as if the act itself is a betrayal."
+
+    # --- merge ---
+    "You do not get a clean middle. Every movement of the conversation is a current pulling something loose. People shout about legacy—the market lost to those who can pay for change. A woman yells about her"
+    "grandfather's boat. A teenager curses at the sea. The rain drums harder, and with every strike the water climbs a fraction."
+    # [Scene: Municipal Plaza | Night — Emergency Meeting]
+    hide mateo_alvarez
+    hide etta_hargrove
+    hide mara_chen
+
+    scene bg ch8_6b08b4_3 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendoing percussion; a single violin string stretched thin]
+    # play sound "sfx_placeholder"  # [Sound: The municipal bell tolls—each peal fills the damp air like a verdict]
+    "Councilor Rosa's voice is measured and worn; the council chamber's window behind her is rimmed with rain. The plaza is full; Mara livestreams the meeting and her face is lit by phone screens—faces reduced to rectangles reflecting urgency."
+    show councilor_rosa_menendez at left:
+        zoom 0.7
+
+    councilor_rosa_menendez "We convene in emergency because there is emergent risk. We received two proposals: immediate private-backed scaling and a community-funded extension. We must weigh speed, autonomy, and risk."
+    "Etta stands at your right; Mateo Alvarez is pointedly at your left. There is a literal pressure in their hands on your elbows—small, human anchors."
+    "Elio Sato steps forward, immaculate despite the weather. He lays out a timeline on a sleek tablet: immediate funding, factory timelines, trained technicians deployed. His language slides over people like oil—efficient, warm, and faintly suffocating."
+    show elio_sato at right:
+        zoom 0.7
+
+    elio_sato "Sign with safeguards. We will set up an escrow for maintenance. We'll deliver buoys in numbers that matter in under six months. Our model secures ports, preserves infrastructure, prevents loss of life."
+    "A man near the front—someone you know by name but whose life you cannot carry—stands and shouts, 'And what about our access? What about fishing rights? You bring a wall that locks us out.'"
+
+    elio_sato "No, we incorporate access protocols. It is in everyone's interest to maintain livelihoods. But we need authority to ensure standards."
+    show mateo_alvarez at center:
+        zoom 0.7
+
+    mateo_alvarez "Authority isn't accountability. We can scale with grants, with lab partnerships—open manufacturing and training locals. It'll take longer. It will be messier. People will get wetter while we build trust."
+    "You feel every eye in the plaza. The town looks to you not because you are perfect but because you have asked them to imagine a future where they stay. You have tugged this rope into being tugged back."
+    "You think of faces: the woman with the sagging porch you visited last spring, the boy who left school to help his aunt at the fishery, Etta's stooped silhouette teaching you to plant roots in muck."
+    "You think of Mateo Alvarez—the way he keeps hope in the bend of his smile, the way he averts his eyes to avoid asking for help."
+
+    mateo_alvarez "I don't want to ask you to choose between me and your people. I only ask: can we build something that doesn't become a gate?"
+    "You search for the vocabulary of protection that isn't a sale—cooperatives, legal trusts, open-source licensing—but you also hear the tide. The very sea that taught you the rhythm of marsh grass has no patience for deliberative bureaucracy when someone's floorboards are floating."
+    "Your internal monologue presses hot: if you sign, you may speed protection but give away governance. If you insist on community scaling, you might be romantic but reckless—and another surge could make romanticism lethal. If you"
+    "pause and demand audits, you might buy safety in law but let the next storm carve the town into a memory."
+    "You feel like you are a small boat in a meeting of storms—pulled forward by urgency, pulled backward by principle, and rolling on the chop of personal entanglements."
+    "Etta places a hand over yours for a heartbeat. Her grip is the weight of history and the softness of a person who has fixed things with both hands. 'Whatever you decide,' she says quietly, 'know"
+    "that love here is also a kind of stewardship. Don't let fear be your only counsel.'"
+    "Mara approaches, eyes blunt. 'If you sign in secret, the town will know. If you don't, they will still know.' She holds up her recorder like an accusation and an ally."
+
+    "Elio Sato, sensing the narrowing, smiles with the patience of someone used to meetings like this" "The contract is the tool. We can write safeguards. You can appoint trustees, carve out open-source kernels. But the clock is real. Flood lines are not opinions."
+    "The plaza buzzes. Water slips closer to the stage; someone curses when a pamphlet floats away. Thunder grabs the air."
+    "Mateo Alvarez leans close enough you can smell the rain in his hair. There's an ache there—exhaustion braided to fear."
+
+    mateo_alvarez "If we hand over control, will you still trust me? Will you still trust us?"
+    "You look at him and the question is not rhetorical. It ricochets at the thin walls between lovers and neighbors. Trust is a fragile policy; once traded, it's hard to reclaim."
+    "Your pulse is a drumbeat that feels like the only honest clock in the plaza. A hundred smaller clocks—contracts, community meetings, sensor calibrations, council votes—tick in different languages. You cannot answer them all at once."
+    "The rain intensifies. The lights in the plaza flicker, and for a raw second the whole town seems poised between two breaths."
+    hide councilor_rosa_menendez
+    hide elio_sato
+    hide mateo_alvarez
+
+    scene bg ch8_6b08b4_4 at full_bg
+    # play music "music_placeholder"  # [Music: Climactic surge; percussion at full tilt]
+    # play sound "sfx_placeholder"  # [Sound: Distant, decisive bell toll; the crowd's murmurs swell]
+    "You have minutes—not forever. The buoys will either be scaled or left to the sea. The decision is an incision in the town's future."
+
+    menu:
+        "Sign private investment with legal safeguards.":
+            jump chapter9
+        "Insist on community-operated scaling and grassroots funding.":
+            jump chapter11
+        "Pause and seek an independent audit and renegotiate contracts.":
+            jump chapter19
+    return

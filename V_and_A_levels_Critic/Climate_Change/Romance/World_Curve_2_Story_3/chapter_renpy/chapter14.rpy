@@ -1,0 +1,239 @@
+label chapter14:
+
+    # [Scene: Pier / Co-Managed Site | Dawn — Two weeks after the occupation]
+
+    scene bg ch12_e67f19_1 at full_bg
+    # play music "music_placeholder"  # [Music: Jarring strings under a relentless percussion; heartbeat rhythm beneath dialogue]
+    # play sound "sfx_placeholder"  # [Sound: Clank of tools, muffled radio chatter, a distant legal siren winding down; gulls keening]
+    "You step onto the pier with sand in the seams of your boots and a bruise in your chest that doesn't let you stand straight. The morning air is raw—salt and diesel, laundry detergent from hastily"
+    "packed households, the bitter tang of burnt coffee from a thermos someone set down and forgot. Tarp flaps like a wounded bird."
+    "The city banner reads compromise in bureaucratic blue; beneath it, cardboard boxes and empty chairs spell out what compromise cost. You recognize the rhythm of that trade—one thing protected, another surrendered. Your throat tightens."
+    "Lina is crouched by a crate, tying shut a bundle of children's drawings, her hands moving fierce and small. Dr. Arun stands with his tablet, scrolling through the same graphs that once felt like weapons; now"
+    "they are legal scaffolding. Tamiko's camera is taut against her hip; her face is a map of exhaustion and something feral you once admired as righteous rage."
+    "Elias Moreno steps onto the pier with a high-visibility vest still in his hand, eyes hollow at the edges. He looks as if he has run through meetings and subpoenas and come out the other side"
+    "slightly smaller. When he sees you, his mouth tries to assemble hope and apology at the same time."
+    show elias_moreno at left:
+        zoom 0.7
+
+    elias_moreno "Mira—I've been trying to find the words before you heard them from someone else."
+    "You don't let him finish. The sound of your own voice is a blade."
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "So don't let them be stock phrases. Say the whole sentence."
+    "Elias Moreno swallows. The air between you is salt and evidence and the weight of everyone watching."
+
+    elias_moreno "(voice smalling into urgent) It's not escape. I can—I'll take models we fought to build here, the co-management language, Arun's living-shoreline metrics. I can raise them where they'll—"
+
+    mira_santos "Raise them for whom? For inland towns with different histories? Or for the people whose houses still have damp footprints on their floors because they were evicted last week?"
+    "Tamiko's camera clicks once, and the sound feels like verdict. Lina presses a wrapped drawing into your hands and looks up at you: pleading and raw."
+    show lina_cortez at center:
+        zoom 0.7
+
+    lina_cortez "Mira, we're not asking you to make him undo the world. We're asking you to not let him make this easy."
+
+    elias_moreno "I—' He steps closer. 'I stayed because I thought I could hold this—and I was wrong. The Consortium moved faster than any of us expected. I thought my paper would be enough. I thought my office could shield us. It couldn't. I can get policy that outlives me, Mira. I can save people in volume—"
+
+    mira_santos "Save people in volume. Or a chance to escape the consequences? Which is it, Elias?"
+
+    elias_moreno "(voice smalling into urgent) It's not escape. I can—I'll take models we fought to build here, the co-management language, Arun's living-shoreline metrics. I can raise them where they'll—"
+
+    mira_santos "Raise them for whom? For inland towns with different histories? Or for the people whose houses still have damp footprints on their floors because they were evicted last week?"
+    "Tamiko's camera clicks once, and the sound feels like verdict. Lina presses a wrapped drawing into your hands and looks up at you: pleading and raw."
+
+    lina_cortez "Mira, we're not asking you to make him undo the world. We're asking you to not let him make this easy."
+
+    elias_moreno "I—' He steps closer. 'I stayed because I thought I could hold this—and I was wrong. The Consortium moved faster than any of us expected. I thought my paper would be enough. I thought my office could shield us. It couldn't. I can get policy that outlives me, Mira. I can save people in volume—"
+
+    mira_santos "Save people in volume while losing these faces one house at a time.' Your fingertips burn where you close your hand on a rail. 'Is that what you mean by saving?"
+    "Elias Moreno's jaw works. He reaches out—almost apologetically—to touch your shoulder. His hand is warm, trembling with the same fatigue you feel in your bones."
+
+    elias_moreno "(soft) I wish that wasn't the calculus. I wish—"
+    "You yank away, not because you don't still ache for the comfort, but because the contact would make the compromise look like consent."
+
+    mira_santos "Don't touch the wound and call it medicine."
+    "There is a shout in the crowd from someone gathering mattresses. A city liaison walks by, their soft shoes whispering like an accusation. Cameras angle. Tamiko's breath is sharp."
+    hide elias_moreno
+    show tamiko_sato at left:
+        zoom 0.7
+
+    tamiko_sato "(brittle, proud) We exposed Cassian Vale's strings. Procurement went from secret to not. Contracts are being audited. But the law doesn't stitch up homes overnight."
+    hide mira_santos
+    show dr_arun_patel at right:
+        zoom 0.7
+
+    dr_arun_patel "The pilot was the only politically viable outcome this cycle. It will give the community operational control of the pier sensors, allow shared maintenance budgets, and create a registry for emergency housing—"
+    hide lina_cortez
+    show mira_santos at center:
+        zoom 0.7
+
+    mira_santos "(interrupting) And it lets them keep the part of the coastline that brings tourists and developers to the exact edge they like. That's the trade. We won a framework and lost rooms."
+    hide tamiko_sato
+    show elias_moreno at left:
+        zoom 0.7
+
+    elias_moreno "We salvaged systems that can prevent future displacement. I'm going to a place where I can make these rules part of standard procurement. If I do that—"
+
+    mira_santos "You still won't be here when Lina's neighbor has to sleep in a shelter because their name wasn't prioritized. You won't be here while the legal precedent you helped create is stretched to justify other displacements."
+    "Elias Moreno's eyes darken, and for the first time his certainty cracks into something human and raw. The arousal in your chest—painful, furious—beats faster. Around you, people are speaking in fragments: plans, lists, names of those"
+    "who could not come back. The day thickens with the echo of arrests; the legal paperwork shuffles like a second tide."
+
+    elias_moreno "(voice rising) I know the cost. I know houses were lost. I know this feels—unforgivable. But staying here, insisting on perfect justice today, meant the city could build Cassian Vale's wall wholesale. This pilot was the only thing that forced them to the table."
+    "You look at his hands, the way one finger taps a rhythm against his thigh—always the planner, even now. The intensity swells."
+
+    mira_santos "Forced them to the table while they still built the foundations. You brokered a pause with your foot on a hundred people's throats."
+    "Lina moves between you like a sudden tide, her voice small but hard."
+    hide dr_arun_patel
+    show lina_cortez at right:
+        zoom 0.7
+
+    lina_cortez "Elias—what did you tell them when they asked? That you needed proof of harm, or that you had a community willing to fight? Did you bargain with our faces? We showed up; we bled. Tell us that then, at least."
+
+    elias_moreno "I told them both. I presented evidence from Dr. Arun, petitions compiled by Tamiko, testimonies.' He looks at each of you, measuring. 'I told them people were willing to co-manage. It bought legal space."
+    hide mira_santos
+    show tamiko_sato at center:
+        zoom 0.7
+
+    tamiko_sato "And while you bought space, Mira and others were arrested. While you negotiated, bailiffs boxed up a dozen households."
+    "Silence falls like a curtain. The music tightens—strings climbing, drums adding insistence. Your chest hurts. You remember your grandmother's hands; you remember fitting your small fingers into them during a storm. You see them now: the same palms that steadied you, steadying nothing at all."
+    hide elias_moreno
+    show mira_santos at left:
+        zoom 0.7
+
+    mira_santos "(very quiet) So you're leaving."
+    hide lina_cortez
+    show elias_moreno at right:
+        zoom 0.7
+
+    elias_moreno "(a whisper) I am."
+    "He reaches for you again, slower this time. Your knee remembers how to step back. Everything in you wants to keep him; everything in you refuses to make what he did into salvation. The crowd watches as if the world is a camera lens, focusing on the fracture."
+
+    elias_moreno "Mira, I promise—I'll carry this story. I'll fight Cassian Vale's models in the institutions they trust. I won't stop. I don't know if that makes me good, but I'm going."
+
+    mira_santos "Promises are cheap in times like this."
+    "He flinches, as if the words landed with physical weight."
+
+    elias_moreno "I know. I don't expect you—I'm not asking you for forgiveness."
+    "You let the moment hang, a high wire tremor in the air. The arousal in the scene spikes: voices rising in several small storms, Tamiko's phone now streaming live to the paper, a crowd piling mattresses into a van. The pier hums with frenetic, painful motion."
+
+    elias_moreno "Please—Mira. Not goodbye like it means nothing. I need you to know why I'm taking this."
+    "You search his face for the man who once drew maps with you in the greenhouse, the man who could be stubborn and brilliant and sometimes impossibly tender. You find him, half-broken but earnest."
+
+    mira_santos "(soft, but cutting) I need you to be honest about what you couldn't stop."
+
+    elias_moreno "I will be."
+    "He says it like a vow, like a tool. You don't know if vows can excavate the harm already done."
+
+    menu:
+        "Tell him you need space":
+            "You step away at once, hands clenched around a ring of salt-stiff rope. The gesture reads as protection; Elias watches, wanting to close the distance and not knowing how. Around you, people interpret your movement—some as retreat, some as a pause for regrouping."
+        "Ask him to stay and help inventory losses":
+            "You shake your head, torn. Instead you hand him a list of names—those forced out, those whose claims still hang. His fingers close on the paper, an unspoken admission that work will follow and that action, not comfort, is what you need."
+        "Ignore him and go check on Lina's packing":
+            "You push past Elias and head down the pier. The need to hold someone else's hands, to fold a child's sweater back into a box, steadies you more than speaking does. Elias calls after you, unheard over the clatter."
+
+    # --- merge ---
+    "The crowd thins; a municipal van with legal placards drives off. The sun climbs and the day gets sharper."
+    # [Scene: Skyfield Conservatory | Afternoon — A few hours later]
+    hide tamiko_sato
+    hide mira_santos
+    hide elias_moreno
+
+    scene bg ch12_e67f19_2 at full_bg
+    # play music "music_placeholder"  # [Music: A slow, relentless low synth under a single tense piano motif; the percussion from the pier recedes but doesn't disappear]
+    # play sound "sfx_placeholder"  # [Sound: Water trickling into terracotta, the rustle of leaves, distant city horns like old alarms]
+    "You stand between rows of seedlings rescued from garden beds and cracked window-sills—succulents, samphire, basil with a ragged leaf marked by salt. Each plant is a small act of preservation. You hold the watering can like a grateful apology."
+    "Dr. Arun is bent over a spreadsheet printed and smudged, his glasses fogged; the numbers are clean but feel raw when you look at them—percentages that hide faces. Tamiko is on the phone, voice taut but"
+    "cutting through a bureaucrat's evasions, negotiating protections for reporters and witnesses; every sentence she delivers is hard-won."
+    show dr_arun_patel at left:
+        zoom 0.7
+
+    dr_arun_patel "The pilot's metrics are now codified in the city's emergency procurement. We have legal language that requires community representation in contracting committees—this will make it harder for a single consortium to win on opacity."
+
+    "You" "And the households?"
+
+    dr_arun_patel "(hesitates) We secured emergency protection for a subset: those with verifiable residency, documented displacement during the injunctions, and medical vulnerability. It's not everyone; there were eligibility thresholds imposed by counsel."
+    "Your chest tightens. The words are surgical and bloodless."
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "Legal eligibility thresholds. The language of triage."
+    show tamiko_sato at center:
+        zoom 0.7
+
+    tamiko_sato "(into phone) —and if you challenge them on the record, we will publish the contractor memos that show the timeline—' (she clicks off) 'We got the clause that prevents procurement from being sole-sourced without at least three community approvals. That wouldn't exist without the footage and the leaks we pushed through. It matters."
+    "You feel the high of that win, but it is brittle—like glass in a fist. The arousal in you hums on high, an electric burn."
+
+    mira_santos "(quiet) Tamiko—did you get protections for the witnesses who testified? The ones the bailiffs targeted?"
+
+    tamiko_sato "Journalistic shield is in place for now. Reporters and community witnesses have temporary legal protections. It buys time to get a more permanent statute."
+    "Elias Moreno arrives at the conservatory to collect a box of files—his leave papers and the models he'll take inland. He moves like someone trying to be smaller than the anger in the room but still large enough to matter."
+    hide dr_arun_patel
+    show elias_moreno at left:
+        zoom 0.7
+
+    elias_moreno "I wanted to—I'm sorry for how all of this landed. I thought I could be both here and there; I thought I could hold firm lines and make policy work without sacrificing people. I misread what speed would demand."
+    "You watch him fold himself into a chair and carefully put the files into his bag. The motion is domestic—like someone packing for a long trip that will leave a hollow behind."
+
+    mira_santos "Do you think the policy will be enough to stop others from being forced out the way we were?"
+
+    elias_moreno "(after a long breath) Not alone. Laws without enforcement are paper. But—coupled with community oversight, transparency, and the political momentum your action created—it's a better tool. I can make it part of the standard. I can make it harder for someone like Cassian Vale to pretend speed is the only humane thing."
+    "The words are reasonable, and they slice nonetheless. VeryHigh intensity pulses under each syllable."
+
+    mira_santos "You sound like our justification manual."
+
+    elias_moreno "(pained) I don't want to be an excuse. I want to be a builder of new guardrails. I'm not abandoning you emotionally—"
+
+    mira_santos "I don't need the consolation. I need you to carry what we lost honestly. Not as collateral in a larger plan."
+    "Elias Moreno nods, as if acceptance is some compact between two people and the future. His eyes are wet, but he doesn't make them into a plea."
+
+    elias_moreno "I will. I promise to do that work in a way that keeps this honest. I'll publish the lessons. I'll testify. I'll fight Cassian Vale's model."
+    "You look at the seedlings, at the tiny green thrusts that somehow survive storm after storm. You water methodically. The action steadies you. You think about the people who cannot return—empty porches, boxes sealed with packing tape, photographs left fluttering like gull wings."
+
+    mira_santos "This is the truth: structures change, contracts are amended, laws pass. Corruption is exposed and a few fingers are burned. But houses are not always rebuilt. People don't always come back. The victory sits on a shelf with a price tag."
+    hide mira_santos
+    show dr_arun_patel at right:
+        zoom 0.7
+
+    dr_arun_patel "We did a lot. It's not nothing."
+    hide tamiko_sato
+    show mira_santos at center:
+        zoom 0.7
+
+    mira_santos "(out loud) Not nothing,"
+    hide elias_moreno
+    show tamiko_sato at left:
+        zoom 0.7
+
+    tamiko_sato "(soft) We have a book of evidence. Leaks, video, contract trails. We can keep pressing. We didn't lose everything."
+    hide dr_arun_patel
+    show lina_cortez at right:
+        zoom 0.7
+
+    lina_cortez "(from the doorway, voice small) Some of us did."
+    "The words hang between you like a map of scars."
+    "You turn the watering can again, and the water spills, finding soil. You run your fingers over a leaf, velveted with salt, and for a moment the enormity of the fight condenses into this small green resistance."
+
+    mira_santos "Systemic change can germinate here. But it will cost. It costs friends. It costs the warmth of a kitchen where a neighbor used to smoke their pipe. It costs the sound of a child's footstep. You cannot legislate back a life. You can only make sure the next life is less likely to be taken."
+    "Elias Moreno stands, his leave papers in his bag—those pages a thin, brittle scaffold against loss. He lingers, as if seeking permission to go. You don't grant it; you don't have to. He moves anyway, out"
+    "of the greenhouse and into a city that will use him and be used by him."
+    "You remain. The conservatory is humid around your shoulders. The seedlings tilt toward a light you helped plant. The damage shows: a cracked pot here, a scorched leaf there. But green persists."
+    "You walk to the window and watch the pier from above: people moving like slow, stubborn tides, mending what they can. Somewhere below, Tamiko laughs—brittle and bright—at a small victory in her phone. Dr. Arun folds his tablet into his jacket with hands that tremble only a little."
+
+    mira_santos "(soft, concluding) You keep pushing. You will fight the legal battles, sit in council hearings, teach neighbors to read procurement files aloud so that the language stops hiding the fallacies. You will tend seedlings and claim them as small acts of defiance. You will hold community meetings in damp basements and listen. You will let grief live beside your plans. It will never stop being heavy."
+    "You close the conservatory door softly. The glass fogs in a moment; outside, the city continues, indifferent and relentless. In the hush, you place your palm against the glass and feel the echo of all the hands that have held you."
+
+    mira_santos "This is what 'true' change tastes like—bitter and necessary. The law has shifted. The papers say victory. The people who were taken cannot all be returned. The social fabric is scarred. You are bruised, older at the edges, clearer at the core."
+    "You lift the watering can one more time and let the water fall."
+    hide mira_santos
+    hide tamiko_sato
+    hide lina_cortez
+
+    scene bg ch12_e67f19_3 at full_bg
+    # play music "music_placeholder"  # [Music: The piano motif resolves into a slow, single note; the underlying percussion fades to nothing]
+    # play sound "sfx_placeholder"  # [Sound: A distant gull, a soft sigh]
+
+    scene bg ch12_e67f19_4 at full_bg
+    "THE END"
+    # [GAME END]
+    return

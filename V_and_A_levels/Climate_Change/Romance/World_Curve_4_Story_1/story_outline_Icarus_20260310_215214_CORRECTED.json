@@ -1,0 +1,520 @@
+{
+  "title": "Tidebound Promises",
+  "summary": "I, Maya Soler, return to Lira Bay to restore the tidal marsh that once protected our town. The story follows an Icarus (Rise-Fall) emotional arc: a rapid ascent of hope and early success as community energy, science, and a fragile romance with Arin converge; then a sharp, devastating fall when political pressure, economic urgency, and a catastrophic event unravel those gains. The Common Route (Chapters 1–3) builds momentum: personal stakes, community alliances, and a pivotal public decision. From there, three major routes unfold depending on my choice: a community-led hybrid adaptation (Route A), alignment with Evelyn's seawall and redevelopment (Route B), or an investigative route exposing secret deals (Route C). Each route contains a mid-route split that forces further moral trade-offs — preserve ecological integrity at personal cost, compromise for livelihoods, or pursue public truth that destabilizes the town. Each path climaxes in a rapid, emotionally intense collapse (storm, political sabotage, or revealed corruption) that leaves Lira Bay and relationships altered. Endings vary across bittersweet, tragic, or morally complicated outcomes, but the arc always follows the rise to a peak of confidence followed by catastrophic collapse.",
+  "emotional_curve_type": "Icarus (Rise-Fall)",
+  "player_character": "Maya Soler",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Returning Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive at Lira Bay at low tide, carrying my waterproof Moleskine and a muddy field jacket. I note that the marsh’s channels have silted differently since I left. I meet Rita Soler at the pier and Arin on his scuffed boots; in the lab trailer I check my wrist logger and patch my jacket. This chapter is about return and assessment: aligning scientific goals with the human geography of Lira Bay, feeling both protective hope and the weight of memory as clouds thicken on the water.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Low",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Soler",
+        "Rita Soler",
+        "Arin Kai"
+      ],
+      "locations_used": [
+        "harbor",
+        "pier",
+        "lab trailer"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Quiet Mobilization",
+      "branch_designation": "Common",
+      "narrative_focus": "I spend the morning measuring creek cross-sections at the Flats with volunteers. Lina Park arrives with volunteers and a megaphone. Arin offers his boat and manpower. We map oyster reefs, cordgrass plantings, and a pilot tidal channel. Mayor Greer drops by. I give a confident presentation at dusk on the rooftop garden. Optimism swells as science and community find rhythm and a seed of romance begins between late-night data logs and shared diesel smoke.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Soler",
+        "Lina Park",
+        "Arin Kai",
+        "Mayor Tomas Greer"
+      ],
+      "locations_used": [
+        "The Flats marsh",
+        "rooftop garden/terrace",
+        "harbor"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "A Public Choice (Logic Hub)",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At Municipal Hall I present the marsh pilot while Evelyn presents a sealed seawall plan. The crowd is fractured among fishermen, elders, and lenders. Arin stands near the front. The meeting crescendos into a vote call by Mayor Greer. This chapter is the emotional peak: pride, love, optimism, and the intoxicating sense that we might save the bay together—right before the choice that splits everything.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which strategy do I champion publicly?",
+        "options": [
+          {
+            "label": "Lead the community-led hybrid pilot with Arin and Lina",
+            "consequence": "Immediate grassroots momentum; tight local control but limited funds",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Back Evelyn's seawall proposal for quicker protection",
+            "consequence": "Political goodwill and funding; compromises to ecological aims and community autonomy",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Investigate the seawall's funding and demand transparency",
+            "consequence": "Risk of political backlash but possible truth that reshapes plans",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Lina Park",
+        "Rita Soler",
+        "Evelyn Hart",
+        "Arin Kai",
+        "Mayor Tomas Greer"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "harbor",
+        "rooftop garden/terrace"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Building Together",
+      "branch_designation": "Route A",
+      "narrative_focus": "I take public responsibility for a hybrid pilot. We mark planting lines at the Flats; volunteers work to bag eelgrass, plant cordgrass, and scaffold oyster cages. Early results thrill me: juvenile fish counts spike. Money comes via small grants and donations. Tension simmers as Evelyn’s emissary offers conditional bridge grant requiring easements; whispers about quotas arise. I push volunteers harder and skip sleep, with subtle cracks forming under the surface.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Lina Park",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "The Flats marsh",
+        "harbor",
+        "volunteer sites"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Compromise or Conviction (Logic Hub)",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Funding shortages bite and a regional grant committee demands quicker returns. On a rooftop terrace midnight strategy session, I confront the choice between refusing conditional funding, accepting it to save livelihoods, or exposing the easement strings and demanding public hearings. The community fractures and this decision will steer towards saving love, principle, or truth.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I resolve the funding impasse?",
+        "options": [
+          {
+            "label": "Refuse the conditional funding; double down on the community restoration",
+            "consequence": "Mobilizes volunteers but risks economic distress",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept the conditional bridge funding to save jobs",
+            "consequence": "Short-term relief, long-term ecological compromise",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Expose the easement strings and demand public hearings",
+            "consequence": "Potential transparency but legal and political backlash",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Lina Park",
+        "Mayor Tomas Greer",
+        "Rita Soler"
+      ],
+      "locations_used": [
+        "rooftop garden/terrace",
+        "The Flats marsh",
+        "municipal spaces"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Storm That Knows Names",
+      "branch_designation": "Route A — Ending",
+      "narrative_focus": "A sudden, violent storm devastates the bay. If restoration-only, oyster cages and plantings are lost; if conditional funding was accepted, redirected water floods unexpected neighborhoods. Arin hauls in a broken net; Evelyn’s seawall trucks arrive too late. The collapse is ecological and intimate: volunteers sob, neighbors argue over blame, and my guilt blooms. The peak of confidence has slashed into a sudden, irrevocable fall.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A / Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Evelyn Hart",
+        "volunteers",
+        "town residents"
+      ],
+      "locations_used": [
+        "pier",
+        "The Flats marsh",
+        "harbor",
+        "seawall construction zone"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "The Seawall Promise",
+      "branch_designation": "Route B",
+      "narrative_focus": "I stand beside Evelyn at the seawall construction site as she explains phased development. The town applauds promises of protection and investment. I become the scientist-legitimator while internally mapping ecological risks. Publicly I temper critique, trading caveats for negotiation. This brings immediate stability and dollars but drives a wedge between me and Lina’s grassroots efforts, straining relationships with Arin.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Soler",
+        "Evelyn Hart",
+        "Arin Kai",
+        "Mayor Tomas Greer",
+        "Lina Park"
+      ],
+      "locations_used": [
+        "seawall construction site",
+        "pier",
+        "municipal offices"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Contracts and Loyalties (Logic Hub)",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "Signed contracts with clauses guaranteeing developer easements are on the municipal table. Evelyn explains matching funds; my Moleskine shows diagrams of marsh channels these clauses will disrupt. Lina organizes protests while Mayor Greer negotiates. Arin asks for quota exceptions. I weigh forcing stronger ecological offsets, demanding community oversight, or accepting the contract and mitigating harm from within.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I handle the contract negotiations?",
+        "options": [
+          {
+            "label": "Force stronger ecological offsets and stricter oversight",
+            "consequence": "May keep some habitat but jeopardizes funding",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Accept the contract and work to mitigate harm from within",
+            "consequence": "Secures investment, compromises ecological goals",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Call for an immediate community moratorium and public forum",
+            "consequence": "Sparks investor panic and legal threats",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Evelyn Hart",
+        "Lina Park",
+        "Arin Kai",
+        "Mayor Tomas Greer"
+      ],
+      "locations_used": [
+        "municipal trailers",
+        "seawall construction site",
+        "Fisherman’s Pier"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Concrete and Silence",
+      "branch_designation": "Route B — Ending",
+      "narrative_focus": "The seawall rises in slabs; cranes replace reeds. If offsets were demanded some marsh spared but hydrodynamics redirected currents causing nightly flood pulses; if I compromised fully the marsh retreats. A storm hits: concrete protects main arteries but funnels water into low-lying markets and fisher lanes. Arin’s boat lies half-submerged; families are displaced. My voice breaks as I apologize to a town I couldn’t fully protect.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A / Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Evelyn Hart",
+        "Mayor Tomas Greer",
+        "town residents"
+      ],
+      "locations_used": [
+        "seawall construction site",
+        "Fisherman’s Pier",
+        "markets",
+        "Lantern House"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Threads of Evidence",
+      "branch_designation": "Route C / Additional",
+      "narrative_focus": "I dig into contracts and trace grant strings and developer memos. My office becomes a tangle of red string, PDFs, and insomnia. Noah Reyes offers boat time; Rita shares old maps. Evelyn's memos hint at expedited approvals and confidential appendices suggesting quid-pro-quo. As I collate documents I teeter between righteous exposure and the knowledge that publicizing this could blow town finances apart. Lina organizes legal advice and public hearings preparations.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Soler",
+        "Noah Reyes",
+        "Rita Soler",
+        "Arin Kai",
+        "Lina Park",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "Maya's office",
+        "harbor",
+        "Municipal Hall"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Public Reckoning (Logic Hub)",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "I organize a public forum at Municipal Hall to present the evidence. Evelyn is present in whisper spaces but the documents reveal hidden easements, prioritized investors, and minimized ecological valuations. Lina mobilizes a crowd; Mayor Greer mediates. The town must choose between Evelyn's pathway, a full audit with investor risk, or legal action that could delay protections. Arin reveals fear of losing the fishery.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I execute the revelations?",
+        "options": [
+          {
+            "label": "File formal public records requests and pursue legal avenues",
+            "consequence": "Possible institutional reckoning, long delays and economic uncertainty",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Negotiate a mediated audit with Evelyn present",
+            "consequence": "Potential compromise and oversight, but risk of cover-ups",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Go full public with the documents and call for immediate civic intervention",
+            "consequence": "Maximum exposure, political chaos, and possible investor withdrawal",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Evelyn Hart",
+        "Lina Park",
+        "Arin Kai",
+        "Mayor Tomas Greer",
+        "town residents"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "harbor",
+        "rooftop garden/terrace"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Aftermath of Truth",
+      "branch_designation": "Route C — Ending",
+      "narrative_focus": "Through legal channels or mediated audits, the town's structures crack. Legal delays leave neighborhoods vulnerable; negotiated audits can be diluted and Evelyn may remain politically intact. Revelations fracture trust: investors pause, families sell and leave, and Arin’s fishing quota shrinks. There is moral clarity but material loss; exposing wrongs didn't inoculate us from harm, it made wounds visible.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A / Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Lina Park",
+        "Rita Soler",
+        "Evelyn Hart",
+        "Mayor Tomas Greer"
+      ],
+      "locations_used": [
+        "rooftop garden/terrace",
+        "harbor",
+        "municipal offices"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "The Cost of Exposure",
+      "branch_designation": "Route A — Alternative Ending",
+      "narrative_focus": "I expose the easement strings and demand public hearings. Transparency generates outrage and panic: development funds freeze and lawsuits follow. Without bridge funds the restoration labor force dwindles and some families take inland work. A late storm overtaxes defenses and floods a neighborhood; romance and community trust are reshaped into quieter forms. Truth came at a price the bay and community could not fully pay.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Lina Park",
+        "Rita Soler",
+        "Evelyn Hart",
+        "Mayor Tomas Greer"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "The Flats marsh",
+        "Fisherman’s Pier",
+        "rooftop garden/terrace"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Investor Exodus",
+      "branch_designation": "Route B — Alternative Ending",
+      "narrative_focus": "A public moratorium ignites investor panic and the primary developer pulls out. Construction crews stand idle and the seawall remains half-built, leaving a patchwork of protection. Municipal budgets strain and jobs evaporate; fishermen like Arin take mainland work. We stopped a collusion but the vacuum left by withdrawn funding hammered the town hard; livelihoods fray and the bay endures while the town's fabric weakens.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Lina Park",
+        "Mayor Tomas Greer",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "seawall construction site",
+        "Fisherman’s Pier",
+        "Main Street",
+        "construction zones"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "The Reckoning Storm",
+      "branch_designation": "Route C — Alternative / Catastrophic Ending",
+      "narrative_focus": "I went full public with the documents. The expose causes legal suits, funding halts, and Evelyn's investigation. Investors sever ties, leaving defenses thin. A multiday storm slams the half-prepared town; contractors gone and stretched resources allow the sea to claim neighborhoods and scour the Flats. Arin attempts rescues and tragedy occurs. The cost of absolute truth is legible in every flooded doorway; right did not guarantee protection.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Soler",
+        "Arin Kai",
+        "Evelyn Hart",
+        "Lina Park",
+        "Rita Soler",
+        "Noah Reyes",
+        "Mayor Tomas Greer"
+      ],
+      "locations_used": [
+        "Main Street",
+        "The Flats marsh",
+        "harbor",
+        "Fisherman’s Pier"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "World View: Near-future Lira Bay with stilted pastel houses, battered piers, The Flats marsh, municipal seawall construction zone, rooftop solar terrace. Political tensions between Mayor Tomas Greer, Evelyn Hart, grassroots organizer Lina Park, and community elders like Rita Soler. Visuals emphasize wet reflective surfaces, painterly salt-laden skies, and character designs noted throughout chapters.",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 21:52:14"
+}

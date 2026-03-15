@@ -1,0 +1,129 @@
+### SCRIPT
+# Route: Route B → Option B / Route C → Option C
+# Context: 98c6f2
+
+[Scene: Boardwalk | Evening]
+[Background:"ch3_98c6f2_1"]
+[Sound: Light rain on canvas; distant gull calls; the low murmur of a gathered crowd and the occasional metallic clack of a rusted whistle.]
+
+You arrive with the satchel weight where you left it: the folded handout inside like a small, deliberate promise. The memory of the Saltworks — chalk dust under your nails, Asha’s tired satisfied smile, the hummed promise of machines — is still under your skin. It steadies you as you step beneath the bulbs and the gull-light.
+
+You tuck the rolled map under your arm. From here, the hearing looks like two things at once: a town meeting and a stage. The front row of folding chairs is packed with fishermen and shopkeepers, kids on laps, the old and the new squeezed together. Jonah is there, anchored in the first row. His fingers drum a slow, familiar rhythm on a rusted whistle hung at his throat; when he catches your eye he gives a small, crooked lift of his chin — not quite a smile, but a shore-line gesture of faith.
+
+[Background:"ch3_98c6f2_2"]
+
+The air smells of wet wood, smoked fish, and the metallic tang of the sea. The bulbs smell faintly of hot filament and salt. Conversation threads and then hushes as Councilor Ben Rhee steps forward, coat collar turned up against the drizzle.
+
+Ben Rhee: "Good evening. Thank you all for coming out. Tonight we hear proposals. We'll start with Marin Solace, who will present the cooperative's plan."
+
+[Sound: A polite ripple of applause. Asha's tray passes your elbow — the prototype soil clings to the cardboard support, damp and alive.]
+
+[INTERACTION]
+> Choice A: "Finger the map edge and breathe slowly"
+> Choice B: "Glance at Jonah once, then look away"
+[Outcome A: You press the rolled map to your ribs, let the breathing slow. The rhythm grounds the words you practiced into something you can release into the air.]
+[Outcome B: You look at Jonah, catch the steadying set of his jaw, and the look fills you with a warmth that steadies your fingers; then you look back at the podium and let the heat settle into resolve.]
+[MERGE: Continue]
+
+You step to the podium. Rain beads on the lectern and skitter down to the boards. Your voice comes out plain, technical, human — the voice you've rehearsed in the Saltworks in front of a chalkboard of hydrographs and stubborn hope.
+
+Marin Solace: "Havenpoint is not a project. It’s a network of places, people, and practices. What I'm proposing tonight is a phased, community-led adaptation: permeable terraces along vulnerable lots, marsh revetments at key inlets, and a maintenance program paid for with local hiring and adaptive governance."
+
+[Background:"ch3_98c6f2_3"]
+
+Marin Solace: "These are low-carbon, reversible interventions. They keep access to the shore for fishers, maintain the tidal exchange our eelgrass needs, and create jobs rebuilding what storms have taken."
+
+Audience Member (voice roughened by years on the water): "How long 'til it works? We need protection now—what if the next surge hits before your marshes settle?"
+
+Marin Solace: "That's the right question. These systems aren't instant like concrete, but they start dampening wave energy in the first season if properly sited, and they adapt. They buy us time and repair ecosystem function that supports our fisheries — the very thing we need to preserve our livelihoods."
+
+A murmur; some nods. Asha steps close, handing out tiny cuttings from the prototype marsh trays. Raff's footage shows a before-and-after crossfade: a sodden shoreline, then a living fringe holding with roots and promise. The screen draws sympathetic looks — faces soften when they see neighbors whose livelihoods the plan protects.
+
+Asha: (whispered, urgent) "If they ask about maintenance budgets, mention the co-management clause. We wrote it in."
+
+Marin Solace: "Yes. Co-management with fishermen, with transparent oversight, with adaptive funding tied to measurable outcomes."
+
+[Background:"ch3_98c6f2_4"]
+
+Lydia Voss: (calm, voice carrying) "Good evening. The scenarios Marin described are thoughtful—and they have merit in a controlled setting. But the models I run for regional resilience show we must reduce failure risk quickly. A rapid, engineered seawall—strategically placed and funded now—offers immediate reduction in flood risk for critical infrastructure."
+
+You sense the hum around Lydia's words: a promise of speed, of numbers, of investor confidence. Her diagrams on the pavilion displays are bold, tidy sections. She speaks in timelines and cost-benefit analysis; her cadence is a pulse the municipal apparatus understands.
+
+Marin Solace: "A seawall provides a hard line, but it alters tidal exchange and can accelerate erosion elsewhere. We must ask: who bears the downstream costs? Who loses access to forage and moorings? Our plan seeks to reduce harm and keep the sea and our people in conversation."
+
+Lydia Voss: (a brief, almost imperceptible smile) "Optimism is admirable. But communities need certainty. Investors need a clear timeline. My proposal yields measurable flood reduction within months and secures investor funds that can be deployed now."
+
+Ben Rhee clears his throat, fingers on the microphone. His face is careful, the mediator between urgency and principle.
+
+Ben Rhee: "We'll open the floor to questions. Marin, Lydia—both of your models will be considered. But council must decide whether to pursue community-led pilots with conditional funding and oversight, negotiate a hybrid plan with Lydia’s investor group, or accept Lydia's rapid seawall plan for immediate protection. Let's hear from the community."
+
+[Sound: Low applause. A child laughs from the back; someone coughs; a chair scrapes.]
+
+An elderly fisher rises, voice hoarse: "We can't wait years to feed our kids. How do we pay the bills if the boats keep getting wrecked?"
+
+You step down from the podium to stand among the chairs, closer to the people you aim to protect. You trade brief, concrete answers: where groins would be lowered, how volunteer crews could be trained, what the first-year costs look like with conditional grants and phased disbursements.
+
+Jonah Reyes leans in. He asks, quietly but with the blunt kindness he's known for:
+
+Jonah Reyes: "If we work this way, can I keep my moorings? My father's nets? Or is that the cost?"
+
+Marin Solace: (lowering your voice) "You keep what you can work. The pilots prioritize access at fishing points, designed with the very people who know how the bay breathes. We plan for retrofits that keep boat lanes navigable."
+
+Jonah Reyes: "Good. 'Cause I trust you, but I trust the water more."
+
+His laugh is a soft thing, and it makes people smile. The mood lifts. There's an energy to the room that feels like embers coming back to flame.
+
+[INTERACTION]
+> Choice A: "Offer a prototype cutting to Elder Mae"
+> Choice B: "Hand the cutting to the fisher who asked about moorings"
+[Outcome A: Elder Mae takes the cutting with a small, surprised smile. Her fingers—stooped but steady—test the mud and nod. She says, 'Tend it true.' The exchange feels like a blessing handed back to the town.]
+[Outcome B: He takes it with a rough laugh, eyes glossy. 'Maybe my grandson'll see a better shore,' he says. You both feel the weight of that hope and it steadies the next answer you give.]
+[MERGE: Continue]
+
+Lydia Voss stands to rebut in the formal period. She points at timelines and risk matrices. Her answers are crisp, efficient; the audience hears the sound of emergency—fast funding, quick builds. She outlines contractor guarantees and a maintenance fund drawn from investor escrow.
+
+Lydia Voss: "We can mobilize crews within weeks, secure long-term insurance, and protect the downtown core. There is cost, yes—but compared to catastrophic failure, it is investment, not expense. The choice is between decisive action now or a slower, more uncertain path."
+
+You listen, measuring the cadence of the room: fear of immediate loss, hunger for certainty, and a steadier hope that something better can be grown instead of poured. You speak again, softer, filling a technical detail with human consequence.
+
+Marin Solace: "Decisions like this shouldn't force a zero-sum between safety and stewardship. The pilots are designed to be auditable; if they fail, funding pivots. If they succeed, we scale. That’s conditional funding. That’s accountability and local jobs."
+
+Raff's footage loops again, this time with close-ups of hands — hands like yours and Jonah's, setting reeds, tying burlap, painting a mural on a floodwall. Faces in the footage look back at the crowd, and the crowd recognizes neighbors. The film elicits a swell of supportive applause.
+
+Ben lifts a hand, calling for order with a patience that is almost prayerful.
+
+Ben Rhee: "We've heard both perspectives. This council must recommend direction. Marin, Lydia, can you both briefly state the core trade-off we must accept?"
+
+Marin Solace: "The trade-off is time versus process. Lydia offers time—front-loaded protection—but at the cost of centralized control and potential ecological trade-offs. We ask for process: slower, more participatory, but with deeper social and ecological resilience."
+
+Lydia Voss: "The trade-off is risk. My plan reduces near-term risk to critical assets. The cost is social consultation, which we commit to, but the window for decisive protection narrows every high tide."
+
+[Sound: A long held breath. The rain softens, like someone listening.]
+
+You look out and see Jonah again — his jaw set, eyes steady, the light catching a bright line of salt at the temple. You feel the room tilt toward possibility; the air is charged not with dread, but with the kind of tension that comes before change takes shape.
+
+You sense the moment compressing to a single hinge: the council's framing question. Ben folds his hands and looks down the rows before the microphone.
+
+Ben Rhee: "Council will now deliberate on a recommendation. The options are: pursue community-led pilots with conditional funding and oversight; negotiate a hybrid plan with Lydia’s investor group; or accept Lydia’s rapid seawall plan for immediate protection. We ask for your input."
+
+[Background:"ch3_98c6f2_5"]
+
+Your chest is full of the Saltworks’ late-night meetings, of Asha's prototypes, of Raff's edits, of Elder Mae's quiet insistence that history matters. You also hold the silence Lydia fills with the glow of contract-ready certainty. You stand where policy and people meet, and you feel, more than ever, how much this town depends on the choice made tonight.
+
+[Music: Swell of strings brightening — an ascendant, hopeful theme.]
+
+[DECISION POINT]
+1) Option 1: "Insist on community-led pilots and conditional funding" -> TARGET chapter_id: [4]
+2) Option 2: "Propose a negotiated hybrid plan: living shorelines plus targeted engineering" -> TARGET chapter_id: [7]
+3) Option 3: "Accept Lydia’s rapid seawall plan for immediate protection" -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Insist on community-led pilots and conditional funding" -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Propose a negotiated hybrid plan: living shorelines plus ..." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Accept Lydia’s rapid seawall plan for immediate protection" -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

@@ -1,0 +1,185 @@
+label chapter9:
+
+    # [Scene: Town Hall | Evening]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, tense cello undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Rain pattering against high windows; a distant barge horn]
+    "You walk into the chamber with the ledger folded against your ribs like something fragile and dangerous. The compass in your pocket is warm from your palm; it does not tell you what the right shore"
+    "is, only which way is north. Your throat is dry with salt and old grief, and the small lights of faces in the audience look like buoys in a fog."
+    "The mayor clears his throat, an attempt at calm that sounds thinner than it should."
+
+    "Mayor" "Ms. Morgan, the floor is yours."
+    "You stand before the council table. Your maps are stacked beside the ledger; your tablet hums quietly at your elbow. You hear the hum beyond the doors — investors, developers, fishermen who smell of oil and damp wool, and your own name whispered like a verdict."
+    "You open the ledger. The paper is a ledger of commitments and redactions: annotated meeting notes, flagged emails, temperature anomalies circled in Isla Morgan’s small, precise hand. You set it gently on the table. Your voice is steadier than you feel."
+    show isla_morgan at left:
+        zoom 0.7
+
+    isla_morgan "This shows where the interim model was altered — adjustments that shift the projected confluence of storm surge and proposed defenses by nearly half a meter. Those changes were presented as minor corrections. They're not."
+    "A ripple travels through the chamber. Aria Chen's expression does not break, but a shadow crosses the room — the investor seats straighten in unison."
+    show aria_chen at right:
+        zoom 0.7
+
+    aria_chen "Isla, you are presenting selective extracts as a comprehensive indictment. The committee reviewed multiple datasets. Interpretation varies; causation is not established."
+
+    isla_morgan "Interpretation shouldn't hide modification. The models were parameterized with economic assumptions that removed certain worst-case feedbacks. I can show you the raw sequences, the timestamps. The rigs we deployed depend on those parameters being accurate."
+    "Aria Chen's hand lifts, palm open — practiced, conciliatory."
+
+    aria_chen "You are right to value transparency. But accusations have consequences. If we entangle the funding in litigation or public scandal, we jeopardize the project that—"
+
+    "Isla Morgan (interrupting)" "We already jeopardize people's homes if the specifications are wrong and construction proceeds on false reassurance. The town deserves to know what was done in its name."
+
+    "Councilmember Anders" "Isla, be mindful of the process. We planned a joint review to adjudicate this."
+    "Your ledger is a small, stubborn thing on the table. You slide a photocopy across for the mayor and the council to see: a red line tracing the edits, a series of logged approvals at hours that don't match meeting minutes."
+
+    menu:
+        "Tap the ledger for emphasis":
+            "Your knuckles rap the wood once. Heads turn; the sound is a metronome marking the moment. Aria Chen's gaze cools, but there is a flicker — something like calculation."
+        "Lay the ledger down softly and speak slowly":
+            "You lay the pages down as if placing a bird on a roof. The chamber leans in; the gentleness makes your words heavier, like a tide easing in."
+
+    # --- merge ---
+    "Aria Chen's rebuttal comes not with heat but with precision. She cites compliance letters, legal frameworks, a pending clause that she says absolves the council of immediate liability. She appeals to the town's need for employment and the timelines set by the provisional funders."
+
+    aria_chen "You have a duty to present evidence, Ms. Morgan. But you also have a duty not to jeopardize livelihoods through premature alarm. Investors are attentive to stability; sensational claims can prompt retraction."
+    "An investor — a man with a voice like a ledger closing — stands. His tablet screen reflects the chamber lights."
+
+    "Investor" "Given these allegations, our board will freeze disbursements pending an independent audit. We cannot proceed while material inconsistencies are under dispute."
+    "A small, shocked sound rises like a wave across the crowd. You watch faces contort: contractors who were scheduled to pour concrete next week, apprentices whose pay was promised, elderly residents who had already rearranged plans to accept temporary relocation. The word 'freeze' lands like ice."
+    "Luca Moreno is in the audience. You had expected his face to be a refuge; instead it is a crossfire of betrayal and fear. He stands before you can, voice raw."
+    show luca_moreno at center:
+        zoom 0.7
+
+    luca_moreno "Isla — you knew what would happen if you did this now. You knew the investors were sensitive. You knew they had deadlines. What did you expect? That they'd applaud?"
+
+    isla_morgan "I expected honesty. I expected that truth could stand. I expected that the town should not be built on a fudge factor."
+    "Luca Moreno's hands ball into fists; the bandana around his wrist strains."
+
+    luca_moreno "This isn't about honesty. It's about timing. We were trying to get the rigs deployed, to gather more in situ data. We were weeks away from completing monitoring arrays on the flats. Now they stop everything pending lawyers and audits. Do you understand what that means, Isla? That means no interim protections, no emergency pumps, no staged evacuations funded by the provisional grants."
+
+    isla_morgan "If the parameters are wrong, those protections are a mirage. They will give people a false sense of security."
+
+    luca_moreno "So you prefer exposing the mirage to everyone overnight, instead of building shelters that might actually save someone in the next storm?"
+    "The mayor bangs his gavel. Voices overlap. Aria Chen's reply is a measured stratagem: insist on process, cast the revelation as political theater, and frame the freeze as a temporary caution."
+
+    aria_chen "Ms. Morgan raised procedural concerns. We will commission an independent review. It must be thorough to restore confidence."
+
+    isla_morgan "How long will that take?"
+
+    aria_chen "Several weeks."
+    "Your internal clock collapses. In several weeks, the shoreline will move if the season turns. You feel the ledger's edges dig into your palm; the compass ticks against bone."
+    # [Scene: Salt Flats | Late Night]
+    hide isla_morgan
+    hide aria_chen
+    hide luca_moreno
+
+    scene bg ch9_3be532_2 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse wind harp with low percussion]
+    # play sound "sfx_placeholder"  # [Sound: Distant hammering from crews called back at twilight; gulls cry like thin alarms]
+    "You walk the flats in the dark, the half-built rigs casting long, inadequate shadows. Mud clings to your boots. A cooling mist lifts salt from the ground and settles on exposed circuitry like a thin frost."
+    "Ravi's truck is parked at the edge. A single work light sways; tarps flap where sailors once sang. The technicians are gone; their lunches still in wrappers. The concrete footings meant to secure the sensors are poured only halfway."
+
+    "You" "We were so close,"
+    "You think of the developer's representatives on the promenade the day before, pitching 'urgent, hard-defenses' — concrete seawalls, raised roadways, fast contracts that promised immediate work and visible protection. Their signage is already stapled to lamp"
+    "posts: URGENT SAFETY FOR GREYHAVEN — BUILD NOW. The language smells of certainty and money."
+
+    menu:
+        "Climb the nearest unfinished rig and check the wiring":
+            "You climb the scaffold, your fingers cold and slick. The wiring is corroded where the tarp left it exposed — a small betrayal of time and trust."
+        "Walk back to the promenade and confront the developer's foreman":
+            "You stride toward the promenade; the foreman meets you with a glossy smile that doesn't reach his eyes. He speaks of timelines and insurance, the professional warm breath of a man selling speed."
+
+    # --- merge ---
+    # [Scene: Town Promenade | Night — Storm Signs
+
+    scene bg ch9_3be532_3 at full_bg
+    # play music "music_placeholder"  # [Music: A low rising rumble, like a drumbeat under the bones]
+    # play sound "sfx_placeholder"  # [Sound: Wind picking up; the barge horn repeats, closer]
+    "You find Luca Moreno on the promenade, back turned to the sea. He is leaning on the rail, shoulders hunched. When you approach, he does not turn.]"
+
+    "You" "You called me reckless,"
+
+    "Luca Moreno (without turning)" "I didn't call you reckless because you were right or wrong. I called you reckless because you didn't ask me — because you didn't ask for help when there were other things we could try. You stood and hurled it into the room like a flare."
+
+    "You" "I did ask for help — from the town, from the process. When that process was folded into commercial assumptions, asking softer versions of the same thing felt dishonest."
+    show luca_moreno at left:
+        zoom 0.7
+
+    luca_moreno "So you chose honesty as a hammer."
+    "Silence hammers between you. You remember making plans: working with Luca Moreno to retrofit breakwaters while the trial ran; his wallet of tools and your charts, the two of you elbowing each other into persistence. Now there is a drywall-thin split where warmth used to be."
+
+    luca_moreno "People are scared, Isla. I can feel it in their hands when they hold their phone and see 'funds frozen.' Some of those hands belong to my friends. Some of those hands are counting the hours until their apprentices are paid. What if this costs someone a job? What if this costs someone shelter when the water comes?"
+
+    "You" "What if silence costs someone their house when the sea proves we were wrong?"
+    "His shoulders tense. When he finally turns, the light catches the line of his jaw, a hard edge of decision. He steps back from you, then away, and you watch his silhouette leave like a boat slipping from a mooring."
+
+    luca_moreno "I have to go check the southern pumps. You... do what you have to do."
+    "It is not a promise. It is not a separation in words — it is a fracture that will become a distance."
+    # [Scene: Flooded Lanes | Night — Storm Arrival]
+    hide luca_moreno
+
+    scene bg ch9_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: Full orchestral swell, mournful strings]
+    # play sound "sfx_placeholder"  # [Sound: The sea, enormous and indifferent; the groan of torsion; shattering glass]
+    "The storm arrives with a violence you can feel in your bones. Rain drum-rapid against your jacket; wind claws at tarps that still billow on half-finished sites. The sections of the town that were to be"
+    "protected by provisional funding — temporary pumps, sandbag bridges, emergency power — are dark and still because checks stopped clearing and crews were sent home."
+    "Water finds the smallest seams first: a gap under a shop's back door, a culvert clogged with detritus, a seam in an old seawall patched by hand. You stand ankle-deep in cold water that smells of diesel and old salt, and watch neighbor's doorways fill with what the sea remembers."
+    "Jonah's boathouse has its doors propped open by floating crates. In the dark, his silhouette moves like an old knot of rope. He stands in hip-deep water and looks at you without surprise, only a slow, weathered acceptance."
+    show jonah_merrick at left:
+        zoom 0.7
+
+    jonah_merrick "We told 'em the sea would come, one way or another. Folks don't listen until it's knocking at their own door."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "I told them,' you say. The ledger is in your bag now, water-darkened at the corners. 'I told them and I thought that would make a difference."
+
+    jonah_merrick "It made one. It made certain folks pull their hands back before they burned 'em."
+    "The developer's concrete sections divert a swell but create channels where water funnels into lanes and undercut foundations. Where the living breakwaters might have absorbed and slowed, the hard ridges reflect and concentrate the force. Houses"
+    "that might have been spared by marsh friction are stripped; doors are ripped from frames like the lids off a tin."
+    "You move like a person whose muscles remember what to do: you help where you can, you stack sandbags with wet hands, you pull a child's soaked blanket up over her shaking shoulders. Each small action is a protest against scale and a prayer that someone will notice."
+    "Luca Moreno finds you in a police cordon, his jacket soaked through. There is no anger now, only a fatigue that looks like defeat."
+    show luca_moreno at center:
+        zoom 0.7
+
+    luca_moreno "We could have gotten temporary pumps in. We could have shored up basements. The engineers had a contingency plan if the funding came through."
+
+    isla_morgan "The contingency plan relied on assumptions I can't live with."
+    "He studies your face, searching for the person he shared blueprints with and finds instead someone who has become a public fulcrum."
+
+    luca_moreno "Did you ever think you might be right and still lose everything because of how you were right?"
+
+    isla_morgan "Yes,"
+    "The rain does not let up. Neon reflections smear in ankle-deep water. Somewhere a siren moves in the distance like a slow, patient animal."
+    hide jonah_merrick
+    hide isla_morgan
+    hide luca_moreno
+
+    scene bg ch9_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single plaintive violin line]
+    "You walk the flooded lane alone for a while after the immediate rescues are done, your boots leaving dark imprints that the water smooths away. You count the things you did correctly: the ledger exposed manipulations;"
+    "the town will, in time, demand accountability. You also count the things that now exist because of that exposure: the monitoring rigs abandoned, provisional funds frozen, the developer's hard-defenses advanced in places where they can be"
+    "seen, and a town more divided than it was before."
+    "You think of the people whose livelihoods are paused; you think of the apprentices and the contractors and the families sleeping in cars tonight because a check did not clear. You think of Jonah's tired face"
+    "and Luca Moreno's turned back. You think, with a terrible clarity, of the ledger in your hand and the way truth can be a blade that cuts both rot and flesh."
+    "You stand at the edge of a flooded street, water whispering around your ankles, and the compass in your pocket feels like a small, useless heartbeat."
+    "You wanted to protect the town from future storms. You did what you thought the town deserved: exposure, transparency, truth. The immediate fallout is a town without the near-term funding that would have put pipes in the ground and pumps in basements. The irony is sharp enough to cut you."
+    "You do not know yet how this will be judged by history, or neighbors, or your own heart. Tonight, you know only the weight of what unfolded: the council erupted, the investors stepped back, the rigs"
+    "sat half-built, developers filled the quiet with promises and concrete, and the storm tested those promises like teeth on driftwood."
+
+    scene bg ch9_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: Low, sustained chord that resolves nowhere]
+    # play sound "sfx_placeholder"  # [Sound: The sea, relentless; a distant baby crying; the steady drip of water from eaves]
+    "You tuck the compass back against your sternum. You are tired in a new way: not merely physically, but as if every ideological sinew has been strained. You feel responsibility not as valor but as burden. The ledger has not absolved you; it has opened a wound."
+    "You press your forehead to the cold glass of a shuttered shop and let yourself imagine the calculus that will follow: audits, lawsuits, partitioned loyalties, perhaps reforms that come years later, after more water has passed."
+    "For now there is loss. For now there is distance from Luca Moreno in a way that is practical and profound. For now Greyhaven is watching the cost of truth in real time: frozen funds, empty"
+    "rigs, and flooded lanes. You held honesty up to light and discovered how much it could blind as well as reveal."
+
+    scene bg ch9_3be532_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fades to a single, mournful piano key]
+    # play sound "sfx_placeholder"  # [Sound: Rain tapering, the exhausted groan of the sea]
+
+    scene bg ch9_3be532_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

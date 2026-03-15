@@ -1,0 +1,142 @@
+label chapter9:
+
+    # [Scene: Redesigned Seawall | Late Afternoon]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of machinery in the distance; gulls call; the soft slap of water against the reclaimed channels]
+    # play music "music_placeholder"  # [Music: Warm, ascending strings with a steady, hopeful piano motif]
+    "You stand on the new promenade, boots dusted with wet silt and fine concrete grit. The air tastes of peat and metal—salt and the faint, medicinal scent of curing concrete—but underneath it is green and alive:"
+    "a threaded sweetness of marsh grass and the musk of turned earth where volunteers have been planting all morning."
+    "Around you, the town seems both the same and newly healed. Volunteers in bright vests kneel between engineered gaps, their hands dark with mud as they set plugs of cordgrass into the soft silt. Children dart"
+    "along the edge, their laughter knifing through the adult conversations like gulls through the fog. Elena stands near the ceremonial plaque, her scarf a bright call against the subdued palette of the wall; Maren Voss is"
+    "there too, palms steepled, statuesque in the last of the day's light. The crowd hums with the quiet kind of relief that comes after a long, hard argument has been settled — bruised, practical, and not"
+    "a little proud."
+    "Your chest feels oddly porous, as if something that had been braced against the inside of your ribs has loosened. You think of every late night in the boathouse, of the lists Mika brought in that"
+    "rain, of Dr. Kaito’s thin hands finding the right phrase for historical context. You think of nights you and Lucas Herrera did not speak, of the times you chose marsh priorities over comfort, of the cost"
+    "of insisting. All those choices, all those fractures, have been compressed into this single, messy compromise: concrete where homes needed certainty, corridors where life will be given room to breathe."
+
+    scene bg ch9_3be532_2 at full_bg
+    "You let the crowd become background sensation — the warm pressure of human bodies, the metallic clink of a volunteer's toolbelt, the faint squeak of wet shoes on the promenade. Your thoughts keep returning to Lucas"
+    "Herrera: to the way his eyes had gone distant in the lab, to the steadiness beneath his professional resolve. You are not naïve; you know this solution is not perfect. But it is repairable, and that"
+    "word sits in your throat like something you can finally swallow."
+
+    scene bg ch9_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft zip of his utility vest; the tiny digital chirp of his bracelet syncing to a nearby node]
+    show lucas_herrera at left:
+        zoom 0.7
+
+    lucas_herrera "There you are. I almost lost you in the—"
+    "He gestures at the crowded section."
+
+    lucas_herrera "—sea of people."
+    show amaya_saito at right:
+        zoom 0.7
+
+    amaya_saito "You looked like you were going to run the show."
+
+    lucas_herrera "Someone had to make sure the marsh corridors aligned with the flood models. Someone also had to talk Maren into adaptive bays. It takes more than charm and diagrams; it takes stubbornness and coffee."
+    "He offers a mock solemnity, then grows softer."
+
+    lucas_herrera "And stubbornness borrowed from you."
+    "There is a pause in which you both listen to a volunteer call out a plant count. The light shifts; the seams between concrete and reed throw small, complicated shadows."
+
+    lucas_herrera "Can I—"
+    "He reaches into his palm and unfolds a small AR overlay on his bracelet, projected like a ghost in the air between you."
+
+    lucas_herrera "—show you something?"
+
+    menu:
+        "Let him show the overlay now":
+        "Shake your head and take his hand instead":
+
+    # --- merge ---
+    "You let the overlay—or the contact—ground you. The technical language is familiar, and now it sits beside human warmth. You remember nights you argued, sometimes shouting, sometimes in brittle silence. You remember a meeting when Lucas"
+    "had said, 'We can engineer compassion into infrastructure,' and you had wanted to believe him and not."
+    "Maren Voss approaches, and the air edges with a different kind of attention. She is composed in that cool, precise way you have learned to read as strength and distance."
+    show maren_voss at center:
+        zoom 0.7
+
+    maren_voss "Amaya.' Her voice is even; she inclines her head. 'The corridors tested beyond our expectations. The modeling shows decreased risk for the inner shorelines while allowing significant marsh regeneration. The company will fund a five-year community monitoring program."
+    "Her words land like a ruler across a table: tidy, decisive. You watch the crowds measure them, watch relief and skepticism mingle across faces you know. Maren Voss's surrender is not theatrical; it is efficient and,"
+    "oddly, generous in its way. The old Maren would have bulldozed this conversation. The new lines show someone who has listened enough to be revised."
+
+    amaya_saito "That's more than I expected. Thank you—for the funding and for the corridors."
+
+    maren_voss "We also mandated independent auditors. Transparency is in the contract.' Her gaze flicks to you, unreadable and precise. 'You will get a seat at the oversight board."
+    "Complex, you tell yourself, the perfect word for what swims in her expression. Not soft; not an apology. But a concession that holds, like concrete that flexes."
+    "Elena steps forward then, clasping a volunteer's muddy glove in her own hands as if proof of the town's endurance."
+    hide lucas_herrera
+    show elena_cruz at left:
+        zoom 0.7
+
+    elena_cruz "This town did more than protest. We planned. We argued. We made people uncomfortable in the right ways. That is why this thing works.' She looks at you, at Lucas Herrera, at Maren Voss. 'Now we hold them to it."
+    "The crowd gives a low murmur of approval, the kind that sounds like a tide finally finding its rhythm. Dr. Kaito, leaning on a cane, calls something about historical baselines and that old sentimentality that always"
+    "sounds like a map. Mika waves from a planting trench, cheeks smeared with mud and grinning like a weathered sun."
+
+    menu:
+        "Walk the first corridor with Lucas, inspecting the cordgrass":
+            "You and Lucas step down into the marsh gap. Mud squelches at your boots; the new marsh smells of river and old leaves. He points to the sensor clusters embedded at the roots; you nod, and he relaxes like a machine finding its calibration."
+        "Stand on the promenade and address the volunteers":
+            "You climb the low wall and face the crowd. Your voice carries—thin with emotion at first, then steadier—thanking them and naming what will be required for the years ahead. Their applause is the kind that patches something inside you."
+
+    # --- merge ---
+    "Lucas Herrera watches your choice with a small, approving lift of his mouth. He does not interrupt. He understands that trust is not given; it is watched for, in small actions."
+    hide amaya_saito
+    hide maren_voss
+    hide elena_cruz
+
+    scene bg ch9_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Lively chatter layering with the steady percussion of distant machinery; a volunteer's laugh like clinking shells]
+    "You spend the next hour moving like someone learning to inhabit a rebuilt future. People come up to you with questions, with thanks, with small confessions of fear, and you answer because you can. Each response"
+    "tightens a stitch in the fabric that has been frayed for so long. Lucas Herrera is beside you in the margins, handing you a glove, pointing out a reading on his pad that means the creek"
+    "will keep breathing even as the tide tests it. Sometimes he speaks science; sometimes he speaks softly to you — a parallel stream of attention that makes the work feel less solitary."
+    "At the edge of the seawall, where concrete meets reed, Lucas Herrera stops and turns toward you. He reaches into his pocket and, for a moment, you brace for the weight of things unsaid. Instead, he"
+    "draws out a small, worn brass key — the lighthouse key his grandfather kept in stories — and the little relic glows with sun and memory."
+    show lucas_herrera at left:
+        zoom 0.7
+
+    lucas_herrera "My grandfather used to say a key is only useful if you keep turning it. That lighthouse kept a few people from wrecking on those rocks. I—' He swallows. '—I want us to keep turning things together."
+    "He extends the key to you. His blue-gray eyes are softer than you remember; the lines at the corners are gentled by the day's relief."
+    "You take the key. It is heavier than it looks, warm from his palm. The weight is literal and metaphorical: heritage, responsibility, the possibility of shared work."
+    show amaya_saito at right:
+        zoom 0.7
+
+    amaya_saito "Then let's keep turning."
+
+    lucas_herrera "Then let's keep turning.' He smiles, that same tentative warmth settling into surety. 'And—' He flicks his bracelet; a small AR overlay blooms between your hands. '—I've layered a joint design file. Practical details, community clauses, the auditor schedule. It's all there. For the oversight board, for the volunteers, for us."
+    "You look down at the holographic plans, at the lines where reeds will thread through concrete like stitches. The image is both object and promise. The march of practicalities—the memos, the audits, the sensor logs—suddenly seems"
+    "like the scaffolding of a life you might build rather than the scaffolding that once supported only commerce."
+    hide lucas_herrera
+    hide amaya_saito
+
+    scene bg ch9_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: Swells into a hopeful cadence, strings and piano brightening]
+    "You breathe in the warm, wet air. Around you, the town does the small practical things that signal endurance: a volunteer loading a wheelbarrow, Mika tying a sapling, Elena folding a map with a motion that"
+    "contains both care and calculation. The marsh, moved and marked but alive, whispers in a language older than contracts."
+    "You slip the brass key into your palm and let Lucas Herrera's code settle in your mind like a blueprint. The work ahead is long and will require hard nights and stubborn days. There will be"
+    "audits that sting and storms that test. But for the first time in a long while, hope feels less like a choice and more like an apparatus you are all building together."
+    "You and Lucas Herrera step away from the crowd, shoulders brushing, the new seawall humming behind you with the breath of both design and life. His hand finds yours without ceremony. It fits."
+
+    scene bg ch9_3be532_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The tide's soft rush, the distant murmur of celebration — a town not triumphant so much as resolved]
+    # play music "music_placeholder"  # [Music: Fade into a gentle, sustaining motif]
+    "You watch a child point to a bird that rises out of the reed, wings catching sun. You think of your father's journal in the boathouse, of the lists Mika carried, of Dr. Kaito's patient insistence,"
+    "of Elena's tireless mediation, of Maren Voss's rare concession. You think of all the nights you stood in the half-light of the lab and refused to give up, and now you stand in the light that"
+    "choice helped create."
+    "This is not an ending. It is a repair that will have to be tended, a pact that will require oversight and stubborn, kind labor. But it is a beginning that tastes like salted earth and"
+    "fresh-cut reed and something warmer: the steady, mutual work of people who have learned how to compromise without surrendering what matters."
+    "You slip the lighthouse key into the pocket of your jacket, the brass warm near your heart. Lucas Herrera squeezes your hand. You both look out at the marsh and, for a long, quiet beat, let yourself be simply present in the place you've fought to protect."
+    # [Scene: Takase Cove | Dusk]
+
+    scene bg ch9_3be532_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The gentle creak of ropes; a kettle whistling in the distance]
+    # play music "music_placeholder"  # [Music: Soft piano and cello — an intimate, hopeful consonance]
+    "Night will bring its own tests and its own work. There will be permits to sign, community meetings to convene, nights when the doubt returns and the tide feels higher than the courage in your chest."
+    "But now, there is also a shared ledger of promises and a key between you."
+    "You close your eyes long enough to let the tide's murmur steady you. Then you open them, and the town is there — messy, committed, whole enough to fight for. You step toward the boathouse with"
+    "Lucas Herrera at your side, and the two of you begin the long, beautiful labor of keeping things alive."
+
+    scene bg ch9_3be532_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,170 @@
+label chapter1:
+
+    # [Scene: Old Pier & Fishing Co-op | Late Afternoon]
+
+    scene bg ch1_Start_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gull calls, the slow creak of timber, low murmur of the co-op]
+    # play music "music_placeholder"  # [Music: Sparse, warm ambient — low, breathing tones]
+    "You stand with one foot on a salt-darkened plank and the other on the ladder of habit: tide charts in your battered waterproof notebook, a strip of pressed seaweed slid between pages where your thumb has"
+    "left a translucent smear. The jacket at your elbow has already been patched once; the elbow of your field jacket carries a crescent of new salt-stiffened thread. Glasses fog for a second as your breath meets"
+    "the cool, damp air."
+    "The pier smells of kelp and diesel and something older — rope tar and the memory of things pulled up from the dark. Your fingers are sticky with rope resin. When you run the pad of"
+    "your thumb across a chart, the paper wrinkles, and you have to smooth it with the back of your hand. Small motions. Methodical ones. It keeps whatever lives under your ribs from climbing up into your"
+    "throat."
+    "You tap a column in the notebook: infiltration rates, averaged across six sample plots; a margin of error you leave deliberately honest. Numbers are neat because neatness is a small kind of control."
+    "Rosa comes along the dock like a burst of color — paint-splattered overalls and boots that have seen a dozen seasons. She carries a thermos that leaves a ring of condensation on your notebook's cover when she insists on peering at a tide reading."
+    show rosa_sol at left:
+        zoom 0.7
+
+    rosa_sol "You're still pretending blank pages scare the tide away?"
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "Someone has to catalog what the tide keeps taking. Otherwise it feels like everything disappears without a name."
+
+    rosa_sol "You name it, sure. But don't forget to eat between naming things."
+
+    marin_sol "I ate one of your sandwiches last week. Balance, Rosa."
+    "She laughs, but her eyes drift to the horizon where a dark shape rolls in precise lines — the TideLine van, black paint catching the last light. The vehicle is small in the distance, clinical. For a moment, it looks at odds with the pier's frayed lanterns."
+    "Old Tomas shuffles past, cap pulled low. He grunts in greeting and leans on the railing, watching the water like it could tell stories if you listened long enough."
+    show old_tomas at center:
+        zoom 0.7
+
+    old_tomas "The sea's been too loud this year. Too quick to take back the edges."
+
+    marin_sol "It's shifting. The sensors show both seasonal and baseline trends. We're not looking at a single event anymore."
+
+    old_tomas "Don't let fancy words make you forget how it feels when the water comes up to your knees and takes someone's home. That's what I worry about with their machines."
+    "You hold your notebook closer, feeling the weight of that worry under every measured line you write. The science lines up — salt infiltration is advancing along the shoreline, erosion rates accelerating at the points we"
+    "least like to lose. But the numbers aren't strangers you can argue with; they're echoes of the night you couldn't save a friend. You don't say the name aloud. You don't have to. Grief is a"
+    "ledger that never balances."
+
+    menu:
+        "Press the seaweed flat for safekeeping":
+            "You slide the strip deeper into the notebook spine, smooth its edges with gentle, precise fingers. The plant's earthy salt scent sinks into your palms. It feels like making proof of something that was already true."
+        "Tuck the seaweed into your pocket to show Rosa later":
+            "You fold the seaweed small and tuck it into your jacket pocket. The damp leaf cools your fingers. Rosa will get a laugh — or an eye-roll — and it's enough to keep the moment from getting too heavy."
+
+    # --- merge ---
+    "The narrative continues."
+    "The co-op's laughter bubbles up from the splayed doorway behind you — voices talking nets, the day's catch, a child's shriek where someone chased a dog across the wet boards. Community noise; the ordinary scaffolding of"
+    "survival. Kaito Navarro appears from that doorway, hands in his sweater pockets, grin already crinkling the corners of his hazel eyes."
+    hide rosa_sol
+    show kaito_navarro at left:
+        zoom 0.7
+
+    kaito_navarro "You know that jacket was new to you, right? At least pretend to be careful."
+
+    marin_sol "It was new three months ago. Patchwork is a lifestyle."
+
+    kaito_navarro "What's the verdict, Professor Marin? Are we cursed, blessed, or just uncomfortably damp?"
+
+    marin_sol "Mostly damp. The latest profiles show salt wedges advancing into the boardwalk substrates. If we don't act, the east pilings could fail in ten to fifteen years under current projections."
+
+    kaito_navarro "Ten to fifteen years? That's— that's my nephew's lifetime in terms of learning to fish on these piers."
+
+    marin_sol "Exactly.' (you close the notebook a fraction, as if that helps keep the future in place) 'I keep thinking about how to make proposals that don't turn our shore into a museum."
+
+    kaito_navarro "You mean, keep it alive — not preserve it like an exhibit."
+    "You keep your face neutral. It's easier to say 'preserve' than 'alive' in numbers; the latter needs voices and hands, not just graphs. Kaito watches you with an expression that is equal parts teasing and worry."
+    "There's an undercurrent of the very thing you both do not say: everything you plan could change the pattern of people's everyday lives."
+    "He gestures to the distant van again. 'They don't look like they worry about who sits where, though. Big machines, big promises.'"
+
+    marin_sol "Their model is low-footprint on time and measurable on immediate flood reduction. It's persuasive. But it risks gating access. We need adaptation that keeps people on the tide, not trapped behind a wall."
+
+    kaito_navarro "I told Jun the other day — Jun tried to make me listen — but the way they talk, it's like they think the sea is a spreadsheet to be optimized."
+
+    marin_sol "They're selling certainty. Certainty is rare enough to be dangerous."
+    "He exhales, and for once his humor drains away. He looks like he wants to say more and doesn't. The pier hums on; you count breaths to keep the old grief from seeping into the conversation."
+    # [Scene Transition: You walk from the pier toward the greenhouse, the path wet with runoff; the light cools as clouds thicken]
+    # play sound "sfx_placeholder"  # [Sound: Steps on a boardwalk, the faint hum of distant machinery]
+    # play music "music_placeholder"  # [Music: Quiet, contemplative synth—like a tide pulling back]
+    # [Scene: Maris Bay Research Greenhouse | Early Evening]
+    hide marin_sol
+    hide old_tomas
+    hide kaito_navarro
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low bubbling of tanks, soft scraping of boots on concrete]
+    # play music "music_placeholder"  # [Music: Subtle, with a hint of hope — slow, clean piano notes]
+    "Dr. Lian Obasi is already bent over a bank of sensors when you enter, sleeves rolled, fingers stained with mud and algal green. Short-cropped hair, bright eyes that find yours and hold with precise attention."
+    show dr_lian_obasi at left:
+        zoom 0.7
+
+    dr_lian_obasi "You're here. Good. I ran the runoff salinity map through the new model. The marsh buffers will buy us time if we prioritize native cordgrass planting in the inlet forks."
+    show marin_sol at right:
+        zoom 0.7
+
+    marin_sol "How much time?"
+
+    dr_lian_obasi "Two to three decades of slowed erosion on the current curve, assuming consistent maintenance and community participation. Not indefinite, but it shifts the timeline and preserves access."
+
+    marin_sol "That's the kind of horizon I want. Not a one-night fix. Not a private wall that locks people out."
+
+    dr_lian_obasi "TideLine's approach reduces immediate flood risk more quickly, but it centralizes control. Once the infrastructure is in, reversing it or altering access is politically messy. I've run cost-benefit overlays both ways. You know the numbers."
+    "You do. The numbers are a map that doesn't capture the way a child's first catch sits in their hands, the leaning angles of the co-op's boards, the soft heat of a kitchen where fish are"
+    "salted and stories are kept alive. You keep thinking of the friend you lost again; the memory is an ache in methodical terms — what were expected storm tracks, what weren't — and it drives the"
+    "work more than it looks like on the page."
+
+    dr_lian_obasi "Marin— you carry too much alone. Let the co-op and the mayor bring their questions. I'll provide the data and the modeling. But you have to be willing to make the bridge you keep talking about."
+
+    marin_sol "I'm trying not to make promises I can't keep. People need clear options, and I'm tired of being the one to say 'maybe' when it's someone's home on the line."
+
+    dr_lian_obasi "Then say the thing you actually mean. 'Maybe' doesn't help the mayor decide in public. She needs a plan."
+
+    marin_sol "Mayor Ana is careful. She's balancing budgets, votes, and livelihoods. She'll listen better to a plan that includes both goals."
+
+    dr_lian_obasi "We can design pilots for the marsh restoration that show measurable reduction in erosion within three seasons. Paired with temporary levees where absolutely needed, it's defensible."
+    "Your chest tightens in a way that's not panic — just pressure, like being wrapped in a warm, heavy cloak. The arousal of the moment is still slow — the world here moves on the pace"
+    "of tides and seedling growth — but under it the small urgency of deadlines and funding calls pulses steadily."
+    "Kaito Navarro appears at the greenhouse door as you speak, shoulders dusted with powdered rope. He listens to Lian, then watches you."
+    show kaito_navarro at center:
+        zoom 0.7
+
+    kaito_navarro "If we do it your way — grass, co-op labor, slow build — what's the ask from the town? More hours? More hardship?"
+
+    marin_sol "Work, yes. Investment, yes. But ownership stays with the community. No privatization. The TideLine model can come in and shore up spots as needed, but the design stays ours."
+
+    kaito_navarro "Do you think they'll let us keep it ours? Or are they going to sign contracts when the mayor's back is turned?"
+
+    dr_lian_obasi "Contracts are negotiable if you have data and support. My job is to make the model unarguable in the short term and defensible in the long term. Your job — Marin — is to convince people that's worth fighting for."
+    "You feel a small, steady tightening in your chest; not fear so much as a recognition of the scale of what you are agreeing to shoulder. You press your palm to your notebook, fingers finding the pressed seaweed or the pocket fold, a private anchor."
+
+    marin_sol "Then I'll do it. I'll build the bridge. I won't let the town become an exhibit, and I won't let the city's fear of chaos blind them to community knowledge."
+
+    dr_lian_obasi "Good. We'll start modeling the pilot sites tomorrow. I'll run community workshops on the sensor kits. Let me talk to Mayor Ana before you approach her — it'll help."
+
+    kaito_navarro "I'll rally volunteers. My hands are full of rope burns and stubbornness. They come in useful."
+    "There is a small, almost ceremonial hush in the greenhouse. The bioluminescent tanks ripple teal across your face, and for a moment the light seems to make your silver hair-streak glow like a mark on a"
+    "map. The plan is simple in steps and enormous in implication. Saying it aloud gives it gravity; gravity makes commitments heavier and more real."
+    "Mayor Ana Beltran's voice comes faintly over the greenhouse's external speaker — planned check-ins, concerns about funding deadlines. You tuck the edge of the notebook into your jacket and look at the glass, where the van's reflection slices across a pane like a thin, dark promise."
+    "You feel the resolve settle in the same place as the old ache — not replacing it, but sitting alongside it, companionable and relentless."
+
+    menu:
+        "Show Dr. Lian the field notes about the friend we lost":
+            "You slide the page across the table. Lian's eyes narrow with the mixture of professional focus and human understanding. She doesn't pry, but the silence that follows carries respect and a shared weight."
+        "Keep the page folded away, speak only to the plan":
+            "You fold the page tighter and tuck it into your notebook. Lian accepts the omission with a small nod. The work stays public; some things remain private. You feel both relief and the pang of holding memory alone."
+
+    # --- merge ---
+    "The narrative continues."
+    "The greenhouse's air is warm and humid against your damp jacket; you can taste the salt left on your lips. Outside, the van becomes an idea rather than a distant vehicle: a possible tool, a possible"
+    "threat. Inside, you have charts and volunteers and a plan you are willing to carry into public rooms and across hard debates."
+    "A line in your notebook becomes a kind of vow: bridge science with local practice. It is not dramatic. There is no orchestral swell. The sound is crocked light on glass, soft footsteps, the hush between"
+    "breath and decision. But saying it aloud shapes the next months: meetings, workshops, plantings, nights with mud on your hands. The arousal rises gently — from the compaction of grief to the focused pull of work"
+    "— a tide moving, slow but inevitable."
+    "You stand at the greenhouse door, notebook closed, the sea's breath moving through the panes. Behind you, Lian and Kaito exchange practical plans; in front of you, the pier waits, the town waits, and the van's tiny shape dissolves into the dimming horizon."
+    "You make one small motion — tightening the braided shell bracelet at your wrist as if to anchor yourself to this town's heartbeat."
+    "A thought settles, clear as a bell under the dimming sky: this will take time, and time is the one thing you are learning to spend differently."
+    "You lift your chin and let the greenhouse's teal light fade into the oncoming dusk."
+    "There is work to be done."
+    # [Page-Turn Moment: The last teal ripple flickers across your face; on the other side of the glass, the sea keeps its own time. You step out into the cool air and feel the pull of two horizons — one of careful, slow repair, one of fast, shiny promises. You do not yet know which will reach the shore first.]
+    hide dr_lian_obasi
+    hide marin_sol
+    hide kaito_navarro
+
+    scene bg ch1_Start_3 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

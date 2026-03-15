@@ -1,0 +1,214 @@
+### SCRIPT
+# Route: Route A / Alternate
+# Context: 4001e7
+
+[Scene: Living-Dike Promenade | Late Afternoon — Project Unveiling]
+[Background:"ch13_4001e7_1"]
+[Music: Low, bittersweet piano under a distant, hollow brass note]
+
+You stand at the edge of what was meant to be a compromise made beautiful: the living-dike you envisioned, cleaned up and refashioned into something investors would photograph. Your fingers find the sea-glass pendant at your throat because it's the only thing that still feels unpolished by committees and brand guidelines.
+
+Salt and diesel hang together in the air. The smell of fresh timber—cut and varnished—warms under the cold wind. Where you imagined interlaced coir and marsh grasses, there are neat rows of ornamental plantings set in engineered berms; the channels that once let tidal water breathe are rerouted into culverts polished with concrete. The promenade is photogenic. The creek is quieter.
+
+Aria Sol: "An elegant solution, Maya. Functional, attractive, and bankable. The press will love the opening shots."
+Maya Ibarra: (You say nothing at first. Your voice presses low.) "It looks like a postcard."
+
+Aria smiles, small and practiced. "That's the point. If we can sell resilience, we can fund more of it."
+
+You want to ask how much of the design was yours and how much was re-skinned. You want to ask whether 'bankable' meant 'navigable by heavy machinery' and 'compatible with the marina's dredging schedule.' Instead you look past Aria at Elliot—his coat is damp from the fog and his eyes are tighter than you remember.
+
+Elliot Chen: "They—" (he flinches as if the word is a dam that might break) "They kept the core planting palette. The planting density is okay for now. We've got sensors on the seams." (He looks at you.) "We can monitor flows. We can adapt."
+
+You can hear the pleading in his sentence: data as a promise. It feels small against the polished wood and the bannered smiles. He reaches for the sketch cloth peeking from his portfolio, fingers tracing lines as if comforting paper will reorder what you both allowed.
+
+[INTERACTION]
+> Choice A: "Ask Elliot whether the monitoring can prevent siltation"
+> Choice B: "Confront Aria about the culverts and promenades"
+[Outcome A: "You step closer, voice flat with need. Elliot runs his thumb along a traced line, then meets your eyes. 'Monitoring helps,' he says, not meeting the tide in his throat. 'It buys time, Maya. But it can't change the fact that some flows were routed to satisfy a boardroom photo.'"]
+[Outcome B: "You turn toward Aria. Her professional mask is already in place—pleasant, unflinching. 'The culverts are within regulatory tolerance,' she replies. 'We balanced ecology with economic viability.' Her 'we' does not include you the way you'd hoped."]
+[MERGE: The narrative continues at the investor-facing boardwalk scene.]
+
+[Scene: Investor-Facing Boardwalk | Sunset — Ribbon of Press and Promises]
+[Background:"ch13_4001e7_2"]
+[Sound: Camera shutters, polite applause, a gull's sharp cry]
+
+You watch as Tomas Keene stands a little apart, scarf wound around his neck, eyes on the water that now slips through engineered seams. He does not join the applause. His hands keep moving, unconsciously checking for tides the way a sailor reads a sky.
+
+Tomas Keene: (quiet, half to himself) "They took the way the water used to whisper and made it sing a different song."
+Maya Ibarra: "We thought we were writing a song to last."
+
+Tomas gives you a look that makes you feel both older and smaller. He remembers the shoreline before the first pilings were driven, remembers when your father's laughter used to carry down the docks. You feel the weight of that memory folding into the present, a hinge that is not entirely rusted but stiff.
+
+Rosa, camera heavy on her shoulder, moves through the crowd capturing hands—hers catches yours for a second. Her pictures will make the rounds: smiling faces, glossy wood, the banner declaring "Port Veridian Resilient." Her eyes are not smiling.
+
+Rosa: "You'll get the opener and the grants," she says softly. "They'll line up at the boardwalk. But the estuary looks... wrong already." She points beyond the boardwalk, toward the narrow channel where the water should breathe.
+
+Your breath catches. You've seen the early data—Elliot's sensors flagged sediment loads rising at one seam where culverts narrowed a seasonal channel. You chose the partnership knowing there was risk. You had expected friction; you expected pain. You did not think the seam would be exploited like a weak stitch.
+
+[Scene: The Estuary | Night — The Surge]
+[Background:"ch13_4001e7_3"]
+[Music: Percussive low strings; a single high violin line cracks]
+
+Sound becomes everything: a low hydraulic roar, the specific battering of surf, the frightened bleating of a horn on a fishing skiff. The culverts hum under pressure. Somewhere upstream, a sluice that was meant to manage flow clatters and jams.
+
+You are there because you cannot not be. Your boots are slick with brackish mud. The sensors are screaming on your watch—salinity spikes, turbidity numbers spiking toward an unreadable red. The seam that was narrowed to fashion a smoother promenade clutches like a wound; its engineered lip holds, then slides.
+
+Sound: A hollow, protracted tearing—concrete, coir, and intact promises giving way.
+
+By dawn, the estuary has changed its mind about who it will serve. Silt fans into shallow basins, piling where eelgrass nurseries used to undulate. Pools that once housed fingerlings are sealed with mud. The tide, compassionate as it is indifferent, pools against the wrong edges.
+
+Your hands shake when you touch the water; it is thicker than it should be, a soup of fine grit and oil-sheen. You taste iron on your tongue.
+
+Elliot Chen comes up behind you, breathless and raw. His trench coat is mud-splattered, his wrists streaked with sensor dust.
+
+Elliot Chen: "We warned—" His voice breaks. "We warned them about flow, about the seam. I flagged it last week, Maya. I flagged it to Aria, to the contractors." He shoves a handful of sensor printouts toward you; the charts look like a grief-stricken map of collapse. "You signed off on the conditional terms for oversight. You let them take the cosmetic cuts. You—"
+
+He stops, the sentence mangled by accusation. His hands tremble in a way that makes his voice raw. You can feel the shift: trust cracking into accusation. You open your mouth and find apologies like thin driftwood.
+
+Maya Ibarra: "I—" (you choke on the thing you wanted to say) "I thought oversight would hold. I thought involving them would get us resources without sacrificing the hydrology."
+
+Elliot Chen: "And did it?"
+
+There is a cruel precision in his question.
+
+[INTERACTION]
+> Choice A: "Explain the constraints you faced—permits, council pressure, the need for funding"
+> Choice B: "Ask Elliot to help lead the recovery—hands-on, now"
+[Outcome A: "You list them, desperately: 'Mayor Cortez wanted a visible win; the funders demanded a timeline; there wasn't enough municipal cash.' Elliot presses his palms to his temples, somewhere between understanding and incredulity. 'These are reasons, Maya,' he says. 'But reasons don't stop systems from failing.'"]
+[Outcome B: "You say his name and ask for his hands, not his charts. For a moment he looks like the old Elliot who used to sketch marsh plans on napkins. 'If you mean it,' he says, voice small, 'I will.' He does not look at Aria or the investors, who are already drafting PR statements."]
+[MERGE: The narrative continues to the town square scene.]
+
+[Scene: Town Square | Morning — Accusations and the Town's Voice]
+[Background:"ch13_4001e7_4"]
+[Music: Sparse winds, a low chorus humming the town's anger]
+
+Noah Rhee steps forward before the official forum begins. Where Elliot's heat has the fever of betrayal, Noah's wrath is iron—anchored to labor lost and livelihoods threatened.
+
+Noah Rhee: "You told us you'd protect the marsh and the nets," he says, voice carrying. "You took a deal that put lights and promenades over the channels where my children set their lines. That contract—signed by your hand—gave them access to the estuary. You sold us out."
+
+Maya Ibarra: (You feel every accusation as a physical thing, a stone thrown into the fragile glass of consensus you've been building.) "Noah—"
+
+Noah Rhee cuts you off. "No 'Noah' about it. You made a choice, Maja. You chose the promise of funding. You chose a placemat over a sea."
+
+His words scald. He's not only angry at you; he's naming a betrayal he believes he feels sharp enough to touch.
+
+Elliot Chen steps forward, trying to mediate; his voice carries the ache of someone who sees all the jagged edges and wants to smooth them.
+
+Elliot Chen: "This wasn't just Maya. The council—Aria—" (he glances toward the municipal tent where Aria speaks with an investor) "—they negotiated terms. We thought we could hold them to oversight."
+
+Aria Sol approaches with her legal pads and a smile that has gone brittle. "We met every permit requirement," she says. "We engaged ecologists and engineers. This is a setback—temporary. There will be remediation plans. Veridian Holdings is committed—"
+
+Noah Rhee's laugh is a dry, laughing thing. "Committed to what? To your image of the town? Who pays for the nets my family can't mend? Who pays for the fish that won't come back this year?"
+
+Crowd members shout; the sound becomes a pressure. Somebody bangs a chair. Tomas Keene speaks up, voice trembling not with age but with the fatigue of watching cycles repeat.
+
+Tomas Keene: "We've always had to weather storms, but we haven't always made them ourselves. This was our plan, Maya. We let someone else draw the lines."
+
+The stewardship council is born out of the roar—angry hands raised, people naming themselves as stewards not for placards but for water and for the species that don't speak human.
+
+Rosa stands beside you. Her camera is silent now; she records faces without smiling. "They'll call this a 'learning moment' in the reports," she says, blunt. "But we need actual stewardship, not PR."
+
+[Scene: Council Hall / Community Forum | Afternoon — The Stewardship Council Forms]
+[Background:"ch13_4001e7_5"]
+[Music: Soft, mournful cello; a rhythmic, uncertain beat]
+
+You sit at the head of the table because you are the person people look to, even when they yell at you. A stewardship council is proposed: a rotating board combining fishers, ecologists, and municipal representatives. The language is urgent, practical, and raw. There is no elegant PR in the room—only blunt ledger entries, lists of repair tasks, and stubborn hands.
+
+Elliot Chen speaks slowly, every sentence deliberate. "We can triage the estuary. We can open the blocked channels, replant eelgrass, create sediment traps upstream. It will take seasons. It will take funding and the town's labor, and it won't be as quick as a seawall. It won't look like a launch gala on a boardwalk."
+
+Noah Rhee: "It won't be enough to get my nets back this season."
+
+Elliot Chen: "No. Not this season."
+
+The gravity of that lands between you—an accounting of time in losses. People shift in seats, the room filling with the sound of calendars flipping in an imagined future.
+
+Aria appears at the doorway. She wears the same blazer, but the light in the hall makes it appear less like armor and more like a uniform worn through. She speaks not as a corporate mouthpiece now, but with the tightness of someone negotiating real blame for real harm.
+
+Aria Sol: "Veridian Holdings will fund immediate remediation efforts and set up an independent monitoring fund. We will donate crews, equipment. We will not walk away."
+
+You hear the careful construction of that sentence: "will not walk away." It sounds different than any promise you'd hoped to make. It is conditional in the way money always is—safeguarded by terms, tacked to milestones.
+
+[INTERACTION]
+> Choice A: "Demand binding legal guarantees for remediation before accepting corporate aid"
+> Choice B: "Accept the immediate aid while pushing for community controls on how it's used"
+[Outcome A: "You stand and speak with a voice that feels like it's been sanded into clarity. 'We will accept help, but not without a binding escrow and independent oversight.' Eyes in the room sharpen. Aria is silent long enough for you to notice the flicker of calculation on her face."]
+[Outcome B: "You lower your voice and offer a compromise. 'Take the help. We insist on a community seat to control its deployment.' The room hums with practical hope—less pure, less ideal, but tangible. Noah's jaw tightens; Elliot exhales like a man who can finally imagine rolling up his sleeves."]
+[MERGE: The narrative continues to the lighthouse and shoreline aftermath.]
+
+You feel the old pattern—the one that got you into this position—reasserting itself: prioritize getting things done over protecting the purity of process. You feel guilty for the pragmatic muscle memory. You are tired.
+
+[Scene: Beacon Lighthouse and Shoreline | Dusk — Aftermath in the Landscape]
+[Background:"ch13_4001e7_6"]
+[Music: A single, sustained note; then silence]
+
+You walk alone after the meeting. The town's new stewardship council—born of anger and necessity—will meet tomorrow to draft terms. People will speak and sign. You will be part of it because you never really learned how to not be. But you also know this will not erase the image of boats grounded in shallows, nets useless for the season.
+
+You cup your hands and pick up a fistful of the encrusted mud. In your palm, the grit is ordinary. It holds no rhetoric. It is the same substance that covered your boots the day you buried a childhood memory along with your father's laughter.
+
+Tomas Keene appears beside you without a knock, as if the shoreline had delivered him on purpose.
+
+Tomas Keene: "You thought you'd get to design an arc of redemption," he says gently. "We thought that too. Sometimes the tide writes a different story."
+
+Maya Ibarra: "What do we do now?"
+
+Tomas Keene: "We do the work. We heal what we can. We repay the debt in seasons."
+
+His words are firm, not facile. He does not absolve you. He offers time and labor, the slow, difficult currency of repair.
+
+Elliot Chen arrives then, breathless, a cold wind taking the edge off his features. He does not have the neatness of a press statement. He has mud on his sleeves and lists in his head.
+
+Elliot Chen: (after a pause) "We can start with the seams. Reopen channels, build upstream traps, and replant where the nurseries used to be. It will be slow. It will look like failure at times. But it will be honest."
+
+You think of Noah Rhee's nets, Rosa's photographs, Aria's boardroom language, the investors' expectant faces. You think of funding that came with a price: a promenade, glossy and airy, that traded an old flow for a new face.
+
+Your chest aches with the realization that compromise left a wound, and the wound bled into the place you love.
+
+[Background:"ch13_4001e7_7"]
+[Music: Low, lingering piano]
+
+You breathe, tasting salt and the metallic tang of the last few days. The council will meet. The town will begin its stewardship with a roster of angry and willing hands. Veridian Holdings will write a cheque and send crews. Remediation plans will be drafted and debated. There will be grants, timelines, press releases, and slow mornings spent planting reeds into sticky mud.
+
+But you also know: some losses cannot be immediately repaired. Fish nurseries die in biological time, not political time. The estuary's altered hydrology will take seasons to rework. Your compromise bought resources and a quicker start—but it cost ecological complexity and some corners of trust.
+
+You raise your eyes to the lighthouse; its beam cuts through the fog like a question you cannot answer.
+
+Maya Ibarra: (you say softly) "We wanted to do this together. We tried. I thought I could hold them to the promise."
+
+Elliot Chen: (he puts his hand over yours for a moment) "You'll keep trying. That's the thing I still believe you for."
+
+Noah Rhee appears on the distant rocks, his silhouette hard and unbending. He does not come nearer. Instead he calls out toward the group, the sound carrying in the salt air.
+
+Noah Rhee: "Words won't bring my nets back. Work will."
+
+His voice is not a plea. It is a boundary. You accept the edge of it because you must.
+
+[Background:"ch13_4001e7_8"]
+[Music: A minor chord resolves, but leaves a tremor]
+
+You know the stewardship council will hold them to account—the corporation, the council, the contractors—and it will set new terms for how money touches the marsh. That's the seed of something that could be true and just. But it is also a response born of grief and fracture.
+
+The town bears visible scars now: a rutted estuary, a promenade that reads differently in light and tide, and the faces of neighbors who will not avoid each other but will not un-say what they said either.
+
+You stand between the polished boards and the mudflats, feeling both proud of the work that allowed help to arrive, and guilty for the part you played in letting aesthetic priorities trump a living system.
+
+Tomas Keene squeezes your shoulder—a small, human anchor—and then steps back to tend a knot in a line as if that will knit some order back into a world frayed at the edges.
+
+You look at Elliot Chen, then at Noah Rhee, then at your own hands. There are lines of mud under your nails and a list of tasks in your head. There is also a hollow where you keep the simple certainty that what you do next could tilt the town toward steady recovery—or toward deeper loss.
+
+[Background:"ch13_4001e7_9"]
+[Music: A single, aching string fades to near-silence]
+
+You breathe. The sea keeps doing what it does—taking, giving, shifting. You have a stewardship council, a slate of remediation tasks, and hard choices that will be argued over long into the season. The work will be slow. The recovery will be measured in seasons, not headlines. You will carry the knowledge of what was traded for money and momentum, and you will have to live with it.
+
+You are exhausted, and the tide of consequence moves on.
+
+[Background:"ch13_4001e7_10"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

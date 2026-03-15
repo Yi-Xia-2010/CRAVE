@@ -1,0 +1,147 @@
+### SCRIPT
+# Route: Route D — Ending: True
+# Context: 98c6f2
+
+[Scene: Boardwalk | Late Afternoon]
+[Background:"ch3_98c6f2_1"]
+[Music: Low, steady percussive rhythm—mid-tempo]
+[Sound: Distant megaphone cadence; gulls circling; the slosh of water against pilings; the shuffle of boots and the rustle of laminated flyers]
+
+You walk back onto the boardwalk with the taste of rain and adrenaline in your mouth, the mechanical rhythm of the last chamber still in your limbs. The town has a way of arranging urgency into visible lanes: polished speech at the lectern, paint-stained voices on the rails, and a neat fence with a developer's logo staring like an affront. Salt flakes at the edge of your boots. Your Moleskine is folded in your hand, corners damp; the seagull pin over your heart is a small, private weight.
+
+From the council chamber to this stretch of sea-scarred wood, the same split keeps opening: the planner inside you catalogues load paths and collapse modes; the neighbor inside you counts the faces in the crowd and remembers the houses that once stood where now only pilings rise. You feel both equally, and neither feels tidy.
+
+[Background:"ch3_98c6f2_2"]
+Dr. Noor: "Ari—thank you for coming out. I need to pull you aside."
+
+They tilt their head toward a quieter corner where a tide-monitor kiosk juts from the railing. The volunteers keep shouting statistics and chant refrains; the megaphone's rhythm keeps time. Dr. Noor's voice is lower here, meant for ears not the cameras.
+
+Dr. Noor [soft]: "When you spoke at the meeting, you steered us into a place we can stand on. There's something else—an erratum in the modeling you should see."
+
+You steady yourself against the kiosk, breath fogging. Models, charts, numbers; they are the scaffolding you trust more than speeches. You want to both brace and lean forward.
+
+Ari Navarro: "An erratum?"
+
+Dr. Noor: "A correction. We reran the levee stress models with coupled sediment transport. In isolation, some levee geometries look stable. Coupled to the current shoreline dynamics, they can increase lateral erosion—especially along the Old Harbor District. That means a hard levee without living shorelines could speed the loss of cultural edges, not just protect them."
+
+They pause, choosing language with the care of someone who knows how a single sentence can rearrange votes and hopes.
+
+Dr. Noor: "It's not absolute. It's conditional on placement, on maintenance, on complementary restorations. But it's material. It changes the political frame."
+
+Your fingers curl on the notebook until the paper crinkles. The technical caveat—dry and ugly in a lab report—lands here like a pebble thrown into a crowded pond. You taste salt and the faint metallic dryness of nerves.
+
+Ari Navarro: "So—some engineered options could make the very neighborhoods we're trying to save slide away faster?"
+
+Dr. Noor [nods]: "Yes. If we do only armor and ignore marsh regeneration, the erosive feedbacks intensify. The mitigation has to be coupled: engineered defences plus living shorelines, sedge planting, managed retreat paths. Otherwise... we trade one failure for another."
+
+Dr. Noor taps a tablet and spins a quick visualization—sediment plumes and shifting shoreline lines. Camera crews passing by angle for a shot, but Dr. Noor closes the tablet and pockets it.
+
+Dr. Noor: "I didn't bring this up earlier because I worried about panic. But you asked for the full briefing. You should have it before you make any public alignment."
+
+You feel the small climb of responsibility—the thought that every word you speak now will be folded into other people's futures. The arousal in your chest is deliberate: not panic, but crisp focus.
+
+[INTERACTION]
+> Choice A: "Ask for the full dataset, now"
+> Choice B: "Hold it for a quieter time"
+[Outcome A: "You press for numbers, for error bars, for ranges. Dr. Noor exhales and hands you the tablet: rows of scenarios, shaded uncertainty bands. The air sharpens around the facts."]
+[Outcome B: "You tell Noor you need to hold the details until after you've felt the political terrain. Noor's mouth tightens—reluctant, but understanding. They nod and tuck the tablet away."]
+
+Dr. Noor watches your face like they can read the calculus turning there.
+
+Dr. Noor: "Whatever you decide to do, Ari, it should be paired. The politics change if the recommendation is: 'pilot living shoreline integration with any levee work.' That gives you leverage."
+
+You keep your voice even. You trained for leverage—how to make a technical caveat into a device of negotiation—but leverage requires someone willing to wield it.
+
+A presence shifts behind Dr. Noor's shoulder: Sora Watanabe. They weave through a cluster of volunteers with the easy agility of someone used to occupying every available space with noise and warmth. Their jacket is streaked with paint; a bright bandana is tied around one wrist. They carry a stack of flyers and a megaphone slung like a strap of theater.
+
+Sora Watanabe [placing a flyer in your palm; voice low, urgent]: "People's Emergency Plan—Build With Us. Read it."
+
+They press the paper into you with a tenderness that surprises the crowd's theatricality. Up close, their eyes are blunt and honest. There's the same insistence there that you feel inside yourself: make things that keep people whole.
+
+Sora Watanabe [softer]: "We can move fast if you stand with us. We need your know-how in the field, not just on committees."
+
+You smell them—soap and salt and something faintly sweet of the pastries they ate during the rally—and the small touch of their fingers draws a line between public performance and private plea.
+
+Sora Watanabe: "Ari, whatever you say up there will echo. I trust you. Please—be with us."
+
+Your chest tightens in a way that is more familiar than hardened anger: an old scar pulling, memory of a house you couldn't save. The civic engineer in you notes operational risk—the plan leans on volunteer labor and makes assumptions about material deliveries—but the neighbor in you sees hands in the mud and the faces of those who would be kept home instead of displaced.
+
+Sora Watanabe [a little wry]: "And hey—if you join, I'll stop using your professional voice as rhetorical bait in meetings." They try for a smile; it comes out half theatrical, half apology.
+
+Ari Navarro: "You'd stop doing that?"
+
+Sora Watanabe: "No promises." (beat) "But I won't use you the way others have. I want you beside us."
+
+The exchange stretches—words, unspoken histories, trust negotiating itself in small motions.
+
+[INTERACTION]
+> Choice A: "Fold the flyer into your pocket"
+> Choice B: "Ask Sora a pointed question about logistics"
+[Outcome A: "You fold the flyer and slide it into your jacket, the crease softening with the warmth of your hand. Sora's shoulders relax—minor triumph—and they loop an arm around a volunteer, returning to the megaphone."]
+[Outcome B: "You ask about supply chains and command structure. Sora brightens; they pull up a map from their satchel and starts enumerating staging zones, volunteer rosters, and contingency routes—practicality wrapped in idealism."]
+
+You turn and see Lina Moreau approaching. She moves with that slow, measured grace that carries years of polished negotiation: trench coat immaculate despite the drizzle, hair precise, voice practiced into softness when convenient. Cameras swing toward her like moths.
+
+Lina Moreau [publicly warm, privately incisive]: "Ari. Good to see you where the action is."
+
+There's a hand extended—political palm, poised. Her eyes are cool; you sense she is cataloguing your expression for leverage.
+
+Lina Moreau: "The Development Authority can set aside pilot funding. If you lead the municipal study and oversee implementation, we'll provide resources—engineers, materials, a controlled deployment site. With oversight, of course. Transparency protocols, performance milestones. You'll have the backing to build at scale."
+
+Her offer is clear: official backing, resources you can use. The catch—oversight—hums like a second, smaller voice: control.
+
+Ari Navarro: "Oversight how?"
+
+Lina Moreau: "Joint oversight. A municipal steering committee, external auditors. Public reporting on a fixed timeline. We need assurances the pilot is repeatable and fiscally accountable. Those are fair constraints when taxpayer funds are at stake."
+
+Ephraim stands not far behind her—gaunt, suntanned, the developer's smile thin and bright. He speaks as if offering a handshake can smooth splinters.
+
+Ephraim [slick]: "We can expedite approvals if we partner. Private investment, public safety—win-win, yes?"
+
+His gaze slides to you with the practiced calculation of someone used to converting promises into profit margins. You smell machine oil and exfoliators from his tie; his presence simplifies the moral calculus into balance sheets.
+
+Maya steps up beside you, raincoat zipped, hands still smelling of wet peat from the nursery. She watches the exchange like someone reading the weather and not the headlines.
+
+Maya [direct]: "If we do the big levee without us—without the plants and the people—our streets go first. You know that, Ari."
+
+She speaks the local truth bluntly, and it lands with the force of a weathered fist. The crowd around you shifts—some faces hopeful, some skeptical, some taut with whatever calculation each resident makes when offered aid that comes with strings.
+
+Lina Moreau [responding]: "I know the cultural stakes, Ms. Cruz. I'm not asking you to surrender heritage. I'm asking for structured collaboration."
+
+The back-and-forth grows less a debate and more a choreography of terms and trust. Each proposal is a vector that will reroute resources and relationships. Your chest keeps its steady rise; the decision cones into focus.
+
+You feel the old split flare—engineer versus neighbor—each argument tugging in different directions. The grief scar under your ribs responds to the smell of salt and wet wood and the sight of houses half-remembered. You want to be precise; you want people's hands in the mud. You want resources, and you want autonomy. The choices do not align cleanly.
+
+You glance at Dr. Noor again; their expression is unreadable—complex, wary, like someone who has balanced probabilities against the weight of faces. Sora Watanabe's posture is open, urgent; Lina Moreau's gaze is measured; Ephraim's smile is a promise that has teeth. Maya's presence roots you in the town's immediate reality.
+
+[Background:"ch3_98c6f2_3"]
+[Music: The percussive rhythm tightens into a single steady pulse—focused, mid-tempo]
+
+You draw breath. The moment that always comes at every hub arrives: speak for one plan, and alliances tilt; choose oversight, and risk losing community ownership; expose the developer, and invite legal backlash; or propose something that pleases no one but might birth a third way.
+
+Your decision will re-route where resources flow, who trusts you, and whom you stand beside when the next storm hits.
+
+[Scene Transition: The crowd leans in; the afternoon light bends into a narrow, salt-gray slice over the horizon]
+
+You step forward, feeling the salt under your soles and the town balanced on the edge of what you will say next.
+
+[Decision Pause — do not resolve]
+
+[DECISION POINT]
+1) Option 1: "Join Sora's People's Emergency Plan openly." -> TARGET chapter_id: [4]
+2) Option 2: "Accept Lina's conditional pilot; lead the municipal study." -> TARGET chapter_id: [7]
+3) Option 3: "Expose Ephraim's funding ties; campaign to block private development." -> TARGET chapter_id: [10]
+4) Option 4: "Refuse binary choices — propose a hybrid council process on the spot." -> TARGET chapter_id: [13]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Join Sora's People's Emergency Plan openly." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Accept Lina's conditional pilot; lead the municipal study." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Expose Ephraim's funding ties; campaign to block private ..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt
+Option 4: "Refuse binary choices — propose a hybrid council process ..." -> ID 13 (Route D)
+    > Jump Target File: script_ch13_Route_D_ctx_453e40.txt

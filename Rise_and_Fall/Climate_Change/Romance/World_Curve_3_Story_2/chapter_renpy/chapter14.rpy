@@ -1,0 +1,299 @@
+label chapter14:
+
+    # [Scene: Rooftop Community Garden | Dawn]
+
+    scene bg ch13_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle piano with a soft build (hopeful)]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the muffled murmur of town waking]
+    "You step out onto the roof and the air tastes of cold salt and wet earth, a mixture that has always felt like both warning and invitation. The garden is damp underfoot; the raised beds give"
+    "off the faint, green perfume of wet leaves. Children’s laughter echoes from below—Marina’s students doing a morning transplant—and the sound cracks something open inside you."
+    "You think first of a dozen small, practical things: permits to sign, payroll to track, the next shipment of oyster spat to be planted at low tide. Then, beneath that, a larger shape: a town that"
+    "has learned to make its own scaffolding out of hope and patience. The memory of the storm that took your brother still sits like a stone at the bottom of the chest, but now it is"
+    "buoyed by hands around you that will not let it drown everything else."
+
+    scene bg ch13_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Pages rustling, a faint beep from a solar charger]
+    # play music "music_placeholder"  # [Music: Piano lifts into a warm, resonant chord]
+    "Marina crosses the terrace with a crate of seedlings, cheeks pink from exertion and pride. She’s carrying a selfie stick rigged to stream the morning’s planting—another clip for the campaign feed that coaxes hearts and funding"
+    "in equal measure. She looks at you, breathless, and hands you a small bundle of oyster cages."
+    show marina_lopez at left:
+        zoom 0.7
+
+    marina_lopez "They've got their masks on, Amina Reyes. We practiced the counting rhyme. The mayor's going to tweet about the school planting after this—she said she would."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Good. Say the rhyme with them. Loud enough that the cameras catch it. Say it for the marsh."
+    "Marina smiles her easy, steady smile. There's no hesitancy in her voice when she talks about children and future—only a practical, fierce tenderness."
+
+    marina_lopez "We already have a dozen parents signed up for weekend workshops. Niko promised his crew will train the high-schoolers on ropes and boat safety next month."
+    "You feel your chest loosen—an action that feels like permission more than relief. Your voice answers smaller, an instruction and a vow."
+
+    amina_reyes "Make sure the kids know how to read the tide, too. I'm briefing Dr. Sato this afternoon; he'll explain why oyster reefs change wave energy. Keep the video tight on the hands—people respond to hands building things."
+    hide marina_lopez
+    hide amina_reyes
+
+    scene bg ch13_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The scrape of boot soles, the soft clang of metal tools]
+    # play music "music_placeholder"  # [Music: A low cello note weaves under the piano—steady and grounding]
+    "Niko Kaur leans on the railing and watches the students for a moment before talking to you. The years in their face are the ones you both wear—lines carved by salt and sun, by the stubbornness of staying."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You put my name on a volunteer list and expect me to just show up with the boat. Did you think I'd say no?"
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Not for a world where kids plant reefs instead of plastic lawn gnomes."
+
+    niko_kaur "Good. Because if we’re going to teach them to mend a hull, I want them to understand what we're mending it for."
+    "There’s no easing around history between you two—only a careful, necessary dance. The memory of the boat you rebuilt together is not romanticized; it’s a ledger: loss and repair in equal measure."
+
+    menu:
+        "Help Marina film the planting":
+            "You crouch beside a child, showing them how to cradle a spat bag. The camera catches your hands, and later the clip gets a hundred shares—comments thanking you for giving the kids something to hold onto."
+        "Walk the edge of the roof with Niko":
+            "You step away from the cameras with Niko, letting the morning sound fill the space between you. You talk quietly about tidal lines and old hulls; his voice is a tool that fits the work."
+
+    # --- merge ---
+    "You return to the group renewed in different ways, the morning's energy folding back into the work ahead."
+    # [Scene: Niko's Boatyard | Late Morning]
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch13_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Hammering, the rasp of plane on wood, gulls intermittently]
+    # play music "music_placeholder"  # [Music: Acoustic guitar picking, warm and intimate]
+    "The boatyard smells of tar and varnish—an honest, human smell of things made for use. Men and women move around a new hull like bees around a comb. Niko threads through them with a certainty you have watched grow from stubbornness into leadership."
+    "You stand beside him as he explains, to no one in particular and to everyone, how the living-shoreline work will require different skills than storms-and-walls projects. He gestures to a plan nailed to a beam: a"
+    "sequence where oyster beds, marsh plantings, and modified floats buffer wave energy before it reaches the boardwalk."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "We get our hands on this, we train—proper wages, not 'volunteer credits'—and the kids who learn here can build a living reef and a career. This is what keeps fishing lanes open, too."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "What we need is steady contracts, apprenticeships that last through a season. If work stops every few months because funding lapses, people will go back to quick fixes."
+
+    niko_kaur "Are you asking the grant to take on labor stability, or are you asking me to beg it?"
+
+    amina_reyes "Both. We're asking the region to trust us with more than a check. We're asking them to co-manage."
+    "Niko studies you like one studies a nail to see if it will hold. Then he nods."
+
+    niko_kaur "I'll put my name on the grant letter. Not because I trust them by default, because I trust you enough to stand in front of them."
+    "You feel the weight of that—an endorsement that means more than any headline. It is a stake in a future you both might share, messy and practical."
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch13_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A hammer being set down; a small chorus of approval from the yard]
+    # play music "music_placeholder"  # [Music: Guitar swells then folds into the background]
+    "Dr. Kenji Sato arrives with a battered laptop and a rain-hatched hat. He watches the hull and then the people, eyes soft behind his glasses."
+    show dr_kenji_sato at left:
+        zoom 0.7
+
+    dr_kenji_sato "Models are only as good as the hands that use them. You all are turning theory into muscle. The long-term simulations show the living shoreline reduces flood peaks by measurable percentiles—over decades. It’s slow, but stable."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "That's the language we needed. Not 'fast'—'durable.'"
+
+    dr_kenji_sato "Policy folks like metrics. I can give them the metrics that matter to you: employment longevity, species recovery indices, and—importantly—probability envelopes that include community stewardship."
+    show niko_kaur at center:
+        zoom 0.7
+
+    niko_kaur "And will the region sign off on co-management? Those words tend to evaporate into boilerplate."
+
+    dr_kenji_sato "They will if their funders see the numbers that say long-term is cheaper in avoided loss and better for ecosystems. They will also if your campaign makes it politically radioactive not to."
+    "You let that last part settle. Political attention can be a double-edged tide, but Kenji's models sharpen the spear."
+
+    menu:
+        "Ask Kenji for a community-friendly slide deck":
+            "He smiles like a proud professor and promises to turn his simulations into plain-language visuals. The first draft will be in your inbox by Tuesday."
+        "Tell Niko to draft the apprenticeship clause now":
+            "Niko grins, already thinking in terms of nails and hours. He pulls a blank sheet and starts sketching wage tiers and progression steps with the same decisive stroke he uses on wood."
+
+    # --- merge ---
+    "Both actions move the project forward—Kenji supplies the visuals that convince funders while Niko lays out a practical ladder for workers."
+    # [Scene: Town Hall / Planning Office | Afternoon]
+    hide dr_kenji_sato
+    hide amina_reyes
+    hide niko_kaur
+
+    scene bg ch13_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low chatter, the occasional rustle of paper]
+    # play music "music_placeholder"  # [Music: A steady orchestral pad—forward-leaning, hopeful]
+    "Mayor Lucia Varela presides with her brass pin catching the light like a quiet signal. Her face betrays the calculation of someone who has kept a town's balance for years. Elias Hart sits at the end of the table, tablet open, a calm that is also a promise of leverage."
+    show mayor_lucia_varela at left:
+        zoom 0.7
+
+    mayor_lucia_varela "We have a restructured proposal from the region. They want to enable living-shoreline funding, but they want benchmarks and oversight. They asked for conditions you'll accept."
+    show elias_hart at right:
+        zoom 0.7
+
+    elias_hart "They offered phased funding contingent on co-management metrics. I pushed for local hiring clauses and flexible milestones tied to ecological monitoring rather than just concrete milestones."
+    "You feel relief like a tide sliding back: not gone, but reshaped."
+    show amina_reyes at center:
+        zoom 0.7
+
+    amina_reyes "And trust-based stipulations? The ones that prevent top-down contractors from replacing our workers?"
+
+    elias_hart "I asked for a clause that requires local co-management committees to vet contractors. It’s in the memo. They initially balked, but Kenji's models and Marina's campaign made it politically costly to ignore community governance."
+
+    mayor_lucia_varela "We will still have to accept compromises, but they will be ours to shape. You—Amina Reyes—are ready to chair the Adaptation Council. It will be a public role."
+    "Silence lands like a small wave. You feel the pressure in your chest—an old, familiar weight and a new, luminous responsibility."
+
+    amina_reyes "Chair? I—"
+
+    mayor_lucia_varela "You started the coalition. You hold the trust of the boatwrights and the academic backing. People will listen."
+    "Elias Hart reaches forward and slides a printed page across the table; the new grant structure glints in the overhead light. You scan the text: co-management language, guaranteed apprenticeships, a ten-year living-shoreline fund with matched regional oversight, and explicit cultural protections for fishing rights."
+
+    amina_reyes "We need accountability measures that the town can feasibly administer. And retrofits must include grants for low-income homeowners. Otherwise the health of the marsh will become a luxury only some can afford."
+
+    mayor_lucia_varela "Agreed. We will structure the retrofitting fund on a sliding scale. The town will administer it—with guidance from the council."
+
+    elias_hart "I'll take this to the regional office next week. I will argue that policy follows where the evidence and public will point."
+    hide mayor_lucia_varela
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "And I'll make sure our people are ready to train and work."
+    "The room hums with a concert of commitments—not the final chord, but the start of a chorus."
+    # [Scene: Montage — Marisol Over Months (Visuals in Sequence)]
+    hide elias_hart
+    hide amina_reyes
+    hide niko_kaur
+
+    scene bg ch13_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rhythmic montage of water lapping, tools, and voices overlapping into a sustained hopeful hum]
+    # play music "music_placeholder"  # [Music: Thematic swell—strings and choir-like synth pads (uplifting)]
+    "Narration flows over the montage: You coordinate training schedules, sign grant amendments, and mediate the minutes of meetings that suddenly mean livelihoods. You watch your notebook’s sketches become anchored buoys and planted cages. You learn to"
+    "read procurement language the way you once read tide charts: as something that reveals danger and promise both."
+    "Some things are messy. A shipment is delayed. A contractor misunderstands 'co-management' and sends a crew that assumed top-down commands; you spend a night untangling the contracts and calming hurt pride in the yard. A retrofit"
+    "program runs into zoning snarls; you and Marina and Mayor Lucia stand on a dais and explain why a slanted roof matters to a family’s life. The work is slow, and some days the slowness feels"
+    "like a test."
+    "Dr. Kenji Sato provides quarterly updates with gentle insistence: the models show incremental improvements—species returning, peak flood projections dropping fractionally, unemployment stabilizing in neighborhoods with training programs. The numbers are not cinematic; they are stubborn, accrual over time, and that steadiness is its own sort of miracle."
+
+    scene bg ch13_f99e88_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter, the scent of fried fish, music from a battered speaker]
+    # play music "music_placeholder"  # [Music: Upbeat folk tune with strings and hand percussion]
+    "You stand under a string of lanterns, hair damped at the temples from the day's wind. Your pendant hums softly when the storm-signal light in the harbor clicks—a tiny, familiar attenuator of anxiety. Niko Kaur appears"
+    "at your shoulder with two cups of something steaming; the warmth is immediate and practical."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You look like someone who carries the tide in her ribs."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "Maybe. Or like someone who learned to carry people instead."
+
+    niko_kaur "Either way—people are here."
+    "You raise your cup. The taste is sharp with citrus and something sweet. Around you, volunteers hand out oyster fritters, a fishing family runs kids' scavenger hunts, and Marina organizes a mural-painting for the harbor wall."
+    "Elias Hart stands at the edge of the crowd, talking to a regional press person, his voice calm but animated; he catches your eye and gives you a small, un-showy nod that says: agreed and onward."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "You did something hard here—brought competing languages into one room. That wasn't easy."
+
+    amina_reyes "Neither was asking people to be patient."
+
+    elias_hart "Patience is political now. And you make it look like leadership, not waiting. That's rare."
+    "There’s a sliver of something between you—not the old friction of plans clashing so much as a new respect. It hums like a wire strung tight."
+    # [Scene: Rooftop Community Garden | Years Later, Storm-Clouded Afternoon]
+    hide niko_kaur
+    hide amina_reyes
+    hide elias_hart
+
+    scene bg ch13_f99e88_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain beginning, quick and sharp]
+    # play music "music_placeholder"  # [Music: A slow, hopeful chord; strings under a piano]
+    "Time has worked its soft patient ways. Your chestnut hair has threaded with gray at the temples—salt-strands mapped into your scalp like another kind of weathering—and the friendship bracelet that lives in the spine of your"
+    "notebook is now a living history you touch when storms come. The pendant on your chest hums on a different register, an emergency light that still knows how to comfort."
+    "You walk to the railing and look out at the marsh. The lines are different now: planted oyster reefs ripple the water in darker, promising shapes; the sediment holds a little more. Boats cut the new"
+    "channels on careful schedules. There are still flooded streets after the worst nights, and retrofits that failed at the margins. Progress is patchwork. It is, crucially, real."
+    "Niko Kaur joins you without asking. He does not stand behind you or ahead—he fits into the same space, a companion in the literal sense of sharing work."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You keep checking the maps. Do you ever stop?"
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "When we stop needing them. Not yet."
+
+    niko_kaur "Good. Then don't leave me to build the boats alone."
+    "You feel something in your chest that is not guilt but a settled warmth. You answer with the only thing that makes sense now."
+
+    amina_reyes "We won't. Not alone."
+    "He laughs, something small and private. You regard the town below—people moving across the boardwalk, a child running with a bucket—and you say the truth of the long work."
+
+    amina_reyes "We didn't make the sea stop. We made a way to be better at being alive with it."
+
+    niko_kaur "And with us?"
+
+    amina_reyes "With us."
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch13_f99e88_10 at full_bg
+    # play music "music_placeholder"  # [Music: Piano motif returns, bright and sure]
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "I just spoke with the regional office. They signed the ten-year agreement, but more than that—your council will have veto power over contractor appointments for the first five years. That's unprecedented."
+
+    "Mayor Lucia Varela (from behind him, voice steady)" "You did the coalitions right. You made it costly for them to go fast and cheap."
+    "You feel the room tilt in the direction you steered it: toward patience, toward systems that include people as custodians rather than obstacles."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "We will keep the watch. We'll publish the monitoring reports. We'll run the apprenticeships with transparent evaluations. We’ll teach the kids not just to plant oysters but to keep records."
+    show dr_kenji_sato at center:
+        zoom 0.7
+
+    dr_kenji_sato "And I will keep running the projections. They will never be perfect, but they will be honest. Ten years from now, we will have something the region can point to and say: yes, that worked."
+
+    amina_reyes "Not perfect. Not complete. But ours—and better."
+    hide elias_hart
+    hide amina_reyes
+    hide dr_kenji_sato
+
+    scene bg ch13_f99e88_11 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The rain thickens; the pendant gives a soft, reassuring chime]
+    # play music "music_placeholder"  # [Music: Full, warm string resolution; piano glints]
+    "You stand there with Niko at your side and Elias across from you, and the town of Marisol spreading like a living map beneath the rain. The achievement is not cinematic victory; it is the accumulation"
+    "of small things: a child's rhyme, a repaired hull, a co-signed line in a contract that protects a livelihood, a parish who now calls the retrofit office for help filling an application. It is staying."
+    "For a moment you allow yourself to feel it all: the endless, mundane administration; the exhilaration of a successful planting; the ache for those who lost too much; the pragmatic joy of seeing a neighbor's porch"
+    "lifted instead of razed. The feeling sits in your chest like a tide that has learned its own new rhythm."
+    "Niko Kaur takes your hand—callused, honest—and you hold it back without thinking. It is small and steady, a promise made in the language you both know best."
+    "Elias Hart, watching, offers a brief, almost shy smile. He is no longer simply an opponent with a plan; he is an ally who learned to let community steer policy. You sense friendship and professional partnership woven into something that may, with patience, grow into more."
+
+    "Dr. Kenji Sato clears his throat and says what the data and the day cannot" "This will be referenced. The policy brief will be used as a case study. But what it really shows is how communities—when given authority—can turn slow science into durable safety."
+    "You nod, feeling the truth of it. The marsh does not belong to a document. It belongs to people who read it like weather and tend it like a kin."
+
+    scene bg ch13_f99e88_12 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendo into a peaceful, resolved chord]
+    "You breathe in the salt and the rain and the smell of cooking things and varnish and wet wood. You are tired and elated and steady all at once. You have taken on a public role"
+    "you never asked for when you were younger but now carry as a chosen form of love for this place."
+    "You look at the plaque on the railing—'Marisol Adaptation Council — Founded: the Year of the Turning Tide'—and feel an odd, small laughter bubble up inside you. It mingles with the rain."
+    "You are not the same person who closed a notebook against grief. You are someone who anchors change with ink, with finger-jointed boards, with the patience to argue for slow solutions in a world that wants"
+    "immediate fixes. Your heart is still a place that remembers loss, but it is also a place that holds plenty."
+    "Niko Kaur squeezes your hand. Elias Hart offers a quiet, collaborative nod. Mayor Lucia Varela watches the horizon like a captain who has finally found a harbor she might trust. Dr. Kenji Sato adjusts his hat"
+    "and laughs at something only he sees in the models. Marina yells from below that they ate all the fritters."
+    "You let the noise of the town fill you, a chorus of small, human things. The victory is not flawless. The marsh will still require tending. Some families will always face harder choices than others. But"
+    "here, in this imperfect, living, patient success, you have chosen to build a system that understands that people and place belong together."
+    "You close your eyes for a moment and feel the pendant’s faint warmth at your chest, a reminder that storms still come—and that you are not afraid to meet them, not alone."
+
+    scene bg ch13_f99e88_13 at full_bg
+    # play music "music_placeholder"  # [Music: Soothing resolution; piano and strings fade together]
+    # play sound "sfx_placeholder"  # [Sound: Rain softened to a steady, supportive patter]
+    "You turn back toward the council's meeting table, toward the next stack of minutes, the next apprenticeship evaluation, the next kid you will teach to recognize a tide line. There is work ahead, eyes to meet,"
+    "and more small miracles to coax into policy and practice. You also have a hand to hold and a town that has learned to be patient and stubborn in equal measure."
+    "You breathe, and the breath is full."
+
+    scene bg ch13_f99e88_14 at full_bg
+    "THE END"
+    # [GAME END]
+    return

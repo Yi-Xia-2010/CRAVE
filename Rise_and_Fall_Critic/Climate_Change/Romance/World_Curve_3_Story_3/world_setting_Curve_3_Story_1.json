@@ -1,0 +1,126 @@
+{
+    "design_logic": "I treat Climate Change as both setting and antagonist: rising seas and policy inertia create external stakes that force intimate moral choices, making romance a lens for exploring commitment, compromise, and collective action. The genre fusion positions personal relationships as drivers of larger social outcomes — each romantic route represents a different response to the crisis (grassroots activism, institutional reform, or pragmatic compromise). The core conflict centers on how far the protagonist will go to protect home and loved ones when every choice demands sacrifice.",
+    "setting": "Near-future (circa 2035) coastal city called Saltbridge — a once-modest fishing town now split between crumbling historic neighborhoods and glossy climate-adaptation projects. Persistent high tides, salt-scarred architecture, and improvised green infrastructure create an atmosphere of melancholy hope: warm community rituals sit beside emergency sandbag barricades and experimental sea-walls.",
+    "visual_style": "Soft anime character art; Neo-realistic watercolor backgrounds; Muted coastal palette (seafoam greens, slate blues, rusted orange); Environmental detail (salt textures, water reflections, foggy dawn lighting)",
+    "main_characters": [
+        {
+            "name": "Maya Serrano",
+            "role": "Protagonist",
+            "personality": "Compassionate, stubbornly practical, ethically driven, quietly humorous. Tends to put community needs first but struggles to delegate. Reacts to crisis with meticulous planning and emotional intensity beneath an even exterior.",
+            "appearance_features": {
+                "hair": "Dark chestnut brown, shoulder-length waves with natural sun-bleached streaks and a small braid tucked behind her ear",
+                "eyes": "Green-gray, round and observant, flecked with gold when the sun hits them",
+                "clothing": "Worn olive field jacket with patchwork repairs, high-waisted salt-stained jeans, layered breathable shirts, rubber boots with paint splatter along the cuffs, a lightweight windbreaker always slung over her shoulder",
+                "accessories": "Battered Moleskine field notebook full of sketches and tide logs, a dented silver compass necklace (family heirloom), a thin red thread tied to her left wrist"
+            },
+            "goal": "Protect her hometown and its vulnerable residents by finding a realistic, equitable plan for climate adaptation that preserves community identity.",
+            "background_story": "Grew up in Saltbridge in a family of fishers; after a series of floods the family business dwindled. Trained as a community resilience coordinator and returned to lead grassroots adaptation projects. Haunted by the memory of a neighbor lost in a storm and driven to prevent similar losses.",
+            "emotional_trait": "Tends toward self-sacrifice and guilt — finds it hard to accept help and fears making compromises that harm others."
+        },
+        {
+            "name": "Elias Novak",
+            "role": "Love Interest (Activist)",
+            "personality": "Charismatic, impulsive, idealistic to a fault. Radiates warmth and urgency; excellent at rallying people but sometimes overlooks logistical detail. Fiercely loyal, prone to emotional intensity in private.",
+            "appearance_features": {
+                "hair": "Sandy blonde, naturally tousled and kept in a loose undercut that falls over his forehead when he leans in",
+                "eyes": "Warm amber, almond-shaped, usually crinkled at the corners from smiling",
+                "clothing": "Layered casual look: faded graphic tees under an open flannel or lightweight utility vest, patched jeans, colorful knitted scarf from a local maker, worn canvas sneakers with a slogan button pinned on the lapel",
+                "accessories": "Old film camera slung around his neck, a braided hemp bracelet from a climate camp, a protest bandana tucked in his back pocket"
+            },
+            "goal": "Mobilize Saltbridge to resist inequitable development and pressure politicians to adopt aggressive, people-first climate measures.",
+            "background_story": "Once an urban planner in a larger city, Elias left after a catastrophic flood in his former neighborhood convinced him that top-down solutions often ignored community voices. He returned to Saltbridge to organize direct-action campaigns and teach neighbors to build resilient systems themselves.",
+            "emotional_trait": "Courageous and empathetic, but avoids long-term commitments — channels intimacy into collective action rather than personal ties."
+        },
+        {
+            "name": "Noah Kestrel",
+            "role": "Love Interest (Corporate / Pragmatist)",
+            "personality": "Reserved, methodical, and quietly principled. Speaks measuredly; prefers systemic solutions and negotiation. Appears emotionally distant at first but reveals steady protectiveness over time.",
+            "appearance_features": {
+                "hair": "Slicked-back jet black, cut short at the nape with a subtle side part",
+                "eyes": "Steel-blue, narrow and focused, reflecting a habit of assessing risk and probability",
+                "clothing": "Tailored navy coat with subtle waterproof lining, smart wool trousers, polished low-heeled boots designed for wet weather, crisp collared shirts often rolled at the sleeves when doing fieldwork",
+                "accessories": "Engraved stainless-steel cuff with a corporate crest pin, a slim holographic tablet always in-hand, a small emergency whistle attached to his keychain"
+            },
+            "goal": "Implement large-scale adaptation infrastructure that minimizes economic disruption while keeping the town functional; safeguard livelihoods even if that requires difficult compromises.",
+            "background_story": "An engineer-turned-project-director for a firm contracted to design Saltbridge's sea-wall and redevelopment. Born in a neighboring region affected by storm surge, he has personal reasons to prevent further losses but is bound by corporate constraints and political pressure.",
+            "emotional_trait": "Pragmatic and self-controlled; his strength is calm rationality, but his flaw is emotional guardedness and an overreliance on technical fixes."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Dr. Hana Park",
+            "relation_to_main": "Mentor and climate scientist who advises Maya",
+            "appearance_summary": "Slight, mid-40s, short ash-brown hair with silver at the temples, carries a compact field tablet and wears layered practical clothing with a lab vest when in the lab.",
+            "function_in_story": "Provides technical guidance, moral clarity, and sometimes tough love; can help unlock scientific options or reveal inconvenient truths about proposed projects."
+        },
+        {
+            "name": "Rosa Alvarez",
+            "relation_to_main": "Childhood friend and owner of the local café",
+            "appearance_summary": "Warm smile, curly black hair usually tied up with a bright scarf, aprons splattered with coffee and flour, comfortable cardigans.",
+            "function_in_story": "Community connector who hosts informal meetings; source of local gossip, emotional support, and occasionally a place for characters to reconcile or confront each other."
+        },
+        {
+            "name": "Mayor Lillian Cho",
+            "relation_to_main": "Local politician and gatekeeper for policy decisions",
+            "appearance_summary": "Sharp bob haircut, tailored jackets in muted pastels, wears a distinctive lapel pin of the town seal, often photographed under harsh municipal lighting.",
+            "function_in_story": "Represents institutional constraints — must be persuaded, pressured, or outmaneuvered. Her choices shape funding, zoning, and the legality of protests."
+        },
+        {
+            "name": "Finn Serrano",
+            "relation_to_main": "Younger brother of Maya",
+            "appearance_summary": "Lean, sun-kissed skin, short curly hair, clothes patched from secondhand stores, often carries a fishing net or toolbox.",
+            "function_in_story": "Personal stake for Maya; a moral compass for family decisions and a reminder of what's at risk if adaptation fails."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Saltbridge Boardwalk",
+            "visual_description": "A once-bustling wooden promenade now warped and salt-bleached; low gray clouds and constant drizzle create reflective puddles that mirror neon shop signs. Warm lamplight spills from cafés through sea-sprayed windows, contrasting with rusted railings and sand drifted into corners. Background art focuses on wet textures, glossy reflections, and soft steam rising from seagrass."
+        },
+        {
+            "name": "The Dunes and Emergency Barricade",
+            "visual_description": "Wind-swept dunes stitched with sandbags and pallets; stark afternoon light highlights frayed fabric and hand-painted protest signs. The horizon is a flat, trembling line where sky meets water; gulls wheel in diffused sunlight. Colors are desaturated tans and steel blues, with bright improvised banners as accent colors."
+        },
+        {
+            "name": "Rooftop Sanctuary (Reclaimed Mall Garden)",
+            "visual_description": "A green oasis atop a converted shopping complex: raised wooden beds, draped solar fabric, dew-laden netting, warm golden morning light filtering through vapor. Lush greens and earthy textures contrast with the mall's glass-and-steel bones visible below. Atmosphere is intimate, fragrant with herbs, and alive with bees."
+        },
+        {
+            "name": "Kestrel Marine Development Office",
+            "visual_description": "Sleek glass façade with reflective panels that catch the sea's light; minimalist interior with polished concrete floors and marine-blue accents. High-tech displays show modeling data; clinical lighting coldly illuminates blueprints and corporate branding. Visuals emphasize clean lines, cool color temperature, and occasional seaside glare."
+        },
+        {
+            "name": "High Tide Laboratory (Field Buoy & Mobile Research Boat)",
+            "visual_description": "Clanking metal and warm instrument lights pierce fog; sodium lamps cast orange pools on wet decks. The sea is omnipresent: slick surfaces, bright instrument panels reflected in standing water. Visual focus on wet steel, bundled cables, and the nervous energy of scientific work happening at dawn or in storms."
+        },
+        {
+            "name": "Saltbridge Community Hall",
+            "visual_description": "A brick building with murals faded by salt and sun; inside, warm incandescent bulbs cast honeyed light over folding chairs and map-strewn tables. Posters, tear-stained flyers, and string lights create a collage of civic life. Art should feel lived-in, with soft shadows and the coziness of grassroots organizing."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community vs. Profit",
+        "Choice & Responsibility",
+        "Love and Sacrifice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community Triumph — Through coordinated grassroots action and a compromise policy, Saltbridge secures funding for a modular, community-driven sea barrier and equitable relocation assistance; Maya finds a stable partnership (romantic route dependent) that balances personal life and civic duty. Losses are minimized and a new, greener civic culture emerges."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Compromise and Renewal — A pragmatic plan spearheaded by Noah's firm is implemented after tough negotiations; some historic blocks are sacrificed for flood mitigation but a new Rooftop Sanctuary network and jobs appear. Maya achieves measurable protection for vulnerable residents but endures personal compromises; a romance survives but is tempered by lingering tensions about means vs ends."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate Win / Local Displacement — Insufficient resistance and political maneuvering enable a large development that favors private profit and high-tech defenses inaccessible to many. Large swathes of the old town are bought out; community networks fray. Maya loses the battle but continues small-scale mutual-aid work; the romance strains or breaks under ethical differences."
+        },
+        {
+            "type": "True",
+            "summary": "Catalytic Sacrifice — A high-risk, community-led action averts immediate disaster but requires temporary mass evacuation and the loss of a beloved public space. Long-term, Saltbridge becomes a model of equitable relocation and living shorelines. The protagonist's relationships are redefined: some deepen into lasting partnerships, others end with mutual respect. The ending emphasizes systemic change at the cost of nostalgic comfort."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

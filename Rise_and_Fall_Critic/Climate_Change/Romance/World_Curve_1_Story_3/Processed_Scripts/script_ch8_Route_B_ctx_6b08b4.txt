@@ -1,0 +1,144 @@
+### SCRIPT
+# Route: Route B / Ending
+# Context: 6b08b4
+
+[Scene: Meeting Room | Morning]
+[Background:"ch8_6b08b4_1"]
+[Music: Warm, ascending strings with soft percussion]
+[Sound: A coffee press hissing in the corner; distant gulls and the soft rumble of tideworks pumps]
+
+You step into the meeting room carrying the residue of the pilot in your lungs — ozone, damp soil, the faint metallic tang of sensors. The room smells like paper, coffee, and the green aftertaste of seaweed extract used in the prototypes. Your boots scuff softly across the concrete tiles; a thin film of salt clings to the hem of your jacket.
+
+Ahead, Hana sits with a tablet open, her posture composed as ever. Mayor Lila perches on the edge of a chair with her laminated schedule folded to the page, fingers worrying the corner as if coaxing a promise from the paper. Dr. Jun and Teo are already clustered over a printout of tide projections; Sofia arrives a breath later, carrying a basket with a single citrus wrapped in a cloth — a quiet offering to change.
+
+You taste the air like a promise. Today is paperwork and yes, but also the subtle work of trust.
+
+Hana Kim: "We modeled three scenarios overnight. The regulatory clauses Leon's legal team suggested are included in draft C, but I edited them to leave the community oversight board with veto rights on deployment sequences." (she taps the tablet, then meets your eyes) "It's a compromise. Legally messy, but enforceable."
+
+You hold that, the word enforceable landing like a stone in your hand — heavy, but real.
+
+Asha Rivera: "Veto rights and sunset clauses — that's closer to what we asked for. But 'enforceable' depends on who signs and how binding the mayor's office is prepared to be." (your voice is steady; the note of tiredness at the edges is there, but hope glows behind it) "What guarantees do we have if Leon's firm decides to pivot after funding cycles change?"
+
+Mayor Lila: (She exhales, the sound small and human.) "I can't promise miracles, Asha. But I can put an ordinance in place that ties municipal maintenance funding to compliance audits. That—" (she glances at Dr. Jun) "—that gives us leverage beyond private contracts."
+
+Dr. Jun: "The audits can be coupled with an open-data stream. Sensor logs, maintenance schedules — public by default. If we can host them on city servers with checksum verification, it's harder to bury noncompliance." (he smiles, slow and proud) "We can make transparency a practical barrier to backsliding."
+
+Sofia: (softly) "And if people can look at the data, they can fight with facts. That's what matters to folks like me." (she sets the citrus down and runs a thumb along the rind) "Someone can show me the pump numbers and I know if it's worth the loyalty."
+
+Teo: "Sounds good on paper," he says, flipping a greasy rag between hands. "But it's gotta be simple on the ground. Who's driving the maintenance van at two in the morning when sensors yell? Who pays for parts when something fails?" (he looks at you; the question is both practical and tender)
+
+Hana Kim: "That's why the pilot includes a training program and a parts-supply clause." (her fingers move over the tablet as if orchestrating solutions) "We propose a co-managed ops team for the first eighteen months — two technicians from Aegis, two from La Marisma, rotating shifts, shared responsibility. Contracts spell out replacement timelines and emergency response protocols."
+
+Asha Rivera: (You let the words settle and imagine the list — names, shifts, grease, toolkits. You picture Teo's hands, Sofia's steady presence at markets, Jun's careful charts.) "Rotation is a start. But day-to-day power needs to stay local. The community has to be able to shut down a pump if maintenance introduces a risk, or ramp up a living seawall's irrigation without waiting on a corporate approval."
+
+Hana Kim: (there's a beat, a small opening of her expression — not warmth exactly, but less steel) "Agreed. The interface will include local manual override with a documented triage protocol. Overrides trigger an immediate audit log and a mandated response window. No silent remote changes."
+
+Elias Hart: (a buzz at your wrist, his message appearing as a small, intense notification. His presence isn't physical, his tone both challenging and caring when you check it) "You sure about this? Don't let them hollow out what we built."
+
+You don't answer immediately. His words are a shadow and a warmth both; they make the room sharper. You know his instinct: visibility, pressure, uncompromising community control. You also know Hana's: design discipline, measured safeguards that can scale.
+
+Asha Rivera: "Elias's concern matters. Visibility is leverage. But so is this being deployable right now before next season's storms." (you breathe) "We need both: oversight and speed."
+
+[INTERACTION]
+> Choice A: "Push for an open-data dashboard live now"
+> Choice B: "Insist on a phased data release"
+[Outcome A: "You suggest launching the dashboard publicly during the pilot roll-out so everyone can see raw sensor feeds. Hana nods — tentatively pleased — while Mayor Lila makes a note to formalize data access. Teo's mouth twitches; he likes the idea that people can watch and learn."]
+[Outcome B: "You recommend a phased rollout of data to ensure context and prevent panic — raw feeds to community reviewers first, public summaries after. Hana agrees to the middle path; Dr. Jun raises possible delays, but concedes it's a reasonable calibration."]
+[MERGE: The meeting continues with data access settled as a negotiable implementation detail.]
+
+[Scene: Skyward Market | Midday]
+[Background:"ch8_6b08b4_2"]
+[Music: Bright acoustic guitar with rhythmic hand percussion]
+[Sound: Market chatter, the clink of jars, a child's laughter]
+
+You carry the draft clauses to the market, where life goes on: stalls with sprouted microgreens, a child balancing a tin boat, and neighbors who will live with every clause you sign. The sunlight is warm against your face. The market's smells — basil, grilled fish, lemon — mix with the day's humidity and make resolve feel less abstract.
+
+Asha Rivera: (addressing a small circle) "This pilot can reduce flooding for the lowest blocks, but it needs people who will watch the machines like they watch their gardens. That means training days, local hiring guarantees, and a say on when tech gets updated." (you point at the draft with a pen) "If we make the plan legal, we keep it accountable."
+
+Sofia: (her voice steady, resonant) "Make workshops part of the deal. Teach us to read the sensors like weather. Teach our kids. If it brings knowledge along with pumps, that's something we pass on."
+
+A neighbor: "And put money into local inventories. Spare pumps in the market for the nights when the van can't reach." (a nod around the group — pragmatic, communal)
+
+Teo: (grinning, elbows in his ribs like a mechanic who loves a good blueprint) "Also, an apprenticeship. If someone's fixing the system, we want someone from here doing it, too. Jobs that don't leave after a season."
+
+Asha Rivera: "Agreed. Community labor, paid. Apprenticeship slots guaranteed. Training that actually teaches people how the machine breathes."
+
+[INTERACTION]
+> Choice A: "Offer to lead the first training session"
+> Choice B: "Nominate Teo as lead trainer"
+[Outcome A: "You volunteer to run the inaugural workshop at the market greenhouse. People clap; Hana raises an eyebrow, then smiles slightly — a rare flicker of approval. Your throat tightens in a good way — public teaching feels like seeding the future."]
+[Outcome B: "You put Teo forward as the primary trainer. He accepts with theatrical swagger, then gets quietly serious, asking which modules to prioritize. The market murmurs in support — a local face leading local learning."]
+[MERGE: Training plans are assigned and the market's support is secured.]
+
+[Scene: Pilot Site | Late Afternoon]
+[Background:"ch8_6b08b4_3"]
+[Music: Gentle, hopeful swell — a tone that suggests things can be made to last]
+[Sound: Water lapping, muffled construction on the horizon, the soft chirp of deployed sensors]
+
+At the pilot site, the seawall looks less like corporate promise and more like a living thing: mats of interwoven roots, engineered polymer lattices, sensor nodes tucked like polished pebbles. You kneel and press your fingers into the substrate; it's cool and faintly saline. The technology hums — careful, obedient.
+
+Hana Kim stands beside you, quiet. Between you, the prototype breathes out a steady readout: moisture, salinity, structural stress. The numbers are honest; honesty is a kind of intimacy.
+
+Hana Kim: "This is where enforcement means working boots in the mud. We can draft operational clauses that are executable: who replaces a corroded joint, how quickly a failing pump gets a part, what happens if city funding stalls." (she taps a node, then looks up) "I don't expect you to accept without conditions."
+
+Asha Rivera: "I don't expect you to surrender control either." (you feel the lightness of that exchange — not victory, but mutual clarity) "If the city signs on, if the ordinance ties maintenance and transparency together, then this pilot can be a model that keeps people in place rather than displacing them."
+
+Mayor Lila: "We can tie municipal grants to compliance milestones and community employment percentages." (she meets your gaze; there's a new steadiness) "If Leon's firm wants access to other sites later, they'll need documented success here. It's leverage."
+
+Elias Hart: (your comm buzzes again; his message lines the edge of the moment: "Visibility = muscle. If we show up, loud, they will have to answer." His tone is a nudge, an honest insistence that sometimes the public square is the only court that matters.)
+
+Asha Rivera: (you look at the pilot, then at the people gathered — Hana's measured competence, Lila's political arithmetic, Teo's hands, Sofia's steady face) "We need terms that lock in community governance, fast channels for local action, training, and public transparency. If we do this right, it's not just the seawall — it's the protocol for partnership."
+
+Dr. Jun: (softly, as if pronouncing a benediction) "And the data will show what works. We'll iterate — learn and adapt. That's how resilience is built."
+
+Hana Kim: (she exhales, a small, honest sound) "I'll add a clause that requires quarterly community review meetings with the city and independent auditors, and a binding 'pause-and-audit' trigger that the board can use if something goes wrong. Leon will hate the delay windows, but they're necessary."
+
+Asha Rivera: "Then we build them in. We make governance practical and immediate. We make the community impossible to ignore."
+
+[Music: The strings swell, a bright chord that suggests doors opening]
+[Background:"ch8_6b08b4_4"]
+
+You think of the countless small practices that keep La Marisma alive—barter and repair, recipes and songs—and you realize this pilot could extend not just physical safety but those living rituals. It could be a precedent: when tech comes, it arrives as neighbor, not stranger.
+
+You sense momentum. Contracts are drafts, but momentum is real: signatures, ordinances, apprenticeships, public dashboards. Negotiations are still negotiations, but the possibility of a working, accountable pilot is not an abstract hope anymore. It's a plan you can point to.
+
+[INTERACTION]
+> Choice A: "Ask Hana to include a sunset review clause after the pilot"
+> Choice B: "Push to lock maintenance funding for five years"
+[Outcome A: "You request a formal sunset review — a mandatory full reassessment at eighteen months before any scaling. Hana agrees; it forces the firm to prove long-term value without promising endless expansion. Mayor Lila nods; it's a reasonable brake."]
+[Outcome B: "You press the mayor to secure municipal maintenance funding for five years to guarantee continuity. Lila hesitates but acknowledges it's the strongest way to bind obligations. Teo grins — five years feels like a foundation."]
+[MERGE: Governance and funding mechanisms are framed as negotiable levers in the deployment plan.]
+
+You take a breath and sit at the edge of the pilot pool, fingers brushing sensor housing. The noise of the city is distant; here the sound is ticking data and the low breathing of equipment and human plans. For a moment, you imagine the seawall layered into the barrio, kids climbing near the mangrove roots, apprentices fixing joints while elders trade recipes on benches. Hope is not a victory yet — but it has a shape.
+
+Hana Kim meets your gaze, her expression complex in a way that lets the future be unresolved and promising at once.
+
+Hana Kim: "If we agree to these terms, I'll walk this through Leon's legal team and the mayor's office. We'll need signatures, audits, and a public launch plan. If the community agrees, we can start deployment next month."
+
+Asha Rivera: (you feel the gravity of the next words — what you say now will make a path clearer) "We will. But on three conditions: enforceable oversight, local operations and training, and transparent, public data with community-led audits."
+
+Mayor Lila: "We can do that. It will take negotiation, but the ordinance can be drafted to reflect all three."
+
+Elias Hart: (another message buzzes in, shorter this time, a single line that is equal parts challenge and promise) "If you want visibility, I'll plan a demonstration the week of launch. Bring the people. Make them see why this matters."
+
+Asha Rivera: (you look at everyone — at Hana, whose competence now feels like an offering; at Mayor Lila, ready to do the messy work of turning drafts into law; at Teo and Sofia, who will teach and fix and keep; at Jun, who will watch the numbers like a guardian) "We're close. But closeness requires a choice."
+
+[Background:"ch8_6b08b4_5"]
+
+[DECISION POINT]
+How do we secure technology without losing community control?
+
+1) Option 1: "Accept Hana’s pilot under strict contractual community oversight." -> TARGET chapter_id: 9
+2) Option 2: "Push for cooperative co-management so the community runs the tech day-to-day." -> TARGET chapter_id: 12
+3) Option 3: "Back Elias’s public demonstration to force concessions and visibility." -> TARGET chapter_id: 15
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Accept Hana’s pilot under strict contractual community ov..." -> ID 9 (Route B / Ending)
+    > Jump Target File: script_ch9_Route_B_Ending_ctx_3be532.txt
+Option 2: "Push for cooperative co-management so the community runs ..." -> ID 12 (Route C / Ending)
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_3be532.txt
+Option 3: "Back Elias’s public demonstration to force concessions an..." -> ID 15 (Route B / Ending)
+    > Jump Target File: script_ch15_Route_B_Ending_ctx_3be532.txt

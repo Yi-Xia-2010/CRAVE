@@ -1,0 +1,151 @@
+### SCRIPT
+# Route: Route C
+# Context: e67f19
+
+[Scene: Warehouse Negotiation Room | Midday]
+[Background:"ch11_e67f19_1"]
+[Music: Nervous high strings—staccato, building tension]
+[Sound: Ventilation hum, a distant gull muffled by glass; the soft scratch of Jonah's pen]
+
+The air tastes like lemon polish and spent coffee. Fluorescent light sits on everything — the sheen on Jonah's pen, the gloss of the pages, the wet patch on your palm where the seed vial swings against your chest. You feel small and enormous at once: small because this table could swallow a whole neighborhood into its margins, enormous because you are the person the room keeps starting at when they don't know which way to look.
+
+You let your thumb rest along the rim of the glass vial. The string of seed packets inside rattles faintly. That sound — teeth on a tin roof — centers you.
+
+Jonah Hale: "The expedited clause is standard. When 'emergencies' are declared, we need the option to move quickly."
+(He smiles; the smile is polished like a tool.)
+
+You hear the logic in his voice. Practicality wrapped in confidence. But the word "expedited" slides like oil into the grain of your memory: deadlines that become deadlines for displacement, emergency windows that become routine. Your throat tightens.
+
+Ayla Moreno: "Define 'emergency,' Jonah. Who decides? Who counts as collateral for the 'expedient' fix?"
+
+Jonah Hale taps the pen against the paper, a metronome for control.
+
+Jonah Hale: "The city declares emergencies; the county ratifies. We propose a panel to review post-action, and—"
+
+Elias Rook: (leaning forward, voice steady) "—and there would be transparent triggers tied to modeled storm surge thresholds. We can set objective criteria. It keeps things from being arbitrary."
+
+Your gaze flicks to Elias. His sleeve is rolled, his wristpad closed like a comforting shell. He says the word "objective" like an invocation. You want to believe in the models because they've kept people alive. You also remember the models that didn't account for neighborhood memory.
+
+Ayla Moreno: "Objective to who, Elias? The models treat surfacing property lines and not the people who live between them."
+
+Elias Rook: "Then we make the criteria include displacement impact. We can quantify community harm as an input."
+
+Jonah Hale's pen pauses. He inclines his head, not conceding, but considering how much to let go.
+
+Jonah Hale: "Fine. We will include displacement metrics. But we can't have open-ended vetoes that stop action in a real storm."
+
+Kira Tseng's jaw flashes red beneath her short-cropped hair. She has been quiet until now; her binoculars and megaphone sit on the chair across from her like a thrown gauntlet.
+
+Kira Tseng: "You're asking us to sign a paper that gives you a legal backdoor. 'Emergency' will become your key to lock us out. People will lose roofs while your shareholders cheer."
+
+You feel the room tilt with the heat of her words. Mateo sits with his hands folded in his lap, the calluses visible on his knuckles when he raises a cup to his lips. His face is a weather map you can read in lines and creases.
+
+Mateo Alvarez: "We remember what 'temporary' meant last time. Nothing temporary stayed temporary."
+
+The mayor, Serena Okoye, folds her hands as a mediator would gather a storm. Her face is tired but threaded with something like resolve.
+
+Mayor Serena Okoye: "We can workshop the clause. There will be judicial oversight. We will built in community counsel."
+
+Your pulse picks up. This is a negotiation and a gauntlet. Each assurance is a stitch. Each concession is a seam that might hold or tear.
+
+[INTERACTION]
+> Choice A: "Touch the seed vial"
+> Choice B: "Fold your hands on the table"
+[Outcome A: "You roll the vial between your fingers, the tiny packets inside clinking like small protesters. It steadies your breath, and your voice returns in a firmer register."]
+[Outcome B: "You press your palms flat to the wood—grounding, silent. The table feels worn and human under your skin; the conversation feels heavier for the silence."]
+[MERGE: ...]
+
+Elias meets your eyes after you've made your small, private motion.
+
+Elias Rook: "If we don't sign now, there's a timeline acceleration. Jonah gets the council to fast-track the vote on grounds of 'urgency.' We could lose everything while we litigate."
+
+You consider what Elias says. It's the calculus that has been running in the background of every conversation: some protections today against the possibility of something worse tomorrow. It's the bargain your pragmatism has always hated making, and your sense of responsibility keeps whispering that someone has to make it.
+
+Ayla Moreno: "So we sign and trust that oversight will catch any bad actors?"
+
+Elias Rook: (swallows) "We set the oversight to a binding commission with enforceable penalties. It's not perfect, but it's the least-worst route to preserve green parcels now."
+
+Kira Tseng scoffs, fingers tightened around the strap of her bag.
+
+Kira Tseng: "Least-worst won't keep Jonah honest. This is how deals get closed and neighborhoods get sold off piece by piece. You're letting him write the first draft of our own erasure."
+
+The noise in the room thickens — conversations folding over one another, the hiss of the HVAC like a held breath. You feel something inside you split: loyalty to the people whose hands you know in gardens, and the gnawing, pragmatic logic that some law is better than none.
+
+You place your pen near the corner of the napkin where Jonah had written the outline the day before. The plastic feels slick under your fingernail.
+
+[INTERACTION]
+> Choice A: "Ask for a 24-hour pause"
+> Choice B: "Push the pen forward"
+[Outcome A: "You clear your throat and ask for time. It's a small procedural move, a chance to breathe, to rally neighborhood counsel. The room bristles — many want speed; some allow the pause."]
+[Outcome B: "You slide the pen a fraction forward toward the signature block. The motion is small, almost invisible, and the air seems to tighten around that motion as if the room can taste it."]
+[MERGE: ...]
+
+Jonah leans back, the blade of his smile darkening with impatience.
+
+Jonah Hale: "We need a commitment. Delays cost lives. If you stall, we go to the council and ask for an emergency vote. That's not a threat; it's simply how public safety works."
+
+Mayor Serena Okoye: "Let's keep process intact. We do not want to split the room in the middle of an escalating timeline."
+
+At the edge of the table, someone coughs. A thin vibration runs across the polished wood — the sound of a phone receiving a message, only a beat later multiplied across the room like a chorus. Heads lift.
+
+[Sound: A sudden cascade of pings — phones, tablets, the soft vibration of alerts.]
+
+You squint at your device, screen catching the fluorescent light. A video autoplays: a shaky hand-held recording, a contractor's internal report spilled out across the frame. A voice you don't know reads a line as the camera pans: "Cost estimate revised to justify partial privatization of waterfront parcels post-build."
+
+Ayla Moreno: "What—"
+
+On the screen, there are spreadsheets and a highlighted line: 'Monetization plan — identify high-value parcels for future sell-off.' The footage moves too quickly and too clearly. There is a name stamped across some pages: the consortium linked to Jonah's firm, the logo half obscured by a coffee ring.
+
+Kira's mouth opens. Mateo's cup rattles as he puts it down. Elias's hand clamps over his wristpad; his jaw tightens. Jonah's eyes — amber and calculating a moment ago — go small and distant like a pressed button. He doesn't flinch; instead he straightens, as if rising to meet a charge.
+
+[Sound: The room fills with voices — a brittle, splintering chorus. Someone shouts, "Is that real?" Another voice calls for the source. Cameras lift; phones are up like protest placards.]
+
+Jonah Hale: "This is a leak. An unverified document. We will investigate its origin, but the project—"
+
+You can hear the edges of his sentence cracking as the crowd presses against his cadence. The mayor lifts a hand, trying to marshal order that no longer exists.
+
+Mayor Serena Okoye: "We need to verify—"
+
+But verification is a slow machine while social media is a fast one. The footage is already everywhere: looped on feeds, captioned with outrage, commentary, calls for judicial review. The council's timetable — meant to be deliberate — is shoved forward by public pressure. The vote accelerates because momentum is a force that favors extremes.
+
+Elias Rook: (almost a whisper) "If it's true—"
+
+Your body goes taut, like a string pulled to breaking. The room becomes a pressure chamber. There is no quiet place to think anymore; every second births another rumor, another dossier, another demand.
+
+Mateo Alvarez: "If they were planning to privatize... then there is no trust to be rebuilt. Not from me, not from the hands that have salted and mended nets."
+
+Kira's face is a hard line; her anger is a blade now, sharpened and exposing bone. She slams her megaphone into her bag and strides out. The door swings behind her like a punctuation mark.
+
+[Sound: The door shuts; the echo of it seems to amplify the fracture.]
+
+Elias looks at you with a rawness you rarely see. His voice breaks between engineering and something that aches more human.
+
+Elias Rook: "We can expose it right now. We can force a full inquiry. But the protections we negotiated — community land trusts, restoration grants, oversight — they might be stripped if the council panics and hands an emergency approval to Jonah to lock everything down before anyone can legislate."
+
+The arithmetic of risk churns like stormwater gutters. Sign now and anchor some small legal harbor for the community while the world accuses you of selling out. Expose the leak and chance everything for the possibility of stopping a privatization that would cut the heart out of the waterfront.
+
+The fluorescent light seems sharper, surgical. Your fingers close reflexively around the pen at the edge of the paper. Paper fibers rasp under your nails. Outside, gulls cry distant and indifferent, but the city inside the room is loud with the human noise of panic and betrayal.
+
+[Sound: A new torrent of notifications. The council clerk is already calling for an emergency session. The timetable that felt like a pressure-cooker seconds ago now hisses and whips, a lid trying to hold a boiling pot.]
+
+You feel the world narrowing to the curve of the pen and the image on the screen. Your choices are jagged stones in the path of a swollen river.
+
+[Music: Strings reach a frenzied peak; everything sharpens — voices, breaths, the metallic tang at the back of your teeth]
+
+You exhale, and the sound is small and thin.
+
+[DECISION POINT]
+1) Option 1: "Sign the covenant to secure immediate protections despite the leak; plan to litigate later." -> TARGET chapter_id: 12
+2) Option 2: "Expose Jonah publicly using the leaked report; trust the community to resist and push for a full investigation." -> TARGET chapter_id: 15
+3) Option 3: "Hold the signature and use the leak to extract stronger, enforceable clauses, demanding judicial oversight before signing." -> TARGET chapter_id: 15
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Sign the covenant to secure immediate protections despite..." -> ID 12 (Route C)
+    > Jump Target File: script_ch12_Route_C_ctx_f99e88.txt
+Option 2: "Expose Jonah publicly using the leaked report; trust the ..." -> ID 15 (Route C)
+    > Jump Target File: script_ch15_Route_C_ctx_f99e88.txt
+Option 3: "Hold the signature and use the leak to extract stronger, ..." -> ID 15 (Route C)
+    > Jump Target File: script_ch15_Route_C_ctx_f99e88.txt

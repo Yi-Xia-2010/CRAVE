@@ -1,0 +1,241 @@
+label chapter9:
+
+    # [Scene: Roooftop Garden & Communal Greenhouse | Late Afternoon — Storm Bearing Down]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind shearing across sheet metal, the creak of scaffolding, volunteers shouting over the rain]
+    # play music "music_placeholder"  # [Music: High-tempo, driving percussion; a single soaring string undercurrent]
+    "You came here in a rush — whether you sprinted up from the Flats at dawn to set anchor bolts with Ibe or you left the flooded quay and climbed the warehouse stairs after the test"
+    "warning, it all condenses into the same wet urgency now. Everyone's faces are lit by the same frantic lamp: mud-smeared, salt-streaked, eyes fixed on the straining frame. The rain tastes of iron and urgency on your"
+    "tongue."
+    "Your compass pendant is a hot, familiar weight at your throat. You feel it against your collarbone like a second heartbeat. You breathe; it fogs the inside of your mask. When the wind hits the greenhouse"
+    "glass, a high note runs through your ears and you tighten the straps on a brace."
+
+    "Ibrahim 'Ibe' Rafiq" "Mara, block C's been shearing—if we can wedge the outer strut, it won't torque the whole array. Pass me the ratchet!"
+    "You do. Your fingers slip, then find the metal. The motion is muscle-memory and faith braided together — the kind of work that says, wordlessly, we are not giving up on each other. You hand tools, speak quick calibrations, keep the volunteers moving like a single, breathing organism."
+
+    "Volunteer" "We need a second jack! Two people on the wedge, three on the brace!"
+    show rosa_alvarez at left:
+        zoom 0.7
+
+    rosa_alvarez "Focus on the alignment—don't overcompensate. If one side bites, it will take the rest. Work like you mean it, and listen."
+    "There is tension in every breath. You strain a knee into the mudbed, press a wedge home, and feel the tiny, impossible triumph as the bracket ceases its sickening flex. Someone laughs—short, shocked—and a dozen hands"
+    "answer with renewed effort. The greenhouse shakes; the shelter of glass hums with a community holding its breath and then exhaling in coordinated force."
+
+    menu:
+        "Take command at the brace":
+            "You plant your feet, bark the orders with a voice sharper than you feel. People move. Ibe catches your eye—pride and a flicker of worry—then gets back to the jack without comment."
+        "Stay close to Ibe's shoulder":
+            "You shoulder near him and let his rhythm guide your hands. He steadies the ratchet as much for you as for the metal; his jaw is set, and you find a dangerous comfort in that steadiness."
+
+    # --- merge ---
+    "The scene continues"
+    "Ibe ducks under a tarp to adjust a support and emerges with mud in his hair, the bright reflective patchwork on his sleeve flashing like a promise. He finds you in the chaos and there is"
+    "a second of something that isn't the work: a look that carries plans, apologies, and the weight of possible futures."
+
+    "Ibrahim 'Ibe' Rafiq" "If that hold takes, we can show the Hall—show them how community labor and cheap modulars can scale. They'll have to listen."
+    "You want to believe him with every remaining unburned filament of hope in your chest. But you also remember a childhood street swept into a single night, the way a single bad tide can unmake a life. Hope and fear braid into the same hand on the ratchet."
+    # play sound "sfx_placeholder"  # [Sound: The crowd's breath all at once, a metallic clang as the brace takes strain]
+    # play music "music_placeholder"  # [Music: Percussion spikes, then broadens into a triumphant brass swell]
+    "When the last wedge slides true and the pilot frame holds, the greenhouse erupts with a sound like relief given voice—cheers, the pounding of a palm on a shoulder, the desperate laugh that acknowledges they almost"
+    "lost it. For a moment, the city seems to tip back the way it should: toward people-made solutions, toward the stubbornness of hands that will not let go."
+    "Rosa squeezes your shoulder. Her fingers are cold but sure."
+
+    rosa_alvarez "You did it, child. You all did."
+    "Your throat tightens. This is victory and proof and prayer in one wet, shuddering breath. But the storm is not finished, and the tide speaks a language of its own."
+    # [Scene: The Flats | Early Night — Floodlights and Murky Water]
+    hide rosa_alvarez
+
+    scene bg ch9_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Tides lapping against sandbags, muffled cries, the distant thrumming of municipal pumps]
+    # play music "music_placeholder"  # [Music: Fast, urgent strings layered with low brass—tension sustained]
+    "You move from the greenhouse down into the Flats. Mud clings to your boots. The pilot's survival is a beacon — it gives people a glancing hope — but the Flats still have places where the"
+    "water will not be turned back. Sam boards float at odd angles and a child's plastic bucket sits half-buried in a silted channel like a fossil."
+    "Kai Moreno meets you at the walkway, rainwater beading on his paint-streaked jacket. His grin is the kind that tries to be buoyant but finds words impossible."
+    show kai_moreno at left:
+        zoom 0.7
+
+    kai_moreno "They held the frame, for now. Folks are talking. The Hall is calling this a partial success, which is bureaucratic-speak for the beginning of negotiations."
+    "Your heart stutters at the word negotiation. Negotiations can be prisons in plain paper."
+
+    "Volunteer" "The old promenade—Mara—water's cutting the steps. If we don't move families now, they'll be boxed in."
+    "The name of the childhood block settles in your chest like a stone. You remember the promenade's low, weathered steps and the lighthouse's flaking paint, the way you used to race Kai along the rail until"
+    "dusk flattened everything into a watercolor smear. You remember the scent of frying fish at the market, the precise crook of your mother's laugh."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "We get people moving. Calm and steady. Prioritize the elders, then the families with infants—Kai, you take the south ladder. Ibe, two teams at the promenade steps."
+    "Ibrahim 'Ibe' Rafiq nods without hesitation; his hands already move to organize gear. There's no grand speech—there is only the urgency of saving lives right now."
+
+    menu:
+        "Run to the promenade to carry what you can":
+            "You bolt for the submerged steps, feeling the wet give under each step and the old, tender memory of home turning into action. A neighbor grips your sleeve and cries, 'Mara, the Beckett house!' You pry loose a small wooden box and hand it off like passing a talisman."
+        "Stay to coordinate evacuations from the Flats":
+            "You stay anchored at the Flats, voice steady as you triage the rolling schedules and send people where they are needed. Someone grabs your checklist and calls you a miracle; you think of plans and time, and the ache of not being everywhere at once."
+
+    # --- merge ---
+    "The scene continues"
+    "You choose both, in a way— you coordinate, then you run. There is no glamour to it: you scoot down sea-slick steps with a volunteer at your side, cradle a soggy box of photos, and haul"
+    "a grandmother into a waiting canoe with hands that refuse to shake. The water is cold enough to steal breath, and the lighthouse blinks like an eye that will not be comforted."
+    "A siren distantly announces municipal boats on their way. Samira arrives in a municipal vest, her clipboard irrelevant under the weight of exhaustion on her face. She moves with bureaucratic efficiency, but there's a softness there that hasn't been trained away."
+    show samira_chen at center:
+        zoom 0.7
+
+    samira_chen "We can open a temporary shelter at the warehouse. Transport for displaced families will be arranged—I've pulled funding—' (she hesitates, and the syllables taste costly) '—but the Hall says the hybrid plan requires land reconfiguration in low-lying blocks. That includes the promenade."
+    "The words land you like a blow. The promise of funds, the legal scaffolding that might save a thousand, comes with a price: the loss of place. You hear them register like an echo through the channels."
+    "How do you measure what a block is worth? In brick? In memory? In the faces that folded you into the world? You want to be furious. You want to be pragmatic. You want to be everything at once."
+    # play sound "sfx_placeholder"  # [Sound: Distant roar as a culvert gives; someone shouts]
+    # play music "music_placeholder"  # [Music: Drums hammer. The arousal climbs—each beat a pulse in your throat]
+    "You do the thing you do best: you organize the hands in front of you, you shepherd the cans and blankets, you shepherd people into boats as if marshaling a small, fragile convoy out of a"
+    "sinking world. You hold a baby's head against your shoulder while a neighbor sings under their breath. You hold a small, wet photograph like a benediction until it is safe."
+    "When the last family is in the transport, you and Ibe stand on the promenade's highest undamaged stone, breathing as if you have run a race that began months ago. The lighthouse wind bites salt into your eyes."
+
+    "Ibrahim 'Ibe' Rafiq" "They can't move everything. Some things we have to accept—if it means people keep roofs, keep lives. But I can't lose you in the aftermath, Mara. If they asked us to pick—"
+    "You don't let him finish. There are too many costs already counted. You put a hand on his forearm, feeling the tremor in the muscles beneath."
+
+    mara_lin "Then we keep the rest. We make whatever gets built hold more than money's promises. We bring the rest with us in every way we can."
+    "He laughs, a dry sound like a hinge. It's both relief and pressure. He steps closer; the shelter of his jacket is offered without ceremony."
+    # [Scene: The Old Promenade / Childhood Block | Night — After Evacuation, Quiet Where the Water Has Reclaimed]
+    hide kai_moreno
+    hide mara_lin
+    hide samira_chen
+
+    scene bg ch9_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sea swallowing its own voice, the soft murmur of conversations wrapped in blankets, the scrape of a single moving truck]
+    # play music "music_placeholder"  # [Music: A solemn cello weaves into the percussion, turning the earlier chaos into elegy]
+    "The funeral for a neighborhood is not a single wail; it is a thousand small acts of closing—locking a door that will never be returned to as it was, folding a child's wool sweater into a"
+    "plastic bag, kicking a chair so it sits on a truck bed. The sky is a bruise; the horizon has no promises tonight."
+
+    "Rosa moves slowly, each step a ledger of years. She takes the hand of an old neighbor and says things that are not fixable but are necessary" "Plant yourself where the soil answers back. Remember to add sea lettuce to the stew when salt tastes like loss."
+    "Kai stands by a truck with a muscle memory grin that keeps the grief in his chest from spilling into panic. He catches your eye and nods. The nod is small, but it says everything—this town"
+    "has lost before and it will lay itself out differently and still be a town because the people make it so."
+    "Samira meets you beneath the lighthouse light. Her coat is soaked; her clipboard is useless. She looks—open, and exhausted."
+    show samira_chen at left:
+        zoom 0.7
+
+    samira_chen "The Hall's committee convened. With the field data, Eloise has agreed to the hybrid budget. Modular defenses for the Flats, marsh restoration funding—it's a package. But the paperwork is clear: to reconfigure the low-lying ribbon of the promenade into flood terraces, we need to clear residence rights within sixty days."
+    "You close your eyes. Sixty days. It sounds like a lifetime and a blink."
+    "Sixty days to turn centuries of life into logistics. Sixty days to move graves and plants and alliances. There will be money and there will be scaffolds; there will be models and digital overlays of safer"
+    "futures. But there will also be gaps in the map where whole histories once sat."
+    "Ibe places a callused hand over yours; it's a touch that says: we will do the necessary cruelty with honor. He searches your face as if you're a compass whose needle he must trust."
+
+    "Ibrahim 'Ibe' Rafiq" "We'll take it to the community. We'll ask for oversight committees, guaranteed housing in the same neighborhoods if possible, relocation funds, job protections. We push for transferable leases—whatever makes this less of an erasure."
+    "You think of your mother's hands in the soil, of the smell of frying fish at Kai's stall, of Rosa stacking cordgrass like a priest. You also think of children who will not have to face"
+    "that sudden, uncompromising tide. The hybrid plan is not perfect; it is a compromise, but it is also life."
+    # play music "music_placeholder"  # [Music: The cello resolves into a warm major chord. The percussion slows but keeps a heartbeat.]
+    # play sound "sfx_placeholder"  # [Sound: A distant gull, then silence held like a breath]
+    "You stand there, between what was and what will be. People begin to speak in low, tired voices about committees and titles and volunteer rosters. The conversation is practical; it is also a grieving. Somewhere, a child laughs at a ridiculous joke and it sounds like a bell."
+
+    "Ibrahim 'Ibe' Rafiq" "I know this is asking you to lose a block. I'm sorry in ways I've never learned how to say."
+    "You have never wanted to be safe at the cost of others. You have never wanted safety that tastes like forgetting. But you also have a stubborn thread of realism: some losses will lead to fewer"
+    "deaths. You remember a night of water and the way that memory has kept you awake for years. You do not want to relive that for anyone."
+    "You breathe. Salt and cold and resolve fill your lungs."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "We lose a place, maybe. But we buy time for the rest. We make the places we keep worth staying in. We don't make a theater of justice— we make a plan that keeps people alive."
+    "Ibe's shoulders drop a fraction, heavy with the thing he carries: survivor's guilt and a compulsion to hold everyone. He looks at you as if you're both making a pact and taking a wound."
+
+    "Ibrahim 'Ibe' Rafiq" "Then we do this together. Community oversight, transfer guarantees, direct jobs for displaced workers rebuilding the terraces. No privatization of the new land—no corporate buyouts."
+    "You hear the resolve in his voice and you match it, because you are tired of half-measures and of the moral erosion that passes for pragmatism. The town will need to be relentless about ironclad guarantees."
+
+    menu:
+        "Insist on a citizens' oversight clause, even if it delays construction":
+            "You push for a clause that gives residents veto power on contractors. People will grumble that it slows the work, but they will also sleep easier at night. Ibe presses his palm to yours, silent solidarity."
+        "Accept the Hall's timeline to secure immediate funding":
+            "You swallow the jagged edge of impatience and nod to the timeline—your voice shakes when you ask for the strongest protections you can get. Samira promises to translate that into legal language. You feel guilt like a stone settling in your stomach, but you also feel the urgency of saving lives now."
+
+    # --- merge ---
+    "The scene continues"
+    "At dawn, there will be forms and town meetings and the early, bureaucratic engines of a rebuild. Tonight, there is a quiet—an exhausted, hopeful hush that follows the storm."
+    "Rosa kneels and scoops up a fistful of mud from the promenade, lets it sift through her fingers like a blessing."
+    show rosa_alvarez at center:
+        zoom 0.7
+
+    rosa_alvarez "We build. We move. We plant. We keep the stories. We make the ground hold us. That's how we keep going."
+    "You fold her voice into your plans. You will be the person who shows up for the endless contingencies. You will be the one who negotiates with lawyers and with angry citizens and you will be the one who stitches family into shelter. It is lonely work, but necessary."
+    "Ibe slides a solder-marked hand into yours; the gesture is not dramatic, but it is everything. His fingers are warm. Your compass sits heavy against the fabric of your jacket, an emblem of direction as much as memory."
+
+    "Ibrahim 'Ibe' Rafiq" "We'll do it without losing ourselves in the process. We make promises we can keep. We keep them together."
+    "You look out over the black water, over the boarded windows and the trucks with tarpaulins, over the faint glow of the market farther down where a single string of bulbs already tries to stitch the"
+    "night back together. The town is a set of ragged stitches, and you are one of the hands mending them."
+    # play music "music_placeholder"  # [Music: A gentle, sustained chord. The percussion has stopped; what remains is warmth and resolve.]
+    # play sound "sfx_placeholder"  # [Sound: The wind subsides. Somewhere, the distant laugh of a child. A gull cries once.]
+    "You let yourself feel the small, fierce triumph: the pilot held; the data exists; the town won the funding it needed. You let yourself feel the ache: a childhood block will be remade elsewhere; a map"
+    "will have holes where stories used to live. You let yourself feel also the ember of commitment glowing warmer between you and Ibe."
+    "This is a bittersweet victory—the kind that tastes like damp salt and hot tea, like a bandage on a bruise. But it's real. It keeps roofs over heads. It keeps more people alive. The world hasn't been made neat or equal; it has been made survivable."
+    "Ibe squeezes your hand. You squeeze back."
+    hide samira_chen
+    hide mara_lin
+    hide rosa_alvarez
+
+    scene bg ch9_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: The chord resolves into a delicate piano phrase; a sense of forward motion underlies the quiet]
+    "You stand a long time, watching people move, thinking of the lists you will draw tomorrow and the committees you'll argue with, thinking of the apology you both will have to make to a place you"
+    "loved. The future will require hard conversations and harder compromises. You have lost a street, but you have also won a chance — and you have someone at your side to share the burden."
+    # [Scene: Communal Tent at the Warehouse Shelter | Night — Aftermath and Commitments]
+
+    scene bg ch9_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low conversations, the hiss of a kettle, the paper rustle of forms being signed]
+    # play music "music_placeholder"  # [Music: Soft lullaby motif on strings, giving the chapter a tender landing]
+    "Later, under a humming tent, you and Ibe sit at a small table with Samira and Kai. There are forms to sign, lists to triage, and names to memorize. The air smells of boiled beans and"
+    "wet wool. Kai makes a joke that a bad pun will fix everything; everyone laughs, and the sound is honest."
+
+    "Samira (placing a stamped sheet in front of you)" "These are the relocation guarantees I managed to secure—temporary housing, job placement priority, and a clause for community oversight of contractors. It's not perfect, but it's written. I could not have gone to the Hall without your field data and your testimony."
+    show mara_lin at left:
+        zoom 0.7
+
+    mara_lin "Make the oversight clause ironclad. No backdoor sales of land. Ensure community jobs go first."
+    show samira_chen at right:
+        zoom 0.7
+
+    samira_chen "Done. And I've got Rosa listed as an advisory—she insisted. Kai's been deputized."
+
+    "Kai Moreno (grinning with mock solemnity)" "I solemnly swear to bring snacks to every committee meeting. Snacks equal diplomacy."
+    "You all laugh. Then the laughter thins into a gravity that is gentle rather than crushing. You trade signatures, promises, and the heavy, bureaucratic rites that translate suffering into protections. Each signature is a stitch across a wound."
+
+    "Ibrahim 'Ibe' Rafiq (watching you, quietly)" "I don't want to be a person who runs when things get hard. I want to be the person who stays and rebuilds. With you."
+    "You want many things: to protect, to love, to not be the reason someone else has to bear loss. You want to sleep without nightmares. You want to build a life that isn't defined only by fixing catastrophes."
+
+    mara_lin "Then stay. Stay and build. We'll make a plan together—work shifts, the legal stuff—whatever it takes."
+    "He exhales like a man unburdening himself in increments."
+
+    "Ibrahim 'Ibe' Rafiq" "I will stay. We'll make it better, and messy, and ours."
+    "You lean across the table and rest your forehead against his in a quiet, private confirmation. It is not a grand promise; it is a daily one: wake up, do the work, answer the calls, argue for fairness, plant cordgrass in the mud when the terraces go in."
+    "Rosa watches you both with eyes that have seen much and has a small, approving nod."
+    show rosa_alvarez at center:
+        zoom 0.7
+
+    rosa_alvarez "Promises in action. That's the good kind."
+    # play music "music_placeholder"  # [Music: A small ascending piano motif; warmth trails out like morning light]
+    hide mara_lin
+    hide samira_chen
+    hide rosa_alvarez
+
+    scene bg ch9_3be532_6 at full_bg
+    "You think of the possible endings you and the town could have had. Tonight you have one of the better ones: protection combined with community power, a garden of legal and physical defenses tended by people"
+    "who will not be moved without compensation and dignity. You have lost a block, but you have prevented a wholesale erasure. You have a partner who will stay, and a community that will keep its stories"
+    "alive."
+    "This is not a fairy tale victory. It is a hard-won, bloody, beautiful compromise. You will be tired forever, maybe. You will mourn. But there is also, undeniably, hope."
+    # play sound "sfx_placeholder"  # [Sound: The kettle whistles; someone's laughter drifts from the communal stove; a lull settles]
+    # play music "music_placeholder"  # [Music: The lullaby motif resolves to an open, major chord—relief tempered with sobriety]
+    "You close your battered notebook and slide it into your jacket. The compass at your throat glints once more; you run a thumb across the brass. It is warm from your skin and from the work done under your hands tonight."
+
+    "Ibrahim 'Ibe' Rafiq (quietly)" "Sleep, if you can."
+
+    "Mara Lin (soft, steady)" "Tomorrow we build."
+    "You allow yourself to lean into that sentence like a plank across a gap. You set your head on the communal cot for a few precious hours, the sound of the market's night watch and the sea beyond the warehouse a steady, living lullaby."
+
+    scene bg ch9_3be532_7 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, resonant strings; a single piano note rings and fades]
+    "You have fought, bled, organized, and lost in microcosm. You have kept more people alive than a single hardline plan would have. You have made a compromise that holds the town together and costs one block's"
+    "old life to save many. You have Ibe, imperfect and determined, at your side. You have a community that will keep arguing and watchfulness that will not sleep."
+    "When the tide comes, the town will rise with better defenses. The name of home will move, but the people will carry it. That is not nothing. That is what keeps you going."
+
+    scene bg ch9_3be532_8 at full_bg
+    # play music "music_placeholder"  # [Music: Final warm chord]
+
+    scene bg ch9_3be532_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

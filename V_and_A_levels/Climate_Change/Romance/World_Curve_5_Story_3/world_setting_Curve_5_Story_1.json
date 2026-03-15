@@ -1,0 +1,122 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where environmental stakes force intimate choices: love must navigate urgent public responsibility, and scientific/ethical conflicts become catalysts for emotional growth. The core conflict is between short-term engineered fixes (profit-driven, seemingly fast) and long-term community-led adaptation (slower, riskier, morally anchored). Romance grows and is tested in the middle of policy fights, storms, and personal grief — forcing characters to choose between safety, progress, and connection.",
+    "setting": "Near-future coastal town (Aster's Reach) on a temperate shoreline where rising seas and stronger storms have reshaped daily life. The atmosphere balances salt-bleached nostalgia and tense urgency: community gardens, patched seawalls, research outposts, and slick corporate installations all co-exist. Time period: 2035–2040 (near future).",
+    "visual_style": "Painterly coastal realism, soft anime-influenced character art, muted natural palette with bursts of neon (for tech), wet-surface lighting, environmental texture (salt, rust, bio-growth), cinematic weather-driven lighting",
+    "main_characters": [
+        {
+            "name": "Maya Calder",
+            "role": "Protagonist",
+            "personality": "Driven, meticulous, quietly compassionate. Maya is a scientist first and a lover second: analytical in crises, stubbornly loyal to data and to the town she grew up in. She struggles to accept help and can be painfully self-sacrificing. She expresses care through problem-solving and small practical gestures.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves with sun-faded lighter streaks and a single silver strand at her temple",
+                "eyes": "Sea-green, rounded and observant; crescent crease under left eye from years of squinting at tide charts",
+                "clothing": "Layered field-ready outfits: olive softshell jacket with patched elbows, faded navy cargo pants with waterproof knee pads, breathable merino henleys, and scuffed rubber boots with dried barnacle stains",
+                "accessories": "Waterproof Moleskine tide notebook with clipped sample vials, brass compass on a thin chain (her father's), a frayed floral scarf she wears on storm mornings"
+            },
+            "goal": "Design and implement an adaptive, community-led coastal resilience plan that preserves the town's homes and identity — and learn to build a life that balances work with closeness.",
+            "background_story": "Raised in Aster's Reach, Maya left for graduate school to study coastal systems. She returned after a deadly storm that killed her father (a local fisherman) to apply her research practically. She mistrusts corporate fixes because she watched promises wash away homes once before.",
+            "emotional_trait": "Tendency to bury grief in work; difficulty asking for help and accepting vulnerability."
+        },
+        {
+            "name": "Elias Rowe",
+            "role": "Love Interest / Ally",
+            "personality": "Warm, pragmatic optimist. Creative problem-solver who blends technical skill with community diplomacy. Patient and observant; he uses humor and small, tangible gestures to bridge people. He is quietly haunted by past failures but channels that into tangible action.",
+            "appearance_features": {
+                "hair": "Sandy blond, cut short and habitually tousled as if he just removed a hood",
+                "eyes": "Warm amber, slightly hooded; eyes that narrow when sketching or planning",
+                "clothing": "Rolled-sleeve linen shirts layered under a weatherproof denim jacket patched with civic-group badges, slim cargo trousers, sturdy slip-on boots caked with mud from reclamation sites",
+                "accessories": "Hand-carved wooden bracelet from a local craftswoman, a leather-bound sketchbook filled with plans and watercolor notes, a compact waterproof camera hung at his hip"
+            },
+            "goal": "Implement inclusive urban adaptation solutions (living shorelines, elevated infrastructure, community gardens) while earning trust of Aster's Reach and of Maya.",
+            "background_story": "A civil designer who spent several years abroad on climate projects, Elias returned to be closer to his aging mother and to apply collaborative design methods at home. He once prioritized a project over a relationship and fears repeating that mistake.",
+            "emotional_trait": "Avoidant about committing to long-term romantic promises; generous and present in action but guarded in words."
+        },
+        {
+            "name": "Serena Voss",
+            "role": "Antagonist / Catalyst (corporate executive with a complex conscience)",
+            "personality": "Charismatic, razor-sharp, and spectacularly pragmatic. She presents as efficient and humane, but she is willing to make morally gray decisions under pressure. Underneath she is driven by fear of failure and a streak of old idealism turned cynical.",
+            "appearance_features": {
+                "hair": "Platinum-blonde, precise chin-length bob with a single strand tucked behind her ear",
+                "eyes": "Cool steel-gray, narrow and assessing, occasionally softening when caught off-guard",
+                "clothing": "Tailored marine-blue blazer over a high-collared technical blouse; windproof high-ankle boots with polished matte finish; minimal but expensive lines that read 'corporate sea-tech'",
+                "accessories": "Slim holo-tablet always in hand, sapphire cufflinks engraved with her firm’s sigil, a discreet locket containing an old faded photo"
+            },
+            "goal": "Push through a fast, engineered seawall and redevelopment plan to secure investor confidence and protect high-value infrastructure — and thereby cement her legacy and career.",
+            "background_story": "Formerly an environmental engineer who climbed to corporate leadership, Serena believes in large-scale engineered solutions. She cut emotional ties with small-town ideals years ago after a personal loss and rationalized that systemic action requires decisive, sometimes harsh choices.",
+            "emotional_trait": "Capacity for ruthless choices when cornered; carries a latent guilt that can be exploited or redeemed."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Lina Park",
+            "relation_to_main": "Childhood friend of Maya; community volunteer coordinator",
+            "appearance_summary": "Short, energetic, with tightly braided black hair, bright work jacket covered in patches, and a constant smudge of soil on her hands.",
+            "function_in_story": "Organizes neighborhood response efforts, acts as emotional anchor for Maya, and mobilizes public meetings that shift the political tide."
+        },
+        {
+            "name": "Professor Haruto Miyazaki",
+            "relation_to_main": "Maya's former advisor and mentor",
+            "appearance_summary": "Elderly, stooped with thin silver hair, wears a worn tweed coat patched with water-resistant canvas, and thick round glasses",
+            "function_in_story": "Provides scientific wisdom, historical context about the coast, and moral reframing; his old research contains a critical dataset Maya needs."
+        },
+        {
+            "name": "Mayor Amara Sol",
+            "relation_to_main": "Elected leader of Aster's Reach; political foil",
+            "appearance_summary": "Medium-height, pragmatic dress (work blazer with community pin), sun-faded hands, eyes quick with calculus about votes",
+            "function_in_story": "Must weigh economic pressure and community welfare; her decisions catalyze public outcomes and force characters to lobby, plead, and bargain."
+        },
+        {
+            "name": "Tomas 'Tommy' Reyes",
+            "relation_to_main": "Local fisherman; surrogate uncle figure to Maya",
+            "appearance_summary": "Weathered face, deep tan, salt-gray stubble, always in layered knit sweaters and a patched cap",
+            "function_in_story": "Embodies the town's memory and stakes, gives local knowledge about currents and old markers, and grounds emotional stakes with personal losses."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Aster's Reach Harbor",
+            "visual_description": "A narrow crescent bay with a patchwork of old wooden piers and improvised floating platforms. Lighting is often diffused by sea mist; morning scenes show pearlescent sunrise reflected on wet planks, while storm scenes emphasize charcoal skies, angry waves lashing rusted pilings and spray catching streetlights. Colors: salt-white, muted teal, barn-red shutters, copper rust. Background art should show algae, rope coils, and tide lines painted on pilings."
+        },
+        {
+            "name": "The Tide Lab",
+            "visual_description": "Converted boathouse-turned-research hub: glass-walled greenhouse lab with stainless steel instruments, whiteboards plastered with maps, and mason-jars of water samples. Lighting is clinical during late-night analysis (cool LED), and warm when community members gather around portable heaters. Interior textures: damp wood floors, condensation on windows, salt traces on equipment."
+        },
+        {
+            "name": "Greenline Reclamation Hub",
+            "visual_description": "A retrofit urban pier complex serving as demonstration site for living shorelines: terraced wetlands, boardwalks, and solar-canopied pavilions. Sunlight filters through rows of salt-tolerant plantings; mid-day scenes are bright and verdant, while twilight uses soft amber lamp posts and bioluminescent algae accents. Architecture blends steel scaffolds with reclaimed driftwood."
+        },
+        {
+            "name": "The Old Breakwater",
+            "visual_description": "Cracked concrete and exposed rebar jutting into the sea, half-submerged at high tide. It's a haunting, melancholic place — gray skies, gulls circling, spray misting any passerby. The broken geometry makes dramatic silhouettes against sunsets; puddles reflect neon emergency beacons during storms."
+        },
+        {
+            "name": "Community Meadow (Rooftop Garden)",
+            "visual_description": "Elevated garden built atop the town hall: a mosaic of raised beds, rain barrels, and wind-shelter domes. Warm afternoon light, buzzing insects, and colorful hand-painted signs give a homely, hopeful vibe. Scenes here are intimate: close-ups of hands planting, exchanged looks during quiet talks, sun-flares through pergolas during confession scenes."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love & Commitment",
+        "Community Resilience",
+        "Ethics vs. Expedience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "After intense community organizing and a hybrid adaptation plan (living shoreline + targeted reinforcement), Aster's Reach stabilizes. Maya and Elias build a partnership both professional and personal — they commit to staying and leading the town's resilience efforts together. Serena is forced to revise her approach and funds a community trust; relationships are mended and the town keeps its character."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A corporate-engineered solution is implemented quickly, preventing immediate collapse but requiring relocation of some neighborhoods. The town is saved in part, but fragments of its old life are lost. Maya accepts a national research fellowship to scale community-first models, and she and Elias agree to a long-distance relationship that holds promise but is tested by distance and different priorities."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political inertia and a failed seawall lead to a catastrophic storm that devastates much of Aster's Reach. The community scatters, trust is broken, and Maya loses her lab and personal artifacts. Elias and Maya drift apart under the weight of blame and trauma. The outcome is a cautionary tale about ignoring slower, community-led solutions."
+        },
+        {
+            "type": "True",
+            "summary": "Maya chooses integrity over compromise: she exposes suppressed data showing the seawall's long-term harm, catalyzing national scrutiny. The town mobilizes a cooperative-based solution that becomes a model nationwide. Romance remains complicated — Maya and Elias may or may not end up together — but the story's moral core is upheld: collective, ethical action rooted in care is the sustainable path."
+        }
+    ],
+    "estimated_chapters": 6
+}

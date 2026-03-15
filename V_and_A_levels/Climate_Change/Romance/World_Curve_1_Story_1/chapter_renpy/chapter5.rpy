@@ -1,0 +1,143 @@
+label chapter5:
+
+    # [Scene: Boardwalk / Floodlight Ridge | Night]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play music "music_placeholder"  # [Music: Urgent percussion with a rising string motif]
+    # play sound "sfx_placeholder"  # [Sound: Waves lapping, boots on wet planks, voices rising into the night]
+    "You step out of the shelter into a crowd braided with breath and resolve. The air is thick with frying oil, the salt tang of the harbor, and the sweet, nervous smoke of candle flames in"
+    "tin cans. Someone has tied a banner to a piling—hand-lettered words wobbling in the wind—and the boardwalk hums under a weight of bodies: neighbors, students with rain-slicked backpacks, reporters with lenses, and volunteers who look like"
+    "they haven't slept in days."
+    "Your thermos thumps against your hip; the notebook is nested in your jacket like a talisman. The floodlights from the Duval site wash the marsh in surgical chrome every few seconds, cutting the reeds into hard"
+    "lines. Each sweep feels like a countdown. You taste adrenaline and coffee, the marshlit air scraping at the back of your throat."
+    "You can feel everything mounting—this is not simply another meeting. It's a pressure cooker: hope, fear, and the thin electric possibility of being seen."
+
+    scene bg ch5_4001e7_2 at full_bg
+    show elias_stone at left:
+        zoom 0.7
+
+    elias_stone "Can you see the cross-sections? Low-profile terraces, coir logs, native Spartina plugs—modular, cheap, scalable. We can build this in phases."
+    "He speaks with the easy cadence of someone used to coaxing confidence out of numbers. The projection glows over the crowd: layered diagrams that promise something other than a wall. His hands move in the halo"
+    "of the light; his sleeves are rolled, his face set in the mild, focused expression you know too well. When his slate-blue eyes find you across the screen, they hold a question that doesn't need words:"
+    "Can we make them believe in a different kind of safety?"
+    "You grab the megaphone because nobody else looks like they will. The plastic is cold and familiar in your hands. You smell wet wool and the sharp tang of metal from the crowd's tools. You lift it, feeling the weight of all those faces fold inward toward you."
+    "You think of Lito—sturdy, blunt, the way his jaw tightens when something is worth fighting for. You think of Amaya, whose laugh has turned into meetings and manifests, whose purple hair is a flag in the"
+    "dark. You think of Professor Hale's slow, patient insistence on data. You think of the mayor's message, skittish and bureaucratic, and how her legal counsel kept insisting on 'injunction risk' as if fear were a board"
+    "to be hammered."
+    "You breathe and begin."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "We came here to show that this place is alive. Not a liability. Not a line item."
+    "A murmur answers, quick and warm."
+
+    elias_stone "This is more than an aesthetic. It's an engineered coastline. It can stop erosion, slow surge, and it keeps fishing channels open. It uses local labor—training, jobs."
+    "Amaya moves in beside you, her scarf a bright stitch against the dark."
+    show amaya_chen at center:
+        zoom 0.7
+
+    amaya_chen "We can build it with our hands. We can teach, then hire. It keeps roofs over people we know."
+    "A reporter shoves a microphone; a camera lens glints."
+
+    "Reporter" "Ms. Reyes, what do you say to critics who call this unrealistic—soft—compared to a wall?"
+    "You taste the word 'unrealistic' like salt. It stings, but you hold the megaphone like a rudder."
+
+    maya_reyes "I say we've lived in this place for generations. We've read the tides. We will do the slow, hard work that protects both people and the life that makes this home."
+    "The crowd shifts, a collective intake—approval, hunger. Your heart is a drum. The night's arousal tightens: phones record, cameras click, floodlights skim, and the sound of the Duval tower's hum threads under everything like a second tide."
+    hide elias_stone
+    hide maya_reyes
+    hide amaya_chen
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant drone settles; the crowd senses the cut of authority]
+    "Camille Duval steps onto the raised platform of the company's temporary staging—polished boots clean against the mud-stained workwear around her. The night seems to rearrange itself to accommodate her precision. Her pale gray eyes scan the crowd like someone reading a ledger."
+    show camille_duval at left:
+        zoom 0.7
+
+    camille_duval "Ms. Reyes, Mr. Stone—impressive visuals. But 'living-shores' are a temporary novelty. We offer permanent security. Our reclamation ensures property, industry, and jobs at scale."
+    "Her voice is exact, surgical. It lands, and for a second the crowd is a body that has been lightly punctured—shocked into a stillness."
+    show elias_stone at right:
+        zoom 0.7
+
+    elias_stone "Permanent security at what cost, Camille? Your seawalls cut people off from the water and cut the marsh from the channel. We can prove an alternative works."
+    "Camille tilts her head; there is a small, almost respectful smile."
+
+    camille_duval "Proof is expensive. Investors expect certainty. Living-shores have too many variables. When the next storm comes, will they demand more? Or will they sue?"
+    "Her words are a scalpel—efficient, designed to make people consider the bottom line. The reporters lean forward. Somewhere behind you, a camera flashes hard, catching Camille's profile."
+    "Your chest tightens. The arousal climbs—voices rise in earnest debate, the swell of the crowd amplifying every point. This is the moment you knew would come: the market's certainty against the messy, living resilience you believe in."
+    "Lito slips up beside you, low and fierce."
+    show lito_reyes at center:
+        zoom 0.7
+
+    lito_reyes "I'm ready to lock my hands to a piling. They can't just roll us over."
+    "You glance at him. The salt on his knuckles; the steady set of his shoulders. He looks like he already swallowed the consequences."
+    hide camille_duval
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "You okay with that? Arrest could mean fines, could mean three days away from boats and nets."
+    "Lito gives a dry, humorless half-smile."
+
+    lito_reyes "I know the cost. I've been paying since my father's nets were lost. I'm done letting my kids inherit fear."
+    "Amaya's hand finds yours briefly, squeezing—both reassurance and urge."
+    hide elias_stone
+    show amaya_chen at right:
+        zoom 0.7
+
+    amaya_chen "We can escalate. We can sit the machines out. It'd be dramatic. The cameras eat drama."
+    "Your phone buzzes—Mayor Sofía. The message is short, measured."
+    # play sound "sfx_placeholder"  # [Sound: A soft vibration; you check the message with your thumb]
+    hide lito_reyes
+    hide maya_reyes
+    hide amaya_chen
+
+    scene bg ch5_4001e7_4 at full_bg
+    "You feel the tug of governance—someone who must hold together public trust and private risk. The mayor's caution is a rope around one of your ankles; the restless courage of the crowd is pulling forward with the other."
+    show elias_stone at left:
+        zoom 0.7
+
+    elias_stone "You don't have to carry every risk on your shoulders, Maya. We can use this pitch to the mayor. Show the city a plan that doesn't look like a compromise."
+    "You feel his squeeze as an invitation and a plea. His eyes hold that familiar fear—he imagines letting people down, and the idea shuts him up inside. You know him: he'd rewrite his soul for a chance to do right by the town."
+    "Camille watches the exchange like a judge at a chessboard. Her gaze flicks between you and Elias; something in her stance suggests she's waiting for you to make the first public fissure."
+
+    "The crowd starts to chant—soft at first, then building" "Keep the marsh! Keep the marsh!"
+    "Your internal monologue speeds; every possibility tightens into sharper angles. Bargain, and you could secure permits, funding, and time. Stand firm and escalate, and you could force attention, galvanize allies, and maybe make the company rethink."
+    "Publicly challenge Camille and force a hearing, and you expose her ledger—but you're also lighting a fuse."
+    "Your pulse ratchets up. The percussion in the music matches the beat in your ears. This is the high arousal point: the crowd on the verge, the floodlights sweeping like a metronome, Camille's measured threat, and Elias's eyes asking for a steadier path."
+    "Amaya leans close, voice a thread."
+    show amaya_chen at right:
+        zoom 0.7
+
+    amaya_chen "We could sit-in. Or we could present the design directly. Or we—"
+    "Her list splinters because you have to decide."
+
+    menu:
+        "Call Elias up now, let him explain the design to the crowd":
+            "You tap Elias' shoulder and nod at the screen. He steps forward, voice firm, unfolding technical details into everyday language. The crowd leans in as he shows how each module can be made by local crews. People murmur with the relief of tangible plans."
+        "Call for a sit-in chant—lean into civil escalation now":
+            "You raise the megaphone and start a slow, steady chant. It ripples through the boardwalk; hands lock and voices strengthen. The mood turns militant in a warm, determined way, and you see Lito clench his fists, ready to bind himself to a piling."
+
+    # --- merge ---
+    "'The reactions play out in a heartbeat. If you call Elias up, you watch as hands shift from anger into practical curiosity, the crowd folding into plans. If you start the chant, the tide turns toward"
+    "direct action, heat humming beneath the resolve. You choose neither yet—because the next choice is the one that will shape more than tonight.'"
+    "Elias's hand, still at your back, tightens; it's a small, private pressure that says he trusts you to hold both the dream and the people who will build it."
+    "You take a breath that tastes like brine and resolve."
+    "The night narrows to the three paths laid before you: escalate into civil action, use Elias' design as a petition, or publicly force Camille into a live forum. The sound of the crowd swells until it"
+    "is a living thing beneath your feet—expectant, hungry, waiting for the turn you will give it."
+    "Your voice is steady when you speak, but inside it is a roaring, hopeful storm. The moment is suspended—charged, ready, and full of possibility."
+    # play music "music_placeholder"  # [Music: Strings climb; percussion tightens to a single, urgent pattern]
+    hide elias_stone
+    hide amaya_chen
+
+    scene bg ch5_4001e7_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gust of wind, like a held exhale]
+    "You must choose."
+
+    menu:
+        "Lead an escalating civil action—block the construction access and call for arrests if necessary.":
+            jump chapter6
+        "Use Elias’ design as a petition: present a concrete alternative to the mayor and investors.":
+            jump chapter15
+        "Publicly challenge Camille in a live forum—force a hearing immediately.":
+            jump chapter16
+    return

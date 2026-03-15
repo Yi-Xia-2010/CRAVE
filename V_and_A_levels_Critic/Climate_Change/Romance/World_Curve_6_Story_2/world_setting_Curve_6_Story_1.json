@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpreted 'Climate Change' + 'Romance' as a character-driven, place-specific drama where environmental stakes shape personal choices. The romance grows through collaborative problem-solving and moral friction: love is tested by differing visions for the town's survival. The core conflict is therefore ecological survival versus pragmatic compromise — a fight that forces characters to choose between technological fixes, community-led adaptation, and personal loyalty. This creates opportunities for intimate scenes (repairing a seawall, storm watches), ideological debates, and visible, cinematic weather that mirrors emotional beats.",
+    "setting": "A small coastal town named Puerto Alba on a mid-latitude shore in the near future (2030s). The town is a mix of renovated fishing cottages, weather-beaten concrete, and newer corporate-backed infrastructure projects. Sea-level rise and increasingly violent storms have reshaped daily life: elevated walkways, salt-stained facades, and community gardens in raised beds. Atmosphere: salty, windswept, often overcast but punctuated by golden afternoons. The story moves between grassroots community spaces and the slick, tense environment of tech-funded construction sites.",
+    "visual_style": "Painterly coastal realism, soft film grain, muted coastal palette (seafoam greens, storm grays, rust), hand-painted character lines, cinematic lighting with storm-driven contrast, touches of warm color for intimate moments",
+    "main_characters": [
+        {
+            "name": "Mara Serrano",
+            "role": "Protagonist",
+            "personality": "Empathetic and persistent; a careful listener who is quick to act when she believes people are being ignored. Practical and slightly guarded emotionally, she prioritizes community bonds but wrestles with perfectionism and self-blame.",
+            "appearance_features": {
+                "hair": "Dark brown, chin-length bob with sun-bleached copper tips and an often-wet fringe from morning fieldwork",
+                "eyes": "Sea-green, wide and observant with small crow's-feet starting at the corners",
+                "clothing": "Layered fieldwear: faded olive windbreaker with sewn-on community patches, navy cargo trousers, high-grip rubber boots stained with salt and mud, hand-stitched knit scarf",
+                "accessories": "A weathered brass compass on a leather cord, a slim waterproof notebook filled with tide sketches, a chipped shell pendant on a thin chain"
+            },
+            "goal": "To secure a sustainable adaptation plan for Puerto Alba that preserves community land and livelihoods while protecting residents from escalating storms.",
+            "background_story": "A former marine biology student who returned home after a storm destroyed the boat her father used to run. She now organizes local volunteer response teams and documents coastal change. She distrusts corporate fixes after seeing short-term promises break down in neighboring towns.",
+            "emotional_trait": "Stubborn empathy — she loves fiercely but carries guilt that makes her try to shoulder too much alone."
+        },
+        {
+            "name": "Elias Park",
+            "role": "Love Interest",
+            "personality": "Warm, curious, quietly idealistic; an engineer who believes technology can be humane. He is diplomatic and resourceful but sometimes avoids confronting messy emotional truths to focus on problem-solving.",
+            "appearance_features": {
+                "hair": "Thick black hair with a casual undercut, naturally tousled and flecked with salt from coastal work",
+                "eyes": "Amber-brown, soft and slightly almond-shaped, often crinkled with a wry smile",
+                "clothing": "Light-reflective recycled-fabric overalls with rolled sleeves, faded graphic tees underneath, lightweight insulated vest for fieldwork, and scuffed canvas sneakers",
+                "accessories": "A wrist-mounted prototype aerosol and moisture sensor, a secondhand leather camera slung low at the hip, a braided cord bracelet with a small 3D-printed charm"
+            },
+            "goal": "To deploy a new generation of modular, low-footprint coastal defenses and sensors that can protect Puerto Alba while minimizing ecological damage.",
+            "background_story": "A civil/environmental engineer who left a city research lab to pilot community-facing tech. He has funding ties to an ethical-tech collective but faces pressure from investors to scale quickly. He admires grassroots knowledge and wants to merge it with engineering.",
+            "emotional_trait": "Optimistic avoidance — his faith in solutions can make him underplay social and emotional costs until they come to a head."
+        },
+        {
+            "name": "Iris Varela",
+            "role": "Antagonist",
+            "personality": "Pragmatic, politically savvy, and driven by responsibility. She is decisive and sometimes ruthless, believing tough choices and centralized solutions are necessary to save lives. Deep down she is protective and haunted by past losses.",
+            "appearance_features": {
+                "hair": "Silver-blonde, worn in a severe low bun with a single loose strand that softens her profile",
+                "eyes": "Steel-blue, narrow and assessing, with a faint permanent squint from a life spent at sea and in council rooms",
+                "clothing": "Tailored, weatherproof windbreaker in deep charcoal over a waterproof midi dress; polished but practical leather boots designed for damp climates",
+                "accessories": "A municipal lapel pin engraved with Puerto Alba's crest, a sleek tablet case with layered policy notes, a matte black fountain pen she uses to sign contracts"
+            },
+            "goal": "To secure outside investment and a fast-acting structural solution that will keep the majority of Puerto Alba habitable and prevent economic collapse.",
+            "background_story": "Once the captain of a fishing crew, she rose through municipal politics after a devastating storm killed several crew members, including a sibling. That trauma shapes a zero-tolerance approach for indecision and a willingness to negotiate with powerful corporate partners.",
+            "emotional_trait": "Guilt-fueled resolve — her protective instincts can justify morally dubious compromises."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mateo Reyes",
+            "relation_to_main": "Childhood friend of Mara",
+            "appearance_summary": "Lean, sun-bronzed fisherman in his late 20s, always in a knit beanie and a patched oilskin jacket.",
+            "function_in_story": "A practical local voice and moral compass for the town; he coordinates volunteer boat response teams and grounds Mara when she gets idealistic."
+        },
+        {
+            "name": "Abuela Rosa",
+            "relation_to_main": "Mentor figure to Mara and the community matriarch",
+            "appearance_summary": "Elderly woman with silver hair braided down her back, warm brown eyes, often wearing a faded floral apron and sturdy boots.",
+            "function_in_story": "Keeper of local knowledge — tidal lore, old maps, and traditional adaptation techniques; she offers historical context and moral clarity."
+        },
+        {
+            "name": "Nima Shah",
+            "relation_to_main": "Colleague and friend of Elias",
+            "appearance_summary": "Mid-30s, short-cropped hair, bright green safety jacket with tech firm insignia, expressive hands.",
+            "function_in_story": "Technical sounding board for Elias, provides insight into investor pressures and the limits of proposed technologies; acts as a link to the ethical-tech collective."
+        },
+        {
+            "name": "Sofía Serrano",
+            "relation_to_main": "Younger sister of Mara",
+            "appearance_summary": "Teenager with untamed curls, oversized hoodies, and a skateboard covered in stickers.",
+            "function_in_story": "Represents the future generation; her school activism spurs community participation and reminds characters of human stakes."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Puerto Alba Marketboard",
+            "visual_description": "A narrow, windswept main strip of shops and stalls set on raised timber walkways. Lighting is often diffused by sea mist; colors are washed pastels and rusted metal accents. Strings of salt-streaked lights hang overhead, gulls circle in pale skies, and the air smells of brine and fried fish. Background art should show patched awnings, hand-painted signs, and bundled townsfolk bracing against gusts."
+        },
+        {
+            "name": "The Saltmarsh Labs",
+            "visual_description": "A converted warehouse by the estuary with masonry patched by plywood and experimental rigs jutting into the water. Interior lighting is a mix of warm task lamps and blue LED panels illuminating sensors. Outside, low tide reveals mudflats and patchwork tidal gardens; puddles reflect a bruised sky. Visuals emphasize tactile instruments, notes pinned to walls, and damp concrete floors."
+        },
+        {
+            "name": "Cliffside Promenade",
+            "visual_description": "A jagged coastal bluff with a narrow promenade offering dramatic views of open water. Storm clouds frequently gather, casting high-contrast light and long shadows over windswept grasses. Salt spray mists the scene; small wildflowers cling to rocky crevices. Ideal for intimate conversations against the roar of the sea and for storm-watching sequences."
+        },
+        {
+            "name": "Council Hall",
+            "visual_description": "A compact municipal building of concrete and glass, with a meeting chamber that opens onto a wind-splayed terrace. Interior lighting is cool and institutional; public notices and protest placards crowd the lobby. Outside, municipal banners flap, and dug-out trenches hint at recent defensive work. Shots should balance civic sterility with human warmth during tense council meetings."
+        },
+        {
+            "name": "Green Prototype Site",
+            "visual_description": "A construction zone on the shoreline dominated by modular concrete-and-vegetation barriers and scaffolding. Yellow safety lights glow in foggy mornings; earth-moving machines sit in pools of standing water. The palette is high-contrast: fresh orange safety tape, wet steel, and pale, engineered greenery sprouting from planters. It feels both hopeful and intrusive, depending on camera angle."
+        },
+        {
+            "name": "Abandoned Lighthouse",
+            "visual_description": "A weather-beaten lighthouse perched on a rocky spit, its white paint flaking and lens darkened. Golden hour lighting spills across worn stone steps, while stormy evenings drench the structure in cold blues and grays. The interior is narrow and intimate — rusted railings, salt-stained windowpanes, and a small bench for two. Frequent setting for private, reflective, and romantic scenes."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community vs Progress",
+        "Love and Responsibility",
+        "Resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Mara and Elias successfully broker a community-first hybrid adaptation: modular defenses combined with restored marshland and local stewardship. The town keeps its character, the investment is conditional on community governance, and Mara and Elias form a committed partnership built on mutual respect and shared purpose."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A scaled protective structure is implemented under Iris's negotiated deal, preventing immediate disaster but sacrificing parts of the shoreline and some livelihoods. The town survives but changes irrevocably. Mara and Elias part ways temporarily over compromises but remain emotionally connected, hinting at reconciliation as the community heals."
+        },
+        {
+            "type": "Sad",
+            "summary": "Investor-backed quick fixes are rushed into place without community input; an unexpected storm reveals design flaws, leading to significant loss of homes and the death of a beloved secondary character. The town fractures; Mara leaves to work elsewhere, hardened but determined to keep fighting for systemic change."
+        },
+        {
+            "type": "True",
+            "summary": "Mara chooses a third path: she sacrifices a personal relationship (or a leadership role) to empower a broader, slower-moving coalition that blends traditional knowledge and small-scale infrastructure. The ending centers on long-term stewardship rather than immediate victory; the town enters a difficult but authentic rebuilding, and love persists in matured, quieter forms."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

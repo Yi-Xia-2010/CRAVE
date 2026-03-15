@@ -1,0 +1,155 @@
+### SCRIPT
+# Route: Additional / Ending
+# Context: 453e40
+
+[Scene: Reclaimed Wetlands Festival | Twilight]
+[Background:"ch10_453e40_1"]
+[Music: Tinny festival accordion undercurrent with a rising string ostinato]
+[Sound: Distant gulls, a low generator hum, the hiss of smokers at food stalls]
+
+You walk through the festival like someone walking a tightrope — careful where you put your feet, every step set to the rhythm of other people's expectations. The dusk makes everything soft-edged and urgent: faces come and go in pools of light, laughter braided with the metallic tang of smoked fish. Someone rings a bell by the market stall and the sound knocks into the hollow under your ribs.
+
+Amalia spots you first, clipboard half tucked under her arm, a scarf bright as a protest flag at her throat. She waves you over with one hand and with the other gestures at a string of volunteer schedules pinned to a board. Her breath puffs out in the cooling air; the smell of frying kelp follows her like a small, domestic halo.
+
+Amalia: "Marina — okay, walk me through the order. Where do we put the demo platform? Old Tom wants his circle close, kids need a safe channel, and Kai's pilot can't anchor too near the shallows."
+
+Marina Reyes [half-smile]: "We center the floating pilot in the larger channel — visibility for everyone, but anchored to the deeper piling near the old boat ramp. Old Tom can set up just behind the crowd so his stories can feed into it. Mika's got the comms — she'll run the livestream and the sensor feed."
+
+Amalia [breathing faster]: "If the council shows up, we need a clear, simple line. No jargon. People here are tired — give them what they can do tomorrow, not a lecture about wave spectra."
+
+Marina Reyes: "You always know how to make it into something people can take home. Thanks. Keep the kids' zone staffed; if the wind picks up, we fold the lanterns quick."
+
+Amalia hesitates, then pins the schedule with an extra thumbtack. Her hands are steady, but there's a tremor in her jaw that you know means she is scared for the same things you are: livelihoods, houses, the thin line between ceremony and panic.
+
+[Background:"ch10_453e40_2"]
+[Sound: Clank of hardware, excited chatter from a small crew]
+
+Kaori "Kai" Matsuda moves like a storm in miniature, all motion and insistence. She slings a long, improvised skiff across a shallow channel — the pilot — and plugs thin solar strips into junction boxes like a jazz musician hitting riffs. Mika bobs at her elbow, tool-belt flashing, passing wrenches and a tablet with schematics that look hand-annotated in every color.
+
+Kaori "Kai" Matsuda: "Okay, this is our showpiece. Modular solar, buoyant frames, and the kelp lines will damp wave energy and feed the pilot with nutrients. If we make it pretty, people will touch it and understand."
+
+Mika [checking a drone feed]: "Comms green. Sensors calibrated for salinity and flow. If we kick power, we'll have live data overlays sent to the big screen."
+
+Marina Reyes: "Make sure the tethers are redundant. We can't have a drift mid-demo. Old Tom's circle will hold the crowd if you need to pull the plug."
+
+Kaori "Kai" Matsuda [grinning, breathless]: "Redundant, redundant — I live for redundancy. Also we're making it lantern-pretty. People love lanterns."
+
+Your chest tightens at Kai's cheer. It's infectious, reckless, and exactly what this moment needs — and exactly what could blow it apart. You feel the old pattern rising: you want to stitch everything together yourself, to keep each thread safe. But the pilot is fragile and the weather is impatient.
+
+[Background:"ch10_453e40_3"]
+[Sound: Low, patient voice of Old Tom beginning a tale; his words curl in the air]
+
+Old Tom: "I remember a tide that ate the road in ’79. We tied boats to trees and sang staves until dawn. Folks think the sea is only taking — it also remembers."
+
+You step closer. His voice is a map: memory, warning, and a slow, aching affection for the town. The crowd listens. Their faces tilt toward the light like flowers to a last sun. You feel a fresh pinprick of responsibility—every story he keeps alive is another reason you can't afford to fail.
+
+[Background:"ch10_453e40_4"]
+[Sound: The festival fades around his figure; nearby, the wind picks up]
+
+Elias Kato is there, folded into the crowd like an instrument you once knew how to play. He doesn't step forward; he watches. When your eyes meet, something passes — not a confession, not necessarily an invitation, but an assessed weight. His face is unreadable in the lantern glow, the faint silver strand at his temple catching light like a punctuation mark.
+
+Elias Kato [quiet]: "How public is this going to be? We risk scaring people. We risk people seeing the worst-case stuff and making snap decisions. We risk the council pulling permits."
+
+Marina Reyes: "We risk silence too. People already make snap decisions about leaving. If they can feel the kelp line hold the water, that's different than another chart on a wall."
+
+Elias Kato [turning away, hands in pockets]: "Feelings are not enough to secure funding, Marina. You know that."
+
+Marina Reyes [soft but firm]: "Feelings are enough to get people to stand in the water with you. And sometimes standing matters more than funding."
+
+He shifts, searching for an edge to land on. His skepticism isn't just political; it's a thing that keeps him steady. You remember the way he used to plan roadmaps on napkins, precise and calm — and you remember that distance between the two of you when policy and place pulled taut.
+
+[Sound: A sharp, officious voice cutting across the clatter; footsteps on packed earth]
+
+A municipal aide appears, clipboard in hand — pressed fabric, a lamplight reflection. Their expression is paper-thin professionalism; the voice carries the faint scent of bureaucracy warmed by the festival heat.
+
+Aide: "I'm sorry — this is an unsanctioned demonstration. We have a safety inspector on duty and—"
+
+Kaori "Kai" Matsuda (cutting in, hands raised): "We're registered. We're in the community showcase. We have safety protocols and redundancy."
+
+Kaori "Kai" Matsuda: "We're registered. We're in the community showcase. We have safety protocols and redundancy."
+
+Aide: (checking a phone) "The permit on record does not authorize active prototypes in the main channel. For liability reasons, I'm going to have to ask you to contain any experiments to the back dock."
+
+Mika: (fuming) "Back dock? The back dock is a shoal with three houses and two kids' channels. That's not safe."
+
+You feel the blood rush to your face. The aide's words are not just a bureaucratic hindrance; they are the thin edge of the town's political machinery — a pressure that can fold the festival into safe, forgettable gestures.
+
+[INTERACTION]
+> Choice A: "Stand your ground and argue immediate public demonstration"
+> Choice B: "Offer to move the demo to a safer, restricted area"
+[Outcome A: "You plant your feet and feel every pair of eyes slide toward you. You explain the community protocols, cite the sensors Mika read off, and call for volunteers to attest to safety. The aide's jaw tightens; the crowd murmurs, split between applause and wary whispers."]
+[Outcome B: "You bite the corner of your lip and suggest a compromise: the pilot will be anchored at the back dock under supervision, with live cameras projected to the main square. Kai scowls but nods; the aide relaxes slightly, jotting in the clipboard. The crowd exhales — relief and disappointment in a single breath."]
+
+Your decision to argue or compromise lands with a physical thud in your gut, and either route creates ripples you can't smooth with a single apology. The wind climbs a grade; lantern flames start to bow.
+
+Kaori "Kai" Matsuda [low, urgent]: "If we move it, we'll lose the visceral effect. They'll see it on a screen and go home thinking 'that's interesting'—not 'that's ours.'"
+
+Mika: "You might also keep people safe if the wind picks up. We can keep the narrative live and still be honest."
+
+Elias Kato [to you, quietly]: "If you want a protest that wins hearts, you have to manage the narrative and the optics. Doing both is hard."
+
+You can hear Old Tom's story like a bassline behind the argument; his hands folded on his knees, eyes on the water. The festival feels like a pressure cooker now — heat, crowd, expectation — and every option is a compromise.
+
+[Background:"ch10_453e40_5"]
+[Sound: A sudden hush — rain taps the awnings; somebody starts folding a canvas]
+
+The weather doesn't wait for your politics. A fringe of rain threads across the flats, turning mud into a treacherous mirror. People shuffle, some laughing nervously, some muttering prayers. Your arms are suddenly sticky with the humidity of a crowd leaning forward.
+
+Kaori "Kai" Matsuda yells over the rising wind: "We can start the pilot on a small scale now — a tethered demo inside the channel, lights on, lanterns. People will touch it, and the kids will start a wave of curiosity. If we can make them feel how the line softens the little swell, they'll talk about it tonight."
+
+Elias Kato shakes his head, the motion small and stubborn: "Or we trigger alarm. A failed visual moment becomes a political cudgel. The council will use it to roll back support."
+
+Your throat tightens. You feel the old script — self-sacrifice as test of worth — unspool like a knotted net. If you prioritize spectacle, you risk credibility. If you prioritize data and caution, you risk failing to move hearts. If you invite Elias in to lend political legitimacy, you risk dampening the grassroots spark that must stay alive.
+
+[INTERACTION]
+> Choice A: "Give the go-ahead for an immediate tethered pilot, trusting Kai"
+> Choice B: "Insist on full safety checks and data-first presentation"
+[Outcome A: "You lock eyes with Kai and nod. She howls with a grin and the team moves like lightning, tethers slamming into place. The crowd leans in; hands reach out. The pilot's lights blink on like a small promise. Your heart gallops — exhilarated and terrified."]
+[Outcome B: "You hold up your hand and call for sensors to be sequenced through the comms. Mika reads out the telemetry; Elias's face tightens with approval at the numbers. The crowd shifts, some bored, some reassured; the pilot remains still, lights dimmed, like a hope waiting in the dark."]
+
+The festival hums with impossible choices. Around you, people take sides in whispers — the guardians of caution versus the keepers of risk. The rain thickens into something practical and bitter. You taste the salt on your lips and realize it is not the sea alone; it is the taste of decisions made too late and of gardens that might not bloom next spring.
+
+Old Tom comes to your side, voice a gravelly thread in the rain.
+
+Old Tom: "Whatever you pick, don't make it about you. Make it about a thing folks can hold onto tomorrow. Keep them from being rogues and cowards both."
+
+Marina Reyes: "I don't aim to be either. I aim to make a thing that lasts."
+
+Old Tom [nodding]: "Then remember — it's not only about the shine. It's about whether people can make a living off it after the lights go out."
+
+Elias Kato steps closer, the line between you all tight as a rope. He looks at the pilot, then at your face, and his expression is complicated in a way the word "complex" feels too small to hold. You are both past and future in his eyes; you are a risk and a possibility.
+
+Elias Kato [soft]: "If you want me to, I can stand up and frame the numbers after you show them the feeling. Give them the feel first, then the plan."
+
+Marina Reyes [voice catching]: "If you come up there, I'm not sure it'll be grassroots."
+
+Elias Kato: "Maybe it's both. Maybe we try to bridge the gap instead of letting it swallow us."
+
+You can tell he means it. But you can also feel the political cost like a cold stone under your ribs. You think of neighbors who have already penciled their futures away; you think of families who might read a failed demo as proof their lifeline is thin.
+
+The lights of the festival sway in the increasing wind. Rain runs down the edge of the big screen in rivulets, distorting the promise of a projected future.
+
+You close your eyes for a heartbeat to steady your breath. The festival is not a theory room; it's a public theater with real consequences. The pilot blinks in the channel, the crowd waits, and your choices pile up like tidewrack on a dune. You can feel the moment cracking toward a decision — and you know whichever way you move will echo farther than the night.
+
+[Music: Staccato strings spike; the tempo pushes forward]
+[Background:"ch10_453e40_6"]
+
+You inhale the wet, charged air and listen to the town's heartbeat: murmurs, Old Tom's steady voice, Kai's breathless laughter, Elias's measured hesitation. The weather drives urgency into your bones; you can no longer pretend patience is a luxury.
+
+You step forward into the open space beneath the bulbs. The crowd hushes as if someone has drawn the night tight.
+
+[DECISION POINT]
+1) Option 1: "Show raw, unedited data and demo hardware openly." -> TARGET chapter_id: [11]
+2) Option 2: "Focus on spectacle and story — make it emotionally convincing." -> TARGET chapter_id: [12]
+3) Option 3: "Invite Elias to co-present for political cover and data legitimacy." -> TARGET chapter_id: [13]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Show raw, unedited data and demo hardware openly." -> ID 11 (Additional / Cross-Entry)
+    > Jump Target File: script_ch11_Additional_CrossEntry_ctx_e67f19.txt
+Option 2: "Focus on spectacle and story — make it emotionally convin..." -> ID 12 (Additional)
+    > Jump Target File: script_ch12_Additional_ctx_e67f19.txt
+Option 3: "Invite Elias to co-present for political cover and data l..." -> ID 13 (Additional)
+    > Jump Target File: script_ch13_Additional_ctx_e67f19.txt

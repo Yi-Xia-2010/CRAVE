@@ -1,0 +1,167 @@
+### SCRIPT
+# Route: Route B (Ending: Bittersweet)
+# Context: 6b08b4
+
+[Scene: City Hall Glass Atrium (Closed-door Briefing) | Late Night]
+[Background:"ch8_6b08b4_1"]
+[Music: Low, steady synth — a single minor chord looping like a tide]
+[Sound: Quiet radio chatter through a wall, the soft click of a presentation remote]
+
+You walk back into the atrium as if through shallow water — each step slaps small and final against the polished concrete. The council chambers have emptied into a string of after-hours rooms and corridors where decisions unlatch into action: contracts being notarized down the hall, crews getting their manifests, a printer biting through receipts like teeth through paperwork.
+
+Jun Park stands by a screen, his coat a dark shape against the maps. He is tidy in a way work likes: lines folded into a plan. When he turns toward you there is the memory of childhood tides — of rope climbs and shared pie — braided into the polite tilt of his head. Now those same lines read as policy.
+
+Jun Park: "Good. You're here. We need the liaison to keep things moving without creating panic."
+
+He doesn't sound harsh. He sounds like a captain who knows the ship must alter course even if a few cabins are left behind. Lian Mor watches from the table, her face an unreadable calm that offsets the edge in Jun Park's measured voice. A council clerk lays a thin folder on the table and slides a tablet toward you; the screen glows with black text and red highlights.
+
+You take the tablet. The numbers are clinical: acreage, projected savings, timelines. Between the columns is a paragraph stamped CONFIDENTIAL — a clause that would let the city accelerate land acquisition under emergency authority, shortening notice periods and streamlining compulsory purchase.
+
+Your stomach tightens. The clause reads like a scalpel: efficient, precise, and indifferent.
+
+Jun Park [softly]: "It allows us to secure critical buffer zones before the next season. The delays we saw last month cost people their homes when the sea took the jetty. We can't repeat that."
+
+Your role is clear on the surface: translate policy into care. But beneath it you feel the ledger of names you've been keeping — your father's boat, Ivy's laugh, Rosa's hands smoothing a quilt gone salt-stiff. This clause turns those names into rows, into assets to be moved.
+
+You open your mouth. Jun Park tilts his head as if following a current.
+
+Jun Park: "You know how to move through here without inflaming people. Keep me informed. If you need exceptions, take them up with me directly."
+
+There is patience layered over necessity in his tone. He believes in triage by outcomes; you believe in triage by people. The difference is a slow erosion, like rust working from the inside out.
+
+Lian Mor [folding her hands]: "Mara Kestrel — we appreciate your position. We need a liaison who can reconcile community needs with municipal timelines. The last thing we can afford is ceremony when the water is rising."
+
+Her words are a push and a shield at once. She is not unkind; she is not cruel. She is the mechanism that will make the clause teeth sink quicker.
+
+You press your thumb to the tablet's cold edge and feel the tiny nails of your palm pick up salt from the air.
+
+[INTERACTION]
+> Choice A: "Ask Jun Park for more transparency on the clause"
+> Choice B: "Accept the task and leave the wording to legal"
+[Outcome A: "You lean forward, voice steady. Jun Park's jaw tightens for a fraction — the only crack you see. He answers in measured fragments about legal counsel and emergency powers, refusing to forward the draft. Lian studies you, her expression composed but unreadable."]
+[Outcome B: "You nod and tuck the tablet under your arm. Jun Park's gratitude is small and quick. Lian gives a curt nod. The file closes in the clerk's hands like a lid — efficient and infuriating."]
+[MERGE: Continue]
+
+[Scene Transition: Corridor outside Briefing Room -> Tideworks Lab]
+[Sound: The city hum drops away; gulls cut through the night; the smell moves from ozone and paper to brine and algae]
+[Background:"ch8_6b08b4_2"]
+[Music: A lower, vulnerable guitar note under the synth]
+
+The Tideworks Lab smells like boiled kelp and patience: warm water, the mineral tang of salt on rubber, a coil of algae in a jar going golden under a lamp. Theo is elbow-deep in tubing, cursing affectionately at a pump. Elias Navin stands beside a tank, chin propped on his hand, watching a colony of mussels settle their feet.
+
+Theo Mendes [grinning]: "The pump's throwing a tantrum. It wants a vacation."
+
+Theo's relief is sharpened by the joke; even his bright humor has the tired sullenness of someone used to fixing things with too little time. Elias Navin looks up when you come in, and for a beat his face is something complex — curiosity, concern, and a reserve that doesn't speak its full temperature.
+
+Elias Navin [quiet]: "You look like you slept with a policy paper for a pillow."
+
+You almost laugh and instead hand him the tablet. He flips it open, eyes scanning in the kind of slow rush that always calms him: numbers as narrative.
+
+Elias Navin: "They're moving quicker than we expected. Accelerated acquisition... Mara Kestrel, if the city takes parcels without time for community mitigation, we lose more than structures. We lose trust — and habitat-based interventions need that trust."
+
+You find yourself explaining things you haven't finished explaining to yourself: why you signed, the pressure, the schedule. Elias Navin listens and then asks, not accusatory, but precise.
+
+Elias Navin: "Are you... okay with being their liaison? With being the mouthpiece for this clause?"
+
+You smell the algae on his sleeves and the coffee at the edge of his cup. He watches you like someone watching tide lines—patient, ready to record if you give him a mark.
+
+You tell him the truth you keep in your chest: that the clause frightens you, that it reads like a backdoor. He folds his hands over the tablet like palms over rocks.
+
+Elias Navin: "If you want, we can put some sensors on the properties slated for early acquisition. Data helps. It buys time. It might force them to slow if the numbers complicate their plan."
+
+He offers the practical — the language he knows best. It feels like a lifeline but it's not a rescue.
+
+[INTERACTION]
+> Choice A: "Ask Theo to deploy sensors discreetly"
+> Choice B: "Tell Elias Navin you need to think and leave the lab"
+[Outcome A: "Theo brightens, already pulling out a spool of weathered cable. 'Quiet and clever,' he says. The lab smells stronger of machine and salt. Elias Navin nods, a small, approving crease at his brow."]
+[Outcome B: "You step back, the lamps blurring at the edges. Elias Navin's eyes hold you a second longer; there's a question there that he doesn't ask. Theo shrugs and returns to the pump, the hiss of water filling the silence."]
+[MERGE: Continue]
+
+[Scene: The Basin (Community Floodplain Garden) | Dusk]
+[Background:"ch8_6b08b4_3"]
+[Sound: Distant engines; a child's muffled laughter turning brittle; the squelch of boots through mud]
+[Music: Sparse piano, the notes spaced like slow breaths]
+
+By the time you reach the Basin, the air is thick with the scent of wet earth and young growth. Community art — a hanging assemblage of salvaged metal and sea glass — moves in the low breeze. Ivy Kestrel is there, sleeves rolled, helping a family pack boxes into a cart. Her hair is sun-freckled and furious; she doesn't look up when you approach, but you catch the quiver at the corner of her mouth.
+
+Ivy Kestrel [without looking]: "They can't just 'relocate' Grandma's garden. She buried the first maps there."
+
+Her voice breaks as she pulls a crate closed. You kneel to help and feel the mud give under your boots like a small guilty thing.
+
+Rosa Alvarez appears from the path like a memory made flesh: shawls layered, eyes deep as old water. She watches the crews measure a line with a laser; Lian Mor's hired team stands efficient and small against the green.
+
+Rosa Alvarez [softly]: "They count gardens as square footage. They count childhood as a legal status. You have to decide what you let them count."
+
+You fold your fingers into the fabric of your jacket and feel the moth-worn thread. A crew leader approaches with a tablet and a polite, rehearsed smile. He scrolls through an acquisition list: house numbers, owner names redacted, compensation brackets. One line in bright red: "Immediate acquisition — expedited under Clause 12-B."
+
+You recognize the clause number now as if it has weight. It is small on the tablet but heavy in your chest.
+
+Crew Leader: "We need signatures to verify notice. We can offer temporary housing vouchers and moving assistance."
+
+You look at Ivy Kestrel helping a child close a shoebox. The child's toy — a small wooden boat — sits on the edge of a crate, its paint flaked like old surf.
+
+You imagine delivering compensation forms to Rosa Alvarez, to Ivy Kestrel, to the child. The forms would be signatures and vouchers; they would not be memory, and they would not be the slow, stubborn work of community adaptation that you and Elias Navin have been building.
+
+Jun Park appears at the edge of the Basin, his figure a cut against the sky. He watches for a heartbeat, expression — you know from experience — complicated. He does not look pleased or ashamed; he looks like someone who has agreed to a hard calculus and now checks that the arithmetic holds.
+
+Jun Park [quietly]: "We move now, not later. The buffers must be clear."
+
+You hear the work boots across mud and the clink of measuring tape. You hear the child's small protest as a box is closed. There are a thousand small sounds that add up to a verdict.
+
+Rosa Alvarez touches your shoulder and speaks without sharpness.
+
+Rosa Alvarez: "You were once the person who kept the ledger for the harbor. Remember well what you were counting."
+
+You can taste iron — not blood, but the metallic tang of decisions made in the dark. The clause is no longer a line in a briefing. It is an instrument that can quiet the Basin in a night.
+
+You know the choices ahead are not abstract. Each path will creak at different seams: the law, the people, your conscience. You are Jun Park's liaison; you are also Mara Kestrel — the person who taught kids to patch nets on the Strand. The two roles are a pair of mismatched oars.
+
+[INTERACTION]
+> Choice A: "Call a trusted journalist and hint at irregularities"
+> Choice B: "Delay any external action and seek counsel from Rosa Alvarez and Elias Navin"
+[Outcome A: "Your thumb hovers over a number you shouldn't have. The Basin seems to hold its breath. Ivy Kestrel looks at you and then down at her hands. The idea feels like throwing a stone into still water; the ripples might save or drown."]
+[Outcome B: "You fold the tablet into your jacket and make a small agreement with yourself to speak to Rosa Alvarez and Elias Navin first. Rosa Alvarez's hand is warm and solid. Elias Navin waits at the lab as if expecting an anchor."]
+[MERGE: Continue]
+
+[Scene: Basin Path | Night Rain Starting]
+[Background:"ch8_6b08b4_4"]
+[Sound: Rain on leaves, a distant siren, the soft rustle of tarp underfoot]
+[Music: A low cello — drawn, slow; every note a question]
+
+You stand beneath a tilted tarp as rain threads down and darkens paper. The measures on the tablet repeat like a chant in your head. The lives on the list are not stats to you, but you have the power to translate the clause into action — to slow it, to run it as written, or to reveal it to the public and let the city convulse.
+
+Jun Park's voice reaches you in the rain from the direction of City Hall — calm and certain in its logic — and Elias Navin's earlier words about trust loop through your mind. Theo's hands, quick and practical, could make a sensor network tell stories the council can't ignore. Rosa Alvarez's eyes invite you to remember what ledger you keep: people, not pixels.
+
+You consider legal risk, political fallout, the possibility of unrest if the clause goes public. You consider the immediate, human picture in front of you: the child's wooden boat, Ivy Kestrel's paint-stained hands, Rosa Alvarez's steady presence.
+
+You press your palm into the damp paper of your journal and feel the fibers go soft. The rain prints a trailing line across the page like a decision being written and then half-erased. The city is moving. Your name is on the list of people who set that motion. The clause sits like a stone in the throat of the plan.
+
+Your breath fogs. You can smell the wet wool of your scarf and the distant ozone of the sea. The choice is a tide coming in — inevitable and cold.
+
+You are the liaison. You are the ledger. You must choose how to use the role given the clause that will hasten relocations and alter lives in ways the council calls necessary.
+
+The night seems to widen, waiting for your answer.
+
+[Music: Long, unresolved minor chord sustains and fades into quiet]
+
+You stop. The rain keeps time.
+
+You must decide.
+
+[DECISION POINT]
+Decide how to use the liaison role given coercive municipal clauses.
+1) Option 1: "Delay relocations and help families stay." -> TARGET chapter_id: 9
+2) Option 2: "Enforce relocations strictly." -> TARGET chapter_id: 14
+3) Option 3: "Leak clauses to the press." -> TARGET chapter_id: 9
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Delay relocations and help families stay." -> ID 9 (Route B (Ending: Bittersweet))
+    > Jump Target File: script_ch9_Route_B_Ending_Bittersweet_ctx_3be532.txt
+Option 2: "Enforce relocations strictly." -> ID 14 (Route B (Alternate Ending: Sad))
+    > Jump Target File: script_ch14_Route_B_Alternate_Ending_Sad_ctx_3be532.txt
+Option 3: "Leak clauses to the press." -> ID 9 (Route B (Ending: Bittersweet))
+    > Jump Target File: script_ch9_Route_B_Ending_Bittersweet_ctx_3be532.txt

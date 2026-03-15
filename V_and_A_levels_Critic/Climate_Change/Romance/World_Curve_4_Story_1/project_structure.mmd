@@ -1,0 +1,37 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Salt & Seed<br/>[Common]"):::spine
+    2("Ch 2<br/>Tidewatch and Propos<br/>[Common]"):::spine
+    3("Ch 3<br/>The Council Night<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Pilot Groundwork<br/>[Route A]"):::limb
+    5("Ch 5<br/>The Negotiation<br/>[Route A — Compromise Path]"):::limb
+    6("Ch 6<br/>The Crash<br/>[Route A]"):::limb
+    7("Ch 7<br/>Private Terms<br/>[Route B]"):::limb
+    8("Ch 8<br/>Grand Agreement<br/>[Route B — Development Path]"):::limb
+    9("Ch 9<br/>Aftermath & Distance<br/>[Route B — Ending: Sad / Bittersweet]"):::limb
+    10("Ch 10<br/>Direct Action<br/>[Route C]"):::limb
+    11("Ch 11<br/>Escalation<br/>[Route C — Civil Resistance Path]"):::limb
+    12("Ch 12<br/>Injunction & Evidenc<br/>[Route C — Legal Path]"):::limb
+    13("Ch 13<br/>Public Exposure & Le<br/>[Additional Route]"):::limb
+    14("Ch 14<br/>Stormfront Decision<br/>[Additional Route]"):::limb
+    15("Ch 15<br/>After the Break — En<br/>[Additional Route / Ending]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 6
+    4 -.-> 5
+    7 -.-> 13
+    7 -.-> 9
+    7 -.-> 8
+    8 -.-> 9
+    10 -.-> 6
+    10 -.-> 12
+    10 -.-> 11
+    11 -.-> 13
+    12 -.-> 13
+    12 -.-> 6
+    13 -.-> 14
+    14 -.-> 15

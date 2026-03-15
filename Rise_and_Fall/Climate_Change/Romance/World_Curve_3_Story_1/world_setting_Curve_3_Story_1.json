@@ -1,0 +1,124 @@
+{
+    "design_logic": "I blend Climate Change with Romance by centering the emotional stakes of a romantic relationship on conflicting responses to an environmental crisis. The world is a near-future coastal town facing sea-level rise and increasingly violent storms. The core conflict is between community-led ecological adaptation and corporate/technocratic \"solutions\" that promise security but risk erasing local life. Romance and personal history are the engine that forces moral choices: love pushes the protagonist to compromise, truth pulls them to sacrifice, and partnership becomes the most plausible path to meaningful adaptation.",
+    "setting": "A near-future coastal town built on a patchwork of reclaimed land, piers, and tidal marshes. Once a bustling fish market and shipyard, the town now lives in semi-permanent flood cycles and seasonal superstorms. The atmosphere mixes salt-bright mornings, humid heat, neon-lit rainy nights, and the persistent hum of pumps, drones, and community radios. Social tension rises between long-time residents, an ambitious developer, and grassroots organizers fighting for survival and dignity.",
+    "visual_style": "Muted coastal palettes with neon accents, semi-realistic anime-influenced character art, weathered textures, wet reflections, cinematic lighting (golden hour and storm-lit night), environmental detail (moss, algae, patched metal), watercolor fog overlays",
+    "main_characters": [
+        {
+            "name": "Mara Solano",
+            "role": "Protagonist",
+            "personality": "Practical, intensely empathetic, methodical, quietly stubborn. She balances scientific curiosity with deep loyalty to her community. Under stress she becomes hyper-focused and can shut others out to solve problems.",
+            "appearance_features": {
+                "hair": "Dark brown with sun-faded caramel highlights, shoulder-length waves often pulled into a loose side braid with stray tendrils",
+                "eyes": "Warm hazel flecked with green, rounded and observant, with faint crow's-feet from squinting into wind and salt",
+                "clothing": "Olive-green, water-resistant field jacket layered over a faded navy band tee, high-waisted cargo trousers with patched knees, scuffed rubber boots with colorful duct-tape patches",
+                "accessories": "Bronze compass pendant on a frayed cord, a battered leather notebook stuffed with tide maps and scribbles, a water-resistant smartwatch with a cracked face and improvised strap"
+            },
+            "goal": "To develop and implement a low-cost wetland restoration and community-led adaptation plan that preserves neighborhood homes and livelihoods.",
+            "background_story": "Grew up as the daughter of a dockworker who died in a storm when she was a teenager. She studied coastal ecology away from the town and returned when flooding intensified. She carries survivor's guilt and a promise to protect the place that made her.",
+            "emotional_trait": "Strength: fierce loyalty and resilience. Flaw: stubbornness and a tendency to shoulder responsibility alone, leading to burnout and strained relationships."
+        },
+        {
+            "name": "Jonah Reyes",
+            "role": "Love Interest",
+            "personality": "Charismatic, idealistic, and community-centered. He is magnetic in public, patient in private, and believes collective action can outmaneuver moneyed interests. He often prioritizes people over paperwork.",
+            "appearance_features": {
+                "hair": "Jet-black, short textured crop with a single silver streak at the right temple that he absentmindedly tugs when nervous",
+                "eyes": "Deep amber, almond-shaped and warm, quick to crinkle with smiles",
+                "clothing": "Upcycled, brightly patched jackets made from sailcloth and campaign banners, rolled denim, canvas high-tops scuffed with salt stains",
+                "accessories": "A red bandana usually tied around his wrist, a battered film camera slung across his chest for documenting events, a simple woven seagrass ring he made in childhood"
+            },
+            "goal": "To mobilize the town in favor of community-led adaptation projects and prevent displacement by large-scale developments.",
+            "background_story": "A childhood friend of Mara's who stayed in town to build grassroots networks after his family's fish-stand was threatened by a storm. He founded a cooperative that runs the weekly market and organizes resistance to displacement.",
+            "emotional_trait": "Strength: infectious optimism and emotional generosity. Flaw: sometimes ignores hard technical constraints and underestimates trade-offs, which can lead to risky decisions."
+        },
+        {
+            "name": "Elena Voss",
+            "role": "Antagonist",
+            "personality": "Composed, highly strategic, pragmatic to the point of ruthlessness. She frames hard choices as necessary trade-offs and believes in top-down engineered solutions. Charming in boardrooms, uncompromising when stakes are framed as progress.",
+            "appearance_features": {
+                "hair": "Platinum-blonde, immaculately cut bob that sits like a halo; always styled to perfection",
+                "eyes": "Steel gray, narrow and calculating, often hidden behind minimalist cat-eye glasses",
+                "clothing": "Tailored storm-blue power suit with a crisp white blouse, rainproof high-heeled ankle boots with metal tips, a thin technical scarf when visiting flood zones",
+                "accessories": "A smart cuff with her company's crest and project telemetry built in, an engraved signet ring, a transparent umbrella with built-in flood data HUD"
+            },
+            "goal": "To secure planning approval and build a high-tech coastal barrier and luxury redevelopment that will stabilize the economy and her legacy—even if it means uprooting neighborhoods.",
+            "background_story": "A former urban planner who lost a sibling in a catastrophic storm years ago. That trauma convinced her large-scale engineered defenses are the only rational response to climate threats; she channels grief into a drive for measurable solutions.",
+            "emotional_trait": "Strength: unshakeable conviction and strategic clarity. Flaw: emotional guardedness and moral blind spots where human costs become abstract data."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Aunt Pilar",
+            "relation_to_main": "Mara's surrogate mother and elder of the neighborhood",
+            "appearance_summary": "Small, weathered woman with silver hair tied in a tight bun, always in layered shawls patched with bright cloth; strong hands and a steady gaze.",
+            "function_in_story": "Moral anchor for Mara and keeper of local oral histories; provides wisdom, communal ties, and emotional stakes for preservation of the neighborhood."
+        },
+        {
+            "name": "Councilor Avi Malhotra",
+            "relation_to_main": "Town council member who holds swing votes",
+            "appearance_summary": "Slight, bespectacled, favors breathable linen suits with ink stains from meeting notes; often photographed with a tablet underarm.",
+            "function_in_story": "Political obstacle and potential ally; represents bureaucratic compromise and the difficulty of translating science into policy."
+        },
+        {
+            "name": "Rosa and Mateo (Market Co-op)",
+            "relation_to_main": "Core members of Jonah's cooperative",
+            "appearance_summary": "Rosa: warm, sun-kissed skin, bright headscarves; Mateo: tall, broad-shouldered, tattoos of waves on forearms; both wear practical aprons.",
+            "function_in_story": "Provide community perspective, logistical support for adaptation projects, and the immediate human consequences of development decisions."
+        },
+        {
+            "name": "Dr. Claire Hsu",
+            "relation_to_main": "Mara's former university mentor",
+            "appearance_summary": "Soft-spoken, mid-40s; short straight black hair with silver at the temples, functional fieldwear and a stained lab vest.",
+            "function_in_story": "Provides scientific credibility, helps validate Mara's restoration plan, and serves as a conscience on ethical research practices."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tidewatch Coastal Lab",
+            "visual_description": "A low-slung research hub built from repurposed shipping containers and glass, set on an elevated platform. Mornings are crisp with pale gold light breaking through mist; equipment silhouettes and wet-splashed windows reflect the rising tide. Interior lighting is utilitarian warm LED, field maps pinned to salt-stained corkboards, puddles on the concrete floor after storms."
+        },
+        {
+            "name": "Old Market Boardwalk",
+            "visual_description": "A tangled, lively market perched over water on patched timber piers. During fair weather it's sun-dappled with colorful awnings; when storms approach the sky bruises purple and neon vendor lights blink against slick wood. Reflections of string lights ripple in rain puddles, and communal murals—salt-scarred—bring saturated color to the damp scene."
+        },
+        {
+            "name": "Rooftop Gardens of La Plaza",
+            "visual_description": "A cluster of terraced green roofs and salvaged-planter boxes that catch wind and sun, dripping with vines and pollinated by humming insects. Afternoon lighting is warm and dusty; after rain the air smells of loam and citrus. The gardens are dotted with reclaimed metal benches and solar lanterns that glow amber at dusk."
+        },
+        {
+            "name": "Voss Coastal Spire (Headquarters)",
+            "visual_description": "A polished glass-and-steel tower at the edge of the reclaimed district, its façade gleams even under a grey sky. At night, internal LEDs cast cold vertical lines; the plaza at its base is slick, sterile, and guarded. The building's storm defenses—flood gates and hydraulic docks—are visible and intimidating, lit by stark white floodlights."
+        },
+        {
+            "name": "Salt Flats Lagoon",
+            "visual_description": "An abandoned, half-submerged marsh lined with rusted steel pylons and salt-bloomed grasses. Dawn light is thin and pearly, with low fog drifting over shallow water that mirrors the sky. The mood is quiet and haunted: birdcalls, the creak of old dock ropes, and patches of iridescent algae that hint at fragile ecological balance."
+        },
+        {
+            "name": "Town Hall Plaza",
+            "visual_description": "A communal square built from mismatched stones and repaired concrete, ringed by spray-painted signage and weather-beaten posters. Afternoon council meetings draw crowds under a diffuse sky; fluorescent emergency lamps are strung for night sessions. The overall palette is washed with neutral grays and punctuated with warm human colors from banners and lanterns."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Mara's community-led wetland restoration is implemented with smart legal protections, the town avoids mass displacement, and Mara and Jonah deepen their partnership — both romantic and political — becoming local leaders of a resilient, inclusive model."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise plan combines parts of Elena's engineered defenses with community restoration. Some neighborhoods are preserved, others are lost. Mara and Jonah remain together but carry scars: trust fractured by hard trade-offs and the knowledge that not everyone was saved."
+        },
+        {
+            "type": "Sad",
+            "summary": "Elena's development proceeds; short-term protections arrive but marginalized areas are bulldozed. A major storm overwhelms unprotected zones. The town fractures, Jonah leaves to rebuild elsewhere, and Mara stays behind as a lone advocate, grieving what couldn't be saved."
+        },
+        {
+            "type": "True",
+            "summary": "Mara exposes proprietary risks in Elena's plans and publishes an unflinching account of engineering hubris. The revelation halts the project; national scrutiny forces policy change but also triggers powerful backlash. Mara accepts an offer to lead a wider coalition away from home, choosing systemic change over local romance — a morally honest but personally costly outcome."
+        }
+    ],
+    "estimated_chapters": 6
+}

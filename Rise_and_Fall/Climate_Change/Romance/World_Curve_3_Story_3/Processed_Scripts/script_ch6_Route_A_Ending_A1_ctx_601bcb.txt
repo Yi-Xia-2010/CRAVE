@@ -1,0 +1,202 @@
+### SCRIPT
+# Route: Route A (Ending A1)
+# Context: 601bcb
+
+[Scene: Marisora Harbor | Dawn, hours after the storm]
+[Background:"ch6_601bcb_1"]
+[Sound: Distant gulls, a low, tired creak of soaked wood; the occasional clink of a loose lantern]
+[Music: Quiet piano motif, slowly resolving into a gentle major chord]
+
+You stand ankle-deep in sea-silt and the small, stubborn warmth of people who won't let the town be taken without argument. Salt crusts the cuff of your jacket; the tide-watch at your wrist is smudged with mud and your own fingerprints. The water that slammed into the breakwater has receded enough to show the damage: a jagged line of net pens gone, a torn tarp flapping from a battered post, algae like shredded velvet where the sea pulled at concrete. But the modular posts—your design with Elias's last-minute adjustments—remain planted, leaning but alive.
+
+Elias moves with a steady, deliberate economy: a mop of hair stuck to his forehead, paint and salt crusted into a pattern you only half-know how to read. He is all hands and fixed jaw, but when he sees you he lets his shoulders lose some of the tension that has lived there for the past thirty-six hours.
+
+Elias Jun: "Hey. You look like you slept sitting up on a rope." (a crooked smile follows)
+Maya Reyes: "If I slept at all, it was standing." (you rub the back of your neck; the ache is honest)
+
+He laughs—short, relieved—then straightens, eyes sweeping the harbor.
+
+Elias Jun: "We lost the outer line, but not everything. The posts held where it mattered. Arlo patched three joints after the second gust." (he nods toward a thin boy bandaging a knuckle)
+Maya Reyes: (the word "enough" rises and settles like another stone in your chest) "Enough to keep people from losing more than they already did."
+
+You move closer to the broken net pens, stepping around a coil of sea-dark rope. The smell of diesel from a flooded generator mixes with wet wood and something green—seaweed and the faint, hopeful sweetness of cut basil from the greenhouse, a reminder of the lives that keep going inside town.
+
+[INTERACTION]
+> Choice A: "Climb into the damaged skiff to check the mooring"
+> Choice B: "Stay on solid ground and help Rita stabilize the supply line"
+[Outcome A: "You wedge yourself into the crooked boat, the wood groaning beneath you. Up close, the rope splice is worse than you thought but repairable; your hands find the rhythm of knots you haven't used in years."]
+[Outcome B: "You plant your feet by the shed and loop the straps again, your hands steady. Rita's grin, half-shadowed by a bandage, feels like sun through clouds. The supply crates shiver less when you lift them together."]
+[MERGE: Elias waits for your choice and then follows your lead, whichever you make. You realize how small the decisions feel in the face of salt and timber—until you notice they're the ones that decide whether roofs keep their places.]
+
+A scrape of laughter cuts through the shorework. Rita is at the heart of the movement: sleeves rolled, apron patched like a flag with hand-painted volunteer names. She passes buckets from hands to hands with the method of someone who's stitched strangers into families before.
+
+Rita Ortega: "You two look like you fought surf and bureaucracy and lost on both counts." (she grins, but her eyes are soft around the edges) "No, really. You held things. You know that? The older folks were ready to hitch their trailers by noon. You stopped that."
+
+You feel the corners of your mouth try to return a brittle smile and fail; then you allow it to be a real one—slow, honest.
+
+Maya Reyes: "We didn't stop the sea. We kept a line. It was Elias's adjustments—he'd be insufferable if I named him a hero." (you jab him with your elbow)
+
+Elias Jun: "Insufferable and modest. Perfect combination." (he bumps your shoulder) "You did the models. I built the stupid, stubborn parts."
+
+The conversation threads and stitches itself: small jokes, a shared catalogue of near-misses. Nobody pretends the loss isn't loss—several houses lost a first-floor, a boat is gone—but the tone is threaded with something steadier than grief: a willingness to collect the pieces.
+
+Arlo limps over, knuckle wrapped; his face is bright with the sort of proud dread only teenagers carry after being useful in real danger.
+
+Arlo Benitez: "Maya—uh—ma'am, we kept the supply route open. Ms. Ortega said I could help with the clamps." (he tries to make it casual; his voice trembles in the last syllable)
+
+Maya Reyes: "You did good. Scratch heals. You listen when Rita tells you to take off your gloves, okay?"
+
+Arlo nods, mouth set. He looks like the future—uneven, earnest, not yet blunted by the necessary trades of adulthood. He is also exactly why you cannot let the town become a museum of things that used to be here.
+
+[INTERACTION]
+> Choice A: "Send Arlo to stand with Elias and learn the joint clamps"
+> Choice B: "Tell Arlo to rest and fetch tea from the greenhouse"
+[Outcome A: "You point Arlo toward Elias. The boy's shoulders straighten; he follows like a pupil to a master, eyes bright. Elias catches your look and nods, a silent promise to teach him how to steady more than wood."]
+[Outcome B: "You give Arlo a small, impossible-order: go rest. He looks disappointed but obeys. In the greenhouse, he finds the warmth and the smell of wet leaves, and you know he'll listen to the plants when words are tired."]
+[MERGE: Hands keep moving. The town's rhythm is improvisation turning into choreography. Your throat tightens when you think of the houses that won't be mended this month—familiar doors gone, a neighbor's porch a pale skeleton. But the people who remain move like a single organism: a human reef recomposing itself.]
+
+[Scene: Temporary Triage by the Old Breakwater | Midday]
+[Background:"ch6_601bcb_2"]
+[Sound: Hammering, low murmurings of people making lists aloud]
+[Music: A low-breath cello; steadily rising]
+
+The breakwater is strewn with the evidence of the storm's appetite. On the damp concrete, Rita stitches a banner—once for the summer festival, now patched and dangling like a promise. She works with needle and thread, fingers deft, mouth low with a half-sung song that everyone knows but no one can finish.
+
+Rita Ortega: "We wash. We sort. We plant. We make something to eat. We do the next thing and then the next. That's the town's policy—practical and low on bureaucracy." (her smile is quick, a lifeline)
+
+Maya Reyes: "We also make data and reports," you say, voice laced with rueful humour. "We send them to Ayla, and then we try not to squint at the footnotes like they're curses."
+
+Rita snorts, half laugh, half sob.
+
+Rita Ortega: "Oh, the footnotes. We'll sew them into the banner next season if we must."
+
+The sound of a vehicle crunching over broken gravel announces someone who was not expected that morning. Dr. Ayla Voss steps out of a municipal truck—coat buttoned, satchel slung, not a hair out of place except for the tiny specks of rain on her shoulders. Her expression is practiced neutrality, but when she surveys the harbor she allows something almost human to pass: an impressed, careful lift of her brow.
+
+Dr. Ayla Voss: (calm, voice precise) "The sensors registered higher peaks than predicted. The breakwater geometry reacted as simulated—your modular posts absorbed a significant portion of the force." (she pauses) "You demonstrated something here that models and memos cannot: community maintenance under load."
+
+You feel the explanation gather in your chest—everything you mean to say about agency and hands-on design—but you let Ayla speak first.
+
+Maya Reyes: "We had people who wouldn't let the town use fear as an excuse to give up. The posts were your recommended geometry; Elias brought the improvisations."
+
+Ayla's gaze flicks to Elias, who stiffens and then relaxes when she inclines her head minutely.
+
+Dr. Ayla Voss: "Both approaches mattered. I will be direct: the regional council wanted metrics before releasing funds. They wanted a demonstration. You have given them one. There are conditions—inspections, documentation, adjustments to material standards—but the pathway to a conditional grant is open."
+
+The world tilts toward warmth. You feel the blood rush your face, an almost childish flush of victory. Rita's hands skip a stitch and she whistles. Arlo, who has been quiet, grins like he's swallowed a secret.
+
+Elias Jun: (voice small with the weight of the moment) "So—funding? For more of this? For materials that don't sag after the second storm? For staff who can certify what we built?"
+
+Dr. Ayla Voss: "A conditional grant. It will fund standardized reinforcements and training. It will require us to meet benchmarks and accept third-party oversight during the next quarter." (her tone is brisk but not cold) "And it will expect a coordinated plan that integrates your modular techniques with engineered anchoring."
+
+You watch Elias process the offer. He chews the inside of his cheek—impulse against careful accounting.
+
+Elias Jun: "We want to keep control. The community knows which houses go first. We don't want to be told to move our hands."
+
+Dr. Ayla Voss: (a small, humanizing exhale) "And I don't want to see designs that fail because of missing fasteners. We can make your work safer without taking it away. Oversight isn't ownership; it's a promise to make sure what we build lasts."
+
+The conversation lengthens, branches, revisits old grievances and stitches new compromises. Ayla asks technical questions; you answer with the kind of data that smells faintly of lab nights and wet charts. Elias counters with practical edge-cases—a dock that people actually use versus an algorithm's best guess. Rita intervenes with stories: a grandmother who cannot climb stairs; a boy who needs tools more than temporary shelter. Arlo offers impatient, earnest solutions—part of what makes everyone smile despite the damp.
+
+The back-and-forth is long, human, and alive. From friction comes a plan that is not perfect but workable: the community will standardize certain critical joints, accept certified materials for load-bearing posts, and in exchange receive the grant money and technical support to reproduce and scale the modular posts across the most vulnerable stretches. Training workshops will be run by Elias and certified by a regional engineer assigned through the grant. Ayla will shepherd the proposal to the council, using the storm's recorded data as evidence.
+
+There are caveats: funds will not replace personal loss, and some structures are beyond repair right now. The grant requires a portion of the work be documented for compliance, which means paperwork—something you have learned to treat like another kind of salvage.
+
+Maya Reyes: "We'll take the oversight if it keeps people's roofs where they belong." (you say it quietly, and every word is measured)
+
+Dr. Ayla Voss: (softening, almost imperceptibly) "I want those roofs to stay. I want this to be a replicable, dignified solution."
+
+For a moment you glimpse the human under Ayla's professional armor: the person who came here not to punish but to prevent. It warms the space between your ribs.
+
+[Scene: Community Greenhouse | Late Afternoon]
+[Background:"ch6_601bcb_3"]
+[Sound: Dripping water, the rustle of leaves, faint, grateful laughter]
+[Music: Warm strings, lifting]
+
+The greenhouse is a balm. The humidity hugs you; the smell of wet earth and tomato vines fills your lungs with quiet rejuvenation. Rita moves among the pots like a conductor, handing out hot tea in chipped mugs. People lean on tables and trade ropes for stories, for lists, for names of damaged houses. Someone hums the melody Rita couldn't finish earlier; the sound collects into choreographed comfort.
+
+You stand by the seed bank, watching a tiny sprout—green and ridiculous—push its first leaf through the soil. It looks vulnerable and absurdly brave, and you find that your breath steadies in the act of watching growth.
+
+Elias appears at your shoulder, bringing two mugs. He hands you one without ceremony, palm meeting yours in a small, human bridge. Salt and sawdust under his thumbnail press against your skin; it's ordinary, resonant contact.
+
+Elias Jun: "We did it. Not the whole thing. But we did enough that they noticed." (his voice is rough with sympathy and relief)
+Maya Reyes: (you let yourself feel the rise in your chest—a tide of relief that tastes like tea) "We did what we could. And then we did more."
+
+He looks at you, something tired and fierce in his expression, and takes your free hand in his. The squeeze is a punctuation mark on a long sentence of choices and consequences.
+
+Elias Jun: "I kept thinking, in the dark, that if we lost this place, I would have nowhere to put all the things I love. Then I thought, 'Where else would I want to build with you?'" (he tries for levity; it nearly slips into confession)
+
+You laugh—short, wet with salt—and then your face settles into something calmer, happier in a small, stubborn way.
+
+Maya Reyes: "We can't promise no more storms. We can promise to stand up when they come." (you let the idea land between you both)
+
+Rita nudges you, conspiratorial.
+
+Rita Ortega: "Also—Elias will teach a 'fastening for romantics' workshop." (she winks) "He'll charge in wasted coffee."
+
+Elias scowls in mock indignation, then smiles.
+
+The greenhouse feels like a future compressed: hands teaching hands, seedlings promised to gardens, children swapping tools and songs. There is loss here, but not surrender. The town's identity isn't salvageable in a single sweep of grant money or policy—it will be reconstructed by a thousand small recombinations of kindness, craft, and stubborn love.
+
+[Scene: Rooftop Watch at Dusk | Twilight]
+[Background:"ch6_601bcb_4"]
+[Sound: Wind through the herbs, low laughter from below, the town settling into evening]
+[Music: A full chord of resolved strings; warm harmonics]
+
+You and Elias climb the narrow stairs to the rooftop watch, hands still smelling of sea and wood. The town below moves slow and deliberate—people hauling, making lists, planting new stakes in older soil. The tide is a flat mirror now, reflecting bruised clouds and the sputter of lights.
+
+You sit on the battered bench, tide-watch heavy and warm at your wrist. The day has been a long ledger of damage and repair, but tonight balance tilts toward repair. You feel it in your muscles—the ache that says work has been done—and in a new place behind your sternum, a place that will accept tenderness without letting it break the plan.
+
+Elias curls his fingers through yours. His palms are callused, but his grip has the same careful pressure as when he fastens a cleat; it says that pieces will be held together.
+
+Elias Jun: "There will be more to do. And there will be more we lose." (he says it because honesty is a kind of love)
+Maya Reyes: "I know." (you taste the word like salt and bread) "But we also have what we didn't have yesterday: a plan that draws the council in instead of pushing it away, hands that know how to make, and people who still choose to show up."
+
+He looks at you, and in the deepening dim you read relief, pride, and something that might be hope stretched thin but unbroken.
+
+Elias Jun: "I wanted to fix everything myself. You taught me to leave space for other people to fix things with us."
+
+Maya Reyes: "And you taught me that improvisation isn't an offense to the model. It's the way we adapt when the model meets real life."
+
+A soft wind lifts your hair. The tide-watch ticks in the small, honest rhythm you have learned to match with decisions and compromises.
+
+You close your eyes for a breath and let the memory of the day make itself into gratitude. The conditional grant will not erase what was lost; it will not bring back one house in an instant. But it turns public attention into practical support, and that is the lever you needed.
+
+A student of policy once told you that survival is both technical and social. Today felt like a proof of that idea: engineering and affection braided, not opposed.
+
+You lift your hand, and Elias leans forward to place his forehead against yours—salted, steady, and alive. The gesture needs no grand promises. It is a mutual holding of fragile things.
+
+Maya Reyes: "We won't be the same town as before, and that's okay. We will be the town that learned."
+
+Elias Jun: "The town that learned and the people who won't forget how to pass a rope when it counts." (he squeezes your hand)
+
+The rooftop lights blink like small, hopeful beacons. Below, the greenhouse glows amber; Rita's banner flutters patched and proud. The conditional grant is not a finish line but a tool—a new seam in a long mending. You feel the tide turning beneath your feet—from the bottom you felt a few nights ago to something that rises, inch by patient inch.
+
+You think of the possible endings you once imagined for Marisora: the ones that felt like loss, the ones that promised cold certainty. None of them captured this—messy, persistent, human. You tuck that knowledge into the place in your chest that keeps missing people and plans both safe and alive.
+
+You breathe in, and the air tastes of wet wood and basil and the pale gleam of something like hope. You let yourself register a quiet, full happiness—the kind that has a seam of grief but is not undone by it.
+
+Rita's laughter floats up from below; Arlo's voice calls out as he and Elias compare screws; Ayla's footsteps merge with the sound of people moving toward fixing what they can. The town hums around you—wounded, mended, resolute.
+
+You rest your palm on the tide-watch and feel its steady insistence: time passes, tides rise, but people choose what to do with the hours.
+
+You are tired. You are salt-scrusted and trembling. You are, nonetheless, hopeful.
+
+[Background:"ch6_601bcb_5"]
+[Music: Resolution; soft choir-like strings]
+
+You hold Elias's hand and look out over Marisora. The town is changed, and so are you. You have carried the ledger of hope to the shore and found it heavier—but not broken.
+
+[Sound: A final gentle wind; distant, contented conversation]
+
+[Background:"ch6_601bcb_6"]
+[Music: Fade Out]
+
+[Background:"ch6_601bcb_7"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

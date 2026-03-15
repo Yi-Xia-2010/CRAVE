@@ -1,0 +1,162 @@
+label chapter10:
+
+    # [Scene: Glasshouse Research Lab | Morning]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Bright, urgent strings—rising tempo]
+    # play sound "sfx_placeholder"  # [Sound: Soft tap of rain against pane, a distant gull]
+
+    "Maya Reyes opens the lab door before the courier finishes his knock, and the cold air snaps against her face. The envelope is heavier than she expects—thicker than a letter, lighter than a checkbook. Someone has already taped a press-release packet to the top, glossy header proclaiming" "EMERGENCY RESILIENCE FUNDING: MODELS FOR COASTAL COMMUNITIES."
+    "Maya Reyes carries it to the central table where Professor Julian Kim is already hovering over a laptop, thumbs staccato on the keys. Samir leans against the doorframe, camera slung low, eyes bright as a child"
+    "at a fair. The room smells like coffee and antiseptic and the impossible possibility of things changing fast."
+    show professor_julian_kim at left:
+        zoom 0.7
+
+    professor_julian_kim "Maya, you seeing this—? Is that—"
+    "Maya Reyes doesn’t let him finish. She peels back the envelope with a quick, reverent motion, like unwrapping something fragile she’s only imagined."
+    "Your hands tremble—not from cold, but from momentum. The first bullet point lands on the page like a small, perfect stone: immediate seed funding for pilot platforms; payroll for local contractors; an allocation for community outreach"
+    "and materials—distributed within the week. A list of deliverables, an account number, a phrase that makes her throat unclench: 'rapid deployment.'"
+    show samir_reyes at right:
+        zoom 0.7
+
+    samir_reyes "Holy—did they just… wire it?"
+
+    professor_julian_kim "There's a transfer code here and a representative listed. We should call—"
+    "Maya Reyes glances at the signatory. The philanthropic representative's name is polished and practiced. There's a corporate prose about speed and scalability that reads like a promise and a warning in one breath."
+
+    "Philanthropic Representative [bright, practiced] (on speaker)" "Ms. Reyes—Professor Kim—congratulations. We were impressed by your proposal's clarity. Our board authorized rapid disbursement. We believe Harborwell can be a model for other towns. Speed is our priority; let us know who we coordinate with."
+
+    "Maya Reyes asks the first question that matters to her" "Control? Oversight? Reporting requirements beyond standard audits?"
+
+    "Philanthropic Representative" "We trust local leadership. There are standard reporting protocols, of course, but we value autonomy. Our emphasis is on swift impact—jobs, shelters, demonstration platforms."
+
+    professor_julian_kim "Autonomy with what constraints? Contracts? Zoning conditions? Future obligations?"
+
+    "Philanthropic Representative" "We're looking for replicable frameworks. Occasionally, partners will be involved in delivering components. That just expedites construction. We can draft non-binding partnership outlines. The important thing is time—we can get payroll started this week."
+    "The air in the lab tightens for the briefest second—Julian's question hangs like fog. Maya Reyes can feel the ledger of potential compromises sliding into focus: strings she can imagine, contracts favoring outside contractors, the slow inches by which decision-making migrates away from the community."
+    "But then Samir laughs, high and stunned, and slaps the table. He reads the line about contractor payroll again, as if testing a magic trick."
+
+    samir_reyes "Payroll this week. Maya, do you hear that? People who haven't worked in months—"
+    "Maya Reyes tastes salt, and it tastes like relief and adrenaline. Her chest beats faster. The compass locket under her scarf feels inexplicably warm."
+
+    menu:
+        "Call the contractors now and get boots in the mud":
+            "Maya Reyes reaches for the contact list, fingers already moving toward the familiar numbers; the thought of local hands getting paid is a small, fierce joy."
+        "Draft a public outreach note before spending":
+            "Maya Reyes imagines the message—clear, inclusive, insisting the community will lead. It steadies her; she knows outreach could bind speed to consent."
+
+    # --- merge ---
+    "Maya Reyes chooses both—a pragmatic split she likes to think fits her. Professor Julian Kim opens the draft for a press advisory; Samir starts making calls. Within hours, the lab hums like a beehive finally given"
+    "sunlight: contractors confirm, a local carpenter promises three platforms within the month, and an account transfer notification blinks across her screen with the clinical, sudden finality of a bell."
+    # [Scene: Rooftop Garden & Salt Marsh Restoration Site | Early Afternoon]
+    hide professor_julian_kim
+    hide samir_reyes
+
+    scene bg ch10_453e40_2 at full_bg
+    # play music "music_placeholder"  # [Music: Up-tempo percussion with bright brass — buoyant momentum]
+    # play sound "sfx_placeholder"  # [Sound: Bees humming, the slap of a tarp as a crew unloads boxes]
+    "Maya Reyes climbs the narrow service ladder and emerges into a blaze of green—pale seedlings, rain barrel reflections, and the sudden, unremarkable holiness of people coming together. Iris Tanaka wipes her hands on her vest and"
+    "grins like a person who has been waiting her whole life for dirt to mean pay."
+    show iris_tanaka at left:
+        zoom 0.7
+
+    iris_tanaka "Look at this. Look at this—pay for plants, pay for soil. You're a magician, Maya."
+    "Maya Reyes laughs, breathless. She hands Iris a tray of Spartina plugs. The soil is cool and fragrant; it holds together the way community always does when it's well-tended."
+    "Workers Maya knows by first name—Lola, Jae, Marco—arrive with tool belts and tired smiles. Checks are handed over with a clumsy tenderness: a carpenter who lost a sputtering engine now has a week of steady work,"
+    "a single mother who mends nets can hire childcare, and a teenager who thought he'd leave town finally wants to stay to learn scaffolding."
+    show professor_julian_kim at right:
+        zoom 0.7
+
+    professor_julian_kim "The data will change if we keep this up. Marsh restoration slows surge propagation by measurable percentages. If these platforms hold, we buy time for longer-term planning."
+
+    "Maya Reyes watches a reporter angle a camera toward the trays, her microphone catching the soft slap of mud against plastic. The reporter asks a question about scalability; Maya answers with a practiced shortness that sounds like truth" "We start here. We prove it."
+
+    "Philanthropic Representative" "This is the model.' (gesturing broadly) 'Pilot here, replicable protocols—media loves that word. Quick wins are compelling."
+    "The room tilts toward triumph. The seedlings take root; the first platform beams are raised. A contractor Maya vouched for lifts a nail with a grin that cleans the inside of her chest. The press starts"
+    "to buzz—local outlet, then regional. The phrase 'Harborwell model' threads the air like a bell."
+
+    menu:
+        "Kneel and plant beside Iris, get your hands dirty":
+            "Maya Reyes sinks into the mud, sleeves rolled, and the soil presses into her palms. There's a clarity in manual work that answers the city's paperwork."
+        "Walk the platform builds and sort logistics with Samir":
+            "Maya Reyes moves through the site ticking mental boxes—supplies, schedules, contact points. Order births safety; she feels it in her bones."
+
+    # --- merge ---
+    "Maya alternates—her hands in mud, then on a clipboard. The day fastens itself into a collage of small victories: beams bolted, checks signed, seedlings set like promises. The philanthropic rep lingers, taking pictures, telling a junior"
+    "staffer to 'note the community engagement angle.' Their eyes are quick with calculation, but the noise of real work—sweat, laughter, shouted measurements—drowns the calculus for the moment."
+    # [Scene: Pier / Tidewatch Harbor | Late Afternoon → Golden Hour]
+    hide iris_tanaka
+    hide professor_julian_kim
+
+    scene bg ch10_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Swelling strings over a driving beat — triumphant but taut]
+    # play sound "sfx_placeholder"  # [Sound: The slap of waves, applause, the sharp click of a camera shutter]
+    "Maya Reyes steps off the rooftop two hours later into a different kind of light—harbor light that gilds the edges of everything. A press staging has been set up at the end of the pier: microphones,"
+    "a banner with the initiative's logo, a local anchor practicing a grin. People she has known since childhood stand in the puddles, smiling, hands cupped against the breeze."
+    "Elias Hart is there, leaning against the railing, a flyer folded between his fingers. He seems smaller somehow where the crowd is larger—his denim jacket a familiar silhouette against the rising tide. He hasn't applauded yet; his sea-green eyes are tracking Maya like tide markers watch for storm."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "They moved fast."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Faster than I could have expected.' (she grins, and it's part victory, part disbelief) 'Payroll's out. The carpenter from the west dock starts Monday. The platforms—"
+
+    elias_hart "—and who builds the next ones, Maya? Who decides where they go? Who gets the contracts when these pilots scale?"
+    "Maya can feel every laugh from the press line as a percussion in her chest. The philanthropic rep catches a camera angle and nods—materials ready, talking points queued."
+
+    "Philanthropic Representative" "Harborwell shows what's possible when speed meets leadership. We'll publish our protocols—open-source templates, partner lists. We're proud to invest in communities who know their land."
+    "The words land like fireworks. Phones lift; a reporter asks about 'partners' and the rep mentions vendors 'who can expedite construction.' Maya can see the invisible scaffolding of future influence forming, but for the first time"
+    "in a long while, Harborwell's docks tremble with more than threat. They tremble with the sound of people being able to put food on the table."
+
+    "Maya Reyes (to Elias, quieter)" "I asked about oversight. They said 'autonomy.' They mentioned partners—mostly for speed. Julian thinks we should codify review steps; I—' (her voice catches on the word that almost isn't there) '—I thought about what happens if we wait. People need paychecks. We can build governance as we go."
+
+    elias_hart "Maya, governance doesn't build itself while money's moving. That's my worry.' (he folds and unfolds the flyer with slow, patient fingers) 'This could change everything. Not just the town. Us. You. The people who usually get to decide—where do they come in?"
+    show maya_reyes at center:
+        zoom 0.7
+
+    maya_reyes "They already are in—look at Iris, at Samir, at the crews. This is community work."
+
+    elias_hart "You feel it, too, don't you? That rush. Like when you—you told me once, remember? You said you wanted to be the person who made things possible."
+    "His voice is a buoy, and Maya latches onto it. She remembers. She remembers the storm that stole her house and the cold, methodical calculations that turned grief into a plan. This—today—feels like redemption shaped into timbers and seedlings."
+
+    menu:
+        "Step closer and explain the governance steps you’ll draft":
+            "Maya Reyes moves nearer, warmed by the idea of plans—review boards, open contracts, local vendor preference clauses. She feels steadier speaking specifics, like anchoring a boat."
+        "Stay where you are and let your actions speak":
+            "Maya Reyes lets the site noise and the worker's laughter be her answer. The platform rises; the work will show her priorities."
+
+    # --- merge ---
+    "Maya does both—words and work braided. She tells Elias about the community oversight committee she's convening, the draft bylaws Julian is helping shape. He listens, gaze flicking to the platform, to the contractor who laughs at"
+    "a joke, to a child splashing in a puddle of reflected banner. His mouth twitches."
+
+    elias_hart "I want to believe you. I do. But this—this philanthropy—it's not neutral. They have strings. They always do. Maybe they just time them so you can't see until it's too late."
+
+    maya_reyes "Maybe. Or maybe this is the lever we need. Maybe speed is the ally to slow work. We can do both. We have people who know how to—how to keep it local."
+
+    elias_hart "If you hand them the keys, Maya, don't be surprised if they change the lock."
+
+    "The crowd begins to cheer as the first platform is raised fully into place; hands clap and whistles blow. A local reporter shoves a microphone in front of Maya, hungry for a soundbite about models and replication. She speaks, and her words feel like light" "We move quickly, and we move together. This is Harborwell's plan."
+
+    "Philanthropic Representative" "We funded this because Harborwell is a replicable prototype. Congratulations."
+    "Triumph surges—hot, immediate, almost blinding. Maya feels it in every muscle: the surge of being able, the electric certainty that something she's wanted for years is finally happening. The applause rolls over her like surf, and"
+    "for a precious instant she imagines a future where the town rallies around the work she's shaped."
+    "Yet even in that surge, something quiet hums at the edge of the noise—a thin, metallic note she can't quite name. It is ethical cost; it is the soft tick of leverage settling into place."
+    "Maya Reyes's compass locket—that small brass relic beneath her scarf—feels like it points true. Her heart answers like a shorebird, sudden and sure."
+    "The sun slices the horizon; the platform stands like a small promise in its cradle. Maya can hear Elias’ words orbiting her—'change the lock'—but the crowd's cheer is stronger. In her palm she has the proof"
+    "of immediate relief, and in her mind the ledger of future obligations blurs into possibility. The harbor exhales around her, full of movement, and for the first time in years she senses momentum bending toward something"
+    "larger than her guilt."
+    hide elias_hart
+    hide maya_reyes
+    hide maya_reyes
+
+    scene bg ch10_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendo—bright, insistent; then a single sustained note that begs continuation]
+    "The choice Maya Reyes already made presses forward with consequences she can already feel but not yet name."
+
+    scene bg ch10_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter11
+    return

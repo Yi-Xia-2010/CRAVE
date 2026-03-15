@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-03-11 08:37:59",
+  "total_chapters": 15,
+  "total_valid_routes": 6,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 14,
+      "branch_name": "Route C (Ending: Happy/Expansive)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route C (Ending: True/Long View)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C (Ending: True)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route C (Ending: Practical/Happy)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B (Ending: Bittersweet)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A (Ending: Happy)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt & Seedling",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Beaconworks Between Tides",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Public Hearing — The Promenade Rift",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Chain & Canopy — Direct Action Begins",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Designing a Living Pilot",
+      "branch": "Route A / Split",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Tidebound Pilot — A New Garden",
+      "branch": "Route A (Ending: Happy)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Negotiated Design — The Beaconworks Bridge",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Partnership Trials",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Co-Designed Phases — A Pragmatic Victory",
+      "branch": "Route B (Ending: Bittersweet)",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Law, Paper & Tide — The Council Route",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Policy Crossroads — Tactical Choices",
+      "branch": "Route C / Split",
+      "children_ids": [
+        13,
+        12,
+        15,
+        14
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Ordinance & Outreach — Scaling Proof",
+      "branch": "Route C (Ending: True)",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Targeted Protections — Local Wins (Alternate Ending)",
+      "branch": "Route C (Ending: Practical/Happy)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Collaborative Accords — Broadening Influence (Alternate Ending)",
+      "branch": "Route C (Ending: Happy/Expansive)",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Epilogue — Harvest & Horizon",
+      "branch": "Route C (Ending: True/Long View)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 1,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 1,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

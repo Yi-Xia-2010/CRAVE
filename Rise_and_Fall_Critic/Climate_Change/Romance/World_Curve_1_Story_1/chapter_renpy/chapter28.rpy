@@ -1,0 +1,181 @@
+label chapter28:
+
+    # [Scene: Raised Boardwalk | Dusk]
+
+    scene bg ch15_60d3dd_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant chisels and the soft thump of mallets, gulls arguing over a last scrap of light, the hush of water adjusting to the new contours of the shore.]
+    # play music "music_placeholder"  # [Music: Warm ascending strings, held gently — an optimistic swell that suggests work continuing, not ending.]
+    "You stand with the rail at waist height, fingers curling around the cooled metal. The salt on your knuckles dries in a fine, pale crust. Behind you, the town breathes — low conversations, a joke passing"
+    "like a bright pebble. Beside you, Eli's weight is a quiet counterpoint; his hand finds the small of your back out of habit, an invisible brace."
+    "Narration"
+    "You can still feel the tremor of the storm underfoot, a memory in the ribs of the boardwalk. But tonight the tremor is a measure, not a threat: tests ran, gauges read, crews stayed on schedule."
+    "The seawall held where it mattered. Holes were patched, a bakery front was propped with borrowed boards, and someone — your mind supplies Karim's laugh because you owe him that memory — found a way to"
+    "solder a heater so a refrigerator wouldn't fail."
+    "You breathe in. The air is a complicated perfume: wet driftwood, the iron tang of worked metal, and the sharp green of mud where young mangroves are already holding the soil in place. The smell is"
+    "not just of what was; it is of what people are making out of what was lost."
+
+    "Elias 'Eli' Navarro" "We didn't do it perfectly,"
+    "He keeps his voice low, not because he doubts you, but because he knows the sound will carry down the promenade and everyone has earned a quiet. 'But the schedule held, the flux readings stayed within margins, and Hal's retrofits saved three storefronts.'"
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "Perfect isn't the point. Durable is."
+    "You let the words sit between you. 'Durable and fair. We're still balancing repairs with people who lost months of income.'"
+
+    "Elias 'Eli' Navarro" "I know."
+    "He glances at the crews then back to you. 'I keep running numbers in my head: maintenance cycles, materials, who we can train to do the checks. It's going to be a lot of mornings.'"
+
+    amara_vale "We have people who will show up on those mornings."
+    "You feel the map of names under the skin of the town: Rosa, Miriam, Hal, the volunteers who learned to plant mangroves in a weekend. 'We have boards that are still soft enough to mend and hands that know how.'"
+    hide amara_vale
+
+    scene bg ch15_60d3dd_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A laugh — Hal's, dry and delighted — rolls across the boards. Somewhere someone mocks a formal inspection with a dramatic bow; the sound is tenderness and relief in a single breath.]
+    "Narration"
+    "You tuck the folded repair estimate with Marco's stamp into your coat pocket again, feeling the tooth of the paper through fabric. It is evidence of a compromise that still tastes strange — salt, old coins,"
+    "the clink of decisions made out of necessity. You remember the ledger of concerns and promises; you remember arguing until your voice ached and then arguing some more. You remember Marco's smile that could rule a"
+    "room and Hal's hands that could make any plan sit plumb in the world."
+
+    menu:
+        "Trace the names on the maintenance board":
+            "You step closer to the pinned schedule and let your finger follow the handwritten names — community crews, paid contractors, apprenticeships listed like promises. Seeing the names stabilizes you; each one is a small contract of trust."
+        "Walk toward Old Man Tor and ask for a story":
+            "You cross to where Old Man Tor sits, the buoy warming in his lap. He looks up, his face a map of tides, and begins a quiet tale about a harbor that learned to lean into the wind. The story stitches the day's labor into lineage."
+        "Stand still and listen to the harbor":
+            "You stop and close your eyes. The harbor speaks in low, organized rhythms: the rasp of a winch, the sigh of a rope, the distant chuckle of volunteers packing tools. The sound steadies you more than any plan."
+
+    # --- merge ---
+    "The conversation with Eli resumes."
+
+    "Elias 'Eli' Navarro" "You picked up Marco's stamp without blinking,"
+    "'You actually trusted him with the procurement list.'"
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "Trust is a verb here, not a feeling. We spelled out oversight. We wrote clauses into the maintenance fund that bind whoever pays to the public ledger. We hired auditors from here — not just contractors sent in from elsewhere."
+    "You feel the shape of the agreement in your mouth and then let it go. 'We did what we had to, and we kept the controls.'"
+
+    "Elias 'Eli' Navarro" "You made it a collaboration and not a handout. That was the hard line."
+    "He inhales, and the late light flecks gold across his cheek. 'I keep thinking about that night on the pier when I said—'"
+    "He stops, the sentence a rock turned over and left there."
+
+    amara_vale "You said we'd build things people could use tomorrow, not monuments to fear."
+    "You pick the rest up for him. 'You wanted plans that didn't ruin someone's summer income to save them later.'"
+    "Elias 'Eli' Navarro lets out a breath that could be a laugh and could be a prayer. 'I was terrified of making the wrong trade-off. I'm still scared. But seeing the crews, seeing Hal teach apprentices,"
+    "seeing Miriam set up the equitable housing rota — it's the closest I've felt to right.'"
+    "Narration"
+    "There is a moment of silence, not empty, but full of small mechanics: the pipe fitter's whistle, the rustle of a poster being refastened, a child's shout from a safe distance. You feel responsibility like a"
+    "warm stone in your hand — not a burden to carry alone but an object to pass and balance. Your tendency is to clutch it tight and carry it farther than any one person should. Tonight,"
+    "you let others take its weight in turns."
+    hide amara_vale
+
+    scene bg ch15_60d3dd_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant conversation shifts to include him; voices soften as if the presence shapes the tone.]
+    show marco_voss at left:
+        zoom 0.7
+
+    marco_voss "Seabright needed immediate action. We funded the emergency phases — the seawall facings, the rapid repairs. I argued for faster permits, and I take responsibility for the way that changed timelines."
+    show miriam_santos at right:
+        zoom 0.7
+
+    miriam_santos "And you wrote the checks. You also tried to privatize a stretch of boardwalk before we negotiated restrictions. Those are facts, Marco."
+
+    marco_voss "I know."
+    "He meets Miriam's gaze without flinching. 'And those were mistakes. I underestimated the harm that 'efficiency' can do when it forgets who it serves. The boardwalk isn't just infrastructure — it's livelihoods. I'm committed to the upkeep funds, to community oversight — whatever it takes to keep this fair.'"
+
+    miriam_santos "Commitment has to be visible: regular audits, public minutes, and the guarantee that displaced vendors are rehoused with priority. No clauses buried in fine print."
+
+    marco_voss "Agreed. Transparency. An independent trustee from Seabright. And monthly reports."
+    "He looks at you and then at Eli. 'And I want us to fund a training program — apprenticeships managed by Hal. Let my money go into people's hands, not into the next billboard.'"
+    show harold_hal_finnegan at center:
+        zoom 0.7
+
+    harold_hal_finnegan "Make the apprentices earn their stripes. Teach 'em to brace a beam, not just to paint a sign."
+    "He chuckles, letting the timber of his voice smooth the tension. He says it like a benediction and like a plan."
+    "Narration"
+    "You watch the exchange and feel the shape of governance changing under your feet: hybrid now, public and private braided with legal teeth and community muscle. You had feared being compromised. Instead, you find yourself negotiating"
+    "safeguards that turn compromise into structure. The mangroves will hold the silt; the schedules will hold the wall; the bylaws will hold the promises."
+
+    menu:
+        "Offer to oversee the apprenticeship curriculum":
+            "You step forward and tell Hal you'll take the lead on the curriculum committee. He nods, pleased, and the volunteers around you shift as if a new branch has been grafted onto a living tree. You feel useful and cautious in the same breath."
+        "Ask Marco for a public launch with the community present":
+            "You propose a public launch ceremony that includes the displaced shopkeepers and the apprentices. Marco hesitates, then accepts — visibility, he says, is accountability. It feels like sunlight on a plan that used to hide in shadow."
+
+    # --- merge ---
+    "The group affirms plans and the conversation continues."
+    "Elias 'Eli' Navarro: (There is an ease returning to his shoulders.) 'We didn't just build a wall. We built a system to keep it standing. That feels different.'"
+    hide marco_voss
+    show amara_vale at left:
+        zoom 0.7
+
+    amara_vale "That's the point."
+    "You look at the mangrove saplings, knobby and slick, already catching the first ribbons of tidal silt. 'Nature and engineering. Money and oversight. Lived experience tied to manuals. That's how you make a thing last without losing the people who made the town what it is.'"
+    hide miriam_santos
+    show old_man_tor at right:
+        zoom 0.7
+
+    old_man_tor "When I was a boy,' he says slowly, words scraping like oars on an old hull, 'we learned to plant trees where water wanted to be. We learned which houses could be mended and which needed to move. You are doing that, in the new way. You are listening to water and to people. That is the trick."
+    "Narration"
+    "His voice carries the country of memory — a lesson that isn't flashy but survives. You feel something like gratitude that is not naive. It is gratitude with a ledger attached: a list of things to"
+    "do and people to check on and nights to sit awake worrying about rot. But it is gratitude, nonetheless."
+    "Elias 'Eli' Navarro: (He squeezes your hand once; the gesture says the work will be shared.) 'Amara — we will keep doing this. I'll keep running the numbers, but you'll keep naming the costs people carry.'"
+
+    amara_vale "And you'll keep showing me where numbers have faces."
+    "You smile; it feels honest. 'I won't carry it alone anymore.'"
+    hide harold_hal_finnegan
+    hide amara_vale
+    hide old_man_tor
+
+    scene bg ch15_60d3dd_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The strings swell, a confident ascent that does not demand triumph but insists on continuity.]
+    "Narration"
+    "The harbor light catches the new rails and fractures into small, steady stars. The boardwalk hums with the sound of people making things right — not perfectly, but with intention and structures that hold. Mangrove roots"
+    "will thicken over seasons; apprentices will mismeasure and learn to re-take their marks. Promises will be audited; some deals will disappoint. But the system now has teeth and hands and a memory."
+    show marco_voss at left:
+        zoom 0.7
+
+    marco_voss "We'll schedule the first trustee meeting next week. Public minutes. Everyone gets copies."
+    show miriam_santos at right:
+        zoom 0.7
+
+    miriam_santos "And the housing rota goes up in two days. We'll publish vacancies and match lists. No closed doors."
+    show harold_hal_finnegan at center:
+        zoom 0.7
+
+    harold_hal_finnegan "I'll see the apprentices are ready. Make sure they know the work is for the long term."
+    "He taps his pipe against his palm."
+    hide marco_voss
+    show old_man_tor at left:
+        zoom 0.7
+
+    old_man_tor "The tide will test you. Keep listening."
+    "He lifts the carved buoy, pointing at the harbor."
+    "Narration"
+    "You let the words settle into the hollow carved by months of worry. They are not bandages — they are plans. They will fray, they will be reinforced, they will be argued over at three in the morning, and they will be celebrated at dawn. All of that is life."
+    "You draw in one last long breath of salt and paint thinner and turned mud. The wind has dropped; the sky is a wide bruise that is turning to indigo. Lights bob in the harbor like"
+    "a constellation you can touch. You feel the future as something you can put your hands on: a maintenance rota, a training syllabus, a public ledger with verified entries, saplings staked into place."
+    hide miriam_santos
+    hide harold_hal_finnegan
+    hide old_man_tor
+
+    scene bg ch15_60d3dd_5 at full_bg
+    # play music "music_placeholder"  # [Music: The strings hold and then soften into a single sustained note that suggests continuation rather than conclusion.]
+    "Narration"
+    "You close your notebook and feel the lighthouse sticker press into your palm through fabric — a small, stubborn sun. You are tired, but not empty. There are losses you carry that will never become clean"
+    "lines on a ledger. There are people who left and shops that won't open again. The future still asks for trade-offs. But tonight, the balance tips toward repair and stewardship."
+    "You look down at the harbor, at mangrove roots dark and patient, at crew lights moving like constellations along the rails. The last of the light trims the broken edges of the town and softens them"
+    "into seams. You stand there with Eli beside you, with Hal's steady presence, with Miriam's sharpened fairness, with Marco's complicated promise, and with Old Man Tor's stories to keep pointing to the tide."
+    "You let the rising chord carry you — not into an ending, but into the first steady step of a long morning."
+
+    scene bg ch15_60d3dd_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A single gull cries once, then settles; the distant mallet taps resume like punctuation.]
+    # play music "music_placeholder"  # [Music: A final warm, ascending chord that holds.]
+
+    scene bg ch15_60d3dd_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch15_60d3dd_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

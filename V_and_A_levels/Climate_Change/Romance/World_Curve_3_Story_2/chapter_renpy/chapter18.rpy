@@ -1,0 +1,178 @@
+label chapter18:
+
+    # [Scene: Voss Development Office — Waterfront Conference Room | Dusk]
+
+    scene bg ch15_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain tapping a steady rhythm on the glass outside. The distant harbor horns call three times; gulls argue unseen over the docks.]
+    # play music "music_placeholder"  # [Music: Tense, propulsive strings underscored by a bright, driving piano — a tempo that pushes everything forward.]
+    "You step into the room with the files folded like a coat of armor under your arm. The paper feels heavier than its weight — names, dates, indemnities. Your throat is dry; your pulse bangs high"
+    "against the thin skin of your wrist. The city outside is already a smear: light, water, angle."
+    "Elias Voss stands by the window, palms flat on the sill, the city reflected across the glass in a hundred tidy facets. He turns when you enter, and for a moment the polished stranger and the"
+    "built-up machine of his company are the only things between you and the open sea."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "Ms. Soler. Thank you for coming at this hour. I appreciate discretion."
+    "His voice is smooth, practiced. The smile that curves his mouth is small and tight but composed — the sort of smile that can pass for warmth when it needs to. It doesn't reach his eyes."
+    "You set the files on the table, fingers lingering over the top sheet. The paper smells faintly of printer toner and the ocean-salt that clings to your coat. You could lay everything down here, make a"
+    "spectacle, let the town watch the machine tremble. Or you could hold it back, keep your cards close and build something stronger from inside."
+    "You choose the private threshold. You lean forward, palms on the table, letting the glass cool the heat of your hands."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "Elias. I don't need the theatrics. I need this stopped long enough for an independent review. Let the engineers and the ecologists look at your contracts and your impact studies without your firm's team steering the hearings."
+
+    elias_voss "A pause? You understand what that would do to investor confidence, Ms. Soler. To the timeline. To—"
+
+    maya_soler "To our town, yes. To people's lives. I understand timelines. I also know that haste has teeth. It tears things out of people — homes, boats, histories. An independent review is a bridge, not a blockade."
+    "Elias studies you. The rain makes a thin soundtrack to the standoff, small as needlework. You watch him measure the room like a chessboard."
+
+    elias_voss "I like to think of this as partnership. We can slow the timeline modestly. We can — if you come to the advisory board — give you access to data, to meetings. You'd be inside the process, not outside shouting into it."
+    "His offer is surgical: control hung on a leash. It is a promise braided with conditions. You picture the meetings, the minutes, the slow dilution of your voice until your proposal reads like a footnote in someone else's success story."
+    "Your chest tightens. The files seem to grow colder in your hands."
+
+    menu:
+        "Slide the files across the table, palms exposed":
+            "You push the documents toward him. Paper fan the light. Elias's fingers hover over them but do not immediately touch — a slow, deliberate pause that tastes like a warning."
+        "Keep the files close to your chest, voice steady":
+            "You draw the papers nearer, a physical boundary. Elias's smile narrows imperceptibly; he takes a small step forward, testing, prodding for weakness."
+
+    # --- merge ---
+    "Elias leans in a fraction, the rain-traced city reflected in his watch. He lets the silence fill the room like condensation."
+
+    elias_voss "An advisory seat is meaningful. You would have a voice in how the waterfront is shaped. You can influence mitigations. We can't have activists derailing progress with half-stories. This is a way to keep your community safe while moving forward."
+    "Your mind flashes through images: Ben's cracked hands on old rope, the nailed boards of the cove shop, Noor's careful spreadsheets pinned with clothespins. You think of your brother's emptied room and the way the sea took things without asking."
+    "The offer tastes faintly of velvet and something colder. Co-option is a slow surgery; it begins with a seat at a table and ends with your views footnoted."
+
+    maya_soler "You call it a voice. It sounds a lot like control. An advisory seat doesn't change the contracts that erase livelihoods. It doesn't un-patch the warranties that let workers be laid off while the corporation collects subsidies."
+    "Elias's expression shifts. His hands fold together — the pause like a held breath. For a second you see the politician peering out from the developer: persuasive, patient, practiced."
+
+    elias_voss "You'd have authority to recommend, Ms. Soler. You'd be listened to. Delaying completely is reckless — for the town, for the safety of properties on the line. My offer is a compromise."
+    "You can feel the tempo building: the rain, your heartbeat, the piano under the strings picking up an urgent line. Every syllable is a tide. The room narrows to the two of you and the small, dangerous architecture of the decision."
+
+    maya_soler "A compromise that keeps me inside your process is not a compromise. It's containment. I can't be the town's conscience and your glossy PR at the same time. If I'm in, I will be monitored. My advice will be filtered, my name leveraged. I won't let my community's future be used as a marketing campaign."
+    "Elias looks at you then in a way that's almost curious, as if watching a difficult animal that might be trained or might not. He closes his mouth and for the moment a different game plays on his face."
+
+    elias_voss "So your preference is to stand outside the process and... what? Force a delay with paperwork and protests? That makes you an obstructionist, Ms. Soler. It risks immediate protection for theoretical assurances. The people—"
+
+    maya_soler "The people are more than a press release, Elias. They are families. They're fishermen who know what a storm looks like when they hear it across the water. They're elders who remember the last failed promise. I will not let them be bargaining chips."
+
+    menu:
+        "Say, 'You will not use my name'":
+            "Your voice is a thread pulled taught with purpose. Elias's jaw ticks; you see him cataloging damage to his plan."
+        "Say, 'I will take this public'":
+            "He raises a brow as if you’ve thrown cold water. The muscles around his eyes tighten; he steps back a fraction, the first real retreat he's shown."
+
+    # --- merge ---
+    "Elias exhales, a sound too clean for an honest man."
+
+    elias_voss "Very well. If that is your stance, then I cannot have you muddling a streamlined process. A delay for a full independent review will result in withdrawal of my preferred investors. The board will not accept indefinite postponement."
+    "He smiles then, the thin, corporate grin you already know. It's almost apologetic, which makes it sharper."
+
+    elias_voss "I can offer a public delay of three months for a limited review, but understand this: when I withdraw clear, immediate support from investors, other alliances accelerate. People move to secure their interests. The broader momentum shifts. You will have your review. You will also have uncertainty. That is the trade. If you want clear funding and an expedited build, I can secure that — but the terms are non-negotiable."
+    "You feel something inside unclench. Not relief exactly — more like a clearing after a storm. This is clarity: the choice is not between a perfect solution and failure, but between a path that preserves the"
+    "town's agency and one that buys speed at enormous cultural cost. The arousal in the room peaks; your voice is a bell that primes the future."
+
+    maya_soler "I will not be co-opted. We will not let development override knowledge. If that means uncertainty, then we'll accept it and build a community solution. There will be no seat that brands us into silence."
+    "Elias's reaction is a fraction of movement you can hardly believe: the smile sharpens. He moves with the economy of someone trimming a loss."
+
+    elias_voss "Then you have made your choice. Be aware — withdrawing my offer means I accelerate other partnerships. I don't like wasting time. There are other towns, other deals. Momentum is a currency you just bankrupted."
+    "He pats the place where a handshake might have been, the mundane theater of his dismissal. The room seems to tilt as he signals the end of the negotiation."
+    "Maya stands rooted, the files like a small island at your fingertips. Outside, the rain begins to thin as if the weather itself is exhaling."
+    hide elias_voss
+    hide maya_soler
+
+    scene bg ch15_e67f19_2 at full_bg
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "Goodnight, Ms. Soler."
+    "He leaves without looking back. The sound his footsteps make down the hall is measured — the kind of step that carries a hundred people behind it on paper."
+    "You remain at the table, the papers a gravity. The kettle has stopped. Outside, the harbor is a smear of lighter dark. You feel raw and alive and so very awake."
+    # play music "music_placeholder"  # [Music: The strings explode into a rush of rapid, hopeful violins; brass swells. The arousal surges — not panic, but a fierce forward force.]
+    "Cut to:"
+    # [Scene: Elara Harbor — Boardwalk | Night]
+    hide elias_voss
+
+    scene bg ch15_e67f19_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sea makes a steady, sundered hiss. Footsteps on wood. Distant laughter that shrinks into the night.]
+    # play music "music_placeholder"  # [Music: A warmer motif — acoustic guitar doubling the piano; the rhythm still urgent but softer.]
+
+    "You walk the boardwalk, the town feeling both heavier and somehow kinder for the decision. People have already begun to cluster in living rooms and kitchens, talking in low voices about next steps. Rosa's messages buzz on your phone: committees, fundraisers, lists of names. Noor sends a photo of lab results with a caption" "I can mobilize peer reviewers. We can do this."
+    "You are exhausted, but your limbs are electric. There is the strange comfort of being awake to a real danger and responding to it — better than sleepwalking into a spectacle."
+    "A shadow waits at the end of the breakwater. Aiden Kuro. He stands with his back to you, hands in the pockets of his oilskin, cap pulled low. The sea throws a scatter of light at his boots. You approach, each step a small sacrament."
+    show aiden_kuro at left:
+        zoom 0.7
+
+    aiden_kuro "Thought you'd sleep in the council chambers with all the grandstanding."
+    "You allow a soft laugh that is almost a sob."
+    show maya_soler at right:
+        zoom 0.7
+
+    maya_soler "The calm was overrated. I finished with the developer. Left something intact and lost something else. The usual."
+    "He turns then, and the amber of his eyes catches the boardwalk lamps. Up close, he looks younger and more exhausted than the public persona you both wear. There is salt in his hair you didn't notice before. He studies your face like one reads a tide chart."
+
+    aiden_kuro "You told him no?"
+
+    maya_soler "I refused to be co-opted."
+    "Aiden moves to sit at the edge of the breakwater. You sit beside him; the concrete is cold and saline, grounding in a way the boardroom never was. Around you the sea breathes."
+
+    aiden_kuro "Rosa messaged. Ben's coming around. Noor's already lining up reviewers. We can do it. But it's going to be months. Years, maybe. People will get scared. Some will leave."
+    "He doesn't ask whether you regret it; he says the facts like someone making a list of gear before a storm. There's no accusation, only accounting."
+    "You take his hand — fingers rough from rope and work — and lace them with your own. The contact is electric and ordinary at once: salt, callus, a pulse that matches yours."
+
+    maya_soler "I don't regret it. There's a difference between safety and erasure. We buy safety when we keep our voice. If that means slow, if that means grassroots funds and committees and Ben telling stories about storms to remind the kids why we do this — I will take slow."
+    "Aiden's thumb rubs a small groove across the back of your hand. He stares out at the water, thinking."
+
+    aiden_kuro "I've been stubborn before. Maybe it's time stubborn looks different. Maybe it's rows of small things — a living breakwater here, a saved shop there. Maybe I still fish the old way and sell to a different buyer. Maybe we both make space."
+    "Your breath quickens. The arousal built through confrontation and the town's noisy life has not ebbed; it's shifted into something softer and more intense: the close pressure of two lives reweaving."
+
+    maya_soler "We'll have to be patient. We'll have to be loud in the right rooms. We'll teach new nets. We'll rebuild marshes. We'll keep records and hold meetings and sleep badly and keep loving badly and keep showing up."
+    "Aiden laughs, a thin, surprised sound like someone who has been given a compass and remembers how to use it. He takes the small carved compass from his jacket pocket — the one his father made — and turns it in his palm, offering it to you without a word."
+    "You don't take it; instead, you press your forehead to his shoulder, and the gesture is its own gift."
+
+    aiden_kuro "We'll make room for each other. Maybe not always in the same rhythm. Maybe not always in the same town map. But room."
+    "The two of you sit with the sea's steady murmur for a long time. The night is a stitched tapestry of worry and resolve. Around you, the town begins to move — fundraising events scheduled in"
+    "cafés, volunteers mapping marshland, Noor drafting peer-review requests, Rosa posting flyers by lamplight. The momentum returns, not as a single machine but as many hands pushing together."
+    # play music "music_placeholder"  # [Music: Crescendo into a warm, open theme — strings bright, piano calm; the arousal maintains its height but becomes productive, expectant.]
+    "You think of all the small work ahead: committees to organize, petitions to sign, grants to chase, boats to retrofit, wetlands to plant. You also think of the costs: some will leave, some livelihoods will shift,"
+    "nights will be longer. Your throat tightens with both grief and a fierce, hopeful certainty."
+
+    maya_soler "This is not victory. It is the beginning of a different war. It will be long. It will be hand-to-hand, home-to-home. But it is ours."
+    "Aiden squeezes your hand. You answer by tightening your fingers around his, not a clasp for ownership but a tether for the journey."
+    "A montage unfurls in quick, jagged beats: Rosa chalking signs; Ben telling a story to kids on a stoop; Noor at a laptop pinning a peer review to a public portal; volunteers canoeing through seedbeds with"
+    "shovels and seedlings; a potluck where neighbors argue and plan and laugh, plates clattering and helmets clinking like armor. The town's energy is a thousand small waves that gather into a tide."
+    hide aiden_kuro
+    hide maya_soler
+
+    scene bg ch15_e67f19_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter, the slap of boots, the call of a drilling auger, the soft cry of a gull.]
+    "This is the long view you chose. It is not tidy. It is not quick. It is stubborn and human and messy in the best ways. It is hopeful."
+    "You and Aiden carve new rhythms: days on the water, nights in meetings. You find intimacy in shared labor — knitting rope, hauling seedlings, trading quiet stories at dawn. Sometimes you lie awake worrying; sometimes you"
+    "argue and find better ways through. The distance is real sometimes — schedules pull you — but so is the connection."
+    # play music "music_placeholder"  # [Music: A soft duet between a lone violin and a warm cello — intimate, resolved.]
+    "Night falls again over the harbor. The city is quiet, but you can feel the new committees' hum like bees in a hive below the surface. You think of Elias speeding alliances and of the doors you shut. The future is still fogged, but the path now has footprints."
+    "You stand at the breakwater with Aiden, hand-in-hand, and watch a younger volunteer plant the final reed of the day. The wind threads through both of you, carrying salt and something like promise."
+    show maya_soler at left:
+        zoom 0.7
+
+    maya_soler "We can't control every storm. We can control our answer to it. We chose to keep that answer communal."
+    "Aiden squeezes your fingers once more, a small, steadfast metronome."
+    show aiden_kuro at right:
+        zoom 0.7
+
+    aiden_kuro "No single man will choose our future for us. We'll make it. Together, even if together looks different."
+    "You nod against the tide's low roar, and the feeling that rises is pure and clean: exhaustion braided with hope so fierce it hums in the teeth."
+    # play music "music_placeholder"  # [Music: Swells to a warm, concluding chord — not triumphant fanfare, but honest, enduring music.]
+    "You breathe in the sea air, feel the salt on your lips, the rough skin of Aiden's hand in yours, the town's small lamps dotting the distance. The path forward is long and uncertain and wholly"
+    "yours to stitch. The pressure that drove you to the glass room remains, but now it is redirected into shaping, tending, listening, and building — concrete and marsh grass both."
+    hide maya_soler
+    hide aiden_kuro
+
+    scene bg ch15_e67f19_5 at full_bg
+    # play music "music_placeholder"  # [Music: Resolute, warm; the theme fades slowly.]
+
+    scene bg ch15_e67f19_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,193 @@
+### SCRIPT
+# Route: Route C — Alt
+# Context: 453e40
+
+[Scene: City Hall — Records Office | Late Afternoon]
+[Background:"ch10_453e40_1"]
+[Sound: The low thrum of the building's HVAC, a distant council gavel echoing through the corridors, pages scraping as you sort documents.]
+[Music: Tense BGM — a low, pulsing string rhythm beneath a sharper piano motif.]
+
+You shoulder the weight of what you promised in the chamber like a physical thing — not just an idea but responsibility that needs signatures, dates, and corroboration. Rosa slides a stack of scanned minutes toward you; the fluorescent light picks out the edges like the teeth of a comb.
+
+Rosa Tan: "We found the contracts. The deliverables list matches the complaints from two towns — Seabrink and Halver. Short-term beach armor, then 'maintenance' clauses that pushed communities to accept more work."
+
+Maya Soler: "Read it to me."
+
+Rosa breathes fast — like she's been running. Her fingers tap the margins where she has already circled names and line items.
+
+Rosa Tan: "Look here — clause eighteen. It explicitly caps the contractor's liability and funnels all long-term monitoring to the municipality. Promises a fast 'protective uplift' and then—" (she swallows) "—the plan makes retreat economically impossible."
+
+You lean in. The paper smells faintly of printer ink and old coffee. Your thumb grazes a stamped date: three years ago, after a storm that left houses sitting lower in the mud. Each name is a small chronicle of lost trust.
+
+Prof. Noor Azizi: "The pattern is consistent," Noor says quietly, her spectacles sliding down as she flips between spreadsheets and a photo of a shoreline map. "Short-term engineered defenses, insufficient sediment transport modeling, and then contract clauses that prioritize remediation revenue over ecosystem recovery."
+
+You feel the room narrow. Noor's voice is a bracing, exacting instrument; it keeps you anchored as the facts pile up. The lamp throws shadows across the pages, turning margins into cliffs.
+
+Maya Soler: "If Elias's firm did this elsewhere, the town needs to know. We can't let him frame delay as obstruction."
+
+Rosa slams a hand on the table, a little too loud for the quiet. "We can build a case. Testimonies, invoices, those meeting minutes we pulled from the archive. But—" Her eyes find yours. "We'll be visible. He'll—"
+
+Before she finishes, the office door opens and a courier slips in with a sealed envelope and a name on the front: Voss & Meridian, Legal Counsel. The courier's boots squeak against linoleum; the sound throws you like a stone rippling in still water.
+
+[Sound: Envelope thud. The room exhales together.]
+
+You break the seal. Inside, on thick letterhead, the language is clinical and cold: formally demand cessation of defamatory actions; pursue all legal remedies; immediate removal of alleged accusations or face injunctive relief. The signature is Elias Voss's.
+
+Prof. Noor Azizi: "A warning. Preemptive. They're trying to intimidate."
+
+You feel your coral pendant against your sternum as if someone pressed their thumb there. It is heavier than normal — a pebble dragging at the center of a tide.
+
+Maya Soler: "They can send threats. They can't erase facts."
+
+Rosa Tan: "Threesome of problems: legal fees, counterclaims, and a smear campaign. If they run a narrative, people will start asking whether the living breakwaters are 'risky' because you 'rushed' them."
+
+Maya Soler: "Then we make the facts bulletproof."
+
+[INTERACTION]
+> Choice A: "Ask Noor to prioritize hard data — sediment and failure modes"
+> Choice B: "Tell Rosa to keep pushing testimony from Seabrink and Halver citizens"
+[Outcome A: Noor nods, already pulling up results from the coastal model. The hum of the computers swells; numbers and graphs become weapons in your hands.]
+[Outcome B: Rosa's eyes flash. She taps her phone — names and leads already appearing. The room feels like a beehive ready to swarm.]
+
+[Scene: Harbor — Ben Harper's Boat by the Breakwater | Early Evening]
+[Background:"ch10_453e40_2"]
+[Sound: Waves knocking in a steady, metallic rhythm; gulls, the distant call of a buoy clanging. The sea smells of iron and old fish.]
+[Music: Tense BGM intensifies — staccato strings under a rising cello line.]
+
+You walk the harbor to where Ben's boat lists gently against the piling. Ben's face is a map of storms; his voice comes out as if tested by wind.
+
+Ben Harper: "We were promised a 'quick fix' before. They put up concrete, it looked good for a year. The next time the spring tide hit, the marsh had nowhere to go. Drowned a neighbor's traplines."
+
+Aiden Kuro turns at the sound of Ben's words. You see him close down — jaw clenched, thumb worrying the wooden compass his father left him, the grain of the wood rubbed smooth.
+
+Aiden Kuro: "Offers already on the docks. A man in a blazer and a smile, money under his breath. They tell the fishers they'll cover boat retrofits and set up a 'protected' marina if they support the seawall. Payment upfront. Taxed to the eye, but not for the future."
+
+Maya Soler: "Who is he?"
+
+Ben Harper: "A Voss emissary. Heard him promising lifelines. What he doesn't say is what happens to the mudflats when those lifelines get paved over."
+
+Aiden Kuro's nails press into the compass so hard the braid squeaks. He doesn't look at you immediately; his eyes are on the horizon, measuring invisible tides.
+
+Aiden Kuro: "I don't like bargains that come dressed as salvation. They bind you with money, not with answers."
+
+Maya Soler: "We need to make sure the men and women on these docks have alternatives. If they take the offer—"
+
+Aiden Kuro [interrupting]: "If they take it, they'll buy shelter and sell future risk. I'll help, Maya, but—" (he exhales, the words raw) "—I don't want the town's next generation buying sealed promises."
+
+Your chest tightens. His voice is steady, but there's an undertow of anger. You can feel the line between you slightly taut, an invisible rope pulled by fear and stubborn hope. The sea behind him looks like gunmetal.
+
+[INTERACTION]
+> Choice A: "Ask Aiden to keep his circle from accepting offers for now"
+> Choice B: "Offer to bring concrete evidence to the docks — show them the Seabrink documents"
+[Outcome A: Aiden looks at you. A beat passes where the wind fills the silence; then he nods, jaw unclenching slightly. 'I'll talk to them,' he says, voice low.]
+[Outcome B: Your words plant a seed. Aiden's eyes sharpen. He rubs the compass once, as if finding a course. 'Bring it,' he says. 'They need to see the ledger and not just the coin.']
+
+[Scene: City Hall — Main Corridor | Dusk]
+[Background:"ch10_453e40_3"]
+[Sound: Your footsteps, the muffled hum of the street below, the crisp click of Elias's shoes as he approaches.]
+[Music: Tense BGM reaches a peak — a high sustained note with a low cluster beneath it.]
+
+Elias Voss: "Ms. Soler. I trust you received my correspondence."
+
+Maya Soler: "You have a talent for timing."
+
+Elias Voss: "And for protecting investments. I want to be clear: my firm has a reputation to maintain. Allegations are dangerous. They harm investors, destabilize markets, and—" (he lifts a hand, mild) "—they harm people who think they're helping."
+
+You feel each word as a deliberate edge. His gaze is steely blue, assessing, unreadable. For a second you see the entire corridor reflected in his lenses, including the tremor of your own hand at your side.
+
+Maya Soler: "There's a difference between protecting a reputation and hiding harm. We're not accusing at random. We have documents. Testimonies."
+
+Elias Voss [tilting his head]: "You have documents and testimonies, yes. You have passion. But passion is not evidence admissible in court. Proceed, and you risk the very pilots you claim to protect. Legal action is costly."
+
+He steps closer; the perfume of his cologne is faint, businesslike — bergamot and a trace of something metallic, like new coins.
+
+Elias Voss: "Allow me to advise you: delay public accusations. Let an independent review be convened. Or—" (his smile narrows) "—face consequences that may make your work, and your life, more complicated than you're prepared for."
+
+Maya Soler: "You speak as if you offer benevolence. The towns you worked in show a different track record."
+
+Elias Voss: "History is subject to interpretation, Ms. Soler. But I will say this plainly: bring any material you have to me first. I will ensure it is properly handled. If you go to the press or the council with unverified claims, I will defend my firm's livelihood."
+
+The corridor feels suddenly colder. You imagine headlines, legal notice blocks, the slow, grinding bureaucracy of injunctions.
+
+Maya Soler: "A public review is already an option. Independent experts will speak to the data."
+
+Elias Voss: "Independent sometimes just means delayed." (he straightens his cuff) "Think of the fishermen, the businesses. Quick action saves lives."
+
+Rosa's voice echoes behind you from where she had been gathering calls — a brittle sound. Noor stands close, hands clasped.
+
+Prof. Noor Azizi: "We won't be intimidated by threats of litigation. The science is what it is."
+
+Elias Voss: "Then present the science, Ms. Azizi. To me. To the panel. Not splashed in a headline that costs livelihoods on a rumor."
+
+He turns, but not before his glance skims you — cool, surgical. The look leaves a bruise you cannot see.
+
+[Scene: Records Office | Night — Rain Against Windows]
+[Background:"ch10_453e40_4"]
+[Sound: Rain, the clack of a keyboard, a kettle sighing; the room feels alive with small noises.]
+[Music: A high tension string motif underpinned by a racing heartbeat percussion.]
+
+Hours fold into each other as you and Rosa and Noor sift through pages. Each file is a small wound; each redaction a scar.
+
+Rosa Tan [softly]: "There's a name here — a consultant who flagged issues and was ignored. He went quiet after the contracts changed hands."
+
+Maya Soler: "Track him down. Find him. If he speaks, it ties those clauses to outcomes."
+
+Prof. Noor Azizi: "If we can show model predictions and post-construction reality aligning with increased erosion, that's compelling. The legal threats may slow us, but data can withstand scrutiny."
+
+Your phone buzzes with a text: an anonymous tip — a scanned invoice with a signature that matches correspondence in Voss's past projects. Your thumb hesitates before opening it. The coral pendant rests hard against your throat. The noise of rain, the feeling of paper, the aftertaste of stale coffee — everything compresses into a single pressure.
+
+Maya Soler [thinking]: "If we proceed secretly, we can build airtight corroboration. If we go public, we might stop the seawall now but risk being silenced. If we confront Elias privately, he might buy time — or bury evidence."
+
+Your chest tightens. Fear thins your breathing. You can picture smear campaigns, a litany of headlines that reduce careful science to cartoonish grievance. You can picture the fishermen tempted by emissaries' coin. You can picture Aiden's face when he hears his neighbors took money and sold the shoreline schoolchildren would inherit.
+
+Aiden Kuro's last words to you hover in the room like salt fog: "Bring it. They need to see the ledger and not just the coin."
+
+Ben Harper's voice — slower, thick with memory — reminds you of people who lost not just money but dignity. "You dig for bones, you find stories. You have to ask if you're ready for what you'll unearth."
+
+You press your palm to the stack of documents as if steadying something alive.
+
+[Music: A single sharp violin stroke; the tempo quickens toward a high, urgent cadence.]
+
+You know the next move will define not only strategy but safety. The weight spreads across your shoulders: legal bills, smear campaigns, ally support, betrayal, the potential to expose truth that may save lives — and the potential to lose everything.
+
+Your coral pendant is an anchor and a battery; it pulses now with the urgency of tides.
+
+Maya Soler [softly]: "We have to choose."
+
+[INTERACTION]
+> Choice A: "Hold a secret meeting tonight to collect more documents and corroborate stories."
+> Choice B: "Go public immediately and force a formal investigation."
+[Outcome A: Rosa nods, eyes bright and fierce. 'We do it quietly. Bring proof, testimonies, the consultant.' Noor begins listing experts to call. The plan smells of midnight and rain and the resolve that comes from being cornered.]
+[Outcome B: Rosa's face tightens like a drumhead. 'We will be visible,' she says. 'We'll call the press, demand a hearing. Either it stops him, or it paints a target on our backs.' Noor hesitates, then sets her jaw, 'If the science stands, transparency is the right weapon.']
+
+[Scene: City Hall — Stairwell Landing | Just Before Midnight]
+[Background:"ch10_453e40_5"]
+[Sound: Distant siren. The slap of a pigeon on the banister. Your own breath, loud in your ears.]
+[Music: Tense BGM peaks — urgent strings and a low brass hum. The tempo screams forward.]
+
+Your heart is a metronome gone irregular. Rosa is poised, Noor is steady but weary, Aiden's last look at you before he left was a quiet contract — he will do what he can. Ben's memory is the ballast under your feet.
+
+You can feel Elias's legal finger on the scale, the emissaries on the docks planting seeds of division, and the townspeople who will inevitably be caught in the middle. The evidence in your hands is heavy with names and outcomes; it is the kind of burden that reshapes a person if they carry it alone.
+
+Your throat tightens. The room seems to expand and contract with your decision.
+
+[Music: The strings taper to a single sustained note. The drumbeat stops, leaving only the rush of blood and the distant ocean.]
+
+You reach for the files. For a breath, you consider hiding them back in the box, walking away, letting someone else take the risk. Then you think of your brother, of the house the water took, of the small wooden compass Aiden keeps like a talisman. Courage is not absence of fear; it's action despite it.
+
+[DECISION POINT]
+How to use the evidence.
+1) Hold a secret meeting to collect more documents and corroborate stories. -> TARGET chapter_id: [11]
+2) Go public immediately and force a formal investigation. -> TARGET chapter_id: [12]
+3) Confront Elias privately and demand a pause. -> TARGET chapter_id: [11]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Hold a secret meeting to collect more documents and corro..." -> ID 11 (Route C)
+    > Jump Target File: script_ch11_Route_C_ctx_e67f19.txt
+Option 2: "Go public immediately and force a formal investigation." -> ID 12 (Route C — Ending)
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_e67f19.txt
+Option 3: "Confront Elias privately and demand a pause." -> ID 11 (Route C)
+    > Jump Target File: script_ch11_Route_C_ctx_e67f19.txt

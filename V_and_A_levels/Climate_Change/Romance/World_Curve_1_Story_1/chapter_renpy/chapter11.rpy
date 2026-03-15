@@ -1,0 +1,239 @@
+label chapter11:
+
+    # [Scene: Floodlit Forum | Evening]
+
+    scene bg ch10_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Tense, driving percussion under a thin high-register synth]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, a nylon banner snapping, murmurs rising to a hum]
+    "You stand behind the barricade of folding chairs and placards, your field notebook a small, familiar weight against your ribs. The choice you made in that tight room—public confrontation—has a sound now: the drone of cameras, the rattle of microphones, the way the crowd breathes together, waiting."
+    "Amaya moves beside you like a current—efficient, precise—handing you a legal pad stamped with the subpoena and a printed affidavit. Her voice is low but steady."
+    show amaya_chen at left:
+        zoom 0.7
+
+    amaya_chen "They approved the subpoena. Rowan's testimony is cleared. The ex-engineer took the immunity deal—we have him on record if they try to push him off the stand."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Good. Keep him close to the podium. Keep the press corral tight."
+
+    amaya_chen "And Elias? He's on your left. Media liaison, but he'll stand with you."
+    "Elias Stone [quiet] shifts into place, a compact presence. You notice his hands—callused at the edges, the way his fingers curl around the strap of his satchel. He's more tense than he lets on; his eyes"
+    "flick between the cameras and the microphone as if tracking the arc of your argument across light."
+    show elias_stone at center:
+        zoom 0.7
+
+    elias_stone "If you want me to cut to the models, I can—walk them through the math so it isn't just a story."
+
+    maya_reyes "Keep it human. Start with the maps."
+    "He smiles once, tight. There are things between you that might be called complicated, and right now they are compressed into a simpler fact: he's here."
+    hide amaya_chen
+    hide maya_reyes
+    hide elias_stone
+
+    scene bg ch10_453e40_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs swell into a chant—fragments: "accountability," "no seawall without us," "protect the marsh."]
+    "Lito [yelling]'s voice cuts through the noise—raw, immediate."
+    show lito_reyes at left:
+        zoom 0.7
+
+    lito_reyes "You can't take the coves! Those boats are our bread!"
+    "His shout lands on the assembly like a thrown stone. You feel the shock in your chest, a mixture of fear and the combustive clarity that comes before action."
+
+    menu:
+        "Open your notebook and scan the tide maps one last time":
+            "You flip the worn pages with a thumb that remembers every crease. The archival maps—hand-drawn marks, your grandmother's annotations—anchor the story you'll tell. Elias nods once, as if he recognizes the maps' gravity."
+        "Step forward and quiet the crowd with your voice":
+            "You lift your chin and call for attention. Your voice finds its own place in the roar—firm, controlled. The crowd hushes to a brittle attention that can snap or hold. Amaya's eyes lock with yours, approving."
+
+    # --- merge ---
+    "The scene continues below."
+    # [Scene: Televised Hearing Venue — Interior | Immediately after]
+    hide lito_reyes
+
+    scene bg ch10_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Staccato strings add urgency]
+    # play sound "sfx_placeholder"  # [Sound: The moderator's gavel—metallic and small—echoes; the PA system has a thin reverb]
+    "Mayor Sofía steps to the microphone with the sort of forced neutrality officials wear like armor. She looks tired—like compromise has cut into her sleep. You can see the calculation behind her eyes: policy, votes, liability."
+    show mayor_sofa_lvarez at left:
+        zoom 0.7
+
+    mayor_sofa_lvarez "We will hear testimony from both sides. Order will be maintained. Ms. Reyes, you requested this hearing—state your opening."
+    "Your throat narrows. The floodlights press heat against your back; salt-spray has crusted the collar of your jacket. It is small things—salt between skin and fabric—that make the fight feel immediate."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "This isn't about a single building or a single profit margin. It's about the calculations that write us out of the map. I have data and testimony that suggest the firm's risk models understate tidal variance—and the community deserves an independent audit."
+    "A cluster of cameras swiveled toward Camille Duval, who has arrived with the air of someone who steps into a room already measured. Her storm-gray bob is immaculate beneath a rain hood; her suit is the kind of cut that organizes light."
+    show camille_duval at center:
+        zoom 0.7
+
+    camille_duval "Ms. Reyes, emotion is persuasive. Science has to hold up to scrutiny—ours has. Duval has the city's safety in mind."
+    "You sense the way her words are practiced, designed to sit on top of other statements and make them feel less urgent. The crowd grumbles; a reporter's pen scratches faster."
+    "Rowan Hale is led in, slower than he used to be, his white hair damp at the temples, coat flecked with marsh mud. He sets a trembling stack of maps on the lectern—his hands steady when he speaks, the weight of years in each measured word."
+    hide mayor_sofa_lvarez
+    show professor_rowan_hale at left:
+        zoom 0.7
+
+    professor_rowan_hale "I've researched these shorelines for decades. There are discrepancies in the firm's baseline assumptions—erosion rates, tidal amplification during storm clustering. I stand by my analysis and will answer questions."
+    "Camille Duval exhales like a small, controlled machine."
+
+    camille_duval "We welcome scrutiny. If there are gaps, Duval will address them. But we must also consider the cost of delay."
+    "The moderator turns the room to the ex-Duval engineer—subpoenaed, escorted, eyes rimmed by fatigue. He is younger than you expected; his hands shake when he touches the microphone. There's a shame or dread folded into his"
+    "posture, and he looks at Camille Duval as if searching for a shadow to stand behind."
+
+    "Engineer" "I worked on risk projections for Duval. There are model choices—assumptions—that favored lower worst-case inundation in some scenarios. I voiced concerns. I was—dismissed."
+    "A hush. The microphones amplify the smallness of the word."
+    "Camille Duval's representatives move, sleek and immediate. A legal counsel rises with a prepared, practiced tone that sounds like an attempt to cool a fever."
+
+    "Duval Counsel" "These are complex models. Single testimonies do not overturn peer-reviewed work. We will provide full records to any independent auditor appointed by the city."
+    "Elias Stone speaks up, gently but with force. His voice cuts beneath the formalities with a practical clarity."
+    hide maya_reyes
+    show elias_stone at right:
+        zoom 0.7
+
+    elias_stone "Peer review means nothing if peer reviewers are looped into proprietary processes. We need transparency in assumptions—the tide clocks, the historical markers. Show us the inputs, not just the outputs."
+    "The engineer coughs, then forces a laugh that tastes like metal."
+
+    "Engineer" "Some of the inputs were adjusted to reflect what the company thought the city could absorb financially."
+    "The phrase 'financially absorb' lands like a ledgeristic guillotine."
+
+    menu:
+        "Press Rowan to point to a specific map detail":
+            "You step closer, hand hovering over the map. Rowan's finger traces a faint line you recognize—the old boundary where your family fished. He points and says the erosion trend is worse than in the firm's presentation; the camera leans in, hungry."
+        "Keep the line of questioning broad, focus on systemic transparency":
+            "You widen your argument: models are not neutral; they're governance. The room listens for policy implications rather than a single failing. Elias murmurs, 'Good—this shifts it from anecdote to structure.'"
+
+    # --- merge ---
+    "The hearing proceeds with the crowd and officials reacting to the testimony."
+    hide camille_duval
+    hide professor_rowan_hale
+    hide elias_stone
+
+    scene bg ch10_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The murmur grows; someone starts a chant again outside—voices like surf]
+    "Mayor Sofía's expression hardens. She flies between public safety and political pressure."
+    show mayor_sofa_lvarez at left:
+        zoom 0.7
+
+    mayor_sofa_lvarez "If we appoint an external audit, there is a procedural timeline. Funding windows are real. Duval has pledged mitigation in the interim—"
+    "You interrupt, because waiting a procedural timeline could mean foundations poured and marshes paved before review."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "An audit with teeth. An immediate halt on irreversible work until the audit's basic findings are verified. We are not asking for theater—we are asking the city to pause the conveyor belt."
+    "Camille Duval's jaw tightens. You can see her decide the acceptable intervals of human feeling."
+    show camille_duval at center:
+        zoom 0.7
+
+    camille_duval "A pause risks losing the project momentum and the federal funds aligned to this timeline. Delay can cost lives if the alternative is inaction."
+
+    maya_reyes "Or it costs lives if the action is wrong."
+    "The crowd leans; the microphones drink every syllable. Lito yells something else about the boats and his voice is a raw underline beneath the legalism. The ex-engineer swallows hard, then meets the cameras straight on."
+
+    "Engineer" "There were instructions—'optimize for minimal disruption'—phrased as policy but given a modeling weight that reduced projected risk in key scenarios."
+
+    "Duval Counsel" "We deny any deliberate misrepresentation. These are assertions to be tested, not trumped by hearsay."
+    "The tempo of the room accelerates; the floodlights feel closer. You hear the distant whir of a helicopter—an extra circuit of attention."
+    # [Scene: Hearing — Later Evening]
+    hide mayor_sofa_lvarez
+    hide maya_reyes
+    hide camille_duval
+
+    scene bg ch10_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: A rising, urgent motif—drums with a brass undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: A synchronized chorus of phones recording, keyboards clacking]
+
+    "A Duval spokesperson holds a press conference on the plaza steps an hour after the testimony. The words are slick" "thorough,' 'transparent,' 'cooperative.' They promise their own internal reviews, legal cautions, and an offer to 'work with the city to avoid undue disruption."
+    "Amaya comes up to you, breathless."
+    show amaya_chen at left:
+        zoom 0.7
+
+    amaya_chen "They've launched a PR counter. Legal sent an injunction team to the firm's legal counsel. They'll push back fast."
+    "You feel the room tilt. This is the cost you knew might come—the corporate machine is practiced at momentum control. Truth on air can be an accelerant and a beacon simultaneously; you watch as it becomes both."
+    "Elias Stone rests a hand at the small of your back for a second—an index of support that says, for now, we are standing together in this. His fingers are cool; his presence is a firming force against the tremor in your hands."
+    show elias_stone at right:
+        zoom 0.7
+
+    elias_stone "We can ride this. The narrative is with us now—if we keep the pressure focused and don't get bogged down in litigation noise."
+    show maya_reyes at center:
+        zoom 0.7
+
+    maya_reyes "They'll try to drown us in paperwork and timelines."
+
+    elias_stone "Then we make the story public record. We don't let them own the pause."
+    "Camille Duval watches from across the plaza, her expression a ledger of the next move. Her legal counsel speaks into a phone; the Duval machine spins up. You can see polished statements being drafted as if from a factory."
+    "Camille Duval approaches the dais with an economy of motion that reads as both confidence and containment."
+    hide amaya_chen
+    show camille_duval at left:
+        zoom 0.7
+
+    camille_duval "I respect the community's concerns. Duval will cooperate with a properly scoped, expert-led audit. My question to this room is simple: do you want hasty action or accountable action?"
+    "There's applause—some spontaneous, some assisted by staff with prepared cards. The question is rhetorical, but it splits the plaza's mood along a thin, dangerous line."
+
+    maya_reyes "Accountable action—now. Not after the fact."
+    "The cameras amplify the word 'now.' For a moment, the tide of opinion seems to lean toward you. Mayor Sofía shifts in place; the pressure is visible in the set of her jaw."
+    hide elias_stone
+    show mayor_sofa_lvarez at right:
+        zoom 0.7
+
+    mayor_sofa_lvarez "I will propose an emergency motion: a limited, external audit with binding temporary restrictions on irreversible work until the audit's initial findings are reported."
+    "A cheer breaks out, but it's quick, anxious—like releasing a held breath into colder air."
+    "Then, almost as if synchronized, Duval's legal team issues a statement threatening litigation for any measures it deems to violate contractual obligations tied to the funding window. Their PR channels begin a narrative about 'delays threatening safety investments.'"
+    "The friction of policy and politics snaps louder than you expected. The plaza's temperature drops; the press coverage begins to bifurcate."
+    hide maya_reyes
+    hide camille_duval
+    hide mayor_sofa_lvarez
+
+    scene bg ch10_453e40_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A camera shutter like a rustle of wings]
+    "You feel the weight of consequence settle into the bones of the night. Exposing Camille Duval has pulled a seam in the civic fabric—the wound is visible and necessary, but it will be raw."
+    "Rowan Hale touches your arm, slow and deliberate."
+    show professor_rowan_hale at left:
+        zoom 0.7
+
+    professor_rowan_hale "Truth has teeth, Maya. It will hurt. But it heals if set to work."
+    "You want to believe that. You also know your community's resources are finite—the ache in your chest is not just fatigue but a ledger of people counting what they can give."
+    "Camille Duval steps up to you, close enough that you can smell the faint antiseptic of her coat. Her eyes are an assessment."
+    show camille_duval at right:
+        zoom 0.7
+
+    camille_duval "You forced me into answers. That's political theater, Ms. Reyes. Be careful what powers you awaken."
+    show maya_reyes at center:
+        zoom 0.7
+
+    maya_reyes "I'm careful with my neighbors. You should be careful with your models."
+    "She smiles then, the kind that doesn't reach the eyes."
+
+    camille_duval "We shall see which is the more dangerous—delay or haste."
+
+    menu:
+        "Answer Camille directly, frame it as a personal challenge":
+            "You meet her smile with steady eyes, say, 'Danger, yes—but not to the people who call this shoreline home.' The cameras catch the exchange; murmurs ripple."
+        "Turn back to the crowd, use their voices as your authority":
+            "You face the crowd and let them speak for you. Lito's voice rises again, and the camera follows him; the narrative becomes communal rather than between two individuals."
+
+    # --- merge ---
+    "The public moment consolidates; the hearing's immediate victory remains precarious as legal counters accelerate."
+    hide professor_rowan_hale
+    hide camille_duval
+    hide maya_reyes
+
+    scene bg ch10_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: The percussion accelerates—urgent, relentless]
+    # play sound "sfx_placeholder"  # [Sound: Helicopter blades, a distant thunder roll]
+    "You stand on the small stage of consequence. The hearing's immediate victory—answers in public—has not yet translated into policy. Legal counters have appeared like undertows. The night bristles with implications: audits, injunctions, funding timelines, and the very real labor of neighbors who will feel each delay."
+    "Your notebook is open in your hands. The tide maps, Rowan's annotations, the ex-engineer's affidavit—they are physical things you can point to, paper anchors against spin."
+    "You look at Elias Stone. He looks back—steady, present, and you feel the moment crystallize: this is not the time for private concessions. This is the time the public story is written."
+    "You inhale. The red light of the live camera glares. The moderator clears his throat to call for order. The press begins to ask new, sharper questions. Outside, the crowd gathers into tighter waves, voices threading into demands."
+    "You step forward toward the microphone. The night sharpens to a blade-edge. You can hear your pulse in the metal casing."
+    "You collect the maps, the testimony, the city's options into a single sentence you mean to say—an instruction and a plea that will reverberate across airwaves and council chambers."
+    "You open your mouth."
+    # play music "music_placeholder"  # [Music: Sudden swell—strings and percussion at highest volume]
+
+    scene bg ch10_453e40_8 at full_bg
+
+    scene bg ch10_453e40_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter12
+    return

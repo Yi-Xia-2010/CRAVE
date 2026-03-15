@@ -1,0 +1,130 @@
+### SCRIPT
+# Route: Multi-route Final (True Ending)
+# Context: 98c6f2
+
+[Scene: Civic Rooftop Garden | Indigo Dusk]
+[Background:"ch3_98c6f2_1"]
+[Music: Warm, hopeful strings with a steady pulsing undercurrent]
+[Sound: Low murmur of a gathered crowd; wind through dried ornamental grasses; distant gull cry]
+
+You climb the last worn step with the satchel heavy against your hip and the town folded behind you. The evening smells of wet wood, compost, and salt—familiar as breath. Lanterns wink awake in a deliberate rhythm, casting soft pools of light across muddy boots and damp coats. The crowd is larger than you feared: neighbors in raincoats, old fishermen with caps pulled low, teenagers leaning on concrete ledges, and the faces you alone came to steady — Tomas, Maya, Linh, Kai. Your fingertips go to the silver band at your throat. It taps the undercurrent of your guilt, then settles.
+
+[Background:"ch3_98c6f2_2"]
+[Sound: Microphone static, then a steadying hush]
+
+You clear your throat, listen to the hush catch like a net, and then speak.
+
+Aria Marin: "Thank you for coming. Tonight isn't about any single fix. It's about what we can do together — the combinations of craft and care that keep people here, and keep what makes Salthaven Salthaven."
+
+You watch them read the plan off your face before you lift a hand to the printed timeline: terraced living shorelines to slow erosion, community-led buyouts for the most vulnerable, job-training for local labor, and a small protected cultural district mapped from oral histories. You do not offer it as a perfect sheet, but as a scaffold — something that holds long enough for people to build on.
+
+Dr. Linh: "We've modeled outcomes at three scales. Living shorelines reduce wave energy and buy time for neighborhoods that can't be relocated cheaply. We can start in the marsh fringe, measure, then adapt. It's not mutually exclusive with engineered protections — it's complementary."
+
+Maya (pressed forward, voice bright): "And we archive what matters. Murals, old docks, the stories in Tomas's walking stick — they stay in our plan as reasons to keep fighting."
+
+Elder Tomas (voice rough like rope): "We've buried enough houses to know what the sea takes. We don't need more elegant promises. We need work we can trust."
+
+[INTERACTION]
+> Choice A: "Look directly at Kai Solano"
+> Choice B: "Scan the crowd for wavering faces"
+[Outcome A: "You lock eyes with him; his jaw tightens and heat travels behind his earnest amber gaze."]
+[Outcome B: "Your eyes find a young couple with a toddler and an older woman with a rain-cured face; your resolve steadies at the sight."]
+[MERGE: Narrative continues]
+
+You feel Kai Solano as if his presence were a physical tide. He leans forward, elbows on his knees, hands folded as if ready to throw them into the sea to haul something back.
+
+Kai Solano: "That's a plan. It reads like patience. We don't have patience. We have a construction site digging where our people still sleep. If we don't stop the Arcology tonight, the ground will be stirred, the piles driven, and the displacement will start before anyone's 'pilot' has measured anything."
+
+Aria Marin: "I'm not asking for patience as an excuse. I'm asking for a way to avoid making the same mistakes we've made before — decisions that strip neighborhoods without giving people options."
+
+Kai Solano: "Options are for people with options. Most folks here are on the line already. Direct action changes the cost calculus. If the developers see we won't let them build, they'll have to back down."
+
+[Sound: A ripple of agreement from a corner of the crowd; a scattered cheer]
+
+Noah Vega appears at the edge of the light as if he stepped into the frame from someplace clinical and bright. His weatherproof blazer is the color of a calm ocean before a storm; his tablet throws a cool face of schematics into the blue. He carries the calm of someone used to charts and deliverables.
+
+Noah Vega (polite, measured): "Aria, Kai — everyone. The Arcology, as currently proposed, presents a rapid way to restore the town's economic spine. A seawall, designed and built to the latest standards, could protect the low-lying commercial strip and fund the redevelopment of affected lots. It isn't a panacea, but it reduces immediate risk and creates jobs."
+
+Murmurs split first like gulls over water, then like the town itself: some nod toward Noah Vega — the language of jobs and timelines is persuasive; others tighten at the word 'seawall' as if profanity had been spoken.
+
+Aria Marin (internal): You see both of them — Kai Solano, who will not wait while people lose their homes; Noah Vega, who can mobilize capital fast. Both want the town safe. Both are blunt instruments aiming at the same sore. Your chest tightens at the thought of choosing a tool over a person. Compromise, you think, should be a craft, not a surrender.
+
+[INTERACTION]
+> Choice A: "Ask for one minute of silence to hear all voices"
+> Choice B: "Invite a show of hands for immediate blockade support"
+[Outcome A: "You raise a hand and the rooftop quiets; in the silence you hear a distant gull, the creak of a lantern line, and the small sounds of waiting. It buys you the breath you need."]
+[Outcome B: "Your question ripples outward; a dozen hands shoot up, then a dozen more — the night is ready to become motion."]
+[MERGE: Narrative continues]
+
+Dr. Linh steps in, fingers tapping a tablet, eyes quick with data and care.
+
+Dr. Linh: "The models say phased pilots allow learning and community oversight. If we pilot living shorelines with workforce training contracts for local crews, we build capacity and evidence. But — and this is important — pilots are slow when people face immediate threats. We need safety measures in the interim."
+
+Elder Tomas: "We balance memory and survival. Protect what must be held and give the people who'll lose most a seat at the table."
+
+Kai Solano (edge sharpening): "A 'seat' doesn't stop excavators. Are we voting to tell crews to stand down tonight?"
+
+Noah Vega (cool): "Excavation schedules can be paused if we negotiate terms that secure the project and the town. A seawall, responsibly built and scaled with cultural setbacks, limits immediate flood risk. It's not charity; it's a binding contract that assures insurance and businesses return."
+
+Aria Marin: "Binding contracts that leave people houseless don't bind the next generation to this place. Binding contracts that build living infrastructure with community labor do."
+
+Kai Solano slams his palm to his thigh. His voice rises without becoming unmoored.
+
+Kai Solano: "Then help us build that binding contract tonight. Support us at the Arcology. Close the site. Block the machinery. If we don't stop them physically, the rest is paperwork."
+
+Noah Vega curtly taps at his tablet, brings up renderings that show an elevated promenade, retail spaces, a clean-cut seawall that would lift the downtown by meters.
+
+Noah Vega: "Or we choose a scaled, engineered approach. It brings immediate structural protection and a budget to fund buyouts for those displaced. We can institute cultural protections in the redevelopment plan. It's the pragmatic route."
+
+[Music: Strings swell with hopeful resolve; underlying pulse quickens]
+[Sound: A single board creaks; someone nearby exhales]
+
+You feel the crowd divide like a high tide slicing a sandbar — not violent, but definitive. Faces on either side of you hold different kinds of conviction: furious, fearful, resigned, hopeful.
+
+Aria Marin (internal): The guilt that lives in the back of your ribs tightens. Every time you've sought consensus it has felt like both your duty and your burden. You were the planner hired to make choices that mattered; you were the one who left once and returned with tools. Now people look at you to translate ethics into deliverables, grief into schedules. You want to be both brave and fair; both are heavy to carry.
+
+Maya (voice small and fierce): "Aria, if you stand with the people tonight, we will be louder — but we need protection for those who can't march. If you choose the room, some of us will be left in the rain."
+
+You step forward, palms open. You want to be something that will hold all of them. Your voice is steadier than your inner scramble.
+
+Aria Marin: "This isn't about me picking sides to save face. It's about how we choose to act so that fewer people are harmed. I need to hear what we can do right now to prevent immediate displacement and what we can commit to — in writing, enforceable, transparent — to protect culture and livelihoods."
+
+Kai Solano: "So? Will you stand with us?"
+
+Noah Vega: "Or will you let me negotiate terms that lock protections in legally?"
+
+You look from one to the other. Both faces are honest in their ways. Both believe that their route is the path to saving Salthaven. The rooftop feels like the hinge of the town: if you shift one way, momentum follows.
+
+[Background:"ch3_98c6f2_3"]
+[Music: Quiet hopeful chord holds, then opens slightly like a tide revealing more shore]
+
+You sense that whatever you decide will change the months to come — who builds with you, who protests against you, who sleeps with the least certainty.
+
+Aria Marin (internal, rising): Hope, you realize, is not the absence of conflict. It's the belief that conflict can be turned to craft. Your mouth forms the word you’ve been practicing: "compromise." It tastes like salt and something like promise.
+
+Your throat tightens. The crowd waits. The air is expectant.
+
+[Sound: A soft, unified intake of breath from the rooftop; somewhere a child fidgets]
+[Music: Strings swell to a warm peak]
+
+You stop — not because you don't know the stakes, but because you must choose the shape of action that will define the next move. The plan, the people, the town — they hinge on this one decision.
+
+[Decision Moment — Major Choice Approaches]
+
+You now face the fracture in the crowd and the question of how to respond.
+
+[DECISION POINT]
+1) Option 1: "Support Kai’s direct action tonight and bring the town into the streets." -> TARGET chapter_id: [4]
+2) Option 2: "Open a private negotiation with Noah and offer concessions." -> TARGET chapter_id: [7]
+3) Option 3: "Propose a hybrid pilot that combines living shorelines and a scaled wall while delaying construction." -> TARGET chapter_id: [10]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Support Kai’s direct action tonight and bring the town in..." -> ID 4 (Route A)
+    > Jump Target File: script_ch4_Route_A_ctx_453e40.txt
+Option 2: "Open a private negotiation with Noah and offer concessions." -> ID 7 (Route B)
+    > Jump Target File: script_ch7_Route_B_ctx_453e40.txt
+Option 3: "Propose a hybrid pilot that combines living shorelines an..." -> ID 10 (Route C)
+    > Jump Target File: script_ch10_Route_C_ctx_453e40.txt

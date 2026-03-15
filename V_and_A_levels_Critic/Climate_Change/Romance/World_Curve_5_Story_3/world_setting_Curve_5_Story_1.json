@@ -1,0 +1,115 @@
+{
+    "design_logic": "I interpreted 'Climate Change' + 'Romance' as a story where planetary stakes are mirrored in intimate relationships: choices about communities, technology, and sacrifice become decisions about trust, commitment, and moral alignment. The core conflict places a protagonist torn between grassroots resilience and high-tech geoengineering — and between two forms of love that represent those paths. This lets players explore ethical trade-offs through romantic bonds and personal growth, making systemic issues emotionally tangible.",
+    "setting": "Near-future coastal metropolis and its battered outskirts (approx. 2042). The city — once a concrete frontier — now balances reclaimed wetlands, rooftop farms, and emergency sea barriers. Seasonal superstorms, persistent tides, and intermittent blackouts shape daily life; public spaces mix salvaged materials with adaptive green architecture. The atmosphere is melancholic but tenacious: ruins and hope co-exist.",
+    "visual_style": "Semi-realistic watercolor anime with ecological textures, soft backlighting, muted coastal palette, tactile material rendering (wet concrete, salt-stained metal, moss), occasional neon for corporate hubs",
+    "main_characters": [
+        {
+            "name": "Aiko Mori",
+            "role": "Protagonist",
+            "personality": "Empathetic pragmatist: scientifically literate but community-focused, cautious with strangers, quick to comfort others, slow to accept grand promises. Has a dry humor and persistent hope despite frequent disappointments.",
+            "appearance_features": {
+                "hair": "Deep green-black, chin-length asymmetrical bob with a faded undercut at the nape and a single silver streak by the temple",
+                "eyes": "Warm hazel with tiny emerald flecks and a slightly tired, observant shape",
+                "clothing": "Worn, olive-weatherproof field jacket with hand-stitched patches, charcoal cargo trousers with reinforced knees, layered thrifted sweaters (one hand-knit), sturdy rubber-soled boots with salt stains",
+                "accessories": "Tattered leather notebook filled with tide maps and sketches, a small solar-powered pendant lamp, a braided textile wristband woven from community fabric"
+            },
+            "goal": "Build sustainable, community-led resilience systems to protect the coastal neighborhoods and preserve local livelihoods.",
+            "background_story": "Former urban climatologist whose early career at a research institute was sidelined by corporate-funded geoengineering projects. After a catastrophic storm flooded her neighborhood, she returned home to coordinate resilience efforts with neighbors. She combines technical knowledge with rooted local ties.",
+            "emotional_trait": "Strength: patient resilience; Flaw: trouble trusting institutions or giving others full control, which can isolate her at critical moments."
+        },
+        {
+            "name": "Elias Chen",
+            "role": "Love Interest",
+            "personality": "Charismatic grassroots organizer: optimistic, passionate, a natural connector who believes in direct action. Energetic and playful, but can be impulsive and overlook long-term trade-offs in the heat of mobilization.",
+            "appearance_features": {
+                "hair": "Sandy blond, sun-bleached tips, shoulder-length and usually tied back in a loose bun with stray curls falling over the forehead",
+                "eyes": "Warm amber, crescent-shaped when he smiles, with soft crow's feet from years outdoors",
+                "clothing": "Canvas utility jacket plastered with protest patches and stitched slogans, faded denim overalls used for planting, well-worn paint-splattered boots, colorful bandanas tied around the wrist",
+                "accessories": "A battered vintage camera slung around his neck, a hand-dyed bandana from his coastal village, and a frayed rope bracelet collected from a neighbor"
+            },
+            "goal": "Protect the coastline and displaced communities through mutual aid, public pressure, and locally-driven projects.",
+            "background_story": "Raised in a small fishing community displaced by rising tides, Elias turned to activism after losing his family's harbor. He built a network of volunteers to fortify neighborhoods and transform vacant lots into food gardens.",
+            "emotional_trait": "Strength: infectious optimism and loyalty; Flaw: impulsiveness and a tendency to romanticize action over strategy."
+        },
+        {
+            "name": "Dr. Rowan Hale",
+            "role": "Antagonist",
+            "personality": "Brilliant, composed, and morally pragmatic. Sees large-scale technological intervention as the quickest way to avert catastrophe. Polished and persuasive, but capable of emotional ruthlessness when the ends justify the means.",
+            "appearance_features": {
+                "hair": "Steel-gray, thick and slicked back with a precise part, hints of silver at the temples",
+                "eyes": "Pale blue, cool and calculating with a steady, unreadable gaze",
+                "clothing": "Tailored charcoal suit woven from adaptive smart-fabric (subtle sheen), minimalist high-collar shirts, a bespoke overcoat for public appearances, polished urban boots",
+                "accessories": "A polished holo-bracelet used for real-time modelling, an antique brass compass kept in a pocket as a private relic, a slim cardholder engraved with HelioCorp's emblem"
+            },
+            "goal": "Deploy HelioCorp's geoengineering infrastructure to rapidly reduce sea-level impact and secure a scalable, technocratic solution — even if it centralizes control and displaces communities.",
+            "background_story": "A celebrated climate engineer who founded a private firm to accelerate solutions after losing family in a storm. Haunted by that loss, Rowan believes decisive top-down action can prevent further deaths and is willing to sideline messy local processes.",
+            "emotional_trait": "Strength: unwavering conviction and strategic clarity; Flaw: emotional detachment and a growing blind spot where ends justify ethically gray means."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mina Kuroda",
+            "relation_to_main": "Childhood friend of Aiko and Elias' ally",
+            "appearance_summary": "Petite, sun-kissed skin, cropped silver-streaked hair, always in practical aprons and colorful neckerchiefs — hands usually soil-stained from cooking or planting.",
+            "function_in_story": "Runs the community kitchen and food distribution, a moral center who mediates conflicts and reveals local stakes to the protagonist; emotional anchor and voice of the neighborhood."
+        },
+        {
+            "name": "Sora Watanabe",
+            "relation_to_main": "Local elder and mentor figure to Aiko",
+            "appearance_summary": "Weathered face with gentle, knowing eyes; layered, handwoven shawls, salt-and-pepper bun, and sea-splintered walking stick.",
+            "function_in_story": "Provides historical context of the coastline, preserves oral histories, and challenges Aiko to consider long-term cultural preservation alongside technical fixes."
+        },
+        {
+            "name": "Rafi Alvarez",
+            "relation_to_main": "Independent journalist and occasional confidant",
+            "appearance_summary": "Slim, quick-moving, always carrying a compact recorder and a battered raincoat with reflective strips; short dark hair and sharp, curious eyes.",
+            "function_in_story": "Investigates HelioCorp and public policy; a narrative mechanism to reveal hidden corporate agreements, corruption, and the broader social consequences of each route."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tideward Promenade",
+            "visual_description": "A once-bustling waterfront now segmented by improvised levees and salt-tolerant plantings. Lighting is pale, diffused sunlight through lingering sea mist; colors are bleached blues and barnacled grays punctuated by bright banners and hand-painted signs. Wooden platforms and patched concrete create layered silhouettes; small solar lanterns glow amber during dusk storms."
+        },
+        {
+            "name": "Verdant Terrace (Rooftop Farm Collective)",
+            "visual_description": "A mosaic of raised beds, reclaimed wood trellises, and rainwater bladders atop mid-rise buildings. Warm late-afternoon light filters through a haze of pollen; lush greens and rusty metal contrast with the city's smoggy skyline. Drip lines glisten with condensation; intimate, lively corners show string lights and community murals."
+        },
+        {
+            "name": "HelioCorp Glass Atrium",
+            "visual_description": "A pristine corporate center of glass and mirrored alloys, bathed in stark, clinical white and cool cyan accent lighting. Inside, dramatic vertical gardens are arranged as curated specimens behind transparent barriers. The air feels controlled and slightly sterile; reflections and light refracting through smart-glass produce geometric, almost surgical shadows."
+        },
+        {
+            "name": "Old Beacon (Community Hub & Lighthouse Ruins)",
+            "visual_description": "Cracked stone, seaweed-darkened bricks, and a half-ruined lantern room; sunset paints the broken windows gold. The interior smells of brine and wood smoke; warmed, orange lamplight contrasts the ragged exterior. It functions as a gathering place, patched with colorful tarps and hand-painted maps."
+        },
+        {
+            "name": "Subbasement Data Lab",
+            "visual_description": "An underground room of humming servers and tangled cables, lit by cool LEDs and the occasional amber indicator. The atmosphere is claustrophobic and electric, concrete walls damp with condensation; monitors display tidal models in neon teal and red alerts. It's a place of late-night conspiracies and last-resort calculations."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romantic Resilience",
+        "Ethics of Technological Intervention"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Aiko and Elias lead a successful community-driven adaptation program that stabilizes neighborhoods, combining local knowledge with modest technology. They sustain their romantic relationship; HelioCorp is regulated to partner transparently on small-scale infrastructure. The ending emphasizes distributed power, restored livelihoods, and hope."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Aiko accepts a partnership with Dr. Rowan to deploy a large-scale geoengineering system that prevents immediate catastrophe but requires restructuring local spaces and civil oversight. The project saves many lives but sidelines grassroots decision-making. Aiko's romance with Elias fractures due to philosophical differences; she feels guilt alongside pragmatic relief."
+        },
+        {
+            "type": "True",
+            "summary": "Aiko exposes HelioCorp's unethical contracts and forces systemic policy change that mandates community governance and transparent technology. She sacrifices personal comfort and her career trajectory but catalyzes nationwide reforms. Romance is unresolved — relationships altered but not destroyed — and the ending highlights moral clarity and long-term institutional change."
+        },
+        {
+            "type": "Sad",
+            "summary": "A rapid, unforeseen climatic event overwhelms both grassroots defenses and half-implemented geoengineering; Aiko dies while preventing a catastrophic failure at the Subbasement Data Lab. Her death galvanizes public outcry that ultimately leads to reform, but the immediate cost is tragic loss and fractured communities. The romantic bond ends in mourning; her legacy becomes the catalyst for later change."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

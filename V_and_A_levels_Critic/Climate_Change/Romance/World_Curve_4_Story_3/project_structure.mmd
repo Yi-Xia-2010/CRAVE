@@ -1,0 +1,32 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Tidewatch Return<br/>[Common]"):::spine
+    2("Ch 2<br/>Mapping Risk<br/>[Common]"):::spine
+    3("Ch 3<br/>Council Night — The <br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Waterfront Momentum<br/>[Route A]"):::limb
+    5("Ch 5<br/>Pierline Pressure<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>Storm Afterglow — Co<br/>[Route A (Ending)]"):::limb
+    7("Ch 7<br/>The Sea Wall Vote<br/>[Route B]"):::limb
+    8("Ch 8<br/>Policy Tradeoffs<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>Concrete & Consequen<br/>[Route B (Ending)]"):::limb
+    10("Ch 10<br/>Quiet Money, Heavy P<br/>[Route C]"):::limb
+    11("Ch 11<br/>Quiet Compromises<br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>Corporate Rainfall —<br/>[Route C (Ending)]"):::limb
+    13("Ch 13<br/>Quiet Conscience — T<br/>[Route A (Alternate Ending — True)]"):::limb
+    14("Ch 14<br/>Resignation & Return<br/>[Route B (Epilogue — Alternate Reflection)]"):::limb
+    15("Ch 15<br/>Public Truth — Recko<br/>[Route C (Alternate Ending — Reckoning)]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 13
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 14
+    8 -.-> 9
+    10 -.-> 11
+    11 -.-> 12
+    11 -.-> 15

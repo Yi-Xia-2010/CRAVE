@@ -1,0 +1,141 @@
+### SCRIPT
+# Route: Final Epilogue (Convergent True Ending)
+# Context: f99e88
+
+[Scene: Seawall Construction Site | Morning — a week after the final pour]
+
+[Background:"ch14_f99e88_1"]
+[Sound: Waves thud against the new face of the wall with a steady, grateful rhythm; distant conversation hums; a hydraulic hammer gives a single, final pulse and falls quiet.]
+[Music: Warm, ascending strings — calm assurance rather than fanfare]
+
+You stand at the lip of the raised promenade, hands tucked into the sleeves of your jacket to hide the tremor you didn't expect. The smell of curing concrete mixes with salt and old diesel; underneath it is the town's ordinary scent — frying oil and seaweed and the faint trace of Rosa's bread in the breeze.
+
+It looks like protection: a clean edge against an unruly ocean. It also looks like a decision made for speed — heavy and immediate, the kind of thing that keeps people alive in a bad night. Your notebook is empty in your hand because the words you'd planned to write are either too small for this moment or too large. You don't try to sort them all at once. You notice, instead, how the wall changes the line of the horizon.
+
+Amara Vale [softly, to yourself]: "We made it solid."
+
+Elias 'Eli' Navarro steps up beside you with his palms dusted in cement. His vest is rolled down around his waist; his wristband blinks as it records the stillness of the new structure. He doesn't need to say whether he's proud or exhausted — both show on him. He presses his thumb into a wet smear and flicks it off.
+
+Elias 'Eli' Navarro: "It stood up in the storm last night. That tide spike would have…"
+
+He doesn't finish. The crowd at the far end is talking in tight, relieved bursts. Someone is counting lives saved in the first dozen hours since the wall held. The numbers aren't abstract; they are faces that were asleep where they'd always slept, families that didn't have to cross the river at midnight. Relief flows through the murmurs like heat.
+
+You let yourself feel the relief. It is not a clean thing. It sits beside memory — a storefront you love reduced to a concrete foundation, a family whose porch used to be a shop window now boxed into a relocation center down by the plaza. Those losses are immediate and visible: a row of historic signs gone, their nail holes still dark like missing teeth.
+
+[Background:"ch14_f99e88_2"]
+[Sound: A child's laughter distant and high; a hammer somewhere being put away]
+
+Marco Voss stands on the temporary platform a few yards away, hands in his raincoat pockets. He is speaking into the small crowd, and his voice carries — confident, clear. Where his words touch the crowd, applause bites like a bruise. He thanks engineers, funders, the volunteers. He mentions "decisive action" and "a plan visible in the waterline."
+
+You listen. You have argued with him. You have negotiated with him. You do not know what it means to him and to you now in the private corners of decisions you made months ago — and so you don't pretend to. You catalog instead: oversight clauses attached to the funding, a rehousing endowment set up in trust, an independent audit panel with community seats. Those were your demands in one form or another; the paper exists even if the precise signature that got you here is a story you cannot fully unspool.
+
+Marco Voss [with a measured smile]: "Seabright is safer tonight because people chose action."
+
+He looks at you as he says it. The look is complex; it sizes, weighs, and — for a heartbeat — it feels unreadable. You respond with a short nod that hides more than it gives.
+
+[INTERACTION]
+> Choice A: "Walk the length of the seawall, see it for yourself"
+> Choice B: "Step closer to Marco and ask about the oversight committee"
+[Outcome A: You start down the walkway, fingertips trailing the new railing, measuring each seam with your eyes and a quiet gratitude.]
+[Outcome B: You cross to the platform, your steps precise. Marco tilts his head as if trying to anticipate your question, and the murmur around you tightens.]
+[MERGE: The scene continues from here regardless of choice.]
+
+Elias 'Eli' Navarro waits until you choose. If you walk the length, he falls into step beside you, and conversation opens into technical smallness — bolt depths, the way the revetment deflects surge. If you step toward Marco, Elias 'Eli' Navarro's jaw sets but his hand finds yours in a quick, grounding squeeze before you speak.
+
+Elias 'Eli' Navarro: "We did the best tie-ins we could with the old boardwalk. It's not perfect, but it's anchored. Hal would have—"
+
+(he stops, and something like Hal's laugh lives in the silence)
+
+Amara Vale [you, in your head]: You remind yourself of the clauses again, like a mantra. Audit every step. Fund relocation first, not after. Keep community seats guaranteed for five years. "We kept the clauses," you want to say. Out loud, your words find a different shape.
+
+Amara Vale: "The audit panel has three community representatives and an independent engineer. The endowment's in escrow with a local trust with immediate withdrawal rights for rehousing."
+
+Marco Voss [a slow, appreciative nod]: "Good. Oversight makes all of us better stewards."
+
+He says it as if he believes it, and you want to reveal the exact lines of the trust, the scalings and clawbacks, the recall mechanisms Hal insisted on. Instead you let Elias 'Eli' Navarro fill in a practical detail — because the town needs the mechanics as much as the rhetoric.
+
+Elias 'Eli' Navarro: "And we've scheduled a quarterly open inspection. Town reps get full access to sensor logs and structural checks. No committee gets locked out."
+
+The back-and-forth is steady, careful. Marco Voss's words land at intervals, each measured as if he is testing the tone of a room that still contains people who remember cold water rising to their windows. You sense both concession and genuine intention in him; the mix does not make it easier.
+
+[Background:"ch14_f99e88_3"]
+[Sound: Low applause; a lone gull's cry cutting higher]
+
+Rosa Kwan pushes through the cluster of people with a carrier box of steaming buns and an expression that is all tactile warmth. She hands you one without asking, as if offering a memory: the café sign is intact, though the door now sits half a step higher and the threshold has a freshly cut metal plate. Her cap is bright against the gray concrete; she looks like someone who has decided to keep making things.
+
+Rosa Kwan [breezy]: "You didn't invite me to the ribbon cutting? Shame. I made extra."
+
+Rosa studies the row of reduced storefronts across from the promenade — the lines where awnings used to hang, the spaces that once pulsed with small, stubborn life. She doesn't need to be told which businesses lost their ground-floor rooms; she has fed them.
+
+Rosa Kwan: "The food bank is getting space in the temporary community hub. We rerouted donations last night. People are—" (she searches for the word, lands on it) "steady. Grateful, mostly."
+
+Amara Vale [you, to Rosa]: "Were your grinders safe?"
+
+Rosa Kwan [tilts her head]: "Aunt Mei's was spared. The old pottery shop wasn't so lucky. We'll put pieces in the plaza exhibit. It's important to keep them visible."
+
+Rosa's practical optimism is a small furnace. She recognizes what was lost without pretending it's only a price. In her voice is the work of knitting — of making each small thing visible again to withstand being forgotten under the weight of success.
+
+[INTERACTION]
+> Choice A: "Ask Rosa if she wants to run a community bake sale on the raised promenade"
+> Choice B: "Offer to join Rosa in cataloging the lost storefronts for the historical trust"
+[Outcome A: Rosa laughs, delighted. "You name the date — I'll make crusts that can survive a storm." She moves to pin a napkin to the safety rope, as if stitching the town back together.]
+[Outcome B: Rosa's eyes go soft and quick. "Yes. Bring your notebook. We'll make a map that remembers what used to be here." You both fall into a quiet agreement, hands already busy with tasks.]
+[MERGE: The scene continues from here regardless of choice.]
+
+The sun lifts higher, cutting through the low cloud that had been hugging the bay. Light runs off the seawall in a bright strip, and for a moment the town's danger is a line behind you and a future ahead — safer, but also more edited. You feel the paradox in your ribs: grief and relief braided into something like work.
+
+Elias 'Eli' Navarro watches you and Rosa trade plans. He leans in, voice low.
+
+Elias 'Eli' Navarro: "The rehousing fund paid for immediate temporary housing for the hardest-hit families. The trust will transfer payments directly to landlords who agree to below-market rates under the program."
+
+Amara Vale [you]: "And monitoring?"
+
+Elias 'Eli' Navarro: "Sensors went in along the promenade. Public dashboards. Public meetings every quarter. We held scale-back clauses for any portion that might be reappropriated into other projects."
+
+You digest it. The language is literal, the kind you taught yourself to love — precise, accountable. The kind that feeds the town's bones. The reality is uneven; no plan undoes an evening when someone watches her shop stop being a shop. But safety is measurable now in nights slept without waking to storm sirens.
+
+Marco Voss approaches again, and this time he is closer, hands loose. He offers a hand for a shake — a small public ritual. You regard it.
+
+Marco Voss [quiet]: "You fought for safeguards. It made this better. For everyone."
+
+The look he gives is balanced on the edge of gratitude and calculation. It is one you have seen before: generous in public, privately guarded. You decide to take the hand.
+
+Amara Vale [you]: "Saving lives needed speed. We insisted on the guardrails. Keep up your end."
+
+Marco Voss: "I will. And I'll fund the historical trust project we're talking about — a dedicated endowment."
+
+His promise lands in the air. It is tangible, and someone in the crowd — an older woman with a wool shawl — begins to clap as if summoning courage. The sound spreads, cautious and genuine.
+
+[Background:"ch14_f99e88_4"]
+[Sound: Applause grows, then softens into murmured thanks]
+
+You let yourself tally the victories: no lives lost in the first storm, rehousing funds already disbursed, oversight codified, volunteers signed up for monthly audits. You let yourself feel them as points of light rather than as blood-stained patches. The town is safer. People can go to bed without scanning the sky for the old fear.
+
+But you also keep the memory of holes in signage, of the pottery shards in a box, of a storefront window you cleaned once for someone you liked. You do not mean to hold on to loss like ballast, but you won't let the town forget either. That memory will be part of the public record the trust maintains — a map of what was sacrificed to start the new work.
+
+Rosa bumps your shoulder with the side of her hip and grins.
+
+Rosa Kwan: "Hey — ceremony or not, the first market on that promenade is going to be loud and sticky with sugar. You'll be there."
+
+You nod, and a smile slips across your face. It is a small, honest thing.
+
+[Background:"ch14_f99e88_5"]
+[Music: Strings swell gently — hopeful, not triumphant]
+
+You realize your fatigue has shifted into something like momentum. The plans you dreamed about on napkins and whiteboards are not finished, but they have become real: anchored into poured concrete and into funds and into the legal language that gives teeth to promises. In the way that water seeks the path of least resistance, the town has found one that balances urgency and care.
+
+[Page-Turn Moment]
+You press your palm to the seawall as if testing its temperature, and the concrete is not cold — it keeps the softened memory of hands that have held it, worked on it, feared for it. For a long moment you simply listen: the beat of waves, the low chatter of people who can sleep tonight, the crisp slap of a flag against a post. This is not the end. It is a beginning — a weathered promise that will be audited, argued, mended, and celebrated in equal measure. You can see the next stretch of work already: meetings, rehousing check-ins, a catalog of the town's remembered places. There is no clean victory here, only repair that must be sustained.
+
+[Background:"ch14_f99e88_6"]
+[Music: Warm chord holds, then lingers]
+
+[Background:"ch14_f99e88_7"]
+[Music: Fade Out]
+[NEXT CHAPTER: 15]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 15
+    > Jump Target File: script_ch15_Final_Epilogue_Convergent_True_Ending_Ending_from_Ch14_ctx_37146d.txt

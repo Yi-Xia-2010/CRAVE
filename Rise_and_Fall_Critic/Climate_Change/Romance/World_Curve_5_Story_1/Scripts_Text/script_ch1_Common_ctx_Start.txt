@@ -1,0 +1,133 @@
+### SCRIPT
+# Route: Route C — Barrier
+# Context: Start
+
+[Scene: Lowry Bay Boardwalk | Pre-dawn]
+[Visual: Pale, fog-matted horizon. The crooked lamp-posts along the boardwalk are still dim; puddles mirror the sky in glassy, muted gold.]
+[Music: Soft, tentative piano arpeggio with a low, steady synth undercurrent — hopeful and measured.]
+[Sound: Distant gulls, soft slap of water against pilings, a tarred rope creaking as the tide pulls.]
+
+You come awake to the taste of salt on your tongue and the hard, familiar slope of the boardwalk beneath you. The world is a sketch of shapes: the angled roofs of shuttered shops, the low pastel skyline, the thin smear where sea meets sky. The air smells of tidal sea-glass and wet wood, and the scent settles in your chest like a promise: the bay is still here, for now.
+
+Your fingers find the brass tidewatcher at your throat automatically. The pendant is cool and pocked with years of brine; you trace its tiny teeth with the tip of your thumb. The sensor wristband with its patched straps hums a micro-song — a row of LEDs blinking like an anxious heartbeat. You press the strap to your palm and watch the lights. They stutter, steady, then settle into their polite rhythm. Small things. Tidy things. Things you can fix.
+
+You breathe, letting the breath fog the air. The field jacket against your shoulders smells of salt, coffee, and the faint oil of last night's repairs. Your hair — dark sea‑green with sun-bleached tips — is tucked behind your right ear because it always is. You inventory the day the way you always do: tactile checks, one-two-three. Your hands move with the practiced hesitancy of someone who remembers what went wrong and is trying not to let it happen again.
+
+You think of the failed pilot three seasons back — the marsh plugs that drowned instead of taking root, the sensors that read wrong when you needed them to be honest. The guilt sits like a grain in your palm: small, abrasive, impossible to ignore. It makes your hands precise and makes your stomach hollow in equal measure. You let the memory do its work but don't let it start a loop. Today is for forward motion. Today you have a plan.
+
+Nadia stands by the crooked lamp-post with a table of painted fish cutouts, trading raffle tickets for donations to her school fundraiser. She waves; her bright waterproof hoodie is the color of a buoy, impossible to miss even in predawn. Ruben leans against a piling at the dock — salt-streaked oilskins, carved cane, a silhouette that reads like half the town’s memory. He watches the water the way someone listens to an old song, quietly and without surprise.
+
+You name the tasks out loud, soft enough that only the gulls and the thin fog hear you: inspect the tidal garden rebar, recalibrate sensors at Tidelab greenhouse, and meet Cassian about the mural for the next mobilization. You tuck that list into the dent in your leather field notebook where a paperclip keeps it honest, and the dent fits like a thumb in a well-worn plan.
+
+[Visual: Close-up on the coffee mug with floral tape repairs on the boardwalk railing; a dented stainless thermos next to the notebook.]
+[Sound: Lid unscrewing, a sipping inhale.]
+
+A small ritual: you lift the coffee mug. The floral tape on the handle is a ridiculous cheerful thing against all the brine and rust. You take a sip and the warmth steadies the inside of you. You check the wristband again; its LEDs flick a tiny green that you read as approval.
+
+Nadia catches your eye and calls out, feet shaded in the lamplight as she waves a glitter-glued flyer. You could cross the boardwalk to help her set up, or you could stop and talk with Ruben first, or you could go straight to the tidal garden and begin measuring. Each option nudges the day in a slightly different direction.
+
+[INTERACTION]
+> Choice A: "Go help Nadia with the fundraiser table"
+> Choice B: "Walk down to the docks and check on Ruben"
+> Choice C: "Head straight to the tidal garden to begin the inspection"
+[Outcome A: "You hop over the low rail and join her, fingers sticky with glue, jokes already slipping from your mouth as she hands you a pennant. Her laugh is a bright thing; for a minute the map of what could go wrong blurs into paper fish and folding chairs."]
+[Outcome B: "You take the weathered planks toward the docks. Ruben squints at you from under his cap and grunts a greeting; the familiarity is balm and a reminder. He offers a thermos with a fist-roughened hand, and you accept, measuring the tide in sips."]
+[Outcome C: "You pull the collar of your jacket up against the wind and move toward the marsh mounds. The air grows greener as you walk; the rebar pins in the garden wait like small promises. You set your jaw to the rhythm of work and feel, for a second, the plan you sketched last night lining up with the world."]
+[MERGE: All outcomes converge at the section beginning "From the far end of the boardwalk comes the scrape of boots and the easy off-key promise of a harmonica."]
+
+If you chose Nadia: The fundraising table is chaos in miniature — glitter and paper, excited children pushing for stickers, and the smell of pancakes someone was trying to fry over a portable stove. Nadia insists you take a turn selling raffle tickets; she is all earnest angles and quick hands. You tease her about the glitter in her hair, but when she looks at you, there is a seriousness in the way she says, "We need the new classroom roof, Mira. The last storm took the eaves right off." You nod and fold that worry into the day's agenda: community safety is not just engineering, it's roofs and warm classrooms and breakfasts.
+
+Nadia: "If you get a minute, can you swing by the school later? They want someone to explain the sensors — make it sound less scary."
+
+Mira Kestrel: "I'll come. I'll bring the little demo kit. Maybe Ruben can make the safety talk sound like a sea shanty."
+
+Nadia laughs and punches your shoulder in a small, affectionate way. "Don't mess it up, tidewatcher."
+
+If you chose Ruben: Heed the creak of the dock and the rough warmth of his voice. Ruben listens like the sea: long intervals and the right breaks. He asks about your sleep in a way that isn't about gossip but about whether you're keeping yourself together. You tell him, because with Ruben you usually do. His reply is a rumble and a softening you don't often get from others.
+
+Ruben: "You always carry the weight of the bay like it's a sack of rope. Put some down once in a while."
+
+Mira Kestrel: "Only when it creates knots. Today I'm trying for a clean coil."
+
+Ruben: "Good. Clean coils make better knots when the storm comes."
+
+He shifts his cane and points to the line where the water kisses the piling. "You know the south span is holding more than it used to. Keep an eye. And don't be afraid to call me if you need hands."
+
+You reach for him the way you do when you need to anchor to history — a short touch on his wrist, a promise in a finger press.
+
+If you chose the tidal garden: The tidal garden smells of mud and new green things; the rebar teeth stick up from the mounds like the backs of small, hopeful creatures. Your palms find the cold iron and run a measuring tape along a familiar length. Your hands move with methodical patience, the memory of the failed pilot making each measurement deliberate. You inspect the corrosion, the stitch of marsh grass roots, the small algal webs that might be nothing or might be the thread you need.
+
+Asha had left notes tacked to your notebook about sensor drift and salinity thresholds; you review them now, lips moving slightly as if reciting a mantra. The tide is a patient editor, rewriting everything if you let it; your work is to make the edits less brutal.
+
+[Visual: Wide shot of the tidal garden with early sun lifting through fog; the town in the background like a watercolor.]
+[Music: A soft swell of strings under the piano, hinting at momentum.]
+
+From the far end of the boardwalk comes the scrape of boots and the easy off-key promise of a harmonica. Cassian appears, paint-smudged and sun-bleached, a canvas roll tucked under one arm and a grin that looks like it's been practicing all night. He moves like he owns the morning, but not in a way that pushes — in a way that invites.
+
+Cassian Rhys: "Morning, tidewatcher. You look like someone who has already told the sea the plan."
+
+Mira Kestrel: "The sea hasn't replied yet. I was waiting for an RSVP."
+
+Cassian Rhys: "Figures. It's late with its responses. That's why I'm bringing visual persuasion instead." (He taps the canvas.) "Mural party on Saturday. I need a scientist who can make the ocean look less like an enemy and more like a neighbor."
+
+Your mouth quirks. He wants you there for credibility, for the caption, maybe for the gestures that will make people trust the mural's message. You also know he needs you because your presence calms the volunteers and because your data — the small steady facts — make his art mean something.
+
+Cassian Rhys: "Also, I brought coffee. And a bad joke."
+
+Mira Kestrel: "Bad jokes are permitted. Coffee is required."
+
+He hands you a paper cup; the foam is warm and familiar. You sip, and there is a small exchange of glances that says everything you won't say aloud: the afternoons spent with seedling trays, the arguments about planting density, the late-night patching of sensors where your shoulders touched in the glow of the greenhouse lamps. There is no big confession here, no sudden rush; only the soft, foundational work of two people who have chosen the same side of a long fight.
+
+Cassian Rhys: "Do you remember when we painted the side of Ruben's boat with those suns? You made me promise to only use eco-friendly paints."
+
+Mira Kestrel: "I remember making you promise. You lied."
+
+Cassian Rhys's grin is a practiced thing that folds into warmth and then something almost shy. He brushes a thumb along a corner of the canvas.
+
+Cassian Rhys: "I didn't break the promise. I just... stretched the definition."
+
+You both laugh, and the sound drops into the morning like a weight relieved.
+
+[INTERACTION]
+> Choice A: "Offer to help sketch the mural"
+> Choice B: "Set the meeting for later — head to Tidelab first"
+[Outcome A: "You put your hand on the canvas edge like it's a fragile future. Cassian lights up, and you already feel the momentum of small, public work. He starts listing colors; you start thinking of salt tones that read like memory."]
+[Outcome B: "You say you'll meet him after the recalibration. Cassian nods, understanding: your notebooks and sensors have the same gravity as murals in your world. He tucks the canvas under his arm and promises to save you a paintbrush."]
+[MERGE: Both outcomes converge at Cassian's line "Either way, you pick the parts of Lowry Bay we keep. That's why you matter."]
+
+Cassian Rhys: "Either way, you pick the parts of Lowry Bay we keep. That's why you matter."
+
+You let the compliment sit, warm and slightly heavy. The morning hums with cautious hope; there is work to do, and each task is a promise to the town and to the people who make it.
+
+You tighten the strap on your field notebook, the dent in its leather familiar as an old scar. You check the sensor wristband one last time: green. The tidewatcher pendant is a weight and a compass. You feel steadier than you have in weeks — not because doubt is gone, but because you have a route through it. You have hands willing to help; you have numbers that, if read carefully, will stop being riddles.
+
+Ruben calls after you from the docks in a voice that carries, and Nadia waves a pennant like a small sun. Cassian traces a small sketch in the damp air, already inventing the curve of a wave that will become paint on Saturday. The town breathes in a single, slow hush of pre-dawn: life stretched thin, yes, but not broken. There is momentum.
+
+You step off the boardwalk toward the Tidelab greenhouse, the path between shops and water a familiar artery you have walked since you were small. The lamps in the greenhouse leak a warm amber into the gray morning; the air ahead smells of wet soil and new green things that could be the town's salvation or, at the least, its classroom.
+
+[Visual: The Tidelab Greenhouse panels glow like an amber promise through the fog.]
+[Music: Piano rises into a modest, hopeful motif; strings hold a steady, comforting note.]
+[Sound: A door sliding on humming tracks as the greenhouse opens, the hiss of humidifiers, soft room sounds of plants and electronics.]
+
+You pause at the threshold. There are a hundred small decisions to make today — which sensors to prioritize, which volunteers to call in, which argument to let go of before it needslessly burns bridges. Your hands feel capable. Your chest feels ready. The morning presses forward with a cautious, bright insistence.
+
+A thought coalesces, uncomplicated and fierce: steady work, small public actions, strong hands, clearer data. The bay doesn't need heroics. It needs people who will show up tomorrow and the next day, and the day after.
+
+You tuck your notebook under your arm, the brass tidewatcher warm against your throat, and take a step into the warm, humid light of Tidelab.
+
+You are not certain what storms will come. You are certain you will meet them by morning and by plan.
+
+[Visual: Close-up on your wristband LED pulsing green; the greenhouse interior unfolds like a map of tasks.]
+[Music: Piano resolves on a hopeful chord, leaving room to breathe.]
+
+You move forward.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

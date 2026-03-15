@@ -1,0 +1,116 @@
+{
+    "design_logic": "I blend Climate Change (an external, systemic threat) with Romance (intimate emotional stakes) to create a narrative where personal relationships are tested by environmental urgency. The core conflict is between community-led adaptation and profit-driven redevelopment: protagonists must navigate policy, engineering, and trust. Romance amplifies choices — committing to a partner becomes entangled with committing to a community and a moral path.",
+    "setting": "Near-future coastal town (Marrow Bay) on a temperate shore repeatedly battered by stronger storms and rising tides. The story moves between salt-marsh edges, a weathered boardwalk village, and civic spaces where decisions are made. Atmosphere: salt-scented, wind-swept, charged with both grief and stubborn hope.",
+    "visual_style": "Naturalistic anime with memory-filtered lighting; muted coastal palette with bursts of coral/amber; watercolor textures for sky and sea; cinematic close-ups for romantic beats; environmental design grounded in lived-in details (patched tarps, reused materials).",
+    "main_characters": [
+        {
+            "name": "Mira Santos",
+            "role": "Protagonist",
+            "personality": "Resolute, empathetic, fiercely protective of community; scientifically literate but prefers participatory solutions; occasionally impulsive when people she cares about are threatened; quietly romantic under a practical exterior.",
+            "appearance_features": {
+                "hair": "Dark brown, chin-length bob with sun-bleached tips and a faint wave",
+                "eyes": "Green-gray, slightly wide with a persistent tired spark",
+                "clothing": "Layered practical wear: a faded olive field jacket with hand-sewn patches, charcoal thermal shirt, patched denim jeans, and salt-stained rubber ankle boots. Often wears a coral knit scarf inherited from her mother.",
+                "accessories": "Waterproof Moleskine notebook with tide charts, a tide-stained leather bracelet braided with ceramic beads, simple silver hoop earrings"
+            },
+            "goal": "To keep Marrow Bay's community intact by implementing grassroots adaptation measures and securing legal protections for residents.",
+            "background_story": "Born and raised in Marrow Bay, Mira left for graduate studies in coastal ecology after a childhood inundation. She returned when storms worsened and discovered the town pressured by outside developers. Her scientific training is paired with local knowledge passed down from elders.",
+            "emotional_trait": "Stubborn optimism tempered by a deep fear of failing the people she loves (emotional flaw: tendency to shoulder burdens alone)"
+        },
+        {
+            "name": "Elias Park",
+            "role": "Love Interest",
+            "personality": "Calm, inventive, quietly charismatic; a tinkerer who mixes engineering with small acts of public art; empathetic but cautious about promises due to a past professional failure; earnest and playful in private.",
+            "appearance_features": {
+                "hair": "Black, natural curls kept in a purposeful undercut with longer curls on top that fall forward when he leans in",
+                "eyes": "Warm amber, almond-shaped, a soft attentive gaze",
+                "clothing": "Recycled-material utility jacket patched with colorful fabric, linen shirts with rolled sleeves, sturdy chinos, and weathered canvas sneakers. Clothing often carries smudges of salt and grease.",
+                "accessories": "A prototype micro-turbine pendant that doubles as a pocket tool, a battered film camera slung across his chest, and a cuff of braided copper wire coiled around his wrist"
+            },
+            "goal": "To prototype small, community-driven renewable systems that can reduce the town's vulnerability while building trust between neighbors.",
+            "background_story": "Trained as an environmental engineer, Elias left a large consultancy after funding cuts and a failed project that displaced a small village. He relocated to Marrow Bay to work on humane, low-tech interventions and to atone for past compromises.",
+            "emotional_trait": "Avoidant loyalty — deeply committed but hesitant to risk intimacy when outcomes are uncertain (strength is patience; flaw is reticence to commit publicly)"
+        },
+        {
+            "name": "Cassandra \"Cass\" Whitlock",
+            "role": "Antagonist",
+            "personality": "Charismatic and decisive, with a public-facing warmth that masks a relentless focus on scalable solutions and economic leverage; intellectually honest about trade-offs but prone to justifying displacement as necessary.",
+            "appearance_features": {
+                "hair": "Platinum blonde, sharp jaw-length bob styled with a precise part",
+                "eyes": "Pale blue, narrow and assessing; often calm and unblinking",
+                "clothing": "Tailored storm-gray suits with structured shoulders, high-collar coat lined with reflective material, polished black boots; a faint coastal-smoke scent to her garments",
+                "accessories": "An engraved steel business card case, a finely crafted ring made from reclaimed industrial metal, and a smartwatch that displays market analytics"
+            },
+            "goal": "To implement a comprehensive coastal redevelopment plan that promises long-term stability through large-scale engineering and private investment.",
+            "background_story": "A former climate scientist turned CEO of a coastal infrastructure firm. Cass believes that only top-down, funded projects can stave off catastrophe. Her background includes personal loss during an early storm surge, which hardened her belief in decisive solutions.",
+            "emotional_trait": "Moral compartmentalization — intensely practical courage but a blind spot for the human cost of centralized solutions"
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Noah Rivera",
+            "relation_to_main": "Childhood friend of Mira",
+            "appearance_summary": "Broad-shouldered, sun-freckled face, always in a paint-splattered hoodie and well-worn rubber boots.",
+            "function_in_story": "Local handyman and community organizer who mobilizes neighbors for meetings, provides comic relief and practical assistance during adaptation builds."
+        },
+        {
+            "name": "Aunt Lila Santos",
+            "relation_to_main": "Mira's aunt and mentor figure",
+            "appearance_summary": "Elderly, wind-creased skin, short silver hair, layered cardigans with hand-stitched motifs.",
+            "function_in_story": "Keeps community memory and oral histories; provides emotional grounding and pressure on Mira to balance scientific solutions with cultural preservation."
+        },
+        {
+            "name": "Jun Park",
+            "relation_to_main": "Elias' younger sibling; local teacher and activist",
+            "appearance_summary": "Lean, energetic, wears bright raincoats and mismatched socks; always carries flyers and a thermos.",
+            "function_in_story": "Amplifies youth perspective in town hall battles, bridges the technical proposals with school-based resilience programs."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marrow Bay Boardwalk",
+            "visual_description": "A weathered wooden promenade hugging a shallow bay. Late-afternoon light slants through salt-laden mist; paint peels from storefronts, buoy lines and laundry flap in the wind. Colors are dampened—seafoam greens, driftwood browns—with warm coral accents from handpainted signs. Sky often low and heavy; distant turbines silhouette against a bruised horizon."
+        },
+        {
+            "name": "The Saltworks (Reclaimed Marsh Labs)",
+            "visual_description": "A patchwork of raised platforms, solar sails, and experimental tide gardens built on reclaimed marsh. Morning light breaks through low clouds, turning wet reeds to silver. Hoses and mesh grids glisten; pools reflect a watercolor sky. The overall mood is fragile optimism—equipment looks improvised but lovingly maintained."
+        },
+        {
+            "name": "Old Lighthouse & Boardwalk End",
+            "visual_description": "An aging lighthouse perched on a rocky outcrop, its paint chalky and streaked with salt. Twilight scenes here are intimate—lamplight from the lantern room, wind whipping sea-spray against lichen-covered stone. The sky a gradient of indigo and amber; gull cries echo. It's a place of confession and quiet decisions."
+        },
+        {
+            "name": "Municipal Hall / Council Chamber",
+            "visual_description": "A glass-and-concrete structure with a civic plaza facing the bay. Interior lighting is cool fluorescent; glass walls throw reflections of waves and protest banners. The chamber is formal—wooden benches, a raised dais—contrasting with posters and hand-painted placards taped to the entrance. The atmosphere is tense and bureaucratic, occasionally warmed by late-night strategy sessions."
+        },
+        {
+            "name": "Harbor High Rooftop Greenhouse",
+            "visual_description": "A snug greenhouse patched with clear plastic and recycled glass panels. Inside, warm, humid light filters through patched panes; plants in mismatched containers create a pocket of green against the salty air. Strings of solar fairy lights give a soft amber glow at dusk—an intimate backdrop for conversations and restorative scenes."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethics of Adaptation"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led adaptation plans, led by Mira and aided by Elias' prototypes, win council support. Cass is forced to revise the redevelopment into a cooperative model. Mira and Elias commit to a future together rooted in the town; Marrow Bay begins a slow, sustainable recovery."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A hybrid solution is implemented that protects essential infrastructure but requires relocation of several neighborhoods, including Mira's childhood home. The community endures and gains legal protections; Mira and Elias remain together but carry the grief of loss and necessary compromise."
+        },
+        {
+            "type": "Sad",
+            "summary": "Cass's large-scale redevelopment passes after political maneuvers; displacement follows. Mira, unable to stop the plan, leaves to work on adaptation in other threatened towns. Her relationship with Elias fractures under the strain of failure and different paths, leaving the town and protagonists scarred."
+        },
+        {
+            "type": "True",
+            "summary": "Mira chooses integrity over a personal compromise: she exposes ethically dubious contracts that reveal long-term harms, sacrificing a personal advantage that could have helped her family. The fallout forces systemic scrutiny of redevelopment practices. Love survives but is redefined—Elias and Mira part ways temporarily to fight different fronts, with the promise of reunion when conditions allow. The ending emphasizes moral consistency and ongoing struggle rather than tidy resolution."
+        }
+    ],
+    "estimated_chapters": 6
+}

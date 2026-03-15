@@ -1,0 +1,30 @@
+Theme: {{THEME}}; Genre: {{GENRE}}
+
+Target Story: {{STORY}}
+
+Rate the visual novel story on a scale from 1 to 5 on the following criteria and explain your answer:
+
+1. Relevance (how well the story matches its Theme and Genre)
+2. Coherence (how much the story makes sense)
+3. Empathy (how well the reader understood the character's emotions)
+4. Surprise (how surprising the end of story was)
+5. Engagement (how much the reader engaged with the story)
+6. Complexity (how elaborate the story is)
+
+Output the ratings and explanations strictly in JSON format.
+Structure your response as follows (use these exact keys):
+
+{
+  "RE_Score": 1-5,
+  "RE_Explanation": "Why...",
+  "CH_Score": 1-5,
+  "CH_Explanation": "Why...",
+  "EM_Score": 1-5,
+  "EM_Explanation": "Why...",
+  "SU_Score": 1-5,
+  "SU_Explanation": "Why...",
+  "EG_Score": 1-5,
+  "EG_Explanation": "Why...",
+  "CX_Score": 1-5,
+  "CX_Explanation": "Why..."
+}

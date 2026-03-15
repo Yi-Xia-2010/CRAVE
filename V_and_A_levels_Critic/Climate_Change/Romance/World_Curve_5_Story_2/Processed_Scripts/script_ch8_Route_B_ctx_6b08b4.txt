@@ -1,0 +1,183 @@
+### SCRIPT
+# Route: Route B — Ending: Bittersweet
+# Context: 6b08b4
+
+[Scene: Tidepark Research Greenhouse | Late Afternoon]
+[Background:"ch8_6b08b4_1"]
+[Sound: The soft hiss of drip-irrigation; the distant, impatient rumble of a delivery truck]
+[Music: Tense BGM — a thin, driving ostinato]
+
+You come in on the tail of a calibration alarm: a red pulse on a technician's tablet, the polite beep of a sensor asking for attention. Your coat smells faintly of salt; there is soil under your nails from the morning checks. You set your bag down, feel the locket at your throat, and, as always, map the moment with the small, steady logic you trust: read the data, fix the drift, keep the scaffolds honest.
+
+Technician 1 [soft but hurried]: "Drift on scaffold three—buoyancy compensation is off by point four. We're recalibrating the polymer mesh, but we could use your field notes on substrate compaction."
+
+Aiko Navarro: "Pull the compaction log. Did we rerun the peat density after the last flood pulse?" (You kneel by the instrument table, fingers moving before speech fully organizes itself.)
+
+Technician 2 [younger, hands stained with algae]: "Ivy left the samples in the drying rack—thought you were bringing them in tonight."
+
+You glance at the drying rack and feel the throat-tightness that comes with a thousand small errands that add up. The greenhouse is humming with institutional efficiency: municipal technicians replicating the scaffold design you drew with Mateo Ríos last month. The scaffolds are faithful, precise, and exactly what the funding timeline insisted on: repeatable, measurable, deployable.
+
+Aiko Navarro: "Good. Match the last compaction profile, yes—but don't over-densify. We need pore spaces for the cordgrass to root. If you compress more, the seedlings won't take."
+
+Technician 1: "Understood. We'll run the gradient."
+
+Your voice is calm, expert. Inside, something splinters—an intimate ache for the hands that showed you how peat works, for Rohan's slow patience, for the way community methods left room for the unexpected. The municipal technicians move with the sanctity of procedure; they do their jobs well, but their rhythm isn't the same as the town's.
+
+Mateo Ríos arrives with his tablet under his arm, cheeks flushed from the walk. He sets the waterproof tube down with an economy that betrays the long day he's had.
+
+Mateo Ríos: "How's the calibration?"
+
+Aiko Navarro: "On scaffold three we have a drift. If we tighten compaction without adjusting the microchannels, growth will stall."
+
+Mateo Ríos: (he taps the tablet, voice soft) "We've got early signal on sediment trapping. The turbidity sensors show a small but consistent decline around the first pilot line. It's not dramatic, but it's there."
+
+You let out a breath that doesn't reach relief. "Small but consistent"—a phrase that tastes like compromise and keeps you honest.
+
+Mateo Ríos: "Council likes numbers. They like repeatability. This is the kind of thing they'll fund."
+
+Aiko Navarro: (you force a smile that doesn't meet your eyes) "They like numbers. They don't like the people who make the numbers messy."
+
+Mateo Ríos studies you, then reaches for your hand, fingers quick with the tacit comfort you've both come to rely on in late shifts and harder choices.
+
+Mateo Ríos: "We did what we promised. We scaled. We trained the crews. That matters."
+
+You squeeze back and then let your hand drop. There is still the other side of this; the community at the Aquarium tonight will not measure the scaffolds in turbidity curves. They will measure it in trust.
+
+[Sound: A notification chime — an urgent message from The Aquarium. The music shifts; the ostinato quickens.]
+
+You check the message: a clip of Tala on the stage, her voice raw, the room behind her a mass of faces. The subtitles: "They took our authorship. We need a seat that matters, not a badge that doesn't bind."
+
+Your stomach turns.
+
+[INTERACTION]
+> Choice A: "Stay and finish the calibration"
+> Choice B: "Run to The Aquarium now"
+[Outcome A: "You sit back down by the console, fingers moving over the tablet, promising yourself that a clean data set will protect the town in the long run. You tighten the microchannel valves, knowing the numbers will look good on paper."]
+[Outcome B: "You drop the screwdriver, grab your raincoat, and start for the door. Your feet slap on the concrete, adrenaline doing the counting for you. You will get there before the crowd disperses, and you'll try to hold the room steady."]
+[MERGE: You make a choice; before that choice resolves fully, the greenhouse becomes a chorus of small, urgent tasks: technicians calling for tools, Mateo Ríos asking you to sign a deployment checklist, a delivery truck backing up with municipal crates. You feel the tilt: the pilot is producing signals that matter in City Hall's ledger, but outside this warehouse, the town is fraying.]
+
+[Scene: The Aquarium — Main Hall | Early Evening]
+[Background:"ch8_6b08b4_2"]
+[Sound: Murmurs rising into angry clapping; the distant slap of waves]
+[Music: Tense BGM — layers added, a staccato violin now cutting through]
+
+You arrive to a body of people whose eyes are a ledger of exhaustion and accusation. Tala Kumari is at the center, voice coiled into a scream that she keeps from fully unspooling.
+
+Tala Kumari: "You told us 'community-led,' Aiko! It was supposed to be our soil, our hands! We showed up—what do we have? A trainer for three days and a municipal checklist."
+
+Aiko Navarro: (stepping forward, palms visible) "Tala, listen. We scaled the prototype so we could get crews trained and the materials bought—"
+
+Tala Kumari: (cutting you off) "So you signed us out of the plan!"
+
+Crowd: (murmurs, a clang of a pot in the back)
+
+Ivy [hot and immediate]: "You promised we'd be partners. Now the technicians are city employees. They're polite, they follow rules. They don't know the tides like Old Man Rohan does."
+
+Old Man Rohan: (voice gravelly, leaning on a cane) "They came in neat and tidy. They put numbers where memory should be. This coast remembers things the models don't."
+
+Aiko Navarro: (you feel the room press in; your chest tightens) "I didn't sign anyone out. I thought— I thought giving them scale would protect us faster. Mateo Ríos and I—"
+
+Mateo Ríos: (arriving breathless, wearing the municipal badge tonight like armor) "We needed to prove concept at a scale the council could fund. The metrics will buy us deployment—more scaffolds faster. The pilot worked."
+
+Tala Kumari: "At whose cost? At ours."
+
+The back-and-forth becomes a cyclone. Your voice tries to thread between facts and feeling, but the air is charged: accusations ricochet, old griefs surface like washed-up kelp. People shout about lost storefronts, about mortgages, about the night the surge took three houses and never gave them back.
+
+Aiko Navarro: (inside, you count: the locket, the pressed grass, the old fishing lines; you think of Ivy's rent, of Rohan's stories, of the municipal technicians who will follow orders without asking when to bend) "I know the cost. I know what's at stake. I tried to make a thing that could be both accountable and operational."
+
+Ivy: "You tried. That's not the same as doing it."
+
+Mateo Ríos steps forward, voice steady but thin. "We can negotiate stronger oversight language into the contract. A binding clause—"
+
+Tala Kumari, with a laugh that is more hurt than humor, interrupts. "You mean the language they give us after the fact, the memo that says 'we'll consult you' while the cranes come in? We've heard consult before."
+
+The hall hums with a dangerous momentum. People are no longer speaking only to you; they are deciding how to react. A chant starts low in the back and swells.
+
+Crowd (chanting): "Community! Community! Community!"
+
+Your skin prickles; adrenaline spikes. This is why you said yes to the municipal route: to move things at the pace of policy. But the payoff is landing tonight like a cheap medal—seen but not binding.
+
+[Sound: A recorded message plays from a municipal official at City Hall explaining that an oversight "seat" will be added to the pilot's steering committee; the language is bureaucratic, full of conditional verbs.]
+
+Municipal Recorder [on speaker]: "We will authorize an oversight role for community representation, to advise on implementation and report to the steering committee."
+
+Tala Kumari: "Advise. Not decide."
+
+Old Man Rohan: (to you, quietly) "Advice doesn't stop a bulldozer."
+
+Aiko Navarro: (your internal voice is a tight wire) You had imagined a seat that could veto, a partnership with teeth. Instead you negotiated a token: an advisory position without veto, a line item that sounds like inclusion but binds nothing.
+
+Mateo Ríos: (he rubs his temple, voice low) "It was the concession the council would accept. They wanted proof of metrics and some sign of community voice. This gets us the next tranche of funding."
+
+Aiko Navarro: "And if that next tranche moves full deployment before our pilot is reviewed? What if the scaffolds are locked into a timeline that ignores local needs?"
+
+Mateo Ríos: "We can build in reviews—"
+
+Tala Kumari: (snaps) "Reviews. Again. We live our lives between reviews."
+
+An angry woman near the front stands up, hands trembling. "You told us the plan would keep us here. Now you come with pads and indices and tell us to wait for reviews. My rent is overdue; my kids' school is flooding. Waiting isn't a plan."
+
+The music tightens into the sound of a heartbeat close enough to count. Your chest is a drum.
+
+Aiko Navarro: (you feel the weight of the greenhouse data in your bag like a paradox: it says 'safe' in the language Council trusts, but it doesn't say what the town needs to hear tonight) "I didn't want this to look like a take-over. I wanted to make something that would be impossible to ignore."
+
+Tala Kumari: "You made it impossible to ignore—because it looks like City Hall's plan now."
+
+The conversation fragments into shouts and sobs. You try to mediate—call for calm, ask for proposals, place yourself physically between the loudest voices—but with every placating sentence you make the room feels more betrayed. Your attempts to translate policy into empathy feel like paper in a storm.
+
+[INTERACTION]
+> Choice A: "Step onto the makeshift stage and offer a structured forum"
+> Choice B: "Pull Mateo into the back and demand he get City Hall on live video"
+[Outcome A: "You grab the mic, clearing your throat until the room stops. You outline a tight forum: five minutes for grievances, fifteen for proposals, and you promise to take minutes to City Hall. People listen because order is a kind of trust. But the trust feels fragile, like a net with holes."]
+[Outcome B: "You pull Mateo Ríos aside, your words sharp and short. He nods and starts the call; his face on the phone is apologetic and determined. But the live feed only amplifies the municipal voice and the crowd's frustration; online, the argument becomes a headline that the council will see tomorrow."]
+[MERGE: The forum idea gets a few nods; the backroom call draws a scattering of boos. Neither is a solution—they are stopgaps that buy you time and make the pressure more visible. But time is precisely what the town doesn't have.]
+
+[Scene: City Hall — Planning Office | Night (Distant, through city feeds)]
+[Background:"ch8_6b08b4_3"]
+[Sound: The echo of typing; the low murmur of a late meeting]
+[Music: Tense BGM — lower, more insistent]
+
+You sit in the dim back room of the Aquarium, the municipal live feed playing a loop on a borrowed monitor. Councilor Nguyen's voice is composed on screen.
+
+Councilor Nguyen (on feed): "We must balance the needs of citizens with the fiscal responsibility of the municipality. The pilot demonstrates measurable benefits; moving now reduces risk."
+
+Mateo Ríos watches the feed with a tautness that reminds you of a wire. He turns to you.
+
+Mateo Ríos: "They want to take this to the council vote tomorrow. If the vote goes our way, procurement unlocks. If it doesn't, we have to wait for the next budget cycle."
+
+You: (the decision compresses into a single acute point) Tomorrow's vote will determine whether the municipal rollout accelerates into deployment. The oversight seat you fought for is an advisory role on paper. The pilot shows positive metrics. Council likes that. The community feels dispossessed.
+
+You: (internal monologue accelerates) If the vote passes unamended, scaffolds move from pilot to procurement. If you push too hard tonight, you risk splitting the coalition and giving Council an excuse to delay support entirely. If you don't push, you lock the town into a structure that may not protect its people in ways that matter.
+
+You can feel every possible outcome like a sting: houses saved at the cost of consent, or consent preserved at the cost of speed. The music ratchets up—high strings, percussion like a countdown.
+
+Mateo Ríos steps closer, voice barely above a whisper. "We can bring an amendment tomorrow to offer stronger community oversight language. It may not pass, but it shows good faith."
+
+Aiko Navarro: (you picture Rohan's hands in peat, Ivy's ledger with unpaid rent, Tala's open palm toward a future that keeps no guarantee) "And if it fails?"
+
+Mateo Ríos doesn't answer immediately. When he does, his voice is paper-thin. "Then we'll have to fight from outside the process."
+
+A roar from the main hall interrupts you both—someone has been pushed, a chair overturned, voices crossing into a near-physical scramble. The Aquarium's chandelier of string lights trembles. You have to decide tonight whether to keep offering structured forums and bureaucratic patience, or adopt Tala's plan to escalate pressure and risk alienating the council.
+
+Your pulse is a drum in your ears. The scene fractures into faces—some desperate, some furious, some resigned. You feel the old sensation of shouldering everything, that reflex to contain and fix. It presses against your ribs like an incoming tide.
+
+[Background:"ch8_6b08b4_4"]
+[Sound: A distant horn from the harbor; the chant outside grows]
+
+You look at Mateo Ríos, at Tala Kumari, at Ivy, and at Rohan. Each represents a different stake, a different price of the next move. The greenhouse shows signs of success; the town shows signs of fracture. The oversight seat is a fact now, but its power is not.
+
+You inhale, feeling the air heavy with salt and accusation—knowing the council vote tomorrow will be the moment the pilot either becomes a deployment or remains a promise. The pressure is a living thing; it quickens your breath and steels your hands.
+
+[Music: Climactic surge — everything pulls taut]
+
+You stand at the threshold of a decision whose scope is larger than any single conversation tonight. You are the hinge.
+
+[Background:"ch8_6b08b4_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: [9]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 9
+    > Jump Target File: script_ch9_Route_B_Ending_Bittersweet_ctx_3be532.txt

@@ -1,0 +1,211 @@
+label chapter17:
+
+    # [Scene: Harborfront Lane | Morning]
+
+    scene bg ch14_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, insistent cello; a restrained minor-key pulse]
+    # play sound "sfx_placeholder"  # [Sound: A distant drone hovers like a hesitant gull; murmurs swell and then tighten into focused speech]
+    "You stand where the boardwalk narrows, the dossier's last page folded in your jacket like a stone you can't put down. The paper smell — toner and salt — mixes with coffee and wet rope; it"
+    "smells of the town in the way memory does. People move past you with hands full of hot cups and questions, and every face is a small map of what this fight will cost."
+    show maya_rios at left:
+        zoom 0.7
+
+    maya_rios "Thank you,"
+    show ivy_okoye at right:
+        zoom 0.7
+
+    ivy_okoye "We couldn't have asked for a braver move,"
+    "You let the dossier's evidence do the heavy lifting — annotated schematics, timestamped memos, photographs of pilings driven where the firm promised 'minimal disturbance.' Each revelation lands like a cold wave: Aquila's model does more than smooth the shore; it reroutes water and, by extension, livelihoods."
+    "Cass Adler steps into the light near the projected map — precise in their waterproof shell, looking for the camera as if the world were a slide under a projector. Something in the room tightens at"
+    "the sight of them: an old axis of history that both of you moved around for years. Their composure is the kind that trained in polished boardrooms; it is supposed to be unflappable."
+    show cass_adler at center:
+        zoom 0.7
+
+    cass_adler "We're proposing long-term solutions,' they say, voice even. 'We have to consider the town's safety at scale. These are hard choices."
+
+    maya_rios "At what cost?' you answer, louder. (You feel the question as a physical thing — a ledger left open on a table.) 'Your models assume relocation of fisheries, centralized control of access. Your 'resilience' is a map that skips the margins where people live."
+    "Cass's mouth tightens. A ripple moves through the crowd: some nod, others look away. For a moment you see the old friendship in Cass's eyes — a brief, unreadable softness — and then it hardens into the professional mask again."
+
+    cass_adler "I didn't come here to erase memory. I came here to protect people.' (Their fingers curl around the edge of the model table.) 'You should know that."
+
+    maya_rios "Protect from what? From rising water? Or from inconvenient neighbors?"
+    "Cass's jaw moves. They take a breath that tastes of meetings and press releases."
+
+    cass_adler "You made this public. You put private memos where everyone's going to see them. You made my work—my team—into a target."
+
+    maya_rios "Someone had to make it visible.' (You think of the oysters silted and the kids walking higher ground because docks are gone. You think of that long list of compromises Cass thinks are elegant.) 'If the town can't see the trade-offs, it can't consent."
+    "Cass's face fractures in that way people get when old affection collides with a newer, professional wound — quick flares of hurt and accusation."
+
+    cass_adler "You always thought you could do better with the data. You always thought you could do it without the messy compromises. Maybe that's still true for you—but not everyone can buy what you can sell with a dramatic reveal."
+    "You bristle at the condescension. The street smells sharpen — diesel from a nearby van, someone frying fish — and you feel the boardwalk's planks under your boots like a ledger holding too many weights."
+
+    menu:
+        "Lock eyes with Cass and call them out.":
+            "Your stare slices through the applause. You call their bluff on consultancy fees and who benefits; voices bubble, some in agreement, some in anger."
+        "Turn to the crowd and amplify the next practical step.":
+            "You pivot to logistics—temporary wetland barricades, volunteer rosters. The room moves from moral outrage toward work: shovels, boats, hands."
+
+    # --- merge ---
+    "The scene continues."
+    "Ivy steps in, raising a hand the way a conductor quiets an orchestra."
+
+    ivy_okoye "We need both tonight: a reckoning and a plan. People who can move equipment, meet at the north ramp at four. Legal aid is contacting families who need help."
+    "From the edge of the crowd, Eli approaches. His sleeves are rolled; the leather of his cap holds yesterday's weather. He takes the mic when you press it toward him."
+    hide maya_rios
+    show eli_navarro at left:
+        zoom 0.7
+
+    eli_navarro "None of this is easy,' he says. 'But neither is pretending it's not happening. Maya—' (he looks at you as if he is trying to fold his concern into something useful) '—I admire you. I'm proud of you."
+    hide ivy_okoye
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "I'm not doing this for admiration,' you reply, because the work is a thing that sits in your chest like ballast. 'I'm doing it because no one else seemed willing to point out the scales."
+
+    eli_navarro "Then we'll do it together,' he says. 'But promise me you'll keep one eye on what it does to the people who can afford the least."
+    "You want to promise; you want to promise everything. But you carry the memory of error — that misread tide that taught you how quickly data could fail people — and that memory folds into every vow."
+    # [Scene: Harborfront Lane | Midday — Aftermath]
+    hide cass_adler
+    hide eli_navarro
+    hide maya_rios
+
+    scene bg ch14_f99e88_2 at full_bg
+    # play music "music_placeholder"  # [Music: Low drum—heartbeat discomfort]
+    # play sound "sfx_placeholder"  # [Sound: The authoritative click of a lawyer's briefcase; a helicopter skims the far horizon]
+    "By noon the reaction curves outward. Aquila's lawyers dispatch a cease-and-desist; a glossy statement slides into the town's group chats like an oil slick. The firm publicly alleges that your leak endangers ongoing negotiations and that"
+    "'any interference will be met with legal action.' They deploy accelerated construction crews in two sectors labeled 'emergency mitigation.' Machines bite into soil where your volunteers had planned to replant cordgrass."
+    "You watch a crew pull up temporary pylons near the old oyster racks — a tannish machine churning — and your stomach clenches. The map of the marsh redraws itself in your head in angry lines."
+    show ivy_okoye at left:
+        zoom 0.7
+
+    ivy_okoye "They're trying to scare us into silence,' she says, furious, hands shaking with energy. 'That acceleration is a show—they want to make it seem necessary."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "They've always had the power to make things look necessary,' you think; your voice in your head names the truth as if honoring it gives it weight. 'We don't have their lawyers. We have neighbors and time and the truth in our hands."
+    show eli_navarro at center:
+        zoom 0.7
+
+    eli_navarro "I won't stand in the way,' he says softly, but the words are fraught. 'I can't watch our beds get pulled and sit still. I'm with you, but… what if this breaks everything we're trying to keep?"
+
+    maya_rios "What if doing nothing breaks it more?' you counter. 'What if—"
+    "He cuts you off with a look that is equal parts fear and tenderness."
+
+    eli_navarro "What if you leave?"
+    "You freeze at the shape of the sentence. It's not a question about geography. It's about the offer that arrived two nights ago: a state organizer had called and suggested you lead a broader campaign—amplify the"
+    "dossier in the capitol, push for hearings, use your work to change policy. It would mean moving your work from the boardwalk to the steps of government. It would mean distance."
+    "You feel the tide of consequences again: local fights become headlines; headlines become leverage; leverage becomes systems. The thought of leaving yawns open like a channel in a sandbar."
+
+    menu:
+        "Tell Eli about the offer now.":
+            "You pull the email up and read the lines aloud. The crowd listens like it's a new weather forecast—some faces bright with opportunity, others closed with loss."
+        "Keep the offer private a little longer—focus on the townspeople first.":
+            "You tuck your phone away and say nothing. You lean into the immediate—the shovels, the legal briefs, the children who need assurances. The private weight becomes heavier."
+
+    # --- merge ---
+    "The scene continues."
+    "Days condense into a stacked blur of town meetings, legal calls, rallying, and counteroffers. Families who have been scraping by for years make the hard choice to accept Aquila's mitigations — temporary relocations and guaranteed wages"
+    "for three years — because fear is another kind of currency and some bills cannot wait."
+    "You hold neighbors' hands as they sign forms, hearing their reasons: a mortgage, a child's asthma, the promise of steady work. Others refuse and join Ivy's banners. The town cleaves, not into villains and heroes but into people making impossible arithmetic under different lights."
+    "Cass's public composure frays on camera. At a municipal hearing, their precise language falters; when a neighbor asks directly about displaced oystermen, Cass stumbles past the public-relations gloss. The room watches the gap open between their polished plan and the people who will live with its costs."
+    hide ivy_okoye
+    show cass_adler at left:
+        zoom 0.7
+
+    cass_adler "We intended—"
+
+    maya_rios "Intended?' you respond, feeling the word as a neuron firing. 'Intentions don't bind planks or pay rent."
+    "Cass leans forward, eyes rimmed with a sudden, exhausted honesty."
+
+    cass_adler "You made it public in a way that humiliated people who are trying to do the right thing. We could have found a way—"
+
+    maya_rios "Found a way that keeps people in control,' you finish for them. 'We could have insisted on a community trust, on hybrid models. But you never offered that with legal teeth. You offered a model—and the town as an object."
+    "Cass's expression is pained, complex—equal parts guilt, anger, wounded pride. For the first time, something vulnerable flickers through the corporate armor: the human cost of being right in theory and wrong in practice."
+    # [Scene: Old Lighthouse Ruins | Night]
+    hide maya_rios
+    hide eli_navarro
+    hide cass_adler
+
+    scene bg ch14_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano; wind weaving through gaps in the masonry]
+    # play sound "sfx_placeholder"  # [Sound: Waves, a hollow long sound like a kettle beginning to boil; a single gull calls far off]
+    "You walk the low path to the lighthouse because rooms have too many people in them and because old stones ask questions differently than town halls. Salt slips off your jacket in fine beads. The marsh"
+    "below is a collage: beds of new spartina where volunteers worked, places where heavy machines have pressed a dark bruise into the mud, oyster racks half-empty. The shore feels like a face with too many lines."
+    "Eli is already there, leaning against a crumbled wall with his arms folded. He looks older than the last time you were here by years, though only days have passed."
+    show eli_navarro at left:
+        zoom 0.7
+
+    eli_navarro "You've changed the conversation,' he says without preamble. 'Or maybe you just made it louder."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "Louder,"
+
+    eli_navarro "And they fired back hard.' (He nods toward the distant harbor lights.) 'Some of the crew at the beds—Jose, Laila—they're taking the mitigation. They can't risk another winter. I don't blame them."
+    "You swallow. The town is a body with broken ribs; some will mend, some won't."
+
+    maya_rios "They should never have had to choose between a roof and a restoration,' you say. 'That's the point."
+    "Eli studies you. The remembered safety between you feels thin, a skin stretched over a bone."
+
+    eli_navarro "You got an offer,' he says finally, voice low. 'From the state."
+    "It is both accusation and plea."
+
+    maya_rios "They called me two nights ago,' you admit. 'They want me to lead hearings, to help write binding regulations. They can make this a policy conversation rather than a local tug-of-war."
+    "Eli's hands find yours — an attempt at anchoring, a plea not to vanish into distant legislature."
+
+    eli_navarro "If you go, will they listen? Will the people who need protection feel like their voices weren't enough without you?' His voice cracks on the last part. 'And if you leave, who will I stand with at the beds when the contracts come due? Who will bargain the price of oyster seed?"
+
+    maya_rios "I don't know,' you say, because the truth is a raw thing; it sits there, small and bright. 'I don't know if moving to the capitol will save more than staying here fighting with shovels."
+
+    eli_navarro "You always wanted to speak for more than just this town,' he says. 'I remember you as that person who wouldn't accept the simplest model without its footnotes."
+    "You remember too: late-night models, coffee rings on printouts, arguments in labs that smelled of salt and solder. You wanted the world to account for edges. Maybe this is what accounting looks like at scale."
+    "The two of you stand in the lighthouse's broken mouth, wind hitching your words. You could choose to stay — keep the messy, intimate labor of the marsh — or accept the offer: use the exposure"
+    "to pull the coast into law, risk becoming a public figure who might be blamed for anything the movement breaks. Either path fractures something."
+    "You think of Eli's hands — callused, steady — and of the town, which will bind itself back together or not, in ways you cannot fully predict. The marsh will survive somewhere between choices: in protected"
+    "coves and in banked seed, in the stubborn work of neighbors. It will not be the same."
+
+    maya_rios "I have an answer,"
+
+    eli_navarro "Tell me,"
+    "You look at the horizon, at the place where gray water meets heavier gray sky, and let your decision fall into the space between."
+    "You choose to leave."
+    "It is not a dramatic departure. There is no great flourish, no accusation hurled at the world. You embrace Eli for a long time in the cold, your cheek against his jacket. He smells like salt"
+    "and rain and every storied dock you've walked together. When you pull back, his face is unreadable for a beat — then steady."
+
+    eli_navarro "Then go,' he says. 'Make them listen. But come back when you can. Don't let their victories be the only stories you tell."
+
+    maya_rios "I will come back,"
+    "You pack light in the days that follow. Volunteers cover your shifts at the beds; Ivy organizes a rotation so the town does not depend entirely on one set of hands. Cass does not come to"
+    "see you off. Their last message is professional and cold; the remnants of what passed between you remain tangled with the public columns that condemned them."
+    "Aquila's public image takes a hit. There are hearings, apologies with caveats, and a shuffle at the top. Some contracts are rescinded; others are quietly amended. The marsh is spared in pockets where communities had the"
+    "leverage to claim it. Elsewhere, a line of concrete still stands where an old dock used to be: a compromise some families accepted and others grieved."
+    # [Scene: Epilogue | Months Later]
+    hide eli_navarro
+    hide maya_rios
+
+    scene bg ch14_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: A slow, mournful cello that loosens into a guarded major chord]
+    # play sound "sfx_placeholder"  # [Sound: Children playing, gulls, a distant gavel]
+    "You stand before a committee in the capital now, dossier in hand, every statistic and photograph preserving the memory of the marsh in a different grammar. You fight for laws that make community trusts possible, for"
+    "funding for small fisheries, for legal teeth that prevent glossy models from erasing the margins. You win some things and lose others. Policy slips through, tethered to compromise. Some of the changes you pushed become binding."
+    "Some never left the drafts."
+    "Back home, Eli sends photos: a child with a new fishing line, Laila showing off a returned cohort of oysters, a repair of a community roof sponsored by a coalition raised by Ivy. The town is"
+    "not the same: some storefronts are shuttered, some faces are new. The lighthouse is quieter. The marsh is a patchwork of survival."
+    "Cass's career is realigned; they now speak with a different edge when asked about humility. Sometimes, in long nights between hearings, you replay their last, inadequate apology and wonder what could have been if finesse had matched empathy."
+    "You carry your grandmother's bronze pendant through all of it, a small mass of metal that touches your sternum when you swallow. People call you brave. People call you reckless. You are tired in a way"
+    "that feels like earned debt. You made a choice that demanded distance. The distance bought reach."
+    "There is sorrow folded into the work, a home-shaped ache when you think of Eli on morning tides you no longer walk. There is also a strange, stubborn pride when an ordinance you drafted protects a"
+    "stretch of marsh that once seemed doomed. The two feelings sit together like sea glass—sharp, smoothed, beautiful in the way only the broken can be."
+    "You close your notebook and feel the bronze warm against your sternum. In the quiet of a hotel room far from home, you can hear the pulse of the country — an echo of the town."
+    "It is humbling and heavy. You do not know if what you did will be enough in the long arc of the sea, but you know this: you chose to make the sacrifice where it would"
+    "widen the lens. The marsh is smaller and larger because of that choice; the town is cracked and held."
+    "A gull calls, somewhere. You think of Eli at the beds. You think of Ivy leading a chant. You think of Cass, and of the sharp edges of what is lost. The tide keeps moving regardless; you are moving with it, trying to shape its path."
+
+    scene bg ch14_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Cello fades to a single, resolved note — a minor chord that carries the memory of both grief and steadfastness]
+    # play sound "sfx_placeholder"  # [Sound: Distant waves, steady and indifferent]
+
+    scene bg ch14_f99e88_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

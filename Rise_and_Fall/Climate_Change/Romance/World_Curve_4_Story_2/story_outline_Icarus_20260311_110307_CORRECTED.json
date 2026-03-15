@@ -1,0 +1,499 @@
+{
+  "title": "Tidebound Promises",
+  "summary": "Maya Reyes, a marine ecologist and local organizer in Lumen Bay, must navigate community-led restoration and a corporate technocratic proposal called The Arc. As Dahlia Kestrel and AquaWorks press a rapid engineered sea barrier, Maya brokers (or rejects) partnerships, debates design trade-offs, and negotiates the town's future while developing a strained romance with Elias Kwan. Each route accelerates into apparent success—funding, construction, praise—before hubris, overlooked ecological dynamics, and unforeseen storms precipitate a catastrophic collapse. Endings vary in scale from painful but rebuildable to devastating, with final scenes focusing on loss, reckoning, and the seeds of renewed resolve.",
+  "emotional_curve_type": "Icarus",
+  "player_character": "Maya Reyes",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Morning at the Marsh",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive at the Marsh of Tides before sunrise, checking seedlings and my compact leather field journal. Volunteers gather, mud on boots and hope in their hands. Elias appears in a salt-streaked knitted sweater, hair windblown; Jonah jokes and jabs about tides while I catalog cordgrass growth. I map channels, recall my father’s laugh and the storm that took him, and feel the familiar push to fix the damage myself. Rosa calls about a council meeting; Mayor Durant hints at corporate interest. The day is a small, intimate triumph—new shoots, a rescued bird, and the smell of wet earth. I attend to social repair too: consoling an older volunteer, negotiating which trench to plant next, and scribbling notes with pressed marsh grass between pages. The scene establishes my empathy, impatience for half-measures, and the stakes of preserving Lumen Bay’s texture: memorials, seed banks, neighbors’ livelihoods. I am both scientist and daughter of this town; I cannot accept faceless “safety” that erases memory. The chapter closes with a call from Rosa: an AquaWorks delegation is visiting tomorrow.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Kwan",
+        "Jonah",
+        "Rosa",
+        "Mayor Lyle Durant",
+        "volunteers"
+      ],
+      "locations_used": [
+        "Marsh of Tides"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "The Meeting at the Promenade",
+      "branch_designation": "Common",
+      "narrative_focus": "I go to the Promenade & Dunes for a pre-meeting with Rosa and Mayor Lyle Durant. The promenade smells of sun-bleached sand; tide gauges clack in wind. Rosa, clipboard in hand and braid streaked with gray, worries about council pressure. At the municipal hall a slick representative from AquaWorks waits—Dahlia Kestrel, immaculate in a pale teal suit and a reflective trench, her platinum bob precise even with drizzle. She hands me a slim tablet and lays out The Arc in calm, measured language: modular barriers, pumps, measurable outcomes. I read the renderings while my journal feels suddenly too small. Elias arrives late, rope tied to his boot, ocean-blue eyes narrowed; his stance is quiet distrust. I practice my questions: what of marsh connectivity? of livelihoods? Dahlia smiles with ice-gray eyes and a statistic about lives saved. Mayor Durant’s face flickers—jobs versus tradition. The meeting ends with a public forum scheduled; the town will decide in days. The air tastes of salt and decisions. I close my field journal and feel the old, familiar pull—protect the marsh, protect the people.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Reyes",
+        "Rosa",
+        "Mayor Lyle Durant",
+        "Dahlia Kestrel",
+        "Elias Kwan"
+      ],
+      "locations_used": [
+        "Promenade & Dunes",
+        "Municipal Hall"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Town Forum — The Choice",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The town forum is a theater of salt-streaked faces and damp umbrellas. Under sodium lamps and string lights, Dahlia presents The Arc with clean visuals from AquaWorks; her silver cuff animates tide projections. I stand at the microphone, feeling the weight of my father’s absence and the seed bank’s name stitched into my jacket. Jonah shouts from the back; Rosa arranges murmurs into ordered questions. I see Elias watching, his ocean-blue eyes guarded. The forum becomes a crossroads: the Arc promises immediate measurable protection, jobs, and glossy safety; our community plan argues for marsh expansion, co-managed jobs, and preserving fishing culture. I must decide how I present myself—reject Dahlia outright, propose a community-corporate partnership, insist on more study and delay, or accept Dahlia conditionally and insist on oversight. Each path carries my heart and the town’s future. The choice is a hinge: it will accelerate either top-down engineering, grassroots scaling, compromise, or caution. I imagine the marsh at high tide and the living memory of those who stayed. The crowd waits. My voice tight, I prepare to speak.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I position Lumen Bay before the council and the town?",
+        "options": [
+          {
+            "label": "Propose a formal partnership: community co-management with conditions.",
+            "consequence": "Opens collaborative pilot agreements and shared oversight.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Refuse corporate involvement; double down on community-only restoration.",
+            "consequence": "Declares staunch local resistance, rallies volunteers but limits immediate funds.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Accept Dahlia's proposal with strict conditions and a seat on the advisory board.",
+            "consequence": "Secures funding fast but puts me inside corporate timelines.",
+            "target_chapter_index": 10
+          },
+          {
+            "label": "Call for delay: commission independent studies and a neighborhood vote.",
+            "consequence": "Slows everything; forces more data and time.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan",
+        "Jonah",
+        "Rosa",
+        "Mayor Lyle Durant",
+        "town residents"
+      ],
+      "locations_used": [
+        "Promenade & Dunes"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "\"Co-management Pilot\"",
+      "branch_designation": "Route A",
+      "narrative_focus": "I take the stage to propose a co-management pilot: community-led marsh expansion funded by AquaWorks, with a legally binding oversight board. Dahlia’s ice-gray gaze narrows, then relaxes; she agrees publicly to the framework. In the Marsh of Tides, volunteers and AquaWorks technicians work side by side—scientific sensors meet hand-planted cordgrass. I feel the intoxicating rush of leverage: money, tools, and the dignity of local labor. Elias stands beside me, sleeves rolled, salt on his sweater, offering a rare grin when a planting succeeds. For a few weeks the tide seems kinder: seedlings hold, recruitment swells, the Skyline Rooftop Garden buzzes with celebratory jars of preserves. Rosa negotiates with Mayor Durant for matching labor grants; Asha runs community workshops that translate my charts into people’s stories. I stay up into the night with my field journal open, mapping growth and drafting bylaws. There is an upward momentum, a sense of communal ingenuity married to technical scale. I allow myself to imagine a barrier reshaped into a living system—our local knowledge amplified, not erased. For the first time, the future feels close and possible.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan",
+        "Rosa",
+        "Asha",
+        "Mayor Lyle Durant",
+        "AquaWorks technicians",
+        "volunteers"
+      ],
+      "locations_used": [
+        "Marsh of Tides",
+        "AquaWorks Research Station",
+        "Skyline Rooftop Garden"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Design Choices (Logic Hub)",
+      "branch_designation": "Route A",
+      "narrative_focus": "The pilot sparks a heated working session in AquaWorks’ wet lab. Dahlia’s tablet shows modular barrier schematics while my journal diagrams marsh hydrology. I argue for tidal connectivity and fish corridors; Dahlia pushes for prefabricated segments that can be installed quickly. Elias’s steady voice floats from the doorway—he wants fishing lanes preserved. We sit in a room of fluorescent hum and coffee-stained maps, negotiating the shape of safety. This is the intoxicating apex: funding, influence, and the sweet belief that design can reconcile values. I have to decide tactically now—push for rapid deployment to secure public confidence, insist on integrating marsh buffers as a non-negotiable core of the plan, or demand community co-management clauses that slow the timeline but guarantee local jobs and oversight. Each choice deepens alliances or raises tensions. I feel adrenaline: the town is watching, the media will frame this as proof of cooperation. My hands tremble when I mark my preference in the margin of the schematic; in my head I replay my father’s voice about tides. The choice will set not only an engineering path but how our love—Elias’s steadiness and my impatience—will be tested.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which design philosophy do I champion?",
+        "options": [
+          {
+            "label": "Push for rapid, visible deployment to secure funding and political support.",
+            "consequence": "Faster installation but less marsh time for adaptation.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Insist marsh buffers are integrated as core engineering, even if it slows rollout.",
+            "consequence": "Slower public wins, stronger ecological integration.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Demand legally binding community co-management clauses before any build begins.",
+            "consequence": "Secures oversight but risks Dahlia’s withdrawal or time delays.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan"
+      ],
+      "locations_used": [
+        "AquaWorks Research Station"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "The Storm Breaks",
+      "branch_designation": "Route A",
+      "narrative_focus": "I thought we had bought the town a breathing room. Instead, a storm the meteorologists hadn’t forecast hits the bay with a violence I know in my bones. Overnight, sleek segments of The Arc—a partial deployment meant to demonstrate our partnership—pierce the surf like cold teeth. I’m at the Marsh planting when the first alarm blares; waves curl over pilings, sand turns to a roiling gray. Dahlia’s flood pumps scream and then stutter; a joint fails at a seam where the barrier met a channel we’d insisted on keeping open for fish. Water sluices into neighborhoods we thought protected. Jonah helps haul neighbors up onto the boardwalk as power fails; Elias is out on the water, his face lit pale by sodium lamps, rope cutting into his palm. The crash is immediate: infrastructure we counted on breaks, our seedlings drown in brackish surge, and a section of the Arc tears away like a torn page. In the afterlight, reporters ask who to blame; Rosa asks how many will lose homes. I stand in mud up to my knees, field journal sodden, and the triumphant momentum I felt just days ago shatters into a thousand personal reckonings.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Jonah",
+        "Elias Kwan",
+        "Rosa",
+        "reporters",
+        "neighbors"
+      ],
+      "locations_used": [
+        "Marsh of Tides",
+        "The Arc",
+        "boardwalk"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Community First",
+      "branch_designation": "Route B",
+      "narrative_focus": "I stand firm against AquaWorks and call a vote for the town to pursue a community-only restoration path. Rosa and Asha crank up volunteer recruitment, Jonah rallies young fishers, and my seed-bank workshops fill. We redirect small grants and organize paid community crews—stone revetments, cordgrass trenches, and revived rain gardens on the Skyline Rooftop. Elias leads work crews at dawn, salt-streaked sweater sleeves rolled, guiding far less tech and far more elbow grease. The town hums with purpose: children learning planting rhythms, elders teaching tide-reading, and local solar chargers powering sensors. We gain small but authentic wins: a stretch of marsh holding against an early storm surge, local kitchens outfitted with salvaged pumps, and the media calling Lumen Bay a model of grassroots resilience. The momentum tastes different—less glossy, more textured—yet it feels truer. I write bylaws in my journal to ensure funds are community-controlled. For a few exhilarating weeks, the rise is real: our confidence in local capacity swells, and even some AquaWorks engineers nod at our data. I allow myself to imagine the marsh as our defense built from memory and muscle.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Reyes",
+        "Rosa",
+        "Asha",
+        "Jonah",
+        "Elias Kwan",
+        "volunteers"
+      ],
+      "locations_used": [
+        "Skyline Rooftop Garden",
+        "Marsh of Tides"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Tactical Decisions (Logic Hub)",
+      "branch_designation": "Route B",
+      "narrative_focus": "Our early wins force hard strategy conversations. Dahlia’s slick PR keeps hovering; Mayor Durant alternates between admiration and pressure. Should we push for recognition and local legislation—solidifying funding by appealing to state grants, confront AquaWorks publicly to deny them narrative control, or undertake riskier direct actions like blocking equipment at the Arc site to force negotiations? Each choice changes our trajectory: seeking formal recognition institutionalizes our gains but invites bureaucratic compromise; a public confrontation might protect our narrative but escalate tensions; direct action accelerates drama and could fracture local support. Elias worries about his brother’s nets and the practical fallout of blocking jobs that people need. Asha urges boldness; Rosa counsels caution—there are families on both sides. I feel the high, intoxicating belief that community labor and moral clarity can steer outcomes. My journal fills with plans and contingency notes. We are on a crest: people believe in us. The choice will determine whether that crest can carry us into durable security or whether hubris draws the storm’s eye.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How does the movement escalate?",
+        "options": [
+          {
+            "label": "Apply for state resilience grants and formalize community governance.",
+            "consequence": "Long-term funding but bureaucratic compromise.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Publicly confront AquaWorks with a town-wide rally to control the narrative.",
+            "consequence": "Visibility and moral clarity; risk of polarization.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Organize peaceful direct action to delay Arc construction and force real negotiation.",
+            "consequence": "Immediate pressure; legal and social risks.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Mayor Lyle Durant",
+        "Elias Kwan",
+        "Asha",
+        "Rosa",
+        "town residents"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Arc site (in distance)"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "After the Crash",
+      "branch_designation": "Route B",
+      "narrative_focus": "Our defiance sharpened public debate, and for a moment it felt like we reclaimed the story. Then the storm that had been a distant worry slammed into us. The Arc’s rushed segments—installed despite our resistance—buckled in places, rerouting surge flows toward neighborhoods we’d fortified. The concrete revetments we’d raised held in some places, but the redirected water scoured others clean. Children’s playgrounds filled with brackish mud; Jonah’s small boat was smashed against a pier. We tended the wounded and counted houses; Rosa stood drenched, clipboard useless against sorrow. The rise we rode collapsed into messy, human consequence. Our grassroots labors saved many homes and inspired neighboring towns, but the city-scale infrastructure’s partial failure caused damage that could have been minimized by better cross-scale coordination. In the wake, some families decide to relocate for safety and work; Elias and I argue about choices he must make for his kin. There’s no clean victory—only a costly, honest reckoning. I sit on the boardwalk, journal sodden, and realize that moral clarity alone couldn’t prevent certain violence when scale mismatches of intervention meet a vindictive sea.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Jonah",
+        "Rosa",
+        "Elias Kwan",
+        "neighboring towns"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Marsh of Tides",
+        "neighborhoods"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Conditional Acceptance",
+      "branch_designation": "Route C",
+      "narrative_focus": "I accept Dahlia’s proposal with conditions—an advisory seat, committed marsh funding, and enforceable oversight clauses. It’s a pragmatic gamble: funding arrives quickly, engineers set up pumps, and a shiny demonstration segment of The Arc is installed to reassure insurers. For weeks I walk between blueprints and mud, negotiating timber gaps and fish corridors. Dahlia’s hair is immaculate even in downpour; she listens, occasionally softening into something almost human when she mentions the sibling she lost to flooding. Elias is skeptical—he helps deploy buoy markers and studies pump rhythms—but we share quiet mornings arranging seedlings under sodium-lamp hum. The public sees us as the model of compromise: community voice at the table, corporate resources in the field. My journal collects signatures and clauses; Rosa translates them into press-ready phrases. Momentum surges—news vans call Lumen Bay a case study in collaborative adaptation. I feel the rush of influence: a seat at the table, leverage to protect the marsh while harnessing scale. For now the world seems neatly reconciled; the tide, though, never listens to negotiation.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan",
+        "Rosa"
+      ],
+      "locations_used": [
+        "AquaWorks Research Station",
+        "pier"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Advisory Pressure (Logic Hub)",
+      "branch_designation": "Route C",
+      "narrative_focus": "Being on the advisory board is intoxicating and corrosive. Dahlia expects deliverables; funders demand timelines. I push for extra marsh buffers and transparent monitoring, but pressure mounts to sign off on accelerated deployment to satisfy insurers. The room smells of recycled air and teal LEDs; Dahlia’s silver cuff flicks through performance metrics while my field journal pushes back with tide models. Elias presses his palm to the map where old fishing lanes run; he advises a tempered rollout so fishers can adapt. I must choose: sign off to keep the coalition intact and secure immediate protection, push hard for transparency and demand public release of structural testing data, or withhold approval unless a full ecological audit is completed—risking Dahlia’s withdrawal and public fallout. Each decision weighs trust, power, and moral cost. I feel the high of influence, then an undertow of dread—how much compromise will my community accept before we become a glossy case study that loses the thing it was meant to save?",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "What do I demand as conditions for full deployment?",
+        "options": [
+          {
+            "label": "Sign off to preserve partnership; secure jobs and fast protection.",
+            "consequence": "Political capital secured; less rigorous transparency.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Demand full public testing and structural transparency.",
+            "consequence": "Slows deployment; risks corporate impatience.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Withhold final approval until an independent ecological audit is complete.",
+            "consequence": "Potential withdrawal of funding; preserves ecological integrity if successful.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan",
+        "funders",
+        "engineers"
+      ],
+      "locations_used": [
+        "AquaWorks Research Station (boardroom)"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Catastrophe and Departure",
+      "branch_designation": "Route C",
+      "narrative_focus": "The day the barrier failed began with a press release celebrating our \"protected\" town. I was on the AquaWorks catwalk checking sensors when alarms screamed: a joint in an upstream segment fractured under a pressure front the models hadn’t anticipated. Water found the seams we’d accepted to allow fish passage and exploited them like knives, churning the shorelines in a way that no one’s simulations had foreseen. Houses flooded, nets were shredded, and a section of multi-use promenade collapsed. The Arc’s shiny panels became lethal debris. In the chaos, I watched Dahlia’s composure crack; her neat bob plastered by rain, her eyes cold and expelling the calculations that had convinced her of infallibility. Elias and I argued in the emergency shelter—he blames my assent; I blame the whole logic that claimed we could engineer away memory. Some families decide to leave; Jonah’s small boat is gone. I pack my field journal—its pages full of plans that were not enough. There is no reconciliation in this scene, only loss and the hollow echo of promises made too fast.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan",
+        "Jonah",
+        "families"
+      ],
+      "locations_used": [
+        "AquaWorks Research Station",
+        "The Arc",
+        "promenade"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Call for Time",
+      "branch_designation": "Route D",
+      "narrative_focus": "I call for a deliberate pause: independent studies, neighborhood votes, and a slow pilot. Dahlia bristles but agrees to a trial if the town supports it. We convene scientists, fishers, and elders at the Skyline Rooftop Garden; jars of preserves and the smell of compost frame our talks. For weeks we run side-by-side trials—a small modular prototype at a controlled inlet, marsh transplants in replicated plots, and a legal framework for community co-management. The town rallies; Elias helps deploy markers and trains youth in net repair, his narrow ocean-blue eyes softening when a juvenile tern returns. We keep our momentum steady rather than meteoric—funds are modest, wins incremental, but the social fabric tightens: apprenticeships for fishers in restoration, a certified local workforce, and transparent dashboards in my field journal for everyone to read. I feel the slow ascent like rowing in careful strokes—exhausting but sure. My temptation to chase headlines abates; instead I savor small certainties. The pilot promises a tempered path that could be scalable without erasing the town’s soul.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option D",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan",
+        "scientists",
+        "fishers",
+        "elders",
+        "Asha",
+        "Rosa"
+      ],
+      "locations_used": [
+        "Skyline Rooftop Garden",
+        "controlled inlet",
+        "Marsh of Tides"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Prototype Decisions (Logic Hub)",
+      "branch_designation": "Route D",
+      "narrative_focus": "Our prototype performs well in controlled trials, and now we must decide the path to scale. Do we scale slowly with rigorous monitoring and labor-based economic programs, expand quickly with modular components that are reversible, or open collaborative licensing so neighboring towns can adapt our hybrid model? Each option changes the culture of Lumen Bay: slow scaling protects social rhythms and traditional livelihoods but risks losing political momentum; modular reversible scaling buys flexibility but can be co-opted by corporate interests; licensing extends impact but risks dilution of local control. Dahlia watches from the edges, platinum bob reflecting the rooftop bulbs; she speaks of scalability and hope. Elias presses for community apprenticeships embedded in any scaling plan. My journal fills with contingencies and an aching calculation of trust. This is the critical apex of aspiration: a model that could export resilience or a local program that could preserve identity. I feel the rare mix of hope and burden—the kind that makes my chest ache and my hands steady.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 13",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which scaling strategy do I choose?",
+        "options": [
+          {
+            "label": "Scale slowly with strict monitoring and labor programs.",
+            "consequence": "Protects social fabric; slower protection.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Expand quickly with reversible modular components.",
+            "consequence": "Fast coverage; potential for misuse.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "License the hybrid model widely with strict community safeguards.",
+            "consequence": "Broader impact; risks dilution of local control.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Dahlia Kestrel",
+        "Elias Kwan"
+      ],
+      "locations_used": [
+        "Skyline Rooftop Garden",
+        "prototype site"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "The Reckoning and the Seed",
+      "branch_designation": "Route D",
+      "narrative_focus": "The prototype’s scaling decision blooms into action—and then nature reminds us of humility. A storm stronger than our models predicted lashes the bay. Where we’d expanded quickly with reversible modules, a misaligned seam concentrated surge onto a low-lying neighborhood; where we scaled slowly, some buffers held but the surge found new pathways; where licensing spread our methods, inconsistent local implementation left gaps. The result is a patchwork failure—no single catastrophic collapse like a levee breaking city-wide, but a painful, distributed set of blows: damaged houses, lost nets, and a generation simmering with anger. Yet the aftermath is different than in other paths: the prototype’s monitoring arrays survive in places, apprenticeships still exist, and communities adopt hard lessons in real time. Elias and I stand among volunteers rebuilding a tidal sluice gate; we are bruised but present. The romantic thread between us is weathered but not severed—the intimacy is quieter, more resilient. I close my soaked journal and plant a seed in a raised bed on the Skyline Rooftop. The ending is messy: we fell from our apex, but the fall scattered seeds that may someday root into something lasting. The work will be long; I am stubborn enough to begin again.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 14, Option A/B/C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Elias Kwan",
+        "Dahlia Kestrel",
+        "volunteers",
+        "families"
+      ],
+      "locations_used": [
+        "Promenade",
+        "Skyline Rooftop Garden",
+        "boardwalk"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "All chapters are first-person POV as Maya Reyes. Chapter 3 is the central multi-way split with subsequent major decisions at Chapters 5, 8, 11, and 14. Each route follows a Rise–Fall (Icarus) arc and ends in Chapters 6, 9, 12, and 15 respectively. Every path from Chapter 1 to any Ending comprises six chapters.",
+  "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+  "_meta_arc_strategy": "Icarus (Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 11:03:07"
+}

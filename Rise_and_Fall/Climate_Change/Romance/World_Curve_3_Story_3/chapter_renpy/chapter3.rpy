@@ -1,0 +1,159 @@
+label chapter3:
+
+    # [Scene: Municipal Hall | Evening]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, uneasy piano; distant rumble of wind through gutters]
+    # play sound "sfx_placeholder"  # [Sound: Murmur of voices, the scrape of chairs, a coffee cup set too hard on a folding table]
+    "You push through the glass doors and the smell hits you first — burnt coffee warmed by salt air, a sharper tang of damp coats, the faint, greasy warmth of too many hands folded over late"
+    "petitions. The hall is smaller than you remembered, as if everyone has been squeezed closer by the same rising tide that hallowed your childhood beaches. Rita is already there, apron streaked with soil, hands moving quicker"
+    "than her mouth. Mayor Tomas stands by the lectern, forehead shadowed, his tailored shirt trying and failing to make this look like ordinary governance."
+    "Your tide-watch rests heavy against the palm you keep tucked by your thigh, the brass warm where your fingers worry at it. Your tablet lies open on the community table under a scatter of printouts —"
+    "graphs with hopeful lines and sticky notes in Rita's bright handwriting. You don't let yourself dwell on whether those lines are enough. You never have, not here."
+    show rita_ortega at left:
+        zoom 0.7
+
+    rita_ortega "Maya, good — you made it. Ayla's starting. Tomas is—' (she jerks her chin at the mayor) '—being Tomas. People will want answers. Watch the elderly block on the south pier; they'll ask about buyouts again."
+    "You nod. You can taste the metallic tang of adrenaline in the back of your mouth. This is the tilt you've been awake to all week."
+    hide rita_ortega
+
+    scene bg ch3_98c6f2_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The projector clicks; Dr. Ayla Voss's voice cuts through, measured and cool]
+    "Dr. Ayla Voss steps forward, slide-advancer in hand, every movement crisp. Her hair is a bright line, her jacket immaculate even in this cramped room. She takes the lectern the way someone takes a stage: not to shine, but to hold attention."
+    show dr_ayla_voss at left:
+        zoom 0.7
+
+    dr_ayla_voss "Thank you. I know these options demand compromises. Option one is a centralized hybrid resilience plan—engineered barriers combined with managed retreat for the most exposed nodes. Option two is a targeted buyout of blocks at immediate risk, followed by investment in distributed defenses. Option three is a pilot with strict metrics: slow implementation but with contingency triggers. Each has funding constraints and time windows."
+    "Her voice is precise; the words land like pebbles on a still tide pool. People lean forward. You read the room in seconds: fear, calculation, the old, raw ache of a place that remembers."
+    show mayor_tomas_nkem at right:
+        zoom 0.7
+
+    mayor_tomas_nkem "We need to be realistic. Funding comes with strings. We can't promise everything to everyone."
+    "The murmurs swell. An elderly man at the back — someone whose house you passed every morning — spits, 'So who picks who moves? Who loses their dock? Who goes first?'"
+
+    menu:
+        "Step up now and ask for clarifications":
+            "You plant your hand on the edge of a folding table and call for a point of order. Your voice is steadier than you feel; heads turn toward you, expectant."
+        "Stay silent and let Dr. Ayla Voss finish":
+            "You bite the inside of your cheek and force your hands to still. Dr. Ayla Voss continues, and the room fills with numbers you already know — deadlines, trigger metrics — while the question of who will pour the concrete for people's futures hangs in the air."
+        "Lean toward Elias Jun and whisper a plan":
+            "You lean in; Elias Jun's jaw tightens, he nods once like a sparrow startled into flight. Your whisper is short, urgent — enough to make him crack a grin that doesn't meet his eyes."
+
+    # --- merge ---
+    "Meeting continues"
+    "A hand goes up from near the community garden map. Arlo's voice trembles when he speaks; he is young, fierce in his commitment, and half in awe of how adults can fold the future into spreadsheets."
+    show arlo_benitez at center:
+        zoom 0.7
+
+    arlo_benitez "What happens to the boats? My cousin can't build a new one. If we lose the harbor, we lose how we eat."
+    "Elias Jun rises from near the front, sleeves rolled to the elbow, sawdust flecking his forearms like a second skin. He doesn't take the stage smoothly; he pushes through the crowd with the urgency of someone"
+    "who has already measured wood by moonlight and wants the town to start measuring action by dawn."
+    hide dr_ayla_voss
+    show elias_jun at left:
+        zoom 0.7
+
+    elias_jun "We can do this ourselves. Modular barriers, reef units, mangrove beds—build 'em in sections, test them. Keep people working, keep our nets and our memories. We don't have to wait for permission to care for our shoreline."
+    "There's a timbre in his voice that makes you taste salt and old rope — tactile, immediate. The room fractures. Applause from the docksmen, skeptical frowns from those who follow the policy channels. Dr. Ayla Voss barely tightens, but you note the shadow cross her face — unreadable, complex."
+    hide mayor_tomas_nkem
+    show dr_ayla_voss at right:
+        zoom 0.7
+
+    dr_ayla_voss "Community efforts are vital, Elias Jun, but they are not a replacement for scale. Modular builds can be useful pilots, but they may not hold against projected surge scenarios without engineered support."
+    "Elias Jun doesn't back down."
+
+    elias_jun "So we combine. Let us build while you plan. Let us show the models where they stand up, not theorize them in sterile rooms."
+
+    dr_ayla_voss "Scale requires funding, maintenance, and legal oversight. Admirable projects fail when they don't integrate with regional systems."
+    "Mayor Tomas interposes, palms up."
+    hide arlo_benitez
+    show mayor_tomas_nkem at center:
+        zoom 0.7
+
+    mayor_tomas_nkem "We cannot split the funding. Regional administrators won't fund two parallel —"
+    "Rita cuts in, voice tight with exasperation."
+    hide elias_jun
+    show rita_ortega at left:
+        zoom 0.7
+
+    rita_ortega "So once again the town that tries to act gets told to wait. People can't wait. Houses flood. Kids miss schools. We need a plan that doesn't pretend time is on our side."
+    "You stand between the lectern and Elias Jun, tide-watch damp against your palm from fingers you've rubbed briskly. Your tablet holds spreadsheets with scenarios you have gone over until the rows blur: mortality risk curves, household"
+    "displacement estimates, the bitter arithmetic of what a buyout would cost versus what an engineered wall would cost in upkeep."
+    "Inside your head, a quieter litany runs: who will you ask to leave? How many families will accept money when their history is wrapped up in mangrove roots and boat names? The models give you clarity and cruelty in equal measure."
+    hide dr_ayla_voss
+    hide mayor_tomas_nkem
+    hide rita_ortega
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A chorus of voices — questions, shouted comments, the soft cracking of someone dropping a paper cup]
+    "You raise your hand, and the room narrows to the sound of your breathing. This is not just a policy decision. It is a choice of what counts as home."
+    show maya_reyes at left:
+        zoom 0.7
+
+    maya_reyes "We can't keep talking past each other. If we only build, we risk funds and scalability. If we only engineer, we risk losing the people's trust and their stories. If we buy out blocks, we —"
+    "Your words snag somewhere between the ledger and the salt-creased faces. People begin to talk at once. Someone from the south pier says quietly, 'My grandmother's house has been in her family's name since before Marisora"
+    "had a road.' Another voice, younger, says, 'My aunt can't move her business inland — she hasn't got the capital.'"
+
+    menu:
+        "Appeal to shared history":
+            "You tell the room about the festival where the whole pier used to sing into the wind. For a second, the noise softens — memory is sticky like that — and eyes glisten. But it doesn't answer the hard numbers on your tablet."
+        "Read a short excerpt from your model":
+            "You read the worst-case projection aloud; the room goes colder. People glance at their hands. Fear makes budgets suddenly more urgent; some faces harden, the political calculus shifting."
+        "Ask for a short recess to gather focused input":
+            "You call for five minutes. Rita claps once like a judge pleased; others grumble but quiet. The pause gives you breathing room; you can feel the weight of every possible outcome settle back into the room."
+
+    # --- merge ---
+    "Meeting continues"
+    "Dr. Ayla Voss watches you during the murmured debate. Her face is almost still, but her eyes flit from your tide-watch to the tablet, to Elias Jun. You can't tell if she is planning a concession or cataloging weakness. Complex, unreadable."
+    show dr_ayla_voss at right:
+        zoom 0.7
+
+    dr_ayla_voss "This debate is exactly why pilot metrics are included: to produce evidence we can present to funders. If you want authority, you must present data. If you want immediacy, you must accept higher risk."
+    show elias_jun at center:
+        zoom 0.7
+
+    elias_jun "We already have data — the lived kind. Every broken boat, every flooded cupboard counts. Give us a chance to prove we can defend our own shoreline."
+    "Mayor Tomas rubs his forehead."
+    hide maya_reyes
+    show mayor_tomas_nkem at left:
+        zoom 0.7
+
+    mayor_tomas_nkem "We need a public stance from someone respected — someone who can lead—"
+    "He looks at you. The room seems to bend toward that look. Your name carries weight here: childhood in the harbor, a degree, the time you've spent between spreadsheets and planting seedlings. Your voice will anchor"
+    "someone; it can turn a petition into an organized campaign, a plan into a mandate — or it can fracture trust."
+    "Your chest tightens. You can feel the old habit rise, the instinct to shoulder every schism yourself. If you step forward and endorse one path, people will rally behind it. If you stand aside, the town will fracture into factions with competing resources and sorrow."
+    "Rita brushes past you and speaks low, urgent."
+    hide dr_ayla_voss
+    show rita_ortega at right:
+        zoom 0.7
+
+    rita_ortega "Maya, whatever you say will change things. Don't make it a platitude. We need a lever."
+    "Elias Jun leans in, chin almost touching your shoulder."
+
+    elias_jun "I know you can bend their ears. Stand with us. We can get people working, keep our livelihoods."
+    "Dr. Ayla Voss's pen taps once against the lectern, a metronome that measures patience."
+    hide elias_jun
+    show dr_ayla_voss at center:
+        zoom 0.7
+
+    dr_ayla_voss "Or use your credibility to negotiate something scalable. You can push for conditional funding that protects communities while integrating local builds."
+    "You can imagine the faces of every family in Marisora as if they are lined behind you: some nodding, some furious, some with the resigned flattening of people who think they already know how this will end. The hall is a tide pool of conflicting currents."
+    "You taste the acrid edge of a decision approaching. It is not promised to be right. It may be necessary and terrible."
+    hide mayor_tomas_nkem
+    hide rita_ortega
+    hide dr_ayla_voss
+
+    scene bg ch3_98c6f2_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The room leans forward; a pin could drop and the current would change]
+    "This is the fork. This is where your public stance will pull the town into a path that cannot be unchosen."
+    "You inhale, feeling the weight of inherited loyalty and the strict arithmetic of survival."
+    "You must choose how you will live and whom you'll risk losing."
+    "My public stance at the town meeting — which plan do I endorse and lead?"
+
+    menu:
+        "Support Elias’ community-led build and mangrove restoration.":
+            jump chapter4
+        "Negotiate with Dr. Ayla Voss for a hybrid, centralized resilience plan.":
+            jump chapter7
+        "Push for organized regional relocation and accountability.":
+            jump chapter10
+    return

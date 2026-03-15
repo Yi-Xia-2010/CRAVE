@@ -1,0 +1,516 @@
+{
+  "title": "Tide Lines",
+  "summary": "I am Mara Serrano, returned from university to steward Puerto Alba. When new engineered defenses and sensor networks arrive — championed by Elias Park and pushed by Iris Varela — the town must choose between investor-driven fixes, humane technology, or community-led adaptation. The narrative follows a Fall–Rise–Fall emotional arc as Mara negotiates love, civic leadership, and the costs of compromise while intimate scenes of repair and storm-watching interweave with council meetings and lab work. Every choice shapes whether Puerto Alba keeps its soul, who survives, and whether Elias and Mara build a lasting partnership.",
+  "emotional_curve_type": "Fall–Rise–Fall",
+  "player_character": "Mara Serrano",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Morning After the High Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake on the day after a high tide flooded half the marketboard. I move among soaked stalls, meeting Mateo and Abuela Rosa, assessing salt damage and the stubborn communal fixes. The town smells like brine and frying dough; my windbreaker is damp and the copper tips of my dark bob dribble salt. An urgent notice from Council Hall appears: Iris Varela will propose a rapid structural plan. Elias visits Saltmarsh Labs offering a new modular defense prototype. Conflict brews. I struggle with exhaustion and a growing sense that my perfectionism — trying to do everything — may be inadequate against the scale of change. I flip open my waterproof notebook and draw tide sketches, fingers smudged with mud and ink. Abuela Rosa pulls me aside with an old map, eyes like warm brown glass, and warns that quick fixes have a history. I feel guilt for leaving my father's ruined boat unattended, and a stubborn empathy compels me to rally volunteers even as the municipal language grows technical and sidelined voices multiply. The scene ends with an announcement: a town meeting at dusk where Iris will speak — and Elias will answer questions.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mara Serrano",
+        "Mateo",
+        "Abuela Rosa",
+        "Iris Varela",
+        "Elias Park"
+      ],
+      "locations_used": [
+        "marketboard",
+        "Saltmarsh Labs",
+        "Council Hall"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Council Notice and Quiet Repairs",
+      "branch_designation": "Common",
+      "narrative_focus": "I join a small volunteer crew repairing the seawall led by Mateo. We work in rhythm: heaving, bracing, scraping barnacled concrete. I watch Elias calibrate a wrist-mounted sensor near the Saltmarsh Labs; he explains how modular pylons could reduce erosion—his optimism a warm contrast to my worry. Iris sends a terse memo asking for acceptance of a fast-acting contract that will bring corporate engineers and funds. The town divides; Sofía rallies students to protest the contract's secrecy. Abuela Rosa offers tide lore and suggests we test a hybrid model. I feel pulled in three directions: organize grassroots repairs, trust Elias's humane tech, or accept Iris's immediate security. My chest tightens; my sea-green eyes feel rimmed with fatigue. I polish the chipped shell pendant for luck, spreadsheets and tide sketches stacked in the damp lab. As evening approaches a public notice calls the whole town to Council Hall at dusk — I know my voice will be needed.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mara Serrano",
+        "Mateo",
+        "Elias Park",
+        "Iris Varela",
+        "Sofía",
+        "Abuela Rosa"
+      ],
+      "locations_used": [
+        "seawall",
+        "Saltmarsh Labs",
+        "Council Hall"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Dusk Meeting at Council Hall",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At dusk, Council Hall fills. Iris speaks with a practiced bite: a fast, centralized barrier will prevent immediate collapse. Elias presents a modular, low-footprint pilot and offers inclusion for community feedback. The town erupts in competing hopes and fears; I, as Mara, must decide whether to publicly support Elias's collaborative approach, stand with Iris for expediency, or propose a third, community-led hybrid plan that risks splitting votes. My sea-green eyes scan faces — Abuela Rosa's warm gaze, Mateo's steady jaw, Sofía's determined frown. The room hums with the smell of rain and institutional fluorescence. I feel the weight of my brass compass against my throat and the urge to protect everyone. I must choose how to frame the town's response in front of council cameras and investors — a choice that will branch our future.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Publicly choose the path that defines the next weeks.",
+        "options": [
+          {
+            "label": "Support Elias's pilot and insist on community partnership.",
+            "consequence": "Elias gains formal backing but must move quickly; investors watch.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Back Iris's rapid structural contract to secure immediate funding.",
+            "consequence": "The town receives quick resources; some livelihoods may be sacrificed.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Propose a community-first hybrid: small defenses, marsh restoration, and conditional investment.",
+            "consequence": "Sparks complex negotiations and both allies and enemies; delays follow.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Abuela Rosa",
+        "Mateo",
+        "Sofía",
+        "Iris Varela",
+        "Elias Park"
+      ],
+      "locations_used": [
+        "Council Hall",
+        "promenade"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Vote for the Pilot",
+      "branch_designation": "Route A",
+      "narrative_focus": "I publicly back Elias's pilot. The Saltmarsh Labs becomes a hub; Elias, Nima, and I draft community liaisons and field test sensors. I lead volunteer shifts; my windbreaker is splashed with mud and activation stickers. The early weeks feel cooperative — residents help place modular planters and sensors, Abuela Rosa teaches marsh grasses to be replanted at new elevations, and Sofía educates schoolchildren on tide science. I sense hope: Elias's quiet optimism rubs off on my stubborn empathy. Investors arrive for a demo; their secondhand suits and Nima's bright safety jacket create tense yet hopeful scenes. We succeed in an initial storm test that outperformed predictions, and the town breathes easier. But the pilot attracts media attention and a corporate offer that could scale the technology — and investors seek quicker rollouts than Elias prefers. A fracture forms between immediate security and careful community stewardship.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mara Serrano",
+        "Elias Park",
+        "Nima",
+        "Abuela Rosa",
+        "Sofía",
+        "investors"
+      ],
+      "locations_used": [
+        "Saltmarsh Labs",
+        "marsh",
+        "promenade"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Investor Pressure and Private Talks",
+      "branch_designation": "Route A",
+      "narrative_focus": "Investors pressure Elias and the pilot team to accept clauses that would centralize management and scale quickly; they promise additional protective modules if the community signs over certain shoreline rights. Elias grows conflicted — his optimistic avoidance struggles as I press him to demand stronger community governance. Iris appears offering to broker a conditional contract. I'm torn: push Elias to refuse and protect community control, or accept conditional scaling to secure immediate infrastructure, risking unequal power. My sea-green eyes watch Elias's amber-brown gaze shutter briefly; his hand brushes the leather camera at his hip, indecision in his posture. Abuela Rosa leaves me a pressed sea-grass note: “Remember what the sea asks of us.” I must decide whether to defend slow, community-run stewardship or accept scaling that could save lives but change our town's soul.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Negotiate the terms with investors.",
+        "options": [
+          {
+            "label": "Insist on community governance clauses; reject scaling without consent.",
+            "consequence": "Investors may walk, delaying wider protection but preserving local control.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept conditional scaling with strict oversight from Elias and Nima.",
+            "consequence": "Quick deployment; potential compromise on shoreline rights.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Ask Iris to co-sign a hybrid agreement, forcing institutional involvement.",
+            "consequence": "Iris gains leverage and political authority; the solution becomes bureaucratic.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Elias Park",
+        "Nima",
+        "Iris Varela",
+        "Abuela Rosa",
+        "investors"
+      ],
+      "locations_used": [
+        "Saltmarsh Labs",
+        "Council Hall"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Stand Firm — A Costly Refusal",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "I push for community governance clauses; Elias and Nima back the stance. We refuse the investors' transfer-of-rights demand. The immediate consequence is a withdrawal of funding; Iris publicly criticizes the decision and secures emergency municipal funds for a partial barrier. The pilot slows, volunteers shoulder more labor, and the town's morale fractures between those who wanted speed and those who wanted control. A fierce, unexpected storm reveals weak points in the partial municipal barrier; a volunteer — Mateo or another beloved character — is badly hurt, exposing the limits of slow progress. The bittersweet victory preserves community control but at human cost. Elias and I are close but strained; his optimistic avoidance is shaken, and my stubborn empathy is heavier with blame. The ending is bittersweet: we saved our decision to self-govern but paid in damage and relationships.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Elias Park",
+        "Nima",
+        "Iris Varela",
+        "Mateo",
+        "Abuela Rosa"
+      ],
+      "locations_used": [
+        "Green Prototype Site",
+        "seawall",
+        "Saltmarsh Labs"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Back Iris's Contract",
+      "branch_designation": "Route B",
+      "narrative_focus": "I publicly back Iris's rapid structural contract to secure immediate funding and heavy equipment. Iris, with her municipal lapel pin and polished boots, moves quickly: crews begin constructing a large protective berm and modular concrete barriers. The town experiences quick stabilization; homes are elevated and insurance lines firm up. Elias is sidelined politically but continues to consult informally, his warm amber-brown eyes watching from the prototype margins as he tweaks sensors. The early relief is palpable — less nightly anxiety, children returning to school on raised walkways. Yet the construction intrudes: coves are filled, artisanal boat access narrowed, and some fishers lose mooring spots. Abuela Rosa warns at the promenade that the sea takes and the sea remembers. My sea-green eyes feel heavy; I hold my brass compass and wonder if safety came at too steep a price. A community meeting reveals growing resentment.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mara Serrano",
+        "Iris Varela",
+        "Elias Park",
+        "Sofía",
+        "Abuela Rosa"
+      ],
+      "locations_used": [
+        "construction site",
+        "promenade",
+        "Council Hall"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "PR Success, Private Doubts",
+      "branch_designation": "Route B",
+      "narrative_focus": "Iris's contract draws successful press: the town is safe, investors pleased, council relieved. Elias confides that some design constraints — forced by budget and deadline — cut corners on long-term ecological resilience. He asks me whether I will quietly push the council to retrofit with marsh restoration later or publicly confront Iris to demand immediate revision. The choice is painful: advocating publicly risks undermining the fragile consensus and could invite investor withdrawal; silence lets potentially dangerous design flaws persist. My sea-green eyes search Elias's amber gaze for an answer; he avoids the raw emotional argument, proposing technical meetings instead. The town is stabilizing materially but fraying socially. I must decide whether to blow the whistle or trust that incremental fixes can be appended later.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to design compromises.",
+        "options": [
+          {
+            "label": "Publicly demand an immediate retrofit and hold Iris accountable.",
+            "consequence": "Political upheaval; investors threaten to pull funding.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Work quietly with Elias to design retrofits while maintaining public calm.",
+            "consequence": "Slow retrofit may fail under pressure of a big storm.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Accept the current structure and focus on building social programs for displaced fishers.",
+            "consequence": "Structural risk remains while social damage is mitigated.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Iris Varela",
+        "Elias Park"
+      ],
+      "locations_used": [
+        "Council Hall",
+        "Saltmarsh Labs",
+        "promenade"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "The Storm That Reveals Flaws",
+      "branch_designation": "Route B / Ending — Climax",
+      "narrative_focus": "I choose to publicly demand a retrofit; council hearings erupt. Investors, spooked, threaten to withdraw funding. Iris fights back, and the political landscape fractures. During the ensuing storm — more violent than predictions — flaws in the hastily built structure become apparent: sections seam and the barrier directs unexpected currents toward low-lying neighborhoods. Emergency responders are stretched; a beloved secondary character (Mateo or another) dies in a rescue attempt, and large parts of the shoreline are lost. The tragedy breaks the town's cohesion. Elias and I are blamed and forgiven in different measures; our relationship is traumatized. The climax is chaotic: sirens, the roar of wind on the Cliffside Promenade, rain making a sheet over my hair and scarf as I dig in the dark to help shore up a failing levee. The ending is a sorrowful collapse: strong actions were taken, but the social and human cost is enormous.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Mateo",
+        "Elias Park",
+        "Iris Varela",
+        "Abuela Rosa",
+        "emergency responders"
+      ],
+      "locations_used": [
+        "Cliffside Promenade",
+        "lighthouse",
+        "shoreline"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Propose the Hybrid",
+      "branch_designation": "Route C",
+      "narrative_focus": "I propose a community-first hybrid plan combining small-scale defenses, marsh restoration, and conditional investment. Iris is skeptical; Elias and Nima agree to conditional technical support. The hybrid approach requires complex negotiation: municipal bureaucracy, investor stipulations, and grassroots labor. We begin mapping plots for marsh restoration, elevating homes through cooperative labor, and creating legal frameworks for conditional funding that keep shoreline stewardship local. For a while, the work brings the town together: Abuela Rosa teaches planting rituals, Sofía organizes youth teams, and Elias helps calibrate low-impact sensors. The effort feels authentic, slow but principled. However the complexity invites delays and political opponents. I feel hopeful but exhausted; the sea-green of my eyes is often rimmed with tiredness, and Elias's casual undercut is often seen over his worried brow. A critical vote looms that will determine whether municipal support will be granted.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mara Serrano",
+        "Iris Varela",
+        "Elias Park",
+        "Nima",
+        "Abuela Rosa",
+        "Sofía"
+      ],
+      "locations_used": [
+        "marsh restoration sites",
+        "Council Hall",
+        "Saltmarsh Labs"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Fragile Success and a Political Bargain",
+      "branch_designation": "Route C",
+      "narrative_focus": "The hybrid plan wins a conditional municipal vote, contingent on Iris negotiating an investor guarantee for emergency funds. Iris demands a seat at the governance table and certain oversight powers as the price. Elias warns that institutional entanglement risks political capture, but the town needs legal guarantees. I must decide: accept Iris's terms to gain emergency guarantees (risking future compromises), or refuse and rely on slower, fully community-controlled funding that may leave us vulnerable. The community has rallied in hope; Abuela Rosa's braided silver hair shines in the hall as she pleads for compromise. My sea-green eyes commit to looking for ways to bind Iris to true accountability, but the choice remains thorny.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Set the terms for Iris's municipal guarantee.",
+        "options": [
+          {
+            "label": "Accept Iris's seat with strict legal accountability clauses.",
+            "consequence": "Guarantee secured but Iris gains political weight.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Refuse Iris's oversight and rely on scaled community finance.",
+            "consequence": "No guarantee; plans proceed slowly and risk exposure to an early storm.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Propose a rotating oversight council with Iris as one voice among many.",
+            "consequence": "A fragile power-sharing arrangement that may not satisfy investors.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Iris Varela",
+        "Elias Park",
+        "Abuela Rosa",
+        "Mateo",
+        "Sofía",
+        "Nima"
+      ],
+      "locations_used": [
+        "Council Hall",
+        "marsh",
+        "governance meetings"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Iris Signs — A Hidden Clause Revealed",
+      "branch_designation": "Route C / Ending",
+      "narrative_focus": "I accept Iris's seat with accountability clauses. The investor guarantee arrives; construction of strategic modular supports begins while marsh restoration continues. Initially, the plan looks like success: the hybrid absorbs a mid-season storm better than forecasts, and the town feels affirmed. But months later, a clause buried in the fine print allows expedited emergency powers to override local councils in declared crisis — Iris's guilt-fueled resolve is now institutionalized. When a severe storm hits, the emergency clause activates; Iris exercises emergency powers and signs a top-down rapid deployment that crushes several community-led initiatives. Some neighborhoods are forcibly relocated and a cherished community symbol (a market stall or a storied cove) is lost. The town survives physically but its soul is compromised. Elias's eyes are hollow with regret; our relationship strains under the moral fallout. The ending is True/Bittersweet: safety purchased with institutionalized authority and cultural loss.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Iris Varela",
+        "Elias Park",
+        "Abuela Rosa",
+        "investors"
+      ],
+      "locations_used": [
+        "construction sites",
+        "marsh planters",
+        "Council Hall"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Quiet Compromise — Work Behind the Scenes",
+      "branch_designation": "Cross-Route Alternate Ending",
+      "narrative_focus": "I choose quieter, behind-the-scenes negotiation: accept conditional scaling or a rotating oversight council. Elias and I collaborate with Nima and a fragile governance group that includes Iris in rotation. We design retrofits and small restorations while publicly preserving calm. Initially this prevents investor panic, and the structure remains stable during a strong storm, but delayed retrofits fail in the next, unexpected surge from a subtropical cyclone. The damage is significant but not total; the town loses part of its shoreline and a public figure (not necessarily Mateo) is injured. The ending is Bittersweet: some lives saved, but the compromise cost beloved places and trust. Elias and I remain connected but riven by what we didn't say.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 5, Option B OR Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Elias Park",
+        "Nima",
+        "Iris Varela",
+        "investors",
+        "Mateo"
+      ],
+      "locations_used": [
+        "Saltmarsh Labs",
+        "Council Hall",
+        "shoreline"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Institutional Fix with Social Programs",
+      "branch_designation": "Cross-Route Alternate Ending",
+      "narrative_focus": "I accept Iris's institutional involvement and focus on building social programs for displaced fishers and families. The structural fix proceeds and the town is materially safer, while a suite of social initiatives — retraining, cooperative boat-sharing, youth programs led by Sofía — attempt to preserve livelihoods. The material comfort is real, but the shoreline's character changes: coves are filled, boat routes reorganized, and some families relocate permanently. Elias grows distant, his optimism eroded; he throws himself into designing community programs rather than engineering alone. The ending is Bittersweet/True: lives are saved, social bonds reformed, and love survives in different shapes, but the price is visible in the altered coastline and in the quiet spaces left on the promenade.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryLow",
+      "entry_condition": "From Chapter 5, Option C OR Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Iris Varela",
+        "Elias Park",
+        "Sofía",
+        "Abuela Rosa"
+      ],
+      "locations_used": [
+        "community kitchen",
+        "berm",
+        "promenade"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "The Choice to Leave",
+      "branch_designation": "Final Alternate / Sad Ending",
+      "narrative_focus": "After prolonged stress, political fractures, and failing compromises, I choose to leave Puerto Alba to work on systemic coastal policy elsewhere. The town is physically standing but emotionally fractured. Elias and I part with unresolved regret; Abuela Rosa gives me a small coil of braided rope and a map remnant for luck. I depart from the lighthouse at dawn, hair damp, scarf bundled, compass warm with travel. The ending is Sad/True: I keep fighting but from afar. The town's story continues without me, and love survives as memory and occasional letters. The climate problem is systemic; individual towns adapt imperfectly, and leaving is both escape and an act of responsibility in a different register.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryLow",
+      "entry_condition": "From Chapter 8, Option B OR Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mara Serrano",
+        "Elias Park",
+        "Abuela Rosa"
+      ],
+      "locations_used": [
+        "lighthouse",
+        "harbor",
+        "marketboard"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 06:25:08"
+}

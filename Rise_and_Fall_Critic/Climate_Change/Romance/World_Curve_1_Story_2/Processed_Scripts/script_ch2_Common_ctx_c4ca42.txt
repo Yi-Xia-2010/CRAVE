@@ -1,0 +1,121 @@
+### SCRIPT
+# Route: Route C / Ending
+# Context: c4ca42
+
+[Scene: Raised Warehouse Floor Overlooking the Harbor | Night]
+[Background:"ch2_c4ca42_1"]
+[Music: Warm strings with a hopeful, steady rhythm]
+[Sound: Creaking wood underfoot, distant gulls, low murmurs rising and falling like tide rhythm; a projector hums quietly]
+
+You climb the last step and let the cool, salt-laced air settle into your lungs. The crowd parts just enough to let you find a place near the edge where the floor overlooks the harbor. The boards smell faintly of oil and wet rope; condensation beads along the warehouse windows and catches the lantern light like tiny beacons.
+
+Mayor Amina stands on a low crate—half podium, half anchor—with her silver braid coiled against the scarves at her throat. Her face is lit by lamplight and something steadier: purpose. Around her, fishermen with weather-scored hands, teenagers with bandanas like bright flags, and a scattering of people you know by sight and by history press shoulder to shoulder.
+
+Riv is a splash of motion, bandana bright even in the dusk, gesturing at anyone who will listen. Jun leans against a pillar, sawdust still under his nails, and catches your eye with a look that says more than words. Elias Maren is off to the left, a field projector balanced in one hand, his field notebook under the other arm — his shoulders a little hunched, as if carrying the sea itself.
+
+[Background:"ch2_c4ca42_2"]
+[Sound: Slight rustle as Soren's coat moves; murmurs ripple through the crowd]
+[Music: A soft, anticipatory piano note under the strings]
+
+Soren Voss arrives with the kind of entrance that smooths out a room. His coat shimmers with that weather-treated weave, reflecting lamplight in small, clinical planes. He sets a slim case on a nearby barrel and, in a gesture part ritual, lets it fall open. Glossy models peek up—rendered promenades, raised blocks, a schematic that makes even the rafters look like diagrams.
+
+You notice his eyes first: pale, precise, measuring. When he looks at the assembled town, it's like watching someone lay a blueprint over a shoreline.
+
+Soren Voss: "Good evening. I won't waste time. Atera needs solutions that can stand up to the next storm. My team has proposals—engineered decks, elevated housing, staged influxes of funding. We can protect livelihoods and attract the investment that keeps people here. We can be, dare I say, a national example."
+
+A ripple of applause follows; for some, his words are the sound of relief. For others, they land cold and sharp.
+
+Elias Maren steps forward, projector ready. The image blooms across a hung tarp: maps of kelp density, small animated models of living breakwaters, graphs with gentle upward trends tied to community labor. He speaks with a low intensity, fingers tracing lines across the projection.
+
+Elias Maren [soft, urgent]: "Kelp isn't a promise in a spreadsheet. It's a living barrier — it captures carbon, slows erosion, supports fisheries. The pilot plots along the Subtidal Site already show measurable increases in juvenile fish counts. We can scale this with local crews. It won't be the overnight fix Soren describes, but it—" (he swallows the rest) "—it keeps the sea and our livelihoods connected, not walled off."
+
+You hear the catch in his breath; his hands tremble just enough to show how much this means. The murmurs split—some faces warm with the idea of fishing returning, others knit with impatience at the pace he suggests.
+
+Mayor Amina: "We asked for clear proposals. We've heard two kinds of promise tonight: one engineered, one ecological. We need volunteers to test models, to negotiate with funders, and to ensure no one is left behind in the transitions these options demand."
+
+Her gaze sweeps the crowd and lands on you for a beat that feels longer than usual. You imagine the weight of your mother's workshop, your patched jacket, the greenhouse rooftop where seedlings push through reclaimed soil, and the thin braided cord on your wrist that reminds you of things held together.
+
+[INTERACTION]
+> Choice A: "Edge closer to Elias, ask about the timeline for scaling kelp sites"
+> Choice B: "Call out a practical worry about raised walkways and displaced vendors"
+[Outcome A: "You step forward, voice steady though your heart tugs at your ribs. 'How long—realistically—before we see fishers getting regular catches from these plots?' Elias's eyes brighten with the technical answer, and he pulls up a smaller chart, explaining seasons, labor inputs, and small forecasted yields. The crowd leans in, the talk cooling into practical questions."]
+[Outcome B: "You clear your throat and let yourself be heard. 'If we raise walkways, where do the market stalls go? Who pays for storage?' Heads turn. Jun nods, and a cluster of older fishers mutter agreement. Soren smiles, seeing an opening, and begins to speak about grants and municipal bonds—his voice measured, reassuring."]
+[MERGE: The two threads continue to twine.]
+
+The two threads continue to twine. Soren answers your concern about commerce with polished specifics—funding tiers, public-private partnerships, expedited permits. His voice soothes anxieties with the cadence of someone used to closing deals.
+
+Soren Voss [leaning in, smooth]: "We can plan elevated markets with integrated storage spaces beneath them. Vendors won't lose space; they'll gain resilience. We put people to work during construction, and we keep the economy flowing."
+
+Elias Maren, taken slightly off balance, responds more by feeling than by numbers.
+
+Elias Maren [quiet but firm]: "Construction can harm the very habitat that feeds us. If we build too much concrete, we lose the nursery grounds. We can do both—if we integrate living systems into those structures. But integration requires time, piloting, community labor. We need permission to experiment."
+
+Jun [practical, warm]: "Mika, don't let them dress this up. We need work that pays, but not at the cost of everything else. If there's a way to mix the two without padding profits for outside contractors, I'm in. But we've gotta keep control in town hands."
+
+Riv bounces on his heels, too impatient to be still.
+
+Riv: "We can make banners, we can map every pier, every old house—show what gets hit. Push the mayor to make concessions. We can be noisy and clever. And if anyone tries to ram twenty-story plans down our throats—"
+
+He grins, a sharp, youthful promise.
+
+Riv: "—we stop them, with petitions and boats and—"
+
+Someone laughs, the sound easing like a tide receding.
+
+[INTERACTION]
+> Choice A: "Offer to coordinate a testing team—bridging Elias's pilot with Jun's carpenters"
+> Choice B: "Ask the mayor for a pause to gather more data before committing"
+[Outcome A: "You feel the familiar tug to take tools and make things work. 'I'll help coordinate a local testing team—Elias, Jun, and whoever else wants in. We can build a few hybrid prototypes on the old scow.' Elias's shoulders drop with relief; Jun grins and slaps your shoulder. The room responds with a ripple of support: hands raised, names offered."]
+[Outcome B: "You raise your hand and speak carefully. 'Can we pause major commitments until we get more robust data and community input?' Amina inclines her head, considering. Some applaud caution; others hiss at delay. Soren's jaw tightens for a second—then smooths. The conversation shifts toward timelines and committees."]
+[MERGE: Conversations loop around practical suggestions and personal memories.]
+
+The night stretches and contracts with speech and rebuttal. People step forward with memories of past high tides and practical suggestions: where to stack sandbags, who can volunteer to move elderly neighbors during king tides, which warehouse stands firm and might be converted into temporary housing.
+
+Conversations loop around the core question: what kind of future do we ask of Atera? Is it one of bold engineering, careful restoration, or a new hybrid that resists simple labels?
+
+At one point, a woman near the back stands and tells the room about a boy who learned to swim by the docks and the neighbor whose shop was carried away last year. Her voice is raw; it snaps the air with a clarity that changes the tenor of the meeting. People nod. Someone brings up the dignity of place—of keeping the market where it is, of not moving people's lives as if they were chess pieces.
+
+Mayor Amina [soft, resolute]: "We need people who will test, who will negotiate, who will ensure the voice of every family is heard when plans are drawn. Volunteers. Committees. Work parties. We can do this together."
+
+She lets that hang, then steps down from the crate and begins to jot names on a scrap of paper. The scrap is passed, scrawled upon, folded and passed again, shoulders brushing in the warm lamplight.
+
+You feel the weight of reluctance press at your chest—the old habit of carrying burdens alone—but it loosens, just a little, as hands offer to help and as faces you trust reach out.
+
+Elias Maren catches your eye across the tarp of projections. He walks toward you, threads of green light and lamplight in his hair. Up close, you can see the fine salt on his jacket and the faint algae stain at the cuff.
+
+Elias Maren [earnest]: "At dawn, I'm diving at the Subtidal Site. Come see. It's... different under the surface. It might change how you see what the sea gives us."
+
+You open your mouth to answer, to say yes because the temptation to be part of something that feeds both heart and table is loud, but then Soren's shadow falls across the barrel where he keeps his models. He tilts his head, voice quiet enough to be for you alone.
+
+Soren Voss [lowered, persuasive]: "Mika, can we speak for a moment? There are details I'd prefer to show you in private—funding structures, timelines—things that won't land well in public without context. A minute."
+
+He folds the conversation like a card and offers a look you feel in your bones: efficient, calm, asking you to step into a smaller, quieter negotiation. There's an offer implicit—access, influence, the kind of possibility that tastes like control.
+
+Riv, reading the small motion in the room, comes over and thumps the table in a friendly but urgent way.
+
+Riv [grinning]: "If you're thinking of talking to Soren, take Jun or Elias with you. Or both. Or bring a crowd. Don't let them whisper things away from us. Also—if you do step outside, don't forget to swear at me dramatically when you get bored."
+
+Jun [half-joke, half-serious]: "I'll go with you if you want someone who knows how to shore up a pier—and how to ask for receipts."
+
+Elias Maren looks between you and Soren, throat working.
+
+Elias Maren [soft, open]: "If not now, then at dawn. The water's calmer in the morning. I—I'd like you there. We could use your hands and your sense of what the town needs."
+
+Your chest tightens with the choices pressing in like tides. None of them are final, but they point in directions and pull at commitments. You feel the old reflex to shoulder things alone, but the room—this assembly—keeps unfolding around shared work.
+
+You let your fingers brush the thin braided string on your wrist, an old habit that steadies you. The lanterns cast a warm net over the faces around you. For the first time tonight, the idea of asking for help doesn't feel like weakness. It feels like a plank placed across a gap.
+
+[Background:"ch2_c4ca42_3"]
+[Music: Strings swell into a brighter, rising motif]
+
+Page-Turn Thought: The harbor waits with its low, constant breathing. If you step into these small committees, if you go to the kelp beds at dawn, if you let yourself be present in hard negotiations, you might not only help shape Atera's choices—you might find the work that keeps your hands full and your heart less alone. Tonight is a hinge. You can feel it in the air.
+
+[Background:"ch2_c4ca42_4"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

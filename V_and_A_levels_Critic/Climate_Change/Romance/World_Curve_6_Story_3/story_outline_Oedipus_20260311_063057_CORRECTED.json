@@ -1,0 +1,517 @@
+{
+  "title": "Tidebreak Hearts",
+  "summary": "You are Mira Kestrel: a local climate scientist pulled back to Brinehaven to help steer adaptation planning. The story follows an Oedipus curve (Fall → Rise → Fall). Act I (Fall) opens with rising stakes: storms, funding fights, and Mira’s survivor guilt pulling her into public conflict. At a municipality hearing you must pick an approach: ally with Jonah to pursue community-led marsh and livelihood-focused resilience; work with Cass to secure engineered defenses and funding; or take a third route of exposing opaque funding channels to force transparency. Each choice sends you down a different path of collaboration, intimacy, and trade-offs: community mobilization brings warm bonds and tender nights on the boardwalk but risks scalability; corporate engineering promises infrastructure and broader safety but cools trust and reshapes town character; whistleblowing forces governance reforms at great interpersonal cost. Mid-story (Rise) brings temporary victories — restored marshes, successful pilot defenses, or public accountability — and the closeness of new or renewed relationships with Jonah and/or Cass. The final act (Fall) delivers the inevitable catastrophe: a storm or political backlash that reveals the limits of any single choice. Every route ends with moral and emotional collapse — loss, fracture, or ambiguous moral victory — forcing Mira to reconcile her guilt, love, and the ethics of choosing when everything is on the line.",
+  "emotional_curve_type": "Oedipus (Fall → Rise → Fall)",
+  "player_character": "Mira Kestrel",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Homecoming",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive back in Brinehaven with salt in my hair and the coral pendant knocking against my throat. The boardwalk smells like old rope and rain; my navy-blue hair is wind-tossed, my sea-glass green eyes cataloguing every new scar on the pilings. Tessa meets me with a too-bright grin and freckled arms wrapped around an awkward hug that wants to fix everything. Old Man Rafi watches from his usual bench, braid bead glinting. At the Research Lighthouse, instruments hum; I run my fingers over tide-etched marks in my weathered leather notebook and feel the familiar tilt of responsibility. News reels loop footage of a storm that flattened old storage sheds; Mayor Lynette’s polished raincoat appears in a public address promising a \"comprehensive defense package.\" Down at the docks Jonah waits in his salt-stiffened sweater, amber-brown eyes soft but guarded; he jokes about my field jacket’s embroidered tide lines. Cassian appears minutes later in slate-blue trench and a tablet, his steel-gray eyes already assessing topography. The town’s needs are immediate. I feel the old guilt — the memory of a house I couldn't save — tightening like a knot. I know I must speak, and every sentence I choose will shift lives and love.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Tessa",
+        "Old Man Rafi",
+        "Mayor Lynette Cole",
+        "Jonah",
+        "Cassian"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Research Lighthouse",
+        "Docks"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "The Hearing",
+      "branch_designation": "Common",
+      "narrative_focus": "The Municipal Hall smells of coffee and antiseptic; glass walls reflect an anxious town. I stand at the lectern with my field notebook under my arm, the waterproof wristband warm against my pulse as I project modeled waterlines onto the chrome table. Mayor Lynette presents glossy renderings from Cass's firm; her bob is as sharp as her talking points. Cass steps forward with measured diagrams, his jet-black hair knot pulled taut, an eloquent pitch for an engineered seawall system that he promises will be a replicable model. Jonah sits among the fishing crews, salt beading at the cuffs of his patched trousers, fists folded around his carved wooden compass. Old Man Rafi tells a story about a storm that taught them to read the tides differently; Tessa interjects, demanding action now. The room fractures into murmurs — who will fund what? Who decides what the town becomes? My voice, cautious and exact, tries to bind data to human costs: marsh restoration, living shorelines, distributed defenses. Someone boos; someone claps. I feel the weight of every choice in my scuffed boots: each path reshapes livelihoods, land, and my own fragile hopes for rapprochement. When the mayor calls for consensus, the town looks at me. I inhale; I must choose how to lead.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Mayor Lynette Cole",
+        "Cassian",
+        "Jonah",
+        "Old Man Rafi",
+        "Tessa"
+      ],
+      "locations_used": [
+        "Municipal Hall"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "A Question of Trust",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "After the hearing, the town surges into the humid street like a tide. Mayor Lynette wants to fast-track Cass's plan; Jonah and others demand local committees and experiments first. I stand on the damp boardwalk beneath bruised storm clouds, holding my notebook; the coral pendant is cold against my sternum. Cass offers private funding and topographic models projected from his multifunction watch. He speaks of efficiency and safety with those steel-gray eyes — earnest, controlling. Jonah says the town’s soul won’t fit into blueprints; his amber gaze pinpoints my hesitation and the laugh lines around them make my chest ache. Dr. Saira N'Goma calls: she can lobby for community grants but warns that political windows close. Tessa needs promises of work and security. Old Man Rafi's weathered voice asks if we will honor memory or sell it to \"bigger plans.\" My guilt weighs heavy: I failed once. The choice I make now will shift the town's grammar and my heart. I feel a small lift — a sense of clarity — like a ridge of light through storm. The decision appears in three faces: Jonah’s earthy loyalty, Cass’s engineered promise, or a third path of exposing funding strings to force transparency. Each will pull the town — and me — in different directions.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Choose how to commit Brinehaven’s immediate strategy and, implicitly, your closest ally.",
+        "options": [
+          {
+            "label": "I will organize a community-led restoration — we build from the marsh up.",
+            "consequence": "Aligns Mira publicly with Jonah and local crews; prioritizes living shorelines and local labor but risks slower scale and political backlash.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "I will broker a formal partnership with Cass and the engineering firm.",
+            "consequence": "Secures funding and a fast-build plan; risks eroding trust and cultural loss.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "I will gather evidence and expose opaque funding — force transparency before any plan proceeds.",
+            "consequence": "Opens a path of political disruption and possible legal battles; strains both Jonah and Cass relationships.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Mayor Lynette Cole",
+        "Jonah",
+        "Cassian",
+        "Dr. Saira N'Goma",
+        "Tessa",
+        "Old Man Rafi"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Research Lighthouse"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Tidework",
+      "branch_designation": "Route A",
+      "narrative_focus": "We start at dawn: tarps, reclaimed barrels, and people who know the meaning of \"we.\" Jonah greets me with a half-smile, sun-bleached curls sticking up beneath his trucker cap, his amber eyes steady. I’m in my olive-green jacket and denim overalls, palms cracked from notebook pages and tool handles. Old Man Rafi leads a ceremony at the Saltmarsh Fen; we lay down eelgrass and plant sedge bundles, watching the tide-scarred soil take them like a promise. Dr. Saira helps calibrate our sensors at the Research Lighthouse; she rubs my shoulder and asks hard questions about monitoring and scale. The Repair Garden becomes a hub for training: kids learn to knot nets and sow salt-tolerant grasses; Tessa runs a volunteer roster with impatient hope. Even Cass visits, sleeves rolled, steel-gray eyes soft when he listens, but his slate-blue trench hangs awkwardly among patched jackets. Nights are long with talk; Jonah and I share coffee under lantern strings, his rope-and-shell bracelet brushing my wrist. For the first time in years, we build something together, and that warmth translates into tentative closeness — a hand resting on a shoulder, a laugh at a clumsy seed transplant. The town breathes differently. It feels like a new beginning.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah",
+        "Old Man Rafi",
+        "Dr. Saira N'Goma",
+        "Tessa",
+        "Cassian"
+      ],
+      "locations_used": [
+        "Saltmarsh Fen",
+        "Repair Garden",
+        "Research Lighthouse",
+        "Boardwalk"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Close to Shore",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Weeks later, pilot berms hold water where before it lapped foundations; my notebook fills with tide logs and grateful notes. The community's work shows measurable damping of surge in narrow inlets; Dr. Saira confirms early successes. Jonah and I walk the repaired boardwalk at golden hour — his amber-brown eyes reflect lamplight; the smell of wet wood and tar is intimate. Tessa teases me about being \"scientist by day, love interest by sunset,\" and I laugh, cheeks burning. Cass arrives with news: a formal grant could scale defenses across the whole coastline but only if we sign an agreement that centralizes management; his steel-gray stare holds a plea. Mayor Lynette pressures the town to accept visible quick wins and media coverage. A new storm-warning knocks rain against the Research Lighthouse; suddenly every plan feels fragile and incomplete. My survivor guilt warps hope: do we protect what we already restored, scale it fast with Cass, or double down on local control? Under lantern light, Jonah brushes a wind-tossed strand of navy-blue hair behind my ear; his touch is warm and decisive. I feel intimacy growing and responsibility sharpening — love presses against policy.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Where do you place your personal and professional commitments?",
+        "options": [
+          {
+            "label": "I sign a community covenant — keep control local, deepen the marsh work, and commit to Jonah.",
+            "consequence": "The town embraces local governance; intimacy with Jonah deepens into committed partnership.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "I accept Cass's partnership to scale our solution but insist on formal community oversight.",
+            "consequence": "Hybrid solution negotiated; personal relationships strained as Cass’s firm gains influence.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "I refuse both, choosing instead to expose funds and demand open bids.",
+            "consequence": "Political fallout; trust fractures.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah",
+        "Tessa",
+        "Cassian",
+        "Mayor Lynette Cole",
+        "Dr. Saira N'Goma"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Research Lighthouse"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "High Tide",
+      "branch_designation": "Route A — Ending: Hybrid/Collapse",
+      "narrative_focus": "We celebrate small victories — a repaired shed, a child’s laughter — and I marry routine to hope. Jonah kisses my coral pendant before dawn; his hands are callused and sure. We formalize co-op agreements, and Old Man Rafi blesses the community's work under a bruise of storm sky. But storms do not negotiate. Weather models shift; an unnamed cyclone slams into an unnervingly warm sea. Our berms, built with love and labor but limited resources, hold in some stretches and fail in others. I watch from the lighthouse as water floods the repaired docks; my sea-glass eyes burn with salt that is not just rain. Jonah fights in the surf to save a flare and a child's boat; Cass's engineered barriers elsewhere prove insufficient without continuous funding. The town's cultural architecture frays: livelihoods lost, a trapdoor that opens on the memory of my earlier failure. I gave everything; it wasn’t enough. In the aftermath, ash and seaweed thick on the boardwalk, people look to me with blame and grief. Love is a warm hand that can't stop tide. I sit on wet planks, coral pendant heavy, and feel the old knot unravel into a new, harder grief.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah",
+        "Old Man Rafi",
+        "Cassian"
+      ],
+      "locations_used": [
+        "Research Lighthouse",
+        "Boardwalk",
+        "Docks"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Signed Lines",
+      "branch_designation": "Route B",
+      "narrative_focus": "The ink is still drying when Cass clasps my shoulder — a furtive, human gesture behind his crisp waterproof trench. Mayor Lynette beams in campaign photos; the town boardroom vibrates with the promise of steady funding. I carry the tablet he gave me aboard the Research Lighthouse to pore over models rendered in precise steel-blue: engineered revetments, modular seawalls, and pump arrays. Cass's steel-gray eyes reveal the strain behind polish; he confesses fear of failure in unclipped moments that make him more human than his lapel pin suggests. With corporate support, crews install pylons and form works along the shore; the municipal scaffolding glints with professional polish where my embroidered tide lines bob in the wind. Jonah stands on the docks, watching with a rope-and-shell bracelet clenched in his fist; his amber gaze is a quiet storm. I try to reconcile my desire to save everyone with the cost — cultural displacement, top-down decisions, and the way Cass’s presence gradually reorders town rhythm. Nights at the lighthouse become long conversations: data, ethics, and the brittle intimacy of late confessions. A solution seems close; for the first time in months, we sleep.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian",
+        "Mayor Lynette Cole",
+        "Jonah",
+        "Dr. Saira N'Goma"
+      ],
+      "locations_used": [
+        "Research Lighthouse",
+        "Docks",
+        "Municipal Hall"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Blueprints and Betrayals",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The seawall project proceeds under deadlines and cameras. Cass brings community liaison teams, handsome renderings, and a plan that promises measurable reductions in surge. I read contracts late into the night, my wristband buzzing with tide alerts and my notebook full of concern notes. Dr. Saira warns of ecological trade-offs: hard infrastructure disrupts marsh migration, alters fish runs, and risks long-term dependency on maintenance funds. Jonah organizes a flotilla of opposition that charms the press: a human story of work lost to concrete. Between Cass’s quiet competence and Jonah’s earthy insistence, I feel myself pulled taut. Intimacy grows differently with each man — with Cass it's shared purpose and precise plans, with Jonah it's shared memory and touch on salt-sanded hands. Mayor Lynette pressures me to authorize the build now. The project could be scaled fast, but at what cost? The town splits into camps that hug the harbor like flotsam. Under storm-bent skies, my survivor's guilt turns argumentative: which loss would I carry? I must decide whether to prioritize immediacy and scale, hold out for community oversight, or take a risk that risks both relationships.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Do you commit to the corporate partnership fully, insist on community oversight, or withdraw?",
+        "options": [
+          {
+            "label": "Authorize full engineering deployment now for maximum protection.",
+            "consequence": "Quick infrastructure and visible safety; social costs to traditions.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Negotiate a hybrid contract with strict community oversight clauses.",
+            "consequence": "Slower roll-out, contested governance, possible private pushback.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Withdraw support; reveal environmental trade-offs publicly.",
+            "consequence": "Political upheaval and legal threats from the firm; trust fractures.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian",
+        "Jonah",
+        "Dr. Saira N'Goma",
+        "Mayor Lynette Cole",
+        "Tessa"
+      ],
+      "locations_used": [
+        "Seawall project site",
+        "Boardwalk",
+        "Municipal Hall"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "A Wall Between Us",
+      "branch_designation": "Route B — Ending: Bittersweet",
+      "narrative_focus": "The wall goes up with the clatter of heavy machinery and the flash of cameras. Panels rise like obedient teeth; the town’s silhouette changes overnight. Mayor Lynette stands at the ribbon-cutting in a designer raincoat; Cass’s steel-gray eyes catch mine with something like triumph. On the surface, we have bought time. Floodwaters that once swallowed wharves now lap harmlessly below engineered parapets. The town’s skyline includes a professional sheen that attracts grant money and a promise of replication elsewhere. But Jonah is quieter now; his amber eyes have lost a share of their soft light. The rebuilt docks are cleaner but stranger: net-mending routines shift, small vendors relocate behind new walkways, and the Repair Garden loses a plot to access roads. My nights are full of model validations and apologies that feel inadequate. Cass and I drift into a practical intimacy; there is warmth in shared success, but it is laced with compromise. When the next storm hits, the wall holds — but so do bureaucratic rules that restrict how fishermen access certain slips. We saved many lives, but the town’s old grammar has been edited. I stand at the boardwalk, coral pendant chilled, feeling both pride and a peculiar, private grief.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Mayor Lynette Cole",
+        "Cassian",
+        "Jonah"
+      ],
+      "locations_used": [
+        "Seawall",
+        "Boardwalk",
+        "Docks"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Open Ledger",
+      "branch_designation": "Route C",
+      "narrative_focus": "I choose transparency. It starts as paper and escalates into public records requests, midnight coding sessions at the Research Lighthouse, and a small but fierce coalition that includes Tessa and Dr. Saira. My waterproof wristband hums with confidential messages; my navy-blue hair is pulled into a knot as I parse contracts. Cass reacts like a man whose faith in process is being questioned; his steel-gray eyes look hurt when I phone him for answers. Jonah stands by me, not always in agreement but steady, amber warmth like a hearth. Old Man Rafi says truth is a tide that eventually reshapes everything, and Mayor Lynette feels the political heat. I publish a dossier showing mismatched cost-benefit analyses and opaque clauses favoring outside contractors. The town roars: some in relief, some in fury. I sleep poorly, knowing I pulled a thread that could unravel major funding and protections; I also feel the lightness of acting in accordance with my moral compass. For the first time in a long time, I am not only reacting to storms but choosing our governance. The cost will be high, but it feels like a choice I can live with.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Tessa",
+        "Dr. Saira N'Goma",
+        "Jonah",
+        "Cassian",
+        "Mayor Lynette Cole",
+        "Old Man Rafi"
+      ],
+      "locations_used": [
+        "Research Lighthouse",
+        "Municipal Hall"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Scrubbing the Books",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The dossier forces hearings, frozen grant transfers, and forensic audits. Mayor Lynette scrambles; the town hall strains with rancor and hope. Dr. Saira helps me translate complex models for lay audiences; Jonah organizes town assemblies to ensure sailors and fishers can read the fine print in accessible terms. Cass is subpoenaed to testify; I see the human in him when his jaw trembles and he talks of deadlines and the fear of failing entire coastlines. Tessa demands faster fixes; she's impatient and relentless in a way that lights something inside me. The public debate yields three pathways: fund redistribution into community-managed projects, renegotiate the corporate contracts for transparent oversight, or pursue a legal route to cancel suspect tenders. Each choice weighs governance against immediate capacity. I watch Jonah’s rope-and-shell bracelet, my coral pendant, and Cass's multifunction watch — small artifacts of the different futures on offer. Tonight, at the community garden under lantern strings, people wait for me to decide what \"public\" will actually mean in practice.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do you institutionalize transparency?",
+        "options": [
+          {
+            "label": "Redirect funds to community-managed resilience projects.",
+            "consequence": "Empowers local governance, slower scaling, stronger cultural retention.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Force renegotiation with oversight clauses — a hybrid approach.",
+            "consequence": "Legal wrangling but potential structural safeguards; personal relationships strained.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Pursue legal cancellation of current tenders in favor of open bidding.",
+            "consequence": "Political tumult and service gaps; high risk and high accountability.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Mayor Lynette Cole",
+        "Dr. Saira N'Goma",
+        "Jonah",
+        "Cassian",
+        "Tessa"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "Community Garden",
+        "Research Lighthouse"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Marsh Remembered",
+      "branch_designation": "Route C — Ending: Sad",
+      "narrative_focus": "The community takes stewardship seriously: grants rerouted, co-op hiring expanded, and the marsh becomes a living defensive architecture. We celebrate the first full season of restored fen with a harvest of salt-tolerant greens; kids chase dragonflies in the reed islands. But bureaucratic slowdowns and stalled infrastructure elsewhere leave gaps. A late-season storm gathers over warm waters, deeper and faster than anyone predicted. Our distributed systems, designed for gradual change, are overwhelmed by a compound surge. Boats are torn from moorings; a row of aging houses on the low side of the boardwalk collapses into foam. I stand at the lighthouse, notebook open, data streaming useless as the sea takes what we had tried to shore. Jonah wades into the water and does not return quickly enough. Old Man Rafi cries, and Tessa helps haul the wet pontoons in numb shock. We did the moral thing; we lost so much anyway. In the ruins, transparency feels like a clean but inadequate salve. I sit on a sodden log, coral pendant cold as grief, and ask whether righteous choices can outrun the physics of a changing sea.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Jonah",
+        "Old Man Rafi",
+        "Tessa"
+      ],
+      "locations_used": [
+        "Saltmarsh Fen",
+        "Research Lighthouse",
+        "Boardwalk"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Compromises",
+      "branch_designation": "Route A/B — Alternate Ending: Bittersweet",
+      "narrative_focus": "The hybrid path was supposed to be the humane compromise: community oversight embedded in corporate scaffolding. We draft clauses, hold joint steering meetings, and do the painstaking work of translating lived knowledge into contractual obligations. Cass's steel-gray gaze finally seems luminous with relief when we add enforceable community seats to the board. Jonah is skeptical but helps train crews on new systems. For a while we ride the swell of cautious optimism — flood maps improve, some docks survive, and the Repair Garden blossoms in an allocated corner. But the project’s complexity births new vulnerabilities: maintenance schedules are missed when budgets lag, and contractual language is gamed by actors outside our town. A quartering gale arrives in autumn; the hybrid protections reduce damage in many places but create perverse points of failure where the different systems meet. We save lives but lose the small trawlers of a dozen families to an unexpected surge funneled by a misaligned sluice. I stand at the edge of a ruined slip, coral pendant heavy, and feel both gratitude and invitation to grief. Jonahs’s amber eyes are distant; Cass looks at me as though we did our best and that is not enough.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option B; From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian",
+        "Jonah",
+        "Old Man Rafi",
+        "Tessa",
+        "Mayor Lynette Cole"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Docks",
+        "Mixed infrastructure"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Exposed",
+      "branch_designation": "Route A/C — Alternate Ending: True",
+      "narrative_focus": "The legal and moral furor ripples outward. I publish the last tranche of documents: contracts, emails, and cost-benefit manipulations. Media descends; Mayor Lynette is forced to resign. A federal audit begins. The town is angry in public and quieter in private. Cass is humiliated and then quietly helpful as he tries to repair professional culpability; his steel-gray eyes show bruised sincerity. Jonah is proud and furious; we fight and then hold each other like people who have sat together through hospital halls. The long work of building transparent governance begins: community seats, cooperative procurement, an open ledger for grant allocations. It is slow and bureaucratically brutal; funds are delayed but the structures change. In the long arc, the town rebuilds under cooperative management, preserving many traditions at the cost of slower material protection. My personal life is ambiguous: I have a deep bond with one partner, and a new ethical clarity, but no neat romantic resolution. The moral victory is hard-won and modest. The town’s physical resilience lags; a storm in the second winter reveals gaps. We suffer losses but hold our governance as a kind of moral triumph. I stand with my coral pendant against the cold, knowing truth cost us dearly but also seeded a different future.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option C; From Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian",
+        "Jonah",
+        "Mayor Lynette Cole",
+        "Old Man Rafi",
+        "Tessa"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "Boardwalk",
+        "Research Lighthouse"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "After the Surge",
+      "branch_designation": "Route B/C — Alternate Ending: Sad",
+      "narrative_focus": "Litigation, stalled projects, and legal voids create gaps in maintenance and response. The sea exploits bureaucratic pauses: a fast, late-season tempest—fueled by an impossible warm pocket—arrives with a ferocity none of our plans could anticipate. Pump arrays fail where contracts were frozen; community brigades are delayed by legal injunctions; the seawall projects mid-build are breached. The town fractures under blame. Jonah blames me for rifts between people; Cass blames the hold-ups I helped initiate; the mayoral office splits staff defending different visions. I wander the ruined docks in my scuffed boots, coral pendant swinging, and realize the truth I’ve been avoiding: every path required trade-offs, and inertia killed us as certainly as storm. Families lose houses and livelihoods. Old Man Rafi lights a small, private fire and tells us that the sea will always take some things; we must decide what else to give. There is no tidy romantic closure—only the raw, human calculus of survival and remorse. I close my notebook and feel the weight of choices like concrete on my chest.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option B; From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Kestrel",
+        "Cassian",
+        "Jonah",
+        "Mayor Lynette Cole",
+        "Old Man Rafi",
+        "Tessa"
+      ],
+      "locations_used": [
+        "Boardwalk",
+        "Docks"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Notes on Structure and Progression: The global emotional arc follows Fall (Chapters 1–2 Negative), Rise (Chapter 3 through each route's middle chapters; Positive), then final Fall (each ending chapter VeryNegative) per the Oedipus model. Arousal increases along every possible path: VeryLow → Low → Mid → High → VeryHigh → VeryHigh (climax). Branching hubs are at Chapter 3, Chapter 5 (Route A), Chapter 8 (Route B), and Chapter 11 (Route C). Each route from Chapter 1 to its ending traverses no more than six chapters.",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 06:30:57"
+}

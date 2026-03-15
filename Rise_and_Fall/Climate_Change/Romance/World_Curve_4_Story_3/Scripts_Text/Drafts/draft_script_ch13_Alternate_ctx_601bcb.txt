@@ -1,0 +1,221 @@
+### DRAFT
+# Route: Alternate
+
+
+[Scene: Tide Lab | Pre-dawn]
+[Visual: The converted ferry rocks gently at its moorings; portholes glow with cold blue light. Charts and sediment cores are pinned to bulkheads; a row of laptops cast green readouts across wet steel. A rain-swept rope creaks against the hull.]
+[Sound: The low, constant hum of desalination pumps; the occasional squeal of a gull in the distance.]
+[Music: A single piano line, patient and steady]
+
+You are up before the harbor. The city above you is only a ribbon of sodium lamps and fogged windows; everywhere else the tide keeps its slow appointments. Your notebook is open to a page of dense notes, but your fingers keep returning to the metadata sheet: timestamps, sensor calibrations, chain-of-custody notes. You can taste the salt under your tongue and the metallic tang of fear-coffee at the back of your throat. There is no glamour in this hour—only the long work that makes a case impossible to ignore.
+
+Professor Asha stands across the bench, sleeves rolled, braid looped against her shoulder like a question mark. Her hands are steady; her voice is the sort that gathers clarity out of bustle.
+
+Professor Asha: "We've reconciled the turbidity anomalies with the buoy drift logs. The error bands close when we include community spot-sampling. That alone will neutralize the main counter-arguments."
+
+You: "And the provenance is airtight? Chain-of-custody on the sensors? The timestamp servers are cross-checked with the lab NTP?"
+
+Professor Asha: (nods) "Redundant checks. Independent checksum copies. We seeded the repository with archived logs from the city—immutable snapshots. Legal teams like certainty; regulators like replicability. We give them both."
+
+You run your thumb along the tide-lines etched into your brass watch. You remember canvassing the Drowned District, watching people point to the algae lines on doorframes and say, "It was here. It was here." You remember the way those markers can be shrugged away by men with slick presentations and PR gloss. This dataset is your answer to being shrugged away.
+
+Jonah slips down the lab ladder, damp jacket clinging to his shoulders, camera bag at his side. He carries coffee in one hand and a printed timeline in the other, each fold worn from use.
+
+Jonah Reyes: "You look like someone who's about to change a map."
+
+You: (a small, dry laugh) "Maps get changed. The hard part is making sure the new lines keep neighborhoods on them."
+
+Jonah: (handing you the coffee) "Then let's make them so stubborn no one can erase them."
+
+Professor Asha: (half-smile) "We publish the code, the calibrations, everything. Open-source, peer-reviewed, and packaged for legal audits. We push in a single release with the coalition endorsements. Federal attention follows hard on good evidence and public pressure."
+
+You: "And NovaSeis?"
+
+Professor Asha: (eyes steel) "We document the trade-offs that their models obscure. We don't need to name every executive to make the contracts untenable."
+
+You let the sentence sink. You and Asha have talked through the moral arithmetic a dozen ways—how transparency can break monopolies yet also destabilize livelihoods tied to rapid contracts. You think of Jonah's compromises; of the volunteers who will cheer the headlines and the families whose roofs will go unbuilt if the city freezes funding in the scramble.
+
+You: "We make it impossible for them to sell harm as certainty. We make the harm visible."
+
+Professor Asha: "Exactly. Evidence that can't be spun is a lever. But levers change weight distribution across the city. Be ready—success will be messy."
+
+You feel the truth of that like a cold wind: success as an instrument that cuts as much as it lifts.
+
+[Interactive Moment: Choice A ("Run one last sensor audit yourself") -> Reaction: "You crouch to the console and run through the calibration script, fingers moving with the familiar ritual. Each successful checksum is a small, fierce reassurance." || Choice B ("Call Jonah and confirm the rollout sequence") -> Reaction: "You use the lab's satellite link to call Jonah. His voice is low with the fatigue of vigilance, and you both read the rollout checklist aloud like a prayer."]
+
+
+[Scene: Promenade | Late morning]
+[Visual: The half-submerged boardwalk glitters under intermittent rain. People gather beneath patchworked awnings; hand-painted signs flutter. Volunteers are setting up a projector near the steps; banners read: 'Science for Shorelines' and 'Communities over Contracts'.]
+[Sound: The slap of small waves against pylons; murmured conversations; a volunteer's laughter clipped by nervousness.]
+[Smell: Frying oil from a nearby food cart, the briny smell of seaweed, the earthy scent of wet soil from seedling trays.]
+[Music: A swelling string arrangement threaded with low brass]
+
+You stand at a small makeshift podium, your notes clipped but largely unnecessary—the numbers are in your bones now, the story etched into the scars of the neighborhoods you love. People look at you: students with damp hair, elders with faces like maps of the coast, city volunteers who once doubted but now listen. Jonah waits at the edge of the crowd, camera in hand, his gaze a steady presence.
+
+Jonah Reyes: (quiet, to you) "They're with us. Old Mate is here. Maya's handing out timelines. We have calls from three civic groups upstate."
+
+You: (to the crowd) "We published the full dataset this morning. Every sensor, every sample, every method—available to anyone who wants to verify, replicate, or build on it. The point is simple: when the science is open, the choices the city makes are public."
+
+A murmur of approval ripples through the crowd. A woman near the front raises a fist; a child presses their nose to the projector screen like it's glass.
+
+Volunteer: "What does this mean for the pilot projects?"
+
+You: "It means pilots will have to meet standards that protect ecology and people. It means contracts that reward short-term fixes will be legally and politically risky. It means federal regulators can—will—act on hard, replicable evidence."
+
+From the promenade steps, a reporter pushes through, voice clipped with practiced urgency.
+
+Reporter: "Mara—(you)—does this mean NovaSeis's contracts are now in jeopardy?"
+
+You keep your voice even. You are a scientist speaking through a heart that keeps making choices in the language of people.
+
+You: "Our work shows where those contracts produce unaccounted harm. We are not proposing chaos; we are proposing accountability. Cities can do both: build defenses and ensure they're ecologically sound and socially just."
+
+Asha steps forward, tablet in hand, and displays a live feed of the repository. The screen is a dense, honest thing—graphs that refuse simplification, time-series that show erosion rates and ecological signal.
+
+Professor Asha: "We invited independent reviewers to the release. Their preliminary reads are clear: some widely-touted interventions shift sediment budgets in ways that increase long-term exposure for adjacent neighborhoods. The models used by private contractors rely on closed assumptions; those assumptions are now public."
+
+The applause is immediate and relief-sweet. Jonah's camera catches your face from the side; you are smiling, but there is a tightening behind your ribs.
+
+[Interactive Moment: Choice A ("Invite Old Mate to speak next") -> Reaction: "You step aside and gesture for Mateo to come up. His voice, rough with salt and story, grounds the science in memory and consequences, and the crowd leans forward as if tethered." || Choice B ("Keep the floor and read a technical summary") -> Reaction: "You walk them through the core findings—simpler than you'd rehearsed, sharper for clarity. The crowd takes in the mechanics of harm and begins to translate that into pressure."]
+
+
+[Scene: Federal Agencies | Midday, One Week Later]
+[Visual: A glass-and-steel conference room; rain dots the windows like Morse code. A holographic coastline spins slowly above the table. Nondescript security badges click against lanyards; coffee in paper cups sweats on laminated surfaces.]
+[Sound: The neutrally amplified murmurs of officials; the distant drone of city maintenance outside.]
+[Music: Low, taut strings that suggest consequence]
+
+You and Jonah sit opposite a panel of federal regulators—stern faces, competent voices—joined by legal advisors who flip between terminologies like cards. The air here is filtered and cool; your hair smells less of sea and more of sterile carpeting and bureaucracy.
+
+Senior Regulator: "Your data is rigorous and replicable. We've had petitions, complaints, and—now—open-source evidence that shows model failures with proprietary implementations. This changes the regulatory calculus."
+
+You: (careful) "We didn't want the city to be handcuffed. We wanted policy that would force better contracts—transparency clauses, ecological impact bonds, monitoring requirements."
+
+Regulator's Advisor: (tapping tablet) "We've drafted emergency guidance that will require public disclosure of long-term sediment and ecological modeling assumptions in any federally funded coastal defense contract. Non-disclosure will be a disqualifier."
+
+A subdued cheer ripples through you. Federal action—something that had felt like a horizon until now—has moved into the present. You picture seedlings arriving, grant checks being cut, community liaisons hired.
+
+But the panel's counsel is not without sharp edges.
+
+Legal Counsel: "We expect litigation. NovaSeis has already filed for interim injunctive relief claiming proprietary rights. This will be messy. We can protect the open data, but courts will be busy, and politicians will be vulnerable."
+
+You: "We expected that. The point is not immediate quiet; it's durable standards."
+
+Senior Regulator: "Durable standards mean reallocating funds. That means some short-term projects will be paused. Some neighborhoods will be prioritized for relocation funds because their geophysical position and economic exposure mean adaptation here is not viable."
+
+The words land like a different tide—slow, inexorable. You had argued for community-centered approaches, for trying everything to keep people in place. But now federal triage will formalize what you feared: some places cannot be saved.
+
+Jonah squeezes your hand under the table, a small anchor.
+
+Jonah Reyes: (soft) "We did the right thing."
+
+You: (after a beat) "We did what could be proven. But proof becomes policy, and policy makes winners and losers. Be honest with them—be honest with us."
+
+Across the city, the release has already cascaded into action. NovaSeis's stock drops; board members make terse statements; news cycles spin narratives of accountability, victory, and righteous exposure. Public comment forums overflow with citizens who feel heard for the first time—and with angry contractors and displaced workers demanding protection.
+
+[Scene Transition: Montage — Press conferences, hearings, volunteers distributing relocation pamphlets, legal filings, community meetings where fists and tears appear in equal measure. The city is alive with the feeling of tectonic change.]
+[Music: A fuller arrangement starts bright, then folds into dissonant undertones]
+
+You and Jonah are invited to testify before a national committee. You ride an elevator that smells faintly of lemon cleaner and nerves; reporters cluster at the doors. The applause when you exit feels thin compared to the images that return to haunt you—flood-streaked doorframes; old neighbors with packed suitcases and faces like closed doors.
+
+Professor Asha: (on a conference call, voice weary but resolved) "This is systemic change. NovaSeis will litigate. The federal rules will reshape bidding, but the legal processes and bureaucratic reallocations will mean pain for some. We must pour resources into relocation ethics and reparations frameworks now, not later."
+
+You: "We will. We have templates. But the city will need to own the heavy conversations—compassionate timelines, community-led site selection, guaranteed housing."
+
+Jonathan (a federal liaison): "There's funding for that. Priority channels are open. But political churn is inevitable. Officials pushed too far too fast will be exposed."
+
+You imagine the mayor's face, the councilors in suits who once offered bland assurances. A city that changes its rules in public will spawn enemies and allies in complicated measures. You are not naive; you are not unprepared. Still, as the applause dies down and the tape recorders are turned off, you feel the first real ache of the costs.
+
+[Interactive Moment: Choice A ("Attend the community relocation meeting tonight") -> Reaction: "You show up at the community center with a stack of pamphlets and your measured empathy. People press concerns and memories into your hands—you answer, you listen; sometimes, the two don't reconcile." || Choice B ("Debrief with Jonah and Asha privately") -> Reaction: "You close the lab door and let the three of you speak plainly—strategy, legal shadows, what has been sacrificed. The conversation is harder for being honest, but it steels you."]
+
+[Scene: Drowned District edge | Dusk]
+[Visual: The neighborhood's paint is salt-mottled; families gather on raised platforms with boxes. String lights hang like small constellations above wet alleys. A community bulletin shows relocation schedules pinned beside remembered photos.]
+[Sound: The slow lap of water, a radio playing a children's song, the distant murmur of a protest across the bridge.]
+[Smell: Old wood, mildew, the sharpness of wet paper.]
+
+You stand at the boundary where the city has drawn a new line. Some houses will be fortified; others will be marked for relocation with neat, bureaucratic stickers that feel like erasures. A child presses a damp rock into your hand—a gift, she says, for "keeping the water honest." You accept it like taking a small and complicated truth.
+
+Old Mate sits nearby, toes in brackish shallow water, face unreadable.
+
+Mateo "Old Mate" Alvarez: "You did a thing, niña. You made loud what was being whispered. But loud makes people move faster than they can pack."
+
+You: "We couldn't let them build certainty on someone's loss."
+
+Old Mate: (a long look) "No. But letting certainty go is also costly. There'll be lawsuits. There'll be money that doesn't arrive fast enough. There'll be councilors fired and new ones who don't know the old stories."
+
+You close your eyes for a second and think of your childhood house—its last winter roof sagging, the smell of your mother's soup, the mattress pulled up on blocks during a flood. You think of how you promised to keep other neighborhoods from the same slow erasing. That promise is a living thing now, and it will demand choices that scar.
+
+Jonah steps to your side and sets a small potted marsh grass between you. He kneels and presses it into the soil of a raised planter already marked with community names.
+
+Jonah Reyes: "We plant here, and we plant elsewhere. We make new ground and remember what this cost."
+
+You both lean in, hands covered in damp earth and salt, and plant.
+
+Professor Asha's voice comes over the small portable radio, calm and urgent.
+
+Professor Asha: "The regulations are passing. Federal funds are committed to relocation where necessary. NovaSeis's suits will drag; we must be ready for protracted legal defense for the open data. Prepare community legal aid. Prepare the memorial events. Prepare the training programs."
+
+You breathe in the marsh smells and the human noise around you. There is pride—sharp, bright—and grief threaded through it.
+
+You: "Is this enough?"
+
+Professor Asha: "Enough isn't the right question. This is what we can do now. It alters what comes next."
+
+Old Mate: (turning to you) "You will need stories later, niña. Not for the papers—for the ones who stayed and the ones who couldn't. Tell them true."
+
+You promise with the kind of vow that is tacit and heavy. The city shifts under your promise—laws, lawyers, funds, and uprooted roots all rearranging the skyline.
+
+[Scene: Rooftop Garden at the PolySilo | Night]
+[Visual: A wind-filtered terrace, string lights above, the city horizon a jagged line. Tiny, newly planted marsh grasses sway. A small plaque sits in the soil, engraved with names and dates; a handful of personal mementos rest beside it.]
+[Sound: Wind through succulents, a distant siren, the soft click of Jonah's camera shutter capturing a moment you both know will be edited into history.]
+[Music: A bittersweet cello line under a warming piano]
+
+You and Jonah sit with your feet against a low wall, sharing a thermos. Your hands find each other without looking, fingers tracing the familiar maps of knuckles and tides. The city's new rules hum like a background engine—good, necessary, disruptive.
+
+Jonah Reyes: "People are saying you're a hero. I'm saying you made the hard call."
+
+You: (a small, private laugh) "Heroes get statues. I get spreadsheets and court notices."
+
+Jonah: "Which sounds worse?"
+
+You: "Both. But look—" (you sweep the skyline) "—they're listening now. Cities will change because the data wouldn't let them pretend. That is real. That matters."
+
+Jonah: (listening, then) "And we will lose some things. People won't like how fast or slow it goes. There will be anger. There will be poems and lawsuits."
+
+You: "And we'll answer. We'll keep the records. We'll keep the ethics committees on them. We'll push for reparations where we can. It isn't a clean victory."
+
+Jonah: "It isn't supposed to be. It's the sort of victory that asks you to carry the weight deliberately."
+
+You feel that weight settle onto your shoulders—not crushing, but honest. You think of Professor Asha's steady hands, of the volunteers standing in the rain, of the families who have already had to move. You think of Elias—of his fall from polished podiums to obscure litigation, of boardrooms that no longer mirror his voice as loudly. His loss is political and surgical and small compared to human displacement, but it is a part of the reckoning.
+
+You reach into your pocket and pull out the damp, curling print Jonah once gave you long ago—the one you pressed your thumb into as if to hold that earlier certainty. You place it between your palms and let the harbor light paint it.
+
+You: (soft) "We changed the rules. We made a place for the kind of adaptation we believe in. The system shifted under everyone's feet."
+
+Jonah: "And you shifted too."
+
+You look at him. The softness there is real and unperforming. The future is not a promise but a series of commitments, some joyous, some bitter.
+
+You: "We keep going. We keep the data open. We keep telling the stories of those who can't stay. We keep planting."
+
+Jonah squeezes your hand; the gesture is small and complete.
+
+You look out at New Maris: the harbor lights, the half-submerged boardwalk, the small green patches that are becoming something like a network. The city will never be what it was. You will never be what you were. Change has the shape of losses and lessons.
+
+You place your palm over the small plaque in the soil—fingers pressing into wet dirt. The act feels like an offering and an account.
+
+You: (internal) "We gave the city its chance to do better. That is true. It cost us what we must carry."
+
+[Visual: Camera lingers on your joined hands, then pans out to the city horizon as lights blink and the rain begins again; the newly planted marsh grass bends, resilient and fragile.]
+[Music: The cello resolves into a haunting major chord, then softens]
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+
+[ENDING]
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": null,
+  "default_next_chapter": null
+}

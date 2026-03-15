@@ -1,0 +1,251 @@
+label chapter12:
+
+    # [Scene: Subbasement Data Lab | Night — Immediate]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Tense, driving percussion with urgent strings]
+    # play sound "sfx_placeholder"  # [Sound: The server hum, a distant thunder of rain, a mechanical clock counting down]
+    "You feel the lab beneath your palm like a living thing: vibration through the steel table, heat from the racks, the small electric scent of ozone and salt. The activation key is cool, familiar — a simple fulcrum that will tip systems into motion and, with them, a thousand consequences."
+    "Your chest tightens and loosens at once. There is no theatrical hesitation—only a ledger of costs you can already read in the margins. Pressing that key buys time and stability but hands emergency authority to a"
+    "corporate contingency you do not trust. Not pressing it risks immediate overload. Neither is clean. You have chosen the third path: transparency. The memos are already on the console. Rafi is at the terminal, fingers poised;"
+    "Elias Chen is pressed against the far wall, jaw working; Dr. Rowan Hale stands at the rim of the control bank, smooth and contained, the kind of calm that could freeze a room."
+    show rafi_alvarez at left:
+        zoom 0.7
+
+    rafi_alvarez "They're ready. I can push them to the independent feeds and the network of community channels within seconds. Once they're out, there's no taking them back."
+    "You stare at the line of text on the display — contracts, redacted clauses and back-channel emails that make policy look like ledger-side skullduggery. You taste copper in your mouth, the reflex of too many late"
+    "nights parsing funding lines. You think of the Beacon's lamp, of Sora's stories, of Mina's hands in soil. You think of why you came back to this neighborhood."
+    show aiko_mori at right:
+        zoom 0.7
+
+    aiko_mori "Do it. Rafi — full packet. Annotate for context. Push to at least three independent outlets, then the community channels. Timestamp everything."
+
+    rafi_alvarez "Got it. Uploading. Sending to my contacts now. Live stream queued. I'm tagging you and Elias on everything for transparency."
+
+    menu:
+        "Add a note protecting personal contacts":
+            "You instruct Rafi to strip identifiable names of vulnerable witnesses. He hesitates only a moment before running a custom scrub that preserves context while softening exposure."
+        "Release everything raw for impact":
+            "You tell Rafi to release the files raw. He swallows, then nods; the stream goes live with an unfiltered intensity that will make headlines before sunrise."
+
+    # --- merge ---
+    "Rafi's cursor blinks, then floods the net. The lab's monitors update in a dozen windows: downloads spike, server pings climb, an external feed labels the packet 'HelioCorp Contracts — Internal.' The room gets louder in your head — the hum magnifies, the clock ticks faster."
+    show dr_rowan_hale at center:
+        zoom 0.7
+
+    dr_rowan_hale "You're making a political choice, Aiko. There are consequences you might not intend. This will escalate. HelioCorp will respond—strategically, legally."
+    "Your fingers move before your brain finishes cataloguing all the ways Dr. Rowan Hale is right. You set manual safeguards — toggles that reroute control from fully automated systems to human-verified processes, redundant cutoffs, a cascade"
+    "of interlocks that demand a manual key from within the neighborhood network to authorize broad acts. The override remains in your hand, but the automated path will not run without a community verification layer you help"
+    "define."
+
+    aiko_mori "Then let them respond. We will not hand them unchecked control, Rowan. Not this neighborhood. Not after everything."
+    "Elias Chen presses himself to the console, voice taut, ready to erupt."
+    hide rafi_alvarez
+    show elias_chen at left:
+        zoom 0.7
+
+    elias_chen "You could have—"
+
+    aiko_mori "I could have pressed the key, Elias. I could have let the algorithm ride. I didn't. I'm asking for time, not abdication."
+    "Elias Chen looks at you. His expression is complex — heat and hurt braided together. You read as much as you can: the loyalty that built him, the frustration at delay, the fear of immediate failure."
+    "He steps closer, touches the small solar pendant at your throat, as if testing reality."
+
+    elias_chen "Then let's make it count. If we're slowing them down, we make sure their slowdown costs them politically. Rafi — you have my blessing to amplify. Mina and Sora are getting the Beacon ready—crowd, documentation, witnesses. We'll convene the council in thirty."
+    hide aiko_mori
+    show rafi_alvarez at right:
+        zoom 0.7
+
+    rafi_alvarez "Council notice sent. Live streams queued. I have legal contacts on standby. We'll timestamp everything—every decision point."
+    "Dr. Rowan Hale's coolness cracks, just a hairline fissure."
+
+    dr_rowan_hale "You can prioritize transparency and still maintain safety, Ms. Mori. But note: lawsuits, injunctions, targeted legislative pressure. You're placing yourself in the crosshairs."
+    "You feel the ledger rewrite itself beneath your feet. Professional risk. Public attack. A chorus of legal teeth. You think of your old institute, of grants gone cold, of doors that will close. You accept the tally as a cost of the road you chose."
+    hide dr_rowan_hale
+    hide elias_chen
+    hide rafi_alvarez
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Notification pings, like distant gunfire]
+    "You toggle the manual safeguard into a locked state that requires a community quorum to unlock broader actions. The lab breathes easier as systems reroute, alarms subdued. For the moment, mechanical calamity is pinned back. A window shows HelioCorp's PR response already forming: measured, legal, dismissive."
+    show dr_rowan_hale at left:
+        zoom 0.7
+
+    dr_rowan_hale "You have made enemies in places that do not like to lose. This will not end peacefully."
+    show aiko_mori at right:
+        zoom 0.7
+
+    aiko_mori "Nor did we expect it to. We expected the tide."
+
+    "You close your hand around the activation key — not to trigger, but to steady. Rafi's feed hums with comments, Mina has called for volunteers, Sora's message appears on your comm" "Meet at the Beacon. Bring the ledger. Bring people."
+    # [Scene: Old Beacon | Night — Early morning crowd assembling]
+    hide dr_rowan_hale
+    hide aiko_mori
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Pulsing, hopeful brass that rides the same urgent percussion]
+    # play sound "sfx_placeholder"  # [Sound: Murmurs, shouted calls, the slap of hands on wood as people gather]
+    "You step up to the stone, ledger under your arm. The smell of wet wood, coffee, and the faint tang of rain mixes with the breath of a hundred neighbors leaning in. Mina moves through the"
+    "crowd like a hearth wind, handing out thermoses and a stack of printed memos. Sora sits to your left, eyes steady and deep as tidal channels. Elias Chen is at your right, jaw still tight but"
+    "hands clasped in determination."
+    show mina_kuroda at left:
+        zoom 0.7
+
+    mina_kuroda "We have a stream crew, legal volunteers, and a list of elders to testify. If HelioCorp sues, we will need witness statements. We will need to stay organized."
+    show aiko_mori at right:
+        zoom 0.7
+
+    aiko_mori "We pause the automated override. We enable safeguards that require community verification. We make the information public. We call for emergency hearings and demand legislative oversight. This is not sabotage. This is accountability."
+    "A woman at the front, her face salt-creased, raises a hand."
+
+    "Neighbor" "Will this stop the barrier? Will this let the water in?"
+    "Your throat tightens. You do not lie."
+
+    aiko_mori "It buys time. It asks that decisions on automated, life-affecting systems are not taken in closed rooms. It places a veto with the community for emergency measures, not with a single corporate clause. We will still fight the storm. We'll do it together, and with eyes open."
+
+    menu:
+        "Lead with technical explanation":
+            "You walk them through the safeguards: manual keys, quorum checks, redundancy. The crowd nods, the technical plan calms some fears."
+        "Lead with the human story":
+            "You tell them Sora's story, Mina's hands in the soil, Elias's childhood harbor. Faces soften; the room remembers why this matters beyond code."
+
+    # --- merge ---
+    "Voices swell — some fearful, some furious, many resolute. You spend the next hours coordinating: Mina organizes witness collection; Rafi lines up independent journalists and legal clinics; Elias marshals volunteers to document equipment and patrol vulnerable"
+    "zones. The Beacon becomes a nerve center, a place where the city's messy, human patience meets methodical resistance."
+    "Dr. Rowan Hale's reach is felt in the form of HelioCorp's first legal volley: a rapid cease-and-desist and a threat of emergency injunction. The language is polite and predatory. Rafi posts the letter publically and annotates"
+    "it. The annotations peel back the legalese to reveal the contingency clauses that would have quietly handed control to a corporate board. The public response is immediate and fractious. Headlines call it a scandal; other headlines"
+    "call it dangerous interference. The debate rages in real time."
+    # [Scene: Council Chambers | Day — Public Hearing]
+    hide mina_kuroda
+    hide aiko_mori
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Full strings and chorus, driving toward a peak]
+    # play sound "sfx_placeholder"  # [Sound: Microphones popping, murmurs rising into a roar]
+    "You stand at the witness podium while Rafi displays a timeline on a side screen: timestamps, memos, the path of the proposed override and how the contingency language would have been triggered. HelioCorp's counsel is polished, precise; Dr. Rowan Hale sits behind them, composed as ever, his pale-blue gaze calculating."
+
+    "Council Member" "Ms. Mori, under oath, did you interrupt an automated process that was designed to protect critical infrastructure during a high-risk period?"
+    show aiko_mori at left:
+        zoom 0.7
+
+    aiko_mori "We did not 'interrupt' so much as demand that the community be a co-author of any emergency action that affects us. We disabled a fully automated override and enabled manual safeguards requiring community verification. We did that because those contingency clauses would have allowed an opaque transfer of decision-making to a private board."
+
+    "HelioCorp's counsel" "And who do you represent, Ms. Mori? A neighborhood? A political interest? Did you consider the risk that your actions could have allowed a failure during a storm?"
+
+    aiko_mori "I represent the people who will be in flooded homes if decisions are taken without their consent. We considered risks and mitigated them with redundancies. We chose transparency because secrecy breeds mistakes that cost lives. My 'interest' is the ledger of this neighborhood. My 'interest' is its survival."
+    "Dr. Rowan Hale stands to speak. His voice is precise, not unkind."
+    show dr_rowan_hale at right:
+        zoom 0.7
+
+    dr_rowan_hale "I respect the intent, Ms. Mori. But in moments when systems must act without deliberation, there is value in speed. My fear is that the legal chaos you have created will stall badly needed action."
+
+    aiko_mori "And my fear is that your speed, without checks, becomes a different kind of violence. We are not arguing speed versus safety. We are arguing for accountable safety."
+    "The room fractures into procedural questions and emotional testimony. Mina brings forward elders who recount the time the tide came in while bureaucrats argued. Elias Chen presents a video he shot of a breached sandbar and a family salvaging a photo album from mud; his voice breaks once, then steadies."
+    show elias_chen at center:
+        zoom 0.7
+
+    elias_chen "My family lost their home to a tide that someone else decided would be acceptable. We can't let a corporation decide acceptable losses for us again."
+    hide aiko_mori
+    show rafi_alvarez at left:
+        zoom 0.7
+
+    rafi_alvarez "Here—these memos show not just contingency, but a calculus: which neighborhoods were planned as 'sacrifice zones' in financial terms. It's in their own words."
+    "Across multiple hearings, the evidence accumulates. HelioCorp's legal team fights back hard: injunctions, surveillance subpoenas, party-line op-eds framing you as reckless. The arousal follows you like weather: intense, sharp, impossible to ignore. Yet public opinion shifts"
+    "as the memos make the rounds and the hearings are televised. People see the clauses, hear the testimony, and imagine the ledger entries rewritten in someone else's hand."
+    "Weeks pass in a blur of testimony, injunctions, and crowded public meetings. There are nights you sleep in the Beacon, pages of the ledger under your pillow, the solar lamp dimming when you dream. There are"
+    "mornings you wake to new threats: legal filings against you, your old institute distancing itself, a smear campaign meant to make you a cautionary example. The professional cost is immediate and brutal. Offers evaporate, committees rescind"
+    "invitations, and your name becomes shorthand for 'trouble.'"
+    "Yet at the crescendo — a session when the council votes on an emergency ordinance — the chamber's dynamics shift. The televised gallery shows neighborhoods across the city calling in; Rafi coordinates calls from other coastal"
+    "towns with similar histories. Sora's testimony, gentle and grave, reminds everyone that policy writes culture."
+    hide dr_rowan_hale
+    show sora_watanabe at right:
+        zoom 0.7
+
+    sora_watanabe "We have lived here through many tides. We learned to work with water, not only to hold it back but to live with it. When decisions are made in rooms with no salt on their sleeves, the memory of the shore is lost."
+    "The vote is close. The tension is a physical thing you can taste: lemon in the air, the metallic metallic of too many nerves. When the gavel comes down, the council passes the emergency ordinance that"
+    "codifies community verification for any automated emergency override, includes binding community vetoes for deployment that would affect populated zones, and mandates open-data infrastructure for all emergency systems. It also triggers a review that will recommend a"
+    "national mandate for transparent emergency protocols."
+    hide elias_chen
+    hide rafi_alvarez
+    hide sora_watanabe
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single, soaring cello line that resolves into a warm chord]
+    # play sound "sfx_placeholder"  # [Sound: The chamber erupts into cheers and tears; media cameras click like gulls]
+    "HelioCorp does not vanish. They sue. They launch a PR counteroffensive. Their legal engines grind on. But the ordinance stands, and the hearings have forced legislative bodies to act. The long road to systemic reform has taken its first, irrevocable step."
+    "You accept your losses plainly. The smear campaign has cost you professional doors; HelioCorp's legal action means months of litigation and public harassment. Your name will be in press cycles with adjectives you never chose. But"
+    "the ledger has shifted: community governance is enshrined in policy, and the binding veto and open-data mandates mean that neighborhoods will never again be excluded by fine print."
+    "After the vote, you and Elias Chen find a moment at the Beacon. The crowd has thinned to small groups trading stories and cigarettes. Mina hands you both two scalding cups of tea. The air smells"
+    "like rain and soot and the simmering relief of a neighborhood that has just weathered a storm."
+    show elias_chen at left:
+        zoom 0.7
+
+    elias_chen "You went nuclear and then wrote the aftermath down neatly. Only you would do that."
+    show aiko_mori at right:
+        zoom 0.7
+
+    aiko_mori "I called in everything I had. I am still here. The ledger is heavier, but the pages are ours now."
+    "Elias Chen folds his hand over yours. His grip says more than words: anger softened into respect; disagreement tempered by shared work. The relationship is not the same as it was before the memos, before the"
+    "hearings, before the lawsuits. It is marked — a ledger note, not erased but honored."
+
+    elias_chen "It hurt. Some of the things you did felt like cuts. But you didn't give up on people. You kept that promise."
+
+    aiko_mori "I didn't either. Not to the people, and not to the idea that people should make the decisions that shape their lives."
+    show mina_kuroda at center:
+        zoom 0.7
+
+    mina_kuroda "We'll need you at the kitchen tomorrow. The volunteers baked too many loaves in case the council fell apart. Seems wasteful, but now—more bread."
+    "You laugh, the sound sharp and real, a small exhalation that cracks the intensity of the last weeks."
+    hide elias_chen
+    show rafi_alvarez at left:
+        zoom 0.7
+
+    rafi_alvarez "We've got legal folks pro bono for the next round. The national cameras are here; the memos are in every major archive. People are mobilized. It's messy, loud, and absolutely effective."
+    "You think of the future in ledger terms but also as a tideline: slow, inexorable, changed by a single rock placed in its path. The reforms are not a miracle. They will be fought tooth and"
+    "nail, adjusted, eroded in places. They will require vigilance, local committees, continued transparency, and a legal apparatus to back them. You know this. You also know that what was impossible a month ago — legally enshrined"
+    "community vetoes and open-data mandates — is now a legal reality in this city and a precedent for others."
+    hide aiko_mori
+    hide mina_kuroda
+    hide rafi_alvarez
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, expanding strings with a hopeful brass motif]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls calling; quiet laughter; the low pulse of volunteers packing supplies]
+    "You sit with your notebook on your knees, running a hand over its cover. The pages inside are full of tide maps, clauses, testimonies, diagrams of safeguards — a ledger of choices. Your name is on"
+    "some public lists as a troublemaker, but Sora's hand finds yours and squeezes, and Elias Chen leans his head against your shoulder. That closeness is not a tidy reconciliation but it is durable: a promise to"
+    "keep working, to keep arguing, to keep the ledger honest."
+    show aiko_mori at left:
+        zoom 0.7
+
+    aiko_mori "We did a dangerous thing. We did it together."
+    show sora_watanabe at right:
+        zoom 0.7
+
+    sora_watanabe "We did what needed doing."
+    "You let yourself breathe. The arousal that has ridden you for weeks eases into a humming anticipation. The lawsuits will come. So will the long negotiations and the weary days of enforcement. There will be nights"
+    "you wish you'd done things differently. There will be compromises you will have to swallow. But the city now has a legal architecture that insists communities must be at the table when life-altering systems are engaged."
+    hide aiko_mori
+    hide sora_watanabe
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: A single, ascending piano motif, then a soft resolution]
+    # play sound "sfx_placeholder"  # [Sound: The tide somewhere beyond the walls, steady and present]
+    "You think of ledger entries as small acts of fidelity: notes kept not just to record wins, but to remember the costs and the faces. You put the notebook back into your jacket, feeling the weight"
+    "and the way it balances the rest of you. Elias Chen squeezes your hand; it isn't a promise that everything will be easy, but it is a vow to stay, to repair, to rebuild."
+    "The reforms you helped set in motion will ripple outward. HelioCorp's lawsuits will take time, and the company's power will not disappear overnight. But systems that were opaque now have light under them, and that light"
+    "will make it harder for secret clauses to decide who is saved and who is sacrificed."
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: A gentle choir of strings, peaceful but insistent]
+    # play sound "sfx_placeholder"  # [Sound: Community chatter rising into organized song as volunteers head out]
+    "You record one last entry in the ledger tonight: a small map of what was done, who testified, what the ordinance mandates, and a short note to the future — 'Keep the keys where hands are known.'"
+    "You close the book and step outside into the rising day. The city smells of wet concrete and new green. Somewhere, a siren cuts a ribbon of noise, business as usual, transformed. You let the moment"
+    "hold you — a conclusive weight of regret for what was lost and fierce gratitude for what was won."
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, expanding strings with a hopeful brass motif]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls calling; quiet laughter; the low pulse of volunteers packing supplies]
+
+    scene bg ch12_f99e88_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

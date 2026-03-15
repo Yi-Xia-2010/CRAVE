@@ -1,0 +1,481 @@
+{
+    "title": "Tidebound Promises",
+    "summary": "You are Aria Navarro, a marine ecologist trying to reconcile formal science with lived local knowledge while steering a subtropical archipelago town through climate-driven crises. The story follows a Cinderella (Rise-Fall-Rise) emotional arc as Aria rallies support for a regenerative shoreline plan, endures catastrophic setbacks from storms and political tension, and ultimately builds lasting solutions through different strategic choices that prioritize engineering, community restoration, or negotiated hybrids. Romance and alliances shift across routes between Mateo (an engineer) and Sora (a community organizer).",
+    "emotional_curve_type": "Cinderella (Rise-Fall-Rise)",
+    "player_character": "Aria Navarro",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Home Tides",
+            "branch_designation": "Common",
+            "narrative_focus": "Aria arrives at the Tidal Lab before dawn, reconnects with the community and colleagues (Jun, Mateo, Sora), and begins plotting a locally led regenerative shoreline pilot. The chapter establishes setting, relationships, responsibility, and a rising momentum toward a public presentation and potential funding.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Sora",
+                "Dr. Kavir Singh",
+                "Jun",
+                "Elena",
+                "Mayor Isla Cortez"
+            ],
+            "locations_used": [
+                "Tidal Lab",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Town Meeting Preparations",
+            "branch_designation": "Common",
+            "narrative_focus": "Preparations accelerate: Aria runs workshops, patches sensors, balances technical and cultural perspectives, and polishes a presentation for the town meeting as relationships deepen and political tension about funding simmers.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Aria Navarro",
+                "Jun",
+                "Mateo",
+                "Elena",
+                "Dr. Kavir Singh",
+                "Sora",
+                "Mayor Isla Cortez"
+            ],
+            "locations_used": [
+                "Rooftop greenhouse",
+                "Tidal Lab",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Town Meeting—Moment of Peak",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At a luminous town meeting on the Old Quay, Aria presents mangrove restoration and modular seawall options. Sora and Mateo advocate different paths. Mayor Cortez asks which immediate approach to choose, creating a major fork that will determine the town's strategy and Aria's alliances.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "You must frame the town's immediate approach and steer the official vote.",
+                "options": [
+                    {
+                        "label": "We prioritize deployable adaptive infrastructure—seawalls and modular levees—so we buy time and protect homes.",
+                        "consequence": "Mayor Cortez leans on municipal authority; Mateo mobilizes the crew—fast action, measurable safety, political backing.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "We commit to community-led ecological restoration—massive mangrove and seagrass planting—so we build long-term resilience.",
+                        "consequence": "Sora galvanizes volunteers; municipal support is conditional and slower; community ownership deepens but funding timelines tighten.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "We launch a hybrid pilot: small adaptive modules plus accelerated restoration, decided by a community council.",
+                        "consequence": "Negotiations begin; the proposal is politically messy and delays deployment but holds promise for integrated stewardship.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Sora",
+                "Mayor Isla Cortez",
+                "Elena",
+                "Dr. Kavir Singh"
+            ],
+            "locations_used": [
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "The Breach (Route A — Mateo)",
+            "branch_designation": "Route A",
+            "narrative_focus": "After choosing rapid adaptive infrastructure, construction begins but an unexpectedly violent storm breaches a newly stacked module, flooding low-lying quarters and causing immediate human and political consequences. Aria faces urgent choices about rescue, repair, and community trust.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "In the immediate aftermath, you must prioritize action under pressure.",
+                "options": [
+                    {
+                        "label": "Double down—redesign and fortify the modular wall immediately; call in extra municipal crews.",
+                        "consequence": "Rapid engineering repairs, political credit for decisive action, but increased cost and displacement.",
+                        "target_chapter_index": 5
+                    },
+                    {
+                        "label": "Stop construction and pivot to emergency mangrove planting and community rescue—lean into local knowledge.",
+                        "consequence": "Slower physical protection, fosters community trust but risks showing weakness to regional funders.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Create an emergency mixed response: Mateo leads repairs while you organize volunteers to reinforce natural barriers.",
+                        "consequence": "Splits resources but builds a new model of hybrid response.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Elena",
+                "Jun",
+                "Sora"
+            ],
+            "locations_used": [
+                "Stormwall Site",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Fortify and Rebuild (Route A — Mateo Path)",
+            "branch_designation": "Route A",
+            "narrative_focus": "Aria and Mateo choose decisive repairs; with municipal backing, crews fortify modules, recede floodwaters, and begin recovery. The work is costly and displacing for some, but saves lives and deepens Aria's intimacy with Mateo during the recovery.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 6,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Elena",
+                "Jun"
+            ],
+            "locations_used": [
+                "Stormwall Site",
+                "Construction trailers",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Reconciliation & Model (Route A — Mateo)",
+            "branch_designation": "Route A",
+            "narrative_focus": "Following repairs and discussion, a hybrid model is institutionalized with a local stewardship council; Aria declines an outside grant to keep control local, and her relationship with Mateo matures into a committed partnership. The hybrid of modules and mangroves proves resilient.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Sora",
+                "Mayor Isla Cortez",
+                "Elena",
+                "Dr. Kavir Singh"
+            ],
+            "locations_used": [
+                "Rehabilitated Quay",
+                "Rooftop greenhouse",
+                "Tidal Lab"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "The Planting Oath (Route B — Sora)",
+            "branch_designation": "Route B",
+            "narrative_focus": "After committing to community-led restoration, mass planting begins with elation, but a late surge scours newly planted saplings. The setback demoralizes volunteers, shakes funding, and pressures Aria to choose between patience, compromise, or political action.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "When restoration falters, you must choose a path to protect people and momentum.",
+                "options": [
+                    {
+                        "label": "Advocate doubling down on restoration—redouble volunteer mobilization, improve planting techniques, and ask for time.",
+                        "consequence": "Community morale is tested but long-term ecological gains become plausible; political support is fragile.",
+                        "target_chapter_index": 8
+                    },
+                    {
+                        "label": "Compromise with municipal engineers to build temporary levees while restoration regrows—accept outside help.",
+                        "consequence": "Short-term safety bolstered, but some community members accuse you of selling out.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Organize a large, visible cultural action to reclaim public trust and force Mayor Cortez to guarantee funds for a slow, local plan.",
+                        "consequence": "Risky political theater could secure long-term funding—or trigger confrontation and arrests.",
+                        "target_chapter_index": 9
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Sora",
+                "Mayor Isla Cortez",
+                "Elena",
+                "Jun"
+            ],
+            "locations_used": [
+                "Reclamation site",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Patience and Technique (Route B — Sora Path)",
+            "branch_designation": "Route B",
+            "narrative_focus": "Aria and the community double down with improved planting techniques, monitoring, and incentives. Slow, measurable ecological gains return, and Aria's relationship with Sora deepens amid steady recovery and restored political support.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 9,
+            "characters_involved": [
+                "Aria Navarro",
+                "Sora",
+                "Jun",
+                "Dr. Kavir Singh",
+                "Mayor Isla Cortez"
+            ],
+            "locations_used": [
+                "Mangrove reclamation site",
+                "Rooftop greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Community Anchor (Route B — Sora)",
+            "branch_designation": "Route B",
+            "narrative_focus": "The restoration becomes a replicable model with community stewardship and municipal policy support. Some relocation is necessary; Aria and Sora's relationship survives but is affected by Aria's occasional consulting travel. The ending is bittersweet: ecological and community victories offset by irreversible losses.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Sora",
+                "Mayor Isla Cortez",
+                "Elena"
+            ],
+            "locations_used": [
+                "Mature mangrove fringe",
+                "Reclaimed shore",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Hybrid Council (Route C — Negotiated)",
+            "branch_designation": "Route C",
+            "narrative_focus": "A hybrid pilot council forms to allocate funds to both small adaptive modules and restoration, but negotiations delay deployment. A late storm and a funding audit collide, collapsing coordination and exposing the vulnerability of delays; Aria must choose how to reassert progress.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "With coordination breaking, you must choose how to reassert progress.",
+                "options": [
+                    {
+                        "label": "Push for emergency centralization—give the mayor temporary direct control to allocate resources quickly.",
+                        "consequence": "Quick deployment possible but risks centralizing power and alienating community actors.",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Insist the council continue but enforce strict operational protocols and rapid volunteer mobilization.",
+                        "consequence": "Preserves democratic process but risks slower response and potential further losses.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Stage a dramatic public reinstallation—combine a visible engineering patch with a mass planting day to restore confidence.",
+                        "consequence": "Risky but could secure both safety and morale if successful.",
+                        "target_chapter_index": 11
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mayor Isla Cortez",
+                "Mateo",
+                "Sora",
+                "Dr. Kavir Singh",
+                "Jun"
+            ],
+            "locations_used": [
+                "Rooftop meeting spaces",
+                "Tidal Lab",
+                "Reclamation site"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Centralized Surge (Route C — Rapid Hybrid)",
+            "branch_designation": "Route C",
+            "narrative_focus": "Mayor Cortez is granted temporary centralized authority to coordinate a rapid hybrid surge: modules rushed into place while massive planting is organized. The chaotic but effective response blunts the worst storms; Aria coordinates science and cultural liaisons, accepting moral complexity for pragmatic gains.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mayor Isla Cortez",
+                "Mateo",
+                "Sora",
+                "Jun"
+            ],
+            "locations_used": [
+                "Construction and planting sites",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Durable Agreement (Route C — Negotiated Hybrid)",
+            "branch_designation": "Route C",
+            "narrative_focus": "With enforced protocols and rapid volunteer mobilization, the council matures into a durable governing body. Policies codify quick-response authority with safeguards; the hybrid model is institutionalized, regional funders support ongoing work, and Aria achieves a balanced personal life and communal victory.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Sora",
+                "Mayor Isla Cortez",
+                "Jun",
+                "Dr. Kavir Singh"
+            ],
+            "locations_used": [
+                "Restored Quay",
+                "Rooftop greenhouse",
+                "Tidal Lab"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "The Mixed Emergency (Route D — From Route A Alternate Hybrid)",
+            "branch_designation": "Route D",
+            "narrative_focus": "After choosing an emergency mixed response at the initial breach, resource strain and coordination errors leave parts of the levee vulnerable. A second surge and subsequent mishaps create cumulative failures, burnout, and public skepticism. Aria must choose how to rebalance power and rebuild trust.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "After mixed failure, decide how to rebalance power and resources.",
+                "options": [
+                    {
+                        "label": "Call for external regional specialists to advise and temporarily co-manage recovery.",
+                        "consequence": "Expertise arrives but risks sidelining local leadership; may speed repairs.",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Reform the council on the spot—clear roles, rotational leadership, and binding emergency protocols.",
+                        "consequence": "Restores local agency but demands discipline and time.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Step back from leadership to rebuild relationships—let Sora or Mateo lead operational recovery while you rebuild trust.",
+                        "consequence": "Personal cost but may heal community rifts.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Sora",
+                "Jun",
+                "Elena"
+            ],
+            "locations_used": [
+                "Flooded construction fringes",
+                "Stormwall Site",
+                "Old Quay"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "External Aid (Route D — Regional Assistance)",
+            "branch_designation": "Route D",
+            "narrative_focus": "Regional specialists stabilize critical breaches quickly, restoring safety and preventing evacuation. Local actors feel sidelined, prompting cultural forums and negotiated memoranda that bind external aid to local oversight. The rise is practical but laden with new political complexities.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 13, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 15,
+            "characters_involved": [
+                "Aria Navarro",
+                "Sora",
+                "Mateo",
+                "Jun",
+                "Visiting regional specialists"
+            ],
+            "locations_used": [
+                "Repaired levees",
+                "Pier",
+                "Town center"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Reclaimed Agency (Route D — Local Reform)",
+            "branch_designation": "Route D",
+            "narrative_focus": "The council is reformed into a resilient governance body with emergency protocols, rotating leadership, and codified external-aid conditions. Layered shoreline protections are established under local oversight. Aria declines an international consultancy to stay, and relationships settle into negotiated, honest forms—yielding a complex, durable victory.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 13, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Aria Navarro",
+                "Mateo",
+                "Sora",
+                "Elena",
+                "Jun",
+                "Mayor Isla Cortez"
+            ],
+            "locations_used": [
+                "Tidal Lab",
+                "Rebuilt quay",
+                "Rooftop greenhouse"
+            ]
+        }
+    ],
+    "remarks": "Endings referenced in the outline: Ending — True (Chapter 6): Institutional local control, hybrid solution, committed relationship with Mateo. Ending — Bittersweet (Chapter 9): Restoration and community agency with some relocation; relationship with Sora endures amid distance. Ending — Happy (Chapter 12): Negotiated hybrid institutionalized; balanced personal life and collaborative relationships. Ending — True/Happy hybrid (Chapter 15): Reformed local governance anchors hybrid resilience; Aria remains and personal relationships settle under communal values. Branching hubs are at Chapter 3 (primary) and secondary hubs at Chapters 4, 7, 10, and 13 per the outline.",
+    "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+    "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)"
+}

@@ -1,0 +1,118 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where environmental stakes shape intimate choices: love is tested by hard ecological trade-offs, and personal relationships mirror civic responsibility. The core conflict pits short-term human comforts and corporate development against grassroots adaptation, conservation, and community resilience. Romance functions both as emotional anchor and a narrative device that forces the protagonist to choose between compromise, sacrifice, or systemic change.",
+    "setting": "Near-future coastal city (circa 2042) built around a once-thriving harbor now coping with rising seas and stronger storms. The atmosphere blends crumbling industrial waterfronts, regenerated green rooftops, community-run greenhouses, and stark construction sites for imperfect 'solutions' like seawalls and floated roads. Tension between hopeful grassroots adaptation and heavy-handed corporate projects defines the mood.",
+    "visual_style": "Soft realist with environmental texture, cinematic lighting, pastel storm palettes, eco-grit, rainwashed concrete, warm biophilic interiors",
+    "main_characters": [
+        {
+            "name": "Ayla Moreno",
+            "role": "Protagonist",
+            "personality": "Practical idealist, empathetic, steady under pressure. Values community and living systems, skilled at coaxing life from difficult soil. Tends to internalize doubts and is slow to trust big institutions. Has a dry sense of humor and fierce loyalty to neighbors.",
+            "appearance_features": {
+                "hair": "Chestnut with sun-bleached tips, shoulder-length waves often pulled into a loose knot with stray wisps framing her face",
+                "eyes": "Warm hazel, soft and observant with small flecks of green when seen in sunlight",
+                "clothing": "Well-worn cargo jacket patched with fabric from different community projects, high-waisted work trousers with soil stains, layered knit tops, sturdy ankle boots with toe-scuffing; often wears a breathable scarf doubled as a dust mask",
+                "accessories": "A tangled string of seed packets in a tiny glass vial around her neck, a repurposed field notebook with pressed leaves tucked inside, a pair of work gloves tucked into a belt loop"
+            },
+            "goal": "To protect and expand community-grown, nature-based solutions that let the city adapt without displacing its people and green spaces.",
+            "background_story": "Grew up in the harbor district; studied urban horticulture and returned home when commercial projects threatened local gardens. After losing a family plot to an early flood, she founded a rooftop network and a community greenhouse to preserve food security and biodiversity. She is haunted by the memory of being forced to leave a childhood home and resolved not to let the same happen to others.",
+            "emotional_trait": "Strength: deep resilience and practical optimism. Flaw: reluctance to accept large-scale compromises, which can isolate her when coalition-building is necessary."
+        },
+        {
+            "name": "Elias Rook",
+            "role": "Love Interest",
+            "personality": "Analytical, earnest, softly charming. Trained as a climate engineer and systems modeler, he believes in technological and hybrid solutions. He is patient but can come across as clinical when stressed. Has an undercurrent of idealism that aligns with Ayla's values, though he approaches problems through design and policy.",
+            "appearance_features": {
+                "hair": "Dark, almost black, kept short and slightly tousled as if mussed by wind or work in the field",
+                "eyes": "Steel-blue, clear and focused, with quick, attentive blinking when listening",
+                "clothing": "Light technical shell jacket with reflective piping (company-issued), tapered cargo pants with a tablet holster, simple white tee underneath, boots designed for mud and metal; often with rolled sleeves",
+                "accessories": "A slim digital wristpad he uses for models, a scratched metal pendant shaped like a contour map (gifted by his mentor), a small field thermos dented from repeated use"
+            },
+            "goal": "To develop scalable, scientifically robust adaptation infrastructure that protects the city and reduces long-term risk while remaining politically viable.",
+            "background_story": "Raised inland, he came to the harbor as part of a coastal resiliency initiative. He lost a colleague in an early storm event which convinced him that modeling and engineering can save lives. He works with a regional climate lab and consults on projects; his professional obligations sometimes press him toward pragmatic compromises.",
+            "emotional_trait": "Strength: rational compassion and the ability to design systemic plans. Flaw: tendency to prioritize measurable outcomes over informal community needs, making him blind to cultural or sentimental values."
+        },
+        {
+            "name": "Jonah Hale",
+            "role": "Antagonist",
+            "personality": "Charismatic, strategic, and confident. Jonah frames big engineering projects as necessary leadership; he genuinely believes in rapid, decisive action but is comfortable with top-down solutions that prioritize 'quick wins' and economic metrics. He can be persuasive and personally engaging, masking the human cost of his proposals.",
+            "appearance_features": {
+                "hair": "Silvered dark brown, slicked back in a tidy, businesslike style",
+                "eyes": "Amber-brown, sharp and calculating, almost always assessing his surroundings for leverage",
+                "clothing": "Tailored technical blazer in muted navy over a high-collar shirt, smart practical trousers; polished waterproof boots that read as both executive and field-ready",
+                "accessories": "A high-end compact comm device clipped to his lapel, a branded lapel pin of the development consortium, a sleek engraved card holder"
+            },
+            "goal": "To implement a large-scale seawall and modular levee system that will secure key commercial zones and new developments, boosting investment and property values.",
+            "background_story": "CEO of a coastal infrastructure firm that rose from public-private partnerships after several destructive storms. He positions himself as the builder who can secure the city's future. Coming from a family of developers who rebuilt other cities, he believes economic revival follows decisive construction.",
+            "emotional_trait": "Strength: decisive leadership and the ability to mobilize resources. Flaw: emotional distance from the lived experience of displaced communities and an overreliance on top-down solutions."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Kira Tseng",
+            "relation_to_main": "Childhood friend of Ayla / Local activist",
+            "appearance_summary": "Short-cropped black hair, bright ink-blue raincoat patched with protest badges, ever-present binoculars or megaphone.",
+            "function_in_story": "Organizes community resistance and outreach; challenges both Ayla and Elias to consider grassroots perspectives and provides moral pressure against purely technical fixes."
+        },
+        {
+            "name": "Mayor Serena Okoye",
+            "relation_to_main": "City mayor who must broker policy decisions",
+            "appearance_summary": "Regal, salt-and-pepper bun, tailored civic sash over pragmatic clothing, face lined by sleepless negotiations.",
+            "function_in_story": "Political arbiter whose votes can enable or stop projects; represents the bureaucratic realities and compromises that shape the central moral choices."
+        },
+        {
+            "name": "Mateo Alvarez",
+            "relation_to_main": "Elderly fisherman and neighbor of Ayla",
+            "appearance_summary": "Weathered tan skin, white stubble, patched fisherman's cap, oil-stained hands.",
+            "function_in_story": "Embodies local memory and continuity; offers historical perspective on the harbor and catalyzes community action with anecdotal wisdom."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Green Roof Network (Ayla's rooftop gardens)",
+            "visual_description": "Layered terraces of greenery perched above brick buildings; warm golden late-afternoon light filters through a haze of sea spray. Raised beds patched with reclaimed wood, strings of solar lamps, drifts of wind-bent ornamental grasses, and the distant flash of bobbing fishing lights. Texture: soil-streaked surfaces and soft moss contrast with industrial chimneys. Atmosphere: hopeful, intimate, small pockets of quiet in a noisy city."
+        },
+        {
+            "name": "Harborfront Boardwalk",
+            "visual_description": "A once-busy promenade now partially submerged in seasonal high tides. Slate-gray skies with pearly sunlight breaking through storm clouds; slick wooden planks reflect neon shop signs and stranded kayaks. Patchwork tarps and sandbags dot the scene. Color palette: cold blues and rusted reds with sudden swaths of laundry-line colors. Atmosphere: precarious, melancholic, rich with human traces."
+        },
+        {
+            "name": "Coastal Resilience Lab (Elias' workplace)",
+            "visual_description": "A converted warehouse with high glass panes streaked by salt, interior lit by cold artificial strips and the glow of monitors running simulation maps. Exposed concrete, whiteboards scrawled with equations, scaled models of levees under soft spotlight. Outside, instruments blink under gray sky. Atmosphere: methodical, slightly sterile, earnest—where abstract models meet real-world urgency."
+        },
+        {
+            "name": "Community Greenhouse",
+            "visual_description": "A glass-paneled greenhouse warmed by the sun even on overcast days; saturated greens, humid air, beads of condensation on glass, and mottled shadows of trellised plants. Strings of repurposed fairy lights create an intimate glow in twilight. Stacks of plastic crates, hand-lettered labels, and a communal table full of seed jars give a cozy, lived-in feel. Atmosphere: nurturing, comforting, sanctuary-like."
+        },
+        {
+            "name": "Seawall Construction Site / Jonah's Model Plaza",
+            "visual_description": "Concrete pylons and heavy machinery silhouetted against a churning sea. Bright floodlights at night cast stark shadows across mud and steel. Nearby, gleaming presentation booths with slick renderings show polished plazas above the wall—warm LED lighting, optimistic color renderings—creating a visual tension between the raw site and the promised future. Atmosphere: high tension, loud, and oppositional."
+        },
+        {
+            "name": "Twilight Festival Plaza",
+            "visual_description": "A reclaimed square where the community gathers: strings of warm bulbs overhead, wet cobbles reflecting light, stalls selling small preserved foods, and rooftop silhouettes around the perimeter. A storm rolls offshore, adding a violet wash to the horizon; the plaza glows with human warmth against imminent weather. Atmosphere: communal, celebratory but fragile."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Ayla and Elias bridge their differences by co-designing a hybrid resilience plan that elevates community-managed green infrastructure while integrating targeted engineering where necessary. Jonah concedes to modify the project. The community keeps most green spaces, food security improves, and the relationship grows from shared work and mutual respect."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The seawall is built in a modified form that protects key commercial zones but still displaces some community plots. Ayla sacrifices a cherished garden to save a larger neighborhood and parts ways with Elias for a time, feeling betrayed though understanding the trade-off. The couple remains emotionally connected but must rebuild trust slowly amid the new cityscape."
+        },
+        {
+            "type": "Sad",
+            "summary": "Top-down construction proceeds unchecked; Jonah's full plan goes forward. Many community spaces are lost, and the relationship between Ayla and Elias fractures as Elias is seen as complicit. Ayla continues activism but suffers personal loss and a sense of failure; the city gains apparent security at the cost of social fracture and ecological monotony."
+        },
+        {
+            "type": "True",
+            "summary": "No single side fully 'wins.' Through protests, negotiation, and local innovation the city adopts a patchwork of measures: some engineered, some community-led. Ayla and Elias realize their paths differ—one stays rooted in grassroots practice, the other continues systemic projects—but their bond endures as a model for imperfect collaboration. The ending emphasises ongoing work rather than closure."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

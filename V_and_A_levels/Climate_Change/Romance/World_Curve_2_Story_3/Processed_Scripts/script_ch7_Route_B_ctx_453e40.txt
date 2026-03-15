@@ -1,0 +1,201 @@
+### SCRIPT
+# Route: Additional / Ending
+# Context: 453e40
+
+[Scene: Municipal Hall Lobby | Late Afternoon — Storm Outside]
+[Background:"ch7_453e40_1"]
+[Sound: Distant thunder, the low drone of HVAC, a printer stuttering in another room]
+
+You step out of the rain and the lobby swallows you with its official, brittle air — a smell of wet paper and coffee that has been reheated too many times. Your sleeve is still damp where you brushed the lobby door; the blueprint under your fingertip from the night before feels like a current under your skin. Elias Kato is already waiting by the municipal map table, trenchcoat dark with rain, hands tucked into pockets as if trying to keep the weather inside him.
+
+Elias Kato: "You came," he says. His voice is flat, measured, like he has catalogued possible responses and chosen the one that causes the least ripple.
+
+You want to say something fierce — that the cooperative is more than a pilot, more than a line item — but the lobby hums with other people's decisions. Instead you fold the breath into a nod and slide the satchel strap higher on your shoulder.
+
+Marina Reyes: "I said I would come with questions. And people."
+
+Elias Kato's eyes flick to your satchel, then back. The faint softness that passes through his face is quick as a tide and almost gone.
+
+Elias Kato: "Good. Rina's waiting in Conference B. They've cleared the schedule. If we can quantify the buffers as a measurable mitigation — load reduction, seasonal absorption, maintenance hours — we get a seat at the steering table."
+
+Every syllable is practical, calibrated. You feel both relieved and strangely raw: relief because the cooperative might get real leverage, raw because language like "load reduction" flattens the living places you think about while you sleep. You trail your fingers along the edge of the blueprint on the wall where the seawall's dashed line meets the flats — where your long-lines would go — and imagine tangles of kelp rather than concrete.
+
+[Background:"ch7_453e40_2"]
+[Music: Tension builds — a tight violin undercurrent]
+
+[Scene: Municipal Hall — Conference B | Minutes Later]
+[Background:"ch7_453e40_3"]
+[Sound: Pages flipping, the murmur of urgent small talk, the occasional sharp clack of a laptop]
+
+Rina is at the head of the table, sleeves rolled, the town seal pin bright against her collar. Her expression is businesslike but watchful — the kind of face that has learned to wear many loyalties.
+
+Rina: "Marina Reyes — (she uses your given name formally) — glad you're here. Elias tells me you can translate field trials into metrics. We need something we can show funders by next quarter."
+
+You feel the word "funders" hit like salt. You taste its metallic edge and the ache that follows: meters and money deciding who stays. Still, this is where science meets policy. You set down your satchel, pull out the small brass spectrometer that never leaves your belt, and open the field notebook whose pages smell faintly of sea.
+
+Marina Reyes: "We can translate long-line performance into three pilot metrics: peak wave energy attenuation per line, sediment accretion per season, and cooperative-maintenance man-hours. If we model those against projected storm frequency, we can show displacement risk reduction."
+
+Elias Kato leans forward, eyes narrowing; he likes numbers that can be cross-checked.
+
+Elias Kato: "And the confidence interval?"
+
+Marina Reyes: "Twenty-four months of seasonal variance gives us an initial confidence window — not perfect, but defensible. With drone LIDAR repeats and community sensors we can tighten it."
+
+Rina taps a tablet, fingers decisive.
+
+Rina: "If you can give us those datasets with a conservative CI, we'll carve a pilot designation. We'll also include labor credits as in-kind municipal matches. But know that the construction permit for the seawall is already scheduled for site prep next week. Council's under pressure from insurer estimates."
+
+The words "site prep next week" land like an order you didn't write. The air in the conference room feels thinner, as if the walls have drawn in.
+
+Marina Reyes: "Labor credits — how would they be quantified?"
+
+Rina: "Hourly equivalence with prevailing municipal labor rates. A tracked ledger. Verified by municipal inspectors."
+
+Something in that sentence clicks wrong. You imagine Old Tom and other elders bending over ledgers like strangers. The ledger turns hands into entries; people into units.
+
+Elias Kato: "It's not ideal, but it's a compromise that gets community labor counted without creating liability exposures."
+
+You sense his restraint — a careful bracing against rhetoric. He would rather the plan be technically unimpeachable than inflamed by emotion. The rawness in you wants to snap back: counting hands on kelp lines is not the same as paying out a wage, and ledger hours can't account for memories held in a family's dock. But you swallow.
+
+[INTERACTION]
+> Choice A: "Frame it technical"
+> Choice B: "Push the human story"
+[Outcome A: "You sketch the pilot metrics on Rina's tablet: clear columns, CI bands, maintenance schedules. The room leans in. Elias nods. For a moment it feels like the language you both can speak."]
+[Outcome B: "You tell the room, briefly and raw, about a winter when Old Tom's house almost slipped. Rina's jaw tightens; Elias's fingers still. The room grows quieter — the numbers sit beside real people now, and someone murmurs agreement, but you also feel the conversation get heavier, less tidy."]
+[MERGE: Scene continues.]
+
+Rina [After a beat]: "Both. We need the narrative to secure community buy-in; we need the numbers to secure funding. Elias, can your models integrate social vulnerability indices?"
+
+Elias Kato: "Yes. We can weight by household dependence on shoreline infrastructure and overlay that with flood recurrence intervals. But the more layers we add, the longer the model takes, and the harder it is to produce the 'quick' figure council wants."
+
+You feel the clock like a pressure under ribs. The council wants quick figures; the coast demands patience.
+
+[Background:"ch7_453e40_4"]
+[Sound: A distant diesel engine starts; metal on metal]
+
+Kaori "Kai" Matsuda arrives like an aftershock — high energy, wet braid slinging neon coral, boots marked with mud from the flats. She moves through the room and plants herself across from you, eyes bright and cutting.
+
+Kaori "Kai" Matsuda: "So you signed up to be their pet scientist, huh?"
+
+The line is sharp, but it's not just accusation; it's worry shaped as flame.
+
+Marina Reyes: "I'm not their pet. I'm trying to make space for the cooperative."
+
+Kaori "Kai" Matsuda: "Space? They'll give you a table and then move equipment where you can't reach it. Timelines will eat your pilot. They don't have the patience for kelp to grow through seasons."
+
+Elias Kato (even-tempered): "Kai, we have to work within mechanisms. Otherwise—"
+
+Kaori "Kai" Matsuda: "Otherwise we get nothing while the crews drive piles through living flats." Her voice drops. "Marina, being inside doesn't mean you can stop being with us."
+
+You feel the room tilt. Kaori "Kai" Matsuda's words are a rope pulled tight between urgency and patience. You imagine the Glasshouse trays, the seedlings in humidity, Mika's steady fingers rigging sensors at dawn. You feel torn — a scientist with timetables and a neighbor with splintered hips.
+
+[INTERACTION]
+> Choice A: "Defend the process"
+> Choice B: "Side with Kai's urgency"
+[Outcome A: "You tell Kai that being inside grants leverage; you can carve concessions out of the plan. Kai's jaw tightens but she listens. Elias gives you a look of quiet, cautious approval."]
+[Outcome B: "You say the timelines are wrong, that the cooperative needs boots in the mud now. Kai grins, relieved; Elias closes his eyes briefly, the lines in his face sharpening into something like private sorrow."]
+[MERGE: Scene continues.]
+
+Mika slips in carrying a small foam model — a taped-together mock long-line with tiny flags — and sets it between you and Elias Kato like an offering.
+
+Mika: "If we get microgrants and a week of approved access at the construction edge, we can put down two test lines before they start piling. Data in—fast. Not perfect, but proof."
+
+Rina: "Access requires permits. Permits require liability waivers. Waivers require council approval."
+
+The list grows like a chain and the sound of it is heavy. You rub your temple; the fluorescent light above flickers in a staccato that matches your heartbeat.
+
+Elias Kato (softly): "Marina Reyes. You and Mika can run the pilot. I'll allocate model time and help the inspectors set measurement protocols. I'll push for labor credits in the ordinance draft."
+
+The tenderness in his voice is small, but unmistakable. It threads through all the policy talk and lodges under your sternum. For a beat you imagine a different room — the Glasshouse, warm with humidity; your hands and his, muddy and steady.
+
+Marina Reyes: "And the maps? The managed-retreat overlays?"
+
+Rina slides a transparent sheet across the table. Under the projector, color-coded areas bloom: red for high-risk zones, amber for watch, green for retention. Little house icons are reallocated into new parcels. Your stomach drops; the map translates homes into vectors.
+
+Rina: "Those are preliminary. But insurers and emergency managers demand prioritization. We must be responsible."
+
+Elias Kato: "We will use the pilot to test whether green infrastructure changes those curves. If our attenuation values move predicted flood lines seaward even a meter, we change the risk calculus."
+
+You want to believe him fiercely. You also hear Old Tom's voice in the back of your head, the memory of his hands on a ropy net. You taste the salt of impending loss, and it is bitter.
+
+[Background:"ch7_453e40_5"]
+[Music: Crescendo — high strings, restless percussion]
+
+Rina: "Council meets Friday. We need the pilot scope, the model inputs, and a community outreach brief by then. If construction begins while we talk, the political room to alter the plan shrinks."
+
+Kaori "Kai" Matsuda stands, eyes alight with a fierce, aching thing.
+
+Kaori "Kai" Matsuda: "Then we make noise. We make the community visible. We tie long-lines to the festival docks if we have to."
+
+Rina: "Public demonstrations complicate funding conversations."
+
+Kaori "Kai" Matsuda: "And silence complicates survival."
+
+The room tightens. You inhale sharply. Your hands are steady. You can feel your pulse like a drum at the base of your throat. Everything — the models, the labor credits, the festival's warm bulbs and the smell of kelp — is about to be wrestled into a single, impossible plan.
+
+Elias Kato reaches across the table. His fingers brush yours for the briefest fraction of a second — a contact that is both an apology and a promise. You register the warmth of his skin, the tremor in your own hand, and realize how dangerous tenderness feels here: it could be softening you into compromise or anchoring you into collaboration.
+
+[INTERACTION]
+> Choice A: "Accept the touch"
+> Choice B: "Withdraw and focus"
+[Outcome A: "You let your fingers linger. His grip is quiet and precise. For a second the politics recede and there is only this small, human steadiness. Then you pull your hand back and the conference returns; you both turn your faces to the maps."]
+[Outcome B: "You pull your hand away quickly, the motion abrupt. Elias's eyes search yours; there is a flash of something — disappointment, fear, calculation — and he hides it behind notes and numbers. You lean into the work, voice tightened to a thin, efficient edge."]
+[MERGE: Scene continues.]
+
+Marina Reyes stands, voice cracking only slightly but steady enough.
+
+Marina Reyes: "I'll draft the pilot scope. We'll define measurable attenuation, maintenance protocols, and a ledger template for labor credits. Mika will set up sensors. Kai — you and I coordinate the community outreach. Elias — I'll need your model runs."
+
+Elias Kato: "You'll have them."
+
+Rina: "Good. If the pilot proves even as little as we hope, we can amend the ordinance. But understand — time, politics, and pressure from the construction crews are converging. We move fast or we get swept."
+
+Your throat tightens. The maps on the table feel like sheets of thin ice. Every inch you try to secure with kelp and community hands seems to shift under the weight of deadlines and engines.
+
+[Background:"ch7_453e40_6"]
+[Sound: A metallic scrape, the low bass of a diesel engine advancing beyond the windows]
+
+Foreman: "Site prep's been greenlit. Logistics starts Monday. They'll be clearing access roads this weekend."
+
+The sentence lands like a hammer. You can feel your breath shorten. The room is suddenly too loud.
+
+You realize the work you agreed to is not a gentle integration; it is a race against months of moving metal and policy momentum that could cut your pilot off at the root. The decision you made to join Elias Kato at the table feels both brave and complicit; you are inside, but inside is not neutral.
+
+Your palms rest on the cool conference table. The projected map glows: lines you care about redrawn, communities rezoned. You can hear the tide in your blood — a steady, relentless pull toward preservation and away from the neatness of municipal lines.
+
+You put your hand flat on the map, as if by touch you might change the ink.
+
+[Music: Strings peak — a raw, high note sustained with an uneasy, electrical buzz]
+[Sound: Thunder rolls closer; outside, construction lights blink like an advancing tide]
+
+A council deadline hangs like a low cloud over the town. The municipal calendar marks the next meeting: Friday. The pilot must be scoped, modeled, and presented before the piles go in. You feel the weight of that time like a tightening rope.
+
+You think of the Glasshouse trays waiting under green light, of Mika's grin, of Old Tom's stories, and of Elias Kato's steady, amber eyes. The tug between being a scientist and feeling complicit in displacement pulls across you with an almost physical ache. Love and policy, both demanding impossible tradeoffs.
+
+You breathe in, slow for a second — and then your phone buzzes. A message from the community listserver: "Construction crews mobilizing at dawn. Volunteers needed." Another from Rina: "Draft due in 48 hours."
+
+Your chest hammers.
+
+You are about to stand and speak; to marshal metrics and memories into a single document that might tilt the maps. Outside, rain is heavier, the sound of machines a low, urgent percussion.
+
+You close your eyes for one fraction of a second and feel the long-line in your hands, imagine kelp pulling sediment like a hand pulling a rug over the foundation of the future. You open your eyes and the projection glows.
+
+You are not certain whether your presence here will save homes or make the mapping of retreat more palatable. You are not certain whether the tender thing between you and Elias Kato will steady you or make you look for compromise where there should be resistance.
+
+All you know is the list on your phone, the conference table, the projector light, and the foreman's boots heavy on the lobby floor as he leaves.
+
+You clear your throat. The room looks at you, expectant, a ring of faces all needing answers you do not yet have.
+
+You inhale and prepare to speak — to set measures, to bind people to numbers, to turn living labor into ledger entries that might buy time or betray trust.
+
+[Page-Turn Moment: You lift a pen over the printed pilot scope. Your hand hesitates over the line where municipal approval will stamp legitimacy on community labor and on kelp as protection. Rain rakes the windows like an impatient hand. For a moment you imagine signing in ink and choosing a side, but the moment stretches: every choice here bends homes, hearts, and the future of the flats.]
+
+[Background:"ch7_453e40_7"]
+[Music: Fade Out]
+[NEXT CHAPTER: [8]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 8
+    > Jump Target File: script_ch8_Route_B_Split_ctx_6b08b4.txt

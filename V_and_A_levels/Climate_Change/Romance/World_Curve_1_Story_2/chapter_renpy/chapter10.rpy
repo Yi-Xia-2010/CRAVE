@@ -1,0 +1,173 @@
+label chapter10:
+
+    # [Scene: Seawall Construction Site | Morning — Two Weeks After the Vote]
+
+    scene bg ch9_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The earth answers with a mechanical roar — pile drivers, diesel engines, the clipped radio chatter of foremen. Seagulls complain over the clatter.]
+    # play music "music_placeholder"  # [Music: High-tempo strings with driving percussion — urgent, forward-moving]
+    "You arrive before the foremen call the crew to break. The site is all motion and heat, a machine-made tide that will not be stopped by argument. Dust settles on your boots; the leather notebook tucked"
+    "under your arm is already speckled with grit. The seawall's line cuts like a new horizon across the marshes you grew up with — not a victory-lap, not a surrender either, but a decision given a"
+    "body to stand in."
+    "You taste metal and salt on the air and, absurdly, gratitude. The town voted. People you grew up with are being paid. Aiden's crew will be out on the barges this month, working hours that buy"
+    "groceries and winter insulation. Councilor Hale smiles from the sideline like a man who has secured the gull's favor, but around him there is a different sound now: the thud of paychecks hitting co-op accounts, the"
+    "shout of hands greeting old neighbors who will be back to work."
+
+    "Maya Kwon (Protagonist)" "They're staging the access corridors along the north channel. It'll let the smaller boats through in fair weather."
+    show councilor_tomas_hale at left:
+        zoom 0.7
+
+    councilor_tomas_hale "Pragmatic and immediate, Doctor. Jobs, safety — the kind of leadership people vote for."
+    "You hold your tongue for a beat, feeling the press of the crowd, the hum of machines. The corridors were the compromise that swung enough votes: cut into the wall at intervals, hand-shaped gaps meant to"
+    "preserve traditions. You can see where the engineers marked them, white chalk on concrete, small promises between longer lines of defense."
+
+    menu:
+        "Walk the line with the crew":
+            "You stride along the temporary trench, boots sloshing through pooled groundwater, and trade a quick, warm joke with Aiden's second mate. Their laughter is thin with exhaustion but steady."
+        "Stand on the bluff and map the losses":
+            "You climb the bluff and spread the notebook across your knee, fingers tracing the snaking marsh tongues now boxed out by the new geometry. The list of impacts fills a page; each is an ember you will not let die."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Vernon & Crow Office | Midday]
+    hide councilor_tomas_hale
+
+    scene bg ch9_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Polished shoes, keystrokes, someone laughing in a measured way at a deal well-made.]
+    # play music "music_placeholder"  # [Music: Brass fanfare undercut by rapid hi-hats — success with a racing pulse]
+    "Inside, the firm celebrates. Vernon & Crow's architects clasp hands; a municipal representative signs with a flourish; Councilor Hale trades business cards like talismans. The contract is tidy and heavy, every clause an engineered promise. Your"
+    "objections — the edge-case hydrodynamics, the sediment-starved tongues — sit in your notebook like small, shouted footnotes while the official language folds them into mitigations."
+
+    "Dr. Elara Voss (Antagonist (complex))" "We modeled for overtopping, Maya. The ledges, the return angles — these corridors are as generous as the constraints allow."
+    "You let out a breath that is half appraisal, half exhaustion."
+
+    "Maya Kwon (Protagonist)" "Generous to what we can build, yes. Generous to the marsh? Not always. Those tongues behind the north spurs are going to lose their hydrologic pulse. Juvenile nurseries will retreat."
+
+    "Dr. Elara Voss (Antagonist (complex))" "I know. And I know you would prefer a different geometry. But the council had budget ceilings and political timelines. We mitigated — planned corridors, smaller pier footprints, monitoring. We can make adjustments as we monitor. We have the data pipelines ready."
+    "Your voice tightens, because you have spent nights imagining other outcomes where the marsh hung on. You push at the seam with the one instrument you have: technical insistence."
+
+    "Maya Kwon (Protagonist)" "Monitoring is a start. But monitoring without binding corridor protections is paperwork on a site that will be filled in when the money dries. If we don't codify access corridor widths and sediment flow allowances, we'll simply be retrofitting permits around damage."
+
+    "Dr. Elara Voss (Antagonist (complex))" "I hate that reality can feel like capitulation. Full restoration wasn't possible in this window. That doesn't mean we can't insist on corridors that function — or fund targeted restoration to compensate. Compromise is not a second-best; sometimes it's the scaffold you use to keep the town standing while you rebuild the rest."
+    "Her hands fold, not as the engineer closing a case but as someone who has learned to hold an imperfect answer and call it work. The admission lands with more tenderness than you expected. It is not surrender. It is an opening."
+
+    "Dr. Elara Voss (Antagonist (complex))" "Help me make the corridor standards non-negotiable clauses. Help me tie the contractors' milestones to their performance in maintaining tidal exchange."
+    "You taste relief like hot tea in your chest. It is not perfect. It is, however, a way to make the wall speak the language of the marsh."
+
+    menu:
+        "Push for legal corridor clauses now":
+            "You draft clause language on the back of a receipt, short and specific: minimum aperture widths, enforced sediment bypass systems, penalty triggers if exchange drops below threshold. Elara reads them under the fluorescent light and nods, fingers tapping."
+        "Accept Elara's monitoring plan and focus on restoration grants":
+            "You agree to the monitoring plan, shifting your energy toward aggressive restoration in adjacent areas. Priya nods at your side; together you sketch a funding pitch that will start plantings before next tide."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: The Bluffs Overlooking the North Channel | Afternoon — Wind Strong]
+
+    scene bg ch9_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind pushing like a hand; barges groaning; the distant slap of tide against new pilings.]
+    # play music "music_placeholder"  # [Music: Rising orchestral motif — urgent, bright, fierce]
+    "You stand alone on the bluff, the notebook heavy in your hand. The marsh below looks smaller from here, hemmed in by the wall's geometry. Where the wall clamps the shoreline, the marsh tongues have closed"
+    "their eyes and pulled inward. The eelgrass pilot beds you watched last summer are clustered, retreated. Juvenile fish hang in fewer flats; you can see the dark, thin ribbons where nursery density used to thicken."
+    "Your grief is blunt and immediate — the same salt that always tastes like memory. But it is threaded now with something else: movement. People have roofs tonight who did not before. Aiden's two hands on"
+    "your shoulder when you left the council meeting were callused; they steadied you. Work will slow the immediate bleeding."
+    "You flip your notebook open and, with a hand that trembles just enough to remind you you are alive, write a plan: targeted marsh reconnection plots at the corridor mouths, living breaks planted adjacent to the"
+    "outer face, sediment traps to be installed before the next high tide. You annotate times, partners, measurement plans. Each line is small policy and small devotion."
+
+    "From below, a radio calls up" "Maya! You coming down? Tomas wants the corridor sketch signed before he heads to the fundraiser."
+    "You let the wind take the paper and the worry both for a second. Then you fold the notebook closed and walk the plank-strewn path down."
+    # [Scene: North Pier | First Winter — Early Night]
+
+    scene bg ch9_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant surf, the muffled clank of lines, Aiden's boots on wood.]
+    # play music "music_placeholder"  # [Music: Slow, swelling chord; beneath it, a single cello line that presses warmth into cold air]
+    "The first real storm after the wall's erection lashes the town. The seawall holds in the immediate surge; the access corridors rumble but do not fail. Down at the pier, the workboats bob with their new"
+    "insulation and patched hulls. Aiden is there, his jacket salt-stiff, fingers stained with grease. He meets you at the end of a swollen dock. Around you, the town's lights are doggedly lit, windows glowing like small"
+    "promises."
+
+    "Aiden Reyes (Love Interest)" "You look like you fought a gale. Or you're just carrying everyone's worries on your back."
+    "You laugh, and the sound is almost astonished at how easily it comes."
+
+    "Maya Kwon (Protagonist)" "Maybe both."
+    "You two talk — real talk: not the abbreviated council rhetoric but something that skims the edges of fear and lands on resolve. He tells you about a winter crew who can fix the younger boats"
+    "in a weekend if you can secure the grant money for parts. You tell him about the corridor clauses Elara agreed to try to bind."
+
+    "Aiden Reyes (Love Interest)" "We lost mud and a few eelgrass seams, yeah. But my abuelo would say it's the hands you have now that matter. We can still fish. We still have tomorrow."
+    "You reach for his hand. It is the practical gesture between two people welded by a shared place: not theatrical, not a declaration, but a mutual promise to continue."
+
+    "Maya Kwon (Protagonist)" "I am going to channel everything I have into preserving those corridors and the patches we can keep. I'm not done arguing the science. But tonight — tonight I want to stand with you. With us."
+    "Aiden studies your face, his expression all rough affection and sudden, steady devotion."
+
+    "Aiden Reyes (Love Interest)" "Stand with me then. We'll build the things we can. We'll keep the marsh where we can. And when we can't, we'll plant the next thing that's needed. Together."
+    "He pulls you close. The pier hum lowers to the sound of your breath; the storm makes a drum out of the world. It feels, in a way that shocks you into gratitude, like an answer."
+
+    menu:
+        "Promise activism and family":
+            "You rest your forehead against his, and the promise you make is both personal and political: to keep fighting for corridors, to teach the next generation to tend the marshes that remain. He nods, and his fingers braid with yours like rope."
+        "Promise to prioritize family for now":
+            "You admit you will temper the fight with the need to keep the household afloat — to ensure loved ones are warm and fed. He agrees easily, relief flashing across his features like a lighthouse beam."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Various — Montage Over Winter to Early Spring]
+
+    scene bg ch9_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The shovels' steady scrape, children's laughter in a community garden, the clip of a camera catching a grant check being handed over.]
+    # play music "music_placeholder"  # [Music: Sweeping, triumphant strings; high tempo resolving into a warm, major key]
+    "You work. You argue in committee rooms and you kneel in mud with volunteers. You lobby to make corridor clauses not merely advisory and push for funding for restoration adjacent to the wall. Priya helps you"
+    "get a small-but-critical grant to plant living breaks at the corridor mouths; Old Man Reyes brings a story and a song to the planting day and somehow the song makes the mud smell like home."
+    "Each victory is narrow and fierce. The co-op secures workboat grants, and Aiden's crew gets stable gigs insulating hulls and tending moorings. Vernon & Crow's contract includes the monitoring stipulations you and Elara wrote in a"
+    "late-night burst of practicality. Dr. Voss stands at your side in public forums, her voice a hard-won blend of engineering certainty and public apology. In private she tells you, once, 'This is not the whole answer."
+    "But it's ours to make right.'"
+    "You plant, you measure, you lobby. You track juvenile fish density and you negotiate sediment bypass timings. You laugh with Lina as she paints a mural that stitches the seawall and marsh together, not as contradiction"
+    "but as cohabitation. You grieve on days you cannot hide from — when a marsh tongue collapses, when a core sample reads thin on life — and you carry that loss like an honest coin."
+    "The town breathes differently. There is fear still, yes, but also a vivid, combustible hope. People choose to show up. They share tools and stories. They protect the corridor promises with the same fierce tenderness someone uses to cover a sleeping child's feet."
+    # [Scene: The Bluff — Late Afternoon]
+
+    scene bg ch9_3be532_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low tide whispering, conversation far below, the distant laugh of children chasing a gull.]
+    # play music "music_placeholder"  # [Music: A single, clear piano line resolving into a warm sustained chord — cathartic and gentle]
+    "You read back the journal entries from the last months — the contracts, the seedlings' survival rates, the fisher reports. The metrics do not lie: some nursery areas are thinner; others have been coaxed back to"
+    "life with carefully timed sediment releases and plantings. The town has time in a way it did not last spring. But you have also ceded something: a seam of memory and habitat where the wall now"
+    "anchors the horizon."
+    "You feel the double weight of that truth: gratitude for the lives saved and the shelter bought with hard choices; grief for the pieces given away. That double weight settles into a new kind of resolve."
+    "You close the notebook and slide your hand into the pocket where the small silver locket lives. When you press it, the photo inside is a tiny, sun-faded strip of a dock — the one your"
+    "parents used to own. You are allowed to mourn it. You are also allowed to be proud. Both are true at once."
+
+    "Dr. Elara Voss (Antagonist (complex))" "You did the harder work than I did. You kept the people's memory in it."
+
+    "Maya Kwon (Protagonist)" "We all gave pieces. You sat through the town's fury and then helped make adjustments. That mattered."
+    "She looks out at the corridor mouths where your team installed sediment traps; a small, practical smile edges her mouth."
+
+    "Dr. Elara Voss (Antagonist (complex))" "We'll be judged by what survives the next storm. But I have confidence in the monitoring framework you've insisted on. We'll push adaptive triggers — weredance the construction if exchange drops below threshold. You're relentless; I have that advantage now."
+    "Her admission is not absolution. It is collaboration. It is very human: technical minds, tending hearts."
+    "You stand together for a long moment, watching the water trade light with the marsh. The town's choices have rippled into a rearranged shore, but also into a re-commissioned care — people watching, measuring, planting, re-negotiating how to live with the sea."
+    # [Scene: North Pier | Winter Night — Closing]
+
+    scene bg ch9_3be532_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sea, a distant chorus of gulls, a nearby radio murmuring a weather check. Footsteps on the boardwalk are soft and familiar.]
+    # play music "music_placeholder"  # [Music: Cello and violin weave a long, warm phrase that swells into finality — triumphant, mournful, and peaceful]
+    "You hold each other and feel, in the press of warmth and familiar calluses, the town's new rhythm. It's not unbroken joy — the loss is present, a lived fact — but it is a fierce,"
+    "generous gratitude for what you managed to keep and what you now have the energy to rebuild."
+
+    "Aiden Reyes (Love Interest)" "We did the thing we could. We'll keep making it right."
+
+    "Maya Kwon (Protagonist)" "We will. We keep the corridors open. We plant where we can. We teach our kids these ways. It's not enough to stop everything — but it's enough to start the next right thing."
+    "He nods, his forehead resting against yours. The winter wind threads through your hair, and for the first time in a long stretch of cold nights, you feel settled — not because the world is whole,"
+    "but because you and the people you love are doing the necessary, human work of mending it."
+    "You think of the possible endings you carried with you: perfect restoration, a rigid seawall, or this narrow shore between them. The town has bought time and livelihoods, yes, and it has given up some edges"
+    "of the habitat you loved. But in the giving and the taking, something new was born: a collective willingness to steward, to adapt, and to hold both grief and gratitude at once."
+    "You draw a deep breath, tasting salt and coal smoke and the faint sweetness of the planted willow shoots starting to push. The notebook rests heavy and full. There will be more nights of argument and"
+    "more days of planting, more sampling of juvenile densities and more policy meetings where you will have to be patient and sharp. But tonight you are allowed to close the book with the knowledge that you"
+    "showed up — that you translated grief into action and that you and Aiden will keep walking the thin line between survival and restoration."
+
+    scene bg ch9_3be532_8 at full_bg
+    # play music "music_placeholder"  # [Music: Swells to a warm, victorious chord and then eases into a gentle cadence — closure with ongoing motion]
+    "You are tired and alive; you have time and a plan; you have a companion who will argue with you and comfort you. That is enough to begin again."
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch9_3be532_9 at full_bg
+
+    scene bg ch9_3be532_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

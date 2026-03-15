@@ -1,0 +1,137 @@
+### SCRIPT
+# Route: Route B
+# Context: 3be532
+
+[Scene: Boardwalk | Dusk]
+[Background:"ch9_3be532_1"]
+[Music: Low, hollow cello with a sparse, descending motif]
+[Sound: Hollow creak of damp timber, distant generator hum, urgent muted radios]
+
+You step onto the boardwalk and the air takes your breath in a way the sea never used to — not with the clean, bracing salt of a good tide, but with a heavy, tangy smell of uprooted earth and gasoline. The horizon is a smear of lights and cranes; closer, the bay is a bad mirror, reflecting fractured steel where the Arc's panels have buckled like a folded sheet. Where water has rerouted, it runs with a certain greedy violence: small whirlpools making impatient mouths of the gutters.
+
+Your boots sink an inch into a patch of clay that used to be a playground. A plastic bucket, mottled and half-filled with brackish water, rocks against a demolished bench. A child's rainboot floats ankle-deep elsewhere, an index finger pointing toward nowhere you can really name.
+
+You hear your name before you see Jonah — a raw, half-laugh half-curse carried on the wind. He stands at the end of a pier, hands rubbing at a wrist like he's trying to groom calm into a torn muscle. Beside him, a small boat is mashed against a piling like a tin can crushed for scrap.
+
+Jonah [hoarse]: "It slammed in the night. I thought—God, I thought we had her tied good."
+
+You can see the salt streaks down his cheeks; whether from rain or something else you don't try to parse. He looks small in the space he's always owned, like the tide has particular tastes for taking what really matters.
+
+You move to him before thinking, because that's what hands do when urgent things are in front of them.
+
+Maya Reyes [kneeling]: "Tell me what held and what didn't."
+
+Jonah [uneasy]: "The new panels — half of 'em bent toward the boatyard. They didn't just hold back the sea; they pointed it. Where the revetments were high, the water climbed and broke clean. Where we poured the concrete, it sat. But the surge found the seams, May. The seams went straight where we'd been stacking sandbags for months."
+
+Maya Reyes: "We warned them about seams. We asked for joint plans, not just bolts and banners."
+
+Jonah [bitter laugh]: "Warnings don't do much when the cranes are paid for and the schedules are signed."
+
+You take in the shape of the damage: the Arc's sleek teal panels, at a distance still corporate-clean where they stand intact, but where they failed, the water has carved new geography. Mud is everywhere — thick, smelling of rot and things interrupted. You taste it on the back of your teeth.
+
+[Background:"ch9_3be532_2"]
+[Sound: A distant child wailing, quickly muffled; a siren starting up and trailing off]
+
+[INTERACTION]
+> Choice A: "Try to salvage Jonah's boat now"
+> Choice B: "Go door-to-door to tally safety needs"
+[Outcome A: "Your hands find the boat's outsides, feeling the give of delaminated wood. You and Jonah heave and curse and for a bright, stubborn minute you make progress — water sloshes, a neighbor runs a tarp. It feels like hauling back a piece of normal."]
+[Outcome B: "You leave Jonah to angle the boat and start down the lane, clipboard slipping in your fingers. You map broken windows, people huddled in church foyers, a line of soaked mattresses on a stoop. The work is grimmer but necessary; it stitches immediate need into a plan."]
+[MERGE: You choose — or you feel the pull of choices like currents — and act. Whether you wrench wood or count breaths, the work is a small, solemn liturgy against chaos.]
+
+[Scene: Marsh of Tides | Night]
+[Background:"ch9_3be532_3"]
+[Music: Sparse piano, a single high note repeating]
+[Sound: Squish of mud underfoot, low murmurs, the hiss of a pot being ladled]
+
+Rosa [hands on hips]: "Mayor called me a dozen times. He wants numbers for the press. He wants to know how many are staying and how many are gone. I don't have his neat spreadsheet answer, Maya. I have muddy shoes and a list of kids who can't get in touch with their dads."
+
+You sit beside her on an overturned crate. Your journal — pages swollen and stuck together — is a weight in your lap. A pressed blade of cordgrass dangles like a talisman half-lost in a pond.
+
+Maya Reyes [softly]: "We're not a tidy footnote in his report, Rosa. We'll get the numbers he wants and we'll make them mean something. Right now, we keep people alive."
+
+Rosa [short laugh]: "That's what I signed up for, and also — I signed up to stand in a council room and feel like I'm holding a stone while everyone else throws their glass. Dahlia Kestrel's people are calling. They say they'll handle relocation, if we let them finish The Arc."
+
+Maya Reyes: "No handing over. Not tonight. Not when people still have doors they can open. We coordinate shelters, we document who's staying, and we keep the neighborhood councils together."
+
+Rosa [nods]: "Then let's stitch it. Get me the lists. Tell Jonah to come help with the boats if he can."
+
+[INTERACTION]
+> Choice A: "Walk the furthest-affected street to speak with families"
+> Choice B: "Stay at the depot and coordinate volunteers"
+[Outcome A: "You trudge down the lane, calling names and finding half a family under a church awning. A woman presses a child's damp drawing into your hand and thanks you in a voice that breaks; you feel the gravity of promises you can't immediately keep."]
+[Outcome B: "You set schedules on the back of an old envelope and pair tired volunteers with shifting tasks. You become the axis around which small salvations spin. It is quiet, efficient work, and it keeps you from being lost in grief."]
+[MERGE: You make choices and the evening moves into a rhythm of triage: hot tea, shifting blankets, the soft, fierce logistics of making a ruined night into something survivable.]
+
+[Scene: Neighborhoods | Morning]
+[Background:"ch9_3be532_4"]
+[Music: Low, steady string that tightens like a drawn thread]
+[Sound: Hammers in the distance, someone singing quietly off-key to soothe a child, the wet slap of nets being untangled]
+
+You go to where the water rewrote the map. In one house, a family stands in the doorway with their possessions in plastic bins and a bird that hasn't yet decided whether it will fly home. In another, an old man sits silent on a collapsed stoop, hands folded as if in prayer or in keeping of old bones.
+
+Elias Kwan [quiet]: "My sister's place took a hit. She's thinking of moving in with our cousin upstate — for work. Jonah's thinking of taking the last of the nets and going down to the city for daywork. I don't blame them. I got offers — people in my extended family telling me to take up work inland. Choices aren't free here, Maya."
+
+Maya Reyes: "They shouldn't have to make these choices alone. They shouldn't be punished because some banner promised a fix that only half-assembled."
+
+Elias Kwan [voice breaking]: "You talk like we can hold every thing in place while we wait for the right plan. My brother's kids need bread. My parents — they won't leave the house they've lived in for forty years. Sometimes 'right' doesn't pay the bills."
+
+Maya Reyes: "I know. I know you' — (your voice cracks; you don't smooth it over) — I know what duty does. I don't offer platitudes. I offer work and a hand at the same time. We can push for restructuring of funding for livelihoods, for emergency supports. But I can't promise that everyone gets to stay."
+
+Elias Kwan: (stares at you, something like an old grievance surfacing) "So what do we do when your moral clarity meets the real world? When the sea picks a course and we can't make it pick another?"
+
+He isn't asking for an answer you have. He's pressing for a choice that will mean different sacrifices for different people. The space between you is full of unspoken calculations: jobs, faith, ancestors' graves, the small boats that feed mouths.
+
+Jonah approaches, his voice low when he speaks to Elias — a practical, clipped reconciliation shaped by too little sleep.
+
+Jonah: "Eli, we're not asking you to pick tonight. We're asking for help hauling supplies. Come on, May, the nets won't mend themselves."
+
+Elias Kwan [half-smile]: "Fine. For now."
+
+The three of you move, doing the work that refuses tidy theory. Your argument with Elias is not over; it is the beginning of the hard conversations that will need more than a single council meeting to resolve.
+
+[Background:"ch9_3be532_5"]
+[Music: A single violin holds a long, descending line; the sound of a distant horn]
+
+You sit on the boardwalk again that evening, journal open but the ink bleeding into a watercolor of rain. The day has been a ledger of what was saved and what was taken. Your mind catalogs things you could have done differently — stronger cross-scale coordination, more insistence on shared engineering oversight, an insistence that The Arc's contracts include transparent emergency routing plans. Moral clarity held up like a lamp; it illuminated the problems, but did not, in itself, change the physics of a storm.
+
+Rosa [quiet]: "We got people through the night. We saved them. That's not nothing. But there are families who won't come back."
+
+You name it aloud because sometimes saying a thing is the first ceremonial admission of grief.
+
+Maya Reyes: "We did what we could. We also have to learn from what we didn't — from how the big fix hurt the small places. People paid a price. We need to make sure it isn't in vain."
+
+Rosa: "And that means?"
+
+Maya Reyes: "It means pushing for hybrid solutions — marsh restoration that actually connects to the barrier plans, local jobs tied to repair, enforceable oversight. It means not letting Dahlia Kestrel's people make a PR narrative of isolated success while we count the costs."
+
+Rosa [eyes distant]: "The council will have to decide how many hearts they can ask to stay. The mayor is already talking to state folks."
+
+You close your journal. The pressed blade of cordgrass is smeared and dark but somehow still whole. You hold it like a small, accusing thing.
+
+There is no clean victory. There is arithmetic and grief and the stubborn work of rebuilding trust across scales. Some families will move; some will stay. The town will be different. It will be braver in some ways and more fragile in others. You feel the weight of responsibility densest in your chest — not the heroic sort but the honest kind that hums with long, patient labor.
+
+[Background:"ch9_3be532_6"]
+[Music: Dissonant chord resolving to a quiet, low drone]
+[Sound: Waves, not triumphant — merely everlasting]
+
+You let the tide ebb and, in its wake, leave footprints that look like a map of choices you must still make. You know the arguments you'll have to bring to town halls, to plead for oversight and for the labor that heals rather than replaces. You know Elias's face, and Jonah's, and Rosa's — all of them a ledger of small, stubborn human things that won't fit into a single corporate scale.
+
+You realize, with a sharp, falling clarity, that moral certainty alone couldn't stop the sea. It could not account for rushed schedules, for profit-driven seams, for the physical laws that turned a partial solution into a destructive vector. Your certainty must now be translated into the bureaucratic, painstaking work that turns accountability into design.
+
+You breathe in the cold wet air and feel, as ever, a quiet stubbornness begin to stir. It is not the sweep of triumph; it is a decision to continue. To stay and count and rebuild and to make sure the stories of those who lost something are not footnotes in someone else's press release.
+
+[Background:"ch9_3be532_7"]
+[Music: A single piano chord, unresolved, then silence]
+[Sound: The wind, patient and indifferent]
+
+[Background:"ch9_3be532_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

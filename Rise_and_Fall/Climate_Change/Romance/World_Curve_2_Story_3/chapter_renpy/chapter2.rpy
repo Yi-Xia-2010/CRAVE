@@ -1,0 +1,194 @@
+label chapter2:
+
+    # [Scene: Tidewatch Lab | Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of refrigeration, a distant gull muted by glass]
+    # play music "music_placeholder"  # [Music: Sparse piano, minor key]
+    "You push open the lab door and the smell of damp timber and old seawater reaches you first — not unpleasant, but insistently real, like a reminder you can no longer ignore. Your turquoise apron, folded"
+    "and worn at the edges, comes with the motion: a small, necessary armor. The brass barometer above the workbench ticks once, slow as a heartbeat."
+    "On the table: neatly labeled jars of sediment cores, a stack of maps, a page of your preliminary living breakwater schematics. Your pencil stub sits in the crease of a torn notebook, graphite worn soft by"
+    "long, practiced tracing. Your hand is steady as you lay out the sheets, but there is the other thing under your ribs — the thin, constant pressure of choice. You feel it as you always have:"
+    "as if the tide has fingertip access to your sternum."
+
+    scene bg ch2_c4ca42_2 at full_bg
+    "You breathe, count the seconds of the barometer’s tick, and begin to re-familiarize yourself with instruments that remember the town better than people sometimes do."
+    # play sound "sfx_placeholder"  # [Sound: Door rattles; someone enters with a clatter of tools and an easy laugh]
+
+    scene bg ch2_c4ca42_3 at full_bg
+    show luca_moreno at left:
+        zoom 0.7
+
+    luca_moreno "Morning, tidewatcher. Brought you a miracle made of oyster cages and old signage."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "You call that a miracle?"
+
+    luca_moreno "Only when installed under duress. Recycled oyster cages for substrate—light, modular. Panels slot together like stubborn puzzle pieces. If your models say the reef should be here, we can flex something in fast, test a footprint before anyone writes a check."
+    "You let your fingers hover above your schematics, tracing a line where a breakwater curve meets a shallow creek. The line looks hopeful on paper and fragile in world-weather."
+
+    isla_morgan "Fast tests are useful, Luca. But the living component needs time to self-assemble. You rush structure, you risk smothering eelgrass and changing current shear. We need sediment accretion curves, not just a pretty wedge."
+
+    luca_moreno "I know. And I also know patience is a luxury when someone's roof is sagging and someone else is selling bulldozers with glossy renderings. But we can stage it — quick pilot cells, community-built. People see things that move."
+
+    isla_morgan "People have to keep fishing too. Pilots that look like promise from a distance but cut fisheries from underneath won't help anyone."
+    "Luca pauses, the grin fading into a line of thought. He sets the crate down and unfolds a rusted oyster cage with a practiced hand, revealing improvised attachment loops."
+
+    luca_moreno "Alright. What if we make the pilot explicit about fish passage? Gaps, variable porosity. Sensors. We make the benefits visible — more life, not less. We make it a demonstration, not a monument."
+    "You nod, thinking of Jonah's hands on old nets and your father's compass at your collarbone. You trust the math; you trust Luca's elbow grease; but the town trusts stories. The bridge between them is narrow and feels slippery."
+    "You reach for a sediment core, feeling the cool glass. You remember where the core came from — the Flats at low water, mud dark as used ink. You dial up the old wave model on"
+    "your tablet, fingers moving with the muscle-memory of someone who once ran simulations to quiet committees and to rattle investors."
+    hide luca_moreno
+    hide isla_morgan
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Keyboard taps, soft and urgent]
+    "Luca leans over your shoulder, peering at velocity vectors."
+    show luca_moreno at left:
+        zoom 0.7
+
+    luca_moreno "If that shoal shifts another three meters east in a storm season, we're redefining the fishing lanes. Jonah was right to worry."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "Right now the uncertainty band is wide. If we place modules blindly we could accelerate erosion somewhere else. We need cores from a transect, not just one hand-picked site."
+
+    luca_moreno "Then let's transect. I can borrow Ravi's field kits. I'll get volunteers. You'll do the numbers. We'll make them as pretty as they are true."
+    "You smile without meaning to. His optimism is a muscle that still flexes when yours tenses."
+
+    menu:
+        "Run the transect simulation now":
+            "You reroute the model to run a transect — numbers spool in monotone graphs. The screen fills with lines you can already feel in your chest. Luca watches until the first patterns settle into place, and he whistles, low and worried."
+        "Collect another core by hand first":
+            "You grab a spare corer and the bluefield gloves. The leather at the thumb crease makes a small sound that is almost like comfort. Luca starts taping small flags onto the panels, already seeing the work as movement rather than just data."
+
+    # --- merge ---
+    "The lab folds around the choice you make. Whichever you pick, time will continue to erode certainty."
+    hide luca_moreno
+    hide isla_morgan
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # [Scene: Salt Flats | Low Tide]
+
+    scene bg ch2_c4ca42_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Squelch of mud, distant gulls, reed whisper]
+    # play music "music_placeholder"  # [Music: Low, brooding cello]
+    "Jonah Merrick stands ankle-deep in the Flats like a figure stubbornly fixed to an earlier map. His cap is pulled low, the wool rim heavy with salt. When he sees you he offers a nod that carries a world of small-weathered counsel."
+    show jonah_merrick at left:
+        zoom 0.7
+
+    jonah_merrick "You brought the city-slicker engineer and your neat charts, eh? Good. We might need both — provided we don't let charts forget the fish."
+    show isla_morgan at right:
+        zoom 0.7
+
+    isla_morgan "We won't, Jonah. We're sampling along the transect. I want to know how the sediment stratifies, where the shoals have piled, where the younger fish used to hide."
+    "Jonah Merrick: (a memory catching for an instant) 'There was a shoal here, used to be a kind of cradle. Kids would row in, drop lines, learn the sea. Used to shelter the small boats in"
+    "a bad blow. Been shallower the last few years. Now it's a hazard coming in on a mid-night tide. Lost a lad there last spring — thought he'd anchored, drifted, and the tide pulled him under.'"
+    "You feel the air narrow. The story sits between you and the horizon like a small rock."
+
+    isla_morgan "Your stories matter, Jonah. They tell us what the numbers mean."
+
+    jonah_merrick "Stories keep the town from being only plans and concrete, lass. Don't let them forget the feel of a net in your hands."
+    "You push the corer into mud that smells of iron and old seaweed. The core slides up, strata layered like a history book. You lift it to the light — fine silts, a thin band of"
+    "coarse sand, something off: compressed shell fragments where there used to be eelgrass. You make notes, fingers cold and steady."
+    "Luca kneels, holding a small sensor plate that blinks green."
+    show luca_moreno at center:
+        zoom 0.7
+
+    luca_moreno "If that shoal shifts in a storm, those channels will migrate. Aria's hard defenses will change where water finds a way. They might plug this in place and make the water cut elsewhere, or they might reflect energy and scour a new line."
+
+    jonah_merrick "Engineers call it solving a problem. Fishermen call it making different ones."
+    "You close your eyes for a beat, thinking of your father, the compass, the days when the shoal sheltered youngsters and laughter."
+
+    menu:
+        "Tell the harbor hands about the shoal now":
+            "You voice Jonah's warning to the nearest line of hands leaning on a rusty skiff. Faces tighten; a woman clamps her lips like a fist and starts counting boats that will be affected. Luca starts planning a volunteer tide-watch roster on the fly."
+        "Hold the finding until you have modeling proof":
+            "You tuck the core into a padded case and decide to run the transect through the model once you're back at the lab. Luca frowns but nods; he knows the weight of giving people warnings without numbers. Jonah watches you with something like respect and unease."
+
+    # --- merge ---
+    "You feel the tug of duty in two directions: the immediate human impulse to warn and the longer, quieter obligation to be right in public."
+    # [Scene: Tidewatch Lab | Afternoon]
+    hide jonah_merrick
+    hide isla_morgan
+    hide luca_moreno
+
+    scene bg ch2_c4ca42_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Refrigerator hum, distant murmur of the town]
+    # play music "music_placeholder"  # [Music: Dissonant strings]
+    "You lay the day’s cores across the bench; the tablet pings with messages. A new email from the council has no subject line — just a scanned document attached. You open it with a thumb that remembers the shape of your father's compass."
+    # play sound "sfx_placeholder"  # [Sound: Email ping — sharp and ordinary against the lab's low weather]
+
+    scene bg ch2_c4ca42_8 at full_bg
+    "The document is brief, legal in tone. Aria Chen will propose a 'mixed development project' at the next council session, the memo reads. It will include engineered hard defenses funded through outside investment. The vote is scheduled; a public notice is to be posted to the promenade at once."
+    "Your chest tightens. The word 'engineered' looks both clinical and final on the page."
+
+    "Luca Moreno (reading over your shoulder)" "Hard defenses. That is the language of making permanence with concrete. It's efficient-sounding. It sells like certainty."
+    show isla_morgan at left:
+        zoom 0.7
+
+    isla_morgan "It also sells a horizon—someone else's horizon. The math on those projects rarely account for living systems or for local jobs that aren't tied to construction schedules. And if they call it 'defense,' who argues against safety when the town is already bleeding?"
+    "Luca runs a hand through his hair, then drops it to the workbench. He taps at the notice on your tablet as if trying to find the subtext."
+    show luca_moreno at right:
+        zoom 0.7
+
+    luca_moreno "Aria's name on the memo makes it more dangerous. She's careful. She knows how to frame the tradeoffs as investments in survival. People who are exhausted want a promise they can read in a glossy brochure."
+    "Isla Morgan: The thought of Aria moves across your mind like a shadow. You have argued with her, lobbied beside and against her in other rooms. Her face is a map of intention you cannot fully"
+    "read in the present; for now, policy looks like a rising tide with her hand on the wheel."
+    show jonah_merrick at center:
+        zoom 0.7
+
+    jonah_merrick "There's power in a tidy plan and faster money than patience pays, Isla. Don't take that as defeat — just as a fact. Folks get tired."
+    "You look at the lab around you: the damp beams, the salt-encrusted glass, your apron folded over a chair. The lab is both refuge and workplace; it is where you translate the sea into language the"
+    "town can see. It is also where doubt, uninvited, comes to sit by the lamp."
+
+    isla_morgan "We need to make more than numbers. We need to make a story that keeps people working and fed and safe. We need to show that living defenses can be jobs not just aesthetic promises."
+
+    luca_moreno "I'll start mobilizing the pilot team tonight. Ravi's got a contact list. We can get cameras, community training. We can put faces and fish in front of the council."
+
+    isla_morgan "And we need to bring Jonah's history — the human use of these spaces — into the dossier. Policy listens to data, but the town moves to memory. If we don't do both, we'll lose one or the other."
+
+    jonah_merrick "I'll talk to whoever will listen. I'll tell them the shoal used to keep boys from getting caught in the swell. Maybe that will make someone remember what the sea once gave without asking price."
+    "The afternoon light thins into a leaden wash. Outside, a town worker pins a notice to a post on the promenade; you can see the small white square through the lab windows, fluttering like a moth around a streetlamp."
+    hide isla_morgan
+    hide luca_moreno
+    hide jonah_merrick
+
+    scene bg ch2_c4ca42_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The paper flutters; distant voices of passersby]
+    "You feel the city-legal language of the council compress into a single, heavy point: a public vote is scheduled. The notice at the promenade is both a call and a gauntlet."
+    "You sit back, the chair creaking in a way that seems to register the age of the building."
+    show isla_morgan at left:
+        zoom 0.7
+
+    isla_morgan "A vote means people are choosing blindly out of fear or hope. We have time, but time is thin."
+    show luca_moreno at right:
+        zoom 0.7
+
+    luca_moreno "We can make noise. We can make evidence visceral. We can make people see that 'defense' doesn't have to mean 'concrete wall at the mouth of their harbor.'"
+    "You watch the rain begin, threads pulling the horizon into grey. The lab feels suddenly smaller and farther away from the promenade where the notice flaps. There's a tightening under your ribs — not new, not unexpected, but sharp."
+    show jonah_merrick at center:
+        zoom 0.7
+
+    jonah_merrick "Whatever you decide, Isla, do it knowing the town will judge by consequences, not intentions. They remember what stays."
+    "You close your eyes for a second and picture the Council Chamber — oiled wood, brass fixtures, Aria's measured voice, faces worn thin by decision. You imagine your numbers, your maps, your father's compass lying in your apron like a small heart."
+    "Your hand finds the edge of a map and your thumb knots the paper. The lab's diffuse light pools on the table and the salt crystals look like fine, hard memories. Doubt nips at certainty. The town will groove itself around whatever defense feels safest in the moment."
+    "Outside, the council notice will be pinned tomorrow, and people will begin choosing where their trust lands."
+    # [Page-Turn Moment]
+    "You fold your notes, tuck a sediment core into its case, and slide your pencil behind your ear. You feel the vote like a weather front on the horizon: inevitable, moving fast. There is work to"
+    "do, numbers to refine, stories to craft, and communities to rally. For now, the best you can do is prepare both the honest model and the human shape of its consequences. The tide will make its"
+    "argument in a week; you have time to sharpen yours, but not enough to rest."
+    hide isla_morgan
+    hide luca_moreno
+    hide jonah_merrick
+
+    scene bg ch2_c4ca42_10 at full_bg
+    # play music "music_placeholder"  # [Music: Low, unresolved strings]
+    # play sound "sfx_placeholder"  # [Sound: Paper flapping — a small percussion of policy]
+
+    scene bg ch2_c4ca42_11 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

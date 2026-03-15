@@ -1,0 +1,156 @@
+### SCRIPT
+# Route: Route A — Expose
+# Context: 601bcb
+
+[Scene: Tidelab Greenhouse | Pre-dawn]
+[Background:"ch15_601bcb_1"]
+[Music: Quiet, rising piano with a steadying cello underpinning; the motif of hope threading upward.]
+[Sound: The soft click of keys, the distant gull-call, the hum of a dehumidifier beating like a second heart.]
+
+You breathe through the cold press of decision and feel the brass tidewatcher warm against your throat. The forensic review sits on the screen of your tablet like a small, definitive shape: annotated models, resonance graphs overlaid with tide event histories, a step-by-step explanation of the feedback loop the consortium ignored. Your hands are steady; your chest is a reservoir of the weary, exact kind of courage you've practiced for years.
+
+Asha leans over your shoulder, her glasses fogging in the greenhouse steam. She reads the executive summary again, slower, as if tasting a word to be sure it won't cut the wrong way.
+
+Asha: "This is airtight, Mira. You framed the uncertainty, showed the worst-case coupling, and—" (she exhales) "—you showed the evidence."
+
+You nod. You think of Ruben's hands folding nets, of Nadia's small laugh when she splashes in tidal pools, of the orchard's trunks leaning against the sky. You think of the promise Jonah dangled, the warm offer of integration and a steady paycheck tucked inside his sleek, polite sentences. You think of the families who would be uprooted by construction through the night.
+
+You tap the send icon with a thumb that trembles just a fraction. The file goes out to the regional council, to two independent reviewers Asha recommended, to the town's listserv, and — most important — to a public repository with open access. It radiates in little pings across your wristband and Asha's tablet.
+
+[Sound: A small cascade of notification chimes; somewhere a gull wheals louder as daylight starts to unroll.]
+[Background:"ch15_601bcb_2"]
+
+Asha: "You did the right thing." (She reaches and presses her palm to your shoulder—brief, grounding.)
+You want to parse "right" into safety margins and job loss probabilities, but the word lands elsewhere—like a seed hitting soil.
+
+[INTERACTION]
+> Choice A: "Call Cassian before the press picks it up"
+> Choice B: "Let it roll out publicly; don't call"
+[Outcome A: You bring the phone to your ear. He answers on the second ring, a sleepy chuckle that turns serious when he hears the word 'publish.' He says nothing at first, then: 'We weather it together, Mira.' The line crackles with a tenderness that steadies you.]
+[Outcome B: You let the phone lie face-down. The greenhouse fills with the sound of meters and plants. You watch the upload complete and hold Asha's gaze; there's a professional, private intimacy in that shared, silent decision.]
+
+[Scene: City Hall / Public Hearing Room | Morning]
+[Background:"ch15_601bcb_3"]
+[Music: Strings swell in hopeful, restrained cadence; a light tambourine mimics the quickening of heartbeats.]
+[Sound: Murmurs, the shuffle of papers, a single microphone humming.]
+
+You step up to the lectern because the file has altered the grammar of the room: it is no longer just about proposals and economic promises; it is about verifiable risk. Investors' faces tighten at their tablets. Jonah's cool steel-blue eyes narrow. Mayor Lin watches you like someone watching the tide reach a threshold marker.
+
+Jonah Hale: (leaning forward, voice smooth) "Mira, these are serious accusations. Are you saying the engineering team neglected dynamic resonance? Do you have peer-reviewed support—"
+
+Mira Kestrel: "I'm saying there's an unresolved coupling between the tide-driven oscillations and the barrier's surface modes. The simulations I commissioned with independent reviewers show a non-linear amplification under certain storm sequences. If the consortium proceeds without accounting for that, the barrier could behave unpredictably at scale."
+
+Jonah Hale: (a tight smile) "Those are dramatic words. I'd caution public alarm before the final stress tests—"
+
+Mira Kestrel: "The stress tests exist on paper, Jonah. But the models were run with boundary conditions that omit several high-amplitude tide interactions. We published the difference. The town deserves to see the full, unredacted analysis."
+
+A hush gathers. Someone coughs. Asha steps up beside you, tablet held like an offering.
+
+Asha: "We ran sensitivity analyses. We cross-checked tide events with historical anomalies. The flaw is not speculative; it's a resonance pathway that is both measurable and preventable—if addressed in design. But the consortium chose expedience over iteration."
+
+Council Member: (rubbing his temple) "If this is true, the funding—"
+
+[INTERACTION]
+> Choice A: "Take a breath and offer to walk the council through the models"
+> Choice B: "Let the independent reviewers speak first"
+[Outcome A: You nod and say, 'I'm prepared to walk you through it—step by step.' You set your tablet on the lectern, the graphs projecting behind you. Faces lean in, the room narrowing to the thin, sharp clarity of diagrams and questions.]
+[Outcome B: You step aside. Two independent reviewers rise, calm and precise; they corroborate the findings. The room's energy shifts from suspicion toward procedural seriousness.]
+
+[Background:"ch15_601bcb_4"]
+[Sound: A low, collective intake of breath as investors tap at their devices. Minutes feel like keystones.]
+
+Jonah Hale: (voice colder now) "This will upend timelines and contracts. Do you realize what you are asking for? This pulls funding, Mira. The people who wanted the jobs—"
+
+Mira Kestrel: "I know exactly what I'm asking for. I know the cost, Jonah. I also know the cost of failure would be worse—displacement, ecological damage, a precedent of unaccountable infrastructure. I entered this to protect people, not to appease profit."
+
+Jonah Hale stares at you a long time, something like respect and something like calculation under his coat. He clamps his jaw, and later, in terse, procedural emails, the consortium will announce a pause. Investors will withdraw, citing "reassessment of risk." A spate of op-eds will call you reckless; a thread of messages will call you a savior.
+
+[Scene: Lowry Bay Boardwalk | Afternoon]
+[Background:"ch15_601bcb_5"]
+[Music: A warmer piano theme, strings lifting, a chorus of soft bells as if the town itself is inhaling relief.]
+[Sound: Footsteps, conversation, a distant child's laugh; the gulls have calmed.]
+
+Word spreads faster than council minutes. People cluster; some clap when they see you, others turn away. A man at a stall calls you reckless; a teacher thanks you with damp eyes.
+
+Cassian Rhys finds you in the crowd, paint-smeared jacket and all. His hazel eyes are open like small surprises—anger first, then something softer as he watches the way people press against each other instead of being forced apart.
+
+Cassian Rhys: (voice low; half accusation) "You knew what would happen—didn't you? The jobs they promised, Mira. You ripped the carpet out and left everyone standing. Did you think about that?"
+
+Mira Kestrel: (your voice steady, with the tired steadiness that comes from pages of lists) "I did. I stood with the numbers and with my gut. I thought about the islanded neighborhoods, the orchard stilts, Ruben's stoops. I thought about the families who can't rebuild if the barrier shifts wrong."
+
+Cassian Rhys: "So you made the choice."
+
+Mira Kestrel: "I made the choice I could. I published the review because concealment would have been a decision too."
+
+There's a long silence. Cassian looks at the mural his hands started on the school wall—the paint still damp—and then at the children running by. He swallows.
+
+Cassian Rhys: (softer, torn) "I was furious for a bit. I wanted the certainty, the paycheck, the easy scaffolding. But—" (he exhales) "—then I walked the Drowned Orchard tonight. The roots were still there. Mrs. Leung's stall wasn't flattened. Ruben said he dreamed of his father standing behind him. If that's what you bought us—if that's the cost—"
+
+You step closer. His jaw loosens; his anger is not a closed door but a curtain. He reaches and takes your hand, and it is a small, very human repair.
+
+Cassian Rhys: "You did what you thought was right. That matters. That—" (he chuckles, rueful) "—that hurts, but it matters."
+
+The tenderness is fragile, like a new shoot emerging from a battered root. You let yourself be held for a moment, the crowd's noise a distant surf.
+
+[INTERACTION]
+> Choice A: "Accept his hand and walk with him to Ruben's"
+> Choice B: "Step back to listen to the crowd, keep working"
+[Outcome A: You allow your fingers to lace with his. The two of you move toward the quay where Ruben waits. The proximity speaks of unfinished apologies and of rebuilding together.]
+[Outcome B: You step back, letting Cassian go ahead. There is practical work to do—phone calls, organizing, meeting neighbors. You give him a look that says you will be there later.]
+
+[Scene: The Drowned Orchard / Ruben's Bench | Evening]
+[Background:"ch15_601bcb_6"]
+[Music: A gentle violin line over a steady acoustic rhythm; an ascending motif suggests quiet victory and continuity.]
+[Sound: The slow, steady creak of wooden walkways; distant town bells marking the hour.]
+
+Ruben sits with his cane on a bench carved by years of salt. He looks at you as though he can read the gravel of choice in your palms. His face is lined with the weather, and tonight those lines carry a gentle, fierce approval.
+
+Ruben: (voice like wind through rope) "I had a dream last night—my father beside me, clean as the tide after a good wind. He pointed out the roots and told me to hold them. I didn't think he was telling me about nets."
+
+Mira Kestrel: (smiling despite everything) "Maybe he was telling you about holding. About knowing when to let go."
+
+Ruben: (a dry laugh) "You did right, Mira. Folks will holler and scream and they'll ask for what they think will fill the emptiness. But right? That's what steadies a place. You held it."
+
+You feel, in Ruben's words, the slow accretion of small, practical affirmations into something larger than any single contract. The regional council will hold hearings on infrastructure accountability. New rules will ripple outward. Your career path will look different—no high-paying integration role, no sleek office with a city seal on the wall. But you helped avoid a failure that could have cost lives. That reframing sits in your chest like clean tidewater.
+
+Asha comes up behind you, a thermos in hand, and sits without ceremony. Her presence is a solid, practical reassurance.
+
+Asha: "The reviewers already filed comments. The council convened an emergency working group. It won't be overnight, but—" (she shrugs) "—this could change how towns get protected, how projects are funded and audited."
+
+Mira Kestrel: "That's the point. It's been too easy to let 'security' be an excuse. We need accountable steps that don't toss people aside."
+
+Asha: (nods) "You cost some jobs today, but you saved a lot more. Long game, Mira."
+
+You look out over the orchard, where the lantern light trembles on the water. Parents herd children away from mudflats, old couples walk with slow dignity, and a muralist collects brushes with the same hands that once argued with you in the greenhouse. Life continues with its small, necessary mercy.
+
+[Scene: Old Northpoint Lighthouse | Dusk]
+[Background:"ch15_601bcb_7"]
+[Music: The piano rises into a warm, full chord; strings swell in gentle affirmation. A flute flits like wind over water.]
+[Sound: The beam of the lantern whispers as it turns; distant gulls settle.]
+
+You climb the narrow, damp steps alone and feel the tower's skin under your palm—cold, salt-streaked, and true. At the top, the window frames the town: boardwalk lights, tiled roofs, the stitched outline of the Drowned Orchard. The sea breathes with the patient appetite it has always had, asking for vigilance and for humility.
+
+You set your field notebook on the sill and open it to a fresh page. You trace the edge of the tide line with your finger—no neat numbers, just a mark. You don't feel triumphant so much as aligned: your actions were an answer to a question life kept asking.
+
+A single, quiet satisfaction settles in your chest. Not the comfortable certainty Jonah offered, not the immediate reward of a steady salary, but the harder, steadier pleasure of having steered the town away from a design you could not ethically greenlight. The policy changes that begin here will not erase loss, but they will seed a better future for towns downstream.
+
+You think of Cassian's hand in yours, of Ruben's bench, of Asha's calm, of Nadia's fierce, simple demand—"Do the right thing." You taught yourself to honor that line, even when the ledger tilted toward risk.
+
+[Background:"ch15_601bcb_8"]
+[Music: The hopeful motif resolves into a soft, sustained chord that leaves space for everything that comes next.]
+
+You stand a while longer, hands braced against the window, and let the briny dusk wash over the edges of your doubt. The sea will always ask hard things of you; right now, you answered as best you could.
+
+[Background:"ch15_601bcb_9"]
+[Music: Fade Out]
+
+[Background:"ch15_601bcb_10"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

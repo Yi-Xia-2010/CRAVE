@@ -1,0 +1,510 @@
+{
+    "title": "Saltwood Tides",
+    "summary": "Maya Serrin returns to her coastal hometown to lead a municipal restoration program as rising tides and an incoming corporate seawall proposal force the community to choose how to defend the shore. Conflicts arise between nature-first living-dune approaches, hybrid engineered solutions proposed by Dr. Elena Park’s firm, and politically expedient compromises mediated by Mayor Hale. Aiden Koa, a third-generation fisher and Maya’s love interest, resists interventions that threaten fishing access and traditions. The story follows an Oedipus-style emotional arc (Fall → Rise → Fall) across branching routes: full community-led resilience, a negotiated hybrid with corporate funding, or political compromise. Endings vary from community-first survival and reconciliation to engineered success that severs traditions, bittersweet partial preservation through secrecy, and a 'true' ending where Maya scales the model regionally at personal cost.",
+    "emotional_curve_type": "Oedipus (Fall → Rise → Fall)",
+    "player_character": "Maya Serrin",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Morning Tides",
+            "branch_designation": "Common",
+            "narrative_focus": "I wake before dawn to the salt tang and clatter of the tide sensors at the Tide Research Station. My worn olive-green field parka smells faintly of brine; my storm-gray eyes search the horizon. The morning has a wrong edge — a higher low tide, a new notch in the cliff. I inventory damage: a fisher’s lean-to half-buried, tide gauges recording a worrying uptick, Nyla's tablet chittering with anomalous wave signatures. I internalize each small failure as a tally against my past: the house we lost in the family flood. Mayor Hale has called an emergency meeting at the community hall; Old Man Cala’s voice keeps drifting into my head — his stories about where the dunes once were. I feel the old guilt crease around my tired smile-lines and press my brass tide-watch into my palm like an anchor. My goal is pinned: protect homes with nature-first defenses, but the grant timeline and incoming corporate offer make every choice feel sharpened. I steel myself to speak before the room decides what “safety” will mean for Saltwood.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Serrin",
+                "Nyla",
+                "Mayor Jerome Hale",
+                "Old Man Cala",
+                "Aiden Koa",
+                "Dr. Elena Park"
+            ],
+            "locations_used": [
+                "Tide Research Station",
+                "Quay",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Community Hall Meeting",
+            "branch_designation": "Common",
+            "narrative_focus": "I stand before the long wooden tables at Saltwood Community Hall, pages of my field notebook spread like a prop: living-dune cross sections, marsh restoration timelines, volunteer rosters. The hall smells of coffee and sea-salt sweat; strings of yellow bulbs make faces soft. Mayor Jerome Hale moves between seated townspeople and emailed stakeholders, his scarf damp from weather. Aiden arrives in his salt-stiff navy canvas jacket, hands in his patched oilskins, eyes fixed on me with protective impatience. Dr. Elena Park is there too, AR specs perched on her sleek black bob; she speaks with that crisp, polished cadence, promising immediate floodwalls and automated barriers. My chest tightens; I measure what I owe to my neighbors against the urgency in Elena’s brief. Nyla feeds me data: predicted erosion rates, projected income loss for fishers if the seawall cuts access. I test arguments, balancing empathy and technical clarity, but the meeting fractures into shouting and prayerful glances. When the vote is pushed to the next day, I walk the boardwalk at dusk, the abandoned planks groaning. I feel the problem swallowing us a bit more and know that a choice tomorrow will define whose lives count.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Serrin",
+                "Mayor Jerome Hale",
+                "Aiden Koa",
+                "Dr. Elena Park",
+                "Nyla",
+                "Old Man Cala"
+            ],
+            "locations_used": [
+                "Saltwood Community Hall",
+                "Boardwalk",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Choice at Dusk",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The community divides overnight. At dusk, Mayor Hale convenes a narrower council: me, Aiden, Elena, Nyla, and two elder fishers. Old Man Cala watches from the doorway. I lay out two proposals: our nature-based living dunes and marsh restoration (slow, community-driven) versus Elena’s engineered seawall and automated flood gates (fast, corporate-funded). Elena argues for quick security and investor timelines; Aiden warns that a seawall severs fishing grounds and identity. The moral weight is personal: my guilt, his fear of change, Elena’s urgency. Nyla supplies an overlay that shows both scenarios against the next storm season. The town must vote, but Mayor Hale offers a third path: a political compromise promising “hybrid” pilots contingent on private funding. I stand in the doorway, wind pulling curls loose from my knot, the brass tide-watch cold in my palm. The decision will send me down one of three roads: fully community-led defenses, an uneasy hybrid with Elena, or a political compromise that prioritizes quick infrastructure. I have to choose how Saltwood defines “home.”",
+            "emotional_trajectory": "Fall → Rise",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I steer Saltwood’s response?",
+                "options": [
+                    {
+                        "label": "Commit entirely to community-led, nature-based defenses.",
+                        "consequence": "Mobilizes volunteers and local governance; slower but preserves traditional access.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Accept a conditional partnership with Elena for a hybrid plan.",
+                        "consequence": "Secures faster funding and partial protections, but involves compromise and oversight by Elena’s firm.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Back Mayor Hale’s political compromise to buy immediate infrastructure.",
+                        "consequence": "Prioritizes quick, visible security at political risk to traditions and ecosystem.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Mayor Jerome Hale",
+                "Aiden Koa",
+                "Dr. Elena Park",
+                "Nyla",
+                "Old Man Cala"
+            ],
+            "locations_used": [
+                "Saltwood Community Hall",
+                "Boardwalk",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Dune Commitments",
+            "branch_designation": "Route A",
+            "narrative_focus": "I choose the living-dune path. Immediately, volunteers gather: fishers, teenagers with scraped knees, Nyla with algae-smudged gloves. Aiden stands beside me, leather deck boots sunk in mud, a steady presence, though his jaw tightens at every closed-off access point I negotiate with volunteers. We set up nursery plots for marram grass, begin hauling brush to rebuild dune cores, and retrofit the abandoned boardwalk to allow managed tidal flow. Funding is slower but community-led grants and town labor offset costs. Elena watches from the fringe in her graphite trench coat; there is tension — a suspicion that our slow work will not hold against the season’s storms. I map tides on the station's glass panels and sleep in fits on the lab cot, thumb on my tide-watch. The first weeks are small miracles: a gull nesting in reformed reeds, Old Man Cala telling stories to teenagers about the dune that used to be. I taste hope: it is briny and stubborn.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Serrin",
+                "Aiden Koa",
+                "Nyla",
+                "Old Man Cala",
+                "Dr. Elena Park",
+                "Volunteers"
+            ],
+            "locations_used": [
+                "Saltwood Cliffs",
+                "Nursery Plots",
+                "Boardwalk",
+                "Tide Research Station"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Trust and Trade-offs",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "Weeks in, the living-dune project shows promising stabilization in test plots, and town morale lifts. But storms loom on modeled forecasts, and the Mayor pressures for demonstrable results to secure a larger grant. Elena offers a limited partnership: her firm will fund a protected access corridor and sensor-driven barriers if we allow an engineered revetment at specific points — effectively slicing off fishing lanes. Aiden reacts with fierce silence at the suggestion; the co-op fears losing nets and passages. I sit between practicality and principle. There is also a third choice: hold out for full community control and risk denial of expedited funds, or accept the partnership and govern it tightly, or stage a public campaign to push for the grant with our evidence without ceding control. My parka is salt-streaked; my left index finger’s thin silver band rubs as I turn pages of notes, thinking of my mother’s lost house and the community that can still be saved. This is the personal crucible: whom do I protect and at what cost?",
+            "emotional_trajectory": "Rise / Split",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I respond to Elena’s conditional partnership and the Mayor’s pressure?",
+                "options": [
+                    {
+                        "label": "Refuse the partnership and double down on community-only funding and labor.",
+                        "consequence": "Preserves local control but risks grant denial and a worse storm season.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept a tightly governed hybrid: allow limited engineered work only where absolutely necessary under binding community oversight.",
+                        "consequence": "Faster protection, political compromise, uneasy trust with Elena.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Launch a public campaign to secure the grant without ceding control, using our data and civic pressure.",
+                        "consequence": "Mobilizes town politics and national attention but delays construction.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Aiden Koa",
+                "Dr. Elena Park",
+                "Nyla",
+                "Mayor Jerome Hale",
+                "Volunteers"
+            ],
+            "locations_used": [
+                "Nursery Plots",
+                "Tide Research Station",
+                "Community Hall",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Dunes Held, Homes Lost",
+            "branch_designation": "Route A (Ending)",
+            "narrative_focus": "I refuse the conditional partnership. We work without corporate funds, relying on volunteer labor and smaller municipal grants. The living dunes hold in many places; our nursery plots become coherent ridges that buffer small waves. For weeks, it feels like vindication: children plant grass, Old Man Cala leads a planting chant, and Aiden laughs when a curl of sea-foam splashes his boots. Then the storm season arrives with a storm surge larger than the models predicted. The dunes break at several low points; the abandoned boardwalk is lost to a sharpened tide. A cluster of older homes at the southern crescent — including a row where several fishers kept their boats — collapse or are rendered uninhabitable. I stand in the mud, salt-streaked, stomach hitting the concrete of failure. The town survives, but not intact. Aiden’s face is a map of grief; our hands search each other for blame and find only wet cold. My empathy and stubbornness preserved much, but my refusal to accept compromise cost neighbors their houses. The victory tastes like ash.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Aiden Koa",
+                "Old Man Cala",
+                "Volunteers",
+                "Mayor Jerome Hale"
+            ],
+            "locations_used": [
+                "Saltwood Cliffs",
+                "Boardwalk",
+                "Southern Crescent",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "A Tentative Alliance",
+            "branch_designation": "Route B",
+            "narrative_focus": "I accept a conditional partnership with Elena — a hybrid plan: living dunes where feasible, and engineered revetments and automated barriers at critical choke points, funded by Elena’s firm with oversight clauses negotiated by the Mayor and a community advisory board I chair. It’s messy, bureaucratic, and ethically compromising, but funding arrives and work begins under clinical floodlights at the Corporate Seawall Construction Site. Aiden watches the cranes with distrust; he helps coordinate safe access points and volunteers to monitor the nets’ new passages. We balance my ecological designs with Elena’s engineered segments, overlaying marsh restoration diagrams with concrete plans on my glass panels. The town is calmer in the short term; the first storm passes without catastrophic loss. But tensions simmer: old fishing lanes narrow, and some neighbors grumble about paying the price for “safe” asphalt. Elena and I trade professional barbs in early morning briefings; beneath it, there is a current of begrudging respect. For a moment, the future seems stabilized — at a cost.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Serrin",
+                "Dr. Elena Park",
+                "Aiden Koa",
+                "Nyla",
+                "Mayor Jerome Hale",
+                "Construction Crews"
+            ],
+            "locations_used": [
+                "Corporate Seawall Construction Site",
+                "Tide Research Station",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Fractures in the Hybrid",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The hybrid initially performs: the engineered segments reduce overtopping, and our restored marshes absorb wave energy in testing. But displacement effects appear: fishers report reduced catch where currents shift; some businesses lose access to deeper water because of quay re-routing. Activists post photos of the construction that frame it as “corporate takeover.” Elena’s investors demand faster, more visible returns; the Mayor fears political fallout and urges expansion. A neighbor’s boat gets snagged on a newly placed anchor and injures a fisher’s supply run. The community advisory board splits. My role as mediator grows heavy; Aiden grows colder, mistrusting the compromise that eased immediate danger but changed their work. I must choose between doubling down on governance and oversight of Elena’s firm to protect fishing lanes, accepting further engineered extensions to secure more property, or publicly exposing investor pressure to get stricter limits. Each option has immediate consequences for livelihoods and for my relationship with Aiden. My parka is damp with spray as I watch the tide move around the new concrete, thinking of the lives that slip through our planning like water.",
+            "emotional_trajectory": "Rise / Split",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I manage the growing fractures from the hybrid approach?",
+                "options": [
+                    {
+                        "label": "Pressure Elena’s firm for legally binding protections for fishing lanes and environmental monitoring.",
+                        "consequence": "Slows expansion, increases oversight obligations on the firm.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Authorize expanded engineered extensions to secure more properties quickly.",
+                        "consequence": "Immediate safety for certain neighborhoods but deeper ecological impact and community resentment.",
+                        "target_chapter_index": 15
+                    },
+                    {
+                        "label": "Publicly expose investor pressure and call for transparency to rein in corporate timelines.",
+                        "consequence": "Political friction, possible withdrawal of funding, but empowers local oversight.",
+                        "target_chapter_index": 12
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Dr. Elena Park",
+                "Aiden Koa",
+                "Nyla",
+                "Mayor Jerome Hale",
+                "Activists",
+                "Investors"
+            ],
+            "locations_used": [
+                "Corporate Seawall Construction Site",
+                "Quay",
+                "Tide Research Station"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Concrete Success, Quiet Loss",
+            "branch_designation": "Route B (Ending)",
+            "narrative_focus": "I press Elena’s firm into strict, legally binding protections for fishing lanes and environmental monitoring. The firm concedes under pressure and we embed community oversight into the contract. The expanded oversight slows some construction but earns the co-op partial measures to maintain access. The engineered segments, combined with our marsh corridors, stop the worst predicted floods; the built barrier protects large swathes of housing. Elena is celebrated nationally for a “balanced” model. But the engineered footprint has already shifted currents and closed off older, intimate access points — the sense of ownership some fishers had over their routes fades. Aiden grows silent in the mornings; the co-op’s daily haul is lower, and older fishers lament lost practices. We prevented immediate ruin, but the town’s rhythm shifts; some traditions die quietly. Elena’s success is measured in saved structures and investor returns. My empathy and compromise held many lives together, but at a cost I can feel in Aiden’s distance.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Dr. Elena Park",
+                "Aiden Koa",
+                "Mayor Jerome Hale",
+                "Fishing Co-op"
+            ],
+            "locations_used": [
+                "Corporate Seawall Construction Site",
+                "Quay",
+                "Saltwood Cliffs"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Compromise Vote",
+            "branch_designation": "Route C",
+            "narrative_focus": "I back Mayor Hale’s political compromise: accept immediate infrastructure prioritization to secure emergency funding before the next storm and a promise of future ecological projects. The town hails the visible construction and the Mayor’s televised announcement calms investor nerves. Elena begins work quickly; construction crews roll in under clinical floodlights. Nyla and I try to secure guarantees for later marsh restoration, but the language is provisional. Aiden looks betrayed at the televised ribbon-cutting but stands with me when we meet volunteers at the nursery — his hands work while his jaw sets. For a while, the visible action eases anxiety; repairs are prioritized and roofs are saved. But in the quiet hours, the town’s identity feels negotiated away in headlines. I watch the tide reflect floodlight like a ledger: each saved house is written next to a lost tradition. I must decide whether to push for enforceable follow-ups, accept the political short-term security and live with compromises, or build a civil resistance to protect fishers’ rights. The weight of representation rests on my shoulders.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maya Serrin",
+                "Mayor Jerome Hale",
+                "Dr. Elena Park",
+                "Aiden Koa",
+                "Nyla",
+                "Volunteers"
+            ],
+            "locations_used": [
+                "Corporate Seawall Construction Site",
+                "Nursery Plots",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Compromise Unraveled",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The initial security is fragile. Investor reports pressure Elena’s firm to cut costs; the Mayor’s timeline compresses further. Promised ecological restoration is postponed “until funding stabilizes.” Fishers report decreasing catches near newly reconfigured quays; activists post images framing the compromise as a sellout. My role as an official who backed the compromise becomes lonely and scrutinized. Aiden’s trust frays; he speaks of leaving fishing to find work elsewhere. Nyla demands transparency and wants to digitize and publish all construction and sensor data to force accountability. I can fight within the system to push for binding clauses and citizen oversight, publicly confront the Mayor’s compromises, or secretly broker a deal with Elena to deliver a secret fund for fishers’ access. Each path risks a different fracture: political, social, or personal. My storm-gray eyes scan my notebook for the words that will hold. I feel the town’s heartbeat in my palm, and it is messy with fear and hope.",
+            "emotional_trajectory": "Rise / Split",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I respond to the unraveling compromise?",
+                "options": [
+                    {
+                        "label": "Push for binding legal clauses and citizen oversight, using municipal authority.",
+                        "consequence": "Slows corporate timelines; may trigger investor retaliation.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Publicly denounce broken promises and lead a town campaign to demand enforcement.",
+                        "consequence": "Political upheaval; may risk immediate funding withdrawal but galvanizes community.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Secretly broker a targeted fund with Elena to restore fishers' access and compensate losses.",
+                        "consequence": "Quiet short-term fixes but ethical compromise and secrecy.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Nyla",
+                "Aiden Koa",
+                "Dr. Elena Park",
+                "Mayor Jerome Hale",
+                "Activists"
+            ],
+            "locations_used": [
+                "Corporate Seawall Construction Site",
+                "Quay",
+                "Community Hall",
+                "Tide Research Station"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Transparency Wins — Losses Follow",
+            "branch_designation": "Route C (Ending)",
+            "narrative_focus": "I push for binding clauses and citizen oversight. Nyla publishes sensor feeds and community audits; volunteers document anchor placements. Under public scrutiny and legal pressure, Elena’s firm concedes to stricter monitoring and enforceable protections for fishing lanes. The town gains oversight mechanisms and some ecological restoration begins in earnest. For a fragile window, the narrative frame becomes cooperation and empowered governance; my approach becomes a case study in community leverage. Then a storm — sized beyond the conservative models that anchored our binding clauses — hits. The engineered segments hold but at high cost: altered sediment flow causes a nearby sandbar to shift violently, wrecking a small fleet of older boats in a single night. The town is saved in structures, but the cultural fabric — the daily rhythms of the fishers — unravels. I stand at the quay as boats are hauled in damaged, and Aiden tells me, voice quiet, that some things can’t be legislated back. My policy triumph tastes metallic and terrible.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Nyla",
+                "Aiden Koa",
+                "Dr. Elena Park",
+                "Mayor Jerome Hale",
+                "Fishing Co-op"
+            ],
+            "locations_used": [
+                "Quay",
+                "Tide Research Station",
+                "Community Hall"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Tight Governance — Uneasy Future",
+            "branch_designation": "Additional / Convergent hybrid/activist route / True Ending",
+            "narrative_focus": "I accept a tightly governed hybrid (from Route A Option B) or, alternately, lead a town campaign to demand enforcement (from Route C Option B); both paths converge into a model where community governance is legally embedded in partnership agreements. Elena’s firm funds infrastructure but under citizen advisory and legally binding environmental and access protections. The hybrid stabilizes large swathes of the town, allows restored marshes to mature, and funds a regional replication fund I help seed. Some neighborhoods are saved intact; some are irrevocably changed. Aiden and I try to rebuild trust — our mornings are practical, heavier with work, lighter with fewer easy jokes. Elena departs later with a pledge to fund community ecology elsewhere; she leaves a slim, complicated legacy. I find purpose beyond the personal: I travel to advise other towns, teaching governance models that fuse technical scale with local stewardship. Saltwood survives in new forms; I step into something larger and maybe lonelier. The moral is unclear, and the heart keeps some dangerous tally.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option B and Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Aiden Koa",
+                "Dr. Elena Park",
+                "Nyla",
+                "Mayor Jerome Hale"
+            ],
+            "locations_used": [
+                "Community Hall",
+                "Tide Research Station",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "The Secret Fund",
+            "branch_designation": "Additional (Bittersweet)",
+            "narrative_focus": "I choose the secret route: either launching a delayed public campaign that buys political attention (from Route A Option C) or brokering a targeted fund with Elena (from Route C Option C). The result is a covert remediation fund that restores fishers’ access points, compensates lost hauls, and preserves certain cultural practices. The fund shields several families and repairs a fleet, but it requires secrecy and a moral compromise: Elena’s firm expects quiet acceptance and latitude elsewhere. The town regains some livelihoods, yet the secrecy breeds rumors and resentment — some feel saved by shadow deals, others feel sold. Aiden accepts practical help but is unsettled by the secrecy; trust is repaired in part but not wholly. Personally, I win short-term solace and long-term unease: we avert total ruin but at the cost of transparency and my own integrity. The tides keep moving; people rebuild, but the town carries an undercurrent of whispered debts.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C and Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Dr. Elena Park",
+                "Aiden Koa",
+                "Nyla",
+                "Mayor Jerome Hale"
+            ],
+            "locations_used": [
+                "Back-room Meetings",
+                "Tide Research Station",
+                "Quay"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Expanded Protection, Narrowed Shore",
+            "branch_designation": "Additional (Sad Ending)",
+            "narrative_focus": "I authorize expanded engineered extensions to secure more properties quickly. The decision buys immediate protection and broad political approval; flood insurance rates fall, and many homeowners breathe easier. Elena’s firm scales up construction; cranes become fixtures along the shore. But the engineered extensions push tides and currents in ways that permanently alter sediment flow and close older access points. Fishing grounds shift offshore, and small fishers’ incomes collapse. Some families leave. Aiden stands at a new seawall, tracing the shoreline with a callused hand; his wave tattoo feels like an echo. Elena achieves professional triumph; Saltwood’s skyline is protected but less like the place I remember. I ache for a town that kept its rhythms, but stability came at the price of cultural erosion. My empathy and desire to prevent immediate loss led to choices that narrowed our shore. The town endures; our stories change.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Serrin",
+                "Dr. Elena Park",
+                "Aiden Koa",
+                "Mayor Jerome Hale",
+                "Fishing Co-op"
+            ],
+            "locations_used": [
+                "Expanded Seawall",
+                "Quay",
+                "Saltwood Cliffs"
+            ]
+        }
+    ],
+    "remarks": "World: Saltwood is a near-future coastal town facing erosion and flood risk. Branching centers on three primary choices at Chapter 3 (community-led dunes, hybrid partnership, or political compromise), with subsequent split decisions in Routes A, B, and C that produce multiple endings including a convergent 'true' ending where community governance is embedded in partnerships.",
+    "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+    "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)"
+}

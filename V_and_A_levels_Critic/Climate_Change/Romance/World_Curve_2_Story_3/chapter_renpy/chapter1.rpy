@@ -1,0 +1,171 @@
+label chapter1:
+
+    # [Scene: Mariner's Row | Evening]
+
+    scene bg ch1_Start_1 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, warm acoustic with distant gull calls]
+    # play sound "sfx_placeholder"  # [Sound: Slow, steady lapping of water; occasional murmur of voices; a camera shutter in the background]
+    "You stand on the cracked wooden step of your family's house, the coral scarf tight against your throat though the air is heavy and humid. Salt hangs on your lips like memory. The scarf is thin"
+    "from years of washing, the coral faded at the edges where your grandmother would fold it back into itself and smile; you keep it close because its weight reminds you of the reason you keep coming"
+    "back here."
+
+    "A breeze smells of wet wood and lemon oil from a neighbor's salvaged table. The street is a collage of tarps and hand-lettered flyers" "Community Meeting — 6PM,' 'No Forced Relocation,' 'Help Fill Sandbags."
+    "You reach for your water-stained notebook where the pages are bulging with plans and names. The brass carabiner clipped to your belt catches the light; the keys on it jangle a private, reassuring melody when you"
+    "shift your weight. Your palms remember the shape of this neighborhood—every porch step, every alleyway shortcut—but your head keeps cataloging the new things: the mildew lines higher on door frames, the patched metal plates on cellar"
+    "doors, the municipal tide gauge posted near the pier with its digital numbers a quiet, indifferent counterpoint."
+    "You breathe in, and the cool of the evening fills your lungs. This is what you protect. This is why you keep mapping."
+
+    scene bg ch1_Start_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft beep as the overlay pulses; a small annotated legend appears: "King Tide: projected +0.6m — Next 48 hrs"]
+    "You run a finger over one of the maps—blue pencil strokes where families have kept emergency supplies, a tiny X where Mrs. Duarte hosted a communal dinner during the last flood. The image blurs at the"
+    "edges from water stains and late-night coffee. You have written names in the margins until they look like a constellation: Lina, Tamiko, Arun, Mr. Hsu, the Soto twins. They're not abstract points; they're people who sleep"
+    "with their windows cracked for the night breeze and who laugh too loudly when someone sets off a bottle rocket on the pier."
+    "You look up as a voice threads through the gathering."
+    show lina_cortez at left:
+        zoom 0.7
+
+    lina_cortez "Mira! Over here—you look like you swallowed the tide."
+    hide lina_cortez
+
+    scene bg ch1_Start_3 at full_bg
+    show lina_cortez at left:
+        zoom 0.7
+
+    lina_cortez "We actually brought extra rope. Tamiko thinks the camera angle will really sell the urgency."
+    "Tamiko: (from behind a camera, clicking) 'Urgency sells, but honesty keeps people. Keep it honest, Mira. Let them see the boards and the mold. Let them see Lina's boots.'"
+    "You offer a small, dry smile because Lina's grin is an ancient lighthouse you can rely on; Tamiko's camera is always hungry for the angle that will make someone in City Hall uncomfortable. They both make the same promise in different forms: attention."
+    "You move to help Lina with a fraying tarp. Your hands, rough from shifting sandbags, find the knot the way they always have. The rope is damp and smells like the harbor; it slides under your fingers with sticky patience."
+
+    menu:
+        "Ask Lina to patch the tarp differently":
+            "You kneel beside her and point to the diagonal tear. Lina narrows her eyes, nods, and they work the patch together—two hands, quick and familiar. The patch holds like a small, stubborn victory."
+        "Let Lina finish it her way":
+            "You step back and let her take the lead. She hums as she works, and you watch the steady progress like someone watching tide charts—you trust the pattern more than you interrupt it."
+
+    # --- merge ---
+    "Narrative continues below."
+    # play music "music_placeholder"  # [Music: A gentle rhythmic cello; the tempo stays measured]
+    # play sound "sfx_placeholder"  # [Sound: Rain pattering more insistently on tarps; a far-off truck engine]
+    "A hush settles as Dr. Arun steps up to the small fold-out table, his field notes peeking from his jacket pocket. His voice is the kind that sets a room's breath to a different pace—measured, clear, with the kind of authority that comes from explaining difficult things without scaring people."
+    show dr_arun_patel at right:
+        zoom 0.7
+
+    dr_arun_patel "Thanks for coming, everyone. I'll keep it concise. The gauges show King Tide projection a little higher than last month. Surface inundation risk increases along Mariner's Row by the evening—localized, not catastrophic, but... meaningful."
+    "You listen because Arun speaks in ways that let facts become manageable. He doesn't shout doom; he gives work."
+
+    dr_arun_patel "Phased responses: check drains, raise critical pathways, shore vulnerable foundations with coir logs. Natural buffers where possible. And—' (he looks up, scans the crowd, voice softening) '—we need to be ready to help families who can't move easily on short notice."
+    "A murmur rolls through the crowd. Someone asks about insurance. Someone asks about the city's plan. Voices fold over one another, anxious and practical and small."
+    "You open your notebook and flip to a page where you've drawn a simple diagram: elevated walkways, staggered sandbar plantings, neighbors with their phone numbers circled. Your handwriting tilts with a private impatience."
+    show mira_santos at center:
+        zoom 0.7
+
+    mira_santos "We can coordinate a rotating watch tonight. Lina knows the blocks better than anyone. Tamiko can document, and Arun—can you bring the tide charts to the shelter table? If we have clear triggers, we can avoid panicked movement."
+    hide lina_cortez
+    show tamiko_sato at left:
+        zoom 0.7
+
+    tamiko_sato "And we'll livestream the watch. People who care but can't come down will still be able to chip in."
+    hide dr_arun_patel
+    show lina_cortez at right:
+        zoom 0.7
+
+    lina_cortez "And if the pumps fail, we have two backups. Mr. Hsu lent his generator."
+    "The exchange is quick but rooted—practical scaffolding rising out of neighbors' memory and muscle. You feel a low, steady pride in the room. The preparations are modest, but they are yours. They are human-sized and therefore real."
+    # play sound "sfx_placeholder"  # [Sound: Footsteps approaching; a soft cloth brush as someone adjusts a blazer]
+    hide mira_santos
+    hide tamiko_sato
+    hide lina_cortez
+
+    scene bg ch1_Start_4 at full_bg
+    show elias_moreno at left:
+        zoom 0.7
+
+    elias_moreno "Evening. I know I'm—' (he gestures, a little embarrassed) '—not from here in the neighborhood, but I wanted to see the conditions personally. Dr. Arun forwarded the projections. I thought maybe I could help with logistics, if you'll have me."
+    "You watch his face: sea-gray eyes narrowed not in judgment but in concentration; the kind that leans into problem-solving. There's a public softness there—he wants to belong while he builds things that belong to everyone."
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "We have plans. We appreciate municipal support—what we need most is clarity and flexibility. Big promises in a meeting are nice; boots on the ground are better."
+    "Elias Moreno: (a brief, genuine laugh) 'Fair. I don't do big promises lightly. I do feasibility. If there's a way to shore up immediate needs without breaking longer-term social ties, I want to know it.'"
+    "You study him the way you study a new tide gauge—looking for calibration, for where he lines up with the reality of the street. Up close there is earnestness; there is also a neatness to the"
+    "way his ideas sit on the table as if they might be models that can be placed and moved at will."
+
+    mira_santos "Then be here. Walk with us tonight. Listen, don't just file notes."
+    "Elias Moreno: (he inclines his head) 'I'll listen.'"
+    "The conversation opens like a door that gives. Lina teases him in a warm, rough way."
+    show lina_cortez at center:
+        zoom 0.7
+
+    lina_cortez "We don't bite—unless it's a funding proposal. Then we gnaw. Come on, Elias. You ever lift a sandbag?"
+    "Elias Moreno: (hesitates, then grins) 'Only in theory. Teach me.'"
+    "The laugh that follows is easy and immediate—another small lantern in the dusk. Tamiko snaps a photo, not to capture spectacle but to arrest the reality of neighbors learning to work together. Arun watches with a"
+    "soft smile that suggests relief; boxes of data are meant for this: to be translated into human action."
+
+    menu:
+        "Offer Elias the kettle-warmed thermos":
+            "You reach into your satchel, pull out the dented thermos you bought at the corner market, and hand it to him. He accepts it with a surprised, grateful look. For a second he's just a person warmed by shared boiler and neighborhood ritual."
+        "Keep the thermos for the watch team":
+            "You tuck the thermos back into your bag and say you'll save it for the rotating watch. Elias nods, the compromise slipping easily into place—it's a small boundary, but it feels important."
+
+    # --- merge ---
+    "Narrative continues below."
+    # play music "music_placeholder"  # [Music: A single piano motif. The tempo is unhurried, reflective.]
+    # play sound "sfx_placeholder"  # [Sound: The tide's lapping grows clearer; a gull's call stretches in the distance]
+    "As the meeting dissolves into tasks, you run through the checklist in your head one more time. Waterproof batteries. The list of households needing assistance. The plan for evac routes. Your mind is a quiet rail system of contingencies—tracks that have kept people from derailing in twice-bad weather."
+    "You patrol the block with Elias Moreno at your side for the next hour. He asks about household needs; you answer. He points at a low point near the alley and offers a schematic idea for"
+    "temporary terraces to slow water, his hand sketching an invisible model in the air. You counter with the knowledge that those terraces require labor and local consent."
+
+    elias_moreno "If we could stage this in phases, the initial work could be community-led, and the city could match resources. We could keep displacement minimal."
+
+    mira_santos "That sounds good on paper. Paper doesn't tell you how to protest a permit queue or fund families on a two-day notice."
+    "Elias Moreno: (a pause, then softer) 'Then teach me. Show me how not to make that mistake.'"
+    "There's a humility in his voice that isn't performative. It's a bridge—the kind you feel underfoot before you step. You want to cross it, and you are cautious in equal measure."
+    hide elias_moreno
+    hide mira_santos
+    hide lina_cortez
+
+    scene bg ch1_Start_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Paper rustle; measured breathing]
+    show dr_arun_patel at left:
+        zoom 0.7
+
+    dr_arun_patel "Elias, if your team can help move materials faster tonight, coordinate with Mira. The neighborhood knows the edges better than any plan on a tablet."
+    show elias_moreno at right:
+        zoom 0.7
+
+    elias_moreno "Understood. I can tap into a municipal supply line. We'll be careful."
+    "Lina: (elbowing you) 'See? He brings the boxes. You bring the people. We'll make it look seamless.'"
+    "You feel a warmth—less like triumph and more like steadied possibility. The tide still presses at the edges of the map, but here, in this cluster of steps and voices, there is momentum that does not need to be loud."
+    # play sound "sfx_placeholder"  # [Sound: A long, low hum as the cityscape beyond the row brightens with evening lights; a delivery boat chugs past, its wake gently nudging the shoreline]
+    # play music "music_placeholder"  # [Music: The piano motif broadens, adding a low cello—still calm, slightly fuller]
+    "You take one last walk to the water's edge before the watch begins. The pier creaks underfoot. Lanterns glow like small moons. The King Tide—higher than usual, though not yet alarming—threads itself up between pilings and kisses the lower bricks."
+    "You kneel beside where the water laps at a porch step. Up close you can see the tiny currents that make maps change. Your fingers hover slightly above the wet wood, feeling the cool. The sound"
+    "is immediate: water finding its level, tireless and indifferent and exact. It reminds you of your grandmother's hands—strong, patient, holding things together until the storm passes."
+    show mira_santos at center:
+        zoom 0.7
+
+    mira_santos "We can do this,"
+    "Elias Moreno stands a little behind you, watching not as a planner watching data but as someone who still needs to understand what it feels like to be rooted to a place at risk. For a"
+    "moment his temple rests against the muted night air, and you feel—unexpectedly—less alone in the weight you carry."
+    hide dr_arun_patel
+    hide elias_moreno
+    hide mira_santos
+
+    scene bg ch1_Start_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A single camera click — Tamiko capturing the moment that is equal parts ordinary and essential]
+    # play music "music_placeholder"  # [Music: A single, sustained violin note; it does not twinge with panic but with focus and warmth]
+    "The tide brushes the step again, a heartbeat later. The water is honest; it does what it will. Your hope does not deny the water's persistence. It shapes itself around it."
+    "You tuck your coral scarf more tightly, the fabric's fibers settling against your neck like a familiar memory. The unease you have felt all week is still there—an undercurrent like the tide—yet it sits beside something"
+    "steadier: the knowledge that here, hands will meet tasks, voices will map priorities, and the people you love will show up."
+    "You stand, eyes on the horizon where harbor lights blur into the night, and you let the moment hold: the street, the neighbors, the small lit lanterns bobbing above the water. There is work to be done, and you are ready to begin."
+    "You turn back toward the group, toward the practical ritual of preparation, keeping the image of the tide-leaning porch step in your mind. It is a quiet, fierce heartache that will shape the next days—the thing that makes you return, again and again."
+
+    scene bg ch1_Start_7 at full_bg
+    # play music "music_placeholder"  # [Music: The instrumentation simplifies again, returning to the single piano motif]
+    "You want to keep this port of home whole. You will do the small things tonight because small things save houses and, slowly, save neighborhoods."
+
+    scene bg ch1_Start_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

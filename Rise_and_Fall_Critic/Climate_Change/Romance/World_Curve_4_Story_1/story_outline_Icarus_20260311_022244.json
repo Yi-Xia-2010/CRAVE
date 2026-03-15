@@ -1,0 +1,416 @@
+{
+    "title": "Tidebound Hearts",
+    "summary": "I, Maia Soler, navigate love, science, and moral urgency in a city squeezed by water. The narrative follows an Icarus arc: a rapid rise to apparent triumph followed by catastrophic collapse. The common route introduces Maia's roots in submerged neighborhoods, Elias’s TideGrid project, and Rin’s persuasive urgency. At a pivotal split Maia must choose which coalition to join—work with Elias, resist via grassroots expansion, or broker a new hybrid—each choice launches a different ascent. In every path, an early peak (technical success, public acclaim, or diplomatic victory) raises hope and binds Maia and Elias through collaboration or conflict. But success produces overreach: engineering misfires, overlooked local dynamics, or political co-optation. The downward spiral accelerates into social fracture, betrayal, or systemic failure that shatters public trust and personal intimacy. Across all branches the crash is catastrophic, altering city governance and relationships in irrevocable ways. The visual novel explores how love negotiates responsibility when every solution carries moral cost.",
+    "emotional_curve_type": "Icarus arc",
+    "player_character": "Maia Soler",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Tides I Know",
+            "branch_designation": "Common",
+            "narrative_focus": "I stand ankle-deep on the Flooded Promenade beneath a sky the color of pewter glass, the cold salt lapping at my waterproof boots. My dark chestnut hair is loose at my nape; the frayed blue ribbon in a knot presses against my collar. Old Man Toma’s voice trails through the morning fog as he shows me an old map stitched into his patchwork cloak. I think about the picture in my copper locket — a coastline that used to be a street — and the municipal badge clipped to my field jacket rubs at my ribs. The Marenport Resilience Collective is drafting a new set of floating terraces and rain gardens for Canal Twelve, and I feel that peculiar mix of weary hope and responsibility, the kind that makes me tighten my multi-tool bracelet. I meet with Ibrahim ‘Ibe’ on the boardwalk; his grin is broad but his hands are splintered and stained from carpentry. We trade practical jokes and plans: which pilings can be salvaged, where to plant salt-tolerant hedgerows. The city hum — the distant, steady thrum of pumps, and the metallic tap of a lab’s shutters — makes me promise to keep the neighborhood together.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maia Soler",
+                "Old Man Toma",
+                "Ibrahim 'Ibe'",
+                "Marenport Resilience Collective"
+            ],
+            "locations_used": [
+                "Flooded Promenade",
+                "Canal Twelve",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "The Tide and the Tablet",
+            "branch_designation": "Common",
+            "narrative_focus": "I follow the hum down a raised walkway to Saltglass Research Lab where glass panels streaked with salt reveal a sterile interior softened by moss strips and potted micro-ecosystems. Elias is there before me, hair falling into his forehead, fingers tapping the compact tablet strapped to his forearm. Light catches his blue-gray eyes and there’s a gold fleck; he flashes that determined, slightly distracted smile I still find dangerous. He shows me a TideGrid simulation: modular turbines and controlled sediment redistribution that could reduce inundation across Marenport. He speaks like someone describing a beautiful machine — precise, hopeful — and I find myself swept by the scale of his thinking. He wears that slate-blue jacket with reflective piping and a tiny seedbank tin on his belt. I feel my instinct — people-first, place-first — bristle, but I listen. Serena Qiu, watching with clinical skepticism, points out possible feedback loops. My municipal ID badge feels heavy; I think of elders’ homes, of Ibe’s carpentry, of community kitchens on the Skyfarm Terraces. Elias reaches for my hand, and I have to decide whether to bend to his optimism or hold fast to the slow, messy work of neighborhood resilience.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maia Soler",
+                "Elias",
+                "Serena Qiu",
+                "Ibrahim 'Ibe'"
+            ],
+            "locations_used": [
+                "Saltglass Research Lab",
+                "Raised walkway"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Weighing Water",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The public forum is at the Skyfarm Terraces, dusk warm and gulls crying. I stand on a sun-warm plank, chestnut waves escaping a loose knot, field jacket sleeves patched at the elbows. Rin Voss arrives in a storm-gray coat that seems to cut the light; her eyes are steely amber and she speaks with such strategic warmth that half the council leans in. She pitches a rapid deployment of TideGrid modules under a public-private compact. Elias defends the design’s open-source potential; Serena notes debugging needs. Ibe and Old Man Toma speak from memory and labor: what we risk losing if a single system decides water for us. I feel the room tilt between urgency and caution; the mayor's deputy asks for a decision that night. The familiar weight of responsibility folds into a fast, bright hope — if TideGrid works, many lives saved. But I also know what centralized control can do to autonomy. My chest tightens; Elias looks at me with that impatient kindness that asks me to leap. The choice splits the night: join Elias and the TideGrid push, defend community autonomy, or attempt to broker a hybrid. I have to answer.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Should I align my efforts with a large-scale TideGrid effort, focus purely on community resilience, or try to negotiate a hybrid approach with oversight?",
+                "options": [
+                    {
+                        "label": "Join Elias and accelerate TideGrid deployment",
+                        "consequence": "I ally publicly with Elias and gain fast access to resources and Rin’s attention; community trust may fray",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Expand grassroots resilience—refuse TideGrid",
+                        "consequence": "I mobilize neighbors, keep autonomy but lack large-scale resources; political pressure increases",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Broker a hybrid—demand community oversight",
+                        "consequence": "I attempt to mediate, gaining temporary influence but courting both sides’ skepticism",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Serena Qiu",
+                "Ibrahim 'Ibe'",
+                "Old Man Toma",
+                "Mayor's deputy"
+            ],
+            "locations_used": [
+                "Skyfarm Terraces"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "The Pilot Lights",
+            "branch_designation": "Route A",
+            "narrative_focus": "I step into the Saltglass Lab’s pilot bay with Elias at my elbow; his ash-blond hair is wind-tousled, tablet glowing. We stand over a compact TideGrid mock-up — articulated turbines, sediment channels, tiny terraces that could ripple into the city’s arteries. Rin’s emissaries send funding, and the lab hums with a bright, mechanized promise. I feel suddenly elevated: my municipal badge unclipped, the crowd’s cheers at the pilot announcement still in my ears. For a moment I taste victory — we’ve united community data models with engineering push. Elias squeezes my hand, and I see the future in his narrow, squinting eyes. Ibe helps retrofit floating platforms for test anchors; Serena runs diagnostics with professional distance and, once, a look that says she trusts me to watch the ethics. Old Man Toma murmurs a blessing, fingers on my copper locket. I help write the consent frameworks and community oversight clauses, and the pilot date is set. Momentum tastes like salt and sunlight. I close my eyes and allow myself to imagine rescue.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maia Soler",
+                "Elias",
+                "Ibrahim 'Ibe'",
+                "Serena Qiu",
+                "Old Man Toma",
+                "Rin's emissaries"
+            ],
+            "locations_used": [
+                "Saltglass Lab pilot bay",
+                "Saltglass Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Head Above Water",
+            "branch_designation": "Route A",
+            "narrative_focus": "The pilot phase succeeds faster than anyone dared hope. Turbines stabilize a canal current outside the Saltglass lab; sensors register decreased intrusions during a tidal surge; Rin declares the model a proof-of-concept for city-wide rollout. I stand on the Flooded Promenade with the press, my chestnut hair damp from celebratory spray, and Elias beside me, his slate-blue jacket glossy. The city cheers — for a few days, the collective breath we’d been holding releases. But then anomalies appear: sediment shifts downstream clog traditional fish runs; some rooftop taxa fail to adapt to microcurrent changes; a small flotilla of floating vendors reports destabilized mooring lines. Serena and I press for slower scaling; Rin pushes for authorization. In meetings, her steely amber eyes are patient but unreadable. I am elated and alarmed at once; my people-first impulse and Elias’s engineering triumph are at odds in the same heartbeat. We patch, promise, and smooth over the edges. For now, the world sees our victory. For me, a new anxiety takes root: we flew too close to a solution without seeing the shadow it casts.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 6,
+            "characters_involved": [
+                "Maia Soler",
+                "Elias",
+                "Rin Voss",
+                "Serena Qiu",
+                "Old Man Toma",
+                "Floating vendors"
+            ],
+            "locations_used": [
+                "Flooded Promenade",
+                "Canal Twelve",
+                "Saltglass Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Fall of a Promise",
+            "branch_designation": "Route A / Ending",
+            "narrative_focus": "The crash comes like a black tide. An unpredicted storm sends currents that, amplified by synchronized TideGrid nodes, scour the Old Dock District. Foundations erode, warehouses collapse, and a beloved terrace on Skyfarm — where children learned to graft tomatoes — is lost under a sudden, mechanical trench. The press turns to blame; Rin deflects with corporate legal shields. Elias disappears into code and console logs, his gray-blue eyes hollow and apologetic when he finds me on a breached boardwalk, chestnut hair sodden and the frayed ribbon gone. Our public alliance fractures into private ruptures as I face neighbors with splintered hope and fewer roofs. Old Man Toma looks at me with the map in his lap and says, quietly, that we misread the tide. I keep thinking of the copper locket against my ribs and how small the photograph inside seems. The city stabilizes in the material sense — Rin’s team patches exposed nodes — but social trust is gouged. Elias’s optimism collapses into denial, then defensiveness. I am left to gather what is left, and in doing so, learn that good intentions can precipitate disaster.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Elias",
+                "Rin Voss",
+                "Old Man Toma",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Old Dock District",
+                "Breached boardwalk",
+                "Flooded Promenade"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "The Price of Scale",
+            "branch_designation": "Route A — Alternate Ending",
+            "narrative_focus": "After the pilot, Rin invites me to a private council to sign a public scale-up memorandum, promising transparency and oversight. I step into a glass-paneled meeting room, my olive jacket slightly rumpled, copper locket warm against my sternum. Her platinum-black hair is cut clean; the silver streak flashes with a rehearsed smile. She offers a prominent oversight seat to the Resilience Collective as a show of good faith. Elias looks at me with pleading eyes: \"This is the fastest way.\" I negotiate, demanding open-source architecture and binding, local veto powers. Rin’s poise cracks; she counters with time-limited clauses and emergency powers in the fine print. We accept with guarded language, believing we can hold a steering arm. The city applauds the compromise. Months later, a bureaucratic loophole invokes \"emergency stabilization\" and Rin authorizes remote control over key nodes. Neighborhoods that relied on handcrafted moorings find them overridden. I feel complicit: my signature sits on legal paper while neighbors sleep on raised planks. The price of scale is not just broken terraces but the erosion of trust, and my relationship with Elias, once built on shared hope, now relies on shadows.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Old Man Toma"
+            ],
+            "locations_used": [
+                "Glass-paneled meeting room",
+                "Cityscape reflections"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Knots and Keel",
+            "branch_designation": "Route B",
+            "narrative_focus": "I turn down the public offer. Instead, Ibe and I convene on the Floating Market of Canal Twelve, rope bridges and neon awnings flicker as vendors nod in solidarity. My sleeves are damp; the frayed ribbon knotted back into a tighter knot. We map salvageable pilings and shared desalination rigs, stitch together micro-grids of community pumps and modular planters. Old Man Toma brings stories and a brittle wooden compass, and neighbors who'd given up home gardens return to plant. Word spreads: our small-scale approach becomes contagious. Elias appears at a workbench one evening, oil on his palms, eyes that look troubled but earnest; he can't shake the lure of system-level impact, but he helps retrofit floating platforms anyway, smudging grease on his slate-blue undershirt. Serena tests our prototypes beside us, skeptical but constructive. We swarm the Skyfarm terraces with volunteers; the city starts to look less like a set of passive victims and more like a craftswoman’s workshop in motion. The energy is fierce and connective: we are climbing from fear into agency.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maia Soler",
+                "Ibrahim 'Ibe'",
+                "Old Man Toma",
+                "Elias",
+                "Serena Qiu",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Floating Market (Canal Twelve)",
+                "Skyfarm Terraces",
+                "Workbenches"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "The Rising Stitch",
+            "branch_designation": "Route B",
+            "narrative_focus": "For a while, our neighborhood thrives in the shadow of larger anxieties. Community pumps hummed, rooftop terraces fed more mouths, and the market’s neon awnings were less about survival and more about celebration. We patched a hundred fragile seams in the city’s fabric. But scale costs us in a different way: without TideGrid’s broad stabilization, some districts farther out — along the exposed Old Dock District — face catastrophic erosion in a sudden season of storms. Our small pockets of resilience can't slow a regional surge. Governments scramble; Rin uses the crisis to mandate centralized stabilization. She claims we were reckless for refusing her plan. Elias, privately, confesses that some of his early test data predicted a need for both approaches; he has regrets but also maintains his belief in scale. The press frames us as parochial idealists while Rin and her consortium move to seize authority. My hands ache from work, my field jacket salt-streaked, and the sense of ascendancy curdles into impotence. The community endures but not unscarred: beloved old docks are gone, and with them, pieces of memory that cannot be replaced.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 9,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Old Man Toma",
+                "Neighbors",
+                "Press"
+            ],
+            "locations_used": [
+                "Skyfarm Terraces",
+                "Old Dock District",
+                "Canal Twelve"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "When the Grid Descends",
+            "branch_designation": "Route B / Ending",
+            "narrative_focus": "Rin leverages emergency powers to deploy TideGrid anyway. The consortium removes community vetoes under the rubric of saving lives. The machines her team drops are efficient — in the immediate term, inundation levels drop and hospitals stay dry — but their centralized control reroutes resources toward stabilized districts with influence, leaving the most marginal islands at the mercy of algorithmic triage. I walk the flooded promenade and see neighbors turned away from aid hubs by access protocols; their faces are thin with resentment. Elias is torn: his designs saved lives but also enabled unequal governance. He and I argue in a narrow alley, rain streaking down my hair; his logic becomes steel against my hurt. Ibe organizes resistance brigades; Old Man Toma curses the invisible ledger that decides who gets pumps. The social fabric tears: friendships fracture into accusations, and love becomes a casualty of policy. We built something beautiful by hand, and watched a larger machine appropriate our labor while erasing the local agency that gave it meaning.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Ibrahim 'Ibe'",
+                "Old Man Toma",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Flooded Promenade",
+                "Centralized TideGrid deployment sites",
+                "Aid hubs"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "The Hollow Harbor",
+            "branch_designation": "Route B — Alternate Ending",
+            "narrative_focus": "In the aftermath, a compromise is brokered publicly: Rin’s TideGrid will deploy but with \"community liaisons\" appointed from local groups — a façade of inclusion. I sit at the negotiation table, my sea-green eyes tired at the corners, but I sign with the hope that liaison seats will protect vulnerable neighborhoods. Months later the liaisons are sidelined by emergency bureaucracies; Rin’s handpicked administrators override local concerns when metrics dip. The Harbor becomes efficient and bright, but at the cost of neighborhood rituals and informal economies. Market bargainers are routed through corporate permits; Old Man Toma’s storytelling nights are cancelled by liability constraints. Elias tries to console me with data about lives saved; his face is soft but distant, the gold fleck in his eyes dimmed by calculation. I find myself policing the very system I helped birth, and the moral economy of care frays. I wonder if there was ever a way to protect both lives and autonomy, or if the urgency forced choices none of us were prepared to make.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Old Man Toma"
+            ],
+            "locations_used": [
+                "Harbor",
+                "Canal Twelve",
+                "Market stalls"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Middle Reaches",
+            "branch_designation": "Route C",
+            "narrative_focus": "I attempt the third way: broker a hybrid system that mandates modular TideGrid nodes with binding community oversight and open-source architecture. Rin agrees to publicly codified oversight panels; Elias spearheads technical transparency and seeds his code into public repositories, his fingers dusted with salt and grease. Ibe and I recruit artisans to create physical oversight markers — carved wooden sigils that indicate local control points. For weeks the plan appears to work: pilots are deployed, communities participate in governance, and the city breathes with cautious optimism. The Skyfarm terraces feed more people, and the Flooded Promenade looks less like a scar. Rin’s smiles are controlled but sincere; Elias and I move with an awkward, hopeful intimacy, sharing late-night debugging and soup on raised platforms. Serena helps design fail-safes. The hybrid feels like a craft — equal parts machine and human knot — and I savor the sense that we’ve found an elegant axis between scale and autonomy.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Ibrahim 'Ibe'",
+                "Serena Qiu",
+                "Artisans"
+            ],
+            "locations_used": [
+                "Pilot hybrid deployment sites",
+                "Skyfarm Terraces",
+                "Flooded Promenade"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Frayed Redundancies",
+            "branch_designation": "Route C",
+            "narrative_focus": "The hybrid’s promise falters under time and politics. Coordinated nodes created necessary redundancies, but when a sudden storm spikes, a sequence of fallback protocols defaults to Rin’s centralized override — ostensibly to protect failing hospitals. The overlays meant to be community-controlled are usurped by emergency clauses that weren’t fully tested. The result: some neighborhoods get prioritized stabilizing flows; others receive a delayed response. I stand on a roof that used to belong to an aunt, watching modular nodes switch to remote control, the sigils I helped carve suddenly illuminated and meaningless. Elias says he pushed back but was outmaneuvered legally; his hands shake as he shows me logs of override calls. I feel betrayed not just by systems but by the idea that technical design could guarantee moral outcomes. Love and intent fracture into recrimination. Our coalition loses credibility as neighbors who relied on the hybrid find themselves second-class in practice. The scaffolding of our compromise groans under the current; hope begins to leak away.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Maia Soler",
+                "Elias",
+                "Rin Voss",
+                "Neighbors",
+                "Artisans"
+            ],
+            "locations_used": [
+                "Modular node sites",
+                "Aunt's roof",
+                "Community sigils"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "The Last Ledger",
+            "branch_designation": "Route C / Ending",
+            "narrative_focus": "The crash is both bureaucratic and intimate. Rin invokes a last-resort stabilization ledger that allows remote, prioritized command of nodes in declared emergencies. She frames it as inevitable; Elias, wounded and exhausted, signs procedural waivers he says will save lives. The ledger works, materially — major hospitals stay dry, and catastrophe is averted in the short term. But it also codifies centralized control. Neighborhood autonomy dissolves into compliance. I wander the Floating Market at night and see vendors whose moorings were altered by algorithmic rescheduling; Ibe’s carpentry business is diminished because contracts favor TideGrid-certified suppliers. Elias and I talk less in the ways that matter: his gray-blue eyes now avoid my sea-green gaze when policy minutes are read aloud. Old Man Toma folds his map and goes quieter. The city is safer in a statistical sense, but something essential is gone — the lived democracy of shared decisions. I learn that salvation can be calibrated in numbers while human loyalties are harder to quantify; we survive, but we lose each other in the ledger’s wake.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Rin Voss",
+                "Elias",
+                "Ibrahim 'Ibe'",
+                "Old Man Toma",
+                "Vendors"
+            ],
+            "locations_used": [
+                "Floating Market",
+                "Canal Twelve",
+                "City screens"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Ashes on the Promenade",
+            "branch_designation": "Route C — Alternate Ending",
+            "narrative_focus": "In an attempt to save both lives and local memory, I accept a transitional framework that gradually cedes control to automated stabilizers while promising eventual restitution and local reinvestment. It is the softest compromise I can imagine. For a breath, it feels just. But in practice, the restitution never fully arrives. The automated stabilizers function well enough to prevent total disaster, but funding flows divert to the consortium’s long-term upgrades. The Skyfarm terraces are maintained; the Old Dock District's art mosaics are digitized and archived — which feels like a polite way to say they were removed. Elias grows resigned; his optimism is replaced with a quiet, mechanical competence. We continue to share small things — a thermos of tea, a late repair session — but the intimacy is hollowed by policy. I find myself speaking Old Man Toma’s map aloud to anyone who will listen, trying to keep memory from turning into curated content. The final ledger balances are neat; the human ledger is not. We saved the city’s body but lost pieces of its heart.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maia Soler",
+                "Elias",
+                "Old Man Toma",
+                "Artisans"
+            ],
+            "locations_used": [
+                "Skyfarm Terraces",
+                "Old Dock District",
+                "Canal Twelve"
+            ]
+        }
+    ],
+    "remarks": "Endings: Route A endings (Chapters 6 and 13) show technical triumph followed by catastrophic infrastructural and moral collapse; personal relationships and local trust are destroyed. Route B endings (Chapters 9 and 14) depict community agency sustained temporarily but overwhelmed by centralized mandates; culture and autonomy are eroded even as lives are materially saved. Route C endings (Chapters 12 and 15) render the hybrid as a kind of success that nonetheless institutionalizes control and archives the city’s memory, producing a survival that feels empty to those who cherished democratic care. Across all branches the Icarus arc is strict: a rapid ascent into apparent success, then a precipitous fall that forces Maia to reckon with the costs of decisions made in urgency.",
+    "_meta_source_world": "world_setting_Curve_4_Story_1.json",
+    "_meta_arc_strategy": "Icarus (Rise-Fall)"
+}

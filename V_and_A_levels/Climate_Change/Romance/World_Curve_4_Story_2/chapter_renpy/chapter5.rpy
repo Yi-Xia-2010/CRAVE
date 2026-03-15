@@ -1,0 +1,247 @@
+label chapter5:
+
+    # [Scene: Lower Quay | Morning — A pale, bruised sun]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant hammering of maintenance crews; gulls calling; a low, nervous undertow]
+    # play music "music_placeholder"  # [Music: Sparse, urgent percussion under a rising synth tone]
+    "You are already here when the first fisherman arrives — before the council bus, before the press caravan. The pilot’s pylons loom like a new spine offshore, dark and vertical against the light. Their sensors blink methodically, an indifferent heartbeat at the edge of everything."
+    "The morning smells of wet rope, diesel, and algae. A low, almost metallic tang rides the air — the taste of seas rearranged."
+    "Jonah catches your eye first. His grin is small and tight; the grin of someone trying to hold a shape together. Rosa stands a little behind him, shawl wrapped, hands full of seed packets she refuses"
+    "to set down. They are the reasons you did this and the faces that make apology feel both necessary and inadequate."
+    "Old Ramon, a wiry man with salt-bleached hair and hands like cleavers, paces. He carries a logbook swollen from damp. When he speaks, his voice shaves the morning quiet."
+
+    "Ramon" "You've watched the trawls, Maya Soren. We used to come back with nets full. This week — the net's the weight of a dinner plate. The juvenile catch ain't showing. Something's changed at the mouth."
+    "You keep your voice low because your throat is already full of other words — contract clauses, sensor offsets, escrow accounts — words that sometimes sound like consolation when what the quay needs is restitution."
+    show maya_soren at left:
+        zoom 0.7
+
+    maya_soren "Show me the logs. Show me the hauls. Let's look at timelines together."
+    "Ramon lifts the log like an accusation. 'All here. Same tides, same weather three years on. Then the pylons went in. The eddies shifted. Currents sheared different.'"
+    "Dr. Lena arrives then, brisk, tablet clutched like a scalpel. Her presence narrows the space — clinical, exacting. She taps through graphs; her face folds into something that isn’t surprise anymore, only the flattening of someone cataloguing damage."
+    show dr_lena_huang at right:
+        zoom 0.7
+
+    dr_lena_huang "Preliminary transect surveys show a shift in littoral flows. Kelp density near the inner shoal dropped twenty percent in eight weeks. Larval drift models indicate altered settlement corridors. It's correlational now, but —"
+    "Her 'but' hangs in the air like a rope waiting to be tightened."
+    "Elias Voss comes up the quay with tired sand on his boots and a smile that doesn't reach his eyes. He moves toward you as if reaching for steadiness. When he takes your hand, it's a quick squeeze — the anchor you felt the night the contract was signed."
+    show elias_voss at center:
+        zoom 0.7
+
+    elias_voss "We put monitoring buoys on the channels. If there's an anomaly, we catch it. We'll adjust the modules' apertures. We can iterate."
+    "You want to believe the 'we.' You want the engineering certainty he offers to be enough. But Jonah's hands are folded like an accusation and Rosa's eyes are small, bright points of pain."
+    hide maya_soren
+    show jonah_mek at left:
+        zoom 0.7
+
+    jonah_mek "Iterate? For how long? Our mouths don't wait for iterations. People go hungry."
+    "Conversation curls and recoils, multiple voices layering — fishermen, technicians, city aides phoning in updates, a murmured radio channel with voices you half-know. The arousal builds—each new fact a splintering note. Your chest tightens, every breath a count toward something you feel but cannot yet name."
+
+    menu:
+        "Stay and sift the fishermen's logs":
+            "You crouch with Ramon, fingers numb from the cold, tracing tide marks with him. Each line is a ledger of loss; each pause in his speech feels like a new opening you didn't expect."
+        "Go with Elias to inspect the monitoring buoys":
+            "You climb into Elias's skiff. Wind hits you like an intent. At the buoy, you reach fingers into salt-slick metal and try to read the sea's quiet code; Elias murmurs possibilities — fixes — and you hear urgency in his breath."
+
+    # --- merge ---
+    "Jonah watches the micro-decision you didn't announce and says, quietly:"
+    "Jonah watches the micro-decision you didn't announce and says, quietly:"
+
+    jonah_mek "Words won't fix nets. People need work, and a plan that don't just make a prettier map for the Council."
+    hide dr_lena_huang
+    show maya_soren at right:
+        zoom 0.7
+
+    maya_soren "We can do both. We have to."
+    "The certainty with which you say it is part vow, part scaffolding to keep your own resolve from unthreading. The fishermen leave in small knots of mutters and suspicion. You stand with Dr. Lena and Elias"
+    "Voss until the skiffs become dots. The tide is moving differently beneath them; you can feel it in the way ropes tighten, and in the way the pylons' reflections shudder."
+    # [Scene: Promenade | Midday — Boardwalk crowded with officials and a scattering of locals]
+    hide elias_voss
+    hide jonah_mek
+    hide maya_soren
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Microphones crackling; polite applause; an undertone of murmured protests]
+    # play music "music_placeholder"  # [Music: A bright civic brass line that clashes with the undercurrent of a lower, anxious bass]
+
+    "By noon the city has organized a press moment" "Pilot shows stabilization of flood markers,' reads the banner. There are cameras, an emcee with the practiced smile of someone who knows how to arrange narratives into neat columns. City representatives offer you a hand and a phrase — 'leadership in crisis"
+    "You step up, satchel heavier with the morning's logs and the ledger of decisions. You speak clearly, because the podium wants clarity. You speak of buy-time, of the need to protect neighborhoods, of the many hands that made the pilot possible."
+    show maya_soren at left:
+        zoom 0.7
+
+    maya_soren "We agreed to test, and to monitor. We agreed that harm, if it appears, will be documented and addressed. That promise holds."
+    "Polite applause. A camera lingers on your face. In that aperture, you scan the crowd: Elias Voss, by the edge, jaw set; Asha Reed, far at the fringe, arms folded, her expression sharp and unreadable; Jonah and Rosa nearer, faces taut."
+    "Asha Reed moves forward like a tide that has found a passage. Where she stands, the crowd's tone shifts — a ripple of attention. Her voice slices through the careful program."
+    show asha_reed at right:
+        zoom 0.7
+
+    asha_reed "Test? You call it a test when people's livelihoods vanish? That 'pilot' pushed by developers and consultants is changing currents that feed our children. Who decides who gets to live here?"
+    "The question is accusation and a pronouncement of betrayal. Cameras pan. The crowd's energy tightens into a wire."
+    "A city aide tries to interpose with a smile and talking points. Elias Voss steps up beside you, protective and immediate."
+    show elias_voss at center:
+        zoom 0.7
+
+    elias_voss "We didn't intend this. The modules were designed to reduce wave energy and restore kelp. We can —"
+
+    asha_reed "You can? You can, until we lose our nets and your 'can' is a map of who's left standing. How many studies before a shore ends up rearranged?"
+    "The exchange lengthens, the microphone amplifying every edge. A journalist shouts a follow-up. A group of fishers shout back. The cordiality of the midday event peels away, exposing a bruise."
+    "Maya Soren tries to steer the tone down, to pull together facts and compassion into something reasonable."
+
+    maya_soren "We need to slow down and do reparations now. Immediate emergency relief for affected fishers, funded out of the pilot budget. A rapid-response team to open channels, make adjustments. We'll publish all data; we'll put oversight in the hands of community reps."
+
+    asha_reed "Reparations after the fact isn't prevention."
+
+    elias_voss "They're a bandage while we tweak the system."
+    "Asha Reed's gaze flicks to you then — not quite unreadable, but complex. For a heartbeat it's impossible to tell whether it's anger at the policies or grief for the people who raised her. Then she"
+    "turns and, to the assembled crowd, her voice tightens into something that could burn bridges."
+
+    asha_reed "You talk about oversight, Maya Soren. You sign contracts that silence committees. When did the community become a line item?"
+    "The crowd reacts — tension turning into a louder, more electric noise. You feel heat behind your eyes, a pressure building in your ears. The arousal is no longer a tide but a breaking."
+
+    menu:
+        "Take the mic back and list reparations in detail":
+            "You list deliverables — emergency funds, a rota of community monitors, a clause to halt deployment if damage continues. Your voice is measured, legal-sounding, trying to rebuild trust with lists."
+        "Step away from the podium and go to the quay with Asha and the fishers":
+            "You step down, letting the crowd roar, and move toward the quay. Asha's shoulders tighten; fishermen watch you approach. It's an act that reads as solidarity, and it risks rattling the official frame at the podium."
+
+    # --- merge ---
+    "Elias Voss looks at you, then at Asha Reed, then back. His mouth opens, closes. You see the old, earnest energy there, the part of him that always wants to fix things with objects and plans."
+    "Conflict shows on his face — between the engineer who believes in iteration and the man who loves you and wants your conviction to match his own."
+    "Elias Voss looks at you, then at Asha Reed, then back. His mouth opens, closes. You see the old, earnest energy there, the part of him that always wants to fix things with objects and plans."
+    "Conflict shows on his face — between the engineer who believes in iteration and the man who loves you and wants your conviction to match his own."
+
+    elias_voss "Maya Soren — we can control the release. If we calibrate the modules, open the channels in the south... it's technical."
+
+    asha_reed "Technical fixes always have a human ledger."
+    "The back-and-forth becomes a saw. The promenade's air tastes metallic now, like something about to split. Cameras play it back in real time; social feeds begin to thrum."
+    # [Scene: Coastal Research Vessel 'Aster' — Laboratory | Late Afternoon]
+    hide maya_soren
+    hide asha_reed
+    hide elias_voss
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Equipment hums; the occasional ping of sonar; a low, tense murmur of overlapping conversations]
+    # play music "music_placeholder"  # [Music: Rapid strings ratcheting tension, a low synth rumble]
+    "You and Elias Voss shelter in the lab with Dr. Lena and a handful of technicians. The Aster is a place where data comes in and comes clean — or where it tells you how badly"
+    "you misread the water. Lena places a video on-screen: a time-lapse of sediment plumes, recorded before and after the pilot modules went into place. The images are stark; currents that used to eddy in a slow,"
+    "familiar rhythm now whip in new directions."
+    show dr_lena_huang at left:
+        zoom 0.7
+
+    dr_lena_huang "See the shift at 14:42? The module's wake creates a persistent shear. That shear is moving larval patches offshore. I logged a six-kilometer downstream displacement on settlement zones."
+    "Elias Voss watches, hands flexing. The lab lights catch in his eyes the way exhalation catches light: quick, bright, then gone."
+    show elias_voss at right:
+        zoom 0.7
+
+    elias_voss "If we change the orientation of the leading modules, we can reduce wake. There are design adaptations — vents, adjustable fins. It's a process."
+
+    dr_lena_huang "It's also a trade-off. Change the wake and you change sediment deposition. You trade one habitat for another. For the fisheries that depend on the current configuration, that's not a neutral exchange."
+    "Your chest is a drumbeat of apology and calculation. You think of the displaced community garden from years ago, the one you had to prioritize elsewhere — the memory a raw nerve. You have been wearing leadership like armor, and tonight the armor scratches."
+    "Asha Reed arrives at the lab doorway with a small group from the quay. Her entrance is compact, like someone walking into a wound that has been left open. Her eyes find yours and hold. The room tightens as if sound itself has been pulled taut."
+    show asha_reed at center:
+        zoom 0.7
+
+    asha_reed "You promised oversight, Maya Soren. Promises look thin through tears."
+    "You step forward, voice quieter here under the lab lights, but the words feel like they must hold weight."
+    hide dr_lena_huang
+    show maya_soren at left:
+        zoom 0.7
+
+    maya_soren "I didn't mean for this to happen. I won't hide from it. Reparations, emergency funds, community monitors with veto power over deployment adjustments. I will sign it myself."
+
+    asha_reed "Signing after harm is not the same as preventing harm."
+    "Elias Voss interjects, urgency rattling him."
+
+    elias_voss "If we halt deployment now, the neighborhoods that lie behind the pylons lose protection. The models—"
+
+    asha_reed "—and the fishers lose their livelihood. We can't treat these things like opposing chess pieces, Elias."
+    "Dr. Lena, who has stayed clinical until now, looks at both of you with an exhausted clarity."
+    hide elias_voss
+    show dr_lena_huang at right:
+        zoom 0.7
+
+    dr_lena_huang "Both outcomes have harm. The only ethical path is to make decisions within a framework that admits trade-offs and centers those who bear the costs."
+    "The conversation turns inward then, a focusing of blame and grief into the room. Jonah speaks from the edge."
+    hide asha_reed
+    show jonah_mek at center:
+        zoom 0.7
+
+    jonah_mek "You said you'd hold the line for the people who live here, Maya Soren. We need action, not lists."
+    "You open your mouth to answer, to stitch words into a bridging plan, but Elias Voss's hand finds yours and holds it like a plea."
+    hide maya_soren
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "We can fix this. I can sleep if I know we did everything."
+    "You want to believe him. You want to anchor to that certainty. But somewhere between the lab screens and the hushed arguments, you feel the public praise you received earlier like a thin skin — too"
+    "thin to be armor — and the community's anger like a stone sinking through it."
+
+    "The room begins to feel too small. Voices rise. Lena's data clicks and ticks like a metronome of consequence. A tech spills a cup of coffee; the sound is sharp and absurd in a room stitched with higher stakes. Asha Reed's group starts to chant outside the lab doors, the sound muffled but present" "Listen. Account. Revoke."
+    "Elias Voss's jaw tightens; his voice has a new edge you haven't heard before."
+
+    elias_voss "We didn't do this to hurt people. You think I would push something knowing it would destroy nets? That's not who I am."
+    hide dr_lena_huang
+    show asha_reed at right:
+        zoom 0.7
+
+    asha_reed "Who you are is not what matters — what matters are the choices made. Who pays the price."
+    "The argument fractures into accusations, each one a thrown knife. You feel each cut, even those not aimed at you, because you are the fulcrum where policies, hopes, and heartbreak have been balanced."
+    "You try once more, voice steady by force:"
+    hide jonah_mek
+    show maya_soren at center:
+        zoom 0.7
+
+    maya_soren "We will fund immediate relief. We will convene an independent panel. We will put community monitors in charge. If evidence shows continued harm, we will halt deployment."
+    "Asha Reed's laugh is short, not unkind but brittle."
+
+    asha_reed "You say 'we' like it still includes them."
+    "Her pronoun echoes: them. It lands like a stone."
+    "Elias Voss's eyes flick to you, searching, wounded."
+
+    elias_voss "Do you trust me?"
+    "You feel the question as a hot coal, heavy in your palm. Trust is a private thing made public in this moment. Your chest tightens in a way that is almost physical pain."
+
+    maya_soren "I want to. I need to. But trust must be earned each day — and I've asked people to accept too much without seeing enough."
+    "Silence compresses around the sentence. Outside, the chanting swells into a roar. The lab's equipment hums, indifferent. Dr. Lena's tablet pings with another data set that complicates what you just said; the numbers show an accelerating trend."
+    hide elias_voss
+    show dr_lena_huang at left:
+        zoom 0.7
+
+    dr_lena_huang "We're seeing non-linear responses consistent with a threshold crossing. If the system flips, restoration becomes exponentially harder."
+    "The word 'threshold' is a small, cold bell."
+    "Your hands are steady because you must be steady, but inside you are fracturing along thin fault lines."
+    "Rosa steps forward, her voice small but carrying the weight of history."
+    hide asha_reed
+    show rosa_calder at right:
+        zoom 0.7
+
+    rosa_calder "We will need more than money. We need decision-making that remembers our names."
+    "Asha Reed nods, and for a breath you see why she became who she is — not because she wants to burn bridges, but because she knows what happens when those bridges collapse."
+    "The argument reaches a pitch: Elias Voss snaps, Asha Reed answers, Dr. Lena points to data, Jonah pleads for practical steps, fishermen call out from the quay. You stand between them, voice failing you for the first time in public leadership."
+
+    maya_soren "I'm sorry."
+    "The apology is a small thing in a room full of instruments and legal frameworks and hungry mouths. Still, it lands like a thrown rope."
+    "A sharp metallic creak from outside makes everyone look up. The hull shudders—the tide is moving in that unfamiliar rhythm again. Someone at the lab window points: the waterline offshore glows, a strange, rapid brightening that"
+    "could be bioluminescence or an eddy reflecting light, and for a second the sea looks agitated in a way that is not just meteorological, but structural."
+    "Adrenaline spikes — not the clean, purposeful spike of planning, but a jagged, anxious flare. The arousal climbs to a fever. Voices overlap into a single serrated noise. The room feels like a ship tilting: small motions amplified into the sensation of imminent knocking against something rigid."
+    "You realize, with a cold precision, that the hourglass has fewer grains left than you thought."
+    # [Page-Turn Moment]
+    "You stand on the vessel's deck as the lab doors open behind you; salt air slaps your face. The sound of the protest is a distant rumble. In the water, the pylons stand like teeth and"
+    "the surface of the bay puckers in ways the models didn't promise. You press your fingertips against the railing and feel the tremor through metal. Everything you've tried to hold—plans, promises, relationships—seems to be answering the"
+    "same question: who will stand when the sea rearranges itself?"
+    "The sky to the west has thickened, not with rain yet, but with an electric pressure that makes the hair on your arms lift. Your phone vibrates once — a message you don't read. Your hand"
+    "finds Elias Voss's in the dark of the deck; he squeezes, fierce and sudden and pleading."
+    "You inhale the briny air and let the moment stretch: a breath before the next thing hits. The city waits. The community waits. The tide waits with an indifferent schedule."
+    hide maya_soren
+    hide dr_lena_huang
+    hide rosa_calder
+
+    scene bg ch5_4001e7_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single sustaining chord, then a sharp staccato build]
+    # play sound "sfx_placeholder"  # [Sound: A distant, rising roar — wind or the sea, you cannot tell]
+
+    scene bg ch5_4001e7_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter6
+    return

@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where global environmental pressures shape intimate choices: love becomes entangled with stewardship, sacrifice, and community survival. The narrative tension comes from competing needs — ecological restoration vs. short-term livelihoods and development — forcing the protagonist to choose between protecting the ecosystem, preserving relationships, or compromising values. The romance arc is driven by mutual growth (and potential fracture) as characters navigate moral trade-offs, public policy, and personal loss, allowing for multiple endings based on whether they prioritize love, truth, community, or pragmatic survival.",
+    "setting": "Near-future coastal town of Lira Bay, a once-sheltered harbor now wrestling with rising tides, intensified storms, and contested adaptation projects. The world blends small-town warmth and working-class grit with urgent scientific fieldwork and political maneuvering. Atmosphere: salt-laden air, persistent low clouds, golden late afternoons that belie an underlying anxiety about the next storm.",
+    "visual_style": "Muted coastal palette, textured painterly backgrounds, cinematic lighting; realistic anime-influenced character art, wet-surface reflections, environmental detail (sea-spray, reeds), emotional close-ups",
+    "main_characters": [
+        {
+            "name": "Maya Soler",
+            "role": "Protagonist",
+            "personality": "Empathetic, headstrong, meticulous, deeply tied to place and memory. Scientific, idealistic, occasionally blunt. Quick to comfort others but slow to accept help for herself.",
+            "appearance_features": {
+                "hair": "Dark auburn, shoulder-length waves with sun-bleached tips and an often-mussed side braid for fieldwork",
+                "eyes": "Sea-green with gold flecks, rounded and observant, usually rimmed with tiredness from late nights in the lab",
+                "clothing": "Olive-green field jacket with patched elbows, salt-stained denim, breathable technical shirts, knee-high rubber boots stamped with a lab sticker; often rolls sleeves and has mud on cuffs",
+                "accessories": "Waterproof Moleskine notebook hung on a cord, a braided rope bracelet from childhood, a tidepool-shaped silver hairpin, a digital waterproof wrist device for data logging"
+            },
+            "goal": "Restore and protect the Lira Bay tidal marsh to preserve biodiversity and long-term community resilience.",
+            "background_story": "Born and raised in Lira Bay; watched the house her family lost to a storm as a teenager. Studied marine ecology, returned to apply restoration methods learned overseas. Feels responsible to the community that raised her and haunted by the memory of inaction during past disasters.",
+            "emotional_trait": "Stubborn compassion — she perseveres for others but denies her own need for emotional support."
+        },
+        {
+            "name": "Arin Kai",
+            "role": "Love Interest",
+            "personality": "Grounded, pragmatic, quietly idealistic. Loyal to family and tradition, slow to anger but fiercely protective. Skilled at negotiation and reading people; more comfortable with practical fixes than big theories.",
+            "appearance_features": {
+                "hair": "Pitch-black with shaved sides and a longer top that he often ties into a short knot when working",
+                "eyes": "Warm amber, slightly hooded and quick to crinkle when he smiles",
+                "clothing": "Worn oil-streaked fisherman's coat layered over a well-fitted knit sweater, rolled cargo pants, a faded baseball cap for sun protection, and scuffed leather boots",
+                "accessories": "Small brass compass pendant inherited from his father, a thin braided cord around his wrist, calloused hands with a faint tattoo of a wave on his forearm"
+            },
+            "goal": "Keep his family's fishing business afloat while finding a way to adapt so the town can survive economically.",
+            "background_story": "Third-generation fisher whose family livelihood is threatened by quota changes and coastal erosion. Took local leadership roles reluctantly to ensure his neighbors can keep working the sea. Knows the bay intimately — tides, currents, and the best hiding places for fish.",
+            "emotional_trait": "Guarded hope — he craves stability and masks fear with practical solutions, which can make him appear emotionally distant."
+        },
+        {
+            "name": "Evelyn Hart",
+            "role": "Antagonist",
+            "personality": "Calculating, eloquent, and efficient. Publicly charismatic with a private streak of conflicted pragmatism. Believes in large-scale, top-down solutions and views slow grassroots projects as risky luxuries when lives and infrastructure are at stake.",
+            "appearance_features": {
+                "hair": "Sharp silver bob, immaculately cut and glossy",
+                "eyes": "Steel-blue, narrow and assessing, often behind thin-rimmed glasses when in meetings",
+                "clothing": "Tailored charcoal coat and sleek waterproof trench for site visits, crisp blouses, smart ankle boots; always looks composed even in wind",
+                "accessories": "An engraved signet ring, a slim tablet for policy briefs, and a practical leather folio filled with maps and economic projections"
+            },
+            "goal": "Implement large-scale adaptation measures (including a proposed seawall and redevelopment plan) to protect the town's key infrastructure and attract investment.",
+            "background_story": "A policy director who rose through regional government. Not originally from Lira Bay but moved there with the mandate to guard the region against economic collapse. Has a reputation for delivering results, and her proposals are backed by influential sponsors.",
+            "emotional_trait": "Resolute pragmatism — she can justify hard choices, but beneath that is a flicker of guilt about the cultural and ecological costs."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Noah Reyes",
+            "relation_to_main": "Childhood friend of Maya",
+            "appearance_summary": "Lean, freckled, sun-creased skin, always in a faded hoodie and a cap; quick smile and weathered hands.",
+            "function_in_story": "Local fixer and confidant who helps with boats, offers levity, and provides on-the-ground intelligence about fishermen's concerns and clandestine developments."
+        },
+        {
+            "name": "Rita Soler",
+            "relation_to_main": "Maya's grandmother / community elder",
+            "appearance_summary": "Small, stooped figure with silvery hair tied in a bun, warm brown eyes, and a floral scarf she wears even in storms.",
+            "function_in_story": "Cultural memory keeper who reminds the town of its history and moral duties; her stories galvanize Maya and slant community sentiment."
+        },
+        {
+            "name": "Lina Park",
+            "relation_to_main": "Ally / NGO organizer",
+            "appearance_summary": "Short-cropped dark hair, bright knit beanie, cargo vest with pins from different environmental campaigns, always has a tablet and a megaphone.",
+            "function_in_story": "Organizes community science, protests, and legal pressure; supplies data, mobilizes volunteers, and sometimes clashes with Maya over strategy."
+        },
+        {
+            "name": "Mayor Tomas Greer",
+            "relation_to_main": "Local official who negotiates with Evelyn",
+            "appearance_summary": "Broad-shouldered, balding at the temple, wears a rumpled suit and tired expressions; his voice is gravelly from long meetings.",
+            "function_in_story": "Represents the town's political dilemma: pressured by investors and residents alike; his decisions become the hinge for key plot choices."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Lira Bay Harbor",
+            "visual_description": "A sweeping crescent of wooden piers and stilted pastel houses. Golden hour casts long reflections across rippled water; gulls wheel against an overcast sky. Weathered nets, rows of buoys, and salt-streaked wood create textured foregrounds. When storms approach the horizon darkens to slate, wind rips flags, and the smell of ozone becomes sharp."
+        },
+        {
+            "name": "Tidal Marsh Restoration Site (The Flats)",
+            "visual_description": "Low, mirror-still channels crisscrossing reeds that glow pale green in late morning. Mist often hangs low, creating soft diffused light; shallow water reflects a wide sky, making the marsh feel both fragile and expansive. Muddy boardwalks and scattered measurement stakes mark scientific work; tiny plants glisten with salt and dew."
+        },
+        {
+            "name": "Municipal Hall & Seawall Construction Zone",
+            "visual_description": "Brutalist concrete forms lit by harsh mid-day sun and night floodlights; cranes and excavators silhouette against a bruised sky. At night the site is cold, with sodium streetlights casting long, anxious shadows. Temporary trailers, blueprint tables, and stacks of sandbags imply urgent action and contested power."
+        },
+        {
+            "name": "Fisherman's Pier & Lantern House",
+            "visual_description": "A narrow, splintered pier leading to a squat lantern house at the end. Lamps glow amber in fog; the pier planks are slick with sea-spray. Underclouds reflect faint neon from a distant development, juxtaposing old-world working textures with creeping modernity."
+        },
+        {
+            "name": "Rooftop Garden & Solar Terrace",
+            "visual_description": "A reclaimed roof turned oasis: raised beds, scavenged pots, and patchy solar panels. Late-afternoon warmth, string lights, and a panoramic view of the bay. The terrace becomes a quiet refuge; sky tones shift quickly here, making it a place for private conversations and decisions."
+        },
+        {
+            "name": "Main Street After a Storm (Floodplain)",
+            "visual_description": "Shops half-submerged in glassy puddles, neon signs fractured in water reflections. The sky is heavy and low; broken awnings flap. The atmosphere is still and reflective, with muted color—peels of paint, rust, and wet asphalt forming a melancholic palette."
+        }
+    ],
+    "theme": [
+        "Climate change",
+        "Community resilience",
+        "Love versus duty",
+        "Ethical trade-offs between conservation and development"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A community-led hybrid solution succeeds: the marsh restoration mitigates storm surge while adaptive fishing quotas and micro-enterprises sustain livelihoods. Evelyn's rigid seawall plan is replaced with a scaled, ecologically informed adaptation funded by a public-private compromise. Maya and Arin commit to each other, continuing joint stewardship of the bay."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Partial victory: the marsh is stabilized in sections but large swaths are lost to construction and a protective seawall. Economic pressure forces some families to relocate. Maya's project survives but requires her to travel frequently for funding and oversight; she and Arin drift apart gently, acknowledging their love but accepting different paths. The ending holds hope tempered by real loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "Developers and emergency policy favor the seawall and rapid redevelopment; the restoration is defunded. A severe storm breaches new defenses, damaging lives and destroying much of the bay's habitat. Maya loses her field sites and trust in institutions, Arin's boat is wrecked, and their relationship collapses under grief. The town faces a long rebuilding with heavy costs."
+        },
+        {
+            "type": "True",
+            "summary": "Maya exposes corruption and questionable cost-benefit analyses behind the seawall proposal, forcing a public reckoning. The town votes on a new, more transparent path: mixed adaptation with stronger community oversight. Maya chooses truth and community over immediate romantic fulfillment—she continues leading restoration while leaving the romantic future open, ending with honest hope rooted in accountability."
+        }
+    ],
+    "estimated_chapters": 6
+}

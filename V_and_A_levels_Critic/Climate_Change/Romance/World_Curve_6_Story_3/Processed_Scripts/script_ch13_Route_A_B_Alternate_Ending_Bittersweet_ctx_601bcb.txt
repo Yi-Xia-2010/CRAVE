@@ -1,0 +1,201 @@
+### SCRIPT
+# Route: Route A/B — Alternate Ending: Bittersweet
+# Context: 601bcb
+
+[Scene: Municipal Hall — Conference Room | Early Autumn, Overcast]
+[Background:"ch13_601bcb_1"]
+[Music: Low, insistent percussion; a heartbeat under glass]
+[Sound: Paper rustle, distant rain against the windows, murmured council voices]
+
+You sit with your notebook open, the tide-etched leather cool under your palm. The room smells of printer toner and someone’s strong coffee — municipal sterilization layered over the salt you carry in your skin. Months of meetings have honed every sentence into leverage; the contract on the table is the work of nights spent translating local stories into legal clauses. Your coral pendant presses at your sternum like a second heart.
+
+Cassian "Cass" Romano: "We can put it in. Bonded oversight, binding audit schedules, a rotation so your people truly vote on maintenance priorities."
+
+Jonah Reyes stands a step away from the table, arms folded around a fisherman's posture that has never learned to sit still. He looks at the clause with the same sharpness he uses to inspect a hull for rot.
+
+Jonah Reyes: "And if the bonds dry up? If someone higher up decides the audit’s too expensive next quarter? Who makes them hold to it when the money says 'cut'?"
+
+Cassian "Cass" Romano [measured]: "We write penalties. We tie payments to milestones. We place escrow accounts in municipal custody."
+
+Jonah Reyes [bitter]: "Escrow doesn't feed a family when their little trawler is gone. It doesn't fix that the firm can sue the town when we win a vote they don't like."
+
+You feel all those arguments as physical pressure: an inward pulling at the same place grief lives. You say the word that has steadied you since you came back to Brinehaven: "accountability."
+
+You speak, and your voice is steadier than your hands. You bring local knowledge to specificity — seasons of surge, memory of old sluice behavior, the time Old Man Rafi's boyhood boat slipped through a misaligned channel. Saira's data sits behind each anecdote; you anchor story to model, feeling the odd solidity of both.
+
+[INTERACTION]
+> Choice A: "Insist on quarterly, publicly published maintenance logs"
+> Choice B: "Demand a community-controlled emergency fund instead of strict logs"
+[Outcome A: "You push the language harder. Cass nods; Mayor Cole scowls but writes the amendment. Jonah looks away, jaw working. Old Man Rafi mutters a blessing under his breath."]
+[Outcome B: "You argue for cash-in-hand when the tide rises. Jonah’s eyebrows lift with something like relief. Cass pauses — calculating for legal exposure — then agrees, thin-lipped. Tessa claps once, quiet and fierce."]
+[MERGE: Continue]
+
+The room tilts with that little vote. For a handful of weeks the contract becomes a living thing: you hold steering meetings that are half translation, half negotiation. You learn to say "binding audit" with a mouth that wants to say "we will not be steamrolled." Cass learns the cadence of local distrust and matches it with a practiced softness. Jonah learns some of the new systems — the lockboxes, the sensor arrays — and trains crews with a patience that surprises him as much as it does you.
+
+Tessa comes in with seedlings for the Repair Garden, dirt under her nails and a grin that looks like the town’s teeth. For a while, things feel like they might hold.
+
+[Scene: Boardwalk & Docks | Late Summer — Sun after Rain]
+[Background:"ch13_601bcb_2"]
+[Music: Light, buoyant strings that try to turn toward hope]
+[Sound: Hammers, laughter threaded with low talk; gulls picking at dawn-caught fish]
+
+You walk the docks and feel the small victories as if they are tangible — a buoy that now reports waterline changes, a patch of restored marsh roots held by coir logs, a small repaired trawler bobbing where it shouldn't have been floating for so long. Jonah shows you a repaired winch with grease-smeared hands and a shy smile. He jokes, and the sound lands like a small, blessed thing in your chest.
+
+Cassian "Cass" Romano [soft]: "You were right about the local partnerships. The models — they improve when we feed them real memory."
+
+You realize you are holding his eyes longer than you had planned. There is relief in his expression; there is also the soft, dangerous thing that used to be a promise. For a few afternoons, the three of you—Mira, Jonah, Cass—move like a clumsy trinity: each step corrective, each hand learning the other's rhythm.
+
+But maintenance is a quiet tyranny. Grants are line items that rot under political seasons. A mid-level funding cut slides across a budget spreadsheet and takes with it a scheduled inspection. A subcontractor delays a sluice recalibration. A clause in the contract, exactly the one intended as safety, becomes an opportunity for a well-connected supplier to petition for leniency.
+
+[Scene: Mixed Infrastructure — Control Shed by the Sluice | Damp, Grey Afternoon]
+[Background:"ch13_601bcb_3"]
+[Music: Mechanical ticks and a pulsing electronic alarm; tension like an exposed wire]
+[Sound: Wind ratcheting outside; a radio buzzing with static and a distant, urgent voice]
+
+Your throat tightens when you open the maintenance log and find a gap: a missing calibration on a sluice that channels excess water away from the smaller slips. The requisition was approved late, the technician reassigned to a "priority repair" in a different district. You trace the paper trail and find polite emails, a late check, and a clause interpreted to allow a delayed compliance. The language you fought for is being read like a suggestion by people who never smelled salt in their lungs.
+
+Old Man Rafi: "Maps are not the sea. Maps are plans. Plans change. If you do not listen to how water remembers where it wants to go, you tie a rope to the wrong place and watch your boats get eaten."
+
+You call Cass. He answers on the second ring, voice tight.
+
+Cassian "Cass" Romano: "I’ll escalate. We have leverage — corporate oversight, penalties." (pause) "We need to make that repair happen now."
+
+Jonah Reyes [over your shoulder, low]: "We need people on it, not bureaucracy. We need crews. We need to shove our hands into muck and fix what the paper forgets."
+
+You feel the old pattern: systems built to save can fail where they meet the human and the weather. Energy ramps up; townsfolk are called into emergency shifts, faxes and keys and trucks moving like veins in a body roused for battle.
+
+[INTERACTION]
+> Choice A: "Push Cass to dispatch corporate crews immediately"
+> Choice B: "Organize a local crew push first, insisting community teams lead on-site decisions"
+[Outcome A: "You make the call. Cass's voice hardens into authority; tech teams mobilize within the hour. Jonah's jaw tightens but he helps load the trucks. The town watches as big machines roll in — a sight that comforts some and stings others."]
+[Outcome B: "You sign up the locals, hand out tools, and ask Cass to support with parts rather than lead. Jonah's shoulders drop in gratitude; Cass's acknowledgment is tight but present. Pride and risk braid together as the crew heads into the rain."]
+[MERGE: Continue]
+
+You choose both in the end—no, you try to choose both—and that is where the hybrid system is at its most beautiful and most brittle. The corporate machines arrive at dawn; the local crews are already waist-deep in mud. Schedules collide. Communications lag. Two chains of command, both intended as redundancy, become friction.
+
+[Scene: Boardwalk & Docks — Night, Quartering Gale Arrives]
+[Background:"ch13_601bcb_4"]
+[Music: Discordant strings, tempo accelerating; a storm drum of timpani and breathless staccato]
+[Sound: Warning sirens, shouted orders, the howl of wind; the metallic shriek of a sluice gate stuttering]
+
+The gale comes angled and hungry, a quartering force that tests every seam you have mended. You stand by the control shed as alerts cascade over the radio, breath coming out like fog. People are everywhere at once—crews mobilizing, Mayor Cole barking logistics, Tessa running supply lines with a lantern, Old Man Rafi steering an impromptu rescue skiff.
+
+You see the sluice control panel flashing a warning. The corporate feed says "override in progress." The community channel calls for a manual lock. You choose to run to the gate, palms slick on rusted metal.
+
+You try the manual release. It sticks. You push until the muscles in your forearms scream. Nearby, a subcontractor technician fumbles with the override, eyes darting to a remote terminal whose connection blinks. Your coral pendant thuds against your chest as you lunge — the metal buckles a half-inch and the sluice gives.
+
+For a breath the water moves where it should. Then a misaligned channel — an old, reconfigured sluice that the hybrid arrangement left to a delegated maintenance window — funnels an enormous surge toward the smaller slips. The angle is wrong. The energy finds the path of least resistance: a dozen small trawlers tied to family names on their transoms, boats that had been the first to come back after the last big storm.
+
+Shouts become a white noise of panic. Jonah Reyes is on the bow of a small vessel, hands raw, frantic, trying to lash a line. Cassian "Cass" Romano is beside him, the trench coat whipping, sleeves rolled back for the first time you have ever seen. He is shouting orders you can barely parse over the wind.
+
+Cassian "Cass" Romano [urgent]: "Cut the moorings, shift the buoys—now!"
+
+Jonah Reyes [rocking]: "We don't cut—they'll drift into the pier—"
+
+Cassian "Cass" Romano [interrupting]: "If they stay they'll be smashed!"
+
+You lunge, feeling the world a narrow tunnel. You can smell diesel and fish blood and the iron-bright bite of seawater mixed with fear. You yank at a rope. A boat surges past the pier like a hunted animal. You see Jonah's face — amber eyes wide, a bright smear of regret crossing him as he watches a craft he once grew up on flip and list under the pressure.
+
+You make choices in seconds that will shadow your name for years. You flip switches, reroute flows, shout into wind that seems to swallow words. Lives are saved—the hybrid systems root enough of the town in shelter that the hospital reports no immediate deaths—but property is not a life and property matters in a town like yours. When dawn comes it reveals the ledger in full.
+
+[Scene: Ruined Slip — Dawn After the Storm]
+[Background:"ch13_601bcb_5"]
+[Music: A single, keening violin over a low organ; the tempo slows but the ache remains]
+[Sound: Muffled sobs, people sorting through wet belongings, distant gulls picking through wreckage]
+
+You stand on the edge of a ruined slip with your coral pendant heavy as a stone. The water licks at a wharf that used to hold a dozen small trawlers; now, tangled hulls and broken planks make a gouged mouth. A dozen families—names you learned by heart during the Repair Garden project—are down to nets and memories tonight.
+
+Tessa moves like a shadow among people, offering wrapped tea and blankets, hands that never stop. Old Man Rafi sits on a splintered crate and hums some old, low sound that is less song than a letting go. Mayor Cole moves with the efficient horror of one who must tally costs even as her face tightens into private grief.
+
+You look for Jonah and find him on the beach, finger tracing the name on a charred transom where his cousin’s boat had once rested. He looks up at you with an expression you cannot read fully: love, accusation, the raw slab of betrayal.
+
+Jonah Reyes [flat, quiet]: "You said we'd keep them safe."
+
+You hear how small that sentence is and how large it feels when leveled at you. You have a thousand responses — clauses, emergency funds, forced audits — all the instruments you've used to keep the town afloat. None of them can put wood back into a hull that has been turned into a coffin of wet rope.
+
+Mira Kestrel: "We saved lives. We saved people. We did—"
+
+Jonah Reyes: "You did what you could. That's not the same."
+
+There is a pause that yaws wide between you. Cassian "Cass" Romano approaches, soaked, his face furrowed by a long night's command. For a moment his eyes find yours, and there is the look you described in your notebook months ago — the flicker that once meant hope now exhausted into a different color entirely.
+
+Cassian "Cass" Romano [quiet]: "We designed for probabilities. We couldn't account for every failure mode."
+
+Mira Kestrel: "We could have inspected the sluice sooner. I could have pushed harder for manual redundancies."
+
+Cassian "Cass" Romano [softly, a hand on your shoulder]: "You pushed. You created the oversight. We all did. But systems fail where humans and money meet. It's not on any single person."
+
+His hand is steady and warm. It is practical comfort: the offer of partnership in the ongoing work, not in the miracle you wanted to buy. His eyes hold something that looks very much like appointment — the promise of more meetings, more midnight fixes, more papers signed. It comforts and it isolates.
+
+Jonah Reyes's voice breaks on the next question but he asks it anyway, as if he needs the answer to anchor himself.
+
+Jonah Reyes: "Will you keep doing it with them? With him?"
+
+You look between Cass and Jonah, between the tangle of community hands and the polished tablet screens. Your chest is a map of small griefs and stubborn commitments. The town needs both kinds of hands, and you have tied yourself to both.
+
+You feel the split drawing like tide lines across your life. You think of Tessa's bright impatience, of Old Man Rafi's steady stories, of the children who slept under lantern light while crews worked. You think of your own guilt — an old ledger that never balances — and of how much easier it would be to choose a single thing.
+
+Tessa [soft]: "Whatever you choose, do not pretend the choices were easy."
+
+The town murmurs around you, a half-assembled chorus. People begin to name what they have lost. Someone starts collecting names to petition for emergency replacement grants; someone else teaches a child how to mend a torn net. Grief becomes work.
+
+You stand at the edge and let the full weight of the outcome land. The hybrid approach saved the hospital beds, prevented a mass evacuation, ensured the old folks survived another night. But the trade has been sharp. A dozen livelihoods — the small trawlers and what they represented — were lost because glue and scaffolding do not always behave predictably where different systems meet.
+
+Cassian "Cass" Romano watches you with a quiet, exhausted kindness. Jonah Reyes watches you with a heat that will not cool tonight.
+
+Jonah Reyes [after a long silence]: "I'm... I'm going out for a few days. I'll check on other slips up the coast. I—" (he exhales, a shudder of a laugh) "I can't fix this looking at it from here."
+
+You want to ask him to stay. You want to tell him that you loved him the way the town loves the harbor — despite its betrayals — that you will find a way to build the thing that won't let things like this happen again. But the words stall like a tide pulled back too fast.
+
+Mira Kestrel: "Jonah—"
+
+He holds up a hand. The gesture is not quite a dismissal; it is a small, careful boundary.
+
+Jonah Reyes: "You did what you could. You have to live with the rest."
+
+He turns and walks away along the wet planks, his shoulders hunched against wind and memory. You watch him go until the bend of the harbor hides him from view.
+
+Cassian "Cass" Romano closes the distance and then stands beside you in a different way than Jonah did. He does not try to replace what Jonah was. He offers a pragmatic solidarity.
+
+Cassian "Cass" Romano: "If you'll have me. Professionally. We can revise maintenance language, create redundancy audits that are not so easily gamed, fund local stewardship positions directly tied to payroll. I can fight for that in my firm. I will."
+
+His voice is not devoid of emotion; you hear a tiredness that might be hope. You nod because there is work to be done. Because something has to answer for what happened. Because the town needs people to keep building.
+
+Mira Kestrel: "Do it. But listen to them. Listen to Old Man Rafi. To Tessa. To the crews."
+
+Cassian "Cass" Romano [measured]: "I will. I promise to make the oversight enforceable."
+
+You clasp your pendant until the coral warms between your fingers. The future is a ledger you will spend the rest of your life balancing. There will be new policies, new contracts, new maps. There will also be funerals for small things that matter to a place — a boat, a shop, a workshop — and those losses will not show up on balance sheets.
+
+Old Man Rafi: "You saved more than you lost tonight, Mira. That is true. But some things need letting grieve properly. Let them grieve. Then fix them."
+
+In the days that follow there are hearings, emergency funds, the making of a municipal labor trust to staff maintenance positions, and tenacity that looks like bureaucratic paperwork. The town rebuilds in the slow, indecent way of people who have no other option. You sign amendments and you stand at memorials for small boats, and your hands learn the texture of both paper and rope.
+
+Jonah Reyes's absence becomes a hollow in the harbor you can still see when the light slants wrong. Cassian "Cass" Romano keeps his steady, professional presence, and sometimes you catch the way his eyes find yours across a table and hold, not with the old promise, but with the new: of partnership that is competent, necessary, and not the same as love.
+
+You will not say that everything is well. You will not write in flowery terms about redemption. The ending here is not an ending of full mending. It is a ledger closed for now, accounts balanced on a painful arithmetic: lives saved, livelihoods lost, friendships altered. You stand and breathe the sea and the smoke and the diesel and let the weight of all you tried and all that failed wash over you.
+
+[Background:"ch13_601bcb_6"]
+[Music: A low, sustained chord that dissolves into the gentle creak of recovering wood]
+[Sound: Soft wind; a gull calling as if to mark the day]
+
+You make a choice that is practical and necessary: you accept that your professional path will bind you to Cass in a way that secures the town's infrastructure, and you let Jonah leave to find a way to live with the loss on his own terms. There is no triumph here. There is only the steady, sorrowful work of being human among other humans, of making compromise when the world demands it and paying the price.
+
+You tuck your notebook back into your jacket. Tessa squeezes your hand. Old Man Rafi hums again, a note that is acceptance and challenge all at once. Cass turns to consult the newly drafted amendment and, without ceremony, begins the next line of work. Jonah's shadow recedes into the harbor’s curve.
+
+You watch the town begin the slow counting of what remains. You do not pretend it will be easy. It will be necessary.
+
+[Background:"ch13_601bcb_7"]
+[Music: Sparse piano, a chord that lingers like a held breath]
+[Sound: Quiet — a town sorting itself back into being]
+
+[Background:"ch13_601bcb_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

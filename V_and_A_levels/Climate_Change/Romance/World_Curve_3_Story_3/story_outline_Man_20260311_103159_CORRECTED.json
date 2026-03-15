@@ -1,0 +1,488 @@
+{
+  "title": "Tide-Line Promises",
+  "summary": "Maya Reyes, an urban ecologist returned to Valora Bay, tries to design community-led adaptation to protect vulnerable neighborhoods. A proposed engineered seawall pushed by Noah Ortega and the Development Consortium threatens displacement and cultural erasure. Emil Kwon, Maya's tactile maker and love interest, builds low-tech prototypes and insists on centering neighbors' agency. The arc follows a Man-in-a-Hole pattern: Maya discovers systemic compromises and faces a pivotal choice that collapses her sense of control, then grapples with guilt, partnership, and the ethics of compromise. Multiple forks lead to negotiation, grassroots resistance, or investigative exposure. Endings vary from blended civic-romantic triumph to bittersweet local wins, sad displacement, or a systemic shift that alters relationships into mature companionships. The story examines love under crisis: intimacy informs policy, and policy reshapes intimacy.",
+  "emotional_curve_type": "Man-in-a-Hole",
+  "player_character": "Maya Reyes",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Morning Salt",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake on the Verdant Spire rooftop farm after an all-night model run, smelling wet soil and sea. I check my tablet—new flood-projection data—and remember the tide line engraved on my brass pendant. Asha’s voice on voicemail asks me to present at a council briefing. The city is brittle: string lights sway over condensation on trellises, and the distant roar of breakers mixes with irrigation hum. Emil appears at dawn, his faded teal fisherman shirt damp with mist, hair tousled by the sea wind; his sea-glass green eyes find mine, steady. He brings a crate of seedlings and a hand-sketched retrofit for floating beds. We talk about ethics—my data-driven policy proposals versus his hands-on, do-it-with-us approach. I feel the old guilt: the low-lying block I failed once, the faces and salt-stiff sheets that taught me why this work matters. The rooftop’s warm interior light throws Mina’s silver streak in my hair into relief—my chestnut collarbone-length hair stuck behind my ear. Asha’s warm amber spectacles flash in a text: “Council wants bold numbers.” I flip open my tablet and realize this morning might decide more than soil and seedlings.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Asha"
+      ],
+      "locations_used": [
+        "Verdant Spire rooftop farm",
+        "Tideward Promenade"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Council Briefing",
+      "branch_designation": "Common",
+      "narrative_focus": "At the Asteria Coastal Research Lab and later the Council Hall, I present mitigation models—living shorelines that reduce wave energy and preserve marsh culture. The lab smells of ozone, coffee, and algae; monitors throw healthy blues across my face. Noah Ortega stands at the back—salt-and-pepper hair cropped close, his steel-gray eyes narrowing in the fluorescent glare. He pushes a sleek seawall schematic that promises quick protection for the economic core. Mayor Lila Chen listens with the plant brooch glinting under council lights. I argue for community co-design; he counters with timelines and bond markets. Emil arrives with Diego Ramos and hands me a small retrofit prototype—rubber-soled boots splashed with mud and a bandana peeking from his satchel. Diego’s stocky frame and energetic maps remind me why grassroots voice matters. Asha pulls me aside, her silver-tied hair smelling faintly of marsh, and says, “You can hold both evidence and people.” But the room’s energy tilts: the Consortium’s numbers glitter. I leave with my tablet heavier—Noah’s confident stare like a tide I must measure rather than fight.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1, Option (automatic)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Reyes",
+        "Noah Ortega",
+        "Mayor Lila Chen",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Asha"
+      ],
+      "locations_used": [
+        "Asteria Coastal Research Lab",
+        "Council Hall"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "The Vote Leak",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "Overnight, a draft of the consortium’s amendment leaks: a clause that accelerates seawall construction and includes an asset reset that could displace entire low-lying blocks. When I read it, my chest tightens; my brass tide-line pendant feels like a compass spinning. Emil arrives at the Tideward Promenade—his sea-glass green eyes wet with anger but steady—and Diego distributes flyers beneath rain-dark canopies. Asha’s voicemail insists: “Meet me at the Old Beacon.” Noah denies ulterior motives publicly but his lapel pin is everywhere in the press images. Mayor Chen calls an emergency session; the city is a pinch-point between panic and calculation. The leak lands on my desk and on every doorway. I replay older memories: a night of failed sandbagging, faces I couldn’t save. I feel the old failure coalesce into a new, deeper dread—this isn’t just policy; it’s potential displacement of the people I love. The council votes are imminent. I have to choose how to act: negotiate for amendments, expose the conflict, or stand with Emil’s maker movement in direct resistance. The sea outside drums against stilts, insistent.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2, Option (automatic)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the leaked seawall amendment and the impending vote?",
+        "options": [
+          {
+            "label": "Push for a negotiated hybrid: bargain publicly and secure amendments to protect neighborhoods.",
+            "consequence": "I commit to a policy-facing strategy; I’ll enter formal talks with the Council, balancing data and concessions.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Side with Emil and the makers: organize visible, community-led resistance to pressure the Mayor.",
+            "consequence": "I commit to grassroots mobilization, risking political marginalization but keeping community autonomy.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Investigate the Consortium: dig for conflicts of interest to expose corruption.",
+            "consequence": "I begin a quieter, investigative path that seeks structural truth and public accountability.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Asha",
+        "Noah Ortega",
+        "Mayor Lila Chen"
+      ],
+      "locations_used": [
+        "Tideward Promenade",
+        "Old Beacon"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Negotiation Ties",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose the negotiation table. In polished Council Hall light, I push for a hybrid—targeted engineered defenses in high-value nodes plus living shorelines and relocation aid where communities are at risk. Emil watches quietly from the back, his faded teal shirt tucked beneath a raincoat; his hands fidget with a modified tide-alert watch. Noah meets me mid-hallway—salt-and-pepper hair, steel-gray eyes fixed—and offers a grudging nod that feels like a gauntlet. Asha reminds me to anchor the conversation in stories and data: a map with the handwriting of Diego’s neighbors taped to my tablet. I trade concessions, promising governance structures for community co-ops and a commitment to fund maker-led retrofits. The Mayor is pragmatic; the Consortium’s bond whisperers shift numbers. I leave with conditional approvals but a sleep-thin caveat in my chest: bargains come with fine print that can hurt people. Emil and I walk the Tideward Promenade afterwards—he shows me a prototype floating garden; salt-splashed canvas knees and a faded bandana. I realize my political victory is fragile and stitched with compromises I must keep watch over.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Noah Ortega",
+        "Asha",
+        "Diego Ramos",
+        "Mayor Lila Chen"
+      ],
+      "locations_used": [
+        "Council Hall",
+        "Tideward Promenade"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "The Community Forum",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "I convene a community forum at the Tideward Promenade to present the hybrid plan—part seawall, part living shorelines, and a fund for grassroots retrofits. The market’s tarpaulins flap; the air is salt and fish oil. Emil stands beside me with a crate of seedlings and a stack of handouts: a tactile proposal for floating gardens and modular breakwaters. Diego hammers home neighbor testimony in a booming voice. People’s faces—lined with salt and repair, dyed by string-light glow—show hope and skepticism. Some fear displacement despite guarantees; others fear delayed protection. Noah sends emissaries; Mayor Chen watches from the fringes. An elderly woman touches my pendant and tells a story of a street that used to belong to her family. I realize the cost of compromise is not only policy language but trust. It’s time to decide how publicly I’ll anchor the hybrid—soft-launch amendments to the Council with Noah’s blessing, or bind the plan to a community-led co-op clause that could stall funding. Emil’s sea-glass eyes meet mine; his hand finds mine, callused and steady.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option (automatic)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I anchor the hybrid plan publicly at the forum?",
+        "options": [
+          {
+            "label": "Tie funding to legally binding co-op governance ensuring community control.",
+            "consequence": "Funding becomes harder to secure quickly; community autonomy protected.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept Noah’s amendment and prioritize expediency—secure funding fast, trust oversight.",
+            "consequence": "Fast deployment but risk of top-down control and displacement.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Noah Ortega",
+        "Mayor Lila Chen"
+      ],
+      "locations_used": [
+        "Tideward Promenade"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Harvest & Handshake — Ending: Happy",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "We win a fragile, hard-won victory: Council votes to fund a hybrid with a legally binding co-op governance clause. I stand on the Verdant Spire as the first modular breakwater prototypes float by, and Emil hands me a seedling—soil clinging to his rough fingers, the faded bandana tucked into his satchel. The Mayor announces targeted funds for retrofits, and Noah, surprisingly, offers resources from the Consortium to help scale living shorelines. He keeps his tailored coat, but his tone is less clipped; I see, in the coffee-light of a post-session moment, a hint of concession. The community co-op I insisted on forms with Diego at its center. Asha smiles, silver hair catching the golden hour, amber spectacles perched like a benediction. On the promenade, people fix tarps and plant reeds; the markets smell of citrus and fried dough. Emil and I stand close—his sea-glass eyes soft, my chestnut hair warmed by string lights—and we promise a partnership that is both romantic and practical. The city still leaks and needs mending, but tonight we celebrate a plan that keeps neighborhood culture alive.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Noah Ortega",
+        "Mayor Lila Chen",
+        "Diego Ramos",
+        "Asha"
+      ],
+      "locations_used": [
+        "Verdant Spire",
+        "Tideward Promenade"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "With the Makers",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose the maker route. The Tideward Promenade buzzes with hammers, ropes, and shouted plans. Emil’s hands are everywhere—mending a pontoon, tying a knot, adjusting a tide-alert watch. His sea-glass green eyes are lit with a stubborn, tactile optimism. Diego marshals neighbors into workshops; the floating gardens take shape under tarps; salt scuffs on canvas knees and rubber-soled deck shoes simulate a new kind of normal. We organize visible resistance—occupation of a slated staging site, a human chain at dawn, and a social media campaign built on neighbor stories. Noah labels us idealists; the Mayor worries about construction timelines. I test my ability to translate data into accessible narratives—maps become posters, models become demonstrations. Asha presses a damp hand to my shoulder and says, “Don’t carry every risk alone.” But the pressure mounts: without Council buy-in, the Consortium could push further to expedite its seawall. The choice to be visible brings urgency and purpose—and risks political isolation. Emil’s thumb brushes mine; I know we are in this as much for one another as for the neighborhoods.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Noah Ortega",
+        "Mayor Lila Chen",
+        "Asha"
+      ],
+      "locations_used": [
+        "Tideward Promenade"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Direct Action & Consequence",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "Our direct action escalates: we occupy a staging site the Consortium earmarked for equipment and breakwater pylons. The construction site—the muddy orange and hydraulic blue machines—becomes a theater of protest. News crews arrive; Noah’s face is everywhere in crisp video frames, his tailored coat biting into the wind. The Mayor threatens injunctions; the police threaten dispersal. The community—lined with string lights and patches of bright umbrellas—holds its ground. Emil swells with pride and fear; his hands are steady on a rope as he helps men and women secure floating gardens. I stand at the front and read the data that proves alternatives can reduce risk for specific neighborhoods. The showdown intensifies, and I must decide how we escalate: do we risk a violent clash to stop the initial equipment or pursue legal appeals that could be too slow? My pendant is cold against my chest; Asha’s voice on the phone is a caution. The horizon is steel-gray; rain begins to thread the air.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option (automatic)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How far will we push at the construction site?",
+        "options": [
+          {
+            "label": "Hold the line physically—risk confrontation to delay machinery.",
+            "consequence": "Immediate impact but risk of arrests and political backlash.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Pull back and file for injunctions—play the long legal game.",
+            "consequence": "Safer in the short term but the Consortium may entrench quickly.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Noah Ortega",
+        "Mayor Lila Chen",
+        "Police"
+      ],
+      "locations_used": [
+        "Seawall construction site",
+        "Tideward Promenade"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Sirens & Silence — Ending: Bittersweet",
+      "branch_designation": "Route B (Ending)",
+      "narrative_focus": "We hold the line and the police push back. Night dissolves into a collage of sirens, shouted orders, and soggy tarpaulins. Emil’s hands shake but his sea-glass eyes remain resolute as he helps an elderly neighbor wrap a seedling in cloth. We slow the machinery—delay that forces the Consortium to re-evaluate timelines—and the city pauses. The Mayor calls for talks after the press coverage; the legal system blinks. But the confrontation fractures some community relationships: a family threatened by the initial stall signs decides to accept relocation offers, and some small vendors close their stalls for fear of future enforcement. I sit on a crate, my chestnut hair damp and clinging to my neck, and feel the ache of victory laced with real loss. Diego passes me a thermos; his jaw is tight. Emil and I clasp hands—our fingers raw, our futures uncertain. We have bought breathing room and preserved crucial culture in pockets, but the cost is clear: not everyone can be saved, and my reluctance to compromise has fractured more than one trust necklace. We live with the ambiguity of a hard-won, partial triumph.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Mayor Lila Chen",
+        "Police"
+      ],
+      "locations_used": [
+        "Flooded market",
+        "Tideward Promenade"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Quiet Excavation",
+      "branch_designation": "Route C",
+      "narrative_focus": "I take the investigative route. For days I dig through public records, procurement contracts, and late-night emails. The Asteria lab’s blue monitor glow paints my face as I trace entangled signatures. Emil brings coffee, his rubber-soled shoes muddy; he watches me with quiet patience, leaning on a strap of his leather satchel. Noah’s discreet Consortium lapel pin appears on shipping manifests; a heavy signet ring is listed in ownership documents. The Old Beacon’s lantern cuts through fog as an anchor point for neighborhood oral histories; Asha hands me decades-old maps annotated in faded ink. I assemble evidence that hints at conflicts of interest and expedited procurement processes that favor certain contractors. The work is lonely—analysis and secrecy—but also galvanizing: if I can show structural corruption, I can force a systemic pivot. Emil worries about safety and the personal drain. I feel the old guilt morph into a focused fury; my pendant’s tide-line seems more like a line I must cross. This path is slow, but truth, once public, could change the rules of the game.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Asha",
+        "Noah Ortega"
+      ],
+      "locations_used": [
+        "Asteria lab",
+        "Old Beacon"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Leaks & Loyalties",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "I find a smoking gun: a side agreement that funnels development profits through shell entities tied to Consortium board members. My fingers tremble as I forward encrypted files to a trusted reporter; Emil’s sea-glass eyes are steady but his fingertips braid mine in warning. Asha tells me to prepare for the fallout. Noah’s public face remains measured; his steel-gray eyes are unreadable. Mayor Chen now stands at a crossroads—she can call an inquiry or double down to avoid market panic. I must decide my exposure level: push for immediate public exposure and risk a destabilizing scandal, seek a closed-door inquiry to force institutional change quietly, or use the leak to bargain for policy concessions that protect neighborhoods while shielding fragile lives from upheaval. This is a different kind of negotiation—one between transparency and strategic pressure. My past failure weighs heavy; I fear that exposing the machinery of influence will harm the very people I want to protect. Emil’s hand squeezes mine; I know he’ll stand by whatever I choose.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option (automatic)",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I use the evidence of conflict of interest?",
+        "options": [
+          {
+            "label": "Publish the leak publicly—force immediate accountability and a swift political crisis.",
+            "consequence": "Rapid public scrutiny, potential policy overhaul, unpredictable social fallout.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Deliver evidence to a confidential inquiry—push for systemic change quietly, protecting vulnerable residents from shock.",
+            "consequence": "Slower process, risk that secrets stay buried, but less immediate harm.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Use the evidence as leverage in private negotiations—secure explicit safeguards for communities in exchange for delaying exposure.",
+            "consequence": "Political bargain with risk of moral compromise; could limit immediate damage.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Asha",
+        "Noah Ortega",
+        "Mayor Lila Chen"
+      ],
+      "locations_used": [
+        "Old Beacon",
+        "Asteria lab"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Scandal & Shift — Ending: True",
+      "branch_designation": "Route C (Ending)",
+      "narrative_focus": "I publish the evidence. The leak detonates through the city like storm surge: headlines, committee lights, and urgent televised hearings. Noah’s measured public face cracks; his signet ring and Consortium ties become the focus of a public justice narrative. Mayor Chen convenes an inquiry and—under pressure—commits to a restructuring of procurement, transparency regulations, and a reallocation of funds to participatory resilience. The outcome is messy: courts, resignations, and a slow realignment of power. Emil and I become visible figures in the narrative; his hands are steady as he repairs damaged community platforms. But the personal cost is real. I take a civic role in the reformed process and travel often for hearings; Emil grins but worries about the time apart. Our relationship changes—you can see it in the way he adjusts my paracord bracelet before a meeting and in the evenings when I return, exhausted, to his faded teal shirt and patchwork smiles. We survive and grow, but love takes a different shape—more companionate than impulsive. The city tilts toward participatory resilience; the culture is bruised but wiser.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Noah Ortega",
+        "Mayor Lila Chen"
+      ],
+      "locations_used": [
+        "Pressrooms",
+        "Televised hearings",
+        "Council Hall"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Legal Stalemate — Ending: Sad",
+      "branch_designation": "Route C / Route B (Ending)",
+      "narrative_focus": "I hand my findings to a confidential inquiry. The machinery of governance moves in slow cogs: sealed hearings, legal motions, redactions. The Consortium burrows in; public pressure diffuses into committee reports and procedural technicalities. Weeks of waiting yield incremental policy language that is hopeful on paper but toothless in practice. In the meantime, the Consortium begins phased construction in less-visible zones and the first displacement notices arrive at low-lying blocks. I feel the old failure—faces from my childhood neighborhood appear on eviction lists. Emil’s practical optimism frays; his hands work faster on prototypes that don’t get funded. Diego grows impatient; he calls us to action, his messenger bag heavy with eviction notices. I’m haunted by choices: secrecy preserved lives from immediate shock, but slow process allowed incremental harm. My relationship with Emil strains under exhaustion and moral ambiguity—he says the word “powerless” with a cracked voice and pulls away into late-night boat repairs. The city’s seawall goes up unevenly; some zones are protected, while others become dislocated memories of markets and nights.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option B; From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Diego Ramos",
+        "Mayor Lila Chen",
+        "Consortium"
+      ],
+      "locations_used": [
+        "Closed-door inquiry rooms",
+        "Low-lying districts"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Compromise at Dusk — Ending: Bittersweet",
+      "branch_designation": "Route A (Ending)",
+      "narrative_focus": "I accept Noah’s amendment to accelerate funding for engineered defenses to secure quick protection, trusting oversight committees to keep my co-op ideas alive. Construction begins fast—cranes throw long shadows, the council hall hums with relief, and Mayor Chen breathes easier. The Consortium’s resources shore up vital commercial districts and some neighborhoods are physically protected sooner than expected. But the pace of execution and the scale of procurement displace many—small vendors close, and a patch of the Tideward Promenade is bought and repurposed into an access hub that prices out longtime stallholders. Emil and I stand at the Old Beacon watching the lights on new pylons; his sea-glass eyes are full of love but also sorrow. We saved parts of the city; we lost others. Diego leads a rooftop co-op that salvages markets and creates floating stalls, but the costs and lived losses remain raw. At night, we hold each other—my chestnut hair wet from wind, Emil’s hands callused—and we try to stitch meaning into what remains. We live modestly, but together; the city has fewer immediate catastrophes, but cultural loss lingers like a low tide.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Noah Ortega",
+        "Mayor Lila Chen",
+        "Diego Ramos"
+      ],
+      "locations_used": [
+        "Seawall construction",
+        "Old Beacon",
+        "Tideward Promenade"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Bargain & Vigil — Ending: Compromised Hope",
+      "branch_designation": "Route C (Ending)",
+      "narrative_focus": "I use the evidence as leverage in private negotiations, pushing for legally enshrined community safeguards in exchange for delaying explosive public exposure. The deal is precarious: Noah signs a memorandum to fund co-ops and living shorelines while the Consortium keeps some engineering priorities. Mayor Chen binds oversight committees to community representation and audit trails. The bargain averts immediate displacement and limits sudden market panic, but it leaves me uneasy about secrecy and the ethics of quiet bargaining. Emil’s hands are steady on the steering as he ferries floating garden modules; his sea-glass eyes search me often. The city moves forward in halting, negotiated steps—neighborhoods keep their markets but at the cost of compromise and imperfect transparency. I accept a civic position to monitor implementation; it requires night travel and long absences. Emil supports me, but we both feel the strain: love persists, but it becomes a form of vigilant partnership rather than romantic leisure. I wear my paracord bracelet each day like a small vow—tide-line engraved, reminding me that repair is an ongoing watch.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Reyes",
+        "Emil Kwon",
+        "Noah Ortega",
+        "Mayor Lila Chen"
+      ],
+      "locations_used": [
+        "Conference room",
+        "Old Beacon"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Global arc follows Man-in-a-Hole (Fall → Rise). Branch points occur at Chapter 3 (split into Routes A/B/C), Chapter 5 (Route A split), Chapter 8 (Route B split), and Chapter 11 (Route C split). Each ending is reachable within at most six chapters from the start. Character visuals and personalities are consistent across chapters; all chapters are first-person as Maya Reyes.",
+  "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+  "_meta_arc_strategy": "Man in a Hole (Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 10:31:59"
+}

@@ -1,0 +1,528 @@
+{
+  "title": "Tides of Seed and Stone",
+  "summary": "Ayla Moreno returns to a near-future coastal harbor threatened by rising tides and a proposed large-scale seawall. She fights to preserve community-grown, nature-based solutions while negotiating alliances and compromises among climate engineer Elias Rook, developer Jonah Hale, activist Kira, community member Mateo Alvarez, and Mayor Serena Okoye. The story follows a Cinderella arc across branching routes: collaborate with Elias on hybrid designs, join Kira's direct action, or negotiate with Jonah — each path tests loyalty, love, and pragmatic compromise, leading to varied endings from hybrid victory to bittersweet preservation or stalled privatization reversed by exposure.",
+  "emotional_curve_type": "Cinderella (Rise-Fall-Rise)",
+  "player_character": "Ayla Moreno",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Seedbed Dawn",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake on a rooftop that smells of wet soil and the ocean’s distance. My chestnut hair — sun-bleached at the tips — is in a loose knot; a stray tendril brushes my warm hazel eyes as I check the string of seed packets in the glass vial at my throat. The Green Roof Network is alive: raised beds stitched together from reclaimed wood, fairy lights still cool under a gray morning. Kira’s bright ink-blue raincoat flaps below me on a crate as she unpacks protest flyers, and Mateo’s hands are grubby with last night’s fish oil stain. I move through the terraces, tucking pressed leaves into my repurposed notebook, inspecting a tomato plant with soil-streaked trousers and scuffed boots. The city’s horizon is a line of cranes and a distant, half-built seawall — Jonah’s renderings glitter on my tablet but feel so far, polished and wrong. I tender seedlings with practical optimism, thinking of the childhood plot I lost to a flood. My goal is clear: expand community solutions without letting our neighborhoods be paved over. Today, a town-hall summons arrives — Mayor Serena’s announcement about a major vote. I taste salt and apprehension; the day hinges on whether my quiet work will hold against polished promises.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Kira",
+        "Mateo Alvarez",
+        "Jonah Hale",
+        "Mayor Serena Okoye"
+      ],
+      "locations_used": [
+        "Rooftop / Green Roof Network",
+        "Harbor horizon",
+        "Greenhouse (referenced)"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tides of Argument",
+      "branch_designation": "Common",
+      "narrative_focus": "The boardwalk meeting is a damp whirl: wooden planks slick with recent spray, tarps flapping, assembled neighbors with warm scarves and worried faces. I stand against a practical noise, wrapped in my patched cargo jacket, the seed vial resting against my chest. Jonah Hale arrives with a tidy presence: silvered hair slicked back, tailored technical blazer, amber-brown eyes measuring the crowd. He presents renderings of a sweeping seawall and a new “Model Plaza” — gleaming LED images that promise safety and investment. Elias is there too, sleeves rolled, dark hair slightly mussed, a slim digital wristpad under his arm; his steel-blue eyes meet mine and I see the weight of models hovering behind him. He speaks about hybrid solutions, about integrating green corridors with structural elements, in a tone that is analytical and earnest. Kira chants at the edges; Mateo’s voice cracks as he describes the pier he remembers. My heart tugs between Elias’ patient diagrams and Kira’s uncompromising fury. I speak up: I push for community-led green infrastructure and stricter displacement safeguards. The council's murmurs suggest compromise — yet I feel the tug of history, the memory of a lost plot. The tide is shifting; so are loyalties.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Jonah Hale",
+        "Elias Rook",
+        "Kira",
+        "Mateo Alvarez",
+        "Mayor Serena Okoye"
+      ],
+      "locations_used": [
+        "Harborfront boardwalk",
+        "Public meeting space / Boardwalk"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Town Hall Storm",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At the town hall — a converted market hall lit by stormlight — Mayor Serena Okoye listens from behind a civic sash, her expression carved by sleepless negotiation. The room tastes of coffee and salt. I stand in the crowd; wet wisps of my hair stick to my forehead, my work gloves tucked into a belt loop. Elias projects simulations on a glass pane: floodlines, livelihood risk maps, trade-offs quantified. Jonah counters with timelines and financing models, his amber-brown eyes sharp, his lapel pin catching the light. Kira pushes for a binding moratorium on displacement; I feel the pull to support her honesty. Mateo asks for a paper map and tells a story about an old pier buried under landfill. When Serena asks the public for a stance, the conversation fractures into emotional pillars: urgent engineering, community preservation, or political compromise. My chest tightens — I imagine the greenhouse fog and the rooftop terraces lost to levees. This is a hinge: I can offer Elias a partnership from within the lab, rally the direct-action community with Kira, or attempt a negotiation with Jonah to force modification and protections. The decision will determine not only policy, but who stands beside me at dawn.",
+      "emotional_trajectory": "Rise/Fall",
+      "Valance": "Positive",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Choose a strategic path toward the coming vote.",
+        "options": [
+          {
+            "label": "Work with Elias to design an integrated hybrid plan that centers green infrastructure while accepting selected engineering measures.",
+            "consequence": "I lend community knowledge to Elias' models, seeking safeguards through collaboration.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Join Kira and the direct-action resistance to block Jonah's project publicly and demand a moratorium.",
+            "consequence": "I commit publicly to grassroots pressure, risking political isolation but energizing local support.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Open a direct negotiation with Jonah to secure concessions and legal guarantees for community spaces.",
+            "consequence": "I attempt top-down bargaining to preserve gardens; this risks alienating activists but could secure immediate protections.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Mayor Serena Okoye",
+        "Elias Rook",
+        "Jonah Hale",
+        "Kira",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Town hall / Converted market hall",
+        "Harbor",
+        "Greenhouse (imagined)"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Modeling Gardens",
+      "branch_designation": "Route A",
+      "narrative_focus": "I accepted Elias’ offer to collaborate in the Coastal Resilience Lab, trading the greenhouse’s humid glow for the warehouse’s clean hum. His dark, slightly tousled hair shadows steel-blue eyes that light when he talks models with earnest charm. He shows me scaled levee models and overlay maps on a tablet; the lab smells of cold monitors and chalk dust. I bring dirt-smudged notebooks and plant lists, wearing my patched cargo jacket like armor. Our collaboration is intimate — we walk the harbor at low light, he keeps his slim wristpad close, I press seeds into the pockets of his technical jacket on a quiet impulse. We build hybrid proposals: rooftop terraces that double as flood attenuation, living levee concepts, and staged engineering that respects community plots. Jonah watches from the periphery, amber-brown gaze measuring feasibility. My seed vial swings when I gesture; Kira worries that collaboration will dilute protest. Mayor Serena asks for a vetted pilot, and Elias suggests a constrained demonstration at the Twilight Festival Plaza. Optimism climbs: for the first time, community techniques have formal backing. My heart eases; the city leans toward a model where love and policy might coexist.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Jonah Hale",
+        "Kira",
+        "Mayor Serena Okoye",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Coastal Resilience Lab (warehouse lab)",
+        "Harbor (low-light walks)",
+        "Twilight Festival Plaza (proposed demo)"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Flood of Promises",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "The demonstration at Twilight Festival Plaza is supposed to be our moment: fairy lights, community stalls, and a temporary living barrier that proves itself to Mayor Serena and funders. I wear a breathable scarf doubled as a dust mask; my fingers are layered with soil. Elias and I set sensors while Mateo tells children the story of the old pier. But the sea is mercilessly clever. An unexpected astronomical high tide coincides with a storm surge; our living prototype fails where the engineered core was never fully reinforced. The levee model buckles. Flooding sweeps through a fringe of rooftop plots and stalls, water tasting metallic; Kira shrieks, Jonah’s floodlights cut harsh shadows, and the lab’s monitors flash red. In the aftermath, the council seizes the footage; Jonah declares hybrid solutions unstable and pressure mounts to approve his full seawall plan immediately. Elias is grief-struck, staring at his dented thermos; his clinical patience cracks into blame — at me, at the lab, at conditions we misjudged. My chest tightens with guilt and the memory of the plot I lost returns like salt. The temporary peak collapses into chaos; the decision now is whether to fight on, and how.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "After the failure, decide how to respond publicly.",
+        "options": [
+          {
+            "label": "Double down with Elias and revise the hybrid design, admitting flaws but pushing for better engineering and safeguards.",
+            "consequence": "We take responsibility and work to redesign, risking political capital but aiming for systemic improvement.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Join Kira in a fierce public blockade to stop Jonah’s expedited vote; prioritize immediate protection for gardens through direct action.",
+            "consequence": "I choose confrontation that could secure small wins but jeopardize the lab partnership.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Negotiate a temporary ceasefire with Jonah, trading a concession (sacrificing one garden) for legally binding protections elsewhere.",
+            "consequence": "I make a painful compromise intended to save many by sacrificing a few.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Kira",
+        "Mateo Alvarez",
+        "Jonah Hale",
+        "Mayor Serena Okoye"
+      ],
+      "locations_used": [
+        "Twilight Festival Plaza",
+        "Lab / monitors",
+        "Rooftop plots",
+        "Harborfront"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Rooted Rebuild",
+      "branch_designation": "Route A",
+      "narrative_focus": "Elias and I withdraw into the lab’s late-night hum and the greenhouse’s damp warmth to rebuild trust and design. My hands are raw; my chestnut hair escapes its knot in an anxious rhythm. We admit errors publicly: we overestimated staged resilience and under-engineered for compound surges. I stand before a televised council meeting with soil under my nails and press a pressed leaf to the podium, telling stories of rooftop meals and neighborhood seed exchanges. Elias presents new hybrid schematics that integrate reinforced cores and community contracts that legally protect gardens. Jonah pushes back, but Mayor Serena — who has been up nights balancing lobbyists and hard choices — calls for a pilot that includes legal protections, grant funding for restoration, and oversight by a joint community-engineering council. Kira, bruised but pragmatic, accepts a seat. Mateo slaps my shoulder with weathered hands, eyes wet. The community recovers swaths of plots; some losses are permanent, but the new program enshrines neighborhood rights. Elias squeezes my gloved hand afterwards; the intimacy between us is renewed on a foundation of hard-won compromise.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Mayor Serena Okoye",
+        "Kira",
+        "Mateo Alvarez",
+        "Jonah Hale"
+      ],
+      "locations_used": [
+        "Coastal Resilience Lab",
+        "Community Greenhouse",
+        "Televised council meeting"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Rally the Boardwalk",
+      "branch_designation": "Route B",
+      "narrative_focus": "I chose the street. Kira’s megaphone is rough against her palm; her short-cropped black hair is damp, and her raincoat gleams with protest badges. We organize a blockade on the Harborfront Boardwalk: sandbags, banners stitched from reclaimed sails, and stalls that become platforms for testimony. I'm in my patched cargo jacket, seeds clinking at my throat, and neighbors—old fishermen, market vendors—tell stories of what Jonah’s plan would erase. Elias shows up, mud on his boots, looking torn: he says his models predict the seawall will save thousands, but he looks at the crowd and falters. Jonah arrives eloquent and dangerous, his comm device and branded lapel pin shining as he frames the blockade as obstruction in the face of objective risk. The crowd’s emotion swells; Mateo’s voice trembles as he pleads for measured action. The rally is raw and urgent, a human chorus against polished renderings. Mayor Serena cannot ignore the optics; the vote approaches. I feel my shoulders braced for a struggle; the boardwalk is our cathedral and our last visible negotiation with public feeling.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Kira",
+        "Elias Rook",
+        "Jonah Hale",
+        "Mateo Alvarez",
+        "Mayor Serena Okoye"
+      ],
+      "locations_used": [
+        "Harborfront Boardwalk",
+        "Makeshift blockade",
+        "Market stalls"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Police Lights and Petitions",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The blockade escalates into confrontation. Police arrive under Mayor Serena’s uneasy directive; flashlights cut wet air. Kira organizes legal observers; we read petitions aloud. I lock arms with neighbors, feeling the weight of generations at my back, the weight of the seed vial at my throat. Jonah spins narratives of efficiency and safety; Elias, standing between us, speaks of trade-offs — but his words are measured and crushed under the glare of the moment. A skirmish breaks out when contractors attempt to move equipment; a contractor is shoved and tumbles; the video circulates. The council responds by threatening a swift emergency vote to authorize Jonah’s full seawall citing “public safety.” In the heat, Mayor Serena offers a compromise to end arrests: a limited moratorium and a mediated review committee — but only if the blockade disperses. The choice is agonizing: continue direct action and risk criminalization and a hardened political backlash, or accept the moratorium and risk co-optation. My pulse thrums against my ribs; the tide of public attention could save us or break us.",
+      "emotional_trajectory": "Fall/Rise",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to continue the blockade or accept the moratorium.",
+        "options": [
+          {
+            "label": "Continue fighting with civil disobedience; don’t disperse until binding protections are written.",
+            "consequence": "Risk arrest and crackdowns; may freeze public process but may also radicalize support.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Accept the moratorium and demand seats on a mediated review committee; use legal channels to entrench protections.",
+            "consequence": "Potentially saves some plots via institutional channels but may legitimize Jonah’s plans elsewhere.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Split the movement: some continue civil action while I engage the mediation table representing the blockaders.",
+            "consequence": "A mixed approach risks fracturing trust but may secure both pressure and policy.",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Kira",
+        "Mayor Serena Okoye",
+        "Elias Rook",
+        "Jonah Hale",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Harborfront Boardwalk",
+        "Police presence / flashlights",
+        "Twilight Festival Plaza (referenced)",
+        "Public spaces / sidewalks"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "After the Surge",
+      "branch_designation": "Route B",
+      "narrative_focus": "We stayed. The arrests were swift and humiliating — handcuffs biting my wrists, Jonah’s floodlights magnified my scuffed boots — but the footage of our chained hands went viral in a way the lab’s charts never did. People came with hot soup and blankets; the Twilight Festival Plaza turned into an overflow camp for solidarity. Mayor Serena, under public pressure and legal counsel, called an emergency moratorium with stronger language than expected: a binding clause that requires community review for any displacement. The moratorium isn’t perfect; it’s legally narrow and temporary. Elias, whose face is wet from rain or exhaustion, meets me between tarps and offers a quiet apology. He says his models were right about risk, but also that he underappreciated what would be lost. Jonah takes his losses in stride publicly, promising an appeal and accelerated lobbying. Kira grins a wild, tired grin — we won a reprieve, but at a cost: increased polarization and a sense that this is only the start. I nurse both relief and dread, knowing that today’s victory may be tomorrow’s compromise.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 8, Option A or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Kira",
+        "Mayor Serena Okoye",
+        "Jonah Hale",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Makeshift blockade camp / Twilight Festival Plaza",
+        "Harborfront",
+        "Public media spaces"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Backroom Contours",
+      "branch_designation": "Route C",
+      "narrative_focus": "I took a different path and sat across from Jonah’s polished table. He wears his tailored technical blazer with the ease of a man who believes persuasion is a civic tool. His amber-brown eyes are persuasive; his comm device sits clipped, and his card holder smells faintly of lemon polish. He offers a package: one flagship seawall in exchange for legal guarantees protecting certain community lot corridors and funding for greenhouse restoration. My fingers curl around the seed vial; the offer tastes like metal. Elias mediates from the lab’s side, sleeves rolled and earnest, his face a calm harbor. Kira calls negotiation “a sellout” on the phone. Mayor Serena watches, burdened. I negotiate hard, demanding enforceable clauses and a community oversight board. Jonah balks but reveals pressure from investors who need a clear timeline. We sketch compromises on a napkin: tradeoffs, compensatory land trusts, and binding covenants. The room is clinical and warm; my heart is split between pragmatic rescue and the ache of losing a perfect ideal. For now, the deal is on a knife-edge.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Jonah Hale",
+        "Elias Rook",
+        "Kira",
+        "Mayor Serena Okoye",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Jonah’s meeting room / polished table",
+        "Backroom negotiation space",
+        "Coastal Resilience Lab (referenced)"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Signed Lines",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The contract sits between us under fluorescent light: clauses, contingencies, and a timetable. Jonah’s polished pen scratches across paper; his amber-brown eyes are unreadable. He insists on a clause that allows expedited construction in defined “emergency” windows — a catch that could be invoked later. Nonetheless, the covenant offers real protections: community land trusts, restoration grants for the greenhouse, and legal standing for oversight. I think of Mateo’s hands, of the greenhouse’s humid air, and the taste of tomato we grew last season. Elias urges caution but recommends acceptance as the least-worst option. Kira storms out when I suggest signing; her binoculars and megaphone feel slung away. Tension ignites: the community could be preserved in law, or the accommodation could fracture solidarity. Just as I push the pen to initial, a leaked contractor report — filmed by a whistleblower — reveals a secret cost estimate showing that Jonah plans to privatize several waterfront parcels post-construction. The footage goes viral, the room explodes, and the vote timeline accelerates. My choice is cleaved open: sign to keep legal protections now or expose the leak and risk losing negotiated guarantees.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide whether to sign the covenant now, exposing the leak, or blow the whistle.",
+        "options": [
+          {
+            "label": "Sign the covenant to secure immediate protections despite the leak; plan to litigate later.",
+            "consequence": "Guarantees some safety but sows distrust and long-term political fracture.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Expose Jonah publicly using the leaked report; trust the community to resist and push for a full investigation.",
+            "consequence": "Risk losing negotiated protections but may prevent privatization.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Hold the signature and use the leak to extract stronger, enforceable clauses, demanding judicial oversight before signing.",
+            "consequence": "A risky legal gambit that may delay protections but could block backdoor deals.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Jonah Hale",
+        "Elias Rook",
+        "Kira",
+        "Mayor Serena Okoye",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Conference / contract table",
+        "Warehouse negotiation room",
+        "Public media channels (leak referenced)"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Contracted Harvest",
+      "branch_designation": "Route C",
+      "narrative_focus": "I signed. The covenant is inked with Jonah’s sleek flourish; the clauses secure land trusts and restore greenhouse funding. For months, city crews, community volunteers, and lab technicians rebuild what was lost. I wear my work gloves often, directing soil delivery and mapping protected terraces. Elias sits at my side during hearings, his dark hair in a winded mess, and we co-present community-engineer oversight to Mayor Serena, who nods with weary relief. Kira reproaches me in public, but the legal protections allow the rooftop network to expand in designated corridors; Mateo returns to his fishing and helps shore a pier with living coir mattresses. The seawall’s construction is limited geographically, ostensibly protecting commercial zones but designating community covenants elsewhere. It’s an imperfect victory: some plots are gone, replaced by raised promenades, but many gardens are saved under law. Elias and I grow closer through the shared labor of restoration — he folds a torn seed packet into my notebook one night, his fingers tracing my soil-streaked pages. I feel a tender, if compromised, joy — a harvest grown from contracts and mud.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Jonah Hale",
+        "Kira",
+        "Mateo Alvarez",
+        "Mayor Serena Okoye"
+      ],
+      "locations_used": [
+        "Restored rooftop terraces",
+        "Community Greenhouse",
+        "City hearings / public meetings"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Sacrificed Plot (Alternate Ending)",
+      "branch_designation": "Route A & Route A-Crossover & Route A-B Crossover",
+      "narrative_focus": "I chose sacrifice to avert greater loss. Whether forced by direct action or hard bargaining with Jonah, a cherished garden was marked for removal in exchange for legal protections across larger swaths of neighborhood. I stood at the edge as heavy machines tore up soil where we once hosted late-night seed swaps; my chestnut hair clung to my collar, my seed vial clinking like a small, private mourning bell. The community wept and argued; Kira denounced the deal publicly, and Elias’ face was ashen though he had advocated for the greater good. Mayor Serena signed emergency orders that protected many lots but not all. Mateo lit a small ceremonial fire with driftwood; he handed me a splintered trowel, eyes like storm-salt. In time we restored what we could: relocated beds, newer soil, cooperative leases. The love between Elias and me endured but with brittle edges — we shared work and cold dinners, but trust required time. I learned the cost of pragmatic compassion: love and neighborhood survived, but my childhood page of earth was gone. We continue to fight in legal rooms and muddy terraces; the city is safer, but the victory tastes bittersweet.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 5, Option B or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Kira",
+        "Mateo Alvarez",
+        "Mayor Serena Okoye",
+        "Jonah Hale"
+      ],
+      "locations_used": [
+        "Excavated garden site",
+        "Construction zones",
+        "Community meeting spaces"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Mediation Table (Alternate Ending)",
+      "branch_designation": "Route B",
+      "narrative_focus": "I took the mediation seat after the blockade dispersed. In a fluorescent room I sat across a table from Jonah and his legal team while Kira organized on the sidewalks outside. Mayor Serena mediated with the weary authority of someone keeping a city intact. The moratorium’s language was strengthened: not temporary language, but a phased schedule mandating community review and enforceable displacement protections. The contract also created a funded community oversight board that included Kira and Mateo. The seawall project proceeded on a narrower footprint; Jonah traded some commercial parcels’ promise for enforceable covenants. I wore my patched jacket to every session; Elias attended as technical counsel, sleeves rolled and earnest, helping to translate the models into enforceable language. The compromise was messy and required constant vigilance, but the community gained legal teeth. Our romance with Elias grew in the brittle light of documents and late-night edits; the intimacy is pragmatic and deepened by shared work rather than romantic fireworks. The city remains a contested place — but now, at least, with more of us represented by ink and presence at the table.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Kira",
+        "Elias Rook",
+        "Jonah Hale",
+        "Mayor Serena Okoye",
+        "Mateo Alvarez"
+      ],
+      "locations_used": [
+        "Mediation room / fluorescent room",
+        "City hall / legal meeting spaces",
+        "Sidewalks outside (activist presence)"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Exposed Horizon (Alternate Ending)",
+      "branch_designation": "Route C",
+      "narrative_focus": "I chose exposure over a fragile signature. The leaked contractor estimate and whistleblower footage ignited an uproar that formed a sharp mirror to Jonah’s polished narratives. We organized a public inquiry, Kira leading protests with bright badges and a megaphone, Mateo testifying with weathered authority, and Elias supplying models that included new, transparent contingencies. Mayor Serena, pressed by investigations and public pressure, froze the expedited contract and appointed an independent oversight panel. The outcome was not simple: Jonah’s full plan was stalled and forced into revision; some parcels remained in flux, but the attempt to privatize waterfront land was derailed. The city adopted a patchwork path: targeted engineering where necessary, community-managed green belts elsewhere, legal instruments to protect gardens, and an ongoing public audit. My relationship with Elias matures into something honest and imperfect; we do not emerge as lovers untouched — we are companions in the city’s slow work. The ending is not tidy: it is ongoing, hopeful, and realistic — the true work of adaptation continues at dawn, with soil under our nails and plans on our screens.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 11, Option B or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Ayla Moreno",
+        "Elias Rook",
+        "Kira",
+        "Mateo Alvarez",
+        "Mayor Serena Okoye",
+        "Jonah Hale"
+      ],
+      "locations_used": [
+        "Public inquiry room",
+        "Protest sites",
+        "Media screens / leaked footage distribution",
+        "Oversight panel venues"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Chapters 1–3 form the common route and the first major split. Routes A (Chapters 4–6), B (Chapters 7–9), and C (Chapters 10–12) each reach a temporary peak, suffer a sudden crisis (Chapter 5/8/11 respectively), and then move to recovery by chapter 6/9/12 or branch to alternate endings (Chapters 13–15). Emotional arc follows a Rise-Fall-Rise Cinderella pattern; arousal peaks at chapters 5, 8, and 11. All named characters are Ayla Moreno (player), Elias Rook, Jonah Hale, Kira, Mateo Alvarez, and Mayor Serena Okoye. If a chapter is branching, default_next_chapter is -1 and choices list explicit jump targets.",
+  "_meta_source_world": "world_setting_Curve_5_Story_1.json",
+  "_meta_arc_strategy": "Cinderella (Rise-Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 05:44:14"
+}

@@ -1,0 +1,155 @@
+label chapter3:
+
+    # [Scene: Community Hall / Storm Room | Evening]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, taut cello undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Murmured voices, the rustle of papers, a kettle clicking off in the corner]
+    "You still have the schematic folded flat in your satchel, an outline of contingencies pressed against the fabric like a warming stone. The harbor smell rides in on wet coats — salt and old tar —"
+    "and someone across the room opens a thermos; the steam fogs the corner of the projection screen for a breath before it clears."
+    "Tonight the Hall is full in the soft way a lung is full before a cough. People arrive with salt in their hair and bills in their pockets; they carry minutes and memories. Luka sits near"
+    "the back with a weathered map rolled across his knees. Rin passes you a hand-scribbled note and then tucks her hands deep into a knit hat as if to hide their shaking."
+    "The municipal projector hums to life. Elena Moro stands at the podium like a blade set into the room: immaculate coat, a thin line of light catching the edge of her holographic ID. Her presentation paints"
+    "the shoreline in crisp, clinical layers — cross-sections and storm surge models, a thick engineered line she calls 'The Coastal Barrier.'"
+    show elena_moro at left:
+        zoom 0.7
+
+    elena_moro "This barrier is not ideology. It's engineering calibrated to the projected worst-cases. It secures the road, the hospital, the harbor itself. We can protect Saltline's economic spine with a single, funded intervention."
+    hide elena_moro
+
+    scene bg ch3_98c6f2_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A few polite claps; someone clears their throat loudly]
+    "Her voice is even, practiced. The room drinks the numbers she offers like they might be medicine."
+    "You listen to the syllables of certainty and feel them scrape against what you know of the marsh—how water moves and how life adapts. You recall Luka's maps of tidal flows and the places you once"
+    "failed to weigh a marsh's slow absorption against a plan's immediate promise. The memory arrives as a cold pressure behind your sternum."
+    "Kaito Sakamura stands when Elena finishes, hands dusty from the day’s work, apron hanging heavy at his hip. He does not bring slides. He brings a quiet you can almost touch: the weight of every plank he's salvaged and every neighbor he’s convinced to plant a windbreak."
+    show kaito_sakamura at left:
+        zoom 0.7
+
+    kaito_sakamura "Engineering can buy time. But it can also buy away what keeps us alive. We build with our hands; we teach, we re-skill, we plant. We don't move the question into a machine that no one here will control."
+    "He speaks plainly. His voice cracks once, a small honest sound that makes someone at the back sniff. Maya nods hard; Rin's mouth is a thin line. Elena watches Kaito like she is measuring a piece of wood for a cut."
+    show elena_moro at right:
+        zoom 0.7
+
+    elena_moro "Kaito, what you offer is admirable and human. But what happens when the storm you say you can train against exceeds the model? Whose houses are swept then? Who pays for the rebuilding? The barrier is the accountable solution."
+
+    kaito_sakamura "We are the accountable ones. The people who live here, who know the ridge lines and the old wells. We can make targeted interventions that preserve habitat and keep people rooted."
+    "The room tilts. Murmurs lap like small waves at the foot of a larger swell. Someone near the front mutters, 'But can we afford to wait?' Another voice, older, says, 'I don't want to be told where I can put my boat.'"
+    "You feel your palms go cool. In your bag the schematic presses like an accusation — something you once held up as an answer when you believed answers came from better models. The memory of the"
+    "marsh project you championed that displaced a nesting bed—what it cost—spools through you in excruciating detail. You had defended that plan with data and a smile; the marsh didn't care for your smile."
+    "Luka Sorensen stands now, voice low, a map folded in his fingers like a relic."
+    show luka_sorensen at center:
+        zoom 0.7
+
+    luka_sorensen "We've seen 'solutions' before that remembered profit before people. We also know what happens when nothing happens. I'm not here to say which is right. I'm here to say—don't pretend the choice won't come with consequences we can't take back."
+    "He meets your eyes, and for a single breath the past and present contract into a ledger only you can read: a list of debts you carry in the pause between heartbeats."
+
+    menu:
+        "Slide closer to Kaito; let him see you're with him":
+            "You shift your chair forward. Kaito catches your eye and there is an unspoken surge of relief in his posture, as if your nearness steadies him."
+        "Fold your hands in your lap; remain outwardly neutral":
+            "You fold your hands and keep your face even. A few people glance toward you, measuring whether your neutrality will tip the room one way or another."
+
+    # --- merge ---
+    "The meeting continues with the same rising tension."
+    "The murmurs grow jagged; anger and fear braid indistinguishably. Ishaan Rao, smooth-suited and practiced, steps up with a clipboard and the kind of smile that smells faintly of office-floor coffee."
+    hide kaito_sakamura
+    show ishaan_rao at left:
+        zoom 0.7
+
+    ishaan_rao "Funding will not be indefinite. The agency proposes staged investment, starting with the barrier. That brings immediate protection and opens the door to retrofit grants for smaller projects."
+    "A woman near the door—whose porch was flooded last winter—lets out a sound that is half laugh, half sob. 'Immediate, yes. Immediate for what? For who?'"
+    "Elena returns to the microphone. She doesn't raise her voice, but it contains an outline of inevitability."
+
+    elena_moro "We can design the barrier to minimize displacement. We can include ecological compensation zones. We can implement relocalization funds."
+    hide elena_moro
+    show kaito_sakamura at right:
+        zoom 0.7
+
+    kaito_sakamura "Relocalization funds don't put back a marsh. They don't give us back the songs we sing at the dock when the lights go out. They buy you a ticket to somewhere else."
+    "There's a hurt in Kaito's words that cuts the air. You want to answer — to say something that threads apology and argument together — but your throat has tightened into a thread. The room waits."
+    "You remember the municipal notice in your pocket: that date for the regional briefing. It is a thin lever in your hand. You picture Elena's models in cold lines and Kaito's hands shaping planks, and you"
+    "understand that whatever you choose tonight will refract outward into the faces in this room."
+    "Rin Okubo moves through the crowd, flyers in hand, voice strained but clear."
+    hide luka_sorensen
+    show rin_okubo at center:
+        zoom 0.7
+
+    rin_okubo "People—this is our house. We can't hand it over to a plan we didn't help write. But we can't pretend we won't get hit. We need both courage and care."
+    "Somewhere, someone begins to clap softly; the sound spreads until it becomes a chorus of small, cautious votes. Tension rises, measured but undeniable—enough to make the air taste metallic."
+
+    menu:
+        "Reach out and tap Kaito's arm as he speaks":
+            "Your fingers find his arm. He flinches briefly, then relaxes into that small smile he reserves for you. His next sentence is steadier, as if your touch resets him."
+        "Clear your throat and stand to speak":
+            "You stand; the room's sound narrows as they look up. For a terrifying second, every pair of eyes weighs you like evidence."
+
+    # --- merge ---
+    "The scene proceeds; the choice affects your posture and immediate reception."
+    "If you stand, you could deliver a carefully measured compromise. If you remain seated, you could let others carry the argument—let it burn without your hand on it. Both feel like choices between lesser harms. VeryNegative: the mood is sinking toward grief and weight; hope is stuttered and fragile."
+    "You stand."
+    hide ishaan_rao
+    show marin_alvarez at left:
+        zoom 0.7
+
+    marin_alvarez "We all want the same thing: Saltline still here. The ways we imagine getting there... they're not the same."
+    "A ripple—relief or skepticism—passes through the crowd."
+
+    marin_alvarez "I... I know what it looks like to favor a plan that shifts the burden away from immediate pain and into manufactured security. I know what it costs when you fix a line on a map and the life in between is treated like collateral. I am not proud of that."
+    "Your confession lands like a stone. Someone exhales loudly; someone else mutters, 'At last,' as if your naming of guilt has been a long time coming."
+
+    marin_alvarez "But I also know what it is to watch people left without shelter when the next surge comes. We cannot sit in moral clarity while the sea takes our neighbors. If we—' (you look at Kaito, then at Elena, and find both of them unreadably complex for a moment) '—if we don't build anything, we'll watch the town fragment."
+    "Kaito Sakamura meets your eye and there is complex unreadability there: hurt, appeal, the memory of nights he stayed up repairing nets so they didn't fall into the water. Elena's face is smooth; her jaw tightens just enough to be a statement: she expects you to choose."
+    hide kaito_sakamura
+    show elena_moro at right:
+        zoom 0.7
+
+    elena_moro "Marin, your technical background could be decisive. Partner with us, and we can route funding here, protect the vital infrastructure, and then fund the community projects that Kaito is asking for."
+    hide rin_okubo
+    show kaito_sakamura at center:
+        zoom 0.7
+
+    kaito_sakamura "Or you can stand with us, run pilots grounded in local stewardship, show a functional alternative before the agency writes terms we can't live with."
+    "The room fragments into two currents. Somewhere a child starts to cry; someone covers their face with an old sweater. The VeryNegative weight isn't just because of what's at stake materially — it's because tonight you"
+    "are the hinge. Your past actions have been kept like a ledger; tonight the town asks you to write the next line."
+    "Your pulse thumps in your ears; you can feel the rise of a tide in your chest. The arousal builds with a steady, gathering pressure as arguments ricochet into personal recollection and public consequence. This is"
+    "not chaos; it is escalation with purpose. Each word you speak now could salvage something or complicate it beyond repair."
+    "Ishaan steps forward, surgical in his timing."
+    hide marin_alvarez
+    show ishaan_rao at left:
+        zoom 0.7
+
+    ishaan_rao "Please remember: funding comes with conditions. The agency needs a clear manager and a single implemented solution to justify disbursement. We will require a lead."
+    "That single sentence lands like a verdict. Leadership, in this bureaucratic formulation, will mean someone stands as visible guarantor of the chosen path. The weight of it presses into your shoulders like cold rain."
+    "You feel Kaito's gaze like a plea and Elena's like a ledger waiting for your signature. Luka's map, Rin's notes, Maya's camera lens — they all tilt toward you without asking. The room hushes, the tension a taut string that is about to snap into action."
+    "You take a breath and organize the noise into a single thought: whatever you say now will be read as allegiance or betrayal. The fear tastes of iron and the sea."
+    hide elena_moro
+    hide kaito_sakamura
+    hide ishaan_rao
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Heartbeat thud, then the soft scrape of a chair]
+    "Your voice will decide much of what comes next."
+    show marin_alvarez at left:
+        zoom 0.7
+
+    marin_alvarez "I—"
+    # [Scene: Sunken Promenade | Night — a thin continuation for a breath, the decision moment hanging]
+    hide marin_alvarez
+
+    scene bg ch3_98c6f2_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single, low note held like a question]
+    # play sound "sfx_placeholder"  # [Sound: Distant surf, the slap of water against piled boards]
+    "You stand in the doorway for a second longer than necessary, listening to the fragmented conversations swell and recede. The town is fracturing before you; the decision you make is not merely technical but ethical, a"
+    "line that will steer where grief and consequence land. For a moment you imagine both possible futures—one buffered by concrete that may erode community, another stitched slowly by hands that may not hold against sudden storms."
+    "The air tastes of regret. Everything in your chest presses toward an answer."
+    "How do you publicly position yourself and your work?"
+
+    menu:
+        "Side with Kaito and the cooperative workshop—push for community-led adaptation.":
+            jump chapter4
+        "Align with Elena's agency—advocate for the engineered barrier and accept centralized support.":
+            jump chapter10
+        "Attempt to broker a middle path—offer to pilot a hybrid project that pairs targeted engineering with local stewardship.":
+            jump chapter4
+    return

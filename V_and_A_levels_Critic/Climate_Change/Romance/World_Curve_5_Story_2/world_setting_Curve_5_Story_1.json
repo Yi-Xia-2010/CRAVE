@@ -1,0 +1,122 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through intimate, human-scale stakes and the Genre (Romance) by making relationships the lens through which ecological decisions are felt. The game frames climate as a character — slow, weathered, morally ambiguous — and forces the protagonist to choose between competing visions for the future: community-led resilience, technocratic quick fixes, and personal attachment. The core conflict is therefore both external (how to protect a coastal marsh threatened by rising seas and corporate development) and internal (how the protagonist balances love, duty, and compromise). Romantic choices change not just emotional outcomes but practical responses to the environmental crisis.",
+    "setting": "Near-future coastal town (Marisma Bay) where rising tides, erratic storms, and managed retreat have reshaped daily life. Time period: 2040s, early adaptive-technology era. Atmosphere: weathered, bittersweet, occasionally tense — sunrises between fog banks, salt-streaked streets, communal gardens on reclaimed lots, and a sense of fragile resilience.",
+    "visual_style": "Semi-realistic anime with environmental textures, muted coastal palette, watercolor overlays for rain scenes, tactile material details (wet fabric, algae sheen), mixed lighting (soft golden hour, harsh neon in the city), cinematic depth of field.",
+    "main_characters": [
+        {
+            "name": "Aiko Navarro",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: meticulous and scientifically curious, emotionally open, quick to listen and slow to judge. Tends to take responsibility and carry community burdens; has a wry, dry sense of humor under stress.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with wind-tossed layers and two thin emerald-green streaks tucked behind the left ear",
+                "eyes": "Warm hazel with a fleck of seafoam green near the pupil, rounded and observant",
+                "clothing": "Layered field-ready outfit: faded navy raincoat with patched elbows, mustard knit sweater, high-waisted cargo trousers, scuffed rubber boots with floral print inside",
+                "accessories": "Waterproof field notebook with pressed marsh grasses between pages, a silver locket containing a tiny oblique map of her childhood shoreline, and a utility bracelet with a small compass"
+            },
+            "goal": "To design and implement a community-led marsh restoration plan that preserves local livelihoods and biodiversity.",
+            "background_story": "Grew up in a low-lying fishing neighborhood that experienced repeated flooding; trained as an ecological engineer and returned home after her mother's house was permanently lost to a major storm. She feels accountable to neighbors who stayed and wants to prove resilient, bottom-up solutions work.",
+            "emotional_trait": "Strength: tenacity and empathy. Flaw: tendency to shoulder others' burdens and avoid asking for help, which strains relationships."
+        },
+        {
+            "name": "Mateo Ríos",
+            "role": "Love Interest (Community Planner)",
+            "personality": "Warmly analytical: a conciliator who values data and people equally. Calm under pressure, quick to propose compromise solutions, but quietly frustrated by bureaucratic inertia. Affectionate but cautious with personal vulnerability.",
+            "appearance_features": {
+                "hair": "Dark curly hair kept in a short tied-back man-bun, often damp from morning sea air",
+                "eyes": "Sea-green, almond-shaped with laugh lines at the corners",
+                "clothing": "Smart-casual: breathable linen blazer over a weatherproof field vest, rolled shirt sleeves, slim dark jeans, and low-top trainers with sand on the soles",
+                "accessories": "Leather-bound set of blueprints folded in a waterproof tube, a brass surveyor's compass engraved with his late father's initials, and a small charm bracelet made of upcycled fishing line"
+            },
+            "goal": "To implement equitable urban and coastal planning that balances development, safety, and the needs of displaced residents.",
+            "background_story": "Born in the neighboring city and trained in municipal planning, Mateo moved back to Marisma Bay after volunteering during a storm response. He believes in systemic solutions and working within institutions to scale resilience.",
+            "emotional_trait": "Strength: diplomatic calm and steady optimism. Flaw: can over-prioritize consensus to avoid conflict, sometimes diluting urgent action."
+        },
+        {
+            "name": "Dr. Selene Park",
+            "role": "Antagonist (Corporate Restoration Director)",
+            "personality": "Charismatic, razor-sharp, and persuasive. Believes in engineered, scalable interventions and presents an air of efficiency and inevitability. Sincere in her desire to 'save' places but dismissive of small-scale community attachment when it conflicts with her algorithms.",
+            "appearance_features": {
+                "hair": "Platinum-silver, sleek lob cut with a precision side part",
+                "eyes": "Cool steel-gray, narrow and deliberate",
+                "clothing": "Minimalist, high-tech wardrobe: tailored high-collar coat with hydrophobic fabric, tailored trousers, and polished ankle boots; clothing often in neutral metallics",
+                "accessories": "AR spectacles that project data overlays, a slim titanium wristband pulsing with notifications, and a corporate lapel pin shaped like a stylized wave"
+            },
+            "goal": "To deploy rapid geoengineering and biotech interventions (seeded mangrove scaffolds, engineered algae barriers) at scale to protect coastlines and secure lucrative contracts.",
+            "background_story": "A celebrated restoration scientist who founded a private firm after frustration with slow public funding. Her company produces fast-acting solutions that promise measurable returns, attracting municipal contracts worldwide.",
+            "emotional_trait": "Strength: visionary decisiveness and confidence. Flaw: ideological rigidity — she struggles to see value in low-tech, place-based knowledge and the emotional dimensions of loss."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Ivy Navarro",
+            "relation_to_main": "Younger sister of Aiko / childhood neighbor",
+            "appearance_summary": "Short, wiry, sun-freckled; usually in paint-splattered overalls or market aprons.",
+            "function_in_story": "Represents the local working-class perspective and domestic stakes; voices concerns about rent, jobs, and immediate safety."
+        },
+        {
+            "name": "Old Man Rohan",
+            "relation_to_main": "Elder neighbor and local fisher who mentored Aiko as a child",
+            "appearance_summary": "Stooped silhouette, white tangled beard, waterproof knit cap, hands callused and stained with iodine.",
+            "function_in_story": "Keeper of oral history and fishing lore; provides traditional knowledge about tides and past coastline shifts that challenges purely data-driven plans."
+        },
+        {
+            "name": "Tala Kumari",
+            "relation_to_main": "Young activist and community organizer; ally to Aiko",
+            "appearance_summary": "Vibrant short purple hair, layered jackets covered in protest pins, bright practical boots.",
+            "function_in_story": "Organizes grassroots campaigns, petitions, and direct-action demonstrations; pushes the protagonist to prioritize community voice."
+        },
+        {
+            "name": "Councilor Nguyen",
+            "relation_to_main": "Local municipal council member, decision-maker about contracts",
+            "appearance_summary": "Conservative suits dampened by sea spray, salt-etched spectacles.",
+            "function_in_story": "Represents the political pressure to pick a single scalable solution; can be swayed by evidence, money, or public opinion."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marisma Bay - Low Street and Docks",
+            "visual_description": "Narrow lanes dotted with salt-bleached wood and corrugated metal, morning fog lifting to reveal sun-sheened algae in gutters. Warm late-afternoon light slants across patched roofs; puddles reflect gull-white skies. The harbor smells of kelp and diesel; colorful crates and frayed ropes provide tactile foreground details."
+        },
+        {
+            "name": "Tidepark Research Greenhouse",
+            "visual_description": "A reclaimed industrial warehouse converted into a greenhouse: rusted steel beams draped with translucent polymer panels. Wet soil beds glow under diffused skylight, bioluminescent test cultures in small vials, and soft LED strips casting cool cyan hues on instruments. The air is humid and earthy, with flecks of pollen floating in backlit shafts."
+        },
+        {
+            "name": "Cliffside Promenade and Old Sea Wall",
+            "visual_description": "Wind-scoured cliffs with jagged grasses, a battered concrete sea wall scarred with old warnings. Golden-hour sunsets paint the ocean copper; storm clouds gather purple and slate-blue. The scene alternates between serene vistas and the raw power of waves crashing into the wall, casting a fine spray that catches light like glitter."
+        },
+        {
+            "name": "City Hall - Planning Office",
+            "visual_description": "Glass-and-steel municipal building illuminated with warm interior lamps at night; blueprints and holographic models glow on conference tables. Office lighting is a mix of fluorescent coolness and late-night desk lamps, producing halos around figures in long meetings. Outside, wet pavement reflects neon signs from the nearby commercial strip."
+        },
+        {
+            "name": "Community Hub - 'The Aquarium' (repurposed)",
+            "visual_description": "An abandoned aquarium retooled into a civic space: cracked tile murals of sea life, string lights hung between columns, community garden beds spilling over with salt-tolerant plants. Interior candles and warm bulbs create intimate pockets of light; the ocean's distant roar is a constant background score."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Collective Resilience",
+        "Ethics of Technological Fixes",
+        "Love and Responsibility"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led restoration succeeds: Aiko and Mateo co-design an adaptive marsh system combining traditional knowledge with small-scale engineered structures. Dr. Park's large project is redirected into a collaborative program. Romance blossoms steadily; the town secures funding and keeps most residents, demonstrating a hopeful, scalable model."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Partial victory: The marsh is only partially saved. Some neighborhoods must relocate; Aiko's plan preserves critical habitat but not all livelihoods. Aiko and Mateo remain together but accept ongoing uncertainty. The ending emphasizes adaptation, grief, and quiet perseverance rather than clean triumph."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate techno-solution is implemented quickly after Council signs the contract; short-term flood protection is achieved but causes unforeseen ecological collapse and displaces long-time residents. Aiko's relationships fracture (a romantic separation with Mateo or estrangement from the community), leaving the protagonist to reckon with moral failure and loss."
+        },
+        {
+            "type": "True",
+            "summary": "Complex compromise: Aiko sacrifices a personal romantic future (chooses to travel to oversee other at-risk communities) to ensure a broadly beneficial program that blends biotech with community governance. The marsh survives in a new form, relationships endure at a distance, and the narrative emphasizes systemic change over personal closure."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

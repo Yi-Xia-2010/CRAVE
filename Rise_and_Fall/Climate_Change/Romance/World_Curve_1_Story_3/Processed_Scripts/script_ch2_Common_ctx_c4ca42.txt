@@ -1,0 +1,119 @@
+### SCRIPT
+# Route: Route C (Ending: Happy/Expansive)
+# Context: c4ca42
+
+[Scene: Beaconworks Lab | Morning]
+[Background:"ch2_c4ca42_1"]
+[Music: Low bright strings, hopeful undercurrent; a steady, buoyant pulse]
+[Sound: Distant gulls, the soft hiss of dehumidifiers, occasional clink of metal]
+
+You push through the heavy door and the world tilts into a different temperature — air conditioned and bright, smelling of ozone and wet earth preserved in resin. The floors are polished concrete, still damp from last night's precipitation, and your boots make a muted tap as you cross the echoing expanse. Fluorescent arrays hum above, throwing blue-white light that makes the preserved wetland samples glow like museum artifacts. Trays of peat and root, specimens suspended in clear resin, sit on tables like relics kept safe against a future that wants to rewrite them.
+
+At the far bench, Elias Harrow leans over a scale model. Sandy hair falls forward as he concentrates; his amber eyes lift when you step closer, and for a moment you watch the way the light catches the tiny v-shaped crow's feet at the corner of them. His fingers are streaked with model clay and salt. A brass compass dangles at his throat; he toys with it as if its needle could find the moral center of the room.
+
+Elias Harrow: "Mara. You made it."
+He brushes his hand across the model, small waves cut through the miniature water as if he owes the tide an apology.
+
+You feel the corridor between what you want and what is likely — a tight rope you have learned to walk. The lab smells like metal and the bitter, sweet peat of Eda Nal's photographs tucked into your bag. Your hands find them when you sit at the workbench opposite him: a small stack of weathered prints, the edges softened by salt. Eda's handwriting runs along the margins, notes in a steady, patient script.
+
+You set the photographs down like an offering.
+
+[INTERACTION]
+> Choice A: "Tease Elias about the clay on his fingers"
+> Choice B: "Set the photos down without a word"
+[Outcome A: "You lift one eyebrow and offer a mock-disapproving glance; he gives you a crooked smile and waves his hands as though the mess is an honest confession."]
+[Outcome B: "You lay Eda's photographs on the table and let their silence do the talking; Elias leans in, eyes narrowing in careful focus."]
+[MERGE: Elias Harrow laughs, then the conversation continues.]
+
+Elias Harrow [laughing, then softening]: "Guilty. Prototype number six didn't like my choice of aggregate."
+He rubs his fingers together, leaving tiny gray smudges on the bench. "But I can clean that up. I can't always clean everything else."
+
+The line in his voice — that precise mixture of apology and professional calm — opens something in you. You remember Rani's punchline about 'sawdust and victory' and the way the neighborhood had pressed itself into your back like a promise. You also remember the Promenade: machines and a map that looks too tidy, a plan that looks like a clean cut through living things. In your palm, the photographs feel heavier than their size.
+
+Elias Harrow swivels his tablet and gestures toward the overhead display. A three-dimensional simulation blooms: a seamless concrete seawall running like a silver spine along the shore, storm surge contained on one side, city grid preserved on the other. The animation snaps into place with satisfying engineering logic — stress vectors, failure points, estimated cost curves. It is beautiful in its brutality: elegant and merciless.
+
+You study it. The model reads like a promise to the city, but it also looks — in the space you cannot ignore — unquestionably empty. No matted root systems, no children skipping across pontoons, no pockets of marsh where crabs hide. The simulated water moves exactly where it is told to.
+
+[INTERACTION]
+> Choice A: "Point out the human cost, speaking to the data"
+> Choice B: "Place Eda's photographs on the table between you and the screen"
+[Outcome A: "You tap the simulation, then the numbers, and narrate the edges it will cut through the Drowned Garden — your voice steady with the muscle memory of meetings and petitions."]
+[Outcome B: "You push the photos closer to the tablet so the resin-protected root mats lie in the same plane as his flawless renderings; the soft, muddied textures interrupt the clinical surface of the model."]
+[MERGE: Elias Harrow studies the photographs the way a scientist studies an anomaly; he doesn't flinch and considers them.]
+
+Elias Harrow: "They're beautiful."
+He says it as if the word might be extravagant for data. "Eda's root mats — they slow surge, cycle nutrients, and provide habitat in ways our models don't capture well. I've been trying to —"
+
+Mara Solenne: "Capture? You mean approximate."
+Your voice tightens but not harshly; you want him to feel the weight of the difference. "They are not just an ecosystem service line item. They're people's livelihoods, memory, the thing that kept my neighborhood from washing away when the storm last year tipped his boat."
+
+Elias Harrow: "I know."
+He meets your gaze squarely for the first time in the morning. "I've seen the footage from the last survey. The sensors showed something like resilience there, but translating that into a design... I worry about being accused of romanticizing unknowns. My models need parameters I can justify."
+
+You lean forward, fingers splayed over a photograph: a tangle of living roots threaded through mud, children in the background bent over a tray of seedlings — ordinary life braided with survival. The lab's cool light can't hide the smell that rises from the paper, a phantom peat that brings the marsh up into the room.
+
+Mara Solenne [quiet, firm]: "You can parameterize life. You just have to let it be messy sometimes. Let me show you the marsh sensors we use. Let me show you what a flood does to someone who can't get out because the evacuation route was paved over for some 'efficiency' metric."
+
+Elias Harrow (exhales; he is listening, and that steadiness does more for you than a dozen public endorsements): "Bring me your messy data. Bring me the neighborhood surveys. I can add those nodes. I can run the simulations with the living systems included and see where the trade-offs actually are."
+He taps his tablet, not at the wall model but at a folder labeled 'Scenarios — Hybrid Options'. "But you have to let me run the numbers before the hearing. I can't ask Councilor Qu to sign off on what I can't show mathematically."
+
+You hear your own impatience at the edges — the reflex to act immediately, to put your body between a bulldozer and a root mat — and you remind yourself of the last conversation with Rani about being the storm that gives. Compromise isn't a surrender; sometimes it is a way to make a storm less lethal.
+
+Mara Solenne: "You come into my marsh for a day. Let me show you the smell of it, the way the mud holds memory. You shadow us when the tide comes back and plants brace. And you bring those community storm-survey sheets — every last comment about who had to leave and where — into your model. No 'approximate' values where a family used to be."
+
+Elias Harrow hesitates, the brief softening of his jaw a small confession.
+
+Elias Harrow: "Shadowing — yes. I haven't done fieldwork in the mud for a long time."
+A small, rueful smile. "It will be messy. I'll get my boots dirty. And I'll bring the sensors to your marsh; we can put them on your pilings and have them stream into the same model I'm presenting."
+
+You both laugh — the kind of small, surprised release that means two people have made a tiny trade that feels like trust. The lab's fluorescent hum seems friendlier for a second, as if the technology and the living world can be coaxed into a conversation. The conversation deepens: he describes statistical confidence intervals, you counter with stories of neighbors who survive in the margins. He offers phased implementation windows; you insist on protected community consultation phases. He worries about emergency funding timelines; you show him Eda's margin notes proposing living-root pilot cells.
+
+The dialogue stretches over fifteen minutes — the back-and-forth warming with texture: interruptions, the soft click of clay under his nails, your breath when an idea lands. Each time one of you raises possibility, the other checks the numbers or the reality on the ground. The friction sharpens rather than dulls.
+
+Elias Harrow: "If I can show Council that a hybrid reduces peak inundation by X percent while retaining Y hectares of marsh function, they might agree to a pilot instead of a full seawall."
+
+Mara Solenne [hope rising like a tide]: "And if the pilot is legally bound, with oversight and funding for residents who might be affected, we keep people from being washed out of their homes for good."
+
+He sets his tablet between you and the model, then slides it closer. His fingers hover on the brass compass again, fingers resting near the needle like a promise he hasn't fully formed yet.
+
+Elias Harrow: "I'll need the storm-survey data by tomorrow afternoon to incorporate it into the simulation run I have scheduled. And —" he hesitates — "Mara, if I ask Lucia Montrose for a meeting to present the hybrid scenario, will you stand with me? Your voice in the room changes the calculus."
+
+You feel the old guilt that hardens decisions beat its wings, but hope — stubborn, practical — pushes at you. Standing with him in Lucia Montrose's orbit is risky. Standing apart might cost everything.
+
+Mara Solenne: "I'll stand in the room. I'll bring Eda's legal notes on community guardianship. But you have to promise you'll actually put the marsh functions into the equations, not just as a footnote."
+
+Elias Harrow [a steady, small grin]: "That's not how you get me to promise things. But — yes. I promise."
+
+[Sound: A distant drill; the rain starting in a thin thread against the warehouse roof]
+Outside, a delivery truck rumbles past, and for a beat the city's mechanical heart stutters in translation with the living one you defend.
+
+Rani [over radio, muffled but present]: "You two plotting the revolution or just poetry?"
+The sound is a tether to the neighborhood, a reminder that the hearing waits and that decisions must walk from table to street.
+
+Rani [over radio, muffled but present]: "Also — coffee? Or are you two too deep in the noble scientist-activist moment?"
+
+Elias Harrow: "We accept coffee as a quorum."
+
+You let yourself smile, an upward tilt that warms your face. There is movement between the two of you now that feels less like caution and more like planning: a map being drawn that includes both soil and spreadsheet. You gather Eda's photographs, your hands steady.
+
+Mara Solenne [softly]: "Tomorrow. Marsh at low tide. Bring boots."
+
+Elias Harrow: "I'll bring boots and sensors."
+
+It is not a solution yet. It is a small scaffolding of trust — a shared day in the mud and a promise to let community voices be more than anecdote. It is enough to make the fluorescent lab feel less sterile, and the world outside a little less inevitable.
+
+[Background:"ch2_c4ca42_2"]
+[Music: Swells briefly into a hopeful wash of strings and warm harmonics]
+[Sound: The rain picks up into a steady, cleansing rhythm]
+
+Page-turn thought linger: You leave with a plan that smells faintly of peat and coffee, a handful of commitments and a new data folder in Elias Harrow's tablet. The Promenade's machines will not wait; the hearing will not be gentle. But you have edged the tide in your favor by one small, human proof: he will stand with you in the mud, and you will let the math carry your neighbors' stories into rooms that have not wanted to hear them before. Outside Beaconworks the sky is a silver slab, the promenade's cranes glinting like teeth — the next battleground is obvious, and you can already hear the city assembling.
+
+[Background:"ch2_c4ca42_3"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

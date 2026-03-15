@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-03-10 21:51:44",
+  "total_chapters": 15,
+  "total_valid_routes": 4,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route D / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        13,
+        14,
+        15
+      ],
+      "length": 8
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Chapter 1: Low-Tide Repairs [Rise]",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Chapter 2: Town Assembly at the Docks [Rise]",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Chapter 3: The Cross-Tide Choice [Rise]",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Chapter 4: Kelp Pilot — Hands in the Water [Rise]",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Chapter 5: Scaling the Tides (Logic Hub) [Rise]",
+      "branch": "Route A / Split",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Chapter 6: Harvest & Harbor (Route A Ending) [Rise]",
+      "branch": "Route A / Ending",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Chapter 7: Glass & Negotiations [Rise]",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Chapter 8: Terms & Tides (Logic Hub) [Rise]",
+      "branch": "Route B / Split",
+      "children_ids": [
+        13,
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Chapter 9: Raised Streets, New Foundations (Route B Ending) [Rise]",
+      "branch": "Route B / Ending",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Chapter 10: Cooperative Rising [Rise]",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Chapter 11: Direct Action or Policy? (Logic Hub) [Rise]",
+      "branch": "Route C / Split",
+      "children_ids": [
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Chapter 12: Shared Shores (Route C Ending) [Rise]",
+      "branch": "Route C / Ending",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Chapter 13: Hybrid Governance (Route D Start) [Rise]",
+      "branch": "Route D (Hybrid Governance)",
+      "children_ids": [
+        14
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "Chapter 14: Institutional Love (Logic Hub) [Rise]",
+      "branch": "Route D / Split",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "Chapter 15: Model Town (Route D Ending) [Rise]",
+      "branch": "Route D / Ending",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 21,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

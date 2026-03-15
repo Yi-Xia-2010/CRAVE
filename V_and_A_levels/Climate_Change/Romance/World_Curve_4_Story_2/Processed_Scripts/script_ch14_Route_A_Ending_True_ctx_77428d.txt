@@ -1,0 +1,146 @@
+### SCRIPT
+# Route: Route A (Ending: True)
+# Context: 77428d
+
+[Scene: City Archive & Council Hall | Night]
+[Background:"ch14_77428d_1"]
+[Music: A raw, insistent low string; a single bow drawn hard and never released]
+[Sound: A distant thunder rumble under the glass; a microphone with a faint, nervous feedback hum]
+
+You stand at the center of the council chamber and feel the room as a pressure against your ribs. The red light over the recording console blinks as if keeping time with a pulse you no longer control. Every conversation you have carried — every meeting, every midnight edit, every compromise — has braided itself into this quiet, terrible instrument: one decision that will reverberate through Harrow Bay.
+
+You can taste metal on your tongue. The air is heavy with the brine that has begun to climb the stone steps outside, a reminder that the sea has patience and will take what we leave unguarded.
+
+Maya Soren: "This clause is non-negotiable." (You place the paper on the lectern so that everyone can see the bolded section.) "Enforcement language, milestones, independent auditors, community oversight panels — real, binding mechanisms. Without them, there is no contract."
+
+Asha Reed [breathing like a storm]: "You've written it like a warning, Maya. They'll call it a poison pill. They'll use it to stall."
+
+You hold the outline of the clause with fingers that are not steady. You know what stalling feels like: another rainy season, another house raised on stilts that no longer rests on its people. The option to buy time with tools that sideline people is a familiar, dangerous lullaby.
+
+Jonah Mek: "People in Lower Quay will want assurances," Jonah says, palms flat on the mahogany table. His voice is low, almost private. "We can schedule the labor commitments into the city's work orders, put them on payroll. That buys trust."
+
+Elias Voss [voice quick, raw]: "And it buys ignorance if we wait too long. The contractor's deployment—if delayed by six months—we lose beach profile, we lose habitat edge, and the storms in the forecast will carve us open." He looks at you and then away, jaw tight. "I can't sleep thinking what happens if we do nothing."
+
+You have heard Elias's argument a hundred ways, heard the tautness behind each sentence: optimism braided with fear. He is not a villain; he is someone who remembers the sea as both cradle and threat and wants to shove something in its mouth to slow it down. You understand him. You also understand the hard ledger of history — who pays when 'help' arrives that is not also accountable.
+
+Maya Soren: "I know what happens when infrastructure arrives without oversight," you say. "I know who gets displaced. I'm not willing to trade people's homes for vague promises. If the contractor won't accept the enforcement language, we reject their bid. We put the project on a slower, community-controlled path."
+
+Asha Reed [a hard laugh that carries no humor]: "Finally." She leans forward, eyes a white-hot focus. "You mean it."
+
+Elias Voss [anger and grief in one breath]: "You know what that will do. Funding dries up if the company walks. Equipment sits. People die if we don't act in time."
+
+The words hang like thunderheads. You feel the chamber narrow, every face a map of consequence. Asha's relief shudders across the room like a gust. Elias's fear becomes an accusation and then a plea. Jonah looks like he is carrying a threshold between them—wooden, heavy, warping in wet.
+
+[Background:"ch14_77428d_2"]
+[Music: Strings staccato, heartbeat percussion; the tempo quickens]
+
+[INTERACTION]
+> Choice A: "Step forward and read the clause aloud, intentionally sharp"
+> Choice B: "Let Jonah speak next, let him untangle the labor clause"
+[Outcome A: "You clear your throat and read each enforcement measure like a verdict. The room stiffens; even the recorder seems to hold its breath."]
+[Outcome B: "You nod to Jonah. His voice grounds the room with practical detail and small promises that sound like planks against open water."]
+[MERGE: Continue]
+
+[Scene: Council Hall — Continued | Night]
+[Sound: Distant chanting begins to rise outside — muffled, then closer; someone bangs a pan in protest on the stone steps]
+[Music: A layered dissonance. The tempo becomes a march.]
+
+Outside, the city is awake with noise. Inside, the council chamber becomes a battlefield of tongues. The contractor's representatives are not present — the decision to reject them comes from within the room — but their absence is a presence of its own: a hollow of power that feels almost like dereliction. People will interpret the silence in ways you cannot control.
+
+Asha Reed: "We need a community oversight board with real teeth. Not just a committee — people who can stop work if audits fail." (She points, fingers like stakes.) "No private hellscapes of profit. No displacement."
+
+Jonah Mek: "Bind the labor. Make pay transparent. Put community courtrooms on-site to hear disputes quickly." (He lists specifics like a carpenter naming tools.) "If you make it enforceable, they'll be able to trust the work."
+
+Elias Voss [voice fraying]: "I will help—I'll pivot my designs to smaller-scale modules we can deploy locally. If the big deployment stalls, I won't walk away. But don't leave me to argue to nobody while the bay eats itself."
+
+His voice, raw and pleading, cracks something inside you. You think of nights on boats, of the creak of hulls and the salt-slick air. You think of the faces in Lower Quay, of Rosa's hands in the soil. You think of the obligation that has always been yours: to protect not just land, but the right of people to belong to it.
+
+Maya Soren: "Then we codify it. We build the oversight board now. We write penalties into the contract that are automatic and enforceable — not suggestions, not aspirations." (Your words land like stones.) "We slow this deployment because sovereignty is worth delay."
+
+[Sound: A single thunderclap outside; a window shakes in its frame]
+[Music: Screech of strings that resolves into a low, mournful chord]
+
+The room does not erupt in applause. It fractures into more complicated noises: whispers of relief, sharp breaths of anger, a low beginning-of-march hum as cameras click and the city hears. For every hand that lifts in quiet approval there's a mouth that opens in protest. The city begins to rearrange itself around the choice you just made.
+
+[Scene: Community Gardens (Lower Quay) | Dawn]
+[Background:"ch14_77428d_3"]
+[Music: Sparse piano, single notes slow and heavy]
+[Sound: Rain hitting plastic sheeting; the distant roar of trucks rerouting]
+
+You come to the gardens before the sun because you need the dirt under your nails. The night left the neighborhood hollow with rumor and fear. Here, the fight turns human in its smallest details — who tends the beds, who gets paid, who keeps a roof over their head while machines idle.
+
+Rosa Calder [small, fierce]: "You chose the hard way, child." Her hands are knotted with soil and age. "It will sting for a stretch. But people stay. That is still the anchor."
+
+Jonah Mek [quiet, practical]: "I'll get the payroll in order," he tells you. "We can keep folks working on raised-bed retrofits, shoreline plantings, shorelines we know how to tend. It won't be as fast, but it's honest work."
+
+There are faces in the crowd that mirror the city itself: lined, washed, determined. Some glance at you with gratitude; others with suspicion. You understand the suspicion — leaders who promise and fail are memories that last like scars. Your throat closes with the weight of other people's histories.
+
+Elias Voss [arriving with a damp satchel and exhausted eyes]: "I made a list," he says, voice small. "Micro-modules, kelp nets you can hang from the pilings, community sensors we can build together. We'll run tests in tight cycles. We don't have to stop thinking big — we have to start thinking together."
+
+He sets down sketches, wet ink bleeding into the margins like the city itself. You look at the pages — smaller interventions, repair kits, teaching sessions. They promise less spectacle and more survival. Your chest tightens on the clarity of it: the scale of sacrifice required is larger than any one person but composed of small, repeated choices.
+
+[INTERACTION]
+> Choice A: "Walk the rows with Rosa and listen to her stories"
+> Choice B: "Help Elias catalog components for the micro-modules"
+[Outcome A: "You bend to the soil beside her. Her stories are salt and seed and memory; you can feel the continuity of place anchoring your resolve."]
+[Outcome B: "You take the pen and begin marking parts, your handwriting a map of next steps. The act of making a list steadies you."]
+[MERGE: Continue]
+
+[Scene: Rooftop Workshop | Late Afternoon]
+[Background:"ch14_77428d_4"]
+[Music: Machines humming; a rhythm of industrious, anxious energy]
+[Sound: Soldering hiss, a radio muttering weather updates]
+
+The deployment has slowed. Equipment sits in ports and warehouses like wounded things. Funding wobbles. Vendors threaten legal action. Protests line the promenade. You have enforced the clause; the city breathes in a different way—rougher, more ragged, but honest.
+
+Elias Voss [hands greasy, eyes bright with resolute fatigue]: "I don't regret pivoting." He passes you a coil of reclaimed netting. "This will be for the shoreline trials. If we do this right, we'll have living defenses people can replicate themselves."
+
+Maya Soren: "You could have walked," you say, the accusation barely a whisper.
+
+Elias Voss [a humorless smile]: "I almost did. But I realized I'd rather build with you than be right from afar." He pauses. "I can't fix everything, Maya. But I can keep trying. So can you."
+
+He leans close to fasten a clip, the smell of solder and salt mixing in the air. Your chest is a drum. The city outside is frayed — but here, in this messy workshop, a different kind of hope feels as brittle as glass and twice as determined.
+
+Asha Reed [arriving with her bandolier of seeds and a stack of community petitions]: "We will watch them," she says. "We will hold them to the letter. If the contractors try to slip their way back with loopholes, we'll be the ones who know and name it." Her voice is steady but not soft. "I am not folding. This is our right."
+
+Jonah Mek: "We need enforcement teams," he says. "Local auditors, community liaisons, legal clinics. People trained to read contracts so they don't get sold." He looks at you, the plan in his hands like a plank. "We make the machinery of oversight ourselves."
+
+There is anger at the edges of every plan — at companies that would treat the city like a ledger, at politicians who mark votes in pencil. The anger is righteous, and it feeds the work. But underneath it, there is a wound you feel like a pulse: the cost that must be paid in time and money and the quiet erosion of faith.
+
+[Background:"ch14_77428d_5"]
+[Music: Crescendo of strings, then a sudden, breathless silence]
+
+You have made the call. The enforcement clause is written into the city's charter for this project. You rejected the contractor that would not accept it. You made a choice that slows the pace of protection so that the protection belongs to those it is meant to serve.
+
+You think of the faces you've failed previously — the garden you moved years ago, the pots of rosemary that never sprouted where you said they would. The memory of that compromise sits in your chest like a stone.
+
+Maya Soren [soft, to yourself, the words half-thing and half-promise]: "We will be judged by what we keep and what we refuse to give up."
+
+The judgement is already arriving. The city murmurs and shouts and files complaints and makes plans. Some call it the safe path; others call it cowardice. Some will never forgive the delay; others will never forget the fact of ownership.
+
+[Background:"ch14_77428d_6"]
+[Sound: Distant sirens, layered with the sound of waves hitting a reinforced pylon]
+
+It is not a clean victory. The deployment slowed; storms still came at edges; some livelihoods were squeezed in the pause. But a new structure rises from the friction: a council reformed to include rotating seats for community auditors, a charter that binds the city's hands to the people's will, and a thousand small projects stitched together by neighbors who turned policy into practice.
+
+Elias works at the kelp racks at dawn and the sensor benches at dusk. Asha keeps watch and leads trainings; she still yells when she must, but she stays. Jonah builds, steady as ever, turning plans into planks. You carry the cost of every delay and every saved life in the same hollow of your ribs.
+
+You do not feel triumphant. There is grief baked into the victory like grit in bread. The air tastes like rain and salt and something harder — the knowledge that durable governance is not an event but a wound that will scar and need tending.
+
+You step back onto the rooftop at dusk. Harrow Bay glows: patched lanterns, the slow blink of sensors, figures moving below like careful ghosts. The enforcement clause is a small, stubborn thing in the city's legal code now — a line someone can point to when power forgets itself.
+
+You exhale. It is not relief. It is a breath taken to steady the hands that must keep working.
+
+[Background:"ch14_77428d_7"]
+[Music: A single, sustained, mournful chord that holds and then fades]
+
+[Background:"ch14_77428d_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

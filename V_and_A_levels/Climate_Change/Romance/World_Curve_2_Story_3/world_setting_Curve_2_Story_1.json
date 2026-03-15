@@ -1,0 +1,122 @@
+{
+    "design_logic": "I blend climate-change urgency with intimate romance by making the environmental crisis the engine of both external stakes and internal emotional conflict. The story centers on community-scale adaptation (rising seas, toxic runoff, changing seasons) so characters' choices about love and loyalty are inseparable from choices about land, livelihood, and moral responsibility. Core conflict: how to balance pragmatic, large-scale solutions that may displace people with grassroots, regenerative approaches that preserve belonging — and how two people with different approaches fall in love (or not) while the town's future is decided.",
+    "setting": "Near-future coastal town (Laurel Bay) on a temperate crescent where centuries-old fishing terraces meet new tidal wetlands. Technology is present but patchy: drone surveys, DIY solar microgrids, and experimental seaweed farms sit beside weather-beaten clapboard houses. Atmosphere: salt-scented, tense with seasonal storms, intimate community spaces, and brilliant low-sun golden hours that emphasize both beauty and fragility.",
+    "visual_style": "Contemporary painterly realism with anime-influenced character linework; muted coastal palette (sea-glass greens, storm-grays, rust); natural textures (wet wood, salt-crusted metal); soft backlight for romantic moments; occasional neon accents for technology and activist signage.",
+    "main_characters": [
+        {
+            "name": "Marina Reyes",
+            "role": "Protagonist",
+            "personality": "Empathetic, stubbornly optimistic, scientifically curious, quick to act but slow to trust. She values roots and community knowledge and is prone to carrying others' burdens.",
+            "appearance_features": {
+                "hair": "Salt-dark chestnut shoulder-length waves with natural turquoise tips from years handling kelp and sea-salts; usually pulled into a messy half-knot.",
+                "eyes": "Sea-glass green, slightly wide and reflective, with faint crow's-feet starting when she smiles.",
+                "clothing": "Layered practical wear: a sun-faded fisherman's knit, a patched denim overall, breathable oilskin jacket with rolled cuffs, and scuffed rubber boots with seaweed stains.",
+                "accessories": "A handmade buoy pendant on a frayed cord (keepsake from her father), a leather satchel patched with sewn-on field notes, and a small brass pocket spectrometer clipped to her belt."
+            },
+            "goal": "Restore the tidal flats and found a living-seaweed cooperative that sustains the community and protects the town from coastal erosion.",
+            "background_story": "Grew up in Laurel Bay in a multi-generational fisher family. Left for graduate work in marine ecology after a flood killed her father; returned to lead restoration when government promises stalled. She is driven to honor her father's legacy and to keep neighbors from being forced out.",
+            "emotional_trait": "Strength: deep compassion and resilience. Flaw: internalizes blame and can sacrifice personal relationships for the cause."
+        },
+        {
+            "name": "Elias Kato",
+            "role": "Love Interest",
+            "personality": "Pragmatic, analytical, quietly warm. He prioritizes large-scale, data-driven solutions and believes compromise is often the only politically viable path. He cares deeply but expresses it through planning and tangible protections.",
+            "appearance_features": {
+                "hair": "Ash-black undercut, kept short at the sides with a slightly longer, swept top; a single silver strand above his right temple.",
+                "eyes": "Warm amber, narrow and observant, with a steady, measured gaze.",
+                "clothing": "Crisp navy trench over technical shirts, olive cargo trousers with integrated pockets, and waterproof field boots; in town he favors clean lines and functional fabrics.",
+                "accessories": "A sleek digital wrist-map device used for flood models, a brass compass on a short chain inherited from his engineer grandfather, and a slim set of drafting pens in his jacket pocket."
+            },
+            "goal": "Implement a municipal adaptation plan (strategic seawalls, elevated infrastructure, managed retreat where necessary) that saves as many homes and services as possible.",
+            "background_story": "Raised in the city, he returned to lead the town's planning after working on urban resilience projects. He and Marina dated briefly in college before ideological differences and distance pulled them apart. He joined municipal work to do pragmatic good at scale.",
+            "emotional_trait": "Strength: steady rationality and loyalty. Flaw: difficulty showing vulnerability and a tendency to prioritize efficiency over emotional nuance."
+        },
+        {
+            "name": "Kaori \"Kai\" Matsuda",
+            "role": "Catalyst / Friendly Rival",
+            "personality": "Charismatic, radical, and inventive. Kai is a community organizer and renewable-technology entrepreneur who believes in bottom-up solutions and direct action. She pushes emotional honesty and rapid experimentation.",
+            "appearance_features": {
+                "hair": "Platinum-blond buzzed sides with a single long side braid dyed neon coral that swings when she moves.",
+                "eyes": "Cool gray-blue almond-shaped eyes with a mischievous, energetic spark.",
+                "clothing": "Upcycled functional streetwear: lightweight modular jackets embedded with thin flexible solar strips, patched cargo skirts, and high-top boots rigged with small tool loops.",
+                "accessories": "A DIY modular solar wristband, multiple ear piercings (tiny copper hoops), a repurposed bike-lamp turned pendant, and a utility belt of hand tools and seed packets."
+            },
+            "goal": "Build decentralized, community-led energy and food systems (microgrids, floating farms) that keep people anchored to place and reduce reliance on top-down projects.",
+            "background_story": "Moved to Laurel Bay after organizing climate camps in the city. She learned inventive fixes in maker-spaces and survived a winter living in a retrofitted shipping container. Kai's urgency comes from watching displaced neighbors in other towns.",
+            "emotional_trait": "Strength: fearless creativity and directness. Flaw: impatience and a tendency to clash with institutional actors, sometimes alienating potential allies."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Amalia Reyes",
+            "relation_to_main": "Marina's younger sister and community events coordinator",
+            "appearance_summary": "Short, wind-ruffled black hair, freckled cheeks, wears bright patterned scarves and market-apron; always carrying a clipboard.",
+            "function_in_story": "Emotional anchor for Marina; organizes the town festival and becomes a bridge between residents and planners."
+        },
+        {
+            "name": "Thomas 'Old Tom' Bellamy",
+            "relation_to_main": "Elder fisherman and town lore-keeper",
+            "appearance_summary": "Weathered, deep-set lines, white beard braided with a scrap of rope; heavy wool coat and battered captain's cap.",
+            "function_in_story": "Voice of tradition and local memory; his testimony about past tides becomes crucial when persuading neighbors to support a plan."
+        },
+        {
+            "name": "Rina Corbett",
+            "relation_to_main": "Municipal council member and Elias' ally",
+            "appearance_summary": "Professional, short auburn bob, practical blazers with rolled sleeves and a discreet lapel pin of the town seal.",
+            "function_in_story": "Political operator who must broker compromise between opposing factions; she pressures Elias toward achievable plans."
+        },
+        {
+            "name": "Mika Tran",
+            "relation_to_main": "Marina's field assistant and tech-savvy teen protégé",
+            "appearance_summary": "Lean, quick, with dyed blue tips in short hair, always in layered hoodies and tool-laden jeans.",
+            "function_in_story": "Provides local tech support (drones, sensors), offers youthful perspective, and helps implement Kai's experiments."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Laurel Bay Tidal Flats",
+            "visual_description": "Broad shallow flats at low tide: glassy wet sand with tidal pools reflecting sky streaks, exposed mussel beds, and ragged pilings. Light is wide and low (late afternoon golden), colors shifting between sea-glass green and ochre. Mist often drifts in before storms; background shows small clapboard houses on stilts and rows of experimental seaweed pens."
+        },
+        {
+            "name": "Glasshouse Lab & Seedbank",
+            "visual_description": "A reclaimed warehouse with translucent curved panels, internal warm green light, rows of hydroponic trays, and shelves of labeled spores and seeds. Interior feels humid and cozy; soft diffused sunlight and the hum of pumps create a sanctuary-like atmosphere for research and intimate conversations."
+        },
+        {
+            "name": "Municipal Hall & Floodwall Construction Site",
+            "visual_description": "Contrast of clean municipal architecture and raw construction: the town hall's pale concrete under cool, overcast light; outside, steel girders, orange safety nets, and muddy tracks. Heavy equipment silhouettes cut into storm-gray skies. Lighting is cold and practical, conveying bureaucracy and unavoidable hard choices."
+        },
+        {
+            "name": "Cliffside Lighthouse & Storm Watch",
+            "visual_description": "A windswept cliff path leading to a squat, weather-pitted lighthouse. Sky opens wide with dramatic clouds; sunsets here are electric, casting pinks and bruised purples across churning water. Salt spray mists the lens and creates a cinematic, isolated space for pivotal conversations."
+        },
+        {
+            "name": "Reclaimed Wetlands Festival / Night Market",
+            "visual_description": "Twilight market strung with warm bulbs and handmade lanterns, stalls of smoked fish, kelp snacks, and upcycled crafts. Reflections shimmer in shallow channels; faces are lit from below by lanterns. The mood is celebratory yet bittersweet — community joy under the threat of change."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Adaptation vs. Preservation",
+        "Community Resilience",
+        "Love and Sacrifice"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Marina and Elias reconcile a shared approach that blends seaweed-based coastal buffers with targeted infrastructure; the cooperative they started becomes a stable livelihood, the town adopts a mixed adaptation plan, and the romantic relationship deepens into a partnership rooted in mutual respect and joint leadership."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise plan protects most of the town but requires a few families to relocate; Marina's cooperative is established but she chooses to lead smaller, place-based projects rather than take a permanent municipal post. She and Elias part ways gently: they love each other but prioritize different callings, leaving open the possibility of reunion."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political deadlock and a worsened storm season cause a devastating flood that destroys much of the town's shoreline. Kai and Marina's experimental systems are destroyed; Elias' top-down plans fail politically. Marina survives but loses her family home; the romantic bond fractures under grief and blame."
+        },
+        {
+            "type": "True",
+            "summary": "Marina rejects a singular romantic resolution to commit wholly to community-led restoration. Her dedication inspires a regional movement: the town becomes a living laboratory for adaptation. Elias stays as an occasional ally but the story closes on Marina leading the cooperative and planting the first long-line of kelp — a forward-looking, ambiguous ending that centers duty over personal closure."
+        }
+    ],
+    "estimated_chapters": 6
+}

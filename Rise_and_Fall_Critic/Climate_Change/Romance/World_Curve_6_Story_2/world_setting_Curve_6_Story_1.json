@@ -1,0 +1,124 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the planet's slow disaster the engine that forces characters into urgent personal and political choices. The emotional stakes of falling in love are tied directly to real-world trade-offs: preservation vs. progress, small-community care vs. large-scale engineering, and personal honesty vs. compromise. The core conflict centers on whether the protagonist will prioritize their community's ecological resilience and long-term stewardship or accept pragmatic, top-down adaptation that secures livelihoods but risks cultural and environmental loss — and how that decision reshapes their romantic relationships.",
+    "setting": "Near-future coastal town (Hearthbend) on a temperate shore facing recurring storm surges, rising tides, and shifting fisheries. Technology is functional and weather-hardened but not ubiquitous; community life blends working-class maritime culture with grassroots science and eco-activism. The atmosphere is intimate and tactile — salt air, damp stone, patchwork sea defenses, community gardens atop flood-proofed buildings — with a persistent sense of urgency and melancholy interlaced with hopeful warmth.",
+    "visual_style": "Soft watercolor coastal realism, cinematic lighting, anime-influenced character designs, environmental textures (salt crust, kelp, rust), muted pastels with neon civic signage accents, photo-realistic weather effects (rain, mist, golden-hour glare).",
+    "main_characters": [
+        {
+            "name": "Maya Kestrel",
+            "role": "Protagonist",
+            "personality": "Practical, fiercely loyal, community-first. Has a planner's mind and an organizer's heart: meticulous when preparing, impulsive when protecting others. Can be stubborn and carries survivor's guilt but is capable of tenderness and steady moral reasoning.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with sea-salt textured waves and an uneven fringe",
+                "eyes": "Sea-glass green with warm flecks of amber; rounded, attentive gaze",
+                "clothing": "Layered field jacket patched at the elbows over a faded marine-stripe sweater, cargo pants tucked into weathered leather ankle boots; always practical layers for sudden storms",
+                "accessories": "A battered waterproof field notebook full of maps and sketches, a small carved coral pendant tied on hemp cord (heirloom), and a pair of mismatched brass compass charms"
+            },
+            "goal": "Protect Hearthbend's people and cultural fabric by crafting resilient adaptation plans that preserve livelihoods and ecosystems.",
+            "background_story": "Born and raised in Hearthbend, Maya lost a sibling in a flash storm years earlier. She became a community planner to stop avoidable losses. She is trusted locally but struggles against corporations promising quick economic fixes.",
+            "emotional_trait": "Guilt-driven protectiveness — her strength is relentless care, her flaw is difficulty trusting large-scale solutions or letting others take the lead."
+        },
+        {
+            "name": "Ilias Navarro",
+            "role": "Love Interest",
+            "personality": "Warm, earnest, intellectually curious. A scientist who communicates with metaphors and empathy. He is patient but struggles with feeling ineffective when institutional obstacles slow his work.",
+            "appearance_features": {
+                "hair": "Thick black hair with sun-bleached tips, often pulled back into a short, loose knot with stray wisps",
+                "eyes": "Deep ocean-blue, soft-lidded and observant, with a tendency to crinkle at the corners when he smiles",
+                "clothing": "Sun-worn khaki field shirt with rolled sleeves, durable boat shorts or work jeans, rubber deck shoes; often has mud or kelp stains from fieldwork",
+                "accessories": "Waterproof field notebook in a clear sleeve, a tide-watch braided bracelet with tiny charms of shells, and a compact waterproof camera slung over his shoulder"
+            },
+            "goal": "Restore damaged coastal ecosystems (kelp beds, eelgrass) and translate research into local, community-driven restoration that also supports livelihoods.",
+            "background_story": "Raised in a family of small-boat fishermen, Ilias studied marine ecology and returned to Hearthbend to apply science with local knowledge. He left a promising academic track to work directly for the community.",
+            "emotional_trait": "Optimistic perseverance — a strength that motivates others, but his flaw is internalizing setbacks and a fear that his best efforts won't be enough."
+        },
+        {
+            "name": "Seren Blake",
+            "role": "Antagonist / Alternative Love Interest",
+            "personality": "Charismatic, decisive, and strategically minded. She believes in large, engineered solutions and efficient policy. Charming in public, guarded in private, with a pragmatic streak that can feel cold to grassroots activists.",
+            "appearance_features": {
+                "hair": "Platinum-blonde, short asymmetrical bob with a faint undercut at the nape; always sleek and wind-swept",
+                "eyes": "Steel-gray, sharp and calculating, with high-arched brows that emphasize her focus",
+                "clothing": "Tailored, weatherproof eco-corporate blazer and slim trousers with reflective piping; functional high-tech fabrics that repel salt and rain, polished waterproof boots",
+                "accessories": "A thin digital cuff used for data feeds and civic planning widgets, a discreet solar lapel pin signalling corporate backing, and a slim portfolio tablet etched with regional infrastructure schematics"
+            },
+            "goal": "Implement large-scale, rapid adaptation (sea walls, managed relocation incentives, engineered wetlands) to secure the regional economy in the face of accelerating sea-level rise.",
+            "background_story": "A former municipal engineer who now runs a regional adaptation initiative backed by a major green-infrastructure firm. Seren grew up in a different coastal city that survived relocation, shaping her belief in decisive action over debate.",
+            "emotional_trait": "Confident decisiveness — a strength for mobilization, but she hides deep loneliness and a fear that compromise equals failure."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Etta Muir",
+            "relation_to_main": "Mentor to Maya; elder fisherwoman of Hearthbend",
+            "appearance_summary": "Short, wind-creased face; silver hair in a loose bun; layered wool shawls and oilskin apron streaked with fish scales and salt.",
+            "function_in_story": "Holds community memory and moral weight; offers folkloric wisdom and pressure to protect traditional fishing grounds. Serves as conscience and a source of community legitimacy for Maya's plans."
+        },
+        {
+            "name": "Rafi Soto",
+            "relation_to_main": "Childhood friend of Maya; local freelance journalist",
+            "appearance_summary": "Lean, sun-kissed, always carrying a battered camera and a satchel of notes; wears a faded baseball cap and paint-splattered jeans.",
+            "function_in_story": "Amplifies or undermines public opinion through reporting; a confidant who can be persuaded to highlight different narratives depending on trust."
+        },
+        {
+            "name": "Mayor Ansel Reed",
+            "relation_to_main": "Political leader of Hearthbend, uneasy ally",
+            "appearance_summary": "Tall, habitual tweed overcoat even in rain; silver hair, worried eyes, and a public smile that rarely reaches his mouth.",
+            "function_in_story": "Holds bureaucratic power to approve projects and funding; represents trade-offs between economic stability and environmental/cultural priorities."
+        },
+        {
+            "name": "Dr. Hana Sato",
+            "relation_to_main": "Scientific advisor and Ilias's former mentor",
+            "appearance_summary": "Stoic, softly spoken; practical lab coat over waterproof gear, hair tied back in a tight bun; always with a tablet and sample vials.",
+            "function_in_story": "Provides technical knowledge and moral pragmatism; offers routes to scale restoration but warns of scientific limits and time constraints."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Hearthbend Harborfront",
+            "visual_description": "A patchwork row of low wooden piers, weather-beaten boathouses, and market stalls. Morning light is thin and golden through mist; salt crusts the ropes and nets, gulls wheel overhead. Colors are muted sea-glass greens and rusted reds; puddles mirror the sky. Background art emphasizes wet wood texture, steamed glass panes, and banners flapping in a sudden wind."
+        },
+        {
+            "name": "Saltgarden Research Lab",
+            "visual_description": "A compact, open-air coastal lab built into old warehouses with glass conservatories for kelp and eelgrass trials. Interior light is bright and clinical during the day, with dripping condensation and green growth against steel racks. Nights are lit by warm lamps reflecting on damp concrete — microcosm of science inside the stormy coast."
+        },
+        {
+            "name": "High Tide Boardwalk & Sea Wall",
+            "visual_description": "A newly raised promenade of concrete and engineered rock that gleams when wet. Harsh coastal sodium lamps cast pools of amber; fog rolls across the top of the wall during high tide, hiding the churning surf. The architecture mixes brutalist seawall geometry with graffiti and protest banners — beauty and contention in one frame."
+        },
+        {
+            "name": "Mangrove Patch / Abandoned Shipyard",
+            "visual_description": "Tangled roots, half-sunken hulks, and knee-deep mud. Lighting is diffuse under the canopy with shafts of late-afternoon sun. Mossy steel and reclaimed wood create a melancholic palette of greens, browns, and metallic grays. This is a place of quiet restoration and secret meetings."
+        },
+        {
+            "name": "Skyhub Pavilion (Seren's Office)",
+            "visual_description": "A glass-and-composite structure on a raised platform overlooking the harbor. Sleek, reflective surfaces, cool blue LEDs, and engineered plant walls. Interior lighting is sharp and efficient; panoramas show the town beneath, emphasizing distance between corporate solutions and street-level life."
+        },
+        {
+            "name": "Community Rooftop Garden",
+            "visual_description": "A mosaic of raised beds, rain barrels, and wind-protected hammocks atop a retrofitted school. Dappled late-afternoon light, warm terracotta pots, and strings of solar fairy lights create an intimate, hopeful atmosphere. The scent of herbs and drying seaweed is strong; colors are lush greens and earthen tones."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Maya and Ilias secure a community-led adaptation plan that blends local restoration with modest engineered protections. The town preserves key fisheries and cultural sites; Maya and Ilias commit to each other while continuing grassroots work. Short-term hardships remain but community autonomy is maintained."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A hybrid solution is implemented after painful compromises: parts of the town are relocated while key cultural sites are preserved through engineered sanctuaries. Maya grows closer to Seren after negotiating the terms, but the romance with Ilias drifts as priorities diverge. The ending honors survival with loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "The corporate-backed large-scale adaptation is imposed quickly, erasing many small fisheries and displacing long-standing families. Maya's resistance fails; she is left estranged from her town and from Ilias, who relocates for research funding. The town's economy stabilizes but cultural and ecological losses are deep."
+        },
+        {
+            "type": "True",
+            "summary": "An emergent, unexpected path scales: a regional cooperative modeled by Hearthbend leverages open-source restoration tech and community governance, inspiring broader change. Maya finds love and partnership (route-dependent) but the true victory is systemic — a realistic, hard-won model of resilience that others begin to adopt."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-03-11 08:38:02",
+  "total_chapters": 15,
+  "total_valid_routes": 7,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 11,
+      "branch_name": "Route B (Alternative Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        11
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route B (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route A (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route A (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Tidewatch Morning",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Main Street Meeting",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "The Proposal",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Prototype at the Rooftop",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Field Demonstration",
+      "branch": "Route A",
+      "children_ids": [
+        14,
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Community Shore",
+      "branch": "Route A (Ending)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Legal Frontlines",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Public Reckoning",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9,
+        15,
+        11
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "The Exposé",
+      "branch": "Route B (Ending)",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Negotiated Harbor",
+      "branch": "Route C",
+      "children_ids": [
+        12
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Site Stand",
+      "branch": "Route B (Alternative Ending)",
+      "children_ids": []
+    },
+    "12": {
+      "id": 12,
+      "title": "Hybrid Accord",
+      "branch": "Route C (Ending)",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Institutional Coalition",
+      "branch": "Route A (Ending)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Reckoning at the Pile",
+      "branch": "Route A (Ending)",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Council Compromise",
+      "branch": "Route B (Ending)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 14,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

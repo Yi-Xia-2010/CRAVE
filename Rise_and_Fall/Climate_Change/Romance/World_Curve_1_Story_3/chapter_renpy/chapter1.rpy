@@ -1,0 +1,165 @@
+label chapter1:
+
+    # [Scene: Drowned Garden | Early Morning]
+
+    scene bg ch1_Start_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Tide lapping gently against pilings; a distant gull, the faint clack of a fishing line against metal.]
+    # play music "music_placeholder"  # [Music: Warm, tentative piano with low synth underswell]
+    "You wake to the familiar weight of salt on your lashes and the faint, bright smell of wet soil. The room tilts for a breath between dream and the rhythm of tide—furniture settled, water-borne house breathing"
+    "with the day. Your hand finds the hydroponic locket on the sill without thinking: a brass casing, a sliver of glass fogged with condensation, and a single sprig of marsh grass cursorily pinned in nutrient gel."
+    "Your fingers are clumsy and sure at once as you coax the grass upright. The locket is small and ridiculous and holy to you: a living memory you can hold. You wipe rain-slick from the glass"
+    "and feel the fine grit where the hinge chewed at the metal last winter. The grass smells of peat and brine; its roots glimmer like inked veins. You lean your forehead to the pane and count"
+    "the new pale shoots—two this week. A small, stubborn progress, like a promise kept."
+    "Your seed-bead bracelet clinks against the worn metal of the locket when you close your hand around it. The beads are uneven—salvaged glass from the neighborhood market, each bead a story. You let the sound settle in your chest. It steadies you."
+    # play sound "sfx_placeholder"  # [Sound: A gentle mechanical hum; distant hammering from the promenade]
+
+    scene bg ch1_Start_2 at full_bg
+    "You flip up the cracked solar watch. It grumbles to life, the diminutive battery coughing. In the small corner where notifications bleed into the display, there is a message from Elias. Your thumb hesitates, then opens it."
+    show elias_harrow at left:
+        zoom 0.7
+
+    elias_harrow "Can meet at Beaconworks this afternoon? Need to run a few preliminary models with you — and… I want to hear how the community is taking the latest brief."
+    "You feel the way your chest loosens when his name appears—an electric, practical calm. He has always been the steady counterpoint to the quickness that lives behind your ribs. There's something in the phrasing, careful and a little shy, that makes you want to answer with more than logistics."
+    "A memory slips in, uninvited: the last storm that took your sibling. You see a smaller version of your neighborhood in that memory—water rising like a patient animal, evacuation sirens swallowed and then replaced with silence."
+    "You feel the familiar ache of guilt lift its head, the old, sharp instruction that you must do more. It is not righteous fury this morning; it is a tightly braided promise. Protect what’s left. Make"
+    "things livable. Keep people dignity in loss."
+    "You pull on a wool sweater and lace your boots. Outside, the Drowned Garden smells of wet boards and seaweed and the hot breath of someone frying fish down the way. Children have already started crossing the pontoons; a dog barks like wind exhaling."
+    hide elias_harrow
+
+    scene bg ch1_Start_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wood groan; muffled water beneath]
+    "The footbridge groans when you plant weight at the cracked slat. The rupture is worse than you thought—someone nailed a scrap over the worst of it last season. You crouch and inspect, fingers sliding into wet"
+    "gaps. The rope that keeps the float secure has frayed. You can patch it for now, or pull a replacement float from Rani's store of things and make a seam that will last the tide change."
+
+    menu:
+        "Make a quick waterproof seam with gaffer tape and wax—fast, minimal weight":
+            "Your hands work quickly, the tape crinkling. The bridge holds tight enough for the morning crossings; kids trot over with little whoops. You make a mental note to reinforce it properly before the next high tide, but for now people can get to market."
+        "Unspool the heavier nylon line and splice in a salvaged float—takes longer, stronger":
+            "The splice is a slow, patient work. Salt and grit pull at your nails while you braid nylon and shove buoyant foam into a sheath. When you stand, the bridge rides higher, steadier. A neighbor pauses to thank you; you feel the small warmth of something built to last."
+
+    # --- merge ---
+    "You choose—because choice is how you keep things from unraveling—and the bridge answers. The neighborhood filters past: a woman balancing two crates of seedlings, teenagers hauling an old refrigerator down for conversion, a child with a"
+    "red kite stitched together from old banners. You nod and bark out instructions with the authority of someone who has patched things that should never have cracked."
+    # play sound "sfx_placeholder"  # [Sound: Footsteps, then a laugh—Rani arrives, a cloud of sawdust trailing her like applause.]
+
+    scene bg ch1_Start_4 at full_bg
+    show rani_cho at left:
+        zoom 0.7
+
+    rani_cho "You look like you slept with the tide again. Tape or splice?"
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "Both. The tape bought us time; the splice bought us dignity."
+
+    rani_cho "Ah. The two classic coastal virtues: patching and stubbornness."
+
+    rani_cho "Also—got a tip. Council packets floated into my shop. They were damp enough to smell like the Promenade. Lucia Montrose's name popped up on the top line."
+    "You feel the air sharpen. Lucia Montrose—behind every corporate rendering, the calm silver outline of order. The city seems to bend around her decisions as if they were tectonic plates."
+
+    mara_solenne "In what context?"
+
+    rani_cho "Seawall schematic annex. Emergency funding clause. They used the word 'expedient.'"
+
+    mara_solenne "Expedient means corners cut. Wetlands don't fit into 'expedient.'"
+
+    rani_cho "Then we'll not let them make the definition. Come on. I can help you with a few things. Where are we headed?"
+    "Your voice is steadier than the knot in your stomach because you have made steadier habits—moving, fixing, pulling together neighbors. Plan is a verb."
+
+    mara_solenne "Beaconworks this afternoon. Elias wants to run models. I want him in the room when people speak. If Lucia's wing of the council shows up, I want our stories in their ears."
+
+    rani_cho "You doing okay? You look—"
+
+    mara_solenne "Like someone who remembers what being late to a warning costs. That's my compass today. Help me haul the spare float to the porch; I'll patch the watchman's ladder."
+
+    rani_cho "Okay. And—"
+    "She lifts a hand with a crooked thumb."
+
+    rani_cho "—don't shoulder the whole crowd on your back. You're not a bridge; you're the person who tells others how to build one."
+    "You snort a laugh, the sound catching on the salt-thick air. It is relief, briefly, to be seen like that. Rani gives you a clumsy salute and wrenches off to fetch more tools."
+    hide rani_cho
+    hide mara_solenne
+
+    scene bg ch1_Start_5 at full_bg
+    "Before you send it, your fingers slow. Texts are tiny vessels. Tone matters with Elias—he reads data like scripture but he reads people like maps. You could answer with brisk logistics. You could let him know you need him in the hearing room, not the lab. Either would be true."
+
+    menu:
+        "Reply: 'See you at Beaconworks. Bring the models — we need the room to hear the people.'":
+            "You hit send. The message lands clear, practical, almost pleading. There's a pause; then his confirmation tone arrives. For a moment you imagine him in the lab light, hands stained with graph lines, and you picture him standing in a public room listening. It feels like a small alliance."
+        "Reply: 'I'll be there. Come early—bring coffee and—stay.'":
+            "You almost don't send the last word, but it slips into the text. The message reads less like logistics and more like a quiet request. His reply is delayed but tender; you can almost hear the smile in his typing. It steadies you."
+
+    # --- merge ---
+    "You tap the screen and send the reply that fits the shape of your confidence. The reply is an olive branch disguised as a calendar item. Elias sends back a confirmation and a time. When he"
+    "adds, 'I'll bring the coffee,' you let a small grin break loose. The city feels a little less like an adversary and more like a place you can influence."
+    # play sound "sfx_placeholder"  # [Sound: A kettle boiling in the distance; the call of the market opening]
+
+    scene bg ch1_Start_6 at full_bg
+
+    "You check the community notice board where hand-scrawled flyers flutter between digital tags. Someone has posted a notice" "Promenade Hearing — public comment accepted."
+    show rani_cho at left:
+        zoom 0.7
+
+    rani_cho "You really think people will show?"
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "They'll come if they know why. They come if they know they won't be alone there."
+
+    rani_cho "And if they don't come?"
+
+    mara_solenne "Then it's on us to bring them. We'll organize floats, rides, a picket. We'll run a shuttle from the far pontoons. We have the market, the roof farms, Eda's circle—"
+
+    rani_cho "Eda will drum. Kids will sing. Mateo—if he feels the tide of votes—he might pass something useful to us."
+
+    mara_solenne "We'll need a clear ask. Not just 'no.' A constructive plan with steps. Wetland buffers, managed retreat map, legal protections for tenants during construction."
+
+    rani_cho "Ambitious."
+
+    mara_solenne "Necessary."
+    "Rani's laughter is brief, then earnest. She grabs the end of the float and together you drag it into the sun, the foam sweating salt. Your palms sting. You dig a fingernail into a splinter and"
+    "press it into a memory of another morning—sirens, cold fingers. That guilt nudges your resolve into sharper shape. It doesn't feel like self-punishment. It feels like calibration."
+    hide rani_cho
+    hide mara_solenne
+
+    scene bg ch1_Start_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant municipal siren; the low murmur of neighbors preparing]
+    "Before leaving, you crouch and tend to the marsh grass in the locket one more time. You whisper to it—not a prayer so much as a naming. Small things deserve names. They deserve witnesses."
+    show rani_cho at left:
+        zoom 0.7
+
+    rani_cho "I'll run a list. Nate has a radio van. I can get him to loop the neighborhood."
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "Good. Send Eda a message; she knows the old drum patterns that draw people. Mateo—I'll push what leverage we have."
+
+    rani_cho "And Elias?"
+
+    mara_solenne "He'll model scenarios. He'll give them numbers that look like compromise without letting the engineering be an excuse to erase us."
+    "Rani studies the horizon where the Promenade's machines glint. For a second there is a softness in her face that passes like weather."
+
+    rani_cho "Then go. Be the storm that decides to give rather than take. Or—"
+
+    mara_solenne "Or be the hand that helps build the thing that keeps on giving. That's what I'm trying to be."
+    "Rani nods. She bumps your shoulder with a knuckle, comic and fierce."
+
+    rani_cho "Go to Beaconworks. Make Elias bring coffee. Bring me back a plan that smells like sawdust and victory."
+    "You laugh. The sound feels bright and real."
+    hide rani_cho
+    hide mara_solenne
+
+    scene bg ch1_Start_8 at full_bg
+    # play music "music_placeholder"  # [Music: Swells into a hopeful chord — muted brass with warm strings]
+    "You check your pack: a roll of nylon line, the repaired watch, the hydroponic locket cushioned in a cloth. You look at your reflection in a rain-streaked window—sea-glass eyes and a deep-sea green bob threaded with a copper strand. The face staring back is tired but unbowed."
+    "You step onto the pontoon, feeling the gentle give beneath your boots. The beads of your bracelet chime—seed-beads telling time in a language older than council rooms. You feel the neighborhood breathe with you: not an echo but a shared rhythm."
+    "There is a narrow corridor of sunlight between the suspended walkways that points, almost theatrically, toward the route to Beaconworks. Your plan is a looserope stretched taut with faith and logistics: get Elias in the room,"
+    "bring voices to the hearing, show the city a viable alternative. It is a plan made of people and mud and models."
+    "You set your jaw—not a hard thing, but steady—and begin walking toward Beaconworks, each step a small, meticulous promise."
+    # [Page-Turn thought linger: The lab will be cold and precise; your neighbors will be loud and human. You will need both kinds of courage today.]
+
+    scene bg ch1_Start_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

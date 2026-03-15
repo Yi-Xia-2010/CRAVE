@@ -1,0 +1,189 @@
+label chapter4:
+
+    # [Scene: Drowned Garden | Dawn]
+
+    scene bg ch4_453e40_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, rising strings with a soft percussion — like footsteps on wet wood]
+    # play sound "sfx_placeholder"  # [Sound: Distant hammering, gulls, murmured voices; the clink of Rani’s toolbelt]
+    "You smell peat and salt, and under that, the sharp warmth of coffee somebody handed you two houses back. Your raincoat is still damp at the hem; you can feel the stiffened mud crusting the rubberized"
+    "boots where you kneel to check lashings. Today the neighborhood is a workshop and a choir: people patching, braiding, and tying symbols to things that could sink or shine."
+    show rani_cho at left:
+        zoom 0.7
+
+    rani_cho "You want the garden lashed higher? The tide’s not our friend today."
+    "You consider the line of pylons in your mind — cold metal teeth in the marsh — and how a floating bed of marsh grass at their feet would look on camera. You think of the"
+    "children who will press their faces to the cordon with stockings of seed, socks turned into petitions. You think of Eda’s hands, the way they tell stories by mapping root lines on your palm."
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "Higher. Let it kiss the seawall when the tide comes in. Make it impossible to ignore that something still lives there."
+    "Rani huffs a laugh that almost sounds like a bark. She stands, toolbelt jingling, and tosses you a coil."
+
+    rani_cho "Fine. But you’re on anchor duty when Elias starts fiddling with his tablet."
+    "The laugh is easy and fierce; it threads through your chest. That small, human sound steadies you more than the tether ever could."
+
+    menu:
+        "Make coffee runs for the volunteers":
+            "You duck through the canvas awning and emerge with a tray of steaming cups. The steam fogs your glasses; someone pats your shoulder in thanks and the warmth steadies both your hands and your resolve."
+        "Check Elias’ anchor points with him":
+            "You squat beside Elias and point where you think the line should go. He leans in; his tablet screen throws a soft glow on both your faces. Your fingers brush as you adjust a coordinate — the contact is a promise as much as a correction."
+
+    # --- merge ---
+    "Continue narrative"
+    # [Scene: Promenade Construction Site | Mid-Morning]
+    hide rani_cho
+    hide mara_solenne
+
+    scene bg ch4_453e40_2 at full_bg
+    # play music "music_placeholder"  # [Music: Hopeful brass overlays with a rhythmic hand-drummed cadence; the tempo quickens as people gather]
+    # play sound "sfx_placeholder"  # [Sound: The roar of a bulldozer is punctured by children’s laughter, a reporter’s cough, and the creak of a makeshift platform settling into place]
+    "You step onto the first floating garden — a patchwork of salvaged crates, buoyant barrels, and stitched tarpaulin — and feel the whole thing bow, then settle. Below, mud breathes. Around you, hands move in choreography:"
+    "elders steady planks, teenagers clip safety harnesses, toddlers place cloth sacks of marsh seed into small hollows shaped like pockets."
+    show eda_nal at left:
+        zoom 0.7
+
+    eda_nal "Root them well. Teach them how salt can make a seed sing if it’s cared for."
+    "Her voice floats across the water, and you feel the weight of the moment — ancestral practice braided to present action."
+    show elias_harrow at right:
+        zoom 0.7
+
+    elias_harrow "I mapped the pylons. If we anchor here and here, the tide movements will leave space for the garden to flex. I also flagged a safety perimeter that won't interfere with workers' emergency access."
+    show mara_solenne at center:
+        zoom 0.7
+
+    mara_solenne "Will that leave us enough presence? We need bodies on the pylons, Rani said."
+
+    elias_harrow "If we tether human chains to the platforms instead of the machinery, we keep the pressure off critical points and still make a visible halt. It’s risk-managed. It keeps people safer."
+    "You taste iron and the sweetness of adrenaline. The plan is not poetry; it is scaffolding — and scaffolding is sometimes the only way to hold an idea upright."
+    hide eda_nal
+    show rani_cho at left:
+        zoom 0.7
+
+    rani_cho "You mean I don't have to teach half the crowd how to knot a bowline? Bless you, Elias."
+    "Her voice is knife-sharp with affection; she slaps Elias’ shoulder once, hard enough that he breathes out a laugh."
+
+    elias_harrow "You’d teach them in five minutes."
+
+    rani_cho "Try me."
+    "You can feel the press shifting along the perimeter. Cameras tilt like curious birds; a drone hums overhead, scanning the mosaic of faces. A reporter calls out a question, but the sound is distant under the chorus of instructions and the thud of boots."
+
+    menu:
+        "Step onto the platform to address the cameras":
+            "You climb the makeshift dais and your voice rides out across the construction like a tide. You speak about living defenses and living wages; the camera holds your face and your words echo in the marsh. Someone records it and already your sentence is on a hundred feeds."
+        "Stay among the elders and children, handing out seed stockings":
+            "You hand a toddler a sack of seed and she presses it to her chest like a treasure. An elder takes your hand, fingers trembling around your palm; the gesture anchors you in a slower, tender rhythm."
+
+    # --- merge ---
+    "Continue narrative"
+    "You choose neither grandiose pose nor shy retreat; you balance both. You instruct a volunteer to bring the microphone near Eda, and you walk the plank between camera and child, between headline and handwork. The network of people hums with purpose."
+    # [Scene: The Edge of Confrontation | Noon]
+    hide elias_harrow
+    hide mara_solenne
+    hide rani_cho
+
+    scene bg ch4_453e40_3 at full_bg
+    # play music "music_placeholder"  # [Music: Crescendo of strings that resolves into a steady, resolute chord]
+    # play sound "sfx_placeholder"  # [Sound: The settling of a crowd as everyone takes in the presence of power; a microphone pops]
+    show lucia_montrose at left:
+        zoom 0.7
+
+    lucia_montrose "This is…creative, Ms. Solenne. Admirable theatrics. But you understand why construction must continue. We have emergency timelines and livelihoods in the balance."
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "You understand why we can't let them bulldoze the living ground beneath our feet. This is people's homes, Lucia. It protects the city like a first line of defense."
+
+    lucia_montrose "Ms. Solenne, I admire your conviction. But spectacle does not translate to technical viability. We need structures that guarantee immediate protection."
+    show eda_nal at center:
+        zoom 0.7
+
+    eda_nal "Guaranteed protection is easier promised in a room without the marsh. But the marsh is not theatre; it breathes. It is not a risk to be sealed but a neighbor to be respected."
+    "Lucia’s face tightens imperceptibly. She looks, for a beat, at your group, then at the clutch of cameras."
+
+    lucia_montrose "Then let us discuss. But not amid machinery. For safety and clarity, we will enforce a perimeter."
+    "Her security raises a line of cordon tape that gleams under sunlight. A murmur ripples; some of the volunteers grip the tape, others step back. You can see the calculus in every jaw — safety, visibility, moral insistence."
+
+    mara_solenne "You can't just push us off the public shore."
+
+    lucia_montrose "We're not pushing you off. We're prioritizing safety so decisions can be made without escalation."
+    "The back-and-forth is not a clash of words so much as a slow turning of two gears. Each side fits into its role: you the insurgent with a plan, she the executive with a timetable. The press records every nuance."
+
+    menu:
+        "Call for a human chain across the cordon":
+            "You plant your feet and call out for hands. A line forms, fingers entwining like braided rope. The tape trembles but does not break — a living barrier that becomes a headline."
+        "Offer to move the floating gardens a few meters back to deescalate":
+            "You signal quietly to the anchor teams; the gardens glide an inch back. The gesture reads as compromise — a willingness to work — and a few cameras turn, noting cooperation rather than standoff."
+
+    # --- merge ---
+    "Continue narrative"
+    "Behind you, children press stockings of seed into the hands of surprised workers. A clip of one worker, grizzled and reluctant, cradling a tiny sack on camera is already being shared. The images flatten the complex into a story that people understand: hands, mud, and future."
+    "A lawyer in a dark suit steps up — you notice the council insignia pin. His voice is clipped, official."
+
+    "Lawyer" "An injunction has been filed. Pending review, all non-essential construction activity is paused. Emergency consultation will be convened within seventy-two hours."
+    "The word 'injunction' lands like a bell. People whooped in the periphery, then clapped with the shock of relief that starts small and spreads. For the first time in months, the machinery hushes like an animal surprised into sleep."
+    hide lucia_montrose
+    show elias_harrow at left:
+        zoom 0.7
+
+    elias_harrow "We did the math right. Your presence made the difference."
+    "You feel an unfamiliar lightness you haven't allowed yourself: the buoyant updraft after a long dive. It is not victory in the final sense — there will be consultations, lawyers, and tides of public opinion —"
+    "but a pause, and a seat at a table. That seat is a promise you can almost taste."
+    "Rani grips your arm so hard you feel the warmth bleed into your sleeve."
+    hide mara_solenne
+    show rani_cho at right:
+        zoom 0.7
+
+    rani_cho "You did the thing, leader-lady. You made the city listen."
+    "You let the idea sink in: visibility carved a space for negotiation. People circulate around you, offering sandwiches and congratulations, hands sticky with mud and empathy."
+    "Lucia watches you from across the cordon, her posture unreadable — neither softened nor hardened, simply glass-smooth. Her mouth twitches, perhaps toward appreciation, perhaps toward calculation."
+    hide eda_nal
+    show lucia_montrose at center:
+        zoom 0.7
+
+    lucia_montrose "I'll see you at the consultation. Prepare your arguments, Ms. Solenne."
+    hide elias_harrow
+    show mara_solenne at left:
+        zoom 0.7
+
+    mara_solenne "We will bring proof. We will bring people."
+
+    lucia_montrose "Bring evidence and restraint. The city needs both."
+    "Her words are less a threat than a requirement. You nod because you must. The day's warm light edges the metal like a promise."
+    # [Scene: Aftermath | Late Afternoon]
+    hide rani_cho
+    hide lucia_montrose
+    hide mara_solenne
+
+    scene bg ch4_453e40_4 at full_bg
+    # play music "music_placeholder"  # [Music: Soft piano over strings, a sustained hopeful note]
+    # play sound "sfx_placeholder"  # [Sound: Laughter, low conversations; the distant receding of machinery]
+    "You sit on the edge of a platform, feet dangling over brackish water, and the mud reminds you that everything worth tending gets messy. Elias joins you and hands you a damp cloth to wipe the mud from your wristwatch. His fingers are careful."
+    show elias_harrow at left:
+        zoom 0.7
+
+    elias_harrow "You kept everyone safe… and loud enough."
+    "You rest your head back and watch gulls trace lazy lines across an evening sky that has been washed anew. For a moment, nothing is urgent but the small world at your feet."
+    show mara_solenne at right:
+        zoom 0.7
+
+    mara_solenne "We made room to talk. That’s all I wanted."
+
+    elias_harrow "And more than talk — a seat. That way, your stories aren’t a whisper in a briefing packet. They’re real people at a table."
+    "You let your thoughts pool around the word 'seat' — a small, hard artifact of power, and yet something that can be shared. The victory is practical and fragile, like a sprig in a locket."
+    show eda_nal at center:
+        zoom 0.7
+
+    eda_nal "Old hands and new maps. The braid begins."
+    "You close your eyes for a fraction and let the sound of the neighborhood settle into you: ropes creaking, children, the low hum of machines in pause. The day has lifted something that felt immovable: the city's gaze."
+    "There are consultations to prepare for, evidence to gather, and hearts to steady. There are legal briefs and wetland surveys, and compromises that will have to be stitched like a net. But for now, your chest"
+    "is light with a swell of community that feels like a rising tide you can trust."
+    # [Page-Turn thought linger: The emergency consultation table will be a new kind of field. You will need both Eda’s stories and Elias’ models. You will have to teach them how to braid.]
+    hide elias_harrow
+    hide mara_solenne
+    hide eda_nal
+
+    scene bg ch4_453e40_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter5
+    return

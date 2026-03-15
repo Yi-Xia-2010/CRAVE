@@ -1,0 +1,34 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Salt, Not Yet Water<br/>[Common]"):::spine
+    2("Ch 2<br/>Saltbridge Community<br/>[Common]"):::spine
+    3("Ch 3<br/>Crossroads at High T<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Salt and Protest<br/>[Route A]"):::limb
+    5("Ch 5<br/>Arrest Records and A<br/>[Route A]"):::limb
+    6("Ch 6<br/>Rooftops and Repair<br/>[Route A]"):::limb
+    7("Ch 7<br/>Glass and Blueprints<br/>[Route B]"):::limb
+    8("Ch 8<br/>Contracts and Compro<br/>[Route B]"):::limb
+    9("Ch 9<br/>Negotiated Shoreline<br/>[Route B]"):::limb
+    10("Ch 10<br/>The Plan I Keep to M<br/>[Route C]"):::limb
+    11("Ch 11<br/>Sanctuary Logistics<br/>[Route C — Evacuation]"):::limb
+    12("Ch 12<br/>The Price of a New S<br/>[Route C — Evacuation]"):::limb
+    13("Ch 13<br/>A Night of Broken Ma<br/>[Route C — Sabotage]"):::limb
+    14("Ch 14<br/>After the Clampdown<br/>[Route C — Sabotage]"):::limb
+    15("Ch 15<br/>Standstill at the Wa<br/>[Route C — Blockade]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 6
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 9
+    7 -.-> 8
+    8 -.-> 9
+    10 -.-> 15
+    10 -.-> 11
+    10 -.-> 13
+    11 -.-> 12
+    13 -.-> 14

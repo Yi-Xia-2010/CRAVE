@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-03-10 19:05:57",
+  "total_chapters": 15,
+  "total_valid_routes": 9,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route A & C (Inter-route)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route B (Ending)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route A & B (Inter-route)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route A & C (Inter-route)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt Notes",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Harborfront Meeting",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "The Turning Tide",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Inside the Model",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Soft Compromises",
+      "branch": "Route A / Split",
+      "children_ids": [
+        14,
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The Auction of Shoreline",
+      "branch": "Route A / Ending",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Salt and Strategy",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Escalation",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9,
+        6,
+        15
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Beacon of Broken Oaths",
+      "branch": "Route B / Ending",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Moonlight Mudworks",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Levers and Laws",
+      "branch": "Route C / Split",
+      "children_ids": [
+        14,
+        12,
+        6
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Mud and Consequence",
+      "branch": "Route C / Ending",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Leaks and Laments",
+      "branch": "Route A & B (Inter-route)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Exposed Crossings",
+      "branch": "Route A & C (Inter-route)",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Court and Concession",
+      "branch": "Route B (Ending)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

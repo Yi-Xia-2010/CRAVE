@@ -1,0 +1,187 @@
+label chapter14:
+
+    # [Scene: Lowtide Marsh | Dawn]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft sucking of boots in mud, gulls calling, a distant motor where a volunteer's truck idles]
+    # play music "music_placeholder"  # [Music: Sparse piano with low, aching strings — a minor chord held, steady]
+    "You wake before the sun finishes its slow climb. Your hands remember the work before you open your eyes: knots, the weight of woven brush bundles, the ache across your knuckles where rope bit the skin."
+    "You dress in the same salt-stained jacket, the bronze pendant cool against your sternum, and step out into the marsh while the world is still in that raw, early light where anything can seem new if"
+    "you stare long enough."
+    "The living breakwaters you've woven with nets and spartina bundles sit along the line where the water first tugs — low, dark ridges that break the wave and catch the sediment. Where you expected only clean-through"
+    "current, there is a hush: silt is settling into the pockets you made, bright green seedlings have taken hold in places your models did not promise, and tiny, freckled juveniles cling to the undersides of the"
+    "new oyster racks. It is small, stubborn life — the sort that feels like a private victory."
+    show maya_rios at left:
+        zoom 0.7
+
+    maya_rios "Look at this. The sediment's caught two inches in the last week."
+    show eli_navarro at right:
+        zoom 0.7
+
+    eli_navarro "That's—' (he steps closer, voice rough with early effort) '—that's more than I dared hope. You did good."
+    "You taste salt and coffee and the thin metallic edge of fatigue. Mud squishes cold between your toes. A juvenile crab scrabbles at the edge of a pool and you find yourself laughing, relieved and ridiculous all at once."
+
+    "Volunteer" "We can add another row here. If we angle them toward the shallow flow—"
+    "You press your palm to the damp wood of a rack, thinking in the slow, precise way you learned mapping tides: each centimeter counts; each hold multiplies. For a few hours the work is almost holy"
+    "— hands in the world, an answer built with muscle and quiet planning. Eli keeps close, sleeves rolled, mud sprayed across his forearms like badges. He shares a thermos with you; the heat goes straight into"
+    "your palms."
+
+    menu:
+        "Check the juvenile oysters tucked under the rack":
+            "You crouch, brushing algae from a cluster with careful fingers. Tiny valves snap like timid doors; they are alive and wary. The sight steadies something inside you."
+        "Mark the sediment line and move on to reinforce the next bundle":
+            "You notch a tally on the post, the line shallow but true. Each mark is a ledger of hope and a promise to return. You stand and shoulder your pack. There is more to do."
+
+    # --- merge ---
+    "The narrative continues."
+    "Eli watches you with a look that doesn't have all the words you wish for. When you finally read him, he shrugs the words into something softer."
+
+    eli_navarro "Whatever happens, we did what we could without a permit. We proved—' (he stops, searches for the right size of optimism) '—we proved it can work."
+
+    maya_rios "Proved it locally, maybe. But Aquila's lawyers don't care about our field notes."
+    "His hand finds yours for a moment, glove against glove. The contact is not dramatic; it's an anchor."
+
+    eli_navarro "Then we'll keep making the anchors they can't buy."
+    "You want to believe him with the guarantee of physics. Instead you feel the old tremor of doubt — the one that tightened after the forecast error years ago. This is different, you tell yourself. This"
+    "is collective muscle, data, the town's knowledge braided with technique. But certainty is a thin thing here, and the tide is patient."
+    # [Scene: Harborfront Lane | Late Morning]
+    hide maya_rios
+    hide eli_navarro
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs swelling into arguments, the clack of Mayor Cruz's cane on the pavement, a camera shutter somewhere]
+    # play music "music_placeholder"  # [Music: Low brass undercurrent; a fragile, hesitant violin line]
+    "By noon the mood shifts. The buzz is not the same as the early morning hush of builders and birds. A courier has been to the marsh. Someone on the corner holds a court notice like a flayed flag."
+    show mayor_jonah_cruz at left:
+        zoom 0.7
+
+    mayor_jonah_cruz "We received a suit from Aquila this morning — unauthorized earthworks, violations of protected shoreline statute, and a request for immediate removal. They've filed for fines."
+    "The word fines lands like a wet stone. You remember the little ledgers of families who share boats, the food stalls that rely on seasonal income, Rosa's classroom budget that vanishes with one blown-out storm."
+    show ivy_okoye at right:
+        zoom 0.7
+
+    ivy_okoye "They're weaponizing the law to force acceptance. They'll make the costs unbearable."
+    show eli_navarro at center:
+        zoom 0.7
+
+    eli_navarro "We all saw this coming.' (his voice is brittle) 'But we didn't think they'd move so fast."
+    "You rise to speak because your mouth has already written the words you want to test: explanation, defense, the science. Your throat closes on them. Public speaking will not change the ledger, but silence feels like consent."
+
+    menu:
+        "Step up and read the sediment data aloud":
+            "You step onto a crate and hold up the graphs. The numbers make a sound the room hasn't heard before — not just worry, but a proof. A handful of neighbors nod; a few faces tighten with new fear."
+        "Stay on the edge and listen":
+            "You fold your arms and listen. A woman next to you cries quietly when she hears about the fines. Your presence, unspoken, is a promise to keep fighting even when the words fail."
+
+    # --- merge ---
+    "The narrative continues."
+
+    mayor_jonah_cruz "The council will meet tonight with Aquila's legal team. I—' (he rubs his temple) '—I need a plan that keeps people fed and safe."
+    hide mayor_jonah_cruz
+    show maya_rios at left:
+        zoom 0.7
+
+    maya_rios "Plans aren't neutral, Jonah.' (your voice is firm; you can feel the undercurrent of argument forming) 'If the plan sidelines the community to avoid legal trouble, we erase what we're trying to save. The marsh won't be a museum behind seawalls that only rich outsiders can access."
+    hide ivy_okoye
+    show mayor_jonah_cruz at right:
+        zoom 0.7
+
+    mayor_jonah_cruz "I know. You know I know. But there are families who can't wait for ideal outcomes. They're being forced to make choices—some of them will accept Aquila's compensation. We have to be honest about the alternatives."
+    "Eli's jaw tightens. His loyalty to the community is not abstract; it is ledgers and boats and a father's empty chair. He is thinking of his oyster beds, the people who work for him, Rosa's students."
+    "The meeting fracturing into private survival decisions is a knife you didn't expect to feel so sharp."
+    # [Scene: Lowtide Marsh | Afternoon — Enforcement and Retreat]
+    hide eli_navarro
+    hide maya_rios
+    hide mayor_jonah_cruz
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The creak of pallets, shouted instructions, the hollow clink when a sign is nailed down; a child's distant sob]
+    # play music "music_placeholder"  # [Music: A cold string motif; staccato piano notes like falling beads]
+    "The letters turn into actions by mid-afternoon. You stand on the edge of a pool as men in clean shells follow a woman with a tablet; she reads terms aloud — an order to remove unauthorized"
+    "structures, temporary injunctions, a threat of lien on town property. An aquila legal counsel moves with the calm of someone performing a job whose purpose is profit and preservation of reputation."
+
+    "Volunteer" "You can't just take it!"
+
+    "Aquila Representative" "The order requires compliance. Removal and restoration will be overseen by the town. Noncompliance will be met with additional penalties."
+    "They don't need to say 'we can make the costs so high you'll beg us to take control.' The sentence is already written in the way charges are levied and in the town treasury that can't absorb them."
+    "Some families accept payment in the days that follow — a check, a promise of job placement on Aquila's site crews, a signed release that trades quiet roofs for surrender. You watch a neighbor sign with"
+    "hands that shake and tell yourself there are no clean choices when there's rent and a child to feed."
+    "Eli comes back from an exchange with Mr. Serrano, who runs one of the oldest boats. His face is weathered in a new way."
+    show eli_navarro at left:
+        zoom 0.7
+
+    eli_navarro "He took the compensation. Said his boat needs new ribs and the kid starts school next month. He didn't want to sign, but he has to eat."
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "We gave him options.' (your words taste like demand) 'We offered legal aid, crowdfunding, whatever—"
+
+    eli_navarro "Options only help if people can afford to wait the fallout out. Not everyone can."
+    "You stare at the place where the old wharf stands, its boards scarred by decades of ropes and weather. There's a notice pinned there too — a negotiated settlement: partial dismantling in exchange for dropped charges against several organizers. It's a ledger again: exchange of pain for a quieter future."
+
+    menu:
+        "Walk down to the wharf and watch them take it apart":
+            "You walk the planks as they strip nails and saw; each shavings-blow feels like a small surrender. Old ropes fall loose; the smell of tar and history rises. You count the knots you tied with your father and feel them unmake."
+        "Stand across the inlet and watch from the marshline":
+            "From the marshline the dismantling looks both smaller and infinite. Distance preserves a sort of mercy. You can see the men at work and the people standing with their hands in pockets. You let the tide pull your breath out and back in again."
+
+    # --- merge ---
+    "The narrative continues."
+    "A group of teenagers lift a banner that reads RESILIENT, NOT REDESIGNED. Their faces are bright, furious, raw. An older man shakes his head and says, 'We should have been louder sooner.' The town splits into"
+    "those who can accept the immediate patch and those who insist on the longer, riskier path."
+    "You think of the small rectangles of the oyster beds where the juveniles clung. You think of the places the sediment took hold, stubborn as moss on stone. These are not illusions; the marsh is answering"
+    "in places. But Aquila's bulldozers have power not only to build but to erase the same small miracles you worship."
+    # [Scene: Your Small Bedroom | Night]
+    hide eli_navarro
+    hide maya_rios
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain tapping a slow rhythm on the window, the distant hum of aquila's night lights at the harbor, the soft breathing of Eli in sleep or restlessness]
+    # play music "music_placeholder"  # [Music: A low cello line, unresolved; a wind instrument moans the shape of an unanswered question]
+    "You don't fall asleep at the same time. You lie on one side of the bed, Eli on the other, and the space between you is crowded with the day's debris: fines, signatures, promises, faces asking"
+    "for repairs. Your back is a map of small aches: hands that hauled bundles, shoulders that carried grief."
+    show eli_navarro at left:
+        zoom 0.7
+
+    eli_navarro "Do you think we saved anything? Or did we just delay the inevitable?"
+    show maya_rios at right:
+        zoom 0.7
+
+    maya_rios "We saved enough to show it could work.' (you say it like an argument; it sounds weaker in the dark) 'We proved a point. We created habitat that wasn't there a month ago."
+
+    eli_navarro "And then they came with lawyers and made those habitats illegal."
+    "You are quieter than you expect to be. The sentence you want — that the marsh will live through this, that life will rebound and neighbors will keep their boats — doesn't settle into your chest"
+    "easily. You know the data, you know the spots of success, but you also know the ledger: fines, families who left, the wharf's absent boards."
+
+    maya_rios "We are not finished.' (your voice is low; more a vow than a plan) 'We did something honest. Maybe it wasn't enough for everyone. Maybe it wasn't permanent. But it exists now."
+
+    eli_navarro "And if the law keeps suffocating it? If more people accept their payoffs? If the town's heartbeat changes—"
+    "He doesn't finish. You both listen to the rain and the way it erases and redraws sound across the glass."
+    "You replay the months in a loop: the nights you argued strategy at the Annex, the mornings of hauling, Cass Adler at a podium promising large-scale solutions — every small decision braided into this particular, messy"
+    "consequence. You touch the pendant over your heart and think of your grandmother's stories of the old wharf before the sea took parts of them. Memory is a kind of map, too."
+    "Eli shifts and turns his hand, almost reaching, then closing it in his own palms. The space between you is an honesty neither of you has named outright: love as resilience, love as another ledger. You"
+    "count the losses not with numbers but with faces: the kid who will never learn to say 'oyster' with a proud grin because the beds changed hands, Mrs. Delaney's saltbox now a cardboard box across town."
+
+    maya_rios "If I could do it differently—' (the sentence collapses under the weight of hypothetical saviors) '—I would have done more to build legal cover before we moved."
+
+    eli_navarro "You did what you thought was right. You still do."
+    "He says it like forgiveness and also a rebuke. You let it sit between you."
+    "For a long time you do not speak. The rain keeps steady time. Outside, somewhere near the harbor, lights blink with movement and the sound of a crane, precise and inevitable. The marsh rests in the"
+    "dark, breathing slowly: gulls tucked, seedlings asleep, the places you helped stitch together holding sediment like a wound starting to close."
+    "You think of futures and how practical they must be now: not the bold, sweeping victory you once imagined but a continuation built out of stubborn, localized wins. You imagine small committees, legal defenses cobbled from"
+    "donation and pro bono work, a town that stitches itself back together in the places it can."
+    "Finally you roll onto your side, facing away from the window so the light doesn't show your face too clearly. You feel Eli's presence like ballast, like someone who will remain even when the world changes"
+    "shape. The cost is heavy. The victory is battered. You do not know whether this was salvage or delay; you only know it demands a body at the work and a heart that keeps remembering why."
+    "You close your eyes and let the dark make a ledger of its own — one that holds both what you saved and what you could not. Somewhere in that accounting is the shape of your"
+    "next day: quieter meetings, legal filings, more handcrafting of the shore, the slow work of convincing neighbors that a different future is still possible."
+    hide eli_navarro
+    hide maya_rios
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain, a far horn, the distant, soft creak of a dismantled board]
+    # play music "music_placeholder"  # [Music: Cello fades into silence; a single piano note, unresolved, dissolves]
+
+    scene bg ch12_f99e88_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

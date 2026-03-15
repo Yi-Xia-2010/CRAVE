@@ -1,0 +1,32 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Returning Salt<br/>[Common]"):::spine
+    2("Ch 2<br/>Meetings at the Resi<br/>[Common]"):::spine
+    3("Ch 3<br/>Council Deadline / T<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>East Strand Mobilize<br/>[Route A]"):::limb
+    5("Ch 5<br/>Prototype and Pressu<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>The Blockade — A Sho<br/>[Route A — Ending: Happy]"):::limb
+    7("Ch 7<br/>Compromise Materials<br/>[Route A — Ending: Bittersweet]"):::limb
+    8("Ch 8<br/>Evacuations and Quie<br/>[Route A — Ending: Sad]"):::limb
+    9("Ch 9<br/>Prototype Sprint wit<br/>[Route B]"):::limb
+    10("Ch 10<br/>Data vs. Deadlines<br/>[Route B / Split]"):::limb
+    11("Ch 11<br/>Demonstration and th<br/>[Route B — Ending: True]"):::limb
+    12("Ch 12<br/>Private Trial, Publi<br/>[Route B — Ending: Sad]"):::limb
+    13("Ch 13<br/>Brokered by Cass<br/>[Route C]"):::limb
+    14("Ch 14<br/>Implementation Decis<br/>[Route C / Split]"):::limb
+    15("Ch 15<br/>After the Storm — Co<br/>[Route C — Multiple Endings]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 13
+    3 -.-> 9
+    4 -.-> 5
+    5 -.-> 8
+    5 -.-> 7
+    5 -.-> 6
+    9 -.-> 10
+    10 -.-> 11
+    10 -.-> 12
+    13 -.-> 14
+    14 -.-> 15

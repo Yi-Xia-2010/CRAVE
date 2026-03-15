@@ -1,0 +1,231 @@
+label chapter13:
+
+    # [Scene: Wall's Lee | Dawn, after the surge]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, a steady drip from planters, the hollow thump of water moving somewhere under the wall.]
+    # play music "music_placeholder"  # [Music: Low, minor strings; a slow, descending piano motif]
+    "You taste metal and salt the moment you step around the corner: the air is full of churned mud and something sharper — the memory of runoff. The cedar planters you championed sit askew, roots exposed"
+    "like small, surprised hands. Your satchel is heavier than it should be with the weight of meetings and minutes, but the real weight is in your chest where worry has turned slow and heavy."
+    "A crowd gathers along the lee: volunteers with gumboots, a couple of reporters with mics, Lydia Voss’s team arranged like a clinical photo-op. Someone takes a picture — the shutter is quick, the image already moving toward a headline you haven't read yet."
+    "You kneel without thinking, fingers in the mud. The soil slips away under a finger, a small collapse; there is a sound in your bones like a door closing somewhere you had thought open."
+    "Asha appears at your shoulder, her hair still damp from the night’s work. Her face is a map of exhaustion and something fiercer. She pockets her phone with a look that says she has seen everything she needs to see and that seeing was not enough."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "We reinforced the anchors, Marin. We staggered the planters to siphon flow—"
+
+    asha_patel "The surge found a new angle."
+    "You don't answer right away. You are doing the arithmetic in your head — angles, eddies, the way the wall's new segment refracts current where the estuary narrows. For a while you taste the raw logic"
+    "of it, the certainty of a model. Then you remember the thing models never hold easily: birds, roots, people's hands."
+    "You stand, mud streaking the cuff of your jacket. Lydia Voss approaches, immaculate despite the weather, and with her comes the flat, rehearsed sympathy of a consultant who has never had to scrape eelgrass from a child's fingers."
+    show lydia_voss at right:
+        zoom 0.7
+
+    lydia_voss "We anticipated some localized redistribution. The design allowed for adaptive management. We'll deploy a rapid response assessment team."
+
+    lydia_voss "These anomalies—extreme surge patterns—are outside the modeled band. We should be careful about jumping to causal statements."
+    "Her voice is crisp as glass. It is also the voice of the televised panel you have seen on other nights, the one that makes decisive-sounding sentences feel like absolution. You realize, with a sudden, cold"
+    "clarity, that 'we' in Lydia Voss's mouth slides from inclusive to exclusive depending on whose cameras are rolling."
+    "You open your mouth because you need the word 'we' to mean more than sentence syntax. Your throat tightens as you try to frame a sentence that contains everything: the planters, the habitat pockets, the nursery estuary you staked your reputation on."
+    show marin_solace at center:
+        zoom 0.7
+
+    marin_solace "The nursery—it's scoured. Juvenile beds exposed. We built that area for shelter during high tide windows."
+    "(You pause. You can feel Asha's eyes on your face, waiting for you to do the thing you are good at—translate panic into plans.)"
+
+    marin_solace "We need to assess sediment transport, not just local slopes. The wall's angles changed flow paths; it pulled a current we didn't fully account for."
+    "Lydia Voss tilts her head, polite and opaque."
+
+    lydia_voss "We will review the sensor data. We will adapt. The investors are concerned about public perception, yes, but adaptive measures are in our budget. This is why rapid action—"
+    "(There is a quick, almost imperceptible lift at one corner of her mouth; a calculation.)"
+
+    lydia_voss "—is essential to maintain confidence."
+    "Confidence. The word moves like a blade between your ribs. In the crowd, a small boy points at stranded birds tangled on a shard of marsh grass. Someone has left an old fishing net draped like a flag over a railing; it flaps and claps like a shutter."
+
+    menu:
+        "Join the volunteers shoveling silt":
+            "You roll up your sleeves and shoulder into the work, the cold mud biting at your wrists. Your hands know the rhythm of repair; your back remembers the long nights. For a time you can think about nothing but lifting, carrying, replacing — it is mundanity and it is holiness."
+        "Demand a meeting with Lydia and the investors":
+            "You find Lydia's aide and insist on an immediate sit-down. The pavilion schedules two hours of air-conditioned assurances; cameras angle in. The talk is heavy with budgets and liability. You speak and are listened to, but listening here settles like a neutral bandage. It does not stop the birds from being beached."
+
+    # --- merge ---
+    "Mud and words are not the same currency, but both are counted here. You try both in quick succession — you can't help it — a hand on a shovel, then a call routed to the"
+    "pavilion, your voice threading between volunteers and financiers. Neither quiets the hollow in your chest."
+    # [Scene: Nursery Estuary | Late Morning]
+    hide asha_patel
+    hide lydia_voss
+    hide marin_solace
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The dull gurgle of receding water, a reporter's distant murmured narration, the occasional sharp cry from a bird.]
+    # play music "music_placeholder"  # [Music: Sparse, sustained cello; a single, stark piano key tolls now and then]
+    "You walk the perimeter with Asha at your side, collecting the thin, bitter data of what has been lost. A juvenile net of crabs sits overturned; a nursery cage you helped design lies half-buried, its mesh"
+    "exposed like a ribcage. Your hands move automatically to catalog, to photograph; your mind runs faster than your fingers."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "If the scour cut that deep, we triggered a shear line. We may have channelized the flow. We were supposed to be an attenuator, not a funnel."
+
+    asha_patel "We need sediment samplers and aerial LIDAR. We need to know where it went and what's smothered."
+    "You nod. 'We' again—your coalition, your cooperative, the people who trusted prototypes over promises. The thought tastes of ash. Part of you screams that you should have insisted on a longer pause, on larger-scale modeling, on"
+    "refusing the speed with which the pavilion wanted to move. The other part of you remembers Jonah Reyes's face in prior meetings — unreadable, but hopeful in a way that had steadied you. You had wanted"
+    "to keep him from losing his dock."
+    "You can't reach that dock anymore; not yet. The images are already in the feeds: brown veins streaming from the wall into the estuary, birds perched like punctuation marks along the ruined edge. The town's talk turns faster than you can keep up with."
+    # [Scene: Lydia Voss's Pavilion | Midday]
+    hide asha_patel
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The hum of conditioned air, a slide click, the distant hum of the town outside.]
+    # play music "music_placeholder"  # [Music: Tension-building electronic pulse beneath dialogue]
+    "Investors speak first with the bluntness of ledger sheets. Their language is measured; their faces are polite and shaded like closed pages."
+
+    "Investor 1" "We need assurances. Cost overruns are already visible. Legal exposure—"
+
+    "Investor 2" "—and public image. The footage is damaging; we need a containment narrative."
+    "Lydia Voss leans forward, hands steepled."
+    show lydia_voss at left:
+        zoom 0.7
+
+    lydia_voss "We will produce an incident report and a corrective action plan. There are outliers in weather that are—"
+    "(She chooses her words precisely.)"
+
+    lydia_voss "—hard to predict. We will recommend a supplemental engineered buffer and public documentation of community consultation."
+
+    "You feel the words as they form" "public documentation of community consultation."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "Documentation isn't the same as decision-making. The nursery estuary—its integrity isn't about optics. It's about ecological connectivity. If the wall altered flow paths, remediation can't just be cosmetic."
+    "An investor taps their pen, patient and indifferent."
+
+    "Investor 1" "With respect, Marin, the priority is immediate risk mitigation. The board needs tangible outcomes. The faster we present action, the better for stability."
+    "You imagine stability as a word cut from a weightier cloth and used like a bandage. Someone hands you a prepared statement; the font is friendly and neutral. You think of every time you accepted a"
+    "small graft into a larger plan and told yourself that influence inside was better than noise outside."
+    "You realize, with a slow, cold knowledge, that your presence at the table—your acceptance of liaison—has already been used as evidence that community voices were woven into the plan. The phrase sits between you and the investors like a mirror showing only polished angles."
+    # [Scene: Jonah Reyes's Dock | Afternoon]
+    hide lydia_voss
+    hide marin_solace
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Water slapping the pilings, the faint creak of stressed wood, a distant mutter of a passerby.]
+    # play music "music_placeholder"  # [Music: Minimal acoustic guitar, slow and dissonant]
+    "You walk along the planks, the wood giving underfoot in places you have walked a hundred times. Jonah Reyes does not turn at first. He is a silhouette of someone who does not want to show what he feels and cannot hide it even if he tried."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "They called it an adaptive measure. My moorings needed retrofit—they said so last winter."
+    "(He keeps his voice low; there is no theatre here, only the raw tilt of tiredness.)"
+
+    jonah_reyes "The currents changed. Boats rubbed at new angles. Lines chafed where they never did. I lost two moorings last tide."
+    "You step closer. The sketchbook is closed like a small altar. You see the edge of a page, a charcoal stroke that might have been a hull line or a poem. He rests his palm on it as if weight can keep images inside."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "I pushed for the living habitats, Jonah. I argued to integrate marsh pockets, to leave openings—"
+    "(Your voice is apologetic, practical; you try to stitch explanation into solace.)"
+
+    marin_solace "We didn't model cross-system feedback hard enough. I thought I could steer it."
+    "Jonah Reyes finally looks at you. His eyes are vast and amber as though reflecting some distant, calmer sea. There's something complex there—how he used to laugh with rope in his hands, and how he now holds silence like a shield."
+
+    jonah_reyes "You sat in the pavilion with them, Marin. You gave them access. Now 'we' looks like a stamp on their report."
+    "(He inhales, slow.)"
+
+    jonah_reyes "My sketchbook's in the drawer. I haven't looked at it since the tide changed. It felt like folding something private into their blueprints."
+    "You want to reach out. You want to say that you had tried to bend the plan, that you had fought for cedar beds and pollinator hedges, but words have become small things in a room"
+    "full of larger failures. The gap between intention and consequence yawns there, and between you and Jonah Reyes there is now a distance that looks a lot like the tide."
+
+    menu:
+        "Stand and listen":
+            "You set your hands on the railing and simply listen to Jonah's list — the boats lost, the nights sleepless, the thin anger that is really grief. Listening is a labor. Each detail he gives is a small, honest fracture you cannot mend with plans."
+        "Offer to help rebuild some moorings tomorrow":
+            "You say, plainly, that you'll come down at first light with tools. Jonah's face tightens in a way you don't immediately read — maybe relief, maybe the weary suspicion that promises are easier than plans. He nods once, the gesture brief and guarded."
+
+    # --- merge ---
+    "Sometimes the choice to reach does not repair what was broken. Sometimes it simply marks that you were there when things fell apart."
+    # [Scene: Temporary Press Area, Boardwalk | Dusk]
+    hide jonah_reyes
+    hide marin_solace
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Reporters' murmurs, camera shutters, the distant slap of a boat against a stub of dock.]
+    # play music "music_placeholder"  # [Music: Low, layered hum; a violin thread that tightens and then snaps into silence]
+    "The feeds run late into the evening. Clips cut from the nursery estuary roll between shots of council meetings and tidy graphs of mitigation plans. Your face is in the montage only briefly — a liaison,"
+    "a local voice present on a marquee of consultation. Lydia Voss's statements are seamless; investors smile for the camera in ways practiced and untroubled."
+    "You watch a clip rewind and, in it, yourself saying something measured about adaptive governance. Your statement is tenable, technically sound, and utterly inadequate to the image of the birds and the brown veins of sediment."
+    "Somewhere in the crush of social media, a thread declares betrayal. Another calls for calm and patient review. Comments stack like tide lines. You can feel the town's temperament oscillate between grief and a desire for"
+    "someone to answer to. That energy collects around you in a way that presses on the chest."
+    "Elder Mae finds you after the press crowd thins, her shuttle of shawls heavier than usual. She looks at the estuary, then at your hands, and she says nothing at first. When she speaks, her voice is small and not unkind."
+    show elder_mae_hargrove at left:
+        zoom 0.7
+
+    elder_mae_hargrove "We planted these stories into the ground a long time ago, Marin. We told each other where to stand when the water came. You tried. You did what you could with what you had."
+    "(She folds your muddy fingers in her own.)"
+
+    elder_mae_hargrove "But when the ground shifts, we must change how we stand."
+    "Her words are a soft condensation of forgiveness and steel. They do not absolve. They do not erase the birds. But they hand you something you did not expect — a continuity that does not depend on success, only on presence."
+    # [Scene: The Saltworks — Marin's Bench | Night]
+    hide elder_mae_hargrove
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The slow drip from the cutting's jar, the hum of a distant generator, the muted clock of the town.]
+    # play music "music_placeholder"  # [Music: Faint, mournful piano; a distant cello breathes low]
+    "You sit where you have sat before, the chalkboard now cluttered with annotated errors and emergency actions. The prototypes are not all ruined — some are tattered but coherent — but tonight the board looks like a ledger of miscalculations as much as plans."
+    "Asha crosses the room and sets a thermos down. She touches the bracelet at your wrist — a small, neighbor-made thing — and for a moment you do not feel like a leader or a liability, just like someone who has been carrying too much."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "What do you want to do, Marin?"
+    "(She says it as if asking for a tool; as if the answer is practical.)"
+
+    asha_patel "People will ask for your head, for statements, for resignations, for promises. What do you want to do?"
+    "You think of Jonah Reyes's closed sketchbook, of birds with mud in their wings, of the way Lydia Voss's calm sentences rearranged 'we' into a public relations line. You think of every plan you have let out into rooms that seemed warmer than they were."
+    "For the first time since you took the liaison seat, you imagine stepping away from that table. The image of resignation is crisp: a letter folded into neat lines, your name off a sign, your voice"
+    "reduced to a local rumor. It would be a personal admission: you had believed you could bend a large machine by sitting inside it, and it had snapped its own gears with your hands on the"
+    "wheel."
+    "But resignation is not an exhale so much as a reallocation of responsibility. You also imagine staying — staying in the cooperative, hands in mud, calling for better modeling, for wider consultation, for community-led monitoring that"
+    "refuses to be window dressing. The thought is exhausting and, in a difficult way, true."
+    "You uncurl the cedar cutting from the jar and set it on the counter. It is small and mottled but alive."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "I wanted to keep the sea and the town together. I tried to make a seat at the table matter."
+    "(You press your thumb to the cutting’s stem.)"
+
+    marin_solace "We acted fast. Maybe too fast. We tried to graft life onto structure without letting the whole pulse through."
+    "Asha comes to stand beside you. There is no grand resolution in her face; only a steady, clear line of readiness."
+
+    asha_patel "Whatever you choose, do it for the right reasons,"
+
+    asha_patel "Not for image. Not for access. For the people and things that don't have a voice in those rooms."
+    "You look at the cutting and then at the maps splayed on the table: wave runs, sediment paths, notes in your handwriting that now read like confession and plan both. The town is raw, but not"
+    "gone. There are ways to rebuild that don't fold into the pavilion’s scripts; there are also ways to be absorbed until your fingerprints mean nothing."
+    "You think of Jonah Reyes one last time tonight and what has been put in a drawer between you — sketches of hulls and tides, a small history you cannot read without wincing. The guilt is"
+    "a physical thing, lodged under the sternum, and it will not be solved by a public statement or a framed audit."
+    "You fold the maps with hands that tremble some. Folding is a small ritual of order, a way to make the chaos take up less space for a little while. Outside, the rain begins again —"
+    "small at first, and then steadier — as if the town is washing itself and also refusing to accept being washed away."
+    hide asha_patel
+    hide marin_solace
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: The piano resolves downward into a final, quiet chord; strings sigh and fall away]
+    "You do not have an answer that feels whole. You have only the honest tally of choices you made and their consequences. You will have to tell the town what you know, to push for deeper"
+    "studies and public oversight, to help mend what can be mended. You will also have to accept that some things will not return to their previous shape; some histories will be altered."
+    "You pick up a blank sheet and, with a pen that leaves a dark, almost defiant line on the paper, write a short note to Council. You cannot fix the birds. You cannot unscour the estuary."
+    "But you can ask for transparency, for funds to rehabilitate the nursery, for an independent review that includes the people who live and work with these currents."
+    "You sign it with a hand that steadies as it finishes. It is not an absolution. It is a motion — a formal, small act toward accountability."
+    "Later, when the town sleeps and the pavilion glows like an assertion of certainty on the bluff, you walk out to the lee and push a small cedar cutting into a mound of reclaimed mud. Your"
+    "fingers are raw and the cutting leans with the weight of the day, but you set it upright and pat the soil. It is an act that will not make the evening headlines, that will not"
+    "smooth investor nerves, but it is stubbornly — quietly — yours."
+    "You stand back, palms cold, and watch the cutting against the washed sky. There is no neat ending to this. There are consequences and apologies and the slow, difficult work of repair. You feel the pull"
+    "of the town sideways, toward argument and litigation, toward some kind of restructuring that will probably never satisfy everyone."
+    "But there, with mud under your nails and the taste of salt on your lips, you make a small, deliberate choice: to remain in the town’s messy, human breathing space and to keep naming what went"
+    "wrong aloud so that maybe, eventually, the next time the water rearranges the world a little less will be lost."
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Single low cello note that fades into silence]
+
+    scene bg ch12_f99e88_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

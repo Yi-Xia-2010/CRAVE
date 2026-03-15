@@ -1,0 +1,117 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the engine of interpersonal conflict and growth: the central tension is between immediate technical fixes, long-term ecological care, and the human relationships strained by those choices. The genre pairing lets environmental stakes be intimate (home, family, love) rather than abstract policy, so choices about infrastructure, sacrifice, and restoration also function as choices about trust, loyalty, and honesty. The core conflict is whether the coastal community will accept a large-scale engineered seawall (and the attendant corporate power) or pursue slower, community-driven ecological restoration — while the protagonist's romantic relationship is tested by differing solutions and personal compromises.",
+    "setting": "A mid-21st-century coastal town and its surrounding tidal marshes, where warmer seas and stronger storms have forced new infrastructure projects. Technology is advanced but unevenly distributed: drones, AR, and environmental sensors sit alongside patched boats and community greenhouses. The atmosphere is humid and salt-thick, alternating between golden, foggy mornings and bruised, storm-lit nights; the town is beautiful but visibly fragile.",
+    "visual_style": "Semi-realistic anime cel-shaded with naturalistic textures; palette: salt-grays, teal, muted ochres, storm blues; lighting: high-contrast backlit seaside scenes, soft fog diffusion for emotional beats",
+    "main_characters": [
+        {
+            "name": "Amaya Saito",
+            "role": "Protagonist",
+            "personality": "Empathetic and stubbornly practical; a community-minded field ecologist who balances technical knowledge with deep respect for local stories. She is quick to listen and slow to forgive when principles are breached.",
+            "appearance_features": {
+                "hair": "Dark teal, shoulder-length with loose waves; usually tied back in a low knot with a braided sea-grass band",
+                "eyes": "Warm amber-green, rounded with gold flecks that catch light and widen when she's excited",
+                "clothing": "Layered practical fieldwear: a faded olive recycled-material jacket with sewn-on map patches, lightweight waterproof trousers rolled at the cuff, worn leather ankle boots; often wears a loose linen shirt under the jacket",
+                "accessories": "A weathered waterproof notebook with a chipped brass clip, a small seashell pendant on a frayed cord, fingerless gloves with salt stains"
+            },
+            "goal": "To protect and restore the local marsh ecosystem using community-led, science-informed methods while keeping her town intact and preserving her family home.",
+            "background_story": "Born and raised in the town, Amaya lost her father to a storm when she was a teenager; she became a field ecologist to understand and defend the shoreline that raised her. She organizes volunteers, runs a modest restoration lab in an old boathouse, and distrusts top-down solutions that ignore local knowledge.",
+            "emotional_trait": "Strength: fierce empathy and steady resilience. Flaw: guilt-driven self-sacrifice — she sometimes prioritizes the cause over her own needs and relationships."
+        },
+        {
+            "name": "Lucas Herrera",
+            "role": "Love Interest",
+            "personality": "Pragmatic, analytical, and quietly idealistic. He is charmingly blunt about engineering realities but vulnerable about choices that affect people he loves. He seeks elegant, scalable solutions and hates messy compromise.",
+            "appearance_features": {
+                "hair": "Dark brown, short and tousled with a single silver streak at the right temple",
+                "eyes": "Steely blue-gray, slightly hooded and observant; his gaze narrows when he's thinking through a design",
+                "clothing": "Functional field engineer attire: a weatherproof utility vest with pockets and modular panels over a fitted long-sleeve shirt, well-worn cargo jeans, and tech-fabric boots; often carries a compact toolkit clipped to his belt",
+                "accessories": "A digital bracelet that syncs environmental sensors (corporate-issued), an old brass key on his keyring — the lighthouse key from his grandfather's stories, and a pair of folded AR goggles tucked above his forehead"
+            },
+            "goal": "To implement technological solutions that will protect the largest number of people and infrastructure, and to reconcile his career trajectory with the ethical cost of those solutions.",
+            "background_story": "Lucas grew up in a neighboring coastal city and studied coastal engineering. He started at a grassroots climate-tech startup but was later hired by a large developer to design a protective seawall and related infrastructure. He loves Amaya but is torn because his project's funding and professional reputation hinge on the larger-scale proposals.",
+            "emotional_trait": "Strength: calm analytical thinking and reliability. Flaw: intellectual rigidity — he defaults to technical fixes and can undervalue local, slower solutions until forced to see their worth."
+        },
+        {
+            "name": "Maren Voss",
+            "role": "Antagonist",
+            "personality": "Charismatic, decisive, and morally certain. She believes in large-scale intervention and can be ruthlessly efficient in pursuit of rapid impact. She is persuasive and often frames hard choices as necessary for the greater good.",
+            "appearance_features": {
+                "hair": "Platinum blonde, precise chin-length bob with a sharp part",
+                "eyes": "Cool steel-gray, almond-shaped and direct, rarely show overt emotion",
+                "clothing": "Tailored pale technical suit woven from water-resistant, high-performance fabric; immaculate calf boots and an engineered coat with subtle reflective trims, conveying corporate polish",
+                "accessories": "A silver cuff engraved with her company's sigil, a discreet AR comms earpiece, and a compact stylus slate that she uses to annotate proposals in front of officials"
+            },
+            "goal": "To construct a large protective seawall and associated managed-infrastructure system that secures the region from future storms, leveraging corporate resources to deliver rapid results.",
+            "background_story": "Maren rose through a major infrastructure firm after surviving catastrophic floods in an inland metropolis; personally convinced that decisive engineering is the only way to protect populations, she views wetlands as regrettable obstacles. Her pragmatic upbringing hardened her to sacrifices she deems necessary.",
+            "emotional_trait": "Strength: unwavering conviction and strategic clarity. Flaw: an emotional blind spot — she suppresses personal attachments and underestimates the cultural and ecological value of what she would dismantle."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mika Tan",
+            "relation_to_main": "Childhood friend of Amaya",
+            "appearance_summary": "Short-cropped sandy hair, freckled nose, perpetually sunburned cheeks; casual fisher's clothes with bright mismatched rubber boots.",
+            "function_in_story": "Provides local color, logistical help for volunteer restoration efforts, and moral support; acts as a truth-teller who challenges Amaya to admit when she's hurting."
+        },
+        {
+            "name": "Elena Cruz",
+            "relation_to_main": "Mayor of the town / Authority figure interacting with all mains",
+            "appearance_summary": "Mid-50s, warm brown eyes, salt-gray hair usually in a low bun; prefers practical blazers and a bright scarf representing the town.",
+            "function_in_story": "Facilitates official meetings, must weigh jobs vs. ecology; her decisions swing public policy and provide the political pressure that forces tougher choices."
+        },
+        {
+            "name": "Dr. Kaito Mori",
+            "relation_to_main": "Mentor to Amaya; retired marine scientist",
+            "appearance_summary": "Thin, stooped slightly from decades in the field; white hair, wire-rimmed glasses, always wearing a battered field hat and a sweater with algae stains.",
+            "function_in_story": "Offers scientific historical context, validates community-based restoration methods, and serves as the moral conscience about long-term ecological ethics."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Takase Cove (the town harbor)",
+            "visual_description": "Golden dawns gild the corrugated roofs and fishing boats; nets and lines create a textured foreground. The air is thick with salt and gull calls. Light is warm and low-angle in mornings, while storm nights are lit by washed neon from the fish market and emergency lamps, casting long wet reflections across cobblestones."
+        },
+        {
+            "name": "The Tidal Marshes / Salt Flats",
+            "visual_description": "A wide, flattened expanse of grasses, silt, and winding channels. Palette: muted greens, olive, and silver-mud under a pale teal sky. Fog beds roll in during morning; at sunset the marsh reflects molten orange and charcoal clouds. The atmosphere is fragile and intimate, with close-up shots of water beads on salt blades and distant silhouettes of migratory birds."
+        },
+        {
+            "name": "Community Greenhouse & Restoration Lab (the boathouse)",
+            "visual_description": "An old boathouse converted into glass-and-wood greenhouse with potted seedlings, hanging plans, and wall maps. Light filters through salt-smeared panes, creating warm, dappled interior light. Interior colors are raw timber, moss-green, and copper tools. Night scenes are lit by soft worklamps and the glow of sensor readouts."
+        },
+        {
+            "name": "Seawall Construction Site",
+            "visual_description": "An industrial contrast: concrete forms, cranes, sterile floodlights cutting through fog. Daylight shows stark, cold grays and engineered geometry; at dusk the site emits a mechanical hum and harsh orange security lights, framing the conflict between nature and infrastructure."
+        },
+        {
+            "name": "Atlantech Towers (Maren's corporate HQ)",
+            "visual_description": "A sleek, glass-and-metal structure on a cliff above the town. Exterior lighting is cool white and teal; interior atriums use diffused LED panels and reflective surfaces. The building's gaze dominates the shoreline in silhouette, giving a clinical, ambitious feel compared with the town's warm texture."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Technology",
+        "Sacrifice versus Compromise"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "The town adopts a hybrid approach: sections of the seawall are redesigned to minimize harm and paired with large-scale marsh restoration funded by a community-corporate partnership. Amaya and Lucas reconcile after collaboratively redesigning the plan; the relationship blossoms into partnership both personal and professional, and the town gains renewed agency."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Maren's seawall is approved but modified after protests and new data; much of the marsh survives but is permanently altered. Lucas takes a job implementing mitigation measures elsewhere to avoid direct conflict, and Amaya chooses to stay to lead long-term restoration. Their romance endures but becomes long-distance and quieter; the town survives but with visible scars."
+        },
+        {
+            "type": "Sad",
+            "summary": "The corporate project proceeds with minimal concessions. The marsh is largely lost, and several families must relocate. Amaya's campaign fails publicly, and her relationship with Lucas fractures under ethical differences; Lucas rationalizes the decision as necessary, leaving Amaya disillusioned but determined to keep fighting on smaller fronts."
+        },
+        {
+            "type": "True",
+            "summary": "A whistleblown report (enabled by evidence gathered by Amaya and reluctant allies inside the company) reveals manipulations in the impact assessments. Public pressure forces a halt, Maren is removed, and policy shifts toward decentralized, community-centered coastal resilience. Amaya and Lucas lead a new interdisciplinary effort; their romance is slow but deeply rooted in mutual respect. The ending emphasizes systemic change over tidy closure."
+        }
+    ],
+    "estimated_chapters": 6
+}

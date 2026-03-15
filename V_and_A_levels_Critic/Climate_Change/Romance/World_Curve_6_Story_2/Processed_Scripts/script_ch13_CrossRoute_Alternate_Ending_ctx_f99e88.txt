@@ -1,0 +1,205 @@
+### SCRIPT
+# Route: Cross-Route Alternate Ending
+# Context: f99e88
+
+[Scene: Saltmarsh Labs | Morning]
+[Background:"ch13_f99e88_1"]
+[Music: Low, mournful piano; slow tempo]
+[Sound: Distant gulls, a slow drip from a leaking pipe]
+
+You arrive before most of the team. The lab smells of wet paper and coffee gone cold — a smell that, in this town, reads almost like a weather report. Your notebook is folded into your palm but zipped shut; the pages inside are full of sketches and negotiated caveats. You think of how you got here: either the long, bruising vote that split the town in halves or the last-second agreement in the Hall that let a rotating oversight be tabled as a compromise. Both roads thread to the same narrow place.
+
+You set your brass compass against the workbench, feeling its dull weight. It steadies you the way ritual does: a small, private proof against the slow unraveling the sea threatens to bring. You run your thumb along the dented edge and try to order the morning — one meeting at a time, small engineering sprints, conditional clauses to be drafted, community workshops scheduled like stitches.
+
+You are careful now. Quiet negotiation was the choice you made: a compromise stitched out of patient maneuvering, a rota that would keep Iris present without letting her become the whole. In practice it looks like a brittle peace — agreements written gently enough to satisfy investors and blunt enough to reassure the Council. In practice it means a hundred tiny decisions that leave no one entirely unhurt.
+
+[Background:"ch13_f99e88_2"]
+
+You feel Elias's presence before you hear him: the soft click of his sensor case, the half-smile he always wears when he's trying not to be anxious. He leans in the doorway, shoulders hunched against the draft, eyes scanning the rigs.
+
+Elias Park: "You're early. I thought you'd be buried in legalese with Iris this week." (He lets the sentence hang, searching you for the edge.)
+
+Mara Serrano: "I wanted the quiet. There are already too many ears." (You close the gap between practicality and personal — the lab is a place to work, not to be watched.)
+
+Elias Park: "Right." (He steps inside. His voice drops.) "Nima's on the call. Investors are... placated for now. They wanted a visible hand. The rotating council did that—barely. Iris agreed, at least publicly."
+
+Mara Serrano: "And privately?" (You ask because words on paper can be soft; you want to know the grit underneath.)
+
+Elias Park: (He exhales, and the exhale is small, private.) "Complex. She'll sign the guarantee if the first tranche hits within a week. Nima says that's workable. But the timeline for retrofits expands if we insist on marsh restoration phases." (He taps a schematic on the bench — modular barriers, narrow green spines of mangled planters.) "They want a cleaner horizon in exchange for fast capital."
+
+Mara Serrano and Elias Park talk back and forth, micro-negotiations nested in the quiet. Each sentence is a small unpicking of risk.
+
+Mara Serrano: "We need the marsh to be part of the first phase. If we postpone it, the barriers do more harm than good in the long run."
+
+Elias Park: "I know. I fought for that in the model. But investors keep looking for line items that they can show on a quarterly report. If we push too hard, they could withdraw and leave us half-built." (He rubs his temple.) "I don't want that either."
+
+Mara Serrano: "I don't want to be the one who slows everyone down." (Your voice is soft. There is the shape of a confession in it.) "But I also don't want us to have to pick up pieces later because we rushed the easy bit."
+
+Elias Park: (He meets your eyes, and for a moment the engineer falls quiet.) "Neither do I."
+
+[INTERACTION]
+> Choice A: "Sketch the marsh-first timeline on the desk"
+> Choice B: "Draft a compromise line that delays marsh work by a month"
+[Outcome A: You pull the pen from behind your ear and sketch an alternative phase line: marsh restoration beginning immediately, modular barriers deployed in tandem but with greenhouse-connected maintenance; Elias leans in, nodding at the contours.]
+[Outcome B: You draw a staggered line — enough to placate investors. Elias's hand hesitates above the paper; he doesn't decide aloud, but the way his jaw tightens tells you it will cost something later.]
+[MERGE: The conversation resumes, plans remain imperfect but actionable.]
+
+[Scene: Council Hall | Afternoon]
+[Background:"ch13_f99e88_3"]
+[Music: Sparse strings; sustained low note]
+[Sound: Rain starting again against the windows, steady and soft]
+
+The Hall is quieter than you expect after the rounds of announcements and press releases. The public calm was intentional — a soft placard of normalcy meant to calm markets and mouths. Behind the scenes, the rotating oversight you accepted is being forged into policy: clauses, veto thresholds, emergency triggers. Iris sits at the far end of the table, hands folded. Her expression is steel tempered in reserve.
+
+Iris Varela: "We need a structure that acts quickly. We cannot 'discuss' while the sea eats the shore." (Her voice is low but sharp, precise as a rule.)
+
+Mara Serrano: "No one is suggesting we slow emergency measures." (You keep your tone even.) "We are proposing oversight that balances speed with accountability. The community must have seats at the table."
+
+Iris Varela: (She looks at you — her look is complex.) "Community is a fine word. I lost people to hesitation. Public sentiment is useful, but ultimately lives will be at stake." (She isn't softening; she's explaining a trauma.)
+
+Nima: (From a tablet across the table.) "Investors need governance that speaks plainly. Rotating oversight gives visibility. Accountability clauses can be written with fiduciary triggers and staged releases." (Nima's hands move as she talks — a rhythm of circuitry and policy.)
+
+Elias Park: "We have technical metrics we can tie to releases. Sensor-read flood thresholds, salt-intrusion readings, stabilized root growth percentages in the marsh." (He gestures; his optimism is threaded through enough numbers that it reads as midwife to compromise.)
+
+Mara Serrano: "And legal accountability?" (You push.) "Strict clauses should be combined with community enforcement — restorative measures when things go wrong, not just fines. We need repair obligations written in, not just penalties." (Your voice grows steadier as you map the ethical architecture you don't want to lose.)
+
+Iris Varela: (She folds her hands, and for a breath the room is a scale.) "You want me to wield a pen that can also be turned against me." (She gives a small, bitter smile.) "Fine. I'll be in rotation. But if the tranche is held and the contract refuses a release because of bureaucratic dithering, I will not stand idle while people flood the streets."
+
+Mara Serrano: "Neither will any of us." (It's not a rebuke. It's a promise and a warning.)
+
+The negotiation becomes a pattern of small concessions: a clause here to protect investors, a clause there to protect tidal gardens, an emergency veto narrowly defined. There is no ringing victory — only a document that moves, a living compromise that will require tending.
+
+[INTERACTION]
+> Choice A: "Speak sharply to Iris about community trust"
+> Choice B: "Place a hand briefly on Elias's sleeve instead of confronting Iris"
+[Outcome A: Your words are direct. Iris's face doesn't give all her feelings away; a thin line around her mouth suggests she hears you but is not softened. The room shifts, protective and chilly.]
+[Outcome B: You touch Elias — a small, private tether. He squeezes your hand back once, and that brief contact buys you courage without changing the text on the page.]
+[MERGE: The meeting continues with the document further refined and tensions contained.]
+
+[Scene: Saltmarsh Labs | Weeks Later — Test Storm]
+[Background:"ch13_f99e88_4"]
+[Music: Quiet, hopeful hum — low arousal]
+[Sound: Wind in the reeds, water lapping]
+
+The first real test is a wild, wind-driven autumn storm. You stand on the lab's outer platform with Elias and Nima, wrapped in layers, watching water meet metal and mud. The modular barriers flex as designed; sensors sing small alerts that remain within modeled tolerances. For the first time since the compromise, the town exhales.
+
+Mateo comes by with a thermos, his face splintered into lines of relief. "It held," he says simply, and because he is practical and blunt, his smile is unadorned but wide.
+
+Mara Serrano: "It held." (Your own relief is quieter. It sits like a bruise that eases but leaves a mark.)
+
+Elias Park: "The sensor calibrations did what we expected. Nima's oversight helped. Investors will be pleased." (He looks at you, and your eyes meet in a moment of held possibility.)
+
+But the quiet is fragile. The retrofits you won for the marsh are proceeding, but slower than you hoped. Permits, volunteer fatigue, and the calculation of risk versus return have stretched timelines. The rotating council keeps watch, but the work is human, and humans carry limits.
+
+[Scene: Shoreline | Months Later — Subtropical Cyclone]
+[Background:"ch13_f99e88_5"]
+[Music: Low, aching cello; slow build]
+[Sound: Distant thunder, a persistent roar of wind like a held breath]
+
+The next storm is not like the last. It's a subtropical cyclone — warmer, carrying more water than the models accounted for and arriving with a timing that slates many planned retrofits into the future. The staggered plan you set in motion shows its seams.
+
+You watch from the Promenade as the tide, higher than forecasts predicted, finds the weakest joints. A small segment of the restored shoreline — a curve you once stood on with community hands and seedbags — is torn away in minutes. Vegetation lifts like a failing cloth. Mud and foundation slump into the sea.
+
+There is no cinematic rupture; nothing explodes. Instead there is a slow, aching unbuilding. Houses are boarded; people move like ghosts along the raised walkways. The town’s sound is low and prolonged, not sharp.
+
+Mateo is on the front line. He wades where others stand back. You call his name, and he turns toward you, face white with strain and water-worn. A wave rips him off his feet and throws him against a scarp of mud. He is pulled out with difficulty. His arm — a simple, devastating break. The town's matron, who taught you to read the tide by the smell of salt and kelp, is shaken but alive; another public figure is carried away with a concussion later that evening. The injuries are raw punctuation marks on a sentence you thought you were still writing.
+
+Mara Serrano: (You kneel beside Mateo, hands wet, feeling the uselessness of your compass.) "Hold on." (It is what anyone says; it is less medicine than a plea.)
+
+Mateo: (He grimaces.) "We were told—" (he starts, and then coughs. His words break like the sea.) "—we were told it would be enough."
+
+Mara Serrano: "We were trying." (Your voice croaks. It doesn't fix the break.)
+
+Elias Park arrives, soaked through. His face is stripped of his usual careful optimism. He moves as if calculations have become guilt; his hands are clumsy with first aid but deliberate with instructions to rescue teams.
+
+Elias Park: "We didn't account for the surge layering with the lunar tide curve." (He looks at you.) "Our models missed a compound variable. I missed it." (He is not asking for absolution; he is stating failure.)
+
+Mara Serrano: (You feel a cold widening in your chest.) "We all made choices." (You don't say whose choices should have been different. The sentence would curve into blame, and you do not want that tone to define this hour.)
+
+Iris Varela arrives a little later, face hard, then softer when she sees Mateo. Her hands move with a practiced efficiency — not softness, but muscle memory from storms past.
+
+Iris Varela: (She stands near you, and for the first time the armor drops, if only for a breath.) "We will patch what is left. We'll reroute the funding and we will—" (She stops; the sentence is not finished.) "—we will mend."
+
+Her voice is a fissure where grief tries to sound like orders. You cannot tell whether her resolve will save the next week or hollow the next year.
+
+[Background:"ch13_f99e88_6"]
+[Music: Low piano motif recurring, like a pulse]
+
+The physical damage is contained from becoming total, but the moral damage is deeper: a stretch of shoreline is gone — a place people loved — swallowed by water. For some, what was lost feels like a theft; for others it is necessity. Trust frays. Investors who once applauded the early success now circle with questions and contingency clauses. The rotating oversight offers talking points but cannot restore the dune where children used to play.
+
+[Scene: Council Hall | Aftermath Meeting]
+[Background:"ch13_f99e88_7"]
+[Music: Quiet, strained woodwind]
+[Sound: Murmurs, the scrape of paper]
+
+You convene the emergency session. The room is full of faces that look like maps of the last months: lines of worry and tired hope. Some people point fingers gently, others do not speak.
+
+Nima: "We can accelerate the retrofits with bridge funding." (She lays out options, voice tired.) "But it would mean reallocating from other projects — food security gardens, school floodproofing."
+
+Mara Serrano: "We can't let one failure become the excuse to do less for the people who rely on us." (You insist. Your voice is quieter than you'd like but steady.)
+
+Elias Park: "I can re-run the models overnight. There are emergent thresholds we missed — compounding surges with non-linear sediment loss. We need to build buffer margins." (He looks to you.) "If we tighten margins, we can protect the remaining shoreline, but it'll take manpower we don't have."
+
+Mateo: (He speaks from the edge of the circle, arm bandaged.) "Manpower we can get. People will come." (His eyes find yours — steady, wounded.) "But will they keep coming if we need them for other things? If every storm takes a piece of where we belong?"
+
+Mara Serrano: (You swallow a tide of arguments and focus.) "They'll come if they feel the work is meaningful, not an endless stopgap. We have to marry the marsh work to the engineering fixes properly. No more 'staging' in ways that leave the weakest pieces exposed."
+
+Iris Varela: (Her voice is quieter now.) "I will commit to emergency release authority for necessary repair work. But we need measurable checkpoints, and we need to keep investors from panicking and pulling." (Her hands are still; she is asking for trust even as she calculates its price.)
+
+The debate roils with grief and with the low, steady labor of people deciding what to save and what to accept will be lost. You patch language into policies like bandages. You write obligations to community repair crews into contracts and force faster timelines for marsh plantings. It is not salvation. It is what people do when salvation is not on offer.
+
+[Scene: Cliffside Promenade | Weeks Later — Quiet Aftermath]
+[Background:"ch13_f99e88_8"]
+[Music: Sparse, hollow hum; low arousal]
+[Sound: Distant gulls, the soft scrape of sand]
+
+You and Elias walk the promenade in muffled silence. The town behind you is a map of stitches and scars. People have started rebuilding, but there's an ache sewn through every new plank and pole.
+
+Elias Park: "We saved a lot." (He says it quietly, as if counting it will make the number real.)
+
+Mara Serrano: "We did." (The admission is factual, not triumphant.) "But we lost pieces we swore we'd protect."
+
+Elias Park: (He stops and looks out at what was.) "I keep running the variables in my head. If I'd pushed harder on the rollback thresholds…"
+
+Mara Serrano: (You breathe.) "We made a set of compromises. They bought time, not perfection." (You force yourself to name it.) "We should have been louder where it would have mattered."
+
+Elias Park: (He flinches, then looks up at you.) "You mean I should have stayed angrier?" (He tries to find the edge between apology and analysis.)
+
+Mara Serrano: "You mean we should have said the things we didn't want to say in public." (You look at him — at the man you collaborated with, at the man you love.) "We should have insisted in the ways we were able to, not just negotiated around the edges."
+
+Elias Park: (He reaches for your hand and hesitates.) "I thought keeping the discussion technical would keep people calm. I thought if I could translate risk into numbers, people would trust the plan." (His voice tightens.) "I didn't realize I'd be translating away the things that keep people anchored."
+
+Mara Serrano: (A small, savage irony surfaces.) "We told the town to trust the plan. We told ourselves that the plan would be enough."
+
+The two of you stand with the salt in your lungs and the absence below. There is love here — a steady, complicated love — and there is blame folded into it like a hidden seam. Neither of you knows how to untangle that without fraying what remains.
+
+[Background:"ch13_f99e88_9"]
+
+You think about the people who will remember this compromise as a savior and others who will remember it as the slow theft of a shoreline. Both memories are true. Truth in this town has edges.
+
+You continue working. You sign the revised clauses that accelerate marsh restorations and harden critical thresholds. You stand at council tables and translate grief into policy. You sit with Mateo as his arm heals and listen to the small, private stories that don't make the minutes. You and Elias return to the lab each morning and write code and plant roots and build tiny machines that measure salt and surge because that is what keeps you tied to hope — a practical, stubborn hope that will not be enough to erase what was lost.
+
+When you are alone, you open the notebook that lives in your pocket and draw the coastline as it used to be, then as it is now. The lines do not match. You trace the spaces between — the gaps — like wounds you can learn to read.
+
+[Background:"ch13_f99e88_10"]
+[Music: Single, sustained piano note; quiet]
+
+You and Elias remain connected: shared work, shared funerals for places, shared small triumphs. But between you a seam has opened — not dramatic, not a single catastrophic argument, but an accumulation of unsaid things and compromises that neither of you fully owns. You sleep in the same house sometimes; other nights you both retreat into work. There is tenderness: coffee made for each other, fingers finding one another by habit. There is also a distance that conversation does not reach yet.
+
+You accept the world as it is and continue the long work of tending it. The compromise kept many lives safe. It could not keep everything. You have learned the cost of that balance with a clarity that sits like a stone in your chest.
+
+[Background:"ch13_f99e88_11"]
+[Music: Fade down to a soft, resigned hum]
+
+You tuck the compass back under your shirt. It is steady against your ribs. You let the salt air carry away the last of the rain. You set yourself to the work that remains — small repairs, longer restorations, the slow daring of staying.
+
+[Background:"ch13_f99e88_12"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

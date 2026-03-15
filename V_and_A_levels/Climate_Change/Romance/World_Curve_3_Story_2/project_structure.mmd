@@ -1,0 +1,35 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Salt‑Stained Morning<br/>[Common]"):::spine
+    2("Ch 2<br/>Tidewatch Meeting<br/>[Common]"):::spine
+    3("Ch 3<br/>Council at High Tide<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Saltmarsh Pilot<br/>[Route A]"):::limb
+    5("Ch 5<br/>Night of Sand and Da<br/>[Route A]"):::limb
+    6("Ch 6<br/>Living Breakwaters (<br/>[Route A — Ending]"):::limb
+    7("Ch 7<br/>Quiet Bargain<br/>[Route B]"):::limb
+    8("Ch 8<br/>Concessions and Curr<br/>[Route B]"):::limb
+    9("Ch 9<br/>Shorelines Remade (B<br/>[Route B — Ending]"):::limb
+    10("Ch 10<br/>Threat and Evidence<br/>[Route C]"):::limb
+    11("Ch 11<br/>Files in a Rainstorm<br/>[Route C]"):::limb
+    12("Ch 12<br/>Exposure and Afterma<br/>[Route C — Ending]"):::limb
+    13("Ch 13<br/>Scaled Victory, Deep<br/>[Route A — Alt]"):::limb
+    14("Ch 14<br/>Public Blowback (Rou<br/>[Route B — Alt]"):::limb
+    15("Ch 15<br/>Quiet Reckoning (Rou<br/>[Route C — Alt]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 6
+    4 -.-> 5
+    4 -.-> 13
+    5 -.-> 6
+    7 -.-> 9
+    7 -.-> 8
+    7 -.-> 14
+    8 -.-> 9
+    10 -.-> 11
+    10 -.-> 12
+    10 -.-> 15
+    11 -.-> 12

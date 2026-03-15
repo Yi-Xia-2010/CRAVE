@@ -1,0 +1,500 @@
+{
+    "title": "Tidebreak Promise",
+    "summary": "I (Mara Kestrel) return to New Aster to help design resilient, community-centered measures. Early discovery of troubling data sets the stakes: sea levels and a new storm modeling scenario make the council's proposal look urgent. Livia Chen offers a centralized high-tech seawall and a mixed-use development; Elias \"Eli\" Rowan and I push for modular, community-maintainable infrastructure. Tensions mount at a public council hearing; my decision there splits the story into three primary routes (A: grassroots resistance, B: align with institutional development, C: brokered compromise). Each route contains further hard choices: tactical activism, political maneuvering, or secret bargains that peel back loyalties. Romance with Eli threads through each route — our closeness becomes a lens for trust and failure. The emotional arc is a tragedy (Fall): as the story progresses, mistakes, betrayals, and the inevitability of climate impacts accumulate, leading most routes to severe loss. Some outcomes are bittersweet, a few end in isolation or ruin. Thematically, the narrative interrogates whether pragmatic sacrifice for the many justifies the cultural erasure of the few, and whether love can withstand the moral compromises climate crises demand.",
+    "emotional_curve_type": "Tragedy (Fall)",
+    "player_character": "Mara Kestrel",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Brine",
+            "branch_designation": "Common",
+            "narrative_focus": "I arrive at New Aster Harbor, carrying my battered leather field notebook and sea-glass pendant. The town is both familiar and ragged: patched wooden piers, new concrete plates, the hiss of surf, gulls circling above a paint-splattered boat. I meet Rafi at dawn; his tanned, wiry silhouette and oilskin apron smell of diesel and kelp. Eli is there too, his sandy blond hair windblown, a salvaged drone remote looped on a braided cord. We walk the boardwalk to the Arbor, where seedlings and recycled solar panels catch the thin light. I set up in the Estuary Research Lab, calibrate the solar-charged wristband that hums on my wrist, and run the first tidal model of the season. The numbers are worrying but not yet catastrophic: small increases in return periods, shifting flood lines that nudge into familiar neighborhoods. My chest tightens — the scientist in me catalogues variables while the child who remembers the old ruin feels the weight of memory. I tell Eli I’m home to help: he grins, safety goggles cocked on his head. Hope and urgency sit side by side like tide-wet rope on the pier.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-Positive",
+            "Arousal": "A-Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Rafi",
+                "Eli"
+            ],
+            "locations_used": [
+                "New Aster Harbor",
+                "Boardwalk",
+                "Arbor",
+                "Estuary Research Lab"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Seedlings and Sensors",
+            "branch_designation": "Common",
+            "narrative_focus": "In the Arbor, sunlight filtered through patched glass warms seedlings while humidity beads on salvaged metal. I sit at a cluttered bench with my notebook; pressed seaweed peeks from its pages. Dr. Naomi Park calls via tablet, her grey-streaked bun tight, asking for an urgent run of estuary salinity models. Tess O’Malley brings a council brief and a whisper: Livia’s proposal is moving faster than public notice. Eli shows me a prototype tidal harvester — a compact module with welded-on patches, meant to feed small fish farms and power pumps for rooftop gardens. We walk the tide line; I run a quick water-quality check with my wristband and scribble anomalies. Rafi speaks of past storms — of a night the old boardwalk came apart like theater scenery — and Grandma Hira hums a lullaby from the lighthouse rooftop garden. The town feels buoyant and fragile at once. I am energized by community ingenuity but aware of political pressure beyond our workshops. I feel torn: my scientist’s urge to model every variable, and the grassroots impulse to build, fix, and protect with hands. Eli’s hand finds mine briefly; his gray-blue eyes are steady. We laugh, but the laugh tastes like tidewater.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-Neutral",
+            "Arousal": "A-Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Dr. Naomi Park",
+                "Tess O'Malley",
+                "Eli",
+                "Rafi",
+                "Grandma Hira"
+            ],
+            "locations_used": [
+                "Arbor",
+                "Tide line",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Council Chamber",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "Council Hall smells of brass polish and stale coffee. I sit under wide bay windows that frame a flat, gunmetal sea; Livia Chen occupies the dais with that precise black bob and polished trench coat that reads like authority. She unfolds renderings of a curved seawall and a mixed-use development — clean lines, new jobs, investors’ logos on glossy slides. Her voice is persuasive; Tess slips me a note about funding milestones and covenants. I present localized models that show distributed breakwaters and rooftop catchment prototypes that keep neighborhoods together. The chamber roils: elders like Grandma Hira plead for preservation, industry reps for the wall. Livia, for the first time, lets a tightness show beneath the public calm. Eli speaks after me — his voice bright, eyes scanning the room — and the crowd’s mood shifts. Tension becomes decision. I sense a true fork: endorse Livia to secure funding quickly, push for the town’s community-first plan and risk alienation, or attempt a third-way negotiation in front of a divided council. Whatever I choose will shape both policy and my relationship with Eli. The room waits on me.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-Negative",
+            "Arousal": "A-High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide how to present my stance to the council and to the town.",
+                "options": [
+                    {
+                        "label": "I back a community-led, decentralized resilience plan.",
+                        "consequence": "Publicly align with grassroots proposals; Livia is publicly challenged; you commit to street-level organizing with Eli and Rafi.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "I endorse Livia's large-scale seawall to secure immediate funding.",
+                        "consequence": "You side with central development; some residents feel betrayed; you gain council access but risk losing trust with Eli.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "I propose a negotiated hybrid — a pilot community program tied to development covenants.",
+                        "consequence": "You attempt mediation; Livia is wary but intrigued; you become the bridge — and the target for both camps.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Livia Chen",
+                "Eli",
+                "Tess O'Malley",
+                "Grandma Hira",
+                "Rafi"
+            ],
+            "locations_used": [
+                "Council Hall"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Hands and Hardware",
+            "branch_designation": "Route A",
+            "narrative_focus": "I step out of Council Hall with cold rain on my waxed cotton coat and the weight of the room still in my chest. The town’s mood cracks into action: posters, impromptu meetings at the Arbor, late-night welding under sodium lamps. Eli’s grin is quick, but tonight his broad palms are stained with tar and worry. We lay out plans for modular breakwaters and rooftop rain systems on a workbench, sunlight only in memory. Dr. Naomi warns that the data will make us slow: covariances and ecological trade-offs are messy. Rafi brings older maps — scribbled, salt-stained, full of knowledge that no dataset has. Grandma Hira organizes neighbors to protect vulnerable plots. I write outreach notes in my battered field notebook; my sea-glass pendant warms at my collar. Political pressure mounts: Livia calls for an injunction to halt unauthorized constructions. Our small group must either push hard and risk legal consequences or temper our tactics to stay in the fight. Eli catches my gaze: we both know activism will cost us time, energy, and maybe trust. Still, I am resolute: people-first measures won't wait for perfect models.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-Negative",
+            "Arousal": "A-High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Eli",
+                "Dr. Naomi Park",
+                "Rafi",
+                "Grandma Hira",
+                "Tess O'Malley"
+            ],
+            "locations_used": [
+                "Arbor",
+                "Estuary Lab",
+                "Council Hall"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Salt-Fingered Choices",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "Pressure tightens like rope. Livia’s legal team has filed notices; the council chambers hum with lawyers and camera lights. At the Arbor, neighbors argue over tactics: do we erect unauthorized breakwaters and risk fines, stage a public occupation of the ruined boardwalk to force council concessions, or pursue Tess’s back-channel plan to leak council documents exposing investment strings? Eli wants to build now — his hands itch to make. I replay the models and see uncertainties that make me nervous about reckless construction. Dr. Naomi urges a phased pilot with careful monitoring; Rafi wants something visible to show the town we can act. My heart drags when I think of Grandma Hira’s memory of a lost street. The decision will determine how the town and my romance with Eli survive scrutiny and legal backlash. Each option promises impact and danger: physical confrontation, civil disobedience, or covert political maneuvering. The weight of every life in my neighborhood presses on me as I fold a soaked note into my pocket.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-Negative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Choose the primary tactic for the community campaign.",
+                "options": [
+                    {
+                        "label": "We build unauthorized modular breakwaters now.",
+                        "consequence": "Rapid, visible action; risk fines, injury, and legal retaliation.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "We stage an occupation of the flooded promenade and demand concessions.",
+                        "consequence": "High visibility; potential for violent clash and arrests; public sympathy uncertain.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "We use Tess’s back-channel to expose council covenants and seek negotiated protections.",
+                        "consequence": "Political leverage but reliant on leaks and trust; risk of betrayal if Tess is discovered.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Eli",
+                "Dr. Naomi Park",
+                "Rafi",
+                "Grandma Hira",
+                "Tess O'Malley",
+                "Livia Chen"
+            ],
+            "locations_used": [
+                "Arbor",
+                "Council Hall",
+                "Ruined Boardwalk",
+                "Flooded Promenade"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Timber and Broken Promises — Ending A1",
+            "branch_designation": "Route A — Ending A1 (Tragic fallout from immediate action)",
+            "narrative_focus": "We move at dawn. Under a sullen sky, Eli and I and a dozen neighbors haul salvaged timber and concrete fragments into the surf. He ties a frayed knot into my improvised laces; his gray-blue eyes hold a mix of excitement and fear. The breakwater goes up in rough, earnest sections, and we cheer when the first swell pounds less violently against the pier. For a day, we have made something that keeps the tide at bay. But the victory is brief: Livia’s legal order becomes an emergency declaration, and a storm surge the next week slams at the hastily placed structure. The modules weren’t engineered for that load; they shift, snapping ropes, and a neighbor’s boat is crushed. A young volunteer breaks an arm hauling a beam. The town mourns publicly and is riven privately: some praise our courage, others blame our recklessness. Eli’s face is hollow with guilt — he mutters that he miscalculated. I feel my own culpability like cold water down my spine. Love and intention are not enough against underestimated forces and legal power. The emotional wreckage leaves everyone worse off.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Eli",
+                "Rafi",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Flooded Promenade",
+                "Harbor",
+                "Pier"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Velvet Floors and Concrete Promises",
+            "branch_designation": "Route B",
+            "narrative_focus": "I stand beside Livia in Council Hall after endorsing the seawall. Her trench coat looks immaculate under studio lights; the gold wave brooch catches the glare. There is relief in the room: investors nod, cameras flash, and for the first time in months I feel a practical tide of resources. Livia praises my \"measured scientific leadership\" in private, then slides a tablet across showing tight funding windows. Tess clutches a fluorescent lanyard, eyes betraying unease. Eli watches me from the gallery, his jaw rigid; his paint-splattered jumpsuit seems out of place in a room of polished suits. People I love whisper that I sold out. The practicalities arrive fast: contracts, milestone reports, technical oversight. I brief engineers at the Estuary Lab and find cold, efficient solutions on sterile white counters. Dr. Naomi warns that centralized solutions often displace vulnerabilities into other communities. I feel the tug between systemic rescue and cultural erasure; Livia’s decisive warmth hides private doubt. The town will get protection and jobs — but at what cost to our memory and neighborhoods that don’t fit the new plan's blueprint?",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Livia Chen",
+                "Tess O'Malley",
+                "Eli",
+                "Dr. Naomi Park"
+            ],
+            "locations_used": [
+                "Council Hall",
+                "Estuary Lab"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Contracts and Quiet Compromises",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "The seawall project accelerates. I sit in briefing rooms with maps and contractual redlines while Tess leaks small bureaucratic inconsistencies. Livia asks me to chair an environmental oversight panel — a gesture that positions me as a public steward of the project. Internally, I argue for covenants protecting historic rows and community-run rooftops; financiers push back, noting costs. Eli, back at the Arbor, accuses me of being the council's moral fig leaf. He’s right: my compromises ease passage for the wall. Yet I live in the paradox of wanting to secure lives while watching culture be rezoned. One night, Tess brings me a file that suggests escrow accounts siphoned to outside developers; she whispers that a leak could force greater protections. The choices are stark: sign the agreements and secure infrastructure quickly, expose the covenants and risk destabilizing funding, or push for enforceable environmental clauses and face contractor sabotage. My decision will decide who keeps power and who keeps place.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide your political tack within the development.",
+                "options": [
+                    {
+                        "label": "Sign on publicly to accelerate construction.",
+                        "consequence": "Quick protection and jobs; community uproar and loss of trust.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Leak Tess’s documents to force renegotiation.",
+                        "consequence": "Political scandal, possible funding delay, potential for stronger covenants.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Insist on legally binding environmental covenants.",
+                        "consequence": "A protracted legal wrangle; contractors may retaliate or withdraw funding.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Tess O'Malley",
+                "Livia Chen",
+                "Eli",
+                "Dr. Naomi Park"
+            ],
+            "locations_used": [
+                "Council Hall",
+                "Conference Rooms",
+                "Arbor"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Polished Edges, Bruised Hearts — Ending B1",
+            "branch_designation": "Route B — Ending B1 (Bittersweet/Sad)",
+            "narrative_focus": "The seawall rises in perfectly poured concrete and glass. The town receives investment and jobs; ribbon-cuttings fill our screens. Livia stands before applause, immaculate and decisive; her deep brown eyes are fierce with purpose. But under the new promenade, the old alleyways and fishermen's sheds are rezoned: rent spikes, and a few families pack up their boats. Eli leaves the Arbor with a bag and a promise to try finding work elsewhere; his paint-smeared jumpsuit is gone now, folded and given to a neighbor. The town's face smooths into prosperity, but memory frays. I find myself in the new plaza, field notebook open, feeling like a curator of what remains rather than its steward. My relationship creaks under the strain: we speak politely but not wholly. In private, Livia admits she misjudged some displacement, and I forgive and do not forgive. The seawall stands; New Aster is safer in metrics, poorer in lineage. I wonder whether I traded the town’s heart for a safer chest.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Livia Chen",
+                "Eli",
+                "Grandma Hira"
+            ],
+            "locations_used": [
+                "Seawall",
+                "New Promenade",
+                "Plaza"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Bridge Role",
+            "branch_designation": "Route C",
+            "narrative_focus": "I propose a hybrid: a pilot community program tied to development covenants. Livia's eyes narrow but she listens; I sense the tightrope of her political survival. Tess becomes my intermediary, slipping me meeting minutes and guarded smiles. Eli supports a cooperative approach, but his hands itch to build more than negotiate. I shuttle between the Estuary Lab and Council Hall, balancing ecological models with messy political reality. Dr. Naomi warns that hybrid solutions often become diluted into compromise for its own sake. Rafi calls late, voice full of the old harbor’s memory: can anyone really hold power accountable? The pilot is approved but with caveats — limited funding, strict milestones, and investor vetoes. My hope feels brittle: a pilot could protect neighborhood cells if I can secure protective covenants; it could also be a fig-leaf used to greenwash the development. I carry my sea-glass pendant like a talisman and wonder whether being the bridge will make me the thing everyone leans on — or the one who snaps.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Livia Chen",
+                "Tess O'Malley",
+                "Eli",
+                "Dr. Naomi Park",
+                "Rafi"
+            ],
+            "locations_used": [
+                "Estuary Lab",
+                "Council Hall",
+                "Tidewatch Lighthouse",
+                "Arbor"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Covenants and Quiet Betrayals",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "The pilot program begins under cautious optimism. I oversee a phased installation of rooftop rain systems and a small modular breakwater near a vulnerable alley. It is technical, bureaucratic, and deeply human: neighbors gather to help; Eli teaches young apprentices to weld; Grandma Hira tends rooftop herbs. Yet the inked covenants have loopholes: \"performance-based release of funds\" language that grants developers vetoes if \"project timelines\" slip. Tess offers to pressure the council to close the loopholes, but warns of political blowback. Livia says the clauses are necessary to secure financing. My role as broker frays: do I sign the slightly compromised covenant to keep the pilot alive, press for a stricter clause and risk funding withdrawal, or confront Livia publicly about the loopholes and risk collapsing the fragile deal? Each choice has moral gravity — a small legal phrase could be the hinge that protects or sells the town.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Decide whether to accept the covenant as-is, push for stricter language, or go public.",
+                "options": [
+                    {
+                        "label": "Sign the covenant to keep the pilot running.",
+                        "consequence": "Pilot survives short-term; long-term protections tenuous.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Demand and fight for stricter legal clauses.",
+                        "consequence": "Funding may be delayed or withdrawn; stronger protections if successful.",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Expose the loopholes publicly to force transparency.",
+                        "consequence": "Public scandal, possible civic backlash and rapid policy shifts.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Eli",
+                "Grandma Hira",
+                "Tess O'Malley",
+                "Livia Chen",
+                "Dr. Naomi Park"
+            ],
+            "locations_used": [
+                "Rooftop Gardens",
+                "Tidewatch Lighthouse",
+                "Alley (vulnerable)",
+                "Arbor"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Quiet Harbor, Quiet Loss — Ending C1",
+            "branch_designation": "Route C — Ending C1 (Bittersweet/True)",
+            "narrative_focus": "We sign the covenant. For a while, the pilot glows like a small miracle: rooftop gardens yield food, modular devices hum, and the community garden near the lighthouse buzzes with life. Eli and I fix leaks and scandalize a few councilors with practicality. But the loopholes open when a delayed supplier forces a missed milestone; investors invoke vetoes and redirect funds to the main seawall, citing \"risk mitigation.\" The pilot persists at a fraction of its intended scale. The neighborhoods we hoped to protect are partially spared, but several small enterprises are rezoned; sentimental alleyways wink out. Livia gestures toward stability, and we accept what we can get. Eli grows quiet, the grin less frequent; he takes odd jobs out of town. I stand on the Tidewatch Lighthouse as a winter tide pulls away more than water — pulling memories and small livelihoods into bruised distance. We saved parts, and lost parts. The town endures, but the bargain leaves a taste of compromise I cannot swallow whole.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Eli",
+                "Livia Chen",
+                "Rafi",
+                "Grandma Hira"
+            ],
+            "locations_used": [
+                "Tidewatch Lighthouse",
+                "Rooftop Gardens",
+                "Community Garden"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Papered Shame — Ending (Cross-route)",
+            "branch_designation": "Cross-route Ending",
+            "narrative_focus": "The leak happens. Tess's whispered file goes public, and council records are laid bare: funding strings, escrow diversions, and clauses that prioritize investor returns over neighborhood preservation. For a moment, truth clarifies like sunlight after fog. The town rallies in furious rows, and for a breath I think we might course-correct. But the scandal also triggers immediate withdrawal threats from major backers; lenders freeze disbursements and contractors threaten litigation. The legal fallout is fast and ugly. In the chaos, a rushed replacement contractor performs an emergency reinforcement during an early-season storm; the structure fails, and floods advance deeper than models predicted. Our earlier unauthorized actions (Route A) are scapegoated; Livia’s leadership fractures and she answers with hardline measures. Eli stands in the ruined promenade, his goggles cracked, and tells me there's nowhere left to hide. I hold his hand as we watch neighbors pack and small boats leave. Exposure did not save us; it hastened breakdown. The town fractures, and my role in the unraveling feels inescapable.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 5, Option B; OR From Chapter 8, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Tess O'Malley",
+                "Livia Chen",
+                "Eli",
+                "Rafi"
+            ],
+            "locations_used": [
+                "Council Hall",
+                "Flooded Promenade",
+                "Ruined Promenade"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Legal Nets, Shattered Nets — Ending (Cross-route)",
+            "branch_designation": "Cross-route Ending",
+            "narrative_focus": "We push hard in the lawrooms. With Tess's diplomatic pressure and Dr. Naomi’s expert testimony, we force the council to add binding covenants and enforceable environmental clauses. The victory feels judicially satisfying: clauses that protect specific alleys and community-managed rooftops, oversight boards with real teeth, and escrow accounts guarded by trustees from within New Aster. But the legal fight costs time. Contractors threaten to withdraw; investors balk. While the clauses pass, the delay aligns badly with an incoming seasonal storm predicted stronger than models had prepared for. A rushed patch to shore up the main seawall is approved without the community measures fully online. That night, under a metallic sky, a surge undercuts newly poured foundations. Emergency services scramble; some districts flood anyway. We managed to save laws, but not all the lives we hoped to protect. Eli helps sandbag a neighbor’s doorway and looks at me with a tiredness deeper than blame. The legal wins read like moral victories on paper, but reality erodes them where people sleep.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 5, Option C; OR From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Tess O'Malley",
+                "Dr. Naomi Park",
+                "Eli",
+                "Rafi"
+            ],
+            "locations_used": [
+                "Courtroom/Hearings",
+                "Seawall",
+                "Neighborhoods"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "The Storm at Dawn — Ending (Cross-route)",
+            "branch_designation": "Cross-route Ending",
+            "narrative_focus": "The storm arrives early: a glassy dawn that explodes into a squall. Between the seawall project, delayed covenants, and partial pilots, the defenses snap under a battering they were never all designed to meet together. I am at the ruined boardwalk with Eli, the air electric and raw. He straps a salvaged drone remote to his belt; his safety goggles sit askew, and his hands shake. We run toward a neighborhood where the pilot systems were installed — rain systems clogged, modular breakwaters half-set, a contractor crew gone. As water climbs, we make impossible choices: which houses to shore and which to leave. I shout orders that feel like suture stitching on a wound already too wide. A break in the seawall sends a rush that carries away more than sand. The next days are a litany of missing names, charred furniture, and people standing on damp lawns looking toward a gutted town. Livia disappears into legal maneuvers, the council splinters, and families depart. Eli and I collapse on the Tidewatch lighthouse roof, sodden and breathing with the cost of our imperfect choices. Love survives as pain — not a cure, only a witness.",
+            "emotional_trajectory": "Fall",
+            "Valance": "V-VeryNegative",
+            "Arousal": "A-VeryHigh",
+            "entry_condition": "From Chapter 8, Option C; OR From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mara Kestrel",
+                "Eli",
+                "Livia Chen",
+                "Rafi",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Ruined Boardwalk",
+                "Tidewatch Lighthouse",
+                "Flooded Promenade",
+                "Harbor"
+            ]
+        }
+    ],
+    "remarks": "Each path from Chapter 1 to any Ending stays within six chapters (inclusive). Chapters 3, 5, 8 and 11 serve as major decision hubs; the outline uses the existing cast (Mara Kestrel, Eli, Livia Chen, Rafi, Dr. Naomi Park, Tess O'Malley, Grandma Hira) and established locations (Harbor, Arbor, Estuary Lab, Tidewatch Lighthouse, Council Hall, Flooded Promenade) exclusively. Visual details (hair, clothing, accessories) are referenced in each chapter to maintain consistent visual fidelity. The emotional arc is a steady Fall: optimism and practical hope give way to legal and physical calamity, ending in tragic loss or costly compromise. Arousal escalates from Low to VeryHigh, peaking during crisis chapters and endings.",
+    "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+    "_meta_arc_strategy": "Tragedy (Fall)"
+}

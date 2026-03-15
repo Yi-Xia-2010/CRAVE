@@ -1,0 +1,489 @@
+{
+  "title": "Highwater Compass",
+  "summary": "I am Maya Armitage, a pragmatic idealist leading a grassroots resilience initiative in Highwater Cove. After a major storm and investor pressure, the town must choose between Evelyn Hart’s top-down coastal defense plan and locally-led adaptive measures. The story follows an initial fall of trust and crisis, a fragile rise as community experiments and hybrid solutions stabilize the cove and deepen intimacy with Jonah, and a final collapse or moral reckoning. Branching choices alter relationships and ethical outcomes across Happy, Bittersweet, Sad, and True endings within a Fall→Rise→Fall arc.",
+  "emotional_curve_type": "Fall→Rise→Fall (Oedipus)",
+  "player_character": "Maya Armitage",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Incoming Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "I wake to sirens and the smell of salt and diesel—Highwater Cove has taken another hit. My hands fumble the dented brass compass against my jacket as I wade across mirrored streets toward the harbor. At the Tidal Institute, tanks leak and a sensor array has failed. I confront the immediate damage, the human patchwork of neighbors hauling sandbags, and the thin political assurances that feel like bandages. Gracie “Nan” Armitage stitches quilts for a shelter while Jonah’s shadow moves across the pier—his knit cap darker than the dawn. The mayor announces a public meeting to choose a path forward. I feel my old guilt resurface: I left once, I promised not to let this happen again, and yet the town looks to outside investors with glossy plans. My wearable sensor bracelet buzzes—microclimate logs spike. I must organize emergency triage and prepare testimony for the council. This opening fall is bare and urgent; pressure and fear crowd the senses, and my storm-gray eyes feel raw with sleepless nights. I brace against the wind and the sense I cannot save everyone alone.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Gracie Nan Armitage",
+        "Rafi",
+        "Mayor"
+      ],
+      "locations_used": [
+        "Highwater Cove",
+        "Harbor",
+        "Tidal Institute",
+        "Pier",
+        "Promenade"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Council Call",
+      "branch_designation": "Common",
+      "narrative_focus": "The council chamber is colder than the harbor. Polished wood, a display of flood projections, and the city seal glitter on Evelyn Hart’s lapel as she presents glossy renderings. I prepare to speak for community-led solutions: living marsh restoration, decentralized floating platforms, cooperative fisheries. The mayor’s face betrays a timetable I can’t change: investors want results before the next fiscal quarter. Rafi adjusts a slide with my tide observations; Gracie Nan’s knitting is visible in a public gallery seat. Evelyn’s plan promises jobs and immediate protection—she speaks with an ice-blue stare that masks her utilitarian calculus. Public testimonies divide along class lines. Jonah gives a measured speech on traditional boat routes and the cost of moving livelihoods; his palms are steady but he avoids the grief he keeps tucked behind humor. I feel my chest split between practical science and the emotional logic of place. After the testimony, the mayor delays the vote, asking for a compromise proposal. Outside, the cove smells like rain and frying fish; a youth spray-paints a tide line across a promenade sign. The fall persists: trust frays, deadlines loom, and secrecy hums beneath official words.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Gracie Nan Armitage",
+        "Evelyn Hart",
+        "Mayor"
+      ],
+      "locations_used": [
+        "City Council Chamber",
+        "Promenade",
+        "Harbor"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Thresholds",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "The community must produce a compromise within weeks. I convene a planning night at the rooftop garden—plants catching the amber of low sun, Nan tending seedlings with slow, sure hands. Rafi prototypes a low-cost floating planter as rain begins to spit; my wearable bracelet chimes a new anomaly. Tensions surface: some neighbors, frightened and practical, urge accepting Evelyn’s funds to secure quick relocation; others insist on refusing outside developers. Jonah argues for hybrid solutions—honoring net knowledge while adopting practical changes. Evelyn arrives the next day with a delegation and an offer that includes oversight by the city if the community agrees to pilot her modular piers. The town fractures into three potential directions: (A) fight for community-only proposals and reject Evelyn outright, (B) accept a monitored partnership—take funds but demand community governance, or (C) accept a phased buyout for the most vulnerable to minimize immediate loss. I feel the ancient perfectionist urge to hold everyone’s burdens—my compass weighs heavier—while the tide writes deadlines on the sand. Tonight, I must pick a stance: public resistance, negotiated partnership, or prioritized retreat.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we respond to Evelyn’s proposal and the looming deadline?",
+        "options": [
+          {
+            "label": "We refuse any top-down funding and mobilize entirely community resources.",
+            "consequence": "Entrenches local autonomy but strains material capacity and risks missed timelines.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "We negotiate a partnership—accept pilot funding but demand community oversight and binding accountability.",
+            "consequence": "Potential hybrid path, requires legal safeguards and may compromise ideals.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Prioritize phased buyouts and managed retreat for the most vulnerable to minimize immediate loss.",
+            "consequence": "Protects people immediately but concedes land and fractures community ties.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Gracie Nan Armitage",
+        "Rafi",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "Rooftop Garden",
+        "Harbor",
+        "Town"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Hold the Line",
+      "branch_designation": "Route A",
+      "narrative_focus": "We choose collective refusal of Evelyn's top-down funding. I spearhead a fast, communal mobilization: grant applications, crowdfunding, and hands-on retrofitting of stilts and breakwater plantings. Jonah and his cooperative repair boats and teach youth to repair nets; his curls peek from beneath his knit cap as he hands me a length of braided netting. We rally the harbor: volunteers sand, weld, and anchor oyster reefs. Rafi’s makeshift sensor arrays are patched with duct tape and grit. Nan organizes shelter rotations and oral history maps. The Tidal Institute becomes a hub of open labs; my storm-gray eyes are red but focused. We win a small regional grant that buys materials for a pilot of floating community moorings. Spirits rise: neighbors barter preserves, the rooftop gardens bloom a little more, and laughter returns at the market. Yet every small victory is shadowed by resource scarcity and the knowledge that larger forces still press in. I feel closer to Jonah; a quiet night on a patched pier, he traces salt lines on my jacket. This is our climb—messy, hopeful, fragile—proof that the community can act.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Gracie Nan Armitage",
+        "Volunteers"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Tidal Institute",
+        "Rooftop Garden",
+        "Pier"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Brokers and Boundaries",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "Our local pilot draws attention. Investors (friendly and not) visit the harbor to see the floating platforms. Evelyn publicizes a revised offer: she will fund scale-up if the town accepts a city-administered oversight board. We refuse top-down control, but the pressure is relentless—some neighbors whisper that resources could stretch further under her funding. Jonah and I grapple with boundaries: he is tactile, repairing a hull while I try to set legal terms for partnership through community charters, but I feel the town’s capacity straining. Rafi hacks a transparency dashboard to broadcast all donations and contracts. Gracie Nan insists on a town vote. The split is emotional: pride in what we've built; fear that rejecting every outside dollar will leave families exposed. I must decide the tactical posture: continue to expand purely with community resources (A), secretly accept a conditional partnership that keeps the community majority control (B), or publicly expose Evelyn’s past compromises to pressure the council (C). My perfectionist instinct wants a flawless stance; reality asks for compromise.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we respond to Evelyn’s renewed outreach and investor interest?",
+        "options": [
+          {
+            "label": "Double down on community expansion—refuse any partnership and push for self-sufficiency.",
+            "consequence": "Preserves autonomy but strains resources and timeline.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept a conditional partnership—negotiate binding community oversight clauses and transparency.",
+            "consequence": "Gains resources but risks dilution of power and unforeseen strings.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Expose Evelyn’s past compromises publicly to force accountability and slow her plan.",
+            "consequence": "May delegitimize Evelyn but risks legal retaliation and a political backlash.",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Gracie Nan Armitage",
+        "Evelyn Hart",
+        "Investors"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Market",
+        "Pier"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Highwater Reckoning",
+      "branch_designation": "Route A — Ending: Happy",
+      "narrative_focus": "We double down on community expansion and refuse partnership (or the exposure backfires but consolidates community resolve). The interim rise collapses into a harsher fall when an early storm breaches a prototype breakwater. For a moment, it feels like all our sweat is undone. But the community’s investment—social, emotional, and infrastructural—means we rebound differently than before. Jonah leads repair crews with callused hands and a steady grin; his hazel eyes shine with exhaustion and tenderness when he finds me collapsed by a tethered buoy. We reorganize; Nan opens space in her home; Rafi’s hacked sensors help predict weakpoints. Months later, after a series of grueling repairs and adaptive modifications, we secure enough localized funding and voluntary labor to stabilize the harbor and institute community-owned floating infrastructure. Evelyn’s plan falls back or is modified under pressure (we rejected it, and it lost political capital). In a quiet dusk, Jonah and I commit to each other—not as a clean victory, but as a mutual vow to keep building. The town keeps more of its heritage intact. The rise had been real; the final fall was bruising but did not erase us. This ending holds hard-won joy tempered by scars—a Happy ending born of stubborn local resilience.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A or Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Gracie Nan Armitage",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "Harbor",
+        "Rooftop Market",
+        "Pier",
+        "Tidal Institute"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Negotiated Waters",
+      "branch_designation": "Route B",
+      "narrative_focus": "We accept a negotiated partnership—binding community oversight in exchange for funding. I sit across from Evelyn in the refurbished Council annex. Her silver-blonde bob is immaculate; her smartwatch glints. We set binding clauses: community seats on oversight boards, open funding ledgers, and pilot transparency measures that Rafi will monitor. Jonah watches from the doorway, salt on his sweater as he tests a newly repaired hull. The first weeks are dizzying: contractors arrive, materials fly in, and modular piers are installed under careful supervision. The town feels buoyed—the rooftop garden expands, and the Tidal Institute gains lab upgrades. I manage legal language in my notebook; my bracelet logs the macroclimate change as we erect pilings. Hope surges: we can scale prototypes and protect livelihoods. But small compromises emerge—timelines accelerate, subcontractors suggest cost-cutting, and Evelyn’s measured stare sometimes masks a readiness to cut corners if metrics aren’t met. Jonah and I grow closer in the glow of shared progress, but his guarded grief occasionally surfaces in silence. The rise feels real but tense: a hybrid path built of careful negotiation and persistent vigilance.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Maya Armitage",
+        "Evelyn Hart",
+        "Jonah Reyes",
+        "Rafi"
+      ],
+      "locations_used": [
+        "Council Annex",
+        "Harbor",
+        "Modular Piers",
+        "Tidal Institute"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Strings Attached",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The partnership’s first major test arrives: an insurance company demands visible, quantifiable metrics—fast wins. Contractors suggest replacing a living breakwater plan with concrete modules to meet timelines and reduce up-front cost. The oversight board we negotiated must vote. Jonah fixes a keel while I parse contracts; Evelyn presses for accelerated deployment, invoking job figures. Rafi exposes a clause that could let city administrators override community vetoes under a declared 'emergency'—we hadn’t realized the breadth of that legal lever. The town splits: some favor taking every measure to keep people from being displaced quickly; others fear the long-term ecological costs. My perfectionism wants to refuse, but pragmatism whispers that some concessions could secure more lives now. I must choose: push to enforce strict ecological fidelity, accept a pragmatic substitution to secure broad protection, or mobilize a public campaign exposing the clause and risk derailing funding. Jonah’s hands are weathered as he responds to a radio call about a damaged net—his emotional guardedness complicates collaboration at critical moments. The outcome here shapes whether our rise consolidates or sows the seeds of a later collapse.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we respond to the contractor’s push (and the insurance/override clause)?",
+        "options": [
+          {
+            "label": "Enforce ecological fidelity—reject concrete substitution at political risk.",
+            "consequence": "Maintains principles but may jeopardize funds and immediate protection.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Accept the substitution tactically to secure broad protection now, plan to retrofit later.",
+            "consequence": "Immediate safety for many, but ecological compromises and political strings.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Expose the emergency override clause publicly to force renegotiation and transparency.",
+            "consequence": "Potentially slows deployment and risks investor withdrawal—but increases accountability.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Evelyn Hart",
+        "Contractors",
+        "Insurance Reps"
+      ],
+      "locations_used": [
+        "Construction Site",
+        "Market-square",
+        "On-site Construction",
+        "Piers"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Compromised Harbor",
+      "branch_designation": "Route B — Ending: Bittersweet",
+      "narrative_focus": "The hybrid plan is implemented with concessions. Whether we enforced fidelity and narrowly lost some funding, or accepted substitutions to secure immediate protection, the middle rise fractures into a fall: ecological stresses and political machinations reveal trade-offs. Concrete modules reduce immediate flooding in targeted blocks, and many families are spared displacement. The rooftop gardens and certain heritage sites survive. But fish runs decline in adjacent channels, and several neighborhoods feel culturally amputated. Jonah's crew secures new work under the retrofit contracts, but he is quieter—grief tucked into a joke that fades too quickly. I wrestle with survivor guilt and the knowledge that our compromise left scars. Evelyn announces further city-level pilot projects that will reshape the coastline. The cooperative fishery survives but with changed practices and fewer traditional routes. Jonah and I remain together, committed, but the intimacy is threaded with shared sorrow. The ending is bittersweet: survival and community remain, but with visible losses and moral stains. We endure, but not unaltered.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Evelyn Hart",
+        "Gracie Nan Armitage",
+        "Contractors"
+      ],
+      "locations_used": [
+        "Pier",
+        "Coastline",
+        "Adjacent Channels",
+        "Rooftop Gardens"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Managed Retreat",
+      "branch_designation": "Route C",
+      "narrative_focus": "We choose prioritized, phased buyouts for the most vulnerable—managed retreat as triage. I coordinate logistics, mapping households by vulnerability and cultural importance. Nan resists the idea of losing certain ancestral plots; Jonah helps coordinate transport of boats and goods to new cluster sites, his hazel eyes rimmed with tiredness. The decision reduces immediate risk for the most exposed, and many families find security in newly funded relocations. We set up transitional housing above the high-tide line and begin replanting reedbeds as memorials. In the short term, the town experiences a pragmatic rise: lives are protected, and funding flows for relocation. But relocations fracture long-standing neighborhood networks and create ghost blocks along the abandoned promenade. I am efficient in paperwork and gentle in person, but my perfectionism feels hollow when I place a family's photo in a box labeled \"relocation.\" The rise is bittersweet: safety comes at the cost of place identity. We will have to build new community patterns from displacement.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Gracie Nan Armitage",
+        "Relocated Families"
+      ],
+      "locations_used": [
+        "Reclaimed Marsh",
+        "Transitional Housing",
+        "Promenade",
+        "Cluster Sites"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Patchwork Futures",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "The relocation program is underway; new community hubs are established on higher ground and some experimental living infrastructure is piloted. Yet conflict emerges—many elders demand preservation of ceremonial sites while younger residents push for total relocation to safer jobs inland. Jonah and I try to hold disparate needs together. Rafi proposes an experimental bioluminescent moss light-path to maintain night access between separated blocks, a small symbolic stitch across loss. Evelyn offers a compensation clause to buy out entire streets for commercial redevelopment; the mayor wavers. The question becomes tactical: insist on preserving cultural nodes in place (A), accept staged commercial redevelopment in exchange for legal protections for relocated families (B), or mobilize legal action to restructure the buyout terms to include cultural trust funds (C). Each choice shapes whether the rise stabilizes into a dignified new community or paves the way for later disenfranchisement.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 10",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "What policy stance do we take regarding redevelopments and cultural preservation?",
+        "options": [
+          {
+            "label": "Preserve cultural nodes—refuse full buyouts for heritage sites.",
+            "consequence": "Protects tradition but may slow funding and leave some exposed.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Accept staged commercial redevelopment to secure funds for legally binding protections for relocated families.",
+            "consequence": "Gains resources but risks commercialization of sacred spaces.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "File legal action to restructure buyouts into a community trust, delaying redevelopment.",
+            "consequence": "Could secure long-term protections but risks immediate investor withdrawal and legal battles.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Gracie Nan Armitage",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "Rooftop Farm Terraces",
+        "Reclaimed Marsh",
+        "Meeting Tent"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Shoreline Farewells",
+      "branch_designation": "Route C — Ending: Sad",
+      "narrative_focus": "Despite efforts, redevelopment and investor timelines accelerate. Whether we preserved cultural nodes or accepted staged redevelopment, the eventual outcome is painful: large-scale development proceeds under pressure, displacing many and converting vulnerable blocks into commercial showcases protected by private security. The managed retreat saved some lives, but the town's cultural fabric is severed for many. Jonah, faced with fewer local gigs and family obligations, accepts work away from the cove for steady pay. I stay to document and advocate; my notebooks grow heavy with records of loss. Nan’s braid grows thinner as community rituals erode. A final storm reveals weaknesses in partially-funded restoration sites, and funding is reallocated to meet investor demands, leaving some projects to fail. The ending is a mournful elegy: survival for some, displacement and commodification for others. My relationship with Jonah grows strained across distance and guilt—love persists but is frayed by geography and economic necessity. The cove becomes an uneasy showcase of inequitable adaptation.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A or Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Gracie Nan Armitage",
+        "Evelyn Hart",
+        "Relocated Families"
+      ],
+      "locations_used": [
+        "Abandoned Promenade",
+        "Reclaimed Marsh",
+        "Promenade"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Exposure",
+      "branch_designation": "Additional Route — Triggered from Chapter 5, Option B",
+      "narrative_focus": "Negotiating a conditional partnership, I choose to accept funding only if we create enforceable transparency: Rafi and I unearth contracts and past compromises tied to Evelyn’s projects. We decide to expose corrupt clauses publicly to ensure binding accountability. The exposure causes a political ripple—media attention focuses on the cove, and Evelyn’s team scrambles to protect institutional reputation. The community seizes the moment: signatures, televised town halls, and legal filings galvanize wider regional scrutiny. Jonah operates quietly, fixing nets and teaching kids, but his steady presence grounds me during long press cycles. For a hopeful stretch, oversight seems possible: legal injunctions require renegotiation, and community-controlled trust funds are proposed. The rise hums with intensity—my storm-gray eyes burn from sleepless scrutiny, but a broader coalition forms. However, publicity also attracts powerful adversaries and legal countersuits, so risks mount. Still, for now, the truth tastes like fresh water after a long drought.",
+      "emotional_trajectory": "Rise",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Maya Armitage",
+        "Rafi",
+        "Gracie Nan Armitage",
+        "Jonah Reyes",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "Council Chamber",
+        "Tidal Institute",
+        "Market"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Scales and Sacrifice",
+      "branch_designation": "Additional Route — Ending: True",
+      "narrative_focus": "The exposure sparks investigations and legal scrutiny; Evelyn’s proposals are paused and renegotiated under public oversight. I choose to push the truth forward even when it endangers my initiative and reputation: I release documents showing tied clauses to outside developers and testify to corruption that links city timelines to investor profits. As backlash grows, I lose some funding streams and face personal attacks in the press. Jonah stands by me but refuses to uproot his cooperative for riskier legal battles with uncertain pay. I take a calculated moral risk: leaking documents that force federal oversight and structural reform but which end my prospects for a cozy partnership and put me in personal legal peril. The town wins protections through structural reform and community trust funds, but my personal life is changed: Jonah respects my sacrifice—romance is deferred. The True ending centers on systemic justice over private happiness: I secured long-term protections for Highwater Cove at the cost of immediate romantic or personal simplicity.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option C OR Chapter 11, Option C OR Chapter 13",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Rafi",
+        "Evelyn Hart"
+      ],
+      "locations_used": [
+        "Courtroom-style Hearings",
+        "Council Chamber",
+        "Reclaimed Marsh"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Aftertide",
+      "branch_designation": "Additional Route — Epilogue",
+      "narrative_focus": "Time stitches some wounds. Regardless of which path led here, the final fall is a slow, reflective tide. The town endures a new political regime of oversight, or it cracks under pressure; but for me, the last act is an accounting of losses and lessons. I walk the Abandoned Promenade, my brass compass heavy in my palm. Jonah’s presence is a patchwork: he may be beside me, distant, or visiting from afar depending on earlier choices—our intimacy holds different forms. Nan laughs in a garden that is smaller but fiercely tended. The Tidal Institute keeps fragmentary labs. I keep logging microclimate data on my bracelet and teaching youth how to read tide lines. The emotional arc completes: the fall was a crucible that produced community knowledge, legal protections, compromises, and heartbreak. My perfectionism is tempered by the knowledge that systemic problems demand systemic sacrifice. I am resolute, still empathetic, still aching—but I am not alone. The final image is salt on my lips, the compass pointing somewhere uncertain, and the town’s dim light reflected on slow, patient water.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 13, Option (narrative continuation)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Maya Armitage",
+        "Jonah Reyes",
+        "Gracie Nan Armitage",
+        "Townsfolk"
+      ],
+      "locations_used": [
+        "Abandoned Promenade",
+        "Garden",
+        "Tidal Institute"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Branching logic includes three main decision hubs (Chapter 3, Chapter 5, Chapter 8/11) and additional triggered routes leading to multiple endings: Happy (Route A), Bittersweet (Route B), Sad (Route C), True (exposure route), plus an epilogue. Entry conditions use the explicit 'From Chapter...' phrasing as provided.",
+  "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+  "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 12:17:04"
+}

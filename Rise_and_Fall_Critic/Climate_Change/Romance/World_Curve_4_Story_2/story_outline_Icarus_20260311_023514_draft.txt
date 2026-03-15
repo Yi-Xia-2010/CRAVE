@@ -1,0 +1,246 @@
+## Visual Novel Title
+Saltwick Rising
+
+---
+
+## World View
+Saltwick is a small coastal town in the 2040s reshaped by the sea: harbor sheds lean under salt crust, patched dunes keep time with new seawalls, and trailer-style labs sit on raised platforms. Politics is tense between community stewardship and rapid modernization; the municipal council negotiates with outside developers while volunteer squads stitch temporary defenses after every storm. Technology is uneven — efficient hydroponics and local microgrids sit beside rusted diesel generators. Culture values lineage (old boatwrights and fisher elders) and care work (community kitchens and shared labor days). Religion and ritual remain local and practical: tide-blessing gatherings at the lighthouse, feast-days to honor harvests, and the cultural memory held by elders like Oba Kofi. Class divisions are subtle but sharp: multigenerational residents, returning experts like me (Alys Maren), and entrepreneurial outsiders embodied by Mayor Celine Harrow. Geography is intimate: a crescent harbor, the Glass Marsh, a cliff-top lighthouse greenhouse, a lab on pilings, and battered north ridges where sand and makeshift seawalls contend with incoming storms. Atmosphere is melancholic but verdant — saltwind, the smell of kelp, and the uneasy optimism of townspeople who keep fixing things because leaving is not an option.
+
+---
+
+## General Plot Overview - Plot Outline
+I return to Saltwick resolved to restore seagrass beds and shorelines to protect the town. Early momentum — volunteer crews, pilot seagrass mats, and visible local engineering — produces a rapid ascent in community trust, funding, and romantic warmth with Ivo. The town experiences a brief triumphant peak: seedlings take, harbor repair projects finish, and a ribbon-cutting sense of safety settles over Saltwick. Then, as if on cue, hubris, compromised deals, and a fierce storm expose structural and moral faults. Across branching routes I must choose alliances and compromises — with Ivo’s immediate pragmatic defenses, with Celine’s rapid funding, or with Dr. Leyna’s patient restoration science — each choice leads to a distinct version of the same arc: a bright rise to achievement followed by a catastrophic fall. Some endings emphasize moral victory at a cost; others emphasize displacement, heartbreak, or the revelation of corruption. The emotional core is always first-person: I must weigh love against duty, community trust against expediency, and my own fear of betrayal against the town’s need to survive.
+
+---
+
+## Chapter Structure
+
+*(Each chapter contains 180–200 words of first-person narrative, notes on visuals, declared Valence and Arousal, and branching logic where applicable.)*
+
+---
+
+### Chapter 1: Homecoming [Rise] (Branch: Common)
+
+* **Entry Condition:** None (Start)
+* **Summary:** I arrive back in Saltwick after years away. The harbor smells like old wood and new algae; my dark chestnut hair clings to my collar in salt-scented waves, and my olive-softshell jacket bears the same mud stains I couldn't scrub out before leaving. I carry my dented brass compass and an old field notebook and feel the pull of duty: seagrass restoration, shoreline replanting, rescuing what’s left of our way of life. I walk the crescent docks and watch Ivo — soil-dark hands, a faded canvas cap, hazel eyes that study me with an amused, tired warmth — directing volunteers while Maya, my sister, laughs with a paint-streaked apron. Oba Kofi tips his cane and offers a small blessing of tide and memory. The town greets me with equal parts hope and suspicion: children run by with seaweed clinging to knees, fishermen trade stories about storm windows, and in the distance the Glass Marsh reflects a low, pastel sky. I promise myself practical steps: pilot plots, community meetings, and a slow, defensible restoration plan. I also notice Celine Harrow arriving in a tailored navy coat; her steely blue eyes appraise me like a ledger. The thread of the story tightens: I owe Saltwick science and people both.  
+* **Visuals:** Salt-scarred harbor at dusk; my weathered jacket, compass in hand; Ivo in his canvas cap; painterly golden-hour light; sea-foam greens and rust tones.
+* **Valence:** Positive (Moderate)
+* **Arousal:** Medium
+
+* **Next:** Chapter 2
+
+[188 words]
+
+---
+
+### Chapter 2: Small Triumphs [Rise] (Branch: Common)
+
+* **Entry Condition:** From Chapter 1
+* **Summary:** We begin small: a row of seeded mats in the shallow harbor, a hydroponic tray in the lighthouse greenhouse, a data rig at Muri Research Lab. I sketch planting patterns in my field notebook while Dr. Leyna Ortiz, tablet glowing, pulls up modelled tide curves. My hands are cold inside my scuffed rubber boots but steady. Volunteer crews — led by Ronan and rallied by Ivo's laugh — haul reclaimed docks, stitch erosion fences, and replant eelgrass. The community responds to visible action; people bring soup and old nets become tool straps. Celine drops by with a polished dossier and warm, politically honed words about funding windows. I see her silver-blonde bob and pearl lapel pin and feel a countercurrent of distrust. A small breakthrough comes: seed take in one sheltered bay, and Oba Kofi offers an old tidal map that hints at places where the grass once anchored. That night, under the warm fluorescent halo of the Muri lab, we celebrate: a fragile success, a record of seedlings, a chart with a future. My chest feels light — Ivor props by my shoulder and I almost let myself be vulnerable. But underneath, I still worry: will urgency crush patience?  
+* **Visuals:** Seed mats in pewter water, lighthouse greenhouse golden glow, Dr. Leyna's tablet graphs, my field notebook pages; close-ups of my braided fishing-line bracelet.
+* **Valence:** Positive (High)
+* **Arousal:** Medium-High
+
+* **Next:** Chapter 3
+
+[190 words]
+
+---
+
+### Chapter 3: Council Night — The Choice [Rise] (Branch: Common / Split)
+
+* **Entry Condition:** From Chapter 2
+* **Summary:** Harrow Hall smells of old wood and heated argument. I sit at the long scarred table in my olive jacket, compass cold in my pocket, and listen as Celine lays out a municipal plan: immediate hard infrastructure and outside investment. Ivo stands beside the volunteer roster, raw and practical in his faded vest, arguing for community-led seawalls and rapid shelters. Dr. Leyna pleads for measured restoration backed by sound data. Voices rise, townsfolk weep softly, and Maya hands out folded lists of households that can't afford relocation. I hold the field notebook and find my voice: restoration is the long-term shield, but I cannot ignore immediate risk. Celine's steely blue eyes narrow; she offers a deadline: approve funding and contracts within a week, or watch developers walk away. The council looks to me — not because I want the burden, but because they expect the science to define the path. My stubbornness bristles; my empathy tugs. I have three ways forward: align with Ivo and prioritize immediate protection, negotiate with Celine to secure rapid investment and infrastructure, or commit fully to ecological restoration with Dr. Leyna's evidence and community labor. Each will change Saltwick — and my heart.  
+* **Visuals:** Harrow Hall's heavy benches and political lighting; my braided bracelet clenching; Ivo's hazel eyes; Celine's navy coat under sharp spotlights.
+* **Valence:** Positive (Tenuous)
+* **Arousal:** High
+* **Branch:** MAJOR DECISION (Logic Hub):
+* **The Choice:** How do I lead Saltwick now?
+* **Option A:** "Rally with Ivo — build immediate defenses and shelters." -> **Consequence:** Community-first, visible action and fast trust-building; may delay ecological plans. -> **Jumps to:** Chapter 4
+* **Option B:** "Take Celine's offer — secure municipal funding for rapid infrastructure." -> **Consequence:** Money and speed, but strings attached and political trade-offs. -> **Jumps to:** Chapter 7
+* **Option C:** "Double down on the scientific restoration plan with Dr. Leyna." -> **Consequence:** Slower but ecologically driven; risk losing skeptics. -> **Jumps to:** Chapter 10
+
+[190 words]
+
+---
+
+### Chapter 4: Seawalls and Sweat [Rise] (Branch: Route A)
+
+* **Entry Condition:** From Chapter 3, Option A
+* **Summary:** I choose Ivo. We mobilize — sandbags, volunteer shifts, Ronan at the front, Maya feeding crews. Ivo's grin feels like sunlight against my chestnut hair blown into my eyes; he hands me a battered pocket camera and jokes about my field notebook becoming a bestseller. We prioritize visible, protective measures: berms at North Beach Ridge, temporary revetments, and community shelters. The work is physical and immediate; my hands learn tool loops on denim and the leather smell of Ivo's utility belt becomes a private compass. The town rallies because they see their houses saved in hours and days. Dr. Leyna still runs monitoring at Muri Lab, but her tone shifts: pragmatic support rather than pure lab insistence. Celine watches from the edges, nodding politely but privately calculating. For the first time since I returned, people sleep easier. At the Old Lighthouse Rooftop Greenhouse, I plant seedlings as rest — sunlight in the panes warms my face and Ivo stands beside me, sleeves rolled, and for one bright afternoon the future seems secured. The rise is sharp: trust grows, funding from grassroots donations trickles in, and I feel, maybe, both love and duty aligning.  
+* **Visuals:** North Beach Ridge mid-build; sandbags against harsh white sand; my weathered jacket streaked with salt and sand; Ivo's tool belt and canvas cap; greenhouse golden light.
+* **Valence:** Positive (High)
+* **Arousal:** High
+* **Next:** Chapter 5
+
+[190 words]
+
+---
+
+### Chapter 5: Momentum and Tension [Rise] (Branch: Route A / Split)
+
+* **Entry Condition:** From Chapter 4
+* **Summary:** Momentum doubles. The seawalls hold through a bruising squall; we repair, improve, and crowds applaud. I stand on a stretch of newly piled rock, my compass heavy in my pocket, and realize we have public momentum to scale. Ivo coordinates volunteers with the practiced humor that smooths tension; his hazel eyes catch mine across worklight glare and I allow myself a breath of too-easy happiness. But success brings pressure: Celine offers municipal support if we accept her contractors to finish bigger, faster. Celine's navy coat is immaculate even in rain; her digital cuff flashes numbers that promise expanded safety, schools retrofits, and an embankment beyond what we can build by ourselves. I feel my scientific instincts bristle — the contractors cut corners elsewhere, I know this pattern — but the crowd needs visible completion before the next season. This is another choice: guard our grassroots independence and continue at our pace, accept Celine's deal and finish rapidly (with strings), or try to broker a hybrid: public oversight and contractor funds. Each choice shifts trust, funding, and my relationship with Ivo — who wants protections now — and with the town itself.  
+* **Visuals:** Worklight-lit seawall at night; my mud-stained cargo trousers; Ivo with sleeves rolled; Celine with a pristine dossier; community faces illuminated by portable lamps.
+* **Valence:** Positive (High)
+* **Arousal:** Very High
+* **Branch:** MAJOR DECISION (Logic Hub):
+* **The Choice:** Finish through independence, accept outside contractors, or negotiate a hybrid oversight deal?
+* **Option A:** "Refuse Celine's contractors — we keep it community-led." -> **Consequence:** Pride, moral clarity, but slower completion and political exposure. -> **Jumps to:** Chapter 6
+* **Option B:** "Accept Celine's funding and contractors under municipal terms." -> **Consequence:** Rapid completion and public acclaim, but contractual compromises and hidden trade-offs. -> **Jumps to:** Chapter 13
+* **Option C:** "Demand hybrid oversight — accept funds only with community enforcement." -> **Consequence:** Potentially the best of both but risks bureaucratic delay and Celine's irritation. -> **Jumps to:** Chapter 6
+
+[190 words]
+
+---
+
+### Chapter 6: The Storm That Tells [Fall] (Branch: Route A — Ending: Bittersweet / Fall)
+
+* **Entry Condition:** From Chapter 5, Option A or Option C
+* **Summary:** The sea comes with a voice I hadn't measured. We are not careless, but the berms and sandbags — our honest, human defenses — meet a superstorm that arrives faster than models predicted. I stand waist-deep in floodwater, my chestnut hair plastered to my neck, the field notebook slipped from a jacket pocket to drift in the tide. The seawalls crumple in stretches where the storm finds seams; a section we thought secure shears away, and a neighbor's roof lifts like a toy. Ivo yells my name over the wind, his hazel eyes wide with a fury that is not entirely anger: he's grieving the limits of what we could do. We save many homes; we still lose others. The town stitches in the aftermath, but the cost is personal: supplies are drained, some families must relocate, and my relationship with Ivo strains under decisions made in panic. There is also pride — our community's courage was real — but the fall is absolute in its clarity: noble effort did not equal invulnerability. I face Oba Kofi's tired, knowing stare and feel the weight of scale over my notebooks and intentions.  
+* **Visuals:** Night storm-blue chaos at North Beach Ridge; torn sandbags; my soaked jacket and compass glinting; Ivo in wind, mud on denim; the Muri Lab beacon in the dark.
+* **Valence:** Negative (Low)
+* **Arousal:** Very High
+
+* **Next:** (Ending: Route A concluded)
+
+[190 words]
+
+---
+
+### Chapter 7: The Mayor's Bargain [Rise] (Branch: Route B)
+
+* **Entry Condition:** From Chapter 3, Option B
+* **Summary:** I sign into negotiations with Celine. We meet in Harrow Hall under warm spotlights; her steely blue eyes and immaculate silver bob make deals look like art. Celine offers municipal funds for a comprehensive embankment, retrofits to public housing, and an electric tide-warning array — fast and visible. I feel the rush of possibility; the models look promising, and Dr. Leyna and I collaborate on integrating ecological buffers where we can. Ivo watches from the edge, wary in his faded high-visibility vest: he knows the urgency but distrusts the outside gloss. The town approves the emergency contract with applause. Construction crews move in; the harbor looks new almost overnight. Ribbon-cutting photographs capture my braided bracelet in the foreground and Celine's pearl pin near the podium; I stand there, chestnut hair tucked back, smiling for the cameras while my mind catalogs the strings attached in the contract lines I barely read. For a fluttering moment Saltwick appears saved: streets patched, shelters stocked, and skeptical neighbors saying "thank you." My sense of triumph is buoyant and public.  
+* **Visuals:** Harrow Hall ceremony; new embankment gleaming; construction under brassy afternoon light; my field notebook closed in my jacket.
+* **Valence:** Positive (High)
+* **Arousal:** High
+* **Next:** Chapter 8
+
+[190 words]
+
+---
+
+### Chapter 8: Ribbon-Cut, Hidden Lines [Rise] (Branch: Route B / Split)
+
+* **Entry Condition:** From Chapter 7
+* **Summary:** The embankment stands like a polished promise. Crowds cheer; cameras flash; even Oba Kofi offers a reluctant, approving nod. Ivo laughs with Ronan as the volunteer squad is thanked publicly. For a week, the town breathes easier. But Celine's contractors are efficient in ways that make me uneasy — dredging paths where I had proposed eelgrass buffers, using engineered liners rather than living habitats. Dr. Leyna uncovers small deviations between the municipal contract and contractors' blueprints; the environmental safeguards are amended into footnotes. I am pulled between public safety and professional integrity: exposing the discrepancies could delay protections and anger those who would lose faith, while staying silent makes me complicit. Ivo's pragmatic instinct says finish now, the people matter most. Maya begs me not to be the person who stalls safety. The heat of public expectation, the smell of new concrete, and Celine's poised smile close in. My decision now will define whether the town's rapid rise rests on durable ethics or fragile paper.  
+* **Visuals:** New embankment under white afternoon sun; close-up of contractor blueprints; my gray-green eyes scanning a tablet; Celine's navy coat in the background.
+* **Valence:** Positive (Tenuous)
+* **Arousal:** Very High
+* **Branch:** MAJOR DECISION (Logic Hub):
+* **The Choice:** Do I expose the contract deviations, sign off quietly, or leak selective information to force oversight?
+* **Option A:** "Demand transparency and put construction on hold until auditors verify." -> **Consequence:** Delay, risk losing public trust, but preserves ethics. -> **Jumps to:** Chapter 9
+* **Option B:** "Authorize completion to secure immediate protection." -> **Consequence:** Rapid finish and public acclaim; potential unseen compromises. -> **Jumps to:** Chapter 14
+* **Option C:** "Leak the discrepancies to a trusted reporter and push for conditional oversight." -> **Consequence:** Scandal and a chaotic public reckoning; risky but may force accountability. -> **Jumps to:** Chapter 9
+
+[190 words]
+
+---
+
+### Chapter 9: Cracked Foundation [Fall] (Branch: Route B — Ending: Sad / Fall)
+
+* **Entry Condition:** From Chapter 8, Option A or Option C
+* **Summary:** Auditors find the deviations. Public hearings begin; contractors scramble; half the embankment is cordoned off. In the first high tide after the scandal breaks, a section undermined by improper liner sloughs into the sea. The failure is sudden and cinematic: concrete crumble, a geyser of brown water, and a roar like something alive tearing at what we'd built. Families that had celebrated now stack salvaged belongings under rain. Celine, when cornered, speaks about "trade-offs" and "economic realities"; her steely blue eyes flicker with an odd compassion but do not take responsibility. The town's trust fractures. Ivo holds my shoulder, his hands mud-specked and shaking, but his look is not one of blame; it's impatience, grief, and a question about what I knew and when. I am left exposed in hearings, my field notebook inked with raw timelines and failed assumptions. We save some lives, but we have given the public a false sense of security. The fall is brutal: our political victory curdles into blame and displacement, and I lose a measure of my own faith in leadership.  
+* **Visuals:** Collapsing embankment in pewter water; Harrow Hall hearings under harsh lights; my soaked jacket and brass compass; Ivo with mud on his hands.
+* **Valence:** Negative (Low)
+* **Arousal:** Very High
+
+* **Next:** (Ending: Route B branch concluded)
+
+[190 words]
+
+---
+
+### Chapter 10: Seagrass Promise [Rise] (Branch: Route C)
+
+* **Entry Condition:** From Chapter 3, Option C
+* **Summary:** I choose patient science. We dedicate coastal stretches to seagrass mat deployment, microtopography restoration, and reed replanting in the Glass Marsh. Dr. Leyna oversees monitoring in crisp lab light; Ronan's energy converts into careful tending rather than demolition. The seedlings take in sheltered pools and the first soft green pushes through reflective water. The Old Lighthouse Rooftop Greenhouse hums with warmth as I graft local strains, my hair in salt-tinged waves and my field notebook crowded with observations. Ivo is cautious — he helps by designing quick-access shelters if storms intensify — but his hands prefer the immediate mechanics of rescue. The town watches us: at first skeptical, later hopeful as data shows hours of reduced surge and improved fish nursery sightings. Oba Kofi hums old tide-songs and brings up stories of where seagrass used to knit the harbor. Patrons who once called for seawalls now bring nets to help plant. The rise is quieter, steadier, and rooted in shared labor; I finally feel my science and my empathy in alignment.  
+* **Visuals:** Glass Marsh in misty teal morning; seedlings in reflective pools; greenhouse golden panes; me with notebook and braided bracelet.
+* **Valence:** Positive (Moderate-High)
+* **Arousal:** Medium-High
+* **Next:** Chapter 11
+
+[190 words]
+
+---
+
+### Chapter 11: Bloom and Bargain [Rise] (Branch: Route C / Split)
+
+* **Entry Condition:** From Chapter 10
+* **Summary:** Seagrass spreads like a secret kept finally let loose: small boats find calmer wakes, mussel beds return, and a schoolchild points at suddenly denser water and calls it "green magic." My chest is tender with a professional joy I rarely allow myself. Dr. Leyna finds statistically significant reductions in surge energy where we planted mats; the data hums on her tablet like proof of something sacred. But the success draws attention. Celine offers a hybrid plan: municipal funds in exchange for allowing constrained infrastructure that would sacrifice some marsh fringe. She argues that wide-scale hybridization will protect the most people faster. Ivo, who helped both with shelters and with late-night tending, distrusts strings of any sort. Maya pleads for compromise because the family kitchen can't survive another half season of uncertainty. I hold the field notebook and the compass, weigh the slow, ethical gains against an offer that could scale protection quickly. Do I stay strictly community-led, accept Celine's hybrid funds, or force a combined commitment with Ivo to marry immediate protection and long-term recovery? Each path shifts the emotional stakes and the town's future.  
+* **Visuals:** Glass Marsh in morning light; my gray-green eyes watching seedlings; Celine's neat sleeve; Ivo's toolbelt at the marsh edge.
+* **Valence:** Positive (High)
+* **Arousal:** High
+* **Branch:** MAJOR DECISION (Logic Hub):
+* **The Choice:** Scale slowly and community-first, accept a hybrid municipal deal, or coerce a combined Ivo-Alys plan?
+* **Option A:** "Continue community-first scaling, refuse Celine's hybrid." -> **Consequence:** Slow expansion, intact ethics, but weaker immediate protection. -> **Jumps to:** Chapter 12
+* **Option B:** "Accept Celine's hybrid funds with strict ecological covenants." -> **Consequence:** Faster scale, complicated oversight, political strings and risk of compromise. -> **Jumps to:** Chapter 15
+* **Option C:** "Force a combined plan with Ivo — immediate protective measures layered with restoration." -> **Consequence:** High coordination, high trust needed; could be the strongest plan if it holds. -> **Jumps to:** Chapter 12
+
+[190 words]
+
+---
+
+### Chapter 12: The Night the Beds Broke [Fall] (Branch: Route C — Ending: Bittersweet / Fall)
+
+* **Entry Condition:** From Chapter 11, Option A or Option C
+* **Summary:** We are wounded by nature and by human error. After weeks of calm, a sudden offshore dredging — a private project approved quietly by a municipality making trade-offs elsewhere — sends sediment plumes that smother our seagrass beds. The water turns milky; seedlings suffocate. I stand on the Glass Marsh boardwalk, my brass compass warm against my palm, and watch green go to gray like a page being erased. People cry; Dr. Leyna cradles a ruined sampler and says we lost an entire cohort. We scramble to replant, to filtrate, to fight bureaucracy. Ivo gives all he can: building temporary levees, ferrying families, sleeping with the volunteers. Yet the loss is not only ecological — we fracture. Some locals accuse us of elitism, others of naïveté. I lose the intimacy that had begun with Ivo; our differing priorities and the exhaustion of repeated crisis leave tenderness strained. There is a moral victory in the lessons we can teach the next season and a stubborn, embered hope that will not die easily. But the crash is blunt: progress unravels, we lose ground, and the town pays another cost for dreaming too ambitiously.  
+* **Visuals:** Glass Marsh with sediment plumes; my soaked jacket and the field notebook with smudged ink; Dr. Leyna's tablet with dead-plant images.
+* **Valence:** Negative (Low)
+* **Arousal:** Very High
+
+* **Next:** (Ending: Route C branch concluded)
+
+[190 words]
+
+---
+
+### Chapter 13: Fast Finish, Bitter Aftertaste [Fall] (Branch: Route A — Ending: Sad / Fall)
+
+* **Entry Condition:** From Chapter 5, Option B
+* **Summary:** I accept Celine's contractors to finish the seawall. The project finishes early; the harbor looks new, the embankment gleams in the light, and I stand at a ribbon-cutting with my hair caught back and my braided bracelet glinting. For a season we breathe — roofs stay and children play near the tide. But the contract hides a clause: developers secured land leases and preferred harbor rights that displace small boatwrights and family plots. Within months, we see the long cost: families moved inland, boatyards privatized, and seagrass beds sacrificed to deeper channels for commercial traffic. A lawsuit later reveals developer payments slotted to shell companies connected to municipal aides. Celine, once a pillar, becomes a symbol of trade-off; her steely eyes look smaller in newsprint. I coordinate community protests and file disclosures, but the town is altered: we traded some safety for an uneven economy and lost heritage. Ivo's hands tighten around mine for an instant and then loosen; grief sits where warmth was. The fall is not immediate destruction but a slow, corrosive unraveling that leaves me facing the ethical cost of choices made under pressure.  
+* **Visuals:** New embankment glinting; privatized boatyard gates; my field notebook with marked clauses; Celine's pearl pin in a news photo.
+* **Valence:** Negative (Low)
+* **Arousal:** High
+
+* **Next:** (Ending: Route A alternate concluded)
+
+[190 words]
+
+---
+
+### Chapter 14: Exposed Ledger [Fall] (Branch: Route B — Ending: True / Fall)
+
+* **Entry Condition:** From Chapter 8, Option B
+* **Summary:** I authorize the completion to secure immediate protection. Initially, the crowd cheers; we have the safety we wanted. But a fast finish invites corners cut in hidden ways. I come to find, later, through a leak and my own persistent reading of the municipal cuff data, that a set of contracts diverted maintenance funds and allowed dredging to permit private access. I use what I can of the public record and my field notebook to expose the ledger in a town meeting — a moral reckoning that wins accountability. The fall is catastrophic in different terms: the embankment holds in a storm, but so many other promises are breached that public faith in leadership collapses. Celine is forced into a resignation and some developers are prosecuted; the town's governance changes, but at the cost of deep economic damage and social trust. I stand at the podium, hair damp from rain, and feel both vindicated and hollow. Ivo and I repair together but not without scars; we have won an ethical victory that comes with eviction notices and broken livelihoods. The town's future is cleaner but heavier.  
+* **Visuals:** Harrow Hall with flashing cameras; my field notebook in my hands; Celine's leather dossier open on a table; faces in the crowd lit by storm-blue light.
+* **Valence:** Mixed-Negative
+* **Arousal:** Very High
+
+* **Next:** (Ending: Route B alternate concluded)
+
+[190 words]
+
+---
+
+### Chapter 15: Sunrise After the Break [Fall] (Branch: Route C — Ending: Ambiguous/Bittersweet / Fall)
+
+* **Entry Condition:** From Chapter 11, Option B
+* **Summary:** We accept Celine's hybrid funds with ecological covenants — a careful, legally bound compromise. Construction and restoration move forward together for a time; seagrass beds expand offshore as engineered marsh terraces rise. We have moments of beauty — morning light through salt-flecked greenhouse panes, Dr. Leyna's quiet triumphs, and Ivo and I building layered defenses with sweat and jokes. But the hybrid model is a political tightrope: enforcement lapses, hidden subcontracting, and economic pressure cause sudden trade-offs. Then a superstorm arrives. The engineered terraces redirect currents in an unforeseen way that exacerbates erosive forces in an adjacent neighborhood. We save the harbor core, but a housing row is swept away. Celine's covenants hold in public, but the human cost is sharp. I stand on a cliff at dawn, hair damp, field notebook open, and watch a small, stubborn patch of seagrass persist among broken pilings. We have legal wins and ecological blueprints that could guide decades of recovery, but the present is loss and the romance between Ivo and me settles into something steadier and stranger — allies with tenderness folded into a ledger of pain. The ending is true and costly: recovery will come slowly, and I keep my compass close.  
+* **Visuals:** Cliff at dawn with ruined pilings; greenhouse light; my braided bracelet, the compass; Ivo tired but present.
+* **Valence:** Mixed (Low)
+* **Arousal:** High
+
+* **Next:** (Ending: Route C alternate concluded)
+
+[190 words]
+
+---
+
+Notes on Narrative Curve and Branching Logic:
+- The global emotional arc follows Icarus: Chapters 1–5/7/10–11 are tagged [Rise] and represent rapidly increasing success and trust; Chapters 6/9/12/13/14/15 are [Fall] and present catastrophic or moral crashes. All branches go from a bright ascent to a significant fall.
+- Major split points: Chapter 3 (town strategy), Chapter 5 (Route A: contractor choice), Chapter 8 (Route B: exposure vs completion), Chapter 11 (Route C: hybrid vs strict restoration).
+- Entry Conditions explicitly link: Chapters 4, 7, and 10 begin from Chapter 3 Options A/B/C respectively. Branch endpoints remain within the allowed Estimated Depth: any path from Chapter 1 to an ending visits no more than 6 chapters (for example: 1 → 2 → 3 → 4 → 5 → 6 = 6 chapters).
+- Visual consistency: all character designs and location descriptions strictly use provided appearances: my dark chestnut hair, gray-green eyes, signature olive jacket and compass; Ivo's canvas cap and hazel eyes; Celine's silver bob and navy tailoring; Dr. Leyna, Oba Kofi, Maya, Ronan; settings like Glass Marsh, Muri Lab, Old Lighthouse Greenhouse, Harrow Hall, and North Beach Ridge.
+- POV: All chapter narratives are first-person as Alys Maren, centering internal conflict between love and duty against climate stakes.

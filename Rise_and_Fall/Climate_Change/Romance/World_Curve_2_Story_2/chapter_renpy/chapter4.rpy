@@ -1,0 +1,257 @@
+label chapter4:
+
+    # [Scene: Architect's Office | Afternoon]
+
+    scene bg ch4_453e40_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls; the low murmur of street traffic; the click of a laptop trackpad.]
+    "You step into the office with the taste of the council chamber still on your tongue — metal and the faint chalk of expectation. Nia's grip on your sleeve loosens as you cross the threshold, and"
+    "the city-built scent of polished wood and printer toner replaces the municipal fluorescent sting. Cassandra 'Cass' Rey stands by the model, hands folded, her coat sleeve catching the light like a blade."
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "Mara. Thank you for coming in. We can do a lot together if we act with purpose.' (She gestures to the renderings.) 'This is a plan that brings back work—safer tides, a sea wall, boardwalk commerce. We include living-shore elements where practical. It's pragmatic."
+    # play sound "sfx_placeholder"  # [Sound: Page rustle; a chair creak as you sit.]
+    "Rina Park, arms folded, leans in from the side. Her sunglasses are pushed up; her expression is eager and tired in equal measure."
+    show rina_park at right:
+        zoom 0.7
+
+    rina_park "It's the leverage we asked the funders for. We can get early piloting and jobs immediately. The media likes a win that looks like action."
+
+    "You read the first clause aloud under your breath" "Permitted early site mobilization to commence within thirty days—subject to agreed pilot site boundaries."
+    "The paper smells faintly of the printer's newness and the thin citrus of a fresh business coffee. That phrase—'permitted early site mobilization'—is a hinge. Early work could mean securing fragile marsh edges with living-shore techniques, or"
+    "it could mean heavy machinery grading the headland before your prototypes are mature enough to hold anything. The two outcomes sit in your stomach like unfiled teeth."
+    show mara_voss at center:
+        zoom 0.7
+
+    mara_voss "You keep saying 'where practical.' For the marsh, 'practical' has a shape. It isn't just space on a map—it's channels, eelgrass, the places fish nurse. Those things don't slot into renderings like boxes."
+
+    cassandra_cass_rey "I don't disagree. That's why we're proposing a Memorandum of Understanding—an enforceable set of pilot actions. Living-shore prototypes embedded along the most vulnerable edges, monitoring funded for five years, and shared governance on adaptive measures."
+
+    "Her voice is soft but engineered for inevitability. She unfolds a sheet of paper and slides it across the table. The header is corporate-calm" "Azure Crescent — Memorandum of Understanding (Draft)."
+    "Mayor Rosa Alvarez appears on the video screen above the model, her shoulders slumped against the frame of the camera."
+    hide cassandra_cass_rey
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "We need jobs, Mara. We also need the town to survive the next storm. If this MOU is solid, it buys us both."
+    "A developer engineer, a young man with a tide-table tattoo, taps his tablet and speaks up, impatient."
+
+    "Developer Engineer" "Timelines are non-negotiable. Contractors are scheduled; payments are tied to milestones. We can phase in 'living-shore prototypes' but only in limited stretches before the first season."
+    "Your thoughts unspool and knot: the contractors' schedule, the town's payroll, the murmurs in the square about which families will get hired first. You imagine the headland with machines churning the soil where marsh roots should stay intact. You imagine willowmarsh channels smothered under gravel if oversight slips."
+
+    mara_voss "Our prototypes need time to root and to be demonstrable. If you open the site wholesale, the physical baseline will be altered and the monitoring will be about post-facto mitigation instead of protection. That's not a pilot—it's a repair bill."
+    "Cassandra 'Cass' Rey tilts her head, attentive as a well-programmed sensor."
+    hide rina_park
+    show cassandra_cass_rey at right:
+        zoom 0.7
+
+    cassandra_cass_rey "Then we put stronger language in. Boundaries, permitted equipment lists, hard stop clauses if monitoring shows degradation. If we lock those in, I'm prepared to vouch for them in the boardroom."
+    "Her offer feels precise and cold, like a life raft with a small, deliberate hole in the bottom that she has already planned to patch later if needed."
+    "Nia, who has been quietly watching, clutches a fidget-worn scarf and speaks up, voice bright with anger and worry."
+    hide mara_voss
+    show nia_voss at center:
+        zoom 0.7
+
+    nia_voss "If you put in a clause that says 'monitoring' without independent auditors, what's to stop them from writing the report the way they want? We need community oversight. We need jobs that don't come at the marsh's expense."
+    hide mayor_rosa_alvarez
+    show rina_park at left:
+        zoom 0.7
+
+    rina_park "We push for co-management in the MOU. Independent reviewers. A public dashboard."
+    "Cassandra 'Cass' Rey's smile narrows for a bead of a second. She isn't one to be surprised."
+
+    cassandra_cass_rey "Agreed. Independent reviewers, a public monitoring dashboard, and a schedule that prioritizes demonstration sections before any heavy mobilization. In return, we ask for a phased start—so contractors maintain employment timelines and the developer's investors see progress."
+    "You taste compromise like metal and brine. It is both familiar and foreign: the thin path between what must be defended and what will pay wages this winter."
+
+    menu:
+        "Ask for a clause requiring local hires first":
+            "Mara Voss hears the words leave her mouth and they land heavier than she'd hoped. The room's energy shifts—supporters nod, a developer frowns, and Cassandra 'Cass' Rey pauses, considering payroll logistics."
+        "Request explicit limits on heavy machinery in pilot areas":
+            "Mara Voss points to the map—finger pressed to the marsh edge—and stipulates language that would restrict certain machinery types within pilot boundaries. The engineer's jaw tightens; someone at the corner of the table mutters about 'expensive constraints.'"
+
+    # --- merge ---
+    "Negotiations continue with the revised terms being discussed and refined."
+    "Cassandra 'Cass' Rey leans back, folding the MOU as if folding the town's fate into an envelope."
+
+    cassandra_cass_rey "Those are reasonable. We can define a list of permitted equipment and a local-hire clause for initial mobilization. But understand—this will slow immediate revenue flow to investors. We need commitment to the revised schedule."
+    "You feel the entire room contract, the way a breath catches before a storm. Commitment is a currency in this town, and you're being asked to trade long-term ecological certainty for a promise that may be fulfilled or postponed by market tides."
+    hide cassandra_cass_rey
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Then we need penalties tied to ecological breach. Not symbolic gestures—hard penalties. Remediation funding, community reparations. If a 'demonstration' section is compromised, remediation is mandatory and immediate."
+    "Cassandra 'Cass' Rey's gaze is steady, unreadable in its precision."
+    hide nia_voss
+    show cassandra_cass_rey at center:
+        zoom 0.7
+
+    cassandra_cass_rey "We can draft penalty clauses. But there is a legal threshold—we must balance enforceability with the developer's ability to deliver projects in good faith. Otherwise we risk scaring off the deal completely."
+    "You think of elder Tomas Calder's voice—practical and blunt—telling you that people will choose the paycheck when their roofs are leaky and the icebox empty. You also think of your sister's small hands and the poster"
+    "she made: Save Willowmarsh. There's a cost to both holding the line and conceding it."
+    # [Scene: Negotiation Space | Early Evening]
+    hide rina_park
+    hide mara_voss
+    hide cassandra_cass_rey
+
+    scene bg ch4_453e40_2 at full_bg
+    # play music "music_placeholder"  # [Music: Low, insistent hum; a single violin thread underlines tension.]
+    "The team moves like a tide: each motion measured, each concession a small current back toward the harbor. Mayor Rosa Alvarez moderates; she wants re-election and the town's stability, but her eyes flick to you with a question about the moral ledger."
+    show mayor_rosa_alvarez at left:
+        zoom 0.7
+
+    mayor_rosa_alvarez "If we get the co-management clause and independent auditing, will you sign the MOU, Mara? Will you stand with me on this?"
+    "Your fingers find the coral pendant beneath your collar. Its edges are worn smooth from years of being held during hard choices. You close your eyes for a second and feel the pulse of the town"
+    "— not as an abstract cohort but as names, faces, and the gull-call rhythms of everyday life."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "I'll sign if 'co-management' means a legally constituted oversight board with community-appointed seats, if independent auditors are appointed by mutual consent, not by the developer, and if the permitted-equipment list is enforceable with penalties."
+    "Mayor Rosa Alvarez: (nods slowly) 'We can write that. But the board will be advisory with veto powers under specific environmental triggers. You will need to accept a phased start.'"
+    "Elias 'Eli' Calder arrives at the doorway, jacket smelling faintly of tar and rope. He walks in without fanfare, boots scuffing the floor. He doesn't need to say your name; you feel the weight of his"
+    "look first, the guarded warmth that comes when someone is evaluating both your resolve and your risk."
+    show elias_eli_calder at center:
+        zoom 0.7
+
+    elias_eli_calder "You made it through the hall. How's the seamstress work going? You stitching compromise or mending a wound?"
+
+    mara_voss "Both, probably. The MOU leans toward both. They'll allow pilots, but they want early mobilization on the headland. Penalties exist on paper. The devil's in how quickly teeth show up."
+
+    elias_eli_calder "If they start grading before the prototypes take hold, there won't be teeth. There'll be gravel. If you sign, make them show you the timetable and the enforcement lawyers."
+    "His words are more blunt than diplomatic—he's not a planner; he's a person whose family's livelihood is in the balance. He has the practical suspicion of someone who has seen promises and tides both break where they shouldn't."
+    hide mayor_rosa_alvarez
+    show rina_park at left:
+        zoom 0.7
+
+    rina_park "We can push for a clause that requires third-party auditors before any heavy machinery is brought in. We can make early mobilization conditional upon a demonstrated success metric in the first six months."
+
+    "Developer Engineer" "Demonstrated success metrics aren't immediate. The investors won't like this."
+    hide mara_voss
+    show cassandra_cass_rey at right:
+        zoom 0.7
+
+    cassandra_cass_rey "We find compromise language. We define 'early mobilization' clearly—shoreline stabilization using low-impact techniques only. Any heavy equipment needs explicit authorization tied to milestone green-lighting."
+    "The drafts circulate. Pens scratch. There is grating, incremental negotiation as if you're filing down a rough rock to fit a fragile keyhole."
+
+    menu:
+        "Take Eli aside to ask what he'd need to feel safe":
+            "Mara Voss pulls Elias 'Eli' Calder apart from the group. He lists concrete needs—clear timelines, community job guarantees, and a promise that his family's slip won't be sealed over. He looks at Mara Voss, and there is fear braided with hope."
+        "Keep the conversation public to protect transparency":
+            "Mara Voss stays at the table, insists on language that will be read into the minute and publicly posted. There's relief from Rina and grumbling from the developer, but the public record tightens the deal's teeth."
+
+    # --- merge ---
+    "The team finalizes language and the MOU's structure as described below."
+    "Late into the evening, wrists sore from signing pages, the MOU begins to take shape on the table like a tide-line you can trace: clauses about co-management, independent auditors, a public dashboard with near-real-time monitoring data,"
+    "a permitted-equipment appendix, and—most crucially—a clause allowing certain types of early site work limited to carefully defined pilot areas."
+
+    "Cassandra "Cass" Rey (offering a pen)" "This is, I think, a good compromise. It shows action without wholesale sacrifice. It buys the town a season of jobs and it protects critical marsh segments."
+    "Your pen hovers. The paper smells of clauseage and espresso. You can count—impossibly—the ways this will both help and hurt. It secures funding for pilots and creates oversight, yes. But it also opens the door for"
+    "machinery to set boots on vulnerable soil under tightly managed conditions that could become difficult to police if the political winds shift."
+    hide elias_eli_calder
+    show mara_voss at center:
+        zoom 0.7
+
+    mara_voss "I kept them to defined pilot zones. They promised audits. They promised penalties. I signed because—' (your voice cracks) '—because without the jobs, people will sink faster than the marsh will. I couldn't justify letting families go hungry on principle."
+
+    "Elias "Eli" Calder (quiet)" "Then we hold them to it. We make the oversight real. We don't let them pick the narrative behind closed doors."
+    "He speaks like someone building a boat—one plank at a time, steady and necessary."
+    "Nia finds you both, cheeks windburned, and squeezes your arm with a blunt optimism that almost feels rude against the evening's gravity."
+    hide rina_park
+    show nia_voss at left:
+        zoom 0.7
+
+    nia_voss "They'll see the living-shore work and they'll call it a win. But we have to be louder about the limits. We need community folks out at the pilot sites, documenting, watching. People need to be a presence."
+    hide cassandra_cass_rey
+    show rina_park at right:
+        zoom 0.7
+
+    rina_park "I'll set up the dashboard server and pull in funding for community liaisons. We'll train local monitors."
+    "You let the promise settle like a thin, tentative patch over a larger tear."
+    # [Scene: Dock | Twilight]
+    hide mara_voss
+    hide nia_voss
+    hide rina_park
+
+    scene bg ch4_453e40_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Tide lapping, distant engine idle.]
+    "You stand at the dock after the signing, the MOU folded and heavy in a folder. The air tastes of diesel and distant rain. Elias 'Eli' Calder stands beside you, palms rough and warm. The salt wind lifts short hairs at the nape of your neck."
+    show elias_eli_calder at left:
+        zoom 0.7
+
+    elias_eli_calder "You did what you could. You made them earn it. For now."
+    "You want to believe him. You want to let relief bloom. But the agreement's edges are sharp; they press prints into your skin."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "I kept them to defined pilot zones. They promised audits. They promised penalties. I signed because—' (your voice cracks) '—because without the jobs, people will sink faster than the marsh will. I couldn't justify letting families go hungry on principle."
+
+    "Elias "Eli" Calder (quiet)" "Then we hold them to it. We make the oversight real. We don't let them pick the narrative behind closed doors."
+    "Nia finds you both, cheeks windburned, and squeezes your arm with a blunt optimism that almost feels rude against the evening's gravity."
+    show nia_voss at center:
+        zoom 0.7
+
+    nia_voss "They'll see the living-shore work and they'll call it a win. But we have to be louder about the limits. We need community folks out at the pilot sites, documenting, watching. People need to be a presence."
+    hide elias_eli_calder
+    show rina_park at left:
+        zoom 0.7
+
+    rina_park "I'll set up the dashboard server and pull in funding for community liaisons. We'll train local monitors."
+    "You let the promise settle like a thin, tentative patch over a larger tear."
+    # [Scene: Headland / Pilot Site | Night]
+    hide mara_voss
+    hide nia_voss
+    hide rina_park
+
+    scene bg ch4_453e40_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Thump of a hammer in the distance; the low rumble of an idling generator; the metallic echo of surveyors' voices.]
+    "At the pilot site the next morning — or rather, before the dawn that feels like morning to the crews — you walk the boundary lines. The first demonstration section is marked off with bright ribbon."
+    "The smell of cut grass and oil hangs together in a way that makes you want to cough."
+    "Someone has already driven the first pilot stakes into the ground: short, halting placements where living-shore techniques could anchor future vegetation. They look fragile against the hulks of heavy machinery staged beyond the line."
+    "You press your thumb to the coral pendant again and feel its smooth omission of certainty. The MOU is signed. The pilots are approved. The developers have begun to move equipment onto staging grounds beyond the"
+    "protected strip. The disparity between paper promises and visible mobilization sits in your chest like a bruise."
+    "Cassandra 'Cass' Rey stands by the banner with a clipboard; her expression is flatter in the open air. She offers a professional nod as you approach."
+    show cassandra_cass_rey at left:
+        zoom 0.7
+
+    cassandra_cass_rey "We honored the language. The first phase is a demonstration. The contractors are on notice—their scope is limited by the appendix."
+    "You look at the crews. You look at the stakes. You look at the marsh line trembling under its long morning tide."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Then the auditors will come now—independent reviewers, not contracted by the developer. We need them on the ground before any heavy equipment crosses that red line."
+
+    cassandra_cass_rey "They will. We've arranged for a neutral third party. The testing protocols are in the appendix."
+    "Her voice is steady. But there is a distance now in the air, a space between intent and implementation that smells faintly of burned paper."
+    "Elias 'Eli' Calder stands with you at the edge of the marsh. His shadow slides across the mudflat. He is trying to read you as if your expression were a map."
+    show elias_eli_calder at center:
+        zoom 0.7
+
+    elias_eli_calder "Hold them to it, Mara. Don't let the timeline rush you into letting the wrong machines in."
+    "You nod because you must be the keeper of that leash. You feel the responsibility like wet rope in your hands."
+    "You walk the pilot boundary alone for a moment, listening to the marsh — small birdcalls, the muffled thump of the generator, the distant clang of a pile-driver rehearsing its first descent. The water laps at"
+    "a rhythm you know by memory, a counting of days, a tally. Your mind runs through possible failures and possible safeguards, through court filings and community meetings and long nights writing technical clauses that will have"
+    "to hold up in messy weather and murky politics."
+    "The sky is the ashen color of a winter before rain; the light is not forgiving. For the first time since you returned home, the weight you carry is not only scientific but moral: signed promises"
+    "that may be enforced or ignored, livelihoods that will hang on technical definitions, a marsh that will respond not to your desires but to tides and the slow calculus of human action."
+    "You watch as the first low-impact crew walks toward the demonstration area with only hand tools. It's a small, careful choreography. The heavy rigs remain beyond the line for now, dark silhouettes of possibility."
+    "And then you notice, beyond the banner and the demonstration, tire tracks pressed close to a seam of marsh that looks like it could be the next front—an invitation written in compressed mud."
+    "Your throat tightens. The MOU is in place. The pilots begin. But the early site work is happening in stages that will test every clause you wrote, every auditor's report, every promise of teeth."
+    "You hold your pendant until your fingers ache. The world feels like the time right before a storm arrives in earnest: the air full of warnings, the town leaning into a future that is both made and risked."
+    # play music "music_placeholder"  # [Music: Low cello, unresolved.]
+    hide cassandra_cass_rey
+    hide mara_voss
+    hide elias_eli_calder
+
+    scene bg ch4_453e40_5 at full_bg
+    "You step back from the marsh line and look at the headland where the developer's banners flutter and the first boundaries have been staked."
+    "Page-turn thought: You have bought the town a season of work and a platform for oversight—but at a price that may only reveal itself in the months of rain and the quiet hours when monitoring data"
+    "shows what it shows. You are the named signatory. You are the watchful eye. And you already know that keeping promises in this place will require more than signatures; it will require stubborn, unglamorous attendance to"
+    "small, ugly details."
+
+    scene bg ch4_453e40_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade to a single lonely piano note.]
+
+    scene bg ch4_453e40_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter5
+    return

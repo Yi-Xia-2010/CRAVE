@@ -1,0 +1,127 @@
+{
+    "design_logic": "I interpret the Climate Change theme through a personal, small-scale lens — a coastal community facing rising seas — and blend it with Romance by making the protagonist's emotional journey tied to planetary repair. The core conflict pits immediate economic survival and political expediency against long-term ecological stewardship and personal integrity. Romance emerges as both solace and a complicating force: intimate relationships require compromise, trust, and risk, which mirrors the collective choices the town must make. The narrative engine is choices that force the protagonist to balance love, community loyalty, and the hard decisions necessary to adapt and heal the environment.",
+    "setting": "Near-future coastal town of Maris Bay: a once-sleepy fishing community now strained by accelerating sea-level rise, seasonal superstorms, and climate migration. Technology is pragmatic (solar textiles, modular flood barriers) but resources are scarce; local architecture blends vernacular wooden cottages with improvised ecological infrastructure. Atmosphere is intimate, weathered, and urgent — half-moss, half-salt, lit by low sun and the occasional storm-blue twilight.",
+    "visual_style": "Soft, atmospheric watercolor realism; eco-dystopian pastoral; anime-inflected character designs; tactile texture layers (salt stains, moss, rust); muted seaside palette with occasional lush green and teal accents",
+    "main_characters": [
+        {
+            "name": "Maya Alvarez",
+            "role": "Protagonist",
+            "personality": "Focused, empathetic, stubborn in a practical way. Maya is a community organizer and hands-on ecological designer who balances hope with gritty realism. She is quick to listen, slow to accept easy compromises, and often takes responsibility for others' safety.",
+            "appearance_features": {
+                "hair": "Dark brown, shoulder-length waves with a single teal streak tucked behind her left ear",
+                "eyes": "Warm hazel with flecks of green and tired crow's-feet when she smiles",
+                "clothing": "Layered practical wear: faded navy field jacket with sewn-on seed-bank patches, clay-colored high-waist cargo trousers, tucked linen shirts, and scuffed rubber boots; often wears rolled sleeves smeared with soil and salt",
+                "accessories": "Weathered canvas satchel full of seed packets and blueprints, a copper barometer necklace (family keepsake), and a braided cotton friendship bracelet from childhood"
+            },
+            "goal": "Protect Maris Bay by implementing community-led, nature-based adaptation measures while keeping neighbors in their homes and preserving the town's identity.",
+            "background_story": "Born and raised in Maris Bay, Maya lost her family's ground-floor storefront to an early 'storm surge' that catalyzed her studies in urban ecology. After time at a coastal university and working with NGOs, she returned to lead grassroots resilience projects. She mistrusts top-down solutions that ignore local memory and labor.",
+            "emotional_trait": "Strength: intense empathy and resilience; Flaw: carries guilt for others' suffering and so hesitates to ask for help or accept personal happiness."
+        },
+        {
+            "name": "Evan Kaito",
+            "role": "Love Interest",
+            "personality": "Quiet, inventive, soft-spoken, and idealistic beneath a pragmatic exterior. Evan is a maker-engineer who prefers tinkering to speeches; he invents modular floodproof habitats and low-tech desalination kits. He is earnest, patient, and sometimes overly cautious with his own heart.",
+            "appearance_features": {
+                "hair": "Black, undercut sides with a longer, wavy top that falls forward; often tousled from working in wind",
+                "eyes": "Cool grey-blue, slightly hooded, observant and slow to widen in surprise",
+                "clothing": "Patched denim jacket over a linen-yellow work shirt, slim dark cargo jeans, and leather-stitched ankle boots; sleeves usually rolled to the elbow exposing tool-scarred forearms",
+                "accessories": "A homemade solar-powered wristband that tracks microclimate data, a compact brass camera hanging from his neck, and an old engraved compass from his grandfather"
+            },
+            "goal": "Prove that scalable, humane engineering solutions can allow communities to adapt without selling out — and find a place to belong that balances craft with care.",
+            "background_story": "Evan studied civil engineering and briefly consulted for a coastal developer before leaving over ethical disputes. He returned to Maris Bay to prototype living-habitat modules and runs a small maker collective. He struggles with family pressure to accept profitable but destructive projects.",
+            "emotional_trait": "Strength: patient creativity and steady optimism; Flaw: deep-seated guilt about his corporate past makes him avoid confrontation and risk in personal commitments."
+        },
+        {
+            "name": "Irene Vale",
+            "role": "Antagonist",
+            "personality": "Charismatic, decisive, and strategically minded. Irene genuinely believes in large-scale investment as the fastest way to secure the town’s future, but she is politically ambitious and often prioritizes expedient, measurable wins over slower, community-led solutions.",
+            "appearance_features": {
+                "hair": "Platinum blonde in a sharp, chin-length bob that always looks wind-swept but controlled",
+                "eyes": "Steely grey, narrow and assessing, with a faint crease at the outer edges from years of public speaking",
+                "clothing": "Tailored sand-colored coastal blazer with high-waisted trousers, a minimalist waterproof trench for storms, and polished leather boots; clothing carries a corporate-neutral palette",
+                "accessories": "A discreet digital lapel pin that streams project metrics, a gold cuff bracelet engraved with a family crest, and an expensive hand-etched fountain pen"
+            },
+            "goal": "Implement a high-profile, privately funded harbor redevelopment that will bring jobs and stabilize the local economy — even if it requires converting marshland into engineered infrastructure.",
+            "background_story": "Raised in a city of industry, Irene rose through municipal administration and private boards; she frames herself as a savior of towns like Maris Bay. She campaigned on securing investment after earlier administrations failed to act, building a coalition of businesses and sympathetic voters.",
+            "emotional_trait": "Strength: ruthlessly pragmatic and politically savvy; Flaw: hides a fear of being perceived as ineffective, which fuels uncompromising decisions and emotional distancing."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Tala Ruiz",
+            "relation_to_main": "Childhood friend of Maya and volunteer coordinator",
+            "appearance_summary": "Short, energetic, sun-kissed skin, tightly braided hair with seed beads, often in bright recycled plastics and volunteer vests.",
+            "function_in_story": "Mobilizes community protests, organizes local labor for restoration projects, provides levity and moral support to Maya. Acts as a bridge between residents and the protagonist."
+        },
+        {
+            "name": "Dr. Sora Kim",
+            "relation_to_main": "Mentor to Maya and scientific advisor",
+            "appearance_summary": "Gracefully aged, silver-streaked bun, round spectacles, lab coat patched with algae-processing stains and inked field notes tucked into pockets.",
+            "function_in_story": "Provides technical credibility for nature-based solutions, offers moral counsel, and catalyzes scientific evidence that challenges Irene's proposals."
+        },
+        {
+            "name": "Captain Reyes",
+            "relation_to_main": "Local elder and former fisherman; community memory-keeper",
+            "appearance_summary": "Weathered tan skin, white hair in a low ponytail, oilskin coat, always barefoot in summer and carrying a carved wooden pipe.",
+            "function_in_story": "Represents long-term consequences of environmental change; his testimony sways older residents and grounds debates in lived history."
+        },
+        {
+            "name": "Mayor Lionel Park",
+            "relation_to_main": "Political figure and swing vote between Irene and community initiatives",
+            "appearance_summary": "Round-faced, tired, often in rumpled shirts and a sweat-stained tie, with an earnest but worn expression.",
+            "function_in_story": "Holds decisive power over approvals; his choices reflect political pressures, job promises, and the need to balance immediate relief with long-term resilience."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Maris Bay Boardwalk",
+            "visual_description": "A once-bustling wooden promenade now weather-bleached and salt-streaked; low late-afternoon sun slices across damp planks, puddles reflecting slate skies and neon repair-signs. The air smells of brine and grilled fish; scattered tarps and community stalls create pockets of warm ochre light against a cool teal horizon."
+        },
+        {
+            "name": "Verdant Rooftop Nursery",
+            "visual_description": "A mosaic of rooftop gardens on retrofitted buildings; lush green succulents and reed beds contrast with rusted HVAC units. Soft early-morning light filters through mist from irrigation, casting green-tinged shadows on weathered brick. Hanging seed tags and repurposed bottles sparkle like jewels."
+        },
+        {
+            "name": "Council House Atrium",
+            "visual_description": "Glass-walled municipal atrium with polished stone floors and stark modern lines; mercury-gray sky visible through large panes. Fluorescent overhead lights create a cool, clinical palette punctuated by the warm wood of the dais. Large digital displays cycle project renderings and statistics in cold blues and neon amber."
+        },
+        {
+            "name": "Saltmarsh Labyrinth",
+            "visual_description": "Expansive tidal marsh with braided channels, knee-high grasses, and mirror-still pools reflecting storm-cloud architecture. Lighting is diffuse and silvered; fog often creeps in midday, muffling sound and lending the place an ancient, sacred hush. Occasional crashed pilings and barnacled stones mark places of memory."
+        },
+        {
+            "name": "Glass Harbor Development Site",
+            "visual_description": "Cleared waterfront lot ringed by temporary fencing and glossy renderings pinned to plywood. Heavy machinery gleams under a harsh midday sun; dust motes and the metallic tang of fresh concrete hang in the air. Evening meetings feature projector screens casting warm orange plans across attentive faces."
+        },
+        {
+            "name": "Stormcliff Lighthouse",
+            "visual_description": "Perched on jagged cliffs, its whitewashed tower glows in low overcast light; waves crash far below in spray of slate and white. Interior light is dim, wooden stairs creak, and the lamp room offers a panoramic, windscraped vista — ideal for quiet confrontations or intimate confessions set against the raw sea."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love versus Duty",
+        "Environmental Justice",
+        "Regeneration and Repair"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led resilience plan succeeds: Irene's development is restructured into a mixed plan that preserves critical marshland while creating sustainable jobs. Maya and Evan commit to each other after collaborating on successful pilot habitats. The town's spirit is renewed; the romance solidifies as a partnership in work and life."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise halts the worst of the harbor plans but requires some sacrifices (relocation of a few long-time homes, phased redevelopment). Maya achieves major environmental protections but loses some personal ground — she and Evan drift apart as he takes a job elsewhere to scale his designs. The town survives, but the relationship is a tender casualty."
+        },
+        {
+            "type": "Sad",
+            "summary": "The development proceeds largely as planned due to political maneuvering and short-term economic pressure. Marshes are leveled, and many residents are displaced. Maya is forced into exile organizing elsewhere; her relationship with Evan fractures under the weight of guilt and blame. The story ends with a warning: beauty and community can be erased when expediency overrides care."
+        },
+        {
+            "type": "True",
+            "summary": "A slow, rigorous truth emerges through grassroots science and public testimony: Irene's model worked economically but failed to account for tipping-point ecological feedbacks. Forced to reckon with evidence, Irene pivots — not out of surrender but pragmatic adaptation — to fund a large-scale hybrid solution. Maya and Irene reach an uneasy but respectful truce; romance with Evan deepens into a long-term partnership founded on mutual growth. The ending emphasizes structural change and moral complexity over tidy romance."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

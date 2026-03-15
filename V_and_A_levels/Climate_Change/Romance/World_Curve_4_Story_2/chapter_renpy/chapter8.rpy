@@ -1,0 +1,166 @@
+label chapter8:
+
+    # [Scene: Rooftop Garden | Morning — Hours after the Council Vote]
+
+    scene bg ch8_6b08b4_1 at full_bg
+    # play music "music_placeholder"  # [Music: Fast-paced percussion under tensioned strings]
+    # play sound "sfx_placeholder"  # [Sound: Distant sirens; gulls crying; the low hiss of rain on canvas]
+    "You wake to the decision still lodged behind your ribs — we will not stand idle; we will deploy temporary, reversible measures. The words are a bolster and a bruise. They sit between you and the city like a thin, trembling bridge."
+    "You move through the rooftop with a sense of purpose so sharp it tinges the edges of everything: maps rolled under an elbow, a checklist marked with a dozen names and times, the faint rustle of"
+    "seed packets in a pocket. Jonah is already here, sleeves rolled, jaw set; he hands you a coil of rope without a word and goes back to measuring walkways."
+    show jonah_mek at left:
+        zoom 0.7
+
+    jonah_mek "We don't have all night. Tide window's closing and the volunteers start shifting in twenty."
+    "You nod. Your fingers remember the grit of sandbags and the blade of cold tape measures. You're thinking in logistics — raised planks, quick-jack stilts under walkways, pump relay stations — but under every calculation something"
+    "else hums: the people who will sleep behind those sandbag lines, the elders who will refuse to leave, the gardens that grew out of your compromises."
+    show asha_reed at right:
+        zoom 0.7
+
+    asha_reed "Community crews are primed. We keep the chain of command local. No outside crews moving in without a vote."
+
+    "You reply, because you must hold both the science and the street" "Temporary measures, reversible oversight. We catalog everything, time-stamped, community auditors on the logs."
+    "Asha's mouth tightens. She doesn't smile. She doesn't need to. Her presence, raw and active, steers nervous volunteers into tidy, furious motion."
+    hide jonah_mek
+    hide asha_reed
+
+    scene bg ch8_6b08b4_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Thuds of sandbags, the slap of wooden planks, calls of coordination]
+
+    "You organize teams, your tablet buzzing with updated schematics. Elias texts from the Aster" "Kelp nurseries shipped. ETA dusk. How's Lower Quay?"
+
+    "You answer with logistics disguised as warmth" "We have pumps staged and two crews for walkways. Bring the kelp live if you can. We need the roots to take before the surge."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "On it. I'll be there tonight. Take a breath, Maya."
+    "You let yourself register the line — a small human tether. Then you step back into the work because there is no time to let worry become fear."
+
+    menu:
+        "Check the pump schedule with Jonah":
+            "You crouch beside Jonah, reading the hand-scribbled relay plan aloud. He corrects a swap you missed; you patch it into the tablet."
+        "Walk the south perimeter to inspect materials":
+            "You walk the perimeter, your boots splashing shallow puddles. A frayed tarp flaps loose; you tie it. The feeling of hands-on repair steadies you."
+
+    # --- merge ---
+    "Narrative continues."
+    # [Scene: Lower Quay | Afternoon — Mid-Deployment]
+    hide elias_voss
+
+    scene bg ch8_6b08b4_3 at full_bg
+    # play music "music_placeholder"  # [Music: Driving drums; brass accents under a taut string line]
+    # play sound "sfx_placeholder"  # [Sound: Creaking stilts, the distant thump of generator engines, children laughing nervously]
+    "The Lower Quay smells of salt, damp wood, coffee, and the iron tang of fear. The neighborhood moves like a breathing organism: elders handing out thermoses, toddlers shuttled along raised planks, Rosa Calder kneeling to tuck a seed packet back into a pocket."
+    show rosa_calder at left:
+        zoom 0.7
+
+    rosa_calder "We remember what you promised, Maya. Don't let the kids forget the seeds."
+
+    "You kneel to meet her at eye level, palms still smelling of packing twine. Her face folds into a map of stories; the weight of memory presses on you. You answer by naming practical things — pump cycles, sandbag anchor points — and letting your voice carry the intangible" "We catalog everything. We won't sign away control. This is to hold until we know better."
+    "Asha appears at the quay edge, clipboard in hand. She watches the lines being built, the community crews working in a rhythm she organized. There is a guarded softness in how she checks the logs — for her, oversight is protection, not control."
+    show asha_reed at right:
+        zoom 0.7
+
+    asha_reed "You're keeping the logs public, right? Photos, timestamps, volunteer rosters. No unilateral moves."
+    "You agree, though every nod is heavy with calculus: transparency is trust, trust is fragile, trust is what keeps people from feeling abandoned."
+
+    "Jonah shouts from the pump station, voice tight" "Relay three is good, but the backup's got a leak. We need that patch now or it goes dark."
+    "You move with Jonah, hands learning the metal language of valves and clamps. The community pumps are noisy, primitive, and human — churned by volunteers, patched with duct tape and ingenuity. You know these are temporary systems. They are also the only things between many houses and the sea."
+
+    menu:
+        "Stay and help patch Relay Three":
+            "Your fingers find the leak before Jonah's. He grunts and pulls a clamp; you tighten it together. Heat floods your neck, the work binding you tighter to the moment."
+        "Go to the southern sandbag line to reinforce with extra sacks":
+            "You haul a bag with a volunteer; the exertion blurs the ache in your shoulders. A child passes, eyes wide; you catch their small hand and steady them across a plank."
+
+    # --- merge ---
+    "Narrative continues."
+    # [Scene: Aster — Dusk / Deployment at Sea]
+    hide rosa_calder
+    hide asha_reed
+
+    scene bg ch8_6b08b4_4 at full_bg
+    # play music "music_placeholder"  # [Music: High strings and a single urgent piano motif]
+    # play sound "sfx_placeholder"  # [Sound: The thrum of engines, gulls louder now, the creak of the hull]
+    "On the Aster, Elias moves like someone who knows the water's language. He speaks to the crew in quick, technical bursts, then slows when he talks to you. The kelp nurseries — modular frames seeded with"
+    "juvenile fronds — look fragile in their plastic pots. They are tiny acts of hope."
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "If these take, they will blunt the swell, hold sediments. If they fail, well — we'll know something. We don't get certainty, but we get data."
+    "You stand beside him, the wind tugging at the collar of your jacket. The deck salt washes your boots. You want to say: be careful, don't push too far. Instead, you hand him a coil of"
+    "rope, fingers brushing his. The touch is brief, ordinary, the kind of contact that becomes a map for trust."
+
+    "Elias smiles, a little raw. He pulls you into a plan, then into a reprieve" "We test tonight. I won't push a prototype where it risks people."
+    "You look at him. The promise is half technical, half emotional. There is guilt folded into it — for the times technology failed and for the compromises you made before — and you let the guilt sit beside the hope."
+
+    elias_voss "Whatever happens, we do it together. No heroic runs."
+
+    "You answer with a stiffness that will later soften" "Together means community-first. We document everything. We pull if the data shows harm."
+    "He exhales like that relieves him. For a moment you let your guard drop, and he reaches, fingers uncertain, to brush a wet strand of hair from your temple. You don't step back. You don't step forward. You keep working while the intimacy quiets the roar for a breath."
+
+    menu:
+        "Take his hand, steady and sure":
+            "You take his hand. His grip is callused and warm. For a second a much smaller, quieter life opens — a bench, a quiet harbor, a thinned breath."
+        "Adjust a knot and step away to finish rigging":
+            "You adjust a knot, fingers expert on the line. Elias watches you work, grateful. The distance between you holds a gentle, practical kind of closeness."
+
+    # --- merge ---
+    "Narrative continues."
+    # [Scene: Lower Quay — Nightfall Turning Brutal]
+    hide elias_voss
+
+    scene bg ch8_6b08b4_5 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive chaos; stuttering strings, brass stabs]
+    # play sound "sfx_placeholder"  # [Sound: Winds screaming, the first hard slap of surf against improvised barriers]
+    "You return from the Aster with the kelp boxes lashed to pre-placed frames and a thinned hope in your chest. The community teams have anchored walkways, sandbags ring doorways, volunteers man the pumps in shifts. The"
+    "sense of momentum is raw and electric. But the bay doesn't wait for momentum to feel ready."
+
+    "A siren keens. The tide comes in early, a hard, slapping thing that tests every seam you've sewn. The pumps kick. They hum and then grind. One relay hiccups — a cough you had feared. Jonah's voice is a blade of sound" "Backup's down! Seal the intake! Move the floaters!"
+    "You run. You are everywhere at once — barking orders, shifting teams, slipping between the pump station and the sandbag line. The wind whips your hair into your eyes; rain stings like needles. Volunteers scream against the gust, one of them lifting a soaked infant above a plank."
+    "Asha is there, moving through the chaos not with fury now but with a precision that steadies others. She clamps a hand on a volunteer's shoulder, issues concise orders, and then seeks you out. She looks"
+    "at you, and now her expression is complicated: an appraisal, a question, a small, fierce approval."
+    show asha_reed at left:
+        zoom 0.7
+
+    asha_reed "Keep logs open! I need timestamps and names as things change. Rotate crews—no heroics!"
+    "You hear the moral fracture under every instruction: people will defy orders because their houses are their memories; tech will fail because it's human-made; the sea will always be louder. You also hear, threaded into the noise, the thing Asha offers: shared responsibility. She doesn't take control; she demands accountability."
+    "The kelp frames strain. Some nurseries flex and then hold — fronds clinging, roots gripping the cages. Others shear loose and slam against the pilings. You see the small bright joy of success in a child's"
+    "face as a frond unfurls; you see desperation in a fisherman's hands as his nets tangle in a torn frame. Mixed protection results unfold like a cruel ledger."
+    "At the pump bank, a sudden electrical pop throws one generator dark. Sparks kiss the rain. Jonah curses and yells for manual backup. Volunteers shout. You sprint for the manual crank you've kept near the relay, hands slick."
+    "Your breath is a rhythm: count, brace, rotate. The crank resists. The sandbag wall at the north cut groans. Water finds a seam. A child clutches a stuffed toy and watches the line sink."
+    "Elias appears at the quay, soaked and smelling of diesel and salt, breathless from wrestling a loose kelp frame. He finds you and stays — not to command, but to stand in the storm with you."
+    "The two of you are messy and tired and necessary to one another. You exchange quick, breathless directives and a look that says more than words can now afford."
+    show elias_voss at right:
+        zoom 0.7
+
+    elias_voss "Maya — the northern intake's fouled. We can divert flow, but it'll take two minutes to re-route and five to re-secure the tether. We risk losing the kelp nursery if we stop now."
+    "Your mind runs through the calculus: diverting power to save kelp might let a neighborhood flood. Keeping the pumps could mean losing the nurseries that can buy decades. Every option is a wound."
+    show jonah_mek at center:
+        zoom 0.7
+
+    jonah_mek "If we dump the load, Fountain Street goes under. If we keep it, we might keep Fountain, but the kelp cages break free and we lose the experiment."
+    "You can feel the city's breath condense into that instant. Volunteers look at you like you are the axis of everything. Asha's eyes find yours, sharp and complex. Elias waits, hand on your shoulder, solid as the hull of the Aster. Jonah wipes his face and braces for order."
+    "You have one moment to choose — to order the diversion, to hold the line, to risk the kelp, to risk the street. It is the kind of moral geometry that has no neat solution, only consequences. The rain hammers harder. A board pops loose underfoot. Somewhere, a baby wails."
+    "Your hand tightens on the radio. Your mouth forms words you could give a dozen different meanings. You see the broken and the possible in the same blink — the complaint lodged in your chest, the"
+    "ache of past compromises, and the fragile, stubborn hope you and the neighborhood have built together."
+    hide asha_reed
+    hide elias_voss
+    hide jonah_mek
+
+    scene bg ch8_6b08b4_6 at full_bg
+    # play music "music_placeholder"  # [Music: Full orchestra crescendo, then a sudden, held silence]
+    "You are about to speak."
+    # [Page-Turn Moment]
+    "The rain strips the world of color; everything is reduced to motion and sound and decision. For an instant, you are only the hinge. You can feel every person who has trusted you, every promise you've"
+    "made, every compromise you've kept — all balanced on the next syllable. You taste salt and iron and the clean metallic tang of responsibility. You do not know if the decision you are about to make"
+    "will be benevolent or culpable. You only know you must choose."
+    # play music "music_placeholder"  # [Music: Abrupt stop; a single sustained high violin note hangs in the air]
+
+    scene bg ch8_6b08b4_7 at full_bg
+
+    scene bg ch8_6b08b4_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter9
+    return

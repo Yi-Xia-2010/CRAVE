@@ -1,0 +1,299 @@
+label chapter38:
+
+    # [Scene: Nueva Mar Municipal Offices | Morning]
+
+    scene bg ch14_bd95da_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of voices, the clack of heels, a coffee machine sputtering in the distance]
+    # play music "music_placeholder"  # [Music: Tense, pulsing strings — a staccato undercurrent that refuses to settle]
+    "You come in carrying too many folders and too little sleep. The amendment sits in your bag like a small, sharp thing: binding governance, expanded community oversight, an independent board with seats for residents, municipal appointees,"
+    "and technical experts. It's a victory that tastes like metal and salt — necessary, imperfect, heavy."
+    "You inhale the municipal air: polished stone, cheap coffee, paper warmed by fluorescent lights. Everyone in the hallway is moving with purpose; people with decisiveness tucked into the angle of their shoulders, contractors who smell faintly"
+    "of diesel, aides whose smiles are paper-thin. The atrium feels like a pressure chamber. You feel pressure everywhere."
+
+    scene bg ch14_bd95da_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Paper rustling; distant, muffled argument from a meeting room]
+    # play music "music_placeholder"  # [Music: Quickened percussion — heartbeat-like]
+    show elias_kahn at left:
+        zoom 0.7
+
+    elias_kahn "You look like you haven't slept."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "You have no idea."
+    "Elias Kahn studies you — amber eyes narrowed, not unsympathetic, but official. He holds a tablet crowded with graphs and annotations. Somewhere between policy and people he has become a hinge, and the hinge creaks."
+
+    elias_kahn "They put clauses in about budget contingencies and audit windows. Mayor Velez wants quarterly reviews. Kai pushed for fast-track allowances if the models fail to hit benchmarks."
+
+    maya_corvin "Benchmarks that treat wetlands like checkboxes,' you say. The words are sharper than you meant. 'We didn't build communities out of line items."
+
+    elias_kahn "I know. I argued for more community stipends, for cultural preservation credits. They compromised. It isn't everything we wanted, Maya. But it's something."
+    "You can feel the gap widen in his jaw, the way he is measuring you against municipal timelines and the people he must persuade. There is love here, threaded through limestone and law, but also a ledger."
+    hide elias_kahn
+    hide maya_corvin
+
+    scene bg ch14_bd95da_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant phone shrieks; someone laughs too loudly; a child's voice echoes from a security monitor]
+    # play music "music_placeholder"  # [Music: Strings swell, then cut — silence filled with small, electric static]
+    show elias_kahn at left:
+        zoom 0.7
+
+    elias_kahn "Stay with me through the first board. Sit in on the procurement meetings. If I take the post, I can shepherd the amendments through from the inside."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "You already took it,"
+    "you say, not an accusation, only the fact."
+
+    maya_corvin "You accepted the job."
+
+    elias_kahn "I did. Because leaving it to chance — to Kai's timelines or corporate sway — would be worse. I can be there. I want to be there."
+    "You think of Lio's eyes when you told him; of Rafi standing with folded arms and dirt under his nails, and of neighborhoods that patch themselves together with prayer and plywood. You want to believe him. You also know how institutions eat good intentions and call the remains 'sustained policy.'"
+    hide elias_kahn
+    hide maya_corvin
+
+    scene bg ch14_bd95da_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft rasp of a brush on concrete]
+    # play music "music_placeholder"  # [Music: A single high note hangs like a question]
+    "Dr. Sima meets you at the elevator, an armful of printouts and a face like a person who has modeled seas and still keeps surprise in her eyes."
+    show dr_sima_raza at left:
+        zoom 0.7
+
+    dr_sima_raza "The models accept the new monitoring regime, but the error bands are wider than we hoped. If we reduce intervention, there's a higher variance in surge scenarios."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Meaning?"
+
+    dr_sima_raza "Meaning you bought time and adaptive space, not absolute certainty. We needed buffers — more funding, faster data pipelines. The city's budget window is tight. The independent board is a safeguard, but only if it's resourced."
+    "You press your thumb against the trefoil on your wrist, a private anchor. The board could become the conduit that channels corporate momentum into community care — or it could be an extra room where good intentions echo and die."
+
+    menu:
+        "Push for immediate mobile monitoring units to be deployed.":
+            "You step forward, voice bright with impatient certainty. Rafi's grin flashes across your mind—mobile units would mean rapid response, data in the hands of residents. Sima watches your mouth for the rest of the meeting, worry softened by a trace of admiration."
+        "Demand a funded enforcement clause with legal teeth instead.":
+            "You fold your arms and speak in slow, measured tones, calling for binding penalties if access is restricted. Elias's face tightens; he worries about political feasibility. Dr. Sima nods at the need for enforcement, but notes the legal process will slow rollout."
+
+    # --- merge ---
+    "..."
+    # [Scene: Corporate Seawall Construction Site | Midday]
+    hide dr_sima_raza
+    hide maya_corvin
+
+    scene bg ch14_bd95da_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Whir of compressors, metallic clanks, shouted orders]
+    # play music "music_placeholder"  # [Music: Percussive drums — urgent, unrelenting]
+    "You walk the site with Camila 'Kai' Navarro, boots crunching on gravel. She moves with the efficiency of someone who builds answers out of blueprints and timetables. Her face is the exact temperature of purpose."
+
+    "Camila 'Kai' Navarro" "We won't accelerate without oversight. Board oversight is fine — checks and balances keep projects honest."
+    show maya_corvin at left:
+        zoom 0.7
+
+    maya_corvin "And what about those small heritage pods on the promontory? The ones with the carved doors and the old names?"
+
+    "Camila 'Kai' Navarro" "We repurpose them into adaptive public spaces. They become community assets, not casualties of progress."
+    "Her voice is flat, but not unkind. The sentence is a promise wrapped in calculus: names appease the heart; concrete secures the future. You feel the edges of your softness being shaved away."
+
+    maya_corvin "Repurpose. That's corporate euphemism for 'change the meaning until it fits the plan.'"
+
+    "Camila 'Kai' Navarro" "Would you rather we demolish them to make the wall thicker? Because the alternative is losing everything in a fifty-year surge scenario."
+    "You flare, then clamp down. The exchange is sharp and necessary, a collision between moral geometry and pragmatic survival. There is resentment simmering under your ribs — for what is being traded, for the people who keep score in memories rather than municipal ledgers."
+    # play sound "sfx_placeholder"  # [Sound: A pile-driver thumps; somewhere a siren coughs and dies]
+    # play music "music_placeholder"  # [Music: Tension rises — strings dissonant, then a sudden stop]
+
+    "Camila 'Kai' Navarro" "There are designs that preserve more façade than demolition permits. We can carve out corridors for marshes that keep the city breathing."
+
+    maya_corvin "Designs that work on paper often fail when the tide comes. We need boots in the marsh, not just ornamental corridors."
+
+    "Camila 'Kai' Navarro" "I grew up next to a dock my grandmother kept. I don't like erasing things without giving them life. You'll have to trust me to keep those corridors real."
+    "You register the confession and file it under 'complicated.' Trust is not won in one site visit. It is taxed and repaid over years of watching agreements either breathe or crumple under pressure."
+    # [Scene: Rooftop Nursery & Green Lab | Late Afternoon]
+    hide maya_corvin
+
+    scene bg ch14_bd95da_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Bees, the murmur of conversation, a radio broadcasting a municipal update]
+    # play music "music_placeholder"  # [Music: A taut, hopeful violin line threaded with anxious tremolo]
+    "You arrive to find Rafi and Lio working fast, hands in soil. The nursery is raw with life. It smells of damp dirt and citrus; it smells like insistence."
+    show lio_corvin at left:
+        zoom 0.7
+
+    lio_corvin "We got a council grant for community-led monitoring. It's small, but it's something. I painted a QR code by the promontory so visitors can see the history."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "You painted that yourself?"
+    "Lio: (shrugs) 'Someone had to. People like tangible things. They come to murals and stay for conversations.'"
+    show rafi_odeh at center:
+        zoom 0.7
+
+    rafi_odeh "The board seat for community oversight — that's you, right? Well, not legally, but you represent us."
+
+    maya_corvin "I represent us when I'm in the room. I can't be everywhere."
+
+    rafi_odeh "Then make the room work for the people. Don't let them drown the neighborhood in paperwork until memory fades."
+    "You feel the nursery's optimism like a pressure point. Love here is literal: tending, watering, the small arithmetic of seed to harvest. It is also fragile — the first thing a flood will wash away. You"
+    "watch Lio tie a braid of shells into a seedling stake and realize how much of the neighborhood is held together by small, ceremonial acts."
+
+    menu:
+        "Call Elias now to press for immediate funds for community monitors.":
+            "You pull out your phone and almost dial. The thought of formal channels being marshaled to your needs comforts you. Elias picks up on the second ring; you trade terse, urgent words and schedule a midnight review. The relief is thin but present."
+        "Keep the meeting in the nursery — plan a public workshop to teach neighbors monitoring techniques.":
+            "You decide on the grassroots route. Lio nods, excited, already listing workshop names. Rafi claps you on the shoulder. It's slower, messier, but it roots the work in the people's hands."
+
+    # --- merge ---
+    "..."
+    # [Scene: Municipal Offices — Emergency Budget Session | Night]
+    hide lio_corvin
+    hide maya_corvin
+    hide rafi_odeh
+
+    scene bg ch14_bd95da_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Caffeinated conversation, the clack of keys, the scrape of chairs]
+    # play music "music_placeholder"  # [Music: A high-tension string pattern; drums like a countdown]
+    "The negotiations accelerate into a gauntlet. Officials in suits argue with contractors about procurement language. Community representatives — you among them — push for enforcement, for funding, for cultural credits. The air is thick with the smell of stale coffee and the metallic tang of urgency."
+    show elias_kahn at left:
+        zoom 0.7
+
+    elias_kahn "If we insist on heavy enforcement language, the mayor will have to pull funds from other social programs. We risk losing broader political support."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "Which social programs get cut? Parks? Food security? The things that make living here viable? We sacrifice the neighborhood's lifelines to secure a seawall that lumps 'community' into an accounting column."
+    "A council aide interjects, fingers fluttering across a tablet."
+
+    "Council Aide" "The budget is zero-sum. We can't increase municipal taxes without a referendum, and a referendum would delay construction by months."
+    "Camila 'Kai' Navarro, on a video feed, leans forward, her face sharp in the rectangle."
+
+    "Camila 'Kai' Navarro" "Delays cost lives. Every month of delay increases the risk of catastrophic breach during a high-surge event. Legal teeth are valuable, but they must be balanced with delivery. We can design oversight that doesn't immobilize operations."
+    "You and Camila 'Kai' Navarro lock eyes through the screen and the room becomes a pressure-cooker of competing urgencies: cultural survival, fiscal reality, engineering certainty."
+    "Dr. Sima folds her hands on the table."
+    show dr_sima_raza at center:
+        zoom 0.7
+
+    dr_sima_raza "There is no zero-risk option. Our models can give probabilities, not promises. We can reduce risk with redundancy — monitoring, adaptive corridors, community-funded restoration — but we cannot guarantee zero loss."
+    "You feel the floor drop away a little. The negative valence is a cold current now: grief at trade-offs, anxiety about what will be lost, sadness for irrevocable changes. Every argument is a tally of small deaths — a leaning porch, a painted doorway, a recipe book in a kitchen."
+    # play sound "sfx_placeholder"  # [Sound: A chair scrapes back sharply; someone breathes too loudly]
+    # play music "music_placeholder"  # [Music: Crescendo of strings — urgent, slicing]
+
+    elias_kahn "We can arrange a legally binding pilot — time-limited but with immediate funding for community oversight, enforceable transparency clauses, and an independent audit every quarter. If the audits fail to show compliance, we pause construction."
+
+    maya_corvin "Pause construction. Not forever. A pause that forces transparency."
+
+    "Camila 'Kai' Navarro (on screen, jaw tight)" "Pauses cost momentum. The contractors will increase bids. The city might face penalties."
+
+    elias_kahn "I'll shoulder the political cost. Mayor Velez agreed — conditionally. She'll take the heat if the pilot is framed as responsible stewardship."
+    "Your pulse is loud in your ears. The room compresses — time narrowed to the beat of your heart. You can smell sweat and fear and the lemon of hand sanitizer."
+    hide elias_kahn
+    hide maya_corvin
+    hide dr_sima_raza
+
+    scene bg ch14_bd95da_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A clock ticks in the corridor, each tick a small accusation]
+    # play music "music_placeholder"  # [Music: A relentless drumbeat — very high intensity]
+    "Rafi leans in, voice low and fierce."
+    show rafi_odeh at left:
+        zoom 0.7
+
+    rafi_odeh "If they tie our hands with legal jargon, we'll be buried under process. Make them put money where their mouths are."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "We make them put money where people's lives are."
+    "Elias Kahn reaches for your hand across the table. The contact is brief and deliberate — solidarity threaded with exhaustion."
+    show elias_kahn at center:
+        zoom 0.7
+
+    elias_kahn "We do this together. I will not let them paper over the neighborhood."
+    "You look at the amendment on the table: community seats, budget allocations, audit triggers, sunset clauses, repurposing language for heritage sites into 'adaptive public spaces.' The clauses read like compromise, an architecture of concession. The air tastes of salt and calculus."
+    # [Scene: Adaptive Public Space (Former Heritage Pods) | Evening]
+    hide rafi_odeh
+    hide maya_corvin
+    hide elias_kahn
+
+    scene bg ch14_bd95da_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low festival music — tentative; the ocean muttering beyond]
+    # play music "music_placeholder"  # [Music: Minor chord progression — elegiac, taut]
+    "The first repurposed heritage pod is unveiled tonight, a public ceremony framed by cameras. Your hands are stained with paint from the ribbon-cutting, your throat raw from speeches. The pod's tiles — once private thresholds —"
+    "are now benches and interpretive plaques. Lio stands beside you, hand in yours, a small, fierce anchor."
+    show lio_corvin at left:
+        zoom 0.7
+
+    lio_corvin "You saved the façade at least."
+    show maya_corvin at right:
+        zoom 0.7
+
+    maya_corvin "We saved a shape. The stories still have to be told."
+    "Camila 'Kai' Navarro appears in the crowd like a shadow you half-expected to see. She moves through the people with that same surgical grace."
+
+    "Camila 'Kai' Navarro" "You did well today. The adaptive design held under the mock surge tests."
+
+    maya_corvin "Mock surges. Real surges are the ones I can't simulate."
+
+    "Camila 'Kai' Navarro" "I'm sorry about the houses that had to be repurposed. It wasn't pleasant making that call."
+    "You want to throttle the apology, and you also want to accept that it is the first honest thing you've heard from her that didn't smell of PR."
+    "Elias Kahn arrives, worn but present. He joins the small circle around the pod, the three of you a crooked triangle between ideal and institution."
+    show elias_kahn at center:
+        zoom 0.7
+
+    elias_kahn "We got the independent board chartered. Funding streams approved, though marginal."
+
+    maya_corvin "Marginal is a bad word when you're up against a tide."
+
+    elias_kahn "It's a beginning. We can build safeguards into the procurement process. We can insist on community monitors in the field. We can keep the corridors real."
+    "Your chest tightens. The negative valence threads through every reassurance — the hidden costs, the losses repurposed into 'community assets,' the slow attrition of memory. But the energy around you is combustible: activists, municipal staff, contractors, neighbors — all pressed together like kindling."
+    # play sound "sfx_placeholder"  # [Sound: Distant thunder — not yet storm, but an omen]
+    # play music "music_placeholder"  # [Music: Climactic surge — all instruments converging into one very high, persistent note]
+    "You realize, in a sudden, piercing way, that the fight has not ended. It has shifted into a new shape: long hours of monitoring, legal audits, budget scrambles, community workshops, rooftop seedings, municipal meetings that run"
+    "into midnight. Love has changed too; with Elias in the municipal seat it becomes a shared stewardship threaded with compromise — less frontlines together, more shared strategies and late-night debriefs. Camila 'Kai' Navarro remains both antagonist"
+    "and ally, her efficiency corralled by legal constraints and occasional human connection."
+    "Dr. Sima touches your arm, honest and small."
+    hide lio_corvin
+    show dr_sima_raza at left:
+        zoom 0.7
+
+    dr_sima_raza "There will be surprises. Expect them. Plan for them. If we keep measuring, we can catch many of them early."
+
+    maya_corvin "Plan for them. Measure them. Then what? Keep measuring forever?"
+
+    dr_sima_raza "Stewardship is a long haul."
+    "The realization lands like a stone. Stewardship is not a climax and then rest; it is a grinding, sacred treadmill. The neighborhood will breathe and bruise and breathe again. You will keep organizing, keep measuring, keep loving — in a new rhythm that is equal parts patience and fury."
+    "Your adrenaline has been climbing all day. It feels like an engine that won't shut off. The very high arousal reaches fever-pitch: cameras flash, a council aide whispers an urgent legal rewording into Elias's ear, a"
+    "contractor's voice booms across a microphone about timelines, Lio's mural seems suddenly inadequate against the vastness of municipal machinery. Each event is a hammer blow. You feel every one."
+    hide maya_corvin
+    hide elias_kahn
+    hide dr_sima_raza
+
+    scene bg ch14_bd95da_10 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A sudden gust of wind, the early staccato of rain on canvas]
+    # play music "music_placeholder"  # [Music: A single, sustained, fraying violin note — the highest intensity yet]
+
+    "You stand at the edge of the adaptive space, drenched in the smell of salt and paint, and see the newly chartered board's name on the program" "Nueva Mar Resilience & Community Oversight Board."
+    "You know what the coming weeks will demand: enforcement clauses tested in court, audits that will be contested by contractors, neighborhood monitors trained and deployed, funds fought for and sometimes lost. You know the sacrifices: homes"
+    "repurposed, ossified memories reframed as public installations, the quiet grief of people who watch their streets change. You also know the commitments: funded oversight, legal recourse, a municipal seat held by someone who remembers the Low"
+    "Row's scents and songs."
+    "Your hand finds a sealed packet on a nearby table — the first quarterly audit schedule and the procurement clause addendum. Everything you worked for and against is folded into that packet."
+    "You breathe."
+    "The storm hits the promenade before you can read the whole thing — wind gusting, rain carving paths through the party tarp. People shout, laughter and anger braided together. You feel the current of urgency pull"
+    "at your ankles. This is the moment that asks for a stance you cannot postpone."
+
+    scene bg ch14_bd95da_11 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain increasing to a roar; a banner snaps like a whip]
+    # play music "music_placeholder"  # [Music: Percussion at its loudest — driving, relentless]
+    "You look up at Elias. His eyes are steady but exhausted. You look at Camila 'Kai' Navarro in the crowd; she meets your gaze with an unreadable look that might be respect or exhaustion. Lio squeezes your hand. Rafi stands rooted, palms clenched. Dr. Sima's mouth is set."
+    "Everything you have done funnels into this packet and into the night: governance that binds giants and neighbors alike, monitoring regimes that must be funded, heritage reimagined, and a promise that vigilance will be ongoing."
+    "You have to decide how loudly — and how forcefully — to push the neighborhood's story into the mechanisms you've helped create. The first board meeting is scheduled for next week. The audit schedule will begin. The procurement clauses will be finalized tomorrow morning."
+    "Your chest tightens as choices fold in on themselves like waves curling inward."
+
+    scene bg ch14_bd95da_12 at full_bg
+    # play music "music_placeholder"  # [Music: A final, unresolved chord — very high]
+    # [Page-Turn Moment]
+    "You place your palm over the sealed packet, feeling plastic, rain, the pressed edge of inked names. For a moment you can taste salt, coffee, paint, and the iron tang of decisions not yet made. The"
+    "city hums around you — urgent, flawed, alive. You listen to each voice in your head, each argument you traded in fluorescent rooms and under scaffolded skies. The next step will demand strategy, fury, compromise, and"
+    "endurance."
+    "You inhale. The decision waits."
+
+    scene bg ch14_bd95da_13 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter48
+    return

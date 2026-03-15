@@ -1,0 +1,214 @@
+label chapter11:
+
+    # [Scene: Skyward Market Rooftop Garden | Morning]
+
+    scene bg ch9_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Bright, hopeful strings with a steady percussion heartbeat]
+    # play sound "sfx_placeholder"  # [Sound: Low hum of pumps, distant gulls, vendors setting up]
+    "You stand with the potted cutting in the sling at your hip and the covenant folded in your palm. The market around you is waking: Sofia's stall rattles with the first clink of ceramic bowls, a"
+    "vendor laughs as steam rises from a coffee kettle, and someone tunes a small radio to a station that smells of old protest songs and new weather reports. The pilot goes live today. Everything you've negotiated,"
+    "written, and argued for sits in the balance like a fragile sprout waiting for rain."
+    "You taste salt on your tongue, and beneath it the iron-thin tang of nerves. Your fingers trace the covenant's margin where Hana penciled an annotation last night — a small, precise scrawl that felt like a"
+    "promise. Behind that ink are legal wrappings and the oversight weight you insisted upon. You think of Mayor Lila's call, of Jun's late-night sensor calibrations, and of Elias — how his jaw tightened the last time"
+    "he'd read the legalese. There is no unspooling those past knots here; there is only the present: the pumps, the sensors, the people."
+
+    scene bg ch9_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A soft squeak of boots on wet decking]
+    show hana_kim at left:
+        zoom 0.7
+
+    hana_kim "Good morning. Systems are green on my end. Flow rate's within secure parameters. How are you feeling about it?"
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "Tired and steady. Enough to do the work."
+
+    hana_kim "That's the operational sweet spot."
+    "Her voice is the cool clarity you've always trusted. There is a thin seam of something else — relief, maybe — under it. You note how her hands hover briefly over a grow-bed like she measures pressure in both tools and people."
+
+    asha_rivera "We tightened the oversight language. Community audits quarterly, escrowed maintenance funds, binding service-level guarantees. The mayor wanted 'locking mechanisms.' I gave her teeth."
+
+    hana_kim "Good. I wrote redundancy protocols. If Aegis tries to pull remote access, the fallback cascade isolates pumps and hands control back to local nodes. Jun's telemetry will flag anything that looks like tampering."
+
+    asha_rivera "And the local nodes—people know how to run them? We've scheduled trainings."
+
+    hana_kim "Jun starts today. Sofia and Teo are on the rotation roster."
+    "The conversation drifts into logistics: valve timing, pump torque, personnel shifts. It is practical talk that stitches policy to dirt. You watch Hana's hands shape the air when she describes a fail-safe; there is a tenderness"
+    "there — a technical affection. Your chest tightens, but the moment is for the work. For a long breath you let the clarity of shared competence settle."
+
+    menu:
+        "Reach for Hana's hand — a quick, grounding touch":
+            "Her fingers are cool and callused where she grips the wrench. For a moment the plan and the woman blur into one, and the knot in your stomach eases into a steady pull forward."
+        "Keep your hands on the covenant and start the checklist":
+            "You flip the page to the first item, voice clipped with focus. The checklist becomes your anchor; everything is spoken into motion."
+        "Offer a quick, formal nod and get to work":
+            "You nod with intent, a small ceremony that says 'we're partners in this.' It holds the moment open without naming it."
+
+    # --- merge ---
+    "The team moves from the greenhouse toward the pilot site."
+    hide hana_kim
+    hide asha_rivera
+
+    scene bg ch9_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Key clicks, quiet affirmations, a distant siren that dies away like a tide]
+    "You ride the elevator down to the pilot site with Hana and a small team. Mayor Lila texts a photo of a pressed lapel and says she's five minutes away. You feel the city's attention like"
+    "gravity. The pilot site emerges from the mist: modular desalination units humming, smart pumps seated like patient birds, a living seawall prototype unfurling its root-mat to the tide."
+    "Sofia waits by a community tank, apron damp, hair braided and threaded with seed packets. Elias Hart stands near the seawall modules, arms folded beneath a patchwork jacket. His expression is unreadable until you are close:"
+    "a pull of relief at the edges, a thin trace of suspicion under the surface. That face has held a hundred convictions; you cannot, and do not, try to parse more than the present."
+    show sofia_navarro at left:
+        zoom 0.7
+
+    sofia_navarro "You did it. The tanks don't smell like rust today."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We pushed for non-corrosive linings. Jun's samples said it made a difference."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "So now the city shows up with machines. How long until the corporation calls the shots? How long until they decide some neighborhood is 'unsustainable' and walks away?"
+
+    asha_rivera "They don't get to decide alone. The covenant defines governance. Maintenance cooperatives, community veto for any major alteration, public audits. We kept the mechanisms local."
+
+    elias_hart "And if the council flips? If public pressure changes?"
+
+    asha_rivera "Then we mobilize. The pilot is a tool — not the whole fight."
+    "The exchange stretches; you can hear the friction in Elias Hart's cadence soften, not because he has been convinced in full, but because you have named the constraints he feared. Dialogue here is not an ending but a careful negotiation of trust."
+    # play music "music_placeholder"  # [Music: A rise in strings; the rhythm quickens but holds warmth]
+    "Mayor Lila arrives, breathless and composed in her linen suit. Press and a handful of council aides trail behind her. She shakes your hand with practiced warmth, then turns to the small bank of cameras that have found the site."
+    hide sofia_navarro
+    show mayor_lila_ortega at left:
+        zoom 0.7
+
+    mayor_lila_ortega "Today we pilot not just technology, but partnership. This covenant binds the city and private resources to community oversight. I'm proud to stand here with the neighborhood as we show how governance can protect people without erasing them."
+
+    asha_rivera "This pilot isn't a final solution. It's a proof — of accountability, of maintenance, of community knowledge. If it works, it will be because we make it work together."
+    hide asha_rivera
+    show hana_kim at right:
+        zoom 0.7
+
+    hana_kim "Ready on my mark."
+    hide elias_hart
+    show asha_rivera at center:
+        zoom 0.7
+
+    asha_rivera "Now."
+    # play sound "sfx_placeholder"  # [Sound: The low click of activation; hydraulic sighs; a steadying hum as pumps spin up]
+    hide mayor_lila_ortega
+    hide hana_kim
+    hide asha_rivera
+
+    scene bg ch9_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Hopeful brass punctuating the strings]
+    "People around you exhale as the community tanks begin to fill with treated water. Children clap; a vendor tosses a handful of rice into a cooker as if to make the moment edible. Sofia squeezes your"
+    "shoulder. Mayor Lila lifts a pen and signs the public covenant in a crisp, ceremonial motion that signifies municipal backing. Cameras flash; someone livestreams the ribbon-cutting with a shaky hand."
+    "Elias Hart watches the pumps with his jaw loosened; his expression is complex and unreadable in the way people become when they let themselves feel relief without yet relinquishing the harder questions."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "If those valves stay community-run, I'll support this. For now, we need eyes on every service contract, and we need volunteers trained on that backup node."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We'll train them. Jun's curriculum starts this afternoon. Teo's mechanics will lead hands-on sessions."
+    show hana_kim at center:
+        zoom 0.7
+
+    hana_kim "And the codebase is open-source under a community license. I left access control to a distributed ledger Jun set up. No single exec can ghost the system."
+    hide elias_hart
+    show mayor_lila_ortega at left:
+        zoom 0.7
+
+    mayor_lila_ortega "We'll codify all of this in council resolution. The city will allocate matching maintenance funds if the pilot meets benchmarks."
+    hide asha_rivera
+    show sofia_navarro at right:
+        zoom 0.7
+
+    sofia_navarro "So the market gets water? For plants? For the kids?"
+    hide hana_kim
+    show asha_rivera at center:
+        zoom 0.7
+
+    asha_rivera "For all of us. For gardens, for drinking, for the pumps that keep streets from flooding as tides rise."
+    hide mayor_lila_ortega
+    show hana_kim at left:
+        zoom 0.7
+
+    hana_kim "It's not perfect. It never is. But it's better than waiting for someone else to decide."
+
+    menu:
+        "Ask to address the cameras — speak about community knowledge":
+            "You step closer to the mic. Your voice lifts, steady and honest, as you outline the trainings, the audits, and the role neighbors will play. Viewers comment in real time, some with gratitude, some with skeptical hearts; either way, the message lands."
+        "Invite Sofia to give a short testimony":
+            "Sofia takes the mic, voice bright and intimate. She speaks of seedlings and neighbors, of nights spent shoring up doors. The cameras catch a human scale beyond policy language, and the crowd leans in."
+        "Let Hana handle the technical spiel":
+            "Hana steps forward and explains the redundancy systems with calm clarity. The engineers in the crowd nod; some community members frown, but trust deepens where competence is visible."
+
+    # --- merge ---
+    "The ceremony winds down into evening; sensors and lanterns shift the scene to night."
+    hide sofia_navarro
+    hide asha_rivera
+    hide hana_kim
+
+    scene bg ch9_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft cheers; the distant roll of incoming tide; a child's laughter like a bell]
+    "Night slides down to the Skyward Market, where a small celebration gathers under strings of lanterns. Vendors pass around plates of citrus and grilled fish; someone sets a thermos of coffee near the pump control station."
+    "You sit on a crate next to the living seawall's exposed root-mat, fingers tangled in damp rope, and feel, for the first time in a long while, that the city's arc is bending toward care."
+    "Hana Kim sits across from you, eyes reflecting lamplight and the faint glow of her AR monocle. She pockets the device, closes it away as if setting aside the last of the formalities."
+    show hana_kim at left:
+        zoom 0.7
+
+    hana_kim "You held them to the covenant. You made them put teeth in it."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We both did. You wrote the fail-safes; Jun did the telemetry; Sofia is teaching the rotations. This is ours."
+
+    hana_kim "And yours? What did you give up to get this?"
+    "You look at the market, at the people who have turned up, at the seawall rooting into the tide. Compromise is a shape with many vertices. You traded a pure grassroots ideal for a hybrid that"
+    "buys time and agency. It is not a betrayal; it is a worn and necessary tool."
+
+    asha_rivera "I traded absolute control for a scaffold that keeps people safe. I'll take that trade."
+    "Elias Hart drifts near the lanterns and sets down a small hand-painted sign: 'Community Watch — Pump Duty.' He looks at you, and for an instant the old difficult-sweetness softens into something that might be forgiveness or might be a truce."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "Good work. Don't let them privatize our labor, though. Keep those trainings public."
+
+    asha_rivera "I won't. Not if I can help it."
+    hide hana_kim
+    hide asha_rivera
+    hide elias_hart
+
+    scene bg ch9_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Full strings resolving upward into a warm, steady chord]
+    "The mayor's announcement has rippled through council channels; by morning the resolution will carry weight. The pilot is only one module, one neighborhood, one set of pipes and promise — but it is also a precedent."
+    "Aegis signed a covenant that, by law and by practice, cannot unmoor the community's authority overnight. The city has, for now, learned to respect both expertise and the lived knowledge of those who live at water's"
+    "edge."
+    "You let yourself breathe into that possibility: people who once scavenged pump parts can now be hired as technicians; kids who once watched storms rage from upstairs windows will learn to read sensor readouts; elders who tend roof gardens will sit on oversight boards. The change is incremental but concrete."
+    "Sofia presses a small packet of seeds into your hand."
+    show sofia_navarro at left:
+        zoom 0.7
+
+    sofia_navarro "For the greenhouse's next bed. So it grows and we know we did this."
+    show asha_rivera at right:
+        zoom 0.7
+
+    asha_rivera "We'll plant them tomorrow, with Jun's students. And with you and Teo."
+    "Hana Kim reaches out and, with the ease of someone who understands systems and the unusual bravery it takes to trust them, tucks a long silver strand of her hair behind her ear. The gesture is"
+    "simple, the intimacy measured. You do not name what lies between you — not here, not yet — but you hold the warmth of it like a fuel cell for colder nights."
+    hide sofia_navarro
+    hide asha_rivera
+
+    scene bg ch9_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: The strings swell into a sustained, hopeful cadence]
+    "You stand, shoulders loosened by the day's work and by the city's small victory. Tonight, people sleep knowing their taps will run tomorrow and that there is a binding promise — legal, social, and practical —"
+    "to protect that flow. It is not a cure to the climate's long arc, but it is a model: hybrid, accountable, community-anchored. It is proof that compromise need not be erosion."
+    "You fold the covenant and tuck it into your jacket, feeling the weight of paper and promise. The market glows; the tide hums like a constant reminder that the work will never be finished. But tonight"
+    "you have a scaffold, neighbors who will hold it, and partners — imperfect, necessary — who will maintain it."
+    "You breathe in the wet-market air — salt, citrus, cooked fish, damp soil — and for once the scent does not brand itself with worry. It tastes like possibility."
+
+    scene bg ch9_f99e88_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

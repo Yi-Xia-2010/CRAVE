@@ -1,0 +1,330 @@
+label chapter12:
+
+    # [Scene: Council Hall | Morning — Months After the Vote]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low piano, sparse and measured]
+    "You sit in the chair you accepted months ago. The municipal lapel-pins flash on collars, cameras blink at the edges, and a line of investors stands like a small, polite tide behind iris-tinted glass. The guarantee"
+    "has arrived — not as a thunderclap but as paperwork the size of a cliff-face. It smells faintly of printer ink and wet leather."
+    "This is what you wanted: a plan that kept the marsh, that kept people in their houses, that built with the town and not on top of it. You remember the words you used in this"
+    "room, how you negotiated 'accountability' into the margins like a quiet vow. You thought vows could hold."
+    "Iris Varela's presence is a compact storm: composed, implacable, and honest in the ways that hurt. She sits across the table like a captain at the helm, her hands clasped so that you can see the"
+    "fine tremor of fatigue under the skin. She meets your eyes once — an unreadable look that still contains something like apology."
+
+    "Investor Spokesperson" "We're ready to sign contingent funding. With municipal oversight, we can begin staged deployment by the next cycle."
+    show mara_serrano at left:
+        zoom 0.7
+
+    mara_serrano "With oversight and audited emergency protocols. No overrides without council review."
+    show iris_varela at right:
+        zoom 0.7
+
+    iris_varela "And those clauses will be enforceable. I'll sit on the oversight council. I will answer for every deployment."
+    "There is a small, fragile agreement made of signatures and trust. You place your palm over the pen, steadying it as you sign. The sound of the nib across paper is unremarkable. Later, you will remember that sound as the last clear thing before the muddied tide."
+
+    menu:
+        "Squeeze Elias Park's hand under the table":
+            "You press Elias Park's fingers. He gives a little half-smile — the kind that is both relief and warning."
+        "Keep your hands folded on the paperwork":
+            "You keep your palms flat. The paper is cool and real under your skin, and you let the seriousness of the moment be your only gesture."
+
+    # --- merge ---
+    "Continue"
+
+    "Investor Spokesperson" "This hybrid model — modular supports plus marsh restoration — is innovative. We track metrics, we optimize, and you gain resilience."
+    "Nima, standing at the back with a tablet, offers a definite nod. Elias Park stands beside her, face lit with the practical optimism that once drew you to him. He leans close enough for you to hear, voice barely above paper-rustle."
+    show elias_park at center:
+        zoom 0.7
+
+    elias_park "It's what we've been trying for. Sensors, adaptive modules, living marsh edges... We can tune it in real time."
+
+    mara_serrano "We will have stipulations on where modules go. Community stewardship of the marsh remains nondisposable."
+
+    iris_varela "As do I,"
+    # [Scene: Green Prototype Site | Early Afternoon — Construction Begins]
+    hide mara_serrano
+    hide iris_varela
+    hide elias_park
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant engine hum, the metallic clank of a ring-bolt]
+    # play music "music_placeholder"  # [Music: Steady low strings, a cautious heartbeat]
+    "The site smells of wet steel and earth. Hands — yours included — are raw in a different sort of way now: not only callused from volunteer days but chalked with the residue of compromise. You"
+    "walk the line where marsh planters are being installed next to the first modular barrier. Volunteers and hired crews move in an awkward choreography."
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "Plant here. The root will catch the tide. The sea remembers where to sleep if we teach it."
+    "Murmurs of agreement. The plan is winding itself forward like new cordage."
+
+    menu:
+        "Kneel and press soil into the planter with your gloved hands":
+            "The mud clings to your gloves; it smells of rot and renewal. For a moment the effort is a piece of the promise."
+        "Stand at the edge and watch the machinery work":
+            "You keep your hands clean and watch how the machines rearrange the shoreline as if moving furniture in a house you grew up in. The sight is efficient and foreign."
+
+    # --- merge ---
+    "Continue"
+    "Weeks pass. The modular supports sit like pale ribs along the shore while marsh grasses push through engineered planters. Sensors blink green. The mid-season storm arrives — gray, hungry, prefigured by a long, dull swell. You brace as you always do, feeling the town's collective breath hitch."
+    # [Scene: Marsh Planters | Day of the Mid-Season Storm]
+    hide abuela_rosa
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind hiss, rain on fabric, the muffled thud of waves]
+    # play music "music_placeholder"  # [Music: Low sustained notes, a chord that feels like holding]
+    "This time, the hybrid plan flexes the way you hoped. Water climbs but does not claw. Mudflows are reorganized, not swallowed. The sensors send clean reports. People clap. The Marketboard strings the battered lights back on."
+    "For a few warm, brittle hours, your heart unclenches. Hope blooms thin as salt on the air."
+    show mateo_reyes at left:
+        zoom 0.7
+
+    mateo_reyes "I'll be damned. It did what it was supposed to do."
+    show mara_serrano at right:
+        zoom 0.7
+
+    mara_serrano "It did. For now."
+    "Elias Park finds you later, rain-sheened and exhilarated as only engineers after a successful test can be. He intends to translate numbers into certainty."
+    show elias_park at center:
+        zoom 0.7
+
+    elias_park "See? The data corroborates field reports. This is scaleable."
+
+    mara_serrano "Scaleable under what constraints? Under whose authority?"
+    "His smile falters. He always saw the world as an equation you could balance. The question makes the numbers wobble."
+
+    elias_park "We designed the oversight clauses together. Iris Varela sits with the council. We —"
+
+    mara_serrano "We wrote promises on water, Elias Park. Promises can be washed away."
+    "There is something patient and guilty behind his eyes, like sunlight trying to get through a cloud. You want to be kinder. You also want to be vigilant."
+    # [Scene: Council Hall | Late — Months Later]
+    hide mateo_reyes
+    hide mara_serrano
+    hide elias_park
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Single piano notes, slower now, colder]
+    "Time slackens around the small things that betray larger truths. You reread the contract during a night you cannot sleep. The line you thought you had anchored — the accountability clause — is there, but in"
+    "the recessed language of legalese you find the thing that will not have been meant to be found."
+    "Buried in the emergency protocols, a phrase sits like corroded iron: expedited emergency powers. In declared crisis, municipal oversight may be 'temporarily suspended' to enable rapid deployment under investor-approved protocols."
+    "You read it three times. Each reading narrows your breath."
+    show mara_serrano at left:
+        zoom 0.7
+
+    mara_serrano "Temporary suspension... what does 'temporary' mean when a 'crisis' is defined by those holding the keys?"
+    "There is no pleasant answer. The clause reads like a map with a red line erasing the places you thought were safe."
+    # play sound "sfx_placeholder"  # [Sound: Low rumble — a night that feels like approaching weather]
+    # play music "music_placeholder"  # [Music: Subtle, relentless low thrum]
+    "You carry the clause to Iris Varela the next morning. The municipal office is washed in the pale, indifferent light of routine decision-making. She listens without expression, then opens the folder with the same smooth motion she signs policy."
+    show iris_varela at right:
+        zoom 0.7
+
+    iris_varela "You saw the language."
+
+    mara_serrano "Iris Varela. This gives emergency powers external reach. It allows the override."
+
+    iris_varela "The clause existed so the fund's disbursement could be guaranteed without indefinite legal limbo. It gives us access to resources when there isn't time."
+
+    mara_serrano "And who decides 'there isn't time'?"
+    "She meets your eyes the way ships graze each other in fog: close enough to feel the other's motion, aware of the danger."
+
+    iris_varela "My office. In a declared emergency, the municipal executive can authorize rapid deployment. I will answer for it."
+    "There is steel beneath the apology. You understand all the reasons; the syllables of loss she's tried to avoid repeating. But you also feel the gentle slide from accountable person to accountable power."
+    # [Scene: Construction Sites & Marsh Planters | The Severe Storm — Six Months Later]
+    hide mara_serrano
+    hide iris_varela
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Wind like a conveyor belt, distant sirens, the ragged shout of workers]
+    # play music "music_placeholder"  # [Music: Steady minor chord, mid-tempo — the intensity is constant, not wild]
+    "The storm does not arrive as a flash but as a slow, inexorable pressure. People move with focused efficiency. The sensors are active; the modules brace. The marsh tries to hold."
+    "Then the declaration comes through — a municipal emergency, clause invoked. The room that handles such pronouncements feels smaller somehow, stacked with paper and the weight of decisions. You stand in the doorway watching the gears you greased with so much care begin to turn without you."
+    "Iris Varela's voice carries across the room, official, final."
+    show iris_varela at left:
+        zoom 0.7
+
+    iris_varela "By authority of the emergency clause as signed and ratified, I am authorizing a rapid deployment to secure critical infrastructure. All other local activities that impede this operation will be suspended."
+    "You feel a small photograph-sharp pain. The clause has teeth, and they were meant for a future someone told you about."
+    show mara_serrano at right:
+        zoom 0.7
+
+    mara_serrano "Iris Varela, that includes volunteer restorations and the east-side households who rely on them. They will be cut off if you move the staging here."
+
+    iris_varela "Temporary relocations ensure safety. Some hardships are unavoidable."
+    "Elias Park pushes through the crowd then, breathless, face wet from rain and something else. His voice is raw."
+    show elias_park at center:
+        zoom 0.7
+
+    elias_park "We can coordinate. The sensors — we can prioritize sites without bulldozing volunteer areas."
+
+    iris_varela "We need speed. This deployment minimizes lives at risk."
+
+    elias_park "There are alternatives. We can stage, not erase."
+
+    iris_varela "There is no time for staged compromise. I'm authorizing deployment now."
+    "You watch the municipal stamp fall like a gavel. From that moment, the machinery of swift power moves, and community labor — months of hand-sewn stewardship — is treated like an interference."
+    # play sound "sfx_placeholder"  # [Sound: A dull, mechanical tearing; the whine of winches bringing in heavy panels]
+    # play music "music_placeholder"  # [Music: A low, sustained note that refuses to resolve]
+    "The deployment is efficient, brutal in its practicality. Machinery moves into places where hands once planted reeds. A narrow cove — where Abuela Rosa used to walk with a basket and where the Marketboard's oldest stall"
+    "stood like a little island of traded memory — is excavated to make way for an anchoring foundation. The stall is dismantled in two hours."
+    hide iris_varela
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "They took the shelf where Rosa used to sell tamales."
+    hide mara_serrano
+    show mateo_reyes at right:
+        zoom 0.7
+
+    mateo_reyes "They didn't ask."
+    "Neighbors are relocated with polite, corporate accommodation. Sheets of plastic are handed out with list numbers. The evacuations are efficient. The heart of the town — the place where birthdays were announced and where you once"
+    "tied fishing nets — is reconfigured into a structure that will keep water out but will also keep people from meeting each other the way they used to."
+    hide elias_park
+    show mara_serrano at center:
+        zoom 0.7
+
+    mara_serrano "We built this future with our hands. Now parts of it are being taken away under the name of saving those same hands."
+    "Elias Park stands near you, rain soaking the collar of his vest. When he speaks, he does not look at Iris Varela or the investors; he looks at the ground as if reading a calculus he cannot solve."
+    hide abuela_rosa
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "I didn't know the clause would be used like this."
+
+    mara_serrano "You helped craft the plan. You helped sign it."
+
+    elias_park "I thought oversight would hold. I thought—' He stops. His hands tremble. 'I thought we could argue in time."
+
+    mara_serrano "Time, Elias Park, is what they have hijacked."
+    "He reaches for you and withdraws, uncertain how to bridge the widening crook of policy and person."
+
+    elias_park "We can rebuild the bridges afterward. We can fight for restitution."
+    "Mara Serrano [internal]: The word 'afterward' is a brackish thing. Rebuilding is not the same as remembrance."
+    # [Scene: Marketboard — Aftermath]
+    hide mateo_reyes
+    hide mara_serrano
+    hide elias_park
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull's plaint, the drip of rain, distant hammers settling into ritual]
+    # play music "music_placeholder"  # [Music: A slow cello, low and mournful]
+    "You walk the Marketboard the next morning. The market feels spatially correct but emotionally amputated. Stalls are farther apart. There is a new, sterile edge to the walkways where community used to gather like a rug on the floor of the shore."
+    "Abuela Rosa folds a handkerchief into a small bundle and hands it to you without meeting your eyes."
+    show abuela_rosa at left:
+        zoom 0.7
+
+    abuela_rosa "They kept us breathing, niña. They kept the roofs. But they took the place where we sing."
+    "You hold the handkerchief. Salt from your own eyes mixes with the salt on your lips."
+    show elias_park at right:
+        zoom 0.7
+
+    elias_park "I believed tech could be kind. I still do. But I didn't mean for kindness to become a lever to erase people."
+    show mara_serrano at center:
+        zoom 0.7
+
+    mara_serrano "You wrote algorithms for sensors. You didn't write the human line items in the contracts."
+
+    elias_park "I tried to translate human voices into data. I failed to hear some of them clearly."
+
+    mara_serrano "Did you ever think the people who would be most hurt would be the ones who gave their labor for this? The ones who taught us the marsh's language?"
+
+    elias_park "I thought the modules would protect them. I thought oversight meant we could keep it local."
+
+    mara_serrano "Oversight was a phrase. It became a door with a lock we didn't notice."
+
+    elias_park "I can't undo what happened. I can only try to be present for what comes next."
+
+    mara_serrano "Presence helps. But presence doesn't rebuild what was stolen."
+
+    elias_park "Then we'll build something else, together."
+    "Mara Serrano [internal]: The proposition is sincere and small, but sincerity is not a substitute for trust already fractured by the arc of power. You want to lean into comfort. You also want the town to be whole."
+
+    mara_serrano "I don't know if 'together' is the same as before. Not yet."
+
+    elias_park "Then we start from 'not yet.'"
+
+    mara_serrano "We'll mourn, Elias Park. Then we'll work."
+    "He nods, as if agreement were a rescue. Both of you know the road will be long and the fractures deep."
+    # [Scene: Council Hall | Evening — A Small Hearing After the Deployment]
+    hide abuela_rosa
+    hide elias_park
+    hide mara_serrano
+
+    scene bg ch12_f99e88_7 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse strings, settling into resignation]
+    "You stand at the podium and speak to the council and the cameras. Your voice is steady but thin with exhaustion. You list the losses and the gains in equal measures — a ledger of lives and structures."
+    show mara_serrano at left:
+        zoom 0.7
+
+    mara_serrano "The hybrid protected structures this storm. We would have lost far more without it. But we must also account for cultural loss, for the forced relocations, for the places that were removed without meaningful consultation."
+    show iris_varela at right:
+        zoom 0.7
+
+    iris_varela "We acted to save lives. I stand by that."
+
+    mara_serrano "We need new protocols. We need restitution funds to rebuild community spaces. We need binding language that protects stewardship projects from being treated as interference in future emergencies."
+
+    iris_varela "We will amend the protocols."
+    "Mara Serrano [internal]: You want to believe her. You also recall the clause: the legal hinge that allowed the override. Amending protocols when the same clause remains is like repainting a door that can still be shut without a key."
+    # play sound "sfx_placeholder"  # [Sound: Paper shuffling; the low murmur of the room]
+    # play music "music_placeholder"  # [Music: The chord lifts a half-step, unresolved]
+    "Abuela Rosa stands and walks to the microphone. Her voice does not tremble."
+    show abuela_rosa at center:
+        zoom 0.7
+
+    abuela_rosa "We are alive. We can praise that. But do not let saving the body cost the remembering of who we are. If we lose that, what is there to save?"
+    "The room is silent in the way of a held breath. You feel the weight of the community in that pause—grief threaded with stubborn gratitude. The town is whole in a biological sense, but something in its cultural architecture has been dismantled."
+    "Mara Serrano [internal, decisive, sorrowful]: You accept the truth in both directions: life preserved; history diminished. Safety has been purchased with a cost that will linger in the small, human things."
+    # [Final Scene: Council Hall — Night]
+    hide mara_serrano
+    hide iris_varela
+    hide abuela_rosa
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Low piano, a single note that repeats and decays]
+    "Elias Park finds you on the terrace. He holds two cups of bitter coffee. He offers one. You accept."
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "I don't know if we can fix everything. I don't know if we will always stand on the same side."
+    show mara_serrano at right:
+        zoom 0.7
+
+    mara_serrano "Maybe we won't. I don't want to be someone who compromises the town's soul without it being earned."
+
+    elias_park "I don't want that either. I want to be your partner — in rebuilding, in accountability. If you'll let me try."
+    "You look at him. The man who believes in engineering as kindness looks back with an honesty that aches. You know the ache of wanting to be both right and loving; the tug-of-war between public duty and private tenderness."
+
+    mara_serrano "Love won't be an eraser. It won't make wrongs disappear."
+
+    elias_park "I know. I can only offer—"
+
+    mara_serrano "You can offer to listen. To rebuild with us, not over us."
+
+    elias_park "I'll try."
+    "Mara Serrano [internal]: The promise is not a solution. It is a vow to continue in the small, necessary ways. You will not forgive everything because forgiveness is not owed on command. You will, perhaps, allow for rebuilding, for labor that honors what was lost."
+    "You stand together and watch the tide. The storm has passed. The town will stand — but altered. Some neighborhoods will carry the mark of forced relocation. A beloved stall is gone. The marsh survives in"
+    "places and is replaced by engineered edges in others. Safety exists in a geometry that took more than was offered in return."
+    "Abuela Rosa comes to stand a little apart, watching the same dark water."
+    show abuela_rosa at center:
+        zoom 0.7
+
+    abuela_rosa "We are still here. We will tell the stories of what we lost. We will remember."
+
+    mara_serrano "Remembering is a form of resistance."
+
+    abuela_rosa "And a form of care."
+    "You breathe in salt and diesel and a faint scent of burned sugar from a stall-turned-ruins. The town hums around you — alive, changed, compromised. The knowledge settles like a tide-line on your spirit: you did"
+    "what you could in the terms available. You took a seat at a table where power could be wielded efficiently; your measure of accountability limited some harm but could not prevent the institutionalization of unilateral authority."
+    "Mara Serrano [internal, final]: You have kept people from drowning. You have not kept them from the loss of something quieter, but no less crucial: meeting places, shared markets, the crooked bench where two generations held hands and swapped news. You hold both facts like an anchor and a scar."
+    "Elias Park turns to you, eyes hollow with regret but sincere in their attempt at partnership. The two of you stand at the edge of what was and what will have to be rebuilt — not just walls and marshes, but trust and communal memory."
+    "You let the cold air and the steady slap of distant waves be the last thing you feel before you walk back into the hall. There is work to do that isn't engineering. There is mourning to be tended that is not policy."
+    hide elias_park
+    hide mara_serrano
+    hide abuela_rosa
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: Slowly fades to a single sustained note, then silence]
+
+    scene bg ch12_f99e88_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

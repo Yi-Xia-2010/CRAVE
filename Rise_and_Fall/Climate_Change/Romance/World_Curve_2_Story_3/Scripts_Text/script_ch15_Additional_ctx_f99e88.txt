@@ -1,0 +1,156 @@
+### SCRIPT
+# Route: Additional
+# Context: f99e88
+
+[Scene: Tidewatch Lab | Morning]
+[Visual: North-facing windows streaked with rain; charts pinned in a tighter, more obsessive grid than before]
+[Music: Sparse piano, slow and uneven; a distant, steady hum of refrigeration]
+[Sound: Distant truck engines; the slap of paper against glass in the breeze]
+
+You wake to a silence that tastes like waiting — the kind that has a rhythm of its own and a meter you can count on. Your notes are stacked where you left them; the models blink quietly on the tablet like patient witnesses. The inbox has two new threads: one from the external peer you sent the data to, confirming review, and another from council staff noting that funding will be withheld until the review completes. The word withheld sits in your head like something small and hard.
+
+You know what "withheld" will do in practice. It slows the grant money, delays contracts, turns plans into promises. It also buys time for the truth to be tested. For a moment you let both realities meet: the relief that scientific rigor might prevent a worse outcome, and the immediate scar of a town that needs visible defense now.
+
+You can feel Luca's presence already, even before he opens the door — the way the lab breathes faster when he comes in. He steps inside with salt on his jacket, eyes wide, a courier's breath of diesel and optimism.
+
+Luca Moreno: "They redirected the crews before dawn. The developer's crews — armored rigs, contractors with badges — they're building that emergency wall on the promenade. It's flashy, Isla. People are lining up to watch. They think it's security."
+
+Isla Morgan: "You think I wanted to stall, Luca?" (Your voice is steady but small; you catch the edge of your own guilt in it.) "Peer review isn't stalling — it's protection against a decision that could make erosion worse."
+
+Luca Moreno: "Protection doesn't bail out a flooded house." (He runs a hand through his hair, impatient.) "We told people a community plan would keep them safe. They waited. And now anyone who can drive a rig is putting concrete where it looks dramatic."
+
+Isla Morgan: "And if the concrete makes the next high tide smash that promenade like a knife through paper? We hand them an illusion, not resilience." (You lay a finger on a map, tracing the channels where the breakwaters should spread energy gradually.) "I'm trying to keep the evidence and the community from being pitted against each other."
+
+Luca Moreno: "You're keeping them from action." (He leans closer, words quick.) "I can't convince people to hold until a paper is finished. They want to see something — anything — that says they'll still have a home."
+
+Isla Morgan: "We are doing actions. The living breakwaters aren't glamorous; they take coordination and time. But rushing the wrong fix will make everything worse."
+
+Luca's jaw tightens; for a second he looks younger than he is, fed up with the world’s slowness.
+
+Luca Moreno: "So what do you want me to do? Write them postcards? Organize candle vigils?"
+
+You and Luca circle each other on the floor of the lab like two birds on a single wire. You both know there are no perfect answers, only tradeoffs whose costs will be paid by someone.
+
+[INTERACTION]
+> Choice A: "Call the foremen and try to re-route crews"
+> Choice B: "Go to the Salt Flats with Luca to show people the consequences"
+[Outcome A: "You find the number, your thumb hovering over the screen. You force the call, your voice practiced and persuasive, but the foreman tells you the contracts were reassigned. Money overrides pleas. You hang up with your mouth tasting like rust."]
+[Outcome B: "You grab your waterproof and Luca's handfalls into place beside you. At the flats you stand in the wind and show the models to anyone who will look — your words carve shapes into the air but they are small against the machinery's clatter. You leave a few more doubters than you expected; you also leave a growing line of people who will not forget what you said."]
+[MERGE: You choose neither conclusively; both choices feel like small stitches. The rain thickens outside.]
+
+[Scene: Salt Flats | Afternoon]
+[Visual: Heavy machinery tracks across ochre marsh; reeds splayed like discarded brushes]
+[Music: Low brass with an insistent metallic rhythm]
+[Sound: Diesel engines, the distant clang of pile-driving, gulls crying above]
+
+The developer's emergency fortifications rise in regimented rows along the promenade — tall, smooth sections of concrete that gleam in the wet. They are efficient at a glance: shiny, photograph-ready, and positioned where a camera will capture their defiance against the sea. Where you had planned staggered, permeable reefs to slow waves and feed habitats, the developer placed a straight, impermeable line that will likely redirect erosive force elsewhere.
+
+You stand on the flats and watch as a foreman points at your maps with a glove that smells of oil. Luca has gathered a ring of young volunteers and a handful of elders who remember the old channels. The crew works where the money tells them to, and you can feel the living breakwater project losing time with each lifted girder.
+
+You walk up to the foreman; he looks at you like a problem solved.
+
+Isla Morgan: "You're redirecting the crews from the reed-bed arrays. Those arrays diffuse the energy — the straight wall will concentrate wave force at the headlands."
+
+Foreman: (shrugging) "I don't pick the spots, miss. I build what I'm paid to. If the council wants a different plan, they can pay us for it."
+
+Luca Moreno: (to the gathered crowd) "This isn't about aesthetics. If we let them bank on spectacles, they'll promise jobs today and sell our shoreline tomorrow."
+
+A woman near you — a homeowner — folds her wet coat tighter, eyes shiny.
+
+Homeowner: "You two have been arguing for months. We need our roofs to stay put."
+
+You feel the guilt spike like cold. You want to tell her that the living systems can keep roofs intact in the long run — but you also know "long run" doesn't help a single shattered mattress.
+
+[INTERACTION]
+> Choice A: "Offer to help shore a neighbor's foundation tonight"
+> Choice B: "Return to the Tidewatch Lab to protect the data and coordinate remotely"
+[Outcome A: "You move through the crowd with sacks of sand and a borrowed pump. You and Luca and half a dozen volunteers patch what you can with your hands and sweat. For a brief, luminous hour you are enough."]
+[Outcome B: "You let Luca carry the field work. Back at the lab you shore up files, encrypt transmissions, and write an emergency brief for the external reviewer. The work feels necessary and cold; it does not soothe the homeowner with the wet coat."]
+
+[Scene: Greyhaven Harbor | Nightfall]
+[Visual: Waves are teeth at the seawall; rain lashes horizontal; promenade lamps blink and die]
+[Music: Percussive drums, wind-voice choir, a low, seismic bass]
+[Sound: Splintering wood, the howl of wind, distant alarms]
+
+The storm is a thing that smells of iron and cold. The developer's wall takes the first batter; for a while it holds a bruised sky back. Then the sea, cunning and patient, finds seams where concrete meets sand. Where your living reefs should have absorbed and dispersed, there are sudden surges that vault over. The promenade floods. Houses low on the shore take on water fast. The harbour looks like a field of dark furniture being rearranged.
+
+Luca runs like a man trying to stem a dam with his hands — he drags hoses, shouts over the wind, organizes human chains. Volunteers form lines to haul sandbags; but contractors are elsewhere, finishing public-facing fortifications and not the subtle, distributed defenses the town needs.
+
+You find Jonah in the doorway of his cottage, rain beating on his wool cap, his hands raw with work. He looks smaller tonight, as if the storm has not only wet his coat but folded something inside him.
+
+Jonah Merrick: (breathing hard) "Isla." (He lifts a hand; the voice is thinner.) "You shouldn't be out in this."
+
+Isla Morgan: "I can't sit inside while the flats are being stripped." (You take the end of a rope he offers.) "We need to keep the boats from being ripped."
+
+Jonah Merrick: (laughs, then coughs) "Boats... my bones remember the ways the sea speaks. This one... she speaks meaner than I like." (He studies your face.) "You did what you could, island-girl. Don't let them tell you different."
+
+Isla Morgan: "We could've done more. If I had signed —"
+
+Jonah Merrick: (cuts in, voice like sea glass) "Signing won't hold a roof when the tide wants a bed." (He taps his chest.) "It's just that... someone has to hold the truth when the water takes the rest."
+
+Your hands shake as you pull at a window board. You think of the peer review, of the withheld funding, of the hours spent arguing about models. You also think of the woman with the wet coat who will wake to soaked mattresses.
+
+Luca finds you by Jonah. His face is a map of defeat.
+
+Luca Moreno: "They paid for the flashy pieces with the same money that was meant for community work. Contracts, Isla. They moved the money to win hearts. I wasted three days getting people to the flats while they were ripping the ground under our feet."
+
+Isla Morgan: "You did everything you could out there. You rallied people."
+
+Luca Moreno: "And you withheld the hand that could've pushed them to vote differently." (His voice breaks.) "You told me time and again that evidence matters. I believed you. But evidence doesn't bail out a flooded home."
+
+Isla Morgan: "I wanted to protect us from a fix that would make things worse. If I had signed without peer review and we'd been wrong..." (The possibility is a cold animal under your ribs.) "I couldn't live with that in my head."
+
+Luca Moreno: "You already have to live with what happened." (He turns away, throat hard.) "I can't stay in a town where the people I love are drowning while we argue over footnotes."
+
+Isla Morgan: "So you're leaving?"
+
+Luca Moreno: (looks back, eyes rimmed with salt and something like apology) "I can take the system that listens to action and scale things where people will actually build them. Maybe I can save other towns. Maybe — maybe that will be enough." (He folds his hands around something invisible.) "I promised I'd stay. I'm sorry, Isla."
+
+Luca's voice is small under the storm. Between you is a ledger of blame neither of you truly wants to balance. He tugs his wet jacket tight and walks toward the quay, toward a van waiting for volunteers heading to other regions. His red bandana, soaked, is knotted to his wrist; it flutters like a reluctant flag.
+
+You try to call after him — words like mortar forced into a wall of wind. He doesn't turn. He steps into the van with the tools he can carry and the hope that action elsewhere will not be bound by the compromises that tied Greyhaven in knots.
+
+[Scene: Tidewatch Lab | Dawn]
+[Visual: Broken blinds, salt crust on surfaces, a single lamp still burning over a spread of maps]
+[Music: Distant, resigned strings; a low, repeating motif]
+[Sound: Drip of water, the creak of settling timber]
+
+The town is quieter than you expected. Silence now has the weight of absence: empty chairs at the diner, fishing nets tangled and ruined, boats listing like tired animals. The lab smells of mildew and old paper. You set down a steaming thermos, but the heat does little to the cold in the room.
+
+Jonah's cough has worsened; he rests in the lab for a while, propped against a stool, wrapped in a borrowed blanket. He hands you an old, blunt fishhook as if passing on a secret.
+
+Jonah Merrick: (voice thin, but steady) "You know the sea's work, lass. It doesn't hate us — it only does what it does. We argue about what that means."
+
+Isla Morgan: "We tried. We tried to be careful."
+
+Jonah Merrick: "Careful sometimes reads as slow. And slow sometimes gets punished." (He looks at you, eyes honest.) "But don't let their anger make you smaller. Hold what you know. Build from there."
+
+You sit and catalog: names of houses damaged, GPS markers of where reefs were crushed, a list of fisheries reporting losses. Each entry is a small ceremony — a ledger of what was taken, a record so the town can later demand something like justice. The work is precise and numbingly necessary.
+
+You think of Luca in that departing van, of the sharpness in his voice as he left. You think of Aria's face in town meetings — complex, unreadable — and how the developer's money can rearrange priorities like a tide rearranges sand. You think of all the people who accepted quick fixes because the future was a distant cost they could not afford.
+
+There are phone calls to make, reports to compile, and testimonies to gather. You will spend nights with raw data and days with soaked-out maps. You will be accused of stubbornness and praised for truth. Both stings will shape you.
+
+You place a pen across a page. There is no dramatic vindication. There is only the small, endless work of naming what happened and keeping the record honest.
+
+[Visual: Close-up of your hand writing a list; ink blurs in a drop of saltwater]
+[Music: A single piano note sustained and then allowed to fade]
+
+You close your eyes and feel a long, low ache settle into your ribs — not the kind that heals, but the kind that reshapes you. It is a wound without a scar; it will change how you move in the world, how you argue, how you love. You will hold the truth of the data like a smoldering coal — dangerous, useful, and impossible to forget.
+
+You are left to catalog the losses and carry forward a truth that feels like a wound that never scars.
+
+[Visual: The camera pulls back from the lab window to the waterline, grey and indifferent]
+[Music: Fade to a thin, unresolved chord]
+[Sound: One gull cries once, and then the scene holds]
+
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

@@ -1,0 +1,242 @@
+label chapter15:
+
+    # [Scene: Promenade | Dawn, hours after the storm]
+
+    scene bg ch15_771f04_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low, persistent groan of distant pumps; gulls arguing over an exposed catch; the hollow clack of a loose sign]
+    # play music "music_placeholder"  # [Music: Sparse, minor strings; a slow descending motif]
+    "You wake to the world rearranged. The air tastes of iron and seaweed; wet wood smells like an old promise broken and remade. Where lamp posts used to glow steady, temporary floodlights throw skeletal shadows across"
+    "driveways and sand-drifted porches. The promenade is a map of small catastrophes: tarps flapping, a child's skate lodged in a puddle, seaweed braided through a mailbox. The town is a thousand tiny wounds."
+    "You move through it as if testing your own edges—hands coated in grit, rubber boots leaving dark prints along the boardwalk. Your journal is soaked where you left it in the Skyline greenhouse; its pages swell"
+    "and feather, the pressed marsh grass now a sodden ghost. You fold your hands around a thermos someone set on a overturned crate and let the warmth steady you."
+    "You do not have the luxury of being surprised. You had been told storms would intensify; you had argued for redundancy and apprenticeship and slow scaling. But storms are indifferent to the soundness of plans. They"
+    "only care about geometry and force. Where seams on the modular segments met at a shallow curve, surges focused and leapt into a low-lying lane. Where buffers were scaled cautiously, water found new veins and ran"
+    "through old pathways. Where our model had been licensed widely, variations in installation left gaps the sea exploited. The damage is scattered—no single, spectacular breach—but the tally is intimate and immediate: a neighbor's floor ruined, a"
+    "family’s nets shredded against a pile of concrete, a child's drawings sodden and clinging to a fence."
+    "You smell diesel and wet insulation and the sweeter, steadier scent of people cooking on open stoves. You hear voices—some sharp, some small, all carrying the tired register of people who have been awake too long."
+    "Elias Kwan appears as you step past the tide gauge, his jacket pulled tight, his hair still ringed with salt. He is kneeling by a sluice gate, sleeves rolled, hands already raw from working metal. You"
+    "have seen that set of shoulders since you were a child—steady, stubborn, inclined to bear the weather rather than speak about it."
+    show elias_kwan at left:
+        zoom 0.7
+
+    elias_kwan "You found the thermos."
+    "He doesn't look up at first; the corner of his mouth tugs like a smile trying to be useful."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Thought you might want caffeine before you complain about my choice in repairs."
+    "You kneel beside him, dirt smearing the hem of your sleeve. 'How bad is it?'"
+    "Elias Kwan flips a wrench between his fingers, measuring. There is a pause, the kind that counts in breaths."
+
+    elias_kwan "Patchable. Most of this is...localized. But some places got the worst of it—Mariners' Row, the old pier. Jonah is at the docks trying to salvage nets."
+    "His voice goes tight when he says Jonah's name; you feel the small current of family worry."
+
+    maya_reyes "Jonah'll be reckless."
+    "You try to make it light and fail. 'Tell me what you need.'"
+    "Elias Kwan watches you, then allows a small exhale."
+
+    elias_kwan "More hands. A spare flange. And—"
+
+    "He hesitates, then adds" "If you can talk to the families on South Lane today, they'll listen to you. They listen when you show work, not words."
+
+    maya_reyes "Then we'll show up."
+    "The promise feels both fragile and necessary. 'I'll be there after we see about the sluice.'"
+    "His reply is a look—a quick, unreadable arranging of relief, worry, something softer—but you catch it. The intimacy between you is not fireworks; it's the shared muscle-memory of late nights on wet wood. It is a quiet contract: we do this together."
+    hide elias_kwan
+    hide maya_reyes
+
+    scene bg ch15_771f04_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The clink of metal as Elias Kwan hands you a spare bolt]
+    "You work until your gloves feel like another layer of skin. Volunteers arrive in a stream—Asha with a crate of medical supplies, Rosa directing traffic like she is reshaping the tide with her voice, a string"
+    "of high school kids with faces still young enough to scowl at the cold. You coordinate, you patch, you argue over priorities with the kind of practical impatience that used to set your teeth on edge;"
+    "now it steadies you."
+    "At midday, as a group pulls a net out of a mangled skiff, Dahlia Kestrel appears on the promenade with an umbrella and a clipboard, her coat immaculate despite the grey sluice of the morning. She"
+    "stands a brief distance away, watching the work. Her expression does not read simply. It is complex. There is the corporate line in her posture—calm, measured—but it does not hide the way her jaw tightens at"
+    "the sight of flooded thresholds."
+    show dahlia_kestrel at left:
+        zoom 0.7
+
+    dahlia_kestrel "My teams are compiling data. The arrays held in places we expected—they gave us readings that will help reroute reinforcement."
+    "She gestures toward the monitoring buoys bobbing like the points of a broken necklace. 'We can redeploy crews, accelerate repairs.'"
+    "Maya Reyes wipes your hands on your jacket before speaking."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Accelerate how, Dahlia? Your 'deploy' last week put panels up without consulting the families on South Lane. You know how they felt about the clamps you used."
+    "Dahlia Kestrel meets your gaze. Her eyes are sharp and steady."
+
+    dahlia_kestrel "I know decisions looked unilateral. They were calibrated to minimize failure across the bay. I stand by that."
+
+    maya_reyes "Calibration is not a human word when a child's play kitchen floats down the street."
+    "You push, because you must. 'Minimize failure across the bay does not mean you can sacrifice a street. These are people's homes.'"
+
+    dahlia_kestrel "I lost someone in a flood when I was young. I do not want that for anyone. But I also know how to stop the larger collapse. If we spend too long debating, there will be no town to argue in."
+    "Her voice holds a quiet, dangerous certainty. 'We need scale.'"
+
+    maya_reyes "Scale without listening fractures trust. Trust is not an externality; it's the only thing that lets people follow plans when the water comes."
+    "Dahlia Kestrel looks at you, then beyond you, and for the first time her posture has a fissure of uncertainty."
+
+    dahlia_kestrel "Then help me bind it. Help me write the rules, Maya. If my methods are going to be used here, I want community oversight. I want enforceable labor protections. I need you at the table."
+    "Maya Reyes feels your chest tighten. The offer contains everything you have wanted and everything you fear. It is a ladder made of concessions."
+
+    maya_reyes "And if I do, will you accept that some things can't be engineered out? Memory, place—"
+    "Dahlia Kestrel doesn't answer with a flourish. Her expression becomes complex—somewhere between apology and calculation."
+
+    dahlia_kestrel "I'll accept parameters I can measure. Some things we will not be able to put a metric to. I am learning those limits."
+    # play music "music_placeholder"  # [Music: A low chord, unresolved]
+    hide dahlia_kestrel
+    hide maya_reyes
+
+    scene bg ch15_771f04_3 at full_bg
+    "You could argue with her all afternoon and change nothing but the air between you. Instead, you accept the pragmatic duet this moment offers: repair now, argue later, bind the future with whatever you can."
+
+    menu:
+        "Hand Elias the flange and keep working":
+            "You push the flange across the plank to Elias Kwan. He takes it with a grunt, then with a look that says 'thank you'—simple and full."
+        "Go talk to the family on South Lane about relocation options":
+            "You step off the sluice and head toward South Lane. A woman with silt in her hair listens as you lay out temporary vouchers; she squeezes your hand like an anchor."
+
+    # --- merge ---
+    "You choose, and for a little while the world narrows to that choice—metal on metal, or the tight clasp of a neighbor's fingers. Both are repair in action; both are necessary. You return to the worklist with the sense that action and listening are not opposite, but tangled."
+    # [Scene: Boardwalk | Afternoon, after several hours of repair]
+
+    scene bg ch15_771f04_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant generator hum; someone singing softly to keep a child calm]
+    # play music "music_placeholder"  # [Music: Low, steady percussion—each beat a footfall forward]
+    "By late afternoon, word reaches you that the monitoring arrays—those delicate, expensive things you once argued were less important than people's paychecks—survived in a cluster near the old lighthouse. The data they recorded is messy but"
+    "salvageable. It will help rebuild intelligently, if people will use it. That thought sits like a coal in your palm."
+    "Elias Kwan works near you without speaking for a span. Then he puts his wrench down and folds his hands around yours, the gesture more intimate than a confession."
+    show elias_kwan at left:
+        zoom 0.7
+
+    elias_kwan "You ever think about leaving?"
+    "He asks it like a fisherman asks about tides—practical, testing the line."
+    "Maya Reyes feels the old habit of bracing—how many times have you rehearsed answers?"
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "I used to think the answer was no. Then I thought it might be yes. Now I think leaving would mean abandoning this."
+    "You look at him; the marsh in your chest tightens. 'This is where my father taught me to pull a net. This is where your family taught you to watch the water. We can't just walk away from that.'"
+    "Elias Kwan exhales, relieved and mournful."
+
+    elias_kwan "I don't want you to leave either. But if we keep bending against storms like this, will we break somewhere else? Will we ask more from people than they can give?"
+    "Maya Reyes does not have an elegant answer. You only have the work and the memory of your father's hands, callused and wet."
+
+    maya_reyes "We pay differently. We don't ask people to be casualties of the plan."
+    "You pause. 'We change how we work.'"
+
+    elias_kwan "And us?"
+    "The question is small and enormous. It presses at the soft places."
+
+    maya_reyes "Us is being here when it counts. It's holding a wrench and also holding a hand. Right now, that's what I can promise. I'm scared, but I'm not leaving the room."
+    "He gives you a tight smile, then turns back to the sluice. The intimacy between you has weathered a storm and come out not unscathed but legible—worn-in rather than flashy, like a coat that never stops keeping you warm."
+
+    menu:
+        "Say 'we'll make time for us'":
+            "You tell him quietly we'll make time. He lets out a laugh that sounds like it could be a sob, and then he carefully tightens a bolt with both hands."
+        "Stay silent and let work speak":
+            "You keep your mouth shut and shoulder down another task. Elias Kwan nods—it's the nod of shared labor, not romance—but it is an answer nonetheless."
+
+    # --- merge ---
+    "You choose the language you can bear; language and silence both become forms of repair."
+    # [Scene: Skyline Rooftop Garden | Evening, after dusk]
+    hide elias_kwan
+    hide maya_reyes
+
+    scene bg ch15_771f04_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The drip of leftover rain; the soft scrape of a trowel]
+    # play music "music_placeholder"  # [Music: Minor piano, descending into a warm but somber chord]
+    "That night the community gathers on the rooftop—not in a ceremony, but because bodies are needed: to clear debris, to patch tarps, to salvage seeds. Children run between grown legs with flashlights, their laughter fragile and"
+    "bright. People come with casseroles in foil, with spare nails, with an exhausted conviction that mornings will come and work will need hands."
+    "You sit on the edge of a raised bed and open your journal. The pages are darker now, the ink singing out at the edges. You think of the plans you wrote when hope was taller—the"
+    "clauses on enforceable labor protections, the apprenticeship curriculum, the diagrams of hybrid barriers and living marsh margins. Some of those clauses still matter; some of the designs misread the water."
+    "Rosa finds you and perches beside you. Her clipboard is empty; she looks at you the way small towns look at each other: with a tired calculation about survival."
+    show rosa_mendes at left:
+        zoom 0.7
+
+    rosa_mendes "Council's meeting was...heated. There are families who want answers. There are families who want compensation. Mayor Durant is trying to slow the legal issues before they become a fire."
+    "She rubs her temple. 'People are angry, Maya. They need to see action.'"
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Action doesn't have to be spectacle."
+    "You close the journal and tuck it under your arm. 'We will document, we will rebuild, we will enroll those apprenticeships—actual jobs, not temporary cages. We will get people paid.'"
+
+    rosa_mendes "That will help. But you can't fix what people feel. People feel betrayed."
+    "Her voice is not unsympathetic to Dahlia Kestrel; it is simply realistic. 'If you and Dahlia can make concrete changes to how decisions are made, maybe. But a lot of people will need time.'"
+    "Maya Reyes nods. You know time is a frayed resource."
+
+    maya_reyes "Then we give them that time and we keep working. It's the only thing I know."
+    hide rosa_mendes
+    hide maya_reyes
+
+    scene bg ch15_771f04_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The small rustle of wrapping paper as someone sets down a casserole]
+    # play music "music_placeholder"  # [Music: Piano arcs and then settles]
+    "You plant a seed—something small and sure. It is a stubborn act that insists on a future. The seed's size is ridiculous under the weight of the day, but it is also a promise you can touch: a gesture that says, We will try again."
+    "Dahlia Kestrel passes by the rooftop on her way home. She watches you for a breath and then lifts her chin in a gesture you cannot parse—concession? respect? resignation? Her eyes are complex and unreadable; there"
+    "is a trace of something like sorrow and a practical set to her shoulders that says she will keep trying, too."
+    show dahlia_kestrel at left:
+        zoom 0.7
+
+    dahlia_kestrel "You planted something."
+    "She looks at the seedbed. 'Good.'"
+    "Maya Reyes allows yourself a small, dry smile."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "It's the smallest thing I could do tonight."
+
+    dahlia_kestrel "Small is not nothing."
+    "She hesitates. 'I will be sending teams to rebuild the monitoring network with community oversight. And I'll make the funding for apprenticeships immediate. Not in a month—today's payroll.'"
+    "Maya Reyes feels a brittleness—gratitude mixed with suspicion."
+
+    maya_reyes "Make sure it's not conditional on erasing any testimony from families. Make it publicly accountable."
+    "Dahlia Kestrel meets your gaze and the expression is, for the first time, almost human."
+
+    dahlia_kestrel "Agreed."
+    "Then, practiced, she inclines her head and leaves."
+    "You watch her go. You do not know if the promise will hold, and you cannot pretend certainty. Promises in this town have been both lifeline and false beacon. But the offer sits beside the seed in your hand like two small, stubborn things that require tending."
+    # [Scene: Skyline Rooftop Garden | Night, late]
+    hide dahlia_kestrel
+    hide maya_reyes
+
+    scene bg ch15_771f04_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The gentle thump of a generator; distant murmurs of a community trying to sleep]
+    # play music "music_placeholder"  # [Music: A single violin, low and steady; then silence]
+    "You close your journal. The pages are weighted with mud and meaning. You press the last page between your palms and feel the imprint of all the plans, the diagrams, the names of neighbors you must"
+    "protect. You slide the journal into a plastic bag to keep it from further water and then tuck it into the corner of the rooftop, where it will dry in time."
+    "You sit with Elias Kwan on a bench, watching the lights of Lumen Bay wobble in the distance. There is fatigue in your bones and a rawness to speech. Neither of you tries to turn the"
+    "night into a promise that can't be kept. Instead, you sit in the messy, honest middle."
+    show elias_kwan at left:
+        zoom 0.7
+
+    elias_kwan "You planted it then."
+    "He nods at the bed where the seed now rests in the dark. 'Good. We'll keep watering, even if the first rains are hard.'"
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "We'll keep walking the line between speed and listening. We'll keep paying people for the work we ask them to do. We'll keep apprenticeships real. We'll make better bolts."
+    "You offer a small, rueful smile at the last point. 'It's not glamorous, but it'll be real.'"
+    "Elias Kwan smiles back, then sobers."
+
+    elias_kwan "That's what matters."
+    "You breathe in the cool night salt and let it move through you like a long exhale. The day has broken things and also revealed what must be rebuilt. The fall was hard; it stripped away"
+    "illusions about how neat solutions can be. It also scattered seeds—literal and metaphorical—that might, if tended, root into a harder, truer kind of safety."
+    "You feel the tiredness thrumming under your ribs, but under that there is a stubborn, steady heat. You think of your father's hands, of Jonah's impulsiveness, of Rosa's clipped pragmatism, of Asha's bright insistence. You think"
+    "of Dahlia Kestrel's complex face and the way Elias Kwan tightened a bolt with a laugh a moment after you promised to 'make time.'"
+    "You are bruised. You are wary. You are also present. You have planted a small thing on a rooftop and handed the town a plan stitched from mistakes and open hands. This is the work: long, unglamorous, fought for one bolt and one conversation at a time."
+    "You close your eyes for a moment and in the dark you make a small vow—not that everything will be fixed, but that you will keep beginning. The fall scattered seeds across mud and metal; some"
+    "will rot, some will sprout, and some will surprise everyone by taking root in places no model predicted."
+    hide elias_kwan
+    hide maya_reyes
+
+    scene bg ch15_771f04_8 at full_bg
+    # play music "music_placeholder"  # [Music: The minor motif resolves into a final, somber chord—acceptance without surrender]
+    # play sound "sfx_placeholder"  # [Sound: The distant, steady slap of waves against a repaired bulkhead]
+    "You stand, steadying yourself on the bench. The night is honest and cold and real. The work ahead will be long; the town will argue and mourn and build; relationships will be weathered. Yet you are stubborn enough to begin again."
+
+    scene bg ch15_771f04_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-03-11 12:10:38",
+  "total_chapters": 15,
+  "total_valid_routes": 9,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending: Sad/True",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending: Sad/True",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Route C / Alternate",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        15
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route B / Alternate",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        14
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending: Sad/True",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending: Sad/True",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending: Bittersweet/True",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending: Bittersweet/True",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route A / Alternate",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        13
+      ],
+      "length": 5
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Salt and Alarm",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "The Forum and the Fracture",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "The Choice of Anchor",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Building the Living Dike",
+      "branch": "Route A",
+      "children_ids": [
+        13,
+        6,
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Compromises in Salt Air",
+      "branch": "Route A",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The Bad High Tide",
+      "branch": "Route A — Ending: Bittersweet/True",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "The Armor of Immediate Work",
+      "branch": "Route B",
+      "children_ids": [
+        9,
+        8,
+        14
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Contracts and Compromises",
+      "branch": "Route B",
+      "children_ids": [
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "The Hardened Shore",
+      "branch": "Route B — Ending: Sad/True",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "A Conditional Deal",
+      "branch": "Route C",
+      "children_ids": [
+        15,
+        11,
+        12
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Oversight and Stalemate",
+      "branch": "Route C",
+      "children_ids": [
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "The Contracted Shore",
+      "branch": "Route C — Ending: Sad/True",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Conditional Partnership (Alternate Ending — Route A Option C)",
+      "branch": "Route A / Alternate",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Hybrid Stitched with Wounds (Alternate Ending — Route B Option C)",
+      "branch": "Route B / Alternate",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Independent Auditors (Alternate Ending — Route C Option C)",
+      "branch": "Route C / Alternate",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 15,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 2,
+    "entry_rescue_typeA": 2,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

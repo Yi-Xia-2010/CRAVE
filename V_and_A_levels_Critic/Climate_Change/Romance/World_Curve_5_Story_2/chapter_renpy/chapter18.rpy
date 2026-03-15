@@ -1,0 +1,251 @@
+label chapter18:
+
+    # [Scene: Rebuilt Sea Wall | Morning]
+
+    scene bg ch15_77cd71_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A restless, triumphant surf; distant voices, soft clapping]
+    # play music "music_placeholder"  # [Music: Driving strings with a rising percussion — urgent, hopeful]
+    "You arrive with your boots still smelling of wet soil and coffee. Your breath fogs in the cool air; your palms are still marked by planting mud. A ribbon hangs across a low ceremonial plaque, its"
+    "fabric the same tide-blue as Mateo's rolled-up blueprints used to be. The sea wall looks improbably patient and fierce all at once — concrete and living growth braided together, a stubborn answer to years of retreat."
+    "You feel everything at once: exhaustion, a raw kind of pride, the ache of losses measured in rooms emptied and boats retired. But above it is a heat that pushes forward — a surge of people who stayed and learned to turn their grief into action."
+    "Councilor Nguyen stands near the plaque, salt on his spectacles, posture softened. Tala leans against a crate, jaw unclenched but electric. Dr. Selene Park watches from the edge of the crowd, the corporate lapel pin catching"
+    "white. Old Man Rohan is there in his cap, hands missing a stitch from his gloves but steady; around him, a cluster of teenagers mimic his knotted fingers as they talk planting lines. Ivy is at"
+    "your side, needling the sleeve of your coat with a nervous, proud smile."
+    "Mateo is not directly in front; he moves through the crowd with that calm, considered gait of his — sometimes beside you, sometimes folded into the conversations you started months ago. His eyes find yours and"
+    "hold; there is so much history in that look: the night charts, the technical compromises, the quiet, tender arguments late into the Aquarium's yellow light. For a breath you read everything on his face and then"
+    "you refuse to collapse the complexity into a single sentence. His expression is warm, open, and also unreadable in the way people are at once relieved and wary after big fixes."
+    "You realize the ceremony is less about one person cutting a ribbon and more about the town exhaling."
+
+    scene bg ch15_77cd71_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Applause rises like surf]
+    show councilor_nguyen at left:
+        zoom 0.7
+
+    councilor_nguyen "What this town did — wasn't simple. It took... all of you."
+    show tala_kumari at right:
+        zoom 0.7
+
+    tala_kumari "And a lot of shouting at committees."
+    show ivy_navarro at center:
+        zoom 0.7
+
+    ivy_navarro "And Aiko did the math to make us stop shouting like idiots."
+    hide councilor_nguyen
+    show aiko_navarro at left:
+        zoom 0.7
+
+    aiko_navarro "We did the math and the listening. Both mattered."
+    hide tala_kumari
+    show mateo_ros at right:
+        zoom 0.7
+
+    mateo_ros "You led that listening."
+
+    aiko_navarro "You did the persuading."
+    "Mateo smiles, half-chastened, half-content. The back-and-forth is easy between you, but not without edges. Old conversations about methods, urgency, and ethics still sit between breaths, like pebbles that still shift underfoot."
+    "Dr. Selene Park steps forward, voice steady and unexpectedly warm."
+    hide ivy_navarro
+    show dr_selene_park at center:
+        zoom 0.7
+
+    dr_selene_park "Science moves fast when funded. Mistakes were made in the past; audits have corrected our deployment parameters. We will continue to adjust — and we will listen better."
+    "Tala's lips tighten; Rohan's gaze narrows in ways that keep a history thick and honest. The crowd's reaction is not unanimous relief but a complicated, honest murmur. The corrective audits changed the company's tactics; remediation funds"
+    "went to retraining and habitat repair. The memory of earlier damage sits like a scar that no apology can erase, but public scrutiny turned that pain into accountability. That is what makes this morning possible."
+    # [Scene: Marsh Edge | Midday]
+    hide aiko_navarro
+    hide mateo_ros
+    hide dr_selene_park
+
+    scene bg ch15_77cd71_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Shovels punctuating wind; gulls crying; Ruta, a local teenager, laughing when she drops a muddy boot]
+    # play music "music_placeholder"  # [Music: Percussive rhythm with a swelling chorus—hope sharpening into energy]
+    "You move into the work like a current into a channel. Rohan shows a girl how to angle a planting line so the tide will hold the roots; his voice cracks unexpectedly when he speaks of"
+    "marshes he once knew. The kids mimic his knots, and you see continuity — the town's memory carried forward by nimble hands. There is a stubbornness here that refuses disappearance."
+    show old_man_rohan at left:
+        zoom 0.7
+
+    old_man_rohan "Line it like this, children. The sea remembers how we touch it."
+    "Rohan's phrasing is half-teaching, half-prayer. The children laugh but their hands are careful. You kneel beside them, your knees wet, and press a clump of root-soaked mat into place. The scent of brine and newly turned earth fills your senses like a benediction."
+
+    "Tala (calling)" "Aiko, you're up for a shoutout at the Hub tonight. We want you to tell people how to keep doing this."
+    "You taste the salt on your lips and the heat of a thousand small obligations. The to-do list presses, but there is a lift now: municipal relief funds arrived to supplement lost livelihoods, temporary housing converted"
+    "into training centers, and some relocated families were given priority in new housing nearby. It does not erase everything, but it buys room to breathe and continue."
+
+    menu:
+        "Give Rohan a private thanks":
+            "You lean closer and press a muddy hand to his wrist, murmuring a private, fierce thank-you. His eyes crinkle; he squeezes back with an old fisher's joke that breaks both of you into soft laughter."
+        "Call out to the group for a shared toast":
+            "You stand and lift a thermos, voice carrying across the marsh. The group cheers, hands muddy, and the sound reverberates like a small storm of joy. Mateo joins you in the toast, his hand brushing yours for a lingering second."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: Community Gardens | Afternoon]
+    hide old_man_rohan
+
+    scene bg ch15_77cd71_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft chatter, the clink of jars, a distant radio playing a local station]
+    # play music "music_placeholder"  # [Music: Guitar arpeggios under a rising brass line — intimate but swelling]
+    "You walk the rows, stopping at a dozen small conversations. Ivy points out a new market collective for displaced fishers; a young mother thanks you for a token that helped keep her rooftop garden alive. Tala"
+    "hustles volunteers for tonight's public report. Mateo appears at the edge of the courtyard with a slim wet-blue tube of corrected blueprints, eyes tired but bright."
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "Nguyen formally signed the supplemental funding. There will be audits, independent oversight, and a training stipend for retrained crews."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "And Dr. Park's firm? Legally bound to the community oversight?"
+
+    mateo_ros "Yes. It has teeth. And there are clauses for habitat-first deployment. It isn't perfect, but it's better — and the town can enforce it."
+
+    aiko_navarro "Good. We needed that leverage."
+    "Mateo studies you like he's reading tide markers, searching for undertow."
+
+    mateo_ros "And I—' (he hesitates) '—I don't want us to lose this. You, me, the work. Not if we can help it."
+
+    aiko_navarro "I don't want to lose it either."
+    "Their exchange pauses, then unfolds into a layered conversation: the practicalities of splitting time between municipal duties and on-the-ground work; the possibility of coordinating remote oversight; the idea of a long-distance partnership tethered to common projects."
+    "The dialogue is not a tidy resolution but a negotiation textured with past friction and present necessity."
+
+    mateo_ros "We can do a rotation. I can be here for planting seasons; you can come to City Hall for the audits. We make the partnership part of the plan."
+
+    aiko_navarro "We make the partnership part of the plan."
+    "They both laugh at the bureaucratic romance of it all, which relaxes something taut in your chest. The flirting is practical and tender at once."
+
+    menu:
+        "Seal it with a promise handshake":
+            "You and Mateo clasp palms in a silly mock-contract, grinning. Ivy whistles. Tala applauds with theatrical flair, and the moment becomes public joy."
+        "Ask him to say it again, without policy":
+            "You study his face like a tide chart and ask for the personal phrase instead of the plan. Mateo smiles, quieter: 'I'll come back every spring. I'll keep a room with your smell in it.' The words land like driftwood finding sand."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: The Aquarium — Evening]
+    hide mateo_ros
+    hide aiko_navarro
+
+    scene bg ch15_77cd71_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Laughter, occasional clink of glass, the hush of the sea beyond the walls]
+    # play music "music_placeholder"  # [Music: Full orchestra swelling into a bright, soaring motif — cathartic, ecstatic]
+    "You step up to the makeshift podium with your field notebook tucked in a coat pocket. The room is full — faces familiar and new, elders and teens, government representatives and a small company delegation. The"
+    "air is thick with rosemary and salt; the crowd's breath syncs with a single, collective pulse. You begin to speak, and your words thread through data and memory and the ordinary facts of survival."
+    show aiko_navarro at left:
+        zoom 0.7
+
+    aiko_navarro "We have lost places we cannot bring back. We have also found new ways to keep living in the ones we keep. Today is not a final victory; it's a re-commitment. We will watch. We will learn. We will hold each other accountable."
+    "Applause washes over you — not showy, but steady, like the tide. You look out and see faces that have weathered storms and policies, people who stayed to rebuild instead of moving away. In the doorway,"
+    "Dr. Selene Park stands aside from her team, hands folded. This time, when she meets your gaze, there is something like respect there, tempered by a professional caution that softens rather than hardens."
+    show dr_selene_park at right:
+        zoom 0.7
+
+    dr_selene_park "You made the human case unavoidable. That forced better models. Thank you."
+
+    aiko_navarro "Thank you for making room for that correction."
+    "You both nod — a tight, careful exchange that acknowledges harm and stitches a path forward. The fight that once felt like iron has become a necessary, if uncomfortable, seam in the community garment."
+    # [Scene: Cliffside Promenade and Old Sea Wall | Night — Climactic Moment]
+    hide aiko_navarro
+    hide dr_selene_park
+
+    scene bg ch15_77cd71_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Waves hammering the reinforced wall; wind like a choir; distant thunder]
+    # play music "music_placeholder"  # [Music: A converging crescendo — drums and strings racing toward a single, joyous release]
+    "You and Mateo walk the top of the wall together, shoulders occasionally brushing. The wind tugs at your hair; the rebuilt structure stands quiet and resilient beneath the assault of wind and water. People clap from"
+    "below as a test swell breaks; the planted margins hold. A roar of collective exhalation rises from the crowd — a sound so full you feel it in your bones. This is the moment where engineering,"
+    "community, and stubborn love meet their proof."
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "We did that."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "We did it together."
+    "The words are nearly useless and also everything. Your heart is a fierce thing — racing, full, ready to leap — because the work you've been carrying is now shared. You can feel Rohan's steady breath"
+    "in the crowd, Tala's bright grin, Ivy's small fist pumped in triumph. Even Dr. Park stands a distance away, her profile softened by the stormlight. Accountability did not make an enemy of her; it made her"
+    "an uneasy ally."
+    "Mateo pauses and reaches for your hand, fingers cold and sure. The world narrows to that contact: rope, map, promise. Around you, the energy swells to a fever pitch — drums of the volunteer band, cheers,"
+    "a horn from a distant boat. The arousal reaches its apex as thunder breaks and the first heavy rain begins to fall, drumming on the wall and your sleeves."
+
+    mateo_ros "There's more to do. We'll keep doing it. With you."
+    "Your response is not simply yes; it is an entire life sketched in a single movement. You pull him close, wind and salt in your face, and for a heartbeat the past trials slide into the surf and are replaced by something wild and luminescent."
+
+    aiko_navarro "With you."
+    "He leans in; the kiss is quick and fierce, not a neat sealing but a promise-acted — a compact of breath and salt and intention. When you part, the rain mingles with your laughter, and the world feels like a newly honest place."
+    show old_man_rohan at center:
+        zoom 0.7
+
+    old_man_rohan "Plant the line! Keep your hands warm! Don't you lose that heart now!"
+    "The crowd laughs, and the sound wraps the two of you like a net. In the distance, the Aquarium glows like a beacon. Someone uncorks a bottle and throws their head back in elation. The repaired wall thrums underfoot. The marsh beyond bends with the storm and holds."
+    hide mateo_ros
+    hide aiko_navarro
+    hide old_man_rohan
+
+    scene bg ch15_77cd71_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Rain, laughter, waves, and a single steady cheer rising above all]
+    # play music "music_placeholder"  # [Music: Sustained, exultant swell that resolves into a gentle, sustaining chord]
+    "You stand on the wall, chest open, soaked through, and feel a fierce gratitude sharpen into resolve. This is not the end of the work. It is, instead, a new kind of beginning — one that"
+    "carries the memory of everything lost and the stubborn intention to gather what remains into something living."
+    "Mateo turns to you, voice soft over the sea."
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "Come with me to the city next week. There's a seat at the oversight board — your voice, at scale. We can keep this model honest together."
+    "You think of the Aquarium's battered tiles, of Rohan's knots, of Ivy's stubborn laughter, of Tala's fire. You think of long nights of spreadsheets and longer mornings in the mud. You think of the locket at"
+    "your throat and the map of the shore that once was. The offer is not an easy relinquishment but an expansion — a way of carrying this place forward into other places and keeping an eye"
+    "on your home from a seat that matters."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "Yes,"
+    hide mateo_ros
+    hide aiko_navarro
+
+    scene bg ch15_77cd71_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The storm receding into its next breath; distant, sustained applause]
+    # [Scene: The Aquarium — Aftermath | Late Night]
+
+    scene bg ch15_77cd71_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft conversation, the distant roll of the sea]
+    # play music "music_placeholder"  # [Music: Minimal piano with a warm undertow — calm after the storm]
+    "You help fold a final sheet of blueprints and tuck the notepad back into your bag. Mateo stands across from you, palms ink-smudged. There is a tender awkwardness in the time after a public victory — the private exchange that must articulate the future in small, decisive details."
+    show mateo_ros at left:
+        zoom 0.7
+
+    mateo_ros "We'll rotate the oversight shifts. I'll keep the city doors open. You'll keep the field teams fed with good coffee."
+    show aiko_navarro at right:
+        zoom 0.7
+
+    aiko_navarro "And you'll bring maps I can argue with."
+    "Mateo laughs, then grows serious, as if choosing to speak the thing by saying it aloud will anchor it against the tides."
+
+    mateo_ros "I want this to be— for as long as we want it to be. I don't want distance to be an excuse."
+
+    aiko_navarro "It won't be."
+    "There is no grand gesture here, only a tight, continued consent: a plan laid in the small, domestic grammar of shared mornings and divided nights. It is enough to make a life."
+    "Dr. Selene Park approaches with a small stack of typed amendments — institutional, efficient, and slightly awkward in the warm glow of the aquarium tiles."
+    show dr_selene_park at center:
+        zoom 0.7
+
+    dr_selene_park "I thought you might want to review these before morning. Independent oversight clause, community veto points, retraining timelines."
+
+    aiko_navarro "Thank you. We'll read them together."
+    "Dr. Park nods, a faint, almost human smile—a line that suggests the old archetype of antagonist now repositioned. The company will still push its logic, and community resistance will still be necessary. But now the relationship is one of negotiated tension, not pure opposition."
+    hide mateo_ros
+    hide aiko_navarro
+    hide dr_selene_park
+
+    scene bg ch15_77cd71_10 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Comfortable banter; the sea as a distant rhythm]
+    # play music "music_placeholder"  # [Music: Warm, concluding chord with faint echo]
+    "You step outside into a final cool breath of night, the sky clearing after the rain. Somewhere down the promenade, a group sings an old fisher's song. You listen, and the notes feel like a promise."
+    "You slide your fingers into Mateo's, the two of you close together beneath a sky that is patient and indifferent and also open in the way a healed seam can be. You are both tired and"
+    "wired and impossibly grateful. Around you, the town sleeps and wakes in turns — repaired walls, repaired plans, repaired relationships, all stitched with the same stubborn thread."
+    "You let the moment sit with you: the taste of salt, the sound of steady waves, the weight of a shared future. The ending is not tidy; it is an arrangement of ongoing care. That is the kind of love that lasts — the love of people and place intertwined."
+
+    scene bg ch15_77cd71_11 at full_bg
+    # play music "music_placeholder"  # [Music: Final chord resolves into a soft, enduring hum]
+
+    scene bg ch15_77cd71_12 at full_bg
+    "THE END"
+    # [GAME END]
+    return

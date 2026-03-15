@@ -1,0 +1,210 @@
+label chapter15:
+
+    # [Scene: Pilot Site | Morning — Two months later]
+
+    scene bg ch14_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Warm, rising piano motif layered with distant gull calls]
+    # play sound "sfx_placeholder"  # [Sound: Hammers, soft conversation, the rhythmic slap of water against pilings]
+    "You step onto the soft mud of the newly graded channel, boots sinking an inch and leaving small, temporary prints that will be washed by the next tide. The smell of brine and fresh-cut wood mixes"
+    "with the tang of concrete still curing — the air is alive with work and the faint sweetness of newly planted cordgrass."
+    "Your notebook is heavier now, swollen with photos, annotated tide logs, and a page where children have pressed painted shells into the margins. When you open it, a stray seed clings to the spine and dusts"
+    "your thumb. For a breath — just a breath — the weight of months of argument and negotiation lifts. The living elements you persuaded people to let into engineered plans are there: oyster reef pockets cupping"
+    "the base of poured piers, woven coir logs holding marsh runners. Small, human gestures have braided into institutional metal."
+    "Niko Kaur is at the far edge of the channel, sleeves rolled to their elbows, salt-glossed rope in hand, coaxing a plank into place with a line of apprentices. They work with a steady economy of"
+    "motion, the kind that comes from decades of wood and sea. Elias Hart stands near the temporary command tent, tablet glowing, the plan open like an obvious hymn on-screen. Dr. Kenji moves between them, an observant"
+    "fulcrum, camera looped around his neck and a calm, tired smile softening his face."
+    "You cross the churned earth toward where kids from Marina’s afterschool program are learning to read tide charts from laminated cards, their sneakers half-coated with mud, eyes bright."
+
+    "Boy" "Did you make the sea like that?"
+
+    "You crouch to his height and let the damp heat of the morning rise off the mud. Amina Reyes" "We helped the sea remember how to be strong,"
+
+    menu:
+        "Show him how a reef holds a bank":
+            "You press two muddy fingers together and mimic how the oyster clusters knit water into stillness. The boy watches, nodding as if you’ve performed a small spell."
+        "Hand him a tide-chart card and ask him to read it":
+            "You hand him the laminated card and guide his finger along high and low marks. He pronounces 'spring tide' like a promise; the teacher nearby laughs, and you let that warmth in."
+
+    # --- merge ---
+    "Continue the scene."
+    # [Scene: Temporary Command Tent | Noon]
+
+    scene bg ch14_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of conversations, the soft click of Elias's tablet, a distant call from a volunteer]
+    # play music "music_placeholder"  # [Music: Quiet strings under a hopeful piano]
+    "Later, you sit across from Elias Hart at a folding table, the scaled model between you both. There is the slow, slightly awkward choreography of two people who have learned to be professionally intimate: maps shared, margins negotiated, priorities framed as trade-offs."
+    show elias_hart at left:
+        zoom 0.7
+
+    elias_hart "The contingency clause will have to include trigger metrics. If the monitoring shows structural loss, funders will insist on immediate retrofitting. We need thresholds to act."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "And if those thresholds are binary, we lose the nuance. High variability isn't a sign of failure — it's the marsh doing what marshes do. If you fix it like a broken machine, you flatten ecology to match our metrics."
+
+    elias_hart "I don't want to flatten anything. I want to keep people safe. But funders want numbers. I can embed adaptive thresholds — sliding scales — but I need legal cover."
+
+    amina_reyes "Legal cover that allows us to be adaptive, not override. Community vetoes on any permanent hardening."
+
+    "He studies you for a long second, then taps the screen. Elias Hart" "Draft this tonight. I'll run the language. We can push for a review window six months after initial deployment."
+    "The conversation loops into specifics — who monitors? who owns the data? who can pause construction? — and each answer unravels another worry. Yet despite the friction, there is lift in the exchange: language becomes scaffolding for trust."
+    "At one point, Elias reaches to hand you a printed clause and your hands brush — accidental, electric. The contact is small, a paper and fingers, but it holds a question neither of you voice."
+
+    menu:
+        "Let your fingers linger for a beat":
+            "You don't pull away right away. The warmth from the brief contact steadies you, and you smile without meaning to. Elias looks up, surprised, and then returns to the page, the moment folded into something professional and softer."
+        "Withdraw your hand and keep the focus on the clause":
+            "You pull back, fingers tucked under the table. The air tightens; the negotiation resumes with an extra, polite distance. Elias nods, and the clause stays between you both."
+
+    # --- merge ---
+    "The negotiation continues and both return to planning."
+
+    elias_hart "We have to make this readable to people, too. If the community — if you — can show outcomes rather than abstract promises, the narrative changes."
+
+    amina_reyes "Then we bring the kids in more. Teach them the measurements. Make the data into stories."
+    "He nods, and for a moment the room is a shared plan: a model of engineering that breathes with local narrative."
+    # [Scene: Nursery Channel | Dawn — After a Severe High Tide]
+    hide elias_hart
+    hide amina_reyes
+
+    scene bg ch14_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The low, impatient beat of surf beyond the spit; Niko's voice cursing softly; the slap of a tarp being stretched]
+    # play music "music_placeholder"  # [Music: A restrained, hopeful motif undercut with a tremor of percussion]
+    "Two nights later, a storm surge arrives quicker than the model predicted. The funded segment nearest the old fishing grove is scoured by a higher-than-expected tide; one of the engineered fingers is partially undermined. When you"
+    "run your hand along the exposed core, the concrete is rough, the oyster clusters hanging by threads of silt. The nursery channel — the place you dreamed could cradle both young fish and seedlings — has"
+    "taken a hit."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "This is why we said slower fills, staggered placement. This wasn't the tide we planned for."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "We couldn't wait. Funders set the clock. We tried with scaled planting."
+
+    niko_kaur "Try and clock are not the same thing, Mina,' they say — and the nickname lands with the soft weight of an ache. 'But come here. Help."
+    "You join them, mud on your hands, salt in your hair. The two of you work in close quarters, passing tools, anchoring coir logs with knots Niko teaches like a conversation. Your movements echo one another: a rhythm of shared muscle memory, of years of practicing doing things by hand."
+    "There is the intimacy of labor — less romantic, more honest than any brushed-fingers moment. Your hands are filthy, your back aches, and when Niko slides a wedge under a collapsed tuft of cordgrass, you laugh, a short, surprised sound."
+
+    niko_kaur "Don't get soft on me now."
+
+    amina_reyes "Never,"
+    "You and Niko patch the nursery channel until the light shifts from steel to gold. It's hands-on, improvised, and ugly in a way that is also beautiful. The work stitches something back into place, but not"
+    "all of it — a line of groves farther down shows damage: old anchoring points torn, eelgrass beds shorn. You feel the loss as a physical absence, a gap in the soundscape when the tides move."
+
+    menu:
+        "Allow yourself to grieve quietly with Niko":
+            "You sit on a piling, mud cooling in your palms, and let the feeling come. Niko doesn't say much, but their shoulder leans against yours. The quiet tells you where the salvaged things live."
+        "Throw yourself into logistics — catalog losses and needs":
+            "You open your notebook and start a list—grove coordinates, needed supplies, who to call. The action steadies you; Niko watches, then helps, and the grief is folded into the work."
+
+    # --- merge ---
+    "You and Niko continue repairing and cataloging as dawn progresses."
+    # [Scene: Boatyard | Late Afternoon — Public Demonstration Day]
+    hide niko_kaur
+    hide amina_reyes
+
+    scene bg ch14_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Applause, camera shutters, a child's laughter mingling with official microphones]
+    # play music "music_placeholder"  # [Music: A rising, hopeful orchestra with bright strings and harmonies]
+    "Months condense into this demonstration. Funders come with their suits and their cameras. A television crew records Marina as she introduces the student-led monitoring program. Dr. Kenji gives the scientific brief — measured, generous — about"
+    "adaptive management and the need for iterative learning. The mayor praises the co-managed pilot and frames Marisol as a template for policy."
+    show mayor_lucia_varela at left:
+        zoom 0.7
+
+    mayor_lucia_varela "This project has shown that when communities and institutions listen — really listen — we can protect lives and livelihoods. We will take these data to the regional council."
+    "Applause dents the air in pulses. Volunteers beam. The kids who learned to knot and tally hold up laminated certificates like trophies."
+    "But the crowd is not unanimous in jubilation. A cluster of fishers stand to the side, faces set. Their boats are fine in the harbor, the town center spared by the protective strategy, but their old"
+    "fishing groves — the ones that fed generations — show scars. A woman you know from the market presses a flier into your hand that reads: 'What cost to our nets?'"
+    "You move through the room, hugging the edges of praise and the sting of loss."
+    show dr_kenji_sato at right:
+        zoom 0.7
+
+    dr_kenji_sato "The models validate the hybrid approach,' he says quietly. 'The reefs slowed wave energy more than predicted. But the surge exposed where our assumptions were weak. That's not failure — it's data. It's hope insofar as we learn faster than we sink."
+    "Hope, you think, is not the absence of damage. It's the opposite: the clear-eyed decision to keep building after you see what broke."
+    "Elias Hart finds you beside the boatyard fence, the tide painting dark glass on the distant estuary. He is quieter now, away from the podium cadence."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "You handled the public part well."
+    hide mayor_lucia_varela
+    show amina_reyes at left:
+        zoom 0.7
+
+    amina_reyes "We made a lot of hands and a lot of stories visible. That matters."
+
+    elias_hart "I argued for more redundancy. I lost that fight publicly and privately. I owe you both better contingency. And —' he searches for the right phrase, then shrugs with a self-effacing half-smile, '—I owe the town honesty."
+
+    amina_reyes "Honesty is a good start. And we need more time. Adaptive thresholds need political patience."
+
+    elias_hart "Then we'll keep asking for it. I'll take this to the council. Your voices are getting louder because you made the project visible."
+    "The gratitude in his eyes is steadier than any applause. It is not reconciliation; it is a compact, fragile and useful."
+    # [Scene: Marsh Overlook | Sunset]
+    hide dr_kenji_sato
+    hide elias_hart
+    hide amina_reyes
+
+    scene bg ch14_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, ascending strings; a single sustained cello note that resolves into a warm chord]
+    # play sound "sfx_placeholder"  # [Sound: The long sigh of water, distant voices of children playing]
+    "You stand with Niko Kaur and Elias Hart at the overlook. Dr. Kenji is nearby, tabulating measurements into his tablet. The town's center — the shops you grew up going to, the market stalls — is"
+    "quieter but intact. People will sleep in their homes tonight who might have been displaced. You let that sink into your chest like a warm stone."
+    "But there are still holes: groves lost, beds that will need seasons to regrow, livelihoods that will have to adapt. You feel both the triumph and the ache at once. It's a complicated tide."
+    show niko_kaur at left:
+        zoom 0.7
+
+    niko_kaur "You did this. You brought them to the table."
+    show amina_reyes at right:
+        zoom 0.7
+
+    amina_reyes "We did. You all showed up."
+    show elias_hart at center:
+        zoom 0.7
+
+    elias_hart "And we learned. The first iteration was messy, but it's alive. The policy conversation now includes living elements. That is not a small thing."
+    hide niko_kaur
+    show dr_kenji_sato at left:
+        zoom 0.7
+
+    dr_kenji_sato "Other towns are watching. Funders will be more willing to underwrite adaptive processes if we can provide the road map. You built that map."
+    "You close your eyes, feeling the sun warm the back of your neck. The bracelet against your wrist is frayed, its colors dulled but real. Your notebook — battered, annotated, stained — lies under your arm like a small, faithful map of everything that happened."
+    "In your chest, the survivor's ache is quieter now: less a tidal roar and more a pulse of readiness. You will never forget the losses — the way a grove's absence makes the marshscape lopsided like"
+    "a scar — but you can see, at the same time, the new growth: recruits learning to test salinity, elders teaching knotwork under an instructional poster, policy language that now includes 'community veto' and 'adaptive review.'"
+    "Elias Hart steps closer, and the evening breeze threads between you. Your shoulder brushes his; the contact is small, not a solution, but it is not an absence either. Niko stands a beat apart, hands tucked"
+    "in their pockets, and when your eyes meet theirs there is a look of shared fatigue and a soft, private commitment — repair as a practice, not a promise."
+    "Love, here, is not tidy. It is a set of practices: showing up, admitting mistakes, arguing, listening, building, and sometimes standing on different sides of a plan and still returning to the table."
+    "The town's people begin to gather at the nearby boardwalk for a small, impromptu supper with shared bread and fried fish. Marina brings out a board where the students have pinned their monitoring charts; they laugh"
+    "at an early mistake and then point seriously at a corrected line, proud of the learning."
+    "You think of your brother — of the reason you returned — and the memory that has always felt like a pull changes texture. It is no longer only guilt. It is also a compass."
+
+    dr_kenji_sato "This is not the end,' he says simply. 'It is a beginning with scars. That, I would argue, is progress."
+
+    elias_hart "We make fewer promises; we make better monitoring."
+    hide amina_reyes
+    show niko_kaur at right:
+        zoom 0.7
+
+    niko_kaur "And we keep doing the work. Hands, boats, and the stubbornness of the people."
+    "You look at them both, at the circle of faces lit by string lights, at the marsh breathing out toward a horizon that is uncertain and open."
+    hide elias_hart
+    hide dr_kenji_sato
+    hide niko_kaur
+
+    scene bg ch14_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: Piano arpeggio rising into a warm, sustained chord]
+    # play sound "sfx_placeholder"  # [Sound: Low, contented murmur of people; a gull calling once, then settling]
+    "You breathe in the salt and let the hope settle solidly under your ribs. The pilot was volatile; it was also a fusion that taught the town to talk to itself and to the sea in"
+    "new ways. There are compromises and losses you cannot erase, but there are also structures you can iterate and souls you can convince to try again."
+    "This is not a tidy victory. It is a living one: messy, resilient, and generative."
+
+    scene bg ch14_3be532_7 at full_bg
+    # play music "music_placeholder"  # [Music: Swelling strings resolve into a gentle, affirming chord]
+    # play sound "sfx_placeholder"  # [Sound: Night insects rise; distant waves breathe]
+    "You feel, for the first time in a long time, a steadier hope. The town will rebuild, not into what it was, but into something that carries memory and learning. Your love life — with Elias"
+    "Hart and with Niko Kaur — remains tangled in practicalities and affection. Trust is being rebuilt in some places; in others it is frayed, but mending. You cannot promise a neat ending. You can promise work,"
+    "presence, and the stubbornness to keep adapting."
+
+    scene bg ch14_3be532_8 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,121 @@
+{
+    "design_logic": "I blend Climate Change (real-world environmental stakes) with Romance (intimate character-driven choices) by making the ecological crisis the catalyst and mirror for the characters' emotional arcs. The protagonist leads a restoration project in a coastal town threatened by rising seas; their personal relationships — trust, grief, compromise — evolve alongside efforts to save the landscape. The core conflict is between short-term economic pressures and long-term ecological resilience, which maps onto romantic choices: whether to hold fast to ideals, compromise for stability, or risk everything to transform the system. This design emphasizes moral weight, community, and emotional repair as equivalents: restoring habitat = restoring trust.",
+    "setting": "Near-future coastal archipelago city where seasonal storms have intensified and sea levels encroach on old neighborhoods. The economy is divided between extractive redevelopment interests and grassroots regenerative initiatives. Technology is present but constrained by resource scarcity; much of the visual world is adaptive architecture, floating gardens, and repurposed industrial relics. The atmosphere is moist, salty, and at times luminous after storms—hopeful but fragile.",
+    "visual_style": "Painterly realism with soft lighting, muted coastal palette (seafoam, slate, rust), anime-influenced character linework, environmental details in watercolor textures. Emphasis on tactile materials (wet wood, moss, oxidized metal).",
+    "main_characters": [
+        {
+            "name": "Aria Solen",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: empathetic, methodical, stubborn when convinced of a solution. Tends to bury grief in schedules. Good at translating science into community action but struggles to accept help. Compassionate leader who is slow to trust romantically.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with a practical braid behind one ear and salt-sprayed tips",
+                "eyes": "Sea-glass green, rounded with a steady, observant gaze",
+                "clothing": "Reinforced field jacket in deep teal with patchwork mending, stamped community co-op insignia; worn utility trousers with pockets for tools and seed packets; sturdy waterproof boots streaked with clay",
+                "accessories": "A battered leather notebook with pressed marsh grasses inside, a thin silver ring given by their late mentor, and a multi-tool with faded stickers"
+            },
+            "goal": "To restore a threatened wetland corridor that protects the town from storm surges and provides livelihoods, while keeping the community intact.",
+            "background_story": "Raised in the archipelago, Aria studied ecosystem restoration abroad and returned to rebuild her hometown after a catastrophic flood. She inherited a community lab and a moral commitment to place-based science. Her drive comes from losing a sibling to a storm surge years earlier; she channels guilt into practical solutions, but fears repeating past mistakes.",
+            "emotional_trait": "Strength: resolute empathy; Flaw: avoidance of intimate vulnerability, tendency to prioritize projects over personal bonds."
+        },
+        {
+            "name": "Eli Navarro",
+            "role": "Love Interest",
+            "personality": "Warm, improvisational, idealistic in action rather than theory. Charismatic with a dry wit, fiercely loyal to neighbors and skeptical of top-down solutions. He believes in hands-on community resilience and small-scale ingenuity.",
+            "appearance_features": {
+                "hair": "Sun-bleached brown, tousled and often tucked under a cap or bandana",
+                "eyes": "Warm amber, almond-shaped and quick to crinkle when smiling",
+                "clothing": "Layered work shirt with rolled sleeves, patched canvas vest covered in seed packets and small tools, salt-bleached jeans, and a weathered rope belt",
+                "accessories": "A handmade wooden pendant carved from a salvaged pier post, several braided hemp bracelets, and a stained map of tidal channels folded into his back pocket"
+            },
+            "goal": "To protect families and livelihoods by building resilient micro-enterprises (floating farms, artisanal fisheries) while keeping the cultural fabric of the island intact.",
+            "background_story": "A former deckhand who converted a derelict barge into a floating greenhouse co-op, Eli became a local organizer after his fishing co-op was displaced. He partners with Aria pragmatically but sometimes clashes over scale and method. He carries a personal history of communities forced to relocate.",
+            "emotional_trait": "Strength: infectious optimism and adaptability; Flaw: tendency to take risks without fully considering long-term consequences, sometimes impulsive in romantic commitments."
+        },
+        {
+            "name": "Caden Holt",
+            "role": "Antagonist",
+            "personality": "Polished, persuasive, and strategic. Presents as pragmatic and solution-oriented, but prioritizes economic development and fast-acting infrastructure projects that will attract investment. Can be charismatic and genuinely believes large-scale interventions are necessary.",
+            "appearance_features": {
+                "hair": "Short, iron-gray, neatly combed with a side part",
+                "eyes": "Steel-blue, narrow and calculating under heavy brows",
+                "clothing": "Tailored slate suit with subtle reflective trims for storm use, crisp shirts, and a lightweight waterproof overcoat—always neat even after rain",
+                "accessories": "A slim digital planner device, an elegant cuffwatch that doubles as a comms device, and a lapel pin representing the redevelopment consortium"
+            },
+            "goal": "To push a comprehensive redevelopment plan (seawalls, housing towers on stilts, private ports) that will bring investment but marginalize small-scale residents and co-ops.",
+            "background_story": "A city planner turned development director who rose through bureaucracies by delivering quick, visible results. Caden frames himself as the only one able to secure outside capital; his upbringing in an inland boomtown colors his zero-sum worldview.",
+            "emotional_trait": "Strength: strategic clarity and persuasive confidence; Flaw: emotional blindness to local grief and cultural loss, rationalizes harm as necessary trade-off."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Marta Quin",
+            "relation_to_main": "Aria's childhood neighbor and co-op organizer",
+            "appearance_summary": "Short, wiry, with graying braided hair and vivid paint-splattered overalls.",
+            "function_in_story": "Provides local history, mediates community meetings, offers emotional support and a pragmatic voice that challenges both Aria and Eli when necessary."
+        },
+        {
+            "name": "Jun Park",
+            "relation_to_main": "Scientific colleague at the restoration lab",
+            "appearance_summary": "Lean, spectacled, always carrying a tablet and samples in clear vials; prefers tidy, functional clothing.",
+            "function_in_story": "Technical ally who supplies data, warns of ecological tipping points, and occasionally forces Aria to confront inconvenient scientific truths."
+        },
+        {
+            "name": "Old Man Rafi",
+            "relation_to_main": "Local elder and keeper of oral tidal knowledge",
+            "appearance_summary": "Weathered skin, salt-white beard, patched fisherman sweater and a cap with many pins.",
+            "function_in_story": "Symbolic mentor offering folklore and traditional adaptation methods; moral compass for cultural continuity."
+        },
+        {
+            "name": "Lina Voss",
+            "relation_to_main": "City council liaison, nominally aligned with Caden",
+            "appearance_summary": "Professional attire with practical rain gear, neat bob haircut, earnest face with tired eyes.",
+            "function_in_story": "Represents the political middle; can be swayed by evidence or community pressure, key to unlocking votes or permits."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Brineheart Wetland Corridor",
+            "visual_description": "A stitched landscape of reed beds, raised boardwalks, and shallow tidal pools. Light is diffuse—silver after dawn, molten copper at sunset. Colors: muted greens, varnished brown reeds, oil-sheen tide lines. Mist curls off the water in the morning; the air smells of peat and salt. Background art emphasizes waterlogged wood, glinting marsh insects, and lines of hand-built check dams."
+        },
+        {
+            "name": "Tidehaven Research Lab",
+            "visual_description": "A repurposed boathouse with glass panels and patched solar sails; interior flooded in places with shallow runoff channels. Warm lamplight spills onto metal counters cluttered with seed trays and monitors. Palettes: pale blues, institutional gray, splashes of green from moss cultures. Rain streaks down the windows in angled ribbons during storms."
+        },
+        {
+            "name": "Eli's Floating Greenhouse (The Helix)",
+            "visual_description": "A cozy mosaic of curved glass and salvaged timber set on a buoyant barge. Halogen grow-lamps cast a warm, golden glow at night; vines hang in soft silhouettes. The surrounding sea reflects the greenhouse lights like scattered stars. Textures highlight water beading, algae growth, and rope netting."
+        },
+        {
+            "name": "Council Chambers / Redevelopment Pavilion",
+            "visual_description": "Polished concrete, glass facades, and antiseptic lighting contrasted with digital renderings of proposed towers. Cold overhead lights create stark shadows; outside, stormwater runs past the steps. The space feels designed for persuasion—sleek, bright, and intentionally impersonal."
+        },
+        {
+            "name": "Old Pier Market",
+            "visual_description": "A sun-faded cluster of stalls with tarps and colorful awnings, wet cobbles after rain, hanging lanterns at dusk. Warm, congested palette: ochres, rusts, and teal tarps. Sounds of haggling, salted air, and fish smoke create a sensory backdrop for community life."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Restoration as Romance (emotional repair mirroring ecological repair)"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Aria and Eli successfully pilot a hybrid restoration-development plan: community-run living shorelines paired with selective, small-scale adaptive infrastructure. The wetland corridor is stabilized, the co-op expands, and Aria and Eli commit to a partnership that balances work and life. Caden is forced to concede ground politically; Lina supports co-op governance."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The wetland survives in a reduced form after Aria sacrifices a high-profile funding opportunity by exposing flaws in the redevelopment plan. The community holds together but must relocate some families. Aria and Eli remain together, but their relationship is tempered by lingering trauma and ongoing labor; it's hopeful yet marked by real loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "The redevelopment plan proceeds largely as Caden envisioned: large seawalls and private piers displace the co-ops. Aria's restoration project is dismantled; Eli's floating greenhouse is forcibly moved. Aria and Eli drift apart—Aria leaves to join an international NGO, while the town loses much of its cultural distinctiveness. The ending underscores the cost of prioritizing capital over community."
+        },
+        {
+            "type": "True",
+            "summary": "Aria chooses truth over compromise: she leaks evidence of environmental miscalculations and ethical lapses in the redevelopment proposal. Short-term political fallout hurts the town economically and destabilizes relationships, but the revelation prompts a broader systemic reckoning. The result is uncertain stability: policies change slowly, Caden is discredited, and Aria faces exile from local politics. Romantically, she and Eli may reconcile later; the emphasis is on moral integrity and long-term systemic reform rather than immediate romantic closure."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

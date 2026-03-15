@@ -1,0 +1,33 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Chapter 1: Returning<br/>[Common]"):::spine
+    2("Ch 2<br/>Chapter 2: Old Maps <br/>[Common]"):::spine
+    3("Ch 3<br/>Chapter 3: Storm For<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Chapter 4: Workshop <br/>[Route A]"):::limb
+    5("Ch 5<br/>Chapter 5: Reclaimin<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>Chapter 6: Harbor Ac<br/>[Route A / Ending]"):::limb
+    7("Ch 7<br/>Chapter 7: Quiet Ret<br/>[Route A / Ending]"):::limb
+    8("Ch 8<br/>Chapter 8: Tenuous C<br/>[Route A / Ending]"):::limb
+    9("Ch 9<br/>Chapter 9: Agency Of<br/>[Route B]"):::limb
+    10("Ch 10<br/>Chapter 10: Modeling<br/>[Route B / Split]"):::limb
+    11("Ch 11<br/>Chapter 11: Inside t<br/>[Route B / Ending]"):::limb
+    12("Ch 12<br/>Chapter 12: Catalyst<br/>[Route B / Ending]"):::limb
+    13("Ch 13<br/>Chapter 13: Conditio<br/>[Route B / Ending]"):::limb
+    14("Ch 14<br/>Chapter 14: Federate<br/>[Route A / Ending]"):::limb
+    15("Ch 15<br/>Chapter 15: Distant <br/>[Route B / Route A (Alternate Epilogue)]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 9
+    4 -.-> 6
+    4 -.-> 5
+    4 -.-> 7
+    5 -.-> 8
+    5 -.-> 14
+    5 -.-> 6
+    9 -.-> 10
+    10 -.-> 11
+    10 -.-> 13
+    10 -.-> 12
+    10 -.-> 15

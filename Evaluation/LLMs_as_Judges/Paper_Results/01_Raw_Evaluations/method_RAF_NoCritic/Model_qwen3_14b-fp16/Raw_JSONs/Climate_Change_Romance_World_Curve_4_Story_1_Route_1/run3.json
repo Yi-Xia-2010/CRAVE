@@ -1,0 +1,34 @@
+<think>
+Okay, let's tackle this. The user wants me to rate the visual novel story based on six criteria. First, I need to understand the story and the themes involved.
+
+The theme is about environmental struggle, legal battles, and personal sacrifice. The genre seems to be drama with elements of social commentary. The story revolves around Mara and her community fighting against development that threatens their shore, dealing with legal compromises and personal relationships.
+
+For Relevance (RE), the story clearly matches the theme. It's about environmental issues, community resistance, and the conflict between progress and preservation. The genre is drama, which fits the emotional depth and social issues presented. So I'd rate this a 5.
+
+Coherence (CH) is about how well the story makes sense. The plot follows a logical progression: the conflict arises, there's a legal battle, compromises are made, and the community continues to fight. The dialogue and character interactions are consistent. I think this is a 5 as well.
+
+Empathy (EM) is how well the reader connects with the characters' emotions. The story delves into Mara's internal conflict, her relationships with Tomas and Rosa, and the community's struggles. The emotions are portrayed through actions and dialogue, making it relatable. I'd say 5 here too.
+
+Surprise (SU) is about the ending. The ending isn't a twist but a resolution that's expected given the story's direction. Tomas leaves, Mara continues the fight. It's not surprising but satisfying. Maybe a 3 because it's not a shock but a logical conclusion.
+
+Engagement (EG) depends on how involved the reader is. The story has emotional stakes, relatable characters, and a pressing issue. The reader is likely to be engaged throughout. I'd rate this a 5.
+
+Complexity (CX) refers to how elaborate the story is. There are multiple layers: legal, environmental, personal relationships. The narrative isn't too convoluted but has enough depth to be considered complex. Maybe a 4 because it's layered but not overly complicated.
+
+Now, I need to structure this into JSON with the exact keys as specified. Make sure explanations are concise and match the scores.
+</think>
+
+{
+  "RE_Score": 5,
+  "RE_Explanation": "The story aligns strongly with its theme of environmental resistance and personal sacrifice, using legal and community struggles to highlight systemic issues. The genre of dramatic social commentary is well-matched to the narrative's focus on conflict and resilience.",
+  "CH_Score": 5,
+  "CH_Explanation": "The plot is logically structured, with clear cause-and-effect relationships between the characters' actions and the environmental/legal conflicts. The dialogue and character motivations are consistent, and the resolution feels earned.",
+  "EM_Score": 5,
+  "EM_Explanation": "The emotional depth of Mara's internal conflict, her relationships with Tomas and Rosa, and the community's collective grief and determination are vividly portrayed. The reader can empathize with the characters' struggles and sacrifices.",
+  "SU_Score": 3,
+  "SU_Explanation": "The ending is not surprising but feels inevitable given the story's focus on compromise and resilience. While it avoids clichéd twists, its resolution is more about emotional closure than unexpected turns.",
+  "EG_Score": 5,
+  "EG_Explanation": "The story's emotional stakes, relatable characters, and urgent themes (environmental justice, community solidarity) create a compelling narrative that keeps the reader invested throughout.",
+  "CX_Score": 4,
+  "CX_Explanation": "The narrative weaves together legal, environmental, and personal threads with layered character dynamics. While not overly intricate, it balances complexity with clarity, avoiding unnecessary convolutions."
+}

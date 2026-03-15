@@ -1,0 +1,182 @@
+### SCRIPT
+# Route: Additional Route (Ending C3 / B2 — Sad)
+# Context: e67f19
+
+[Scene: Glasshouse | Dawn]
+[Visual: Pale shafts of light cut through salt-misted panes; puddles on flagstone catch the sky]
+[Music: Low, mournful cello with a distant wind motif]
+[Sound: Soft slap of boots on wet stone; the kettle hissing faintly in the background]
+
+You push the glass door and the smell of damp soil and old glass folds over you like a confession. Seed trays line a long workbench—green smudges against worn wood, each cell a tiny argument against erasure. Your fingers still smell of mud from last night; the cold has left freckles along the backs of your hands.
+
+Nia is already here, sleeves rolled, hair pinned up in a knot that looks like it was tied by somebody who needed both speed and stubbornness. She moves with the small, efficient rituals that keep everyone fed: marking labels, counting plugs, checking lights. Her face lifts when she sees you, then softens into something almost like relief.
+
+Nia: "You look like you haven't slept. Thermos is still warm—you didn't finish your last cup."
+Mara Voss: "Didn't feel like finishing it. Machines were closer to the headland than I thought."
+
+You set your notebook on the bench, the page folded where you pressed your thumb like a pledge. The little things are louder now: the creak of the greenhouse door, the dripping from a gutter, the beep of a field sensor you left charging. Outside, the headland's machinery keeps time—an industrial metronome that ties itself to every conversation in town.
+
+Rina Park arrives without fanfare, pushing the double doors with her shoulder and carrying a tablet. She smells of coffee and a different kind of weather—agency air, pressed sleeves, the efficiency of someone used to clicking through proposals.
+
+Rina Park: "Morning. Sorry to barge in—got something you need to see."
+Mara Voss [tightening your jaw]: "What now?"
+Rina Park: "Emergency annex. There’s a fund—fast money, short timeline. They'd pay for hiring and scaling the pilot projects. We can promise jobs fast, show metrics quicker than the developer's PR can spin their timeline."
+
+You hear Nia’s breath hitch. The idea is tempting like bright bait; it would buy time, payroll, breathing space. But the memory of a checklist you once saw—strings pulled by funders with their own calendars—sits heavy: deadlines that shape priorities, not communities.
+
+Rina Park's eyes are honest but determined. She leans on the bench as if anchoring herself to the room.
+
+Rina Park: "We can keep this local, Mara. We can stipulate how the funding is used. They want outcomes. We give them outcomes that save marsh and jobs. It's pragmatic."
+
+You want to answer with the math, with the caveats, with the long list of ways outside money bends the arc of local plans. Instead you taste the word 'pragmatic' and it tastes like compromise.
+
+[INTERACTION]
+> Choice A: "Tell the crew now—be transparent about the NGO offer"
+> Choice B: "Keep it quiet—consult with Elias \"Eli\" Calder first"
+[Outcome A: "You call everyone over; voices bloom into quick, messy questions. Nia bites her lip, Tomas folds his arms; there's energy, yes, but also the ripple of worry about strings."]
+[Outcome B: "You tuck the tablet away and ask Rina to wait. Relief and disappointment flicker across Nia's face. Rina's jaw tightens; she steps back, reminding you, gently, that speed favors the bold."]
+[MERGE: The crew goes back to work with a brighter urgency or a quieted tension depending on your choice; either way, the clock tightens.]
+
+[Visual: Close-up on a seedling: its tiny green a brittle promise]
+[Sound: A distant, muted alarm—someone's phone, a timeline blinking awake]
+
+You leave the Glasshouse with a list half-drawn in your head. There is talk of money in one hand and the smell of diesel on the other; both claim they can save people.
+
+[Scene: Headland | Mid-Morning]
+[Visual: The headland offers a hard, exposed silhouette: machinery, survey flags flapping, and the marsh channels glinting beyond]
+[Music: Sparse piano; intervals that hang like unspoken doubts]
+[Sound: The low thump of heavy equipment in sleep mode; gulls screaming over grit]
+
+The headland feels colder than the Glasshouse—open, brutal, and public. You walk the gravel path toward the dock where Elias "Eli" Calder stands, hands shoved into the pockets of his canvas vest, gaze fixed on the machines like a man inspecting a wound.
+
+Elias "Eli" Calder looks at you the way someone looks at an old map with parts rubbed away: searching for landmarks that still mean home.
+
+Elias "Eli" Calder: "They've moved the markers overnight. Surveyors were here at dawn. Tomas says the contractor wants to start grading next week."
+Mara Voss: "That fast?"
+Elias "Eli" Calder [bitter laugh]: "Fast's what the contracts demand. Fast's what keeps people from worrying about rent for another month."
+
+His voice narrows around 'rent' and you hear the ledger beneath it—boats serviced, nets mended, school bills. The practical measurements of survival.
+
+You step closer, the salt wind tugging at the collar of your jacket. Up close, Elias "Eli" Calder's face is more open than the town square; he looks tired in a way that isn't just about working long hours—it's the exhaustion of someone balancing on a ledger that could tip at any time.
+
+Elias "Eli" Calder: "So what do we do? Sit in the Glasshouse and plant daffodils while the bulldozers sketch their shadows over the channels?"
+Mara Voss: "We shouldn't be pitting jobs against marsh. There's a middle—pilot zones, raised docks, jobs for local boatbuilders. But it needs backing."
+Elias "Eli" Calder: "Backing means paperwork. Backing means talking to people who put up fences as gestures. Talking can be appeasing, Mara. Talking can be how important things get smoothed into someone else's plan."
+
+He is not unsympathetic to negotiation; he is wary of its teeth. His loyalty pulls him toward solutions that keep hands working. You can feel the distance between your methods—data and design—and his instinct—build and maintain—like two tools pressing on the same wound.
+
+Tomas arrives, slow and deliberate, map case in hand. He smells of smoke and old rope. He doesn't waste words.
+
+Tomas: "Mayor wants to see you this afternoon," he says. "Said it's urgent. Said 'we need a plan.'"
+The word 'urgent' is a pleat in time. Urgent usually means a decision that will leave someone out in the rain.
+
+Elias "Eli" Calder flinches at 'Mayor'—not because of the person, but because of the way politics folds into livelihoods.
+
+Elias "Eli" Calder: "If you go into that office, they'll make you the face of compromise, Mara. They'll dress the concessions in ribbon and call it protection."
+Mara Voss: "And if I don't—"
+Elias "Eli" Calder: "Then they push through the plans and leave us picking through the marsh, wondering how we didn't see the cuts."
+
+His eyes study your face. There is an edge to his worry that isn't simple opposition—it's a fear that the thing you protect may be sacrificed for a promise that isn't binding.
+
+[INTERACTION]
+> Choice A: "Tell Elias you'll go and press for pilot zones—risk the label of compromiser"
+> Choice B: "Tell Elias you won't negotiate—promise to double down on local projects"
+[Outcome A: "Elias doesn't relax. He nods slowly, respect and an ache behind it. 'Just—hold the line on the channels,' he says. His voice is small with hope."]
+[Outcome B: "Elias's jaw tightens; anger, then a raw fear. 'If you do that, Mara, you leave us exposed,' he says. He turns away, and for a breath you think you feel the distance grow between you."]
+[MERGE: You notice how the choices split trajectories even before the words leave your mouth. There is no clean path. Only margins and the people who live inside them.]
+
+[Visual: The tide pulls back, exposing mud and the ghost outlines of channels]
+[Sound: A distant machine coughs like a throat clearing]
+
+Tomas unfolds a weathered map across the dock. He traces the channels with a finger that remembers storms you barely recall.
+
+Tomas: "Pilot zones only last if the law lines up. You need the mayor to sign protections, or else they mean almost nothing. And signatures take votes—votes take promises—and promises cost something."
+
+His voice is small, but it says all the procedural things that feel like deliberate erosion: timelines, votes, contracts. You feel the weight of those bureaucratic gears grinding in the background.
+
+You look at Elias "Eli" Calder again. His expression is complicated—tight, protective, but not unmoving. The merge-rule hums at the back of your mind: you can't assume exactly where his loyalties have landed in the last weeks, only that his reaction is significant and layered. You store it as 'complex' and let it shape your next steps.
+
+[Scene: Mayor Rosa’s Office | Midday]
+[Visual: An office with windows looking out over the harbor; a neat stack of public notices and a tide-chart pinned behind the mayor's chair]
+[Music: Low strings with dissonant undercurrent]
+[Sound: The muffled bustle of the town outside; a phone on the desk humming intermittently]
+
+Mayor Rosa receives you with the practiced calm of someone who balances applause and reproach daily. Her sleeves are rolled; the lapel pin of the town crest glints. There is a fatigue in her eyes that looks like late meetings and early calls, and a firmness that says decisions have consequences she must own.
+
+Mayor Rosa: "Mara. Thank you for coming. Sit, please."
+Mara Voss: "Thank you for seeing me on short notice. The town's on a clock."
+Mayor Rosa: "I know. Council passed a motion to open negotiations with Azure Crescent. They want to propose modifications. They want community buy-in."
+
+She speaks with the cadence of someone translating duty into action.
+
+Mayor Rosa: "We can try to secure limited legal protections for pilot zones—buffer strips, restricted grading in key channels, local hiring clauses. But I won't lie: the developer's leverage is strong. Jobs are on the line and so is my seat. Compromise may be the only thing that prevents more immediate harm."
+
+Her hands fold over each other; the words 'I won't lie' arrive like a weather forecast that is half threat, half policy. You can see where she stands: pushed by a need to preserve immediate livelihoods and political stability.
+
+You feel a familiar tension coil—between what you know scientifically is necessary and what the town can stomach politically. The marsh does not vote. People do.
+
+Rina Park, who has been shadowing you throughout the morning, leans in as if she can be the bridge between grant timelines and municipal protocols.
+
+Rina Park: "If you agree to enter negotiations with the mayor, we can frame a proposal that ties pilot protections to guaranteed, measurable job placement. We get the mayor to announce it publicly—momentum builds."
+Mayor Rosa [a little sharper]: "Public announcements without enforceable language are hollow. I need something that sticks. Legal wording. Timetables. Penalties."
+Rina Park: "We can draft that. The funders want quick wins. We can use that urgency as leverage to secure the wording."
+
+You watch the exchange and hear, again, the same danger: language that sounds binding but leaves room for interpretation. Mayor Rosa's gaze crosses to you, waiting—expecting you to translate scientific detail into political terms.
+
+Mayor Rosa: "Mara, are you prepared to be the face of this? To stand before a crowd and tell them that what we can get is imperfect but necessary?"
+The word 'Face of compromise' is heavy. To stand where people who trusted you might see erosion and call it trade-off—would it change the way they see you? Would it change what you did?
+
+You open your mouth, ready to thread terms between science and politics, then your phone buzzes—Rina Park's message flashing: 'They'll want terms. They'll want speed.' The kettle whistles in the distance of your memory, a reminder of the crew at the Glasshouse needing payroll.
+
+Tomas's voice interrupts in your mind: 'Signatures take votes—votes take promises—and promises cost something.' The room seems to contract to the size of that sentence.
+
+Mayor Rosa: "I need a posture from you, Mara. If we go into this, what’s the primary objective? Legal protections first, or jobs first? Because they won't be the same in practice."
+
+You inhale. The marsh in your head feels exposed—channels like veins on a paper map.
+
+Before you can answer, Rina Park leans in and lowers her voice.
+
+Rina Park: "There is another way. Emergency annex funding—if we accept, we can scale our pilot and show economic data in weeks. It ties us to funders' timelines, yes, but it gives us proof to bring to the mayor. It may shift the bargaining power."
+
+The words hover: power, proof, timelines. Each bearing the truth that time costs in a different currency—some paid in legal language, some in a payroll ledger, some in the slow death of eelgrass.
+
+Mayor Rosa folds her hands again.
+
+Mayor Rosa: "Or you refuse to meet with them at all. Make your stand purely local. That will preserve moral clarity. It will also leave the town exposed politically. You'd be saying no to an offer of structural protections in exchange for a chance at keeping everything intact."
+
+You feel the room tilt. The three pathways stretch before you like cold tide marks.
+
+Mayor Rosa: "Mara, you must choose a posture. I cannot negotiate for you and expect the community to follow a leader who hasn't decided."
+
+There is silence. The kind that holds the sound of the town leaning in, waiting. The greenhouse lights, the gulls, the thump of machines—all become background to this choice. Your chest is tight; your mouth dry. You think of Nia's determined hands, of Elias "Eli" Calder's cautious loyalty, of Tomas's maps and Rina Park's tablet.
+
+You realize now that any direction will cost something: compromise, dependency, or isolation. The marsh will feel it, the town will feel it, your relationships will be bent by it.
+
+[Visual: Close-up on your weathered notebook; the page is blank except for a single penciled question: 'Which posture?']
+[Music: Single sustained violin note that fades to silence]
+
+[INTERACTION]
+> Choice A: "Ask the mayor for time to consult the community and draft a hybrid proposal"
+> Choice B: "Tell Rina to start the emergency annex paperwork now and present it as leverage"
+> Choice C: "Refuse to enter any negotiations—commit to expanding local projects with or without outside help"
+[Outcome A: "Mayor Rosa nods, but you see worry line her forehead. 'Time is a luxury,' she says. You step out into the hall with the uneasy certainty that consulting buys political risk but may save integrity."]
+[Outcome B: "Rina's face lights with fierce energy; she already has contacts and timelines. You feel the pull of money and momentum, and a small, anxious hope that speed will be your ally."]
+[Outcome C: "Mayor Rosa's face tightens. 'You'll be isolated,' she says. You feel the moral clarity you crave, but also the coldness of exposure. Tomas's maps and Elias \"Eli\" Calder's ledger spin in your head like weather charts."]
+[MERGE: You stand at the mouth of a decision that will shape not only the marsh but how the town remembers its own resilience. The choice hangs like a storm front—inevitable and unforgiving.]
+
+[DECISION POINT]
+Which tactical posture will protect the marsh while serving livelihoods?
+1) Option 1: "Appeal to Mayor Rosa and enter local negotiations to secure limited legal protections for pilot zones." -> TARGET chapter_id: 12
+2) Option 2: "Apply for emergency NGO annex funding to scale jobs and prove economic arguments quickly." -> TARGET chapter_id: 15
+3) Option 3: "Refuse to negotiate with the developer; double down on community projects regardless of wider outcomes." -> TARGET chapter_id: 14
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Appeal to Mayor Rosa and enter local negotiations to secu..." -> ID 12 (Route C (Ending))
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_f99e88.txt
+Option 2: "Apply for emergency NGO annex funding to scale jobs and p..." -> ID 15 (Additional Route (Ending C3 / B2 — Sad))
+    > Jump Target File: script_ch15_Additional_Route_Ending_C3_B2_Sad_ctx_f99e88.txt
+Option 3: "Refuse to negotiate with the developer; double down on co..." -> ID 14 (Additional Route (Ending C2 / A3 — Sad/True hybrid))
+    > Jump Target File: script_ch14_Additional_Route_Ending_C2_A3_Sad_True_hybrid_ctx_f99e88.txt

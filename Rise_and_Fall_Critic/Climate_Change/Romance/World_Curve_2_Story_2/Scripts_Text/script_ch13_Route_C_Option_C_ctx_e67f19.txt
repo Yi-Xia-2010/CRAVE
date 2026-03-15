@@ -1,0 +1,185 @@
+### SCRIPT
+# Route: Route C / From 11 & 13
+# Context: e67f19
+
+[Scene: Harborfall Town Hall | Morning]
+[Visual: Sunlight through high windows, dust motes in shafts of pale gold. A legal binder lies open on a long wooden table beside a battered clipboard. Your tide-chart scarf is draped over the binder; the pattern looks like a map of promises.]
+[Music: Low, somber piano with a slow heartbeat bass]
+[Sound: Distant gulls, muffled traffic of a town waking, the soft rustle of pages]
+
+You sit with the binder heavy in your lap and feel the referendum's narrow victory like cold water in your bones — relief braided with a new, sharper fear. It bought you leverage, and with leverage came strings: conditional funding, stewardship clauses, oversight boards. Everything must be written so it cannot be unmade, and yet the words you choose now will also decide what is allowed to be done quickly.
+
+Your hand drags over a clause about "expedited timelines under emergent threat." The sentence is efficient, legal; it tastes like iron. Kaito Sato leans in opposite you, a tablet balanced on his knee, eyes flicking between your notes and his sensor-readings. His presence steadies you, but where there was once easy rapport there's something taut — as if both of you have folded yourself around the referendum's new edges and the folds are sharp.
+
+Mayor Elena clears her throat and smooths her blazer. Across from her, Lucia "Lux" Moreno—polished and precise—tilts her head like a scientist studying a specimen. Her smile is the same practiced warmth as ever; it doesn't reach the steel-gray of her eyes.
+
+Mayor Elena: "Maya, the council wants clarity on oversight language. LuxCorp agrees to the stewardship board in principle, but—" (she looks toward Lux) "—there has to be a mechanism for timely deployment. Voters will not tolerate waiting."
+
+Lucia "Lux" Moreno [tilting her chin]: "Timely deployment saves lives. We will not jeopardize safety for a theoretical purity. Our engineers can deliver within months if we are permitted to stage operations without bureaucratic delay."
+
+Maya Inoue: "Safety isn't theoretical," you say. Your voice is measured because everything else is already raw. "But neither is stewardship. The board has to have teeth. We need transparency on sensor data access, on material sourcing, on subcontractor vetting. Otherwise the money will buy speed at the expense of the things that keep the town together."
+
+Kaito Sato [softly]: "I can draft the transparency protocol. Open APIs for the sensor feeds, immutable logs for construction sign-offs. If the community can see timelines and data, they can hold contractors accountable in real time."
+
+Lucia "Lux" Moreno [tilting her chin]: "Open APIs create liabilities. Investors expect certain protections. We can carve out a public dashboard that shows non-sensitive data, and a secured access tier for engineering telemetry."
+
+You feel the word "carve" like a small incision. It promises shape while removing flesh. You press a pen to the page and write "public dashboard — non-sensitive data" but in your head the words multiply into levers and loopholes.
+
+Mayor Elena: "We need the funding. We need the engineers. If LuxCorp walks, we lose everything. But if we don't circumscribe them..." (she shakes her head) "Maya, you negotiated the referendum. The town gave you the mandate to keep them honest."
+
+Lucia "Lux" Moreno [a small, disarming smile]: "We want to protect Harborfall as much as you do, Mayor. The quicker we act, the fewer people will be displaced when the storms come."
+
+You watch Lux's hands while she speaks — precise fingers that have signed more contracts than you can imagine. There's a gentleness in the tone, but you know how quickly "quicker" can become an excuse to skip consultation.
+
+[INTERACTION]
+> Choice A: "Insist on full public access to the sensor feeds now"
+> Choice B: "Request a phased transparency model tied to legal audits"
+[Outcome A: "You push hard, tapping your pen to the clause. 'Open data now, no tiers,' you say. The room tightens. Kaito exhales, a mixture of admiration and worry, and Lux's smile thins to a line. Mayor Elena's fingers drum once and she asks quietly about liability."]
+[Outcome B: "You offer a compromise: phased transparency with legally mandated audits every quarter. Kaito nods, relieved; Lux inclines her head, calculating. Mayor Elena allows a small, grateful smile — it's enough to move the conversation forward, but the scent of concession lingers."]
+[MERGE: The meeting proceeds.]
+
+Lucia "Lux" Moreno [after a beat, to Mayor Elena]: "A phased model is workable. We can include third-party auditors. It preserves investor protections and provides the town with oversight."
+
+Kaito Sato catches your eye and offers a small, private smile — the one he used to offer across soldering irons and sensor arrays. You accept it because you both know you are trying to thread a needle through a moving storm.
+
+[Scene: Kaito's Field Lab (Workshop) | Afternoon]
+[Visual: Rain streaks on the open shutters. Jars of tide samples line a shelf. Blueprints are pinned to plywood, annotated in two handwriting styles.]
+[Music: Soft, anxious strings]
+[Sound: The hum of a centrifuge, the staccato tap of a stylus on glass]
+
+You and Kaito spend the afternoon drafting the sensor transparency protocols. He talks in small, technical sentences that carry enormous moral weight.
+
+Kaito Sato: "We can timestamp every feed with a verifiable hash. Data gets pushed to the public dashboard after a thirty-minute buffer to scrub personally identifying information. For construction telemetry, contractors upload photos with geotags and machine signatures. If sign-offs don't match the plan, it's flagged."
+
+Maya Inoue: "And who flags? Who acts?" Your fingers drum the edge of a sample jar. The question is the friction point: accountability without a body to do the work is just rhetoric.
+
+Kaito Sato: "The stewardship board reviews flags. We give community liaisons admin privileges to request immediate pauses if there's probable cause. The auditors can enforce fines clothed in legal agreements. And there's an emergency clause that allows the Mayor to call for a temporary halt."
+
+You both fall silent, imagining a world where flags are heeded rather than buried. Outside, rain hits the boathouse roof in a steady, metallic percussion.
+
+Kaito Sato [quietly]: "We did the right thing, Maya. This is as open as we could make it."
+
+You want to believe that. You want to believe that the bindings on paper will hold when machines and money press against them. For a moment, in the cluttered lab light, the world seems to tip toward that possibility.
+
+[Scene: Harborfall Promenade | Construction Begins]
+[Visual: Cranes silhouette against a gray sky, a ribbon of rock and geotextile being lowered. Plastic tarps flap like tired flags. The smell of diesel and wet seaweed forms a throat-tightening cloud.]
+[Music: Low percussion, a distant siren that never resolves]
+[Sound: Clink of chains, shouted instructions, a hammer tapping deadlines into place]
+
+Construction moves fast. Lux's engineers work with practiced efficiency; their teams carry schedules on tablets, their language of milestones and critical paths smoothing over the town's rougher edges. You stand on the promenade with Tomas, watching barges drop rock where the old shore had once crept up to the sea grass.
+
+Tomas [his voice rough as rope]: "They did this job in three days where my father took three months to shore a single bank. You see that, Maya? Those stones will settle wrong."
+
+Maya Inoue: "We wrote in subcontractor vetting. We insisted on marine ecologists on-site, on slow placement near eelgrass beds."
+
+Tomas [shakes his head]: "Paper's not a net when the tide comes different."
+
+A foreman — one of LuxCorp's subcontractors — clamps a radio to his vest and gives you a brisk nod, the kind of nod that means business has been done and questions will be answered later. You approach, the binder your weight.
+
+Maya Inoue: "We need a hold on any placement within thirty meters of the eelgrass corridor until the inspectors confirm soft placement techniques."
+
+Subcontractor [checking his tablet]: "Departure window's tight. If we pause, we hit the next tide schedule and the crane charter costs spike. Orders came down to keep pace."
+
+You can feel the familiar logic: time is money; money bends plans. You remember drafting the clause that allowed "expedited timelines under emergent threat." Today's tide looks like a threat that insists on immediacy. The clause that was meant to be a safeguard is now a lever for speed.
+
+[INTERACTION]
+> Choice A: "Insist on immediate soft-placement review despite delays"
+> Choice B: "Reluctantly permit them to continue under strict photo logging"
+[Outcome A: "You plant your feet and call the inspectors. Machines idle, men shift uneasily. The subcontractor mutters about charter costs. Kaito appears at your shoulder, his jaw tight, and you feel the cost of pausing settle into everybody's shoulders."]
+[Outcome B: "You sign off with a stipulation: continuous photo geotags and an on-call ecologist. The crane keeps moving. Kaito's fingers rub his temple; Tomas spits into his palm like an old prayer. You've bought time and traded risk."]
+[MERGE: The project proceeds under strict logging and oversight.]
+
+You choose compromise — the project moves forward under strict logging and promised oversight. It is what the town wanted: protection and money. It is also a promise you've learned to fear.
+
+[Scene: Fishing Cove | One Month Later]
+[Visual: Mud-streaked boats listing against empty piers. Eelgrass beds, once a thick green carpet, hang in damp, shredded ribbons at the waterline. A smear of lighter-colored silt runs like a wound along the nearest channel.]
+[Music: Sparse, descending cello notes]
+[Sound: The slow plop of something lost in the water, wind through a broken net]
+
+The first time you see the collapsed eelgrass corridor you think your eyes are betraying you. The mats have thinned to ragged strips. The water tastes and smells different — a metallic tang like pennies and old engines. The sediment has shifted; small channels where fish used to move are clogged with the aftermath of rock placements.
+
+Tomas stands with his net empty, shoulders bent as if the sea's absence sits there personally on him.
+
+Tomas [voice small]: "We used to set the net here and bring in enough to feed the block for a week. Now it's like reaching into paper."
+
+Maya Inoue: "The monitoring flagged increased turbidity at the time of placement. We recorded stress events in the eelgrass's photosynthetic indicators. We should have stopped it then."
+
+Tomas [shaking his head]: "Would more stopping have saved my father? Would it have kept the kid with the little boat who left last week? They left because the work changed what we catch."
+
+Kaito Sato stands a few paces away, his hands shoved into his jacket. He had been a quiet energy in all the meetings; now the quiet has the edge of something vertical and hard. He isn't tempering you anymore.
+
+Kaito Sato [too measured]: "We calculated probabilities. We included buffers. The models said low risk of persistent collapse."
+
+Maya Inoue: "The models didn't hold when the subcontractor compacted the rock too close to the bed. The logs showed deviations. The photos were inconsistent with the placement notes. Someone rushed and we trusted the chain would catch it."
+
+Kaito Sato [looking at you, then out to the sea]: "We trusted institutional safeguards, Maya. We built contingencies into clauses, but they were only as strong as the people enforcing them."
+
+Maya Inoue: "Who enforces when enforcement is a line item that can be deferred to save costs?"
+
+There's a silence heavy enough to be a presence. You want to reach for Kaito's hand like you did the night you argued over sensor firmware, but his shoulders angle away in a subtle, almost invisible withdrawal. Where he used to press his palm into the back of your hand, there is now simply the empty gesture of someone measuring distance.
+
+[INTERACTION]
+> Choice A: "Step closer to Tomas and offer to help salvage what you can"
+> Choice B: "Stand back and photograph the damage for the audit"
+[Outcome A: "You kneel and run your fingers through the cold, silt-thick water, trying to find any living blade to anchor hope to. Tomas' eyes mist briefly. Kaito watches, mouth a thin line, and you taste salt that isn't only ocean."]
+[Outcome B: "You lift a phone and record the eelgrass collapse, the geotag stamping the moment into immutable time. Kaito steps forward, his voice clipped as he explains chain-of-custody protocols to a junior auditor. The world begins to be translated into paperwork — a comfort and an indictment."]
+[MERGE: The aftermath is documented and the community begins to disperse.]
+
+People begin to leave. Not all at once — families pack at different paces, local trades evaporate into city postings, younger fishers sell boats they can't afford to maintain. You watch a neighbor across the cove load a battered fridge into the back of a rented truck and feel the small avalanches of departure as each item is a vote that this place will not be the same.
+
+Kaito Sato [softly, to you]: "We can escalate this to the auditors. We can demand an independent review, fines, remediation."
+
+Maya Inoue: "We will. We have to." Your voice sounds frayed. The binder in your memory feels thicker, heavier with promises you can't fully enforce. You imagine the stewardship board in session, people with legal pads and tired eyes trying to stitch the town back from an erosion that began with a choice to speed up.
+
+Kaito Sato [his curiosity hardened]: "Why did the subcontractor deviate? Who signed off? The logs will show it."
+
+Maya Inoue: "Because the chain is made of people who answer to timetables too. Because 'expedited' became permission, and permission silenced caution."
+
+Kaito's jaw tightens, and for the first time in months, you see a line in him that you can't reach. It's not anger — not exactly — it's a distance that looks like disappointment, and disappointment often hardens into resignation.
+
+Tomas [to no one and everyone]: "We wanted protection from storms, not to watch the shore turn against us. How do you protect a town if the sea keeps taking what feeds the town?"
+
+The question hangs between you like a bell that will not stop ringing.
+
+You walk the line of damaged eelgrass, boots sinking into a smell of old salt and new rot. Each blade you touch is a little thing that held the town together in ways no clause could quantify. You think of your brother — of promises you made in the dark after the storm — and wonder which promises you kept, and which you traded for a brittle kind of safety.
+
+[Visual: Close-up of a single eelgrass blade between your fingers, dark and yielding]
+[Music: A single violin sustaining a note that frays at the edges]
+
+You try to catalog the losses in your head: livelihoods, trust, the mild, everyday certainties that used to hold Harborfall upright. The hybrid you designed — a scaffold of compromise — creaks under the weight of human impatience and corporate timetables. Where you had hoped to braid nature and engineering into a durable rope, it has frayed into strands that catch on the town's sharp edges.
+
+Kaito Sato stands apart, jaw set, watching a wave lap at a ruined seam of shore. Tomas folds his hands into his jacket and looks at the empty net slung over his shoulder. Mayor Elena's messages go unanswered; LuxCorp issues a statement that reads like a cleansing rinse of corporate language. The stewardship board convenes, but convening is not fixing.
+
+You close your eyes for a moment and feel the salt of other people's small departures on your skin. The referendum passed. The town has money and a mandate and a map of clauses. Yet the map shows limits you did not foresee.
+
+A gull cries and the sound is thin.
+
+Your notebook sits in your mind — pages of actions you still owe. You add a new line, unsteady: investigate subcontractor deviation; call independent auditors; propose emergency eelgrass remediation fund; request immediate halt to further rock placement pending review.
+
+The list makes you breathe faster. The fall you felt when you chose the referendum has widened; it isn't the defeat of a single vote but the unspooling consequences of compromises that were meant to save the town.
+
+You look out across the cove, to where the eelgrass thins into nothing, and realize that the next move will not be about policy drafts alone. It will be about who you can still reach — who will stay, who will leave, and whether the town can afford the price of being partly saved.
+
+[Visual: The horizon is a gray smear; the town stitched with tarps and cranes, a brittle silhouette]
+[Music: Piano and cello descend together into near silence]
+
+You take a breath that tastes of iron and cold sea. You are tired and taxed and unmoored in a way you recognize as grief. You cannot fix everything with clauses. You cannot hold everyone's hands and be everywhere the town needs you to be. But you still have ink, leverage, and a stubbornness that is part guilt and part love.
+
+A crack of thunder, somewhere distant, suggests the weather has heard all of this already.
+
+You straighten, the binder a hard weight against your ribs, and set one foot forward into the messy, necessary work of response.
+
+[Visual: Fade to slow close on your hand closing the binder]
+[Music: Fade to a single, unresolved chord]
+
+The town waits. So do the auditors, the engineers, the people who left and those still standing. The shoreline will continue to unravel and you have to decide how to pull at the threads.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 14]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 14
+    > Jump Target File: script_ch14_Route_C_From_11_13_ctx_77cd71.txt

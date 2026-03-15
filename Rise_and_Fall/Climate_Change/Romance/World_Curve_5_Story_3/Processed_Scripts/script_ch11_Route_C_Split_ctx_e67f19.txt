@@ -1,0 +1,164 @@
+### SCRIPT
+# Route: Route C (Bittersweet Ending)
+# Context: e67f19
+
+[Scene: Community Greenhouse & Restoration Lab (the boathouse) | Early Morning]
+[Background:"ch11_e67f19_1"]
+[Sound: Low hum of sensor readouts; gulls thinly audible beyond the glass]
+[Music: Quiet, resolved strings with a minor undertow]
+
+You are at the bench where the night’s work ended and the next day’s anxieties gather. Your fingers find the brass clip of your notebook out of habit; the seashell pendant rests warm against your collarbone. The validation notice sits in the comms thread you left open: an independent coastal institute has reviewed the datasets you and the volunteers compiled, and their brief is short and precise — it supports your core findings about marsh buffering capacity and long-term carbon sequestration.
+
+For a moment you let the weight shift. Validation is not applause; it is the kind of authority that can be quoted in meetings, printed on placards, and made to move policy. You feel the static prickle of possibility and, underneath it, the familiar ache: every new lever makes someone somewhere push harder in the opposite direction.
+
+[Background:"ch11_e67f19_2"]
+[Sound: A muted chime as more messages trickle in]
+
+Mika bursts in with muddy boots and sunburned impatience, hugging a stack of volunteer schedules like a shield.
+
+Mika [excited]: "They quoted you in the hearing transcript — Elena used your phrasing. People were actually listening, Aya. For a minute I thought we'd won."
+
+Amaya Saito [You try to keep your voice even.]: "We got a validation, not a victory." (You try to keep your voice even.) "But it's the kind of thing that makes a paper trail. Keep the lists intact; we can't have anything disputed on clerical grounds."
+
+Mika [She nods, brow furrowed.]: "Right. Right. I'll lock everything down and get the team ready. Do you want me to run the sensor array through—"
+
+Amaya Saito: "Yes. Twice. Cross-validate. And call Dr. Kaito — ask him to sign an advisory note if he can." (You can feel the practical motion settling you: tasks are the scaffolding for courage.) "Also… keep the volunteers briefed. No provocation. Let the data do the talking."
+
+Mika [She smiles, a little forced.]: "Data talks. People panick faster."
+
+[INTERACTION]
+> Choice A: "Send a calm press release quoting the institute"
+> Choice B: "Call Elena and ask for a civil defense meeting"
+[Outcome A: "You draft a short, neutral statement, emphasizing facts and inviting open peer review; your fingers hover before you hit send, imagining the headline it will make."]
+[Outcome B: "You pick up the phone and call the mayor; you hear her inhale, tired and ready, and you schedule a meeting that will gather officials and first responders into a single room."]
+
+[Scene: Takase Cove | Midday — Later the same day]
+[Background:"ch11_e67f19_3"]
+[Sound: Distant sirens cutting across gull calls; murmurs swell along the docks]
+[Music: Low brass and sparse percussion, a heartbeat of unease]
+
+You learned of the incident through a garbled emergency feed: a partial collapse at the seawall construction site. A newly poured foundation — claims the headline — had been undermined by an early surge. The initial footage arrives like a blow to the chest: spattered concrete, a crane leaning at an accusing angle, a line of workers standing shell-shocked beneath an industrial moon of floodlights. Dust and diesel smoke hang in the air, and the town's conversation snaps from cautious optimism to sharp-edged fear.
+
+You smell diesel and wet concrete through the comms feed before you see anything in person. The footage cuts between a contractor's frantic voice and the calm, practiced image of Maren Voss delivering statements to a bank of cameras. She uses the collapse as a demonstration: certainty framed as necessity.
+
+Maren Voss [onscreen, voice composed]: "This is what unmanaged coastlines do. Engineering prevents this. We must trust scale and speed. Hesitation costs lives."
+
+You watch her edges of certainty; something in you tightens like a reef under pressure. Her argument is simple and clean and terrifyingly effective in the face of people's shaking hands.
+
+[Background:"ch11_e67f19_4"]
+[Sound: A chorus of phones vibrating with messages]
+
+You call Lucas because the site is his project's spine — because he is an engineer and because, in that thin, immediate way, he is a node who can move things quickly. The line connects through to static and the background noise of emergency crews.
+
+Lucas Herrera [Voice low, brittle]: "I was there. We were securing a temporary cofferdam — a contractor miscalculated the tide window. No one was seriously hurt, but the headline is what matters now. Maren is framing it perfectly."
+
+Amaya Saito: "Did you… see anything we can use? Data logs? Camera feeds? If we can show the collapse was avoidable without full-scale, permanent structures—"
+
+Lucas Herrera [A pause. His breath is a cliff.]: "The logs will show gaps, yes. But they also show that a longer delay could have left people exposed during the next storm. This is political, Aya. The press will not digest nuance."
+
+Amaya Saito [You fight the urge to sound accusing and instead press for fact.]: "Then give me what you can. Let Dr. Kaito look. Let us at least make the narrative less about 'engineering vs. no engineering' and more about 'how to do it without erasing the marsh.'"
+
+Lucas Herrera: "I'll pull the remote feed and the contractor's tide model. But understand — if we withhold resources, people will point fingers at us."
+
+You feel his words as something hard and incompletely explained. Under the public professional tone, there's a current of something more private and complex; you do not have the right to name it, so you let it percolate into the way you frame your next breath.
+
+[INTERACTION]
+> Choice A: "Go to the site now and speak to crews"
+> Choice B: "Stay at the boathouse to secure datasets and coordinate release"
+[Outcome A: "You head out, boots on, inhaling salt and diesel; up close, the work feels heavier, the machine noise a metal prayer — you ask precise questions and hold the camera steady for the record."]
+[Outcome B: "You stay, fingers flying across keys, redacting sensitive details while building a narrative that can withstand Maren's framing. The lab becomes a quiet fort of evidence."]
+
+[Scene: Seawall Construction Site | Afternoon — Emergency lights cutting through fog]
+[Background:"ch11_e67f19_5"]
+[Sound: Overhead rotors of a drone, lowthrum of pump equipment, the distant scrape of metal on metal]
+[Music: Taut strings; an unsettled, descending motif]
+
+You stand at the site's perimeter while officials cordon off the most dangerous sections. The smell of salt, churned earth, and wet concrete is sharp in your nostrils. The air tastes of iron. A small knot of reporters presses forward, their cameras like compasses pointing at culpability.
+
+Dr. Kaito [Murmuring]: "Poor compaction, rushed cure time… The contractor may have underestimated pore pressure. But that doesn't mean the marsh is the antagonist here."
+
+Reporter: (To Maren Voss, who stands composed beside the brand insignia of Atlantech) "Ms. Voss, can you comment on whether slower, nature-based approaches are now reckless?"
+
+Maren Voss [Polished.]: "This incident highlights a reality we can't skirt: when communities are threatened, speed and scale save lives. We cannot romanticize the marsh at the expense of safety."
+
+You watch her speak; each word is a lever being pulled. The crowd leans into fear as if into wind — it's easier to let the strongest thing draw a line than to make a messy map of incremental solutions.
+
+Lucas Herrera joins you, hands dusty, an AR filter pushed up on his forehead like a crown of conflicted light. His expression is unreadable; he gives you data access with a terse nod but there is no softening in his voice.
+
+Lucas Herrera: "They'll want a demonstration of immediate mitigation. A temporary sheet pile or localized buttress could secure this section in the short term. It buys time but shifts the project narrative: it's a patch, not a principled alternative."
+
+Amaya Saito: "If we accept a patch, how do we prevent it from becoming permanent? How do we keep the study intact?"
+
+Lucas Herrera [He inhales.]: "All mitigation comes with conditions. We can stipulate environmental monitoring, reversible materials, a sunset clause, but legally… that's messy."
+
+You feel the room narrow to the line of possible compromises. Messy is not always wrong. Sometimes messy is the only thing that keeps a larger loss from occurring. But you cannot ignore the way Maren Voss's language is reshaping the town's fear into a mandate for scale.
+
+[Sound: A phone vibrating repeatedly; a volunteer sends a photo of the morning's market where people are arguing, some pleading to start evacuation shelters]
+[Music: A low, descending cello; the sky outside the site drains color]
+
+Volunteers gather around you, faces tired. Mika's usual blunt encouragement is gone — she looks small, a knot of worry.
+
+Mika: "They're saying this proves Maren is right. Half the town's convinced. My aunt started packing photo albums. People want safety and they want it now."
+
+You swallow. Your chest is tight, the way a tide clamps down on a low reef. You want to give everyone certainty. You want to promise a fix that keeps both the marsh and the town. Instead you offer what you can: plans, a clear outline of what temporary mitigations will and will not do, and a pledge to keep the science transparent.
+
+Dr. Kaito: "We must speak plainly. People are frightened; fear makes a small room for nuance. But data — peer-reviewed, clear, and accompanied by people's stories — can still move hearts and policy."
+
+You hesitate. There are paths out of this throat of panic: escalate to regulators who can stop the project temporarily, work with Lucas on an emergency mitigation that preserves the study's integrity, or bring the marsh's human stories to the fore and try to temper fear with empathy. Each choice scours something away.
+
+[Background:"ch11_e67f19_6"]
+[Music: Strings pull tight and then let out; a cold wind moves through the site]
+
+Conversation continues around you in overlapping threads — officials pressing for immediate action; Maren Voss’s spokespeople framing urgency as the only sane path; neighbors asking you quietly if you will keep them safe.
+
+Lucas Herrera: "Whatever you decide, make it fast. There's no time for us to be purely idealistic."
+
+Amaya Saito: "I know." (You feel the old story of your father in your chest — the one about choosing which lines to hold when the storm comes. That memory sharpens your sense of what this fight will ask you to sacrifice.)
+
+[Scene: Takase Cove — Evening]
+[Background:"ch11_e67f19_7"]
+[Sound: Murmured conversations, snatches of radio traffic, the solitary cry of a gull]
+[Music: Sparse piano with low, lamenting underscoring]
+
+Back in town, the headlines have hardened into slogans. Opinions have polarized with a speed that makes your head ache. Elena calls an emergency council session for first thing tomorrow; some officials already drift toward Maren Voss's promises of certainty. Others, quieter, ask for proof that their homes will not be lost.
+
+Dr. Kaito [folding his hands, tired sympathy]: "We are at the point where the story people want to hear is simpler than the truth. There will be pressure to make that simpler story the policy."
+
+Amaya Saito: "We validated the data. We have supporters. But a collapse—especially one framed the way Maren framed it—changes the political calculus overnight."
+
+Dr. Kaito: (Nods.) "And people who are frightened will choose a visible answer. That bakes in an infrastructure-first approach."
+
+Lucas Herrera appears at the doorway of the boathouse, the day’s dust brushed off but not gone. His face is drawn; you cannot tell whether he is buffered by professional detachment or just trying not to show the worry that matches yours.
+
+Lucas Herrera: "I can put forward a mitigation plan at the meeting. I can make it technical, with legal caveats. But it will look like a concession."
+
+Amaya Saito: "If we accept mitigation, we must make it conditional and reversible. We must keep monitoring intact and tie funding to marsh restoration."
+
+Lucas Herrera [He gives a small, complex smile, the kind that flares uncertainly at the edges.]: "You want a clause that makes future engineers feel uncomfortable. I like that clause."
+
+Amaya Saito: (You return the look, the thing between you unspoken and raw with consequence.) This is no longer only about technique; it's about trust — in process, in people, and in the possibility that a compromise can still be principled.
+
+Dr. Kaito: "Tomorrow will set a tone. Choose the frame you want the town to hold when fear settles in."
+
+Your heartbeat is a slow drum. You map the options in your head again, each one heavy with likely loss and possible gain. There is no clean right. Only different ways to survive, and all of them will require trade-offs.
+
+[Music: A single, low final note; the lanterns blink, and the town exhales a fragile, exhausted breath]
+
+You stand at the edge of choice.
+
+[DECISION POINT]
+How respond to the storm incident and public panic?
+1) Option 1: "Hold fast to the data and escalate to national regulators." -> TARGET chapter_id: 12
+2) Option 2: "Work with Lucas on emergency mitigation while preserving the study." -> TARGET chapter_id: 12
+3) Option 3: "Publicly dramatize victims' stories to humanize the marsh's value." -> TARGET chapter_id: 12
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Hold fast to the data and escalate to national regulators." -> ID 12 (Route C (Bittersweet Ending))
+    > Jump Target File: script_ch12_Route_C_Bittersweet_Ending_ctx_f99e88.txt
+Option 2: "Work with Lucas on emergency mitigation while preserving ..." -> ID 12 (Route C (Bittersweet Ending))
+    > Jump Target File: script_ch12_Route_C_Bittersweet_Ending_ctx_f99e88.txt
+Option 3: "Publicly dramatize victims' stories to humanize the marsh..." -> ID 12 (Route C (Bittersweet Ending))
+    > Jump Target File: script_ch12_Route_C_Bittersweet_Ending_ctx_f99e88.txt

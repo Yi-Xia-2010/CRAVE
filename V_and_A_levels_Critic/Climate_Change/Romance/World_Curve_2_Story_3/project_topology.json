@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-03-10 23:28:14",
+  "total_chapters": 14,
+  "total_valid_routes": 6,
+  "orphans_removed": 1,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending (True)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending (True)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending (Bittersweet)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending (Bittersweet)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        9
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending (Sad)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending (Sad)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "length": 5
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Tide Lines",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "The Pitch",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Fractures",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Co-Design Faultlines",
+      "branch": "Route A",
+      "children_ids": [
+        6,
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Public Reckoning",
+      "branch": "Route A",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Sealed Promenade — Ending (Route A — Sad)",
+      "branch": "Route A — Ending (Sad)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Spotlight and Scandal",
+      "branch": "Route B",
+      "children_ids": [
+        9,
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Temporary Armor",
+      "branch": "Route B",
+      "children_ids": [
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Rupture and Fallout — Ending (Route B — Bittersweet)",
+      "branch": "Route B — Ending (Bittersweet)",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Occupy the Shore",
+      "branch": "Route C",
+      "children_ids": [
+        11,
+        12
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Arrests and Aftermath",
+      "branch": "Route C",
+      "children_ids": [
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Quiet Reconstruction — Ending (Route C — True/Tragic)",
+      "branch": "Route C — Ending (True)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Complicity Exposed",
+      "branch": "Route D",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "Iron Edge — Ending (Route D — Sad/Bittersweet)",
+      "branch": "Route D — Ending (Sad/Bittersweet)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 21,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

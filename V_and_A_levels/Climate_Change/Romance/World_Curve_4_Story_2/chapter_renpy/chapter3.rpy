@@ -1,0 +1,152 @@
+label chapter3:
+
+    # [Scene: City Archive & Council Hall | Late Afternoon]
+
+    scene bg ch3_98c6f2_1 at full_bg
+    # play music "music_placeholder"  # [Music: Energetic strings with a steady percussion undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the soft echo of footsteps on marble, a microphone feedback chirp]
+    "You climb the marble steps with the satchel at your side, the schematic inside pressed flat against your ribs. Momentum from the rooftop follows you like an impatient tide — the hub's votes, the Aster booking,"
+    "the sense that something has shifted from talk to motion. Your palms are damp; the stone is cool under your fingertips. You breathe in the atrium air: old paper, lemon polish, and the faint, breathable salt"
+    "of the harbor riding the ventilation."
+
+    scene bg ch3_98c6f2_2 at full_bg
+    "You remind yourself that this is not a trial of courage but a presentation of facts and promises. Still, the room feels alive — expectant, charged. Hope here is practical and sharp; it wants a plan it can trust."
+    # [Scene: Council Chamber | Continuous]
+
+    scene bg ch3_98c6f2_3 at full_bg
+    # play music "music_placeholder"  # [Music: Strings quicken, a low brass pulse]
+    # play sound "sfx_placeholder"  # [Sound: Murmuring crowd, the soft stapling of packets, murmured greetings]
+    "You step up to the podium. The room hushes enough that the hum feels like a held breath. Your voice finds the cadence you use when a thousand details must become a single, readable sentence."
+    show maya_soren at left:
+        zoom 0.7
+
+    maya_soren "Thank you, Councilors. Colleagues. Residents of Harrow Bay. What I present is a hybrid adaptation strategy—targeted structural defenses combined with expansive kelp restoration and a governance framework centered on neighborhood stewardship."
+    hide maya_soren
+
+    scene bg ch3_98c6f2_4 at full_bg
+    "You move through the schematic the way you always do: first the spine — the sea-wall arcs — then the softer tissue — the kelp corridors and community-managed monitoring buoys. Each image is a promise and"
+    "an instruction. Your hands know how to translate risk into geometry; your throat fills each time with the weight of people who will live inside those lines."
+
+    "Councilor Mendez" "Your timeline looks aggressive, Ms. Soren. And your budget notes a private grant component. Can you explain how community oversight is preserved if private funds enter the ledger?"
+    "You let the question land. It is reasonable and carrying an edge; the Council is testing whether the scaffolding of your compromise holds."
+    show maya_soren at left:
+        zoom 0.7
+
+    maya_soren "Community oversight is codified in the proposal. Any deployment phases require community sign-off through the Resilience Council and an independent ecological monitoring panel. Funding sources are escrowed and cannot be released without those checkpoints."
+
+    "Councilor Mendez" "And the grant—who's offering?"
+    # play sound "sfx_placeholder"  # [Sound: Chairs shift; a polite clearing of throats. A glossy-suited man rises near the back, an emblem pin catching the light — the corporate lobbyist. He smiles like he knows he has a moment to steer the wind.]
+
+    "Grantley" "Harrow Bay has an opportunity to leap forward. My firm would like to underwrite accelerated deployment. We can free the city from the slow cycles of municipal procurement — deliver infrastructure in months not years. We only ask for an expedited contract and assurance that our investments will be executed."
+    hide maya_soren
+
+    scene bg ch3_98c6f2_5 at full_bg
+    "The offer smells like grease paint on a useful stage — perfectly glossed, suddenly available. It hums with the thing you want most right now: time. The storm season's calendar is a drumbeat in your head."
+    show dr_lena_huang at left:
+        zoom 0.7
+
+    dr_lena_huang "Expediency isn't neutral. Rapid deployment can obscure ecological trade-offs. Kelp systems need phased reintroduction; hydrodynamics adapt slowly. If we shortcut monitoring, we risk cascading impacts."
+
+    "Grantley" "Dr. Huang — we budget for mitigation. We use tried-and-true prefabrication methods. We can implement an adaptive monitoring clause after deployment."
+    show asha_reed at right:
+        zoom 0.7
+
+    asha_reed "After deployment? After people are moved or livelihoods disrupted? How many 'after' hearings will it take before the neighborhood's decision is already a fait accompli?"
+    # [Dialogue: The exchange tightens; multiple turns follow, voices overlapping with intent.]
+    show maya_soren at center:
+        zoom 0.7
+
+    maya_soren "Asha, I hear you — community consent is central. Councilors, I will not sign away local governance. But I also cannot promise to watch tides encroach while we justify every panel. There is a balance."
+
+    asha_reed "Balance is what people like Grantley sell us so they can keep their margins intact. You built 'balance' with committees before. What keeps us from another displacement?"
+
+    maya_soren "We embed veto points. We hold funds in escrow. We require neighborhood-led placement decisions for any physical works in Lower Quay."
+
+    "Grantley" "Escrow is workable. But every delay costs lives and property. A fast track allows visible protections sooner. Think of the houses that will be spared this season."
+    hide dr_lena_huang
+    hide asha_reed
+    hide maya_soren
+
+    scene bg ch3_98c6f2_6 at full_bg
+    show elias_voss at left:
+        zoom 0.7
+
+    elias_voss "I've seen kelp beds revive shorelines in under a decade when coordinated properly. If we can start this season with pilot arrays and targeted defenses, we reduce immediate exposure. I believe the hybrid can be scaled intelligently — but the window is narrow."
+    show dr_lena_huang at right:
+        zoom 0.7
+
+    dr_lena_huang "We can pilot — yes — but pilots require controlled protocols. Fast-tracking a full-scale wall with experimental kelp integration is a different animal."
+    "The room is a pressure chamber now. You feel your pulse in your ears, but the emotion threading through is not fear. It's forward motion — an electric hope that something done well can keep people"
+    "alive and keep their stories intact. Your arousal sharpens; the urgency hums like a tightened wire ready to sing."
+
+    menu:
+        "Open with a personal story about the Lower Quay families":
+            "You start with the image of Rosa's window boxes and the sound of children splashing in puddles — the room quiets, faces soften; some councilors nod."
+        "Lead with the modeling data and timelines":
+            "You unfold the modeling overlays, point to predicted flood lines and cost-benefit curves — technical faces lean in; Grantley smiles at the efficiency; Asha's jaw tightens."
+        "Call for a brief community witness to speak first":
+            "You gesture to the audience; Jonah stands, ready with a measured, lived-in testimony — his words bring murmured assent and a tangible sense of public stake."
+
+    # --- merge ---
+    "You choose in the moment to balance both story and data — a practiced thing you do when people in the room need both the map and the face it represents. The Chamber responds: a committee of councilors exchange a look that contains a vote already forming."
+
+    "Councilor Navarro" "Ms. Soren — this is the crux. The Council is inclined to move forward, given the evidence and public sentiment. But Council must consider financing and legal expediency. Are you prepared to accept an expedited contract if it means deployment this season?"
+    "You taste the word preparedness like iron. The question is not academic; it is a hinge. Your mind runs the scenarios: immediate physical defenses and kelp arrays that might stabilize the season versus measured review that could yield better long-term trust."
+
+    "Grantley" "We propose an expedited deployment clause with an adaptive oversight board. Funds released in tranches with performance milestones. It's a partnership, not a takeover."
+    show asha_reed at center:
+        zoom 0.7
+
+    asha_reed "Partnerships have been euphemisms for co-optation for as long as I can remember. We need guarantees that are legally binding and community-initiated, not side letters."
+
+    menu:
+        "Call Grantley out publicly":
+            "You press for specific legal language now, asking him to state in the record that all deployment phases are subject to community veto — Grantley hedges, the room leans in, and Asha's stance eases a fraction."
+        "Request private negotiations after the vote":
+            "You signal that you will take the details offline, craving the tactical space to secure protections; some councilors nod, but Asha's eyes flash distrust."
+
+    # --- merge ---
+    "You weigh the tactical move: exposing the lobbyist in public risks the Council recoiling from funding; private negotiation risks secrecy. You choose a middle register, asking for specific amendments in the contract language and an independent"
+    "legal review to be completed within a week — a compromise that buys time and keeps things visible."
+
+    dr_lena_huang "If we include a robust adaptive monitoring clause with clear metrics — turbidity thresholds, kelp survival indices, community wellbeing indicators — and an independent panel appointed by the Resilience Council, we can make speed safer."
+
+    elias_voss "We can write the metrics together. I've got field protocols we can commit to. We can build the first arrays as demonstrators, tied to those triggers."
+    "The intimacy of his whisper is a small, steady warmth at your elbow. You cannot, in this chamber, let that warm what must be open and negotiated. Yet every time he offers to shoulder protocol with you, the world sharpens into something manageable."
+
+    menu:
+        "Reach for Elias' sleeve, a quick grounding touch":
+            "Your fingers find his cuff for a heartbeat; he squeezes back — a shared steadiness that steadies you both."
+        "Hold eye contact with Asha to show you're listening":
+            "Your gaze locks with Asha's; the hardness there shifts to wary respect."
+        "Refocus on the Council Chair and the projected timeline":
+            "You straighten and point to the timeline; the room's focus snaps back to documents and dates, the private layers shelved for now."
+
+    # --- merge ---
+    "You deploy the touch — a tiny contact that is more a signal than a comfort. Elias nods and turns his attention outward, professionalism smoothing tenderness into resolve."
+    hide elias_voss
+    show maya_soren at left:
+        zoom 0.7
+
+    maya_soren "Councilors, I will not ask this body for a blank check or a rubber stamp. What I will ask is this: allow the Council to authorize an expedited pathway, but only with specific preconditions — an independent monitoring panel appointed in partnership with the Resilience Council, escrowed funds with tranche releases contingent on ecological and social performance metrics, and guaranteed neighborhood veto points for any physical interventions in Lower Quay."
+    # play sound "sfx_placeholder"  # [Sound: A rustle of papers, a chorus of low affirmations. The Chair taps a gavel lightly, more as punctuation than enforcement.]
+
+    "Council Chair" "We have a motion on the table to authorize an expedited deployment option contingent on the safeguards Ms. Soren outlines. The Council recognizes the urgency and the will of the community to see action this season. Ms. Soren — the decision to take the expedited contract rests with you. Do you accept the rapid funding and sign an expedited deployment contract, insist on full environmental review and extended community hearings, or propose a scaled pilot that buys time?"
+    "The chamber narrows to a single clear note. The arousal reaches its peak — not panic but a high, focused energy. You can feel the room's optimism like a physical pressure, pressing toward motion. Every face"
+    "in the arc expects the same thing: leadership that converts hope into safety and keeps the city's soul intact."
+    hide dr_lena_huang
+    hide asha_reed
+    hide maya_soren
+
+    scene bg ch3_98c6f2_7 at full_bg
+    # play music "music_placeholder"  # [Music: Strings swell to a bright, urgent chord]
+    "You gather the thin, steady conviction that has carried you through meetings and midnight edits. This is the hinge. Your answer will steer the tide in the near term and shape the trust that will hold the city's future."
+
+    menu:
+        "Accept the rapid funding and sign an expedited deployment contract.":
+            jump chapter4
+        "Insist on full environmental review and extended community hearings, delaying deployment.":
+            jump chapter7
+        "Propose a scaled pilot—small, transparent, community-led demo that buys time.":
+            jump chapter10
+    return

@@ -1,0 +1,190 @@
+label chapter9:
+
+    # [Scene: Courthouse | Morning]
+
+    scene bg ch9_6b08b4_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of voices, paper rustling, the distant gulls muffled by city rain]
+    # play music "music_placeholder"  # [Music: Sparse, minor piano motif; a single cello underpinning the pulse of the room]
+    "You come in on the tail of the injunction—the legal margin of breath Tideward has been given. You can still feel the echo of the corkboard back at the community room, the bold letters of that"
+    "notice as if it were a talisman pressed into your palm. Today is the place where that talisman is tested."
+    "Inside, the courthouse smells of damp wool and institutional cleaner. Light puddles on the floor reflecting a row of official seals; the air is cool and carries the metallic tang of wet umbrellas. You fold your"
+    "jacket tight against it, fingers finding the silver wave ring on your index like a small anchor."
+
+    scene bg ch9_6b08b4_2 at full_bg
+    "You do not take the journal out. Memory is not proof you can show on a court docket, but the weight of it steadies you."
+
+    scene bg ch9_6b08b4_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Quiet greetings — the low, charged warmth of people who have already won a pause]
+    "You find a seat. Ilan Cortez stands near a table scattered with models and a small, humming case—his filter pendant tucked into its foam, a stack of schematics clipped and annotated. He meets your eyes for"
+    "a moment; the amber steadiness you know flickers. He nods once—small, formal—and then he turns to the lectern when his name is called."
+
+    scene bg ch9_6b08b4_4 at full_bg
+
+    "Judge" "Please state your name for the record."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "Ilan Cortez. Community engineer, Saltworks Lab."
+    "Ilan Cortez speaks like someone who has rehearsed the truth until it's almost technical: clear phrases that carry images of valves and current, of microgrids stitched like blankets across rooftops. He places the prototype on the lectern: the filter pendant glints, a small, ridiculous thing to carry so many promises."
+
+    ilan_cortez "The pendant is a functioning biofilter. It is not a proprietary black box. The schematics I'm submitting outline how neighborhoods can replicate filtration nodes using locally-sourced materials, modular housings, and open-source control logic. If implemented, the distributed microgrid reduces load on centralized systems during surges and allows localized pumping in high-tide events."
+
+    "Judge" "You assert these designs are low-cost and replicable. What partners would be needed to pilot such a system?"
+    "You watch teeth show when contractors shift in their seats—brief, precise movements like fish flicking in conversation. Evelyn Harrow watches from the municipal table: immaculate as a promise, her composure a practiced instrument."
+    show evelyn_harrow at right:
+        zoom 0.7
+
+    evelyn_harrow "The city is open to pilot programs, but the municipality must ensure liability coverage and procurement standards. We require clear IP frameworks when devices interface with municipal assets."
+
+    "Contractor Representative" "For pilots funded through public-private channels, standard clauses ensure the technology can be integrated at scale. That includes retention of certain licensing rights until the product stabilizes on municipal platforms."
+    "You feel the room pivot. The words are polite, but the implication is blunt: to scale is to own; ownership rewrites relationships."
+
+    menu:
+        "Raise your hand and speak":
+            "You stand, voice raw at first and steadier with each word. 'This isn't just tech,' you say. 'It's our kitchens, our pump routes, the way my uncle wound a rope to the mast every storm.' The room tightens. Ilan Cortez's jaw softens; some heads nod."
+        "Stay seated and watch Ilan":
+            "You keep your hands folded, listening like a seamstress counts stitches. Ilan Cortez breathes your stillness and, mid-testimony, glances toward you — his expression a question. The judge's pen keeps moving."
+
+    # --- merge ---
+    "'You do what you chose. The courtroom proceeds regardless.'"
+    "You do what you chose. The courtroom proceeds regardless."
+    "Ilan Cortez's testimony is careful. He layers data with anecdote—energy draw graphs that look elegant when projected, a map of Tideward's rooftops annotated with potential microgrid nodes. The visuals help: color bars and tide-overlap maps tidy the chaos into something bureaucrats can parse. The judge leans in, frequently tapping notes."
+
+    "Judge" "If the pilot performs as described, can the city rely on you for ongoing maintenance and public reporting?"
+
+    ilan_cortez "Yes. We propose a monitored, multi-phase pilot with community stewards trained in maintenance and open reporting structures. The Saltworks Lab will support initial training."
+    "A soft exhale sweeps through the gallery. For a breath, the plan feels close to real—funding lines, municipal partners, water authorities nodding in the margin. You imagine rope-shored porches with microgrids, community crews swapping tools, the neighborhood flickering less at the edges."
+    "Then the clauses arrive like tidewater through a crack."
+
+    "Contractor Representative" "We cannot underwrite a pilot without standard IP safeguards. Replication without quality control introduces liability to the municipality. Our grants require retention of certain commercial protections."
+    "Ilan Cortez's fingers tighten on his notes. You watch color drain from his cheeks; his voice thins."
+
+    ilan_cortez "There are ways to structure open licenses with safety rails—"
+
+    "Contractor Representative" "The municipal procurement office will not accept ambiguous licensing. Our templates are non-negotiable. Amend the IP language or the pilot cannot proceed under these funding streams."
+    "You feel your own stubbornness rise hot in your throat—an ember that has kept Tideward from erasure. The word 'templates' sits in the air like a verdict: your people's improvisations reduced to legal forms."
+
+    evelyn_harrow "We can incorporate community governance into the contract. But we need assurances for integration. The city must avoid open-ended liability that could be weaponized by insurers or vendors."
+
+    ilan_cortez "We can draft cooperative frameworks. We can allocate IP in a way that preserves community access while satisfying procurement metrics—"
+    "You watch him doing the thing he always does: translate resistance into engineering terms, fold others' anxieties into schematics. He looks thinner now than you remember; the sleeplessness of negotiation sketches hollows along his jaw."
+    "You find yourself thinking of recipes—of the way Mira measures salt by eye, of Tomas's hands judging tension in a rope—and how a recipe resists being turned into a spec sheet without losing flavor. You think"
+    "of eulogies too: the things you say about a place once it is gone, the vocabularies that mourn."
+
+    menu:
+        "Challenge the IP framing publicly":
+            "You stand again, this time with a line in your voice. 'These designs derive from our labor—the hands that salvaged the panels, the stories that taught where pumps go. You can't cage that into a clause.' The judge's eyes sharpen; Evelyn Harrow's expression is unreadable."
+        "Let Ilan handle negotiations":
+            "You fold your hands into your lap and let the legalists trade documents. Ilan Cortez's voice becomes the negotiation. You feel both relief and a hollow—like watching someone barter away the last of a shelf's jars."
+
+    # --- merge ---
+    "'The courtroom's machine hums onward.'"
+    "The courtroom's machine hums onward. Cross-examinations sharpen the edges. The contractors press on liability; Evelyn Harrow negotiates language about oversight and public reporting. Ilan Cortez sacrifices phrasing that mattered to you—open-source assurances reframed as 'community-access licenses"
+    "with municipal oversight.' He agrees, repeatedly, fingers running over the prototype as if grounding himself."
+
+    "Judge" "Given the testimony and proposed oversight, the court will uphold the temporary injunction. Pilot deployment may proceed under monitored conditions, subject to the procurement terms and liability frameworks discussed."
+    "A murmur ripples through the room—relief and something thinner, like a thread. The injunction holds: a victory like a window left open in a house that still leaks."
+    "You feel both buoyed and woozy. The legal win gives you space—but on terms that stitch Tideward into municipal procurement and private partnership. The deal is a lifeline with knots you did not tie."
+    # play sound "sfx_placeholder"  # [Sound: People rising, shoes squeaking, umbrellas folding; the courthouse doors hiss as they open]
+    hide ilan_cortez
+    hide evelyn_harrow
+
+    scene bg ch9_6b08b4_5 at full_bg
+    "Outside, the rain has thinned to a steady sheen. Streetlights throw halos on the pavement; the air smells sharper now—salted, a little like machinery. You and Ilan Cortez find a narrow pool of light beneath a streetlamp. The city seems to wait for you both."
+
+    scene bg ch9_6b08b4_6 at full_bg
+    # play music "music_placeholder"  # [Music: Low, unresolved strings; a single piano note repeats like a question]
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "We did it."
+    "You want to say the truth—how the clauses felt like a band tightening around a living thing, how the neighborhood's recipes might be turned into product manuals—and you want to accuse him for all the small"
+    "concessions that smoothed the path. He watches the rain bead at the edge of his collar, as if measuring the weather like some barometer you cannot read."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "You gave them licensing terms."
+
+    ilan_cortez "I negotiated them. I tried to keep the clauses community-centered. I—"
+
+    ava_marin "You made it easier for them to make money off a system we built with our hands."
+
+    ilan_cortez "If I hadn't agreed to those frameworks, there wouldn't be a pilot. No pilot—no chance to test locally, no training, no funding to get the microgrids on roofs. You know that."
+    "Your chest tightens because you know it too. There is no simple ledger where good intentions offset structural power. You count the costs—what will be kept in the public domain, what will be fenced off behind"
+    "licenses, what will be packaged and repurposed into something that displaces the very people it supposedly helps."
+
+    ilan_cortez "I thought I could bend the template. I thought I could make a wedge broad enough for the community to anchor in."
+
+    ava_marin "A wedge isn't a home, Ilan."
+    "He looks at you then—not just with the engineer's calculator but with an honest, exhausted face that has been through too many all-nighters and too many compromises."
+
+    ilan_cortez "I didn't want to do this without you. But I couldn't watch it die in a conference room. You asked me to bring the tech to the hearings. I brought it."
+    "A beat. The streetlight hisses as a cold drop slaps the glass. You both stand in the small, damp theater of that light."
+
+    ava_marin "We asked for a chance to keep Tideward—its songs, its pump routes, the way Mira tells the pigeons' names. We didn't ask for frameworks that translate us into line items."
+
+    ilan_cortez "Is there a way to claw that back? To put real control in the co-op's hands after the pilot shows results?"
+
+    ava_marin "Maybe. Maybe not. The pilot will make us legible in ways that make donors and contractors salivate. It will also make us visible to regulators who cleanly parcel risk. Some of what we lose you can't graft back."
+    "Ilan Cortez's jaw tightens. He says nothing for a moment, the kind of silence that isn't peace but thought being turned over."
+    "You watch the light on his cheek; you can see the small hollows there, the fatigue of someone stretched between two loyalties—loyalty to the lab that taught him methods and loyalty to the neighborhoods that taught him why to build. He reaches for a word that doesn't clear the gulf."
+
+    ilan_cortez "I thought... I thought the tech would be a bridge."
+
+    ava_marin "Bridges need foundations. I'm tired of rebuilding foundations that someone else then buys."
+    "He flinches like you've cut him with an honest knife. His voice drops to the kind of softness he reserves for prototypes and people he trusts."
+
+    ilan_cortez "I know. I'm sorry."
+    "You could let the conversation dissolve into mutual apologies. You could walk away and leave him under that light to negotiate alone with the city's appetites. You could plan in the quiet to write cooperative charters,"
+    "to gather lawyers who understand cultural patrimony, to turn the pilot into a real people's pilot. Each choice opens and closes other doors."
+
+    menu:
+        "Stay and map next steps with him":
+            "You pull out your journal and sketch. The lines are angry and practical: a co-op charter, a list of people to train, a clause you will not accept. Ilan Cortez watches, then places his hand over yours, tentative, as if to agree that the work will be messy but shared."
+        "Tell him to go on without you tonight":
+            "You step back from the pool of light. 'Go home, Ilan.' Your voice is brittle. He tucks the pendant into his case as if folding a small, strange bird. He watches you leave and does not follow. The rain fills the silence between you with a steady, indifferent rhythm."
+        "Walk away in anger":
+            "You turn and march away down the slick pavement, your sandals slapping like a heartbeat. Behind you, Ilan Cortez calls your name once, then quiets. The street swallows his apology. Your anger keeps your feet moving—but each step feels like another distance measured in wet cobblestones."
+
+    # --- merge ---
+    "'Whichever small choice you made, you end the night tasting salt and metal.'"
+    "Whichever small choice you made, you end the night tasting salt and metal. The injunction is a fragile shelter; the pilot will begin, and with it an architecture of allies and stakeholders who do not always"
+    "share your priorities. The legal victory that gave you air is threaded with clauses that could transform people's living rooms and pump routes into assets to be optimized."
+    # [Scene: Tideward | Night — later]
+    hide ilan_cortez
+    hide ava_marin
+
+    scene bg ch9_6b08b4_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant drone of construction, the soft clink of tools, someone hammering a sign back into place]
+    # play music "music_placeholder"  # [Music: A low, elegiac swell — muted strings with a distant, single trumpet note like a warning]
+    "You walk back through your neighborhood. The murals smear in the rain like memories we keep smudged to make them last. On the boardwalk, a new set of brackets gleams—installed earlier that day, perhaps by volunteers"
+    "or contractors; it's hard to tell now who left which marks. You place your palm against the weathered wood; it is cool and real under your skin."
+    "You think of the archive you keep in your journal—the lists, the routes, the recipes for preserving tomatoes and hyacinth roots. You think of the concessions that made today's pilot possible and the lines it drew across the community's autonomy."
+    "You do not have an easy answer. The shape of the route ahead is both necessary and dangerous. The pilot will bring training, wires, and monitoring—and with them, people who will see Tideward as a proof-of-concept."
+    "You feel a small, fierce refusal somewhere under the damp chord of the evening: you will not let the story of your streets be flattened into a datasheet without scars and signatures that preserve people's rights."
+
+    scene bg ch9_6b08b4_8 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Your breath as you exhale; distant, the sea's slow conversation with the shore]
+    "You make a list on the back of a receipt as you walk: the people who must be on the steering committee, legal clinics that can advise on cultural patrimony, Mira's seed list to ensure food"
+    "literacy is part of the pilot, Tomas's contact for boat-based pumps. The list is messy—handmade things the bureaucracy will not like—but it maps a stubbornness that refuses to be commodified."
+    "At the edge of the night, the tide recedes a little farther than it did this morning, revealing a row of new pilings—concrete columns sunk by some contractor team. They are the skeleton of someone else's"
+    "idea of security. Where they rise, something else will be built: a foundation that could be a home or a machine."
+    "You stand for a long time, feeling the city shift in small increments. The injunction is won. The pilot will proceed. Contracts are being drafted as you breathe. Ilan Cortez is somewhere between hope and concession."
+    "The community is both relieved and wary. You hold all that in your chest like a weight and a map."
+    "You close your eyes and write a short note in your journal, not for the court but for the people who will have to live inside whatever follows:"
+    "'Keep a record. Teach the recipes. Insist on shared governance. Remember that architecture without memory is a place without people.'"
+    "You slide the journal into your bag. The rain has baptized the evening into a softer gray. You walk on, each step a decision to keep working in the space the injunction created, to guard against"
+    "the commodification that chews at community roots. The victory is not the end—it's a weathered plank to cross a tide that keeps rising and falling."
+
+    scene bg ch9_6b08b4_9 at full_bg
+    # play music "music_placeholder"  # [Music: The cello lowers, a single unresolved chord lingering]
+    "You do not smile. You will not allow a smile to pretend all is well. You will take the pilot's tools and teach them to the people who remember the names of the houses. You will"
+    "keep the archive. You will argue clauses until your voice is raw. You will hold Ilan Cortez to his promises and your community to its histories. It will be messy. It will be necessary."
+
+    scene bg ch9_6b08b4_10 at full_bg
+    # play music "music_placeholder"  # [Music: Fade to low, somber ambient drone]
+
+    scene bg ch9_6b08b4_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

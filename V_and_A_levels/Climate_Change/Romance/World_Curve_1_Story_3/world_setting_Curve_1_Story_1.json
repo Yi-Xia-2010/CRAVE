@@ -1,0 +1,120 @@
+{
+    "design_logic": "I blend Climate Change and Romance by centering an intimate love story inside a community forced to confront rising seas. The emotional stakes of two protagonists (a scientist-advocate and a community-minded architect) mirror the ecological stakes: personal connection and ecological resilience require compromise, trust, and hard choices. The core conflict is a moral and practical clash between short-term, profit-driven infrastructure and community-led, nature-based adaptation — with the romance unfolding through collaboration, ideological friction, and shared vulnerability.",
+    "setting": "A mid-sized coastal town (San Brisa) in the near-future where sea levels have begun to shift daily life. The town mixes aging fishing piers, retrofitted mid-century buildings, and new speculative development. Atmosphere: humid salt air, low overcast skies punctuated by warm sunset hours, foggy mornings, and neighborhoods that show both the scars of past storms and pockets of stubborn regenerative life.",
+    "visual_style": "Luminous coastal realism, Soft anime-influenced line work, Environmental texture overlays (salt, rust, wet pavement), Warm-dusk palette with sea-glass greens and storm-grays, Subtle film grain",
+    "main_characters": [
+        {
+            "name": "Maya Reyes",
+            "role": "Protagonist",
+            "personality": "Pragmatic, compassionate, quietly stubborn. Scientific thinker who wears her empathy openly; she can be brusque under stress but has deep loyalty to neighbors. Tends toward worry and self-blame but is decisive when people are at risk.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length, usually pulled into a messy braid with salt-bleached tips and a few loose strands that curl in the sea air",
+                "eyes": "Warm honey-brown, rounded with faint laugh lines and an observant, focused gaze",
+                "clothing": "Layered practical clothes: recycled-fabric windbreaker with reflective piping, faded cargo pants with patched knees, breathable Merino base layers; at work she often wears a lightweight hydroponics apron or a field vest with pockets",
+                "accessories": "Waterproof field notebook stuffed with maps and hand-drawn diagrams, a retro brass compass on a leather cord, a chipped enamel mug clipped to her belt"
+            },
+            "goal": "Design and implement a community-centered resilience plan (living shorelines, evacuation protocols, community gardens) that keeps San Brisa intact while preventing harmful development.",
+            "background_story": "Grew up in San Brisa; left to study coastal systems after a childhood storm erased a favorite pier. Returned when repeated flooding began to threaten her family and neighbors. Has scientific training but learned community organizing in practice, which sometimes causes tension with bureaucrats and developers.",
+            "emotional_trait": "Guilt-prone (feels responsible for others' safety) that drives her to overwork; strength lies in empathy and persistence."
+        },
+        {
+            "name": "Eli Navarro",
+            "role": "Love Interest",
+            "personality": "Warm, charismatic, and pragmatic idealist. Good-humored and patient; he bridges design thinking with grassroots organizing. He trusts people easily and uses humor to defuse tension, but can avoid direct confrontation to keep peace.",
+            "appearance_features": {
+                "hair": "Sandy blond, short and wavy, sun-bleached tips and a habit of pushing hair off his forehead with paint-speckled fingers",
+                "eyes": "Sea-glass green, slightly hooded and bright when he smiles",
+                "clothing": "Loose linen shirts rolled at the sleeves, utility vest with sample swatches, patched jeans with traces of clay and plant soil, soft canvas sneakers or rubber boat shoes",
+                "accessories": "Folding timber ruler tucked into a back pocket, a weathered Polaroid camera he uses to document community projects, a woven friendship bracelet from a neighbor"
+            },
+            "goal": "Implement a living-shoreline pilot project that preserves homes and marine life while strengthening community ties, and to build trust with Maya as they navigate professional and personal obstacles.",
+            "background_story": "Raised in a family of fishers and small-scale builders; trained in sustainable architecture. He returned to San Brisa after studying to help adapt local infrastructure through low-tech, high-touch interventions. Known locally as someone who gets his hands dirty.",
+            "emotional_trait": "Unwavering hope that can sometimes lead to avoidance of confrontation; strength is his ability to connect people and translate ideas into tangible prototypes."
+        },
+        {
+            "name": "June Park",
+            "role": "Antagonist",
+            "personality": "Polished, persuasive, and strategically minded. Charismatic public speaker with a belief in technocratic, top-down solutions. She is not purely villainous—she genuinely believes in efficiency and protecting the town from immediate large-scale losses.",
+            "appearance_features": {
+                "hair": "Sleek black bob with a single silver streak at the temple, impeccably styled",
+                "eyes": "Sharp gray, assessing and precise",
+                "clothing": "Tailored waterproof trench coat, silk blouse in muted coastal tones, designer ankle boots adapted for wet conditions; when on site she wears a high-tech safety vest over her tailored pieces",
+                "accessories": "Custom composite briefcase with a built-in tablet interface, a minimalist smartwatch that monitors local sensors, an heirloom gold brooch shaped like a wave"
+            },
+            "goal": "Push through Aurelia Holdings' engineered seawall and commerce-driven redevelopment to secure immediate protection and profit for the firm and investors.",
+            "background_story": "Grew up in a family firm that rebuilt coastlines after storms. She rose quickly through corporate ranks and believes controlled engineering is the surest way to save towns from catastrophe. She is haunted by a childhood memory of helplessness during a storm.",
+            "emotional_trait": "Control-oriented (driven by a need to manage risk) with a hidden fear of being powerless; strength is decisive leadership under pressure."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Tomas Reyes",
+            "relation_to_main": "Younger brother of Maya",
+            "appearance_summary": "Lean, sunburnt, short-cropped dark hair, usually in a fisherman’s beanie and paint-splattered hoodie.",
+            "function_in_story": "Represents the generational stakes—business owner of a small repair shop who must decide between relocating for a buyout or staying; his choices pressurize Maya emotionally."
+        },
+        {
+            "name": "Asha Malik",
+            "relation_to_main": "Retired marine biologist and Maya's mentor",
+            "appearance_summary": "Silver-streaked curly hair pulled into a bun, thick glasses, worn field jacket with botanical pins.",
+            "function_in_story": "Provides scientific wisdom and emotional steadiness; acts as a moral compass and helps translate ecological science into accessible community actions."
+        },
+        {
+            "name": "Rosa Alvarez",
+            "relation_to_main": "Community elder and café owner",
+            "appearance_summary": "Short, round-shouldered, bright shawls, warm smile with coffee-stained fingers.",
+            "function_in_story": "Hosts town meetings, keeps oral histories of San Brisa, and anchors the cultural argument for preserving neighborhood homes and memories."
+        },
+        {
+            "name": "Councilor Marco Lin",
+            "relation_to_main": "Town council member with swing influence",
+            "appearance_summary": "Mid-forties, neat hair, conservative blazer with campaign pin, often seen under an umbrella.",
+            "function_in_story": "Political obstacle and eventual pivot point whose vote determines whether Aurelia’s seawall project or the community plan proceeds."
+        }
+    ],
+    "locations": [
+        {
+            "name": "San Brisa Harbor (Main Street & Pier)",
+            "visual_description": "A narrow, cobbled waterfront street lined with low wooden storefronts and weathered neon signs. Golden-hour light hits wet boards, reflecting in puddles; gulls circle overhead and salt spray mists the air. Colors: peat-brown wood, sea-glass greens, and sun-faded reds. Atmosphere: intimate, lived-in, with the faint hum of generators and distant foghorns."
+        },
+        {
+            "name": "Tidewatch Lab (Community Research Greenhouse)",
+            "visual_description": "Glass-domed greenhouse perched on a reclaimed lot overlooking the bay. Interior light is soft and filtered through condensation; verdant plants drip with mist. Stainless workbenches hold sensors and jars of seawater. Colors: cool aquamarine glass, polished steel, warm green vegetation. Atmosphere: hopeful, experimental, smelling faintly of brine and compost."
+        },
+        {
+            "name": "Aurelia Development Site (Construction & Seawall)",
+            "visual_description": "An active construction zone with concrete pylons, cranes, and towering sheet piles. Harsh midday light reflects off metal surfaces; dust and diesel hang in the air. Color palette: industrial slate grays, rust orange, and the clinical white of safety signage. Atmosphere: efficient, imposing, with the metallic clang of heavy machinery and a sense of displacement."
+        },
+        {
+            "name": "Rooftop Garden & Night Market",
+            "visual_description": "A reclaimed parking structure roof turned into terraced planters and string-lit stalls. Warm bulbs create pockets of intimacy against a cooling twilight sky; the smell of grilled seafood mixes with herbs. Colors: warm amber lights, deep indigo sky, pops of vegetable greens and colorful awnings. Atmosphere: communal, festive, where relationships deepen and ideas are exchanged."
+        },
+        {
+            "name": "Old Lighthouse & Tidal Steps",
+            "visual_description": "A crumbling lighthouse on a basalt outcrop, connected to the shore by stepped tidal stones. Fog often rolls in, muting colors to slate and pearl; when the sun breaks, beams cut through mist in sharp gold. Atmosphere: solitary, romantic, and slightly melancholic—ideal for pivotal conversations and reconciliations."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love and Community Resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led living-shoreline pilot succeeds, displacing plans are halted after a high-profile exposure of the seawall’s ecological harm. Maya and Eli form a committed partnership personally and professionally, with the town embarking on a long-term regenerative plan and shared governance."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise is reached: parts of Aurelia’s engineered seawall are built for immediate protection while the community secures funding and rights to implement living shoreline modules in other zones. Maya and Eli stay together but must accept that not all losses can be reversed—some streets are gone, but the social fabric survives and evolves."
+        },
+        {
+            "type": "True",
+            "summary": "A realistic, ambivalent outcome where policy wins a small victory (mixed adaptation measures passed) but severe storms still force tough relocations. Maya and Eli grow apart professionally due to differing tactics; they part as allies with mutual respect. The ending emphasizes long-haul resilience, incremental policy wins, and ongoing community organizing rather than tidy closure."
+        },
+        {
+            "type": "Sad",
+            "summary": "Aurelia’s seawall is fast-tracked after a major storm emergency; it protects commercial zones but displaces vulnerable residents. The community fractures over buyouts and relocation. Maya and Eli’s relationship collapses under ideological and emotional strain, leaving the town quieter and more stratified—an ethically painful cautionary tale."
+        }
+    ],
+    "estimated_chapters": 6
+}

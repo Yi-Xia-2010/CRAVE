@@ -1,0 +1,173 @@
+### SCRIPT
+# Route: Route C — Ending
+# Context: e67f19
+
+[Scene: Jun's Lab | Midday — Aftermath]
+[Background:"ch11_e67f19_1"]
+[Sound: A chorus of notification pings, a printer feeding out a single sheet; the hum of a dehumidifier undercutting conversation.]
+[Music: Low, minor strings—tense, patient]
+
+You open the door to Jun's lab with the weight of the council-room light still in your chest. The room smells of wet paper and antiseptic, with that faint organic tang of moss cultures and turned soil. Jun is at the counter, sleeves rolled, tablet in hand, eyes rimmed with the exhaustion of someone who keeps finding one more problem to solve. On the bench beside him: a thin envelope stamped with the university grant office seal and a sticky note that reads "FROZEN."
+
+Jun Park: "They froze it an hour ago. Red flags from the consortium, then the trustee board. They said 'financial exposure.' They—" (he taps the tablet, the feed scrolls) "—they cited reputational risk after the article went live."
+
+Aria Solen: "Do they list a reason other than 'reputational'?"
+
+Jun Park: "They quoted 'unvetted public release of non-peer-reviewed models,' and—" (he swallows) "—and one of them flagged your name as a possible source. Not explicit, but they asked for records. They'll audit the lab's accounts next week."
+
+You look at the frozen envelope as if it might melt in your hands. A grant frozen is more than money; it's the scaffolding for Jun's work, for seedlings, for the field technicians who get paid on that payroll. You hear the echo of a ledger: names, rent, wages, the Helix's fuel lines.
+
+Aria Solen: "Can we contest it? Get an emergency letter from the council?"
+
+Jun Park: "Lina's been being circumspect—" (he rubs his temple) "—and Caden's office has been calling donors. If the donors panic, the council will cave. Aria—" (he meets your eyes) "—if this is linked back to the lab, it will be ugly. Legal ugly. They could subpoena our raw datasets."
+
+You hold the edge of the counter. Your thumb presses the dent where the metal has been smoothed by years of handling. The room tilts slightly—homeostasis of science disrupted by politics.
+
+Aria Solen: "What about the Helix? Volunteers? An emergency fund?"
+
+Jun Park: (bitter, practical) "Volunteers are great for moving sandbags. They don't satisfy a trustee. If the audit looks like negligence, it won't matter how many people can build a berm in a day. The university lawyers don't care about sandbags."
+
+Jun flicks through the feed again and a journalist's headline flares across the screen: "Leaked Draft Exposes Developer Risks; Who's Responsible?" A thumbnail shows a rendering of a tall seawall and, beneath it, a blurry photo of your notebook from the market meeting—taken from some angle you don't remember.
+
+Jun Park: "They're already asking who had access to the draft. If they triangulate access logs, Aria—" (he stops, the sentence left unfinished)
+
+The lab feels colder. Your notebook is weightless in your satchel until you imagine the possibility of it being seen as the smoking gun. All that careful work—field notes, models, personal scribbles—becomes a potential rope.
+
+[INTERACTION]
+> Choice A: "Pull Jun aside and go through the access logs now"
+> Choice B: "Tell Jun to call legal and lock down the servers while you head to the market to gauge public mood"
+[Outcome A: "You lean over Jun's tablet and start tracing access timestamps. It's tedious and exacting, and for a few minutes you both have something concrete to do. Jun's shoulders relax a fraction; the world becomes numbers instead of accusation."]
+[Outcome B: "Jun nods, fingers already tapping into the partition protocol. You leave him to the machines and step back into wind and wet, the feeling of momentum turned brittle with consequence."]
+[MERGE: Continue]
+
+[Scene: Old Pier Market | Early Afternoon]
+[Background:"ch11_e67f19_2"]
+[Sound: Shouts, a radio half-caught under an awning, the slap of a fish on a wooden block; an undertone of whispered conversations.]
+[Music: Sparse piano in a low register—unease]
+
+You make for the market because facts here are measured in palms and mouths, not press releases. The smell of smoked fish and frying bread pins you to the moment like a compass. Vendors look up when you approach—some with gratitude, some with a sharp distrust as if the leak cleared fog only to reveal cliffs.
+
+Marta Quin is on a crate, paint flecks on her overalls, sweeping her hands through the air to gather attention. She has always been able to string the neighborhood into a single sentence.
+
+Marta Quin: "We need to calm people. We need to tell them what we know and what we don't. Fingers pointing now will break things that took a generation to hold together—" (she looks at you) "—and Aria, we need practical steps. Not just righteous fury."
+
+Vendor (young, anxious): "People need rent money—if investors pull, it's gone. My buyer already texted me: 'If the pier gets locked down, I'm out.'"
+
+Vendor (older, resolute): "Transparency is what saves us. If they were lying to us, we should know. I can't trade on lies."
+
+You move through the groups, feeling the pull of both answers. You could step up and speak, to stitch the market's fear into a plan, or you could stand aside and let Marta and Eli lead with the kinds of visceral trust you sometimes lack.
+
+Aria Solen: "We can set up an emergency list—pallets, work-rosters, immediate aid. But we need to be honest about what we can fund."
+
+Marta Quin: (soft, fierce) "Honesty and work. People can handle hard truth if it comes with a way forward. No pep rallies. No letting the council pacify us with promises."
+
+A vendor presses a paper toward you—an op-ed clipping where community members are split: "Brave whistleblowers save the coast" versus "Irresponsible leaks risking jobs." The paper is damp and its ink runs like a wound.
+
+Eli Navarro appears at your shoulder, arms full of cookie tins and a stack of printed flyers for the Helix volunteer hub. He sets the tins down with a practiced ease that distracts from the tremble in his jaw.
+
+Eli Navarro: (quiet) "We can feed the crews. We can run drills. But we need to show that we're capable—right now, not months from now. People look for competence when they're scared."
+
+Aria Solen: "And if competence isn't enough to keep the investors from pulling out?"
+
+Eli Navarro: (shrugs, then steady) "Then we build anyway. Or we find other backers who care about people, not the renderings. Either way, waiting for someone to save us hasn't worked."
+
+He looks at you with that unreadable expression—warmth threaded with calculation, the sort of look that makes your chest both easier and heavier. It is "complex" in the way Jun’s before it was—supportive, yes, but stressing a different axis: urgency over caution.
+
+[INTERACTION]
+> Choice A: "Climb the crate and tell the market we'll organize a shoring schedule now"
+> Choice B: "Let Marta take the lead and spend your time collecting data and lists for the council"
+[Outcome A: "Your voice catches on the wet air, but the rhythm of names and tasks steadies it. People sign up. Their hands are callused and certain. For a moment fear is put to work."]
+[Outcome B: "Marta nods, eyes like coiled anchors. You slip into the background with a clipboard; the data you gather feels safe, but you notice a few faces stare at you as if wonder and suspicion live on the same street."]
+[MERGE: Continue]
+
+[Scene: Council Chambers / Redevelopment Pavilion | Mid-Afternoon]
+[Background:"ch11_e67f19_3"]
+[Sound: A murmur with undertones of camera shutters; a lawyer's heels tapping a cadence you can't avoid.]
+[Music: Slow, descending cello]
+
+By the time you reach the council steps, the press has multiplied. Caden Holt is there—immaculate despite rain—his coat clasped like an armor. Lina Voss waits beside him, hands folded in a posture that holds both official distance and fatigue.
+
+Caden Holt: (smile practiced) "This is unfortunate timing. Investors are reconsidering until there's clarity. I would suggest a sober, coordinated response—no theatrics."
+
+Aria Solen: "Clarity about what? The leaks highlight that their models don't account for the erosion we've been living with. People deserve to know the risk."
+
+Caden Holt: (leaning in, voice smooth) "Yes, but disclosure must be managed. Panic can destroy livelihoods. If the community is spooked, everyone loses. We need time to reassure donors."
+
+Lina Voss: (earnest, tired) "I don't want the town to suffer. Jun, we've talked about contingency plans—could the lab provide interim reports that satisfy the trustees?"
+
+Jun Park: (jagged) "The trustees froze the grant because of public exposure, Lina. Not because of the quality of the work. There's a legal choreography now—statements, liability checks. We could produce more reports, but the process itself has become the argument."
+
+A journalist thrusts a microphone forward. "Aria, will you—"
+
+Aria Solen: "I need to consult with the community before making any official statement." (you keep your voice steady but thin)
+
+Caden Holt: (mildly threatening charm) "And in the meantime, donors will read this as instability. Donors are sensitive. Consider the long-term jobs that could be threatened by operational pauses."
+
+His words are a pivot—jobs versus truth—thinly veiled as care. Lina looks at you with something like a plea; it's the mirror of your worry: can you hold space for both honesty and livelihoods?
+
+Eli lingers at the edge of the group, hands in his pockets. His jaw sets; his eyes flick to you and then to the cameras—his expression again complex and unreadable. He steps forward, briefly, and places a hand on the small of your back—a gesture that is steadying and marks territory at once.
+
+Eli Navarro: (low) "We can draft a joint statement—fact-based. Show donors we're professional, not panicked. But we also have to move on the ground. We can't be beholden to the slow cogs of money while the tide eats the shore."
+
+Caden Holt: (soft laugh) "You dramatize elegance, Mr. Navarro. This is about risk management."
+
+Eli Navarro: (not backing down) "And risk includes people. Real ones."
+
+The council room feels like a scale that will not balance. Every word you utter now has the gravity of a lever pulled.
+
+[Sound: A lawyer's voice on the phone; off-camera, a paper sliding across a table—an official-looking notice that reads in bold: "POTENTIAL LITIGATION NOTICE."]
+
+Aria Solen [internal]: "The legal notice is a blade you can see before it is swung. If the leak can be tied back to an individual, the suit will ask for damages and a reckoning that could silence labs, co-ops, and the Helix."
+
+Jun Park: (whispering) "If they subpoena records and we can't show chain-of-custody for datasets, we'll be vulnerable. If you were involved, they'll focus on intent."
+
+You taste iron when you inhale. The city is dividing into camps—those who hail the leak as a civic act and those who see it as the cause of a looming collapse.
+
+[Scene: The Helix | Dusk]
+[Background:"ch11_e67f19_4"]
+[Sound: Lapping water, the murmur of hands coordinating, a child laughing in the background, faint radio chatter counting people-in-role.]
+[Music: Quiet, unresolved harmonics—hope threaded with anxiety]
+
+You return to the Helix because this is where the town has shown you its best face: people willing to show up. The golden-grow lamps feel like a makeshift sanctuary. Jun arrives a few minutes later, carrying a folder; his face is set to a mask that tries very hard to be useful.
+
+Jun Park: "The grant freeze is public now. Word is the trustees will hold a hearing. If any legal action happens, they'll subpoena our lab logs. I want to protect the students and staff from being dragged into a political crossfire."
+
+Aria Solen: "If we deny involvement, and they're right—"
+
+Jun Park: "Then we get sued for obfuscation. If we admit involvement—" (he meets your gaze) "—we face professional consequences. Both are catastrophic in different ways."
+
+Eli stands beside you, watching the volunteers. He turns to you with a steadiness that sometimes feels like a net.
+
+Eli Navarro: "We have three realistic paths forward here. (he lists them slowly, each word chosen) We could own it publicly and be ready for fallout. We could try to negotiate with Lina—get the funding back quietly in exchange for oversight. Or we can organize an emergency non-liability repair effort—show everyone we can do the work, no donors, no lawyers."
+
+You turn those options over in your mind. Each is a scar in a different place.
+
+Aria Solen [internal]: "Owning it would be a kind of truth-telling that could change the system, but it would put everything—Jun's career, the lab's funding, the Helix's operations—on a knife edge. Negotiating would be pragmatic but might silence momentum and betray those who trusted transparency. Organizing a repair effort could buy time but risk legal action and physical danger. None of the paths is free of cost; none of them guarantees that the town will hold together."
+
+Eli Navarro: "Aria, whatever you choose, I'll stand with the action. But I won't lie to you—the town won't forgive a leader who hides. Nor will it forgive one who drags everyone into ruin."
+
+Jun folds his arms, the scientist's impatience for resolution plain. Marta calls from the dock, her voice carrying: "Decide quick! People are asking! Drinks are freezing out here!"
+
+You breathe. The Helix rocks gently as a small wake passes. The volunteers look to you with an expectation that is at once terrifying and oddly tender—trust folded into a physical reach: hands ready to lift, to dig, to hold.
+
+Your chest feels tight with the knowledge that whatever you do next will break some things and maybe make others possible. The city is a network of living choices, and your choice will reroute more than you can see tonight.
+
+[Music: The strings descend—(long, slow)—the sound of consequences settling like rainwater pooling.]
+
+You raise your eyes to the faces around you—Jun, Eli, Marta, volunteers, vendors who might lose their contracts, Lina who holds permits, Caden with investors at his back. Each is waiting in their own way: for honesty, for security, for action.
+
+[DECISION POINT]
+1) Option 1: "Publicly own the leak and prepare for political and legal fallout." -> TARGET chapter_id: [12]
+2) Option 2: "Seek quiet negotiation with Lina to reinstate funding in exchange for oversight." -> TARGET chapter_id: [12]
+3) Option 3: "Organize a non-liability emergency repair effort led by the co-ops to demonstrate capacity." -> TARGET chapter_id: [12]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Publicly own the leak and prepare for political and legal..." -> ID 12 (Route C — Ending)
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_f99e88.txt
+Option 2: "Seek quiet negotiation with Lina to reinstate funding in ..." -> ID 12 (Route C — Ending)
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_f99e88.txt
+Option 3: "Organize a non-liability emergency repair effort led by t..." -> ID 12 (Route C — Ending)
+    > Jump Target File: script_ch12_Route_C_Ending_ctx_f99e88.txt

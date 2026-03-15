@@ -1,0 +1,123 @@
+### SCRIPT
+# Route: Route C / From 12
+# Context: c4ca42
+
+[Scene: Rooftop Greenhouse & Community Garden | Afternoon]
+
+[Background:"ch2_c4ca42_1"]
+
+[Music: Low piano minor chord, slow tempo. A single violin thread underlines tension.]
+
+The door exhales the greenhouse's heat when you push it open—warm, humid breath of compost, brackish steam, and the sharp green of crushed leaves. Your scarf, patterned with tide charts and flecked with watercolor stains, dampens against your throat. You feel the weight of the clipboard like an extra rib: names, sketches, compromises penciled in the margins.
+
+You step in. Kaito Sato is already there—sleeves rolled, a sensor pendant swinging against his chest like a tiny heartbeat. His camera hangs cross-body; his hands smell faintly of solder and wet peat. When his sea-green eyes find you, a small, private curve of a smile crosses his face. For a second—that small, electric second—enough is not a theoretical concept but a real possibility. It sits between you like a plant waiting for water.
+
+Kaito Sato: "You made it." (He hears the tiredness in you but doesn't move to fix it. He offers the smile anyway.)
+
+Maya Inoue: "Wasn't going to miss this." Your voice wants to be steadier than it is. You feel your brother's watch against your wrist—the old dive watch that keeps his memory close—and the tendon near your thumb pulses, a metronome of guilt and obligation.
+
+[Sound: Distant gulls, muffled engines from the docks. A faint ping from a pocket—a weather alert, amber, blinking.]
+
+Dr. Noor wheels in a tablet cart, screens reflecting low graphs and tide-readouts. Her eyes skim the data, then the room, offering both clinical certainty and human worry.
+
+Dr. Noor: "Tide anomalies are trending worse than last month. Not catastrophic yet, but the variance window narrows. If we stagger the plantings and the berm raises, survival probability improves—statistically." (She taps a datapoint. Numbers are cold, but her voice doesn't let them flatten the people in the room.)
+
+Tomas sits at the long workbench, hands folded over pages of careful, looping notes; his fishing hat is salt-bleached and comforting. A tin of Hana's cookies sits unassumingly between his elbows—half-eaten, sugar dust on the edge of a tray—familiar ritual amid high stakes.
+
+Tomas: "Mangroves take time. Roots that anchor lives are not curves on a grant folder." (He looks at you with that slow, sure stare—meaning more than he says.)
+
+Hana refills a chipped mug. Her apron smells of bay leaf and broth; she moves as if to lighten the atmosphere by habit, not by optimism.
+
+Hana: "Someone needs to be practical and kind in equal measure." (She slides the mug toward you; the steam smells like home.)
+
+Mayor Elena arrives last, blazer crisp even under the greenhouse heat. The municipal pin at her lapel gleams. She steps in with paper in one hand and the weight of decisions on her shoulders. When she sees the assembled group, the expression in her eyes folds inward—exhaustion meeting resolve.
+
+Mayor Elena: "I've read both briefs. LuxCorp is offering immediate funding for an engineered wall and automated sluice controls. They guarantee protection to the high-water mark." (She pauses; you hear the pause like a hinge.) "But that comes with buyouts and rezoning. It would save lives, Elena—" (She corrects herself to your name as if to ground the abstract in you.) "—but it will redraw the town's map."
+
+Lucia "Lux" Moreno's projection floats in your mind—a polished animation of chrome and water, promises with clean lines. You sense her presence the way fog suggests a shoreline: not solid, but shaping the space. The greenhouse, with its patched solar panels and sticky windows, feels at once like sanctuary and battleground.
+
+You put the clipboard down and feel the rust on the metal clip bite your palm. You map the trade-offs aloud because you are a planner and because silence would let the polished solution swallow the messy one.
+
+Maya Inoue: "Berms and mangrove transplants—those are community-built, low-cost, and maintain habitat. They ask for space, years, and a lot of volunteer labor. We ask people to give up plots, to accept risk while roots take hold. LuxCorp's wall is fast. It protects property lines quickly. But it sacrifices intertidal habitats, changes currents—" (Your voice tightens.) "—and it changes us."
+
+Mayor Elena: "We don't have years if the models are right. We need something that prevents immediate displacement." (Her fingers worry the corner of a document.) "Council's under pressure from insurers. Voting blocks are nervous."
+
+Kaito Sato steps forward, not to argue but to stitch: his hands animate, small diagrams cut in the air. He proposes a middle scale—pilot sensors, early-warning networks, and targeted habitat restoration that prioritizes the most vulnerable coves.
+
+Kaito Sato: "If we run sensor pilots at key inlets we can get lead time on storm surges. We can combine that data with targeted berms—small, modular defenses that buy us time while roots establish. It's not an either/or. We can stagger interventions so we don't lose places that matter to people's livelihoods."
+
+You want to believe him. You want to believe that technology can be gentle—that his prototypes can be both tool and covenant. His face is earnest; his voice trembles sometimes when he tries to persuade more than to explain. You see the memory of the research institute in the way he balances optimism with a fear of causing harm.
+
+Dr. Noor: "The data support the hybrid approach as a scenario with favorable risk distribution. But the margin is thin. If storm intensity increases beyond modeled upper bounds, even modular approaches get overwhelmed."
+
+Tomas: "And who pays for the pilots? Who subsidizes those who lose plots to berms? We ask people to take smaller risks—but not everyone can afford smaller risks."
+
+Hana: "We do community evenings. We teach people how to tend the berms. But that's volunteer labor, and volunteers have families."
+
+Silence pools in the greenhouse like run-off. A beam of light warms a single planter; inside, a salt-tolerant grass trembles. Your watch ticks. You can hear it—the soft mechanical metronome as if your brother were in the room timing you with old kindness and a grayer patience.
+
+[INTERACTION]
+> Choice A: "Set the clipboard down and list the concrete next steps"
+> Choice B: "Let the others speak first and take notes"
+[Outcome A: "You lay the clipboard flat, fingers splayed over the top sheet. Your voice steadies as you call out triage steps: mapping priority coves, scheduling sensor deployments, coordinating volunteer shifts. The room reorients to process."]
+[Outcome B: "You close your hand around the clipboard and fall quiet, letting Kaito and Noor volley proposals. You take notes with an inward focus, recording who is willing to lead which element, watching the mayor's face for the moment she decides to favor one pitch over another."]
+[MERGE: Kaito Sato watches you keenly during the small debate. He notices the way you hesitate when promise edges toward overcommitment. He knows your history—your brother's absence is a compass for your choices—and he doesn't pretend to fix that. He offers instead steady logistical measures.]
+
+Kaito Sato: "If we commit to pilots, I can get Noor to run a simplified deployment schedule. We can do three-month cycles: measure, adapt, scale. If the sensors show unacceptable variance, we trigger contingency responses with LuxCorp as a backup partner." (He rehearses the word 'backup' like a soft surrender.)
+
+Mayor Elena's jaw tightens. She folds her hands and looks at every face in the room as if the town is a balance she must hold.
+
+Mayor Elena: "Backup with LuxCorp is the political currency. Voters want a visible line on the beach. Lux offers jobs, a contract backlog, and immediate infrastructure jobs. But they also demand control over zoning and future revenue streams." (Her voice drops.) "We have to weigh immediate social stability against long-term ecological function."
+
+You feel the room tilt toward that currency. LuxCorp's shadow grows longer in your mind; their promises are not only technical but economic. The smell of baked cookies and compost fights the sterile odor of polished proposals in your imagination.
+
+Dr. Noor: "We can quantify habitat loss and provide alternatives, but numbers don't mollify grief over places lost or livelihoods altered. We must be explicit with trade-offs."
+
+Maya Inoue: "I promise to build the pilot schedule and the volunteer rota. I'll map who loses land and who gets priority. I'll negotiate for guarantees that LuxCorp's plan won't preempt community consultation." (The promises come out too clean; you can hear the edges.) "But I—" (You stop because saying 'I can't promise everything' would be admitting how small you feel.)
+
+Your thumb brushes the watch; the weather alert in your pocket flashes amber again, a peripheral, insistent reminder that time is not on your side. The greenhouse's humid heat presses against your chest. The plants are patient in a way you are not.
+
+Tomas: "Promises are fine, but they're paper. When the sea takes someone's house at night, paper doesn't keep them warm." (He looks at you—not accusing, but urging action that isn't abstract.)
+
+Kaito Sato moves closer, as if proximity could lend steadiness.
+
+Kaito Sato: "We'll also prepare a public forum—data visualizations and community input—so decision-making isn't just behind closed doors." (He looks to Mayor Elena.) "Mayor, can the town commit to a public workshop schedule? Not just a press release?"
+
+Mayor Elena exhales, the sound a brief surrender.
+
+Mayor Elena: "I can commission two workshops next week. But be warned: once LuxCorp hears that, their lobby will escalate. Investors read schedules the way they read contracts."
+
+You feel the promise you made take on weight. Your brother's memory is not only a compass—it is reason you cannot let numbers become abstract.
+
+Lucia "Lux" Moreno's presence feels suddenly near: a remembered laugh at a council meeting, a firm grip of a hand when you signed a pilot a year ago. She was once close to you—mentor, partner, now an inevitable actor. You are careful with how you think of her; the relational history here is complex and unreadable in the broad light of this meeting.
+
+[INTERACTION]
+> Choice A: "Say Lux helped you once and that you owe her the benefit of the doubt"
+> Choice B: "Keep Lux out of the personal conversation; focus on outcomes"
+[Outcome A: "You let slip the memory that Lux was once an ally. Faces in the room shift—some soften at the shared history, others tighten at what that implies. The mayor's expression flickers, considering political ramifications."]
+[Outcome B: "You clamp your lips and redirect the group's attention to outcome metrics—time to green cover, number of homes saved, contingency triggers. You keep the past unspoken, which keeps the room colder but more focused."]
+[MERGE: The air seems thinner now; decisions pull taut like wire. You realize you are promising things you are not sure you can deliver—seedlings in shallow soil, sensor packs that need funding, volunteers who can be unreliable in storms. You promised the community hope; hope is a fragile thing that requires more than good intentions.]
+
+Your watch ticks. The amber alert flashes. The greenhouse hums with the tiny noises of life—leaves brushing glass, the soft scrape of a chair, the indecisive murmurs of a town on the cusp of change.
+
+Everything in you wants to act, to guarantee safety, to erase the possibility of another loss like the one that made you who you are. And everything around you—the mayor's need to keep votes, Tomas's steady caution, Hana's practical warmth, Kaito Sato's tentative bridge-building, Dr. Noor's data—says: not so fast. Not without cost. Not without grief.
+
+You exhale, and the breath fogs faintly against the glass. Outside, Harborfall's promenade looks small and familiar, and LuxCorp's banners still gleam in the distance.
+
+A gust rolls over the roof, scattering a few fallen leaves. The weather alert in your pocket pulses like a second heartbeat.
+
+You look at the faces around the table. Each of them is carrying a different portion of the town's fear. You feel your promise like a coat that doesn't fit perfectly—warm enough for now, but threadbare at the seams.
+
+The clock on the wall ticks in time with the old watch on your wrist. You realize that the next step is beyond the greenhouse: a choice that will reach the promenade, the mayor's office, LuxCorp's polished pitch, and the houses that cling to the shoreline.
+
+There is a decision you can feel coming—a crossroads at dusk where plans meet politics and love meets responsibility. The room leans in, waiting for you to name it.
+
+[Background:"ch2_c4ca42_2"]
+[Music: Fade Out]
+[NEXT CHAPTER: 3]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 3
+    > Jump Target File: script_ch3_Common_Split_ctx_98c6f2.txt

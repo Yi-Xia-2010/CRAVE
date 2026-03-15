@@ -1,0 +1,113 @@
+{
+    "design_logic": "I interpret Climate Change (theme) through an intimate, human lens by pairing it with Romance (genre). The story uses a small coastal community under ecological stress to force emotional choices: love vs. duty, preservation vs. development. The core conflict is between urgent collective action and individual relationships strained by differing responses to the crisis — a love triangle that mirrors larger moral choices about sacrifice, adaptation, and hope.",
+    "setting": "Near-future coastal city (Salthaven) where rising seas, harsher storms, and managed retreat shape daily life. The town mixes weathered wooden architecture and new raised concrete infrastructure. Atmosphere is bittersweet: resilient community spirit under a sky of storm light, salt-bleached signage, and recurring fog.",
+    "visual_style": "Soft cinematic realism; eco-noir palette (seafoam greens, rusted copper, storm greys); painterly textures with crisp character lines; subtle anime-influenced facial expressiveness; environmental detail like wet surfaces and wind-driven foliage.",
+    "main_characters": [
+        {
+            "name": "Aria Marin",
+            "role": "Protagonist",
+            "personality": "Practical, quietly stubborn, compassionate planner who believes long-term solutions are built through community. She is calm under pressure, tends to mediate, but harbors guilt-driven perfectionism about past choices.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves, often tucked behind one ear or pulled into a low looped knot when working",
+                "eyes": "Warm hazel with flecks of green, soft almond shape; eyes brighten when she talks about the sea",
+                "clothing": "Functional layered wardrobe: faded navy field jacket with salt stains, high-collared knit sweaters in muted teal, slim cargo trousers rolled above waterproof boots; occasional lightweight safety vest with sewn community patches",
+                "accessories": "A frayed canvas satchel with a folded town map, a brass compass on a leather cord (keepsake from her father), and a thin silver band on her left ring finger"
+            },
+            "goal": "To implement a community-led resilience plan that preserves as much of Salthaven’s culture and coastline as possible while minimizing displacement.",
+            "background_story": "Grew up in Salthaven; left to study urban ecology after a traumatic storm when she was a teen that cost the town dearly. Returned to lead planning initiatives. She carries responsibility for earlier zoning decisions that indirectly accelerated displacement — a history that drives her insistence on inclusive solutions.",
+            "emotional_trait": "Strength: steady empathy and reliability. Flaw: guilt-fueled control impulses that make compromise emotionally painful."
+        },
+        {
+            "name": "Kai Solano",
+            "role": "Love Interest",
+            "personality": "Fiery idealist, charismatic community organizer who prefers direct action to policy. He is quick-witted, persuasive, and deeply loyal — but can be impatient with bureaucracy and prone to moral absolutism.",
+            "appearance_features": {
+                "hair": "Black, tightly coiled and kept short with a faded undercut; stray curls often damp from sea spray",
+                "eyes": "Deep amber, round and intense; his gaze is animated and frequently narrowed when he’s skeptical",
+                "clothing": "Layered, bright practical clothes: recycled-material hoodies in sea-glass green, patched denim jackets with sewn protest slogans, sturdy canvas pants and scuffed high-top trainers suitable for marches or repairs",
+                "accessories": "A handwoven wrist cord with beads made from recycled glass, a graffiti-scarred whistle, and a battered notebook of flyers and plans"
+            },
+            "goal": "To marshal the town into assertive, grassroots resistance against profit-driven development and to secure equitable rights for residents at risk of displacement.",
+            "background_story": "Salthaven native, childhood friend of Aria. After his family lost a home in an early storm, he channeled grief into activism. He distrusts outside developers and often sees Aria’s institutional connections as compromising.",
+            "emotional_trait": "Strength: passionate moral clarity and courage. Flaw: black-and-white thinking that can alienate allies and escalate conflicts."
+        },
+        {
+            "name": "Noah Vega",
+            "role": "Rival / Antagonist (sympathetic)",
+            "personality": "Calculated, personable engineer and corporate liaison who genuinely believes technological, market-driven solutions are the fastest way to save communities. He’s pragmatic, persuasive, and internally conflicted between profit pressures and emergent compassion.",
+            "appearance_features": {
+                "hair": "Ash-brown, straight and neatly styled, side-parted; a few premature silver strands at the temple",
+                "eyes": "Clear steel-blue, narrow and observant; his expression often measured and polite",
+                "clothing": "Tailored utilitarian attire: lightweight weatherproof blazer over breathable collared shirts, slim trousers with functional seams, polished waterproof shoes — branded with a discreet corporate sigil",
+                "accessories": "A smartband that monitors environmental metrics, a minimalist tablet always at hand with project schematics, and a wedding-band-like token engraved with his company division (keeps meaning hidden)"
+            },
+            "goal": "To implement a large-scale engineered seawall and mixed-use redevelopment that he argues will save the town economically and environmentally.",
+            "background_story": "Raised in a different region but moved to Salthaven as project lead for a climate-resilience firm. He’s under corporate pressure to deliver a visible, scalable project but has personal reasons — his niece lives in Salthaven, and he wants a stable future for her.",
+            "emotional_trait": "Strength: calm rationality and capacity to build consensus. Flaw: tendency to prioritize scalability and metrics over local culture and nuance, which blinds him to social costs."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Maya Marin",
+            "relation_to_main": "Younger sister of Aria",
+            "appearance_summary": "Short-cropped sandy-blonde hair, freckled face, bright blue raincoat always splattered with paint from community mural projects.",
+            "function_in_story": "Represents the next generation and personal stakes for Aria; pushes for bolder solutions and serves as emotional barometer for family tension."
+        },
+        {
+            "name": "Elder Tomas Quay",
+            "relation_to_main": "Longtime community elder and mentor figure to Aria and Kai",
+            "appearance_summary": "Weathered, bronzed skin, white hair tied back in a low knot, heavy knit sweater; always carries a carved walking stick.",
+            "function_in_story": "Holds oral history of Salthaven; mediates disputes and provides moral context about loss, memory, and why certain places must be preserved."
+        },
+        {
+            "name": "Dr. Linh Pham",
+            "relation_to_main": "Scientific advisor and ally to Aria",
+            "appearance_summary": "Sleek black bob, wire-rim glasses, lab coat repurposed into fieldwear; often has soil samples or algae vials clipped to her belt.",
+            "function_in_story": "Provides technical knowledge, models consequences of different plans, and offers ethically fraught evidence that influences political choices."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Salthaven Boardwalk",
+            "visual_description": "A once-bustling wooden promenade now patched with tarps and raised planks; late-afternoon light slants through salt-smeared air, illuminating torn festival banners. The sea glints a cold steel-blue; gulls wheel over piles of barnacled debris. Weathered shopfronts cast long shadows; puddles reflect neon of emergency signs."
+        },
+        {
+            "name": "Tidal Conservatory",
+            "visual_description": "A raised greenhouse-laboratory on stilts overlooking marshes: glass panes misted with condensation, warm golden interior light spilling into fog. Inside, rows of halophyte plants and experimental tanks glow under soft LED arrays; metallic walkways creak with humidity. Outside, grasses sway under an overcast sky, and the distant silhouette of the city is half-obscured by rain."
+        },
+        {
+            "name": "Civic Rooftop Garden",
+            "visual_description": "A public refuge on top of the town hall: terraced beds brimming with resilient flora, strings of solar lanterns, and communal benches. The skyline is a patchwork of low rooftops and cranes; dusk bathes everything in indigo and seafoam highlights. Wind flutters seed packets and paper plans pinned to a corkboard."
+        },
+        {
+            "name": "Arcology Development Site",
+            "visual_description": "Sterile construction zone dominated by concrete and steel scaffolding; cranes silhouette against a pale, briny sun. Flood-prone lower lots are ringed with temporary floodwalls and orange safety netting. Artificial lighting at night casts harsh white beams; faint hum of generators and the sheen of fresh concrete contrast with the surrounding weathered town."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love and Sacrifice",
+        "Community Resilience",
+        "Ethics of Development"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Aria brokers a hybrid solution: community-led living shorelines and scaled-down, culturally sensitive engineered protections. Kai and Noah find a working partnership; Aria and Kai deepen their romantic bond. Salthaven retains its character while gaining practical resilience."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The seawall is built with concessions from all sides, saving much of the town’s infrastructure but requiring relocation of a historic neighborhood. Aria and Kai part ways romantically after bitter disagreement about compromise; they remain committed allies. The town survives but mourns certain losses."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate development proceeds with minimal community input. Short-term economic gains follow, but cultural fabric erodes and some residents are displaced. Aria becomes a public critic, estranged from Kai and facing the personal cost of failing to protect her home.",
+            "note": "Emphasizes consequences of sidelining community voices."
+        },
+        {
+            "type": "True",
+            "summary": "All three protagonists change: Noah uses corporate influence to fund adaptive buyouts for the most vulnerable, Kai evolves his tactics to include policy work, and Aria learns to let go of perfect control. Romantic outcomes vary depending on player choices, but the moral is a nuanced synthesis: no perfect solution, but ethical collaboration can produce meaningful, if incomplete, preservation."
+        }
+    ],
+    "estimated_chapters": 6
+}

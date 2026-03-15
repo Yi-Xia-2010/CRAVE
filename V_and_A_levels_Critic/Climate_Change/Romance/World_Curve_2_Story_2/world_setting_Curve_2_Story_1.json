@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the intimate lens of Romance: the climate crisis is not just an external threat but a force that shapes relationships, values, and daily choices. The genre pairing lets players experience big-system dilemmas (development vs. restoration, short-term profit vs. long-term resilience) through personal stakes: love, trust, and compromise. Core conflict: protecting a community's living shoreline through cooperative, low-tech ecological solutions versus a charismatic corporate engineering project promising swift protection—and the emotional strain this creates between characters who hold different beliefs about what adaptation should cost and who should pay.",
+    "setting": "Near-future coastal town (Marisport) on a temperate shoreline coping with rising seas and frequent storm surges. The town mixes salvaged vernacular architecture and retrofit eco-technology: raised walkways, rooftop gardens, kelp farms, and modular flood barriers. The atmosphere is intimate and tactile—salt, wind, patchworks of solar film—tonal, melancholic but with resilient warmth as neighbors pool resources and memories.",
+    "visual_style": "Semi-realistic painterly, muted coastal palette (sea-grays, kelp greens, rust-orange), soft backlighting at golden hour, eco-tech details (woven biopolymers, glass-greenhouses), gentle anime-influenced facial expressiveness, textured brushwork for weathered surfaces",
+    "main_characters": [
+        {
+            "name": "Mara Linh Alvarez",
+            "role": "Protagonist",
+            "personality": "Practical, fiercely loyal to her community, quietly idealistic. Mara balances creativity (designing living defenses) with an inward-leaning stubbornness; she is warm with neighbors but guarded about asking for help. She reads situations carefully and can be blunt when stakes are high.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length wavy bob with natural sea-salt highlights and a small braid behind the left ear",
+                "eyes": "Storm-gray eyes with flecks of green, rounded almond shape, often rimmed with tiredness",
+                "clothing": "Patchwork olive-green field jacket with reflective hem, layered linen shirt stained with soil, slim cargo trousers rolled at the cuff, salted-leather ankle boots",
+                "accessories": "Worn leather sketchbook strapped to her hip, brass compass pendant (scuffed), a rusted metal barrette shaped like a wave"
+            },
+            "goal": "To implement community-led living shoreline projects (kelp farms, oyster reefs, porous seawalls) that protect homes while preserving local ways of life.",
+            "background_story": "Grew up in Marisport; her father, a small-boat fisherman, was lost during a severe storm when she was sixteen. She studied environmental design away from town, returned when sea-level threats intensified, and now coordinates neighborhood resilience initiatives. Past compromises haunt her—she fears repeating choices that trade community welfare for quick fixes.",
+            "emotional_trait": "Emotional strength: fierce empathy and practicality. Flaw: internalized guilt and a tendency to shoulder burdens alone, which risks alienating allies and romantic partners."
+        },
+        {
+            "name": "Kai Navarro",
+            "role": "Love Interest",
+            "personality": "Openhearted, playful, and persistently optimistic. Kai is both a dreamer and a tinkerer: he loves hands-on restoration projects and can defuse tension with humor. Beneath the cheer is a fear of failing people he cares about and a tendency to downplay risks.",
+            "appearance_features": {
+                "hair": "Black, long enough to tie into a loose braid; undercut at one side with sun-bleached tips",
+                "eyes": "Warm amber eyes, slightly hooded, quick to crinkle when he smiles",
+                "clothing": "Lightweight solar-fabric overalls (patches of colorful fabric sewn on), rolled sleeves revealing inked schematics on his forearm, practical rubber-soled work clogs",
+                "accessories": "A faded pair of salvaged sunglasses perched on his head, a canvas satchel of native plant cuttings, a small herbal-smelling cloth tied around his wrist"
+            },
+            "goal": "To scale low-cost ecological adaptation (kelp and oyster farms, community rooftop orchards) across Marisport and neighboring towns, proving that regenerative solutions can be resilient and just.",
+            "background_story": "Former municipal planner who left a bureaucratic role after seeing top-down projects fail in other cities. He apprenticed under coastal biologists, then moved to Marisport drawn by grassroots work and a belief that small, humane interventions can outlast big engineering.",
+            "emotional_trait": "Emotional strength: infectious optimism and generosity. Flaw: naivete about political power and an avoidance of confrontation that can frustrate allies."
+        },
+        {
+            "name": "Evelyn Black",
+            "role": "Antagonist",
+            "personality": "Calm, razor-focused, and eloquent. Evelyn believes in large-scale engineered adaptation and rational prioritization. She can be charismatic and persuasive, but her pragmatic approach often reads as cold to community members. Complex and morally ambiguous, she is not purely villainous—she is haunted by a fear of mass failure.",
+            "appearance_features": {
+                "hair": "Short silver bob, precisely cut, with a single streak of darker gray near the temple",
+                "eyes": "Sharp, slate-blue eyes, narrow and assessing, with a faint crow's-foot at the corner",
+                "clothing": "Tailored dark waterproof trench with thin neon piping at seams, high-collared white blouse, fitted technical trousers and polished rubber boots that hint at both style and function",
+                "accessories": "Sleek encrypted tablet she never puts down, a heavy signet ring bearing her family's crest, a small, faded black-and-white photograph of a shoreline tucked into her wallet"
+            },
+            "goal": "To push through a modular engineered seawall and mixed-use flood barrier as a rapid adaptation measure—framed as necessary infrastructure to protect lives and property, promising swift, scalable protection.",
+            "background_story": "Raised in an engineering-business family, Evelyn climbed the corporate ladder leading a firm specializing in hardened coastal infrastructure. She lost colleagues in a past project failure and now believes decisive, centralized solutions prevent chaos. Her upbringing instilled a belief that hard choices are preferable to messy compromises.",
+            "emotional_trait": "Emotional strength: ruthlessly pragmatic decisiveness. Flaw: suppressed empathy and a fear-driven tendency to prioritize measurable outcomes over intangible community bonds."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Anita 'Nita' Ramirez",
+            "relation_to_main": "Childhood friend of Mara",
+            "appearance_summary": "Short, broad-shouldered, always wearing a bright bandana and market apron flecked with fish scales and soil; laugh lines and steady hands.",
+            "function_in_story": "Runs the Floodplain Market and acts as community connector—source of local gossip, urgent truth-teller, and practical support at critical moments."
+        },
+        {
+            "name": "Reverend Solomon 'Sol' Hart",
+            "relation_to_main": "Community elder and mentor figure to Mara",
+            "appearance_summary": "Tall, cane-marked with carved sea motifs, silvered beard streaked with brown, gentle eyes and a weathered oilskin coat.",
+            "function_in_story": "Moral compass and mediator; he organizes community meetings, preserves oral histories, and forces characters to reckon with the town's values and sacrifices."
+        },
+        {
+            "name": "Juno Alvarez",
+            "relation_to_main": "Younger sibling of Mara",
+            "appearance_summary": "Teen with cropped blond-dyed hair, a threadbare hoodie patched with band logos, fingerless gloves, and a spray-painted bicycle.",
+            "function_in_story": "Represents the stakes for the next generation; Juno's choices (stay or leave) become a personal metric of success or failure for Mara's plans."
+        },
+        {
+            "name": "Dr. Leila Osei",
+            "relation_to_main": "Scientific ally to Kai",
+            "appearance_summary": "Trim lab jacket repurposed as a field smock, a messenger bag of sensors, close-cropped hair, and round wire-frame glasses smudged with salt.",
+            "function_in_story": "Provides data and technical credibility for ecological proposals, helps translate scientific evidence into persuasive community presentations."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tideward Promenade",
+            "visual_description": "A once-bustling wooden boardwalk now half-submerged at high tide; planks bleached and barnacled, string lights swaying in salt wind. Lighting is warm gold at sunset, with long reflections on wet wood; gull calls punctuate quiet conversations. Sea-green algae coats pilings; handwritten signs and patched nets convey a DIY resilience."
+        },
+        {
+            "name": "Saltflower Greenhouse",
+            "visual_description": "A converted ferry hull repurposed into a community nursery and classroom: glass panes patched with translucent solar film, rows of native seedlings in reclaimed crates. Interior light is diffused and lush—humid, filtered green with the scent of brine and compost. Vines climb rusted beams; rainwater barrels gleam like pewter."
+        },
+        {
+            "name": "Old Lighthouse / Solar Spire",
+            "visual_description": "Weather-beaten masonry tower retrofitted with a ring of vertical solar panels and wind-capture vanes. On stormy days, the sky is slate and the structure is a silhouette against crashing surf; on calm nights, LEDs trace its spiral staircase with a soft cyan glow. Salt spray forms halos in backlit scenes."
+        },
+        {
+            "name": "Floodplain Market (Raised Platforms)",
+            "visual_description": "A patchwork of raised wooden platforms and canvas stalls above the marsh; colorful tarps flap, produce crates are stacked in sun-dappled aisles, children dart between stilts. Morning light is cool and misted; late-afternoon sun casts long orange shadows, highlighting salt-stained painted signs."
+        },
+        {
+            "name": "Blackbrand Development Site",
+            "visual_description": "An austere construction zone of modular concrete segments, chrome cranes, and immaculately rolled tarps. Overcast light keeps colors cold and metallic; orange-yellow hazard lights and the glass sheen of heavy machinery contrast with the damp, muddy earth. Security lighting hums at night, creating narrow islands of clinical white in the dark."
+        },
+        {
+            "name": "Rooftop Orchards & Kelp Farm Platform",
+            "visual_description": "Interconnected rooftop gardens with raised beds, wind-curled fruit trees, and shallow ponds lined with native marsh grasses; below, modular kelp lines undulate in brackish water visible between platforms. Golden-hour backlight filters through leaves, creating warm green-gold halos; irrigation drips add a steady percussive rhythm."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Moral Compromise"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led living defenses are scaled through a hybrid plan: parts of the engineered seawall incorporate living materials and community spaces. Mara and Kai deepen their relationship, founding a cooperative that balances engineering with ecology. Evelyn concedes to integrate community governance into future projects."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise saves most homes but requires concessions—some historic blocks are lost to the developer's barrier. Mara secures protections for vulnerable neighborhoods and a stewardship fund, but her relationship with Kai is strained by differing compromises; they remain together but must rebuild trust slowly."
+        },
+        {
+            "type": "Sad",
+            "summary": "The corporate project proceeds largely unaltered. Short-term protection arrives for wealthier districts while poorer areas are displaced. Mara loses her home or is forced to relocate; her relationship with Kai fractures as they choose different paths—one stays to resist, the other leaves to build elsewhere."
+        },
+        {
+            "type": "True",
+            "summary": "The outcome reframes victory: while not all immediate goals are met, the campaign sparks a regional movement and policy changes—seed projects, laws, and networks born out of Marisport scale outward. Mara and Kai's relationship matures into a partnership rooted in shared purpose rather than romantic culmination; Evelyn's arc ends ambiguously but with a hint of reform."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

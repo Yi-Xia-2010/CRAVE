@@ -1,0 +1,131 @@
+### SCRIPT
+# Route: Additional Route / Ending: True
+# Context: Start
+
+[Scene: Harborstone Pier | Pre-Dawn]
+[Background:"ch1_Start_1"]
+[Sound: Slow lapping tide, distant gull calls, a loose board creaking in the wind]
+[Music: Low, sparse piano — a single slow pattern undercut with wind ambience]
+
+You step onto the pier before the town wakes. The wood is familiar and splintered beneath your boots, each plank a sentence you could read if you had the patience to listen: weather, repair, neglect. The sea smells like iron and old nets. Tiny beads of salt rest on your jacket collar; when you draw your hand across the fabric they melt into a cool, damp seam.
+
+Your field notebook is damp at the corners. The tape that holds the back page in place is softened; when you flip it open the ink blooms like saltwater halos. You keep your thumb over that page as if the pressure could steady the voice inside you that knows equations and tide tables better than how to be headed home for good.
+
+You walk the familiar line of shacks — peeling teal paint, names scraped off and repainted more times than you can count. A gull arcs low and throws its shadow across the boards. Someone has stapled Maya's poster to a lamppost: TOWN MEETING — DUNE RESTORATION vs. STORMWALL, it reads in Maya's hurried handwriting. Underneath, hand-drawn waves in blue ink. The poster flaps in the damp breeze.
+
+Your fingers find the silver band at your neck before your thoughts do. The coordinates are worn shallow from years of rubbing. You trace them without thinking. The metal is cool, indifferent. Memory blooms in the hollow where grief still nests — the flood that took your sibling, the late buses leaving the town while you chased scholarship deadlines, the promise you made and the silence after it. You swallowed a degree and returned with plans and diagrams, but also with a guilt as big as the ocean, a private ledger of everything you failed to do.
+
+[Background:"ch1_Start_2"]
+
+You can recite the models in your sleep. You can name the erosion rates of the south cove and the best species for revegetating the dunes. Data is a comfort because it is bounded; grief is not. The stormwall renderings pinned along the temporary fence at the far end of the promenade speak in a different language — images of monolithic concrete and promise. They have a sheen to them that feels like a lie when it rains.
+
+[Sound: A soft shuffle of footsteps approaching; distant voices of early volunteers preparing posts]
+You almost miss Tomas when he rounds the corner hauling a bundle of reclaimed cedar posts. He moves with a practised economy — slight, quick, the way someone who grew up lugging nets and boards moves. He pauses when he sees you, and for a beat you both stand in that understated Harborstone way of greeting: small nods, a carried history in the set of your shoulders.
+
+Tomas: "Alea? Is that— (he squints, grin spreading) —no way. You really came back."
+
+Alea Maren: "I did." You keep your voice low. The pier takes words and makes them damp. "Before dawn felt… less crowded."
+
+Tomas brushes his hands down his hoodie and leans the cedar gently against the rail. The wood smells like old smoke and salt; it hums with possibility. He studies you the way someone checks a net for holes.
+
+Tomas: "City face and all. You look… different. Good different. Like you could order the tide around."
+
+Alea Maren: "I can order equations around. Tides are less obedient."
+
+Tomas: "Same difference to the rest of us." He says it without teasing. He knows, in the way childhood friends do, the small proportion of truth behind a joke. "Maya's been painting the town with meeting posters. You seen the renderings yet?"
+
+Alea Maren: "Only the fences." You nod toward the construction firm's banner farther down, its bold SAFE SOLUTIONS slogan catching the sodium light. You let your gaze hold on the images for a second — a smooth, continuous wall cutting the shoreline into a new silhouette. "They're everywhere."
+
+Tomas shifts, uncomfortable. "There's talk. Council's in heat. Folks are scared, Alea. You know how fast people lean into the big thing when the water's the enemy."
+
+Alea Maren: "I know." Your reply is quieter than you intend. You think of the flood maps, the probabilities drawn on pale paper in Dr. Cho's tiny office years ago. You think of the way the town held its breath and then exhaled a hundred small losses. "Which is why I wanted to see the site themselves before I say anything plain."
+
+Tomas nods like that settles something between you. He is a small island of familiar steadiness; seeing him move through the morning feels safe in a way that data never did. He picks up the cedar again — the work waiting is a tangible rhythm, less complicated than the choices ahead.
+
+Tomas: "Good. Maya's going to be at Tide & Thread with coffee by seven. She said—" (he looks off, listening to where the promenade opens) "—she said bring your maps. Not the fancy kind. People understand drawings on napkins better than your charts."
+
+Alea Maren: "I can draw on a napkin." You manage a smile so thin it almost becomes one.
+
+[INTERACTION]
+> Choice A: "Offer to help with the cedar"
+> Choice B: "Decline politely and study the banners"
+> Choice C: "Ask about Rin Sato"
+[Outcome A: "You shoulder one of the cedar posts; the leather strap bites your palm with the damp weight and you realize your muscles remember more than you expected."]
+[Outcome B: "You step back and let Tomas carry the posts alone. You lean against the rail and let your eyes map the construction banners: typography that promises security."]
+[Outcome C: "You tilt your head toward the promenade where Rin stands, and Tomas follows your line of sight; he grins and squeezes the hope out of the morning."]
+[MERGE: ...]
+
+Tomas chuckles when you pick the post up with him; the movement is a small, honest complicitness. If you chose to study the banners, Tomas makes a face that is both understanding and mildly reproachful, as if to say: don't hide behind analysis forever. Asked about Rin Sato, his expression brightens and then softens. "They're across the promenade. Been rallying folks since last week," he says.
+
+You notice Rin Sato then with the slow, careful attention of someone habituated to watching shorelines for change. Ink-black hair, the teal streak catching lamplight like a small, defiant tide. Their yellow anorak is plastered with salt and paint in a pattern that looks almost deliberate, like battle scars from a day of organizing. They stand on the promenade steps, voice carrying a steady cadence as they cheer volunteers who spread native grasses, tie posts, and hand out seed packets.
+
+The scene is one you know from before your time away — a cluster of people moving in a shared purpose, threaded by energy and easy laughter. But now the purpose is sharpened into a binary: protect with living dunes and community labor, or let the contractors pour concrete and call it security. There is a weight in that sharpening that presses against your ribs, slowing your breath.
+
+[Background:"ch1_Start_3"]
+[Sound: Low hum of conversation, the distant thump of a generator, the soft scrape of shovels]
+
+You want, in that moment, to cross the boards and speak with Rin Sato. To say hello and introduce the maps that live in your head. To bridge the two halves of the town: the measured plans and the hands-in-mud mentality that Rin Sato embodies. But your first instinct is to observe — to catalog the tide lines, the way the grass beds are being placed, how the salt is eating paint differently where the wind funnels. Observation is an armor you have learned to wear; it keeps the ache under a lid.
+
+Rin Sato notices you — or perhaps it is only that your eye finds them again. Their smile is quick, practiced, and carries an invitation that is both professional and personal. For a sliver of a second your chest lifts: a soft, dangerous thing that is also fragile as dune grass. Then the banner on the fence shutters in the rising wind and your attention snaps away, tethered back to the fear sitting in the middle of your chest.
+
+You think of Elias Hart's glossy pamphlets and sharp umbrella, of Councilor Bea's careful neutrality, of the families who have already moved their belongings to higher lots. You think, too, of Dr. Cho's patient admonitions about trade-offs. Standing at the edge of the pier, you feel the weight of conflicting loyalties: to science, to community, to memory.
+
+Rin Sato approaches in the flow of people, wiping paint from a palm on the back of their anorak. They stop a respectful distance away, reading you with a clarity that starts mild and grows gentle.
+
+Rin Sato: "Alea. I was hoping you'd come." (they squint, then grin) "You're more morning than I expected."
+
+Alea Maren: "You said we'd need trustworthy people." Your voice smooths over the edges. "Trustworthy people and coffee, apparently."
+
+Rin Sato: "Always coffee." They look past you to Tomas. "Hey Tomas." (to you again) "How long have you been back?"
+
+Alea Maren: "Long enough to know that posters make better promises than people do." The admission slips out softer than you planned, and Rin Sato's expression shifts — an unreadable fold of sympathy and something worse: concern.
+
+Rin Sato: "I get that. Sometimes posters are the only thing people can hold onto." They lean in a fraction. Up close, you smell paint and lemon oil, the smell of work and a life being stitched back together. "But Maya's got real folks showing up. It's messy. It's the kind that works."
+
+Alea Maren: "Maybe." You don't say that the models point to places where living systems might help, or that sometimes the only way to keep a town alive is to protect a few key lots with hard infrastructure. You don't say that you have come with a suitcase full of calculations and a smaller, quieter suitcase of hopes.
+
+Rin Sato: "When you're ready, we could use someone who speaks the other tongue." They gesture to your jacket, to the smallness of the gesture. "People listen when someone can make the numbers feel human."
+
+Alea Maren: "I can try." You want to say more — that you can make the numbers sing — but what comes out is a promise that sounds fragile even to your own ears.
+
+[INTERACTION]
+> Choice A: "Step closer and offer a plan now"
+> Choice B: "Hold back and suggest meeting at Tide & Thread"
+> Choice C: "Change the subject and ask about volunteers"
+[Outcome A: "You find yourself stepping forward, the board underfoot slick as a decision. Your lips part to outline a simple contour of dunes and marsh; the words settle into the air like seed. Rin Sato listens, brows knit in that open way theirs always are."]
+[Outcome B: "You keep your distance. 'Later,' you say. 'Tide & Thread—Maya's—seven.' Rin Sato nods, understanding the script of caution you both know."]
+[Outcome C: "You ask about the volunteers instead, deflecting toward the practical. Rin Sato relaxes and describes whom they've recruited: fishermen, schoolteachers, kids who brought their parents. The image steadies you."]
+[MERGE: ...]
+
+Tomas laughs softly from where he's resetting the cedar in its waiting bundle. "You two picking at each other like old times? This is nice." He brushes salt from his sleeves with the careful boredom of someone who shields his tenderness with humor.
+
+Rin Sato: "We just need to get everyone talking instead of yelling at renderings." They smile at you — something quiet that asks permission to be seen. "You coming to Maya's later? She makes a mean lentil stew and a worse sign-up sheet."
+
+Alea Maren: "Lentil stew has historically made me compromise." You try for wry and land somewhere near something almost like truth. The small humor softens the morning around your ribs.
+
+You walk a slow loop of the pier before the town stirs entirely. The air cools the hot place in your throat where guilt and resolve mix. You watch the wave lines, the way light folds over wet paint and old wood. In the distance, beyond where the construction fence glints with pamphlets, the ocean is a patient, rhythmic presence — indifferent, relentless, honest.
+
+The emotional rise so far has been quiet: the pinprick of memory at the ring, the warmth of Tomas' grin, the flutter that comes when Rin Sato truly sees you. It is a crescendo measured in inches, not earthquakes. The ache remains; your chest is a ledger of what you owe and what you fear you cannot save.
+
+You tuck your notebook into your jacket, fingers finding the taped corner and smoothing it without looking. The page is a map of possibilities: words, sketches, a small list of species. It also feels like a conversation you have not yet had.
+
+[Background:"ch1_Start_4"]
+[Music: Piano pattern holds, a single bowed note underneath]
+
+You look toward the promenade where Rin Sato is lifting a new volunteer to the task. Their profile is a familiar shore: wind-blown, purposeful. There is a moment — brief and weighty — where your past and your present collide. You could cross that distance now and speak in maps and plans and earnestness. You could wait until Maya pulls you into warmth and conversation over a chipped mug. Or you could let the observation keep you safe a little longer.
+
+The tide breathes in. The town is awake enough to need decisions and not yet awake enough to make them. Your presence here is a fragile commitment. You are back, and the town will want from you more than presence: it will want action, apologies, numbers tied to compassion.
+
+You take a breath that smells of salt and paint and coffee to come, and you choose how to move first: toward work, toward conversation, or toward the heat of the community kitchen where futures are argued over bowls.
+
+[Page-turn pause: You feel the quiet swell of intention — small, controlled, unavoidable.]
+
+[Background:"ch1_Start_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-03-11 11:00:14",
+  "total_chapters": 14,
+  "total_valid_routes": 6,
+  "orphans_removed": 1,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Alternate",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Alternate",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Alternate",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Harbor Lessons",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Promenade Momentum",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "The Council Call",
+      "branch": "Common",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Berms and Trust",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Apex of the Model",
+      "branch": "Route A",
+      "children_ids": [
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The Storm Breach",
+      "branch": "Route A — Ending",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Unquiet Accusations",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Oversight Hearing",
+      "branch": "Route B",
+      "children_ids": [
+        14,
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "The Backlash",
+      "branch": "Route B — Ending",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Paper Shields",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Regulatory Peak",
+      "branch": "Route C",
+      "children_ids": [
+        13,
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Emergency Protocols Fail",
+      "branch": "Route C — Ending",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Data and Reckoning",
+      "branch": "Alternate",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Compromise Settlement",
+      "branch": "Alternate",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

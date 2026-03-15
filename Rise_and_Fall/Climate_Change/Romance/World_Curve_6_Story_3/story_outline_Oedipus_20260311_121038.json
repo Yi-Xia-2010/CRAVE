@@ -1,0 +1,491 @@
+{
+    "title": "Tides of Veridian",
+    "summary": "Maya Ibarra must navigate Port Veridian through a worsening storm season and a fracturing town. Faced with choices between nature-based living defenses, immediate hard armoring, or conditional corporate funding, Maya's decisions shape short-term survival and long-term ecological and social consequences. Each route yields provisional gains and eventual losses: a provisional rise through collaboration or employment is followed by hard setbacks that reveal moral and ecological debts. Romance and rivalry (with Elliot and Noah) entwine with policy choices, producing varied endings that emphasize stewardship, compromise, or loss.",
+    "emotional_curve_type": "Oedipus (Fall→Rise→Fall)",
+    "player_character": "Maya Ibarra",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Alarm",
+            "branch_designation": "Common",
+            "narrative_focus": "Maya wakes before dawn to sirens and tide anomalies after a storm damages the boardwalk. She surveys Main Street and the docks, receives urgent frames from Rosa, and learns the lab sensors are red. Mayor Cortez calls an emergency forum; Veridian Holdings posts renderings. Noah organizes crews while Elliot arrives with living-dike plans. Maya feels the weight of her father’s absence and resolves that something must be done quickly as the siren wails.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": "",
+            "characters_involved": [
+                "Maya Ibarra",
+                "Rosa",
+                "Mayor Cortez",
+                "Noah",
+                "Elliot",
+                "Veridian Holdings"
+            ],
+            "locations_used": [
+                "Main Street",
+                "boardwalk",
+                "docks",
+                "library",
+                "Tidewatch Lab"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "The Forum and the Fracture",
+            "branch_designation": "Common",
+            "narrative_focus": "At the Council Hall forum, the town quickly divides over responses to the storm. Noah advocates armored seawalls and dredging; Aria Sol of Veridian Holdings offers funded development; Elliot proposes living dikes and phased protections. Tensions escalate as fishermen and developers clash; Maya struggles with perfectionism and the desire to reconcile everyone. The meeting ends without consensus and the sea beyond the windows is flat and impatient.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": "",
+            "characters_involved": [
+                "Maya Ibarra",
+                "Tomas",
+                "Mayor Cortez",
+                "Noah",
+                "Aria Sol",
+                "Elliot",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Council Hall",
+                "Atrium",
+                "Tidewatch map"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "The Choice of Anchor",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "On the Lighthouse ledge, with a temporary municipal contract hinging on a single endorsed plan, Maya must choose among Elliot's hybrid living-dike design, Noah's immediate hard protections, or Veridian Holdings' conditional fast-build with permit concessions. The choice will determine the town's short-term stability and long-term control of the shoreline.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which primary strategy will Maya publicly endorse and lead?",
+                "options": [
+                    {
+                        "label": "I will lead Elliot’s hybrid living-dike program, combining nature-based solutions with targeted engineering.",
+                        "consequence": "Immediate community workshops and pilot living-dike installations; Elliot becomes my close collaborator; Noah feels betrayed.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "I will back Noah’s immediate protection contracts to secure livelihoods now.",
+                        "consequence": "Rapid mobilization of crew-led armoring and dredging; some immediate safety and jobs, but ecological cost.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "I accept Veridian Holdings’ phased hard-protection funding and oversight, with strict conditions.",
+                        "consequence": "Fast funding and machinery arrive; political stability but loss of local permit control and cultural grief.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Mayor Cortez",
+                "Elliot",
+                "Noah",
+                "Aria Sol"
+            ],
+            "locations_used": [
+                "Beacon Lighthouse",
+                "lighthouse ledge",
+                "town square"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Building the Living Dike",
+            "branch_designation": "Route A",
+            "narrative_focus": "Maya publicly endorses Elliot's hybrid plan; volunteers assemble to build a pilot living dike with coir rolls and reeds. Dr. Kira Ansel rigs sensors at the Tidewatch Lab. The pilot holds during an overnight surge, bolstering community confidence and creating a gentle rise in morale. Noah helps quietly but is distant. Maya delegates and experiences a hopeful closeness with Elliot.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we scale the pilot now that it shows promise?",
+                "options": [
+                    {
+                        "label": "Scale quickly using community labor and decentralized funding.",
+                        "consequence": "Faster expansion, stronger local buy-in, risk of overseen engineering gaps.",
+                        "target_chapter_index": 5
+                    },
+                    {
+                        "label": "Request formal municipal contracts and external grants before expanding.",
+                        "consequence": "Bureaucratic safety nets stabilize funding but slow momentum; allows technical oversight from Dr. Kira.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Accept a conditional partnership with Veridian Holdings to fast-track construction while maintaining local oversight.",
+                        "consequence": "Increased resources but political compromise and emerging permit complexity.",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Elliot",
+                "Rosa",
+                "Dr. Kira Ansel",
+                "Noah"
+            ],
+            "locations_used": [
+                "estuary",
+                "Tidewatch Lab",
+                "town square",
+                "living dike pilot site"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Compromises in Salt Air",
+            "branch_designation": "Route A",
+            "narrative_focus": "Rapid scaling leads to seams: a subcontractor rushes pilings without full sensor integration and the living dike's outer lip shears under a south swell. Marsh grasses are uprooted and fishermen return with diminished catches. Noah accuses Maya of naiveté. Veridian offers rapid repairs and Mayor Cortez negotiates optics. Maya feels shame and questions whether the rush caused these costs to the community.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 6,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Elliot",
+                "Noah",
+                "Rosa",
+                "Mayor Cortez",
+                "Veridian Holdings",
+                "Tomas"
+            ],
+            "locations_used": [
+                "living dike",
+                "estuary",
+                "docks",
+                "marketplace"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "The Bad High Tide",
+            "branch_designation": "Route A — Ending: Bittersweet/True",
+            "narrative_focus": "An extreme storm tears through the partially stabilized estuary. Some living-dike sections hold, others fail. Seawall patches are insufficient where marshes were stripped. Maya coordinates evacuations; Elliot shores up sensors; the mayor announces a mixed governance plan with high costs: condemned piers, sold fishplots, and legal holds on Veridian's contracts. Elliot accepts a regional post. Noah walks away angered. Maya survives with mixed relief and grief—partial victories with deep scars.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 5",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Elliot",
+                "Noah",
+                "Mayor Cortez"
+            ],
+            "locations_used": [
+                "estuary",
+                "Beacon Lighthouse",
+                "docks",
+                "Tidewatch Lab"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "The Armor of Immediate Work",
+            "branch_designation": "Route B",
+            "narrative_focus": "Maya endorses Noah's immediate protection measures: dredgers and pilings arrive, providing swift employment and practical protection. The harbor stabilizes in the short term; nets fill and neighbors sleep easier. Dr. Kira warns of habitat loss while Aria promotes progress. Elliot is hurt but assists where he can. Maya wrestles with the moral cost of trading ecological health for immediate livelihoods.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "With early gains, how should the town formalize protections?",
+                "options": [
+                    {
+                        "label": "Make the armoring permanent and expand dredging for more immediate security.",
+                        "consequence": "Deeper short-term protection, greater ecological damage.",
+                        "target_chapter_index": 8
+                    },
+                    {
+                        "label": "Allocate some profits to funding a parallel marsh-restoration trial while continuing the armoring.",
+                        "consequence": "Diffused compromise, logistical strain, and mixed public sentiment.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Use the momentum to force a negotiated hybrid plan with Elliot's team and strict environmental monitoring.",
+                        "consequence": "Political friction with Noah and Aria but a chance at balanced protection.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Noah",
+                "Elliot",
+                "Dr. Kira Ansel",
+                "Aria Sol"
+            ],
+            "locations_used": [
+                "harbor",
+                "docks",
+                "estuary",
+                "construction sites"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Contracts and Compromises",
+            "branch_designation": "Route B",
+            "narrative_focus": "Permanent seawalls and expanded dredging are enacted through mayoral ordinances. Veridian Holdings eyes development; marshes recede and fish counts decline. Noah gains political standing among workers, while community rituals tied to shorelines fade. A scandal reveals a fast-tracked environmental permit favoring outside contractors. Maya struggles with complicity and the hollow feeling of trading ecology for security.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 9,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Noah",
+                "Aria Sol",
+                "Elliot",
+                "Tomas",
+                "Rosa",
+                "Mayor Cortez"
+            ],
+            "locations_used": [
+                "seawall",
+                "docks",
+                "wharf",
+                "town hall"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "The Hardened Shore",
+            "branch_designation": "Route B — Ending: Sad/True",
+            "narrative_focus": "Over time the hardened shore protects homes but undermines ecological foundations: salt intrusion, plummeting juvenile fish counts, and altered nesting. Community trust erodes. Elliot leaves for a research fellowship abroad; Maya departs months later to work regionally. The town's economic security is preserved but at the cost of ecosystem collapse and fractured relationships.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 8",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Noah",
+                "Elliot",
+                "Mayor Cortez",
+                "Veridian Holdings"
+            ],
+            "locations_used": [
+                "Beacon Lighthouse",
+                "seawall",
+                "shoreline",
+                "harbor"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "A Conditional Deal",
+            "branch_designation": "Route C",
+            "narrative_focus": "Maya tentatively accepts Veridian Holdings' conditional offer: large-scale funding and machinery in exchange for permit authority. She negotiates strict conditions for monitoring and apprenticeships. Short-term stabilization follows: steady employment and visible construction. Elliot negotiates technical requirements into the plan while Maya hopes local oversight clauses will hold.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we ensure Veridian’s project doesn’t erode local control?",
+                "options": [
+                    {
+                        "label": "Insist on a codified community oversight council before any heavy mobilization.",
+                        "consequence": "Slower start, better safeguards, potential corporate pushback.",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Allow rapid mobilization under strong contracts with deferred oversight.",
+                        "consequence": "Fast progress, risk of later permit capture.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Formally invite Elliot and Dr. Kira as independent auditors to the project team.",
+                        "consequence": "Adds technical scrutiny but political friction with Noah and Aria.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Aria Sol",
+                "Mayor Cortez",
+                "Elliot",
+                "Noah",
+                "Veridian Holdings"
+            ],
+            "locations_used": [
+                "development site",
+                "construction site",
+                "Tidewatch Lab",
+                "town square"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Oversight and Stalemate",
+            "branch_designation": "Route C",
+            "narrative_focus": "Maya's insistence on a codified community oversight council delays the project. Contracts are redrawn and audits scheduled; Veridian bristles. The delay leaves vulnerable areas unprotected during a tidal surge that damages the old fish market. The town fractures, and Maya bears blame for prioritizing governance over immediate action. She struggles with guilt as legal procedures pile up.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Veridian Holdings",
+                "Aria Sol",
+                "Noah",
+                "Elliot",
+                "Dr. Kira Ansel",
+                "Mayor Cortez"
+            ],
+            "locations_used": [
+                "construction site",
+                "civic atrium",
+                "Tidewatch Lab",
+                "old fish market"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "The Contracted Shore",
+            "branch_designation": "Route C — Ending: Sad/True",
+            "narrative_focus": "A fragile political compromise leads Veridian to proceed under mandated oversight but with loopholes allowing harmful dredging and hardening. Infrastructure stability is won but permit control erodes and many fishing families suffer. Elliot departs for other projects. Maya drafts stewardship agreements that read better on paper than in the mud and leaves to pursue advocacy elsewhere, feeling sorrow and necessary resolve.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 11",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Veridian Holdings",
+                "Elliot",
+                "Noah",
+                "Mayor Cortez"
+            ],
+            "locations_used": [
+                "half-built pilings",
+                "shoreline",
+                "Tidewatch Lab",
+                "construction zones"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Conditional Partnership (Alternate Ending — Route A Option C)",
+            "branch_designation": "Route A / Alternate",
+            "narrative_focus": "A conditional partnership with Veridian accelerates the living-dike program but skews design toward photogenic promenades that compromise hydrology. A late-season surge exploits the compromised seam, silt fills the estuary, and fish nurseries are stranded. Elliot blames Maya; Noah calls her a traitor. A stewardship council emerges from anger, but ecological recovery will be slow and the town bears visible scars.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 4, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Veridian Holdings",
+                "Elliot",
+                "Noah",
+                "Aria Sol",
+                "Rosa",
+                "Tomas"
+            ],
+            "locations_used": [
+                "living-dike promenade",
+                "estuary",
+                "town square",
+                "investor-facing boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Hybrid Stitched with Wounds (Alternate Ending — Route B Option C)",
+            "branch_designation": "Route B / Alternate",
+            "narrative_focus": "A negotiated hybrid combines armoring and living-dike features with monitoring. The arrangement preserves some marsh and saves some nets, but continued dredging and compromises reduce fish recruitment over time. Short-term economic stability comes with long-term erosion of resilience. Tensions persist; Elliot and Maya maintain a strained but honest partnership focused on long-term stewardship and repair.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 7, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Noah",
+                "Elliot",
+                "Dr. Kira Ansel",
+                "community members",
+                "Tomas"
+            ],
+            "locations_used": [
+                "mixed shorelines",
+                "docks",
+                "estuary",
+                "stewardship council rooms"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Independent Auditors (Alternate Ending — Route C Option C)",
+            "branch_designation": "Route C / Alternate",
+            "narrative_focus": "Elliot and Dr. Kira act as independent auditors for Veridian's project, shaping construction to preserve habitats and adapt designs. Their oversight reduces some damage, but legal pressure and a major storm produce mixed results: some sectors survive, others are devastated. Co-management emerges, and Maya remains to tend daily stewardship while Elliot is called to regional work. The ending emphasizes vigilance, realistic recovery, and love altered by duty.",
+            "emotional_trajectory": "Fall",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ibarra",
+                "Elliot",
+                "Dr. Kira Ansel",
+                "Veridian Holdings",
+                "Mayor Cortez"
+            ],
+            "locations_used": [
+                "construction site",
+                "Tidewatch Lab",
+                "marsh windows",
+                "audit tables"
+            ]
+        }
+    ],
+    "remarks": "Branches occur at Chapter 3 (global split), Chapter 4 (Route A scaling), Chapter 7 (Route B formalization), and Chapter 10 (Route C oversight). Endings are at chapters 6, 9, 12, 13, 14, and 15. Entry Condition fields were copied verbatim from the outline.",
+    "_meta_source_world": "world_setting_Curve_6_Story_1.json",
+    "_meta_arc_strategy": "Oedipus (Fall-Rise-Fall)"
+}

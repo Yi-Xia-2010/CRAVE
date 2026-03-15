@@ -1,0 +1,35 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Morning After the Hi<br/>[Common]"):::spine
+    2("Ch 2<br/>Council Notice and Q<br/>[Common]"):::spine
+    3("Ch 3<br/>Dusk Meeting at Coun<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Vote for the Pilot<br/>[Route A]"):::limb
+    5("Ch 5<br/>Investor Pressure an<br/>[Route A]"):::limb
+    6("Ch 6<br/>Stand Firm — A Costl<br/>[Route A / Ending]"):::limb
+    7("Ch 7<br/>Back Iris's Contract<br/>[Route B]"):::limb
+    8("Ch 8<br/>PR Success, Private <br/>[Route B]"):::limb
+    9("Ch 9<br/>The Storm That Revea<br/>[Route B / Ending — Climax]"):::limb
+    10("Ch 10<br/>Propose the Hybrid<br/>[Route C]"):::limb
+    11("Ch 11<br/>Fragile Success and <br/>[Route C]"):::limb
+    12("Ch 12<br/>Iris Signs — A Hidde<br/>[Route C / Ending]"):::limb
+    13("Ch 13<br/>Quiet Compromise — W<br/>[Cross-Route Alternate Ending]"):::limb
+    14("Ch 14<br/>Institutional Fix wi<br/>[Cross-Route Alternate Ending]"):::limb
+    15("Ch 15<br/>The Choice to Leave<br/>[Final Alternate / Sad Ending]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    5 -.-> 14
+    5 -.-> 13
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 14
+    8 -.-> 9
+    8 -.-> 15
+    10 -.-> 11
+    11 -.-> 13
+    11 -.-> 12
+    11 -.-> 15

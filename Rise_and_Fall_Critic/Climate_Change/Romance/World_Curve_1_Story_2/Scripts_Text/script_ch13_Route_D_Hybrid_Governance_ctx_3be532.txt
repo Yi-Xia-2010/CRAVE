@@ -1,0 +1,153 @@
+### SCRIPT
+# Route: Route D / Ending
+# Context: 3be532
+
+[Scene: Voss Development Office | Morning]
+[Visual: A wide shot through the glass façade — the harbor's low tide like a folded map, town rooftops and distant reeds reflected in the office's polished surfaces]
+[Music: Quiet, optimistic piano arpeggios; a slow string underswell]
+[Sound: Distant gulls, the faint mechanical hum of an elevator]
+
+You step out of the elevator and feel the air inside the tower change from salt-damp harbor into conditioned calm. The glass walls make everything both closer and farther away: Atera's worn edges are reflected and softened, like a town in a magnifying glass.
+
+There is a table in the center of the room — oak with the varnish wearing thin at the edges where hands have rested too long. Around it sit people who used to occupy separate corners of your life: municipal lawyers with neat stacks of precedent notes; Jun with sawdust still in the seams of his flannel; Riv fidgeting with a bandana; Amina with her braid wrapped twice, eyes tired but steady. Elias unfolds a set of tide maps, ink smudged by overnight notes. Soren stands at the far end, palms folded, coat off for the first time in days.
+
+You carry your mother's key in the pocket of your jacket like ballast. It keeps you steady. You breathe and let the rhythm of the harbor settle against your ribs—rise, recede, rise—and you remember why you chose this: not for victory, but for the work of holding opposing hands steady while the tide moves.
+
+[Visual: Close-up on Soren Voss: coal-black hair loose at the nape, a single silver streak catching the light; for the first time it looks slack, as if he forgot to comb away the fatigue]
+[Sound: The chair scrapes softly as he settles; a pen clicks]
+
+Soren Voss: "Thank you for coming. I know this—" (he glances at the lawyers) "—isn't the way I'd usually start a rollout, but I'm committed to the rigidity of the safeguards we spoke about."
+
+His voice is practiced, but now there's an edge—an admission that his usual certainty is fraying. You notice his pale-gray eyes unguarded for a moment, and something like sincerity goes through the room.
+
+Elias Maren: "Rigid is not the same as rooted." (he meets Soren's gaze) "If the clauses are paperwork theater, they'll paper over real harm. We need enforceable mechanisms, not just language that reads well in a press release."
+
+Elias Maren's tone is even, but firm. He knows the biology under the jargon; you can see his hands, still ink-stained, sketching currents in the air like a little ritual.
+
+Municipal Lawyer (Ms. Calder): "Enforceable is the key word, but enforceable requires clear triggers, measurable thresholds, and defined remedies. We can craft veto triggers tied to independent monitoring metrics. The trick is avoiding ambiguity that floods the arbitration chamber."
+
+Jun: "Legal ice is thin for folks who need boots on the ground. We don't want a clause that sounds good but needs a fancy court motion to mean anything when a drain backs up or a breakwater cracks."
+
+Riv: "And 'independent' can't mean 'a guy from the mayor's office and someone Soren's firm picks.' We want real seats, real teeth. No tokenism. No 'community liaison' who shows up for ribbon-cuttings."
+
+Amina Bakar: (softly) "We have to keep governance nimble. Funding will flow if partners feel secure. But trust will collapse faster than cash if residents feel shut out."
+
+You find yourself listening like you do when you test a motor — small vibrations tell you if something will hold. Each person's sentence is a shiver across the table. Structuring this isn't abstract; it's scaffolding for people's homes, livelihoods, and memory.
+
+[INTERACTION]
+> Choice A: "Check Elias's tide maps"
+> Choice B: "Ask the lawyer about veto language"
+[Outcome A: "You lean in and point at the shallow contour he circled. Elias traces the upwelling and nods — he explains how that pocket of current will stress any fixed breakwater without living edges."]
+[Outcome B: "You ask Ms. Calder to run through an example. She flips to a drafted clause, voice steady — 'If ecological harm exceeds X, the monitoring board shall issue a halt order effective immediately.' The words land like a bolt you can tighten."]
+[MERGE: The meeting slides into the practical. Lawyers propose three models for an independent board. Elias insists membership include practicing restoration scientists and a rotating seat for a fisher. Riv wants two youth seats and one for a representative of community organizers; Jun wants the board to have a fast-track stopgap power when immediate ecological risks appear.]
+
+The meeting slides into the practical. Lawyers propose three models for an independent board. Elias insists membership include practicing restoration scientists and a rotating seat for a fisher. Riv wants two youth seats and one for a representative of community organizers; Jun wants the board to have a fast-track stopgap power when immediate ecological risks appear.
+
+Ms. Calder: "We can give the board an emergency halt authority — temporary, automatic, triggered by pre-agreed metrics. The contractor would be required to cease the implicated activity until an independent audit is completed within X days."
+
+Soren Voss: "And if the audit is wrong? Or if frivolous triggers halt critical work with real safety consequences?"
+
+Elias Maren: (leaning forward) "Then the charter must also include a rapid arbitration pathway that uses scientific triage. Not court months—days. And a transparent dataset accessible to anyone with the credentials. Transparency is itself a check."
+
+Mika Hoshino: "If the data's open, the town can see what's happening. If decisions feel legitimate, people will comply. If they're opaque, they'll suspect motives. We need access, training, and a hotline for frontline reports."
+
+Riv, impulsive and fierce, lights up. "A hotline that's more than a PR line. A living board that visits sites, not just holds meetings. Monitors who come from the streets we're protecting."
+
+Jun: "And apprenticeships. If some work moves to raised infrastructure, locals need to be trained for those jobs. Revenue-sharing should fund the training and the shoreline projects."
+
+Amina Bakar folds her hands, the mayor's practical spine showing through: "We can earmark a percentage of development offsets to a Shoreline Trust Fund. The charter should define that percentage, disbursement triggers, and auditing. If the money's gone into a trust with distributed oversight, it's harder to appropriate."
+
+Ms. Calder: "I suggest a three-layer financial flow: escrowed bonds held by a trustee, a community-disbursement board with equal representation, and a capped discretionary fund for emergency mobilization."
+
+Soren Voss lets out a breath you feel more than hear. For once he drops the projector of the big picture and offers a small, human confession.
+
+Soren Voss [Quiet]: "I've pushed for scale so many times because scale feels like certainty. Build higher, spend bigger, make the risk calculable. But—" (he looks at you; his voice softens) "—I've seen models that didn't account for the people who live in the seams. If we misread that, I carry the longer damage. I don't want my name taking down a town."
+
+The sentence is small and improbable from him, but it lands like a key turned. There is a hush that isn't just respect; it's recognition that leadership sometimes means bracing for accountability.
+
+Elias Maren (meeting Soren halfway): "Then let's give accountability teeth. We'll design the metrics. I'll bring the kelp restoration baselines and the stress tests for hydrodynamics. We'll fund continuous monitoring buoys as a condition. The pilot has to prove ecological resilience before scale."
+
+You feel the room tighten around a new rhythm — not one person's rhythm, but a counterpoint where engineers, lawyers, and residents sync. For the first time since the proposal, the plan sounds like a process, not a promise.
+
+[Scene: Harbor Boardwalk | Midday — Break Between Sessions]
+[Visual: Gray water with copper reflections; you and Elias step outside. Salt on your jacket, warmth of sunlight against your face]
+[Sound: Boardwalk creaks, distant chatter from a fishmonger]
+
+The air tastes like boiled kelp and diesel. You and Elias stand on the boardwalk, maps folded into elbows. He blows the edge of a tide map, sending a small gust along the paper.
+
+Elias Maren: "They trusted you to hold the seam, you know. Not just between us and Soren, but between theory and what people actually live through."
+
+Mika Hoshino: "It felt less like holding and more like improvising scaffolding when I didn't have a blueprint." (your fingers rub at the braided string bracelet on your wrist) "You were stubborn about the monitoring. I—" (you hesitate) "—didn't expect you to be so vocal with legal phrasing."
+
+Elias Maren: (a soft laugh) "I didn't either. But this is the place where science meets legislature. If we don't name thresholds, there's no way to stop harm before it escalates. We can design pilot metrics so that the kelp beds become a proving ground and the living breakwaters are funded by the offsets from raised streets."
+
+You look at him — his sea-blue eyes are steady, not naive but anchored. Being next to him is like looking at a patient map of currents; you can see the force, the direction, and the slow work it takes to shift patterns.
+
+[INTERACTION]
+> Choice A: "Share your worry about community buy-in"
+> Choice B: "Ask for a concrete timeline"
+[Outcome A: "You tell Elias about Riv's threat to march if tokens are passed. He tightens his jaw but nods — 'Then we make sure they aren't tokens. Youth apprentices. Community seats. Real oversight.' His hands find yours, not in romance but in partnership."]
+[Outcome B: "You press for dates. Elias flips a page and sketches out a pilot schedule: buoy installation in six weeks, kelp nursery propagation in three months, first audit at eight months. The plan feels like a heartbeat you can follow."]
+[MERGE: You return to the table fortified by the harbor wind. The drafting begins in earnest: paragraphs are redlined, sentences retooled and then retooled again. The municipal counsel mediates between legal precedent and community values. Every time someone suggests vague language, someone else demands measurable criteria: what constitutes 'significant ecological harm'? Define it as a percentage drop in biomass, a breach of sediment thresholds, or a loss of nursery habitat for a listed species. Each metric is a stake hammered into the ground.]
+
+You return to the table fortified by the harbor wind. The drafting begins in earnest: paragraphs are redlined, sentences retooled and then retooled again. The municipal counsel mediates between legal precedent and community values. Every time someone suggests vague language, someone else demands measurable criteria: what constitutes 'significant ecological harm'? Define it as a percentage drop in biomass, a breach of sediment thresholds, or a loss of nursery habitat for a listed species. Each metric is a stake hammered into the ground.
+
+Ms. Calder: "We will include an independent data repository. Monitoring instruments must meet a minimum standard and be inspected by a rotating technical panel. The board's emergency halt will be limited to defined activities and subject to a rapid scientific review clause."
+
+Riv: "The board should have powers beyond statements. It needs enforcement — subcontractor bans, funding freezes, and a public registry of violations."
+
+Soren Voss: (nodding) "And a dispute resolution committee tied to arbitration with appointed technical experts. No litigation bottle-neck."
+
+Jun: "And apprenticeships. If locals are trained, they're less likely to resist because they have a stake."
+
+The air hums with the repetition of things getting concrete. Legalese becomes ordinances becomes training manuals. Your role changes: you aren't just naming tools and fixing pumps; you're translating between fields, turning technical thresholds into the language of lived safety. It's emotional labor you didn't sign up for, yet it's the kind that stitches a town back together.
+
+[Visual: Close-up on the charter draft: clauses on the left, scribbled margin notes on the right; signatures to come]
+[Music: Swell of strings; forward-moving hope]
+
+Amina Bakar stands and smooths her coat. "We have a working draft. We can pilot this with the kelp nursery and a living breakwater section north of the harbor. We will bind the revenue-sharing clause: 12% of development offsets into a Shoreline Trust Fund for ten years, with renewal contingent on ecological benchmarks."
+
+The room exhales. It's the taut exhale of people who have just run a distance together.
+
+Ms. Calder: "We will order a memorandum of understanding for the pilot. Chair seats for community, two scientific seats, one youth seat, one municipal seat, and one independent trustee. Emergency halt clause, rapid arbitration within seven days, public data access. Funding escrowed. Auditing schedule defined."
+
+Elias Maren adds, "And a clause for capacity building — funding for local apprenticeships tied to the trust. No outside contractors can take those apprenticeships until locals are offered them first."
+
+Riv grins, the bandana sliding as he bounces. "That's not tokenism. That's teeth."
+
+Soren Voss folds his hands and presses a stack of draft clauses forward. "If we sign this MOU today, I will commit Voss Development to the escrow and to the pilot's exclusive scope. We will publicly fund the monitoring buoys and underwrite the first year of the trust."
+
+He looks at you across the table. There is something near a question there: will you trust that the scaffolding will hold?
+
+You think of your mother's workshop: the way she measured twice and cut once, the small economies of material and care. Leadership, you're learning, is less about the hammer and more about the willingness to make a dozen small, sometimes lonely, judgments between people.
+
+You reach for the pen. Your hand trembles in the way that only comes when responsibility lands on a shoulder. The words in the draft are dense, and the margins carry the labor of the town. This signature isn't the end; it's the start of a legal and civic engine meant to keep the tides from erasing your past.
+
+You sign.
+
+One by one, they do: Elias Maren, with his ink-smudged fingers; Riv with a flourish that leaves a streak; Jun with a solid hand; Amina Bakar, steady as the mayor she is; Ms. Calder, precise. Soren Voss hesitates, then signs with a small, almost private commentary about legacy and accountability. When the last ink dries, the room is quiet and kind of bright.
+
+[Visual: The camera lingers on the drafted MOU under warm lamplight; the signatures are black dots along the bottom like the seeds of something new]
+[Music: Piano returns, now warmer; strings swells into a hopeful motif]
+
+You don't celebrate with confetti. You celebrate with plans: schedules for buoy installations, lists of trainee names, a calendar for public audits, and a small public forum scheduled for the harbor the week after next. The charter is provisional — pilot-bound, time-limited, and contingent on measurable success — but it is a real chain of commitments.
+
+You step outside onto the bluff as the day leans toward dusk. The harbor breathes. The town below gleams like a patchwork that might yet be mended.
+
+Your mother’s key is warm in your pocket. You press it between your fingers, feeling metal and memory and the weight of a promise.
+
+Page-Turn Thought: The signatures are a beginning that is anything but simple. Binding language now exists where uncertainty sat. Each clause will be tested by weather and will and time. But for the first time in months, the tide feels like something you can reckon with together — not just survive but shape. You are tired in the way of someone who has done honest work, and it sits in you like a new kind of ballast: heavy, grounding, hopeful.
+
+[Visual: The bluff at dusk; lights of the lower docks blink as if agreeing]
+[Music: String motif lingers, then softens]
+[Sound: Far-off applause and the hush of the harbor]
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: [14]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 14
+    > Jump Target File: script_ch14_Route_D_Split_ctx_bd95da.txt

@@ -1,0 +1,242 @@
+## Solhaven Rising (Visual Novel Title)
+Solhaven Rising
+
+---
+
+## World View
+Solhaven is a small coastal town in 2035 caught between salt and concrete. The temperate sea laps against weathered fishing-era buildings and newer glass-front proposals; reclaimed wetlands rub up against survey flags and corporate trailers. Politically the town is a tangle of municipal council meetings, grassroots co-ops, and outside development interests — a local democracy tested by climate-driven storms and investors promising stability. Culture blends longshore craft traditions and emergent ecological activism; there is a tacit religion of place — ritualized maintenance of marshes, memorials for storm losses, and seasonal festivals tied to tides. Class lines are not stark but real: fishermen and gardeners, white-collar engineers and city consultants, retirees who remember the town before the storm. Conflicts center on how to secure livelihoods and landscapes: engineered floodwalls and promenades backed by corporate capital versus living shorelines, buffer wetlands, and community gardens. Geography is intimate — boardwalks, algae-slick boathouse steps, the Saltwren Commons, and the exposed Solhaven Promenade. The atmosphere is melancholic and resolute: frequent storms, salt in the air, activists painting stencils, and councils lit by fluorescent heat lamps. Romance is braided into politics; love and policy collide as people choose the town’s future.
+
+---
+
+## General Plot Overview - Plot Outline
+Icarus in miniature: I rise with the town — a surge of collaborative energy between Mara (protagonist) and Elias (engineer ally) that promises a hybrid resilience plan combining nature-based restoration with targeted infrastructure. Early successes — community gardens expanding into pilot buffer wetlands, pragmatic engineering proposals, and grant momentum — create a sense of triumph and a believable pathway to stability. But the ascent is precipitous: political compromises, Celeste’s polished promises, and a big public unveiling ramp up stakes. The fall comes quickly when a violent storm (and/or legal maneuvers) strips away gains, exposing the limits of quick fixes and the emotional toll of decisions. Branching choices let the player decide whether to embrace compromise, resist hardline development, litigate, or prioritize emergency measures; choices shape whether Mara and Elias remain partners, drift apart, or reconcile with a wary long view. Endings range from a celebrated hybrid victory (tempered, costly), to bittersweet sacrifice, to the pain of development overriding local will, to a patient, long-term resolution that accepts uncertainty. Across routes the emotional arc rises to a hopeful peak and then collapses into consequence, forcing players to weigh love against communal responsibility.
+
+---
+
+## Chapter Structure
+
+*(Each chapter contains a first-person narrative, 180–200 words. Visual traits and locations are referenced. The global emotional arc is Icarus — Rise then Fall. Arousal steadily increases across chapters 1→15.)*
+
+---
+
+### Chapter 1: Morning Tide [Rise] (Branch: Common)
+
+* **Entry Condition:** None (Start)
+* **Summary:** I open on the Saltwren Commons, mud caked on my boots and soil under my fingernails as the tide retreats. I—Mara Lin—move through raised beds and boardwalks, naming plants: a salt-tolerant sedge, a resilient samphire. My dark chestnut bob brushes my jaw; the copper bracelet engraved with Solhaven's marsh coordinates is warm against my wrist. The reclaimed wetlands breathe: gulls wheel, wind chimes rattle, and Rae’s stencil posters flap on driftwood. I check the clipboard in my frayed canvas satchel, tallying volunteers and a shipment of recycled lumber. Tommy shouts from a boat—his beanie and weathered coat a silhouette against the gray sea. I think of the sibling I lost to that one storm and of vows made in its wake. My work is small gestures that add up: a new berm here, a raised bed there. I feel both fierce and careful—impatient with puffed promises, protective of places others see as empty lots. The morning is ordinary in a way that feels like a blessing; the idea that we can stitch the town a little tighter sits warm and dangerous in my chest.
+* **Visuals:** Saltwren Commons; Mara’s olive utility jacket, denim overalls, soil-streaked hair; driftwood benches, marsh grasses in late light.
+* **Valence:** Neutral
+* **Arousal:** VeryLow
+* **Next:** Chapter 2
+
+[Word count: ~186]
+
+---
+
+### Chapter 2: Survey Lines [Rise] (Branch: Common)
+
+* **Entry Condition:** From Chapter 1
+* **Summary:** By noon the Promenade’s survey flags snap in the wind — Celeste’s team has returned with clipboards and that sleek portfolio she never lets out of hand. I head to the Tidewatch Lab to meet Elias; on the walk my sleeves are rolled, a speck of compost on my cheek. Inside the boathouse, monitors glow and sediment cores lie in rows like open books. Elias arrives with a tablet and that calm, slightly solaced look in his deep blue-gray eyes; he wears a slate collared shirt and his hair has sun-bleached tips from fieldwork. We run data, and his patient problem-solver cadence winds up next to my action-oriented urgency. He argues for phased engineering measures woven with living shorelines. He sketches a model and tucks his wire-frame glasses up, and I realize I trust his brain in the way I trust the map in my head. We step outside to see Celeste in her trench coat across the water, smiling to a small crowd. I feel the first tug of possibility — real funding, real plans — and the small, old fear under my sternum: can pragmatic dreams and local care coexist, or will one swallow the other?
+* **Visuals:** Tidewatch Lab interior: monitors, sediment cores; Elias in slate shirt and navy field jacket; Celeste’s pale trench across the water.
+* **Valence:** Positive
+* **Arousal:** Low
+* **Next:** Chapter 3
+
+[Word count: ~189]
+
+---
+
+### Chapter 3: Town Hall Lightning [Rise] (Branch: Common / Split)
+
+* **Entry Condition:** From Chapter 2
+* **Summary:** That night the council chamber thrums. Fluorescent lights throw everyone into a bright, merciless clarity: councilors, fishermen, developers, and a gaggle of us from Saltwren — Rae with spray paint still on her fingers, Tommy rubbing his palms, me with a button pinned inside my jacket. Celeste stands at the podium like she was carved for public rooms; platinum bob immaculate, steel-gray eyes cool. She lays out a bold promenade plan: a dike-backed mixed-use shore, commercial spaces, and a floodwall she claims will buy decades of safety. Elias follows with a measured presentation of a hybrid pilot: selective engineering, expanded buffer wetlands, job retraining. I speak for the Commons — for soil, for seedlings, for the fragmentary habitats we’ve coaxed back. The room roils. Applause meets jeers. After, Elias sidles up, fingers bent on his leather notebook; he asks if I’ll collaborate on a proposal that blends our approaches. Celeste offers a fast-track funding lane if the town votes for her plan. I feel the gravity of choice — to negotiate trust with Elias and risk co-option, to accept Celeste’s money, or to double down on grassroots resistance. The decision splits the evening and the game into separate futures.
+* **Visuals:** Town Hall & Council Chamber: fluorescent lights, Celeste in sand-tone trench, Elias with notebook; Mara’s rolled sleeves and copper bracelet visible as she speaks.
+* **Valence:** VeryPositive
+* **Arousal:** Mid
+* **Branch:** Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** How do I respond to the offer and the moment?
+  * **Option A:** "Work with Elias on a hybrid proposal." -> **Consequence:** Attempt to fuse engineered measures with living wetlands; opens a negotiated path with palpable momentum and shared leadership. -> **Jumps to:** Chapter 4
+  * **Option B:** "Push the community to refuse any top-down plan and organize direct action." -> **Consequence:** Mobilizes grassroots energy, risks alienating potential funders and triggering legal pressure from developers. -> **Jumps to:** Chapter 7
+  * **Option C:** "Accept Celeste's fast-track funding to get immediate protections built." -> **Consequence:** Secure resources quickly but invite scrutiny, possible loss of local control and faster construction. -> **Jumps to:** Chapter 12
+
+[Word count: ~194]
+
+---
+
+### Chapter 4: Drafts & Rain [Fall] (Branch: Route A)
+
+* **Entry Condition:** From Chapter 3, Option A
+* **Summary:** I agree to a pilot with Elias. We pace the Old Mill rooftop at golden hour — his navy field jacket loosened, my olive utility coat fluttering as wind cuts over the water. He’s patient as always, drawing cross-sections in his notebook: elevated boardwalks, permeable promenades, small engineered berms backing living marsh cells. We measure sunlight with our hands to imagine plantings. Working alongside him feels like assembling a puzzle we both want to finish. Celeste watches from the Promenade periphery, lips thin but offering a guarded nod; her wave-lapel pin glints under the mill’s lamps. The community pitches in: Rae paints a mural extolling wetland labor, Tommy rigs nets to protect newly planted beds. There’s a tangible lift — grant letters, a project timeline, volunteers smiling mud-streaked and proud. In private Elias admits the plan will need concessions: harder surfaces, engineered anchors in some stretches. I feel my stubbornness crease — the ache of compromise. But I also feel the dangerous, bright possibility that our small, careful repairs scaled up might actually keep people and place together. We sign preliminary forms, and for the first time in a long while, I allow hope.
+* **Visuals:** Rooftop Garden of the Old Mill at golden hour; Mara’s frayed satchel, Elias’s notebook, Celeste watching from the Promenade.
+* **Valence:** Positive
+* **Arousal:** High
+* **Next:** Chapter 5
+
+[Word count: ~190]
+
+---
+
+### Chapter 5: The Launch Choice [Fall] (Branch: Route A / Split)
+
+* **Entry Condition:** From Chapter 4
+* **Summary:** The pilot is ready for a public unveiling. The Commons hums with activity — salt grasses brush my sleeves and the smell of tea and solder from Tidewatch Lab threads through the air. Elias and I stand under a tarp as rain threads the light. Dr. Amina Bhatt sends data projections; Rae’s stencil art decorates the new sign. Then Celeste announces an accelerated funding package that would convert a larger stretch of Promenade into a mixed-use spine, contingent on removing certain living shore commitments. The council will vote next week. Elias counsels measured negotiation: we can secure structural anchors now and phase living shoreline implementation. My loyalty to grassroots action rises; the sibling I lost is a quiet ghost at my shoulder. I wrestle with what “pragmatic” means when decisions are measured against lives. The choice splits again: trust Elias’ compromise and accept a staged plan, rally the community to fight in full, or accept Celeste’s funds outright to secure immediate construction. Each path reshapes the town and my proximity to Elias; each holds different costs. The rain feels sudden and urgent — and I must choose.
+* **Visuals:** Saltwren Commons in rain; Mara’s sleeves rolled, muddy gloves in pocket; Elias under tarp; Celeste in trench with officials.
+* **Valence:** VeryPositive
+* **Arousal:** High
+* **Branch:** Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** Which path do I pursue at the launch?
+  * **Option A:** "Approve the staged hybrid with Elias and negotiate strict living-shoreline milestones." -> **Consequence:** Coalition-building; some compromise but real safeguards enter contracts. -> **Jumps to:** Chapter 6
+  * **Option B:** "Mobilize full grassroots resistance to block Celeste’s expansion and demand stronger ecological safeguards." -> **Consequence:** Heightened public conflict; risk of legal and financial pushback that may leave the town exposed in the short term. -> **Jumps to:** Chapter 9
+  * **Option C:** "Accept Celeste’s fast-track funds for an immediate hard-protection project." -> **Consequence:** Immediate construction, faster economic activity, but loss of some natural buffers and local control. -> **Jumps to:** Chapter 10
+
+[Word count: ~193]
+
+---
+
+### Chapter 6: Promenade Opening — Compromise (Happy Ending) [Fall] (Branch: Route A / Ending)
+
+* **Entry Condition:** From Chapter 5, Option A
+* **Summary:** We do it: the council signs a staged hybrid plan. The opening is modest and luminous — low tide reveals new marsh plugs and engineered anchors; the promenade’s first segment gleams with polished concrete and integrated planters. Elias stands next to me, shoulders relaxed in that tight, earnest way; his hand rests briefly against mine as cameras and neighbors photograph the ribbon. My copper bracelet seems to hum. Community gardeners tend the edge; Tommy jokes about the fish catching new currents; Rae paints an anniversary stencil on reclaimed wood. The bargain left bruises — a few natural beds were shortened, a small set of houses must adapt to new elevation plans — but the town secured funding, jobs, and a framework for future phases. We become co-leads of the ongoing project: late nights at Tidewatch Lab, fieldwork in rain, laughter over tea. Love deepens into a steady, sometimes weary partnership: Elias’s technical patience balances my stubborn heart. It’s not a fairy tale — there are files, clauses, and compromise — but it feels like a living thing: imperfect, held, and capable of growing.
+* **Visuals:** Solhaven Promenade opening day; Mara in knit sweater and muddy boots, Elias in field jacket, community gardeners on new planters.
+* **Valence:** VeryPositive
+* **Arousal:** VeryHigh
+* **Branch:** Route A / Ending (Happy)
+
+[Word count: ~187]
+
+---
+
+### Chapter 7: Campfire Lines [Fall] (Branch: Route B)
+
+* **Entry Condition:** From Chapter 3, Option B
+* **Summary:** I choose grassroots resistance. The Commons becomes command central: strings of lanterns, Mason jars with candles, and maps pasted to old snapping fish crates. Rae orchestrates a midnight stencil run; Tommy brings fish-lunches and stories of shoreline experience. Elias is wary but helps with technical testimony even as he watches my uncompromising stance with a soft, conflicted face. Celeste ramps up PR, offering legal counsel and a "community benefits" brochure that makes my jaw clench. We file petitions, organize marches, and stage a symbolic occupation at the Promenade’s survey stakes. Nights are sleepless: we stitch banners, coordinate volunteers, and debate strategy under rain-scraped tarps. I sleep badly and dream of water climbing a staircase. I refuse to be co-opted — it feels like honoring the sibling I lost — but the mobilization also produces fractures. Some fishermen fear lost seasons without new wharf funding; others look to me like I promised revolution. The energy is fierce. For the first time in a long time I taste something like pure moral clarity: we will not hand our marshes to quick fixes. But I also feel the strain of asking others to risk so much.
+* **Visuals:** Saltwren Commons at night: lanterns, Rae with paint-splattered clothes, Tommy’s beanie, Mara’s frayed satchel; Celeste’s brochures seen at edges.
+* **Valence:** Positive
+* **Arousal:** VeryHigh
+* **Next:** Chapter 8
+
+[Word count: ~189]
+
+---
+
+### Chapter 8: Line in the Sand [Fall] (Branch: Route B / Split)
+
+* **Entry Condition:** From Chapter 7
+* **Summary:** The standoff rises. Council hearings are packed — fluorescent glare, shouted testimony, and the hard rustle of Celeste’s polished briefcases. Dr. Amina Bhatt backs some of our evidence; Elias reads technical caveats aloud, his voice steady. Pressure mounts: a legal injunction threatens to stall anything on the Promenade, and Celeste’s backers hint at litigation if the town blocks access. The tide schedule, the insurance estimates, the grant timelines — they loom like verdicts. Rae organizes a civil-sit-in on a blustery morning; we chain ourselves to a rotting slab to dramatize the stakes. The choice now is brutal: continue defiant civil resistance hoping to force a better plan (and risk punitive lawsuits, possible fines, or weakening political support), accept Celeste's project under protest to secure immediate protective structures, or pivot to a legal strategy that seeks binding guarantees and enforcement clauses while pausing constructions. Each path could save or cost lives, livelihoods, and the town’s character. My throat tightens. Elias’s face betrays worry and an honest wanting of resolution. I must choose how far to push.
+* **Visuals:** Town Hall hearing room; Mara chained to slab with mud on cuffs, Elias with notebook, Celeste poised and composed; Rae with camera.
+* **Valence:** Positive
+* **Arousal:** VeryHigh
+* **Branch:** Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** How should we respond to mounting legal and political pressure?
+  * **Option A:** "Sustain the direct action and refuse construction until enforceable ecological guarantees are written." -> **Consequence:** Prolonged conflict; possible legal consequences but a chance to force better protections. -> **Jumps to:** Chapter 9
+  * **Option B:** "Accept Celeste’s immediate project under protest to get hard protections built now." -> **Consequence:** Immediate construction begins; community divisions deepen. -> **Jumps to:** Chapter 10
+  * **Option C:** "Shift to a coordinated legal suit demanding binding guarantees and monitoring, pausing construction." -> **Consequence:** Legal battle begins; outcomes uncertain; may buy time for living-shore proposals. -> **Jumps to:** Chapter 11
+
+[Word count: ~192]
+
+---
+
+### Chapter 9: After the Storm (Bittersweet Ending) [Fall] (Branch: Route B / Ending)
+
+* **Entry Condition:** From Chapter 8, Option A
+* **Summary:** We hold the line. A fierce seasonal storm arrives while the injunction grinds onward. The dikes hadn’t been built, the anchors weren’t installed, and parts of the promenade plan never left the drawing board. Water rolls over streets and into low houses; I stand on a slick boardwalk, rain plastering my hair to my forehead, copper bracelet cold against my skin. We lose a stretch of younger plantings and a neighbor's outbuilding collapses. But because we resisted, a small bayou of marsh was left intact and buffered a cluster of homes; a hurried volunteer evacuation, guided by Tommy and local fishers, saves lives. Elias coordinates emergency engineering responses — sandbag networks and temporary anchors — and the way he moves made me love him for his reflexes, even as we both understand how our fight left us exposed. The town pays dearly: displacement, repair bills, grief. But a court later forces stronger enforcement clauses. I grieve and I hope in equal measure. Elias and I step away from romance for a while; we rebuild in different rhythms. The victory tastes like salt and ash.
+* **Visuals:** Post-storm Saltwren Commons: flattened planters, Mara’s hair plastered, Elias in wet jacket coordinating sandbags; Tommy wading through debris.
+* **Valence:** Negative
+* **Arousal:** VeryHigh
+* **Branch:** Route B / Ending (Bittersweet)
+
+[Word count: ~187]
+
+---
+
+### Chapter 10: Promenade Triumph (Sad Ending) [Fall] (Branch: Route B / Ending)
+
+* **Entry Condition:** From Chapter 8, Option B
+* **Summary:** We accept Celeste’s immediate construction under protest. The project breaks ground within weeks: heavy machinery scars the shore, bright construction lights at night, and new storefronts rising behind a hard wall. For a while the town buzzes — new contractors, steady pay, and promises of tourists. I watch from the Commons as cranes lift concrete; my field jacket skims the wind and soil flecks my boots. But the living buffers we’d planted are reduced; storm surges over months begin to erode the outer neighborhoods not covered by the wall. Insurance premiums climb on outer streets, and small fishers complain their haul shifts unpredictably. Elias, who worked on the engineering concessions, becomes more distant: his days thick with meetings and compromises he thought necessary; our conversations fray into technical arguments. Celeste smiles in ribbon-cutting photos, perfectly lit, but I feel an ache like a bruise. The town’s economy stabilizes on a brittle axis; some are spared, others left to shoulder the consequences. I stay in Solhaven to organize what I can, but the intimacy we once had becomes a map of blame and loss.
+* **Visuals:** Solhaven Promenade under construction: machinery, Celeste at ribbon cutting in sheath dress, Mara in knit sweater watching; Elias in reflective jacket.
+* **Valence:** VeryNegative
+* **Arousal:** VeryHigh
+* **Branch:** Route B / Ending (Sad)
+
+[Word count: ~191]
+
+---
+
+### Chapter 11: Legal Tide (Complex Ending) [Fall] (Branch: Route B / Ending)
+
+* **Entry Condition:** From Chapter 8, Option C
+* **Summary:** We pivot to court. The legal suit drags months into years: depositions in municipal chambers, Dr. Amina Bhatt’s crisp testimony about sediment budgets, Elias providing calibrated engineering affidavits, and Celeste’s legal team arguing for economic necessity. I sit in a metal chair under fluorescent glare, the court transcript feeling more fragile than any seedling. The process buys time; emergency constructions are paused pending injunction hearings. Meanwhile the Commons continues quietly: volunteers work plot-by-plot, Rae documents every hearing, Tommy reports on shifting currents. The town grows exhausted by technical language and procedural delays — frustration metastasizes into fatigue. Sometimes the law protects the marsh; other times it bounces like a slow-moving tide between wins and reversals. Elias and I grow distant but not entirely estranged: our love is threaded into depositions and late-night strategy calls. The outcome is ambiguous — a partial settlement imposes monitoring and relocation aid but leaves many questions unresolved. There is a weary, bureaucratic justice here; it is not poetry, but it is a way to hold on.
+* **Visuals:** Town Hall and legal hearing rooms; Mara in field coat under fluorescent lights, Elias with affidavits, Dr. Amina Bhatt in a field vest.
+* **Valence:** VeryNegative
+* **Arousal:** VeryHigh
+* **Branch:** Route B / Ending (Complex)
+
+[Word count: ~192]
+
+---
+
+### Chapter 12: The Private Offer [Fall] (Branch: Route C)
+
+* **Entry Condition:** From Chapter 3, Option C
+* **Summary:** I take Celeste’s offer. Her team escorts me to the Promenade site; the trailers smell of coffee and oil, and survey markers glint like teeth. Celeste is velvet-voiced and precise — platinum bob immaculate, steel eyes measuring my reaction. She speaks of jobs, tax credits, and an expedited floodwall; her silver lapel pin flashes confidence. She presents contracts with inscriptions that promise protections but also require concessions from community-led restorations. We sign an initial agreement; I keep my knuckles tucked into my pockets because my hands have always been better at digging than at shaking on promises. Elias watches from the lab window, his expression carefully neutral; he says he’ll help where he can. The first cranes come in as winter fog thickens. There’s warmth in the immediate sense of safety — people who needed income get hired — but the salt taste of compromise coils in my mouth. I start to question whether my instinct to protect the Commons has become a stubbornness that could cost livelihoods if I stand in the way. The choice feels heavier than any single signature.
+* **Visuals:** Promenade construction trailers, Celeste in trench, Mara’s rolled sleeves and copper bracelet, cranes in fog.
+* **Valence:** VeryPositive
+* **Arousal:** VeryHigh
+* **Next:** Chapter 13
+
+[Word count: ~187]
+
+---
+
+### Chapter 13: Broken Levee [Fall] (Branch: Route C / Split)
+
+* **Entry Condition:** From Chapter 12
+* **Summary:** Construction progresses, lights strobed against the night. At first it feels like progress: boarded storefronts, secure docks, the hum of concrete mixers. Then the storm comes heavy and early; a raised swell hits a segment of newly completed promenade where living buffers were reduced. I stand on a rooftop garden and watch water leap higher than the wall’s early crest, salt spray spitting across the mill’s glass jars. A segment of the old marsh slumps; a neighbor’s small cabin is swallowed by fast water. Emergency crews mobilize; Elias coordinates temporary anchors while I rally volunteers. Celeste’s engineers scramble with contingency plans, but the damage is visible and raw. The town sits on a knife-edge — do we double down with further hardened protections, sue for more guarantees, or accept a shared, painful retreat in places? My choices now will determine who loses home and who gets temporary shelter. Elias looks at me as if trying to translate policy into comfort. I know the final choice must be made: a legal strategy for long-term adaptive measures, a full acceptance of further development to shore the rest, or an organized phased relocation that preserves people at the cost of place.
+* **Visuals:** Rooftop Garden of the Old Mill during storm; Mara gripping railing, Elias soaked in navy field jacket, construction lights glaring on wet concrete.
+* **Valence:** VeryPositive
+* **Arousal:** VeryHigh
+* **Branch:** Split
+* **MAJOR DECISION (Logic Hub):**
+* **The Choice:** What will be the town’s path after the levee failure?
+  * **Option A:** "Pursue a long-view negotiated phased resilience plan: litigation, relocation aid, living shorelines, and staggered development." -> **Consequence:** Slow, messy, but aims to balance ecology and people over years. -> **Jumps to:** Chapter 14
+  * **Option B:** "Authorize further hard infrastructure and accelerated construction to protect commercial spine." -> **Consequence:** Quick stabilization for some, cumulative loss of natural buffers for others. -> **Jumps to:** Chapter 15
+  * **Option C:** "File emergency federal appeals and demand immediate supplemental protections and funds, pausing further work." -> **Consequence:** Potentially saves homes but invites long legal limbo and political warfare. -> **Jumps to:** Chapter 11
+
+[Word count: ~197]
+
+---
+
+### Chapter 14: Long View (True Ending) [Fall] (Branch: Route C / Ending)
+
+* **Entry Condition:** From Chapter 13, Option A
+* **Summary:** We choose the long view. It’s the slowest, least glamorous path: litigation and negotiated settlements, phased relocation aid for the most at-risk households, an enforced monitoring program, and an integrated master plan that legally binds living shorelines into future phases of development. I spend long hours in Tidewatch Lab poring over sediment maps with Elias and Dr. Amina Bhatt; we draft enforceable milestones and community oversight mechanisms. The plan is ugly and beautiful in parts: subsidized relocations, restored marshes in places we thought we’d lost, a scaled-back promenade integrated with wetlands, job retraining programs for fishers, and seed funds for co-op enterprises. Elias and I fray and heal; our relationship matures into a partnership forged by divergent time horizons. We miscommunicate, we apologize, we show up. The town is not “saved” in any tidy sense — people have moved, businesses shifted — but there is a durable architecture for resilience. I stand on the Saltwren Commons and watch new seedlings take hold where old wreckage once lay. The future is neither clean nor certain, but it is ours and rooted in both care and compromise.
+* **Visuals:** Saltwren Commons after phased restoration; Mara’s utility jacket patched, Elias with field notebook, Dr. Amina Bhatt reviewing maps.
+* **Valence:** Negative
+* **Arousal:** VeryHigh
+* **Branch:** Route C / Ending (True)
+
+[Word count: ~192]
+
+---
+
+### Chapter 15: Concrete Shore (Sad Ending) [Fall] (Branch: Route C / Ending)
+
+* **Entry Condition:** From Chapter 13, Option B
+* **Summary:** We authorize accelerated hard infrastructure. The construction finishes quickly and the commercial spine looks like a promise kept: shops, promenades, and a high stone wall with a gleaming railing. People cheer in the short term—jobs, wider roads, the sheen of investment. But two seasons later the sea finds seams elsewhere: poorer streets, the old fishing quarter, the forgotten inlets. I stand on an elevated walkway, wind tearing my hair, and watch salt spray where marsh used to wink. Elias is present but not unscarred; his engineering compromises have bought time and stabilized some areas, but the outer neighborhoods cough in the price. I organize relief and watch as families decide whether to stay or leave. There’s money and glow in center blocks and a growing litany of claims against the town. Celeste is lauded for “saving” the center; the margins are a different story. Elias and I drift apart — our conversations thinned into logistics and bitter needle points. I remain — stubborn, organizing, grieving, and stubborn again. The town endures, but weather and policy have redrawn its edges. The ribbon-cutting photograph is now a fragile, hollow thing.
+* **Visuals:** Completed Solhaven Promenade: polished concrete, Celeste in public photos, Mara with mud-speckled boots looking out to altered shorelines.
+* **Valence:** VeryNegative
+* **Arousal:** VeryHigh
+* **Branch:** Route C / Ending (Sad)
+
+[Word count: ~198]
+
+---
+
+Notes:
+- Every chapter is written in first-person as Mara Lin and references given character visual traits and locations.
+- There are at least three distinct split points: Chapter 3, Chapter 5, Chapter 8, Chapter 13.
+- Route depth constraint: any path from Chapter 1 to an Ending contains no more than 6 chapters (examples: 1→2→3→4→5→6 = 6; 1→2→3→7→8→9 = 6; 1→2→3→12→13→14 = 6).
+- Emotional arc follows Icarus (Rise → Fall). Valence rises from Chapter 1 to the peak (around Chapter 7) then falls across subsequent chapters. Arousal increases overall and reaches VeryHigh by the mid-late chapters/climaxes.
+- All branches resolve to endings that match the thematic outcomes provided (Happy, Bittersweet, Sad, True) mapped to Chapters 6, 9, 10/15, and 14 respectively.

@@ -1,0 +1,204 @@
+### SCRIPT
+# Route: Additional / Ending (Sad)
+# Context: 8943bc
+
+[Scene: Marabel Promenade | Dusk]
+[Background:"ch15_8943bc_1"]
+[Music: Fast, jittering strings over a low electronic thrum]
+[Sound: Drones' quiet whine, a far-off legal van door slamming, gulls frantic above]
+
+Narration:
+You come back to the Promenade the way people return to a shoreline after a storm—searching for what didn't wash away, counting what did. The legal fights began like tides you could predict. You expected weather and negotiation; you did not expect the cold calculus that follows exposure.
+
+The clauses you helped drag into the light became a scalpel and a wedge. Lila Park's firm stepped back, furious and public. Investors moved in as vultures move at low tide—patient, precise, polite. They brought money shaped like fences.
+
+You watch a drone lower a white crate to a paved kiosk where once Marta's bright tomatoes stacked high. There is a scan badge at the kiosk's edge now, a chip-lock humming underneath a plastic awning. A familiar laugh—Mariana's, who once bartered change for seedlings—doesn't reach you. Her stall is a flat sign on a door that reads "LEASED — RESIDENCES UNDER COVENANT." The word hits like ballast dropped into your ribs.
+
+You close your fingers around the brass compass in your pocket. It is heavier than memory. It is a relic of a map that promised routes rather than rights.
+
+[Background:"ch15_8943bc_2"]
+[Sound: A crowd murmuring, punctuated by a single, angry shout somewhere down the boardwalk]
+
+Narration:
+The Beacon stayed. The sensors hummed. The sensors were not the enemy; the way they were parceled out was. Managed-access boards. Covenanted spaces. The town's buildings were intact but bound by new rules: residency tied to contracts, access to shorelines gated behind fees you and your neighbors could no longer match. Preservation with terms.
+
+You taste metal—anger and a kind of grief that almost tastes like blood. Very quickly the feeling breaks into motion: you move along the boards, past empty benches, past the seafood vendor who now sells only to a subscription list pinging on tablet screens. The Promenade is tidy. It is efficient. It is not home anymore.
+
+[INTERACTION]
+> Choice A: "Approach the kiosk and ask for Mariana by name"
+> Choice B: "Walk down to where the vendors still cluster and listen, quietly"
+[Outcome A: "You step to the kiosk, throat tight. The attendant scans your face with a practiced politeness and says, 'She no longer works this location.' You feel the syllable 'no' as a hollowed-out sound."]
+[Outcome B: "You drift toward a shadowed cluster of stalls. Voices come low and tight—a rumor of resistance, someone trading seeds under a tarp. The talk is scared but alive; it lurches hope awake in you for a moment."]
+[MERGE: Continue to Beacon Plaza | Night]
+
+[Scene: Beacon Plaza | Night]
+[Background:"ch15_8943bc_3"]
+[Music: Percussive, rapid—heartbeat drums layered with a cold synth line]
+[Sound: Low chatter of cameras, soft clicks of tablet notifications]
+
+Narration:
+You didn't expect to need to go back into the bright. But agreements have a way of needing witnesses. You find Noah at the edge of the plaza, hands buried in pockets, shoulders narrower than they were when you fought side by side in the lab. His face is lit by the Beacon's clinical glow—and by something harder: the institutional light of a job offer accepted.
+
+Noah Reyes [quiet]: "Asha—"
+Narration:
+(his hands, when he takes one from his pocket, are steady)
+
+Noah Reyes [steady]: "I—it's not what I wanted to happen. But there's leverage if I'm inside. I can shape access, push for sliding scales, keep the board honest. If I'm not there, decisions go silent."
+
+Narration:
+You feel the pace of your breath quicken. Your pulse is a drumbeat in your ear. Everything tightens toward a single, combustible point—the place where staying to fight and staying for safety diverge. He reaches for an argument built of goodwill and possibility; you hold the transcripts of what happened in your hands like lit matches.
+
+Asha Moreno: "You can try to bend it, Noah. Or you can become its hinge. That's where we disagree."
+
+Noah Reyes: "We never agreed the world would give us clean choices. You asked me to stay. Sometimes staying means making smells you don't like to keep others breathing."
+
+Asha Moreno: "Don't make me a footnote to your compromise. Don't ask me to be grateful when the price is our neighbors' homes."
+
+Noah Reyes: "I'm not asking for your gratitude. I'm asking for your trust—maybe the only thing that will let me work from the inside."
+
+Narration:
+His words are calm. His eyes are hurt. Your chest roars. The argument isn't just about policy; it's about what you are willing to accept as the architecture of a life you once shared. The Beacon's glow makes his jaw a silhouette of resolve. It makes his hands look like instruments of policy more than companions of labor.
+
+Noah Reyes: "I can try to keep things from getting worse. If I refuse, someone worse will take the role."
+
+Asha Moreno: "Someone worse already has a plan. You get to choose whether you join it because you think you can fix it."
+
+Noah Reyes [voice cracks]: "And if I try to fix it from outside, what then? The board moves faster than community outrage. Contracts get signed on nights none of us can afford. I'm—" (he exhales sharply) "I'm trying to buy us time."
+
+Narration:
+His breath tastes of office coffee and exhaustion. You realize he's not proposing betrayal; he's offering a bruised kind of care. But for you, the kind of care that requires trading people for infrastructure is a ledger you cannot balance.
+
+Noah Reyes: "Please. Stay. Not because I asked you to, but because without you—"
+
+Asha Moreno: "Without me, maybe you'll remember the names of the people who taught you how to read the tide." (You interrupt him; the words are a knife wrapped in an old lullaby.)
+
+Noah Reyes: "I won't forget."
+
+Asha Moreno: "Then don't ask me to make room for the amnesia."
+
+[INTERACTION]
+> Choice A: "Grab his sleeve and make him promise to fight hard"
+> Choice B: "Turn away and leave before you say something you'll regret"
+[Outcome A: "Your fingers find his coat. He looks surprised. He nods, thin and sudden. 'I promise,' he says, and there's everything unsaid in that promise. It isn't enough. It might never be."]
+[Outcome B: "You let go without hearing his answer. The boardwalk seems to tilt. He calls your name once, then goes silent. You step into a street of decisions you made for others and now must live inside."]
+[MERGE: Continue to Promenade Edge / Market Shadow | Night—Montage]
+
+[Scene: Promenade Edge / Market Shadow | Night—Montage]
+[Background:"ch15_8943bc_4"]
+[Music: Rapid, restless strings with intermittent brass stabs]
+[Sound: Hammer strikes, legal printer whirring, children whispering, waves striking pilings harder than before]
+
+Narration:
+You work until your hands are raw. The itinerant program starts as a stubborn flame: a van with seedlings, a chalkboard with tide lines, workshops taught in borrowed halls. You teach people to plant living edges, to weave willow stakes, to count species you hope will hold. You organize squatter gardens for those priced out of covenanted lots. You file petitions. You sit in public hearings and speak until your voice is a sanded thing.
+
+People listen. Some help. Others have already left. The Beacon manages to keep roofs over many heads. The rooms are colder now—efficiently heated, monitored, legal. The town survives in a way that a photograph survives after the original is burned. It exists. It is not whole.
+
+You are exhausted and incandescent. The days blur into a ledger of loss and stubborn graft. Very quickly, your life compresses into deployments: a training, then a legal meeting, then a late-night call from someone whose apartment has been reclassified. You are both a rescuer and a witness, and both jobs tear you.
+
+[Background:"ch15_8943bc_5"]
+[Sound: Lila Park's soft laugh on a muted speaker; Mayor Rosa's careful applause]
+
+Narration:
+Lila Park stays in the public eye long enough to hand off the optics—she has a way of making her exits look like generosity. Mayor Rosa tries to hold the middle; she signs amendments and sleeps less. The town’s calendar fills with "community consultations" that feel like administrative liturgies.
+
+You see Noah sometimes, in meetings, a figure who once stayed up late sanding a shared plan and now signs minutes in tempered ink. He wears the technical director badge like a bandage—functional, visible. He is present. He is compromised. He keeps a corner of what you fought for, but the corners are smaller now, carved by boards and bylaws.
+
+You stand on the Promenade one night and watch his silhouette pass under a Beacon lamp as he enters a building armored with glass and policy. Your chest splits into a soundless thing that is bigger than anger and colder than loss: a steady, aching grief.
+
+[Scene: Promenade Bench | Rain-slick Night]
+[Background:"ch15_8943bc_6"]
+[Music: Low, relentless percussion; single violin line wailing above]
+[Sound: Rain, the steady ping of distant sensors, a delivery drone passing low]
+
+Narration:
+You hold the compass like a relic. A boy you helped teach last summer—now gone from his street—told you once that compasses always point home. You want to believe it. Tonight it points like an accusation.
+
+Asha Moreno: (you say nothing at first; when you speak, your voice is a narrow thing) "I can't keep doing this in a town that treats its people as negotiable."
+
+Noah Reyes [quiet]: "I know. I know who you are. And I know what staying will ask of me."
+
+Asha Moreno: "So you choose staying that asks it anyway."
+
+Noah Reyes: "I choose to be where decisions are made. Maybe I made the wrong gamble. Maybe we both did. But leaving would have been a kind of surrender."
+
+Asha Moreno [bitter]: "So neither of us wanted a clean choice. Congratulations. We engineered compromise into the architecture."
+
+Noah Reyes: "This isn't about smartness. It's about damage control."
+
+Asha Moreno: "To whom? The houses? Or the people inside them?"
+
+Noah Reyes: "Both."
+
+Narration:
+The argument folds into silence like a tide retreating. Nothing about it is tidy. Nothing about it will be repaired by apologies. He reaches for you—old habit, a search for the contact that used to make both of you breathe easier—but you step back.
+
+Noah Reyes: "I don't want us to lose each other."
+
+Asha Moreno: "Neither do I."
+
+Noah Reyes: "Then don't walk away tonight."
+
+Narration:
+Your hands are empty but for the compass. You press the metal into your palm like an anchor and feel the shiver of everything you've already lost.
+
+[INTERACTION]
+> Choice A: "Tell him you need to leave to keep your integrity"
+> Choice B: "Ask for one night more, to sleep on it and talk again in the morning"
+[Outcome A: "You say it clearly: you cannot be complicit in a system that prices out your neighbors. Your voice is brittle. He nods the way people nod when they've been told a truth that will rearrange them. He does not stop you."]
+[Outcome B: "You ask for time. He agrees, relief softening his features. You both know nights can change minds; you both know they can calcify them."]
+[MERGE: Continue to The Promenade Turning Point | Near Dawn]
+
+[Scene: The Promenade Turning Point | Near Dawn]
+[Background:"ch15_8943bc_7"]
+[Music: Dissonant strings resolving to a single low drone; a distant, solitary piano note]
+[Sound: The tide, measured and inexorable; an automated announcement about scheduled maintenance at the Beacon]
+
+Narration:
+You do not watch the Beacon's halo fade that morning as others do. You put the compass back into your pocket, its chain cold against your ribs. Your hands are raw from planting and from fighting. The itinerant program has a route planned for the next two weeks: a stretch of coastline two towns over where the sea is still making up its mind. Displaced families there need training—cordgrass, wedgework, an organized way to sleep with the knowledge that the ocean might ask for more.
+
+You walk away from the Beacon because staying has become its own apology. You want to help. You will continue to help. But you cannot stay within the architecture that made "help" contingent on price tags and access codes.
+
+Noah stands where he stands—inside rooms with windows that face the sea but are sealed by policy. He sent a text that morning: "I wish things were different. I wish we could have done this without price. I love you." You read it in the light of concessions and feel the sentence as if it were salted.
+
+You answer with nothing for a long time. The town will keep a version of itself with roofs and sensors and tidy plaques. It will be tidy. It will be safe for some. It will be different. The heart of it has been resized to fit the architecture of investment.
+
+[Background:"ch15_8943bc_8"]
+[Music: A slow, aching chord swells, then resolves into a brittle silence]
+[Sound: The tide's patient applause against pilings; a single gull cries]
+
+Narration:
+You go because you have to. You go because some forms of loyalty are practiced at the edges—teaching a grandmother how to weave a berm, sleeping in a van beside a family who lost their access code, telling a child the names of cordgrass and how it holds. You go because you cannot stand still while your neighbors are catalogued into ledgers.
+
+Your brass compass rests against your leg like a remnant of an old map. You keep it because it remembers a coast that was full of people and not thirty-second delivery schedules. You keep it because memory is a kind of refusal.
+
+You do not know if your itinerant work will save the town. You do not know if Noah Reyes's presence behind Beacon doors will make a difference that can be measured in lives saved or in lives pushed to the margins. You know only this: your love for him has become another kind of shore—one you can see and name, but which sometimes recedes when the tide of policy rises.
+
+Narration:
+You walk toward a different shore. The Beacon's light grows smaller in the distance. The town survives—its architecture intact, its soul reduced. You carry a bitter, urgent resolve and a compass that points somewhere you can still name.
+
+[Background:"ch15_8943bc_9"]
+[Music: A final, discordant chord; then silence]
+[Sound: The steady, remote ping of a Beacon sensor that no longer listens to you]
+
+Narration:
+Love remains. It is quieter now, contoured into ache and memory. You do not end with a defiant shout or a polished victory. You leave with hands full of work and a chest full of unpaid sorrow. The town will be a model of resilience in the press. The model will be beautiful and efficient and, to some, a betrayal.
+
+You walk on, toward people who need a different kind of rescue—toward teaching, toward beds on cold floors, toward hands that still know how to mend what the paperwork cannot. You will measure success in seedlings that take root, in families that find shelter without signing their memories away. It will be a small, stubborn reckoning.
+
+[Background:"ch15_8943bc_10"]
+[Music: Fade out slowly; a single, unresolved note hangs and then vanishes]
+[Sound: The tide continuing—unceasing, impartial]
+
+[Background:"ch15_8943bc_11"]
+[Music: Fade Out]
+
+[Background:"ch15_8943bc_12"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

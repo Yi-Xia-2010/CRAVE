@@ -1,0 +1,120 @@
+{
+    "design_logic": "This romance uses climate change as both external stakes and an emotional mirror: rising seas and shrinking livelihoods force characters to choose pragmatic survival versus restorative hope. The genre pairing allows interpersonal relationships to reflect competing adaptation philosophies (hard infrastructure, community-based restoration, personal sacrifice). The core conflict is whether the coastal town will adopt nature-based, community-led solutions or a top-down engineered seawall — and whether the protagonist's love can survive ethical compromises and past grief.",
+    "setting": "A near-future coastal town called Seabreak Hollow: once-thriving fishing community now threatened by accelerating sea-level rise, stronger storm cycles, and shifting fish stocks. Time period is 2035, with a lived-in mix of decayed Victorian storefronts, modern retrofit tech, and patches of reclaimed marshland. Atmosphere is melancholic but resilient — salt air, fog-bleached paint, community meetings under fluorescent lights, and quiet tidal flats that glow at dawn.",
+    "visual_style": "Semi-realistic anime-influenced realism, muted coastal palette, filmic lighting, wet-surface reflections, environmental texture detail, watercolor skies with neon accents for night scenes",
+    "main_characters": [
+        {
+            "name": "Maya Kwon",
+            "role": "Protagonist",
+            "personality": "Methodical, compassionate, quietly stubborn. Scientific, idealistic about ecosystem-based adaptation, but haunted by the loss of her childhood home to a past storm. Tends to prioritize long-term community resilience over short-term popularity.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length wavy hair usually tied back in a loose knot with stray tendrils framing her face",
+                "eyes": "Warm hazel with a faint green rim; often narrowed in concentration",
+                "clothing": "Practical field gear: olive soft-shell jacket scuffed at the elbows, faded navy jeans, rubber boots with salt stains. Underneath, layered thermals and a thrifted fisherman sweater on cold days.",
+                "accessories": "A battered leather field notebook with laminated tide charts tucked inside, small silver locket with a photo of her childhood dock, a multi-tool clipped to her belt"
+            },
+            "goal": "To design and implement a nature-based restoration project (marsh reconnection and living shorelines) that protects Seabreak Hollow while preserving livelihoods.",
+            "background_story": "Grew up in Seabreak Hollow and left to study marine ecology. Returned after a storm destroyed her parents' home and after seeing local leaders favor quick-engineered fixes. She is committed to rebuilding the wetlands she remembers as a child and to keeping the community intact.",
+            "emotional_trait": "Strength: patient resilience; Flaw: suppresses grief and can be inflexible in debates, taking criticism as personal betrayal."
+        },
+        {
+            "name": "Aiden Reyes",
+            "role": "Love Interest",
+            "personality": "Warm, pragmatic, charismatic with a salty sense of humor. A born connector who cares deeply for his town's people and traditions. He balances a fisherman's practicality with an activist's urgency.",
+            "appearance_features": {
+                "hair": "Sun-faded black hair, short with a perpetual wind-ruffled look",
+                "eyes": "Deep sea-blue, rounded and expressive, quick to crinkle when he smiles",
+                "clothing": "Layered clothing for work at sea: waxed green fisherman's jacket with a bright hand-sewn patch from a local co-op, canvas trousers, neoprene gloves hung from his belt when ashore",
+                "accessories": "A braided rope bracelet made from old fishing line, a small charm carved from driftwood (a gift from Maya), and a soot-darkened thermos he uses for coffee"
+            },
+            "goal": "Protect his family's fishing grounds and the town economy while finding a way to adapt that keeps people working and afloat.",
+            "background_story": "Third-generation fisher whose family has already lost one boat to storm damage. He spearheaded a grassroots cooperative to share resources among fishers but is wary of solutions that could eliminate access to traditional fishing areas.",
+            "emotional_trait": "Strength: empathetic leadership; Flaw: tendency to compromise rapidly to avoid immediate conflict, which can lead to longer-term vulnerability."
+        },
+        {
+            "name": "Dr. Elara Voss",
+            "role": "Antagonist (complex)",
+            "personality": "Sharp, decisive, urbane. A coastal engineer hired by regional planners and private contractors. She believes in decisive, engineered solutions to buy time for communities; she can be arrogant but not heartless — convinced that difficult choices are necessary.",
+            "appearance_features": {
+                "hair": "Platinum blonde, styled in a sleek chin-length bob that contrasts with the town's windswept look",
+                "eyes": "Steel gray, narrow and analytical, often reflecting cold fluorescent light in the office",
+                "clothing": "Tailored weatherproof trench coat in charcoal, crisp dark slacks, and matte-rubber boots polished for visibility at site visits. Her clothing reads professional and purposeful.",
+                "accessories": "A digital tablet with annotated geotechnical models, a slim metallic pen that she taps when thinking, and a municipal ID badge on a braided cord"
+            },
+            "goal": "Implement a comprehensive engineered coastal defense (seawall and reclaimed promontory) accepted by regional investors and municipal authorities to prevent catastrophic loss.",
+            "background_story": "Raised in a large city and trained in emergency engineering. She has overseen rapid-build defenses elsewhere and believes the town needs a definitive barrier. She lost colleagues in a past infrastructural failure, which pushed her toward risk-averse, large-scale interventions.",
+            "emotional_trait": "Strength: decisive pragmatism; Flaw: moral blind spot — difficulty seeing the cultural and ecological costs of technical solutions."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Lina Kwon",
+            "relation_to_main": "Younger sister of Maya",
+            "appearance_summary": "Short, freckled, with cropped auburn hair and earnest green eyes; usually in a paint-splattered hoodie from her job at the community center.",
+            "function_in_story": "Represents the town's youth and immediate social needs. She organizes town volunteers and often forces Maya to face the human costs of slow timelines."
+        },
+        {
+            "name": "Old Man Reyes (Mateo Reyes)",
+            "relation_to_main": "Aiden's grandfather and elder of the fishing community",
+            "appearance_summary": "Weathered skin like a map, white stubble, always in a heavy wool cap and a patched pea coat.",
+            "function_in_story": "Cultural anchor who provides oral history about the marshes, remembers traditional methods, and counsels caution against losing the town's identity."
+        },
+        {
+            "name": "Priya Anand",
+            "relation_to_main": "NGO coordinator and ally to Maya",
+            "appearance_summary": "Sleek black braid, practical outdoors vest with NGO logo, a pair of binoculars around her neck.",
+            "function_in_story": "Connects the protagonists to funding, legal pathways, and scientific networks; provides external pressure and resources for nature-based projects."
+        },
+        {
+            "name": "Councilor Tomas Hale",
+            "relation_to_main": "Municipal politician; foil to Maya",
+            "appearance_summary": "Rounded suit, crinkled tie, artificially tanned; carries a leather briefcase with contractor pamphlets.",
+            "function_in_story": "Represents short-term economic arguments and political pressure to accept the engineered seawall proposal."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Seabreak Marshes",
+            "visual_description": "Low, ribbed tidal flats woven with reeds and rivulets. Dawn light spills pale gold across glassy pools; thick fog can roll in sudden sheets. Colors: muted greens, brackish browns, and silver water reflections. Small boardwalks and patched dikes run through, some boards warped and moss-lined."
+        },
+        {
+            "name": "North Pier Fishery",
+            "visual_description": "Weathered wooden piers, nets drying on lines, bright buoys and rusted winches. Late-afternoon sun creates long shadows; gulls hover in powder-blue sky. The fishery has salt-streaked corrugated metal sheds and hand-painted signs advertising co-op sales."
+        },
+        {
+            "name": "Aureum Research Cottage (Lighthouse Lab)",
+            "visual_description": "A retrofitted lighthouse with a glass-walled annex overlooking the bay. Inside: warm lamp light, maps pinned to corkboards, microscopes on wooden tables. Night scenes feature neon monitors glowing warm amber against rain-lashed windows."
+        },
+        {
+            "name": "Vernon & Crow Engineering Office",
+            "visual_description": "A stark, modern glass-fronted building with polished concrete floors and summary diagrams projected on translucent screens. Fluorescent lighting, cool grays, and metallic surfaces create a clinical, impersonal atmosphere, contrasting with the town's textures."
+        },
+        {
+            "name": "Community Rooftop Garden & Meeting Hall",
+            "visual_description": "A reclaimed municipal roof turned garden with raised beds, solar panels, and makeshift benches. Golden-hour scenes show warm orange light on hand-painted council posters and strings of low-watt fairy lights as residents gather to debate plans."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "The town adopts a nature-based hybrid plan: restored marshes combined with smaller, strategic defenses. Maya's living shoreline project is implemented with community labor, Aiden's cooperative secures alternative livelihoods, and Maya and Aiden commit to a future together. Dr. Voss publicly acknowledges the hybrid approach and helps refine it."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise plan builds a partial seawall while sacrificing some marshland. The town buys time but loses part of its ecological identity. Maya and Aiden remain together but must adapt to a changed relationship as Maya channels grief into long-term restoration work elsewhere in the region. Dr. Voss wins the political argument but faces moral consequences."
+        },
+        {
+            "type": "Sad",
+            "summary": "A rapid-engineered seawall is constructed under political pressure, destroying critical marsh habitat. A severe storm reveals weaknesses; the town suffers heavy damage. Maya leaves to take a research post abroad, and her relationship with Aiden fractures under blame and regret. The town's culture is further eroded."
+        },
+        {
+            "type": "True",
+            "summary": "No tidy victory: incremental restoration begins with victories and setbacks. Maya and Aiden stay but accept that protecting their town is a generational effort. Dr. Voss evolves into a reluctant ally after witnessing ecological feedback. The ending emphasizes ongoing work and resilient bonds rather than a single heroic solution."
+        }
+    ],
+    "estimated_chapters": 6
+}

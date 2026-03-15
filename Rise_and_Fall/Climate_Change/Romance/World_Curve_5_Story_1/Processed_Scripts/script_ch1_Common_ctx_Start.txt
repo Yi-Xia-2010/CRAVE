@@ -1,0 +1,152 @@
+### SCRIPT
+# Route: Multi-route Final (True Ending)
+# Context: Start
+
+[Scene: Boardwalk | Dawn]
+[Background:"ch1_Start_1"]
+[Sound: Distant gulls; the hollow tap of a hammer from repair district]
+[Music: Soft, hopeful piano with low cello undercurrent]
+
+You walk the boards with the slow certainty of someone who has learned the ocean's rhythms. The boards are slick with last night's spray; each step makes a soft, yielding sigh under your boots. Your fingers find the strap of the frayed canvas satchel at your hip—an automatic ritual. The fabric rasped once as you adjust it; familiar weight presses against your ribs: papers, a slim portfolio, a thermos already cooling toward room temperature.
+
+You lift a hand to your throat and feel the brass compass resting against your collarbone. It is warm from your skin, its tiny hinge familiar as a heartbeat. You don't think of the shop that sold it, or the maps folded up inside, only of the way the needle steadied during the storm that took half the pier and most of your certainty. The silver band on your left ring finger is cool when you rub it; the ring never comes off. It is plain and thin, not the kind that screams promises—more the kind that anchors.
+
+The town wakes in stages. The repair district at the boardwalk's elbow is a chorus: a hammer's blunt punctuation, the rasp of sandpaper, a muffled laugh that cracks like light through clouds. A muralist—Maya—splashes a shutter with a bead of teal that arcs bright against weathered wood. Her paint-splattered raincoat flashes as she steps back, squinting at an old advertisement half-swallowed by rust. A town notice flaps against a lamppost: PUBLIC FORUM TONIGHT — CIVIC ROOFTOP GARDEN. The paper's edge flutters like a small, anxious bird.
+
+You breathe in the air: salt, oil, coffee, the metallic tang of wet rope. A gull skids low, screaming and then gone. The town smells of effort and mending; of people who refuse to let things fall apart without pulling together.
+
+[Background:"ch1_Start_2"]
+You run the plan through your hands the way you might run a map across a desk. Not as a list to check off, but as a living thing. Where living shorelines could cradle the marsh, where raised walkways thread the market without erasing its soul, where small buyouts protect the most vulnerable households without bulldozing memory. You hear your own voice—soft, corrective—when you imagine the worst-case headlines. You know the statistics; you carry them like small stones in the pockets of your mind. You also carry the faces: the girl who still calls your name when she sees you, the old fisherman whose net you once helped mend.
+
+You used to leave this town like a promise deferred. A storm taught you how fragile certainty is; it taught you how quickly the tides rewrite plans. You left to learn the language of cities and wetlands, came back with models and maps and the ache of someone who believes process can heal. That belief is a compass, and guilt is the magnet that sometimes bends it. When you map the town in your head—street by street, person by person—you map your own past into every corner. It is what makes you steady, and what makes you unforgiving of your own stalled breaths.
+
+[Scene: Repair District | Continuation of Dawn]
+[Background:"ch1_Start_3"]
+[Sound: Brush on wood, distant conversation]
+You slow, half-turned toward the shutter where Maya works. She is a bright smear against the pale morning, hair tied back in a loose knot, freckled jaw set in that stubborn line you know from childhood. She looks up as you approach, blinking sleep from her eyes, and grins, the sort of grin that is also a challenge.
+
+Maya: "Aria! Early bird. Or were you scared the gulls would steal your notes?"
+
+Aria Marin: "Gulls are the least of my worries. How's that coming along?"
+
+Maya: "Perfectly—if you like noisy color and slightly alarming optimism." (She brushes a stray streak into something that looks like a wave.) "You look like you've been thinking in contours again."
+
+Aria Marin: (You smile despite the weight in your chest.) "Always. Tonight's the rooftop. I want people to see that resilience can be graceful, not just concrete."
+
+Maya: "Graceful is good. Concrete is... loud." (She pauses, tilting her head.) "Are you nervous?"
+
+Aria Marin: "Of course." (You let the word sit between you, honest and small.) "Nervous about showing up something I can't control."
+
+Maya: (She laughs, then grows quiet.) "That's why we have you. You make control look wearable." (Her laugh is quick, affectionate—pointed.) "Also, don't forget to talk about the living shorelines. People like living things."
+
+Aria Marin: "I'll make them like them." (You press a fingertip to the ring on your hand, a tiny ritual of steadiness.) "Promise?"
+
+Maya: "Promise." (She throws a smear of paint into the air like confetti.) "Hey—are you stopping or keeping the walk? We could finish that arc if you help."
+
+[INTERACTION]
+> Choice A: "Stop and help Maya finish the wave"
+> Choice B: "Keep walking toward the pier to clear your head"
+[Outcome A: You set your satchel down, roll up your sleeves, and take the brush she hands you. The bristles feel soft and damp; the color jumps vivid under your fingers. For a few minutes you work in silence, the two of you matching strokes, the world reduced to a rhythm of color and wood. The mural looks better for the pause, and so do you.]
+[Outcome B: You apologize and keep going, fingers brushing the satchel strap. The sound of the brush follows you—a pulse in your chest you can't quite ignore. The shutters look brighter behind you as you leave, which is both comforting and a little cruel.]
+[MERGE: Continue down the boardwalk toward the pier]
+
+[Scene: Pier | Early Morning]
+[Background:"ch1_Start_4"]
+[Sound: Muffled argument; wind cutting like paper]
+You continue along the boardwalk and the wind stitches the town's morning together. From the far pier you see Kai: sea-glass hoodie plastered to his shoulders, curls damp with spray. He stands with a postured intensity, amber eyes narrowed toward a young activist whose notebook is clutched to their chest. Voices lift and fall; the argument is a current you can feel before you make out words.
+
+Young Activist: "...we need immediate action. They're talking buyouts and like—where are people supposed to go right now?"
+
+Kai Solano: "I'm not saying don't act. I'm saying don't let them sell us a plan that stamps out the whole neighborhood. You know what profit looks like—it's polite until it's not."
+
+You approach, the conversation folding into a space the three of you share. Kai glances up and then, for a second, his expression loosens at the sight of you. There is a flicker—something like relief, like mischief—before intensity settles back into his face.
+
+Kai Solano: "Aria. Glad you're here. We were just—" (He gestures, words urgent.) "—making sure folks understand this isn't a one-size-fits-all fix."
+
+Aria Marin: "You always speak loudly for those who can't. It's good." (You keep your tone even—warm but deliberate.) "What are they proposing?"
+
+Young Activist: (a little fierce) "A phased relocation with vouchers that only cover the most expensive units. People will still be pushed out—" (They stop, breathing hard.)
+
+Kai Solano: "Exactly. We need guarantees, community oversight, binding clauses. Otherwise it becomes a reshuffling."
+
+Aria Marin: (You study their faces—young, tired, hopeful. You know how anger can be a scaffolding for action.) "There's room for strong oversight. There are models that include community stewards and guaranteed affordable housing." (You name it like it is; your voice lands like a tool placed where needed.) "We can draft clear terms tonight and take them to the forum."
+
+Kai Solano: (He gives a short, surprised laugh.) "Draft them with you? That's exactly what I wanted to hear." (His eyes find yours—something like sunlight on metal.) "You ready for the rooftop?"
+
+Aria Marin: "Ready." (You feel the word settle into you like set tide.)
+
+Kai Solano studies you a beat longer, then shifts back to the activist. You can see his frustration soften into the work it always becomes for him: a channeling of heat into something useful.
+
+Kai Solano: "Let's get people to the forum. Paint the idea in colors they can see." (He grins at Maya, though she is a little way down the boardwalk.) "And Aria—don't forget the human story in those slides of yours. Numbers are cold without faces."
+
+Aria Marin: "I never forget the faces." (You think, briefly, of the storm that taught you the cost of forgetting.)
+
+[INTERACTION]
+> Choice A: "Call out to Maya to join the forum tonight"
+> Choice B: "Keep the conversation focused and head toward the Civic Rooftop Garden to finalize the slides"
+[Outcome A: You call to Maya; her brush pauses mid-stroke and she waves, paint on her fingers. 'Already on it,' she calls back, a bright flag in the gray morning. The thought of her mural at the forum warms you—culture can be a form of infrastructure, you decide.]
+[Outcome B: You steer the discussion back to logistics. Everyone nods; hands reach for phones and schedules. The plan feels more tangible for the movement toward action.]
+[MERGE: Move together toward the Civic Rooftop Garden to prepare]
+
+[Scene: Under the Wind-Scratch Lamppost | Boardwalk Center]
+[Background:"ch1_Start_5"]
+[Sound: His stick taps the boards; distant, steady tide]
+You step beneath the lamppost and find Elder Tomas waiting like he always does at the edge of the morning. The carved walking stick taps the boards—a punctuation mark—and his face is a map of seasons. He smells of tobacco and salt and something woody you can't name. When he looks at you, his eyes are both open and unreadable; his expression is complex, layered.
+
+Elder Tomas: "You're up early, Aria Marin." (He pauses, the words heavy with memory.) "There's motion in the town today."
+
+Aria Marin: "There always is." (You keep your voice steady.) "But today the motion has a destination."
+
+Elder Tomas: (He taps his stick again.) "Destination matters. It should be a place folks can find together. The roof is a good place to gather. The sky is honest up there."
+
+Aria Marin: "I want tonight to be honest." (You fold your hands around the satchel's strap like a lifeline.) "Living shorelines, scaled buyouts for those who need them, community stewards who won't be moved by profit. I want the plan to be practical and kind."
+
+Elder Tomas: (He studies your face for a long moment.) "Practical and kind have been the town's best tools," he says slowly. "Your father believed in both. He used to say that seawalls might hold water, but stories hold us. Don't lose the stories."
+
+Aria Marin: "I won't." (You hear the absolute smallness in the words; loyalty is a muscle you flex without thinking.) "But I also don't want our stories to keep people in harm's way." (The guilt that shaped you is a quiet weight.) "I know what it is to choose the town over a child's bedroom."
+
+Elder Tomas: (The stick taps once, like an old clock.) "Choosing is the only thing that keeps going. Choosing well is what we teach the next. You'll do your best, child. That's how we move forward."
+
+Aria Marin: "And if I fail?"
+
+Elder Tomas: (He smiles, not unkind.) "Then you'll fail with the whole town watching you learn. And you'll return to the work tomorrow. That is not the same as giving up."
+
+You let the thought sit, then nod. Hope isn't the absence of fear; it's the decision to act despite it.
+
+[INTERACTION]
+> Choice A: "Ask Tomas to open the forum with a story"
+> Choice B: "Ask Tomas to be there quietly as an observer and moral witness"
+[Outcome A: You ask him to open the forum, to tell one of the old stories about the first pier and the way the town learned to rebuild after loss. He gives a small, pleased sound and nods. The plan, in your head, brightens: a room filled with people listening, learning that preservation is also remembering.]
+[Outcome B: You ask him to attend quietly, to offer presence more than advice. He accepts with a tilt of his head and says he'll bring the stories if someone asks. Quiet witness feels like the right temper for tonight.]
+[MERGE: Continue to preparations for the forum at the Civic Rooftop Garden]
+
+[Scene: Boardwalk Path toward Civic Rooftop Garden | Morning Light]
+[Background:"ch1_Start_6"]
+[Sound: The town's pulse—conversation, laughter, the distant creak of an old motorboat]
+You walk on. The morning arcs like something rehearsal-made real: people show up, tools are used, colors are reapplied to the weathered surfaces. Salthaven remembers how to fix itself, and that memory gives you a kind of buoyancy. Your fingers trace the outline of the compass at your throat once more; you imagine the meeting tonight with a clarity that vibrates in your wrists.
+
+You pace the plan inwardly—what to say first, which family stories to highlight, where to put the slides comparing living shorelines to seawalls. In your mind you place Maya's mural on the slide that will open the forum: image, then model, then policy. You can see Kai's hands shaping community oversight clauses in the margins of legal language. You can see Elder Tomas in the doorway, steady as a hinge.
+
+Your perfectionism hums at the edges, demanding precision. You feel its familiar pressure and answer with a breath: do the work, and let go of the rest. People are coming. Plans will be imperfect; they will be human. That is, you decide, a fine place to start.
+
+You step off the boardwalk toward the municipal building where the stair to the Civic Rooftop Garden waits. The wind picks up, brushing salt into your hair, and you close your eyes for a second, feeling the town as a whole—fragile, stubborn, alive—settling into place around you. There is fear, yes, but under it a steady, rising current of hope. Tonight you will ask your neighbors to lean into that current with you.
+
+[Background:"ch1_Start_7"]
+[Music: Piano swells; hopeful strings enter]
+
+You move toward the meeting as people continue their rituals: a hand brushes yours in passing, a muralist winks, an elder taps a walking stick. The boardwalk's damp smell lifts into the clearer air near the civic steps. Your footfalls match the tempo of a town preparing itself—together.
+
+You think of one last image before you climb: a seed packet pinned to a corkboard, ready to be planted. It is small. It is enough.
+
+[Page-Turn Moment]
+You feel the morning fold into a promise you can measure: not in meters of seawall or dollars of funding, but in the way the town arrives—one person, one story, one contested plan at a time. You breathe in, the compass at your throat steady, the ring cool and real. The rooftop waits. The forum tonight will ask for courage and compromise. You tuck that expectation into the satchel where maps live and take the first stair up.
+
+[Background:"ch1_Start_8"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

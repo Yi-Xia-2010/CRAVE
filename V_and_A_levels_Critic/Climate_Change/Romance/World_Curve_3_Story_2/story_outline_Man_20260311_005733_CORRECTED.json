@@ -1,0 +1,511 @@
+{
+  "title": "Saltline: Tides of Us",
+  "summary": "I return to Saltline, a place I thought I understood. As Marin Alvarez—sea-glass-eyed, dark-teal bob tamed by salt and wind—I face the debris of a past project I once championed and the urgent present when storms and tides no longer forgive delay. The first half of the story is a fall: trust frays, old wounds reopen, and a high-stakes proposal from Elena Moro—an authoritative, corporate-minded engineer—threatens to redraw who owns the shore. Kaito Sakamura, my soft-amber-eyed maker and possible partner, urges a craft-led, community-first approach. The choices I make—whether to dig in with Kaito and neighbors, to align with Elena’s scaled engineering, or to broker a risky hybrid—pull the town and my relationships in different directions.\n\nAfter the nadir (a public rupture and a failed simulation), the arc becomes a rise: grassroots experiments, hard conversations, and small victories rebuild trust and generate hybrid technical-cultural solutions. Branches explore different ethical compromises and romantic resolutions: cooperative hybrid victory (Happy), technical-secured survival with cultural losses (Bittersweet), centralized mitigation with cultural displacement (Sad), and an uneasy, slower federated model where community agency is restored (True). Emotional stakes intertwine with climate stakes—every intimate decision mirrors how the town chooses to keep its shore and itself.",
+  "emotional_curve_type": "Man-in-a-Hole",
+  "player_character": "Marin Alvarez",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Chapter 1: Returning Tide",
+      "branch_designation": "Common",
+      "narrative_focus": "Marin returns to Saltline, notices the changed harbor and community tensions, reconnects with Rin, remembers Kaito and Luka, and confronts guilt over past projects while sensing the town expects something of her.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Rin",
+        "Luka",
+        "Kaito Sakamura",
+        "Elena Moro"
+      ],
+      "locations_used": [
+        "Saltline Harbor",
+        "Docks"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Chapter 2: Old Maps and Frayed Lines",
+      "branch_designation": "Common",
+      "narrative_focus": "Marin revisits Tidewise Lab, finds old schematics and debates the impact of past reinvestment projects with Maya and Luka; she contemplates proposing living thresholds and hybrid solutions while feeling guilt and promising to listen.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Maya",
+        "Luka",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Kaito Sakamura"
+      ],
+      "locations_used": [
+        "Tidewise Lab",
+        "Greenhouse",
+        "Sunken Promenade"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Chapter 3: Storm Forecast",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At a community meeting Elena presents a coastal barrier plan while Kaito argues for community-led resilience; the room fractures and Marin must publicly position herself between Elena's scale and Kaito's stewardship.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2, Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I publicly position myself and my work?",
+        "options": [
+          {
+            "label": "Side with Kaito and the cooperative workshop—push for community-led adaptation.",
+            "consequence": "I commit to grassroots implementation; tensions with Elena deepen; I move to Chapter 4.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Align with Elena's agency—advocate for the engineered barrier and accept centralized support.",
+            "consequence": "I accept funding and institutional backing, alienating some locals.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Attempt to broker a middle path—offer to pilot a hybrid project that pairs targeted engineering with local stewardship.",
+            "consequence": "I try to mediate; both sides mistrust me and scrutiny intensifies.",
+            "target_chapter_index": 4
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Elena Moro",
+        "Kaito Sakamura",
+        "Rin",
+        "Luka",
+        "Ishaan Rao"
+      ],
+      "locations_used": [
+        "Community Hall",
+        "Sunken Promenade"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Chapter 4: Workshop Consensus",
+      "branch_designation": "Route A",
+      "narrative_focus": "In Kaito's cooperative workshop Marin experiences repair as an embodied practice; they sketch hybrid designs, convene community workshops, and tension with Elena and Ishaan continues while a question about making room for both craft and science lingers.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A / Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How should I proceed with the cooperative plan?",
+        "options": [
+          {
+            "label": "Lead an experimental marsh reclamation pilot with Kaito and community volunteers.",
+            "consequence": "I commit to hands-on work and deeper collaboration.",
+            "target_chapter_index": 5
+          },
+          {
+            "label": "Accept a limited technical grant from the agency to retrofit key buildings while keeping local control.",
+            "consequence": "I take funding but risk accusations of compromise.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Step back and let Kaito coordinate—I provide occasional technical oversight.",
+            "consequence": "I yield public leadership to Kaito; some see it as retreat.",
+            "target_chapter_index": 7
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Maya",
+        "Rin",
+        "Luka",
+        "Ishaan Rao",
+        "Elena Moro"
+      ],
+      "locations_used": [
+        "Kaito's workshop",
+        "Cooperative workshop"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Chapter 5: Reclaiming the Marsh",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "The community pilots a living revetment and marsh reclamation with sensors and nursery beds; the project centers local memory and ecology but faces modelled risks and conditional offers from Elena's agency, forcing a tactical choice about funding and oversight.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Which tactical path do we take for the pilot?",
+        "options": [
+          {
+            "label": "Double down on community-led hybrid designs and refuse conditional agency panels.",
+            "consequence": "We prioritize local governance; funding is uncertain but community trust grows.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Accept conditional agency support for a targeted retrofit while protecting key marsh plots.",
+            "consequence": "We secure some funding but cede oversight on specific engineered elements.",
+            "target_chapter_index": 8
+          },
+          {
+            "label": "Propose a federated governance pilot—shared oversight between the agency and community council.",
+            "consequence": "It’s politically risky and slow, but aims for durable trust.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Maya",
+        "Rin",
+        "Luka",
+        "Elena Moro",
+        "Ishaan Rao"
+      ],
+      "locations_used": [
+        "Floating Farm",
+        "Coral Nursery",
+        "Harbor"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Chapter 6: Harbor Accord — A Cooperative Win (Happy Ending)",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "A hybrid infrastructure is unveiled combining engineered slabs with living kelp and coral frames built with community labor; the shared governance charter keeps central funding but preserves community co-signatory rights, repairing marsh protections and relationships, and deepening Marin and Kaito's bond.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option B OR From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Luka",
+        "Maya"
+      ],
+      "locations_used": [
+        "Saltline Harbor",
+        "Harbor"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Chapter 7: Quiet Retreat — A Fractured Defense (Sad Ending)",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "Marin steps back from public leadership while Kaito leads the workshop; the agency bypasses community council, a barrier is erected that sacrifices marsh beds and communal rituals, the town stabilizes materially but loses cultural gatherings, and Marin's relationship with Kaito becomes quieter and cautious.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Elena Moro",
+        "Luka"
+      ],
+      "locations_used": [
+        "Sunken Promenade",
+        "Kaito's workshop"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Chapter 8: Tenuous Compromise — Bittersweet Survival (Bittersweet Ending)",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "Targeted retrofits protect key nodes while some marsh acreage is lost; the retrofit reduces flood-risk and preserves parts of the community, Marin and Kaito remain close though the town's rhythms change, and Marin departs for contracts elsewhere with mixed relief and ache.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Maya"
+      ],
+      "locations_used": [
+        "Community Hall",
+        "Floating Farm",
+        "Harbor"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Chapter 9: Agency Offer",
+      "branch_designation": "Route B",
+      "narrative_focus": "Elena offers Marin institutional partnership: funding and rapid construction in exchange for ceding oversight of certain maritime commons; Marin weighs scale and speed against cultural loss and community impact.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 10,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Luka",
+        "Kaito Sakamura",
+        "Maya"
+      ],
+      "locations_used": [
+        "Conference Room",
+        "Sunken Promenade"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Chapter 10: Modeling the Shoreline — A Political Hub",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "At a regional briefing Elena and Ishaan present phased barrier plans; Marin offers marginal adaptation alternatives and faces a public choice about leading the agency's ecological interface pilot, balancing technical influence against legitimizing centralized control.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Neutral",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 9, Next",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Do I accept leadership of the agency’s pilot interface?",
+        "options": [
+          {
+            "label": "Lead the agency pilot and seek to mitigate ecological harm from inside.",
+            "consequence": "I can shape mitigation elements but legitimize centralized control.",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Refuse the agency role and organize resistance while offering alternative models.",
+            "consequence": "I retain moral clarity but risk losing political influence.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Negotiate a conditional pilot—accept the role only if the agency signs a community governance clause.",
+            "consequence": "It’s precarious and may be rejected, but aims to preserve local voice.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Kaito Sakamura",
+        "Maya",
+        "Rin"
+      ],
+      "locations_used": [
+        "Regional Briefing Room",
+        "Community Hall",
+        "Policy Room"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Chapter 11: Inside the Machine — Controlled Protection (Sad Ending)",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "Marin accepts a role inside Elena’s program, securing some ecological buffers but overseeing construction that secures downtown while privatizing access and parceling the floating farm; Kaito organizes resistance, relationships splinter, and the town becomes materially safer but culturally frayed.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Kaito Sakamura"
+      ],
+      "locations_used": [
+        "Sunken Promenade",
+        "Construction Site",
+        "Waterfront"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Chapter 12: Catalyst of Letters — Distance and Compromise (Bittersweet Ending)",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "Marin refuses the agency helm, organizes distributed resistance and parallel pilots; the effort is messy and human-driven, a storm forces hard choices and partial losses, Kaito leads on-the-ground work and their partnership deepens across distance as Marin takes the grassroots model to other towns.",
+      "emotional_trajectory": "Rise",
+      "Valance": "Positive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Maya"
+      ],
+      "locations_used": [
+        "Floating Farm",
+        "Community Council",
+        "Community Hall"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Chapter 13: Conditional Charter — A Tenuous Governance (True-leaning Ending)",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "Marin negotiates a signed community governance clause to accept the agency pilot, creating a co-equal oversight council and shared decision points; the result is slow and imperfect but creates institutional bridges, fosters repair, and develops a partnership of equals with Kaito.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Elena Moro",
+        "Ishaan Rao",
+        "Kaito Sakamura",
+        "Luka"
+      ],
+      "locations_used": [
+        "Community Hall",
+        "Nursery Site",
+        "Town Offices"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Chapter 14: Federated Stewardship — The Slow Bloom (True Ending)",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "A federated governance pilot is negotiated to stitch agency resources into neighborhood councils and legal protections for cultural commons; the slow, iterative model grows roots—training, internships, and co-managed gardens—softening Marin's guilt and deepening everyday romance with Kaito as Saltline becomes a living experiment in distributed care.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Ishaan Rao",
+        "Elena Moro",
+        "Luka",
+        "Maya",
+        "Rin"
+      ],
+      "locations_used": [
+        "Cliffside Gardens",
+        "Floating Farm",
+        "Joint Council"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Chapter 15: Distant Harbors — Letters and Return (Alternate Epilogue / Ending)",
+      "branch_designation": "Route B / Route A (Alternate Epilogue)",
+      "narrative_focus": "Marin travels to teach federated resilience models while Kaito anchors Saltline’s workshop; they maintain a long-distance partnership through letters and returns, and when Marin checks in seasonal the town shows mixed losses and remade commons with steady care and mutual presence.",
+      "emotional_trajectory": "Rise",
+      "Valance": "VeryPositive",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option B OR From Chapter 5, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marin Alvarez",
+        "Kaito Sakamura",
+        "Maya"
+      ],
+      "locations_used": [
+        "Cliffside Gardens",
+        "Other Towns",
+        "Saltline Harbor"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Endnotes:\n- The structure creates a tree-like branching narrative: an early split at Chapter 3 yields Route A (community-anchored) or Route B (agency-anchored), with subsequent splits at Chapters 4 and 5 (Route A) and Chapter 10 (Route B). Each play path from Chapter 1 to any ending visits at most six chapters (Common 1–3 + up to three route chapters), meeting the estimated-depth constraint and maintaining the Fall → Rise valence curve.\n- All characters, appearances, and locations adhere strictly to the provided world setting and visual traits. Every chapter is first-person POV as Marin Alvarez, referencing her sea-glass eyes, dark-teal bob, olive field jacket, seashell necklace, and sensor wristband.\n- Emotional arousal is non-decreasing across chapters, peaking at VeryHigh during climactic decisions and endings; valence follows the Man-in-a-Hole arc (fall into crisis by Chapter 3, recovery thereafter).\n- Chapters labeled as MAJOR DECISION nodes provide clear choices (Options A/B/C) and explicit forward jumps.",
+  "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+  "_meta_arc_strategy": "Man in a Hole (Fall-Rise)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 00:57:34"
+}

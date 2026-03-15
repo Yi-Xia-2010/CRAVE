@@ -1,0 +1,180 @@
+label chapter14:
+
+    # [Scene: Council Hall | Morning]
+
+    scene bg ch13_601bcb_1 at full_bg
+    # play music "music_placeholder"  # [Music: Abrupt, metallic strings underscoring a rising panic]
+    # play sound "sfx_placeholder"  # [Sound: Murmurs swell into shouts; a distant radio broadcast bleeds in through open doors]
+    "You already know how this would look on paper—tabular lines, numbered accounts, legalese that reads like permission to erase neighborhoods—but seeing it rearranged into headlines makes it a narrower, sharper thing. The document Tess slipped you—whispered"
+    "into the right ear, routed through a back-channel or unearthed by a stubborn occupation; whichever thread brought it to light, the result is the same. The covenants are on everyone's screen. The binding language reads like"
+    "a map of priorities: investor return, escrow diversions, clauses that make civic promises conditional on corporate milestones."
+    "Livia Chen sits at the dais as if she has always been carved from the room's varnished surface—cool, a practiced tilt to her jaw. For a beat she is unreadable; for a beat the whole hall"
+    "leans into that cultivated calm and believes it will hold. Then the hall stops believing anything."
+    "Tess O’Malley sits at the edge of the crowd, her fluorescent lanyard soaked; she catches your eye once, then looks away, jaw working. Her whisper is no longer a whisper. It is a file shared across phones, across feeds, across grief."
+    show tess_omalley at left:
+        zoom 0.7
+
+    tess_omalley "Mara—I'm sorry. I didn't think— I didn't know they'd—"
+    show mara_kestrel at right:
+        zoom 0.7
+
+    mara_kestrel "You did what you thought needed to be done.' Your voice is low, but it cuts—because you must say something steadier than your pulse. 'It came out. We need to be precise. We need to move."
+
+    tess_omalley "I wanted them to see. I wanted—' Her brim of a rain cap trembles. 'I didn't— I couldn't carry it alone."
+    "Her apology hangs like a wet cloth between you. There is so much to say: about leaks and leaks within leaks, about consent and consequences, about the nights Tess spent at her council terminal copying files while her hands shook. None of it absolves the effect."
+    show livia_chen at center:
+        zoom 0.7
+
+    livia_chen "This council will not be derailed by sensationalism. We will investigate these allegations. In the meantime, we must be measured."
+    "A voice from the back—Rafi Gómez's, raw as rope—cuts through."
+    hide tess_omalley
+    show rafi_gmez at left:
+        zoom 0.7
+
+    rafi_gmez "Investigate? They'll hide it under papers while the tide takes our houses!"
+
+    livia_chen "We will protect the town while following due process."
+    "You want to tell her you don't trust the word 'protect' when it's tethered to contracts. You want to list every clause that reads like an evacuation order. But the hall is a pressure chamber now: outrage encountered by legal disclaimers. The two things are not the same language."
+
+    menu:
+        "Step up to the podium and demand they freeze the contracts now":
+            "You push through the crowd, microphone cold under your palm. Your voice shakes. 'Freeze all disbursements until independent auditors—' The words feel like stones, heavy and true; the hall tilts between applause and procedural rebuke."
+        "Slip out the side door to check the promenade where people are gathering":
+            "You duck into the rain-braced air and run toward the promenade. The smell of diesel and wet seaweed greets you; faces are lit by phone screens and fury. You arrive as a chorus of neighbors lists off what they remember—promises, meetings missed, a child's photograph saved to a cloud now threatened by contractors' maps."
+
+    # --- merge ---
+    "Both choices converge to the next scene on the promenade."
+    # [Scene: Flooded Promenade | Noon]
+    hide mara_kestrel
+    hide livia_chen
+    hide rafi_gmez
+
+    scene bg ch13_601bcb_2 at full_bg
+    # play music "music_placeholder"  # [Music: Rapid percussive hits; a low, urgent synth]
+    "You move between the rows of people like a tide between rocks—hands on shoulders, eyes meeting, calming when you can, collecting when you must. Rafi is here with a coil of rope over his shoulder, stubborn as before, mouth a thin line."
+    show rafi_gmez at left:
+        zoom 0.7
+
+    rafi_gmez "They printed the clauses so neat, like they'd ordered the water to line up that way. People'll use that to justify bulldozers."
+
+    "You" "We have to make sure it's not 'used' without accountability."
+    "Elias 'Eli' Rowan arrives with his jacket half-unbuttoned, a smear of grease across one cheek. He hasn't stopped moving since morning. He meets your eyes and for a second there is a private gravity: he has always been machinery and mercy in one."
+
+    "Elias 'Eli' Rowan" "They already called—bond holders, big contractors. Counselors in suits with clean shoes telling Livia this is a liability."
+
+    "You" "What did she say?"
+
+    "Elias 'Eli' Rowan" "She told them we'll handle it. She told them to hold. She told them—' He stops, forehead creased. 'This isn't just paper, Mara. These people can pull the plug."
+
+    "You" "Then we have to show them this town isn't a ledger they can close."
+
+    "Elias 'Eli' Rowan" "Show them?' He looks at you, eyelashes clotted with salt. 'Rafi's right. They read devotion like a ledger entry. And now—' He swallows. 'Now the lenders are freezing things, investors calling for audits, contractors whispering about breach clauses. They smell risk and they back away."
+
+    "You" "They're panicking. That means the money moves faster than the tide, and not always where we want it to go."
+
+    "Elias 'Eli' Rowan" "They might pull out entirely. Or worse—someone will get pressed into patchwork, a cheaper contractor will be hired, and they'll rush something out during the next storm."
+    "Your stomach is a stone. You think of every small compromise that ever promised to hold—patched seawalls, jury-rigged pylons—and how those promises fray fastest when they are rushed."
+
+    menu:
+        "Radio the volunteer teams to start manual sandbagging lines":
+            "You radio the teams; a chorus of affirmative replies crackles back. People begin assembling—bags, shovels, hands already hardened by salt. It is slow, wet progress; it does not feel like enough."
+        "Find Tess and demand she help keep the leak controlled—who releases what and when":
+            "You find Tess behind a row of protesters, hands trembling. She says she meant to control the leak, to time the release. Her face collapses with guilt. 'I never wanted this,' she says. 'I wanted leverage.' There is no way to unspill that soap."
+
+    # --- merge ---
+    "Both choices converge to the upcoming storm and the ruined promenade."
+    # [Scene: Ruined Promenade | Early Storm]
+    hide rafi_gmez
+
+    scene bg ch13_601bcb_3 at full_bg
+    # play music "music_placeholder"  # [Music: High-velocity strings and brass; a rising cacophony]
+    # play sound "sfx_placeholder"  # [Sound: The groan of overloaded beams, a metallic crack, a siren wailing faintly then louder]
+    "They brought in a replacement contractor—clean vans, magnetic logos, a corporate kind of efficiency—promising a fast patch, a PR-ready photo opportunity of 'swift action.' They said the failure would be fixed, fans would see decisive gestures. They said it in language meant to comfort investors and placate cameras."
+    "You see the first fastening give like a brittle thing. The noise is not cinematic; it's mechanical and close and final. Water surges into a gap—an instant like a throat opening—and the line breaks. The reinforcement"
+    "collapses in a living, creaking sweep. Boards split like old teeth. A plank snaps like a conversation cut off."
+    "People shout. A child's wail curls above it, thin and vertical. Rafi curses in a language older than contracts. The storm swallows small sounds and leaves the big ones raw."
+    "Elias 'Eli' Rowan is beside you in a movement that feels inevitable. His goggles are cracked—one lens spidered, the edge of plastic peeling like a map—and his hands are cut. He reaches for you, fingers clenching coolly, ferociously."
+
+    "Elias 'Eli' Rowan" "We— we did everything we could to warn them. We told them what would happen if they rushed it."
+
+    "You" "We tried to stop their rush. We tried—"
+
+    "Elias 'Eli' Rowan" "Now they say it's our fault.' He spits the words out like a seed. 'They point to the unauthorized actions, the occupations, the leaks. They need scapegoats and a clean headline."
+
+    "You" "If they point, they'll make sure eyes don't look where fingers could hurt them—the contracts, the clauses. They'll make it look like we made them do it."
+    "He looks at you like someone shrinking into a storm-scarred map. 'There's nowhere left to hide,' he says simply. The sentence lands like a nail."
+    "You reach for his hand without thinking. Your fingers find his and hold. The physical contact is a small defiance—an assertion that holding is possible even when there is pressure on every seam. His grip is hot and trembling."
+
+    "Rafi is shouting orders—evacuate low-lying houses, push boats to readiness, gather elder neighbors. The packing is methodical and terrible. Objects that map lives—photos, jars of dried seaweed, a small wooden boat toy—are wrapped in cloth and placed into crates. A woman argues, voice raw" "This is our home.' Another man folds and says, 'We have to go."
+    "The rescue boats bob in a row, engines idling. Small lights bob like an exodus of tired stars. The smell of diesel and salt and old wool mixes into a taste that you will never forget."
+    "Livia Chen's voice comes over a handheld from some distance—orderly, clipped. 'Evacuations coordinated. Those refusing will be cited.' There is a hardness now that did not belong to the person you once argued with about design"
+    "principles. A fracture has taken a straight line down her center. Her leadership, once charismatic, has hardened into edicts. You see the beautiful, terrible logic of someone who thinks the only answer is control."
+    "You think of Tess's face from the council—a face that wanted to fix things—and of the cascade of consequences: truth clarifying for a moment like a shaft of sun, then a shift to erosion when the"
+    "financial tide turned. You had hoped the light would clean everything. Instead it lit the edges where things would be torn apart."
+
+    scene bg ch13_601bcb_4 at full_bg
+    # play music "music_placeholder"  # [Music: A suspended, hollow chord that refuses resolution]
+
+    "Elias 'Eli' Rowan" "Mara—what are we supposed to do? Where do we go when everyone's boats leave?"
+    "You: (there is no plan that fits into the world's new grammar) 'We—' You stop because there are no verbs left that promise safety. You think of the town you were trying to save and how"
+    "saving sometimes becomes a different motion than you intended—crowding, steering, choosing who stays and who goes. The weight of decisions you've already made gathers into something you cannot lift."
+    "Neighbors you have known since childhood fold their lives into boxes. They hand you smiles that do not reach their eyes. Grandma Hira hugs you with a strength that surprised you and whispers, 'The sea remembers"
+    "but it is not cruel only because of us.' Her words are small and generative, but even her strength is a lantern flickering in a storm."
+    "Rafi grabs your sleeve, the bark of his voice urgent. 'They're gonna pin this on you because you're loud and you have plans. They'll twist it into motive. You need to get to the quay—help the last ones.'"
+    "You help. You move. Your hands ache with salt and fatigue, and your chest is a locket of guilt."
+    # [Scene: Ruined Promenade | Night — Aftermath]
+
+    scene bg ch13_601bcb_5 at full_bg
+    # play music "music_placeholder"  # [Music: Low mournful cello; a single piano note repeats slowly like a drip]
+    "The town is no longer a single organism; it is fractured into clusters of people holding themselves together. Headlines already thread the chronology: LEAK TOPPLES TRUST. CONTRACTOR FAILS. PROTESTORS TO BLAME. The papers have their angles, and the angles cut."
+    "Livia Chen has answers—hardline measures, citations, press statements that protect balance sheets. She will be lionized by some, reviled by others. She will sleep less, or she will sleep soundly; you cannot read the interior of"
+    "such a precise armor. Her public face is now a series of decisions that shore a city in numbers and make deserts of memory."
+    "Tess O’Malley is gone; last you saw she was walking toward the quay with a bag slung over her shoulder and that fluorescent lanyard still clinging wetly to her coat. You did not have words left"
+    "to keep her there. Her role in the leak is inescapable in the narrative that will be sold for clarity."
+    "Mara Kestrel and Elias 'Eli' Rowan stand on the edge of what was once the boardwalk's central bench. He leans his forehead against yours for a small, private exchange that the storm never learned to eavesdrop on."
+
+    "Elias 'Eli' Rowan" "We wanted to do right.' He laughs once, a broken thing. 'All those nights in the shop, thinking we could build a better edge."
+    show mara_kestrel at left:
+        zoom 0.7
+
+    mara_kestrel "We did what we could with what we had. That won't stop them from making it into what they need."
+
+    "Elias 'Eli' Rowan" "I can fix things with bolts and beams. I can't fix the decisions made for profit.' He looks at you: the rawness in his eyes, the way his optimism has been drilled with the tide. 'I— I don't know if I can stay."
+
+    "Mara Kestrel (the thought of him leaving is its own kind of flood)" "Then don't."
+    "He shakes his head—small, painful. 'I don't know if staying is safe. I don't know if leaving is.'"
+    "You clasp his hand harder. There is no rescue bigger than the immediate warmth of skin between your fingers. Around you, the town moves like a wound—stitches attempted and already tearing."
+    "Rafi comes back with a thermos and sets it between two wrapped crates. 'They'll make villains of the loud ones,' he says gruffly. 'They always do. But remember—there are more people than headlines. There are still ovens, still boats, still nets. It isn't all over.'"
+    "You want to believe him. You want to accept that salvage sometimes looks like survival and not only loss. But belief is a brittle thing in the face of money's current."
+    "You think of every ledger line, every meeting where 'risk allocation' meant someone else's street, every model that told you where water would go and did not account for human panic. The leak that promised sunlight also freed the hyenas of finance, and the hyenas fed quickly."
+    "Night gathers and the last lights fade from the promenade. Some neighbors sleep in cars, some row away to relatives' harbors, some stand vigil with flares. The town is a constellation missing many stars."
+    "You are left with a naming: exposure did not save us; it hastened the breakdown. That truth is heavy, raw, and entire. The thought curls and finishes in your chest like a closing door."
+    "You look at Elias 'Eli' Rowan—his jaw in shadow, his cracked goggles reflecting a horizon where no warm sunrise seems possible. You feel the shape of your own responsibility as if it were physically tangible, a stone in your hands made of all the things you tried to protect."
+    "You could catalogue every misstep. You could peel back the cause-and-effect until the sequence read like chainmail. But the tide does not listen to analysis. It listens to openings."
+    "You let go of catalogues. You let go of the hope that one action might have avoided the collapse. You let go, for a moment, of the policy-laden verbs and simply examine the human: the faces"
+    "leaving, the boat engines, the smell of diesel and rain. You hold Elias 'Eli' Rowan's hand until his fingers no longer tremble."
+    hide mara_kestrel
+
+    scene bg ch13_601bcb_6 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained low chord that resolves downward, not up]
+    "You have tried to choose good among bad options. The choices have consequences you cannot retract. New Aster will be a different place tomorrow; whether it lives or dies as memory depends on many hands. You"
+    "do not have answers for the future—only the present's exhausted muscles and the knowledge that your role, earned and assumed, is not something you can step away from without a cost."
+    "You stand as boats leave and neighbors pack. You stand as Livia tightens the council's line and as the town finds, suddenly, the old and stubborn work of holding on. You stand feeling the calculus of blame and love folded in the same damp cloth."
+    "You think of every person who believed in your plans, every person who angrily blamed you, every person who looks at you now with a quiet, dangerous grief. You are not absolved. You are not condemned,"
+    "either. You are present, and the weight of presence is itself an instruction: to keep witnessing, to keep naming what happened, to keep tending the real work of rebuilding—even if rebuilding means learning to carry each"
+    "other again without the illusion of a perfect solution."
+
+    scene bg ch13_601bcb_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Far-off engines fade. A lull settles that is not peace, only the exhausted pause after collapse.]
+    "You take a breath. You let the air go out slowly, meeting Elias 'Eli' Rowan's gaze. He squeezes your hand—an act that says both apology and plea."
+    "You cannot unwind the town's fracture with a single gesture. You cannot undo the leak's secondary ruptures. But you can stay. You can keep tallying what needs to be done in notebooks that will smell of"
+    "sea. You can carry the memory of those who left and the faces that remain. You can, perhaps most painfully of all, live with the knowledge that exposure meant clarity—and clarity was sometimes the exact shape"
+    "of the blade."
+
+    scene bg ch13_601bcb_8 at full_bg
+    # play music "music_placeholder"  # [Music: A low, final note that slowly decays into silence]
+
+    scene bg ch13_601bcb_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

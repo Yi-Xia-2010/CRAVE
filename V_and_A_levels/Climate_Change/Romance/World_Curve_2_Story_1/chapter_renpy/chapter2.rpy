@@ -1,0 +1,199 @@
+label chapter2:
+
+    # [Scene: The Saltworks (Reclaimed Marsh Labs) | Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse, low piano with distant wind motifs]
+    # play sound "sfx_placeholder"  # [Sound: Water slapping against pilings; the soft clack of tools being set down]
+    "You arrive with your Moleskine folded into your palm, the coral scarf at your throat like a small, stubborn promise. The notebook is still open in your mind: Jun, oral histories, the clerk. The list hums"
+    "under your skin the way tide lines hum on mud—maps of what must be done. You think of Elias' voice agreeing to bring prototypes, of the steadiness in it that felt like a hand on the"
+    "back of a boat."
+    "Noah is already there, kneeling by a pallet table, his paint-streaked hoodie damp with morning dew. He waves without looking up, the motion catching a smear of sun across his freckled cheek."
+    show noah_rivera at left:
+        zoom 0.7
+
+    noah_rivera "Morning. Coffee? Or something stronger?"
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "Coffee. Black—no sugar. And a steady hand with the mic, when the time comes."
+    "Noah snorts softly. He knows how you mean 'steady' and what it costs to be steady here."
+    "A cluster of volunteers murmurs around a blueprint pinned to a salvaged piece of plywood—paper taped in place with duct tape and love. Jun consults a tablet, thumbs moving with deliberate care. Aunt Lila, wrapped in"
+    "layered cardigans, stands slightly apart, her eyes scanning the marsh like it is a ledger of names."
+    show jun_park at center:
+        zoom 0.7
+
+    jun_park "We can get the demo panels mounted by midday if we shift the volunteers. Two teams—assembly and outreach. Assembly takes the core, outreach preps the placards and the oral histories table."
+
+    mira_santos "People need to touch it. Not just numbers—they need to feel it's possible."
+    "Jun nods, but his eyes flick to Noah, then to the field of reeds beyond—where the town's memory is written in salt and marsh grass."
+    hide noah_rivera
+    hide mira_santos
+    hide jun_park
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The quiet, precise clicks of fasteners being organized]
+    "Elias Park arrives as if he had always been part of the landscape—small-tool kit slung over one shoulder, his jacket still holding the smell of solder and sea. He sets his prototype on the table: a"
+    "compact micro-grid node—tubed copper, a tiny turbine, and a panel of mismatched solar cells wired with care. It looks less like a polished product and more like a living thing someone had coaxed together out of"
+    "scraps."
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "It's rough. But it held an old light last night when the street went out. I tightened the bearings. Want to see?"
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "Show me everything."
+    "He smiles—small, private—and begins to explain, holding the device like an offering. His hands are steady; his voice lowers so that the technicalities become a sort of intimacy."
+
+    elias_park "The switch is here. It isolates critical loads—lights, a pump, a comms node. We could set up three of these across the boardwalk; they'd keep a few households and the clinic functional when the grid drops."
+
+    mira_santos "And who keeps them running? Who owns them?"
+
+    elias_park "That's the long part. I want them community-run—training, shared maintenance. Low-cost tech, easy fixes. No paperwork that pushes people out."
+    "The room listens. The plan is a map you can trace with your finger: keep people in place, make systems that bend with the storm rather than bulldoze through what remains. There's relief in the shape"
+    "of it, but it comes with a wet, metallic aftertaste—because relief here is a relative thing."
+    show noah_rivera at center:
+        zoom 0.7
+
+    noah_rivera "We can demo the node alongside Aunt Lila's oral history table. People talk, kids play, they see a working light and remember that's what this is—living, not a monument."
+    hide elias_park
+    show aunt_lila_santos at left:
+        zoom 0.7
+
+    aunt_lila_santos "Tell them the fisher's tale. Tell them the lighthouse bell used to be rung by hands, not contracts."
+    "The room hums with small agreements. Tasks are parceled out like blankets: Jun will handle the layout, Noah runs outreach, a group will collect oral histories. You find yourself assigning yourself the legal groundwork—petition templates, questions for the council clerk—because the map in your head resists being abstract."
+    "Elias Park sets the micro-grid node to life. A filament light glows: not bright, but insistently warm. The sound is a tiny mechanical breath, enough to make the group lean in—to see that the idea will not just live in pamphlets."
+
+    menu:
+        "Place the node where everyone can touch it":
+            "You slide the node to the front of the table, fingers tracing the soldered joints. A few people lean forward, tentative hands reach out, and a child laughs when the tiny light blinks. It is small and real and it anchors the conversation."
+        "Keep the node technical, under a tarp for the demo":
+            "You pull the tarp slightly over the device, fingers worrying the edge. Elias looks at you, a question in his eyes. 'We'll explain,' you say. The group looks at the covered kit as if it's a promise waiting to be opened. It keeps the technical debate tidy—and distant."
+
+    # --- merge ---
+    "The choice sits between you like tide water: immediacy or control. You can see both outcomes—community hands igniting hope, or the prototype kept pristine, a shield against messy failure. You worry about the weight of being the one who decides how close people get."
+    "The meeting settles into work: straps cinched, placards painted, schedules clarified. Your throat tightens with that precise, slow anxiety that takes up residence at the nape—an ache made of responsibility and the memory of what happened the last time plans were deferred."
+    "Someone's tablet buzzes—an electronic insect in a quiet room. Jun's face shifts as he reads, the way a surface tightens when wind pushes at it. He swipes, reads again, and looks up."
+    hide mira_santos
+    show jun_park at right:
+        zoom 0.7
+
+    jun_park "There's a press release. Cassandra \'Cass\' Whitlock's team put out a release overnight. Big renderings. Private investor summit next Thursday. They say 'urgent action'—and they're framing redevelopment as 'the only viable path.'"
+    "The sentence lands like a handful of cold water. The micro-grid hum seems muffled under the weight of it."
+
+    aunt_lila_santos "Private summit. Of course."
+
+    noah_rivera "They always have the dollars to put pictures in front of people. Glossy hope."
+    hide noah_rivera
+    show mira_santos at center:
+        zoom 0.7
+
+    mira_santos "A private summit means deals made behind doors. If they 'frame' it as the only path, public opinion moves with the sheen of their renderings."
+    "Elias Park closes his hands around the small turbine as if bracing it against that sense of exclusion."
+    hide aunt_lila_santos
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "We expected publicity... but private investors? That speeds things. It makes process a backdrop to money—less negotiation, more fait accompli."
+
+    mira_santos "Then we make the process visible. We bring something human to the plaza. We show the hands that would keep things working."
+    "A heated, careful conversation breaks out—not angry but tense, the kind of debate that sits in the ribs."
+    hide jun_park
+    show noah_rivera at right:
+        zoom 0.7
+
+    noah_rivera "We need a statement. We need witnesses. If they hold meetings in private, we hold ours in public—side-by-side, louder in their silence."
+    hide mira_santos
+    show jun_park at center:
+        zoom 0.7
+
+    jun_park "Make our demo impossible to ignore. The node running a light, a pump. A sign-up for training. Legal counsel—"
+    hide elias_park
+    show mira_santos at left:
+        zoom 0.7
+
+    mira_santos "And a timeline. We can't be reactive. We have to show a plan that can scale in people's yards, not just on renderings."
+    "The group forks into planning again, but now there's a new undertow. The release has made the future non-neutral—someone is pushing it toward displacement dressed in the language of 'stability.' It is harder to breathe."
+    # [Scene: Marrow Bay Boardwalk | Late Morning]
+    hide noah_rivera
+    hide jun_park
+    hide mira_santos
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A gull cries; distant construction hum]
+    # play music "music_placeholder"  # [Music: Low strings sustain; a minor chord repeats]
+    "You walk the boardwalk for a break, the micro-grid prototype tucked under your arm like a secret. The market's smells—fried dough, seaweed, coffee—mix with salt and diesel. People pass, some glancing at your flyers, some not;"
+    "a dog tugs its owner toward the water. You read the press release again on your tablet because the words feel like a map you're trying to memorize to find the trapdoor."
+    "Your phone vibrates. Elias Park's name; no words, just a call. You answer."
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "How's the demo logistics?"
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "Tighter. The team is steady. But Cassandra \'Cass\' Whitlock's release—private summit next Thursday. They're setting the frame."
+
+    elias_park "Then we have to make our frame louder. Not louder like shouting—louder like standing where everyone can see us. I'll tweak the node so it can run longer off the battery. If we show sustained power for a community fridge or a pump, it's harder to argue with human need."
+    "There is a softness at the edge of his voice—a patience that has always been there—and also a reserve. You think of his failed past project like a shadow that tousles his words. You can feel his reluctance to promise too much, a practiced restraint."
+
+    mira_santos "I don't want you bearing that alone. If we show it working and people sign up to maintain it, it's not just your prototype—it's ours."
+
+    elias_park "I know. I'll bring Jun the wiring guide. We can run a hands-on table at the demo. People learn by touching, like you said."
+    "The conversation unfolds like a small boat on calm water—intentional, cautious. It threads around the larger worry: if Cassandra \'Cass\' Whitlock's plan moves forward with private backing, will your model even be heard? The anxiety sits in the air between you, low and persistent."
+    # [Scene: Harbor High Rooftop Greenhouse | Noon]
+    hide elias_park
+    hide mira_santos
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: A single, repeating piano motif; wind chimes faint]
+    # play sound "sfx_placeholder"  # [Sound: The damp thrum of humidity; the soft scuff of footwear on wooden slats]
+    "The greenhouse is a pocket of warmth. Inside, strings of solar fairy lights hang like small constellations. You and Elias set the node on a table between pots of herbs. He works with slow concentration, soldering"
+    "a connection, smoothing wires. The task is ordinary—an intimacy in motion. Your hands linger, helping him steady a coil, tracing a path that is technical and tender at once."
+    show elias_park at left:
+        zoom 0.7
+
+    elias_park "You ever think about how these tiny systems remind me of gardens? You plant something small and tend it, and—if you're lucky—the town eats."
+    show mira_santos at right:
+        zoom 0.7
+
+    mira_santos "I think about how the town remembers itself. Aunt Lila says we are stitched to place by stories, and stories like the steady light."
+
+    elias_park "That's a nicer engineering metaphor than I would write in a lab report."
+    "He meets your eyes, and for a moment the greenhouse is only two people and a device humming low. The romantic edge is present but careful, folded into a shared task. You both are guarded lovers of possibility rather than grand gestures."
+
+    elias_park "If it helps—if the demo gets them to think of small systems as real, we could have more than sympathy. We might get momentum. Not immediate, but real."
+
+    mira_santos "Momentum is slower here than in ads. But it lasts longer if it grows from people's hands."
+    "Your chest tightens on the word 'longer' because every long thing here is frayed at the edges by storms and money. You wonder if being slow is a virtue or a liability when someone glossy is selling a fast fix."
+
+    menu:
+        "Press Elias about his past failure ":
+            "You touch the copper cuff on his wrist and ask, quietly, 'What happened with the village project?' He flinches—a small, honest recoil—and then tells you what he can: the funding shifted, timelines shortened, trust eroded. His voice is careful but opens enough for you to see the places he still bears the aftershocks. It anchors your resolve."
+        "Keep the conversation focused on today's demo":
+            "You steer your questions back to logistics, to battery life and training modules. Elias nods, grateful. The past stays folded away; the present work proceeds with less risk of unraveling."
+
+    # --- merge ---
+    "The choice is minor—flavor, a tug along the tightrope of personal and public—but it colors the next hour. Whether you pry into old wounds or preserve the present focus changes the room's temperature by degrees."
+
+    "A breeze slips through a cracked vent and a notification pings onto your tablet again. Jun's face appears in a pinned group thread—a link shared: the press release, a list of backers, a short video with sleek renders. Comments scroll" "Long-term stability!' 'Major investment—finally!"
+    "You close the tablet slowly. The greenhouse noise swells—a leaf falling, a drawer sliding shut. The tension in the day has been building like a tide pulled back and revealed: the horizon full of intent."
+    "You think of Aunt Lila's hands, of Noah's easy confidence and the stubborn knot inside him when the town's people are put last. You think of Elias' cautious loyalty and your own stubborn optimism that wants to hold everything together by sheer will."
+    "There is a subtle, shared understanding among the Saltworks group now: the game is changing. Cassandra 'Cass' Whitlock's release and the private summit make the public process a pressured stage rather than a slow conversation. The demo must do more than educate—it must become a public claim."
+    "You stand at the edge of the greenhouse, the clay dust under your nails, and you name the quiet panic for what it is—an urgent sadness, an anxious tightening that says: if we don't make this visible, others will make the choice for us."
+    "The moment stretches into a long inhale. You can see the next steps as clear as a tide line: prepare the demo, make it impossible to ignore, gather witnesses, show a workable alternative. But beneath the clarity is a new ache—private deals close faster than communities can organize."
+    "You press your hand to the coral scarf at your throat the same way you pressed the notebook closed yesterday. The fabric is both comfort and reminder: memory is what you're trying to protect, and memory is fragile."
+    hide elias_park
+    hide mira_santos
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play music "music_placeholder"  # [Music: Piano note lingers; wind motif sighs]
+    "You feel the day narrowing to a decision that isn't only logistical—it's moral. The town's future is not a chart alone; it's held in hands, in who gets to promise and who gets to keep those promises. You are pulling the threads, but the net still has holes."
+    "Page-turn moment: You picture the council chamber's glass facades reflecting renderings of a 'safe' future. You picture the Saltworks demo in the plaza, a small, stubborn brightness against a glossy projection. The choice is not whether to act—you already are—but how to make the act impossible to ignore."
+
+    scene bg ch2_c4ca42_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

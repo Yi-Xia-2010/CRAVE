@@ -1,0 +1,215 @@
+label chapter16:
+
+    # [Scene: High-Rise Development Site | Morning]
+
+    scene bg ch14_6b08b4_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Machinery hum, a distant drill tapping like a metronome]
+    # play music "music_placeholder"  # [Music: Sparse piano, low and dissonant]
+    "You watch from where the temporary fence ends, one foot on a muddy berm. Your jacket is heavy with salt; the collar smells faintly of diesel and yesterday's rain. The scaffolding under your palm shudders with"
+    "each truck that passes. Up close, the site is clinical—white hard hats, neat clipboards, glossy pamphlets folded into rectangles like promises."
+    "Evelyn Harrow moves through that clinical air with a cadence that has learned to close deals before sunrise. She is everything measured: the cut of her coat, the precise tilt of an eyebrow when she catalogues"
+    "risk. An investor—smile broad, cufflinks like polished coins—slides a stack of permits across a makeshift table. He talks about 'responsible consolidation' and 'efficient resettlement' the way someone reads a slide deck aloud and expects the facts"
+    "alone to wash away discomfort."
+
+    "Investor" "We've modeled the economic uplift for the consolidated lots. It's—efficient. This plan minimizes long-term municipal exposure."
+    show evelyn_harrow at left:
+        zoom 0.7
+
+    evelyn_harrow "Our obligation is to the city's sustainability. Consolidation reduces redundancies and concentrates funds where they can be managed."
+    "You want to spit the word 'consolidation' like gravel. To you, it reads as razor blades in the margins of a ledger: neat numbers where people's names used to sit."
+    "You step forward in a motion that feels half habit—organizers move into conversations the way they move into storms—but Evelyn Harrow looks up with an unreadable pause. Her face doesn't soften; it calculates."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "What happens to the households who can't transfer title, who don't have leverage? To the stories on those porches?"
+
+    evelyn_harrow "We will provide compensation. Transitional housing. Legal assistance."
+
+    ava_marin "Compensation that assumes people want to be compensated away from their home. Are you offering them a choice or a relocation package with a closing date?"
+    "Evelyn Harrow's jaw tightens, a microtic of a politician pressed into policy. She folds the question—politics does that—to present a simpler sheet."
+
+    evelyn_harrow "We can't preserve every structure. The city must make decisions that secure long-term habitability."
+
+    "Investor" "Think of it as necessary triage. The riparian zones will be more manageable once parcels are consolidated."
+    "You hear the words, you catalog them, and you feel the ledger's weight. There's a silence like tide-pulled slack between you. Ilan Cortez joins at your side, shoulders sanded with the same salt wind as yours, his watch face blinking the time in a soft blue."
+    show ilan_cortez at center:
+        zoom 0.7
+
+    ilan_cortez "Evelyn, before you sign—these households need more than a line item. Let us guarantee salvage access and mobile units for those who choose to stay close-by. We can deploy a rolling filtration array and modular foundations."
+
+    "Investor Rep" "Those sound promising. Maybe Alistair could allocate a demonstration set as proof of concept."
+    "Evelyn Harrow's eyes flick to the investor, to Ilan Cortez, and for a fraction of a breath you see the old Evelyn—someone who once believed in technical fixes. Then she smiles the kind of smile that closes a file."
+
+    evelyn_harrow "We appreciate the offer. The city will consider pilot programs within the redevelopment framework."
+    "You watch as she signs. The pen scratches like a small, decisive weather on paper. Someone photographs the signatures, and the image will find its way into a news release before noon."
+
+    menu:
+        "Step forward and demand a written guarantee for salvage access":
+            "You find your voice, hear it rough with salt and resolve—'We need guarantees in writing, not promises in press releases.' Ilan places a steady hand on your shoulder, lending his steadiness to your spike of fury."
+        "Hold the edge of the fence and record the signing on your phone":
+            "Your thumb hovers over the record button. You capture the pen's final stroke, the investor's smile, Evelyn's closed expression—evidence that will travel later into meetings and filings."
+        "Walk away to the boardwalk; the scene will have to be met again":
+            "You turn your back on the file photos and the smiling hands. The marsh air hits you, colder. You choose to carry the reaction inward for a different type of confrontation."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: Tideward Street / Boardwalk | Midday]
+    hide evelyn_harrow
+    hide ava_marin
+    hide ilan_cortez
+
+    scene bg ch14_6b08b4_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Movers' radio chatter, the hollow thud of handed-down crates, and an undertow of muffled sobs]
+    # play music "music_placeholder"  # [Music: A low, aching string section]
+    "The neighborhood moves differently now. People step lightly over the seals of packing tape as if they might bruise the memory beneath. The smell of bleach mixes with seaweed and the comforting earth-sweet aroma of Mira's"
+    "rooftop garden. A crew straps down a refrigerator and laughs too loudly to fill the crack between them and the woman who watches her house being emptied."
+    "You stand on a sidewalk half-lifted by scaffold—your boots planted on a board that sags in the middle—and the wave-ring at your index finger is a thin, cool reminder against skin. The wind pulls a strand of your hair free; it lashes like a small flag."
+    "Ilan Cortez moves between a cluster of municipal liaisons and a lawyer whose suit is a shade too new for so much displacement. He argues in technical loops that are his refuge: volumes per household, filtration"
+    "throughput, mobile-unit deployment timelines. His voice holds a stubborn, earnest cadence—believing that specs can honor lives."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "We can guarantee five mobile units deployed within two weeks, prioritized by vulnerability. We will assign salvage teams to households that request it."
+
+    "Legal Rep" "Those units will be contracted through municipal channels. Compensation packages include buyout options. The program's disbursement will be subject to documented ownership."
+
+    ilan_cortez "You can't gate access to salvage by paperwork alone. Ownership isn't always formalized in Tideward—memories, tenure, oral histories—"
+
+    "Legal Rep" "We require legal frameworks to track responsibility. It prevents fraud and ensures accountability."
+    "Ilan Cortez's hand flattens on the table. His face is amber, warmed with the heat of trying and failing to bridge two logics. He looks to you—his expression both apology and plea."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "You're trying to put people's lives into spreadsheets and timetables. Ilan, they need dignity, not just data."
+
+    ilan_cortez "I know. I'm trying to make the system bend."
+    "You see, in the way his expression gathers around that sentence, that he feels the bend as a personal failing as much as a political one."
+    "News vans park across the street; a camera lens catches Mira as she walks by carrying a terracotta pot. She pauses in front of a house with a child's drawing taped to a window and kneels, petals of soil falling from her palms like confetti."
+
+    "Mover" "We're following the city's orders—these are legally sanctioned removals."
+    "You can taste the word legality—tangy with policy, sterile. The movers' plastic gloves squeak with a sound like a small, indifferent future."
+
+    menu:
+        "Help the elder packing fragile dishes":
+            "You slide into the doorway and lift a box with deliberate care. The elder's hands close on yours for a moment longer than necessary—thank you without words."
+        "Stand with Ilan and insist on a public filming of the salvage clause":
+            "Ilan nods and steps forward. Together you call for a public read of the salvage agreement. Cameras pivot; an official coughs; a clause is read aloud into the air the neighborhood breathes."
+        "Take a photograph of the child's drawing and tuck it into your journal":
+            "You fold the paper gently and slide it into the journal between mapping notes. The drawing's crayon islands will sit under the leather like a small, secret memorial."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: Boardwalk Community Garden | Late Afternoon]
+    hide ilan_cortez
+    hide ava_marin
+
+    scene bg ch14_6b08b4_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft brush of trowel on soil, conversation threads, a gull's distant cry]
+    # play music "music_placeholder"  # [Music: A minor-key cello that trembles into silence]
+    show mira_soto at left:
+        zoom 0.7
+
+    mira_soto "They can take our porches. They can take the boards. But they can't take where the basil will grow."
+    "You kneel beside her. The earth is cool against your palms; it smells like possibility and rot and the deep, root-deep things that remember."
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "It's symbolic."
+
+    mira_soto "Symbolic saves us. It keeps us sane."
+    "You watch neighbors pass—some pausing to drop scraps into the pot, some walking with boxes like coffins. The garden is a stitch across an open wound."
+    "An older man you know as Josué stands a few paces away, his breath fogging in the cooling air. He has owned his home longer than the city has kept records. He talks quietly to no one in particular."
+
+    "Josué" "They called it consolidation. When my father fished, we called it summer and storm. They put a price on each."
+    "You fold that price inside your head, like wrapping a stone."
+
+    mira_soto "We should make a list—who got saved, who didn't. A ledger of the people, not the parcels."
+    "You think of the city's ledger: neat columns, balanced accounts. You think of the list you keep in your journal—street names, recipes, the route of the milk-truck—and of how small things become the only evidence of a life lived in place."
+
+    ava_marin "I'll write it after. Tonight."
+
+    mira_soto "Promise me you'll write the names, not just the numbers."
+    "You nod. Promises are small maps."
+
+    menu:
+        "Whisper a name to Mira to add to the list":
+            "You lean in and whisper the name of a neighbor who refused the buyout. Mira writes it with a charcoal line that will survive a thousand tides."
+        "Offer to trade maps for seeds—your archive for her garden's continuity":
+            "Mira laughs—then nods. You hand her a creased map; she hands you a fistful of seeds. The trade feels like a covenant."
+
+    # --- merge ---
+    "The scene continues."
+    # [Scene: Moonlit Boardwalk | Night]
+    hide mira_soto
+    hide ava_marin
+
+    scene bg ch14_6b08b4_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The distant grind of machinery, a child's muffled sob, the hush of wind over wet wood]
+    # play music "music_placeholder"  # [Music: A single violin bowed slowly; then silence]
+    "The demolition lights paint everything too bright and wrong. They slice the night into a landscape of harsh white and ink shadows. You and Ilan Cortez sit on a bench carved from driftwood—his back warm against yours; his hand finds yours and the ring cools against your skin."
+    show ilan_cortez at left:
+        zoom 0.7
+
+    ilan_cortez "We saved what we could. We—"
+    show ava_marin at right:
+        zoom 0.7
+
+    ava_marin "We couldn't save them all."
+    "He doesn't argue. He folds the failure into his chest the way he folds a tarp—careful, efficient, but with creases that speak to use. His face is open to the moon and the distant, indifferent business of demolition."
+
+    ilan_cortez "I tried to weave something into the process. We pushed. We tried to make units available, to prioritize salvage. Some arrangements were included."
+
+    ava_marin "Included. The word tastes like ash. They 'included' caregivers and renters and oral-tenure and then locked them behind clauses."
+
+    ilan_cortez "I didn't foresee how the compensation algorithms would privilege title-holders and corporate partners. I should have—"
+
+    ava_marin "You tried. But that's not the same as what I needed."
+    "He squeezes your hand; the gesture is unassuming and honest. For a moment the world contracts to the small, heated place between your palms."
+
+    ilan_cortez "I keep thinking if we build the right thing—if the prototype is perfect enough—then no one will have to move."
+
+    ava_marin "That's the lure, isn't it? That technical perfection will absolve political failure."
+    "He leans his forehead to your temple, and you feel the steady pulse there, a measured thrum."
+
+    ava_marin "Mira planted seeds today. She asked me to promise to write the names."
+
+    ilan_cortez "What will you write?"
+
+    ava_marin "A ledger that remembers people, not parcels. Their birthdays. The routes kids took to school. The recipe for Josué's fish soup. The boardwalk's crooked nail by the third plank."
+    "He chuckles, no humorless—warmed humor that eases the edges of the night a fraction."
+
+    ilan_cortez "That sounds like work worth doing."
+
+    ava_marin "We saved some people. We lost others. The city's ledger balanced. We were listed as costs."
+    "The phrase sits heavy in the air, a weight you have been carrying for weeks. It settles into your bones like salt—gritty, invasive, permanent."
+
+    ilan_cortez "What will you do with that ledger?"
+    "You think of the journal in your bag, the one bound with twine, the map tucked in its spine. You imagine copying names into a safebox, scattering micro-archives like seeds in different places, passing the memory forward in whatever form survives."
+
+    ava_marin "I will keep it. I will make a record that can't be erased by a signature or a developer's press release."
+    "Silence folds between you. The demolition lights churn their slow, indifferent work. A plank down the boardwalk creaks; somewhere—too close—you hear the clink of metal against metal as a house is reduced to inventory."
+    "You hold Ilan Cortez that night. His warmth is a genuine place—a harbor that is small and steady—but it cannot put the demolished houses back, cannot bring back the childhoods made on porches that are now"
+    "empty. The feeling is not defeat so much as the precise grief of having done your best within a system that wasn't designed to account for everything you valued."
+    "You reach for the ring on your finger and turn it once. The curl of silver is not a solution; it is a reminder. You press your knuckles against the leather of the journal and imagine the names like seeds—some planted, some scattered, some uprooted."
+    "You walk home beneath a sky that is a bruise of cloud and moonlight. Mira's pot sits on a stoop, dirt dark and hopeful. Josué's stoop is empty; a notice flaps where his front door used"
+    "to be. Windows across the street hold only reflections now: your face, the demolition lights, a stunned constellation of what remains."
+    hide ilan_cortez
+    hide ava_marin
+
+    scene bg ch14_6b08b4_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Your pen scraping the paper; a distant hammering stops for a moment]
+    # play music "music_placeholder"  # [Music: The violin returns briefly, a sad, resolute phrase]
+    "You write names, small facts, recipes, jokes. You write of who saved what and who was taken. You write of Mira's seeds and the night Ilan tried to build a compromise into the city's plan. You write with the feeling that the record itself is resistance."
+    "You place the journal back into your bag. It is heavier now—not from pages, but from the gravity of what it must hold."
+    "You will step forward again. You will speak at hearings, you will hold community readings of the ledger, you will press for legal recognition of informal tenure. You will keep the archive alive. These are acts"
+    "that will not halt the bulldozers already at work, but they will fold memory into future possibilities. They are small, stubborn refusals."
+    "You are tired. The salt in your bones is a quiet ache. You are also resolute—worn, yes, but not extinguished. The city balances its books; the ink dries. The neighborhood is changed."
+
+    scene bg ch14_6b08b4_6 at full_bg
+    # play music "music_placeholder"  # [Music: A final, low cello note that fades into a sustained hush]
+    # play sound "sfx_placeholder"  # [Sound: Waves murmuring beyond the development site, like an unending ledger of motion]
+
+    scene bg ch14_6b08b4_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

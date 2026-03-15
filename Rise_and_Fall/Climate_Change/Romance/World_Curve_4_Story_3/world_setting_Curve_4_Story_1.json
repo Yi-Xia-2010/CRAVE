@@ -1,0 +1,120 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the engine of both plot and emotional stakes: rising seas and contested adaptation strategies force characters into ethically fraught choices that test intimacy and trust. The core conflict is between technocratic, fast-acting adaptation (large engineered fixes) and community-centered, ecological resilience (distributed, nature-based solutions). That conflict drives political tension, personal compromise, and a slow-burn romance between the protagonist and an engineer who straddles both worlds. Through scenes of research, city council hearings, and flooded neighborhoods, players choose how moral, technical, and emotional priorities align.",
+    "setting": "Near-future coastal city (New Maris) where sea level rise and intensified storms have reshaped daily life. The city is a patchwork of retrofitted infrastructure, private flood defenses, and neighborhoods learning to live with water. Atmosphere is tense but intimate: salt in the air, humming machines, and pockets of fragile green where people fight to keep life rooted.",
+    "visual_style": "Realistic anime-influenced characters; muted coastal palette with neon accents; rain-washed textures; tactile, slightly weathered design; cinematic lighting; environmental detail emphasis (wet surfaces, algae, reflective puddles).",
+    "main_characters": [
+        {
+            "name": "Mara Ellis",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: fiercely curious, quietly stubborn, empathetic to locals, slow to trust institutions but generous with small kindnesses. She balances scientific rigor with a poetic sense of place.",
+            "appearance_features": {
+                "hair": "Chestnut brown, shoulder-length tight curls with a single salt-silver streak at the temple",
+                "eyes": "Sea-glass green, slightly hooded, often narrowed in concentration",
+                "clothing": "Layered field kit — dark olive soft-shell jacket with coral stains at the cuffs, navy wetsuit under high-waist cargo trousers, scuffed ankle boots; often rolls sleeves and leaves jacket half-zipped",
+                "accessories": "Worn brass dive watch with etched tide lines, leather-bound notebook bulging with tide charts and sketches, pair of small hoop earrings salvaged from wreckage"
+            },
+            "goal": "To protect and restore the urban coastline and its communities by demonstrating that nature-based adaptation and community stewardship are viable at scale.",
+            "background_story": "Grew up in a low-lying district that was partially abandoned after a storm; studied marine ecology to prevent other neighborhoods from being erased. She lost her childhood home and her mother relied on community relief projects — these experiences drive her distrust of profit-driven quick fixes.",
+            "emotional_trait": "Strength: moral clarity and tenacity. Flaw: stubbornness that can blind her to compromise or the personal needs of those she loves."
+        },
+        {
+            "name": "Jonah Reyes",
+            "role": "Love Interest",
+            "personality": "Warm, practical, and quietly humorous; engineer by training but deeply attached to his fishing community. He is a mediator between technical solutions and human consequences, often playing diplomat in tense meetings.",
+            "appearance_features": {
+                "hair": "Dark wavy hair with a short undercut and sun-bleached tips at the front",
+                "eyes": "Warm amber-brown, wide and observant, with crow's-feet from years on the water",
+                "clothing": "Modular workwear: slate-gray waterproof jacket with reflective trims, rolled-up sleeves revealing calloused forearms, durable canvas pants with patched knees, rubber-lined boots",
+                "accessories": "Battered film camera he uses to document neighborhoods, a woven ring made from reclaimed fishing line on his right thumb, a faded bandana often tucked into a pocket"
+            },
+            "goal": "To design and implement practical coastal defenses that protect neighborhoods while minimizing ecological harm; he wants solutions that keep people in place rather than displacing them.",
+            "background_story": "Third-generation inshore fisher-turned-civil engineer after his boat business collapsed under new regulations and storm damage. He apprenticed at a municipal engineering firm and then at a private contractor, giving him fluency with both institutional and grassroots approaches.",
+            "emotional_trait": "Strength: adaptable, conciliatory. Flaw: fear of failing his community leads him to occasionally hedge morally ambiguous choices to get short-term wins."
+        },
+        {
+            "name": "Elias Crowe",
+            "role": "Antagonist",
+            "personality": "Charismatic, polished, and fiercely pragmatic. He believes decisive, centralized action is the only path forward. He can be charming in public and coldly transactional in private.",
+            "appearance_features": {
+                "hair": "Steel-silver, slicked back with precise parting",
+                "eyes": "Ice-blue, with a calculated, appraising gaze",
+                "clothing": "Impeccably tailored, waterproof charcoal coat with subtle corporate insignia; high-end urban suit beneath designed to repel salt and rain",
+                "accessories": "Monogrammed smart umbrella that deploys a holographic HUD, a discreet luxury smartwatch that doubles as a secure comms device, slim metal cufflink engraved with his company logo"
+            },
+            "goal": "To implement rapid, large-scale engineered defenses (seawalls, controlled geo-structures) to secure contracts and lock in what he sees as the only scalable protection for metropolitan centers.",
+            "background_story": "Former infrastructure firm executive who founded NovaSeis Solutions after selling proprietary flood-control tech. He grew up in an inland industrial town affected by economic collapse; his drive is to deliver decisive infrastructure — and to prove his model works before political will dissipates.",
+            "emotional_trait": "Strength: decisive, visionary. Flaw: emotional detachment that hides lingering guilt and a tendency to prioritize measurable outcomes over human nuance."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Maya Ellis",
+            "relation_to_main": "Younger sister of Mara; former barista now community organizer",
+            "appearance_summary": "Short-cropped dark hair, freckled face, neon-yellow raincoat patched with civic pins.",
+            "function_in_story": "Grounds Mara in community perspective; forces protagonist to weigh scientific ideals against immediate human needs; represents the neighborhood's voice."
+        },
+        {
+            "name": "Professor Asha Rao",
+            "relation_to_main": "Mentor to Mara; university marine ecology professor",
+            "appearance_summary": "Silver-gray braid, soft spectacles, practical linen coats with sea-spray stains.",
+            "function_in_story": "Provides expertise, archival data, and moral counsel; acts as the scientific conscience and can open doors to institutional resources."
+        },
+        {
+            "name": "Councilor Anika Patel",
+            "relation_to_main": "City council member who mediates between public, corporations, and scientists",
+            "appearance_summary": "Sharp bob, structured blazers with pin of the city crest, pragmatic jewelry.",
+            "function_in_story": "Makes or breaks policy votes; politically pressured and often forced to broker compromises that reveal the city's limits."
+        },
+        {
+            "name": "Mateo 'Old Mate' Alvarez",
+            "relation_to_main": "Community elder and retired fisherman; acquaintance of Jonah",
+            "appearance_summary": "Weathered skin, salt-gray beard, oil-stained cap, always barefoot near the water.",
+            "function_in_story": "Embodies cultural memory of the coast; offers storytelling, cautionary tales, and local knowledge of tides and currents."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Tide Lab (Converted Research Ferry)",
+            "visual_description": "A hulking converted ferry anchored at the harbor with fogged portholes and steel decks slick with spray. Interior lighting is a cool, clinical blue with warm task lamps over weathered benches. Instruments hum and cast soft green readouts, while salt streaks and hanging charts give a lived-in scientist-aboard feel."
+        },
+        {
+            "name": "The Promenade (Half-Submerged Boardwalk)",
+            "visual_description": "Long wooden planks interspersed with shallow pools that mirror neon signage at dusk. Golden sunsets reflect off wet wood; gulls wheel overhead. The palette is warm amber to muted teal; puddles create distorted, intimate reflections of passersby. Architecture is patchworked: concrete pylons, graffiti, and new floodable seating."
+        },
+        {
+            "name": "Rooftop Garden at the PolySilo",
+            "visual_description": "A hidden green terrace atop a repurposed grain silo — wind-filtered light, soft moss, succulents in reclaimed planters, string lights that glow like fireflies at night. The city horizon is visible between brackish steam vents; the scene is tactile and intimate, ideal for quiet conversations."
+        },
+        {
+            "name": "Council Chambers (Glass Civic Forum)",
+            "visual_description": "A sleek, glass-and-steel amphitheater with a suspended holographic map of the coastline. Lighting is bright and somewhat sterile; reflections from floor-to-ceiling windows show rain pummeling the waterfront. The room feels authoritative and chilly, with polished surfaces that contrast with the messy realities outside."
+        },
+        {
+            "name": "The Drowned District",
+            "visual_description": "An eerie, beautiful neighborhood partially reclaimed by marsh — brick facades half-submerged, vines and reeds curling through broken windows, water-stained murals. Light is diffuse, gray-green; the soundscape includes distant creaks, frogs, and slow water lapping. Colors are desaturated with flashes of municipal signage and hand-painted shutters."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A community-driven hybrid approach is adopted: nature-based shorelines and scaled engineering work together. Jonah and Mara form a durable partnership personally and professionally; displaced residents are rehoused through local initiatives. Elias is publicly constrained and must negotiate reparations; the city demonstrates a model other towns begin to copy."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Elias's large seawall is built under emergency pressure and prevents an immediate catastrophe, but it damages nearshore ecosystems and accelerates displacement in poorer neighborhoods. Jonah and Mara stay together but wrestle with moral compromise; the city is safer but scarred, and the relationships are altered by what was sacrificed."
+        },
+        {
+            "type": "True",
+            "summary": "Mara's published data and grassroots mobilization catalyze a policy shift: national regulations favor decentralized, ecological adaptation. Elias's company loses its monopoly as regulations penalize harmful geoengineering. The victory is systemic but costly — some neighborhoods cannot be saved and personal losses occur, leaving a sober but meaningful legacy."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political paralysis and rushed private construction fail to prevent a catastrophic storm surge. The Drowned District suffers irreversible loss; Jonah and Mara are separated by tragedy and blame. The story ends with a grieving community planting the first seeds of a new, long-term movement — hope is small and distant."
+        }
+    ],
+    "estimated_chapters": 6
+}

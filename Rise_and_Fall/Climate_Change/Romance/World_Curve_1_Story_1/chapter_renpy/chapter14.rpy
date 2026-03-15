@@ -1,0 +1,260 @@
+label chapter14:
+
+    # [Scene: Live Demonstration Block | Late Morning — the day the sky looked like it might break]
+
+    scene bg ch14_3be532_1 at full_bg
+    # play music "music_placeholder"  # [Music: Steady, uplifting guitar motif with a soft hand-drum undercurrent]
+    # play sound "sfx_placeholder"  # [Sound: Low city hum, the distant squawk of gulls; volunteers' voices fold into a steady, purposeful murmur]
+    # [Smell: Wet earth, salt on the air, faint coffee from a thermos passing hands]
+    "You arrived before sunrise to the quiet work of people who believe in small systems adding up to something stubbornly big. The beds are braided with new irrigation lines; the cobbles in the courtyard glitter with"
+    "the sheen of last night's rain. Theo is on the sensor bank, knees sharp against the recycled rubber mat; Asha is pinning a training roster to the notice board; Rosa moves between clusters of older neighbors,"
+    "telling quick, bright stories about nets and tides that fold the past into this living experiment."
+    "You run your thumb along the edge of your notebook—the blue thread where Rosa sewed it is rough against your skin—and inventory the day like a list of vows: keep the water out without keeping people"
+    "out; make the system legible enough that anyone can fix it; make it beautiful enough that the city will want to keep it."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "Status."
+    show theo_baines at right:
+        zoom 0.7
+
+    theo_baines "Sensors green. Saturation curve is within predicted bounds. The new permeable pavers are draining at three times the speed of the old block. We're seeing retention in the bioswales already—' (he taps his tablet) '—and the rooftop reservoirs are routing overflow into community barrels. If the forecast holds, this demo's going to embarrass a few assumptions."
+    show asha_patel at center:
+        zoom 0.7
+
+    asha_patel "And if the forecast doesn't—' (she flicks a glance to the low clouds) '—we're ready to teach a thousand people to do this with less than a cart and a borrowed drill."
+    hide maya_calder
+    show rosa_calder at left:
+        zoom 0.7
+
+    rosa_calder "When I was a kid, a storm took half the pier and two nets. We learned to pass the net-mending as if it were a song. This—' (she brushes a leaf) '—this is the same. Different nets."
+
+    "Elias 'Eli' Maren" "You always look like you can see the sea even when it's not there, Maya.' (he offers a small, crooked grin) 'Which is a good look for somebody trying to convince a city to garden its roof."
+    "Eli's grin is a small tide-pool of calm. You let it reach you and tuck the warmth away like a stone in your pocket—necessary ballast."
+
+    menu:
+        "Tie a small scrap of cloth to the demonstration sign":
+            "You knot your promise to the railing—the same silly ritual Eli suggested months ago—and it twines into the plan like a private semaphore. Asha claps once, delighted by the humanism of it."
+        "Check the camera feed before the briefing":
+            "You crouch to the feed and watch volunteers arrange sandbags and chant steps under Asha's breathy call. Theo waves at the lens; you feel a fierce, ridiculous pride."
+        "Step outside for a breath of sea air":
+            "The salt air hits you, sharp and clearing. You can almost taste the city deciding to be more than a problem, and the idea makes your chest ache good."
+
+    # --- merge ---
+    "The scene resumes as the storm approaches."
+    # [Scene: Live Demonstration Block | Late Morning — the sky tears open]
+    hide theo_baines
+    hide asha_patel
+    hide rosa_calder
+
+    scene bg ch14_3be532_2 at full_bg
+    # play music "music_placeholder"  # [Music: The guitar motif swells; strings join—bright, rising]
+    # play sound "sfx_placeholder"  # [Sound: Rain pounding, water sluicing into channels, a chorus of footsteps and urgent shouts]
+    # [Touch: Cold rain punches through collars; mud grabs at boots]
+    "The storm arrives like a question you have been rehearsing to answer. For a breath you watch, and then the answer is not yours alone—the demonstration flexes alive. Barrel lids snap into place; overflow diverts into"
+    "newly cut channels; a volunteer plugs a temporary flap and the courtyard breathes instead of drowning. You feel the swell of a thousand small things functioning in sequence, and something in you loosens."
+    show theo_baines at left:
+        zoom 0.7
+
+    theo_baines "Look—reinforced swales are diverting the crest! Flow is within model variance. This is way better than the simulations said."
+    show asha_patel at right:
+        zoom 0.7
+
+    asha_patel "Keep channelling to the terraces, guide the overflow—remember the secondary spillway—"
+
+    "Elias 'Eli' Maren" "Hey—sing if it helps. If you're going to fight a storm, you may as well sing at it."
+    show maya_calder at center:
+        zoom 0.7
+
+    maya_calder "Check the southern culvert—if it clogs, we'll see backpressure. Also—Rosa, watch the elder assembly; they need escort to the dry station."
+    hide theo_baines
+    show rosa_calder at left:
+        zoom 0.7
+
+    rosa_calder "I have eyes like a net. I'll watch the people."
+    "You move with practiced economy—one hand on radio, one on a volunteer's sleeve, one on the ladder that will let you cross from muddied street to terrace. Around you, the demonstration does not merely withstand the"
+    "weather; it translates it. Rain becomes resource, not ruin. Roof membranes drink, sponges and grasses hold, and the courtyard becomes a slow-breathing sponge that gives back clear water after a patient hour."
+    # play sound "sfx_placeholder"  # [Sound: Distant camera clicks, the dull whir of drone rotors that had been hovering for visuals]
+    hide asha_patel
+    hide maya_calder
+    hide rosa_calder
+
+    scene bg ch14_3be532_3 at full_bg
+
+    "Somewhere between the second and third downpour, a news van lights up its sign. Someone in the block gasps—a live feed is patched through—and you watch your work, your neighbors, your messy, human system go small on a screen and huge at once. The clip is blunt and honest; it doesn't edit out the mud. The anchor's voice trembles with a kind of dazzled disbelief" "Community demonstration withstands surprise storm—models say this could be scalable."
+
+    menu:
+        "Wave at the drone like a fool":
+            "You wave until your sleeve is soaked; Theo laughs and records you waving for the team's archive. Elias 'Eli' Maren squeezes your hand—wet and solid—and your fingers find his."
+        "Focus on monitoring the flow":
+            "You lean into the data—saturation curves, outflow rates—satisfied, clinical, grateful. Theo tosses you a thumbs-up that almost undoes the scientist in you."
+
+    # --- merge ---
+    "The demonstration continues into afternoon as the press arrives."
+    # [Scene: Live Demonstration Block | Early Afternoon — the storm passes, the city notices]
+
+    scene bg ch14_3be532_4 at full_bg
+    # play music "music_placeholder"  # [Music: The motif becomes triumphant, piano trills folding into the guitar]
+    # play sound "sfx_placeholder"  # [Sound: Reporters' voices, the murmur of residents comparing notes, the distant ping of social notifications going viral]
+    # [Smell: Wet cedar from the new raised beds, the faint smoke of a grill being lit in celebration]
+    "By the time the press compiles their stories, the footage has already been sliced into a thousand angles. The clip that goes viral is quiet: a close-up of a child's hands plunging into a bioswale and"
+    "coming up with a salamander, the child's laugh cutting through a news crawl about 'resilience models.' Editors love the visual language—soil, muscle, and practical tools—and the city has been waiting for a visual that smells like"
+    "possibility instead of panic."
+    show dr_sienna_kade at left:
+        zoom 0.7
+
+    dr_sienna_kade "This is persuasive."
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "It's evidence of what happens when neighbors own their interventions."
+
+    dr_sienna_kade "And it's scalable. I want you on a coalition to translate this into a city-wide kit. Funding will follow, but with conditions: oversight, measurable milestones, and community governance seats."
+    show asha_patel at center:
+        zoom 0.7
+
+    asha_patel "Community governance? We want that—if it's real and not just performative."
+    hide dr_sienna_kade
+    show theo_baines at left:
+        zoom 0.7
+
+    theo_baines "And open standards. We can't have one proprietary fix that eats the rest."
+    hide maya_calder
+    show dr_sienna_kade at right:
+        zoom 0.7
+
+    dr_sienna_kade "Open standards will be a requirement. The authority will fund the first replication if the community holds the design rights and seats are non-negotiable."
+    "Her offer is the hard thing you have been bargaining for in dreams and in sleepless meetings: money without takeover. There is friction—Sienna's insistence on milestones, your insistence on culture—and you can feel the negotiation weaving into possibility rather than violence."
+    hide asha_patel
+    show maya_calder at center:
+        zoom 0.7
+
+    maya_calder "We will need a written guarantee for community seats. We will need the agreement to mandate local apprenticeships—training that keeps jobs in the neighborhood."
+
+    dr_sienna_kade "You get thereof. And Maya—' (there is a beat where she says your name like a policy line and not an accusation) '—we need demonstrable scalability in three months."
+    "Three months is a drumbeat. You measure it against the slow habits of care. But here, in the warm press of the crowd, you can already imagine the training modules, the apprenticeships, Theo's open-source schema, Asha's"
+    "network teaching a hundred tiny teams. The offer is not a capitulation; it's a bridge."
+    hide theo_baines
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "We'll run training across neighborhoods. We'll make teams that can assemble a kit in a weekend."
+    hide dr_sienna_kade
+    show theo_baines at right:
+        zoom 0.7
+
+    theo_baines "I'll push the specs live—open repository, version-controlled, community-written."
+    hide maya_calder
+    show rosa_calder at center:
+        zoom 0.7
+
+    rosa_calder "And I will make space for stories—nights of nets and songs, an oral history to ride the water."
+
+    "Elias 'Eli' Maren" "You did this, M. You kept the root and grew the leaves."
+    hide asha_patel
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "We did this. All of us."
+    # [Scene: Apprenticeship Center Opening | Late Afternoon — ribbon-cutting under a cautious sun]
+    hide theo_baines
+    hide rosa_calder
+    hide maya_calder
+
+    scene bg ch14_3be532_5 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle, celebratory strings and a harmonica line threaded by Elias 'Eli' Maren]
+    # play sound "sfx_placeholder"  # [Sound: Applause, soft weeping, the clack of camera shutters]
+    # [Touch: The scissors are unexpectedly heavy in your hand; the ribbon is damp with the memory of the storm]
+    "The scissors bite through fabric like a small permission. Elias 'Eli' Maren stands beside you; his fingers are tucked into yours before you notice. Rosa steps forward, a small tray of salted fish and kelp pastries"
+    "balanced like an offering. Theo fiddles with a camera, anxious about a thousand tiny details; Asha's smile is wide and organizing."
+
+    "Elias 'Eli' Maren" "Ready?"
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "Let's cut the ribbon and get back to work."
+    "The snip is a tiny, ceremonial violence that opens a door. Phones lift; someone counts down; the ribbon falls and a cheer goes up that sounds like a neighborhood beginning again."
+    # play sound "sfx_placeholder"  # [Sound: A muted ping—your tablet's news alert. You glance down: official city feed: 'City Adopts Community-Led Resilience Model as Official Strategy. Funding Allocated.']
+    hide maya_calder
+
+    scene bg ch14_3be532_6 at full_bg
+    "Your chest is full of a thousand textures—joy, exhaustion, a relieved ache. You had wanted this not for the headline but for the way it will change who gets to touch the work and who gets to eat the work's fruit."
+    show dr_sienna_kade at left:
+        zoom 0.7
+
+    dr_sienna_kade "There will be oversight committees. We will name you as co-chairs alongside the authority's representatives. Prepare frameworks."
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "We'll make them transparent. We'll keep the training public. We will not let this be a showcase that forgets its makers."
+
+    dr_sienna_kade "Good. Then let's get to work."
+    "Later—much later, when the cameras have gone and the apprentices linger to learn to solder a pump or sew a rainbarrel lid—you and Elias 'Eli' Maren sit on the low wall that watches the courtyard. He has a towel over his shoulders; mud etches the hem of both your boots."
+
+    "Elias 'Eli' Maren" "You moved a city today."
+
+    maya_calder "We moved a city today."
+
+    "Elias 'Eli' Maren" "And—' (he searches a pocket, then pulls out a scrap of driftwood with a bead tied to it) '—we built a place to teach people how to keep it that way. I'm proud—of you, of us."
+
+    maya_calder "Proud is small. I'm—' (you stop; the right word is bigger than pride; it is responsibility brightened by companionship) '—grateful. And wary. This is a beginning, Elias. There's paperwork and power and people who'll try to make it less human."
+
+    "Elias 'Eli' Maren" "Good. Keep the wary; keep the song. We'll call each other when the forms look like traps. We'll call each other to celebrate when they don't."
+    "You rest your head for a moment against his shoulder. He smells like wet fabric and harmonica oil. The future is a ledger and a garden and a choir of hands. You will have to do"
+    "both—retain rigor and affection—every day. The two of you look out at the rooftop farms where apprentices are already hands-on; seedlings glint like a promise in the low, warm light."
+    show rosa_calder at center:
+        zoom 0.7
+
+    rosa_calder "Tonight, storytelling. Nets first, and then the new songs. Everyone welcome."
+    hide dr_sienna_kade
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "And training tomorrow targets five neighborhoods. We scale by teaching, not by handing over."
+    hide maya_calder
+    show theo_baines at right:
+        zoom 0.7
+
+    theo_baines "I'll push the live repo tonight. Pull requests welcome; commit history will show community authorship."
+    "The city has chosen, for this hour, to favor people-shaped solutions. There will be paperwork and setbacks and bitter meetings ahead; there will be storms that outpace measures. But in the warmth of this moment, with"
+    "hands dirty and hearts less defended, you feel something like the city's spine stiffen toward care."
+    hide rosa_calder
+    show maya_calder at center:
+        zoom 0.7
+
+    maya_calder "We will keep the root. We will grow the leaves."
+    "Elias 'Eli' Maren squeezes your hand; Rosa tips a plate toward you; Theo holds up his phone and beams a live post of the apprenticeship center captioned with the open-source repo link. Asha corrals volunteers into"
+    "tomorrow's course schedule. Dr. Sienna Kade stands apart, watching the human machine she has chosen to fund, and you notice—maybe for the first time—that her jaw is unclenched."
+    hide asha_patel
+    hide theo_baines
+    hide maya_calder
+
+    scene bg ch14_3be532_7 at full_bg
+    # play music "music_placeholder"  # [Music: The motif resolves into a warm chord—hopeful and steadfast]
+    # play sound "sfx_placeholder"  # [Sound: Laughter, the soft clack of tools, and the distant, unwavering call of seabirds returning home]
+    "You think of Rosa's hands and Theo's nervous grin and Asha's ability to make a hundred people move as one. You think of Dr. Sienna Kade, who can be rigid and is simply, terrifically, afraid of"
+    "losing the city to the sea. You think of Elias 'Eli' Maren, who makes you laugh while you write memos that will change zoning laws. You hold all of it together because the bindings are human"
+    "and because you promised to keep the root."
+    "You look at the apprenticeship center's small roof garden, at the plaque someone has hastily affixed—'For Those Who Build and Keep'—and you feel the city inhale."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "This is only the start."
+
+    "Elias 'Eli' Maren" "Then let's be very good at starting."
+    "The cameras will have their montage. The council will ratify, the funding will flow, and the maps will change color. But in the quiet after the press leaves—after the laughter and the last mug of tea"
+    "is rinsed—the work will be the same intimate, stubborn care: teaching hands to mend, building a standard someone else can use and improve, and tending relationships so the system doesn't become a wall."
+    "You stand with your people in the rain-washed light and understand: the demonstrable success was not only engineered drainage or an efficient paver. It was a demonstration of trust—trust that people will work to keep what they own, that a city can unlearn top-down magic and relearn craft."
+    hide maya_calder
+
+    scene bg ch14_3be532_8 at full_bg
+    # play music "music_placeholder"  # [Music: Guitar motif hums one last, hopeful line]
+    # play sound "sfx_placeholder"  # [Sound: A final, gentle harmonica note from Elias 'Eli' Maren, a pulse that says: keep going]
+
+    scene bg ch14_3be532_9 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch14_3be532_10 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,122 @@
+{
+    "design_logic": "I fuse the urgency of climate change with intimate romantic stakes to create a story where policy, science, and personal bonds collide. The protagonist's drive to protect a threatened coastal community forces romantic choices that mirror broader ethical conflicts: immediate safety vs. long-term sustainability, local autonomy vs. corporate expedience. The core conflict is whether love and community can survive necessary compromises or whether ideological purity, personal sacrifice, or outside power will reshape the future.",
+    "setting": "Near-future coastal city-state called Nueva Mar, built on reclaimed wetlands and cliffside neighborhoods. Rising seas, more intense storms, and heat waves have reshaped daily life. The atmosphere is charged and humid — equal parts resilience and weariness — with community gardens on rooftops, patched seawalls, and a stark contrast between corporate-run flood infrastructure and grassroots adaptation projects.",
+    "visual_style": "Painterly realism with warm coastal light, soft film grain, eco-cyberpunk accents, muted pastel palette for community areas and cool steel/monochrome for corporate spaces",
+    "main_characters": [
+        {
+            "name": "Maya Corvin",
+            "role": "Protagonist",
+            "personality": "Practical idealist: fiercely determined, compassionate, quick-thinking under pressure, sometimes impatient with compromise. She balances grassroots empathy with a scientist's analytic mind and has a dry, hopeful humor.",
+            "appearance_features": {
+                "hair": "Auburn, shoulder-length with a single loose braid threaded with small shell and seed beads",
+                "eyes": "Sea-glass green, slightly hooded from long hours working outdoors",
+                "clothing": "Worn olive field jacket patched at the elbows, layered over breathable linen shirts and tapered work trousers; scuffed rubber boots with painted floral motifs left by neighborhood kids",
+                "accessories": "A salvaged brass compass on a cord (nonfunctional, keepsakes), a slim solar-charge bracelet she uses to power small devices, and a faint trefoil tattoo on her wrist"
+            },
+            "goal": "To secure a community-led resilience plan that protects her neighborhood while preserving wetlands and residents' livelihoods.",
+            "background_story": "Trained as a coastal systems engineer, Maya returned to Nueva Mar after her research grants were cut. She grew up in the same seaside neighborhood now threatened by a proposed corporate seawall. She organizes neighbors, translates technical data into accessible plans, and hopes to prove a community-first approach to adaptation.",
+            "emotional_trait": "Strength: stubborn empathy; Flaw: struggles to accept help and delegate"
+        },
+        {
+            "name": "Elias Kahn",
+            "role": "Love Interest",
+            "personality": "Warm, steady, and diplomatic; he is a natural mediator who prioritizes human connection. He can be overly cautious when high-stakes decisions demand boldness.",
+            "appearance_features": {
+                "hair": "Short curly black hair with a subtle silver streak at the temple",
+                "eyes": "Warm amber, slightly rounded and expressive",
+                "clothing": "Waterproof, tailored trench coat in slate blue with reflective piping, layered over neat shirts and recycled-fiber chinos; practical waterproof sneakers",
+                "accessories": "A weathered field notebook filled with sketches and community names, a compact data tablet slung in a leather case, and an old film camera he uses to document neighborhood life"
+            },
+            "goal": "To help implement a scalable resilience program that balances residents' needs with economic realities — and to find a sustainable place for himself and Maya.",
+            "background_story": "Elias grew up across the city and now works in municipal planning. He believes change must come through policy and consensus. His job often forces him to navigate between corporate pressure and community demands, leaving him torn but committed to humane solutions.",
+            "emotional_trait": "Strength: calm reliability; Flaw: risk-averse, fears making irreversible mistakes"
+        },
+        {
+            "name": "Camila 'Kai' Navarro",
+            "role": "Antagonist / Complicated Love Interest",
+            "personality": "Charismatic and sharp, Kai is pragmatic with a streak of ruthless efficiency. She believes large-scale, fast solutions are necessary and resents what she sees as sentimental obstacle courses.",
+            "appearance_features": {
+                "hair": "Short platinum bob with an undercut dyed deep ocean blue",
+                "eyes": "Steel-gray, narrow and assessing",
+                "clothing": "High-performance corporate field suit: slate neoprene jacket lined with reflective panels and modular cargo trousers; always pristine despite field visits",
+                "accessories": "A sleek encrypted wristband that controls project drones, a ring engraved with her firm's sigil, and a small porcelain pendant from her childhood that she keeps hidden"
+            },
+            "goal": "To complete an ambitious engineered seawall and urban redevelopment project that will secure the city’s key infrastructure and attract investment.",
+            "background_story": "Raised in a family of engineers and corporate leaders, Kai rose quickly in a major infrastructure firm. Her methods prioritize speed and scale; she genuinely believes large projects will save more lives. Her approach clashes with neighborhood values and Maya's grassroots methods, but she occasionally shows personal vulnerability.",
+            "emotional_trait": "Strength: decisive leadership; Flaw: difficulty acknowledging moral ambiguity and the human cost of efficiency"
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Lio Corvin",
+            "relation_to_main": "Younger sibling of Maya",
+            "appearance_summary": "Lean teenager with sun-faded hair, always wearing an oversized hoodie splattered with paint",
+            "function_in_story": "Represents the stakes for future generations; provides emotional grounding and occasional viral street-art campaigns that sway public opinion"
+        },
+        {
+            "name": "Mayor Ana Velez",
+            "relation_to_main": "Municipal authority, Elias's professional superior",
+            "appearance_summary": "Older, composed, often seen in crisp suits softened by a colorful scarf",
+            "function_in_story": "Holds political power to approve or delay projects; embodies bureaucratic constraints and the need for compromise"
+        },
+        {
+            "name": "Rafi Odeh",
+            "relation_to_main": "Community center coordinator and Maya's close ally",
+            "appearance_summary": "Stout, sun-weathered, wearing a patch-covered vest and gardening gloves",
+            "function_in_story": "Organizes local volunteers, operates the rooftop nursery, and mobilizes neighbors during crises"
+        },
+        {
+            "name": "Dr. Sima Raza",
+            "relation_to_main": "Former colleague of Maya and technical consultant",
+            "appearance_summary": "Late 30s, practical labwear mixed with field boots, glasses with tape on the bridge",
+            "function_in_story": "Provides scientific data and model projections; supports Maya's plans but warns about hard limits and trade-offs"
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Low Row",
+            "visual_description": "A narrow, terraced neighborhood at sea level. Golden-hour light slants across salt-bleached façades, laundry lines ripple in humid air, and hand-built flood diversions are layered alongside patched sandbags. Colors are warm and lived-in: faded coral, seafoam, and dented tin roofs. Storm-worn murals and community gardens on every rooftop offer small bursts of green."
+        },
+        {
+            "name": "Nueva Mar Municipal Hall",
+            "visual_description": "A modern concrete-and-glass civic building perched on a raised plaza. Cool morning light reflects off blue-tinted glass; digital billboards show project timelines. The interior smells of coffee and paper, with clean lines, polished floors, and a sense of institutional gravity. The atrium is bright, yet echoes with distant voices and the hum of air conditioning."
+        },
+        {
+            "name": "Corporate Seawall Construction Site",
+            "visual_description": "A stark, engineered coastline with heavy machinery, metal scaffolding, and uniformed crews. Overcast skies and spray from breakers make the air briny and metallic. The seawall appears massive and pristine — cold steel and poured concrete with a sterile, monolithic presence that contrasts with the organic shoreline beyond."
+        },
+        {
+            "name": "Rooftop Nursery & Green Lab",
+            "visual_description": "A sun-drenched rooftop oasis of raised beds, translucent greenhouse domes, and recycled-material planters. Warm, diffuse light, buzzing insects, and the scent of fresh soil. Strings of solar panels and rain-capture barrels glint; colorful tarps and stitched banners lend a homemade, hopeful aesthetic."
+        },
+        {
+            "name": "The Old Promenade",
+            "visual_description": "A partially submerged boardwalk lined with rusted lamps and tilted benches. Evening light washes the horizon in mauves and pinks; puddles mirror neon reflections from distant developments. Seagrass and salt tendrils encroach on stonework — beautiful, melancholic, and visibly in decline."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love versus Compromise",
+        "Ethics of Engineering"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led hybrid solution is adopted: Maya's adaptive wetlands plan is integrated with a scaled-back engineered barrier. The neighborhood is protected, wetlands partially preserved, and Maya and Elias begin a relationship grounded in mutual respect and shared vision."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The seawall is built but modified to include wetland corridors; short-term safety is secured at the cost of several lost homes and cultural sites. Maya and Kai reach a tense understanding; Maya and Elias grow apart as Elias accepts a municipal post that takes him away from grassroots work."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate project moves forward without meaningful local input. The neighborhood suffers repeated flooding; many residents relocate. Maya is forced to watch the area she loves changed irrevocably. Romantic relationships fracture under the strain of defeat and displacement."
+        },
+        {
+            "type": "True",
+            "summary": "Neither a clear victory nor a total loss: the city adopts incremental, uneasy compromises. Some wetlands are saved, some infrastructure hardened. Maya learns that preservation requires negotiation and ongoing vigilance; romance matures into a partnership defined by imperfect choices and sustained activism."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

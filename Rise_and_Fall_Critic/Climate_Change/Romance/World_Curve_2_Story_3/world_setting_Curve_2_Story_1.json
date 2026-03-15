@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret the Climate Change theme through intimate, human-scale consequences — a coastal town reshaped by rising seas and unpredictable weather — and marry it to Romance by making emotional choices hinge on environmental ethics and communal survival. The core conflict is between personal desire (love, home, reconciliation) and collective responsibility (adaptation, preservation, or compromise with powerful interests). Players will navigate moral trade-offs where romantic outcomes change depending on how they balance passion with stewardship.",
+    "setting": "Near-future coastal town (called Havenport) that straddles the line between old fishing traditions and new climate-driven infrastructure. The era is approximately 2040: advanced but strained technology, frequent storms, rising tides, visible migration of flora and fauna. Atmosphere is melancholic yet resilient — salt-worn streets, reclaimed green terraces, and signs of recent repairs after storms.",
+    "visual_style": "Painterly semi-realism, soft film grain, muted coastal palette with bursts of neon for tech elements; cinematic lighting (golden-hour contrasts, storm-blue nights), character designs influenced by contemporary anime realism and eco-detailed costumes.",
+    "main_characters": [
+        {
+            "name": "Marin Sato",
+            "role": "Protagonist",
+            "personality": "Steadfast, empathetic, quietly fierce. Tends to weigh others' needs before their own, pragmatic with a stubborn streak, often haunted by small past failures that motivate their activism. Warmly sarcastic when comfortable; intensely focused when working on solutions.",
+            "appearance_features": {
+                "hair": "Dark seaweed-brown, shoulder-length, usually pulled back in a low, messy ponytail with loose face-framing strands",
+                "eyes": "Deep green-gray, rounded with a steady, observant gaze; faint crow's feet when smiling",
+                "clothing": "Worn navy fisherman's jacket layered over a faded technical fleece and waterproof chinos; practical boots splattered with salt and clay. Often has rolled sleeves and a patch of sun on their hands.",
+                "accessories": "A handmade brass compass pendant (scuffed), a stained field notebook with pressed leaves, and a recycled fabric wristband from the town's restoration collective"
+            },
+            "goal": "To secure a long-term, sustainable future for Havenport by implementing community-led adaptation projects while holding onto the town's culture and coastline.",
+            "background_story": "Born and raised in Havenport, Marin left briefly to study urban ecology and returned after a devastating storm that damaged the harbor and their family's small boathouse. They work with a grassroots restoration collective and feel responsible for bridging scientific solutions with local needs.",
+            "emotional_trait": "Strength: fierce loyalty and resilience. Flaw: self-sacrificing tendency that leads to burnout and difficulty asking for help."
+        },
+        {
+            "name": "Ariana Voss",
+            "role": "Love Interest",
+            "personality": "Charismatic, intellectually curious, and optimistic to a fault. Professional idealist with a knack for communicating complex science simply. Can be impulsive in romance and advocacy, leading to clashes with more cautious approaches.",
+            "appearance_features": {
+                "hair": "Platinum-ash blonde, short bob with undercut on one side and a single blue streak dyed near the temple",
+                "eyes": "Clear ice-blue, almond-shaped, quick to light up when excited",
+                "clothing": "Light, technical raincoat with reflective seam piping, slim cargo trousers with utility pockets, and bright yellow rubber boots. Often wears layered scarves with geometric prints.",
+                "accessories": "A slim tablet with stickers from fieldwork, a worn lab keycard on a braided lanyard, and a small waterproof camera hanging at hip"
+            },
+            "goal": "To develop scalable ecological engineering projects (like living seawalls and kelp nurseries) that can be adopted globally while proving community-driven models work.",
+            "background_story": "Ariana grew up in a northern city and traveled internationally with NGOs before arriving in Havenport to pilot a community-led coastal regeneration program. Their outsider perspective brings new tech and bold plans but sometimes clashes with local traditions.",
+            "emotional_trait": "Strength: unshakable hope and persuasive energy. Flaw: can be impatient with slow, consensus-driven processes; occasionally glosses over cultural nuance."
+        },
+        {
+            "name": "Cassian Rhee",
+            "role": "Antagonist / Complication",
+            "personality": "Polished, persuasive, outwardly pragmatic. Driven by a belief that large-scale, fast interventions (and investment) are necessary, even if they disrupt old ways. Not villainous in essence but represents an opposing philosophy: rapid development and techno-optimism.",
+            "appearance_features": {
+                "hair": "Jet-black, cropped close at the sides with a carefully styled quiff on top",
+                "eyes": "Dark brown, narrow and calculating, often shielded by thin-rimmed glasses",
+                "clothing": "Tailored slate-gray coastal business blazer with water-resistant panels, smart trousers, and polished boots adapted for mud; under the blazer, a crisp shirt with a micro-pattern",
+                "accessories": "Silver smartwatch with environmental dashboards, a company lapel pin, and an engraved fountain pen kept in a slim case"
+            },
+            "goal": "To lead a major redevelopment project that will stabilize the harbor with engineered barriers and private investments, transforming Havenport into a resilient hub — but at the cost of displacing some traditions and access.",
+            "background_story": "Former engineer turned development director for a regional infrastructure firm. Cassian grew up seeing policy fail and believes decisive corporate-backed solutions are the only realistic way to protect communities at scale.",
+            "emotional_trait": "Strength: decisive leadership and high competence. Flaw: difficulty empathizing with emotional, cultural losses; views trade-offs in cost-benefit terms that alienate locals."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Ivy Morales",
+            "relation_to_main": "Childhood friend of Marin and co-organizer of the restoration collective",
+            "appearance_summary": "Short, energetic, sun-freckled with braided dark hair and a neon-green safety vest over paint-splattered overalls.",
+            "function_in_story": "Provides local lore, moral support for Marin, and practical knowledge of the coastline; often the emotional bridge between Marin and the town."
+        },
+        {
+            "name": "Elder Tomas Hale",
+            "relation_to_main": "Community elder and former boatmaker who mentored Marin's family",
+            "appearance_summary": "Stooped but sturdy, silver hair in a loose bun, weather-beaten skin, always carries a carved walking stick with maritime motifs.",
+            "function_in_story": "Represents tradition and historical memory; offers warnings about lost practices and can sway community opinion at key moments."
+        },
+        {
+            "name": "Lina Park",
+            "relation_to_main": "Local journalist and occasional ally to Ariana",
+            "appearance_summary": "Sharp bob, warm brown eyes behind round glasses, often wearing layered coats and a press satchel.",
+            "function_in_story": "Amplifies the stakes through reporting, uncovers corporate compromises, and helps shape public perception — her articles can change the town's vote or sentiment."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Havenport Boardwalk",
+            "visual_description": "A once-bustling wooden pier now patched with newer slats and sandbags. Golden-hour light glints off wet planks; gulls wheel against a bruise-blue sky. Color palette: salt-bleached browns, warm amber, and muted teal. Atmosphere: nostalgic, fragile resilience; distant hum of repair generators after storms."
+        },
+        {
+            "name": "Greenwave Community Garden & Nursery",
+            "visual_description": "A terraced rooftop and series of floating planters with lush green growth and bright orange engineering buoys. Diffused morning light, glass-and-steel rain shelters, and the earthy smell of damp soil. Colors: verdant greens, rusted copper, splashes of floral magenta. Atmosphere: hopeful, tactile — hands-on restoration energy."
+        },
+        {
+            "name": "Coastal Research Hub",
+            "visual_description": "A compact, modular facility with thermal-clad walls and large observation windows facing the sea. Interior lighting is cool white with touchscreens and scattered wet boots; night scenes use blue-lit dashboards casting clinical glows. Exterior is wind-swept concrete and solar arrays, with storm-resistant architecture.",
+            "name_extra": ""
+        },
+        {
+            "name": "Tideguard Corporate Pavilion",
+            "visual_description": "Sleek glass-and-metal structure perched at the town's edge, reflective surfaces catching storm-lifted spray. Interior lighting is warm but intentional — minimalist meeting rooms, polished floors, and strategic greenery. Colors: steel gray, corporate blue accents, and brushed brass. Atmosphere: efficient, slightly alien to locals, hints at underlying power."
+        },
+        {
+            "name": "The Old Boathouse",
+            "visual_description": "A low, sagging structure of salt-stained cedar and patched tarpaulin; late-afternoon shadows pool inside. Interior details: hand-lettered maps, hanging nets, jars of spare nails, and a single lamp that casts a honeyed circle of light. Colors: worn wood browns, lamp-gold, and sea-smudged blues. Atmosphere: intimate, memory-laden, a safe harbor for personal conversations."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Collective Responsibility",
+        "Love vs Duty"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A community-first solution is implemented: a hybrid adaptation project combining living seawalls and updated infrastructure funded by a cooperative trust. Marin and Ariana build a relationship rooted in mutual respect and shared purpose; traditions are honored through new stewardship roles."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The redevelopment proceeds but includes negotiated protections for key cultural sites. Cassian's plan is partially adopted; some neighborhoods are fortified while others are relocated. Marin and Ariana remain close but choose separate paths temporarily — love survives, but the town bears visible scars."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate-led rapid development pushes through after conflicts escalate. Physical protection arrives but at the cost of community autonomy: small fishers are displaced and the boathouse is demolished. Marin sacrifices personal relationships to lead resistance that ultimately fails; romance dissolves amid regret and exile."
+        },
+        {
+            "type": "True",
+            "summary": "Neither purely victory nor defeat: Marin decides the truest outcome is long-term resilience over short-term comfort. They forge a difficult compromise with Cassian, institutionalizing community governance and transparent accountability. Romantic resolution is honest but unresolved — partners commit to work together while acknowledging future challenges, reflecting the ongoing nature of climate action."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

@@ -1,0 +1,171 @@
+### SCRIPT
+# Route: Additional (Route A consequence)
+# Context: 453e40
+
+[Scene: Boathouse | Morning]
+[Visual: The boathouse door yawns open to a gray, wet morning; tools and makeshift blueprints fill every surface. Neighbors cluster around crates and coils of rope. Living seawall sketches pinned to a burlap board.]
+[Music: Brisk percussion with rising strings — insistently hopeful]
+[Sound: Hammers tapping, low murmur of voices, gulls distant; rain patters against the corrugated roof]
+
+You step into a room that feels like the town's heartbeat made visible: hands that know the grain of old planks, voices tuned to the weather, the smell of damp wool and oil and fresh coffee. Your rubber boots leave wet prints on the floorboards. The navy bandana knots at the base of your skull; your curls frizz with spray. The compass at your throat is cool against your skin, an old weight that steadies rather than constrains.
+
+Rosa is at the center of a half-circle of folding chairs, palms smeared with grease, laughing as she demonstrates how to splice a buoy line so it won't slip under strain. Luca is elbow-deep in a box of galvanized bolts, his grin quick and fierce as he hands you a packet.
+
+Rosa: "Maya—no, don't give it that worried look. We patch what breaks. That's how this town lasts." (She slaps a glove into your hand.)
+
+You take the glove. The leather is stiff from salt and sun. You breathe in — salt, hot metal, cardamom from someone else's takeout cup — and you let the anxious thread in your chest unwind, a little, into the motion of work.
+
+Maya Ortega: "All right. First phase: raised marshbeds woven into the base. We anchor logs behind and stagger the breakwaters so incoming waves lose their force. We start with donated driftwood and recycled pylons. We—" (You tap the pinned sketch, voice steady.) "—start small and scale."
+
+Elias Voss leans against a crate, unofficially clean in contrast to the rest of the room; his linen is still thrift-soft, sleeves rolled, a smear of graphite by his thumb. He watches you with that cautious warmth he's never managed to hide. Between his fingers he twists a tiny brass charm—something like an old pocket-watch gear—before tucking it away.
+
+Elias Voss: "You really laid this out tight. Phasing looks good. But people will ask: will it stand up to the winter surge? They'll ask about the jobs, about how it helps the stores. I've been talking to a couple of the cafe owners. They'll bring a crew if we can promise them a week of work." (He rakes a hand through his hair.) "I can bring their names to Thursday's meeting."
+
+You want to grin because that promise — of hands and money and the thing Elias has a talent for, aligning economics with ethics — is exactly the hinge you need. But there are already too many faces in the room searching for certainty.
+
+Dr. Henrik Sato, his hair tied in a messy bun, jabs a slim thumb drive into your laptop and brings up a time series of tide data. The graph slides across the screen: decades of incremental rise carved into a jagged line. Your stomach tightens, but Henrik's tone is even, almost conspiratorial in the way he says things that are stark but necessary.
+
+Dr. Henrik Sato: "These localized surges you saw last month? They line up with ninety-seven percent of the modeled scenarios. But look here — this estuary has a narrower band of failure modes than the models for bigger cities. Living defenses could blunt three of the big hits. We'll need to quantize our trials and record with redundancy."
+
+Maya Ortega: "We can do redundancy. We can do volunteer shifts. We can—" (You glance at the packing list on the table: sensors, spare batteries, a hand-crank generator.) "—teach everyone to read the sensors."
+
+The room hums. Volunteers murmur questions and ideas like herring moving as one body. Someone suggests staggered shifts at high tide. Another asks about seedlings. You pin another sheet of paper to the board and sketch the sequence: gather materials, lay the submerged base, plant cordgrass, test with sensors on the north pier during a scheduled surge.
+
+[INTERACTION]
+> Choice A: "Assign people by skill—let Rosa coordinate the build teams"
+> Choice B: "Take point on the first installation yourself"
+[Outcome A: You step back from the blueprint and point to names. Rosa's eyes light; she begins barking clear, useful orders. The room snaps into organized motion, every pair of hands finding a place. You feel the plan take flesh.]
+[Outcome B: You set down the pen and lace on a second pair of gloves. People glance your way, something soft in their eyes—relief, surprise. You feel the cold salt air at the work line and your breath harden into focus.]
+[MERGE: The morning accelerates; volunteers find roles and the plan begins to move from paper to practice.]
+
+Outside, the harbor coughs as a boat shifts against its mooring. The living seawall you love is visible in a long, low curve, reeds trembling like hair in wind. Tamsin's presence is a pressure at the edge of the day. Her campaign is not here in person, but her emblem arcs like a shadow: a lapel-pin flashed on a jacket in the doorway as a woman in a tailored coat hesitates on the threshold and hands out glossy pamphlets.
+
+Woman in Coat (Tamsin's Spokesperson): "Council has new information. Efficiency plan—faster build, government funding. This could secure jobs quickly." (She smiles with the exactitude of a coin.)
+
+Rosa's jaw tightens. A few conversations stop. Fingers pause on nails. You feel the blood move in your neck like tidewater.
+
+You can hear the undertone in the woman's words — the promise of speed, of money, of polished certainty. It would solve some immediate problems. It would also pull the control out of the community’s hands.
+
+Luca: "They're slick," he mutters, and then louder, "They're trying to outpace us."
+
+Elias Voss: "They'll bring heavy machinery. We don't have a chance at being the authors of our own shoreline if they get in first." (He meets your eyes.) "But if we show people we can deliver something real — tangible — they'll have to consider us."
+
+You weigh the pamphlet between your callused fingers. It is glossy and flat. Your plan, by contrast, is messy and alive. You do not like the certainty of a machine-built wall that will cut the town off from the sea in the short-term comfort of steel and poured concrete.
+
+Maya Ortega: "Then we make our work visible. We make it loud in a way numbers alone can't be. We build a pilot and then show what the living wall does on a surge. We make a place for people to come and see the difference." (Your voice carries across the room; so many heads turn.)
+
+Tamsin's woman raises an eyebrow, smooths a pamphlet.
+
+Woman in Coat (Tamsin's Spokesperson): "Or you risk the town without the assurances that large-scale engineering can provide. There's a cost to delay."
+
+Rosa slams a palm on a crate, jangling tools. The collective exhale feels like the moment before a storm hits the harbor.
+
+Rosa: "Cost to delay? You mean risk to our boats, to our nets, to the folks who can't pack up their shops and leave. We've lost houses to delay. We don't need lectures about efficiency." (Her words are sharp, but you can hear the grief behind them.)
+
+The argument begins to spin, but Henrik intervenes with a low, clarifying laugh — the kind that reroutes anger into focus.
+
+Dr. Henrik Sato: "Both statements are true. The policy that's quick and big will reduce immediate risk in a different way from a community approach. Our job is to make an empirically sound case that living defenses shift risk curves enough to warrant investment. We do that by demonstrating, not by shouting. Data plus demonstrable presence beats them every time."
+
+You feel the current of energy pivot toward action. People start dividing into teams — tide monitors, plant tenders, log-haulers. Elias Voss moves among small-business owners who drift in like moths to a flame, their eyes bright with the possibility of paid hours. He bargains quietly: a baker will bring sandwiches for volunteers for a week if she can get two paid days; a boatyard will let you use cranes for a weekend if you'll fix a dock in return.
+
+Elias Voss: "We don't have to be in opposition. We can be the alternative that also supports livelihoods." ( He catches your eye, urgency coiling beneath his careful tone.) "Let me secure two business partners for the first prototype. It'll make the labor look less like charity and more like a job."
+
+You nod, but the nod is more than agreement; it's a recoil against the easy compromise. You remember your family's flood, the night the water took the kitchen table; the swell of that memory is a physical thing. You set your jaw and redirect the team's attention to the field lab: we run tide trials next — controlled, repeatable, and public.
+
+[Scene: Field Lab | Afternoon]
+[Visual: Condensation streaks on salvaged glass panels. Seed trays hang like rows of teeth. Tide-monitor screens pulse in cool cyan.]
+[Music: High-tempo strings with quick rhythmic pulses — urgency with possibility]
+[Sound: Beeping sensors, the whir of a hand-crank generator, a kettle clicking]
+
+You shoulder the laptop, and Henrik pushes a tangle of coaxial cables into your hand. The volunteers gather round like students in a classroom they built themselves.
+
+Maya Ortega: "Sensors log water height, salinity, and wave force. We run the first controlled trial at the north pier at 1600, when the tide hits its predicted peak. Henrik, you'll run the baseline. Rosa, you'll coordinate the planting crew. Luca, you and Elias—"
+
+Luca: "—will be my muscle and my coffee supplier, respectively." (He winks; Elias accepts the title with a mock bow.)
+
+Elias Voss: "I make excellent coffee. And good coffee sustains volunteer morale, which is technically infrastructure."
+
+You laugh despite the pressure, and the sound cracks something open in the room. There's a bright, almost bell-like quality to it: defiance dressed as work.
+
+Dr. Henrik Sato: "We need repeatability. If we run three trials over similar surge windows and our data consistently shows reduced wave energy behind the pilot, we have a narrative. We can show it, not just tell it."
+
+Volunteer 1: "And if the pilot fails?"
+
+You feel every eye tilt toward you. The question is blunt and reasonable; failure in public is dangerous. But your chest is full of the kind of stubbornness that got you to come back here in the first place.
+
+Maya Ortega: "Then we learn. We iterate. We don't let fear of failure stop us from building better. We document everything. We make the process as visible as the result."
+
+[INTERACTION]
+> Choice A: "Promise a public, single-showcase demonstration at high tide"
+> Choice B: "Insist on the cautious, three-trial protocol Henrik recommends"
+[Outcome A: You feel the room tilt toward spectacle; eager faces flush with excitement at the chance to show the town a tangible defiance. Rosa squeezes your shoulder, a fierce, approving grin. The group begins to imagine banners, faces in the rain, hands in mud.]
+[Outcome B: You watch as hands drop from eager gestures to work-worn resolutions. Some volunteers frown—pride wants speed—but Henrik nods at you like a man who knows the worth of patience. The group reorganizes around a repeatable timeline; the buzz becomes a steady hum.]
+[MERGE: Whatever the choice, the team commits to practicing lifts, testing knot-tying, and marking sensor positions as preparations proceed.]
+
+That evening, you sleep in fits: a tangle of sketches, a dream of reeds bending against an enormous wave. You wake to Elias Voss's hand on your shoulder and a cup of coffee warm against your palm. He doesn't speak at first; he offers the cup like a small peace.
+
+Elias Voss: "You looked wind-burned this morning. I stationed the cafe to drop off thermoses at noon. If you ever let people do things for you, they'd be less likely to spiral." (He grins, then grows serious.) "Maya, people are watching. Tamsin's group will come at us with numbers. We need not just data, but faces who believe. We need to show the heart and the math."
+
+Your reply comes in a softer cadence than the day's hammering.
+
+Maya Ortega: "I don't want to play their game by selling out. But I also don't get to be romantic about people's livelihoods." (You trace a thumb over the compass pendant.) "Help me make both visible. Help me make the work dignified and paid."
+
+Elias Voss leans closer for a second that stretches like fog. There's something unspoken that passes between you: the possibility of more than shared plans.
+
+Elias Voss: "I'll talk to the shop owners tonight. I'll get two commitments for the trial weekend—paid hours, documented. But if the council thinks it's just a charity stunt, they won't take us seriously."
+
+Maya Ortega: "Then we'll bring them science and street cred. We'll make it impossible to dismiss."
+
+The pulse in your chest matches the tempo of the music — quick, steady, insistently forward. This is not a quiet revolution. It's a tidal force you are assembling with rope and resolve.
+
+[Scene: Harbor | Two Days Later — Pre-Dawn Tide Trial]
+[Visual: Distant storm clouds bruise the horizon. Volunteers move like shadows; the pilot frame sits low in motionless water, reeds and woven mats like a nascent spine.]
+[Music: Swelling strings and timpani; high arousal, anticipatory]
+[Sound: The roar of a gathering tide, creaking timber, a buoy bleeping in the dark]
+
+You stand at water's edge as the first wave tests the new structure. Boots sink into cool mud. Someone passes you a headlamp; its beam washes the faces of your team: tired, exhilarated, defiant.
+
+Dr. Henrik Sato's voice is in your ear through the headset.
+
+Dr. Henrik Sato: "Sensors live. Recording. Baseline established. We're ready for the peak in three minutes."
+
+You watch the tide lift like a collective inhalation. The first surge hits the pilot and the movement is less violent than your memory of other surges; the sensors tick and color-shift on the laptop. A cheer blooms — tentative, then unstoppable — when the numbers show a measurable drop in wave force behind your pilot.
+
+Rosa grabs your elbow, rain-slick hair plastered to her temple.
+
+Rosa: "You did that. We did that." (Her voice is ragged with laughter and tears.)
+
+Elias Voss is at your other side, soaked through but grinning the way someone who knows they took a calculated risk and it paid off does.
+
+Elias Voss: "See? People like a story. They like to stand in the rain and feel like they did something." (He squeezes your shoulder; the contact is brief and steady.)
+
+But even as the crowd swells, a familiar, surgical voice cuts through the exhilaration. From the perimeter, where a small knot of suited people stands, Tamsin's spokesperson is already preparing a rebuttal about scale and safety. Her smile is practiced, but it doesn't reach the eyes that scan the setup with an expert's appraisal.
+
+Woman in Coat (Tamsin's Spokesperson): "Impressive display. But how reproducible is it at scale? How do you secure funding for maintenance? Large storms won't be placated by plantings alone."
+
+You feel the moment split: the triumph of the trial, and the immediate, rational contest over interpretation. The arousal is fierce now — people shouting, data being debated, your throat raw from cheering and speaking and willing the council to see what you see.
+
+You climb up onto a crate and hold the laptop up like evidence. The faces in the crowd tilt toward the numbers and the mud. Parents think of their children's schools. Fishers think of their boats. Business owners whisper about how to market "coastal stewardship" into people who might come for dinner—and stay for the town.
+
+Your chest opens with something like victory and also something like dread. The day is luminous and busy and dangerous in equal measure. You know the politics will try to frame this as either naiveté or bravado.
+
+You also know, in the marrow of your hands, that this is the kind of hope that isn't passive. It's sung into being by hammers and coffee and long, exhausted planning sessions.
+
+You let the crowd's noise ride you. You lock eyes with Elias Voss, and together you scan the horizon where council members and Tamsin's aides stand like judges and guests. The choice you make next will define how this demonstration reads: as a miracle, a fluke, or a movement.
+
+[DECISION POINT]
+How to demonstrate the pilot’s effectiveness to the council and public.
+1) Option 1: "Stage a public demonstration at the harbor during high tide" -> TARGET chapter_id: 5
+2) Option 2: "Document a slow, technical report and data presentation" -> TARGET chapter_id: 6
+3) Option 3: "Partner with local businesses to fund and staff a prototype" -> TARGET chapter_id: 11
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Stage a public demonstration at the harbor during high tide" -> ID 5 (Route A (Ending))
+    > Jump Target File: script_ch5_Route_A_Ending_ctx_4001e7.txt
+Option 2: "Document a slow, technical report and data presentation" -> ID 6 (Route A (Ending))
+    > Jump Target File: script_ch6_Route_A_Ending_ctx_4001e7.txt
+Option 3: "Partner with local businesses to fund and staff a prototype" -> ID 11 (Additional (Route A consequence))
+    > Jump Target File: script_ch11_Additional_Route_A_consequence_ctx_4001e7.txt

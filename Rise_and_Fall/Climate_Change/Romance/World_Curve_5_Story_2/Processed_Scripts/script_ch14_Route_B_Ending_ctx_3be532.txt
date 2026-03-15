@@ -1,0 +1,206 @@
+### SCRIPT
+# Route: Route B / Ending
+# Context: 3be532
+
+[Scene: The Watchhouse | Dawn]
+[Background:"ch14_3be532_1"]
+[Sound: The hushed susurrus of paper as someone turns a stack of briefs; distant gulls arguing over a morning scrap]
+[Music: A single, rising piano motif — tentative, warm]
+
+You wake with the compass pendant warm against your throat, an old weight that feels newly steady. The letter of resignation sits folded in your pocket like a stone—small, dense, irrevocable. You'd expected the relief that comes after an answer. Instead there's a clarity that smells faintly of salt and coffee: the decision has cut the air clean.
+
+Elena "Lena" Maris [thinking]: "I said the words. I walked away. It's not a ruin; it's a redirection."
+
+You stand at the bench where tide charts and volunteer lists are stacked, and you let the light fall across the curve of your scar. Outside, Brinehaven is waking: a painter tightening a tarp, Marco whistling to a stray dog, Rosie's co-op door unlocking with the same familiar creak it has had for years.
+
+[Background:"ch14_3be532_2"]
+[Sound: A kettle's first ring]
+
+Jonah Reyes arrives with a thermos and a grin that doesn't try to fix anything it can't. It only asks to be present.
+
+Jonah Reyes: "You look like someone who made a hard but honest breakfast decision."
+
+Elena "Lena" Maris: "Better than the alternative."
+
+Jonah lifts his brow and sits across from you, boots scuffing the concrete. His presence is unflashy—an anchored thing that steadies the equilibrium.
+
+Jonah Reyes: "People are talking. Not just the officials—the docks, the co-op, Asha's lab. You've already shifted something by leaving."
+
+Elena "Lena" Maris: "I didn't leave because I wanted applause. I left because my name shouldn't smooth over a broken promise. That's not protection; it's theater."
+
+Jonah Reyes: (soft) "I saw your resignation. You owned it in a way that will make it harder for them to pretend everything's settled. They'll have to put the work where the logos used to be."
+
+You both sit in the hum of the Watchhouse, and somewhere in that hum you catalogue the losses and the openings. Your hands find the edge of your sketchbook without thinking—maps of marsh plants, cross-sections of reinforcements, small, stubborn solutions that bloom from the soil.
+
+[Background:"ch14_3be532_3"]
+[Music: The motif rises into a hopeful chord]
+
+You and Jonah speak until the words knot and unknot. You plan: volunteer trainings, community meetings that exist to listen not to persuade, applications for small grants tied to local labor. The rhythm is granular, immediate—this won't be built in press conferences.
+
+Jonah Reyes: "We'll start with the east marsh patch. Asha said the sediment's still receptive. If we plant the willows now, they can hold through next winter if we shore them with coir and community muscle."
+
+Elena "Lena" Maris: "And the outreach? People need to know this isn't charity. It's stewardship—paid, credited, and guided by them."
+
+Jonah Reyes: "Rosie's already painting flyers. Marco has a list of fishermen willing to help carry the plants. You talk, I'll carry."
+
+You let yourself imagine a timeline built from hands, not handshakes. It feels possible.
+
+[INTERACTION]
+> Choice A: "Take a shovel and get muddy now"
+> Choice B: "Draft the day's outreach messages first"
+[Outcome A: "You swing the shovel, the mud gives with a wet, hollow sound. The cold clings to your wrists, and Jonah laughs, then follows, shoulder-deep in the work. The cement of your resolve hardens, but in a gentler way—formed by communal labor."]
+[Outcome B: "You sit back, pen poised. Your words organize people the way a tide organizes sand—slowly but inevitably. Jonah nods and starts listing volunteers to call. The plan spreads, wire by wire, voice by voice."]
+[MERGE: Continue]
+
+[Scene: Marsh / Living Shoreline Site | Morning]
+[Background:"ch14_3be532_4"]
+[Sound: The slap of boots, soft directions shouted, a laugh that carries across water]
+[Smell: Damp earth, sea brine, the faint, bitter-sweet scent of algae]
+[Music: A rising ensemble — strings and light percussion, forward-moving]
+
+You stand at the edge of the marsh with Jonah, mud clinging to the hems of your pants. It's louder here — not with argument but with the small, vital noise of people who know how to make things.
+
+Marco Maris approaches, hands stained and face lined with a weariness that comes from too many years of mending. He doesn't have much patience for speeches, but his eyes soften when they find yours.
+
+Marco Maris: "You left the big table." (He punches your shoulder lightly.) "You came back."
+
+Elena "Lena" Maris: "I came back because this is home, Marco. And because someone needs to show up without a corporate logo."
+
+Marco Maris: (gruff, then kinder) "Good. We need your head and your stubbornness. My boss's boat can ferry more plants if we want."
+
+You exchange a look—half relief, half recognition. The real work hums under your ribs.
+
+[Background:"ch14_3be532_5"]
+[Sound: Jonah's voice instructing, Asha counting samples, Rosie calling volunteers to lunch]
+[Touch: The mud packs against your palms; a willow cutting slides from your fingers like a small, green ember]
+
+Dr. Asha Khatri approaches with a clipboard and a smile that's all professional warmth and an undercurrent of exasperation.
+
+Dr. Asha Khatri: "They told me Valence couldn't be ignored. But they couldn't tell me whether the solution would be one that people built or one that bought a ticket out."
+
+Elena "Lena" Maris: "You think the marsh can take this?"
+
+Dr. Asha Khatri: "It wants to. But it needs us steady—consistent monitoring, paid labor, and time. Quick fixes are the real danger."
+
+You listen, ledgering risk against patient growth. The slow schedule matters because it keeps people in place, and keeps decision-making local. The compromise is work, not erasure.
+
+Jonah Reyes: (quiet, then playful) "If plants could sign petitions we'd be done."
+
+You both laugh, the sound bright and surprised. Laughter is an oddly expensive currency here; you spend it freely.
+
+[INTERACTION]
+> Choice A: "Teach a new volunteer the willow-cut techniques"
+> Choice B: "Walk the line with Asha and map the sediment"
+[Outcome A: "You curl your fingers around the cutting, showing them the angle to slice. Their hands mimic yours, clumsy then sure. You feel something stitch between you—knowledge passed as a kind of love."]
+[Outcome B: "You crouch and point at root patterns; Asha notes depths and grain. The science and the people’s work weave—one giving language to the other."]
+[MERGE: Continue]
+
+[Scene: Rosie's Co-op | Afternoon]
+[Background:"ch14_3be532_6"]
+[Sound: The clatter of plates, Rosie's humming, volunteers swapping stories between shifts]
+[Smell: Coffee, fish smoke, and fresh paint where Rosie has been touch-up-rolling a banner]
+[Music: Acoustic guitar lacing the warmth, an instrument that sounds hand-built and therefore precious]
+
+Rosie greets you like a lighthouse. She's already organized a feed schedule for volunteers and patterned a roster that includes paid stipends—her ledger folded into a tight, grassroots bureaucracy that runs on care.
+
+Rosa "Rosie" Alvarez: "You did the right thing." (She slides a plate of mashed-potato sandwiches in front of you.) "People trust you again. They listen."
+
+Elena "Lena" Maris: "They always listened; I wasn't always listening the way they deserved."
+
+Rosie Alvarez: "Nah. You were drowning in other people's plans. Now you can hear the town again. And if anyone gives you a hard time, you bring them to me. I'll paint their face into a mural showing how they'll look with humility."
+
+Rosie grins; the threat is ridiculous and tender.
+
+Marco drops a crate of seedlings and offers a wry, satisfied look. Jonah sits close enough to pass you a sandwich, fingers smudged with soil.
+
+Jonah Reyes: "How long do you want us on this roster?"
+
+Elena "Lena" Maris: "As long as it takes."
+
+Jonah Reyes: (soft) "Good. Because I was thinking—after the east patch, maybe we scope a training program. Paid positions that teach coastal work. Keep people here and give them skills to sell outside."
+
+Elena "Lena" Maris: "That would change things. It would make staying an opportunity, not a sacrifice."
+
+You let your hand find Jonah's across the table—callused, warm. No grand declarations, only a contact that says: I will do the hard work beside you.
+
+Jonah Reyes: "We can make a pamphlet tonight. Rosie can print. Marco can ferry. You can—" (He laughs and nudges you.) "—you can keep drawing those stubborn cross-sections of hope."
+
+Elena "Lena" Maris: "If you keep carrying, I'll keep drawing."
+
+Rosie watches you both and her smile is simple and approving—this town is a choreography of small promises.
+
+[INTERACTION]
+> Choice A: "Accept Rosie's offer to lead community trainings"
+> Choice B: "Refuse and say you'll coordinate logistics instead"
+[Outcome A: "You say yes into the warm hum of the co-op. The room claps because here, every yes is a collective step. People sign up; a schedule forms like tide lines on sand."]
+[Outcome B: "You ask to stay behind the scenes. Rosie protests, but she nods. You realize leadership wears many faces; stewardship can be quiet and equally binding."]
+[MERGE: Continue]
+
+[Scene: The Watchhouse | Evening]
+[Background:"ch14_3be532_7"]
+[Sound: Low conversation, the scratch of notes, the distant slap of water on the pier]
+[Music: Full motif swells — warm strings, a gentle brass hinting at resolve]
+
+Back at the Watchhouse, the day's work settles into a ledger: hours logged, volunteers paid, oyster bundles placed, sediment readings recorded. It is slower than a ribbon-cutting. It is, therefore, truer.
+
+Dr. Asha Khatri: "You made a move that will cost you influence in certain rooms. But inside the town? You have legitimacy that's worth more than temporary power."
+
+Elena "Lena" Maris: "I thought I needed that influence to protect people."
+
+Dr. Asha Khatri: "Sometimes influence without trust is a chequebook. You traded the chequebook for a ledger with names."
+
+You think of the faces at the marsh, the hands that lifted the seedlings. You think of Marco's rough gratitude, Rosie's steady organization, Jonah's stubborn, clever optimism. The tally isn't neat—whole houses still need mending, some promises will fail—but the pulse is steadier.
+
+Marco leans against the doorframe, watching you with the kind of rough pride only a sibling can give.
+
+Marco Maris: "You did good, Lena. Don't let them tell you otherwise."
+
+Elena "Lena" Maris: "I know what we lost. I know what will be hard. But I also know the names of the people who will show up."
+
+Jonah folds a piece of the day's map and slides it across the table to you. On the corner he has written, in his neat, impatient script: "Start small. Stay honest."
+
+Jonah Reyes: "Stay with me tonight? We can set up the monitoring rota over tea. Then we can go to the pier and watch the lights."
+
+Elena "Lena" Maris: "I would like that."
+
+He reaches for your hand, not asking permission for affection, but offering partnership in a world that now needs labor as much as it needs feeling.
+
+[Background:"ch14_3be532_8"]
+[Sound: The tide outside, slow and certain]
+
+You imagine the coming months: slow permit wrestlings, some funding wins and losses, a new training program that births small paychecks, a community board that holds developers to their word. The work is not a single victory but a sequence of stubborn mornings.
+
+Iris Valence's name still exists in the news feeds, in the tower's glass reflecting sunlight into the bay. She leaves a message that evening—its tone unreadable and composed. You listen to it once, then leave it be. Her offer and your refusal will ripple outward in ways you can't fully control. Her reaction is complex and unreadable; you let it remain so.
+
+Elena "Lena" Maris [thinking]: "There will be people who call this smallness a failure. They'll call patience a delay. I will call it repair."
+
+[Music: A final, rising chord — warm, steady, full]
+
+Outside, you and Jonah walk to the pier. The boardwalk smells of cedar and salt. Lights from the counterweights blink like tiny constellations. You stop where the boards are patched and uneven and look back at the town you've chosen to keep close.
+
+Jonah Reyes: "No promises I can make will erase the hard nights. But I promise to make mornings with you."
+
+Elena "Lena" Maris: "Then make mornings, Jonah."
+
+He squeezes your hand. The gesture is small, intimate, solid as the rope that ties a boat to a dock. Trust returns not as a proclamation but as a daily repetition.
+
+You set your sketchbook on your knee and draw a quick cross-section of the shoreline under the pier: willows, oysters, community patches, and the path the volunteer ferry takes each week. The page fills with annotations, names, and times. It looks messy and real—like hope should.
+
+[Background:"ch14_3be532_9"]
+[Music: The motif resolves into a soft, hopeful cadence; the sound of the tide is the final instrument]
+
+You don't close the chapter with triumph. You close it with work to be done, hands that will do it, and a companion whose elbow you can lean on. The road is longer but steadier, and suddenly the distance is something you want to walk together.
+
+[Background:"ch14_3be532_10"]
+[Music: Fade Out]
+
+[Background:"ch14_3be532_11"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

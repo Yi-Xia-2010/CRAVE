@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-03-10 21:52:14",
+  "total_chapters": 15,
+  "total_valid_routes": 6,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Route C — Alternative / Catastrophic Ending",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route B — Alternative Ending",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route A — Alternative Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Returning Tide",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Quiet Mobilization",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "A Public Choice (Logic Hub)",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Building Together",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Compromise or Conviction (Logic Hub)",
+      "branch": "Route A / Split",
+      "children_ids": [
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "The Storm That Knows Names",
+      "branch": "Route A — Ending",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "The Seawall Promise",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Contracts and Loyalties (Logic Hub)",
+      "branch": "Route B / Split",
+      "children_ids": [
+        14,
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Concrete and Silence",
+      "branch": "Route B — Ending",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Threads of Evidence",
+      "branch": "Route C / Additional",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Public Reckoning (Logic Hub)",
+      "branch": "Route C / Split",
+      "children_ids": [
+        12,
+        15
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "The Aftermath of Truth",
+      "branch": "Route C — Ending",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "The Cost of Exposure",
+      "branch": "Route A — Alternative Ending",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Investor Exodus",
+      "branch": "Route B — Alternative Ending",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "The Reckoning Storm",
+      "branch": "Route C — Alternative / Catastrophic Ending",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

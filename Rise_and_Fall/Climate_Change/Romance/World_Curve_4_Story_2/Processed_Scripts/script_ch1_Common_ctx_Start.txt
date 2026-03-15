@@ -1,0 +1,167 @@
+### SCRIPT
+# Route: Route D
+# Context: Start
+
+[Scene: Marsh of Tides | Pre-dawn]
+
+[Background:"ch1_Start_1"]
+[Music: Soft, hopeful ambient — low strings, distant gulls]
+[Sound: Slow lap of tide; boots squelching in mud; a tin kettle humming over a small stove]
+
+You are standing at the edge of the Marsh of Tides before the sun has fully agreed to the day. The world is a palette of muted greens and wet umber, and every breath tastes of cold salt and peat. Your jacket is still damp where the morning fog clung to your shoulders; your field journal, leather-soft with use, waits against your hip, a blade of marsh grass pressed between two pages like a private page marker.
+
+You crouch at the trench where last month you set plugs of cordgrass. Fingers in the mud, you slide one plant free and check the roots — pale, fibrous, alive. New shoots curl like hopeful fists.
+
+The volunteer crew rounds the bend on the boardwalk: boots caked in marsh, laughter muffled by wool hats. There is Jonah at the front, fishing cap tilted, dragging a spade like it's a reluctant fish. Asha talks a mile a minute behind him while an older woman — Mrs. Gallo — moves with a careful, steady patience that makes you think of tide gauges.
+
+Maya Reyes: "Morning," you call, voice low to keep from startling the wading birds.
+
+Jonah: "Morning back," he says, grinning. "You brought the tide with you, or is that just your usual dramatic entrance?"
+
+You let the joke land. You have been awake far longer than your bones think is reasonable, but the light in the marsh has a way of asking for more than complaints.
+
+You flip open your field journal. The pressed grass whispers between pages. Your handwriting — cramped from late nights cataloging seedlings — looks like a map of intentions. You mark the trench number, sketch the channel curve where silt is gathering, note the salinity sample you took yesterday. The details matter. They always do.
+
+[Background:"ch1_Start_2"]
+[Sound: Soft scribble of pen on rough paper]
+
+Elias Kwan [dry smile]: "You're early. Thought you might be plotting a moonlight ritual with the seedlings."
+
+Maya Reyes: "Plotting and pleading, which often look the same at 5 a.m." You trace a line on the map. "How's the net mending go?"
+
+Elias Kwan: "Fine. Old Mr. Keene taught Jonah a knot I can't name; so now we can mend and tell stories in turn." He shrugs. "The boat's ready if you need me later."
+
+You look at him — the plain steady set of his mouth, the way the light finds the laugh lines Hamilton's weather made map across his face — and you feel an easy, bracing warmth. It's the kind of warmth that doesn't burn bright and quick; it holds like heated stones.
+
+Jonah: "Hey! If you start making this a sentimental morning, I'm out. I'm here for mud, not metaphors."
+
+Jonah wedges a spade into the trench and flicks a clump of mud toward Mrs. Gallo, who cranes a mock-scowl and then laughs — the sound small and bright in the damp air. You step between them and the trench, hands on your hips, counting volunteers with the practiced economy of someone who does logistics in their sleep.
+
+Maya Reyes: "Okay, trench three's gonna get the staggered plugs. Asha, can you run the team at the southern channel? Elias, can you watch the flow near the inlet—if the silt slips after high tide we shift the schedule."
+
+Asha: "Got it. Volunteers Claire and Miguel are with me. I'll tell them the cadence."
+
+Miguel: "Can I keep the spade this time? I swear I won't lose it in a mud fight."
+
+You give him a look that says you hope he means it.
+
+[INTERACTION]
+> Choice A: "Jot a quick note about Miguel's spade — he'll remember that"
+> Choice B: "Smile and tell him to earn it — a joke task"
+[Outcome A: "You scribble a tiny icon by his name: a spade with a smiley, the kind of small bureaucracy that becomes legend. Miguel beams, convinced of his immortality."]
+[Outcome B: "You grin and tell him to earn the spade: ten plugs without dropping a root. He sulks theatrically, then digs in harder, already winning his own bet."]
+[MERGE: Continue]
+
+The morning rhythm sets in: spade into earth, murmurs like a small congregation, Asha calling out measurements, the occasional flurry when a wading bird shifts up the channel. You move between people and seedlings, balancing the needs of plants and histories — the two overlapping in ways you never meant but always expected.
+
+You remember your father — a laugh like a rope creak, hands that smelled of fish and gasoline and lemon when he came home. He taught you to read the mud lines and where the eelgrass held secrets. The day the storm took him, the sea sounded like the whole world being rewritten. You haven't forgiven the sea for taking him and you haven't forgiven yourself for thinking you could make up to it by fixing marshes.
+
+Thoughts like that are heavy, but here, beneath the clouded sun and the workboots, grief becomes practical. You translate it into planting schedules, into calls, into the small stubborn hope of green pushing up through dark.
+
+Mrs. Gallo [softly]: "Maya, these little ones look strong this year. You and your crew did something right."
+
+You crouch to her level, letting your palms hover above the soil as if touching the possibility might bruise it.
+
+Maya Reyes: "We did this together. You taught half the town how to carry a plug without killing it. I only remember the order of things."
+
+Mrs. Gallo [softly]: "You remember the shape. That's what matters." She reaches and presses a knuckle to your forearm, a warm, vintage anchor. "Your pa would've been proud."
+
+You feel a quick, sharp press behind your ribs — gratitude braided with old sorrow. For a moment you let yourself lean into it. Community is not just shared labor; it's the permission to harbor memory.
+
+[Background:"ch1_Start_3"]
+[Sound: A small bird chirp; the hush of concentrated care]
+
+A young volunteer has posted a rescued shorebird on a towel. Its wing is tucked oddly; it blinks like a proposition. You kneel with the others to make a soft cradle out of waterproof fabric. Jonah hums a nonsense tune to distract the bird. Elias Kwan lifts it, expert and gentle, and you can see training and compassion in the same motion.
+
+Elias Kwan: "Bring it to the skylight nook. We'll dry it, warm it, and see if it's just stunned."
+
+Maya Reyes: "I'll note it in the log. 'One juvenile plover, probable shock, warmed and released at 09:12 if recovery continues.'"
+
+Elias Kwan laughs, surprised by the exactitude. "You'd make poetry out of field notes."
+
+Maya Reyes: "Only if the rhythms rhyme. Now—" You tap the journal's corner where the pressed grass hides — "one thing and then another. The town keeps asking me for answers, and sometimes the answer is the next plug, not a promise on paper."
+
+Rosa [on phone]: "Maya — thanks for taking my call so early. The council meeting ran long, but—"
+
+Maya Reyes: "Rosa. Morning. What's the news?"
+
+Rosa [on phone]: "Mayor Durant stopped by before the coast-watch briefing. He's… there are people asking questions. I don't have details yet, but he mentioned an AquaWorks delegation coming to town to 'see the lay of the land' tomorrow. He sounded—hesitant."
+
+Your pen slows. AquaWorks is the research facility across the bay — sleek, bright, solutions that come wrapped in grant letters and corporate certainty. The phrase "see the lay of the land" feels like a knock at the town's back door.
+
+Maya Reyes: "Did he say why?"
+
+Rosa [on phone]: "He called it opportunity, Maya. For funding, infrastructure, jobs. He asked if we'd be open to a demonstration. Mayor Durant sounded worried he'd made a promise he can't easily take back."
+
+You close your eyes for a breath. Opportunity, funding, jobs: words that shine until you remember what they often require — concrete, barriers, the kind of scale that erases lichen scores on old stones and the memory of fishers who read the bay by smell.
+
+Maya Reyes: "Thank you. Keep me posted. If they're coming, I'll be there. We need to show the marsh for what it is — not as a problem to swallow but as a system that can heal."
+
+Rosa [on phone]: (sighing) "I know, Maya. You're the one they listen to. I can feel the room's pressure to accept something that looks like a quick fix. Try not to let them rush you."
+
+You tuck the phone back into your pocket and let the marsh's damp air fill your lungs. The day folds back into work: diagrams, measurements, a patch of cordgrass that needs an extra hand.
+
+[INTERACTION]
+> Choice A: "Offer Elias a coffee from the thermos — a small gratitude"
+> Choice B: "Keep the thermos for the crew — practical priority"
+[Outcome A: "You pass him the thermos. He accepts with a grateful look and a half-smile that loosens his shoulders. For a moment, the world narrows to the small heat between your palms."]
+[Outcome B: "You nod toward the kettle and tell everyone to take turns. Elias grins and queues himself patiently, pleased the team comes first. It reads like trust: he'll wait with the rest of the crew."]
+[MERGE: Continue]
+
+You spend mid-morning moving between social repair and ecological repair. You pull an older volunteer aside when she falters with a plug and remind her of the little technique that keeps roots intact. You negotiate with two neighbors over whether to stagger or row-plant this next stretch. You trade a joke with Jonah and then redirect him when the tide suggests an altered schedule.
+
+Conversations lilt and return. Elias Kwan lingers by a channel, watching the water find its own course through the reeds. You join him. The two of you fall into a common language of work: silence, then observation, then plan.
+
+Elias Kwan: "You think the new shoots will hold the next swell?"
+
+Maya Reyes: "If we give them time and space, yes. If we lose them to a rush of silt or a heavy foot, no. It's not instant. It's patient."
+
+Elias Kwan: "Patience. I grew up with a lot of that. Didn't mean I always liked it." He looks at you. "I like how you make other people patient, by not letting things slide."
+
+Maya Reyes: "Someone has to keep the standards up. Someone has to keep people honest about what will really work."
+
+Elias Kwan [cautious]: "And someone's got to keep you from burning out trying to save every blade of grass in one week."
+
+You give him a look that's half challenge, half invitation.
+
+Maya Reyes: "I don't plan to burn out. I plan to build."
+
+Elias Kwan: "Good. I like my marshes built, and my friends too."
+
+You can feel the small triumph of the morning gathering in your chest: seedlings planted, a bird stabilized, laughter shared around a kettle. It's not a victory that appears on a grant report, but it's the kind that counts in muffled afternoons and in who comes back next week.
+
+[Background:"ch1_Start_4"]
+[Music: Swells slightly into a warmer, hopeful chord]
+
+You press another blade of grass between the pages of your journal. The plant's damp fragrance — green and faintly of salt — tucks into the leather and becomes a promise you can hold. You make a final note about trench three and the volunteer roster, then look up to see Mayor Durant's pickup coming down the lane, its slow approach familiar and always a little formal.
+
+Your phone buzzes again. Rosa.
+
+Rosa [on phone]: "Maya — I wanted to tell you in person but felt you should know immediately. Mayor Durant met with some representatives from AquaWorks at the promenade. They're visiting tomorrow for a tour and a presentation. He's asked the council to host them. People are hopeful, but—"
+
+Maya Reyes: "—they need to see the marsh on our terms."
+
+Rosa [on phone]: "Exactly. Be ready. They want to talk about 'solutions' and funding. You're the marsh's voice."
+
+You close your journal, mud-dusted fingers curling around the pressed grass like an amulet. The bird chirps softly in the recovery crate nearby; Jonah tinkers with a net, humming a lullaby that used to belong to your father.
+
+You look across channel and see the small, stubborn green of the plugs you planted. For now, the day is a success: new life, steady hands, neighbors who show up. Hope sits in the air like a temperature. It is fragile, yes, but it is honest.
+
+You tuck the journal into your bag, secure the camera at your hip, and stand with the volunteers in a loose circle. You let the moment be what it is — a modest, intimate triumph, stitched from soil and sweat and shared memory.
+
+[Background:"ch1_Start_5"]
+[Music: Gentle, rising motif that promises continuation]
+
+You breathe deep. The marsh will demand more tomorrow — and so will the town. But for this morning, the work you do is a covenant: hands in mud, eyes on the long arc.
+
+It will be enough to show them, tomorrow, that Lumen Bay remembers how to mend itself.
+
+[Background:"ch1_Start_6"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

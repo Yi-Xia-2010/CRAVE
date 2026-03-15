@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-03-11 10:01:34",
+  "total_chapters": 15,
+  "total_valid_routes": 9,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 12,
+      "branch_name": "Route C (Ending C1)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Additional Route (Shared Ending C3 / A3)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Additional Route (Shared Ending C2 / A2)",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 15,
+      "branch_name": "Additional Route (Ending B2 / Institutional Happy)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C (Ending C1)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B (Ending B1)",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A (Ending A1)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Additional Route (Shared Ending C2 / A2)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Additional Route (Shared Ending C3 / A3)",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Chapter 1: Returning Tide",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Chapter 2: Small Repairs, Bigger Rifts",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Chapter 3: Meeting at Municipal Hall — The Choice",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Chapter 4: I Choose the Docks",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Chapter 5: The Storm Warning / Moral Bottom",
+      "branch": "Route A / Split",
+      "children_ids": [
+        14,
+        13,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Chapter 6: After the Surge — Seeds of Recovery",
+      "branch": "Route A (Ending A1)",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Chapter 7: I Sit Across from Dr. Voss",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Chapter 8: The Petition and the Protest — Bottoming Out",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9,
+        12,
+        15
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "Chapter 9: Agreement and Repair — Rising",
+      "branch": "Route B (Ending B1)",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Chapter 10: I Advocate for Relocation",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Chapter 11: The Evacuation Order — Nadir",
+      "branch": "Route C / Split",
+      "children_ids": [
+        13,
+        14,
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "Chapter 12: Public Reckoning / New Structures",
+      "branch": "Route C (Ending C1)",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Chapter 13: Community-Led Healing",
+      "branch": "Additional Route (Shared Ending C2 / A2)",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Chapter 14: Leaving to Rebuild Elsewhere",
+      "branch": "Additional Route (Shared Ending C3 / A3)",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Chapter 15: Forced Compromise — Institutionalized Resilience",
+      "branch": "Additional Route (Ending B2 / Institutional Happy)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 17,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

@@ -1,0 +1,497 @@
+{
+    "title": "Tide Markers",
+    "summary": "Maya Ortega returns to her floodplain neighborhood after training in environmental engineering and leads a resilience collective experimenting with living shorelines and marsh restoration. The city faces a high-stakes choice between Ari Nakamura’s engineered seawall (fast but displacing) and a slower, community-led nature-based approach championed by Luca Chen. A pilot failure and political pressure collapse trust and force Maya into a crisis where she must choose between pragmatic compromise, principled refusal, or tactical risk. Branching decisions explore Romance vs Duty across community partnership, technocratic alliance, or solitary moral action, following a Man-in-a-Hole arc from fall into crisis to various forms of recovery or loss.",
+    "emotional_curve_type": "Man in a Hole",
+    "player_character": "Maya Ortega",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Returning Tides",
+            "branch_designation": "Common",
+            "narrative_focus": "I arrive home at the Tideside with my waterproof notebook under my arm. I see the patchwork repairs my collective left last year and run into Luca and Nora at the Old Docks Hub. We discuss a municipal grant and Ari’s flagship seawall proposal; Councilwoman Reyes will hear our pitch next week. I feel the weight of the last failed pilot and vow to avoid repeating those mistakes. The choice is framed: community stewardship versus large-scale engineering as a storm-glow gathers.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Neutral",
+            "Arousal": "Low",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Maya Ortega",
+                "Nora",
+                "Luca Chen",
+                "Ari Nakamura",
+                "Councilwoman Reyes",
+                "Samir"
+            ],
+            "locations_used": [
+                "Seawall Promenade",
+                "Old Docks",
+                "Old Docks Hub",
+                "Tideside"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Boardwalk Hearings",
+            "branch_designation": "Common",
+            "narrative_focus": "At the Old Docks Community Hub I brief Nora and Luca and prepare marsh restoration metrics as Councilwoman Reyes and Ari’s firm present their proposals. The hub fills with neighborhood voices; Ari’s glossy seawall promises scale while I present sediment retention and fish nursery indices. Tension rises when relocation is mentioned and I realize trust is fragile as we await the council hearing.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Maya Ortega",
+                "Nora",
+                "Luca Chen",
+                "Ari Nakamura",
+                "Councilwoman Reyes",
+                "Samir"
+            ],
+            "locations_used": [
+                "Old Docks Community Hub",
+                "Old Docks",
+                "Municipal Green Atrium"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Stormlight Decision",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "The public hearing becomes a storm in miniature as Ari presents the seawall schematic and Luca argues for stewardship. Councilwoman Reyes presses for stability while neighborhood stories and my past pilot failure weigh on me. I must publicly stake a position: align with Luca’s grassroots approach, negotiate a partnership with Ari, or expose developer influence. The choice will determine the path forward.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you answer the Council’s question in public?",
+                "options": [
+                    {
+                        "label": "I will stand with the neighborhood and push for living shorelines.",
+                        "consequence": "Commit fully to community-led strategy with Luca; heightened local organizing and risk of funding loss.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "We will open a partnership to pilot Ari’s hybrid engineering under strict local oversight.",
+                        "consequence": "Enter a negotiated partnership with Ari and Council; potential compromise and political scrutiny.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "I have evidence of developer influence and will expose it.",
+                        "consequence": "Take a risky, confrontational stance that could force transparency or invite retaliation.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Luca Chen",
+                "Ari Nakamura",
+                "Councilwoman Reyes",
+                "Samir",
+                "Nora"
+            ],
+            "locations_used": [
+                "Glass Council Chambers",
+                "Old Docks",
+                "Tideside"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Tidecraft",
+            "branch_designation": "Route A — Community",
+            "narrative_focus": "I double down on the grassroots plan with Luca, mapping living shorelines, scheduling volunteer marsh plantings, and crowdsourcing micro-funding. Work is intense and intimate; some neighbors hesitate. Ari’s seawall glimmers in the news while Councilwoman Reyes asks for contingency plans. Nights are marsh surveys and repairs; closeness with Luca grows as faith in small rituals is rekindled.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Maya Ortega",
+                "Luca Chen",
+                "Nora",
+                "Samir"
+            ],
+            "locations_used": [
+                "Old Docks Community Hub",
+                "Salt Marsh Reserve",
+                "Old Docks",
+                "Tideside"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Frayed Anchors",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "A storm punctures an experimental stretch of restored marsh, undermining a family’s front stoop and mirroring past pilot failures. News vans arrive; Ari’s team issues a cold brief and Councilwoman Reyes asks questions. Trust frays as neighbors blame the pilot. Faced with guilt and pressure, I must choose to rebuild transparently, negotiate with Ari, or expose corporate pressure—each with heavy consequences.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do you respond to the pilot’s failure?",
+                "options": [
+                    {
+                        "label": "We rebuild transparently with community control.",
+                        "consequence": "Rally neighbors, prioritize local stewardship and crowdsourced funds; increased strain but potential collective triumph.",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Negotiate a formal partnership with Ari and the Council.",
+                        "consequence": "Secure faster funding with oversight conditions but accept political compromise.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Expose the developers’ hidden influence to force oversight.",
+                        "consequence": "Risk retaliation and possible legal entanglement; high chance of polarizing the neighborhood.",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Luca Chen",
+                "Nora",
+                "Samir",
+                "Ari Nakamura",
+                "Councilwoman Reyes"
+            ],
+            "locations_used": [
+                "Salt Marsh Reserve",
+                "Old Docks",
+                "Tideside"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Living Shoreline",
+            "branch_designation": "Route A (Happy Ending)",
+            "narrative_focus": "We rebuild together with community donations, volunteers, and an emergency municipal match. Living shorelines and modest people-run bulkheads minimize relocations. Days are filled with handiwork and shared rituals; trust grows back and steady sediment improvements appear. Luca gives me his tide-marker pendant, symbolizing relationships as the real anchors of recovery.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Luca Chen",
+                "Nora",
+                "Samir"
+            ],
+            "locations_used": [
+                "Salt Marsh Reserve",
+                "Old Docks Hub",
+                "Old Docks",
+                "Tideside"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Civic Offerings",
+            "branch_designation": "Route B — Partnership",
+            "narrative_focus": "I negotiate a co-designed pilot with Ari’s firm in the Municipal Green Atrium: conditional oversight, transparency clauses, and designated local advisory seats. Luca sees corporate encroachment and reacts badly. I weigh measurable protection and faster timelines against cultural costs, standing between engineered promises and intimate stewardship.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Maya Ortega",
+                "Ari Nakamura",
+                "Luca Chen",
+                "Nora",
+                "Councilwoman Reyes"
+            ],
+            "locations_used": [
+                "Municipal Green Atrium",
+                "Glass Council Chambers",
+                "Old Docks"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Schematics & Secrets",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "Negotiations accelerate as Ari proposes a seawall segment and retrofits. I parse contracts late with Nora while Luca organizes rallies. A tech contact hints at subcontractor clauses that could permit displacement. I must choose whether to endorse Ari’s pilot publicly, clandestinely insert a strong community amendment, or refuse and mobilize direct action.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How should you shape the pilot?",
+                "options": [
+                    {
+                        "label": "Endorse Ari's pilot publicly for immediate protection.",
+                        "consequence": "Faster funding and visible infrastructure; risk of displacement and cultural loss.",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Sneak a strong community amendment into the contract.",
+                        "consequence": "Gain legal protections but risk political blowback and complex negotiations.",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Refuse the pilot and mobilize the community in direct action.",
+                        "consequence": "Delay protection, heighten conflict, risk punitive responses but preserve local control.",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Ari Nakamura",
+                "Luca Chen",
+                "Nora"
+            ],
+            "locations_used": [
+                "Municipal Green Atrium",
+                "Glass Council Chambers",
+                "Tideside"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Glass Walls",
+            "branch_designation": "Route B (Bittersweet Ending)",
+            "narrative_focus": "We sign the pilot and Ari’s shiny seawall segment is constructed, lowering insurance rates and stabilizing many homes. Some households are rezoned and accept relocation; rituals and livelihoods thin. I gain professional visibility and a fraught partnership with Ari, but feel private grief for what was traded for measurable protection.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Ari Nakamura",
+                "Luca Chen",
+                "Councilwoman Reyes"
+            ],
+            "locations_used": [
+                "Glass Council Chambers",
+                "Tideside",
+                "Seawall Promenade"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Exposed Lines",
+            "branch_designation": "Route C — Confrontation",
+            "narrative_focus": "I gather evidence of developer ties in internal memos and subcontract clauses, consuming late nights in public records and forums. Nora helps in municipal files while Samir offers counsel. The decision is whether to leak the findings publicly to force transparency or use the evidence quietly in negotiation—both risky and consequential moves.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Maya Ortega",
+                "Nora",
+                "Samir",
+                "Ari Nakamura",
+                "Luca Chen"
+            ],
+            "locations_used": [
+                "Old Docks",
+                "Old Docks Community Hub",
+                "Municipal Green Atrium"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Leak or Ledger",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "Holding the incriminating documents, I face choices: leak to a reporter, insert protections through negotiation, or step back to focus on local rituals. Nora urges caution, Samir warns of truth without plan, Ari offers a conciliatory call, and Luca demands action. Each path has moral and romantic implications and will pivot my personal and political standing.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "What do you do with the evidence?",
+                "options": [
+                    {
+                        "label": "Leak everything to the press.",
+                        "consequence": "Public scandal forces oversight but could polarize neighborhood and invite retaliation.",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Insert strict community protections through legal negotiation.",
+                        "consequence": "Secure enforceable stewardship clauses but risk Ari’s ire and political backroom fights.",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Step back from municipal fights and focus on local rituals and repair.",
+                        "consequence": "Preserve local autonomy and cultural life but lose formal influence over large-scale safety.",
+                        "target_chapter_index": 6
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Nora",
+                "Samir",
+                "Ari Nakamura",
+                "Luca Chen"
+            ],
+            "locations_used": [
+                "Municipal Green Atrium",
+                "Old Docks",
+                "Old Docks Community Hub"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Standalone Truth",
+            "branch_designation": "Route C (True Ending)",
+            "narrative_focus": "The leak triggers headlines, hearings, and emergency reforms. Ari’s firm defends itself while oversight and legal protections are demanded. I lose some career opportunities but the neighborhood keeps rituals and autonomy. The work becomes slower and underfunded but deeply mine; I accept professional diminishment in exchange for preserving what matters to the community.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryPositive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Nora",
+                "Samir",
+                "Ari Nakamura"
+            ],
+            "locations_used": [
+                "Salt Marsh Reserve",
+                "Old Docks",
+                "Municipal Green Atrium"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Negotiated Shore",
+            "branch_designation": "Additional (Bittersweet Ending)",
+            "narrative_focus": "We craft a hybrid agreement: an engineered segment with enforced community land covenants and funded marsh stewardship. The seawall rises with codified community oversight. Some neighborhoods benefit while others relocate. I gain visibility and compromise on intimacy and rituals; the outcome is pragmatic safety with cultural costs.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Positive",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option B OR From Chapter 11, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Ari Nakamura",
+                "Luca Chen",
+                "Councilwoman Reyes",
+                "Nora",
+                "Samir"
+            ],
+            "locations_used": [
+                "Glass Council Chambers",
+                "Seawall Promenade",
+                "Salt Marsh Reserve"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Tidal Reckoning",
+            "branch_designation": "Additional (Sad Ending)",
+            "narrative_focus": "The exposure backfires: legal battles, developer retaliation, and a severe storm destroy what remained of the pilot while courts stall. Families lose homes and the city advances defenses elsewhere. I am accused of causing displacement; relationships fray, and the neighborhood survives fragmented. I live with heavy guilt over what my choices cost.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 5, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Luca Chen",
+                "Nora",
+                "Samir",
+                "Ari Nakamura"
+            ],
+            "locations_used": [
+                "Tideside",
+                "Salt Marsh Reserve",
+                "Old Docks"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Final High Water",
+            "branch_designation": "Additional (Sad Ending / Epilogue)",
+            "narrative_focus": "After refusal and direct action, punitive measures and rapid development displace several blocks as the city expedites engineered defenses. The Tideside is transformed, erasing memory spaces. Luca and I fracture under loss and principle; neighbors disperse and I am left alone to reckon with responsibility and quiet private ruins as the city endures in a different shape.",
+            "emotional_trajectory": "Rise",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option C OR From Chapter 7, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Maya Ortega",
+                "Luca Chen",
+                "Nora",
+                "Samir"
+            ],
+            "locations_used": [
+                "Tideside",
+                "Salt Marsh Reserve",
+                "Seawall Promenade"
+            ]
+        }
+    ],
+    "remarks": "Branching decision nodes occur at Chapters 3, 5, 8, and 11. Endings are in Chapters 6, 9, 12, 13, 14, and 15. The narrative follows a Man-in-a-Hole emotional curve (Fall → Rise) and centers on choices between community stewardship and engineered solutions with intertwined romantic consequences.",
+    "_meta_source_world": "world_setting_Curve_3_Story_1.json",
+    "_meta_arc_strategy": "Man in a Hole (Fall-Rise)"
+}

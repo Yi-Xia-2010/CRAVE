@@ -1,0 +1,197 @@
+### SCRIPT
+# Route: 
+# Context: 601bcb
+
+[Scene: Town Hall | Late Evening]
+[Visual: Rows of mismatched chairs, a damp sheen on the polished floor; tide maps pinned crooked on a corkboard. The dais sits under a halo of yellow light.]
+[Music: Low, hollow strings; a single sustained cello note underpins the room.]
+
+You stand where you always stand—half in shadow from the dais, half in the glare that finds everything unforgiving. The council chamber smells of old paper, spilled coffee, and the cold metal tang of rainwater tracked in on boots. People press themselves into the seats like birds huddled against a wind they can’t name; their hands clasp flyers, thermoses, the edges of one another.
+
+Your notebook is in your palm. The pencil inside it is blunt with use, a small stub that has recorded interviews, tide samples, and the slow arithmetic of compromise. Your fingers remember the pendant at your throat without looking; the coral’s ridges are smooth under skin. You try to name what you feel and find only a dozen different small griefs: the sag of a friend’s smile, the memory of eelgrass shimmering under light, the image of the headland scraped flat for pilings.
+
+Mayor Rosa stands at the podium. Her voice, which always sounds like the town’s worn hinge, cuts through the murmurs.
+
+Mayor Rosa: "We will open this hearing. Results are in: the referendum counts are complete. I ask for quiet to read the certified outcome."
+
+Silence falls like a soft cloth. You breathe and notice the taste of salt and copper on the back of your tongue—nerves and the harbor air mixing inside you.
+
+Your mind runs the calculus again: the covenants you pushed for—harder protections around core marshes, public oversight, enforced mitigation, a binding public review—were designed to keep the marsh alive. You imagined they would be enough. You imagined you could thread the town’s need for work through solutions that let mud and life persist.
+
+You imagined more things than experience allows.
+
+[Visual: Close-up on Mara’s hand tightening around the notebook; the leather creases white at the knuckles.]
+[Sound: A distant gull; a chair leg scraping.]
+
+Mayor Rosa: (clearing her throat) "By a narrow margin—thirteen votes—this community has voted to require the developer to accept the stricter covenants before further site work may proceed."
+
+A fragment of noise rises, then settles. You feel the room tilt—not triumphantly, not exactly. The air is charged with relief and a quick, brittle apprehension.
+
+Behind you, someone exhales so sharply it sounds like a door slammed. You sense Eli before you see him: a low warmth at the edge of the crowd, his presence a solid, human thing in a room full of abstract stakes.
+
+Elias "Eli" Calder: (soft, to you) "You did it."
+
+Mara Voss: "We did what we could. It's in law now."
+
+Elias "Eli" Calder: "Law doesn't warm empty nets."
+
+His words land with a small, heavy thud. You know the truth—money has a way of bending law, and time will tell if the covenants have teeth. But for a small moment, you allow yourself the fragile taste of relief.
+
+[INTERACTION]
+> Choice A: "Step forward and speak to the assembled crowd"
+> Choice B: "Hold Eli’s hand instead"
+[Outcome A: "You stand, voice steady at first, then quieter, and you thank people for trusting the process. You ask for vigilance, for neighbors to keep an eye on the pegs and the paperwork. The room answers with applause and a few wet, honest shouts."]
+[Outcome B: "You reach for Eli; your fingers find the calluses of his palm. He squeezes back, a private promise. Around you, voices rise; your shared silence says more than the council ever could."]
+[MERGE: ...]
+
+Mayor Rosa: "This council will issue immediate injunctions to delay non-essential work until compliance is verified. We will establish a citizen oversight panel."
+
+Cassandra "Cass" Rey moves like a current that has always run slightly apart from the shore—poised, efficient, a slate of documents tucked under her arm. Her eyes, clear and careful, find you across the room. She smiles with a practiced tilt.
+
+Cassandra "Cass" Rey: "Mara, I respect the outcome. I sincerely meant to bring jobs to Harbor's Reach. These covenants are challenging but workable. There’s a path forward if we accept some schedule adjustments."
+
+Your first instinct is to measure the sincerity in that smile. You remember meetings where she placed renderings on the table and spoke about resilient seawalls like a hymn. You remember the quiet way she set her briefcase down: always practical, always closing the distance between problem and report.
+
+Mara Voss: "Workable depends on enforcement and timelines. The marsh can't wait for slow bureaucracy if the pilings go in now."
+
+Cassandra "Cass" Rey: "And people can’t wait for studies when coffers are empty. I’m not blind to that, Mara. This isn't about who’s right—it's about what actually keeps people fed and safe over the long term."
+
+Elias "Eli" Calder: (interrupting, voice rough) "There is no long term without a short one. My uncle’s shop can’t wait for 'maybe compliance'. It’s wood and rope and mouths to feed."
+
+Cassandra "Cass" Rey: (firm) "We will accelerate mitigation efforts. We'll set milestones tied to funding releases. If Mara's panel monitors and signs off, work can resume in phases."
+
+You want to trust that arrangement. You also hear the slow, practical engine of compromise turning, and beneath it, the sharper teeth of risk.
+
+[Visual: The room hums; an overhead fan pushes stale air along the rafters.]
+[Sound: Muffled cheer from the back; a child crying in a coat beyond the doorway.]
+
+Old Tomas Calder leans forward, his voice a grainy rope of memory.
+
+Old Tomas Calder: "We’ve been here before. Promises like that—they come in suits and tidy graphs. The sea remembers a different language."
+
+Cassandra "Cass" Rey: "And the sea will meet engineered defenses. It's not an either-or."
+
+You listen to them circle each other—memory, policy, livelihood—each offering an incomplete map of the same place. Your chest aches with the knowledge that both are right and both will suffer if forced to be wrong for the other.
+
+[INTERACTION]
+> Choice A: "Push for a temporary work stoppage until independent auditors can certify mitigation"
+> Choice B: "Accept phased work with citizen oversight but demand emergency hiring guarantees"
+> Choice C: "Stay silent and let the council decide"
+[Outcome A: "You suggest a pause; mouths in the room clamp into lines. Cass nods, but her jaw tightens. Eli's hand tightens on your arm; he whispers about lost shifts and thin paychecks."]
+[Outcome B: "You propose oversight plus immediate job allocations for local crews under the pilot's control. Cass raises an eyebrow and asks for legal language; the room leans in, hungry for tangible scaffolding."]
+[Outcome C: "You say nothing and feel the weight of restraint settle on your shoulders. Decisions are made without your voice; the room fills the silence with plans and compromises and your throat tightens at the cost of your quiet."]
+[MERGE: ...]
+
+Cassandra "Cass" Rey’s face tightens when you talk about enforcement; for a beat there is something in her eyes that is not negotiation but calculation.
+
+Cassandra "Cass" Rey: "All of us care about this place. We disagree on tools. We can—and should—craft legally binding oversight, but to stagnate while people suffer is morally complicated."
+
+You think of Nia—her bright raincoat, the way she stomped through puddles as a child—and how the future you are designing will look to her. You think of the fishermen on the wharf, their nets drying in a wind that has become more anxious every year.
+
+[Scene: Willowmarsh | Dawn, next morning]
+[Visual: Mist on the mudflats; reeds glint with dew. The horizon is a low bruise of cloud.]
+[Music: Sparse piano, a descending motif; wind whispers through reeds.]
+
+You are at the marsh before the sun lifts itself properly. The air is thinner here, more honest: the smell of mud, of decaying seaweed, of new shoots pushing up in spite of schedules. You kneel at the waterline and let your fingers find the familiar resistance of silt.
+
+Elias "Eli" Calder approaches from the boardwalk, boots leaving dark prints. He sits beside you without speaking. The distance between thought and language is thin here; the marsh asks for simpler terms.
+
+Elias "Eli" Calder: "We did what we thought was right."
+
+Mara Voss: "We did what we had. This vote—these covenants—they're only as strong as the people who enforce them."
+
+Elias "Eli" Calder: "And as strong as the money that follows."
+
+He looks at the distant headland where survey flags ripple like pale teeth. For a moment, you both watch a buoy bob in the grey light, an island of human claim in salt and motion.
+
+Elias "Eli" Calder: (quiet) "My aunt's crew—they had nothing this morning. Shops were quiet. I tried to find them work hauling materials for the—" (he swallows the word) "—for the site. No one's hiring without the developer's funds."
+
+Mara Voss: "The covenants buy time. They buy leverage to insist on local hiring into restoration work. We can push for that with Mayor Rosa."
+
+Elias "Eli" Calder: "Leverage is paper. Paper doesn't replace a paycheck."
+
+You feel the familiar tug: your boots in the mud, your hands in paperwork, your heart in the space between them. You want to argue the science—rates of erosion, salt intrusion thresholds—but right now what he needs is immediate bread. What the community needs is both: immediate work and long-term survival. The two pull like opposing tides.
+
+Mara Voss: "I know. I'm trying to thread both."
+
+Elias "Eli" Calder: (near a laugh, bitter and small) "Threading both nearly ran you across a table with me. I still don't know if that's good for us."
+
+You look at him. The line of his jaw is softer in this light. For all your insistence on scales and graphs, you taste the human cost in the back of your mouth.
+
+[INTERACTION]
+> Choice A: "Tell Eli you will push for emergency labor allocation in the next council session"
+> Choice B: "Ask Eli to help by organizing local crews for restoration work under the town's direction"
+[Outcome A: "You promise to bring the emergency hiring request to the council. He nods slowly, relief and suspicion warring across his face."]
+[Outcome B: "You suggest he organize local crews. He considers the risk and the honor of it, then agrees cautiously—pride and necessity braided together."]
+[MERGE: ...]
+
+He takes a breath, then reaches out and brushes a smear of mud from your sleeve—gentle, deliberate. There is blame and forgiveness in the same gesture.
+
+Elias "Eli" Calder: "We'll get through it. Not painless. Not clean. But we'll do the work."
+
+You want to believe him with your whole body. The marsh's slow persistence offers you that prayer.
+
+[Scene: The Glasshouse | Afternoon]
+[Visual: Sunlight shards through salt-frozen glass, dust motes moving like sediment in a current. Inside, a small table with two chipped mugs.]
+[Music: Low, reflective strings; a minor key resolves into a single hopeful interval, then falls again.]
+
+Cassandra "Cass" Rey meets you inside the Glasshouse. The space smells of damp leaves and old soil—a memory house. There is an odd intimacy here; corporate edges seem to soften in the mossy light.
+
+Cassandra "Cass" Rey: "You advocated for public referendum. You asked for stricter covenants. You won them."
+
+Mara Voss: "I fought for the marsh. I fought for people's jobs, too. If those things come apart, I did neither."
+
+Cassandra "Cass" Rey: (leaning forward) "Mara, I didn't come here to argue. I came because the developer is reconsidering the timeline given the injunctions. They're asking for concessions elsewhere—more beachfront retail, less boardwalk integration. It's a bargaining posture. But they are also re-evaluating investment."
+
+You feel the room tip. This is the pragmatic pulse you have watched for weeks: funding that moves like a living thing, sensitive to constraint.
+
+Mara Voss: "They're threatening to withdraw entirely."
+
+Cassandra "Cass" Rey: "It's leverage. And it's real. People who need work will hear that as a disaster."
+
+Mara Voss: "So what happens—if they pull, then what? The town loses jobs either way, but at least the marsh is still there if we keep it."
+
+Cassandra "Cass" Rey: "We don't know that. A pulled developer could take the site and its future tax support out from under the town. The docks won't fix themselves. I can use my connections to seek alternate funding—but with conditions. It's messy."
+
+You look at her—at the shape of someone who makes hard choices by measuring outcomes—and you understand, with bone-deep clarity, how both of you are carved from the same weather.
+
+Mara Voss: "We stitched safety into law for a reason. The marsh is not negotiable in principle. But I can't pretend the people waiting on paychecks are imaginary."
+
+Cassandra "Cass" Rey: (pause) "Neither can I."
+
+There is no triumph in either of your faces. Only the work: a long ledger of trade-offs that never balance cleanly.
+
+[Visual: A pale gust of wind rattles a broken pane; a vine slips through.]
+[Sound: The faint distant rumble of machinery at the headland—sparse, tentative.]
+
+[Scene: Harbor's Reach — Dusk]
+[Visual: The boardwalk is quiet; a few wrapped in coats watch the horizon. Yellow lights blink from windows; some storefronts remain shuttered.]
+[Music: Slow, single-voice cello; the chord declines like a tide.]
+
+You walk the length of the wharf alone. The town is quieter than you had hoped it would be the evening after the vote. There are fewer cars; the harbor smells of diesel and damp rope. You stop at the edge and look out where the pilings bookend the horizon.
+
+You think of Nia's laugh, of Old Tomas’s stories, of Eli's hands. You think of the covenants inked like promises into the town's records. You think of the possibility that protection would come with austerity, that the moral victory could become a pyrrhic one.
+
+You touch your pendant and let the coral press into your palm. The tide pulls something small and honest from the mud and returns it, changed and more fragile.
+
+A child runs past, chased by a dog, their shouts a bright, aching thing in the dusk. For a moment, the town is not just a ledger; it is a chorale of small lives that will inherit what you decide.
+
+You breathe the harbor air deep—the brine and the cold—and make a choice you have already made a thousand times: to stay and to work. To argue, to file, to watch, to wrench the slow-machine of law toward justice. To bear the inevitable compromises and keep the marsh at the center of the story you will tell.
+
+You don't know if the town will prosper this winter. You don't know if Eli's uncle will keep the shop open. You don't know what Cass will do with the developer's next offer. You do know, with an almost painful clarity, that this is no longer a test of ideals but of endurance.
+
+You fold your notebook closed. The sound is small. The harbor answers with a long, low sigh.
+
+[Visual: Fade to Black]
+[Music: String sustains and slowly fades]
+
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

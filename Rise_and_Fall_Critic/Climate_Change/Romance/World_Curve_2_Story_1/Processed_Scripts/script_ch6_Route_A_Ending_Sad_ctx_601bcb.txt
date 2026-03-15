@@ -1,0 +1,213 @@
+### SCRIPT
+# Route: Route A (Ending: Sad)
+# Context: 601bcb
+
+[Scene: Tideworks Lab | Pre-Dawn — Storm Approaching]
+[Background:"ch6_601bcb_1"]
+[Sound: Distant thunder, the slap of waves against piled concrete, the metallic creak of mooring lines.]
+[Music: Low, dirge-like cello with a slow, insistent rhythm]
+
+You taste metal and cold in the air — not quite rain yet, more like the ocean rehearsing its roar. Your jacket is still damp where you pressed it to your face, the compass pendant cool where it rests against your sternum. Rosa's note — "We remember the shore. Honor it." — is a bruise of paper in your pocket. The lab hums: generators, the faint green pulse of Elias Navin's sensors, the soft whirr of pumps Theo has tinkered into life.
+
+You know what the night could demand. You've felt the tide tightening like a fist around the harbor since you first agreed to let the modules go out. The memory of the harbor's old calm has been replaced by a ledger of moments where things went right and where they didn't. Tonight the ledger is open.
+
+Elias Navin stands by the doorway, rain tracing new lines down his parka. He looks older in the half-light. His hands are steady; his voice is a low anchor when he speaks.
+
+Elias Navin: "Sensors are reading above forecast. Anchors are holding pattern, but the last sweep showed micro-slip at the southern clamps."
+
+You swallow. The words are technical, but the undercurrent is simple: the line between 'holding' and 'breaking' is thin, and it narrows with every gust.
+
+Theo, elbow-deep in a spanner, laughs too loudly — a laugh that tries to be brave and lands flat.
+
+Theo: "We'll reef them tighter. We can splice on an extra line, jury-rig a sacrificial anchor. It'll be ugly work but it'll hold."
+
+You study the floor where seawater has pooled near the door. The lab smells of salt and solder and coffee gone cold. Your fingers find the damp notebook at your hip; the pressed seaweed inside squishes faintly between your thumb and the paper.
+
+Rosa approaches, shawl wrapped tight. Her voice is small but the sentence carries the weight of years.
+
+Rosa: "If you go out, you go together. If you stay, you stay honest with the town. Either way — remember the faces."
+
+You hold onto that like a rope. There are faces that will not speak at council hearings: a boy with a gash stitched at home, a mother with too-small boots, a fisherman whose hands you've tied new nets with. They don't appear on diagrams. They appear on your list of obligations.
+
+[INTERACTION]
+> Choice A: "Delay the deployment and double-check clamps"
+> Choice B: "Launch now—ride the window before the front closes"
+[Outcome A: "You call for a halt, your voice steady-over-cold. Elias Navin stares at you, recognition and worry folded together. Theo curses under his breath but relents, beginning to pull tools. Outside, the rain grows louder — you taste the cost of time."]
+[Outcome B: "You bark the order to push: momentum is its own argument. Elias Navin looks at you with a brief flicker — is it trust or fear? — and he follows. Theo slams a toolbox shut and runs for the door; the lab light dwells a second longer on your face before the storm swallows it."]
+[MERGE: Continue]
+
+You make the call (whether it was to jump or to hold — the harbor's answer will be the same in the hours to come). The radio static hisses. Lena's voice had been clipped earlier: "No delays. Keep deployment moving." That instruction sits on you like a press of rain.
+
+[Scene: The Low Quay / Harbor | Pre-Dawn — Storm Breaks]
+[Background:"ch6_601bcb_2"]
+[Sound: The roar has become a physical thing — sheets of water slapping wood, cables snapping, the metallic thump as a buoy is torn loose.]
+[Smell: Diesel, wet rope, salt; the sting of ozone after lightning.]
+[Music: Percussive strings, rising to a brittle peak]
+
+When the first anchor lets go, the sound is not the dramatic snap you imagined. It's an informed, grinding shift — a metal on metal protest, a sleeping thing waking and deciding to leave. Water takes the gap and feeds it.
+
+Someone screams your name. You turn because the scream is a rope pulled taut between you and the person who shouted. A volunteer goes down — the deck slick underfoot. Hands reach. You lunge.
+
+"Elias!" you call. He is at the edge, coat plastered to his back, one boot sliding as he digs a line into the wood. He yells technical corrections over the storm; the data in him is a litany. Your heart beats faster than the caution in his voice.
+
+Elias Navin: "Cut the line! Cut the line now — it's taking the whole row!"
+
+You fumble for the bolt shears. Theo is mid-sprint, rain flooding his eyes. Ivy is somewhere in the chaos — you glimpse her red hair like a flare as she hauls at a failing mooring.
+
+Voices overlap: orders, prayers, curses. The modules are alive in a way their schematics never taught you — they are weight and appetite, chunks of engineered reef sliding like unwilling whales toward the shallow quay.
+
+At the back of the harbor, the private tender's lights go dark. For a moment you think it is a trick of the storm; then a boardman shouts that they're pulling out, that the funder's fleet is moving to deeper water. The radio crackles to silence.
+
+Someone near you, a young volunteer with trembling hands, looks at you as if you are the map of the night. He clutches for a rope that gives, and the sea takes him before your fingers find purchase.
+
+You do not have the words — only the sound of oars spilling and the wet slap of life jackets. Rope and salt and the taste of iron fill your mouth. The world narrows to the weight of the body in the water and the meaningless calculus of who can be reached first.
+
+[Elias Navin's voice, rawer now, a mix of command and pleading]
+Elias Navin: "Tie off the south line! Theo, pull the sacrificial anchor! Mara Kestrel, — Mara Kestrel, listen to me —" (his sentence breaks; he swallows) "— get everyone back. Get them to line three. Don't try to hold the modules to the quay."
+
+You move like autopilot and memory: you remember your father's hands on a rope, the way the harbor answered a shout. You remember a hundred small, stubborn repairs. You cannot remember a way to stop a sea that wants to claim its due.
+
+Jun Park's official vehicle rolls onto the pier as dawn is falling, headlights slicing grey into the rain. He steps out, coat immaculate, amber eyes under the brim. The line between political will and private ownership has never looked so thin as when someone in that coat speaks with a bullhorn about accountability and "what went wrong."
+
+Jun Park: "Clear the deck. Document everything. We will coordinate emergency retrieval—"
+
+Your chest fits a new, sharper stone. His words have an edge: organized, steady, but measured in a way that reads as a rehearsed blade. There is something unreadable about him now; you cannot tell if his steadiness will become a hand or a sentence.
+
+Lian Mor's voice comes over a handheld from the Strand, crisp and neutral.
+
+Lian Mor (over radio): "Secure the perimeter. No statements until we have council directives. Media contained."
+
+Contain the media. Contain the narrative. The harbor is a mess of mouths and water and people clutching at one another. You run. You pull. You curse.
+
+[INTERACTION]
+> Choice A: "Focus entirely on the rescue — stay with the volunteers"
+> Choice B: "Pull back to organize triage and evidence — keep the co-op's record intact"
+> Choice C: "Run to the radio to call for outside aid — trust Jun and Lian to handle coordination"
+[Outcome A: "You refuse to leave the front line. You shoulder someone back onto the quay. Elias Navin tries to talk you into coordinating from a safer point; your gaze is a closed knot. Theo yanks you by the sleeve like a parent who doesn't trust their child but can't stop them."]
+[Outcome B: "You make the bitter calculation to step back and direct others. You're suddenly bureaucratic, trading hands-on consolation for a shred of control. Volunteers glare and some call you coward; one old dockworker refuses to be led away, and you feel their blame like rain."]
+[Outcome C: "You sprint for the radio, shouting for help. Jun Park's team listens but doesn't move as fast as you hoped. Lian Mor's voice on the line is clipped. The delay feels like a fist when a new module breaks loose."]
+[MERGE: Continue]
+
+The next hour becomes a series of flares and small collapses. Bodies are hauled up, some alive, some not. A child's raincoat floats like a pale flag, and for a moment you imagine it attached to a smaller version of yourself, a future you promised to protect. That image cracks like thin ice.
+
+When the tide recedes enough to reveal the scale of what the modules have done — sections of quay ripped, netting torn through like tissue, the community's crude memorial stones overturned — the harbor has the look of a mouth that has eaten more than it can hold. Volunteers count and recount and find the numbers don't fit the hungry list of faces.
+
+Word travels faster than the tide. By mid-morning reporters crowd the Strand, their lenses gobbling images. Funders issue brief statements: regret, concern, 'we're assisting' — language designed to decelerate responsibility. The private tenders are gone. The money that promised speed is airborne, alibi in motion.
+
+At the center of the crowd, someone shoves a microphone at you. A reporter asks, voice sharp.
+
+Reporter: "Why did the co-op proceed without a full-second assessment? Didn't you know the risk?"
+
+Your jaw tightens. Your answers unspool slower than your throat. You think of the lab, the damp notebook, Rosa's hand on your shoulder. You try to tell the truth, and the truth fragments into a dozen small lies: timing, pressure, belief.
+
+Murmurs turn to fingers. The narrative is finding its shape: recklessly idealistic co-op; volunteers put in harm's way; private money used for experiments. The boardwalk watches you like a jury.
+
+Rosa moves through the crowd as if cutting through kelp. Her face is a map of grief and a strange, dreadful dignity. She does not point fingers; instead, she kneels by the waterline and begins to pick up small, broken things — a child's boot, a snapped oar. When she looks up, her eyes are wet, but her voice is steady.
+
+Rosa: "We hold one another. That is our work now."
+
+Some people hear it as comfort. Others hear it as condemnation. Ivy stands beside you, soil-smeared and silent, her hands balled into fists. She is small against the scale of what has happened, but her grief is the kind that will swing harder than the sea.
+
+Elias Navin finds you and does not meet your eyes. The sensor band at his wrist flashes a dull green — the promise of data, then a failure of it to mean anything useful. He speaks in the language he knows best and then stumbles into language he does not.
+
+Elias Navin: "I ran the models. I checked the clamps. I—" (he stops, breath ragged) "I thought we had the margin. I'm sorry, Mara Kestrel. I'm so — I can't—"
+
+He doesn't finish. You can't either. There is a small, volatile thing between you now: blame, relief, the knowledge that both of you tried and that trying sometimes isn't enough.
+
+Jun Park speaks to the assembled cameras with that practiced cadence of someone who can make hard-sounding sentences feel inevitable.
+
+Jun Park: "We will launch an inquiry. There will be accountability. We will ensure the city learns from this."
+
+His words are a promise, but they are promises to a public ledger. They will write an outcome built from figures and committees. They will not stitch a child's sleeve back onto a shoulder.
+
+[Scene: The Strand / The Basin | Late Morning — Aftermath]
+[Background:"ch6_601bcb_3"]
+[Sound: The low murmur of people, the intermittent bark of officials, the hollow slap of leftover waves.]
+[Smell: Wet wood, old salt, the faint chemical tang of fuel.]
+[Music: Sparse piano, a single line repeating like a wound]
+
+The co-op's meeting hall fills up with people who need names, explanations, someone to point at. Some want heads; some want closure. You occupy a strange middle place — you led, you had responsibility, and now you must wear the impossible clothes of both leader and suspect.
+
+Someone shouts, and suddenly the hall is a crowd. A voice claims negligence. Another voice defends the volunteers. The debate becomes two fists at a window: the heat of anger and the cold of grief.
+
+Lian Mor appears at the door, flanked by council aides. She speaks with the measured neutrality that elected office trains into speech.
+
+Lian Mor: "The council will form a task committee. We ask for cooperation with investigations."
+
+Her face does not read relief or sorrow; it reads constraint. The machinery of governance is moving, and it does not attend to the body of sorrow in the same register as a mother does.
+
+You sit, the center of attention and the object of ire. Your journal is open on your knee. You reach for the compass pendant; it is warm from your skin. You think of your father's boat listing, of hands on rope, of nights you swore to carry the town's ledger. You had hoped to anchor people to something better. Instead you've been tried in the court of immediacy.
+
+Ivy's hand finds yours and squeezes until your knuckles ache. She is small and furious in ways that are honest and clean.
+
+Ivy: "We followed you, Mara Kestrel. We followed you because we thought you'd keep us safe."
+
+Her words are not accusation alone; they are a broken prayer. You do not know how to give her back what is gone.
+
+Elias Navin sits a bit apart, silent. He meets your eyes only once, and in that look there is everything and nothing — a map of what was attempted and what failed. He closes his hand over his water-smudged notebook as if it's a talisman he cannot translate into action right now.
+
+Theo stitches his hands with trembling fingers. He keeps repeating that he thought the retrofit would hold. He says it like a mantra to anchor himself.
+
+You think of the people you could not save. For minutes that stretch like rope, your chest is full of an animal sound that has no words. You have been trying to carry weight your body was not built for, and now the weight is too much.
+
+[Scene: Old Beacon Lighthouse | Late Afternoon — Cold Afterglow]
+[Background:"ch6_601bcb_4"]
+[Sound: The slow, distant thump of waves; gulls calling tiredly; a solitary hammering in the distance as the community begins small repairs.]
+[Smell: Salt, old timber, the memory of smoke that once marked a safe return.]
+[Music: A single mournful violin line underneath the wind]
+
+You climb the jagged path to the Beacon because it's what you've always done when the world grows unmanageable: you seek height, a place where the horizon returns your questions with its unfathomable, even answer. Tonight the Beacon is less lighthouse than a ruin that will be fixed in time; for now it is a place where grief can be private enough to feel real.
+
+You sit on a weathered stone and open your journal. The pages smell of salt and ink. Your handwriting is shaky; the letters tilt, heavy with morning. You press the compass pendant flat against the spine as if that will steady the page.
+
+You write the names of those you can remember, the ones who volunteered and never returned to the boardwalk. You write the things you should have seen. You write the things you thought you were doing right. The pen trembles.
+
+Rosa joins you without a word. She doesn't sit close — there are boundaries in grief that even the closest cannot cross. Instead she lays her hand beside yours on the page, a warm weight.
+
+Rosa: "We will mark them. We will tell their stories, Mara Kestrel. The ledger will not forget."
+
+Her certainty is not the same as absolution. It is a promise to keep memory honest.
+
+You think of Jun Park's inquiry, Lian Mor's committees, the headlines that will come tomorrow. You think of how money left the harbor when it was inconvenient, how the city will count losses and then re-frame them as 'lessons learned.' Those calculations are not wrong; they're just a different language for value.
+
+Elias Navin arrives at the Beacon later, rain having thinned into a cold mist. He leans against the broken parapet, looking out at the sea. He doesn't speak for a long time. When he does, his voice is small but not pleading.
+
+Elias Navin: "I keep running the scenarios. I keep thinking of other lines we might have tried. I — I failed to promise what I couldn't prove, and for that I thought detachment was safety. It wasn't. It wasn't for them."
+
+He turns to you, and for once the scientist is unadorned by instruments.
+
+Elias Navin: "I'm leaving town for a while. I need to be somewhere I can—"
+
+He doesn't finish. Whether it's redemption or exile you can't tell. His face is a map of something like sorrow and like responsibility.
+
+You nod. The sea is patient; it will take what it will. Decisions will be made about your future in rooms you will not be in. Names will be petitioned for hearings. The co-op will fracture; some will want to fight, others to hide, and some simply to leave.
+
+You close your journal. The ink is smudged where rain met the page. The compass hangs against your sternum, dented and faithful. There is a hollow where certainty used to live — but also a small, stubborn thing like a coal that will not die: the memory of the hands you pulled up, the nets you mended, the voices that trusted you.
+
+Rosa stands and places a small shell on the Beacon's broken ledge — a quiet offering. Ivy, when she finally rises, tucks a Worn volunteer badge into her pocket as if it will anchor her to what remains.
+
+You stay until the light dips and the town below begins the long, tedious chore of tallying loss and beginning to build again. The harbor will be rebuilt in some form, in patchwork and in policy and in committees that may or may not carry the tenderness the place needs. People will forgive and they will not. The funding will be asked for again and again, and sometimes it will come with strings.
+
+You cannot undo the night. You cannot call back the water. What you can do — now, awkwardly, disfiguredly — is name what happened and carry it forward until the city remembers not just numbers but the people they represent.
+
+[Background:"ch6_601bcb_5"]
+[Sound: A gull cries; distant hammering continues like a small, steady heart.]
+[Music: Violin fades into a low chord, then quiets]
+
+You imagine the ledger in the years to come: rows of sums, checkmarks, apologies. You imagine adding a note in the margin — a small, stubborn insistence that worth cannot only be calculated in dollars or square feet. You imagine walking the Strand again when the weather softens and names can be spoken without breaking.
+
+For now, there is only this: an ache that settles into your bones, a responsibility that will not leave you alone. You stand, feel the ocean air like a cold baptism, and you begin the work of walking back down the path.
+
+[Background:"ch6_601bcb_6"]
+[Music: Single sustained piano tone that slowly decrescendos]
+
+[Background:"ch6_601bcb_7"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

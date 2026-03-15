@@ -1,0 +1,456 @@
+{
+    "title": "Seabright Rising",
+    "summary": "Amara Vale, a scientist returned to her coastal hometown of Seabright in 2035, leads community-centered adaptation efforts — mangrove restoration, raised promenades, and microgrids — while navigating pressures from private developer Marco Voss, local politics, and activist networks. The player builds alliances (Eli, Hal, Miriam, Rosa), negotiates ethical trade-offs around funding and displacement, and chooses between engineering-ecology collaboration, conditional private partnerships, or pure grassroots mobilization. Branches explore different governance and technical outcomes; endings vary in texture but all represent a steady upward arc of resilience, trust, and institutional capacity.",
+    "emotional_curve_type": "Rags-to-Riches (Rise)",
+    "player_character": "Amara Vale",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Salt and Graphs",
+            "branch_designation": "Common",
+            "narrative_focus": "I open the story on the Seabright Boardwalk after a late morning survey, cataloging salt stains and algae lines, trading practical updates with Eli and being called into Rosa's café. I sketch an early plan to rally neighbors around mangroves, microgrids, and raised promenades while admitting survivor's guilt and an urge to shoulder responsibility.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Amara Vale",
+                "Rosa",
+                "Eli"
+            ],
+            "locations_used": [
+                "Seabright Boardwalk",
+                "Rosa's Café"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "The Beacon’s Whiteboards",
+            "branch_designation": "Common",
+            "narrative_focus": "At the Beacon climate center I review sensor data, coordinate volunteer plans with Hal and Miriam, and receive Marco Voss's glossy development invite. I decide to call a town meeting to balance Seabright's character with needed capacity, and ask Eli to check foundation stress curves with me.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Amara Vale",
+                "Hal",
+                "Miriam",
+                "Eli",
+                "Marco Voss"
+            ],
+            "locations_used": [
+                "The Beacon",
+                "Town Hall"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Town Hall, Three Voices",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At Town Hall I present community-led plans while Marco pitches a private development. The council is poised to authorize exploratory deals; I must endorse a path publicly that will pivot Seabright toward private partnership, engineering-ecology collaboration, or full grassroots resistance.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which path do I endorse publicly at the meeting?",
+                "options": [
+                    {
+                        "label": "Work closely with Eli and prioritize pragmatic engineering + ecology",
+                        "consequence": "Collaborative retrofit route",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Accept Marco’s partnership under strict terms",
+                        "consequence": "Private capital route; fast infrastructure with compromises",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Reject corporate deals; escalate grassroots mobilization",
+                        "consequence": "Pure community-driven push for equity-first measures",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amara Vale",
+                "Marco Voss",
+                "Miriam",
+                "Eli"
+            ],
+            "locations_used": [
+                "Town Hall",
+                "Town Hall Plaza"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Wooden Stakes and Copper Wires",
+            "branch_designation": "Route A",
+            "narrative_focus": "I work with Eli at the Mangrove Restoration Site installing saplings and sensor nodes, and we build trust as volunteers and elders contribute. We plan modular seawalls integrated with mangrove channels and prepare a test run for raised promenade segments.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 5,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Hal",
+                "Rosa",
+                "Miriam"
+            ],
+            "locations_used": [
+                "Mangrove Restoration Site",
+                "Boardwalk (adjacent)"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Budget Lines and Heartlines",
+            "branch_designation": "Route A / Split",
+            "narrative_focus": "At the Beacon we reconcile ideals with invoices, debating mangrove saplings, raised boardwalks, sensors, stipends, and maintenance. The decision determines funding focus and who we must persuade to implement the plan.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which funding and focus do I recommend?",
+                "options": [
+                    {
+                        "label": "Prioritize mangrove + promenade scaffolding",
+                        "consequence": "Deep ecological resilience; slower economic payoff",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Prioritize grants and retrofits for small businesses now",
+                        "consequence": "Immediate relief; harder to scale ecological measures",
+                        "target_chapter_index": 13
+                    },
+                    {
+                        "label": "Push for microgrid pilot requiring legal work",
+                        "consequence": "Potential systemic change; high negotiation risk",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Miriam",
+                "Rosa",
+                "Hal"
+            ],
+            "locations_used": [
+                "The Beacon"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "The First Raised Plank",
+            "branch_designation": "Route A — Happy Ending",
+            "narrative_focus": "We complete the first raised promenade section, plant mangroves, and see community momentum translate into micro-loans and a maintenance plan. The pilot proves effective; Eli and I quietly commit to keep building together.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 5, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 13,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Hal",
+                "Miriam",
+                "Rosa",
+                "Old Man Tor",
+                "Marco's representatives"
+            ],
+            "locations_used": [
+                "Raised Promenade",
+                "Seabright Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Boardrooms and Raincoats",
+            "branch_designation": "Route B",
+            "narrative_focus": "I meet Marco for an exploratory sit-down about a modernized Seabright, weighing immediate capital and jobs against displacement. Eli acts as a technical sounding board while Miriam protests outside. I probe contract terms and consider whether to leverage constraints or resist private capital.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 8,
+            "characters_involved": [
+                "Amara Vale",
+                "Marco Voss",
+                "Eli",
+                "Miriam",
+                "Hal"
+            ],
+            "locations_used": [
+                "Town Hall Awning",
+                "Town Hall Plaza"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Contract Redlines",
+            "branch_designation": "Route B / Split",
+            "narrative_focus": "At the Beacon we parse Marco's draft contract, debating indemnities, easements, oversight, relocation funds, and maintenance endowments. The negotiation will shape infrastructure and governance.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 7",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we negotiate Marco’s contract?",
+                "options": [
+                    {
+                        "label": "Insist on strict redlines and oversight committees",
+                        "consequence": "Slower but preserves leverage",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Accept the partnership to get fast infrastructure",
+                        "consequence": "Rapid construction; more displacement risk",
+                        "target_chapter_index": 14
+                    },
+                    {
+                        "label": "Reject and mobilize local financing and bonds",
+                        "consequence": "Slower, grassroots funding; greater local control",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Marco Voss",
+                "Miriam",
+                "Hal"
+            ],
+            "locations_used": [
+                "The Beacon"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Oversight Committee",
+            "branch_designation": "Route B — Hybrid Happy",
+            "narrative_focus": "We secure enforceable oversight, maintenance funds, and rehousing budgets in a rewritten contract. The pilot seawall is paired with managed restoration corridors and a maintenance endowment run by a new community trust, balancing infrastructure speed with community safeguards.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 13,
+            "characters_involved": [
+                "Amara Vale",
+                "Marco Voss",
+                "Eli",
+                "Rosa",
+                "Miriam",
+                "Hal"
+            ],
+            "locations_used": [
+                "Town Hall Plaza",
+                "The Beacon"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "Banners and Barking Orders",
+            "branch_designation": "Route C",
+            "narrative_focus": "I lead a grassroots escalation: marches, a citizens' charter, micro-investment cooperatives, and a local bond issue. We occupy the plaza and demand public financing and legal protections before private deals; Marco's team retaliates with legal threats.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 11,
+            "characters_involved": [
+                "Amara Vale",
+                "Miriam",
+                "Rosa",
+                "Hal",
+                "Old Man Tor",
+                "Eli",
+                "Marco Voss"
+            ],
+            "locations_used": [
+                "Old Harbor",
+                "Town Plaza"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Bonds, Bylaws, and Boats",
+            "branch_designation": "Route C / Split",
+            "narrative_focus": "We craft community bonds, cooperative ownership models, and bylaws to guarantee affordable space and maintenance endowments. The choice is whether to push for uncompromising equitable ownership, negotiate a monitored hybrid with private partners, or pilot microfinance for immediate relief.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 10",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Which institutional path will we endorse?",
+                "options": [
+                    {
+                        "label": "Double down on community bonds and bylaws",
+                        "consequence": "Autonomy and equity; slower construction",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Negotiate a monitored hybrid with private partners under strict bylaw safeguards",
+                        "consequence": "Faster protection with safeguards",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Aim for a quick microfinance pilot for small business retrofits before larger projects",
+                        "consequence": "Immediate relief; slower systemic change",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Rosa",
+                "Hal",
+                "Old Man Tor",
+                "Miriam"
+            ],
+            "locations_used": [
+                "The Beacon",
+                "Rosa's Café",
+                "Old Harbor"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Cooperative Harbor",
+            "branch_designation": "Route C — Bittersweet-to-True",
+            "narrative_focus": "The community bond narrowly passes; funds are allocated to retrofits, a phased mangrove corridor, and a modest seawall. Some projects stall, some shops struggle but receive cooperative loans, and a modular foundation pilot led by Eli demonstrates pragmatic progress and deeper community self-determination.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 11, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 13,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Rosa",
+                "Hal",
+                "Old Man Tor",
+                "Marco Voss"
+            ],
+            "locations_used": [
+                "Beacon",
+                "Old Harbor",
+                "Modular Foundation Workshop"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Threads for Tomorrow",
+            "branch_designation": "Epilogue (Accessible from multiple routes)",
+            "narrative_focus": "Months later, across paths, I review a stitched map of Seabright showing raised promenades, mangrove corridors, modular seawalls, rehousing pockets, and microgrid nodes. The town bears scars and new structures; policies, funding streams, and community institutions are in place, and my relationship with Eli has deepened through shared work.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 6 or Chapter 9 or Chapter 12",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 14,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Rosa",
+                "Miriam",
+                "Marco Voss",
+                "Hal"
+            ],
+            "locations_used": [
+                "Rosa's Café",
+                "The Beacon",
+                "Seabright Stitched Map / Microgrid Nodes"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Weathered Promises",
+            "branch_designation": "Conditional Outcome (Accessible from multiple nodes)",
+            "narrative_focus": "Where speed ruled, a seawall is built quickly and saves lives in storms but costs some historic storefronts and displaces some residents. Oversight clauses and rehousing endowments mitigate outcomes; the town is measurably safer but carries the cost of compromise.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option B or From Chapter 11, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 15,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Marco Voss",
+                "Rosa"
+            ],
+            "locations_used": [
+                "Seawall Construction Site",
+                "Reduced Storefronts / Waterfront"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Harbor Light",
+            "branch_designation": "Final Epilogue (Convergent True Ending)",
+            "narrative_focus": "At dusk after a storm I stand with Eli on the raised boardwalk and reflect on shared responsibility, matured community trust, maintenance crews, mangrove silt-holding corridors, and emergent hybrid governance blending private resources with public accountability. The final image is imperfect but durable and upward.",
+            "emotional_trajectory": "Rise",
+            "entry_condition": "From Chapter 8, Option C or From Chapter 14",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Amara Vale",
+                "Eli",
+                "Marco Voss",
+                "Miriam",
+                "Hal",
+                "Old Man Tor"
+            ],
+            "locations_used": [
+                "Raised Boardwalk",
+                "Harbor"
+            ]
+        }
+    ],
+    "remarks": "Chapters 1–3 are common, splitting at Chapter 3 into three main routes: Route A (Chapters 4–6, split at 5), Route B (Chapters 7–9, split at 8), and Route C (Chapters 10–12, split at 11). Chapters 13–15 serve as epilogues/convergent outcomes accessible from multiple upstream choices. All chapters are first-person and follow a steadily rising emotional arc.",
+    "_meta_source_world": "world_setting_Curve_1_Story_1.json",
+    "_meta_arc_strategy": "Rags to Riches (Rise)"
+}

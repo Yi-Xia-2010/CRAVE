@@ -1,0 +1,120 @@
+{
+    "design_logic": "I combine the global urgency of climate change with intimate romantic stakes: large-scale environmental choices are made meaningful through personal relationships. The core conflict pits grassroots community resilience and ethical stewardship against profit-driven techno-fixes. The romance is both a motivation and a test—trust, compromise, and sacrifice determine whether the town adapts or is displaced.",
+    "setting": "A small coastal town, Marisol Bay, in a near-future 2030s where sea-level rise and intensified storms are reshaping daily life. The atmosphere mixes salty air and warm sunsets with storm-bleached infrastructure and patchwork community defenses. Tension exists between a local collective trying to adapt and a powerful marine engineering firm proposing an ambitious, controversial sea-wall and aquaculture development.",
+    "visual_style": "Semi-realistic anime-influenced, muted coastal palettes with high-contrast warm highlights, textured brushwork for water and weather effects, cinematic lighting, practical costume details (field gear + repurposed tech)",
+    "main_characters": [
+        {
+            "name": "Amaya Reyes",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: fiercely protective of her town, quick to organize, compassionate but blunt. Values evidence and care equally; struggles to delegate and hates compromise that sacrifices people.",
+            "appearance_features": {
+                "hair": "Chestnut shoulder-length bob with wind-cut choppy ends and a faded sea-green streak behind the left ear",
+                "eyes": "Sea-glass green, almond-shaped, often rimmed with faint tiredness",
+                "clothing": "Waterproof olive field jacket with sewn-on community patches, sun-faded denim overalls, high-grip rubber boots with salt stains, layered merino scarf with visible repairs",
+                "accessories": "A leather-bound field notebook full of watercolor tide maps, a small solar wristwatch with chipped casing, a braided bracelet embedded with wildflower seeds"
+            },
+            "goal": "To secure a sustainable protection strategy for Marisol Bay that preserves homes and livelihoods while keeping the community intact.",
+            "background_story": "Born and raised in Marisol Bay, Amaya became a coastal ecologist after losing a childhood friend in a storm-driven flood. She returned from university to lead a volunteer resilience collective and runs TideLab — a modest community research hub focused on low-tech adaptation.",
+            "emotional_trait": "Strength: stubborn resilience and loyalty. Flaw: internalized guilt and a tendency to take responsibility for others' suffering, making her avoid asking for help."
+        },
+        {
+            "name": "Luka Maren",
+            "role": "Love Interest",
+            "personality": "Gentle, inventive, quietly witty. Tends toward optimism and technical curiosity. More comfortable with machines than confrontation; tries to bridge science and people but sometimes underestimates social costs.",
+            "appearance_features": {
+                "hair": "Dark wavy hair tied back in a loose knot, several salt-bleached strands at the temples",
+                "eyes": "Warm amber, rounded and attentive",
+                "clothing": "Well-worn patched lab smock over breathable shirts, lightweight cargo trousers with tool loops, scuffed canvas sneakers, often with rolled-up sleeves",
+                "accessories": "A battered drone controller with custom stickers, a silver locket containing a pressed strip of kelp, a multi-tool clipped to his belt"
+            },
+            "goal": "To develop affordable, small-scale eco-tech (drones, modular sensors, wetland restoration devices) that helps communities adapt without corporate scale-up.",
+            "background_story": "An engineer who worked for a coastal aquaculture startup that collapsed after an ill-timed investment. He returned home to fix smaller-scale problems, partnering with Amaya at TideLab. He is tempted by lucrative offers from larger firms that promise broader impact.",
+            "emotional_trait": "Strength: ingenuity and empathy. Flaw: fear of failure and an inclination to avoid difficult ethical confrontations until pushed."
+        },
+        {
+            "name": "Corinne Voss",
+            "role": "Antagonist",
+            "personality": "Charismatic, efficient, and ruthlessly pragmatic. Believes in engineering solutions at scale and in the necessity of hard choices; sees community objections as sentimental obstacles.",
+            "appearance_features": {
+                "hair": "Platinum blonde, sleek, cut into a precise chin-length bob always immaculately styled",
+                "eyes": "Steely gray, narrow, often scanning with cold focus",
+                "clothing": "Tailored weatherproof trench coat layered over a high-tech business suit with hydrophobic fabric and subtle corporate patterning, polished coastal leather boots",
+                "accessories": "Augmented AR glasses that display project models, an engraved signet ring with the Voss crest, a minimalist holo-pen that projects site plans"
+            },
+            "goal": "To implement Voss Marine Solutions' flagship shoreline engineering project that will protect key infrastructure and generate profit, even if it requires relocating some communities.",
+            "background_story": "Raised in a family of civil engineers, Corinne rose through Voss Marine, convinced large-scale infrastructure and engineered aquaculture are the fastest way to save populations from climate impacts. She frames displacement as an unfortunate but necessary step toward long-term security.",
+            "emotional_trait": "Strength: decisive leadership and vision. Flaw: moral certainty that blinds her to social nuance and individual harm."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mateo Reyes",
+            "relation_to_main": "Amaya's younger brother",
+            "appearance_summary": "Lean, sun-weathered, usually in a patched fisherman sweater and old raincap, with callused hands.",
+            "function_in_story": "Local fisherman and emotional anchor; his livelihood is threatened by both rising tides and corporate plans, forcing Amaya to reconcile policy with people."
+        },
+        {
+            "name": "Abuela Rosa",
+            "relation_to_main": "Community elder and mentor to Amaya",
+            "appearance_summary": "Stooped but sharp-eyed, wears handwoven shawls with bright coastal motifs and a worn straw hat.",
+            "function_in_story": "Keeper of local oral histories and shoreline knowledge; offers moral counsel and the town's long-term perspective, often challenging technocratic solutions."
+        },
+        {
+            "name": "Tamsin Cho",
+            "relation_to_main": "Municipal planner / Liaison between town and Voss",
+            "appearance_summary": "Practical city planner attire—neutral blazer over breathable shirts, tablet always in hand, rain-speckled boots.",
+            "function_in_story": "Caught between political pressure and community needs; she is a gatekeeper for permits and a potential ally if convinced."
+        },
+        {
+            "name": "Jules Park",
+            "relation_to_main": "TideLab volunteer and Luka's friend",
+            "appearance_summary": "Short dyed-blue hair, functional park ranger vest, often with a camera slung around the neck.",
+            "function_in_story": "Field technician who gathers footage and data; provides comic relief and a grounded point of view on daily hardships."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marisol Bay Boardwalk",
+            "visual_description": "A salt-scarred wooden boardwalk curving along a shallow bay; late-afternoon light gilds wet planks, gulls wheel in brass-colored flares. Buildings are patched with tarps and painted signs, strings of solar lanterns cast warm halos at dusk. Puddles reflect a leaden sky; distant storm clouds smear purple at the horizon."
+        },
+        {
+            "name": "TideLab (Community Research Hub)",
+            "visual_description": "A repurposed fish-processing shed with corrugated metal walls and greenhouse extensions. Inside, warm amber shop lights illuminate cluttered benches, jars of samples, hanging tide maps, and a bank of mismatched solar batteries. Moist air carries the smell of salt and wet soil; stray seedlings sprout in salvaged buckets."
+        },
+        {
+            "name": "Voss Marine Solutions Headquarters",
+            "visual_description": "A glass-and-steel pavilion on a raised concrete quay; sharp, reflective surfaces mirror the ocean in cold blues. Neon project holograms glow in clinical cyan; recessed lighting creates high-contrast shadows. The lobby is immaculate, with polished floating displays and a faint scent of engineered citrus."
+        },
+        {
+            "name": "Marshland Reserve / Restoration Site",
+            "visual_description": "A ribbon of brackish marsh where reeds bend under wind, water caught in jewel-like pools. Morning fog softens the light to pearly grays and muted greens; small patches of engineered oyster beds and newly planted mangrove saplings add bright, hopeful sprouts of color."
+        },
+        {
+            "name": "Community Hall (Meetings & Evac Center)",
+            "visual_description": "A low-ceilinged wooden hall with long benches, hand-painted maps pinned to the walls, and strings of mismatched bulbs overhead. Light from a single projector washes the room in warm yellow; rain patters on the tin roof during meetings, amplifying the town's collective heartbeat."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A negotiated hybrid solution: Voss scales back the most destructive elements and funds community-led marsh restoration and distributed defenses. Amaya and Luka deepen their relationship, deciding to co-lead TideLab and scale Luka's small-tech model ethically. The town keeps most homes and gains new safeguards."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The town secures partial protections, but several neighborhoods are relocated. Corinne delivers some long-term infrastructure while community projects restore key habitats. Amaya achieves many goals but sacrifices personal stability—Luka accepts a distant research grant and departs, leaving their relationship unresolved yet respectful."
+        },
+        {
+            "type": "Sad",
+            "summary": "Voss's full development proceeds despite protests. Large-scale seawalls protect the new port while displacing much of Marisol Bay. Amaya fails to reconcile scientific proof with political power; Luka, compromised by a consultancy deal, drifts away. The town fractures and Amaya leaves to work elsewhere, haunted but determined."
+        },
+        {
+            "type": "True",
+            "summary": "Through strategic data leaks, legal action, and a viral community campaign, the project is halted and broader regulatory reform is sparked. The victory is costly and slow: immediate protections are modest, but national policy shifts toward community-centered adaptation. Amaya and Corinne are changed; Luka helps commercialize the community tech under cooperative terms. The ending emphasizes systemic change over tidy personal closure."
+        }
+    ],
+    "estimated_chapters": 6
+}

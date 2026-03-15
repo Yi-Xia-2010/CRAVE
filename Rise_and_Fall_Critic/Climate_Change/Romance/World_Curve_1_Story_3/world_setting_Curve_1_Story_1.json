@@ -1,0 +1,128 @@
+{
+    "design_logic": "I blend Climate Change and Romance by placing intimate human relationships against a near‑future ecological crisis: the emotional stakes of love mirror the political stakes of survival. The core conflict is between competing responses to environmental collapse — grassroots community resilience versus high‑tech, top‑down solutions — and how the protagonist's personal attachments complicate the choices. Romance drives moral dilemmas (who to trust, who to compromise with) while climate pressures create urgency and realistic consequences.",
+    "setting": "Near‑future coastal metropolitan region (circa 2038) where rising seas and intensified storms have reshaped neighborhoods. Some districts have become hybrid landscapes of reclaimed wetlands, rooftop farms, and patched seawalls; corporate research towers loom over improvised communal shelters. The atmosphere is humid, electric, and bittersweet — every sunlit market or verdant rooftop can be shadowed by a flood warning.",
+    "visual_style": "Soft cyberpunk neon-emerald, Animated watercolor with realistic textures, Eco-noir lighting, Warm natural palette for community scenes, Cool glass-and-steel tones for corporate interiors",
+    "main_characters": [
+        {
+            "name": "Asha Rivera",
+            "role": "Protagonist",
+            "personality": "Pragmatic idealist: methodical, empathetic, stubbornly hopeful. She balances scientific reasoning with deep loyalty to her neighborhood and is skilled at mediating opposing viewpoints.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with a single braided strand threaded with tiny glass beads (sea-glass hues)",
+                "eyes": "Warm amber-brown, slightly hooded, with a tired intensity",
+                "clothing": "Worn olive field jacket layered over a hemp-knit turtleneck and water-resistant cargo trousers; scuffs of mud and plant root stains show frequent fieldwork",
+                "accessories": "Weathered leather notebook slung on a cord, a compact multi-tool with green tape, a small potted cutting in a patched cloth sling"
+            },
+            "goal": "To design and implement community-led resilience measures that preserve both lives and local culture — and to reconcile with someone from her past as choices get harder.",
+            "background_story": "Raised in the flooded barrio of La Marisma, she studied coastal ecology and returned to lead a small nonprofit focused on living seawalls and rooftop agriculture after her family's home was lost in an early storm. Her work pits her against corporate promises of quick fixes and political bureaucracy.",
+            "emotional_trait": "Strength: deep empathy and persistence. Flaw: fear of betraying her community makes her avoid compromise until it's almost too late."
+        },
+        {
+            "name": "Elias Hart",
+            "role": "Love Interest (Activist)",
+            "personality": "Charismatic, passionate, quick to act. A natural organizer who believes in people-powered change; sometimes impulsive and prone to romanticizing rebellion.",
+            "appearance_features": {
+                "hair": "Sandy blond, tousled and sun-bleached at the tips",
+                "eyes": "Sea-glass green, bright and direct",
+                "clothing": "Patchwork canvas jacket covered with stitched protest patches and safety pins over a faded band tee; cuffed jeans and scuffed boots",
+                "accessories": "A braided hemp bracelet embedded with a small whistle, a sea-glass pendant, a bandolier-style bag filled with flyers and first-aid supplies"
+            },
+            "goal": "Mobilize the community into direct action to reclaim coastal land and force political change without relying on corporations.",
+            "background_story": "Once a student organizer who led emergency rescue crews during the worst storm season, Elias formed a grassroots collective that rescued neighbors and rebuilt communal gardens. He and Asha share a complex history — close collaboration turned into a falling-out over tactics.",
+            "emotional_trait": "Strength: magnetic optimism and courage. Flaw: impatience and difficulty trusting formal institutions, which can blind him to pragmatic solutions."
+        },
+        {
+            "name": "Hana Kim",
+            "role": "Love Interest (Engineer, conflicting ally)",
+            "personality": "Calm, precise, analytical, and deeply compassionate under a cool exterior. She believes scalable technology can save lives but is sometimes uncompromising about trade-offs.",
+            "appearance_features": {
+                "hair": "Short silver bob with a sharp asymmetrical fringe",
+                "eyes": "Steel-gray, observant and slightly reflective",
+                "clothing": "Tailored, technical blazer woven with smart-fabric panels, modular trousers with hidden pockets, clean and professional but practical",
+                "accessories": "A discreet AR monocle (left eye) for analytics, a slim prototype ring that logs environmental data, a chrome pen with engraved model number"
+            },
+            "goal": "To implement engineered adaptive infrastructure (smart barriers, automated pumps, desalination microgrids) that can protect as many people as possible within a limited budget.",
+            "background_story": "Former university lab partner of Asha's who now works for a major 'green engineering' firm. She moved into the corporate sphere to leverage resources but resents being labeled as uncaring. Their past friendship complicates current negotiations.",
+            "emotional_trait": "Strength: incredible focus and competence. Flaw: guardedness and a tendency to prioritize measurable outcomes over intangible community values."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Mateo 'Teo' Rivera",
+            "relation_to_main": "Younger brother of Asha",
+            "appearance_summary": "Lean, sun-tanned, often in reworked workwear with a bright bandana; a mechanic's grease under his nails.",
+            "function_in_story": "Emotional anchor for Asha; practical problem-solver who manages community logistics and supplies."
+        },
+        {
+            "name": "Mayor Lila Ortega",
+            "relation_to_main": "Local elected official who must balance voters and corporate pressure",
+            "appearance_summary": "Small-framed, silver-streaked hair in a tight bun, favors breathable linen suits, always has a laminated schedule.",
+            "function_in_story": "Source of official authorization or blockade; can be convinced to support community measures or be swayed by corporate lobbying."
+        },
+        {
+            "name": "Dr. Jun Park",
+            "relation_to_main": "Mentor to Asha (former professor)",
+            "appearance_summary": "Elderly, tidy, soft eyes behind round glasses, usually in a light lab coat with plant stains.",
+            "function_in_story": "Provides scientific guidance, data that can prove or disprove proposed interventions, and moral counsel."
+        },
+        {
+            "name": "Sofia Navarro",
+            "relation_to_main": "Market vendor and longtime neighbor",
+            "appearance_summary": "Warm smile, braided hair with colorful scarves, apron with seed packets peeking from the pocket.",
+            "function_in_story": "Represents the community's daily life; her personal losses and small victories illustrate stakes and consequences."
+        },
+        {
+            "name": "Leon Voss",
+            "relation_to_main": "Executive at the green tech corporation employing Hana",
+            "appearance_summary": "Tall, immaculate dark suit with reflective cufflinks, salon‑polished hair and an inscrutable smile.",
+            "function_in_story": "Embodies corporate incentives; offers funding and large-scale solutions but with strings attached that force ethical choices."
+        }
+    ],
+    "locations": [
+        {
+            "name": "La Marisma (The Harborside Barrio)",
+            "visual_description": "A patchwork neighborhood of raised walkways, corrugated metal homes, and hanging gardens. Golden hour light filters through salt-streaked windows; puddles glitter with oil and algae. Colors are warm — rust, moss green, sunwashed terracotta — with strings of lanterns that bounce in the wind. Occasional sirens and distant ocean thunder create a tense soundtrack."
+        },
+        {
+            "name": "Skyward Market (Rooftop Greenhouse Market)",
+            "visual_description": "Tiered glass domes and open-air stalls amid a rooftop farm. Diffused morning light through misty greenhouse glass creates a soft, dewy palette of emeralds and pale yellows. Steam rises from street-food stalls; rows of hydroponic beds glow faintly at night with bioluminescent markers. The place feels alive and communal, smelling of soil and citrus."
+        },
+        {
+            "name": "Tideworks Lab",
+            "visual_description": "A converted flood-control laboratory in a low-lying warehouse: concrete floors streaked with salt, walls hung with charts and algae samples. Cool fluorescent panels mixed with the warm glow of grow‑lights over prototype living seawall sections. The atmosphere is practical and intimate — tools and coffee mugs clustered with careful diagrams."
+        },
+        {
+            "name": "Aegis Tower (Corporate R&D)",
+            "visual_description": "A glass-and-steel spire cutting into the sky; interior spaces are sleek, reflective, and bathed in cool blues and clinical whites. Holographic displays pulse with data; panoramic windows show the city and the encroaching sea. Lighting is precise and slightly antiseptic, evoking efficiency and distance from street life."
+        },
+        {
+            "name": "Old Estuary Boardwalk",
+            "visual_description": "A weathered wooden boardwalk through a rewilded mangrove fringe. Moonlight silvering the leaves, mist curling around pilings. The palette is muted — slate blues, ink greens, pale moonlit silver — and the soundscape is dominated by water and occasional distant voices. This is a contemplative place for private conversations and difficult choices."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Collective vs. Technocratic Solutions",
+        "Loss and Resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Asha brokers a hybrid solution: community-built living seawalls supported by targeted corporate tech funding. The community keeps its cultural core, the most vulnerable areas are protected, and she forms or renews a lasting partnership (Elias or Hana) based on mutual respect and compromise."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Large-scale infrastructure protects the city but requires relocation of some neighborhoods. The community survives but suffers permanent loss of place. Asha achieves policy change but must let go of a personal relationship fractured by the compromises required."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political gridlock and mismanaged interventions lead to a catastrophic storm that destroys key areas of La Marisma. Lives are lost, and Asha is forced to flee; the romance dissolves under the weight of blame and grief. The ending is a cautionary tale about inaction and misplaced faith."
+        },
+        {
+            "type": "True",
+            "summary": "Through difficult choices and hard-won alliances, Asha catalyzes a new model of stewardship: decentralized, data-informed community networks that scale. The romance is imperfect but enduring, and the city adopts policies that become a replicable blueprint — a realistic yet hopeful outcome that balances morality and pragmatism."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

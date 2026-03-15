@@ -1,0 +1,45 @@
+graph TD
+    classDef fileNode fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    chapter18_rpy[chapter18.rpy]:::fileNode
+    script_rpy[script.rpy]:::fileNode
+    chapter15_rpy[chapter15.rpy]:::fileNode
+    chapter2_rpy[chapter2.rpy]:::fileNode
+    chapter19_rpy[chapter19.rpy]:::fileNode
+    chapter21_rpy[chapter21.rpy]:::fileNode
+    chapter20_rpy[chapter20.rpy]:::fileNode
+    chapter12_rpy[chapter12.rpy]:::fileNode
+    chapter4_rpy[chapter4.rpy]:::fileNode
+    chapter17_rpy[chapter17.rpy]:::fileNode
+    chapter3_rpy[chapter3.rpy]:::fileNode
+    chapter7_rpy[chapter7.rpy]:::fileNode
+    chapter13_rpy[chapter13.rpy]:::fileNode
+    chapter11_rpy[chapter11.rpy]:::fileNode
+    chapter16_rpy[chapter16.rpy]:::fileNode
+    chapter14_rpy[chapter14.rpy]:::fileNode
+    chapter9_rpy[chapter9.rpy]:::fileNode
+    chapter5_rpy[chapter5.rpy]:::fileNode
+    chapter6_rpy[chapter6.rpy]:::fileNode
+    chapter8_rpy[chapter8.rpy]:::fileNode
+    chapter1_rpy[chapter1.rpy]:::fileNode
+    chapter10_rpy[chapter10.rpy]:::fileNode
+    chapter1_rpy --> chapter2_rpy
+    chapter10_rpy -->|Option: 'Endors..| chapter11_rpy
+    chapter10_rpy -->|Option: 'Sneak ..| chapter13_rpy
+    chapter10_rpy -->|Option: 'Refuse..| chapter21_rpy
+    chapter12_rpy --> chapter14_rpy
+    chapter13_rpy -->|Leak everything..| chapter15_rpy
+    chapter13_rpy -->|Insert strict c..| chapter18_rpy
+    chapter13_rpy -->|Step back from ..| chapter7_rpy
+    chapter14_rpy -->|Leak everything..| chapter16_rpy
+    chapter14_rpy -->|Insert strict c..| chapter19_rpy
+    chapter14_rpy -->|Step back from ..| chapter8_rpy
+    chapter2_rpy --> chapter3_rpy
+    chapter3_rpy -->|I will stand wi..| chapter4_rpy
+    chapter3_rpy -->|We will open a ..| chapter9_rpy
+    chapter3_rpy -->|I have evidence..| chapter12_rpy
+    chapter4_rpy --> chapter5_rpy
+    chapter5_rpy -->|We rebuild tran..| chapter6_rpy
+    chapter5_rpy -->|Negotiate a for..| chapter17_rpy
+    chapter5_rpy -->|Expose the deve..| chapter20_rpy
+    chapter9_rpy --> chapter10_rpy
+    script_rpy --> chapter1_rpy

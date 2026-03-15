@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpret ‘Climate Change’ + Romance as a narrative that uses an existential, planetary crisis to test intimacy, trust, and moral choices. The core conflict pits community-centered, ecological adaptation against technological/financially-driven mitigation that risks cultural and environmental harm. Romance is woven into those stakes: choices for love mirror choices for the planet (stay or leave, protect people or ecosystems). The player's decisions will balance personal connection, community resilience, and systemic change, creating routes where emotional growth and climate ethics interact.",
+    "setting": "A near-future coastal town called Saltline — once a sleepy fishing village now threatened by rising seas and increasingly violent storms. It sits between salt-silver beaches, patchwork reclaimed marshlands, and a craggy cliffside where wind farms and weather sensors punctuate the skyline. Atmosphere: bittersweet, wind-swept, and hopeful; a place where human warmth and weathered architecture meet experimental green tech and stubborn traditions.",
+    "visual_style": "Soft neo-ecological realism, Anime cel-shaded characters, muted coastal palette (sea-glass greens, storm-grays, rusted ochres), natural textures (salt, kelp, weathered wood), warm interior lamps vs. cold storm lighting",
+    "main_characters": [
+        {
+            "name": "Marin Alvarez",
+            "role": "Protagonist",
+            "personality": "Empathetic and earnest, scientifically literate but emotionally guarded. She balances practical problem-solving with a deep care for community rituals. Can be stubborn and guilty about past choices but learns to accept collaboration and vulnerability.",
+            "appearance_features": {
+                "hair": "Dark teal bob with a single salt-silver streak at the temple; slightly wind-tousled.",
+                "eyes": "Sea-glass green, rounded and observant with soft crow's feet beginning at the corners from squinting into sunlight.",
+                "clothing": "Layered utilitarian style: patched olive field jacket with tide-resistant lining over a faded floral dress and heavy canvas boots. Often wears rolled-up sleeves for field work.",
+                "accessories": "Weathered leather satchel filled with notebooks, a tide-worn seashell necklace passed down from her grandmother, and a compact environmental sensor wristband with a frayed strap."
+            },
+            "goal": "To design and implement adaptive solutions that protect Saltline's people and ecosystems while reconciling her own sense of responsibility for past choices.",
+            "background_story": "Grew up in Saltline, left to study coastal engineering abroad, then returned after a major flood. She hoped to bring technology and knowledge, but found local distrust and cultural tensions. Haunted by a failed reinvestment project she advocated for years ago, which displaced a marsh habitat.",
+            "emotional_trait": "Resilient optimism tinged with survivor's guilt; tends to overwork to avoid emotional confrontation."
+        },
+        {
+            "name": "Kaito Sakamura",
+            "role": "Love Interest",
+            "personality": "Warm, steady, and quietly courageous. A creative maker — community-oriented, patient, and impulsively romantic in small, meaningful ways. He believes in incremental, craft-based resilience and community rituals.",
+            "appearance_features": {
+                "hair": "Thick black hair with sun-bleached tips, usually tied into a loose short ponytail with stray strands.",
+                "eyes": "Warm amber, almond-shaped, gently smiling even when serious.",
+                "clothing": "Well-worn indigo denim apron over a linen shirt and weathered trousers; always has rolled cuffs and a utility belt with carpentry tools.",
+                "accessories": "Hand-carved wooden compass pendant, a paint-splattered sketchbook tucked in his back pocket, and calloused hands with a small burn scar on the right thumb."
+            },
+            "goal": "To preserve Saltline's cultural identity and help neighbors adapt with humane, low-impact solutions, while deepening trust with Marin.",
+            "background_story": "Born and raised in Saltline; son of a boatbuilder. He runs a cooperative workshop that repurposes salvaged materials into resilient infrastructure. Stayed behind when others left because he felt obligated to protect the community songs and rituals.",
+            "emotional_trait": "Patient steadiness; his strength is consistency, but he can avoid big confrontations to keep peace."
+        },
+        {
+            "name": "Elena Moro",
+            "role": "Antagonist",
+            "personality": "Charismatic, efficient, and persuasive; presents as pragmatic and solution-focused. Underneath is a tightly controlled fear of failure and a belief that large centralized projects are the only way to save the region.",
+            "appearance_features": {
+                "hair": "Platinum-blonde, sleek bob, perfectly parted and lacquered against the elements.",
+                "eyes": "Steely gray, sharp and assessing, almost metallic in profile.",
+                "clothing": "Tailored, high-tech waterproof trench coat with a corporate emblem; crisp dark trousers and polished boots — she favors function framed as authority.",
+                "accessories": "Holographic ID badge, a minimalistic smartwatch that projects data streams, and a small engraved business card case with her agency's logo."
+            },
+            "goal": "To implement an ambitious engineered coastal barrier and automated urban retrofit that will secure the broader district, even if it requires centralizing control and displacing some local practices.",
+            "background_story": "Former environmental engineer who moved into policy and corporate infrastructure. She believes big systems can outpace climate threats, motivated by a childhood city lost to inundation. Her pragmatic approach has alienated grassroots groups.",
+            "emotional_trait": "Calculated decisiveness rooted in fear of chaos; struggles to accept small-scale, slow solutions as adequate."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rin Okubo",
+            "relation_to_main": "Childhood friend of Marin",
+            "appearance_summary": "Short, freckled, usually in bright knit hats and oversized sweaters; hands stained with ink from community posters.",
+            "function_in_story": "Emotional anchor and messenger — keeps social memory alive, runs a community bulletin, helps bridge Marin and skeptical locals."
+        },
+        {
+            "name": "Luka Sorensen",
+            "relation_to_main": "Mentor figure to the community (lighthouse keeper/elder)",
+            "appearance_summary": "Tall, stooped slightly with age, white beard with sun-creased skin; wears layered wool and a worn oilskin coat.",
+            "function_in_story": "Provides historical context, town wisdom, and ceremonial grounding; offers moral perspectives and occasional hard truths."
+        },
+        {
+            "name": "Maya Chen",
+            "relation_to_main": "Local teenage activist / protégé of Marin",
+            "appearance_summary": "Short-cropped hair dyed teal at the tips, functional hoodies with patchwork, always carrying a camera.",
+            "function_in_story": "Represents the next generation; pushes urgency and grassroots tactics, sometimes clashes with Marin's caution but ultimately allies for community solutions."
+        },
+        {
+            "name": "Ishaan Rao",
+            "relation_to_main": "Policy liaison aligned with Elena",
+            "appearance_summary": "Sleek suits with subtle saltstains, neat beard, clear voice and corporate poise.",
+            "function_in_story": "Embodies institutional pressure and funding incentives; negotiates terms and provides bureaucratic obstacles and opportunities."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Saltline Harbor",
+            "visual_description": "A crescent of weathered docks and low warehouses. Lighting alternates between muted dawns (silver-blue mist) and harsh, salt-laden noons. Colors: rusted iron, kelp-brown, and sea-glass green. The air smells of brine and tar; rope textures and wet wood are prominent. Background art emphasizes rolling tides, tethered fishing boats, and patched-up props turned into vertical gardens."
+        },
+        {
+            "name": "Tidewise Lab & Greenhouse",
+            "visual_description": "A converted boathouse with glass panes fogged from humidity; warm amber interior lights contrast the cold blue of the sea outside. Interior is dense with potted marsh plants, sensors blinking soft greens, and condensation tracks on glass. Surfaces show salt crystals, copper pipes, and hand-scribed diagrams pinned to walls."
+        },
+        {
+            "name": "Sunken Promenade",
+            "visual_description": "A partially submerged boardwalk with tilted lampposts and seaweed draped over benches. Twilight scenes emphasize reflective puddles and orange-tinged streetlamps battling the blue of encroaching water. Architecture here is anachronistic: mosaic tiles half covered by sand, shards of bakery tiles glinting under shallow water."
+        },
+        {
+            "name": "Cliffside Gardens",
+            "visual_description": "Terraced plots carved into wind-blasted cliff faces. Lighting is crisp and airy with long shadows at golden hour. Plant beds are a collage of salvaged materials and windbreak netting; small wind turbines and solar patches glitter. The mood is contemplative and open, with sea spray halos and distant thunderheads."
+        },
+        {
+            "name": "Community Hall / Storm Room",
+            "visual_description": "A warm, wood-paneled auditorium with string lights and maps plastered across walls. During storm planning sessions the space becomes clinical — large screens, chalked diagrams, and charged faces. Lighting shifts from cozy lamplight (post-meeting gatherings) to cool blue screen-light during emergency simulations."
+        },
+        {
+            "name": "Floating Farm & Coral Nursery",
+            "visual_description": "A low-lying cluster of modular platforms bobbing at the harbor edge. Turquoise waters cradle neat arrays of planted beds and suspended coral frames. Sunlight breaks through thin cloud with crystalline reflections, creating a hopeful palette of bright greens and aquamarines. The architecture is experimental: bamboo scaffolding, recycled plastic, and translucent domed nurseries."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love",
+        "Responsibility vs. Pragmatism",
+        "Community Resilience"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A cooperative hybrid solution is implemented: community-led adaptation scaffolded with targeted engineering. Saltline preserves its culture and ecology; Marin and Kaito commit to a partnership that blends technical expertise and craft. Elena adjusts strategy and becomes an uneasy ally."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Marin helps secure a scientifically effective barrier, but it requires relocating some vulnerable ecological sites and a portion of the town. Marin and Kaito part ways temporarily — Marin leaves to scale solutions elsewhere while promising to return. The town survives, but things have changed; relationships endure with distance and letters."
+        },
+        {
+            "type": "Sad",
+            "summary": "Centralized mitigation is rushed through with corporate control; the barrier protects economic centers but destroys coastal commons and displaces many residents. Marin's relationship with Kaito fractures when he leads resistance and she helps implement the plan. Saltline stabilizes materially but loses much of its cultural identity."
+        },
+        {
+            "type": "True",
+            "summary": "Marin chooses moral coherence over easy technical victory: she refuses to endorse either full-scale centralized engineering or purely artisanal resistance. Instead she helps seed a federated model of shared governance and environmental stewardship. Progress is slow and imperfect, but community agency is restored and the romance grows as a mature partnership rooted in common values rather than dependency on a single savior."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

@@ -1,0 +1,146 @@
+label chapter2:
+
+    # [Scene: Asteria Coastal Research Lab | Late Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of refrigeration units, distant wave impact; a kettle clicking off]
+    # play music "music_placeholder"  # [Music: Quiet, restrained piano loop]
+    "You step inside and the air shifts—ozone and coffee, the faint, wet tang of algae pressed into sample vials. The lab's glass walls catch the bay as a line of gray; inside, screens throw a cool"
+    "wash across your face, making the silver streak in your hair shine like a margin note. Your tablet is tucked under your arm. Your palms still know the weight of the crate from the rooftop, though"
+    "it's gone from your hands and not from your head."
+    "A cluster of monitors display the living-shoreline models: delicate lines of mangrove root analogs, sediment-trap sketches, time-series graphs that bulge and flatten like breath. You run your thumb along a simulated cross-section until the cursor blinks"
+    "back at you—data in neat columns, community-reported damage layered into the model as qualitatively as any sensor reading."
+    "Asha stands near the lab bench, bent over a petri of marsh grass, spectacles low. When she looks up the room pauses with her—she smells like cold marsh and eucalyptus tea, and there's a steadiness in the set of her shoulders that steadies you in return."
+    show asha_karim at left:
+        zoom 0.7
+
+    asha_karim "They'll be frayed at the edges today,' she says. 'Remember—numbers are anchors, not weights. If you hand us a rope, they won't drown."
+
+    "You try to answer with method instead of sentiment. You show her the composite map—wave attenuation here, community access preserved there. You say the words you trained to say" "attenuation coefficients,' 'cost-benefit adjusted for displacement,' 'phased co-design."
+
+    asha_karim "Good,' she says, then softens. 'Speak the technical. But don't let it be all ledger and no people."
+    "You nod, though your throat tightens. You want to make the room see marshland as civic fabric, not as a checkbox on an environmental assessment."
+
+    menu:
+        "Re-run the simulation one more time":
+            "You slide a new data layer into the model—community-reported damage from the last storm—watching the attenuation curves adjust slowly. It calms you in the way familiar routines do."
+        "Close the laptop and rehearse your opening aloud":
+            "You stand in the narrow aisle and say your first sentence out loud, as if you were speaking into a crowd. The words shape themselves differently when they leave your mouth: less perfect, more human."
+
+    # --- merge ---
+    "Asha watches the brief ritual—your fingers, your breath. She does not tell you to stop calibrating. Instead she puts a hand on the back of a stool, the smallest steadiness, and says nothing about your tendency to keep polishing."
+    "You let the lab be a place to collect yourself. Diego's messages ping at the edge of your tablet—short bursts, schematic thumbs—reminders that the promenade will be there regardless of how the council votes. You tuck them away like small coals you might later warm."
+    "You lift your tablet, the models backed up and annotated. You move toward the sliding doors with the small, measured gait of someone trying not to carry the world into a room that is already crowded with expectations."
+    # [Scene: Council Hall | Early Afternoon]
+    hide asha_karim
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmured council traffic, a shuffling of papers; the ventilation sighs like the sea through a vent]
+    # play music "music_placeholder"  # [Music: Low, sustained string pad under dialogue]
+    "The Council Hall smells different—less of earth, more of varnish and old paper, the tang of everyone in a closed room holding their own opinions like coins. Mayor Lila Chen sits at the dais, plant brooch"
+    "glinting, a measured smile that keeps public weather from breaking into private storms. Her attentive face is practiced at holding different voices at once."
+    "At the back of the room, half in shadow, Noah Ortega stands with his arms folded, tablet balanced in one hand. There is a line at his temple, a kind of focus that has nothing to"
+    "do with theatrics—only consequence. His steel-gray eyes narrow as the fluorescent glare cuts across them, but his expression is complex: contained, perhaps weary, definitely calculating. You cannot tell if he has already decided, or is still"
+    "assembling reasons to persuade himself."
+    show emil_kwon at left:
+        zoom 0.7
+
+    emil_kwon "You ready, Maya?"
+    "He sets a small retrofit prototype on the table before you—modest, handmade, honest. It smells faintly of tar and wet rope."
+    "You take it—rubber tread; a simple shock-absorbing insert—and the object grounds you. It is a small, blunt proof: people can make things that work without a billion-dollar bond underwritten by promises."
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "I am,' you say. 'I have the attenuation models and the community-phase plan. I will be concise."
+    show mayor_lila_chen at center:
+        zoom 0.7
+
+    mayor_lila_chen "We appreciate clarity.' She gestures toward the lectern. 'When you're ready, Ms. Reyes."
+    "You step forward, lift the tablet so the blue of the monitors casts you in that lab-light again, and begin."
+
+    maya_reyes "Council members, Mayor Chen—I've prepared a suite of living-shoreline scenarios that reduce nearshore wave energy by up to thirty percent in pilot zones, while preserving access and local economy. They work with existing marshes, require smaller capital outlays over five years, and—' (you slow) '—they allow communities to remain active partners in the maintenance."
+    "You feel your words in the way water feels against skin: deliberate, cool, and trying not to rush."
+    "Noah Ortega stands then, interrupted not by heat but by the movement of inevitability. He sets down a sleek schematic of a reinforced seawall—an engineered arc, clean as a promise."
+    hide emil_kwon
+    show noah_ortega at left:
+        zoom 0.7
+
+    noah_ortega "The Consortium has modeled a contiguous seawall that protects the economic core immediately,' he says. 'Bonding mechanisms are ready. Timelines are compressed to reduce exposure during the high-risk window next year."
+
+    maya_reyes "That design gives protection in concentrated zones, but it also accelerates displacement risk for lower-lying neighborhoods. Floodwaters don't respect municipal boundaries—they shift pressure. Our surveys show disproportionate impact on cultural centers if the wall is built at scale without participatory measures."
+
+    noah_ortega "We have to choose what we save. A distributed shoreline slows erosion but loses time. A seawall buys us predictive certainty while we transition infrastructure for the rest."
+    "Your pulse softens into a low ache. You can see the logic on his tablet—numbers that glitter with authority—but between his words and your data is a ledger that lists more than monetary loss. It lists memory, markets, food stalls, the rhythm of Sundays on stilts."
+
+    "Mayor Lila Chen (interjecting, diplomatic)" "Both proposals have merit. What's the projected municipal expenditure difference, Ms. Reyes?"
+
+    maya_reyes "Upfront capital favors the seawall. Life-cycle costs and social externalities favor the living-shoreline approach when you factor in avoided displacement and ecosystem services. The question isn't only money—it's who builds and who decides."
+    "Diego leans forward, voice threaded with the urgency of someone who distributes flyers in the rain."
+    hide maya_reyes
+    show diego_ramos at right:
+        zoom 0.7
+
+    diego_ramos "We can build the living-shoreline solutions with community workshops. People will show up when they know they have agency. We don't need to be done by market quarters—we need to be done with who will live there."
+
+    noah_ortega "And what if the process isn't done in time? Markets don't wait for consensus. If the core collapses, the entire municipal revenue stream collapses with it. That threatens services for everyone you want to protect."
+    "You feel each argument like tide forces against a seawall of will. The room listens, the air between words holding small, electric fractures. Conversations begin to cross; a council aide whispers numbers, a member frowns at the spreadsheet, a reporter's pen scratches."
+
+    menu:
+        "Underline community quotes on your slides before Q&A":
+            "You swipe through your deck, pinning a slide with testimonies from promenade vendors. The room shifts; some faces soften, others look for the ledger beneath the human words."
+        "Leave the slides data-focused and answer the human questions orally":
+            "You close the testimony slide and prepare to answer questions with stories rather than static pages. When asked, you will have to conjure faces and places out of memory—and that makes your voice rawer, but real."
+
+    # --- merge ---
+    "Mayor Lila Chen: (after a beat) 'Ms. Reyes, please speak to cost and timeline specifics.'"
+    "Mayor Lila Chen: (after a beat) 'Ms. Reyes, please speak to cost and timeline specifics.'"
+    hide mayor_lila_chen
+    show maya_reyes at center:
+        zoom 0.7
+
+    maya_reyes "Phased implementation—pilot in the promenade and adjacent neighborhoods in year one, monitoring-driven scale-up in years two and three—keeps costs staggered and allows for community labor inputs. We can lower capital demands by leveraging grassroots workshops and local procurement."
+
+    "Council Member" "But will it physically stand up to the projected seven-year storm events? We are hearing from engineers that these are non-trivial risks."
+
+    maya_reyes "The models show targeted attenuation in pilot zones reduces immediate wave power on key piers and market structures. We'll combine engineered anchors at strategic nodes—surgically placed—so this isn't an either/or. The risk isn't eliminated, but the social risk of displacement is mitigated."
+
+    "Noah Ortega (leaning in, quietly)" "Mitigation comes with an asterisk when budgets are tight and bond markets demand guarantees. Hybrid approaches are politically delicate. Who guarantees the guarantees?"
+    "You hear it like a question that wants more than an answer. Guarantees require institutions. Institutions, in turn, require power. You think of Diego rolling up maps in damp hands, Emil Kwon's practical optimism, Asha's softly practical insistence that evidence and people are not mutually exclusive."
+    "Asha appears then, not from behind you but beside the dais, her movement smooth and patient. She pulls you aside, her hand on your elbow an anchor you accept without thinking. Her breath smells of marsh again."
+    hide noah_ortega
+    show asha_karim at left:
+        zoom 0.7
+
+    asha_karim "You can hold both evidence and people,' she says, very close, so only you hear. 'Do not let the glint of a single solution blind you to the slow work."
+
+    maya_reyes "I'm trying not to,' you whisper. 'But they—' (you gesture toward the room, toward Noah Ortega, toward the spreadsheet—too many things) '—they hear numbers louder than voices."
+
+    asha_karim "Then give them both. Numbers that reference faces, and faces who can point to process. Make them uncomfortable in a way that also makes them responsible."
+    "You step back into the light and continue to answer the threaded questions. The pace is measured, not frantic, each response a small, deliberate wave rather than a breaking surge. You find that the low hum"
+    "in the room is not a lull but a pressure—the kind best felt slowly, seeping into the joints."
+    "Noah Ortega watches with an expression that doesn't translate easily to warmth or contempt. It remains, for now, complex—aligned with duty more than with malice. The consortium slides he taps into are clean: bond yields forecast,"
+    "rapid construction schedules, contingency clauses. They glitter the way polished metal does in low sun—beautiful enough to distract."
+    "When the session breaks for a short recess, the hall's energy feels tilted—the Consortium's numbers have moved from background noise to a visible weight on the table. The council members murmur in small groups; the futures of neighborhoods are weighed in whispered calculus."
+    "You fold your tablet, heavier than when you arrived. It is not only the data but the knowledge that the room's appetite is for clear, fast solutions. That appetite is not wrong—it is frightened—but it does not automatically listen for the slow voices."
+
+    "Emil Kwon (quietly, at your shoulder)" "Whatever happens, we'll keep building. If they vote seawall, we adapt our designs. If they don't, we scale what we can."
+
+    maya_reyes "I know. I just… I don't want to go back to feeling like every decision erases someone."
+
+    diego_ramos "Then tell them that. Tell them what gets erased."
+    "You step toward the exit with the small prototype tucked back into Emil Kwon's satchel. Asha's hand squeezes your shoulder—brief, a punctuation."
+    hide diego_ramos
+    hide maya_reyes
+    hide asha_karim
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: A single, unresolved piano chord hangs]
+    "You leave the hall with the image of Noah Ortega's face behind you: patient, assessing, like a tide you cannot yet predict. It is not hostility as much as a current—quiet, inevitable, and demanding accounting."
+    "Page-turn thought: You have given them evidence and voices. The room's tilt is measurable now; the next move will feel like the city choosing between speed and the slow tending of community life. There are votes"
+    "to be cast, leaks to be feared, and alliances to be tested. Whatever comes next, the tablet in your bag is heavier with consequence than with data."
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

@@ -1,0 +1,107 @@
+[Scene: Tideworks Lab | Morning]
+[Visual: Concrete interior softened by strings of hanging plant trays and warm grow‑lights; algae samples in jars line a workbench]
+[Sound: Low hum of a dehumidifier, distant gulls, the soft clatter of instruments]
+[Music: Light, hopeful strings — an undercurrent of forward motion]
+
+You step across the threshold of Tideworks as if entering a familiar argument: equal parts optimism and stubbornness. Salt crusts at the edge of the doorway, coffee steam lifts from a chipped mug, and the smell of wet soil stitches itself to the tang of laboratory bleach. Your notebook swings at your hip; the potted cutting in its sling sighs with the air.
+
+Dr. Jun is bent over a bank of monitors, finger tracing a line on a screen like reading a pulse. He greets you without looking up, voice a comfortable instrument you've learned to trust.
+
+Dr. Jun: "You're right on time. The early tide made the southern sensor jump three times last night — nothing catastrophic, but enough that I want to cross‑check the drift models."
+
+You move to stand beside him, palms warmed by the lab's diffuse light. The graphs bloom under your gaze: salinity spikes, microbursts of turbidity around the reclaimed mangrove roots, a rhythmic swell in pump load that corresponds to the municipal grid's brownout windows.
+
+You: "Walk me through it. Where are the anomalies concentrated?"
+
+Dr. Jun: (pointing) "Zone C — the old estuary mouth. Salinity rose faster than predicted between 02:00 and 04:00. We have a lag in sensor reporting during heavy rain; the filter housings are fouled. The living seawall prototypes held, but the microchannels clog quicker than the model said. It's small, but accumulative."
+
+You tilt your head, feeling both the annoyance of the problem and the shape of the solution. Problems here are tangible: clogged channels, misaligned bolts, an extra hand on a cold morning. You think of the people who will rely on this data when the city council asks for proof.
+
+You: "If the channels clog faster, we need redundancy — a bypass for critical flows, and easier access points for quick cleaning. Can we model a modular bypass that the community can service without specialized tools?"
+
+Dr. Jun: (nodding) "We can. It'll add frictional loss for low flows, but the trade‑off is resilience. I can sketch a retrofit. Also — (he hesitates, then softer) — Jun's rule: when the numbers go wonky, remember the people who'll be wading through it by hand."
+
+A small, grateful laugh leaves you. Jun's metaphors are always practical bones draped in kindness.
+
+You: "Good. Sketch it, then we'll show it to Hana and see if her pump arrays can play nice with the bypass."
+
+Dr. Jun's fingers dance across the keyboard. The screens rearrange; a holo bridge pings in the corner of the room. The projection unfurls: a detailed, crisp schematic from Aegis Tower, and, inside it, a holographic presence resolves into Hana's cool silhouette.
+
+[Visual: Holoprojection — Hana appears in soft blue light, precise lines around the edges of her blazer; a modular pump array rotates beside her head like a planet]
+[Sound: Holo-connection tone, a gentle chime]
+[Music: A single bright chord, then a steady optimistic beat]
+
+Hana (Holo): "Good morning, Asha. Dr. Park. I'll keep this concise — modular pump units, low-draw brushless motors, snap‑in filter assemblies. They scale horizontally, you attach them to existing conduits, and they run on variable microgrid power."
+
+You study her face in holographic relief. The AR monocle that usually rests at the corner of her eye is translated into a ribbon of data sliding across the holo. Her tone is calm and sure; the presentation is clinical, efficient. There's an undercurrent of something else beneath the precision — the weight of someone who has learned to make decisions by measuring consequences.
+
+Hana (Holo): "Preliminary simulations indicate a 23–28% reduction in peak flood load when distributed across twenty units, with an optional desalination stage that can be toggled for potable‑water support."
+
+You: (leaning in) "What's the maintenance profile? If the community is going to operate ten of these units, they need to be serviceable between fund cycles."
+
+Hana (Holo): "Modular design. Panels can be swapped with standard hex tools; filters are a quarter‑turn release. The analytics package will flag fouling before it hits critical. We can train local teams in a weekend."
+
+Jun watches the exchange with an expression that mixes curiosity with cautious optimism.
+
+Dr. Jun: "And the power draw when the grid hits brownout? The living seawall's microchannels rely on passive flow, so the pumps need to be smart about when they run."
+
+Hana (Holo): "Adaptive scheduling. Priority for surge events. We also integrated a low‑power emergency mode using hand‑cranked capacitors for short bursts — not optimal, but it buys you life during outages."
+
+You let her words wash over you. The proposal is elegant in a way you respect: a set of clean, scalable pieces that could, on paper, plug into your living systems. Yet your chest tightens with the knowledge that technology always carries social seams — who controls the diagnostics, whose firmware decides the thresholds.
+
+You: "Who owns the telemetry? If the units report back to Aegis servers, I need assurances about local control."
+
+Hana (Holo): (a flicker — unreadable) "We can localize the data. Open APIs, community keys. Leon is pushing for central telemetry to optimize across the bay, but I can isolate a local layer — configurable by request."
+
+Her expression doesn't change in the holo, but something in the cadence of her voice makes you register history: an offer of goodwill wrapped around practical friction. Your reaction to Hana — a tidal mix of old companionship and present distance — feels too complicated to label in a single beat.
+
+[Interactive Moment: Choice A ("Press for transparency: ask for a on‑paper legal guarantee") -> Reaction: "You push, feeling the old reflex that kept you guarded. Hana's holo flickers. 'I'll draft the clause myself,' she replies. Jun gives you a brief, approving nod, the sort that says small victories matter." || Choice B ("Accept the technical terms for now, focus on community fit") -> Reaction: "You let the legal knot wait; for now you choose practicality. Hana's projection softens slightly. 'I'll prepare a local deployment protocol,' she says, and Jun taps a note into the console: 'Pilot readiness.'"] 
+
+Hana's projection folds into a compact schematic and the holo link pings closed. The lab feels warmer with possibility; the suggestion of hybridized solutions is in the air like steam. You sense momentum—an important kind of progress. But you don't want to ride momentum without the community's feet on the ground.
+
+[Visual: The holo fades; the lab's grow‑lights glow greener for a moment]
+[Sound: The distant, familiar thrum of a small boat engine — Elias approaching]
+
+You head for the back door where the lab opens to a sloped walkway down toward the harbor. The light tilts; the city presents itself in layers: rooftop gardens, patchwork solar, a glint of Aegis Tower across the bay. Elias is waiting near the piling, leaning against a crate of reclaimed plastics. His hair is wind‑tossed; his smile folds the harbor into a private joke.
+
+Elias: (grinning) "You look like someone who just brokered peace between a pump and a mangrove."
+
+You: (laughing despite yourself) "I wish it were that neat. Hana's got a clean proposal. Jun has retrofit ideas. I have coffee stains on my sleeve."
+
+Elias's laugh is easy and bright; it loosens that last tight coil in your chest. He steps forward and hands you a foil‑wrapped sandwich as if it were a talisman. The harbor smells of iodine and citrus from a vendor cart; rope and diesel and the faint sweetness of algae.
+
+Elias: "Work through lunch. Classic Asha. Good. Listen — the street teams are painting a banner for the mayor's hearing. Same message: 'Protect La Marisma, Protect People.' I can get the banner up near the boardwalk and keep the morale high. You want me to speak, or do you want the focused scientist look?"
+
+You study his face. Elias has always been the heart in motion: a living declaration that people move when someone brightens the path in front of them. You want him near the negotiation but not in a way that overshadows the technical credibility you and Jun and Hana are assembling.
+
+You: "I want you where you do the most good. Rallying the neighborhood. Get their stories in front of the mayor. I'll handle the technical presentation with Jun — and Hana, if she'll take the floor for modular systems. We'll need the human stories too. This has to feel like a community ask, not a lab pitch."
+
+Elias: (a small, pleased smile) "Perfect. I'll make it loud and sweet. And Asha — (he drops his voice, half joke, half confession) — maybe keep a little room for me to say one quiet, inconvenient thing about why we don't leave our home."
+
+There is a softness in his eyes that lands somewhere warm inside your ribs. You feel a tether — not a chain — but a connection that makes compromise seem less like surrender and more like construction.
+
+[Interactive Moment: Choice A ("Ask Elias to lead with personal testimonies") -> Reaction: "You ask him for stories, concrete faces, dates. Elias nods, eager, already assembling a list. 'Sofía's got two, Teo's working on one about the pumps,' he says. Your chest fills with a fragile, steady hope." || Choice B ("Ask Elias to coordinate logistics and keep the rhetoric tight") -> Reaction: "You ask him to keep the messaging tight and factual. Elias frowns—surprised—but agrees. 'I'll make sure the emotion has structure,' he says, and the plan feels more bulletproof for it."])
+
+You feel practical and buoyant at once: the technical pathways, community voices, and activist energy are aligning like the pieces of something you can call a plan. The mayor's hearing hangs ahead of you like a tide: inevitable, shaping, capable of giving or taking. You close your notebook and check the equipment list on the bench, fingers grazing the green tape on your multi‑tool.
+
+Jun pats your shoulder with gentle certainty.
+
+Dr. Jun: "You're doing the right thing. Data, community, a tested pilot — it's the trifecta. Even Leon's people will find it harder to dismiss real numbers with neighbours behind them."
+
+You take a breath that tastes of salt and coffee and the kind of determination that comes when people start showing up.
+
+You: "We leave for the hearing in an hour. I'll brief the mayor on the retrofit pilot, the modular pumps, and our community training plan. Elias will marshal the stories. Jun will present the sensor cross‑checks. Hana... she'll present the technical deployment."
+
+For a brief second, hope inflates like a sail: competent, coordinated, communal. You feel the arc of the morning pushing you toward the place where policy and people meet.
+
+[Visual: The harbor horizon brightens; gulls wheel in a high blue band]
+[Music: Strings rise into a warm, anticipatory swell]
+
+You gather your things and glance back at the lab — a little world of jars, maps, and hands that won't stop working. The plan is fragile, yes, but it's built on feet. You step onto the boardwalk, Elias falling into stride beside you, Jun already swapping out a tool for the meeting kit. Ahead, the mayor's hearing waits like an incoming tide: a shape you can meet if you keep your balance and hold the line.
+
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": 3
+}

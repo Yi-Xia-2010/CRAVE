@@ -1,0 +1,122 @@
+label chapter1:
+
+    # [Scene: Harbor & Living Sea Wall | Before Dawn]
+
+    scene bg ch1_Start_1 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse, low piano motif — slow, contemplative]
+    # play sound "sfx_placeholder"  # [Sound: Light rain tapping, gulls calling distantly, wet wood creaking]
+    "You step off the bus before the town wakes. The air is cold and clean — a metallic tang of salt that climbs into your nose and settles behind your eyes. Your boots whisper on the"
+    "planks. The canvas of your messenger bag is damp where the rain caught it; your compass pendant thuds gently against the leather strap as you swing the bag off your shoulder and tighten the navy bandana"
+    "against the rising wind."
+    "Your notebook is heavy in your bag, its corners softened by tide charts and notes. You pull it free and the papers smell faintly of seaweed and old coffee. A scrap of flyer flutters loose and"
+    "lands against your boot: Rosa’s handwriting, bold and impatient — Volunteer Tide-Watch, 0600, meet at the north jetty. You fold it back into the notebook with a thumb that still smells of salt."
+    "Where your stoop used to be there's a gap—two weathered steps gone, replaced by a patch of packed gravel and a leaning fencepost. The memory of that stoop is a weight: your mother loading crates on"
+    "a wet September morning, the house taking water up past the first step, the sound of someone shouting your name and the bright cold of a rainlight you haven't felt since. Your chest tightens around the"
+    "shape of it, small and sharp."
+    "You let the memories sit like wet stones in your palm and breathe anyway. Practically. Methodically. You check the satellite phone in your bag because habit is a kind of armor. The screen wakes as if relieved to be noticed."
+    # play sound "sfx_placeholder"  # [Sound: Satellite phone buzz — three small, polite tones]
+
+    scene bg ch1_Start_2 at full_bg
+    "You skim: a council reminder — a curt calendar ping about tonight's preliminary meeting, time stamped and polite; an invitation from Elias to meet at the repurposed boathouse (He keeps it breezy, the wording bright as"
+    "a linen shirt); and the last one blinking red: a voicemail from Dr. Henrik Sato."
+    "You tap the voicemail. His voice crackles across the salt-scented air like a distant foghorn."
+    show dr_henrik_sato at left:
+        zoom 0.7
+
+    dr_henrik_sato "(voicemail) Maya—it's Henrik. I was at the estuary this morning with the sediment core team. The cores are... unexpected. Increased silt layers, faster shoaling at the mouth than the models predicted. When you have a minute, call me back. We need to talk about marsh root stress and whether the living wall is trapping sediment in ways we didn't account for. Sorry to be so blunt, but—this could change the timeline."
+
+    "The sentence hangs between the gulls and the sea" "this could change the timeline."
+    "You don't answer right away. You tuck the phone back into your bag and let the sound of the harbor reassert itself — a conscious practice, a small refusal to be dragged into motion before you've anchored yourself."
+    # [Scene: Boathouse Field Lab & Greenhouse | Dawn]
+    hide dr_henrik_sato
+
+    scene bg ch1_Start_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft hum of equipment, drip of water from a leaky gutter, the faint creak of a buoy moored nearby]
+    "You cross the boardwalk to the boathouse. The door sighs open under your hand. Inside it smells like wet peat and fern soil, and the greenhouse lamps paint everything in a soft green. Your jacket is"
+    "already damp along the seams. You roll the sleeves of your overalls and set your bag down on a workbench scarred with years of measurements and coffee rings."
+    "There are small rituals that make the place yours: you push a crate against the bench, coil a length of damp rope just so, arrange the tide charts in a fan, and tap the tide-monitor screens"
+    "alive. The monitors wake with a blue pulse and then settle into numbers — slow integers crawling like tide marks on a graph. Your fingers fly across the tablet, checking last night's readings, noting the small"
+    "anomalies that feel like breathless things under the surface."
+    "From the doorway comes a familiar voice, rough with wind and laugh lines."
+    show rosa_delgado at left:
+        zoom 0.7
+
+    rosa_delgado "You're up early, Ortega. Did you steal the sunrise or is it just your habit of being dramatic?"
+    "You look up. Rosa stands framed by the rain, her hair braided tight, a stack of nets slung over one shoulder. She smells of fish and wood smoke — a lived-in scent that steadies you."
+    show maya_ortega at right:
+        zoom 0.7
+
+    maya_ortega "Neither. Just the way the tide's been shifting. I couldn't sleep."
+    "Narration: She drops the nets on a bench with a soft thunk."
+
+    rosa_delgado "You and everyone else who still remembers what used to be here. I saw your flyer stuck to your bike last week. You better not be treating this like my morning patrol. People count on this."
+    "Maya Ortega: (careful) 'I know. I'm setting up the monitors. The north jetty watch—I'll be there for the shift.'"
+    "Rosa Delgado: (tilts her head) 'Good. We need the brains this time as much as the brawn. The mayor's office keeps saying 'streamlined solutions' like a prayer. Folks are jittery. You heard from Tamsin?'"
+    "You feel the word — Tamsin — like another kind of tide: cold, inevitable. You leave the reply in your mouth, an unfinished calculus: how to protect the town without erasing it."
+
+    maya_ortega "No direct word. Only the council reminder. I'll bring the latest marsh stress map tonight."
+    "Rosa Delgado: (she laughs, sharp) 'Bring more than maps. Bring you. The town will listen if you're in the room.'"
+    "The exchange stretches into comfortable familiarity. Rosa's gaze moves to your compass pendant as if reading a sentence you haven't said."
+
+    rosa_delgado "Still wearing that old thing?"
+    "Maya Ortega: (touching it) 'Always. It helps me remember where I'm from… and why I'm trying.'"
+    "Rosa Delgado: (softening) 'Good. Don't let the meetings make you forget that.'"
+    "Her hand on the edge of the workbench is steady. For a moment the harbor is just the two of you and the drip of water. Then the practical edge returns and she pushes into motion."
+
+    rosa_delgado "Listen — tide-watchers filter in around 0600. We could use one more set of hands on the north line to check the marsh stakes. You in?"
+
+    maya_ortega "I'll be there after I get the samples logged. I want Henrik's sediment cores scanned first."
+    "Rosa Delgado: (grim) 'He sounded worried on the board. If Henrik's worried, I get worried. Old man never spooks unless it's real.'"
+    "Your chest tightens again at the mention of Henrik. He is taut humor coiled under a lab coat, a man who trusted numbers until grief rewired his voice. His voicemail plays in the back of your head like a repeat of a line you can't quite place."
+
+    menu:
+        "Make a thermos of coffee first":
+            "You head to the kettle and set it on the small stove, letting the minutes stretch while you plan the sequence of tests. The smell of coffee grounds steadies your hands, and you thumb the edge of a tide map as steam fogs the glass."
+        "Start with the sediment samples right away":
+            "You pull on gloves and lift the sample boxes from their crate, thumb through labels, and set the centrifuge to spin. Action organizes the worry into something palpable."
+
+    # --- merge ---
+    "You choose; the boathouse hums with work either way. The day arranges itself around small decisions: which sample to prioritize, which call to make first. You coil the damp rope neatly — a tidy, practical motion"
+    "you learned to do in the year after the flood. The rope smells of brine and old algae; it leaves gritty salt under your nails."
+    "On the bench your notebook lies open to a page of tidal cross-sections. A scrap of Rosa's flyer peeks out like a bookmark. You smooth it flat and find Elias's name in the corner of the page, as if it had been waiting for you."
+
+    menu:
+        "Call Elias back now, ask for clarity on his meeting time":
+            "You tap his message and press call. His voice is easy as ever; he asks how the journal is looking and suggests coffee at the boathouse. For a sliver of a second, his tone makes the work feel less heavy."
+        "Leave Elias a quick reply and focus on Henrik's voicemail":
+            "You type a short reply — 'On my way. See you later.' — then lock the phone and let the tidal graphs demand attention. The reply sits like a promise you haven't fully decided to keep."
+
+    # --- merge ---
+    "The morning folds itself into routine. You flip on the bigger tide screens in the greenhouse. They blink awake in a slow cascade of cool cyan: wave height predictions, barometric pressure, sediment turbidity indices. The numbers don't lie; they whisper."
+    "The voicemail from Henrik sits like an unwritten variable: it can be bracketed, analyzed, scheduled. But when you plug in the core samples and watch the microscopic stratigraphy crawl across the screen, the whisper becomes a"
+    "precise slope — heavier layers at the mouth of the estuary, increasing displacement of marsh sediment. The living wall, which was meant to slow erosive force, might be accreting silt in places that choke root systems,"
+    "compacting life into something else."
+    "You breathe out. The boathouse is suddenly small in the face of the geometry in front of you — lines, timelines, the difference between a model and a life. Numbers translate into houses, into fishers' nets,"
+    "into the smell of hot chowder at the boardwalk stand that might not reopen if the inlet moves. The practical clarity you prize becomes a blade: it helps you see, and it cuts."
+    "You sit in the green light and run your thumb along the tide chart margin, where one small notation becomes a knot of consequence. The emotional weight is quiet but steady — an ache that hums"
+    "just under the skin. You think of the stoop that is no more, of Luca's bent back loading flyers into the van, of Rosa's steady hands on the nets, of Elias's breezy invitations. Duty and grief"
+    "braid tight."
+    "You pick up the phone again. For a moment you consider letting the message sit until tonight's meeting — to keep the conversation public and not alarm people before you've parsed the data. Or you could"
+    "call Henrik now, wake him in the small hours, and begin untangling the technicalities before the town wakes. Either choice feels like responsibility; both feel like risk."
+    "The rain eases into a fine mist outside. The monitors tick like a heart. You feel a current under your boots — unseen, moving, inevitable."
+    "You stand, and for a second the whole town is a set of small items on a workbench: a compass pendant, a coil of rope, a faded map, a voicemail that calls for action. You breathe in the cold salt air and let the present gather around you."
+    "You know you will have to bring this to the council tonight. You know you will have to meet Elias at the boathouse. You know the town will need choices that might pull at the seams of what you and others have fought to keep."
+    "The harbor stays quiet but expectant. The gulls wheel once and fold away. You let the monitors keep their steady watch and the rain make small rivers on the glass."
+    "You touch the compass at your throat as if asking it the one question that keeps you honest: where do you stand?"
+    "For a long moment your answer is simply the list of tasks in your head. Then you turn toward the door that leads out to the boardwalk, toward the meeting you didn't know you were already walking into."
+    "You bite down on the edge of your worry and step toward the things that have to be done."
+    hide rosa_delgado
+    hide maya_ortega
+
+    scene bg ch1_Start_4 at full_bg
+    # play music "music_placeholder"  # [Music: Piano note sustains and fades, leaving a single low string]
+    "You set your hand on the doorframe and look back once at the monitors, at the coil of rope, at the open notebook. The phone hums in your pocket with the unread council reminder and Elias's gentle invitation. Henrik's words replay as if someone else is reading your margins aloud."
+    "You close your hand on the compass and step out."
+    "You feel the day tighten into shape around the small, inevitable things you can control — and the ones you cannot."
+    "A page-turn sits in your chest: a plan to make, a person to meet, a meeting to face."
+
+    scene bg ch1_Start_5 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

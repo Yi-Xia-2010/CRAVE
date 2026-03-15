@@ -1,0 +1,201 @@
+### SCRIPT
+# Route: Route B — Ending
+# Context: 6b08b4
+
+[Scene: Marrow Bay Boardwalk | Morning — Two Weeks After the Vote]
+[Background:"ch9_6b08b4_1"]
+[Sound: The rasp of paper in wind; a distant engine; neighbors talking in clipped, shocked bursts]
+[Music: Tense strings undercut with a pulsing low drum]
+
+You already knew what compromise tasted like—metal and salt—but seeing it nailed to a board, the letters a neat, unfeeling serif, makes the sensation physical. The envelope flap whispers open when you slide your thumb under it. Inside: dates, parcel maps, a line about "assistance options" that feels thin as tissue paper over a wound.
+
+You fold the notice once, twice. The coral scarf at your throat is damp with sweat where you touched it too hard last night; you press it now as if it can hold the edges of the day together.
+
+Noah is there before you; his hoodie has paint and dried mud in old places, his face already set in the practical grief of someone who moves people’s problems with his hands. He’s been waking earlier, running between porches and the volunteer van, inventorying boxes like a captain counting planks.
+
+Noah [matter-of-fact]: "We got more down at the Whitlocks'—they're staging stuff into the school gym. Aunt Lila's house is on the list, Mira."
+
+You feel the world tilt. The breath you take claws at your ribs.
+
+Mira Santos [voice tight]: "How many?"
+
+Noah [rubs the bridge of his nose]: "Too many. But—look—legal held the seawall ordinance in a few blocks. That means some can stay, at least for now. We saved Larkspur, the old market row, maybe the school. Not the rest."
+
+You want to be angry at him for naming what is saved as if that makes the losses smaller. Instead you find your hands making a to-do list in the air—names, addresses, who needs a truck, who needs medicine. The list is a lifeline and a chain.
+
+Mira Santos: "I'll ring everyone who signed the affidavits. Jun will help with the kids. Can you coordinate pickup points?"
+
+Noah [soft, quick smile that doesn't reach his eyes]: "I already started. You—take the Saltworks team list. Elias Park will need a hand."
+
+At the name, something tightens in your chest. The thought of Elias Park—of the way he used to tilt his head when he explained a wiring hack like it was a love note—feels like an accusation.
+
+[INTERACTION]
+> Choice A: "Start calling everyone on the affidavits"
+> Choice B: "Stand in the crowd and let the wind move you"
+[Outcome A: "You pull out your phone with hands that won't stop shaking. Your voice is steady on the third call, and with each name you steady a small island. The practical work is medicine."]
+[Outcome B: "You let the notice flap against your palm and look out at the water. The boardwalk hums with other people's grief; for one small breath you are a spectator and the town is a film of memories dissolving."]
+[MERGE: Continue]
+
+[Scene: Old Lighthouse | Late Afternoon]
+[Background:"ch9_6b08b4_2"]
+[Sound: Seagulls, muffled sobs, the creak of rope; a kettle whistles on a small burner]
+[Music: A minor chord progression; heart-beat understrings]
+
+Aunt Lila sits at the round table, hands folded around a mug. Her cardigan smells of soap and preserved lemon; there is a line of salt on the hem where a wave once reached. She does not look surprised. People who have seen generations of tides do not show astonishment—they catalogue.
+
+Aunt Lila [soft, measured]: "They gave us paper promise. Paper bends. Remember that, Mira. But we built with hands."
+
+You want to tell her that the legal protections are a victory, that saving key blocks means you succeeded. The syllables catch in your throat because success is a house with rooms missing, a photograph with torn edges.
+
+Mira Santos [voice frayed]: "We kept some neighborhoods. I told them—"
+Your voice frays.
+
+Aunt Lila [studying your face]: "You told them. That isn't nothing. But there is a difference between saving structures and saving what makes a place belong to people. The latter is quiet and slow. It is stories, and song, and stubbornness at dawn."
+
+You think of the market's crooked sign where you learned to tie a knot, of the old pier where Jun taught kids to rig tiny paper sails. Those things do not sit on a property ledger.
+
+Neighbor [sharp, resigned]: "They're moving people with trucks at noon. They said it's voluntary but the options are thin. They'll have 'preferred housing'—three-year leases with clauses we haven't read."
+
+Noah [grit in his voice]: "We pushed back on that clause. We flagged it. But the counsel passed the settlement. Heaps of money, certain blocks spared—the rest, they call redevelopment 'resilience.'"
+
+You close your eyes. The lighthouse room narrows. The kettle's whistle drips to silence.
+
+Aunt Lila reaches across and brushes the corner of your jaw with a knuckle, as if you are fragile china.
+
+Aunt Lila [gentle]: "You carried this town more than once. Don't carry it so your bones break."
+
+You want to laugh. You want to tear down the dais at Municipal Hall and string Cassandra "Cass" Whitlock's logo into a wreath. Instead you make a list of legal clinics and two shelters. You promise to read every clause unveiled at the next community meeting, and the promise tastes of copper and ash.
+
+[INTERACTION]
+> Choice A: "Organize an on-site legal clinic at the school gym"
+> Choice B: "Demand a public meeting now at the council plaza"
+[Outcome A: "You set timers, gather volunteers, and send out a text that feels like an incantation—'Bring documents, bring questions.' People arrive with shoeboxes of papers and trembling hands. You start to untangle the contracts in the fluorescent glare."]
+[Outcome B: "You march out to the plaza with Aunt Lila and half a dozen neighbors. Voices rise; speakers stall. Cameras catch the edge of your yelling. The crowd is a raw thing, loud and ragged, and for a beat it feels like revolution."]
+[MERGE: Continue]
+
+[Scene: The Saltworks | Early Evening — Under Corporate Lights]
+[Background:"ch9_6b08b4_3"]
+[Sound: The clack of a gate; static of a PA system; muffled arguments near shipping pallets]
+[Music: Sharp percussive strings, rising to clangs and dissonant brass]
+
+The Saltworks feels like a wound dressed in new cloth. Where you once rerouted hoses through hand-dug channels and taped sensors to reeds, there are stamped metal boxes with serial numbers, placards that read "Marrow Bay Resilience Hub — In Partnership with Whitlock Co." The sign's font is confident, authoritative. The phrase "in partnership" tastes like betrayal.
+
+You push between a line of volunteers and a security guard, the crowd pressing the day into a funnel of noise. Elias Park stands near a bench, shoulders folded inward. He holds his camera like a talisman but he isn't photographing; his hands are still.
+
+Elias Park [soft, distant]: "They offered to keep the pilot running if we signed a lease. They said it would bring scale—keep things funded. I thought—if we lock them in, we can keep the community grid running."
+
+Mira Santos [cold flash]: "You thought signing away control was protection?"
+
+Elias Park [stab of guilt]: "I—" He stops, breath shallow. "Mira, I tried to keep it ours. I argued for community governance in the clause. They offered a binding fund, operational staff, maintenance contracts—everything sounded so… secure. Noah said we couldn't afford another year of unpaid nights. I thought—I thought I could bend them."
+
+He looks at you as if your eyes will confirm whether he was right. But your vision is a shutter slamming: numbers and signatures and nights spent drafting community charters that fit neatly into a corporate annex.
+
+Mira Santos: "So you let them in."
+
+Elias Park [voice thinning]: "I let them in because I wanted people to sleep in their beds. Because I couldn't stand the idea of another winter of tents. Because—" He stops. For the first time he looks younger, raw with regret. "Because I couldn't be brave enough to burn it all down for the principle."
+
+You search his face for the man who taught you how to solder a broken pump with nothing but a paperclip and stubbornness. He is there in outline but smudged.
+
+Elias Park [a laugh like a cough]: "They kept the turbines, Mira. They replaced the hand-painted signs with banners, then let the artists keep painting the banners—'co-created.' They invited Jun to teach in their 'outreach' program. They archived Aunt Lila's oral histories in a locked server. It's all still here, but packaged."
+
+Neighbor [bitter]: "They kept the optics and took the ground."
+
+Your hands clench until the bracelet of braided leather bites your wrist.
+
+Mira Santos: "You thought money could be a leash. You thought the leash would keep everyone."
+
+Elias Park [dry, unreadable]: "I thought it was a leash with a soft handle. I didn't know it would strangle."
+
+You want to hit him. You want to throw a wrench through the nearest metal box and make the river take it. Instead you find the words that will form a new litany.
+
+Mira Santos: "You didn't tell me."
+
+Elias Park [flinch]: "I tried. I argued, I drafted, I—"
+
+Mira Santos: "You signed."
+
+The world narrows to the clench of his jaw. For the first time since you returned to Marrow Bay, you feel like an outsider to your own love story: two people trying to secure a future with different currencies—one with compromise, one with consequence.
+
+Aunt Lila arrives, moving slow but certain. She surveys the fenced Saltworks and the faces around it.
+
+Aunt Lila [to Elias Park, not unkind]: "We can't ask the river for a different tide, child. We can ask how to wash what we can from it."
+
+Elias Park [small]: "I wanted to keep it from washing away everything."
+
+A woman from two houses down chokes on a laugh that is almost a sob.
+
+Woman: "They let some of us stay. They bought out others. They hired a swath of our names as consultants—junior positions, contract work. They kept the tour and the market, but my mother's home is boxed and labeled 'transitional.'"
+
+You look at the rows of boxes on the boardwalk where volunteers huddle. People you grew up with, people who taught you to read tide lines and patience, load plywood and lamps. They fold their lives into plastic bins as if stuffing a heart into a chest cavity.
+
+[INTERACTION]
+> Choice A: "Confront the security manager about the clauses"
+> Choice B: "Grab Elias and leave before you say something you'll regret"
+[Outcome A: "You demand to read the lease; they offer you a corporate liaison. The liaison speaks in the soft coldness of PR. Your anger makes the words you want sharp and quick; their calmness is a stone wall."]
+[Outcome B: "You catch his sleeve, pull him toward the boardwalk. He moves with you but his face is a long road; he doesn't meet your eyes. Silence becomes your companion."]
+[MERGE: Continue]
+
+[Scene: Boardwalk End / Old Lighthouse Overlook | Night — After the Move]
+[Background:"ch9_6b08b4_4"]
+[Sound: Engine rumbles fading, loose tarps snapping; a distant child sobbing; the murmur of people giving each other directions]
+[Music: A swell to a dissonant, aching chord that holds]
+
+You stand at the edge where the boardwalk meets the rocky incline leading to the lighthouse. Boxes stack like small altars. The town's soft, intimate hum has been replaced by an industrial cadence—logistics over laughter. Some streets are quiet with absence; other spots are louder than before, committees and cameras and corporate spokespeople promising "inclusive resilience."
+
+Aunt Lila stands beside you, hand on the small of your back. Noah has his arm slung over a neighbor's shoulder, counting out phone numbers with a voice that is steadier than yours. Elias Park stands a little apart, his camera at his feet, his hands empty.
+
+You think of the ways in which you were compromised: the nights you stayed up drafting clauses; the moments you chose a legal compromise over a full-scale blockade; the small kindnesses you thought would save people. These are not merely choices—they are fractures now visible in the town skin.
+
+Elias Park [finally, flat]: "I can't promise I won't keep trying to make things work from within. But I can't deny I let them take pieces of what we built."
+
+You look at him and see the retreat: a man who wanted to be useful at any cost. Usefulness without sovereignty turned into purchases. He blames himself in a way that is private and corrosive.
+
+Mira Santos: "We saved roofs on heads. We lost the market's late-night music and the porch talks. The Saltworks is a museum with a payroll."
+
+Aunt Lila: "We have people who sleep in their houses tonight and names who are no longer in town. That is the ledger of a compromise."
+
+You let the sentence exist without the theatricality you want. There are no marching songs left that will fix all this. There is only this evening, these people, the aching geography of what remains.
+
+Noah [quiet]: "We can still build the school garden back stronger. We can keep the oral histories. We can make sure that their 'community programs' are actually led by us. It'll be work—long work."
+
+You feel at once calmed and hollowed by that list. The fight isn't over, but the cost has been tallied. The town's spirit has been bruised—its independent sinew thinned.
+
+Elias Park approaches, and for a second you imagine the closeness you both once fit into small spaces. He holds out his hand, tentative.
+
+Elias Park [soft]: "I'm sorry. For not telling you sooner. For thinking I could fix it by signing the same name as everyone else."
+
+You look at his hand. Your palm remembers the warmth of his fingers during quiet late-night soldering sessions, the brush against your wrist when he passed a tool. But memory is not a warrant for present trust.
+
+You take his hand and hold it for a beat—too brief for reconciliation, too long for a final severing. Outside, a truck door slams. Somewhere down the boardwalk a radio plays an old sea shanty, distorted, like something replayed through glass.
+
+Mira Santos [voice steady]: "We built things by asking people to believe. They bought belief and sold the boxes. We have work left, but the shape of what we fight for has changed."
+
+Elias Park [amber eyes unreadable]: "Then we do it anyway. Different tools. Different rules."
+
+You both know that is not enough. It is all you have, and it is insufficient in the way all apologies can be. You draw a slow breath and feel the salt air fill your lungs like a warning.
+
+Aunt Lila squeezes your shoulder. Noah closes his fist over a list and then unfolds it with the tenderness of someone counting survivors.
+
+The town is quieter now, not because the noise has left but because it has been rechanneled into other forms: legal frameworks, PR campaigns, "community partnerships." The bones remain; the marrow is thinner.
+
+You turn your face to the sea. The horizon is a bruise, the sky the color of old promises. You feel a long fatigue—one that is not surrender but the weight of a fight that cost more than you can mend in a single season.
+
+You wrap your coral scarf tighter. It cannot mend the town. It is a small, stubborn artifact of memory. It sits against your throat like a heartbeat.
+
+You close your eyes and make a vow that is neither triumphant nor naive. It is a promise to remember: to keep Aunt Lila's stories told aloud, to teach children the tide charts, to catalogue the clauses and contest them where you can. You will keep a list of names. You will hold vigils. You will build where you can.
+
+This is not the ending you wanted. It is an ending shaped by paper and signatures and the slow machinery of compacts. It is also, painfully, the place you are left: with work to do and less of your town intact than you had assumed.
+
+[Background:"ch9_6b08b4_5"]
+[Music: Dissonant chord resolves into a low, sustained note; then silence]
+
+[Background:"ch9_6b08b4_6"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

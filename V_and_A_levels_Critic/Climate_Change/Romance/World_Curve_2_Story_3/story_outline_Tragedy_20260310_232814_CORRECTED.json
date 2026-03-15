@@ -1,0 +1,471 @@
+{
+  "title": "Verdant Threshold",
+  "summary": "I (Mira Santos) stand between a community I love and two competing visions of adaptation. Elias Moreno, my love and an idealistic urban planner, brings municipal-scale solutions that promise safety but risk erasing neighborhood life; Cassian Vale offers a polished, rapid redevelopment that will protect wealthier blocks at the cost of displacing my neighbors. As King Tides grow bolder, my choices escalate: organize a grassroots living-shoreline plan, compromise and co-design with Elias, or follow Tamiko and Lina’s more confrontational exposes. Each route begins with hope and pragmatic energy but slides toward tragedy—failures, betrayals, and irreversible losses pile up. The narrative arc is a Fall: every decision introduces new failures or missteps that deepen the breach between personal desire and civic duty. Branching decisions lead to multiple endings—some personally devastating, others bittersweet or structurally transformative—but across every path the city faces bitter choices and I must confront what I am willing to lose for the people I love and the place I call home.",
+  "emotional_curve_type": "Fall (Tragedy)",
+  "player_character": "Mira Santos",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Tide Lines",
+      "branch_designation": "Common",
+      "narrative_focus": "I introduce my life on Mariner's Row, my stubborn loyalty to the people who live there, and the rising pressures from city plans and private developers. I balance practical fieldwork with memory—my grandmother's coral scarf tucked against humid air—and set stakes: seasonal King Tides are closer now, rooftops glisten with salt, and community sandbags are showing their age. Elias appears briefly at a neighborhood pop-up meeting in his linen blazer and navy messenger bag, earnest and calm, offering municipal expertise. Lina and Tamiko bring color and urgency: Lina's braided hair and teal rain boots cut through the drizzle; Tamiko's camera clicks, hungry for a story. Dr. Arun's measured voice steadies us when science leans toward alarm. I explain my water-stained notebook—maps of where families have sheltered, the brass carabiner with my keys—and why this place anchors me. Visual overlays intersperse watercolor maps with HUD-style tide projections. The chapter closes on me watching an evening King Tide lap higher against a porch step, feeling both hope and an unease that won't go away.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Positive",
+      "Arousal": "Low",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Mira Santos",
+        "Lina",
+        "Tamiko",
+        "Elias Moreno",
+        "Dr. Arun"
+      ],
+      "locations_used": [
+        "Mariner's Row"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "The Pitch",
+      "branch_designation": "Common",
+      "narrative_focus": "At Verdante City Hall Plaza, Elias presents the municipal overlay: an ambitious phased defense that could scale to other cities. He is precise—sandy-blond hair pushed back, compass pendant glinting under the lights. I witness the municipal optimism in cinematic cyan renderings but also sense the elision of social detail. Cassian Vale makes a media-ready entrance on a video feed: slick stormcoat, ice-blue gaze, offering the Vale Consortium’s decisive seawall and redevelopment. Public sentiment fractures. My empathy and resolve are tested as community leaders hash out priorities: immediate protection versus long-term social tenure. Lina and Tamiko push for community rights; Dr. Arun warns of technical quick fixes without social consent. I feel the friction in my chest between Elias’s earnest diagrams and the lived ruts of Mariner’s Row. The chapter ends as I step off the plaza into a rain-sheen alley, the city lights reflected in puddles like fragmented promises.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Cassian Vale",
+        "Lina",
+        "Tamiko",
+        "Dr. Arun"
+      ],
+      "locations_used": [
+        "City Hall Plaza"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Fractures",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "A contentious public forum at Skyfield Conservatory turns into a flashpoint. Citizens shout; municipal officials insist on timelines; Cassian’s PR team promises a private fund for re-housing that reads as thin consolation. Elias pleads for trust in his phased plan—his sea-gray eyes, usually so steady, look vulnerable while he confers with his tablet. Tamiko uncovers a suspicious fast-track clause in a draft contract tied to Vale-backed funding. Lina gets tearful on the mic about families who would be priced out. I try to mediate, balancing data from Dr. Arun with lived narratives. The room fractures along lines of expedience and justice. I realize that choices now will determine who remains on the shore and who is swept away by policy more than water. The chapter forces a crossroads: whether to accept Elias’s negotiated compromise, confront Cassian publicly, or escalate with Tamiko and Lina’s investigative route. Emotions spike; the choice will split alliances and set my path toward consequence.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I respond to the fast-track contract and the immediate pressure?",
+        "options": [
+          {
+            "label": "Negotiate with Elias, push for stronger community guarantees in his plan.",
+            "consequence": "A collaborative but risky co-design path; risks institutional delay and compromise",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Publicly confront Cassian and demand a halt; side with Tamiko’s expose approach.",
+            "consequence": "Escalation into a public fight, media attention, potential legal scrutiny of Vale",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Organize direct neighborhood resistance—shoreline defenses and an occupation to buy time.",
+            "consequence": "Grassroots standoff; immediate local solidarity but legal and physical danger",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Cassian Vale",
+        "Lina",
+        "Tamiko",
+        "Dr. Arun"
+      ],
+      "locations_used": [
+        "Skyfield Conservatory"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Co-Design Faultlines",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose to work with Elias to craft guarantees: community land trusts, phased construction schedules, and binding tenancy protections. Elias, in his slate trousers with a high-visibility vest for site visits, is earnest—he wants to reconcile systems with people. We host workshops on Mariner's Row; my patched olive jacket and coral scarf become shorthand for solidarity at public sessions. Initially, collaboration brings hope: residents sketch living-shoreline designs; Dr. Arun provides ecological validation; Tamiko still watches skeptically. But as the municipal timeline tightens, compromises appear: funding constraints force concessions on land tenure clauses, and Cassian’s consortium keeps dangling faster delivery if the city accepts Vale’s procurement terms. My attempts to harden community guarantees hit legal walls. Lina accuses me of bargaining away the soul of our proposal. I face a new split—push Elias for public confrontation of Vale’s terms, accept a diluted guarantee to get immediate protections, or delay for better legal counsel while the tides edge closer. The chapter tightens the pressure and shows the first visible cracks in trust between Elias and me as political realities clash with intention.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How firmly do I push against municipal and Vale pressure to preserve community rights?",
+        "options": [
+          {
+            "label": "Insist Elias take Vale to task publicly to preserve leverage.",
+            "consequence": "Political showdown; Elias risks professional fallout",
+            "target_chapter_index": 5
+          },
+          {
+            "label": "Accept a compromised legal guarantee for quicker construction.",
+            "consequence": "Immediate protections but weaker tenure rights; community fractures",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Delay and bring in Dr. Arun and outside counsel to rewrite guarantees.",
+            "consequence": "Slow but legally stronger; risks losing political momentum",
+            "target_chapter_index": 6
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Lina",
+        "Tamiko",
+        "Dr. Arun",
+        "Cassian Vale"
+      ],
+      "locations_used": [
+        "Mariner's Row",
+        "Workshop sites"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Public Reckoning",
+      "branch_designation": "Route A",
+      "narrative_focus": "I press Elias to call out Cassian at a packed municipal hearing. His voice—a notch tighter than before—lays out procedural irregularities and the community guarantees we demand. Cassian arrives in person, stormcoat immaculate; his ice-blue gaze skims the room like a threat. The hearing becomes a spectacle. Tamiko livestreams and later buries the feed with an investigative thread exposing an opaque shell company tied to Vale’s bid. The public reaction is volatile: supporters cheer, but officials worry about funding and deadline slippage. In the aftermath, Elias is reprimanded for jeopardizing procurement flows; a municipal ethics review is started but timed to drag. Cassian doubles down with an ultimatum: withdraw opposition or face a faster private-fund bid that bypasses city oversight. Lina organizes a blockade at a staging site; some neighbors back the move, others fear legal retribution. Our coalition fractures; I feel betrayed that political theater was the price of accountability. The emotional toll deepens; trust between Elias and me frays further as institutional reprisals begin.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 6,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Cassian Vale",
+        "Tamiko",
+        "Lina",
+        "Dr. Arun"
+      ],
+      "locations_used": [
+        "City Hall hearing room"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Sealed Promenade — Ending (Route A — Sad)",
+      "branch_designation": "Route A — Ending (Sad)",
+      "narrative_focus": "The Vale Consortium accelerates a privately funded build under emergency branding; the seawall and redevelopment rush forward. Legal delays from the ethics review are insufficient to halt construction because private contracts circumvent municipal timelines. Mariner's Row is parcelized: families are offered relocation packages that erase generations of tenure. Lina’s family loses their ground-floor storefront; Tamiko’s exposés become somber chronicles of forced movement. Elias is pushed out of municipal planning—his career compromised by the very stand he took—and, painfully, chooses the Vale-funded oversight role extended as a “compromise,” aligning him with infrastructure he once questioned. Our romance fractures into accusation and regret. I stand at the new promenade, Cassian’s monument gleaming, and find my coral scarf feeling smaller against the wind. The community survives materially in places, but social fabric is cut. The chapter closes on me packing my brittle notebook; I leave the row with a heavy, hollow clarity about consequences of action, and the city tastes like iron.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Cassian Vale",
+        "Elias Moreno",
+        "Lina",
+        "Tamiko"
+      ],
+      "locations_used": [
+        "New promenade",
+        "Mariner's Row"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Spotlight and Scandal",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose the public-expose path with Tamiko and Lina. We orchestrate an investigative campaign that mobilizes community stories and assembles documentary evidence tying Vale’s procurement to shell entities. Tamiko’s footage—wide shots of Cassian’s impeccably slick public persona and close-ups of contracts—goes viral; city feeds crackle. Dr. Arun helps make the scientific case that rapid, opaque procurement risks maladaptive outcomes. Cassian responds with a polished counter-narrative, donating to “community resilience” funds while denying wrongdoing. The city is forced into emergency oversight hearings and temporary injunctions freeze construction. Initially, it feels like victory: citizens chant in the plaza, Elias stands publicly with us—his sea-gray eyes flashing with shared purpose. But the legal fight drags on; funding redirections threaten the smaller, necessary projects for Mariner's Row. Some residents, terrified by uncertainty, take early relocation offers. As the spotlight flickers, cracks of fatigue and bitterness widen within our coalition. I must decide whether to accept a delayed but systemic victory, rally for immediate neighborhood protections, or pursue a full legal battle that could bankrupt our movement.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How far do we push the legal and media campaign now that construction is frozen?",
+        "options": [
+          {
+            "label": "Push for immediate neighborhood protections while litigation proceeds.",
+            "consequence": "Short-term security for some, limited funds",
+            "target_chapter_index": 8
+          },
+          {
+            "label": "Double down on the legal case to dismantle Vale’s contracts entirely.",
+            "consequence": "Prolonged legal battle, potential exposure of deeper corruption but risk of losing interim protections",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Negotiate a public settlement with built-in oversight and community seats on project boards.",
+            "consequence": "Compromise with oversight that may be fragile",
+            "target_chapter_index": 9
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Tamiko",
+        "Lina",
+        "Dr. Arun",
+        "Elias Moreno",
+        "Cassian Vale"
+      ],
+      "locations_used": [
+        "City Hall Plaza",
+        "Viral livestream feeds"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Temporary Armor",
+      "branch_designation": "Route B",
+      "narrative_focus": "We opt to secure immediate neighborhood protections—portable barriers, rental assistance, and a provisional community land trust financed by emergency municipal funds. The measures buy breathing room; neighbors return to a semblance of routine. Elias works through municipal channels to formalize the protections, wearing a municipal vest and looking exhausted but committed. Dr. Arun helps implement nature-based buffers that reduce immediate inundation. We hold small celebrations on porches; Lina pins a new sign reading \"We Belong Here\" in the doorway of a storefront. But the injunction is temporary, and the Vale Consortium maneuvers politically to push a new ballot measure that would authorize emergency redevelopment funding under different oversight. Behind closed doors, political actors pressure the mayor to resume construction citing “economic stability.” Our temporary armor is thin and the campaign has exhausted donations. Tamiko's reporting has made enemies of powerful players. The chapter ends in a quiet, exhausted hope: we have saved faces and porches for now, but a bigger fight looms—one that could undo everything if we cannot sustain pressure.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 7, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 9,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Tamiko",
+        "Lina",
+        "Dr. Arun"
+      ],
+      "locations_used": [
+        "Mariner's Row",
+        "Community land trust meeting sites"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Rupture and Fallout — Ending (Route B — Bittersweet)",
+      "branch_designation": "Route B — Ending (Bittersweet)",
+      "narrative_focus": "The legal fight drags into a protracted struggle. We expose deeper procurement irregularities, and the city slowly adopts new tenant protections inspired by our land-trust model—policy gains that protect many. But the pace of justice is glacial. Elias, worn down by institutional pressures and offered a high-level position on a regional adaptation project, accepts the new role because he believes he can save more lives at scale. He leaves Verdante for a broader stage; our romance becomes a painful compromise. Some families are secured; others relocated in the interim because they could not wait for legal remedies. Tamiko’s investigative work forces a reevaluation of contracting but at great personal cost—she endures legal threats and smear campaigns. I stay to steward Mariner's Row, grateful for structural gains yet grieving the distance between me and Elias and the losses of neighbors who moved away. The ending is bittersweet: systems reform begins but at intimate cost—our love reprioritized, the community altered, and the shore forever changed.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8 / Chapter 7, Option B or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Tamiko",
+        "Lina",
+        "Dr. Arun"
+      ],
+      "locations_used": [
+        "City Hall",
+        "Mariner's Row"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Occupy the Shore",
+      "branch_designation": "Route C",
+      "narrative_focus": "I follow the direct-resistance option: a coordinated neighborhood occupation of a proposed staging site. People build living defenses overnight—raised planters, improvised barriers—and we occupy the pier and keep heavy equipment out. Lina organizes shifts in bright teal boots; Tamiko’s camera makes the occupation a moral image that floods feeds. Elias is torn; he worries about legal violence and tries to broker a municipal pause while wearing a high-visibility vest, but my insistence on immediate action strains our relationship. Cassian labels us obstructionist and arranges private security details that intimidate but do not immediately dislodge us. The occupation fosters extraordinary solidarity: shared meals under tarps, Dr. Arun setting up tide monitors on the pier, elders telling sea-stories by lantern. But authorities threaten injunctions, and the physical strain becomes real—cold, long hours in dampness. I must choose between doubling down on physical resistance, bringing in legal protection and experts, or negotiating a ceasefire with the city that could leave our occupation hollow. The stakes are bodily; the community’s survival depends on both courage and endurance.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do we defend the occupation when legal pressure and private security escalate?",
+        "options": [
+          {
+            "label": "Hold the line physically; escalate civil disobedience.",
+            "consequence": "Increased public sympathy but risk of arrests and violent removal",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Call for immediate legal injunctions and external counsel, reducing physical presence for safety.",
+            "consequence": "Preserves safety but weakens the occupation’s moral image",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Invite Elias to broker a municipal-trust pause to convert the occupation into a temporary community-managed project.",
+            "consequence": "Opens room for co-management but relies on Elias’ political capital",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Lina",
+        "Tamiko",
+        "Dr. Arun",
+        "Elias Moreno",
+        "Cassian Vale"
+      ],
+      "locations_used": [
+        "Staging site / pier",
+        "Occupation encampment"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Arrests and Aftermath",
+      "branch_designation": "Route C",
+      "narrative_focus": "We choose to hold the line. The occupation becomes a national image of civic resistance when enforcement arrives; arrests occur—neighbors cuffed, voices on livestream, Tamiko’s camera screaming every frame into feeds. The scene is ugly and dignified: Lina shouting names to passing neighbors, elders covering their faces from cold as police push. Dr. Arun is detained briefly for refusing to relinquish scientific equipment. Elias pleads from the periphery; I meet his sea-gray eyes once as officers haul people into vans. The arrest wave sparks public outrage and a series of emergency hearings; however, legal processes ultimately favor property rights, and the injunctions are used to criminalize the occupation while Vale’s contractors slowly resume limited work. The physical victory slips; some neighbors are fined or lose leases due to legal action. The community's morale fractures along lines of risk tolerance—some applaud our courage and leave; others blame our strategy for precipitating punitive responses. My coral scarf is confiscated as evidence at one hearing and returned frayed. I must reconcile my pride in collective bravery with the real and immediate consequences we now face.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 12,
+      "characters_involved": [
+        "Mira Santos",
+        "Lina",
+        "Tamiko",
+        "Dr. Arun",
+        "Elias Moreno"
+      ],
+      "locations_used": [
+        "Occupation site",
+        "Police vans / evidence rooms"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Quiet Reconstruction — Ending (Route C — True/Tragic)",
+      "branch_designation": "Route C — Ending (True)",
+      "narrative_focus": "After arrests and legal battering, a bruised compromise emerges: the city offers a temporary co-management pilot for the pier and emergency protections for certain households, informed in part by our data and Dr. Arun’s research. The campaign exposes Vale's tactics; the city adopts stricter procurement transparency. Yet enforcement precedents remain; several households were forced out and cannot return. Elias, strained by the volatility and wanting to salvage broader policy change, accepts an inland regional post, promising to bring lessons from Verdante with him but admitting he cannot undo every loss. Tamiko continues investigative work and earns legal protections for reporters, but the victory feels pyrrhic: policy shifted, but the social fabric is stitched with visible scars. I stand in the conservatory watering seedlings grown from salvaged seeds, recognizing that systemic change sometimes grows from costly, painful fights. The ending is a \"true\" kind of change—structural wins shaded by personal loss and moral ambiguity. I continue my work, bruised but clearer about the costs of action.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 11 / Chapter 10, Option B or C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Tamiko",
+        "Dr. Arun",
+        "Lina"
+      ],
+      "locations_used": [
+        "Skyfield Conservatory",
+        "Pier / co-managed sites"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Complicity Exposed",
+      "branch_designation": "Route D",
+      "narrative_focus": "I choose to remain on the board and fight. Small victories are hard-won: a maintenance fund is allocated for living-shoreline upkeep; a clause protecting long-term renters is narrowly preserved. But my prolonged presence softens my edge with neighbors who expected more immediate resistance. Cassian’s influence shifts contracts subtly; the landscaped promenade is prioritized toward commercial aesthetics over culturally significant housing. Tamiko digs into board minutes and reveals how some ostensibly public contracts skew toward the Consortium’s vendors. The reveal sparks a minor scandal, but the legal and political response is lethargic. Some protections survive; others get diluted by “technical clarifications.” Elias supports me quietly, but the political burden weighs on him; he is forced to sign off on procurement language that protects value capture. My continued presence has slowed worst outcomes but not prevented displacement of several families who could not hold on. I am left with mixed results: policies partially intact, personal relationships frayed, and an ache for the unambiguous justice we once chased.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 13, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Cassian Vale",
+        "Tamiko",
+        "Lina"
+      ],
+      "locations_used": [
+        "Oversight board meetings",
+        "Mariner's Row"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Iron Edge — Ending (Route D — Sad/Bittersweet)",
+      "branch_designation": "Route D — Ending (Sad/Bittersweet)",
+      "narrative_focus": "The final act of the oversight struggle culminates in a late-night vote and public unveiling. The administration reveals a reworked redevelopment plan: parts of Mariner’s Row are preserved under community land trust, but a substantial stretch becomes a secured promenade with mixed-use luxury units—Cassian’s flagship. The city lauds the compromise; Cassian calls it a model. Some families keep homes; many others are offered buyouts they accept because they cannot wait. Elias attempts to remain an ally but his signed approvals and public role complicate intimacy; he apologizes in private while defending policy in public. Tamiko’s exposé prevents the most egregious contracts from passing, but the process leaves our neighborhood altered. I stand at the edge of a finished promenade and look back at the row houses—some patched, some gone—under a sky turned slate. The ending is a jagged compromise: small structural protections exist, but the human cost is visible. I keep my notebook and coral scarf; I grieve and I organize anew, aware that survival sometimes arrives on an iron edge.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 14, Option C or From Chapter 13, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Mira Santos",
+        "Elias Moreno",
+        "Cassian Vale",
+        "Tamiko",
+        "Lina"
+      ],
+      "locations_used": [
+        "Finished promenade",
+        "Partially preserved Mariner's Row"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "Endings summary: Route A (Chapters 1→6) — Sad: Vale’s consortium ultimately wins; displacement and personal ruptures. Route B (Chapters 1→9) — Bittersweet: policy reforms and protected rights but at personal cost: Elias leaves, community altered. Route C (Chapters 1→12) — True (tragic): systemic transparency and pilot protections emerge but with painful social losses and a lasting ache. Route D (Chapters 1→15) — Sad/Bittersweet: negotiated protections save pockets of the neighborhood while enabling sanitized redevelopment elsewhere; moral compromise and durable scars remain. Notes on emotional arc: The story follows a Fall (Tragedy) arc across every route: Valence declines from Positive (Chapter 1) to VeryNegative by each route’s end. Arousal rises steadily from Low to VeryHigh, peaking at climactic confrontations, hearings, and physical protests. Visual fidelity remains to the provided character designs and locations; all narration is first-person from Mira’s perspective.",
+  "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+  "_meta_arc_strategy": "Tragedy (Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-10 23:28:14"
+}

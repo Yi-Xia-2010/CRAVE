@@ -1,0 +1,205 @@
+label chapter5:
+
+    # [Scene: Rosa's Greenhouse Conservatory | Morning]
+
+    scene bg ch5_4001e7_1 at full_bg
+    # play music "music_placeholder"  # [Music: Soft, ascending strings — hopeful, steady]
+    # play sound "sfx_placeholder"  # [Sound: Distant seagulls; the muffled clink of trowels; a kettle's whistle]
+    "You close your fingers around the Moleskine in your bag and feel the imprint of the city's decision press against the cover. The paper is still damp from last night's notes — a list of species,"
+    "planting schedules, and community contacts. You made the call to prioritize ecology and community control at the council table; the pilot's life now lives in the careful hours that follow decisions: soil tests, volunteer briefings, patient"
+    "signaling between neighbors."
+    "Rosa Marin moves between benches, her hands sure in the damp earth. The greenhouse smells like rain and citrus, like the places that held you together when storms tried to pull you apart. Seedlings lean toward"
+    "the sun in thin rows, each tagged in Rosa's looping hand. You breathe in the humid air and the scent steadies something in your chest — resolve, soft as moss."
+    show rosa_marin at left:
+        zoom 0.7
+
+    rosa_marin "Morning, Mara Voss. You look like someone who slept with a tide chart under their pillow."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "Guilty. I dreamed of mangroves and spreadsheets last night."
+    "Rosa's laugh is a small, earth-grounded thing that makes the seedlings seem less fragile and more like a promise kept. She hands you a small tray of Spartina plugs, marsh grass with a stubborn, fibrous root."
+
+    rosa_marin "These will hold in brackish tides. Plant deep, press with the heel of your hand, and tell them why they're staying."
+    "You press a plug between your fingers. The soil is cool, gritty, threaded with small shells. For a second you imagine the pilot five years from now: sediment thickening, children mapping crabs, birds nesting in the"
+    "new reed beds. It's a picture you can almost touch. Your hand remembers how to make that future."
+    "Tomas Herrera arrives, carrying a thermos and a stack of laminated volunteer guides, his coat dusted with early morning grit. He moves around you like he always does — pragmatic, quiet, arranging things into order."
+    show tomas_herrera at center:
+        zoom 0.7
+
+    tomas_herrera "I left copies at the prom too. Lena's running a piece this afternoon; she wanted a few quotes, and Anton's team confirmed the municipal match. They're sending the first tranche next week."
+
+    mara_voss "Anton confirmed the match?"
+
+    tomas_herrera "He did. He asked for a timeline and a community oversight board. He sounded... actually sincere.' (He gives you a slow smile that lifts the corners of your mouth.) 'We can keep the timelines community-led, but the ledger looks a lot less like wishful thinking now."
+    "You feel the ledger — not the physical book, but the ledger as an idea — shift from possibility to scaffolding. It's such a practical, ordinary miracle that your throat tightens with gratitude."
+    "Niko bursts in through the side door, hands full of safety vests and a boisterous grin."
+    hide rosa_marin
+    show niko_alvarez at left:
+        zoom 0.7
+
+    niko_alvarez "Trainer Niko is here! Who's ready to learn how to plant like they mean it?"
+
+    mara_voss "After a year of practice, I like to think we all mean it."
+    "Rosa places a callused hand on your shoulder, steadying you with the same quiet authority she gives a stubborn sapling."
+    hide mara_voss
+    show rosa_marin at right:
+        zoom 0.7
+
+    rosa_marin "People will come. Feed them soil, and they'll give you backbone. Teach them to listen to the land, not just to hurry."
+
+    menu:
+        "Hum to the seedlings":
+            "You hum the old shoreline chant Rosa taught you; the melody lifts the room's humidity into something tender. A volunteer looks over and smiles, unsure whether to join."
+        "Recite the planting protocol aloud":
+            "You speak the steps clearly, fingers moving as you list them. The volunteers nod, the work organized into manageable, hopeful motions."
+
+    # --- merge ---
+    "The group settles into the day's tasks and prepares to move to the pilot sites."
+    # [Scene: Harbor Promenade — Pilot Sites | Late Morning]
+    hide tomas_herrera
+    hide niko_alvarez
+    hide rosa_marin
+
+    scene bg ch5_4001e7_2 at full_bg
+    # play music "music_placeholder"  # [Music: Brighter strings with light percussion — community rhythm]
+    # play sound "sfx_placeholder"  # [Sound: Shovels, conversation, a camera shutter here and there; gulls wheeling]
+    "You walk the promenade with Rosa, Tomas Herrera at your side, the pilot beds laid out like the first chapter of a longer book. Volunteers fan out — teenagers with sunburned cheeks, older neighbors with steady"
+    "hands, a pair who'd never planted before but insist on staying. Lena moves between groups with her recorder and a pocket camera, her presence both documentary and tender; she knows when to ask a question and"
+    "when to let a shovel do the speaking."
+    show lena_park at left:
+        zoom 0.7
+
+    lena_park "Mara Voss — quick on-the-record?"
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "We're not just building a picture for press. We're building a place for life. That's what this pilot is.' (You speak slowly, mapping the words so they land.) 'We chose species that will stabilize sediment and provide habitat. We chose neighbors to lead it. This is resilience that grows from the ground up."
+
+    lena_park "That's great — can you say 'ground up' again? My editor loves that phrasing."
+    "You give her a wry look and oblige, because phrases can travel. Lena's fingers fly over the recorder; you watch at her elbows and feel the moment widen: the pilot isn't only soil and money now, it's a story that other people can carry home."
+    "Mayor Anton's municipal liaison arrives, clipboard in hand, and later the mayor himself walks the line with a careful, civic smile. His presence could have tightened your shoulders, but the municipal match combined with a promise of oversight guides the conversation into steadier water."
+    show mayor_anton_chi at center:
+        zoom 0.7
+
+    mayor_anton_chi "The city wants to see this succeed. We'll match funds for the first phase, and we'll publicize the oversight board's structure."
+
+    mara_voss "We appreciate the support. The oversight board needs community leadership — representatives who are accountable to neighbors, not to developers."
+
+    mayor_anton_chi "Agreed. We'll ensure the board's seats are community-nominated. The procurement office will fast-track equipment for the pilot if it adheres to the species list you provided."
+    "You study his face. There's a politeness there, but also a genuine effort to make the municipal language fit your work. It surprises you, quietens suspicion with something almost like relief."
+    "Tomas Herrera, reading through the procurement notes, leans close and murmurs."
+    hide lena_park
+    show tomas_herrera at left:
+        zoom 0.7
+
+    tomas_herrera "They asked for a community timeline. I suggested phased milestones: plant, monitor, adjust. That buys us time, and the ecology buys us resilience."
+
+    mara_voss "Phases let us show results without selling out the process."
+    "Niko nudges a volunteer who looks overwhelmed and shows them how to tamp the soil around a plug. You notice the volunteer's fingers go from nervous to deliberate. Small skill becomes belonging."
+
+    menu:
+        "Teach the volunteer a mnemonic for planting depth":
+            "You tap your knuckles against the soil and teach a three-count mnemonic. The volunteer repeats it, grin widening, and the rhythm spreads."
+        "Give the volunteer a simple task and stand back":
+            "You assign the volunteer to tamp and step aside. They steady into the task, and their confidence grows quietly under your watchful eye."
+
+    # --- merge ---
+    "The volunteer joins the larger rhythm of work as the team continues planting."
+    # [Scene: Rooftop Garden at the Old Textile Mill | Evening — Celebration]
+    hide mara_voss
+    hide mayor_anton_chi
+    hide tomas_herrera
+
+    scene bg ch5_4001e7_3 at full_bg
+    # play music "music_placeholder"  # [Music: Warm acoustic guitar and light percussion — celebratory, gentle]
+    # play sound "sfx_placeholder"  # [Sound: Soft chatter, clinking glasses, distant waves]
+    "As the sun drops, the rooftop fills with the tired-lively energy of people who have handed a day of labor back into the world. A few of the pilot beds are already catching — tiny green"
+    "crowns upright and stubborn. Mud-streaked faces glow in the lamplight. Someone brings out a tray of empanadas; Niko offers one to Rosa, who shakes her head with a smile until he insists."
+    "Lena's piece runs on a loop on a small projector — footage of today intercut with interviews. You watch yourself speak about community-led timelines and feel the weight of that sentence again. Beside you, Tomas Herrera"
+    "ties a loose strand of your hair behind your ear with the practiced, private gentleness of someone who knows how you carry grief and hope in the same pocket."
+    show tomas_herrera at left:
+        zoom 0.7
+
+    tomas_herrera "You did good today."
+    show mara_voss at right:
+        zoom 0.7
+
+    mara_voss "We did good today."
+    "Rosa pulls you into a half-hug, soil on her cuffs."
+    show rosa_marin at center:
+        zoom 0.7
+
+    rosa_marin "See? You all sang to the plants and they listened."
+    "Mayor Anton raises a mug, the city insignia catching the light."
+    hide tomas_herrera
+    show mayor_anton_chi at left:
+        zoom 0.7
+
+    mayor_anton_chi "To neighborhoods that show us how it should be done. The city's proud of this partnership."
+    "There is applause. The sound rides the evening and hits the line of low clouds over the bay like a benediction. Across the horizon, a small flock of terns wheeled in on the last of the"
+    "light and then settled on a buoy, sky-silhouettes at rest. You watch them and feel something unclench — air taking back from your chest."
+    "Later, Lena sits beside you with her recorder tucked away, eyes bright."
+    hide mara_voss
+    show lena_park at right:
+        zoom 0.7
+
+    lena_park "That footage will help other neighborhoods push for community oversight. People will see this and want it.' (She taps her tablet.) 'You gave them a blueprint."
+    hide rosa_marin
+    show mara_voss at center:
+        zoom 0.7
+
+    mara_voss "Blueprint or not, today felt like a small reclaiming.' (The words come easy.) 'Like we showed that slow, patient work can be visible, can be the kind of thing that changes votes and hearts."
+    "Tomas Herrera listens, then leans his forehead against yours in a private, wordless acknowledgment. The contact is small, domestic, and real — a cementing that isn't a promise of forever but a promise to be present."
+    hide mayor_anton_chi
+    show tomas_herrera at left:
+        zoom 0.7
+
+    tomas_herrera "I don't have all the answers. But I know I want to be in the room when you and the community make them."
+
+    mara_voss "Then be in the room."
+    "Niko wanders over with an old pair of binoculars and a grin."
+    hide lena_park
+    show niko_alvarez at right:
+        zoom 0.7
+
+    niko_alvarez "Birdwatching or bragging rights? Both. We planted for the terns, and they came. Maybe they read the invite."
+    "Everyone laughs. The mood is buoyant in that way success gets when it has been hard-earned: relieved, bright, and slightly disbelieving."
+
+    menu:
+        "Offer Tomas a spare mug of chamomile":
+            "You hand Tomas a mug, its steam drifting between you like a quiet conversation. He accepts, and you both watch the projectors in companionable silence."
+        "Pull Tomas into a slow walk along the rooftop edge":
+            "You take Tomas' hand and lead him to the edge where the city is a wash of lights. You talk in low sentences about monitoring plans and about small, domestic futures."
+
+    # --- merge ---
+    "The two of you remain together on the rooftop as the crowd thins."
+    "You stay on the rooftop as the crowd thins, listening to the soft noises of wind and the small, repeated calls of terns from the harbor. Your palms still smell of soil, and your jeans are"
+    "a map of the day. The pilot's first phase didn't solve everything — nothing could — but it turned budgets into beds and policy into living things. The municipal match means equipment, monitoring sensors, and the"
+    "chance to document outcomes that matter. The oversight board's promise means that the community's voice won't be another line item to be folded away."
+    "Rosa's hand finds yours, a callused anchor."
+    hide mara_voss
+    show rosa_marin at center:
+        zoom 0.7
+
+    rosa_marin "You held the line, child. And you made room for others. Don't forget that."
+    "You don't. The memory sits in your spine like a brace: you remembered to make room."
+    hide tomas_herrera
+    hide niko_alvarez
+    hide rosa_marin
+
+    scene bg ch5_4001e7_4 at full_bg
+    # play music "music_placeholder"  # [Music: Strings swell, then resolute notes settle — hopeful crescendo]
+    # play sound "sfx_placeholder"  # [Sound: Night insects begin; a soft, far-off rumble of weather like a remembered storm]
+    "You glance at the horizon where clouds are beginning to gather, not yet threatening, but moving with a kind of purpose. The pilot is alive; it will be tested. You feel the low, anticipatory charge that precedes whatever will come next — a weathered optimism, steady as a tide."
+    "You fold your hands around a warm mug and, for a moment, hold the whole day in your palms: the tang of salt in the air, the taste of empanadas and shared effort, the smallness of two hands finding each other in the dusk. It is enough for now."
+
+    scene bg ch5_4001e7_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single, sustained note holds — expectant, inviting the next movement]
+    "You think: We built something that can be seen and lived in. We built it to last."
+
+    scene bg ch5_4001e7_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter7
+    return

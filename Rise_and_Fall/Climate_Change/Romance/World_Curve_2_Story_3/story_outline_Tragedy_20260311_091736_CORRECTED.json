@@ -1,0 +1,468 @@
+{
+  "title": "Tidefall: Greyhaven's Last Weather",
+  "summary": "I (Isla Morgan) return to Greyhaven as a coastal ecologist determined to keep the town whole. Rising seas and aggressive development pitch residents into impossible wagers — preserve tradition and risk inundation, or accept capital-funded redevelopment that promises jobs but erodes community control. I form a fragile partnership with Luca Moreno, a bright, tactile engineer-activist whose optimism clashes with the cold calculus of councilor Aria Chen, whose slate suits and clipped hair hide an urgency to save the town by any route that secures capital. The story is a spiral of missteps: scientific warnings muted by political compromise, a rushed engineering hub that fails in the first storm, an exposed dataset that is quietly buried, and a final evacuation that shreds trust. Love grows in the force of shared labor, then buckles under blame; I shoulder responsibility, make choices that protect some and betray others, and watch the town fracture. Every branch of the story moves downward: moral mistakes, betrayals, and losses multiply. Endings vary by which compromises I make and whom I trust — all of them land in sorrow: ruin, forced departures, fractured love, or a Pyrrhic \"truth\" that saves the shore at the cost of my personal life.",
+  "emotional_curve_type": "Tragic Downward Spiral",
+  "player_character": "Isla Morgan",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Return to Salt",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive back in Greyhaven after finishing a fellowship. The harbor greets me: damp cobbles, salt-stiff ropes, the smell of old paint. I carry my father's brass compass and a faded turquoise lab apron; my chestnut hair is tied back in a low knot. Jonah Merrick greets me with a weathered grin and tells stories about the last big tide. I visit Tidewatch Lab, feeling both competent and raw — my father's absence a constant tide. I meet Luca briefly on the pier; his sun-bleached curls and amber eyes are disarming. I learn the council considers a new mixed development spearheaded by Aria Chen. The chapter sets stakes: science, memory, and the pressure of investment. My goal is clear: design living defenses that honor fisheries and protect people. The mood is uneasy: nostalgia and alarm in equal measures. I feel the town's breath on my neck, and the first gust of the tragedy to come is only a chill now.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Isla Morgan",
+        "Jonah Merrick",
+        "Luca Moreno",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Greyhaven Harbor",
+        "Tidewatch Lab",
+        "Harbor Pier"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Tidewatch Calculations",
+      "branch_designation": "Common",
+      "narrative_focus": "In Tidewatch Lab I re-familiarize myself with local instrumentation — brass barometers, aging refrigeration hums, and sediment cores. I lay out my preliminary living breakwater designs; my hand is steady but my chest tight. Luca brings improvised prototypes — recycled oyster cages and modular panels — and his bright energy eases my loneliness. We sample the salt flats, and Jonah warns us of a shoal that used to shelter younger fishermen but is now a hazard. News arrives that Aria will propose a mixed development with engineered hard defenses funded by outside capital. The lab's diffuse light, salt crystals, and Isla's turquoise apron mark my identity; doubt starts to nibble at certainty. I worry about persuading the town and balancing local livelihoods. The chapter closes with a council notice pinned to the promenade: vote scheduled. The sense of impending policy pressure tightens.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 1, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Jonah Merrick",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Salt Flats",
+        "Town Hall Promenade"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Promenade Vote Night",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "I attend an anxious town meeting at Town Hall. Aria Chen, crisp in a slate coat and jade pendant, presents development plans with polished slides. Luca organizes a last-minute workshop outside, rallying citizens with Ravi and Maya. Jonah speaks for fishing traditions. I present my living breakwater model — tactile, imperfect, rooted in local labor. The crowd divides; fear vibrates through damp air and neon lamp posts. The MAJOR DECISION: how to respond publicly — rally protest, pursue a technical compromise with Aria, or step back and gather more evidence privately. Each choice will set a path of consequences. The chapter climaxes with the council postponing a vote but accepting a fast-track review, increasing pressure. The night closes with a storm front on the horizon and my father’s compass heavy in my hand.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 2, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I act publicly tonight?",
+        "options": [
+          {
+            "label": "Lead a public protest rally with Luca and Ravi to force the council's hand.",
+            "consequence": "Mobilizes community but angers some elders and Aria; attention sharpens into conflict.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Propose a negotiated, technical joint-review with Aria to find compromise.",
+            "consequence": "Opens cooperation but risks being co-opted by development timelines.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Withdraw to Tidewatch and collect more, harder evidence before acting.",
+            "consequence": "Buys technical certainty but delays public mobilization and trust.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Aria Chen",
+        "Luca Moreno",
+        "Ravi",
+        "Maya",
+        "Jonah Merrick"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Promenade",
+        "Harbor Pier",
+        "Tidewatch Lab"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Rally on the Pier",
+      "branch_designation": "Route A",
+      "narrative_focus": "I choose to lead a public protest with Luca, Ravi, and community members on the harbor pier. Our banners and chants — practical, urgent — fill the salt-thick air. Luca locks eyes with me, amber warm and fierce in a bright orange safety harness he wears on the scaffolding. We construct a temporary demonstration reef together; the labor is intimate and intensifies our bond. Aria responds by accelerating council timelines and calling our rally disruptive. A confrontation escalates when an elder fisherman collapses, overwhelmed by stress; Jonah steadies him but the image of strain haunts me. The town is galvanized but split; some accuse us of risking livelihoods by opposing immediate jobs. The chapter ends with a night arrest at the promenade — Ravi and others detained briefly — and my sense of responsibility deepens into guilt.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Ravi",
+        "Jonah Merrick",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Harbor Pier",
+        "Promenade"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Fractures in the Data",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "After the rally, at Tidewatch Lab I analyze the reef prototypes and incoming sensor data. Some metrics show promising sediment capture; others indicate increased localized erosion near certain fishing channels. I discover an anomaly in a dataset that suggests our prototypes divert a current toward older moorings. Luca urges immediate publicizing of the results to refine plans; I hesitate — the data is noisy and could be misread. Jonah urges caution: \"Change the sea, change the way the boat comes home.\" The MAJOR DECISION: do I release preliminary findings publicly, push for a pause and technical redesign, or pivot to a collaboration proposal with Aria to fund larger trials? Each choice has painful consequences: public release might incite panic, a pause could give Aria political cover, collaboration risks co-optation. The chapter's tension rises as the storm watch turns red and the town's division deepens.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 4, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I handle the anomalous data?",
+        "options": [
+          {
+            "label": "Publish the preliminary data immediately and hold a community meeting.",
+            "consequence": "Transparency mobilizes some allies but ignites fear and misinterpretation.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Pause public statements and redesign the prototypes quietly with Luca.",
+            "consequence": "Buys technical time but lets Aria claim progress; trust erodes among activists.",
+            "target_chapter_index": 13
+          },
+          {
+            "label": "Propose a funded joint trial with Aria’s council to scale and monitor properly.",
+            "consequence": "Access to resources but risks losing control and being used as validation for the development.",
+            "target_chapter_index": 14
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Jonah Merrick",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Salt Flats"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Floodline (Ending A1)",
+      "branch_designation": "Route A — Option A",
+      "narrative_focus": "I publish the preliminary data and convene the community meeting. Immediate transparency brings rapid mobilization: some residents join to defend the living reef plans, but panic spreads when local media latches onto headlines about diverted currents and damaged moorings. A rushed attempt to retrofit the demonstration reef goes wrong during a sudden storm; a scarp opens and a small boat is lost. Jonah is injured in the scramble; his weathered face is a map of pain. Aria uses the chaos to push the fast-track development as necessary for safety. Luca blames the publication as irresponsible, our relationship cracking under pressure. I watch the harbor take one more small life and realize my decision has accelerated the town’s unravelling. The ending lands on evacuation sirens and a weeping skyline.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Jonah Merrick",
+        "Luca Moreno",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Greyhaven Harbor",
+        "Promenade"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Behind the Council Table",
+      "branch_designation": "Route B",
+      "narrative_focus": "I choose negotiation and propose a technical joint-review with Aria. Inside Town Hall, under warm oiled wood, Aria's steel-gray eyes narrow but her professionalism opens the door to resourced trials. I accept a provisional partnership to secure monitoring funds and pilot work. Luca is wary and accuses me of selling out; our friction grows. The joint trials begin with careful monitoring at the salt flats, but Aria's timeline pushes for \"proof\" within politically convenient weeks. As we work together, I detect that some council data is being withheld and that Aria’s briefcase contains agendas beyond safety. I must decide whether to trust the political channels for funding or leak irregularities to the public. The chapter ends with a rain-thin argument between me and Luca and the looming sense of unshared data.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Isla Morgan",
+        "Aria Chen",
+        "Luca Moreno"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Salt Flats",
+        "Tidewatch Lab"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Quiet Corrosion",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "The joint trial begins, but subtle compromises creep in. Some monitoring stations are relocated; contractor crews alter reef placements under council oversight. My models show slow benefits, but privately provided developer modeling (from Aria’s contacts) paints a brighter, danger-suppressing picture. Aria pressures me to sign off on interim results to unlock further funds. I find a hidden ledger showing contingency plans for a paved promenade that would erase salt flats — evidence Aria didn't disclose. MAJOR DECISION: confront Aria publicly with the ledger, refuse to sign and risk funding, or quietly collect more evidence while continuing the trial. Each choice accelerates decline in different ways: public confrontation could lead to political retaliation, refusal could stall the trials and let investors push hard defenses, secrecy prolongs personal compromise. Tension tightens as the sea's moods grow more violent.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 7, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I handle the undisclosed ledger and shifting trial?",
+        "options": [
+          {
+            "label": "Confront Aria publicly at a council session with the ledger.",
+            "consequence": "Forces accountability but provokes powerful backlash and funding withdrawal.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Refuse to sign off on interim results and delay funding until corrections are made.",
+            "consequence": "Slows progress; Aria frames delay as obstruction; investors press for hard defenses.",
+            "target_chapter_index": 15
+          },
+          {
+            "label": "Continue collecting evidence quietly to build an unassailable case.",
+            "consequence": "Buys time but risks being seen as complicit; a sudden storm can make hidden plans irreversible.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Aria Chen",
+        "Luca Moreno",
+        "Investors",
+        "Contractor crews"
+      ],
+      "locations_used": [
+        "Salt Flats",
+        "Town Hall",
+        "Tidewatch Lab"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Promises Withdrawn (Ending B1)",
+      "branch_designation": "Route B — Option A",
+      "narrative_focus": "I confront Aria publicly with the ledger at a council session. The chamber erupts. Aria defends herself with careful phrasing and legal tact; investors react by freezing provisional funds pending a review. The joint trial stalls, leaving our monitoring rigs half-finished. The developer steps in publicly with a hard-defenses plan pitched as urgent safety; the town fractures. Luca calls my public confrontation reckless as livelihoods stall and tempers flare; his distance grows into estrangement. A severe storm strikes soon after, exposing the town's incomplete defenses. The ending closes on flooded streets and the knowledge that my exposed truth cost us the only near-term funding that could have protected parts of town.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Aria Chen",
+        "Luca Moreno",
+        "Investors"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Salt Flats",
+        "Flooded Lanes",
+        "Promenade"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Silent Sampling",
+      "branch_designation": "Route C",
+      "narrative_focus": "I choose to withdraw and focus on gathering more evidence privately. At Tidewatch Lab I double-check sensors, runs, and sediment profiles. Luca is hurt by my reticence and channels his energy into organizing while I sequence more complex sampling. The data grows in clarity but so does the timetable — council timelines and investor pressures do not pause for analysis. Jonah shares with me old tidal stories that speak of slow, inevitable changes — parables about being wronged by certainty. Aria’s mixed development slips forward in public through procedural votes. The chapter ends with a notice that the council has accepted a conditional plan pending an engineered assessment, shrinking my window for conclusive evidence.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 11,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Jonah Merrick",
+        "Aria Chen"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Salt Flats",
+        "Town Hall"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "The Quiet Leak",
+      "branch_designation": "Route C / Split",
+      "narrative_focus": "While compiling a final report, I discover a subtle but damning correlation: certain hard-defence placements proposed by investors will accelerate erosion in key fish spawning channels. The finding is robust, but the modeling requires peer corroboration that will take weeks. I face a MAJOR DECISION: release an embargoed leak to local press to force a pause, submit to the council with my cautious note and risk bureaucratic sidelining, or entrust the evidence to an external scientist to fast-track peer corroboration. Each choice is perilous: leaking might provoke investor retaliation; bureaucratic submission may be buried; external trust might be betrayed by political speed. The storm calendar shortens as the town waits.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 10, Option A",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How do I act on the corrosion evidence?",
+        "options": [
+          {
+            "label": "Leak the findings to local press under embargo to force public scrutiny.",
+            "consequence": "Shakes public trust but invites legal and political backlash.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Submit the cautious report to the council and demand a pause pending peer review.",
+            "consequence": "Likely to be delayed or minimized; political machinery may outpace science.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Send the data to an external peer and ask Luca to publicly organize while we wait.",
+            "consequence": "Combines pressure and science but risks leaks or miscommunication under time pressure.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Aria Chen",
+        "External peer"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Salt Flats",
+        "Town Hall"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "The Broadcast (Ending C1)",
+      "branch_designation": "Route C — Option A",
+      "narrative_focus": "I leak the findings to the local press. The town is thrown into frenzied debate. Investors threaten litigation; Aria accuses me of sabotage. A temporary injunction stalls the project, but the legal wrangling drains the town organizers’ momentum and funding — contractors pull out and unemployed residents grow anxious. A sudden and severe storm hits before peer corroboration can be finalized; with resources drained and political attention scattered, the makeshift defenses fail. Houses flood and nets are lost. Luca blames me for the chaos; our intimacy dissolves into reproach. The ending closes on me watching the flats disappear into tide and realization that my attempt at forceful truth precipitated the town's immediate hardship.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 11, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Aria Chen",
+        "Investors"
+      ],
+      "locations_used": [
+        "Promenade",
+        "Greyhaven Harbor",
+        "Salt Flats"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Quiet Compromise (Alternate Ending A2 / B option C / C option B)",
+      "branch_designation": "Additional",
+      "narrative_focus": "In this variant, I choose the slow compromise path at a split: either redesign quietly with Luca, continue collecting evidence while delaying public actions, or submit cautiously to the council. The compromise secures limited funding and a pilot deployment, but the adjustments are half-measures. Over months, the living breakwaters integrate imperfectly and some channels change course; displacement of certain fishers is required to avoid concentrated erosion. The community endures small victories and lingering resentments. Romance frays as Luca leaves to scale the model elsewhere, promising return; I stay to supervise. The town is safer in places but some neighborhoods are sacrificed. Jonah's health declines after the stress. The chapter closes with my watching a contained victory that tastes like ash and the knowledge that my burden continues.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option B\nFrom Chapter 8, Option C\nFrom Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Jonah Merrick"
+      ],
+      "locations_used": [
+        "Tidewatch Lab",
+        "Salt Flats",
+        "Promenade"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Co-opted Truth (Alternate Ending A3 / C option B)",
+      "branch_designation": "Additional",
+      "narrative_focus": "I accept a joint trial with Aria or submit a cautious report that allows Aria's team to reframe the living adaptations as pilot validations for eventual hard defenses. The council uses our monitored data to greenlight a mixed development with promises of local jobs. Short-term economic relief follows; but engineered seawalls are placed in ways that irrevocably alter the flats. The fishery declines; long-held moorings are lost. I am publicly credited for \"guiding the science\" while many fishermen lose livelihoods. Luca leaves in anger; Jonah dies quietly in a hospital after a collapsed roof during a storm. I am left with the bitter knowledge that my science was used as a seal for choices I did not want. The town survives physically but loses a part of itself.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 5, Option C\nFrom Chapter 11, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Aria Chen",
+        "Luca Moreno",
+        "Jonah Merrick"
+      ],
+      "locations_used": [
+        "Town Hall",
+        "Salt Flats",
+        "Promenade"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Withheld Evidence (Alternate Ending B2 / C option C)",
+      "branch_designation": "Additional",
+      "narrative_focus": "I refuse to sign off or I entrust external peers while Luca mobilizes the town. Funding is withheld temporarily; while an outside peer reviews our data, a developer accelerates emergency fortifications to win public favor. Our careful coalition fractures as short-term needs force individuals to accept developer terms. A sudden, intense storm hits during this delay; without coordinated defenses and with contractors redirected, damages are severe. Lucas's organizing cannot counterbalance deployed capital; he leaves to work elsewhere after a bitter split. I watch Greyhaven suffer immediate losses: homes flooded, fisheries scarred, Jonah's health failing. I am left to catalog the losses and carry forward a truth that feels like a wound that never scars.",
+      "emotional_trajectory": "Fall",
+      "entry_condition": "From Chapter 8, Option B\nFrom Chapter 11, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Isla Morgan",
+        "Luca Moreno",
+        "Aria Chen",
+        "Jonah Merrick"
+      ],
+      "locations_used": [
+        "Salt Flats",
+        "Tidewatch Lab",
+        "Greyhaven Harbor"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "All chapters are first-person POV (Isla Morgan) and tagged [Fall] with negative valence; Common route is Chapters 1–3. Branching logic: Chapter 3, 5, 8, and 11 are major decision hubs. Chapters 6, 9, 12, 13, 14, and 15 are ending variants. Choices and jump targets are parsed from the provided 'Jumps to Chapter X' statements.",
+  "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+  "_meta_arc_strategy": "Tragedy (Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 09:17:36"
+}

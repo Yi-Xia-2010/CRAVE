@@ -1,0 +1,251 @@
+label chapter13:
+
+    # [Scene: Municipal Hall | Late Afternoon]
+
+    scene bg ch12_f7128a_1 at full_bg
+    # play music "music_placeholder"  # [Music: Taut strings, a low, insistent rhythm]
+    # play sound "sfx_placeholder"  # [Sound: Rain pelting the plaza; the distant roll of a diesel generator]
+    "You sit with your palms flat on cool wood, the ink on the covenants still a little tacky where signatures gathered. The chamber feels too small for what you’ve carved out of it: legal language turned"
+    "toward the town, lines that promise public access, binding definitions of 'community land,' a schedule that forces corporate timelines into place. It is a moral victory written in clauses—the kind that tastes like pennies and grief."
+    "Etta folds her hands over the edge of the contract and looks at you. Her voice is low, thick with the salt of a hundred tides."
+    show etta_hargrove at left:
+        zoom 0.7
+
+    etta_hargrove "You did the right thing."
+    "Her words arrive with the weight of something fragile. 'We have teeth now. We have a map to fight from.'"
+    "You want to believe the certainty in her mouth. You can feel the town's breath caught in your ribs—relief braided with dread. The firm will not accept delay without pushing back. They won't like being hemmed"
+    "in by public covenants that interrupt their schedule or their capitalization. You know Elio; you have read the set lines in his face thirty times. He will litigate if he must. He will frame the suit"
+    "as inevitability."
+    "Elio Sato leans forward, his palms flat like a balance. He speaks measured, each phrase sharpened by protocol."
+    show elio_sato at right:
+        zoom 0.7
+
+    elio_sato "We agreed to negotiate. We did not agree to create immovable barriers that—"
+    "He pins the word 'immovable' like a pebble on the table. '—compromise the project's viability. Our investors expect timelines.'"
+    "Mateo Alvarez's jaw tightens so you feel the pull in your own shoulders. He isn't loud; he never is. But the tremor under his words is there."
+    show mateo_alvarez at center:
+        zoom 0.7
+
+    mateo_alvarez "Expectations don't fix people's houses. They don't replant eelgrass. They don't buy a child's bedroom back after a surge."
+    "Jun, who has been silent the whole meeting, finally lets a sound out: a single, rough laugh that tastes like metal."
+    hide etta_hargrove
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "So we bind them, or we let them bulldoze the town and call it progress?"
+    "His hand knocks against the table like a fist into surf."
+    "The storm presses at the windows, a physical thing now. Rain bangs harder; a gust rattles the chamber door. Councilor Rosa closes her eyes for a heartbeat, a small concession you read like a map."
+    hide elio_sato
+    show councilor_rosa_menendez at right:
+        zoom 0.7
+
+    councilor_rosa_menendez "We have protections."
+
+    councilor_rosa_menendez "We bought time, and that time is—"
+    "She swallows."
+
+    councilor_rosa_menendez "—precious. We have to use it."
+
+    menu:
+        "Stay to coordinate the community patrols tonight":
+            "You pull your jacket tighter and map routes on the back of the covenant copy, voice hoarse but clear. The others nod, and a small current of practical resolve passes through the room."
+        "Go to Etta's greenhouse to check the seedlings and comfort her":
+            "You tuck the file under your arm and step into the rain toward the narrow alley behind the hall, imagining the warm wet air and the scent of soil and citrus waiting behind the glass."
+
+    # --- merge ---
+    "Etta's fingers find yours across the paper, a brief, human pressure."
+    "Etta's fingers find yours across the paper, a brief, human pressure. She doesn't look relieved; the fight has cost her more than most."
+    hide mateo_alvarez
+    show etta_hargrove at center:
+        zoom 0.7
+
+    etta_hargrove "They'll sue."
+    "She says it without drama, as if noting the weather. 'They will look for any breach. Keep your notes. Keep your mouth. Let Mara file the records. And —' her voice tightens — '—do not let this decision become a clean wound.'"
+    "You want to argue that victory is possible without pain, that winning the covenant will mean the town stays whole. But the memory of Jun's grey-faced neighbor hauling boxes into a high pickup, the image of"
+    "a child's photograph smudged with rain—these are small, sharp things that don't line up with tidy outcomes. You taste iron: guilt, and a stubborn, private vow."
+    "Elio Sato watches you, and for half a second the armor around his face cracks. There is a human flinch—an old memory of another town pulled apart by storm surge. He doesn't apologize. He smooths his coat and says,"
+    hide jun_park
+    show elio_sato at left:
+        zoom 0.7
+
+    elio_sato "We will pursue the project within the bounds of the law. But be aware: timelines will be enforced. Emergencies will be defined. Litigation is a tool."
+    "Jun's response is a flat sound."
+    hide councilor_rosa_menendez
+    show jun_park at right:
+        zoom 0.7
+
+    jun_park "Then make it a different kind of emergency. One for people, not balance sheets."
+    "The room tilts toward a decision that has already happened: we protect the public shore, and we slow construction. The sound of the rain becomes a drumbeat for consequence."
+    # [Scene: Saltmarsh Flats | Night — The Storm]
+    hide etta_hargrove
+    hide elio_sato
+    hide jun_park
+
+    scene bg ch12_f7128a_2 at full_bg
+    # play music "music_placeholder"  # [Music: Percussion erupts into a frenetic, dissonant cascade; electronics crack like distant lightning]
+    # play sound "sfx_placeholder"  # [Sound: Sirens, shouted instructions, the keening of wind through pilings]
+    "A week passes like a wound. The firm files suit; their lawyers send a stack of terse notices that smell faintly of machine ink and threat. The timelines they invoke are different kinds of clocks: investor"
+    "days, construction quarters. You print them and stack the pages until the edges chew your skin."
+    "Then the surge hits."
+    "You are at the flats, standing on a rickety boardwalk with a rope looped around your wrist because someone said it was smart and you didn't want to argue. Rain slices the world into horizontal sheets."
+    "The marsh is a dark lung, swallowing the low flats and clawing at the coir logs. You shout into the wind; your voice is small, a bubble in the gale. People run with sandbags, with children"
+    "cradled against chests, with deadweight boxes."
+
+    menu:
+        "Help a neighbor close the low windows of their house":
+            "Your hands slip on wet wood as you lever a shutter down. You feel the child's heartbeat through the thin wall and remind yourself why you stayed."
+        "Head to the makeshift shelter to coordinate who goes where":
+            "You sprint toward the municipal shelter, pages of covenants flapping in your tote, and organize names into a mangled, precise list because order helps in chaos."
+
+    # --- merge ---
+    "Water finds every seam. The firm’s delayed construction—its bureaucratic entanglement—means the modular protection buoys haven't been deployed at scale."
+    "Water finds every seam. The firm’s delayed construction—its bureaucratic entanglement—means the modular protection buoys haven't been deployed at scale. The thing you argued would buy the town leverage has bought you time, yes, but not an impenetrable shield. In the desperate hours the sea doesn't ask nuance."
+    "You move through the night like a lit match, passing wet faces that look at you for reasons no one person can shoulder."
+    show mateo_alvarez at left:
+        zoom 0.7
+
+    mateo_alvarez "We should have waited."
+    "Mateo Alvarez's voice is close and urgent. 'We should have—'"
+    "He stops, because there is nothing to finish that won't land like an accusation."
+    "'Time isn't a currency we have,' you say, and it comes out brittle. 'We gave the town a say. We kept public land out of a buyout. We—'"
+
+    mateo_alvarez "We slowed them."
+    "He looks at the water closing against a house two streets down; a porch light burns like a last flake of summer. 'We slowed them and now people lose roofs.'"
+    "A woman you know—Mrs. Ka—clutches a bundle and watches her front door bow under the pressure of brackish tide. She holds a framed watercolor of the estuary from years ago, paint bleeding like tears. Jun shoves"
+    "his hands into pockets until his knuckles whiten, then wrenches loose to help someone heft a soaked mattress out of a doorway. The scene is raw and immediate: not a moral abstract but family photo albums,"
+    "a grandmother’s china, small insulation soaked and ruined."
+    "Sound becomes a landscape—panicked calls, the sharp bark of orders, something heavy snapping in the distance. The surge rips across the flats with a voice like a thousand doors closing at once. You grip the railing until your gloves suction with sea-salt and your hands tremble."
+    # [Scene: Etta's Greenhouse (The Nursery) | Dawn — After the Surge]
+    hide mateo_alvarez
+
+    scene bg ch12_f7128a_3 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse piano motifs with an undertow of low, persistent drone]
+    # play sound "sfx_placeholder"  # [Sound: The drip of water, distant generator hum, the crackle of radio reports in the corner]
+    "Morning arrives in a ragged, pale way. Etta's greenhouse stands like a stubborn heart amid ruin. The glass is smeared with brine but most of the benches survived. The seedlings—your hands smelled of them for days"
+    "afterward—are half flattened, half standing. The coir logs you planted are shredded in places, but patches of eelgrass shimmer in pools that didn't entirely wash away."
+    "Etta moves with a slow machine of habit, rescuing saltsplashed trays, whispering to the plants like prayers. Her face is both exhausted and incandescent; she has carried less than you feared, and more than you would've hoped."
+    show etta_hargrove at left:
+        zoom 0.7
+
+    etta_hargrove "We can nurse this back."
+    "She speaks, voice worn but steady. 'It will take time. We'll lose some beds, yes. But the roots—'"
+    "She taps a tray as if that will puncture stubborn denial. '—the roots are still holding in places.'"
+    "You want to cling to that: roots. But the town has gaps now—families gone, houses gone. The greenhouse is a small ark. Etta produces a list of names; it's not just seed needs. It is supplies, volunteer shifts, the names of people who have nowhere to return."
+    "Mateo Alvarez arrives with a satchel that smells faintly of solder and salt. He sets down a sensor that blinks fitfully. His face looks hollower than it did in the council chamber; the tidal night took"
+    "something from him the way it took porches. He doesn't meet your eyes at first."
+    show mateo_alvarez at right:
+        zoom 0.7
+
+    mateo_alvarez "I can make them faster."
+    "He fingers the strap of his satchel. 'I can scale it differently—open-source the design, move it to independent builds. If the firm ties up funding with their lawyers, at least—'"
+    "'At least people have something sooner?' you offer. The question isn't sharp enough."
+
+    mateo_alvarez "At least the technology exists without strings."
+    "There is a trembling in his voice that you only hear now. 'But I can't do both here and everywhere. The suit will tie their hands and the money. I can't spend a year in court. I can build elsewhere, prove a model, and bring it back with fewer strings.'"
+    "You realize, then, that 'bring it back' is an argument about presence and trust. It is also a wedge. The choice he frames is not framed as betrayal, but it lands like one."
+
+    "You" "So you leave."
+    "You say it, tasting defeat in every consonant."
+    "Mateo Alvarez looks up. There is a small, private grief that doesn't belong to the public record in the way his mouth folds."
+
+    mateo_alvarez "I have to make something that can be replicated by towns that won't wait."
+    "'I love this place. I love you. But I can't watch the law freeze the good parts into paper while people drown.'"
+    "His words are a cold, surgical thing. 'Do you think leaving is safer?'"
+
+    "You" "No."
+    "You ask because it's the only question that names what his leaving will do."
+
+    mateo_alvarez "I think it's necessary. And maybe necessary is the wrong word. I think it's the only way I can keep working without being in court every month."
+    "There is no heroically dramatic shove. He doesn't walk out with slammed doors. He leaves with a knotted look at his satchel and a clumsy promise:"
+
+    mateo_alvarez "I'll send plans. I'll send parts. If you want me to—if you want me to stay, tell me to stay."
+    "You search for language that will keep him. You find a few poor, pleading syllables and then Etta interrupts with a practical list of supplies. There is no time for the conversation you both need. The world insists on triage."
+    # [Scene: Municipal Hall | Weeks Later — Legal Echoes]
+    hide etta_hargrove
+    hide mateo_alvarez
+
+    scene bg ch12_f7128a_4 at full_bg
+    # play music "music_placeholder"  # [Music: Low brass, a slow march; under it, sharper, high strings]
+    # play sound "sfx_placeholder"  # [Sound: Courtroom clips on the radio; footsteps down an empty hall]
+    "Elio Sato's firm sues for breach of timelines. The legal action is precise and devastating in its own way: injunctions, counterclaims, delays. The lawyers' language eats at the edges of the covenant. Public sympathy is a"
+    "tide that rises and falls; markets and bondholders have no shame, they have ledgers. There are days when Councilor Rosa calls and the conversation is all logistics—emergency funds, shuttles, an offer of temporary housing in an"
+    "inland complex that smells of bleach and promise."
+    "Some families accept relocation. They move inland with whatever they can carry. A line of trucks winds along the road like a slow, mournful tide. Faces you know from childhood lean out of windows and press"
+    "hands to glass. The town shrinks as a map contracts, pockets of life extinguished at the edge."
+    "Jun watches the moving trucks and says nothing for a long time. When he finally speaks, it's a small sentence loaded like an anchor."
+    show jun_park at left:
+        zoom 0.7
+
+    jun_park "I can't fish the same run anymore."
+    "He swallows. 'They put up a fence on a channel. I can find other fish. I can move. But—'"
+
+    jun_park "But it isn't the same."
+    "Relationships that had been muddled by stress become bone-clear in their shapes. Friends choose different kinds of survival. What was once a shared night of camping and conversation fractures into different moral arcs: those who resist,"
+    "those who flee, those who try to litigate the pain into policy. You and Mateo send messages that grow blunt with frequency—technical schematics, requests for updates, photographs of prototypes. The tenderness between you becomes administrative: checklists"
+    "and shipping manifests."
+    "When the town council arranges a public hearing about the covenant's future, the room is not the same. Some applause is still there, honest and loud. Some faces are empty niches. Etta reads a statement that"
+    "is equal parts prayer and data, calling for sustained stewardship, for long-term funding, for volunteerism. She finishes and the applause is fractured—some earnest, some polite, some empty."
+    "You find yourself outside after, standing on the municipal steps while the rain, persistent as memory, curls the edges of banners. You feel very small. The covenant stands with teeth; Elio Sato's suit stands with steel."
+    "People have lost bedrooms and a local bakery. The greenhouse is surviving, but under strain. Mateo is gone."
+
+    menu:
+        "Call Mateo and ask him to come back":
+            "Your thumbs hover over his number, then stop. You leave a message that trembles between pleading and plan, knowing the sea of logistics may have already swallowed the promise."
+        "Sit with Etta and plan a volunteer rota for the nursery":
+            "You sit down in the greenhouse's warm, damp light and spread a list of names. The work is small and real and it keeps the roots alive."
+
+    # --- merge ---
+    "You think of what you sacrificed for principle and what those sacrifices cost."
+    "You think of what you sacrificed for principle and what those sacrifices cost. The legal victory—if it can be called that—is less a triumph than a complex bruise: the covenants will protect the shore for decades"
+    "to come, public access written into law, community lands shielded. But those protections are not rescue from immediate harm. They are a promise of repair, a procedural armor that cannot stop an angry ocean tonight. They"
+    "are slow, and slow is sometimes a kind of hunger."
+    "You are left with paradoxes: moral clarity that demands bodies in the cold, legal language that buys future soil at the cost of tonight's roofs, a victory that is also a fracture. The town's profile has"
+    "shrunken; some families left with boxes, others stayed with broken floors. Etta's greenhouse becomes both archive and clinic; bowls of warm soup appear at dusk, a hundred small, stubborn palliative gestures."
+    "Mateo sends a parcel months later—open-source plans, a small prototype buoy sealed in foam, a note folded like a confession: I tried. It helps in places. It will help here later. The note smells faintly of solder and rain."
+    "When Elio Sato's firm pursues the suit, his public statements are taut and professional. In private, in letters and in a late-night meeting where you cross the municipal threshold to confront him, you see the human cogs grinding in him."
+    show elio_sato at right:
+        zoom 0.7
+
+    elio_sato "I didn't come here to bankrupt a town. I came here to save a coastline before it took more people. If the covenant had allowed a different timeline, maybe—"
+    "His voice cracks under the weight of the conditional. For the first time you see a man who, in trying to stop loss, became the author of a different one."
+    "You find no peace in that. You only find an ache that stretches like a tide line—the knowledge that any plan that tries to prevent loss cannot be both immediate and perfectly just. The law can demand fairness, but the ocean asks only for the moment it wants."
+    # [Scene: Tidebridge Harbor Pier | Dusk — Closure]
+    hide jun_park
+    hide elio_sato
+
+    scene bg ch12_f7128a_5 at full_bg
+    # play music "music_placeholder"  # [Music: A single sustained cello, then a slow, minor key resolution]
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls; the steady, soft susurrus of water against pilings]
+    "You stand on the pier, camera hung around your neck though the film inside is likely ruined from the surge weeks ago. The covenants are in the archives, the legal filings in the inbox; the greenhouse"
+    "breathes faintly behind you. The town's silhouette is frayed and beautiful in the dying light."
+    "Etta stands beside you, her hand finding the crook of your elbow in a way that's more about ordinance than affection; it's the way of elders who know their charge."
+    show etta_hargrove at left:
+        zoom 0.7
+
+    etta_hargrove "We did what we could. We bought a chance."
+    "You think of those who left and those who stayed, of Mateo's leaving and the slow, strange consolation of his parcel. You think of Jun's face, older against the wind, and of the bakery that reopened"
+    "with a boarded window and a new sign. The losses rankle. The victory tastes of salt."
+    "You let the tide speak. It says nothing you can correct. It shows you the work stacked before you: volunteer lists, grant applications, nights in greenhouses, the spade in the soil as the true liturgy of"
+    "hope. Stewardship as a verb. Maintenance as a love language. You imagine years ahead—litigation threads that will pull and snap and maybe, with time, knit into something stiffer and wiser."
+    "Your camera strap is cold against your throat. You lift the lens and look, not hoping for a clean image but to record what is: the torn flags, the new coir patches, a child standing knee-deep"
+    "in a puddle holding an old net as if it's a toy. The viewfinder frames an ongoing line, not an ending."
+    "You breathe in brine and smoke-tinged air. The town is smaller; the covenants will keep land public and accessible; litigation will complicate funding; people have been displaced. You have won some protections and lost immediate security. The balance is ugly and honest."
+    "Etta squeezes your arm."
+
+    etta_hargrove "We sink our hands into the mud. We plant. We stitch the shoreline. We make the work of staying possible."
+    "You nod, letting the ache settle into resolve that trembles but doesn't break. The night arrives with the soft click of doors being bolted and the thin glow of lights left on for those who return"
+    "late. There will be more storms. There will be more legal fights. There will be days when the town feels like a bag of shells dropped on the sand, scattered and fragile. There will also be"
+    "days of oysters spat and marsh grass held."
+    "You do not have clean victory. You have an imperfect contract that buys years and binds them to people, and that is both everything and heartbreak. You tuck the camera into your tote, feeling the weight"
+    "of the town in the cloth—every name, every ledger, every sulking boy at a fish stall who once called you friend. You will plant, and you will mend, and you will go to meetings about funding,"
+    "and you will hold the hands of those who cannot be held. You will continue."
+    hide etta_hargrove
+
+    scene bg ch12_f7128a_6 at full_bg
+    # play music "music_placeholder"  # [Music: Cello resolves into a single, unresolved chord]
+    # play sound "sfx_placeholder"  # [Sound: The murmur of the town settling down for the night]
+
+    scene bg ch12_f7128a_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

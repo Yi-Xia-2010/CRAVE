@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where environmental stakes drive the emotional stakes: rising seas and contested adaptation strategies force characters to make moral and relational choices. The romance arc is forged through shared labor, opposing visions for the city's future, and intimate compromises. Core conflict: grassroots, ecology-first adaptation versus large-scale engineered solutions that promise safety but risk displacement and moral cost. Romance intensifies choices—protect the community or seek personal security—so every climate decision reverberates in relationships.",
+    "setting": "Near-future coastal city (Asterport) in the 2040s: a once-sleepsy harbor town now defined by persistent storm seasons, reclaimed rooftop gardens, tidal marsh restoration projects, and modular flood defenses. Atmosphere: humid salt air, frequent orange sunsets cut by storm-light, a mixture of handmade resilience and high-tech corporate intervention.",
+    "visual_style": "Weathered watercolor, Soft anime realism, Muted coastal palette with neon accents, Textured linework, Environmental grit",
+    "main_characters": [
+        {
+            "name": "Mara Lin",
+            "role": "Protagonist",
+            "personality": "Empathetic, stubbornly practical, principled, quietly romantic. Natural organizer who leads by example; quick to plan and slower to accept help. Moral compass oriented around the vulnerable.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with salt-bleached tips and a single wind-twisted braid at the nape",
+                "eyes": "Sea-glass green, wide-set and reflective with faint crow's feet from squinting at glare",
+                "clothing": "Layered field jacket (olive canvas with waterproof lining) over a faded band tee, high-waisted work trousers with patched knees, scuffed waterproof boots, rolled sleeves revealing inked notes and tide markers",
+                "accessories": "Brass compass necklace engraved with her mother's initials, battered A5 notebook full of hand-drawn maps, leather fingerless gloves, simple silver hoop earring"
+            },
+            "goal": "Protect the town’s neighborhoods and restore tidal marshes using community-led ecological methods while keeping loved ones safe.",
+            "background_story": "Raised in Asterport by a fishermother and a community gardener, Mara studied marine ecology, left briefly to work on coastal restoration, then returned when storms intensified. She mobilized local volunteers into a resilient network after losing a childhood street to a storm surge.",
+            "emotional_trait": "Tendency to put community needs above her own intimacy and rest; fear of vulnerability that makes deep romantic commitment difficult."
+        },
+        {
+            "name": "Ibrahim 'Ibe' Rafiq",
+            "role": "Love Interest",
+            "personality": "Warm, inventive, quietly charming, pragmatic optimist. A problem-solver who uses humor to defuse tension; sometimes guarded about past trauma but generous in action.",
+            "appearance_features": {
+                "hair": "Jet black with shaved sides and a long top worn in a neat braid; a few silver strands at the temple",
+                "eyes": "Amber-brown, almond-shaped, often narrowed in concentration",
+                "clothing": "Repurposed engineer coveralls cut into a jacket, high-utility cargo trousers, bright reflective patchwork sewn into the elbows, heavy-duty boots stained with salt and solder marks",
+                "accessories": "Welding goggles perched on his head, a woven paracord bracelet with tiny seed capsules woven in, a small carved wooden talisman he rubs when anxious"
+            },
+            "goal": "Design and implement affordable adaptive infrastructure that keeps residents in place—using modular, low-cost engineering and community labor.",
+            "background_story": "A climate migrant whose inland hometown was abandoned after prolonged drought-induced economic collapse. Trained as a civil engineer, he arrived in Asterport with technical skill and the burning need to build something durable and just.",
+            "emotional_trait": "Survivor's guilt and a deep fear of losing people again; this makes him oscillate between clinging to relationships and pushing them away to 'protect' himself and others."
+        },
+        {
+            "name": "Eloise Varela",
+            "role": "Antagonist",
+            "personality": "Charismatic, razor-smart, politically savvy; outwardly composed and persuasive, morally flexible beneath a veneer of civic-minded rhetoric. Believes in decisive action even when it costs individuals.",
+            "appearance_features": {
+                "hair": "Platinum bob, immaculate and angular, always wind-swept just so",
+                "eyes": "Steel-gray, narrow and assessing, often behind an AR lens reflection",
+                "clothing": "Tailored, water-resistant trench coat in glossy graphite, high-collared technical shirts, sleek rubberized boots, minimal but expensive-looking attire designed for press photos",
+                "accessories": "Sleek augmented-reality glasses, a municipal signet ring, a digitized tablet that projects policy overlays"
+            },
+            "goal": "Implement a large-scale, engineered flood barrier and land reconfiguration plan promising rapid safety and investor returns—at the cost of relocating low-lying neighborhoods.",
+            "background_story": "Once an idealistic urban planner who advocated for equitable adaptation, Eloise moved into a powerful municipal role where budget pressures and political compromises hardened her. She genuinely believes a big plan will save the city but has accepted backers who demand quick, profitable results.",
+            "emotional_trait": "Rationalizes harm as necessary; hides growing private doubt and occasional guilt, which she treats as a personal weakness."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Kai Moreno",
+            "relation_to_main": "Childhood friend of Mara",
+            "appearance_summary": "Lean, tan, short-cropped blond hair, paint-splattered rain jacket, perpetually barefoot when on the docks.",
+            "function_in_story": "Runs the Harbor Market and acts as Mara's emotional anchor and the community information hub (gossip, trade, local pulse). Offers levity and pragmatic help for grassroots actions."
+        },
+        {
+            "name": "Rosa Alvarez",
+            "relation_to_main": "Mentor figure to Mara; elder leader of the Marshkeepers collective",
+            "appearance_summary": "Silver hair braided into a long rope, deep-set warm brown eyes, worn garden apron layered over a knitted sweater, hands with soil-stained nails.",
+            "function_in_story": "Provides historical context, local lore, and moral instruction about stewardship; her personal history shows the long arc of loss and regeneration in Asterport."
+        },
+        {
+            "name": "Samira Chen",
+            "relation_to_main": "Municipal clerk who mediates between Eloise and the community",
+            "appearance_summary": "Practical glasses, cropped dark hair, navy municipal vest with reflective piping, clipboard always at the ready.",
+            "function_in_story": "Represents the bureaucracy's human face; sympathetic but constrained, she is a potential ally who can leak documents or stall approvals if convinced."
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Harbor Market",
+            "visual_description": "A bustling strip of colorful tarps and timber stalls along a raised quay. Warm late-afternoon sunlight softens the salt spray; buntings flap in a steady wind. Wooden walkways glisten after rain, and strings of warm bulbs create a cozy, communal glow against slate-blue water."
+        },
+        {
+            "name": "Saltmarsh Restoration Site (The Flats)",
+            "visual_description": "Expansive low marsh dotted with newly planted cordgrass, shallow tidal channels gleaming like ribbons. Early-morning light creates long gold reflections while fog hugs the ground. Handmade reed fences and patchwork sandbag terraces stand in contrast with glistening puddles and knee-high waders moving like silhouettes."
+        },
+        {
+            "name": "Rooftop Garden & Communal Greenhouse",
+            "visual_description": "A mosaic of planter boxes, solar panels, and string-trellised vines atop a converted warehouse. Afternoon light filters through greenhouse glass creating warm, diffused ambers; misting systems throw tiny rainbows. Reclaimed furniture and lanterns give a homey, hopeful atmosphere against distant thunderheads."
+        },
+        {
+            "name": "Municipal Planning Hall",
+            "visual_description": "Modernist glass and steel building with polished floors, cool white lighting, and a looming digital civic map display. Bright projectors cast blueprints across walls; the sterile sheen contrasts with rainwater beading on the facade outside and protesters’ wet banners clinging to railings."
+        },
+        {
+            "name": "The Drowned Promenade / Old Lighthouse",
+            "visual_description": "An abandoned promenade half-submerged at high tide; gnarled pilings and seaweed-slick steps lead to a squat lighthouse with rusted metal and flaking white paint. Storm skies, intermittent lightning, and the cold, silver wash of moonlight create a lonely, elegiac mood."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Tradeoffs"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-led restoration and a negotiated hybrid infrastructure plan prevail. Eloise is publicly checked and her plan reworked with community oversight. Mara and Ibe commit to one another, and the town keeps its character while gaining durable protections; hope and rebuilding are foregrounded."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A partial compromise saves key districts but requires the controlled relocation of a vulnerable neighborhood. Mara helps secure compensation and continuity for displaced families but loses a childhood block forever. Her relationship with Ibe survives but is tempered by inevitable loss and hard choices."
+        },
+        {
+            "type": "True",
+            "summary": "Mara orchestrates a grassroots direct-action that exposes corruption in the engineered plan but at great personal cost: significant flooding damages parts of the town before a better policy is enacted. The romance with Ibe fractures under differing priorities—he chooses a safer path for his family—leaving Mara to carry forward the community work alone, a legacy ending emphasizing duty over personal fulfillment."
+        },
+        {
+            "type": "Sad",
+            "summary": "The large-scale engineered solution is implemented intact, displacing many low-lying communities and sterilizing local culture. Mara and Ibe are driven apart—one leaves with a corporate-funded relocation, the other stays to fight—and the town becomes safer but lonelier, questioning whether security without justice can be worth it."
+        }
+    ],
+    "estimated_chapters": 6
+}

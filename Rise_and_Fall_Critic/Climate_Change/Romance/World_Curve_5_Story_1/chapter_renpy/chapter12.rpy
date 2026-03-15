@@ -1,0 +1,221 @@
+label chapter12:
+
+    # [Scene: Construction Site | Early Morning, Salt Rain]
+
+    scene bg ch12_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Thrum of diesel; the distant rattle of jackhammers like giant teeth. A megaphone bleats, then is cut off by a siren in the near distance.]
+    # play music "music_placeholder"  # [Music: A steady, ascending cello motif underscored by bright piano — a hopeful pulse beneath the storm.]
+    "You step into the perimeter with Cassian Rhys at your side, and the world compresses into small, urgent details: the sticky grit of salt on your lips, the weight of your notebook pressing against your ribs,"
+    "the strap of Cassian Rhys’s satchel cutting into his shoulder as he moves with that half-daring, half-worn stride you know so well. Your breath fogs in the air, each exhale a small white proof that you"
+    "are here and moving forward."
+    "Cassian Rhys squeezes your shoulder. He smells like wet paint and rain — stubborn, defiant, the smell of someone who has slept outside to keep a promise."
+    show cassian_rhys at left:
+        zoom 0.7
+
+    cassian_rhys "They're rolling up the pylons at dawn. We got the morning shift on camera; social feeds lit up last night. People are coming."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "Good. Coverage matters. But cameras won't stop a bulldozer if the legal orders come through."
+    "Cassian Rhys's smile falters in the spray. He looks at you, searching — for a plan, for a permission you might not give."
+
+    cassian_rhys "So we hold the line. We stand in front. We—"
+
+    mira_kestrel "—we make sure people have a safe place to be arrested, if it comes to that. We rotate. Medical volunteers. A legal hotline open. No one gets left on their own."
+
+    cassian_rhys "You're always thinking a step ahead. It keeps us from being reckless."
+
+    mira_kestrel "And it keeps us alive."
+    "There is a pause, the kind that carries everything unsaid between two people who have built barricades together and shared cold dinners on borrowed tables. Around you, neighbors form a ragged human lattice — hands linked,"
+    "spray jackets bright against the gray. You read faces: the furious, the frightened, the resolute. For a moment, the scene feels like a strange, living map of the town's conscience."
+    hide cassian_rhys
+    hide mira_kestrel
+
+    scene bg ch12_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A megaphone blares a legal warning. Dogs bark. Someone nearby begins to chant.]
+    # play music "music_placeholder"  # [Music: Piano threads higher, threading urgency with an undercurrent of hope.]
+    show jonah_hale at left:
+        zoom 0.7
+
+    jonah_hale "You should stand down. This will escalate — arrests will hurt your cause."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "We know the risk. But bulldozing homes without safeguards hurts people now. The town loses more than property."
+
+    jonah_hale "We have permits. We have timelines. This project secures the bay for decades. You cannot trade certainty for sentiment and expect a city to function."
+
+    mira_kestrel "Certainty doesn't mean safety — not for everyone. There are trade-offs you never measured."
+    "Jonah Hale's jaw tightens, a shadow briefly crossing his composed face. He regards you as he would an engineer's flawed schematic: interesting, but fixable with the right numbers."
+
+    jonah_hale "Then bring those numbers to the hearings. Stop blocking the work, and we can talk specifics without noise."
+
+    mira_kestrel "Talk in public. Not under the hum of bulldozers."
+    "He looks at you for a long beat — unblinking, assessing — then turns away, tablet glowing faintly against the tar-black sky."
+
+    menu:
+        "Step forward to address the crowd and coordinate rotations":
+            "You climb onto an overturned pallet and call out instruction after instruction, your voice cutting through rain and fear; people nod, someone starts a list, someone else opens a thermos of coffee and hands it down the line."
+        "Stay low and tend to the volunteers — first aid and warmth":
+            "You kneel by an older woman whose boots are soaked through, securing a dry blanket around her shoulders and handing her warm tea; she grips your hand like an anchor and says only, 'Bless you.'"
+
+    # --- merge ---
+    "..."
+    # [Scene: The Line Tightens | Midday, Legal Notices]
+    hide jonah_hale
+    hide mira_kestrel
+
+    scene bg ch12_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The murmur of legal counsel over a speaker; the crackle of a nervous crowd. Rain thins to a steady mist.]
+    # play music "music_placeholder"  # [Music: Strings rise in an insistently hopeful pattern, threading through the tension.]
+    "The early victories arrive like bright, sharp flares: a viral clip shows an elderly neighbor singing quietly while others link arms; an op-ed from a regional paper frames your blockade as a human story. Donations come"
+    "in for legal aid. An emancipated busload of volunteers arrives from the next town. Those flare-bright moments lift you — they are proof that the town's story can travel and that others can give shoulders to"
+    "your fight."
+    "Then the law moves. Injunctions are served: a thin stack of paper that carries the weight of another world. Officers begin to remove protesters physically. Arrests happen in a precise, mechanical choreography: hands cuffed, polite recitations of rights, the soft thud of someone's phone dropping on wet ground."
+    "Cassian Rhys stands with you as someone you both know — a younger volunteer — is led away. His jaw works. When the officers move, he tries to step in. You stop him with a look, a small, urgent grasp."
+    show mira_kestrel at left:
+        zoom 0.7
+
+    mira_kestrel "If you get arrested, they take your voice. They silence you. We need you here."
+    show cassian_rhys at right:
+        zoom 0.7
+
+    cassian_rhys "And if I stay, they'll take everything else."
+
+    mira_kestrel "Then be here. Be loud with your art. Keep the feeds alive. That's how people keep listening."
+    "He closes his eyes briefly, the decision cutting him like cold water. When he opens them, there's a steadiness you can rely on, but also a new set of small cracks."
+
+    cassian_rhys "Okay. For now."
+    # play sound "sfx_placeholder"  # [Sound: A protester shouts; a camera clicks; the legal hotlines ring off the hook.]
+    # play music "music_placeholder"  # [Music: Piano flares, a lifted motif — resilient, steady.]
+    # [Scene: Jonah's Office / Town Hall Backroom | Afternoon]
+    hide mira_kestrel
+    hide cassian_rhys
+
+    scene bg ch12_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Soft rain on the window; the muffled echo of your chants outside barely reaching this polished room.]
+    # play music "music_placeholder"  # [Music: Low brass underlines formal language — the music still pulls upward, threaded with the sense that processes move oceans over time.]
+    "The consortium offers Mayor Lin fast-track permits and zoning concessions in exchange for cooperation. She listens — tired, worn from the constant balancing of safety and political viability."
+    show mayor_lin_park at left:
+        zoom 0.7
+
+    mayor_lin_park "We have to secure shelter tonight for those at immediate risk. I cannot risk the city's funding or the promise of jobs in this town."
+    "You are not in the room, but you learn the contours of the deal as it leaves mouths and signatures, and you feel it like a tide slipping away. The barrier gets its green light. Paper authorizes machines."
+    "You stand on the boardwalk and watch the cranes move like indifferent seabirds. For a while, the town's soul seems to be measured in orange vests and policy memos."
+    # play sound "sfx_placeholder"  # [Sound: The dull, irrevocable thud of a plinth being set deeper into mud. A child's cry in the distance.]
+    # play music "music_placeholder"  # [Music: A hopeful violin thread persists, suggesting that even in this, some forward motion is possible.]
+    # [Scene: A Displaced Porch | Late Afternoon, Moved Boxes]
+    hide mayor_lin_park
+
+    scene bg ch12_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft click of a tape dispenser; the low murmur of people sorting; gulls wheeling distant and indifferent.]
+    # play music "music_placeholder"  # [Music: Piano picks up an intimate, rising motif — grief alchemized into resolve.]
+    "Ruben's cane rests where he left it, a small wooden marker of a life being relocated. He is at a temporary shelter now, bundled into a borrowed blanket, eyes distant but present."
+    "You approach his stoop as the last of the movers close a truck door. He looks at you without surprise and without accusation. He knows you; you know him. There is a history between your hands and the sea he taught you to read."
+    show ruben_ortega at left:
+        zoom 0.7
+
+    ruben_ortega "You did what you could, Mira. You chose a line to stand on. People followed."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "We tried to protect them all. We failed in some places, but we didn't stop trying."
+    "Ruben studies you with wet, inward laughter. 'It's sea work — you patch, you carry, you grieve small things so the next tide doesn't wash everything clean. Keep remembering what the shore teaches: erosion is patient.'"
+
+    mira_kestrel "I'll keep the memory. I'll carry it. I promise."
+    "Ruben grips his cane and gives you a look that is both benediction and challenge. You feel both warmed and worsted by it."
+
+    menu:
+        "Help Ruben into the shelter and promise to visit nightly":
+            "You fold yourself into the small shelter with him for the evening, the air smelling of canned soup and disinfectant; he hums a tune you learned as a child while the volunteers bring extra blankets."
+        "Step back and move to coordinate volunteers for more urgent relocations":
+            "You walk away with your notebook open, the number of families to check growing in your head like a tide map; there's no time to be sentimental — someone must keep the schedule tight."
+
+    # --- merge ---
+    "..."
+    # [Scene: Under the Shadow of the New Seawall | Months Later, Low Tide]
+    hide ruben_ortega
+    hide mira_kestrel
+
+    scene bg ch12_3be532_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The slow scrape of maintenance trucks; gulls take advantage of exposed pools. A distant radio plays a jaunty commercial for coastal redevelopment.]
+    # play music "music_placeholder"  # [Music: A steady, ascending string arrangement — sorrow tinged with determined uplift.]
+    "You walk along the base of the seawall, the concrete looming like a new cliff. The town is quieter here — the sound of construction has dwindled into maintenance hums. Homes are safer on paper; families"
+    "have roofs that no longer leak in storms. But the bay's face has changed, and you have learned to read that change with a scholar’s grief and a campaigner's calculation."
+    "Your hands are muddy when you kneel by a drainage hatch and pry at a loose panel. Inside, beneath the steel, you find a set of folded maintenance logs tied with rubber bands. They smell of oil and long, warm machine days."
+    "You open them with the methodical patience of someone who has read too many numbers for comfort. There, in ink and in the clipped language of engineers, are notes about scouring and increased sediment movement at"
+    "the western coves — entries that suggest the wall's presence will accelerate erosion, not just stop tides. A maintenance schedule here, a reactive fix there; then an internal memo suggesting 'monitoring for downstream impact.'"
+    "Your chest tightens and then — unexpectedly — you feel something else: a sudden, clear buoyancy. These pages are a handhold. They are evidence that will not let the story end here."
+    show mira_kestrel at left:
+        zoom 0.7
+
+    mira_kestrel "This is something. This is leverage."
+    "You think of months ahead: the late nights with Asha poring over hydrodynamic models, the journalists who once listened and might listen again, the regional panels that could be swayed with hard, local proof. The climb ahead is steep, but it exists. The tide has changed shape, but not direction."
+    hide mira_kestrel
+
+    scene bg ch12_3be532_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant hammer, then a softer sound — a child laughing on the far pier.]
+    # play music "music_placeholder"  # [Music: The cello rises, joined by a choir of soft strings that suggest collective breath drawn in, together.]
+    "Cassian Rhys is there on the pier when you emerge, an overnight bag at his feet. He has been organizing in other towns as a rotation, a way to stretch influence across coasts. He looks thinner"
+    "at the edges, files of flyers tucked under his arm, but his eyes still flare with the old light when he sees you."
+    show cassian_rhys at left:
+        zoom 0.7
+
+    cassian_rhys "I had a feed from last night — you and Asha with those logs. People are starting to pay attention again."
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "I found the maintenance notes. They show accelerated erosion in neighboring coves. It's not immediate proof of catastrophe, but it frames a pattern. It's something to build on."
+
+    cassian_rhys "Something's better than nothing. It's proof we can use."
+    "He folds himself against the railing, watching the tide pull away. For a suspended moment, you hold one another's silence like a pact — not sealed, not easy, but present."
+
+    cassian_rhys "I have to go south next week. There's a coalition forming; they want me. I —"
+
+    mira_kestrel "Go. You have to go where you can do the most good."
+
+    cassian_rhys "You're the practical one. You always were."
+
+    mira_kestrel "And you are the wide-vision. We'll meet in the middle, Cass. We will."
+    "He looks at you like someone who loves a place and fears that love isn't enough. The words hang between you — both of you wanting to promise more than you can safely give."
+
+    cassian_rhys "Promise me you'll keep that log safe. Promise you'll make them listen."
+
+    mira_kestrel "I promise."
+    "He leans forward and kisses your temple, quick and private in the wind, then slings his bag over his shoulder. He walks away toward the bus stop, the strap of his satchel thumping once against his hip."
+    # play music "music_placeholder"  # [Music: The strings swell with a warmth that feels like a promise of continued resistance.]
+    hide cassian_rhys
+    hide mira_kestrel
+
+    scene bg ch12_3be532_8 at full_bg
+    # [Scene: Old Northpoint Lighthouse | Dusk]
+
+    scene bg ch12_3be532_9 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The creak of the stairs underfoot; the faint hiss of the lantern's wick. Far below, the town is a scatter of lights.]
+    # play music "music_placeholder"  # [Music: Solo piano, ascending in quiet, sure cadences.]
+    "You climb the damp stairs and reach the top. The view opens in a sweep you've known since childhood: roofs, the new seawall like a pale tooth along the waterline, the river of light from the"
+    "highway, the thin thread of the boardwalk. You sit on the cold stone and pull your field notebook onto your knees. Your tidewatcher rests heavy against your throat."
+    "You think of the line you chose to stand on — of people arrested, of porches boxed and moved, of Ruben's cane leaning silent on a weathered step. You think of the viral moments that showed"
+    "the world your faces, and of the legal papers that closed around the town like a net. You catalog the losses and the gains with the slow, exacting mind of someone who knows the sea is"
+    "both giver and taker."
+    "You open the maintenance logs again and trace the margins where someone scribbled 'monitor' and 'assess.' It is not a victory you can celebrate tonight, but it is a foothold. You have evidence. You have witnesses."
+    "You have the truth of scales and currents that may yet be used to change decisions upstream."
+
+    "You write a single line in your notebook, hand steady" "We will keep working. We will make them listen."
+    "A gull folds across the beam of the lighthouse and the whole bay seems to breathe with you. The sting of loss is still sharp, but beneath it is a steady warmth — the sense that"
+    "the next move is possible, that small, persistent acts of people can shift policy and shoreline alike."
+    "You close the notebook, and when the lighthouse lamp rounds on another sweep, it catches you in a thin, honest light. The horizon is long; you are not finished."
+    # play music "music_placeholder"  # [Music: Swells into a full, rising chord — not triumphant in a simple way, but resolute and forward-leaning.]
+    # play sound "sfx_placeholder"  # [Sound: The long, resonant cry of a horn from a distant ship. The wind lifts your hair.]
+    "You stand, the wind at your back, and look down at your town — imperfect, battered, breathing. Your grief threads through you, but it does not knot you. It becomes a length of rope to tie"
+    "down the work to come. The logs in your bag, the memory of Ruben’s cane, Cassian Rhys's departing steps — these are not an ending but points on a map that will lead you forward."
+    "You step down from the lighthouse, the stone cool beneath your palm, and you move toward the path that leads back to the town. There are meetings to plan, data to translate, friends to hold and"
+    "sometimes to let go. The fight shifts shape: from the din of a barricade to the slow, careful gathering of proof and people, a quiet, unstoppable build."
+    # play music "music_placeholder"  # [Music: Fades into a hopeful, sustained chord.]
+
+    scene bg ch12_3be532_10 at full_bg
+
+    scene bg ch12_3be532_11 at full_bg
+    "THE END"
+    # [GAME END]
+    return

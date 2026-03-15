@@ -1,0 +1,35 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Morning Salt<br/>[Common]"):::spine
+    2("Ch 2<br/>Public Hearing Prep<br/>[Common]"):::spine
+    3("Ch 3<br/>The Hearing (Logic H<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Pilot Momentum<br/>[Route A]"):::limb
+    5("Ch 5<br/>Scaling Choices (Log<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>High Water<br/>[Route A → Option A]"):::limb
+    7("Ch 7<br/>Hybrid Platform Asce<br/>[Route B]"):::limb
+    8("Ch 8<br/>Compromise Terms (Lo<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>The Wall We Built<br/>[Route B → Option A]"):::limb
+    10("Ch 10<br/>Quick Protection<br/>[Route C]"):::limb
+    11("Ch 11<br/>Inside the Pavilion <br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>Retrofit Failures<br/>[Route C → Option A]"):::limb
+    13("Ch 13<br/>Leave to Build Elsew<br/>[Route A → Option B / Route C → Option B]"):::limb
+    14("Ch 14<br/>Local Fix, Lasting C<br/>[Route A → Option C]"):::limb
+    15("Ch 15<br/>PR and the Leak<br/>[Route B → Option B / Route C → Option C]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    4 -.-> 5
+    5 -.-> 14
+    5 -.-> 13
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 9
+    8 -.-> 6
+    8 -.-> 15
+    10 -.-> 11
+    11 -.-> 13
+    11 -.-> 12
+    11 -.-> 15

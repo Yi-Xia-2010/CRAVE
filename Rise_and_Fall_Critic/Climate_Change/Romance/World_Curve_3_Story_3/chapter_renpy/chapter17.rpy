@@ -1,0 +1,202 @@
+label chapter17:
+
+    # [Scene: Boardwalk Blockade | Dawn]
+
+    scene bg ch15_e67f19_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, the hollow slap of tide against pilings, a low murmur of voices and a camera shutter]
+    # play music "music_placeholder"  # [Music: Sparse piano with a gentle upward motion — hopeful, patient]
+    "You step out onto the boardwalk with the taste of iron and salt on your tongue. The morning is cold and damp; your hair is braided to keep it from the wind, but wisps still cling"
+    "to your cheek, heavy with spray. The compass at your throat is cool against skin. The red thread on your wrist feels like both promise and stitch."
+    "People are everywhere and nowhere all at once — a braided human line in mismatched raincoats and borrowed vests. Sandbags form a haphazard wall where construction vehicles were meant to be. Hand-painted letters flake where they"
+    "have been exposed to more storms than most politicians could imagine. Someone has strung fairy lights between two poles; they shine pale against the fog as if staging optimism."
+    "Elias stands a few steps down, camera warm under his palms. He films in quiet bursts, amber eyes narrowed at the lens, capturing not just faces but the space between them. When he looks up, his expression reads like a catalog of small, fierce cares."
+    "Finn folds a banner by your feet, fingers sure and quick. Rosa moves through the crowd with thermoses balanced on trays, her laugh a low bell that cuts through fatigue and makes people straighten."
+    "You inhale. The air smells of wet wood, brewed coffee, a tang of algae. Your notebook is heavy in your bag, pages damp at the edges — every map, every contingency, a ledger of possibility."
+
+    menu:
+        "Stand on the crate and chant to hold the first line":
+            "You climb up, the crate wobbling beneath your boots. Your voice carries out across the water, ragged but true. A dozen people pick up the rhythm, the blockade answering like a tide."
+        "Stay low and tend the medic tent":
+            "You crouch by the tarpaulin, checking supplies. A volunteer glances at you, relief written across their mud-smeared face. You stitch a bandage while the chant surges beyond the tent."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Boardwalk Blockade | Later Morning]
+
+    scene bg ch15_e67f19_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Microphones fuzzing, a reporter's practiced cadence, the low hum of generators]
+    # play music "music_placeholder"  # [Music: Layered strings, gently brightening]
+    "Elias approaches with a thermos and an exhausted smile. He hands you a cup; the steam ghosts in the air between you."
+    show elias_novak at left:
+        zoom 0.7
+
+    elias_novak "You've got a way of showing up where the work is the hardest. When I film, I try to make people feel the faces behind the signs. That's why I came back."
+    show maya_serrano at right:
+        zoom 0.7
+
+    maya_serrano "Faces matter."
+    "You pull the collar of your jacket around you."
+
+    maya_serrano "But so do their roofs and their livelihoods. Picture doesn't feed a family."
+
+    elias_novak "It can start a conversation that feeds a family. Visibility makes the budgets move. The cameras make the lawmakers uncomfortable."
+
+    maya_serrano "Uncomfortable isn't the same as accountable."
+    "You keep your voice level but tight. 'We need structures — oversight, funding, an actual plan that doesn't leave people paying the bill for private protection.'"
+
+    elias_novak "And you think the blockade will get them to the table?"
+
+    maya_serrano "It makes it impossible to pretend there's no one here. It forces the dialogue into public space, where people can see the trade-offs."
+    "You cup the thermos like a talisman. 'We make them answer to us.'"
+
+    elias_novak "I just—"
+    "He pauses, the wind tugging at his scarf. 'I don't want you to be the one who carries the blame if it goes sideways.'"
+
+    maya_serrano "I won't."
+    "Your words are steadier than you feel. 'You won't let me.'"
+
+    elias_novak "Good. Because when it's hard, I want to be in the mess with you."
+    "He looks away quickly, then back, searching the boardwalk like he's testing a tide."
+    "The exchange holds between you like a breath. It is not a promise and not a withdrawal; it is a calibration. Elias folds the camera strap around his wrist and returns to the line, filming faces and folding them into the story."
+    # [Scene: Boardwalk Blockade | Days Later — Montage]
+    hide elias_novak
+    hide maya_serrano
+
+    scene bg ch15_e67f19_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Applause, shouted chants, the metallic whine of an ambulance distant and irrelevant]
+    # play music "music_placeholder"  # [Music: Percussion joins the strings, a heartbeat of communal labor]
+    "You sleep in shifts, the boardwalk your watch. Reporters swarm and then leave. Someone live-streams an interview that gets shared in the city; a legislator tweets a photo that draws more eyes; the blockade draws attention both tender and furious."
+    "Rosa runs a steady rotation of soup and coffee. Finn ferries in planks and tarps from the old warehouse; he borrows an old toolbox from the café and never seems to stop. People who once eyed"
+    "each other across fences now share batteries and blankets. An elderly man teaches a group how to knot a sling; teenagers paint a map of evacuation routes on plywood, marking roof-garden refuges in emerald strokes."
+    "Not everything hardens into cohesion. Angry letters arrive, threats thinly veiled as concerns. A rumor spreads that the company will move heavy machinery through the night. Someone argues for escalation; someone else begs for patience. Your notebook fills with notations: timestamps, legal contacts, lists of elders who must be prioritized."
+
+    menu:
+        "Read the legal counsel's note aloud at the next assembly":
+            "You stand on the stage and let the words land. People nod, some flinch at the technicalities, but the room hushes into attention."
+        "Share the note only with the core negotiators":
+            "You whisper the counsel's caution to a small circle. It narrows the field of debate; trust tightens in that small ring."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Development Site Edge | Afternoon]
+
+    scene bg ch15_e67f19_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Camera shutters, the polite rustle of legal pads, the distant wash of sea]
+    # play music "music_placeholder"  # [Music: Brass undertone with a hopeful cadence]
+    "A delegation arrives: a neutral mediator from the county, a polished representative from Kestrel Marine Development, and Mayor Lillian Cho, her expression contained but not insincere. They stand where the pavement crumbles into sand and look at the human wall you and others have made."
+
+    "Kestrel Representative" "We appreciate the passion here. Our goal has always been to make Saltbridge safe and sustainable. We brought new proposals based on the latest models."
+    "Maya Serrano: (you step forward) 'Safety for whom? Will the protections be accessible? Will you allow community oversight? And who pays when shops are removed for mitigation?'"
+
+    "Kestrel Representative" "We recognize community sovereignty concerns. We're prepared to propose a phased pause on the immediate works subject to a co-development pilot; we can pilot living-shoreline measures with community advisory input."
+    "A hum rises through the line — cautious optimism edged with suspicion."
+    show mayor_lillian_cho at left:
+        zoom 0.7
+
+    mayor_lillian_cho "We have negotiating constraints and permit timelines to consider. But this—this is an opening. If Kestrel will accept public auditing and a staged approach that funds community rooftop networks and a maintenance commission, we can present a framework that avoids immediate displacement."
+    "Maya Serrano: (the words in your throat are heavy) 'Staged approaches can become permanent delays. Audits can be sidelined. How do we ensure enforceability? How do we protect those who have to move?'"
+    "Kestrel Representative: (a beat) 'We would extend the permit timeline to allow for a public audit clause and a conditional pause. Funds will be allocated to a pilot program for living shorelines and rooftop sanctuaries. Some"
+    "retail frontages will require relocation to meet safety thresholds, but the pilot is co-managed and will prioritize displaced owners for rebuilding and compensation.'"
+    "You hear Rosa's breath hitch somewhere behind you. Finn looks at a stack of crates and sees a future where his hands have to rebuild what his family lost."
+    show maya_serrano at right:
+        zoom 0.7
+
+    maya_serrano "You promise co-management and funding. But you won't wave away accountability."
+    "Kestrel Representative: (nods) 'We will agree to a legal clause guaranteeing community oversight on the pilot and public audits on milestones. The pause is contingent on the audits and a timeline extension. It's not everything, but it's a start.'"
+    "A reporter's voice calls, asking for a reaction while a camera whirs like a small living thing. Negotiators step aside to draft language. The tension in the air is raw — the kind that waits for a verdict — but there is a sliver of light through it."
+    "Mayor Lillian Cho: (softening) 'We won't pretend this spares everyone. Some sacrifices are inevitable in short term. But my office will mediate compensation, and we'll prioritize relocation support. This pilot could set a precedent.'"
+    "Maya Serrano: (thinking of the neighbor who drowned, of Finn's steady hands, of Rosa's smile) 'If we do this, we don't leave the most vulnerable behind. We hold the work to a public standard and we build capacity so the community isn't always at the mercy of private timelines.'"
+
+    "Kestrel Representative" "Agreed. We will sign a conditional memorandum acknowledging community oversight, a phased pause, and funding for the pilot. Details to be finalized with the oversight panel — including community representatives."
+    "The words are not salvation. They are a fragile agreement — paper that can be burned or built upon. You let out a breath you didn't know you were holding."
+
+    menu:
+        "Insist that the oversight panel include elders and frontline residents":
+            "You stand firm, naming names and insisting on seat assignments. People clap at the clarity; the negotiators shift, suddenly aware of the faces they must answer to."
+        "Ask for a clause promising immediate emergency repairs for the most at-risk homes":
+            "You press for immediate material relief. A negotiator scribbles, eyebrows raised. It gets added as a line item for 'urgent measures.' Someone smiles, relieved."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Boardwalk Blockade | Early Evening]
+    hide mayor_lillian_cho
+    hide maya_serrano
+
+    scene bg ch15_e67f19_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Quiet murmurs, a small cheer washed soft by fog, a tape recorder left on a bench]
+    # play music "music_placeholder"  # [Music: A warm swell; cello notes like low tides lifting]
+    "A conditional memorandum passes from polished palms to ink-stained hands. Finn signs with a careful loop, Rosa with a hand that trembles just enough to make it human. You place your finger after them, thumb pressing the paper as if to pin it into reality."
+    show mayor_lillian_cho at left:
+        zoom 0.7
+
+    mayor_lillian_cho "This is contingent, and it is fragile. But it is also precedent-setting. Kestrel will pause immediate heavy works and fund the living-shoreline pilot. There will be an audit clause and an oversight panel with community seats. Some shops will relocate. Some architecture will be sacrificed for safety. We will compensate and prioritize rebuilding in the pilot."
+    "A dozen breaths exhale as one. People laugh and cry, sometimes at the same time."
+    show elias_novak at right:
+        zoom 0.7
+
+    elias_novak "We did a thing I was afraid we couldn't do."
+    show maya_serrano at center:
+        zoom 0.7
+
+    maya_serrano "We did it together."
+
+    elias_novak "So where do we go from here?"
+
+    maya_serrano "We build. We stay. We make sure the pilot doesn't become window dressing. We guard the audit with everything we have."
+
+    elias_novak "Then let's get to it. I'll keep filming. And I'll keep being in the mess."
+    "You want to say more — something about what his presence has meant, about whether shared hardship has rearranged what the two of you might be. But the question is both private and public. You feel its weight like the first heavy tide after a dry spell."
+    "You don't answer with a verdict. You answer with a plan."
+
+    maya_serrano "Rosa will coordinate shelter kitchens. Finn will head logistics. We'll draft the oversight charter with community delegates. And we will meet every week — public, transparent meetings."
+    "You press your palm to the cold wood of the boardwalk. 'We will stay awake.'"
+
+    elias_novak "Count me in."
+    hide mayor_lillian_cho
+    show finn_serrano at left:
+        zoom 0.7
+
+    finn_serrano "Same team, Sis."
+    hide elias_novak
+    show rosa_alvarez at right:
+        zoom 0.7
+
+    rosa_alvarez "And coffee. So much coffee."
+    "The night hums with practical joy and the small rituals of organizing life after victory. People hug, trade phone numbers, write names on boards. Not everyone smiles; some faces are carved with worry about what they'll"
+    "lose. The compromise has saved space for local governance, but it has not spared the town of sacrifice. You know in your bones there will be hard months ahead."
+    # [Scene: Boardwalk Edge | Dawn After the Agreement]
+    hide maya_serrano
+    hide finn_serrano
+    hide rosa_alvarez
+
+    scene bg ch15_e67f19_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A soft chorus of conversation, a child laughing in the distance]
+    # play music "music_placeholder"  # [Music: A hopeful orchestral lift, layered with single bell notes]
+    "You stand at the waterline again. Your hair is still braided; spray has made a halo of tiny beads around the braid. Your compass is cool and steady. The red thread on your wrist rubs against the dented metal like a metronome counting out the next steps."
+    "People move around you with purpose. A shipment of materials for rooftop gardens is unpacked; volunteers hammer frames for raised beds. The pilot's plans are pinned on a board, annotated in a dozen hands. It will"
+    "not be quick. It will not be easy. But for the first time since the storms turned the maps upside down, you feel the current change direction."
+    "You think of the neighbor you lost, and the promise you made with the thread on your wrist. You think of Finn's steady hands, Rosa's laugh, Elias' camera lens catching what you could not say. You"
+    "think of Mayor Lillian's hand on the memorandum, the Kestrel representative's reluctant nod. The line between retreat and rebuilding has formed; it is an awkward, honest place to stand."
+    "Some relationships deepen here, braided by shared work and sleepless nights. Some recede, rearranged by different visions of how to protect a town. The ways people love you — and the ways you love back — will have to hold many versions of justice."
+    "You close your eyes for a single, short second. The smell of salt and damp wood fills your lungs. You run your thumb over the compass, feeling a small, steady warmth. You allow yourself a smile that is not naïve but determined."
+    show maya_serrano at left:
+        zoom 0.7
+
+    maya_serrano "We'll learn how to live here. We'll make a home that can hold us."
+    "You open your eyes and look out at the pilot mock-up: a strip of planted coir logs, a row of rooftop planters starting from a donated seed stock. It is small. It is real. It is enough to be a beginning."
+    hide maya_serrano
+
+    scene bg ch15_e67f19_7 at full_bg
+    # play music "music_placeholder"  # [Music: Gentle swell into a resolved, warm chord]
+    "You stand on the boardwalk, soaked braid and compassed heart steady, feeling the place between retreat and rebuilding settle around you like a cloak. The concession won was imperfect; it leaves scars and questions. But it"
+    "has carved a space — legal, spatial, human — where the community can, at last, govern how its future is built."
+    "You know the next years will include mending and meetings, arguments that will hurt and plans that will bless. You know that this victory is not the end but the first day of a long apprenticeship"
+    "in public care. You are tired, and therefore honest; you are hopeful, and therefore fierce."
+
+    scene bg ch15_e67f19_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade to a single, sustaining note — warm and steady]
+
+    scene bg ch15_e67f19_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,104 @@
+### SCRIPT
+# Route: Route C
+# Context: Start
+
+[Scene: Green Roof Network | Dawn]
+[Background:"ch1_Start_1"]
+[Music: Soft, low ambient with distant gull calls]
+[Sound: A light, steady drip of condensation; the city’s distant, muffled hum]
+
+You wake with gravel in your mouth and the smell that will always be home—the sharp, clean salt of the harbor folded with the warm, loamy smell of wet soil. Your chestnut hair is a loose knot at the nape of your neck; a stray tendril brushes your hazel eye when you tilt your head. The glass vial at your throat clinks softly against the seed packets inside, so familiar it could be part of your breath.
+
+Raised beds stitch themselves across the roof like a patchwork map: reclaimed wood bowed where roots press, strings of fairy lights drooping countlessly under morning dew, and tarps folded into neat squares where last night's covers lay. A row of tomato plants leans toward whatever light the sky will spare. Near the rail, a crate has been co-opted into a small workstation; Kira's ink-blue raincoat flaps on it like a bright flag as she unfolds a stack of protest flyers with the practiced rhythm of someone who has done this before and will do it again.
+
+You sit up and your knees scrape against soil-streaked trousers. The fabric of your cargo jacket rubs cold against the seeds at your throat. For a quiet beat you check the vial—thumbs flattening the glass, counting packets by feel—and tuck a pressed leaf into the back of your repurposed field notebook. The paper is warm from the sun yesterday, still humid, a small archive of everything you promised to keep.
+
+Kira: "You're up. Took you an eternity to stop snoring like a seal."
+(She smiles, but there's the quick edge in her voice—practical, waiting.)
+Ayla Moreno: "I was dreaming about compost ratios. Very glamorous."
+(You rub at the sleep from your eyes and stand, boots scuffing the wood.)
+Kira: "Do you even remember the last time you had a normal night's sleep?"
+(She laughs; it's not really a question. She hands you a flyer folded to the size of a palm.) "Mayor's holding a town-hall at noon. Big announcement. Serena's office pushed it out last night."
+
+The name hangs in the air like a weather line. Serena Okoye—Mayor, diplomat, the woman with the city-wide pull and the tired face from a thousand sleepless negotiations. Your stomach doesn't flip; it steadies. You press your thumb into the soil by the nearest tomato plant and feel the tiny friction of roots and earth.
+
+Mateo arrives from the stairwell hauling a crate of leftover fish—smoke-sweet, oily in the way only harbor fish can be. His hands are stained with last night's labor and with the white scuff of salt. He drops the crate with a thud that echoes against the brick, and the scent of cured fish mingles with the rooftop's green smell. His face crinkles into a grin that hides a hundred small histories.
+
+Mateo: "Morning, Ayla. Plants look like they're holding you in."
+(He fingers the rim of a planter, as if remembering its weight.)
+Ayla Moreno: "They're stubborn in the best way."
+(You smooth a leaf, checking for blossom set, for the tiny swell of life that proves the rooftop is not just survival—it's a promise.)
+Mateo: "Town-hall, eh? Serena's voice puts tremors through city hall. You think she'll listen to a handful of rooftop gardeners?"
+(He laughs, then the laugh gentles.) "Listen, when I was a boy, the tide took my boat. Took more than wood—it took the shape of our days. You keep these gardens, you keep the days."
+
+You fold your hands around a warm pot, feeling a film of moisture on your palms. Memory slides into place like an old tool: a childhood plot swallowed by a stormwater surge, your mother's hands hauling what could be saved, the stubborn smell of wet cardboard and salt. You still carry the image of the fence post poking out of water like a small, defeated sign. That loss is why you taught yourself to coax life out of roofs and window boxes—to rebuild what the city had washed away.
+
+[Background:"ch1_Start_2"]
+[Sound: A soft electronic chirp as someone's tablet receives a push notification]
+
+Kira slides her tablet toward you. Jonah Hale's renderings glitter on the screen: a clean concrete arc, a promenade above the wall, shiny plaza renderings that promise order and safety. They are the wrong kind of bright for the rooftop; they sit on your tablet like a postcard from a city that doesn't sweat or smell like the harbor.
+
+Kira: "What do you think?"
+(Her voice is low. She looks to you not for an answer that fixes everything but for the one that steadies the morning.)
+Ayla Moreno: "They're pretty drawings."
+(You touch the glass like a lid between you and them.) "Pretty doesn't mean right for the people who sleep here."
+
+Kira doesn't let it go. She leans in, voice quickening with the small drumbeat of strategy. "We'll be at the town-hall," she says. "Leaflets, stories—Mateo's coming to tell them what the harbor remembers. We can get people to speak."
+
+Mateo: "I'll tell them about the eelgrass we lost to that dredging in '29. I'll tell them about the storms my father said would come again. They listen when someone talks about what was."
+(He nods toward the city horizon, where cranes and the half-built wall bloom into view.)
+
+You look out at that horizon. The half-built seawall is a line in the distance—concrete skeleton rising like a promise and a threat at once. Cranes blink black against clouds, and somewhere below, the harbor keeps its private, tidal rhythm. Jonah's renderings feel tactile and impossible on your tablet, as if you could press them into the air and they'd hold. You fold a seed packet between your fingers, feeling the smooth roughness of paper and the tiny aged scent of seed oil.
+
+[INTERACTION]
+> Choice A: "Tend the tomato—prune a lonely shoot"
+> Choice B: "Leave it—let the plant find its own form"
+[Outcome A: "You pinch a thin shoot between your fingers, the motion small and exact. The plant settles in toward the light as if in thanks. The cut smells faintly green, sap sweet in the cold air."]
+[Outcome B: "You let your fingers hover and then fall away. The tomato stoops and gathers itself. You think of hands that can't always intervene; sometimes survival needs space."]
+[MERGE: The decision to prune is small and private. It lets you touch the day and mark it as yours. The choice to leave it alone sits like a quiet philosophy—you are learning to trust the city's own stubbornness as much as you coax it.]
+
+Kira folds more flyers, each crease a ritual. She hums under her breath, a tune that feels like organizing—neat, forward. The fairy lights over your head still hold tiny beads of frost; a gull calls, and the sound threads through the terraces. For a moment, everything is ordinary in the way of small communities: someone brining too much coffee, a joke about compost turning traitorous, the private, shared language of people who build things with hands.
+
+[INTERACTION]
+> Choice A: "Help fold flyers"
+> Choice B: "Watch Kira work"
+[Outcome A: "You take a stack; your fingers fold and tuck paper with the practiced rhythm of someone who has passed leaflets in rain before. Kira's smile is quick and grateful."]
+[Outcome B: "You lean on a planter rim and study the harbor. Watching her move through tasks is its own kind of alignment—no words, just presence."]
+[MERGE: Kira's hands are quick; when you help, your fingers find their pattern in time with hers. When you don't, you find yourself listening—the hum of the city, the soft rustle of leaves, the cadence of other people's breath as they prepare for a day that could change everything.]
+
+A bell of a notification pops from the crate beside Mateo; a printed notice, slightly damp at the edges. He reads it aloud like a man reciting weather to sailors.
+
+Mateo: "Mayor Serena will present a major vote at today's town-hall. Public comment period at the end. Noon."
+(He taps the paper as if to make sure the words won't float away.)
+
+The statement is clean, municipal, without flourish. You can feel a current shift under the rooftop's routine—subtle, steady. It's not panic; it's the small tightening of a line on a map, a new contour to reckon with. The morning's quiet clarifies into a kind of appointment.
+
+You tuck the printed notice into your notebook between pages of pressed basil and a dried receipt from the supply co-op. The paper's edges press into your palm. For a second you imagine the mayor's voice filling a hall, the hush as a community breathes together, and the slow, even rhythm of people speaking the ward's truth. You think of Jonah's renderings and of Mateo's handed memory, of Kira's bright coat, of the seedlings you've coaxed through storms and neglect.
+
+You walk the terrace edge once more, checking each bed with the patience of someone who knows how small acts add up. A bee hesitates over a marigold, wings a blur of gold dust. The air is salt and green and possibility.
+
+[Background:"ch1_Start_3"]
+[Music: Faint swell—still calm, but a note of urgency threads the ambient]
+
+The town-hall will be noon. The day narrows like a lens around that hour. There are things to prepare: people's names to remember, a story or two to tell, a map of the green roofs to lay out on a table. For now the rooftop breathes with you—steady, persistent.
+
+You tuck your notebook closed, hook your gloves into your belt, and look once more at Jonah's renderings on the tablet. They are slick and complete. They are not the same map as the one pressed into your palm by a memory of a lost fence post. You taste salt and the understated apprehension that comes before any important conversation.
+
+There is a town-hall. There is a decision to be argued in public. The morning narrows; the city waits in its careful way.
+
+You take a breath that tastes of wet soil and sea. You secure the vial at your throat, fingers steady. Outside, somewhere between cranes and gulls, a half-built wall stands like both answer and question.
+
+[Background:"ch1_Start_4"]
+[Music: Ambient note fades, leaving the quiet clatter of the rooftop]
+
+You have work to do. You have stories to hold. The day will ask for more than seedlings and flyers; it will ask for voice.
+
+[Background:"ch1_Start_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

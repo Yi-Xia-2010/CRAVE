@@ -1,0 +1,515 @@
+{
+  "title": "Tides of Ash and Kelp",
+  "summary": "You are Marina Reyes, a marine ecologist returned to Laurel Bay to found a living-seaweed cooperative and restore tidal flats after your father’s death. The municipal council, guided by Elias Kato, advocates strategic infrastructure and managed retreat; Kai Matsuda pushes decentralized, fast experiments and direct action. Tension escalates at a town hall where decisions about a proposed floodwall and relocation plan are framed as the only practical solutions. You choose a course — siding with grassroots resistance, collaborating with municipal planning, or trying to broker a hybrid strategy — and each path leads to increasingly fraught choices: organizing risky direct actions, negotiating political compromises, or running a risky pilot during storm season. Split decisions appear repeatedly: whether to escalate protests or protect fragile experiments, whether to share damaging data publicly or keep it confidential to sway voters, whether to let a few families relocate to save many or hold the line to preserve place. The emotional arc is a steady fall: optimism and community hope gives way to misjudgment, political failure, and climate-driven disaster. The endings vary in tone — loss, sacrifice, fractured love, and hard-minded purpose — but all close on a nadir: evidence that good intentions cannot fully avert certain losses.",
+  "emotional_curve_type": "Tragedy (Fall)",
+  "player_character": "Marina Reyes",
+  "chapter_structure": [
+    {
+      "chapter_index": 1,
+      "chapter_title": "Homecoming Light",
+      "branch_designation": "Common",
+      "narrative_focus": "I arrive at Laurel Bay, stepping onto the tidal flats at low light, buoy pendant heavy at my throat. I take in the wet wood, the sea-glass palette, and meet Mika at the Glasshouse Lab to check the seedbank. Quiet optimism and ties to my father’s memory drive me. I notice Elias in the distance, trench coat neat against the salt air; seeing him stirs complicated memory. I reacquaint myself with the tidal nursery and the shelf labels in the Glasshouse, feeling both competence and a private ache. The community festival is weeks away; the municipal resilience plan rumor is everywhere. I resolve to start a cooperative and plant the first long-line of kelp; technical small wins feel possible.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Positive",
+      "Arousal": "VeryLow",
+      "entry_condition": "None (Start)",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 2,
+      "characters_involved": [
+        "Marina Reyes",
+        "Mika",
+        "Elias"
+      ],
+      "locations_used": [
+        "Tidal Flats",
+        "Glasshouse Lab",
+        "Laurel Bay"
+      ],
+      "id": 1
+    },
+    {
+      "chapter_index": 2,
+      "chapter_title": "Seeds and Old Debt",
+      "branch_designation": "Common",
+      "narrative_focus": "At the Glasshouse Lab, I inventory spores and argue methods with Kai and Mika. Kai’s neon-coral braid flashes as she presses for rapid, decentral experiments and microgrids; she wants to seed barge-lines this season. I show her my data; she asks why I returned if I’m going to trust \"the system.\" Old Tom drops by, eyes like weathered maps, and he remembers the day the tide took things. Political murmurs rise: the municipal council will vote on a floodwall proposal. Later, in late light, Elias drops an invitation to a council briefing; his amber eyes are steady but guarded. I fight the urge to close off and instead promise myself to listen. I feel the tug between roots and policy: cooperative work requires community trust; top-down plans require sacrifices I worry about.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Neutral",
+      "Arousal": "Low",
+      "entry_condition": "From Chapter 1",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 3,
+      "characters_involved": [
+        "Marina Reyes",
+        "Kai",
+        "Mika",
+        "Old Tom",
+        "Elias"
+      ],
+      "locations_used": [
+        "Glasshouse Lab",
+        "Municipal Hall",
+        "Laurel Bay"
+      ],
+      "id": 2
+    },
+    {
+      "chapter_index": 3,
+      "chapter_title": "Town Hall Reckoning",
+      "branch_designation": "Common / Split",
+      "narrative_focus": "At the municipal hall, Rina opens the briefing under overcast light. Elias presents a municipal adaptation plan: strategic seawalls, elevated infrastructure, and targeted managed retreat. Kai slams a modular pilot plan and accuses planners of technocratic displacement. I present kelp-based buffers and the cooperative vision. Old Tom testifies, but the council fears immediate losses. After a fractious public debate, the vote is deferred — and the room fractures into camps. You face a choice: throw your weight into direct community-led action (Option A), formally align with Elias to steer the municipal plan from within (Option B), or attempt to broker a hybrid, visible compromise by staging a live demonstration at the Reclaimed Wetlands Festival (Option C). Each choice will redirect the town and your relationship with Elias and Kai.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "Mid",
+      "entry_condition": "From Chapter 2",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "Decide how to publicly position the cooperative and your goals in response to the council’s indecision.",
+        "options": [
+          {
+            "label": "Lead the community — we’ll block construction and build the cooperative now.",
+            "consequence": "You align with Kai's urgency and commit to direct action and rapid expansion of pilot farms, risking legal conflict and political isolation.",
+            "target_chapter_index": 4
+          },
+          {
+            "label": "Work with Elias — I’ll join the municipal process to shape the plan.",
+            "consequence": "You accept Elias’ offer to participate, embedding science into policy but potentially sacrificing radical local control.",
+            "target_chapter_index": 7
+          },
+          {
+            "label": "Stage a high-profile demo at the festival — show what regenerative buffers can do.",
+            "consequence": "You attempt a visible hybrid approach, risking the fragile pilot in front of the town during festival season and storm forecasts.",
+            "target_chapter_index": 10
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Kai",
+        "Rina",
+        "Old Tom",
+        "Mika"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "Construction Site"
+      ],
+      "id": 3
+    },
+    {
+      "chapter_index": 4,
+      "chapter_title": "Salted Commitments",
+      "branch_designation": "Route A",
+      "narrative_focus": "I throw myself into community organizing with Kai, mobilizing folks for a blockade of the Municipal Hall construction site and accelerating kelp long-line installation. Tensions with Elias harden; he views our tactics as reckless but stops short of outright sabotage. The town feels electric, and Kai’s neon braid is everywhere — she rigs modular solar strips to old pilings at dusk. We recruit fishers to help anchor our lines, and Amalia coordinates festival volunteers. The blockade draws support but also a notice from Rina about legal consequences and the company begins staging heavy equipment nearby. Every success comes with a fresh moral question: who do we expose to risk to defend a place? My old guilt about my father and my tendency to carry everyone’s burden grows heavier as we work into the night.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 5,
+      "characters_involved": [
+        "Marina Reyes",
+        "Kai",
+        "Elias",
+        "Mika",
+        "Amalia",
+        "Rina"
+      ],
+      "locations_used": [
+        "Tidal Flats",
+        "Municipal Hall Construction Site",
+        "Glasshouse Lab"
+      ],
+      "id": 4
+    },
+    {
+      "chapter_index": 5,
+      "chapter_title": "Stormfront Choices",
+      "branch_designation": "Route A / Split",
+      "narrative_focus": "A late squall is forecast within days; the construction crew accelerates pile-driving. We must decide how to allocate our fragile resources: push for a high-stakes mass direct action to halt construction (Option A), withdraw to protect the seedbank and scientific evidence for future leverage (Option B), or attempt a negotiated short pause with Elias and Rina in exchange for data sharing (Option C). Each choice risks betrayal, legal action, or loss of the physical experiments. Your emotional burden rises as you think of neighbors who cannot relocate and the cooperative's fragile seedlings.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 4",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to respond to the accelerating construction and imminent squall.",
+        "options": [
+          {
+            "label": "We escalate — mass action now; hold the line.",
+            "consequence": "The blockade becomes larger and riskier; legal and physical confrontations are likely; the experimental long-lines stay in the water under stress.",
+            "target_chapter_index": 6
+          },
+          {
+            "label": "Protect our experiments — pull back and preserve the seedbank.",
+            "consequence": "You remove vulnerable lines to protect future trials and risk losing momentum with the community and alienating Kai.",
+            "target_chapter_index": 14
+          },
+          {
+            "label": "Negotiate a short pause — I’ll share select data with Elias if they delay.",
+            "consequence": "You attempt a compromise; political deals may undercut grassroots support and create bitter divisions.",
+            "target_chapter_index": 15
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Kai",
+        "Amalia",
+        "Mika",
+        "Elias",
+        "Rina",
+        "Old Tom"
+      ],
+      "locations_used": [
+        "Tidal Flats",
+        "Glasshouse Lab",
+        "Municipal Hall Construction Site"
+      ],
+      "id": 5
+    },
+    {
+      "chapter_index": 6,
+      "chapter_title": "Floodline (Ending A1 — Route A Outcome)",
+      "branch_designation": "Route A / Ending",
+      "narrative_focus": "The mass action escalates. The blockade temporarily halts heavy machinery but provokes a violent confrontation when a storm hits earlier than predicted. Security attempts to force lines; a piling collapses and tide surges faster than we can respond. Our long-lines strain and snap; the seedbank loses critical samples to salt intrusion when the Glasshouse’s pumps fail. Several families’ low-lying homes are devastated by an unexpected tidal surge. I survive, but the cooperative’s pilot is destroyed. Relationships fracture; Kai accuses me of poor judgment for agreeing to the action. Elias is devastated and blames the escalation for political backlash that ends the municipal compromise. This ending is a hard nadir: community losses are immediate, the town’s optimism is drowned, and your bond with Elias is severely strained.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Kai",
+        "Elias",
+        "Old Tom",
+        "Rina",
+        "Community Families"
+      ],
+      "locations_used": [
+        "Tidal Flats",
+        "Glasshouse Lab",
+        "Municipal Hall Construction Site"
+      ],
+      "id": 6
+    },
+    {
+      "chapter_index": 7,
+      "chapter_title": "Framing the Plan",
+      "branch_designation": "Route B",
+      "narrative_focus": "I accept Elias’ offer to embed within the municipal planning process. Inside Municipal Hall, I meet Rina and other operators of policy. I help translate kelp buffers into pilot metrics; Elias values data integrity and keeps a deliberate distance from rhetoric. Kai warns me that municipal timelines will compromise urgent on-the-ground needs. We work to include cooperative labor credits into the official plan while the construction crew accelerates. The town expects results; the political calculus tightens. I feel tugged between being a scientist and feeling complicit in displacement as maps of “managed retreat” are redrawn. My relationship with Elias reawakens complicated tenderness and the tension of ideology versus love.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 8,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Rina",
+        "Kai",
+        "Mika"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "Glasshouse Lab",
+        "Construction Site"
+      ],
+      "id": 7
+    },
+    {
+      "chapter_index": 8,
+      "chapter_title": "Compromises and Leaks",
+      "branch_designation": "Route B / Split",
+      "narrative_focus": "A critical vote and a leaked report escalate pressure. Someone has found private flood projections showing a higher-than-publicized risk to certain neighborhoods — the data could pressure a faster retreat. You’re faced with a split: publicly release the projection to force immediate action (Option A), keep the data confidential and use it to quietly renegotiate relocation support for the most vulnerable (Option B), or stage a carefully controlled field demonstration with Kai to sway hearts without data (Option C). Each choice risks political ruin, the betrayal of neighbors, or the loss of public trust. Elias looks to you to recommend a path; the town’s fate hangs on your counsel.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 7",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to use the leaked flood projections and your influence.",
+        "options": [
+          {
+            "label": "Release the projections publicly — force the issue.",
+            "consequence": "Shock and anger follow; the council is pressured into rapid measures but panic and unequal displacement increase.",
+            "target_chapter_index": 9
+          },
+          {
+            "label": "Keep them confidential — negotiate targeted relocation and supports.",
+            "consequence": "You work within the system to protect the most vulnerable but accept that some families are asked to move; political blowback may come later.",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Do a field demo with Kai — win hearts not headlines.",
+            "consequence": "You attempt to show the town living buffers via a controlled demonstration; failure could delegitimize community methods.",
+            "target_chapter_index": 12
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Rina",
+        "Kai",
+        "Old Tom"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "Glasshouse Lab",
+        "Town"
+      ],
+      "id": 8
+    },
+    {
+      "chapter_index": 9,
+      "chapter_title": "Political Winter (Ending B1 — Route B Outcome)",
+      "branch_designation": "Route B / Ending",
+      "narrative_focus": "You release the leaked projections. Panic and anger spread; the council is forced into emergency action. Political maneuvering accelerates but without careful social supports. Eviction notices for a handful of low-lying households go out in weeks. The municipal plan proceeds under pressure; Elias is praised for decisive action but you see the human cost immediately. Kai calls the move a betrayal; community trust fractures. The cooperative’s momentum stalls amid accusations that you weaponized data. The town endures an immediate stabilization of infrastructure but at the cost of displacement and fractured relationships. Personal guilt and community rupture form a bleak winter.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 8, Option A",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Kai",
+        "Old Tom",
+        "Rina"
+      ],
+      "locations_used": [
+        "Municipal Hall",
+        "Town Market",
+        "Laurel Bay"
+      ],
+      "id": 9
+    },
+    {
+      "chapter_index": 10,
+      "chapter_title": "Festival Threshold",
+      "branch_designation": "Route C",
+      "narrative_focus": "I decide to stage a hybrid, public demonstration at the Reclaimed Wetlands Festival to show living buffers in action. The festival is twilight bulbs and smoked fish; Amalia organizes stalls and Old Tom mans a storytelling circle. Kai rigs a floating pilot with modular solar strips; Elias is present but wary. You choose strategy under a social microscope. The demonstration is an attempt to translate science into shared feeling and political pressure, but weather and political interference loom. The demonstration is a gamble to sway hearts rather than legislate through numbers.",
+      "emotional_trajectory": "Fall",
+      "Valance": "Negative",
+      "Arousal": "High",
+      "entry_condition": "From Chapter 3, Option C",
+      "major_decision_point": {
+        "has_choice": true,
+        "description": "How to run the festival demonstration.",
+        "options": [
+          {
+            "label": "Show raw, unedited data and demo hardware openly.",
+            "consequence": "People see the full risks and benefits; transparency may gain trust or cause alarm.",
+            "target_chapter_index": 11
+          },
+          {
+            "label": "Focus on spectacle and story — make it emotionally convincing.",
+            "consequence": "You appeal to hearts but sacrifice some scientific nuance; failure damages credibility.",
+            "target_chapter_index": 12
+          },
+          {
+            "label": "Invite Elias to co-present for political cover and data legitimacy.",
+            "consequence": "A joint presentation could bridge camps but risks diluting grassroots agency.",
+            "target_chapter_index": 13
+          }
+        ]
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Kai",
+        "Amalia",
+        "Elias",
+        "Old Tom",
+        "Mika"
+      ],
+      "locations_used": [
+        "Reclaimed Wetlands Festival",
+        "Market",
+        "Glasshouse Lab"
+      ],
+      "id": 10
+    },
+    {
+      "chapter_index": 11,
+      "chapter_title": "Open Instruments (Route C / Outcome)",
+      "branch_designation": "Additional / Cross-Entry",
+      "narrative_focus": "You opt for radical transparency: open data and live readings at the festival or you keep the projections confidential to rearrange supports (cross-path entry). The crowd reacts to clear charts of risk: some folks are galvanized into moving, others panic. If entered from the festival path, shared instrumentation convinces a segment of the town to support kelp pilots and modest municipal buffers. If entered from Branch B confidentiality, you used discrete negotiation to secure relocation funds and social supports; the moral cost remains. Either way, the community’s social fabric frays as neighbors choose different futures. The cooperative’s pilot draws some funding but political victory is thin; your relationship with Elias becomes a quiet, complicated constant.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option A OR From Chapter 8, Option B",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Old Tom",
+        "Amalia",
+        "Mika",
+        "Rina"
+      ],
+      "locations_used": [
+        "Glasshouse Lab",
+        "Festival",
+        "Municipal Hall"
+      ],
+      "id": 11
+    },
+    {
+      "chapter_index": 12,
+      "chapter_title": "Showpiece Collapse",
+      "branch_designation": "Additional",
+      "narrative_focus": "You choose to prioritize spectacle and story with Kai, or attempt a demonstration to sway hearts. The pilot is put into the water during festival season under applause, but an unforecast squall overturns buoys and fouls lines; the spectacle turns into public failure. The cooperative’s credibility crumbles. Kai accuses you of theatrical risk-taking; the municipal council uses the failure to justify heavy machinery and legalized retreat. The town’s trust fractures, funding dries, and personal relationships splinter. You survive but the cooperative is delegitimized in public eyes.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option B OR From Chapter 8, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Marina Reyes",
+        "Kai",
+        "Elias",
+        "Amalia",
+        "Mika",
+        "Community"
+      ],
+      "locations_used": [
+        "Reclaimed Wetlands Festival",
+        "Tidal Flats"
+      ],
+      "id": 12
+    },
+    {
+      "chapter_index": 13,
+      "chapter_title": "Joint Platform",
+      "branch_designation": "Additional",
+      "narrative_focus": "You invite Elias to co-present at the festival. The joint presentation temporarily bridges camps: the municipal plan accepts staged cooperative pilots and allocates conditional funding. Politically, this is a partial victory. But compromise alienates some grassroots supporters; Kai accuses you of selling out. The municipal plan is implemented with performance metrics that commodify labor credits; some households agree to relocation with compensation, but others are left to feel abandoned. The cooperative survives in watered-down form while the romantic bond with Elias becomes bureaucratized.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 10, Option C",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 14,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Kai",
+        "Rina",
+        "Amalia"
+      ],
+      "locations_used": [
+        "Festival",
+        "Municipal Hall"
+      ],
+      "id": 13
+    },
+    {
+      "chapter_index": 14,
+      "chapter_title": "Quiet Seed",
+      "branch_designation": "Additional / Cross-Entry",
+      "narrative_focus": "You prioritize protecting scientific assets and the seedbank, withdrawing fragile field experiments to preserve future work. This route buys you time and preserves the cooperative’s intellectual capital. The community’s immediate momentum is hampered; some see the retreat as cowardice, others as prudence. You keep crucial lines of research alive, enabling a slower rebuilding; relationships fray but allow for future resurgence. The emotional cost is heavy: you preserved possibility but at the cost of immediate action and trust.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option B OR From Chapter 11, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": 15,
+      "characters_involved": [
+        "Marina Reyes",
+        "Mika",
+        "Kai",
+        "Amalia"
+      ],
+      "locations_used": [
+        "Glasshouse Lab",
+        "Tidal Flats"
+      ],
+      "id": 14
+    },
+    {
+      "chapter_index": 15,
+      "chapter_title": "Aftermath and Embers",
+      "branch_designation": "Additional / Ending",
+      "narrative_focus": "The final chapter stitches an aftermath from choices: whether negotiated compromise, failed demonstration, or protective withdrawal, the town has sustained losses. Some homes stand; some are gone. The cooperative still exists as a scarred thing or a preserved seed, community trust is fractured, and Elias remains a complicated ally — sometimes near, sometimes distant. Your love with Elias is honest but taxed; some relationships — especially with Kai — may be broken beyond repair. You stand on the cliffs with the buoy pendant in your palm and plant a long-line anyway: a small, defiant act that admits both failure and stubborn hope. The ending is tragic — the town bears the mark of what we could not prevent — but you commit to persist, to scrape together restoration from ruins.",
+      "emotional_trajectory": "Fall",
+      "Valance": "VeryNegative",
+      "Arousal": "VeryHigh",
+      "entry_condition": "From Chapter 5, Option C OR From Chapter 12, Next OR From Chapter 14, Next",
+      "major_decision_point": {
+        "has_choice": false,
+        "description": "",
+        "options": []
+      },
+      "default_next_chapter": -1,
+      "characters_involved": [
+        "Marina Reyes",
+        "Elias",
+        "Kai",
+        "Old Tom",
+        "Mika",
+        "Amalia",
+        "Community"
+      ],
+      "locations_used": [
+        "Cliffside",
+        "Tidal Flats",
+        "Glasshouse Lab"
+      ],
+      "id": 15
+    }
+  ],
+  "remarks": "World View: Laurel Bay is a near-future coastal town where centuries-old fishing terraces meet newly forming tidal wetlands. The town’s economy and identity are threaded with salt, seaweed, and small wooden docks; clapboard homes perch on stilts while experimental seaweed pens ripple in sheltered channels. Technology exists but is patchy: DIY solar microgrids and drone surveys sit beside rust-streaked pilings and a market of mended nets. Politically, responsibility for adaptation is split between a cautious municipal council that promotes large-scale, top-down resilience projects (seawalls, elevation, managed retreat) and a network of grassroots actors who favor regenerative, place-based solutions (seaweed cooperatives, microgrids, floating farms). Geography includes wide tidal flats, a reclaimed glasshouse lab, a municipal hall with a looming construction site, a windswept cliff lighthouse, and an evening market.",
+  "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+  "_meta_arc_strategy": "Tragedy (Fall)",
+  "_meta_correction_log": "Fixed by Structure Analyzer",
+  "generated_at": "2026-03-11 09:16:13"
+}

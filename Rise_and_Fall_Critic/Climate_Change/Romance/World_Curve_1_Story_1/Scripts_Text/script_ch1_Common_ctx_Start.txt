@@ -1,0 +1,147 @@
+### SCRIPT
+# Route: Final Epilogue (Convergent True Ending)
+# Context: Start
+
+[Scene: Seabright Boardwalk | Late Morning]
+[Visual: Wide shot of the boardwalk, salt streaks catching the light; camera pushes in on you kneeling beside a patch of algae-stained planks]
+[Music: Gentle, hopeful acoustic guitar; underlying swell of strings]
+[Sound: Distant gull calls, the creak of wet wood, a soft scuff as someone approaches]
+
+You trace the pale line where yesterday's tide kissed the boards. The stain is a thin, stubborn arc—brown-green algae baked into the grain, salt crystals like tiny, bright fossils. Your gloved fingers press the corner of the notebook to steady it against the breeze; the page is a chart of tide marks and neighbor reports, messy but useful. The sensor reader hums against your chest, a quiet, periodic pulse that tells you more than you want to admit: sensors read a higher baseline, and the lines are creeping, not just seasonal.
+
+You breathe in: salt, coffee from a street vendor cart, the faint mineral tang of standing water. The sun is generous for March—hard light that makes the wet wood blink. You should be cataloguing every scuff, every algae ribbon, and yet the list in your head keeps returning to the same two words: "what if."
+
+You flip to the next page and sketch a rough idea—mangrove saplings at the mouth of the channel, a raised promenade along the worst-hit stretch, solar microgrid nodes on the roofline of Rosa's block. The gestures are broad, hopeful strokes more than plans. Hope likes big gestures; science likes precise numbers. You are impatient for both.
+
+Amara Vale: "Eli—check the reader. See that hump at 09:12? It's not a single surge. Look at the baseline."
+
+Elias 'Eli' Navarro [leaning over your shoulder, fingers brushing a damp railing]: "Hm." (He squints, the curls at his forehead catching light.) "The drift's there. You'd expect spikes after the northeast wind, but this—" He taps the reader, and the tiny screen fills with a line that doesn't lie. "It's steady. Different pattern than last year."
+
+You feel something like confirmation and something like a cold electric worry behind your ribs. Confirmation gives you ammunition; worry makes you move faster than you should.
+
+Amara Vale: "If the baseline climbs another eight centimeters, the Old Harbor basements will flood monthly. Not just during storms. People will start losing insurance the way they lose tin roofs."
+
+Elias 'Eli' Navarro: "We can raise foundations, modular supports—" (his voice is practical, measured) "—but that's money, permits, weeks of work. And even if we start, it won't be fast enough unless we chunk it. There's logistics, Amara."
+
+You look at him. You know his carefulness; you've watched him weigh calculus against livelihoods. You also know that when he says "logistics," he is asking for permission to be cautious.
+
+Amara Vale: "Chunking is fine. Start with where people are already likely to vote for it—Rosa's block, the school, the corner by Hal's boatyard. Mangroves at the inlet would buy us time for the rest."
+
+Elias 'Eli' Navarro [soft smile, a flash of wry memory]: "Rosa will love that. She grows guerrilla basil on every windowsill." He hesitates. "And mangroves need permits. They need clearance from the council. Marco Voss's been sniffing around the inlet plans, too."
+
+His tone tightens at the name. The mention of Marco Voss is a thin shadow on the sunlit boards. You have met him in town meetings; you know his voice: smooth, convincing, impatient with small-scale ideals. You swallow the instinct to go sharp.
+
+Amara Vale: "Then we make the case stronger. Community science, not just models—neighbors' observations, sensor arrays that run a real baseline ... and the café on the corner can host the kickoff. Rosa'll help us pack the room."
+
+Elias 'Eli' Navarro [nods, tapping at his wristband like it's a mental checklist]: "I can draft a modular promenade—something businesses can accept because it doesn't close their storefronts, and it can be built in phases. If we tie in microgrids, we make it about livelihoods as much as safety. That gets votes."
+
+There. You feel a small current shift inside you—fear turning into a plan. It's not salvation, but it's a beginning. Your chest loosens for a beat. You remember the promise you made the night you stood in your family's half-ruined kitchen and swore you would do better for the town that raised you. Survivor's guilt isn't a single feeling; it's a weather pattern inside you, a pressure system you learn to navigate. Today the barometer dips—and you choose to act.
+
+[INTERACTION]
+> Choice A: "Mark the algae line, start a photo log"
+> Choice B: "Sketch the promenade cross-section"
+[Outcome A: You pocket the sensor reader, angle your camera down and take a close series of photos. The sequence will be useful when you show Rosa and the council, a quiet archive of present evidence.]
+[Outcome B: You pull the pen back across the page and draft a rough cross-section of the promenade, mud, pilings, handrail—something tangible to show Eli. It feels like building a ladder out of ink.]
+[MERGE: Elias 'Eli' Navarro watches you. He clicks his tongue approvingly whether you chose image or sketch; both are tools you share. The unity of small actions is a kind of comfort.]
+
+[Sound: A bell chime from Rosa's Café; a voice carries across the boards—Rosa's, bright as a boiled sugar banner]
+Rosa: "Amara! You'll drown in your notebooks out here, come inside and dry off!"
+
+Her call feels like an invitation and a summons. The café's awning flaps; inside, warm light pours and people inhabit the space like the town's living room. A sign advertising "Community Meeting—Bring Ideas" hangs crookedly by the door—someone's optimism already stitched into the place.
+
+Elias 'Eli' Navarro [grins]: "She always knows when to call you in." He picks up his satchel. "I'll walk you to the plan, if you'll let me add tolerances."
+
+Amara Vale: "You already did. But yes—tolerances welcome."
+
+[Transition: You rise. The wooden boards protest beneath your boots with the familiar creak of towns that have learned to survive.]
+
+[Scene: Rosa's Café | Late Morning]
+[Visual: Interior shot—steam, a sun-dimmed window with salt streaks, potted herbs on the sill]
+[Music: Piano riff underlaid with a light percussive heartbeat]
+[Sound: Clink of cups, low conversational hum, the hiss of an espresso machine]
+[Visual: Show Rosa wiping a fresh table, smiling as you enter]
+
+The café smells like ground coffee and citrus oil from the counter cleaner; pastry warmth wraps the room. You settle at a corner table where the light angles just so across your notebook. Rosa sets down a mug without asking; the steam curls to touch your face. The act is small but fierce—a neighbor's attention.
+
+Rosa: "Look at you—field glam. Salt in your hair and hero in your eyes. Sit. Tell me everything."
+
+Amara Vale: "Baseline's rising. Sensors confirm. The algae lines are spreading. If we do nothing, the Old Harbor sees monthly flooding in—" Your words tumble out, crisp and controlled, the scientist's voice shaped with civic urgency. "We need mangrove buffer at the inlet, a phased promenade where businesses can keep doors open, and solar microgrids to keep essential services running when storms cut power."
+
+Rosa [listening, spoon idly stirring]: "And you'll convince them? The town talks big on solidarity, but it eats fear and sells it back in two-dollar burgers."
+
+You feel the old weight at the edge of your ribs—responsibility again, a pocket you keep filled. You could try to carry it all. You almost always try.
+
+Amara Vale: "We won't carry it alone. That's why I'm asking you. If you put up the meeting space, Miriam can mobilize volunteers, and Elias 'Eli' Navarro's drafting the promenade so it's not just theory. Hal's stories could anchor the proposal in memory—the way he talks about the '59 storm, people listen."
+
+Rosa [eyes soften]: "You sound like a woman with a plan. And a plan is less scary than a cry in the wind. I'll put out the notice—no charge for the first community forum. And I'll make lemon bars. Political work tastes better with lemon."
+
+Elias 'Eli' Navarro [settling into a chair, pulling out a folded page of notes]: "If we phase it, we can spread costs. Phase one: raise the sidewalk on Rosa's block and the school approach. Phase two: modular boards on pilings with drainage. Phase three: mangrove planting and reinforcement. If we present phasing and a financing map—microgrants, community bonds—it's harder for council members to dismiss."
+
+Rosa: "And Marco Voss? He will don't you know, swoop in with a glossy presentation and promises. He smells a consolidated front from a mile off."
+
+Elias 'Eli' Navarro: "Then we beat him at his own game. Show the council boots-in-the-mud evidence. Show them residents who will build and maintain. Show them how a microgrid keeps small businesses open during a storm—see the economy, not just the problem."
+
+Your chest loosens further. The momentum is tangible: Rosa's small generosity, Elias 'Eli' Navarro's technical scaffolding, Miriam's activism as a promised force. For the first time today, survivor's guilt doesn't feel like a ledge; it feels like a lever.
+
+Amara Vale: "I'll put together an evidence pack. Sensor logs, resident testimonials, a sketch of the promenade phases, cost estimates. Elias 'Eli' Navarro, could you mock up a quick visual for the first week? Something the council can grasp without getting lost in engineering jargon."
+
+Elias 'Eli' Navarro: "I can do that tonight. Simple cross-section, price per meter, timeline. I'll even color-code the phases so it reads at a glance."
+
+Rosa reaches across the table and squeezes your hand—an ordinary act, ordinary and steady.
+
+Rosa: "Promise me you'll eat something beside coffee. Promise me you'll let people help."
+
+You want to say that promises are slippery when fear binds your throat. Instead you smile, the way you learned to smile at meetings so people hear hope rather than panic.
+
+Amara Vale: "I promise I'll let people help."
+
+Rosa [teasing]: "Good. Then you keep your stubborn streak for the forum and leave the martyrdom for bad rom-coms."
+
+You laugh, the sound light, and the café feels like a small hull, buoyed by shared warmth. It's ridiculous and sincere—exactly the combination Seabright needs.
+
+[INTERACTION]
+> Choice A: "Frame the forum around livelihoods ('How this will keep shops open')"
+> Choice B: "Frame the forum around community legacy ('For our kids and the old stories')"
+[Outcome A: You sketch a flyer headline: 'Protecting Business, Protecting Home.' The argument leans on practical benefits—insurance stability, fewer storm closures. It will speak to owners who fear immediate losses.]
+[Outcome B: You draft a softer headline: 'The Seabright We Keep.' The message taps memory and pride—grandparents, schoolchildren, Hal's '59 story. It will stir the heartstrings and long-term thinking.]
+[MERGE: Rosa reads both drafts over your shoulder and nods decisively. "Use both. People vote with stomachs and with memories. Put lemon bars on the table and Hal's picture on the easel."]
+
+Elias 'Eli' Navarro [smiling]: "I can make a two-slide opener—one image of flooding and one image of a raised promenade with market stalls. Quick emotional hook, then numbers."
+
+Amara Vale: "And Miriam can get volunteers to map houses most at risk. We'll bring a map. We'll bring saplings. We'll bring people who will muck in and plant twice as hard because they know what's at stake."
+
+Rosa: "I'll make space. I'll call Old Man Tor—if he comes, folks listen. He carries stories like driftwood. He'll anchor our memories."
+
+The room hums with small logistics that feel, collectively, revolutionary: lemon bars, an easel, a slide deck, saplings stacked in a loaned van. Each mundane piece becomes a tool of resistance against the slow slide of water.
+
+You rest your hands on the notebook and feel the weight of it turning into pages that can be shared. The pressure you carry is still there, but it's no longer a lone weight. It sits now in a little pile at the center of your table, surrounded by allies.
+
+Elias 'Eli' Navarro [quietly, meeting your eyes]: "You don't have to carry the guilt, Amara. Let us shoulder it with you."
+
+Amara Vale: "I know. It's just—" (you falter, then steady) "My family lost the porch in '29. There's a corner in me that keeps checking rooftops at night. But I'm tired of checking alone."
+
+Rosa [soft]: "Then stop checking by yourself. Bring the town to the window."
+
+Elias 'Eli' Navarro: "I'll draft tonight. Rosa hosts tomorrow. You pull together the evidence pack. I'll bring Hal's contact list; he owes me a favor from the last council fiasco."
+
+Amara Vale: "Done. I'll start compiling the logs and residents' notes. And—" You pause, wanting to fix your voice into resolve, "—I won't try to do this alone."
+
+[Sound: A brief, bright patter on the window—first raindrops of an afternoon squall; light flickers on wet pavement outside]
+[Visual: Window shows the boardwalk across the street, already glistening]
+
+The rain is quick, a fresh clean kind that smells like rinsed salt and possibility. It hushes the town for a breath and then becomes a promise: work to do, people to call, a meeting to fill. Your shoulders loosen as you look at the small blueprints and lemon-smeared napkins on the table. The plan is not perfect. It is not final. But it is happening.
+
+You pocket the sensor reader, check the notebook one more time, and let the sound of plans forming fill the space where the old weight used to live.
+
+[Page-Turn Moment]
+You stand, the café's warmth clinging to your jacket. Outside, the rain sharpens the light; it seems to press the town into focus. The Beacon's whiteboards wait—blank, electric, full of possibility. There will be graphs to pin, testimonies to catalog, a room to fill. For the first time since you returned, the horizon feels like an invitation rather than a threat.
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: 2]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 2
+    > Jump Target File: script_ch2_Common_ctx_c4ca42.txt

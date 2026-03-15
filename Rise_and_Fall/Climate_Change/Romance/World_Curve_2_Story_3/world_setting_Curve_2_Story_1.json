@@ -1,0 +1,116 @@
+{
+    "design_logic": "I blend Climate Change and Romance by making the environmental crisis the engine of interpersonal stakes: decisions about adaptation, sacrifice, and community set the emotional beats. The core conflict is between urgent, science-driven action to protect a coastal town and competing economic/political pressures that endanger both place and relationships. Romance grows through shared work, moral disagreements, and the tension between staying to fight or leaving to survive.",
+    "setting": "A small coastal town (Greyhaven) in the near-future (2035) where rising seas and more violent storms have already changed daily life. The town balances fragile traditions (fishing, salt flats) with emergent green technologies and contested development projects. Atmosphere is intimate, weathered, and at times apocalyptic — tender human moments against a backdrop of tides, wind, and policy debates.",
+    "visual_style": "Realistic anime-influenced realism, muted coastal palette, watercolor textures for weather, cinematic lighting, tactile material details (salt, rust, wet wood), occasional neon for technology elements",
+    "main_characters": [
+        {
+            "name": "Isla Morgan",
+            "role": "Protagonist",
+            "personality": "Curious, steady, methodical, quietly compassionate. Isla is scientifically rigorous but emotionally open in small, honest ways. She struggles with perfectionism and guilt when choices harm people she cares about. Loyal to place and evidence; slow to anger but fiercely protective.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves, usually tied back in a purposeful low knot when working",
+                "eyes": "Sea-glass green, rounded and observant, often squinting in wind or sunlight",
+                "clothing": "Practical layered outfits: salt-stained navy field jacket with stitched repair patches, breathable fisher's shirts, rugged jeans, rubber-soled boots with white flecks of lichen; when working in lab, a faded turquoise lab apron with pencil marks",
+                "accessories": "A battered brass compass on a leather thong (keepsake from her father), a slim tablet with field notes in a worn case, a thin silver ring engraved with wave lines"
+            },
+            "goal": "To design and implement resilient, community-led shoreline adaptations that both preserve Greyhaven’s ecology and protect its people.",
+            "background_story": "Grew up in Greyhaven; trained as a coastal ecologist and returned after a fellowship when the town began to flood more frequently. Her father was a fisherman lost to a storm five years earlier — a trauma that motivates her commitment to safety and to honoring local fishing traditions.",
+            "emotional_trait": "Strength: steadfast empathy and analytical mind. Flaw: tendency to shoulder responsibility alone and avoid asking for help."
+        },
+        {
+            "name": "Luca Moreno",
+            "role": "Love Interest",
+            "personality": "Charismatic, earnest, improvisational. Luca is an engineer-activist who believes practical technology and community organizing can win policy changes. He is playful and tactile, quick to joke to diffuse tension but earnest in crises. Sometimes impulsive and optimistic to fault.",
+            "appearance_features": {
+                "hair": "Short, curly black hair kept slightly tousled, sun-bleached at the tips",
+                "eyes": "Warm amber-brown, almond-shaped and expressive, often crinkling when he smiles",
+                "clothing": "Layered utilitarian-casual: olive work vest over graphic tees supporting local cooperatives, cargo pants with tool loops, scuffed sneakers patched with duct tape, occasionally a bright orange safety harness when on-site",
+                "accessories": "A set of modular multitools hanging from his belt, a smartwatch with custom environmental apps, a red bandana tied around his wrist that he uses for everything from a rag to a flag"
+            },
+            "goal": "To retrofit the town with low-cost, community-run infrastructure (modular sea walls, living breakwaters) and to rally grassroots support to block exploitative development.",
+            "background_story": "Raised in a nearby city, Luca moved to Greyhaven after volunteering during a major storm response. He has some formal engineering training but learned most techniques in the field. He admires Isla’s expertise and seeks to combine tech with people-power.",
+            "emotional_trait": "Strength: infectious optimism and resilience. Flaw: can overpromise and take risky shortcuts to achieve quick wins."
+        },
+        {
+            "name": "Aria Chen",
+            "role": "Antagonist / Complicated Ally",
+            "personality": "Polished, strategic, principled in her own way. Aria is a pragmatic local council member who values long-term economic survival; she often frames choices in cost/benefit terms. She’s not malicious — she fears the town’s decline and believes controlling development is the fastest route to security.",
+            "appearance_features": {
+                "hair": "Sleek black bob, precisely cut and usually tucked behind one ear",
+                "eyes": "Steel-gray, narrow and assessing, with a faint trace of tiredness beneath",
+                "clothing": "Crisply tailored coats in slate and forest green, high-collared blouses, smart ankle boots with a glossy finish; she carries herself formally even in storms",
+                "accessories": "A slim digital council ID badge clipped to her jacket, a leather briefcase with laminated plans, a small jade pendant (family heirloom) visible at the collar"
+            },
+            "goal": "To secure investments and jobs for Greyhaven by approving a mixed development project (promises new industry and sea defenses funded by outside capital).",
+            "background_story": "Descendant of several merchant families, Aria worked in regional planning before returning home to care for an aging parent. She believes attracting capital is the practical way to prevent the town from hollowing out.",
+            "emotional_trait": "Strength: decisive leadership and political savvy. Flaw: can be emotionally distant and dismissive of non-economic values, leading to conflict with community members."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Jonah Merrick",
+            "relation_to_main": "Mentor to Isla; elderly local fisherman",
+            "appearance_summary": "Weathered face, white stubble, hands stained by salt; wears a patched fisherman's coat and a wool cap.",
+            "function_in_story": "Provides local knowledge of currents and lore, a moral compass for tradition vs. change, and a personal link to Isla's past."
+        },
+        {
+            "name": "Maya Morgan",
+            "relation_to_main": "Isla's younger sister",
+            "appearance_summary": "Short-cropped blonde hair, bright hazel eyes, practical commuter clothing with paint-splattered gloves.",
+            "function_in_story": "Represents those who must choose between leaving for work or staying; pressures Isla emotionally and highlights family stakes."
+        },
+        {
+            "name": "Ravi Patel",
+            "relation_to_main": "Luca's organizing partner",
+            "appearance_summary": "Lean, energetic, often seen with a clipboard and camera, wearing a weatherproof hoodie and rubber boots.",
+            "function_in_story": "Runs community workshops and assists with protests and construction, provides comic relief and technical help."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Greyhaven Harbor",
+            "visual_description": "A tidal town center with rickety wooden piers and salt-stiff ropes. Lighting is low, with gray mornings that break into gold when the sun cuts the horizon; wet cobblestones reflect cloud banks. Buildings are weather-beaten clapboard, paint peeled to reveal old slogans. Sea mist frequently drifts in, softening edges and making distant silhouettes like ghosts."
+        },
+        {
+            "name": "Tidewatch Lab",
+            "visual_description": "A converted boathouse with large north-facing windows and damp timber beams. Inside: brass instruments, charts tacked to a wall, glass beakers drying in sunlight. Cool, diffuse light, salt crystals on window sills, and the steady hum of old refrigeration for samples. Warm lamp pools at workbenches where Isla sketches maps."
+        },
+        {
+            "name": "Salt Flats and Living Breakwater Site",
+            "visual_description": "Expansive, flat marshlands dotted with low, engineered reefs and clusters of reed beds. Sky dominates — wide, changeable, often bruised with storm fronts. The palette is ochre, pewter, and sea-glass green. Wind carves visible lines across the flats; reflections puddle like mirrors after high water."
+        },
+        {
+            "name": "Town Hall and Promenade",
+            "visual_description": "Stone-and-glass public building facing a promenaded seawall. Interior council chambers are warm with oiled wood and brass fixtures, fluorescent policy posters on the walls. Outside, the promenade has modern benches and lamp posts with solar panels — their lights flicker during storms, creating isolated islands of neon in the wet darkness."
+        },
+        {
+            "name": "Rooftop Garden at the Old School",
+            "visual_description": "A community garden planted on a repurposed rooftop, lush with salt-tolerant shrubs and vegetables in raised wooden beds. Sunlit in good weather, with strings of solar fairy lights that look intimate at dusk; smell of damp soil and herbs, a haven for quiet conversations amid the encroaching sea."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community vs. Development",
+        "Sacrifice and Care",
+        "Love under Pressure"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Isla and Luca lead a community-driven adaptation project that combines living breakwaters and policy wins; Aria compromises by renegotiating development terms to fund local jobs. The town survives the next major storm with minimal loss, and Isla and Luca commit to a partnership both personal and professional."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The town adopts many of Isla's ecological measures, but they require significant displacement of some households and the closure of a traditional fishery. Isla and Luca grow closer but decide Luca must leave to scale the solutions elsewhere; they promise to reunite but accept an uncertain separation."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political compromise fails and an ill-planned development accelerates erosion. A catastrophic storm damages the town severely. Isla is forced to lead an evacuation, losing much of her home; her relationship with Luca fractures under blame and regret as survival takes precedence over romance."
+        },
+        {
+            "type": "True",
+            "summary": "Isla exposes scientific data that proves the development would cause irreversible harm. Aria is publicly forced to reckon with the facts and resigns; the town undergoes painful restructuring of leadership. Love becomes secondary to truth: Isla loses a personal romantic possibility but secures long-term protection for Greyhaven through transparent, evidence-based governance led by the community."
+        }
+    ],
+    "estimated_chapters": 6
+}

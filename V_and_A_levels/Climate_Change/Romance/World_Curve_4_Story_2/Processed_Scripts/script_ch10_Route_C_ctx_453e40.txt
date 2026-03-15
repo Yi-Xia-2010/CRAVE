@@ -1,0 +1,194 @@
+### SCRIPT
+# Route: Route C
+# Context: 453e40
+
+[Scene: Resilience Hub | Dawn]
+[Background:"ch10_453e40_1"]
+[Music: High, urgent strings with pulsing percussion]
+[Sound: Distant horns from the harbor, the soft clatter of equipment, a low and steady beeping from monitoring rigs]
+
+You came here by saying yes to the scaled pilot back in the chamber — the choice that bought time instead of promises of instant salvation. The echo of that decision sits behind your ribs like a second heartbeat. This morning, it vibrates against the inside of your palms as you check clip after clip, readout after readout.
+
+Maya Soren: "Status?"
+
+Elias Voss: "All trays sealed. Deployment winches are prepped at the promenade slip. Lena's team synced the buoy telemetry last night. Wind models look... jittery." (He lifts his wrist; the tide-watch face blinks a weak, stubborn green.)
+
+You inhale the greenhouse air: salt and damp earth, a thread of kelp-sweet tang. The smell steadies you and also reminds you what this is for — not just policy, but species returning to a shoreline, a child's hand finding a slimy frond, a next season of harvests that might not happen if you gamble wrong.
+
+Jonah Mek appears at the greenhouse door, plank under one arm, brow drawn tight but mouth tilted with that steady, wry certainty he carries.
+
+Jonah Mek: "You want me on the docks? Or here with the fasteners?"
+
+You consider the dozens of small failures that could unravel this. You think of the community rows of the Lower Quay, of Rosa's seed boxes, of that one garden you once moved to make room for a berm — the compromise that wakes you at three a.m. You think of the council's faces: expectant, impatient, relieved to have momentum.
+
+You tighten a bolt with a practiced motion that hurts less than it did the first time you learned the muscle. You answer Jonah.
+
+Maya Soren: "Split. You on the promenade. Elias takes the slip. I'll run telemetry and the public feed."
+
+Jonah gives a short nod and leaves, his boots slapping wet wood.
+
+[INTERACTION]
+> Choice A: "Breathe, steady your hands"
+> Choice B: "Run your speech in your head"
+[Outcome A: You pause, lay both palms flat on a kelp tray rim, count down from five. Your fingers find the familiar give of rubberized frame and you let the rhythm return. The world narrows to bolts and breaths.]
+[Outcome B: You whisper the opening line you promised the committee: 'Transparency, oversight, and the right to stop.' The words re-anchor you; they sound truer out loud than they do on paper.]
+[MERGE: Return to main narrative]
+
+[Scene: Rooftop kelp trays | Midday]
+[Background:"ch10_453e40_2"]
+[Music: Percussive staccato with rising wind samples]
+[Sound: A sudden crack of thunder in the distance; sensors begin to ping faster]
+
+Dr. Lena Huang approaches with a tablet pressed to her chest like a shield.
+
+Dr. Lena Huang: "Maya — models updated. A low front is building faster than predicted. It could compress the window for a calm deployment down to an hour."
+
+You feel the air change: not simply colder but thinner, as if every inhale now requires a decision. Your mouth goes dry. The monitors you've spent nights with flash tighter lines; the bay's skin seems closer, as if it could touch the promenade if you blink.
+
+Asha Reed steps forward, voice pitched with the honed edge you know well.
+
+Asha Reed: "This is exactly the kind of 'pilot' that lets officials spin their wheels while neighborhoods get exposed. We either do it right — full oversight — or we don't do it at all."
+
+Her words land like stones. You taste them bitterly: the truth that activism has teeth and that your work has, at times, flattened that tooth into a smoother edge. You meet her gaze, and in it you don't see accusation alone but the memory of people she's defended — and maybe the ache of what you once agreed to.
+
+Maya Soren: "We're doing it with oversight. Real-time monitors, community stewards, and a live stop clause. No deployment if the data reads unsafe."
+
+Asha Reed: "Your 'stop clause' needs teeth, Maya. Community control, not just a checkbox."
+
+You open your mouth, rehearse the clause in your head: community veto on operations within ten nautical meters; joint review panels; an independent auditor. Your throat tightens — promises are easier to write than to keep.
+
+Elias Voss: "We can add a hard disconnect on the buoys. If threshold X is reached, everything locks and floats back. I can code it by noon."
+
+Dr. Lena Huang: (dry) "Make sure it's failsafe. Kelp won't tell you its own boundary."
+
+Dialogue stretches: you, Elias, Lena, Asha. The air buzzes with friction — each line traded is a push to find the thin seam of agreement.
+
+Asha Reed: "And compensation for the Lower Quay if we lose beds to storm surge."
+
+Maya Soren: "Yes. A contingency fund, immediate restoration commitments."
+
+Elias Voss: "And I'll personally coordinate the first salvage teams if anything happens."
+
+Asha looks at him for the first time in the exchange, something unreadable sitting there — respect or skepticism braided together.
+
+Asha Reed: "You'll coordinate, Elias. Show us you mean it."
+
+The wind sharpens. The telemetry reads like a heart racing. The pilot is now no longer theoretical. It is weather, people, choices. It is the city.
+
+[INTERACTION]
+> Choice A: "Answer Asha with policy details"
+> Choice B: "Answer Asha with a personal promise"
+[Outcome A: You pull up the clause, read the escrow numbers aloud, cite the auditor's name. Facts serve as armor; they buy seconds.]
+[Outcome B: You say, 'I will stand in the water with you if it comes to that.' Your voice cracks; the promise is a raw thing but it lands warmer than policy.]
+[MERGE: Return to main narrative]
+
+[Scene: Promenade | Late Afternoon — Storm Window]
+[Background:"ch10_453e40_3"]
+[Music: High-velocity strings, taiko drums; the soundscape becomes a roar as wind increases]
+[Sound: The bay smashes against pilings, alarms chirp; someone shouts indistinctly behind you]
+
+The deployment begins under a sky that feels like it could split. Volunteers run lines, clip telemetry buoys, and chant brevity into the wind; the community you swore to protect is all here — hands in gloved solidarity, faces pinched with fear and determination.
+
+A young steward from the Lower Quay — a face you've seen since childhood — calls out a tension reading. The buoy blinks orange. Your stomach drops as if pulled by rope.
+
+Elias Voss is at the slip, bare fingers moving with fluid confidence. A break in a tether arc — small, mechanical — becomes a potential cascade. He curses and dives into chest-high water, neoprene hissing as he pushes a wayward frame back under a wave that wants to peel it free.
+
+You run. Rain stings the side of your face; the cold makes your teeth ache. Jonah is beside you, breath sharp.
+
+Jonah Mek: "Maya! Buoy three's spiking!"
+
+You see Elias struggle, hair plastered to his forehead, jaw clenched. The world contracts — telemetry, contracts, committees all dissolve into the single, hot need to keep that frame from being ripped away. Dr. Lena hollers instructions about automatic disconnects. Someone is shouting for a tow.
+
+The action is a burst: you reach the tether, fingers numb, and start cranking while Jonah leverages his length. Your palms tear on rough rope; saltwater stings the wound. Asha arrives, sleeves rolled, and together the three of you heave, a human chain anchored to the hope you all made.
+
+The string of events is a blur of bodies and protocols. At one point, a wave half-capsizes a floating frame. A child's shriek slices through the noise, and for a moment everything slows; the city breathes as one frightened thing.
+
+Elias Voss surfaces, coughing, and looks at you. For a heartbeat there is no policy between you — only two people in brine. He laughs at himself, the sound raw and small.
+
+Elias Voss: (gasping) "Worth it?"
+
+Maya Soren: (breathing hard) "It's necessary."
+
+Elias Voss: "We hold this. We take the data. We don't let the fear write the future."
+
+The storm beats at the frames, but the automatic protocols Lena insisted on kick in; a few trays ride out the worst. Not all. You watch as a strip of green peels away and drifts under a hulking swell. Your hands clench so hard the rope bites; grief is a physical thing now, immediate and molten.
+
+After the surge, the hush is not relief but an exhausted, reverent quiet. The sensors sputter back to green. The data stream quivers with volatility — spikes and troughs, but signs: increased dissolved oxygen near the trays where kelp still clings, new juvenile fish blips on sonar. Small, stubborn proof that life can respond even when battered.
+
+Dr. Lena Huang: "Preliminary—better than baseline. We saw localized oxygen upticks and microfaunal return within twenty-four hours. It's not universal, but it's a signal."
+
+For a moment hope flares — but the negative valence presses behind every statistic: losses to the Quay, the cost to the contingency fund, the lives of people who stepped up and might be paying in ways the data won't register.
+
+Asha Reed walks the perimeter, hands on hips, cataloging damage. She stops and meets your eyes. The look is a complex ledger: praise tangled with accusation, relief braided with doubt.
+
+Asha Reed: "You built something that can work. But it also needs the people you promised not to quiet. Keep them in the driver's seat, Maya."
+
+You feel the bridge between you loosen and tighten, like rope under strain. You remember your mother's silver band warm at your throat, the initials a pulse you can count on. You think of promises kept and promises broken.
+
+[INTERACTION]
+> Choice A: "Reach for Asha's hand"
+> Choice B: "Offer Asha the technical report"
+[Outcome A: You extend your hand — not as a truce to erase the past but as a tether to anchor a future. She doesn't lace fingers with yours, but she doesn't pull away either; the motion registers, small and meaningful.]
+[Outcome B: You slide the tablet across the railing. It's data laid bare: numbers that don't flatter nor flatter. She scrolls, nods, eyes cold but engaged. It's respect in a different language.]
+[MERGE: Return to main narrative]
+
+[Scene: Promenade Overlook | Dusk]
+[Background:"ch10_453e40_4"]
+[Music: A single violin line over a low synth drone — tense, fragile]
+[Sound: Low hum of generators, distant laughter cut with sobs]
+
+The pilot's initial results come in over a string of late-night messages and raw feeds. The stoic metrics — oxygen, biodiversity indices, community feedback scores — align toward cautious optimism. Still, the ledger shows losses. The Lower Quay garden required immediate replanting. A small business lost inventory on a ground floor that hadn't been elevated in time. The fund you set aside takes a hit.
+
+You stand with Elias on the promenade, leaning against the salt-rusted railing. He passes you a thermos; the steam fogs between you in quick white puffs.
+
+Elias Voss: "Small victory. Big cost. Typical Harrow Bay math."
+
+Maya Soren: (soft) "We learned something, though. We built in the wrong places, we were greedy where we shouldn't have been... and we fixed some of it."
+
+Elias Voss: "And you fixed it in the right way. Community nodes, real-time stops, living auditors. You didn't sell the project as a done deal."
+
+Elias Voss: "I'm glad we did this with you."
+
+Maya Soren: "Don't be reckless."
+
+Elias Voss: "Only a little."
+
+Jonah Mek: "You two did alright. The bay did alright. That's something."
+
+Asha Reed: "We'll need to codify community control. Not just in words — in access, in budgets, in seats at the table. We keep pushing."
+
+Maya Soren: "We'll write it into the charter. Rotating council seats, shared auditing rights. And reparations for displaced plots."
+
+Asha Reed: "Good. Then maybe this pilot becomes the model it promised to be."
+
+You exhale, feeling the air leave you in a long, exhausted stream. The arousal that carried you through the day's frenzy ebbs into a bruised calm. The pilot survived; the data sings a small, defiant song. But the cost — the wounds and the new obligations — is a ledger that will be tallied for generations.
+
+You feel Elias's hand tighten, then loosen. You look at him and see not a clean ending but a partner for the long work ahead — someone who will argue with you, risk with you, and sometimes make choices you will both regret. Love here is an ongoing contract; it does not erase stakes.
+
+You close your eyes for a second and let the sound of the bay fill you: gulls, the low machinery, the distant hum of generators. Grief and small, fierce hope braid together. The city will keep asking of you things that hurt; the people will keep needing you to answer.
+
+[Background:"ch10_453e40_5"]
+[Music: Strings resolve to a minor chord that holds, not resolves]
+
+Maya Soren: "We'll keep the people in the driver's seat. We'll share the burden. We'll build things that can be stopped."
+
+Elias Voss: "And we'll keep fixing what breaks."
+
+You look at the map of Harrow Bay pinned to the promenade kiosk, the pilot area circled in a shaky hand. The line between success and loss is thin; you know that. You also know you stood up and met the storm, and that will be counted.
+
+There is no triumphant closure — only the slow, necessary work of repair and governance, of tending both kelp and relationships. You have a pilot, and with it a blueprint for shared stewardship. You also have scars and debts and the clear knowledge that the hardest choices are not over.
+
+[Scene Transition: The lights on the promenade hum; volunteers file out; the bay settles into a weathered calm]
+[Background:"ch10_453e40_6"]
+[Music: A low, steady drone with a single piano note held like a question]
+
+[Background:"ch10_453e40_7"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

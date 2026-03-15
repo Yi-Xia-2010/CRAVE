@@ -1,0 +1,120 @@
+{
+    "design_logic": "I interpret the Climate Change theme through intimate, local impacts (coastal flooding, eroding marshes, community displacement) and use Romance to ground large, abstract crises in personal stakes. The core conflict pits community-led ecological restoration and human-scale adaptation against top-down techno-reclamation driven by profit. Romance arises naturally as the protagonist navigates trust, compromise, and the tension between idealism and pragmatic solutions — personal relationships mirror the larger choices about how a society responds to climate change.",
+    "setting": "Near-future coastal city and surrounding marshlands where sea-level rise and stronger storm seasons have reshaped daily life. The world feels familiar but weather-weary: patched boardwalks, reclaimed rooftop gardens, frequent emergency meetings, and construction sites promising security. Atmosphere is intimate and urgent — hopeful grassroots energy tempered by the exhaustion of repeated loss.",
+    "visual_style": "Realistic anime-influenced character design with textured painterly backgrounds; muted coastal palette (seafoam, rust, slate) punctuated by warm accents; cinematic lighting with fog and backlit rain; environmental detail (wet surfaces, windblown reeds, salt-streaked glass)",
+    "main_characters": [
+        {
+            "name": "Maya Reyes",
+            "role": "Protagonist",
+            "personality": "Determined, empathetic, practical, sometimes uncompromising. Deeply tied to place and people, curious about systems, prone to internalizing blame. Fiercely collaborative when she trusts someone.",
+            "appearance_features": {
+                "hair": "Chestnut, shoulder-length bob kept practical and often tucked behind one ear; a narrow streak of prematurely silvered hair at the right temple",
+                "eyes": "Warm hazel with green flecks, slightly hooded, often narrowed in concentration",
+                "clothing": "Worn olive field jacket with patched elbows, breathable dark work shirt, salt-stiff black jeans, waterproof calf boots; has a habit of rolling sleeves and carrying a light multipurpose scarf",
+                "accessories": "A battered field notebook full of tide maps and sketches, a dented thermos, a navy beanie with a single embroidered reed, and a simple pendant made from an old green glass bead recovered from the shore"
+            },
+            "goal": "To restore the tidal marsh corridor and secure long-term, community-centered adaptation so neighbors can remain and thrive.",
+            "background_story": "Raised in a fishing family on the city's fringe, Maya studied coastal ecology after losing a close relative in a storm-driven flood. She returns to her neighborhood to lead restoration efforts and resist solutions that prioritize quick profit over local resilience.",
+            "emotional_trait": "Strength: relentless resilience and loyalty. Flaw: carries disproportionate guilt and tends to isolate herself when stressed."
+        },
+        {
+            "name": "Elias Stone",
+            "role": "Love Interest",
+            "personality": "Pragmatic and inventive, charismatic but guarded. Skilled at translating technical ideas into community-friendly plans. Wants to reconcile economic realities with ecological care; struggles between ambition and ethics.",
+            "appearance_features": {
+                "hair": "Ash-blond, tousled and slightly long on top with short sides; usually a few strands perpetually falling forward",
+                "eyes": "Slate-blue with faint crow's feet from squinting into sun and storm; an approachable, steady gaze",
+                "clothing": "Practical urban fieldwear: rolled-up sleeves, weathered high-visibility vest when on sites, later wears soft knit sweaters in public spaces; carried-in denim and sturdy work boots",
+                "accessories": "A leather satchel containing a digital drafting pen and rolled plans, a braided bracelet made from reclaimed fishing line, and a small pocket notebook filled with sketches"
+            },
+            "goal": "To design adaptive infrastructure that protects the city while preserving human and ecological value, proving that ethical engineering can be viable.",
+            "background_story": "Formerly an engineer for a major reclamation firm, Elias left after a moral crisis and began experimenting with community-scale adaptive design. He balances the pull of funding and influence with a desire to do right by people he cares about.",
+            "emotional_trait": "Strength: creative problem-solving and affability. Flaw: avoidance of direct confrontation and a deep fear of letting collaborators down."
+        },
+        {
+            "name": "Camille Duval",
+            "role": "Antagonist",
+            "personality": "Charismatic, highly strategic, and morally certain. Believes big centralized projects are the only reliable path to 'security' and efficiency, even at steep cultural or ecological cost. Not purely villainous — sincere in her conviction.",
+            "appearance_features": {
+                "hair": "Jet-black, cut in a sharp, precise chin-length bob that frames a strict profile",
+                "eyes": "Cool pale gray, sharp and assessing with a tendency to hold attention like a ledger",
+                "clothing": "Tailored storm-gray corporate suit with subtle reflective panels; impeccably pressed shirts and polished ankle boots, always a silhouette of control",
+                "accessories": "Minimalist smartwatch with custom corporate UI, monogrammed silver cufflinks, and a thin pale scar along the jawline she rarely mentions"
+            },
+            "goal": "To implement an ambitious reclamation and seawall project that she argues will prevent future disasters and stabilize property values and industry.",
+            "background_story": "Raised in an engineering elite family, Camille climbed corporate ranks with brilliance and discipline. Personal losses to past storms convinced her that large-scale structural certainty is morally preferable to risky grassroots approaches.",
+            "emotional_trait": "Strength: decisive leadership and clarity of vision. Flaw: limited empathy for local attachments and an inability to fully account for non-quantifiable values."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Lito Reyes",
+            "relation_to_main": "Younger brother of Protagonist",
+            "appearance_summary": "Sun-bronzed skin, cropped black hair, practical cargo shorts and boots, hands calloused from fishing and repair work",
+            "function_in_story": "Emotional anchor for Maya, represents local livelihood and the daily consequences of policy; offers candid, sometimes blunt reminders of what is at stake."
+        },
+        {
+            "name": "Amaya Chen",
+            "relation_to_main": "Community organizer and close ally",
+            "appearance_summary": "Short purple-tinged hair, bright patterned scarf, layered outdoor clothes that are both functional and expressive",
+            "function_in_story": "Mobilizes neighbors, orchestrates town meetings and protests, translates scientific goals into compelling political narratives."
+        },
+        {
+            "name": "Professor Rowan Hale",
+            "relation_to_main": "Mentor figure to Maya",
+            "appearance_summary": "White hair, thin spectacles, well-worn field coat flecked with mud and plant matter, slow deliberate movements",
+            "function_in_story": "Provides historical data, scientific legitimacy, and an ethical framework; his research is a key lever in the public debate."
+        },
+        {
+            "name": "Mayor Sofía Álvarez",
+            "relation_to_main": "Local official and decision-maker",
+            "appearance_summary": "Polished, earnest, campaign pin on a smart blazer, often appears tired from compromise",
+            "function_in_story": "Gatekeeper for permits and public funds; must weigh votes, economic pressures, and emergency demands — pivotal in final outcomes."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tidal Fringe Marsh",
+            "visual_description": "Low, ribbonlike wetlands bathed in a cool, diffuse light with frequent morning fog. Reeds and salt grasses ripple in the wind; boardwalk planks are salt-worn and darkened. Water reflects a leaden sky and carries bits of sea glass and washed-up artifacts. Atmosphere feels fragile and sacred — acoustically alive with birds, insects, and distant lapping water."
+        },
+        {
+            "name": "Harbor Boardwalk & Market",
+            "visual_description": "A patchwork of colorful market stalls under tarps, flapping in a steady salt breeze. Rusted pilings and spray-streaked signs contrast with strings of warm bulbs used at dusk. Wet wooden planks gleam after rain; the air mixes frying oil, brine, and old rope. Crowds move with purposeful rhythm amid gulls and belching harbor engines."
+        },
+        {
+            "name": "Rooftop Greenhouse Lab",
+            "visual_description": "A sunlit glass structure set atop a concrete block; interior is humid and green with rows of plant trays, drip-irrigation tubing, and hanging planters. Golden late-afternoon light slants through rain-specked panes, casting lattice shadows. The city skyline is visible beyond, a collage of cranes, sea, and low clouds — a place where hope and experiment meet urban grit."
+        },
+        {
+            "name": "Duval Reclamation Tower",
+            "visual_description": "A monolithic, mirrored tower of steel and glass on newly reclaimed land. Bright, surgical floodlights scour the shore at night; the building's surfaces reflect a hard, clinical palette of chrome and sterile white. Drones hum like insects. The architecture feels efficient and intimidating — precise lines, impermeable glass, and a public plaza with promotional banners."
+        },
+        {
+            "name": "Community Shelter & Town Hall",
+            "visual_description": "An older municipal building retrofitted with emergency cots, maps tacked to cork boards, and hand-drawn signs. Fluorescent lights create a harsh but honest glow. During meetings, the room is full of layered textures: mismatched chairs, steaming soup in crockpots, earnest faces lit by projector maps showing inundation scenarios."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A grassroots coalition led by Maya and aided by Elias' community-centered designs successfully halts the most destructive aspects of the reclamation project. The marsh restoration attracts funding for living-shore defenses, the community keeps its homes, and Maya and Elias commit to a relationship built on shared values and continued work."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A negotiated compromise saves most of the community but requires surrendering a beloved stretch of shoreline. The restoration succeeds at scale but a treasured fishing cove is sacrificed. Maya and Elias remain together but carry the loss; the ending emphasizes endurance and imperfect victories."
+        },
+        {
+            "type": "Sad",
+            "summary": "Camille's large-scale reclamation proceeds, displacing long-time residents and destroying the marsh. Short-term property stability masks long-term ecological impoverishment and increased storm damage elsewhere. Maya's relationships fray under the strain; she is forced to leave the neighborhood to continue activism alone, mourning what was lost."
+        },
+        {
+            "type": "True",
+            "summary": "Neither pure victory nor defeat: Maya secures legal protections for community stewardship and forces broader policy conversations, but the personal costs are real — Elias accepts a distant role with a national adaptation initiative and the two part ways amicably. The story closes on the theme that meaningful change is incremental, often costly, but rooted in honest choices."
+        }
+    ],
+    "estimated_chapters": 6
+}

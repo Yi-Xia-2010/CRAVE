@@ -1,0 +1,32 @@
+graph TD
+    classDef spine fill:#fff3e0,stroke:#e65100,stroke-width:3px;
+    classDef limb fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    1("Ch 1<br/>Returning to Salt<br/>[Common]"):::spine
+    2("Ch 2<br/>The Vote Looms<br/>[Common]"):::spine
+    3("Ch 3<br/>Crossroads at the Bo<br/>[Common / Split]"):::spine
+    4("Ch 4<br/>Building With Hands<br/>[Route A]"):::limb
+    5("Ch 5<br/>Tides of Trust<br/>[Route A / Split]"):::limb
+    6("Ch 6<br/>First Harvest<br/>[Route A — Ending: Happy]"):::limb
+    7("Ch 7<br/>The Municipal Pilot<br/>[Route B]"):::limb
+    8("Ch 8<br/>Quiet Levers<br/>[Route B / Split]"):::limb
+    9("Ch 9<br/>The Compromise<br/>[Route B — Ending: Bittersweet]"):::limb
+    10("Ch 10<br/>Unmasking<br/>[Route C]"):::limb
+    11("Ch 11<br/>Escalation<br/>[Route C / Split]"):::limb
+    12("Ch 12<br/>The Storm That Came<br/>[Route C — Ending: Sad]"):::limb
+    13("Ch 13<br/>A Third Way<br/>[Route D]"):::limb
+    14("Ch 14<br/>Negotiations at Dawn<br/>[Route D / Split]"):::limb
+    15("Ch 15<br/>Binding Lines<br/>[Route D — Ending: True]"):::limb
+    1 -.-> 2
+    2 -.-> 3
+    3 -.-> 4
+    3 -.-> 7
+    3 -.-> 10
+    3 -.-> 13
+    4 -.-> 5
+    5 -.-> 6
+    7 -.-> 8
+    8 -.-> 9
+    10 -.-> 11
+    11 -.-> 12
+    13 -.-> 14
+    14 -.-> 15

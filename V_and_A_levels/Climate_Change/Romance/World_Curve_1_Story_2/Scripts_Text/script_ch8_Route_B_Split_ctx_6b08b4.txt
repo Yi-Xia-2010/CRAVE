@@ -1,0 +1,117 @@
+### SCRIPT
+# Route: Route C — Ending: Sad
+# Context: 6b08b4
+
+[Scene: Community Rooftop | Dusk]
+[Visual: Golden-hour light pools over raised beds; hand-painted posters flutter on strings. A battered projector hums on a folding table; tidelight bleeds from the bay below.]
+[Sound: A kettle whistles somewhere in a neighboring apartment; distant gulls, the trampling of boots on wooden decking.]
+[Music: Bright, driving strings — breathless, insistent]
+
+You close your notebook and feel the leather settle against your palm like an anchor. The co-op's patchwork of faces leans in — volunteers with muddy knees, Lina with paint flecks on her sleeve, Priya smoothing legalese into the plan one final time. The warmth of the rooftop offsets the chill of the coming night: a heat of people who have worked and decided and now must speak for the whole town.
+
+Priya: "Funding language is tight, Maya. We can frame living shorelines as a job-creation pilot — workforce training, monitoring stipends. It'll make the grant officers listen."
+
+Maya Kwon: "We ought to — but the pilot has to stay flexible. If we promise too much in the paperwork, we lock ourselves into what contractors expect."
+
+Priya: (leans forward) "Right. So say 'community-managed habitat restoration' with a clause for permitted access corridors. That buys legal weight."
+
+You feel the room hush into the particular silence that means Everyone Is Listening. The rooftop feels thinner than the council chamber will: close enough that every breath is proof you are all still human.
+
+[INTERACTION]
+> Choice A: "Open the council meeting with the data—sediment maps and survival curves"
+> Choice B: "Start with a memory—your parents' dock at dawn—to make this personal"
+[Outcome A: "You rehearse the figures under your breath. Numbers steady your voice; the room leans on the credibility you built. You picture grant officers nodding, spreadsheets aligning with sediment lines."]
+[Outcome B: "A salt-wet image pries open your chest. Emotions rise; the crowd will either meet you or recoil. You can feel Aiden's hand tighten at your side as you imagine the words forming."]
+[MERGE: You pick up a thermos, take a breath, and let both things sit together: the ledger of science and the worn ledger of memory. Tonight, however, you are not just persuading funders — you are steering argument into law.]
+
+[Scene: Council Chamber | Night]
+[Visual: Fluorescent light, long mahogany tables scarred with years of signatures. A translucent slide clicks to life on the projector — Dr. Voss's schematic, crisp and geometric.]
+[Sound: Murmurs like surf underboard; the microphone squeaks when someone shifts their weight.]
+[Music: Percussive strings — staccato, rising; an urgent undertow of brass]
+
+Councilor Tomas Hale: (smiling like a promise) "We have contractors ready. This project will mean wages now — trucks, scaffolding, immediate relief for families who haven't worked in months. Stability matters."
+
+The proposal lands like a literal weight on the varnished table. The older men in their wool caps exchange looks: certainty in a line of concrete. Across the room, young volunteers — hands still smelling of mud and bait — chant under their breath: "Marsh saves shore," a rhythm that beats time with their boots.
+
+Dr. Elara Voss: (steady, clinical) "Phased construction. We build a low-profile seawall in the highest-erosion sectors, staggered to allow for marsh migration. Access corridors are incorporated into the design. It's technical, it is fundable, and it buys us decades."
+
+She taps the tablet. A diagram blooms: clean lines, cutoff points, annotated tolerances. Her voice is a river that will drown sentiment unless you carve a channel.
+
+You stand at the podium. Your hazel eyes are slightly rimmed by the fatigue of long nights, but the room sharpens when you look at it. Every face becomes a tidal map you must read.
+
+Maya Kwon: "Councilor Hale, Dr. Voss — thank you. We have to stop thinking in binaries. Concrete does one thing very well: it says 'this is safe' — and people need that right now. But the marsh offers a living buffer, livelihoods, and a cost that compounds positively over time. My ask is straightforward: a negotiated hybrid."
+
+A cough runs through the chamber; someone laughs, short and nervous. The projector's light picks out the fine lines under your eyes where worry lives.
+
+Maya Kwon: "Living shorelines where they can be effective — eelgrass beds, Spartina reconnection, strategic sediment traps. Targeted, low-profile walls only where erosion is too extreme to wait. And — crucially — guaranteed, legally protected access corridors, co-managed by the fishers' cooperative."
+
+Aiden Reyes stands a few rows back, jaw tight. When you gesture to him, he rises with the steadiness of someone who has slept on decks and knows weather by smell.
+
+Aiden Reyes: (leaning forward) "We will agree to co-manage those corridors. We can design rules for seasonal closures, boat lanes, and restoration no-go zones. We don't want a wall that strangles our livelihood."
+
+Councilor Tomas Hale: (quick) "Who pays the oversight? Will the town foot the bill for co-op enforcement?"
+
+Aiden Reyes: "The co-op will take oversight in partnership with the municipality. We can build community-funded patrols, small stipends for monitoring — it's scalable. It keeps people employed and the marsh restored."
+
+Dr. Elara Voss: (opening a file) "Community oversight is not a replacement for engineered assurances. If you rely on volunteer labor for critical infrastructure, you're exposing people to risk. My plan is fundable now. It protects most households immediately."
+
+You hear the fracture before it blooms: an old man's voice rising, rough with lived loss.
+
+Old Man Reyes (Mateo): "We've seen tides take things before, Miss Kwon. Concrete keeps the sea off the doorstep. What good is a marsh if our children can't feed themselves because the fish move away?"
+
+Maya Kwon: "Mateo, I know what loss looks like on a map. But marshes are not the opposite of protection — they are part of a system that can reduce wave energy, rebuild substrate, and keep the bay productive. If we deliberately combine approaches, we can protect both houses and harvests."
+
+The room bristles. Someone wheels a folding chair too close. A teenager shouts, "No wall!" and it hits like a rock. The council chamber is a weather front; pressure shifts and the air snaps.
+
+[INTERACTION]
+> Choice A: "Answer Tomas's funding question with a firm public-private funding plan"
+> Choice B: "Pivot to Aiden's co-op credibility—call on the crowd to vouch for labor"
+[Outcome A: "You name numbers, mention Priya's grant scaffolding, and the room relaxes fractionally — details make things real. Investors and councilors lean in, the argument gets teeth."]
+[Outcome B: "You gesture to Lina, to the volunteers. Hands raise. The emotional pitch surges; sympathy swells but a few officials frown at the lack of precise funding figures."]
+[MERGE: You choose your emphasis, measuring which lever to pull: money or momentum. The choice changes the angle of the debate, but it cannot extinguish the core schism — protection now vs. systems that let the town breathe for generations.]
+
+Priya: (softly, as if to an ally) "We can write the access corridors into municipal code. A clause here, a binding stewardship board there. The grants will fund transition staff to make it enforceable."
+
+Dr. Elara Voss: (tilting her head) "Legal instruments help, Ms. Anand, but enforcement requires sustained funding. A seawall is a single contract. A marsh is ongoing."
+
+Aiden Reyes: "We know it's ongoing. That's why we propose co-op oversight with seed funding from the contractors' mitigation costs. If the contractors build corridors, they fund a recovery trust — a table we sit at together."
+
+You feel the room swell and dip with each proposal. The intensity climbs like a tide pushed by a storm you can only name when it hits the shoreline. You are both scientist and daughter in this space — requirements and memories braided.
+
+Maya Kwon: "This is not a choice between livelihoods and ecosystems. We don't have to sacrifice one for the other if we design carefully. Living shorelines reduce long-term maintenance, create nursery habitats, and keep fish stocks healthier — which keeps boats in the water and markets full. But where the erosion is beyond recovery in the short term, low-profile, strategic defense is morally defensible."
+
+A council member: "Maya—"
+
+Maya Kwon: "Call me Maya." (a small humanizing smile; then cutting) "And we must make the choice that preserves the town's identity while buying the time we need. I propose a negotiated hybrid: living shorelines prioritized, targeted low walls only where scientifically required, and codified, co-op-managed access corridors."
+
+A low hum builds into a roar of voices. Dr. Elara Voss's diagrams glow. Tomas folds his hands in practiced calculation. Priya smooths a paper like a lifeline. Aiden Reyes's fist unclenches and flexes open; his eyes find yours — fierce, proud, asking you to hold both hope and practicality at once.
+
+You can feel the room divide into three vectors: people daring to imagine a restored marsh with boats threading through, people willing to accept partial solidity for now, and people who will choose the quick fuel of immediate jobs and municipal funds.
+
+[Sound: A drumbeat of applause, then a cluster of boos from the opposite side. The projector flickers as if straining to decide the same thing you must.]
+[Music: Swells — triumphant, urgent; then tightens into a high, bright crescendo]
+
+Your chest is a drum. You taste salt and coffee and the metallic tang of decision. The energy is electric and, for the first time in months, not exhausted — galvanised. You remember the boards of your parents' porch splitting under water and smell the same brine that lit your resolve as a child. That memory is no longer only grief; it's a task.
+
+The room quiets, expecting you to name the stance that will shape the vote and, possibly, the town's next decade.
+
+You inhale, steady. Outside, the tide murmurs against the seawall you are trying to avoid building in every image you hold dear. Inside, the future waits for a name.
+
+[Visual: Close-up on your notebook opening to a fresh page; the pen hovers.]
+[Music: Reaches the peak — bright strings, a crash of cymbals; the highest emotional point of the chapter]
+
+[DECISION POINT]
+1) Option 1: "Advocate fully for co-op-managed living shorelines close to fishing lanes." -> TARGET chapter_id: [6]
+2) Option 2: "Accept a partial seawall with guaranteed access corridors." -> TARGET chapter_id: [9]
+3) Option 3: "Support the engineered plan for immediate jobs and greater municipal funding." -> TARGET chapter_id: [12]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[DECISION POINT]
+Option 1: "Advocate fully for co-op-managed living shorelines close ..." -> ID 6 (Route A — Ending: Happy)
+    > Jump Target File: script_ch6_Route_A_Ending_Happy_ctx_3be532.txt
+Option 2: "Accept a partial seawall with guaranteed access corridors." -> ID 9 (Route B — Ending: Bittersweet)
+    > Jump Target File: script_ch9_Route_B_Ending_Bittersweet_ctx_3be532.txt
+Option 3: "Support the engineered plan for immediate jobs and greate..." -> ID 12 (Route C — Ending: Sad)
+    > Jump Target File: script_ch12_Route_C_Ending_Sad_ctx_3be532.txt

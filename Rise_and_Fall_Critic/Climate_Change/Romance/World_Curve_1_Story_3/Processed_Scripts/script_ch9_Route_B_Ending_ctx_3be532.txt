@@ -1,0 +1,140 @@
+### SCRIPT
+# Route: Route B / Ending
+# Context: 3be532
+
+[Scene: Rooftop Garden | Dawn]
+[Background:"ch9_3be532_1"]
+[Music: Warm, hopeful strings with a subtle electronic undercurrent]
+[Sound: Low hum of pumps warming up; gulls in the distance; distant municipal drone settling into orbit]
+
+You stand at the rim of the garden, the cutting at your hip warming with the same light that touches the city skyline. From where you lean, the pilot looks smaller and more intimate than anyone in a presentation would let on: a stitched-together thing of science and soil, sensors tucked like watchful seeds. Your palms still smell of peat and salt. This is the place the months of talk, of compromise, of sleepless spreadsheets have to show themselves as something the neighborhood can touch.
+
+Hana Kim is beside the prototype, shoulders squared against the morning. Her AR monocle catches the light and refracts it into a slice of data hovering between you. She doesn't smile the way Elias Hart does; she engineers a quiet that can hold more than a dozen people's anxieties. That quiet is what steadies you.
+
+Hana Kim: "We're at nine-nine percent on feed integrity. Pumps are green across the board. Jun's telemetry came through; the intake modules are clearing at target salinity."
+
+You nod. You can feel the weight of the mayor's promise in your ribs, the memory of her hand on the ordinance draft not even thirty hours old. The text is alive now: enforceable oversight, local operations and training, public data with community audits. Each clause was a ladder rung you had to convince very different hands to climb.
+
+Asha Rivera: "Walk me through the launch sequence again." (your voice is low; you want precision as assurance)
+
+Hana Kim: "Manual override at three. Automated checks complete. If we hit any hysteresis, the system will pause and send a flag. Jun is watching the baseline from Tideworks. Mayor is on a secured feed. Once pumps cycle, the microgrids take over the emergency water routing to Skyward Market and three shelters."
+
+Hana Kim's fingers tap the projected interface; lights ripple across the model's living veins. The pumps begin to hum with a deeper certainty, like someone finally matching a heartbeat.
+
+[Background:"ch9_3be532_2"]
+[Sound: The hum steadies into a machine-breath rhythm; a distant cheer rises from lower walkways]
+
+Sofia arrives first from the east walkway, apron still dusted with seeds, eyes wet with an excitement that is half relief. Teo's laughter carries before you see him, a grease-marked fist raised toward the pilot like a captain to a ship. Mayor Lila's cart glides along the pathway — linen sleeves immaculate, a small stack of signed pages visible at her lap as though she carries them to the sun for proof.
+
+Mayor Lila: (gently, with the practiced cadence of an official who has learned to make policy feel like promise) "Asha, Hana — what you've asked for is in the ordinance. Oversight board; training funds; mandatory audits and data transparency. I've asked Leon’s counsel to add riverine buffering clauses and Jun to formalize audit protocols."
+
+The city seems to inhale. You taste copper and citrus on the air, the unmistakable tang of a community that can breathe again for the first time in a long stretch.
+
+It shouldn't feel this enormous — it's only pumps and valves and legislation on paper. And yet the paper means a roof for Sofia's stall, a canal of potable water to the elder center, a teaching budget for kids to learn to steward this tech. Policy becomes scaffolding for lives. You feel something like gratitude and fear braided together.
+
+Hana Kim turns to you, steadier than the sea. Her voice softens in a way your conversations from months ago rarely did.
+
+Hana Kim: "We'll train local operators, no exceptions. All code is open-sourced to the oversight board. Leon will fund audits for the first five cycles. Jun will publish baselines." (she meets your eyes) "I want this to belong to you all."
+
+You study her — the metallic edge of her world softened against the living rooftop. It is, absurdly, what you asked for.
+
+[INTERACTION]
+> Choice A: "Offer Hana a cup of market coffee"
+> Choice B: "Tap the main node to run an extra manual check"
+[Outcome A: You turn and call down to a vendor, then hand Hana Kim the warm paper cup. She accepts it with a small, surprised smile, and for a beat you trade a human pause — caffeine and truce.]
+[Outcome B: Your fingertips find the sensor ring. The interface obeys, spooling a fresh set of diagnostics. Hana Kim watches the numbers and nods; the pump hums a hair smoother under your hands.]
+[MERGE: Scene continues]
+
+[Scene: Pilot Site | Mid-Morning]
+[Background:"ch9_3be532_3"]
+[Sound: The pumps thrum in full; the applause of small waves against engineered rock; the soft clink of a ceremonial ribbon being cut]
+
+Mayor Lila steps forward with scissors heavy in her hands — symbolic, necessary. When the ribbon falls away a child from the market squeals. Cameras (municipal, community, a lone freelance drone) find faces and linger.
+
+Mayor Lila: "This ordinance is effective as of this morning. The pilot is authorized for full deployment under the terms we've signed. To the people of La Marisma: we've chosen to protect our neighborhoods with your hands at the helm."
+
+A chorus of cheers swells. Sofia is crying openly now; you can see the light in her eyes reflecting the pilot's sensors. Teo catches your gaze and mouths 'thank you' like a prayer and a promise.
+
+Elias Hart is at the edge of the gathering — notebook in one hand, a folded poster under his arm. His expression is not a single thing. It is generous: pleased at the visibility; guarded: wary of strings; patient: proud of what the people have done. It is a look you have learned to read as complexity. It does not force a confession on you; it only makes room for the future.
+
+Elias Hart: (calling out through the noise, voice rough but warm) "Show them how it works! Bring people to the training! This is our story too."
+
+Asha Rivera: "We built it so the neighborhood runs it," you call back, your voice carrying. "Training starts next week. Jun's curriculums are open to volunteers."
+
+Elias Hart: (laughs, a sound like sunlight through tidewater) "Good. Then I'll be the first in line to mess things up spectacularly and learn from it."
+
+The banter bonds rather than divides; it is small, human stitches binding a fresh seam.
+
+[INTERACTION]
+> Choice A: "Invite Elias to lead a free 'first responder' workshop"
+> Choice B: "Hand the ceremonial data key to Sofia for safekeeping"
+[Outcome A: Your invitation is earnest. Elias Hart's eyes light; he slaps his poster to his chest and grins, already planning the flyers in his head.]
+[Outcome B: Sofia receives the key like a covenant. She turns the small device over in her hands, reverence softening into resolve as she tucks it into her apron.]
+[MERGE: Scene continues]
+
+[Scene: Skyward Market | Noon — Public Launch]
+[Background:"ch9_3be532_4"]
+[Music: A celebratory, organic rhythm layered with a sustained, optimistic synth pad]
+[Sound: Market chatter, children running through tomato vines, a recorded municipal announcement introducing the pilot and the ordinance]
+
+You stand at the information table with Hana Kim and Jun, your notebook open but unwritten for a moment. People come with questions and with praise. An old neighbor presses your hand and tells you about the last dry season she remembers — how they rationed and boiled and still had to choose who got saltier cups.
+
+Your chest loosens. This is what stewardship looks like: not a finished monument, but a thousand tiny returns — a bottle refilled for a nursing mother, a pump that won't quiet the sound of a crying child because it is reliable now. The pilot is doing what it's supposed to do, and the city has legally bound itself to the promise you hammered into that ordinance.
+
+Hana Kim: (leaning in, softer than any of the presentations) "You did the hard part in making them insist on oversight. That's not small. Not here."
+
+Asha Rivera: "You built something that serves," you say. "You didn't hand us a toy with blinking lights; you gave us tools and the terms to keep those tools ours."
+
+Hana Kim: (breathes out, relieved) "We did a thing together." (she pauses) "I—" (she stops, recalibrating the personal against the professional; you both let the sentence rest unfinished as a comfortable silence)
+
+Jun: (approaching with a printout, his old professor's smile creasing like paper) "The baseline shows a ten percent improvement in potable distribution and a twenty percent decrease in emergency calls for water contingency. We can model scaling within six months without compromising neighborhood control if funding holds."
+
+Sofia: (overhearing and clapping Jun on the back) "Then let's teach them how to tend the beds and read the screens. No one keeps their hands off our work."
+
+Elias Hart slides up beside you, elbow bumping in a friendly, conspiratorial way.
+
+Elias Hart: "So what's next? Parade? Banner? A hundred-fold training session with people singing while they solder?"
+
+You both laugh; it sounds like the market's own bell. Momentum is not an abstract thing now. It's a rhythm you can march to.
+
+This is not a soft ending. There are storms ahead, budgets that will flirt with being clawed back, and people who will try to commodify what we've made public. But for this sunlight and these hands and that ordinance, the needle has shifted. Hope is not naïve; it's chosen.
+
+Hana Kim catches your eye across the table. Her look is steady, not demanding. There is no neat romantic suture here — only the real possibility of partnership rebuilt on different terms, tested in public work and small mercies. The future you imagine now includes her competence and Elias Hart's fire both. It is a braided thing, community and technology together.
+
+[INTERACTION]
+> Choice A: "Step onto a small stage to thank the crowd"
+> Choice B: "Quietly slip away to the rooftop to tend a newly installed sensor"
+[Outcome A: You climb the low platform, your voice initially thin before steadying into clarity. You thank neighbors by name, for their labor and trust. The applause is honest and held.]
+[Outcome B: You duck up to the garden, fingers in wet soil again. The act of leaning over a sensor, tightening a bolt, brings you a focused calm. When you return, faces are still lit with the same hopeful glow.]
+[MERGE: Scene continues]
+
+[Background:"ch9_3be532_5"]
+
+Today, policy became practice. The mayor signed with hands that carry compromises and courage both; Hana Kim opened a door from inside the system; the community promised to steward a thing meant to be public. It is not a total victory — no single morning is — but it is a real one. You feel the pulse of possibility under your boots, the soft, stubborn thrum of people deciding to stay and to protect what they love. That decision tastes like salt and soil and old bread found warm.
+
+Hana Kim leans close and, without ceremony, drops a printed schedule into your hand: training dates, audit meetings, emergency drills. A small, practical truce. You fold the paper into your notebook and press it flat as if sealing the day.
+
+Elias Hart crosses the market and hands you a crumpled flyer he'd been saving, already inked with new dates for mobilization workshops and a blank space for volunteers' names. He doesn't say who should choose which path from here. He didn't need to.
+
+You look out over the waterline. The pilot is a small, steadfast light against a changing horizon. You think of every hand that bolstered it — the mayor's ledgered pages, Hana Kim's algorithms turned public, Sofia's stewardship, Teo's greasy-fingered repairs, Jun's watchful numbers, Elias Hart's hungry crowd-making — and you let yourself feel the rise in your chest.
+
+There is no trumpet of finality, only a communal, breathing continuation: plans to teach, to audit, to tweak, to argue, and to laugh in the market when the pumps hum through another hot night. The city's map has shifted and so has your place on it; you are less alone at the wheel than you feared you'd be.
+
+[Background:"ch9_3be532_6"]
+[Music: A gentle, ascending motif resolves into a warm chord]
+
+You walk away from the table with Hana Kim at one side and Elias Hart near enough to hear your quiet plans, the market folding its conversation around you like a familiar song. The ordinance is in Mayor Lila's hands, the pilot is in the neighborhood's care, and for the first time in a long while you let yourself believe that resilience can be chosen and built.
+
+[Background:"ch9_3be532_7"]
+[Music: Gentle fade out]
+
+[Background:"ch9_3be532_8"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

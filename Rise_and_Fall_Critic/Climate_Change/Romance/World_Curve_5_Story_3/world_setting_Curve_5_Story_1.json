@@ -1,0 +1,122 @@
+{
+    "design_logic": "I blend Climate Change (the global, systemic threat) with Romance (intimate interpersonal stakes) by setting a near-future coastal community where rising seas force characters to choose between different strategies for survival and different visions of the future. The emotional heart comes from relationships tested by loss, urgency, and ethical trade-offs: love must be negotiated alongside hard choices about land, livelihood, and belonging. The core conflict contrasts engineering-based adaptation (hard infrastructure, incremental control) with community-led ecological regeneration (restoration, sacrifice), forcing the protagonist to reconcile scientific pragmatism with local values while navigating two compelling romantic connections.",
+    "setting": "A near-future subtropical archipelago town built on reclaimed marsh and low cliffs, where seasonal storms have intensified and the tideline eats into the old neighborhoods. Technology exists but is decentralized: solar textiles, low-cost sensors, small autonomous boats, and community-run labs. The atmosphere is humid and salt-scented, alternating between golden, brittle calm after storms and bruise-colored electrical skies before them. Socially, the town is tightly knit and economically precarious, with fishermen, engineers, activists, and researchers all competing and collaborating in messy ways.",
+    "visual_style": "Soft anime watercolor with realistic coastal textures; painterly lighting, muted pastel palette punctuated by neon salvage and sea-glass colors; environmental realism with expressive character silhouettes",
+    "main_characters": [
+        {
+            "name": "Aria Navarro",
+            "role": "Protagonist",
+            "personality": "Curious, empathetic, methodical and quietly stubborn. She balances scientific rigor with emotional intelligence, sometimes carrying more of the world's burdens than she should. Tends to self-blame, but deeply motivates others by listening more than lecturing.",
+            "appearance_features": {
+                "hair": "Dark teal shoulder-length wavy hair with sun-bleached tips, usually tied in a loose low ponytail with a frayed ribbon and a few salt-stiff strands around her face",
+                "eyes": "Warm hazel with subtle green flecks, slightly almond-shaped and often rimmed with tiredness from long nights of data work",
+                "clothing": "Layered practical fieldwear: a faded sea-green softshell jacket with patched elbows, breathable linen shirts, weathered cargo trousers with coral stains, and scuffed brown ankle boots or barefoot on familiar docks",
+                "accessories": "A water-stained leather notebook filled with sketches and tide notes, a battered diver's watch with a scratched barometer face, a small silver locket with fading photo of her childhood home"
+            },
+            "goal": "Design and implement a locally led regenerative shoreline plan that protects the town and restores marine habitats, while learning whether she can allow herself a life with someone rather than carrying everything alone.",
+            "background_story": "Raised in this town by a fisher mother and a teacher, Aria left to study marine ecology and returned to help when the reefs started failing and storms escalated. She works at the coastal research lab and runs community tide-monitoring workshops. Her credibility sits between formal science and neighborhood knowledge.",
+            "emotional_trait": "Strength: compassion and persistence. Flaw: guilt-driven over-responsibility; fears choosing love over duty."
+        },
+        {
+            "name": "Mateo Hale",
+            "role": "Love Interest / Civil Engineer",
+            "personality": "Pragmatic, decisive, quietly romantic under a reserved exterior. He is solution-focused, slightly blunt, and takes comfort in clearly measurable fixes. Loyal and protective but struggles to express vulnerability.",
+            "appearance_features": {
+                "hair": "Short sandy blond hair with an undercut and a single curl that falls forward when he leans in",
+                "eyes": "Steel-blue, hooded and observant; his gaze often lingers on structures and horizon lines",
+                "clothing": "Functional engineer's jacket with reflective striping and a municipal patch, rolled-up sleeves, oil-stained work pants, heavy waterproof boots",
+                "accessories": "A copper compass on a leather cord, a compact multi-tool always clipped to his belt, prototype sediment-filtering goggles often perched on his head"
+            },
+            "goal": "Build adaptive infrastructure—flexible seawalls, modular levees, and elevated walkways—that can be deployed quickly to save lives and property.",
+            "background_story": "A former city planner who lost a sibling in a surprise storm in another coastal city, Mateo moved here to focus on practical work where it matters. He believes in measurable interventions and has municipal influence, but his engineering solutions sometimes clash with locals' ways.",
+            "emotional_trait": "Strength: dependable decisiveness. Flaw: emotional guardedness and a tendency to see compromise as failure."
+        },
+        {
+            "name": "Sora Lin",
+            "role": "Love Interest / Community Organizer (Rival Romantic Path)",
+            "personality": "Charismatic, fiercely idealistic, spontaneous and fiercely protective of cultural traditions. Sora is a creative agitator who uses art and ritual to mobilize people and refuses to accept technocratic top-down fixes that ignore local knowledge.",
+            "appearance_features": {
+                "hair": "Short asymmetrical black hair with cobalt-blue streaks; cut close on one side with a longer, wind-tossed fringe",
+                "eyes": "Deep dark brown, wide and expressive; animated when speaking about community and mangroves",
+                "clothing": "Hand-painted anorak splashed with slogans and botanical motifs over layered sarong-like wraps, upcycled denim shorts, and slip-on rubber sandals",
+                "accessories": "A string of polished sea-glass beads from different generations, a small sketchbook full of protest posters and ecological art, a solar-powered wristband that charges their tools and lights"
+            },
+            "goal": "Mobilize locals to reclaim and replant mangroves and seagrass, asserting communal stewardship over external engineering projects and ensuring decisions are culturally grounded.",
+            "background_story": "Born into a family of artisans and fishers, Sora grew into an organizer after witnessing displacement caused by early projects. They combine street art, ceremony, and tactical direct action to protect coastal commons and preserve stories.",
+            "emotional_trait": "Strength: fierce conviction and infectious optimism. Flaw: rigidity when ideals seem compromised; distrustful of institutions which can hinder pragmatic alliances."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Elena Navarro",
+            "relation_to_main": "Aria's mother; longtime fishmonger and community memory-keeper",
+            "appearance_summary": "Short, sun-creased face, silver-streaked black hair in a bun, waterproof apron print-stained by fish scales and trade goods",
+            "function_in_story": "Emotional anchor for Aria; voice of local history and practical wisdom, embodies the stakes of any shoreline decision"
+        },
+        {
+            "name": "Dr. Kavir Singh",
+            "relation_to_main": "Mentor and director at the coastal research lab where Aria works",
+            "appearance_summary": "Tall, calm presence with steel-rimmed glasses, hair salted at the temples, lab coat patched at the elbows",
+            "function_in_story": "Provides scientific guidance, helps translate data to policy, and occasionally cautions Aria about overreaching; a conduit to regional resources"
+        },
+        {
+            "name": "Mayor Isla Cortez",
+            "relation_to_main": "Municipal leader who must balance budgets, political pressure, and emergency response",
+            "appearance_summary": "Svelte, always in a weatherproof blazer, short cropped hair, carries a tablet and an official sash when needed",
+            "function_in_story": "Decision-maker whose approval the team needs; she represents political compromise and the constraints of limited resources"
+        },
+        {
+            "name": "Jun Park",
+            "relation_to_main": "Childhood friend and tinker; technology-savvy ally to Aria and Mateo",
+            "appearance_summary": "Youthful, grease-smudged hands, a hoodie stitched with solar panels, goggles pushed up on their head",
+            "function_in_story": "Builds low-cost sensors, helps with field deployments, provides light-hearted relief and moral support"
+        }
+    ],
+    "locations": [
+        {
+            "name": "The Tidal Research Lab (The Tidal Lab)",
+            "visual_description": "A low, glass-and-weathered-steel building perched at the water's edge. Interior light is cool and blue from the sea; walls hung with maps and older tide charts. Outside, instrument arrays and small autonomous boats line a concrete apron slicked with algae. After storms the lab glows with emergency lamp orange against dark wet concrete; on calm mornings it is glass-glinting and soft with pale sunrise pink."
+        },
+        {
+            "name": "The Old Quay & Flooded Bazaar",
+            "visual_description": "Narrow wooden piers and half-submerged market stalls with colorful tarps patched with duct tape. Pools of reflected sky scatter neon salvage—solar lanterns and painted signage—into puddles. Lighting is often diffuse gray under stormclouds or golden at low tide, with the constant smell of fish, salt, and diesel. Buildings lean in, foundations waterlogged; during floods, strings of lanterns bob above ankle-deep water."
+        },
+        {
+            "name": "The Mangrove Reclamation Site",
+            "visual_description": "A muddy, root-crisscrossed shoreline where volunteers plant young mangrove saplings. Morning light filters in green through the canopy of newly established shoots; mud glows with iridescent sheen after rain. The area feels intimate and green, with birds and insects reclaiming the space; it contrasts sharply with the harsher concrete lines of engineered waterworks."
+        },
+        {
+            "name": "Stormwall Construction Site",
+            "visual_description": "A harsh linear landscape of stacked modular blocks, cranes, and reflective safety vests. Metal girders gleam under harsh sunlight; on storm days the site becomes a silhouette against a ramping purple sky. The colors are industrial—steely grays, orange safety cones—and the atmosphere is noisy, urgent, and mechanical."
+        },
+        {
+            "name": "Rooftop Greenhouse & Community Rooftop",
+            "visual_description": "Tucked on top of an abandoned hotel that overlooks the harbor: rows of potted herbs and succulents under a translucent canopy. Warm golden light, soft soil scent, string lights for evening gatherings. It is the town's intimate meeting place, where faces are lit softly at night and private conversations can be hidden from the prying eyes below."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Community Resilience",
+        "Ethical Trade-offs"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "A negotiated hybrid solution is implemented: modular adaptive infrastructure combined with large-scale mangrove restoration. The town avoids imminent displacement, community-led stewardship is institutionalized, and Aria chooses a committed relationship (with either Mateo or Sora depending on route) while continuing her work—personal and communal futures aligned."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The restoration approach preserves much of the ecosystem but cannot save every neighborhood. Some families relocate with dignity, and Aria’s project becomes a model elsewhere. The romantic relationship survives but requires long-distance compromise or a reprioritization of career versus home, leaving both triumph and loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "A catastrophic storm breaches the still-incomplete defenses; critical infrastructure is lost and the town faces evacuation. Aria survives but is wracked by survivor's guilt; the romantic relationship fractures under pressure and distance. The ending emphasizes accountability and the human cost of delayed action."
+        },
+        {
+            "type": "True",
+            "summary": "Aria chooses a path based on moral clarity rather than comfort: she sacrifices a personal opportunity (e.g., a prestigious research grant or job abroad) to ensure local governance retains control of restoration efforts. The community gains long-term agency; the romance may not be conventionally happy, but it matures into a deep, honest partnership (or a respectful separation) aligned with communal values."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

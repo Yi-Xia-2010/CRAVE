@@ -1,0 +1,110 @@
+label chapter1:
+
+    # [Scene: Tidewatch Lab | Morning]
+
+    scene bg ch1_Start_1 at full_bg
+    # play music "music_placeholder"  # [Music: Sparse ambient hum — low synth with distant gull calls]
+    # play sound "sfx_placeholder"  # [Sound: Slow drip of water, paper rustling, soft clack of a pen]
+    "You press the heel of your hand to the greenhouse pane and draw a rag through the cold bead of morning. The streaks clear in an uneven arc; outside, the bay is a silver-gray band, a"
+    "barge a darker smudge on the horizon. Your braid is warm against your neck, salt at the tips catching the light. A few loose curls cling damp to your temples and spring away when you tilt"
+    "your head."
+    "Your field vest pockets rattle when you move: a pair of tide sensors, a damp pen, a waterproof notebook swollen with folded maps and pencil smudges. You turn the notebook open with a thumb, watching a"
+    "Polaroid slide out half-stuck between pages and land on the workbench with a soft flutter. Eli's grin looks like sunlight. He is clay-specked and wind-whipped on the rooftop prototype — messy hair, sea-glass eyes that search"
+    "the frame as if he thinks the camera can still answer him."
+    "You set the rag aside and close a fist around the Polaroid, feeling ridiculous and grateful at the same time. It is small, almost foolish: proof that somebody besides you is still trying to build, to hold something in place."
+    "You hear the phone on the bench — Tomas' voice, three calls in the span of an hour. You answer with a practiced smile that doesn't reach your lungs."
+    show tomas_reyes at left:
+        zoom 0.7
+
+    tomas_reyes "Maya? You awake?"
+    show maya_reyes at right:
+        zoom 0.7
+
+    maya_reyes "Morning. I was just—' (you gesture at the glass and condensation) '—wiping the panes. What's up?"
+
+    tomas_reyes "Couldn't sleep. The tide's been all over the place. Shop smells like diesel and your mother's coffee—God, I keep waking up thinking the floor's got salt under it.' (a dry chuckle that doesn't land) 'They're saying the channel markers are off. I patched the back door last week but—"
+
+    maya_reyes "You did the right thing. That's money and time saved if the surge comes."
+
+    tomas_reyes "Right thing. Right thing. Yeah. Listen, Maya — if Aurelia comes in full tilt and they get their machines in, I'm not sure I can keep the rent. They keep haggling over the buyout terms. What if they push us? What if they push everyone?"
+    "Maya Reyes: (you can feel a counterweight — all the rescue plans you draft in the greenhouse) 'Then we make a plan. We map out the vulnerable units, we—'"
+
+    tomas_reyes "Maps won't stop concrete cutters.' (pause; his voice softens) 'You always have a plan, sis. I don't know if I do. And I'm tired of being the one waiting for you to call with the 'next step' that's going to fix it all."
+    "Maya Reyes: (you swallow) 'You're not waiting for me to fix it alone. I'm working with Asha — and Rosa's holding the next meeting at the café. We can push for the living beds, the shoreline modules. But Tomas—' (your throat tightens) 'I can't promise it'll stop everything.'"
+
+    tomas_reyes "I know.' (another long exhale) 'Just—call if you hear something. If you get a notice or, I dunno, a drum of concrete shows up at the pier—you're the one people listen to."
+
+    maya_reyes "I'll be at Tidewatch all morning. I'll come by the shop after the meeting.' (you force the words out) 'Take pictures of anything suspicious. Send them to me."
+
+    tomas_reyes "Okay. Be careful, Maya. Promise me you'll take a break today? Eat something that isn't for the plants."
+    "Maya Reyes: (a small, humorless smile) 'I'll try. Love you.'"
+
+    tomas_reyes "Love you too."
+    "The line goes dead. You set the phone face down and listen to the greenhouse inhale and exhale: a steady, humid hush punctuated by the drip from the living beds. The hydroponic basil smells bright and"
+    "almost absurdly domestic against the brine-stung air; its green is a straightness in a room full of leaning things. You run a fingertip along the surface of a shallow trough and feel the cool slickness of"
+    "nutrient water. Everything here feels like a promise you keep because you must."
+    "You spread the notebook flat and begin to sketch contour lines for a proposed community garden that would act as a buffer — terraces of soil and root that slow water’s rush and keep the ground"
+    "from giving way. Your pencil hesitates at each curve; the lines are careful because the places they mark are people's homes."
+
+    menu:
+        "Trace the contour with soft shading":
+            "You soften the lines with shaded pencil strokes, imagining the garden as a gentle spine that holds the neighborhood together. The act calms you for a few breaths; guilt recedes to the edges."
+        "Draw bold retaining lines and label them":
+            "You press harder, delineating firm berms and anchor piles, writing capacities and materials in the margins. The plan looks urgent, almost defensive; your chest tightens as responsibility shapes into technical demands."
+
+    # --- merge ---
+    "Continue"
+    "You read Asha's notes again — her handwriting is a dense, looping architecture of assurance. 'Think like water,' she wrote in the margin of a page full of species lists, 'don't impose; redirect.' You say the"
+    "line aloud with the soft absurdity of ritual, and you can hear her voice in your head answering back the way she always does: patient, a little prickly."
+
+    maya_reyes "Think like water,"
+    show asha_malik at center:
+        zoom 0.7
+
+    asha_malik "Water doesn't lose by changing. It finds a new bed. You can teach a shoreline to move with it — if you let it."
+    "Maya Reyes: 'But what if the town won't let it? What if the money looks at a seawall and picks profit?”"
+
+    asha_malik "Then you find the families who remember that pier. You tell the story with salt on your tongue. People listen to memory, Maya. They listen to what they can lose."
+    "You pause in the middle of the page, the pencil hovering. The conversation is not a real exchange; Asha is not in the lab right now. But you keep the dialogue because it steadies the tremor"
+    "that lives under your stern focus. Her advice is a counterweight you can balance against the ledger-books and project bids that march through your inbox like a tide."
+    "Outside, the barge doesn't move. It is the color of old iron and has the slow inevitability of a thing someone has decided must happen. Machines are not loud in this gray morning; they are patient."
+    "The sight of it presses down somewhere behind your ribs, a weight that loves to make your mouth taste of old salt and sharpness."
+
+    "Eli's Polaroid flutters when a draft comes in from the vent. You pick it up again, fingers tracing the white border. There is a small sticky note taped to the back in his messy handwriting" "Left a sample of the terracing tiles. Saw a barge this morning. Thinking of you — E."
+    "You put the Polaroid into your vest pocket, over the tide sensor. It feels like a small talisman."
+
+    menu:
+        "Clip the Polaroid to your notebook":
+            "You secure Eli's photo to the cover of the notebook so it will flutter out at the exact moment you need reminding. The gesture sharpens your focus into a private promise."
+        "Leave the photo face-up on the bench":
+            "You leave the image on the bench where the light hits it. It warms a small part of the lab like a single sunbeam and you let yourself watch it for a minute longer."
+
+    # --- merge ---
+    "Continue"
+    "You go back to your sketches. The calendar on the wall is a grid of meetings — Rosa at noon, Councilor Lin at three, a public forum scheduled for the week with Aurelia reps already slotted"
+    "in the afternoon. You feel the names like pins in a map: where they intersect, the town's future might be scrawled out in someone else's ink."
+    "A memory drifts in sharp and small: you, seven, sitting at the end of the old pier with splinters in your palms, wind lifting a paper boat you’d made. The storm that took it is a"
+    "lacquered nightmare you return to when you're tired—the way the sea rose like a living thing and took the wooden bones from under your feet. You remember the sound: a terrible, hollow wrenching. You remember the"
+    "helplessness sticking to your scalp."
+    "You rub the palm of your hand along the ridge of the notebook. Guilt is a familiar ache, the one that keeps you awake stitching plans together until dawn. It is the engine beneath every contour"
+    "line you draw. You tell yourself that the guilt is useful — a fuel — but it tastes like rust today."
+    "The greenhouse breathes around you. Your shoulders slump, involuntarily small. There is no dramatic thunderclap here; there is only the patient, very real collapse of so many small things into that low, ongoing loss. The morning"
+    "presses its grayness into the glass until even the edges of Eli’s smile seem softened."
+    "You stand up and walk to the nearest pane. The barge seems a little closer, though it might be the way the light has shifted. You trace a slow line across the fogged glass with your fingertip, as if you can redraw the horizon."
+    "You breathe in, feeling the humid air fill your chest, and then let it out. The lab is a small island of green against a growing gray outside. It doesn't feel like enough, and the thought of 'not enough' sits heavy and plain in your throat."
+    "You gather your things with deliberate slowness. Meetings will stack into one another like the tide; obligations will arrive somber and inevitable. You fold Asha's notes into your notebook, clip the pen into your field vest, and shoulder the weight of the day."
+    "A gull cries far away. The drip from the living beds counts the seconds."
+    "You take one last look at the Polaroid peeking from your pocket, the barge on the bay, the thin line where water meets sky. You remind yourself why you came back: to hold in place what the water would take. The reminder is both anchor and chain."
+    hide tomas_reyes
+    hide maya_reyes
+    hide asha_malik
+
+    scene bg ch1_Start_2 at full_bg
+    # play music "music_placeholder"  # [Music: A single low chord, unresolved]
+    "You step toward the door, letting the humid air cling to your braid. The morning is a slow, heavy tide pulling at everything you have promised to protect."
+
+    scene bg ch1_Start_3 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter2
+    return

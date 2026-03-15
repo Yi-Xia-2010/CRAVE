@@ -1,0 +1,127 @@
+{
+    "design_logic": "I blend Climate Change (a large, systemic threat) with Romance (intimate emotional stakes) by centering the story on a small coastal community facing rising seas. The genre pairing forces choices that operate on two scales: personal relationships (trust, intimacy, reconciliation) and collective responsibility (policy, engineering, ecology). The core conflict is whether to prioritize quick, large-scale technological fixes offered by outsiders, or slow, community-led ecological restoration that preserves culture but requires sacrifice. Romantic routes highlight how love influences those choices—partners can be collaborators, opposing philosophies, or mirrors that expose the protagonist's deepest compromises.",
+    "setting": "A near-future coastal town called Harborfall: a once-sleepy fishing village turned frontline of climate adaptation. Time period is roughly 2040s — familiar technology with visible climate retrofits. The atmosphere mixes briny nostalgia, tentative hope, and a persistent sense of weather in motion: fog rolling in, salt-scorched paint, and community gardens nesting on raised berms.",
+    "visual_style": "Semi-realistic anime-influenced, muted coastal palette, photographic lighting, rain-slick textures, soft film grain, ecological detail (moss, rust, tide-lines), occasional neon corporate signage",
+    "main_characters": [
+        {
+            "name": "Maya Inoue",
+            "role": "Protagonist",
+            "personality": "Steadfast, practical, quietly idealistic. Compassionate but guarded; she leads with a planner's mind and an activist's heart. Can be stubborn when her values are threatened, and habitually places community needs above her own.",
+            "appearance_features": {
+                "hair": "Dark black, shoulder-length with a single teal streak braided along the left temple",
+                "eyes": "Warm hazel, almond-shaped, often narrowed thoughtfully",
+                "clothing": "Worn marine utility jacket with patched elbows over a heavy knit sweater; high-waisted cargo trousers with looped rope belt; scuffed rubber waders or weatherproof boots for fieldwork",
+                "accessories": "A battered dive watch inherited from her brother, a hand-knitted scarf patterned with tide charts, a stamped metal clipboard and a small waterproof notebook filled with local names and observations"
+            },
+            "goal": "Protect Harborfall's community and ecosystems while finding a sustainable way for the town to adapt—without selling its soul to short-term corporate solutions.",
+            "background_story": "Born and raised in Harborfall, Maya lost her younger brother in a storm when she was nineteen. She now coordinates coastal restoration and volunteers with local emergency teams. That trauma fuels both her determination and a fear of failing those she loves.",
+            "emotional_trait": "Resilience tempered by survivor's guilt—her strength is reliability; her flaw is burdening herself with responsibility she can't always carry."
+        },
+        {
+            "name": "Kaito Sato",
+            "role": "Love Interest",
+            "personality": "Gentle, analytical, quietly playful. A problem-solver who trusts data but is learning to read human signals better. He tempers Maya's instinctive caution with technical optimism and soft humor.",
+            "appearance_features": {
+                "hair": "Ash-brown, short and tousled with wind-flattened strands",
+                "eyes": "Sea-green with flecks of gold, round and observant",
+                "clothing": "Lightweight, functional techwear—rolled-up sleeves, breathable windbreaker with subtle reflective strips, utility vest with modular pockets, faded jeans or cargo pants",
+                "accessories": "A small field camera slung cross-body, a prototype sensor pendant that blinks softly, a leather satchel brimming with sample vials and sketches"
+            },
+            "goal": "Design and implement technically sound, low-impact climate adaptations that can be scaled to help Harborfall and similar towns, while reconciling his research ethics with community needs.",
+            "background_story": "A climate engineer who left Harborfall for a research institute in the city, Kaito returned after feeling complicit in solutions that prioritized donors over locals. He brings cutting-edge sensors and a desire to repair both systems and relationships.",
+            "emotional_trait": "Empathetic curiosity—his strength is calm rationality paired with kindness; his flaw is fear of causing harm through good intentions."
+        },
+        {
+            "name": "Lucia \"Lux\" Moreno",
+            "role": "Antagonist",
+            "personality": "Charismatic, efficient, morally pragmatic. Ambitious and outwardly warm, Lux believes sweeping technological intervention is the fastest way to save lives. She can be compassionate in private but prioritizes scale and speed over sentimental attachments.",
+            "appearance_features": {
+                "hair": "Long platinum-blonde, smoothed into a high, precise ponytail",
+                "eyes": "Steel-gray, sharp and assessing",
+                "clothing": "Tailored storm-blue coat with subtle hard seams, high-fashion waterproof boots, sharply cut garments that merge corporate polish with field practicality",
+                "accessories": "A silver cuff with her company's emblem, a holo-tablet she gestures with, mirrored rain goggles often perched on her head"
+            },
+            "goal": "Deploy an ambitious engineered sea wall and automated flood management system that will protect cities at scale—and prove her model's viability to investors and governments.",
+            "background_story": "Founder and CEO of a coastal engineering firm that rose from small pilot projects to global contracts. Lux grew up in a flood-prone neighborhood and believes systemic engineering can prevent others' losses. She has a complicated prior relationship with Maya (former mentor/partner in a pilot program) which colors negotiations.",
+            "emotional_trait": "Confident decisiveness—strength is visionary leadership; flaw is emotional distancing and an unwillingness to accept slow, communal compromise."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Hana Kim",
+            "relation_to_main": "Childhood friend of Maya",
+            "appearance_summary": "Warm-skinned, short pixie-cut hair, always in an apron splattered with soup and paint; she has quick hands and a wide smile.",
+            "function_in_story": "Runs the local diner that doubles as a community hub—source of gossip, emotional counsel, and informal missions (food, meeting spots, local intel)."
+        },
+        {
+            "name": "Tomas Bianchi",
+            "relation_to_main": "Neighbor / Elderly fisherman who knows the seas",
+            "appearance_summary": "Weather-beaten face, salt-gray braided beard, heavy waxed jacket and patched beanies; he moves slowly but with sure gestures.",
+            "function_in_story": "Provides nautical knowledge, a boat for field scenes, and moral authority about traditional livelihoods; the town listens when he speaks."
+        },
+        {
+            "name": "Dr. Noor Alvi",
+            "relation_to_main": "Ally and scientific collaborator (connected to Kaito)",
+            "appearance_summary": "Dark hijab, practical lab coat with water-stains from fieldwork, clear-rimmed glasses, always carrying databooks.",
+            "function_in_story": "Offers research context, helps interpret trade-offs between nature-based solutions and engineered systems, unlocks technical choices in the plot."
+        },
+        {
+            "name": "Mayor Elena Rossi",
+            "relation_to_main": "Local official and political obstacle/ally",
+            "appearance_summary": "Tired but poised, wears structured blazers with a municipal pin; eyes show the weight of many difficult decisions.",
+            "function_in_story": "Represents voters and budgets—sways between Lux's funding and Maya's grassroots pressure; a pivot point for public mandate scenes."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Harborfall Promenade",
+            "visual_description": "A tidal promenade of salt-scarred timber and worn brass plaques, lit by warm dawn light that glints on wet planks. Gray-blue sea mist drifts in, and the horizon is broken by scattered fishing boats. Colors: seafoam greens, weathered ochre, rusted iron. Atmosphere: nostalgic, slightly melancholic, with gull cries and distant engines."
+        },
+        {
+            "name": "Rooftop Greenhouse & Community Garden",
+            "visual_description": "A raised, glass-enclosed greenhouse perched atop municipal flood berms; sun-patched warmth inside contrasted with cold, wind-bitten streets below. Interior is lush with salt-tolerant plants, hanging planters, patched solar panels. Lighting: soft golden afternoon, dust-moted shafts. Colors: verdant greens, terra cotta, recycled plastic blues. Atmosphere: hopeful, intimate, a refuge for whispered conversations."
+        },
+        {
+            "name": "Kaito's Field Lab (Workshop)",
+            "visual_description": "A converted boathouse with workbenches, dangling sensor arrays, and glass jars labeled with tide samples. Fluorescent task lamps throw stark light on sketches taped to plywood walls; rain streaks pattern the open shutters. Colors: brass, slate, clinical white contrasted with bright colored wires. Atmosphere: earnest creativity, slightly cluttered, humming with prototypes."
+        },
+        {
+            "name": "LuxCorp Coastal Plaza (HQ)",
+            "visual_description": "A sleek, low-rise headquarters built of reflective composites and raised on stilts; chrome surfaces and LED strips deflect the sea light. The plaza features controlled greenery in geometric planters and a digital information kiosk projecting simulations of proposed defenses. Lighting: cool, clinical daylight with occasional neon accents at night. Colors: steel blues, sterile whites, corporate teal. Atmosphere: efficient, subtly alien, a visual promise of control."
+        },
+        {
+            "name": "Storm-broken Lighthouse",
+            "visual_description": "An old lighthouse half-repaired, paint peeled to bare wood, its lamp encased in scaffolding. Storm clouds gather low; wet stones glisten. Lighting: intermittent lightning flashes, a weak golden beam at dusk. Colors: slate gray, barn red, salt white. Atmosphere: liminal, symbolic of history and warning—good for pivotal confrontations or reconciliations."
+        },
+        {
+            "name": "Mangrove Estuary (Partially Submerged)",
+            "visual_description": "Kneeling roots and black water mirror a sky streaked with late-afternoon amber. Stilted walkways arc through pockets of reeds and clinging barnacle growth. Light filters sideways through hanging clouds; mud reflects fading light. Colors: deep green-browns, rust, reflective silver. Atmosphere: ancient, fragile, the ecological heart of the town—scenes here feel intimate and urgent."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance",
+        "Responsibility vs. Progress",
+        "Community Resilience",
+        "Sacrifice and Reconciliation"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Maya and Kaito successfully broker a hybrid solution: community-led nature-based defenses augmented by responsible engineering from Kaito's designs. Lux agrees to scale down the corporate plan and fund local stewardship. The town stabilizes, new jobs and gardens bloom, and Maya and Kaito begin a committed relationship grounded in shared values."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The engineered sea wall is implemented with Lux's leadership but at the cost of several fishing coves and some traditional homes. The town is protected but altered; Maya accepts changes to save lives, estranging a few longtime neighbors. She and Kaito have a deep, tender bond but one or both take separate paths—Maya stays to rebuild, Kaito moves to replicate their model elsewhere. Love endures but in a quieter form."
+        },
+        {
+            "type": "Sad",
+            "summary": "Investor pressures push Lux's company to prioritize rapid, profit-driven deployment. The large-scale project fails in a storm, causing worse flooding and displacing parts of the community. Maya's attempts to resist the plan fracture civic trust. Relationships break—romantic and communal—and Maya leaves Harborfall, carrying grief and resolve to fight elsewhere."
+        },
+        {
+            "type": "True",
+            "summary": "Maya rejects both Lux's technocratic shortcut and the safety of turning the town over to outsiders. Instead, she organizes a widespread grassroots movement that combines slow ecological restoration, local policies, and regional alliances. The outcome is open-ended: progress is slow and precarious but authentic. Romance is not the central reward—Maya experiences deep reconnection with herself and community; some relationships evolve, others fade—an ending that honors principle over tidy resolution."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

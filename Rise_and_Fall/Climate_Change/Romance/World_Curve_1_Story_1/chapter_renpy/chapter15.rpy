@@ -1,0 +1,178 @@
+label chapter15:
+
+    # [Scene: Rooftop Home | Morning]
+
+    scene bg ch15_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Distant gulls, a low city hum, the soft metallic twang of the wind chimes. A guitar riff—familiar and gentle—filters from the next building over.]
+    # play music "music_placeholder"  # [Music: Warm acoustic guitar, rising, hopeful]
+    "You wake before the kettle finishes its thin whistle. The rooftop light is the color of bruised sea glass—soft, forgiving. Your wrist cuff feels heavier in the half-light, the braid imprinted with your palm like a"
+    "small, private ledger. You breathe in soil and salt and the tiny sweetness of sprouted lettuce; the smell makes the decision you made yesterday feel present in your bones."
+    "Eli is already up. He’s on his knees at the herb bed, fingers buried in damp compost, hair tied back with the scrap of cloth he always uses. He looks up when he hears you move"
+    "and smiles with the kind of easy astonishment that still catches you off guard—like the city has learned a new song and remembered to play it for you."
+
+    "Elias 'Eli' Maren" "Morning, stubborn. Coffee?"
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "Yes—black. And one of those terrible, heartbreaking muffins you fog the town with."
+
+    "Elias 'Eli' Maren" "Terrible for the waist, perfect for morale. Sit, tell me about the meeting. Did Asha win you over with her fierce sticker collection?"
+    "You laugh—an honest, surprised sound that takes a moment to find its rhythm—and sit on the edge of a planter box. The wood is warmed by the morning, rough under your palms."
+
+    maya_calder "She always has unpopular stickers. The meeting was good. People want the care credits. They want rituals. They want time. Theo will help shape the metrics so funders can swallow it without choking."
+
+    "Elias 'Eli' Maren" "Metrics for tenderness. That should be a poster."
+
+    maya_calder "If you make the poster, I will hang it in Sienna’s office and see if it dissolves her frown."
+    "Elias 'Eli' Maren's smile softens. He reaches for a small strip of cloth—one of the ties you keep on the railing—and folds it into your palm, like an offering and a reminder both."
+
+    "Elias 'Eli' Maren" "We can make a home that is a reserve. A place where people learn not just how to rebuild, but how to keep breathing while they do it. Music nights that are also mini-workshops. Seedlings that teach policy. You do the heavy maps; I'll handle the songs."
+    "You close your fingers around the cloth. Your inner voice—so often the engineer, the ledger-keeper—relents for a breath and lets the image spread: a rooftop that is both shelter and engine, where love is maintenance as much as it is refuge."
+
+    menu:
+        "Pull Elias 'Eli' Maren in for a quick, clumsy hug":
+            "You step forward and tangle your arms with his. The hug is brief and oddly efficient—two people who have learned how to fit affection into the margins. Elias 'Eli' Maren hums a note against your hair and you feel your chest loosen."
+        "Make coffee and sit back, watching him":
+            "You set the kettle, pour the coffee, and pretend you’re studying the morning like it’s a menu. Elias 'Eli' Maren watches you watch him; his eyes ask a gentle question and you answer with a small, steady smile."
+        "Reach for your notebook and sketch a rough schedule":
+            "You pull out your weathered notebook and doodle a scaffold for the care-credits pilot: one day a week for ritual, two hours a week for family time, rotating admin so nobody burns out. Elias 'Eli' Maren peeks over and adds 'music interrogation night' to the margins with a cup-ring flourish."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Community Care Center | Afternoon]
+    hide maya_calder
+
+    scene bg ch15_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Paper rustling, low conversation that blooms and recedes, the occasional laugh like a bell.]
+    # play music "music_placeholder"  # [Music: Light percussive rhythm, steady and optimistic]
+    "You carry the plan like a small, warm thing. Inside, the air smells faintly of tea and disinfectant; it is less romantic than the rooftop but fuller in its way—body heat, intention, and a hundred errands"
+    "folded into one room. Asha meets you at the door with a sweep of her hands and a grin that is all business and sunlight."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "Okay, show me the 'care credits' that will make grant committees cry with reluctant admiration."
+    show maya_calder at right:
+        zoom 0.7
+
+    maya_calder "We frame it as retention infrastructure. 'Care' is a line item: paid time for organizers, rotating administrative duties, cultural rituals—birthdays, recipe-swaps, funeral-support. Theo is building the baseline metrics. We pilot five sites, evaluate in six months."
+
+    asha_patel "Yes. And don't make it too corporate. People need permission to be human, not another timesheet."
+    "The conversation turns granular—who logs hours, how to ensure equity, how to prevent gatekeeping. You find yourself listening differently; rather than tallying risks, you notice small attachments: the woman who wants a sewing circle, the man"
+    "who wants to teach net-mending, the teenager who wants to DJ music nights. Each request is a thread. You imagine weaving them into a fabric that can be rolled out of a closet when the storm"
+    "knocks everything flat."
+    "Dr. Sienna Kade arrives—precise and quiet, her gray blazer catching the low light. The room shifts slightly as she takes in the bulletin board full of personal campaigns and sticky notes. She sits at the edge of the table, fingers steepled."
+    show dr_sienna_kade at center:
+        zoom 0.7
+
+    dr_sienna_kade "I read your brief. There's risk in decentralized rewards—misallocation, fraud, inefficiency."
+
+    asha_patel "There's risk in keeping the people who do the labor on coffee and gratitude, too."
+    "You step between the two tones: Sienna's clinical polish and Asha's heat."
+
+    maya_calder "This is not charity. It's infrastructure. We measure outcomes—reduced organizer turnover, maintained cultural practices, improved emergency response—and we treat care as capital. We design audit trails that respect privacy and ritual. We will be transparent."
+    "Dr. Sienna Kade's face remains a careful mask. Then, for the first time since you’ve known her, something like curiosity cracks the edges."
+
+    dr_sienna_kade "If the metrics show that retention improves emergency response and reduces long-term spending on displacement, then it's defensible at scale. But you will have to prove causality."
+
+    maya_calder "We will build the data chorus and conduct community narratives as evidence. Theo will lead the analysis; Asha will coordinate cultural metrics. Elias 'Eli' Maren will—' your voice softens when you say his name, and even Dr. Sienna Kade notices the slight change '—help with public engagement. Music gets people to the table."
+
+    dr_sienna_kade "Art as outreach. Unorthodox, but effective."
+
+    "Elias 'Eli' Maren" "And occasional bad songs to remind people that policy is still human."
+    "The table breaks into laughter. The tension eases. Dr. Sienna Kade lingers afterward, exchanging numbers, asking about the pilot sites. Her manner is still deliberate; her conviction still firm. But the edge is dulled by a"
+    "thought you hadn't expected: that institutions might shift not because of proclamations but because they see models of durability that outlast rhetoric."
+
+    menu:
+        "Insist the pilot include a formal 'ritual day' each month":
+            "You push for structure; you picture people bringing heirlooms, recipes, songs. Asha nods and scribbles it into the draft with enthusiasm. Dr. Sienna Kade raises an eyebrow but asks how you'll quantify the benefit—exactly the kind of challenge that will make your case stronger."
+        "Keep the pilot loose, letting each community define rituals":
+            "You defer to local autonomy; the room relaxes. Asha claps softly. Dr. Sienna Kade cautions that funders prefer measurable outputs, and you agree to collect qualitative narratives alongside quantitative data. It feels like a compromise born of respect."
+
+    # --- merge ---
+    "Continue"
+    # [Scene: Rooftop Home | Evening — Music Night / Working Meeting]
+    hide asha_patel
+    hide maya_calder
+    hide dr_sienna_kade
+
+    scene bg ch15_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A communal murmur punctuated by chords, the rhythmic scrape of a pen on paper, the low murmur of a crowd aligning toward a purpose.]
+    # play music "music_placeholder"  # [Music: A communal folk tune that swells into layered voices]
+    "You host the first 'music-meets-planning' night: people arrive with notebooks and songs, recipes and concerns. Children run in the margins, trailing a scarf like a flag. Someone hands you a bowl of lentil stew—the aroma of cumin and lemon anchors you as surely as any seal on a document."
+    "Elias 'Eli' Maren tunes the harmonica and runs a little riff that gets people laughing. Asha reads off the first iteration of the pilot schedule; Theo speaks about indicators in a way that doesn’t make anyone"
+    "fall asleep. Dr. Sienna Kade sits on the edge of a crate, listening as much as speaking, taking notes in her precise hand."
+    "A neighbor stands up and sings a sea shanty that ends in a list of missing docks and names of lost boats. Another offers a recipe that used to be served at a harbor festival. People"
+    "clap. Someone else proposes a rota for mutual aid during storms. The room makes policy and memorial at once."
+    "You feel the work change shape: it is no longer only you balancing maps and petitions. It becomes a shared choreography. When a young volunteer raises the problem of burnout, you find your voice steady and simple."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "We will track time spent. We will buy in so people can step away when they need to. The care credits will be visible and usable in ways that keep cultural knowledge alive—someone can use credits to take a day for a family ritual, and the community will cover their shift. It’s... structural care."
+    "Elias 'Eli' Maren reaches for your hand under the table. The touch is light but deliberate; in that small clasp is a pact. You look out at the city—at the string lights reflecting on wet streets, at the patchwork of gardens like islands—and understand something that feels like a clearing."
+    "Dr. Sienna Kade catches your eye across the crowd. Her look is not the ice of someone who will bulldoze history; it is the focus of someone considering how a machine might be rewired to hum with people inside it rather than grind them."
+    show dr_sienna_kade at right:
+        zoom 0.7
+
+    dr_sienna_kade "You’ve proposed a pilot. If it succeeds, you will have data to shift procurement practices, staffing patterns, and funding timelines. If it fails, we will learn about what not to do. Either way, the system becomes more informed. That, I can support."
+    show asha_patel at center:
+        zoom 0.7
+
+    asha_patel "And if it succeeds, we keep people who know how to stitch nets, who keep recipes, songs—who keep memory breathed into policy."
+    "You inhale. The stew, the song, the murmur of people—the texture of it is enough to make a cold certainty feel warm. You think of Rosa’s hands, the way she tied knots that held through wind"
+    "and water. You think of the ledger you keep in your pocket, full of equations and apologies. Tonight, the ledger contains another column: joy, accounted for in minutes and meals."
+    # play sound "sfx_placeholder"  # [Sound: The crowd shifts; a chorus forms—fragile at first, then stronger. Elias 'Eli' Maren starts a tune you recognize, and soon everyone is humming along. The wind carries the harmonies away like a promise.]
+    # [Scene: Rooftop — Late Night, Quiet After]
+    hide maya_calder
+    hide dr_sienna_kade
+    hide asha_patel
+
+    scene bg ch15_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The last chord of the night fades, the rustle of leaves, the distant slap of water.]
+    # play music "music_placeholder"  # [Music: Sparse, single guitar note repeating like a heartbeat]
+    "You sit with Elias 'Eli' Maren on the low chair, feet propped on an overturned crate. Your hands find each other with the practiced ease of partners who have learned the language of small rescue. His"
+    "shoulder is warm. Your notebook is closed and heavy in your bag; for once, you let it rest."
+
+    "Elias 'Eli' Maren" "We did a good thing tonight."
+    show maya_calder at left:
+        zoom 0.7
+
+    maya_calder "We started something that could keep people in the room for longer than a funding cycle. Or—' you look at him, the thought worn soft by the evening '—we made a place where people can come back to themselves."
+
+    "Elias 'Eli' Maren" "You looked tired through all that optimism."
+
+    maya_calder "Someone should build a market for exhausted activists... I'd corner it."
+    "He squeezes your hand. Outside, rain begins—a gentle, steady thing that taps the planters and turns the city’s lights into watercolor."
+    "You think forward—not in the ledger sense, but like a line of seedlings: what needs sun, what needs shade, what will outgrow the pot. There will be days of bureaucracy and meetings; there will be angry"
+    "council sessions and impossible choice-maps. There will be losses. But in the arc of this evening, you feel a different kind of gain: something that lasts because it has a rhythm beyond urgency."
+    "You rest your head briefly on his shoulder and let the city sound be a coverlet. You picture the care credits running through the neighborhood like a local currency of attention, carrying the weight of ritual"
+    "and rest, and you picture a small home with a rooftop garden that feeds not only bodies but the stubborn capacity to keep loving."
+
+    "Elias 'Eli' Maren" "Promise me one thing."
+
+    maya_calder "What?"
+
+    "Elias 'Eli' Maren" "When it gets hard, convince me to stay. When you need time, take it and make me hand you coffee and funnier hats until you can think straight."
+
+    maya_calder "Deal. And you promise to stop trying to fix everything with harmonica solos."
+
+    "Elias 'Eli' Maren" "Not a chance. But I will try to harmonize with reason."
+    "You both laugh. The sound is soft and steady. It threads through the rain and into the city."
+    "You consider how to formalize what you’ve begun. The pilot must be written, the funding lines must be drawn, the metrics must be clear enough to satisfy boards but soft enough to preserve ritual. Yet the"
+    "most radical part is simple: you will care for one another as a practice, and you will show others how that practice stabilizes the work."
+    "You lift your face into the rain as if to taste its verdict. It feels like blessing."
+    # play music "music_placeholder"  # [Music: The guitar motif swells, an ascending chord that holds—a single, enduring note of hope.]
+    "You fold the little strip of cloth back into your pocket; the braid at your wrist feels less heavy and more like a marker. You think of all the people who will now have permission—formal and"
+    "informal—to rest and to remember. You think of Dr. Sienna Kade at the table, surprised into curiosity; of Asha translating heat into structure; of Theo turning stories into numbers."
+    "You are aware, with a slow, steady clarity, that choosing to invest in love is not an escape from responsibility. It is infrastructure. It is maintenance. It is the long, quiet work that keeps systems from burning out."
+    "You reach for Elias 'Eli' Maren's hand again. His fingers close around yours. The rooftop hums with the city and the rain and the small breathing of two people who have decided to make their living—together and in public—out of caring."
+    hide maya_calder
+
+    scene bg ch15_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: The rising motif lingers, then eases into a warm, sustained tone]
+    # play sound "sfx_placeholder"  # [Sound: Rain, soft applause of the night]
+    "You rest there a long time, feeling the choice settle like a seed into soil already warmed by the day’s work. Outside, the city stretches into future storms and future songs. Inside, you have a plan, a program, and a partner."
+
+    scene bg ch15_f99e88_6 at full_bg
+    "THE END"
+    # [GAME END]
+    return

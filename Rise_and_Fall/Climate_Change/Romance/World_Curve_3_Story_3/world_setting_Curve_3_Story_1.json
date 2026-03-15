@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the intimacy of Romance to create a story where emotional relationships mirror ecological stakes. The central tension ties a protagonist's personal longing and moral choices to a community's struggle against sea-level rise and failing fisheries. Romance isn't just a subplot: it becomes the mechanism that forces characters to choose between comfort, denial, and collective action. Core conflict: preserve the fragile town and the people they love — at personal cost — or accept short-term safety that fractures community and relationships.",
+    "setting": "A near-future coastal town called Marisora, where rising tides and unpredictable weather have already reshaped daily life. Technology and traditional livelihoods exist side-by-side: solar arrays and community greenhouses contrast with weather-beaten fishing boats and mangrove barriers. The atmosphere is melancholic but hopeful — salt, wind, and the constant hum of policy debates and repair work.",
+    "visual_style": "Soft realist anime with muted coastal palettes; textured watercolor lighting; warm dusk glows against storm-gray skies; tactile details (salt patina, rust, wet wood); cinematic close-ups for emotional beats",
+    "main_characters": [
+        {
+            "name": "Maya Reyes",
+            "role": "Protagonist",
+            "personality": "Pragmatic, empathetic, stubbornly hopeful. Analytical and organized from her scientific training, but emotionally driven by loyalty to her hometown. She balances guilt over what she can't control with a fierce protective instinct for community rituals and neighbors.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length with natural waves often pulled back into a low, practical bun when working; a few wind-tossed strands usually fall loose.",
+                "eyes": "Warm hazel with flecks of green; soft, round shape that narrows when she concentrates.",
+                "clothing": "Weatherproof navy field jacket layered over faded chambray shirts and sturdy cargo trousers; worn leather boots with waterproofing patches; rolled sleeves and an always-visible ring of dried soil under the nails when she's been in the greenhouse.",
+                "accessories": "A battered brass tide-watch (family heirloom), a slim digital tablet with cracked corner covered in stickers, and a faded green scarf knitted by her grandmother."
+            },
+            "goal": "To design and implement community-led coastal resilience measures that both save homes and preserve the town's identity — while reconciling a growing romance that forces her to re-evaluate what 'home' means.",
+            "background_story": "Born and raised in Marisora, Maya left to study climate science after a devastating storm in her teens. She returned when funding cuts and political inertia left the town vulnerable. Her scientific credentials bring authority, but old friendships and family history pull her toward compromise.",
+            "emotional_trait": "Strength: steady empathy and determination. Flaw: a tendency to shoulder all responsibility alone and avoid showing vulnerability."
+        },
+        {
+            "name": "Elias Jun",
+            "role": "Love Interest",
+            "personality": "Warm, impulsive, and tactile. A builder by trade with a love for the sea and community stories. He believes practical action and creativity can outpace policy, but sometimes downplays scientific caution.",
+            "appearance_features": {
+                "hair": "Thick black hair cropped short on the sides with a loose wave at the top, often flecked with salt and sawdust.",
+                "eyes": "Deep blue-gray, narrow and quick to crinkle when he smiles.",
+                "clothing": "Sun-bleached henleys and paint-splattered work pants; a patched denim vest over a weatherproof hoodie; barefoot on the docks when he trusts the tide.",
+                "accessories": "A hand-carved wooden bracelet from a mangrove root, a multi-tool on his belt, and a faded captain's cap with a sewn-on community festival patch."
+            },
+            "goal": "To protect his family's fishing heritage and help rebuild the town through hands-on engineering projects — and to convince Maya that risk and improvisation can coexist with science.",
+            "background_story": "Third-generation fisher, Elias saw his father's nets fail to the warming currents. He trained as a mechanic and master builder rather than going to university, believing in learning by doing. Elias returned to Marisora to lead grassroots resilience projects.",
+            "emotional_trait": "Strength: resilient optimism and resourcefulness. Flaw: sometimes reckless optimism that dismisses long-term consequences."
+        },
+        {
+            "name": "Dr. Ayla Voss",
+            "role": "Antagonist / Complex Catalyst",
+            "personality": "Intellectually rigorous, politically savvy, and emotionally guarded. She is driven by systems thinking and career survival — which can make her appear cold. She believes tough, centralized choices must be made for the greater good.",
+            "appearance_features": {
+                "hair": "Platinum-blonde bob, precisely cut and immaculately maintained, rarely out of place.",
+                "eyes": "Steel-gray, sharp and assessing; thin double-lidded shape that gives her a perpetually watchful look.",
+                "clothing": "Tailored slate-gray blazers and high-collared blouses; practical yet fashionable waterproof trench coat for field visits; polished ankle boots.",
+                "accessories": "A black leather satchel with neatly organized policy briefs, a sleek silver pen engraved with her initials, and a thin data wristband used to access municipal sensor networks."
+            },
+            "goal": "To secure regional funding and implement technically optimal, large-scale adaptation plans — even if it means consolidating towns or forcing relocations she sees as inevitable.",
+            "background_story": "A climate-policy scientist who rose through government think tanks, Ayla was assigned to Marisora to pilot a resilience program. She views emotional attachment to place as a complicating variable that can hamper rational policy outcomes.",
+            "emotional_trait": "Strength: clear-headed decisiveness. Flaw: emotional detachment that risks alienating allies and underestimating local nuance."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Rita Ortega",
+            "relation_to_main": "Childhood friend of Maya; community organizer",
+            "appearance_summary": "Short, wiry woman with silver-streaked black hair in a braided crown, always in colorful aprons splattered with soil and paint.",
+            "function_in_story": "Emotional anchor for Maya; organizes neighborhood meetings and mediates between citizens and officials, pushing for inclusive solutions."
+        },
+        {
+            "name": "Mayor Tomas Nkem",
+            "relation_to_main": "Town mayor; occasional antagonist",
+            "appearance_summary": "Tall, broad-shouldered, salt-and-pepper hair, wears tailored tropical shirts and a gold signet ring.",
+            "function_in_story": "Hesitant decision-maker balancing economic pressure, political risk, and community requests; his choices force characters to take direct action."
+        },
+        {
+            "name": "Arlo Benitez",
+            "relation_to_main": "Younger volunteer who looks up to Elias",
+            "appearance_summary": "Lean teenager with buzzed hair, oversized hoodies, and paint-stained sneakers.",
+            "function_in_story": "Symbolizes the future generation; his enthusiasm and mistakes create pivotal small-scale crises that test the group's ethics."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Marisora Harbor",
+            "visual_description": "A crescent-shaped harbor lined with weathered wooden piers and patchwork boats. Golden late-afternoon light pools over rusted metal and salt-bleached ropes. Low clouds gather offshore, casting a thin silver sheen on the water; gulls wheel above. Background architecture mixes sea-scarred clapboard houses and community solar canopies, with nets and drying fish adding texture."
+        },
+        {
+            "name": "Community Greenhouse & Seed Bank",
+            "visual_description": "A glass-and-recycled-plastic structure glowing with warm amber light against encroaching dusk. Inside, humid, verdant colors — deep greens and bright tomatoes — contrast with the cool, stormy palette outside. Damp concrete floors, hand-painted labels, and string lights create an intimate, hopeful atmosphere."
+        },
+        {
+            "name": "Old Breakwater & Mangrove Line",
+            "visual_description": "Concrete slabs half-submerged at high tide, mottled with algae and graffiti. The mangrove fringe is dense, dark green and tangled, roots like ribs against the water. During storms the sky is bruised purple; spray throws silver shards of light. Closeups should emphasize salt spray, slick barnacles, and the sound of wind through mangrove leaves."
+        },
+        {
+            "name": "Municipal Hall / Temporary Response Center",
+            "visual_description": "A modernized colonial building with a glass annex and improvised sandbag fortifications. Fluorescent interior lights contrast with rain-streaked windows; people cluster over maps and tablets. The mood is tense and bureaucratic — coffee stains, printed reports, and a bulletin board of community pleas."
+        },
+        {
+            "name": "Rooftop Watch at Dusk",
+            "visual_description": "A narrow rooftop garden above Maya's family home with potted herbs, a battered telescope, and string lights. The horizon is wide, the sea a flat mirror reflecting sunset bruises. Lighting is soft and intimate, perfect for private conversations; wind adds motion to lanterns and hair."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Love",
+        "Community Resilience",
+        "Sacrifice vs. Survival"
+    ],
+    "possible_endings": [
+        {
+            "type": "Bittersweet",
+            "summary": "A negotiated compromise: the town preserves its core through a hybrid resilience plan that saves many homes but requires some families to relocate. Maya and Elias commit to a relationship built on shared work, but both carry scars of loss and hard choices. The community survives but is changed."
+        },
+        {
+            "type": "True",
+            "summary": "Maya exposes bureaucratic delays and forces regional accountability; a painful but morally 'true' outcome in which a coordinated relocation plan prevents future loss. Love survives as a long-distance, committed partnership focused on rebuilding elsewhere; the story ends on clear moral clarity though not conventional happiness."
+        },
+        {
+            "type": "Sad",
+            "summary": "A severe storm overwhelms protections. The town loses much of its coastline and some lives. Romantic relationships fracture under grief and blame. The ending emphasizes the real human cost of delayed action and the tragedy of missed opportunities."
+        },
+        {
+            "type": "Happy",
+            "summary": "A community-led innovation — a combination of restored mangroves, modular tidal barriers, and new livelihoods — proves effective. Funding arrives, the town thrives in a reimagined form, and Maya and Elias build a small, loving life together. The ending celebrates collective effort and personal love."
+        }
+    ],
+    "estimated_chapters": 6
+}

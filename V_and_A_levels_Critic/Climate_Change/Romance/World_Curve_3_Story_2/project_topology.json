@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-03-11 00:57:34",
+  "total_chapters": 15,
+  "total_valid_routes": 9,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Route B / Route A (Alternate Epilogue)",
+      "path": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route B / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 13,
+      "branch_name": "Route B / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        13
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 11,
+      "branch_name": "Route B / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 7,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "length": 5
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 14,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 8,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A / Ending",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "length": 5
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Chapter 1: Returning Tide",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "Chapter 2: Old Maps and Frayed Lines",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Chapter 3: Storm Forecast",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        9
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Chapter 4: Workshop Consensus",
+      "branch": "Route A",
+      "children_ids": [
+        6,
+        5,
+        7
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Chapter 5: Reclaiming the Marsh",
+      "branch": "Route A / Split",
+      "children_ids": [
+        8,
+        14,
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "Chapter 6: Harbor Accord — A Cooperative Win (Happy Ending)",
+      "branch": "Route A / Ending",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "Chapter 7: Quiet Retreat — A Fractured Defense (Sad Ending)",
+      "branch": "Route A / Ending",
+      "children_ids": []
+    },
+    "8": {
+      "id": 8,
+      "title": "Chapter 8: Tenuous Compromise — Bittersweet Survival (Bittersweet Ending)",
+      "branch": "Route A / Ending",
+      "children_ids": []
+    },
+    "9": {
+      "id": 9,
+      "title": "Chapter 9: Agency Offer",
+      "branch": "Route B",
+      "children_ids": [
+        10
+      ]
+    },
+    "10": {
+      "id": 10,
+      "title": "Chapter 10: Modeling the Shoreline — A Political Hub",
+      "branch": "Route B / Split",
+      "children_ids": [
+        11,
+        13,
+        12,
+        15
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Chapter 11: Inside the Machine — Controlled Protection (Sad Ending)",
+      "branch": "Route B / Ending",
+      "children_ids": []
+    },
+    "12": {
+      "id": 12,
+      "title": "Chapter 12: Catalyst of Letters — Distance and Compromise (Bittersweet Ending)",
+      "branch": "Route B / Ending",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "Chapter 13: Conditional Charter — A Tenuous Governance (True-leaning Ending)",
+      "branch": "Route B / Ending",
+      "children_ids": []
+    },
+    "14": {
+      "id": 14,
+      "title": "Chapter 14: Federated Stewardship — The Slow Bloom (True Ending)",
+      "branch": "Route A / Ending",
+      "children_ids": []
+    },
+    "15": {
+      "id": 15,
+      "title": "Chapter 15: Distant Harbors — Letters and Return (Alternate Epilogue / Ending)",
+      "branch": "Route B / Route A (Alternate Epilogue)",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 15,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 1,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 1,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

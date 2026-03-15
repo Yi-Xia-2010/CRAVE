@@ -1,0 +1,120 @@
+{
+    "design_logic": "I interpret the Theme (Climate Change) through the intimate lens of Romance: environmental collapse becomes the pressure that reveals character, tests bonds, and forces moral choices. The story is built around a core conflict between community-led ecological restoration and profit-driven technocratic mitigation; that external clash mirrors internal conflicts about sacrifice, trust, and the compromises people make for security and love. The romance arc functions both as emotional grounding and as a device to explore competing approaches to solving a crisis—repairing what remains versus building new protections—and to show how personal loyalties shape public outcomes.",
+    "setting": "Near-future (circa 2038) coastal town called Tidebridge that sits at the edge of a once-thriving estuary now battered by rising seas and intensifying storms. Weathered wooden piers coexist with experimental marine technology; community gardens grow among sand-scarred streets. The atmosphere mixes salt-bleached nostalgia with urgent activism—hopeful yet frayed, with persistent drizzle, low cloud cover, and sudden, bright sunlight after storms.",
+    "visual_style": "Painterly anime realism, muted coastal palette (sea-glass greens, storm-gray, sun-faded ochres), hand-painted textures, cinematic lighting, high-detail character portraits, environmental grime with luminous biotech highlights",
+    "main_characters": [
+        {
+            "name": "Ari Tanaka",
+            "role": "Protagonist",
+            "personality": "Driven, empathetic, pragmatic idealist. Ari is stubborn in their convictions but open to new information; fiercely protective of their community and prone to shouldering responsibility. They lead with care and become blunt when frustrated.",
+            "appearance_features": {
+                "hair": "Sun-bleached ash-brown bob, chin-length with a single sea-green streak on the left side",
+                "eyes": "Sea-glass green, almond-shaped with a tired but warm gaze",
+                "clothing": "Faded navy field jacket patched at the elbows, olive denim overalls rolled at the cuffs, salt-stained rubber boots, lightweight orange safety vest for fieldwork",
+                "accessories": "Analog film camera with a coral-red strap (for documenting change), a solar-powered multi-tool watch, a frayed canvas tote of the local restoration collective"
+            },
+            "goal": "To restore and protect the estuary using community-led ecological methods (living shorelines, marsh restoration) while keeping neighbors in place and preserving the town's social fabric.",
+            "background_story": "Born and raised in Tidebridge, Ari lost their teenage summer job and part of their family's shoreline property in an early, severe storm. They learned marsh ecology from a mentor and studied coastal restoration before returning home to organize neighbors against corporate 'solutions' that threaten displacement.",
+            "emotional_trait": "Strength: relentless care and resilience. Flaw: internalized guilt—feels responsible for others' safety and struggles to accept help."
+        },
+        {
+            "name": "Mateo Alvarez",
+            "role": "Love Interest",
+            "personality": "Warm, inventive, quietly humorous. Mateo is a practical engineer with an optimistic streak; he believes in scalable tech as a bridge to protect vulnerable communities but respects local knowledge. He is tender and slow to voice his own fears.",
+            "appearance_features": {
+                "hair": "Thick, dark curls kept short and tousled, often windblown",
+                "eyes": "Warm brown with tiny gold flecks, round and expressive",
+                "clothing": "Lightweight khaki field shirt with rolled sleeves, quick-dry cargo trousers with patched knees, a faded band tee beneath, well-used hiking sandals or slip-on waders depending on the task",
+                "accessories": "Handbound field notebook pressed with leaves and tide charts, a waterproof satchel with sensor prototypes, a thin woven bracelet gifted by his grandmother"
+            },
+            "goal": "To develop affordable, community-friendly wave-energy buoys and modular protections that can power resilient infrastructure without displacing people.",
+            "background_story": "Trained as a renewable-energy engineer in the city, Mateo returned to Tidebridge after his parents' fishery was damaged. He once took a corporate job to access resources but left when he saw communities sidelined by top-down projects. He wants technological solutions that center residents' needs.",
+            "emotional_trait": "Strength: patient creativity and steady optimism. Flaw: reluctance to confront corporate inertia head-on; sometimes avoids conflict to keep projects funded."
+        },
+        {
+            "name": "Elio Sato",
+            "role": "Antagonist (Complex)",
+            "personality": "Charismatic, data-driven, and rhetorically persuasive. Elio believes in decisive large-scale interventions and efficiency. He is intellectually honest but can be emotionally detached, framing people as stakeholders in optimization rather than neighbors.",
+            "appearance_features": {
+                "hair": "Sleek jet-black hair in a soft undercut, meticulously groomed",
+                "eyes": "Steel-gray, narrow and observant",
+                "clothing": "Tailored, weatherproof charcoal trench coat with a discreet corporate lapel pin, streamlined breathable shirt, polished dark boots that still show salt streaks from field visits",
+                "accessories": "Glowing corporate ID badge clipped to a matte lanyard, a minimalist ring fashioned from salvaged turbine metal, a slim tablet for live data feeds"
+            },
+            "goal": "To implement a fast, centralized coastal protection program (engineered seawalls, privatized surge barriers, managed relocation options) that stabilizes the region quickly and attracts investment.",
+            "background_story": "Raised in a different coastal town that underwent managed relocation, Elio rose through a sustainability-focused development firm. He lost family to repeated storm surge and believes his technocratic approach prevents greater losses; he has a complicated history with Tidebridge and personally knows several locals, which makes him both persuasive and painfully human.",
+            "emotional_trait": "Strength: resolute clarity and strategic thinking. Flaw: emotional distancing—he downplays individual suffering until it becomes undeniable, then can overcorrect in harmful ways."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Etta Hargrove",
+            "relation_to_main": "Mentor to Ari / Elder of the restoration collective",
+            "appearance_summary": "Short, stooped with a shock of white hair in a messy bun, warm hazel eyes, always wearing earth-stained aprons and a necklace of sea glass.",
+            "function_in_story": "Provides ecological knowledge and moral backbone to the community effort; offers historical perspective and acts as a mediator between factions."
+        },
+        {
+            "name": "Jun Park",
+            "relation_to_main": "Childhood friend of Ari and local fisherman",
+            "appearance_summary": "Lean, sun-leathered skin, cropped black hair, practical fisherman's clothes with rolled sleeves and a rope bracelet.",
+            "function_in_story": "Represents the working-class stakes—lost livelihood, skeptical of outside solutions; his choices influence neighbors' willingness to relocate or resist."
+        },
+        {
+            "name": "Mara Chen",
+            "relation_to_main": "Local journalist / ally to Mateo and Ari",
+            "appearance_summary": "Sharp bob haircut dyed midnight blue, compact raincoat with multiple pockets, carries a compact recorder and camera.",
+            "function_in_story": "Amplifies community voices, uncovers corporate contracts and hidden data, catalyzes public sentiment through reporting."
+        },
+        {
+            "name": "Councilor Rosa Menendez",
+            "relation_to_main": "Municipal official who must mediate between Elio's firm and the town",
+            "appearance_summary": "Tall, dignified, wears practical suits softened with woven shawls, silver hair streaked with salt, thoughtful expression.",
+            "function_in_story": "Represents political compromise; her vote can greenlight or block major projects and she embodies bureaucratic constraints and local responsibility."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Tidebridge Harbor",
+            "visual_description": "A stretch of fractured wooden piers and leaning fishing shacks under low, overcast skies. Morning light is diffuse and cool, catching salt on surfaces; puddles reflect pale clouds. Weathered colors—peel-paint turquoise, rusted metal—contrast with vivid nets and sun-bleached ropes. Periodic tape markers and sandbags line the edges, and small clusters of community tents show human determination amid decay."
+        },
+        {
+            "name": "Saltmarsh Flats",
+            "visual_description": "A wide, soggy estuary of brown reeds and glassy tidal pools. Mornings smell of brine and wet peat. Light is silvery and flat under an endless gray ceiling; when the sun breaks, shards of gold illuminate blades of marsh grass. Boards and hand-built sills mark fledgling restoration plots, bright flagging marking transplanted eelgrass and newly stacked coir logs."
+        },
+        {
+            "name": "Etta's Greenhouse (The Nursery)",
+            "visual_description": "A warm, amber-lit glass structure tucked behind a salt-streaked rowhouse. Inside, mist hangs in the light and green leaves press up against steamed panes. Peppery herbs, salicornia beds, and rows of seedlings create a lush microclimate; hanging bulbs give soft pools of light and the scent of soil and citrus fills the air. It's an intimate, hopeful refuge from the cold outdoors."
+        },
+        {
+            "name": "Wave Innovation Lab",
+            "visual_description": "A modular facility of corrugated panels and solar shingled roofs perched on pilings near the waterfront. Interior lighting is cool and clinical—fluorescent strips, holographic displays showing wave vectors, and workbenches strewn with sensors and buoy components. At night, small indicator LEDs blink blue and green, lending the site a biomechanical marine aesthetic."
+        },
+        {
+            "name": "Municipal Hall & Plaza",
+            "visual_description": "A low-brick municipal building fronted by a plaza where protest banners flutter and temporary booths appear after storms. The plaza is often damp, with puddles reflecting neon protest signs and corporate sponsor banners. The building's council chamber has warm paneled wood, a long table, and tall windows that open to the gray sea—an intersection of governance and personal pleas."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Romance"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-Led Revival: Ari and Mateo lead a hybrid strategy—small-scale engineered buoys integrated with living shorelines. The town resists forced relocation, marshes recover, local economy revives through sustainable aquaculture, and Ari and Mateo build a committed partnership. Elio, confronted with the human cost, alters his firm's approach and reinvests in community programs."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "Necessary Sacrifice: A partial managed relocation is implemented to save the most vulnerable areas while restoration proceeds elsewhere. Some families leave, including close friends, and the town's footprint shrinks. Mateo and Ari succeed technologically but at the cost of fractured relationships; their romance endures but carries the weight of loss and responsibility."
+        },
+        {
+            "type": "Sad",
+            "summary": "Corporate Containment: Elio's centralized protection project is approved and rapidly stabilizes key infrastructure, but it requires land buyouts and privatization of waterfront access. The town's character is eroded; many residents disperse. Ari's community efforts are sidelined, romance falters under conflicting values, and the estuary remains technically 'safe' but socially bereft."
+        },
+        {
+            "type": "True",
+            "summary": "Ongoing Struggle: No definitive victory—climate impacts continue and solutions are imperfect. The characters accept that adaptation is a process rather than a single win. Relationships change forms: some lovers separate to work in different movements, others stay. The ending emphasizes long-term stewardship, hard compromises, and the moral complexity of choosing who and what to save."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}

@@ -1,0 +1,117 @@
+### SCRIPT
+# Route: Route A
+# Context: 453e40
+
+[Scene: LuxCorp Coastal Plaza | Late Afternoon]
+[Background:"ch4_453e40_1"]
+[Music: Low cello, distant single piano note; atmosphere taut]
+[Sound: Soft footfalls echo on composite decking, distant gulls muffled by glass]
+
+You step off the promenade and into a different kind of weather: air conditioned, filtered, impossibly dry. The plaza's chrome breathes light that doesn't stain your jacket. The salt on your cuffs makes a small, stubborn contrast with the polished sterility around you. Someone else's promise of order hums beneath your boots.
+
+You hold the door a fraction longer than politeness requires, fingers tight on the strap of your clipboard. The dive watch at your wrist ticks in time with your pulse — the same steady rhythm that has kept you awake at night planning berms and meeting lines of volunteers. You tell yourself to breathe; the glass behind Lucia "Lux" Moreno refracts another, older harbor you carry with you.
+
+[Background:"ch4_453e40_2"]
+[Sound: A cup set down on a saucer; a paper-thin chair squeaks]
+
+Lucia "Lux" Moreno: "Maya, thank you for coming."
+(her smile is smooth, practiced; she steps forward as if the room were a chessboard and you, the piece she most wants moved) "I read your brief. Thorough. Practical. That's rare."
+
+Maya Inoue: "You read it fast." (you keep your voice even; it is the kind of even that has gotten you through town meetings and flood drills) "You read it with other people's names on the margins."
+
+Lucia "Lux" Moreno's eyes — steel-gray, precise — track your face and then drift to the worn edge of your clipboard. She leans, a careful graceful movement, and her fingertips hover over a smudge of pencil where a shoreline name has been circled.
+
+Lucia "Lux" Moreno: "You do this work on the ground. People listen to you." (her praise lands like a coin; it buys attention) "That credibility is why I'm here. We can secure Harborfall. Fast. Effective. My team has modeled a raised sea wall with automated flood gates — kinetic barriers that respond before water even reaches the road. Grants to homeowners. An expedited build timeline. No waiting."
+
+You: (inside) The hologram she draws between you is slick: waves bending like obedient glass, roads spared, roofs dry. The edges of it are luminous, impossible in their neatness. A map of salvation, delivered in LED.
+
+Maya Inoue: "And the cove access? The smallest inlets? The fishers' sheds on Cedar?" (you ask the specifics you always ask, because specificity is shelter) "What happens to our docks when you pin a wall across the mouth of the estuary?"
+
+Lucia "Lux" Moreno taps the tablet; the hologram shifts, revealing layers. "We compensate, we relocate when necessary, we fund reconstruction. Our simulations account for tidal displacement and sediment flow. We're talking mitigation and investment, not erasure."
+
+Lucia "Lux" Moreno: "And Maya — " (she softens just an inch, as if remembering a shared rehearsal) "— your community networks. If you bring them aboard, that accelerates deployment tenfold. People trust you. You can bridge the data to the doorstep. Think of how many lives you'd shore up now."
+
+You: (inside) The phrase — bring them aboard — tastes like a ledger. You hear Kaito Sato's voice in your memory, the small clink of his sensor pendant from nights in the boathouse when he'd say, "Scale is not neutral, Maya. It shapes who stays and who gets left." His sea-green eyes are a small, insistent light in the back of your mind, a reminder that engineering without people can be an erasure, not a defense.
+
+[INTERACTION]
+> Choice A: "Reply with the technical questions — ask about sediment plans and maintenance timelines"
+> Choice B: "Speak to the people — tell her about Tomas and the fishes' winter nets"
+[Outcome A: You lean forward, pen poised, and begin listing the technical contingencies that matter to the town. Lux listens, nodding; each answer she gives is polished, but you sense an economy behind them — trade-offs catalogued without apology.]
+[Outcome B: You close your eyes briefly and tell the story of Tomas's nets and the childhood run of herring that built breakfasts. Lux's brow shifts; she offers grants and relocation packages, and you can see how well her words would land at a different table. You also feel the odd, private cold of being asked to translate memory into logistics.]
+[MERGE: After either path, Lucia "Lux" Moreno moves the conversation back toward vantage points you both know.]
+
+Lucia "Lux" Moreno: "We can do the mitigation. We don't want to bulldoze heritage; we want to preserve livelihoods — at scale. The reality is time. Storm seasons are compressing. The math is not sentimental."
+
+Maya Inoue: "Neither are we." (you say it quieter than you feel it; the room holds the echo) "Scale is fine on paper. Scale is not fine when it takes away the things people use to live."
+
+Lucia "Lux" Moreno: "Then let us be the scale." (she taps the tablet and the projection smooths into a timeline. Money flows in colored bands; dates lock like runway lights.) "Contracts in—six months. Deployment—eighteen. Immediate grants for at-risk homes within thirty days. You could be the face of a program that saves tens of thousands across the coast. Your name attached to it — Maya Inoue, community liaison — is leverage. This is not corporate vanity; it's what makes donors sign."
+
+You: (inside) Leverage. The word lands like a small stone in your gut. You can see the rooftop greenhouse colder, the volunteers with their breath fogging in winter air while they stitch sandbags. You can see Hana's apron smudged with soup, Tomas's hands smelling of tar and salt. You can feel the easy arithmetic of relief: money equals protection equals fewer nights fretting for the people you love.
+
+Maya Inoue: "What's the catch?" (it feels blunt, but bluntness is your policy) "What will you ask for in return? Easements? Zoning control?"
+
+Lucia "Lux" Moreno: (a thin smile; she is an architect of phrasing) "We ask for partnership. For access to certain coastal parcels during the build. For a memorandum that allows us to manage emergency deployment systems. And, for the town's endorsement when we speak with regional partners. Those are not small things. But they are also not the same as handing over Harborfall."
+
+You: (inside) You consider the phrase 'not the same.' Your notebook is heavy in your hand; the margins are full of names and conditions like prayer beads. You think of the faces around the greenhouse table, their different kinds of hunger and fear. You think of your brother's absence — the specific way the sea took him — and how that absence tightened you into action. You imagine an automated gate closing and the hum of machines doing what hands once did. You wonder whether safety bought quickly can be the kind of safety you want.
+
+[INTERACTION]
+> Choice A: "Ask for a clause guaranteeing local hiring and oversight"
+> Choice B: "Say nothing more and study the timeline"
+[Outcome A: You ask for enforceable language: local hires, oversight committees chaired by townspeople, transparent maintenance funding. Lux nods, slow, and conjures hypothetical contract clauses. She seems to expect bargaining; her smile tightens into negotiation.]
+[Outcome B: You let the timeline slide across your gaze. Numbers are elegant and lonely. Lux watches your silence like an experiment; then she fills it with coffee and small assurances that feel like warm hands on a cold morning.]
+[MERGE: Regardless of the choice, Lucia "Lux" Moreno affirms the need for oversight that doesn't impede emergency action.]
+
+Lucia "Lux" Moreno: "We can include community oversight, but it must be functional and able to act quickly. It can't be a veto that stalls construction in a storm season. I won't sign an agreement we can't implement under pressure."
+
+Maya Inoue: "So what I'm hearing is: oversight, but not delay." (you force the phrasing like a hinge)
+
+Lucia "Lux" Moreno: "Yes." (she taps a point on the timeline) "Fast builds. Fewer lives lost. We can take the heat off Mayor Rossi, we can put policies into practice that protect children who will never remember the old Harborfall. There is dignity in that."
+
+You: (inside) Dignity. The word grates; you feel its edges. You picture the promenade, the brass plaques underfoot, names polished by generations. You imagine those names—some will be uplifted, some will slide beneath a new surface. The plaza's cool air presses against your coat, and you realize that your elbows, patched and familiar, mark you as someone who has kept the town close enough to count losses and victories in the same breath.
+
+Lucia "Lux" Moreno: (soft, almost conspiratorial) "Maya. You have a credibility other CEOs would buy. Not with money — with trust. Be the bridge. You will be respected in the archives. You will be the one who stopped the next tragedy."
+
+You: (inside) The thing she offers is both accolade and leash. It is a mirror: accept and be lauded; accept and bear responsibility for the consequences. You think of Kaito Sato again — his careful, humid hands soldering sensors into cages, the way he once said, "We owe communities a seat at the table, not an afterthought in a press release." You taste the tang of compromise at the corner of your tongue, bitter-sweet.
+
+Maya Inoue: "If I bring people in, I bring their questions." (the words are a small warning) "I will need full transparency and a way for grievances to be heard that isn't just performative."
+
+Lucia "Lux" Moreno: "Agreed. We'll draft a memorandum that includes a community grievance process. I'll have my legal team — and Maya," (she inclines her head) "— I want you in that conversation. Not as a signature, but as a partner."
+
+You: (inside) 'Partner.' The word softens the edges. It also hides the hard lines of who holds the pen when contracts are written. You feel tired in the way someone feels after a long watch: muscles spent, senses raw.
+
+Lucia "Lux" Moreno pours coffee. The scent is dark and oddly ordinary in the plaza's futuristic light. She offers you a cup; the ceramic is warm. You accept because it is a ritual and because small rituals slow the momentum of decisions. Negotiation becomes human when hands cup warmth.
+
+Lucia "Lux" Moreno: (finishing a pitch) "Come back tomorrow with a list of must-haves. We'll formalize an offer. If we can secure Harborfall faster, isn't that worth contemplative compromise?"
+
+You: (inside) Contemplative compromise. The phrase folds into the quiet between you like a lid. You remember the greenhouse upstairs, the volunteers leaning close over seedlings, the mayor's tired eyes. You think of the ledger of obligations you already carry.
+
+Maya Inoue: "I'll need to read the offer closely." (it is the most honest thing you can say in the moment)
+
+Lucia "Lux" Moreno: "Of course." (her smile is immaculate; it promises a present in exchange for a future you might not recognize) "Take the night. Bring your conditions. My team will have a draft for you in the morning. And Maya?" (she pauses, letting the name linger) "Whatever you decide—do what saves people."
+
+You: (inside) Her final line is luminous and plain. It is, in its own way, an appeal to morality. You want to believe it maps cleanly onto the work you've done all your life: save people. But you also know that the shape of saving matters — who is counted first, who is compensated, whose memory is preserved, whose shoreline is rerouted.
+
+[Background:"ch4_453e40_3"]
+[Sound: The hum of the plaza returns; gull calls distant; a low wind off the ocean gathers]
+
+You stand to leave with a formal promise: a draft will be on your table by morning; Lucia "Lux" Moreno's lawyers will have language; an offer will sit next to your notebook like a new seed, glossy and unfamiliar. The greenhouse will feel colder when you return. The people in it will look to you for an answer that balances urgency with memory.
+
+You step back into Harborfall's air, and the salt bites into your lungs like a small reproach.
+
+[Music: Single cello note, unresolved; a faint wind lifts the hem of your jacket]
+[Background:"ch4_453e40_4"]
+
+You carry the taste of compromise at the corner of your tongue and the promise of an offer in your pocket. The town behind you is a cluster of lives counting on one another, and the choice you will make tomorrow will weigh them differently.
+
+[Page-turn moment]
+You fold the promise into the notebook, touch the tide-chart scarf at your throat, and feel the old ache — the one that made you who you are — settle into a new, heavier silence. Dawn will demand a decision. For now, the watch keeps time. You keep walking.
+
+[Background:"ch4_453e40_5"]
+[Music: Fade Out]
+[NEXT CHAPTER: 5]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 5
+    > Jump Target File: script_ch5_Route_A_Split_ctx_4001e7.txt

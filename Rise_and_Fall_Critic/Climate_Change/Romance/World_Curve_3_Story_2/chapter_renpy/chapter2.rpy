@@ -1,0 +1,166 @@
+label chapter2:
+
+    # [Scene: Maris Institute — Coastal Research Lab | Late Morning]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low hum of HVAC, occasional clink of lab glass, distant gulls muffled by city noise]
+    # play music "music_placeholder"  # [Music: Low, tense cello pad]
+    "You push open the lab door and the air inside is cool and a little bitter with coffee and salt. Fluorescent light pools on the stainless benches; a tide-gauge readout blinks in the corner of a"
+    "monitor like a heartbeat. Your notebook is still damp from the market, the compass beneath your collarbone warm with your pulse."
+    "Professor Anika Bhat looks up from a cluster of annotated exposure curves. Her silver bun bobs as she exhales through a smile that is more an appraisal than comfort. The lab coat she wears carries that"
+    "faint sea-salt scent you associate with all her late nights: concentrated work and cheap coffee. She taps a margin on your printout with a pen."
+    show professor_anika_bhat at left:
+        zoom 0.7
+
+    professor_anika_bhat "Margins are not accessories, Mara. They measure our humility. Tell me—you tightened the confidence envelope where you thought it would look reassuring."
+    "You brace to explain. The words come as if from a diver surfacing — urgent, slightly breathless."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "I adjusted the envelope around the high-tide scenarios. The community pilot needs a defensible range to estimate cost and impact. If I widen it, the funders pull back; if I narrow it, we risk underpreparing."
+
+    professor_anika_bhat "Explain the assumptions. Specifically: what nonstationarity parameters did you include for storm frequency?"
+    "You trace a finger to a jagged line on the board, feeling the chalk dust on your skin like sand."
+
+    mara_lin "I used the thirty-year average baseline, then applied the RCP-adjusted multiplier from the coastal uplift models. I flagged the uncertainty in sea-level rise acceleration, but I used a conservative tail cut to keep the design—"
+
+    professor_anika_bhat "Conservative for whom? You must name the trade-off. Design conservatism buys certainty for budgets but sells it short to people who live in the floodplain. Who do you imagine when you choose your cutoff?"
+    "You don't answer aloud for a beat. The memory of a street that used to run along the old pier presses the back of your teeth. Your compass swings against your chest as if nudging you to the right word."
+    "Guilt is a small, persistent tide. It slips under every plan you write; it fattens at night and makes your fingers go cold. You hate that it can be measured against a spreadsheet. Still, you find the language — you name the trade-offs because Anika never accepts platitudes."
+
+    professor_anika_bhat "We can model everything until the sea shines like a coin, Mara. But your job—our job—is to turn those models into obligations the city will actually meet. Present uncertainty with clarity or the city will pick its favorite numbers and call them truth."
+
+    mara_lin "Then help me make the uncertainty legible."
+
+    professor_anika_bhat "I will. Start again but this time include conditional outcomes by neighborhood. Show what happens if the culvert at Ebbett Alley clogs, if storm frequency spikes unexpectedly, and what the community can do in parallel to soften outcomes."
+    "She slides a clean sheet toward you. Her eyes are kind and exacting in the same breath — the combination that steadies you and unnerves you."
+
+    menu:
+        "Work the numbers now — rewrite the margins with Anika":
+            "You uncurl the fresh sheet, and the room narrows to a graph and a pen. Your hand calms as you re-run the scenarios. Anika hums approval and points out a correlation you missed. It feels productive, like mending a tear before the tide finds it."
+        "Talk through the lived cases — call Samir and check neighborhood reports":
+            "You hesitate, thumb over your phone as if it could contain the map of voices. You call Samir; his voice is bright with morning work and the names of alleys. You jot down specifics, smell of frying fish and diesel sliding through the line. Anika watches, eyes unreadable, then nods: 'Good — now bring that into the model.'"
+
+    # --- merge ---
+    "You fold both kinds of data into the margin: the tidy truth of numbers and the messy truth of lives. The paper soaks both."
+    # play sound "sfx_placeholder"  # [Sound: A sudden, high municipal chime — an urgent city notice tone]
+    hide professor_anika_bhat
+    hide mara_lin
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play music "music_placeholder"  # [Music: String harmonics rise, tense]
+    "You feel the room tilt toward the atrium before you leave. Anika's hand clasps yours for a second at the doorway, an eccentric ritual of solidarity."
+    show professor_anika_bhat at left:
+        zoom 0.7
+
+    professor_anika_bhat "Remember—you're not just translating science. You're making space for grief in the projection. People need to see themselves in the numbers, or they won't fight for them."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "I will. I won't make it a math lecture."
+
+    professor_anika_bhat "Good. Speak with your voice. The city listens to data; the people listen to memory."
+    hide professor_anika_bhat
+    hide mara_lin
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Footsteps on wet cobbles, distant market noise fading; a municipal bus whooshes past]
+    # play music "music_placeholder"  # [Music: Low, distant percussion]
+    # [Scene: City Hall — Planning Atrium | Midday]
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Murmurs, the scrape of chairs, low shouts from a protest cluster]
+    # play music "music_placeholder"  # [Music: Tense, urban synth undercurrent]
+    "You enter the atrium and the light bites. Flood-model displays scroll animated layers of risk — a hypnotic, clinical storm. The space smells of polished stone and disinfectant, and beneath that, the tang of too many human breaths."
+    "Across the atrium a cluster has formed. Nova Duarte threads through with a paint-splattered vest and a megaphone slung like a banner. Her steel-gray eyes find you and sometime before words are exchanged they knifecut something"
+    "taut in the air. The protestors around her chant soft, urgent phrases that hit the atrium's acoustics like tide against a bulkhead."
+    "Then Elias Kade arrives. His navy work-blazer is tailored to the city's geometry, and his municipal ID bobs on a lanyard — authority made human. He catches your eye with one of those measured, civil smiles. He moves like a man meant to handle difficult rooms."
+    show elias_kade at left:
+        zoom 0.7
+
+    elias_kade "Mara. Anika rang ahead and said you'd be here. You look like someone who should be holding a chalk instead of a microphone."
+    show mara_lin at right:
+        zoom 0.7
+
+    mara_lin "I should be holding both."
+
+    elias_kade "The mayor wants a unified pitch. She's worried about optics and—understandably—about funds. She's thinking seawall as the headline. Practical, immediate. You know how City Hall sees solutions."
+    "You watch his mouth as he says it. There's warmth there, but also the architecture of institution — the habit of solving problems within a framework that has kept him employed and safe."
+    "Elias feels like a walkable plan: efficient, readable, engineered so you can count its steps. Nova feels like a reclamation; she is chaos with purpose. You stand between grid and uproar, between what is politically feasible and what is morally demanded."
+    show nova_duarte at center:
+        zoom 0.7
+
+    nova_duarte "Feasible for whom, Elias? You'd pay for paved promises with the lives at the margins. We need wetlands, not walls you can put a logo on."
+
+    elias_kade "And we need to keep the electricity running, Nova. We need thresholds that stop neighborhoods from being cut off. Wetlands take years. Seawalls can be built now."
+
+    nova_duarte "Wetlands also absorb storm surge. They keep homes from being islands. You keep saying 'now,' but now is every storm that floods the old pier. Which now are you serving?"
+    "The exchange sharpens. You feel the room tilt between them like a scale. A few people in the atrium shift, aligning without deciding. The mayor's aides whisper into earpieces; a camera blinks."
+
+    elias_kade "You can thread that argument, Mara. Your pilot shows where we can get immediate wins while testing ecological buffers. I think there's a middle ground — if we can make it compelling on a ballot or a budget line."
+
+    nova_duarte "Middle ground is how you lose when time is on the other side."
+
+    mara_lin "I proposed a pilot that integrates living shorelines with targeted hardening at critical nodes. It can be staged so communities have immediate protection and long-term restoration—"
+    hide elias_kade
+    show mayor_heloise_chen at left:
+        zoom 0.7
+
+    mayor_heloise_chen "We'll hear the proposal now."
+    "Mayor Chen's presence compresses the air. Her suit is impeccable; her smile carries the weight of decisions. She moves as if the atrium is a chessboard she is required to keep tidy. Cameras pivot; the public meeting protocol begins."
+
+    mayor_heloise_chen "Ms. Lin, the city has asked you to present a community-based pilot. We'll allocate time for questions. Keep your remarks to fifteen minutes."
+    "You can feel eyes on you, some hopeful, some skeptical, some hostile. Nova's jaw is a line; Elias watches you with a look that is almost pleading practicality. Anika's nod from the back of the room steadies you for the moment."
+
+    menu:
+        "Lead with the models — start with exposure curves and probabilities":
+            "You open with crisp figures and animated maps, pointing to conditional exposures by neighborhood. The room leans into the neon displays; a few officials nod as you translate percentiles into potential losses. Anika's face is placid, satisfied. But from the protest cluster come mutters — numbers alone feel like a ledger to those who have already lost."
+        "Lead with a memory — start with a short personal account of loss":
+            "You breathe and tell them about an alley that disappeared after a storm, the smell of wet wood and the sound of a neighbor's dog when the water climbed. The room grows quiet; some faces soften, hands cover mouths. Nova's stance shifts — you see her look almost grateful. But several council aides shift uncomfortably; you can feel the political cost of making losses visible."
+
+    # --- merge ---
+    "You choose a path — or, more accurately, you try to marry both. The data frames the problem; memory frames the moral imperative. You speak, and the words are an architecture: probability envelopes as doors, lived stories as beams holding them open."
+
+    mara_lin "If you look at the model's 95th percentile for storm surge in District Three, you'll see the neighborhoods that are functionally disconnected after a two-meter event. If you walk those alleys — as I have — you'll meet families who have already adapted their lives around a new high-tide line. We need interventions that protect daily life, not only headline infrastructure."
+    "A murmur runs through the room. Some officials scribble notes. Nova's protesters chant softly, a human pulse beneath the slides."
+
+    mayor_heloise_chen "Ms. Lin, this is persuasive. It is passionate and it is evidence-based. However—"
+    "Her however lands like a gavel."
+
+    mayor_heloise_chen "City Council requires a citywide plan with immediate protective measures. I am setting a sixty-day deadline for a seawall plan that can be voted on as an emergency appropriation. This will be the city's public offer to business, to development, and to the voters."
+    "The room takes a collective breath, something like wind sucked from under sails. You tally the implications in a flurry: budgets rerouted, pilots delayed, political capital spent on a single, centralized structure."
+    hide mara_lin
+    show elias_kade at right:
+        zoom 0.7
+
+    elias_kade "A seawall meets the demand for immediate action."
+
+    nova_duarte "A seawall entrenches inequity. It privileges what is worth saving on paper."
+
+    mayor_heloise_chen "We will not allow paralysis in the face of rising tides. Seawall planning and emergency appropriation is the direction. Ms. Lin, you will be part of the technical advisory panel. You will present your pilot as a companion piece, but the seawall is the city's immediate priority."
+    "The deadline lands like a bruise. You understand the logic: a single, visible project calms markets and reassures insurers. You also know what a seawall alone can smell like after a season — hard concrete, blocked"
+    "vistas, ecosystems squeezed into margins. The city chooses a straightforward narrative of defense and asks you to stitch nuance into it."
+    "Anika catches your eye and her expression is complex — not simply encouragement or reproach, but the mixture of mentor and scientist who knows the politics of compromise. Elias's face is carefully neutral, but you feel"
+    "the current of his argument under his civility. Nova watches you like a measure: not an enemy yet, not an ally."
+    "You realize, in a small, strange way, that the choice the mayor just made is not only about structures. It's about time: about which stories will be allowed to shape policy before the sea shapes the city."
+    "Your throat is dry. The atrium buzzes with speculation, cameras, and the low, hard machinery of municipal decision-making."
+    hide nova_duarte
+    hide mayor_heloise_chen
+    hide elias_kade
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant thunder roll — or a sound in the room that feels like it]
+    # play music "music_placeholder"  # [Music: Single, unresolved minor chord]
+    "You breathe in the sterile air that tastes faintly of deadlines and disinfectant. The room rearranges into factions and possibilities — Elias's pragmatism, Nova's righteous anger, the mayor's procedural finality. The pilot you imagined is suddenly a small, fragile thing against a sixty-day demand."
+    "You step back from the podium as aides begin to coordinate follow-up sessions and cameras flash for the press pool. Your mind is already running through the permutations: how to make a living-shoreline pilot look like"
+    "immediate mitigation; how to translate neighborhoods' stories into binding budget line items; how to keep the city from choosing a single shiny defense that erases other options."
+    "A single line sits between you and the next decision: the mayor's deadline is a clock you did not set, and everything you draft now will be read under its shadow."
+    "You want to fix everything at once. You know that's impossible."
+    # play music "music_placeholder"  # [Music: A low, insistent beat — page-turn momentum]
+    "You close your notebook and feel the weight of all the unchosen things press at the edges of your plan. The city's choice has narrowed the field; your task is to pry the seam open wide enough for a pilot to breathe."
+
+    scene bg ch2_c4ca42_6 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

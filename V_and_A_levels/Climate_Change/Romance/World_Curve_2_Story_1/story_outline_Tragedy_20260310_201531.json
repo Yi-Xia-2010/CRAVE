@@ -1,0 +1,501 @@
+{
+    "title": "Marrow Bay: Tides of Promise",
+    "summary": "You are Mira Santos, a coastal ecologist turned resident activist in Marrow Bay, a near-future coastal town facing corporate redevelopment. Cassandra Whitlock's firm offers engineered safety at the cost of displacement and private control, while Elias Park and the Saltworks team propose small-scale, community-led adaptation. Across branching choices you negotiate public hearings, community builds, intimate confessions, and moral exposures. Romance with Elias complicates strategic choices. The narrative is a tragic fall: initial hope devolves into political and ethical compromise, loss, or principled rupture depending on choices.",
+    "emotional_curve_type": "Fall",
+    "player_character": "Mira Santos",
+    "chapter_structure": [
+        {
+            "chapter_index": 1,
+            "chapter_title": "Morning of Salt & Stitch",
+            "branch_designation": "Common",
+            "narrative_focus": "I wake to wind and salt; take stock of personal items and a prototype part from Elias; visit the boardwalk tide-garden plot and Aunt Lila; the council calls an emergency hearing as Cass Whitlock's redevelopment renderings appear. I resolve to fight for community-led protection that preserves memory.",
+            "emotional_trajectory": "Rise",
+            "Valance": "Neutral",
+            "Arousal": "VeryLow",
+            "entry_condition": "None (Start)",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 2,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Aunt Lila",
+                "Saltworks team"
+            ],
+            "locations_used": [
+                "Kitchen",
+                "Boardwalk",
+                "Tide-garden plot"
+            ]
+        },
+        {
+            "chapter_index": 2,
+            "chapter_title": "Saltworks Meeting & First Spark",
+            "branch_designation": "Common",
+            "narrative_focus": "A morning Saltworks meeting where community members plan a public demo to show a humane, community-led alternative; Elias demonstrates a micro-grid prototype; a press release announces Cass' glossy plan and a private investor meeting, raising the stakes.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Low",
+            "entry_condition": "From Chapter 1",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 3,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Noah",
+                "Jun",
+                "Aunt Lila",
+                "Saltworks team"
+            ],
+            "locations_used": [
+                "Saltworks",
+                "Boardwalk",
+                "Rooftop greenhouse"
+            ]
+        },
+        {
+            "chapter_index": 3,
+            "chapter_title": "Council Dais & the First Choice",
+            "branch_designation": "Common / Split",
+            "narrative_focus": "At Municipal Hall Cass presents her redevelopment plan; I deliver community testimony. The council proposes negotiation; three strategic options emerge—propose a pilot with Elias, refuse and mount a legal campaign, or pursue a whistleblower leak—each risking different losses.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 2",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I respond to Cass' redevelopment pitch?",
+                "options": [
+                    {
+                        "label": "Propose a community-led pilot partnership with Elias' prototypes and ask the council to fund a pilot.",
+                        "consequence": "Signals collaboration and grassroots technical credibility; risks co-optation and slow scaling.",
+                        "target_chapter_index": 4
+                    },
+                    {
+                        "label": "Refuse cooperation; mount a legal/political campaign to block redevelopment.",
+                        "consequence": "Energizes activists but invites legal pushback and aggressive public relations from Cass.",
+                        "target_chapter_index": 7
+                    },
+                    {
+                        "label": "Pursue (or leak) the whistleblower rumor to expose contract easements and questionable clauses.",
+                        "consequence": "Could reveal ethical lapses quickly but risks personal exposure and legal retaliation.",
+                        "target_chapter_index": 10
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Noah",
+                "Aunt Lila",
+                "Municipal council"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Rooftop greenhouse",
+                "Plaza"
+            ]
+        },
+        {
+            "chapter_index": 4,
+            "chapter_title": "Pilot Proposal & Quiet Promises",
+            "branch_designation": "Route A",
+            "narrative_focus": "I and Elias present a pilot (micro-turbines, tide gardens, raised platforms). The council is cautiously receptive; Cass offers conditional funding under firm oversight, forcing a choice to cede control for resources or remain grassroots and vulnerable.",
+            "emotional_trajectory": "Fall",
+            "Valance": "Negative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option A",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "Accept Cass’ conditional oversight to secure immediate funding, proceed with a fully community-run pilot, or take a risky public exposure?",
+                "options": [
+                    {
+                        "label": "Proceed with the public demo as a fully community-led pilot.",
+                        "consequence": "Keeps control local but limits resources",
+                        "target_chapter_index": 5
+                    },
+                    {
+                        "label": "Accept Cass' conditional funding to scale the pilot with firm oversight.",
+                        "consequence": "Gains resources and legal cover but risks co-optation",
+                        "target_chapter_index": 6
+                    },
+                    {
+                        "label": "Use the demo to publicly challenge Cass, inviting a showdown.",
+                        "consequence": "Raises profile and risk; invites corporate pushback",
+                        "target_chapter_index": 13
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Noah",
+                "Aunt Lila",
+                "Saltworks team"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Boardwalk",
+                "Saltworks"
+            ]
+        },
+        {
+            "chapter_index": 5,
+            "chapter_title": "Boardwalk Demo & Echoes of Promise",
+            "branch_designation": "Route A",
+            "narrative_focus": "The community demo becomes a festive, proof-of-concept success, but Cass fast-tracks a redevelopment permit threatening to rubber-stamp a zone unless a funded alternative appears within thirty days, turning hope into a countdown.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 6,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Noah",
+                "Jun",
+                "Aunt Lila",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Old Lighthouse",
+                "Saltworks"
+            ]
+        },
+        {
+            "chapter_index": 6,
+            "chapter_title": "Fast-Track & the Decision That Breaks",
+            "branch_designation": "Route A — Ending",
+            "narrative_focus": "The council votes to support Cass' fast-track permit; the Saltworks is placed under corporate oversight, relocation notices go out, and small-scale efforts are co-opted. Elias and I remain together but the town and our ideals are diminished.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option B OR From Chapter 5",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Municipal council",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Municipal Hall",
+                "Boardwalk",
+                "Old Lighthouse"
+            ]
+        },
+        {
+            "chapter_index": 7,
+            "chapter_title": "Refuse & Rally",
+            "branch_designation": "Route B",
+            "narrative_focus": "I publicly reject Cass and lead a legal/political campaign with coalition partners. We file injunctions and prepare for a titanic legal showdown while Cass mounts PR and legal counterattacks, draining volunteers and increasing fear.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "High",
+            "entry_condition": "From Chapter 3, Option B",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do we press the legal fight?",
+                "options": [
+                    {
+                        "label": "Negotiate a formal compromise to secure legal protections for key neighborhoods while conceding some infrastructure.",
+                        "consequence": "May protect families but legitimizes Cass’ plan",
+                        "target_chapter_index": 8
+                    },
+                    {
+                        "label": "Double down on an all-out legal blockade and public pressure.",
+                        "consequence": "Could win by principle but risks harsh countermeasures",
+                        "target_chapter_index": 9
+                    },
+                    {
+                        "label": "Pursue a quiet settlement with municipal allies to slow the process and buy time.",
+                        "consequence": "Slower, less public; may fracture activist trust",
+                        "target_chapter_index": 14
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Jun",
+                "Aunt Lila",
+                "Noah",
+                "Municipal council"
+            ],
+            "locations_used": [
+                "Municipal plaza",
+                "Saltworks",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 8,
+            "chapter_title": "Fragile Compromise",
+            "branch_designation": "Route B",
+            "narrative_focus": "Negotiations yield legal protections for some neighborhoods and community seats on oversight boards but permit easements and rezoning that leave many residents vulnerable. The agreement saves some but causes grief and a sense of hollow relief.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 9,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Aunt Lila",
+                "Municipal council"
+            ],
+            "locations_used": [
+                "Negotiation room",
+                "Rooftop greenhouse",
+                "Municipal Hall"
+            ]
+        },
+        {
+            "chapter_index": 9,
+            "chapter_title": "Paper Promises, Real Loss",
+            "branch_designation": "Route B — Ending",
+            "narrative_focus": "Under the compromise, redevelopment proceeds; relocation notices displace many long-time residents. The Saltworks becomes integrated into a corporate plan, and Elias grows withdrawn. We preserved some people at the cost of much of the town's independent spirit.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 8, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Aunt Lila",
+                "Noah",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Old Lighthouse",
+                "Saltworks"
+            ]
+        },
+        {
+            "chapter_index": 10,
+            "chapter_title": "The Leak & the Risk",
+            "branch_designation": "Route C",
+            "narrative_focus": "A whistleblower provides contract snippets revealing easements and privatization clauses. I must choose to leak publicly, negotiate quietly, or step back and leave with Elias—each option carries legal, personal, and communal risk.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "Mid",
+            "entry_condition": "From Chapter 3, Option C",
+            "major_decision_point": {
+                "has_choice": true,
+                "description": "How do I act on the whistleblower documents?",
+                "options": [
+                    {
+                        "label": "Publicly leak the contract to the press and mobilize civic outrage.",
+                        "consequence": "Rapid public scrutiny but legal backlash and personal exposure",
+                        "target_chapter_index": 11
+                    },
+                    {
+                        "label": "Use the documents to negotiate an enforceable amendment quietly with sympathetic councilors.",
+                        "consequence": "Could secure protections but might be stonewalled and slow",
+                        "target_chapter_index": 12
+                    },
+                    {
+                        "label": "Prioritize personal stability: step back from the fight and plan with Elias to leave for another town.",
+                        "consequence": "Preserves personal relationship but abandons the frontline",
+                        "target_chapter_index": 15
+                    }
+                ]
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Aunt Lila",
+                "Saltworks team",
+                "Whistleblower (unnamed)"
+            ],
+            "locations_used": [
+                "Saltworks",
+                "Rooftop greenhouse",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 11,
+            "chapter_title": "Leak, Headline, and Fallout",
+            "branch_designation": "Route C",
+            "narrative_focus": "I leak the documents to a reporter; headlines expose easements. Cass denies and sues; the town is inflamed while legal teams and injunctions follow. The whistleblower is protected by me, and the fight becomes sharper and more dangerous.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option A",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": 12,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Neighbors",
+                "Local reporter"
+            ],
+            "locations_used": [
+                "Saltworks",
+                "Greenhouse",
+                "Municipal Hall"
+            ]
+        },
+        {
+            "chapter_index": 12,
+            "chapter_title": "Court, Quiet Dissonance, and Exile",
+            "branch_designation": "Route C — Ending",
+            "narrative_focus": "The legal battle freezes community activity; Cass' firm gains provisional authority. Relocation accelerates and families leave. Elias and I decide he will stay while I leave to work on adaptation elsewhere—an anguished split to preserve both of us in different fights.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 11",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Aunt Lila",
+                "Cassandra Whitlock",
+                "Neighbors"
+            ],
+            "locations_used": [
+                "Courtroom",
+                "Old Lighthouse",
+                "Municipal atrium"
+            ]
+        },
+        {
+            "chapter_index": 13,
+            "chapter_title": "Public Confrontation & the True Stand",
+            "branch_designation": "Route A — Alternative Ending",
+            "narrative_focus": "At the demo I read the contract aloud, exposing clauses and forcing administrative review. The whistleblower is revealed and leaves for safety. The truth increases oversight but also accelerates relocations and legal retaliation; personal exposure strains relationships though moral clarity remains.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 4, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Whistleblower (named during event)",
+                "Neighbors",
+                "Press"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Demo site",
+                "Old Lighthouse"
+            ]
+        },
+        {
+            "chapter_index": 14,
+            "chapter_title": "Quiet Settlement & the Price of Safety",
+            "branch_designation": "Route B — Alternative Ending",
+            "narrative_focus": "I pursue slow settlements with sympathetic councilors yielding incremental protections and covenants. Some neighborhoods remain intact while others are parceled into corporate-managed zones. Elias and I stay together but the town's soul is diminished; safety comes at the cost of compromise.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 7, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Cassandra Whitlock",
+                "Jun",
+                "Aunt Lila",
+                "Municipal council"
+            ],
+            "locations_used": [
+                "Rooftop greenhouse",
+                "Municipal offices",
+                "Boardwalk"
+            ]
+        },
+        {
+            "chapter_index": 15,
+            "chapter_title": "Personal Exit & the Rift it Makes",
+            "branch_designation": "Route C — Alternative Ending",
+            "narrative_focus": "I and Elias choose to leave Marrow Bay to preserve our relationship and work elsewhere, packing up and departing while neighbors face displacement. Departure preserves the couple but creates a wound of absence and perceived betrayal among some community members.",
+            "emotional_trajectory": "Fall",
+            "Valance": "VeryNegative",
+            "Arousal": "VeryHigh",
+            "entry_condition": "From Chapter 10, Option C",
+            "major_decision_point": {
+                "has_choice": false,
+                "description": "",
+                "options": []
+            },
+            "default_next_chapter": -1,
+            "characters_involved": [
+                "Mira Santos",
+                "Elias Park",
+                "Aunt Lila",
+                "Noah",
+                "Jun"
+            ],
+            "locations_used": [
+                "Boardwalk",
+                "Old Lighthouse",
+                "Departing shoreline"
+            ]
+        }
+    ],
+    "remarks": "Global emotional arc follows 'Fall'—valence drops from Neutral to VeryNegative and arousal increases toward climaxes. Branch hubs and routes conform to provided branching logic and ending classifications. All characters and locations are drawn strictly from the outline.",
+    "_meta_source_world": "world_setting_Curve_2_Story_1.json",
+    "_meta_arc_strategy": "Tragedy (Fall)"
+}

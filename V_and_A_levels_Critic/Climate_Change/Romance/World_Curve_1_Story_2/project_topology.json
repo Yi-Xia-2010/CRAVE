@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-03-10 21:50:15",
+  "total_chapters": 15,
+  "total_valid_routes": 4,
+  "orphans_removed": 0,
+  "routes": [
+    {
+      "end_id": 15,
+      "branch_name": "Route D — Ending: True",
+      "path": [
+        1,
+        2,
+        3,
+        13,
+        14,
+        15
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 12,
+      "branch_name": "Route C — Ending: Sad",
+      "path": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 9,
+      "branch_name": "Route B — Ending: Bittersweet",
+      "path": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "length": 6
+    },
+    {
+      "end_id": 6,
+      "branch_name": "Route A — Ending: Happy",
+      "path": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "length": 6
+    }
+  ],
+  "chapter_topology": {
+    "1": {
+      "id": 1,
+      "title": "Returning to Salt",
+      "branch": "Common",
+      "children_ids": [
+        2
+      ]
+    },
+    "2": {
+      "id": 2,
+      "title": "The Vote Looms",
+      "branch": "Common",
+      "children_ids": [
+        3
+      ]
+    },
+    "3": {
+      "id": 3,
+      "title": "Crossroads at the Boardwalk",
+      "branch": "Common / Split",
+      "children_ids": [
+        4,
+        7,
+        10,
+        13
+      ]
+    },
+    "4": {
+      "id": 4,
+      "title": "Building With Hands",
+      "branch": "Route A",
+      "children_ids": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "title": "Tides of Trust",
+      "branch": "Route A / Split",
+      "children_ids": [
+        6
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "First Harvest",
+      "branch": "Route A — Ending: Happy",
+      "children_ids": []
+    },
+    "7": {
+      "id": 7,
+      "title": "The Municipal Pilot",
+      "branch": "Route B",
+      "children_ids": [
+        8
+      ]
+    },
+    "8": {
+      "id": 8,
+      "title": "Quiet Levers",
+      "branch": "Route B / Split",
+      "children_ids": [
+        9
+      ]
+    },
+    "9": {
+      "id": 9,
+      "title": "The Compromise",
+      "branch": "Route B — Ending: Bittersweet",
+      "children_ids": []
+    },
+    "10": {
+      "id": 10,
+      "title": "Unmasking",
+      "branch": "Route C",
+      "children_ids": [
+        11
+      ]
+    },
+    "11": {
+      "id": 11,
+      "title": "Escalation",
+      "branch": "Route C / Split",
+      "children_ids": [
+        12
+      ]
+    },
+    "12": {
+      "id": 12,
+      "title": "The Storm That Came",
+      "branch": "Route C — Ending: Sad",
+      "children_ids": []
+    },
+    "13": {
+      "id": 13,
+      "title": "A Third Way",
+      "branch": "Route D",
+      "children_ids": [
+        14
+      ]
+    },
+    "14": {
+      "id": 14,
+      "title": "Negotiations at Dawn",
+      "branch": "Route D / Split",
+      "children_ids": [
+        15
+      ]
+    },
+    "15": {
+      "id": 15,
+      "title": "Binding Lines",
+      "branch": "Route D — Ending: True",
+      "children_ids": []
+    }
+  },
+  "connection_stats": {
+    "total_connections_processed": 22,
+    "connections_fixed": 0,
+    "title_matches": 0,
+    "branch_matches": 0,
+    "id_resolutions": 0,
+    "self_loops_prevented": 0,
+    "direct_cycles_prevented": 0,
+    "default_next_fixed": 0,
+    "entry_rescue_added": 0,
+    "entry_rescue_typeA": 0,
+    "entry_rescue_typeB": 0,
+    "entry_rescue_typeC": 0,
+    "cycles_broken": 0,
+    "broken_connections": []
+  }
+}

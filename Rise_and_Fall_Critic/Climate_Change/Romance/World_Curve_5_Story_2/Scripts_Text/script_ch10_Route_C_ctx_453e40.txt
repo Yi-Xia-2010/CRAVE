@@ -1,0 +1,147 @@
+### SCRIPT
+# Route: Route C — Ending
+# Context: 453e40
+
+[Scene: The Helix | Late Night]
+[Visual: Warm, golden grow-lamp glow through curved glass; condensation bead-trails on the panes. The barge rocks with a steady, slow breath of the tide. People cluster around a patched table—seed trays, steaming mugs, a scatter of printed pages under a paperweight of rope.]
+[Sound: Quiet talk, the soft slap of water against hull, an old radio murmuring updates in the background]
+[Music: Hopeful piano with a steady, ascending arpeggio—light, forward-moving]
+
+You sit with your palms flat on the table where the leak packet lies: a smudged PDF printout, Jun's flagged notes, and your own margins of typed fury. The headline is less violent than you imagined; still, the town has felt the jolt. You can taste adrenaline and salt on the back of your tongue—same metallic tang that used to announce storm fronts. Only tonight it tastes like possibility.
+
+Jun: "We didn't just chip at the edges. The procurement clauses—there's a contingent award tied to opaque subcontracting. In plain language, they outsourced risk to a shell company. The hydrodynamic models? They used coarse-grain parameters; the projected surge reduction is optimistic. It — it doesn't hold up under concentrated storm scenarios."
+
+You listen. You knew—knew enough to make the call—but hearing Jun?
+
+Aria Solen: "How fast will this travel? How fast before they spin it into 'disruption'?"
+
+Jun [rubbing his temple]: "Minutes. The freelance reporters loved the procurement angle. It makes the story transactional. People understand money. But the modeling bites deeper—engineers will parse it and either confirm what we say or brutalize us. Either way, the council has to answer."
+
+Marta pushes a tray of warm pastries between you and Jun; flour ghosts her knuckles. She grins like a small, fierce sun.
+
+Marta: "Whether they answer or not, people are awake now. I was at the market earlier—vendors were already whispering your name like it was sugar. You did good, Aria." (She stops herself, then offers you the pastry.) "There. Fuel for the next pivot."
+
+You take the pastry. It tastes like cardamom and town memory. You think of your sibling's laugh and how you promised to make the land safer. The leak feels like an offering—truth laid bluntly in the center of the town's room.
+
+Eli Navarro arrives with mud-streaked hands and a folded tarpaulin slung over his shoulder. He closes the door behind him with an easy, practiced motion that muffles the world. He moves to the table, eyes scanning the printouts before settling on you. His expression is complex—worn hope, a question that tilts toward something like worry.
+
+Eli Navarro: "You did it. It's on every feed. People are calling the Helix, asking how they can help. Says here some donors are pulling what they hadn't even committed yet." (He exhales.) "Are you—" (he stops, as if looking for the right container for a messy feeling) "—are you okay with this?"
+
+Aria Solen: "I am. I am—nervous. But okay. The risk now sits where it belongs: in public."
+
+Eli Navarro [softly]: "Public is messy. Public is also where we can make them listen." He taps the stack of leaflets you prepared. "We should put together a public drop—data handouts, visual explainers. Make the technical stuff mean something people can touch."
+
+Jun: "I'll clean up the figures and make a one-page vulnerability map. Marta, can you organize the volunteers?"
+
+Marta [already moving]: "On it. Old Man Rafi called—he wants to bring people from the south docks in the morning."
+
+You watch the small, deft choreography: tasks snapping into place, people aligning like magnets. Momentum is not a force of physics tonight so much as a shared intention.
+
+[INTERACTION]
+> Choice A: "Answer the local anchor's live call"
+> Choice B: "Let it ring and finish organizing first"
+[Outcome A: "You pick up the ringing phone and, breath steady, answer. The anchor's voice is urgent, clipped—'Aria, are you the source of the procurement leak?' You say, 'Yes. The town deserves to know where the risk is going.' The line hums with the sound of an entire town waiting."]
+[Outcome B: "You let the phone buzz in its cradle. Someone else will have to shape the first soundbite. Jun shoots you a brief, approving look—'Good. Prepare the facts so when you do speak, people hear more than heat.'"]
+[MERGE: ...]
+
+Jun moves to your laptop and begins distilling graphs into an image the local feed can share. Eli unrolls the tarpaulin and starts taping copies onto it—simple visuals: the corridor map, where the living-shoreline sits, a clear marker to show how the redevelopment's plan overlaps critical habitat.
+
+Old Man Rafi pads in on bare feet, smelling of patched boat oil and lemon rind. He sets a carved comb down beside your notes as if giving a blessing.
+
+Old Man Rafi: "When the tide tells the truth, the rest will follow. You made the tide louder tonight." He fixes you with eyes that have watched many decisions wash in and out. "Stay steady, child."
+
+Aria Solen: "I will. Thank you."
+
+He gives you a look like an old rope—worn, knotted, still holding weight.
+
+[Scene: Old Pier Market | Morning]
+[Visual: Tarps bright in the new light, booths clustered like a community heartbeat. Posters with the leaked charts pinned next to fish scales and hand-stitched hats. People hold leaflets and point, animated.]
+[Sound: Lively bargaining, the rustle of paper, reporters' footsteps]
+[Music: The same piano motif, broadened now with a light strings section—warmth swelling]
+
+You move through the market and feel the leak's ripple. A fishmonger prattles about supply lines and the procurement loophole like a gossip equal to weather talk; a baker thanks you with a wrapped loaf and insists you take it. The mood is electric, not in a stormy way but like static before a bell rings.
+
+Vendor 1: (lifting his chin) "We were tired of being lectured at by renderings. Now there's something to bruise when they talk fancy. Thank you for turning words into evidence."
+
+Vendor 2: "My niece said the article made sense. She showed us the map like it was a treasure. Said—'This is where our playground might drown.' We like you for that."
+
+Lina appears at the market entrance with her raincoat cinched tight. She moves through the stalls with a professional calm that doesn't mask the small tremor at the edge of her voice when she sees the printed pages. She stops when she sees you, and for a second you watch the math rearrange on her face—the political arithmetic of accountability.
+
+Lina: "Aria. I—" (she folds her hands, struggling with civility and pressure) "—I didn't expect it to go public this quickly."
+
+Aria Solen: "It didn't have to. But they were hiding risk in contracts. People deserve to know how decisions will affect their homes."
+
+Lina: (sighs) "The council scheduled a hearing. There's pressure to explain the gaps. I—I'm arranging testimony slots." She looks over at the market, at the faces lit with a new, fierce awareness. "This could be our chance to open governance. Or it could be chaos. Either way, we'll need to be precise."
+
+Marta: "We will be. We have the Helix as a staging point—Jun is prepping liability maps, and the vendors will put together a timeline from local memory. Rafi can speak to the old tides. We need you in the hearing, Lina. We need you to ask hard questions."
+
+Lina hesitates, her expression complicated—part defender of procedural order, part worried official whose ledger just tipped into flame.
+
+Lina: "I will call for a formal session with the council. Expect a public hearing midweek. And Aria—" (she holds your gaze) "—prepare. The council will expect precision."
+
+Aria Solen: "We'll be precise. We'll meet them with local knowledge and science, side by side."
+
+She nods, not entirely convinced but moved enough to act. There's a small, decisive lift in your chest at that. Momentum, again: small acts stacking.
+
+[INTERACTION]
+> Choice A: "Insist on a public hearing with community testimony"
+> Choice B: "Ask Lina to help arrange a moderated technical briefing first"
+[Outcome A: "You press Lina until she commits to public testimony slots. She blanches at the implied chaos but nods—'Alright. Public testimony. I'll put it on record.' The market around you breaks into soft applause."]
+[Outcome B: "You ask for a technical briefing to preempt policy spin. Lina nods slowly—'A private technical briefing could keep the facts from being distorted. But the public will want to see it. We'll do both.'"]
+[MERGE: ...]
+
+[Scene: Council Chambers / Redevelopment Pavilion | Midday]
+[Visual: The polished hall is busier than usual; reporters cluster like gulls near the entrance. The projection wall cycles through the leaked images in the press packets. Security flanks the doors; a long table sits waiting.]
+[Sound: The murmur of questions, camera shutters, the scrape of chairs]
+[Music: The arpeggio lifts into a hopeful major chord—urgent but buoyant]
+
+Caden Holt arrives in a tailored overcoat that seems to defy the weather. He takes in the room with the practiced grace of someone who has rehearsed the stage for his politics.
+
+Caden Holt [smooth]: "Leaked documents make for messy headlines, Aria. I hope this isn't just a stunt."
+
+Aria Solen [your voice even]: "It isn't a stunt. It's documentation of risk. If your plan survives scrutiny, then transparency will only make it stronger."
+
+Caden Holt [a thin smile]: "We'll see."
+
+Lina stands to the side, already on her phone, arranging the calendar and trying to hold a fracturing schedule together. Her manner is all competence and fraying patience.
+
+Lina: "We'll call for a preliminary hearing. Technical witnesses. Procurement auditors. We'll have Jun present the corrected model parameters. We'll allow community testimony. This will be thorough."
+
+Jun steps forward, tablet in hand, and begins giving a quick rundown of the plan for the hearing, his voice steadier as he rehearses facts.
+
+Jun: "We present the vulnerability map, show the differences between the modeled baseline and a higher-resolution simulation, and outline the procurement flags. We recommend a pause on any binding awards until an independent review completes."
+
+Eli Navarro leans in, voice low but fierce.
+
+Eli Navarro: "Pause is good, but let's not let them stall with procedure. We need rapid community-led actions that buy time—temporary berms, shared evacuation drills, the Helix is ready to open as a volunteer hub."
+
+Marta: "And the vendors will testify. They'll talk about livelihoods—how procurement decisions ripple into daily life."
+
+The room hums. Reporters nod; a camera light bathes your face. The arc of the leak is clear: it has shifted the dynamic from technical debate to a civic reckoning. Momentum. Risk. Both rising like the tide, but tonight the rise feels purposeful—like a pump that could lift the town rather than flood it.
+
+You stand at the doorway to the chamber, microphone warm in your hand should you be called on to speak at the preliminary hearing, and for a brief, lucid moment you feel the shape of what might come: accountability, a listening council, funds rerouted to community projects. You also know the costs—political blows, delayed projects, personal strain—but in the chest of the night a different certainty swells. People are moving together.
+
+Your phone buzzes with a new alert: Lina has formalized a hearing date, the press feed is looping Jun's corrected model, and volunteers are already arranging turnout lists at the Helix.
+
+You take a breath. The tide of action feels like a lift beneath your feet.
+
+You catch a look from Eli Navarro—complex, unreadable—and return it with steadying resolve. The Helix will become the hub for the next push. The town is awake.
+
+A reporter's voice carries from the corridor: "Council hearing scheduled for Thursday—will the town hold them to account?"
+
+The question hangs like a bell.
+
+You step forward, ready to turn it.
+
+[Visual: Close-up on your hand tightening around the doorframe; outside, the sky is a clean, hopeful blue after a night's rain]
+[Music: The hopeful piano motif crescendos into a single bright chord and then holds—a suspended promise]
+
+[Visual: Fade to Black]
+[Music: Fade Out]
+[NEXT CHAPTER: [11]]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[LINEAR] -> ID 11
+    > Jump Target File: script_ch11_Route_C_Split_ctx_e67f19.txt

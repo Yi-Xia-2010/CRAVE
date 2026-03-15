@@ -1,0 +1,223 @@
+label chapter2:
+
+    # [Scene: Harbor and Boardwalk | Late Afternoon]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play music "music_placeholder"  # [Music: Low, brackish cello; a steady tempo]
+    # play sound "sfx_placeholder"  # [Sound: Gulls call; a distant engine cough; the faint scrape of rope on wood]
+    "You follow Jonah along the boardwalk. The sweater at his sleeves is pilled and soft; the brass fisherman's ring catches the lamplight in a small, private flash. Diesel and salt hang together in the air—sharp and"
+    "familiar—and the harbor smells like a thing that has weathered more than you have. Your Moleskine is zipped inside your bag at your hip. Your hands know the habit of checking it even if you don't"
+    "need to yet."
+    show jonah_kade at left:
+        zoom 0.7
+
+    jonah_kade "Came back earlier than usual."
+    "(He nudges a crate aside with the toe of his boot.)"
+
+    jonah_kade "Nets were half-empty this morning. Not the usual run."
+    show maia_rivera at right:
+        zoom 0.7
+
+    maia_rivera "Erratic how? Size? Numbers? Where are they skewing?"
+    "(Your voice is steady because it has to be—an instrument calibrated for facts, not for the quick, human pieces of this puzzle.)"
+
+    jonah_kade "Mostly fewer smalls. And the ones we did get—older boys from the mid-bay—weren't taking the usual depth. Something's moved."
+    "(He glances down at the water, jaw set.)"
+
+    jonah_kade "Lupe thinks it's the thermocline shift again."
+    "Lupe approaches, ledger clutched like a talisman. Her freckles are darker in the sun; she beams at you—part hope, part business."
+    show lupe_kade at center:
+        zoom 0.7
+
+    lupe_kade "Adaptive quotas, Maia. If we don't change now we'll lose the youngsters entirely. They were talking about leaving last spring—"
+
+    maia_rivera "Leaving the fishery?"
+    "(You turn a fraction, measuring the way her hands tighten around the ledger.) 'That's—'"
+    "(You let the word hang; it's not just numbers on a page.)"
+
+    lupe_kade "It's livelihoods, Maia. If quotas are static while the fish move, the cooperative collapses. You know that."
+    "(There's urgency under her cheerfulness.)"
+    "You and Lupe trade a quick, practical exchange—lines of math and community survival—before Jonah cuts in."
+
+    jonah_kade "Adaptive quotas sound fine on paper. But you try telling old-man Reyes that his gear is wrong and he'll think you're telling him his life is wrong."
+    "(He chuckles without humor.) 'We need a way to make it an easy change, not an insult.'"
+
+    maia_rivera "That's why we pair outreach with the adjustments. Demonstrations, small incentives. Jon—"
+    "(You stop yourself; 'Jonah' is heavier than the single syllable.)"
+
+    jonah_kade "Sorry. Old habit."
+    "(He rubs the back of his neck as if to push the apology into the sea.) 'You always make it sound like there's a path.'"
+    "Maia Rivera: (A beat) 'There is a path if we pace it right. If we get the modeling and the outreach timed, if Lupe's spreadsheet has the right levers—'"
+    "(You meet his eyes; they are steady but tired.) '—we can keep most of the coop in it.'"
+
+    menu:
+        "Offer to run an immediate demo with Lupe":
+            "You tell Lupe you can set up a demonstration tide survey this week. Her grin folds into a quick plan and she rattles off times and names, already listing volunteers. Jon nods, relief softening something tight around his mouth."
+        "Advise a slower, Town-hall-first approach":
+            "You suggest tabling a demo until after community consultations. Lupe's smile falls into a frown—practicality meeting caution—and Jonah's jaw tightens; he mutters about momentum but doesn't argue."
+
+    # --- merge ---
+    "The conversation refocuses on data and immediate precautions."
+    hide jonah_kade
+    hide maia_rivera
+    hide lupe_kade
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A phone buzz—too small at first, then distinctly urgent]
+    "Ava arrives in a high-visibility vest, hair tucked, tablet in hand and a pouch of labeled sample vials bobbing with each step. Her face is open, a little rumpled from a long day of testing."
+    show ava_kim at left:
+        zoom 0.7
+
+    ava_kim "Maia—got your text. The estuary samples are... inconsistent."
+    "(She taps the tablet and slides it toward you.) 'Look at the dissolved oxygen and the salinity gradient. The patch we flagged last month has declined another point; the southern inlet shows sudden warming spike.'"
+    "Maia Rivera: (Your fingers hover over the screen. Data becomes a push against your ribs.) 'Show me the model overlay.'"
+
+    ava_kim "Running it now."
+    "(She swipes; a slow-rendering model blooms. The storm track line sits uncomfortably close to the coast.) 'And—'"
+    "(She swallows) '—this was a new run we pulled this morning. Model shifted a little east. Not catastrophic yet, but it overlaps with a major spring surge window.'"
+    show jonah_kade at right:
+        zoom 0.7
+
+    jonah_kade "How little is 'a little'?"
+    "(He asks, but you know the question is for more than numbers.)"
+
+    ava_kim "A few degrees in the sea-surface forecast, plus earlier high-tide timing. If it holds, marsh inundation looking sharper for low-lying properties."
+    "(Her hands tremble for half a second and she clamps them to the tablet.)"
+    "Maia Rivera: (You feel a cold, steady line of anxiety tighten behind your sternum. It's not a spike; it's that constant gravity you wake to. You measure breaths because you have to, because people are watching.) 'We need to flag the narrows. Tomas—'"
+    "(You search the crowd with your eyes.)"
+    "Tomas appears at the edge of the boardwalk like a story arriving late; his cane taps soft rhythms against the wood. He smells of lemon oil and old rope. He hasn't called out the story yet—he"
+    "only leans on his cane and watches you with a kindness that is not sentimental but historically accurate."
+    show tomas_rivera at center:
+        zoom 0.7
+
+    tomas_rivera "Boathouse told me the tide sang differently the week they lost the sternpost."
+    "(He speaks slow, cataloging weather instead of grief.) 'If the sea changes song, we'll need new knots to hold her.'"
+    hide ava_kim
+    show maia_rivera at left:
+        zoom 0.7
+
+    maia_rivera "Tell me what you remember, Tomas."
+    "(You keep the warmth out of it; you need the map of memory because maps ground the future.)"
+    "Tomas: (He folds his hands) 'My father measured with a stick and with his ears. He'd say, 'Don't let a line of numbers be the only way you speak to the water.' When it whispered, you'd pay attention before the boards tell you to.'"
+    "Maia Rivera: (You nod because even in the practical, there is room for the old listening. Your notebook opens in your mind—lines appearing as if written by a tide.) 'Good. I'll talk to the coop about flagging. Ask the kids to help. They move quicker than old hands.'"
+
+    menu:
+        "Reach for Jonah's arm—mute comfort":
+            "You lay a fingertip on Jonah's forearm. He flinches, then permits it, and for a second the harbor seems quieter. He doesn't say much; his jaw unclenches. The contact is brief but settles something small inside you."
+        "Keep it strictly professional—give instructions":
+            "You step back, tighten into the role. 'Flag the narrows. Lupe, log volunteers. Tomas, tell the kids.' Everyone takes the assignments. Jonah's mouth presses into a line—respect, not softness."
+
+    # --- merge ---
+    "The team moves into action; assignments are given and acknowledged."
+    hide jonah_kade
+    hide tomas_rivera
+    hide maia_rivera
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: A single higher string scratches tension into the lower line]
+    # play sound "sfx_placeholder"  # [Sound: Quiet—conversations lower; a metallic click from an AR pin]
+    "You notice Elias Wren the way you notice something out of place in a field: his coat is too tidy for mud, his shoes almost reflective. The AR lapel pin on his chest blinks faintly with"
+    "schematic overlays you can't read from here. He has that practiced, corporate posture—hands measured, voice modulatory. People shift around him like birds around a new object."
+    show lupe_kade at left:
+        zoom 0.7
+
+    lupe_kade "That's Elias Wren. From the firm with the offshore barrier proposal."
+    "You: (You watch his lips form words you cannot hear. There is certainty in him—an engineered kind of comfort. For a moment the harbor is two places: the wood and nets, and that polished platform of promises.)"
+
+    "Jonah Kade (Quiet)" "He's got the funding letters."
+    "(His hand curls into the railing.) 'When those come, they come fast.'"
+    show maia_rivera at right:
+        zoom 0.7
+
+    maia_rivera "Funding doesn't always mean better outcomes."
+    "(Your voice is even, but the sentence tastes like iron.) 'It means different scales of control. The people in his reports don't always match the people in our cove.'"
+    show jonah_kade at center:
+        zoom 0.7
+
+    jonah_kade "He'll walk in with answers, Maia. No one's ready for messy conversations when someone's offering finished designs."
+    "(He looks at you, something like warning folded into his voice.)"
+    "Ava walks up and taps the side of her tablet to project a clearer overlay—Elias's logo faintly sketched on a memo circulating in municipal channels."
+    hide lupe_kade
+    show ava_kim at left:
+        zoom 0.7
+
+    ava_kim "Mayor Rosa texted that Elias is requesting a site tour and offered to meet community leaders. She asked if you can speak at tonight's meeting at town hall. Said she's counting on you to give the scientific framing."
+    "Maia Rivera: (Your stomach folds. Speaking at town hall is a responsibility that is also a spotlight. You think of the petitions Mayor Rosa juggles, and your throat tightens with the unfairness of being the town's certifier of truth.) 'Tell the Mayor I'll come.'"
+    # play sound "sfx_placeholder"  # [Sound: Your phone rings. The caller ID reads: Mayor Rosa Santiago]
+    hide maia_rivera
+    hide jonah_kade
+    hide ava_kim
+
+    scene bg ch2_c4ca42_4 at full_bg
+    show mayor_rosa_santiago at left:
+        zoom 0.7
+
+    mayor_rosa_santiago "Maia, thank you for taking this. The council is frayed. Developers are showing up with glossy packets and coffee. We need facts, not fear—but we also need a voice that the people will hear."
+    "(Her voice is calm, but there is an edge of exhaustion.)"
+    show maia_rivera at right:
+        zoom 0.7
+
+    maia_rivera "I'll be there. How much time do I have to speak? What are they expecting me to say?"
+
+    mayor_rosa_santiago "Ten minutes tops. Lay out the data—risks, models, something actionable. Also—"
+    "(She inhales.) '—people want reassurance. If Elias offers money, they'll listen. If you can frame the trade-offs plainly, maybe we can buy breathing room.'"
+
+    maia_rivera "Breathing room."
+    "(The phrase is gentle and torn at once.) 'I'll prepare a concise brief. Ava has the latest runs. I'll ask for a microphone and a projector.'"
+
+    mayor_rosa_santiago "Good. And Maia—"
+    "(She hesitates; the line hums with town history.) 'Be honest. People will forgive bluntness. They won't forgive promises that cost them their fish.'"
+
+    maia_rivera "I know."
+
+    mayor_rosa_santiago "See you there. And—tell Jonah I appreciate Tomas helping flag the narrows."
+    "(A softer note.) 'He's been good.'"
+    "Maia Rivera: (You swallow, and for a sliver of time you think of the rooftop garden and rosemary and of nights when the world felt repairable in one pot of basil. That memory doesn't fix things, but it steadies the hand that will speak.)"
+    # play sound "sfx_placeholder"  # [Sound: The harbor thins; conversations pull back into work]
+    # play music "music_placeholder"  # [Music: The cello maintains tempo; under it, a thin high note suggests worry]
+    show ava_kim at center:
+        zoom 0.7
+
+    ava_kim "One more thing."
+    "(She leans in; the tablet hums.) 'If the storm model keeps this track and the wave-height bias holds, several historic quarter streets could see ankle-to-knee flooding at high tide next week. That's our window for immediate outreach.'"
+    "Maia Rivera: (You picture the flooded cobblestones and the lamplight trapped in puddles. The image is practical, stark; it turns the abstract model into places with names and faces.) 'Which properties are worst?'"
+
+    ava_kim "Old quay, Santoro bakery, three low-lying houses on Meridian."
+    "(She taps the vials in her pouch—labels smear across her fingers.) 'We should push an advisory. Tomas can help call the block captains. Lupe and the coop can help with moving stock at the fishmonger.'"
+
+    "Jonah Kade (Quietly)" "My sister—she keeps the ledger at the coop. If Meridian goes, she loses a good chunk of the accounts. It's not just fish. It's rent, schooling—"
+    "(His voice cracks only for a heartbeat.)"
+    "Maia Rivera: (Your chest tightens. His reference to family is both a doorway and a warning; you do not assume closeness you didn't earn. You let the line be unreadable in the way the Schrodinger Rule"
+    "asks—complex, layered.) 'We'll prioritize Meridian. Tomas, can you round the block captains now? Lupe, make a checklist we can hand out.'"
+    "Tomas: (Nods) 'I'll be at Santoro by dusk.'"
+    "(His cane taps like a metronome for a plan.)"
+    hide mayor_rosa_santiago
+    hide maia_rivera
+    hide ava_kim
+
+    scene bg ch2_c4ca42_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The tablet beeps, a new model refresh]
+    "Maia Rivera: (You write in your head as the boardwalk hums. Every written line is a small dam against the potential of loss. The pressure builds like a tide you can almost measure.)"
+    show lupe_kade at left:
+        zoom 0.7
+
+    lupe_kade "If Elias is in town and Mayor's calling us in front of everyone, people will want to hear numbers and money in the same breath. We need an economy of words."
+    "(Her voice bounces between hope and fatigue.)"
+    "Jonah Kade: (Looking at you) 'You ok for tonight?'"
+    "Maia Rivera: (You feel the familiar knot of duty—old as the rooftops—pull at your shoulders. You are not confident; confidence would be a lie. You are prepared, which will have to do.) 'I will be there. We'll be direct.'"
+    # play music "music_placeholder"  # [Music: The cello's steady pulse lifts just a touch; mid-level arousal has been reached—pressure, not panic]
+    hide lupe_kade
+
+    scene bg ch2_c4ca42_6 at full_bg
+    "You: (You watch Elias for a long, measured beat. His presence is an accelerant to conversations already simmering. You have a map of the town in your chest: who will gain, who will lose, where memory"
+    "and livelihood sit atop vulnerable ground. The notebook in your head fills with the small, precise lines of work to do; each one a possible lifeline.)"
+    # [Page-turn thought: The harbor narrows between hope and fear. You can feel the sea of decisions rising, and your task is to hold a channel—an honest one—through which the town can decide what kind of landing they want. There will be questions tonight you cannot answer fully. There will be faces at town hall that will ask you to choose for them.]
+
+    scene bg ch2_c4ca42_7 at full_bg
+    # play music "music_placeholder"  # [Music: Fade to a single, steady cello note]
+
+    scene bg ch2_c4ca42_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

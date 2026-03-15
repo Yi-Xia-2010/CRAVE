@@ -1,0 +1,144 @@
+label chapter2:
+
+    # [Scene: Tidehaven Town Hall | Late Afternoon]
+
+    scene bg ch2_c4ca42_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Low murmur of voices, the scratch of pens on paper]
+    # play music "music_placeholder"  # [Music: Sparse, low strings — a somber undertow]
+    "You sit with the compass warm against your sternum, its brass edge biting the fabric of your jacket when you shift. The town hall smells of old wood, strong coffee, and the faint, sharp tang of"
+    "sea spray that has somehow found its way through the sash windows. Your fingers worry the pendant under your collar the way you used to smooth the rigging lines on your father's boat — a small,"
+    "private ritual that steadies a body trying not to tremble."
+    show evelyn_sato at left:
+        zoom 0.7
+
+    evelyn_sato "Mira. We're glad you could come. The room's—' (she gestures at the papers) '—a mess. And the council's tired, but they listen."
+    "You reply with a nod that won't let itself be polite and say nothing more. Words feel like promises you aren't sure you can keep."
+    hide evelyn_sato
+
+    scene bg ch2_c4ca42_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The soft whirr of a tablet syncing; a laser-pointer's quiet click]
+    # play music "music_placeholder"  # [Music: A single piano note reverberates, unresolved]
+    show asha_verma at left:
+        zoom 0.7
+
+    asha_verma "Thank you, Mayor Sato. I'll be brief. The regional models indicate a twenty-five percent probability of an event above our current worst-case by 2046. We need structural interventions now — flood gates at the harbor mouth, reinforced berms along the southern reaches, and a phased managed retreat for the lowest-lying parcels. It is not ideal, but it is decisive."
+    "Her gaze scans the room like a surgeon's: precise, rapid, leaving nothing to linger. It lands on you long enough to catalogue you as a node in her plan — engineer, asset, variable."
+    "You feel, rather than hear, the collected breath of the hall. The maps on the screen are clinical, elegant: contour lines marching like soldiers. You can see the logic in them. You can see how, from"
+    "a distance, this plan could save many lives. But the maps do not show who will lose afternoons on the boat, who will lose the smell of tar and fried fish, or the small rituals that"
+    "stitch Tidehaven together."
+
+    asha_verma "I can coordinate regional funding. We implement now; we enforce zoning on the parcels at greatest risk. We prioritize critical infrastructure. The alternative is reactive spending and avoidable loss."
+    show bento_old_bento_morais at right:
+        zoom 0.7
+
+    bento_old_bento_morais "And what of stories? Maps don't keep our nets from getting tangled, doctor. They don't teach my grandson where the fish still come. Managed retreat—' (he shakes his head) '—it's a long slow funeral for what we used to be."
+    "Asha's expression tightens for the briefest second. There is an unspoken ledger in her face, a memory perhaps, but she returns immediately to policy."
+
+    asha_verma "I am not asking for sacrifice for its own sake. I'm asking for choices that prevent death. We can design phased transitions. It's about minimizing harm at scale."
+    "You listen to the back-and-forth and feel the room split along a seam you did not know would crack open today. On one side: system, scale, the clear lines of engineered certainty. On the other: memory, practice, the scaffolding of a community's daily life."
+
+    menu:
+        "Finger the compass under your jacket":
+            "You close your hand around the brass and feel its familiar weight. For a heartbeat the world narrows to that small solid thing between your fingers, and the temptation to answer with numbers and models withdraws into the shadow of the room."
+        "Glance at Jonah in the back row":
+            "Your eyes find Jonah like a magnet. He sits with his hands knuckled over his knees, his oilskin coat creased and damp. The smell of diesel and fish clings to him like a second skin; the sight of him ignites a low, guilty ache in your chest."
+
+    # --- merge ---
+    "Continue the scene"
+    show dr_lian_zhou at center:
+        zoom 0.7
+
+    dr_lian_zhou "The hilltop models show both outcomes if either path runs alone. If we invest in living shorelines everywhere without hard defenses, we see varied, localized improvements but exposure during extreme surge events increases. If we go hard on infrastructure, we reduce acute risk but lose social fabric and displacement spikes. Hybrid approaches could be viable but require meticulous phasing and social programs."
+    "Her voice isn't a judgement; it's a ledger. The numbers line up like paces toward an inevitable shore."
+    hide asha_verma
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You tell 'em, Dr. Lian,' (he says, half-smile, half-ace-in-the-hole) 'But the sea's not a model you can box. We patch the shoreline with living roots and rock where we can. We teach a kid to read a tide and she's worth more than any gated berm."
+    "He stands by the aisle, voice lifted, as if the simple act of speaking could pull the tide back a little."
+    hide bento_old_bento_morais
+    show asha_verma at right:
+        zoom 0.7
+
+    asha_verma "Mr. Reyes, living shorelines are excellent where they can be maintained and where the landscape allows. Tidehaven's southern parcels are below threshold for such measures to be reliably effective. They will require maintenance budgets and expertise you may not be able to sustain."
+
+    jonah_reyes "We can sustain them. You don't know us. We have folks here willing to learn and to sweat for it. We don't want to be told to retreat because you think it's cleaner to draw a line on a map."
+    hide dr_lian_zhou
+    show evelyn_sato at center:
+        zoom 0.7
+
+    evelyn_sato "Please. We need constructive proposals, not indictments. Asha, can you outline what 'phased' would mean in terms of community involvement? Jonah, can you give us a realistic maintenance schedule for a pilot marsh restoration?"
+    "Two proposals, two languages. You realize the council is offering you the space where those languages must be translated. Their eyes meet yours in a way that feels less like invitation and more like extraction: the engineer who left and returned, asked to build the bridge between policy and people."
+    hide jonah_reyes
+    show bento_old_bento_morais at left:
+        zoom 0.7
+
+    bento_old_bento_morais "Mira, girl. You know the difference between a tide that takes and a tide that teaches. What part of us do you think is worth saving?"
+    "You consider the question. It is less about coastlines than about the ledger in your chest — the debt you pay to the memory of a father who once taught you to knot, to stand in wind and watch a horizon that took more than it gave."
+    hide asha_verma
+    show mira_kestrel at right:
+        zoom 0.7
+
+    mira_kestrel "I came back because I couldn't stand sitting in a lecture hall while my town changed. I thought I could translate models into plans that people could live with. I still think that. But I can't—' (you stop; the admission is heavy) '—I can't promise a perfect solution."
+    hide evelyn_sato
+    show asha_verma at center:
+        zoom 0.7
+
+    asha_verma "No one promised perfection. I'm offering a pathway that averts the greatest harm. If we wait to achieve consensus on culturally perfect solutions, we will lose chances to prevent large-scale loss."
+    hide bento_old_bento_morais
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "And if you bulldoze everything you call 'at risk' because it's easier to manage, you'll bulldoze people's lives with it. People are not variables, Asha. We're stubborn, yes, but we are also the ones who will keep any solution alive."
+
+    menu:
+        "Offer to design a hybrid pilot today":
+            "You stand up before you think better of the politics. 'I'll draft a phased pilot that pairs engineered berms in critical nodes with living shoreline buffers and community maintenance.' The room stills — hope, suspicion, and the machinery of bureaucracy jostling for position."
+        "Stay silent and let them decide":
+            "You clamp your mouth shut. Silence swells in your chest like a tide. The room fills itself with plans and accusations without your guidance; it is swift and cold in your absence."
+
+    # --- merge ---
+    "Continue the scene"
+    hide mira_kestrel
+    show evelyn_sato at right:
+        zoom 0.7
+
+    evelyn_sato "Mira, if you steer a pilot, will you engage the community? Will you help write the social supports? We need someone credible to hold the science to the people."
+    "You imagine the long hours, the meetings that bleed into late nights, the paperwork, the compromises. You imagine Jonah's hands hauling willow stakes at dawn, Bento's stories threaded into planting plans, Dr. Lian's models humming in"
+    "the background. You also imagine the weight: you are one person between a town and a decision that will be measured in decades."
+    "Your throat tightens. The compass under your jacket is a small warm doubt."
+    "You think of your father's boat — of how a line frayed and how you, young and clumsy, failed to see the knot that might have saved it. The guilt is a weathered thing; it has hardened into a carefulness you are not sure you can abandon."
+
+    asha_verma "If you choose to shape community projects, understand there will be trade-offs. Lives may be protected at the cost of certain ways of living. That honesty needs to be part of your engagement."
+
+    jonah_reyes "And if you choose retreat, know you'll be writing an obituary for things people still love. Either way, someone will say you didn't try hard enough."
+    hide asha_verma
+    show dr_lian_zhou at center:
+        zoom 0.7
+
+    dr_lian_zhou "We can model stress scenarios. We can optimize allocations. But data can't hold hands at the shoreline."
+    "The council chamber grows heavier; voices fragment into smaller, urgent threads. You are asked, implicitly and explicitly, to be the hinge."
+
+    evelyn_sato "Council needs a recommendation by next week. A pilot, a maintenance plan, or a commitment to a phased infrastructure proposal. Mira—will you shepherd this?"
+    # play sound "sfx_placeholder"  # [Sound: Bell toll, low and distant]
+    # play music "music_placeholder"  # [Music: Long minor chord, then a thinning piano line]
+    "You step out onto the boardwalk after the meeting. The air is colder than the town hall's amber light, a salt-breathed bite that wakes your skin. The sea spreads out in a thin silver threat, and"
+    "fog fingers the edges of the harbor. The boardwalk planks creak under your boots like an old voice."
+    "You stand alone with the compass at your throat. The harbor reflects a line of sky that looks suspiciously like a question."
+    "You think of models and of mangroves, of gates and of gardens; you think of the people who would be asked to move and those who would be asked to hold fast. The decision to steer"
+    "the pilot or to defer to engineered certainty is no longer theoretical. It is a ledger you will sign with your hours and your name."
+    # [Page-Turn Moment]
+    "The bell tolls again as if to mark the fork: your hands still hold the memory of the meeting's arguments, of Jonah's stubbornness, Asha's clinical clarity, Evelyn's weary faith. The fog makes the harbor anonymous and"
+    "dangerous at once. You can feel a choice forming like a bruise under skin — tender, inevitable. It is not resolved here. It waits, patient and heavy, for the shape you will finally give it."
+    hide jonah_reyes
+    hide evelyn_sato
+    hide dr_lian_zhou
+
+    scene bg ch2_c4ca42_3 at full_bg
+    # play music "music_placeholder"  # [Music: The piano lingers a single, unresolved note]
+
+    scene bg ch2_c4ca42_4 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    jump chapter3
+    return

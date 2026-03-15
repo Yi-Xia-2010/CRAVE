@@ -1,0 +1,187 @@
+label chapter15:
+
+    # [Scene: The Saltworks | Early Morning — Afterstorm]
+
+    scene bg ch13_f99e88_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant, hollow thump as a crane lifts; gulls calling low and ragged]
+    # play music "music_placeholder"  # [Music: Sparse piano, bowed strings undercurrent — restrained, mournful]
+    "The Saltworks smells of wet rope, coffee gone cold, and the metallic tang of community equipment left in limbo. Your satchel sits on the central bench like an accusation — maps rolled at odd angles, the"
+    "list of co-management clauses folded where a thumb has worn the corner, a postage-stamp–sized smear of mud from a terrace test bed."
+    "You hold the satchel because it's easier than holding still. You could catalog the failures: the funders' freeze after the data leak, the terrace the contractor dismantled before a review, the social feeds that turned outrage"
+    "into a firestorm overnight. But listing doesn't decrease the weight in your chest. Naming does. Naming makes it real."
+    "Asha arrives before you speak. She moves like someone who has learned to translate grief into logistics: an armful of sample pots, a new roll of duct tape, an expression that is both soft and sharpened."
+    show asha_patel at left:
+        zoom 0.7
+
+    asha_patel "They pulled the east terrace before the appeal window closed. The footage—Raff cut it up into a minute that reads like sabotage. The donors won't touch it until counsel clears liability."
+    "Marin Solace: (You set the satchel down, fingers trailing over your bracelet of recycled beads.) 'We had clauses. We had a steering committee. We asked for maintenance budgets.' The sentence thins; you can feel it going"
+    "toward the part that matters: you, the public face, the person everyone looks at when they want someone to stop the tide of consequences."
+    "Asha crosses to the chalkboard and wipes her palm along an arc of diagrams. Chalk dust blooms like exhausted confetti."
+
+    asha_patel "You could stay. You could keep fighting from inside — leverage whatever visibility you have and make the oversight real. Or—' (she looks at you full) '—you can step away while we pivot into a different structure."
+    "You look at her, the small hope in her eyes as deliberate and fragile as pressed cordgrass. Her voice doesn't need to push you — she's handing you options like tools. You test the weight of each one in your mouth."
+
+    menu:
+        "Promise to stay and fight from the cooperative chair":
+            "You say the words—commitment like concrete. For a beat, it steadies you. Then you remember the public emails, the funder's cessation clause you couldn't repeal, Asha's tiredness. The resolve becomes a scaffold you know you can't bear."
+        "Tell Asha you'll resign and go decentralized":
+            "You feel the syllables leave with a small, sharp relief. Asha's face doesn't fall—it's acceptance, not surprise. She reaches for a marker as if to begin rewriting plans."
+
+    # --- merge ---
+
+    "Continue with Marin Solace" "I'm stepping down."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "I'm stepping down."
+    "The sentence lands. It isn't theatrical; it is practical, a lever set into motion. Asha inhales as if to say more, then nods, already pivoting."
+
+    asha_patel "Good. We'll do the press release together. We'll explain the pivot as a strategy, not a retreat.' (She taps the board.) 'Decentralized teams: two vans, six starter kits, training modules for other towns. We seed, we don't centralize. We build people who can build."
+    "You imagine the vans: a battered vehicle with your satchel in the passenger seat, a toolkit lashed in the back, a poster tacked inside the door that says 'Respect the Bay' and 'Teach Once, Leave a"
+    "Map.' The picture is small and exact. It steadies you in a way the podium never did."
+    # [Scene: The Boardwalk Outside the Saltworks | Morning Fog Lifting]
+    hide asha_patel
+    hide marin_solace
+
+    scene bg ch13_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Jonah's boots against wood, a distant motor coughing to life]
+    # play music "music_placeholder"  # [Music: A single, low cello note — the tone of something honest and heavy]
+    "Jonah Reyes is at the railing when you step out. He looks like a man carved by the same weather that shaped the docks: hands callused, sleeves rolled, eyes assessing the water without the ease of"
+    "certainty. For a second, he is unreadable — a score that might resolve into music or silence."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You made the statement on the forum last night. People are—' (he swallows; the sentence breaks on community anger) '—they're split."
+    "Marin Solace: (You fold your arms against the damp.) 'Split's been the town since the terraces went up and the levee lights went on.' Your voice is quieter than you expect. 'I decided to step down. Asha and I are going mobile.'"
+    "Jonah Reyes: (He laughs once, not entirely humor.) 'Of course you are.' He shifts, reaching into his palm and coming out with something small. 'Thought you'd want this.' He presses a bracelet into your hand: a string of recycled polymer beads, the colors uneven, the knot tied crudely."
+    "You don't need the symbolism explained. He doesn't say, but the gesture is its language: you take what you need and go, and he'll keep the place he can keep — the docks, the lines, the daily business of staying afloat."
+
+    menu:
+        "Slip the bracelet on immediately":
+            "Cold plastic warms against your skin. It's small and stubborn and familiar; you feel, for a flicker, like you're not leaving alone. Jonah lets out a breath, half-relief, half-grief."
+        "Fold the bracelet into your satchel for later":
+            "You tuck it among maps and receipts. It makes a soft, private sound in the canvas. Jonah watches the satchel's flap close, his jaw tightening in a way that asks you to promise something you can't yet."
+
+    # --- merge ---
+
+    "Continue with Marin Solace" "You'll visit."
+    show marin_solace at right:
+        zoom 0.7
+
+    marin_solace "You'll visit."
+
+    jonah_reyes "I'll be here. For repairs, for tours, for whatever's left to fix tomorrow. But not just tomorrow—I'll come when I can.' He looks at you properly then, the salt in his eyelashes like a small constellation. 'This town needs people who can be stubborn and kind at the same time. Don't confuse that with you staying put."
+    "You both laugh, and it is short and brittle and exactly right."
+    # [Scene: The Saltworks — Press Room Turned Packing Area | Noon]
+    hide jonah_reyes
+    hide marin_solace
+
+    scene bg ch13_f99e88_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Tape dispenser sounding like a metronome; a municipal SUV idling distant]
+    # play music "music_placeholder"  # [Music: Low, steady strings with a thread of clarinet — melancholy, forward-moving]
+    "Elder Mae arrives with a shawl folded across her knees. The shawl is lighter than she looks, embroidered with tide marks and a tiny, worn patch from a protest long ago. She seats herself as if to tie a story into being."
+    show elder_mae_hargrove at left:
+        zoom 0.7
+
+    elder_mae_hargrove "You know what the old knot means,' she says, touching the fabric. 'We used it when we needed to remember who we were in a storm. It isn't just about keeping something in place—it's about holding meaning together while it moves."
+    "Marin Solace: (You feel the history like a weight and a salve at once.) 'I'm taking that with me. We want to leave a record, not a monument.'"
+
+    elder_mae_hargrove "Record is fine.' Her fingers move, tying an extra knot at one corner of the shawl. 'You will move and they'll grieve. They have the right to grieve. Let them do it. But don't let the grief make a cage."
+    show asha_patel at right:
+        zoom 0.7
+
+    asha_patel "We filmed training modules last night. Raff will run outreach. We've drafted a manifesto for the mobile teams: no single leader—local facilitators first, cooperative templates second. We seed and withdraw so communities keep the control."
+    show marin_solace at center:
+        zoom 0.7
+
+    marin_solace "We train people to read currents and levers. We hand them drawings that fit their shorelines. We teach them how to keep the knowledge alive when the vans are gone."
+    "Asha smiles, but her eyes are wet. She wipes a sleeve across her cheek, practical as always."
+
+    asha_patel "And we'll keep a shared server. Names, footage, maintenance schedules — everything so it's not lost if someone decides to shut a library or a portal."
+    "You touch the knot Elder Mae made. It is a small, stubborn thing against your palm."
+
+    menu:
+        "Help Elder Mae tie the next knot":
+            "Your fingers fumble then find rhythm in the old motion. The knot is clumsy at first, then purposeful. You feel like you're passing a ritual forward."
+        "Stand and finish packing instead":
+            "You move to the van, tape, and label in hand. The physical work steadies you. You can hear Elder Mae humming behind you like tide-sound."
+
+    # --- merge ---
+    "Continue to next scene (The Van | Late Afternoon — Light Slanting Low)."
+    # [Scene: The Van | Late Afternoon — Light Slanting Low]
+    hide elder_mae_hargrove
+    hide asha_patel
+    hide marin_solace
+
+    scene bg ch13_f99e88_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The engine growls once, then idles; someone closes a hatch with a finality that tastes like a punctuation mark]
+    # play music "music_placeholder"  # [Music: A solitary violin line that alternates between ache and quiet determination]
+    "You run your hand along the inside of the van, palms touching pockets of salt and the gritty prints of fingers that once tightened bolts you showed them how to tighten. There's a smell of oil, old canvas, the faint sweetness of seaweed dried in the sun."
+    "People from the town have drifted to watch. Elder Mae stands near the mural on the floodwall; some hands are folded; others ripple like fishing nets. Someone has painted 'For Those Who Teach' on a pennant"
+    "and tied it to the rear mirror. It's not an angry send-off. It's a remembering."
+    "You fold the shawl into a box, then place the box where it's visible — not in your satchel, but in the van's open hatch like a passenger."
+    "Jonah Reyes stands by the driver's side, hands tucked in pockets. He doesn't say much. He rests one palm on the van's frame, like a blessing or an anchor."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "You always did like the hard horizon,"
+    "Marin Solace: (You let the words collect into what they will be.) 'I like the people who show up for the hard horizon. I don't want to be a reason their backs break.'"
+
+    jonah_reyes "Then go break open new work. Make it contagious in the good way."
+    "There is an ache that sits behind your eyes — not only sadness but a kind of clearing. Loss is a landscape. You can map it, and then move through it."
+    "You close the hatch. The van smells of lists and tape and the quiet of people who have suddenly become travelers. Asha is already at the wheel, the driver seat a small command post. She looks at you — equal parts conspirator and friend."
+    show asha_patel at right:
+        zoom 0.7
+
+    asha_patel "We load, we go, we train. We'll come back with reports, adapt the model, come back again or not. We start networks and we keep our hands out of big centralized accounts. We stay accountable."
+    show marin_solace at center:
+        zoom 0.7
+
+    marin_solace "We will document everything. Not just what worked, but what broke. We'll give towns choices — and the means to make them."
+    # play sound "sfx_placeholder"  # [Sound: A soft chorus of voices from the boardwalk—thanks, murmurs, someone crying, an old sea shanty hummed off-key]
+    "You climb in last, sling your satchel across the passenger seat. Jonah bows his head slightly as if to touch a prayer to the van. Elder Mae's shawl shows in the hatch, a small island of stitched memory."
+    "You check your maps one last time, then shut them. Outside, the town moves about its work, the floodwall gleaming like a wound stitched together. The crash that dismantled the terrace left others to pick up the pieces. They will. That is not consolation; it is fact."
+    hide jonah_reyes
+    hide asha_patel
+    hide marin_solace
+
+    scene bg ch13_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: Strings resolve into a minor harmony that nonetheless moves forward — there is loss but also mission]
+    "Jonah Reyes catches up a few steps and holds the bracelet up to you through the open window. His eyes are steady."
+    show jonah_reyes at left:
+        zoom 0.7
+
+    jonah_reyes "No matter how far you go—' he pauses, searching for words — '—we're still in the same weather. We'll be stubborn together, different places."
+    "Marin Solace: (You press your fingers to the beads. You don't promise you'll never look back. You promise you'll build something that lets others not have to choose wrong.) 'Come visit.'"
+
+    jonah_reyes "I will."
+    "You drive. The road slides beneath the tires like a slow tide. You feel the van's motion in your ribs — a steady, honest shift. Somewhere between the town you leave and the towns you will"
+    "teach, you carve a new geography: routes on a map and lines in people's hands."
+    # [Scene: On the Road | Dusk]
+    hide jonah_reyes
+
+    scene bg ch13_f99e88_6 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Radio murmuring local community stations; tires on wet asphalt]
+    # play music "music_placeholder"  # [Music: A low, warm chord that doesn't resolve into brightness but holds a stubborn warmth]
+    "You think of what you leave behind: the terrace that failed, the meetings you could not win, the faces of neighbors who chose differently. You think of what you carry: knowledge that doesn't fit in council"
+    "minutes, the necklace of small, recyclable beads, the shawl knot, Asha's determined grin. You think of Jonah, who will stand in a place you love, and of Elder Mae's hands that tie not to bind but"
+    "to send."
+    "The town will cope. It will reorganize along lines that will both wound and strengthen it. Stories will come from this — angry, loving, complicated stories. You will be part of some of them, absent from others. That is the cost of choosing a movement that travels."
+    "You let the van's engine cadence become a metronome for the first days of the work ahead. You will stop at ruined shipyards, at community centers with damp basements, at beaches where children learn to plant"
+    "cordgrass. You will teach people to read tide lines the way Elder Mae taught you to read shawl knots."
+    "The radio plays a local caller saying, 'You can't measure the salt in memory.' For once, on the edge of the town you loved, the phrase feels like a benediction."
+    # play music "music_placeholder"  # [Music: The violin pulls back; a distant piano notes a single, decisive figure]
+    "You slide your fingers along the bracelet Jonah pressed into your palm. It doesn't fix the town. It doesn't erase the bitterness. But it is a tether of a different kind — a promise in a new shape: geographically stretched and morally resolute."
+
+    scene bg ch13_f99e88_7 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The sea behind you, steady and indifferent; the van's engine ahead, purposeful]
+    "You breathe. There is no neat triumph. There is loss, and there is work. Both can be true at once."
+    # play music "music_placeholder"  # [Music: A tender, somber chord — acceptance without softness]
+
+    scene bg ch13_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: Fade Out]
+
+    scene bg ch13_f99e88_9 at full_bg
+    "THE END"
+    # [GAME END]
+    return

@@ -1,0 +1,116 @@
+{
+    "design_logic": "I interpret 'Climate Change' + 'Romance' as a story where external environmental pressure accelerates emotional stakes: rising seas and shrinking certainty force characters to choose between safety, truth, and intimacy. The romance is both a personal connection and a lens on conflicting adaptation philosophies—community-led resilience vs. engineered protection vs. profit-driven relocation. Core conflict: how to protect a vulnerable coastal town ethically while negotiating love, ambition, and loss. Emotional arcs mirror ecological choices: rebuilding from below (grassroots, imperfect) or building barriers that may cost community ties.",
+    "setting": "Near-future coastal town of Brinehaven — a once-sleepy fishing community now on the front line of sea-level rise and intensifying storms. Streets are patched with sandbags and community murals; municipal meetings double as relationship tests. Time period: 2035, technology present but unevenly distributed (drones for surveying, inexpensive AR, but many still work with hands). Atmosphere: wind-swept, intimate, melancholic-hopeful, where every sunset is both beautiful and a reminder of what may be lost.",
+    "visual_style": "Realistic anime-influenced realism; textured brushwork for water and skies; muted coastal palette with pops of warm color; cinematic lighting with golden-hour scenes and storm-dark contrasts; character art detailed and tactile (fabric wear, salt stains).",
+    "main_characters": [
+        {
+            "name": "Elena \"Lena\" Maris",
+            "role": "Protagonist",
+            "personality": "Pragmatic, deeply empathetic, quietly stubborn. Lena is community-centered, tends to internalize grief to keep others steady, and asks hard questions when easy answers are offered. She has a dry, compassionate wit and a habit of sketching shoreline cross-sections when anxious.",
+            "appearance_features": {
+                "hair": "Sea-green bob, chin-length with a single silver streak at the temple and perpetually wind-tangled ends",
+                "eyes": "Storm-gray, round with a small crescent scar near the left brow that becomes more noticeable in sunlight",
+                "clothing": "Layered, utilitarian coastal wear: faded navy waterproof jacket with hand-stitched patches, charcoal knitted sweater, high-waisted utility pants with reinforced knees, and scuffed rubber boots that suggest constant fieldwork",
+                "accessories": "A battered enamel compass pendant on a worn leather cord, a municipal service badge pinned to her jacket, and a small field sketchbook tucked into her jacket pocket"
+            },
+            "goal": "To protect Brinehaven's people and culture by finding an equitable, sustainable adaptation strategy that preserves homes and livelihoods while keeping her moral integrity intact.",
+            "background_story": "Grew up in a fishing family; her childhood home was damaged in a major storm and later condemned. She trained in environmental policy and returned to Brinehaven to work for the municipal climate office. That personal loss makes her determined to avoid top-down solutions that displace neighbors.",
+            "emotional_trait": "Strength: deep empathy and resilience. Flaw: carries guilt and tends to over-responsibility, which can push her into isolation or paralysis when faced with impossible trade-offs."
+        },
+        {
+            "name": "Jonah Reyes",
+            "role": "Love Interest",
+            "personality": "Warm, pragmatic idealist. Charismatic in a low-key way, Jonah builds trust easily and believes in incremental, community-led solutions. He is playful but serious about equity, often smoothing tensions with jokes and small acts of service.",
+            "appearance_features": {
+                "hair": "Sandy brown, short curls usually tied back with a leather strap when working",
+                "eyes": "Amber-green, soft and wide, flecked with gold when caught by sunlight",
+                "clothing": "Weathered canvas jacket with multiple pockets, rolled-sleeve chambray shirts, sturdy cargo trousers, and practical boat shoes or muck boots depending on the task",
+                "accessories": "A battered field notebook filled with sketches of plantings and shorelines, a dented engraved wrench hanging from his belt, and a faded bandana used as a multipurpose tool"
+            },
+            "goal": "To implement living-shoreline and small-scale retrofit projects that keep people in place and strengthen natural defenses while building economic opportunities.",
+            "background_story": "Raised in a nearby town, Jonah trained as a coastal engineer in the private sector but left his firm disillusioned after a project prioritized profit over local livelihoods. He returned to grassroots work, using technical knowledge to empower communities.",
+            "emotional_trait": "Strength: optimism and connective leadership. Flaw: stubborn idealism that sometimes ignores political realities and underestimates the need for compromise."
+        },
+        {
+            "name": "Iris Valence",
+            "role": "Antagonist / Romantic Rival (complicated)",
+            "personality": "Confident, polished, and intensely rational. Iris is charismatic, persuasive, and believes in bold, decisive action. She genuinely thinks large-scale engineered solutions are the fastest way to protect communities and views incrementalism as an invitation to disaster.",
+            "appearance_features": {
+                "hair": "Platinum-blonde bob, razor-cut and glossier than a coastal wind would suggest",
+                "eyes": "Steel-blue, sharp and observant, with a trained, analytical gaze",
+                "clothing": "Tailored, technical-formal attire: breathable, high-performance fabric suits in slate gray and oceanic teal, immaculate boots, with a slim, architect-style trench for field presentations",
+                "accessories": "A thin gold cuff with a corporate logo that doubles as an AR interface, a precision stylus clipped to her lapel, and a sleek tablet always at hand"
+            },
+            "goal": "To secure and implement a large-scale seawall and relocation development that she argues will save lives and ensure economic stability—while also expanding her firm’s footprint.",
+            "background_story": "Born to an ambitious urban planner and an investor, Iris rose through a leading development firm. She believes in grand infrastructure and was once romantically close to Lena during their university years; their divergent worldviews grew into distance and then tension.",
+            "emotional_trait": "Strength: decisive clarity and strategic vision. Flaw: detachment and ambition can blind her to community bonds and smaller human costs."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Marco Maris",
+            "relation_to_main": "Younger brother of Lena",
+            "appearance_summary": "Lean, sun-creased face, perpetually in a patched hoodie and fisherman’s cap, hands callused.",
+            "function_in_story": "Represents the town's everyday stakes—wage earner, skeptic of big promises, emotional anchor for Lena and a voice for displaced workers."
+        },
+        {
+            "name": "Dr. Asha Khatri",
+            "relation_to_main": "Mentor and marine ecologist who advises the municipal office",
+            "appearance_summary": "Silver-streaked long hair braided over one shoulder, round glasses, salt-stained field gear with scientific equipment always slung over her shoulder.",
+            "function_in_story": "Provides scientific grounding, serves as a moral and intellectual sounding board, and helps translate ecological data into human stories."
+        },
+        {
+            "name": "Rosa \"Rosie\" Alvarez",
+            "relation_to_main": "Owner of the community co-op and Lena’s long-time friend",
+            "appearance_summary": "Warm smile, short curly hair, bright bandanas, practical aprons stained with paint and fish oil.",
+            "function_in_story": "Organizes town meetings, rallies community votes, and provides scenes of daily life and communal resilience."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Brinehaven Pier & Boardwalk",
+            "visual_description": "A weathered wooden boardwalk jutting into fog-thin sea air. Golden-hour lighting pools between salt-stained planks; gulls wheel against pale coral skies. The pier is patched with mismatched planks, netting, and hand-painted signs. Reflections on wet wood and the damp smell of seaweed give an intimate, melancholic feeling—ideal for private conversations and small reconciliations."
+        },
+        {
+            "name": "Municipal Climate Office (The Watchhouse)",
+            "visual_description": "A repurposed fisherman’s warehouse with wide windows facing the bay. Inside: exposed beams, maps pinned to walls, layers of sticky notes and tide charts. Fluorescent task lamps coldly cut through dusk; warm mugs and plant seedlings dot desks—contrasting the institutional sterility with grassroots warmth. Evening meetings are lit by laptop screens and a halo from a hanging industrial lamp."
+        },
+        {
+            "name": "Marshlands / Living Shoreline Site",
+            "visual_description": "A tangled fringe of reeds, marsh grasses, and newly planted willows at the water’s edge. Early-morning mist hangs low; light is diffuse and green-gold. Mud-slick paths reflect soft sky color, and small bioluminescent insects glitter at dusk. This is an intimate, hopeful landscape—wet, tactile, and alive."
+        },
+        {
+            "name": "Valence Urbanworks Tower",
+            "visual_description": "A glass-and-steel beacon on the town’s outskirts, bathed in cool neon blues and clinical whites after sunset. Polished plazas, drone landing pads, and AR projections create an efficient, distant aura. Interior offices are minimal and precise, with framed renderings of grand seawalls and promotional holograms that contrast with Brinehaven’s textured, lived-in spaces."
+        },
+        {
+            "name": "Abandoned Dunehouse",
+            "visual_description": "A half-sunken family house behind towering dunes, roof lopped off by storm and windows boarded. Sun slants through broken eaves casting long, dramatic beams. The house smells of salt and old cedar; sun-bleached photographs cling to the wall. It’s a quiet, emotionally charged place for confessions and reckonings."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love vs Duty",
+        "Ethics of Progress"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Community-first solution prevails: Lena and Jonah lead a hybrid program of living shorelines and targeted, small-scale engineered protections. The town keeps most of its homes; Iris retools her firm to fund community projects after a public reckoning. Lena and Jonah commit to each other, symbolizing a hopeful model balancing care and pragmatism."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "A compromise is reached: a partial seawall is built in the most vulnerable zones while many families choose or are forced to relocate. Personal relationships strain—Lena and Jonah remain close but choose different paths (one stays to manage relocation, the other moves to scale community models elsewhere). The town endures but is changed; hope remains tinged with loss."
+        },
+        {
+            "type": "Sad",
+            "summary": "The developer’s large-scale seawall is implemented quickly, driven by capital and political pressure. Short-term safety hides long-term ecological damage; many livelihoods disappear and community cohesion fractures. Lena loses her platform, Jonah leaves in disillusionment, and the town’s cultural fabric is irreparably altered—an elegy for what was."
+        },
+        {
+            "type": "True",
+            "summary": "Neither purely triumphant nor utterly defeated: After painful concessions and losses, Lena spearheads a regional coalition that insists on transparent redevelopment tied to community governance. Iris repays some harm but not all; Jonah’s grassroots techniques are codified into policy with limitations. Lena accepts that hard trade-offs are part of stewardship—she may gain a deeper partnership with Jonah or find fulfillment in the work itself, but the ending centers on honest responsibility rather than tidy romance."
+        }
+    ],
+    "estimated_chapters": 6
+}

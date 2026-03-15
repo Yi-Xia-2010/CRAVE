@@ -1,0 +1,224 @@
+### SCRIPT
+# Route: Route A
+# Context: 601bcb
+
+[Scene: Municipal Pumping Station | Night — Storm]
+[Background:"ch6_601bcb_1"]
+[Sound: Pumps thrum — a mechanical heartbeat — overlaid with rain battering corrugated steel and the distant wail of sirens]
+[Music: Percussive, driving strings cut with low brass stabs]
+
+You smell oil and wet concrete. Salt from the bay stings the back of your throat; the wind carries a metallic tang that makes your teeth feel thin. Your fingers curl around the brass compass at your throat until the chain whispers against skin. The pendant is warm, pulsing with your heartbeat. It is ridiculous and necessary to hold something small and true when the rest of the world feels like a rope being pulled taut.
+
+Volunteers stand shoulder-to-shoulder along the intake corridor: faces set, breath pluming in the cold. Kai moves like a shadow between them, handing out headlamps. Rosa is there, soil still under her nails from the Flats — she keeps her palms open, steadying those who come up short. Ibe is at your side, sleeves rolled, welding goggles pushed up, jaw working as if he's making the logic of a rescue one measured breath at a time.
+
+Ibrahim 'Ibe' Rafiq: "They're clogging the outflow valves. If they power this back up they'll push water into the lower wards. We stop the pumps, we buy time."
+
+You hear the words like a fuse being lit. Time here is a thing you can feel slip through your hands.
+
+Mara Lin: "Then we hold it." (You keep your voice low — not to be secretive, but because low voices carry better in storms.) "No violence. We keep access open for the medics. We do not let them criminalize us."
+
+A young volunteer near the sluice fidgets with a strap. "They sent enforcement vans," she says. "They say eviction orders are civil."
+
+You know the language: civil in the mouths of officials means a truck with heavy straps. Civil in the mouths of investors means a ledger. Your throat tastes of salt and bile at the thought.
+
+[Background:"ch6_601bcb_2"]
+[Sound: A murmur swells from the quay — the market's radios, the drone feeds, a thousand small devices pulsing live]
+
+Samira slips up the metal steps like she belongs to the place; she does — but she is trembling, fingers clinging to a tablet. Her municipal vest is wet, taped to her frame. She meets your eyes for a second that stretches into a conversation you don't have words for.
+
+Samira [whispering]: "There—there's a clause in the emergency permits. It authorizes 'temporary relocation'... for 'public safety'... but the timeline and the developer exemptions are—" (She swipes; her breath fogs the air.)
+
+You feel the flick of possibility in your ribs. Evidence. A legal hook that can be shown, not shouted about.
+
+You glance at Ibe. He is half-mechanic, half-guardian now — his hands stained with grease and the salt of a hundred repairs. He nods, but before you make any move there is the raw, practical question of trust and exposure. You are leading people into a public act; you will not gamble their safety on a half-hope.
+
+[INTERACTION]
+> Choice A: "Project the files to the Hall's external display now"
+> Choice B: "Stream the documents to independent journalists and legal aid first"
+[Outcome A: "You catch Samira's tablet, fingers clumsy but steady. She taps a sequence, and the civic map on the Hall's facade splinters into a cascade: emails, stamped permits, an annotated timeline. The crowd goes quiet as evidence slides into public light."]
+[Outcome B: "You ask Samira to route the files outward. Her face tightens with relief and fear; a dozen reporters ping back acknowledgment. The files begin to disseminate like seeds on the wind — slower, but multiplied and harder to erase."]
+[MERGE: Continue with the subsequent narrative.]
+
+The choice hangs for a heart. You choose the path that feels least like theater and most like defense.
+
+[Background:"ch6_601bcb_3"]
+[Sound: A thousand voices rise and break; someone starts a chant that is swallowed and then taken up: "Our homes! Our home—"]
+
+Eloise Varela [coldly]: "This is messy and it looks bad, but we are in an emergency. Decisions had to be made."
+
+You feel the old, volcanic anger coil under your ribs. Decisions had been made — by people with maps and margins and upside. You remember the Flats' mud, the cordgrass, the children who will learn new place-names if you fail.
+
+Mara Lin: "Decisions that move people without their consent are not decisions. They're directives."
+
+Eloise Varela [a small, brittle laugh]: "And what would you have done? Let the pumps fail? Watch more houses—"
+
+You cut her off with more force than you wanted to bring. "Let the people who live here help decide how to keep living. We did not show up asking permission to be alive."
+
+Her face shifts — practiced composure cracking for a flicker. For a second she looks almost tired, not angry. It is the look of someone catching the first thread of doubt and not knowing how to knot it back into certainty.
+
+Rosa steps forward, voice low and fiercer than you expected. "We have tended this place for three generations. You call it an emergency; we call it a reckoning. We will not be moved to make space for profit."
+
+There is a press of cameras now; the crowd's sound becomes a physical thing that leans toward the Hall like surf. You can feel it at the soles of your boots.
+
+Ibrahim 'Ibe' Rafiq: "Whatever happens next, we do it together," he says. The words are small but anchored.
+
+[Background:"ch6_601bcb_4"]
+[Sound: A rising roar from the quay — not just anger but the noise of people deciding to be present.]
+
+Eloise Varela: "I will not see the city fall," she says. "But neither will I allow disorder to take lives."
+
+You feel the room between those two claims narrow until it is a wire you have to cross. The pumps' metallic thunder seems to sync with the pounding in your chest. The volunteers look to you — to the person who organized the Flats, who pinned patchwork barriers to hope and called it stewardship.
+
+Mara Lin: "Then stop the trucks," you say. "Sign a public hold while we negotiate. Put community leaders on the advisory table. And we will, in return, stand down from the pumps so medics can work. No unilateral relocations."
+
+Eloise Varela: "A hold is temporary. The permits—"
+
+Samira interrupts, voice shaking into steady: "The permits have ambiguous exemptions. We can place a moratorium and audit them. I can process it. But we need signatures now."
+
+The moment is brittle. Everyone knows a signature can mean a day or a death. You think of your mother's hands hauling nets, of a street lost last season, of faces you cannot repair.
+
+The crowd presses forward a little; Rosa's voice threads through the rain. "Let the community decide the guardrails."
+
+Eloise looks at the streaming feeds, then at the Hall's display where her own proposals flicker and recontextualize into something else — a ledger of choices made without the people who will live with them. There is a quiet in her eyes that you have not seen before: the private calculation of consequence.
+
+Eloise Varela: (after a breath) "Twenty-four hours," she says, voice controlled, almost brittle with concession. "We put an immediate stay on the permits. We form an emergency advisory board that includes community representatives and independent auditors. I will personally chair the first session."
+
+The word "stay" lands like an anchor in the salt air. It's not victory; it's the first hinge of one.
+
+[Sound: The crowd lets out a sound that is almost laughter, almost a cry. The pumps's drum slows — technicians step up, hands trembling, and close valves.]
+
+You let yourself lean against cold metal for half a second, tasting everything — relief lacquered with the edges of suspicion. You know how thin these settlements are. You know how quick a public promise can weather.
+
+Kai threads through the press with a grin and a ridiculous, buoyant energy that lightens the moment like a thrown rope. "The market's streaming this live," he shouts. "People are bringing blankets for those who were lining up for bus transfers. They're cooking. The Flats are here."
+
+Ibrahim 'Ibe' Rafiq [pauses, searching]: "You held them off. You convinced them to listen. That was — unbelievable."
+
+You find yourself laughing, a bark that surprises you because the night is still so raw. But the laughter is a release valve, and it cracks open something softer.
+
+Mara Lin: "We did what we had to do. We made a damn mess of a system that ignores us."
+
+Samira meets your eyes directly. "I can't undo everything," she says. "But I can stall, I can file, I can put a legal chain around our mouths so they have to answer. I'm with you. We all are."
+
+[Background:"ch6_601bcb_5"]
+[Sound: A tired, hopeful hum — someone tearing down a banner and handing it to another to re-stitch; the market's distant song]
+
+The tide of the evening turns into a slow unwind. Volunteers bundle equipment, but not as if defeated; more like a truce has been struck and the next day's work glints in their eyes. Rosa puts a mud-caked palm on your shoulder in a way that steadies more than chastises.
+
+Rosa: "You learned this place's language," she says simply. "You spoke for it."
+
+You let the compliment sit. It pains you that the price was almost paid in blood and salt.
+
+[Scene: Rooftop Greenhouse | Late Night — After the Occupation]
+[Background:"ch6_601bcb_6"]
+[Sound: Misting systems whisper; rain thins to a steady patter on the glass]
+[Music: A single piano line — intimate, still quickened]
+
+The greenhouse smells like damp soil and mint and the sort of heat that makes you rethink the idea of cold. You and Ibe walk in tandem among solar panels and climbing beans, the city behind you a scatter of wet neon.
+
+Your hands are still trembling from the night's adrenaline. You wrap them around a mug of something warm Kai swore would fix rattled nerves — strong coffee with a pinch of salt.
+
+Ibrahim 'Ibe' Rafiq: "You were relentless," he says, watching the steam fringe his glasses. "I barely kept up."
+
+You watch him watch you. There's an openness there, but also that inherited tendency — survival guilt, the way he flinches at big promises because he thinks they'll break the people he loves.
+
+Mara Lin: "People were getting moved without consultation. You know I can't let that happen."
+
+Ibrahim 'Ibe' Rafiq: "And I know that sometimes compromise keeps people in their homes." (His fingers find yours on the mug's rim, a small, grounded contact.) "I don't want to build something that pushes others out."
+
+You talk longer than you planned: the why of your stubbornness, the nights at the Flats with a shovel in your hands, the shape of homes you cannot bear to lose. He talks about the inland towns he left, about houses with cracked wells and the faces of people who trusted plans that proved hollow. Each memory is a scar and a map.
+
+The conversation is inefficient and honest — starting and starting again, circling around what it means to love a place and to love a person. Your words are threaded with small interruptions: a volunteer's laugh carried through the vents, Kai's distant joke about illegal tea brewing, Rosa's quiet humming as she mends a torn banner.
+
+Ibrahim 'Ibe' Rafiq [soft]: "What if we built the hybrid together? What if your community knowledge set the guardrails and my designs made it durable?"
+
+You feel something in your chest unclench as if a knot had been loosened. Hope is dangerous. Hope is necessary. You let both stand in the same breath.
+
+Mara Lin: "I'd rather risk being vulnerable with you than build alone."
+
+He chuckles, a wet, delighted sound. "That's the best engineering decision I've ever heard."
+
+[INTERACTION]
+> Choice A: "Lean in and kiss him now"
+> Choice B: "Hold his hand and say it plainly instead"
+[Outcome A: "You close the small space between you. The kiss is brief and fierce, a promise pressed into rain-softened skin. For a moment everything steadies: the city, the pumps, the Flats—all held between two breaths."]
+[Outcome B: "You lace your fingers through his. The words come out steady: 'Stay.' He answers by squeezing, hard enough that you feel the sincerity like a tool in your palm."]
+[MERGE: The narrative continues with the chosen quiet promise and the following text.]
+
+You choose the latter — language, not spectacle. Words for a foundation. You say, "Stay." The word is simple and full of edges.
+
+Ibrahim 'Ibe' Rafiq [after a slow breath]: "I will."
+
+It is not a cliff's promise. It is a floorboard nailed down in the rain.
+
+[Background:"ch6_601bcb_7"]
+[Sound: Soft laughter from volunteers, a distant clerk's keyboard tapping, a baby crying from a shared shelter]
+
+You both stand in the greenhouse until the city's noise becomes background. The impending negotiations and the legal wrangling are still to come; the hard work of oversight, the slow, bureaucratic graft of community into civic machinery — it is not over. But for the first time in a long time you feel a solidity that is not brittle.
+
+[Scene: The Flats | Dawn — After the Negotiations]
+[Background:"ch6_601bcb_8"]
+[Sound: The morning is alive: hammers, voices planning, a radio playing an old folk tune; gulls cry overhead]
+[Music: Swelling strings — restrained and warm]
+
+Dawn finds the Flats bruised but moving. People work like the day will be heavy and they are more than ready. The hybrid units—low, modular platforms with hand-built attachments—are being bolted in where a purely engineered wall would have been poured. Community crews direct contractors. Samira sits at a folding table signing the emergency moratorium and establishing the advisory committee she promised.
+
+Eloise stands on a raised pallet, addressing a gathered circle. The sheen of politics still clings to her, but the edges are worn smooth by night's exposure and the live feeds that refused to let the matter sleep.
+
+Eloise Varela: "We will rebuild with oversight. We will include your proposals for marsh restoration and modular uplift. This city is safer because you raised your voices."
+
+You watch faces in the crowd — not rapturous, but watchful, guarded optimism threading through fatigue. There is relief, yes, and there is grief for what was lost. A child runs by, boots too large for small feet, and you feel the old ache sharpen and then soften.
+
+Rosa kneels at a planting bed, her hands moving like hymn. "We will mend this place with our hands," she says, voice steady as tilling. "Not because it is glamorous, but because it matters."
+
+Kai ambles up with a crate of fresh buns. "You two need to eat," he says, grinning. "You look like you survived a hurricane of policy."
+
+Ibrahim 'Ibe' Rafiq stands near you, wind-buffed, and you both look over the Flats that are, by degrees, being made to stay. The hybrid plan has teeth — enforced community oversight, independent audits, sliding scales for developer input — things that will still be fought over and improved. The victory is not complete. It never is. But it is real.
+
+Mara Lin [quiet]: "We saved some streets."
+
+Ibrahim 'Ibe' Rafiq: "And gained a lot of work."
+
+You both laugh. It's a laugh that recognizes the enormity of the work ahead.
+
+[Background:"ch6_601bcb_9"]
+[Sound: The sea murmurs beyond the grasses; a small child sings a fragment of a song you taught at the market; the city breathes]
+
+You think of the ledger of losses you carry — the street that was lost last year, the hands that will not be mended overnight — and you let that grief sit beside the relief like two tools on a table. They will both be needed.
+
+Ibrahim 'Ibe' Rafiq steps close. "We'll be tired," he says, low. "We'll make mistakes. But we won't do it alone."
+
+You put your hand over his. The clasp is practical and intimate.
+
+Mara Lin: "Then let's build it. Together."
+
+The morning holds that promise. The tide will come and go; storms will come again. You will wake more tired and, sometimes, more furious. But in this small sliver of time — in the damp, hard work of reclaiming what people love — you have built a defense that is not just concrete and contracts, but care.
+
+[Background:"ch6_601bcb_10"]
+[Music: Warm, sustained chords; a low, hopeful hum]
+
+You let the compass rest against your palm and feel like, for the first time in a long while, you have room to breathe. The public hold is in place; community stewardship is recognized; a negotiated hybrid plan will be drafted with teeth and witnesses. Eloise will be watched and prodded and, perhaps, altered by the public gaze she once sought to master.
+
+You are not naive. There will be setbacks. But the worst single-handed, profit-driven displacement has been checked. The town — your town — still breathes.
+
+[Background:"ch6_601bcb_11"]
+[Sound: The gulls wheel; laughter and the clack of tools form a steady tide]
+
+You think of your mother, of the compass's initials worn into brass, of Rosa's soil-streaked hands. You think of Ibe's quiet nose for what will hold. You allow yourself a smile, small and honest.
+
+[Music: A gentle bloom as the scene settles into a morning of hard work and shared labor]
+
+There is work to be done. There will be many more difficult conversations, audits, and nights of rain. There will be moments when you'll think you cannot hold any more and be surprised to find another hand to squeeze. For now, you stand in the place you fought for, with the person you chose to trust by your side, and a town that will be remade not by someone else's ledger but by people who live here.
+
+[Background:"ch6_601bcb_12"]
+[Music: Fade to a single chord that lingers]
+
+[Background:"ch6_601bcb_13"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

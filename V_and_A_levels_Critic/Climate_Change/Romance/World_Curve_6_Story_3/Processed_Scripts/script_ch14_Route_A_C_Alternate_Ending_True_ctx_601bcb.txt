@@ -1,0 +1,229 @@
+### SCRIPT
+# Route: Route A/C — Alternate Ending: True
+# Context: 601bcb
+
+[Scene: Municipal Hall | Morning]
+[Background:"ch14_601bcb_1"]
+[Music: Frantic strings, a rapid heartbeat rhythm]
+[Sound: Camera shutters like sharp insect clicks; distant marine foghorn; an angry chant rising and falling]
+
+You wake to a feed that feels like an avalanche. Your phone shudders under your palm—alerts, comments, forwarded threads—each one a small, hot coal pressed to the skin of the town. The documents you sent last night are everywhere: redacted contracts next to unredacted invoices, email threads with the careless cruelty of line edits, spreadsheets that turn “mitigation” into ledgered profit. The light in your field notebook is cold and accusing when you flip it open; your coral pendant is a small, warm pebble against your sternum.
+
+Outside, the municipal steps are a two-way mouth. Microphones reach; flashbulbs bloom; a woman screams something about stolen futures and the sound grabs at your throat like a net. Mayor Lynette stands at the top of the steps, her coat pulled tight, her face the practiced stone of someone who has always expected to be polished from the outside. When she opens her mouth, the tactic is immediate — deflection, the language of paperwork, of “procedural considerations.” The reporters do not allow the usual cadence. They want blood and names.
+
+You move through the press like you’ve moved through storms: direct, practiced, with the feeling of too many eyes pressing to the soft places. Old Man Rafi is already at the railing, his hands knotted around the wrought iron as though it could hold the town steady. Tessa’s face is a raw, bright thing—she has not slept.
+
+Mayor Lynette [neutral]: "There are ongoing investigations. We will cooperate fully. No single person is responsible—"
+
+A commentator’s voice cuts through the rain. Someone in the back yells that "someone hid the truth." The cathedral of protocol sounds small. The crowd rises to meet the accusation.
+
+You do not intend to be loud. You intend to be precise. Still, when a reporter asks if you regretted publishing the files, your voice comes out steady and small in the stormy room, and it carries.
+
+Mira Kestrel: "I regretted silence more than I fear the consequences."
+
+A beat. Then a wave: shouts, applause, a raw chorus of relief and outraged vindication. Mayor Lynette's eyes flash; the mayor steps back as the town's mood finds a new center of gravity. The pressure behind your ribs spikes—exhilaration braided with dread.
+
+[Background:"ch14_601bcb_2"]
+[Sound: A single, long thunderclap like a closing argument]
+
+Mayor Lynette [cool, too smooth]: "This town will not be led by leaks and headlines. We have processes."
+
+Jonah Reyes [from the crowd, voice thick]: "Processes that hid the tab from the people. Processes that made us pay for the optics."
+
+His arrival reshapes the air. Jonah’s face is set in the hawkish, familiar lines of someone who has lost things before and will not accept losing them again. He moves across the wet wood toward you and Lynette like a man closing a hatch against the wind.
+
+Mayor Lynette [defiant]: "This is political theater. We will withstand—"
+
+You see the weight shift in the crowd. It is not an argument anymore; it is a tribunal. The reporters smell a resignation. The mayor's mask fractures; her voice loses softness at the edges.
+
+Mayor Lynette [voice tight]: "—and therefore I offer my resignation."
+
+The sentence drops like a keystone. Silence shivers through the press scrum, and then it breaks into a thousand reactions—some sobs, some curses, some hoarse laughter. Old Man Rafi grips your sleeve with a palm like weathered rope.
+
+Old Man Rafi [low]: "Gods only give a town what it can hold. We have to hold it now."
+
+You do not celebrate. The triumph tastes metallic and immediate. You are elated and emptied at once: a moral victory that looks, for a bright, dizzy second, like a body on the shore.
+
+[INTERACTION]
+> Choice A: "Step up to the mic and read a prepared statement"
+> Choice B: "Let Jonah take the floor"
+[Outcome A: "You clear your throat, pull the pages from your jacket, and speak with the careful cadence of someone who has rehearsed every clause. Words land, measured but merciless: transparency, community governance, accountability. People listen like a tide drawing back."]
+[Outcome B: "You step back as Jonah steps forward, raw and incandescent. He does not recite policy; he names names, names memories, names boats and kitchens. His voice breaks once—hard, human—and the crowd leans in closer."]
+[MERGE: The crowd recalibrates around a new center of gravity; the town's rhetoric changes in the immediate aftermath.]
+
+[Background:"ch14_601bcb_3"]
+[Music: Crescendo, then an abrupt drop to a raw, single cello note]
+
+You watch Mayor Lynette go inside Municipal Hall—an ending staged like a door closing. A federal audit is announced before noon. The Department’s letterhead arrives like an executioner's docket: auditors, subpoena powers, clockwork that grinds in a way nobody can sweet-talk. The cameras multiply. A van with a national network paints the boardwalk in harsh white light. The town's grief and anger are catalogued and broadcast with surgical curiosity.
+
+[Scene: Boardwalk | Late Afternoon]
+[Background:"ch14_601bcb_4"]
+[Sound: Low, angry murmurs from groups of townsfolk; children’s voices cut oddly thin; gulls settle and squabble]
+
+Cassian "Cass" Romano finds you improperly, speechless and apologetic at once. He has been humiliated in the court of public opinion; his firm is a headline; his lapel pin feels like a brand. He keeps his hands visible—no defensive gestures. His face is paler than you have seen it, and the silver streak at his temple glints awkwardly in the gutter-light.
+
+Cassian "Cass" Romano [quiet, clumsy]: "I—Mira. I didn't... I didn't know they'd… I thought I could push for oversight from the inside."
+
+You look at him. There is the brittle angle of a man who has been unmasked; beneath that, a small, human, raw thing that reaches for repair. He is not absolved by sorrow; but guilt is a kind of key.
+
+Mira Kestrel: "You worked for them, Cass. People lost things because people preferred profit lines to living lines."
+
+Cassian "Cass" Romano [eyes dart]: "I see that now. I—I've been pushing where I can. When I saw the clauses, I tried—"
+
+You interrupt because the town's anger has a temperature and Jonah's footsteps measure it. He arrives like a tide: immediate, incandescent, bristling.
+
+Jonah Reyes [voice low, a gather of coals]: "You showed the town what was done. You put the money in the sun. I am proud you did that. But did you have to make me watch the whole world point fingers at us for three days?"
+
+The accusation is not only at you; it is at the entire messy work of telling truth in public. For a moment you are a conduit for collective pain. Your chest hammers. The air tastes like iron.
+
+Mira Kestrel: "I couldn't let them decide what to hide. Not anymore."
+
+Jonah Reyes [bitter laugh]: "And what about what we lose while the audits happen, Mira? Houses don't wait for subpoenas."
+
+Cassian "Cass" Romano [softly, to Jonah]: "There are ways to move money even under audit. Cooperatives can do interim relief—"
+
+Jonah Reyes: "And whose profit will that feed? Whose control?"
+
+The argument spins, a small cyclone. Voices overlap, cut each other off. Cassian attempts a clarification; you attempt to bridge; Jonah moves his hands like someone trying to patch sails. The exchange is not tidy. It is jagged and intimate—two competing loves and two competing ways of keeping a town alive.
+
+You reach for someone to steady you, and Jonah meets your fingers. You want to push him away. You want to hold him until everything quiets. You want to let the world go to pieces rather than watch the place you love be reshaped by systems you do not trust.
+
+[INTERACTION]
+> Choice A: "Let Jonah hold you"
+> Choice B: "Step back and keep talking"
+[Outcome A: "Your shoulders fold and a sound comes from the back of your throat, the release of someone who has been asked to carry too much. Jonah's arms are a harbor. For a second, you are not a policy and not a case file; you are just someone whose hand is warm."]
+[Outcome B: "You stand straight. Words return like trained birds. You keep the conversation on the boardwalk: community seats, cooperative procurement, an open ledger. The plan is a scaffold and you climb it, breathless, arguing for clarity with a voice that trembles but does not fail."]
+[MERGE: A fragile agreement to explore cooperative mechanisms is formed; personal tensions remain unresolved but actionable steps emerge.]
+
+Cassian's face is brittle with the attempt to be useful. He offers technicalities the way others offer prayers. He says, inefficiently and with more sincerity than you expected: "There are escrow mechanisms. There are emergency procurement pathways. I can help set them up if you let me."
+
+Cassian "Cass" Romano: "There are escrow mechanisms. There are emergency procurement pathways. I can help set them up if you let me."
+
+Jonah Reyes: "You helped set them up that allowed them to extract the margins."
+
+Cassian "Cass" Romano [stung]: "I am not them, Jonah. I—"
+
+Jonah Reyes: "If you're not, prove it. Sit at the table. Let the town see you sweat."
+
+The demand is a gauntlet and a test. Cassian swallows.
+
+Cassian "Cass" Romano [steadying]: "I'll sit. I'll open the models. I'll sign my name to every ledger you want. I know where to find interim funds for shelters. I will follow whatever oversight you assert, if you let me."
+
+Jonah Reyes [looking at you]: "Watch him."
+
+You watch him. The sea, low and incensed, throws itself against the dark pilings. The world feels like a place whose skin has been cut; there is a rawness that cannot be soothed by promises. Still, a technical toolset placed in the town's hands may blunt further predation. The trade-off tastes like cold metal in your mouth.
+
+[Scene: Research Lighthouse | Night, Several Weeks Later]
+[Background:"ch14_601bcb_5"]
+[Music: A steady, insistent percussion under a dissonant piano; a slow, terrifying swell approaching]
+[Sound: Rain on the roof, the once-quiet hum of machines now steadily punctuated by the ring of phones]
+
+The audit arrives the way storms do: bureaucratic teams in gray coats, clipboards and federal stamps. They move with the efficiency of a thing that exists to collect truth whether it comforts or not. The town watches; the cameras watch; even the gulls land and judge with their black beady: unblinking.
+
+The immediate victories are sharp and painful. Mayor Lynette’s resignation is public record. The first tranche of money is frozen and then reallocated into an escrow controlled by a newly formed cooperative council—ten seats, rotating membership, citizen auditors. The open ledger is a thin, luminous thing on the Research Lighthouse’s wall—projected models, transaction histories, every grant and invoice laid bare under fluorescent scrutiny.
+
+You stand before it like an accused witness and an author both. Tessa is at your shoulder, fierce and pragmatic, flipping between printed schedules and a tablet. Old Man Rafi sits near the coffee urn, reading names off an old list of fishing families and comparing them like prayers.
+
+Tessa [quick, impatient]: "This is slow, Mira. It is bureaucratic and it is brutal. People need the roofs fixed now."
+
+Mira Kestrel: "We will not hand the roof money to people who will sell the shingles to the highest bidder."
+
+Tessa [anger flaring]: "So people die waiting for your ethics?"
+
+The question lands with the weight of a fist. It is the argument you feared—ethics as an impediment to life. You want a clean answer. There is none. You have traded rapid shelter for durable governance. The trade-off is heavy and will be felt in broken boards and soggy memories.
+
+Cassian "Cass" Romano sits across the workbench, pinching the bridge of his nose. He is, in small ways, useful. He shepherds escrow release forms through the legal maw with a care that looks like penance.
+
+Cassian "Cass" Romano [softly]: "We may lose more in the short term. I can't change that. But if we—"
+
+Mira Kestrel [interrupting, quietly]: "—stop the extraction. Build the mechanisms that make decisions public. Make it so a mayor cannot sign away our future for a publicity moment."
+
+Cassian "Cass" Romano [nods]: "I'm doing everything I can to make that happen."
+
+The work is granular and exhausting. Meeting after meeting, line item after line item, the town constructs scaffolds of responsibility and transparency that are good in philosophy and slow in rescue. The ledger glows like a promise—deliberate, legalistic, just—but it is also a wound. People sleep in cars while committees argue value frameworks. Grants twist into knots before they can pass inspection.
+
+The rhythm of months is a dentist’s drill: necessary, unpleasant, and precise. You keep your head down, tallying public comments and emergency relief requests with the same hand that annotates tidal models. The small satisfactions—more citizens in oversight seats, a mutual-aid repair crew organized through the cooperative—are real. They do not feel like victory so much as slow stitching.
+
+[Background:"ch14_601bcb_6"]
+[Music: A brittle string section that refuses to resolve, a high note that keeps quivering]
+
+Then winter comes back like a test. A storm the second winter is sharper than the models predicted: a quick, brutal surge that finds the gaps you could not yet fill. A boathouse collapses. A row of low houses takes water overnight. The cooperative ledger clocks every misstep as if it were a witness rather than a comfort. You stand on a soaked boardwalk in the hour after, watching people pull sodden memory from the surf.
+
+Old Man Rafi [soft, in your ear]: "We lost the shed but we kept the law."
+
+The words are a benediction with a thorns. You taste both loss and the iron quality of something preserved: the right of the town to know. People who would have been displaced by an opaque deal now find, clumsily and slowly, temporary housing through the cooperative's small emergency fund. It is not enough. Nothing in that hour is enough. The sound of sawing and cursing and children crying stacks into a blunt portrait of consequence.
+
+Jonah Reyes finds you at dawn, hands shaking with adrenaline and grief. He is exhausted in a way that looks carved out. You argue, as you have argued before, about choices and timelines and what you could have done differently. The words are flint to flint—sparks, then warmth, then an ember that is hard and honest.
+
+Jonah Reyes [hoarse]: "We saved the town’s right to decide. But we didn't save everything. People are cold, Mira."
+
+Mira Kestrel [voice low, breaking]: "I know. I know. I did not think this would be painless."
+
+Jonah Reyes [searching your face]: "You said you would choose the people."
+
+Mira Kestrel: "I chose that the people make the choice, even if it costs them now."
+
+He does not have an answer for that. No one does. It is a philosophy with teeth; it also stops the quick fixes. The moral clarity you have forced into the open becomes a blade that cuts both corruption and comfort.
+
+Cassian "Cass" Romano appears in the wet morning light with a box of tools and an awkwardness that has become familiar. He moves without fanfare, helping their small crew board up a battered window, handing out nails like contrition.
+
+Cassian "Cass" Romano [quiet]: "I should have been more careful. I am sorry for the role I played. I'm here to help."
+
+Jonah watches him for a long moment, then nods. There is no grand reconciliation—only a careful, fragile cooperation that feels like the most honest kind.
+
+[Background:"ch14_601bcb_7"]
+[Sound: Saws, the slap of tarps, some cursed words that sound like prayers]
+
+You stand on the lighthouse balcony that night, the town a stitched map of lights and outages below. The air is cold; your pendant is a polished warmth against the wool of your collar. The ledger is safe behind locked servers and transparent minutes; the cooperative is a living organism, messy and bureaucratic and infinitely preferable to the old opacities. The cost has been counted in broken wood and sleepless eyes. The cost has been counted in the way a city’s face changes after a surgery: scarred, functional, a different kind of beautiful.
+
+[Music: A distant, aching chord that brightens and then resolves into a thin, steadier tone]
+[Background:"ch14_601bcb_8"]
+
+Time moves and grinds. The legal work continues; the federal audit writes a thick report that names failures and recommends reforms—criminal referrals for a few, procedural changes for many. The mayor’s resignation leaves a hollowed, breathing shape in the municipal calendar. The cooperative’s open ledger becomes a teaching tool for nearby towns; media that once stunned the town now references Brinehaven as a cautionary case and, sometimes, a model. The external applause is thin and often backhanded; the internal work is glacial and necessary.
+
+Tessa finds small victories and small losses daily. Old Man Rafi tells stories of the way the marsh used to take the waves, of how people used to know when to tether and when to rebuild. His stories are the glue and the reckoning.
+
+You find that your personal life does not cleanly resolve. If there is a partner you hold closest now, it is more of a presence than a promise. Nights are often a shared exhaustion rather than a scripted romance. You and one partner—whether Jonah or Cass—find ways to be near, to hold each other like people who have sat in hospital halls and watched monitors blink and flatline and rise again. There is love in the small ministrations: coffee at dawn, a hand against a fevered brow, a quiet text when a hearing runs long. There is also a permanent opening: a place in your chest that is not yet healed and may not close for a long time.
+
+The moral victory—exposing the truth, building the cooperative, demanding transparency—has changed the town's governance into something more honest and slow. It has also delayed material protection at crucial moments. That delay costs people roofs and memories. The ledger will never make up for those losses. It stands, now, as the town's conscience.
+
+[Scene: Research Lighthouse Balcony | Dawn, Two Winters Later]
+[Background:"ch14_601bcb_9"]
+[Music: Sparse, a single held note that breaks into a quieter minor hum]
+[Sound: A gull cries, the distant rumble of pelicans rearranging themselves; the town below breathes like someone waking from a fever]
+
+You stand alone. Your coral pendant is cold and bright against your sternum. The open ledger is closed on the table behind you, its glow replaced by the soft mechanical breathing of instruments. You feel, sum total, like someone who has paid too high a price for a truth that needed to be told.
+
+You did not save everything. The storm revealed the holes you could not yet plug. You lost more than you expected. People you love carry scars that will not map cleanly onto the ledger’s neat lines. Yet something else holds: a new civic muscle, raw and imperfect, that will not yield to shadow deals as easily. The town kept its right to choose. That right will be messy and slow and sometimes deadly; it will also be the seed of a different future.
+
+You press your thumb to the coral at your throat. The pendant fits your palm like a small compass that refuses to lie. You remember late nights by the lighthouse lamp, the hard faces around conference tables, the smell of wet paper and coffee and the sound of people learning to speak in a new dialect—legalese mixed with gossip and salt and sincere apologies.
+
+A wind scours the horizon, and it feels like a question more than a threat. You breathe it in. The cold lights your lungs like honesty.
+
+You are tired. You are solvent in a different currency: clarity. The town is bruised and awake.
+
+[Background:"ch14_601bcb_10"]
+[Music: A final, low chord that does not resolve into triumph but finds a fragile, grim equilibrium]
+
+You tuck your field notebook into your jacket. You close the ledger and the file drawers that still smell faintly of printer ink and coffee. You will go down to the boardwalk where someone will need hands, someone will need a cup of warm soup, and someone will demand the next transparent vote. You will keep doing the work you chose because the alternative was silence.
+
+You do not end this night with a tidy heart. The romance in your life is neither extinguished nor consummated; it is a quiet, abiding presence that will continue to contend with duty and consequence. The town's future is neither secured nor condemned; it is a complicated covenant that will outlast any single victory. You have won a moral clarity that costs dearly every day.
+
+[Background:"ch14_601bcb_11"]
+[Sound: The sea’s slow applause; distant hammers; a child laughing somewhere like a small, dangerous hope]
+
+You breathe. You are tired and raw and terrible proud. The truth you exposed has complicated every life here—and it has allowed the town to be the author of its own recovery. That authorship is messy and painful. It is, in the end, a kind of fidelity.
+
+You press the pendant again, feeling its worn edge. It is not a triumphant talisman. It is a ledger of grief and tenacity. You turn and head down the stone path, the lighthouse light rotating once, twice—a slow, steady insistence that does not promise comfort, only a small, luminous direction.
+
+[Music: A single, resigned chord that hangs in the cold air and then settles into silence]
+[Background:"ch14_601bcb_12"]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

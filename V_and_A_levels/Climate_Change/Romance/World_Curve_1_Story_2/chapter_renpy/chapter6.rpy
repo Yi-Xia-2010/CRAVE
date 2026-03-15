@@ -1,0 +1,216 @@
+label chapter6:
+
+    # [Scene: Rooftop Garden & Meeting Hall | Golden Afternoon, Several Months Later]
+
+    scene bg ch6_3be532_1 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Clatter of plates, low laughter, the distant thud of a pot being passed; gulls speculatively noisy beyond the roofline]
+    # play music "music_placeholder"  # [Music: Bright, energetic strings with a pulse — optimistic, rushing forward]
+    "You stand at the edge of the rooftop, notebook tucked under your arm, palms still carrying the fine grit of marsh mud from early morning plantings. Months have braided themselves into a new rhythm: pre-dawn cores,"
+    "midday negotiations, evening meals where people share recipes and gossip and salt-sweet victories. The rooftop hums with that tidy, alive disorder — children chasing a ball between raised beds, Priya checking a grant email through one"
+    "eye, volunteers comparing notes on Spartina survival rates like old friends trading weather forecasts."
+    "You run a thumb over the softened laminated edge of a tide chart in your notebook and feel the small surge of proof — numbers that used to be abstract now curl into patterns you can"
+    "point to, explain aloud, and defend with evidence. The pilot plots you drew on a sleepless night have become place: tiny hummocks of marshgrass holding fast after the last three storms. When the wind throws a"
+    "spray of salt over your jacket, the smell is not only loss anymore; it's the smell of something being made."
+    "Lina, paint-splattered and laughing, hands you a brush and squints at the mural's horizon. Her freckled cheeks are flushed from wind and paint; the mural's reeds seem to lean toward the sea as if listening."
+    show lina_kwon at left:
+        zoom 0.7
+
+    lina_kwon "You can't keep being serious all the time, Maya. This needs a streak of ridiculous pink."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "Ridiculous pink could undermine the entire scientific credibility of a piece of civic art."
+
+    lina_kwon "Then 'scientific credibility' will have a pink fringe. It'll be very on-brand."
+    "You laugh, and it feels like a small, high tide of relief."
+    "Priya approaches, binoculars hanging from her neck, voice quick with the practical joy of someone who knows how to turn momentum into funding."
+    show priya_anand at center:
+        zoom 0.7
+
+    priya_anand "The foundation called. They want metrics and a site visit next month — actual people seeing the eelgrass nursery. Mateo says he'll bring a boat with the co-op, show them juvenile returns."
+
+    maya_kwon "Good. We have the cores from winter and the recruitment curves. I can show them the before-and-after transects."
+
+    priya_anand "And Lina's mural. Don't forget the mural."
+    "You raise your chin toward the mural and the rooftop fills with the soft applause of people who know how much work sits behind each small victory. Your chest tightens in that particular way — not grief this time, not quite — but a fierce, hungry gratitude."
+
+    menu:
+        "Help Lina finish the mural's horizon stroke":
+            "You take the largest brush she offers and, for a long minute, let your hand be guided. Color smears on your knuckles; the horizon reads like a promise. Lina hums, pleased. The rooftop conversation folds around you both like a warm blanket."
+        "Go over the tide charts with Priya on the bench":
+            "You sit on the paint-speckled bench, graphs open across your knees. Priya leans in; your voices drop into the practical rhythms of grant-speak. Each line you draw connects policy to place and steadies the group's momentum."
+
+    # --- merge ---
+    "You choose, but both choices land the same way: hands dirtied, work done, community closer for it. The rooftop evening stretches like a pulley hauling everyone a little higher."
+    # play music "music_placeholder"  # [Music: The tempo increases — a bright, insistent motif layered with a distant drum, signaling progress that must be defended]
+    # play sound "sfx_placeholder"  # [Sound: A sudden cheer from the corner as a child discovers a tiny crab under a pot]
+    # [Scene: Marsh Flats | Dawn after a Testing Storm]
+    hide lina_kwon
+    hide maya_kwon
+    hide priya_anand
+
+    scene bg ch6_3be532_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The tide murmurs with a steady, satisfied hush; distant gulls keep a cautious watch]
+    # play music "music_placeholder"  # [Music: Swelling strings punctuated by quick, luminous woodwinds — forward-moving, breathless]
+    "You walk the new boardwalk, the planks settling underfoot with familiar, honest creaks. Each board still remembers storms, and so do you, but their groan is now matched by the soft slap of a juvenile fish against the wet mud — a tiny, miraculous clap."
+    "Aiden Reyes is there, hands splayed on a wooden rail, coat open to the wind. His eyes are quieter these days, like a sea after a storm has smoothed its surface. He looks up when you"
+    "approach and grins that crooked grin that used to mean trouble, now mostly meaning stubborn warmth."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "You're stealing the good light for your graphs again."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "Someone has to translate the good light into policy. Besides, you were on coffee duty."
+
+    aiden_reyes "Shameful. I was also out sampling sea vegetable plots. Come taste-test—if it's good, the co-op can push a small harvest license next season."
+
+    maya_kwon "You mean the purple dulse? Last time you made kelp chips and Mateo nearly cried at dinner."
+
+    aiden_reyes "He cried because they were underseasoned. Not because of matter-of-fact, rustic deliciousness."
+    "You cross your arms, and the wind threads your hair into a rough halo. You watch the water in the nursery channel where eelgrass beds rise and fall. In the shallows, tiny fish edge between blades, their translucent bodies catching the dawn like small, live coins."
+
+    maya_kwon "We were right. They came back."
+
+    aiden_reyes "We were right. You were right — and you dragged us along for the right reasons. Look at that, Maya."
+    "You let your chest loosen. Months of careful tending, of arguing with municipal tenders and showing up with volunteers in rain and wind, have threaded a new life into this place. The co-op experiments are not"
+    "just economic experiments — they are culture being rewritten so that the town can breathe."
+
+    menu:
+        "Sample the sea vegetable Aiden offers":
+            "You take a crisp flake between your fingers and the taste is sudden: mineral and bright, like the first day of a new season. Aiden watches your face like it's the most important map."
+        "Walk the eelgrass channel with Aiden, checking survival markers":
+            "You step into the narrow path beside the channel, counting markers and noting sediment accretion. Your words turn practical and satisfied; Aiden listens, then adds a practical tweak that will help next season's planting run."
+
+    # --- merge ---
+    "Aiden squeezes your hand once, a small, private punctuation between the public work and the intimate scaffolding beneath it. You squeeze back and for a breath the world is only the boardwalk underfoot and the person beside you."
+    # play music "music_placeholder"  # [Music: Builds — a fast arpeggio, then a surge of horns; excitement rises]
+    # play sound "sfx_placeholder"  # [Sound: A distant motorboat — Mateo returning with members of the co-op to show a visiting funder the nursery site]
+    # [Scene: Community Hall | Council Vote Night]
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch6_3be532_3 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The room is taut with murmurs, the scrape of chairs, a baby intermittently fussing — life pressing into the political]
+    # play music "music_placeholder"  # [Music: Drum-driven crescendo — urgent, triumphant; it tightens and then opens like a tide pool]
+    "You stand behind the podium, hands steady though your heart stutters with the energy of everything aligned. Months of community labor, grant reports, co-op agreements, and a careful pilot program sit now as evidence on a"
+    "table beside you. Priya sits to one side, her face a beacon of hard-earned relief; Mateo's hands rest on his cane, eyes bright; Lina's mural stares back at the room like an oath. Across the hall"
+    "sits Councilor Tomas Hale, eyes flicking over handouts, and three municipal observers from Vernon & Crow. And then there is Dr. Elara Voss, her trench coat still damp from the bay-side commute, the metallic pen tucked"
+    "between her fingers like an old habit."
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "This is not a simple choice between the quick fix and the impossible dream. It's a question of what we value, and how we measure the lives that live here. Our pilot plots show measurable accretion. The co-op's diversification plan projects maintained income for seventy percent of affected fishers' households in year two. We propose a hybrid system — living shorelines led by the community, with small, engineered nodes to protect access corridors."
+    "A hush falls. The data in your notebook feels suddenly like a living thing — figures and footnotes that represent someone's daily bread."
+    show dr_elara_voss at right:
+        zoom 0.7
+
+    dr_elara_voss "Engineered defenses buy time. I've built them when time was all that stood between a town and catastrophe. But —' (she pauses, and the pause is like a crack in a dam) '— watching your pilot sites, and witnessing the recruitment in those channels, I have to acknowledge that engineered solutions are not the only path. Living systems can, when respected and properly integrated, outperform concrete in unexpected ways."
+    "A murmur — not negative, not yet — flows through the audience like a subtle current."
+    show councilor_tomas_hale at center:
+        zoom 0.7
+
+    councilor_tomas_hale "Dr. Voss, are you suggesting we abandon structural defense?"
+
+    dr_elara_voss "No. I'm suggesting we be surgical where we must and communal where we can. I'll consult on stabilizing access nodes, but I will not recommend obliterating these marshes."
+    "The room exhales — a sound that is almost a cheer. It crashes into applause, then settles into focused attention as the vote counts begin. You listen as voices tally the reasons for and against, each argument a pebble thrown into the communal pond."
+    hide maya_kwon
+    show priya_anand at left:
+        zoom 0.7
+
+    priya_anand "They're counting. Breathe."
+    "You breathe and feel the numbers in your lungs like oxygen: data, hope, months of muddy hands and blurred nights. When the final tally is read, the hybrid plan passes by a clear margin. The hall"
+    "erupts, not with the raw frenzy of victory but with that intense, high-energy joy that comes from collective labor recognized."
+    # play music "music_placeholder"  # [Music: Climactic, soaring — brass and strings blending into a triumphant chord]
+    # play sound "sfx_placeholder"  # [Sound: Chairs scraping back, people embracing, the laughter of people who have been given a chance to keep their home]
+    "You step down from the podium and are immediately swallowed by a wave of people — volunteers, fishers, elders, children — each person an element of the life you've worked to protect. You move through them,"
+    "receiving congratulations that sound like weather: sudden and warm. Mateo grips your forearm, his eyes wet."
+
+    "Mateo Reyes" "You did more than draw maps, Maya. You made them listen. That mural'll be here long after the vote. They'll come to see it and remember why."
+    hide dr_elara_voss
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "You did more than that, Mateo. You showed up with a boat and those kids taught the funders to count fish."
+
+    "Mateo" "We remembered how to build together. You remembered how to lead."
+    "The night is a heady blur. Lina drags you toward a table laden with potluck offerings — a patchwork feast for a town that has learned to feed itself differently. Aiden Reyes weaves through the crowd"
+    "and when he reaches you, he looks like the harbor after a storm: steady, relieved, full of soft light."
+    hide councilor_tomas_hale
+    show aiden_reyes at center:
+        zoom 0.7
+
+    aiden_reyes "You looked like you were going to make the hall float with your speech."
+
+    maya_kwon "It was the mural doing the heavy lifting."
+    "He leans closer, voice low and immediate, the room closing around you two like a pocket of calm."
+
+    aiden_reyes "Come meet me at the pier after. I— I want to show you something."
+
+    maya_kwon "I'll meet you. Bring your terrible kelp chips. I might cry from underseasoning, but I'll cry."
+    "He laughs — the sound bright, and it rings through you like a bell."
+    # [Scene: North Pier | Night after the Vote]
+    hide priya_anand
+    hide maya_kwon
+    hide aiden_reyes
+
+    scene bg ch6_3be532_4 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: A distant buoy bell, the soft slap of water against pilings, the steady huff of the harbor's night breath]
+    # play music "music_placeholder"  # [Music: A tender, swelling piano line with held strings — intimate, at last]
+    "You find Aiden Reyes leaning against the rail, his braided rope bracelet in his hand. The night smells of kelp and resolution and the metal tang of a community that has fought for a future. He"
+    "looks up as you approach, and that look flattens every exhaustion you've carried into one small, incandescent relief."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "I kept it. The bracelet. Thought you might want it back."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "You kept it?"
+    "Aiden Reyes steps closer, the wood of the pier creaking like a small confession. He slides the bracelet into your palm; the rope is rough, familiar, the driftwood charm warm from his pocket. Your fingers close over it as if closing a door to the past and opening another."
+    "You feel the batter of months in the back of your throat — cold mornings, damp meetings, the small triumph of seedlings that have now become place. The bracelet in your hand is more than token; it's a binding of seamed choices and lived promises."
+
+    aiden_reyes "We did it, Maya. We held out for what you said mattered. People have work coming in that respects the bay. Mateo's talk with the funders got them thinking about long-term yields. Priya's grant — it's enough for year one. Lina is already scheduling community classes for marsh harvests."
+    "You let your breath go in a laugh that is equal parts disbelief and absolute gratitude."
+
+    maya_kwon "I kept thinking that maybe I was asking for too much. That I was asking the marsh to do more than it could. But it's doing it. And more than that — it's teaching us."
+
+    aiden_reyes "You taught us how to listen."
+
+    maya_kwon "You taught us how to keep working when listening wasn't enough."
+    "He cups your face with a thumb roughened by rope and sea salt. His eyes, that steady sea-blue, are full and a little bewildered by the happiness of it all."
+
+    aiden_reyes "Will you stay? Not just for the marsh — stay, for tomorrow mornings and boardwalk coffees and bad kelp chips and all the little hard work. Stay with me."
+    "A swell in your chest lifts you, a flood that is not grief but fullness. You think of your parents' porch boards and the tide that took them; you think of the mural's ridiculous pink fringe;"
+    "you think of a town that had learned, painfully, how to choose longer time horizons."
+
+    maya_kwon "Yes."
+    "The word is a bell. It rings out, certain and clear."
+    "Aiden Reyes slides his braided bracelet onto your wrist; the driftwood charm rests over your pulse like a small compass. You take his hand, fingers warm and callused and steady, and together you look out over"
+    "the water where the marsh and sea meet — not a line of separation anymore but an interwoven edge."
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch6_3be532_5 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The buoy bell rings once, a clean note. Around you, the harbor breathes. Somewhere on the pier, a laugh lifts and joins the night.]
+    # play music "music_placeholder"  # [Music: Builds to a lush, exultant chorus — brass and strings in bright unison; then settles into a quiet, sustaining hum]
+    "You let the night fold into you. The victory is not a single triumph but a harvest: months of careful tending yielding something more than safety — a reason to keep living here and to keep"
+    "repairing what the sea took. The hybrid plan will still need tending, funds will still be raised, storms will still test the living shoreline. But under the hand-cracked sky, the town has chosen a way to"
+    "heal, and you have chosen to stand here and help it do so."
+
+    "A soft pressure at your wrist where the charm rests. Aiden Reyes" "No more leaving, then? Promise?"
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "No more leaving. This is home."
+    "You feel the harbor's pulse, the marsh's slow respiration — and you feel, for the first time in a very long while, like the place and you are moving forward in the same rhythm."
+    hide maya_kwon
+
+    scene bg ch6_3be532_6 at full_bg
+    # play music "music_placeholder"  # [Music: Swells one last time into a warm, conclusive chord]
+
+    scene bg ch6_3be532_7 at full_bg
+    "THE END"
+    # [GAME END]
+    return

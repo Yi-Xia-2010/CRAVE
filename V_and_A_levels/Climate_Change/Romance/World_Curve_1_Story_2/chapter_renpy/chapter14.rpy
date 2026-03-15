@@ -1,0 +1,287 @@
+label chapter14:
+
+    # [Scene: Seawall Construction Site | Night — Floodlights]
+
+    scene bg ch12_f99e88_1 at full_bg
+    # play music "music_placeholder"  # [Music: Percussive, driving drums; brass rising in a triumphant fanfare]
+    # play sound "sfx_placeholder"  # [Sound: Hydraulic hisses, the steady slap of poured concrete, distant horns from the harbor]
+    "You stand at the edge of the worksite, rain-slick boots in mud that used to be reed-soft marsh. The wall rises in a steady, terrifying geometry — clean, immovable, a new horizon cut into the old"
+    "land. The air tastes metallic and electric with the sweating work of hundreds; the smell of diesel and wet concrete stitches to the salt."
+    "There are flags — council banners flapping like a claim — and a cordon of neon vests moving in a bright tide. People cheer when a section finishes its pour: hard caps lifted, voices raw with"
+    "relief. A sound like a wave of approval sweeps you, and your chest answers with something that could be pride."
+    "You breathe it in: the heat of floodlights, the damp of the night air, the way the concrete throws back a clean, unnatural light that makes the estuary look smaller, contained. Dr. Elara Voss stands not"
+    "far from you, trench coat buttoned against the spray, eyes reflecting the wall’s arc like a steel mirror. She nods once, almost imperceptibly, as if the structure has accepted her."
+    show dr_elara_voss at left:
+        zoom 0.7
+
+    dr_elara_voss "The first segments look solid. We've hit the specs and the contractor's ahead of schedule. That will make the council very happy."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "They're fast."
+
+    dr_elara_voss "Deliberation is a luxury you can't afford when funding cycles are tight. We delivered safety, Maya. That matters."
+    "You want to argue — to remind her about marsh tongues, about nursery pools and the creeks that threaded fish to the bay — but the site sings with a different language tonight: jobs, payrolls, the"
+    "steady rhythm of heavy machinery. Voices around you are loud with relief; this wall is already a story people can tell their children: we did something, and we did it in time."
+
+    menu:
+        "Step closer to the pouring line":
+            "You move forward, feeling the heat and the vibration of fresh concrete. Your fingers find the cool rim of a formwork, and for a second you imagine the wall as a promise."
+        "Walk the boardwalk toward the old marsh edge":
+            "You cross the temporary barrier, skirt the work lights, and listen to where the marsh used to find the tide. Reeds whisper under the roar; you feel the loss as a physical tug at your ribs."
+
+    # --- merge ---
+    "The scene continues with the makeshift podium announcement and the crowd's reaction."
+    hide dr_elara_voss
+    hide maya_kwon
+
+    scene bg ch12_f99e88_2 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: Microphone feedback, then applause swelling]
+    # play music "music_placeholder"  # [Music: Brass and choir harmonies — celebratory, incandescent]
+    show councilor_tomas_hale at left:
+        zoom 0.7
+
+    councilor_tomas_hale "Tonight, Seabreak Hollow stands firmer. Contracts signed. Jobs secured. Families protected. This wall is more than concrete — it's assurance."
+    "People around you chant his words back at him; some mean it as hope, others as a lifeline. Your notebook presses into your palm, the lines of your plan unread in the face of this momentum."
+    "You feel the town's gratitude like a warm weight. For months, council chambers were a battleground of debt and fear; tonight debt evaporates into paychecks."
+    "Aiden Reyes [half-laughing] appears at the edge of the cordoned area, oil-dark hands tucked in his jacket pockets. There's fresh callus white under his nails and a smile that still tries to reach his eyes. He"
+    "meets you halfway, the sound of his boots mixing with the clatter of chains and concrete."
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "I didn't think I'd see this many cranes in one place. My folks'll sleep easier tonight, Maya. Pay's going in, and the docks are humming. It's… big."
+    "You hold onto that smile like a warm glass. It feels like salvation for the immediate — food on the table, roofs mended. That matters. You also feel something else, an internal fracture that the floodlights cannot heal."
+    show maya_kwon at center:
+        zoom 0.7
+
+    maya_kwon "It matters. It does. But—"
+
+    aiden_reyes "I know what you want, M — I know how you feel about the marsh. But right now? People need work. They need certainty. This is the certainty they can taste."
+    "The crowd is a living drumbeat. You want to counter him with benthic surveys, with sediment accretion numbers, with the way juvenile crabs and minnows rely on the pools you mapped. Instead, your voice folds into the night and you let the applause drown out your objections."
+
+    menu:
+        "Take Aiden's hand and walk the perimeter with him":
+            "You reach for Aiden. His fingers close around yours, rough and steady. Together you watch the wall's shadow crawl across the water and you let the warmth of his hand steady the hollow pride inside you."
+        "Go alone to the site where the marsh was cut back":
+            "You slip past the perimeter and press to the place where machines chewed reed and silt. The exposed mud smells wrong — sour and foreign — and you count the pits where nursery pools used to hold life. You let the loss become a fist in your throat."
+
+    # --- merge ---
+    "The montage of the wall rising over weeks follows."
+    # [Scene: Where the Wall Meets the Estuary | Dawn — Montage over weeks]
+    hide councilor_tomas_hale
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch12_f99e88_3 at full_bg
+    # play music "music_placeholder"  # [Music: Accelerating strings; a relentless, urgent rhythm]
+    # play sound "sfx_placeholder"  # [Sound: Chains, the clatter of boots, the constant low thrum of engines]
+    "Weeks slip past in stacked shifts. The wall grows into a clean, indifferent line. Jobs bloom: wages paid; families breathe easier; the town council basks in praise. The construction docks are busy — a new economy"
+    "of routine and safety. You find solace in the practical: metrics, legal clauses, mitigation funds disbursed. You submit analyses, you testify in hearings, you negotiate a clause here, a monitoring program there. You fight to make"
+    "the project carry ecological mitigations within its margins, to wring as much good from the trajectory as you can."
+    show dr_elara_voss at left:
+        zoom 0.7
+
+    dr_elara_voss "We have mitigation funds allocated for a relocation of certain nursery habitats and an engineered tidal exchange. It won't be the marsh that was, but it will create functional zones that meet the regulatory requirements."
+    "You study her face. It's the same composed plane under the trench coat; her hands are steady, her model rational. There is no gloating in her expression — only the confidence of someone who believes the math is salvation."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "Functional zones aren't the same as a living, connected marsh, Elara. They don't feed fish the same way. They're not nursery pools that buffer storms."
+
+    dr_elara_voss "They will reduce immediate flood risk and buy time. We can monitor and adapt. Sometimes the proper choice is the imperfect one that keeps people from immediate harm."
+    "Your words come quicker now, not calm like the lab but sharp, urgent. There's energy in you — a high, flaring insistence that tries to bend the plan's edges. You push constraints into contracts, deadlines into monitoring, and receive in return a landscape reshaped by concrete and compromise."
+    # [Scene: Construction Docks | Afternoon — Months Later]
+    hide dr_elara_voss
+    hide maya_kwon
+
+    scene bg ch12_f99e88_4 at full_bg
+    # play music "music_placeholder"  # [Music: Tense, quicker strings; a lower brass stabs occasionally]
+    # play sound "sfx_placeholder"  # [Sound: Sawing, clinking of metal, distant gulls. Underneath, a low, uneasy hum]
+    "The docks hum with new purpose. Aiden is everywhere — coordinating loads, organizing crews, his voice authoritative where it used to be playful. You watch him from the edge with a strange mixture of relief and"
+    "something like distance. He thanks you sometimes with a tight smile; other times his jaw hardens and he speaks in facts, not jokes."
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "You look tired."
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "We worked four shifts last week. It's good for now. I don't know if it'll be forever, but—"
+
+    maya_kwon "Does it feel…right?"
+    "He stares out at the water, hands stained dark. For a beat he doesn't answer, and when he does his laugh is small and brittle."
+
+    aiden_reyes "Right? I don't know, Maya. It keeps the lights on. It keeps my dad's boats. It makes my grandmother stop talking about moving away. Right and wrong are luxuries when you've got mouths to feed."
+    "Your chest tightens. You have always admired his willingness to trade an abstract future for a present certainty. But you can see the fraying at the edges: his laughter fades quicker these days, and there is"
+    "a hollow where his stories used to be — a space the wall has carved open between you two."
+    # [Scene: Marsh Edge After Construction | Low Tide — Pale morning light]
+    hide maya_kwon
+    hide aiden_reyes
+
+    scene bg ch12_f99e88_5 at full_bg
+    # play music "music_placeholder"  # [Music: High, urgent strings that pull into a cry]
+    # play sound "sfx_placeholder"  # [Sound: Wind through exposed channel beds, the soft rasp of sediment shifting]
+    "You walk the restored perimeter and count losses like ledger entries: three marsh tongues reduced, two nursery pools sealed, a braided channel narrowed until fish cannot use it as before. Where spartina once held sediment like a net, there is now loose silt slumping toward the sea."
+    "You conduct the surveys and file the reports. You give the public presentations with charts and cautious language. Your words are precise, your graphs clean. You explain 'redistribution of erosive energy' and 'localized overtopping risk' and"
+    "'habitat fragmentation.' But the reports arrive too late for some things: the nursery pools are gone; the species composition has already shifted."
+    # [Scene: A Night of Storm | Months Later — Ominous clouds]
+
+    scene bg ch12_f99e88_6 at full_bg
+    # play music "music_placeholder"  # [Music: Full-orchestra, frantic, crashing timpani; a relentless percussion]
+    # play sound "sfx_placeholder"  # [Sound: Alarms, thunder, the wrenching sound of water hitting concrete; distant cries]
+    "The storm hits with a hunger that belies every model you have read. Rain slashes like thrown knives. The sea climbs and strikes the seawall with a ferocity no charted wave had promised for this hour."
+    "In some stretches the wall holds; in others, it is overtopped. In others still, the redirected energy scours shorelines down-current, pulling at earth that was never armored."
+    "You are on the phone until your battery dies, shouting over wind as you coordinate volunteers, call emergency numbers, and try to keep track of who has been evacuated. The cadence of your breath is the"
+    "same loud drum as the storm. This is the moment everything you measured — everything you warned and conceded on at meetings — resolves into motion."
+    # play sound "sfx_placeholder"  # [Sound: The crack of a distant landslide; wood and glass breaking; a collapse that speaks in a low, unnatural tone]
+
+    scene bg ch12_f99e88_7 at full_bg
+    "Neighborhoods that lay just beyond the wall's engineered protection feel the redirected fury. A stretch of bluff you had marked as 'vulnerable in certain scenarios' sloughs into the sea. Homes are taken like pages torn from a book."
+
+    "Maya Kwon (voice raw)" "Evacuate the south bluff. Move the shelters inland. Get Mateo off his porch. Tomas, seal the road."
+    show councilor_tomas_hale at left:
+        zoom 0.7
+
+    councilor_tomas_hale "We did what we could, Maya. The wall saved parts of town. We—"
+    "You cut him off because there are people in the water and because words are not enough in the moment. You wade into the flood of work, directing boats, pulling lines, organizing small rescues that feel like miracles against a backdrop of catastrophic geometry."
+    # [Scene: Aftermath — Dawn after Storm]
+    hide councilor_tomas_hale
+
+    scene bg ch12_f99e88_8 at full_bg
+    # play music "music_placeholder"  # [Music: A slow, sustained cello note resolving into something quieter and humane]
+    # play sound "sfx_placeholder"  # [Sound: Muffled cries, the drip of water, the creak of damaged docks]
+    "The tally is slow and cruel. The wall did shelter a swath of Main Street, and that too is important. But down-current erosion has taken a set of houses and swallowed docks that were lifelines. The"
+    "nursery habitat you fought for — the very pools that raised young crab and fish — have vanished in churned sediment."
+    "You file an emergency report that reads like an autopsy: what was protected, what was sacrificed, where energy redirected. You speak at an emergency hearing and lay out the post hoc explanations with the clinical detachment"
+    "of someone trained to name mechanisms. Your voice is precise but small compared to the sound of neighbors asking 'Why did this happen here?'"
+    "Dr. Elara Voss: (standing beside you at the hearing) 'We underestimated coupling effects in these stretches. The wall order mitigated immediate storm surge risk, but it also altered flow in ways our baseline didn't capture. We must adapt — now.'"
+    show councilor_tomas_hale at left:
+        zoom 0.7
+
+    councilor_tomas_hale "We made a call with the data we had. We tried to protect the greatest number."
+    "Your reports will be the basis for lawsuits, policy revisions, and an overhaul of the monitoring program. They will be the kind of careful documents that help other towns avoid the same fate. That knowledge feels like a fragile consolation."
+    # [Scene: Construction Docks — Weeks after the Storm]
+    hide councilor_tomas_hale
+
+    scene bg ch12_f99e88_9 at full_bg
+    # play music "music_placeholder"  # [Music: A taut violin line; undercurrent of acceptance]
+    # play sound "sfx_placeholder"  # [Sound: Hammers, conversation in low tones, the distant moan of the sea]
+    "Aiden throws himself into repair work with the kind of animal focus you have always admired. He thanks you in short bursts, sometimes with the rawness of someone who needs to be practical to survive. Your conversations taper into emails and half-answers."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "I don't want you to leave because of storms. I want you to stay because this is home."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "I can't fix what already shifted, Aiden. But I can help study why it shifted and try to make sure other towns don't lose what we did. I can take that work where it will help more people faster."
+    "He looks away. There's a silence full of the things you both won't say."
+
+    aiden_reyes "Is this… is this about you needing to do something bigger than us?"
+
+    maya_kwon "Maybe."
+    "You both know the answer. The wall gave work, but it also rewrote people's relationship to place. For Aiden, the dock and the boat are immediate anchors; for you, the responsibility has grown into a broader, aching geography."
+    # [Scene: Your Small Apartment Overlooking the Harbor | Night — The Decision]
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch12_f99e88_10 at full_bg
+    # play music "music_placeholder"  # [Music: Warm strings resolving into a steady, hopeful progression]
+    # play sound "sfx_placeholder"  # [Sound: The soft slap of water, the rustle of paper, the low tick of a clock]
+    "An offer arrives: an overseas research post with a well-funded institute focused on coastal adaptation. It is everything that aligns with the life you thought you wanted to build in service of the wider problem —"
+    "data resources, international sites, influence. It will take you away from the town, from this mud-scented life, from the people who watched the wall rise and the neighborhoods fall."
+    "You think of your parents' demolished home and the child who watched the tide come further each year. You think of the nursery pools that no longer answer the bay. You think of Aiden's hands, callused and steady, of Mateo's slow, oral maps of marshland."
+    "You call Aiden."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "You got the post."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "They offered. It's significant. I'd be able to scale restoration models and write policies that—"
+
+    aiden_reyes "Scale isn't the same as being here. I know. I know what you do. I just—"
+    "You both falter. The storm has turned your town's choices into a private geography of blame and necessity."
+
+    maya_kwon "I won't stop writing. I'll be here in letters. I don't want this to mean leaving you behind."
+
+    aiden_reyes "Letters are good. So were harnesses and nets. I just… I don't know how to be small when you're planning to be big, Maya."
+    "Your laugh is a sharp, surprised sound. 'Neither do I.'"
+    # [Scene: Farewells at the Docks | Morning — Blooming light after rain]
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch12_f99e88_11 at full_bg
+    # play music "music_placeholder"  # [Music: A bright, resolved piano motif; steady percussion giving the feeling of marching onward]
+    # play sound "sfx_placeholder"  # [Sound: Footsteps, muffled hellos, a low note of community hum]
+    "You don't dramatize the leave-taking. Aiden ties a small charm of driftwood into the strap of your bag — the same one he once gave you with a grin. Mateo grips your shoulder and presses a folded handkerchief into your palm, his eyes a map of grief and pride."
+
+    "Mateo Reyes" "Take our water with you. Teach the people who won't listen. Make them remember what marsh does."
+    show maya_kwon at left:
+        zoom 0.7
+
+    maya_kwon "I will. I'll make sure we aren't nameless on their maps."
+    "Aiden watches you with a complexity that shifts between gratitude and an ache you both carry. You step onto the small boat that will take you to the ferry; your boots are wet with harbor scum,"
+    "and your throat has a knot that wants to be both a sob and a vow."
+    show aiden_reyes at right:
+        zoom 0.7
+
+    aiden_reyes "Come home, Maya."
+
+    maya_kwon "I'll try."
+    "You climb away from the quay and feel the town recede in a way that is not only geographic. It is an unspooling of shared time. Letters cross oceans; their ink carries both tenderness and blame."
+    "He writes of the docks and of new routines; you write of data, of models, of lessons learned. You both tuck in slivers of apology and persistence."
+    # [Scene: Overseas Research Institute — Two Years Later | Morning]
+    hide maya_kwon
+    hide aiden_reyes
+
+    scene bg ch12_f99e88_12 at full_bg
+    # play music "music_placeholder"  # [Music: Quiet, purposeful strings; a single trumpet line turning hopeful]
+    # play sound "sfx_placeholder"  # [Sound: The hum of laboratories, waves in a foreign tongue]
+    "Your work expands in scope. You design adaptive hybrid models that draw from both engineered and nature-based approaches. Your voice carries more weight in conferences now; other towns begin to ask your advice. You see maps"
+    "where marsh restoration and careful hard infrastructure are fused in new ways. There is real change emanating from your research — the very thing you hoped to scale."
+    "Letters continue between you and Aiden. They are less frequent now, spaced by months and full of small domestic details and long, careful apologies. Sometimes you trade recipes; sometimes you argue about what could have been different in Seabreak Hollow. Each letter is a small, luminous tether."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "I don't regret the work. But I grieve the shape of things that were lost. Maybe that's my bluntness. Maybe that's my honesty. I love you."
+    show maya_kwon at right:
+        zoom 0.7
+
+    maya_kwon "I love you. Sorry is not enough, but it's where I start. I wanted to keep our marsh. I couldn't. I'm trying to keep others from losing theirs."
+    "There is tenderness in the exchange and an unspoken admission: love survives as a correspondence stretched between two lives that no longer sit on the same shore. You hold both the pride of having influence and the ache of an absence."
+    # [Scene: Seabreak Hollow — Years Later | Distant visit, low sun]
+    hide aiden_reyes
+    hide maya_kwon
+
+    scene bg ch12_f99e88_13 at full_bg
+    # play music "music_placeholder"  # [Music: Full orchestra, cathartic and warm; major key resolution]
+    # play sound "sfx_placeholder"  # [Sound: Laughter, the creak of boat rigging, the distant call of gulls]
+    "You return once for a brief visit: the wall stands, leveled into the town's silhouette. In places, living shorelines have been planted along its down-current edges where mitigation and community effort stitched in marsh fringes. The"
+    "town bears scars and repairs. There are new faces in the co-op, people who arrived because the jobs once offered stayed long enough to make a life."
+    "You walk the boardwalk. Mateo's chair is empty now; his stories live in the mouths of others. You stand where the nursery pools used to be and find small things: transplanted cordgrass, a rock crib where"
+    "sediment is being trapped. It's not what you fought for, and it will never be the marsh you remember. But it is not nothing. It is a compromise turned life."
+    "Your grief is not explosive anymore; it is a quieter exile — a steady ache that sits in your chest like a tide having changed course. Yet within that ache there is also a kind of"
+    "fierce, very positive resolve: the knowledge that your leaving seeded influence elsewhere, that your reports changed regulations, that other towns now read your words before they lay a single slab of concrete."
+    "You stand on the boardwalk and breathe the sea. The wall's shadow cools the water like a hand laid gently. You feel, in the deepest place, a strange relief: the work you set yourself to did"
+    "not end in simple victory or pure defeat. It turned into something complex and human — jobs that saved families, lost pools that teach hard lessons, research that might, lastly, save other shores."
+    show aiden_reyes at left:
+        zoom 0.7
+
+    aiden_reyes "We live with what we chose. I work at the docks and I laugh sometimes again. I wish things were different. I wish you were here. Be well."
+    "You fold the paper and press it into the leather of your notebook. You run your thumb over the corner until the edge softens. Then you walk away from the wall, not because you've given up,"
+    "but because there is more work out there that needs your attention — and because love, for all its tenderness, sometimes contains a wedge of goodbye."
+    # play music "music_placeholder"  # [Music: The piano motif from the beginning returns, fuller now; the strings swell into a warm, conclusive chord]
+    hide aiden_reyes
+
+    scene bg ch12_f99e88_14 at full_bg
+    # play sound "sfx_placeholder"  # [Sound: The harbor's steady rhythm, faint and continuous]
+    "You close your notebook. You have pages of findings, of compromises pushed through, of communities kept afloat — and pages of things you could not save. Your grief sharpens into a quiet exile, and within that"
+    "exile blooms the very positive thing: purpose. You leave with the knowledge that your work ripples beyond a single town, that even compromise can produce small sanctuaries, and that love can survive across letters and seasons,"
+    "altered but real."
+
+    scene bg ch12_f99e88_15 at full_bg
+    "THE END"
+    # [GAME END]
+    return

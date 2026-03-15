@@ -1,0 +1,161 @@
+[Scene: Skyfarm Terraces | Morning]
+[Visual: Tiered rooftop gardens bathed in low gold; canvas awnings ripple; people move between raised beds, carrying trays and tools. Close-up: a carved wooden sigil half-finished on a bench, shavings around it.]
+[Music: Warm, tentative strings with wind-harp undertones]
+[Sound: Drip-irrigation, distant gull call, soft chatter]
+
+Narration
+You stand where the terraces spill toward the sky—where seedlings and strategies share the same soil. The last council meeting hangs at the back of your throat like the taste of seawater: a decision made in the space between fear and invention. You promised a third way, and the city has been watching you keep that promise.
+
+Elias: "They want to know the rollout schedule," (he says, rubbing the back of his hand where salt has crusted the knuckles) "but the pilots are ready. If we seed the open repos tonight, people can audit in real time."
+
+You: "And the oversight panels—Rin agreed to codify them. Binding public minutes, rotating seats. How public?"
+
+Elias: (hesitates; then smiles in a way that softens the edges of his face) "Fully. Code, logs, access keys. Every module stamped with a local sigil. You and Ibe's idea. It can't be opaque, Maia."
+
+Narration
+You watch his hands—quick, practiced, always returning to the tablet strapped to his wrist—and feel a quiet satisfaction. The machine that once felt monolithic now has fingers, and those fingers can be opened.
+
+Rin Voss: "We make the legal framework precise." (her voice is even, steady as a tide) "Panels with binding veto for emergency use. Public bug bounties. No backdoors."
+
+You: (internal) Her smile doesn't reach all the way to her eyes, but the contract language under her pen does. For the first time since you met her, you sense a real ledger shared between you—one that lists obligations instead of favors.
+
+Rin Voss: "You will hold a community liaison seat, Maia. Your terms will be written and enforceable."
+
+Ibrahim 'Ibe': (laughing, hands full of chisels) "And we carve a mark for every node. If your neighborhood can touch it, they can claim it."
+
+Serena Qiu: "I'll layer in fail-safes. Diagnostic thresholds tied to local override triggers. We don't just open the code— we make it readable and actionable."
+
+Dialogue continues — multi-turn, overlapping:
+Elias: (leans forward, earnest) "Maia, I'm seeding the repo as we speak. The API will expose telemetry and state machines. People can write adapters."
+
+You: "Adapters you won't own."
+
+Elias: (a soft, rueful chuckle) "I can't give the city my optimism if it's behind a lock. That's not fair. It's yours as much as mine."
+
+Rin Voss: (cool but concessive) "Public adjudication boards will have live access to system logs. My company retains hardware maintenance contracts, but not unilateral control. We legislate auditability."
+
+Narration
+The words smooth together like new mortar between old stones. You taste coffee—bitter, grounding—and smell the damp moss of the terrace. Light pools across the sigil on the bench, highlighting the spirals Ibe's apprentices are carving. You trace the idea in your head: modular nodes, physical marks of local authority, open software anyone can read, community seats with legal teeth.
+
+[Interactive Moment: Choice A ("Run your finger along the sigil and feel its grooves") -> Reaction: "Your fingertips pick up the warmth of fresh wood and the rhythm of the city's hands. You feel steadier, more rooted to the promise you made." || Choice B ("Ask Elias to explain the deployment sequence again") -> Reaction: "He smiles and walks you through the timeline—pilot activation, monitoring windows, community audits—with a patient cadence that makes the plan sound like craftsmanship rather than fast engineering."]
+
+[Scene: Pilot Hybrid Deployment Site — Canal-side Dock | Late Morning]
+[Visual: A compact TideGrid module floats tethered between a patched platform and a repurposed launch bay; artisans hang a carved sigil from its frame. Salt-scratched LCD panels glow cyan; a moss panel clings to one seam.]
+[Music: Brighter strings with a rhythmic pulse]
+[Sound: Hydraulic hiss as the module stabilizes, distant market calls]
+
+Narration
+You step down onto the dock where the first pilot hums with deliberate life. The module's exterior is half-industry, half-vernacular: metallic ribs softened by hand-woven netting and a wooden sigil swaying in the salt air. The sigil looks like a promise—an index of local rights.
+
+Artisan Lead: (wiping hands) "If you touch this, it's yours to hold," (she says, voice threaded with pride) "Carved by our people, tuned to local indices. The node listens, but the neighborhood speaks first."
+
+Ibe: "We taught them to read the bolts," (he grins) "and to know when to pull them. No stranger decides the tide for you."
+
+Dialogue — multi-turn, building subtext:
+You: "How's the telemetry feed? Are people able to parse it?"
+
+Serena Qiu: (hands a small paper printout) "We've built layered visualizations. A kiosk here shows simplified states for everyone—green for 'nominal,' gold for 'attention,' red for 'local override active.' We've run community workshops the past three nights."
+
+You: "Do they trust it?"
+
+Serena Qiu: (measured) "Trust grows with comprehension. When people can trip the fail-safe and see the system respond, comprehension seeds trust. That's the theory, at least."
+
+Elias: (softly, to you) "We pushed a public sandbox. You can fork it, test it. If a neighborhood wants a special adapter for a communal garden pump, it can be written and deployed locally."
+
+You: (internal) The idea that someone can write a tiny adapter to raise water for seedlings without petitioning a bureaucracy feels like returning sovereignty to morning rituals. It makes your chest unclench in a way no grand speech ever has.
+
+[Interactive Moment: Choice A ("Show a neighbor how to trigger the local override") -> Reaction: "Your hands move slowly over the kiosk; the neighbor laughs, then watches the screen with wide, careful attention. They press the override, and the system acknowledges them with a small chime. The neighbor's smile is a little victory." || Choice B ("Step back and watch the artisans explain the sigil's meaning to children") -> Reaction: "The children press their palms to the wood, eyes bright. An old story blossoms around the sigil—how the sea gives and takes—and you feel the device become part of a living tradition."]
+
+[Scene: Skyfarm Terraces — Dusk]
+[Visual: Soft amber light slices between canvas awnings. A low table holds two steaming bowls of soup; a laptop's glow paints Elias's face in blue. The terrace hums with late work—seed trays, tools, and code printouts scattered together.]
+[Music: Gentle piano with a hopeful undertow]
+[Sound: Soft conversation, distant tide, spoon tapping bowl]
+
+Narration
+Night arrives like a soft decision—deliberate, accepting. You and Elias occupy the same platform: he with his tablet, you with a notepad and an old copper locket warm at your throat. Between you, a bowl of soup steams, shared as if it were a compact treaty.
+
+Elias: (focused) "The public branch just accepted a merge request. Serena's diagnostic thresholds are in, and they're tagged with community approvals."
+
+You: "And Rin?"
+
+Elias: (smiles, exhaling) "She signed the oversight charter at noon. Formal language, yes, but it binds the panels. It will be messy—law always is. But it's binding."
+
+Dialogue deepens, multi-turn:
+You: (quiet) "Do you ever regret thinking big?"
+
+Elias: (looks up; there is a traded exhaustion in his eyes) "Sometimes I wake up thinking in modules. Sometimes I forget the texture of a terrace handrail. Working with you—seeing the sigils, watching the artisans—it's taught me to slow a line of code down to fit a hand."
+
+You: (soft laugh) "And I forget how to read a commit log. You taught me tonight. Actually, you taught Ibe and me. We can read the changes now."
+
+Elias: (reaches for your hand, then stops, then reaches again; this time his thumb rests against your knuckles) "We did this—together. It feels like building a small boat that can carry an entire neighborhood."
+
+Narration
+There is an awkwardness to intimacy after months of professional pressure: hands that must also hold public trust. But the awkwardness blooms into something like hope. You share soup. You debug a function together—one line at a time—and each successful compile is a tiny bell.
+
+Serena Qiu: (from across the table, teasing) "I want a public sequel: 'How to Teach Your Neighborhood to Love Diagnostics.' Chapter one: explain logs without sighs."
+
+Ibe: (mock-offended) "Hey, our kids will be better at bolts than you at lints."
+
+Laughter threads through the terrace and softens the night.
+
+[Scene: Flooded Promenade | Early Morning — Weeks Later]
+[Visual: Shallow channels reflecting string lights; repaired boardwalks knit old and new wood; small gardens inhabit raised planters. People move with more assured steps. The tide is steady, not savage.]
+[Music: Light strings; a chorus-like, bright motif]
+[Sound: Children playing, merchants calling, water lapping in gentle, predictable pulses]
+
+Narration
+Weeks of pilots have flowed into a rhythm. The Flooded Promenade—once a scar in your memory—is stitching itself back into daily life. Merchants smile when a module keeps the channel calm; elders sit under repaired awnings and tell stories with fewer interruptions from fear. The city breathes with cautious optimism.
+
+Old Man Toma: (coming up to you, his voice dry but pleased) "Your sigils remind me of the reefs my father drew in the sand. They mark more than metal. They mark who gets to say 'no' when the sea gets greedy."
+
+You: (internal) He touches your forearm; the gesture carries a century of small stewardship. This is the kernel you fought for—a framework that preserves the right to refuse when necessary.
+
+Rin Voss: (in a public address, her voice steadier than before) "Today, we celebrate our first fully community-monitored module. We will continue to iterate with transparency and local governance."
+
+Narration
+Her smiles are controlled—policy is theater—but when she meets your eyes, an honest crease forms. It is not complete trust; it is an exchange of obligations.
+
+Dialogue — multi-turn, reflective:
+You: "The hybrid is breathing. People are learning to use its lungs."
+
+Rin Voss: (a small, genuine smile) "You taught me how to listen louder. I taught you how to write enforceable terms. Not bad, Maia."
+
+You: (a little astonished) "We taught each other. And Elias. And everyone who came to the workshops."
+
+Elias: (joining you, hands smelling faintly of sea and soup) "And the terraces are feeding more people. The modules eased irrigation burdens. It's working—slowly, properly."
+
+Narration
+You savor this: the feel of soil under fingernails, the low machine hum as it becomes background music, the sight of children running across a boardwalk that once only carried grief. The hybrid feels handcrafted, a garment sewn by many hands. It is equal parts machine and human knot.
+
+[Interactive Moment: Choice A ("Pin a new sigil near the promenade with Ibe") -> Reaction: "Your palm presses the warm wood to the new post. Ibe's grin is a bright, private sun. The sigil feels like a promise to future mornings." || Choice B ("Walk the promenade alone and listen to the city's small noises") -> Reaction: "You walk and catalog the sounds—the new rhythm of trade, the quiet chuckle of someone reading by an awning. The city hums a low, comforting tune, and you carry the knowledge that this is, for now, enough."]
+
+Narration
+You let the evening fold into you like a soft net. It is not perfection—sometimes modules need tweaks, sometimes bureaucracy tangles—but the tilt is good. The skyfarm terraces are fuller; the promenade less a wound and more a seam. People speak with reclaimed authority at town kiosks. Serena's diagnostics have a human face. Ibe's artisans sign their work and teach apprentices the names of screws and stories in the same breath.
+
+Dialogue — quiet, lingering:
+Elias: (holding your gaze) "There will be storms. This won't end the sea. But we buy mornings. We buy gardens. We buy time."
+
+You: (feeling the steady warmth of hope) "And we teach the children both the ledger and the stories, like Toma said. We make the system speak two languages."
+
+Rin Voss: (from a short distance, observing) "You made me bargain with my own haste. That was harder than a council meeting."
+
+You: (smiling) "You did the harder thing, too. You listened."
+
+Narration
+Hope here is not naive. It is a cultivated thing, watered by effort and by the patient overtime of people showing up. You fold your hands around the warmth of a cup and hold the present like a lit match—deliberate, careful, ready to pass it on.
+
+[Visual: Slow pan out from the promenade to the terraces, then to the pilot sites; light rises a shade warmer]
+[Music: Strings swell into a bright, sustained chord]
+
+Narration — Page-Turn Moment
+For weeks the plan appears to work. Pilots tick their logs in public, artisans nail sigils above modules, and neighbors relearn how to make small decisions about water and soil. The hybrid hums like an instrument in tune with many hands. Still, as you stand at the rim of the terrace and watch the city move in this steadier rhythm, you know that progress is not a single moment but a thousand small ones—each one fragile and required.
+
+You tuck your locket beneath your shirt. You think of the work ahead: scaling oversight panels, maintaining public scrutiny, teaching more hands to read code and wood alike. The hope is bright, but it requires vigilance. You breathe in the salt and moss and the soft smoke of evening fires. You feel—acutely—that this is the axis upon which the city might turn.
+
+[LINEAR JUMP]
+{
+  "has_choice": false,
+  "description": "",
+  "options": [],
+  "root_default_next_chapter": 11
+}

@@ -1,0 +1,177 @@
+### SCRIPT
+# Route: Route A
+# Context: f99e88
+
+[Scene: Marisol Bay Boardwalk | Morning]
+[Visual: The boardwalk, salt-dark planks gleaming from last night's rain; reporters' vans line the quay; strings of solar lanterns sway. People gather in layered coats, umbrellas folded against shoulders. TideLab banners ripple against a low, briny wind.]
+[Sound: Distant gulls; the soft thrum of generator-backed cameras; murmurs rising like tidewater]
+[Music: Low steady cello, a hopeful undercurrent]
+
+You arrive with the weight of the last choice still warm in your palms — the decision from Chapter 5, Option A, that pushed TideLab into the light and into the ring. The viral footage changed everything overnight: a three-minute splice of the stand, a shaky shot of Corinne's convoy, Jules' footage intercut with interviews—enough to make Marisol Bay the picture the country woke to.
+
+Your boots splash in the shallow puddles. The air tastes like salt and paper cups of coffee. People look at you with the particular way people look at someone who has been both center and scaffolding: gratitude braided tightly with fatigue. You have learned this look. You have learned to carry those threads without unraveling.
+
+Jules finds you near the rail, camera strap damp on her shoulder, her blue hair flattened by the wind. She smiles, the kind of grin that is mostly adrenaline and a little euphoria.
+
+Jules: "It blew up. The clip hit a national feed around dawn. The reporter we trusted—Marin—ran the document dump this morning. Old Voss memos, internal risk estimates—things that don't age well in public."
+
+Amaya Reyes: "You and Marin—how did you get those past their legal vetting? You risked a lot."
+
+Jules [shrugs]: "You ask the wrong person; you ask me, I say stubbornness. But we scrubbed everything. Nothing that compromises our counsel. Just...context."
+
+You press your thumb against the leather of your notebook until the grain almost disappears. Your mind catalogs: evidence chain, counsel's approval, the town's safety. Every victory has edges.
+
+[INTERACTION]
+> Choice A: "Check the documents one more time with Jules"
+> Choice B: "Trust Jules and step out to the crowd"
+[Outcome A: "You step back into the TideLab tent and run your fingers over printouts again. Jules watches you with a quiet, conspiratorial patience; the documents feel heavier after you touch them, but whole."]
+[Outcome B: "You leave the tent and breathe the public air. People part for you like soft ocean. A few faces you recognize — Mateo, Abuela Rosa — and it steadies you."]
+[MERGE: Narrative continues into the next scene.]
+
+[Scene: TideLab | Midday]
+[Visual: Inside the repurposed shed, amber shop lights hum; walls hung with tide maps and pressed kelp. Mismatched solar panels charge a battery bank. A projector screen shows a looping excerpt from the footage, grainy and honest.]
+[Sound: The hiss of a portable heater; the murmur of volunteers exchanging details]
+[Music: A measured, rising piano line]
+
+Luka Maren is crouched over a drone controller, hands moving with practiced gentleness. He looks up, eyes like warm amber embers, and for a moment you just look at each other and count the small things that made this possible: nights soldering sensors, wet boots shared on storm watches, the stubborn laugh you both made once when a buoy floated off in the wrong tide.
+
+Luka Maren [soft]: "They want to interview me for a tech piece. Marin's asking for a demo of the restoration rigs. They want pictures of a 'community solution.'"
+
+Amaya Reyes: "Be careful. Language matters. We don't hand them diluted hope. We give them the mechanics and the people."
+
+Luka Maren [half-smile]: "You're the rhetorician today. I'll be the one who makes the thing work."
+
+You meet eyes for a beat too long. There are things you haven't said in public—how guilty you feel about the chaos, the neighbors who lost income while the stand held, the nights you lay awake imagining what another storm could do. But there is also the steadiness of what you built together.
+
+Mateo arrives, raincap in hand, and squeezes your shoulder with the weathered reassurance of kin.
+
+Mateo: "Council's going to be packed. Tamsin says she'll call the special session at noon. If they actually listen—"
+
+Amaya Reyes: "They will listen. We have evidence and the town. They will listen."
+
+Tamsin's message comes in as you step out: an invite to speak at the community session. Her text is careful, the kind of politeness that has been tempered into diplomacy by pressure.
+
+[INTERACTION]
+> Choice A: "Rehearse a data-heavy address"
+> Choice B: "Prepare an appeal to the town's stories instead"
+[Outcome A: "You sketch a few talking points in the margins of your notebook: sediment rates, modeled flood plain changes, success rates from pilot oyster beds. It's precise; your voice steadies."]
+[Outcome B: "You write down three names — Abuela Rosa, Mateo, Jules — and a single sentence: 'We are not lines on a plan.' That short sentence feels like handing the day a pulse."]
+[MERGE: Narrative continues into the community hearing.]
+
+[Scene: Community Hall | Early Afternoon]
+[Visual: Long benches packed shoulder to shoulder. A projector floods the low ceiling with images — graphs, leaked memos, a live feed from the boardwalk. Rain taps the tin roof in a steady, sympathetic rhythm.]
+[Sound: Muffled voices and the occasional clap; a camera's autofocus whirring]
+[Music: Tension lifts into a bright, open chord progression]
+
+The hearing begins with presentations from Tamsin, who carries the weight of municipal procedure like a ledger. She is composed, but the lines at her temples betray how hard the last days have been. Across the table, Corinne Voss sits impeccable and precise, platinum hair a punctuation mark, AR glasses off and folded like a sentinel's shield.
+
+Tamsin [measured]: "Council, we've convened this emergency session to address the concerns raised by recent disclosures and by our community. I have listened to residents. I have reviewed the staff advice. The proposal as submitted by Voss Marine is significant — it promises protection for critical infrastructure — but it also raises issues around displacement and long-term ecological impact."
+
+Corinne Voss [cold, then controlled]: "Our modelling demonstrates that, absent decisive infrastructure, more people will be displaced in the long term. Our design does minimize habitat loss across a broad horizon. We are open to adjustments that do not compromise efficacy."
+
+You stand when your name is called. The hall tilts toward you; the cameras tilt with it. You don't reach for data or for platitudes. You speak with the blunt compassion you've honed.
+
+Amaya Reyes: "We worked all night to get the records into hands who could read them. We did not want spectacle. We wanted scrutiny. Those documents show a plan built without enough accounting for lived histories here — not just rooms on a map, but people tied to the tide." (beat) "We are not against protection. We are against protection that erases us."
+
+Corinne Voss watches you like someone observing a tide line, measuring what will wash away. Her voice, when she answers, is practiced and narrow, but in the thread of it there is a microphone slip—something a reporter will pick up.
+
+Corinne Voss [sharp]: "We make hard choices based on large-scale risk. Emotion is part of the debate, but it's not a substitute for engineering."
+
+Amaya Reyes: "No one asked emotion for permission. We asked for inclusion."
+
+Questions from the council edge toward the leaked memos. A council member holds up a printout showing a Voss internal risk matrix at odds with Corinne's public assurances. The room exhales.
+
+Tamsin stands, hands clasped as if to contain the shake in them.
+
+Tamsin: "Given the new evidence and the community concerns, I cannot in good conscience recommend a vote on full relocation at this time. I propose a conditional path: reduce the seawall footprint, finance distributed marsh restoration overseen by community cooperatives, and commit to a pilot of community-owned aquaculture financed through Voss bonds."
+
+Corinne Voss [slow, precise]: "Voss Marine will scale back the seawall's footprint by thirty percent in critical neighborhoods and fund a distributed marsh restoration program. We'll seed a community aquaculture fund to be managed locally, with technical oversight from Voss. We will also establish a joint oversight board including municipal, community, and Voss representatives."
+
+The hall shifts. A dry, incredulous, then mounting sound washes through — first disbelief, then stunned relief. You feel it in your limbs: a looseness, like a muscle after it unclenches.
+
+[Music: A warm swell of strings and muted brass]
+[Sound: A single, held inhalation from the crowd — then applause, slow and deliberate at first, then building]
+
+Corinne Voss's voice holds, but there is something softer beneath the steel.
+
+Corinne Voss [after a beat]: "This is not everything I wanted. But I recognize the need for legitimacy, and I will not proceed without it."
+
+Amaya Reyes [soft, to the room]: "We will hold them to account. TideLab will be at the table. Our marshes will be restored. Our neighbors will stay."
+
+Luka Maren appears at your side, salt in his hair and that locket heavy on his chest as if marking the moment. He squeezes your hand — the gesture isn't public theater, but solidarity. He leans in, voice low.
+
+Luka Maren [low]: "We did it."
+
+You swallow, the word huge in your mouth. The victory is not unblemished: the scale still carries compromise, and you carry a private tally of the chaos the fight cost. But the town is still here. Most homes remain. Funding for TideLab — for expansion of your humble operation into something that can train, employ, and protect — arrives in the form of corporate checks tied to community governance. It is complicated, but viable.
+
+Abuela Rosa stands nearby, hands shaped by decades of work, shawl wrapped tight against the wind. She hums — not an exultant song but a low coastal tune you have heard since childhood — and it sounds like blessing.
+
+Abuela Rosa [warm, gravelly]: "The tide moves, niña. Sometimes it takes. Sometimes it gives. Today it gives a little."
+
+Mateo laughs, a sound that is almost disbelief and almost joy.
+
+Mateo: "They actually listened. God help them if they don't mean it."
+
+You laugh too, and in that laugh there is release — a spasm of sorrow and triumph braided together.
+
+[Scene: TideLab Exterior / Marshland Reserve | Late Afternoon]
+[Visual: Volunteers in salt-streaked clothes plant mangrove and seed oysters in shallow water; seedlings nod in buckets as if bowing. TideLab vans unload tools and seedlings, strings of solar lanterns beginning to glow.]
+[Sound: The wet slap of boots in mud; the chatter of volunteers. Abuela Rosa's humming threads through it.]
+[Music: Gentle acoustic guitar, hopeful and unhurried]
+
+You stand in the mud with Luka beside you, the world tasting of brine and new dirt. The sun presses a soft warmth through a thinning cloud. The air is full of the ordinary miracle of hands at work.
+
+Luka Maren: "I turned down the other offers."
+
+Amaya Reyes: "You did?"
+
+Luka Maren [nods, humor and relief]: "Marin called from [redacted] this morning with a 'strategic role.' It would have meant moving and a lot of bureaucracy. But—" (he fingers the locket) "—I want this to be where the tech meets the people. I want to do it with you."
+
+Amaya Reyes [quiet]: "Are you sure? This will be everything and also crumbs. It will be slow."
+
+Luka Maren: "I know. I prefer slow and honest to fast and...absent."
+
+You let the words settle like sunlight on wet wood. They make a little map of possible futures in your chest — a life with tangled schedules and seedlings and grant writing, with nights measuring sediment cores and mornings checking tide gauges. It is not tidy, but it is shared.
+
+Later, you and Luka stand before the crowd on the boardwalk as volunteers plant the last of the seedlings. Salt clings to your hair. Your jacket smells faintly of algae and saved coffee. Someone passes you a paper cup. You drink; it tastes like victory and sea.
+
+Amaya Reyes [into the microphone]: "This work will not protect us overnight. It will not be without sacrifice. But it will be ours. Our marshes, our fisheries, our rights to stay and shape the shore. TideLab will expand. We'll train, we'll employ, we'll steward."
+
+The crowd responds with cheers, with the low chorus of people who have been afraid and then found a rope. Your chest loosens. Guilt lingers — a corner of your mind catalogues every displaced schedule, every volunteer who burned out, every family's lost catch — but it is tempered by the way neighbors help one another lift a sodden seedling into place.
+
+Abuela Rosa breathes in close, planting beside you. Her hands are sure; she hums quietly, as if reciting a line of containment and blessing.
+
+Abuela Rosa: "Plant the roots deep, niña. Roots know the way."
+
+You press the soil around a seedling and feel something like belonging swell — neither triumphant nor triumphant enough, but steady.
+
+[Visual: The camera pulls back — the shoreline stitched with small human movements: seedlings, people, a band of restored marsh catching the light. TideLab's modest extension stands behind them like a promise.]
+[Music: Strings resolve into a soft, sustaining chord; the clatter of distant waves becomes rhythmic and reassuring]
+
+You and Luka walk back toward the shed with mud on your boots and warmth in the chest. He reaches for your hand again, this time not as a reliance but as a pact.
+
+Luka Maren: "We'll build it differently. We'll make a model other towns can pick up. Cooperative aquaculture, resilient marshes, sensors that tell a story rather than sell one."
+
+Amaya Reyes: "We'll keep each other honest."
+
+He smiles, tired and honest, and you return it. There is no guarantee that every storm will be weathered. There is no guarantee that Voss will always keep its word. But there is a new scaffolding — legal, social, ecological — and a community that learned to speak together.
+
+You look at the bay, at the horizon where sky and water argue and make room for each other. You think of the ledger you carried — the town ledger and TideLab's notebook — and how they have begun to be read together.
+
+[Music: The melody thins into a single held note, warm and steady]
+[Visual: Fade to wide shot of Marisol Bay at dusk — lights blinking on, the boardwalk curving like a promise]
+
+You still carry guilt for the chaos, for the nights people lost sleep and work. It sits beside the relief like a stone in your pocket. But the town holds. Most homes remain. Seeds go into the earth. Funding flows into cooperative accounts. Corinne Voss and Voss have been forced to step back and pay forward; Tamsin has found a way to thread municipal responsibility through communal stewardship. Luka stays. TideLab expands. Abuela Rosa hums.
+
+You breathe in the salt, and the breath tastes faintly of hope.
+
+[Visual: Fade to Black]
+====================
+      THE END       
+====================
+[GAME END]
+
+============================================================
+>>> SYSTEM ROUTING TABLE <<<
+
+[FINAL CHAPTER] -> No further transitions.

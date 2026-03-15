@@ -1,0 +1,126 @@
+{
+    "design_logic": "I interpreted 'Climate Change' + 'Romance' as a character-driven drama where intimate relationships are forged and tested against accelerating environmental collapse. The emotional stakes of love — trust, sacrifice, compromise — mirror the community stakes of mitigation, adaptation, and justice. Core conflict: A protagonist returns to a storm-battered coastal town to lead ecological restoration and must negotiate between scientific urgency, political resistance, and an unexpected romance whose priorities sometimes clash with collective survival. The narrative tension comes from choosing between immediate protective measures that alienate neighbors and long-term restorative strategies that demand trust and sacrifice.",
+    "setting": "A near-future coastal town called Saltwick, once a fishing hub now reshaped by rising seas, seasonal superstorms, and salt-scorched fields. The time period is the 2040s: advanced but patchy technology, community-scale green infrastructure projects, and climate refugees. Atmosphere: melancholic but verdant — a place of saltwind and tentative regrowth, where weather is a character and every sunset is colored by a storm's afterglow.",
+    "visual_style": "Painterly realism with soft anime facial stylization; muted coastal palette (sea-foam greens, steel blues, rust, and ochre); textured brushwork for weather effects; cinematic lighting with warm golden-hour contrasts and cold storm-blue scenes.",
+    "main_characters": [
+        {
+            "name": "Alys Maren",
+            "role": "Protagonist",
+            "personality": "Methodical, empathetic, stubborn when her values are on the line. She balances scientific rigor with deep care for neighbors. Tends to internalize anxiety into practical plans, struggles to ask for help even when overwhelmed.",
+            "appearance_features": {
+                "hair": "Dark chestnut, shoulder-length waves often pinned back with sea-salted flyaways",
+                "eyes": "Gray-green, wide and observant; small flecks of amber when lit by sunset",
+                "clothing": "Practical layered fieldwear: a weathered olive-softshell jacket over a faded fisherman's sweater, high-waisted cargo trousers with mud stains, scuffed rubber boots with hand-stitched patches",
+                "accessories": "A compact field notebook always tucked in her jacket, a thin braided cord bracelet made from salvaged fishing line, and a dented brass compass inherited from her father"
+            },
+            "goal": "To restore the town's seagrass and shoreline in order to protect Saltwick and preserve the local way of life.",
+            "background_story": "Born and raised in Saltwick, she left to study marine ecology after her family home was damaged in a major storm. Returning years later, she finds the town fractured by short-term politics and creeping corporate interests. She feels responsible for both the science and the people who depend on it.",
+            "emotional_trait": "Strength: fierce practical empathy. Flaw: difficulty delegating and fear that compromise means betrayal."
+        },
+        {
+            "name": "Ivo Calder",
+            "role": "Love Interest",
+            "personality": "Warm, pragmatic, and quick-witted with a knack for hands-on engineering. He prioritizes immediate protection for people's homes and livelihoods, which sometimes puts him at odds with Alys's slower restoration timelines. Loyal and politically savvy, he navigates community tensions with humor and blunt honesty.",
+            "appearance_features": {
+                "hair": "Black, closely cropped on the sides with a tousled top that leans into sandy highlights",
+                "eyes": "Warm hazel, slightly hooded; his gaze softens into a knowing half-smile",
+                "clothing": "Workshirt rolled at the sleeves, high-visibility vest faded from sun, reinforced denim workpants with tool loops, and a canvas cap that bears the logo of the local boatyard",
+                "accessories": "A leather utility belt with custom tools, a battered pocket camera for documenting damage, and a silver wedding-ring-sized band he wears on a leather thong (a community-making token)"
+            },
+            "goal": "To protect Saltwick's families now — build seawalls, emergency shelters, and quick-response systems so no one loses another season's harvest or a home.",
+            "background_story": "Third-generation boatwright and community organizer who stayed while many left. He has led grassroots rebuilding after storms and co-founded a volunteer rescue squad. He believes in immediate, visible solutions to win public trust.",
+            "emotional_trait": "Strength: resolute courage and sociability. Flaw: sometimes prioritizes short-term fixes to the detriment of long-term resilience."
+        },
+        {
+            "name": "Celine Harrow",
+            "role": "Antagonist",
+            "personality": "Polished, politically savvy, and outwardly conciliatory. She believes large-scale investment and rapid infrastructure projects are the only viable path and is willing to make hard deals with outside developers. Underneath her composed exterior, she fears the town's economic collapse more than the environmental ethics she publicly endorses.",
+            "appearance_features": {
+                "hair": "Silver-blonde bob, immaculate and slightly asymmetrical, always sleekly combed",
+                "eyes": "Steely blue, narrow and assessing, often rimmed by subtle dark liner",
+                "clothing": "Tailored navy coat-dresses with functional yet fashionable storm boots, occasional silk scarves in muted geometric prints; she favors formality even in storms",
+                "accessories": "A digital cuff that contains municipal records and encrypted contact lists, a pearl lapel pin inherited from her mentor, and a pristine leather dossier"
+            },
+            "goal": "To secure major investment and rapid infrastructural protections for Saltwick before it collapses economically, even if that means signing compromises with corporations or overriding community-led solutions.",
+            "background_story": "Raised outside Saltwick and later elected mayor, she was brought in to modernize the town after a string of crises. Her tenure has stabilized budgets but created painful trade-offs. She genuinely wants to save Saltwick but through top-down measures.",
+            "emotional_trait": "Strength: strategic clarity and charisma. Flaw: pragmatic cynicism that can blind her to grassroots human costs."
+        }
+    ],
+    "secondary_characters": [
+        {
+            "name": "Maya Maren",
+            "relation_to_main": "Younger sister of Alys",
+            "appearance_summary": "Sun-browned skin, tightly braided hair, and bright eyes; usually in a paint-splattered apron.",
+            "function_in_story": "Represents the everyday townsfolk who must live with choices; opens Alys to vulnerability and grounds her decisions in family needs."
+        },
+        {
+            "name": "Oba Kofi",
+            "relation_to_main": "Elder fisher and community elder",
+            "appearance_summary": "Stooped but steady, with silvered beard, weather-beaten skin, and a wooden cane carved with fish motifs.",
+            "function_in_story": "Cultural memory keeper; provides local knowledge about tides and old restoration methods; moral compass for the town."
+        },
+        {
+            "name": "Dr. Leyna Ortiz",
+            "relation_to_main": "Colleague and scientific collaborator",
+            "appearance_summary": "Practical research attire, quick smile, always with a tablet showing data visualizations.",
+            "function_in_story": "Supplies scientific urgency and technical options; can catalyze breakthroughs or generate ethical dilemmas about data transparency."
+        },
+        {
+            "name": "Ronan Pike",
+            "relation_to_main": "Young volunteer, friend to Ivo",
+            "appearance_summary": "Lean, energetic; oil-smudged hands and a baseball cap turned backward.",
+            "function_in_story": "Embodies youthful optimism and impatience for action; helps implement field projects and can be a narrative device for community morale shifts."
+        }
+    ],
+    "locations": [
+        {
+            "name": "Saltwick Harbor",
+            "visual_description": "A long crescent of weathered docks and low warehouses. Lighting shifts with the sky: golden, brassy light at dusk highlighting fishing nets; under storm clouds the harbor becomes a sheet of pewter punctuated by the warm sodium glow of lamp posts. Salt stains and rusted metal contrast with patches of bright green algae and clumps of rehabilitated seagrass visible in shallows."
+        },
+        {
+            "name": "The Glass Marsh",
+            "visual_description": "A once-lush wetland now partially flooded, glassy pools mirror churned clouds. Mornings are misty with low light, teal-tinted; reeds create vertical silhouettes against a steel-blue horizon. The atmosphere is fragile — beautiful reflections punctured by the occasional distant rumble of waves."
+        },
+        {
+            "name": "Old Lighthouse Rooftop Greenhouse",
+            "visual_description": "Perched above the cliffs, this repurposed lighthouse roof is a warm, humid box of glass. Golden afternoon sun streams through salt-flecked panes, illuminating rows of seedlings and hydroponic rigs. Outside, angry gray sea and wind-swept cliffs; inside, the atmosphere is intimate and verdant — a refuge from storms."
+        },
+        {
+            "name": "Muri Research Lab",
+            "visual_description": "A compact field lab in retrofitted shipping containers on a raised platform. Clean, clinical LED lighting mixed with warm task lamps; glass walls reveal charts, tanks of seagrass, and humming equipment. When storms hit, the lab's lights become a sanctuary beacon, patients to bright fluorescents and the clatter of rain."
+        },
+        {
+            "name": "Harrow Hall (Council Chamber)",
+            "visual_description": "A civic stone building with high windows, heavy wooden benches, and a long council table scarred from meetings. Interior lighting is formal and warm during hearings; during contentious votes the hall becomes a theater of shadows and sharp spotlights, voices echoing off plaster and oak."
+        },
+        {
+            "name": "North Beach Ridge",
+            "visual_description": "A strip of sand and mangled dunes where improvised sandbags and half-built seawalls stand. Afternoon light is harsh and white, reflecting off pale sand; after storms, the area is littered with debris and glimpses of washed-up plastics contrasted with new, tenacious green shoots pushing through."
+        }
+    ],
+    "theme": [
+        "Climate Change",
+        "Community Resilience",
+        "Love vs Duty",
+        "Reconciliation with Nature"
+    ],
+    "possible_endings": [
+        {
+            "type": "Happy",
+            "summary": "Alys and Ivo find a compromise: together they implement a hybrid plan combining immediate protective measures with longer-term ecological restoration. Celine is pressured into more transparent deals; the town commits to community stewardship and a rebuilt harbor that balances safety and habitat. The romance deepens; the ending is hopeful and grounded."
+        },
+        {
+            "type": "Bittersweet",
+            "summary": "The restoration project succeeds in preserving much of the ecosystem, but it required difficult trade-offs: some homes were relocated and Celine's rapid-development plan led to a painful short-term displacement. Alys prioritizes the science and loses romantic intimacy with Ivo, who chose a different path. The town endures; characters pay a personal cost for the greater good."
+        },
+        {
+            "type": "Sad",
+            "summary": "Political inertia and compromised investments spiral into a severe storm season that overwhelms defenses. Key infrastructure fails; parts of Saltwick are permanently flooded and many residents must leave. Alys is haunted by what could have been; relationships fracture under grief and blame."
+        },
+        {
+            "type": "True",
+            "summary": "A morally complex ending: Alys exposes a corrupt deal between developers and officials, forcing a reckoning. The town adopts a slower, community-led renaissance that will take decades; immediate security is tenuous, but the ethical victory reshapes governance. Alys and Ivo remain close allies — whether romantically or as partners in stewardship is left to player choice — and the story closes on an ambiguous but determined sunrise over recovering seagrass."
+        }
+    ],
+    "estimated_chapters_per_route": 6
+}
