@@ -1,0 +1,14 @@
+Theme: {theme}
+Genre: {genre}
+Number of chapters: {chapters}
+
+Number of main_characters: around 3 (Ensure one is the clear Protagonist)
+
+Based on the above inputs, generate a complete World Setting JSON.
+
+### REQUIREMENTS:
+1. **Logic First:** Before generating details, use the `design_logic` field to briefly explain how you are interpreting the Theme and Genre to create a unique experience.
+2. **Visual Consistency:** Fill in the `visual_style` and detailed `appearance_features` (hair, eyes, clothing, accessories) for all main characters. These descriptions must be vivid and specific.
+3. **Immersive Locations:** For locations, focus on `visual_description` to establish the mood (lighting, weather, architecture).
+4. **Endings:** Generate at least 3 distinct endings reflecting different moral paths or choices.
+5. **Format:** Output ONLY the JSON object defined in the System Prompt.

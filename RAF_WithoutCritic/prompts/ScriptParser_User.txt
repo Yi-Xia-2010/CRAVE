@@ -1,0 +1,44 @@
+### 1. REFERENCE DATA
+**Official Names (Normalization Target):**
+{character_names}
+
+---
+
+### 2. DRAFT NARRATIVE TEXT
+{draft_text}
+
+---
+
+### 3. LOGIC SOURCE (SOURCE OF TRUTH)
+The script writer was instructed to end the chapter this way:
+
+**Next Step Info:**
+{next_chapter_info}
+
+**Decision Logic (JSON):**
+{decision_logic}
+
+---
+
+### TASK (FORMATTING ONLY)
+Convert the **Draft Narrative Text** into the standardized script format defined in the System Prompt.
+
+**CRITICAL ENDING RULE (NO NEW CONTENT):**
+You must NOT invent new dialogue or plot. Your only job is to detect the ending tag in the Draft Text and format the engine code based on the **Logic Source** above:
+
+1.  **If a Standard Linear Jump is indicated:**
+    * **Condition:** JSON is Linear AND Draft has NO choices.
+    * **Action:** Close the scene visually (Fade out), then jump.
+
+2.  **If a Structural Decision Point is indicated (in JSON):**
+    * **Condition:** The JSON itself has `options`.
+    * **Action:** Format as a standard menu using exact JSON options.
+
+3.  **If it is the Finale/Ending:**
+    * **Condition:** Target ID is `-1`.
+    * **Action:** Follow the ending format.
+
+**Constraints:** Do not rewrite the dialogue or narration.
+Only apply formatting tags (Scene, Visual, Name Normalization).
+
+Output the final script now.
