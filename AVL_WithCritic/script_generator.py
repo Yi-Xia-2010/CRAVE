@@ -5,7 +5,9 @@ import glob
 import argparse
 import hashlib
 import re
+from judge import StoryJudge
 
+# Import directly from your provided utils.py
 from utils import (
     get_api_key, 
     load_prompt_template, 
@@ -14,8 +16,14 @@ from utils import (
     sanitize_filename 
 )
 
+# ==========================================
+# 0. Global Configuration
+# ==========================================
 MAX_LABEL_LENGTH = 30 
 
+# ==========================================
+# 1. Helper Functions
+# ==========================================
 
 def get_latest_file(pattern):
     files = glob.glob(pattern, recursive=True)
@@ -23,7 +31,7 @@ def get_latest_file(pattern):
     return max(files, key=os.path.getmtime)
 
 def get_latest_outline_corrected(base_dir):
-
+    """Prioritize the _CORRECTED version of the outline (Golden Source)."""
     corrected_pattern = os.path.join(base_dir, "**", "story_outline_*_CORRECTED.json")
     files = glob.glob(corrected_pattern, recursive=True)
     if files: return max(files, key=os.path.getmtime)
@@ -38,7 +46,7 @@ def load_json(filepath):
         return json.load(f)
 
 def generate_context_signature(ancestor_ids):
-
+    """Generate a unique context hash based on the path history."""
     if not ancestor_ids: return "Start"
     path_str = "-".join(map(str, ancestor_ids))
     return hashlib.md5(path_str.encode('utf-8')).hexdigest()[:6]
@@ -67,6 +75,7 @@ def clean_title_strict(title):
     return str(title).strip().lower().rstrip('.,;!?')
 
 def load_clean_draft(filepath):
+    """Load a draft file and strip metadata headers."""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             lines = f.readlines()
@@ -82,9 +91,14 @@ def load_clean_draft(filepath):
         print(f"[WARN] Failed to load draft {filepath}: {e}")
         return None
 
+# ==========================================
+# 2. Core Mechanism: Filename Truth
+# ==========================================
 
 def calculate_chapter_filename(chapter_id, branch_name, context_signature, variant_suffix=""):
-
+    """
+    [CRITICAL] Single source of truth for filename generation.
+    """
     # 1. Sanitize using utils function
     safe_branch = sanitize_filename(branch_name)
     
@@ -101,7 +115,9 @@ def calculate_chapter_filename(chapter_id, branch_name, context_signature, varia
     return fname
 
 def smart_resolve_target_id(option, chapter_lookup):
-
+    """
+    Robust ID resolution handling strings, integers, and -1.
+    """
     raw_id = option.get('target_chapter_id') or option.get('target_chapter_index')
     target_title = option.get('target_chapter_title')
     
@@ -126,9 +142,15 @@ def smart_resolve_target_id(option, chapter_lookup):
             
     return -1 # Default to Ending
 
+# ==========================================
+# 3. Context & Routing
+# ==========================================
 
 def build_dynamic_context(current_id, path_ids, chapter_lookup, scripts_dir):
-
+    """
+    [MODIFIED] Sourced directly from chapter_lookup (Outline).
+    Uses 'narrative_focus' as the primary source for chapter summary.
+    """
     context_text = ""
     try:
         current_index = path_ids.index(current_id)
@@ -339,7 +361,12 @@ def append_routing_info(output_path, ch_id, decision_data, topology, current_anc
     except Exception as e:
         print(f"[ERROR] Writing routing table to {output_path}: {e}")
 
+# ==========================================
+# 4. AI Generation Logic (SPLIT INTO DRAFT & PARSE)
+# ==========================================
+
 def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, last_scene_ctx, decision_data, next_chapter_info, existing_draft=None):
+    """Step 4A: Generate the Draft only"""
     if existing_draft:
         print(f"      [SKIP] Using loaded draft checkpoint.")
         return existing_draft
@@ -365,7 +392,8 @@ def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, las
             previous_context=history_str,
             last_scene_context=last_scene_ctx,
             chapter_detail=json.dumps(ch_data, indent=2, ensure_ascii=False),
-            emotional_trajectory=ch_data.get('emotional_trajectory', 'Developing'),
+            Valance=ch_data.get('Valance', 'Neutral'),
+            Arousal=ch_data.get('Arousal', 'Neutral'),
             narrative_focus=ch_data.get('narrative_focus', ch_data.get('summary', 'Develop story based on context.')),
             chapter_id=ch_data.get('id', '??'),
             chapter_title=ch_data.get('chapter_title', 'Untitled'),
@@ -380,6 +408,7 @@ def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, las
 
 
 def run_step_4_parse(api_key, draft_text, character_list_str, decision_data, next_chapter_info):
+    """Step 4B: Parse the WINNING draft into final script"""
     if not draft_text: return None
 
     print(f"      ...Running Parser (Formatting Script)...")
@@ -402,6 +431,9 @@ def run_step_4_parse(api_key, draft_text, character_list_str, decision_data, nex
     final_script = call_gpt_api(api_key, parser_sys, parser_user, MODEL_LOGIC, json_mode=False)
     return final_script
 
+# ==========================================
+# 5. Main Flow
+# ==========================================
 
 def validate_script_integrity(scripts_dir):
     print("\n[System Integrity Check]")
@@ -427,8 +459,8 @@ def validate_script_integrity(scripts_dir):
 
 def main():
     parser = argparse.ArgumentParser(description="Step 4: Generate VN Scripts")
-    parser.add_argument("--theme", type=str, required=True)
-    parser.add_argument("--genre", type=str, required=True)
+    parser.add_argument("--theme", type=str, required=True, help="Story theme (e.g. Detective)")
+    parser.add_argument("--genre", type=str, required=True, help="Story genre (e.g. Detective)")
     parser.add_argument("--id", type=str, required=True)
     parser.add_argument("--project_path", type=str, help="Specific world folder")
     args = parser.parse_args()
@@ -590,21 +622,39 @@ def main():
 
             print(f"   [Ch {ch_id}] Generating...")
         
-
-            num_generations = 1
+            drafts = []
+            
+            num_generations = 1 if existing_draft else 3
             for i in range(num_generations):
                 res_draft = run_step_4_draft(
                     api_key, world_str, args.theme, args.genre, ch_data, history_str, 
                     last_scene_ctx, final_decision_data, next_chapter_info,
                     existing_draft=existing_draft
                 )
-                
+                if res_draft:
+                    drafts.append(res_draft)
 
-            # NEW: PARSE ONLY THE BEST DRAFT 
+            if not drafts:
+                print(f"      [ERROR] Failed to generate drafts.")
+                continue
+
+            # NEW: JUDGE HERE 
+            if len(drafts) > 1:
+                judge = StoryJudge(role="Script_draft_judge", model=MODEL_LOGIC)
+                best_script_index = judge.judging(
+                    drafts, story_type, args.genre, args.id, draft_filename, 
+                    ch_data.get('Valance', 'Neutral'), ch_data.get('Arousal', 'Neutral')
+                )
+                best_draft = drafts[best_script_index]
+            else:
+                best_draft = drafts[0]
+
+            # NEW: PARSE ONLY THE BEST DRAFT
             res_script = run_step_4_parse(
-                api_key, res_draft, character_list_str, final_decision_data, next_chapter_info
+                api_key, best_draft, character_list_str, final_decision_data, next_chapter_info
             )
             
+            res_draft = best_draft
 
             if res_draft and not existing_draft:
                 with open(draft_path, 'w', encoding='utf-8') as f:

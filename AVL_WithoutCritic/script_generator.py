@@ -340,7 +340,7 @@ def append_routing_info(output_path, ch_id, decision_data, topology, current_anc
         print(f"[ERROR] Writing routing table to {output_path}: {e}")
 
 def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, last_scene_ctx, decision_data, next_chapter_info, existing_draft=None):
-    """Step 4A: Generate the Draft only"""
+
     if existing_draft:
         print(f"      [SKIP] Using loaded draft checkpoint.")
         return existing_draft
@@ -382,7 +382,7 @@ def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, las
 
 
 def run_step_4_parse(api_key, draft_text, character_list_str, decision_data, next_chapter_info):
-    """Step 4B: Parse the WINNING draft into final script"""
+
     if not draft_text: return None
 
     print(f"      ...Running Parser (Formatting Script)...")

@@ -8,12 +8,16 @@ import re
 from rich.console import Console
 from utils import sanitize_filename
 
+
 console = Console()
+
 
 FIXED_THEME = "Climate Change"
 FIXED_GENRE = ["Romance"]
 
+
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 TASK_DICT = {}
 for genre in FIXED_GENRE:
@@ -30,7 +34,6 @@ for genre in FIXED_GENRE:
 
 
 def get_actual_chapter_count(world_dir):
-
     try:
         if not world_dir or not os.path.exists(world_dir):
             return None
@@ -48,7 +51,7 @@ def get_actual_chapter_count(world_dir):
         
         with open(target_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            count = len(data.get('chapter_structure', []))
+            count = len(data.get('chapter_structure', []))            
             return count if count > 0 else None
             
     except Exception:
@@ -56,8 +59,8 @@ def get_actual_chapter_count(world_dir):
 
 def main():
     for genre in FIXED_GENRE:
-        console.rule("[bold green] BATCH GENERATION SYSTEM (FLAT STRUCTURE)[/bold green]")
-        console.print(f" Theme: {FIXED_THEME} | Genre: {genre}\n")
+        console.rule("[bold green]BATCH GENERATION SYSTEM (FLAT STRUCTURE)[/bold green]")
+        console.print(f"Theme: {FIXED_THEME} | Genre: {genre}\n")
         
         start_time = time.time()
 
@@ -102,7 +105,7 @@ def main():
                 continue
             else:
                 prog_str = f"{current_count}/{target_count if target_count else '?'}"
-                console.rule(f"[bold yellow]RESUMING {task_id} ({prog_str})[/bold yellow]")
+                console.rule(f"[bold yellow]⏳ RESUMING {task_id} ({prog_str})[/bold yellow]")
 
 
             try:
@@ -119,7 +122,6 @@ def main():
                         "--project_path", world_dir
                     ], check=True)
                 
-                # Step 2.5: Structure Analysis (CRITICAL FIX)
                 corrected_files = glob.glob(os.path.join(world_dir, "*_CORRECTED.json"))
                 need_analysis = True
                 if corrected_files:
@@ -131,7 +133,7 @@ def main():
                     except: pass
                 
                 if need_analysis:
-                    console.print(f"   Analyzing Structure (Fixing IDs)...")
+                    console.print(f"  Analyzing Structure (Fixing IDs)...")
                     subprocess.run([sys.executable, "structure_analyzer.py"] + common_args, check=True)
                 
                 # # Step 3: Chapter Details
@@ -140,14 +142,14 @@ def main():
                 # Step 4: Scripts
                 subprocess.run([sys.executable, "script_generator.py", "--theme", task['theme'], "--genre", task['genre'], "--id", task['id']] + common_args, check=True)
 
-                console.print(f"      [bold green] Success![/bold green]\n")
+                console.print(f"      [bold green]Success![/bold green]\n")
 
             except subprocess.CalledProcessError as e:
-                console.print(f"      [bold red] Failed: {e}[/bold red]")
+                console.print(f"      [bold red]Failed: {e}[/bold red]")
                 continue
 
         total_duration = (time.time() - start_time) / 60
-        console.rule(f"[bold green] BATCH FINISHED IN {total_duration:.2f} MINS[/bold green]")
+        console.rule(f"[bold green]BATCH FINISHED IN {total_duration:.2f} MINS[/bold green]")
 
 if __name__ == "__main__":
     main()

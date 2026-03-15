@@ -1,0 +1,57 @@
+### 1. PROJECT CONTEXT
+
+**THEME:**
+{theme}
+
+**GENRE:**
+{genre}
+
+**World Setting:**
+{world_setting}
+
+**Story History (Merged Context):**
+{previous_context}
+
+**Immediate Context (Last Scene):**
+{last_scene_context}
+
+---
+
+### 2. SCENE SOURCE MATERIAL
+**Full Chapter Detail JSON:**
+{chapter_detail}
+
+* **Narrative Focus:** {narrative_focus}
+    * *Instruction:* Narrative Focus is the description of events occuring in the story.
+
+
+**Critical Metadata:**
+* **Emotional Trajectory:** {emotional_trajectory}
+    * *Instruction:* Treat this as a **Fixed Atmosphere** instruction. Just execute the mood.
+---
+
+
+### 3. NAVIGATION & LOGIC (CRITICAL)
+**System Instruction:** You must steer the story towards the following target.
+
+**NEXT CHAPTER INFO & Routing Instruction:**
+{next_chapter_info}
+
+**REQUIRED DECISION OUTCOMES:**
+*You must end the script exactly with these options:*
+{decision_logic}
+
+---
+
+### TASK (STRONG BASELINE EXECUTION)
+Craft a detailed **Draft Narrative Manuscript** for **Chapter {chapter_id}: {chapter_title}**.
+
+**EXECUTION GUIDELINES:**
+1.  **Check Entry Condition:** Look at the `entry_condition` in the JSON. Start Scene 1 by reacting to that specific context.
+2.  **Expand, Don't Reinvent:** Your job is to flesh out the `scene_outline` from the JSON into full dialogue and prose. Do not deviate from the listed events.
+3.  **Handling The Ending:**
+    * Build tension up to the moment of choice.
+    * **DO NOT** resolve the choice. Stop exactly at the decision point.
+    * Use the labels provided in **REQUIRED DECISION OUTCOMES** verbatim.
+
+Output the draft text now.

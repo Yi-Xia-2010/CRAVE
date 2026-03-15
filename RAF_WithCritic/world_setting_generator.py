@@ -11,7 +11,7 @@ from utils import (
     MODEL_LOGIC
 )
 
-def run_step_1(api_key, theme, genre, chapters="15"):
+def run_step_1(api_key, theme, genre, chapters="6"):
 
     sys_prompt = load_prompt_template("prompts/StorySetting_Sys.txt")
     user_prompt_tmpl = load_prompt_template("prompts/StorySetting_User.txt")
@@ -25,7 +25,7 @@ def run_step_1(api_key, theme, genre, chapters="15"):
         chapters=chapters
     )
 
-    print(f"Generating World Setting for: {theme} ({genre})...")    
+    print(f"Generating World Setting for: {theme} ({genre})...")
 
     response = call_gpt_api(
         api_key=api_key,
@@ -39,10 +39,10 @@ def run_step_1(api_key, theme, genre, chapters="15"):
 
 def main():
     parser = argparse.ArgumentParser(description="Step 1: Generate World Setting (Project Initialization)")
-    
+
     parser.add_argument("--theme", type=str, required=True, help="Story theme (e.g. Cyberpunk)")
     parser.add_argument("--genre", type=str, required=True, help="Story genre (e.g. Detective)")
-    
+
     parser.add_argument("--chapters", type=str, default="15", help="Estimated chapter length")
     parser.add_argument("--tag", type=str, help="Unique tag for folder naming (e.g. Story_1)")
     parser.add_argument("--no-input", action="store_true", help="Skip interactive confirmation")
@@ -62,7 +62,7 @@ def main():
         try:
             world_data = json.loads(result_json_str)
             
-            print("\nWorld Setting Generated Successfully!")
+            print("\n World Setting Generated Successfully!")
             print(f"   Preview: {str(world_data)[:300]}...\n")
 
             safe_theme = sanitize_filename(args.theme)
@@ -77,12 +77,10 @@ def main():
                 folder_name = f"World_{timestamp}"
                 filename = f"world_setting_{timestamp}.json"
 
-
             if args.project_path:
                 save_dir = args.project_path
                 os.makedirs(save_dir, exist_ok=True)
             else:
-
                 save_dir = os.path.join("results", safe_theme, safe_genre, folder_name)
             
             saved_path = save_json_file(world_data, save_dir, filename)

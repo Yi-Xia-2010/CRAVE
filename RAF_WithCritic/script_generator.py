@@ -5,6 +5,7 @@ import glob
 import argparse
 import hashlib
 import re
+from judge import StoryJudge
 
 from utils import (
     get_api_key, 
@@ -13,6 +14,7 @@ from utils import (
     MODEL_LOGIC,
     sanitize_filename 
 )
+
 
 MAX_LABEL_LENGTH = 30 
 
@@ -23,7 +25,6 @@ def get_latest_file(pattern):
     return max(files, key=os.path.getmtime)
 
 def get_latest_outline_corrected(base_dir):
-
     corrected_pattern = os.path.join(base_dir, "**", "story_outline_*_CORRECTED.json")
     files = glob.glob(corrected_pattern, recursive=True)
     if files: return max(files, key=os.path.getmtime)
@@ -38,7 +39,6 @@ def load_json(filepath):
         return json.load(f)
 
 def generate_context_signature(ancestor_ids):
-
     if not ancestor_ids: return "Start"
     path_str = "-".join(map(str, ancestor_ids))
     return hashlib.md5(path_str.encode('utf-8')).hexdigest()[:6]
@@ -340,6 +340,7 @@ def append_routing_info(output_path, ch_id, decision_data, topology, current_anc
         print(f"[ERROR] Writing routing table to {output_path}: {e}")
 
 def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, last_scene_ctx, decision_data, next_chapter_info, existing_draft=None):
+
     if existing_draft:
         print(f"      [SKIP] Using loaded draft checkpoint.")
         return existing_draft
@@ -380,6 +381,7 @@ def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, las
 
 
 def run_step_4_parse(api_key, draft_text, character_list_str, decision_data, next_chapter_info):
+
     if not draft_text: return None
 
     print(f"      ...Running Parser (Formatting Script)...")
@@ -590,21 +592,37 @@ def main():
 
             print(f"   [Ch {ch_id}] Generating...")
         
-
-            num_generations = 1
+            drafts = []
+            
+            num_generations = 1 if existing_draft else 3
+            
             for i in range(num_generations):
                 res_draft = run_step_4_draft(
                     api_key, world_str, args.theme, args.genre, ch_data, history_str, 
                     last_scene_ctx, final_decision_data, next_chapter_info,
                     existing_draft=existing_draft
                 )
-                
+                if res_draft:
+                    drafts.append(res_draft)
+
+            if not drafts:
+                print(f"      [ERROR] Failed to generate drafts.")
+                continue
+
+            # NEW: JUDGE HERE 
+            if len(drafts) > 1:
+                judge = StoryJudge(role="Script_draft_judge", model=MODEL_LOGIC)
+                best_script_index = judge.judging(drafts, story_type, args.genre, args.id, draft_filename, ch_data.get('emotional_trajectory', 'Developing'))
+                best_draft = drafts[best_script_index]
+            else:
+                best_draft = drafts[0]
 
             # NEW: PARSE ONLY THE BEST DRAFT 
             res_script = run_step_4_parse(
-                api_key, res_draft, character_list_str, final_decision_data, next_chapter_info
+                api_key, best_draft, character_list_str, final_decision_data, next_chapter_info
             )
             
+            res_draft = best_draft
 
             if res_draft and not existing_draft:
                 with open(draft_path, 'w', encoding='utf-8') as f:

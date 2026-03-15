@@ -1,0 +1,24 @@
+ARC TYPE : {story_type}
+THEME : {game_theme}
+GENRE : {genre}
+
+Here is the different versions of the story outline in the specific order:
+
+---
+{story_order}
+---
+
+As a fair judge, determine which story outline demonstrates the **most correct, consistent, and narratively effective use of valence and arousal progression** across all chapters.
+Do not reject anything on the basis of "invalid story outline", if you get anything in this order or order similar to it: "ID->[1] (story content) \nID->[2] (story content) and so on."
+
+After judging you should only give a single number (between 1,2,3) which is the order number/ ID number of the best story outline. (ID numbers are provided as #ID->[1] for 1st story outline (ID number is 1), #ID->[2] for 2nd story outline and so on (ID number is 2).)
+
+for example, if you judge the 2nd story outline as the best, then just put best as : 2.
+
+Return the answer as a JSON format which contains:
+{{
+    "best" : ID Number of the best story outline
+}}
+
+** STRICTLY FOLLOW THE JSON FORMAT AND IT MUST CONTAIN THE "best" KEY.
+** YOU SHOULD GIVE ANSWER, BE SURE TO PROVIDE FAIR ANSWER.

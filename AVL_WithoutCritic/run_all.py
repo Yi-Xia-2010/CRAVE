@@ -153,7 +153,7 @@ def main():
                 continue
 
         total_duration = (time.time() - start_time) / 60
-        console.rule(f"[bold green]🎉 BATCH FINISHED IN {total_duration:.2f} MINS[/bold green]")
+        console.rule(f"[bold green] BATCH FINISHED IN {total_duration:.2f} MINS[/bold green]")
 
 if __name__ == "__main__":
     main()

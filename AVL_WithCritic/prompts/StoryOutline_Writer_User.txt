@@ -1,0 +1,39 @@
+**WORLD SETTING (Characters & Lore):**
+{world_setting_json}
+
+**TARGET EMOTIONAL ARC:**
+{selected_arc_type_name}
+**DEFINITION:**
+{arc_definition_description}
+
+**CONSTRAINTS:**
+- Estimated Depth: {chapters} chapters per route.
+
+**GAME THEME:**
+- {game_theme}
+
+**GENRE:**
+- {genre}
+
+**ARC TYPE:**
+- {story_type}
+
+**TASK:**
+Write a creative story outline in Markdown.
+
+**STRUCTURE REQUIREMENTS (CRITICAL):**
+1. **Sequential Writing Order:**
+   - Step 1: Write the **Common Route** (Start to Split).
+   - Step 2: Write the **ENTIRETY of Branch A** (from Split to Ending).
+   - Step 3: Write the **ENTIRETY of Branch B** (from Split to Ending).
+2. **Linking:** Use "Entry Condition" to explicitly link the start of Branch B back to the end of the Common Route.
+3. **No Dead Ends:** Ensure every branch connects to a valid next chapter ID or an Ending.
+
+**NARRATIVE REQUIREMENTS:**
+1. **Emotional Control:** Label every chapter [Valance] and [Arousal] as well as [Rise] or [Fall] based on the Target Arc provided above.
+2. **Valance:** Label every chapter [Valance] based on the Target Arc provided above.
+3. **Arousal:** Label every chapter [Arousal] based on the Target Arc provided above.
+4. **Visual Consistency:** Do not invent new character designs; use the provided ones.
+5. **POV:** Strictly First-Person.
+
+Start drafting the outline now.

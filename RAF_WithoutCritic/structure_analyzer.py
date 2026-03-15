@@ -17,6 +17,7 @@ except ImportError:
 
 # 1. Basic Utilities
 def get_latest_outline(base_dir="results"):
+
     search_pattern = os.path.join(base_dir, "**", "story_outline_*.json")
     files = glob.glob(search_pattern, recursive=True)
     raw_files = [f for f in files if "_CORRECTED" not in f]
@@ -44,6 +45,7 @@ def clean_title_fuzzy(title):
     return clean.strip().lower()
 
 def find_target_by_priority(parent_id, target_info, id_map, existing_connections):
+
     target_title = target_info.get('target_chapter_title', '')
     target_id = target_info.get('target_chapter_id') or target_info.get('target_chapter_index')
     target_branch = target_info.get('target_branch', '')
@@ -167,20 +169,22 @@ def find_all_paths(graph, start_node):
 def parse_entry_condition(entry_condition):
 
     if not entry_condition:
-        return None, None
+        return [], None
 
     entry_lower = entry_condition.lower().strip()
 
     if entry_lower.startswith("none") or "start" in entry_lower:
-        return None, "start"
+        return [], "start"
 
-    match = re.search(r'from chapter\s+(\d+)', entry_lower)
-    if not match:
-        return None, None
+    chapter_section = re.split(r',\s*option', entry_lower)[0]
 
-    parent_idx = int(match.group(1))
+    parent_indices = [int(m) for m in re.findall(r'\d+', chapter_section)]
+
+    if not parent_indices:
+        return [], None
+
     link_type = "option" if "option" in entry_lower else "default"
-    return parent_idx, link_type
+    return parent_indices, link_type
 
 
 def rescue_orphans_by_entry_condition(
@@ -222,68 +226,81 @@ def rescue_orphans_by_entry_condition(
     for ch in orphans:
         uid = ch.get('id') or ch.get('chapter_index')
         entry = ch.get('entry_condition', '')
-        parent_idx, link_type = parse_entry_condition(entry)
+        parent_indices, link_type = parse_entry_condition(entry)
 
-        if parent_idx is None:
+        if not parent_indices:
             log.append(f"  Ch{uid}: No parseable entry_condition, skipping.")
             continue
 
-        parent_id = index_to_id.get(parent_idx)
-        if parent_id is None and parent_idx in id_map:
-            parent_id = parent_idx
+        for parent_idx in parent_indices:
+            parent_id = index_to_id.get(parent_idx)
+            if parent_id is None and parent_idx in id_map:
+                parent_id = parent_idx
 
-        if parent_id is None:
-            fallback = start_node_id
-            if fallback == uid or (uid, fallback) in existing_connections:
-                log.append(
-                    f"  Ch{uid}: Parent Ch{parent_idx} missing; "
-                    f"fallback Ch{fallback} skipped (self-loop or reverse edge)."
-                )
-                continue
-            if (fallback, uid) in existing_connections:
-                log.append(f"  Ch{uid}: Already connected from Ch{fallback}.")
-                has_parent.add(uid)
-                continue
-
-            existing_connections.add((fallback, uid))
-            children_map.setdefault(fallback, [])
-            if uid not in children_map[fallback]:
-                children_map[fallback].append(uid)
-            has_parent.add(uid)
-            log.append(
-                f"  [TypeB] Ch{fallback}(start) --> Ch{uid} "
-                f"(parent Ch{parent_idx} missing, fallback to start node)"
-            )
-            added += 1
-            continue
-
-        if parent_id == uid:
-            continue
-        if (parent_id, uid) in existing_connections:
-            has_parent.add(uid)
-            continue
-        if (uid, parent_id) in existing_connections:
-            log.append(f"  Ch{uid}: Reverse edge to Ch{parent_id} exists, skipping.")
-            continue
-
-        parent_ch = id_map[parent_id]
-        parent_decision = parent_ch.get('major_decision_point', {})
-        parent_has_choice = parent_decision.get('has_choice', False)
-
-        if parent_has_choice:
-            options = parent_decision.get('options', [])
-            fixed = False
-            entry_lower = entry.lower()
-
-            for opt in options:
-                opt_target = opt.get('target_chapter_index') or opt.get('target_chapter_id')
-                if opt_target and int(opt_target) != -1:
+            if parent_id is None:
+                fallback = start_node_id
+                if fallback == uid or (uid, fallback) in existing_connections:
+                    log.append(
+                        f"  Ch{uid}: Parent Ch{parent_idx} missing; "
+                        f"fallback Ch{fallback} skipped (self-loop or reverse edge)."
+                    )
+                    continue
+                if (fallback, uid) in existing_connections:
+                    log.append(f"  Ch{uid}: Already connected from Ch{fallback}.")
+                    has_parent.add(uid)
                     continue
 
-                opt_label = opt.get('label', '').strip()
-                if opt_label:
-                    first_letter = opt_label[0].lower()
-                    if re.search(r'\boption\b.*\b' + re.escape(first_letter) + r'\b', entry_lower):
+                existing_connections.add((fallback, uid))
+                children_map.setdefault(fallback, [])
+                if uid not in children_map[fallback]:
+                    children_map[fallback].append(uid)
+                has_parent.add(uid)
+                log.append(
+                    f"  [TypeB] Ch{fallback}(start) --> Ch{uid} "
+                    f"(parent Ch{parent_idx} missing, fallback to start node)"
+                )
+                added += 1
+                continue
+
+            if parent_id == uid:
+                continue
+            if (parent_id, uid) in existing_connections:
+                has_parent.add(uid)
+                continue
+            if (uid, parent_id) in existing_connections:
+                log.append(f"  Ch{uid}: Reverse edge to Ch{parent_id} exists, skipping.")
+                continue
+
+            parent_ch = id_map[parent_id]
+            parent_decision = parent_ch.get('major_decision_point', {})
+            parent_has_choice = parent_decision.get('has_choice', False)
+
+            if parent_has_choice:
+                options = parent_decision.get('options', [])
+                entry_lower = entry.lower()
+
+                entry_option_letters = set(
+                    m.lower()
+                    for m in re.findall(r'\b([a-z])\b', entry_lower.split('option', 1)[-1])
+                    if m.lower() not in ('or', 'and')
+                ) if 'option' in entry_lower else set()
+
+                def _option_letter(opt_label, position):
+                    m = re.search(r'\b([A-Za-z])\b', opt_label)
+                    if m and m.group(1).upper() in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+                        return m.group(1).lower()
+                    return chr(ord('a') + position) if position < 26 else None
+
+                fixed_count = 0
+                for opt_pos, opt in enumerate(options):
+                    opt_target = opt.get('target_chapter_index') or opt.get('target_chapter_id')
+                    if opt_target and int(opt_target) != -1:
+                        continue
+
+                    opt_label = opt.get('label', '').strip()
+                    opt_letter = _option_letter(opt_label, opt_pos)
+
+                    if opt_letter and entry_option_letters and opt_letter in entry_option_letters:
                         opt['target_chapter_index'] = uid
                         opt['target_chapter_id'] = uid
                         existing_connections.add((parent_id, uid))
@@ -292,45 +309,44 @@ def rescue_orphans_by_entry_condition(
                             children_map[parent_id].append(uid)
                         has_parent.add(uid)
                         log.append(
-                            f"  [TypeC] Ch{parent_id}.option['{opt.get('label')}'] "
-                            f"target -1 → {uid} (entry_condition reverse inference)"
+                            f"  [TypeC] Ch{parent_id}.option['{opt_label}'] "
+                            f"target -1 → {uid} (letter '{opt_letter.upper()}' matched entry_condition)"
                         )
-                        fixed = True
+                        fixed_count += 1
                         added += 1
-                        break
 
-            if not fixed:
+                if fixed_count == 0:
+                    existing_connections.add((parent_id, uid))
+                    children_map.setdefault(parent_id, [])
+                    if uid not in children_map[parent_id]:
+                        children_map[parent_id].append(uid)
+                    has_parent.add(uid)
+                    log.append(
+                        f"  [TypeC-fallback] Ch{parent_id} --> Ch{uid} "
+                        f"(no exact option slot matched, implicit edge added)"
+                    )
+                    added += 1
+
+            else:
                 existing_connections.add((parent_id, uid))
                 children_map.setdefault(parent_id, [])
                 if uid not in children_map[parent_id]:
                     children_map[parent_id].append(uid)
                 has_parent.add(uid)
-                log.append(
-                    f"  [TypeC-fallback] Ch{parent_id} --> Ch{uid} "
-                    f"(no exact option slot matched, implicit edge added)"
-                )
+
+                current_default = parent_ch.get('default_next_chapter', -1)
+                if current_default in (-1, 0, None):
+                    parent_ch['default_next_chapter'] = uid
+                    log.append(
+                        f"  [TypeA] Ch{parent_id}.default_next_chapter "
+                        f"-1 → {uid} (field rewritten + linear edge added)"
+                    )
+                else:
+                    log.append(
+                        f"  [TypeA] Ch{parent_id} --> Ch{uid} "
+                        f"(linear edge added, existing default_next={current_default})"
+                    )
                 added += 1
-
-        else:
-            existing_connections.add((parent_id, uid))
-            children_map.setdefault(parent_id, [])
-            if uid not in children_map[parent_id]:
-                children_map[parent_id].append(uid)
-            has_parent.add(uid)
-
-            current_default = parent_ch.get('default_next_chapter', -1)
-            if current_default in (-1, 0, None):
-                parent_ch['default_next_chapter'] = uid
-                log.append(
-                    f"  [TypeA] Ch{parent_id}.default_next_chapter "
-                    f"-1 → {uid} (field rewritten + linear edge added)"
-                )
-            else:
-                log.append(
-                    f"  [TypeA] Ch{parent_id} --> Ch{uid} "
-                    f"(linear edge added, existing default_next={current_default})"
-                )
-            added += 1
 
     return added, log
 
@@ -526,6 +542,7 @@ def break_cycles_intelligently(children_map, id_map):
 
 # 2.2 Core Smart Analysis Logic
 def analyze_structure(outline_data):
+
     working_data = copy.deepcopy(outline_data)
     chapters = working_data.get('chapter_structure', [])
     
@@ -843,7 +860,7 @@ def analyze_structure(outline_data):
         print(f"      {line}")
 
     if rescue_added > 0:
-        print(f"    entry_condition rescue: +{rescue_added} connection(s) added")
+        print(f"     entry_condition rescue: +{rescue_added} connection(s) added")
         stats['entry_rescue_added'] = rescue_added
         for line in rescue_log:
             if '[TypeA]' in line: stats['entry_rescue_typeA'] += 1
@@ -852,41 +869,34 @@ def analyze_structure(outline_data):
     else:
         print(f"      No additional connections recovered.")
 
-
-    # Step 6.5 may have connected nodes that were still in true_orphans;
-    # rebuild has_parent from children_map (which was updated in-place) and
-    # remove any newly-rescued nodes so the log below is accurate.
     has_parent = set()
     for _p, _clist in children_map.items():
         for _c in _clist:
             has_parent.add(_c)
     true_orphans -= has_parent  # drop nodes that now have a parent
 
-
-    # (Step 4 ran before Step 6.5, so new edges were not checked)
     if rescue_added > 0:
         children_map, extra_cycles, extra_broken = break_cycles_intelligently(children_map, id_map)
         if extra_cycles > 0:
             stats['cycles_broken'] = stats.get('cycles_broken', 0) + extra_cycles
-            print(f"    Post-rescue cycle check: broke {extra_cycles} additional cycle(s)")
+            print(f"  Post-rescue cycle check: broke {extra_cycles} additional cycle(s)")
 
     # Log orphan nodes
     if true_orphans:
-        print(f"    Found {len(true_orphans)} true orphan node(s):")
+        print(f"  Found {len(true_orphans)} true orphan node(s):")
         for oid in sorted(true_orphans):
             node_data = id_map[oid]
             title = node_data.get('chapter_title', 'Unknown')
             branch = node_data.get('branch_designation', 'Unknown')
-            print(f"        Removed {oid}: {title} [{branch}]")
+            print(f"      Removed {oid}: {title} [{branch}]")
     else:
-        print(f"      No orphan nodes found")
+        print(f"   No orphan nodes found")
     
-    # Step 7: Recalculate valid nodes (including all with parents)
+
     valid_node_ids = set()
     # Find all reachable nodes from start
     raw_paths = find_all_paths(children_map, VALID_START_ID)
     
-    # FIX: Rebuild clean_routes here so route count reflects post-rescue topology
     clean_routes = []
 
     if raw_paths:
@@ -922,7 +932,6 @@ def analyze_structure(outline_data):
             valid_node_ids.add(child_id)
     
 
-    # Step 8: Clean graph, remove connections to orphans
     print("   - Step 8: Cleaning connection graph...")
     
     # Clean children_map, remove connections pointing to orphans
@@ -952,7 +961,6 @@ def analyze_structure(outline_data):
                 parent_map[child].append(parent)
     
 
-    # Step 9: Recalculate topology
     print("   - Step 9: Recalculating topology...")
     
     # Ensure all valid nodes have entries in children_map and parent_map
@@ -980,7 +988,6 @@ def analyze_structure(outline_data):
                 parent_map[child].append(parent)
     
 
-    # Step 10: Generate final result
     final_chapters = []
     for cid in sorted(list(valid_node_ids)):
         if cid in id_map:
@@ -1086,7 +1093,7 @@ def generate_graphviz(topology_data, id_map, output_base):
         return
     
     try:
-        dot = Digraph(comment='S.T.A.R.', format='png')
+        dot = Digraph(comment='Structure Analyzer.', format='png')
         dot.attr(rankdir='TB')
         dot.attr('node', shape='rect', style='filled,rounded', fontname='Helvetica')
         
