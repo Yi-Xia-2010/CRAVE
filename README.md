@@ -1,5 +1,5 @@
-# CRAVE: A <u>C<u>ritic <u>R<u>efined <u>A<u>ffective<u>V<u>isual Novel <u>E<u>ngine via Fine-Grained Affective Guidance
-This repository is for the paper "CRAVE: A <u>C<u>ritic <u>R<u>efined <u>A<u>ffective<u>V<u>isual Novel <u>E<u>ngine via Fine-Grained Affective Guidance"
+# CRAVE: A <u>C<u>ritic-<u>R<u>efined <u>A<u>ffective<u>V<u>isual Novel <u>E<u>ngine via Fine-Grained Affective Guidance
+This repository is for the paper "CRAVE: A <u>C<u>ritic-<u>R<u>efined <u>A<u>ffective<u>V<u>isual Novel <u>E<u>ngine via Fine-Grained Affective Guidance"
 
 
 ---
