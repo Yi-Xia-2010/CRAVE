@@ -90,7 +90,7 @@ conda activate vn
 python run_all.py
 ```
 
-Runs Steps 1–4 (world setting → outline → topology → text scripts) for multiple cases in sequence. Theme, genre, and the set of Curve IDs to run are configured by editing the constants at the top of the script:
+Runs Steps 1–4 (world setting → outline → topology → text scripts) for multiple cases in sequence. Theme, genre, and the set of Curve IDs to run are configured by editing the constants at the top of the script.
 
 ---
 
@@ -110,7 +110,7 @@ Step 5   parse                Script parsing (inserts Character/Background tags,
 Step 6   convert              Ren'Py conversion (outputs .rpy files,the code is in the Evaluation folder)
 ```
 
-Step 5 and 6 are not included in CRAVE.  
+Step 5 and 6 are not included in CRAVE. For Step 5 and 6, run the `parse.py` and `convert.py` in the Evaluation foleder.
 To deploy, copy the contents of `chapter_renpy/` into the `game/` directory of a newly created Ren'Py project. And copy the`locations/` and `characters/` into the `game/images/`. 
 
 ---
