@@ -190,7 +190,12 @@ def predict_file(filepath, tokenizer, model, device):
 
 # Route-Level Aggregation
 
-def collect_case_data(case_dir, tokenizer, model, device, base_path, out_root=None):
+# FIX 1: 原函数接收 case_dir，内部再拼接 "Story_Routes"，但调用处传入的已经是
+#         rd.parent（即 case_dir），函数内又做 case_dir / "Story_Routes"，逻辑没错
+#         但冗余绕路。现统一改为直接接收 routes_dir，消除内部重复拼接。
+def collect_case_data(routes_dir, tokenizer, model, device, base_path, out_root=None):
+    case_dir = routes_dir.parent
+
     try:
         rel = case_dir.relative_to(base_path)
     except ValueError:
@@ -208,7 +213,6 @@ def collect_case_data(case_dir, tokenizer, model, device, base_path, out_root=No
     m = re.search(r"Curve_(\d+)", novel_name, re.IGNORECASE)
     curve_name = f"Curve_{m.group(1)}" if m else "unknown"
 
-    routes_dir  = case_dir / "Story_Routes"
     route_metrics = []
 
     if not routes_dir.exists():
@@ -398,96 +402,6 @@ def plot_bar(data_grouped, field, ylabel, title, filename, out_dir, is_pct=False
     plt.savefig(out_dir / filename, dpi=300)
     plt.close()
 
-
-
-# Curve ablation: line plot per method across Curve_1~6
-
-CURVE_ORDER = [f"Curve_{i}" for i in range(1, 7)]
-
-def run_curve_lineplot(route_metrics, out_dir):
-    """
-    For each of the 4 metrics, produce one line plot:
-      x-axis  : Curve_1 … Curve_6
-      y-axis  : mean AS or HSP
-      4 lines : one per method (RAF_NoCritic, RAF_Critic, AVL_NoCritic, AVL_Critic)
-    No statistical tests — purely descriptive.
-    Also saves a summary CSV with mean ± SD per method × curve.
-    """
-    if not route_metrics: return
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    # Build nested dict: data[method][curve] = {field: [values]}
-    from collections import defaultdict as _dd
-    data = _dd(lambda: _dd(lambda: {"v_as": [], "a_as": [], "v_hsp": [], "a_hsp": []}))
-    for rm in route_metrics:
-        for k in ("v_as", "a_as", "v_hsp", "a_hsp"):
-            data[rm["method"]][rm["curve"]][k].append(rm[k])
-
-    # Determine curve order present in data
-    all_curves = sorted({rm["curve"] for rm in route_metrics},
-                        key=lambda c: int(c.split("_")[1]) if c.split("_")[1].isdigit() else 99)
-
-    # Summary CSV 
-    header = ["Method", "Curve",
-              "Valence_AS_Mean", "Valence_AS_SD",
-              "Arousal_AS_Mean", "Arousal_AS_SD",
-              "Valence_HSP_Mean", "Valence_HSP_SD",
-              "Arousal_HSP_Mean", "Arousal_HSP_SD",
-              "N_Routes"]
-    rows = [header]
-    for method in METHODS:
-        for curve in all_curves:
-            d = data[method][curve]
-            if not d["v_as"]: continue
-            rows.append([
-                method, curve,
-                fmt(np.mean(d["v_as"])),  fmt(np.std(d["v_as"],  ddof=1) if len(d["v_as"])  > 1 else 0),
-                fmt(np.mean(d["a_as"])),  fmt(np.std(d["a_as"],  ddof=1) if len(d["a_as"])  > 1 else 0),
-                fmt(np.mean(d["v_hsp"])), fmt(np.std(d["v_hsp"], ddof=1) if len(d["v_hsp"]) > 1 else 0),
-                fmt(np.mean(d["a_hsp"])), fmt(np.std(d["a_hsp"], ddof=1) if len(d["a_hsp"]) > 1 else 0),
-                len(d["v_as"]),
-            ])
-    with open(out_dir / "Curve_Ablation_Summary.csv", "w", newline="", encoding="utf-8") as f:
-        csv.writer(f).writerows(rows)
-
-    # Line plots
-    plot_specs = [
-        ("v_as",  "Valence Affective Salience (AS)",       "Line_Valence_AS.png",  False),
-        ("a_as",  "Arousal Affective Salience (AS)",        "Line_Arousal_AS.png",  False),
-        ("v_hsp", "Valence High-Salience Proportion (%)",   "Line_Valence_HSP.png", True),
-        ("a_hsp", "Arousal High-Salience Proportion (%)",   "Line_Arousal_HSP.png", True),
-    ]
-    plt.style.use("seaborn-v0_8-darkgrid")
-    for field, ylabel, fname, is_pct in plot_specs:
-        fig, ax = plt.subplots(figsize=(10, 5))
-        for method in METHODS:
-            means, errs, xs = [], [], []
-            for i, curve in enumerate(all_curves):
-                vals = data[method][curve][field]
-                if not vals: continue
-                m = np.mean(vals)
-                xs.append(i)
-                means.append(m)
-                ci_lo, ci_hi = compute_mean_ci(vals)
-                errs.append(ci_hi - m if not np.isnan(ci_hi) else 0)
-            if not xs: continue
-            ax.errorbar(xs, means, yerr=errs,
-                        label=method, color=METHOD_COLORS[method],
-                        marker="o", linewidth=2, capsize=4)
-
-        ax.set_xticks(range(len(all_curves)))
-        ax.set_xticklabels(all_curves, rotation=15)
-        ax.set_ylabel(ylabel + (" (%)" if is_pct else ""), fontsize=11)
-        ax.set_title(f"{ylabel} across Curve Types", fontweight="bold", fontsize=11)
-        ax.legend(loc="best", fontsize=9)
-        plt.tight_layout()
-        plt.savefig(out_dir / fname, dpi=300)
-        plt.close()
-        print(f"   [OK] {fname}")
-
-    print(f"   [OK] Curve_Ablation_Summary.csv  ({len(rows)-1} rows)")
-
-
 # Report per level
 
 def run_level(route_metrics, out_dir, title_suffix=""):
@@ -519,7 +433,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Directory layout expected under --results_dir:
-  <method>/results/<Theme>/<Genre>/World_Curve_X_Story_Y/Story_Routes/Route_*.txt
+  <method>/<Theme>/<Genre>/World_Curve_X_Story_Y/Story_Routes/Route_*.txt
 
 Methods recognised: RAF_NoCritic, RAF_Critic, AVL_NoCritic, AVL_Critic
 
@@ -541,7 +455,7 @@ Examples:
     if not model:
         return
 
-    store = defaultdict(list)
+    all_metrics = []
 
     out_root.mkdir(parents=True, exist_ok=True)
 
@@ -552,69 +466,59 @@ Examples:
         print("[Debug] First 3 examples:")
         for rd in route_dirs[:3]:
             print(f"         {rd}")
-    it = tqdm(route_dirs, desc="Processing case dirs") if tqdm else route_dirs
 
+    it = tqdm(route_dirs, desc="Processing case dirs") if tqdm else route_dirs
     for rd in it:
-        rm = collect_case_data(rd.parent, tokenizer, model, device, base_path, out_root)
+        rm = collect_case_data(rd, tokenizer, model, device, base_path, out_root)
         if not rm:
-            print(f"   [Debug] No routes collected from: {rd.parent}")
+            print(f"   [Debug] No routes collected from: {rd}")
             continue
 
         method = rm[0]["method"]
-        theme  = rm[0]["theme"]
-        genre  = rm[0]["genre"]
 
         if method not in METHODS:
-            print(f"   [Skip] Unrecognised method folder: {rd.parent.name} (mapped: {method})")
+            print(f"   [Skip] Unrecognised method folder: {rd.name} (mapped: {method})")
             continue
 
-        store["all"].extend(rm)
+        all_metrics.extend(rm)
 
-
-    if not any(store.values()):
+    if not all_metrics:
         print("\n[Warning] No data collected — check --results_dir path and method folder names.")
         return
 
     print("\nGenerating reports...")
 
-    for key, metrics in store.items():
-        if not metrics:
-            continue
-        if key == "all":
-            run_level(metrics, out_root / "All_Methods", " (All Methods)")
+    run_level(all_metrics, out_root / "All_Methods", " (All Methods)")
 
     # Master route metrics CSV
-    all_metrics = store.get("all", [])
-    if all_metrics:
-        master = out_root / "MASTER_ROUTE_METRICS.csv"
-        with open(master, "w", newline="", encoding="utf-8") as f:
-            fieldnames = ["method", "theme", "genre", "novel", "curve", "route",
-                          "v_as", "a_as", "v_hsp", "a_hsp"]
-            w = csv.DictWriter(f, fieldnames=fieldnames)
-            w.writeheader()
-            w.writerows(all_metrics)
-        print(f"   [OK] MASTER_ROUTE_METRICS.csv  ({len(all_metrics)} routes)")
+    master = out_root / "MASTER_ROUTE_METRICS.csv"
+    with open(master, "w", newline="", encoding="utf-8") as f:
+        fieldnames = ["method", "theme", "genre", "novel", "curve", "route",
+                      "v_as", "a_as", "v_hsp", "a_hsp"]
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows(all_metrics)
+    print(f"   [OK] MASTER_ROUTE_METRICS.csv  ({len(all_metrics)} routes)")
 
-        # Novel-level summary: mean of all routes within each method × novel
-        from collections import defaultdict as _dd
-        novel_data = _dd(lambda: {"v_as": [], "a_as": [], "v_hsp": [], "a_hsp": []})
-        for rm in all_metrics:
-            key = (rm["method"], rm["theme"], rm["genre"], rm["novel"], rm["curve"])
-            for k in ("v_as", "a_as", "v_hsp", "a_hsp"):
-                novel_data[key][k].append(rm[k])
+    # Novel-level summary: mean of all routes within each method × novel
+    novel_data = defaultdict(lambda: {"v_as": [], "a_as": [], "v_hsp": [], "a_hsp": []})
+    for rm in all_metrics:
+        key = (rm["method"], rm["theme"], rm["genre"], rm["novel"], rm["curve"])
+        for k in ("v_as", "a_as", "v_hsp", "a_hsp"):
+            novel_data[key][k].append(rm[k])
 
-        novel_rows = [["method", "theme", "genre", "novel", "curve",
-                       "v_as_mean", "a_as_mean", "v_hsp_mean", "a_hsp_mean", "n_routes"]]
-        for (method, theme, genre, novel, curve), d in sorted(novel_data.items()):
-            novel_rows.append([
-                method, theme, genre, novel, curve,
-                fmt(np.mean(d["v_as"])),  fmt(np.mean(d["a_as"])),
-                fmt(np.mean(d["v_hsp"])), fmt(np.mean(d["a_hsp"])),
-                len(d["v_as"]),
-            ])
-        with open(out_root / "NOVEL_METRICS.csv", "w", newline="", encoding="utf-8") as f:
-            csv.writer(f).writerows(novel_rows)
-        print(f"   [OK] NOVEL_METRICS.csv  ({len(novel_rows)-1} novels)")
+    novel_rows = [["method", "theme", "genre", "novel", "curve",
+                   "v_as_mean", "a_as_mean", "v_hsp_mean", "a_hsp_mean", "n_routes"]]
+    for (method, theme, genre, novel, curve), d in sorted(novel_data.items()):
+        novel_rows.append([
+            method, theme, genre, novel, curve,
+            fmt(np.mean(d["v_as"])),  fmt(np.mean(d["a_as"])),
+            fmt(np.mean(d["v_hsp"])), fmt(np.mean(d["a_hsp"])),
+            len(d["v_as"]),
+        ])
+    with open(out_root / "NOVEL_METRICS.csv", "w", newline="", encoding="utf-8") as f:
+        csv.writer(f).writerows(novel_rows)
+    print(f"   [OK] NOVEL_METRICS.csv  ({len(novel_rows)-1} novels)")
 
     print(f"\n[Done] All outputs saved to: {out_root}")
     print(f"[Done] Absolute path: {out_root.resolve()}")

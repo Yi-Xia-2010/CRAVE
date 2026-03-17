@@ -105,7 +105,7 @@ def main():
                 continue
             else:
                 prog_str = f"{current_count}/{target_count if target_count else '?'}"
-                console.rule(f"[bold yellow]⏳ RESUMING {task_id} ({prog_str})[/bold yellow]")
+                console.rule(f"[bold yellow] RESUMING {task_id} ({prog_str})[/bold yellow]")
 
 
             try:

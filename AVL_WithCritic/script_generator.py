@@ -16,14 +16,11 @@ from utils import (
     sanitize_filename 
 )
 
-# ==========================================
-# 0. Global Configuration
-# ==========================================
+
 MAX_LABEL_LENGTH = 30 
 
-# ==========================================
+
 # 1. Helper Functions
-# ==========================================
 
 def get_latest_file(pattern):
     files = glob.glob(pattern, recursive=True)
@@ -91,9 +88,8 @@ def load_clean_draft(filepath):
         print(f"[WARN] Failed to load draft {filepath}: {e}")
         return None
 
-# ==========================================
+
 # 2. Core Mechanism: Filename Truth
-# ==========================================
 
 def calculate_chapter_filename(chapter_id, branch_name, context_signature, variant_suffix=""):
     """
@@ -142,9 +138,8 @@ def smart_resolve_target_id(option, chapter_lookup):
             
     return -1 # Default to Ending
 
-# ==========================================
+
 # 3. Context & Routing
-# ==========================================
 
 def build_dynamic_context(current_id, path_ids, chapter_lookup, scripts_dir):
     """
@@ -361,9 +356,8 @@ def append_routing_info(output_path, ch_id, decision_data, topology, current_anc
     except Exception as e:
         print(f"[ERROR] Writing routing table to {output_path}: {e}")
 
-# ==========================================
+
 # 4. AI Generation Logic (SPLIT INTO DRAFT & PARSE)
-# ==========================================
 
 def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, last_scene_ctx, decision_data, next_chapter_info, existing_draft=None):
     """Step 4A: Generate the Draft only"""
@@ -408,7 +402,6 @@ def run_step_4_draft(api_key, world_str, theme, genre, ch_data, history_str, las
 
 
 def run_step_4_parse(api_key, draft_text, character_list_str, decision_data, next_chapter_info):
-    """Step 4B: Parse the WINNING draft into final script"""
     if not draft_text: return None
 
     print(f"      ...Running Parser (Formatting Script)...")
@@ -431,9 +424,8 @@ def run_step_4_parse(api_key, draft_text, character_list_str, decision_data, nex
     final_script = call_gpt_api(api_key, parser_sys, parser_user, MODEL_LOGIC, json_mode=False)
     return final_script
 
-# ==========================================
+
 # 5. Main Flow
-# ==========================================
 
 def validate_script_integrity(scripts_dir):
     print("\n[System Integrity Check]")

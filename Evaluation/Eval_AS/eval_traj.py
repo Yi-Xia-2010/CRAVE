@@ -217,8 +217,6 @@ def generate_all_plots(records, out_root):
     print("  Route/<method>/<theme>/<genre>/<novel>/  — per-route Valence + Arousal trajectory")
 
 
-# CLI 
-
 def main():
     parser = argparse.ArgumentParser(
         description="Re-generate route-level trajectory plots from pre-computed sequence CSVs.")

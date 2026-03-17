@@ -365,7 +365,6 @@ class StoryTeller:
         return output
 
     def _process_menu(self, lines, start_index, required_next_file):
-        """Process a menu block to extract choices and nested content."""
         menu_indent = len(lines[start_index]) - len(lines[start_index].lstrip())
         result = {'content': [], 'next_index': start_index + 1}
         

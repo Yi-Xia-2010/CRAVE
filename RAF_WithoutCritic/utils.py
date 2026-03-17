@@ -9,15 +9,6 @@ from openai import OpenAI, RateLimitError, AuthenticationError
 
 load_dotenv()
 
-# MODEL_LOGIC = "llama3.3:70b-instruct-q8_0"      
-# MODEL_EFFICIENT = "llama3.3:70b-instruct-q8_0" # only in case of ollama models, when testing with opeaAI model will use gpt-5-mini.
-
-# MODEL_LOGIC = "deepseek-r1:32b-qwen-distill-fp16"      
-# MODEL_EFFICIENT = "deepseek-r1:32b-qwen-distill-fp16" # only in case of ollama models, when testing with opeaAI model will use gpt-5-mini.
-
-# MODEL_LOGIC = "qwen3:30b-a3b-instruct-2507-fp16"      
-# MODEL_EFFICIENT = "qwen3:30b-a3b-instruct-2507-fp16" # only in case of ollama models, when testing with opeaAI model will use gpt-5-mini.
-
 MODEL_LOGIC = "gpt-5-mini"      
 MODEL_EFFICIENT = "gpt-5-mini" 
 
@@ -119,7 +110,6 @@ def call_gpt_api(api_key, system_prompt, user_prompt, model=MODEL_EFFICIENT, max
 
         except json.JSONDecodeError:
             print(f"Error: API returned invalid JSON in JSON Mode.")
-            # 如果是 JSON 模式但解析失败，可以选择重试
         except RateLimitError:
             print(f"Rate limit hit. Waiting...")
             time.sleep(2 ** (retries + 1))

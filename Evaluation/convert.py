@@ -417,7 +417,6 @@ def convert_txt_to_renpy(input_dir, output_dir, world_setting_path=None, image_r
             ch_idx_to_labels.setdefault(idx, []).append(label)
 
     def label_for_ch_idx(idx):
-        """Return the first label for a given chapter_index (best-effort)."""
         labels = ch_idx_to_labels.get(idx)
         return labels[0] if labels else None
 
