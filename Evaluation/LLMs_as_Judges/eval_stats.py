@@ -27,6 +27,7 @@ from scipy import stats as scipy_stats
 from itertools import combinations
 import statsmodels.formula.api as smf
 import statsmodels.api as sm
+import re
 
 
 
@@ -104,7 +105,7 @@ def normalize_df(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-import re
+
 
 def get_sig_asterisks(p_value: float) -> str:
     if np.isnan(p_value): return ""
