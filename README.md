@@ -1,7 +1,7 @@
 # CRAVE: A <u>C<u>ritic-<u>R<u>efined <u>A<u>ffective <u>V<u>isual Novel <u>E<u>ngine via Fine-Grained Affective Guidance
 This repository is for the paper "CRAVE: A <u>C<u>ritic-<u>R<u>efined <u>A<u>ffective <u>V<u>isual Novel <u>E<u>ngine via Fine-Grained Affective Guidance"
 
-
+If you encounter a filename issue, see the Notes part.
 ---
 
 ## Table of Contents
@@ -55,7 +55,7 @@ AVL_WithCritic/
                 ├── story_outline_*.json
                 ├── project_topology.json
                 ├── *_CORRECTED.json
-                ├── Chapters_Detail/
+                ├── judging_drafts/     #candidates for Critic to select
                 ├── Scripts_Text/
                 ├── Processed_Scripts/  #output from the parse.py in the Evaluation foleder
                 ├── chapter_renpy/      #output from the convert.py in the Evaluation foleder
@@ -142,6 +142,58 @@ results/<Theme>/<Genre>/World_Curve_<X>_Story_<Y>/
 
 ## Notes
 
+### ⚠️ For Windows Users: "Filename too long" Error
+
+When cloning this repository on Windows, you might encounter a `Filename too long` error. This happens because the project contains deep directory structures that exceed the default Windows path length limit (260 characters), combined with Git's default security settings.
+
+You can easily resolve this issue using one of the two methods below:
+
+#### Method 1: Enable Git Long Paths Support (Recommended)
+
+**If you are using the Git CLI:**
+Open your terminal (PowerShell or Command Prompt) as an Administrator and run the following command:
+`bash
+git config --system core.longpaths true
+`
+
+**If you are strictly using GitHub Desktop (without a standalone Git installation):**
+1. Press `Win + R`, type `%USERPROFILE%`, and press Enter to open your user home directory.
+2. Locate the `.gitconfig` file and open it with Notepad.
+3. Add the following configuration to the bottom of the file and save:
+   ```text
+   [core]
+       longpaths = true
+
+
+#### 📦 If You Downloaded the Repository as a ZIP File
+
+If you chose to **"Download ZIP"** instead of cloning the repository, the built-in Windows extraction tool might fail or skip files due to the 260-character path limit. 
+
+Here are the two best ways to fix it:
+
+**Solution 1: Use a robust extraction tool (Recommended & Easiest)**
+Use a third-party archiving tool like [WinRAR]. Unlike the native Windows Explorer, WinRAR is designed to bypass the 260-character path limit automatically. Simply open the downloaded `.zip` file with WinRAR and extract it.
+
+**Solution 2: Enable Long Path Support in Windows (System-Wide)**
+If you are using Windows 10 (version 1607 or later) or Windows 11, you can permanently remove the 260-character limit at the OS level. This will solve extraction issues once and for all.
+
+* **Using PowerShell (Fastest):**
+  1. Open the Start menu, search for **Windows PowerShell**, right-click it, and select **Run as administrator**.
+  2. Copy and paste the following command, then press Enter:
+     ```powershell
+     New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+     ```
+  3. Restart your computer for the changes to take effect.
+
+* **Using Registry Editor (GUI):**
+  1. Press `Win + R`, type `regedit`, and press Enter.
+  2. Navigate to `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`.
+  3. Double-click the item named `LongPathsEnabled`, change the **Value data** to `1`, and click **OK**.
+  4. Restart your computer.
+
+
+
+### Others
 **Curve ID (1–6)** controls the narrative arc structure applied to the story. The exact definition of each arc is determined internally by `outline_generator.py`.
 
 **Case archives** — `All_Generated_Cases/` contains all test-generated cases (text output only, no image assets.). 
