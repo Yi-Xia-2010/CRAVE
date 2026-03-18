@@ -27,7 +27,7 @@ If you encounter a filename issue, see the Notes part.
 | `RAF_WithCritic/` | Rise and Fall (RAF) cue guidance variant with the Critic enabled |
 | `RAF_WithoutCritic/` | **Baseline** — Rise and Fall (RAF) cue guidance without the Critic module |
 | `All_Generated_Cases/` | Archive of all test-generated cases (text output only, no image assets) |
-| `Evaluation/` | Evaluation scripts and results |
+| `Evaluation/` | Evaluation scripts and all results |
 | `supplementary_file.pdf` | Supplementary material including detailed statistical test tables, condensed prompts used across pipeline components and stages, and the LLM-as-a-judge evaluation prompt |
 | `LICENSE` | Project license |
 | `README.md` | This file |
