@@ -28,7 +28,7 @@ If you encounter a filename issue, see the Notes part.
 | `RAF_WithoutCritic/` | **Baseline** — Rise and Fall (RAF) cue guidance without the Critic module |
 | `All_Generated_Cases/` | Archive of all test-generated cases (text output only, no image assets) |
 | `Evaluation/` | Evaluation scripts and all results |
-| `supplementary_file.pdf` | Supplementary material including Exemplar Selection Protocol, implementation details, demographic grounding for the corpus, statistical test tables, condensed prompts used across pipeline components and stages, the LLM-as-a-judge evaluation prompt, qualitative comparison of accepted and rejected candidate Drafts and token consumption estimates  |
+| `supplementary_file.pdf` | Supplementary material including exemplar selection protocol, implementation details, demographic grounding for the corpus, statistical test tables, condensed prompts used across pipeline components and stages, the LLM-as-a-judge evaluation prompt, qualitative comparison of accepted and rejected candidate drafts and token consumption estimates  |
 | `LICENSE` | Project license |
 | `README.md` | This file |
 
