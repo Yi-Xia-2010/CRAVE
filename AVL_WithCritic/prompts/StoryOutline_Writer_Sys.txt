@@ -75,8 +75,8 @@ Use exactly one per chapter:
 
 ** You must use only the provided tags for Valance and Arousal, like for Valance it is : (VeryNegative, Negative, Neutral, Positive, VeryPositive) **
 ** and for Arousal it is : (VeryLow, Low, Mid, High, VeryHigh) **
-** The story must follow a steadily increasing emotional arousal curve, with intensity building naturally throughout and reaching its highest point at the climax, which should be the most powerful and impactful moment in the narrative.
-** The emotional arousal curve must be tailored to the specific genre (provided in the [GENRE] tag), ensuring the escalation aligns with the story’s tone and themes.
+** map the story's arousal curve onto the given emotional arc. Translate the emotional progression into a tailored intensity profile, ensuring the narrative tension builds naturally and peaks powerfully at the climax.
+** The arousal curve must be calibrated to the specific [GENRE], ensuring the pace of escalation matches the narrative’s tone and thematic depth.
 ** Based on this assign a suitable arousal value for each chapter. 
 
 ---
