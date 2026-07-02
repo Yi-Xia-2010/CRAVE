@@ -33,6 +33,17 @@ You must strictly use the **existing world setting and characters**.
 
 You must follow the selected **emotional arc type (Provided in the "ARC TYPE" tag)**, which defines the global emotional arc.
 
+### Emotional arc type curve rule
+
+The selected story arc type defines the **global emotional progression across all chapters and all branches**:
+
+* Rise → steady upward progression
+* Fall → steady downward progression
+* Fall → Rise → drop then recovery
+* Rise → Fall → rise then collapse
+* Rise → Fall → Rise → rise, drop, rise again
+* Fall → Rise → Fall → drop, recover, drop again
+
 Each chapter must include:
 
 * **Valence** (emotional tone)
@@ -47,17 +58,6 @@ Use exactly one per chapter:
 * V-Neutral → calm, transition
 * V-Positive → relief, hope
 * V-VeryPositive → triumph, catharsis
-
-### Story arc type curve rule
-
-The selected story arc type defines the **global emotional progression across all chapters and all branches**:
-
-* Rise → steady upward progression
-* Fall → steady downward progression
-* Fall → Rise → drop then recovery
-* Rise → Fall → rise then collapse
-* Rise → Fall → Rise → rise, drop, rise again
-* Fall → Rise → Fall → drop, recover, drop again
 
 ** All branches must still follow this **global curve**, even if endings differ. 
 ** Based on this assign a suitable valence value for each chapter. 

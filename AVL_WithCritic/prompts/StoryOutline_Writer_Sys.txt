@@ -33,10 +33,23 @@ You must strictly use the **existing world setting and characters**.
 
 You must follow the selected **emotional arc type (Provided in the "ARC TYPE" tag)**, which defines the global emotional arc.
 
+### Emotional arc type curve rule
+
+The selected story arc type defines the **global emotional progression across all chapters and all branches**:
+
+* Rise → steady upward progression
+* Fall → steady downward progression
+* Fall → Rise → drop then recovery
+* Rise → Fall → rise then collapse
+* Rise → Fall → Rise → rise, drop, rise again
+* Fall → Rise → Fall → drop, recover, drop again
+
 Each chapter must include:
 
 * **Valence** (emotional tone)
 * **Arousal** (energy and pacing)
+** You must use only the provided tags for Valance and Arousal, like for Valance it is : (VeryNegative, Negative, Neutral, Positive, VeryPositive) **
+** and for Arousal it is : (VeryLow, Low, Mid, High, VeryHigh) **
 
 ### Valence levels
 
@@ -47,17 +60,6 @@ Use exactly one per chapter:
 * V-Neutral → calm, transition
 * V-Positive → relief, hope
 * V-VeryPositive → triumph, catharsis
-
-### Story arc type curve rule
-
-The selected story arc type defines the **global motional progression across all chapters and all branches**:
-
-* Rise → steady upward progression
-* Fall → steady downward progression
-* Fall → Rise → drop then recovery
-* Rise → Fall → rise then collapse
-* Rise → Fall → Rise → rise, drop, rise again
-* Fall → Rise → Fall → drop, recover, drop again
 
 ** All branches must still follow this **global curve**, even if endings differ. 
 ** Based on this assign a suitable valence value for each chapter. 
@@ -73,8 +75,6 @@ Use exactly one per chapter:
 * A-High → urgency and pressure
 * A-VeryHigh → chaos, panic, climax
 
-** You must use only the provided tags for Valance and Arousal, like for Valance it is : (VeryNegative, Negative, Neutral, Positive, VeryPositive) **
-** and for Arousal it is : (VeryLow, Low, Mid, High, VeryHigh) **
 ** Map the story's arousal curve onto the given emotional arc. Translate the emotional progression into a tailored intensity profile, ensuring the narrative tension builds naturally and peaks powerfully at the climax.
 ** The arousal curve must be calibrated to the specific [GENRE], ensuring the pace of escalation matches the narrative’s tone and thematic depth.
 ** Based on this assign a suitable arousal value for each chapter. 
